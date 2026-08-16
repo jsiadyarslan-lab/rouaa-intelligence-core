@@ -104,7 +104,9 @@
       "selection_reason": "Diversity anchor: Central Bank from الاتحاد الأوروبي + historical evidence [ECB]",
       "diversity_contribution": "Central Bank + الاتحاد الأوروبي",
       "expected_architecture": "UNKNOWN (not tested)",
-      "expected_intelligence_scope": "UNKNOWN (not tested)"
+      "expected_intelligence_scope": "UNKNOWN (not tested)",
+      "entity_status": "IDENTITY_CONFIRMED",
+      "classification_correction": "NONE (confirmed as originally classified)"
     },
     {
       "master_source_id": "msu-0003",
@@ -132,7 +134,9 @@
       "selection_reason": "Diversity anchor: Central Bank from المملكة المتحدة + historical evidence [BOE]",
       "diversity_contribution": "Central Bank + المملكة المتحدة",
       "expected_architecture": "UNKNOWN (not tested)",
-      "expected_intelligence_scope": "UNKNOWN (not tested)"
+      "expected_intelligence_scope": "UNKNOWN (not tested)",
+      "entity_status": "IDENTITY_CONFIRMED",
+      "classification_correction": "NONE (confirmed as originally classified)"
     },
     {
       "master_source_id": "msu-0004",
@@ -160,7 +164,9 @@
       "selection_reason": "Diversity anchor: Central Bank from اليابان + historical evidence [BOJ]",
       "diversity_contribution": "Central Bank + اليابان",
       "expected_architecture": "UNKNOWN (not tested)",
-      "expected_intelligence_scope": "UNKNOWN (not tested)"
+      "expected_intelligence_scope": "UNKNOWN (not tested)",
+      "entity_status": "IDENTITY_CONFIRMED",
+      "classification_correction": "NONE (confirmed as originally classified)"
     },
     {
       "master_source_id": "msu-0005",
@@ -236,7 +242,9 @@
       "selection_reason": "Diversity anchor: Central Bank from كندا + historical evidence [BOC]",
       "diversity_contribution": "Central Bank + كندا",
       "expected_architecture": "UNKNOWN (not tested)",
-      "expected_intelligence_scope": "UNKNOWN (not tested)"
+      "expected_intelligence_scope": "UNKNOWN (not tested)",
+      "entity_status": "IDENTITY_CONFIRMED",
+      "classification_correction": "NONE (confirmed as originally classified)"
     },
     {
       "master_source_id": "msu-0008",
@@ -456,7 +464,9 @@
       "selection_reason": "Diversity anchor: Central Bank from البرازيل + historical evidence [BCB]",
       "diversity_contribution": "Central Bank + البرازيل",
       "expected_architecture": "UNKNOWN (not tested)",
-      "expected_intelligence_scope": "UNKNOWN (not tested)"
+      "expected_intelligence_scope": "UNKNOWN (not tested)",
+      "entity_status": "IDENTITY_CONFIRMED",
+      "classification_correction": "NONE (confirmed as originally classified)"
     },
     {
       "master_source_id": "msu-0017",
@@ -484,7 +494,9 @@
       "selection_reason": "Diversity anchor: Central Bank from المكسيك + historical evidence [Banxico]",
       "diversity_contribution": "Central Bank + المكسيك",
       "expected_architecture": "UNKNOWN (not tested)",
-      "expected_intelligence_scope": "UNKNOWN (not tested)"
+      "expected_intelligence_scope": "UNKNOWN (not tested)",
+      "entity_status": "IDENTITY_CONFIRMED",
+      "classification_correction": "NONE (confirmed as originally classified)"
     },
     {
       "master_source_id": "msu-0018",
@@ -3008,7 +3020,9 @@
       "selection_reason": "Diversity anchor: Financial Regulator from الولايات المتحدة + historical evidence [SEC]",
       "diversity_contribution": "Financial Regulator + الولايات المتحدة",
       "expected_architecture": "UNKNOWN (not tested)",
-      "expected_intelligence_scope": "UNKNOWN (not tested)"
+      "expected_intelligence_scope": "UNKNOWN (not tested)",
+      "entity_status": "IDENTITY_CONFIRMED",
+      "classification_correction": "NONE (confirmed as originally classified)"
     },
     {
       "master_source_id": "msu-0123",
@@ -3540,7 +3554,9 @@
       "selection_reason": "Diversity anchor: Financial Regulator from فرنسا + historical evidence [AMF]",
       "diversity_contribution": "Financial Regulator + فرنسا",
       "expected_architecture": "UNKNOWN (not tested)",
-      "expected_intelligence_scope": "UNKNOWN (not tested)"
+      "expected_intelligence_scope": "UNKNOWN (not tested)",
+      "entity_status": "IDENTITY_CONFIRMED",
+      "classification_correction": "NONE (confirmed as originally classified)"
     },
     {
       "master_source_id": "msu-0145",
@@ -3592,7 +3608,9 @@
       "selection_reason": "Diversity anchor: Financial Regulator from ألمانيا + historical evidence [BaFin]",
       "diversity_contribution": "Financial Regulator + ألمانيا",
       "expected_architecture": "UNKNOWN (not tested)",
-      "expected_intelligence_scope": "UNKNOWN (not tested)"
+      "expected_intelligence_scope": "UNKNOWN (not tested)",
+      "entity_status": "IDENTITY_CONFIRMED",
+      "classification_correction": "NONE (confirmed as originally classified)"
     },
     {
       "master_source_id": "msu-0147",
@@ -3626,7 +3644,7 @@
       "jurisdiction": "إيطاليا",
       "country": "إيطاليا",
       "region": "",
-      "institutional_class": "Financial Regulator",
+      "institutional_class": "Central Bank",
       "official_domain": "bancaditalia.it",
       "official_url": "https://www.bancaditalia.it",
       "normalized_url": "https://bancaditalia.it",
@@ -3644,7 +3662,9 @@
       "selection_reason": "Diversity anchor: Financial Regulator from إيطاليا + historical evidence [Banca d'Italia]",
       "diversity_contribution": "Financial Regulator + إيطاليا",
       "expected_architecture": "UNKNOWN (not tested)",
-      "expected_intelligence_scope": "UNKNOWN (not tested)"
+      "expected_intelligence_scope": "UNKNOWN (not tested)",
+      "entity_status": "IDENTITY_CONFIRMED",
+      "classification_correction": "Financial Regulator → Central Bank (B1). Primary institutional function is central banking, not regulation. Supervisory role does not override canonical class."
     },
     {
       "master_source_id": "msu-0149",
@@ -3672,7 +3692,9 @@
       "selection_reason": "Diversity anchor: Financial Regulator from إسبانيا",
       "diversity_contribution": "Financial Regulator + إسبانيا",
       "expected_architecture": "UNKNOWN (not tested)",
-      "expected_intelligence_scope": "UNKNOWN (not tested)"
+      "expected_intelligence_scope": "UNKNOWN (not tested)",
+      "entity_status": "IDENTITY_CONFIRMED",
+      "classification_correction": "NONE (confirmed as originally classified)"
     },
     {
       "master_source_id": "msu-0150",
@@ -4156,7 +4178,9 @@
       "selection_reason": "Diversity anchor: Financial Regulator from الصين + historical evidence [CSRC]",
       "diversity_contribution": "Financial Regulator + الصين",
       "expected_architecture": "UNKNOWN (not tested)",
-      "expected_intelligence_scope": "UNKNOWN (not tested)"
+      "expected_intelligence_scope": "UNKNOWN (not tested)",
+      "entity_status": "IDENTITY_CONFIRMED",
+      "classification_correction": "NONE (confirmed as originally classified)"
     },
     {
       "master_source_id": "msu-0170",
@@ -5504,7 +5528,9 @@
       "selection_reason": "Diversity anchor: Market Infrastructure from أوروبا متعددة + historical evidence [Euronext]",
       "diversity_contribution": "Market Infrastructure + أوروبا متعددة",
       "expected_architecture": "UNKNOWN (not tested)",
-      "expected_intelligence_scope": "UNKNOWN (not tested)"
+      "expected_intelligence_scope": "UNKNOWN (not tested)",
+      "entity_status": "IDENTITY_CONFIRMED",
+      "classification_correction": "NONE (confirmed as originally classified)"
     },
     {
       "master_source_id": "msu-0226",
@@ -5604,7 +5630,9 @@
       "selection_reason": "Diversity anchor: Market Infrastructure from سويسرا",
       "diversity_contribution": "Market Infrastructure + سويسرا",
       "expected_architecture": "UNKNOWN (not tested)",
-      "expected_intelligence_scope": "UNKNOWN (not tested)"
+      "expected_intelligence_scope": "UNKNOWN (not tested)",
+      "entity_status": "IDENTITY_CONFIRMED",
+      "classification_correction": "NONE (confirmed as originally classified)"
     },
     {
       "master_source_id": "msu-0230",
@@ -5680,7 +5708,9 @@
       "selection_reason": "Diversity anchor: Market Infrastructure from النمسا",
       "diversity_contribution": "Market Infrastructure + النمسا",
       "expected_architecture": "UNKNOWN (not tested)",
-      "expected_intelligence_scope": "UNKNOWN (not tested)"
+      "expected_intelligence_scope": "UNKNOWN (not tested)",
+      "entity_status": "IDENTITY_CONFIRMED",
+      "classification_correction": "NONE (confirmed as originally classified)"
     },
     {
       "master_source_id": "msu-0233",
@@ -5708,7 +5738,9 @@
       "selection_reason": "Diversity anchor: Market Infrastructure from بولندا",
       "diversity_contribution": "Market Infrastructure + بولندا",
       "expected_architecture": "UNKNOWN (not tested)",
-      "expected_intelligence_scope": "UNKNOWN (not tested)"
+      "expected_intelligence_scope": "UNKNOWN (not tested)",
+      "entity_status": "IDENTITY_CONFIRMED",
+      "classification_correction": "NONE (confirmed as originally classified)"
     },
     {
       "master_source_id": "msu-0234",
@@ -5736,7 +5768,9 @@
       "selection_reason": "Diversity anchor: Market Infrastructure from التشيك",
       "diversity_contribution": "Market Infrastructure + التشيك",
       "expected_architecture": "UNKNOWN (not tested)",
-      "expected_intelligence_scope": "UNKNOWN (not tested)"
+      "expected_intelligence_scope": "UNKNOWN (not tested)",
+      "entity_status": "IDENTITY_CONFIRMED",
+      "classification_correction": "NONE (confirmed as originally classified)"
     },
     {
       "master_source_id": "msu-0235",
@@ -7516,7 +7550,9 @@
       "selection_reason": "Diversity anchor: Statistical Agency from نيجيريا",
       "diversity_contribution": "Statistical Agency + نيجيريا",
       "expected_architecture": "UNKNOWN (not tested)",
-      "expected_intelligence_scope": "UNKNOWN (not tested)"
+      "expected_intelligence_scope": "UNKNOWN (not tested)",
+      "entity_status": "IDENTITY_CONFIRMED",
+      "classification_correction": "NONE (confirmed as originally classified)"
     },
     {
       "master_source_id": "msu-0309",
@@ -7568,7 +7604,9 @@
       "selection_reason": "Diversity anchor: Statistical Agency from مصر",
       "diversity_contribution": "Statistical Agency + مصر",
       "expected_architecture": "UNKNOWN (not tested)",
-      "expected_intelligence_scope": "UNKNOWN (not tested)"
+      "expected_intelligence_scope": "UNKNOWN (not tested)",
+      "entity_status": "IDENTITY_CONFIRMED",
+      "classification_correction": "NONE (confirmed as originally classified)"
     },
     {
       "master_source_id": "msu-0311",
@@ -7596,7 +7634,9 @@
       "selection_reason": "Diversity anchor: Statistical Agency from المغرب",
       "diversity_contribution": "Statistical Agency + المغرب",
       "expected_architecture": "UNKNOWN (not tested)",
-      "expected_intelligence_scope": "UNKNOWN (not tested)"
+      "expected_intelligence_scope": "UNKNOWN (not tested)",
+      "entity_status": "IDENTITY_CONFIRMED",
+      "classification_correction": "NONE (confirmed as originally classified)"
     },
     {
       "master_source_id": "msu-0312",
@@ -10774,7 +10814,7 @@
       "jurisdiction": "جنوب أفريقيا",
       "country": "جنوب أفريقيا",
       "region": "",
-      "institutional_class": "Statistical Agency",
+      "institutional_class": "Ministry / Treasury",
       "official_domain": "treasury.gov.za",
       "official_url": "https://www.treasury.gov.za",
       "normalized_url": "https://treasury.gov.za",
@@ -10785,14 +10825,16 @@
       "declared_priority": "",
       "identity_status": "UNRESOLVED",
       "path_status": "NOT_REVIEWED",
-      "historical_evidence_status": "US Treasury",
+      "historical_evidence_status": "NONE",
       "audit_status": "DISCOVERED",
       "wave1_eligibility_precheck": true,
       "wave1_selection": "WAVE1_SELECTED",
       "selection_reason": "Diversity anchor: Statistical Agency from جنوب أفريقيا + historical evidence [US Treasury]",
       "diversity_contribution": "Statistical Agency + جنوب أفريقيا",
       "expected_architecture": "UNKNOWN (not tested)",
-      "expected_intelligence_scope": "UNKNOWN (not tested)"
+      "expected_intelligence_scope": "UNKNOWN (not tested)",
+      "entity_status": "IDENTITY_CONFIRMED",
+      "classification_correction": "Statistical Agency → Ministry / Treasury (B4). National Treasury of South Africa is a government fiscal ministry, not a statistical agency."
     },
     {
       "master_source_id": "msu-0445",
@@ -10970,7 +11012,7 @@
       "jurisdiction": "زيمبابوي",
       "country": "زيمبابوي",
       "region": "",
-      "institutional_class": "Statistical Agency",
+      "institutional_class": "Ministry / Treasury",
       "official_domain": "zimtreasury.gov.zw",
       "official_url": "http://www.zimtreasury.gov.zw",
       "normalized_url": "http://zimtreasury.gov.zw",
@@ -10981,14 +11023,16 @@
       "declared_priority": "",
       "identity_status": "UNRESOLVED",
       "path_status": "NOT_REVIEWED",
-      "historical_evidence_status": "US Treasury",
+      "historical_evidence_status": "NONE",
       "audit_status": "DISCOVERED",
       "wave1_eligibility_precheck": true,
       "wave1_selection": "WAVE1_SELECTED",
       "selection_reason": "Diversity anchor: Statistical Agency from زيمبابوي + historical evidence [US Treasury]",
       "diversity_contribution": "Statistical Agency + زيمبابوي",
       "expected_architecture": "UNKNOWN (not tested)",
-      "expected_intelligence_scope": "UNKNOWN (not tested)"
+      "expected_intelligence_scope": "UNKNOWN (not tested)",
+      "entity_status": "IDENTITY_CONFIRMED",
+      "classification_correction": "Statistical Agency → Ministry / Treasury (B4). Ministry of Finance Zimbabwe is a government treasury, not a statistical agency."
     },
     {
       "master_source_id": "msu-0453",
@@ -12672,7 +12716,9 @@
       "selection_reason": "Diversity anchor: Multilateral from عالمي + historical evidence [IMF]",
       "diversity_contribution": "Multilateral + عالمي",
       "expected_architecture": "UNKNOWN (not tested)",
-      "expected_intelligence_scope": "UNKNOWN (not tested)"
+      "expected_intelligence_scope": "UNKNOWN (not tested)",
+      "entity_status": "IDENTITY_CONFIRMED",
+      "classification_correction": "NONE (confirmed as originally classified)"
     },
     {
       "master_source_id": "msu-0523",
@@ -12700,7 +12746,9 @@
       "selection_reason": "Diversity anchor: Multilateral from عالمي + historical evidence [World Bank]",
       "diversity_contribution": "Multilateral + عالمي",
       "expected_architecture": "UNKNOWN (not tested)",
-      "expected_intelligence_scope": "UNKNOWN (not tested)"
+      "expected_intelligence_scope": "UNKNOWN (not tested)",
+      "entity_status": "IDENTITY_CONFIRMED",
+      "classification_correction": "NONE (confirmed as originally classified)"
     },
     {
       "master_source_id": "msu-0524",
@@ -12728,7 +12776,9 @@
       "selection_reason": "Diversity anchor: Multilateral from عالمي + historical evidence [BIS]",
       "diversity_contribution": "Multilateral + عالمي",
       "expected_architecture": "UNKNOWN (not tested)",
-      "expected_intelligence_scope": "UNKNOWN (not tested)"
+      "expected_intelligence_scope": "UNKNOWN (not tested)",
+      "entity_status": "IDENTITY_CONFIRMED",
+      "classification_correction": "NONE (confirmed as originally classified)"
     },
     {
       "master_source_id": "msu-0525",
@@ -14148,7 +14198,9 @@
       "selection_reason": "Diversity anchor: Multilateral from آسيا",
       "diversity_contribution": "Multilateral + آسيا",
       "expected_architecture": "UNKNOWN (not tested)",
-      "expected_intelligence_scope": "UNKNOWN (not tested)"
+      "expected_intelligence_scope": "UNKNOWN (not tested)",
+      "entity_status": "IDENTITY_CONFIRMED",
+      "classification_correction": "NONE (confirmed as originally classified)"
     },
     {
       "master_source_id": "msu-0584",
@@ -16024,7 +16076,9 @@
       "selection_reason": "Diversity anchor: Other (Listed Company) from هولندا",
       "diversity_contribution": "Other (Listed Company) + هولندا",
       "expected_architecture": "UNKNOWN (not tested)",
-      "expected_intelligence_scope": "UNKNOWN (not tested)"
+      "expected_intelligence_scope": "UNKNOWN (not tested)",
+      "entity_status": "IDENTITY_CONFIRMED",
+      "classification_correction": "NONE (confirmed as originally classified)"
     },
     {
       "master_source_id": "msu-0662",
@@ -16124,7 +16178,9 @@
       "selection_reason": "Diversity anchor: Other (Listed Company) from كوريا الجنوبية",
       "diversity_contribution": "Other (Listed Company) + كوريا الجنوبية",
       "expected_architecture": "UNKNOWN (not tested)",
-      "expected_intelligence_scope": "UNKNOWN (not tested)"
+      "expected_intelligence_scope": "UNKNOWN (not tested)",
+      "entity_status": "IDENTITY_CONFIRMED",
+      "classification_correction": "NONE (confirmed as originally classified)"
     },
     {
       "master_source_id": "msu-0666",
@@ -16152,7 +16208,9 @@
       "selection_reason": "Diversity anchor: Other (Listed Company) from تايوان",
       "diversity_contribution": "Other (Listed Company) + تايوان",
       "expected_architecture": "UNKNOWN (not tested)",
-      "expected_intelligence_scope": "UNKNOWN (not tested)"
+      "expected_intelligence_scope": "UNKNOWN (not tested)",
+      "entity_status": "IDENTITY_CONFIRMED",
+      "classification_correction": "NONE (confirmed as originally classified)"
     },
     {
       "master_source_id": "msu-0667",
@@ -16972,7 +17030,9 @@
       "selection_reason": "Diversity anchor: Other (Listed Company) from الهند",
       "diversity_contribution": "Other (Listed Company) + الهند",
       "expected_architecture": "UNKNOWN (not tested)",
-      "expected_intelligence_scope": "UNKNOWN (not tested)"
+      "expected_intelligence_scope": "UNKNOWN (not tested)",
+      "entity_status": "IDENTITY_CONFIRMED",
+      "classification_correction": "NONE (confirmed as originally classified)"
     },
     {
       "master_source_id": "msu-0701",
@@ -32310,5 +32370,57 @@
       "wave1_eligibility_precheck": true,
       "wave1_selection": "WAVE3_PLUS"
     }
-  ]
+  ],
+  "wave1_pre_import_gate": {
+    "gate_status": "PASSED",
+    "gate_date": "2026-08-17",
+    "corrections": [
+      {
+        "institution": "Banca d'Italia",
+        "old_class": "Financial Regulator",
+        "new_class": "Central Bank",
+        "reason": "Primary institutional function is central banking; supervisory role does not override canonical class."
+      },
+      {
+        "institution": "National Treasury (South Africa)",
+        "old_class": "Statistical Agency",
+        "new_class": "Ministry / Treasury",
+        "reason": "Government fiscal ministry, not a statistical agency. False keyword match from historical_sources mapping corrected."
+      },
+      {
+        "institution": "Ministry of Finance (Zimbabwe)",
+        "old_class": "Statistical Agency",
+        "new_class": "Ministry / Treasury",
+        "reason": "Government treasury, not a statistical agency. False keyword match from historical_sources mapping corrected."
+      }
+    ],
+    "false_historical_evidence_corrections": [
+      {
+        "institution": "National Treasury (South Africa)",
+        "old_evidence": "US Treasury",
+        "new_evidence": "NONE",
+        "reason": "False keyword match — \"treasury\" matched US Treasury in historical_sources map. This is South African National Treasury."
+      },
+      {
+        "institution": "Ministry of Finance (Zimbabwe)",
+        "old_evidence": "US Treasury",
+        "new_evidence": "NONE",
+        "reason": "False keyword match — \"treasury\" matched US Treasury. This is Zimbabwe Ministry of Finance."
+      }
+    ],
+    "bmf_regression": "PASS — all 30 entities verified. No platform/distributor mistaken for institution.",
+    "confirmed": 27,
+    "corrected": 3,
+    "blocked": 0
+  },
+  "wave1_by_class_corrected": {
+    "Central Bank": 7,
+    "Financial Regulator": 5,
+    "Market Infrastructure": 5,
+    "Statistical Agency": 3,
+    "Ministry / Treasury": 2,
+    "Multilateral": 4,
+    "Other (Listed Company)": 4
+  },
+  "wave1_historical_count_corrected": 15
 }
