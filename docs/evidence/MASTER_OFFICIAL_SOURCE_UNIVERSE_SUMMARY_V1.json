@@ -1,0 +1,52 @@
+{
+  "TOTAL_INPUT_RECORDS": 1486,
+  "REAL_CANDIDATES": 1339,
+  "PLACEHOLDERS": 0,
+  "MALFORMED": 0,
+  "EXACT_DUPLICATES": 147,
+  "POSSIBLE_ALIASES": 0,
+  "SHARED_DOMAINS": 15,
+  "ENTITY_CONFLICTS": 0,
+  "UNRESOLVED": 1339,
+  "IDENTITY_CONFIRMED": 0,
+  "QUALIFICATION_READY_PRECHECK": 1339,
+  "HISTORICALLY_EVIDENCED": 45,
+  "BY_CLASS": {
+    "Central Bank": 121,
+    "Financial Regulator": 88,
+    "Market Infrastructure": 98,
+    "Statistical Agency": 214,
+    "Multilateral": 112,
+    "Other (Listed Company)": 706
+  },
+  "BY_COUNTRY_TOP_15": {
+    "الولايات المتحدة": 222,
+    "عالمي": 66,
+    "المملكة المتحدة": 49,
+    "الصين": 47,
+    "ألمانيا": 45,
+    "الهند": 44,
+    "كندا": 39,
+    "اليابان": 37,
+    "فرنسا": 37,
+    "الإمارات": 33,
+    "البرازيل": 25,
+    "السعودية": 25,
+    "سويسرا": 24,
+    "إيطاليا": 24,
+    "أستراليا": 22
+  },
+  "SHARED_DOMAINS_TOP_10": {
+    "gov.br": 7,
+    "gov.uk": 5,
+    "canada.ca": 4,
+    "gob.mx": 3,
+    "bankofengland.co.uk": 2,
+    "resbank.co.za": 2,
+    "fsa.go.jp": 2,
+    "theice.com": 2,
+    "deutsche-boerse.com": 2,
+    "gov.kz": 2
+  },
+  "SECRET_SCAN": "CLEAN (false-positive AKIA match in country name \"Slovakia\")"
+}
