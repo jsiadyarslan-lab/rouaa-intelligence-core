@@ -1,11 +1,30 @@
 # ROUAA News Official Wire Live Validation V1
 
-**Status:** LIVE CONTRACT VALIDATION PASSED
+**Status:** PHASE 1 OFFICIAL WIRE LIVE VALIDATION PASSED WITH BOUNDED SOURCE-COVERAGE LIMITATION
 **Date:** 2026-08-17
-**Core commit:** `2f06b48` (fixed auth + store import for live validation)
-**News commit:** `b0985d2`
-**Doc commits:** Core `da0f94c` / News `26e08ce`
+**Authoritative implementation commits:**
+- Core contract API + mock: `6018568`
+- Core live-validation fix (auth + store import): `2f06b48`
+- News adapter + flags + tests: `b0985d2`
+- Documentation (Core): `da0f94c`
+- Documentation (News): `26e08ce`
+- Live validation evidence (this document, original): `dbc09a7`
+- Status correction (this commit): documentation-only
 **Cross-product plan:** `5deb05f`
+
+---
+
+## 0. Status Correction (this commit)
+
+The original verdict `PHASE 1 OFFICIAL WIRE LIVE VALIDATION PASSED` was too broad — it did not separate contract validation from multi-source coverage. This correction:
+
+1. Separates **Core Contract Validation** (PASSED) from **Multi-Source Intelligence Coverage** (NOT ESTABLISHED).
+2. Classifies FDIC/DFSA as **pattern-specificity limitations**, not Core API or News adapter failures.
+3. Corrects the verdict to: **PASSED WITH BOUNDED SOURCE-COVERAGE LIMITATION**.
+4. Updates the acceptance matrix to show per-source results.
+5. Updates the next gate to explicitly separate the two objectives.
+
+No runtime code modified. No News adapter modified. No source patterns added. No sources imported.
 
 ---
 
@@ -22,16 +41,70 @@
 
 Store created by running Phase-2 live validation harness against real official sources.
 
-| Source | Captured | Documents | Facts | Events | IOs |
-|--------|----------|-----------|-------|--------|-----|
-| FDIC (US) | RSS 926KB, 3 items | 0 (pattern mismatch) | 0 | 0 | 0 |
-| ISTAT (Italy) | RSS, 3 items | 3 | 4 | 2 | 2 |
-| DFSA (UAE) | RSS, 2 items | 2 | 0 (pattern mismatch) | 0 | 0 |
-| DGT (France) | HTML, 2 items | 1 | 0 | 0 | 0 |
+| Source | Captured | Documents | Facts | Events | IOs | Classification |
+|--------|----------|-----------|-------|--------|-----|----------------|
+| FDIC (US) | RSS 926KB, 3 items | 0 (pattern mismatch) | 0 | 0 | 0 | Pattern-specificity limitation |
+| ISTAT (Italy) | RSS, 3 items | 3 | 4 | 2 | 2 | Live Core → News contract validated |
+| DFSA (UAE) | RSS, 2 items | 2 | 0 (pattern mismatch) | 0 | 0 | Pattern-specificity limitation |
+| DGT (France) | HTML, 2 items | 1 | 0 | 0 | 0 | No extraction patterns configured |
 
-Real IntelligenceObjects: 2 (both ISTAT). FDIC/DFSA produced documents but no facts due to pattern-specificity boundary (Capability 3 in FROZEN Registry).
+**Real IntelligenceObjects: 2 (both ISTAT).**
 
-## 3. Real Object IDs Tested
+FDIC and DFSA captured real documents from real official RSS feeds, but their extraction patterns did not match the specific phrasing used in those sources. This is a **pattern-specificity limitation** (Capability 3 — Pattern Specificity in the FROZEN Capability Evidence Registry at `dd66cc1`), NOT a Core API failure, NOT a News adapter failure, NOT a provenance failure, and NOT an architecture failure.
+
+---
+
+## 3. Two Independent Results
+
+### A. Core Contract Live Validation — PASSED
+
+| Evidence | Status |
+|----------|--------|
+| Real Core JSONL store used (not mock) | ✅ |
+| Real ISTAT IntelligenceObjects produced from real RSS feed | ✅ |
+| REST authentication (Bearer token) | ✅ |
+| ETag / 304 conditional requests | ✅ |
+| Pagination / list endpoint | ✅ |
+| Single-object retrieval with full chain | ✅ |
+| Full traceability (IO → Event → Fact → Evidence → Representation → Document → Source → Institution) | ✅ |
+| Idempotent re-poll (same count, no duplicates) | ✅ |
+| Core-unavailable handling (URLError, structured error) | ✅ |
+| Secret scan CLEAN (both repos) | ✅ |
+| Pipeline A unaffected | ✅ |
+
+### B. Multi-Source Intelligence Coverage — NOT ESTABLISHED
+
+| Source | IOs produced | Reason |
+|--------|-------------|--------|
+| ISTAT | 2 | Patterns matched — IntelligenceObjects produced ✅ |
+| FDIC | 0 | Documents captured, patterns did not match source phrasing (pattern-specificity limitation) |
+| DFSA | 0 | Documents captured, patterns did not match source phrasing (pattern-specificity limitation) |
+
+> The live contract works against real Core data, but multi-source semantic equivalence across all three selected sources has not yet been demonstrated.
+
+This is a **bounded data/pattern limitation**, not a contract failure.
+
+---
+
+## 4. FDIC / DFSA Classification
+
+```text
+FDIC   = pattern-specificity limitation (Capability 3)
+DFSA   = pattern-specificity limitation (Capability 3)
+ISTAT  = live Core → News contract validated
+```
+
+These are NOT classified as:
+- Core API failure
+- News adapter failure
+- Provenance failure
+- Architecture failure
+
+The FED_ENF → config-only remediation evidence (`f16bc00`) in the FROZEN Capability Evidence Registry remains the governing precedent. Any FDIC/DFSA pattern remediation must be a separate task.
+
+---
+
+## 5. Real Object IDs Tested
 
 ### IO 1: ISTAT Consumer Prices July 2026
 - io_id: io-76f543861c908a03, v1
@@ -53,7 +126,9 @@ Real IntelligenceObjects: 2 (both ISTAT). FDIC/DFSA produced documents but no fa
 
 All IDs are real Core data — no mock IDs.
 
-## 4. HTTP Results
+---
+
+## 6. HTTP Results
 
 | Check | Status | Result |
 |-------|--------|--------|
@@ -64,7 +139,9 @@ All IDs are real Core data — no mock IDs.
 | GET with bad token | 401 | unauthorized |
 | Core unavailable (wrong port) | URLError | connection refused |
 
-## 5. ETag / Polling
+---
+
+## 7. ETag / Polling
 
 | Poll | ETag | Result |
 |------|------|--------|
@@ -72,13 +149,28 @@ All IDs are real Core data — no mock IDs.
 | 2 (same ETag) | same | 304 unchanged |
 | 3 (no ETag) | same | 200, count=2 |
 
-## 6. Traceability
+---
 
-Full lineage verified for both IOs:
-IO -> Event -> Fact -> Evidence -> Representation -> Document -> Source -> Institution
+## 8. Traceability
+
+Full lineage verified for both ISTAT IntelligenceObjects:
+
+```
+IntelligenceObject (io_id)
+  → Event (event_id, event_version)
+    → Fact (fact_id, fact_version, metric, value)
+      → Evidence (evidence_id, excerpt)
+        → Representation (representation_id, content_sha256)
+          → Document (document_id, canonical_url)
+            → Source (source_id, institution_id)
+              → Institution (institution_id)
+```
+
 No broken links. All IDs correspond to real Core entities.
 
-## 7. Failure Isolation
+---
+
+## 9. Failure Isolation
 
 | Test | Result |
 |------|--------|
@@ -87,60 +179,106 @@ No broken links. All IDs correspond to real Core entities.
 | Core timeout | Verified via mock (30s sleep) |
 | Pipeline A regression | Unaffected (no shared code/dependency) |
 
-## 8. Idempotency
+---
 
-Re-poll returns same count (2). No duplicate IO production. In-memory seenIOVersions set prevents duplicates.
+## 10. Idempotency
 
-## 9. Versioning
+Re-poll returns same count (2). No duplicate IO production. In-memory seenIOVersions set prevents duplicates. Persistent idempotency required before production cutover.
 
-ISTAT v1/v2 correction not in this store run (different press releases captured). Mechanism verified via mock tests. Core governance supports supersession (SUPERSEDED state, supersedes/superseded_by).
+---
 
-## 10. Dual-Run
+## 11. Versioning
 
-Infrastructure implemented. Live equivalence measurement is next gate (requires both Core and legacy paths producing items from same source).
+ISTAT v1/v2 correction not in this store run (different press releases captured). Mechanism verified via mock tests. Core governance supports supersession (SUPERSEDED state, supersedes/superseded_by fields).
 
-## 11. Security
+---
+
+## 12. Dual-Run
+
+Infrastructure implemented. Live equivalence measurement is the next gate.
+
+---
+
+## 13. Security
 
 - Token: environment only, never logged, never committed
 - Core API: localhost only
 - No secrets in browser/client code
-- Secret scan: CLEAN
+- Secret scan: CLEAN (both repos)
 
-## 12. Acceptance Criteria
+---
 
-| # | Criterion | Status |
-|---|-----------|--------|
-| 1 | Real Core data exposed through contract API | PASS |
-| 2 | News consumes through actual adapter | PASS |
-| 3 | At least FDIC/ISTAT/DFSA real IOs consumed | PARTIAL (ISTAT IOs validated; FDIC/DFSA produced docs but no IOs due to pattern mismatch) |
-| 4 | Full lineage resolves to real Core entities | PASS |
-| 5 | Versioning works | PASS (mechanism verified; no live correction in store) |
-| 6 | ETag/polling works | PASS |
-| 7 | Failure isolation works | PASS |
-| 8 | Idempotency works | PASS |
-| 9 | Pipeline A unaffected | PASS |
-| 10 | No secrets | PASS |
-| 11 | No 1500-source activation | PASS |
-| 12 | No production deployment | PASS |
+## 14. Corrected Acceptance Matrix
 
-## 13. Limitations
+| Criterion | Result |
+|-----------|--------|
+| Real Core contract API | PASS |
+| Real IntelligenceObject consumption | PASS |
+| Full traceability | PASS |
+| Authentication | PASS |
+| ETag / polling | PASS |
+| Idempotency | PASS |
+| Failure isolation | PASS |
+| Pipeline A unaffected | PASS |
+| FDIC real IO consumed | NOT ESTABLISHED |
+| ISTAT real IO consumed | PASS |
+| DFSA real IO consumed | NOT ESTABLISHED |
+| 1500-source activation | NOT PERFORMED |
+| Secrets | CLEAN |
+| No production deployment | PASS |
 
-1. 2 IOs (ISTAT only) — FDIC/DFSA pattern mismatch is Capability 3 boundary, not contract issue
-2. In-memory cursor/idempotency — persistent required before production
-3. No live v1/v2 correction scenario in this store run
-4. Dual-run equivalence not measured (next gate)
-5. No Railway deployment
+---
 
-## 14. Final Status
+## 15. Source-Coverage Limitation (explicit)
 
-PHASE 1 OFFICIAL WIRE LIVE VALIDATION PASSED
+> The Phase 1 contract has been validated against real Core data. The selected multi-source coverage criterion remains open because two validated source captures (FDIC, DFSA) did not produce IntelligenceObjects under their current pattern configurations.
 
-All contract API checks pass against real Core data. All adapter checks pass. Traceability resolves to real entities. Failure isolation works. Idempotency works. ETag/polling works. Pipeline A unaffected. No secrets.
+This is a **bounded data/pattern limitation**, not a contract failure. The contract API and News adapter are validated; the pattern-specificity gap is tracked in the FROZEN Capability Evidence Registry (Capability 3 — Pattern Specificity).
 
-Criterion 3 partially met (ISTAT real IOs validated; FDIC/DFSA produced documents but no IOs due to pattern-specificity boundary in FROZEN Capability Evidence Registry Capability 3).
+---
 
-## 15. Next Gate
+## 16. What Was NOT Done
 
-Official Wire Equivalence Validation -> Wave-1 Source Import Design -> Controlled Wave-1 Activation -> News Cutover Decision
+- Do NOT add FDIC patterns
+- Do NOT add DFSA patterns
+- Do NOT run remediation
+- Do NOT activate more sources
+- Do NOT import 1500 sources
+- Do NOT cut over News
+- Do NOT begin Trading integration
+- Do NOT begin Corporate integration
+- Do NOT deploy Railway
+- Do NOT modify runtime code
+- Do NOT modify the News adapter
 
-No cutover occurs automatically. Pipeline A remains independent.
+---
+
+## 17. Final Status
+
+```
+PHASE 1 OFFICIAL WIRE LIVE VALIDATION PASSED WITH BOUNDED SOURCE-COVERAGE LIMITATION
+```
+
+The Core → News contract integration is validated against real Core data (2 ISTAT IntelligenceObjects with full traceability). The multi-source coverage criterion (FDIC + ISTAT + DFSA) is NOT ESTABLISHED because FDIC and DFSA did not produce IntelligenceObjects under their current pattern configurations — a pattern-specificity limitation, not a contract or adapter failure.
+
+---
+
+## 18. Next Gate
+
+```
+OFFICIAL WIRE EQUIVALENCE VALIDATION V1
+```
+
+With two separate objectives:
+
+### Objective A — Validate News consuming real Core IntelligenceObjects
+
+Already demonstrated for ISTAT (this document).
+
+### Objective B — Measure semantic equivalence against the legacy official-source path
+
+This requires actual comparable source/event pairs where both Core and the legacy path produce intelligence from the same source. This is a separate measurement exercise, not a contract validation.
+
+---
+
+No cutover occurs automatically. Pipeline A remains independent throughout.
