@@ -38,7 +38,7 @@ def _check_auth(headers: dict) -> bool:
     token = os.environ.get("CORE_API_TOKEN", "")
     if not token:
         return False
-    auth = headers.get("Authorization", "")
+    auth = headers.get("authorization", "") or headers.get("Authorization", "")
     if not auth.startswith("Bearer "):
         return False
     return auth[7:] == token
@@ -81,7 +81,8 @@ class ContractAPIHandler(BaseHTTPRequestHandler):
             return
 
         # All other endpoints require auth
-        if not _check_auth({k.lower(): v for k, v in self.headers.items()}):
+        auth_header = self.headers.get("Authorization", "")
+        if not _check_auth({"authorization": auth_header}):
             self._send_error(401, "UNAUTHORIZED", "Missing or invalid token")
             return
 
@@ -94,7 +95,7 @@ class ContractAPIHandler(BaseHTTPRequestHandler):
             self._send_error(404, "NOT_FOUND", f"Unknown path: {path}")
 
     def _handle_list(self, params: dict):
-        from .store import JsonlStore
+        from .store import AppendOnlyStore as JsonlStore
         from .delivery import build_intelligence_object
 
         store_path = os.environ.get("CORE_STORE_PATH", "./core_store")
@@ -165,7 +166,7 @@ class ContractAPIHandler(BaseHTTPRequestHandler):
         self._send_json(200, response, etag=etag)
 
     def _handle_get_one(self, io_id: str):
-        from .store import JsonlStore
+        from .store import AppendOnlyStore as JsonlStore
         from .delivery import build_intelligence_object
 
         store_path = os.environ.get("CORE_STORE_PATH", "./core_store")
