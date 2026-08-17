@@ -1,0 +1,153 @@
+<?xml version="1.0"?><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns="http://purl.org/rss/1.0/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:cb="http://www.cbwiki.net/wiki/index.php/Specification_1.2/" xmlns:georss="http://www.georss.org/georss" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.w3.org/1999/02/22-rdf-syntax-ns# rdf.xsd">
+<channel rdf:about="https://www.bankofcanada.ca/feed/?content_type=regulatory-news&amp;post_type%5B0%5D=post&amp;post_type%5B1%5D=page">
+    <title>Regulatory news - Bank of Canada</title>
+    <link>https://www.bankofcanada.ca/rss-feeds/</link>
+    <description>Bank of Canada RSS Feeds</description>
+    <items>
+        <rdf:Seq>
+                        <rdf:li rdf:resource="https://www.bankofcanada.ca/2026/06/reminder-psp-reporting-obligations-under-rpaa/"/>
+                            <rdf:li rdf:resource="https://www.bankofcanada.ca/2026/06/bank-canada-begin-publishing-notices-violation-payment-service-providers/"/>
+                            <rdf:li rdf:resource="https://www.bankofcanada.ca/2026/02/bank-of-canada-issues-revised-compliance-order-to-xtm-inc/"/>
+                            <rdf:li rdf:resource="https://www.bankofcanada.ca/2026/02/bank-canada-issues-immediate-compliance-order-to-xtm-inc/"/>
+                            <rdf:li rdf:resource="https://www.bankofcanada.ca/2025/12/letter-to-industry-update-on-trust-tax-issue/"/>
+                            <rdf:li rdf:resource="https://www.bankofcanada.ca/2025/09/letter-to-industry-on-trust-tax-issue/"/>
+                            <rdf:li rdf:resource="https://www.bankofcanada.ca/2025/09/payment-service-providers-are-now-under-supervision-registry-to-follow/"/>
+                            <rdf:li rdf:resource="https://www.bankofcanada.ca/2025/09/bank-of-canada-begins-supervising-payment-service-providers/"/>
+                            <rdf:li rdf:resource="https://www.bankofcanada.ca/2025/08/update-on-payment-service-providers-registry/"/>
+                            <rdf:li rdf:resource="https://www.bankofcanada.ca/2024/12/bank-canada-publishes-applicants-list-retail-payment-service-providers/"/>
+                    </rdf:Seq>
+    </items>
+    <dc:language>en</dc:language>
+    <dc:date>2026-08-17T16:24:59+00:00</dc:date>
+</channel>
+<item rdf:about="https://www.bankofcanada.ca/2026/06/reminder-psp-reporting-obligations-under-rpaa/">
+    <title>Reminder: PSP reporting obligations under the RPAA</title>
+    <link>https://www.bankofcanada.ca/2026/06/reminder-psp-reporting-obligations-under-rpaa/</link>
+    <description>The Bank of Canada is issuing this communication to remind all payment service providers registered under the Retail Payment Activities Act of their ongoing reporting obligations.</description>
+    <dc:date>2026-06-29T16:18:54+00:00</dc:date>
+    <dc:language>en</dc:language>
+
+        <cb:news rdf:parseType="Resource">
+            <rdf:type rdf:resource="http://www.cbwiki.net/wiki/index.php/RSS-CB_1.2_RDF_Schema#Announcement"/>
+            <cb:simpleTitle>Reminder: PSP reporting obligations under the RPAA</cb:simpleTitle>
+            <cb:occurrenceDate>2026-06-29</cb:occurrenceDate>
+        </cb:news>
+</item>
+<item rdf:about="https://www.bankofcanada.ca/2026/06/bank-canada-begin-publishing-notices-violation-payment-service-providers/">
+    <title>Bank of Canada to begin publishing Notices of Violation by Payment Service Providers</title>
+    <link>https://www.bankofcanada.ca/2026/06/bank-canada-begin-publishing-notices-violation-payment-service-providers/</link>
+    <description>The Bank of Canada will soon start publishing Notices of Violation related to Payment Service Providers (PSPs) that are subject to the Retail Payment Activities Act (RPAA) and the associated Retail Payment Activities Regulations.</description>
+    <dc:date>2026-06-12T13:00:21+00:00</dc:date>
+    <dc:language>en</dc:language>
+
+        <cb:news rdf:parseType="Resource">
+            <rdf:type rdf:resource="http://www.cbwiki.net/wiki/index.php/RSS-CB_1.2_RDF_Schema#Announcement"/>
+            <cb:simpleTitle>Bank of Canada to begin publishing Notices of Violation by Payment Service Providers</cb:simpleTitle>
+            <cb:occurrenceDate>2026-06-12</cb:occurrenceDate>
+        </cb:news>
+</item>
+<item rdf:about="https://www.bankofcanada.ca/2026/02/bank-of-canada-issues-revised-compliance-order-to-xtm-inc/">
+    <title>Bank of Canada issues revised compliance order to XTM Inc.</title>
+    <link>https://www.bankofcanada.ca/2026/02/bank-of-canada-issues-revised-compliance-order-to-xtm-inc/</link>
+    <description>The Bank of Canada today issued a revised temporary order to XTM Inc. (XTM). The Bank has authorized XTM to recommence retail payment activities under the supervision of the Monitor appointed today by the Ontario Superior Court of Justice under the Companies' Creditors Arrangement Act, and subject to terms and conditions set out in the Bank's revised order.</description>
+    <dc:date>2026-02-27T19:00:24+00:00</dc:date>
+    <dc:language>en</dc:language>
+
+        <cb:news rdf:parseType="Resource">
+            <rdf:type rdf:resource="http://www.cbwiki.net/wiki/index.php/RSS-CB_1.2_RDF_Schema#Announcement"/>
+            <cb:simpleTitle>Bank of Canada issues revised compliance order to XTM Inc.</cb:simpleTitle>
+            <cb:occurrenceDate>2026-02-27</cb:occurrenceDate>
+        </cb:news>
+</item>
+<item rdf:about="https://www.bankofcanada.ca/2026/02/bank-canada-issues-immediate-compliance-order-to-xtm-inc/">
+    <title>Bank of Canada issues immediate compliance order to XTM Inc.</title>
+    <link>https://www.bankofcanada.ca/2026/02/bank-canada-issues-immediate-compliance-order-to-xtm-inc/</link>
+    <description>The Bank of Canada today issued a temporary order to XTM Inc. (XTM) to immediately cease performing any retail payment activities.</description>
+    <dc:date>2026-02-17T16:00:49+00:00</dc:date>
+    <dc:language>en</dc:language>
+
+        <cb:news rdf:parseType="Resource">
+            <rdf:type rdf:resource="http://www.cbwiki.net/wiki/index.php/RSS-CB_1.2_RDF_Schema#Announcement"/>
+            <cb:simpleTitle>Bank of Canada issues immediate compliance order to XTM Inc.</cb:simpleTitle>
+            <cb:occurrenceDate>2026-02-17</cb:occurrenceDate>
+        </cb:news>
+</item>
+<item rdf:about="https://www.bankofcanada.ca/2025/12/letter-to-industry-update-on-trust-tax-issue/">
+    <title>Letter to industry - Update on Trust Tax Issue</title>
+    <link>https://www.bankofcanada.ca/2025/12/letter-to-industry-update-on-trust-tax-issue/</link>
+    <description>This letter is in reference to the letter published by the Bank of Canada on September 8, 2025, indicating that there may be unintended consequences under the Income Tax Act for Payment Service Providers (PSPs) seeking to comply with the Retail Payment Activities Act (RPAA). Specifically, the September letter noted that there could be tax consequences or administrative burden under the Income Tax Act for PSPs seeking to safeguard end-user funds using the “in trust in a trust account” method while retaining interest income on the end-user funds they hold.</description>
+    <dc:date>2025-12-23T11:00:04+00:00</dc:date>
+    <dc:language>en</dc:language>
+
+        <cb:news rdf:parseType="Resource">
+            <rdf:type rdf:resource="http://www.cbwiki.net/wiki/index.php/RSS-CB_1.2_RDF_Schema#Announcement"/>
+            <cb:simpleTitle>Letter to industry - Update on Trust Tax Issue</cb:simpleTitle>
+            <cb:occurrenceDate>2025-12-23</cb:occurrenceDate>
+        </cb:news>
+</item>
+<item rdf:about="https://www.bankofcanada.ca/2025/09/letter-to-industry-on-trust-tax-issue/">
+    <title>Letter to Industry on Trust Tax Issue</title>
+    <link>https://www.bankofcanada.ca/2025/09/letter-to-industry-on-trust-tax-issue/</link>
+    <description>As of September 8, 2025, the Bank of Canada’s mandate to supervise Payment Service Providers (PSPs) under the Retail Payments Activities Act (RPAA) is in effect, including regulatory obligations related to operational risk and end-user funds safeguarding. The Bank and the Department of Finance have been made aware of possible unintended tax consequences for PSPs seeking to comply with the safeguarding requirements of the RPAA using the “in trust in a trust account” method.</description>
+    <dc:date>2025-09-08T10:00:29+00:00</dc:date>
+    <dc:language>en</dc:language>
+
+        <cb:news rdf:parseType="Resource">
+            <rdf:type rdf:resource="http://www.cbwiki.net/wiki/index.php/RSS-CB_1.2_RDF_Schema#Announcement"/>
+            <cb:simpleTitle>Letter to Industry on Trust Tax Issue</cb:simpleTitle>
+            <cb:occurrenceDate>2025-09-08</cb:occurrenceDate>
+        </cb:news>
+</item>
+<item rdf:about="https://www.bankofcanada.ca/2025/09/payment-service-providers-are-now-under-supervision-registry-to-follow/">
+    <title>Payment service providers are now under Supervision – Registry to follow</title>
+    <link>https://www.bankofcanada.ca/2025/09/payment-service-providers-are-now-under-supervision-registry-to-follow/</link>
+    <description>Today the Bank of Canada’s mandate to supervise Payment Service Providers under the Retail Payment Activities Act came into effect.</description>
+    <dc:date>2025-09-08T09:00:56+00:00</dc:date>
+    <dc:language>en</dc:language>
+
+        <cb:news rdf:parseType="Resource">
+            <rdf:type rdf:resource="http://www.cbwiki.net/wiki/index.php/RSS-CB_1.2_RDF_Schema#Announcement"/>
+            <cb:simpleTitle>Payment service providers are now under Supervision – Registry to follow</cb:simpleTitle>
+            <cb:occurrenceDate>2025-09-08</cb:occurrenceDate>
+        </cb:news>
+</item>
+<item rdf:about="https://www.bankofcanada.ca/2025/09/bank-of-canada-begins-supervising-payment-service-providers/">
+    <title>Bank of Canada begins supervising payment service providers</title>
+    <link>https://www.bankofcanada.ca/2025/09/bank-of-canada-begins-supervising-payment-service-providers/</link>
+    <description>Today the Bank of Canada’s mandate to supervise Payment Service Providers under the Retail Payment Activities Act came into effect.</description>
+    <dc:date>2025-09-08T09:00:48+00:00</dc:date>
+    <dc:language>en</dc:language>
+
+        <cb:news rdf:parseType="Resource">
+            <rdf:type rdf:resource="http://www.cbwiki.net/wiki/index.php/RSS-CB_1.2_RDF_Schema#Announcement"/>
+            <cb:simpleTitle>Bank of Canada begins supervising payment service providers</cb:simpleTitle>
+            <cb:occurrenceDate>2025-09-08</cb:occurrenceDate>
+        </cb:news>
+</item>
+<item rdf:about="https://www.bankofcanada.ca/2025/08/update-on-payment-service-providers-registry/">
+    <title>Update on Payment Service Providers Registry</title>
+    <link>https://www.bankofcanada.ca/2025/08/update-on-payment-service-providers-registry/</link>
+    <description>On September 8, 2025, the Bank of Canada will begin to publish a list of Payment Service Providers (PSPs) that have been registered under the Retail Payment Activities Act, as well as the names of entities whose applications have been refused.</description>
+    <dc:date>2025-08-08T11:00:59+00:00</dc:date>
+    <dc:language>en</dc:language>
+
+        <cb:news rdf:parseType="Resource">
+            <rdf:type rdf:resource="http://www.cbwiki.net/wiki/index.php/RSS-CB_1.2_RDF_Schema#Announcement"/>
+            <cb:simpleTitle>Update on Payment Service Providers Registry</cb:simpleTitle>
+            <cb:occurrenceDate>2025-08-08</cb:occurrenceDate>
+        </cb:news>
+</item>
+<item rdf:about="https://www.bankofcanada.ca/2024/12/bank-canada-publishes-applicants-list-retail-payment-service-providers/">
+    <title>Bank of Canada publishes applicants’ list of retail payment service providers</title>
+    <link>https://www.bankofcanada.ca/2024/12/bank-canada-publishes-applicants-list-retail-payment-service-providers/</link>
+    <description>The Bank of Canada today published the list of companies that have applied to be registered under the Retail Payment Activities Act (RPAA).</description>
+    <dc:date>2024-12-02T11:00:36+00:00</dc:date>
+    <dc:language>en</dc:language>
+
+        <cb:news rdf:parseType="Resource">
+            <rdf:type rdf:resource="http://www.cbwiki.net/wiki/index.php/RSS-CB_1.2_RDF_Schema#Announcement"/>
+            <cb:simpleTitle>Bank of Canada publishes applicants’ list of retail payment service providers</cb:simpleTitle>
+            <cb:occurrenceDate>2024-12-02</cb:occurrenceDate>
+        </cb:news>
+</item>
+</rdf:RDF>

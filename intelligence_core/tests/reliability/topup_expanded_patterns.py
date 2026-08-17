@@ -227,7 +227,8 @@ def reprocess_with_expanded_patterns(store):
 
 
 if __name__ == "__main__":
-    store = CachedStore(AppendOnlyStore("real_corpus_store"))
+    store_root = sys.argv[1] if len(sys.argv) > 1 else "real_corpus_store"
+    store = CachedStore(AppendOnlyStore(store_root))
     total = reprocess_with_expanded_patterns(store)
     if total >= 100:
         print(f"\n  ✓ PASS: {total} real events (≥100)")

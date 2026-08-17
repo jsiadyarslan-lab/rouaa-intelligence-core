@@ -1,21 +1,21 @@
 {
-  "store_root": "real_corpus_store",
+  "store_root": "real_corpus_store_new",
   "counts": {
-    "REAL_OFFICIAL_SOURCE": 148,
+    "REAL_OFFICIAL_SOURCE": 180,
     "SYNTHETIC_TEST": 0,
     "CANONICAL_FIXTURE": 0,
     "UNKNOWN": 0,
-    "TOTAL": 148
+    "TOTAL": 180
   },
   "by_event_type": {
     "regulatory_enforcement": {
-      "REAL_OFFICIAL_SOURCE": 72
+      "REAL_OFFICIAL_SOURCE": 77
     },
     "statistical_release": {
-      "REAL_OFFICIAL_SOURCE": 66
+      "REAL_OFFICIAL_SOURCE": 89
     },
     "monetary_policy_decision": {
-      "REAL_OFFICIAL_SOURCE": 10
+      "REAL_OFFICIAL_SOURCE": 14
     }
   },
   "real_by_source": {
@@ -35,7 +35,17 @@
     "imp-fsb": 1,
     "imp-hm-feed": 1,
     "imp-swiss-national-bank": 1,
-    "imp-deutsche-boerse": 1
+    "imp-deutsche-boerse": 1,
+    "src-istat": 4,
+    "src-boj": 3,
+    "src-boc": 10,
+    "src-sfc-hk": 1,
+    "src-beis-uk": 3,
+    "src-eurostat-emp": 3,
+    "src-cma-energy": 2,
+    "src-ustr": 3,
+    "src-mitijapan": 1,
+    "src-sama-saudi": 2
   },
   "classifications": [
     {
@@ -1516,6 +1526,326 @@
       "source_name": "imp-bea",
       "source_path": "https://www.bea.gov/news?format=feed",
       "canonical_url": "https://apps.bea.gov/newsreleases/international/mnc/2013/mnc2011.htm",
+      "classification": "REAL_OFFICIAL_SOURCE"
+    },
+    {
+      "io_id": "io-2f2021f4e77b5dbb",
+      "event_id": "evt-ea210580aced92a9",
+      "event_type": "statistical_release",
+      "source_id": "src-istat",
+      "source_name": "src-istat",
+      "source_path": "https://www.istat.it/feed",
+      "canonical_url": "https://www.istat.it/comunicato-stampa/prezzi-al-consumo-luglio-2026",
+      "classification": "REAL_OFFICIAL_SOURCE"
+    },
+    {
+      "io_id": "io-2558117ea78ba180",
+      "event_id": "evt-551d059367b571ee",
+      "event_type": "statistical_release",
+      "source_id": "src-istat",
+      "source_name": "src-istat",
+      "source_path": "https://www.istat.it/feed",
+      "canonical_url": "https://www.istat.it/sistema-informativo-6/posti-vacanti-nelle-imprese-dellindus",
+      "classification": "REAL_OFFICIAL_SOURCE"
+    },
+    {
+      "io_id": "io-0c7988feef0dc0d6",
+      "event_id": "evt-172b574ae4e5b776",
+      "event_type": "statistical_release",
+      "source_id": "src-istat",
+      "source_name": "src-istat",
+      "source_path": "https://www.istat.it/feed",
+      "canonical_url": "https://www.istat.it/comunicato-stampa/commercio-con-lestero-e-prezzi-allimport-",
+      "classification": "REAL_OFFICIAL_SOURCE"
+    },
+    {
+      "io_id": "io-cddae0d3c2d81009",
+      "event_id": "evt-7b6c441820f39752",
+      "event_type": "statistical_release",
+      "source_id": "src-istat",
+      "source_name": "src-istat",
+      "source_path": "https://www.istat.it/feed",
+      "canonical_url": "https://www.istat.it/comunicato-stampa/produzione-industriale-giugno-2026",
+      "classification": "REAL_OFFICIAL_SOURCE"
+    },
+    {
+      "io_id": "io-4136b361a4bd2ace",
+      "event_id": "evt-2e4971d44e54ac05",
+      "event_type": "monetary_policy_decision",
+      "source_id": "src-boj",
+      "source_name": "src-boj",
+      "source_path": "https://www.boj.or.jp/en/",
+      "canonical_url": "https://www.boj.or.jp/en/about/press/koen_2026/ko260521a.htm",
+      "classification": "REAL_OFFICIAL_SOURCE"
+    },
+    {
+      "io_id": "io-df34607878ce2397",
+      "event_id": "evt-ad7f8f803eecca5c",
+      "event_type": "monetary_policy_decision",
+      "source_id": "src-boc",
+      "source_name": "src-boc",
+      "source_path": "https://www.bankofcanada.ca/feed",
+      "canonical_url": "https://www.bankofcanada.ca/publications/mpr/mpr-2026-07-15",
+      "classification": "REAL_OFFICIAL_SOURCE"
+    },
+    {
+      "io_id": "io-e58ea53e2baa9779",
+      "event_id": "evt-3b869f1e297c6843",
+      "event_type": "monetary_policy_decision",
+      "source_id": "src-boj",
+      "source_name": "src-boj",
+      "source_path": "https://www.boj.or.jp/en/",
+      "canonical_url": "https://www.boj.or.jp/en/about/press/koen_2026/ko260302a.htm",
+      "classification": "REAL_OFFICIAL_SOURCE"
+    },
+    {
+      "io_id": "io-60073bc6edae9ac2",
+      "event_id": "evt-d6e15c78e61f183b",
+      "event_type": "regulatory_enforcement",
+      "source_id": "src-sfc-hk",
+      "source_name": "src-sfc-hk",
+      "source_path": "https://www.sfc.hk",
+      "canonical_url": "https://www.sfc.hk/en/Regulatory-functions/Corporates/Takeovers-and-mergers/Tran",
+      "classification": "REAL_OFFICIAL_SOURCE"
+    },
+    {
+      "io_id": "io-bc9a02f0376f7cbf",
+      "event_id": "evt-31bd8cd2df549edf",
+      "event_type": "monetary_policy_decision",
+      "source_id": "src-boj",
+      "source_name": "src-boj",
+      "source_path": "https://www.boj.or.jp/en/",
+      "canonical_url": "https://www.boj.or.jp/en/about/press/koen_2026/ko260625a.htm",
+      "classification": "REAL_OFFICIAL_SOURCE"
+    },
+    {
+      "io_id": "io-5f0065caca456cb3",
+      "event_id": "evt-3769e038c2668cd4",
+      "event_type": "statistical_release",
+      "source_id": "src-beis-uk",
+      "source_name": "src-beis-uk",
+      "source_path": "https://www.gov.uk/government/organisations/department-for-energy-security-and-n",
+      "canonical_url": "https://www.gov.uk/government/news/new-pm-cuts-tax-on-household-electricity-bill",
+      "classification": "REAL_OFFICIAL_SOURCE"
+    },
+    {
+      "io_id": "io-56c7f63d1cab09fd",
+      "event_id": "evt-752ea19bd9a08078",
+      "event_type": "statistical_release",
+      "source_id": "src-beis-uk",
+      "source_name": "src-beis-uk",
+      "source_path": "https://www.gov.uk/government/organisations/department-for-energy-security-and-n",
+      "canonical_url": "https://www.gov.uk/government/news/fuel-finder-for-drivers-factsheet",
+      "classification": "REAL_OFFICIAL_SOURCE"
+    },
+    {
+      "io_id": "io-dde88ab55ac15e15",
+      "event_id": "evt-e19bc1b841c0c16c",
+      "event_type": "statistical_release",
+      "source_id": "src-beis-uk",
+      "source_name": "src-beis-uk",
+      "source_path": "https://www.gov.uk/government/organisations/department-for-energy-security-and-n",
+      "canonical_url": "https://www.gov.uk/government/news/more-oil-and-gas-workers-to-be-supported-into",
+      "classification": "REAL_OFFICIAL_SOURCE"
+    },
+    {
+      "io_id": "io-d5b1ab4c5b2d361c",
+      "event_id": "evt-04c57aabceff5bca",
+      "event_type": "statistical_release",
+      "source_id": "src-eurostat-emp",
+      "source_name": "src-eurostat-emp",
+      "source_path": "https://ec.europa.eu/eurostat",
+      "canonical_url": "https://ec.europa.eu/eurostat/web/products-eurostat-news/w/ddn-20260817-1",
+      "classification": "REAL_OFFICIAL_SOURCE"
+    },
+    {
+      "io_id": "io-99461a1d9eed54a8",
+      "event_id": "evt-9577ce5428357f15",
+      "event_type": "regulatory_enforcement",
+      "source_id": "src-cma-energy",
+      "source_name": "src-cma-energy",
+      "source_path": "https://www.gov.uk/government/organisations/competition-and-markets-authority",
+      "canonical_url": "https://www.gov.uk/search/news-and-communications?organisations%5B%5D=competitio",
+      "classification": "REAL_OFFICIAL_SOURCE"
+    },
+    {
+      "io_id": "io-b3e12fc705d151a8",
+      "event_id": "evt-738fc38b1838ffce",
+      "event_type": "regulatory_enforcement",
+      "source_id": "src-ustr",
+      "source_name": "src-ustr",
+      "source_path": "https://ustr.gov",
+      "canonical_url": "https://ustr.gov/about/policy-offices/press-office/blogs-and-op-eds",
+      "classification": "REAL_OFFICIAL_SOURCE"
+    },
+    {
+      "io_id": "io-cc3ef58f601ca0c3",
+      "event_id": "evt-b625cd3bb85cd7ba",
+      "event_type": "regulatory_enforcement",
+      "source_id": "src-ustr",
+      "source_name": "src-ustr",
+      "source_path": "https://ustr.gov",
+      "canonical_url": "https://ustr.gov/about-us/policy-offices/press-office/press-releases",
+      "classification": "REAL_OFFICIAL_SOURCE"
+    },
+    {
+      "io_id": "io-3b6970ad6bfdfc58",
+      "event_id": "evt-75d696c12d61dc52",
+      "event_type": "regulatory_enforcement",
+      "source_id": "src-ustr",
+      "source_name": "src-ustr",
+      "source_path": "https://ustr.gov",
+      "canonical_url": "https://ustr.gov/about-us/policy-offices/press-office/fact-sheets",
+      "classification": "REAL_OFFICIAL_SOURCE"
+    },
+    {
+      "io_id": "io-6fef2e40160506bb",
+      "event_id": "evt-e25a78c0c0baae76",
+      "event_type": "statistical_release",
+      "source_id": "src-eurostat-emp",
+      "source_name": "src-eurostat-emp",
+      "source_path": "https://ec.europa.eu/eurostat",
+      "canonical_url": "https://ec.europa.eu/eurostat/web/interactive-publications/energy-2026",
+      "classification": "REAL_OFFICIAL_SOURCE"
+    },
+    {
+      "io_id": "io-864e619bbdeccac0",
+      "event_id": "evt-10dd68f7f23b7f0f",
+      "event_type": "statistical_release",
+      "source_id": "src-eurostat-emp",
+      "source_name": "src-eurostat-emp",
+      "source_path": "https://ec.europa.eu/eurostat",
+      "canonical_url": "https://ec.europa.eu/eurostat/web/products-eurostat-news/w/ddn-20260814-1",
+      "classification": "REAL_OFFICIAL_SOURCE"
+    },
+    {
+      "io_id": "io-724c8945ab5830f2",
+      "event_id": "evt-c964744ebee4255e",
+      "event_type": "statistical_release",
+      "source_id": "src-boc",
+      "source_name": "src-boc",
+      "source_path": "https://www.bankofcanada.ca/feed",
+      "canonical_url": "https://www.bankofcanada.ca/publications",
+      "classification": "REAL_OFFICIAL_SOURCE"
+    },
+    {
+      "io_id": "io-74ef71afed5de73c",
+      "event_id": "evt-e44626e56d1fb4fc",
+      "event_type": "statistical_release",
+      "source_id": "src-boc",
+      "source_name": "src-boc",
+      "source_path": "https://www.bankofcanada.ca/feed",
+      "canonical_url": "https://www.bankofcanada.ca/regulatory-oversight/regulatory-news?content_type%5B",
+      "classification": "REAL_OFFICIAL_SOURCE"
+    },
+    {
+      "io_id": "io-6881d90972a19a0b",
+      "event_id": "evt-8be4ed722805032c",
+      "event_type": "statistical_release",
+      "source_id": "src-boc",
+      "source_name": "src-boc",
+      "source_path": "https://www.bankofcanada.ca/feed",
+      "canonical_url": "https://www.bankofcanada.ca/press/media-advisories",
+      "classification": "REAL_OFFICIAL_SOURCE"
+    },
+    {
+      "io_id": "io-00c155a6e63a1aa8",
+      "event_id": "evt-5c0adf589b1b3503",
+      "event_type": "statistical_release",
+      "source_id": "src-boc",
+      "source_name": "src-boc",
+      "source_path": "https://www.bankofcanada.ca/feed",
+      "canonical_url": "https://www.bankofcanada.ca/press",
+      "classification": "REAL_OFFICIAL_SOURCE"
+    },
+    {
+      "io_id": "io-83882f5770e16ee7",
+      "event_id": "evt-5de1c298a0dce958",
+      "event_type": "statistical_release",
+      "source_id": "src-boc",
+      "source_name": "src-boc",
+      "source_path": "https://www.bankofcanada.ca/feed",
+      "canonical_url": "https://www.bankofcanada.ca/2026/09/interest-rate-announcement-september-2-2026",
+      "classification": "REAL_OFFICIAL_SOURCE"
+    },
+    {
+      "io_id": "io-a428c87c59e4a3d3",
+      "event_id": "evt-35867a19e104f26a",
+      "event_type": "statistical_release",
+      "source_id": "src-boc",
+      "source_name": "src-boc",
+      "source_path": "https://www.bankofcanada.ca/feed",
+      "canonical_url": "https://www.bankofcanada.ca/press/speeches",
+      "classification": "REAL_OFFICIAL_SOURCE"
+    },
+    {
+      "io_id": "io-da7acd81418c8798",
+      "event_id": "evt-bb359d7ca6784ec8",
+      "event_type": "statistical_release",
+      "source_id": "src-boc",
+      "source_name": "src-boc",
+      "source_path": "https://www.bankofcanada.ca/feed",
+      "canonical_url": "https://www.bankofcanada.ca/publications/financial-stability-report/financial-st",
+      "classification": "REAL_OFFICIAL_SOURCE"
+    },
+    {
+      "io_id": "io-cd4b8ce2c7ff3dda",
+      "event_id": "evt-1244e050f3155803",
+      "event_type": "statistical_release",
+      "source_id": "src-boc",
+      "source_name": "src-boc",
+      "source_path": "https://www.bankofcanada.ca/feed",
+      "canonical_url": "https://www.bankofcanada.ca/2026/08/cfec-releases-results-of-april-2026-foreign-",
+      "classification": "REAL_OFFICIAL_SOURCE"
+    },
+    {
+      "io_id": "io-f94642af76351dec",
+      "event_id": "evt-0231089ef39f5ba0",
+      "event_type": "statistical_release",
+      "source_id": "src-boc",
+      "source_name": "src-boc",
+      "source_path": "https://www.bankofcanada.ca/feed",
+      "canonical_url": "https://www.bankofcanada.ca/publications/mpr/mpr-2026-07-15",
+      "classification": "REAL_OFFICIAL_SOURCE"
+    },
+    {
+      "io_id": "io-c322e66ad91a84bb",
+      "event_id": "evt-95d34d2c4810bdfb",
+      "event_type": "statistical_release",
+      "source_id": "src-cma-energy",
+      "source_name": "src-cma-energy",
+      "source_path": "https://www.gov.uk/government/organisations/competition-and-markets-authority",
+      "canonical_url": "https://www.gov.uk/government/news/cma-proposes-removing-27-market-remedies-in-p",
+      "classification": "REAL_OFFICIAL_SOURCE"
+    },
+    {
+      "io_id": "io-c575e4bb2683cc8a",
+      "event_id": "evt-af06eba5f6cb8bb4",
+      "event_type": "statistical_release",
+      "source_id": "src-mitijapan",
+      "source_name": "src-mitijapan",
+      "source_path": "https://www.meti.go.jp",
+      "canonical_url": "https://www.meti.go.jp/press/2026/08/20260804003.html",
+      "classification": "REAL_OFFICIAL_SOURCE"
+    },
+    {
+      "io_id": "io-32ddd60da3eecd22",
+      "event_id": "evt-eb41b5834d8cc780",
+      "event_type": "statistical_release",
+      "source_id": "src-sama-saudi",
+      "source_name": "src-sama-saudi",
+      "source_path": "https://www.sama.gov.sa",
+      "canonical_url": "https://www.sama.gov.sa/ar-SA/MediaCenter/News/Pages/AllNews.aspx",
+      "classification": "REAL_OFFICIAL_SOURCE"
+    },
+    {
+      "io_id": "io-3ffbfbc90fcd2899",
+      "event_id": "evt-378aee2331f02b4f",
+      "event_type": "statistical_release",
+      "source_id": "src-sama-saudi",
+      "source_name": "src-sama-saudi",
+      "source_path": "https://www.sama.gov.sa",
+      "canonical_url": "https://www.sama.gov.sa/ar-SA/publications/Pages/default.aspx",
       "classification": "REAL_OFFICIAL_SOURCE"
     }
   ]

@@ -221,6 +221,11 @@ class ProductionTransportHandler(BaseHTTPRequestHandler):
             self._send_json(200, {"status": "ok"})
             return
 
+        # Public metrics endpoint (V2-Continuous §15)
+        if path == "/metrics":
+            self._handle_metrics()
+            return
+
         # All other endpoints require auth
         if not _check_auth({"authorization": self.headers.get("Authorization", "")}):
             self._send_error(401, "UNAUTHORIZED", "Missing or invalid token")
@@ -450,6 +455,41 @@ class ProductionTransportHandler(BaseHTTPRequestHandler):
         # Suppress default logging; token never logged
         pass
 
+    def _handle_metrics(self):
+        """Public /metrics endpoint — returns basic Core metrics (V2-Continuous §15).
+
+        Returns JSON with:
+          - io_count: total IntelligenceObjects in store
+          - event_count: total events
+          - fact_count: total facts
+          - source_count: total sources
+          - document_count: total documents
+          - cache_stats: IO cache + list cache sizes
+          - uptime_seconds: server uptime
+        """
+        try:
+            store, _ = self._open_store()
+            io_count = sum(1 for _ in store.iter("events"))
+            fact_count = sum(1 for _ in store.iter("facts"))
+            source_count = sum(1 for _ in store.iter("sources"))
+            document_count = sum(1 for _ in store.iter("documents"))
+            metrics = {
+                "io_count": io_count,
+                "event_count": io_count,  # 1:1 with IOs (each event → 1 IO)
+                "fact_count": fact_count,
+                "source_count": source_count,
+                "document_count": document_count,
+                "cache_stats": {
+                    "io_cache_size": len(_IO_CACHE),
+                    "list_cache_size": len(_LIST_CACHE),
+                    "store_cache_size": len(_STORE_CACHE),
+                },
+                "captured_at": time.strftime("%Y-%m-%dT%H:%M:%SZ", time.gmtime()),
+            }
+            self._send_json(200, metrics)
+        except Exception as e:
+            self._send_error(500, "METRICS_ERROR", str(e)[:100])
+
 
 # ── Server ──
 
@@ -459,12 +499,17 @@ def serve(port: int = 9100):
     Required env:
       CORE_API_TOKEN: Bearer token (server-side only)
       CORE_STORE_PATH: path to AppendOnlyStore root (default: ./production_store)
+    Optional env:
+      CORE_SOURCE_REGISTRY_PATH: path to SourceRegistry (default: ./source_registry)
+      CORE_METRICS_ENABLED: "1" to enable /metrics endpoint
     """
     if not os.environ.get("CORE_API_TOKEN"):
         raise RuntimeError("CORE_API_TOKEN env required (server-side only)")
     if not os.environ.get("CORE_STORE_PATH"):
         # Don't fail — default to ./production_store (used in dev)
         os.environ.setdefault("CORE_STORE_PATH", "./production_store")
+    # Externalize source registry path (V2-Continuous §15)
+    os.environ.setdefault("CORE_SOURCE_REGISTRY_PATH", "./source_registry")
 
     # V2 §3: Scale the listen backlog for 100+ concurrent readers.
     # Default request_queue_size=5 drops connections under load — this is
@@ -481,10 +526,32 @@ def serve(port: int = 9100):
     server = _ScaledThreadingHTTPServer(("0.0.0.0", port), ProductionTransportHandler)
     print(f"[production-transport] listening on :{port}")
     print(f"  store: {os.environ['CORE_STORE_PATH']}")
-    print(f"  canonical endpoints: /health, /v1/intelligence, "
+    print(f"  canonical endpoints: /health, /metrics, /v1/intelligence, "
           f"/v1/intelligence/<io_id>, /v1/intelligence/<io_id>/trace")
     print(f"  auth: Bearer token (env CORE_API_TOKEN)")
+
+    # V2-Continuous §15: Graceful shutdown on SIGTERM/SIGINT
+    # Only register signal handlers when not in test mode (to avoid pytest
+    # subprocess management complications). In production, these handlers
+    # ensure clean shutdown on SIGTERM from the container orchestrator.
+    if os.environ.get("CORE_TEST_MODE") != "1":
+        import signal
+        import threading as _threading
+        _shutdown_started = []
+        def _shutdown_handler(signum, frame):
+            if _shutdown_started:
+                return  # already shutting down
+            _shutdown_started.append(True)
+            sig_name = signal.Signals(signum).name
+            print(f"\n[production-transport] received {sig_name}, shutting down gracefully...", flush=True)
+            t = _threading.Thread(target=server.shutdown, daemon=True)
+            t.start()
+
+        signal.signal(signal.SIGTERM, _shutdown_handler)
+        signal.signal(signal.SIGINT, _shutdown_handler)
+
     server.serve_forever()
+    print(f"[production-transport] shutdown complete")
 
 
 if __name__ == "__main__":

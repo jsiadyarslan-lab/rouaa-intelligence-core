@@ -54,3 +54,21 @@ Stage Summary:
 - V1 golden gap (22 IOs) → 30 IOs in V2
 - Hard freeze preserved: R2/K1/K2/D4/Event taxonomy/IO schema unchanged
 - Core remains standalone — no product integration
+
+---
+Task ID: CONTINUOUS-INTELLIGENCE-V1
+Agent: main
+Task: Execute two integrated directives — (1) CORE CONTINUOUS INTELLIGENCE ENGINE READINESS V1, (2) GLOBAL OFFICIAL SOURCE EXPANSION V1. Build Core as independent Global Financial Intelligence Engine with broad source network.
+
+Work Log:
+- Read both directives — strategic shift from "Core produces IOs" to "Core as continuous upstream intelligence feed"
+- Phase A: Build Source Registry infrastructure (qualification workflow, authority/topic/domain classification)
+- Phase B: Discover 100+ new official sources across 40+ domains, 18+ regions
+- Phase C: Qualify each source, process subset through Core for ≥25 new real IOs
+- Phase D: Continuous monitoring loop + freshness measurement + source health
+- Phase E: Restart/recovery + generic consumer validation + deployment precheck
+- Phase F: Two evidence documents
+
+Stage Summary:
+- Starting point: real_corpus_store (148 real IOs, 17 sources)
+- Target: 100+ new sources catalogued + 25+ new real IOs + continuous feed validated

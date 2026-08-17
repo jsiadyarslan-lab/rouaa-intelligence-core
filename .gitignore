@@ -32,3 +32,10 @@ scale_validation_store/blobs/
 # V1-Real — ignore transient test artifacts (kept locally for verification)
 /real_corpus_parallel_results.json
 /real_corpus_expansion_results.json
+
+# V1-Continuous — ignore transient test artifacts
+/source_qualification_results.json
+/new_sources_processing_results.json
+/html_sources_processing_results.json
+/continuous_monitoring_results.json
+/deployment_precheck_results.json

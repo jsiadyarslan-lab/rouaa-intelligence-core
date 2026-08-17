@@ -1,0 +1,269 @@
+{
+  "cycle1": {
+    "cycle_id": "cycle-1787007709",
+    "elapsed_s": 0.01,
+    "sources_monitored": 8,
+    "results": [
+      {
+        "source_id": "src-fed-reserve",
+        "cycle_id": "cycle-1787007709",
+        "health": "NO_CONTENT",
+        "documents": 0,
+        "events": 0,
+        "new_docs": 0,
+        "new_events": 0,
+        "latest_doc_time": null,
+        "check_elapsed_ms": 6.9
+      },
+      {
+        "source_id": "src-ecb",
+        "cycle_id": "cycle-1787007709",
+        "health": "NO_CONTENT",
+        "documents": 0,
+        "events": 0,
+        "new_docs": 0,
+        "new_events": 0,
+        "latest_doc_time": null,
+        "check_elapsed_ms": 0.13
+      },
+      {
+        "source_id": "src-istat",
+        "cycle_id": "cycle-1787007709",
+        "health": "HEALTHY",
+        "documents": 10,
+        "events": 4,
+        "new_docs": 10,
+        "new_events": 4,
+        "latest_doc_time": "2026-08-17T14:17:07Z",
+        "check_elapsed_ms": 0.29
+      },
+      {
+        "source_id": "src-sec",
+        "cycle_id": "cycle-1787007709",
+        "health": "NO_CONTENT",
+        "documents": 0,
+        "events": 0,
+        "new_docs": 0,
+        "new_events": 0,
+        "latest_doc_time": null,
+        "check_elapsed_ms": 0.09
+      },
+      {
+        "source_id": "src-fca",
+        "cycle_id": "cycle-1787007709",
+        "health": "NO_CONTENT",
+        "documents": 0,
+        "events": 0,
+        "new_docs": 0,
+        "new_events": 0,
+        "latest_doc_time": null,
+        "check_elapsed_ms": 0.08
+      },
+      {
+        "source_id": "src-esma",
+        "cycle_id": "cycle-1787007709",
+        "health": "NO_CONTENT",
+        "documents": 0,
+        "events": 0,
+        "new_docs": 0,
+        "new_events": 0,
+        "latest_doc_time": null,
+        "check_elapsed_ms": 0.08
+      },
+      {
+        "source_id": "src-hm-treasury",
+        "cycle_id": "cycle-1787007709",
+        "health": "NO_CONTENT",
+        "documents": 0,
+        "events": 0,
+        "new_docs": 0,
+        "new_events": 0,
+        "latest_doc_time": null,
+        "check_elapsed_ms": 0.09
+      },
+      {
+        "source_id": "src-fsb",
+        "cycle_id": "cycle-1787007709",
+        "health": "NO_CONTENT",
+        "documents": 0,
+        "events": 0,
+        "new_docs": 0,
+        "new_events": 0,
+        "latest_doc_time": null,
+        "check_elapsed_ms": 0.09
+      }
+    ]
+  },
+  "cycle2": {
+    "cycle_id": "cycle-1787007709",
+    "elapsed_s": 0.0,
+    "sources_monitored": 8,
+    "results": [
+      {
+        "source_id": "src-fed-reserve",
+        "cycle_id": "cycle-1787007709",
+        "health": "NO_CONTENT",
+        "documents": 0,
+        "events": 0,
+        "new_docs": 0,
+        "new_events": 0,
+        "latest_doc_time": null,
+        "check_elapsed_ms": 0.08
+      },
+      {
+        "source_id": "src-ecb",
+        "cycle_id": "cycle-1787007709",
+        "health": "NO_CONTENT",
+        "documents": 0,
+        "events": 0,
+        "new_docs": 0,
+        "new_events": 0,
+        "latest_doc_time": null,
+        "check_elapsed_ms": 0.09
+      },
+      {
+        "source_id": "src-istat",
+        "cycle_id": "cycle-1787007709",
+        "health": "STALE",
+        "documents": 10,
+        "events": 4,
+        "new_docs": 0,
+        "new_events": 0,
+        "latest_doc_time": "2026-08-17T14:17:07Z",
+        "check_elapsed_ms": 0.09
+      },
+      {
+        "source_id": "src-sec",
+        "cycle_id": "cycle-1787007709",
+        "health": "NO_CONTENT",
+        "documents": 0,
+        "events": 0,
+        "new_docs": 0,
+        "new_events": 0,
+        "latest_doc_time": null,
+        "check_elapsed_ms": 0.08
+      },
+      {
+        "source_id": "src-fca",
+        "cycle_id": "cycle-1787007709",
+        "health": "NO_CONTENT",
+        "documents": 0,
+        "events": 0,
+        "new_docs": 0,
+        "new_events": 0,
+        "latest_doc_time": null,
+        "check_elapsed_ms": 0.08
+      },
+      {
+        "source_id": "src-esma",
+        "cycle_id": "cycle-1787007709",
+        "health": "NO_CONTENT",
+        "documents": 0,
+        "events": 0,
+        "new_docs": 0,
+        "new_events": 0,
+        "latest_doc_time": null,
+        "check_elapsed_ms": 0.08
+      },
+      {
+        "source_id": "src-hm-treasury",
+        "cycle_id": "cycle-1787007709",
+        "health": "NO_CONTENT",
+        "documents": 0,
+        "events": 0,
+        "new_docs": 0,
+        "new_events": 0,
+        "latest_doc_time": null,
+        "check_elapsed_ms": 0.08
+      },
+      {
+        "source_id": "src-fsb",
+        "cycle_id": "cycle-1787007709",
+        "health": "NO_CONTENT",
+        "documents": 0,
+        "events": 0,
+        "new_docs": 0,
+        "new_events": 0,
+        "latest_doc_time": null,
+        "check_elapsed_ms": 0.08
+      }
+    ]
+  },
+  "freshness": {
+    "sources": [
+      {
+        "source_id": "src-fed-reserve",
+        "document_count": 0,
+        "event_count": 0,
+        "latest_doc_time": null,
+        "doc_age_seconds": null,
+        "doc_age_hours": null,
+        "doc_age_days": null
+      },
+      {
+        "source_id": "src-ecb",
+        "document_count": 0,
+        "event_count": 0,
+        "latest_doc_time": null,
+        "doc_age_seconds": null,
+        "doc_age_hours": null,
+        "doc_age_days": null
+      },
+      {
+        "source_id": "src-istat",
+        "document_count": 10,
+        "event_count": 4,
+        "latest_doc_time": "2026-08-17T14:17:07Z",
+        "doc_age_seconds": 31482.66065144539,
+        "doc_age_hours": 8.745183514290385,
+        "doc_age_days": 0.36438264642876605
+      },
+      {
+        "source_id": "src-sec",
+        "document_count": 0,
+        "event_count": 0,
+        "latest_doc_time": null,
+        "doc_age_seconds": null,
+        "doc_age_hours": null,
+        "doc_age_days": null
+      },
+      {
+        "source_id": "src-fca",
+        "document_count": 0,
+        "event_count": 0,
+        "latest_doc_time": null,
+        "doc_age_seconds": null,
+        "doc_age_hours": null,
+        "doc_age_days": null
+      },
+      {
+        "source_id": "src-esma",
+        "document_count": 0,
+        "event_count": 0,
+        "latest_doc_time": null,
+        "doc_age_seconds": null,
+        "doc_age_hours": null,
+        "doc_age_days": null
+      },
+      {
+        "source_id": "src-hm-treasury",
+        "document_count": 0,
+        "event_count": 0,
+        "latest_doc_time": null,
+        "doc_age_seconds": null,
+        "doc_age_hours": null,
+        "doc_age_days": null
+      },
+      {
+        "source_id": "src-fsb",
+        "document_count": 0,
+        "event_count": 0,
+        "latest_doc_time": null,
+        "doc_age_seconds": null,
+        "doc_age_hours": null,
+        "doc_age_days": null
+      }
+    ]
+  },
+  "idempotency_pass": true
+}

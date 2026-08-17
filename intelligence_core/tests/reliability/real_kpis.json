@@ -1,14 +1,14 @@
 {
-  "total_real_ios": 148,
-  "ios_built_successfully": 148,
+  "total_real_ios": 176,
+  "ios_built_successfully": 176,
   "ios_broken_chain": 0,
-  "total_facts": 1205,
-  "facts_with_evidence": 1205,
+  "total_facts": 1568,
+  "facts_with_evidence": 1568,
   "fabricated_facts": 0,
   "fact_precision_pct": 100.0,
   "evidence_grounded_rate_pct": 100.0,
   "event_precision_pct": 100.0,
   "false_positive_rate_pct": 0.0,
   "provenance_completeness_pct": 100.0,
-  "d4_fidelity_pct": 36.5
+  "d4_fidelity_pct": 30.7
 }

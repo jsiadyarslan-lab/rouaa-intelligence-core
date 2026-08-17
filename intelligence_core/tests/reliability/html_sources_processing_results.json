@@ -1,0 +1,649 @@
+{
+  "schema_version": "1.0",
+  "captured_at": "2026-08-17T22:59:42Z",
+  "store_root": "real_corpus_store_new",
+  "starting_events": 152,
+  "final_events": 167,
+  "new_events": 15,
+  "elapsed_s": 42.4,
+  "results": [
+    {
+      "source_id": "src-boj",
+      "name": "Bank of Japan",
+      "country": "JP",
+      "class": "central_bank",
+      "acquisition_method": "HTML",
+      "documents_acquired": 20,
+      "documents_processed": 10,
+      "facts_extracted": 62,
+      "events_detected": 3,
+      "intelligence_objects": [
+        "io-4136b361a4bd2ace",
+        "io-e58ea53e2baa9779",
+        "io-bc9a02f0376f7cbf"
+      ],
+      "errors": [],
+      "failure_stage": null,
+      "failure_reason": null,
+      "acquisition": {
+        "http_status": 200,
+        "bytes": 64018,
+        "feed_url": "https://www.boj.or.jp/en/"
+      }
+    },
+    {
+      "source_id": "src-pboc",
+      "name": "People's Bank of China",
+      "country": "CN",
+      "class": "central_bank",
+      "acquisition_method": "HTML",
+      "documents_acquired": 1,
+      "documents_processed": 0,
+      "facts_extracted": 0,
+      "events_detected": 0,
+      "intelligence_objects": [],
+      "errors": [
+        {
+          "stage": "DOC",
+          "message": "HTTP Error 403: Forbidden"
+        }
+      ],
+      "failure_stage": null,
+      "failure_reason": null,
+      "acquisition": {
+        "http_status": 200,
+        "bytes": 141200,
+        "feed_url": "http://www.pbc.gov.cn"
+      }
+    },
+    {
+      "source_id": "src-boc",
+      "name": "Bank of Canada",
+      "country": "CA",
+      "class": "central_bank",
+      "acquisition_method": "HTML",
+      "documents_acquired": 20,
+      "documents_processed": 10,
+      "facts_extracted": 1,
+      "events_detected": 1,
+      "intelligence_objects": [
+        "io-df34607878ce2397"
+      ],
+      "errors": [],
+      "failure_stage": null,
+      "failure_reason": null,
+      "acquisition": {
+        "http_status": 200,
+        "bytes": 204420,
+        "feed_url": "https://www.bankofcanada.ca"
+      }
+    },
+    {
+      "source_id": "src-bankitaly",
+      "name": "Banca d'Italia",
+      "country": "IT",
+      "class": "central_bank",
+      "acquisition_method": "HTML",
+      "documents_acquired": 2,
+      "documents_processed": 2,
+      "facts_extracted": 0,
+      "events_detected": 0,
+      "intelligence_objects": [],
+      "errors": [],
+      "failure_stage": null,
+      "failure_reason": null,
+      "acquisition": {
+        "http_status": 200,
+        "bytes": 164336,
+        "feed_url": "https://www.bancaditalia.it"
+      }
+    },
+    {
+      "source_id": "src-brazil-bcb",
+      "name": "Banco Central do Brasil",
+      "country": "BR",
+      "class": "central_bank",
+      "acquisition_method": "HTML",
+      "documents_acquired": 0,
+      "documents_processed": 0,
+      "facts_extracted": 0,
+      "events_detected": 0,
+      "intelligence_objects": [],
+      "errors": [],
+      "failure_stage": "DOCUMENT",
+      "failure_reason": "no_document_links_found",
+      "acquisition": {
+        "http_status": 200,
+        "bytes": 2871,
+        "feed_url": "https://www.bcb.gov.br"
+      }
+    },
+    {
+      "source_id": "src-ons",
+      "name": "Office for National Statistics (UK)",
+      "country": "UK",
+      "class": "statistical_agency",
+      "acquisition_method": "HTML",
+      "documents_acquired": 2,
+      "documents_processed": 2,
+      "facts_extracted": 0,
+      "events_detected": 0,
+      "intelligence_objects": [],
+      "errors": [],
+      "failure_stage": null,
+      "failure_reason": null,
+      "acquisition": {
+        "http_status": 200,
+        "bytes": 80949,
+        "feed_url": "https://www.ons.gov.uk"
+      }
+    },
+    {
+      "source_id": "src-statsnz",
+      "name": "Stats NZ",
+      "country": "NZ",
+      "class": "statistical_agency",
+      "acquisition_method": "HTML",
+      "documents_acquired": 0,
+      "documents_processed": 0,
+      "facts_extracted": 0,
+      "events_detected": 0,
+      "intelligence_objects": [],
+      "errors": [],
+      "failure_stage": "DOCUMENT",
+      "failure_reason": "no_document_links_found",
+      "acquisition": {
+        "http_status": 200,
+        "bytes": 90349,
+        "feed_url": "https://www.stats.govt.nz"
+      }
+    },
+    {
+      "source_id": "src-statjapan",
+      "name": "Statistics Bureau of Japan",
+      "country": "JP",
+      "class": "statistical_agency",
+      "acquisition_method": "HTML",
+      "documents_acquired": 2,
+      "documents_processed": 2,
+      "facts_extracted": 0,
+      "events_detected": 0,
+      "intelligence_objects": [],
+      "errors": [],
+      "failure_stage": null,
+      "failure_reason": null,
+      "acquisition": {
+        "http_status": 200,
+        "bytes": 37158,
+        "feed_url": "https://www.stat.go.jp"
+      }
+    },
+    {
+      "source_id": "src-sfc-hk",
+      "name": "Securities and Futures Commission (HK)",
+      "country": "HK",
+      "class": "securities_regulator",
+      "acquisition_method": "HTML",
+      "documents_acquired": 20,
+      "documents_processed": 10,
+      "facts_extracted": 18,
+      "events_detected": 1,
+      "intelligence_objects": [
+        "io-60073bc6edae9ac2"
+      ],
+      "errors": [],
+      "failure_stage": null,
+      "failure_reason": null,
+      "acquisition": {
+        "http_status": 200,
+        "bytes": 122827,
+        "feed_url": "https://www.sfc.hk"
+      }
+    },
+    {
+      "source_id": "src-fsa-japan",
+      "name": "Financial Services Agency (Japan)",
+      "country": "JP",
+      "class": "financial_regulator",
+      "acquisition_method": "HTML",
+      "documents_acquired": 6,
+      "documents_processed": 6,
+      "facts_extracted": 0,
+      "events_detected": 0,
+      "intelligence_objects": [],
+      "errors": [],
+      "failure_stage": null,
+      "failure_reason": null,
+      "acquisition": {
+        "http_status": 200,
+        "bytes": 37675,
+        "feed_url": "https://www.fsa.go.jp"
+      }
+    },
+    {
+      "source_id": "src-cvm-brazil",
+      "name": "Comiss\u00e3o de Valores Mobili\u00e1rios (Brazil)",
+      "country": "BR",
+      "class": "securities_regulator",
+      "acquisition_method": "HTML",
+      "documents_acquired": 0,
+      "documents_processed": 0,
+      "facts_extracted": 0,
+      "events_detected": 0,
+      "intelligence_objects": [],
+      "errors": [],
+      "failure_stage": "DOCUMENT",
+      "failure_reason": "no_document_links_found",
+      "acquisition": {
+        "http_status": 200,
+        "bytes": 227749,
+        "feed_url": "https://www.gov.br/cvm"
+      }
+    },
+    {
+      "source_id": "src-lseg",
+      "name": "London Stock Exchange Group",
+      "country": "UK",
+      "class": "stock_exchange",
+      "acquisition_method": "HTML",
+      "documents_acquired": 0,
+      "documents_processed": 0,
+      "facts_extracted": 0,
+      "events_detected": 0,
+      "intelligence_objects": [],
+      "errors": [],
+      "failure_stage": "DOCUMENT",
+      "failure_reason": "no_document_links_found",
+      "acquisition": {
+        "http_status": 200,
+        "bytes": 54995,
+        "feed_url": "https://www.londonstockexchange.com"
+      }
+    },
+    {
+      "source_id": "src-jpx",
+      "name": "Japan Exchange Group",
+      "country": "JP",
+      "class": "stock_exchange",
+      "acquisition_method": "HTML",
+      "documents_acquired": 6,
+      "documents_processed": 6,
+      "facts_extracted": 0,
+      "events_detected": 0,
+      "intelligence_objects": [],
+      "errors": [],
+      "failure_stage": null,
+      "failure_reason": null,
+      "acquisition": {
+        "http_status": 200,
+        "bytes": 56821,
+        "feed_url": "https://www.jpx.co.jp"
+      }
+    },
+    {
+      "source_id": "src-b3-brazil",
+      "name": "B3 (Brazil)",
+      "country": "BR",
+      "class": "stock_exchange",
+      "acquisition_method": "HTML",
+      "documents_acquired": 0,
+      "documents_processed": 0,
+      "facts_extracted": 0,
+      "events_detected": 0,
+      "intelligence_objects": [],
+      "errors": [],
+      "failure_stage": "DOCUMENT",
+      "failure_reason": "no_document_links_found",
+      "acquisition": {
+        "http_status": 200,
+        "bytes": 989,
+        "feed_url": "https://www.b3.com.br"
+      }
+    },
+    {
+      "source_id": "src-mof-japan",
+      "name": "Ministry of Finance (Japan)",
+      "country": "JP",
+      "class": "finance_ministry",
+      "acquisition_method": "HTML",
+      "documents_acquired": 3,
+      "documents_processed": 3,
+      "facts_extracted": 0,
+      "events_detected": 0,
+      "intelligence_objects": [],
+      "errors": [],
+      "failure_stage": null,
+      "failure_reason": null,
+      "acquisition": {
+        "http_status": 200,
+        "bytes": 46368,
+        "feed_url": "https://www.mof.go.jp"
+      }
+    },
+    {
+      "source_id": "src-mof-china",
+      "name": "Ministry of Finance (China)",
+      "country": "CN",
+      "class": "finance_ministry",
+      "acquisition_method": "HTML",
+      "documents_acquired": 0,
+      "documents_processed": 0,
+      "facts_extracted": 0,
+      "events_detected": 0,
+      "intelligence_objects": [],
+      "errors": [],
+      "failure_stage": "DOCUMENT",
+      "failure_reason": "no_document_links_found",
+      "acquisition": {
+        "http_status": 200,
+        "bytes": 2534,
+        "feed_url": "http://www.mof.gov.cn"
+      }
+    },
+    {
+      "source_id": "src-bmf-brazil",
+      "name": "Minist\u00e9rio da Fazenda (Brazil)",
+      "country": "BR",
+      "class": "finance_ministry",
+      "acquisition_method": "HTML",
+      "documents_acquired": 0,
+      "documents_processed": 0,
+      "facts_extracted": 0,
+      "events_detected": 0,
+      "intelligence_objects": [],
+      "errors": [],
+      "failure_stage": "DOCUMENT",
+      "failure_reason": "no_document_links_found",
+      "acquisition": {
+        "http_status": 200,
+        "bytes": 135658,
+        "feed_url": "https://www.gov.br/fazenda"
+      }
+    },
+    {
+      "source_id": "src-bmfca-canada",
+      "name": "Department of Finance Canada",
+      "country": "CA",
+      "class": "finance_ministry",
+      "acquisition_method": "HTML",
+      "documents_acquired": 6,
+      "documents_processed": 6,
+      "facts_extracted": 0,
+      "events_detected": 0,
+      "intelligence_objects": [],
+      "errors": [],
+      "failure_stage": null,
+      "failure_reason": null,
+      "acquisition": {
+        "http_status": 200,
+        "bytes": 38072,
+        "feed_url": "https://www.canada.ca/en/department-finance.html"
+      }
+    },
+    {
+      "source_id": "src-beis-uk",
+      "name": "Department for Energy Security and Net Zero (UK)",
+      "country": "UK",
+      "class": "energy_ministry",
+      "acquisition_method": "HTML",
+      "documents_acquired": 17,
+      "documents_processed": 10,
+      "facts_extracted": 5,
+      "events_detected": 3,
+      "intelligence_objects": [
+        "io-5f0065caca456cb3",
+        "io-56c7f63d1cab09fd",
+        "io-dde88ab55ac15e15"
+      ],
+      "errors": [],
+      "failure_stage": null,
+      "failure_reason": null,
+      "acquisition": {
+        "http_status": 200,
+        "bytes": 129220,
+        "feed_url": "https://www.gov.uk/government/organisations/department-for-energy-security-and-net-zero"
+      }
+    },
+    {
+      "source_id": "src-cma-energy",
+      "name": "Competition and Markets Authority (UK)",
+      "country": "UK",
+      "class": "competition_authority",
+      "acquisition_method": "HTML",
+      "documents_acquired": 14,
+      "documents_processed": 10,
+      "facts_extracted": 3,
+      "events_detected": 1,
+      "intelligence_objects": [
+        "io-99461a1d9eed54a8"
+      ],
+      "errors": [],
+      "failure_stage": null,
+      "failure_reason": null,
+      "acquisition": {
+        "http_status": 200,
+        "bytes": 122953,
+        "feed_url": "https://www.gov.uk/government/organisations/competition-and-markets-authority"
+      }
+    },
+    {
+      "source_id": "src-eurostat-emp",
+      "name": "Eurostat Employment",
+      "country": "EU",
+      "class": "statistical_agency",
+      "acquisition_method": "HTML",
+      "documents_acquired": 20,
+      "documents_processed": 10,
+      "facts_extracted": 282,
+      "events_detected": 3,
+      "intelligence_objects": [
+        "io-d5b1ab4c5b2d361c",
+        "io-11560eb4ca7cac3c",
+        "io-6fef2e40160506bb",
+        "io-864e619bbdeccac0"
+      ],
+      "errors": [],
+      "failure_stage": null,
+      "failure_reason": null,
+      "acquisition": {
+        "http_status": 200,
+        "bytes": 241316,
+        "feed_url": "https://ec.europa.eu/eurostat"
+      }
+    },
+    {
+      "source_id": "src-mospi-india",
+      "name": "Ministry of Statistics (India)",
+      "country": "IN",
+      "class": "statistical_agency",
+      "acquisition_method": "HTML",
+      "documents_acquired": 0,
+      "documents_processed": 0,
+      "facts_extracted": 0,
+      "events_detected": 0,
+      "intelligence_objects": [],
+      "errors": [],
+      "failure_stage": "DOCUMENT",
+      "failure_reason": "no_document_links_found",
+      "acquisition": {
+        "http_status": 200,
+        "bytes": 2657,
+        "feed_url": "https://www.mospi.gov.in"
+      }
+    },
+    {
+      "source_id": "src-pboc-banking",
+      "name": "China Banking and Insurance Regulatory Commission",
+      "country": "CN",
+      "class": "banking_regulator",
+      "acquisition_method": "HTML",
+      "documents_acquired": 0,
+      "documents_processed": 0,
+      "facts_extracted": 0,
+      "events_detected": 0,
+      "intelligence_objects": [],
+      "errors": [],
+      "failure_stage": "DOCUMENT",
+      "failure_reason": "no_document_links_found",
+      "acquisition": {
+        "http_status": 200,
+        "bytes": 237,
+        "feed_url": "https://www.nfra.gov.cn"
+      }
+    },
+    {
+      "source_id": "src-ustr",
+      "name": "Office of the US Trade Representative",
+      "country": "US",
+      "class": "trade_ministry",
+      "acquisition_method": "HTML",
+      "documents_acquired": 13,
+      "documents_processed": 9,
+      "facts_extracted": 3,
+      "events_detected": 3,
+      "intelligence_objects": [
+        "io-b3e12fc705d151a8",
+        "io-cc3ef58f601ca0c3",
+        "io-3b6970ad6bfdfc58"
+      ],
+      "errors": [
+        {
+          "stage": "DOC",
+          "message": "HTTP Error 404: Not Found"
+        }
+      ],
+      "failure_stage": null,
+      "failure_reason": null,
+      "acquisition": {
+        "http_status": 200,
+        "bytes": 53657,
+        "feed_url": "https://ustr.gov"
+      }
+    },
+    {
+      "source_id": "src-mitijapan",
+      "name": "Ministry of Economy, Trade and Industry (Japan)",
+      "country": "JP",
+      "class": "trade_ministry",
+      "acquisition_method": "HTML",
+      "documents_acquired": 20,
+      "documents_processed": 9,
+      "facts_extracted": 0,
+      "events_detected": 0,
+      "intelligence_objects": [],
+      "errors": [
+        {
+          "stage": "DOC",
+          "message": "HTTP Error 403: Forbidden"
+        }
+      ],
+      "failure_stage": null,
+      "failure_reason": null,
+      "acquisition": {
+        "http_status": 200,
+        "bytes": 64416,
+        "feed_url": "https://www.meti.go.jp"
+      }
+    },
+    {
+      "source_id": "src-bank-mexico",
+      "name": "Banco de M\u00e9xico",
+      "country": "MX",
+      "class": "central_bank",
+      "acquisition_method": "HTML",
+      "documents_acquired": 0,
+      "documents_processed": 0,
+      "facts_extracted": 0,
+      "events_detected": 0,
+      "intelligence_objects": [],
+      "errors": [],
+      "failure_stage": "DOCUMENT",
+      "failure_reason": "no_document_links_found",
+      "acquisition": {
+        "http_status": 200,
+        "bytes": 27463,
+        "feed_url": "https://www.banxico.org.mx"
+      }
+    },
+    {
+      "source_id": "src-bcb-brazil",
+      "name": "Banco Central do Brasil",
+      "country": "BR",
+      "class": "central_bank",
+      "acquisition_method": "HTML",
+      "documents_acquired": 0,
+      "documents_processed": 0,
+      "facts_extracted": 0,
+      "events_detected": 0,
+      "intelligence_objects": [],
+      "errors": [],
+      "failure_stage": "DOCUMENT",
+      "failure_reason": "no_document_links_found",
+      "acquisition": {
+        "http_status": 200,
+        "bytes": 2871,
+        "feed_url": "https://www.bcb.gov.br"
+      }
+    },
+    {
+      "source_id": "src-sama-saudi",
+      "name": "Saudi Central Bank (SAMA)",
+      "country": "SA",
+      "class": "central_bank",
+      "acquisition_method": "HTML",
+      "documents_acquired": 2,
+      "documents_processed": 2,
+      "facts_extracted": 0,
+      "events_detected": 0,
+      "intelligence_objects": [],
+      "errors": [],
+      "failure_stage": null,
+      "failure_reason": null,
+      "acquisition": {
+        "http_status": 200,
+        "bytes": 68079,
+        "feed_url": "https://www.sama.gov.sa"
+      }
+    },
+    {
+      "source_id": "src-cb-turkey",
+      "name": "Central Bank of the Republic of Turkey",
+      "country": "TR",
+      "class": "central_bank",
+      "acquisition_method": "HTML",
+      "documents_acquired": 0,
+      "documents_processed": 0,
+      "facts_extracted": 0,
+      "events_detected": 0,
+      "intelligence_objects": [],
+      "errors": [],
+      "failure_stage": "DOCUMENT",
+      "failure_reason": "no_document_links_found",
+      "acquisition": {
+        "http_status": 200,
+        "bytes": 81723,
+        "feed_url": "https://www.tcmb.gov.tr"
+      }
+    },
+    {
+      "source_id": "src-sspi-japan",
+      "name": "Government Pension Investment Fund (Japan)",
+      "country": "JP",
+      "class": "pension_regulator",
+      "acquisition_method": "HTML",
+      "documents_acquired": 0,
+      "documents_processed": 0,
+      "facts_extracted": 0,
+      "events_detected": 0,
+      "intelligence_objects": [],
+      "errors": [],
+      "failure_stage": "DOCUMENT",
+      "failure_reason": "no_document_links_found",
+      "acquisition": {
+        "http_status": 200,
+        "bytes": 40875,
+        "feed_url": "https://www.gpif.go.jp"
+      }
+    }
+  ]
+}

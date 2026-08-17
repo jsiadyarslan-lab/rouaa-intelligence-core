@@ -105,6 +105,7 @@ class _ServerCtx:
         env["CORE_API_TOKEN"] = TOKEN
         env["CORE_STORE_PATH"] = self.store_root
         env["PYTHONPATH"] = str(CORE_REPO)
+        env["CORE_TEST_MODE"] = "1"  # V2-Continuous §15: disable signal handlers in tests
 
         self.proc = subprocess.Popen(
             [

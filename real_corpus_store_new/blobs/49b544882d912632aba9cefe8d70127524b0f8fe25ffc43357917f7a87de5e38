@@ -1,0 +1,1558 @@
+
+<!DOCTYPE html>
+<!--[if IE 9]><html lang="en" class="ie9 no-js"><![endif]-->
+<!--[if !IE]><!-->
+<html lang="en" class="no-js menu-closed">
+<!--<![endif]-->
+<head>
+	<!-- 92jdp -->
+	
+	<link rel="preload" as="style" href="/styles/boe.vendor.min.css?ver=98f91" />
+<link rel="preload" as="style" href="/styles/BoE.min.css?ver=98f91" />
+<link rel="preload" as="style" href="/-/media/css/cludosearchmin.css?ver=99CF8F" />
+
+	
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta http-equiv="Content-type" content="text/html; charset=utf-8">
+	<meta content="width=device-width, initial-scale=1.0" name="viewport" />
+	
+
+<title>Minutes of the Meeting of the Court of Directors held on 12 February 2026 | Bank of England</title>
+<meta name="description" content=""/>
+<meta name="apple-mobile-web-app-title" content="Bank of England" />
+<meta name="format-detection" content="telephone=no" />
+<link rel="canonical" href="https://www.bankofengland.co.uk/minutes/2026/may/court-minutes-12-february-2026" />
+<meta property="og:title" content="Minutes of the Meeting of the Court of Directors held on 12 February 2026">
+<meta property="og:description" content="The Bank&#39;s Court of Directors acts as a unitary board, setting the organisation&#39;s strategy and budget and taking key decisions on resourcing and appointments. Required to meet a minimum seven times per year, it has five executive members from the Bank and up to nine non-executive members.">
+<meta property="og:image" content="https://www.bankofengland.co.uk/-/media/boe/images/logo/boe-default ">
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://www.bankofengland.co.uk/minutes/2026/may/court-minutes-12-february-2026" />
+
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Minutes of the Meeting of the Court of Directors held on 12 February 2026">
+<meta name="twitter:description" content="The Bank&#39;s Court of Directors acts as a unitary board, setting the organisation&#39;s strategy and budget and taking key decisions on resourcing and appointments. Required to meet a minimum seven times per year, it has five executive members from the Bank and up to nine non-executive members.">
+<meta name="twitter:image" content="https://www.bankofengland.co.uk/-/media/boe/images/logo/boe-default ">
+
+	<script>
+	var CheckCookies = {
+		getCookie: function (cname) {
+			var name = cname + "=";
+			var decodedCookie = decodeURIComponent(document.cookie);
+			var ca = decodedCookie.split(';');
+			for (var i = 0; i < ca.length; i++) {
+				var c = ca[i];
+				while (c.charAt(0) === ' ') {
+					c = c.substring(1);
+				}
+				if (c.indexOf(name) === 0) {
+					return c.substring(name.length, c.length);
+				}
+			}
+			return "";
+		}
+	};
+	var SetAnalytics = {
+		setTagManager: function () {
+			var hasConsentAnalytics = CheckCookies.getCookie('boeconsent');
+			if (hasConsentAnalytics === "analytics") {
+				(function (w, d, s, l, i) {
+					w[l] = w[l] || []; w[l].push({
+						'gtm.start':
+							new Date().getTime(), event: 'gtm.js'
+					}); var f = d.getElementsByTagName(s)[0],
+						j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''; j.async = true; j.src =
+							'https://www.googletagmanager.com/gtm.js?id=' + i + dl; f.parentNode.insertBefore(j, f);
+				})(window, document, 'script', 'dataLayer', 'GTM-5H35J9');
+			}
+		},
+	}
+	SetAnalytics.setTagManager();
+	</script>
+
+	<script>
+		var el = document.getElementsByTagName('html')[0];
+		if (el.classList) {
+			el.classList.remove('no-js');
+		} else {
+			el.className = el.className.replace('no-js', '');
+		}
+	</script>
+
+	
+	<link href="/styles/boe.vendor.min.css?ver=98f91" rel="stylesheet" media="screen,print" />
+<link href="/styles/BoE.min.css?ver=98f91" rel="stylesheet" media="screen,print" />
+<link href="/-/media/css/cludosearchmin.css?ver=99CF8F" rel="stylesheet" media="screen" />
+
+	
+		<!-- Tracking Disabled -->
+	<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png?ver=98f91">
+	<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png?ver=98f91">
+	<link rel="icon" type="image/png" sizes="96x96" href="/favicon-96x96.png?ver=98f91">
+	<link rel="icon" type="image/png" sizes="180x180" href="/favicon-180x180.png?ver=98f91">
+	<link rel="icon" type="image/png" sizes="192x192" href="/favicon-192x192.png?ver=98f91">
+	<link rel="icon" type="image/png" sizes="512x512" href="/favicon-512x512.png?ver=98f91">
+
+	<link rel="icon" href="/favicon.ico?ver=98f91" sizes="any">
+	<link rel="icon" href="/favicon.svg?ver=98f91" type="image/svg+xml">
+	<link rel="apple-touch-icon" href="/apple-touch-icon.png?ver=98f91">
+
+
+<script>(window.BOOMR_mq=window.BOOMR_mq||[]).push(["addVar",{"rua.upush":"false","rua.cpush":"true","rua.upre":"false","rua.cpre":"false","rua.uprl":"false","rua.cprl":"false","rua.cprf":"false","rua.trans":"SJ-58b72da7-b8fa-4a1a-a607-2f093fd53070","rua.cook":"false","rua.ims":"false","rua.ufprl":"false","rua.cfprl":"false","rua.isuxp":"false","rua.texp":"norulematch","rua.ceh":"false","rua.ueh":"false","rua.ieh.st":"0"}]);</script>
+                                <script>!function(a){var e="https://s.go-mpulse.net/boomerang/",t="addEventListener";if("False"=="True")a.BOOMR_config=a.BOOMR_config||{},a.BOOMR_config.PageParams=a.BOOMR_config.PageParams||{},a.BOOMR_config.PageParams.pci=!0,e="https://s2.go-mpulse.net/boomerang/";if(window.BOOMR_API_key="9R3WH-S6EDC-8JGQW-55286-CGTTF",function(){function n(e){a.BOOMR_onload=e&&e.timeStamp||(new Date).getTime()}if(!a.BOOMR||!a.BOOMR.version&&!a.BOOMR.snippetExecuted){a.BOOMR=a.BOOMR||{},a.BOOMR.snippetExecuted=!0;var i,_,o,r=document.createElement("iframe");if(a[t])a[t]("load",n,!1);else if(a.attachEvent)a.attachEvent("onload",n);r.src="javascript:void(0)",r.title="",r.role="presentation",(r.frameElement||r).style.cssText="width:0;height:0;border:0;display:none;",o=document.getElementsByTagName("script")[0],o.parentNode.insertBefore(r,o);try{_=r.contentWindow.document}catch(O){i=document.domain,r.src="javascript:var d=document.open();d.domain='"+i+"';void(0);",_=r.contentWindow.document}_.open()._l=function(){var a=this.createElement("script");if(i)this.domain=i;a.id="boomr-if-as",a.src=e+"9R3WH-S6EDC-8JGQW-55286-CGTTF",BOOMR_lstart=(new Date).getTime(),this.body.appendChild(a)},_.write("<bo"+'dy onload="document._l();">'),_.close()}}(),"".length>0)if(a&&"performance"in a&&a.performance&&"function"==typeof a.performance.setResourceTimingBufferSize)a.performance.setResourceTimingBufferSize();!function(){if(BOOMR=a.BOOMR||{},BOOMR.plugins=BOOMR.plugins||{},!BOOMR.plugins.AK){var e="true"=="true"?1:0,t="",n="bdkavh5ykv4k42udrjza-f-fc89a5f7d-clientnsv4-s.akamaihd.net",i="false"=="true"?2:1,_={"ak.v":"41","ak.cp":"445139","ak.ai":parseInt("286733",10),"ak.ol":"0","ak.cr":5,"ak.ipv":4,"ak.proto":"http/1.1","ak.rid":"16d8fdca","ak.r":34657,"ak.a2":e,"ak.m":"a","ak.n":"essl","ak.cport":49658,"ak.gh":"184.51.102.4","ak.quicv":"","ak.tlsv":"tls1.3","ak.0rtt":"","ak.0rtt.ed":"","ak.csrc":"-","ak.acc":"bbr","ak.t":"1787005554","ak.ak":"hOBiQwZUYzCg5VSAfCLimQ==9rKRZyOSztAlGh2BIAmNDwJT+VRg8x3bUn+m05pt8/j1xMFQiypHARKSL8WtS9Ji3srDkBfqT3tUGX1K9oqfJL+0PCQoB2YBuDqekeer8x+Ye7/Gjm5RrUC25ASjvSuKLmpqn+zcu6Oi0pPqFnYPXKpvn194eZigLuSfNzGkj+JGepDi0dV5odjrLbNd/PtXA/ZcLpJJO/04cGuqA2ziR1MAcu3cC5yiHZQh1bm1YYIukzei2B+8fggr8edAKpRLN+Kj0lRU3KW3r7UXG1sHQldJ1neVISYrhwHF0j+HY3UGV23xwKCLjizdohtIBYFUMBa7fOV7UL2BBCJ531kgZTXam80Tmj5lKLbcHLyPUim77ZS5LFGlBVAHa02PB7hrsLvkhVCiVtSIWmi7PtShS3zZs/FWtrjQ/2SF5piUbOY=","ak.pv":"356","ak.dpoabenc":"","ak.tf":i};if(""!==t)_["ak.ruds"]=t;var o={i:!1,av:function(e){var t="http.initiator";if(e&&(!e[t]||"spa_hard"===e[t]))_["ak.feo"]=void 0!==a.aFeoApplied?1:0,BOOMR.addVar(_)},rv:function(){var a=["ak.cport","ak.cr","ak.csrc","ak.gh","ak.ipv","ak.m","ak.n","ak.ol","ak.proto","ak.quicv","ak.tlsv","ak.0rtt","ak.0rtt.ed","ak.r","ak.acc","ak.t","ak.tf"];BOOMR.removeVar(a)}};BOOMR.plugins.AK={akVars:_,akDNSPreFetchDomain:n,init:function(){if(!o.i){var a=BOOMR.subscribe;a("before_beacon",o.av,null,null),a("onbeacon",o.rv,null,null),o.i=!0}return this},is_complete:function(){return!0}}}}()}(window);</script></head>
+<body >
+		<div class="wrap" itemscope="" itemtype="http://schema.org/WebPage">
+
+
+<div class="cookie-notice">
+	<div class="cookie-notice__panel">
+		<div class="cookie-content content-block">
+			<h2 class="cookie-title exclude-navigation">Our use of cookies</h2>
+
+			<p>We use necessary cookies to make our site work. We&rsquo;d also like to use some non-essential cookies (including third-party cookies) to help us improve the site. By clicking &lsquo;Accept recommended settings&rsquo; on this banner, you accept our use of analytics cookies.&nbsp;  For more information on how these cookies work please see our <a href="/legal/privacy-and-cookie-policy">Cookie policy</a>.</p>
+
+			<button type="button" class="cookie__button btn btn-default" data-cookie="analytics">Accept recommended cookies</button>
+			<button type="button" class="cookie__button btn btn-default btn-neutral" data-cookie="necessary">Proceed with necessary cookies only</button>
+
+					</div>
+	</div>
+</div>		<div class="nav-bypass">
+			<a href="#main-content" class="nav-bypass__link">Skip to main content</a>
+		</div>
+		
+<header class="global-header" itemscope="" itemtype="http://schema.org/WPHeader">
+    <div class="container">
+        <div class="col12">
+            <div class="header-brand" itemscope="" itemtype="http://schema.org/Organisation">
+                
+
+	<a class="header-logo " itemscope itemtype="http://schema.org/Brand" href="/">
+		<img src="/-/media/boe/images/logo/logo-boe.svg?iar=0&amp;mh=61&amp;hash=2C88D4FFDD47844D6BD2541F5A92D70F" alt="Bank of England home" />
+
+	</a>
+
+            </div>
+
+            <div class="header-nav " id="menu">
+                <nav class="container-nav-primary" id="container-nav-primary" role="navigation" aria-label="Main navigation" itemscope="" itemtype="http://schema.org/SiteNavigationElement" data-nav-primary>
+                    <button class="nav-primary__button" aria-controls="main-menu" data-nav-toggle>
+                        <span class="icon-menu"><span class="visually-hidden">Main menu</span></span>
+                        <span class="icon-cross"><span class="visually-hidden">Close main menu</span></span>
+                    </button>
+                    <ul class="nav-primary" id="main-menu">
+                        
+                        
+
+<li class="nav-primary__list-item nav-primary__list-item--has-children" data-nav-has-children>
+    <span class="nav-primary__link">
+        Topics
+    </span>
+    <button class="nav-primary__dropdown-toggle">
+		<span class="visually-hidden">
+			Open Topics sub menu
+		</span>
+	</button>
+    <ul class="nav-primary__sublist">
+        <li class="nav-primary__sublist-item nav-primary__sublist-item--back">
+            <a href="#" class="nav-primary__sublist-link" data-nav-back>
+                Back <span class="visually-hidden">to main menu</span>
+            </a>
+        </li>
+            <li class="nav-primary__sublist-item  nav-primary__sublist-item--has-children" data-nav-has-children>
+                    <a href="/banknotes" class="nav-primary__sublist-link">
+                        Banknotes
+                    </a>
+                                    <button class="nav-primary__dropdown-toggle">
+                        <span class="visually-hidden">Open Banknotes sub menu</span>
+                    </button>
+                    <ul class="nav-primary__sublist">
+                        <li class="nav-primary__sublist-item nav-primary__sublist-item--back">
+                            <a href="#" class="nav-primary__sublist-link" data-nav-back>
+                                Back <span class="visually-hidden">to main menu</span>
+                            </a>
+                        </li>
+                            <li class="nav-primary__sublist-item">
+                                <a href="/banknotes/counterfeit-banknotes" class="nav-primary__sublist-link">
+                                    Counterfeit banknotes 
+                                </a>
+                            </li>
+                            <li class="nav-primary__sublist-item">
+                                <a href="/banknotes/current-banknotes" class="nav-primary__sublist-link">
+                                    Current banknotes 
+                                </a>
+                            </li>
+                            <li class="nav-primary__sublist-item">
+                                <a href="/banknotes/damaged-and-contaminated-banknotes" class="nav-primary__sublist-link">
+                                    Damaged and contaminated banknotes 
+                                </a>
+                            </li>
+                            <li class="nav-primary__sublist-item">
+                                <a href="/banknotes/exchanging-old-banknotes" class="nav-primary__sublist-link">
+                                    Exchanging old banknotes 
+                                </a>
+                            </li>
+                            <li class="nav-primary__sublist-item">
+                                <a href="/banknotes/note-circulation-scheme" class="nav-primary__sublist-link">
+                                    Note Circulation Scheme 
+                                </a>
+                            </li>
+                            <li class="nav-primary__sublist-item">
+                                <a href="/banknotes/retailers-and-businesses" class="nav-primary__sublist-link">
+                                    Advice for retailers and businesses 
+                                </a>
+                            </li>
+                            <li class="nav-primary__sublist-item">
+                                <a href="/banknotes/scottish-and-northern-ireland-banknotes" class="nav-primary__sublist-link">
+                                    Scottish and Northern Ireland banknotes 
+                                </a>
+                            </li>
+                            <li class="nav-primary__sublist-item">
+                                <a href="/banknotes/using-images-of-banknotes" class="nav-primary__sublist-link">
+                                    Using images of banknotes 
+                                </a>
+                            </li>
+                            <li class="nav-primary__sublist-item">
+                                <a href="/banknotes/wholesale-cash-supervision" class="nav-primary__sublist-link">
+                                    Wholesale cash supervision 
+                                </a>
+                            </li>
+                            <li class="nav-primary__sublist-item">
+                                <a href="/banknotes/withdrawn-banknotes" class="nav-primary__sublist-link">
+                                    Withdrawn banknotes 
+                                </a>
+                            </li>
+					</ul>
+            </li>
+            <li class="nav-primary__sublist-item  nav-primary__sublist-item--has-children" data-nav-has-children>
+                    <a href="/careers" class="nav-primary__sublist-link">
+                        Careers
+                    </a>
+                                    <button class="nav-primary__dropdown-toggle">
+                        <span class="visually-hidden">Open Careers sub menu</span>
+                    </button>
+                    <ul class="nav-primary__sublist">
+                        <li class="nav-primary__sublist-item nav-primary__sublist-item--back">
+                            <a href="#" class="nav-primary__sublist-link" data-nav-back>
+                                Back <span class="visually-hidden">to main menu</span>
+                            </a>
+                        </li>
+                            <li class="nav-primary__sublist-item">
+                                <a href="/careers/application-tips" class="nav-primary__sublist-link">
+                                    Application tips 
+                                </a>
+                            </li>
+                            <li class="nav-primary__sublist-item">
+                                <a href="/careers/career-returner" class="nav-primary__sublist-link">
+                                    Career Returner Programme 
+                                </a>
+                            </li>
+                            <li class="nav-primary__sublist-item">
+                                <a href="/careers/future-talent" class="nav-primary__sublist-link">
+                                    Future talent 
+                                </a>
+                            </li>
+                            <li class="nav-primary__sublist-item">
+                                <a href="/careers/our-locations" class="nav-primary__sublist-link">
+                                    Our locations 
+                                </a>
+                            </li>
+                            <li class="nav-primary__sublist-item">
+                                <a href="/careers/research-careers" class="nav-primary__sublist-link">
+                                    Research careers 
+                                </a>
+                            </li>
+                            <li class="nav-primary__sublist-item">
+                                <a href="/careers/we-value-diversity-and-inclusion" class="nav-primary__sublist-link">
+                                    We value diversity and inclusion 
+                                </a>
+                            </li>
+                            <li class="nav-primary__sublist-item">
+                                <a href="/careers/what-we-offer-you" class="nav-primary__sublist-link">
+                                    What we offer you 
+                                </a>
+                            </li>
+                            <li class="nav-primary__sublist-item">
+                                <a href="/careers/why-you-should-join-us" class="nav-primary__sublist-link">
+                                    Why you should join us 
+                                </a>
+                            </li>
+					</ul>
+            </li>
+            <li class="nav-primary__sublist-item" >
+                    <a href="/climate-change" class="nav-primary__sublist-link">
+                        Climate change
+                    </a>
+                            </li>
+            <li class="nav-primary__sublist-item" >
+                    <a href="/the-digital-pound" class="nav-primary__sublist-link">
+                        Digital pound
+                    </a>
+                            </li>
+            <li class="nav-primary__sublist-item  nav-primary__sublist-item--has-children" data-nav-has-children>
+                    <a href="/education" class="nav-primary__sublist-link">
+                        Education
+                    </a>
+                                    <button class="nav-primary__dropdown-toggle">
+                        <span class="visually-hidden">Open Education sub menu</span>
+                    </button>
+                    <ul class="nav-primary__sublist">
+                        <li class="nav-primary__sublist-item nav-primary__sublist-item--back">
+                            <a href="#" class="nav-primary__sublist-link" data-nav-back>
+                                Back <span class="visually-hidden">to main menu</span>
+                            </a>
+                        </li>
+                            <li class="nav-primary__sublist-item">
+                                <a href="/education/competitions" class="nav-primary__sublist-link">
+                                    Competitions 
+                                </a>
+                            </li>
+                            <li class="nav-primary__sublist-item">
+                                <a href="/education/education-resources" class="nav-primary__sublist-link">
+                                    Education resources 
+                                </a>
+                            </li>
+                            <li class="nav-primary__sublist-item">
+                                <a href="/education/research-support-programme" class="nav-primary__sublist-link">
+                                    Research support programme 
+                                </a>
+                            </li>
+                            <li class="nav-primary__sublist-item">
+                                <a href="/education/school-visits" class="nav-primary__sublist-link">
+                                    Request a speaker for your school 
+                                </a>
+                            </li>
+					</ul>
+            </li>
+            <li class="nav-primary__sublist-item  nav-primary__sublist-item--has-children" data-nav-has-children>
+                    <a href="/financial-stability" class="nav-primary__sublist-link">
+                        Financial stability
+                    </a>
+                                    <button class="nav-primary__dropdown-toggle">
+                        <span class="visually-hidden">Open Financial stability sub menu</span>
+                    </button>
+                    <ul class="nav-primary__sublist">
+                        <li class="nav-primary__sublist-item nav-primary__sublist-item--back">
+                            <a href="#" class="nav-primary__sublist-link" data-nav-back>
+                                Back <span class="visually-hidden">to main menu</span>
+                            </a>
+                        </li>
+                            <li class="nav-primary__sublist-item">
+                                <a href="/financial-stability/digital-securities-sandbox" class="nav-primary__sublist-link">
+                                    Digital Securities Sandbox (DSS) 
+                                </a>
+                            </li>
+                            <li class="nav-primary__sublist-item">
+                                <a href="/financial-stability/financial-market-infrastructure-supervision" class="nav-primary__sublist-link">
+                                    Financial market infrastructure supervision 
+                                </a>
+                            </li>
+                            <li class="nav-primary__sublist-item">
+                                <a href="/financial-stability/operational-resilience-of-the-financial-sector" class="nav-primary__sublist-link">
+                                    Operational resilience of the financial sector 
+                                </a>
+                            </li>
+                            <li class="nav-primary__sublist-item">
+                                <a href="/financial-stability/resolution" class="nav-primary__sublist-link">
+                                    Resolution 
+                                </a>
+                            </li>
+                            <li class="nav-primary__sublist-item">
+                                <a href="/financial-stability/trade-repository-data" class="nav-primary__sublist-link">
+                                    Trade Repository (TR) Data Collections 
+                                </a>
+                            </li>
+					</ul>
+            </li>
+            <li class="nav-primary__sublist-item" >
+                    <a href="/gold" class="nav-primary__sublist-link">
+                        Gold
+                    </a>
+                            </li>
+            <li class="nav-primary__sublist-item  nav-primary__sublist-item--has-children" data-nav-has-children>
+                    <a href="/markets" class="nav-primary__sublist-link">
+                        Markets
+                    </a>
+                                    <button class="nav-primary__dropdown-toggle">
+                        <span class="visually-hidden">Open Markets sub menu</span>
+                    </button>
+                    <ul class="nav-primary__sublist">
+                        <li class="nav-primary__sublist-item nav-primary__sublist-item--back">
+                            <a href="#" class="nav-primary__sublist-link" data-nav-back>
+                                Back <span class="visually-hidden">to main menu</span>
+                            </a>
+                        </li>
+                            <li class="nav-primary__sublist-item">
+                                <a href="/markets/bank-of-england-market-operations-guide" class="nav-primary__sublist-link">
+                                    Bank of England Market Operations Guide 
+                                </a>
+                            </li>
+                            <li class="nav-primary__sublist-item">
+                                <a href="/markets/eligible-collateral" class="nav-primary__sublist-link">
+                                    Eligible collateral 
+                                </a>
+                            </li>
+                            <li class="nav-primary__sublist-item">
+                                <a href="/markets/fair-and-effective-markets" class="nav-primary__sublist-link">
+                                    Fair and Effective Markets  
+                                </a>
+                            </li>
+                            <li class="nav-primary__sublist-item">
+                                <a href="/markets/foreign-currency-reserves" class="nav-primary__sublist-link">
+                                    Foreign currency reserves 
+                                </a>
+                            </li>
+                            <li class="nav-primary__sublist-item">
+                                <a href="/markets/greening-the-corporate-bond-purchase-scheme" class="nav-primary__sublist-link">
+                                    Greening our Corporate Bond Purchase Scheme (CBPS) 
+                                </a>
+                            </li>
+                            <li class="nav-primary__sublist-item">
+                                <a href="/markets/market-intelligence" class="nav-primary__sublist-link">
+                                    Market intelligence 
+                                </a>
+                            </li>
+                            <li class="nav-primary__sublist-item">
+                                <a href="/markets/money-markets-committee-and-uk-money-markets-code" class="nav-primary__sublist-link">
+                                    Money Markets Committee and UK Money Markets Code 
+                                </a>
+                            </li>
+                            <li class="nav-primary__sublist-item">
+                                <a href="/markets/collateral-and-settlement" class="nav-primary__sublist-link">
+                                    Settlement and collateral management 
+                                </a>
+                            </li>
+                            <li class="nav-primary__sublist-item">
+                                <a href="/markets/sonia-benchmark" class="nav-primary__sublist-link">
+                                    SONIA interest rate benchmark 
+                                </a>
+                            </li>
+                            <li class="nav-primary__sublist-item">
+                                <a href="/markets/the-sterling-bond-portfolio" class="nav-primary__sublist-link">
+                                    The Sterling Bond Portfolio 
+                                </a>
+                            </li>
+                            <li class="nav-primary__sublist-item">
+                                <a href="/markets/transition-to-sterling-risk-free-rates-from-libor" class="nav-primary__sublist-link">
+                                    Transition from LIBOR to risk-free rates 
+                                </a>
+                            </li>
+					</ul>
+            </li>
+            <li class="nav-primary__sublist-item  nav-primary__sublist-item--has-children" data-nav-has-children>
+                    <a href="/monetary-policy" class="nav-primary__sublist-link">
+                        Monetary policy
+                    </a>
+                                    <button class="nav-primary__dropdown-toggle">
+                        <span class="visually-hidden">Open Monetary policy sub menu</span>
+                    </button>
+                    <ul class="nav-primary__sublist">
+                        <li class="nav-primary__sublist-item nav-primary__sublist-item--back">
+                            <a href="#" class="nav-primary__sublist-link" data-nav-back>
+                                Back <span class="visually-hidden">to main menu</span>
+                            </a>
+                        </li>
+                            <li class="nav-primary__sublist-item">
+                                <a href="/monetary-policy/inflation" class="nav-primary__sublist-link">
+                                    Inflation and the 2% target 
+                                </a>
+                            </li>
+                            <li class="nav-primary__sublist-item">
+                                <a href="/monetary-policy/quantitative-easing" class="nav-primary__sublist-link">
+                                    Quantitative easing 
+                                </a>
+                            </li>
+                            <li class="nav-primary__sublist-item">
+                                <a href="/monetary-policy/the-interest-rate-bank-rate" class="nav-primary__sublist-link">
+                                    Interest rates and Bank Rate 
+                                </a>
+                            </li>
+					</ul>
+            </li>
+            <li class="nav-primary__sublist-item  nav-primary__sublist-item--has-children" data-nav-has-children>
+                    <a href="/payments" class="nav-primary__sublist-link">
+                        Payments
+                    </a>
+                                    <button class="nav-primary__dropdown-toggle">
+                        <span class="visually-hidden">Open Payments sub menu</span>
+                    </button>
+                    <ul class="nav-primary__sublist">
+                        <li class="nav-primary__sublist-item nav-primary__sublist-item--back">
+                            <a href="#" class="nav-primary__sublist-link" data-nav-back>
+                                Back <span class="visually-hidden">to main menu</span>
+                            </a>
+                        </li>
+                            <li class="nav-primary__sublist-item">
+                                <a href="/payments/banking-services" class="nav-primary__sublist-link">
+                                    Banking services 
+                                </a>
+                            </li>
+                            <li class="nav-primary__sublist-item">
+                                <a href="/payments/chaps" class="nav-primary__sublist-link">
+                                    CHAPS 
+                                </a>
+                            </li>
+                            <li class="nav-primary__sublist-item">
+                                <a href="/payments/payment-settlement" class="nav-primary__sublist-link">
+                                    Payment and settlement 
+                                </a>
+                            </li>
+                            <li class="nav-primary__sublist-item">
+                                <a href="/payments/payments-innovation" class="nav-primary__sublist-link">
+                                    Payments innovation 
+                                </a>
+                            </li>
+					</ul>
+            </li>
+            <li class="nav-primary__sublist-item  nav-primary__sublist-item--has-children" data-nav-has-children>
+                    <a href="/prudential-regulation" class="nav-primary__sublist-link">
+                        Prudential regulation
+                    </a>
+                                    <button class="nav-primary__dropdown-toggle">
+                        <span class="visually-hidden">Open Prudential regulation sub menu</span>
+                    </button>
+                    <ul class="nav-primary__sublist">
+                        <li class="nav-primary__sublist-item nav-primary__sublist-item--back">
+                            <a href="#" class="nav-primary__sublist-link" data-nav-back>
+                                Back <span class="visually-hidden">to main menu</span>
+                            </a>
+                        </li>
+                            <li class="nav-primary__sublist-item">
+                                <a href="/prudential-regulation/authorisations" class="nav-primary__sublist-link">
+                                    Authorisations 
+                                </a>
+                            </li>
+                            <li class="nav-primary__sublist-item">
+                                <a href="/prudential-regulation/new-bank-start-up-unit" class="nav-primary__sublist-link">
+                                    New Bank Start-up Unit 
+                                </a>
+                            </li>
+                            <li class="nav-primary__sublist-item">
+                                <a href="/prudential-regulation/new-insurer-start-up-unit" class="nav-primary__sublist-link">
+                                    New Insurer Start-up Unit 
+                                </a>
+                            </li>
+                            <li class="nav-primary__sublist-item">
+                                <a href="/prudential-regulation/policy" class="nav-primary__sublist-link">
+                                    Policy 
+                                </a>
+                            </li>
+                            <li class="nav-primary__sublist-item">
+                                <a href="/prudential-regulation/prudential-and-resolution-policy-index" class="nav-primary__sublist-link">
+                                    Prudential and Resolution Policy Index 
+                                </a>
+                            </li>
+                            <li class="nav-primary__sublist-item">
+                                <a href="/prudential-regulation/regulatory-reporting" class="nav-primary__sublist-link">
+                                    Regulatory reporting 
+                                </a>
+                            </li>
+                            <li class="nav-primary__sublist-item">
+                                <a href="/prudential-regulation/our-secondary-objectives" class="nav-primary__sublist-link">
+                                    Our secondary objectives 
+                                </a>
+                            </li>
+                            <li class="nav-primary__sublist-item">
+                                <a href="/prudential-regulation/supervision" class="nav-primary__sublist-link">
+                                    Supervision 
+                                </a>
+                            </li>
+                            <li class="nav-primary__sublist-item">
+                                <a href="/prudential-regulation/the-bank-of-england-enforcement" class="nav-primary__sublist-link">
+                                    The Bank of England’s approach to enforcement 
+                                </a>
+                            </li>
+					</ul>
+            </li>
+            <li class="nav-primary__sublist-item  nav-primary__sublist-item--has-children" data-nav-has-children>
+                    <a href="/research" class="nav-primary__sublist-link">
+                        Research
+                    </a>
+                                    <button class="nav-primary__dropdown-toggle">
+                        <span class="visually-hidden">Open Research sub menu</span>
+                    </button>
+                    <ul class="nav-primary__sublist">
+                        <li class="nav-primary__sublist-item nav-primary__sublist-item--back">
+                            <a href="#" class="nav-primary__sublist-link" data-nav-back>
+                                Back <span class="visually-hidden">to main menu</span>
+                            </a>
+                        </li>
+                            <li class="nav-primary__sublist-item">
+                                <a href="/research/bank-of-england-agenda-for-research" class="nav-primary__sublist-link">
+                                    Bank of England Agenda for Research, 2025-2028 
+                                </a>
+                            </li>
+                            <li class="nav-primary__sublist-item">
+                                <a href="/research/fintech" class="nav-primary__sublist-link">
+                                    Fintech 
+                                </a>
+                            </li>
+                            <li class="nav-primary__sublist-item">
+                                <a href="/research/future-finance" class="nav-primary__sublist-link">
+                                    The Future of Finance - our response 
+                                </a>
+                            </li>
+                            <li class="nav-primary__sublist-item">
+                                <a href="/research/visitor-programme" class="nav-primary__sublist-link">
+                                    Research Visitor Programme 
+                                </a>
+                            </li>
+                            <li class="nav-primary__sublist-item">
+                                <a href="/research/research-funding-and-fellowships" class="nav-primary__sublist-link">
+                                    Research funding and fellowships 
+                                </a>
+                            </li>
+                            <li class="nav-primary__sublist-item">
+                                <a href="/research/researchers" class="nav-primary__sublist-link">
+                                    Researchers 
+                                </a>
+                            </li>
+					</ul>
+            </li>
+            <li class="nav-primary__sublist-item  nav-primary__sublist-item--has-children" data-nav-has-children>
+                    <a href="/statistics" class="nav-primary__sublist-link">
+                        Statistics
+                    </a>
+                                    <button class="nav-primary__dropdown-toggle">
+                        <span class="visually-hidden">Open Statistics sub menu</span>
+                    </button>
+                    <ul class="nav-primary__sublist">
+                        <li class="nav-primary__sublist-item nav-primary__sublist-item--back">
+                            <a href="#" class="nav-primary__sublist-link" data-nav-back>
+                                Back <span class="visually-hidden">to main menu</span>
+                            </a>
+                        </li>
+                            <li class="nav-primary__sublist-item">
+                                <a href="/statistics/banknote" class="nav-primary__sublist-link">
+                                    Banknote statistics 
+                                </a>
+                            </li>
+                            <li class="nav-primary__sublist-item">
+                                <a href="/statistics/tables" class="nav-primary__sublist-link">
+                                    Bankstats tables 
+                                </a>
+                            </li>
+                            <li class="nav-primary__sublist-item">
+                                <a href="/statistics/data-collection" class="nav-primary__sublist-link">
+                                    Data collection 
+                                </a>
+                            </li>
+                            <li class="nav-primary__sublist-item">
+                                <a href="/statistics/exchange-rates" class="nav-primary__sublist-link">
+                                    Exchange rates 
+                                </a>
+                            </li>
+                            <li class="nav-primary__sublist-item">
+                                <a href="/statistics/gold" class="nav-primary__sublist-link">
+                                    Gold statistics 
+                                </a>
+                            </li>
+                            <li class="nav-primary__sublist-item">
+                                <a href="/statistics/research-datasets" class="nav-primary__sublist-link">
+                                    Research datasets 
+                                </a>
+                            </li>
+                            <li class="nav-primary__sublist-item">
+                                <a href="/statistics/statistics-requested-by-users" class="nav-primary__sublist-link">
+                                    Statistics requested by users 
+                                </a>
+                            </li>
+                            <li class="nav-primary__sublist-item">
+                                <a href="/statistics/yield-curves" class="nav-primary__sublist-link">
+                                    Yield curves 
+                                </a>
+                            </li>
+					</ul>
+            </li>
+    </ul>
+</li>
+
+                        
+                                <li class="nav-primary__list-item nav-primary__list-item--has-children" data-nav-has-children>
+
+            <a href="/about" class="nav-primary__link" >
+                <span>About</span>
+            </a>
+				<button class="nav-primary__dropdown-toggle">
+					<span class="visually-hidden">Open About sub menu</span>
+			    </button>
+				<ul class="nav-primary__sublist">
+					<li class="nav-primary__sublist-item nav-primary__sublist-item--back">
+						<a href="#" class="nav-primary__sublist-link" data-nav-back>
+							Back <span class="visually-hidden">to main menu</span>
+						</a>
+					</li>
+                    <li class="nav-primary__sublist-item  nav-primary__sublist-item--has-children" data-nav-has-children >
+                        <a href="/about/get-involved" class="nav-primary__sublist-link" >
+                                Get involved
+                        </a>
+                            <button class="nav-primary__dropdown-toggle">
+                                <span class="visually-hidden">Open Get involved sub menu</span>
+                            </button>
+                            <ul class="nav-primary__sublist">
+                                <li class="nav-primary__sublist-item nav-primary__sublist-item--back">
+                                    <a href="#" class="nav-primary__sublist-link" data-nav-back>
+                                        Back <span class="visually-hidden">to main menu</span>
+                                    </a>
+                                </li>
+                                        <li class="nav-primary__sublist-item">
+                                            <a href="/about/get-involved/citizens-panels" class="nav-primary__sublist-link" >
+                                                Citizens’ Forum
+                                            </a>
+                                        </li>
+                                        <li class="nav-primary__sublist-item">
+                                            <a href="/about/get-involved/community-forums" class="nav-primary__sublist-link" >
+                                                Community Forum
+                                            </a>
+                                        </li>
+                                        <li class="nav-primary__sublist-item">
+                                            <a href="/about/get-involved/community-partners" class="nav-primary__sublist-link" >
+                                                Partners
+                                            </a>
+                                        </li>
+                                        <li class="nav-primary__sublist-item">
+                                            <a href="/about/get-involved/youth-forum" class="nav-primary__sublist-link" >
+                                                Youth Voice
+                                            </a>
+                                        </li>
+                            </ul>
+                    </li>
+                    <li class="nav-primary__sublist-item  nav-primary__sublist-item--has-children" data-nav-has-children >
+                        <a href="/about/governance-and-funding" class="nav-primary__sublist-link" >
+                                Governance and funding
+                        </a>
+                            <button class="nav-primary__dropdown-toggle">
+                                <span class="visually-hidden">Open Governance and funding sub menu</span>
+                            </button>
+                            <ul class="nav-primary__sublist">
+                                <li class="nav-primary__sublist-item nav-primary__sublist-item--back">
+                                    <a href="#" class="nav-primary__sublist-link" data-nav-back>
+                                        Back <span class="visually-hidden">to main menu</span>
+                                    </a>
+                                </li>
+                                        <li class="nav-primary__sublist-item">
+                                            <a href="/about/governance-and-funding/staff-codes-and-policies" class="nav-primary__sublist-link" >
+                                                Staff codes and policies
+                                            </a>
+                                        </li>
+                            </ul>
+                    </li>
+                    <li class="nav-primary__sublist-item"  >
+                        <a href="/about/history" class="nav-primary__sublist-link" >
+                                History
+                        </a>
+                    </li>
+                    <li class="nav-primary__sublist-item  nav-primary__sublist-item--has-children" data-nav-has-children >
+                        <a href="/about/people" class="nav-primary__sublist-link" >
+                                Our people
+                        </a>
+                            <button class="nav-primary__dropdown-toggle">
+                                <span class="visually-hidden">Open Our people sub menu</span>
+                            </button>
+                            <ul class="nav-primary__sublist">
+                                <li class="nav-primary__sublist-item nav-primary__sublist-item--back">
+                                    <a href="#" class="nav-primary__sublist-link" data-nav-back>
+                                        Back <span class="visually-hidden">to main menu</span>
+                                    </a>
+                                </li>
+                                        <li class="nav-primary__sublist-item">
+                                            <a href="/about/people/agents" class="nav-primary__sublist-link" >
+                                                Agents
+                                            </a>
+                                        </li>
+                                        <li class="nav-primary__sublist-item">
+                                            <a href="/about/people/chief-cashiers" class="nav-primary__sublist-link" >
+                                                Chief Cashiers
+                                            </a>
+                                        </li>
+                                        <li class="nav-primary__sublist-item">
+                                            <a href="/about/people/court-of-directors" class="nav-primary__sublist-link" >
+                                                Court of Directors
+                                            </a>
+                                        </li>
+                                        <li class="nav-primary__sublist-item">
+                                            <a href="/about/people/executive-directors" class="nav-primary__sublist-link" >
+                                                Executive Directors
+                                            </a>
+                                        </li>
+                                        <li class="nav-primary__sublist-item">
+                                            <a href="/about/people/financial-policy-committee" class="nav-primary__sublist-link" >
+                                                Financial Policy Committee
+                                            </a>
+                                        </li>
+                                        <li class="nav-primary__sublist-item">
+                                            <a href="/about/people/fmi-committee" class="nav-primary__sublist-link" >
+                                                Financial Market Infrastructure Committee
+                                            </a>
+                                        </li>
+                                        <li class="nav-primary__sublist-item">
+                                            <a href="/about/people/governors" class="nav-primary__sublist-link" >
+                                                Governors
+                                            </a>
+                                        </li>
+                                        <li class="nav-primary__sublist-item">
+                                            <a href="/about/people/monetary-policy-committee" class="nav-primary__sublist-link" >
+                                                Monetary Policy Committee
+                                            </a>
+                                        </li>
+                                        <li class="nav-primary__sublist-item">
+                                            <a href="/about/people/prudential-regulation-committee" class="nav-primary__sublist-link" >
+                                                Prudential Regulation Committee
+                                            </a>
+                                        </li>
+                            </ul>
+                    </li>
+				</ul>
+		</li>
+        <li class="nav-primary__list-item nav-primary__list-item--has-children" data-nav-has-children>
+
+            <a href="/news" class="nav-primary__link" >
+                <span>News and publications</span>
+            </a>
+				<button class="nav-primary__dropdown-toggle">
+					<span class="visually-hidden">Open News and publications sub menu</span>
+			    </button>
+				<ul class="nav-primary__sublist">
+					<li class="nav-primary__sublist-item nav-primary__sublist-item--back">
+						<a href="#" class="nav-primary__sublist-link" data-nav-back>
+							Back <span class="visually-hidden">to main menu</span>
+						</a>
+					</li>
+                    <li class="nav-primary__sublist-item"  >
+                        <a href="/news/events" class="nav-primary__sublist-link" >
+                                Events
+                        </a>
+                    </li>
+                    <li class="nav-primary__sublist-item"  >
+                        <a href="/news/news" class="nav-primary__sublist-link" >
+                                News and minutes
+                        </a>
+                    </li>
+                    <li class="nav-primary__sublist-item"  >
+                        <a href="/news/prudential-regulation" class="nav-primary__sublist-link" >
+                                Prudential regulation publications
+                        </a>
+                    </li>
+                    <li class="nav-primary__sublist-item"  >
+                        <a href="/news/publications" class="nav-primary__sublist-link" >
+                                Publications
+                        </a>
+                    </li>
+                    <li class="nav-primary__sublist-item"  >
+                        <a href="/news/speeches" class="nav-primary__sublist-link" >
+                                Speeches
+                        </a>
+                    </li>
+                    <li class="nav-primary__sublist-item"  >
+                        <a href="/news/statistics" class="nav-primary__sublist-link" >
+                                Statistical releases
+                        </a>
+                    </li>
+                    <li class="nav-primary__sublist-item"  >
+                        <a href="/news/upcoming" class="nav-primary__sublist-link" >
+                                Upcoming
+                        </a>
+                    </li>
+				</ul>
+		</li>
+        <li class="nav-primary__list-item" >
+
+            <a href="/museum" class="nav-primary__link" >
+                <span>Museum</span>
+            </a>
+		</li>
+        <li class="nav-primary__list-item" >
+
+            <a href="/contact" class="nav-primary__link" >
+                <span>Contact</span>
+            </a>
+		</li>
+
+
+                        
+                            <li class="nav-primary__list-item">
+                                
+
+<script>
+	var cludo_engineId = 9479; 
+	var cludo_language = 'en'; 
+	var cludo_searchUrl = 'https://www.bankofengland.co.uk/search'; 
+</script>
+<div class="search-widget " >
+    <form class="" id="cludo-search-form" >
+        <div class="search-widget-fields">
+            <label for="clu-q" class="label-hidden">Search</label>
+            <input tabindex="0" onkeyup="removeErrorMessage(event)" type="search" name="q" id="clu-q" placeholder="Search the Bank of England" data-placeholder="Search the Bank of England" data-empty="Search the Bank of England" class="search-widget-field" value="" autocomplete="off">
+            <div tabindex="0" role="button" id="clearInput" aria-label="Clear all search text"></div>
+            <input tabindex="0" type="submit" class="search-widget-btn" id="searchBtn" value="submit search">
+        </div>
+    </form>
+
+    <input tabindex="0" type="submit" class="search-widget-btn search-widget-btn--overlay" id="searchBtn-nosearch" onclick="giveErrorIfEmpty()" value="submit search">
+
+    <div role="alert" class="search-widget-error" id="search-error"><p>Nothing searched for. Please enter a search term.</p></div>
+</div>
+                            </li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </div>
+</header>
+
+		<main class="main" id="main-content" role="main">
+			
+
+ 
+
+
+<section class="page-banner">
+    <div class="page-banner__head">
+        <div class="container">
+            <div class="col9">
+                <nav aria-label="Breadcrumb">
+
+	<ol class="list-breadcrumbs">
+		<li class="list-breadcrumbs__item">
+			<a href="/" class="list-breadcrumbs__link">
+				Home
+			</a>
+		</li>
+
+		<li class="list-breadcrumbs__item list-breadcrumbs__item--active" aria-current="page">
+			Minutes of the Meeting of the Court of Directors held on 12 February 2026
+		</li>
+
+	</ol>
+</nav>
+
+
+				<h1 itemprop="name">Minutes of the Meeting of the Court of Directors held on 12 February 2026</h1>
+            </div>
+        </div>
+
+    </div>
+    <div class="page-banner__body">
+        <div class="container">
+                <div class="col9 m-3_4">
+
+                        <div class="page-description" itemprop="description">       
+                            <span class="hero">The Bank&#39;s Court of Directors acts as a unitary board, setting the organisation&#39;s strategy and budget and taking key decisions on resourcing and appointments. Required to meet a minimum seven times per year, it has five executive members from the Bank and up to nine non-executive members.</span>
+                        </div>
+                </div>
+                            <div class="col3 m-1_4">
+                    
+                </div>
+
+        </div>
+    </div>
+
+</section>
+
+
+<section class="page-section  ">
+  <div class="container">
+     <div class="col9">
+      
+
+<div class="published-date">
+    Published on  
+        07 May 2026
+
+    
+
+</div>
+ </div>
+ 
+
+    <div class="clear"></div>
+</div>
+<div class="container container-has-navigation">
+	<div class="nav-chapters__line">
+		<span class="nav-chapters__line-indicator"></span>
+	</div>
+	<nav class="nav-chapters nav-chapters--vertical" role="navigation" aria-label="heading links" data-chapter>
+		<button class="nav-chapters__button" data-chapter-trigger aria-controls="list-chapters">Browse content</button>
+		<h3 class="nav-chapters__title exclude-navigation">Contents</h3>
+		<ul class="list-nav" id="list-chapters"></ul>
+	</nav>
+	<div class="nav-chapters__percentage hide" data-percentage>
+		<span class="nav-chapters__percentage-number" data-percentage-number></span>
+	</div>
+	<div class="container-publication" data-publication>
+		    <div class="content-block">
+        <div class="page-content" data-id="f589e12cc6d94f3bbebc4a8ea481ba79">
+            <!-- Start HTML Snippet-->
+<div class="content-block">
+<div class="page-content page-carousel sc-undefined" id="content">
+<div id="output">
+<p><strong>Present </strong><a href="https://www.bankofengland.co.uk/about/people/court-of-directors">Committee members</a><strong>:</strong></p>
+<p><a id="_Hlk122442920"></a><strong>David Roberts</strong>, Chair<br />
+<a id="_Hlk122443361"></a><strong>Andrew Bailey</strong>, Governor<br />
+<strong>Sarah Breeden, </strong>Deputy Governor &ndash; Financial Stability<br />
+<strong>Clare Lombardelli</strong>, Deputy Governor &ndash; Monetary Policy<br />
+<strong>Sir Dave Ramsden</strong>, Deputy Governor &ndash; Markets &amp; Banking<br />
+<strong>Sam Woods</strong>, Deputy Governor &ndash; Prudential Regulation<br />
+<a id="_Hlk149729832"></a><strong>Jonathan Bewes<br />
+Sabine Chalmers<br />
+Lord Jitesh Gadhia<br />
+Dame Anne Glover<br />
+Diana Noble<br />
+Tom Shropshire</strong> </p>
+<p><strong>In attendance:</strong></p>
+<p><strong>Sarah John</strong>, Chief Operating Officer</p>
+<p><strong>Secretary:</strong></p>
+<p><strong>Sebastian Walsh</strong>, Secretary of the Bank</p>
+<section class="page-section">
+<div class="section-heading">
+<h2>1. Conflicts; Minutes of 9 December 2025; Matters Arising; Twelve-month Forward Planner</h2>
+<p>The minutes of the meeting held on 9 December 2025 were approved.</p>
+</div>
+</section><section class="page-section">
+<div class="section-heading">
+<h2>2. Governor&rsquo;s Update</h2>
+<p>The Governor gave an update to Court on developments around the Bank&rsquo;s balance sheet, highlighting that a major gilt redemption in January &ndash; of which a large proportion had been held by the Bank of England Asset Purchase Facility Fund (BEAPFF) &ndash; had passed smoothly. He noted that this gave confidence that the Bank&rsquo;s facilities were functioning as intended in helping to smooth out market events. </p>
+<p>Court welcomed the news of the nomination of Kevin Warsh as the next Chairman of the Federal Reserve.  </p>
+</div>
+</section><section class="page-section">
+<div class="section-heading">
+<h2>3. Audit &amp; Risk Committee (ARCo) </h2>
+<p>Jonathan Bewes gave an update on the recent meeting of ARCo.</p>
+<p>In the audit discussion, ARCo had approved the accounting policies for the financial statements as well as the year end timetable. EY had reported to ARCo on progress of the interim audit. </p>
+<p>In the risk discussion, ARCo had received an update on material controls, including testing and governance of controls, in light of the revised UK Corporate Governance Code, which requires Court to declare the effectiveness of the Bank&rsquo;s controls in the Annual Report for financial year 26/27. ARCo also received the quarterly risk report and received an update on the Future FAME programme.</p>
+</div>
+</section><section class="page-section">
+<div class="section-heading">
+<h2>4. Remuneration Committee (RemCo) Update</h2>
+<p>Diana Noble gave an update on the recent meeting of RemCo.</p>
+<p>RemCo had approved pay awards for Governors, the COO, EDs and external members of statutory committees. RemCo also agreed opt out rates for pensions should remain unchanged. </p>
+</div>
+</section><section class="page-section">
+<div class="section-heading">
+<h2>5. COO Update</h2>
+<p>Sarah John gave her regular update to Court on the Bank&rsquo;s Central Services. </p>
+<p>Sarah John updated Court on the search for a permanent office space in Leeds and advised on the completed expansion of its temporary office space in the city. </p>
+<p>Sarah John informed Court that the Bank&rsquo;s security outsourcing arrangement with Amulet had now terminated, with the existing staff all transferred to the Bank under TUPE. </p>
+<ul>
+    <li>Project Mulberry update</li>
+</ul>
+<p>(Vivienne Grafton and Neil Rebeugeot)</p>
+<p>Vivienne Grafton introduced the item, noting following a competitive process, it was proposed to appoint ISS as a single integrated Facilities Management provider. </p>
+<p>In response to questions from Directors, Neil Reubegeot outlined the agreed key performance indicators for the contract, which related to compliance to the Bank&rsquo;s budget, delivery of savings and compliance to governance and health &amp; safety controls and noted that 100% of ISS&rsquo;s management fee was at risk for meeting those KPIs.</p>
+<p>Directors noted the importance of ISS understanding Bank policies and processes. Vivienne Grafton and Neil Rebeugeot said that this was an output-based contract which the Bank would have to adapt to, and ensure the competence was in place to manage the contract. </p>
+<p>Court approved the appointment of ISS.</p>
+</div>
+</section><section class="page-section">
+<div class="section-heading">
+<h2>6. Bank&rsquo;s Finances</h2>
+<ul>
+    <li>Business Planning: Update on proposed workforce change including MAR Scheme</li>
+</ul>
+<p>(Afua Kyei, Jane Tucker, Jo Hill and Jane Cathrall)</p>
+<p>Jo Hill introduced the item and noted because of staff take up of the Mutually Agreed Resignation (MAR) scheme, the level of restructuring outside of MAR needed this financial year would be smaller than originally anticipated. Court discussed the impact of the scheme. </p>
+<p>Directors asked how the Bank would manage the staff whose applications for MAR were not accepted. Jane Cathrall said that there would be leadership challenge in that respect, though reasons for applications varied. </p>
+<p>The Chair concluded by observing that its ultimate success would depend on limiting any backfill of roles rendered vacant. </p>
+<ul>
+    <li>Q3 forecast 2025/26 / Final 2026/27 budget and 3-year financial plan / Allocation of the 2026/27 investment portfolio / Interim dividend </li>
+</ul>
+<p>(Afua Kyei, Jane Tucker and Jo Hill)</p>
+<p>Jane Tucker introduced the item and noted that it would be possible to deliver a dividend to HMT within the range communicated. An interim dividend was therefore proposed, followed by a true up and final dividend payment after year end. The Governor noted that as the Bank had built-up capital, an annual dividend should now be sustainable.</p>
+<p>Court approved the interim dividend.</p>
+<p>Afua Kyei gave an overview of the Bank&rsquo;s finances, noting that the costs in 25/26 are planned to grow by 3% by the end of 28/29 versus a 7.6% estimate for CPI over the same period. This will be delivered through the BAU cost challenge and the delivery of the investment portfolio allowing headcount to fall. Afua Kyei highlighted that the investment budget will be maintained over the course of the 3-year plan. </p>
+<p>The Governor highlighted that the BEAPFF Quarterly Report for Q4 2025 had now been published.</p>
+<ul>
+    <li>Draft letter to the Chief Secretary to the Treasury (CST) </li>
+</ul>
+<p>Court approved the 3-year financial plan, the one-year budget and the draft letter to the Chief Secretary to the Treasury.</p>
+</div>
+</section><section class="page-section">
+<div class="section-heading">
+<h2>7. Update on the Bank&rsquo;s Data &amp; Analytics (D&amp;A) Strategy and Data Transformation Portfolio</h2>
+<p>(Ben Martin and Oliver Edwards)</p>
+<p>Ben Martin introduced the item and said that the Bank&rsquo;s Data and Analytics (D&amp;A) Strategy was now in place. Focus was now on delivery, with the transformation programme pivotal to this. </p>
+<p>Directors highlighted the importance of defining use cases, particularly around opportunities for AI as well as ensuring data security when migrating to new platforms and tools.</p>
+<p>Directors discussed the forecast costs, challenging both that the assumption investment could fall in outer years and how Cloud capacity would be contracted to prevent under or over buying. Ben Martin noted the priority for the investment was obsolescence but agreed further investment business cases were likely and said that Cloud costs would be charged out to business areas to ensure control of the costs they incurred. </p>
+</div>
+</section><section class="page-section">
+<div class="section-heading">
+<h2>8. PRA External Business Plan 2026/27</h2>
+<p>(Talib Idris)</p>
+<p>Talib Idris presented the PRA&rsquo;s External Business Plan 2026/27 and noted the change to Strategic Priority 1.</p>
+<p>Court approved the plan.</p>
+</div>
+</section><section class="page-section">
+<div class="section-heading">
+<h2>9. PRC Effectiveness Review</h2>
+<p>(David Roberts)</p>
+<p>David Roberts introduced the report. The Governor and Sam Woods acknowledged that the PRC members often held a range of views, and that discussions were robust and effective.</p>
+<p>Directors discussed the upcoming recruitment for new external members, noting candidate identification would be key to ensure candidates with a breadth of industry experience and credibility come forward.</p>
+<p>The Chair noted the report would be shared with PRC members.</p>
+</div>
+</section><section class="page-section">
+<div class="section-heading">
+<h2>10. Communications six-monthly update</h2>
+<p>(James Bell and Helen Cowlyn)</p>
+<p>James Bell presented the six-monthly update.</p>
+<p>James Bell updated Court on internal communications. Court supported narrower, more focussed, messaging during the period of transformational change. Directors highlighted staff&rsquo;s pride and sense of duty around public service and noted that how the Bank&rsquo;s mission is delivered has changed over the years and it was important to ensure the Bank has the right capabilities for the future. It was therefore important to present a narrative on the Bank&rsquo;s purpose, mission and strategy and ensure this flowed through into things like objective setting. Some Directors highlighted the importance of community and workplace culture to institutions, noting that private sector firms put huge focus on this. </p>
+<p>Directors discussed the importance of the Bank&rsquo;s senior leadership having consistent engagement with staff in presenting a narrative as to the future of the Bank.</p>
+</div>
+</section><section class="page-section">
+<div class="section-heading">
+<h2>11. Committee Appointments and Conflicts</h2>
+<p>(Sebastian Walsh)</p>
+<ul>
+    <li>Appointment of the Executive Director for Monetary Policy (EDMP)</li>
+</ul>
+<p>Court approved the appointment of Rohan Churm as EDMP. RemCo approved the remuneration for the role. </p>
+<ul>
+    <li>Appointment of the Executive Director for Payments Innovation and Fintech</li>
+</ul>
+<p>Court approved the re-evaluation of the Director - Payments Innovation and Fintech to Executive Director for Payments Innovation and Fintech. Court approved the appointment of Tom Mutton to the role. RemCo approved the remuneration for the role.</p>
+<ul>
+    <li>Enforcement Decision Making Committee (EDMC) Appointments </li>
+</ul>
+<p>Court approved the appointments to the EDMC. </p>
+<p>Court agreed the delegation to approve the appointment of one additional new member to the Chair of Court.</p>
+<ul>
+    <li>Bank of England Pension Fund &ndash; Trustee Nomination</li>
+</ul>
+<p>Court approved the appointment of Abigail Caldwell as a Bank nominated Trustee of the Bank of England Pension Fund.</p>
+</div>
+</section><section class="page-section">
+<div class="section-heading">
+<h2>12. Papers for Information</h2>
+<p>Court noted:</p>
+<ul>
+    <li>Monetary Policy Committee Reports for December 2025 and February 2026   </li>
+    <li>Internal Whistleblowing Annual Report</li>
+    <li>Annual Report to Court from the Bank&rsquo;s Networks</li>
+    <li>Publication of historic Court Minutes for 2005</li>
+    <li>Approved minutes from Committee meetings since the last meeting of Court on 9 December 2025:
+    <ul>
+        <li>ARCo minutes 18 November 2025</li>
+        <li>RemCo minutes 25 November 2025</li>
+    </ul>
+    </li>
+</ul>
+<p><strong>The meeting of Court was closed.</strong></p>
+</div>
+</section></div>
+</div>
+</div>
+<!-- End HTML Snippet -->
+        </div>
+    </div>
+<div class="hero-paragraph">
+    <span class="hero">
+		These minutes are published as the record of meeting as required by the Bank of England Act 1998 as amended. Court may decide to omit information from the record in the public interest. The record of matters reported to Court may also omit information which is legally sensitive or commercially confidential.
+    </span>
+</div>
+	</div>
+</div>
+<div class="container">
+     <div class="col12">
+      
+<form action="/_api/foundation/pdf/HtmlToPdf?id=603edec917d14f36a2a3004ed339adf0" data-allowed="Yes" data-type="makepdf" method="post">    <div class="pdf-button">
+		<button type="submit" class="btn btn-block btn-default">Convert this page to PDF</button>
+		<p role="alert" aria-live="assertive" class="visually-hidden"></p>
+	</div>
+</form><div class="container container-latest">
+	<div class="col12">
+		<h2 class="exclude-navigation">Other news</h2>
+	</div>
+	<div class="clear"></div>
+</div>
+<div class="container">
+	
+
+<div class="col3">
+    <a href="/markets/london-foreign-exchange-joint-standing-committee/results-of-the-semi-annual-fx-turnover-survey-april-2026" class="release release-news " >
+        <div class="release-tag-wrap"><div class="release-tag">News </div></div>
+
+        <div class="release-content">
+			<div class="release-copy">
+					<div class="release-meta">
+						<time class="release-date" itemprop="datePublished" datetime="2026-08-11">11 August 2026</time>
+					</div>
+				<h3 itemprop="name" class="grid-view exclude-navigation">Results of the Semi-Annual FX Turnover Surveys...</h3>
+				<h3 itemprop="name" class="list exclude-navigation">Results of the Semi-Annual FX Turnover Surveys in April 2026</h3>
+			</div>
+        </div>
+    </a>
+</div>
+
+<div class="col3">
+    <a href="/statistics/notice/2026/green-notice-2026-02" class="release release-news " >
+        <div class="release-tag-wrap"><div class="release-tag">News // Green notice</div></div>
+
+        <div class="release-content">
+			<div class="release-copy">
+					<div class="release-meta">
+						<time class="release-date" itemprop="datePublished" datetime="2026-08-06">06 August 2026</time>
+					</div>
+				<h3 itemprop="name" class="grid-view exclude-navigation">Green notice 2026/02</h3>
+				<h3 itemprop="name" class="list exclude-navigation">Green notice 2026/02</h3>
+			</div>
+        </div>
+    </a>
+</div>
+
+<div class="col3">
+    <a href="/minutes/2026/june/ai-consortium-minutes-3-june-2026" class="release release-news " >
+        <div class="release-tag-wrap"><div class="release-tag">News // AI Consortium minutes</div></div>
+
+        <div class="release-content">
+			<div class="release-copy">
+					<div class="release-meta">
+						<time class="release-date" itemprop="datePublished" datetime="2026-08-05">05 August 2026</time>
+					</div>
+				<h3 itemprop="name" class="grid-view exclude-navigation">Artificial Intelligence Consortium minutes...</h3>
+				<h3 itemprop="name" class="list exclude-navigation">Artificial Intelligence Consortium minutes – June 2026</h3>
+			</div>
+        </div>
+    </a>
+</div>
+
+<div class="col3">
+    <a href="/news/2026/august/appointment-of-chair-and-deputy-chair-of-the-edmc" class="release release-news " >
+        <div class="release-tag-wrap"><div class="release-tag">News // News release</div></div>
+
+        <div class="release-content">
+			<div class="release-copy">
+					<div class="release-meta">
+						<time class="release-date" itemprop="datePublished" datetime="2026-08-03">03 August 2026</time>
+					</div>
+				<h3 itemprop="name" class="grid-view exclude-navigation">Appointment of Chair and Deputy Chair of...</h3>
+				<h3 itemprop="name" class="list exclude-navigation">Appointment of Chair and Deputy Chair of the Enforcement Decision Making Committee (EDMC)</h3>
+			</div>
+        </div>
+    </a>
+</div>
+
+<div class="clear"></div>
+
+</div>
+<div class="container">
+	<div class="col12">
+		<a class="release-view-more" href="/news?NewsTypes=09f8960ebc384e3589da5349744916ae&amp;SearchTerm=&amp;InfiniteScrolling=False&amp;Direction=Latest">View more <span class="visually-hidden">Other news</span></a>
+	</div>
+	<div class="clear"></div>
+</div>
+
+ </div>
+ 
+
+    <div class="clear"></div>
+</div>
+
+</section> 				<section class="page-section page-section--last">
+					<div class="container">
+						<div class="col12">
+							<p class="txtr">
+								<a class="scroll-to-top" href="#">Back to top</a>
+							</p>
+						</div>
+					</div>
+				</section>
+
+
+<section class="page-section-survey">
+    <div class="container">
+        <div class="col12">          
+			<div class="page-survey">
+								<div class="page-survey-survey">
+					
+						<iframe src="/forms/page-survey-page?path=%2fsitecore%2fcontent%2fBoE%2fHome%2fMinutes%2f2026%2fmay%2fcourt-minutes-12-february-2026&id=pageSurvey1fe44de97d5c49ad957b641a0c54f505" id="pageSurvey1fe44de97d5c49ad957b641a0c54f505" frameborder="0" title="Page Survey" class="page-survey-iframe"></iframe>
+				</div>
+			</div>
+        </div>
+    </div>
+</section>
+		</main>
+		<div class="clear"></div>
+		<footer class="global-footer" itemscope="" itemtype="http://schema.org/WPFooter">
+			<div class="container">
+	<div class="col3">
+		<div class="footer-social-bank">
+			<ul class="accordion" data-accordion-mobile>
+				<li>
+					<div class="accordion-head">
+						<h3 class="exclude-navigation">
+							<span class="display-lap-desk">Follow us</span>
+							<button class="accordion-button">
+								Follow us
+								<span class="accordion-toggle"></span>
+							</button>
+						</h3>
+					</div>
+					<div class="accordion-content">
+						
+
+<div class="footer-social-bank">
+    <ul class="social-links">
+            <li class="social-item">
+                    <a class="social-link "
+                        href="https://www.linkedin.com/company/bank-of-england/"
+                        target="_blank"
+						title="Opens in a new window">
+                            <span class="icon-linkedin"></span>
+                        <span class="si-text">Connect with us on LinkedIn</span>
+                    </a>
+			</li>
+            <li class="social-item">
+                    <a class="social-link "
+                        href="https://x.com/bankofengland"
+                        target="_blank"
+						title="Opens in a new window">
+                            <span class="icon-twitter-bird"></span>
+                        <span class="si-text">Follow us on Twitter</span>
+                    </a>
+			</li>
+            <li class="social-item">
+                    <a class="social-link "
+                        href="https://www.facebook.com/bankofengland.co.uk"
+                        target="_blank"
+						title="Opens in a new window">
+                            <span class="icon-facebook"></span>
+                        <span class="si-text">Add us on Facebook</span>
+                    </a>
+			</li>
+            <li class="social-item">
+                    <a class="social-link "
+                        href="https://www.instagram.com/bankofengland"
+                        target="_blank"
+						>
+                            <span class="icon-instagram"></span>
+                        <span class="si-text">Follow us on Instagram</span>
+                    </a>
+			</li>
+            <li class="social-item">
+                    <a class="social-link "
+                        href="https://www.threads.com/@bankofengland"
+                        target="_blank"
+						>
+                            <span class="icon-treads"></span>
+                        <span class="si-text">Follow us on Threads</span>
+                    </a>
+			</li>
+            <li class="social-item">
+                    <a class="social-link "
+                        href="https://tiktok.com/@bankofengland"
+                        target="_blank"
+						>
+                            <span class="icon-tiktok"></span>
+                        <span class="si-text">Follow us on TikTok</span>
+                    </a>
+			</li>
+            <li class="social-item">
+                    <a class="social-link "
+                        href="https://www.youtube.com/user/bankofenglanduk"
+                        target="_blank"
+						title="Opens in a new window">
+                            <span class="icon-youtube-play"></span>
+                        <span class="si-text">Watch us on Youtube</span>
+                    </a>
+			</li>
+            <li class="social-item">
+                    <a class="social-link "
+                        href="https://www.flickr.com/photos/bankofengland/albums"
+                        target="_blank"
+						title="Opens in a new window">
+                            <span class="icon-flickr"></span>
+                        <span class="si-text">Find us on Flickr</span>
+                    </a>
+			</li>
+    </ul>
+</div>
+						
+
+<div class="footer-social-bank">
+		<h3 class="exclude-navigation">Museum</h3>
+    <ul class="social-links">
+            <li class="social-item">
+                    <a class="social-link "
+                        href="https://www.facebook.com/boemuseum"
+                        target="_blank"
+						title="Opens in a new window">
+                            <span class="icon-facebook"></span>
+                        <span class="si-text">Like the Bank of England museum on Facebook</span>
+                    </a>
+			</li>
+            <li class="social-item">
+                    <a class="social-link "
+                        href="https://instagram.com/boemuseum"
+                        target="_blank"
+						title="Opens in a new window">
+                            <span class="icon-instagram"></span>
+                        <span class="si-text">Follow the Bank of England museum on Instagram</span>
+                    </a>
+			</li>
+            <li class="social-item">
+                    <a class="social-link "
+                        href="https://www.threads.com/@boemuseum"
+                        target="_blank"
+						>
+                            <span class="icon-treads"></span>
+                        <span class="si-text">Follow the Bank of England museum on Threads</span>
+                    </a>
+			</li>
+            <li class="social-item">
+                    <a class="social-link "
+                        href="https://www.tiktok.com/@boemuseum"
+                        target="_blank"
+						>
+                            <span class="icon-tiktok"></span>
+                        <span class="si-text">Follow the Bank of England museum on TikTok</span>
+                    </a>
+			</li>
+    </ul>
+</div>
+					</div>
+				</li>
+			</ul>
+		</div>
+
+	</div>
+	<div class="col3">
+		
+<div class="footer-topics">
+    <ul class="accordion" data-accordion-mobile>
+        <li>
+            <div class="accordion-head">
+                <h3 class="exclude-navigation">
+                    <span class="display-lap-desk">Useful links</span>
+                    <button class="accordion-button">Useful links<span class="accordion-toggle"></span></button>
+                </h3>
+            </div>
+			<div class="accordion-content">
+				<ul class="footer-links">
+						<li class="footer-item">
+                                <a href="/about" class="footer-link" >
+                                    About us
+                                </a>
+						</li>
+						<li class="footer-item">
+                                <a href="/archive" class="footer-link" >
+                                    Archive
+                                </a>
+						</li>
+						<li class="footer-item">
+                                <a href="/careers" class="footer-link" >
+                                    Careers
+                                </a>
+						</li>
+						<li class="footer-item">
+                                <a href="/contact" class="footer-link" >
+                                    Contact us
+                                </a>
+						</li>
+						<li class="footer-item">
+                                <a href="/explainers" class="footer-link" >
+                                    Explainers
+                                </a>
+						</li>
+						<li class="footer-item">
+                                <a href="/faq" class="footer-link" >
+                                    FAQs
+                                </a>
+						</li>
+						<li class="footer-item">
+                                <a href="/freedom-of-information" class="footer-link" >
+                                    Freedom of Information
+                                </a>
+						</li>
+						<li class="footer-item">
+                                <a href="/glossary" class="footer-link" >
+                                    Glossary
+                                </a>
+						</li>
+						<li class="footer-item">
+                                <a href="/museum" class="footer-link" >
+                                    Museum
+                                </a>
+						</li>
+						<li class="footer-item">
+                                <a href="/subscribe-to-emails" class="footer-link" >
+                                    Subscribe to emails
+                                </a>
+						</li>
+				</ul>
+			</div>
+		</li>
+	</ul>
+</div>
+	</div>
+	<div class="col3">
+		<div class="footer-contact">
+			
+<h3 class="exclude-navigation">Bank of England</h3>
+<ul class="footer-contact-info">
+    <li class="footer-address">Threadneedle Street, London, EC2R 8AH</li>
+    <li class="footer-tel">Switchboard: <a class="footer-tel-link" href="tel://00442034614444" target="_blank" title="Switchboard">+44(0)20 3461 4444</a></li>
+    <li class="footer-tel">Enquiries: <a class="footer-tel-link" href="tel://00442034614878" target="_blank" title="Enquiries">+44(0)20 3461 4878</a></li>
+</ul>
+			
+<h3 class="exclude-navigation">Bank of England Museum</h3>
+<ul class="footer-contact-info">
+    <li class="footer-address">Bartholomew Lane, London, EC2R 8AH</li>
+</ul>
+		</div>
+	</div>
+	<div class="col3">
+		
+	<div class="container-seal">
+		<a class="icon-seal" href="/"  ><img src="/-/media/boe/images/logo/footer-logo.svg?h=50&amp;iar=0&amp;mh=50&amp;mw=240&amp;w=50&amp;hash=21937D63AC8E857977043CB73AE10F74" alt="Bank of England home" width="50" height="50" /></a>
+	</div>
+
+	</div>
+</div>
+
+<div class="footer-copyright">
+	<div class="container">
+		<div class="col12">
+			
+<ul class="list-inline">
+	    <li class="list-inline__item"> 
+			    <a href="/accessibility" class="list-inline__link" >
+Accessibility statement			    </a>
+	    </li>
+	    <li class="list-inline__item"> 
+			    <a href="/legal/privacy-and-cookie-policy" class="list-inline__link" >
+Cookies			    </a>
+	    </li>
+	    <li class="list-inline__item"> 
+			    <a href="/about/gymraeg" class="list-inline__link" >
+						<span lang="cy">
+							Cymraeg
+						</span>
+			    </a>
+	    </li>
+	    <li class="list-inline__item"> 
+			    <a href="/legal" class="list-inline__link" >
+Legal			    </a>
+	    </li>
+	    <li class="list-inline__item"> 
+			    <a href="/legal/privacy" class="list-inline__link" >
+Privacy			    </a>
+	    </li>
+	    <li class="list-inline__item"> 
+			    <a href="/sitemap" class="list-inline__link" >
+Sitemap			    </a>
+	    </li>
+</ul>
+
+
+			
+<p class="text-copyright">&#169;2026 Bank of England&#160;</p>
+		</div>
+	</div>
+</div>
+		</footer>
+		<script src="/scripts/boe.vendor.min.js?ver=98f91" type="text/javascript"></script>
+<script src="/scripts/boe.min.js?ver=98f91" type="text/javascript"></script>
+<script src="/-/media/css/search-bundle-script.js?ver=BB56DD&mode=npe" type="text/javascript"></script>
+<script src="/-/media/css/search-new-js.js?ver=6AFCD3&mode=npe" type="text/javascript"></script>
+
+		
+		
+	</div>
+</body>
+</html>
