@@ -1,0 +1,373 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<meta http-equiv="X-UA-Compatible" content="IE=10" />
+<head>
+
+<meta http-equiv=content-type content="text/html; charset=iso-8859-1">
+<meta name="DC.title" content="Bureau of Economic Analysis" />
+<meta name="DC.creator" content="US Department of Commerce, BEA, Bureau of Economic Analysis" />
+<meta name="DC.language" scheme="DCTERMS.RFC4646" content="EN-US" />
+
+<link rel="P3Pv1" href="/w3c/p3p.xml">
+<link rel="alternate" type="application/rss+xml" title="BEA - Current Release (RSS)" href="/rss/rss.xml">
+
+<meta name="apple-mobile-web-app-title" content="BEA">
+<meta name="application-name" content="BEA">
+<meta name="msapplication-TileColor" content="#da532c">
+<meta name="msapplication-TileImage" content="/mstile-144x144.png?v=9BBR3Ay64f">
+<meta name="theme-color" content="#ffffff">
+
+<link rel="apple-touch-icon" sizes="57x57" href="/apple-touch-icon-57x57.png?v=9BBR3Ay64f">
+<link rel="apple-touch-icon" sizes="60x60" href="/apple-touch-icon-60x60.png?v=9BBR3Ay64f">
+<link rel="apple-touch-icon" sizes="72x72" href="/apple-touch-icon-72x72.png?v=9BBR3Ay64f">
+<link rel="apple-touch-icon" sizes="76x76" href="/apple-touch-icon-76x76.png?v=9BBR3Ay64f">
+<link rel="apple-touch-icon" sizes="114x114" href="/apple-touch-icon-114x114.png?v=9BBR3Ay64f">
+<link rel="apple-touch-icon" sizes="120x120" href="/apple-touch-icon-120x120.png?v=9BBR3Ay64f">
+<link rel="apple-touch-icon" sizes="144x144" href="/apple-touch-icon-144x144.png?v=9BBR3Ay64f">
+<link rel="apple-touch-icon" sizes="152x152" href="/apple-touch-icon-152x152.png?v=9BBR3Ay64f">
+<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon-180x180.png?v=9BBR3Ay64f">
+<link rel="icon" type="image/png" href="/favicon-32x32.png?v=9BBR3Ay64f" sizes="32x32">
+<link rel="icon" type="image/png" href="/favicon-194x194.png?v=9BBR3Ay64f" sizes="194x194">
+<link rel="icon" type="image/png" href="/favicon-96x96.png?v=9BBR3Ay64f" sizes="96x96">
+<link rel="icon" type="image/png" href="/android-chrome-192x192.png?v=9BBR3Ay64f" sizes="192x192">
+<link rel="icon" type="image/png" href="/favicon-16x16.png?v=9BBR3Ay64f" sizes="16x16">
+<link rel="manifest" href="/manifest.json?v=9BBR3Ay64f">
+<link rel="mask-icon" href="/safari-pinned-tab.svg?v=9BBR3Ay64f" color="#5bbad5">
+<link rel="shortcut icon" href="/favicon.ico?v=9BBR3Ay64f">
+
+<!-- CSS -->
+<link rel="stylesheet" type="text/css" href="/_css/reset_global.css" >
+<link rel="stylesheet" type="text/css" href="/_framework/jquery-ui-1.11.4/jquery-ui.css">
+<link rel="stylesheet" type="text/css" href="/_framework/bootstrap-3.3.6-dist/css/bootstrap.css">
+
+<link rel="stylesheet" type="text/css" href="/_css/jquery-override.css">
+<link rel="stylesheet" type="text/css" href="/_css/bea_refresh-bootstrap-fix.css">
+<link rel="stylesheet" type="text/css" href="/_css/bea_refresh.css">
+
+<link rel="stylesheet" type="text/css" href="/_scripts/fancybox2/jquery.fancybox.css">
+
+<!--Javascript -->
+<script src="/_framework/jquery-1.12.3.min.js"></script>
+<script src="/_framework/jquery-ui-1.11.4/jquery-ui.min.js"></script>
+<script src="/_framework/bootstrap-3.3.6-dist/js/bootstrap.min.js"></script>
+
+<!--Plugins -->
+<script type="text/javascript" src="/_scripts/fancybox2/jquery.fancybox.pack.js"></script>
+<script type="text/javascript" src="/_scripts/fancybox2/jquery.fancybox-media.js"></script>
+
+
+<!--Analystics -->
+<script type="text/javascript" src="/_scripts/federated-analytics.js?agency=DOC&subagency=BEA" id="_fed_an_ua_tag"></script>
+<script type="text/javascript">
+// DO NOT MODIFY BELOW THIS LINE *****************************************
+	;(function (g) {
+		var d = document, am = d.createElement('script'), h = d.head || d.getElementsByTagName("head")[0], fsr = 'fsReady',
+			aex = {
+				"src": "//gateway.foresee.com/sites/bea-gov/production/gateway.min.js",
+				"type": "text/javascript",
+				"async": "true",
+				"data-vendor": "fs",
+				"data-role": "gateway"
+			};
+		for (var attr in aex){am.setAttribute(attr, aex[attr]);}h.appendChild(am);g[fsr] = function () {var aT = '__' + fsr + '_stk__';g[aT] = g[aT] || [];g[aT].push(arguments);};
+	})(window);
+//	 DO NOT MODIFY ABOVE THIS LINE **************************************	
+</script>
+<script type="text/javascript">
+	$(document).ready(function() {
+		$(".fancybox").fancybox({
+			helpers : {
+				media: true
+			}
+		});
+	});
+	function MM_jumpMenu(targ,selObj,restore){ //v3.0
+	  eval(targ+".location='"+selObj.options[selObj.selectedIndex].value+"'");
+	  if (restore) selObj.selectedIndex=0;
+	}
+	
+	function MM_findObj(n, d) { //v4.0
+	  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+		d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+	  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+	  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+	  if(!x && document.getElementById) x=document.getElementById(n); return x;
+	}
+	
+	function MM_jumpMenuGo(selName,targ,restore){ //v3.0
+	  var selObj = MM_findObj(selName); if (selObj) MM_jumpMenu(targ,selObj,restore);
+	}
+</script>
+
+
+<title>BEA: News Release: Direct Investment by Country and Industry</title>
+<head>
+<meta name="description" content="News release from the U.S. Department of Commerce's Bureau of Economic Analysis: Local Area Personal Income">
+<meta name="keywords" content="BEA, Bureau of Economic Analysis, per capita personal income, PCPI, quarterly, state, personal income, regional, BEA news release, BEA press release">
+<meta name="DC.Priority" content="5" />
+<meta name="DC.LastModified" content="2018-07-30" />
+<link href="/newsreleases/_css/custom-release.css" rel="stylesheet" type="text/css">
+</head>
+<body class="international">
+<div id="header">
+	<form class="search-form" id="search-form" action="//search.bea.gov/search" method="get" accept-charset="UTF-8">
+		<div class="search-wrapper">
+			<div class="search-textBox">
+				<input name="query" class="search-input-text" id="search-textfield" type="text" autocomplete="off">
+			</div>
+			<div class="search-submitButton">
+				<input name="commit" class="search-input-button" id="search-submit" type="submit" value="Go">
+			</div>
+		</div>
+		<input name="utf8" type="hidden" value="&#x2713">
+		<input name="affiliate" id="affiliate" type="hidden" value="u.s.bureauofeconomicanalysis">
+	
+	
+	
+	</form>
+	<a class="bea-link" href="/index.htm"></a> <a class="doc-link" href="http://www.commerce.gov"></a>
+</div> 
+<cfinclude template="/_includes/header_tabs_main.ssi">
+	<div id="topTabs">
+		<ul>
+			<li id="home"><a href="/index.htm"><span>Home</span></a></li>
+			<li id="national"><a href="/national/index.htm"><span>National</span></a></li>
+			<li id="international"><a href="/international/index.htm"><span>International</span></a></li>
+			<li id="regional"><a href="/regional/index.htm"><span>Regional</span></a></li>
+			<li id="industry"><a href="/industry/index.htm"><span>Industry</span></a></li>
+			<li id="interactive"><a href="/itable/"><span>Interactive Data</span></a></li>
+			<li id="about" class="float-tab"><a href="/about/index.htm"><span>About BEA</span></a></li>
+			<li id="faqs" class="float-tab"><a href="/faq/index.cfm"><span>FAQs</span></a></li>
+			<li id="contact" class="float-tab"><a href="/contacts/search.htm"><span>Contact Us</span></a></li>
+		</ul>
+	</div>
+
+
+<nav  id="bottomTabs">
+
+<ul>
+	<li id="aboutIndustry"><a href="/about/overview_international.htm">About International</a></li>
+	<li id="method"><a href="/methodologies/index.htm#international_meth">Methodologies</a></li>
+	<li id="articles"><a href="/international/ai1.htm">Articles</a></li>
+	<li id="schedule"><a href="/newsreleases/news_release_sort_international.htm">Release Schedule</a></li>
+	<li id="contacts"><a href="/contacts/email.htm">Staff Contacts</a></li>
+	<li id="subscription"><a href="/_subscribe/">Email Subscriptions</a></li>
+</ul>
+</nav>
+<div class="clear"></div>
+
+
+<table width="100%"  border="0" cellpadding="0" cellspacing="0">
+	<tr>
+		<td bgcolor="#FFFFFF"><div class="crumbs"> <a href="/">Home</a> &gt; News Release: New Foreign Direct Investment in the United States </div>
+			<div id="content">
+				<div id="release_header_wrap">
+					<div class="release_status">EMBARGOED UNTIL RELEASE AT 8:30 A.M. EDT, Monday, July 30, 2018</div>
+					<div class="release_id">BEA 18&mdash;38</div>
+				</div>
+				<div class="divider"></div>
+				<h1>Direct Investment by Country and Industry: 2017</h1>
+				<p>The <strong>U.S. direct investment abroad </strong>position, or cumulative level of investment, increased $427.3 billion to $6,013.3 billion at the end of 2017 from $5,586.0 billion at the end of 2016, according to statistics released by the Bureau of Economic Analysis (BEA). The increase mainly reflected a $243.6 billion increase in the position in Europe, primarily in Switzerland, the United Kingdom, Ireland, and the Netherlands. By industry, affiliates in manufacturing and holding companies accounted for the largest increases. </p>
+				<p>The <strong>foreign direct investment in the United States</strong> position increased $260.4 billion to $4,025.5 billion at the end of 2017 from $3,765.1 billion at the end of 2016. The increase mainly reflected a $128.2 billion increase in the position from Europe, primarily Ireland, Switzerland, and the Netherlands. By industry, affiliates in manufacturing and wholesale trade accounted for the largest increases. </p>
+				<div class="center_div"><a href="/newsreleases/international/fdici/2018/_images/fdici0718-chart-01.png"><img src="/newsreleases/international/fdici/2018/_images/fdici0718-chart-01.png" alt="Direct Investment Positions, 2016-2017" width="1024" height="677" style="width:80%; height:auto; max-width:100%;"></a></div>
+				<p style="margin-top: 20px;"> The increase in the U.S. direct investment position abroad in 2017 mainly reflected financial transactions of $300.4 billion, primarily reinvestment of earnings. The increase in the foreign direct investment position in the United States in 2017 mainly reflected financial transactions of $277.3 billion, primarily equity investment other than reinvestment of earnings.</p>
+				<h3>U.S. direct investment abroad (tables 1 &ndash; 4)</h3>
+				<p>U.S. multinational enterprises (MNEs) invest in nearly every country, but their investment in foreign affiliates in five countries accounted for more than half of the total position at the end of 2017. The U.S. direct investment abroad position was largest in the Netherlands at $936.7 billion, followed by the United Kingdom ($747.6 billion), Luxembourg ($676.4 billion), Ireland ($446.4 billion), and Canada ($391.2 billion). </p>
+				<p>By industry of the immediate foreign affiliate, investment was highly concentrated in holding companies, which accounted for nearly half of the position in 2017. By industry of the U.S. parent, investment by manufacturing MNEs accounted for 55.6 percent of the position, followed by MNEs in finance and insurance (12.4 percent). </p>
+				<p>U.S. MNEs earned income of $470.9 billion on their investment abroad in 2017.</p>
+				<h3>Foreign direct investment in the United States (tables 5 &ndash; 8)</h3>
+				<p>By country of the immediate foreign parent, five countries accounted for more than half of the total position at the end of 2017. The United Kingdom was the top investing country with a position of $540.9 billion, followed by Japan ($469.0 billion), Canada ($453.1 billion), Luxembourg ($410.7 billion), and the Netherlands ($367.1 billion). </p>
+				<p>By country of the ultimate beneficial owner (UBO), the top five countries in terms of position were the United Kingdom ($614.9 billion), Canada ($523.8 billion), Japan ($476.9 billion), Germany ($405.6 billion), and Ireland ($328.7 billion). On this basis, investment from the Netherlands and Luxembourg was much lower than by country of foreign parent, indicating that much of the investment from these countries was ultimately owned by investors in other countries. </p>
+				<p>Foreign direct investment in the United States was concentrated in the U.S. manufacturing sector, which accounted for 39.9 percent of the position. There was also sizable investment in finance and insurance (13.4 percent). </p>
+				<p>Foreign MNEs earned income of $173.8 billion on their investment in the United States in 2017.</p>
+				<div class="text_box">
+					<p class="text-center"><strong>Updates to Direct Investment Statistics</strong></p>
+					<p>BEA statistics for U.S. direct investment abroad  for 2014&ndash;2016 and for foreign direct investment in the United States for 2015&ndash;2016  are revised to incorporate newly available and revised source data, including results  of the 2014 benchmark survey of U.S. direct investment abroad. For more  information on the benchmark survey, see "<a href="/international/pdf/usdia_2014r/MNE%2014-R%20Methodology.pdf">Worldwide Activities of U.S. Multinational Enterprises: Revised  Results From the 2014 Benchmark Survey</a>." </p>
+				</div>
+				<p class="text-center"> Next release: July 2019<br>
+				Direct Investment by Country and Industry: 2018 </p>
+				<div class="divider"></div>
+				<h2>Additional Information</h2>
+				<h3><strong>Resources</strong></h3>
+				<ul>
+					<li>More statistics on direct investment by country and  industry are available on the <a href="/international/direct_investment_multinational_companies_comprehensive_data.htm">BEA website</a>. </li>
+					<li>A description of  the estimation methods used to compile statistics on direct investment by  country and industry is provided in <a href="/international/concepts_methods.htm">U.S.  International Economic Accounts: Concepts and Methods</a>.</li>
+					<li>Stay  informed about BEA developments by reading the BEA <a href="https://blog.bea.gov/">blog</a>, signing up for BEA's <a href="/_subscribe/index_vocus.htm">email subscription service</a>, or  following BEA on Twitter <a href="https://twitter.com/BEA_News">@BEA_News</a>.</li>
+					<li>Historical  time series for these estimates can be accessed in BEA's <a href="/itable/">interactive  data application</a>.</li>
+					<li>Summary data by  country are available in BEA's <a href="/international/factsheet/">International Trade and Investment Country Facts</a>.</li>
+					<li>Access BEA  data by registering for BEA's Data <a href="/API/signup/index.cfm">Application  Programming Interface (API)</a>.</li>
+					<li>Additional  information on direct investment positions will be published in the August issue  of the <a href="/scb/index.htm"><em>Survey of Current Business</em></a><em>.</em></li>
+				</ul>
+				<h3><strong>Definitions</strong></h3>
+				<p><strong><em>Direct  investment</em></strong><strong> </strong>is an  investment by an entity resident in one economy that represents a lasting  interest, defined as 10 percent or more voting ownership, in an enterprise  resident in another economy.</p>
+				<p>A <strong><em>foreign  affiliate</em></strong> is a foreign business enterprise that is at least 10 percent  owned by a single U.S. person or entity. </p>
+				<p>A <strong><em>U.S.  parent</em></strong> is a U.S. person or entity that owns 10 percent or more of a  foreign business enterprise.</p>
+				<p>A <strong><em>U.S.  affiliate</em></strong> is a U.S. business enterprise that is at least 10 percent  owned by a single foreign person or entity. </p>
+				<p>A <strong><em>foreign  parent</em></strong> is the first person or entity outside the United States in a  U.S. affiliate's ownership chain that has a direct investment interest in the  affiliate.</p>
+				<p>The <strong><em>ultimate  beneficial owner (UBO)</em></strong> is that person or entity, proceeding up a U.S.  affiliate's ownership chain, that is not owned more than 50 percent by another  person or entity. </p>
+				<p>The <strong><em>direct  investment position</em></strong> is the value of direct investors' equity in, and  net outstanding loans to, their affiliates. Changes in the position result from  financial transactions and other changes, including capital gains and losses, currency-translation  adjustments, and other changes in volume and valuation, such as adjustments to  book value from affiliates' current sale or purchase price.</p>
+				<p><strong><em>Direct investment financial transactions</em></strong> are financial transactions that increase or decrease financial  claims and liabilities between the parent group and their affiliates. Direct  investment financial transactions consist of reinvestment of earnings, equity investment  other than reinvestment of earnings, and investment in debt instruments.</p>
+				<p><strong><em>Reinvestment of earnings</em></strong> is the  difference between an affiliate's total earnings less dividends. It represents  the part of earnings that are reinvested in the affiliate rather than  repatriated to the parent.</p>
+				<p><strong><em>Equity investment other than reinvestment of earnings</em></strong> is measured  as the difference between equity increases and decreases. Equity increases are  transactions that result in the parent increasing their equity interest in  their affiliate. Equity decreases are transactions that result from the parent  reducing their equity interest in their affiliate. </p>
+				<p><strong><em>Debt instruments investment</em></strong> reflects  parent group lending to and borrowing from their affiliates.</p>
+				<p><strong><em>Income</em></strong> earned on direct investment includes income on equity&mdash;whether  profits or losses and whether distributed or reinvested&mdash;and net interest on  debt.</p>
+				<h3><strong>Statistical conventions</strong></h3>
+				<p>BEA's  direct investment statistics are primarily based on data reported in the <a href="https://bea.gov/surveys/diasurv.htm">Quarterly  Survey of U.S. Direct Investment Abroad</a> (BE-577) and the <a href="https://bea.gov/surveys/fdiusurv.htm">Quarterly Survey of Foreign Direct Investment in the  United States</a> (BE-605). Both surveys  are conducted by BEA. </p>
+				<p>The  countries identified in this release reflect the location of the immediate  counterpart, unless otherwise noted. The countries identified for the U.S.  direct investment abroad position may not reflect the ultimate destination of  the funds. Likewise, the countries identified for the foreign direct investment  position in United States may not reflect the ultimate source of the funds,  which is often the ultimate beneficial owner.</p>
+				<p>The  direct investment positions in this release are valued at historical cost. Positions  reflect the book value of direct investors' equity in, and net outstanding loans  to, their affiliates. This valuation is derived principally from the accounting  records of affiliates, which are primarily compiled under U.S. Generally  Accepted Accounting Principles (GAAP) or International Financial Reporting  Standards (IFRS). This differs from the market value measure featured in the <a href="/iTable/iTableHtml.cfm?reqid=62&step=5&isuri=1&6210=5">U.S. net international investment position accounts</a>. </p>
+				<p>This  release presents statistics on a directional basis rather than the on the asset/liability  basis featured in the <a href="/iTable/iTableHtml.cfm?reqid=62&step=2&isuri=1&6210=1">U.S. international transactions accounts</a> and the <a href="/iTable/iTableHtml.cfm?reqid=62&step=5&isuri=1&6210=5">U.S. net international investment position accounts</a>. On a directional basis, direct investment claims and  liabilities are classified according to whether the direct investor is a U.S.  resident or a foreign resident. U.S. direct investment abroad occurs between a  U.S. parent and its foreign affiliates. Foreign direct investment in the United  States occurs between a foreign parent and its U.S. affiliates. On an  asset/liability basis, direct investment statistics are organized according to  whether the investment relates to an asset or liability for U.S. parents or for  U.S. affiliates of foreign parents. </p>
+		
+				
+			</div></td>
+		<td id="sidebar"><div id="sidebarRight">
+				<div id="search_fieldset">
+					<div class="clear"></div>
+				</div>
+				<div class="title_right">Related Files</div>
+				<ul>
+					<li><a href="/newsreleases/international/fdici/2018/pdf/fdici0718.pdf">Full Release &amp; Tables <span class="file_size">(PDF)</span></a></li>
+					<li><a href="/newsreleases/international/fdici/2018/xls/fdici0718.xlsx">Tables Only <span class="file_size">(Excel)</span></a></li>
+					<li><a href="/newsreleases/international/fdici/2018/pdf/fdici0718_fax.pdf">Release Highlights <span class="file_size">(PDF)</span></a></li>
+				</ul>
+			<div class="title_right">Related Links</div>
+				<ul>
+					<li><a href="/iTable/iTableHtml.cfm?reqid=2&step=1&isuri=1">Interactive tables</a></li>
+					<li><a href="/international/di1usdbal.htm">U.S. direct investment abroad data</a></li>
+					<li><a href="/international/di1fdibal.htm">Foreign direct investment in the United States data</a></li>
+				</ul>
+				<div class="title_right">Contacts</div>
+				<div id="contact_wrap">
+					<div class="contact_name">Ryan Smith <span class="file_size">(Technical)</span></div>
+					<div class="contact_telephone">(301) 278-9246</div>
+					<div class="contact_email"><a href="mailto:Ryan.Smith@bea.gov">Ryan.Smith@bea.gov</a></div>
+					<div class="contact_name">Jessica Hanson <span class="file_size">(Technical)</span></div>
+					<div class="contact_telephone">(301) 278-9595 </div>
+					<div class="contact_email"><a href="mailto:Jessica.Hanson@bea.gov">Jessica.Hanson@bea.gov</a></div>
+					<div class="contact_name">Jeannine Aversa <span class="file_size">(Media)</span></div>
+					<div class="contact_telephone">(301) 278-9003</div>
+					<div class="contact_email"><a href="mailto:Jeannine.Aversa@bea.gov">Jeannine.Aversa@bea.gov</a></div>
+				</div>
+			</div>
+			<p class="subscribe_sidebar"><a href="/_subscribe/" title="This link will take you to another Web site.">Sign up</a> for e-mail notifications.</p>
+			<p class="pdfreader_sidebar"><a href="/exit_site.asp?link=http://www.adobe.com/products/acrobat/readstep2.html" title="This link will take you to another Web site.">Download</a> the Acrobat Reader.</p></td>
+	</tr>
+</table>
+
+<div id="footer_wrapper">
+	<div class="centerContent_wrapper">
+		<div class="lastUpdate_wrapper">
+			<div class="lastUpdate_wrapperRight"> 
+				<!--Last updated on <span id="RealFileDate"></span>-->
+			<script>
+				//var req = new XMLHttpRequest();
+				//req.open('HEAD', "/_last-modified-date/IISLastModified.ashx", false);
+				//req.send();
+				//document.getElementById("RealFileDate").innerHTML = req.getResponseHeader("RealFileDate");
+			</script>
+			</div>
+		</div>
+		<div class="footerLinks_shell">
+			<div class="footerLinks_wrapper">
+				<div class="columnLeft_wrapper" style="width:210px;">
+					<ul class="topicMain">
+						<li><a href="/contacts/search.htm">Contact All of Us</a></li>
+						<li><a href="/faq/index.cfm">Frequently Asked Questions</a></li>
+						<li><a href="/about/index.htm">About BEA</a></li>
+						<li><a href="/about/policies.htm">Policies</a></li>
+					</ul>
+					<ul class="general_links">
+						<li><a href="/about/Privacy_Statement.htm">Privacy Policy</a></li>
+						<li><a href="http://www.osec.doc.gov/omo/FOIA/FOIAWebsite.htm">FOIA</a></li>
+						<li><a href="/about/accessibility.htm">Accessibility</a></li>
+						<li><a href="/_pdf/scientific_integrity_statement_of_the_principal_statistical_agencies.pdf">Commitment to Scientific Integrity</a></li>
+						<li><a href="/about/infoqual.htm">Information Quality Guidelines</a></li>
+						<li><a href="/about/BEAdissemination.htm">Data Dissemination Practices</a></li>
+						<li><a href="/data.htm">Open Data</a></li>
+						<li><a href="/status/default.aspx">ESR System</a></li>
+						<li><a href="//www.usa.gov/">USA.gov</a></li>
+						<li><a href="//www.commerce.gov/">U.S. Department of Commerce</a></li>
+					</ul>
+				</div>
+				<div class="columnLeft_wrapper">
+					<ul>
+						<li class="title">News</li>
+						<li><a href="/newsreleases/glance.htm">U.S. Economy at a Glance</a></li>
+						<li><a href="/newsreleases/rels.htm">Current Releases</a></li>
+						<li><a href="/newsreleases/release_archive.htm">News Release Archive</a></li>
+					</ul>
+				</div>
+				<div class="columnLeft_wrapper">
+					<ul>
+						<li class="title">Information For...</li>
+						<li><a href="/newsroom/index.htm">Media</a></li>
+						<li><a href="/congressional/index.htm">Congressional Users</a></li>
+						<li><a href="/efile/">eFile Users</a></li>
+						<li><a href="/surveys/respondent_be13.htm">BE-13 Respondents</a></li>
+						<li><a href="/surveys/privatefunds">Private Fund Reporters</a></li>
+						<li><a href="/jobs/index.htm">Job Seekers</a></li>
+					</ul>
+				</div>
+				<div class="columnLeft_wrapper">
+					<ul>
+						<li class="title">Factsheets</li>
+						<li><a href="/regional/bearfacts/">Regional PI &amp; GDP</a></li>
+						<li><a href="/international/factsheet/">Int'l Trade &amp; Investment</a></li>
+						<li><a href="/industry/factsheet/">Industry GDP</a></li>
+					</ul>
+				</div>
+				<div class="columnLeft_wrapper">
+					<ul>
+						<li class="title">Publications</li>
+						<li><a href="/scb/index.htm"><em>Survey of Current Business</em></a></li>
+						<li><a href="/research/by_topic.htm">Papers by Topic</a></li>
+						<!--<li><a href="/agency/pdf/BEA_Customer_Guide.pdf">BEA Customer Guide</a></li>-->
+					</ul>
+				</div>
+				<div class="columnLeft_wrapper">
+					<ul>
+						<li class="title">Resources</li>
+						<li><a href="/itable/index.cfm">Interactive Data</a></li>
+						<li><a href="/research/index.htm">Research at BEA</a></li>
+						<li><a href="/developers/">Developers</a></li>
+						<li><a href="/video/index.htm">Multimedia</a></li>
+						<li><a href="/faq/index.cfm">FAQs</a></li>
+					</ul>
+				</div>
+				<div class="columnLeft_wrapper">
+					<ul>
+						<li class="title">More</li>
+						<li><a href="/about/director.htm">Director's Page</a></li>
+						<li><a href="/agency/exhibit_schedule.htm">Conferences</a></li>
+						<li><a href="/about/BEAciting.htm">Guidelines for Citing BEA Information</a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		<div class="clear"></div>
+	</div>
+	<!--Analytics --> 
+	
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-37717925-1', 'auto');
+  ga('send', 'pageview');
+
+</script> 
+	<script type="text/javascript" src="/_scripts/uaevents.js"></script> 
+	<script type="text/javascript">
+//<![CDATA[
+      var usasearch_config = { siteHandle:"u.s.bureauofeconomicanalysis" };
+      var script = document.createElement("script");
+      script.type = "text/javascript";
+      script.src = "//search.usa.gov/javascripts/remote.loader.js";
+      document.getElementsByTagName("head")[0].appendChild(script);
+
+//]]>
+</script>
+
+</div>
+</body></html>

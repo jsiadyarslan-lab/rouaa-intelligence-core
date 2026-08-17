@@ -1,0 +1,1522 @@
+{
+  "store_root": "real_corpus_store",
+  "counts": {
+    "REAL_OFFICIAL_SOURCE": 148,
+    "SYNTHETIC_TEST": 0,
+    "CANONICAL_FIXTURE": 0,
+    "UNKNOWN": 0,
+    "TOTAL": 148
+  },
+  "by_event_type": {
+    "regulatory_enforcement": {
+      "REAL_OFFICIAL_SOURCE": 72
+    },
+    "statistical_release": {
+      "REAL_OFFICIAL_SOURCE": 66
+    },
+    "monetary_policy_decision": {
+      "REAL_OFFICIAL_SOURCE": 10
+    }
+  },
+  "real_by_source": {
+    "imp-federal-reserve": 6,
+    "imp-ecb": 8,
+    "imp-bank-of-england": 4,
+    "imp-bea": 31,
+    "imp-eurostat": 4,
+    "imp-sec": 7,
+    "imp-cftc": 4,
+    "imp-esma": 10,
+    "imp-fca": 13,
+    "imp-consob": 2,
+    "imp-euronext": 51,
+    "imp-stats-china": 1,
+    "imp-hm-treasury": 3,
+    "imp-fsb": 1,
+    "imp-hm-feed": 1,
+    "imp-swiss-national-bank": 1,
+    "imp-deutsche-boerse": 1
+  },
+  "classifications": [
+    {
+      "io_id": "io-55b2041ab9c02c2e",
+      "event_id": "evt-2efdecdea4f6b69b",
+      "event_type": "regulatory_enforcement",
+      "source_id": "imp-federal-reserve",
+      "source_name": "imp-federal-reserve",
+      "source_path": "https://www.federalreserve.gov/feeds/press_all.xml",
+      "canonical_url": "https://www.federalreserve.gov/newsevents/pressreleases/enforcement20260813a.htm",
+      "classification": "REAL_OFFICIAL_SOURCE"
+    },
+    {
+      "io_id": "io-be817f73577ff8e1",
+      "event_id": "evt-de90a317a69593eb",
+      "event_type": "statistical_release",
+      "source_id": "imp-ecb",
+      "source_name": "imp-ecb",
+      "source_path": "https://www.ecb.europa.eu/rss/press.html",
+      "canonical_url": "https://www.ecb.europa.eu//press/pr/date/2026/html/ecb.pr260813~389729d6a9.en.ht",
+      "classification": "REAL_OFFICIAL_SOURCE"
+    },
+    {
+      "io_id": "io-9e2848265ad5928d",
+      "event_id": "evt-a5ff702530367617",
+      "event_type": "monetary_policy_decision",
+      "source_id": "imp-bank-of-england",
+      "source_name": "imp-bank-of-england",
+      "source_path": "https://www.bankofengland.co.uk/news",
+      "canonical_url": "https://www.bankofengland.co.uk/monetary-policy",
+      "classification": "REAL_OFFICIAL_SOURCE"
+    },
+    {
+      "io_id": "io-abed2ad81fcd4f55",
+      "event_id": "evt-96644749b358baca",
+      "event_type": "statistical_release",
+      "source_id": "imp-bea",
+      "source_name": "imp-bea",
+      "source_path": "https://www.bea.gov/news?format=feed",
+      "canonical_url": "https://www.bea.gov/news/glance",
+      "classification": "REAL_OFFICIAL_SOURCE"
+    },
+    {
+      "io_id": "io-7111a5a79c44efc1",
+      "event_id": "evt-3b548a186101450d",
+      "event_type": "statistical_release",
+      "source_id": "imp-eurostat",
+      "source_name": "imp-eurostat",
+      "source_path": "https://ec.europa.eu/eurostat/web/main/news",
+      "canonical_url": "https://ec.europa.eu/eurostat/news",
+      "classification": "REAL_OFFICIAL_SOURCE"
+    },
+    {
+      "io_id": "io-90d70bff856232d9",
+      "event_id": "evt-0181a2ccb1e92a47",
+      "event_type": "statistical_release",
+      "source_id": "imp-eurostat",
+      "source_name": "imp-eurostat",
+      "source_path": "https://ec.europa.eu/eurostat/web/main/news",
+      "canonical_url": "https://ec.europa.eu/eurostat/home",
+      "classification": "REAL_OFFICIAL_SOURCE"
+    },
+    {
+      "io_id": "io-1ca8a75ee22968f7",
+      "event_id": "evt-31a17f8e8c7f6ff4",
+      "event_type": "regulatory_enforcement",
+      "source_id": "imp-sec",
+      "source_name": "imp-sec",
+      "source_path": "https://www.sec.gov/news/pressreleases.rss",
+      "canonical_url": "https://www.sec.gov/newsroom/press-releases/2026-75-sec-charges-boiler-room-oper",
+      "classification": "REAL_OFFICIAL_SOURCE"
+    },
+    {
+      "io_id": "io-86eb51402109b465",
+      "event_id": "evt-6726f19bf8a5555d",
+      "event_type": "regulatory_enforcement",
+      "source_id": "imp-sec",
+      "source_name": "imp-sec",
+      "source_path": "https://www.sec.gov/news/pressreleases.rss",
+      "canonical_url": "https://www.sec.gov/newsroom/press-releases/2026-74-sec-charges-toms-river-trio-",
+      "classification": "REAL_OFFICIAL_SOURCE"
+    },
+    {
+      "io_id": "io-7fb679b134aeabb3",
+      "event_id": "evt-35110dcbe6af1e8b",
+      "event_type": "regulatory_enforcement",
+      "source_id": "imp-sec",
+      "source_name": "imp-sec",
+      "source_path": "https://www.sec.gov/news/pressreleases.rss",
+      "canonical_url": "https://www.sec.gov/newsroom/press-releases/2026-73-sec-charges-private-fund-adv",
+      "classification": "REAL_OFFICIAL_SOURCE"
+    },
+    {
+      "io_id": "io-ee8a8257ce0e86ba",
+      "event_id": "evt-f2cbaa6efe808ee6",
+      "event_type": "regulatory_enforcement",
+      "source_id": "imp-cftc",
+      "source_name": "imp-cftc",
+      "source_path": "https://www.cftc.gov/PressRoom/PressReleases",
+      "canonical_url": "https://www.cftc.gov/PressRoom/PressReleases",
+      "classification": "REAL_OFFICIAL_SOURCE"
+    },
+    {
+      "io_id": "io-b6abac1393987508",
+      "event_id": "evt-5f0ccd4de71d7be7",
+      "event_type": "regulatory_enforcement",
+      "source_id": "imp-esma",
+      "source_name": "imp-esma",
+      "source_path": "https://www.esma.europa.eu/rss.xml",
+      "canonical_url": "https://www.esma.europa.eu/press-news/esma-news/esma-confirms-go-live-weekly-com",
+      "classification": "REAL_OFFICIAL_SOURCE"
+    },
+    {
+      "io_id": "io-5150003cff76e0ab",
+      "event_id": "evt-19751269acf83bc6",
+      "event_type": "regulatory_enforcement",
+      "source_id": "imp-esma",
+      "source_name": "imp-esma",
+      "source_path": "https://www.esma.europa.eu/rss.xml",
+      "canonical_url": "https://www.esma.europa.eu/press-news/esma-news/eba-eiopa-and-esma-propose-amend",
+      "classification": "REAL_OFFICIAL_SOURCE"
+    },
+    {
+      "io_id": "io-eb4ea7a98e0e81d3",
+      "event_id": "evt-c7676dc664c94c55",
+      "event_type": "regulatory_enforcement",
+      "source_id": "imp-esma",
+      "source_name": "imp-esma",
+      "source_path": "https://www.esma.europa.eu/rss.xml",
+      "canonical_url": "https://www.esma.europa.eu/press-news/esma-news/eba-eiopa-and-esma-call-enhanced",
+      "classification": "REAL_OFFICIAL_SOURCE"
+    },
+    {
+      "io_id": "io-afe3a5018b5cf67e",
+      "event_id": "evt-a0d83be6b7f82cc6",
+      "event_type": "regulatory_enforcement",
+      "source_id": "imp-fca",
+      "source_name": "imp-fca",
+      "source_path": "https://www.fca.org.uk/news/rss.xml",
+      "canonical_url": "https://www.fca.org.uk/news/press-releases/fca-expands-global-presence-new-attac",
+      "classification": "REAL_OFFICIAL_SOURCE"
+    },
+    {
+      "io_id": "io-f76ffc30691c854c",
+      "event_id": "evt-ecd70f3ae34ce3bb",
+      "event_type": "regulatory_enforcement",
+      "source_id": "imp-fca",
+      "source_name": "imp-fca",
+      "source_path": "https://www.fca.org.uk/news/rss.xml",
+      "canonical_url": "https://www.fca.org.uk/news/press-releases/ceo-banned-false-misleading-statement",
+      "classification": "REAL_OFFICIAL_SOURCE"
+    },
+    {
+      "io_id": "io-936e16f976e71fe5",
+      "event_id": "evt-9de3f74dcb65cdd9",
+      "event_type": "regulatory_enforcement",
+      "source_id": "imp-fca",
+      "source_name": "imp-fca",
+      "source_path": "https://www.fca.org.uk/news/rss.xml",
+      "canonical_url": "https://www.fca.org.uk/news/blogs/t1-settlement-are-firms-ready-2027",
+      "classification": "REAL_OFFICIAL_SOURCE"
+    },
+    {
+      "io_id": "io-9a05dfe10c74ad8a",
+      "event_id": "evt-79ae01682b3d15c7",
+      "event_type": "regulatory_enforcement",
+      "source_id": "imp-consob",
+      "source_name": "imp-consob",
+      "source_path": "https://www.consob.it",
+      "canonical_url": "https://www.consob.it/documents/d/consob/icona-newsletter",
+      "classification": "REAL_OFFICIAL_SOURCE"
+    },
+    {
+      "io_id": "io-e1c8fef2c0eb8d6e",
+      "event_id": "evt-835cf0d81ba9528e",
+      "event_type": "regulatory_enforcement",
+      "source_id": "imp-euronext",
+      "source_name": "imp-euronext",
+      "source_path": "https://www.euronext.com",
+      "canonical_url": "https://www.euronext.com/en/listing/bonds/debt-listing-newsletter",
+      "classification": "REAL_OFFICIAL_SOURCE"
+    },
+    {
+      "io_id": "io-5fdcc1dcb27ca9ef",
+      "event_id": "evt-0fb9e2843933ba56",
+      "event_type": "regulatory_enforcement",
+      "source_id": "imp-euronext",
+      "source_name": "imp-euronext",
+      "source_path": "https://www.euronext.com",
+      "canonical_url": "https://www.euronext.com/en/clearing/about/annual-reports-financial-statements",
+      "classification": "REAL_OFFICIAL_SOURCE"
+    },
+    {
+      "io_id": "io-81354940d43ef28d",
+      "event_id": "evt-3f148efbd88e13f4",
+      "event_type": "regulatory_enforcement",
+      "source_id": "imp-euronext",
+      "source_name": "imp-euronext",
+      "source_path": "https://www.euronext.com",
+      "canonical_url": "https://www.euronext.com/en/clearing/risk-management/investment-policy",
+      "classification": "REAL_OFFICIAL_SOURCE"
+    },
+    {
+      "io_id": "io-3b29dcff072de7b3",
+      "event_id": "evt-2df069b675e70826",
+      "event_type": "regulatory_enforcement",
+      "source_id": "imp-federal-reserve",
+      "source_name": "imp-federal-reserve",
+      "source_path": "https://www.federalreserve.gov/feeds/press_all.xml",
+      "canonical_url": "https://www.federalreserve.gov/newsevents/pressreleases/bcreg20260731a.htm",
+      "classification": "REAL_OFFICIAL_SOURCE"
+    },
+    {
+      "io_id": "io-ae42ca1c8d287ae7",
+      "event_id": "evt-074e06585520b04e",
+      "event_type": "regulatory_enforcement",
+      "source_id": "imp-federal-reserve",
+      "source_name": "imp-federal-reserve",
+      "source_path": "https://www.federalreserve.gov/feeds/press_all.xml",
+      "canonical_url": "https://www.federalreserve.gov/newsevents/pressreleases/enforcement20260730b.htm",
+      "classification": "REAL_OFFICIAL_SOURCE"
+    },
+    {
+      "io_id": "io-68401a239735f3fd",
+      "event_id": "evt-cb45451b92039a70",
+      "event_type": "regulatory_enforcement",
+      "source_id": "imp-federal-reserve",
+      "source_name": "imp-federal-reserve",
+      "source_path": "https://www.federalreserve.gov/feeds/press_all.xml",
+      "canonical_url": "https://www.federalreserve.gov/newsevents/pressreleases/enforcement20260730a.htm",
+      "classification": "REAL_OFFICIAL_SOURCE"
+    },
+    {
+      "io_id": "io-42a1a68e297feffb",
+      "event_id": "evt-44acde85cbae40e8",
+      "event_type": "statistical_release",
+      "source_id": "imp-ecb",
+      "source_name": "imp-ecb",
+      "source_path": "https://www.ecb.europa.eu/rss/press.html",
+      "canonical_url": "https://www.ecb.europa.eu//press/pr/date/2026/html/ecb.pr260807~58eb5109ce.en.ht",
+      "classification": "REAL_OFFICIAL_SOURCE"
+    },
+    {
+      "io_id": "io-f92aa209b5d5c885",
+      "event_id": "evt-d5b417a3a28689d0",
+      "event_type": "statistical_release",
+      "source_id": "imp-ecb",
+      "source_name": "imp-ecb",
+      "source_path": "https://www.ecb.europa.eu/rss/press.html",
+      "canonical_url": "https://www.ecb.europa.eu//press/pr/date/2026/html/ecb.pr260729~4ad7508d8a.en.ht",
+      "classification": "REAL_OFFICIAL_SOURCE"
+    },
+    {
+      "io_id": "io-c6c8ac878a439394",
+      "event_id": "evt-869bfead15b94ad9",
+      "event_type": "statistical_release",
+      "source_id": "imp-ecb",
+      "source_name": "imp-ecb",
+      "source_path": "https://www.ecb.europa.eu/rss/press.html",
+      "canonical_url": "https://www.ecb.europa.eu//press/govcdec/otherdec/2026/html/ecb.gc260724~eebbc30",
+      "classification": "REAL_OFFICIAL_SOURCE"
+    },
+    {
+      "io_id": "io-43450fbfbd3f5f48",
+      "event_id": "evt-bf9b7a39c384f6cc",
+      "event_type": "statistical_release",
+      "source_id": "imp-ecb",
+      "source_name": "imp-ecb",
+      "source_path": "https://www.ecb.europa.eu/rss/press.html",
+      "canonical_url": "https://www.ecb.europa.eu//press/pr/date/2026/html/ecb.pr260724_4~f082ce289d.en.",
+      "classification": "REAL_OFFICIAL_SOURCE"
+    },
+    {
+      "io_id": "io-a27ee61aa6026a13",
+      "event_id": "evt-dd39f6b818e43011",
+      "event_type": "statistical_release",
+      "source_id": "imp-ecb",
+      "source_name": "imp-ecb",
+      "source_path": "https://www.ecb.europa.eu/rss/press.html",
+      "canonical_url": "https://www.ecb.europa.eu//press/pr/date/2026/html/ecb.pr260724_3~c0b45e246f.en.",
+      "classification": "REAL_OFFICIAL_SOURCE"
+    },
+    {
+      "io_id": "io-3be348eb6518bd7f",
+      "event_id": "evt-3bfbb51410ad5df6",
+      "event_type": "monetary_policy_decision",
+      "source_id": "imp-bank-of-england",
+      "source_name": "imp-bank-of-england",
+      "source_path": "https://www.bankofengland.co.uk/news",
+      "canonical_url": "https://www.bankofengland.co.uk/monetary-policy/quantitative-easing",
+      "classification": "REAL_OFFICIAL_SOURCE"
+    },
+    {
+      "io_id": "io-e8c9109c25a423dd",
+      "event_id": "evt-d4f7053293157018",
+      "event_type": "statistical_release",
+      "source_id": "imp-eurostat",
+      "source_name": "imp-eurostat",
+      "source_path": "https://ec.europa.eu/eurostat/web/main/news",
+      "canonical_url": "https://ec.europa.eu/eurostat/news/news-articles",
+      "classification": "REAL_OFFICIAL_SOURCE"
+    },
+    {
+      "io_id": "io-11560eb4ca7cac3c",
+      "event_id": "evt-fccbdbf94a04d5cd",
+      "event_type": "statistical_release",
+      "source_id": "imp-eurostat",
+      "source_name": "imp-eurostat",
+      "source_path": "https://ec.europa.eu/eurostat/web/main/news",
+      "canonical_url": "https://ec.europa.eu/eurostat/news/euro-indicators",
+      "classification": "REAL_OFFICIAL_SOURCE"
+    },
+    {
+      "io_id": "io-9afd87c5c7ce7adf",
+      "event_id": "evt-d3df27a427772005",
+      "event_type": "statistical_release",
+      "source_id": "imp-stats-china",
+      "source_name": "imp-stats-china",
+      "source_path": "http://www.stats.gov.cn",
+      "canonical_url": "http://www.news.cn/politics/leaders/20260812/3ae82d793da2494ab7364f31a80d6729/c.",
+      "classification": "REAL_OFFICIAL_SOURCE"
+    },
+    {
+      "io_id": "io-a2d9dbf300f43bc0",
+      "event_id": "evt-b7d5811faf2eca50",
+      "event_type": "regulatory_enforcement",
+      "source_id": "imp-sec",
+      "source_name": "imp-sec",
+      "source_path": "https://www.sec.gov/news/pressreleases.rss",
+      "canonical_url": "https://www.sec.gov/newsroom/press-releases/2026-72-sec-establishes-financial-re",
+      "classification": "REAL_OFFICIAL_SOURCE"
+    },
+    {
+      "io_id": "io-510e7472d7e96491",
+      "event_id": "evt-8cf01070fc070477",
+      "event_type": "regulatory_enforcement",
+      "source_id": "imp-sec",
+      "source_name": "imp-sec",
+      "source_path": "https://www.sec.gov/news/pressreleases.rss",
+      "canonical_url": "https://www.sec.gov/newsroom/press-releases/2026-70-small-business-forums-report",
+      "classification": "REAL_OFFICIAL_SOURCE"
+    },
+    {
+      "io_id": "io-c9a99641456b9d93",
+      "event_id": "evt-3d39ae25e34bfc5f",
+      "event_type": "regulatory_enforcement",
+      "source_id": "imp-cftc",
+      "source_name": "imp-cftc",
+      "source_path": "https://www.cftc.gov/PressRoom/PressReleases",
+      "canonical_url": "https://www.cftc.gov/PressRoom/PressReleases/9281-26",
+      "classification": "REAL_OFFICIAL_SOURCE"
+    },
+    {
+      "io_id": "io-618b1bf27c651c5a",
+      "event_id": "evt-dc1b623616649476",
+      "event_type": "regulatory_enforcement",
+      "source_id": "imp-cftc",
+      "source_name": "imp-cftc",
+      "source_path": "https://www.cftc.gov/PressRoom/PressReleases",
+      "canonical_url": "https://www.cftc.gov/PressRoom/PressReleases/9280-26",
+      "classification": "REAL_OFFICIAL_SOURCE"
+    },
+    {
+      "io_id": "io-3ba6bc20160d3cd7",
+      "event_id": "evt-c4426456acd78de1",
+      "event_type": "regulatory_enforcement",
+      "source_id": "imp-esma",
+      "source_name": "imp-esma",
+      "source_path": "https://www.esma.europa.eu/rss.xml",
+      "canonical_url": "https://www.esma.europa.eu/press-news/esma-news/esma-publishes-latest-edition-it",
+      "classification": "REAL_OFFICIAL_SOURCE"
+    },
+    {
+      "io_id": "io-4323d212da946519",
+      "event_id": "evt-80751982b824a849",
+      "event_type": "regulatory_enforcement",
+      "source_id": "imp-esma",
+      "source_name": "imp-esma",
+      "source_path": "https://www.esma.europa.eu/rss.xml",
+      "canonical_url": "https://www.esma.europa.eu/press-news/esma-news/esma-authorises-euroctp-consolid",
+      "classification": "REAL_OFFICIAL_SOURCE"
+    },
+    {
+      "io_id": "io-bbb8485464e13316",
+      "event_id": "evt-40957c51904bd15f",
+      "event_type": "regulatory_enforcement",
+      "source_id": "imp-esma",
+      "source_name": "imp-esma",
+      "source_path": "https://www.esma.europa.eu/rss.xml",
+      "canonical_url": "https://www.esma.europa.eu/press-news/esma-news/esma-calls-firms-finalise-prepar",
+      "classification": "REAL_OFFICIAL_SOURCE"
+    },
+    {
+      "io_id": "io-617804e0b8d7b49a",
+      "event_id": "evt-ebee99518d544945",
+      "event_type": "regulatory_enforcement",
+      "source_id": "imp-esma",
+      "source_name": "imp-esma",
+      "source_path": "https://www.esma.europa.eu/rss.xml",
+      "canonical_url": "https://www.esma.europa.eu/press-news/esma-news/esma-publishes-report-cross-bord",
+      "classification": "REAL_OFFICIAL_SOURCE"
+    },
+    {
+      "io_id": "io-db1df3ae20d1206f",
+      "event_id": "evt-9ac72d0cb85ee79b",
+      "event_type": "regulatory_enforcement",
+      "source_id": "imp-esma",
+      "source_name": "imp-esma",
+      "source_path": "https://www.esma.europa.eu/rss.xml",
+      "canonical_url": "https://www.esma.europa.eu/press-news/esma-news/joint-board-appeal-dismisses-app",
+      "classification": "REAL_OFFICIAL_SOURCE"
+    },
+    {
+      "io_id": "io-9085ed58996e2289",
+      "event_id": "evt-597af70e14cb484a",
+      "event_type": "regulatory_enforcement",
+      "source_id": "imp-esma",
+      "source_name": "imp-esma",
+      "source_path": "https://www.esma.europa.eu/rss.xml",
+      "canonical_url": "https://www.esma.europa.eu/press-news/esma-news/esma-launches-data-collection-un",
+      "classification": "REAL_OFFICIAL_SOURCE"
+    },
+    {
+      "io_id": "io-cb958bd7f073a0e5",
+      "event_id": "evt-15bab1acb2ece8b7",
+      "event_type": "regulatory_enforcement",
+      "source_id": "imp-esma",
+      "source_name": "imp-esma",
+      "source_path": "https://www.esma.europa.eu/rss.xml",
+      "canonical_url": "https://www.esma.europa.eu/press-news/esma-news/new-qas-available-July-2026",
+      "classification": "REAL_OFFICIAL_SOURCE"
+    },
+    {
+      "io_id": "io-d57865693c621aea",
+      "event_id": "evt-02871ddaa336a00e",
+      "event_type": "regulatory_enforcement",
+      "source_id": "imp-fca",
+      "source_name": "imp-fca",
+      "source_path": "https://www.fca.org.uk/news/rss.xml",
+      "canonical_url": "https://www.fca.org.uk/news/press-releases/fca-boosts-support-innovative-firms-s",
+      "classification": "REAL_OFFICIAL_SOURCE"
+    },
+    {
+      "io_id": "io-b046d9212372d09b",
+      "event_id": "evt-2aaaf08cbe36cc0c",
+      "event_type": "regulatory_enforcement",
+      "source_id": "imp-fca",
+      "source_name": "imp-fca",
+      "source_path": "https://www.fca.org.uk/news/rss.xml",
+      "canonical_url": "https://www.fca.org.uk/news/statements/fca-applying-increased-scrutiny-annex-1-f",
+      "classification": "REAL_OFFICIAL_SOURCE"
+    },
+    {
+      "io_id": "io-61a2e64744419917",
+      "event_id": "evt-edcc71bf59df9ef4",
+      "event_type": "regulatory_enforcement",
+      "source_id": "imp-fca",
+      "source_name": "imp-fca",
+      "source_path": "https://www.fca.org.uk/news/rss.xml",
+      "canonical_url": "https://www.fca.org.uk/news/blogs/making-compliance-simpler-opening-fca-handbook",
+      "classification": "REAL_OFFICIAL_SOURCE"
+    },
+    {
+      "io_id": "io-1bd3f313f7af0c6e",
+      "event_id": "evt-66d06440790e9e7b",
+      "event_type": "regulatory_enforcement",
+      "source_id": "imp-fca",
+      "source_name": "imp-fca",
+      "source_path": "https://www.fca.org.uk/news/rss.xml",
+      "canonical_url": "https://www.fca.org.uk/news/press-releases/fca-simplifies-ipo-rules-support-uk-l",
+      "classification": "REAL_OFFICIAL_SOURCE"
+    },
+    {
+      "io_id": "io-30022112e390cb2f",
+      "event_id": "evt-f1e0b7117d139f34",
+      "event_type": "regulatory_enforcement",
+      "source_id": "imp-fca",
+      "source_name": "imp-fca",
+      "source_path": "https://www.fca.org.uk/news/rss.xml",
+      "canonical_url": "https://www.fca.org.uk/news/press-releases/tribunal-upholds-fca-ban-pair-pension",
+      "classification": "REAL_OFFICIAL_SOURCE"
+    },
+    {
+      "io_id": "io-c5ec857e86a2a369",
+      "event_id": "evt-b617acde1211527f",
+      "event_type": "regulatory_enforcement",
+      "source_id": "imp-fca",
+      "source_name": "imp-fca",
+      "source_path": "https://www.fca.org.uk/news/rss.xml",
+      "canonical_url": "https://www.fca.org.uk/news/press-releases/fca-finalises-rules-cut-firms-transac",
+      "classification": "REAL_OFFICIAL_SOURCE"
+    },
+    {
+      "io_id": "io-e16585243d05366d",
+      "event_id": "evt-cc8fd89c8f6ad13a",
+      "event_type": "regulatory_enforcement",
+      "source_id": "imp-fca",
+      "source_name": "imp-fca",
+      "source_path": "https://www.fca.org.uk/news/rss.xml",
+      "canonical_url": "https://www.fca.org.uk/news/press-releases/fca-advances-package-equity-market-tr",
+      "classification": "REAL_OFFICIAL_SOURCE"
+    },
+    {
+      "io_id": "io-7f38d631fa2bac6c",
+      "event_id": "evt-b022b2b6013e84e7",
+      "event_type": "regulatory_enforcement",
+      "source_id": "imp-euronext",
+      "source_name": "imp-euronext",
+      "source_path": "https://www.euronext.com",
+      "canonical_url": "https://www.euronext.com/en/clearing/notices",
+      "classification": "REAL_OFFICIAL_SOURCE"
+    },
+    {
+      "io_id": "io-26e1d815a8b085ef",
+      "event_id": "evt-6cf78222c9165ac5",
+      "event_type": "regulatory_enforcement",
+      "source_id": "imp-euronext",
+      "source_name": "imp-euronext",
+      "source_path": "https://www.euronext.com",
+      "canonical_url": "https://www.euronext.com/en/clearing/news",
+      "classification": "REAL_OFFICIAL_SOURCE"
+    },
+    {
+      "io_id": "io-ab038136b03c8bf8",
+      "event_id": "evt-9ea8e55acccb304a",
+      "event_type": "regulatory_enforcement",
+      "source_id": "imp-euronext",
+      "source_name": "imp-euronext",
+      "source_path": "https://www.euronext.com",
+      "canonical_url": "https://www.euronext.com/en/csd/about/euronext-securities-news",
+      "classification": "REAL_OFFICIAL_SOURCE"
+    },
+    {
+      "io_id": "io-f063cf718f1f80c9",
+      "event_id": "evt-a75f51a98108d150",
+      "event_type": "regulatory_enforcement",
+      "source_id": "imp-euronext",
+      "source_name": "imp-euronext",
+      "source_path": "https://www.euronext.com",
+      "canonical_url": "https://www.euronext.com/en/csd/copenhagen/news-insights",
+      "classification": "REAL_OFFICIAL_SOURCE"
+    },
+    {
+      "io_id": "io-79363a3ecdfd380d",
+      "event_id": "evt-feafa5f657f3cd9f",
+      "event_type": "regulatory_enforcement",
+      "source_id": "imp-euronext",
+      "source_name": "imp-euronext",
+      "source_path": "https://www.euronext.com",
+      "canonical_url": "https://www.euronext.com/en/csd/milan/news-initiatives",
+      "classification": "REAL_OFFICIAL_SOURCE"
+    },
+    {
+      "io_id": "io-fed5152098fc89e0",
+      "event_id": "evt-cf8484da6d446a16",
+      "event_type": "regulatory_enforcement",
+      "source_id": "imp-euronext",
+      "source_name": "imp-euronext",
+      "source_path": "https://www.euronext.com",
+      "canonical_url": "https://www.euronext.com/en/euronext-indices/press-releases",
+      "classification": "REAL_OFFICIAL_SOURCE"
+    },
+    {
+      "io_id": "io-49023e5505d7f6b7",
+      "event_id": "evt-c77508d6daf6e1c9",
+      "event_type": "regulatory_enforcement",
+      "source_id": "imp-euronext",
+      "source_name": "imp-euronext",
+      "source_path": "https://www.euronext.com",
+      "canonical_url": "https://www.euronext.com/en/news/index-themes-shaping-2026-and-beyond",
+      "classification": "REAL_OFFICIAL_SOURCE"
+    },
+    {
+      "io_id": "io-aaff5eba06024447",
+      "event_id": "evt-315a1bcaeba24eee",
+      "event_type": "regulatory_enforcement",
+      "source_id": "imp-hm-treasury",
+      "source_name": "imp-hm-treasury",
+      "source_path": "https://www.gov.uk/government/organisations/hm-treasury",
+      "canonical_url": "https://www.gov.uk/government/news/great-british-summer-savings-vat-slashed-to-s",
+      "classification": "REAL_OFFICIAL_SOURCE"
+    },
+    {
+      "io_id": "io-ffd4921a3f09d753",
+      "event_id": "evt-e4785f1e7fa24e39",
+      "event_type": "regulatory_enforcement",
+      "source_id": "imp-hm-treasury",
+      "source_name": "imp-hm-treasury",
+      "source_path": "https://www.gov.uk/government/organisations/hm-treasury",
+      "canonical_url": "https://www.gov.uk/government/publications/the-green-book-appraisal-and-evaluati",
+      "classification": "REAL_OFFICIAL_SOURCE"
+    },
+    {
+      "io_id": "io-b73f1b5cfe2f69e4",
+      "event_id": "evt-5521bb11f4176658",
+      "event_type": "statistical_release",
+      "source_id": "imp-fsb",
+      "source_name": "imp-fsb",
+      "source_path": "https://www.fsb.org/feed/",
+      "canonical_url": "https://www.fsb.org/2026/07/cross-border-payments-towards-the-next-chapter",
+      "classification": "REAL_OFFICIAL_SOURCE"
+    },
+    {
+      "io_id": "io-0db41fde8c803040",
+      "event_id": "evt-76a4c67228da9ccb",
+      "event_type": "statistical_release",
+      "source_id": "imp-bea",
+      "source_name": "imp-bea",
+      "source_path": "https://www.bea.gov/news?format=feed",
+      "canonical_url": "https://www.bea.gov/news/2026/us-international-trade-goods-and-services-june-202",
+      "classification": "REAL_OFFICIAL_SOURCE"
+    },
+    {
+      "io_id": "io-39cfc3b482bba190",
+      "event_id": "evt-cd265ffe64766c78",
+      "event_type": "regulatory_enforcement",
+      "source_id": "imp-cftc",
+      "source_name": "imp-cftc",
+      "source_path": "https://www.cftc.gov/PressRoom/PressReleases",
+      "canonical_url": "https://www.cftc.gov/PressRoom/SpeechesTestimony/seligstatement080626",
+      "classification": "REAL_OFFICIAL_SOURCE"
+    },
+    {
+      "io_id": "io-d699eb90722fdf91",
+      "event_id": "evt-f86d0e206435d6ac",
+      "event_type": "statistical_release",
+      "source_id": "imp-bea",
+      "source_name": "imp-bea",
+      "source_path": "https://www.bea.gov/news?format=feed",
+      "canonical_url": "https://www.bea.gov/news/2026/gross-domestic-product-county-and-personal-income-",
+      "classification": "REAL_OFFICIAL_SOURCE"
+    },
+    {
+      "io_id": "io-f252514d7487e66e",
+      "event_id": "evt-7fe516d4d754a3aa",
+      "event_type": "monetary_policy_decision",
+      "source_id": "imp-ecb",
+      "source_name": "imp-ecb",
+      "source_path": "https://www.ecb.europa.eu/rss/press.html",
+      "canonical_url": "https://www.ecb.europa.eu//press/press_conference/monetary-policy-statement/2026",
+      "classification": "REAL_OFFICIAL_SOURCE"
+    },
+    {
+      "io_id": "io-15160d8f1e8e817d",
+      "event_id": "evt-31ccf241813bc031",
+      "event_type": "regulatory_enforcement",
+      "source_id": "imp-euronext",
+      "source_name": "imp-euronext",
+      "source_path": "https://www.euronext.com",
+      "canonical_url": "https://www.euronext.com/en/about/media/euronext-press-releases/euronext-announc",
+      "classification": "REAL_OFFICIAL_SOURCE"
+    },
+    {
+      "io_id": "io-a86c513fe82baac9",
+      "event_id": "evt-5a42392e8b8357da",
+      "event_type": "regulatory_enforcement",
+      "source_id": "imp-euronext",
+      "source_name": "imp-euronext",
+      "source_path": "https://www.euronext.com",
+      "canonical_url": "https://www.euronext.com/en/about/media/euronext-press-releases/dipietro-group-l",
+      "classification": "REAL_OFFICIAL_SOURCE"
+    },
+    {
+      "io_id": "io-1796adc656a8819c",
+      "event_id": "evt-50b091186a37f65a",
+      "event_type": "regulatory_enforcement",
+      "source_id": "imp-euronext",
+      "source_name": "imp-euronext",
+      "source_path": "https://www.euronext.com",
+      "canonical_url": "https://www.euronext.com/en/about/media/euronext-press-releases/blk-global-plc-l",
+      "classification": "REAL_OFFICIAL_SOURCE"
+    },
+    {
+      "io_id": "io-0761347c246b0551",
+      "event_id": "evt-fb9bde27b63a2eed",
+      "event_type": "regulatory_enforcement",
+      "source_id": "imp-euronext",
+      "source_name": "imp-euronext",
+      "source_path": "https://www.euronext.com",
+      "canonical_url": "https://www.euronext.com/en/about/media/euronext-press-releases/euronext-publish",
+      "classification": "REAL_OFFICIAL_SOURCE"
+    },
+    {
+      "io_id": "io-43d4e65609c4843a",
+      "event_id": "evt-94e19e72cfba19a9",
+      "event_type": "regulatory_enforcement",
+      "source_id": "imp-fca",
+      "source_name": "imp-fca",
+      "source_path": "https://www.fca.org.uk/news/rss.xml",
+      "canonical_url": "https://www.fca.org.uk/news/press-releases/trial-date-set-individual-charged-ill",
+      "classification": "REAL_OFFICIAL_SOURCE"
+    },
+    {
+      "io_id": "io-647bc102ca1e480a",
+      "event_id": "evt-2f99da7d94717283",
+      "event_type": "regulatory_enforcement",
+      "source_id": "imp-euronext",
+      "source_name": "imp-euronext",
+      "source_path": "https://www.euronext.com",
+      "canonical_url": "https://www.euronext.com/en/about/media/euronext-press-releases/ehi-lists-eurone",
+      "classification": "REAL_OFFICIAL_SOURCE"
+    },
+    {
+      "io_id": "io-1c89837982b29495",
+      "event_id": "evt-2b1b6e4bdeb05e64",
+      "event_type": "regulatory_enforcement",
+      "source_id": "imp-fca",
+      "source_name": "imp-fca",
+      "source_path": "https://www.fca.org.uk/news/rss.xml",
+      "canonical_url": "https://www.fca.org.uk/news/press-releases/fca-censures-equity-growth-securities",
+      "classification": "REAL_OFFICIAL_SOURCE"
+    },
+    {
+      "io_id": "io-207cfbb36f332c9a",
+      "event_id": "evt-eb362e0a7662c13d",
+      "event_type": "regulatory_enforcement",
+      "source_id": "imp-euronext",
+      "source_name": "imp-euronext",
+      "source_path": "https://www.euronext.com",
+      "canonical_url": "https://www.euronext.com/en/about/media/euronext-press-releases/guidotti-ships-l",
+      "classification": "REAL_OFFICIAL_SOURCE"
+    },
+    {
+      "io_id": "io-7e2fcd255208c9cc",
+      "event_id": "evt-3e608eecd524d984",
+      "event_type": "regulatory_enforcement",
+      "source_id": "imp-euronext",
+      "source_name": "imp-euronext",
+      "source_path": "https://www.euronext.com",
+      "canonical_url": "https://www.euronext.com/en/about/media/euronext-press-releases/first-point-list",
+      "classification": "REAL_OFFICIAL_SOURCE"
+    },
+    {
+      "io_id": "io-0c2694b8973e8e6d",
+      "event_id": "evt-5b1a8d68da186e8b",
+      "event_type": "regulatory_enforcement",
+      "source_id": "imp-euronext",
+      "source_name": "imp-euronext",
+      "source_path": "https://www.euronext.com",
+      "canonical_url": "https://www.euronext.com/en/about/media/euronext-press-releases/giunti-psychomet",
+      "classification": "REAL_OFFICIAL_SOURCE"
+    },
+    {
+      "io_id": "io-012868ae3188c8cd",
+      "event_id": "evt-26906b6fa341c1c1",
+      "event_type": "regulatory_enforcement",
+      "source_id": "imp-euronext",
+      "source_name": "imp-euronext",
+      "source_path": "https://www.euronext.com",
+      "canonical_url": "https://www.euronext.com/en/about/media/euronext-press-releases/seanergy-maritim",
+      "classification": "REAL_OFFICIAL_SOURCE"
+    },
+    {
+      "io_id": "io-e7f1ab14fa41db16",
+      "event_id": "evt-8e5bddb6a753bfe4",
+      "event_type": "regulatory_enforcement",
+      "source_id": "imp-fca",
+      "source_name": "imp-fca",
+      "source_path": "https://www.fca.org.uk/news/rss.xml",
+      "canonical_url": "https://www.fca.org.uk/news/press-releases/fca-ban-father-son-fraud-misuse-clien",
+      "classification": "REAL_OFFICIAL_SOURCE"
+    },
+    {
+      "io_id": "io-c73ae5e73df25f53",
+      "event_id": "evt-a89bc5df523a10ab",
+      "event_type": "regulatory_enforcement",
+      "source_id": "imp-euronext",
+      "source_name": "imp-euronext",
+      "source_path": "https://www.euronext.com",
+      "canonical_url": "https://www.euronext.com/en/about/media/euronext-press-releases/gens-aurea-lists",
+      "classification": "REAL_OFFICIAL_SOURCE"
+    },
+    {
+      "io_id": "io-d7dec3d2c382ac59",
+      "event_id": "evt-4662c34c47dec2e7",
+      "event_type": "regulatory_enforcement",
+      "source_id": "imp-euronext",
+      "source_name": "imp-euronext",
+      "source_path": "https://www.euronext.com",
+      "canonical_url": "https://www.euronext.com/en/about/media/euronext-press-releases/le-slip-francais",
+      "classification": "REAL_OFFICIAL_SOURCE"
+    },
+    {
+      "io_id": "io-915e64c62ecf2c1d",
+      "event_id": "evt-44be89471c8f1340",
+      "event_type": "monetary_policy_decision",
+      "source_id": "imp-bank-of-england",
+      "source_name": "imp-bank-of-england",
+      "source_path": "https://www.bankofengland.co.uk/news",
+      "canonical_url": "https://www.bankofengland.co.uk/monetary-policy-summary-and-minutes/2026/june-20",
+      "classification": "REAL_OFFICIAL_SOURCE"
+    },
+    {
+      "io_id": "io-83daad3380efe57c",
+      "event_id": "evt-3b692448c6a45aef",
+      "event_type": "regulatory_enforcement",
+      "source_id": "imp-euronext",
+      "source_name": "imp-euronext",
+      "source_path": "https://www.euronext.com",
+      "canonical_url": "https://www.euronext.com/en/about/media/euronext-press-releases/embention-lists-",
+      "classification": "REAL_OFFICIAL_SOURCE"
+    },
+    {
+      "io_id": "io-2a63bb1648049715",
+      "event_id": "evt-e8a5a5c86d53b2db",
+      "event_type": "regulatory_enforcement",
+      "source_id": "imp-euronext",
+      "source_name": "imp-euronext",
+      "source_path": "https://www.euronext.com",
+      "canonical_url": "https://www.euronext.com/en/about/media/euronext-press-releases/polar-resources-",
+      "classification": "REAL_OFFICIAL_SOURCE"
+    },
+    {
+      "io_id": "io-ba0ad37c35390b92",
+      "event_id": "evt-66636d93edc78456",
+      "event_type": "regulatory_enforcement",
+      "source_id": "imp-sec",
+      "source_name": "imp-sec",
+      "source_path": "https://www.sec.gov/news/pressreleases.rss",
+      "canonical_url": "https://www.sec.gov/newsroom/press-releases/2026-61-sec-publishes-updated-market",
+      "classification": "REAL_OFFICIAL_SOURCE"
+    },
+    {
+      "io_id": "io-05e4a13e43cc5f9b",
+      "event_id": "evt-4b8ea72470a8eb9a",
+      "event_type": "regulatory_enforcement",
+      "source_id": "imp-sec",
+      "source_name": "imp-sec",
+      "source_path": "https://www.sec.gov/news/pressreleases.rss",
+      "canonical_url": "https://www.sec.gov/newsroom/press-releases/2026-60-sec-seeks-public-comment-nov",
+      "classification": "REAL_OFFICIAL_SOURCE"
+    },
+    {
+      "io_id": "io-b18e78c546eac35d",
+      "event_id": "evt-0ef53703d6316c22",
+      "event_type": "regulatory_enforcement",
+      "source_id": "imp-euronext",
+      "source_name": "imp-euronext",
+      "source_path": "https://www.euronext.com",
+      "canonical_url": "https://www.euronext.com/en/about/media/euronext-press-releases/eti-lists-eurone",
+      "classification": "REAL_OFFICIAL_SOURCE"
+    },
+    {
+      "io_id": "io-63713fc83d88737d",
+      "event_id": "evt-6988c1987579df74",
+      "event_type": "regulatory_enforcement",
+      "source_id": "imp-euronext",
+      "source_name": "imp-euronext",
+      "source_path": "https://www.euronext.com",
+      "canonical_url": "https://www.euronext.com/en/about/media/euronext-press-releases/euronext-announc",
+      "classification": "REAL_OFFICIAL_SOURCE"
+    },
+    {
+      "io_id": "io-d35a418438d982f7",
+      "event_id": "evt-e641095221e5a26b",
+      "event_type": "regulatory_enforcement",
+      "source_id": "imp-euronext",
+      "source_name": "imp-euronext",
+      "source_path": "https://www.euronext.com",
+      "canonical_url": "https://www.euronext.com/en/about/media/euronext-press-releases/attica-departmen",
+      "classification": "REAL_OFFICIAL_SOURCE"
+    },
+    {
+      "io_id": "io-34973d2c06aff9f7",
+      "event_id": "evt-14879069b615a3da",
+      "event_type": "regulatory_enforcement",
+      "source_id": "imp-euronext",
+      "source_name": "imp-euronext",
+      "source_path": "https://www.euronext.com",
+      "canonical_url": "https://www.euronext.com/en/about/media/euronext-press-releases/pelican-aqua-hol",
+      "classification": "REAL_OFFICIAL_SOURCE"
+    },
+    {
+      "io_id": "io-ff0afee692cd20be",
+      "event_id": "evt-bc7ecbc7f3f31e76",
+      "event_type": "regulatory_enforcement",
+      "source_id": "imp-euronext",
+      "source_name": "imp-euronext",
+      "source_path": "https://www.euronext.com",
+      "canonical_url": "https://www.euronext.com/en/about/media/euronext-press-releases/euronext-corpora",
+      "classification": "REAL_OFFICIAL_SOURCE"
+    },
+    {
+      "io_id": "io-b6ac12308e2ccac6",
+      "event_id": "evt-4ff204973c7156e2",
+      "event_type": "regulatory_enforcement",
+      "source_id": "imp-euronext",
+      "source_name": "imp-euronext",
+      "source_path": "https://www.euronext.com",
+      "canonical_url": "https://www.euronext.com/en/about/media/euronext-press-releases/gold-road-intern",
+      "classification": "REAL_OFFICIAL_SOURCE"
+    },
+    {
+      "io_id": "io-01b07f8332ebeb0c",
+      "event_id": "evt-c397589041bf9f63",
+      "event_type": "regulatory_enforcement",
+      "source_id": "imp-euronext",
+      "source_name": "imp-euronext",
+      "source_path": "https://www.euronext.com",
+      "canonical_url": "https://www.euronext.com/en/about/media/euronext-press-releases/apollo-minerals-",
+      "classification": "REAL_OFFICIAL_SOURCE"
+    },
+    {
+      "io_id": "io-671c2a5acb09c992",
+      "event_id": "evt-7fc391d28f6ffe18",
+      "event_type": "regulatory_enforcement",
+      "source_id": "imp-hm-feed",
+      "source_name": "imp-hm-feed",
+      "source_path": "https://www.gov.uk/government/organisations/hm-treasury.atom",
+      "canonical_url": "https://www.gov.uk/government/publications/dao-0726-sharing-information-covered-",
+      "classification": "REAL_OFFICIAL_SOURCE"
+    },
+    {
+      "io_id": "io-e57db30de41a9d7e",
+      "event_id": "evt-4202b509c86ea6d7",
+      "event_type": "monetary_policy_decision",
+      "source_id": "imp-swiss-national-bank",
+      "source_name": "imp-swiss-national-bank",
+      "source_path": "https://www.snb.ch",
+      "canonical_url": "https://www.snb.ch/en/the-snb/mandates-goals/monetary-policy/implementation",
+      "classification": "REAL_OFFICIAL_SOURCE"
+    },
+    {
+      "io_id": "io-1305c0b3efc46d4f",
+      "event_id": "evt-a05c371a060a1256",
+      "event_type": "statistical_release",
+      "source_id": "imp-euronext",
+      "source_name": "imp-euronext",
+      "source_path": "https://www.euronext.com",
+      "canonical_url": "https://www.euronext.com/en/clearing/about/annual-reports-financial-statements",
+      "classification": "REAL_OFFICIAL_SOURCE"
+    },
+    {
+      "io_id": "io-9fded9126f0c496d",
+      "event_id": "evt-5ed48c1b3772c0b9",
+      "event_type": "statistical_release",
+      "source_id": "imp-consob",
+      "source_name": "imp-consob",
+      "source_path": "https://www.consob.it",
+      "canonical_url": "https://www.consob.it/documents/d/consob/icona-newsletter",
+      "classification": "REAL_OFFICIAL_SOURCE"
+    },
+    {
+      "io_id": "io-5f4a24c3e307cc01",
+      "event_id": "evt-996c1f05cb224df7",
+      "event_type": "monetary_policy_decision",
+      "source_id": "imp-federal-reserve",
+      "source_name": "imp-federal-reserve",
+      "source_path": "https://www.federalreserve.gov/feeds/press_all.xml",
+      "canonical_url": "https://www.federalreserve.gov/newsevents/pressreleases/bcreg20260731a.htm",
+      "classification": "REAL_OFFICIAL_SOURCE"
+    },
+    {
+      "io_id": "io-68aeb1a370c256a6",
+      "event_id": "evt-e2752a4f85fed5f7",
+      "event_type": "monetary_policy_decision",
+      "source_id": "imp-federal-reserve",
+      "source_name": "imp-federal-reserve",
+      "source_path": "https://www.federalreserve.gov/feeds/press_all.xml",
+      "canonical_url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260729a.htm",
+      "classification": "REAL_OFFICIAL_SOURCE"
+    },
+    {
+      "io_id": "io-34acaea89e0d8ab2",
+      "event_id": "evt-7247315ab5d80eec",
+      "event_type": "monetary_policy_decision",
+      "source_id": "imp-ecb",
+      "source_name": "imp-ecb",
+      "source_path": "https://www.ecb.europa.eu/rss/press.html",
+      "canonical_url": "https://www.ecb.europa.eu//press/pr/date/2026/html/ecb.pr260724_3~c0b45e246f.en.",
+      "classification": "REAL_OFFICIAL_SOURCE"
+    },
+    {
+      "io_id": "io-5fa6076e9c6539fc",
+      "event_id": "evt-ca765a3b70c59a00",
+      "event_type": "monetary_policy_decision",
+      "source_id": "imp-bank-of-england",
+      "source_name": "imp-bank-of-england",
+      "source_path": "https://www.bankofengland.co.uk/news",
+      "canonical_url": "https://www.bankofengland.co.uk/monetary-policy/the-interest-rate-bank-rate",
+      "classification": "REAL_OFFICIAL_SOURCE"
+    },
+    {
+      "io_id": "io-bea0b6a376d6f629",
+      "event_id": "evt-49c0d5e1423161f6",
+      "event_type": "monetary_policy_decision",
+      "source_id": "imp-deutsche-boerse",
+      "source_name": "imp-deutsche-boerse",
+      "source_path": "https://www.deutsche-boerse.com",
+      "canonical_url": "https://www.deutsche-boerse.com/dbg-de/media/news-stories/media-releases/July-20",
+      "classification": "REAL_OFFICIAL_SOURCE"
+    },
+    {
+      "io_id": "io-03f54ef461c06001",
+      "event_id": "evt-e09b21d11929de3e",
+      "event_type": "statistical_release",
+      "source_id": "imp-hm-treasury",
+      "source_name": "imp-hm-treasury",
+      "source_path": "https://www.gov.uk/government/organisations/hm-treasury",
+      "canonical_url": "https://www.gov.uk/government/news/great-british-summer-savings-vat-slashed-to-s",
+      "classification": "REAL_OFFICIAL_SOURCE"
+    },
+    {
+      "io_id": "io-8203734e329b78da",
+      "event_id": "evt-5f95d093b7d9a38b",
+      "event_type": "statistical_release",
+      "source_id": "imp-bea",
+      "source_name": "imp-bea",
+      "source_path": "https://www.bea.gov/news?format=feed",
+      "canonical_url": "https://www.bea.gov/news/2026/personal-income-and-outlays-june-2026",
+      "classification": "REAL_OFFICIAL_SOURCE"
+    },
+    {
+      "io_id": "io-0c647330a91d640c",
+      "event_id": "evt-834819ce943fc7e8",
+      "event_type": "statistical_release",
+      "source_id": "imp-bea",
+      "source_name": "imp-bea",
+      "source_path": "https://www.bea.gov/news?format=feed",
+      "canonical_url": "https://www.bea.gov/news/2026/activities-us-affiliates-foreign-multinational-ent",
+      "classification": "REAL_OFFICIAL_SOURCE"
+    },
+    {
+      "io_id": "io-4b3549f2bfeabd43",
+      "event_id": "evt-a72c6db8c23e7f3f",
+      "event_type": "statistical_release",
+      "source_id": "imp-bea",
+      "source_name": "imp-bea",
+      "source_path": "https://www.bea.gov/news?format=feed",
+      "canonical_url": "https://www.bea.gov/news/2026/direct-investment-country-and-industry-2025",
+      "classification": "REAL_OFFICIAL_SOURCE"
+    },
+    {
+      "io_id": "io-09189d018d2081b4",
+      "event_id": "evt-8de41c76fc6788d7",
+      "event_type": "statistical_release",
+      "source_id": "imp-bea",
+      "source_name": "imp-bea",
+      "source_path": "https://www.bea.gov/news?format=feed",
+      "canonical_url": "https://www.bea.gov/news/2026/personal-income-and-outlays-may-2026",
+      "classification": "REAL_OFFICIAL_SOURCE"
+    },
+    {
+      "io_id": "io-8fa184904578eae6",
+      "event_id": "evt-197421062ebdb0c7",
+      "event_type": "statistical_release",
+      "source_id": "imp-bea",
+      "source_name": "imp-bea",
+      "source_path": "https://www.bea.gov/news?format=feed",
+      "canonical_url": "https://www.bea.gov/news/2026/us-international-transactions-and-investment-posit",
+      "classification": "REAL_OFFICIAL_SOURCE"
+    },
+    {
+      "io_id": "io-9304252516f5b4a0",
+      "event_id": "evt-e6317941eae61e25",
+      "event_type": "statistical_release",
+      "source_id": "imp-bea",
+      "source_name": "imp-bea",
+      "source_path": "https://www.bea.gov/news?format=feed",
+      "canonical_url": "https://www.bea.gov/news/2026/new-foreign-direct-investment-united-states-2025",
+      "classification": "REAL_OFFICIAL_SOURCE"
+    },
+    {
+      "io_id": "io-0873c447e9b9733c",
+      "event_id": "evt-6764f93d34c89099",
+      "event_type": "statistical_release",
+      "source_id": "imp-bea",
+      "source_name": "imp-bea",
+      "source_path": "https://www.bea.gov/news?format=feed",
+      "canonical_url": "https://www.bea.gov/news/2026/personal-income-and-outlays-april-2026",
+      "classification": "REAL_OFFICIAL_SOURCE"
+    },
+    {
+      "io_id": "io-ca43d858fe433433",
+      "event_id": "evt-845c28fe7eb49a4a",
+      "event_type": "statistical_release",
+      "source_id": "imp-bea",
+      "source_name": "imp-bea",
+      "source_path": "https://www.bea.gov/news?format=feed",
+      "canonical_url": "https://www.bea.gov/news/2026/personal-income-and-outlays-january-2026",
+      "classification": "REAL_OFFICIAL_SOURCE"
+    },
+    {
+      "io_id": "io-82bd93037aae3793",
+      "event_id": "evt-6cca74c7a70a064c",
+      "event_type": "statistical_release",
+      "source_id": "imp-bea",
+      "source_name": "imp-bea",
+      "source_path": "https://www.bea.gov/news?format=feed",
+      "canonical_url": "https://www.bea.gov/news/2026/outdoor-recreation-economic-statistics-us-and-stat",
+      "classification": "REAL_OFFICIAL_SOURCE"
+    },
+    {
+      "io_id": "io-d4c7af5cba135595",
+      "event_id": "evt-84bb16a83d21feca",
+      "event_type": "statistical_release",
+      "source_id": "imp-bea",
+      "source_name": "imp-bea",
+      "source_path": "https://www.bea.gov/news?format=feed",
+      "canonical_url": "https://www.bea.gov/news/2026/personal-income-and-outlays-december-2025",
+      "classification": "REAL_OFFICIAL_SOURCE"
+    },
+    {
+      "io_id": "io-35ce3669e1ba2204",
+      "event_id": "evt-003a9723a19fd3fb",
+      "event_type": "statistical_release",
+      "source_id": "imp-bea",
+      "source_name": "imp-bea",
+      "source_path": "https://www.bea.gov/news?format=feed",
+      "canonical_url": "https://www.bea.gov/news/2026/us-international-investment-position-3rd-quarter-2",
+      "classification": "REAL_OFFICIAL_SOURCE"
+    },
+    {
+      "io_id": "io-0eb15c9170ee2b98",
+      "event_id": "evt-2f41ebca4c5df1cd",
+      "event_type": "statistical_release",
+      "source_id": "imp-bea",
+      "source_name": "imp-bea",
+      "source_path": "https://www.bea.gov/news?format=feed",
+      "canonical_url": "https://www.bea.gov/news/2026/us-international-transactions-3rd-quarter-2025",
+      "classification": "REAL_OFFICIAL_SOURCE"
+    },
+    {
+      "io_id": "io-4d0ae13598a4e04d",
+      "event_id": "evt-8b4f84c2ba1b7605",
+      "event_type": "statistical_release",
+      "source_id": "imp-bea",
+      "source_name": "imp-bea",
+      "source_path": "https://www.bea.gov/news?format=feed",
+      "canonical_url": "https://www.bea.gov/news/2025/activities-us-multinational-enterprises-2023",
+      "classification": "REAL_OFFICIAL_SOURCE"
+    },
+    {
+      "io_id": "io-25d63db0b736fc25",
+      "event_id": "evt-52fa003c88425880",
+      "event_type": "statistical_release",
+      "source_id": "imp-bea",
+      "source_name": "imp-bea",
+      "source_path": "https://www.bea.gov/news?format=feed",
+      "canonical_url": "https://www.bea.gov/news/2025/marine-economy-satellite-account-2023",
+      "classification": "REAL_OFFICIAL_SOURCE"
+    },
+    {
+      "io_id": "io-dc4bfb902bab1744",
+      "event_id": "evt-3c75c5285473dcfe",
+      "event_type": "statistical_release",
+      "source_id": "imp-euronext",
+      "source_name": "imp-euronext",
+      "source_path": "https://www.euronext.com",
+      "canonical_url": "https://www.euronext.com/en/about/media/euronext-press-releases/euronext-announc",
+      "classification": "REAL_OFFICIAL_SOURCE"
+    },
+    {
+      "io_id": "io-3be9de8dd3168da7",
+      "event_id": "evt-68d8d009a950ea6f",
+      "event_type": "statistical_release",
+      "source_id": "imp-bea",
+      "source_name": "imp-bea",
+      "source_path": "https://www.bea.gov/news?format=feed",
+      "canonical_url": "https://www.bea.gov/news/2025/arts-and-cultural-production-satellite-account-us-",
+      "classification": "REAL_OFFICIAL_SOURCE"
+    },
+    {
+      "io_id": "io-e4eea97503974f5b",
+      "event_id": "evt-f0511dc1367e4f9a",
+      "event_type": "statistical_release",
+      "source_id": "imp-euronext",
+      "source_name": "imp-euronext",
+      "source_path": "https://www.euronext.com",
+      "canonical_url": "https://www.euronext.com/en/about/media/euronext-press-releases/dipietro-group-l",
+      "classification": "REAL_OFFICIAL_SOURCE"
+    },
+    {
+      "io_id": "io-6d1470fdb40c3286",
+      "event_id": "evt-482821e9421214fb",
+      "event_type": "statistical_release",
+      "source_id": "imp-bea",
+      "source_name": "imp-bea",
+      "source_path": "https://www.bea.gov/news?format=feed",
+      "canonical_url": "https://www.bea.gov/news/2024/gross-domestic-product-county-and-metropolitan-are",
+      "classification": "REAL_OFFICIAL_SOURCE"
+    },
+    {
+      "io_id": "io-bb20a591675d2c35",
+      "event_id": "evt-009cad713341ebd6",
+      "event_type": "statistical_release",
+      "source_id": "imp-euronext",
+      "source_name": "imp-euronext",
+      "source_path": "https://www.euronext.com",
+      "canonical_url": "https://www.euronext.com/en/about/media/euronext-press-releases/blk-global-plc-l",
+      "classification": "REAL_OFFICIAL_SOURCE"
+    },
+    {
+      "io_id": "io-0556ef49eb5d7404",
+      "event_id": "evt-f3d9f7d5954af610",
+      "event_type": "statistical_release",
+      "source_id": "imp-bea",
+      "source_name": "imp-bea",
+      "source_path": "https://www.bea.gov/news?format=feed",
+      "canonical_url": "https://www.bea.gov/news/2024/gross-domestic-product-commonwealth-northern-maria",
+      "classification": "REAL_OFFICIAL_SOURCE"
+    },
+    {
+      "io_id": "io-800941fa5aa8ae0f",
+      "event_id": "evt-a654546a291442b9",
+      "event_type": "statistical_release",
+      "source_id": "imp-bea",
+      "source_name": "imp-bea",
+      "source_path": "https://www.bea.gov/news?format=feed",
+      "canonical_url": "https://www.bea.gov/news/2024/outdoor-recreation-satellite-account-us-and-states",
+      "classification": "REAL_OFFICIAL_SOURCE"
+    },
+    {
+      "io_id": "io-f464fe33820ed6a3",
+      "event_id": "evt-855685c3d3318ef9",
+      "event_type": "statistical_release",
+      "source_id": "imp-euronext",
+      "source_name": "imp-euronext",
+      "source_path": "https://www.euronext.com",
+      "canonical_url": "https://www.euronext.com/en/about/media/euronext-press-releases/euronext-publish",
+      "classification": "REAL_OFFICIAL_SOURCE"
+    },
+    {
+      "io_id": "io-4126e1de92802da6",
+      "event_id": "evt-8790a50735098417",
+      "event_type": "statistical_release",
+      "source_id": "imp-euronext",
+      "source_name": "imp-euronext",
+      "source_path": "https://www.euronext.com",
+      "canonical_url": "https://www.euronext.com/en/about/media/euronext-press-releases/ehi-lists-eurone",
+      "classification": "REAL_OFFICIAL_SOURCE"
+    },
+    {
+      "io_id": "io-907eb1c59a2dd17d",
+      "event_id": "evt-856b8221671de50d",
+      "event_type": "statistical_release",
+      "source_id": "imp-bea",
+      "source_name": "imp-bea",
+      "source_path": "https://www.bea.gov/news?format=feed",
+      "canonical_url": "https://www.bea.gov/news/2024/gross-domestic-product-us-virgin-islands-2022",
+      "classification": "REAL_OFFICIAL_SOURCE"
+    },
+    {
+      "io_id": "io-cd1755c140271312",
+      "event_id": "evt-9aa1d6d2288ae765",
+      "event_type": "statistical_release",
+      "source_id": "imp-bea",
+      "source_name": "imp-bea",
+      "source_path": "https://www.bea.gov/news?format=feed",
+      "canonical_url": "https://www.bea.gov/news/2024/gross-domestic-product-guam-2022",
+      "classification": "REAL_OFFICIAL_SOURCE"
+    },
+    {
+      "io_id": "io-3ab292a5c1bfc342",
+      "event_id": "evt-10b455403f8bfad8",
+      "event_type": "statistical_release",
+      "source_id": "imp-euronext",
+      "source_name": "imp-euronext",
+      "source_path": "https://www.euronext.com",
+      "canonical_url": "https://www.euronext.com/en/about/media/euronext-press-releases/guidotti-ships-l",
+      "classification": "REAL_OFFICIAL_SOURCE"
+    },
+    {
+      "io_id": "io-4541e02ffc8de75b",
+      "event_id": "evt-6fd24cb0f3e6be90",
+      "event_type": "statistical_release",
+      "source_id": "imp-euronext",
+      "source_name": "imp-euronext",
+      "source_path": "https://www.euronext.com",
+      "canonical_url": "https://www.euronext.com/en/about/media/euronext-press-releases/first-point-list",
+      "classification": "REAL_OFFICIAL_SOURCE"
+    },
+    {
+      "io_id": "io-c471c43798ea93f1",
+      "event_id": "evt-89fe458eb4ad08ad",
+      "event_type": "statistical_release",
+      "source_id": "imp-euronext",
+      "source_name": "imp-euronext",
+      "source_path": "https://www.euronext.com",
+      "canonical_url": "https://www.euronext.com/en/about/media/euronext-press-releases/giunti-psychomet",
+      "classification": "REAL_OFFICIAL_SOURCE"
+    },
+    {
+      "io_id": "io-f97611ba1e68b3c7",
+      "event_id": "evt-e29d3ab5aa1b6636",
+      "event_type": "statistical_release",
+      "source_id": "imp-euronext",
+      "source_name": "imp-euronext",
+      "source_path": "https://www.euronext.com",
+      "canonical_url": "https://www.euronext.com/en/about/media/euronext-press-releases/seanergy-maritim",
+      "classification": "REAL_OFFICIAL_SOURCE"
+    },
+    {
+      "io_id": "io-fdcb541d6796090e",
+      "event_id": "evt-854a9067347e5622",
+      "event_type": "statistical_release",
+      "source_id": "imp-euronext",
+      "source_name": "imp-euronext",
+      "source_path": "https://www.euronext.com",
+      "canonical_url": "https://www.euronext.com/en/about/media/euronext-press-releases/gens-aurea-lists",
+      "classification": "REAL_OFFICIAL_SOURCE"
+    },
+    {
+      "io_id": "io-30e32100998a36f2",
+      "event_id": "evt-c18f69dfb45f8b49",
+      "event_type": "statistical_release",
+      "source_id": "imp-euronext",
+      "source_name": "imp-euronext",
+      "source_path": "https://www.euronext.com",
+      "canonical_url": "https://www.euronext.com/en/about/media/euronext-press-releases/le-slip-francais",
+      "classification": "REAL_OFFICIAL_SOURCE"
+    },
+    {
+      "io_id": "io-5a95f3709478c0fa",
+      "event_id": "evt-8ba18943055c8690",
+      "event_type": "statistical_release",
+      "source_id": "imp-euronext",
+      "source_name": "imp-euronext",
+      "source_path": "https://www.euronext.com",
+      "canonical_url": "https://www.euronext.com/en/about/media/euronext-press-releases/embention-lists-",
+      "classification": "REAL_OFFICIAL_SOURCE"
+    },
+    {
+      "io_id": "io-dc1fae67d48ba888",
+      "event_id": "evt-63f5f02df0dc5323",
+      "event_type": "statistical_release",
+      "source_id": "imp-euronext",
+      "source_name": "imp-euronext",
+      "source_path": "https://www.euronext.com",
+      "canonical_url": "https://www.euronext.com/en/about/media/euronext-press-releases/polar-resources-",
+      "classification": "REAL_OFFICIAL_SOURCE"
+    },
+    {
+      "io_id": "io-52a962982a031b80",
+      "event_id": "evt-61c7a78860b82b4f",
+      "event_type": "statistical_release",
+      "source_id": "imp-euronext",
+      "source_name": "imp-euronext",
+      "source_path": "https://www.euronext.com",
+      "canonical_url": "https://www.euronext.com/en/about/media/euronext-press-releases/eti-lists-eurone",
+      "classification": "REAL_OFFICIAL_SOURCE"
+    },
+    {
+      "io_id": "io-ce1b025d48a81764",
+      "event_id": "evt-72831d138f44f14c",
+      "event_type": "statistical_release",
+      "source_id": "imp-euronext",
+      "source_name": "imp-euronext",
+      "source_path": "https://www.euronext.com",
+      "canonical_url": "https://www.euronext.com/en/about/media/euronext-press-releases/euronext-announc",
+      "classification": "REAL_OFFICIAL_SOURCE"
+    },
+    {
+      "io_id": "io-c542b42881303ef0",
+      "event_id": "evt-db0e29dd7a64e665",
+      "event_type": "statistical_release",
+      "source_id": "imp-euronext",
+      "source_name": "imp-euronext",
+      "source_path": "https://www.euronext.com",
+      "canonical_url": "https://www.euronext.com/en/about/media/euronext-press-releases/attica-departmen",
+      "classification": "REAL_OFFICIAL_SOURCE"
+    },
+    {
+      "io_id": "io-4cdcd317dad8cbdd",
+      "event_id": "evt-8ebacab77b0d58ee",
+      "event_type": "statistical_release",
+      "source_id": "imp-euronext",
+      "source_name": "imp-euronext",
+      "source_path": "https://www.euronext.com",
+      "canonical_url": "https://www.euronext.com/en/about/media/euronext-press-releases/pelican-aqua-hol",
+      "classification": "REAL_OFFICIAL_SOURCE"
+    },
+    {
+      "io_id": "io-268d870ce57f9e46",
+      "event_id": "evt-cbcd3f3a7faaaa4c",
+      "event_type": "statistical_release",
+      "source_id": "imp-euronext",
+      "source_name": "imp-euronext",
+      "source_path": "https://www.euronext.com",
+      "canonical_url": "https://www.euronext.com/en/about/media/euronext-press-releases/euronext-corpora",
+      "classification": "REAL_OFFICIAL_SOURCE"
+    },
+    {
+      "io_id": "io-ca64ef90036d2bef",
+      "event_id": "evt-ad6affee26effa6b",
+      "event_type": "statistical_release",
+      "source_id": "imp-euronext",
+      "source_name": "imp-euronext",
+      "source_path": "https://www.euronext.com",
+      "canonical_url": "https://www.euronext.com/en/about/media/euronext-press-releases/gold-road-intern",
+      "classification": "REAL_OFFICIAL_SOURCE"
+    },
+    {
+      "io_id": "io-bc39c6d0908741fe",
+      "event_id": "evt-e1c4617d8b4fabbc",
+      "event_type": "statistical_release",
+      "source_id": "imp-euronext",
+      "source_name": "imp-euronext",
+      "source_path": "https://www.euronext.com",
+      "canonical_url": "https://www.euronext.com/en/about/media/euronext-press-releases/apollo-minerals-",
+      "classification": "REAL_OFFICIAL_SOURCE"
+    },
+    {
+      "io_id": "io-1e56cf5f0357cb4d",
+      "event_id": "evt-bf1d41533800d2c3",
+      "event_type": "statistical_release",
+      "source_id": "imp-bea",
+      "source_name": "imp-bea",
+      "source_path": "https://www.bea.gov/news?format=feed",
+      "canonical_url": "https://www.bea.gov/news/2023/gross-domestic-product-american-samoa-2022",
+      "classification": "REAL_OFFICIAL_SOURCE"
+    },
+    {
+      "io_id": "io-5269e77c2b0f3ffd",
+      "event_id": "evt-f6e16a5c76a14152",
+      "event_type": "statistical_release",
+      "source_id": "imp-bea",
+      "source_name": "imp-bea",
+      "source_path": "https://www.bea.gov/news?format=feed",
+      "canonical_url": "https://www.bea.gov/news/2022/gross-domestic-product-county-2021",
+      "classification": "REAL_OFFICIAL_SOURCE"
+    },
+    {
+      "io_id": "io-2e6037c97b7468b6",
+      "event_id": "evt-43765ac5e57198ca",
+      "event_type": "statistical_release",
+      "source_id": "imp-bea",
+      "source_name": "imp-bea",
+      "source_path": "https://www.bea.gov/news?format=feed",
+      "canonical_url": "https://www.bea.gov/news/2023/personal-income-state-2nd-quarter-2023",
+      "classification": "REAL_OFFICIAL_SOURCE"
+    },
+    {
+      "io_id": "io-645312b1a398063a",
+      "event_id": "evt-99497a61128cafa8",
+      "event_type": "statistical_release",
+      "source_id": "imp-bea",
+      "source_name": "imp-bea",
+      "source_path": "https://www.bea.gov/news?format=feed",
+      "canonical_url": "https://www.bea.gov/news/2019/local-area-gross-domestic-product-2018",
+      "classification": "REAL_OFFICIAL_SOURCE"
+    },
+    {
+      "io_id": "io-b5e6e01f2a705af8",
+      "event_id": "evt-5dbed48f671636e8",
+      "event_type": "statistical_release",
+      "source_id": "imp-bea",
+      "source_name": "imp-bea",
+      "source_path": "https://www.bea.gov/news?format=feed",
+      "canonical_url": "https://apps.bea.gov/newsreleases/international/fdici/2018/fdici0718.htm",
+      "classification": "REAL_OFFICIAL_SOURCE"
+    },
+    {
+      "io_id": "io-cc38d9340dd09ee6",
+      "event_id": "evt-43cadd857e3a51b6",
+      "event_type": "statistical_release",
+      "source_id": "imp-bea",
+      "source_name": "imp-bea",
+      "source_path": "https://www.bea.gov/news?format=feed",
+      "canonical_url": "https://apps.bea.gov/newsreleases/industry/tourism/2017/tour317.htm",
+      "classification": "REAL_OFFICIAL_SOURCE"
+    },
+    {
+      "io_id": "io-1fdd7f96a6e1d7cc",
+      "event_id": "evt-78fe9debf1e77d66",
+      "event_type": "statistical_release",
+      "source_id": "imp-bea",
+      "source_name": "imp-bea",
+      "source_path": "https://www.bea.gov/news?format=feed",
+      "canonical_url": "https://apps.bea.gov/newsreleases/industry/io/2013/io1213.htm",
+      "classification": "REAL_OFFICIAL_SOURCE"
+    },
+    {
+      "io_id": "io-ed6b55305996badc",
+      "event_id": "evt-f30e80695d1449eb",
+      "event_type": "statistical_release",
+      "source_id": "imp-bea",
+      "source_name": "imp-bea",
+      "source_path": "https://www.bea.gov/news?format=feed",
+      "canonical_url": "https://apps.bea.gov/newsreleases/international/mnc/2013/mnc2011.htm",
+      "classification": "REAL_OFFICIAL_SOURCE"
+    }
+  ]
+}

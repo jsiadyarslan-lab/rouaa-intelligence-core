@@ -1,7 +1,7 @@
 {
   "schema_version": "2.0",
-  "frozen_at": "2026-08-17T21:28:33Z",
-  "store_root": "corpus_100_store",
+  "frozen_at": "2026-08-17T22:35:12Z",
+  "store_root": "real_corpus_store",
   "target_per_type": 10,
   "distribution": {
     "regulatory_enforcement": 10,
@@ -10,335 +10,335 @@
   },
   "target_met": true,
   "golden_ios": {
-    "io-2844579030f0f3a6": {
-      "io_id": "io-2844579030f0f3a6",
+    "io-05e4a13e43cc5f9b": {
+      "io_id": "io-05e4a13e43cc5f9b",
       "event_type": "regulatory_enforcement",
-      "frozen_at": "2026-08-17T21:28:33Z",
-      "etag": "W/\"7774b2980ba82b46\"",
+      "frozen_at": "2026-08-17T22:35:12Z",
+      "etag": "W/\"a7893b580c8752b8\"",
       "event_version": 1,
       "status": "ACTIVE",
       "supersedes_io_id": null,
-      "chain_length": 1,
-      "temporal_tuples_count": 2
+      "chain_length": 2,
+      "temporal_tuples_count": 1
     },
-    "io-4742c75c3cf25897": {
-      "io_id": "io-4742c75c3cf25897",
+    "io-1ca8a75ee22968f7": {
+      "io_id": "io-1ca8a75ee22968f7",
       "event_type": "regulatory_enforcement",
-      "frozen_at": "2026-08-17T21:28:33Z",
-      "etag": "W/\"05e06df66a915cb0\"",
+      "frozen_at": "2026-08-17T22:35:12Z",
+      "etag": "W/\"57f7e0b69cfccc90\"",
       "event_version": 1,
       "status": "ACTIVE",
       "supersedes_io_id": null,
-      "chain_length": 1,
-      "temporal_tuples_count": 2
+      "chain_length": 12,
+      "temporal_tuples_count": 1
     },
-    "io-536ef6034fc6c28d": {
-      "io_id": "io-536ef6034fc6c28d",
+    "io-39cfc3b482bba190": {
+      "io_id": "io-39cfc3b482bba190",
       "event_type": "regulatory_enforcement",
-      "frozen_at": "2026-08-17T21:28:33Z",
-      "etag": "W/\"20eb011a7d1db0ba\"",
+      "frozen_at": "2026-08-17T22:35:12Z",
+      "etag": "W/\"ee669e30cbe73433\"",
       "event_version": 1,
       "status": "ACTIVE",
       "supersedes_io_id": null,
       "chain_length": 1,
-      "temporal_tuples_count": 2
+      "temporal_tuples_count": 1
     },
-    "io-565f6bf0d75ef25f": {
-      "io_id": "io-565f6bf0d75ef25f",
+    "io-3b29dcff072de7b3": {
+      "io_id": "io-3b29dcff072de7b3",
       "event_type": "regulatory_enforcement",
-      "frozen_at": "2026-08-17T21:28:33Z",
-      "etag": "W/\"871d06f2b904c55b\"",
+      "frozen_at": "2026-08-17T22:35:12Z",
+      "etag": "W/\"96b0c7c2865c9ebd\"",
       "event_version": 1,
       "status": "ACTIVE",
       "supersedes_io_id": null,
       "chain_length": 1,
-      "temporal_tuples_count": 2
+      "temporal_tuples_count": 1
     },
-    "io-693a5319c9d115c5": {
-      "io_id": "io-693a5319c9d115c5",
+    "io-510e7472d7e96491": {
+      "io_id": "io-510e7472d7e96491",
       "event_type": "regulatory_enforcement",
-      "frozen_at": "2026-08-17T21:28:33Z",
-      "etag": "W/\"8baa6893359a7ef6\"",
+      "frozen_at": "2026-08-17T22:35:12Z",
+      "etag": "W/\"6eeb32d024a8b477\"",
       "event_version": 1,
       "status": "ACTIVE",
       "supersedes_io_id": null,
       "chain_length": 1,
-      "temporal_tuples_count": 2
+      "temporal_tuples_count": 1
     },
-    "io-6b097c53038400ae": {
-      "io_id": "io-6b097c53038400ae",
+    "io-55b2041ab9c02c2e": {
+      "io_id": "io-55b2041ab9c02c2e",
       "event_type": "regulatory_enforcement",
-      "frozen_at": "2026-08-17T21:28:33Z",
-      "etag": "W/\"38c7cd93c8c512d8\"",
+      "frozen_at": "2026-08-17T22:35:12Z",
+      "etag": "W/\"7adbbc3aa42b9dd1\"",
       "event_version": 1,
       "status": "ACTIVE",
       "supersedes_io_id": null,
-      "chain_length": 1,
-      "temporal_tuples_count": 2
+      "chain_length": 5,
+      "temporal_tuples_count": 1
     },
-    "io-6bd1b046f5440f5e": {
-      "io_id": "io-6bd1b046f5440f5e",
+    "io-68401a239735f3fd": {
+      "io_id": "io-68401a239735f3fd",
       "event_type": "regulatory_enforcement",
-      "frozen_at": "2026-08-17T21:28:33Z",
-      "etag": "W/\"225da7e9da3a7005\"",
+      "frozen_at": "2026-08-17T22:35:12Z",
+      "etag": "W/\"fe5ff308532270eb\"",
       "event_version": 1,
       "status": "ACTIVE",
       "supersedes_io_id": null,
-      "chain_length": 1,
-      "temporal_tuples_count": 2
+      "chain_length": 4,
+      "temporal_tuples_count": 1
     },
-    "io-6ce386444db49604": {
-      "io_id": "io-6ce386444db49604",
+    "io-7fb679b134aeabb3": {
+      "io_id": "io-7fb679b134aeabb3",
       "event_type": "regulatory_enforcement",
-      "frozen_at": "2026-08-17T21:28:33Z",
-      "etag": "W/\"e51715738c222713\"",
+      "frozen_at": "2026-08-17T22:35:12Z",
+      "etag": "W/\"fc936bbbccc262a6\"",
       "event_version": 1,
       "status": "ACTIVE",
       "supersedes_io_id": null,
-      "chain_length": 1,
-      "temporal_tuples_count": 2
+      "chain_length": 5,
+      "temporal_tuples_count": 1
     },
-    "io-8018b55bf788cb39": {
-      "io_id": "io-8018b55bf788cb39",
+    "io-86eb51402109b465": {
+      "io_id": "io-86eb51402109b465",
       "event_type": "regulatory_enforcement",
-      "frozen_at": "2026-08-17T21:28:33Z",
-      "etag": "W/\"eccade20ddc815fc\"",
+      "frozen_at": "2026-08-17T22:35:12Z",
+      "etag": "W/\"9e07c03b4f3a93ea\"",
       "event_version": 1,
       "status": "ACTIVE",
       "supersedes_io_id": null,
-      "chain_length": 1,
-      "temporal_tuples_count": 2
+      "chain_length": 12,
+      "temporal_tuples_count": 1
     },
-    "io-9a25401049cb56db": {
-      "io_id": "io-9a25401049cb56db",
+    "io-a2d9dbf300f43bc0": {
+      "io_id": "io-a2d9dbf300f43bc0",
       "event_type": "regulatory_enforcement",
-      "frozen_at": "2026-08-17T21:28:33Z",
-      "etag": "W/\"b7951cc64aa3dae8\"",
+      "frozen_at": "2026-08-17T22:35:12Z",
+      "etag": "W/\"ba0106ce3b8352c7\"",
       "event_version": 1,
       "status": "ACTIVE",
       "supersedes_io_id": null,
-      "chain_length": 1,
-      "temporal_tuples_count": 2
+      "chain_length": 2,
+      "temporal_tuples_count": 1
     },
-    "io-0e996db5177f0eed": {
-      "io_id": "io-0e996db5177f0eed",
+    "io-0556ef49eb5d7404": {
+      "io_id": "io-0556ef49eb5d7404",
       "event_type": "statistical_release",
-      "frozen_at": "2026-08-17T21:28:33Z",
-      "etag": "W/\"50da5513d3af565d\"",
+      "frozen_at": "2026-08-17T22:35:12Z",
+      "etag": "W/\"e5c855c663f31ec4\"",
       "event_version": 1,
       "status": "ACTIVE",
       "supersedes_io_id": null,
-      "chain_length": 1,
-      "temporal_tuples_count": 2
+      "chain_length": 6,
+      "temporal_tuples_count": 1
     },
-    "io-450561cc1cb44e0f": {
-      "io_id": "io-450561cc1cb44e0f",
+    "io-0873c447e9b9733c": {
+      "io_id": "io-0873c447e9b9733c",
       "event_type": "statistical_release",
-      "frozen_at": "2026-08-17T21:28:33Z",
-      "etag": "W/\"834046f605c8dec7\"",
+      "frozen_at": "2026-08-17T22:35:12Z",
+      "etag": "W/\"3f2621b3ab58bebb\"",
       "event_version": 1,
       "status": "ACTIVE",
       "supersedes_io_id": null,
-      "chain_length": 1,
-      "temporal_tuples_count": 2
+      "chain_length": 11,
+      "temporal_tuples_count": 1
     },
-    "io-45214054f876e8bc": {
-      "io_id": "io-45214054f876e8bc",
+    "io-09189d018d2081b4": {
+      "io_id": "io-09189d018d2081b4",
       "event_type": "statistical_release",
-      "frozen_at": "2026-08-17T21:28:33Z",
-      "etag": "W/\"7321401802b2b2a0\"",
+      "frozen_at": "2026-08-17T22:35:12Z",
+      "etag": "W/\"130ad4ea294d9235\"",
       "event_version": 1,
       "status": "ACTIVE",
       "supersedes_io_id": null,
-      "chain_length": 1,
-      "temporal_tuples_count": 2
+      "chain_length": 10,
+      "temporal_tuples_count": 1
     },
-    "io-602e6c424a2a3101": {
-      "io_id": "io-602e6c424a2a3101",
+    "io-0c647330a91d640c": {
+      "io_id": "io-0c647330a91d640c",
       "event_type": "statistical_release",
-      "frozen_at": "2026-08-17T21:28:33Z",
-      "etag": "W/\"f66e18c76b3408a3\"",
+      "frozen_at": "2026-08-17T22:35:12Z",
+      "etag": "W/\"448ae5935931d605\"",
       "event_version": 1,
       "status": "ACTIVE",
       "supersedes_io_id": null,
-      "chain_length": 1,
-      "temporal_tuples_count": 2
+      "chain_length": 3,
+      "temporal_tuples_count": 1
     },
-    "io-637448267ac7f927": {
-      "io_id": "io-637448267ac7f927",
+    "io-0db41fde8c803040": {
+      "io_id": "io-0db41fde8c803040",
       "event_type": "statistical_release",
-      "frozen_at": "2026-08-17T21:28:33Z",
-      "etag": "W/\"2046fc7049f3e6b1\"",
+      "frozen_at": "2026-08-17T22:35:12Z",
+      "etag": "W/\"3a9748714a298115\"",
       "event_version": 1,
       "status": "ACTIVE",
       "supersedes_io_id": null,
-      "chain_length": 1,
-      "temporal_tuples_count": 2
+      "chain_length": 3,
+      "temporal_tuples_count": 1
     },
-    "io-655c8fbcb07167a0": {
-      "io_id": "io-655c8fbcb07167a0",
+    "io-0eb15c9170ee2b98": {
+      "io_id": "io-0eb15c9170ee2b98",
       "event_type": "statistical_release",
-      "frozen_at": "2026-08-17T21:28:33Z",
-      "etag": "W/\"ad14ee4e086eb84a\"",
+      "frozen_at": "2026-08-17T22:35:12Z",
+      "etag": "W/\"5aa683192370899d\"",
       "event_version": 1,
       "status": "ACTIVE",
       "supersedes_io_id": null,
-      "chain_length": 1,
-      "temporal_tuples_count": 2
+      "chain_length": 39,
+      "temporal_tuples_count": 1
     },
-    "io-696644823aa46d6d": {
-      "io_id": "io-696644823aa46d6d",
+    "io-1e56cf5f0357cb4d": {
+      "io_id": "io-1e56cf5f0357cb4d",
       "event_type": "statistical_release",
-      "frozen_at": "2026-08-17T21:28:33Z",
-      "etag": "W/\"4a51dbff29139666\"",
+      "frozen_at": "2026-08-17T22:35:12Z",
+      "etag": "W/\"05e2ef136ebacc5a\"",
       "event_version": 1,
       "status": "ACTIVE",
       "supersedes_io_id": null,
-      "chain_length": 1,
-      "temporal_tuples_count": 2
+      "chain_length": 3,
+      "temporal_tuples_count": 1
     },
-    "io-6fe29a0197f02c91": {
-      "io_id": "io-6fe29a0197f02c91",
+    "io-1fdd7f96a6e1d7cc": {
+      "io_id": "io-1fdd7f96a6e1d7cc",
       "event_type": "statistical_release",
-      "frozen_at": "2026-08-17T21:28:33Z",
-      "etag": "W/\"9c91242eddbf67d3\"",
+      "frozen_at": "2026-08-17T22:35:12Z",
+      "etag": "W/\"4762de1c5a63919c\"",
       "event_version": 1,
       "status": "ACTIVE",
       "supersedes_io_id": null,
-      "chain_length": 1,
-      "temporal_tuples_count": 2
+      "chain_length": 5,
+      "temporal_tuples_count": 1
     },
-    "io-726a39af39592707": {
-      "io_id": "io-726a39af39592707",
+    "io-25d63db0b736fc25": {
+      "io_id": "io-25d63db0b736fc25",
       "event_type": "statistical_release",
-      "frozen_at": "2026-08-17T21:28:33Z",
-      "etag": "W/\"7d2de5971afa1349\"",
+      "frozen_at": "2026-08-17T22:35:12Z",
+      "etag": "W/\"3bba16fac48926ff\"",
       "event_version": 1,
       "status": "ACTIVE",
       "supersedes_io_id": null,
-      "chain_length": 1,
-      "temporal_tuples_count": 2
+      "chain_length": 19,
+      "temporal_tuples_count": 1
     },
-    "io-736eecdfb57a3f39": {
-      "io_id": "io-736eecdfb57a3f39",
+    "io-2e6037c97b7468b6": {
+      "io_id": "io-2e6037c97b7468b6",
       "event_type": "statistical_release",
-      "frozen_at": "2026-08-17T21:28:33Z",
-      "etag": "W/\"026e6b3c016bd87f\"",
+      "frozen_at": "2026-08-17T22:35:12Z",
+      "etag": "W/\"4be924bd57284bdc\"",
       "event_version": 1,
       "status": "ACTIVE",
       "supersedes_io_id": null,
       "chain_length": 1,
-      "temporal_tuples_count": 2
+      "temporal_tuples_count": 1
     },
-    "io-05608cbebfa67b5f": {
-      "io_id": "io-05608cbebfa67b5f",
+    "io-34acaea89e0d8ab2": {
+      "io_id": "io-34acaea89e0d8ab2",
       "event_type": "monetary_policy_decision",
-      "frozen_at": "2026-08-17T21:28:33Z",
-      "etag": "W/\"8cb56f637dad3626\"",
+      "frozen_at": "2026-08-17T22:35:12Z",
+      "etag": "W/\"2eb73c63db845d24\"",
       "event_version": 1,
       "status": "ACTIVE",
       "supersedes_io_id": null,
       "chain_length": 1,
-      "temporal_tuples_count": 2
+      "temporal_tuples_count": 1
     },
-    "io-3ee2619de0838525": {
-      "io_id": "io-3ee2619de0838525",
+    "io-5f4a24c3e307cc01": {
+      "io_id": "io-5f4a24c3e307cc01",
       "event_type": "monetary_policy_decision",
-      "frozen_at": "2026-08-17T21:28:33Z",
-      "etag": "W/\"42c4d0cae873ecbf\"",
+      "frozen_at": "2026-08-17T22:35:12Z",
+      "etag": "W/\"059ff76d0982b269\"",
       "event_version": 1,
       "status": "ACTIVE",
       "supersedes_io_id": null,
       "chain_length": 1,
-      "temporal_tuples_count": 2
+      "temporal_tuples_count": 1
     },
-    "io-58b160b3d1472719": {
-      "io_id": "io-58b160b3d1472719",
+    "io-68aeb1a370c256a6": {
+      "io_id": "io-68aeb1a370c256a6",
       "event_type": "monetary_policy_decision",
-      "frozen_at": "2026-08-17T21:28:33Z",
-      "etag": "W/\"0a6fde1713f0b21c\"",
+      "frozen_at": "2026-08-17T22:35:12Z",
+      "etag": "W/\"26a28658f5816602\"",
       "event_version": 1,
       "status": "ACTIVE",
       "supersedes_io_id": null,
-      "chain_length": 1,
-      "temporal_tuples_count": 2
+      "chain_length": 2,
+      "temporal_tuples_count": 1
     },
-    "io-71e963f145e95300": {
-      "io_id": "io-71e963f145e95300",
+    "io-915e64c62ecf2c1d": {
+      "io_id": "io-915e64c62ecf2c1d",
       "event_type": "monetary_policy_decision",
-      "frozen_at": "2026-08-17T21:28:33Z",
-      "etag": "W/\"8e4ea7c46a7326b1\"",
+      "frozen_at": "2026-08-17T22:35:12Z",
+      "etag": "W/\"8d2b632277b913c3\"",
       "event_version": 1,
       "status": "ACTIVE",
       "supersedes_io_id": null,
-      "chain_length": 1,
-      "temporal_tuples_count": 2
+      "chain_length": 2,
+      "temporal_tuples_count": 1
     },
-    "io-7653f6258d337d3e": {
-      "io_id": "io-7653f6258d337d3e",
+    "io-f252514d7487e66e": {
+      "io_id": "io-f252514d7487e66e",
       "event_type": "monetary_policy_decision",
-      "frozen_at": "2026-08-17T21:28:33Z",
-      "etag": "W/\"f723de96ead1dc11\"",
+      "frozen_at": "2026-08-17T22:35:12Z",
+      "etag": "W/\"4b620ed21f88af2d\"",
       "event_version": 1,
       "status": "ACTIVE",
       "supersedes_io_id": null,
       "chain_length": 1,
-      "temporal_tuples_count": 2
+      "temporal_tuples_count": 1
     },
-    "io-85babe0e0dad937d": {
-      "io_id": "io-85babe0e0dad937d",
+    "io-3be348eb6518bd7f": {
+      "io_id": "io-3be348eb6518bd7f",
       "event_type": "monetary_policy_decision",
-      "frozen_at": "2026-08-17T21:28:33Z",
-      "etag": "W/\"779615afcc7d3fb7\"",
+      "frozen_at": "2026-08-17T22:35:12Z",
+      "etag": "W/\"bd5dca787d552100\"",
       "event_version": 1,
       "status": "ACTIVE",
       "supersedes_io_id": null,
-      "chain_length": 1,
-      "temporal_tuples_count": 2
+      "chain_length": 8,
+      "temporal_tuples_count": 0
     },
-    "io-9e33e1480cbabfad": {
-      "io_id": "io-9e33e1480cbabfad",
+    "io-5fa6076e9c6539fc": {
+      "io_id": "io-5fa6076e9c6539fc",
       "event_type": "monetary_policy_decision",
-      "frozen_at": "2026-08-17T21:28:33Z",
-      "etag": "W/\"7ca9f2a3c589a417\"",
+      "frozen_at": "2026-08-17T22:35:12Z",
+      "etag": "W/\"76b798e6852ce1f1\"",
       "event_version": 1,
       "status": "ACTIVE",
       "supersedes_io_id": null,
       "chain_length": 1,
-      "temporal_tuples_count": 2
+      "temporal_tuples_count": 0
     },
-    "io-c5cba5d14c9ebd31": {
-      "io_id": "io-c5cba5d14c9ebd31",
+    "io-9e2848265ad5928d": {
+      "io_id": "io-9e2848265ad5928d",
       "event_type": "monetary_policy_decision",
-      "frozen_at": "2026-08-17T21:28:33Z",
-      "etag": "W/\"f4d1d710529e5973\"",
+      "frozen_at": "2026-08-17T22:35:12Z",
+      "etag": "W/\"51559f91eff4cce2\"",
       "event_version": 1,
       "status": "ACTIVE",
       "supersedes_io_id": null,
       "chain_length": 1,
-      "temporal_tuples_count": 2
+      "temporal_tuples_count": 0
     },
-    "io-e0fe1f8db0e91edb": {
-      "io_id": "io-e0fe1f8db0e91edb",
+    "io-bea0b6a376d6f629": {
+      "io_id": "io-bea0b6a376d6f629",
       "event_type": "monetary_policy_decision",
-      "frozen_at": "2026-08-17T21:28:33Z",
-      "etag": "W/\"a61c16fe4a9145cd\"",
+      "frozen_at": "2026-08-17T22:35:12Z",
+      "etag": "W/\"044f5abdf0b5cdcc\"",
       "event_version": 1,
       "status": "ACTIVE",
       "supersedes_io_id": null,
-      "chain_length": 1,
-      "temporal_tuples_count": 2
+      "chain_length": 11,
+      "temporal_tuples_count": 0
     },
-    "io-ea4d537c7cd1e7a0": {
-      "io_id": "io-ea4d537c7cd1e7a0",
+    "io-e57db30de41a9d7e": {
+      "io_id": "io-e57db30de41a9d7e",
       "event_type": "monetary_policy_decision",
-      "frozen_at": "2026-08-17T21:28:33Z",
-      "etag": "W/\"1cd8b89f530c8573\"",
+      "frozen_at": "2026-08-17T22:35:12Z",
+      "etag": "W/\"50878819342b98b9\"",
       "event_version": 1,
       "status": "ACTIVE",
       "supersedes_io_id": null,
-      "chain_length": 1,
-      "temporal_tuples_count": 2
+      "chain_length": 5,
+      "temporal_tuples_count": 0
     }
   }
 }

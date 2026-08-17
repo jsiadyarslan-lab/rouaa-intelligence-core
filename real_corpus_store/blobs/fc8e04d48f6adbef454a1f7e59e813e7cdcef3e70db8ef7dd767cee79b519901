@@ -1,0 +1,1019 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb# article: http://ogp.me/ns/article#">
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1.0">
+<meta name="copyright" content="(C) Japan Exchange Group, Inc.">
+
+<meta name="description" content="マーケットニュースのページ。東京証券取引所、大阪取引所、東京商品取引所等を運営する日本取引所グループ（JPX）のサイトです。">
+  
+<meta property="og:title" content="マーケットニュース | 日本取引所グループ">
+  
+<meta property="og:type" content="article">
+
+<meta property="og:description" content="マーケットニュースのページ。東京証券取引所、大阪取引所、東京商品取引所等を運営する日本取引所グループ（JPX）のサイトです。">
+  
+<meta property="og:image" content="https://www.jpx.co.jp/common/images/other/nlsgeu000000pud7-img/ogp.png">
+  
+<meta property="og:site_name" content="日本取引所グループ">
+<meta property="og:url" content="https://www.jpx.co.jp/news/index.html">
+<meta property="og:locale" content="ja_JP">
+<meta property="fb:app_id" content="175272119257459">
+<meta property="twitter:card" content="summary_large_image">
+<meta property="twitter:site" content="@JPX_official">
+<link href="/_assets/img/icon/favicon.ico" rel="shortcut icon" type="image/x-icon">
+
+<title>マーケットニュース | 日本取引所グループ</title>
+  
+
+<script type="text/javascript" src="/_assets/js/jquery.min.js"></script>
+<link href="/_assets/css/reset.css" rel="stylesheet" type="text/css">
+<link href="/_assets/css/layout.css" rel="stylesheet" type="text/css" media="all">
+<link href="/_assets/css/parts.css" rel="stylesheet" type="text/css">
+<link href="/_assets/css/print.css" rel="stylesheet" type="text/css" media="print">
+<link href="/_assets/css/style_add.css" rel="stylesheet" type="text/css">
+<link href="/_assets/css/probo.css" rel="stylesheet" type="text/css">
+<link href="/_assets/css/probo_add.css" rel="stylesheet" type="text/css">
+
+<link href="/_assets/css/list_add.css" rel="stylesheet" type="text/css">
+<link href="/_assets/css2/lity.css" rel="stylesheet" type="text/css">
+
+      <link href="/_assets/css/prettyPhoto-parts.css" rel="stylesheet" type="text/css">
+    
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100;300;400;500;700;900&amp;display=swap" rel="stylesheet">
+  <script type="text/javascript" src="/news/news.js"></script>
+<script>
+
+var qs=getUrlVars();
+
+var s_category = "";
+var s_year     = "";
+var s_month    = "";
+var s_day      = "";
+var s_number   = 20;
+var cnt        = 0;
+var index      = 1;
+
+var category_list = [];
+
+
+$(function() {
+
+  // 絞り込みをクリア
+  $("#clear-btn").click(function(){
+    $(".JPX-sidecontents-search-wrapper select").val("");
+  });
+  
+  $("#submit-btn").click(function(){
+    
+    s_category = $("select[name='category']").val();
+    s_year     = $("select[name='year']").val();
+    s_month    = $("select[name='month']").val();
+    s_day      = $("select[name='day']").val();
+    
+    location.href = '/news/index.html?category='+s_category+'&year='+s_year+'&month='+s_month+'&day='+s_day+'&number='+s_number;
+    return false;
+  });
+
+    
+  $(".pages select.number").change(function(){
+    s_category = $("select[name='category']").val();
+    s_year     = $("select[name='year']").val();
+    s_month    = $("select[name='month']").val();
+    s_day      = $("select[name='day']").val();
+    s_number   = $(this).val();
+
+    location.href = '/news/index.html?category='+s_category+'&year='+s_year+'&month='+s_month+'&day='+s_day+'&number='+s_number;
+    return false;
+  });
+
+
+  $(document).ready(function(){
+    
+    var ret_category_list=getCategoryList('マーケットニュース');
+    for(var key in ret_category_list)
+    {
+      category_list[key]=ret_category_list[key];
+    }
+    
+    var category_html='';
+    for (var i in category_list)
+    {
+      category_html += '<option value="'+i+'">'+category_list[i]+'</option>';
+    }
+    $('#category').append(category_html);
+    
+    if( ("category" in qs) ){
+      s_category=qs["category"];
+    }
+    if( ("year" in qs) ){
+      s_year=qs["year"];
+    }
+    if( ("month" in qs) ){
+      s_month=qs["month"];
+    }
+    if( ("day" in qs) ){
+      s_day=qs["day"];
+    }
+    if( ("number" in qs) ){
+      s_number=qs["number"];
+    }
+    if( ("index" in qs) ){
+      index=parseInt(qs["index"],10);
+    }
+    
+    cnt = 0;
+    
+    
+    var disp_length=jsonLoad();
+    
+    
+    
+
+    var search_type='';
+    var all_category='';
+    if(s_category.match(/^ca[0-9]*$/) != null) { search_type='category'; }
+    else if(s_category.match(/^co[0-9]*$/) != null) { search_type='corporation'; }
+    else if(s_category.match(/^ir[0-9]*$/) != null) { search_type='ir_category'; }
+    else if(s_category.match(/^ki[0-9]*$/) != null) { search_type='kind'; }
+    else
+    {
+      
+      search_type='kind';
+      all_category='マーケットニュース';
+      
+      
+      s_category='';
+    }
+    
+    var page_kind='business';
+    
+    
+    var news_search_length=getNewsSearchLength(page_kind, search_type, ( all_category!='' ? all_category : category_list[s_category] ),s_year,s_month,s_day);
+    if(all_category=='マーケットニュース')
+    {
+      news_search_length+=getNewsSearchLength(page_kind, search_type, 'JPXからのお知らせ',s_year,s_month,s_day);
+    }
+    
+    if(disp_length>0)
+    {
+      var count_text= ((index-1)*s_number+1)+'～'+((((index-1)*s_number+1)+disp_length)-1)+'件を表示 / '+news_search_length+'件中';
+      $('#news-count-text').append(count_text);
+    }
+    else
+    {
+      var count_text= (0)+'～'+(0)+'件を表示 / '+news_search_length+'件中';
+      $('#news-count-text').append(count_text);
+    }
+    
+    var condition_text='';
+    condition_text += 'カテゴリー / 表示期間： ';
+    condition_text += s_category=='' ? '<span>全て</span> / '     : '<span>'+category_list[s_category]+'</span> / ';
+    condition_text += (s_year==''    ? '****' : s_year ) + '年' ;
+    condition_text += (s_month==''   ? '**'   : s_month) + '月' ;
+    condition_text += (s_day==''     ? '**'   : s_day  ) + '日' ;
+    $('#news-count-select').append(condition_text);
+    
+    
+    
+    var navi='';
+    if(news_search_length==0){
+      navi+='<li class="news-prev-none"></li>';
+    }else if(index>1){
+      var prev_index=parseInt(index,10)-1;
+      navi+='<li><a class="JPX-btn-prev" href="?category='+s_category+'&year='+s_year+'&month='+s_month+'&day='+s_day+'&number='+s_number+'&index='+prev_index+'">prevArrow</a></li>';
+    }else{
+      navi+='<li><a class="JPX-btn-prev -is-active" href="#">prevArrow</a></li>';
+    }
+    
+    var start_index = index<=5 ? 1 : index-5 ;
+    var end_index=start_index+9;
+    
+    final_index=Math.ceil(news_search_length/s_number);
+    if( end_index > final_index )
+    {
+      end_index=final_index;
+      start_index=end_index-9;
+      if(start_index<=0)
+      {
+        start_index=1;
+      }
+    }
+    
+    for(var i=start_index;i<=end_index;i++)
+    {
+      if(index==i)
+      {
+        navi+='<li><span>'+i+'</span></li>';
+      }
+      else
+      {
+        navi+='<li><a href="?category='+s_category+'&year='+s_year+'&month='+s_month+'&day='+s_day+'&number='+s_number+'&index='+i+'">'+i+'</a></li>';
+      }
+    }
+    
+    
+    if(news_search_length==0){
+      navi+='<li class="news-next-none" id="news-next1"></li>';
+    }else if( index*s_number < news_search_length ){
+      var next_index=parseInt(index,10)+1;
+      navi+='<li><a class="JPX-btn-next" href="?category='+s_category+'&year='+s_year+'&month='+s_month+'&day='+s_day+'&number='+s_number+'&index='+next_index+'">nextArrow</a></li>';
+    }else{
+      navi+='<li><a class="JPX-btn-next -is-active" href="#">nextArrow</a></li>';
+    }
+    
+    $("#news-paging").children("ul").append(navi);
+    $("#news-paging-solo").children("ul").append(navi);
+    
+    
+    $("select[name='category']").val(s_category);
+    $("select[name='year']").val(s_year);
+    $("select[name='month']").val(s_month);
+    $("select[name='day']").val(s_day);
+    $("select[name='results']").val(s_number);
+  });
+});
+
+function jsonLoad()
+{
+  
+  var category_search_word    = s_category.match(/^ca[0-9]*$/) == null ? '' : category_list[s_category] ;
+  var corporation_search_word = s_category.match(/^co[0-9]*$/) == null ? '' : category_list[s_category] ;
+  var ir_category_search_word = s_category.match(/^ir[0-9]*$/) == null ? '' : category_list[s_category] ;
+  var kind_search_word        = s_category.match(/^ki[0-9]*$/) == null ? '' : category_list[s_category] ;
+  
+  kind_search_word='マーケットニュース';
+  
+  var news_info=[];
+  news_info=getNewsInfo(s_number*(index-1)+1, s_number, kind_search_word, category_search_word, corporation_search_word, ir_category_search_word, s_year, s_month, s_day);
+  //console.log('call getNewsInfo=['+(s_number*(index-1)+1)+','+s_number+','+kind_search_word+','+category_search_word+','+corporation_search_word+','+ir_category_search_word+','+s_year+','+s_month+','+s_day+']');
+  
+  if(news_info.length>0)
+  {
+    var disp_html='';
+    
+    
+        disp_html=getNewsTagList_renewal(news_info, true, false, -1, true, false);
+      
+    
+    $("div.JPX-news-list").children("ul").append(disp_html);
+  }
+  else
+  {
+    $("div.JPX-news-list").append('<div><p class="component-text">現在、該当する情報はありません。</p></div>');
+  }
+  
+  return news_info.length;
+}
+
+
+
+function getUrlVars()
+{
+  var vars = [], hash;
+  var hashes = window.location.href.slice(window.location.href.indexOf('?') + 1).split('&');
+  for(var i = 0; i < hashes.length; i++) {
+    hash = hashes[i].split('=');
+    vars.push(hash[0]);
+    vars[hash[0]] = hash[1];
+  }
+  return vars;
+}
+
+</script>
+</head>
+<body class="">
+  
+  <!-- body_prepend -->
+  <!-- Google Tag Manager -->
+  <link rel="stylesheet" type="text/css" href="/_assets/css/cookieconsent_customize.css">
+  <script src="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.1.0/cookieconsent.min.js"></script>
+  <script src="/_assets/js2/cookie-accept.js"></script>
+  <noscript>
+  <iframe src="//www.googletagmanager.com/ns.html?id=GTM-MS2WRF" height="0" width="0" style="display:none;visibility:hidden"></iframe>
+  </noscript>
+  <script>
+function startGtm() {
+(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+  '//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+  })(window,document,'script','dataLayer','GTM-MS2WRF');
+}
+</script> 
+  <!-- End Google Tag Manager -->
+
+  <!-- wrapper-area -->
+  <div id="wrapper-area">
+
+    <!-- ヘッダー出力 -->
+<header class="JPX-header">
+  <div class="JPX-header-label">
+    <div class="JPX-header-label-main">
+      <ul>
+        <li>東京証券取引所</li>
+        <li>大阪取引所</li>
+        <li>東京商品取引所</li>
+        <li>JPX総研</li>
+        <li>日本取引所自主規制法人</li>
+        <li><a href="https://www.jpx.co.jp/jscc/" rel="external">日本証券クリアリング機構</a></li>
+      </ul>
+    </div>
+    <div class="JPX-header-label-link">
+      <a href="/corporate/index.html">JPX企業情報</a>
+    </div>
+  </div>
+  
+  <div class="JPX-header-main-wrapper">
+    <div class="JPX-header-main">
+      <div class="JPX-header-mainInner">
+        <div class="JPX-header-logo">
+          <a href="/">
+            <picture>
+              <source srcset="/_assets/img/image/logo_pc.svg" media="(min-width: 1025px)">
+              <img src="/_assets/img/image/logo_sp.svg" alt="JPX 日本取引所グループ">
+            </picture>
+          </a>
+        </div>
+        <div class="JPX-header-btn">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+      </div>
+
+      <div class="JPX-header-menu">
+
+        <!-- 検索窓 -->
+        <div class="JPX-header-menu-search">
+          <div class="JPX-header-menu-searchInner">
+            <form action="/search.html">
+              <input type="text" id="q2" class="search-input" name="q" value="" placeholder="サイト内検索" />
+              <div class="search-input-btn">
+                <input type="image" src="/_assets/img/svg/icn-search.svg" name="" value="" />
+              </div>
+            </form>
+          </div>
+        </div>
+        <!-- /検索窓 -->
+
+        <!-- PCメニュー全ページ共通（PC） -->
+        
+<a id="global_menu_pc_following_logo_hidden" style="display:none;" href="/index.html"></a>
+<script>
+  $(function (global_menu_third_map_link) {
+    $.ajax({
+      url: "/i15r6c0000003p10.html",
+      type: "GET",
+      dataType: "html",
+      async: false,
+      timeout: 1000,
+      error: function () {
+        $("#global_menu_pc_third_map").html('情報を取得できませんでした。');
+        $("#global_menu_sp_third_map").html('情報を取得できませんでした。');
+      },
+      success: function (html) {
+        let jq = $($.parseHTML(html));
+        let pc = jq.filter("#global_menu_pc_third_map_links").first().html();
+        $("#global_menu_pc_third_map").html(pc);
+        let sp = jq.filter("#global_menu_sp_third_map_links").first().html();
+        $("#global_menu_sp_third_map").prepend($(sp));
+
+        $("#global_menu_pc_following_logo").prop("href", $("#global_menu_pc_following_logo_hidden").prop("href"));
+      }
+    });
+  });
+</script>
+
+<div class="JPX-header-pc-global" id="global_menu_pc_third_map">
+  <nav class="JPX-header-pc-global-menu">
+  <ul>
+    <li class="-is-jpx-link">
+      <a href="#" id="global_menu_pc_following_logo">
+        <picture>
+          <img src="/_assets/img/image/logo_pc_menu.svg" alt="JPX 日本取引所グループ" />
+        </picture>
+      </a>
+    </li>
+    
+      <li data-target-item="pc-menu-0-0">
+        <a href="/news/index.html"><span>ニュース</span></a>
+      </li>
+    
+      
+      <li data-target-item="pc-menu-1-0">
+        <a href="/markets/index.html"><span>マーケット情報</span></a>
+      </li>
+    
+      
+      <li data-target-item="pc-menu-2-0">
+        <a href="/listing/index.html"><span>上場会社情報</span></a>
+      </li>
+    
+      
+      <li data-target-item="pc-menu-3-0">
+        <a href="/equities/index.html"><span>株式・ETF・REIT等</span></a>
+      </li>
+    
+      
+      <li data-target-item="pc-menu-4-0">
+        <a href="/derivatives/index.html"><span>先物・オプション</span></a>
+      </li>
+    
+      
+      <li data-target-item="pc-menu-5-0">
+        <a href="/rules-participants/index.html"><span>規則・取引参加者</span></a>
+      </li>
+    
+      
+      <li data-target-item="pc-menu-6-0">
+        <a href="/systems/index.html"><span>システム</span></a>
+      </li>
+    
+      
+      <li data-target-item="pc-menu-7-0">
+        <a href="/regulation/index.html"><span>自主規制</span></a>
+      </li>
+    
+      
+  </ul>
+</nav>
+  <div class="JPX-header-pc-global-data">
+  </div>
+  <div class="JPX-header-pc-global-shadow"></div>
+</div>
+<!-- /PCメニュー全ページ共通（PC） -->
+
+<!-- SPメニュー -->
+<div class="JPX-header-sp-global">
+  <!-- SP MENU -->
+  <nav class="JPX-header-sp-global-menu">
+    
+      <!-- SP MENUボタン -->
+      <div class="JPX-header-sp-global-ItemBtn">MENU</div>
+      <!-- /SP MENUボタン -->
+    
+    <div class="JPX-header-sp-global-ItemWrap" id="global_menu_sp_third_map">
+      
+<!-- 対象者別 -->
+<div class="JPX-header-menu-target">
+  <ul>
+    
+      <li class="-individual"><a href="/individuals/index.html"><span>個人の方</span></a></li>
+    
+      <li class="-listed"><a href="/listed-companies/index.html"><span>上場会社の方</span></a></li>
+    
+      <li class="-pre"><a href="/pre-listed-companies/index.html"><span>上場検討中の方</span></a></li>
+    
+      <li class="-participants"><a href="/participants/index.html"><span>取引参加者の方</span></a></li>
+    
+      <li class="-nstitutional"><a href="/institutional/index.html"><span>機関投資家の方</span></a></li>
+    
+      <li class="-media"><a href="/media/index.html"><span>報道機関の方</span></a></li>
+    
+  </ul>
+</div>
+<!-- /対象者別 -->
+      
+    </div>
+  </nav>
+  <!-- /SP MENU -->
+  
+  <!-- （SP 第5-6階層） -->
+  
+      <div class="JPX-header-sp-global-links">
+        <div class="JPX-header-sp-global-linksTitle ">
+          <a href="/news/index.html">ニュース</a>
+        </div>
+        
+      <div class="JPX-header-sp-global-linksSubTitle -is-active">
+        <a href="/news/index.html">マーケットニュース</a>
+      </div>
+      
+      <div class="JPX-header-sp-global-linksSubTitle ">
+        <a href="/news/news-guide/index.html">ニュースガイド</a>
+      </div>
+      
+      <div class="JPX-header-sp-global-linksSubTitle ">
+        <a href="/news/related-sites/index.html">JPX提供サイト一覧</a>
+      </div>
+      
+        
+      </div>
+    
+  <!-- /（SP 第5-6階層） -->
+
+</div>
+        <!-- /SPメニュー -->
+
+        <!-- その他 -->
+        <div class="JPX-header-menu-other">
+<ul>
+
+<li><a href="/contact/index.html" ><span>お問合せ</span></a></li>
+
+<li><a href="/corporate/learning/education/index.html" ><span>金融経済教育</span></a></li>
+
+<li><a href="/corporate/sustainability/index.html" ><span>サステナビリティ</span></a></li>
+
+</ul>
+</div>
+        <!-- /その他 -->
+
+        <!-- SNS -->
+        <div class="JPX-header-menu-sns">
+          <ul>
+            <li><a href="https://x.com/JPX_official" rel="external"><img src="/_assets/img/svg/icn-sns-tw.svg" alt="X"></a></li>
+            <li><a href="https://www.facebook.com/JapanExchangeGroup" rel="external"><img src="/_assets/img/svg/icn-sns-fb.svg" alt="facebook"></a></li>
+            <li><a href="https://www.instagram.com/jpx_official/" rel="external"><img src="/_assets/img/svg/icn-sns-ig.svg" alt="instagram"></a></li>
+            <li><a href="https://www.youtube.com/channel/UCnZA74T8a8dEbavWRq8F2nA" rel="external"><img src="/_assets/img/svg/icn-sns-yt.svg" alt="youtube"></a></li>
+          </ul>
+        </div>
+        <!-- /SNS -->
+
+        
+  <!-- 言語 -->
+  <div class="JPX-header-menu-language">
+    <ul>
+      
+          <li><a href="/english/news/index.html" title=""><span>English</span></a></li>
+        <li><a href="/corporate/index.html"><span>JPX企業情報</span></a></li>
+    </ul>
+  </div>
+  <!-- /言語 -->
+
+      </div>
+    </div>
+  </div>
+
+</header>
+
+  <div class="bread-crumb-box">
+    <div class="bread-crumb">
+      <div class="bread-crumb-data">
+        <ol>
+          
+              <li><a href="/index.html">トップページ</a></li>
+            
+              <li><a href="/news/index.html">ニュース</a></li>
+            
+              <li><a href="/news/index.html">マーケットニュース</a></li>
+            
+        </ol>
+      </div>
+      <div class="JPX-site-update">
+        
+      </div>
+    </div>
+  </div>
+
+    
+
+<!-- /ヘッダー出力 -->
+
+<noscript>
+<section class="JPX-section -is-attention">
+<div class="JPX-section-inner">
+<div class="JPX-noscript-wrapper">
+<div class="JPX-noscript">
+<div class="JPX-noscript-title">Javaスクリプトの設定を有効にしてください。</div>
+<div class="JPX-noscript-text">当サイトを正しく表示及び操作するにはJavaスクリプトの設定を有効にしていただく必要があります。Javaスクリプトを有効にする方法は、お使いのブラウザのヘルプを参照してください。</div>
+</div>
+</div>
+</div>
+</section>
+</noscript>
+      
+
+    <!-- main-area -->
+    <div id="main-area" class="-is-fix">
+      <div>
+        <!-- メインタイトル(新規追加) -->
+        <div class="headline-title-wrap"><h1 class="headline-title"><span>マーケットニュース</span></h1></div>
+        <!-- /メインタイトル -->
+      </div>
+      <!-- main-areaIn -->
+      <div id="main-areaIn" class="-is-sidecontents">
+        <!-- readArea -->
+<div id="readArea">
+  <!-- コンテンツエリア -->
+
+  
+
+  
+
+  <div class="JPX-sort-wrapper">
+    <div>
+      <div class="JPX-sort-text" id="news-count-text"></div>
+      <div class="JPX-sort-text" id="news-count-select"></div>
+    </div>
+    <div>
+      <div class="pages">
+        表示件数
+        <select name="results" class="number">
+  <option value="20">20</option>
+  <option value="40">40</option>
+  <option value="60">60</option>
+  <option value="80">80</option>
+  <option value="100">100</option>
+        </select> 件
+      </div>
+    </div>
+  </div>
+
+  <div class="JPX-news-paging" id="news-paging">
+    <ul>
+      
+    </ul>
+  </div>
+
+  <div class="JPX-news-list">
+    <ul>
+      
+    </ul>
+  </div>
+
+  <div class="JPX-news-paging" id="news-paging-solo">
+    <ul>
+      
+    </ul>
+  </div>
+
+  <div class="JPX-contents-wrapper">
+    
+        <a href="/news/static-archives-00.html" class="link-window">Javascriptが無効にされているなどの理由によりうまく表示できない方はこちら</a>
+      
+  </div>
+
+  
+    
+  <!-- /コンテンツエリア -->
+</div>
+<!-- /readArea -->
+        <!-- サイドメニュー出力 -->
+<div class="JPX-sidecontents -is-all">
+  <div class="JPX-sidecontents-box">
+    <div class="JPX-sidecontents-title"><span>絞り込み検索</span></div>
+    <div class="JPX-sidecontents-search-wrapper">
+      <div class="JPX-sidecontents-search-data">
+        <div class="JPX-sidecontents-search-title">カテゴリー</div>
+        <div class="JPX-search-select">
+          <select size="1" name="category" id="category">
+            <option value="">全て</option>
+          </select>
+        </div>
+        <div class="JPX-sidecontents-search-title">表示期間</div>
+        <div class="JPX-date-box">
+          <div class="JPX-date-select">
+            <div class="JPX-date-select-sub -is-year-select">
+              <select size="1" name="year" id="year">
+                <option value="">YYYY</option>
+                
+                  <option value="2026">2026</option>
+                
+                  <option value="2025">2025</option>
+                
+                  <option value="2024">2024</option>
+                
+                  <option value="2023">2023</option>
+                
+              </select>
+            </div>
+            <div class="JPX-date-select-sub -is-month-select">
+              <select size="1" name="month" id="month">
+                <option value="">MM</option>
+                
+                  <option value="1">1</option>
+                
+                  <option value="2">2</option>
+                
+                  <option value="3">3</option>
+                
+                  <option value="4">4</option>
+                
+                  <option value="5">5</option>
+                
+                  <option value="6">6</option>
+                
+                  <option value="7">7</option>
+                
+                  <option value="8">8</option>
+                
+                  <option value="9">9</option>
+                
+                  <option value="10">10</option>
+                
+                  <option value="11">11</option>
+                
+                  <option value="12">12</option>
+                
+              </select>
+            </div>
+            <div class="JPX-date-select-sub -is-day-select">
+              <select size="1" name="day" id="day">
+                <option value="">DD</option>
+                
+                  <option value="1">1</option>
+                
+                  <option value="2">2</option>
+                
+                  <option value="3">3</option>
+                
+                  <option value="4">4</option>
+                
+                  <option value="5">5</option>
+                
+                  <option value="6">6</option>
+                
+                  <option value="7">7</option>
+                
+                  <option value="8">8</option>
+                
+                  <option value="9">9</option>
+                
+                  <option value="10">10</option>
+                
+                  <option value="11">11</option>
+                
+                  <option value="12">12</option>
+                
+                  <option value="13">13</option>
+                
+                  <option value="14">14</option>
+                
+                  <option value="15">15</option>
+                
+                  <option value="16">16</option>
+                
+                  <option value="17">17</option>
+                
+                  <option value="18">18</option>
+                
+                  <option value="19">19</option>
+                
+                  <option value="20">20</option>
+                
+                  <option value="21">21</option>
+                
+                  <option value="22">22</option>
+                
+                  <option value="23">23</option>
+                
+                  <option value="24">24</option>
+                
+                  <option value="25">25</option>
+                
+                  <option value="26">26</option>
+                
+                  <option value="27">27</option>
+                
+                  <option value="28">28</option>
+                
+                  <option value="29">29</option>
+                
+                  <option value="30">30</option>
+                
+                  <option value="31">31</option>
+                
+              </select>
+            </div>
+          </div>
+          <div class="JPX-date-btn">
+            <div><button class="-is-clear" id="clear-btn">絞り込みをクリア</button></div>
+            <div><button class="-is-search" id="submit-btn">検索</button></div>
+          </div>
+        </div>
+
+        
+        <div class="JPX-keyword-box">
+          <div class="JPX-keyword-title">タイトルや本文をキーワードで検索できます。</div>
+          <div class="JPX-keyword-input">
+            <div class="JPX-search">
+              <input type="hidden" name="method" id="listed-company-search-method" />
+              <form method="get" name="side-search-01" id="side-search-01" action="/news/search.html" autocomplete="off">
+                <fieldset id="side-search-02">
+                  <div class="side-search-wrap01">
+                    <div class="side-search-wrap02">
+                      <div class="side-search-wrap03">
+                        <input type="text" placeholder="キーワードを入力してください" value="" name="q" class="side-search-input" />
+                      </div>
+                      <div class="side-search-input-btn">
+                        <input type="image" src="/_assets/img/svg/icn-search.svg" alt="検索" />
+                      </div>
+                    </div>
+                  </div>
+                </fieldset>
+              </form>
+            </div>
+          </div>
+          
+            <div class="JPX-keyword-list">
+              <div class="JPX-keyword-tag">
+                
+                  <div class="JPX-keyword"><a href="/news/search.html?q=%E7%9B%A3%E7%90%86%E9%8A%98%E6%9F%84">#監理銘柄</a></div>
+                
+                  <div class="JPX-keyword"><a href="/news/search.html?q=%E5%88%B6%E9%99%90%E5%80%A4%E5%B9%85%E3%81%AE%E6%8B%A1%E5%A4%A7">#制限値幅の拡大</a></div>
+                
+                  <div class="JPX-keyword"><a href="/news/search.html?q=%E8%B3%87%E6%9C%AC%E3%82%B3%E3%82%B9%E3%83%88">#資本コスト</a></div>
+                
+              </div>
+            </div>
+          
+        </div>
+      </div>
+    </div>
+    <div class="JPX-sidecontents-title -is-multiple"><span>その他お知らせ</span></div>
+    <div class="JPX-sidecontents-linklist">
+      
+          <div class="JPX-sidecontents-linklistItem"><a href="/corporate/news/news-releases/index.html">JPXからのお知らせ</a></div>
+        
+          <div class="JPX-sidecontents-linklistItem"><a href="/site-updates/index.html">サイト更新情報</a></div>
+        
+    </div>
+  </div>
+</div>
+<!-- /サイドメニュー出力 -->
+      </div>
+      <!-- /main-areaIn -->
+
+      <!-- フッター出力 -->
+<!-- ページトップ -->
+<div class="JPX-PageTop"><a href="#"><span>PageTop</span></a></div>
+<!-- /ページトップ -->
+<footer class="JPX-footer">
+  <div class="JPX-footer-wrapper">
+    <!-- ↓ PCのみ表示 ↓ -->
+    <div class="JPX-footer-sitemap-background">
+      <div class="JPX-footer-sitemap">
+        
+          <script>
+            $(function(){
+              $.ajax({
+                url:"/tvdivq000000zpw5.xml",
+                type:"GET",
+                dataType:"xml",
+                async:false,
+                timeout:1000,
+                error:function() {
+                  $("#therd_map").html('情報を取得できませんでした。');
+                },
+                success:function(xml){
+                  let html = '';
+                  $(xml).children("menu_list").children("menu").each(function() {
+                    html += '<div class="JPX-footer-sitemap-data">';
+                    
+                    html += '<div class="JPX-footer-sitemap-title"><a href="'
+                        +$(this).find('second_url').text()
+                        +'">'
+                        +$(this).find('second_name').text()
+                        +'</a></div>';
+                    
+                    html += '<ul class="JPX-footer-sitemap-list">';
+                    $(this).children("menu_list").children("menu").each(function() {
+                      html += '<li><a href="'
+                        +$(this).find('third_url').text()
+                        +'">'
+                        +$(this).find('third_name').text()
+                        +'</a></li>';
+                    });
+                    html += '</ul>';
+                    html += '</div>';
+                  });
+
+                  $("#therd_map").append(html);
+                }
+              });
+            });
+          </script>
+          <div class="JPX-footer-sitemap-box" id="therd_map">
+          </div>
+        
+<div class="JPX-footer-purpose-box">
+  
+    <div class="JPX-footer-purpose -individual"><a href="/individuals/index.html"><span>個人の方</span></a></div>
+  
+    <div class="JPX-footer-purpose -company"><a href="/listed-companies/index.html"><span>上場会社の方</span></a></div>
+  
+    <div class="JPX-footer-purpose -consider"><a href="/pre-listed-companies/index.html"><span>上場検討中の方</span></a></div>
+  
+    <div class="JPX-footer-purpose -participant"><a href="/participants/index.html"><span>取引参加者の方</span></a></div>
+  
+    <div class="JPX-footer-purpose -investor"><a href="/institutional/index.html"><span>機関投資家の方</span></a></div>
+  
+    <div class="JPX-footer-purpose -media"><a href="/media/index.html"><span>報道機関の方</span></a></div>
+  
+</div>
+<!-- /対象者別 -->
+        
+      </div>
+      <!-- ↑ PCのみ表示 ↑ -->
+      
+      <div class="JPX-footer-sub">
+        <ul class="JPX-footer-sublink">
+
+  <li><a href="/calendar/index.html" ><span>JPXカレンダー</span></a></li>
+
+  <li><a href="/corporate/about-jpx/access/index.html" ><span>アクセス</span></a></li>
+
+  <li><a href="/glossary/index.html" ><span>用語集</span></a></li>
+
+  <li><a href="/corporate/learning/tour/index.html" ><span>見学</span></a></li>
+
+  <li><a href="/corporate/about-jpx/recruit/index.html" ><span>採用情報</span></a></li>
+
+  <li><a href="/corporate/investor-relations/shareholders/announcement/index.html" ><span>法定公告</span></a></li>
+
+</ul>
+        <ul class="JPX-footer-sns-icon">
+          <li><a href="https://x.com/JPX_official" rel="external"><img src="/_assets/img/svg/icn-sns-tw.svg" alt="X"></a></li>
+          <li><a href="https://www.facebook.com/JapanExchangeGroup" rel="external"><img src="/_assets/img/svg/icn-sns-fb.svg" alt="facebook"></a></li>
+          <li><a href="https://www.instagram.com/jpx_official/" rel="external"><img src="/_assets/img/svg/icn-sns-ig.svg" alt="instagram"></a></li>
+          <li><a href="https://www.youtube.com/channel/UCnZA74T8a8dEbavWRq8F2nA" rel="external"><img src="/_assets/img/svg/icn-sns-yt.svg" alt="youtube"></a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="JPX-footer-main">
+
+      <div class="JPX-footer-link-box">
+  <ul class="JPX-footer-link">
+
+  <li><a href="/faq/index.html" ><span>よくあるご質問</span></a></li>
+
+  <li><a href="/sitemap/index.html" ><span>サイトマップ</span></a></li>
+
+  <li><a href="/term-of-use/index.html" ><span>サイトのご利用上の注意と免責事項</span></a></li>
+
+  <li><a href="/corporate/governance/security/personal-information/index.html" ><span>個人情報の取扱い</span></a></li>
+
+  </ul>
+</div>
+
+      <div class="JPX-footer-logo">
+        <div class="JPX-footer-logo-img">
+          <a href="/">
+            <img src="/_assets/img/image/logo_full.png" alt="JPXロゴ">
+          </a>
+        </div>
+        <div class="JPX-footer-copylight">&copy; Japan Exchange Group, Inc.</div>
+      </div>
+    </div>
+  </div>
+</footer>
+<!-- /フッター出力 -->
+        
+
+    </div>
+    <!-- /main-area -->
+  </div>
+  <!-- /wrapper-area -->
+
+  <!-- Bodyタグ末尾の共通処理 -->
+  <!-- Facebook Pixel Code -->
+  <script>
+    !function(f,b,e,v,n,t,s)
+    {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+    n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+    if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+    n.queue=[];t=b.createElement(e);t.async=!0;
+    t.src=v;s=b.getElementsByTagName(e)[0];
+    s.parentNode.insertBefore(t,s)}(window, document,'script',
+    'https://connect.facebook.net/en_US/fbevents.js');
+    fbq('init', '191019531472708');
+    fbq('track', 'PageView');
+  </script>
+  <noscript>
+  <img height="1" width="1" style="display:none" src="https://www.facebook.com/tr?id=191019531472708&amp;ev=PageView&amp;noscript=1" />
+  </noscript>
+
+  <script type="text/javascript" src="/_assets/js/slick.min.js"></script>
+  <script type="text/javascript" src="/_assets/js/jquery.matchHeight.js"></script>
+  <script type="text/javascript" src="/_assets/js/script.js"></script>
+  <script type="text/javascript" src="/_assets/js/common.js"></script>
+  <script type="text/javascript" src="/_assets/js/heightLine.js"></script>
+<!--  <script type="text/javascript" src="/_assets/js/fixed_midashi.js"></script> -->
+  <script type="text/javascript" src="/_assets/js/fix-table-header.js"></script>
+  
+  <script type="text/javascript" src="/_assets/js2/lity.js"></script>
+  <script type="text/javascript" src="/_assets/js/link.js"></script>
+  <script type="text/javascript" src="/_assets/js/jquery.prettyPhoto.js"></script>
+  <script type="text/javascript" src="/_assets/js2/jquery.mousewheel.js"></script>
+  <script type="text/javascript" src="/_assets/js2/jquery.jscrollpane.min.js"></script>
+  <script type="text/javascript" src="/_assets/js2/jquery.easing.1.3.js"></script>
+  <script type="text/javascript" src="/_assets/js2/jquery.aslider.min.js"></script>
+  <script type="text/javascript" src="/_assets/js2/jquery.bxslider.min.js"></script>
+  <script type="text/javascript" src="/_assets/js2/iframe.js"></script>
+  <script type="text/javascript" src="/_assets/js2/add-action.js"></script>
+  <script type="text/javascript" src="/_assets/js2/add_attribute_gid.js"></script>
+  <script src="/_assets/js2/popterm3.js" type="text/javascript"></script>
+  
+  <script><!--
+  var p1 = new popTerm({'id': 'popterm2',  'targetid': 'q2', 'url': '//jpx2.sitesearch.jp/popterm-jp/popterm.pl' ,'css': '/_assets/css2/popterm3.css', 'trid':'0'});
+  --></script>
+  <!-- End Facebook Pixel Code -->
+  <!-- /Bodyタグ末尾の共通処理 -->
+
+</body>
+</html>

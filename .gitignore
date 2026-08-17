@@ -28,3 +28,7 @@ scale_validation_store/blobs/
 /transport_load_results.json
 /corpus_expansion_results.json
 /golden_corpus_frozen.json
+
+# V1-Real — ignore transient test artifacts (kept locally for verification)
+/real_corpus_parallel_results.json
+/real_corpus_expansion_results.json
