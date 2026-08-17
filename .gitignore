@@ -1,0 +1,16 @@
+# Production transport test artifacts — not committed
+production_store/
+production_store_live/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# OS
+.DS_Store
+Thumbs.db

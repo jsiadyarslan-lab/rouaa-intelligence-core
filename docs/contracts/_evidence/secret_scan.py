@@ -18,7 +18,8 @@ SECRET_PATTERNS = [
     (r'eyJ[A-Za-z0-9_-]{10,}\.[A-Za-z0-9_-]{10,}\.[A-Za-z0-9_-]{10,}', 'JWT_TOKEN'),
 ]
 ALLOWLIST = ['live-validation-token','test-token','wrong-token','xxxxxxxx','YOUR_TOKEN_HERE',
-             'example.com','Bearer ${','Bearer <token>','dev-local-token','live-canonical-mock-token']
+             'example.com','Bearer ${','Bearer <token>','dev-local-token','live-canonical-mock-token',
+             'production-test-token','production-live-token']
 SKIP_DIRS = {'node_modules','.git','.next','__pycache__','.venv','venv','.pytest_cache','.mypy_cache',
              '.ruff_cache','dist','build','.cache'}
 SKIP_FILES = {'package-lock.json','bun.lock'}
