@@ -203,6 +203,34 @@ class Evidence:  # binds to the EXACT representation (D1 rule 5)
 
 
 @dataclass
+class TemporalDataProjection:  # K2 — D4 publication_tuples projected to IO emission
+    """K2 projection of D4 Document.publication_tuples into the IO.
+
+    Per directive CORE_SEMANTIC_PROMOTION_K1_K2_V1 §4-5:
+      - publication_time: normalized_utc of the tuple where
+        timestamp_semantics == "publication" (or first tuple if none match).
+      - publication_time_raw: original_value of the same tuple.
+      - publication_timezone_status: timezone_status of the same tuple.
+      - reference_period: normalized_utc of the tuple where
+        timestamp_semantics == "reporting_period" (D4 distinction).
+      - reference_period_normalized_utc: same as reference_period
+        (kept as a separate field for explicit D4-compliance clarity).
+
+    D4 semantics for missing values (§5):
+      - null = NOT_APPLICABLE / UNKNOWN (never fabricated).
+      - A date-only reference period is preserved as-is, NOT converted to UTC.
+      - A missing timezone is preserved as None, NOT inferred.
+    """
+    publication_time: Optional[str] = None
+    publication_time_raw: Optional[str] = None
+    publication_timezone_status: Optional[str] = None
+    reference_period: Optional[str] = None
+    reference_period_normalized_utc: Optional[str] = None
+
+    def to_dict(self) -> dict: return asdict(self)
+
+
+@dataclass
 class IntelligenceObject:  # D7 IO-first canonical output
     io_id: str
     version: int
@@ -211,8 +239,16 @@ class IntelligenceObject:  # D7 IO-first canonical output
     headline: str
     chain: list = field(default_factory=list)  # traceability: facts->evidence->rep->doc->source
     created_at: str = ""
+    # K1 (CORE_SEMANTIC_PROMOTION_K1_K2_V1 §3): direct copy from Event.event_type.
+    # No inference, no headline parsing, no source-specific logic.
+    event_type: str = ""
+    # K2 (CORE_SEMANTIC_PROMOTION_K1_K2_V1 §4): projected from
+    # Document.publication_tuples per D4 semantics. null = NOT_APPLICABLE / UNKNOWN.
+    temporal_data: Optional[TemporalDataProjection] = None
 
-    def to_dict(self) -> dict: return asdict(self)
+    def to_dict(self) -> dict:
+        d = asdict(self)
+        return d
 
 
 @dataclass

@@ -181,8 +181,10 @@ class ProductionTransportHandler(BaseHTTPRequestHandler):
         shape, then adds the documented transport projections
         (status, supersedes_io_id) per canonical contract §2.1.
 
-        No fabricated fields. No capability-gap fields (event_type,
-        temporal_data) — those remain absent per canonical §3.
+        K1 (event_type) and K2 (temporal_data) are now emitted by
+        build_intelligence_object() per CORE_SEMANTIC_PROMOTION_K1_K2_V1
+        (promoted from architectural capability gaps to canonical fields).
+        Both come from real Core state — no fabrication.
         """
         # Find source name for headline construction
         doc = store.latest_by_id("documents", "document_id").get(event_row.get("document_id", ""))

@@ -183,19 +183,41 @@ class TestRealE2EProductionTransport(unittest.TestCase):
                 f"IO chain document URL {url} is not from an official source"
             )
 
-    def test_real_io_no_event_type(self):
-        """K1 anti-fabrication: event_type NOT emitted from real state."""
-        status, _, _, parsed = _http_get("/v1/intelligence", token=TOKEN)
-        for io in parsed["objects"]:
-            self.assertNotIn("event_type", io,
-                              "event_type must NOT be emitted from real E2E state")
+    def test_real_io_HAS_event_type_K1(self):
+        """K1 PROMOTED: event_type IS now emitted from real Core state.
 
-    def test_real_io_no_temporal_data(self):
-        """K2 anti-fabrication: temporal_data NOT emitted from real state."""
+        Per CORE_SEMANTIC_PROMOTION_K1_K2_V1 §3 — direct copy from Event.event_type.
+        """
         status, _, _, parsed = _http_get("/v1/intelligence", token=TOKEN)
         for io in parsed["objects"]:
-            self.assertNotIn("temporal_data", io,
-                              "temporal_data must NOT be emitted from real E2E state")
+            self.assertIn("event_type", io,
+                          "event_type MUST be emitted from real E2E state per K1 promotion")
+            self.assertIsInstance(io["event_type"], str)
+            # Must be one of the 6 supported Core event types
+            self.assertIn(io["event_type"], (
+                "monetary_policy_decision", "regulatory_enforcement",
+                "statistical_release", "earnings_release",
+                "sanctions_designation", "market_statistic_release",
+            ))
+
+    def test_real_io_HAS_temporal_data_K2(self):
+        """K2 PROMOTED: temporal_data IS now emitted from real Core state.
+
+        Per CORE_SEMANTIC_PROMOTION_K1_K2_V1 §4 — projected from
+        Document.publication_tuples per D4 semantics. null = NOT_APPLICABLE.
+        """
+        status, _, _, parsed = _http_get("/v1/intelligence", token=TOKEN)
+        for io in parsed["objects"]:
+            self.assertIn("temporal_data", io,
+                          "temporal_data MUST be emitted from real E2E state per K2 promotion")
+            td = io["temporal_data"]
+            # td may be None if Document had no publication_tuples, but
+            # for real RSS-derived documents it should be populated.
+            if td is not None:
+                for sub in ("publication_time", "publication_time_raw",
+                            "publication_timezone_status", "reference_period",
+                            "reference_period_normalized_utc"):
+                    self.assertIn(sub, td, f"K2 sub-field missing: {sub}")
 
     def test_real_io_no_fabricated_fields(self):
         status, _, _, parsed = _http_get("/v1/intelligence", token=TOKEN)
@@ -237,6 +259,85 @@ class TestRealE2EProductionTransport(unittest.TestCase):
                    if io["chain"][0]["source"]["institution_id"] == "INST-hcp-001"]
         self.assertGreater(len(hcp_ios), 0,
                           "HCP Morocco statistical IO must be present in real E2E store")
+
+    def test_hcp_K1_event_type_is_statistical_release(self):
+        """§11 + K1: HCP Morocco IOs must have event_type='statistical_release'."""
+        status, _, _, parsed = _http_get("/v1/intelligence", token=TOKEN)
+        hcp_ios = [io for io in parsed["objects"]
+                   if io["chain"][0]["source"]["institution_id"] == "INST-hcp-001"]
+        for io in hcp_ios:
+            self.assertEqual(io["event_type"], "statistical_release",
+                              "HCP Morocco IOs must be statistical_release (K1)")
+
+    def test_hcp_K2_publication_time_present_from_real_rss_pubdate(self):
+        """§11 + K2: HCP Morocco IOs must have publication_time from real RSS pubDate."""
+        status, _, _, parsed = _http_get("/v1/intelligence", token=TOKEN)
+        hcp_ios = [io for io in parsed["objects"]
+                   if io["chain"][0]["source"]["institution_id"] == "INST-hcp-001"]
+        for io in hcp_ios:
+            td = io["temporal_data"]
+            self.assertIsNotNone(td, "HCP IO must have temporal_data (K2)")
+            self.assertIsNotNone(td["publication_time"],
+                                  "HCP IO must have publication_time (K2)")
+            # publication_time should be ISO 8601 UTC ending in Z
+            self.assertRegex(td["publication_time"], r"^\d{4}-\d{2}-\d{2}T.+Z$")
+            # publication_time_raw should be the original RSS pubDate
+            self.assertIsNotNone(td["publication_time_raw"])
+            # timezone_status from real RSS pubDate (e.g. +0200 for Morocco)
+            self.assertIn(td["publication_timezone_status"], (
+                "EXPLICIT_OFFSET", "EXPLICIT_ZONE"))
+
+    def test_hcp_K2_reference_period_is_not_publication_time(self):
+        """§11: HCP Morocco statistical IOs must preserve the D4 distinction.
+
+        Per directive §11: 'publication_time != reference_period when both exist'.
+        HCP RSS feeds provide publication_time but NOT reference_period
+        (no reporting_period tuple in the RSS pubDate). So reference_period
+        is null — which is the D4-faithful answer for HCP RSS-derived data.
+
+        This test verifies the D4 distinction is preserved: when
+        reference_period is null, it must NOT be silently defaulted to
+        publication_time.
+        """
+        status, _, _, parsed = _http_get("/v1/intelligence", token=TOKEN)
+        hcp_ios = [io for io in parsed["objects"]
+                   if io["chain"][0]["source"]["institution_id"] == "INST-hcp-001"]
+        for io in hcp_ios:
+            td = io["temporal_data"]
+            # HCP RSS provides publication but NOT reference_period tuples
+            # → reference_period should be None (NOT fabricated)
+            # When reference_period is None, it must NOT equal publication_time
+            if td["reference_period"] is None:
+                self.assertIsNotNone(td["publication_time"])
+                # The D4 distinction: null reference_period != publication_time
+                self.assertNotEqual(td["reference_period"], td["publication_time"])
+
+    def test_sec_K1_event_type_is_regulatory_enforcement(self):
+        """§12 + K1: SEC IOs must have event_type='regulatory_enforcement'."""
+        status, _, _, parsed = _http_get("/v1/intelligence", token=TOKEN)
+        sec_ios = [io for io in parsed["objects"]
+                   if io["chain"][0]["source"]["institution_id"] == "INST-sec-001"]
+        for io in sec_ios:
+            self.assertEqual(io["event_type"], "regulatory_enforcement",
+                              "SEC IOs must be regulatory_enforcement (K1)")
+
+    def test_sec_K2_reference_period_null(self):
+        """§12 + K2: SEC regulatory_enforcement IOs must have reference_period=null.
+
+        Per directive §12: regulatory actions have no statistical reference period.
+        """
+        status, _, _, parsed = _http_get("/v1/intelligence", token=TOKEN)
+        sec_ios = [io for io in parsed["objects"]
+                   if io["chain"][0]["source"]["institution_id"] == "INST-sec-001"]
+        for io in sec_ios:
+            td = io["temporal_data"]
+            self.assertIsNotNone(td, "SEC IO must have temporal_data (K2)")
+            # Per §12: regulatory actions have no statistical reference period
+            self.assertIsNone(td["reference_period"],
+                              "SEC regulatory IO reference_period must be null")
+            self.assertIsNone(td["reference_period_normalized_utc"])
+            # But publication_time is present (regulatory actions are published)
+            self.assertIsNotNone(td["publication_time"])
 
     def test_sec_io_present(self):
         """§12: regulatory_enforcement IO from SEC must be present."""

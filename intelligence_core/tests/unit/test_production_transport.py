@@ -361,27 +361,43 @@ class TestCanonicalSchemaConformance(unittest.TestCase):
         with _ServerCtx():
             status, _, _, parsed = _http_get("/v1/intelligence", token=TOKEN)
             io = parsed["objects"][0]
-            # Canonical fields per R2 §2.1
+            # Canonical fields per R2 §2.1 + K1/K2 promotion
             for f in ("io_id", "version", "event_id", "event_version",
                       "headline", "chain", "created_at",
-                      "status", "supersedes_io_id"):
+                      "status", "supersedes_io_id",
+                      "event_type", "temporal_data"):
                 self.assertIn(f, io, f"canonical field missing: {f}")
 
-    def test_io_does_not_have_event_type(self):
-        """§5 K1 anti-fabrication: event_type is a CAPABILITY GAP — not emitted."""
+    def test_io_has_K1_event_type_emitted(self):
+        """§3 K1 PROMOTED: event_type IS now emitted (was capability gap, now surfaced)."""
         with _ServerCtx():
             status, _, _, parsed = _http_get("/v1/intelligence", token=TOKEN)
             for io in parsed["objects"]:
-                self.assertNotIn("event_type", io,
-                                  "event_type must NOT be emitted (R2 §3 capability gap)")
+                self.assertIn("event_type", io,
+                              "event_type MUST be emitted per CORE_SEMANTIC_PROMOTION_K1_K2_V1 §3")
+                self.assertIsInstance(io["event_type"], str)
+                # Must be one of the 6 supported Core event types
+                self.assertIn(io["event_type"], (
+                    "monetary_policy_decision", "regulatory_enforcement",
+                    "statistical_release", "earnings_release",
+                    "sanctions_designation", "market_statistic_release",
+                ))
 
-    def test_io_does_not_have_temporal_data(self):
-        """§5 K2 anti-fabrication: temporal_data is a CAPABILITY GAP — not emitted."""
+    def test_io_has_K2_temporal_data_emitted(self):
+        """§4 K2 PROMOTED: temporal_data IS now emitted with 5 D4 sub-fields."""
         with _ServerCtx():
             status, _, _, parsed = _http_get("/v1/intelligence", token=TOKEN)
             for io in parsed["objects"]:
-                self.assertNotIn("temporal_data", io,
-                                  "temporal_data must NOT be emitted (R2 §3 capability gap)")
+                self.assertIn("temporal_data", io,
+                              "temporal_data MUST be emitted per CORE_SEMANTIC_PROMOTION_K1_K2_V1 §4")
+                td = io["temporal_data"]
+                # td may be None when Document has no publication_tuples,
+                # but the field must be present.
+                if td is not None:
+                    for sub in ("publication_time", "publication_time_raw",
+                                "publication_timezone_status", "reference_period",
+                                "reference_period_normalized_utc"):
+                        self.assertIn(sub, td, f"K2 sub-field missing: {sub}")
 
     def test_io_does_not_have_fabricated_quality_fields(self):
         """§4 Anti-fabrication: no quality_metadata family."""
@@ -488,15 +504,16 @@ class TestEventClassCoverage(unittest.TestCase):
         """§12: do not fabricate missing event types."""
         with _ServerCtx():
             # No monetary_policy_decision events were seeded.
-            # Verify by checking all 3 IOs are NOT monetary_policy_decision
-            # (we can't directly check event_type since it's not emitted,
-            # but we can check via headline + chain fact metric).
+            # Per directive §13: LIVE_FIXTURE_NOT_AVAILABLE — documented absence.
+            # Now that K1 is emitted, we can verify directly via event_type.
             status, _, _, parsed = _http_get("/v1/intelligence", token=TOKEN)
             for io in parsed["objects"]:
-                # No "policy_rate" / "rate_decision" metric = no monetary policy
-                metrics = [link["fact"]["metric"] for link in io["chain"]]
-                self.assertNotIn("policy_rate", metrics)
-                self.assertNotIn("rate_decision", metrics)
+                # event_type must be either statistical_release or regulatory_enforcement
+                # (NOT monetary_policy_decision — no such IO seeded)
+                self.assertIn(io["event_type"], (
+                    "statistical_release", "regulatory_enforcement",
+                ))
+                self.assertNotEqual(io["event_type"], "monetary_policy_decision")
 
 
 class TestCanonicalMockVsProductionEquivalence(unittest.TestCase):
@@ -506,13 +523,13 @@ class TestCanonicalMockVsProductionEquivalence(unittest.TestCase):
         """Compare the production /v1/intelligence response fields against
         the canonical mock /v1/intelligence response fields.
 
-        Both should emit the same canonical fields per R2 §2.1:
+        Both should emit the same canonical fields per R2 §2.1 + K1/K2 promotion:
           io_id, version, event_id, event_version, headline, chain, created_at,
-          status, supersedes_io_id
+          status, supersedes_io_id, event_type, temporal_data
 
         Both should NOT emit:
-          event_type, temporal_data, quality_metadata, confidence_score,
-          provenance_complete, reproducible, provenance_match
+          quality_metadata, confidence_score, provenance_complete,
+          reproducible, provenance_match (fabricated — prohibited per §6)
         """
         with _ServerCtx():
             # Production response
@@ -546,21 +563,22 @@ class TestCanonicalMockVsProductionEquivalence(unittest.TestCase):
             mock_io = mock_parsed["objects"][0]
             mock_keys = set(mock_io.keys())
 
-            # Canonical field set must match
+            # Canonical field set must match (includes K1/K2 promoted per
+            # CORE_SEMANTIC_PROMOTION_K1_K2_V1)
             canonical_fields = {
                 "io_id", "version", "event_id", "event_version",
                 "headline", "chain", "created_at",
                 "status", "supersedes_io_id",
+                "event_type", "temporal_data",  # K1/K2 promoted
             }
             self.assertEqual(prod_keys, canonical_fields,
                               f"production IO keys mismatch: {prod_keys ^ canonical_fields}")
             self.assertEqual(mock_keys, canonical_fields,
                               f"canonical mock IO keys mismatch: {mock_keys ^ canonical_fields}")
 
-            # Both must NOT have fabricated/gap fields
-            forbidden = {"event_type", "temporal_data", "quality_metadata",
-                        "confidence_score", "provenance_complete",
-                        "reproducible", "provenance_match"}
+            # Both must NOT have fabricated fields (§6 — still prohibited)
+            forbidden = {"quality_metadata", "confidence_score",
+                        "provenance_complete", "reproducible", "provenance_match"}
             self.assertEqual(prod_keys & forbidden, set(),
                               f"production has forbidden fields: {prod_keys & forbidden}")
             self.assertEqual(mock_keys & forbidden, set(),

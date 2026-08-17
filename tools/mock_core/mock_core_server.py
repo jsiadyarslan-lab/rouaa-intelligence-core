@@ -1,13 +1,14 @@
-"""CANONICAL MOCK CORE SERVER — the approved /v1 contract, exactly (R2).
+"""CANONICAL MOCK CORE SERVER — the approved /v1 contract (R2 + K1/K2 promotion).
 
-LOCAL-ONLY development/test reference. Payload discipline (R2 4/7):
+LOCAL-ONLY development/test reference. Payload discipline (R2 4/7 +
+CORE_SEMANTIC_PROMOTION_K1_K2_V1):
   item = REAL Core IntelligenceObject shape (delivery.py, verbatim fields)
-       + {status, supersedes_io_id} — a documented transport projection of
-         REAL store state (event status / prior event version) required by
-         the architecture's versioning semantics (8).
+       + {status, supersedes_io_id} — transport projection of REAL store
+         state (event status / prior event version) per versioning §8.
+       + event_type — K1, copied directly from Event.event_type (§3 — no inference).
+       + temporal_data — K2, projected from Document.publication_tuples per D4
+         (§4-5 — null = NOT_APPLICABLE / UNKNOWN, no fabrication).
   NOTHING else. No quality/confidence fields (exist nowhere in Core).
-  temporal_data / event_type: deliberately ABSENT — recorded as
-  ARCHITECTURAL CAPABILITY GAPS pending a separate Core contract decision.
 
 Run: python tools/mock_core/mock_core_server.py [port]   (MOCK_CORE_TOKEN env; default dev-local-token)
 """
@@ -29,27 +30,60 @@ def _chain(fact_id, metric, value, ev_id, rep_sha, doc_id, url, src, inst):
              "source": {"source_id": src, "institution_id": inst}}]
 
 
+def _temporal(publication_time, publication_time_raw, timezone_status, reference_period=None):
+    """K2 projection per D4. null = NOT_APPLICABLE / UNKNOWN (§5 — no fabrication)."""
+    return {
+        "publication_time": publication_time,
+        "publication_time_raw": publication_time_raw,
+        "publication_timezone_status": timezone_status,
+        "reference_period": reference_period,
+        "reference_period_normalized_utc": reference_period,
+    }
+
+
 CPI_URL = "https://www.istat.it/en/press-release/consumer-prices-july-2026"
 FDIC_URL = "https://www.fdic.gov/news/press-releases/2026/fdic-publishes-june-enforcement-actions"
 FIXTURES = [
+    # ISTAT CPI v1 — SUPERSEDED. statistical_release with reference_period (D4 §9 distinction).
     {"io_id": "io-cpi-v1", "version": 1, "event_id": "evt-cpi", "event_version": 1,
      "status": "SUPERSEDED", "supersedes_io_id": None,
      "headline": "ISTAT Statistical Release",
      "chain": _chain("fact-cpi-mom", "percentage_statistic", "+0.3", "evi-cpi-1",
                      "a" * 64, "doc-istat-cpi", CPI_URL, "ISTAT", "INST-istat-001"),
-     "created_at": "2026-08-12T08:00:58Z"},
+     "created_at": "2026-08-12T08:00:58Z",
+     "event_type": "statistical_release",
+     "temporal_data": _temporal(
+         publication_time="2026-08-12T08:00:58Z",
+         publication_time_raw="Wed, 12 Aug 2026 08:00:58 +0000",
+         timezone_status="EXPLICIT_ZONE",
+         # Statistical release reference_period — distinct from publication_time (D4 §9).
+         reference_period="2026-07")},
+    # ISTAT CPI v2 — ACTIVE (correction of v1). Same statistical_release, +0.4.
     {"io_id": "io-cpi-v2", "version": 1, "event_id": "evt-cpi", "event_version": 2,
      "status": "ACTIVE", "supersedes_io_id": "io-cpi-v1",
      "headline": "ISTAT Statistical Release",
      "chain": _chain("fact-cpi-mom", "percentage_statistic", "+0.4", "evi-cpi-2",
                      "c" * 64, "doc-istat-cpi", CPI_URL, "ISTAT", "INST-istat-001"),
-     "created_at": "2026-08-12T08:00:58Z"},
+     "created_at": "2026-08-13T08:00:00Z",
+     "event_type": "statistical_release",
+     "temporal_data": _temporal(
+         publication_time="2026-08-13T08:00:00Z",
+         publication_time_raw="Thu, 13 Aug 2026 10:00:00 +0200",
+         timezone_status="EXPLICIT_OFFSET",
+         reference_period="2026-07")},
+    # FDIC enforcement — regulatory_enforcement. reference_period=null (per §12).
     {"io_id": "io-fdic-enf", "version": 1, "event_id": "evt-fdic", "event_version": 1,
      "status": "ACTIVE", "supersedes_io_id": None,
      "headline": "FDIC Regulatory Enforcement Action",
      "chain": _chain("fact-enf-1", "action_type", "consent order", "evi-enf-1",
                      "b" * 64, "doc-fdic-enf", FDIC_URL, "FDIC", "INST-fdic-001"),
-     "created_at": "2026-07-31T00:00:00Z"},
+     "created_at": "2026-07-31T00:00:00Z",
+     "event_type": "regulatory_enforcement",
+     "temporal_data": _temporal(
+         publication_time="2026-07-31T00:00:00Z",
+         publication_time_raw="Fri, 31 Jul 2026 00:00:00 +0000",
+         timezone_status="EXPLICIT_ZONE",
+         reference_period=None)},
 ]
 BY_ID = {f["io_id"]: f for f in FIXTURES}
 ETAGS = {f["io_id"]: 'W/"' + hashlib.sha256(json.dumps(f, sort_keys=True).encode()).hexdigest()[:16] + '"'
