@@ -203,14 +203,35 @@ class Evidence:  # binds to the EXACT representation (D1 rule 5)
 
 
 @dataclass
-class TemporalDataProjection:  # K2 — D4 publication_tuples projected to IO emission (D4-faithful)
+class TemporalTupleProjection:
+    """A single D4 TemporalTuple projected to IO emission — ALL 6 D4 fields preserved.
+
+    Per CORE_K2_D4_MULTIPLICITY_CLOSURE_V1: D4 permits multiple tuples with
+    different timestamp_semantics, provenance_source, timezone_status, etc.
+    The IO must not silently collapse distinct D4 tuples. This dataclass
+    represents ONE tuple in the temporal_tuples[] array.
+    """
+    original_value: Optional[str] = None
+    timezone_status: Optional[str] = None
+    normalized_utc: Optional[str] = None
+    normalization_basis: Optional[str] = None
+    timestamp_semantics: Optional[str] = None
+    provenance_source: Optional[str] = None
+
+    def to_dict(self) -> dict: return asdict(self)
+
+
+@dataclass
+class TemporalDataProjection:  # K2 — D4 publication_tuples projected to IO emission (D4-faithful + multiplicity-preserving)
     """K2 projection of D4 Document.publication_tuples into the IO.
 
-    Per CORE_K2_D4_FIDELITY_CLOSURE_V1 §3: ALL 6 D4 TemporalTuple fields
-    are now preserved for both publication and reference_period tuples.
-    Previous K2 promotion (CORE_SEMANTIC_PROMOTION_K1_K2_V1) had silently
-    dropped `normalization_basis` and `provenance_source` — this closure
-    restores them so D4 == IO emission (no semantic loss).
+    Per CORE_K2_D4_MULTIPLICITY_CLOSURE_V1: D4 permits multiple TemporalTuples
+    per Document (e.g. conflicting publication dates from RSS vs HTML, multiple
+    reporting periods, or tuples with different semantics like document_date,
+    update, effective, event_occurrence). The previous projection collapsed
+    this multiplicity into 2 fixed slots (publication_* + reference_period_*),
+    silently discarding additional tuples. This closure adds a
+    `temporal_tuples` array that preserves ALL D4 tuples in their original order.
 
     D4 TemporalTuple fields (contracts.py):
       1. original_value       — the raw timestamp string from the source
@@ -226,16 +247,19 @@ class TemporalDataProjection:  # K2 — D4 publication_tuples projected to IO em
                                  meta_date, url_date, rendered_text, js_title,
                                  filename, file_metadata)
 
-    Projection mapping (per tuple — publication + reference_period):
-      D4 original_value       → *_raw
-      D4 timezone_status      → *_timezone_status
-      D4 normalized_utc       → publication_time / reference_period (+ *_normalized_utc alias)
-      D4 normalization_basis  → *_normalization_basis        [ADDED per closure]
-      D4 timestamp_semantics  → *_timestamp_semantics          [ADDED per closure]
-      D4 provenance_source    → *_provenance_source             [ADDED per closure]
+    STRUCTURE:
+      - temporal_tuples: list[TemporalTupleProjection] — ALL D4 tuples preserved
+        in their original order. Cardinality == Document.publication_tuples.length.
+        No tuple is silently discarded.
+      - publication_*: convenience accessor for the FIRST tuple with
+        timestamp_semantics == "publication" (backward-compat with K1/K2 promotion).
+      - reference_period_*: convenience accessor for the FIRST tuple with
+        timestamp_semantics == "reporting_period" (backward-compat).
 
-    Backward compat: the original 5 field names from K1/K2 promotion are
-    preserved. The new D4-faithful fields are ADDITIVE — no consumer breaks.
+    Backward compat: the 13 convenience fields from K2_D4_FIDELITY_CLOSURE_V1
+    are preserved. The temporal_tuples array is ADDITIVE — no consumer breaks.
+    Consumers that only read publication_* / reference_period_* continue to work;
+    consumers that need full D4 multiplicity read temporal_tuples[].
 
     D4 semantics for missing values (§5):
       - null = NOT_APPLICABLE / UNKNOWN (never fabricated).
@@ -244,21 +268,25 @@ class TemporalDataProjection:  # K2 — D4 publication_tuples projected to IO em
       - normalization_basis = NONE when D4 says the timezone is not safely
         normalizable (normalized_utc = null in that case).
     """
-    # === Publication tuple (timestamp_semantics == "publication") ===
-    # Backward-compat aliases (from K1/K2 promotion):
+    # === FULL D4 CARDINALITY (added per CORE_K2_D4_MULTIPLICITY_CLOSURE_V1) ===
+    # ALL D4 TemporalTuples preserved in original order. No collapse.
+    temporal_tuples: list = field(default_factory=list)  # list[TemporalTupleProjection]
+
+    # === Publication tuple — convenience accessor (backward-compat from K1/K2) ===
+    # Points to the FIRST tuple with timestamp_semantics == "publication".
+    # If multiple publication tuples exist, temporal_tuples[] preserves them all.
     publication_time: Optional[str] = None              # D4 normalized_utc
     publication_time_raw: Optional[str] = None          # D4 original_value
     publication_timezone_status: Optional[str] = None  # D4 timezone_status
-    # ADDED per CORE_K2_D4_FIDELITY_CLOSURE_V1 (D4-faithful — was dropped):
     publication_normalization_basis: Optional[str] = None   # D4 normalization_basis
     publication_timestamp_semantics: Optional[str] = None   # D4 timestamp_semantics
     publication_provenance_source: Optional[str] = None     # D4 provenance_source
 
-    # === Reference period tuple (timestamp_semantics == "reporting_period") ===
-    # Backward-compat aliases (from K1/K2 promotion):
+    # === Reference period tuple — convenience accessor (backward-compat from K1/K2) ===
+    # Points to the FIRST tuple with timestamp_semantics == "reporting_period".
+    # If multiple reporting_period tuples exist, temporal_tuples[] preserves them all.
     reference_period: Optional[str] = None                    # D4 normalized_utc
     reference_period_normalized_utc: Optional[str] = None     # D4 normalized_utc (alias)
-    # ADDED per CORE_K2_D4_FIDELITY_CLOSURE_V1 (D4-faithful — was dropped):
     reference_period_raw: Optional[str] = None                # D4 original_value
     reference_period_timezone_status: Optional[str] = None    # D4 timezone_status
     reference_period_normalization_basis: Optional[str] = None # D4 normalization_basis

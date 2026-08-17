@@ -7,7 +7,7 @@ K1/K2 Promotion (CORE_SEMANTIC_PROMOTION_K1_K2_V1):
 No inference. No fabrication. null = NOT_APPLICABLE / UNKNOWN per D4 semantics.
 """
 from __future__ import annotations
-from .contracts import IntelligenceObject, Delivery, TemporalDataProjection
+from .contracts import IntelligenceObject, Delivery, TemporalDataProjection, TemporalTupleProjection
 from .identity import io_id as make_io_id, delivery_id as make_delivery_id
 from .detect import build_headline
 
@@ -104,8 +104,25 @@ def _project_temporal_data(doc: dict | None) -> TemporalDataProjection | None:
                       if t.get("timestamp_semantics") == "reporting_period"), None)
 
     # Per CORE_K2_D4_FIDELITY_CLOSURE_V1: surface ALL 6 D4 fields for both tuples.
-    # No field is dropped. No semantic transformation.
+    # Per CORE_K2_D4_MULTIPLICITY_CLOSURE_V1: surface ALL tuples in temporal_tuples[].
+    # No field is dropped. No semantic transformation. No cardinality collapse.
+
+    # Build temporal_tuples[] — ALL D4 tuples preserved in original order.
+    temporal_tuples_list = [
+        TemporalTupleProjection(
+            original_value=t.get("original_value"),
+            timezone_status=t.get("timezone_status"),
+            normalized_utc=t.get("normalized_utc"),
+            normalization_basis=t.get("normalization_basis"),
+            timestamp_semantics=t.get("timestamp_semantics"),
+            provenance_source=t.get("provenance_source"),
+        )
+        for t in tuples
+    ]
+
     return TemporalDataProjection(
+        # FULL D4 CARDINALITY — all tuples preserved (per MULTIPLICITY_CLOSURE):
+        temporal_tuples=temporal_tuples_list,
         # Publication tuple — backward-compat fields (K1/K2 promotion):
         publication_time=pub_tuple.get("normalized_utc"),
         publication_time_raw=pub_tuple.get("original_value"),

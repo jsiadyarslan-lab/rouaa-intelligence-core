@@ -38,16 +38,47 @@ def _temporal(publication_time, publication_time_raw, timezone_status,
               reference_period_normalization_basis=None,
               reference_period_provenance_source=None,
               publication_timestamp_semantics="publication",
-              reference_period_timestamp_semantics=None):
-    """K2 projection per D4 — ALL 6 D4 fields preserved per CORE_K2_D4_FIDELITY_CLOSURE_V1.
+              reference_period_timestamp_semantics=None,
+              extra_tuples=None):
+    """K2 projection per D4 — ALL 6 D4 fields + multiplicity preserved.
 
-    D4 TemporalTuple fields (contracts.py):
-      original_value, timezone_status, normalized_utc,
-      normalization_basis, timestamp_semantics, provenance_source
+    Per CORE_K2_D4_FIDELITY_CLOSURE_V1: all 6 D4 TemporalTuple fields preserved.
+    Per CORE_K2_D4_MULTIPLICITY_CLOSURE_V1: temporal_tuples[] preserves ALL
+    D4 tuples (including conflicting dates, multiple semantics, etc.).
 
     null = NOT_APPLICABLE / UNKNOWN (§5 — no fabrication).
     """
+    # Build temporal_tuples[] — ALL tuples in order
+    tuples = []
+
+    # Always include the publication tuple
+    tuples.append({
+        "original_value": publication_time_raw,
+        "timezone_status": timezone_status,
+        "normalized_utc": publication_time,
+        "normalization_basis": publication_normalization_basis,
+        "timestamp_semantics": publication_timestamp_semantics,
+        "provenance_source": publication_provenance_source,
+    })
+
+    # Include reference_period tuple if present
+    if reference_period is not None:
+        tuples.append({
+            "original_value": reference_period_raw or reference_period,
+            "timezone_status": reference_period_timezone_status or "DATE_ONLY",
+            "normalized_utc": reference_period,
+            "normalization_basis": reference_period_normalization_basis or "NONE",
+            "timestamp_semantics": reference_period_timestamp_semantics or "reporting_period",
+            "provenance_source": reference_period_provenance_source or "rendered_text",
+        })
+
+    # Include any extra tuples (for multiplicity tests — conflicting dates, etc.)
+    if extra_tuples:
+        tuples.extend(extra_tuples)
+
     return {
+        # FULL D4 CARDINALITY — all tuples preserved (per MULTIPLICITY_CLOSURE):
+        "temporal_tuples": tuples,
         # Publication tuple — backward-compat (K1/K2 promotion):
         "publication_time": publication_time,
         "publication_time_raw": publication_time_raw,
@@ -72,6 +103,12 @@ CPI_URL = "https://www.istat.it/en/press-release/consumer-prices-july-2026"
 FDIC_URL = "https://www.fdic.gov/news/press-releases/2026/fdic-publishes-june-enforcement-actions"
 FIXTURES = [
     # ISTAT CPI v1 — SUPERSEDED. statistical_release with reference_period (D4 §9 distinction).
+    # MULTIPLICITY TEST: this fixture has 3 D4 tuples:
+    #   1. publication (from RSS pubdate)
+    #   2. reporting_period (statistical reference period — July 2026)
+    #   3. document_date (from HTML <time> element — slightly different from RSS)
+    # Per CORE_K2_D4_MULTIPLICITY_CLOSURE_V1: all 3 tuples must be preserved
+    # in temporal_tuples[] without collapse.
     {"io_id": "io-cpi-v1", "version": 1, "event_id": "evt-cpi", "event_version": 1,
      "status": "SUPERSEDED", "supersedes_io_id": None,
      "headline": "ISTAT Statistical Release",
@@ -93,7 +130,17 @@ FIXTURES = [
          reference_period_timezone_status="DATE_ONLY",
          reference_period_normalization_basis="NONE",
          reference_period_timestamp_semantics="reporting_period",
-         reference_period_provenance_source="rendered_text")},
+         reference_period_provenance_source="rendered_text",
+         # EXTRA TUPLE: document_date from HTML <time> element (conflicting with RSS pubdate).
+         # This tests D4 multiplicity — both dates must be preserved without collapse.
+         extra_tuples=[{
+             "original_value": "2026-08-12T10:00:00+02:00",
+             "timezone_status": "EXPLICIT_OFFSET",
+             "normalized_utc": "2026-08-12T08:00:00Z",
+             "normalization_basis": "SOURCE_DOCUMENT_METADATA",
+             "timestamp_semantics": "document_date",
+             "provenance_source": "html_time_attr",
+         }])},
     # ISTAT CPI v2 — ACTIVE (correction of v1). Same statistical_release, +0.4.
     {"io_id": "io-cpi-v2", "version": 1, "event_id": "evt-cpi", "event_version": 2,
      "status": "ACTIVE", "supersedes_io_id": "io-cpi-v1",

@@ -305,6 +305,108 @@ class TestCanonicalContract(unittest.TestCase):
         self.assertEqual(trace["io_id"], "io-fdic-enf")
         self.assertTrue(trace["chain"][0]["representation"]["content_sha256"])
 
+    # ── CORE_K2_D4_MULTIPLICITY_CLOSURE_V1: D4 cardinality tests ──
+
+    # M9.card — temporal_tuples[] preserves ALL D4 tuples (cardinality)
+    def test_M9_temporal_tuples_array_present(self):
+        """§2: temporal_tuples[] array MUST be present in temporal_data."""
+        body = json.loads(_get("/v1/intelligence/io-fdic-enf")[1])
+        td = body["temporal_data"]
+        self.assertIn("temporal_tuples", td,
+                      "temporal_tuples[] array missing — D4 multiplicity not preserved")
+        self.assertIsInstance(td["temporal_tuples"], list)
+
+    def test_M9_cardinality_single_tuple_fdic(self):
+        """§2: FDIC IO has 1 D4 tuple (publication only) — cardinality preserved."""
+        body = json.loads(_get("/v1/intelligence/io-fdic-enf")[1])
+        td = body["temporal_data"]
+        self.assertEqual(len(td["temporal_tuples"]), 1,
+                          "FDIC should have 1 temporal tuple — cardinality mismatch")
+
+    def test_M9_cardinality_multi_tuple_istat_v1(self):
+        """§2-3: ISTAT CPI v1 has 3 D4 tuples (publication + reporting_period + document_date)
+        — all must be preserved without collapse."""
+        body = json.loads(_get("/v1/intelligence/io-cpi-v1")[1])
+        td = body["temporal_data"]
+        self.assertEqual(len(td["temporal_tuples"]), 3,
+                          "ISTAT CPI v1 should have 3 temporal tuples — cardinality collapse detected")
+
+    # M9.conflict — conflicting-date test: document_date differs from publication
+    def test_M9_conflicting_dates_preserved(self):
+        """§3: When two tuples have conflicting dates, BOTH must be recoverable."""
+        body = json.loads(_get("/v1/intelligence/io-cpi-v1")[1])
+        td = body["temporal_data"]
+        tuples = td["temporal_tuples"]
+        pub = next((t for t in tuples if t["timestamp_semantics"] == "publication"), None)
+        doc_date = next((t for t in tuples if t["timestamp_semantics"] == "document_date"), None)
+        self.assertIsNotNone(pub, "publication tuple not in temporal_tuples[]")
+        self.assertIsNotNone(doc_date, "document_date tuple not in temporal_tuples[]")
+        self.assertEqual(pub["provenance_source"], "rss_pubdate")
+        self.assertEqual(doc_date["provenance_source"], "html_time_attr")
+        self.assertNotEqual(pub["original_value"], doc_date["original_value"],
+                            "conflicting dates collapsed — tuple A == tuple B")
+
+    # M9.semantics — all D4 timestamp_semantics values are distinct in temporal_tuples[]
+    def test_M9_semantic_distinction_publication(self):
+        """§4: publication semantics preserved distinctly in temporal_tuples[]."""
+        body = json.loads(_get("/v1/intelligence/io-fdic-enf")[1])
+        td = body["temporal_data"]
+        self.assertEqual(td["temporal_tuples"][0]["timestamp_semantics"], "publication")
+
+    def test_M9_semantic_distinction_reporting_period(self):
+        """§4: reporting_period semantics preserved distinctly in temporal_tuples[]."""
+        body = json.loads(_get("/v1/intelligence/io-cpi-v1")[1])
+        td = body["temporal_data"]
+        ref = next((t for t in td["temporal_tuples"]
+                    if t["timestamp_semantics"] == "reporting_period"), None)
+        self.assertIsNotNone(ref, "reporting_period tuple not in temporal_tuples[]")
+
+    def test_M9_semantic_distinction_document_date(self):
+        """§4: document_date semantics preserved distinctly in temporal_tuples[]."""
+        body = json.loads(_get("/v1/intelligence/io-cpi-v1")[1])
+        td = body["temporal_data"]
+        doc_date = next((t for t in td["temporal_tuples"]
+                         if t["timestamp_semantics"] == "document_date"), None)
+        self.assertIsNotNone(doc_date, "document_date tuple not in temporal_tuples[]")
+
+    # M9.prov — every tuple in temporal_tuples[] has all 6 D4 fields
+    def test_M9_every_tuple_has_all_6_D4_fields(self):
+        """§5: Every tuple in temporal_tuples[] must have all 6 D4 fields."""
+        body = json.loads(_get("/v1/intelligence/io-cpi-v1")[1])
+        td = body["temporal_data"]
+        for i, t in enumerate(td["temporal_tuples"]):
+            for field in ("original_value", "timezone_status", "normalized_utc",
+                         "normalization_basis", "timestamp_semantics", "provenance_source"):
+                self.assertIn(field, t,
+                              f"tuple[{i}] missing D4 field: {field}")
+
+    # M9.order — temporal_tuples[] preserves D4 original order
+    def test_M9_temporal_tuples_preserve_original_order(self):
+        """§1: temporal_tuples[] MUST preserve D4 original order (no reordering)."""
+        body = json.loads(_get("/v1/intelligence/io-cpi-v1")[1])
+        td = body["temporal_data"]
+        tuples = td["temporal_tuples"]
+        self.assertEqual(tuples[0]["timestamp_semantics"], "publication")
+        self.assertEqual(tuples[1]["timestamp_semantics"], "reporting_period")
+        self.assertEqual(tuples[2]["timestamp_semantics"], "document_date")
+
+    # M9.backward — backward compat: publication_* / reference_period_* still work
+    def test_M9_backward_compat_publication_accessor(self):
+        """§7: publication_* convenience fields still work (backward compat)."""
+        body = json.loads(_get("/v1/intelligence/io-fdic-enf")[1])
+        td = body["temporal_data"]
+        self.assertEqual(td["publication_time"], td["temporal_tuples"][0]["normalized_utc"])
+        self.assertEqual(td["publication_time_raw"], td["temporal_tuples"][0]["original_value"])
+
+    def test_M9_backward_compat_reference_period_accessor(self):
+        """§7: reference_period_* convenience fields still work (backward compat)."""
+        body = json.loads(_get("/v1/intelligence/io-cpi-v1")[1])
+        td = body["temporal_data"]
+        ref_tuple = next((t for t in td["temporal_tuples"]
+                          if t["timestamp_semantics"] == "reporting_period"), None)
+        self.assertEqual(td["reference_period"], ref_tuple["normalized_utc"])
+        self.assertEqual(td["reference_period_raw"], ref_tuple["original_value"])
+
 
 if __name__ == "__main__":
     unittest.main()
