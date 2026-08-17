@@ -72,14 +72,15 @@ def build_intelligence_object(store, event_row: dict, source_name: str = "",
 def _project_temporal_data(doc: dict | None) -> TemporalDataProjection | None:
     """Project D4 Document.publication_tuples into K2 TemporalDataProjection.
 
-    Per directive §4-5:
+    Per CORE_K2_D4_FIDELITY_CLOSURE_V1 §3: ALL 6 D4 TemporalTuple fields
+    are now preserved for both publication and reference_period tuples.
+    No D4 field is dropped. No semantic transformation.
+
+    Per CORE_SEMANTIC_PROMOTION_K1_K2_V1 §4-5 (original K2 promotion):
       - publication_time = normalized_utc of the tuple where
         timestamp_semantics == "publication" (or first tuple if none match).
-      - publication_time_raw = original_value of the same tuple.
-      - publication_timezone_status = timezone_status of the same tuple.
       - reference_period = normalized_utc of the tuple where
-        timestamp_semantics == "reporting_period" (D4 distinction).
-      - reference_period_normalized_utc = same as reference_period.
+        timestamp_semantics == "reporting_period" (D4 §9 distinction).
 
     Per §5: null = NOT_APPLICABLE / UNKNOWN. Never fabricate. Never infer
     timezone. Never convert a date-only reference period to UTC.
@@ -102,12 +103,27 @@ def _project_temporal_data(doc: dict | None) -> TemporalDataProjection | None:
     ref_tuple = next((t for t in tuples
                       if t.get("timestamp_semantics") == "reporting_period"), None)
 
+    # Per CORE_K2_D4_FIDELITY_CLOSURE_V1: surface ALL 6 D4 fields for both tuples.
+    # No field is dropped. No semantic transformation.
     return TemporalDataProjection(
+        # Publication tuple — backward-compat fields (K1/K2 promotion):
         publication_time=pub_tuple.get("normalized_utc"),
         publication_time_raw=pub_tuple.get("original_value"),
         publication_timezone_status=pub_tuple.get("timezone_status"),
+        # Publication tuple — D4-faithful fields ADDED per closure (was dropped):
+        publication_normalization_basis=pub_tuple.get("normalization_basis"),
+        publication_timestamp_semantics=pub_tuple.get("timestamp_semantics"),
+        publication_provenance_source=pub_tuple.get("provenance_source"),
+
+        # Reference period tuple — backward-compat fields (K1/K2 promotion):
         reference_period=ref_tuple.get("normalized_utc") if ref_tuple else None,
         reference_period_normalized_utc=ref_tuple.get("normalized_utc") if ref_tuple else None,
+        # Reference period tuple — D4-faithful fields ADDED per closure (was dropped):
+        reference_period_raw=ref_tuple.get("original_value") if ref_tuple else None,
+        reference_period_timezone_status=ref_tuple.get("timezone_status") if ref_tuple else None,
+        reference_period_normalization_basis=ref_tuple.get("normalization_basis") if ref_tuple else None,
+        reference_period_timestamp_semantics=ref_tuple.get("timestamp_semantics") if ref_tuple else None,
+        reference_period_provenance_source=ref_tuple.get("provenance_source") if ref_tuple else None,
     )
 
 

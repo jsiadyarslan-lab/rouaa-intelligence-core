@@ -30,14 +30,41 @@ def _chain(fact_id, metric, value, ev_id, rep_sha, doc_id, url, src, inst):
              "source": {"source_id": src, "institution_id": inst}}]
 
 
-def _temporal(publication_time, publication_time_raw, timezone_status, reference_period=None):
-    """K2 projection per D4. null = NOT_APPLICABLE / UNKNOWN (§5 — no fabrication)."""
+def _temporal(publication_time, publication_time_raw, timezone_status,
+              reference_period=None, reference_period_raw=None,
+              reference_period_timezone_status=None,
+              publication_normalization_basis="EXPLICIT_SOURCE_TIMEZONE",
+              publication_provenance_source="rss_pubdate",
+              reference_period_normalization_basis=None,
+              reference_period_provenance_source=None,
+              publication_timestamp_semantics="publication",
+              reference_period_timestamp_semantics=None):
+    """K2 projection per D4 — ALL 6 D4 fields preserved per CORE_K2_D4_FIDELITY_CLOSURE_V1.
+
+    D4 TemporalTuple fields (contracts.py):
+      original_value, timezone_status, normalized_utc,
+      normalization_basis, timestamp_semantics, provenance_source
+
+    null = NOT_APPLICABLE / UNKNOWN (§5 — no fabrication).
+    """
     return {
+        # Publication tuple — backward-compat (K1/K2 promotion):
         "publication_time": publication_time,
         "publication_time_raw": publication_time_raw,
         "publication_timezone_status": timezone_status,
+        # Publication tuple — D4-faithful (added per closure — was dropped):
+        "publication_normalization_basis": publication_normalization_basis,
+        "publication_timestamp_semantics": publication_timestamp_semantics,
+        "publication_provenance_source": publication_provenance_source,
+        # Reference period tuple — backward-compat (K1/K2 promotion):
         "reference_period": reference_period,
         "reference_period_normalized_utc": reference_period,
+        # Reference period tuple — D4-faithful (added per closure — was dropped):
+        "reference_period_raw": reference_period_raw,
+        "reference_period_timezone_status": reference_period_timezone_status,
+        "reference_period_normalization_basis": reference_period_normalization_basis,
+        "reference_period_timestamp_semantics": reference_period_timestamp_semantics,
+        "reference_period_provenance_source": reference_period_provenance_source,
     }
 
 
@@ -56,8 +83,17 @@ FIXTURES = [
          publication_time="2026-08-12T08:00:58Z",
          publication_time_raw="Wed, 12 Aug 2026 08:00:58 +0000",
          timezone_status="EXPLICIT_ZONE",
+         publication_normalization_basis="EXPLICIT_SOURCE_TIMEZONE",
+         publication_provenance_source="rss_pubdate",
+         publication_timestamp_semantics="publication",
          # Statistical release reference_period — distinct from publication_time (D4 §9).
-         reference_period="2026-07")},
+         # Full D4 tuple preserved per CORE_K2_D4_FIDELITY_CLOSURE_V1.
+         reference_period="2026-07",
+         reference_period_raw="2026-07",
+         reference_period_timezone_status="DATE_ONLY",
+         reference_period_normalization_basis="NONE",
+         reference_period_timestamp_semantics="reporting_period",
+         reference_period_provenance_source="rendered_text")},
     # ISTAT CPI v2 — ACTIVE (correction of v1). Same statistical_release, +0.4.
     {"io_id": "io-cpi-v2", "version": 1, "event_id": "evt-cpi", "event_version": 2,
      "status": "ACTIVE", "supersedes_io_id": "io-cpi-v1",
@@ -70,7 +106,15 @@ FIXTURES = [
          publication_time="2026-08-13T08:00:00Z",
          publication_time_raw="Thu, 13 Aug 2026 10:00:00 +0200",
          timezone_status="EXPLICIT_OFFSET",
-         reference_period="2026-07")},
+         publication_normalization_basis="EXPLICIT_SOURCE_TIMEZONE",
+         publication_provenance_source="rss_pubdate",
+         publication_timestamp_semantics="publication",
+         reference_period="2026-07",
+         reference_period_raw="2026-07",
+         reference_period_timezone_status="DATE_ONLY",
+         reference_period_normalization_basis="NONE",
+         reference_period_timestamp_semantics="reporting_period",
+         reference_period_provenance_source="rendered_text")},
     # FDIC enforcement — regulatory_enforcement. reference_period=null (per §12).
     {"io_id": "io-fdic-enf", "version": 1, "event_id": "evt-fdic", "event_version": 1,
      "status": "ACTIVE", "supersedes_io_id": None,
@@ -83,6 +127,9 @@ FIXTURES = [
          publication_time="2026-07-31T00:00:00Z",
          publication_time_raw="Fri, 31 Jul 2026 00:00:00 +0000",
          timezone_status="EXPLICIT_ZONE",
+         publication_normalization_basis="EXPLICIT_SOURCE_TIMEZONE",
+         publication_provenance_source="rss_pubdate",
+         publication_timestamp_semantics="publication",
          reference_period=None)},
 ]
 BY_ID = {f["io_id"]: f for f in FIXTURES}

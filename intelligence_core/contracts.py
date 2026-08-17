@@ -203,29 +203,67 @@ class Evidence:  # binds to the EXACT representation (D1 rule 5)
 
 
 @dataclass
-class TemporalDataProjection:  # K2 — D4 publication_tuples projected to IO emission
+class TemporalDataProjection:  # K2 — D4 publication_tuples projected to IO emission (D4-faithful)
     """K2 projection of D4 Document.publication_tuples into the IO.
 
-    Per directive CORE_SEMANTIC_PROMOTION_K1_K2_V1 §4-5:
-      - publication_time: normalized_utc of the tuple where
-        timestamp_semantics == "publication" (or first tuple if none match).
-      - publication_time_raw: original_value of the same tuple.
-      - publication_timezone_status: timezone_status of the same tuple.
-      - reference_period: normalized_utc of the tuple where
-        timestamp_semantics == "reporting_period" (D4 distinction).
-      - reference_period_normalized_utc: same as reference_period
-        (kept as a separate field for explicit D4-compliance clarity).
+    Per CORE_K2_D4_FIDELITY_CLOSURE_V1 §3: ALL 6 D4 TemporalTuple fields
+    are now preserved for both publication and reference_period tuples.
+    Previous K2 promotion (CORE_SEMANTIC_PROMOTION_K1_K2_V1) had silently
+    dropped `normalization_basis` and `provenance_source` — this closure
+    restores them so D4 == IO emission (no semantic loss).
+
+    D4 TemporalTuple fields (contracts.py):
+      1. original_value       — the raw timestamp string from the source
+      2. timezone_status      — D4 TZStatus enum (EXPLICIT_ZONE, EXPLICIT_OFFSET,
+                                 NAIVE_LOCAL, DATE_ONLY, UNKNOWN)
+      3. normalized_utc       — ISO 8601 UTC, or null when zone unknown
+      4. normalization_basis  — D4 NormBasis enum (EXPLICIT_SOURCE_TIMEZONE,
+                                 SOURCE_DOCUMENT_METADATA, JURISDICTION_RULE,
+                                 INFERRED, NONE) — determines ordering participation
+      5. timestamp_semantics   — D4 Semantics enum (publication, reporting_period,
+                                 update, effective, document_date, event_occurrence, unknown)
+      6. provenance_source     — D4 ProvenanceSource enum (rss_pubdate, html_time_attr,
+                                 meta_date, url_date, rendered_text, js_title,
+                                 filename, file_metadata)
+
+    Projection mapping (per tuple — publication + reference_period):
+      D4 original_value       → *_raw
+      D4 timezone_status      → *_timezone_status
+      D4 normalized_utc       → publication_time / reference_period (+ *_normalized_utc alias)
+      D4 normalization_basis  → *_normalization_basis        [ADDED per closure]
+      D4 timestamp_semantics  → *_timestamp_semantics          [ADDED per closure]
+      D4 provenance_source    → *_provenance_source             [ADDED per closure]
+
+    Backward compat: the original 5 field names from K1/K2 promotion are
+    preserved. The new D4-faithful fields are ADDITIVE — no consumer breaks.
 
     D4 semantics for missing values (§5):
       - null = NOT_APPLICABLE / UNKNOWN (never fabricated).
       - A date-only reference period is preserved as-is, NOT converted to UTC.
       - A missing timezone is preserved as None, NOT inferred.
+      - normalization_basis = NONE when D4 says the timezone is not safely
+        normalizable (normalized_utc = null in that case).
     """
-    publication_time: Optional[str] = None
-    publication_time_raw: Optional[str] = None
-    publication_timezone_status: Optional[str] = None
-    reference_period: Optional[str] = None
-    reference_period_normalized_utc: Optional[str] = None
+    # === Publication tuple (timestamp_semantics == "publication") ===
+    # Backward-compat aliases (from K1/K2 promotion):
+    publication_time: Optional[str] = None              # D4 normalized_utc
+    publication_time_raw: Optional[str] = None          # D4 original_value
+    publication_timezone_status: Optional[str] = None  # D4 timezone_status
+    # ADDED per CORE_K2_D4_FIDELITY_CLOSURE_V1 (D4-faithful — was dropped):
+    publication_normalization_basis: Optional[str] = None   # D4 normalization_basis
+    publication_timestamp_semantics: Optional[str] = None   # D4 timestamp_semantics
+    publication_provenance_source: Optional[str] = None     # D4 provenance_source
+
+    # === Reference period tuple (timestamp_semantics == "reporting_period") ===
+    # Backward-compat aliases (from K1/K2 promotion):
+    reference_period: Optional[str] = None                    # D4 normalized_utc
+    reference_period_normalized_utc: Optional[str] = None     # D4 normalized_utc (alias)
+    # ADDED per CORE_K2_D4_FIDELITY_CLOSURE_V1 (D4-faithful — was dropped):
+    reference_period_raw: Optional[str] = None                # D4 original_value
+    reference_period_timezone_status: Optional[str] = None    # D4 timezone_status
+    reference_period_normalization_basis: Optional[str] = None # D4 normalization_basis
+    reference_period_timestamp_semantics: Optional[str] = None # D4 timestamp_semantics
+    reference_period_provenance_source: Optional[str] = None   # D4 provenance_source
 
     def to_dict(self) -> dict: return asdict(self)
 

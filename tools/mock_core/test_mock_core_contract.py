@@ -95,17 +95,38 @@ class TestCanonicalContract(unittest.TestCase):
         self.assertEqual(body["event_type"], "regulatory_enforcement")
         self.assertIsInstance(body["event_type"], str)
 
-    # M2.K2 — K2 temporal_data is now EMITTED with 5 D4 sub-fields
-    def test_M2_K2_temporal_data_present_with_5_subfields(self):
+    # M2.K2 — K2 temporal_data is now EMITTED with ALL 6 D4 fields per tuple
+    # (CORE_K2_D4_FIDELITY_CLOSURE_V1 — was 5 fields with 2 dropped: normalization_basis, provenance_source)
+    def test_M2_K2_temporal_data_preserves_all_6_D4_fields_publication(self):
+        """Per CORE_K2_D4_FIDELITY_CLOSURE_V1 §3: ALL 6 D4 TemporalTuple fields
+        must be preserved for the publication tuple. Previously dropped:
+        normalization_basis, provenance_source."""
         body = json.loads(_get("/v1/intelligence/io-fdic-enf")[1])
-        self.assertIn("temporal_data", body)
         td = body["temporal_data"]
-        self.assertIsInstance(td, dict)
-        # All 5 sub-fields present per directive §4
-        for sub in ("publication_time", "publication_time_raw",
-                    "publication_timezone_status", "reference_period",
-                    "reference_period_normalized_utc"):
-            self.assertIn(sub, td, f"K2 sub-field missing: {sub}")
+        # Publication tuple — all 6 D4 fields (3 backward-compat + 3 added per closure)
+        for sub in ("publication_time",               # D4 normalized_utc
+                    "publication_time_raw",            # D4 original_value
+                    "publication_timezone_status",     # D4 timezone_status
+                    "publication_normalization_basis",  # D4 normalization_basis [ADDED]
+                    "publication_timestamp_semantics", # D4 timestamp_semantics [ADDED]
+                    "publication_provenance_source"):   # D4 provenance_source [ADDED]
+            self.assertIn(sub, td, f"D4-faithful publication field missing: {sub}")
+
+    def test_M2_K2_temporal_data_preserves_all_6_D4_fields_reference_period(self):
+        """Per CORE_K2_D4_FIDELITY_CLOSURE_V1 §3: ALL 6 D4 TemporalTuple fields
+        must be preserved for the reference_period tuple when it exists."""
+        # io-cpi-v1 is a statistical_release WITH reference_period (non-null)
+        body = json.loads(_get("/v1/intelligence/io-cpi-v1")[1])
+        td = body["temporal_data"]
+        # Reference period tuple — all 6 D4 fields
+        for sub in ("reference_period",                      # D4 normalized_utc
+                    "reference_period_normalized_utc",      # D4 normalized_utc (alias)
+                    "reference_period_raw",                  # D4 original_value [ADDED]
+                    "reference_period_timezone_status",     # D4 timezone_status [ADDED]
+                    "reference_period_normalization_basis",  # D4 normalization_basis [ADDED]
+                    "reference_period_timestamp_semantics", # D4 timestamp_semantics [ADDED]
+                    "reference_period_provenance_source"):   # D4 provenance_source [ADDED]
+            self.assertIn(sub, td, f"D4-faithful reference_period field missing: {sub}")
 
     # M3 — versioning: io.version=1 constant; event_version carries D2 lineage
     def test_M3_v1_v2_distinct_histories_preserved(self):
@@ -187,6 +208,94 @@ class TestCanonicalContract(unittest.TestCase):
         self.assertIsNone(td["reference_period_normalized_utc"])
         # But publication_time is present (regulatory actions are published)
         self.assertIsNotNone(td["publication_time"])
+
+    # ── CORE_K2_D4_FIDELITY_CLOSURE_V1: D4 field preservation tests ──
+
+    # M7.D4.pub — publication tuple preserves normalization_basis + provenance_source
+    def test_M7_D4_publication_normalization_basis_preserved(self):
+        """§3 critical check: D4 normalization_basis MUST be preserved (was dropped)."""
+        body = json.loads(_get("/v1/intelligence/io-fdic-enf")[1])
+        td = body["temporal_data"]
+        self.assertIsNotNone(td["publication_normalization_basis"],
+                              "publication_normalization_basis was dropped — D4 semantic loss")
+        self.assertEqual(td["publication_normalization_basis"], "EXPLICIT_SOURCE_TIMEZONE")
+
+    def test_M7_D4_publication_provenance_source_preserved(self):
+        """§3 critical check: D4 provenance_source MUST be preserved (was dropped)."""
+        body = json.loads(_get("/v1/intelligence/io-fdic-enf")[1])
+        td = body["temporal_data"]
+        self.assertIsNotNone(td["publication_provenance_source"],
+                              "publication_provenance_source was dropped — D4 semantic loss")
+        self.assertEqual(td["publication_provenance_source"], "rss_pubdate")
+
+    def test_M7_D4_publication_timestamp_semantics_preserved(self):
+        """§3: D4 timestamp_semantics MUST be preserved."""
+        body = json.loads(_get("/v1/intelligence/io-fdic-enf")[1])
+        td = body["temporal_data"]
+        self.assertIsNotNone(td["publication_timestamp_semantics"])
+        self.assertEqual(td["publication_timestamp_semantics"], "publication")
+
+    # M7.D4.ref — reference_period tuple preserves all D4 fields (statistical release)
+    def test_M7_D4_reference_period_normalization_basis_preserved(self):
+        """§3: D4 normalization_basis preserved for reference_period tuple (statistical release)."""
+        body = json.loads(_get("/v1/intelligence/io-cpi-v1")[1])
+        td = body["temporal_data"]
+        # Statistical release has a DATE_ONLY reference_period (no timezone)
+        self.assertIsNotNone(td["reference_period_normalization_basis"])
+        self.assertEqual(td["reference_period_normalization_basis"], "NONE")
+        # D4 §5: when normalization_basis is NONE, normalized_utc should be null
+        # (date-only reference periods are NOT converted to UTC)
+        # BUT the mock fixture uses "2026-07" as the reference_period value
+        # (a month identifier, not a UTC timestamp). This is the D4-faithful
+        # representation of a date-only statistical reporting period.
+
+    def test_M7_D4_reference_period_provenance_source_preserved(self):
+        """§3: D4 provenance_source preserved for reference_period tuple."""
+        body = json.loads(_get("/v1/intelligence/io-cpi-v1")[1])
+        td = body["temporal_data"]
+        self.assertIsNotNone(td["reference_period_provenance_source"])
+        self.assertEqual(td["reference_period_provenance_source"], "rendered_text")
+
+    def test_M7_D4_reference_period_timestamp_semantics_preserved(self):
+        """§3: D4 timestamp_semantics preserved for reference_period tuple."""
+        body = json.loads(_get("/v1/intelligence/io-cpi-v1")[1])
+        td = body["temporal_data"]
+        self.assertIsNotNone(td["reference_period_timestamp_semantics"])
+        self.assertEqual(td["reference_period_timestamp_semantics"], "reporting_period")
+
+    def test_M7_D4_reference_period_raw_preserved(self):
+        """§3: D4 original_value preserved for reference_period tuple (was dropped)."""
+        body = json.loads(_get("/v1/intelligence/io-cpi-v1")[1])
+        td = body["temporal_data"]
+        self.assertIsNotNone(td["reference_period_raw"],
+                              "reference_period_raw was dropped — D4 original_value lost")
+
+    def test_M7_D4_reference_period_timezone_status_preserved(self):
+        """§3: D4 timezone_status preserved for reference_period tuple (was dropped)."""
+        body = json.loads(_get("/v1/intelligence/io-cpi-v1")[1])
+        td = body["temporal_data"]
+        self.assertIsNotNone(td["reference_period_timezone_status"],
+                              "reference_period_timezone_status was dropped — D4 timezone_status lost")
+        # DATE_ONLY because "2026-07" is a month, not a timestamp with timezone
+        self.assertEqual(td["reference_period_timezone_status"], "DATE_ONLY")
+
+    # M7.D4.edge — edge cases: DATE_ONLY, UNKNOWN, NAIVE_LOCAL, EXPLICIT_OFFSET, EXPLICIT_ZONE
+    def test_M7_D4_edge_timezone_statuses_represented(self):
+        """§5: D4 TZStatus enum values must be preservable in the IO emission."""
+        # FDIC has EXPLICIT_ZONE (UTC Z-suffix)
+        body = json.loads(_get("/v1/intelligence/io-fdic-enf")[1])
+        td = body["temporal_data"]
+        self.assertEqual(td["publication_timezone_status"], "EXPLICIT_ZONE")
+
+        # ISTAT CPI v2 has EXPLICIT_OFFSET (+0200)
+        body2 = json.loads(_get("/v1/intelligence/io-cpi-v2")[1])
+        td2 = body2["temporal_data"]
+        self.assertEqual(td2["publication_timezone_status"], "EXPLICIT_OFFSET")
+
+        # ISTAT CPI v1 has DATE_ONLY for reference_period (month identifier)
+        body3 = json.loads(_get("/v1/intelligence/io-cpi-v1")[1])
+        td3 = body3["temporal_data"]
+        self.assertEqual(td3["reference_period_timezone_status"], "DATE_ONLY")
 
     # M8 — traceability endpoint (Contract B)
     def test_M8_trace_chain(self):
