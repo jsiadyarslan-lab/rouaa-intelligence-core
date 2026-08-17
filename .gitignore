@@ -22,3 +22,9 @@ __pycache__/
 .DS_Store
 Thumbs.db
 scale_validation_store/blobs/
+
+# V2 — ignore transient test artifacts (kept locally for verification)
+/concurrent_ingestion_results.json
+/transport_load_results.json
+/corpus_expansion_results.json
+/golden_corpus_frozen.json

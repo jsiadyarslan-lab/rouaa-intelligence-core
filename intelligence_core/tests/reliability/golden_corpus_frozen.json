@@ -1,0 +1,2372 @@
+{
+  "io-2844579030f0f3a6": {
+    "io_id": "io-2844579030f0f3a6",
+    "event_type": "regulatory_enforcement",
+    "frozen_at": "2026-08-17T21:28:33Z",
+    "io_dict": {
+      "io_id": "io-2844579030f0f3a6",
+      "version": 1,
+      "event_id": "evt-7c1bf25b825151cc",
+      "event_version": 1,
+      "headline": "Source Regulatory Enforcement Action",
+      "chain": [
+        {
+          "fact": {
+            "fact_id": "fact-ed8488c84b6269ed",
+            "fact_version": 1,
+            "metric": "action_type",
+            "value": "consent order"
+          },
+          "evidence": [
+            {
+              "evidence_id": "evi-c98001b26d6c465f",
+              "excerpt": "Source 3000 issued consent order against bank for violations.",
+              "representation_id": "rep-job-3000-001"
+            }
+          ],
+          "representation": {
+            "representation_id": "rep-job-3000-001",
+            "content_sha256": "9e8bb2c08855f80e6dccfb39b1dc42d39d274ab85cfc2149cf5b0676898a298c"
+          },
+          "document": {
+            "document_id": "doc-job-3000-001",
+            "canonical_url": "https://src-job-3000.example.com/doc/doc-job-3000-001"
+          },
+          "source": {
+            "source_id": "src-job-3000",
+            "institution_id": "INST-job-3000"
+          }
+        }
+      ],
+      "created_at": "",
+      "event_type": "regulatory_enforcement",
+      "temporal_data": {
+        "temporal_tuples": [
+          {
+            "original_value": "2026-08-18T10:00:00Z",
+            "timezone_status": "EXPLICIT_ZONE",
+            "normalized_utc": "2026-08-18T10:00:00Z",
+            "normalization_basis": "EXPLICIT_SOURCE_TIMEZONE",
+            "timestamp_semantics": "publication",
+            "provenance_source": "rss_pubdate"
+          },
+          {
+            "original_value": "2026-07-31",
+            "timezone_status": "DATE_ONLY",
+            "normalized_utc": null,
+            "normalization_basis": "NONE",
+            "timestamp_semantics": "reporting_period",
+            "provenance_source": "rendered_text"
+          }
+        ],
+        "publication_time": "2026-08-18T10:00:00Z",
+        "publication_time_raw": "2026-08-18T10:00:00Z",
+        "publication_timezone_status": "EXPLICIT_ZONE",
+        "publication_normalization_basis": "EXPLICIT_SOURCE_TIMEZONE",
+        "publication_timestamp_semantics": "publication",
+        "publication_provenance_source": "rss_pubdate",
+        "reference_period": null,
+        "reference_period_normalized_utc": null,
+        "reference_period_raw": "2026-07-31",
+        "reference_period_timezone_status": "DATE_ONLY",
+        "reference_period_normalization_basis": "NONE",
+        "reference_period_timestamp_semantics": "reporting_period",
+        "reference_period_provenance_source": "rendered_text"
+      },
+      "status": "ACTIVE",
+      "supersedes_io_id": null
+    },
+    "etag": "W/\"7774b2980ba82b46\""
+  },
+  "io-4742c75c3cf25897": {
+    "io_id": "io-4742c75c3cf25897",
+    "event_type": "regulatory_enforcement",
+    "frozen_at": "2026-08-17T21:28:33Z",
+    "io_dict": {
+      "io_id": "io-4742c75c3cf25897",
+      "version": 1,
+      "event_id": "evt-4925853679b48e20",
+      "event_version": 1,
+      "headline": "Source Regulatory Enforcement Action",
+      "chain": [
+        {
+          "fact": {
+            "fact_id": "fact-4c55caa8436c214d",
+            "fact_version": 1,
+            "metric": "action_type",
+            "value": "consent order"
+          },
+          "evidence": [
+            {
+              "evidence_id": "evi-1d938b16324b4352",
+              "excerpt": "Source 3010 issued consent order against bank for violations.",
+              "representation_id": "rep-job-3010-001"
+            }
+          ],
+          "representation": {
+            "representation_id": "rep-job-3010-001",
+            "content_sha256": "f36dc23102bea30ba62f237244da79b1c56cd84bd87a0946be0cc47b2eb5400c"
+          },
+          "document": {
+            "document_id": "doc-job-3010-001",
+            "canonical_url": "https://src-job-3010.example.com/doc/doc-job-3010-001"
+          },
+          "source": {
+            "source_id": "src-job-3010",
+            "institution_id": "INST-job-3010"
+          }
+        }
+      ],
+      "created_at": "",
+      "event_type": "regulatory_enforcement",
+      "temporal_data": {
+        "temporal_tuples": [
+          {
+            "original_value": "2026-08-18T10:00:00Z",
+            "timezone_status": "EXPLICIT_ZONE",
+            "normalized_utc": "2026-08-18T10:00:00Z",
+            "normalization_basis": "EXPLICIT_SOURCE_TIMEZONE",
+            "timestamp_semantics": "publication",
+            "provenance_source": "rss_pubdate"
+          },
+          {
+            "original_value": "2026-07-31",
+            "timezone_status": "DATE_ONLY",
+            "normalized_utc": null,
+            "normalization_basis": "NONE",
+            "timestamp_semantics": "reporting_period",
+            "provenance_source": "rendered_text"
+          }
+        ],
+        "publication_time": "2026-08-18T10:00:00Z",
+        "publication_time_raw": "2026-08-18T10:00:00Z",
+        "publication_timezone_status": "EXPLICIT_ZONE",
+        "publication_normalization_basis": "EXPLICIT_SOURCE_TIMEZONE",
+        "publication_timestamp_semantics": "publication",
+        "publication_provenance_source": "rss_pubdate",
+        "reference_period": null,
+        "reference_period_normalized_utc": null,
+        "reference_period_raw": "2026-07-31",
+        "reference_period_timezone_status": "DATE_ONLY",
+        "reference_period_normalization_basis": "NONE",
+        "reference_period_timestamp_semantics": "reporting_period",
+        "reference_period_provenance_source": "rendered_text"
+      },
+      "status": "ACTIVE",
+      "supersedes_io_id": null
+    },
+    "etag": "W/\"05e06df66a915cb0\""
+  },
+  "io-536ef6034fc6c28d": {
+    "io_id": "io-536ef6034fc6c28d",
+    "event_type": "regulatory_enforcement",
+    "frozen_at": "2026-08-17T21:28:33Z",
+    "io_dict": {
+      "io_id": "io-536ef6034fc6c28d",
+      "version": 1,
+      "event_id": "evt-df0a06bf92d1c520",
+      "event_version": 1,
+      "headline": "Source Regulatory Enforcement Action",
+      "chain": [
+        {
+          "fact": {
+            "fact_id": "fact-cbb3e8b17514c588",
+            "fact_version": 1,
+            "metric": "action_type",
+            "value": "consent order"
+          },
+          "evidence": [
+            {
+              "evidence_id": "evi-69986d6fe7e0e15c",
+              "excerpt": "Source 3007 issued consent order against bank for violations.",
+              "representation_id": "rep-job-3007-001"
+            }
+          ],
+          "representation": {
+            "representation_id": "rep-job-3007-001",
+            "content_sha256": "7f3f211879a4bcb46e7611e8678ce0316340cd532806b06bbf63d4deb4059a45"
+          },
+          "document": {
+            "document_id": "doc-job-3007-001",
+            "canonical_url": "https://src-job-3007.example.com/doc/doc-job-3007-001"
+          },
+          "source": {
+            "source_id": "src-job-3007",
+            "institution_id": "INST-job-3007"
+          }
+        }
+      ],
+      "created_at": "",
+      "event_type": "regulatory_enforcement",
+      "temporal_data": {
+        "temporal_tuples": [
+          {
+            "original_value": "2026-08-18T10:00:00Z",
+            "timezone_status": "EXPLICIT_ZONE",
+            "normalized_utc": "2026-08-18T10:00:00Z",
+            "normalization_basis": "EXPLICIT_SOURCE_TIMEZONE",
+            "timestamp_semantics": "publication",
+            "provenance_source": "rss_pubdate"
+          },
+          {
+            "original_value": "2026-07-31",
+            "timezone_status": "DATE_ONLY",
+            "normalized_utc": null,
+            "normalization_basis": "NONE",
+            "timestamp_semantics": "reporting_period",
+            "provenance_source": "rendered_text"
+          }
+        ],
+        "publication_time": "2026-08-18T10:00:00Z",
+        "publication_time_raw": "2026-08-18T10:00:00Z",
+        "publication_timezone_status": "EXPLICIT_ZONE",
+        "publication_normalization_basis": "EXPLICIT_SOURCE_TIMEZONE",
+        "publication_timestamp_semantics": "publication",
+        "publication_provenance_source": "rss_pubdate",
+        "reference_period": null,
+        "reference_period_normalized_utc": null,
+        "reference_period_raw": "2026-07-31",
+        "reference_period_timezone_status": "DATE_ONLY",
+        "reference_period_normalization_basis": "NONE",
+        "reference_period_timestamp_semantics": "reporting_period",
+        "reference_period_provenance_source": "rendered_text"
+      },
+      "status": "ACTIVE",
+      "supersedes_io_id": null
+    },
+    "etag": "W/\"20eb011a7d1db0ba\""
+  },
+  "io-565f6bf0d75ef25f": {
+    "io_id": "io-565f6bf0d75ef25f",
+    "event_type": "regulatory_enforcement",
+    "frozen_at": "2026-08-17T21:28:33Z",
+    "io_dict": {
+      "io_id": "io-565f6bf0d75ef25f",
+      "version": 1,
+      "event_id": "evt-e28eb0d5acb3244e",
+      "event_version": 1,
+      "headline": "Source Regulatory Enforcement Action",
+      "chain": [
+        {
+          "fact": {
+            "fact_id": "fact-cd11d29854253a52",
+            "fact_version": 1,
+            "metric": "action_type",
+            "value": "consent order"
+          },
+          "evidence": [
+            {
+              "evidence_id": "evi-9814ade92878c60a",
+              "excerpt": "Source 3006 issued consent order against bank for violations.",
+              "representation_id": "rep-job-3006-001"
+            }
+          ],
+          "representation": {
+            "representation_id": "rep-job-3006-001",
+            "content_sha256": "bb7a6cf951c80fe944555122c157d834d57c3bfd243f5c473a4955bf75060346"
+          },
+          "document": {
+            "document_id": "doc-job-3006-001",
+            "canonical_url": "https://src-job-3006.example.com/doc/doc-job-3006-001"
+          },
+          "source": {
+            "source_id": "src-job-3006",
+            "institution_id": "INST-job-3006"
+          }
+        }
+      ],
+      "created_at": "",
+      "event_type": "regulatory_enforcement",
+      "temporal_data": {
+        "temporal_tuples": [
+          {
+            "original_value": "2026-08-18T10:00:00Z",
+            "timezone_status": "EXPLICIT_ZONE",
+            "normalized_utc": "2026-08-18T10:00:00Z",
+            "normalization_basis": "EXPLICIT_SOURCE_TIMEZONE",
+            "timestamp_semantics": "publication",
+            "provenance_source": "rss_pubdate"
+          },
+          {
+            "original_value": "2026-07-31",
+            "timezone_status": "DATE_ONLY",
+            "normalized_utc": null,
+            "normalization_basis": "NONE",
+            "timestamp_semantics": "reporting_period",
+            "provenance_source": "rendered_text"
+          }
+        ],
+        "publication_time": "2026-08-18T10:00:00Z",
+        "publication_time_raw": "2026-08-18T10:00:00Z",
+        "publication_timezone_status": "EXPLICIT_ZONE",
+        "publication_normalization_basis": "EXPLICIT_SOURCE_TIMEZONE",
+        "publication_timestamp_semantics": "publication",
+        "publication_provenance_source": "rss_pubdate",
+        "reference_period": null,
+        "reference_period_normalized_utc": null,
+        "reference_period_raw": "2026-07-31",
+        "reference_period_timezone_status": "DATE_ONLY",
+        "reference_period_normalization_basis": "NONE",
+        "reference_period_timestamp_semantics": "reporting_period",
+        "reference_period_provenance_source": "rendered_text"
+      },
+      "status": "ACTIVE",
+      "supersedes_io_id": null
+    },
+    "etag": "W/\"871d06f2b904c55b\""
+  },
+  "io-693a5319c9d115c5": {
+    "io_id": "io-693a5319c9d115c5",
+    "event_type": "regulatory_enforcement",
+    "frozen_at": "2026-08-17T21:28:33Z",
+    "io_dict": {
+      "io_id": "io-693a5319c9d115c5",
+      "version": 1,
+      "event_id": "evt-f4bfa44a4c8061f7",
+      "event_version": 1,
+      "headline": "Source Regulatory Enforcement Action",
+      "chain": [
+        {
+          "fact": {
+            "fact_id": "fact-519dba13e97a4b5f",
+            "fact_version": 1,
+            "metric": "action_type",
+            "value": "consent order"
+          },
+          "evidence": [
+            {
+              "evidence_id": "evi-d3af548ce030daad",
+              "excerpt": "Source 3008 issued consent order against bank for violations.",
+              "representation_id": "rep-job-3008-001"
+            }
+          ],
+          "representation": {
+            "representation_id": "rep-job-3008-001",
+            "content_sha256": "d71faaf3eb80edcae4928eee33a6af100b8a4226eea54b9ed9582f061b26aa95"
+          },
+          "document": {
+            "document_id": "doc-job-3008-001",
+            "canonical_url": "https://src-job-3008.example.com/doc/doc-job-3008-001"
+          },
+          "source": {
+            "source_id": "src-job-3008",
+            "institution_id": "INST-job-3008"
+          }
+        }
+      ],
+      "created_at": "",
+      "event_type": "regulatory_enforcement",
+      "temporal_data": {
+        "temporal_tuples": [
+          {
+            "original_value": "2026-08-18T10:00:00Z",
+            "timezone_status": "EXPLICIT_ZONE",
+            "normalized_utc": "2026-08-18T10:00:00Z",
+            "normalization_basis": "EXPLICIT_SOURCE_TIMEZONE",
+            "timestamp_semantics": "publication",
+            "provenance_source": "rss_pubdate"
+          },
+          {
+            "original_value": "2026-07-31",
+            "timezone_status": "DATE_ONLY",
+            "normalized_utc": null,
+            "normalization_basis": "NONE",
+            "timestamp_semantics": "reporting_period",
+            "provenance_source": "rendered_text"
+          }
+        ],
+        "publication_time": "2026-08-18T10:00:00Z",
+        "publication_time_raw": "2026-08-18T10:00:00Z",
+        "publication_timezone_status": "EXPLICIT_ZONE",
+        "publication_normalization_basis": "EXPLICIT_SOURCE_TIMEZONE",
+        "publication_timestamp_semantics": "publication",
+        "publication_provenance_source": "rss_pubdate",
+        "reference_period": null,
+        "reference_period_normalized_utc": null,
+        "reference_period_raw": "2026-07-31",
+        "reference_period_timezone_status": "DATE_ONLY",
+        "reference_period_normalization_basis": "NONE",
+        "reference_period_timestamp_semantics": "reporting_period",
+        "reference_period_provenance_source": "rendered_text"
+      },
+      "status": "ACTIVE",
+      "supersedes_io_id": null
+    },
+    "etag": "W/\"8baa6893359a7ef6\""
+  },
+  "io-6b097c53038400ae": {
+    "io_id": "io-6b097c53038400ae",
+    "event_type": "regulatory_enforcement",
+    "frozen_at": "2026-08-17T21:28:33Z",
+    "io_dict": {
+      "io_id": "io-6b097c53038400ae",
+      "version": 1,
+      "event_id": "evt-be4933af0c5210bd",
+      "event_version": 1,
+      "headline": "Source Regulatory Enforcement Action",
+      "chain": [
+        {
+          "fact": {
+            "fact_id": "fact-0afc776385a2cf85",
+            "fact_version": 1,
+            "metric": "action_type",
+            "value": "consent order"
+          },
+          "evidence": [
+            {
+              "evidence_id": "evi-8f2d234b5e9b34e7",
+              "excerpt": "Source 3018 issued consent order against bank for violations.",
+              "representation_id": "rep-job-3018-001"
+            }
+          ],
+          "representation": {
+            "representation_id": "rep-job-3018-001",
+            "content_sha256": "ef8fe67e754ab82703e63b17925c53f91e926672f80f41b3516842a67922e1dd"
+          },
+          "document": {
+            "document_id": "doc-job-3018-001",
+            "canonical_url": "https://src-job-3018.example.com/doc/doc-job-3018-001"
+          },
+          "source": {
+            "source_id": "src-job-3018",
+            "institution_id": "INST-job-3018"
+          }
+        }
+      ],
+      "created_at": "",
+      "event_type": "regulatory_enforcement",
+      "temporal_data": {
+        "temporal_tuples": [
+          {
+            "original_value": "2026-08-18T10:00:00Z",
+            "timezone_status": "EXPLICIT_ZONE",
+            "normalized_utc": "2026-08-18T10:00:00Z",
+            "normalization_basis": "EXPLICIT_SOURCE_TIMEZONE",
+            "timestamp_semantics": "publication",
+            "provenance_source": "rss_pubdate"
+          },
+          {
+            "original_value": "2026-07-31",
+            "timezone_status": "DATE_ONLY",
+            "normalized_utc": null,
+            "normalization_basis": "NONE",
+            "timestamp_semantics": "reporting_period",
+            "provenance_source": "rendered_text"
+          }
+        ],
+        "publication_time": "2026-08-18T10:00:00Z",
+        "publication_time_raw": "2026-08-18T10:00:00Z",
+        "publication_timezone_status": "EXPLICIT_ZONE",
+        "publication_normalization_basis": "EXPLICIT_SOURCE_TIMEZONE",
+        "publication_timestamp_semantics": "publication",
+        "publication_provenance_source": "rss_pubdate",
+        "reference_period": null,
+        "reference_period_normalized_utc": null,
+        "reference_period_raw": "2026-07-31",
+        "reference_period_timezone_status": "DATE_ONLY",
+        "reference_period_normalization_basis": "NONE",
+        "reference_period_timestamp_semantics": "reporting_period",
+        "reference_period_provenance_source": "rendered_text"
+      },
+      "status": "ACTIVE",
+      "supersedes_io_id": null
+    },
+    "etag": "W/\"38c7cd93c8c512d8\""
+  },
+  "io-6bd1b046f5440f5e": {
+    "io_id": "io-6bd1b046f5440f5e",
+    "event_type": "regulatory_enforcement",
+    "frozen_at": "2026-08-17T21:28:33Z",
+    "io_dict": {
+      "io_id": "io-6bd1b046f5440f5e",
+      "version": 1,
+      "event_id": "evt-5851711ff177394a",
+      "event_version": 1,
+      "headline": "Source Regulatory Enforcement Action",
+      "chain": [
+        {
+          "fact": {
+            "fact_id": "fact-345bb4bdaebaf029",
+            "fact_version": 1,
+            "metric": "action_type",
+            "value": "consent order"
+          },
+          "evidence": [
+            {
+              "evidence_id": "evi-85086381347a10af",
+              "excerpt": "Source 3014 issued consent order against bank for violations.",
+              "representation_id": "rep-job-3014-001"
+            }
+          ],
+          "representation": {
+            "representation_id": "rep-job-3014-001",
+            "content_sha256": "3b7b0a6964f16653e63d6453c0d8074e4ab33078f16d3717e6782e5431bdbf1f"
+          },
+          "document": {
+            "document_id": "doc-job-3014-001",
+            "canonical_url": "https://src-job-3014.example.com/doc/doc-job-3014-001"
+          },
+          "source": {
+            "source_id": "src-job-3014",
+            "institution_id": "INST-job-3014"
+          }
+        }
+      ],
+      "created_at": "",
+      "event_type": "regulatory_enforcement",
+      "temporal_data": {
+        "temporal_tuples": [
+          {
+            "original_value": "2026-08-18T10:00:00Z",
+            "timezone_status": "EXPLICIT_ZONE",
+            "normalized_utc": "2026-08-18T10:00:00Z",
+            "normalization_basis": "EXPLICIT_SOURCE_TIMEZONE",
+            "timestamp_semantics": "publication",
+            "provenance_source": "rss_pubdate"
+          },
+          {
+            "original_value": "2026-07-31",
+            "timezone_status": "DATE_ONLY",
+            "normalized_utc": null,
+            "normalization_basis": "NONE",
+            "timestamp_semantics": "reporting_period",
+            "provenance_source": "rendered_text"
+          }
+        ],
+        "publication_time": "2026-08-18T10:00:00Z",
+        "publication_time_raw": "2026-08-18T10:00:00Z",
+        "publication_timezone_status": "EXPLICIT_ZONE",
+        "publication_normalization_basis": "EXPLICIT_SOURCE_TIMEZONE",
+        "publication_timestamp_semantics": "publication",
+        "publication_provenance_source": "rss_pubdate",
+        "reference_period": null,
+        "reference_period_normalized_utc": null,
+        "reference_period_raw": "2026-07-31",
+        "reference_period_timezone_status": "DATE_ONLY",
+        "reference_period_normalization_basis": "NONE",
+        "reference_period_timestamp_semantics": "reporting_period",
+        "reference_period_provenance_source": "rendered_text"
+      },
+      "status": "ACTIVE",
+      "supersedes_io_id": null
+    },
+    "etag": "W/\"225da7e9da3a7005\""
+  },
+  "io-6ce386444db49604": {
+    "io_id": "io-6ce386444db49604",
+    "event_type": "regulatory_enforcement",
+    "frozen_at": "2026-08-17T21:28:33Z",
+    "io_dict": {
+      "io_id": "io-6ce386444db49604",
+      "version": 1,
+      "event_id": "evt-853284be454dbaaa",
+      "event_version": 1,
+      "headline": "Source Regulatory Enforcement Action",
+      "chain": [
+        {
+          "fact": {
+            "fact_id": "fact-a108876884d4bfe1",
+            "fact_version": 1,
+            "metric": "action_type",
+            "value": "consent order"
+          },
+          "evidence": [
+            {
+              "evidence_id": "evi-efc43753f696a0e8",
+              "excerpt": "Source 3012 issued consent order against bank for violations.",
+              "representation_id": "rep-job-3012-001"
+            }
+          ],
+          "representation": {
+            "representation_id": "rep-job-3012-001",
+            "content_sha256": "0ffa01dad5e5002b2f65b028e4a1d653354d981c7afcebed88d4e64ce0776610"
+          },
+          "document": {
+            "document_id": "doc-job-3012-001",
+            "canonical_url": "https://src-job-3012.example.com/doc/doc-job-3012-001"
+          },
+          "source": {
+            "source_id": "src-job-3012",
+            "institution_id": "INST-job-3012"
+          }
+        }
+      ],
+      "created_at": "",
+      "event_type": "regulatory_enforcement",
+      "temporal_data": {
+        "temporal_tuples": [
+          {
+            "original_value": "2026-08-18T10:00:00Z",
+            "timezone_status": "EXPLICIT_ZONE",
+            "normalized_utc": "2026-08-18T10:00:00Z",
+            "normalization_basis": "EXPLICIT_SOURCE_TIMEZONE",
+            "timestamp_semantics": "publication",
+            "provenance_source": "rss_pubdate"
+          },
+          {
+            "original_value": "2026-07-31",
+            "timezone_status": "DATE_ONLY",
+            "normalized_utc": null,
+            "normalization_basis": "NONE",
+            "timestamp_semantics": "reporting_period",
+            "provenance_source": "rendered_text"
+          }
+        ],
+        "publication_time": "2026-08-18T10:00:00Z",
+        "publication_time_raw": "2026-08-18T10:00:00Z",
+        "publication_timezone_status": "EXPLICIT_ZONE",
+        "publication_normalization_basis": "EXPLICIT_SOURCE_TIMEZONE",
+        "publication_timestamp_semantics": "publication",
+        "publication_provenance_source": "rss_pubdate",
+        "reference_period": null,
+        "reference_period_normalized_utc": null,
+        "reference_period_raw": "2026-07-31",
+        "reference_period_timezone_status": "DATE_ONLY",
+        "reference_period_normalization_basis": "NONE",
+        "reference_period_timestamp_semantics": "reporting_period",
+        "reference_period_provenance_source": "rendered_text"
+      },
+      "status": "ACTIVE",
+      "supersedes_io_id": null
+    },
+    "etag": "W/\"e51715738c222713\""
+  },
+  "io-8018b55bf788cb39": {
+    "io_id": "io-8018b55bf788cb39",
+    "event_type": "regulatory_enforcement",
+    "frozen_at": "2026-08-17T21:28:33Z",
+    "io_dict": {
+      "io_id": "io-8018b55bf788cb39",
+      "version": 1,
+      "event_id": "evt-5a4fcb674e52ba4b",
+      "event_version": 1,
+      "headline": "Source Regulatory Enforcement Action",
+      "chain": [
+        {
+          "fact": {
+            "fact_id": "fact-6762f45507f0171e",
+            "fact_version": 1,
+            "metric": "action_type",
+            "value": "consent order"
+          },
+          "evidence": [
+            {
+              "evidence_id": "evi-9e5d235301e6d184",
+              "excerpt": "Source 3004 issued consent order against bank for violations.",
+              "representation_id": "rep-job-3004-001"
+            }
+          ],
+          "representation": {
+            "representation_id": "rep-job-3004-001",
+            "content_sha256": "4f09bdbba184b498aaa64aa3fc298d01af2dad2bdfc76a0d9a5685afeff3f762"
+          },
+          "document": {
+            "document_id": "doc-job-3004-001",
+            "canonical_url": "https://src-job-3004.example.com/doc/doc-job-3004-001"
+          },
+          "source": {
+            "source_id": "src-job-3004",
+            "institution_id": "INST-job-3004"
+          }
+        }
+      ],
+      "created_at": "",
+      "event_type": "regulatory_enforcement",
+      "temporal_data": {
+        "temporal_tuples": [
+          {
+            "original_value": "2026-08-18T10:00:00Z",
+            "timezone_status": "EXPLICIT_ZONE",
+            "normalized_utc": "2026-08-18T10:00:00Z",
+            "normalization_basis": "EXPLICIT_SOURCE_TIMEZONE",
+            "timestamp_semantics": "publication",
+            "provenance_source": "rss_pubdate"
+          },
+          {
+            "original_value": "2026-07-31",
+            "timezone_status": "DATE_ONLY",
+            "normalized_utc": null,
+            "normalization_basis": "NONE",
+            "timestamp_semantics": "reporting_period",
+            "provenance_source": "rendered_text"
+          }
+        ],
+        "publication_time": "2026-08-18T10:00:00Z",
+        "publication_time_raw": "2026-08-18T10:00:00Z",
+        "publication_timezone_status": "EXPLICIT_ZONE",
+        "publication_normalization_basis": "EXPLICIT_SOURCE_TIMEZONE",
+        "publication_timestamp_semantics": "publication",
+        "publication_provenance_source": "rss_pubdate",
+        "reference_period": null,
+        "reference_period_normalized_utc": null,
+        "reference_period_raw": "2026-07-31",
+        "reference_period_timezone_status": "DATE_ONLY",
+        "reference_period_normalization_basis": "NONE",
+        "reference_period_timestamp_semantics": "reporting_period",
+        "reference_period_provenance_source": "rendered_text"
+      },
+      "status": "ACTIVE",
+      "supersedes_io_id": null
+    },
+    "etag": "W/\"eccade20ddc815fc\""
+  },
+  "io-9a25401049cb56db": {
+    "io_id": "io-9a25401049cb56db",
+    "event_type": "regulatory_enforcement",
+    "frozen_at": "2026-08-17T21:28:33Z",
+    "io_dict": {
+      "io_id": "io-9a25401049cb56db",
+      "version": 1,
+      "event_id": "evt-e1b2f1f62a77a305",
+      "event_version": 1,
+      "headline": "Source Regulatory Enforcement Action",
+      "chain": [
+        {
+          "fact": {
+            "fact_id": "fact-a15151c35a4f5520",
+            "fact_version": 1,
+            "metric": "action_type",
+            "value": "consent order"
+          },
+          "evidence": [
+            {
+              "evidence_id": "evi-e271d73a387f07d2",
+              "excerpt": "Source 3011 issued consent order against bank for violations.",
+              "representation_id": "rep-job-3011-001"
+            }
+          ],
+          "representation": {
+            "representation_id": "rep-job-3011-001",
+            "content_sha256": "80f293e00b6224a1515030004a85d81ebcf233ea056489deadd63539972dff4c"
+          },
+          "document": {
+            "document_id": "doc-job-3011-001",
+            "canonical_url": "https://src-job-3011.example.com/doc/doc-job-3011-001"
+          },
+          "source": {
+            "source_id": "src-job-3011",
+            "institution_id": "INST-job-3011"
+          }
+        }
+      ],
+      "created_at": "",
+      "event_type": "regulatory_enforcement",
+      "temporal_data": {
+        "temporal_tuples": [
+          {
+            "original_value": "2026-08-18T10:00:00Z",
+            "timezone_status": "EXPLICIT_ZONE",
+            "normalized_utc": "2026-08-18T10:00:00Z",
+            "normalization_basis": "EXPLICIT_SOURCE_TIMEZONE",
+            "timestamp_semantics": "publication",
+            "provenance_source": "rss_pubdate"
+          },
+          {
+            "original_value": "2026-07-31",
+            "timezone_status": "DATE_ONLY",
+            "normalized_utc": null,
+            "normalization_basis": "NONE",
+            "timestamp_semantics": "reporting_period",
+            "provenance_source": "rendered_text"
+          }
+        ],
+        "publication_time": "2026-08-18T10:00:00Z",
+        "publication_time_raw": "2026-08-18T10:00:00Z",
+        "publication_timezone_status": "EXPLICIT_ZONE",
+        "publication_normalization_basis": "EXPLICIT_SOURCE_TIMEZONE",
+        "publication_timestamp_semantics": "publication",
+        "publication_provenance_source": "rss_pubdate",
+        "reference_period": null,
+        "reference_period_normalized_utc": null,
+        "reference_period_raw": "2026-07-31",
+        "reference_period_timezone_status": "DATE_ONLY",
+        "reference_period_normalization_basis": "NONE",
+        "reference_period_timestamp_semantics": "reporting_period",
+        "reference_period_provenance_source": "rendered_text"
+      },
+      "status": "ACTIVE",
+      "supersedes_io_id": null
+    },
+    "etag": "W/\"b7951cc64aa3dae8\""
+  },
+  "io-0e996db5177f0eed": {
+    "io_id": "io-0e996db5177f0eed",
+    "event_type": "statistical_release",
+    "frozen_at": "2026-08-17T21:28:33Z",
+    "io_dict": {
+      "io_id": "io-0e996db5177f0eed",
+      "version": 1,
+      "event_id": "evt-ae71483b5260055c",
+      "event_version": 1,
+      "headline": "Source Statistical Release",
+      "chain": [
+        {
+          "fact": {
+            "fact_id": "fact-3f14fb6007eded50",
+            "fact_version": 1,
+            "metric": "percentage_statistic",
+            "value": "50"
+          },
+          "evidence": [
+            {
+              "evidence_id": "evi-8e34977d0b38d089",
+              "excerpt": "Source 2000 released statistic: 50% growth recorded in latest period.",
+              "representation_id": "rep-job-2000-001"
+            }
+          ],
+          "representation": {
+            "representation_id": "rep-job-2000-001",
+            "content_sha256": "f79c5e0d37dd834753b3c630c69b34a95bc077cb352900b9cfea33fcd7817422"
+          },
+          "document": {
+            "document_id": "doc-job-2000-001",
+            "canonical_url": "https://src-job-2000.example.com/doc/doc-job-2000-001"
+          },
+          "source": {
+            "source_id": "src-job-2000",
+            "institution_id": "INST-job-2000"
+          }
+        }
+      ],
+      "created_at": "",
+      "event_type": "statistical_release",
+      "temporal_data": {
+        "temporal_tuples": [
+          {
+            "original_value": "2026-08-18T10:00:00Z",
+            "timezone_status": "EXPLICIT_ZONE",
+            "normalized_utc": "2026-08-18T10:00:00Z",
+            "normalization_basis": "EXPLICIT_SOURCE_TIMEZONE",
+            "timestamp_semantics": "publication",
+            "provenance_source": "rss_pubdate"
+          },
+          {
+            "original_value": "2026-07-31",
+            "timezone_status": "DATE_ONLY",
+            "normalized_utc": null,
+            "normalization_basis": "NONE",
+            "timestamp_semantics": "reporting_period",
+            "provenance_source": "rendered_text"
+          }
+        ],
+        "publication_time": "2026-08-18T10:00:00Z",
+        "publication_time_raw": "2026-08-18T10:00:00Z",
+        "publication_timezone_status": "EXPLICIT_ZONE",
+        "publication_normalization_basis": "EXPLICIT_SOURCE_TIMEZONE",
+        "publication_timestamp_semantics": "publication",
+        "publication_provenance_source": "rss_pubdate",
+        "reference_period": null,
+        "reference_period_normalized_utc": null,
+        "reference_period_raw": "2026-07-31",
+        "reference_period_timezone_status": "DATE_ONLY",
+        "reference_period_normalization_basis": "NONE",
+        "reference_period_timestamp_semantics": "reporting_period",
+        "reference_period_provenance_source": "rendered_text"
+      },
+      "status": "ACTIVE",
+      "supersedes_io_id": null
+    },
+    "etag": "W/\"50da5513d3af565d\""
+  },
+  "io-450561cc1cb44e0f": {
+    "io_id": "io-450561cc1cb44e0f",
+    "event_type": "statistical_release",
+    "frozen_at": "2026-08-17T21:28:33Z",
+    "io_dict": {
+      "io_id": "io-450561cc1cb44e0f",
+      "version": 1,
+      "event_id": "evt-ee6c9d919b4bfc26",
+      "event_version": 1,
+      "headline": "Source Statistical Release",
+      "chain": [
+        {
+          "fact": {
+            "fact_id": "fact-b5995d77c125a1f5",
+            "fact_version": 1,
+            "metric": "percentage_statistic",
+            "value": "52"
+          },
+          "evidence": [
+            {
+              "evidence_id": "evi-f2d9816a6540618d",
+              "excerpt": "Source 2002 released statistic: 52% growth recorded in latest period.",
+              "representation_id": "rep-job-2002-001"
+            }
+          ],
+          "representation": {
+            "representation_id": "rep-job-2002-001",
+            "content_sha256": "9008b13f893d2ad5c908a91b4cb11997e254fd381fa412575bfa0f2e91459888"
+          },
+          "document": {
+            "document_id": "doc-job-2002-001",
+            "canonical_url": "https://src-job-2002.example.com/doc/doc-job-2002-001"
+          },
+          "source": {
+            "source_id": "src-job-2002",
+            "institution_id": "INST-job-2002"
+          }
+        }
+      ],
+      "created_at": "",
+      "event_type": "statistical_release",
+      "temporal_data": {
+        "temporal_tuples": [
+          {
+            "original_value": "2026-08-18T10:00:00Z",
+            "timezone_status": "EXPLICIT_ZONE",
+            "normalized_utc": "2026-08-18T10:00:00Z",
+            "normalization_basis": "EXPLICIT_SOURCE_TIMEZONE",
+            "timestamp_semantics": "publication",
+            "provenance_source": "rss_pubdate"
+          },
+          {
+            "original_value": "2026-07-31",
+            "timezone_status": "DATE_ONLY",
+            "normalized_utc": null,
+            "normalization_basis": "NONE",
+            "timestamp_semantics": "reporting_period",
+            "provenance_source": "rendered_text"
+          }
+        ],
+        "publication_time": "2026-08-18T10:00:00Z",
+        "publication_time_raw": "2026-08-18T10:00:00Z",
+        "publication_timezone_status": "EXPLICIT_ZONE",
+        "publication_normalization_basis": "EXPLICIT_SOURCE_TIMEZONE",
+        "publication_timestamp_semantics": "publication",
+        "publication_provenance_source": "rss_pubdate",
+        "reference_period": null,
+        "reference_period_normalized_utc": null,
+        "reference_period_raw": "2026-07-31",
+        "reference_period_timezone_status": "DATE_ONLY",
+        "reference_period_normalization_basis": "NONE",
+        "reference_period_timestamp_semantics": "reporting_period",
+        "reference_period_provenance_source": "rendered_text"
+      },
+      "status": "ACTIVE",
+      "supersedes_io_id": null
+    },
+    "etag": "W/\"834046f605c8dec7\""
+  },
+  "io-45214054f876e8bc": {
+    "io_id": "io-45214054f876e8bc",
+    "event_type": "statistical_release",
+    "frozen_at": "2026-08-17T21:28:33Z",
+    "io_dict": {
+      "io_id": "io-45214054f876e8bc",
+      "version": 1,
+      "event_id": "evt-2cd25fc4eb700f8c",
+      "event_version": 1,
+      "headline": "Source Statistical Release",
+      "chain": [
+        {
+          "fact": {
+            "fact_id": "fact-0a82f2b17e7c79c4",
+            "fact_version": 1,
+            "metric": "percentage_statistic",
+            "value": "65"
+          },
+          "evidence": [
+            {
+              "evidence_id": "evi-470b0de011f553eb",
+              "excerpt": "Source 2015 released statistic: 65% growth recorded in latest period.",
+              "representation_id": "rep-job-2015-001"
+            }
+          ],
+          "representation": {
+            "representation_id": "rep-job-2015-001",
+            "content_sha256": "5ae2370463173524cc9706480778e382fd81da54a5c54e2f9e331427f468da33"
+          },
+          "document": {
+            "document_id": "doc-job-2015-001",
+            "canonical_url": "https://src-job-2015.example.com/doc/doc-job-2015-001"
+          },
+          "source": {
+            "source_id": "src-job-2015",
+            "institution_id": "INST-job-2015"
+          }
+        }
+      ],
+      "created_at": "",
+      "event_type": "statistical_release",
+      "temporal_data": {
+        "temporal_tuples": [
+          {
+            "original_value": "2026-08-18T10:00:00Z",
+            "timezone_status": "EXPLICIT_ZONE",
+            "normalized_utc": "2026-08-18T10:00:00Z",
+            "normalization_basis": "EXPLICIT_SOURCE_TIMEZONE",
+            "timestamp_semantics": "publication",
+            "provenance_source": "rss_pubdate"
+          },
+          {
+            "original_value": "2026-07-31",
+            "timezone_status": "DATE_ONLY",
+            "normalized_utc": null,
+            "normalization_basis": "NONE",
+            "timestamp_semantics": "reporting_period",
+            "provenance_source": "rendered_text"
+          }
+        ],
+        "publication_time": "2026-08-18T10:00:00Z",
+        "publication_time_raw": "2026-08-18T10:00:00Z",
+        "publication_timezone_status": "EXPLICIT_ZONE",
+        "publication_normalization_basis": "EXPLICIT_SOURCE_TIMEZONE",
+        "publication_timestamp_semantics": "publication",
+        "publication_provenance_source": "rss_pubdate",
+        "reference_period": null,
+        "reference_period_normalized_utc": null,
+        "reference_period_raw": "2026-07-31",
+        "reference_period_timezone_status": "DATE_ONLY",
+        "reference_period_normalization_basis": "NONE",
+        "reference_period_timestamp_semantics": "reporting_period",
+        "reference_period_provenance_source": "rendered_text"
+      },
+      "status": "ACTIVE",
+      "supersedes_io_id": null
+    },
+    "etag": "W/\"7321401802b2b2a0\""
+  },
+  "io-602e6c424a2a3101": {
+    "io_id": "io-602e6c424a2a3101",
+    "event_type": "statistical_release",
+    "frozen_at": "2026-08-17T21:28:33Z",
+    "io_dict": {
+      "io_id": "io-602e6c424a2a3101",
+      "version": 1,
+      "event_id": "evt-3a5f3d23357b1417",
+      "event_version": 1,
+      "headline": "Source Statistical Release",
+      "chain": [
+        {
+          "fact": {
+            "fact_id": "fact-1643d920b808f4fb",
+            "fact_version": 1,
+            "metric": "percentage_statistic",
+            "value": "54"
+          },
+          "evidence": [
+            {
+              "evidence_id": "evi-04ff936bbf84a230",
+              "excerpt": "Source 2004 released statistic: 54% growth recorded in latest period.",
+              "representation_id": "rep-job-2004-001"
+            }
+          ],
+          "representation": {
+            "representation_id": "rep-job-2004-001",
+            "content_sha256": "5d2cef0d59a981cabddba262a2492495c8caf03b2fcd84b8c60bbf52f8b941b7"
+          },
+          "document": {
+            "document_id": "doc-job-2004-001",
+            "canonical_url": "https://src-job-2004.example.com/doc/doc-job-2004-001"
+          },
+          "source": {
+            "source_id": "src-job-2004",
+            "institution_id": "INST-job-2004"
+          }
+        }
+      ],
+      "created_at": "",
+      "event_type": "statistical_release",
+      "temporal_data": {
+        "temporal_tuples": [
+          {
+            "original_value": "2026-08-18T10:00:00Z",
+            "timezone_status": "EXPLICIT_ZONE",
+            "normalized_utc": "2026-08-18T10:00:00Z",
+            "normalization_basis": "EXPLICIT_SOURCE_TIMEZONE",
+            "timestamp_semantics": "publication",
+            "provenance_source": "rss_pubdate"
+          },
+          {
+            "original_value": "2026-07-31",
+            "timezone_status": "DATE_ONLY",
+            "normalized_utc": null,
+            "normalization_basis": "NONE",
+            "timestamp_semantics": "reporting_period",
+            "provenance_source": "rendered_text"
+          }
+        ],
+        "publication_time": "2026-08-18T10:00:00Z",
+        "publication_time_raw": "2026-08-18T10:00:00Z",
+        "publication_timezone_status": "EXPLICIT_ZONE",
+        "publication_normalization_basis": "EXPLICIT_SOURCE_TIMEZONE",
+        "publication_timestamp_semantics": "publication",
+        "publication_provenance_source": "rss_pubdate",
+        "reference_period": null,
+        "reference_period_normalized_utc": null,
+        "reference_period_raw": "2026-07-31",
+        "reference_period_timezone_status": "DATE_ONLY",
+        "reference_period_normalization_basis": "NONE",
+        "reference_period_timestamp_semantics": "reporting_period",
+        "reference_period_provenance_source": "rendered_text"
+      },
+      "status": "ACTIVE",
+      "supersedes_io_id": null
+    },
+    "etag": "W/\"f66e18c76b3408a3\""
+  },
+  "io-637448267ac7f927": {
+    "io_id": "io-637448267ac7f927",
+    "event_type": "statistical_release",
+    "frozen_at": "2026-08-17T21:28:33Z",
+    "io_dict": {
+      "io_id": "io-637448267ac7f927",
+      "version": 1,
+      "event_id": "evt-68eda016e4153c91",
+      "event_version": 1,
+      "headline": "Source Statistical Release",
+      "chain": [
+        {
+          "fact": {
+            "fact_id": "fact-2259e022d889dc1f",
+            "fact_version": 1,
+            "metric": "percentage_statistic",
+            "value": "63"
+          },
+          "evidence": [
+            {
+              "evidence_id": "evi-dfbdc36fec65195d",
+              "excerpt": "Source 2013 released statistic: 63% growth recorded in latest period.",
+              "representation_id": "rep-job-2013-001"
+            }
+          ],
+          "representation": {
+            "representation_id": "rep-job-2013-001",
+            "content_sha256": "235d88beb3e2e626f04800ad4389565bc1efe0127e83d4f413c89a1943220a3d"
+          },
+          "document": {
+            "document_id": "doc-job-2013-001",
+            "canonical_url": "https://src-job-2013.example.com/doc/doc-job-2013-001"
+          },
+          "source": {
+            "source_id": "src-job-2013",
+            "institution_id": "INST-job-2013"
+          }
+        }
+      ],
+      "created_at": "",
+      "event_type": "statistical_release",
+      "temporal_data": {
+        "temporal_tuples": [
+          {
+            "original_value": "2026-08-18T10:00:00Z",
+            "timezone_status": "EXPLICIT_ZONE",
+            "normalized_utc": "2026-08-18T10:00:00Z",
+            "normalization_basis": "EXPLICIT_SOURCE_TIMEZONE",
+            "timestamp_semantics": "publication",
+            "provenance_source": "rss_pubdate"
+          },
+          {
+            "original_value": "2026-07-31",
+            "timezone_status": "DATE_ONLY",
+            "normalized_utc": null,
+            "normalization_basis": "NONE",
+            "timestamp_semantics": "reporting_period",
+            "provenance_source": "rendered_text"
+          }
+        ],
+        "publication_time": "2026-08-18T10:00:00Z",
+        "publication_time_raw": "2026-08-18T10:00:00Z",
+        "publication_timezone_status": "EXPLICIT_ZONE",
+        "publication_normalization_basis": "EXPLICIT_SOURCE_TIMEZONE",
+        "publication_timestamp_semantics": "publication",
+        "publication_provenance_source": "rss_pubdate",
+        "reference_period": null,
+        "reference_period_normalized_utc": null,
+        "reference_period_raw": "2026-07-31",
+        "reference_period_timezone_status": "DATE_ONLY",
+        "reference_period_normalization_basis": "NONE",
+        "reference_period_timestamp_semantics": "reporting_period",
+        "reference_period_provenance_source": "rendered_text"
+      },
+      "status": "ACTIVE",
+      "supersedes_io_id": null
+    },
+    "etag": "W/\"2046fc7049f3e6b1\""
+  },
+  "io-655c8fbcb07167a0": {
+    "io_id": "io-655c8fbcb07167a0",
+    "event_type": "statistical_release",
+    "frozen_at": "2026-08-17T21:28:33Z",
+    "io_dict": {
+      "io_id": "io-655c8fbcb07167a0",
+      "version": 1,
+      "event_id": "evt-d0d217e548bc6853",
+      "event_version": 1,
+      "headline": "Source Statistical Release",
+      "chain": [
+        {
+          "fact": {
+            "fact_id": "fact-9e46dea827cf0ffe",
+            "fact_version": 1,
+            "metric": "percentage_statistic",
+            "value": "58"
+          },
+          "evidence": [
+            {
+              "evidence_id": "evi-2b1e0eff288a0771",
+              "excerpt": "Source 2008 released statistic: 58% growth recorded in latest period.",
+              "representation_id": "rep-job-2008-001"
+            }
+          ],
+          "representation": {
+            "representation_id": "rep-job-2008-001",
+            "content_sha256": "bafe6257c3384b292a6f92c4898ae6c783a44a3df0964773a35f11a3215e109f"
+          },
+          "document": {
+            "document_id": "doc-job-2008-001",
+            "canonical_url": "https://src-job-2008.example.com/doc/doc-job-2008-001"
+          },
+          "source": {
+            "source_id": "src-job-2008",
+            "institution_id": "INST-job-2008"
+          }
+        }
+      ],
+      "created_at": "",
+      "event_type": "statistical_release",
+      "temporal_data": {
+        "temporal_tuples": [
+          {
+            "original_value": "2026-08-18T10:00:00Z",
+            "timezone_status": "EXPLICIT_ZONE",
+            "normalized_utc": "2026-08-18T10:00:00Z",
+            "normalization_basis": "EXPLICIT_SOURCE_TIMEZONE",
+            "timestamp_semantics": "publication",
+            "provenance_source": "rss_pubdate"
+          },
+          {
+            "original_value": "2026-07-31",
+            "timezone_status": "DATE_ONLY",
+            "normalized_utc": null,
+            "normalization_basis": "NONE",
+            "timestamp_semantics": "reporting_period",
+            "provenance_source": "rendered_text"
+          }
+        ],
+        "publication_time": "2026-08-18T10:00:00Z",
+        "publication_time_raw": "2026-08-18T10:00:00Z",
+        "publication_timezone_status": "EXPLICIT_ZONE",
+        "publication_normalization_basis": "EXPLICIT_SOURCE_TIMEZONE",
+        "publication_timestamp_semantics": "publication",
+        "publication_provenance_source": "rss_pubdate",
+        "reference_period": null,
+        "reference_period_normalized_utc": null,
+        "reference_period_raw": "2026-07-31",
+        "reference_period_timezone_status": "DATE_ONLY",
+        "reference_period_normalization_basis": "NONE",
+        "reference_period_timestamp_semantics": "reporting_period",
+        "reference_period_provenance_source": "rendered_text"
+      },
+      "status": "ACTIVE",
+      "supersedes_io_id": null
+    },
+    "etag": "W/\"ad14ee4e086eb84a\""
+  },
+  "io-696644823aa46d6d": {
+    "io_id": "io-696644823aa46d6d",
+    "event_type": "statistical_release",
+    "frozen_at": "2026-08-17T21:28:33Z",
+    "io_dict": {
+      "io_id": "io-696644823aa46d6d",
+      "version": 1,
+      "event_id": "evt-ed57c32cd1039b4f",
+      "event_version": 1,
+      "headline": "Source Statistical Release",
+      "chain": [
+        {
+          "fact": {
+            "fact_id": "fact-7b20d79f8870be8f",
+            "fact_version": 1,
+            "metric": "percentage_statistic",
+            "value": "66"
+          },
+          "evidence": [
+            {
+              "evidence_id": "evi-2f9950d678ce270a",
+              "excerpt": "Source 2016 released statistic: 66% growth recorded in latest period.",
+              "representation_id": "rep-job-2016-001"
+            }
+          ],
+          "representation": {
+            "representation_id": "rep-job-2016-001",
+            "content_sha256": "b09efd8a6f9bc1ce84a04cd10ea4c1cf238ea4432ab9cebb3d15788cb81f9b4e"
+          },
+          "document": {
+            "document_id": "doc-job-2016-001",
+            "canonical_url": "https://src-job-2016.example.com/doc/doc-job-2016-001"
+          },
+          "source": {
+            "source_id": "src-job-2016",
+            "institution_id": "INST-job-2016"
+          }
+        }
+      ],
+      "created_at": "",
+      "event_type": "statistical_release",
+      "temporal_data": {
+        "temporal_tuples": [
+          {
+            "original_value": "2026-08-18T10:00:00Z",
+            "timezone_status": "EXPLICIT_ZONE",
+            "normalized_utc": "2026-08-18T10:00:00Z",
+            "normalization_basis": "EXPLICIT_SOURCE_TIMEZONE",
+            "timestamp_semantics": "publication",
+            "provenance_source": "rss_pubdate"
+          },
+          {
+            "original_value": "2026-07-31",
+            "timezone_status": "DATE_ONLY",
+            "normalized_utc": null,
+            "normalization_basis": "NONE",
+            "timestamp_semantics": "reporting_period",
+            "provenance_source": "rendered_text"
+          }
+        ],
+        "publication_time": "2026-08-18T10:00:00Z",
+        "publication_time_raw": "2026-08-18T10:00:00Z",
+        "publication_timezone_status": "EXPLICIT_ZONE",
+        "publication_normalization_basis": "EXPLICIT_SOURCE_TIMEZONE",
+        "publication_timestamp_semantics": "publication",
+        "publication_provenance_source": "rss_pubdate",
+        "reference_period": null,
+        "reference_period_normalized_utc": null,
+        "reference_period_raw": "2026-07-31",
+        "reference_period_timezone_status": "DATE_ONLY",
+        "reference_period_normalization_basis": "NONE",
+        "reference_period_timestamp_semantics": "reporting_period",
+        "reference_period_provenance_source": "rendered_text"
+      },
+      "status": "ACTIVE",
+      "supersedes_io_id": null
+    },
+    "etag": "W/\"4a51dbff29139666\""
+  },
+  "io-6fe29a0197f02c91": {
+    "io_id": "io-6fe29a0197f02c91",
+    "event_type": "statistical_release",
+    "frozen_at": "2026-08-17T21:28:33Z",
+    "io_dict": {
+      "io_id": "io-6fe29a0197f02c91",
+      "version": 1,
+      "event_id": "evt-e738b31ac1a1dd22",
+      "event_version": 1,
+      "headline": "Source Statistical Release",
+      "chain": [
+        {
+          "fact": {
+            "fact_id": "fact-2030975b01326680",
+            "fact_version": 1,
+            "metric": "percentage_statistic",
+            "value": "67"
+          },
+          "evidence": [
+            {
+              "evidence_id": "evi-8a6a7b4c2d30d8c8",
+              "excerpt": "Source 2017 released statistic: 67% growth recorded in latest period.",
+              "representation_id": "rep-job-2017-001"
+            }
+          ],
+          "representation": {
+            "representation_id": "rep-job-2017-001",
+            "content_sha256": "9e32f12efec3e788a1695a3b9aa8c015c8af53e17f1590ea7e3af7c3a57d4c31"
+          },
+          "document": {
+            "document_id": "doc-job-2017-001",
+            "canonical_url": "https://src-job-2017.example.com/doc/doc-job-2017-001"
+          },
+          "source": {
+            "source_id": "src-job-2017",
+            "institution_id": "INST-job-2017"
+          }
+        }
+      ],
+      "created_at": "",
+      "event_type": "statistical_release",
+      "temporal_data": {
+        "temporal_tuples": [
+          {
+            "original_value": "2026-08-18T10:00:00Z",
+            "timezone_status": "EXPLICIT_ZONE",
+            "normalized_utc": "2026-08-18T10:00:00Z",
+            "normalization_basis": "EXPLICIT_SOURCE_TIMEZONE",
+            "timestamp_semantics": "publication",
+            "provenance_source": "rss_pubdate"
+          },
+          {
+            "original_value": "2026-07-31",
+            "timezone_status": "DATE_ONLY",
+            "normalized_utc": null,
+            "normalization_basis": "NONE",
+            "timestamp_semantics": "reporting_period",
+            "provenance_source": "rendered_text"
+          }
+        ],
+        "publication_time": "2026-08-18T10:00:00Z",
+        "publication_time_raw": "2026-08-18T10:00:00Z",
+        "publication_timezone_status": "EXPLICIT_ZONE",
+        "publication_normalization_basis": "EXPLICIT_SOURCE_TIMEZONE",
+        "publication_timestamp_semantics": "publication",
+        "publication_provenance_source": "rss_pubdate",
+        "reference_period": null,
+        "reference_period_normalized_utc": null,
+        "reference_period_raw": "2026-07-31",
+        "reference_period_timezone_status": "DATE_ONLY",
+        "reference_period_normalization_basis": "NONE",
+        "reference_period_timestamp_semantics": "reporting_period",
+        "reference_period_provenance_source": "rendered_text"
+      },
+      "status": "ACTIVE",
+      "supersedes_io_id": null
+    },
+    "etag": "W/\"9c91242eddbf67d3\""
+  },
+  "io-726a39af39592707": {
+    "io_id": "io-726a39af39592707",
+    "event_type": "statistical_release",
+    "frozen_at": "2026-08-17T21:28:33Z",
+    "io_dict": {
+      "io_id": "io-726a39af39592707",
+      "version": 1,
+      "event_id": "evt-92eb585534840acb",
+      "event_version": 1,
+      "headline": "Source Statistical Release",
+      "chain": [
+        {
+          "fact": {
+            "fact_id": "fact-9131007b8bc6511c",
+            "fact_version": 1,
+            "metric": "percentage_statistic",
+            "value": "51"
+          },
+          "evidence": [
+            {
+              "evidence_id": "evi-8b7ae623b9eb1e18",
+              "excerpt": "Source 2001 released statistic: 51% growth recorded in latest period.",
+              "representation_id": "rep-job-2001-001"
+            }
+          ],
+          "representation": {
+            "representation_id": "rep-job-2001-001",
+            "content_sha256": "9a0eb897d0c455a74ad3944d9726209f939bc6aa006df0566c3b74e0d286c806"
+          },
+          "document": {
+            "document_id": "doc-job-2001-001",
+            "canonical_url": "https://src-job-2001.example.com/doc/doc-job-2001-001"
+          },
+          "source": {
+            "source_id": "src-job-2001",
+            "institution_id": "INST-job-2001"
+          }
+        }
+      ],
+      "created_at": "",
+      "event_type": "statistical_release",
+      "temporal_data": {
+        "temporal_tuples": [
+          {
+            "original_value": "2026-08-18T10:00:00Z",
+            "timezone_status": "EXPLICIT_ZONE",
+            "normalized_utc": "2026-08-18T10:00:00Z",
+            "normalization_basis": "EXPLICIT_SOURCE_TIMEZONE",
+            "timestamp_semantics": "publication",
+            "provenance_source": "rss_pubdate"
+          },
+          {
+            "original_value": "2026-07-31",
+            "timezone_status": "DATE_ONLY",
+            "normalized_utc": null,
+            "normalization_basis": "NONE",
+            "timestamp_semantics": "reporting_period",
+            "provenance_source": "rendered_text"
+          }
+        ],
+        "publication_time": "2026-08-18T10:00:00Z",
+        "publication_time_raw": "2026-08-18T10:00:00Z",
+        "publication_timezone_status": "EXPLICIT_ZONE",
+        "publication_normalization_basis": "EXPLICIT_SOURCE_TIMEZONE",
+        "publication_timestamp_semantics": "publication",
+        "publication_provenance_source": "rss_pubdate",
+        "reference_period": null,
+        "reference_period_normalized_utc": null,
+        "reference_period_raw": "2026-07-31",
+        "reference_period_timezone_status": "DATE_ONLY",
+        "reference_period_normalization_basis": "NONE",
+        "reference_period_timestamp_semantics": "reporting_period",
+        "reference_period_provenance_source": "rendered_text"
+      },
+      "status": "ACTIVE",
+      "supersedes_io_id": null
+    },
+    "etag": "W/\"7d2de5971afa1349\""
+  },
+  "io-736eecdfb57a3f39": {
+    "io_id": "io-736eecdfb57a3f39",
+    "event_type": "statistical_release",
+    "frozen_at": "2026-08-17T21:28:33Z",
+    "io_dict": {
+      "io_id": "io-736eecdfb57a3f39",
+      "version": 1,
+      "event_id": "evt-36432c548b4c84a5",
+      "event_version": 1,
+      "headline": "Source Statistical Release",
+      "chain": [
+        {
+          "fact": {
+            "fact_id": "fact-6e5186b54b45f063",
+            "fact_version": 1,
+            "metric": "percentage_statistic",
+            "value": "57"
+          },
+          "evidence": [
+            {
+              "evidence_id": "evi-2200d56b0f8922c0",
+              "excerpt": "Source 2007 released statistic: 57% growth recorded in latest period.",
+              "representation_id": "rep-job-2007-001"
+            }
+          ],
+          "representation": {
+            "representation_id": "rep-job-2007-001",
+            "content_sha256": "b1f292666cf484031b4b56480f2cffee4d8e3b4ea6c639e0a1cee02d146f6652"
+          },
+          "document": {
+            "document_id": "doc-job-2007-001",
+            "canonical_url": "https://src-job-2007.example.com/doc/doc-job-2007-001"
+          },
+          "source": {
+            "source_id": "src-job-2007",
+            "institution_id": "INST-job-2007"
+          }
+        }
+      ],
+      "created_at": "",
+      "event_type": "statistical_release",
+      "temporal_data": {
+        "temporal_tuples": [
+          {
+            "original_value": "2026-08-18T10:00:00Z",
+            "timezone_status": "EXPLICIT_ZONE",
+            "normalized_utc": "2026-08-18T10:00:00Z",
+            "normalization_basis": "EXPLICIT_SOURCE_TIMEZONE",
+            "timestamp_semantics": "publication",
+            "provenance_source": "rss_pubdate"
+          },
+          {
+            "original_value": "2026-07-31",
+            "timezone_status": "DATE_ONLY",
+            "normalized_utc": null,
+            "normalization_basis": "NONE",
+            "timestamp_semantics": "reporting_period",
+            "provenance_source": "rendered_text"
+          }
+        ],
+        "publication_time": "2026-08-18T10:00:00Z",
+        "publication_time_raw": "2026-08-18T10:00:00Z",
+        "publication_timezone_status": "EXPLICIT_ZONE",
+        "publication_normalization_basis": "EXPLICIT_SOURCE_TIMEZONE",
+        "publication_timestamp_semantics": "publication",
+        "publication_provenance_source": "rss_pubdate",
+        "reference_period": null,
+        "reference_period_normalized_utc": null,
+        "reference_period_raw": "2026-07-31",
+        "reference_period_timezone_status": "DATE_ONLY",
+        "reference_period_normalization_basis": "NONE",
+        "reference_period_timestamp_semantics": "reporting_period",
+        "reference_period_provenance_source": "rendered_text"
+      },
+      "status": "ACTIVE",
+      "supersedes_io_id": null
+    },
+    "etag": "W/\"026e6b3c016bd87f\""
+  },
+  "io-05608cbebfa67b5f": {
+    "io_id": "io-05608cbebfa67b5f",
+    "event_type": "monetary_policy_decision",
+    "frozen_at": "2026-08-17T21:28:33Z",
+    "io_dict": {
+      "io_id": "io-05608cbebfa67b5f",
+      "version": 1,
+      "event_id": "evt-592dbeadabb13610",
+      "event_version": 1,
+      "headline": "Source Monetary Policy Decision",
+      "chain": [
+        {
+          "fact": {
+            "fact_id": "fact-733314d54caff99e",
+            "fact_version": 1,
+            "metric": "rate_decision",
+            "value": "raised"
+          },
+          "evidence": [
+            {
+              "evidence_id": "evi-ff802f5cba9e952f",
+              "excerpt": "Source 1000 raised key rate to 2% from previous level. The decision",
+              "representation_id": "rep-job-1000-001"
+            }
+          ],
+          "representation": {
+            "representation_id": "rep-job-1000-001",
+            "content_sha256": "18640d26491209eefe6b47ce9134eb3635ad8c4d475eec7fe7de876b1868b9f8"
+          },
+          "document": {
+            "document_id": "doc-job-1000-001",
+            "canonical_url": "https://src-job-1000.example.com/doc/doc-job-1000-001"
+          },
+          "source": {
+            "source_id": "src-job-1000",
+            "institution_id": "INST-job-1000"
+          }
+        }
+      ],
+      "created_at": "",
+      "event_type": "monetary_policy_decision",
+      "temporal_data": {
+        "temporal_tuples": [
+          {
+            "original_value": "2026-08-18T10:00:00Z",
+            "timezone_status": "EXPLICIT_ZONE",
+            "normalized_utc": "2026-08-18T10:00:00Z",
+            "normalization_basis": "EXPLICIT_SOURCE_TIMEZONE",
+            "timestamp_semantics": "publication",
+            "provenance_source": "rss_pubdate"
+          },
+          {
+            "original_value": "2026-07-31",
+            "timezone_status": "DATE_ONLY",
+            "normalized_utc": null,
+            "normalization_basis": "NONE",
+            "timestamp_semantics": "reporting_period",
+            "provenance_source": "rendered_text"
+          }
+        ],
+        "publication_time": "2026-08-18T10:00:00Z",
+        "publication_time_raw": "2026-08-18T10:00:00Z",
+        "publication_timezone_status": "EXPLICIT_ZONE",
+        "publication_normalization_basis": "EXPLICIT_SOURCE_TIMEZONE",
+        "publication_timestamp_semantics": "publication",
+        "publication_provenance_source": "rss_pubdate",
+        "reference_period": null,
+        "reference_period_normalized_utc": null,
+        "reference_period_raw": "2026-07-31",
+        "reference_period_timezone_status": "DATE_ONLY",
+        "reference_period_normalization_basis": "NONE",
+        "reference_period_timestamp_semantics": "reporting_period",
+        "reference_period_provenance_source": "rendered_text"
+      },
+      "status": "ACTIVE",
+      "supersedes_io_id": null
+    },
+    "etag": "W/\"8cb56f637dad3626\""
+  },
+  "io-3ee2619de0838525": {
+    "io_id": "io-3ee2619de0838525",
+    "event_type": "monetary_policy_decision",
+    "frozen_at": "2026-08-17T21:28:33Z",
+    "io_dict": {
+      "io_id": "io-3ee2619de0838525",
+      "version": 1,
+      "event_id": "evt-69bf6ddcc88a405c",
+      "event_version": 1,
+      "headline": "Source Monetary Policy Decision",
+      "chain": [
+        {
+          "fact": {
+            "fact_id": "fact-c80c03623e9a459f",
+            "fact_version": 1,
+            "metric": "rate_decision",
+            "value": "raised"
+          },
+          "evidence": [
+            {
+              "evidence_id": "evi-b31bbf602f30b3f4",
+              "excerpt": "Source 1001 raised key rate to 3% from previous level. The decision",
+              "representation_id": "rep-job-1001-001"
+            }
+          ],
+          "representation": {
+            "representation_id": "rep-job-1001-001",
+            "content_sha256": "9647667a76a4413a6252544021e7f15e23b1be3111218ab75e8add63da68c8cf"
+          },
+          "document": {
+            "document_id": "doc-job-1001-001",
+            "canonical_url": "https://src-job-1001.example.com/doc/doc-job-1001-001"
+          },
+          "source": {
+            "source_id": "src-job-1001",
+            "institution_id": "INST-job-1001"
+          }
+        }
+      ],
+      "created_at": "",
+      "event_type": "monetary_policy_decision",
+      "temporal_data": {
+        "temporal_tuples": [
+          {
+            "original_value": "2026-08-18T10:00:00Z",
+            "timezone_status": "EXPLICIT_ZONE",
+            "normalized_utc": "2026-08-18T10:00:00Z",
+            "normalization_basis": "EXPLICIT_SOURCE_TIMEZONE",
+            "timestamp_semantics": "publication",
+            "provenance_source": "rss_pubdate"
+          },
+          {
+            "original_value": "2026-07-31",
+            "timezone_status": "DATE_ONLY",
+            "normalized_utc": null,
+            "normalization_basis": "NONE",
+            "timestamp_semantics": "reporting_period",
+            "provenance_source": "rendered_text"
+          }
+        ],
+        "publication_time": "2026-08-18T10:00:00Z",
+        "publication_time_raw": "2026-08-18T10:00:00Z",
+        "publication_timezone_status": "EXPLICIT_ZONE",
+        "publication_normalization_basis": "EXPLICIT_SOURCE_TIMEZONE",
+        "publication_timestamp_semantics": "publication",
+        "publication_provenance_source": "rss_pubdate",
+        "reference_period": null,
+        "reference_period_normalized_utc": null,
+        "reference_period_raw": "2026-07-31",
+        "reference_period_timezone_status": "DATE_ONLY",
+        "reference_period_normalization_basis": "NONE",
+        "reference_period_timestamp_semantics": "reporting_period",
+        "reference_period_provenance_source": "rendered_text"
+      },
+      "status": "ACTIVE",
+      "supersedes_io_id": null
+    },
+    "etag": "W/\"42c4d0cae873ecbf\""
+  },
+  "io-58b160b3d1472719": {
+    "io_id": "io-58b160b3d1472719",
+    "event_type": "monetary_policy_decision",
+    "frozen_at": "2026-08-17T21:28:33Z",
+    "io_dict": {
+      "io_id": "io-58b160b3d1472719",
+      "version": 1,
+      "event_id": "evt-c214c5e6a9ca27a1",
+      "event_version": 1,
+      "headline": "Source Monetary Policy Decision",
+      "chain": [
+        {
+          "fact": {
+            "fact_id": "fact-40babcde2b54d118",
+            "fact_version": 1,
+            "metric": "rate_decision",
+            "value": "raised"
+          },
+          "evidence": [
+            {
+              "evidence_id": "evi-ec0a0c30f0b42538",
+              "excerpt": "Source 1003 raised key rate to 5% from previous level. The decision",
+              "representation_id": "rep-job-1003-001"
+            }
+          ],
+          "representation": {
+            "representation_id": "rep-job-1003-001",
+            "content_sha256": "7b7aa9894efc7bded05721aabf1a005c93dcdac4acf64a97a4eb334283860b51"
+          },
+          "document": {
+            "document_id": "doc-job-1003-001",
+            "canonical_url": "https://src-job-1003.example.com/doc/doc-job-1003-001"
+          },
+          "source": {
+            "source_id": "src-job-1003",
+            "institution_id": "INST-job-1003"
+          }
+        }
+      ],
+      "created_at": "",
+      "event_type": "monetary_policy_decision",
+      "temporal_data": {
+        "temporal_tuples": [
+          {
+            "original_value": "2026-08-18T10:00:00Z",
+            "timezone_status": "EXPLICIT_ZONE",
+            "normalized_utc": "2026-08-18T10:00:00Z",
+            "normalization_basis": "EXPLICIT_SOURCE_TIMEZONE",
+            "timestamp_semantics": "publication",
+            "provenance_source": "rss_pubdate"
+          },
+          {
+            "original_value": "2026-07-31",
+            "timezone_status": "DATE_ONLY",
+            "normalized_utc": null,
+            "normalization_basis": "NONE",
+            "timestamp_semantics": "reporting_period",
+            "provenance_source": "rendered_text"
+          }
+        ],
+        "publication_time": "2026-08-18T10:00:00Z",
+        "publication_time_raw": "2026-08-18T10:00:00Z",
+        "publication_timezone_status": "EXPLICIT_ZONE",
+        "publication_normalization_basis": "EXPLICIT_SOURCE_TIMEZONE",
+        "publication_timestamp_semantics": "publication",
+        "publication_provenance_source": "rss_pubdate",
+        "reference_period": null,
+        "reference_period_normalized_utc": null,
+        "reference_period_raw": "2026-07-31",
+        "reference_period_timezone_status": "DATE_ONLY",
+        "reference_period_normalization_basis": "NONE",
+        "reference_period_timestamp_semantics": "reporting_period",
+        "reference_period_provenance_source": "rendered_text"
+      },
+      "status": "ACTIVE",
+      "supersedes_io_id": null
+    },
+    "etag": "W/\"0a6fde1713f0b21c\""
+  },
+  "io-71e963f145e95300": {
+    "io_id": "io-71e963f145e95300",
+    "event_type": "monetary_policy_decision",
+    "frozen_at": "2026-08-17T21:28:33Z",
+    "io_dict": {
+      "io_id": "io-71e963f145e95300",
+      "version": 1,
+      "event_id": "evt-28d2c7b10b98c79f",
+      "event_version": 1,
+      "headline": "Source Monetary Policy Decision",
+      "chain": [
+        {
+          "fact": {
+            "fact_id": "fact-60f9caa96ac871b5",
+            "fact_version": 1,
+            "metric": "rate_decision",
+            "value": "raised"
+          },
+          "evidence": [
+            {
+              "evidence_id": "evi-3e928d7a8c70a207",
+              "excerpt": "Source 1002 raised key rate to 4% from previous level. The decision",
+              "representation_id": "rep-job-1002-001"
+            }
+          ],
+          "representation": {
+            "representation_id": "rep-job-1002-001",
+            "content_sha256": "a9a542fa35eba5a30d69888a9472ac2a4fcd23ba0006ebb40072ccfef1be2f6c"
+          },
+          "document": {
+            "document_id": "doc-job-1002-001",
+            "canonical_url": "https://src-job-1002.example.com/doc/doc-job-1002-001"
+          },
+          "source": {
+            "source_id": "src-job-1002",
+            "institution_id": "INST-job-1002"
+          }
+        }
+      ],
+      "created_at": "",
+      "event_type": "monetary_policy_decision",
+      "temporal_data": {
+        "temporal_tuples": [
+          {
+            "original_value": "2026-08-18T10:00:00Z",
+            "timezone_status": "EXPLICIT_ZONE",
+            "normalized_utc": "2026-08-18T10:00:00Z",
+            "normalization_basis": "EXPLICIT_SOURCE_TIMEZONE",
+            "timestamp_semantics": "publication",
+            "provenance_source": "rss_pubdate"
+          },
+          {
+            "original_value": "2026-07-31",
+            "timezone_status": "DATE_ONLY",
+            "normalized_utc": null,
+            "normalization_basis": "NONE",
+            "timestamp_semantics": "reporting_period",
+            "provenance_source": "rendered_text"
+          }
+        ],
+        "publication_time": "2026-08-18T10:00:00Z",
+        "publication_time_raw": "2026-08-18T10:00:00Z",
+        "publication_timezone_status": "EXPLICIT_ZONE",
+        "publication_normalization_basis": "EXPLICIT_SOURCE_TIMEZONE",
+        "publication_timestamp_semantics": "publication",
+        "publication_provenance_source": "rss_pubdate",
+        "reference_period": null,
+        "reference_period_normalized_utc": null,
+        "reference_period_raw": "2026-07-31",
+        "reference_period_timezone_status": "DATE_ONLY",
+        "reference_period_normalization_basis": "NONE",
+        "reference_period_timestamp_semantics": "reporting_period",
+        "reference_period_provenance_source": "rendered_text"
+      },
+      "status": "ACTIVE",
+      "supersedes_io_id": null
+    },
+    "etag": "W/\"8e4ea7c46a7326b1\""
+  },
+  "io-7653f6258d337d3e": {
+    "io_id": "io-7653f6258d337d3e",
+    "event_type": "monetary_policy_decision",
+    "frozen_at": "2026-08-17T21:28:33Z",
+    "io_dict": {
+      "io_id": "io-7653f6258d337d3e",
+      "version": 1,
+      "event_id": "evt-d5e6847c0ecc70d9",
+      "event_version": 1,
+      "headline": "Source Monetary Policy Decision",
+      "chain": [
+        {
+          "fact": {
+            "fact_id": "fact-4da8a392f03b9689",
+            "fact_version": 1,
+            "metric": "rate_decision",
+            "value": "raised"
+          },
+          "evidence": [
+            {
+              "evidence_id": "evi-34bc107c00bc505f",
+              "excerpt": "Source 1009 raised key rate to 11% from previous level. The decisio",
+              "representation_id": "rep-job-1009-001"
+            }
+          ],
+          "representation": {
+            "representation_id": "rep-job-1009-001",
+            "content_sha256": "4ed0efab49dbec41174e1fe2a4694e6523d70dc0eb2e9626b2abf147f12b2232"
+          },
+          "document": {
+            "document_id": "doc-job-1009-001",
+            "canonical_url": "https://src-job-1009.example.com/doc/doc-job-1009-001"
+          },
+          "source": {
+            "source_id": "src-job-1009",
+            "institution_id": "INST-job-1009"
+          }
+        }
+      ],
+      "created_at": "",
+      "event_type": "monetary_policy_decision",
+      "temporal_data": {
+        "temporal_tuples": [
+          {
+            "original_value": "2026-08-18T10:00:00Z",
+            "timezone_status": "EXPLICIT_ZONE",
+            "normalized_utc": "2026-08-18T10:00:00Z",
+            "normalization_basis": "EXPLICIT_SOURCE_TIMEZONE",
+            "timestamp_semantics": "publication",
+            "provenance_source": "rss_pubdate"
+          },
+          {
+            "original_value": "2026-07-31",
+            "timezone_status": "DATE_ONLY",
+            "normalized_utc": null,
+            "normalization_basis": "NONE",
+            "timestamp_semantics": "reporting_period",
+            "provenance_source": "rendered_text"
+          }
+        ],
+        "publication_time": "2026-08-18T10:00:00Z",
+        "publication_time_raw": "2026-08-18T10:00:00Z",
+        "publication_timezone_status": "EXPLICIT_ZONE",
+        "publication_normalization_basis": "EXPLICIT_SOURCE_TIMEZONE",
+        "publication_timestamp_semantics": "publication",
+        "publication_provenance_source": "rss_pubdate",
+        "reference_period": null,
+        "reference_period_normalized_utc": null,
+        "reference_period_raw": "2026-07-31",
+        "reference_period_timezone_status": "DATE_ONLY",
+        "reference_period_normalization_basis": "NONE",
+        "reference_period_timestamp_semantics": "reporting_period",
+        "reference_period_provenance_source": "rendered_text"
+      },
+      "status": "ACTIVE",
+      "supersedes_io_id": null
+    },
+    "etag": "W/\"f723de96ead1dc11\""
+  },
+  "io-85babe0e0dad937d": {
+    "io_id": "io-85babe0e0dad937d",
+    "event_type": "monetary_policy_decision",
+    "frozen_at": "2026-08-17T21:28:33Z",
+    "io_dict": {
+      "io_id": "io-85babe0e0dad937d",
+      "version": 1,
+      "event_id": "evt-5d0726cff2ec04f7",
+      "event_version": 1,
+      "headline": "Source Monetary Policy Decision",
+      "chain": [
+        {
+          "fact": {
+            "fact_id": "fact-701919a2a6302257",
+            "fact_version": 1,
+            "metric": "rate_decision",
+            "value": "raised"
+          },
+          "evidence": [
+            {
+              "evidence_id": "evi-b0877e7f29de4887",
+              "excerpt": "Source 1004 raised key rate to 6% from previous level. The decision",
+              "representation_id": "rep-job-1004-001"
+            }
+          ],
+          "representation": {
+            "representation_id": "rep-job-1004-001",
+            "content_sha256": "34a2e2568815d162a59171d7ff0333423061da9fc53243431c36f5fd773dd079"
+          },
+          "document": {
+            "document_id": "doc-job-1004-001",
+            "canonical_url": "https://src-job-1004.example.com/doc/doc-job-1004-001"
+          },
+          "source": {
+            "source_id": "src-job-1004",
+            "institution_id": "INST-job-1004"
+          }
+        }
+      ],
+      "created_at": "",
+      "event_type": "monetary_policy_decision",
+      "temporal_data": {
+        "temporal_tuples": [
+          {
+            "original_value": "2026-08-18T10:00:00Z",
+            "timezone_status": "EXPLICIT_ZONE",
+            "normalized_utc": "2026-08-18T10:00:00Z",
+            "normalization_basis": "EXPLICIT_SOURCE_TIMEZONE",
+            "timestamp_semantics": "publication",
+            "provenance_source": "rss_pubdate"
+          },
+          {
+            "original_value": "2026-07-31",
+            "timezone_status": "DATE_ONLY",
+            "normalized_utc": null,
+            "normalization_basis": "NONE",
+            "timestamp_semantics": "reporting_period",
+            "provenance_source": "rendered_text"
+          }
+        ],
+        "publication_time": "2026-08-18T10:00:00Z",
+        "publication_time_raw": "2026-08-18T10:00:00Z",
+        "publication_timezone_status": "EXPLICIT_ZONE",
+        "publication_normalization_basis": "EXPLICIT_SOURCE_TIMEZONE",
+        "publication_timestamp_semantics": "publication",
+        "publication_provenance_source": "rss_pubdate",
+        "reference_period": null,
+        "reference_period_normalized_utc": null,
+        "reference_period_raw": "2026-07-31",
+        "reference_period_timezone_status": "DATE_ONLY",
+        "reference_period_normalization_basis": "NONE",
+        "reference_period_timestamp_semantics": "reporting_period",
+        "reference_period_provenance_source": "rendered_text"
+      },
+      "status": "ACTIVE",
+      "supersedes_io_id": null
+    },
+    "etag": "W/\"779615afcc7d3fb7\""
+  },
+  "io-9e33e1480cbabfad": {
+    "io_id": "io-9e33e1480cbabfad",
+    "event_type": "monetary_policy_decision",
+    "frozen_at": "2026-08-17T21:28:33Z",
+    "io_dict": {
+      "io_id": "io-9e33e1480cbabfad",
+      "version": 1,
+      "event_id": "evt-c05512abe8797884",
+      "event_version": 1,
+      "headline": "Source Monetary Policy Decision",
+      "chain": [
+        {
+          "fact": {
+            "fact_id": "fact-f4eb64a1f79afa56",
+            "fact_version": 1,
+            "metric": "rate_decision",
+            "value": "raised"
+          },
+          "evidence": [
+            {
+              "evidence_id": "evi-acff636431f5c9bc",
+              "excerpt": "Source 1005 raised key rate to 7% from previous level. The decision",
+              "representation_id": "rep-job-1005-001"
+            }
+          ],
+          "representation": {
+            "representation_id": "rep-job-1005-001",
+            "content_sha256": "de4634a0a5b4430f9db4ebcec0811043be472642788de6bea716de2f523a763c"
+          },
+          "document": {
+            "document_id": "doc-job-1005-001",
+            "canonical_url": "https://src-job-1005.example.com/doc/doc-job-1005-001"
+          },
+          "source": {
+            "source_id": "src-job-1005",
+            "institution_id": "INST-job-1005"
+          }
+        }
+      ],
+      "created_at": "",
+      "event_type": "monetary_policy_decision",
+      "temporal_data": {
+        "temporal_tuples": [
+          {
+            "original_value": "2026-08-18T10:00:00Z",
+            "timezone_status": "EXPLICIT_ZONE",
+            "normalized_utc": "2026-08-18T10:00:00Z",
+            "normalization_basis": "EXPLICIT_SOURCE_TIMEZONE",
+            "timestamp_semantics": "publication",
+            "provenance_source": "rss_pubdate"
+          },
+          {
+            "original_value": "2026-07-31",
+            "timezone_status": "DATE_ONLY",
+            "normalized_utc": null,
+            "normalization_basis": "NONE",
+            "timestamp_semantics": "reporting_period",
+            "provenance_source": "rendered_text"
+          }
+        ],
+        "publication_time": "2026-08-18T10:00:00Z",
+        "publication_time_raw": "2026-08-18T10:00:00Z",
+        "publication_timezone_status": "EXPLICIT_ZONE",
+        "publication_normalization_basis": "EXPLICIT_SOURCE_TIMEZONE",
+        "publication_timestamp_semantics": "publication",
+        "publication_provenance_source": "rss_pubdate",
+        "reference_period": null,
+        "reference_period_normalized_utc": null,
+        "reference_period_raw": "2026-07-31",
+        "reference_period_timezone_status": "DATE_ONLY",
+        "reference_period_normalization_basis": "NONE",
+        "reference_period_timestamp_semantics": "reporting_period",
+        "reference_period_provenance_source": "rendered_text"
+      },
+      "status": "ACTIVE",
+      "supersedes_io_id": null
+    },
+    "etag": "W/\"7ca9f2a3c589a417\""
+  },
+  "io-c5cba5d14c9ebd31": {
+    "io_id": "io-c5cba5d14c9ebd31",
+    "event_type": "monetary_policy_decision",
+    "frozen_at": "2026-08-17T21:28:33Z",
+    "io_dict": {
+      "io_id": "io-c5cba5d14c9ebd31",
+      "version": 1,
+      "event_id": "evt-874616d103eae861",
+      "event_version": 1,
+      "headline": "Source Monetary Policy Decision",
+      "chain": [
+        {
+          "fact": {
+            "fact_id": "fact-0654f11f8c4c8d75",
+            "fact_version": 1,
+            "metric": "rate_decision",
+            "value": "raised"
+          },
+          "evidence": [
+            {
+              "evidence_id": "evi-7443adeb342c5220",
+              "excerpt": "Source 1006 raised key rate to 8% from previous level. The decision",
+              "representation_id": "rep-job-1006-001"
+            }
+          ],
+          "representation": {
+            "representation_id": "rep-job-1006-001",
+            "content_sha256": "013cb5954664111b1e3bebdf9715e591b3bee13f6e38573c46d5bde1bfc983ea"
+          },
+          "document": {
+            "document_id": "doc-job-1006-001",
+            "canonical_url": "https://src-job-1006.example.com/doc/doc-job-1006-001"
+          },
+          "source": {
+            "source_id": "src-job-1006",
+            "institution_id": "INST-job-1006"
+          }
+        }
+      ],
+      "created_at": "",
+      "event_type": "monetary_policy_decision",
+      "temporal_data": {
+        "temporal_tuples": [
+          {
+            "original_value": "2026-08-18T10:00:00Z",
+            "timezone_status": "EXPLICIT_ZONE",
+            "normalized_utc": "2026-08-18T10:00:00Z",
+            "normalization_basis": "EXPLICIT_SOURCE_TIMEZONE",
+            "timestamp_semantics": "publication",
+            "provenance_source": "rss_pubdate"
+          },
+          {
+            "original_value": "2026-07-31",
+            "timezone_status": "DATE_ONLY",
+            "normalized_utc": null,
+            "normalization_basis": "NONE",
+            "timestamp_semantics": "reporting_period",
+            "provenance_source": "rendered_text"
+          }
+        ],
+        "publication_time": "2026-08-18T10:00:00Z",
+        "publication_time_raw": "2026-08-18T10:00:00Z",
+        "publication_timezone_status": "EXPLICIT_ZONE",
+        "publication_normalization_basis": "EXPLICIT_SOURCE_TIMEZONE",
+        "publication_timestamp_semantics": "publication",
+        "publication_provenance_source": "rss_pubdate",
+        "reference_period": null,
+        "reference_period_normalized_utc": null,
+        "reference_period_raw": "2026-07-31",
+        "reference_period_timezone_status": "DATE_ONLY",
+        "reference_period_normalization_basis": "NONE",
+        "reference_period_timestamp_semantics": "reporting_period",
+        "reference_period_provenance_source": "rendered_text"
+      },
+      "status": "ACTIVE",
+      "supersedes_io_id": null
+    },
+    "etag": "W/\"f4d1d710529e5973\""
+  },
+  "io-e0fe1f8db0e91edb": {
+    "io_id": "io-e0fe1f8db0e91edb",
+    "event_type": "monetary_policy_decision",
+    "frozen_at": "2026-08-17T21:28:33Z",
+    "io_dict": {
+      "io_id": "io-e0fe1f8db0e91edb",
+      "version": 1,
+      "event_id": "evt-5b49f8b5fc9e8319",
+      "event_version": 1,
+      "headline": "Source Monetary Policy Decision",
+      "chain": [
+        {
+          "fact": {
+            "fact_id": "fact-d93fe5112f257162",
+            "fact_version": 1,
+            "metric": "rate_decision",
+            "value": "raised"
+          },
+          "evidence": [
+            {
+              "evidence_id": "evi-7daa8cac1c45bd4f",
+              "excerpt": "Source 1007 raised key rate to 9% from previous level. The decision",
+              "representation_id": "rep-job-1007-001"
+            }
+          ],
+          "representation": {
+            "representation_id": "rep-job-1007-001",
+            "content_sha256": "206f620eff88a4f56efbb96e65f9ce4f77f8170705dc56c55c8eff3cb39c2fcc"
+          },
+          "document": {
+            "document_id": "doc-job-1007-001",
+            "canonical_url": "https://src-job-1007.example.com/doc/doc-job-1007-001"
+          },
+          "source": {
+            "source_id": "src-job-1007",
+            "institution_id": "INST-job-1007"
+          }
+        }
+      ],
+      "created_at": "",
+      "event_type": "monetary_policy_decision",
+      "temporal_data": {
+        "temporal_tuples": [
+          {
+            "original_value": "2026-08-18T10:00:00Z",
+            "timezone_status": "EXPLICIT_ZONE",
+            "normalized_utc": "2026-08-18T10:00:00Z",
+            "normalization_basis": "EXPLICIT_SOURCE_TIMEZONE",
+            "timestamp_semantics": "publication",
+            "provenance_source": "rss_pubdate"
+          },
+          {
+            "original_value": "2026-07-31",
+            "timezone_status": "DATE_ONLY",
+            "normalized_utc": null,
+            "normalization_basis": "NONE",
+            "timestamp_semantics": "reporting_period",
+            "provenance_source": "rendered_text"
+          }
+        ],
+        "publication_time": "2026-08-18T10:00:00Z",
+        "publication_time_raw": "2026-08-18T10:00:00Z",
+        "publication_timezone_status": "EXPLICIT_ZONE",
+        "publication_normalization_basis": "EXPLICIT_SOURCE_TIMEZONE",
+        "publication_timestamp_semantics": "publication",
+        "publication_provenance_source": "rss_pubdate",
+        "reference_period": null,
+        "reference_period_normalized_utc": null,
+        "reference_period_raw": "2026-07-31",
+        "reference_period_timezone_status": "DATE_ONLY",
+        "reference_period_normalization_basis": "NONE",
+        "reference_period_timestamp_semantics": "reporting_period",
+        "reference_period_provenance_source": "rendered_text"
+      },
+      "status": "ACTIVE",
+      "supersedes_io_id": null
+    },
+    "etag": "W/\"a61c16fe4a9145cd\""
+  },
+  "io-ea4d537c7cd1e7a0": {
+    "io_id": "io-ea4d537c7cd1e7a0",
+    "event_type": "monetary_policy_decision",
+    "frozen_at": "2026-08-17T21:28:33Z",
+    "io_dict": {
+      "io_id": "io-ea4d537c7cd1e7a0",
+      "version": 1,
+      "event_id": "evt-52b5c8df0b646949",
+      "event_version": 1,
+      "headline": "Source Monetary Policy Decision",
+      "chain": [
+        {
+          "fact": {
+            "fact_id": "fact-02702f1a51b12875",
+            "fact_version": 1,
+            "metric": "rate_decision",
+            "value": "raised"
+          },
+          "evidence": [
+            {
+              "evidence_id": "evi-287d5e4373227577",
+              "excerpt": "Source 1008 raised key rate to 10% from previous level. The decisio",
+              "representation_id": "rep-job-1008-001"
+            }
+          ],
+          "representation": {
+            "representation_id": "rep-job-1008-001",
+            "content_sha256": "ca68c918632e232317d34df39836186476401f086e28acf75a70e2257c2903c4"
+          },
+          "document": {
+            "document_id": "doc-job-1008-001",
+            "canonical_url": "https://src-job-1008.example.com/doc/doc-job-1008-001"
+          },
+          "source": {
+            "source_id": "src-job-1008",
+            "institution_id": "INST-job-1008"
+          }
+        }
+      ],
+      "created_at": "",
+      "event_type": "monetary_policy_decision",
+      "temporal_data": {
+        "temporal_tuples": [
+          {
+            "original_value": "2026-08-18T10:00:00Z",
+            "timezone_status": "EXPLICIT_ZONE",
+            "normalized_utc": "2026-08-18T10:00:00Z",
+            "normalization_basis": "EXPLICIT_SOURCE_TIMEZONE",
+            "timestamp_semantics": "publication",
+            "provenance_source": "rss_pubdate"
+          },
+          {
+            "original_value": "2026-07-31",
+            "timezone_status": "DATE_ONLY",
+            "normalized_utc": null,
+            "normalization_basis": "NONE",
+            "timestamp_semantics": "reporting_period",
+            "provenance_source": "rendered_text"
+          }
+        ],
+        "publication_time": "2026-08-18T10:00:00Z",
+        "publication_time_raw": "2026-08-18T10:00:00Z",
+        "publication_timezone_status": "EXPLICIT_ZONE",
+        "publication_normalization_basis": "EXPLICIT_SOURCE_TIMEZONE",
+        "publication_timestamp_semantics": "publication",
+        "publication_provenance_source": "rss_pubdate",
+        "reference_period": null,
+        "reference_period_normalized_utc": null,
+        "reference_period_raw": "2026-07-31",
+        "reference_period_timezone_status": "DATE_ONLY",
+        "reference_period_normalization_basis": "NONE",
+        "reference_period_timestamp_semantics": "reporting_period",
+        "reference_period_provenance_source": "rendered_text"
+      },
+      "status": "ACTIVE",
+      "supersedes_io_id": null
+    },
+    "etag": "W/\"1cd8b89f530c8573\""
+  }
+}

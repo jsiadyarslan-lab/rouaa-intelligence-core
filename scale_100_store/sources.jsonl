@@ -1,0 +1,2 @@
+{"acquisition_method": "direct_http", "configuration_version": "1", "institution_id": "INST-msu-0002", "source_id": "msu-0002", "source_path": "https://www.ecb.europa.eu/rss/press.html", "source_type": "official", "status": "ACTIVE"}
+{"acquisition_method": "direct_http", "configuration_version": "1", "institution_id": "INST-msu-0007", "source_id": "msu-0007", "source_path": "https://www.bankofcanada.ca/feed", "source_type": "official", "status": "ACTIVE"}

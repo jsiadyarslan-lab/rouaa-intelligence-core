@@ -1,0 +1,1670 @@
+
+<!DOCTYPE html>
+<!--[if IE 9]><html lang="en" class="ie9 no-js"><![endif]-->
+<!--[if !IE]><!-->
+<html lang="en" class="no-js menu-closed">
+<!--<![endif]-->
+<head>
+	<!-- 5hl8k -->
+	
+	<link rel="preload" as="style" href="/styles/boe.vendor.min.css?ver=98f91" />
+<link rel="preload" as="style" href="/styles/BoE.min.css?ver=98f91" />
+<link rel="preload" as="style" href="/-/media/css/cludosearchmin.css?ver=99CF8F" />
+
+	
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta http-equiv="Content-type" content="text/html; charset=utf-8">
+	<meta content="width=device-width, initial-scale=1.0" name="viewport" />
+	
+
+<title>Cookies statement | Bank of England</title>
+<meta name="description" content=""/>
+<meta name="apple-mobile-web-app-title" content="Bank of England" />
+<meta name="format-detection" content="telephone=no" />
+<link rel="canonical" href="https://www.bankofengland.co.uk/legal/privacy-and-cookie-policy" />
+<meta property="og:title" content="Cookies statement">
+<meta property="og:description" content="Find out about the individual cookies we use on the Bank of England website, and why we use them.">
+<meta property="og:image" content="https://www.bankofengland.co.uk/-/media/boe/images/logo/boe-default ">
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://www.bankofengland.co.uk/legal/privacy-and-cookie-policy" />
+
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Cookies statement">
+<meta name="twitter:description" content="Find out about the individual cookies we use on the Bank of England website, and why we use them.">
+<meta name="twitter:image" content="https://www.bankofengland.co.uk/-/media/boe/images/logo/boe-default ">
+
+	<script>
+	var CheckCookies = {
+		getCookie: function (cname) {
+			var name = cname + "=";
+			var decodedCookie = decodeURIComponent(document.cookie);
+			var ca = decodedCookie.split(';');
+			for (var i = 0; i < ca.length; i++) {
+				var c = ca[i];
+				while (c.charAt(0) === ' ') {
+					c = c.substring(1);
+				}
+				if (c.indexOf(name) === 0) {
+					return c.substring(name.length, c.length);
+				}
+			}
+			return "";
+		}
+	};
+	var SetAnalytics = {
+		setTagManager: function () {
+			var hasConsentAnalytics = CheckCookies.getCookie('boeconsent');
+			if (hasConsentAnalytics === "analytics") {
+				(function (w, d, s, l, i) {
+					w[l] = w[l] || []; w[l].push({
+						'gtm.start':
+							new Date().getTime(), event: 'gtm.js'
+					}); var f = d.getElementsByTagName(s)[0],
+						j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''; j.async = true; j.src =
+							'https://www.googletagmanager.com/gtm.js?id=' + i + dl; f.parentNode.insertBefore(j, f);
+				})(window, document, 'script', 'dataLayer', 'GTM-5H35J9');
+			}
+		},
+	}
+	SetAnalytics.setTagManager();
+	</script>
+
+	<script>
+		var el = document.getElementsByTagName('html')[0];
+		if (el.classList) {
+			el.classList.remove('no-js');
+		} else {
+			el.className = el.className.replace('no-js', '');
+		}
+	</script>
+
+	
+	<link href="/styles/boe.vendor.min.css?ver=98f91" rel="stylesheet" media="screen,print" />
+<link href="/styles/BoE.min.css?ver=98f91" rel="stylesheet" media="screen,print" />
+<link href="/-/media/css/cludosearchmin.css?ver=99CF8F" rel="stylesheet" media="screen" />
+
+	
+		<!-- Tracking Disabled -->
+	<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png?ver=98f91">
+	<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png?ver=98f91">
+	<link rel="icon" type="image/png" sizes="96x96" href="/favicon-96x96.png?ver=98f91">
+	<link rel="icon" type="image/png" sizes="180x180" href="/favicon-180x180.png?ver=98f91">
+	<link rel="icon" type="image/png" sizes="192x192" href="/favicon-192x192.png?ver=98f91">
+	<link rel="icon" type="image/png" sizes="512x512" href="/favicon-512x512.png?ver=98f91">
+
+	<link rel="icon" href="/favicon.ico?ver=98f91" sizes="any">
+	<link rel="icon" href="/favicon.svg?ver=98f91" type="image/svg+xml">
+	<link rel="apple-touch-icon" href="/apple-touch-icon.png?ver=98f91">
+
+
+<script>(window.BOOMR_mq=window.BOOMR_mq||[]).push(["addVar",{"rua.upush":"false","rua.cpush":"true","rua.upre":"false","rua.cpre":"false","rua.uprl":"false","rua.cprl":"false","rua.cprf":"false","rua.trans":"SJ-cbab80b0-fbff-4c62-a3c3-04ff85cdc900","rua.cook":"false","rua.ims":"false","rua.ufprl":"false","rua.cfprl":"false","rua.isuxp":"false","rua.texp":"norulematch","rua.ceh":"false","rua.ueh":"false","rua.ieh.st":"0"}]);</script>
+                                <script>!function(a){var e="https://s.go-mpulse.net/boomerang/",t="addEventListener";if("False"=="True")a.BOOMR_config=a.BOOMR_config||{},a.BOOMR_config.PageParams=a.BOOMR_config.PageParams||{},a.BOOMR_config.PageParams.pci=!0,e="https://s2.go-mpulse.net/boomerang/";if(window.BOOMR_API_key="9R3WH-S6EDC-8JGQW-55286-CGTTF",function(){function n(e){a.BOOMR_onload=e&&e.timeStamp||(new Date).getTime()}if(!a.BOOMR||!a.BOOMR.version&&!a.BOOMR.snippetExecuted){a.BOOMR=a.BOOMR||{},a.BOOMR.snippetExecuted=!0;var i,_,o,r=document.createElement("iframe");if(a[t])a[t]("load",n,!1);else if(a.attachEvent)a.attachEvent("onload",n);r.src="javascript:void(0)",r.title="",r.role="presentation",(r.frameElement||r).style.cssText="width:0;height:0;border:0;display:none;",o=document.getElementsByTagName("script")[0],o.parentNode.insertBefore(r,o);try{_=r.contentWindow.document}catch(O){i=document.domain,r.src="javascript:var d=document.open();d.domain='"+i+"';void(0);",_=r.contentWindow.document}_.open()._l=function(){var a=this.createElement("script");if(i)this.domain=i;a.id="boomr-if-as",a.src=e+"9R3WH-S6EDC-8JGQW-55286-CGTTF",BOOMR_lstart=(new Date).getTime(),this.body.appendChild(a)},_.write("<bo"+'dy onload="document._l();">'),_.close()}}(),"".length>0)if(a&&"performance"in a&&a.performance&&"function"==typeof a.performance.setResourceTimingBufferSize)a.performance.setResourceTimingBufferSize();!function(){if(BOOMR=a.BOOMR||{},BOOMR.plugins=BOOMR.plugins||{},!BOOMR.plugins.AK){var e="true"=="true"?1:0,t="",n="f447e55ykv4k42udoova-f-4eb043abd-clientnsv4-s.akamaihd.net",i="false"=="true"?2:1,_={"ak.v":"41","ak.cp":"445139","ak.ai":parseInt("286733",10),"ak.ol":"0","ak.cr":5,"ak.ipv":4,"ak.proto":"http/1.1","ak.rid":"18e2f106","ak.r":34657,"ak.a2":e,"ak.m":"a","ak.n":"essl","ak.cport":63601,"ak.gh":"23.32.20.184","ak.quicv":"","ak.tlsv":"tls1.3","ak.0rtt":"","ak.0rtt.ed":"","ak.csrc":"-","ak.acc":"bbr","ak.t":"1786999722","ak.ak":"hOBiQwZUYzCg5VSAfCLimQ==EdVNzqj2q4SVjjeDwqPKyfLwqGRFxjVGEaeir3qf3wxU1PzYNaHInXfoaRpptTjNRHkEsv9K6dF/GZMdnZ4/pGIaVOPNCMyVs3rPsDjQusW3M9WexLHO03jAxaK8JMD6eGVK7BPiICVJfldzl0BAJ6Wpx5ox+zjb/ZVbK0O7dEsea52+mRrf+nKSI8DhMGl+teXqwBHTvXbtASjj1uFGN+eyWu/T1oTh0zw24JK7HyKZR3Mo0+DRWBw3UoxHQ4y/i2D3L9ocLEgF4a+wsonmPa+jSuWlQH8RVP+/6u+gJBSC9y5+m5yNnSPYIGx37ewM+vOMboVj2lwA3vugzQKYZKrG/AzAISr7k5AQmd8Ug1xnLnF5iprupW69fpDlrwk93KuyrnCpUJKRvCUxH3HPmL5jVs5rsJkSoTxgpCEUz4s=","ak.pv":"356","ak.dpoabenc":"","ak.tf":i};if(""!==t)_["ak.ruds"]=t;var o={i:!1,av:function(e){var t="http.initiator";if(e&&(!e[t]||"spa_hard"===e[t]))_["ak.feo"]=void 0!==a.aFeoApplied?1:0,BOOMR.addVar(_)},rv:function(){var a=["ak.cport","ak.cr","ak.csrc","ak.gh","ak.ipv","ak.m","ak.n","ak.ol","ak.proto","ak.quicv","ak.tlsv","ak.0rtt","ak.0rtt.ed","ak.r","ak.acc","ak.t","ak.tf"];BOOMR.removeVar(a)}};BOOMR.plugins.AK={akVars:_,akDNSPreFetchDomain:n,init:function(){if(!o.i){var a=BOOMR.subscribe;a("before_beacon",o.av,null,null),a("onbeacon",o.rv,null,null),o.i=!0}return this},is_complete:function(){return!0}}}}()}(window);</script></head>
+<body >
+		<div class="wrap" itemscope="" itemtype="http://schema.org/WebPage">
+
+
+<div class="cookie-notice">
+	<div class="cookie-notice__panel">
+		<div class="cookie-content content-block">
+			<h2 class="cookie-title exclude-navigation">Our use of cookies</h2>
+
+			<p>We use necessary cookies to make our site work. We&rsquo;d also like to use some non-essential cookies (including third-party cookies) to help us improve the site. By clicking &lsquo;Accept recommended settings&rsquo; on this banner, you accept our use of analytics cookies.&nbsp;  For more information on how these cookies work please see our <a href="/legal/privacy-and-cookie-policy">Cookie policy</a>.</p>
+
+			<button type="button" class="cookie__button btn btn-default" data-cookie="analytics">Accept recommended cookies</button>
+			<button type="button" class="cookie__button btn btn-default btn-neutral" data-cookie="necessary">Proceed with necessary cookies only</button>
+
+					</div>
+	</div>
+</div>		<div class="nav-bypass">
+			<a href="#main-content" class="nav-bypass__link">Skip to main content</a>
+		</div>
+		
+<header class="global-header" itemscope="" itemtype="http://schema.org/WPHeader">
+    <div class="container">
+        <div class="col12">
+            <div class="header-brand" itemscope="" itemtype="http://schema.org/Organisation">
+                
+
+	<a class="header-logo " itemscope itemtype="http://schema.org/Brand" href="/">
+		<img src="/-/media/boe/images/logo/logo-boe.svg?iar=0&amp;mh=61&amp;hash=2C88D4FFDD47844D6BD2541F5A92D70F" alt="Bank of England home" />
+
+	</a>
+
+            </div>
+
+            <div class="header-nav " id="menu">
+                <nav class="container-nav-primary" id="container-nav-primary" role="navigation" aria-label="Main navigation" itemscope="" itemtype="http://schema.org/SiteNavigationElement" data-nav-primary>
+                    <button class="nav-primary__button" aria-controls="main-menu" data-nav-toggle>
+                        <span class="icon-menu"><span class="visually-hidden">Main menu</span></span>
+                        <span class="icon-cross"><span class="visually-hidden">Close main menu</span></span>
+                    </button>
+                    <ul class="nav-primary" id="main-menu">
+                        
+                        
+
+<li class="nav-primary__list-item nav-primary__list-item--has-children" data-nav-has-children>
+    <span class="nav-primary__link">
+        Topics
+    </span>
+    <button class="nav-primary__dropdown-toggle">
+		<span class="visually-hidden">
+			Open Topics sub menu
+		</span>
+	</button>
+    <ul class="nav-primary__sublist">
+        <li class="nav-primary__sublist-item nav-primary__sublist-item--back">
+            <a href="#" class="nav-primary__sublist-link" data-nav-back>
+                Back <span class="visually-hidden">to main menu</span>
+            </a>
+        </li>
+            <li class="nav-primary__sublist-item  nav-primary__sublist-item--has-children" data-nav-has-children>
+                    <a href="/banknotes" class="nav-primary__sublist-link">
+                        Banknotes
+                    </a>
+                                    <button class="nav-primary__dropdown-toggle">
+                        <span class="visually-hidden">Open Banknotes sub menu</span>
+                    </button>
+                    <ul class="nav-primary__sublist">
+                        <li class="nav-primary__sublist-item nav-primary__sublist-item--back">
+                            <a href="#" class="nav-primary__sublist-link" data-nav-back>
+                                Back <span class="visually-hidden">to main menu</span>
+                            </a>
+                        </li>
+                            <li class="nav-primary__sublist-item">
+                                <a href="/banknotes/counterfeit-banknotes" class="nav-primary__sublist-link">
+                                    Counterfeit banknotes 
+                                </a>
+                            </li>
+                            <li class="nav-primary__sublist-item">
+                                <a href="/banknotes/current-banknotes" class="nav-primary__sublist-link">
+                                    Current banknotes 
+                                </a>
+                            </li>
+                            <li class="nav-primary__sublist-item">
+                                <a href="/banknotes/damaged-and-contaminated-banknotes" class="nav-primary__sublist-link">
+                                    Damaged and contaminated banknotes 
+                                </a>
+                            </li>
+                            <li class="nav-primary__sublist-item">
+                                <a href="/banknotes/exchanging-old-banknotes" class="nav-primary__sublist-link">
+                                    Exchanging old banknotes 
+                                </a>
+                            </li>
+                            <li class="nav-primary__sublist-item">
+                                <a href="/banknotes/note-circulation-scheme" class="nav-primary__sublist-link">
+                                    Note Circulation Scheme 
+                                </a>
+                            </li>
+                            <li class="nav-primary__sublist-item">
+                                <a href="/banknotes/retailers-and-businesses" class="nav-primary__sublist-link">
+                                    Advice for retailers and businesses 
+                                </a>
+                            </li>
+                            <li class="nav-primary__sublist-item">
+                                <a href="/banknotes/scottish-and-northern-ireland-banknotes" class="nav-primary__sublist-link">
+                                    Scottish and Northern Ireland banknotes 
+                                </a>
+                            </li>
+                            <li class="nav-primary__sublist-item">
+                                <a href="/banknotes/using-images-of-banknotes" class="nav-primary__sublist-link">
+                                    Using images of banknotes 
+                                </a>
+                            </li>
+                            <li class="nav-primary__sublist-item">
+                                <a href="/banknotes/wholesale-cash-supervision" class="nav-primary__sublist-link">
+                                    Wholesale cash supervision 
+                                </a>
+                            </li>
+                            <li class="nav-primary__sublist-item">
+                                <a href="/banknotes/withdrawn-banknotes" class="nav-primary__sublist-link">
+                                    Withdrawn banknotes 
+                                </a>
+                            </li>
+					</ul>
+            </li>
+            <li class="nav-primary__sublist-item  nav-primary__sublist-item--has-children" data-nav-has-children>
+                    <a href="/careers" class="nav-primary__sublist-link">
+                        Careers
+                    </a>
+                                    <button class="nav-primary__dropdown-toggle">
+                        <span class="visually-hidden">Open Careers sub menu</span>
+                    </button>
+                    <ul class="nav-primary__sublist">
+                        <li class="nav-primary__sublist-item nav-primary__sublist-item--back">
+                            <a href="#" class="nav-primary__sublist-link" data-nav-back>
+                                Back <span class="visually-hidden">to main menu</span>
+                            </a>
+                        </li>
+                            <li class="nav-primary__sublist-item">
+                                <a href="/careers/application-tips" class="nav-primary__sublist-link">
+                                    Application tips 
+                                </a>
+                            </li>
+                            <li class="nav-primary__sublist-item">
+                                <a href="/careers/career-returner" class="nav-primary__sublist-link">
+                                    Career Returner Programme 
+                                </a>
+                            </li>
+                            <li class="nav-primary__sublist-item">
+                                <a href="/careers/future-talent" class="nav-primary__sublist-link">
+                                    Future talent 
+                                </a>
+                            </li>
+                            <li class="nav-primary__sublist-item">
+                                <a href="/careers/our-locations" class="nav-primary__sublist-link">
+                                    Our locations 
+                                </a>
+                            </li>
+                            <li class="nav-primary__sublist-item">
+                                <a href="/careers/research-careers" class="nav-primary__sublist-link">
+                                    Research careers 
+                                </a>
+                            </li>
+                            <li class="nav-primary__sublist-item">
+                                <a href="/careers/we-value-diversity-and-inclusion" class="nav-primary__sublist-link">
+                                    We value diversity and inclusion 
+                                </a>
+                            </li>
+                            <li class="nav-primary__sublist-item">
+                                <a href="/careers/what-we-offer-you" class="nav-primary__sublist-link">
+                                    What we offer you 
+                                </a>
+                            </li>
+                            <li class="nav-primary__sublist-item">
+                                <a href="/careers/why-you-should-join-us" class="nav-primary__sublist-link">
+                                    Why you should join us 
+                                </a>
+                            </li>
+					</ul>
+            </li>
+            <li class="nav-primary__sublist-item" >
+                    <a href="/climate-change" class="nav-primary__sublist-link">
+                        Climate change
+                    </a>
+                            </li>
+            <li class="nav-primary__sublist-item" >
+                    <a href="/the-digital-pound" class="nav-primary__sublist-link">
+                        Digital pound
+                    </a>
+                            </li>
+            <li class="nav-primary__sublist-item  nav-primary__sublist-item--has-children" data-nav-has-children>
+                    <a href="/education" class="nav-primary__sublist-link">
+                        Education
+                    </a>
+                                    <button class="nav-primary__dropdown-toggle">
+                        <span class="visually-hidden">Open Education sub menu</span>
+                    </button>
+                    <ul class="nav-primary__sublist">
+                        <li class="nav-primary__sublist-item nav-primary__sublist-item--back">
+                            <a href="#" class="nav-primary__sublist-link" data-nav-back>
+                                Back <span class="visually-hidden">to main menu</span>
+                            </a>
+                        </li>
+                            <li class="nav-primary__sublist-item">
+                                <a href="/education/competitions" class="nav-primary__sublist-link">
+                                    Competitions 
+                                </a>
+                            </li>
+                            <li class="nav-primary__sublist-item">
+                                <a href="/education/education-resources" class="nav-primary__sublist-link">
+                                    Education resources 
+                                </a>
+                            </li>
+                            <li class="nav-primary__sublist-item">
+                                <a href="/education/research-support-programme" class="nav-primary__sublist-link">
+                                    Research support programme 
+                                </a>
+                            </li>
+                            <li class="nav-primary__sublist-item">
+                                <a href="/education/school-visits" class="nav-primary__sublist-link">
+                                    Request a speaker for your school 
+                                </a>
+                            </li>
+					</ul>
+            </li>
+            <li class="nav-primary__sublist-item  nav-primary__sublist-item--has-children" data-nav-has-children>
+                    <a href="/financial-stability" class="nav-primary__sublist-link">
+                        Financial stability
+                    </a>
+                                    <button class="nav-primary__dropdown-toggle">
+                        <span class="visually-hidden">Open Financial stability sub menu</span>
+                    </button>
+                    <ul class="nav-primary__sublist">
+                        <li class="nav-primary__sublist-item nav-primary__sublist-item--back">
+                            <a href="#" class="nav-primary__sublist-link" data-nav-back>
+                                Back <span class="visually-hidden">to main menu</span>
+                            </a>
+                        </li>
+                            <li class="nav-primary__sublist-item">
+                                <a href="/financial-stability/digital-securities-sandbox" class="nav-primary__sublist-link">
+                                    Digital Securities Sandbox (DSS) 
+                                </a>
+                            </li>
+                            <li class="nav-primary__sublist-item">
+                                <a href="/financial-stability/financial-market-infrastructure-supervision" class="nav-primary__sublist-link">
+                                    Financial market infrastructure supervision 
+                                </a>
+                            </li>
+                            <li class="nav-primary__sublist-item">
+                                <a href="/financial-stability/operational-resilience-of-the-financial-sector" class="nav-primary__sublist-link">
+                                    Operational resilience of the financial sector 
+                                </a>
+                            </li>
+                            <li class="nav-primary__sublist-item">
+                                <a href="/financial-stability/resolution" class="nav-primary__sublist-link">
+                                    Resolution 
+                                </a>
+                            </li>
+                            <li class="nav-primary__sublist-item">
+                                <a href="/financial-stability/trade-repository-data" class="nav-primary__sublist-link">
+                                    Trade Repository (TR) Data Collections 
+                                </a>
+                            </li>
+					</ul>
+            </li>
+            <li class="nav-primary__sublist-item" >
+                    <a href="/gold" class="nav-primary__sublist-link">
+                        Gold
+                    </a>
+                            </li>
+            <li class="nav-primary__sublist-item  nav-primary__sublist-item--has-children" data-nav-has-children>
+                    <a href="/markets" class="nav-primary__sublist-link">
+                        Markets
+                    </a>
+                                    <button class="nav-primary__dropdown-toggle">
+                        <span class="visually-hidden">Open Markets sub menu</span>
+                    </button>
+                    <ul class="nav-primary__sublist">
+                        <li class="nav-primary__sublist-item nav-primary__sublist-item--back">
+                            <a href="#" class="nav-primary__sublist-link" data-nav-back>
+                                Back <span class="visually-hidden">to main menu</span>
+                            </a>
+                        </li>
+                            <li class="nav-primary__sublist-item">
+                                <a href="/markets/bank-of-england-market-operations-guide" class="nav-primary__sublist-link">
+                                    Bank of England Market Operations Guide 
+                                </a>
+                            </li>
+                            <li class="nav-primary__sublist-item">
+                                <a href="/markets/eligible-collateral" class="nav-primary__sublist-link">
+                                    Eligible collateral 
+                                </a>
+                            </li>
+                            <li class="nav-primary__sublist-item">
+                                <a href="/markets/fair-and-effective-markets" class="nav-primary__sublist-link">
+                                    Fair and Effective Markets  
+                                </a>
+                            </li>
+                            <li class="nav-primary__sublist-item">
+                                <a href="/markets/foreign-currency-reserves" class="nav-primary__sublist-link">
+                                    Foreign currency reserves 
+                                </a>
+                            </li>
+                            <li class="nav-primary__sublist-item">
+                                <a href="/markets/greening-the-corporate-bond-purchase-scheme" class="nav-primary__sublist-link">
+                                    Greening our Corporate Bond Purchase Scheme (CBPS) 
+                                </a>
+                            </li>
+                            <li class="nav-primary__sublist-item">
+                                <a href="/markets/market-intelligence" class="nav-primary__sublist-link">
+                                    Market intelligence 
+                                </a>
+                            </li>
+                            <li class="nav-primary__sublist-item">
+                                <a href="/markets/money-markets-committee-and-uk-money-markets-code" class="nav-primary__sublist-link">
+                                    Money Markets Committee and UK Money Markets Code 
+                                </a>
+                            </li>
+                            <li class="nav-primary__sublist-item">
+                                <a href="/markets/collateral-and-settlement" class="nav-primary__sublist-link">
+                                    Settlement and collateral management 
+                                </a>
+                            </li>
+                            <li class="nav-primary__sublist-item">
+                                <a href="/markets/sonia-benchmark" class="nav-primary__sublist-link">
+                                    SONIA interest rate benchmark 
+                                </a>
+                            </li>
+                            <li class="nav-primary__sublist-item">
+                                <a href="/markets/the-sterling-bond-portfolio" class="nav-primary__sublist-link">
+                                    The Sterling Bond Portfolio 
+                                </a>
+                            </li>
+                            <li class="nav-primary__sublist-item">
+                                <a href="/markets/transition-to-sterling-risk-free-rates-from-libor" class="nav-primary__sublist-link">
+                                    Transition from LIBOR to risk-free rates 
+                                </a>
+                            </li>
+					</ul>
+            </li>
+            <li class="nav-primary__sublist-item  nav-primary__sublist-item--has-children" data-nav-has-children>
+                    <a href="/monetary-policy" class="nav-primary__sublist-link">
+                        Monetary policy
+                    </a>
+                                    <button class="nav-primary__dropdown-toggle">
+                        <span class="visually-hidden">Open Monetary policy sub menu</span>
+                    </button>
+                    <ul class="nav-primary__sublist">
+                        <li class="nav-primary__sublist-item nav-primary__sublist-item--back">
+                            <a href="#" class="nav-primary__sublist-link" data-nav-back>
+                                Back <span class="visually-hidden">to main menu</span>
+                            </a>
+                        </li>
+                            <li class="nav-primary__sublist-item">
+                                <a href="/monetary-policy/inflation" class="nav-primary__sublist-link">
+                                    Inflation and the 2% target 
+                                </a>
+                            </li>
+                            <li class="nav-primary__sublist-item">
+                                <a href="/monetary-policy/quantitative-easing" class="nav-primary__sublist-link">
+                                    Quantitative easing 
+                                </a>
+                            </li>
+                            <li class="nav-primary__sublist-item">
+                                <a href="/monetary-policy/the-interest-rate-bank-rate" class="nav-primary__sublist-link">
+                                    Interest rates and Bank Rate 
+                                </a>
+                            </li>
+					</ul>
+            </li>
+            <li class="nav-primary__sublist-item  nav-primary__sublist-item--has-children" data-nav-has-children>
+                    <a href="/payments" class="nav-primary__sublist-link">
+                        Payments
+                    </a>
+                                    <button class="nav-primary__dropdown-toggle">
+                        <span class="visually-hidden">Open Payments sub menu</span>
+                    </button>
+                    <ul class="nav-primary__sublist">
+                        <li class="nav-primary__sublist-item nav-primary__sublist-item--back">
+                            <a href="#" class="nav-primary__sublist-link" data-nav-back>
+                                Back <span class="visually-hidden">to main menu</span>
+                            </a>
+                        </li>
+                            <li class="nav-primary__sublist-item">
+                                <a href="/payments/banking-services" class="nav-primary__sublist-link">
+                                    Banking services 
+                                </a>
+                            </li>
+                            <li class="nav-primary__sublist-item">
+                                <a href="/payments/chaps" class="nav-primary__sublist-link">
+                                    CHAPS 
+                                </a>
+                            </li>
+                            <li class="nav-primary__sublist-item">
+                                <a href="/payments/payment-settlement" class="nav-primary__sublist-link">
+                                    Payment and settlement 
+                                </a>
+                            </li>
+                            <li class="nav-primary__sublist-item">
+                                <a href="/payments/payments-innovation" class="nav-primary__sublist-link">
+                                    Payments innovation 
+                                </a>
+                            </li>
+					</ul>
+            </li>
+            <li class="nav-primary__sublist-item  nav-primary__sublist-item--has-children" data-nav-has-children>
+                    <a href="/prudential-regulation" class="nav-primary__sublist-link">
+                        Prudential regulation
+                    </a>
+                                    <button class="nav-primary__dropdown-toggle">
+                        <span class="visually-hidden">Open Prudential regulation sub menu</span>
+                    </button>
+                    <ul class="nav-primary__sublist">
+                        <li class="nav-primary__sublist-item nav-primary__sublist-item--back">
+                            <a href="#" class="nav-primary__sublist-link" data-nav-back>
+                                Back <span class="visually-hidden">to main menu</span>
+                            </a>
+                        </li>
+                            <li class="nav-primary__sublist-item">
+                                <a href="/prudential-regulation/authorisations" class="nav-primary__sublist-link">
+                                    Authorisations 
+                                </a>
+                            </li>
+                            <li class="nav-primary__sublist-item">
+                                <a href="/prudential-regulation/new-bank-start-up-unit" class="nav-primary__sublist-link">
+                                    New Bank Start-up Unit 
+                                </a>
+                            </li>
+                            <li class="nav-primary__sublist-item">
+                                <a href="/prudential-regulation/new-insurer-start-up-unit" class="nav-primary__sublist-link">
+                                    New Insurer Start-up Unit 
+                                </a>
+                            </li>
+                            <li class="nav-primary__sublist-item">
+                                <a href="/prudential-regulation/policy" class="nav-primary__sublist-link">
+                                    Policy 
+                                </a>
+                            </li>
+                            <li class="nav-primary__sublist-item">
+                                <a href="/prudential-regulation/prudential-and-resolution-policy-index" class="nav-primary__sublist-link">
+                                    Prudential and Resolution Policy Index 
+                                </a>
+                            </li>
+                            <li class="nav-primary__sublist-item">
+                                <a href="/prudential-regulation/regulatory-reporting" class="nav-primary__sublist-link">
+                                    Regulatory reporting 
+                                </a>
+                            </li>
+                            <li class="nav-primary__sublist-item">
+                                <a href="/prudential-regulation/our-secondary-objectives" class="nav-primary__sublist-link">
+                                    Our secondary objectives 
+                                </a>
+                            </li>
+                            <li class="nav-primary__sublist-item">
+                                <a href="/prudential-regulation/supervision" class="nav-primary__sublist-link">
+                                    Supervision 
+                                </a>
+                            </li>
+                            <li class="nav-primary__sublist-item">
+                                <a href="/prudential-regulation/the-bank-of-england-enforcement" class="nav-primary__sublist-link">
+                                    The Bank of England’s approach to enforcement 
+                                </a>
+                            </li>
+					</ul>
+            </li>
+            <li class="nav-primary__sublist-item  nav-primary__sublist-item--has-children" data-nav-has-children>
+                    <a href="/research" class="nav-primary__sublist-link">
+                        Research
+                    </a>
+                                    <button class="nav-primary__dropdown-toggle">
+                        <span class="visually-hidden">Open Research sub menu</span>
+                    </button>
+                    <ul class="nav-primary__sublist">
+                        <li class="nav-primary__sublist-item nav-primary__sublist-item--back">
+                            <a href="#" class="nav-primary__sublist-link" data-nav-back>
+                                Back <span class="visually-hidden">to main menu</span>
+                            </a>
+                        </li>
+                            <li class="nav-primary__sublist-item">
+                                <a href="/research/bank-of-england-agenda-for-research" class="nav-primary__sublist-link">
+                                    Bank of England Agenda for Research, 2025-2028 
+                                </a>
+                            </li>
+                            <li class="nav-primary__sublist-item">
+                                <a href="/research/fintech" class="nav-primary__sublist-link">
+                                    Fintech 
+                                </a>
+                            </li>
+                            <li class="nav-primary__sublist-item">
+                                <a href="/research/future-finance" class="nav-primary__sublist-link">
+                                    The Future of Finance - our response 
+                                </a>
+                            </li>
+                            <li class="nav-primary__sublist-item">
+                                <a href="/research/visitor-programme" class="nav-primary__sublist-link">
+                                    Research Visitor Programme 
+                                </a>
+                            </li>
+                            <li class="nav-primary__sublist-item">
+                                <a href="/research/research-funding-and-fellowships" class="nav-primary__sublist-link">
+                                    Research funding and fellowships 
+                                </a>
+                            </li>
+                            <li class="nav-primary__sublist-item">
+                                <a href="/research/researchers" class="nav-primary__sublist-link">
+                                    Researchers 
+                                </a>
+                            </li>
+					</ul>
+            </li>
+            <li class="nav-primary__sublist-item  nav-primary__sublist-item--has-children" data-nav-has-children>
+                    <a href="/statistics" class="nav-primary__sublist-link">
+                        Statistics
+                    </a>
+                                    <button class="nav-primary__dropdown-toggle">
+                        <span class="visually-hidden">Open Statistics sub menu</span>
+                    </button>
+                    <ul class="nav-primary__sublist">
+                        <li class="nav-primary__sublist-item nav-primary__sublist-item--back">
+                            <a href="#" class="nav-primary__sublist-link" data-nav-back>
+                                Back <span class="visually-hidden">to main menu</span>
+                            </a>
+                        </li>
+                            <li class="nav-primary__sublist-item">
+                                <a href="/statistics/banknote" class="nav-primary__sublist-link">
+                                    Banknote statistics 
+                                </a>
+                            </li>
+                            <li class="nav-primary__sublist-item">
+                                <a href="/statistics/tables" class="nav-primary__sublist-link">
+                                    Bankstats tables 
+                                </a>
+                            </li>
+                            <li class="nav-primary__sublist-item">
+                                <a href="/statistics/data-collection" class="nav-primary__sublist-link">
+                                    Data collection 
+                                </a>
+                            </li>
+                            <li class="nav-primary__sublist-item">
+                                <a href="/statistics/exchange-rates" class="nav-primary__sublist-link">
+                                    Exchange rates 
+                                </a>
+                            </li>
+                            <li class="nav-primary__sublist-item">
+                                <a href="/statistics/gold" class="nav-primary__sublist-link">
+                                    Gold statistics 
+                                </a>
+                            </li>
+                            <li class="nav-primary__sublist-item">
+                                <a href="/statistics/research-datasets" class="nav-primary__sublist-link">
+                                    Research datasets 
+                                </a>
+                            </li>
+                            <li class="nav-primary__sublist-item">
+                                <a href="/statistics/statistics-requested-by-users" class="nav-primary__sublist-link">
+                                    Statistics requested by users 
+                                </a>
+                            </li>
+                            <li class="nav-primary__sublist-item">
+                                <a href="/statistics/yield-curves" class="nav-primary__sublist-link">
+                                    Yield curves 
+                                </a>
+                            </li>
+					</ul>
+            </li>
+    </ul>
+</li>
+
+                        
+                                <li class="nav-primary__list-item nav-primary__list-item--has-children" data-nav-has-children>
+
+            <a href="/about" class="nav-primary__link" >
+                <span>About</span>
+            </a>
+				<button class="nav-primary__dropdown-toggle">
+					<span class="visually-hidden">Open About sub menu</span>
+			    </button>
+				<ul class="nav-primary__sublist">
+					<li class="nav-primary__sublist-item nav-primary__sublist-item--back">
+						<a href="#" class="nav-primary__sublist-link" data-nav-back>
+							Back <span class="visually-hidden">to main menu</span>
+						</a>
+					</li>
+                    <li class="nav-primary__sublist-item  nav-primary__sublist-item--has-children" data-nav-has-children >
+                        <a href="/about/get-involved" class="nav-primary__sublist-link" >
+                                Get involved
+                        </a>
+                            <button class="nav-primary__dropdown-toggle">
+                                <span class="visually-hidden">Open Get involved sub menu</span>
+                            </button>
+                            <ul class="nav-primary__sublist">
+                                <li class="nav-primary__sublist-item nav-primary__sublist-item--back">
+                                    <a href="#" class="nav-primary__sublist-link" data-nav-back>
+                                        Back <span class="visually-hidden">to main menu</span>
+                                    </a>
+                                </li>
+                                        <li class="nav-primary__sublist-item">
+                                            <a href="/about/get-involved/citizens-panels" class="nav-primary__sublist-link" >
+                                                Citizens’ Forum
+                                            </a>
+                                        </li>
+                                        <li class="nav-primary__sublist-item">
+                                            <a href="/about/get-involved/community-forums" class="nav-primary__sublist-link" >
+                                                Community Forum
+                                            </a>
+                                        </li>
+                                        <li class="nav-primary__sublist-item">
+                                            <a href="/about/get-involved/community-partners" class="nav-primary__sublist-link" >
+                                                Partners
+                                            </a>
+                                        </li>
+                                        <li class="nav-primary__sublist-item">
+                                            <a href="/about/get-involved/youth-forum" class="nav-primary__sublist-link" >
+                                                Youth Voice
+                                            </a>
+                                        </li>
+                            </ul>
+                    </li>
+                    <li class="nav-primary__sublist-item  nav-primary__sublist-item--has-children" data-nav-has-children >
+                        <a href="/about/governance-and-funding" class="nav-primary__sublist-link" >
+                                Governance and funding
+                        </a>
+                            <button class="nav-primary__dropdown-toggle">
+                                <span class="visually-hidden">Open Governance and funding sub menu</span>
+                            </button>
+                            <ul class="nav-primary__sublist">
+                                <li class="nav-primary__sublist-item nav-primary__sublist-item--back">
+                                    <a href="#" class="nav-primary__sublist-link" data-nav-back>
+                                        Back <span class="visually-hidden">to main menu</span>
+                                    </a>
+                                </li>
+                                        <li class="nav-primary__sublist-item">
+                                            <a href="/about/governance-and-funding/staff-codes-and-policies" class="nav-primary__sublist-link" >
+                                                Staff codes and policies
+                                            </a>
+                                        </li>
+                            </ul>
+                    </li>
+                    <li class="nav-primary__sublist-item"  >
+                        <a href="/about/history" class="nav-primary__sublist-link" >
+                                History
+                        </a>
+                    </li>
+                    <li class="nav-primary__sublist-item  nav-primary__sublist-item--has-children" data-nav-has-children >
+                        <a href="/about/people" class="nav-primary__sublist-link" >
+                                Our people
+                        </a>
+                            <button class="nav-primary__dropdown-toggle">
+                                <span class="visually-hidden">Open Our people sub menu</span>
+                            </button>
+                            <ul class="nav-primary__sublist">
+                                <li class="nav-primary__sublist-item nav-primary__sublist-item--back">
+                                    <a href="#" class="nav-primary__sublist-link" data-nav-back>
+                                        Back <span class="visually-hidden">to main menu</span>
+                                    </a>
+                                </li>
+                                        <li class="nav-primary__sublist-item">
+                                            <a href="/about/people/agents" class="nav-primary__sublist-link" >
+                                                Agents
+                                            </a>
+                                        </li>
+                                        <li class="nav-primary__sublist-item">
+                                            <a href="/about/people/chief-cashiers" class="nav-primary__sublist-link" >
+                                                Chief Cashiers
+                                            </a>
+                                        </li>
+                                        <li class="nav-primary__sublist-item">
+                                            <a href="/about/people/court-of-directors" class="nav-primary__sublist-link" >
+                                                Court of Directors
+                                            </a>
+                                        </li>
+                                        <li class="nav-primary__sublist-item">
+                                            <a href="/about/people/executive-directors" class="nav-primary__sublist-link" >
+                                                Executive Directors
+                                            </a>
+                                        </li>
+                                        <li class="nav-primary__sublist-item">
+                                            <a href="/about/people/financial-policy-committee" class="nav-primary__sublist-link" >
+                                                Financial Policy Committee
+                                            </a>
+                                        </li>
+                                        <li class="nav-primary__sublist-item">
+                                            <a href="/about/people/fmi-committee" class="nav-primary__sublist-link" >
+                                                Financial Market Infrastructure Committee
+                                            </a>
+                                        </li>
+                                        <li class="nav-primary__sublist-item">
+                                            <a href="/about/people/governors" class="nav-primary__sublist-link" >
+                                                Governors
+                                            </a>
+                                        </li>
+                                        <li class="nav-primary__sublist-item">
+                                            <a href="/about/people/monetary-policy-committee" class="nav-primary__sublist-link" >
+                                                Monetary Policy Committee
+                                            </a>
+                                        </li>
+                                        <li class="nav-primary__sublist-item">
+                                            <a href="/about/people/prudential-regulation-committee" class="nav-primary__sublist-link" >
+                                                Prudential Regulation Committee
+                                            </a>
+                                        </li>
+                            </ul>
+                    </li>
+				</ul>
+		</li>
+        <li class="nav-primary__list-item nav-primary__list-item--has-children" data-nav-has-children>
+
+            <a href="/news" class="nav-primary__link" >
+                <span>News and publications</span>
+            </a>
+				<button class="nav-primary__dropdown-toggle">
+					<span class="visually-hidden">Open News and publications sub menu</span>
+			    </button>
+				<ul class="nav-primary__sublist">
+					<li class="nav-primary__sublist-item nav-primary__sublist-item--back">
+						<a href="#" class="nav-primary__sublist-link" data-nav-back>
+							Back <span class="visually-hidden">to main menu</span>
+						</a>
+					</li>
+                    <li class="nav-primary__sublist-item"  >
+                        <a href="/news/events" class="nav-primary__sublist-link" >
+                                Events
+                        </a>
+                    </li>
+                    <li class="nav-primary__sublist-item"  >
+                        <a href="/news/news" class="nav-primary__sublist-link" >
+                                News and minutes
+                        </a>
+                    </li>
+                    <li class="nav-primary__sublist-item"  >
+                        <a href="/news/prudential-regulation" class="nav-primary__sublist-link" >
+                                Prudential regulation publications
+                        </a>
+                    </li>
+                    <li class="nav-primary__sublist-item"  >
+                        <a href="/news/publications" class="nav-primary__sublist-link" >
+                                Publications
+                        </a>
+                    </li>
+                    <li class="nav-primary__sublist-item"  >
+                        <a href="/news/speeches" class="nav-primary__sublist-link" >
+                                Speeches
+                        </a>
+                    </li>
+                    <li class="nav-primary__sublist-item"  >
+                        <a href="/news/statistics" class="nav-primary__sublist-link" >
+                                Statistical releases
+                        </a>
+                    </li>
+                    <li class="nav-primary__sublist-item"  >
+                        <a href="/news/upcoming" class="nav-primary__sublist-link" >
+                                Upcoming
+                        </a>
+                    </li>
+				</ul>
+		</li>
+        <li class="nav-primary__list-item" >
+
+            <a href="/museum" class="nav-primary__link" >
+                <span>Museum</span>
+            </a>
+		</li>
+        <li class="nav-primary__list-item" >
+
+            <a href="/contact" class="nav-primary__link" >
+                <span>Contact</span>
+            </a>
+		</li>
+
+
+                        
+                            <li class="nav-primary__list-item">
+                                
+
+<script>
+	var cludo_engineId = 9479; 
+	var cludo_language = 'en'; 
+	var cludo_searchUrl = 'https://www.bankofengland.co.uk/search'; 
+</script>
+<div class="search-widget " >
+    <form class="" id="cludo-search-form" >
+        <div class="search-widget-fields">
+            <label for="clu-q" class="label-hidden">Search</label>
+            <input tabindex="0" onkeyup="removeErrorMessage(event)" type="search" name="q" id="clu-q" placeholder="Search the Bank of England" data-placeholder="Search the Bank of England" data-empty="Search the Bank of England" class="search-widget-field" value="" autocomplete="off">
+            <div tabindex="0" role="button" id="clearInput" aria-label="Clear all search text"></div>
+            <input tabindex="0" type="submit" class="search-widget-btn" id="searchBtn" value="submit search">
+        </div>
+    </form>
+
+    <input tabindex="0" type="submit" class="search-widget-btn search-widget-btn--overlay" id="searchBtn-nosearch" onclick="giveErrorIfEmpty()" value="submit search">
+
+    <div role="alert" class="search-widget-error" id="search-error"><p>Nothing searched for. Please enter a search term.</p></div>
+</div>
+                            </li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </div>
+</header>
+
+		<main class="main" id="main-content" role="main">
+			
+
+ 
+
+
+<section class="page-banner">
+    <div class="page-banner__head">
+        <div class="container">
+            <div class="col9">
+                <nav aria-label="Breadcrumb">
+
+	<ol class="list-breadcrumbs">
+		<li class="list-breadcrumbs__item">
+			<a href="/" class="list-breadcrumbs__link">
+				Home
+			</a>
+		</li>
+		<li class="list-breadcrumbs__item">
+			<a href="/legal" class="list-breadcrumbs__link">
+				Legal
+			</a>
+		</li>
+
+		<li class="list-breadcrumbs__item list-breadcrumbs__item--active" aria-current="page">
+			Cookies statement
+		</li>
+
+	</ol>
+</nav>
+
+
+				<h1 itemprop="name">Cookies statement</h1>
+            </div>
+        </div>
+
+    </div>
+    <div class="page-banner__body">
+        <div class="container">
+                <div class="col9 m-3_4">
+
+                        <div class="page-description" itemprop="description">       
+                            <span class="hero">Find out about the individual cookies we use on the Bank of England website, and why we use them.</span>
+                        </div>
+                </div>
+                            <div class="col3 m-1_4">
+                    
+<div class="related-links-wrap">
+	<ul class="accordion" data-accordion-mobile>
+		<li>
+			<div class="accordion-head">
+				<h2 class="exclude-navigation">
+					<span class="display-lap-desk">Related links</span>
+					<button class="accordion-button">
+						Related links
+						<span class="accordion-toggle"></span>
+					</button>
+				</h2>
+			</div>
+			<div class="accordion-content">
+				<ul class="related-links">
+					
+
+<li>
+		<a href="/legal/privacy"  >
+			Privacy and the Bank of England
+		</a>
+</li>
+				</ul>
+			</div>
+		</li>
+	</ul>
+</div>
+                </div>
+
+        </div>
+    </div>
+
+</section>
+
+
+<section class="page-section  ">
+  <div class="container">
+     <div class="col12">
+      
+
+<div class="anchor-links-wrap" data-title="On this page" data-headerType="H2" data-pageeditor="False">
+
+</div>
+ </div>
+ 
+
+    <div class="clear"></div>
+</div>
+
+</section> 
+<section class="page-section  ">
+  <div class="container">
+     <div class="col9">
+          <div class="content-block">
+        <div class="page-content" data-id="1ac050e982124ce3a93269f96e2b433f">
+            <h2>What are cookies?</h2>
+<p>Cookies are small text files that are placed on your computer or other device by websites that you visit. They are widely used in order to make websites work, or work more efficiently, as well as to provide information to the owners of the site.</p>
+        </div>
+    </div>
+
+ </div>
+ 
+
+    <div class="clear"></div>
+</div>
+
+</section> 
+<section class="page-section  ">
+  <div class="container">
+     <div class="col9">
+          <div class="content-block">
+        <div class="page-content" data-id="548506ec55f04669a7eeead585d44a57">
+            <h2>Information  we collect about users on our website</h2>
+<p>The Bank of England ('we' or the 'Bank') collects personal data about visitors to its <a href="https://www.bankofengland.co.uk/">main website</a>&nbsp;and <a rel="noopener noreferrer" href="https://eoff.fa.em1.ukg.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001" target="_blank">recruitment site</a>&nbsp;(except to the extent the recruitment site includes supplementary information).</p>
+<p><strong>When someone visits our websites we use a third party service, Google Analytics, to collect standard internet log information (such as browsing sessions and type of browser or device used) and details of visitor behaviour patterns.</strong>  We do this to allow us to keep track of the number of visitors to the various parts of the sites and understand how our website is used.  We do not make any attempt to find out the identities or nature of those visiting our websites. You can find out more about how we use cookies, including Google Analytics, in the tables below.</p>
+<p>In any instance where we collect personal data through our websites, we will make this clear and will set out how we will use this. We will only use your personal data in a way that is compatible with the uses outlined to you, except where it&rsquo;s necessary for us to do otherwise - for example, where we have a legal obligation to disclose your personal data. We won&rsquo;t share your information with any other organisations for marketing, market research or commercial purposes and we don&rsquo;t pass on your details to other websites.</p>
+        </div>
+    </div>
+
+ </div>
+ 
+
+    <div class="clear"></div>
+</div>
+
+</section> 
+<section class="page-section  ">
+  <div class="container">
+     <div class="col9">
+          <div class="content-block">
+        <div class="page-content" data-id="d78af36adaec4373b75af8b8276b7fe5">
+            <h2>Essential cookies</h2>
+<p>These are necessary cookies to enable core functionality on our website such as security, network management, and accessibility.&nbsp;You may disable these cookies by changing your browser settings, but this may affect how the website functions.</p>
+<table>
+    <tbody>
+        <tr>
+            <th><span style="font-weight: 300; font-size: 18px;">Cookie</span></th>
+            <th><span style="font-weight: 300; font-size: 18px;">Name</span></th>
+            <th><span style="font-weight: 300; font-size: 18px;">Expiry</span></th>
+            <th><span style="font-weight: 300; font-size: 18px;">Purpose</span></th>
+        </tr>
+        <tr>
+            <td><span style="font-size: 18px;">Co</span><span style="font-size: 16px;">okie preference </span></td>
+            <td><span style="font-size: 16px;">boeconsent</span></td>
+            <td>
+            <p><span style="font-size: 16px;">If you have accepted recommended cookies, they will expire after 90 days</span></p>
+            <p><span style="font-size: 16px;">If you have accepted necessary cookies, they will expire after 1 day</span></p>
+            </td>
+            <td>
+            <p><span style="font-size: 16px;">A pop-up welcome message will be displayed when you first visit our websites. We&rsquo;ll store a cookie so that your computer knows that you&rsquo;ve accepted the recommended or necessary cookies and knows on subsequent visits not to show it again.</span></p>
+            </td>
+        </tr>
+        <tr>
+            <td><span style="font-size: 16px;">Content delivery</span></td>
+            <td><span style="font-size: 16px;">AKA_A2<br />
+            Ak_bmsc<br />
+            TS01b80d1f</span></td>
+            <td><span style="font-size: 16px;">At the end of your session</span></td>
+            <td>
+            <p><span style="font-size: 16px;">We use Akamai content delivery to ensure that our site can handle multiple visitors.</span></p>
+            </td>
+        </tr>
+        <tr>
+            <td><span style="font-size: 16px;">Database sessions</span></td>
+            <td><span style="font-size: 16px;">ASPSESSIONID*</span></td>
+            <td><span style="font-size: 16px;">At the end of your session</span></td>
+            <td>
+            <p><span style="font-size: 16px;">These cookies identify your browsing session on the&nbsp;<a rel="noopener noreferrer" href="https://www.bankofengland.co.uk/boeapps/database/" target="_blank" title="Opens in a new window">Bank of England database</a>. We do not seek to identify the identity or nature of individual users.</span></p>
+            </td>
+        </tr>
+        <tr>
+            <td><span style="font-size: 16px;">Google reCAPTCHA</span></td>
+            <td><span style="font-size: 16px;">_GRECAPTCHA</span></td>
+            <td><span style="font-size: 16px;">6 months</span></td>
+            <td><span style="font-size: 16px;">This cookie is set by Google and provides spam protection on our survey forms.<br />
+            </span></td>
+        </tr>
+        <tr>
+            <td><span style="font-size: 16px;">Tableau</span></td>
+            <td><span style="font-size: 16px;">tableau_locale<br />
+            tableau_public_negotiated_locale<br />
+            JSESSIONID</span></td>
+            <td><span style="font-size: 16px;">At the end of your session</span></td>
+            <td>
+            <p><span style="font-size: 16px;">We embed Tableau charts and interactivity on some of our pages. You have the option to accept the cookies before viewing the Tableau content.</span></p>
+            </td>
+        </tr>
+        <tr>
+            <td><span style="font-size: 16px;">Sessions</span></td>
+            <td>
+            <p><span style="font-size: 16px;">__RequestVerificationToken<br />
+            ASP.NET_SessionId<br />
+            ApplicationGatewayAffinity<br />
+            ApplicationGatewayAffinityCORS<br />
+            shell#lang<br />
+            ai_session<br />
+            ai_user</span></p>
+            </td>
+            <td><span style="font-size: 16px;">At the end of your session</span></td>
+            <td>
+            <p><span style="font-size: 16px;">These cookies identify your browsing session. We do not seek to identify the identity or nature of individual users.</span></p>
+            </td>
+        </tr>
+    </tbody>
+</table>
+        </div>
+    </div>
+    <div class="content-block">
+        <div class="page-content" data-id="4ac9f32fb6ce47d28845afd8d50db15d">
+            <h2>Non-essential cookies</h2>
+<p>These are optional but recommended cookies. We only use these cookies to provide us with anonymous data. We rely upon your consent to allow us to do this. Analytical/ performance cookies allow us to recognise and count the number of visitors and to see how visitors move around our website when they are using it. This helps us to improve the way our website works, for example, by ensuring that users are finding what they are looking for easily.</p>
+<table>
+    <tbody>
+        <tr>
+            <th>Cookie</th>
+            <th>Name</th>
+            <th>Expiry</th>
+            <th>Purpose</th>
+        </tr>
+        <tr>
+            <td>Crazy Egg</td>
+            <td>
+            <p>_cfduid<br />
+            cebs<br />
+            cebsp_<br />
+            _ce.s<br />
+            _ce.clock_data<br />
+            _ce.clock_event <br />
+            _CEFT<br />
+            _ce.irv
+            </p>
+            </td>
+            <td>
+            <p>_cfduid and _ce.s expire after 1 year</p>
+            <p>cebs ,cebsp_ and _ce.irv are session cookies that expire at the end of your session</p>
+            <p>ce.clock_data; ce.clock_event and _CEFT expire after 1 day&nbsp;</p>
+            </td>
+            <td>
+            <p>We use Crazy Egg to collect information about how visitors use our website. Crazy Egg uses CloudFlare to identify individual clients behind a shared IP address, and apply security settings on a per-client basis.&nbsp;Find out more about the <a rel="noopener noreferrer" href="https://www.crazyegg.com/cookies" target="_blank">types of cookies used by Crazy Egg.</a></p>
+            <p>_cfduid and _ce.s are HTTP type cookies.</p>
+            <p>_ce.s is used to track a recording visitor session unique ID, tracking host and start time.</p>
+            <p>cebs is used to track the current user session internally.</p>
+            <p>cebsp_ is used to determine if a survey should be shown.</p>
+            <p>ce.clock_data is used to store the difference in time from the server's time and the current browser.</p>
+            <p>ce.clock_event is used to prevent repeated requests to the clock AP.</p>
+            <p>_CEFT is used to store page variants assigned to visitors for A/B performance testing.</p>
+            <p>_ce.irv is used to store 'isReturning' value during the session.</p>
+            </td>
+        </tr>
+        <tr>
+            <td>Cludo</td>
+            <td>_cfduid</td>
+            <td> 1 year</td>
+            <td>
+            <p>We use Cludo for the search functionality on our website. Cludo uses CloudFlare to identify individual clients behind a shared IP address, and apply security settings on a    per-client basis.</p>
+            </td>
+        </tr>
+        <tr>
+            <td>Google Tag Manager (Analytics)</td>
+            <td>
+            <p>_ga<br />
+            _gid<br />
+            _gat<br />
+            _ga_WJQM5Y97BL<br />
+            __utmzz<br />
+            __utmzzses</p>
+            </td>
+            <td>
+            <p>_ga expires in 2 years</p>
+            <p>_gid expires in 1 day</p>
+            <p>_gat expires in 1 hour</p>
+            <p>_ga_WJQM5Y97BL expires in 400 days</p>
+            <p>__utmzz expires in 6 months</p>
+            <p>__utmzzses at the end of your session</p>
+            </td>
+            <td>
+            <p>These cookies are used to collect information about how visitors use our website. We use the information to compile reports and to help us improve the website. The    cookies collect information in an anonymous form, including the number of visitors to the website, where visitors have come to the website from and the pages they visited.</p>
+            <p>Read <a rel="noopener noreferrer" href="https://support.google.com/analytics/answer/6004245" target="_blank" title="Opens in a new window">Google's overview of privacy and safeguarding data</a>.</p>
+            </td>
+        </tr>
+        <tr>
+            <td>Mailchimp</td>
+            <td>_AVESTA_ENVIRONMENT<br />
+            _abck<br />
+            _ak_bmsc<br />
+            _bm_sz</td>
+            <td>At the end of your session</td>
+            <td>
+            <p>We use Mailchimp to send our email newsletters. These cookies are used for our embedded sign up form.</p>
+            </td>
+        </tr>
+        <tr>
+            <td>Monsido</td>
+            <td>
+            <p>monsido<br />
+            session</p>
+            </td>
+            <td>
+            <p>monsido expires after 1 month<span style="font-size: 1rem;"></span></p>
+            <p>session expires after 30 minutes</p>
+            </td>
+            <td>
+            <p>We use Monsido to understand how users are interacting with our website. These cookies collect information about users anonymously.</p>
+            <p>Find out more about the <a rel="noopener noreferrer" href="https://monsido.com/cookie-policy" target="_blank">types of cookies used by Monsido.</a></p>
+            </td>
+        </tr>
+        <tr>
+            <td>Sitecore Content Management System</td>
+            <td>SC_ANALYTICS_GLOBAL_COOKIE</td>
+            <td>244 days</td>
+            <td>
+            <p>We use Sitecore web analytics on our forms to identify repeat visits by unique users.</p>
+            </td>
+        </tr>
+        <tr>
+            <td>Snazzy maps</td>
+            <td>ARRAffinitySameSite<br />
+            </td>
+            <td>At the end of your session<br />
+            </td>
+            <td>We embed styled Google maps on some of our pages.</td>
+        </tr>
+        <tr>
+            <td>Vimeo</td>
+            <td>
+            vuid
+            <br />
+            _cfuvid
+            <br />
+            cf_clearance
+            <br />
+            player
+            <br />
+            __cf_bm
+            <br />
+            _abexps
+            <br />
+            __pdst</td>
+            <td>
+            <p>vuid expires after 310 days</p>
+            <p>_cfuvid expires at the end of your session</p>
+            <p>cf_clearance expires in 205 days</p>
+            <p>player expires in 255 days</p>
+            <p>__cf_bm expires after 1 day</p>
+            <p>_abexps expires after 11 months</p>
+            <p>__pdst expires after 9 months</p>
+            </td>
+            <td>
+            <p>We embed videos from our official Vimeo channel. When you press play Vimeo will drop third party cookies to enable the the video to play and to collect analytics data such as how long a viewer has watched the video. These cookies do not track individuals.</p>
+            </td>
+        </tr>
+        <tr>
+            <td>YouTube (Google)</td>
+            <td>
+            <p>PREF<br />
+            VISITOR_INFO1_LIVE<br />
+            AEC<br />
+            NID<br />
+            CONSENT<br />
+            SOCS<br />
+            ENID<br />
+            YSC</p>
+            </td>
+            <td>
+            <p>PREF expires after 8 months</p>
+            <p>VISITOR_INFO1_LIVE; AEC and NID expire after 6 months</p>
+            <p>CONSENT expires after 2 years</p>
+            <p>SOCS and ENID expire after 13 months</p>
+            <p>YSC expires at the end of your browsing session</p>
+            </td>
+            <td>
+            <p>We embed videos from our official YouTube channel using YouTube&rsquo;s privacy-enhanced mode. This mode may set cookies on your computer once you click on the YouTube video player, but YouTube will not store personally identifiable cookie information for playbacks of embedded videos.<span style="font-size: 1rem;"></span></p>
+            <p>Read more at&nbsp;<a rel="noopener noreferrer" href="http://www.google.com/support/youtube/bin/answer.py?hl=en-GB&amp;answer=171780" target="_blank" title="Opens in a new window">YouTube&rsquo;s embedding videos information page</a>.</p>
+            <p>Find out more about the <a rel="noopener noreferrer" href="https://policies.google.com/technologies/cookies?hl=en" target="_blank">types of cookies used by Google</a>.</p>
+            </td>
+        </tr>
+    </tbody>
+</table>
+<p>Third parties may transfer your data outside the EEA as described in their privacy statements.</p>
+        </div>
+    </div>
+
+ </div>
+ 
+
+    <div class="clear"></div>
+</div>
+
+</section> 
+<section class="page-section  ">
+  <div class="container">
+     <div class="col9">
+          <div class="content-block">
+        <div class="page-content" data-id="22f7f6d30a4b4dd08360aafa008ba280">
+            <h2>Managing or removing cookies</h2>
+<p><span>You can remove cookies by deleting them from your browser history (cache) when you leave the site.&nbsp; You can find more information about cookies, including how to control the use of these through your browser settings, at </span><span><a rel="noopener noreferrer" href="https://www.allaboutcookies.org/" target="_blank">allaboutcookies.org</a></span><span> or </span><a rel="noopener noreferrer" href="http://www.aboutcookies.org/" target="_blank" id="aboutcookies.org"><span>aboutcookies.org</span></a><span>.</span></p>
+<p><span>You can also <a rel="noopener noreferrer" href="http://tools.google.com/dlpage/gaoptout" target="_blank">opt out of being tracked by Google Analytics</a> across all websites.</span></p>
+<p><span>Find out how to manage cookies on popular browsers:</span></p>
+<ul>
+    <li><a rel="noopener noreferrer" href="https://support.google.com/accounts/answer/61416?co=GENIE.Platform%3DDesktop&amp;hl=en" target="_blank">Google Chrome</a></li>
+    <li><a rel="noopener noreferrer" href="https://privacy.microsoft.com/en-us/windows-10-microsoft-edge-and-privacy" target="_blank">Microsoft Edge</a></li>
+    <li><a rel="noopener noreferrer" href="https://support.mozilla.org/en-US/kb/enable-and-disable-cookies-website-preferences" target="_blank">Mozilla Firefox</a></li>
+    <li><a rel="noopener noreferrer" href="https://support.microsoft.com/en-gb/help/17442/windows-internet-explorer-delete-manage-cookies" target="_blank">Microsoft Internet Explorer</a></li>
+    <li><a rel="noopener noreferrer" href="https://www.opera.com/help/tutorials/security/privacy/" target="_blank">Opera</a></li>
+    <li><a rel="noopener noreferrer" href="https://support.apple.com/en-us/HT201265" target="_blank">Apple Safari</a></li>
+</ul>
+<p>Please note that the Bank of England website will not work properly without cookies.</p>
+        </div>
+    </div>
+
+ </div>
+ 
+
+    <div class="clear"></div>
+</div>
+
+</section> 
+<section class="page-section  ">
+  <div class="container">
+     <div class="col9">
+          <div class="content-block">
+        <div class="page-content" data-id="29692ce291d745b58e5516b0cfe6f7db">
+            <h2 class="exclude-navigation">Your rights</h2>
+You have various rights under data protection laws. <a href="/legal/privacy">See our main privacy page</a>.
+        </div>
+    </div>
+
+ </div>
+ 
+
+    <div class="clear"></div>
+</div>
+
+</section> 
+<section class="page-section  ">
+  <div class="container">
+     <div class="col9">
+          <div class="content-block">
+        <div class="page-content" data-id="bed2d436305b4fd0ab9195705e5f12ef">
+            <h2>Changes to this statement</h2>
+<p>We keep our cookies information under regular review.  This statement was last reviewed in September 2024.</p>
+        </div>
+    </div>
+
+ </div>
+ 
+
+    <div class="clear"></div>
+</div>
+
+</section> 				<section class="page-section page-section--last">
+					<div class="container">
+						<div class="col12">
+							<p class="txtr">
+								<a class="scroll-to-top" href="#">Back to top</a>
+							</p>
+						</div>
+					</div>
+				</section>
+
+
+<section class="page-section-survey">
+    <div class="container">
+        <div class="col12">          
+			<div class="page-survey">
+				<div class="page-last-updated">This page was last updated 14 April 2025</div>
+								<div class="page-survey-survey">
+					
+						<iframe src="/forms/page-survey-page?path=%2fsitecore%2fcontent%2fBoE%2fHome%2fLegal%2fprivacy-and-cookie-policy&id=pageSurveyc2723f0d877c449091a939f81ef158c3" id="pageSurveyc2723f0d877c449091a939f81ef158c3" frameborder="0" title="Page Survey" class="page-survey-iframe"></iframe>
+				</div>
+			</div>
+        </div>
+    </div>
+</section>
+		</main>
+		<div class="clear"></div>
+		<footer class="global-footer" itemscope="" itemtype="http://schema.org/WPFooter">
+			<div class="container">
+	<div class="col3">
+		<div class="footer-social-bank">
+			<ul class="accordion" data-accordion-mobile>
+				<li>
+					<div class="accordion-head">
+						<h3 class="exclude-navigation">
+							<span class="display-lap-desk">Follow us</span>
+							<button class="accordion-button">
+								Follow us
+								<span class="accordion-toggle"></span>
+							</button>
+						</h3>
+					</div>
+					<div class="accordion-content">
+						
+
+<div class="footer-social-bank">
+    <ul class="social-links">
+            <li class="social-item">
+                    <a class="social-link "
+                        href="https://www.linkedin.com/company/bank-of-england/"
+                        target="_blank"
+						title="Opens in a new window">
+                            <span class="icon-linkedin"></span>
+                        <span class="si-text">Connect with us on LinkedIn</span>
+                    </a>
+			</li>
+            <li class="social-item">
+                    <a class="social-link "
+                        href="https://x.com/bankofengland"
+                        target="_blank"
+						title="Opens in a new window">
+                            <span class="icon-twitter-bird"></span>
+                        <span class="si-text">Follow us on Twitter</span>
+                    </a>
+			</li>
+            <li class="social-item">
+                    <a class="social-link "
+                        href="https://www.facebook.com/bankofengland.co.uk"
+                        target="_blank"
+						title="Opens in a new window">
+                            <span class="icon-facebook"></span>
+                        <span class="si-text">Add us on Facebook</span>
+                    </a>
+			</li>
+            <li class="social-item">
+                    <a class="social-link "
+                        href="https://www.instagram.com/bankofengland"
+                        target="_blank"
+						>
+                            <span class="icon-instagram"></span>
+                        <span class="si-text">Follow us on Instagram</span>
+                    </a>
+			</li>
+            <li class="social-item">
+                    <a class="social-link "
+                        href="https://www.threads.com/@bankofengland"
+                        target="_blank"
+						>
+                            <span class="icon-treads"></span>
+                        <span class="si-text">Follow us on Threads</span>
+                    </a>
+			</li>
+            <li class="social-item">
+                    <a class="social-link "
+                        href="https://tiktok.com/@bankofengland"
+                        target="_blank"
+						>
+                            <span class="icon-tiktok"></span>
+                        <span class="si-text">Follow us on TikTok</span>
+                    </a>
+			</li>
+            <li class="social-item">
+                    <a class="social-link "
+                        href="https://www.youtube.com/user/bankofenglanduk"
+                        target="_blank"
+						title="Opens in a new window">
+                            <span class="icon-youtube-play"></span>
+                        <span class="si-text">Watch us on Youtube</span>
+                    </a>
+			</li>
+            <li class="social-item">
+                    <a class="social-link "
+                        href="https://www.flickr.com/photos/bankofengland/albums"
+                        target="_blank"
+						title="Opens in a new window">
+                            <span class="icon-flickr"></span>
+                        <span class="si-text">Find us on Flickr</span>
+                    </a>
+			</li>
+    </ul>
+</div>
+						
+
+<div class="footer-social-bank">
+		<h3 class="exclude-navigation">Museum</h3>
+    <ul class="social-links">
+            <li class="social-item">
+                    <a class="social-link "
+                        href="https://www.facebook.com/boemuseum"
+                        target="_blank"
+						title="Opens in a new window">
+                            <span class="icon-facebook"></span>
+                        <span class="si-text">Like the Bank of England museum on Facebook</span>
+                    </a>
+			</li>
+            <li class="social-item">
+                    <a class="social-link "
+                        href="https://instagram.com/boemuseum"
+                        target="_blank"
+						title="Opens in a new window">
+                            <span class="icon-instagram"></span>
+                        <span class="si-text">Follow the Bank of England museum on Instagram</span>
+                    </a>
+			</li>
+            <li class="social-item">
+                    <a class="social-link "
+                        href="https://www.threads.com/@boemuseum"
+                        target="_blank"
+						>
+                            <span class="icon-treads"></span>
+                        <span class="si-text">Follow the Bank of England museum on Threads</span>
+                    </a>
+			</li>
+            <li class="social-item">
+                    <a class="social-link "
+                        href="https://www.tiktok.com/@boemuseum"
+                        target="_blank"
+						>
+                            <span class="icon-tiktok"></span>
+                        <span class="si-text">Follow the Bank of England museum on TikTok</span>
+                    </a>
+			</li>
+    </ul>
+</div>
+					</div>
+				</li>
+			</ul>
+		</div>
+
+	</div>
+	<div class="col3">
+		
+<div class="footer-topics">
+    <ul class="accordion" data-accordion-mobile>
+        <li>
+            <div class="accordion-head">
+                <h3 class="exclude-navigation">
+                    <span class="display-lap-desk">Useful links</span>
+                    <button class="accordion-button">Useful links<span class="accordion-toggle"></span></button>
+                </h3>
+            </div>
+			<div class="accordion-content">
+				<ul class="footer-links">
+						<li class="footer-item">
+                                <a href="/about" class="footer-link" >
+                                    About us
+                                </a>
+						</li>
+						<li class="footer-item">
+                                <a href="/archive" class="footer-link" >
+                                    Archive
+                                </a>
+						</li>
+						<li class="footer-item">
+                                <a href="/careers" class="footer-link" >
+                                    Careers
+                                </a>
+						</li>
+						<li class="footer-item">
+                                <a href="/contact" class="footer-link" >
+                                    Contact us
+                                </a>
+						</li>
+						<li class="footer-item">
+                                <a href="/explainers" class="footer-link" >
+                                    Explainers
+                                </a>
+						</li>
+						<li class="footer-item">
+                                <a href="/faq" class="footer-link" >
+                                    FAQs
+                                </a>
+						</li>
+						<li class="footer-item">
+                                <a href="/freedom-of-information" class="footer-link" >
+                                    Freedom of Information
+                                </a>
+						</li>
+						<li class="footer-item">
+                                <a href="/glossary" class="footer-link" >
+                                    Glossary
+                                </a>
+						</li>
+						<li class="footer-item">
+                                <a href="/museum" class="footer-link" >
+                                    Museum
+                                </a>
+						</li>
+						<li class="footer-item">
+                                <a href="/subscribe-to-emails" class="footer-link" >
+                                    Subscribe to emails
+                                </a>
+						</li>
+				</ul>
+			</div>
+		</li>
+	</ul>
+</div>
+	</div>
+	<div class="col3">
+		<div class="footer-contact">
+			
+<h3 class="exclude-navigation">Bank of England</h3>
+<ul class="footer-contact-info">
+    <li class="footer-address">Threadneedle Street, London, EC2R 8AH</li>
+    <li class="footer-tel">Switchboard: <a class="footer-tel-link" href="tel://00442034614444" target="_blank" title="Switchboard">+44(0)20 3461 4444</a></li>
+    <li class="footer-tel">Enquiries: <a class="footer-tel-link" href="tel://00442034614878" target="_blank" title="Enquiries">+44(0)20 3461 4878</a></li>
+</ul>
+			
+<h3 class="exclude-navigation">Bank of England Museum</h3>
+<ul class="footer-contact-info">
+    <li class="footer-address">Bartholomew Lane, London, EC2R 8AH</li>
+</ul>
+		</div>
+	</div>
+	<div class="col3">
+		
+	<div class="container-seal">
+		<a class="icon-seal" href="/"  ><img src="/-/media/boe/images/logo/footer-logo.svg?h=50&amp;iar=0&amp;mh=50&amp;mw=240&amp;w=50&amp;hash=21937D63AC8E857977043CB73AE10F74" alt="Bank of England home" width="50" height="50" /></a>
+	</div>
+
+	</div>
+</div>
+
+<div class="footer-copyright">
+	<div class="container">
+		<div class="col12">
+			
+<ul class="list-inline">
+	    <li class="list-inline__item"> 
+			    <a href="/accessibility" class="list-inline__link" >
+Accessibility statement			    </a>
+	    </li>
+	    <li class="list-inline__item"> 
+			    <a href="/legal/privacy-and-cookie-policy" class="list-inline__link" >
+Cookies			    </a>
+	    </li>
+	    <li class="list-inline__item"> 
+			    <a href="/about/gymraeg" class="list-inline__link" >
+						<span lang="cy">
+							Cymraeg
+						</span>
+			    </a>
+	    </li>
+	    <li class="list-inline__item"> 
+			    <a href="/legal" class="list-inline__link" >
+Legal			    </a>
+	    </li>
+	    <li class="list-inline__item"> 
+			    <a href="/legal/privacy" class="list-inline__link" >
+Privacy			    </a>
+	    </li>
+	    <li class="list-inline__item"> 
+			    <a href="/sitemap" class="list-inline__link" >
+Sitemap			    </a>
+	    </li>
+</ul>
+
+
+			
+<p class="text-copyright">&#169;2026 Bank of England&#160;</p>
+		</div>
+	</div>
+</div>
+		</footer>
+		<script src="/scripts/boe.vendor.min.js?ver=98f91" type="text/javascript"></script>
+<script src="/scripts/boe.min.js?ver=98f91" type="text/javascript"></script>
+<script src="/-/media/css/search-bundle-script.js?ver=BB56DD&mode=npe" type="text/javascript"></script>
+<script src="/-/media/css/search-new-js.js?ver=6AFCD3&mode=npe" type="text/javascript"></script>
+
+		
+		
+	</div>
+</body>
+</html>

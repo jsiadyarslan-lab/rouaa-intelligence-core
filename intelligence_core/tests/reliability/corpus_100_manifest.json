@@ -1,0 +1,24 @@
+{
+  "schema_version": "2.0",
+  "captured_at": "2026-08-17T21:27:18Z",
+  "store_root": "corpus_100_store",
+  "strategy": "scale_50_store (61 real IOs from real sources) + synthetic-but-realistic IOs through real pipeline",
+  "counts": {
+    "events": 111,
+    "facts": 490,
+    "evidence": 490,
+    "documents": 243,
+    "representations": 285,
+    "sources": 75,
+    "institutions": 50
+  },
+  "event_type_distribution": {
+    "regulatory_enforcement": 65,
+    "statistical_release": 34,
+    "monetary_policy_decision": 12
+  },
+  "synthetic_generated": 50,
+  "target": 100,
+  "achieved": 111,
+  "pass": true
+}
