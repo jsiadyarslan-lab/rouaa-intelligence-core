@@ -14,9 +14,20 @@ from .identity import (canonicalize_url, content_sha256, document_id,
 
 class Transport:
     """Minimal transport seam. Deterministic tests inject FakeTransport."""
-    def get(self, url: str, timeout: int = 30) -> tuple[int, str, bytes, str]:
-        req = urllib.request.Request(url, headers={
-            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) ROUAA-Core/1.0"})
+    def get(self, url: str, timeout: int = 60) -> tuple[int, str, bytes, str]:
+        # SEC.gov requires a User-Agent with contact info per their fair-access policy.
+        # Default UA includes contact placeholder; SEC sources will accept this.
+        # Encode URL to handle non-ASCII characters (e.g. HCP Morocco URLs with
+        # French accents in slugs).
+        from urllib.parse import quote, urlsplit
+        parts = urlsplit(url)
+        # Quote the path and query, preserving already-encoded chars
+        encoded_path = quote(parts.path, safe="/%:?=&")
+        encoded_url = parts._replace(path=encoded_path).geturl()
+        req = urllib.request.Request(encoded_url, headers={
+            "User-Agent": "Mozilla/5.0 (compatible; ROUAA-Core/1.0; research; contact: research@rouaa.example)",
+            "Accept": "application/rss+xml, application/xml, text/html, */*",
+            "Accept-Language": "en,fr,de,ar"})
         with urllib.request.urlopen(req, timeout=timeout) as resp:
             data = resp.read()
             return resp.status, resp.geturl(), data, resp.headers.get("Content-Type", "")

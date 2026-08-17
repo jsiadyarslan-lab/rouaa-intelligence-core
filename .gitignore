@@ -2,6 +2,12 @@
 production_store/
 production_store_live/
 
+# E2E store: regenerate via pipeline (real official sources)
+# The store JSONL is real evidence — committed. Binary blobs (raw HTML
+# retrieved from official sources) are gitignored (they can be
+# re-fetched by re-running the E2E pipeline).
+e2e_store/blobs/
+
 # Python
 __pycache__/
 *.pyc

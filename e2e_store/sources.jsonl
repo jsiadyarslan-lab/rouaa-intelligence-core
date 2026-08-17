@@ -1,0 +1,3 @@
+{"acquisition_method": "direct_http", "configuration_version": "1", "institution_id": "INST-ecb-001", "source_id": "ECB", "source_path": "https://www.ecb.europa.eu/rss/press.html", "source_type": "official", "status": "PENDING"}
+{"acquisition_method": "direct_http", "configuration_version": "1", "institution_id": "INST-hcp-001", "source_id": "HCP", "source_path": "https://www.hcp.ma/xml/syndication.rss", "source_type": "official", "status": "PENDING"}
+{"acquisition_method": "direct_http", "configuration_version": "1", "institution_id": "INST-sec-001", "source_id": "SEC", "source_path": "https://www.sec.gov/news/pressreleases.rss", "source_type": "official", "status": "PENDING"}

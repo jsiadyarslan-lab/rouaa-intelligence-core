@@ -1,0 +1,279 @@
+{
+  "schema_version": "1.0",
+  "run_id": "e2e-run-1786976027",
+  "captured_at": "2026-08-17T14:14:01Z",
+  "store_root": "e2e_store",
+  "sources_attempted": 3,
+  "sources_full_e2e": 2,
+  "results": [
+    {
+      "source_code": "ECB",
+      "source_name": "European Central Bank",
+      "source_path": "https://www.ecb.europa.eu/rss/press.html",
+      "institution_id": "INST-ecb-001",
+      "classification": "REAL_OFFICIAL_DOCUMENT",
+      "acquisition": {
+        "entity_resolution": "PASS",
+        "resolved_institution_id": "INST-ecb-001",
+        "feed_fetch": {
+          "http_status": 200,
+          "content_type": "application/rss+xml",
+          "bytes": 5992,
+          "content_sha256": "3c7c9e69a52b8ea0...",
+          "canonical_url": "https://www.ecb.europa.eu/rss/press.html",
+          "document_id": "doc-991c113079223ac6"
+        },
+        "rss_items_parsed": 15
+      },
+      "documents": [
+        {
+          "item_url": "https://www.ecb.europa.eu//press/key/date/2026/html/ecb.sp260817~1f9f7149c9.en.pdf",
+          "item_title": "Philip R. Lane: The rise in defence spending and the euro area economy",
+          "item_pubDate": "Mon, 17 Aug 2026 11:30:00 +0200",
+          "document_id": null,
+          "facts_count": 0,
+          "event": null,
+          "io_id": null,
+          "error": {
+            "stage": "DOCUMENT",
+            "message": "PDF skipped \u2014 D10 (HTML/RSS only); PDF deferred per canonical \u00a73"
+          }
+        },
+        {
+          "item_url": "https://www.ecb.europa.eu//press/key/date/2026/html/ecb.sp260724~d484b483b9.en.pdf",
+          "item_title": "Philip R. Lane: Outlook for the euro area economy",
+          "item_pubDate": "Fri, 24 Jul 2026 17:30:00 +0200",
+          "document_id": null,
+          "facts_count": 0,
+          "event": null,
+          "io_id": null,
+          "error": {
+            "stage": "DOCUMENT",
+            "message": "PDF skipped \u2014 D10 (HTML/RSS only); PDF deferred per canonical \u00a73"
+          }
+        },
+        {
+          "item_url": "https://www.ecb.europa.eu//press/pr/date/2026/html/ecb.pr260813~389729d6a9.en.html",
+          "item_title": "Cash remains most widely accepted payment method in euro area",
+          "item_pubDate": "Thu, 13 Aug 2026 11:00:00 +0200",
+          "document_id": "doc-ac00651c0093d6f9",
+          "facts_count": 0,
+          "event": null,
+          "io_id": null,
+          "error": null,
+          "canonical_url": "https://www.ecb.europa.eu//press/pr/date/2026/html/ecb.pr260813~389729d6a9.en.html",
+          "document_content_sha256": "d8aecc3403068276...",
+          "document_bytes": 103421,
+          "document_content_type": "text/html; charset=UTF-8",
+          "document_text_chars": 15342,
+          "fact_metrics": []
+        },
+        {
+          "item_url": "https://www.ecb.europa.eu//press/pr/date/2026/html/ecb.pr260811~47cd3ee040.en.html",
+          "item_title": "ECB and Frankfurt Radio Symphony invite the public to Europa Open Air concert on 20 August 2026",
+          "item_pubDate": "Tue, 11 Aug 2026 10:30:00 +0200",
+          "document_id": "doc-737e4fff6a05c09d",
+          "facts_count": 0,
+          "event": null,
+          "io_id": null,
+          "error": null,
+          "canonical_url": "https://www.ecb.europa.eu//press/pr/date/2026/html/ecb.pr260811~47cd3ee040.en.html",
+          "document_content_sha256": "bd5fc85885ff6c26...",
+          "document_bytes": 103143,
+          "document_content_type": "text/html; charset=UTF-8",
+          "document_text_chars": 15749,
+          "fact_metrics": []
+        }
+      ],
+      "facts_total": 0,
+      "events": [],
+      "intelligence_objects": [],
+      "errors": [],
+      "full_e2e": false,
+      "failure_stage": "EXTRACTION"
+    },
+    {
+      "source_code": "HCP",
+      "source_name": "Haut Commissariat au Plan (Morocco)",
+      "source_path": "https://www.hcp.ma/xml/syndication.rss",
+      "institution_id": "INST-hcp-001",
+      "classification": "REAL_OFFICIAL_DOCUMENT",
+      "acquisition": {
+        "entity_resolution": "PASS",
+        "resolved_institution_id": "INST-hcp-001",
+        "feed_fetch": {
+          "http_status": 200,
+          "content_type": "text/xml; charset=UTF-8",
+          "bytes": 25616,
+          "content_sha256": "46991bdf347cb93c...",
+          "canonical_url": "https://www.hcp.ma/xml/syndication.rss",
+          "document_id": "doc-ae9ebcb02f278223"
+        },
+        "rss_items_parsed": 5
+      },
+      "documents": [
+        {
+          "item_url": "https://www.hcp.ma/Principaux-indicateurs-trimestriels-retropoles-provisoires-du-marche-de-travail-selon-la-methodologie-EMO-Periode-de_a4343.html",
+          "item_title": "Principaux indicateurs trimestriels r\u00e9tropol\u00e9s provisoires du march\u00e9 de travail selon la m\u00e9thodologie EMO. P\u00e9riode de 20",
+          "item_pubDate": "Tue, 04 Aug 2026 03:40:00 +0200",
+          "document_id": "doc-0e8808973cb1fd6f",
+          "facts_count": 0,
+          "event": null,
+          "io_id": null,
+          "error": null,
+          "canonical_url": "https://www.hcp.ma/Principaux-indicateurs-trimestriels-retropoles-provisoires-du-marche-de-travail-selon-la-methodologie-EMO-Periode-de_a4343.html",
+          "document_content_sha256": "9c7fa72c5884283b...",
+          "document_bytes": 44470,
+          "document_content_type": "text/html; charset=UTF-8",
+          "document_text_chars": 5419,
+          "fact_metrics": []
+        },
+        {
+          "item_url": "https://www.hcp.ma/Situation-du-marche-du-travail-au-Maroc-au-deuxieme-trimestre-de-2026-a-partir-de-la-nouvelle-enquete-sur-la-main-d_a4342.html",
+          "item_title": "Situation du march\u00e9 du travail au Maroc au deuxi\u00e8me trimestre de 2026 \u00e0 partir de la nouvelle enqu\u00eate sur la main-d\u2019\u0153uvr",
+          "item_pubDate": "Mon, 03 Aug 2026 23:10:00 +0200",
+          "document_id": "doc-0c4d91f4c925c023",
+          "facts_count": 16,
+          "event": {
+            "event_id": "evt-3145932c2c2b0fd8",
+            "event_version": 1,
+            "event_type": "statistical_release",
+            "document_id": "doc-0c4d91f4c925c023",
+            "fact_count": 16
+          },
+          "io_id": "io-0dfe7be4250a560a",
+          "error": null,
+          "canonical_url": "https://www.hcp.ma/Situation-du-marche-du-travail-au-Maroc-au-deuxieme-trimestre-de-2026-a-partir-de-la-nouvelle-enquete-sur-la-main-d_a4342.html",
+          "document_content_sha256": "12b349a2632abfb7...",
+          "document_bytes": 46111,
+          "document_content_type": "text/html; charset=UTF-8",
+          "document_text_chars": 7904,
+          "fact_metrics": [
+            "percentage_statistic"
+          ],
+          "io_headline": "Haut Commissariat au Plan (Morocco) Statistical Release",
+          "io_chain_length": 16,
+          "io_event_version": 1
+        }
+      ],
+      "facts_total": 16,
+      "events": [
+        {
+          "event_id": "evt-3145932c2c2b0fd8",
+          "event_version": 1,
+          "event_type": "statistical_release",
+          "document_id": "doc-0c4d91f4c925c023",
+          "fact_count": 16
+        }
+      ],
+      "intelligence_objects": [
+        "io-0dfe7be4250a560a"
+      ],
+      "errors": [],
+      "full_e2e": true,
+      "failure_stage": null
+    },
+    {
+      "source_code": "SEC",
+      "source_name": "US Securities and Exchange Commission",
+      "source_path": "https://www.sec.gov/news/pressreleases.rss",
+      "institution_id": "INST-sec-001",
+      "classification": "REAL_OFFICIAL_DOCUMENT",
+      "acquisition": {
+        "entity_resolution": "PASS",
+        "resolved_institution_id": "INST-sec-001",
+        "feed_fetch": {
+          "http_status": 200,
+          "content_type": "application/rss+xml; charset=utf-8",
+          "bytes": 18148,
+          "content_sha256": "bf2babaa63407412...",
+          "canonical_url": "https://www.sec.gov/news/pressreleases.rss",
+          "document_id": "doc-8940dd773777ae62"
+        },
+        "rss_items_parsed": 25
+      },
+      "documents": [
+        {
+          "item_url": "https://www.sec.gov/newsroom/press-releases/2026-75-sec-charges-boiler-room-operator-three-entities-defrauding-retail-investors-74-million-pre-ipo",
+          "item_title": "SEC Charges Boiler Room Operator and Three Entities with Defrauding Retail Investors in $74 Million Pre-IPO Investment S",
+          "item_pubDate": "Fri, 14 Aug 2026 16:16:34 -0400",
+          "document_id": "doc-9a2c3554bf239005",
+          "facts_count": 8,
+          "event": {
+            "event_id": "evt-31a17f8e8c7f6ff4",
+            "event_version": 1,
+            "event_type": "regulatory_enforcement",
+            "document_id": "doc-9a2c3554bf239005",
+            "fact_count": 8
+          },
+          "io_id": "io-1ca8a75ee22968f7",
+          "error": null,
+          "canonical_url": "https://www.sec.gov/newsroom/press-releases/2026-75-sec-charges-boiler-room-operator-three-entities-defrauding-retail-investors-74-million-pre-ipo",
+          "document_content_sha256": "1821de3d1b5763ac...",
+          "document_bytes": 65495,
+          "document_content_type": "text/html; charset=UTF-8",
+          "document_text_chars": 6186,
+          "fact_metrics": [
+            "action_type",
+            "penalty_amount"
+          ],
+          "io_headline": "US Securities and Exchange Commission Regulatory Enforcement Action",
+          "io_chain_length": 8,
+          "io_event_version": 1
+        },
+        {
+          "item_url": "https://www.sec.gov/newsroom/press-releases/2026-74-sec-charges-toms-river-trio-connection-alleged-47-million-fraud-targeting-orthodox-jewish",
+          "item_title": "SEC Charges Toms River Trio in Connection with Alleged $47 Million Fraud Targeting Orthodox Jewish Communities",
+          "item_pubDate": "Thu, 13 Aug 2026 16:32:19 -0400",
+          "document_id": "doc-fa4e9cecec3e8d7d",
+          "facts_count": 10,
+          "event": {
+            "event_id": "evt-6726f19bf8a5555d",
+            "event_version": 1,
+            "event_type": "regulatory_enforcement",
+            "document_id": "doc-fa4e9cecec3e8d7d",
+            "fact_count": 10
+          },
+          "io_id": "io-86eb51402109b465",
+          "error": null,
+          "canonical_url": "https://www.sec.gov/newsroom/press-releases/2026-74-sec-charges-toms-river-trio-connection-alleged-47-million-fraud-targeting-orthodox-jewish",
+          "document_content_sha256": "009fd37a597f7cd9...",
+          "document_bytes": 65626,
+          "document_content_type": "text/html; charset=UTF-8",
+          "document_text_chars": 6335,
+          "fact_metrics": [
+            "action_type",
+            "penalty_amount"
+          ],
+          "io_headline": "US Securities and Exchange Commission Regulatory Enforcement Action",
+          "io_chain_length": 10,
+          "io_event_version": 1
+        }
+      ],
+      "facts_total": 18,
+      "events": [
+        {
+          "event_id": "evt-31a17f8e8c7f6ff4",
+          "event_version": 1,
+          "event_type": "regulatory_enforcement",
+          "document_id": "doc-9a2c3554bf239005",
+          "fact_count": 8
+        },
+        {
+          "event_id": "evt-6726f19bf8a5555d",
+          "event_version": 1,
+          "event_type": "regulatory_enforcement",
+          "document_id": "doc-fa4e9cecec3e8d7d",
+          "fact_count": 10
+        }
+      ],
+      "intelligence_objects": [
+        "io-1ca8a75ee22968f7",
+        "io-86eb51402109b465"
+      ],
+      "errors": [],
+      "full_e2e": true,
+      "failure_stage": null
+    }
+  ]
+}
