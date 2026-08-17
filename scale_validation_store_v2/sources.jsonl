@@ -1,0 +1,5 @@
+{"acquisition_method": "direct_http", "configuration_version": "1", "institution_id": "INST-imp-federal-reserve", "source_id": "imp-federal-reserve", "source_path": "https://www.federalreserve.gov/feeds/press_all.xml", "source_type": "official", "status": "ACTIVE"}
+{"acquisition_method": "direct_http", "configuration_version": "1", "institution_id": "INST-imp-ecb", "source_id": "imp-ecb", "source_path": "https://www.ecb.europa.eu/rss/press.html", "source_type": "official", "status": "ACTIVE"}
+{"acquisition_method": "direct_http", "configuration_version": "1", "institution_id": "INST-imp-ons", "source_id": "imp-ons", "source_path": "https://www.ons.gov.uk/news", "source_type": "official", "status": "ACTIVE"}
+{"acquisition_method": "direct_http", "configuration_version": "1", "institution_id": "INST-imp-sec", "source_id": "imp-sec", "source_path": "https://www.sec.gov/news/pressreleases.rss", "source_type": "official", "status": "ACTIVE"}
+{"acquisition_method": "direct_http", "configuration_version": "1", "institution_id": "INST-imp-esma", "source_id": "imp-esma", "source_path": "https://www.esma.europa.eu/rss.xml", "source_type": "official", "status": "ACTIVE"}
