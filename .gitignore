@@ -1,6 +1,7 @@
 # Production transport test artifacts — not committed
 production_store/
 production_store_live/
+scale_validation_store/blobs/
 
 # E2E store: regenerate via pipeline (real official sources)
 # The store JSONL is real evidence — committed. Binary blobs (raw HTML
@@ -20,3 +21,4 @@ __pycache__/
 # OS
 .DS_Store
 Thumbs.db
+scale_validation_store/blobs/
