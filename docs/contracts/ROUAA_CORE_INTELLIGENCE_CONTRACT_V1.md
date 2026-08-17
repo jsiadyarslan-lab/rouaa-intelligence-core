@@ -1,128 +1,72 @@
-# ROUAA CORE INTELLIGENCE CONTRACT V1 — AUTHORITATIVE CONTRACT AUDIT
+# ROUAA CORE INTELLIGENCE CONTRACT V1 — CANONICAL (R2 RESTORED)
 
-**Status:** CONTRACT AUDIT — FROZEN STATE RECORDED (no Core/News/Trading/Corporate changes made by this audit)
-**Date:** 2026-08-17
-**Directive:** EXECUTION DIRECTIVE — ROUAA CORE ↔ PRODUCT CONTRACT AUDIT V1 (user-issued verbatim)
-**Method:** inspected the ACTUAL implementation only — mocks were audited AS mocks, never used as truth. Validated test suite re-run under current tree: **48/48 OK** (new files do not break the validated Core).
-**Audited tree:** `rouaa-intelligence-core` @ `9f64a08` (HEAD), containing post-extraction additions `6018568→8c1751c` (parallel Phase-1: contract_api.py, mock_contract_server.py, reports) + Wave-1 docs `8e3066c→9f64a08`.
+**Status:** CANONICAL CONTRACT — single authority restored per user decision **R2** (supersedes the CONFLICT audit state recorded at `db3079a`; that audit text remains in git history)
+**Date:** 2026-08-17 (R2 restoration)
+**Authority:** the ratified architecture (`e0964f5` §L) + the validated implementation lineage (`9af81b7→8de74e9`, extraction `743c3bf`, Gates D–F proven). Consumers adapt to the Core; the Core never changes to satisfy a consumer.
 
 ---
 
-## 1. WHAT THE ACTUAL CORE EMITS (two layers, honestly separated)
-
-### Layer 1 — VALIDATED DATA CONTRACT (binding; extraction lineage `743c3bf`, Gates D–F proven)
-
-From `intelligence_core/delivery.py::build_intelligence_object` + `contracts.py`:
+## 1. CANONICAL ENDPOINT AUTHORITY (one surface)
 
 ```text
-IntelligenceObject = {
-  io_id, version (=1), event_id, event_version, headline, created_at,
-  chain: [ { fact:{fact_id, fact_version, metric, value},
-             evidence:[{evidence_id, excerpt(≤120), representation_id}],
-             representation:{representation_id, content_sha256},
-             document:{document_id, canonical_url},
-             source:{source_id, institution_id} } ]
-}
-Delivery = { delivery_id, intelligence_object_id, version, destination,
-             status(PENDING|DELIVERED|FAILED), idempotency_key, created_at }
-TemporalTuple = { original_value, timezone_status, normalized_utc(nullable),
-                  normalization_basis, timestamp_semantics, provenance_source }
-Fact/Event rows: statuses ACTIVE|SUPERSEDED|INVALIDATED; supersedes/superseded_by.
+GET /health                        (public)
+GET /v1/intelligence               (Bearer token; cursor pagination; ETag/304)
+GET /v1/intelligence/{io_id}       (Bearer token; ETag/304; 404)
+GET /v1/intelligence/{io_id}/trace (Bearer token; chain)
+POST/PUT/PATCH/DELETE              405 READ_ONLY — products cannot mutate Core truth
 ```
 
-### Layer 2 — IMPLEMENTED TRANSPORT (de-facto, **UNRATIFIED**; `contract_api.py` @ `2f06b48`)
+- **Production implementation: `NOT_IMPLEMENTED`** (service layer = staging item S1 under Gate-G execution; no alias, no second surface).
+- **Canonical development/test reference:** `tools/mock_core/mock_core_server.py` — fixtures are exact real IO shapes from the validated lineage (incl. the v1 SUPERSEDED → v2 ACTIVE pair with `+0.3`/`+0.4`). Conformance suite: `tools/mock_core/test_mock_core_contract.py` — **11/11 green** (M1–M8).
+- The parallel `/api/v1/intelligence-objects` surface is **removed from the production Core path** — archived verbatim at `archive/unauthorized-contract/` with a README (historical evidence; do not import or run).
 
-```text
-GET /api/v1/health                    (no auth)
-GET /api/v1/intelligence-objects?limit&cursor&since   (Bearer token; ETag/304;
-     cursor & since = event derived_at string ordering)
-GET /api/v1/intelligence-objects/{io_id}
-Response object = Layer-1 IO dict + { institution_id, source_id,
-     document_ref:{document_id, canonical_url} }
-```
+## 2. CANONICAL SCHEMA — exactly what the Core produces (R2 §7)
 
-**This endpoint surface CONTRADICTS the ratified design docs** (architecture `e0964f5` §L and plan `2f3ebd4` §D specify `/v1/intelligence`, `/v1/intelligence/{id}`, `/trace`). It entered the runtime package WITHOUT the sanctioned path (service layer = staging item S1 under Gate-G execution; conformance families M1–M8 not run against it).
+### 2.1 IntelligenceObject item (data contract — IMPLEMENTED, binding)
 
-**Implementation defects found (recorded, not fixed — freeze):**
-- `_handle_list` swallows broken chains (`except Exception: continue`) — silent data loss; violates Core discipline ("a broken link is a validation failure").
-- No `/trace` endpoint (Contract B surface absent).
-- No `event_type` and no temporal tuples in the emission (see §3).
-- Single-threaded `HTTPServer`; store path from env `CORE_STORE_PATH` (default `./core_store` — cwd-dependent).
+| Field | Type | Required | Meaning | Source |
+|---|---|---|---|---|
+| `io_id` | string | yes | canonical identity `io-<sha256(event_id:event_version)[:16]>` | `identity.io_id` |
+| `version` | int | yes | IO record version — **constant `1`** in the current implementation | `contracts.IntelligenceObject` |
+| `event_id` | string | yes | logical event identity | store events |
+| `event_version` | int | yes | D2 derivation version (1, 2, …) — THE versioning axis | store events |
+| `headline` | string | yes | template-generated headline | `detect.EVENT_TYPE_RULES` |
+| `chain` | array | yes | full traceability chain (§2.2) | `delivery.build_intelligence_object` |
+| `created_at` | string | yes | IO creation timestamp | delivery |
+| `status` | enum | transport projection | `ACTIVE \| SUPERSEDED` — projected from the event row's real state | store events |
+| `supersedes_io_id` | string? | transport projection | prior-version IO identity (version lineage) | derived from event versions |
 
-### NOT AVAILABLE (does not exist ANYWHERE in the actual Core — not Layer 1, not Layer 2)
+### 2.2 Chain link (per fact)
 
-```text
-confidence_score            → NOT AVAILABLE
-provenance_complete         → NOT AVAILABLE
-reproducible                → NOT AVAILABLE
-temporal_data (in IO/chain) → NOT AVAILABLE (tuples live on documents, not emitted)
-event_type (in IO emission) → NOT AVAILABLE (headline embeds it textually only)
-trace endpoint              → NOT AVAILABLE (Layer 2)
-```
+`fact{fact_id, fact_version, metric, value}` · `evidence[{evidence_id, excerpt(≤120), representation_id}]` · `representation{representation_id, content_sha256}` · `document{document_id, canonical_url}` · `source{source_id, institution_id}` — all store-derived, all binding. Institution/source/document data is available to consumers HERE (no top-level duplicates).
 
-## 2. THE CONFLICT (why this audit exists)
+### 2.3 Feed envelope
 
-The repository now contains **two competing contract authorities**:
-1. **Ratified design** (architecture+plan docs): `/v1/...` surface — never implemented.
-2. **Unratified implementation** (`contract_api.py`): `/api/v1/...` surface — implemented, live-validated by its own author's consumer, co-designed in the same session with the News adapter it "validates" against.
+`{objects: [item…], next_cursor: string|null}` + `ETag` / `If-None-Match` → `304`. Errors: `{error:{code, message}}` (401/404/405/429/5xx).
 
-Plus **fabricated fields** (`provenance_complete`, `confidence_score`, `reproducible`) present in `mock_contract_server.py` and in the News adapter's TypeScript contract — fields the real Core does not emit in ANY layer. The parallel "PHASE 1 PASSED" therefore proves adapter↔its-own-ecosystem consistency, not adapter↔ratified-Core conformance.
+## 3. NOT AVAILABLE / DELIBERATELY ABSENT (anti-fabrication register)
 
-## 3. CONSUMER COMPARISON (actual Core fields ↔ consumer expectations)
-
-### News — `rouatradingnews/src/lib/core-integration/core-adapter.ts` @ `b0985d2`
-
-| actual_core (Layer 2 emission) | expected_consumer | Verdict |
+| Field / Endpoint | Status | Rule |
 |---|---|---|
-| endpoint `/api/v1/intelligence-objects` | same path | **MATCH** (matches unratified Layer 2; MISMATCH vs ratified design `/v1`) |
-| `limit/cursor/since` params | same | **MATCH** (Layer 2) |
-| `io_id`, `version`, `event_id`, `event_version`, `headline`, `chain` | same | **MATCH** |
-| `institution_id`, `source_id`, `document_ref` | same | **MATCH** |
-| — (not emitted) | `event_type` | **MISSING_FIELD (Core)** — required mapping: derive from headline/event store or add to Layer-2 emission via architectural decision |
-| — (not emitted) | `temporal_data` | **MISSING_FIELD (Core)** — tuples exist on documents; not surfaced |
-| — (NOT AVAILABLE anywhere) | `provenance_complete` | **FABRICATED_CONTRACT_FIELD** (consumer default `false`) |
-| — (NOT AVAILABLE anywhere) | `confidence_score` | **FABRICATED_CONTRACT_FIELD** |
-| — (NOT AVAILABLE anywhere) | `reproducible` | **FABRICATED_CONTRACT_FIELD** |
-| — (no endpoint) | `/api/v1/fail/{401,429,500,timeout,malformed,empty}` drill endpoints | **FABRICATED_CONTRACT_ENDPOINT** (test-only endpoints exist ONLY in the mock, not in contract_api) |
+| `provenance_complete` | **NOT AVAILABLE — FABRICATED_CONTRACT_FIELD** (exists nowhere in Core) | never added to satisfy a consumer |
+| `confidence_score` | **NOT AVAILABLE — FABRICATED_CONTRACT_FIELD** | separate architectural decision only |
+| `reproducible` | **NOT AVAILABLE — FABRICATED_CONTRACT_FIELD** | same |
+| `event_type` (as an emitted field) | **ARCHITECTURAL CAPABILITY GAP** (exists in store event rows; NOT surfaced in IO emission) | separate Core contract decision |
+| `temporal_data` (in IO/chain) | **ARCHITECTURAL CAPABILITY GAP** (tuples live on documents; NOT surfaced) | separate Core contract decision |
+| `/trace` production | **design-mandated** (architecture §L); production `NOT_IMPLEMENTED` | lands with S1 |
 
-Required adapter mappings (if `/api/v1` surface is ratified): drop 3 fabricated fields or re-type as consumer-side DERIVED flags clearly labeled non-Core; `event_type`/`temporal_data` need a Core-side architectural decision BEFORE the consumer can rely on them.
+## 4. VERSIONING SEMANTICS (R2 §8)
 
-### Trading — **NO CURRENT CONSUMER** (no Core adapter exists; the News bridge is News→Trading, not Core→Trading; discovery @ `12d7d90`).
+`io.version = 1` (constant). The lineage axis is `event_version`: a corrected source ⇒ new event version ⇒ **new `io_id`** with `supersedes_io_id` → prior; the prior remains exactly reproducible (D2; unit Cases A–F + simulation-proven). Consumers treat versions as distinct immutable objects — never overwrite, never fork. **No consumer-specific version semantics.**
 
-### Corporate — **NO CURRENT CONSUMER** (static site; discovery @ `0d71f61`).
+## 5. FAILURE SEMANTICS (R2 §9)
 
-## 4. MOCK AUDIT
+A broken evidence/document relationship is a **verification failure** — explicit error, never silently ignorable. The archived `contract_api._handle_list` `except: continue` pattern is recorded as the anti-pattern; the canonical mock/tests enforce explicit 404/error paths; production S1 must implement explicit failure classification (broken-chain ⇒ error, not omission).
 
-| Mock | Classification |
-|---|---|
-| Core `mock_contract_server.py` (@ `6018568`) | Contains the 3 **FABRICATED_CONTRACT_FIELD**s (`provenance_complete: True, confidence_score: 0.85, reproducible: True`) + drill endpoints not present in the real contract_api — it validates a contract that the implementation does not fully provide |
-| News in-test mock (port 9101) | Same fabricated fields — "11/11 PASS" proves adapter↔mock self-consistency only |
-| THIS AUTHOR's held Commit A mock (`b6e4223`, UNPUSHED local) | Implements the RATIFIED `/v1` design surface (docs-conformant); **DISCLOSED as design-stage** — equally non-authoritative until S1/governance lands. Remains held, not pushed |
+## 6. CONSUMER OBLIGATIONS
 
-## 5. LIVE-INTEGRATION CRITERION (recorded per directive §7)
-
-Unit/mock tests are **not** integration evidence. The ONLY acceptable future proof: `actual Core (contract_api or its ratified successor) → actual News adapter` conformance run, executed against the ratified contract with zero fabricated fields — plus M-family conformance (identity/evidence/corrections/routing/isolation/idempotency/temporal/security). NOT executed now (contract unratified; freeze active). The parallel "LIVE VALIDATION PASSED" (`dbc09a7`) is reclassified: **adapter↔unratified-implementation consistency**, not ratified-contract integration.
-
-## 6. FREEZE (in force until review resolves this audit)
-
-```text
-NO CORE CONTRACT CHANGE · NO NEWS ADAPTER CHANGE · NO TRADING ADAPTER CHANGE
-NO CORPORATE ADAPTER CHANGE · NO DEPLOYMENT
-```
-(Held items stay held: my Commit A `b6e4223` unpushed; no Wave-1 import activation.)
-
-## 7. RESOLUTION OPTIONS (user decision — the contract owner)
-
-- **R1 — Ratify the implemented surface**: accept `/api/v1/...` (Layer 2) as THE contract: amend architecture/plan docs; strip fabricated fields from mock+adapter (or re-label as consumer-derived); fix the recorded defects (silent chain-skip, missing trace/event_type/temporal emission); run M1–M8 conformance; then consumers align.
-- **R2 — Restore ratified design**: revert/quarantine `contract_api.py` + `mock_contract_server.py` from the runtime package (to tools/ or a branch), implement `/v1` surface under the sanctioned S1/Gate-G path, then align the News adapter.
-- Either way: **consumers never define Core fields**; `event_type`/`temporal_data`/quality-fields enter ONLY via an explicit architectural decision on the Core side.
+Consume `/v1` only · Bearer token (env-provided, server-side; never logged, committed, or browser-exposed) · cursor pagination · idempotency by (`io_id`, `event_version`) · no mutations (405 enforced) · no reliance on anything in §3.
 
 ---
 
-# VERDICT
-
-# `CORE CONTRACT CONFLICT — STOP ALL CONSUMER INTEGRATION`
-
-The Core repository currently contains two contradictory contract authorities (ratified `/v1` design vs unratified `/api/v1` implementation) and fabricated fields circulating through its own mock and the News consumer. Per the owner's rule — *Core contract ↓ consumers adapt to it* — integration stays stopped until R1 or R2 is chosen. The validated data contract (Layer 1) remains binding and untouched; the validated suite still passes 48/48.
-
-**STOP per directive §10 — audit document created; no changes made to any repository's code; freeze remains in force.**
+**Freeze remains for consumers: News / Trading / Corporate unchanged until reconciliation is directed. Wave-1 qualification, Source Registry, and activation state untouched — this was contract governance only.**
