@@ -39,3 +39,12 @@ scale_validation_store/blobs/
 /html_sources_processing_results.json
 /continuous_monitoring_results.json
 /deployment_precheck_results.json
+
+# V2-WaveB — ignore transient test artifacts
+/source_qualification_results.json
+/wave_b_qualification_results.json
+/wave_b_processing_results.json
+/extended_continuous_monitoring_results.json
+/cursor_closure_results.json
+/source_audit_results.json
+/remediation_queue_results.json

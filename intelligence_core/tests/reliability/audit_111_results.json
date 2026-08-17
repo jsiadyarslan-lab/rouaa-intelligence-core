@@ -1,21 +1,21 @@
 {
-  "store_root": "real_corpus_store_new",
+  "store_root": "real_corpus_store_new_waveb",
   "counts": {
-    "REAL_OFFICIAL_SOURCE": 180,
+    "REAL_OFFICIAL_SOURCE": 229,
     "SYNTHETIC_TEST": 0,
     "CANONICAL_FIXTURE": 0,
     "UNKNOWN": 0,
-    "TOTAL": 180
+    "TOTAL": 229
   },
   "by_event_type": {
     "regulatory_enforcement": {
-      "REAL_OFFICIAL_SOURCE": 77
+      "REAL_OFFICIAL_SOURCE": 79
     },
     "statistical_release": {
-      "REAL_OFFICIAL_SOURCE": 89
+      "REAL_OFFICIAL_SOURCE": 122
     },
     "monetary_policy_decision": {
-      "REAL_OFFICIAL_SOURCE": 14
+      "REAL_OFFICIAL_SOURCE": 28
     }
   },
   "real_by_source": {
@@ -45,7 +45,21 @@
     "src-cma-energy": 2,
     "src-ustr": 3,
     "src-mitijapan": 1,
-    "src-sama-saudi": 2
+    "src-sama-saudi": 2,
+    "src-bb-bangladesh": 2,
+    "src-cbk-kenya": 10,
+    "src-nrb-nepal": 2,
+    "src-naic-us": 1,
+    "src-nsi-bulgaria": 8,
+    "src-bnetza-germany": 1,
+    "src-eurostat-agri": 1,
+    "src-ecb-stat": 4,
+    "src-dfsa-uae": 3,
+    "src-nbu-ukraine": 10,
+    "src-bnb-bulgaria": 1,
+    "src-bi-indonesia": 3,
+    "src-mof-philippines": 1,
+    "src-frb-ny": 2
   },
   "classifications": [
     {
@@ -1846,6 +1860,496 @@
       "source_name": "src-sama-saudi",
       "source_path": "https://www.sama.gov.sa",
       "canonical_url": "https://www.sama.gov.sa/ar-SA/publications/Pages/default.aspx",
+      "classification": "REAL_OFFICIAL_SOURCE"
+    },
+    {
+      "io_id": "io-e140af0c15b78b9b",
+      "event_id": "evt-dbc484509be20c47",
+      "event_type": "monetary_policy_decision",
+      "source_id": "src-bb-bangladesh",
+      "source_name": "src-bb-bangladesh",
+      "source_path": "https://www.bb.org.bd",
+      "canonical_url": "https://www.bb.org.bd/en/index.php/publication/sp_research_worklist",
+      "classification": "REAL_OFFICIAL_SOURCE"
+    },
+    {
+      "io_id": "io-def78e5307ee021b",
+      "event_id": "evt-5b49b444782a35b8",
+      "event_type": "monetary_policy_decision",
+      "source_id": "src-cbk-kenya",
+      "source_name": "src-cbk-kenya",
+      "source_path": "https://www.centralbank.go.ke",
+      "canonical_url": "https://www.centralbank.go.ke/releases/speeches",
+      "classification": "REAL_OFFICIAL_SOURCE"
+    },
+    {
+      "io_id": "io-9ea0017153ee1adb",
+      "event_id": "evt-5dd25369b57cf2c1",
+      "event_type": "monetary_policy_decision",
+      "source_id": "src-nrb-nepal",
+      "source_name": "src-nrb-nepal",
+      "source_path": "https://www.nrb.org.np",
+      "canonical_url": "https://www.nrb.org.np/contents/uploads/2026/08/Notice-for-Request-for-EOI-NRB-N",
+      "classification": "REAL_OFFICIAL_SOURCE"
+    },
+    {
+      "io_id": "io-451bdc21b43c1e7e",
+      "event_id": "evt-8dae79a832761567",
+      "event_type": "statistical_release",
+      "source_id": "src-naic-us",
+      "source_name": "src-naic-us",
+      "source_path": "https://content.naic.org",
+      "canonical_url": "https://content.naic.org/article/naic-releases-first-its-kind-national-analysis-",
+      "classification": "REAL_OFFICIAL_SOURCE"
+    },
+    {
+      "io_id": "io-45e5137f5092ee27",
+      "event_id": "evt-acff467c63ce788f",
+      "event_type": "monetary_policy_decision",
+      "source_id": "src-cbk-kenya",
+      "source_name": "src-cbk-kenya",
+      "source_path": "https://www.centralbank.go.ke",
+      "canonical_url": "https://www.centralbank.go.ke/releases/public-notices",
+      "classification": "REAL_OFFICIAL_SOURCE"
+    },
+    {
+      "io_id": "io-d2ec6419210158c7",
+      "event_id": "evt-94293c98983f1e31",
+      "event_type": "statistical_release",
+      "source_id": "src-nsi-bulgaria",
+      "source_name": "src-nsi-bulgaria",
+      "source_path": "https://www.nsi.bg",
+      "canonical_url": "https://www.nsi.bg/publications/patnotransportni-proizshestviya-v-republika-balg",
+      "classification": "REAL_OFFICIAL_SOURCE"
+    },
+    {
+      "io_id": "io-e0e30a46102632db",
+      "event_id": "evt-f4f89965e871f8f7",
+      "event_type": "statistical_release",
+      "source_id": "src-nsi-bulgaria",
+      "source_name": "src-nsi-bulgaria",
+      "source_path": "https://www.nsi.bg",
+      "canonical_url": "https://www.nsi.bg/press-release/inflaciya-i-indeksi-na-potrebitelskite-ceni-912",
+      "classification": "REAL_OFFICIAL_SOURCE"
+    },
+    {
+      "io_id": "io-b92431f268835136",
+      "event_id": "evt-4179f150f612ff41",
+      "event_type": "monetary_policy_decision",
+      "source_id": "src-cbk-kenya",
+      "source_name": "src-cbk-kenya",
+      "source_path": "https://www.centralbank.go.ke",
+      "canonical_url": "https://www.centralbank.go.ke/releases/quarterly-economic-review",
+      "classification": "REAL_OFFICIAL_SOURCE"
+    },
+    {
+      "io_id": "io-b8e24d3f0b48e8ce",
+      "event_id": "evt-8b60cddabe650656",
+      "event_type": "statistical_release",
+      "source_id": "src-nsi-bulgaria",
+      "source_name": "src-nsi-bulgaria",
+      "source_path": "https://www.nsi.bg",
+      "canonical_url": "https://www.nsi.bg/press-release/mesta-za-nastanyavane-9114",
+      "classification": "REAL_OFFICIAL_SOURCE"
+    },
+    {
+      "io_id": "io-40bdec9517f2060d",
+      "event_id": "evt-d33ec5697cda54b4",
+      "event_type": "statistical_release",
+      "source_id": "src-nsi-bulgaria",
+      "source_name": "src-nsi-bulgaria",
+      "source_path": "https://www.nsi.bg",
+      "canonical_url": "https://www.nsi.bg/press-release/indeksi-na-promishlenoto-proizvodstvo-9111",
+      "classification": "REAL_OFFICIAL_SOURCE"
+    },
+    {
+      "io_id": "io-9e4c9e21662379ca",
+      "event_id": "evt-bb5c58633817964c",
+      "event_type": "statistical_release",
+      "source_id": "src-nsi-bulgaria",
+      "source_name": "src-nsi-bulgaria",
+      "source_path": "https://www.nsi.bg",
+      "canonical_url": "https://www.nsi.bg/press-release/ceni-i-indeksi-na-cenite-v-selskoto-stopanstvo-",
+      "classification": "REAL_OFFICIAL_SOURCE"
+    },
+    {
+      "io_id": "io-e773686365fda65d",
+      "event_id": "evt-d0a1b149c3fbb8c8",
+      "event_type": "monetary_policy_decision",
+      "source_id": "src-cbk-kenya",
+      "source_name": "src-cbk-kenya",
+      "source_path": "https://www.centralbank.go.ke",
+      "canonical_url": "https://www.centralbank.go.ke/releases/presentations",
+      "classification": "REAL_OFFICIAL_SOURCE"
+    },
+    {
+      "io_id": "io-a13b970cc6269846",
+      "event_id": "evt-08ce302214514c78",
+      "event_type": "statistical_release",
+      "source_id": "src-nsi-bulgaria",
+      "source_name": "src-nsi-bulgaria",
+      "source_path": "https://www.nsi.bg",
+      "canonical_url": "https://www.nsi.bg/press-release/naselenie-i-demografski-procesi-9002",
+      "classification": "REAL_OFFICIAL_SOURCE"
+    },
+    {
+      "io_id": "io-46683a6ec01fbd32",
+      "event_id": "evt-91121dc70f9a05ae",
+      "event_type": "monetary_policy_decision",
+      "source_id": "src-cbk-kenya",
+      "source_name": "src-cbk-kenya",
+      "source_path": "https://www.centralbank.go.ke",
+      "canonical_url": "https://www.centralbank.go.ke/releases/weekly-bulletin",
+      "classification": "REAL_OFFICIAL_SOURCE"
+    },
+    {
+      "io_id": "io-29b474222a73e2d8",
+      "event_id": "evt-8cfaebe67a9e438a",
+      "event_type": "statistical_release",
+      "source_id": "src-bnetza-germany",
+      "source_name": "src-bnetza-germany",
+      "source_path": "https://www.bundesnetzagentur.de",
+      "canonical_url": "https://www.bundesnetzagentur.de/SharedDocs/Pressemitteilungen/DE/2026/20260722_",
+      "classification": "REAL_OFFICIAL_SOURCE"
+    },
+    {
+      "io_id": "io-0e61b335bdbe8b72",
+      "event_id": "evt-0def91eb133cf6ef",
+      "event_type": "statistical_release",
+      "source_id": "src-nsi-bulgaria",
+      "source_name": "src-nsi-bulgaria",
+      "source_path": "https://www.nsi.bg",
+      "canonical_url": "https://www.nsi.bg/press-release/ceni-na-proizvoditel-na-vatreshniya-i-mejdunaro",
+      "classification": "REAL_OFFICIAL_SOURCE"
+    },
+    {
+      "io_id": "io-bfb216d306c2daeb",
+      "event_id": "evt-9a43e6f58621183a",
+      "event_type": "monetary_policy_decision",
+      "source_id": "src-cbk-kenya",
+      "source_name": "src-cbk-kenya",
+      "source_path": "https://www.centralbank.go.ke",
+      "canonical_url": "https://www.centralbank.go.ke/releases/statistical-bulletin",
+      "classification": "REAL_OFFICIAL_SOURCE"
+    },
+    {
+      "io_id": "io-2e799c0b064d861e",
+      "event_id": "evt-7b98765645bc0205",
+      "event_type": "statistical_release",
+      "source_id": "src-nsi-bulgaria",
+      "source_name": "src-nsi-bulgaria",
+      "source_path": "https://www.nsi.bg",
+      "canonical_url": "https://www.nsi.bg/press-release/vatreshnoobshtnostna-targoviya-sas-stoki-intras",
+      "classification": "REAL_OFFICIAL_SOURCE"
+    },
+    {
+      "io_id": "io-927904de3bff20d4",
+      "event_id": "evt-adccabf1a787a965",
+      "event_type": "monetary_policy_decision",
+      "source_id": "src-cbk-kenya",
+      "source_name": "src-cbk-kenya",
+      "source_path": "https://www.centralbank.go.ke",
+      "canonical_url": "https://www.centralbank.go.ke/news",
+      "classification": "REAL_OFFICIAL_SOURCE"
+    },
+    {
+      "io_id": "io-894fdf022a9fee51",
+      "event_id": "evt-524faef265c83747",
+      "event_type": "statistical_release",
+      "source_id": "src-eurostat-agri",
+      "source_name": "src-eurostat-agri",
+      "source_path": "https://ec.europa.eu/eurostat",
+      "canonical_url": "https://ec.europa.eu/eurostat/web/products-eurostat-news/w/ddn-20260814-2",
+      "classification": "REAL_OFFICIAL_SOURCE"
+    },
+    {
+      "io_id": "io-1692b6b72193f250",
+      "event_id": "evt-d4e094cee119ba3d",
+      "event_type": "statistical_release",
+      "source_id": "src-ecb-stat",
+      "source_name": "src-ecb-stat",
+      "source_path": "https://www.ecb.europa.eu/stats",
+      "canonical_url": "https://www.ecb.europa.eu/press/blog/html/index.en.html",
+      "classification": "REAL_OFFICIAL_SOURCE"
+    },
+    {
+      "io_id": "io-57919cfed613badb",
+      "event_id": "evt-a14256e3ec0c5435",
+      "event_type": "monetary_policy_decision",
+      "source_id": "src-cbk-kenya",
+      "source_name": "src-cbk-kenya",
+      "source_path": "https://www.centralbank.go.ke",
+      "canonical_url": "https://www.centralbank.go.ke/releases/monthly-economic-rev",
+      "classification": "REAL_OFFICIAL_SOURCE"
+    },
+    {
+      "io_id": "io-8917445a26729eee",
+      "event_id": "evt-3c3e2499cbb5fb33",
+      "event_type": "statistical_release",
+      "source_id": "src-ecb-stat",
+      "source_name": "src-ecb-stat",
+      "source_path": "https://www.ecb.europa.eu/stats",
+      "canonical_url": "https://www.ecb.europa.eu/press/financial-stability-publications/fsr/special/htm",
+      "classification": "REAL_OFFICIAL_SOURCE"
+    },
+    {
+      "io_id": "io-478b3771245b3bd0",
+      "event_id": "evt-70af38beee2bd0aa",
+      "event_type": "regulatory_enforcement",
+      "source_id": "src-dfsa-uae",
+      "source_name": "src-dfsa-uae",
+      "source_path": "https://www.dfsa.ae",
+      "canonical_url": "https://www.dfsa.ae/news/dfsa-publishes-9th-audit-monitoring-report-underscoring",
+      "classification": "REAL_OFFICIAL_SOURCE"
+    },
+    {
+      "io_id": "io-5293d3510a6f92a5",
+      "event_id": "evt-43b737109013f3a9",
+      "event_type": "monetary_policy_decision",
+      "source_id": "src-cbk-kenya",
+      "source_name": "src-cbk-kenya",
+      "source_path": "https://www.centralbank.go.ke",
+      "canonical_url": "https://www.centralbank.go.ke/press",
+      "classification": "REAL_OFFICIAL_SOURCE"
+    },
+    {
+      "io_id": "io-6e999c72612a78fe",
+      "event_id": "evt-0b7ffd54159e43a4",
+      "event_type": "regulatory_enforcement",
+      "source_id": "src-dfsa-uae",
+      "source_name": "src-dfsa-uae",
+      "source_path": "https://www.dfsa.ae",
+      "canonical_url": "https://www.dfsa.ae/your-resources/publications-reports/DFSA-Leaflets-1",
+      "classification": "REAL_OFFICIAL_SOURCE"
+    },
+    {
+      "io_id": "io-cd47d192f57af9d2",
+      "event_id": "evt-8d51a2ff13089814",
+      "event_type": "monetary_policy_decision",
+      "source_id": "src-cbk-kenya",
+      "source_name": "src-cbk-kenya",
+      "source_path": "https://www.centralbank.go.ke",
+      "canonical_url": "https://www.centralbank.go.ke/releases/cbk-newsletter",
+      "classification": "REAL_OFFICIAL_SOURCE"
+    },
+    {
+      "io_id": "io-e38e828c2e043198",
+      "event_id": "evt-4606c8de9272914a",
+      "event_type": "statistical_release",
+      "source_id": "src-nbu-ukraine",
+      "source_name": "src-nbu-ukraine",
+      "source_path": "https://bank.gov.ua",
+      "canonical_url": "https://bank.gov.ua/ua/news/video",
+      "classification": "REAL_OFFICIAL_SOURCE"
+    },
+    {
+      "io_id": "io-0398b99ddd2aae49",
+      "event_id": "evt-12e6bb97e1f58aa8",
+      "event_type": "statistical_release",
+      "source_id": "src-nbu-ukraine",
+      "source_name": "src-nbu-ukraine",
+      "source_path": "https://bank.gov.ua",
+      "canonical_url": "https://bank.gov.ua/ua/news/all/kolonka-zastupnika-golovi-nbu-volodimira-lepushi",
+      "classification": "REAL_OFFICIAL_SOURCE"
+    },
+    {
+      "io_id": "io-b6cfbb63211b04cf",
+      "event_id": "evt-dc37555a1e6a9604",
+      "event_type": "statistical_release",
+      "source_id": "src-nbu-ukraine",
+      "source_name": "src-nbu-ukraine",
+      "source_path": "https://bank.gov.ua",
+      "canonical_url": "https://bank.gov.ua/ua/news/all/v-ukrayini-zyavitsya-pamyatna-moneta-na-chest-sv",
+      "classification": "REAL_OFFICIAL_SOURCE"
+    },
+    {
+      "io_id": "io-f860cf366e8a6094",
+      "event_id": "evt-9b467f3ab0015086",
+      "event_type": "statistical_release",
+      "source_id": "src-nbu-ukraine",
+      "source_name": "src-nbu-ukraine",
+      "source_path": "https://bank.gov.ua",
+      "canonical_url": "https://bank.gov.ua/ua/news/all/banki-zabezpechili-finansuvannya-proyektiv-v-ene",
+      "classification": "REAL_OFFICIAL_SOURCE"
+    },
+    {
+      "io_id": "io-23d6068d8ff51804",
+      "event_id": "evt-bcdb64ec6bf249d8",
+      "event_type": "statistical_release",
+      "source_id": "src-nbu-ukraine",
+      "source_name": "src-nbu-ukraine",
+      "source_path": "https://bank.gov.ua",
+      "canonical_url": "https://bank.gov.ua/ua/news/direct-speech",
+      "classification": "REAL_OFFICIAL_SOURCE"
+    },
+    {
+      "io_id": "io-3209395d16183761",
+      "event_id": "evt-c0fa1c11eaa12402",
+      "event_type": "statistical_release",
+      "source_id": "src-nbu-ukraine",
+      "source_name": "src-nbu-ukraine",
+      "source_path": "https://bank.gov.ua",
+      "canonical_url": "https://bank.gov.ua/ua/news/all/do-dvoh-platijnih-ustanov-zastosovano-zahodi-vpl",
+      "classification": "REAL_OFFICIAL_SOURCE"
+    },
+    {
+      "io_id": "io-a494da0cf360fe95",
+      "event_id": "evt-ff2471fd1dd79c53",
+      "event_type": "statistical_release",
+      "source_id": "src-bb-bangladesh",
+      "source_name": "src-bb-bangladesh",
+      "source_path": "https://www.bb.org.bd",
+      "canonical_url": "https://www.bb.org.bd/en/index.php/mediaroom/press_release",
+      "classification": "REAL_OFFICIAL_SOURCE"
+    },
+    {
+      "io_id": "io-8cba9db1e0dd9599",
+      "event_id": "evt-780b13bd525e1ae2",
+      "event_type": "statistical_release",
+      "source_id": "src-nbu-ukraine",
+      "source_name": "src-nbu-ukraine",
+      "source_path": "https://bank.gov.ua",
+      "canonical_url": "https://bank.gov.ua/ua/news/all/do-platijnoyi-ustanovi-zastosovano-zahid-vplivu-",
+      "classification": "REAL_OFFICIAL_SOURCE"
+    },
+    {
+      "io_id": "io-78baffc0843b7350",
+      "event_id": "evt-c49b60e137343636",
+      "event_type": "statistical_release",
+      "source_id": "src-nbu-ukraine",
+      "source_name": "src-nbu-ukraine",
+      "source_path": "https://bank.gov.ua",
+      "canonical_url": "https://bank.gov.ua/ua/publications",
+      "classification": "REAL_OFFICIAL_SOURCE"
+    },
+    {
+      "io_id": "io-7efa6436ae4a0b1c",
+      "event_id": "evt-ec33d92a2009aaa3",
+      "event_type": "statistical_release",
+      "source_id": "src-nbu-ukraine",
+      "source_name": "src-nbu-ukraine",
+      "source_path": "https://bank.gov.ua",
+      "canonical_url": "https://bank.gov.ua/ua/news/all/pidsumki-diskusiyi-chleniv-komitetu-z-monetarnoy",
+      "classification": "REAL_OFFICIAL_SOURCE"
+    },
+    {
+      "io_id": "io-a16ebcde38fa2ba5",
+      "event_id": "evt-b620443c5143c538",
+      "event_type": "statistical_release",
+      "source_id": "src-nbu-ukraine",
+      "source_name": "src-nbu-ukraine",
+      "source_path": "https://bank.gov.ua",
+      "canonical_url": "https://bank.gov.ua/ua/news/all/promova-golovi-nbu-andriya-pishnogo-pid-chas-ogo",
+      "classification": "REAL_OFFICIAL_SOURCE"
+    },
+    {
+      "io_id": "io-ed68524d6aa4fcc3",
+      "event_id": "evt-f60e79722dc65ec3",
+      "event_type": "statistical_release",
+      "source_id": "src-nrb-nepal",
+      "source_name": "src-nrb-nepal",
+      "source_path": "https://www.nrb.org.np",
+      "canonical_url": "https://www.nrb.org.np/contents/uploads/2026/08/Notice-for-Request-for-EOI-NRB-N",
+      "classification": "REAL_OFFICIAL_SOURCE"
+    },
+    {
+      "io_id": "io-c6b973b39fe76c58",
+      "event_id": "evt-1614306bd3885e4e",
+      "event_type": "statistical_release",
+      "source_id": "src-bnb-bulgaria",
+      "source_name": "src-bnb-bulgaria",
+      "source_path": "https://www.bnb.bg",
+      "canonical_url": "https://www.bnb.bg/AboutUs/PressOffice/POPressReleases/POPRDate/index.htm",
+      "classification": "REAL_OFFICIAL_SOURCE"
+    },
+    {
+      "io_id": "io-cd2c25c314756125",
+      "event_id": "evt-cf38a320cfd5e69f",
+      "event_type": "statistical_release",
+      "source_id": "src-bi-indonesia",
+      "source_name": "src-bi-indonesia",
+      "source_path": "https://www.bi.go.id",
+      "canonical_url": "https://www.bi.go.id/id/publikasi/ruang-media/news-release/Pages/sp_2815826.aspx",
+      "classification": "REAL_OFFICIAL_SOURCE"
+    },
+    {
+      "io_id": "io-4c64548c82216b84",
+      "event_id": "evt-d5a2c665507696aa",
+      "event_type": "statistical_release",
+      "source_id": "src-mof-philippines",
+      "source_name": "src-mof-philippines",
+      "source_path": "https://www.dof.gov.ph",
+      "canonical_url": "https://www.dof.gov.ph/news",
+      "classification": "REAL_OFFICIAL_SOURCE"
+    },
+    {
+      "io_id": "io-a8e611e6ca8954dd",
+      "event_id": "evt-c89639f5dcbbfd63",
+      "event_type": "statistical_release",
+      "source_id": "src-frb-ny",
+      "source_name": "src-frb-ny",
+      "source_path": "https://www.newyorkfed.org",
+      "canonical_url": "https://www.newyorkfed.org/newsevents/news/markets/2026/20260805",
+      "classification": "REAL_OFFICIAL_SOURCE"
+    },
+    {
+      "io_id": "io-3899e3451b8278ed",
+      "event_id": "evt-4bfc90a2fdcc8f52",
+      "event_type": "statistical_release",
+      "source_id": "src-bi-indonesia",
+      "source_name": "src-bi-indonesia",
+      "source_path": "https://www.bi.go.id",
+      "canonical_url": "https://www.bi.go.id/id/publikasi/ruang-media/news-release/Pages/sp_2816026.aspx",
+      "classification": "REAL_OFFICIAL_SOURCE"
+    },
+    {
+      "io_id": "io-6c0bba816cc74556",
+      "event_id": "evt-7685f92afcc3b5cd",
+      "event_type": "statistical_release",
+      "source_id": "src-bi-indonesia",
+      "source_name": "src-bi-indonesia",
+      "source_path": "https://www.bi.go.id",
+      "canonical_url": "https://www.bi.go.id/id/publikasi/ruang-media/news-release/Default.aspx",
+      "classification": "REAL_OFFICIAL_SOURCE"
+    },
+    {
+      "io_id": "io-099e8da90a8a370d",
+      "event_id": "evt-3b7eb1cfd9d6ee99",
+      "event_type": "monetary_policy_decision",
+      "source_id": "src-ecb-stat",
+      "source_name": "src-ecb-stat",
+      "source_path": "https://www.ecb.europa.eu/stats",
+      "canonical_url": "https://www.ecb.europa.eu/press/blog/html/index.en.html",
+      "classification": "REAL_OFFICIAL_SOURCE"
+    },
+    {
+      "io_id": "io-ccad0ed0d2899e44",
+      "event_id": "evt-fb06d44bee20e92f",
+      "event_type": "statistical_release",
+      "source_id": "src-frb-ny",
+      "source_name": "src-frb-ny",
+      "source_path": "https://www.newyorkfed.org",
+      "canonical_url": "https://www.newyorkfed.org/press",
+      "classification": "REAL_OFFICIAL_SOURCE"
+    },
+    {
+      "io_id": "io-50f476121deb9240",
+      "event_id": "evt-a6481077eaab8d66",
+      "event_type": "monetary_policy_decision",
+      "source_id": "src-ecb-stat",
+      "source_name": "src-ecb-stat",
+      "source_path": "https://www.ecb.europa.eu/stats",
+      "canonical_url": "https://www.ecb.europa.eu/press/financial-stability-publications/fsr/special/htm",
+      "classification": "REAL_OFFICIAL_SOURCE"
+    },
+    {
+      "io_id": "io-52b5d9a5ae45ceab",
+      "event_id": "evt-dc9f1eb9d729b272",
+      "event_type": "statistical_release",
+      "source_id": "src-dfsa-uae",
+      "source_name": "src-dfsa-uae",
+      "source_path": "https://www.dfsa.ae",
+      "canonical_url": "https://www.dfsa.ae/news/dfsa-publishes-9th-audit-monitoring-report-underscoring",
       "classification": "REAL_OFFICIAL_SOURCE"
     }
   ]

@@ -1,0 +1,695 @@
+{
+  "sources_monitored": 30,
+  "cycles": [
+    {
+      "cycle_id": "cycle-1787010179",
+      "elapsed_s": 0.01,
+      "sources_monitored": 18,
+      "results": [
+        {
+          "source_id": "src-bb-bangladesh",
+          "cycle_id": "cycle-1787010179",
+          "health": "HEALTHY",
+          "documents": 9,
+          "events": 2,
+          "new_docs": 9,
+          "new_events": 2,
+          "latest_doc_time": null,
+          "check_elapsed_ms": 6.15
+        },
+        {
+          "source_id": "src-dfsa-uae",
+          "cycle_id": "cycle-1787010179",
+          "health": "HEALTHY",
+          "documents": 10,
+          "events": 3,
+          "new_docs": 10,
+          "new_events": 3,
+          "latest_doc_time": null,
+          "check_elapsed_ms": 0.36
+        },
+        {
+          "source_id": "src-mof-philippines",
+          "cycle_id": "cycle-1787010179",
+          "health": "HEALTHY",
+          "documents": 3,
+          "events": 1,
+          "new_docs": 3,
+          "new_events": 1,
+          "latest_doc_time": null,
+          "check_elapsed_ms": 0.29
+        },
+        {
+          "source_id": "src-naic-us",
+          "cycle_id": "cycle-1787010179",
+          "health": "HEALTHY",
+          "documents": 4,
+          "events": 1,
+          "new_docs": 4,
+          "new_events": 1,
+          "latest_doc_time": null,
+          "check_elapsed_ms": 0.27
+        },
+        {
+          "source_id": "src-cbk-kenya",
+          "cycle_id": "cycle-1787010179",
+          "health": "HEALTHY",
+          "documents": 10,
+          "events": 10,
+          "new_docs": 10,
+          "new_events": 10,
+          "latest_doc_time": null,
+          "check_elapsed_ms": 0.29
+        },
+        {
+          "source_id": "src-bi-indonesia",
+          "cycle_id": "cycle-1787010179",
+          "health": "HEALTHY",
+          "documents": 3,
+          "events": 3,
+          "new_docs": 3,
+          "new_events": 3,
+          "latest_doc_time": null,
+          "check_elapsed_ms": 0.24
+        },
+        {
+          "source_id": "src-boj",
+          "cycle_id": "cycle-1787010179",
+          "health": "HEALTHY",
+          "documents": 6,
+          "events": 3,
+          "new_docs": 6,
+          "new_events": 3,
+          "latest_doc_time": null,
+          "check_elapsed_ms": 0.24
+        },
+        {
+          "source_id": "src-nsi-bulgaria",
+          "cycle_id": "cycle-1787010179",
+          "health": "HEALTHY",
+          "documents": 8,
+          "events": 8,
+          "new_docs": 8,
+          "new_events": 8,
+          "latest_doc_time": null,
+          "check_elapsed_ms": 0.18
+        },
+        {
+          "source_id": "src-ecb-stat",
+          "cycle_id": "cycle-1787010179",
+          "health": "HEALTHY",
+          "documents": 10,
+          "events": 4,
+          "new_docs": 10,
+          "new_events": 4,
+          "latest_doc_time": null,
+          "check_elapsed_ms": 0.18
+        },
+        {
+          "source_id": "src-sama-saudi",
+          "cycle_id": "cycle-1787010179",
+          "health": "HEALTHY",
+          "documents": 2,
+          "events": 2,
+          "new_docs": 2,
+          "new_events": 2,
+          "latest_doc_time": null,
+          "check_elapsed_ms": 0.17
+        },
+        {
+          "source_id": "src-beis-uk",
+          "cycle_id": "cycle-1787010179",
+          "health": "HEALTHY",
+          "documents": 10,
+          "events": 3,
+          "new_docs": 10,
+          "new_events": 3,
+          "latest_doc_time": null,
+          "check_elapsed_ms": 0.15
+        },
+        {
+          "source_id": "src-nrb-nepal",
+          "cycle_id": "cycle-1787010179",
+          "health": "HEALTHY",
+          "documents": 6,
+          "events": 2,
+          "new_docs": 6,
+          "new_events": 2,
+          "latest_doc_time": null,
+          "check_elapsed_ms": 0.15
+        },
+        {
+          "source_id": "src-sfc-hk",
+          "cycle_id": "cycle-1787010179",
+          "health": "HEALTHY",
+          "documents": 10,
+          "events": 1,
+          "new_docs": 10,
+          "new_events": 1,
+          "latest_doc_time": null,
+          "check_elapsed_ms": 0.15
+        },
+        {
+          "source_id": "src-eurostat-emp",
+          "cycle_id": "cycle-1787010179",
+          "health": "HEALTHY",
+          "documents": 8,
+          "events": 3,
+          "new_docs": 8,
+          "new_events": 3,
+          "latest_doc_time": null,
+          "check_elapsed_ms": 0.16
+        },
+        {
+          "source_id": "src-bnetza-germany",
+          "cycle_id": "cycle-1787010179",
+          "health": "HEALTHY",
+          "documents": 10,
+          "events": 1,
+          "new_docs": 10,
+          "new_events": 1,
+          "latest_doc_time": null,
+          "check_elapsed_ms": 0.16
+        },
+        {
+          "source_id": "src-mitijapan",
+          "cycle_id": "cycle-1787010179",
+          "health": "HEALTHY",
+          "documents": 9,
+          "events": 1,
+          "new_docs": 9,
+          "new_events": 1,
+          "latest_doc_time": null,
+          "check_elapsed_ms": 0.17
+        },
+        {
+          "source_id": "src-frb-ny",
+          "cycle_id": "cycle-1787010179",
+          "health": "HEALTHY",
+          "documents": 3,
+          "events": 2,
+          "new_docs": 3,
+          "new_events": 2,
+          "latest_doc_time": null,
+          "check_elapsed_ms": 0.14
+        },
+        {
+          "source_id": "src-boc",
+          "cycle_id": "cycle-1787010179",
+          "health": "HEALTHY",
+          "documents": 10,
+          "events": 10,
+          "new_docs": 10,
+          "new_events": 10,
+          "latest_doc_time": null,
+          "check_elapsed_ms": 0.14
+        }
+      ]
+    },
+    {
+      "cycle_id": "cycle-1787010179",
+      "elapsed_s": 0.0,
+      "sources_monitored": 18,
+      "results": [
+        {
+          "source_id": "src-bb-bangladesh",
+          "cycle_id": "cycle-1787010179",
+          "health": "STALE",
+          "documents": 9,
+          "events": 2,
+          "new_docs": 0,
+          "new_events": 0,
+          "latest_doc_time": null,
+          "check_elapsed_ms": 0.11
+        },
+        {
+          "source_id": "src-dfsa-uae",
+          "cycle_id": "cycle-1787010179",
+          "health": "STALE",
+          "documents": 10,
+          "events": 3,
+          "new_docs": 0,
+          "new_events": 0,
+          "latest_doc_time": null,
+          "check_elapsed_ms": 0.11
+        },
+        {
+          "source_id": "src-mof-philippines",
+          "cycle_id": "cycle-1787010179",
+          "health": "STALE",
+          "documents": 3,
+          "events": 1,
+          "new_docs": 0,
+          "new_events": 0,
+          "latest_doc_time": null,
+          "check_elapsed_ms": 0.11
+        },
+        {
+          "source_id": "src-naic-us",
+          "cycle_id": "cycle-1787010179",
+          "health": "STALE",
+          "documents": 4,
+          "events": 1,
+          "new_docs": 0,
+          "new_events": 0,
+          "latest_doc_time": null,
+          "check_elapsed_ms": 0.12
+        },
+        {
+          "source_id": "src-cbk-kenya",
+          "cycle_id": "cycle-1787010179",
+          "health": "STALE",
+          "documents": 10,
+          "events": 10,
+          "new_docs": 0,
+          "new_events": 0,
+          "latest_doc_time": null,
+          "check_elapsed_ms": 0.12
+        },
+        {
+          "source_id": "src-bi-indonesia",
+          "cycle_id": "cycle-1787010179",
+          "health": "STALE",
+          "documents": 3,
+          "events": 3,
+          "new_docs": 0,
+          "new_events": 0,
+          "latest_doc_time": null,
+          "check_elapsed_ms": 0.12
+        },
+        {
+          "source_id": "src-boj",
+          "cycle_id": "cycle-1787010179",
+          "health": "STALE",
+          "documents": 6,
+          "events": 3,
+          "new_docs": 0,
+          "new_events": 0,
+          "latest_doc_time": null,
+          "check_elapsed_ms": 0.11
+        },
+        {
+          "source_id": "src-nsi-bulgaria",
+          "cycle_id": "cycle-1787010179",
+          "health": "STALE",
+          "documents": 8,
+          "events": 8,
+          "new_docs": 0,
+          "new_events": 0,
+          "latest_doc_time": null,
+          "check_elapsed_ms": 0.11
+        },
+        {
+          "source_id": "src-ecb-stat",
+          "cycle_id": "cycle-1787010179",
+          "health": "STALE",
+          "documents": 10,
+          "events": 4,
+          "new_docs": 0,
+          "new_events": 0,
+          "latest_doc_time": null,
+          "check_elapsed_ms": 0.11
+        },
+        {
+          "source_id": "src-sama-saudi",
+          "cycle_id": "cycle-1787010179",
+          "health": "STALE",
+          "documents": 2,
+          "events": 2,
+          "new_docs": 0,
+          "new_events": 0,
+          "latest_doc_time": null,
+          "check_elapsed_ms": 0.1
+        },
+        {
+          "source_id": "src-beis-uk",
+          "cycle_id": "cycle-1787010179",
+          "health": "STALE",
+          "documents": 10,
+          "events": 3,
+          "new_docs": 0,
+          "new_events": 0,
+          "latest_doc_time": null,
+          "check_elapsed_ms": 0.11
+        },
+        {
+          "source_id": "src-nrb-nepal",
+          "cycle_id": "cycle-1787010179",
+          "health": "STALE",
+          "documents": 6,
+          "events": 2,
+          "new_docs": 0,
+          "new_events": 0,
+          "latest_doc_time": null,
+          "check_elapsed_ms": 0.11
+        },
+        {
+          "source_id": "src-sfc-hk",
+          "cycle_id": "cycle-1787010179",
+          "health": "STALE",
+          "documents": 10,
+          "events": 1,
+          "new_docs": 0,
+          "new_events": 0,
+          "latest_doc_time": null,
+          "check_elapsed_ms": 0.11
+        },
+        {
+          "source_id": "src-eurostat-emp",
+          "cycle_id": "cycle-1787010179",
+          "health": "STALE",
+          "documents": 8,
+          "events": 3,
+          "new_docs": 0,
+          "new_events": 0,
+          "latest_doc_time": null,
+          "check_elapsed_ms": 0.12
+        },
+        {
+          "source_id": "src-bnetza-germany",
+          "cycle_id": "cycle-1787010179",
+          "health": "STALE",
+          "documents": 10,
+          "events": 1,
+          "new_docs": 0,
+          "new_events": 0,
+          "latest_doc_time": null,
+          "check_elapsed_ms": 0.11
+        },
+        {
+          "source_id": "src-mitijapan",
+          "cycle_id": "cycle-1787010179",
+          "health": "STALE",
+          "documents": 9,
+          "events": 1,
+          "new_docs": 0,
+          "new_events": 0,
+          "latest_doc_time": null,
+          "check_elapsed_ms": 0.11
+        },
+        {
+          "source_id": "src-frb-ny",
+          "cycle_id": "cycle-1787010179",
+          "health": "STALE",
+          "documents": 3,
+          "events": 2,
+          "new_docs": 0,
+          "new_events": 0,
+          "latest_doc_time": null,
+          "check_elapsed_ms": 0.1
+        },
+        {
+          "source_id": "src-boc",
+          "cycle_id": "cycle-1787010179",
+          "health": "STALE",
+          "documents": 10,
+          "events": 10,
+          "new_docs": 0,
+          "new_events": 0,
+          "latest_doc_time": null,
+          "check_elapsed_ms": 0.11
+        }
+      ]
+    },
+    {
+      "cycle_id": "cycle-1787010179",
+      "elapsed_s": 0.0,
+      "sources_monitored": 18,
+      "results": [
+        {
+          "source_id": "src-bb-bangladesh",
+          "cycle_id": "cycle-1787010179",
+          "health": "STALE",
+          "documents": 9,
+          "events": 2,
+          "new_docs": 0,
+          "new_events": 0,
+          "latest_doc_time": null,
+          "check_elapsed_ms": 0.11
+        },
+        {
+          "source_id": "src-dfsa-uae",
+          "cycle_id": "cycle-1787010179",
+          "health": "STALE",
+          "documents": 10,
+          "events": 3,
+          "new_docs": 0,
+          "new_events": 0,
+          "latest_doc_time": null,
+          "check_elapsed_ms": 0.11
+        },
+        {
+          "source_id": "src-mof-philippines",
+          "cycle_id": "cycle-1787010179",
+          "health": "STALE",
+          "documents": 3,
+          "events": 1,
+          "new_docs": 0,
+          "new_events": 0,
+          "latest_doc_time": null,
+          "check_elapsed_ms": 0.11
+        },
+        {
+          "source_id": "src-naic-us",
+          "cycle_id": "cycle-1787010179",
+          "health": "STALE",
+          "documents": 4,
+          "events": 1,
+          "new_docs": 0,
+          "new_events": 0,
+          "latest_doc_time": null,
+          "check_elapsed_ms": 0.11
+        },
+        {
+          "source_id": "src-cbk-kenya",
+          "cycle_id": "cycle-1787010179",
+          "health": "STALE",
+          "documents": 10,
+          "events": 10,
+          "new_docs": 0,
+          "new_events": 0,
+          "latest_doc_time": null,
+          "check_elapsed_ms": 0.12
+        },
+        {
+          "source_id": "src-bi-indonesia",
+          "cycle_id": "cycle-1787010179",
+          "health": "STALE",
+          "documents": 3,
+          "events": 3,
+          "new_docs": 0,
+          "new_events": 0,
+          "latest_doc_time": null,
+          "check_elapsed_ms": 0.11
+        },
+        {
+          "source_id": "src-boj",
+          "cycle_id": "cycle-1787010179",
+          "health": "STALE",
+          "documents": 6,
+          "events": 3,
+          "new_docs": 0,
+          "new_events": 0,
+          "latest_doc_time": null,
+          "check_elapsed_ms": 0.11
+        },
+        {
+          "source_id": "src-nsi-bulgaria",
+          "cycle_id": "cycle-1787010179",
+          "health": "STALE",
+          "documents": 8,
+          "events": 8,
+          "new_docs": 0,
+          "new_events": 0,
+          "latest_doc_time": null,
+          "check_elapsed_ms": 0.11
+        },
+        {
+          "source_id": "src-ecb-stat",
+          "cycle_id": "cycle-1787010179",
+          "health": "STALE",
+          "documents": 10,
+          "events": 4,
+          "new_docs": 0,
+          "new_events": 0,
+          "latest_doc_time": null,
+          "check_elapsed_ms": 0.11
+        },
+        {
+          "source_id": "src-sama-saudi",
+          "cycle_id": "cycle-1787010179",
+          "health": "STALE",
+          "documents": 2,
+          "events": 2,
+          "new_docs": 0,
+          "new_events": 0,
+          "latest_doc_time": null,
+          "check_elapsed_ms": 0.1
+        },
+        {
+          "source_id": "src-beis-uk",
+          "cycle_id": "cycle-1787010179",
+          "health": "STALE",
+          "documents": 10,
+          "events": 3,
+          "new_docs": 0,
+          "new_events": 0,
+          "latest_doc_time": null,
+          "check_elapsed_ms": 0.11
+        },
+        {
+          "source_id": "src-nrb-nepal",
+          "cycle_id": "cycle-1787010179",
+          "health": "STALE",
+          "documents": 6,
+          "events": 2,
+          "new_docs": 0,
+          "new_events": 0,
+          "latest_doc_time": null,
+          "check_elapsed_ms": 0.11
+        },
+        {
+          "source_id": "src-sfc-hk",
+          "cycle_id": "cycle-1787010179",
+          "health": "STALE",
+          "documents": 10,
+          "events": 1,
+          "new_docs": 0,
+          "new_events": 0,
+          "latest_doc_time": null,
+          "check_elapsed_ms": 0.12
+        },
+        {
+          "source_id": "src-eurostat-emp",
+          "cycle_id": "cycle-1787010179",
+          "health": "STALE",
+          "documents": 8,
+          "events": 3,
+          "new_docs": 0,
+          "new_events": 0,
+          "latest_doc_time": null,
+          "check_elapsed_ms": 0.11
+        },
+        {
+          "source_id": "src-bnetza-germany",
+          "cycle_id": "cycle-1787010179",
+          "health": "STALE",
+          "documents": 10,
+          "events": 1,
+          "new_docs": 0,
+          "new_events": 0,
+          "latest_doc_time": null,
+          "check_elapsed_ms": 0.11
+        },
+        {
+          "source_id": "src-mitijapan",
+          "cycle_id": "cycle-1787010179",
+          "health": "STALE",
+          "documents": 9,
+          "events": 1,
+          "new_docs": 0,
+          "new_events": 0,
+          "latest_doc_time": null,
+          "check_elapsed_ms": 0.11
+        },
+        {
+          "source_id": "src-frb-ny",
+          "cycle_id": "cycle-1787010179",
+          "health": "STALE",
+          "documents": 3,
+          "events": 2,
+          "new_docs": 0,
+          "new_events": 0,
+          "latest_doc_time": null,
+          "check_elapsed_ms": 0.1
+        },
+        {
+          "source_id": "src-boc",
+          "cycle_id": "cycle-1787010179",
+          "health": "STALE",
+          "documents": 10,
+          "events": 10,
+          "new_docs": 0,
+          "new_events": 0,
+          "latest_doc_time": null,
+          "check_elapsed_ms": 0.11
+        }
+      ]
+    }
+  ],
+  "freshness_by_class": {
+    "central_bank": {
+      "source_count": 8,
+      "total_docs": 49,
+      "total_events": 34,
+      "avg_doc_age_days": null,
+      "min_doc_age_days": null,
+      "max_doc_age_days": null
+    },
+    "financial_regulator": {
+      "source_count": 1,
+      "total_docs": 10,
+      "total_events": 3,
+      "avg_doc_age_days": null,
+      "min_doc_age_days": null,
+      "max_doc_age_days": null
+    },
+    "finance_ministry": {
+      "source_count": 1,
+      "total_docs": 3,
+      "total_events": 1,
+      "avg_doc_age_days": null,
+      "min_doc_age_days": null,
+      "max_doc_age_days": null
+    },
+    "insurance_regulator": {
+      "source_count": 1,
+      "total_docs": 4,
+      "total_events": 1,
+      "avg_doc_age_days": null,
+      "min_doc_age_days": null,
+      "max_doc_age_days": null
+    },
+    "statistical_agency": {
+      "source_count": 3,
+      "total_docs": 26,
+      "total_events": 15,
+      "avg_doc_age_days": null,
+      "min_doc_age_days": null,
+      "max_doc_age_days": null
+    },
+    "energy_ministry": {
+      "source_count": 1,
+      "total_docs": 10,
+      "total_events": 3,
+      "avg_doc_age_days": null,
+      "min_doc_age_days": null,
+      "max_doc_age_days": null
+    },
+    "securities_regulator": {
+      "source_count": 1,
+      "total_docs": 10,
+      "total_events": 1,
+      "avg_doc_age_days": null,
+      "min_doc_age_days": null,
+      "max_doc_age_days": null
+    },
+    "telecom_regulator": {
+      "source_count": 1,
+      "total_docs": 10,
+      "total_events": 1,
+      "avg_doc_age_days": null,
+      "min_doc_age_days": null,
+      "max_doc_age_days": null
+    },
+    "trade_ministry": {
+      "source_count": 1,
+      "total_docs": 9,
+      "total_events": 1,
+      "avg_doc_age_days": null,
+      "min_doc_age_days": null,
+      "max_doc_age_days": null
+    }
+  },
+  "idempotency_pass": true
+}

@@ -1,0 +1,45 @@
+{
+  "schema_version": "1.0",
+  "captured_at": "2026-08-17T23:41:49Z",
+  "store_root": "real_corpus_store_new_waveb",
+  "backfill": {
+    "total_events": 229,
+    "already_set": 180,
+    "backfilled": 49,
+    "empty_after": 0
+  },
+  "concurrent_test": {
+    "10": {
+      "readers": 10,
+      "elapsed_s": 0.39,
+      "io_count_seen": 229,
+      "baseline_count": 200,
+      "stable_ordering": true,
+      "omissions": 0,
+      "pass": true
+    },
+    "50": {
+      "readers": 50,
+      "elapsed_s": 1.9,
+      "io_count_seen": 229,
+      "baseline_count": 200,
+      "stable_ordering": true,
+      "omissions": 0,
+      "pass": true
+    },
+    "100": {
+      "readers": 100,
+      "elapsed_s": 4.68,
+      "io_count_seen": 229,
+      "baseline_count": 200,
+      "stable_ordering": true,
+      "omissions": 0,
+      "pass": true
+    },
+    "checkpoint_recovery": {
+      "pass": true,
+      "overlap": 0
+    },
+    "overall_pass": true
+  }
+}

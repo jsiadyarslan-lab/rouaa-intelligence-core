@@ -1,0 +1,950 @@
+
+<!DOCTYPE html>
+<html  lang="en" dir="ltr" prefix="content: http://purl.org/rss/1.0/modules/content/  dc: http://purl.org/dc/terms/  foaf: http://xmlns.com/foaf/0.1/  og: http://ogp.me/ns#  rdfs: http://www.w3.org/2000/01/rdf-schema#  schema: http://schema.org/  sioc: http://rdfs.org/sioc/ns#  sioct: http://rdfs.org/sioc/types#  skos: http://www.w3.org/2004/02/skos/core#  xsd: http://www.w3.org/2001/XMLSchema# ">
+  <head>
+    <meta charset="utf-8" />
+<meta name="description" content="Today, the U.S Bureau of Economic Analysis (BEA) released official statistics of real state personal consumption expenditures (PCE) for the first time. The new statistics cover the period from 2008 to 2020. Real PCE decreased 3.8 percent in 2020 for the nation after increasing 2.2 percent in 2019. Across states, the percent change ranged from 2.2 percent in Utah to –7.0 percent in Hawaii, Maryland, and New York; the percent change was –8.9 percent in the District of Columbia (table 1)." />
+<link rel="canonical" href="https://www.bea.gov/news/2021/real-personal-consumption-expenditures-and-personal-income-state-2020" />
+<meta name="google" content="YTUCDlBs59yC1yvqKFhclR-b_kx9bU_BTCQJzo8lwjk" />
+<meta name="Generator" content="Drupal 10 (https://www.drupal.org)" />
+<meta name="MobileOptimized" content="width" />
+<meta name="HandheldFriendly" content="true" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<link rel="icon" href="/themes/custom/beagov_theme/logo.ico" type="image/vnd.microsoft.icon" />
+
+    <title>Real Personal Consumption Expenditures and Personal Income by State, 2020 | U.S. Bureau of Economic Analysis (BEA)</title>
+    <link rel="stylesheet" media="all" href="/sites/default/files/css/css_kKr04oEbnBoZPun2ymhdByhgZHMDg7OUSZhUI9val3s.css?delta=0&amp;language=en&amp;theme=beagov_theme&amp;include=eJxdiUEOgCAMBD8E9kmmDSsaCxhbjfxeDx6Mp8nMCDi3c_QZBZTYOTqLwoJ8x9Sq_1LWJqzRvOtSc8DlD1dK-7GxDq8G6-YoJGy4AZxzKVY" />
+<link rel="stylesheet" media="all" href="/sites/default/files/css/css_7eQ37UuGTyEyyV8DHE6uL2lQBdvUvH-HkY4M1Y-CJwI.css?delta=1&amp;language=en&amp;theme=beagov_theme&amp;include=eJxdiUEOgCAMBD8E9kmmDSsaCxhbjfxeDx6Mp8nMCDi3c_QZBZTYOTqLwoJ8x9Sq_1LWJqzRvOtSc8DlD1dK-7GxDq8G6-YoJGy4AZxzKVY" />
+<link rel="stylesheet" media="all" href="//fonts.googleapis.com/css?family=Lato:300,400,400i,700" />
+<link rel="stylesheet" media="all" href="/sites/default/files/css/css_ChAnK4gHi4RVTwzIgrTqzQ7ZKZx3XxAx-GBz7xhKk6Q.css?delta=3&amp;language=en&amp;theme=beagov_theme&amp;include=eJxdiUEOgCAMBD8E9kmmDSsaCxhbjfxeDx6Mp8nMCDi3c_QZBZTYOTqLwoJ8x9Sq_1LWJqzRvOtSc8DlD1dK-7GxDq8G6-YoJGy4AZxzKVY" />
+
+    <script src="https://use.fontawesome.com/releases/v6.4.2/js/all.js" defer crossorigin="anonymous"></script>
+<script src="https://use.fontawesome.com/releases/v6.4.2/js/v4-shims.js" defer crossorigin="anonymous"></script>
+
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-J4698JNNFT"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'G-J4698JNNFT');
+    </script>
+  </head>
+
+  <body class="path-node page-node-type-release navbar-is-fixed-top has-glyphicons page-node-33426">
+    <a href="#main-content" class="visually-hidden focusable skip-link">
+      Skip to main content
+    </a>
+    
+      <div class="dialog-off-canvas-main-canvas" data-off-canvas-main-canvas>
+                        <header class="navbar shadow navbar-default navbar-fixed-top" id="navbar" role="banner">
+                        <div class="usa-banner">
+        <div class="usa-banner-header container">
+                <div class="usa-grid usa-banner-inner">
+                        <img src="/sites/default/files/favicon-57.png" alt="U.S. flag">
+                        <p>An official website of the United States government</p>
+                </div>
+        </div>
+</div>            
+                            <div class="container">
+                        <div class="navbar-header">
+                <a class="navbar-brand" href="/" aria-label="homepage link">
+                                     </a>
+                
+
+                                                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                            </div>
+
+                                        <div id="navbar-collapse" class="navbar-collapse collapse">
+                    
+    <div class="region region-navigation-collapsible">
+        <nav role="navigation" id="block-beagov-theme-main-menu" data-block-plugin-id="system_menu_block:main">
+    <div class="panel-inverse system-menu-block">
+      <div class="panel-heading sr-only">
+                                                    
+          <h3 id="block-beagov-theme-main-menu" data-block-plugin-id="system_menu_block:main" class="panel-title sr-only"  class="visually-hidden" id="block-beagov-theme-main-menu-menu"> 
+            Main navigation
+          </h3>
+          
+      </div>
+                      
+                            <ul region="navigation_collapsible" class="menu nav navbar-nav">
+                                                        <li class="expanded dropdown">
+                    <a href="/data" class="dropdown-toggle" data-target="#" data-hover="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Data
+                        <span class="caret"></span>
+                    </a>
+                                                                    <ul region="navigation_collapsible" class="menu dropdown-menu">
+                                                        <li class="expanded dropdown">
+                    <a href="/data/gdp" data-drupal-link-system-path="node/13541">by Topic</a>
+                                    </li>
+                                                <li class="expanded dropdown">
+                    <a href="/data/by-place-us" data-drupal-link-system-path="node/13656">by Place</a>
+                                    </li>
+                                                <li class="expanded dropdown">
+                    <a href="/data/economic-accounts" data-drupal-link-system-path="node/13646">by Economic Account</a>
+                                    </li>
+                    </ul>
+    
+                        </li>
+                                                <li class="expanded dropdown">
+                    <a href="/tools" class="dropdown-toggle" data-target="#" data-hover="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Tools
+                        <span class="caret"></span>
+                    </a>
+                                                                    <ul region="navigation_collapsible" class="menu dropdown-menu">
+                                                        <li class="expanded dropdown">
+                    <a href="/itable" data-drupal-link-system-path="node/33356">Interactive Data</a>
+                                    </li>
+                                                <li class="expanded dropdown">
+                    <a href="https://apps.bea.gov/API/signup/">Application Programming Interface (API)</a>
+                                    </li>
+                                                <li class="expanded dropdown">
+                    <a href="https://apps.bea.gov/iTable/?reqid=158&amp;step=1">Global Value Chain Analyzer</a>
+                                    </li>
+                                                <li class="expanded dropdown">
+                    <a href="https://tools.bea.gov/pidv/">Income Distribution Analysis Tool (IDAT)</a>
+                                    </li>
+                                                <li class="expanded dropdown">
+                    <a href="https://apps.bea.gov/international/factsheet/">Country Facts</a>
+                                    </li>
+                                                <li class="expanded dropdown">
+                    <a href="https://apps.bea.gov/regional/bearfacts/">BEARFACTS</a>
+                                    </li>
+                                                <li class="expanded dropdown">
+                    <a href="https://apps.bea.gov/industry/factsheet/">Industry Facts</a>
+                                    </li>
+                                                <li class="expanded dropdown">
+                    <a href="https://apps.bea.gov/itable/?ReqID=99&amp;step=1">GDP &amp; Personal Income Mapping</a>
+                                    </li>
+                                                <li class="expanded dropdown">
+                    <a href="https://apps.bea.gov/regional/rims/rimsii/">RIMS II</a>
+                                    </li>
+                                                <li class="expanded dropdown">
+                    <a href="https://apps.bea.gov/efile">eFile</a>
+                                    </li>
+                    </ul>
+    
+                        </li>
+                                                <li class="expanded dropdown">
+                    <a href="/news" class="dropdown-toggle" data-target="#" data-hover="dropdown" aria-haspopup="true" aria-expanded="false">
+                        News
+                        <span class="caret"></span>
+                    </a>
+                                                                    <ul region="navigation_collapsible" class="menu dropdown-menu">
+                                                        <li class="expanded dropdown">
+                    <a href="/news/glance" data-drupal-link-system-path="node/20292">Economy at a Glance</a>
+                                    </li>
+                                                <li class="expanded dropdown">
+                    <a href="/news/current-releases" data-drupal-link-system-path="news/current-releases">News Releases</a>
+                                    </li>
+                                                <li class="expanded dropdown">
+                    <a href="/news/schedule" data-drupal-link-system-path="news/schedule">Release Schedule</a>
+                                    </li>
+                                                <li class="expanded dropdown">
+                    <a href="/news/blog" data-drupal-link-system-path="news/blog">The BEA Wire | BEA&#039;s Official Blog</a>
+                                    </li>
+                                                <li class="expanded dropdown">
+                    <a href="https://apps.bea.gov/scb/">Survey of Current Business</a>
+                                    </li>
+                                                <li class="expanded dropdown">
+                    <a href="/news/archive?field_related_product_target_id=All&amp;created_1=All&amp;title=" data-drupal-link-query="{&quot;created_1&quot;:&quot;All&quot;,&quot;field_related_product_target_id&quot;:&quot;All&quot;,&quot;title&quot;:&quot;&quot;}" data-drupal-link-system-path="news/archive">Archive</a>
+                                    </li>
+                                                <li class="expanded dropdown">
+                    <a href="/news/for-journalists" data-drupal-link-system-path="node/23916">For Journalists</a>
+                                    </li>
+                    </ul>
+    
+                        </li>
+                                                <li class="expanded dropdown">
+                    <a href="/research" class="dropdown-toggle" data-target="#" data-hover="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Research
+                        <span class="caret"></span>
+                    </a>
+                                                                    <ul region="navigation_collapsible" class="menu dropdown-menu">
+                                                        <li class="expanded dropdown">
+                    <a href="/research/offices-of-research" data-drupal-link-system-path="node/8126">Offices of Research</a>
+                                    </li>
+                                                <li class="expanded dropdown">
+                    <a href="/research/meet-the-researchers" data-drupal-link-system-path="research/meet-the-researchers">Meet the Researchers</a>
+                                    </li>
+                                                <li class="expanded dropdown">
+                    <a href="/research/papers" data-drupal-link-system-path="research/papers">Papers</a>
+                                    </li>
+                                                <li class="expanded dropdown">
+                    <a href="/research/special-sworn-researcher-program" data-drupal-link-system-path="node/8131">Special Sworn Researcher Program</a>
+                                    </li>
+                                                <li class="expanded dropdown">
+                    <a href="/research/special-sworn-researcher-program/papers" data-drupal-link-system-path="node/8211">Research Using Company-Level Data</a>
+                                    </li>
+                                                <li class="expanded dropdown">
+                    <a href="/research/fellowship-program" data-drupal-link-system-path="node/8136">Fellowship Program</a>
+                                    </li>
+                    </ul>
+    
+                        </li>
+                                                <li class="expanded dropdown">
+                    <a href="/resources" class="dropdown-toggle" data-target="#" data-hover="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Resources
+                        <span class="caret"></span>
+                    </a>
+                                                                    <ul region="navigation_collapsible" class="menu dropdown-menu">
+                                                        <li class="expanded dropdown">
+                    <a href="/resources/learning-center" data-drupal-link-system-path="node/14796">Learning Center</a>
+                                    </li>
+                                                <li class="expanded dropdown">
+                    <a href="/resources/methodologies" data-drupal-link-system-path="resources/methodologies">Methodologies</a>
+                                    </li>
+                                                <li class="expanded dropdown">
+                    <a href="/resources/multimedia" data-drupal-link-system-path="resources/multimedia">Multimedia</a>
+                                    </li>
+                                                <li class="expanded dropdown">
+                    <a href="https://apps.bea.gov/scb/subjects.htm">Article Collections</a>
+                                    </li>
+                                                <li class="expanded dropdown">
+                    <a href="/congressional-users" title="congressional users">For Congressional Users</a>
+                                    </li>
+                                                <li class="expanded dropdown">
+                    <a href="/resources/for-developers" data-drupal-link-system-path="node/9396">For Developers</a>
+                                    </li>
+                                                <li class="expanded dropdown">
+                    <a href="/resources/learning-center/bea-in-the-classroom" data-drupal-link-system-path="node/22426">For Students</a>
+                                    </li>
+                    </ul>
+    
+                        </li>
+                                                <li class="expanded dropdown">
+                    <a href="/about" class="dropdown-toggle" data-target="#" data-hover="dropdown" aria-haspopup="true" aria-expanded="false">
+                        About
+                        <span class="caret"></span>
+                    </a>
+                                                                    <ul region="navigation_collapsible" class="menu dropdown-menu">
+                                                        <li class="expanded dropdown">
+                    <a href="/about/who-we-are" data-drupal-link-system-path="node/24146">Who We Are</a>
+                                    </li>
+                                                <li class="expanded dropdown">
+                    <a href="/about/leadership" data-drupal-link-system-path="node/24691">BEA Leadership</a>
+                                    </li>
+                                                <li class="expanded dropdown">
+                    <a href="/about/innovation-bea" data-drupal-link-system-path="node/42904">Innovation at BEA</a>
+                                    </li>
+                                                <li class="expanded dropdown">
+                    <a href="/about/advisory-committees" data-drupal-link-system-path="node/6426">Advisory Committees</a>
+                                    </li>
+                                                <li class="expanded dropdown">
+                    <a href="/about/budget-and-performance" data-drupal-link-system-path="node/6431">Budget and Performance</a>
+                                    </li>
+                                                <li class="expanded dropdown">
+                    <a href="/about/policies-and-information" data-drupal-link-system-path="node/6436">Policies and Information</a>
+                                    </li>
+                                                <li class="expanded dropdown">
+                    <a href="https://www.bea.gov/about/working-at-bea">Working at BEA</a>
+                                    </li>
+                    </ul>
+    
+                        </li>
+                                                <li class="expanded dropdown">
+                    <a href="/help" class="dropdown-toggle" data-target="#" data-hover="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Help
+                        <span class="caret"></span>
+                    </a>
+                                                                    <ul region="navigation_collapsible" class="menu dropdown-menu">
+                                                        <li class="expanded dropdown">
+                    <a href="/help/contact-us" data-drupal-link-system-path="node/9106">Contact Us</a>
+                                    </li>
+                                                <li class="expanded dropdown">
+                    <a href="/form/ask-an-expert" data-drupal-link-system-path="webform/ask_an_expert">Ask an Expert</a>
+                                    </li>
+                                                <li class="expanded dropdown">
+                    <a href="/help/information-for-survey-respondents" data-drupal-link-system-path="node/9356">For Survey Respondents</a>
+                                    </li>
+                                                <li class="expanded dropdown">
+                    <a href="/help/faq" data-drupal-link-system-path="help/faq">Frequently Asked Questions (FAQ)</a>
+                                    </li>
+                                                <li class="expanded dropdown">
+                    <a href="/help/glossary" data-drupal-link-system-path="help/glossary">Glossary</a>
+                                    </li>
+                                                <li class="expanded dropdown">
+                    <a href="/help/guidelines-for-citing-bea" data-drupal-link-system-path="node/10936">Guidelines for Citing BEA</a>
+                                    </li>
+                    </ul>
+    
+                        </li>
+                    </ul>
+    
+
+
+          </div>
+</nav><section id="block-beagovsearchblock" class="block block-beagov-search block-beagov-search-block clearfix" data-block-plugin-id="beagov_search_block">
+  
+    
+
+      <form id="search-block-form"
+  class="navbar-form navbar-right"
+  role="search"
+  action="https://search.bea.gov/search"
+  method="get"
+  accept-charset="UTF-8"
+  data-drupal-form-fields="edit-keys"
+>
+  <input id="affiliate"
+    name="affiliate"
+    type="hidden"
+    value="u.s.bureauofeconomicanalysis"
+  />
+  <div class="form-group form-group-sm js-form-item form-item js-form-type-search form-item-keys js-form-item-keys form-no-label">
+    <input id="edit-keys" class="form-search form-control usagov-search-autocomplete" title="" data-drupal-selector="edit-keys" placeholder="Search" name="query" value="" type="search" aria-labelledby="btnSearch">
+  </div>
+  <button id="btnSearch" class="btn btn-default js-form-submit button" type="submit" aria-label="Search">
+    <span class="glyphicon glyphicon-search" aria-hidden="true"></span>
+  </button>
+  <div id="edit-actions" class="form-actions form-group js-form-wrapper form-wrapper" data-drupal-selector="edit-actions">
+  </div>
+</form>
+<script type="text/javascript">
+  //<![CDATA[
+    var usasearch_config = {siteHandle: "BEA"};
+    var script = document.createElement("script");
+    script.type = "text/javascript";
+    script.src = "//search.bea.gov/javascripts/remote.loader.js";
+    document.getElementsByTagName("head")[0].appendChild(script);
+  //]]>
+</script>
+
+  </section>
+
+
+    </div>
+
+                </div>
+                                        </div>
+                    </header>
+    
+    <div role="main" class="main-container container js-quickedit-main-content">
+        <div class="row">
+
+                                                            <div class="col-md-12" role="heading">
+                        
+    <div class="region region-header">
+            <ol class="breadcrumb">
+          <li >
+                  <a href="/">Home</a>
+              </li>
+          <li >
+                  <a href="/news">News</a>
+              </li>
+          <li  class="active">
+                  Real Personal Consumption Expenditures and Personal Income by State, 2020
+              </li>
+      </ol>
+
+  
+
+    </div>
+
+                    </div>
+                            
+                        
+            <div id="test" class="col-sm-12">
+
+                                                                            <div class="highlighted">
+                            
+    <div class="region region-highlighted">
+        <div data-drupal-messages-fallback class="hidden"></div>
+
+    </div>
+
+                        </div>
+                                    
+                                
+                                
+                                
+                                                    <a id="main-content"></a>
+                    
+    <div class="region region-content">
+          
+<article about="/news/2021/real-personal-consumption-expenditures-and-personal-income-state-2020">
+                 <div class="clearfix row">
+            <div class="col-md-12 release-page-title">
+                <h1>News Release</h1>
+            </div>
+        </div>
+                                  <div class="alert alert-danger" role="alert">These data have been superseded. Please see our <a href="/news/current-releases">latest releases</a> for current estimates and contact information.</div>
+          
+    <div class="row">
+        <div class="container">
+            <div class="col-md-3 col-sm-12 col-xs-12 pull-right">
+                <a class="btn btn-primary btn-block btn-product-view" href="/data/consumer-spending/real-consumer-spending-state">Explore Product View</a>
+            </div>
+            <ul class="nav nav-tabs">
+                <li class="active">
+                    <a data-toggle="tab" href="#home">News Release</a>
+                </li>
+                                    <li>
+                        <a data-toggle="tab" href="#menu1">Related Materials</a>
+                    </li>
+                                                    <li>
+                        <a data-toggle="tab" href="#menu2">Contacts</a>
+                    </li>
+                                                    <li>
+                        <a data-toggle="tab" href="#menu3">Additional Information</a>
+                    </li>
+                            </ul>
+            <div class="tab-content">
+                <div id="home" class="tab-pane fade in active">
+                   
+                        <div class="row release-embargo">
+                                                            <div class="col-md-10">
+                                    
+            <div class="field field--name-field-release-date field--type-string field--label-hidden field--item">EMBARGOED UNTIL RELEASE AT 8:30 A.M. EST, Tuesday, December 14, 2021</div>
+      
+                                </div>
+                                                                                        <div class="col-md-2">
+                                                            BEA 21—64
+            
+                                </div>
+                                                    </div>
+                                                <h1>Real Personal Consumption Expenditures and Personal Income by State, 2020
+                                                        
+                        </h1>
+                    
+                                            <div class="row">
+                            <div class="col-md-12 release-body">
+                                
+            <div class="field field--name-body field--type-text-with-summary field--label-hidden field--item"><p>Today, the U.S Bureau of Economic Analysis (BEA) released official statistics of real state personal consumption expenditures (PCE) for the first time. The new statistics cover the period from 2008 to 2020. Real PCE decreased 3.8 percent in 2020 for the nation after increasing 2.2 percent in 2019. Across states, the percent change ranged from 2.2 percent in Utah to –7.0 percent in Hawaii, Maryland, and New York; the percent change was –8.9 percent in the District of Columbia (table 1).</p>
+<a href="/sites/default/files/inline-images/rpp1221.png"><img alt="Real Personal Consumption Expenditures for States: Percent Change, 2019-2020" class="img-responsive chart align-center" data-entity-type="file" data-entity-uuid="b0f5bb15-9891-44e8-a151-7244f1de30ff" src="/sites/default/files/inline-images/rpp1221.png"> </a>
+
+<p>In 2020, real PCE decreased in 47 states and the District of Columbia and increased in only three states: Utah (2.2 percent), Idaho (2.0 percent), and Montana (1.0 percent). Real state PCE is a state's current-dollar PCE adjusted by the state's regional price parity and the national PCE price index.</p>
+
+<ul>
+	<li>In Utah, Idaho, and Montana current-dollar PCE increased while their implicit regional price deflators decreased 1.0 percent, 0.7 percent, and 0.6 percent respectively (table2).</li>
+	<li>New York, Maryland, and Hawaii had the largest decrease in real PCE. In all three states, current-dollar PCE decreased while their implicit regional price deflators increased 1.9 percent, 2.8 percent, and 1.8 percent respectively.</li>
+</ul>
+
+<div class="panel panel-default" id="Notice">
+<div class="panel-heading">
+<p align="center" class="panel-title"><strong>Coronavirus (COVID-19) Impact on 2020 Real PCE and Personal Income by State Estimates</strong></p>
+</div>
+
+<div class="panel-body">
+<p>The 2020 estimates of real PCE and personal income by state were impacted by the response to the spread of COVID-19, as governments issued and lifted "stay-at-home" orders and government pandemic assistance payments were distributed to households and businesses. The full economic effects of the COVID-19 pandemic cannot be quantified in the real PCE and personal income by state estimates because the impacts are generally embedded in source data and cannot be separately identified. For more information, see <a href="https://www.bea.gov/recovery">Federal Recovery Programs and BEA Statistics</a>.</p>
+</div>
+</div>
+
+<h2>Real Personal Income</h2>
+
+<p>Real state personal income increased 5.3 percent in 2020 for the nation after increasing 2.6 percent in 2019. Across states, the percent change in real personal income ranged from 9.8 percent in Idaho to 1.6 percent in Alaska (table 1).</p>
+
+<p><a href="/sites/default/files/rpp1221b.png"><img alt="Real Personal Income for States: Percent Change, 2019-2020" class="img-responsive chart align-center" data-entity-uuid="3cd11398-6217-4cc9-a8af-c396cfe60e0d" src="/sites/default/files/rpp1221b.png"></a></p>
+
+<p>In 2020, real personal income increased in all 50 states and the District of Columbia.</p>
+
+<ul>
+	<li>Idaho (9.8 percent) and Utah (9.0 percent) had the largest increases in real personal income. In both states, the implicit regional price deflator decreased.</li>
+	<li>Alaska (1.6 percent) and Oklahoma had the smallest increases in real personal income. Their implicit regional price deflators increased 1.0 percent and 2.2 percent respectively.</li>
+</ul>
+
+<h2>Regional Price Parities</h2>
+
+<p>Regional price parities (RPPs) measure the differences in price levels across states for a given year and are expressed as a percentage of the overall national price level.</p>
+<a href="/sites/default/files/inline-images/rpp1221c.png"><img alt="Regional Price parities for States, 2020 (U.S. = 100)" class="img-responsive chart align-center" data-entity-type="file" data-entity-uuid="2b77df23-f734-4195-825e-1f40f32d9093" src="/sites/default/files/inline-images/rpp1221c.png"> </a>
+
+<p>The all items RPP covers all consumption goods and services including housing rents. Areas with high/low RPPs typically correspond to areas with high/low price levels for rents.</p>
+
+<ul>
+	<li>States with the highest RPPs were Hawaii (112.0), New Jersey (111.2), and California (110.4); the RPP in the District of Columbia was 111.5 (table 2).</li>
+	<li>States with the lowest RPPs were Mississippi (87.8), West Virginia (88.0), and Arkansas (89.2).</li>
+	<li>Across states, California had the highest RPP for housing rents (160.2) and Mississippi had the lowest (56.1); the RPP for housing rents in the District of Columbia was 168.9.</li>
+</ul>
+
+<div class="panel panel-default" id="Notice">
+<div class="panel-heading">
+<p align="center" class="panel-title"><strong>Updates to Real Personal Income by State and Metropolitan Area</strong></p>
+</div>
+
+<div class="panel-body">
+<p>The estimates for 2020 incorporate the results of BEA's annual update of real personal income for states and metropolitan areas that was also released today. The annual estimates of state and metropolitan area real personal income for 2008 to 2019 were revised. The update incorporates revised source data that are more complete and more detailed than previously available. The update includes the results of the July 2021 annual update of the National Income and Product Accounts, the September 2021 annual update of the state personal income statistics, and the November 2021 annual update of local area personal income statistics. The update also includes changes to RPP estimation methods. For a summary, see <a href="https://www.bea.gov/sites/default/files/2021-12/rpp1221-methods.pdf">Regional Price Parity Methodology Revisions</a>. A complete description of the source data and the methodology will be published in an upcoming <em>Survey of Current Business</em> article.<br>
+<br>
+BEA state real per capita PCE statistics and real per capita personal income statistics for states and metropolitan areas are calculated using U.S. Census Bureau midyear population estimates. These annual midyear estimates are based on the 2010 census. BEA will incorporate the Census Bureau midyear population estimates based on the 2020 census results when they become available.</p>
+</div>
+</div>
+
+<div style="text-align: center">Next release: December 15, 2022<br>
+Real Personal Consumption Expenditures by State and Real Personal Income by State and Metropolitan Area, 2021</div>
+
+<hr>
+<h3>Technical Notes on Regional Price Parities and Implicit Regional Price Deflators</h3>
+
+<p>Price indexes commonly measure price changes over time. The BEA PCE price index and the Bureau of Labor Statistics Consumer Price Index (CPI) are two examples. Spatial price indexes measure price level differences across regions for one period. An example of these types of indexes are purchasing power parities, which measure differences in price levels across countries for a given period and can be used to convert estimates of per capita gross domestic product into comparable levels in a common currency. The RPP BEA has developed compares regions within the United States, without the need for currency conversion. An implicit regional price deflator (IRPD) can be derived by combining the RPPs and the U.S. PCE price index.</p>
+
+<p><strong>Regional price parities</strong>. The RPPs are calculated using price quotes for a wide array of items from the CPI covering apparel, education, food, housing, medical, recreation, transportation, and other goods and services.<sup>1</sup> Data on housing rents are obtained separately from the Census Bureau American Community Survey (ACS). The expenditure weights for each category are constructed using BEA PCE and Census ACS housing rents expenditures.<sup>2</sup></p>
+
+<p>The CPI price levels and the ACS housing rents are combined with the expenditure weights using a multilateral aggregation method that expresses a region's price level relative to that of the United States.<sup>3</sup></p>
+
+<p>For example, if the RPP for area A is 120 and for area B is 90, then on average, price levels are 20 percent higher and 10 percent lower than the U.S. average for A and B, respectively. If the personal income for area A is $12,000 and for area B is $9,000, then RPP-adjusted incomes are $10,000 (or $12,000/1.20) and $10,000 (or $9,000/0.90), respectively. In other words, the purchasing power of the two incomes is equivalent when adjusted by their respective RPPs.</p>
+
+<p>For a summary of changes to RPP estimation methods, see <a href="https://www.bea.gov/sites/default/files/2021-12/rpp1221-methods.pdf">Regional Price Parity Methodology Revisions</a>.</p>
+
+<p><strong>Implicit regional price deflator</strong>. The IRPD is a regional price index derived as the product of two terms—the regional price parity and the U.S. PCE price index.</p>
+
+<p>The IRPD will equal current-dollar PCE divided by real PCE in constant dollars. The growth rate or year-to-year change in the IRPDs is a measure of regional inflation.<sup>4</sup></p>
+
+<hr>
+<p><sup>1</sup> The BEA RPP statistics are based in part on restricted access CPI data from the Bureau of Labor Statistics (BLS). The BEA statistics presented herein are products of BEA and not BLS.</p>
+
+<p><sup>2</sup> To estimate RPPs, annual average CPI price quotes and ACS housing rents are quality adjusted. The rents data are from the ACS Public Use Microdata Sample, and results incorporate BEA's new method for estimating housing services across the regional and national accounts (for more information, see the May 2021 issue of the <em>Survey of Current Business</em>).</p>
+
+<p><sup>3</sup> The multilateral system that is used is the Geary additive method. Any region or combination of regions may be used as the base or reference region without loss of consistency.</p>
+
+<p><sup>4</sup> The growth rate of the IRPDs will not necessarily equal the region or metropolitan area price deflators published by BLS. This is because the CPI deflators are calculated directly, while the IRPDs are indirect estimates based on CPI and ACS price levels and PCE expenditure weights.</p>
+</div>
+      
+                            </div>
+                        </div>
+                                    </div>
+                                    <div id="menu1" class="tab-pane fade">
+                        <div class="row">
+                            <div class="col-md-12">
+                                    
+    <h3>
+    <a href="/sites/default/files/2021-12/rpp1221.pdf">Full Release &amp; Tables</a>
+    <small class="mime-type">PDF</small>
+    <small></small>
+    
+</h3>
+
+    
+    <h3>
+    <a href="/sites/default/files/2021-12/rpp1221.xlsx">Release Tables Only</a>
+    <small class="mime-type">XLSX</small>
+    <small></small>
+    
+</h3>
+
+    
+    <h3>
+    <a href="/sites/default/files/2021-12/rpp1221-fax.pdf">Highlights</a>
+    <small class="mime-type">PDF</small>
+    <small></small>
+    
+</h3>
+
+    
+    <h3>
+    <a href="/sites/default/files/2021-12/rpp1221-methods.pdf">Methodology Revisions</a>
+    <small class="mime-type">PDF</small>
+    <small></small>
+    
+</h3>
+
+    
+    <h3>
+    <a href="http://apps.bea.gov/iTable/iTableHtml.cfm?reqid=70&amp;step=1&amp;isuri=1&amp;acrdn=8">Interactive Tables</a>
+    <small class="mime-type">CFM?REQID=70&amp;STEP=1&amp;ISURI=1&amp;ACRDN=8</small>
+    <small></small>
+    
+</h3>
+
+
+                                
+                            </div>
+                        </div>
+                    </div>
+                                                    <div id="menu2" class="tab-pane fade">
+                        <div class="row">
+                            <div class="col-md-12">
+                                    <ul class="list-contact">
+        <li>
+                <div class="list-contact-area">
+                            Technical
+
+                </div>
+                <div class="list-contact-name">
+                            Eric Figueroa 
+
+                </div>
+                                        <div class="list-contact-phone">
+                                <i class="fa fa-phone" aria-hidden="true"></i>
+                                    <a href="tel:301-278-9328">301-278-9328</a>
+
+                        </div>
+                                                        <div class="list-contact-email">
+                                <i class="fa fa-envelope-o" aria-hidden="true"></i>
+                                <a href="mailto:RPP@bea.gov">
+                                            RPP@bea.gov
+
+                                </a>
+                        </div>
+                        </li>
+</ul>
+
+
+    <ul class="list-contact">
+        <li>
+                <div class="list-contact-area">
+                            News Media
+
+                </div>
+                <div class="list-contact-name">
+                            Jeannine Aversa 
+
+                </div>
+                                        <div class="list-contact-phone">
+                                <i class="fa fa-phone" aria-hidden="true"></i>
+                                    <a href="tel:%28301%29278-9003">(301) 278-9003</a>
+
+                        </div>
+                                                        <div class="list-contact-email">
+                                <i class="fa fa-envelope-o" aria-hidden="true"></i>
+                                <a href="mailto:Jeannine.Aversa@bea.gov">
+                                            Jeannine.Aversa@bea.gov
+
+                                </a>
+                        </div>
+                        </li>
+</ul>
+
+
+
+                            </div>
+                        </div>
+                    </div>
+                                                    <div id="menu3" class="tab-pane fade">
+                        <div class="row">
+                            <div class="col-md-12">
+                                
+            <div class="field field--name-field-additional-information field--type-text-long field--label-hidden field--item"><h2>Resources</h2>
+
+<ul>
+	<li>Information on COVID-19 and recovery impacts is available on our <a href="https://www.bea.gov/recovery">website</a>.</li>
+	<li>Stay informed about BEA developments by reading <a href="https://www.bea.gov/news/blog">The BEA Wire</a>, signing up for BEA's <a href="https://www.bea.gov/_subscribe">email subscription service</a>, or following BEA on Twitter <a href="https://www.twitter.com/BEA_News" title="This link will take you to another Web site.">@BEA_News</a>.</li>
+	<li>Historical time series for these estimates can be accessed in BEA's <a href="https://www.bea.gov/iTable/">Interactive Data Application</a>.</li>
+	<li>Access BEA data by registering for BEA's Data <a href="https://www.bea.gov/api/signup/">Application Programming Interface</a>.</li>
+	<li>For more on BEA's statistics, see our monthly online journal, the <a href="https://apps.bea.gov/scb/"><em>Survey of Current Business</em></a>.</li>
+	<li>For upcoming economic indicators, see BEA's <a href="/news/schedule">news release schedule</a>.</li>
+	<li>Complete information on the sources and methods for the estimation of <a href="https://www.bea.gov/resources/methodologies/rpp">BEA's Regional Price Parities</a>.</li>
+</ul>
+
+<hr />
+<h2>Definitions</h2>
+
+<p><strong>Regional price parities (RPPs)</strong> are regional price levels expressed as a percentage of the overall national price level for a given year. The price level is determined by the average prices paid by consumers for the mix of goods and services consumed in each region.</p>
+
+<p>Detailed Consumer Price Index (CPI) price data are adjusted to obtain average price levels for the Bureau of Labor Statistics areas<sup>1</sup>. These are allocated to counties in combination with direct price and expenditure data on housing rents from the American Community Survey.</p>
+
+<p>County data are then aggregated to states and metropolitan areas.</p>
+
+<p><strong>Personal consumption expenditures (PCE) at RPPs </strong>is current-dollar PCE divided by the price parity<sup>2</sup> for a given year and region.</p>
+
+<p><strong>Real PCE</strong> is PCE at RPPs divided by the national PCE price index. The result is real PCE in constant dollars (using 2012 as the reference year). Using Alabama in 2020 as an example:</p>
+
+<table class="table table-md" style="margin-top: 50px;" summary="Dollars amounts in billions">
+	<tbody>
+		<tr align="center">
+			<td>(1)<br />
+			PCE is divided by<br />
+			the RPP</td>
+			<td>(2)<br />
+			PCE at RPPs is<br />
+			deflated by the U.S.<br />
+			PCE price index</td>
+			<td>(3)<br />
+			<strong>2020 Alabama<br />
+			real PCE</strong></td>
+		</tr>
+		<tr align="center">
+			<td>$176.5 / 0.893 = $197.7</td>
+			<td>$197.7 / 1.112 =$177.8</td>
+			<td><strong>$177.8</strong></td>
+		</tr>
+		<tr>
+			<td colspan="3">Note. Dollar amounts are in billions.</td>
+		</tr>
+	</tbody>
+</table>
+
+<p>Total real PCE in the United States is derived as the sum of the regional estimates and net expenditures abroad by U.S. residents divided by the U.S. PCE price index.</p>
+
+<p><strong>Personal income at RPPs </strong>is current-dollar personal income divided by the price parity for a given year and region. A balancing factor is applied so that the sum of personal income at RPPs across regions equals the current-dollar sum.</p>
+
+<p><strong>Real personal income</strong> is personal income at RPPs divided by the national PCE price index. The result is real personal income in constant dollars (using 2012 as the reference year).</p>
+
+<p>Estimates of real personal income in the United States are derived as the sum of the regional estimates divided by the U.S. PCE price index.</p>
+
+<p><strong>Implicit regional price deflator</strong> is the product of the RPP times the national PCE price index. It is equal to current-dollar PCE divided by real PCE.</p>
+
+<hr />
+<p><sup>1</sup> The CPI represents about 93 percent of the total U.S. population including almost all residents of urban or metropolitan areas.</p>
+
+<p><sup>2</sup> RPP should first be divided by 100.</p>
+
+<hr />
+<h2>List of News Release Tables</h2>
+
+<p>Table 1. Real Personal Consumption Expenditures and Real Personal Income, by State, 2019–2020</p>
+
+<p>Table 2. Regional Price Parities and Implicit Regional Price Deflators, by State, 2020</p>
+
+<p>Table 3. Real Personal Income, by Metropolitan Area, 2019–2020</p>
+
+<p>Table 4. Regional Price Parities and Implicit Regional Price Deflators, by Metropolitan Area, 2020</p>
+</div>
+      
+                            </div>
+                        </div>
+                    </div>
+                            </div>
+        </div>
+    </div>
+</article>
+
+
+    </div>
+
+                            </div>
+
+                                </div>
+    </div>
+    <div class="full-width">
+    <div class="container">
+        <div class="row last-modified">
+            <div class="col-xs-12 col-sm-6">
+                <div class="download-link"><a href="http://get.adobe.com/reader/">Download Acrobat Reader</a></div>
+            </div>
+            <div class="col-xs-12 col-sm-6">
+                <div class="date-info">Page last modified on 12/14/21</div>
+            </div>
+        </div>
+    </div>
+    </div>
+ 
+
+            <footer class="footer container" role="contentinfo">
+            
+    <div class="region region-footer">
+        <section id="block-beagovfooter" data-block-plugin-id="block_content:aa0d67fd-5738-4477-83ce-e17e948518e8" class="block block-block-content block-block-contentaa0d67fd-5738-4477-83ce-e17e948518e8 clearfix">
+  
+    
+
+      
+            <div class="field field--name-body field--type-text-with-summary field--label-hidden field--item"><div class="container">
+    <div class="row">
+        <div class="col-lg-12">
+            <h4>Bureau of Economic Analysis <span> 4600 Silver Hill Road &bull; Suitland, MD 20746 </span></h4>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-sm-4">
+            <ul class="footer-links">
+                <li class="text-large"><a href="/contact-us">Contact Us</a></li>
+                <li class="text-large"><a href="/about/working-at-bea">Working at BEA</a></li>
+                <li class="text-large"><a href="/help/faq">Frequently Asked Questions</a></li>
+                <li class="text-large"><a href="/about/policies-and-information">Our Policies</a></li>
+                <li class="text-large"><a href="/privacy">Privacy</a></li>
+            </ul>
+        </div>
+        <div class="col-sm-4">
+            <ul class="footer-links">
+                <li><a href="/statement-commitment-scientific-integrity-principal-statistical-agencies">Commitment to Scientific Integrity</a></li>
+                <li><a href="/about/policies-and-information/data-dissemination">Data Dissemination Practices</a></li>
+                <li><a href="/open-data">Open Data</a></li>
+                <li><a href="https://www.usa.gov/">USA.gov</a></li>
+                <li><a href="https://business.usa.gov">Business USA</a></li>
+                <li><a href="https://www.commerce.gov/cr/reports-and-resources/no-fear-act">No FEAR Act</a></li>
+                <li><a href="https://www.commerce.gov/opog">FOIA</a></li>
+                <li><a href="https://www.commerce.gov/">U.S. Department of Commerce</a></li>
+                <li><a href="https://apps.bea.gov/status/">Emergency Status </a></li>
+            </ul>
+        </div>
+        <div class="col-sm-4">
+            <ul class="footer-links">
+                <li><a href="/news/blog">The BEA Wire | BEA's Official Blog</a></li>
+                <li><a href="https://apps.bea.gov/rss/rss.xml" title="BEA's RSS Feeds">News Release Feed (RSS)</a></li>
+                <li><a href="/_subscribe/" title="Email Subscription Service">Sign up for Email Notifications</a></li>
+            </ul>
+            <div class="footer-links-toolbar"> <a class="footer-icon-social-twitter" href="https://x.com/bea_news"></a> <a class="footer-icon-social-linkedin" href="https://www.linkedin.com/company/bureau-of-economic-analysis"></a> <a class="footer-icon-social-youtube" href="https://www.youtube.com/channel/UCCP9QD1x_z__duUivA6Yb5w"></a> <a class="footer-icon-social-instagram" href="https://www.instagram.com/usbeagov/"></a><a class="footer-icon-social-facebook" href="https://www.facebook.com/usbeagov"></a> </div>
+        </div>
+    </div>
+</div>
+<style>
+    .noteworthy .pin{
+        background-image: url(https://www.bea.gov/system/files/pushpin-orange.png) !important;
+        background-position: left .4em !important;
+    }
+    .noteworthy .sticky{
+        border-color:#C55420;
+        border-style: solid;
+        border-width: 0px;
+        padding-bottom: 10px !important;
+        border-bottom-width: 1px;
+        margin-bottom: 10px;
+    }
+      .noteworthy-links-toolbar{
+            margin-top: 14px;
+            margin-left: 20px;
+            /*margin-left: 36px;*/
+      }
+    .noteworthy-links-toolbar a{
+        display: inline-block;
+        height: 21px;
+        width: 21px;
+        background-size: 21px auto;
+        background-repeat: no-repeat;
+        background-position: top left;
+        padding: 3px 21px 3px 0px;
+        margin-right: 7px;
+        opacity: 0.75;
+
+    }
+    .noteworthy-links-toolbar a:hover{
+        opacity: 1.0;
+
+    }
+        .noteworthy-links-toolbar a.noteworthy-icon-social-youtube{
+        display: inline-block;
+        width: 30px;
+        background-size: 30px auto;
+        padding: 3px 30px 3px 0px;
+    }
+    
+    
+    
+    .noteworthy-links-toolbar svg.ext{
+        display: none;
+    }
+    
+    .noteworthy-icon-social-twitter{
+        background-image: url("/sites/default/files/logo-x-600-blue-dark.png");
+    }    
+    .noteworthy-icon-social-facebook{
+        background-image: url("/sites/default/files/logo-facebook-600-blue-dark.png");
+    }    
+    .noteworthy-icon-social-instagram{
+        background-image: url("/sites/default/files/logo-instagram-600-blue-dark.png");
+    }    
+    .noteworthy-icon-social-linkedin{
+        background-image: url("/sites/default/files/logo-linkedin-600-blue-dark.png");
+    }    
+    .noteworthy-icon-social-youtube{
+        background-image: url("/sites/default/files/logo-youtube-600-blue-dark.png");
+    }    
+      
+      .noteworthy-links-toolbar.page-top{
+            text-align: center;
+            background-color: rgba(0,0,0,0.15);
+            border-radius: 4px;
+      }
+      
+      
+      .noteworthy-links-toolbar.page-top [class*="noteworthy-icon-social"] a {
+        color: rgba(0,0,0,1) !important;
+
+    } 
+            
+
+      
+    footer ul li[class*="footer-icon-social"] a {
+        color: rgba(255,255,255,1) !important;
+        opacity: 0.75;
+        background-repeat: no-repeat;
+        background-position: left;
+        padding: 2px 0px 3px 30px;
+    } 
+    footer ul.contextual-links li a {
+        color: rgba(0,0,0,1) !important;
+    } 
+    footer ul li[class*="footer-icon-social"] a:hover {
+        opacity: 1.00;
+    }     
+    .footer-links  .footer-icon-social{
+        vertical-align: middle;
+    }
+    
+    .footer-links-toolbar a{
+        display: inline-block;
+        height: 21px;
+        width: 21px;
+        background-size: 21px auto;
+        background-repeat: no-repeat;
+        background-position: top left;
+        padding: 3px 21px 3px 0px;
+        margin-right: 7px;
+        opacity: 0.75;
+
+    }
+    .footer-links-toolbar a:hover{
+        opacity: 1.0;
+
+    }
+        .footer-links-toolbar a.footer-icon-social-youtube{
+        display: inline-block;
+        width: 30px;
+        background-size: 30px auto;
+        padding: 3px 30px 3px 0px;
+    }
+    
+    
+    
+    .footer-links-toolbar svg.ext{
+        display: none;
+    }
+    
+    .footer-icon-social-twitter{
+        background-image: url("/sites/default/files/logo-x-600-white.png");
+    }    
+    .footer-icon-social-facebook{
+        background-image: url("/sites/default/files/logo-facebook-600-white.png");
+    }    
+    .footer-icon-social-instagram{
+        background-image: url("/sites/default/files/logo-instagram-600-white.png");
+    }    
+    .footer-icon-social-linkedin{
+        background-image: url("/sites/default/files/logo-linkedin-600-white.png");
+    }    
+    .footer-icon-social-youtube{
+        background-image: url("/sites/default/files/logo-youtube-600-white.png");
+    }   
+      
+      .footer-links-toolbar.page-top{
+            text-align: center;
+            background-color: rgba(0,0,0,0.15);
+            border-radius: 4px;
+      }
+      
+      
+      .footer-links-toolbar.page-top [class*="footer-icon-social"] a {
+        color: rgba(0,0,0,1) !important;
+
+    } 
+    [class*="-links-toolbar"] svg{
+        display: none;
+    }
+</style>
+
+</div>
+      
+  </section>
+
+
+    </div>
+
+        </footer>
+    
+  </div>
+
+    
+    <script type="application/json" data-drupal-selector="drupal-settings-json">{"path":{"baseUrl":"\/","pathPrefix":"","currentPath":"node\/33426","currentPathIsAdmin":false,"isFront":false,"currentLanguage":"en"},"pluralDelimiter":"\u0003","suppressDeprecationErrors":true,"data":{"extlink":{"extTarget":false,"extTargetAppendNewWindowDisplay":true,"extTargetAppendNewWindowLabel":"(opens in a new window)","extTargetNoOverride":false,"extNofollow":true,"extTitleNoOverride":false,"extNoreferrer":true,"extFollowNoOverride":false,"extClass":"ext","extLabel":"(link is external)","extImgClass":false,"extSubdomains":true,"extExclude":"\\.gov","extInclude":"","extCssExclude":"","extCssInclude":"","extCssExplicit":"","extAlert":true,"extAlertText":"This page provides links to non-BEA web sites that provide additional information about this topic. You will leave the BEA.gov domain, and BEA cannot attest to the accuracy of information on that non-BEA page. Providing links to a non-BEA Web site is not an endorsement of the other site or the information it contains by BEA or any of its employees. Also, be aware that the privacy protection provided on the BEA.gov domain may not be available at the external link. ","extHideIcons":false,"mailtoClass":"0","telClass":"0","mailtoLabel":"(link sends email)","telLabel":"(link is a phone number)","extUseFontAwesome":false,"extIconPlacement":"after","extPreventOrphan":false,"extFaLinkClasses":"fa fa-external-link","extFaMailtoClasses":"fa fa-envelope-o","extAdditionalLinkClasses":"","extAdditionalMailtoClasses":"","extAdditionalTelClasses":"","extFaTelClasses":"fa fa-phone","allowedDomains":[],"extExcludeNoreferrer":""}},"bootstrap":{"forms_has_error_value_toggle":1,"modal_animation":1,"modal_backdrop":"true","modal_focus_input":1,"modal_keyboard":1,"modal_select_text":1,"modal_show":1,"modal_size":"","popover_enabled":1,"popover_animation":1,"popover_auto_close":1,"popover_container":"body","popover_content":"","popover_delay":"0","popover_html":1,"popover_placement":"top","popover_selector":"","popover_title":"","popover_trigger":"click","tooltip_enabled":1,"tooltip_animation":1,"tooltip_container":"body","tooltip_delay":"0","tooltip_html":0,"tooltip_placement":"auto left","tooltip_selector":"","tooltip_trigger":"hover"},"ajax":[],"user":{"uid":0,"permissionsHash":"9e503acfd754e60f47cd824b29d8dc4a12892646052899603a74371ac447af64"}}</script>
+<script src="/sites/default/files/js/js_iKIz59DWbMqD1uZmgo29841BpFyVe-OWUI79tYJ8BHU.js?scope=footer&amp;delta=0&amp;language=en&amp;theme=beagov_theme&amp;include=eJx9jUEOwyAMBD9E4EnIKC5BdbCFt7T9fXOoKk69ze5Iu4Wp6sw4-OS0E2gDFWEPZRVVtJBsjre0XkNRhWOQpR9lG5xbb1ikqenksTRQFTQL_MI1dE_7eBhJ_MZw0w56sut1uXD0Wf-56Ec7P2aeT9k"></script>
+
+
+    <script src="https://dap.digitalgov.gov/Universal-Federated-Analytics-Min.js?agency=DOC&subagency=BEA"
+      id="_fed_an_ua_tag" async></script>
+  </body>
+</html>

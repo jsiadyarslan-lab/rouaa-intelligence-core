@@ -352,6 +352,39 @@ class ProductionTransportHandler(BaseHTTPRequestHandler):
         # V2 §6: CachedStore.iter() is O(1) (memory-resident list).
         events = list(store.iter("events"))
 
+        # V2-Continuous §1: Canonical cursor closure.
+        # The cursor is now a TUPLE: (derived_at, event_id, event_version).
+        # This is deterministic + stable under concurrent arrivals:
+        #   - New events have either a later derived_at, or a lexicographically
+        #     larger event_id (content-addressed from doc_id + event_type + occurrence)
+        #   - The tuple ensures total ordering even when derived_at values are equal
+        #
+        # Cursor format: "derived_at|event_id|event_version" (URL-encoded)
+        # Semantics: next page returns items where
+        #   (derived_at, event_id, event_version) > (cursor_derived_at, cursor_event_id, cursor_event_version)
+
+        def _parse_cursor(c: str) -> tuple | None:
+            """Parse a tuple cursor. Returns None if invalid/empty."""
+            if not c:
+                return None
+            try:
+                # URL-decode
+                from urllib.parse import unquote
+                c = unquote(c)
+                parts = c.split("|", 2)
+                if len(parts) == 3:
+                    return (parts[0], parts[1], int(parts[2]))
+                elif len(parts) == 1:
+                    # Legacy: just derived_at (backward compat)
+                    return (parts[0], "", 0)
+                return None
+            except Exception:
+                return None
+
+        def _make_cursor(ev: dict) -> str:
+            """Create a tuple cursor from an event row."""
+            return f"{ev.get('derived_at', '')}|{ev.get('event_id', '')}|{ev.get('event_version', 0)}"
+
         # Apply since filter (on derived_at)
         if since:
             events = [e for e in events if e.get("derived_at", "") >= since]
@@ -359,15 +392,17 @@ class ProductionTransportHandler(BaseHTTPRequestHandler):
         # Sort by (derived_at, event_id, event_version) for stable ordering
         events.sort(key=lambda e: (e.get("derived_at", ""), e.get("event_id", ""), e.get("event_version", 0)))
 
-        # Apply cursor: derived_at > cursor
-        if cursor:
-            events = [e for e in events if e.get("derived_at", "") > cursor]
+        # Apply tuple cursor: (derived_at, event_id, event_version) > cursor_tuple
+        cursor_tuple = _parse_cursor(cursor) if cursor else None
+        if cursor_tuple:
+            events = [e for e in events
+                      if (e.get("derived_at", ""), e.get("event_id", ""), e.get("event_version", 0)) > cursor_tuple]
 
         # Paginate
         page = events[:limit]
-        # next_cursor = derived_at of the LAST item on this page.
+        # next_cursor = tuple cursor of the LAST item on this page.
         if len(events) > limit and page:
-            next_cursor = page[-1].get("derived_at")
+            next_cursor = _make_cursor(page[-1])
         else:
             next_cursor = None
 

@@ -1,0 +1,1191 @@
+{
+  "schema_version": "1.0",
+  "captured_at": "2026-08-17T23:41:00Z",
+  "store_root": "real_corpus_store_new_waveb",
+  "starting_events": 180,
+  "final_events": 207,
+  "new_events": 27,
+  "elapsed_s": 81.9,
+  "results": [
+    {
+      "source_id": "src-cbk-kenya",
+      "name": "Central Bank of Kenya",
+      "country": "KE",
+      "class": "central_bank",
+      "acquisition_method": "HTML",
+      "documents_acquired": 10,
+      "documents_processed": 10,
+      "facts_extracted": 21,
+      "events_detected": 10,
+      "intelligence_objects": [
+        "io-def78e5307ee021b",
+        "io-45e5137f5092ee27",
+        "io-b92431f268835136",
+        "io-e773686365fda65d",
+        "io-46683a6ec01fbd32",
+        "io-bfb216d306c2daeb",
+        "io-927904de3bff20d4",
+        "io-57919cfed613badb",
+        "io-5293d3510a6f92a5",
+        "io-cd47d192f57af9d2"
+      ],
+      "errors": [],
+      "failure_stage": null,
+      "failure_reason": null,
+      "acquisition": {
+        "http_status": 200,
+        "bytes": 88606,
+        "feed_url": "https://www.centralbank.go.ke"
+      }
+    },
+    {
+      "source_id": "src-cbe-egypt",
+      "name": "Central Bank of Egypt",
+      "country": "EG",
+      "class": "central_bank",
+      "acquisition_method": "HTML",
+      "documents_acquired": 0,
+      "documents_processed": 0,
+      "facts_extracted": 0,
+      "events_detected": 0,
+      "intelligence_objects": [],
+      "errors": [],
+      "failure_stage": "DOCUMENT",
+      "failure_reason": "no_document_links_found",
+      "acquisition": {
+        "http_status": 200,
+        "bytes": 269,
+        "feed_url": "https://www.cbe.org.eg"
+      }
+    },
+    {
+      "source_id": "src-bank-tanzania",
+      "name": "Bank of Tanzania",
+      "country": "TZ",
+      "class": "central_bank",
+      "acquisition_method": "HTML",
+      "documents_acquired": 20,
+      "documents_processed": 9,
+      "facts_extracted": 0,
+      "events_detected": 0,
+      "intelligence_objects": [],
+      "errors": [
+        {
+          "stage": "DOC",
+          "message": "HTTP Error 500: Internal Server Error"
+        }
+      ],
+      "failure_stage": null,
+      "failure_reason": null,
+      "acquisition": {
+        "http_status": 200,
+        "bytes": 144963,
+        "feed_url": "https://www.bot.go.tz"
+      }
+    },
+    {
+      "source_id": "src-bank-uganda",
+      "name": "Bank of Uganda",
+      "country": "UG",
+      "class": "central_bank",
+      "acquisition_method": "HTML",
+      "documents_acquired": 1,
+      "documents_processed": 0,
+      "facts_extracted": 0,
+      "events_detected": 0,
+      "intelligence_objects": [],
+      "errors": [
+        {
+          "stage": "DOC",
+          "message": "HTTP Error 404: Not Found"
+        }
+      ],
+      "failure_stage": null,
+      "failure_reason": null,
+      "acquisition": {
+        "http_status": 200,
+        "bytes": 8051,
+        "feed_url": "https://www.bou.or.ug"
+      }
+    },
+    {
+      "source_id": "src-bank-zambia",
+      "name": "Bank of Zambia",
+      "country": "ZM",
+      "class": "central_bank",
+      "acquisition_method": "HTML",
+      "documents_acquired": 0,
+      "documents_processed": 0,
+      "facts_extracted": 0,
+      "events_detected": 0,
+      "intelligence_objects": [],
+      "errors": [],
+      "failure_stage": "DOCUMENT",
+      "failure_reason": "no_document_links_found",
+      "acquisition": {
+        "http_status": 200,
+        "bytes": 9929,
+        "feed_url": "https://www.boz.zm"
+      }
+    },
+    {
+      "source_id": "src-boi-israel",
+      "name": "Bank of Israel",
+      "country": "IL",
+      "class": "central_bank",
+      "acquisition_method": "HTML",
+      "documents_acquired": 0,
+      "documents_processed": 0,
+      "facts_extracted": 0,
+      "events_detected": 0,
+      "intelligence_objects": [],
+      "errors": [],
+      "failure_stage": "DOCUMENT",
+      "failure_reason": "no_document_links_found",
+      "acquisition": {
+        "http_status": 200,
+        "bytes": 118350,
+        "feed_url": "https://www.boi.org.il"
+      }
+    },
+    {
+      "source_id": "src-cbk-kw",
+      "name": "Central Bank of Kuwait",
+      "country": "KW",
+      "class": "central_bank",
+      "acquisition_method": "HTML",
+      "documents_acquired": 0,
+      "documents_processed": 0,
+      "facts_extracted": 0,
+      "events_detected": 0,
+      "intelligence_objects": [],
+      "errors": [],
+      "failure_stage": "DOCUMENT",
+      "failure_reason": "no_document_links_found",
+      "acquisition": {
+        "http_status": 200,
+        "bytes": 2987,
+        "feed_url": "https://www.cbk.gov.kw"
+      }
+    },
+    {
+      "source_id": "src-cbi-iraq",
+      "name": "Central Bank of Iraq",
+      "country": "IQ",
+      "class": "central_bank",
+      "acquisition_method": "HTML",
+      "documents_acquired": 20,
+      "documents_processed": 9,
+      "facts_extracted": 0,
+      "events_detected": 0,
+      "intelligence_objects": [],
+      "errors": [
+        {
+          "stage": "DOC",
+          "message": "URL can't contain control characters. '/intent/tweet?text=\u0627\u0639\u0644\u0627\u0646 \u0645\u0632\u0627\u062f \u062d\u0648\u0627\u0644\u0627\u062a \u0627\u0644\u0628\u0646"
+        }
+      ],
+      "failure_stage": null,
+      "failure_reason": null,
+      "acquisition": {
+        "http_status": 200,
+        "bytes": 77058,
+        "feed_url": "https://cbi.iq"
+      }
+    },
+    {
+      "source_id": "src-mnb-hungary",
+      "name": "Magyar Nemzeti Bank (Hungary)",
+      "country": "HU",
+      "class": "central_bank",
+      "acquisition_method": "HTML",
+      "documents_acquired": 3,
+      "documents_processed": 1,
+      "facts_extracted": 0,
+      "events_detected": 0,
+      "intelligence_objects": [],
+      "errors": [
+        {
+          "stage": "DOC",
+          "message": "HTTP Error 404: NotFound"
+        },
+        {
+          "stage": "DOC",
+          "message": "HTTP Error 404: NotFound"
+        }
+      ],
+      "failure_stage": null,
+      "failure_reason": null,
+      "acquisition": {
+        "http_status": 200,
+        "bytes": 1210651,
+        "feed_url": "https://www.mnb.hu"
+      }
+    },
+    {
+      "source_id": "src-bnr-romania",
+      "name": "Banca Na\u021bional\u0103 a Rom\u00e2niei",
+      "country": "RO",
+      "class": "central_bank",
+      "acquisition_method": "HTML",
+      "documents_acquired": 0,
+      "documents_processed": 0,
+      "facts_extracted": 0,
+      "events_detected": 0,
+      "intelligence_objects": [],
+      "errors": [],
+      "failure_stage": "DOCUMENT",
+      "failure_reason": "no_document_links_found",
+      "acquisition": {
+        "http_status": 200,
+        "bytes": 119885,
+        "feed_url": "https://www.bnr.ro"
+      }
+    },
+    {
+      "source_id": "src-bnb-bulgaria",
+      "name": "Bulgarian National Bank",
+      "country": "BG",
+      "class": "central_bank",
+      "acquisition_method": "HTML",
+      "documents_acquired": 12,
+      "documents_processed": 10,
+      "facts_extracted": 0,
+      "events_detected": 0,
+      "intelligence_objects": [],
+      "errors": [],
+      "failure_stage": null,
+      "failure_reason": null,
+      "acquisition": {
+        "http_status": 200,
+        "bytes": 50788,
+        "feed_url": "https://www.bnb.bg"
+      }
+    },
+    {
+      "source_id": "src-nbu-ukraine",
+      "name": "National Bank of Ukraine",
+      "country": "UA",
+      "class": "central_bank",
+      "acquisition_method": "HTML",
+      "documents_acquired": 20,
+      "documents_processed": 10,
+      "facts_extracted": 0,
+      "events_detected": 0,
+      "intelligence_objects": [],
+      "errors": [],
+      "failure_stage": null,
+      "failure_reason": null,
+      "acquisition": {
+        "http_status": 200,
+        "bytes": 321303,
+        "feed_url": "https://bank.gov.ua"
+      }
+    },
+    {
+      "source_id": "src-sbp-pakistan",
+      "name": "State Bank of Pakistan",
+      "country": "PK",
+      "class": "central_bank",
+      "acquisition_method": "HTML",
+      "documents_acquired": 0,
+      "documents_processed": 0,
+      "facts_extracted": 0,
+      "events_detected": 0,
+      "intelligence_objects": [],
+      "errors": [],
+      "failure_stage": "ACQUISITION",
+      "failure_reason": "fetch_failed: The read operation timed out"
+    },
+    {
+      "source_id": "src-bb-bangladesh",
+      "name": "Bangladesh Bank",
+      "country": "BD",
+      "class": "central_bank",
+      "acquisition_method": "HTML",
+      "documents_acquired": 15,
+      "documents_processed": 10,
+      "facts_extracted": 1,
+      "events_detected": 1,
+      "intelligence_objects": [
+        "io-e140af0c15b78b9b"
+      ],
+      "errors": [],
+      "failure_stage": null,
+      "failure_reason": null,
+      "acquisition": {
+        "http_status": 200,
+        "bytes": 73057,
+        "feed_url": "https://www.bb.org.bd"
+      }
+    },
+    {
+      "source_id": "src-cbsl-srilanka",
+      "name": "Central Bank of Sri Lanka",
+      "country": "LK",
+      "class": "central_bank",
+      "acquisition_method": "HTML",
+      "documents_acquired": 20,
+      "documents_processed": 10,
+      "facts_extracted": 0,
+      "events_detected": 0,
+      "intelligence_objects": [],
+      "errors": [],
+      "failure_stage": null,
+      "failure_reason": null,
+      "acquisition": {
+        "http_status": 200,
+        "bytes": 171487,
+        "feed_url": "https://www.cbsl.gov.lk"
+      }
+    },
+    {
+      "source_id": "src-nrb-nepal",
+      "name": "Nepal Rastra Bank",
+      "country": "NP",
+      "class": "central_bank",
+      "acquisition_method": "HTML",
+      "documents_acquired": 6,
+      "documents_processed": 6,
+      "facts_extracted": 3,
+      "events_detected": 1,
+      "intelligence_objects": [
+        "io-9ea0017153ee1adb"
+      ],
+      "errors": [],
+      "failure_stage": null,
+      "failure_reason": null,
+      "acquisition": {
+        "http_status": 200,
+        "bytes": 202569,
+        "feed_url": "https://www.nrb.org.np"
+      }
+    },
+    {
+      "source_id": "src-bi-indonesia",
+      "name": "Bank Indonesia",
+      "country": "ID",
+      "class": "central_bank",
+      "acquisition_method": "HTML",
+      "documents_acquired": 6,
+      "documents_processed": 3,
+      "facts_extracted": 0,
+      "events_detected": 0,
+      "intelligence_objects": [],
+      "errors": [
+        {
+          "stage": "DOC",
+          "message": "The read operation timed out"
+        },
+        {
+          "stage": "DOC",
+          "message": "The read operation timed out"
+        },
+        {
+          "stage": "DOC",
+          "message": "The read operation timed out"
+        }
+      ],
+      "failure_stage": null,
+      "failure_reason": null,
+      "acquisition": {
+        "http_status": 200,
+        "bytes": 162921,
+        "feed_url": "https://www.bi.go.id"
+      }
+    },
+    {
+      "source_id": "src-bnm-malaysia",
+      "name": "Bank Negara Malaysia",
+      "country": "MY",
+      "class": "central_bank",
+      "acquisition_method": "HTML",
+      "documents_acquired": 4,
+      "documents_processed": 4,
+      "facts_extracted": 0,
+      "events_detected": 0,
+      "intelligence_objects": [],
+      "errors": [],
+      "failure_stage": null,
+      "failure_reason": null,
+      "acquisition": {
+        "http_status": 200,
+        "bytes": 276902,
+        "feed_url": "https://www.bnm.gov.my"
+      }
+    },
+    {
+      "source_id": "src-sbv-vietnam",
+      "name": "State Bank of Vietnam",
+      "country": "VN",
+      "class": "central_bank",
+      "acquisition_method": "HTML",
+      "documents_acquired": 0,
+      "documents_processed": 0,
+      "facts_extracted": 0,
+      "events_detected": 0,
+      "intelligence_objects": [],
+      "errors": [],
+      "failure_stage": "DOCUMENT",
+      "failure_reason": "no_document_links_found",
+      "acquisition": {
+        "http_status": 200,
+        "bytes": 434044,
+        "feed_url": "https://www.sbv.gov.vn"
+      }
+    },
+    {
+      "source_id": "src-bcra-argentina",
+      "name": "Banco Central de la Rep\u00fablica Argentina",
+      "country": "AR",
+      "class": "central_bank",
+      "acquisition_method": "HTML",
+      "documents_acquired": 0,
+      "documents_processed": 0,
+      "facts_extracted": 0,
+      "events_detected": 0,
+      "intelligence_objects": [],
+      "errors": [],
+      "failure_stage": "DOCUMENT",
+      "failure_reason": "no_document_links_found",
+      "acquisition": {
+        "http_status": 200,
+        "bytes": 142575,
+        "feed_url": "https://www.bcra.gob.ar"
+      }
+    },
+    {
+      "source_id": "src-bcc-chile",
+      "name": "Banco Central de Chile",
+      "country": "CL",
+      "class": "central_bank",
+      "acquisition_method": "HTML",
+      "documents_acquired": 0,
+      "documents_processed": 0,
+      "facts_extracted": 0,
+      "events_detected": 0,
+      "intelligence_objects": [],
+      "errors": [],
+      "failure_stage": "DOCUMENT",
+      "failure_reason": "no_document_links_found",
+      "acquisition": {
+        "http_status": 200,
+        "bytes": 846,
+        "feed_url": "https://www.bcentral.cl"
+      }
+    },
+    {
+      "source_id": "src-bcrp-peru",
+      "name": "Banco Central de Reserva del Per\u00fa",
+      "country": "PE",
+      "class": "central_bank",
+      "acquisition_method": "HTML",
+      "documents_acquired": 0,
+      "documents_processed": 0,
+      "facts_extracted": 0,
+      "events_detected": 0,
+      "intelligence_objects": [],
+      "errors": [],
+      "failure_stage": "DOCUMENT",
+      "failure_reason": "no_document_links_found",
+      "acquisition": {
+        "http_status": 200,
+        "bytes": 1045,
+        "feed_url": "https://www.bcrp.gob.pe"
+      }
+    },
+    {
+      "source_id": "src-naic-us",
+      "name": "National Association of Insurance Commissioners (US)",
+      "country": "US",
+      "class": "insurance_regulator",
+      "acquisition_method": "HTML",
+      "documents_acquired": 4,
+      "documents_processed": 4,
+      "facts_extracted": 6,
+      "events_detected": 1,
+      "intelligence_objects": [
+        "io-451bdc21b43c1e7e"
+      ],
+      "errors": [],
+      "failure_stage": null,
+      "failure_reason": null,
+      "acquisition": {
+        "http_status": 200,
+        "bytes": 199012,
+        "feed_url": "https://content.naic.org"
+      }
+    },
+    {
+      "source_id": "src-ba-finland",
+      "name": "Finnish Financial Supervisory Authority",
+      "country": "FI",
+      "class": "financial_regulator",
+      "acquisition_method": "HTML",
+      "documents_acquired": 1,
+      "documents_processed": 1,
+      "facts_extracted": 0,
+      "events_detected": 0,
+      "intelligence_objects": [],
+      "errors": [],
+      "failure_stage": null,
+      "failure_reason": null,
+      "acquisition": {
+        "http_status": 200,
+        "bytes": 217321,
+        "feed_url": "https://www.finanssivalvonta.fi"
+      }
+    },
+    {
+      "source_id": "src-finanstilsynet-no",
+      "name": "Finanstilsynet (Norway)",
+      "country": "NO",
+      "class": "financial_regulator",
+      "acquisition_method": "HTML",
+      "documents_acquired": 0,
+      "documents_processed": 0,
+      "facts_extracted": 0,
+      "events_detected": 0,
+      "intelligence_objects": [],
+      "errors": [],
+      "failure_stage": "DOCUMENT",
+      "failure_reason": "no_document_links_found",
+      "acquisition": {
+        "http_status": 200,
+        "bytes": 42754,
+        "feed_url": "https://www.finanstilsynet.no"
+      }
+    },
+    {
+      "source_id": "src-cssf-luxembourg",
+      "name": "Commission de Surveillance du Secteur Financier (Luxembourg)",
+      "country": "LU",
+      "class": "financial_regulator",
+      "acquisition_method": "HTML",
+      "documents_acquired": 0,
+      "documents_processed": 0,
+      "facts_extracted": 0,
+      "events_detected": 0,
+      "intelligence_objects": [],
+      "errors": [],
+      "failure_stage": "DOCUMENT",
+      "failure_reason": "no_document_links_found",
+      "acquisition": {
+        "http_status": 200,
+        "bytes": 78820,
+        "feed_url": "https://www.cssf.lu"
+      }
+    },
+    {
+      "source_id": "src-bnetza-germany",
+      "name": "Bundesnetzagentur (Germany)",
+      "country": "DE",
+      "class": "telecom_regulator",
+      "acquisition_method": "HTML",
+      "documents_acquired": 20,
+      "documents_processed": 10,
+      "facts_extracted": 6,
+      "events_detected": 1,
+      "intelligence_objects": [
+        "io-29b474222a73e2d8"
+      ],
+      "errors": [],
+      "failure_stage": null,
+      "failure_reason": null,
+      "acquisition": {
+        "http_status": 200,
+        "bytes": 102599,
+        "feed_url": "https://www.bundesnetzagentur.de"
+      }
+    },
+    {
+      "source_id": "src-tda-japan",
+      "name": "Telecommunications Bureau Japan",
+      "country": "JP",
+      "class": "telecom_regulator",
+      "acquisition_method": "ATOM",
+      "acquisition": null,
+      "documents_acquired": 0,
+      "documents_processed": 0,
+      "facts_extracted": 0,
+      "events_detected": 0,
+      "intelligence_objects": [],
+      "errors": [],
+      "failure_stage": "ACQUISITION",
+      "failure_reason": "no_rss_feed"
+    },
+    {
+      "source_id": "src-stat-pl",
+      "name": "Statistics Poland",
+      "country": "PL",
+      "class": "statistical_agency",
+      "acquisition_method": "HTML",
+      "documents_acquired": 0,
+      "documents_processed": 0,
+      "facts_extracted": 0,
+      "events_detected": 0,
+      "intelligence_objects": [],
+      "errors": [],
+      "failure_stage": "DOCUMENT",
+      "failure_reason": "no_document_links_found",
+      "acquisition": {
+        "http_status": 200,
+        "bytes": 138650,
+        "feed_url": "https://stat.gov.pl"
+      }
+    },
+    {
+      "source_id": "src-ksh-hungary",
+      "name": "Hungarian Central Statistical Office",
+      "country": "HU",
+      "class": "statistical_agency",
+      "acquisition_method": "HTML",
+      "documents_acquired": 1,
+      "documents_processed": 1,
+      "facts_extracted": 0,
+      "events_detected": 0,
+      "intelligence_objects": [],
+      "errors": [],
+      "failure_stage": null,
+      "failure_reason": null,
+      "acquisition": {
+        "http_status": 200,
+        "bytes": 66796,
+        "feed_url": "https://www.ksh.hu"
+      }
+    },
+    {
+      "source_id": "src-nsi-bulgaria",
+      "name": "National Statistical Institute (Bulgaria)",
+      "country": "BG",
+      "class": "statistical_agency",
+      "acquisition_method": "HTML",
+      "documents_acquired": 20,
+      "documents_processed": 10,
+      "facts_extracted": 534,
+      "events_detected": 8,
+      "intelligence_objects": [
+        "io-d2ec6419210158c7",
+        "io-e0e30a46102632db",
+        "io-b8e24d3f0b48e8ce",
+        "io-40bdec9517f2060d",
+        "io-40bdec9517f2060d",
+        "io-9e4c9e21662379ca",
+        "io-a13b970cc6269846",
+        "io-0e61b335bdbe8b72",
+        "io-2e799c0b064d861e",
+        "io-e0e30a46102632db"
+      ],
+      "errors": [],
+      "failure_stage": null,
+      "failure_reason": null,
+      "acquisition": {
+        "http_status": 200,
+        "bytes": 91234,
+        "feed_url": "https://www.nsi.bg"
+      }
+    },
+    {
+      "source_id": "src-indec-argentina",
+      "name": "INDEC (Argentina)",
+      "country": "AR",
+      "class": "statistical_agency",
+      "acquisition_method": "HTML",
+      "documents_acquired": 0,
+      "documents_processed": 0,
+      "facts_extracted": 0,
+      "events_detected": 0,
+      "intelligence_objects": [],
+      "errors": [],
+      "failure_stage": "DOCUMENT",
+      "failure_reason": "no_document_links_found",
+      "acquisition": {
+        "http_status": 200,
+        "bytes": 37443,
+        "feed_url": "https://www.indec.gob.ar"
+      }
+    },
+    {
+      "source_id": "src-ine-chile",
+      "name": "INE (Chile)",
+      "country": "CL",
+      "class": "statistical_agency",
+      "acquisition_method": "HTML",
+      "documents_acquired": 2,
+      "documents_processed": 1,
+      "facts_extracted": 0,
+      "events_detected": 0,
+      "intelligence_objects": [],
+      "errors": [
+        {
+          "stage": "DOC",
+          "message": "timed out"
+        }
+      ],
+      "failure_stage": null,
+      "failure_reason": null,
+      "acquisition": {
+        "http_status": 200,
+        "bytes": 144204,
+        "feed_url": "https://www.ine.cl"
+      }
+    },
+    {
+      "source_id": "src-dane-colombia",
+      "name": "DANE (Colombia)",
+      "country": "CO",
+      "class": "statistical_agency",
+      "acquisition_method": "HTML",
+      "documents_acquired": 0,
+      "documents_processed": 0,
+      "facts_extracted": 0,
+      "events_detected": 0,
+      "intelligence_objects": [],
+      "errors": [],
+      "failure_stage": "DOCUMENT",
+      "failure_reason": "no_document_links_found",
+      "acquisition": {
+        "http_status": 200,
+        "bytes": 170954,
+        "feed_url": "https://www.dane.gov.co"
+      }
+    },
+    {
+      "source_id": "src-ine-mexico",
+      "name": "INEGI (Mexico)",
+      "country": "MX",
+      "class": "statistical_agency",
+      "acquisition_method": "HTML",
+      "documents_acquired": 0,
+      "documents_processed": 0,
+      "facts_extracted": 0,
+      "events_detected": 0,
+      "intelligence_objects": [],
+      "errors": [],
+      "failure_stage": "DOCUMENT",
+      "failure_reason": "no_document_links_found",
+      "acquisition": {
+        "http_status": 200,
+        "bytes": 153606,
+        "feed_url": "https://www.inegi.org.mx"
+      }
+    },
+    {
+      "source_id": "src-dosm-malaysia",
+      "name": "DOSM (Malaysia)",
+      "country": "MY",
+      "class": "statistical_agency",
+      "acquisition_method": "HTML",
+      "documents_acquired": 0,
+      "documents_processed": 0,
+      "facts_extracted": 0,
+      "events_detected": 0,
+      "intelligence_objects": [],
+      "errors": [],
+      "failure_stage": "DOCUMENT",
+      "failure_reason": "no_document_links_found",
+      "acquisition": {
+        "http_status": 200,
+        "bytes": 30215,
+        "feed_url": "https://www.dosm.gov.my"
+      }
+    },
+    {
+      "source_id": "src-nis-nigeria",
+      "name": "National Bureau of Statistics (Nigeria)",
+      "country": "NG",
+      "class": "statistical_agency",
+      "acquisition_method": "HTML",
+      "documents_acquired": 19,
+      "documents_processed": 10,
+      "facts_extracted": 0,
+      "events_detected": 0,
+      "intelligence_objects": [],
+      "errors": [],
+      "failure_stage": null,
+      "failure_reason": null,
+      "acquisition": {
+        "http_status": 200,
+        "bytes": 159633,
+        "feed_url": "https://nigerianstat.gov.ng"
+      }
+    },
+    {
+      "source_id": "src-stats-sa",
+      "name": "Statistics South Africa",
+      "country": "ZA",
+      "class": "statistical_agency",
+      "acquisition_method": "HTML",
+      "documents_acquired": 0,
+      "documents_processed": 0,
+      "facts_extracted": 0,
+      "events_detected": 0,
+      "intelligence_objects": [],
+      "errors": [],
+      "failure_stage": "DOCUMENT",
+      "failure_reason": "no_document_links_found",
+      "acquisition": {
+        "http_status": 200,
+        "bytes": 1153,
+        "feed_url": "http://www.statssa.gov.za"
+      }
+    },
+    {
+      "source_id": "src-capmas-egypt",
+      "name": "CAPMAS (Egypt)",
+      "country": "EG",
+      "class": "statistical_agency",
+      "acquisition_method": "HTML",
+      "documents_acquired": 0,
+      "documents_processed": 0,
+      "facts_extracted": 0,
+      "events_detected": 0,
+      "intelligence_objects": [],
+      "errors": [],
+      "failure_stage": "DOCUMENT",
+      "failure_reason": "no_document_links_found",
+      "acquisition": {
+        "http_status": 200,
+        "bytes": 1421,
+        "feed_url": "https://www.capmas.gov.eg"
+      }
+    },
+    {
+      "source_id": "src-cnv-argentina",
+      "name": "CNV (Argentina)",
+      "country": "AR",
+      "class": "securities_regulator",
+      "acquisition_method": "HTML",
+      "documents_acquired": 0,
+      "documents_processed": 0,
+      "facts_extracted": 0,
+      "events_detected": 0,
+      "intelligence_objects": [],
+      "errors": [],
+      "failure_stage": "DOCUMENT",
+      "failure_reason": "no_document_links_found",
+      "acquisition": {
+        "http_status": 200,
+        "bytes": 157,
+        "feed_url": "https://www.cnv.gov.ar"
+      }
+    },
+    {
+      "source_id": "src-cmf-chile",
+      "name": "CMF (Chile)",
+      "country": "CL",
+      "class": "financial_regulator",
+      "acquisition_method": "HTML",
+      "documents_acquired": 0,
+      "documents_processed": 0,
+      "facts_extracted": 0,
+      "events_detected": 0,
+      "intelligence_objects": [],
+      "errors": [],
+      "failure_stage": "DOCUMENT",
+      "failure_reason": "no_document_links_found",
+      "acquisition": {
+        "http_status": 200,
+        "bytes": 110400,
+        "feed_url": "https://www.cmfchile.cl"
+      }
+    },
+    {
+      "source_id": "src-sfc-colombia",
+      "name": "SFC (Colombia)",
+      "country": "CO",
+      "class": "financial_regulator",
+      "acquisition_method": "HTML",
+      "documents_acquired": 0,
+      "documents_processed": 0,
+      "facts_extracted": 0,
+      "events_detected": 0,
+      "intelligence_objects": [],
+      "errors": [],
+      "failure_stage": "DOCUMENT",
+      "failure_reason": "no_document_links_found",
+      "acquisition": {
+        "http_status": 200,
+        "bytes": 240120,
+        "feed_url": "https://www.superfinanciera.gov.co"
+      }
+    },
+    {
+      "source_id": "src-bcb-brazil-fin",
+      "name": "Banco Central do Brasil (Financial)",
+      "country": "BR",
+      "class": "financial_regulator",
+      "acquisition_method": "HTML",
+      "documents_acquired": 0,
+      "documents_processed": 0,
+      "facts_extracted": 0,
+      "events_detected": 0,
+      "intelligence_objects": [],
+      "errors": [],
+      "failure_stage": "DOCUMENT",
+      "failure_reason": "no_document_links_found",
+      "acquisition": {
+        "http_status": 200,
+        "bytes": 2871,
+        "feed_url": "https://www.bcb.gov.br"
+      }
+    },
+    {
+      "source_id": "src-ccy-argentina",
+      "name": "CNV Argentina Securities",
+      "country": "AR",
+      "class": "securities_regulator",
+      "acquisition_method": "HTML",
+      "documents_acquired": 0,
+      "documents_processed": 0,
+      "facts_extracted": 0,
+      "events_detected": 0,
+      "intelligence_objects": [],
+      "errors": [],
+      "failure_stage": "DOCUMENT",
+      "failure_reason": "no_document_links_found",
+      "acquisition": {
+        "http_status": 200,
+        "bytes": 157,
+        "feed_url": "https://www.cnv.gov.ar"
+      }
+    },
+    {
+      "source_id": "src-mof-indonesia",
+      "name": "Ministry of Finance Indonesia",
+      "country": "ID",
+      "class": "finance_ministry",
+      "acquisition_method": "HTML",
+      "documents_acquired": 0,
+      "documents_processed": 0,
+      "facts_extracted": 0,
+      "events_detected": 0,
+      "intelligence_objects": [],
+      "errors": [],
+      "failure_stage": "DOCUMENT",
+      "failure_reason": "no_document_links_found",
+      "acquisition": {
+        "http_status": 200,
+        "bytes": 27009,
+        "feed_url": "https://www.kemenkeu.go.id"
+      }
+    },
+    {
+      "source_id": "src-mof-philippines",
+      "name": "Department of Finance Philippines",
+      "country": "PH",
+      "class": "finance_ministry",
+      "acquisition_method": "HTML",
+      "documents_acquired": 4,
+      "documents_processed": 3,
+      "facts_extracted": 0,
+      "events_detected": 0,
+      "intelligence_objects": [],
+      "errors": [
+        {
+          "stage": "DOC",
+          "message": "not enough values to unpack (expected 2, got 1)"
+        }
+      ],
+      "failure_stage": null,
+      "failure_reason": null,
+      "acquisition": {
+        "http_status": 200,
+        "bytes": 677964,
+        "feed_url": "https://www.dof.gov.ph"
+      }
+    },
+    {
+      "source_id": "src-fsa-uae",
+      "name": "Financial Services Authority UAE",
+      "country": "AE",
+      "class": "financial_regulator",
+      "acquisition_method": "HTML",
+      "documents_acquired": 0,
+      "documents_processed": 0,
+      "facts_extracted": 0,
+      "events_detected": 0,
+      "intelligence_objects": [],
+      "errors": [],
+      "failure_stage": "DOCUMENT",
+      "failure_reason": "no_document_links_found",
+      "acquisition": {
+        "http_status": 200,
+        "bytes": 182886,
+        "feed_url": "https://www.sca.ae"
+      }
+    },
+    {
+      "source_id": "src-cma-ksa",
+      "name": "Capital Market Authority (Saudi)",
+      "country": "SA",
+      "class": "securities_regulator",
+      "acquisition_method": "HTML",
+      "documents_acquired": 9,
+      "documents_processed": 9,
+      "facts_extracted": 0,
+      "events_detected": 0,
+      "intelligence_objects": [],
+      "errors": [],
+      "failure_stage": null,
+      "failure_reason": null,
+      "acquisition": {
+        "http_status": 200,
+        "bytes": 334726,
+        "feed_url": "https://cma.org.sa"
+      }
+    },
+    {
+      "source_id": "src-dfsa-uae",
+      "name": "Dubai Financial Services Authority",
+      "country": "AE",
+      "class": "financial_regulator",
+      "acquisition_method": "HTML",
+      "documents_acquired": 20,
+      "documents_processed": 10,
+      "facts_extracted": 2,
+      "events_detected": 2,
+      "intelligence_objects": [
+        "io-478b3771245b3bd0",
+        "io-6e999c72612a78fe"
+      ],
+      "errors": [],
+      "failure_stage": null,
+      "failure_reason": null,
+      "acquisition": {
+        "http_status": 200,
+        "bytes": 67069,
+        "feed_url": "https://www.dfsa.ae"
+      }
+    },
+    {
+      "source_id": "src-fss-korea",
+      "name": "Financial Supervisory Service (Korea)",
+      "country": "KR",
+      "class": "financial_regulator",
+      "acquisition_method": "HTML",
+      "documents_acquired": 1,
+      "documents_processed": 1,
+      "facts_extracted": 0,
+      "events_detected": 0,
+      "intelligence_objects": [],
+      "errors": [],
+      "failure_stage": null,
+      "failure_reason": null,
+      "acquisition": {
+        "http_status": 200,
+        "bytes": 381202,
+        "feed_url": "https://www.fss.or.kr"
+      }
+    },
+    {
+      "source_id": "src-frb-ny",
+      "name": "Federal Reserve Bank of New York",
+      "country": "US",
+      "class": "central_bank",
+      "acquisition_method": "HTML",
+      "documents_acquired": 3,
+      "documents_processed": 3,
+      "facts_extracted": 0,
+      "events_detected": 0,
+      "intelligence_objects": [],
+      "errors": [],
+      "failure_stage": null,
+      "failure_reason": null,
+      "acquisition": {
+        "http_status": 200,
+        "bytes": 104282,
+        "feed_url": "https://www.newyorkfed.org"
+      }
+    },
+    {
+      "source_id": "src-fred-stl",
+      "name": "FRED St. Louis Fed",
+      "country": "US",
+      "class": "statistical_agency",
+      "acquisition_method": "HTML",
+      "documents_acquired": 3,
+      "documents_processed": 3,
+      "facts_extracted": 0,
+      "events_detected": 0,
+      "intelligence_objects": [],
+      "errors": [],
+      "failure_stage": null,
+      "failure_reason": null,
+      "acquisition": {
+        "http_status": 200,
+        "bytes": 83790,
+        "feed_url": "https://fredblog.stlouisfed.org"
+      }
+    },
+    {
+      "source_id": "src-ecb-stat",
+      "name": "ECB Statistics",
+      "country": "EU",
+      "class": "statistical_agency",
+      "acquisition_method": "HTML",
+      "documents_acquired": 20,
+      "documents_processed": 10,
+      "facts_extracted": 77,
+      "events_detected": 2,
+      "intelligence_objects": [
+        "io-1692b6b72193f250",
+        "io-8917445a26729eee"
+      ],
+      "errors": [],
+      "failure_stage": null,
+      "failure_reason": null,
+      "acquisition": {
+        "http_status": 200,
+        "bytes": 109106,
+        "feed_url": "https://www.ecb.europa.eu/stats"
+      }
+    },
+    {
+      "source_id": "src-ec-fin",
+      "name": "EC Economic and Financial Affairs",
+      "country": "EU",
+      "class": "finance_ministry",
+      "acquisition_method": "HTML",
+      "documents_acquired": 0,
+      "documents_processed": 0,
+      "facts_extracted": 0,
+      "events_detected": 0,
+      "intelligence_objects": [],
+      "errors": [],
+      "failure_stage": "DOCUMENT",
+      "failure_reason": "no_document_links_found",
+      "acquisition": {
+        "http_status": 200,
+        "bytes": 16847,
+        "feed_url": "https://economy-finance.ec.europa.eu"
+      }
+    },
+    {
+      "source_id": "src-eurostat-agri",
+      "name": "Eurostat Agriculture",
+      "country": "EU",
+      "class": "statistical_agency",
+      "acquisition_method": "HTML",
+      "documents_acquired": 20,
+      "documents_processed": 10,
+      "facts_extracted": 94,
+      "events_detected": 1,
+      "intelligence_objects": [
+        "io-894fdf022a9fee51",
+        "io-864e619bbdeccac0",
+        "io-11560eb4ca7cac3c",
+        "io-7111a5a79c44efc1",
+        "io-e8c9109c25a423dd"
+      ],
+      "errors": [],
+      "failure_stage": null,
+      "failure_reason": null,
+      "acquisition": {
+        "http_status": 200,
+        "bytes": 241319,
+        "feed_url": "https://ec.europa.eu/eurostat"
+      }
+    }
+  ]
+}

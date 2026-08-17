@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-NPP8R2VV');</script>
+<!-- End Google Tag Manager -->
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta charset="UTF-8">
+<meta name="format-detection" content="telephone=no">
+<meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0">
+<meta name="description" content="">
+<meta name="keywords" content="">
+<link rel="shortcut icon" href="/files/000000036.ico">
+<title>ニュースリリース（METI/経済産業省）</title>
+<link rel="stylesheet" media="screen" href="/css_2025/style.css">
+<link rel="stylesheet" media="print" href="/css_2025/print.css">
+<link rel="stylesheet" href="/css_2025/aly.css">
+<link href="/icomoon/style.css" rel="stylesheet">
+<script src="/js_2025/jquery-3.2.1.min.js"></script>
+<script src="/js_2025/jquery-migrate.js"></script>
+<script src="/js_2025/jquery.matchHeight-min.js"></script>
+<script src="/js_2025/base.js"></script>
+<script src="/js_2025/ewbc.min.js" id="pt_loader"></script>
+
+<script>
+$(function(){
+   // #で始まるアンカーをクリックした場合に処理
+   $('a[href^="#"],area[href^="#"]').click(function() {
+      // スクロールの速度
+      var speed = 400; // ミリ秒
+      // アンカーの値取得
+      var href= $(this).attr("href");
+      // 移動先を取得
+      var target = $(href == "#" || href == "" ? 'html' : href);
+      // 移動先を数値で取得
+      var position = target.offset().top;
+      // スムーススクロール
+      $('body,html').animate({scrollTop:position}, speed, 'swing');
+      if (href == "#pagetop") {
+        $('h1.top_logo a').focus();
+      }
+      return false;
+   });
+});
+</script>
+
+</head>
+
+<body id="pagetop">
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-NPP8R2VV"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+<script src="/js_2025/header.js"></script>
+<script src="/js_2025/msearch.js"></script>
+  <noscript><div class="jsOn">すべての機能をご利用いただくにはJavascriptを有効にしてください。Javascriptを無効のまま閲覧される方は<a href="sitemap/index.html">サイトマップからページをご覧ください。</a></div></noscript>
+  <div id="main" tabindex="120">
+    <div class="bg-g">
+      <div class="w1000">
+        <div class="clearfix">
+          <div class="btn clearfix">
+            <div class="border-btn pc"><a href="/english/press/index.html" tabindex="110">English</a></div>
+            <div class="border-btn pc"><a href="javascript:void(0)" onclick="window.print();return false;" tabindex="110"><span class="icon-copy"></span>印刷</a></div>
+          </div>
+          <div class="pan">
+            <ol>
+              <li><a href="/index.html" tabindex="100">ホーム</a></li>
+              <li>ニュースリリース</li>
+            </ol>
+          </div>
+        </div>
+        <h1 id="MainContentsArea">ニュースリリース</h1>
+      </div>
+    </div>
+    <div class="w1000 clearfix mb10">
+      <div class="btn btn_en sp pc_none">
+        <div class="border-btn"><a href="/english/press/index.html">English</a></div>
+      </div>
+    </div>
+    <div class="main w1000">
+      <h2>カテゴリーから選ぶ</h2>
+      <ul class="clearfix category_box">
+        <li class="bg01"><a href="/press/category_01.html" class="clearfix"><span class="icon-seisaku01"></span><p>経済産業</p></a></li>
+        <li class="bg02"><a href="/press/category_02.html" class="clearfix"><span class="icon-seisaku02"></span><p>対外経済</p></a></li>
+        <li class="bg03"><a href="/press/category_03.html" class="clearfix"><span class="icon-seisaku03"></span><p>ものづくり/<br class="pc">情報/<br class="pc">流通・サービス</p></a></li>
+        <li class="bg04"><a href="/press/category_04.html" class="clearfix"><span class="icon-seisaku04"></span><p>中小企業・地域経済産業</p></a></li>
+        <li class="bg05"><a href="/press/category_05.html" class="clearfix"><span class="icon-seisaku05"></span><p>エネルギー・環境</p></a></li>
+        <li class="bg06"><a href="/press/category_06.html" class="clearfix"><span class="icon-seisaku06"></span><p>安全・安心</p></a></li>
+        <li class="bg07"><a href="/press/category_07.html" class="clearfix"><span class="icon-etc"></span><p>その他</p></a></li>
+      </ul>
+      <h2>最新ニュースリリース</h2>
+<ul class="clearfix float_li">
+  <li class="clearfix">
+    <div class="left img_box">
+      <img src="/files/000000079.jpg" alt="ものづくり/情報/流通・サービス">
+    </div>
+    <div class="left txt_box"><p>2026年8月17日</p><a class="cut_txt" href="/press/2026/08/20260817001.html">「健康経営銘柄2027」・「健康経営優良法人2027」の申請受付を開始しました</a></div>
+  </li>
+  <li class="clearfix">
+    <div class="left img_box">
+      <img src="/files/000000080.jpg" alt="中小企業・地域経済産業">
+    </div>
+    <div class="left txt_box"><p>2026年8月14日</p><a class="cut_txt" href="/press/2026/08/20260814001.html"> 令和8年8月13日からの大雨に伴う災害に関して被災中小企業・小規模事業者支援措置を行います</a></div>
+  </li>
+  <li class="clearfix">
+    <div class="left img_box">
+      <img src="/files/000000078.jpg" alt="エネルギー・環境">
+    </div>
+    <div class="left txt_box"><p>2026年8月13日</p><a class="cut_txt" href="/press/2026/08/20260813001.html">水素閣僚会議（第8回）及び水素・アンモニア国際官民シンポジウムを開催します</a></div>
+  </li>
+  <li class="clearfix">
+    <div class="left img_box">
+      <img src="/files/000000078.jpg" alt="エネルギー・環境">
+    </div>
+    <div class="left txt_box"><p>2026年8月12日</p><a class="cut_txt" href="/press/2026/08/20260812001.html">再生可能エネルギー特別措置法に基づき、納付金を納付しない電気事業者を公表します</a></div>
+  </li>
+  <li class="clearfix">
+    <div class="left img_box">
+      <img src="/files/000000084.jpg" alt="その他">
+    </div>
+    <div class="left txt_box"><p>2026年8月10日</p><a class="cut_txt" href="/press/2026/08/20260810001.html">懲戒処分の公表について</a></div>
+  </li>
+  <li class="clearfix">
+    <div class="left img_box">
+      <img src="/files/000000080.jpg" alt="中小企業・地域経済産業">
+    </div>
+    <div class="left txt_box"><p>2026年8月7日</p><a class="cut_txt" href="/press/2026/08/20260807002.html">令和8年熊本地震による影響を受ける中小受託事業者との適正取引に関する配慮要請を行いました</a></div>
+  </li>
+  <li class="clearfix">
+    <div class="left img_box">
+      <img src="/files/000000079.jpg" alt="ものづくり/情報/流通・サービス">
+    </div>
+    <div class="left txt_box"><p>2026年8月7日</p><a class="cut_txt" href="/press/2026/08/20260807001.html">SNS等におけるなりすまし詐欺広告に関する対策強化のための7府省庁合同要請の実施</a></div>
+  </li>
+  <li class="clearfix">
+    <div class="left img_box">
+      <img src="/files/000000082.jpg" alt="対外経済">
+    </div>
+    <div class="left txt_box"><p>2026年8月6日</p><a class="cut_txt" href="/press/2026/08/20260806002.html">日米政府の戦略的投資イニシアティブに関する協議委員会の会合を開催しました</a></div>
+  </li>
+  <li class="clearfix">
+    <div class="left img_box">
+      <img src="/files/000000078.jpg" alt="エネルギー・環境">
+    </div>
+    <div class="left txt_box"><p>2026年8月6日</p><a class="cut_txt" href="/press/2026/08/20260806001.html">東京電力パワーグリッド株式会社から報告徴収命令に対する回答を受領し、同社に対して指導を行いました</a></div>
+  </li>
+  <li class="clearfix">
+    <div class="left img_box">
+      <img src="/files/000000083.jpg" alt="安全・安心">
+    </div>
+    <div class="left txt_box"><p>2026年8月5日</p><a class="cut_txt" href="/press/2026/08/20260805001.html">[LPガス]熊本県内で発生した爆発事故（死者7名、軽傷者5名)について事業者から報告がありました</a></div>
+  </li>
+  <li class="clearfix">
+    <div class="left img_box">
+      <img src="/files/000000082.jpg" alt="対外経済">
+    </div>
+    <div class="left txt_box"><p>2026年8月4日</p><a class="cut_txt" href="/press/2026/08/20260804003.html">大韓民国産及び中華人民共和国産溶融亜鉛めっき鋼帯及び鋼板に対する暫定的な不当廉売関税の課税を決定しました</a></div>
+  </li>
+  <li class="clearfix">
+    <div class="left img_box">
+      <img src="/files/000000083.jpg" alt="安全・安心">
+    </div>
+    <div class="left txt_box"><p>2026年8月4日</p><a class="cut_txt" href="/press/2026/08/20260804002.html">電動車は災害時に医療機器への非常用電源としても使えます</a></div>
+  </li>
+  <li class="clearfix">
+    <div class="left img_box">
+      <img src="/files/000000081.jpg" alt="経済産業">
+    </div>
+    <div class="left txt_box"><p>2026年8月4日</p><a class="cut_txt" href="/press/2026/08/20260804001.html">地方公共団体によるスタートアップ調達の強化に向けて、「4号随契」の積極的な活用について地方公共団体へ通知を発出しました</a></div>
+  </li>
+  <li class="clearfix">
+    <div class="left img_box">
+      <img src="/files/000000079.jpg" alt="ものづくり/情報/流通・サービス">
+    </div>
+    <div class="left txt_box"><p>2026年8月3日</p><a class="cut_txt" href="/press/2026/08/20260803005.html">「北朝鮮IT労働者に関する各国・企業等に対する注意喚起」を公表しました</a></div>
+  </li>
+  <li class="clearfix">
+    <div class="left img_box">
+      <img src="/files/000000078.jpg" alt="エネルギー・環境">
+    </div>
+    <div class="left txt_box"><p>2026年8月3日</p><a class="cut_txt" href="/press/2026/08/20260803002.html">ラベルレスPETボトルの対象拡大に関する省令が公布・施行されるとともに、小森経済産業大臣政務官が当該取組等について発信するためのイベントに参加しました</a></div>
+  </li>
+  <li class="clearfix">
+    <div class="left img_box">
+      <img src="/files/000000083.jpg" alt="安全・安心">
+    </div>
+    <div class="left txt_box"><p>2026年8月3日</p><a class="cut_txt" href="/press/2026/08/20260803003.html">第62回電気保安功労者経済産業⼤⾂表彰の受賞者が決定しました</a></div>
+  </li>
+  <li class="clearfix">
+    <div class="left img_box">
+      <img src="/files/000000082.jpg" alt="対外経済">
+    </div>
+    <div class="left txt_box"><p>2026年8月3日</p><a class="cut_txt" href="/press/2026/08/20260803001.html">日・インドネシア経済連携協定（EPA）改正議定書が発効しました</a></div>
+  </li>
+  <li class="clearfix">
+    <div class="left img_box">
+      <img src="/files/000000082.jpg" alt="対外経済">
+    </div>
+    <div class="left txt_box"><p>2026年8月3日</p><a class="cut_txt" href="/press/2026/08/20260803004.html">小森経済産業大臣政務官がアンティグア・バーブーダ共和国のニコラス情報通信技術・公共事業・エネルギー大臣と会談しました</a></div>
+  </li>
+  <li class="clearfix">
+    <div class="left img_box">
+      <img src="/files/000000078.jpg" alt="エネルギー・環境">
+    </div>
+    <div class="left txt_box"><p>2026年7月31日</p><a class="cut_txt" href="/press/2026/07/20260731001.html">CO2排出量を削減した鋼材の試行工事を開始！</a></div>
+  </li>
+  <li class="clearfix">
+    <div class="left img_box">
+      <img src="/files/000000081.jpg" alt="経済産業">
+    </div>
+    <div class="left txt_box"><p>2026年7月31日</p><a class="cut_txt" href="/press/2026/07/20260731003.html">経済産業省組織令の一部を改正する政令が閣議決定されました</a></div>
+  </li>
+</ul>
+
+    </div>
+    <div class="w1000 clearfix">
+<a href="/press/archive.html" class="lnkPosR">アーカイブはこちら</a>
+    </div>
+    <div class="w1000 b-top">
+<p>ニュースリリースは過去3年度分を掲載しています。<br>
+	上記以前のニュースリリースは国立国会図書館の<a href="http://warp.da.ndl.go.jp/waid/3479">「インターネット資料収集保存事業（<span lang="en">Web Archiving Project</span>）」ホームページ</a>でご覧になることができます。</p>
+
+    </div>
+  </div>
+<script src="/js_2025/footer.js"></script>
+</body>
+</html>

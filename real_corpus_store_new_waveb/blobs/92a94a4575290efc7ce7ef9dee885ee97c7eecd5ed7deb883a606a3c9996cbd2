@@ -1,0 +1,822 @@
+﻿﻿
+
+
+
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="referrer" content="strict-origin-when-cross-origin">
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	
+	<!-- Tell the browser to be responsive to screen width -->
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Bangladesh Bank</title>
+	<link rel="icon" type="image/png" href="/en/assets/img/website/favicon.png">
+	
+	<!-- Font Awesome -->
+	 <!--<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,900">-->
+	<script src="/en/assets/js/jquery.min.js"></script>
+	<link rel="stylesheet" href="/en/assets/fonts/fonts.css">
+
+	<link rel="stylesheet" href="/en/assets/plugins/font-awesome/css/font-awesome.min.css">
+
+	<link rel="stylesheet" type="text/css" href="/en/assets/css/bbicons.css">
+	<link rel="stylesheet" type="text/css" href="/en/assets/plugins/swiper/swiper.css">
+	<link rel="stylesheet" href="/en/assets/css/datatables.min.css">
+
+	<link rel="stylesheet" href="/en/assets/css/datepicker.css">
+	<link rel="stylesheet" href="/en/assets/css/jquery.more.css">
+
+	<!--<link rel="stylesheet" type="text/css" href="">-->
+    <link rel="stylesheet" href="/en/assets/css/bbwebsite.css">
+
+	<style>
+		nav > ul > li {
+    		padding: 0 6px!important;
+		}
+	</style>
+
+	
+	
+
+
+</head>
+
+<body class="layout-boxed">
+<div class="wrapper">
+	<div class="content-overlay"></div>
+	<!-- Sidenav -->
+	<div class="sidenav" id="sidenav">
+
+		<!-- close -->
+		<div class="sidenav__close">
+			<button class="sidenav__close-button" id="sidenav__close-button" aria-label="close sidenav">
+
+				<i class="fa fa-times sidenav__close-icon"></i>
+			</button>
+		</div>
+
+		<!-- Nav -->
+		<nav class="sidenav__menu-container">
+			<ul class="sidenav__menu" role="menubar">
+				<li>
+					<a href="#" class="sidenav__menu-url">About us</a>
+					<button class="sidenav__menu-toggle" aria-haspopup="true" aria-label="Open dropdown"><i class="fa fa-angle-right"></i></button>
+					<ul class="sidenav__menu-dropdown">
+					<li><a class="sidenav__menu-url" href="/en/index.php/about/dept_and_offices">Department and Offices</a></li>
+					<li><a class="sidenav__menu-url" href="/en/index.php/about/mission_vision">Vision and Mission</a></li>
+					<li><a class="sidenav__menu-url" href="/en/index.php/about/strategic_plan">Strategic Plan</a></li>
+					<li><a class="sidenav__menu-url" href="/en/index.php/about/bbhierarchy">Organogram/hierarchy</a></li>
+					<li><a class="sidenav__menu-url" href="/en/index.php/about/foreign_visit_info">Foreign tours & visit</a></li>
+					<li><a class="sidenav__menu-url" href="/en/index.php/about/board_of_director">Board Of Directors</a></li>
+					<li><a class="sidenav__menu-url" href="/en/index.php/about/bbgovernors">Governors</a></li>
+					<li><a class="sidenav__menu-url" href="/en/index.php/about/deputygovernor">Deputy Governors</a></li>
+					<li><a class="sidenav__menu-url" href="/en/index.php/about/executives">Executives</a></li>
+					<li><a class="sidenav__menu-url" href="/en/index.php/about/director">Directors</a></li>
+					<li><a class="sidenav__menu-url" href="/en/index.php/about/dgtogm">Department Hierarchy</a></li>
+					<li><a class="sidenav__menu-url" href="/en/index.php/about/financial_inclusion">Financial Inclusion & Inclusive Growth</a></li>
+					<li><a class="sidenav__menu-url" href="/en/index.php/about/bbinb_dtl">History</a></li>
+					</ul>
+				</li>
+				<li>
+					<a href="#" class="sidenav__menu-url">Monetary Policy</a>
+					<button class="sidenav__menu-toggle" aria-haspopup="true" aria-label="Open dropdown"><i class="fa fa-angle-right"></i></button>
+					<ul class="sidenav__menu-dropdown">
+						<li class="list_item"><a class="sidenav__menu-url" href="/en/index.php/monetaryactivity/monetarypolicy">Monetary Policy Statements</a></li>
+						<li class="list_item"><a class="sidenav__menu-url" href="/en/index.php/monetaryactivity/auc_calendar">Auction Calendar</a></li>
+						<li class="list_item"><a class="sidenav__menu-url" href="/en/index.php/monetaryactivity/treasury">Treasury Bill/Bond auctions</a></li>
+						<li class="list_item"><a class="sidenav__menu-url" href="/en/index.php/monetaryactivity/auc_notice">Auction Notice</a></li>
+						
+						<li class="list_item"><a class="sidenav__menu-url" href="/en/index.php/monetaryactivity/SMART">SMART</a></li>
+						
+						<li class="list_item"><a class="sidenav__menu-url" href="/en/index.php/monetaryactivity/tbillnbond">Data Of Treasury Bills &amp; Bonds</a></li>													
+					</ul>
+				</li>
+				<li>
+					<a href="#" class="sidenav__menu-url">Financial System</a>
+					<button class="sidenav__menu-toggle" aria-haspopup="true" aria-label="Open dropdown"><i class="fa fa-angle-right"></i></button>
+					<ul class="sidenav__menu-dropdown">
+
+						<li class="list_item"><a class="sidenav__menu-url" href="/en/index.php/financialactivity/index">Overview</a></li>
+						<li class="list_item"><a class="sidenav__menu-url" href="/en/index.php/financialactivity/finmarket">Financial Markets</a></li>
+						
+						<li class="list_item"><a class="sidenav__menu-url" href="/en/index.php/financialactivity/govsecmrkt/index">Government Securities Market</a></li>
+						<li class="list_item"><a class="sidenav__menu-url" href="/en/index.php/financialactivity/interbank_moneymarket">Inter Bank Money Market</a></li>
+						<li class="list_item"><a class="sidenav__menu-url" href="/en/index.php/monetaryactivity/money_market_ref_rate">Money Market Reference Rate</a></li>
+
+						<li class="list_item"><a class="sidenav__menu-url" href="/en/index.php/financialactivity/paysystems">Payment Systems</a></li>
+
+						<li class="list_item"><a class="sidenav__menu-url" href="/en/index.php/financialactivity/did">Deposit Insurance</a>
+						</li>
+						<li class="list_item"><a class="sidenav__menu-url" href="/en/index.php/financialsystems/regulator">Regulators</a>
+						</li>
+						<li class="list_item"><a class="sidenav__menu-url" href="/en/index.php/financialactivity/credit_rating_of_banks">Credit Rating Of Banks</a></li>
+						<li class="list_item"><a class="sidenav__menu-url" href="/en/index.php/financialactivity/schedule_charg">Schedule Of Charges Of Banks</a></li>
+
+						<li class="list_item"><a class="sidenav__menu-url" href="/en/index.php/financialactivity/bankfi">Banks & FCs</a>
+						</li>
+						<li class="list_item"><a class="sidenav__menu-url" href="/en/index.php/financialactivity/insurance">Insurance</a></li>
+						<li class="list_item"><a class="sidenav__menu-url" href="/en/index.php/financialactivity/mfi">MFIS</a></li>
+
+
+					</ul>
+				</li>
+				
+				<li>
+					
+					
+					<a href="/en/index.php/fxmarket/index" class="sidenav__menu-url">FX Market</a>
+						<button class="sidenav__menu-toggle" aria-haspopup="true" aria-label="Open dropdown"><i class="fa fa-angle-right"></i></button>
+							<ul class="sidenav__menu-dropdown">
+									<li class="list_item"><a class="sidenav__menu-url" href="/en/index.php/fxmarket/interbank_fxmarket"><i class="fa fa-angle-right"></i>Interbank FX Market</a></li>	
+									<li class="list_item"><a class="sidenav__menu-url" href=/en/index.php/econdata/exchangerate target="_blank"><i class="fa fa-angle-right"></i>Exchange Rates</a></li>
+									<li class="list_item"><a class="sidenav__menu-url" href="/en/index.php/econdata/rfrexrate"><i class="fa fa-angle-right"></i>FX Reference Rate</a></li>
+									<li class="list_item"><a class="sidenav__menu-url" href="/en/index.php/fxmarket/fx_auction_result"><i class="fa fa-angle-right"></i>FX Auction Result</a></li>
+									<li class="list_item"><a class="sidenav__menu-url" href="/en/index.php/fxmarket/acu_payment"><i class="fa fa-angle-right"></i>ACU Payment</a></li>
+									<li class="list_item"><a class="sidenav__menu-url" href="/en/index.php/fxmarket/edf_dashboard"><i class="fa fa-angle-right"></i>Export Development Fund (EDF)</a></li>
+									<li class="list_item"><a class="sidenav__menu-url" href="/en/index.php/fxmarket/fc_clearing"><i class="fa fa-angle-right"></i>FC Clearing</a></li>									
+									<li class="list_item"><a class="sidenav__menu-url" href="/en/index.php/econdata/intreserve"><i class="fa fa-angle-right"></i>Foreign Exchange Reserve</a></li>
+									<li class="list_item"><a class="sidenav__menu-url" href="/en/index.php/econdata/wageremitance"><i class="fa fa-angle-right"></i>Remittances</a></li>
+									<li class="list_item"><a class="sidenav__menu-url" href="/en/index.php/econdata/bopindex "><i class="fa fa-angle-right"></i>BOP, Export & Import</a></li>
+									<li class="list_item"><a class="sidenav__menu-url" href="../../../../../econdata/nsdp/nsdp_bb.php"><i class="fa fa-angle-right"></i><font class="no-transform">Macroeconomic and Financial Data</font></a></li>
+									
+																										
+															
+															
+															
+															
+													
+																
+															
+							</ul>
+									
+											
+				</li>
+				
+				
+				<li>
+					<a href="/en/index.php/financialactivity/govsecmrkt/index" class="sidenav__menu-url">G-Sec Market</a>
+						<button class="sidenav__menu-toggle" aria-haspopup="true" aria-label="Open dropdown"><i class="fa fa-angle-right"></i></button>
+							<ul class="sidenav__menu-dropdown">
+									<li class="list_item"><a class="sidenav__menu-url" href="/en/index.php/financialactivity/govsecmrkt/index">Government Securities Market</a></li>																		
+									<li class="list_item"><a class="sidenav__menu-url" href="/en/index.php/monetaryactivity/treasury">Primary Auction of Treasury Bill &amp; Bond</a></li>									
+									<li class="list_item"><a class="sidenav__menu-url" href=/en/index.php/monetaryactivity/tbillnbond target="_blank">Secondary Trading of Treasury Bills and Bonds</a></li>
+									<li class="list_item"><a class="sidenav__menu-url" href="/en/index.php/monetaryactivity/gsecinvprcs">G-Sec Investment Process</a>
+									</li>
+									<li class="list_item"><a class="sidenav__menu-url" href="/en/index.php/monetaryactivity/bgis_home">BD Govt Investment Sukuk (BGIS)</a></li>
+									<li class="list_item"><a class="sidenav__menu-url" href="/en/index.php/financialactivity/govsecmrkt_faq">Faq on Government Securities Market</a></li>
+									<li class="list_item"><a class="sidenav__menu-url" href="/en/index.php/monetaryactivity/bcr_rate">91 Days BCR</a></li>							
+						<!--li class="list_item"><a class="sidenav__menu-url" href="/en/index.php/monetaryactivity/call_money_market">Call Money Rate</a></li-->
+							</ul>
+									
+											
+				</li>							
+				<li>
+					<a href="#" class="sidenav__menu-url">Publication</a>
+					<button class="sidenav__menu-toggle" aria-haspopup="true" aria-label="Open dropdown"><i class="fa fa-angle-right"></i></button>
+					<ul class="sidenav__menu-dropdown">
+
+						<li class="list_item"><a class="sidenav__menu-url" href="/en/index.php/publication/publictn/5/8"><i
+									class="fa fa-angle-right"></i>Weekly</a></li>
+						<li class="list_item"><a class="sidenav__menu-url" href="/en/index.php/publication/publictn/4/25"><i
+									class="fa fa-angle-right"></i>Fortnightly</a>
+						</li>
+						<li class="list_item"><a class="sidenav__menu-url" href="/en/index.php/publication/publictn/3/10"><i
+									class="fa fa-angle-right"></i>Monthly</a></li>
+						<li class="list_item"><a class="sidenav__menu-url" href="/en/index.php/publication/publictn/2/7"><i
+									class="fa fa-angle-right"></i>Quarterly</a></li>
+						<li class="list_item"><a class="sidenav__menu-url" href="/en/index.php/publication/publictn/1/24"><i
+									class="fa fa-angle-right"></i>Half Yearly</a>
+						</li>
+
+
+						<li class="list_item"><a class="sidenav__menu-url" href="/en/index.php/publication/publictn/0/2"><i
+									class="fa fa-angle-right"></i>Annual</a></li>
+						<li class="list_item"><a class="sidenav__menu-url" href="/en/index.php/publication/researchindex"><i
+									class="fa fa-angle-right"></i>Research Work</a>
+						</li>
+
+						<li class="list_item"><a class="sidenav__menu-url" href="/en/index.php/publication/sp_research_worklist"><i
+									class="fa fa-angle-right"></i>Special Publication</a></li>
+						<li class="list_item"><a class="sidenav__menu-url" href="/en/index.php/publication/publictn/8/55"><i
+									class="fa fa-angle-right"></i>Others</a></li>
+					</ul>
+				</li>
+
+				<li>
+					<a href="#" class="sidenav__menu-url">MEDIA & Press Release</a>
+					<button class="sidenav__menu-toggle" aria-haspopup="true" aria-label="Open dropdown"><i class="fa fa-angle-right"></i></button>
+					<ul class="sidenav__menu-dropdown">
+						<li class="list_item"><a class="sidenav__menu-url" href="/en/index.php/mediaroom/circular">Circulars/Circular Letters</a></li>
+						<li class="list_item"><a class="sidenav__menu-url" href="../../../../mediaroom/press_release/pressrelease.php">Press Release</a></li>
+
+					</ul>
+				</li>
+				<li>
+					<a href="/en/index.php/Financialstability/" class="sidenav__menu-url">Financial Stability</a>
+					<button class="sidenav__menu-toggle" aria-haspopup="true" aria-label="Open dropdown"><i class="fa fa-angle-right"></i></button>
+					<ul class="sidenav__menu-dropdown">
+						<li class="list_item"><a class="sidenav__menu-url" href="/en/index.php/Financialstability/finstabilitycommittee">Financial Stability Committee</a></li>
+						<li class="list_item"><a class="sidenav__menu-url" href="/en/index.php/Financialstability/macrosuper">Macroprudential Supervision</a></li>
+						<li class="list_item"><a class="sidenav__menu-url" href="/en/index.php/Financialstability/reportscirulars">Guidelines, Circulars and Reports</a></li>
+						<li class="list_item"><a class="sidenav__menu-url" href="/en/index.php/Financialstability/stabilityissues">Contemporary Financial Stability Issues</a></li>
+
+					</ul>
+				</li>
+
+
+			</ul>
+		</nav>
+
+	</div> <!-- end sidenav -->
+	<div class="wrapper_inner">
+
+		<header class="header">
+			<div class="header_top">
+				<div class="container">
+
+					<div class="row">
+						<div class="col-lg-12">
+							<div class="header_content">							
+								<button class="nav-icon-toggle" id="nav-icon-toggle" aria-label="Open side menu">
+              						<span class="nav-icon-toggle__box">
+                						<span class="nav-icon-toggle__inner"></span>
+             						 </span>
+								</button>
+								<div class="search_box">
+									<form action="/en/index.php/home/search" class="search" method="post">
+										<input type="text" class="search_input" name="keyword"  placeholder="Search">
+										<button class="search_button">
+											<i class="icon-search search_icon"></i>
+										</button>
+									</form>
+								</div>
+
+
+							
+								<span class="globe"><a href="/en/index.php/home/switch_lang">বাংলা</a></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+						
+							</div>
+
+
+						</div>
+
+					</div>
+				</div>
+			</div>
+			<div class="header_inner">
+				<div class="container">
+
+					<div class="row">
+
+						<div class="logo_banner">
+							
+
+							<!--Navigation bar start-->
+							<div class="navigation">
+
+								<div id="navigation-bar">
+
+									<nav >
+										<ul class="menu" id="navmenu">
+											<li class='dropdown'>
+												<a href='/en/index.php/about/index'>About us</a>
+												<div class='mega-menu'>
+													<div class="mega-menu-container">
+														<div class="item">
+
+															<img class="img-thumbnail"
+																 src="/en/assets/img/website/menu_about.png"
+																 alt="titleToAlt">
+														</div> <!-- /.item -->
+														<div class="item">
+															<!--   <h3>Contact</h3>-->
+															<ul>
+
+																<li class="list_item"><a href="/en/index.php/about/dept_and_offices"><i
+																			class="fa fa-angle-right"></i>Department and Offices</a></li>
+																<li class="list_item"><a href="/en/index.php/about/mission_vision"><i
+																			class="fa fa-angle-right"></i>Vision and Mission</a></li>
+																<li class="list_item"><a href="/en/index.php/about/strategic_plan"><i
+																			class="fa fa-angle-right"></i>Strategic Plan</a>
+																</li>
+																<!--li class="list_item"><a href="< ?php echo site_url('about/citizenCharter') ?>"><i
+																			class="fa fa-angle-right"></i>< ?php echo get_lan('citizen_charter'); ?></a></li-->
+																<li class="list_item"><a href="/en/index.php/about/bbhierarchy"><i
+																			class="fa fa-angle-right"></i>Organogram/hierarchy</a>
+																</li>
+																<li class="list_item"><a href="/en/index.php/about/foreign_visit_info"><i
+																			class="fa fa-angle-right"></i>Foreign tours & visit</a>
+																</li>
+															</ul>
+														</div>
+														<div class="item">
+															<!--   <h3>Contact</h3>-->
+															<ul>
+																<li class="list_item"><a href="/en/index.php/about/board_of_director"><i
+																			class="fa fa-angle-right"></i>Board Of Directors</a>
+																</li>
+																<li class="list_item"><a href="../../../../../monetaryactivity/mps/mpc_members.pdf"><i
+																			class="fa fa-angle-right"></i>Monetary Policy Committee</a>
+																</li>
+																<li class="list_item"><a href="/en/index.php/about/bbgovernors"><i
+																			class="fa fa-angle-right"></i>Governors</a></li>
+																<li class="list_item"><a href="/en/index.php/about/deputygovernor"><i
+																			class="fa fa-angle-right"></i>Deputy Governors</a></li>
+																<li class="list_item"><a href="/en/index.php/about/advisers"><i
+																			class="fa fa-angle-right"></i>Advisers</a></li>
+																<li class="list_item"><a href="/en/index.php/about/executives"><i
+																			class="fa fa-angle-right"></i>Executives</a>
+																</li>
+																<li class="list_item"><a href="/en/index.php/about/director"><i
+																			class="fa fa-angle-right"></i>Directors</a></li>
+
+															</ul>
+														</div>
+
+
+													</div><!-- /.container -->
+												</div><!-- /.mega-menu -->
+											</li><!-- /.dropdown -->
+											<li class='dropdown'>
+												<a href='/en/index.php/monetaryactivity/index'>Monetary Policy</a>
+												<div class='mega-menu'>
+													<div class="mega-menu-container">
+														<div class="item">
+															<!--<span class="icon-monetary_policy img-thumbnail"></span>-->
+															<img class="img-thumbnail"
+																 src="/en/assets/img/website/menu_monetarypolicy.png"
+																 alt="titleToAlt">
+														</div> <!-- /.item -->
+														<div class="item">
+															<!--   <h3>Contact</h3>-->
+															<ul>
+
+																<li class="list_item"><a href="/en/index.php/monetaryactivity/monetarypolicy"><i class="fa fa-angle-right"></i>Monetary Policy Statements</a></li>
+																<li class="list_item"><a href="/en/index.php/monetaryactivity/mpc"><i class="fa fa-angle-right"></i>Monetary Policy Committee</a></li>																
+																<li class="list_item"><a href="/en/index.php/monetaryactivity/mpc_resolution"><i class="fa fa-angle-right"></i>MPC Resolution</a></li>
+																
+															</ul>
+														</div>
+														<div class="item">
+															<ul>
+																<li class="list_item"><a href="/en/index.php/monetaryactivity/mptools"><i class="fa fa-angle-right"></i>Monetary Policy Tools</a></li>																
+																<li class="list_item"><a href="/en/index.php/monetaryactivity/smart"><i class="fa fa-angle-right"></i>SMART</a></li>
+																
+																</li>
+															</ul>
+														</div>
+														
+
+													</div><!-- /.container -->
+												</div><!-- /.mega-menu -->
+											</li><!-- /.dropdown -->
+											<li class='dropdown'>
+												<a href='/en/index.php/financialactivity/index'>Financial System</a>
+												<div class='mega-menu'>
+													<div class="mega-menu-container">
+														<div class="item">
+
+															<img class="img-thumbnail"
+																 src="/en/assets/img/website/menu_financialsystem.png"
+																 alt="titleToAlt">
+														</div> <!-- /.item -->
+														<div class="item">
+															<!--   <h3>Contact</h3>-->
+															<ul>
+
+																<li class="list_item"><a href="/en/index.php/financialactivity/index"><i
+																			class="fa fa-angle-right"></i>Overview</a></li>
+																<li class="list_item"><a href="/en/index.php/financialactivity/finmarket"><i
+																			class="fa fa-angle-right"></i>Financial Markets</a>
+																</li>
+																<li class="list_item"><a href="/en/index.php/Financialstability/"><i
+																			class="fa fa-angle-right"></i>Financial Stability</a>
+																</li> 
+																
+																
+																<li class="list_item"><a href="/en/index.php/financialactivity/paysystems"><i
+																			class="fa fa-angle-right"></i>Payment Systems</a></li>
+															</ul>
+														</div>
+														<div class="item">
+															<!--   <h3>Contact</h3>-->
+															<ul>
+																<li class="list_item"><a href="/en/index.php/financialactivity/interbank_moneymarket"><i
+																			class="fa fa-angle-right"></i>Inter Bank Money Market</a></li>
+																			<li class="list_item"><a href="/en/index.php/monetaryactivity/money_market_ref_rate"><i
+																			class="fa fa-angle-right"></i>Money Market Reference Rate</a></li>
+																<li class="list_item"><a href="/en/index.php/financialactivity/did"><i
+																			class="fa fa-angle-right"></i>Deposit Insurance</a>
+																</li>
+																<li class="list_item"><a href="/en/index.php/financialsystems/regulator"><i
+																			class="fa fa-angle-right"></i>Regulators</a>
+																</li>
+																<li class="list_item"><a href="/en/index.php/financialactivity/credit_rating_of_banks"><i
+																			class="fa fa-angle-right"></i>Credit Rating Of Banks</a></li>
+																<li class="list_item"><a href="/en/index.php/financialactivity/schedule_charg"><i
+																			class="fa fa-angle-right"></i>Schedule Of Charges Of Banks</a></li>
+
+															</ul>
+														</div>
+														<div class="item">
+															<!--   <h3>Contact</h3>-->
+															<ul>
+																<li class="list_item"><a href="/en/index.php/financialactivity/bankfi"><i
+																			class="fa fa-angle-right"></i>Banks & FCs</a>
+																</li>
+																<li class="list_item"><a href="/en/index.php/financialactivity/insurance"><i
+																			class="fa fa-angle-right"></i>Insurance</a></li>
+																<li class="list_item"><a href="/en/index.php/financialactivity/mfi"><i
+																			class="fa fa-angle-right"></i>MFIS</a></li>
+
+
+															</ul>
+														</div>
+
+													</div><!-- /.container -->
+												</div><!-- /.mega-menu -->
+											</li><!-- /.dropdown -->
+											
+											<li class='dropdown'>
+												<a href='/en/index.php/fxmarket/index'>FX Market</a>
+												<div class='mega-menu'>
+													<div class="mega-menu-container">
+														<div class="item">
+															<!--<span class="icon-monetary_policy img-thumbnail"></span>-->
+															<img class="img-thumbnail"
+																 src="/en/assets/img/website/menu_fxmarket.jpg"
+																 alt="titleToAlt">
+														</div> <!-- /.item -->
+														<div class="item">
+															<!--   <h3>Contact</h3>-->
+															<ul>
+
+																<li class="no-transform"><a href="/en/index.php/fxmarket/index"><i class="fa fa-angle-right"></i>Overview of the FX Market</a></li>
+																<li class="list_item"><a href="/en/index.php/fxmarket/interbank_fxmarket"><i class="fa fa-angle-right"></i>Interbank FX Market</a></li>																
+																<li class="list_item"><a href="/en/index.php/econdata/exchangerate"><i class="fa fa-angle-right"></i>Exchange Rates</li>
+																<li class="list_item"><a href="/en/index.php/econdata/rfrexrate"><i class="fa fa-angle-right"></i>FX Reference Rate</li>
+																<li class="list_item"><a href="/en/index.php/fxmarket/fx_auction_result"><i class="fa fa-angle-right"></i>FX Auction Result</li>
+																<li class="list_item"><a href="/en/index.php/fxmarket/acu_payment"><i class="fa fa-angle-right"></i>ACU Payment</li>
+																
+															</ul>
+															</div>
+															<div class="item">
+															<ul>
+																
+																<li class="list_item"><a href="/en/index.php/fxmarket/edf_dashboard"><i class="fa fa-angle-right"></i>Export Development Fund (EDF)</li>
+																<li class="list_item"><a href="/en/index.php/fxmarket/fc_clearing"><i class="fa fa-angle-right"></i>FC Clearing</li>
+																<li class="list_item"><a href="/en/index.php/econdata/intreserve"><i class="fa fa-angle-right"></i>Foreign Exchange Reserve</a></li>
+																<li class="list_item"><a href="/en/index.php/econdata/wageremitance"><i class="fa fa-angle-right"></i>Remittances</a></li>
+																<li class="list_item"><a href="/en/index.php/econdata/bopindex "><i class="fa fa-angle-right"></i>BOP, Export & Import</a></li>
+																<li class="list_item"><a href="../../../../../econdata/nsdp/nsdp_bb.php"><i class="fa fa-angle-right"></i><font class="no-transform">Macroeconomic and Financial Data</font></a></li>
+																
+															</ul>
+														</div>
+														
+														
+
+
+													</div><!-- /.container -->
+												</div><!-- /.mega-menu -->
+											</li><!-- /.dropdown -->
+											
+											
+											<li class='dropdown'>
+												<a href='/en/index.php/financialactivity/govsecmrkt/index'>G-Sec Market</a>
+												<div class='mega-menu'>
+													<div class="mega-menu-container">
+														<div class="item">
+
+															<img class="img-thumbnail"
+																 src="/en/assets/img/website/menu_govsec.png"
+																 alt="titleToAlt">
+														</div> <!-- /.item -->
+														<div class="item">
+															<!--   <h3>Contact</h3>-->
+															<ul>
+
+									<li class="list_item"><a href="/en/index.php/financialactivity/govsecmrkt/index"><i class="fa fa-angle-right"></i>Government Securities Market</a></li>																		
+									<li class="no-transform"><a href="/en/index.php/monetaryactivity/treasury"><i class="fa fa-angle-right"></i>Primary Auction of Treasury Bill &amp; Bond</a></li>									
+									<li class="no-transform"><a href=/en/index.php/monetaryactivity/tbillnbond target="_blank"><i class="fa fa-angle-right"></i>Secondary Trading of Treasury Bills and Bonds</a></li>
+									<li class="list_item"><a href="/en/index.php/monetaryactivity/bcr_rate"><i class="fa fa-angle-right"></i>91 Days BCR</a>																</li>
+																<!--li class="list_item"><a href="/en/index.php/monetaryactivity/call_money_market"><i class="fa fa-angle-right"></i>Call Money</a-->
+																
+															</ul>
+														</div>
+														<div class="item">
+															<!--   <h3>Contact</h3>-->
+															<ul>
+																
+																<li class="list_item"><a href="/en/index.php/monetaryactivity/gsecinvprcs"><i
+																			class="fa fa-angle-right"></i>G-Sec Investment Process</a>
+																</li>
+																<li class="list_item"><a href="/en/index.php/monetaryactivity/bgis_home"><i
+																			class="fa fa-angle-right"></i>BD Govt Investment Sukuk (BGIS)</a></li>
+																<li class="no-transform"><a href="/en/index.php/financialactivity/govsecmrkt_faq"><i
+																			class="fa fa-angle-right"></i>FAQ on Government Securities Market</a></li>
+
+															</ul>
+														</div>
+														
+
+													</div><!-- /.container -->
+												</div><!-- /.mega-menu -->
+											</li><!-- /.dropdown -->
+											<li class='dropdown'>
+												<a href='/en/index.php/publication/index'>Publication</a>
+												<div class='mega-menu'>
+													<div class="mega-menu-container">
+														<div class="item">
+
+															<img class="img-thumbnail"
+																 src="/en/assets/img/website/menu_publications.png"
+																 alt="titleToAlt">
+														</div> <!-- /.item -->
+														<div class="item">
+															
+														</div>
+														<div class="item">
+															<!--   <h3>Contact</h3>-->
+															<ul>
+																<li class="list_item"><a href="/en/index.php/publication/publictn/5/8"><i
+																			class="fa fa-angle-right"></i>Weekly</a></li>
+																<li class="list_item"><a href="/en/index.php/publication/publictn/4/25"><i
+																			class="fa fa-angle-right"></i>Fortnightly</a>
+																</li>
+																<li class="list_item"><a href="/en/index.php/publication/publictn/3/10"><i
+																			class="fa fa-angle-right"></i>Monthly</a></li>
+																<li class="list_item"><a href="/en/index.php/publication/publictn/2/7"><i
+																			class="fa fa-angle-right"></i>Quarterly</a></li>
+																<li class="list_item"><a href="/en/index.php/publication/publictn/1/24"><i
+																			class="fa fa-angle-right"></i>Half Yearly</a>
+																</li>
+
+															</ul>
+														</div>
+														<div class="item">
+															<!--   <h3>Contact</h3>-->
+															<ul>
+																<li class="list_item"><a href="/en/index.php/publication/publictn/0/2"><i
+																			class="fa fa-angle-right"></i>Annual</a></li>
+																<li class="list_item"><a href="/en/index.php/publication/researchindex"><i
+																			class="fa fa-angle-right"></i>Research Work</a>
+																</li>
+
+																<li class="list_item"><a href="/en/index.php/publication/publictn/7/38"><i
+																			class="fa fa-angle-right"></i>Special Publication</a></li>
+																<li class="list_item"><a href="/en/index.php/publication/publictn/8/55"><i
+																			class="fa fa-angle-right"></i>Others</a></li>
+
+
+															</ul>
+														</div>
+
+													</div><!-- /.container -->
+												</div><!-- /.mega-menu -->
+											</li><!-- /.dropdown -->
+
+
+										</ul><!-- .container -->
+									</nav>
+								</div>
+							</div>
+							<!--Navigation bar end-->
+						</div>
+
+
+					</div>
+				</div>
+			</div>
+
+		</header>
+<div class="content-wrapper">
+	<section class="content">
+		<section class="breadcrumbs">
+			<div class="container">
+				<div class="row">
+					<div class="col-12">
+						<ul class='bread-list'><li  class="active"><a href="/en/">Home<i class="fa fa-angle-right"></i> </a></li><li  class="active"><a href="/en/index.php/publication/index">Publications <i class="fa fa-angle-right"></i> </a></li><li class="active">Special</li></ul>					</div>
+				</div>
+			</div>
+		</section>
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-3">
+					<div class="bbsidebar-sidebar">
+						<div class="single-widget categories">
+														<ul>
+														<li><a href="/en/index.php/publication/purchasingpro"><i class="fa fa-angle-right"></i>Price list</a></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-9">
+					<div class="row"> 
+						<div class="col-12">
+							<div class="page_header">Special Publication							</div>
+							<span class="pdf-container">
+								<table>
+									<tr>
+										<td>Publications</td>
+																			</tr>
+									<tr><td>MPC Resolution: 3rd November, 2025<a class ='pdf-list' pdf-link = 'https://www.bb.org.bd//pub/special/2025-10th mpc resolution.pdf'>.&nbsp;detail..</a>&nbsp;</a><a target="_blank" href='https://www.bb.org.bd//pub/special/2025-10th mpc resolution.pdf'>[download]</a></td></tr><tr><td>Estimating Equilibrium Exchange Rates for Bangladesh<a class ='pdf-list' pdf-link = 'https://www.bb.org.bd//pub/special/sp2025-03.pdf'>.&nbsp;detail..</a>&nbsp;</a><a target="_blank" href='https://www.bb.org.bd//pub/special/sp2025-03.pdf'>[download]</a></td></tr><tr><td>Financial Inclusion and Central Banking: Bridging Gaps in Bangladesh<a class ='pdf-list' pdf-link = 'https://www.bb.org.bd//pub/special/sp2025-02.pdf'>.&nbsp;detail..</a>&nbsp;</a><a target="_blank" href='https://www.bb.org.bd//pub/special/sp2025-02.pdf'>[download]</a></td></tr><tr><td>Report on Climate Stress Testing 2025<a class ='pdf-list' pdf-link = 'https://www.bb.org.bd//pub/special/climate_stress_testing.pdf'>.&nbsp;detail..</a>&nbsp;</a><a target="_blank" href='https://www.bb.org.bd//pub/special/climate_stress_testing.pdf'>[download]</a></td></tr><tr><td>Trading in Local Currencies: Problems and Prospects for the Saarc Countries<a class ='pdf-list' pdf-link = 'https://www.bb.org.bd//pub/special/aug282024_bb_special_publication.pdf'>.&nbsp;detail..</a>&nbsp;</a><a target="_blank" href='https://www.bb.org.bd//pub/special/aug282024_bb_special_publication.pdf'>[download]</a></td></tr><tr><td>Impact Assessment of Interest Rate Caps and Potential Policy Options: Bangladesh Perspective<a class ='pdf-list' pdf-link = 'https://www.bb.org.bd//pub/special//final_interest_rate_cap_special_publication_26102022.pdf'>.&nbsp;detail..</a>&nbsp;</a><a target="_blank" href='https://www.bb.org.bd//pub/special//final_interest_rate_cap_special_publication_26102022.pdf'>[download]</a></td></tr><tr><td>Policy Measures of Bangladesh Bank in Response to the COVID-19 Pandemic_Second Edition<a class ='pdf-list' pdf-link = 'https://www.bb.org.bd//pub/special//covid19_policymeasures_2nded.pdf'>.&nbsp;detail..</a>&nbsp;</a><a target="_blank" href='https://www.bb.org.bd//pub/special//covid19_policymeasures_2nded.pdf'>[download]</a></td></tr><tr><td>Economic and Financial Stability Implications of Covid-19 Bangladesh Bank and Governments policy Responses (Full Book)<a class ='pdf-list' pdf-link = 'https://www.bb.org.bd//pub/special//covid19_26092021.pdf'>.&nbsp;detail..</a>&nbsp;</a><a target="_blank" href='https://www.bb.org.bd//pub/special//covid19_26092021.pdf'>[download]</a></td></tr><tr><td>Recent Practices of Forecasting Real Gross Domestic Product (GDP) and Inflation in Bangladesh Bank<a class ='pdf-list' pdf-link = 'https://www.bb.org.bd//pub/special//gdpandinf_26082021.pdf'>.&nbsp;detail..</a>&nbsp;</a><a target="_blank" href='https://www.bb.org.bd//pub/special//gdpandinf_26082021.pdf'>[download]</a></td></tr><tr><td>COVID-19 Pandemic: Policy Responses and its Impact on the SAARC Countries<a class ='pdf-list' pdf-link = 'https://www.bb.org.bd//pub/special//covid19_26082021.pdf'>.&nbsp;detail..</a>&nbsp;</a><a target="_blank" href='https://www.bb.org.bd//pub/special//covid19_26082021.pdf'>[download]</a></td></tr><tr><td>Covid-19 Pandemic in Bangladesh: Policy Responses and its Impact<a class ='pdf-list' pdf-link = 'https://www.bb.org.bd//pub/special//covid19_06072021.pdf'>.&nbsp;detail..</a>&nbsp;</a><a target="_blank" href='https://www.bb.org.bd//pub/special//covid19_06072021.pdf'>[download]</a></td></tr><tr><td>Economic and Financial Stability Implications of COVID-19:Bangladesh Bank and Government's Policy Responses<a class ='pdf-list' pdf-link = 'https://www.bb.org.bd//pub/special/covid19_28032021.pdf'>.&nbsp;detail..</a>&nbsp;</a><a target="_blank" href='https://www.bb.org.bd//pub/special/covid19_28032021.pdf'>[download]</a></td></tr><tr><td>History of Bangladesh Bank.<a class ='pdf-list' pdf-link = 'https://www.bb.org.bd//pub/special/bb_history_2019.pdf'>.&nbsp;detail..</a>&nbsp;</a><a target="_blank" href='https://www.bb.org.bd//pub/special/bb_history_2019.pdf'>[download]</a></td></tr><tr><td>Policy Measures of Bangladesh Bank in Response to the COVID-19 Pandemic<a class ='pdf-list' pdf-link = 'https://www.bb.org.bd//pub/special/covid19_policymeasures.pdf'>.&nbsp;detail..</a>&nbsp;</a><a target="_blank" href='https://www.bb.org.bd//pub/special/covid19_policymeasures.pdf'>[download]</a></td></tr><tr><td>Green Bonds Development in Bangladesh: A Market Landscape<a class ='pdf-list' pdf-link = 'https://www.bb.org.bd//pub/special/greenbond_dec19.pdf'>.&nbsp;detail..</a>&nbsp;</a><a target="_blank" href='https://www.bb.org.bd//pub/special/greenbond_dec19.pdf'>[download]</a></td></tr><tr><td>Comprehensive Framework on the Development of the Bond Market in Bangladesh<a class ='pdf-list' pdf-link = 'https://www.bb.org.bd//pub/special/bondmarketframework.pdf'>.&nbsp;detail..</a>&nbsp;</a><a target="_blank" href='https://www.bb.org.bd//pub/special/bondmarketframework.pdf'>[download]</a></td></tr><tr><td>Role of Bangladesh Bank in the Govt. success for last 10 years<a class ='pdf-list' pdf-link = 'https://www.bb.org.bd//pub/special/govt_success_10_years.pdf'>.&nbsp;detail..</a>&nbsp;</a><a target="_blank" href='https://www.bb.org.bd//pub/special/govt_success_10_years.pdf'>[download]</a></td></tr><tr><td>An Impact Study on Mobile Financial Services (MFSs) in Bangladesh<a class ='pdf-list' pdf-link = 'https://www.bb.org.bd//pub/special/impact_mfs_27092018.pdf'>.&nbsp;detail..</a>&nbsp;</a><a target="_blank" href='https://www.bb.org.bd//pub/special/impact_mfs_27092018.pdf'>[download]</a></td></tr><tr><td>Utilisation of Workers' Remittances in Bangladesh - A Report Based on the Survey Conducted in 2014<a class ='pdf-list' pdf-link = 'https://www.bb.org.bd//pub/research/sp_research_work/srw1703.pdf'>.&nbsp;detail..</a>&nbsp;</a><a target="_blank" href='https://www.bb.org.bd//pub/research/sp_research_work/srw1703.pdf'>[download]</a></td></tr><tr><td>Impact Assessment of Agricultural Credit Program for the Sharecroppers in FY2015 Implemented by BRAC under Refinancing Scheme of Bangladesh Bank<a class ='pdf-list' pdf-link = 'https://www.bb.org.bd//pub/research/sp_research_work//srw1602.pdf'>.&nbsp;detail..</a>&nbsp;</a><a target="_blank" href='https://www.bb.org.bd//pub/research/sp_research_work//srw1602.pdf'>[download]</a></td></tr><tr><td>A Survey Report on an Enquiry into the Causes of High Increase in Loans to the Small and Medium Enterprises (SME) and Its Economic Impact<a class ='pdf-list' pdf-link = 'https://www.bb.org.bd//pub/research/sp_research_work/srw1601.pdf'>.&nbsp;detail..</a>&nbsp;</a><a target="_blank" href='https://www.bb.org.bd//pub/research/sp_research_work/srw1601.pdf'>[download]</a></td></tr><tr><td>Vibrant Bangladesh: Economy of Stability and Possibility&nbsp;<a href="../../../../../pub/special/vibrant_bd.pdf" target="_blank">[Bangla]</a>&nbsp;<a href="../../../../../pub/special/vibrant_bd_eng.pdf" target="_blank" >[English]</a><a class ='pdf-list' pdf-link = 'https://www.bb.org.bd//pub/special/vibrant_bd_eng.pdf'>.&nbsp;detail..</a>&nbsp;</a><a target="_blank" href='https://www.bb.org.bd//pub/special/vibrant_bd_eng.pdf'>[download]</a></td></tr><tr><td>Coordinated Supervision Framwork for Bangladesh Financial System<a class ='pdf-list' pdf-link = 'https://www.bb.org.bd//pub/special/coordinated_supervision.pdf'>.&nbsp;detail..</a>&nbsp;</a><a target="_blank" href='https://www.bb.org.bd//pub/special/coordinated_supervision.pdf'>[download]</a></td></tr><tr><td>Rhyme Book on Integrity<a class ='pdf-list' pdf-link = 'https://www.bb.org.bd//pub/special/integrity_chhora.pdf'>.&nbsp;detail..</a>&nbsp;</a><a target="_blank" href='https://www.bb.org.bd//pub/special/integrity_chhora.pdf'>[download]</a></td></tr><tr><td>Designing a Sustainable Financial System in Bangladesh, October 2015<a class ='pdf-list' pdf-link = 'https://www.bb.org.bd//pub/special/sfs_october2015.pdf'>.&nbsp;detail..</a>&nbsp;</a><a target="_blank" href='https://www.bb.org.bd//pub/special/sfs_october2015.pdf'>[download]</a></td></tr><tr><td>Finalcial Inclusion<a class ='pdf-list' pdf-link = 'https://www.bb.org.bd//pub/special/finalcial_inclusion.pdf'>.&nbsp;detail..</a>&nbsp;</a><a target="_blank" href='https://www.bb.org.bd//pub/special/finalcial_inclusion.pdf'>[download]</a></td></tr><tr><td>BB Recognition Award 2013<a class ='pdf-list' pdf-link = 'https://www.bb.org.bd//pub/special/bbrecognition_award2013.pdf'>.&nbsp;detail..</a>&nbsp;</a><a target="_blank" href='https://www.bb.org.bd//pub/special/bbrecognition_award2013.pdf'>[download]</a></td></tr><tr><td>A Primary Survey on Banks in Promoting Women Entrepreneurship in Bangladesh<a class ='pdf-list' pdf-link = 'https://www.bb.org.bd//pub/research/sp_research_work/1501.pdf'>.&nbsp;detail..</a>&nbsp;</a><a target="_blank" href='https://www.bb.org.bd//pub/research/sp_research_work/1501.pdf'>[download]</a></td></tr><tr><td>National Strategy for Preventing Money Laundering and Combating Financing of Terrorism 2015-2017<a class ='pdf-list' pdf-link = 'https://www.bb.org.bd//pub/special/amlstrategy/national_strategy_preventing_ml.pdf'>.&nbsp;detail..</a>&nbsp;</a><a target="_blank" href='https://www.bb.org.bd//pub/special/amlstrategy/national_strategy_preventing_ml.pdf'>[download]</a></td></tr><tr><td>Bangladesh: A Stable and Vibrant Economy<a class ='pdf-list' pdf-link = 'https://www.bb.org.bd//pub/special/bdstblvbrnecon.pdf'>.&nbsp;detail..</a>&nbsp;</a><a target="_blank" href='https://www.bb.org.bd//pub/special/bdstblvbrnecon.pdf'>[download]</a></td></tr><tr><td>New Initiatives of Department of Off-Site Supervision : <a href="special/new_initiatives_dos_e.pdf" target="_blank" class="itemlink">[English]</a>&nbsp;&nbsp;<a href="special/new_initiatives_dos.pdf" target="_blank" class="itemlink">[Bangla]</a><a class ='pdf-list' pdf-link = 'https://www.bb.org.bd//pub/special/new_initiatives_dos.pdf'>.&nbsp;detail..</a>&nbsp;</a><a target="_blank" href='https://www.bb.org.bd//pub/special/new_initiatives_dos.pdf'>[download]</a></td></tr><tr><td>An enquiry into the causes of growth of SME loans and its economic impact<a class ='pdf-list' pdf-link = 'https://www.bb.org.bd//pub/special/sme_book_aug_2014.pdf'>.&nbsp;detail..</a>&nbsp;</a><a target="_blank" href='https://www.bb.org.bd//pub/special/sme_book_aug_2014.pdf'>[download]</a></td></tr><tr><td>The Role of Banks in Promoting Women Entrepreneurship in Bangladesh<a class ='pdf-list' pdf-link = 'https://www.bb.org.bd//pub/special/20131104women_entrepr.pdf'>.&nbsp;detail..</a>&nbsp;</a><a target="_blank" href='https://www.bb.org.bd//pub/special/20131104women_entrepr.pdf'>[download]</a></td></tr><tr><td>Of Changes and Transformations -Bangladesh Bank (July 2009-June 2013)&nbsp;<a href="../../../../../../pub/special/chngtrnsform.pdf">[English]</a>&nbsp;<a  target="_blank" href='../../../../../../pub/special/bodle_jaoa_bb.pdf'>[Bangla]</a><a class ='pdf-list' pdf-link = 'https://www.bb.org.bd//pub/special/chngtrnsform.pdf'>.&nbsp;detail..</a>&nbsp;</a><a target="_blank" href='https://www.bb.org.bd//pub/special/chngtrnsform.pdf'>[download]</a></td></tr><tr><td>The mutually-supportive relationship between financial inclusion and financial stability<a class ='pdf-list' pdf-link = 'https://www.bb.org.bd//pub/special/msrelationship_2013.pdf'>.&nbsp;detail..</a>&nbsp;</a><a target="_blank" href='https://www.bb.org.bd//pub/special/msrelationship_2013.pdf'>[download]</a></td></tr><tr><td>Art Collection of Bangladesh Bank-Paintings, Murals, Sculpture<a class ='pdf-list' pdf-link = 'https://www.bb.org.bd//pub/special/artcollection.pdf'>.&nbsp;detail..</a>&nbsp;</a><a target="_blank" href='https://www.bb.org.bd//pub/special/artcollection.pdf'>[download]</a></td></tr><tr><td>Building Poverty free Digital Bangladesh Initiatives taken by Bangladesh Bank in brief<a class ='pdf-list' pdf-link = 'https://www.bb.org.bd//pub/special/poverty_free_digital_bangladesh_june2013.pdf'>.&nbsp;detail..</a>&nbsp;</a><a target="_blank" href='https://www.bb.org.bd//pub/special/poverty_free_digital_bangladesh_june2013.pdf'>[download]</a></td></tr><tr><td>Four decades of Bangladesh: A new beginning of our Economy<a class ='pdf-list' pdf-link = 'https://www.bb.org.bd//pub/special/fourdecades.pdf'>.&nbsp;detail..</a>&nbsp;</a><a target="_blank" href='https://www.bb.org.bd//pub/special/fourdecades.pdf'>[download]</a></td></tr><tr><td>Sample survey on socio-economic characteristics of buyers of saving instrument in Bangladesh<a class ='pdf-list' pdf-link = 'https://www.bb.org.bd//pub/special/sanchayapatra_protibedon_2013.pdf'>.&nbsp;detail..</a>&nbsp;</a><a target="_blank" href='https://www.bb.org.bd//pub/special/sanchayapatra_protibedon_2013.pdf'>[download]</a></td></tr><tr><td>Coins and Bank Notes Book<a class ='pdf-list' pdf-link = 'https://www.bb.org.bd//pub/special/coins_banknotes_book2013.pdf'>.&nbsp;detail..</a>&nbsp;</a><a target="_blank" href='https://www.bb.org.bd//pub/special/coins_banknotes_book2013.pdf'>[download]</a></td></tr><tr><td>Comparative Scenarios of Financial Inclusion and Other Changes (2002-05 vs. 2009-12)<a class ='pdf-list' pdf-link = 'https://www.bb.org.bd//pub/special/jan132013fininclcmp.pdf'>.&nbsp;detail..</a>&nbsp;</a><a target="_blank" href='https://www.bb.org.bd//pub/special/jan132013fininclcmp.pdf'>[download]</a></td></tr><tr><td>Code lists for reporting of external sector transactions by the authorised dealers<a class ='pdf-list' pdf-link = 'https://www.bb.org.bd//pub/special/adcodelist_extsector.pdf'>.&nbsp;detail..</a>&nbsp;</a><a target="_blank" href='https://www.bb.org.bd//pub/special/adcodelist_extsector.pdf'>[download]</a></td></tr><tr><td>Developmental Central Banking in Bangladesh<a class ='pdf-list' pdf-link = 'https://www.bb.org.bd//pub/special/dcbbd.pdf'>.&nbsp;detail..</a>&nbsp;</a><a target="_blank" href='https://www.bb.org.bd//pub/special/dcbbd.pdf'>[download]</a></td></tr><tr><td>Green Banking in Bangladesh<a class ='pdf-list' pdf-link = 'https://www.bb.org.bd//pub/special/greenbankingbd.pdf'>.&nbsp;detail..</a>&nbsp;</a><a target="_blank" href='https://www.bb.org.bd//pub/special/greenbankingbd.pdf'>[download]</a></td></tr><tr><td>2nd Anniversary Celebration of Bangladesh Automated Clearing House (BACH), October, 2012<a class ='pdf-list' pdf-link = 'https://www.bb.org.bd//pub/special/bachcelebration.pdf'>.&nbsp;detail..</a>&nbsp;</a><a target="_blank" href='https://www.bb.org.bd//pub/special/bachcelebration.pdf'>[download]</a></td></tr><tr><td>Estimating growth-inflation tradeoff threshold in Bangladesh<a class ='pdf-list' pdf-link = 'https://www.bb.org.bd//pub/research/policypaper/pp1204.pdf'>.&nbsp;detail..</a>&nbsp;</a><a target="_blank" href='https://www.bb.org.bd//pub/research/policypaper/pp1204.pdf'>[download]</a></td></tr><tr><td>Mobile Financial Services in Bangladesh: An Overview of Market Development, July 2012<a class ='pdf-list' pdf-link = 'https://www.bb.org.bd//pub/special/mfs_july2012.pdf'>.&nbsp;detail..</a>&nbsp;</a><a target="_blank" href='https://www.bb.org.bd//pub/special/mfs_july2012.pdf'>[download]</a></td></tr><tr><td>Position of Refinance Scheme for Agro product Processing Industry July, 2011-June, 2012<a class ='pdf-list' pdf-link = 'https://www.bb.org.bd//pub/special/agro_eport_june2012.pdf'>.&nbsp;detail..</a>&nbsp;</a><a target="_blank" href='https://www.bb.org.bd//pub/special/agro_eport_june2012.pdf'>[download]</a></td></tr><tr><td>National Strategy for Preventing Money Laundering and Combating Financing of Terrorism 2011-2013<a class ='pdf-list' pdf-link = 'https://www.bb.org.bd//pub/special/jul122012_fiustrategy.pdf'>.&nbsp;detail..</a>&nbsp;</a><a target="_blank" href='https://www.bb.org.bd//pub/special/jul122012_fiustrategy.pdf'>[download]</a></td></tr><tr><td>Bangladesh Bank: Recent Reform Initiatives, June, 2012<a class ='pdf-list' pdf-link = 'https://www.bb.org.bd//pub/special/14062012.pdf'>.&nbsp;detail..</a>&nbsp;</a><a target="_blank" href='https://www.bb.org.bd//pub/special/14062012.pdf'>[download]</a></td></tr><tr><td>Banks beside destitute people in winter, 2010-2011<a class ='pdf-list' pdf-link = 'https://www.bb.org.bd//pub/annual/dos_pub_winter/dos_pub_winter2011.pdf'>.&nbsp;detail..</a>&nbsp;</a><a target="_blank" href='https://www.bb.org.bd//pub/annual/dos_pub_winter/dos_pub_winter2011.pdf'>[download]</a></td></tr>								</table>
+							</span>
+							<a id="close-pdf-detail" href="#" style="display: none;"><< Back</a>
+							<iframe id="pdf-details" src="" style="width:100%; height:400px; right:0; top:0; bottom:0; display: none;"></iframe>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+</div>
+
+
+
+
+<script type="text/javascript">
+	$(document).ready(function(){
+		$('.pdf-list').click(function(e){
+			e.preventDefault();
+
+			console.log("pdf list clicked");
+
+			var url = $(this).attr('pdf-link');
+			$('.pdf-container').hide('slow');
+			$('#pdf-details').attr('src',url);
+			$('#pdf-details').show('slow');
+			$('#close-pdf-detail').show();
+		});
+
+		$('#close-pdf-detail').click(function(e){
+			e.preventDefault();
+			$(this).hide();
+			$('.pdf-container').css('display','block');
+			$('#pdf-details').hide('slow');
+		});
+
+	});
+
+</script>
+
+<footer class="footer">
+	<div class="row">
+		<div class="col-sm-4">
+			<div class="colwrapper">
+				<div class="contact">
+					<h2>Contact</h2>
+					<div class="widget">
+						<!-- <i class="fa fa-map-marker"></i>-->
+						<svg version="1.1" xmlns="http://www.w3.org/2000/svg" width="20" height="20"
+							 viewBox="0 0 20 20">
+							<title>location-pin</title>
+							<path d="M10 2.009c-2.762 0-5 2.229-5 4.99 0 4.774 5 11 5 11s5-6.227 5-11c0-2.76-2.238-4.99-5-4.99zM10 9.76c-1.492 0-2.7-1.209-2.7-2.7s1.208-2.7 2.7-2.7c1.49 0 2.699 1.209 2.699 2.7s-1.209 2.7-2.699 2.7z"></path>
+						</svg>
+						<span>Bangladesh Bank, Motijheel, Dhaka</span>
+					</div>
+					<div class="widget">
+						<!--<i class="fa fa-phone"></i>-->
+
+						<svg  version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+							  width="34.545px" height="34.545px" viewBox="0 0 34.545 34.545" style="enable-background:new 0 0 34.545 34.545;"
+							  xml:space="preserve"><g><path d="M34.371,13.114c-0.043,0.217-0.045,0.441-0.129,0.646c-0.498,1.202-1.429,2.197-2.116,3.305
+		c-0.885,1.414-8.404-1.633-7.435-3.521c0.365-0.698,1.788-2.626,1.896-3.401c0.098-0.691-0.818-1.233-1.664-1.303
+		c-2.231-0.18-5.084-0.017-7.453-0.002V8.84c-0.063,0-0.133,0-0.197-0.001C17.208,8.84,17.138,8.84,17.076,8.84V8.838
+		c-2.37-0.015-5.221-0.178-7.453,0.002C8.777,8.91,7.861,9.452,7.959,10.144c0.107,0.775,1.531,2.703,1.896,3.401
+		c0.971,1.888-6.551,4.935-7.436,3.521c-0.688-1.107-1.617-2.103-2.115-3.305c-0.084-0.205-0.087-0.43-0.13-0.646
+		c-1.103-4.93,3.149-9.96,9.551-10.475c2.446-0.199,4.897-0.311,7.351-0.354V2.272c0.066,0.002,0.131,0.006,0.197,0.007
+		c0.066-0.001,0.131-0.005,0.197-0.007v0.013c2.453,0.044,4.904,0.155,7.35,0.354C31.223,3.154,35.475,8.186,34.371,13.114z
+		 M29.975,30.124c0.069,1.183-0.703,2.148-1.723,2.148H6.293c-1.017,0-1.792-0.967-1.722-2.148l0.641-10.783
+		c2.327-0.545,5.301-1.969,6.38-3.737c0.601-0.985,0.665-2.094,0.171-3.055c-0.125-0.24-0.359-0.615-0.628-1.033l-0.001-0.002
+		c-0.008-0.019-0.008-0.019-0.014-0.032h11.953c-0.006,0.017-0.008,0.02-0.018,0.044c-0.15,0.361-0.201,0.638-0.173,0.847
+		c-0.034,0.061-0.082,0.138-0.108,0.188c-0.488,0.948-0.424,2.058,0.177,3.042c1.079,1.77,4.051,3.191,6.378,3.736L29.975,30.124z
+		 M21.473,18.932c-2.302-2.301-6.043-2.301-8.346,0c-2.301,2.301-2.301,6.044,0,8.345c2.083,2.083,5.345,2.273,7.651,0.586
+		l-1.443-1.441c-1.502,0.922-3.494,0.742-4.794-0.559c-1.521-1.521-1.521-3.995,0.001-5.517c1.521-1.521,3.995-1.521,5.517,0
+		c1.294,1.294,1.477,3.272,0.568,4.772l1.445,1.445C23.746,24.257,23.549,21.009,21.473,18.932z"/></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g></svg>
+						<span>Phone: +880-255665001-6</span>
+					</div>
+					<div class="widget">
+						<!--<i class="fa fa-envelope-o"></i>-->
+						<svg version="1.1" xmlns="http://www.w3.org/2000/svg" width="20" height="20"
+							 viewBox="0 0 20 20">
+							<title>mail</title>
+							<path d="M1.574 5.286c0.488 0.262 7.248 3.894 7.5 4.029s0.578 0.199 0.906 0.199c0.328 0 0.654-0.064 0.906-0.199s7.012-3.767 7.5-4.029c0.489-0.263 0.951-1.286 0.054-1.286h-16.919c-0.897 0-0.435 1.023 0.053 1.286zM18.613 7.489c-0.555 0.289-7.387 3.849-7.727 4.027s-0.578 0.199-0.906 0.199-0.566-0.021-0.906-0.199-7.133-3.739-7.688-4.028c-0.39-0.204-0.386 0.035-0.386 0.219s0 7.293 0 7.293c0 0.42 0.566 1 1 1h16c0.434 0 1-0.58 1-1 0 0 0-7.108 0-7.292s0.004-0.423-0.387-0.219z"></path>
+						</svg>
+						<span class="tooltip-top"  data-tooltip="Only for BB Website related feedback/query">E-mail: webmaster@bb.org.bd</span>
+					</div>
+					<div class="other_purpouse"><span><a href="/en/index.php/about/contact">Contact for other purposes</a></span></div>
+				</div>
+
+			</div>
+
+		</div>
+		<div class="col-sm-4">
+			<div class="colwrapper">
+				<h2>Useful Links</h2>
+				<ul class="list">
+				<li class="list_item"><a href="../feidportal/index.php"><i class="fa fa-angle-right"></i>
+				Foreign Investment and Financing Portal
+						</a>
+					</li>
+					<li class="list_item"><a href="/en/index.php/financialactivity/paysystems"><i class="fa fa-angle-right"></i>
+							Payment Systems						</a>
+					</li>
+					<li class="list_item"><a href="/en/index.php/about/guidelist"><i class="fa fa-angle-right"></i>
+							Regulations And Guidelines						</a>
+					</li>
+					<li class="list_item"><a href="/en/index.php/museum/index"><i class="fa fa-angle-right"></i>
+							Currency Museum</a> | <a href="/en/index.php/currency/index">Banknotes and Coins</a>
+					</li>
+					<li class="list_item"><a href="/en/index.php/saarcfinance/saarcfinance"><i class="fa fa-angle-right"></i>
+							SAARCFINANCE						</a>
+					</li>
+					<!--li class="list_item"><a href="https://bidaquickserv.org" target='_new'><i class="fa fa-angle-right"></i>
+							BIDA One Stop Service (OSS) Portal
+						</a>
+					</li-->
+					<!--li class="list_item"><a href="https://finlit.bb.org.bd"  rel = "noopener noreferrer"  target="_blank"><i
+								class="fa fa-angle-right"></i>
+							Financial Literacy						</a>
+					</li-->
+					
+					<li class="list_item"><a href="/en/index.php/about/national_ict_policy"><i
+								class="fa fa-angle-right"></i>
+							National ICT Policy						</a>
+					</li>
+					
+						<li class="list_item"><a href="https://www.bb.org.bd/bbta_portal/index.php/bbta/bbtajournal"><i
+								class="fa fa-angle-right"></i>
+							BBTA Journal: Thoughts on Banking and Finance
+						</a>
+					</li>
+
+
+
+				</ul>
+			</div>
+		</div>
+		<div class="col-sm-4">
+			<div class="colwrapper">
+				<div class="stay-connected">
+					<h2 >Stay connected</h2>
+					<div class="social-icons circle social-hover">
+						<ul class="list-inline">
+							<li class="social-facebook"><a href='https://www.facebook.com/BangladeshBankOfficial' class="tooltip-top" target="_blank" href="#" data-tooltip="Facebook"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+							<li class="social-twitter"><a href='https://twitter.com/BBGovernor' class="tooltip-top" target="_blank" href="#" data-tooltip="Twitter"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+							<li class="social-linkedin"><a href='https://www.youtube.com/c/BangladeshBankOfficial' class=" tooltip-top" target="_blank" href="#" data-tooltip="Youtube"><i class="fa fa-youtube" aria-hidden="true"></i></a></li>
+						</ul>
+					</div>
+
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="top-line">
+		<div class="row">
+			<div class="col-sm-12">
+				<ul class="info_list">
+					<li class="info_list_item"><a href="/en/">Home</a></li>
+					<li class="info_list_item"><a href="/en/index.php/home/sitemap">Sitemap</a></li>
+					<li class="info_list_item"><a href="mailto:webmaster@bb.org.bd?subject=Feedback on Bangladesh Bank Website" title='eMail Feedback'>Feedback</a></li>
+				</ul>
+
+			</div>
+		</div>
+	</div>
+
+	<!--copyright section-->
+	<div class="row">
+		<div class="col-sm-12 copyright"><span><b style="font-weight: 600;">Disclaimer:</b> 	While every effort is made to ensure accuracy of the information in this website, Bangladesh Bank assumes no responsibility for any damages or losses to users resulting from any error/omission/inadvertent alteration in information provided by this website.</span></div>
+	</div>
+</footer>
+<!-- Begining of footer -->
+</div><!-- end of wrapper_inner -->
+
+</div>
+<!-- ./wrapper -->
+
+
+<script src="/en/assets/js/jquery.min.js"></script>
+<script src="/en/assets/js/easing.min.js"></script>
+<script src="/en/assets/js/jquery.plugin.js"></script>
+<script src="/en/assets/js/jquery.newsTicker.min.js"></script>
+<script src="/en/assets/plugins/swiper/swiper.js"></script>
+<!--<script src=""></script>-->
+<script src="/en/assets/js/wow.min.js"></script>
+<script src="/en/assets/js/jquery.scrollUp.min.js"></script>
+
+<script src="/en/assets/js/datepicker.min.js"></script>
+<script src="/en/assets/js/datepicker.en.js"></script>
+<script src="/en/assets/js/jquery.more.js"></script>
+<script src="/en/assets/js/modernizr-custom.js"></script>
+<script src="/en/assets/js/polyfill.js"></script>
+<script src="/en/assets/js/main.js"></script>
+<script src="/en/assets/js/datatables.min.js"></script>
+
+
+</body>
+</html>
