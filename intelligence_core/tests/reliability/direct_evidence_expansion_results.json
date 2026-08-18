@@ -1,0 +1,14 @@
+{
+  "total_audited": 300,
+  "old_direct_pct": 83.0,
+  "new_direct_pct": 88.3,
+  "improvement_pp": 5.3,
+  "old_dist": {
+    "DIRECT_EVIDENCE": 249,
+    "INDIRECT_EVIDENCE": 51
+  },
+  "new_dist": {
+    "DIRECT_EVIDENCE": 265,
+    "INDIRECT_EVIDENCE": 35
+  }
+}

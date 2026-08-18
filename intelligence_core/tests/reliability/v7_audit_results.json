@@ -1,0 +1,532 @@
+{
+  "integrity": {
+    "events": 153,
+    "facts": 5162,
+    "evidence": 5162,
+    "documents": 937,
+    "representations": 1287,
+    "sources": 95,
+    "broken_chains": 0,
+    "ok_chains": 153,
+    "orphan_facts": 3618,
+    "orphan_evidence": 0,
+    "orphan_events": 0,
+    "multi_version_events": 0,
+    "pass": true
+  },
+  "event_audit": {
+    "total_audited": 61,
+    "event_valid": 61,
+    "event_ambiguous": 0,
+    "event_false_positive": 0,
+    "event_precision_pct": 100.0,
+    "false_positive_rate_pct": 0.0,
+    "audit_results": [
+      {
+        "io_id": "io-9e2848265ad5928d",
+        "event_type": "monetary_policy_decision",
+        "source_id": "imp-bank-of-england",
+        "event_semantic": "SEMANTICALLY_VALID",
+        "event_reason": "document contains 2 context patterns",
+        "multi_event": "EVENTS_SEMANTICALLY_DISTINCT"
+      },
+      {
+        "io_id": "io-e57db30de41a9d7e",
+        "event_type": "monetary_policy_decision",
+        "source_id": "imp-swiss-national-bank",
+        "event_semantic": "SEMANTICALLY_VALID",
+        "event_reason": "document contains 2 context patterns",
+        "multi_event": "EVENTS_SEMANTICALLY_DISTINCT"
+      },
+      {
+        "io_id": "io-34acaea89e0d8ab2",
+        "event_type": "monetary_policy_decision",
+        "source_id": "imp-ecb",
+        "event_semantic": "SEMANTICALLY_VALID",
+        "event_reason": "document contains 2 context patterns",
+        "multi_event": "EVENTS_SEMANTICALLY_DISTINCT"
+      },
+      {
+        "io_id": "io-3be348eb6518bd7f",
+        "event_type": "monetary_policy_decision",
+        "source_id": "imp-bank-of-england",
+        "event_semantic": "SEMANTICALLY_VALID",
+        "event_reason": "document contains 2 context patterns",
+        "multi_event": "EVENTS_SEMANTICALLY_DISTINCT"
+      },
+      {
+        "io_id": "io-5fa6076e9c6539fc",
+        "event_type": "monetary_policy_decision",
+        "source_id": "imp-bank-of-england",
+        "event_semantic": "SEMANTICALLY_VALID",
+        "event_reason": "document contains 2 context patterns",
+        "multi_event": "EVENTS_SEMANTICALLY_DISTINCT"
+      },
+      {
+        "io_id": "io-f252514d7487e66e",
+        "event_type": "monetary_policy_decision",
+        "source_id": "imp-ecb",
+        "event_semantic": "SEMANTICALLY_VALID",
+        "event_reason": "document contains 2 context patterns",
+        "multi_event": "EVENTS_SEMANTICALLY_DISTINCT"
+      },
+      {
+        "io_id": "io-def78e5307ee021b",
+        "event_type": "monetary_policy_decision",
+        "source_id": "src-cbk-kenya",
+        "event_semantic": "SEMANTICALLY_VALID",
+        "event_reason": "document contains 2 context patterns",
+        "multi_event": "SINGLE_EVENT"
+      },
+      {
+        "io_id": "io-45e5137f5092ee27",
+        "event_type": "monetary_policy_decision",
+        "source_id": "src-cbk-kenya",
+        "event_semantic": "SEMANTICALLY_VALID",
+        "event_reason": "document contains 2 context patterns",
+        "multi_event": "SINGLE_EVENT"
+      },
+      {
+        "io_id": "io-e773686365fda65d",
+        "event_type": "monetary_policy_decision",
+        "source_id": "src-cbk-kenya",
+        "event_semantic": "SEMANTICALLY_VALID",
+        "event_reason": "document contains 2 context patterns",
+        "multi_event": "SINGLE_EVENT"
+      },
+      {
+        "io_id": "io-099e8da90a8a370d",
+        "event_type": "monetary_policy_decision",
+        "source_id": "src-ecb-stat",
+        "event_semantic": "SEMANTICALLY_VALID",
+        "event_reason": "document contains 2 context patterns",
+        "multi_event": "SINGLE_EVENT"
+      },
+      {
+        "io_id": "io-5293d3510a6f92a5",
+        "event_type": "monetary_policy_decision",
+        "source_id": "src-cbk-kenya",
+        "event_semantic": "SEMANTICALLY_VALID",
+        "event_reason": "document contains 2 context patterns",
+        "multi_event": "SINGLE_EVENT"
+      },
+      {
+        "io_id": "io-256adcc57e30a91c",
+        "event_type": "monetary_policy_decision",
+        "source_id": "src-boc",
+        "event_semantic": "SEMANTICALLY_VALID",
+        "event_reason": "document contains 2 context patterns",
+        "multi_event": "SINGLE_EVENT"
+      },
+      {
+        "io_id": "io-fa63a0e88a6b900e",
+        "event_type": "monetary_policy_decision",
+        "source_id": "src-boc",
+        "event_semantic": "SEMANTICALLY_VALID",
+        "event_reason": "document contains 2 context patterns",
+        "multi_event": "SINGLE_EVENT"
+      },
+      {
+        "io_id": "io-be817f73577ff8e1",
+        "event_type": "statistical_release",
+        "source_id": "imp-ecb",
+        "event_semantic": "SEMANTICALLY_VALID",
+        "event_reason": "document contains 2 context patterns",
+        "multi_event": "SINGLE_EVENT"
+      },
+      {
+        "io_id": "io-bd378fea8d59bb17",
+        "event_type": "statistical_release",
+        "source_id": "imp-bank-of-england",
+        "event_semantic": "SEMANTICALLY_VALID",
+        "event_reason": "document contains 2 context patterns",
+        "multi_event": "SINGLE_EVENT"
+      },
+      {
+        "io_id": "io-dcf76f5a97a74c3e",
+        "event_type": "statistical_release",
+        "source_id": "imp-bank-of-england",
+        "event_semantic": "SEMANTICALLY_VALID",
+        "event_reason": "document contains 2 context patterns",
+        "multi_event": "EVENTS_SEMANTICALLY_DISTINCT"
+      },
+      {
+        "io_id": "io-a5963d0fb0a8b10d",
+        "event_type": "statistical_release",
+        "source_id": "imp-swiss-national-bank",
+        "event_semantic": "SEMANTICALLY_VALID",
+        "event_reason": "document contains 2 context patterns",
+        "multi_event": "EVENTS_SEMANTICALLY_DISTINCT"
+      },
+      {
+        "io_id": "io-abed2ad81fcd4f55",
+        "event_type": "statistical_release",
+        "source_id": "imp-bea",
+        "event_semantic": "SEMANTICALLY_VALID",
+        "event_reason": "document contains 2 context patterns",
+        "multi_event": "SINGLE_EVENT"
+      },
+      {
+        "io_id": "io-1305c0b3efc46d4f",
+        "event_type": "statistical_release",
+        "source_id": "imp-euronext",
+        "event_semantic": "SEMANTICALLY_VALID",
+        "event_reason": "document contains 2 context patterns",
+        "multi_event": "SINGLE_EVENT"
+      },
+      {
+        "io_id": "io-f3750c8c05f9b04c",
+        "event_type": "statistical_release",
+        "source_id": "imp-federal-reserve",
+        "event_semantic": "SEMANTICALLY_VALID",
+        "event_reason": "document contains 2 context patterns",
+        "multi_event": "SINGLE_EVENT"
+      },
+      {
+        "io_id": "io-42a1a68e297feffb",
+        "event_type": "statistical_release",
+        "source_id": "imp-ecb",
+        "event_semantic": "SEMANTICALLY_VALID",
+        "event_reason": "document contains 2 context patterns",
+        "multi_event": "SINGLE_EVENT"
+      },
+      {
+        "io_id": "io-f92aa209b5d5c885",
+        "event_type": "statistical_release",
+        "source_id": "imp-ecb",
+        "event_semantic": "SEMANTICALLY_VALID",
+        "event_reason": "document contains 2 context patterns",
+        "multi_event": "SINGLE_EVENT"
+      },
+      {
+        "io_id": "io-c6c8ac878a439394",
+        "event_type": "statistical_release",
+        "source_id": "imp-ecb",
+        "event_semantic": "SEMANTICALLY_VALID",
+        "event_reason": "document contains 2 context patterns",
+        "multi_event": "EVENTS_SEMANTICALLY_DISTINCT"
+      },
+      {
+        "io_id": "io-43450fbfbd3f5f48",
+        "event_type": "statistical_release",
+        "source_id": "imp-ecb",
+        "event_semantic": "SEMANTICALLY_VALID",
+        "event_reason": "document contains 2 context patterns",
+        "multi_event": "SINGLE_EVENT"
+      },
+      {
+        "io_id": "io-a27ee61aa6026a13",
+        "event_type": "statistical_release",
+        "source_id": "imp-ecb",
+        "event_semantic": "SEMANTICALLY_VALID",
+        "event_reason": "document contains 2 context patterns",
+        "multi_event": "EVENTS_SEMANTICALLY_DISTINCT"
+      },
+      {
+        "io_id": "io-0f57ee23f994dd09",
+        "event_type": "statistical_release",
+        "source_id": "imp-bank-of-england",
+        "event_semantic": "SEMANTICALLY_VALID",
+        "event_reason": "document contains 2 context patterns",
+        "multi_event": "SINGLE_EVENT"
+      },
+      {
+        "io_id": "io-5374d45575bb9c06",
+        "event_type": "statistical_release",
+        "source_id": "imp-bank-of-england",
+        "event_semantic": "SEMANTICALLY_VALID",
+        "event_reason": "document contains 2 context patterns",
+        "multi_event": "EVENTS_SEMANTICALLY_DISTINCT"
+      },
+      {
+        "io_id": "io-f803af6f431d9f8a",
+        "event_type": "statistical_release",
+        "source_id": "imp-bank-of-england",
+        "event_semantic": "SEMANTICALLY_VALID",
+        "event_reason": "document contains 2 context patterns",
+        "multi_event": "EVENTS_SEMANTICALLY_DISTINCT"
+      },
+      {
+        "io_id": "io-0da4c931b2a04e1a",
+        "event_type": "statistical_release",
+        "source_id": "imp-bank-of-england",
+        "event_semantic": "SEMANTICALLY_VALID",
+        "event_reason": "document contains 2 context patterns",
+        "multi_event": "SINGLE_EVENT"
+      },
+      {
+        "io_id": "io-3397bcfeb16c1522",
+        "event_type": "statistical_release",
+        "source_id": "imp-bank-of-england",
+        "event_semantic": "SEMANTICALLY_VALID",
+        "event_reason": "document contains 2 context patterns",
+        "multi_event": "SINGLE_EVENT"
+      },
+      {
+        "io_id": "io-877cfaba4b9dc235",
+        "event_type": "statistical_release",
+        "source_id": "imp-bank-of-england",
+        "event_semantic": "SEMANTICALLY_VALID",
+        "event_reason": "document contains 2 context patterns",
+        "multi_event": "SINGLE_EVENT"
+      },
+      {
+        "io_id": "io-7a2ef7f9417df7ab",
+        "event_type": "statistical_release",
+        "source_id": "imp-bank-of-england",
+        "event_semantic": "SEMANTICALLY_VALID",
+        "event_reason": "document contains 2 context patterns",
+        "multi_event": "SINGLE_EVENT"
+      },
+      {
+        "io_id": "io-e8c9109c25a423dd",
+        "event_type": "statistical_release",
+        "source_id": "imp-eurostat",
+        "event_semantic": "SEMANTICALLY_VALID",
+        "event_reason": "document contains 2 context patterns",
+        "multi_event": "SINGLE_EVENT"
+      },
+      {
+        "io_id": "io-11560eb4ca7cac3c",
+        "event_type": "statistical_release",
+        "source_id": "imp-eurostat",
+        "event_semantic": "SEMANTICALLY_VALID",
+        "event_reason": "document contains 2 context patterns",
+        "multi_event": "SINGLE_EVENT"
+      },
+      {
+        "io_id": "io-f9ad01ae17b07a63",
+        "event_type": "statistical_release",
+        "source_id": "imp-deutsche-boerse",
+        "event_semantic": "SEMANTICALLY_VALID",
+        "event_reason": "document contains 2 context patterns",
+        "multi_event": "SINGLE_EVENT"
+      },
+      {
+        "io_id": "io-03f54ef461c06001",
+        "event_type": "statistical_release",
+        "source_id": "imp-hm-treasury",
+        "event_semantic": "SEMANTICALLY_VALID",
+        "event_reason": "document contains 2 context patterns",
+        "multi_event": "SINGLE_EVENT"
+      },
+      {
+        "io_id": "io-0db41fde8c803040",
+        "event_type": "statistical_release",
+        "source_id": "imp-bea",
+        "event_semantic": "SEMANTICALLY_VALID",
+        "event_reason": "document contains 2 context patterns",
+        "multi_event": "SINGLE_EVENT"
+      },
+      {
+        "io_id": "io-8203734e329b78da",
+        "event_type": "statistical_release",
+        "source_id": "imp-bea",
+        "event_semantic": "SEMANTICALLY_VALID",
+        "event_reason": "document contains 2 context patterns",
+        "multi_event": "SINGLE_EVENT"
+      },
+      {
+        "io_id": "io-09189d018d2081b4",
+        "event_type": "statistical_release",
+        "source_id": "imp-bea",
+        "event_semantic": "SEMANTICALLY_VALID",
+        "event_reason": "document contains 2 context patterns",
+        "multi_event": "SINGLE_EVENT"
+      },
+      {
+        "io_id": "io-6e897d602140277f",
+        "event_type": "statistical_release",
+        "source_id": "imp-bank-of-england",
+        "event_semantic": "SEMANTICALLY_VALID",
+        "event_reason": "document contains 2 context patterns",
+        "multi_event": "SINGLE_EVENT"
+      },
+      {
+        "io_id": "io-8fa184904578eae6",
+        "event_type": "statistical_release",
+        "source_id": "imp-bea",
+        "event_semantic": "SEMANTICALLY_VALID",
+        "event_reason": "document contains 2 context patterns",
+        "multi_event": "SINGLE_EVENT"
+      },
+      {
+        "io_id": "io-ef612fb643faa8e7",
+        "event_type": "statistical_release",
+        "source_id": "imp-bank-of-england",
+        "event_semantic": "SEMANTICALLY_VALID",
+        "event_reason": "document contains 2 context patterns",
+        "multi_event": "SINGLE_EVENT"
+      },
+      {
+        "io_id": "io-9304252516f5b4a0",
+        "event_type": "statistical_release",
+        "source_id": "imp-bea",
+        "event_semantic": "SEMANTICALLY_VALID",
+        "event_reason": "document contains 2 context patterns",
+        "multi_event": "SINGLE_EVENT"
+      },
+      {
+        "io_id": "io-1f4d5c586252da53",
+        "event_type": "statistical_release",
+        "source_id": "imp-bank-of-england",
+        "event_semantic": "SEMANTICALLY_VALID",
+        "event_reason": "document contains 2 context patterns",
+        "multi_event": "SINGLE_EVENT"
+      },
+      {
+        "io_id": "io-0873c447e9b9733c",
+        "event_type": "statistical_release",
+        "source_id": "imp-bea",
+        "event_semantic": "SEMANTICALLY_VALID",
+        "event_reason": "document contains 2 context patterns",
+        "multi_event": "SINGLE_EVENT"
+      },
+      {
+        "io_id": "io-ca43d858fe433433",
+        "event_type": "statistical_release",
+        "source_id": "imp-bea",
+        "event_semantic": "SEMANTICALLY_VALID",
+        "event_reason": "document contains 2 context patterns",
+        "multi_event": "SINGLE_EVENT"
+      },
+      {
+        "io_id": "io-46af572e483b8e1e",
+        "event_type": "statistical_release",
+        "source_id": "imp-bank-of-england",
+        "event_semantic": "SEMANTICALLY_VALID",
+        "event_reason": "document contains 2 context patterns",
+        "multi_event": "SINGLE_EVENT"
+      },
+      {
+        "io_id": "io-82bd93037aae3793",
+        "event_type": "statistical_release",
+        "source_id": "imp-bea",
+        "event_semantic": "SEMANTICALLY_VALID",
+        "event_reason": "document contains 2 context patterns",
+        "multi_event": "SINGLE_EVENT"
+      },
+      {
+        "io_id": "io-7e619d8c238339cc",
+        "event_type": "statistical_release",
+        "source_id": "imp-bank-of-england",
+        "event_semantic": "SEMANTICALLY_VALID",
+        "event_reason": "document contains 2 context patterns",
+        "multi_event": "SINGLE_EVENT"
+      },
+      {
+        "io_id": "io-d4c7af5cba135595",
+        "event_type": "statistical_release",
+        "source_id": "imp-bea",
+        "event_semantic": "SEMANTICALLY_VALID",
+        "event_reason": "document contains 2 context patterns",
+        "multi_event": "SINGLE_EVENT"
+      },
+      {
+        "io_id": "io-dd7f1db542d212a3",
+        "event_type": "statistical_release",
+        "source_id": "imp-bank-of-england",
+        "event_semantic": "SEMANTICALLY_VALID",
+        "event_reason": "document contains 2 context patterns",
+        "multi_event": "SINGLE_EVENT"
+      },
+      {
+        "io_id": "io-a91d6a0346aee839",
+        "event_type": "statistical_release",
+        "source_id": "imp-bank-of-england",
+        "event_semantic": "SEMANTICALLY_VALID",
+        "event_reason": "document contains 2 context patterns",
+        "multi_event": "SINGLE_EVENT"
+      },
+      {
+        "io_id": "io-454f87f528df1d85",
+        "event_type": "statistical_release",
+        "source_id": "imp-bank-of-england",
+        "event_semantic": "SEMANTICALLY_VALID",
+        "event_reason": "document contains 2 context patterns",
+        "multi_event": "SINGLE_EVENT"
+      },
+      {
+        "io_id": "io-1ca8a75ee22968f7",
+        "event_type": "regulatory_enforcement",
+        "source_id": "imp-sec",
+        "event_semantic": "SEMANTICALLY_VALID",
+        "event_reason": "document contains 2 context patterns",
+        "multi_event": "SINGLE_EVENT"
+      },
+      {
+        "io_id": "io-86eb51402109b465",
+        "event_type": "regulatory_enforcement",
+        "source_id": "imp-sec",
+        "event_semantic": "SEMANTICALLY_VALID",
+        "event_reason": "document contains 2 context patterns",
+        "multi_event": "SINGLE_EVENT"
+      },
+      {
+        "io_id": "io-7fb679b134aeabb3",
+        "event_type": "regulatory_enforcement",
+        "source_id": "imp-sec",
+        "event_semantic": "SEMANTICALLY_VALID",
+        "event_reason": "document contains 2 context patterns",
+        "multi_event": "SINGLE_EVENT"
+      },
+      {
+        "io_id": "io-732c2593f8322d3e",
+        "event_type": "regulatory_enforcement",
+        "source_id": "imp-ecb",
+        "event_semantic": "SEMANTICALLY_VALID",
+        "event_reason": "document contains 2 context patterns",
+        "multi_event": "EVENTS_SEMANTICALLY_DISTINCT"
+      },
+      {
+        "io_id": "io-1dad53e489db8113",
+        "event_type": "regulatory_enforcement",
+        "source_id": "imp-bank-of-england",
+        "event_semantic": "SEMANTICALLY_VALID",
+        "event_reason": "document contains 2 context patterns",
+        "multi_event": "EVENTS_SEMANTICALLY_DISTINCT"
+      },
+      {
+        "io_id": "io-43d4e65609c4843a",
+        "event_type": "regulatory_enforcement",
+        "source_id": "imp-fca",
+        "event_semantic": "SEMANTICALLY_VALID",
+        "event_reason": "document contains 1 context patterns",
+        "multi_event": "SINGLE_EVENT"
+      },
+      {
+        "io_id": "io-e7f1ab14fa41db16",
+        "event_type": "regulatory_enforcement",
+        "source_id": "imp-fca",
+        "event_semantic": "SEMANTICALLY_VALID",
+        "event_reason": "document contains 2 context patterns",
+        "multi_event": "SINGLE_EVENT"
+      },
+      {
+        "io_id": "io-06e3082b313fcdc5",
+        "event_type": "regulatory_enforcement",
+        "source_id": "src-dfsa-uae",
+        "event_semantic": "SEMANTICALLY_VALID",
+        "event_reason": "document contains 2 context patterns",
+        "multi_event": "SINGLE_EVENT"
+      }
+    ]
+  },
+  "fact_audit": {
+    "total_facts_audited": 500,
+    "fact_quality_dist": {
+      "DIRECTLY_SUPPORTED": 483,
+      "PARTIALLY_SUPPORTED": 4,
+      "WRONG_CONTEXT": 3,
+      "INSUFFICIENT_EVIDENCE": 10
+    },
+    "evidence_grounding_dist": {
+      "DIRECT_EVIDENCE": 354,
+      "INDIRECT_EVIDENCE": 146
+    },
+    "fact_precision_pct": 97.4,
+    "direct_evidence_pct": 70.8,
+    "evidence_grounding_pct": 100.0,
+    "insufficient_evidence_pct": 0.0
+  }
+}

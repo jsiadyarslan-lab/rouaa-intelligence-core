@@ -1,0 +1,363 @@
+{
+  "original_626": 626,
+  "reconstructable_old": 426,
+  "surviving": 153,
+  "removed": 354,
+  "classification": {
+    "INSUFFICIENT_CONTEXT": 256,
+    "WRONG_EVENT_TYPE": 13,
+    "STALE_FACT": 85
+  },
+  "removed_details": [
+    {
+      "io_id": "io-502948f2ca1a93b2",
+      "event_type": "regulatory_enforcement",
+      "source_id": "imp-ecb",
+      "doc_id": "doc-ac00651c0093d6f9",
+      "classification": "INSUFFICIENT_CONTEXT"
+    },
+    {
+      "io_id": "io-0a2164dff20884fa",
+      "event_type": "regulatory_enforcement",
+      "source_id": "imp-ecb",
+      "doc_id": "doc-737e4fff6a05c09d",
+      "classification": "INSUFFICIENT_CONTEXT"
+    },
+    {
+      "io_id": "io-74b51eefd13974d9",
+      "event_type": "statistical_release",
+      "source_id": "imp-bank-of-england",
+      "doc_id": "doc-5ecb669f6f2ea51a",
+      "classification": "INSUFFICIENT_CONTEXT"
+    },
+    {
+      "io_id": "io-75a06a2f45490126",
+      "event_type": "regulatory_enforcement",
+      "source_id": "imp-bank-of-england",
+      "doc_id": "doc-5ecb669f6f2ea51a",
+      "classification": "INSUFFICIENT_CONTEXT"
+    },
+    {
+      "io_id": "io-83290c6d58917455",
+      "event_type": "regulatory_enforcement",
+      "source_id": "imp-bank-of-england",
+      "doc_id": "doc-b1ffbaa20d211ae5",
+      "classification": "INSUFFICIENT_CONTEXT"
+    },
+    {
+      "io_id": "io-770ce167a478e86d",
+      "event_type": "regulatory_enforcement",
+      "source_id": "imp-bank-of-england",
+      "doc_id": "doc-60379f7197c52080",
+      "classification": "INSUFFICIENT_CONTEXT"
+    },
+    {
+      "io_id": "io-3e9cc890c8500c3a",
+      "event_type": "regulatory_enforcement",
+      "source_id": "imp-swiss-national-bank",
+      "doc_id": "doc-3977e22b6168c0e8",
+      "classification": "INSUFFICIENT_CONTEXT"
+    },
+    {
+      "io_id": "io-7111a5a79c44efc1",
+      "event_type": "statistical_release",
+      "source_id": "imp-eurostat",
+      "doc_id": "doc-632f5af27cb8e177",
+      "classification": "INSUFFICIENT_CONTEXT"
+    },
+    {
+      "io_id": "io-90d70bff856232d9",
+      "event_type": "statistical_release",
+      "source_id": "imp-eurostat",
+      "doc_id": "doc-ab8dbef146c79b7d",
+      "classification": "INSUFFICIENT_CONTEXT"
+    },
+    {
+      "io_id": "io-ff37a930337d027d",
+      "event_type": "statistical_release",
+      "source_id": "imp-sec",
+      "doc_id": "doc-9a2c3554bf239005",
+      "classification": "INSUFFICIENT_CONTEXT"
+    },
+    {
+      "io_id": "io-ee8a8257ce0e86ba",
+      "event_type": "regulatory_enforcement",
+      "source_id": "imp-cftc",
+      "doc_id": "doc-c35a0a455e177d33",
+      "classification": "INSUFFICIENT_CONTEXT"
+    },
+    {
+      "io_id": "io-b6abac1393987508",
+      "event_type": "regulatory_enforcement",
+      "source_id": "imp-esma",
+      "doc_id": "doc-4af3271a80d211ac",
+      "classification": "INSUFFICIENT_CONTEXT"
+    },
+    {
+      "io_id": "io-5150003cff76e0ab",
+      "event_type": "regulatory_enforcement",
+      "source_id": "imp-esma",
+      "doc_id": "doc-5a0d604dbdfb38d7",
+      "classification": "INSUFFICIENT_CONTEXT"
+    },
+    {
+      "io_id": "io-eb4ea7a98e0e81d3",
+      "event_type": "regulatory_enforcement",
+      "source_id": "imp-esma",
+      "doc_id": "doc-feed6a6cbc4d4c7b",
+      "classification": "INSUFFICIENT_CONTEXT"
+    },
+    {
+      "io_id": "io-f76ffc30691c854c",
+      "event_type": "regulatory_enforcement",
+      "source_id": "imp-fca",
+      "doc_id": "doc-b72c1ee4a05de89b",
+      "classification": "INSUFFICIENT_CONTEXT"
+    },
+    {
+      "io_id": "io-dad634ac3611cf76",
+      "event_type": "statistical_release",
+      "source_id": "imp-fca",
+      "doc_id": "doc-b72c1ee4a05de89b",
+      "classification": "INSUFFICIENT_CONTEXT"
+    },
+    {
+      "io_id": "io-936e16f976e71fe5",
+      "event_type": "regulatory_enforcement",
+      "source_id": "imp-fca",
+      "doc_id": "doc-ef790d13880c21e9",
+      "classification": "INSUFFICIENT_CONTEXT"
+    },
+    {
+      "io_id": "io-96b850ecfc14179c",
+      "event_type": "regulatory_enforcement",
+      "source_id": "imp-ecb",
+      "doc_id": "doc-19a6ebb8b8b9eadd",
+      "classification": "INSUFFICIENT_CONTEXT"
+    },
+    {
+      "io_id": "io-fe0ecf5fbcc92531",
+      "event_type": "regulatory_enforcement",
+      "source_id": "imp-ecb",
+      "doc_id": "doc-d01c2992c5cd85d6",
+      "classification": "INSUFFICIENT_CONTEXT"
+    },
+    {
+      "io_id": "io-53e5a9c7cd15ad6a",
+      "event_type": "regulatory_enforcement",
+      "source_id": "imp-ecb",
+      "doc_id": "doc-7d5803d21c44a224",
+      "classification": "INSUFFICIENT_CONTEXT"
+    },
+    {
+      "io_id": "io-782c93aef698b6d0",
+      "event_type": "regulatory_enforcement",
+      "source_id": "imp-ecb",
+      "doc_id": "doc-44ed79d6f03cb173",
+      "classification": "INSUFFICIENT_CONTEXT"
+    },
+    {
+      "io_id": "io-9734c0470f839754",
+      "event_type": "regulatory_enforcement",
+      "source_id": "imp-ecb",
+      "doc_id": "doc-90ec453edce4dd75",
+      "classification": "INSUFFICIENT_CONTEXT"
+    },
+    {
+      "io_id": "io-9416a7f381678967",
+      "event_type": "regulatory_enforcement",
+      "source_id": "imp-bank-of-england",
+      "doc_id": "doc-6a8a4047814c4caf",
+      "classification": "INSUFFICIENT_CONTEXT"
+    },
+    {
+      "io_id": "io-7909cd3d96658047",
+      "event_type": "regulatory_enforcement",
+      "source_id": "imp-bank-of-england",
+      "doc_id": "doc-fb1d49f16ce70f30",
+      "classification": "INSUFFICIENT_CONTEXT"
+    },
+    {
+      "io_id": "io-4ddd559b9c741fda",
+      "event_type": "regulatory_enforcement",
+      "source_id": "imp-bank-of-england",
+      "doc_id": "doc-8670676aae5747a2",
+      "classification": "INSUFFICIENT_CONTEXT"
+    },
+    {
+      "io_id": "io-b56ad53953fabd42",
+      "event_type": "regulatory_enforcement",
+      "source_id": "imp-bank-of-england",
+      "doc_id": "doc-58a17bc270cbef4b",
+      "classification": "INSUFFICIENT_CONTEXT"
+    },
+    {
+      "io_id": "io-962e5840c6a2d861",
+      "event_type": "regulatory_enforcement",
+      "source_id": "imp-bank-of-england",
+      "doc_id": "doc-9aba40de54073a00",
+      "classification": "INSUFFICIENT_CONTEXT"
+    },
+    {
+      "io_id": "io-5ca293a93a2ed2fe",
+      "event_type": "regulatory_enforcement",
+      "source_id": "imp-bank-of-england",
+      "doc_id": "doc-ebb300b7f6e60f66",
+      "classification": "WRONG_EVENT_TYPE"
+    },
+    {
+      "io_id": "io-de958935fa3a954f",
+      "event_type": "regulatory_enforcement",
+      "source_id": "imp-bank-of-england",
+      "doc_id": "doc-174ac38ca0153eb8",
+      "classification": "INSUFFICIENT_CONTEXT"
+    },
+    {
+      "io_id": "io-9afd87c5c7ce7adf",
+      "event_type": "statistical_release",
+      "source_id": "imp-stats-china",
+      "doc_id": "doc-6a5080876f147da8",
+      "classification": "INSUFFICIENT_CONTEXT"
+    },
+    {
+      "io_id": "io-510e7472d7e96491",
+      "event_type": "regulatory_enforcement",
+      "source_id": "imp-sec",
+      "doc_id": "doc-31270f0e83371c52",
+      "classification": "INSUFFICIENT_CONTEXT"
+    },
+    {
+      "io_id": "io-c9a99641456b9d93",
+      "event_type": "regulatory_enforcement",
+      "source_id": "imp-cftc",
+      "doc_id": "doc-a6331135eddf955b",
+      "classification": "INSUFFICIENT_CONTEXT"
+    },
+    {
+      "io_id": "io-618b1bf27c651c5a",
+      "event_type": "regulatory_enforcement",
+      "source_id": "imp-cftc",
+      "doc_id": "doc-00c1c3e3f6e4d5ec",
+      "classification": "WRONG_EVENT_TYPE"
+    },
+    {
+      "io_id": "io-3ba6bc20160d3cd7",
+      "event_type": "regulatory_enforcement",
+      "source_id": "imp-esma",
+      "doc_id": "doc-9ccd1716031e5939",
+      "classification": "INSUFFICIENT_CONTEXT"
+    },
+    {
+      "io_id": "io-4323d212da946519",
+      "event_type": "regulatory_enforcement",
+      "source_id": "imp-esma",
+      "doc_id": "doc-708c6cc84dc76280",
+      "classification": "INSUFFICIENT_CONTEXT"
+    },
+    {
+      "io_id": "io-bbb8485464e13316",
+      "event_type": "regulatory_enforcement",
+      "source_id": "imp-esma",
+      "doc_id": "doc-df48a4c1d05c75f2",
+      "classification": "INSUFFICIENT_CONTEXT"
+    },
+    {
+      "io_id": "io-617804e0b8d7b49a",
+      "event_type": "regulatory_enforcement",
+      "source_id": "imp-esma",
+      "doc_id": "doc-c563b94166f8c3f3",
+      "classification": "INSUFFICIENT_CONTEXT"
+    },
+    {
+      "io_id": "io-db1df3ae20d1206f",
+      "event_type": "regulatory_enforcement",
+      "source_id": "imp-esma",
+      "doc_id": "doc-17e61e8f13f535b3",
+      "classification": "INSUFFICIENT_CONTEXT"
+    },
+    {
+      "io_id": "io-9085ed58996e2289",
+      "event_type": "regulatory_enforcement",
+      "source_id": "imp-esma",
+      "doc_id": "doc-0a73b65236f87f19",
+      "classification": "INSUFFICIENT_CONTEXT"
+    },
+    {
+      "io_id": "io-cb958bd7f073a0e5",
+      "event_type": "regulatory_enforcement",
+      "source_id": "imp-esma",
+      "doc_id": "doc-116ab80aa3fbec96",
+      "classification": "INSUFFICIENT_CONTEXT"
+    },
+    {
+      "io_id": "io-30022112e390cb2f",
+      "event_type": "regulatory_enforcement",
+      "source_id": "imp-fca",
+      "doc_id": "doc-b6a3b4fd764791c8",
+      "classification": "INSUFFICIENT_CONTEXT"
+    },
+    {
+      "io_id": "io-16e3bbf4e5b244a6",
+      "event_type": "statistical_release",
+      "source_id": "imp-fca",
+      "doc_id": "doc-b6a3b4fd764791c8",
+      "classification": "INSUFFICIENT_CONTEXT"
+    },
+    {
+      "io_id": "io-c5ec857e86a2a369",
+      "event_type": "regulatory_enforcement",
+      "source_id": "imp-fca",
+      "doc_id": "doc-361ea7bf66de3730",
+      "classification": "INSUFFICIENT_CONTEXT"
+    },
+    {
+      "io_id": "io-bea0b6a376d6f629",
+      "event_type": "monetary_policy_decision",
+      "source_id": "imp-deutsche-boerse",
+      "doc_id": "doc-bd24a49fcae6e681",
+      "classification": "INSUFFICIENT_CONTEXT"
+    },
+    {
+      "io_id": "io-b73f1b5cfe2f69e4",
+      "event_type": "statistical_release",
+      "source_id": "imp-fsb",
+      "doc_id": "doc-109eefd982264392",
+      "classification": "INSUFFICIENT_CONTEXT"
+    },
+    {
+      "io_id": "io-db7a69c2f3f53e85",
+      "event_type": "regulatory_enforcement",
+      "source_id": "imp-bank-of-england",
+      "doc_id": "doc-c4cc15e96080ff01",
+      "classification": "INSUFFICIENT_CONTEXT"
+    },
+    {
+      "io_id": "io-a565bcfb04210a7b",
+      "event_type": "regulatory_enforcement",
+      "source_id": "imp-bank-of-england",
+      "doc_id": "doc-28640ff4b877a2dd",
+      "classification": "INSUFFICIENT_CONTEXT"
+    },
+    {
+      "io_id": "io-eb361be300a6d704",
+      "event_type": "regulatory_enforcement",
+      "source_id": "imp-bank-of-england",
+      "doc_id": "doc-b01d2e24e19e7c21",
+      "classification": "INSUFFICIENT_CONTEXT"
+    },
+    {
+      "io_id": "io-2838d0e193780787",
+      "event_type": "regulatory_enforcement",
+      "source_id": "imp-bank-of-england",
+      "doc_id": "doc-7919051cdd81c08f",
+      "classification": "INSUFFICIENT_CONTEXT"
+    },
+    {
+      "io_id": "io-39cfc3b482bba190",
+      "event_type": "regulatory_enforcement",
+      "source_id": "imp-cftc",
+      "doc_id": "doc-5d55c41d98f4dd08",
+      "classification": "INSUFFICIENT_CONTEXT"
+    }
+  ]
+}

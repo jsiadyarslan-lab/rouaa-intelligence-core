@@ -131,3 +131,22 @@ Work Log:
 Stage Summary:
 - Starting: Event Precision 95.0%, False Positives 2.5%, Direct Evidence 73.5%
 - Target: Event Precision ≥98%, False Positives = 0%, Direct Evidence ≥90%
+
+---
+Task ID: EVIDENCE-CORPUS-RECONCILIATION-V7
+Agent: main
+Task: Execute CORE EVIDENCE & CORPUS RECONCILIATION V7 — explain 626→153 reduction, close Direct Evidence gap to ≥90%, audit 120+ events + 500+ facts, build 60+ golden IOs.
+
+Work Log:
+- Phase A: Full 626→153 reconciliation (classify every removed IO)
+- Phase B: Corpus integrity verification (0 broken chains, 0 orphans)
+- Phase C: 120-event audit (stratified 40/40/40)
+- Phase D: 500-fact audit
+- Phase E: Direct Evidence gap closure (sentence/paragraph/table extraction)
+- Phase F: Multilingual evidence matrix
+- Phase G: 60+ golden corpus + regression
+- Phase H: V7 evidence document
+
+Stage Summary:
+- Starting: 153 IOs, Direct Evidence 73.5%, Event Precision 100% (on 61 sample)
+- Target: Event Precision ≥98% (on 120+), Fact Precision ≥98% (on 500+), Direct Evidence ≥90% (on 300+)
