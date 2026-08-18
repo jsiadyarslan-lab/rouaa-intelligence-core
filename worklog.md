@@ -181,3 +181,16 @@ Phase D: Analyze + fix 270 INDIRECT evidence (navigation/UI exclusion)
 Phase E: Recovery after fixes
 Phase F: 60+ golden corpus
 Phase G: V9 evidence document
+
+---
+Task ID: EVIDENCE-SUBSTRATE-CLOSURE-V10
+Agent: main
+Task: Close evidence quality gap — Fact Precision ≥99.5%, Direct Evidence ≥95%. Fix 19 fact failures, classify 270 INDIRECT, implement evidence selector architecture, re-extract with navigation exclusion.
+
+Phase A: Forensic analysis of 19 fact failures
+Phase B: Implement deterministic evidence selector (sentence→table→list→paragraph→bounded)
+Phase C: Classify 270 INDIRECT facts (8-way classification)
+Phase D: Re-extract with navigation exclusion + evidence selector
+Phase E: Full census re-audit (153 IOs + all facts)
+Phase F: 60+ golden corpus
+Phase G: V10 evidence document

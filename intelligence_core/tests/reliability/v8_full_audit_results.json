@@ -1,13 +1,13 @@
 {
   "survivor_audit": {
-    "total": 153,
-    "valid": 153,
+    "total": 141,
+    "valid": 141,
     "ambiguous": 0,
     "false_positive": 0,
     "event_precision_pct": 100.0,
     "false_positive_rate_pct": 0.0,
-    "numerator": 153,
-    "denominator": 153,
+    "numerator": 141,
+    "denominator": 141,
     "universe": "all surviving events",
     "sample": "census (100% of corpus)",
     "results": [
@@ -15,13 +15,6 @@
         "io_id": "io-be817f73577ff8e1",
         "event_type": "statistical_release",
         "source_id": "imp-ecb",
-        "status": "SEMANTICALLY_VALID",
-        "reason": "document has sufficient context (2/2 patterns matched)"
-      },
-      {
-        "io_id": "io-bd378fea8d59bb17",
-        "event_type": "statistical_release",
-        "source_id": "imp-bank-of-england",
         "status": "SEMANTICALLY_VALID",
         "reason": "document has sufficient context (2/2 patterns matched)"
       },
@@ -78,13 +71,6 @@
         "io_id": "io-7fb679b134aeabb3",
         "event_type": "regulatory_enforcement",
         "source_id": "imp-sec",
-        "status": "SEMANTICALLY_VALID",
-        "reason": "document has sufficient context (2/2 patterns matched)"
-      },
-      {
-        "io_id": "io-1305c0b3efc46d4f",
-        "event_type": "statistical_release",
-        "source_id": "imp-euronext",
         "status": "SEMANTICALLY_VALID",
         "reason": "document has sufficient context (2/2 patterns matched)"
       },
@@ -180,28 +166,7 @@
         "reason": "document has sufficient context (2/2 patterns matched)"
       },
       {
-        "io_id": "io-0da4c931b2a04e1a",
-        "event_type": "statistical_release",
-        "source_id": "imp-bank-of-england",
-        "status": "SEMANTICALLY_VALID",
-        "reason": "document has sufficient context (2/2 patterns matched)"
-      },
-      {
-        "io_id": "io-3397bcfeb16c1522",
-        "event_type": "statistical_release",
-        "source_id": "imp-bank-of-england",
-        "status": "SEMANTICALLY_VALID",
-        "reason": "document has sufficient context (2/2 patterns matched)"
-      },
-      {
         "io_id": "io-877cfaba4b9dc235",
-        "event_type": "statistical_release",
-        "source_id": "imp-bank-of-england",
-        "status": "SEMANTICALLY_VALID",
-        "reason": "document has sufficient context (2/2 patterns matched)"
-      },
-      {
-        "io_id": "io-7a2ef7f9417df7ab",
         "event_type": "statistical_release",
         "source_id": "imp-bank-of-england",
         "status": "SEMANTICALLY_VALID",
@@ -211,20 +176,6 @@
         "io_id": "io-e8c9109c25a423dd",
         "event_type": "statistical_release",
         "source_id": "imp-eurostat",
-        "status": "SEMANTICALLY_VALID",
-        "reason": "document has sufficient context (2/2 patterns matched)"
-      },
-      {
-        "io_id": "io-11560eb4ca7cac3c",
-        "event_type": "statistical_release",
-        "source_id": "imp-eurostat",
-        "status": "SEMANTICALLY_VALID",
-        "reason": "document has sufficient context (2/2 patterns matched)"
-      },
-      {
-        "io_id": "io-f9ad01ae17b07a63",
-        "event_type": "statistical_release",
-        "source_id": "imp-deutsche-boerse",
         "status": "SEMANTICALLY_VALID",
         "reason": "document has sufficient context (2/2 patterns matched)"
       },
@@ -271,23 +222,9 @@
         "reason": "document has sufficient context (2/2 patterns matched)"
       },
       {
-        "io_id": "io-ef612fb643faa8e7",
-        "event_type": "statistical_release",
-        "source_id": "imp-bank-of-england",
-        "status": "SEMANTICALLY_VALID",
-        "reason": "document has sufficient context (2/2 patterns matched)"
-      },
-      {
         "io_id": "io-9304252516f5b4a0",
         "event_type": "statistical_release",
         "source_id": "imp-bea",
-        "status": "SEMANTICALLY_VALID",
-        "reason": "document has sufficient context (2/2 patterns matched)"
-      },
-      {
-        "io_id": "io-1f4d5c586252da53",
-        "event_type": "statistical_release",
-        "source_id": "imp-bank-of-england",
         "status": "SEMANTICALLY_VALID",
         "reason": "document has sufficient context (2/2 patterns matched)"
       },
@@ -302,13 +239,6 @@
         "io_id": "io-ca43d858fe433433",
         "event_type": "statistical_release",
         "source_id": "imp-bea",
-        "status": "SEMANTICALLY_VALID",
-        "reason": "document has sufficient context (2/2 patterns matched)"
-      },
-      {
-        "io_id": "io-46af572e483b8e1e",
-        "event_type": "statistical_release",
-        "source_id": "imp-bank-of-england",
         "status": "SEMANTICALLY_VALID",
         "reason": "document has sufficient context (2/2 patterns matched)"
       },
@@ -341,30 +271,9 @@
         "reason": "document has sufficient context (2/2 patterns matched)"
       },
       {
-        "io_id": "io-a91d6a0346aee839",
-        "event_type": "statistical_release",
-        "source_id": "imp-bank-of-england",
-        "status": "SEMANTICALLY_VALID",
-        "reason": "document has sufficient context (2/2 patterns matched)"
-      },
-      {
-        "io_id": "io-454f87f528df1d85",
-        "event_type": "statistical_release",
-        "source_id": "imp-bank-of-england",
-        "status": "SEMANTICALLY_VALID",
-        "reason": "document has sufficient context (2/2 patterns matched)"
-      },
-      {
         "io_id": "io-34e78b9a8798dc7a",
         "event_type": "statistical_release",
         "source_id": "imp-ecb",
-        "status": "SEMANTICALLY_VALID",
-        "reason": "document has sufficient context (2/2 patterns matched)"
-      },
-      {
-        "io_id": "io-d699eb90722fdf91",
-        "event_type": "statistical_release",
-        "source_id": "imp-bea",
         "status": "SEMANTICALLY_VALID",
         "reason": "document has sufficient context (2/2 patterns matched)"
       },
@@ -390,23 +299,9 @@
         "reason": "document has sufficient context (2/2 patterns matched)"
       },
       {
-        "io_id": "io-caa59d527e57d75a",
-        "event_type": "statistical_release",
-        "source_id": "imp-bank-of-england",
-        "status": "SEMANTICALLY_VALID",
-        "reason": "document has sufficient context (2/2 patterns matched)"
-      },
-      {
         "io_id": "io-35ce3669e1ba2204",
         "event_type": "statistical_release",
         "source_id": "imp-bea",
-        "status": "SEMANTICALLY_VALID",
-        "reason": "document has sufficient context (2/2 patterns matched)"
-      },
-      {
-        "io_id": "io-6f3c2fefc3cb4539",
-        "event_type": "statistical_release",
-        "source_id": "imp-bank-of-england",
         "status": "SEMANTICALLY_VALID",
         "reason": "document has sufficient context (2/2 patterns matched)"
       },
@@ -432,20 +327,6 @@
         "reason": "document has sufficient context (2/2 patterns matched)"
       },
       {
-        "io_id": "io-27fa098c05119c6a",
-        "event_type": "statistical_release",
-        "source_id": "imp-bank-of-england",
-        "status": "SEMANTICALLY_VALID",
-        "reason": "document has sufficient context (2/2 patterns matched)"
-      },
-      {
-        "io_id": "io-a2116b35e27f37d7",
-        "event_type": "statistical_release",
-        "source_id": "imp-bank-of-england",
-        "status": "SEMANTICALLY_VALID",
-        "reason": "document has sufficient context (2/2 patterns matched)"
-      },
-      {
         "io_id": "io-4d0ae13598a4e04d",
         "event_type": "statistical_release",
         "source_id": "imp-bea",
@@ -453,23 +334,9 @@
         "reason": "document has sufficient context (2/2 patterns matched)"
       },
       {
-        "io_id": "io-08f1d21d05752c7c",
-        "event_type": "statistical_release",
-        "source_id": "imp-bank-of-england",
-        "status": "SEMANTICALLY_VALID",
-        "reason": "document has sufficient context (2/2 patterns matched)"
-      },
-      {
         "io_id": "io-25d63db0b736fc25",
         "event_type": "statistical_release",
         "source_id": "imp-bea",
-        "status": "SEMANTICALLY_VALID",
-        "reason": "document has sufficient context (2/2 patterns matched)"
-      },
-      {
-        "io_id": "io-2cfc6ee7be93a15c",
-        "event_type": "statistical_release",
-        "source_id": "imp-bank-of-england",
         "status": "SEMANTICALLY_VALID",
         "reason": "document has sufficient context (2/2 patterns matched)"
       },
@@ -498,13 +365,6 @@
         "io_id": "io-e4eea97503974f5b",
         "event_type": "statistical_release",
         "source_id": "imp-euronext",
-        "status": "SEMANTICALLY_VALID",
-        "reason": "document has sufficient context (2/2 patterns matched)"
-      },
-      {
-        "io_id": "io-8cbab75ca28530b1",
-        "event_type": "statistical_release",
-        "source_id": "imp-bank-of-england",
         "status": "SEMANTICALLY_VALID",
         "reason": "document has sufficient context (2/2 patterns matched)"
       },
@@ -544,30 +404,9 @@
         "reason": "document has sufficient context (2/2 patterns matched)"
       },
       {
-        "io_id": "io-86d76b3772c06bf3",
-        "event_type": "statistical_release",
-        "source_id": "imp-bank-of-england",
-        "status": "SEMANTICALLY_VALID",
-        "reason": "document has sufficient context (2/2 patterns matched)"
-      },
-      {
         "io_id": "io-f464fe33820ed6a3",
         "event_type": "statistical_release",
         "source_id": "imp-euronext",
-        "status": "SEMANTICALLY_VALID",
-        "reason": "document has sufficient context (2/2 patterns matched)"
-      },
-      {
-        "io_id": "io-43d4e65609c4843a",
-        "event_type": "regulatory_enforcement",
-        "source_id": "imp-fca",
-        "status": "SEMANTICALLY_VALID",
-        "reason": "document has sufficient context (2/2 patterns matched)"
-      },
-      {
-        "io_id": "io-3f559e4bb635f765",
-        "event_type": "statistical_release",
-        "source_id": "imp-bank-of-england",
         "status": "SEMANTICALLY_VALID",
         "reason": "document has sufficient context (2/2 patterns matched)"
       },
@@ -593,13 +432,6 @@
         "reason": "document has sufficient context (2/2 patterns matched)"
       },
       {
-        "io_id": "io-f504d6ea1185c997",
-        "event_type": "statistical_release",
-        "source_id": "imp-bank-of-england",
-        "status": "SEMANTICALLY_VALID",
-        "reason": "document has sufficient context (2/2 patterns matched)"
-      },
-      {
         "io_id": "io-cd1755c140271312",
         "event_type": "statistical_release",
         "source_id": "imp-bea",
@@ -614,20 +446,6 @@
         "reason": "document has sufficient context (2/2 patterns matched)"
       },
       {
-        "io_id": "io-524f97f1beb08db3",
-        "event_type": "statistical_release",
-        "source_id": "imp-bank-of-england",
-        "status": "SEMANTICALLY_VALID",
-        "reason": "document has sufficient context (2/2 patterns matched)"
-      },
-      {
-        "io_id": "io-f19e78b84a1f08f5",
-        "event_type": "statistical_release",
-        "source_id": "imp-bank-of-england",
-        "status": "SEMANTICALLY_VALID",
-        "reason": "document has sufficient context (2/2 patterns matched)"
-      },
-      {
         "io_id": "io-4541e02ffc8de75b",
         "event_type": "statistical_release",
         "source_id": "imp-euronext",
@@ -636,13 +454,6 @@
       },
       {
         "io_id": "io-a713e503e7f1fb43",
-        "event_type": "statistical_release",
-        "source_id": "imp-bank-of-england",
-        "status": "SEMANTICALLY_VALID",
-        "reason": "document has sufficient context (2/2 patterns matched)"
-      },
-      {
-        "io_id": "io-861c967d632a9aae",
         "event_type": "statistical_release",
         "source_id": "imp-bank-of-england",
         "status": "SEMANTICALLY_VALID",
@@ -673,13 +484,6 @@
         "io_id": "io-f97611ba1e68b3c7",
         "event_type": "statistical_release",
         "source_id": "imp-euronext",
-        "status": "SEMANTICALLY_VALID",
-        "reason": "document has sufficient context (2/2 patterns matched)"
-      },
-      {
-        "io_id": "io-15d5becf382ab173",
-        "event_type": "statistical_release",
-        "source_id": "imp-bank-of-england",
         "status": "SEMANTICALLY_VALID",
         "reason": "document has sufficient context (2/2 patterns matched)"
       },
@@ -824,30 +628,9 @@
         "reason": "document has sufficient context (2/2 patterns matched)"
       },
       {
-        "io_id": "io-63062e8919d5d8c8",
-        "event_type": "statistical_release",
-        "source_id": "imp-bank-of-england",
-        "status": "SEMANTICALLY_VALID",
-        "reason": "document has sufficient context (2/2 patterns matched)"
-      },
-      {
-        "io_id": "io-b5f51e369fe415cf",
-        "event_type": "statistical_release",
-        "source_id": "imp-bank-of-england",
-        "status": "SEMANTICALLY_VALID",
-        "reason": "document has sufficient context (2/2 patterns matched)"
-      },
-      {
         "io_id": "io-645312b1a398063a",
         "event_type": "statistical_release",
         "source_id": "imp-bea",
-        "status": "SEMANTICALLY_VALID",
-        "reason": "document has sufficient context (2/2 patterns matched)"
-      },
-      {
-        "io_id": "io-fc41fee011bbc275",
-        "event_type": "statistical_release",
-        "source_id": "imp-bank-of-england",
         "status": "SEMANTICALLY_VALID",
         "reason": "document has sufficient context (2/2 patterns matched)"
       },
@@ -859,30 +642,9 @@
         "reason": "document has sufficient context (2/2 patterns matched)"
       },
       {
-        "io_id": "io-7481f4b244740e55",
-        "event_type": "statistical_release",
-        "source_id": "imp-bank-of-england",
-        "status": "SEMANTICALLY_VALID",
-        "reason": "document has sufficient context (2/2 patterns matched)"
-      },
-      {
-        "io_id": "io-7670b0527fb0e4ef",
-        "event_type": "statistical_release",
-        "source_id": "imp-bank-of-england",
-        "status": "SEMANTICALLY_VALID",
-        "reason": "document has sufficient context (2/2 patterns matched)"
-      },
-      {
         "io_id": "io-1fdd7f96a6e1d7cc",
         "event_type": "statistical_release",
         "source_id": "imp-bea",
-        "status": "SEMANTICALLY_VALID",
-        "reason": "document has sufficient context (2/2 patterns matched)"
-      },
-      {
-        "io_id": "io-de2e22ebb2b08a01",
-        "event_type": "statistical_release",
-        "source_id": "imp-bank-of-england",
         "status": "SEMANTICALLY_VALID",
         "reason": "document has sufficient context (2/2 patterns matched)"
       },
@@ -894,21 +656,7 @@
         "reason": "document has sufficient context (2/2 patterns matched)"
       },
       {
-        "io_id": "io-59fc104d47989f9c",
-        "event_type": "statistical_release",
-        "source_id": "imp-bank-of-england",
-        "status": "SEMANTICALLY_VALID",
-        "reason": "document has sufficient context (2/2 patterns matched)"
-      },
-      {
         "io_id": "io-fdf80516388889d8",
-        "event_type": "statistical_release",
-        "source_id": "imp-bank-of-england",
-        "status": "SEMANTICALLY_VALID",
-        "reason": "document has sufficient context (2/2 patterns matched)"
-      },
-      {
-        "io_id": "io-fd6d571e3af90e4b",
         "event_type": "statistical_release",
         "source_id": "imp-bank-of-england",
         "status": "SEMANTICALLY_VALID",
@@ -922,20 +670,6 @@
         "reason": "document has sufficient context (2/2 patterns matched)"
       },
       {
-        "io_id": "io-5ab5fc3f4205337e",
-        "event_type": "statistical_release",
-        "source_id": "imp-bank-of-england",
-        "status": "SEMANTICALLY_VALID",
-        "reason": "document has sufficient context (2/2 patterns matched)"
-      },
-      {
-        "io_id": "io-16b8bfb37f07f167",
-        "event_type": "statistical_release",
-        "source_id": "imp-bank-of-england",
-        "status": "SEMANTICALLY_VALID",
-        "reason": "document has sufficient context (2/2 patterns matched)"
-      },
-      {
         "io_id": "io-0c9a256a6d9a008e",
         "event_type": "statistical_release",
         "source_id": "imp-bank-of-england",
@@ -943,9 +677,86 @@
         "reason": "document has sufficient context (2/2 patterns matched)"
       },
       {
-        "io_id": "io-8c9e5444fe4d1d08",
+        "io_id": "io-724c8945ab5830f2",
         "event_type": "statistical_release",
-        "source_id": "imp-bank-of-england",
+        "source_id": "src-boc",
+        "status": "SEMANTICALLY_VALID",
+        "reason": "document has sufficient context (2/2 patterns matched)"
+      },
+      {
+        "io_id": "io-00c155a6e63a1aa8",
+        "event_type": "statistical_release",
+        "source_id": "src-boc",
+        "status": "SEMANTICALLY_VALID",
+        "reason": "document has sufficient context (2/2 patterns matched)"
+      },
+      {
+        "io_id": "io-74ef71afed5de73c",
+        "event_type": "statistical_release",
+        "source_id": "src-boc",
+        "status": "SEMANTICALLY_VALID",
+        "reason": "document has sufficient context (2/2 patterns matched)"
+      },
+      {
+        "io_id": "io-6881d90972a19a0b",
+        "event_type": "statistical_release",
+        "source_id": "src-boc",
+        "status": "SEMANTICALLY_VALID",
+        "reason": "document has sufficient context (2/2 patterns matched)"
+      },
+      {
+        "io_id": "io-83882f5770e16ee7",
+        "event_type": "statistical_release",
+        "source_id": "src-boc",
+        "status": "SEMANTICALLY_VALID",
+        "reason": "document has sufficient context (2/2 patterns matched)"
+      },
+      {
+        "io_id": "io-a428c87c59e4a3d3",
+        "event_type": "statistical_release",
+        "source_id": "src-boc",
+        "status": "SEMANTICALLY_VALID",
+        "reason": "document has sufficient context (2/2 patterns matched)"
+      },
+      {
+        "io_id": "io-cd4b8ce2c7ff3dda",
+        "event_type": "statistical_release",
+        "source_id": "src-boc",
+        "status": "SEMANTICALLY_VALID",
+        "reason": "document has sufficient context (2/2 patterns matched)"
+      },
+      {
+        "io_id": "io-da7acd81418c8798",
+        "event_type": "statistical_release",
+        "source_id": "src-boc",
+        "status": "SEMANTICALLY_VALID",
+        "reason": "document has sufficient context (2/2 patterns matched)"
+      },
+      {
+        "io_id": "io-f94642af76351dec",
+        "event_type": "statistical_release",
+        "source_id": "src-boc",
+        "status": "SEMANTICALLY_VALID",
+        "reason": "document has sufficient context (2/2 patterns matched)"
+      },
+      {
+        "io_id": "io-5f0065caca456cb3",
+        "event_type": "statistical_release",
+        "source_id": "src-beis-uk",
+        "status": "SEMANTICALLY_VALID",
+        "reason": "document has sufficient context (2/2 patterns matched)"
+      },
+      {
+        "io_id": "io-56c7f63d1cab09fd",
+        "event_type": "statistical_release",
+        "source_id": "src-beis-uk",
+        "status": "SEMANTICALLY_VALID",
+        "reason": "document has sufficient context (2/2 patterns matched)"
+      },
+      {
+        "io_id": "io-dde88ab55ac15e15",
+        "event_type": "statistical_release",
+        "source_id": "src-beis-uk",
         "status": "SEMANTICALLY_VALID",
         "reason": "document has sufficient context (2/2 patterns matched)"
       },
@@ -971,23 +782,9 @@
         "reason": "document has sufficient context (2/2 patterns matched)"
       },
       {
-        "io_id": "io-def78e5307ee021b",
-        "event_type": "monetary_policy_decision",
-        "source_id": "src-cbk-kenya",
-        "status": "SEMANTICALLY_VALID",
-        "reason": "document has sufficient context (2/2 patterns matched)"
-      },
-      {
-        "io_id": "io-45e5137f5092ee27",
-        "event_type": "monetary_policy_decision",
-        "source_id": "src-cbk-kenya",
-        "status": "SEMANTICALLY_VALID",
-        "reason": "document has sufficient context (2/2 patterns matched)"
-      },
-      {
-        "io_id": "io-e773686365fda65d",
-        "event_type": "monetary_policy_decision",
-        "source_id": "src-cbk-kenya",
+        "io_id": "io-451bdc21b43c1e7e",
+        "event_type": "statistical_release",
+        "source_id": "src-naic-us",
         "status": "SEMANTICALLY_VALID",
         "reason": "document has sufficient context (2/2 patterns matched)"
       },
@@ -1013,6 +810,13 @@
         "reason": "document has sufficient context (2/2 patterns matched)"
       },
       {
+        "io_id": "io-1692b6b72193f250",
+        "event_type": "statistical_release",
+        "source_id": "src-ecb-stat",
+        "status": "SEMANTICALLY_VALID",
+        "reason": "document has sufficient context (2/2 patterns matched)"
+      },
+      {
         "io_id": "io-ccad0ed0d2899e44",
         "event_type": "statistical_release",
         "source_id": "src-frb-ny",
@@ -1020,9 +824,37 @@
         "reason": "document has sufficient context (2/2 patterns matched)"
       },
       {
-        "io_id": "io-5293d3510a6f92a5",
-        "event_type": "monetary_policy_decision",
-        "source_id": "src-cbk-kenya",
+        "io_id": "io-8917445a26729eee",
+        "event_type": "statistical_release",
+        "source_id": "src-ecb-stat",
+        "status": "SEMANTICALLY_VALID",
+        "reason": "document has sufficient context (2/2 patterns matched)"
+      },
+      {
+        "io_id": "io-135e23aacb4d8f27",
+        "event_type": "statistical_release",
+        "source_id": "src-boc",
+        "status": "SEMANTICALLY_VALID",
+        "reason": "document has sufficient context (2/2 patterns matched)"
+      },
+      {
+        "io_id": "io-d0219327748df225",
+        "event_type": "statistical_release",
+        "source_id": "src-boc",
+        "status": "SEMANTICALLY_VALID",
+        "reason": "document has sufficient context (2/2 patterns matched)"
+      },
+      {
+        "io_id": "io-d5b1cfa115a3954b",
+        "event_type": "statistical_release",
+        "source_id": "src-boj",
+        "status": "SEMANTICALLY_VALID",
+        "reason": "document has sufficient context (2/2 patterns matched)"
+      },
+      {
+        "io_id": "io-db721534aec94158",
+        "event_type": "statistical_release",
+        "source_id": "src-boc",
         "status": "SEMANTICALLY_VALID",
         "reason": "document has sufficient context (2/2 patterns matched)"
       },
@@ -1034,23 +866,79 @@
         "reason": "document has sufficient context (2/2 patterns matched)"
       },
       {
-        "io_id": "io-fa63a0e88a6b900e",
-        "event_type": "monetary_policy_decision",
+        "io_id": "io-e877c136c72dab35",
+        "event_type": "statistical_release",
         "source_id": "src-boc",
         "status": "SEMANTICALLY_VALID",
         "reason": "document has sufficient context (2/2 patterns matched)"
       },
       {
-        "io_id": "io-b811a7b2fd5ffe83",
+        "io_id": "io-39452e4efdbfbec7",
         "event_type": "statistical_release",
-        "source_id": "src-cbsl-srilanka",
+        "source_id": "src-boc",
         "status": "SEMANTICALLY_VALID",
         "reason": "document has sufficient context (2/2 patterns matched)"
       },
       {
-        "io_id": "io-f7afbc048a3e89b6",
+        "io_id": "io-98a15d57c635d575",
         "event_type": "statistical_release",
-        "source_id": "src-idda-ireland",
+        "source_id": "src-boc",
+        "status": "SEMANTICALLY_VALID",
+        "reason": "document has sufficient context (2/2 patterns matched)"
+      },
+      {
+        "io_id": "io-132229560f32751d",
+        "event_type": "statistical_release",
+        "source_id": "src-boc",
+        "status": "SEMANTICALLY_VALID",
+        "reason": "document has sufficient context (2/2 patterns matched)"
+      },
+      {
+        "io_id": "io-f0acc77e09482637",
+        "event_type": "statistical_release",
+        "source_id": "src-boc",
+        "status": "SEMANTICALLY_VALID",
+        "reason": "document has sufficient context (2/2 patterns matched)"
+      },
+      {
+        "io_id": "io-a33f6d553ec0da7d",
+        "event_type": "statistical_release",
+        "source_id": "src-boc",
+        "status": "SEMANTICALLY_VALID",
+        "reason": "document has sufficient context (2/2 patterns matched)"
+      },
+      {
+        "io_id": "io-0ab4413fb520a9c0",
+        "event_type": "statistical_release",
+        "source_id": "src-boc",
+        "status": "SEMANTICALLY_VALID",
+        "reason": "document has sufficient context (2/2 patterns matched)"
+      },
+      {
+        "io_id": "io-54f777178764850a",
+        "event_type": "statistical_release",
+        "source_id": "src-boc",
+        "status": "SEMANTICALLY_VALID",
+        "reason": "document has sufficient context (2/2 patterns matched)"
+      },
+      {
+        "io_id": "io-c60cc20f95cda57b",
+        "event_type": "statistical_release",
+        "source_id": "src-boc",
+        "status": "SEMANTICALLY_VALID",
+        "reason": "document has sufficient context (2/2 patterns matched)"
+      },
+      {
+        "io_id": "io-b87034f347d0f465",
+        "event_type": "statistical_release",
+        "source_id": "src-boc",
+        "status": "SEMANTICALLY_VALID",
+        "reason": "document has sufficient context (2/2 patterns matched)"
+      },
+      {
+        "io_id": "io-360568b8f62eefa7",
+        "event_type": "statistical_release",
+        "source_id": "src-boc",
         "status": "SEMANTICALLY_VALID",
         "reason": "document has sufficient context (2/2 patterns matched)"
       },
@@ -1069,9 +957,23 @@
         "reason": "document has sufficient context (2/2 patterns matched)"
       },
       {
+        "io_id": "io-ca2e327e2aa6cd44",
+        "event_type": "statistical_release",
+        "source_id": "src-ecb-stat",
+        "status": "SEMANTICALLY_VALID",
+        "reason": "document has sufficient context (2/2 patterns matched)"
+      },
+      {
         "io_id": "io-2a10b18f26c474ef",
         "event_type": "statistical_release",
         "source_id": "src-defra-carbon-uk",
+        "status": "SEMANTICALLY_VALID",
+        "reason": "document has sufficient context (2/2 patterns matched)"
+      },
+      {
+        "io_id": "io-8eda979bb3b61509",
+        "event_type": "statistical_release",
+        "source_id": "src-cso-ireland",
         "status": "SEMANTICALLY_VALID",
         "reason": "document has sufficient context (2/2 patterns matched)"
       },
@@ -1081,30 +983,44 @@
         "source_id": "src-treasurydirect-us",
         "status": "SEMANTICALLY_VALID",
         "reason": "document has sufficient context (2/2 patterns matched)"
+      },
+      {
+        "io_id": "io-50115fef3216565f",
+        "event_type": "statistical_release",
+        "source_id": "src-cso-ireland",
+        "status": "SEMANTICALLY_VALID",
+        "reason": "document has sufficient context (2/2 patterns matched)"
+      },
+      {
+        "io_id": "io-132e0609293fdaaf",
+        "event_type": "statistical_release",
+        "source_id": "src-cso-ireland",
+        "status": "SEMANTICALLY_VALID",
+        "reason": "document has sufficient context (2/2 patterns matched)"
       }
     ]
   },
   "fact_audit": {
-    "total_facts": 1544,
+    "total_facts": 1385,
     "fact_quality_dist": {
-      "DIRECTLY_SUPPORTED": 1525,
-      "WRONG_CONTEXT": 5,
-      "INSUFFICIENT_EVIDENCE": 14
+      "DIRECTLY_SUPPORTED": 1306,
+      "INSUFFICIENT_EVIDENCE": 73,
+      "WRONG_CONTEXT": 6
     },
     "evidence_grounding_dist": {
-      "DIRECT_EVIDENCE": 1274,
-      "INDIRECT_EVIDENCE": 270
+      "INDIRECT_EVIDENCE": 243,
+      "DIRECT_EVIDENCE": 1142
     },
-    "fact_precision_pct": 98.8,
+    "fact_precision_pct": 94.3,
     "direct_evidence_pct": 82.5,
     "insufficient_evidence_count": 0,
     "insufficient_evidence_pct": 0.0,
-    "numerator_fact": 1525,
-    "denominator_fact": 1544,
+    "numerator_fact": 1306,
+    "denominator_fact": 1385,
     "universe_fact": "all facts attached to surviving events",
     "sample_fact": "census (100%)",
-    "numerator_direct": 1274,
-    "denominator_direct": 1544,
+    "numerator_direct": 1142,
+    "denominator_direct": 1385,
     "universe_direct": "all facts attached to surviving events",
     "sample_direct": "census (100%)"
   }
