@@ -1,0 +1,78 @@
+{
+  "pattern_audit": {
+    "percentage_statistic": {
+      "facts_produced": 4293,
+      "events_triggered": 227,
+      "documents_matched": 227
+    },
+    "usd_amount": {
+      "facts_produced": 594,
+      "events_triggered": 38,
+      "documents_matched": 44
+    },
+    "rate_action": {
+      "facts_produced": 0,
+      "events_triggered": 0,
+      "documents_matched": 0
+    },
+    "action_type": {
+      "facts_produced": 884,
+      "events_triggered": 199,
+      "documents_matched": 199
+    },
+    "gdp_growth": {
+      "facts_produced": 20,
+      "events_triggered": 2,
+      "documents_matched": 8
+    },
+    "inflation_rate": {
+      "facts_produced": 11,
+      "events_triggered": 7,
+      "documents_matched": 7
+    },
+    "unemployment_rate": {
+      "facts_produced": 9,
+      "events_triggered": 1,
+      "documents_matched": 2
+    },
+    "employment_level": {
+      "facts_produced": 1,
+      "events_triggered": 1,
+      "documents_matched": 1
+    },
+    "trade_balance": {
+      "facts_produced": 0,
+      "events_triggered": 0,
+      "documents_matched": 0
+    },
+    "revenue": {
+      "facts_produced": 0,
+      "events_triggered": 0,
+      "documents_matched": 0
+    },
+    "penalty_amount": {
+      "facts_produced": 703,
+      "events_triggered": 83,
+      "documents_matched": 83
+    }
+  },
+  "event_distribution": {
+    "regulatory_enforcement": 269,
+    "statistical_release": 265,
+    "monetary_policy_decision": 84
+  },
+  "event_distribution_docs": {
+    "regulatory_enforcement": 269,
+    "statistical_release": 265,
+    "monetary_policy_decision": 84
+  },
+  "yield": {
+    "total_sources": 84,
+    "total_docs": 937,
+    "total_events": 618,
+    "avg_docs_per_source": 11.2,
+    "avg_events_per_doc": 0.66,
+    "avg_ios_per_doc": 0.66
+  },
+  "assessment": "INTELLIGENCE GENERATOR"
+}

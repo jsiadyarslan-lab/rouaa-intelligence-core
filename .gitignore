@@ -52,3 +52,7 @@ scale_validation_store/blobs/
 # V3 — ignore transient test artifacts
 /wave_c_qualification_results.json
 /v3_processing_results.json
+
+# V4 — ignore transient test artifacts
+/semantic_audit_results.json
+/pattern_audit_results.json
