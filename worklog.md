@@ -230,3 +230,8 @@ Phase K: V12 evidence document
 Task ID: INDEPENDENT-ADJUDICATION-V14
 Agent: main
 Task: Build independent ground-truth benchmark on 300 real documents. Measure real Fact/Event Precision/Recall without using Core's own rules as oracle. Adjudicate 9 V13 disputed events. Fix largest losses. Re-run same frozen benchmark.
+
+---
+Task ID: RECALL-GROUND-TRUTH-HARDENING-V15
+Agent: main
+Task: Reconcile 1,612 vs 681 GT facts. Human-adjudicate benchmark. Build pattern-gap taxonomy. HTML-aware extraction. First recall recovery. Frozen benchmark re-run.

@@ -1,0 +1,31 @@
+{
+  "gap_taxonomy": {
+    "UNIT_VARIATION": 156,
+    "LIST": 326,
+    "HEADLINE": 45,
+    "LANGUAGE_GAP": 22,
+    "TABLE": 328,
+    "PARAGRAPH": 343
+  },
+  "html_stats": {
+    "tested": 49,
+    "total_segments": 12279,
+    "table_rows": 142,
+    "list_items": 8114,
+    "headings": 600,
+    "paragraphs": 3423
+  },
+  "v14_baseline": {
+    "fact_tp": 258,
+    "fact_fp": 19,
+    "fact_fn": 431,
+    "fact_precision": 93.1,
+    "fact_recall": 37.4,
+    "event_tp": 36,
+    "event_fp": 2,
+    "event_fn": 172,
+    "event_precision": 94.7,
+    "event_recall": 17.3
+  },
+  "missed_facts_count": 1220
+}
