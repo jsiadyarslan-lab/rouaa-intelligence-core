@@ -1,65 +1,76 @@
 {
-  "store_root": "real_corpus_store_new_waveb",
+  "store_root": "v3_corpus_store",
   "counts": {
-    "REAL_OFFICIAL_SOURCE": 229,
+    "REAL_OFFICIAL_SOURCE": 626,
     "SYNTHETIC_TEST": 0,
     "CANONICAL_FIXTURE": 0,
     "UNKNOWN": 0,
-    "TOTAL": 229
+    "TOTAL": 626
   },
   "by_event_type": {
     "regulatory_enforcement": {
-      "REAL_OFFICIAL_SOURCE": 79
+      "REAL_OFFICIAL_SOURCE": 271
     },
     "statistical_release": {
-      "REAL_OFFICIAL_SOURCE": 122
+      "REAL_OFFICIAL_SOURCE": 268
     },
     "monetary_policy_decision": {
-      "REAL_OFFICIAL_SOURCE": 28
+      "REAL_OFFICIAL_SOURCE": 87
     }
   },
   "real_by_source": {
     "imp-federal-reserve": 6,
-    "imp-ecb": 8,
-    "imp-bank-of-england": 4,
-    "imp-bea": 31,
-    "imp-eurostat": 4,
-    "imp-sec": 7,
-    "imp-cftc": 4,
+    "imp-ecb": 24,
+    "imp-bank-of-england": 124,
+    "imp-bea": 118,
+    "imp-eurostat": 5,
+    "imp-sec": 12,
+    "imp-cftc": 6,
     "imp-esma": 10,
-    "imp-fca": 13,
-    "imp-consob": 2,
-    "imp-euronext": 51,
-    "imp-stats-china": 1,
-    "imp-hm-treasury": 3,
-    "imp-fsb": 1,
+    "imp-fca": 22,
+    "imp-consob": 3,
+    "imp-euronext": 52,
+    "imp-stats-china": 2,
+    "imp-hm-treasury": 4,
+    "imp-fsb": 4,
     "imp-hm-feed": 1,
-    "imp-swiss-national-bank": 1,
-    "imp-deutsche-boerse": 1,
+    "imp-swiss-national-bank": 3,
+    "imp-deutsche-boerse": 2,
     "src-istat": 4,
-    "src-boj": 3,
-    "src-boc": 10,
-    "src-sfc-hk": 1,
-    "src-beis-uk": 3,
-    "src-eurostat-emp": 3,
-    "src-cma-energy": 2,
-    "src-ustr": 3,
+    "src-boj": 9,
+    "src-boc": 50,
+    "src-sfc-hk": 2,
+    "src-beis-uk": 4,
+    "src-eurostat-emp": 5,
+    "src-cma-energy": 3,
+    "src-ustr": 7,
     "src-mitijapan": 1,
     "src-sama-saudi": 2,
     "src-bb-bangladesh": 2,
     "src-cbk-kenya": 10,
     "src-nrb-nepal": 2,
-    "src-naic-us": 1,
-    "src-nsi-bulgaria": 8,
+    "src-naic-us": 2,
+    "src-nsi-bulgaria": 15,
     "src-bnetza-germany": 1,
-    "src-eurostat-agri": 1,
-    "src-ecb-stat": 4,
-    "src-dfsa-uae": 3,
-    "src-nbu-ukraine": 10,
+    "src-eurostat-agri": 3,
+    "src-ecb-stat": 31,
+    "src-dfsa-uae": 5,
+    "src-nbu-ukraine": 25,
     "src-bnb-bulgaria": 1,
     "src-bi-indonesia": 3,
-    "src-mof-philippines": 1,
-    "src-frb-ny": 2
+    "src-mof-philippines": 2,
+    "src-frb-ny": 4,
+    "src-bank-tanzania": 3,
+    "src-idda-ireland": 3,
+    "src-nrcan": 5,
+    "src-cre-france": 1,
+    "src-defra-carbon-uk": 2,
+    "src-cbsl-srilanka": 3,
+    "src-cso-ireland": 8,
+    "src-stat-austria": 1,
+    "src-treasurydirect-us": 2,
+    "src-cbj-jordan": 6,
+    "src-nis-nigeria": 1
   },
   "classifications": [
     {
@@ -2350,6 +2361,3976 @@
       "source_name": "src-dfsa-uae",
       "source_path": "https://www.dfsa.ae",
       "canonical_url": "https://www.dfsa.ae/news/dfsa-publishes-9th-audit-monitoring-report-underscoring",
+      "classification": "REAL_OFFICIAL_SOURCE"
+    },
+    {
+      "io_id": "io-2015db5c3a23d981",
+      "event_id": "evt-d17e21f92e224171",
+      "event_type": "monetary_policy_decision",
+      "source_id": "src-boj",
+      "source_name": "src-boj",
+      "source_path": "https://www.boj.or.jp/en/",
+      "canonical_url": "https://www.boj.or.jp/en/about/press/koen_2026/ko260603a.htm",
+      "classification": "REAL_OFFICIAL_SOURCE"
+    },
+    {
+      "io_id": "io-827d37c4d29acf90",
+      "event_id": "evt-8ead57b9d14068ae",
+      "event_type": "monetary_policy_decision",
+      "source_id": "src-boj",
+      "source_name": "src-boj",
+      "source_path": "https://www.boj.or.jp/en/",
+      "canonical_url": "https://www.boj.or.jp/en/about/press/koen_2026/ko260514a.htm",
+      "classification": "REAL_OFFICIAL_SOURCE"
+    },
+    {
+      "io_id": "io-f31bcc200572d1e9",
+      "event_id": "evt-de055862bc466b8c",
+      "event_type": "monetary_policy_decision",
+      "source_id": "src-boj",
+      "source_name": "src-boj",
+      "source_path": "https://www.boj.or.jp/en/",
+      "canonical_url": "https://www.boj.or.jp/en/about/press/koen_2026/ko260527a.htm",
+      "classification": "REAL_OFFICIAL_SOURCE"
+    },
+    {
+      "io_id": "io-256adcc57e30a91c",
+      "event_id": "evt-b18a151fbbba29c5",
+      "event_type": "monetary_policy_decision",
+      "source_id": "src-boc",
+      "source_name": "src-boc",
+      "source_path": "https://www.bankofcanada.ca/feed",
+      "canonical_url": "https://www.bankofcanada.ca/press/press-releases",
+      "classification": "REAL_OFFICIAL_SOURCE"
+    },
+    {
+      "io_id": "io-06894db435c559e6",
+      "event_id": "evt-a34154ea876eb07e",
+      "event_type": "regulatory_enforcement",
+      "source_id": "src-ustr",
+      "source_name": "src-ustr",
+      "source_path": "https://ustr.gov",
+      "canonical_url": "https://ustr.gov/about/policy-offices/press-office/speeches-and-remarks",
+      "classification": "REAL_OFFICIAL_SOURCE"
+    },
+    {
+      "io_id": "io-fa63a0e88a6b900e",
+      "event_id": "evt-7fbca887b99dc94b",
+      "event_type": "monetary_policy_decision",
+      "source_id": "src-boc",
+      "source_name": "src-boc",
+      "source_path": "https://www.bankofcanada.ca/feed",
+      "canonical_url": "https://www.bankofcanada.ca/feed?utility=news&post_type%5B0%5D=post&post_type%5B",
+      "classification": "REAL_OFFICIAL_SOURCE"
+    },
+    {
+      "io_id": "io-5d9fd4f912a17225",
+      "event_id": "evt-daa6c8ab18ba9125",
+      "event_type": "monetary_policy_decision",
+      "source_id": "src-bank-tanzania",
+      "source_name": "src-bank-tanzania",
+      "source_path": "https://www.bot.go.tz",
+      "canonical_url": "https://www.bot.go.tz/Publications/NPS/BankSortCodes.xlsx",
+      "classification": "REAL_OFFICIAL_SOURCE"
+    },
+    {
+      "io_id": "io-84e2943cab8b3d46",
+      "event_id": "evt-ef2e2bbf46b179b5",
+      "event_type": "statistical_release",
+      "source_id": "src-eurostat-emp",
+      "source_name": "src-eurostat-emp",
+      "source_path": "https://ec.europa.eu/eurostat",
+      "canonical_url": "https://ec.europa.eu/eurostat/web/products-eurostat-news/w/wdn-20260812-1",
+      "classification": "REAL_OFFICIAL_SOURCE"
+    },
+    {
+      "io_id": "io-e2cf332e06598c73",
+      "event_id": "evt-e18d3104b1ca4bed",
+      "event_type": "statistical_release",
+      "source_id": "src-nsi-bulgaria",
+      "source_name": "src-nsi-bulgaria",
+      "source_path": "https://www.nsi.bg",
+      "canonical_url": "https://www.nsi.bg/press-release/bruten-vatreshen-produkt-bvp-nacionalno-nivo-91",
+      "classification": "REAL_OFFICIAL_SOURCE"
+    },
+    {
+      "io_id": "io-20a5eb838540c3b8",
+      "event_id": "evt-1e72888b176d3e89",
+      "event_type": "statistical_release",
+      "source_id": "src-nsi-bulgaria",
+      "source_name": "src-nsi-bulgaria",
+      "source_path": "https://www.nsi.bg",
+      "canonical_url": "https://www.nsi.bg/announcement/sistema-na-zdravni-smetki-9161",
+      "classification": "REAL_OFFICIAL_SOURCE"
+    },
+    {
+      "io_id": "io-f7afbc048a3e89b6",
+      "event_id": "evt-fb302d724b4edc04",
+      "event_type": "statistical_release",
+      "source_id": "src-idda-ireland",
+      "source_name": "src-idda-ireland",
+      "source_path": "https://www.centralbank.ie",
+      "canonical_url": "https://www.centralbank.ie/publication/quarterly-bulletins/quarterly-bulletin-q3",
+      "classification": "REAL_OFFICIAL_SOURCE"
+    },
+    {
+      "io_id": "io-9dc27286de2cc8d8",
+      "event_id": "evt-1f48502b0d93e5c5",
+      "event_type": "statistical_release",
+      "source_id": "src-eurostat-agri",
+      "source_name": "src-eurostat-agri",
+      "source_path": "https://ec.europa.eu/eurostat",
+      "canonical_url": "https://ec.europa.eu/eurostat/en/news/news-articles",
+      "classification": "REAL_OFFICIAL_SOURCE"
+    },
+    {
+      "io_id": "io-65fa42b028083745",
+      "event_id": "evt-abeab767f52a3e8e",
+      "event_type": "statistical_release",
+      "source_id": "src-nsi-bulgaria",
+      "source_name": "src-nsi-bulgaria",
+      "source_path": "https://www.nsi.bg",
+      "canonical_url": "https://www.nsi.bg/press-release/indeksi-na-oborota-v-razdel-targoviya-na-drebno",
+      "classification": "REAL_OFFICIAL_SOURCE"
+    },
+    {
+      "io_id": "io-4078d812048c596c",
+      "event_id": "evt-46749cc1ae8a9d58",
+      "event_type": "statistical_release",
+      "source_id": "src-nsi-bulgaria",
+      "source_name": "src-nsi-bulgaria",
+      "source_path": "https://www.nsi.bg",
+      "canonical_url": "https://www.nsi.bg/press-release/indeksi-na-stroitelnata-produkciya-9112",
+      "classification": "REAL_OFFICIAL_SOURCE"
+    },
+    {
+      "io_id": "io-90153ab11110dec0",
+      "event_id": "evt-53a2a6f2263f14fb",
+      "event_type": "statistical_release",
+      "source_id": "src-nsi-bulgaria",
+      "source_name": "src-nsi-bulgaria",
+      "source_path": "https://www.nsi.bg",
+      "canonical_url": "https://www.nsi.bg/news",
+      "classification": "REAL_OFFICIAL_SOURCE"
+    },
+    {
+      "io_id": "io-10d95b8d6e974acc",
+      "event_id": "evt-f6e72e9367367edb",
+      "event_type": "statistical_release",
+      "source_id": "src-nrcan",
+      "source_name": "src-nrcan",
+      "source_path": "https://www.nrcan.gc.ca",
+      "canonical_url": "https://www.canada.ca/en/news/advanced-news-search/news-results.html?typ=newsrel",
+      "classification": "REAL_OFFICIAL_SOURCE"
+    },
+    {
+      "io_id": "io-06e3082b313fcdc5",
+      "event_id": "evt-c1d314d74b5211e9",
+      "event_type": "regulatory_enforcement",
+      "source_id": "src-dfsa-uae",
+      "source_name": "src-dfsa-uae",
+      "source_path": "https://www.dfsa.ae",
+      "canonical_url": "https://www.dfsa.ae/news/dfsa-awarded-legal-costs-al-ramz-tribunal-proceedings",
+      "classification": "REAL_OFFICIAL_SOURCE"
+    },
+    {
+      "io_id": "io-c3b48df5a462ad16",
+      "event_id": "evt-384a7ecebfb97db9",
+      "event_type": "statistical_release",
+      "source_id": "src-nsi-bulgaria",
+      "source_name": "src-nsi-bulgaria",
+      "source_path": "https://www.nsi.bg",
+      "canonical_url": "https://www.nsi.bg/press-release/naeti-lica-i-sredna-rabotna-zaplata-9113",
+      "classification": "REAL_OFFICIAL_SOURCE"
+    },
+    {
+      "io_id": "io-7390cfc4fda3d0ef",
+      "event_id": "evt-b20a24c07f657514",
+      "event_type": "statistical_release",
+      "source_id": "src-nrcan",
+      "source_name": "src-nrcan",
+      "source_path": "https://www.nrcan.gc.ca",
+      "canonical_url": "https://www.canada.ca/en/news/advanced-news-search/news-results.html?dprtmnt=nat",
+      "classification": "REAL_OFFICIAL_SOURCE"
+    },
+    {
+      "io_id": "io-b078ca32f5a99753",
+      "event_id": "evt-08564f81fa4ee400",
+      "event_type": "statistical_release",
+      "source_id": "src-cre-france",
+      "source_name": "src-cre-france",
+      "source_path": "https://www.cre.fr",
+      "canonical_url": "https://www.cre.fr/documents/communiques-de-presse.html",
+      "classification": "REAL_OFFICIAL_SOURCE"
+    },
+    {
+      "io_id": "io-61f1015f18bfbb85",
+      "event_id": "evt-4c3ed0e66b05c85b",
+      "event_type": "statistical_release",
+      "source_id": "src-nsi-bulgaria",
+      "source_name": "src-nsi-bulgaria",
+      "source_path": "https://www.nsi.bg",
+      "canonical_url": "https://www.nsi.bg/press-release/osnovni-rezultati-ot-nablyudenieto-na-rabotnata",
+      "classification": "REAL_OFFICIAL_SOURCE"
+    },
+    {
+      "io_id": "io-ca2e327e2aa6cd44",
+      "event_id": "evt-f1284eb64098e6f8",
+      "event_type": "statistical_release",
+      "source_id": "src-ecb-stat",
+      "source_name": "src-ecb-stat",
+      "source_path": "https://www.ecb.europa.eu/stats",
+      "canonical_url": "https://www.ecb.europa.eu/stats/macroeconomic_and_sectoral/hicp/html/index.en.ht",
+      "classification": "REAL_OFFICIAL_SOURCE"
+    },
+    {
+      "io_id": "io-241521b1a09aea06",
+      "event_id": "evt-849728aaabecad8b",
+      "event_type": "statistical_release",
+      "source_id": "src-eurostat-agri",
+      "source_name": "src-eurostat-agri",
+      "source_path": "https://ec.europa.eu/eurostat",
+      "canonical_url": "https://ec.europa.eu/eurostat/en/news",
+      "classification": "REAL_OFFICIAL_SOURCE"
+    },
+    {
+      "io_id": "io-2a10b18f26c474ef",
+      "event_id": "evt-f23a366ddfa44bce",
+      "event_type": "statistical_release",
+      "source_id": "src-defra-carbon-uk",
+      "source_name": "src-defra-carbon-uk",
+      "source_path": "https://www.gov.uk/government/organisations/department-for-environment-food-rura",
+      "canonical_url": "https://www.gov.uk/government/news/new-plan-to-make-english-farming-profitable-p",
+      "classification": "REAL_OFFICIAL_SOURCE"
+    },
+    {
+      "io_id": "io-135e23aacb4d8f27",
+      "event_id": "evt-ab049d002f68bb6f",
+      "event_type": "statistical_release",
+      "source_id": "src-boc",
+      "source_name": "src-boc",
+      "source_path": "https://www.bankofcanada.ca/feed",
+      "canonical_url": "https://www.bankofcanada.ca/publications/annual-reports-quarterly-financial-repo",
+      "classification": "REAL_OFFICIAL_SOURCE"
+    },
+    {
+      "io_id": "io-d0219327748df225",
+      "event_id": "evt-aee934a681d3e8f3",
+      "event_type": "statistical_release",
+      "source_id": "src-boc",
+      "source_name": "src-boc",
+      "source_path": "https://www.bankofcanada.ca/feed",
+      "canonical_url": "https://www.bankofcanada.ca/press/upcoming-events",
+      "classification": "REAL_OFFICIAL_SOURCE"
+    },
+    {
+      "io_id": "io-d5b1cfa115a3954b",
+      "event_id": "evt-48efb60f881ac456",
+      "event_type": "statistical_release",
+      "source_id": "src-boj",
+      "source_name": "src-boj",
+      "source_path": "https://www.boj.or.jp/en/",
+      "canonical_url": "https://www.boj.or.jp/en/about/press/koen_2026/ko260527a.htm",
+      "classification": "REAL_OFFICIAL_SOURCE"
+    },
+    {
+      "io_id": "io-db721534aec94158",
+      "event_id": "evt-b6e4329528983c17",
+      "event_type": "statistical_release",
+      "source_id": "src-boc",
+      "source_name": "src-boc",
+      "source_path": "https://www.bankofcanada.ca/feed",
+      "canonical_url": "https://www.bankofcanada.ca/research/research-newsletters",
+      "classification": "REAL_OFFICIAL_SOURCE"
+    },
+    {
+      "io_id": "io-39452e4efdbfbec7",
+      "event_id": "evt-0ae2decb46b97b44",
+      "event_type": "statistical_release",
+      "source_id": "src-boc",
+      "source_name": "src-boc",
+      "source_path": "https://www.bankofcanada.ca/feed",
+      "canonical_url": "https://www.bankofcanada.ca/publications/financial-stability-report",
+      "classification": "REAL_OFFICIAL_SOURCE"
+    },
+    {
+      "io_id": "io-e877c136c72dab35",
+      "event_id": "evt-19f3b37828c69fd4",
+      "event_type": "statistical_release",
+      "source_id": "src-boc",
+      "source_name": "src-boc",
+      "source_path": "https://www.bankofcanada.ca/feed",
+      "canonical_url": "https://www.bankofcanada.ca/press/press-releases",
+      "classification": "REAL_OFFICIAL_SOURCE"
+    },
+    {
+      "io_id": "io-98a15d57c635d575",
+      "event_id": "evt-b6fab7fda9047ee3",
+      "event_type": "statistical_release",
+      "source_id": "src-boc",
+      "source_name": "src-boc",
+      "source_path": "https://www.bankofcanada.ca/feed",
+      "canonical_url": "https://www.bankofcanada.ca/search?content_type%5B%5D=publications",
+      "classification": "REAL_OFFICIAL_SOURCE"
+    },
+    {
+      "io_id": "io-132229560f32751d",
+      "event_id": "evt-ead992ddb6bf81a9",
+      "event_type": "statistical_release",
+      "source_id": "src-boc",
+      "source_name": "src-boc",
+      "source_path": "https://www.bankofcanada.ca/feed",
+      "canonical_url": "https://www.bankofcanada.ca/press/speeches/webcasts",
+      "classification": "REAL_OFFICIAL_SOURCE"
+    },
+    {
+      "io_id": "io-f0acc77e09482637",
+      "event_id": "evt-b9405ff2ad475056",
+      "event_type": "statistical_release",
+      "source_id": "src-boc",
+      "source_name": "src-boc",
+      "source_path": "https://www.bankofcanada.ca/feed",
+      "canonical_url": "https://www.bankofcanada.ca/publications/annual-reports-quarterly-financial-repo",
+      "classification": "REAL_OFFICIAL_SOURCE"
+    },
+    {
+      "io_id": "io-a33f6d553ec0da7d",
+      "event_id": "evt-df71d05601164830",
+      "event_type": "statistical_release",
+      "source_id": "src-boc",
+      "source_name": "src-boc",
+      "source_path": "https://www.bankofcanada.ca/feed",
+      "canonical_url": "https://www.bankofcanada.ca/publications/canadian-survey-of-consumer-expectation",
+      "classification": "REAL_OFFICIAL_SOURCE"
+    },
+    {
+      "io_id": "io-92fd94f33b931e4d",
+      "event_id": "evt-fa252d4898ec8715",
+      "event_type": "statistical_release",
+      "source_id": "src-boc",
+      "source_name": "src-boc",
+      "source_path": "https://www.bankofcanada.ca/feed",
+      "canonical_url": "https://www.bankofcanada.ca/feed?utility=news&post_type%5B0%5D=post&post_type%5B",
+      "classification": "REAL_OFFICIAL_SOURCE"
+    },
+    {
+      "io_id": "io-0ab4413fb520a9c0",
+      "event_id": "evt-6f31301ab9c8234e",
+      "event_type": "statistical_release",
+      "source_id": "src-boc",
+      "source_name": "src-boc",
+      "source_path": "https://www.bankofcanada.ca/feed",
+      "canonical_url": "https://www.bankofcanada.ca/publications/mpr",
+      "classification": "REAL_OFFICIAL_SOURCE"
+    },
+    {
+      "io_id": "io-54f777178764850a",
+      "event_id": "evt-d051dc8092624f4f",
+      "event_type": "statistical_release",
+      "source_id": "src-boc",
+      "source_name": "src-boc",
+      "source_path": "https://www.bankofcanada.ca/feed",
+      "canonical_url": "https://www.bankofcanada.ca/publications/summary-governing-council-deliberations",
+      "classification": "REAL_OFFICIAL_SOURCE"
+    },
+    {
+      "io_id": "io-c60cc20f95cda57b",
+      "event_id": "evt-0c029c101b41d476",
+      "event_type": "statistical_release",
+      "source_id": "src-boc",
+      "source_name": "src-boc",
+      "source_path": "https://www.bankofcanada.ca/feed",
+      "canonical_url": "https://www.bankofcanada.ca/2026/07/summary-of-governing-council-deliberations-f",
+      "classification": "REAL_OFFICIAL_SOURCE"
+    },
+    {
+      "io_id": "io-b87034f347d0f465",
+      "event_id": "evt-956c43f9f4ee7667",
+      "event_type": "statistical_release",
+      "source_id": "src-boc",
+      "source_name": "src-boc",
+      "source_path": "https://www.bankofcanada.ca/feed",
+      "canonical_url": "https://www.bankofcanada.ca/publications/the-economy-plain-and-simple",
+      "classification": "REAL_OFFICIAL_SOURCE"
+    },
+    {
+      "io_id": "io-360568b8f62eefa7",
+      "event_id": "evt-c2e4ad46af0e8d47",
+      "event_type": "statistical_release",
+      "source_id": "src-boc",
+      "source_name": "src-boc",
+      "source_path": "https://www.bankofcanada.ca/feed",
+      "canonical_url": "https://www.bankofcanada.ca/publications/browse",
+      "classification": "REAL_OFFICIAL_SOURCE"
+    },
+    {
+      "io_id": "io-9a3a9fad1d63acf0",
+      "event_id": "evt-3bd5adc7887c56d2",
+      "event_type": "statistical_release",
+      "source_id": "src-nbu-ukraine",
+      "source_name": "src-nbu-ukraine",
+      "source_path": "https://bank.gov.ua",
+      "canonical_url": "https://bank.gov.ua/ua/news",
+      "classification": "REAL_OFFICIAL_SOURCE"
+    },
+    {
+      "io_id": "io-43c3ef59414192a2",
+      "event_id": "evt-eb4baa4798e0ed22",
+      "event_type": "statistical_release",
+      "source_id": "src-nbu-ukraine",
+      "source_name": "src-nbu-ukraine",
+      "source_path": "https://bank.gov.ua",
+      "canonical_url": "https://bank.gov.ua/ua/news/all/zdiysneno-chergovi-kroki-dlya-pidtrimki-biznesu-",
+      "classification": "REAL_OFFICIAL_SOURCE"
+    },
+    {
+      "io_id": "io-7a9619f40485b82e",
+      "event_id": "evt-c192ce547d48d2b2",
+      "event_type": "statistical_release",
+      "source_id": "src-nbu-ukraine",
+      "source_name": "src-nbu-ukraine",
+      "source_path": "https://bank.gov.ua",
+      "canonical_url": "https://bank.gov.ua/ua/news/all/kilkist-ta-suma-bezgotivkovih-operatsiy-iz-plati",
+      "classification": "REAL_OFFICIAL_SOURCE"
+    },
+    {
+      "io_id": "io-a2e454a69324882d",
+      "event_id": "evt-0c5e21683be3d6ec",
+      "event_type": "statistical_release",
+      "source_id": "src-nbu-ukraine",
+      "source_name": "src-nbu-ukraine",
+      "source_path": "https://bank.gov.ua",
+      "canonical_url": "https://bank.gov.ua/ua/news/all/zdiysneno-chergovi-kroki-dlya-naroschennya-kredi",
+      "classification": "REAL_OFFICIAL_SOURCE"
+    },
+    {
+      "io_id": "io-bd09eaa99f9cef4d",
+      "event_id": "evt-8adafca0b28c5904",
+      "event_type": "statistical_release",
+      "source_id": "src-nbu-ukraine",
+      "source_name": "src-nbu-ukraine",
+      "source_path": "https://bank.gov.ua",
+      "canonical_url": "https://bank.gov.ua/ua/news/all/dilovi-ochikuvannya-pidpriyemstv-ii-kvartal-2026",
+      "classification": "REAL_OFFICIAL_SOURCE"
+    },
+    {
+      "io_id": "io-e8b71d73608686fc",
+      "event_id": "evt-e4dc38504a05d99d",
+      "event_type": "statistical_release",
+      "source_id": "src-nbu-ukraine",
+      "source_name": "src-nbu-ukraine",
+      "source_path": "https://bank.gov.ua",
+      "canonical_url": "https://bank.gov.ua/ua/news/all/natsionalniy-bank-ukrayini-pidvischiv-oblikovu-s",
+      "classification": "REAL_OFFICIAL_SOURCE"
+    },
+    {
+      "io_id": "io-d4c3ceef2f6a5a39",
+      "event_id": "evt-151744b5a6393aaf",
+      "event_type": "statistical_release",
+      "source_id": "src-nbu-ukraine",
+      "source_name": "src-nbu-ukraine",
+      "source_path": "https://bank.gov.ua",
+      "canonical_url": "https://bank.gov.ua/ua/publications?search=&amp%3Bdocument=overview_report",
+      "classification": "REAL_OFFICIAL_SOURCE"
+    },
+    {
+      "io_id": "io-73fcfe302ffd4860",
+      "event_id": "evt-761d672986584703",
+      "event_type": "statistical_release",
+      "source_id": "src-nbu-ukraine",
+      "source_name": "src-nbu-ukraine",
+      "source_path": "https://bank.gov.ua",
+      "canonical_url": "https://bank.gov.ua/ua/news/all/kolonka-andriya-pishnogo-zmina-operatsiynogo-diz",
+      "classification": "REAL_OFFICIAL_SOURCE"
+    },
+    {
+      "io_id": "io-e960eed0d301a4c3",
+      "event_id": "evt-ee4504fd3e14d082",
+      "event_type": "statistical_release",
+      "source_id": "src-nbu-ukraine",
+      "source_name": "src-nbu-ukraine",
+      "source_path": "https://bank.gov.ua",
+      "canonical_url": "https://bank.gov.ua/ua/news/all/nebankivskiy-ustanovi-rozshireno-perelik-valyutn",
+      "classification": "REAL_OFFICIAL_SOURCE"
+    },
+    {
+      "io_id": "io-9b6fa51d7eb1b95b",
+      "event_id": "evt-0df77c32afd5abde",
+      "event_type": "statistical_release",
+      "source_id": "src-nbu-ukraine",
+      "source_name": "src-nbu-ukraine",
+      "source_path": "https://bank.gov.ua",
+      "canonical_url": "https://bank.gov.ua/ua/news/news",
+      "classification": "REAL_OFFICIAL_SOURCE"
+    },
+    {
+      "io_id": "io-ecf10dee600564ef",
+      "event_id": "evt-67eccc8def047abc",
+      "event_type": "statistical_release",
+      "source_id": "src-nbu-ukraine",
+      "source_name": "src-nbu-ukraine",
+      "source_path": "https://bank.gov.ua",
+      "canonical_url": "https://bank.gov.ua/ua/news/all/do-troh-kreditnih-spilok-zastosovano-zahodi-vpli",
+      "classification": "REAL_OFFICIAL_SOURCE"
+    },
+    {
+      "io_id": "io-dd7c16c6f4537fba",
+      "event_id": "evt-d67864a68b5a4d34",
+      "event_type": "statistical_release",
+      "source_id": "src-nbu-ukraine",
+      "source_name": "src-nbu-ukraine",
+      "source_path": "https://bank.gov.ua",
+      "canonical_url": "https://bank.gov.ua/ua/news/all/obsyagi-kreditovih-ta-debetovih-perekaziv-zrosli",
+      "classification": "REAL_OFFICIAL_SOURCE"
+    },
+    {
+      "io_id": "io-d80235f73ff97dc3",
+      "event_id": "evt-c5b3e0cc3820fe15",
+      "event_type": "statistical_release",
+      "source_id": "src-nbu-ukraine",
+      "source_name": "src-nbu-ukraine",
+      "source_path": "https://bank.gov.ua",
+      "canonical_url": "https://bank.gov.ua/ua/news/all/trivaye-naydovshiy-period-kreditnoyi-ekspansiyi-",
+      "classification": "REAL_OFFICIAL_SOURCE"
+    },
+    {
+      "io_id": "io-3883811f034fa30c",
+      "event_id": "evt-c8106c1e62d9e7a3",
+      "event_type": "statistical_release",
+      "source_id": "src-nbu-ukraine",
+      "source_name": "src-nbu-ukraine",
+      "source_path": "https://bank.gov.ua",
+      "canonical_url": "https://bank.gov.ua/ua/news/all/natsionalniy-bank-aktualizuye-perelik-benchmark-",
+      "classification": "REAL_OFFICIAL_SOURCE"
+    },
+    {
+      "io_id": "io-2d77591f1f8aa028",
+      "event_id": "evt-a7dbd8e7b021261e",
+      "event_type": "statistical_release",
+      "source_id": "src-nbu-ukraine",
+      "source_name": "src-nbu-ukraine",
+      "source_path": "https://bank.gov.ua",
+      "canonical_url": "https://bank.gov.ua/ua/news/all/komentar-natsionalnogo-banku-schodo-rivnya-infly",
+      "classification": "REAL_OFFICIAL_SOURCE"
+    },
+    {
+      "io_id": "io-b811a7b2fd5ffe83",
+      "event_id": "evt-c7834579488bbbb5",
+      "event_type": "statistical_release",
+      "source_id": "src-cbsl-srilanka",
+      "source_name": "src-cbsl-srilanka",
+      "source_path": "https://www.cbsl.gov.lk",
+      "canonical_url": "https://www.cbsl.gov.lk/en/publications/other-publications/information-series",
+      "classification": "REAL_OFFICIAL_SOURCE"
+    },
+    {
+      "io_id": "io-45f9984e8a6401e8",
+      "event_id": "evt-3d7da39c921430e8",
+      "event_type": "statistical_release",
+      "source_id": "src-dfsa-uae",
+      "source_name": "src-dfsa-uae",
+      "source_path": "https://www.dfsa.ae",
+      "canonical_url": "https://www.dfsa.ae/news/dfsa-awarded-legal-costs-al-ramz-tribunal-proceedings",
+      "classification": "REAL_OFFICIAL_SOURCE"
+    },
+    {
+      "io_id": "io-8eda979bb3b61509",
+      "event_id": "evt-4e5116464d3f1f15",
+      "event_type": "statistical_release",
+      "source_id": "src-cso-ireland",
+      "source_name": "src-cso-ireland",
+      "source_path": "https://www.cso.ie",
+      "canonical_url": "https://www.cso.ie/en/releasesandpublications/ep/p-vlftm/vehicleslicensedforthef",
+      "classification": "REAL_OFFICIAL_SOURCE"
+    },
+    {
+      "io_id": "io-a80b23f4670f6a7a",
+      "event_id": "evt-edef01c0155d2c97",
+      "event_type": "statistical_release",
+      "source_id": "src-cso-ireland",
+      "source_name": "src-cso-ireland",
+      "source_path": "https://www.cso.ie",
+      "canonical_url": "https://www.cso.ie/en/releasesandpublications/ep/p-civf/compositionofirelandsveh",
+      "classification": "REAL_OFFICIAL_SOURCE"
+    },
+    {
+      "io_id": "io-fad871682f2af26d",
+      "event_id": "evt-02453a243c8d8451",
+      "event_type": "statistical_release",
+      "source_id": "src-cso-ireland",
+      "source_name": "src-cso-ireland",
+      "source_path": "https://www.cso.ie",
+      "canonical_url": "https://www.cso.ie/en/releasesandpublications/ep/p-mec/meteredelectricityconsump",
+      "classification": "REAL_OFFICIAL_SOURCE"
+    },
+    {
+      "io_id": "io-9bc928cf952c14e6",
+      "event_id": "evt-299bd783e6294e6c",
+      "event_type": "statistical_release",
+      "source_id": "src-cso-ireland",
+      "source_name": "src-cso-ireland",
+      "source_path": "https://www.cso.ie",
+      "canonical_url": "https://www.cso.ie/en/releasesandpublications/ep/p-eaet/environmenttaxes2025",
+      "classification": "REAL_OFFICIAL_SOURCE"
+    },
+    {
+      "io_id": "io-9842aa7541401bd0",
+      "event_id": "evt-ef93e1b7aa5ca567",
+      "event_type": "statistical_release",
+      "source_id": "src-cso-ireland",
+      "source_name": "src-cso-ireland",
+      "source_path": "https://www.cso.ie",
+      "canonical_url": "https://www.cso.ie/en/releasesandpublications/ep/p-pros/prisonre-offendingstatis",
+      "classification": "REAL_OFFICIAL_SOURCE"
+    },
+    {
+      "io_id": "io-00b1298c7b70a258",
+      "event_id": "evt-dcb0c4f4bab78cb0",
+      "event_type": "statistical_release",
+      "source_id": "src-stat-austria",
+      "source_name": "src-stat-austria",
+      "source_path": "https://www.statistik.at",
+      "canonical_url": "https://www.statistik.at/medien/pressemitteilungen",
+      "classification": "REAL_OFFICIAL_SOURCE"
+    },
+    {
+      "io_id": "io-50115fef3216565f",
+      "event_id": "evt-9b1b2d6bc86bcf44",
+      "event_type": "statistical_release",
+      "source_id": "src-cso-ireland",
+      "source_name": "src-cso-ireland",
+      "source_path": "https://www.cso.ie",
+      "canonical_url": "https://www.cso.ie/en/releasesandpublications/ep/p-mue/monthlyunemploymentjuly20",
+      "classification": "REAL_OFFICIAL_SOURCE"
+    },
+    {
+      "io_id": "io-a0097456246c7740",
+      "event_id": "evt-40cf921d7b146af6",
+      "event_type": "statistical_release",
+      "source_id": "src-cso-ireland",
+      "source_name": "src-cso-ireland",
+      "source_path": "https://www.cso.ie",
+      "canonical_url": "https://www.cso.ie/en/releasesandpublications/ep/p-oiiaf/outputinputandincomeina",
+      "classification": "REAL_OFFICIAL_SOURCE"
+    },
+    {
+      "io_id": "io-132e0609293fdaaf",
+      "event_id": "evt-10266291edd01a84",
+      "event_type": "statistical_release",
+      "source_id": "src-cso-ireland",
+      "source_name": "src-cso-ireland",
+      "source_path": "https://www.cso.ie",
+      "canonical_url": "https://www.cso.ie/en/releasesandpublications/ep/p-cpi/consumerpriceindexjuly202",
+      "classification": "REAL_OFFICIAL_SOURCE"
+    },
+    {
+      "io_id": "io-6a25abbe8fc63833",
+      "event_id": "evt-2a98036cee10bd0b",
+      "event_type": "statistical_release",
+      "source_id": "src-treasurydirect-us",
+      "source_name": "src-treasurydirect-us",
+      "source_path": "https://www.treasurydirect.gov",
+      "canonical_url": "https://www.treasurydirect.gov/news",
+      "classification": "REAL_OFFICIAL_SOURCE"
+    },
+    {
+      "io_id": "io-14c5e91e8acabb5e",
+      "event_id": "evt-ca2f10c521e28899",
+      "event_type": "statistical_release",
+      "source_id": "src-treasurydirect-us",
+      "source_name": "src-treasurydirect-us",
+      "source_path": "https://www.treasurydirect.gov",
+      "canonical_url": "https://www.treasurydirect.gov/news/2026/release-05-01-rates",
+      "classification": "REAL_OFFICIAL_SOURCE"
+    },
+    {
+      "io_id": "io-dfbe512bffc2b8e7",
+      "event_id": "evt-8226d26a8eb6d155",
+      "event_type": "statistical_release",
+      "source_id": "src-cbj-jordan",
+      "source_name": "src-cbj-jordan",
+      "source_path": "https://www.cbj.gov.jo",
+      "canonical_url": "https://www.cbj.gov.jo/AR/newsdetails/%D8%A5%D8%B9%D9%84%D8%A7%D9%86_%D8%B9%D9%8",
+      "classification": "REAL_OFFICIAL_SOURCE"
+    },
+    {
+      "io_id": "io-6924591541f2a9d2",
+      "event_id": "evt-bdff2d5e63b702e2",
+      "event_type": "statistical_release",
+      "source_id": "src-cbj-jordan",
+      "source_name": "src-cbj-jordan",
+      "source_path": "https://www.cbj.gov.jo",
+      "canonical_url": "https://www.cbj.gov.jo/Ar/newsdetails/%D8%A7%D9%84%D8%A8%D9%86%D9%83_%D8%A7%D9%8",
+      "classification": "REAL_OFFICIAL_SOURCE"
+    },
+    {
+      "io_id": "io-f2bdc4b607d26b62",
+      "event_id": "evt-be83e8cc444ef0b9",
+      "event_type": "statistical_release",
+      "source_id": "src-cbj-jordan",
+      "source_name": "src-cbj-jordan",
+      "source_path": "https://www.cbj.gov.jo",
+      "canonical_url": "https://www.cbj.gov.jo/Ar/newsdetails/%D8%A5%D8%B9%D9%84%D8%A7%D9%86_%D8%B9%D9%8",
+      "classification": "REAL_OFFICIAL_SOURCE"
+    },
+    {
+      "io_id": "io-16001bc65e1cc034",
+      "event_id": "evt-31cc5947b8591a81",
+      "event_type": "statistical_release",
+      "source_id": "src-cbj-jordan",
+      "source_name": "src-cbj-jordan",
+      "source_path": "https://www.cbj.gov.jo",
+      "canonical_url": "https://www.cbj.gov.jo/AR/Modules/News",
+      "classification": "REAL_OFFICIAL_SOURCE"
+    },
+    {
+      "io_id": "io-a7ef63279492ca8a",
+      "event_id": "evt-788ec231d0ff9690",
+      "event_type": "statistical_release",
+      "source_id": "src-cbj-jordan",
+      "source_name": "src-cbj-jordan",
+      "source_path": "https://www.cbj.gov.jo",
+      "canonical_url": "https://www.cbj.gov.jo/AR/newsdetails/%D8%A7%D9%84%D8%A8%D9%86%D9%83_%D8%A7%D9%8",
+      "classification": "REAL_OFFICIAL_SOURCE"
+    },
+    {
+      "io_id": "io-dd201caa29426796",
+      "event_id": "evt-cefa07009106db92",
+      "event_type": "statistical_release",
+      "source_id": "src-cbj-jordan",
+      "source_name": "src-cbj-jordan",
+      "source_path": "https://www.cbj.gov.jo",
+      "canonical_url": "https://www.cbj.gov.jo/AR/newsdetails/%D9%84%D8%AC%D9%86%D8%A9_%D8%B9%D9%85%D9%8",
+      "classification": "REAL_OFFICIAL_SOURCE"
+    },
+    {
+      "io_id": "io-1d703f02989d78b2",
+      "event_id": "evt-37132e01690f84a2",
+      "event_type": "statistical_release",
+      "source_id": "imp-bea",
+      "source_name": "imp-bea",
+      "source_path": "https://www.bea.gov/news?format=feed",
+      "canonical_url": "https://www.bea.gov/news/2026/gdp-advance-estimate-2nd-quarter-2026",
+      "classification": "REAL_OFFICIAL_SOURCE"
+    },
+    {
+      "io_id": "io-1f124cd134efc316",
+      "event_id": "evt-6e1c8b96c5d31f8a",
+      "event_type": "regulatory_enforcement",
+      "source_id": "imp-cftc",
+      "source_name": "imp-cftc",
+      "source_path": "https://www.cftc.gov/PressRoom/PressReleases",
+      "canonical_url": "https://www.cftc.gov/PressRoom/SpeechesTestimony/opaselig8",
+      "classification": "REAL_OFFICIAL_SOURCE"
+    },
+    {
+      "io_id": "io-34e78b9a8798dc7a",
+      "event_id": "evt-133a26d77e1ff05a",
+      "event_type": "statistical_release",
+      "source_id": "imp-ecb",
+      "source_name": "imp-ecb",
+      "source_path": "https://www.ecb.europa.eu/rss/press.html",
+      "canonical_url": "https://www.ecb.europa.eu//press/pr/date/2026/html/ecb.pr260724~a099353951.en.ht",
+      "classification": "REAL_OFFICIAL_SOURCE"
+    },
+    {
+      "io_id": "io-e360d9bc9e0d2c0c",
+      "event_id": "evt-fa3bf9bb67503caf",
+      "event_type": "statistical_release",
+      "source_id": "imp-ecb",
+      "source_name": "imp-ecb",
+      "source_path": "https://www.ecb.europa.eu/rss/press.html",
+      "canonical_url": "https://www.ecb.europa.eu//press/pr/date/2026/html/ecb.pr260724_1~fa277eb6fe.en.",
+      "classification": "REAL_OFFICIAL_SOURCE"
+    },
+    {
+      "io_id": "io-cb962de2e620b830",
+      "event_id": "evt-8d254be10e1261df",
+      "event_type": "statistical_release",
+      "source_id": "imp-bea",
+      "source_name": "imp-bea",
+      "source_path": "https://www.bea.gov/news?format=feed",
+      "canonical_url": "https://www.bea.gov/news/2024/real-personal-consumption-expenditures-state-and-r",
+      "classification": "REAL_OFFICIAL_SOURCE"
+    },
+    {
+      "io_id": "io-66fa4ffdfc68e571",
+      "event_id": "evt-2ebcc45622487737",
+      "event_type": "statistical_release",
+      "source_id": "imp-fca",
+      "source_name": "imp-fca",
+      "source_path": "https://www.fca.org.uk/news/rss.xml",
+      "canonical_url": "https://www.fca.org.uk/news/news-stories/blue-motor-finance-limited-enters-admin",
+      "classification": "REAL_OFFICIAL_SOURCE"
+    },
+    {
+      "io_id": "io-99ae26de15fc4f2d",
+      "event_id": "evt-d074184a532247dd",
+      "event_type": "statistical_release",
+      "source_id": "imp-bea",
+      "source_name": "imp-bea",
+      "source_path": "https://www.bea.gov/news?format=feed",
+      "canonical_url": "https://www.bea.gov/news/2024/personal-consumption-expenditures-state-2023",
+      "classification": "REAL_OFFICIAL_SOURCE"
+    },
+    {
+      "io_id": "io-ea8bf0e5c53816c6",
+      "event_id": "evt-4ef2f0fcddec2019",
+      "event_type": "statistical_release",
+      "source_id": "imp-fca",
+      "source_name": "imp-fca",
+      "source_path": "https://www.fca.org.uk/news/rss.xml",
+      "canonical_url": "https://www.fca.org.uk/news/blogs/strengthening-resilience-across-increasingly-i",
+      "classification": "REAL_OFFICIAL_SOURCE"
+    },
+    {
+      "io_id": "io-4068865696334b90",
+      "event_id": "evt-baa26041d5491402",
+      "event_type": "statistical_release",
+      "source_id": "imp-fca",
+      "source_name": "imp-fca",
+      "source_path": "https://www.fca.org.uk/news/rss.xml",
+      "canonical_url": "https://www.fca.org.uk/news/press-releases/fca-secures-majority-victims-money-ba",
+      "classification": "REAL_OFFICIAL_SOURCE"
+    },
+    {
+      "io_id": "io-ccfa36eb5f543b49",
+      "event_id": "evt-ae00859c3f255f9c",
+      "event_type": "statistical_release",
+      "source_id": "imp-fca",
+      "source_name": "imp-fca",
+      "source_path": "https://www.fca.org.uk/news/rss.xml",
+      "canonical_url": "https://www.fca.org.uk/news/press-releases/fca-launches-nationwide-car-finance-c",
+      "classification": "REAL_OFFICIAL_SOURCE"
+    },
+    {
+      "io_id": "io-7dca9b217afb09af",
+      "event_id": "evt-7a0658a56d0cf808",
+      "event_type": "regulatory_enforcement",
+      "source_id": "imp-sec",
+      "source_name": "imp-sec",
+      "source_path": "https://www.sec.gov/news/pressreleases.rss",
+      "canonical_url": "https://www.sec.gov/newsroom/press-releases/2026-63-sec-forms-new-retail-fraud-w",
+      "classification": "REAL_OFFICIAL_SOURCE"
+    },
+    {
+      "io_id": "io-6628b75e85df9ebf",
+      "event_id": "evt-df42f3027a6c9f16",
+      "event_type": "regulatory_enforcement",
+      "source_id": "imp-sec",
+      "source_name": "imp-sec",
+      "source_path": "https://www.sec.gov/news/pressreleases.rss",
+      "canonical_url": "https://www.sec.gov/newsroom/press-releases/2026-58-sec-appoints-kathleen-hutchi",
+      "classification": "REAL_OFFICIAL_SOURCE"
+    },
+    {
+      "io_id": "io-34a8c4321f63aba5",
+      "event_id": "evt-7e9727b9917747e5",
+      "event_type": "regulatory_enforcement",
+      "source_id": "imp-sec",
+      "source_name": "imp-sec",
+      "source_path": "https://www.sec.gov/news/pressreleases.rss",
+      "canonical_url": "https://www.sec.gov/newsroom/press-releases/2026-51-sec-publishes-draft-strategi",
+      "classification": "REAL_OFFICIAL_SOURCE"
+    },
+    {
+      "io_id": "io-9a1e066481b6713f",
+      "event_id": "evt-68faa158863cc80c",
+      "event_type": "statistical_release",
+      "source_id": "imp-bea",
+      "source_name": "imp-bea",
+      "source_path": "https://www.bea.gov/news?format=feed",
+      "canonical_url": "https://www.bea.gov/news/2021/real-personal-consumption-expenditures-and-persona",
+      "classification": "REAL_OFFICIAL_SOURCE"
+    },
+    {
+      "io_id": "io-92dd0695d5ea51c7",
+      "event_id": "evt-bff975d70a86e4a2",
+      "event_type": "statistical_release",
+      "source_id": "imp-bea",
+      "source_name": "imp-bea",
+      "source_path": "https://www.bea.gov/news?format=feed",
+      "canonical_url": "https://www.bea.gov/news/2020/real-personal-income-state-and-metropolitan-area-2",
+      "classification": "REAL_OFFICIAL_SOURCE"
+    },
+    {
+      "io_id": "io-bd378fea8d59bb17",
+      "event_id": "evt-34c636fc1e82ba18",
+      "event_type": "statistical_release",
+      "source_id": "imp-bank-of-england",
+      "source_name": "imp-bank-of-england",
+      "source_path": "https://www.bankofengland.co.uk/news",
+      "canonical_url": "https://www.bankofengland.co.uk/legal/privacy-and-cookie-policy",
+      "classification": "REAL_OFFICIAL_SOURCE"
+    },
+    {
+      "io_id": "io-dcf76f5a97a74c3e",
+      "event_id": "evt-955c53ab013e63b1",
+      "event_type": "statistical_release",
+      "source_id": "imp-bank-of-england",
+      "source_name": "imp-bank-of-england",
+      "source_path": "https://www.bankofengland.co.uk/news",
+      "canonical_url": "https://www.bankofengland.co.uk/monetary-policy",
+      "classification": "REAL_OFFICIAL_SOURCE"
+    },
+    {
+      "io_id": "io-0a2164dff20884fa",
+      "event_id": "evt-5c8786e99b5f6d7c",
+      "event_type": "regulatory_enforcement",
+      "source_id": "imp-ecb",
+      "source_name": "imp-ecb",
+      "source_path": "https://www.ecb.europa.eu/rss/press.html",
+      "canonical_url": "https://www.ecb.europa.eu//press/pr/date/2026/html/ecb.pr260811~47cd3ee040.en.ht",
+      "classification": "REAL_OFFICIAL_SOURCE"
+    },
+    {
+      "io_id": "io-83290c6d58917455",
+      "event_id": "evt-d815f240f244addf",
+      "event_type": "regulatory_enforcement",
+      "source_id": "imp-bank-of-england",
+      "source_name": "imp-bank-of-england",
+      "source_path": "https://www.bankofengland.co.uk/news",
+      "canonical_url": "https://www.bankofengland.co.uk/legal/privacy-and-cookie-policy",
+      "classification": "REAL_OFFICIAL_SOURCE"
+    },
+    {
+      "io_id": "io-935ab64f33806484",
+      "event_id": "evt-707fb0d2148e3b16",
+      "event_type": "monetary_policy_decision",
+      "source_id": "imp-bea",
+      "source_name": "imp-bea",
+      "source_path": "https://www.bea.gov/news?format=feed",
+      "canonical_url": "https://www.bea.gov/news/glance",
+      "classification": "REAL_OFFICIAL_SOURCE"
+    },
+    {
+      "io_id": "io-74b51eefd13974d9",
+      "event_id": "evt-87861d99c381f871",
+      "event_type": "statistical_release",
+      "source_id": "imp-bank-of-england",
+      "source_name": "imp-bank-of-england",
+      "source_path": "https://www.bankofengland.co.uk/news",
+      "canonical_url": "https://www.bankofengland.co.uk/news",
+      "classification": "REAL_OFFICIAL_SOURCE"
+    },
+    {
+      "io_id": "io-770ce167a478e86d",
+      "event_id": "evt-63abf7a3ee5dca22",
+      "event_type": "regulatory_enforcement",
+      "source_id": "imp-bank-of-england",
+      "source_name": "imp-bank-of-england",
+      "source_path": "https://www.bankofengland.co.uk/news",
+      "canonical_url": "https://www.bankofengland.co.uk/monetary-policy",
+      "classification": "REAL_OFFICIAL_SOURCE"
+    },
+    {
+      "io_id": "io-502948f2ca1a93b2",
+      "event_id": "evt-e633000e296496ca",
+      "event_type": "regulatory_enforcement",
+      "source_id": "imp-ecb",
+      "source_name": "imp-ecb",
+      "source_path": "https://www.ecb.europa.eu/rss/press.html",
+      "canonical_url": "https://www.ecb.europa.eu//press/pr/date/2026/html/ecb.pr260813~389729d6a9.en.ht",
+      "classification": "REAL_OFFICIAL_SOURCE"
+    },
+    {
+      "io_id": "io-a5963d0fb0a8b10d",
+      "event_id": "evt-60ba1430c6e2a5b6",
+      "event_type": "statistical_release",
+      "source_id": "imp-swiss-national-bank",
+      "source_name": "imp-swiss-national-bank",
+      "source_path": "https://www.snb.ch",
+      "canonical_url": "https://www.snb.ch/en/the-snb/mandates-goals/monetary-policy/implementation",
+      "classification": "REAL_OFFICIAL_SOURCE"
+    },
+    {
+      "io_id": "io-ff37a930337d027d",
+      "event_id": "evt-5efc51689033ac14",
+      "event_type": "statistical_release",
+      "source_id": "imp-sec",
+      "source_name": "imp-sec",
+      "source_path": "https://www.sec.gov/news/pressreleases.rss",
+      "canonical_url": "https://www.sec.gov/newsroom/press-releases/2026-75-sec-charges-boiler-room-oper",
+      "classification": "REAL_OFFICIAL_SOURCE"
+    },
+    {
+      "io_id": "io-75a06a2f45490126",
+      "event_id": "evt-b5da23889c566c94",
+      "event_type": "regulatory_enforcement",
+      "source_id": "imp-bank-of-england",
+      "source_name": "imp-bank-of-england",
+      "source_path": "https://www.bankofengland.co.uk/news",
+      "canonical_url": "https://www.bankofengland.co.uk/news",
+      "classification": "REAL_OFFICIAL_SOURCE"
+    },
+    {
+      "io_id": "io-3e9cc890c8500c3a",
+      "event_id": "evt-c6a96a7171d69af8",
+      "event_type": "regulatory_enforcement",
+      "source_id": "imp-swiss-national-bank",
+      "source_name": "imp-swiss-national-bank",
+      "source_path": "https://www.snb.ch",
+      "canonical_url": "https://www.snb.ch/en/the-snb/mandates-goals/monetary-policy/implementation",
+      "classification": "REAL_OFFICIAL_SOURCE"
+    },
+    {
+      "io_id": "io-f405b7c878fbec26",
+      "event_id": "evt-ed876ff77a93e6fb",
+      "event_type": "regulatory_enforcement",
+      "source_id": "imp-bea",
+      "source_name": "imp-bea",
+      "source_path": "https://www.bea.gov/news?format=feed",
+      "canonical_url": "https://www.bea.gov/news/glance",
+      "classification": "REAL_OFFICIAL_SOURCE"
+    },
+    {
+      "io_id": "io-dad634ac3611cf76",
+      "event_id": "evt-6864b1bc1d3e998c",
+      "event_type": "statistical_release",
+      "source_id": "imp-fca",
+      "source_name": "imp-fca",
+      "source_path": "https://www.fca.org.uk/news/rss.xml",
+      "canonical_url": "https://www.fca.org.uk/news/press-releases/ceo-banned-false-misleading-statement",
+      "classification": "REAL_OFFICIAL_SOURCE"
+    },
+    {
+      "io_id": "io-7b8c2a9c2532bcb7",
+      "event_id": "evt-78e77b8b844f3d0a",
+      "event_type": "monetary_policy_decision",
+      "source_id": "imp-consob",
+      "source_name": "imp-consob",
+      "source_path": "https://www.consob.it",
+      "canonical_url": "https://www.consob.it/documents/d/consob/icona-newsletter",
+      "classification": "REAL_OFFICIAL_SOURCE"
+    },
+    {
+      "io_id": "io-1135a07138154950",
+      "event_id": "evt-a0cac3c0ec02d259",
+      "event_type": "regulatory_enforcement",
+      "source_id": "imp-fsb",
+      "source_name": "imp-fsb",
+      "source_path": "https://www.fsb.org/feed/",
+      "canonical_url": "https://www.fsb.org/2026/07/multilateralism-utopia-and-the-financial-stability-b",
+      "classification": "REAL_OFFICIAL_SOURCE"
+    },
+    {
+      "io_id": "io-cba6421b7b401b5d",
+      "event_id": "evt-d6e70779dfea1a72",
+      "event_type": "monetary_policy_decision",
+      "source_id": "imp-euronext",
+      "source_name": "imp-euronext",
+      "source_path": "https://www.euronext.com",
+      "canonical_url": "https://www.euronext.com/en/clearing/about/annual-reports-financial-statements",
+      "classification": "REAL_OFFICIAL_SOURCE"
+    },
+    {
+      "io_id": "io-fe0ecf5fbcc92531",
+      "event_id": "evt-37bbbd2a6bb5ee3b",
+      "event_type": "regulatory_enforcement",
+      "source_id": "imp-ecb",
+      "source_name": "imp-ecb",
+      "source_path": "https://www.ecb.europa.eu/rss/press.html",
+      "canonical_url": "https://www.ecb.europa.eu//press/pr/date/2026/html/ecb.pr260730~3b3bfbb565.en.ht",
+      "classification": "REAL_OFFICIAL_SOURCE"
+    },
+    {
+      "io_id": "io-96b850ecfc14179c",
+      "event_id": "evt-3137053ce6e26889",
+      "event_type": "regulatory_enforcement",
+      "source_id": "imp-ecb",
+      "source_name": "imp-ecb",
+      "source_path": "https://www.ecb.europa.eu/rss/press.html",
+      "canonical_url": "https://www.ecb.europa.eu//press/pr/date/2026/html/ecb.pr260807~58eb5109ce.en.ht",
+      "classification": "REAL_OFFICIAL_SOURCE"
+    },
+    {
+      "io_id": "io-0f57ee23f994dd09",
+      "event_id": "evt-3b2aff26534a32ec",
+      "event_type": "statistical_release",
+      "source_id": "imp-bank-of-england",
+      "source_name": "imp-bank-of-england",
+      "source_path": "https://www.bankofengland.co.uk/news",
+      "canonical_url": "https://www.bankofengland.co.uk/monetary-policy/inflation",
+      "classification": "REAL_OFFICIAL_SOURCE"
+    },
+    {
+      "io_id": "io-53e5a9c7cd15ad6a",
+      "event_id": "evt-4bc3f3b857397239",
+      "event_type": "regulatory_enforcement",
+      "source_id": "imp-ecb",
+      "source_name": "imp-ecb",
+      "source_path": "https://www.ecb.europa.eu/rss/press.html",
+      "canonical_url": "https://www.ecb.europa.eu//press/pr/date/2026/html/ecb.pr260729~4ad7508d8a.en.ht",
+      "classification": "REAL_OFFICIAL_SOURCE"
+    },
+    {
+      "io_id": "io-732c2593f8322d3e",
+      "event_id": "evt-8d386e74af68b3e3",
+      "event_type": "regulatory_enforcement",
+      "source_id": "imp-ecb",
+      "source_name": "imp-ecb",
+      "source_path": "https://www.ecb.europa.eu/rss/press.html",
+      "canonical_url": "https://www.ecb.europa.eu//press/govcdec/otherdec/2026/html/ecb.gc260724~eebbc30",
+      "classification": "REAL_OFFICIAL_SOURCE"
+    },
+    {
+      "io_id": "io-0da4c931b2a04e1a",
+      "event_id": "evt-6fd795513005cfae",
+      "event_type": "statistical_release",
+      "source_id": "imp-bank-of-england",
+      "source_name": "imp-bank-of-england",
+      "source_path": "https://www.bankofengland.co.uk/news",
+      "canonical_url": "https://www.bankofengland.co.uk/prudential-regulation/policy",
+      "classification": "REAL_OFFICIAL_SOURCE"
+    },
+    {
+      "io_id": "io-f803af6f431d9f8a",
+      "event_id": "evt-1cdca4708aff3b11",
+      "event_type": "statistical_release",
+      "source_id": "imp-bank-of-england",
+      "source_name": "imp-bank-of-england",
+      "source_path": "https://www.bankofengland.co.uk/news",
+      "canonical_url": "https://www.bankofengland.co.uk/monetary-policy/the-interest-rate-bank-rate",
+      "classification": "REAL_OFFICIAL_SOURCE"
+    },
+    {
+      "io_id": "io-782c93aef698b6d0",
+      "event_id": "evt-05c826c3c60b71f6",
+      "event_type": "regulatory_enforcement",
+      "source_id": "imp-ecb",
+      "source_name": "imp-ecb",
+      "source_path": "https://www.ecb.europa.eu/rss/press.html",
+      "canonical_url": "https://www.ecb.europa.eu//press/pr/date/2026/html/ecb.pr260724_4~f082ce289d.en.",
+      "classification": "REAL_OFFICIAL_SOURCE"
+    },
+    {
+      "io_id": "io-9416a7f381678967",
+      "event_id": "evt-a2b859181e682f17",
+      "event_type": "regulatory_enforcement",
+      "source_id": "imp-bank-of-england",
+      "source_name": "imp-bank-of-england",
+      "source_path": "https://www.bankofengland.co.uk/news",
+      "canonical_url": "https://www.bankofengland.co.uk/monetary-policy/inflation",
+      "classification": "REAL_OFFICIAL_SOURCE"
+    },
+    {
+      "io_id": "io-3397bcfeb16c1522",
+      "event_id": "evt-fbe0e458ab682c25",
+      "event_type": "statistical_release",
+      "source_id": "imp-bank-of-england",
+      "source_name": "imp-bank-of-england",
+      "source_path": "https://www.bankofengland.co.uk/news",
+      "canonical_url": "https://www.bankofengland.co.uk/prudential-regulation/prudential-and-resolution-",
+      "classification": "REAL_OFFICIAL_SOURCE"
+    },
+    {
+      "io_id": "io-7a2ef7f9417df7ab",
+      "event_id": "evt-56f4915b5166d8b9",
+      "event_type": "statistical_release",
+      "source_id": "imp-bank-of-england",
+      "source_name": "imp-bank-of-england",
+      "source_path": "https://www.bankofengland.co.uk/news",
+      "canonical_url": "https://www.bankofengland.co.uk/about/people/financial-policy-committee",
+      "classification": "REAL_OFFICIAL_SOURCE"
+    },
+    {
+      "io_id": "io-877cfaba4b9dc235",
+      "event_id": "evt-de530b9bd318dfe1",
+      "event_type": "statistical_release",
+      "source_id": "imp-bank-of-england",
+      "source_name": "imp-bank-of-england",
+      "source_path": "https://www.bankofengland.co.uk/news",
+      "canonical_url": "https://www.bankofengland.co.uk/prudential-regulation/the-bank-of-england-enforc",
+      "classification": "REAL_OFFICIAL_SOURCE"
+    },
+    {
+      "io_id": "io-b56ad53953fabd42",
+      "event_id": "evt-52230d1086136d67",
+      "event_type": "regulatory_enforcement",
+      "source_id": "imp-bank-of-england",
+      "source_name": "imp-bank-of-england",
+      "source_path": "https://www.bankofengland.co.uk/news",
+      "canonical_url": "https://www.bankofengland.co.uk/prudential-regulation/policy",
+      "classification": "REAL_OFFICIAL_SOURCE"
+    },
+    {
+      "io_id": "io-4ddd559b9c741fda",
+      "event_id": "evt-ea730e413d5a8c2b",
+      "event_type": "regulatory_enforcement",
+      "source_id": "imp-bank-of-england",
+      "source_name": "imp-bank-of-england",
+      "source_path": "https://www.bankofengland.co.uk/news",
+      "canonical_url": "https://www.bankofengland.co.uk/monetary-policy/the-interest-rate-bank-rate",
+      "classification": "REAL_OFFICIAL_SOURCE"
+    },
+    {
+      "io_id": "io-5374d45575bb9c06",
+      "event_id": "evt-79ac120640d6ff0f",
+      "event_type": "statistical_release",
+      "source_id": "imp-bank-of-england",
+      "source_name": "imp-bank-of-england",
+      "source_path": "https://www.bankofengland.co.uk/news",
+      "canonical_url": "https://www.bankofengland.co.uk/monetary-policy/quantitative-easing",
+      "classification": "REAL_OFFICIAL_SOURCE"
+    },
+    {
+      "io_id": "io-962e5840c6a2d861",
+      "event_id": "evt-ac4930229de624d8",
+      "event_type": "regulatory_enforcement",
+      "source_id": "imp-bank-of-england",
+      "source_name": "imp-bank-of-england",
+      "source_path": "https://www.bankofengland.co.uk/news",
+      "canonical_url": "https://www.bankofengland.co.uk/prudential-regulation/prudential-and-resolution-",
+      "classification": "REAL_OFFICIAL_SOURCE"
+    },
+    {
+      "io_id": "io-7909cd3d96658047",
+      "event_id": "evt-59803e1426b259b4",
+      "event_type": "regulatory_enforcement",
+      "source_id": "imp-bank-of-england",
+      "source_name": "imp-bank-of-england",
+      "source_path": "https://www.bankofengland.co.uk/news",
+      "canonical_url": "https://www.bankofengland.co.uk/monetary-policy/quantitative-easing",
+      "classification": "REAL_OFFICIAL_SOURCE"
+    },
+    {
+      "io_id": "io-339b4c6125a5aa8e",
+      "event_id": "evt-df7d0bd8c2a24906",
+      "event_type": "regulatory_enforcement",
+      "source_id": "imp-bea",
+      "source_name": "imp-bea",
+      "source_path": "https://www.bea.gov/news?format=feed",
+      "canonical_url": "https://www.bea.gov/commitment-scientific-integrity-principal-statistical-agenci",
+      "classification": "REAL_OFFICIAL_SOURCE"
+    },
+    {
+      "io_id": "io-5ca293a93a2ed2fe",
+      "event_id": "evt-5844a7a002b01a9b",
+      "event_type": "regulatory_enforcement",
+      "source_id": "imp-bank-of-england",
+      "source_name": "imp-bank-of-england",
+      "source_path": "https://www.bankofengland.co.uk/news",
+      "canonical_url": "https://www.bankofengland.co.uk/prudential-regulation/the-bank-of-england-enforc",
+      "classification": "REAL_OFFICIAL_SOURCE"
+    },
+    {
+      "io_id": "io-de958935fa3a954f",
+      "event_id": "evt-92c834dd36580f5f",
+      "event_type": "regulatory_enforcement",
+      "source_id": "imp-bank-of-england",
+      "source_name": "imp-bank-of-england",
+      "source_path": "https://www.bankofengland.co.uk/news",
+      "canonical_url": "https://www.bankofengland.co.uk/about/people/financial-policy-committee",
+      "classification": "REAL_OFFICIAL_SOURCE"
+    },
+    {
+      "io_id": "io-9734c0470f839754",
+      "event_id": "evt-d759a55e9518a64a",
+      "event_type": "regulatory_enforcement",
+      "source_id": "imp-ecb",
+      "source_name": "imp-ecb",
+      "source_path": "https://www.ecb.europa.eu/rss/press.html",
+      "canonical_url": "https://www.ecb.europa.eu//press/pr/date/2026/html/ecb.pr260724_3~c0b45e246f.en.",
+      "classification": "REAL_OFFICIAL_SOURCE"
+    },
+    {
+      "io_id": "io-55da9e9be0359c67",
+      "event_id": "evt-3b3c170a98715e21",
+      "event_type": "monetary_policy_decision",
+      "source_id": "imp-stats-china",
+      "source_name": "imp-stats-china",
+      "source_path": "http://www.stats.gov.cn",
+      "canonical_url": "http://www.news.cn/politics/leaders/20260812/3ae82d793da2494ab7364f31a80d6729/c.",
+      "classification": "REAL_OFFICIAL_SOURCE"
+    },
+    {
+      "io_id": "io-e65a9b3a70a171e4",
+      "event_id": "evt-09dc4462184620fc",
+      "event_type": "regulatory_enforcement",
+      "source_id": "imp-eurostat",
+      "source_name": "imp-eurostat",
+      "source_path": "https://ec.europa.eu/eurostat/web/main/news",
+      "canonical_url": "https://ec.europa.eu/eurostat/news/podcasts",
+      "classification": "REAL_OFFICIAL_SOURCE"
+    },
+    {
+      "io_id": "io-16e3bbf4e5b244a6",
+      "event_id": "evt-3ff8e509ca6bb04b",
+      "event_type": "statistical_release",
+      "source_id": "imp-fca",
+      "source_name": "imp-fca",
+      "source_path": "https://www.fca.org.uk/news/rss.xml",
+      "canonical_url": "https://www.fca.org.uk/news/press-releases/tribunal-upholds-fca-ban-pair-pension",
+      "classification": "REAL_OFFICIAL_SOURCE"
+    },
+    {
+      "io_id": "io-f9ad01ae17b07a63",
+      "event_id": "evt-e44211908cb4df9b",
+      "event_type": "statistical_release",
+      "source_id": "imp-deutsche-boerse",
+      "source_name": "imp-deutsche-boerse",
+      "source_path": "https://www.deutsche-boerse.com",
+      "canonical_url": "https://www.deutsche-boerse.com/dbg-de/media/news-stories/media-releases/July-20",
+      "classification": "REAL_OFFICIAL_SOURCE"
+    },
+    {
+      "io_id": "io-d24e91f1778db933",
+      "event_id": "evt-aa2a34a8bfbca41e",
+      "event_type": "monetary_policy_decision",
+      "source_id": "imp-bea",
+      "source_name": "imp-bea",
+      "source_path": "https://www.bea.gov/news?format=feed",
+      "canonical_url": "https://www.bea.gov/news/2026/personal-income-and-outlays-june-2026",
+      "classification": "REAL_OFFICIAL_SOURCE"
+    },
+    {
+      "io_id": "io-e1f994947cf2546b",
+      "event_id": "evt-f86b794e3afc3eeb",
+      "event_type": "monetary_policy_decision",
+      "source_id": "imp-bea",
+      "source_name": "imp-bea",
+      "source_path": "https://www.bea.gov/news?format=feed",
+      "canonical_url": "https://www.bea.gov/news/2026/us-international-trade-goods-and-services-june-202",
+      "classification": "REAL_OFFICIAL_SOURCE"
+    },
+    {
+      "io_id": "io-67370108e37cdb93",
+      "event_id": "evt-1c2c3be4e1a64459",
+      "event_type": "monetary_policy_decision",
+      "source_id": "imp-bea",
+      "source_name": "imp-bea",
+      "source_path": "https://www.bea.gov/news?format=feed",
+      "canonical_url": "https://www.bea.gov/news/2026/gdp-advance-estimate-2nd-quarter-2026",
+      "classification": "REAL_OFFICIAL_SOURCE"
+    },
+    {
+      "io_id": "io-774a649f921f21af",
+      "event_id": "evt-b092ab41f94e350c",
+      "event_type": "monetary_policy_decision",
+      "source_id": "imp-bea",
+      "source_name": "imp-bea",
+      "source_path": "https://www.bea.gov/news?format=feed",
+      "canonical_url": "https://www.bea.gov/news/2026/direct-investment-country-and-industry-2025",
+      "classification": "REAL_OFFICIAL_SOURCE"
+    },
+    {
+      "io_id": "io-90f9a59ea6ea069f",
+      "event_id": "evt-0a171db357f585f5",
+      "event_type": "regulatory_enforcement",
+      "source_id": "imp-fsb",
+      "source_name": "imp-fsb",
+      "source_path": "https://www.fsb.org/feed/",
+      "canonical_url": "https://www.fsb.org/2026/06/fsb-holds-a-roundtable-on-audit-quality-and-structur",
+      "classification": "REAL_OFFICIAL_SOURCE"
+    },
+    {
+      "io_id": "io-ddb71940218046ea",
+      "event_id": "evt-13da03146a1b1c59",
+      "event_type": "monetary_policy_decision",
+      "source_id": "imp-bea",
+      "source_name": "imp-bea",
+      "source_path": "https://www.bea.gov/news?format=feed",
+      "canonical_url": "https://www.bea.gov/news/2026/activities-us-affiliates-foreign-multinational-ent",
+      "classification": "REAL_OFFICIAL_SOURCE"
+    },
+    {
+      "io_id": "io-5144f5192b084ff4",
+      "event_id": "evt-4ee0eeeb6aafa0ce",
+      "event_type": "monetary_policy_decision",
+      "source_id": "imp-hm-treasury",
+      "source_name": "imp-hm-treasury",
+      "source_path": "https://www.gov.uk/government/organisations/hm-treasury",
+      "canonical_url": "https://www.gov.uk/government/news/great-british-summer-savings-vat-slashed-to-s",
+      "classification": "REAL_OFFICIAL_SOURCE"
+    },
+    {
+      "io_id": "io-203f48687b60456b",
+      "event_id": "evt-f1f281e6bbcc60e0",
+      "event_type": "regulatory_enforcement",
+      "source_id": "imp-bea",
+      "source_name": "imp-bea",
+      "source_path": "https://www.bea.gov/news?format=feed",
+      "canonical_url": "https://www.bea.gov/news/2026/personal-income-and-outlays-june-2026",
+      "classification": "REAL_OFFICIAL_SOURCE"
+    },
+    {
+      "io_id": "io-56eeb41732d259c6",
+      "event_id": "evt-6abbd2aa720454a9",
+      "event_type": "monetary_policy_decision",
+      "source_id": "imp-bea",
+      "source_name": "imp-bea",
+      "source_path": "https://www.bea.gov/news?format=feed",
+      "canonical_url": "https://www.bea.gov/news/2026/personal-income-and-outlays-may-2026",
+      "classification": "REAL_OFFICIAL_SOURCE"
+    },
+    {
+      "io_id": "io-d843445128980b8a",
+      "event_id": "evt-bca5be9c2280266c",
+      "event_type": "regulatory_enforcement",
+      "source_id": "imp-bea",
+      "source_name": "imp-bea",
+      "source_path": "https://www.bea.gov/news?format=feed",
+      "canonical_url": "https://www.bea.gov/news/2026/direct-investment-country-and-industry-2025",
+      "classification": "REAL_OFFICIAL_SOURCE"
+    },
+    {
+      "io_id": "io-5a1b57509a4d73da",
+      "event_id": "evt-ed3fca8353c71a30",
+      "event_type": "regulatory_enforcement",
+      "source_id": "imp-fsb",
+      "source_name": "imp-fsb",
+      "source_path": "https://www.fsb.org/feed/",
+      "canonical_url": "https://www.fsb.org/2026/07/cross-border-payments-towards-the-next-chapter",
+      "classification": "REAL_OFFICIAL_SOURCE"
+    },
+    {
+      "io_id": "io-16ce11b1bc441cab",
+      "event_id": "evt-65652f0c23f4fea2",
+      "event_type": "regulatory_enforcement",
+      "source_id": "imp-bea",
+      "source_name": "imp-bea",
+      "source_path": "https://www.bea.gov/news?format=feed",
+      "canonical_url": "https://www.bea.gov/news/2026/activities-us-affiliates-foreign-multinational-ent",
+      "classification": "REAL_OFFICIAL_SOURCE"
+    },
+    {
+      "io_id": "io-24c89aa5ca720d58",
+      "event_id": "evt-4584da4827071b6f",
+      "event_type": "monetary_policy_decision",
+      "source_id": "imp-bea",
+      "source_name": "imp-bea",
+      "source_path": "https://www.bea.gov/news?format=feed",
+      "canonical_url": "https://www.bea.gov/news/2026/us-international-transactions-and-investment-posit",
+      "classification": "REAL_OFFICIAL_SOURCE"
+    },
+    {
+      "io_id": "io-6e897d602140277f",
+      "event_id": "evt-a1c6c87e965f33d5",
+      "event_type": "statistical_release",
+      "source_id": "imp-bank-of-england",
+      "source_name": "imp-bank-of-england",
+      "source_path": "https://www.bankofengland.co.uk/news",
+      "canonical_url": "https://www.bankofengland.co.uk/markets/london-foreign-exchange-joint-standing-c",
+      "classification": "REAL_OFFICIAL_SOURCE"
+    },
+    {
+      "io_id": "io-4a55f7f355a29af2",
+      "event_id": "evt-a85ce8ba196299d6",
+      "event_type": "monetary_policy_decision",
+      "source_id": "imp-bea",
+      "source_name": "imp-bea",
+      "source_path": "https://www.bea.gov/news?format=feed",
+      "canonical_url": "https://www.bea.gov/news/2026/new-foreign-direct-investment-united-states-2025",
+      "classification": "REAL_OFFICIAL_SOURCE"
+    },
+    {
+      "io_id": "io-16c27f7bd8ec8bee",
+      "event_id": "evt-b5b365c445851ab9",
+      "event_type": "regulatory_enforcement",
+      "source_id": "imp-bea",
+      "source_name": "imp-bea",
+      "source_path": "https://www.bea.gov/news?format=feed",
+      "canonical_url": "https://www.bea.gov/news/2026/us-international-trade-goods-and-services-june-202",
+      "classification": "REAL_OFFICIAL_SOURCE"
+    },
+    {
+      "io_id": "io-ef612fb643faa8e7",
+      "event_id": "evt-250dae13f7ff0ca3",
+      "event_type": "statistical_release",
+      "source_id": "imp-bank-of-england",
+      "source_name": "imp-bank-of-england",
+      "source_path": "https://www.bankofengland.co.uk/news",
+      "canonical_url": "https://www.bankofengland.co.uk/statistics/notice/2026/green-notice-2026-02",
+      "classification": "REAL_OFFICIAL_SOURCE"
+    },
+    {
+      "io_id": "io-08081d6e6f97a481",
+      "event_id": "evt-22771b4c3d8d79c6",
+      "event_type": "regulatory_enforcement",
+      "source_id": "imp-bea",
+      "source_name": "imp-bea",
+      "source_path": "https://www.bea.gov/news?format=feed",
+      "canonical_url": "https://www.bea.gov/news/2026/personal-income-and-outlays-may-2026",
+      "classification": "REAL_OFFICIAL_SOURCE"
+    },
+    {
+      "io_id": "io-1f4d5c586252da53",
+      "event_id": "evt-a5b0aef35d4723cb",
+      "event_type": "statistical_release",
+      "source_id": "imp-bank-of-england",
+      "source_name": "imp-bank-of-england",
+      "source_path": "https://www.bankofengland.co.uk/news",
+      "canonical_url": "https://www.bankofengland.co.uk/minutes/2026/june/ai-consortium-minutes-3-june-2",
+      "classification": "REAL_OFFICIAL_SOURCE"
+    },
+    {
+      "io_id": "io-5dd7c798030c7d38",
+      "event_id": "evt-a1a3aa7352735b18",
+      "event_type": "regulatory_enforcement",
+      "source_id": "imp-bea",
+      "source_name": "imp-bea",
+      "source_path": "https://www.bea.gov/news?format=feed",
+      "canonical_url": "https://www.bea.gov/news/2026/us-international-transactions-and-investment-posit",
+      "classification": "REAL_OFFICIAL_SOURCE"
+    },
+    {
+      "io_id": "io-db7a69c2f3f53e85",
+      "event_id": "evt-3ee9f1b669e874cd",
+      "event_type": "regulatory_enforcement",
+      "source_id": "imp-bank-of-england",
+      "source_name": "imp-bank-of-england",
+      "source_path": "https://www.bankofengland.co.uk/news",
+      "canonical_url": "https://www.bankofengland.co.uk/markets/london-foreign-exchange-joint-standing-c",
+      "classification": "REAL_OFFICIAL_SOURCE"
+    },
+    {
+      "io_id": "io-0ddb0511d35cdf9b",
+      "event_id": "evt-34b6a7e4161924e8",
+      "event_type": "monetary_policy_decision",
+      "source_id": "imp-bea",
+      "source_name": "imp-bea",
+      "source_path": "https://www.bea.gov/news?format=feed",
+      "canonical_url": "https://www.bea.gov/news/2026/personal-income-and-outlays-january-2026",
+      "classification": "REAL_OFFICIAL_SOURCE"
+    },
+    {
+      "io_id": "io-e0648e7ba2e2048d",
+      "event_id": "evt-6c3bac378b33869d",
+      "event_type": "monetary_policy_decision",
+      "source_id": "imp-bea",
+      "source_name": "imp-bea",
+      "source_path": "https://www.bea.gov/news?format=feed",
+      "canonical_url": "https://www.bea.gov/news/2026/personal-income-and-outlays-april-2026",
+      "classification": "REAL_OFFICIAL_SOURCE"
+    },
+    {
+      "io_id": "io-a565bcfb04210a7b",
+      "event_id": "evt-fcd4423b3b6c6e82",
+      "event_type": "regulatory_enforcement",
+      "source_id": "imp-bank-of-england",
+      "source_name": "imp-bank-of-england",
+      "source_path": "https://www.bankofengland.co.uk/news",
+      "canonical_url": "https://www.bankofengland.co.uk/statistics/notice/2026/green-notice-2026-02",
+      "classification": "REAL_OFFICIAL_SOURCE"
+    },
+    {
+      "io_id": "io-9590a7498a1e2d3f",
+      "event_id": "evt-915cbd3390b359a0",
+      "event_type": "regulatory_enforcement",
+      "source_id": "imp-bea",
+      "source_name": "imp-bea",
+      "source_path": "https://www.bea.gov/news?format=feed",
+      "canonical_url": "https://www.bea.gov/news/2026/new-foreign-direct-investment-united-states-2025",
+      "classification": "REAL_OFFICIAL_SOURCE"
+    },
+    {
+      "io_id": "io-eb361be300a6d704",
+      "event_id": "evt-ea9faff915ce498e",
+      "event_type": "regulatory_enforcement",
+      "source_id": "imp-bank-of-england",
+      "source_name": "imp-bank-of-england",
+      "source_path": "https://www.bankofengland.co.uk/news",
+      "canonical_url": "https://www.bankofengland.co.uk/minutes/2026/june/ai-consortium-minutes-3-june-2",
+      "classification": "REAL_OFFICIAL_SOURCE"
+    },
+    {
+      "io_id": "io-79ea096b6ca06af7",
+      "event_id": "evt-5a85d48726b2e19e",
+      "event_type": "regulatory_enforcement",
+      "source_id": "imp-bea",
+      "source_name": "imp-bea",
+      "source_path": "https://www.bea.gov/news?format=feed",
+      "canonical_url": "https://www.bea.gov/news/2026/personal-income-and-outlays-april-2026",
+      "classification": "REAL_OFFICIAL_SOURCE"
+    },
+    {
+      "io_id": "io-7e619d8c238339cc",
+      "event_id": "evt-3da72888340b9473",
+      "event_type": "statistical_release",
+      "source_id": "imp-bank-of-england",
+      "source_name": "imp-bank-of-england",
+      "source_path": "https://www.bankofengland.co.uk/news",
+      "canonical_url": "https://www.bankofengland.co.uk/minutes/2026/july/court-minutes-4-june-2026",
+      "classification": "REAL_OFFICIAL_SOURCE"
+    },
+    {
+      "io_id": "io-1fd09f80de8c0fd8",
+      "event_id": "evt-daebbfc05b53cb15",
+      "event_type": "monetary_policy_decision",
+      "source_id": "imp-bea",
+      "source_name": "imp-bea",
+      "source_path": "https://www.bea.gov/news?format=feed",
+      "canonical_url": "https://www.bea.gov/news/2026/personal-income-and-outlays-december-2025",
+      "classification": "REAL_OFFICIAL_SOURCE"
+    },
+    {
+      "io_id": "io-46af572e483b8e1e",
+      "event_id": "evt-48c86e1fda3eb59b",
+      "event_type": "statistical_release",
+      "source_id": "imp-bank-of-england",
+      "source_name": "imp-bank-of-england",
+      "source_path": "https://www.bankofengland.co.uk/news",
+      "canonical_url": "https://www.bankofengland.co.uk/news/2026/august/appointment-of-chair-and-deputy",
+      "classification": "REAL_OFFICIAL_SOURCE"
+    },
+    {
+      "io_id": "io-1135569ba4828249",
+      "event_id": "evt-ffce9491aec88110",
+      "event_type": "monetary_policy_decision",
+      "source_id": "imp-bea",
+      "source_name": "imp-bea",
+      "source_path": "https://www.bea.gov/news?format=feed",
+      "canonical_url": "https://www.bea.gov/news/2026/outdoor-recreation-economic-statistics-us-and-stat",
+      "classification": "REAL_OFFICIAL_SOURCE"
+    },
+    {
+      "io_id": "io-c51930e2019505d5",
+      "event_id": "evt-5ebfd062cb793c83",
+      "event_type": "regulatory_enforcement",
+      "source_id": "imp-bea",
+      "source_name": "imp-bea",
+      "source_path": "https://www.bea.gov/news?format=feed",
+      "canonical_url": "https://www.bea.gov/news/2026/personal-income-and-outlays-january-2026",
+      "classification": "REAL_OFFICIAL_SOURCE"
+    },
+    {
+      "io_id": "io-f8c5509cf00eea32",
+      "event_id": "evt-2923279eca8a876d",
+      "event_type": "regulatory_enforcement",
+      "source_id": "imp-bank-of-england",
+      "source_name": "imp-bank-of-england",
+      "source_path": "https://www.bankofengland.co.uk/news",
+      "canonical_url": "https://www.bankofengland.co.uk/minutes/2026/july/court-minutes-4-june-2026",
+      "classification": "REAL_OFFICIAL_SOURCE"
+    },
+    {
+      "io_id": "io-dd7f1db542d212a3",
+      "event_id": "evt-2fac83d3bc452314",
+      "event_type": "statistical_release",
+      "source_id": "imp-bank-of-england",
+      "source_name": "imp-bank-of-england",
+      "source_path": "https://www.bankofengland.co.uk/news",
+      "canonical_url": "https://www.bankofengland.co.uk/monetary-policy-summary-and-minutes/2026/july-20",
+      "classification": "REAL_OFFICIAL_SOURCE"
+    },
+    {
+      "io_id": "io-1e16c647daedeb0a",
+      "event_id": "evt-829643e012ed7feb",
+      "event_type": "regulatory_enforcement",
+      "source_id": "imp-bea",
+      "source_name": "imp-bea",
+      "source_path": "https://www.bea.gov/news?format=feed",
+      "canonical_url": "https://www.bea.gov/news/2026/personal-income-and-outlays-december-2025",
+      "classification": "REAL_OFFICIAL_SOURCE"
+    },
+    {
+      "io_id": "io-a91d6a0346aee839",
+      "event_id": "evt-59b6055dada6bcb1",
+      "event_type": "statistical_release",
+      "source_id": "imp-bank-of-england",
+      "source_name": "imp-bank-of-england",
+      "source_path": "https://www.bankofengland.co.uk/news",
+      "canonical_url": "https://www.bankofengland.co.uk/letter/2026/letter-from-the-governor-to-the-dail",
+      "classification": "REAL_OFFICIAL_SOURCE"
+    },
+    {
+      "io_id": "io-2838d0e193780787",
+      "event_id": "evt-45b739a3c5091622",
+      "event_type": "regulatory_enforcement",
+      "source_id": "imp-bank-of-england",
+      "source_name": "imp-bank-of-england",
+      "source_path": "https://www.bankofengland.co.uk/news",
+      "canonical_url": "https://www.bankofengland.co.uk/news/2026/august/appointment-of-chair-and-deputy",
+      "classification": "REAL_OFFICIAL_SOURCE"
+    },
+    {
+      "io_id": "io-26aadcd8f16a0283",
+      "event_id": "evt-0521a133b48755d3",
+      "event_type": "regulatory_enforcement",
+      "source_id": "imp-bea",
+      "source_name": "imp-bea",
+      "source_path": "https://www.bea.gov/news?format=feed",
+      "canonical_url": "https://www.bea.gov/news/2026/outdoor-recreation-economic-statistics-us-and-stat",
+      "classification": "REAL_OFFICIAL_SOURCE"
+    },
+    {
+      "io_id": "io-85d554717dd412d4",
+      "event_id": "evt-581172966175047b",
+      "event_type": "regulatory_enforcement",
+      "source_id": "imp-ecb",
+      "source_name": "imp-ecb",
+      "source_path": "https://www.ecb.europa.eu/rss/press.html",
+      "canonical_url": "https://www.ecb.europa.eu//press/pr/date/2026/html/ecb.pr260724_2~d7d475d2f0.en.",
+      "classification": "REAL_OFFICIAL_SOURCE"
+    },
+    {
+      "io_id": "io-2fe8d57ad491e369",
+      "event_id": "evt-36acb6de953300d0",
+      "event_type": "monetary_policy_decision",
+      "source_id": "imp-bea",
+      "source_name": "imp-bea",
+      "source_path": "https://www.bea.gov/news?format=feed",
+      "canonical_url": "https://www.bea.gov/news/2026/real-personal-consumption-expenditures-state-and-r",
+      "classification": "REAL_OFFICIAL_SOURCE"
+    },
+    {
+      "io_id": "io-c8159731d142c47e",
+      "event_id": "evt-53c69508b709fc66",
+      "event_type": "monetary_policy_decision",
+      "source_id": "imp-bea",
+      "source_name": "imp-bea",
+      "source_path": "https://www.bea.gov/news?format=feed",
+      "canonical_url": "https://www.bea.gov/news/2026/gross-domestic-product-county-and-personal-income-",
+      "classification": "REAL_OFFICIAL_SOURCE"
+    },
+    {
+      "io_id": "io-0ace1459a3bdcc08",
+      "event_id": "evt-14d9d3b05162e8bb",
+      "event_type": "regulatory_enforcement",
+      "source_id": "imp-bank-of-england",
+      "source_name": "imp-bank-of-england",
+      "source_path": "https://www.bankofengland.co.uk/news",
+      "canonical_url": "https://www.bankofengland.co.uk/monetary-policy-summary-and-minutes/2026/july-20",
+      "classification": "REAL_OFFICIAL_SOURCE"
+    },
+    {
+      "io_id": "io-6e8f3c993d4f1395",
+      "event_id": "evt-8e049f39ea3fca50",
+      "event_type": "regulatory_enforcement",
+      "source_id": "imp-bank-of-england",
+      "source_name": "imp-bank-of-england",
+      "source_path": "https://www.bankofengland.co.uk/news",
+      "canonical_url": "https://www.bankofengland.co.uk/letter/2026/letter-from-the-governor-to-the-dail",
+      "classification": "REAL_OFFICIAL_SOURCE"
+    },
+    {
+      "io_id": "io-454f87f528df1d85",
+      "event_id": "evt-e4d7ddfefdd9a045",
+      "event_type": "statistical_release",
+      "source_id": "imp-bank-of-england",
+      "source_name": "imp-bank-of-england",
+      "source_path": "https://www.bankofengland.co.uk/news",
+      "canonical_url": "https://www.bankofengland.co.uk/news/2026/july/pra-consults-on-updated-guidance-",
+      "classification": "REAL_OFFICIAL_SOURCE"
+    },
+    {
+      "io_id": "io-9701ebc40db3ea9b",
+      "event_id": "evt-4f5cbdee45e849aa",
+      "event_type": "statistical_release",
+      "source_id": "imp-bank-of-england",
+      "source_name": "imp-bank-of-england",
+      "source_path": "https://www.bankofengland.co.uk/news",
+      "canonical_url": "https://www.bankofengland.co.uk/news/2026/july/pra-fines-hdi-global-se-4165000-f",
+      "classification": "REAL_OFFICIAL_SOURCE"
+    },
+    {
+      "io_id": "io-f5e2fca594e1aacc",
+      "event_id": "evt-004ef8de3ccd017e",
+      "event_type": "regulatory_enforcement",
+      "source_id": "imp-ecb",
+      "source_name": "imp-ecb",
+      "source_path": "https://www.ecb.europa.eu/rss/press.html",
+      "canonical_url": "https://www.ecb.europa.eu//press/pr/date/2026/html/ecb.pr260724~a099353951.en.ht",
+      "classification": "REAL_OFFICIAL_SOURCE"
+    },
+    {
+      "io_id": "io-944a5b9c9a2ecbde",
+      "event_id": "evt-898a9f48172d8cd7",
+      "event_type": "statistical_release",
+      "source_id": "imp-cftc",
+      "source_name": "imp-cftc",
+      "source_path": "https://www.cftc.gov/PressRoom/PressReleases",
+      "canonical_url": "https://www.cftc.gov/PressRoom/SpeechesTestimony/seligstatement070126",
+      "classification": "REAL_OFFICIAL_SOURCE"
+    },
+    {
+      "io_id": "io-1879c383b73af0d4",
+      "event_id": "evt-75caf8840e3749dc",
+      "event_type": "monetary_policy_decision",
+      "source_id": "imp-bea",
+      "source_name": "imp-bea",
+      "source_path": "https://www.bea.gov/news?format=feed",
+      "canonical_url": "https://www.bea.gov/news/2026/gross-domestic-product-state-and-personal-income-s",
+      "classification": "REAL_OFFICIAL_SOURCE"
+    },
+    {
+      "io_id": "io-fd5d80e35758c291",
+      "event_id": "evt-6117a4d2ad27d2ff",
+      "event_type": "regulatory_enforcement",
+      "source_id": "imp-bank-of-england",
+      "source_name": "imp-bank-of-england",
+      "source_path": "https://www.bankofengland.co.uk/news",
+      "canonical_url": "https://www.bankofengland.co.uk/news/2026/july/pra-consults-on-updated-guidance-",
+      "classification": "REAL_OFFICIAL_SOURCE"
+    },
+    {
+      "io_id": "io-81e9f63edfc4dfc8",
+      "event_id": "evt-66ec25aa9f677506",
+      "event_type": "regulatory_enforcement",
+      "source_id": "imp-ecb",
+      "source_name": "imp-ecb",
+      "source_path": "https://www.ecb.europa.eu/rss/press.html",
+      "canonical_url": "https://www.ecb.europa.eu//press/pr/date/2026/html/ecb.pr260723~c2d43f9170.en.ht",
+      "classification": "REAL_OFFICIAL_SOURCE"
+    },
+    {
+      "io_id": "io-30d2114b7ca01b17",
+      "event_id": "evt-0cebe878ab5d5c9e",
+      "event_type": "regulatory_enforcement",
+      "source_id": "imp-bea",
+      "source_name": "imp-bea",
+      "source_path": "https://www.bea.gov/news?format=feed",
+      "canonical_url": "https://www.bea.gov/news/2026/gross-domestic-product-county-and-personal-income-",
+      "classification": "REAL_OFFICIAL_SOURCE"
+    },
+    {
+      "io_id": "io-caa59d527e57d75a",
+      "event_id": "evt-8380ee4eb7500e83",
+      "event_type": "statistical_release",
+      "source_id": "imp-bank-of-england",
+      "source_name": "imp-bank-of-england",
+      "source_path": "https://www.bankofengland.co.uk/news",
+      "canonical_url": "https://www.bankofengland.co.uk/news/2026/july/pra-and-fca-propose-new-captive-i",
+      "classification": "REAL_OFFICIAL_SOURCE"
+    },
+    {
+      "io_id": "io-389b779359492899",
+      "event_id": "evt-511c3fb849648b36",
+      "event_type": "regulatory_enforcement",
+      "source_id": "imp-ecb",
+      "source_name": "imp-ecb",
+      "source_path": "https://www.ecb.europa.eu/rss/press.html",
+      "canonical_url": "https://www.ecb.europa.eu//press/pr/date/2026/html/ecb.pr260724_1~fa277eb6fe.en.",
+      "classification": "REAL_OFFICIAL_SOURCE"
+    },
+    {
+      "io_id": "io-1dad53e489db8113",
+      "event_id": "evt-f7c3739c93d2e234",
+      "event_type": "regulatory_enforcement",
+      "source_id": "imp-bank-of-england",
+      "source_name": "imp-bank-of-england",
+      "source_path": "https://www.bankofengland.co.uk/news",
+      "canonical_url": "https://www.bankofengland.co.uk/news/2026/july/pra-fines-hdi-global-se-4165000-f",
+      "classification": "REAL_OFFICIAL_SOURCE"
+    },
+    {
+      "io_id": "io-13056c44c9bbb210",
+      "event_id": "evt-7314e0e1b4d68d9a",
+      "event_type": "regulatory_enforcement",
+      "source_id": "imp-bea",
+      "source_name": "imp-bea",
+      "source_path": "https://www.bea.gov/news?format=feed",
+      "canonical_url": "https://www.bea.gov/news/2026/us-international-investment-position-3rd-quarter-2",
+      "classification": "REAL_OFFICIAL_SOURCE"
+    },
+    {
+      "io_id": "io-6f3c2fefc3cb4539",
+      "event_id": "evt-7fdd03b99cb181d9",
+      "event_type": "statistical_release",
+      "source_id": "imp-bank-of-england",
+      "source_name": "imp-bank-of-england",
+      "source_path": "https://www.bankofengland.co.uk/news",
+      "canonical_url": "https://www.bankofengland.co.uk/minutes/2026/june/money-markets-committee-minute",
+      "classification": "REAL_OFFICIAL_SOURCE"
+    },
+    {
+      "io_id": "io-d1d245d781cbc958",
+      "event_id": "evt-86fb9090ea183fb4",
+      "event_type": "monetary_policy_decision",
+      "source_id": "imp-bea",
+      "source_name": "imp-bea",
+      "source_path": "https://www.bea.gov/news?format=feed",
+      "canonical_url": "https://www.bea.gov/news/2026/us-international-transactions-3rd-quarter-2025",
+      "classification": "REAL_OFFICIAL_SOURCE"
+    },
+    {
+      "io_id": "io-c6e8b43f779d9b10",
+      "event_id": "evt-eb4266b3d995c2e9",
+      "event_type": "regulatory_enforcement",
+      "source_id": "imp-bank-of-england",
+      "source_name": "imp-bank-of-england",
+      "source_path": "https://www.bankofengland.co.uk/news",
+      "canonical_url": "https://www.bankofengland.co.uk/news/2026/july/pra-and-fca-propose-new-captive-i",
+      "classification": "REAL_OFFICIAL_SOURCE"
+    },
+    {
+      "io_id": "io-27fa098c05119c6a",
+      "event_id": "evt-a70f27cbc7791ad8",
+      "event_type": "statistical_release",
+      "source_id": "imp-bank-of-england",
+      "source_name": "imp-bank-of-england",
+      "source_path": "https://www.bankofengland.co.uk/news",
+      "canonical_url": "https://www.bankofengland.co.uk/news/2026/july/uk-financial-regulators-to-begin-",
+      "classification": "REAL_OFFICIAL_SOURCE"
+    },
+    {
+      "io_id": "io-9513f96cb044270e",
+      "event_id": "evt-ebd9943f624435b3",
+      "event_type": "statistical_release",
+      "source_id": "imp-ecb",
+      "source_name": "imp-ecb",
+      "source_path": "https://www.ecb.europa.eu/rss/press.html",
+      "canonical_url": "https://www.ecb.europa.eu//press/press_conference/monetary-policy-statement/2026",
+      "classification": "REAL_OFFICIAL_SOURCE"
+    },
+    {
+      "io_id": "io-45c7b0277baa15f6",
+      "event_id": "evt-fdfdf6f94ccf65c1",
+      "event_type": "monetary_policy_decision",
+      "source_id": "imp-bea",
+      "source_name": "imp-bea",
+      "source_path": "https://www.bea.gov/news?format=feed",
+      "canonical_url": "https://www.bea.gov/news/2025/gross-domestic-product-puerto-rico-2023",
+      "classification": "REAL_OFFICIAL_SOURCE"
+    },
+    {
+      "io_id": "io-a2116b35e27f37d7",
+      "event_id": "evt-cb81e826c4157d2b",
+      "event_type": "statistical_release",
+      "source_id": "imp-bank-of-england",
+      "source_name": "imp-bank-of-england",
+      "source_path": "https://www.bankofengland.co.uk/news",
+      "canonical_url": "https://www.bankofengland.co.uk/minutes/2026/june/uk-money-markets-committee-min",
+      "classification": "REAL_OFFICIAL_SOURCE"
+    },
+    {
+      "io_id": "io-2baf4414d0ed9317",
+      "event_id": "evt-6d653e7b37bda0fa",
+      "event_type": "monetary_policy_decision",
+      "source_id": "imp-bea",
+      "source_name": "imp-bea",
+      "source_path": "https://www.bea.gov/news?format=feed",
+      "canonical_url": "https://www.bea.gov/news/2025/activities-us-multinational-enterprises-2023",
+      "classification": "REAL_OFFICIAL_SOURCE"
+    },
+    {
+      "io_id": "io-d7d6a4ba4d053d7c",
+      "event_id": "evt-110f89c820d53d69",
+      "event_type": "regulatory_enforcement",
+      "source_id": "imp-bank-of-england",
+      "source_name": "imp-bank-of-england",
+      "source_path": "https://www.bankofengland.co.uk/news",
+      "canonical_url": "https://www.bankofengland.co.uk/minutes/2026/june/money-markets-committee-minute",
+      "classification": "REAL_OFFICIAL_SOURCE"
+    },
+    {
+      "io_id": "io-233c00dfdb8fe20b",
+      "event_id": "evt-d97f0d372f94c005",
+      "event_type": "regulatory_enforcement",
+      "source_id": "imp-ecb",
+      "source_name": "imp-ecb",
+      "source_path": "https://www.ecb.europa.eu/rss/press.html",
+      "canonical_url": "https://www.ecb.europa.eu//press/press_conference/monetary-policy-statement/2026",
+      "classification": "REAL_OFFICIAL_SOURCE"
+    },
+    {
+      "io_id": "io-a264f4df37f1ee65",
+      "event_id": "evt-0bf89f50784482f9",
+      "event_type": "regulatory_enforcement",
+      "source_id": "imp-bank-of-england",
+      "source_name": "imp-bank-of-england",
+      "source_path": "https://www.bankofengland.co.uk/news",
+      "canonical_url": "https://www.bankofengland.co.uk/news/2026/july/uk-financial-regulators-to-begin-",
+      "classification": "REAL_OFFICIAL_SOURCE"
+    },
+    {
+      "io_id": "io-4038c30c7162aa3c",
+      "event_id": "evt-9b2662438562ed61",
+      "event_type": "monetary_policy_decision",
+      "source_id": "imp-bea",
+      "source_name": "imp-bea",
+      "source_path": "https://www.bea.gov/news?format=feed",
+      "canonical_url": "https://www.bea.gov/news/2025/marine-economy-satellite-account-2023",
+      "classification": "REAL_OFFICIAL_SOURCE"
+    },
+    {
+      "io_id": "io-1a3e8bbdd333706b",
+      "event_id": "evt-640d4ae2943e7613",
+      "event_type": "regulatory_enforcement",
+      "source_id": "imp-bea",
+      "source_name": "imp-bea",
+      "source_path": "https://www.bea.gov/news?format=feed",
+      "canonical_url": "https://www.bea.gov/news/2025/activities-us-multinational-enterprises-2023",
+      "classification": "REAL_OFFICIAL_SOURCE"
+    },
+    {
+      "io_id": "io-08f1d21d05752c7c",
+      "event_id": "evt-d32d83a944819f6f",
+      "event_type": "statistical_release",
+      "source_id": "imp-bank-of-england",
+      "source_name": "imp-bank-of-england",
+      "source_path": "https://www.bankofengland.co.uk/news",
+      "canonical_url": "https://www.bankofengland.co.uk/letter/2026/letter-from-the-governor-to-joe-powe",
+      "classification": "REAL_OFFICIAL_SOURCE"
+    },
+    {
+      "io_id": "io-643ca2fba3fac539",
+      "event_id": "evt-4883ea437e76e73d",
+      "event_type": "regulatory_enforcement",
+      "source_id": "imp-bea",
+      "source_name": "imp-bea",
+      "source_path": "https://www.bea.gov/news?format=feed",
+      "canonical_url": "https://www.bea.gov/news/2026/us-international-transactions-3rd-quarter-2025",
+      "classification": "REAL_OFFICIAL_SOURCE"
+    },
+    {
+      "io_id": "io-4fa37573b46fc950",
+      "event_id": "evt-5043b17c94dcaa11",
+      "event_type": "monetary_policy_decision",
+      "source_id": "imp-bea",
+      "source_name": "imp-bea",
+      "source_path": "https://www.bea.gov/news?format=feed",
+      "canonical_url": "https://www.bea.gov/news/2024/real-personal-consumption-expenditures-state-and-r",
+      "classification": "REAL_OFFICIAL_SOURCE"
+    },
+    {
+      "io_id": "io-d74e3a7265f15f73",
+      "event_id": "evt-b8ec3fbf83f73568",
+      "event_type": "monetary_policy_decision",
+      "source_id": "imp-bea",
+      "source_name": "imp-bea",
+      "source_path": "https://www.bea.gov/news?format=feed",
+      "canonical_url": "https://www.bea.gov/news/2025/arts-and-cultural-production-satellite-account-us-",
+      "classification": "REAL_OFFICIAL_SOURCE"
+    },
+    {
+      "io_id": "io-c80e0873163a823b",
+      "event_id": "evt-6208c045375501c2",
+      "event_type": "regulatory_enforcement",
+      "source_id": "imp-bank-of-england",
+      "source_name": "imp-bank-of-england",
+      "source_path": "https://www.bankofengland.co.uk/news",
+      "canonical_url": "https://www.bankofengland.co.uk/minutes/2026/june/uk-money-markets-committee-min",
+      "classification": "REAL_OFFICIAL_SOURCE"
+    },
+    {
+      "io_id": "io-564005fc024e44cb",
+      "event_id": "evt-92f11efcfc81925e",
+      "event_type": "regulatory_enforcement",
+      "source_id": "imp-bea",
+      "source_name": "imp-bea",
+      "source_path": "https://www.bea.gov/news?format=feed",
+      "canonical_url": "https://www.bea.gov/news/2025/marine-economy-satellite-account-2023",
+      "classification": "REAL_OFFICIAL_SOURCE"
+    },
+    {
+      "io_id": "io-2cfc6ee7be93a15c",
+      "event_id": "evt-3f6937f7c831a034",
+      "event_type": "statistical_release",
+      "source_id": "imp-bank-of-england",
+      "source_name": "imp-bank-of-england",
+      "source_path": "https://www.bankofengland.co.uk/news",
+      "canonical_url": "https://www.bankofengland.co.uk/statistics/notice/2026/statistical-notice-2026-0",
+      "classification": "REAL_OFFICIAL_SOURCE"
+    },
+    {
+      "io_id": "io-75900197555d7e75",
+      "event_id": "evt-3e2e002af6949586",
+      "event_type": "regulatory_enforcement",
+      "source_id": "imp-bank-of-england",
+      "source_name": "imp-bank-of-england",
+      "source_path": "https://www.bankofengland.co.uk/news",
+      "canonical_url": "https://www.bankofengland.co.uk/letter/2026/letter-from-the-governor-to-joe-powe",
+      "classification": "REAL_OFFICIAL_SOURCE"
+    },
+    {
+      "io_id": "io-cdee3122804c8504",
+      "event_id": "evt-47e69140a7678796",
+      "event_type": "statistical_release",
+      "source_id": "imp-bank-of-england",
+      "source_name": "imp-bank-of-england",
+      "source_path": "https://www.bankofengland.co.uk/news",
+      "canonical_url": "https://www.bankofengland.co.uk/financial-policy-committee-record/2026/july-2026",
+      "classification": "REAL_OFFICIAL_SOURCE"
+    },
+    {
+      "io_id": "io-2a042c28e9a543a7",
+      "event_id": "evt-2b9f33a79320fcd6",
+      "event_type": "regulatory_enforcement",
+      "source_id": "imp-bea",
+      "source_name": "imp-bea",
+      "source_path": "https://www.bea.gov/news?format=feed",
+      "canonical_url": "https://www.bea.gov/news/2024/real-personal-consumption-expenditures-state-and-r",
+      "classification": "REAL_OFFICIAL_SOURCE"
+    },
+    {
+      "io_id": "io-2b840752862e7d33",
+      "event_id": "evt-0e475e39214d342b",
+      "event_type": "monetary_policy_decision",
+      "source_id": "imp-bea",
+      "source_name": "imp-bea",
+      "source_path": "https://www.bea.gov/news?format=feed",
+      "canonical_url": "https://www.bea.gov/news/2024/gross-domestic-product-county-and-metropolitan-are",
+      "classification": "REAL_OFFICIAL_SOURCE"
+    },
+    {
+      "io_id": "io-8cbab75ca28530b1",
+      "event_id": "evt-2e6621dbf2c540d2",
+      "event_type": "statistical_release",
+      "source_id": "imp-bank-of-england",
+      "source_name": "imp-bank-of-england",
+      "source_path": "https://www.bankofengland.co.uk/news",
+      "canonical_url": "https://www.bankofengland.co.uk/news/2026/july/boe-appoints-rhys-phillips-as-the",
+      "classification": "REAL_OFFICIAL_SOURCE"
+    },
+    {
+      "io_id": "io-d06d24f89c5d734d",
+      "event_id": "evt-8d6a09f67fbd9a88",
+      "event_type": "regulatory_enforcement",
+      "source_id": "imp-bank-of-england",
+      "source_name": "imp-bank-of-england",
+      "source_path": "https://www.bankofengland.co.uk/news",
+      "canonical_url": "https://www.bankofengland.co.uk/statistics/notice/2026/statistical-notice-2026-0",
+      "classification": "REAL_OFFICIAL_SOURCE"
+    },
+    {
+      "io_id": "io-6dc580a80836de14",
+      "event_id": "evt-5420324294701725",
+      "event_type": "regulatory_enforcement",
+      "source_id": "imp-bea",
+      "source_name": "imp-bea",
+      "source_path": "https://www.bea.gov/news?format=feed",
+      "canonical_url": "https://www.bea.gov/news/2025/arts-and-cultural-production-satellite-account-us-",
+      "classification": "REAL_OFFICIAL_SOURCE"
+    },
+    {
+      "io_id": "io-9e636b73126aa1a7",
+      "event_id": "evt-2f54e8ff687a6801",
+      "event_type": "regulatory_enforcement",
+      "source_id": "imp-bea",
+      "source_name": "imp-bea",
+      "source_path": "https://www.bea.gov/news?format=feed",
+      "canonical_url": "https://www.bea.gov/news/2024/gross-domestic-product-county-and-metropolitan-are",
+      "classification": "REAL_OFFICIAL_SOURCE"
+    },
+    {
+      "io_id": "io-e9e8d91966f8e471",
+      "event_id": "evt-21731565695949fa",
+      "event_type": "regulatory_enforcement",
+      "source_id": "imp-bank-of-england",
+      "source_name": "imp-bank-of-england",
+      "source_path": "https://www.bankofengland.co.uk/news",
+      "canonical_url": "https://www.bankofengland.co.uk/financial-policy-committee-record/2026/july-2026",
+      "classification": "REAL_OFFICIAL_SOURCE"
+    },
+    {
+      "io_id": "io-4fa83230c23d3300",
+      "event_id": "evt-5f8050df0a08347a",
+      "event_type": "monetary_policy_decision",
+      "source_id": "imp-bea",
+      "source_name": "imp-bea",
+      "source_path": "https://www.bea.gov/news?format=feed",
+      "canonical_url": "https://www.bea.gov/news/2024/gross-domestic-product-commonwealth-northern-maria",
+      "classification": "REAL_OFFICIAL_SOURCE"
+    },
+    {
+      "io_id": "io-d419843c4749033c",
+      "event_id": "evt-f7a7721341490c3a",
+      "event_type": "monetary_policy_decision",
+      "source_id": "imp-bea",
+      "source_name": "imp-bea",
+      "source_path": "https://www.bea.gov/news?format=feed",
+      "canonical_url": "https://www.bea.gov/news/2024/outdoor-recreation-satellite-account-us-and-states",
+      "classification": "REAL_OFFICIAL_SOURCE"
+    },
+    {
+      "io_id": "io-d11faaf75f209660",
+      "event_id": "evt-69b1ba2dac5b81ed",
+      "event_type": "regulatory_enforcement",
+      "source_id": "imp-bank-of-england",
+      "source_name": "imp-bank-of-england",
+      "source_path": "https://www.bankofengland.co.uk/news",
+      "canonical_url": "https://www.bankofengland.co.uk/news/2026/july/boe-appoints-rhys-phillips-as-the",
+      "classification": "REAL_OFFICIAL_SOURCE"
+    },
+    {
+      "io_id": "io-534abe93a5d52fcf",
+      "event_id": "evt-c79f4e53e01992b1",
+      "event_type": "statistical_release",
+      "source_id": "imp-bank-of-england",
+      "source_name": "imp-bank-of-england",
+      "source_path": "https://www.bankofengland.co.uk/news",
+      "canonical_url": "https://www.bankofengland.co.uk/minutes/2026/march/fxjsc-main-committee-meeting-",
+      "classification": "REAL_OFFICIAL_SOURCE"
+    },
+    {
+      "io_id": "io-4532f7a1366173d1",
+      "event_id": "evt-62b572c178fd0ded",
+      "event_type": "monetary_policy_decision",
+      "source_id": "imp-bea",
+      "source_name": "imp-bea",
+      "source_path": "https://www.bea.gov/news?format=feed",
+      "canonical_url": "https://www.bea.gov/news/2024/personal-income-county-and-metropolitan-area-2023",
+      "classification": "REAL_OFFICIAL_SOURCE"
+    },
+    {
+      "io_id": "io-86d76b3772c06bf3",
+      "event_id": "evt-b5adf1ff28d0eb23",
+      "event_type": "statistical_release",
+      "source_id": "imp-bank-of-england",
+      "source_name": "imp-bank-of-england",
+      "source_path": "https://www.bankofengland.co.uk/news",
+      "canonical_url": "https://www.bankofengland.co.uk/minutes/2026/march/fxjsc-legal-sub-committee-mee",
+      "classification": "REAL_OFFICIAL_SOURCE"
+    },
+    {
+      "io_id": "io-7898660b67952ada",
+      "event_id": "evt-2878404b0a63d52a",
+      "event_type": "regulatory_enforcement",
+      "source_id": "imp-bea",
+      "source_name": "imp-bea",
+      "source_path": "https://www.bea.gov/news?format=feed",
+      "canonical_url": "https://www.bea.gov/news/2024/outdoor-recreation-satellite-account-us-and-states",
+      "classification": "REAL_OFFICIAL_SOURCE"
+    },
+    {
+      "io_id": "io-d0622d01bcbce47a",
+      "event_id": "evt-a126eb7ac62d9f91",
+      "event_type": "regulatory_enforcement",
+      "source_id": "imp-bank-of-england",
+      "source_name": "imp-bank-of-england",
+      "source_path": "https://www.bankofengland.co.uk/news",
+      "canonical_url": "https://www.bankofengland.co.uk/minutes/2026/march/fxjsc-main-committee-meeting-",
+      "classification": "REAL_OFFICIAL_SOURCE"
+    },
+    {
+      "io_id": "io-0dba533176f9f2e7",
+      "event_id": "evt-4433695c5544d9ac",
+      "event_type": "monetary_policy_decision",
+      "source_id": "imp-bea",
+      "source_name": "imp-bea",
+      "source_path": "https://www.bea.gov/news?format=feed",
+      "canonical_url": "https://www.bea.gov/news/2024/personal-consumption-expenditures-state-2023",
+      "classification": "REAL_OFFICIAL_SOURCE"
+    },
+    {
+      "io_id": "io-4d24ec768e6a3d84",
+      "event_id": "evt-7a1098c3ce81825c",
+      "event_type": "regulatory_enforcement",
+      "source_id": "imp-bank-of-england",
+      "source_name": "imp-bank-of-england",
+      "source_path": "https://www.bankofengland.co.uk/news",
+      "canonical_url": "https://www.bankofengland.co.uk/minutes/2026/march/fxjsc-legal-sub-committee-mee",
+      "classification": "REAL_OFFICIAL_SOURCE"
+    },
+    {
+      "io_id": "io-ebc5b1ba83483510",
+      "event_id": "evt-cb0608922147ed07",
+      "event_type": "regulatory_enforcement",
+      "source_id": "imp-bea",
+      "source_name": "imp-bea",
+      "source_path": "https://www.bea.gov/news?format=feed",
+      "canonical_url": "https://www.bea.gov/news/2024/gross-domestic-product-commonwealth-northern-maria",
+      "classification": "REAL_OFFICIAL_SOURCE"
+    },
+    {
+      "io_id": "io-3f559e4bb635f765",
+      "event_id": "evt-670053c376362ce8",
+      "event_type": "statistical_release",
+      "source_id": "imp-bank-of-england",
+      "source_name": "imp-bank-of-england",
+      "source_path": "https://www.bankofengland.co.uk/news",
+      "canonical_url": "https://www.bankofengland.co.uk/minutes/2026/march/fxjsc-operations-sub-committe",
+      "classification": "REAL_OFFICIAL_SOURCE"
+    },
+    {
+      "io_id": "io-63ca853eca9b4a9f",
+      "event_id": "evt-0ef13ec426579f5e",
+      "event_type": "regulatory_enforcement",
+      "source_id": "imp-bea",
+      "source_name": "imp-bea",
+      "source_path": "https://www.bea.gov/news?format=feed",
+      "canonical_url": "https://www.bea.gov/news/2024/personal-consumption-expenditures-state-2023",
+      "classification": "REAL_OFFICIAL_SOURCE"
+    },
+    {
+      "io_id": "io-f504d6ea1185c997",
+      "event_id": "evt-e81fb12e73a5b8f3",
+      "event_type": "statistical_release",
+      "source_id": "imp-bank-of-england",
+      "source_name": "imp-bank-of-england",
+      "source_path": "https://www.bankofengland.co.uk/news",
+      "canonical_url": "https://www.bankofengland.co.uk/statistics/notice/2026/statistical-notice-2026-0",
+      "classification": "REAL_OFFICIAL_SOURCE"
+    },
+    {
+      "io_id": "io-1fc6dbcf948ebcc8",
+      "event_id": "evt-d64588f9aff58bf1",
+      "event_type": "monetary_policy_decision",
+      "source_id": "imp-bea",
+      "source_name": "imp-bea",
+      "source_path": "https://www.bea.gov/news?format=feed",
+      "canonical_url": "https://www.bea.gov/news/2024/gross-domestic-product-guam-2022",
+      "classification": "REAL_OFFICIAL_SOURCE"
+    },
+    {
+      "io_id": "io-8f3d68de83118f4c",
+      "event_id": "evt-2b5b7d249eb995f2",
+      "event_type": "regulatory_enforcement",
+      "source_id": "imp-bank-of-england",
+      "source_name": "imp-bank-of-england",
+      "source_path": "https://www.bankofengland.co.uk/news",
+      "canonical_url": "https://www.bankofengland.co.uk/minutes/2026/march/fxjsc-operations-sub-committe",
+      "classification": "REAL_OFFICIAL_SOURCE"
+    },
+    {
+      "io_id": "io-fc8850da0f7a7739",
+      "event_id": "evt-44ee5d7d932cb522",
+      "event_type": "monetary_policy_decision",
+      "source_id": "imp-bea",
+      "source_name": "imp-bea",
+      "source_path": "https://www.bea.gov/news?format=feed",
+      "canonical_url": "https://www.bea.gov/news/2024/gross-domestic-product-us-virgin-islands-2022",
+      "classification": "REAL_OFFICIAL_SOURCE"
+    },
+    {
+      "io_id": "io-3f05374c0a338354",
+      "event_id": "evt-aa8475ca0612b1d2",
+      "event_type": "regulatory_enforcement",
+      "source_id": "imp-bank-of-england",
+      "source_name": "imp-bank-of-england",
+      "source_path": "https://www.bankofengland.co.uk/news",
+      "canonical_url": "https://www.bankofengland.co.uk/statistics/notice/2026/statistical-notice-2026-0",
+      "classification": "REAL_OFFICIAL_SOURCE"
+    },
+    {
+      "io_id": "io-f19e78b84a1f08f5",
+      "event_id": "evt-6f9bbf0c26fa28b8",
+      "event_type": "statistical_release",
+      "source_id": "imp-bank-of-england",
+      "source_name": "imp-bank-of-england",
+      "source_path": "https://www.bankofengland.co.uk/news",
+      "canonical_url": "https://www.bankofengland.co.uk/news/2026/june/megan-greene-tsc-reappointment",
+      "classification": "REAL_OFFICIAL_SOURCE"
+    },
+    {
+      "io_id": "io-524f97f1beb08db3",
+      "event_id": "evt-cda1dc11cb05373b",
+      "event_type": "statistical_release",
+      "source_id": "imp-bank-of-england",
+      "source_name": "imp-bank-of-england",
+      "source_path": "https://www.bankofengland.co.uk/news",
+      "canonical_url": "https://www.bankofengland.co.uk/news/2026/june/rpib-launches-consultation-on-nex",
+      "classification": "REAL_OFFICIAL_SOURCE"
+    },
+    {
+      "io_id": "io-51193e4157cb3c1c",
+      "event_id": "evt-6be41e40e957569d",
+      "event_type": "regulatory_enforcement",
+      "source_id": "imp-bea",
+      "source_name": "imp-bea",
+      "source_path": "https://www.bea.gov/news?format=feed",
+      "canonical_url": "https://www.bea.gov/news/2024/gross-domestic-product-guam-2022",
+      "classification": "REAL_OFFICIAL_SOURCE"
+    },
+    {
+      "io_id": "io-ab83fa4ec62d1f05",
+      "event_id": "evt-5d42a277543a8d9d",
+      "event_type": "regulatory_enforcement",
+      "source_id": "imp-bank-of-england",
+      "source_name": "imp-bank-of-england",
+      "source_path": "https://www.bankofengland.co.uk/news",
+      "canonical_url": "https://www.bankofengland.co.uk/news/2026/june/megan-greene-tsc-reappointment",
+      "classification": "REAL_OFFICIAL_SOURCE"
+    },
+    {
+      "io_id": "io-0222ea124db3e1c2",
+      "event_id": "evt-753e47fb1dce73ec",
+      "event_type": "regulatory_enforcement",
+      "source_id": "imp-bea",
+      "source_name": "imp-bea",
+      "source_path": "https://www.bea.gov/news?format=feed",
+      "canonical_url": "https://www.bea.gov/news/2024/gross-domestic-product-us-virgin-islands-2022",
+      "classification": "REAL_OFFICIAL_SOURCE"
+    },
+    {
+      "io_id": "io-6a1fcc7d52009f2c",
+      "event_id": "evt-50fe9b354c7a9572",
+      "event_type": "regulatory_enforcement",
+      "source_id": "imp-fca",
+      "source_name": "imp-fca",
+      "source_path": "https://www.fca.org.uk/news/rss.xml",
+      "canonical_url": "https://www.fca.org.uk/news/news-stories/fca-bank-appoint-members-their-transact",
+      "classification": "REAL_OFFICIAL_SOURCE"
+    },
+    {
+      "io_id": "io-ed7bd4bfed97990f",
+      "event_id": "evt-20e2b790978082fd",
+      "event_type": "regulatory_enforcement",
+      "source_id": "imp-fca",
+      "source_name": "imp-fca",
+      "source_path": "https://www.fca.org.uk/news/rss.xml",
+      "canonical_url": "https://www.fca.org.uk/news/press-releases/fca-secures-majority-victims-money-ba",
+      "classification": "REAL_OFFICIAL_SOURCE"
+    },
+    {
+      "io_id": "io-861c967d632a9aae",
+      "event_id": "evt-b929371e0690086e",
+      "event_type": "statistical_release",
+      "source_id": "imp-bank-of-england",
+      "source_name": "imp-bank-of-england",
+      "source_path": "https://www.bankofengland.co.uk/news",
+      "canonical_url": "https://www.bankofengland.co.uk/markets/market-notices/2026/june/apf-gilt-sales-",
+      "classification": "REAL_OFFICIAL_SOURCE"
+    },
+    {
+      "io_id": "io-a713e503e7f1fb43",
+      "event_id": "evt-43fedbe7511803e4",
+      "event_type": "statistical_release",
+      "source_id": "imp-bank-of-england",
+      "source_name": "imp-bank-of-england",
+      "source_path": "https://www.bankofengland.co.uk/news",
+      "canonical_url": "https://www.bankofengland.co.uk/news/2026/june/boe-launches-policy-statement-and",
+      "classification": "REAL_OFFICIAL_SOURCE"
+    },
+    {
+      "io_id": "io-ecd145da1e92d012",
+      "event_id": "evt-c954874a3df64e95",
+      "event_type": "regulatory_enforcement",
+      "source_id": "imp-bank-of-england",
+      "source_name": "imp-bank-of-england",
+      "source_path": "https://www.bankofengland.co.uk/news",
+      "canonical_url": "https://www.bankofengland.co.uk/news/2026/june/rpib-launches-consultation-on-nex",
+      "classification": "REAL_OFFICIAL_SOURCE"
+    },
+    {
+      "io_id": "io-ee7177a8058ac266",
+      "event_id": "evt-9b56cd8fe4960d98",
+      "event_type": "regulatory_enforcement",
+      "source_id": "imp-bank-of-england",
+      "source_name": "imp-bank-of-england",
+      "source_path": "https://www.bankofengland.co.uk/news",
+      "canonical_url": "https://www.bankofengland.co.uk/news/2026/june/boe-launches-policy-statement-and",
+      "classification": "REAL_OFFICIAL_SOURCE"
+    },
+    {
+      "io_id": "io-4be0da3597bc2805",
+      "event_id": "evt-11ce62d8b9e6884c",
+      "event_type": "statistical_release",
+      "source_id": "imp-bank-of-england",
+      "source_name": "imp-bank-of-england",
+      "source_path": "https://www.bankofengland.co.uk/news",
+      "canonical_url": "https://www.bankofengland.co.uk/news/2026/june/pra-adjustments-market-risk-inter",
+      "classification": "REAL_OFFICIAL_SOURCE"
+    },
+    {
+      "io_id": "io-889f7efe44540d39",
+      "event_id": "evt-f7f4b4071b852a66",
+      "event_type": "regulatory_enforcement",
+      "source_id": "imp-fca",
+      "source_name": "imp-fca",
+      "source_path": "https://www.fca.org.uk/news/rss.xml",
+      "canonical_url": "https://www.fca.org.uk/news/blogs/managing-conflicts-interest-insurance",
+      "classification": "REAL_OFFICIAL_SOURCE"
+    },
+    {
+      "io_id": "io-f25ed89b817d1105",
+      "event_id": "evt-03ef75e70da781b7",
+      "event_type": "regulatory_enforcement",
+      "source_id": "imp-bank-of-england",
+      "source_name": "imp-bank-of-england",
+      "source_path": "https://www.bankofengland.co.uk/news",
+      "canonical_url": "https://www.bankofengland.co.uk/markets/market-notices/2026/june/apf-gilt-sales-",
+      "classification": "REAL_OFFICIAL_SOURCE"
+    },
+    {
+      "io_id": "io-9eb219f8ce61811a",
+      "event_id": "evt-09cb4b45735e5f8c",
+      "event_type": "regulatory_enforcement",
+      "source_id": "imp-bank-of-england",
+      "source_name": "imp-bank-of-england",
+      "source_path": "https://www.bankofengland.co.uk/news",
+      "canonical_url": "https://www.bankofengland.co.uk/news/2026/june/pra-adjustments-market-risk-inter",
+      "classification": "REAL_OFFICIAL_SOURCE"
+    },
+    {
+      "io_id": "io-15d5becf382ab173",
+      "event_id": "evt-724fc95c7f084eae",
+      "event_type": "statistical_release",
+      "source_id": "imp-bank-of-england",
+      "source_name": "imp-bank-of-england",
+      "source_path": "https://www.bankofengland.co.uk/news",
+      "canonical_url": "https://www.bankofengland.co.uk/minutes/2026/june/court-minutes-23-april-2026",
+      "classification": "REAL_OFFICIAL_SOURCE"
+    },
+    {
+      "io_id": "io-e1006f232af90069",
+      "event_id": "evt-80b7001cad409436",
+      "event_type": "statistical_release",
+      "source_id": "imp-bank-of-england",
+      "source_name": "imp-bank-of-england",
+      "source_path": "https://www.bankofengland.co.uk/news",
+      "canonical_url": "https://www.bankofengland.co.uk/news/2026/june/the-governor-interview-transcript",
+      "classification": "REAL_OFFICIAL_SOURCE"
+    },
+    {
+      "io_id": "io-212f9b0492f9cdf7",
+      "event_id": "evt-d5e886e679330f7a",
+      "event_type": "regulatory_enforcement",
+      "source_id": "imp-bank-of-england",
+      "source_name": "imp-bank-of-england",
+      "source_path": "https://www.bankofengland.co.uk/news",
+      "canonical_url": "https://www.bankofengland.co.uk/minutes/2026/june/court-minutes-23-april-2026",
+      "classification": "REAL_OFFICIAL_SOURCE"
+    },
+    {
+      "io_id": "io-5788e7f7cd797c93",
+      "event_id": "evt-b13ad6ff4a389154",
+      "event_type": "regulatory_enforcement",
+      "source_id": "imp-bank-of-england",
+      "source_name": "imp-bank-of-england",
+      "source_path": "https://www.bankofengland.co.uk/news",
+      "canonical_url": "https://www.bankofengland.co.uk/news/2026/june/the-governor-interview-transcript",
+      "classification": "REAL_OFFICIAL_SOURCE"
+    },
+    {
+      "io_id": "io-1bb1829e6def6ac2",
+      "event_id": "evt-6d70a70323356246",
+      "event_type": "statistical_release",
+      "source_id": "imp-bank-of-england",
+      "source_name": "imp-bank-of-england",
+      "source_path": "https://www.bankofengland.co.uk/news",
+      "canonical_url": "https://www.bankofengland.co.uk/news/2026/june/index-linked-treasury-stock-jun-2",
+      "classification": "REAL_OFFICIAL_SOURCE"
+    },
+    {
+      "io_id": "io-1d843980c07050f9",
+      "event_id": "evt-6c8705ca97319650",
+      "event_type": "statistical_release",
+      "source_id": "imp-bank-of-england",
+      "source_name": "imp-bank-of-england",
+      "source_path": "https://www.bankofengland.co.uk/news",
+      "canonical_url": "https://www.bankofengland.co.uk/monetary-policy-summary-and-minutes/2026/june-20",
+      "classification": "REAL_OFFICIAL_SOURCE"
+    },
+    {
+      "io_id": "io-1a13f8fcba1e6428",
+      "event_id": "evt-e78ed2990bbbd915",
+      "event_type": "statistical_release",
+      "source_id": "imp-sec",
+      "source_name": "imp-sec",
+      "source_path": "https://www.sec.gov/news/pressreleases.rss",
+      "canonical_url": "https://www.sec.gov/newsroom/press-releases/2026-61-sec-publishes-updated-market",
+      "classification": "REAL_OFFICIAL_SOURCE"
+    },
+    {
+      "io_id": "io-07df5c2dfdb8bd07",
+      "event_id": "evt-c75a6d5533ee7fb3",
+      "event_type": "regulatory_enforcement",
+      "source_id": "imp-bank-of-england",
+      "source_name": "imp-bank-of-england",
+      "source_path": "https://www.bankofengland.co.uk/news",
+      "canonical_url": "https://www.bankofengland.co.uk/news/2026/june/index-linked-treasury-stock-jun-2",
+      "classification": "REAL_OFFICIAL_SOURCE"
+    },
+    {
+      "io_id": "io-fe39544041db5cdb",
+      "event_id": "evt-1ef4c6e8c6a9fb5c",
+      "event_type": "regulatory_enforcement",
+      "source_id": "imp-bank-of-england",
+      "source_name": "imp-bank-of-england",
+      "source_path": "https://www.bankofengland.co.uk/news",
+      "canonical_url": "https://www.bankofengland.co.uk/monetary-policy-summary-and-minutes/2026/june-20",
+      "classification": "REAL_OFFICIAL_SOURCE"
+    },
+    {
+      "io_id": "io-a0c71f80fc52e0b4",
+      "event_id": "evt-b1b735da8b4212aa",
+      "event_type": "monetary_policy_decision",
+      "source_id": "imp-bea",
+      "source_name": "imp-bea",
+      "source_path": "https://www.bea.gov/news?format=feed",
+      "canonical_url": "https://www.bea.gov/news/2023/gross-domestic-product-state-2nd-quarter-2023-and-",
+      "classification": "REAL_OFFICIAL_SOURCE"
+    },
+    {
+      "io_id": "io-b96d8b6885da330e",
+      "event_id": "evt-aec714a6decbc624",
+      "event_type": "monetary_policy_decision",
+      "source_id": "imp-bea",
+      "source_name": "imp-bea",
+      "source_path": "https://www.bea.gov/news?format=feed",
+      "canonical_url": "https://www.bea.gov/news/2023/gross-domestic-product-industry-2nd-quarter-2023-a",
+      "classification": "REAL_OFFICIAL_SOURCE"
+    },
+    {
+      "io_id": "io-7d38d63ac9ce2213",
+      "event_id": "evt-71fbb40ec147c956",
+      "event_type": "monetary_policy_decision",
+      "source_id": "imp-bea",
+      "source_name": "imp-bea",
+      "source_path": "https://www.bea.gov/news?format=feed",
+      "canonical_url": "https://www.bea.gov/news/2023/gross-domestic-product-american-samoa-2022",
+      "classification": "REAL_OFFICIAL_SOURCE"
+    },
+    {
+      "io_id": "io-72fc9063c4a42157",
+      "event_id": "evt-11d56c4f575c96a7",
+      "event_type": "monetary_policy_decision",
+      "source_id": "imp-bea",
+      "source_name": "imp-bea",
+      "source_path": "https://www.bea.gov/news?format=feed",
+      "canonical_url": "https://www.bea.gov/news/2022/gross-domestic-product-county-2021",
+      "classification": "REAL_OFFICIAL_SOURCE"
+    },
+    {
+      "io_id": "io-389a893dc92b856b",
+      "event_id": "evt-42887fa855ecc59e",
+      "event_type": "monetary_policy_decision",
+      "source_id": "imp-bea",
+      "source_name": "imp-bea",
+      "source_path": "https://www.bea.gov/news?format=feed",
+      "canonical_url": "https://www.bea.gov/news/2021/gross-domestic-product-cnmi-2019",
+      "classification": "REAL_OFFICIAL_SOURCE"
+    },
+    {
+      "io_id": "io-934f3cf8b80684b4",
+      "event_id": "evt-f93df40db46b76fe",
+      "event_type": "monetary_policy_decision",
+      "source_id": "imp-bea",
+      "source_name": "imp-bea",
+      "source_path": "https://www.bea.gov/news?format=feed",
+      "canonical_url": "https://www.bea.gov/news/2023/personal-income-state-2nd-quarter-2023",
+      "classification": "REAL_OFFICIAL_SOURCE"
+    },
+    {
+      "io_id": "io-e4e5796a145d92fd",
+      "event_id": "evt-87fbf186ec7622f6",
+      "event_type": "monetary_policy_decision",
+      "source_id": "imp-bea",
+      "source_name": "imp-bea",
+      "source_path": "https://www.bea.gov/news?format=feed",
+      "canonical_url": "https://www.bea.gov/news/2019/state-personal-income-third-quarter-2019",
+      "classification": "REAL_OFFICIAL_SOURCE"
+    },
+    {
+      "io_id": "io-b6b60460f89612c6",
+      "event_id": "evt-1cf8cc64017453d0",
+      "event_type": "regulatory_enforcement",
+      "source_id": "imp-bea",
+      "source_name": "imp-bea",
+      "source_path": "https://www.bea.gov/news?format=feed",
+      "canonical_url": "https://www.bea.gov/news/2023/gross-domestic-product-american-samoa-2022",
+      "classification": "REAL_OFFICIAL_SOURCE"
+    },
+    {
+      "io_id": "io-6f3dd070e7f671d8",
+      "event_id": "evt-02add19b06694632",
+      "event_type": "monetary_policy_decision",
+      "source_id": "imp-bea",
+      "source_name": "imp-bea",
+      "source_path": "https://www.bea.gov/news?format=feed",
+      "canonical_url": "https://www.bea.gov/news/2020/real-personal-income-state-and-metropolitan-area-2",
+      "classification": "REAL_OFFICIAL_SOURCE"
+    },
+    {
+      "io_id": "io-bddac26735df1870",
+      "event_id": "evt-15fa2d6b592dfc0a",
+      "event_type": "regulatory_enforcement",
+      "source_id": "imp-bea",
+      "source_name": "imp-bea",
+      "source_path": "https://www.bea.gov/news?format=feed",
+      "canonical_url": "https://www.bea.gov/news/2022/gross-domestic-product-county-2021",
+      "classification": "REAL_OFFICIAL_SOURCE"
+    },
+    {
+      "io_id": "io-75243154e3c1fcfd",
+      "event_id": "evt-220a22ac5ab8ed0a",
+      "event_type": "monetary_policy_decision",
+      "source_id": "imp-bea",
+      "source_name": "imp-bea",
+      "source_path": "https://www.bea.gov/news?format=feed",
+      "canonical_url": "https://www.bea.gov/news/2019/local-area-gross-domestic-product-2018",
+      "classification": "REAL_OFFICIAL_SOURCE"
+    },
+    {
+      "io_id": "io-ee79c971fa438db6",
+      "event_id": "evt-394ef12fc2a402d7",
+      "event_type": "monetary_policy_decision",
+      "source_id": "imp-bea",
+      "source_name": "imp-bea",
+      "source_path": "https://www.bea.gov/news?format=feed",
+      "canonical_url": "https://www.bea.gov/news/2021/real-personal-consumption-expenditures-and-persona",
+      "classification": "REAL_OFFICIAL_SOURCE"
+    },
+    {
+      "io_id": "io-0bc69abfd6dc6dd3",
+      "event_id": "evt-c78565294133cfff",
+      "event_type": "regulatory_enforcement",
+      "source_id": "imp-bea",
+      "source_name": "imp-bea",
+      "source_path": "https://www.bea.gov/news?format=feed",
+      "canonical_url": "https://www.bea.gov/news/2020/real-personal-income-state-and-metropolitan-area-2",
+      "classification": "REAL_OFFICIAL_SOURCE"
+    },
+    {
+      "io_id": "io-493c0caec1644158",
+      "event_id": "evt-f10ac9ff36737ca0",
+      "event_type": "regulatory_enforcement",
+      "source_id": "imp-bea",
+      "source_name": "imp-bea",
+      "source_path": "https://www.bea.gov/news?format=feed",
+      "canonical_url": "https://www.bea.gov/news/2023/personal-income-state-2nd-quarter-2023",
+      "classification": "REAL_OFFICIAL_SOURCE"
+    },
+    {
+      "io_id": "io-63062e8919d5d8c8",
+      "event_id": "evt-efc15e9e6958a434",
+      "event_type": "statistical_release",
+      "source_id": "imp-bank-of-england",
+      "source_name": "imp-bank-of-england",
+      "source_path": "https://www.bankofengland.co.uk/news",
+      "canonical_url": "https://www.bankofengland.co.uk/news/2026/june/statement-announcing-governors-in",
+      "classification": "REAL_OFFICIAL_SOURCE"
+    },
+    {
+      "io_id": "io-9b397eb6711226ea",
+      "event_id": "evt-8a47ee0890bf7c67",
+      "event_type": "statistical_release",
+      "source_id": "imp-bank-of-england",
+      "source_name": "imp-bank-of-england",
+      "source_path": "https://www.bankofengland.co.uk/news",
+      "canonical_url": "https://www.bankofengland.co.uk/minutes/2025/december/banknote-advisory-minutes-",
+      "classification": "REAL_OFFICIAL_SOURCE"
+    },
+    {
+      "io_id": "io-cdd78fa314ceff80",
+      "event_id": "evt-b47a9b492c505ef2",
+      "event_type": "monetary_policy_decision",
+      "source_id": "imp-bea",
+      "source_name": "imp-bea",
+      "source_path": "https://www.bea.gov/news?format=feed",
+      "canonical_url": "https://www.bea.gov/news/2019/gross-domestic-product-commonwealth-northern-maria",
+      "classification": "REAL_OFFICIAL_SOURCE"
+    },
+    {
+      "io_id": "io-b5f51e369fe415cf",
+      "event_id": "evt-c16d781b769d8edb",
+      "event_type": "statistical_release",
+      "source_id": "imp-bank-of-england",
+      "source_name": "imp-bank-of-england",
+      "source_path": "https://www.bankofengland.co.uk/news",
+      "canonical_url": "https://www.bankofengland.co.uk/minutes/2026/june/rtgs-chaps-industry-forum-4-ju",
+      "classification": "REAL_OFFICIAL_SOURCE"
+    },
+    {
+      "io_id": "io-284e0767948067ef",
+      "event_id": "evt-2279888e9e99a37d",
+      "event_type": "regulatory_enforcement",
+      "source_id": "imp-bea",
+      "source_name": "imp-bea",
+      "source_path": "https://www.bea.gov/news?format=feed",
+      "canonical_url": "https://www.bea.gov/news/2019/local-area-gross-domestic-product-2018",
+      "classification": "REAL_OFFICIAL_SOURCE"
+    },
+    {
+      "io_id": "io-1ba11c12afe8dd0e",
+      "event_id": "evt-b376441a3f3e33b6",
+      "event_type": "regulatory_enforcement",
+      "source_id": "imp-bea",
+      "source_name": "imp-bea",
+      "source_path": "https://www.bea.gov/news?format=feed",
+      "canonical_url": "https://www.bea.gov/news/2021/real-personal-consumption-expenditures-and-persona",
+      "classification": "REAL_OFFICIAL_SOURCE"
+    },
+    {
+      "io_id": "io-4391f5c9ebe39f8c",
+      "event_id": "evt-b620795b4c745dad",
+      "event_type": "statistical_release",
+      "source_id": "imp-bank-of-england",
+      "source_name": "imp-bank-of-england",
+      "source_path": "https://www.bankofengland.co.uk/news",
+      "canonical_url": "https://www.bankofengland.co.uk/minutes/2026/march/banknote-expert-minutes-10-ma",
+      "classification": "REAL_OFFICIAL_SOURCE"
+    },
+    {
+      "io_id": "io-653c6c3d2a7dffc7",
+      "event_id": "evt-3236cda395f7fed5",
+      "event_type": "statistical_release",
+      "source_id": "imp-bank-of-england",
+      "source_name": "imp-bank-of-england",
+      "source_path": "https://www.bankofengland.co.uk/news",
+      "canonical_url": "https://www.bankofengland.co.uk/minutes/2026/april/banknote-advisory-minutes-15-",
+      "classification": "REAL_OFFICIAL_SOURCE"
+    },
+    {
+      "io_id": "io-2bd1d6314a50417f",
+      "event_id": "evt-6eceaa7ccc8c1f29",
+      "event_type": "regulatory_enforcement",
+      "source_id": "imp-bank-of-england",
+      "source_name": "imp-bank-of-england",
+      "source_path": "https://www.bankofengland.co.uk/news",
+      "canonical_url": "https://www.bankofengland.co.uk/news/2026/june/statement-announcing-governors-in",
+      "classification": "REAL_OFFICIAL_SOURCE"
+    },
+    {
+      "io_id": "io-aa7a18fd5d14fbdc",
+      "event_id": "evt-58da1b38b58291d3",
+      "event_type": "regulatory_enforcement",
+      "source_id": "imp-bank-of-england",
+      "source_name": "imp-bank-of-england",
+      "source_path": "https://www.bankofengland.co.uk/news",
+      "canonical_url": "https://www.bankofengland.co.uk/minutes/2025/december/banknote-advisory-minutes-",
+      "classification": "REAL_OFFICIAL_SOURCE"
+    },
+    {
+      "io_id": "io-e5bea99735eca687",
+      "event_id": "evt-d4094f9fd3a610f0",
+      "event_type": "monetary_policy_decision",
+      "source_id": "imp-bea",
+      "source_name": "imp-bea",
+      "source_path": "https://www.bea.gov/news?format=feed",
+      "canonical_url": "https://apps.bea.gov/newsreleases/international/fdici/2018/fdici0718.htm",
+      "classification": "REAL_OFFICIAL_SOURCE"
+    },
+    {
+      "io_id": "io-951d91f0ca80a68d",
+      "event_id": "evt-725a48d2d3ca0908",
+      "event_type": "monetary_policy_decision",
+      "source_id": "imp-bea",
+      "source_name": "imp-bea",
+      "source_path": "https://www.bea.gov/news?format=feed",
+      "canonical_url": "https://www.bea.gov/news/2018/us-virgin-islands-gdp-decreases-2017",
+      "classification": "REAL_OFFICIAL_SOURCE"
+    },
+    {
+      "io_id": "io-bc6788ca80ebb196",
+      "event_id": "evt-dc8091803dea1d0d",
+      "event_type": "regulatory_enforcement",
+      "source_id": "imp-bank-of-england",
+      "source_name": "imp-bank-of-england",
+      "source_path": "https://www.bankofengland.co.uk/news",
+      "canonical_url": "https://www.bankofengland.co.uk/minutes/2026/june/rtgs-chaps-industry-forum-4-ju",
+      "classification": "REAL_OFFICIAL_SOURCE"
+    },
+    {
+      "io_id": "io-fc41fee011bbc275",
+      "event_id": "evt-61f0bce68a8cd733",
+      "event_type": "statistical_release",
+      "source_id": "imp-bank-of-england",
+      "source_name": "imp-bank-of-england",
+      "source_path": "https://www.bankofengland.co.uk/news",
+      "canonical_url": "https://www.bankofengland.co.uk/minutes/2026/april/banknote-expert-minutes-24-ap",
+      "classification": "REAL_OFFICIAL_SOURCE"
+    },
+    {
+      "io_id": "io-1f8c4555568da8b8",
+      "event_id": "evt-2972035b00f0c9a6",
+      "event_type": "regulatory_enforcement",
+      "source_id": "imp-bank-of-england",
+      "source_name": "imp-bank-of-england",
+      "source_path": "https://www.bankofengland.co.uk/news",
+      "canonical_url": "https://www.bankofengland.co.uk/minutes/2026/april/banknote-advisory-minutes-15-",
+      "classification": "REAL_OFFICIAL_SOURCE"
+    },
+    {
+      "io_id": "io-1b77e1a373c09f78",
+      "event_id": "evt-7cab200594f205e8",
+      "event_type": "statistical_release",
+      "source_id": "imp-bank-of-england",
+      "source_name": "imp-bank-of-england",
+      "source_path": "https://www.bankofengland.co.uk/news",
+      "canonical_url": "https://www.bankofengland.co.uk/minutes/2026/april/banknote-advisory-minutes-29-",
+      "classification": "REAL_OFFICIAL_SOURCE"
+    },
+    {
+      "io_id": "io-b2497f6b9cf2afa7",
+      "event_id": "evt-090cfd11f22d34f6",
+      "event_type": "monetary_policy_decision",
+      "source_id": "imp-bea",
+      "source_name": "imp-bea",
+      "source_path": "https://www.bea.gov/news?format=feed",
+      "canonical_url": "https://apps.bea.gov/newsreleases/industry/tourism/2017/tour317.htm",
+      "classification": "REAL_OFFICIAL_SOURCE"
+    },
+    {
+      "io_id": "io-16241b9e374c98cc",
+      "event_id": "evt-374040975f80c8a7",
+      "event_type": "monetary_policy_decision",
+      "source_id": "imp-bea",
+      "source_name": "imp-bea",
+      "source_path": "https://www.bea.gov/news?format=feed",
+      "canonical_url": "https://apps.bea.gov/newsreleases/regional/gdp_metro/2017/gdp_metro0917.htm",
+      "classification": "REAL_OFFICIAL_SOURCE"
+    },
+    {
+      "io_id": "io-0e599a7cec0d5200",
+      "event_id": "evt-954732c209cfe9e3",
+      "event_type": "regulatory_enforcement",
+      "source_id": "imp-bank-of-england",
+      "source_name": "imp-bank-of-england",
+      "source_path": "https://www.bankofengland.co.uk/news",
+      "canonical_url": "https://www.bankofengland.co.uk/minutes/2026/march/banknote-expert-minutes-10-ma",
+      "classification": "REAL_OFFICIAL_SOURCE"
+    },
+    {
+      "io_id": "io-427c1d39b9bb188e",
+      "event_id": "evt-230e5771b332cec9",
+      "event_type": "regulatory_enforcement",
+      "source_id": "imp-bea",
+      "source_name": "imp-bea",
+      "source_path": "https://www.bea.gov/news?format=feed",
+      "canonical_url": "https://apps.bea.gov/newsreleases/international/fdici/2018/fdici0718.htm",
+      "classification": "REAL_OFFICIAL_SOURCE"
+    },
+    {
+      "io_id": "io-ddf33d9ebb26d73a",
+      "event_id": "evt-f6ced18e8c9fe741",
+      "event_type": "regulatory_enforcement",
+      "source_id": "imp-bea",
+      "source_name": "imp-bea",
+      "source_path": "https://www.bea.gov/news?format=feed",
+      "canonical_url": "https://apps.bea.gov/newsreleases/industry/tourism/2017/tour317.htm",
+      "classification": "REAL_OFFICIAL_SOURCE"
+    },
+    {
+      "io_id": "io-7670b0527fb0e4ef",
+      "event_id": "evt-330c69cbe74ac666",
+      "event_type": "statistical_release",
+      "source_id": "imp-bank-of-england",
+      "source_name": "imp-bank-of-england",
+      "source_path": "https://www.bankofengland.co.uk/news",
+      "canonical_url": "https://www.bankofengland.co.uk/news/2026/june/boe-and-fca-mou-on-supervision-of",
+      "classification": "REAL_OFFICIAL_SOURCE"
+    },
+    {
+      "io_id": "io-379f0d1f785ee21b",
+      "event_id": "evt-50f3e4a6bc917e0a",
+      "event_type": "regulatory_enforcement",
+      "source_id": "imp-bank-of-england",
+      "source_name": "imp-bank-of-england",
+      "source_path": "https://www.bankofengland.co.uk/news",
+      "canonical_url": "https://www.bankofengland.co.uk/minutes/2026/april/banknote-advisory-minutes-29-",
+      "classification": "REAL_OFFICIAL_SOURCE"
+    },
+    {
+      "io_id": "io-7481f4b244740e55",
+      "event_id": "evt-06bafe1fa3374c22",
+      "event_type": "statistical_release",
+      "source_id": "imp-bank-of-england",
+      "source_name": "imp-bank-of-england",
+      "source_path": "https://www.bankofengland.co.uk/news",
+      "canonical_url": "https://www.bankofengland.co.uk/markets/market-notices/2026/june/collateral-elig",
+      "classification": "REAL_OFFICIAL_SOURCE"
+    },
+    {
+      "io_id": "io-b81d9391567d7633",
+      "event_id": "evt-fe4ca27fd9d24f1d",
+      "event_type": "regulatory_enforcement",
+      "source_id": "imp-bank-of-england",
+      "source_name": "imp-bank-of-england",
+      "source_path": "https://www.bankofengland.co.uk/news",
+      "canonical_url": "https://www.bankofengland.co.uk/minutes/2026/april/banknote-expert-minutes-24-ap",
+      "classification": "REAL_OFFICIAL_SOURCE"
+    },
+    {
+      "io_id": "io-9b18e84070ce6e43",
+      "event_id": "evt-b18408544bd03179",
+      "event_type": "monetary_policy_decision",
+      "source_id": "imp-bea",
+      "source_name": "imp-bea",
+      "source_path": "https://www.bea.gov/news?format=feed",
+      "canonical_url": "https://apps.bea.gov/newsreleases/industry/io/2013/io1213.htm",
+      "classification": "REAL_OFFICIAL_SOURCE"
+    },
+    {
+      "io_id": "io-de2e22ebb2b08a01",
+      "event_id": "evt-41fba545975d3191",
+      "event_type": "statistical_release",
+      "source_id": "imp-bank-of-england",
+      "source_name": "imp-bank-of-england",
+      "source_path": "https://www.bankofengland.co.uk/news",
+      "canonical_url": "https://www.bankofengland.co.uk/minutes/2026/april/synchronisation-thematic-enga",
+      "classification": "REAL_OFFICIAL_SOURCE"
+    },
+    {
+      "io_id": "io-403530ec8dd0fce5",
+      "event_id": "evt-b784d8bc6e381bfc",
+      "event_type": "regulatory_enforcement",
+      "source_id": "imp-bank-of-england",
+      "source_name": "imp-bank-of-england",
+      "source_path": "https://www.bankofengland.co.uk/news",
+      "canonical_url": "https://www.bankofengland.co.uk/news/2026/june/boe-and-fca-mou-on-supervision-of",
+      "classification": "REAL_OFFICIAL_SOURCE"
+    },
+    {
+      "io_id": "io-0218e313e439c0c5",
+      "event_id": "evt-343450fa4d588cdd",
+      "event_type": "monetary_policy_decision",
+      "source_id": "imp-bea",
+      "source_name": "imp-bea",
+      "source_path": "https://www.bea.gov/news?format=feed",
+      "canonical_url": "https://apps.bea.gov/newsreleases/international/mnc/2013/mnc2011.htm",
+      "classification": "REAL_OFFICIAL_SOURCE"
+    },
+    {
+      "io_id": "io-59fc104d47989f9c",
+      "event_id": "evt-a696240149fd31d7",
+      "event_type": "statistical_release",
+      "source_id": "imp-bank-of-england",
+      "source_name": "imp-bank-of-england",
+      "source_path": "https://www.bankofengland.co.uk/news",
+      "canonical_url": "https://www.bankofengland.co.uk/statistics/notice/2026/statistical-notice-2026-0",
+      "classification": "REAL_OFFICIAL_SOURCE"
+    },
+    {
+      "io_id": "io-6d8e02348ece47f1",
+      "event_id": "evt-2936e0cca6f5e680",
+      "event_type": "regulatory_enforcement",
+      "source_id": "imp-bank-of-england",
+      "source_name": "imp-bank-of-england",
+      "source_path": "https://www.bankofengland.co.uk/news",
+      "canonical_url": "https://www.bankofengland.co.uk/markets/market-notices/2026/june/collateral-elig",
+      "classification": "REAL_OFFICIAL_SOURCE"
+    },
+    {
+      "io_id": "io-fd6d571e3af90e4b",
+      "event_id": "evt-0d2c207771438203",
+      "event_type": "statistical_release",
+      "source_id": "imp-bank-of-england",
+      "source_name": "imp-bank-of-england",
+      "source_path": "https://www.bankofengland.co.uk/news",
+      "canonical_url": "https://www.bankofengland.co.uk/statistics/notice/2026/statistical-notice-2026-0",
+      "classification": "REAL_OFFICIAL_SOURCE"
+    },
+    {
+      "io_id": "io-de8c9d4ce8bcd8fc",
+      "event_id": "evt-900ec8d86f0ce08e",
+      "event_type": "regulatory_enforcement",
+      "source_id": "imp-bea",
+      "source_name": "imp-bea",
+      "source_path": "https://www.bea.gov/news?format=feed",
+      "canonical_url": "https://apps.bea.gov/newsreleases/industry/io/2013/io1213.htm",
+      "classification": "REAL_OFFICIAL_SOURCE"
+    },
+    {
+      "io_id": "io-ad84c03ed2b31125",
+      "event_id": "evt-2f5033f1c5a33a0e",
+      "event_type": "regulatory_enforcement",
+      "source_id": "imp-bank-of-england",
+      "source_name": "imp-bank-of-england",
+      "source_path": "https://www.bankofengland.co.uk/news",
+      "canonical_url": "https://www.bankofengland.co.uk/minutes/2026/april/synchronisation-thematic-enga",
+      "classification": "REAL_OFFICIAL_SOURCE"
+    },
+    {
+      "io_id": "io-fdf80516388889d8",
+      "event_id": "evt-493ac8188284a2c8",
+      "event_type": "statistical_release",
+      "source_id": "imp-bank-of-england",
+      "source_name": "imp-bank-of-england",
+      "source_path": "https://www.bankofengland.co.uk/news",
+      "canonical_url": "https://www.bankofengland.co.uk/news/2026/june/wildlife-new-banknote-series",
+      "classification": "REAL_OFFICIAL_SOURCE"
+    },
+    {
+      "io_id": "io-f768bd4432b62de4",
+      "event_id": "evt-8c0bbd7013a89c5c",
+      "event_type": "statistical_release",
+      "source_id": "imp-bank-of-england",
+      "source_name": "imp-bank-of-england",
+      "source_path": "https://www.bankofengland.co.uk/news",
+      "canonical_url": "https://www.bankofengland.co.uk/news/2026/may/fca-and-boe-set-out-shared-vision-",
+      "classification": "REAL_OFFICIAL_SOURCE"
+    },
+    {
+      "io_id": "io-888fe5d51f2827b8",
+      "event_id": "evt-f1c20cadda9af804",
+      "event_type": "regulatory_enforcement",
+      "source_id": "imp-bea",
+      "source_name": "imp-bea",
+      "source_path": "https://www.bea.gov/news?format=feed",
+      "canonical_url": "https://apps.bea.gov/newsreleases/international/mnc/2013/mnc2011.htm",
+      "classification": "REAL_OFFICIAL_SOURCE"
+    },
+    {
+      "io_id": "io-1ae94f7b2b2fdaac",
+      "event_id": "evt-35f6da68854893d1",
+      "event_type": "regulatory_enforcement",
+      "source_id": "imp-bank-of-england",
+      "source_name": "imp-bank-of-england",
+      "source_path": "https://www.bankofengland.co.uk/news",
+      "canonical_url": "https://www.bankofengland.co.uk/statistics/notice/2026/statistical-notice-2026-0",
+      "classification": "REAL_OFFICIAL_SOURCE"
+    },
+    {
+      "io_id": "io-3ea6c9c36d684763",
+      "event_id": "evt-ea329650e5c9f29f",
+      "event_type": "statistical_release",
+      "source_id": "imp-bank-of-england",
+      "source_name": "imp-bank-of-england",
+      "source_path": "https://www.bankofengland.co.uk/news",
+      "canonical_url": "https://www.bankofengland.co.uk/news/2026/may/pra-announces-ring-fence-change-to",
+      "classification": "REAL_OFFICIAL_SOURCE"
+    },
+    {
+      "io_id": "io-aecd89a644c84148",
+      "event_id": "evt-a408869bb226818c",
+      "event_type": "regulatory_enforcement",
+      "source_id": "imp-bank-of-england",
+      "source_name": "imp-bank-of-england",
+      "source_path": "https://www.bankofengland.co.uk/news",
+      "canonical_url": "https://www.bankofengland.co.uk/statistics/notice/2026/statistical-notice-2026-0",
+      "classification": "REAL_OFFICIAL_SOURCE"
+    },
+    {
+      "io_id": "io-5ab5fc3f4205337e",
+      "event_id": "evt-35c5c61426a278ef",
+      "event_type": "statistical_release",
+      "source_id": "imp-bank-of-england",
+      "source_name": "imp-bank-of-england",
+      "source_path": "https://www.bankofengland.co.uk/news",
+      "canonical_url": "https://www.bankofengland.co.uk/news/2026/may/boe-fca-and-hm-treasury-joint-stat",
+      "classification": "REAL_OFFICIAL_SOURCE"
+    },
+    {
+      "io_id": "io-16b8bfb37f07f167",
+      "event_id": "evt-fff46f0e83cb58c6",
+      "event_type": "statistical_release",
+      "source_id": "imp-bank-of-england",
+      "source_name": "imp-bank-of-england",
+      "source_path": "https://www.bankofengland.co.uk/news",
+      "canonical_url": "https://www.bankofengland.co.uk/minutes/2026/may/market-participants-group-meeti",
+      "classification": "REAL_OFFICIAL_SOURCE"
+    },
+    {
+      "io_id": "io-2883e9a454651686",
+      "event_id": "evt-42c0a146dab6bf7a",
+      "event_type": "regulatory_enforcement",
+      "source_id": "imp-bank-of-england",
+      "source_name": "imp-bank-of-england",
+      "source_path": "https://www.bankofengland.co.uk/news",
+      "canonical_url": "https://www.bankofengland.co.uk/news/2026/june/wildlife-new-banknote-series",
+      "classification": "REAL_OFFICIAL_SOURCE"
+    },
+    {
+      "io_id": "io-367997e770879118",
+      "event_id": "evt-fa29d5510a8d001d",
+      "event_type": "regulatory_enforcement",
+      "source_id": "imp-bank-of-england",
+      "source_name": "imp-bank-of-england",
+      "source_path": "https://www.bankofengland.co.uk/news",
+      "canonical_url": "https://www.bankofengland.co.uk/news/2026/may/fca-and-boe-set-out-shared-vision-",
+      "classification": "REAL_OFFICIAL_SOURCE"
+    },
+    {
+      "io_id": "io-0c9a256a6d9a008e",
+      "event_id": "evt-6a2243f11d508f43",
+      "event_type": "statistical_release",
+      "source_id": "imp-bank-of-england",
+      "source_name": "imp-bank-of-england",
+      "source_path": "https://www.bankofengland.co.uk/news",
+      "canonical_url": "https://www.bankofengland.co.uk/minutes/2026/may/court-minutes-12-february-2026",
+      "classification": "REAL_OFFICIAL_SOURCE"
+    },
+    {
+      "io_id": "io-8c9e5444fe4d1d08",
+      "event_id": "evt-1bf1b1de471ddb28",
+      "event_type": "statistical_release",
+      "source_id": "imp-bank-of-england",
+      "source_name": "imp-bank-of-england",
+      "source_path": "https://www.bankofengland.co.uk/news",
+      "canonical_url": "https://www.bankofengland.co.uk/letter/2026/asset-purchase-facility-may-2026",
+      "classification": "REAL_OFFICIAL_SOURCE"
+    },
+    {
+      "io_id": "io-150ec8a392ace4c9",
+      "event_id": "evt-ac34dac605b26d93",
+      "event_type": "regulatory_enforcement",
+      "source_id": "imp-bank-of-england",
+      "source_name": "imp-bank-of-england",
+      "source_path": "https://www.bankofengland.co.uk/news",
+      "canonical_url": "https://www.bankofengland.co.uk/news/2026/may/pra-announces-ring-fence-change-to",
+      "classification": "REAL_OFFICIAL_SOURCE"
+    },
+    {
+      "io_id": "io-e8b25085610e45a2",
+      "event_id": "evt-efe54ad9e78ffc3f",
+      "event_type": "statistical_release",
+      "source_id": "imp-bank-of-england",
+      "source_name": "imp-bank-of-england",
+      "source_path": "https://www.bankofengland.co.uk/news",
+      "canonical_url": "https://www.bankofengland.co.uk/letter/2026/cpi-inflation-april-2026",
+      "classification": "REAL_OFFICIAL_SOURCE"
+    },
+    {
+      "io_id": "io-caf543f17411531a",
+      "event_id": "evt-70ba1a4642811e59",
+      "event_type": "regulatory_enforcement",
+      "source_id": "imp-bank-of-england",
+      "source_name": "imp-bank-of-england",
+      "source_path": "https://www.bankofengland.co.uk/news",
+      "canonical_url": "https://www.bankofengland.co.uk/news/2026/may/boe-fca-and-hm-treasury-joint-stat",
+      "classification": "REAL_OFFICIAL_SOURCE"
+    },
+    {
+      "io_id": "io-8b4321ffcf228635",
+      "event_id": "evt-92406a763c535161",
+      "event_type": "regulatory_enforcement",
+      "source_id": "imp-bank-of-england",
+      "source_name": "imp-bank-of-england",
+      "source_path": "https://www.bankofengland.co.uk/news",
+      "canonical_url": "https://www.bankofengland.co.uk/minutes/2026/may/market-participants-group-meeti",
+      "classification": "REAL_OFFICIAL_SOURCE"
+    },
+    {
+      "io_id": "io-787985f58e87b5cf",
+      "event_id": "evt-04331363a894a88b",
+      "event_type": "regulatory_enforcement",
+      "source_id": "imp-bank-of-england",
+      "source_name": "imp-bank-of-england",
+      "source_path": "https://www.bankofengland.co.uk/news",
+      "canonical_url": "https://www.bankofengland.co.uk/minutes/2026/may/court-minutes-12-february-2026",
+      "classification": "REAL_OFFICIAL_SOURCE"
+    },
+    {
+      "io_id": "io-50c2b09b6f0efdbf",
+      "event_id": "evt-5a46fc28e96f2a18",
+      "event_type": "regulatory_enforcement",
+      "source_id": "imp-bank-of-england",
+      "source_name": "imp-bank-of-england",
+      "source_path": "https://www.bankofengland.co.uk/news",
+      "canonical_url": "https://www.bankofengland.co.uk/letter/2026/asset-purchase-facility-may-2026",
+      "classification": "REAL_OFFICIAL_SOURCE"
+    },
+    {
+      "io_id": "io-775b01c41e8799a1",
+      "event_id": "evt-4f04a7bea5f5a20d",
+      "event_type": "regulatory_enforcement",
+      "source_id": "imp-bank-of-england",
+      "source_name": "imp-bank-of-england",
+      "source_path": "https://www.bankofengland.co.uk/news",
+      "canonical_url": "https://www.bankofengland.co.uk/letter/2026/cpi-inflation-april-2026",
+      "classification": "REAL_OFFICIAL_SOURCE"
+    },
+    {
+      "io_id": "io-34ecb3a1df654a6f",
+      "event_id": "evt-82a6bb9acc70cac2",
+      "event_type": "regulatory_enforcement",
+      "source_id": "src-boc",
+      "source_name": "src-boc",
+      "source_path": "https://www.bankofcanada.ca/feed",
+      "canonical_url": "https://www.bankofcanada.ca/regulatory-oversight/regulatory-news?content_type%5B",
+      "classification": "REAL_OFFICIAL_SOURCE"
+    },
+    {
+      "io_id": "io-08c304649662888e",
+      "event_id": "evt-55ed01a6cd6df53e",
+      "event_type": "regulatory_enforcement",
+      "source_id": "src-boc",
+      "source_name": "src-boc",
+      "source_path": "https://www.bankofcanada.ca/feed",
+      "canonical_url": "https://www.bankofcanada.ca/press/speeches",
+      "classification": "REAL_OFFICIAL_SOURCE"
+    },
+    {
+      "io_id": "io-35965d50a9b899c6",
+      "event_id": "evt-98498ca2c5d2fe78",
+      "event_type": "regulatory_enforcement",
+      "source_id": "src-boc",
+      "source_name": "src-boc",
+      "source_path": "https://www.bankofcanada.ca/feed",
+      "canonical_url": "https://www.bankofcanada.ca/press",
+      "classification": "REAL_OFFICIAL_SOURCE"
+    },
+    {
+      "io_id": "io-397fc789690a2708",
+      "event_id": "evt-fb3b69aaa2167f93",
+      "event_type": "regulatory_enforcement",
+      "source_id": "src-boc",
+      "source_name": "src-boc",
+      "source_path": "https://www.bankofcanada.ca/feed",
+      "canonical_url": "https://www.bankofcanada.ca/2026/08/cfec-releases-results-of-april-2026-foreign-",
+      "classification": "REAL_OFFICIAL_SOURCE"
+    },
+    {
+      "io_id": "io-8c541364b2b11091",
+      "event_id": "evt-f8b61eda642fbca4",
+      "event_type": "regulatory_enforcement",
+      "source_id": "src-boc",
+      "source_name": "src-boc",
+      "source_path": "https://www.bankofcanada.ca/feed",
+      "canonical_url": "https://www.bankofcanada.ca/press/media-advisories",
+      "classification": "REAL_OFFICIAL_SOURCE"
+    },
+    {
+      "io_id": "io-59c0a0f4a8ed9906",
+      "event_id": "evt-5a347601a59c570f",
+      "event_type": "regulatory_enforcement",
+      "source_id": "src-boc",
+      "source_name": "src-boc",
+      "source_path": "https://www.bankofcanada.ca/feed",
+      "canonical_url": "https://www.bankofcanada.ca/publications",
+      "classification": "REAL_OFFICIAL_SOURCE"
+    },
+    {
+      "io_id": "io-99c42c33ca0bf3cc",
+      "event_id": "evt-9e8a2ee000b1b15b",
+      "event_type": "regulatory_enforcement",
+      "source_id": "src-boc",
+      "source_name": "src-boc",
+      "source_path": "https://www.bankofcanada.ca/feed",
+      "canonical_url": "https://www.bankofcanada.ca/2026/09/interest-rate-announcement-september-2-2026",
+      "classification": "REAL_OFFICIAL_SOURCE"
+    },
+    {
+      "io_id": "io-823b6949ebc357ce",
+      "event_id": "evt-65749ebdb0ba0d90",
+      "event_type": "regulatory_enforcement",
+      "source_id": "src-boc",
+      "source_name": "src-boc",
+      "source_path": "https://www.bankofcanada.ca/feed",
+      "canonical_url": "https://www.bankofcanada.ca/publications/financial-stability-report/financial-st",
+      "classification": "REAL_OFFICIAL_SOURCE"
+    },
+    {
+      "io_id": "io-5941a3868e815064",
+      "event_id": "evt-19e31211348210b1",
+      "event_type": "regulatory_enforcement",
+      "source_id": "src-beis-uk",
+      "source_name": "src-beis-uk",
+      "source_path": "https://www.gov.uk/government/organisations/department-for-energy-security-and-n",
+      "canonical_url": "https://www.gov.uk/government/news/fuel-finder-for-drivers-factsheet",
+      "classification": "REAL_OFFICIAL_SOURCE"
+    },
+    {
+      "io_id": "io-52aa24b60d81fed3",
+      "event_id": "evt-560f87d23a56f420",
+      "event_type": "regulatory_enforcement",
+      "source_id": "src-cma-energy",
+      "source_name": "src-cma-energy",
+      "source_path": "https://www.gov.uk/government/organisations/competition-and-markets-authority",
+      "canonical_url": "https://www.gov.uk/government/publications/enhanced-road-fuel-monitoring-report-",
+      "classification": "REAL_OFFICIAL_SOURCE"
+    },
+    {
+      "io_id": "io-96d210d16813ac69",
+      "event_id": "evt-03f8782afe7529bc",
+      "event_type": "regulatory_enforcement",
+      "source_id": "src-boc",
+      "source_name": "src-boc",
+      "source_path": "https://www.bankofcanada.ca/feed",
+      "canonical_url": "https://www.bankofcanada.ca/publications/mpr/mpr-2026-07-15",
+      "classification": "REAL_OFFICIAL_SOURCE"
+    },
+    {
+      "io_id": "io-8c04820216b439a1",
+      "event_id": "evt-c3aa4669b6bad7f8",
+      "event_type": "regulatory_enforcement",
+      "source_id": "src-ustr",
+      "source_name": "src-ustr",
+      "source_path": "https://ustr.gov",
+      "canonical_url": "https://ustr.gov/about-us/policy-offices/press-office/reports-and-publications",
+      "classification": "REAL_OFFICIAL_SOURCE"
+    },
+    {
+      "io_id": "io-8a8318bba6526f94",
+      "event_id": "evt-ccb3b3612a457ed8",
+      "event_type": "regulatory_enforcement",
+      "source_id": "src-ustr",
+      "source_name": "src-ustr",
+      "source_path": "https://ustr.gov",
+      "canonical_url": "https://ustr.gov/about/policy-offices/press-office/press-releases/2026/july/amer",
+      "classification": "REAL_OFFICIAL_SOURCE"
+    },
+    {
+      "io_id": "io-a78feeb3f2eb002b",
+      "event_id": "evt-e07cfdba44466cb4",
+      "event_type": "monetary_policy_decision",
+      "source_id": "src-naic-us",
+      "source_name": "src-naic-us",
+      "source_path": "https://content.naic.org",
+      "canonical_url": "https://content.naic.org/publications",
+      "classification": "REAL_OFFICIAL_SOURCE"
+    },
+    {
+      "io_id": "io-7133a32128db0d21",
+      "event_id": "evt-c436be921b3a30cc",
+      "event_type": "regulatory_enforcement",
+      "source_id": "src-frb-ny",
+      "source_name": "src-frb-ny",
+      "source_path": "https://www.newyorkfed.org",
+      "canonical_url": "https://www.newyorkfed.org/newsevents/news/markets/2026/20260805",
+      "classification": "REAL_OFFICIAL_SOURCE"
+    },
+    {
+      "io_id": "io-5ba4cb7560fe5907",
+      "event_id": "evt-a450fc3fbc37c37b",
+      "event_type": "regulatory_enforcement",
+      "source_id": "src-mof-philippines",
+      "source_name": "src-mof-philippines",
+      "source_path": "https://www.dof.gov.ph",
+      "canonical_url": "https://www.dof.gov.ph/news",
+      "classification": "REAL_OFFICIAL_SOURCE"
+    },
+    {
+      "io_id": "io-db0bb2d7772b711e",
+      "event_id": "evt-33c625dd73644fbe",
+      "event_type": "regulatory_enforcement",
+      "source_id": "src-ecb-stat",
+      "source_name": "src-ecb-stat",
+      "source_path": "https://www.ecb.europa.eu/stats",
+      "canonical_url": "https://www.ecb.europa.eu/press/calendars/statscal/ges/html/index.en.html",
+      "classification": "REAL_OFFICIAL_SOURCE"
+    },
+    {
+      "io_id": "io-f1122e27a4f043bc",
+      "event_id": "evt-032c206e758fc3d6",
+      "event_type": "monetary_policy_decision",
+      "source_id": "src-nis-nigeria",
+      "source_name": "src-nis-nigeria",
+      "source_path": "https://nigerianstat.gov.ng",
+      "canonical_url": "https://nigerianstat.gov.ng/news/86",
+      "classification": "REAL_OFFICIAL_SOURCE"
+    },
+    {
+      "io_id": "io-00e1948be404604d",
+      "event_id": "evt-2ec464264147aa51",
+      "event_type": "regulatory_enforcement",
+      "source_id": "src-ecb-stat",
+      "source_name": "src-ecb-stat",
+      "source_path": "https://www.ecb.europa.eu/stats",
+      "canonical_url": "https://www.ecb.europa.eu/press/calendars/statscal/html/index.en.html",
+      "classification": "REAL_OFFICIAL_SOURCE"
+    },
+    {
+      "io_id": "io-457089f6dbc79cf4",
+      "event_id": "evt-7d69745504ed6d54",
+      "event_type": "regulatory_enforcement",
+      "source_id": "src-ecb-stat",
+      "source_name": "src-ecb-stat",
+      "source_path": "https://www.ecb.europa.eu/stats",
+      "canonical_url": "https://www.ecb.europa.eu/press/conferences/ecbforum/previous_fora/html/index.en",
+      "classification": "REAL_OFFICIAL_SOURCE"
+    },
+    {
+      "io_id": "io-697dff18602a8bdb",
+      "event_id": "evt-7e0fb250fa139e9b",
+      "event_type": "regulatory_enforcement",
+      "source_id": "src-frb-ny",
+      "source_name": "src-frb-ny",
+      "source_path": "https://www.newyorkfed.org",
+      "canonical_url": "https://www.newyorkfed.org/press",
+      "classification": "REAL_OFFICIAL_SOURCE"
+    },
+    {
+      "io_id": "io-4d78210bf97ce3af",
+      "event_id": "evt-3b08dba9a319f93d",
+      "event_type": "regulatory_enforcement",
+      "source_id": "src-ecb-stat",
+      "source_name": "src-ecb-stat",
+      "source_path": "https://www.ecb.europa.eu/stats",
+      "canonical_url": "https://www.ecb.europa.eu/press/annual-reports-financial-statements/wfs/html/ind",
+      "classification": "REAL_OFFICIAL_SOURCE"
+    },
+    {
+      "io_id": "io-9b5545aa437e492a",
+      "event_id": "evt-ecc09c2071d19007",
+      "event_type": "regulatory_enforcement",
+      "source_id": "src-ecb-stat",
+      "source_name": "src-ecb-stat",
+      "source_path": "https://www.ecb.europa.eu/stats",
+      "canonical_url": "https://www.ecb.europa.eu/press/calendars/statscal/eaa/html/index.en.html",
+      "classification": "REAL_OFFICIAL_SOURCE"
+    },
+    {
+      "io_id": "io-6f1b9626fbf278d8",
+      "event_id": "evt-9657f438cf9624c3",
+      "event_type": "regulatory_enforcement",
+      "source_id": "src-ecb-stat",
+      "source_name": "src-ecb-stat",
+      "source_path": "https://www.ecb.europa.eu/stats",
+      "canonical_url": "https://www.ecb.europa.eu/press/blog/html/index.en.html",
+      "classification": "REAL_OFFICIAL_SOURCE"
+    },
+    {
+      "io_id": "io-0e624f21740e46bc",
+      "event_id": "evt-8d268a1d5b2aaafc",
+      "event_type": "regulatory_enforcement",
+      "source_id": "src-ecb-stat",
+      "source_name": "src-ecb-stat",
+      "source_path": "https://www.ecb.europa.eu/stats",
+      "canonical_url": "https://www.ecb.europa.eu/press/pubbydate/html/index.en.html?name_of_publication",
+      "classification": "REAL_OFFICIAL_SOURCE"
+    },
+    {
+      "io_id": "io-efe71a347ba17b2d",
+      "event_id": "evt-3eaf11db4b3528bd",
+      "event_type": "regulatory_enforcement",
+      "source_id": "src-ecb-stat",
+      "source_name": "src-ecb-stat",
+      "source_path": "https://www.ecb.europa.eu/stats",
+      "canonical_url": "https://www.ecb.europa.eu/press/govcdec/otherdec/html/index.en.html",
+      "classification": "REAL_OFFICIAL_SOURCE"
+    },
+    {
+      "io_id": "io-75a6a4768abae7f0",
+      "event_id": "evt-b6a654def52ce2bb",
+      "event_type": "regulatory_enforcement",
+      "source_id": "src-ecb-stat",
+      "source_name": "src-ecb-stat",
+      "source_path": "https://www.ecb.europa.eu/stats",
+      "canonical_url": "https://www.ecb.europa.eu/press/calendars/caleu/html/index.en.html",
+      "classification": "REAL_OFFICIAL_SOURCE"
+    },
+    {
+      "io_id": "io-87c8ae655f995fdf",
+      "event_id": "evt-5b4efe7a55fd180d",
+      "event_type": "regulatory_enforcement",
+      "source_id": "src-boj",
+      "source_name": "src-boj",
+      "source_path": "https://www.boj.or.jp/en/",
+      "canonical_url": "https://www.boj.or.jp/en/about/press/koen_2026/ko260303a.htm",
+      "classification": "REAL_OFFICIAL_SOURCE"
+    },
+    {
+      "io_id": "io-e32e23b6fa82162e",
+      "event_id": "evt-880b713b165ecbba",
+      "event_type": "regulatory_enforcement",
+      "source_id": "src-ecb-stat",
+      "source_name": "src-ecb-stat",
+      "source_path": "https://www.ecb.europa.eu/stats",
+      "canonical_url": "https://www.ecb.europa.eu/press/financial-stability-publications/fsr/special/htm",
+      "classification": "REAL_OFFICIAL_SOURCE"
+    },
+    {
+      "io_id": "io-d4f354e4a8d4dcc9",
+      "event_id": "evt-8002ddac398a9513",
+      "event_type": "regulatory_enforcement",
+      "source_id": "src-sfc-hk",
+      "source_name": "src-sfc-hk",
+      "source_path": "https://www.sfc.hk",
+      "canonical_url": "https://www.sfc.hk/en/Published-resources/Newsletters/Enforcement-Reporter",
+      "classification": "REAL_OFFICIAL_SOURCE"
+    },
+    {
+      "io_id": "io-aa2fa43b0be7f718",
+      "event_id": "evt-67047246a02c2360",
+      "event_type": "regulatory_enforcement",
+      "source_id": "src-boj",
+      "source_name": "src-boj",
+      "source_path": "https://www.boj.or.jp/en/",
+      "canonical_url": "https://www.boj.or.jp/en/about/press/koen_2026/ko260516a.htm",
+      "classification": "REAL_OFFICIAL_SOURCE"
+    },
+    {
+      "io_id": "io-7c2cdbb584de5673",
+      "event_id": "evt-2e8f46d98d073551",
+      "event_type": "regulatory_enforcement",
+      "source_id": "src-boc",
+      "source_name": "src-boc",
+      "source_path": "https://www.bankofcanada.ca/feed",
+      "canonical_url": "https://www.bankofcanada.ca/press/upcoming-events",
+      "classification": "REAL_OFFICIAL_SOURCE"
+    },
+    {
+      "io_id": "io-53b0898f7c5748f0",
+      "event_id": "evt-e80912f8a87c7493",
+      "event_type": "regulatory_enforcement",
+      "source_id": "src-boc",
+      "source_name": "src-boc",
+      "source_path": "https://www.bankofcanada.ca/feed",
+      "canonical_url": "https://www.bankofcanada.ca/publications/annual-reports-quarterly-financial-repo",
+      "classification": "REAL_OFFICIAL_SOURCE"
+    },
+    {
+      "io_id": "io-9ba227e3e58fe12f",
+      "event_id": "evt-a883425fe49260cc",
+      "event_type": "regulatory_enforcement",
+      "source_id": "src-boc",
+      "source_name": "src-boc",
+      "source_path": "https://www.bankofcanada.ca/feed",
+      "canonical_url": "https://www.bankofcanada.ca/research/research-newsletters",
+      "classification": "REAL_OFFICIAL_SOURCE"
+    },
+    {
+      "io_id": "io-44681356ea7bbbe5",
+      "event_id": "evt-e381ee48a40044bb",
+      "event_type": "regulatory_enforcement",
+      "source_id": "src-boc",
+      "source_name": "src-boc",
+      "source_path": "https://www.bankofcanada.ca/feed",
+      "canonical_url": "https://www.bankofcanada.ca/publications/financial-stability-report",
+      "classification": "REAL_OFFICIAL_SOURCE"
+    },
+    {
+      "io_id": "io-d65857c055d99cbf",
+      "event_id": "evt-5d5924800c1343c2",
+      "event_type": "regulatory_enforcement",
+      "source_id": "src-boc",
+      "source_name": "src-boc",
+      "source_path": "https://www.bankofcanada.ca/feed",
+      "canonical_url": "https://www.bankofcanada.ca/search?content_type%5B%5D=publications",
+      "classification": "REAL_OFFICIAL_SOURCE"
+    },
+    {
+      "io_id": "io-1c5207bb1d20d021",
+      "event_id": "evt-a1efed126edd5e46",
+      "event_type": "regulatory_enforcement",
+      "source_id": "src-ustr",
+      "source_name": "src-ustr",
+      "source_path": "https://ustr.gov",
+      "canonical_url": "https://ustr.gov/about/policy-offices/press-office/press-releases/2026/august/un",
+      "classification": "REAL_OFFICIAL_SOURCE"
+    },
+    {
+      "io_id": "io-8b58cb652cd41107",
+      "event_id": "evt-262341bad48c89f2",
+      "event_type": "regulatory_enforcement",
+      "source_id": "src-boc",
+      "source_name": "src-boc",
+      "source_path": "https://www.bankofcanada.ca/feed",
+      "canonical_url": "https://www.bankofcanada.ca/press/press-releases",
+      "classification": "REAL_OFFICIAL_SOURCE"
+    },
+    {
+      "io_id": "io-6624833e43bd376c",
+      "event_id": "evt-05fba5446325ef9e",
+      "event_type": "regulatory_enforcement",
+      "source_id": "src-boc",
+      "source_name": "src-boc",
+      "source_path": "https://www.bankofcanada.ca/feed",
+      "canonical_url": "https://www.bankofcanada.ca/press/speeches/webcasts",
+      "classification": "REAL_OFFICIAL_SOURCE"
+    },
+    {
+      "io_id": "io-00712f5b9bc6efa7",
+      "event_id": "evt-f610feef616dcb70",
+      "event_type": "regulatory_enforcement",
+      "source_id": "src-boc",
+      "source_name": "src-boc",
+      "source_path": "https://www.bankofcanada.ca/feed",
+      "canonical_url": "https://www.bankofcanada.ca/publications/annual-reports-quarterly-financial-repo",
+      "classification": "REAL_OFFICIAL_SOURCE"
+    },
+    {
+      "io_id": "io-aa8e7a6622b89528",
+      "event_id": "evt-a85d6175eb350b35",
+      "event_type": "regulatory_enforcement",
+      "source_id": "src-boc",
+      "source_name": "src-boc",
+      "source_path": "https://www.bankofcanada.ca/feed",
+      "canonical_url": "https://www.bankofcanada.ca/publications/canadian-survey-of-consumer-expectation",
+      "classification": "REAL_OFFICIAL_SOURCE"
+    },
+    {
+      "io_id": "io-b33d06979a2a85df",
+      "event_id": "evt-3a78ad0ade77b37b",
+      "event_type": "regulatory_enforcement",
+      "source_id": "src-boc",
+      "source_name": "src-boc",
+      "source_path": "https://www.bankofcanada.ca/feed",
+      "canonical_url": "https://www.bankofcanada.ca/publications/mpr",
+      "classification": "REAL_OFFICIAL_SOURCE"
+    },
+    {
+      "io_id": "io-d127ba626a28c36b",
+      "event_id": "evt-0f8a1832a86f3738",
+      "event_type": "regulatory_enforcement",
+      "source_id": "src-boc",
+      "source_name": "src-boc",
+      "source_path": "https://www.bankofcanada.ca/feed",
+      "canonical_url": "https://www.bankofcanada.ca/2026/07/summary-of-governing-council-deliberations-f",
+      "classification": "REAL_OFFICIAL_SOURCE"
+    },
+    {
+      "io_id": "io-cc04ae5bf2377b67",
+      "event_id": "evt-fbd3b9c87c14abb5",
+      "event_type": "regulatory_enforcement",
+      "source_id": "src-boc",
+      "source_name": "src-boc",
+      "source_path": "https://www.bankofcanada.ca/feed",
+      "canonical_url": "https://www.bankofcanada.ca/publications/summary-governing-council-deliberations",
+      "classification": "REAL_OFFICIAL_SOURCE"
+    },
+    {
+      "io_id": "io-11b854502870eec4",
+      "event_id": "evt-6f0df2199d26d8cc",
+      "event_type": "regulatory_enforcement",
+      "source_id": "src-boc",
+      "source_name": "src-boc",
+      "source_path": "https://www.bankofcanada.ca/feed",
+      "canonical_url": "https://www.bankofcanada.ca/publications/the-economy-plain-and-simple",
+      "classification": "REAL_OFFICIAL_SOURCE"
+    },
+    {
+      "io_id": "io-d27b237b7422183b",
+      "event_id": "evt-c2d786f076757e4d",
+      "event_type": "regulatory_enforcement",
+      "source_id": "src-boc",
+      "source_name": "src-boc",
+      "source_path": "https://www.bankofcanada.ca/feed",
+      "canonical_url": "https://www.bankofcanada.ca/publications/browse",
+      "classification": "REAL_OFFICIAL_SOURCE"
+    },
+    {
+      "io_id": "io-f82fa61b05b9a189",
+      "event_id": "evt-1e2880d8d614dd29",
+      "event_type": "statistical_release",
+      "source_id": "src-bank-tanzania",
+      "source_name": "src-bank-tanzania",
+      "source_path": "https://www.bot.go.tz",
+      "canonical_url": "https://www.bot.go.tz/Publications/NPS/BankSortCodes.xlsx",
+      "classification": "REAL_OFFICIAL_SOURCE"
+    },
+    {
+      "io_id": "io-b47c76d1d3436c96",
+      "event_id": "evt-97b00957f6982990",
+      "event_type": "regulatory_enforcement",
+      "source_id": "src-eurostat-emp",
+      "source_name": "src-eurostat-emp",
+      "source_path": "https://ec.europa.eu/eurostat",
+      "canonical_url": "https://ec.europa.eu/eurostat/web/main/news/podcasts",
+      "classification": "REAL_OFFICIAL_SOURCE"
+    },
+    {
+      "io_id": "io-bb60ce5ba60879f7",
+      "event_id": "evt-a68e3c40525569cb",
+      "event_type": "regulatory_enforcement",
+      "source_id": "src-bank-tanzania",
+      "source_name": "src-bank-tanzania",
+      "source_path": "https://www.bot.go.tz",
+      "canonical_url": "https://www.bot.go.tz/Publications/NPS/BankSortCodes.xlsx",
+      "classification": "REAL_OFFICIAL_SOURCE"
+    },
+    {
+      "io_id": "io-97a0bcc3a706f56b",
+      "event_id": "evt-0ec2cbfc4aa8e131",
+      "event_type": "regulatory_enforcement",
+      "source_id": "src-cbsl-srilanka",
+      "source_name": "src-cbsl-srilanka",
+      "source_path": "https://www.cbsl.gov.lk",
+      "canonical_url": "https://www.cbsl.gov.lk/en/publications/other-publications/statistical-publicati",
+      "classification": "REAL_OFFICIAL_SOURCE"
+    },
+    {
+      "io_id": "io-eb3f3a9442eb7c28",
+      "event_id": "evt-a72ec44f351a93de",
+      "event_type": "regulatory_enforcement",
+      "source_id": "src-cbsl-srilanka",
+      "source_name": "src-cbsl-srilanka",
+      "source_path": "https://www.cbsl.gov.lk",
+      "canonical_url": "https://www.cbsl.gov.lk/en/publications/other-publications/statistical-publicati",
+      "classification": "REAL_OFFICIAL_SOURCE"
+    },
+    {
+      "io_id": "io-82638c925d7b1e49",
+      "event_id": "evt-c031a899c50cf963",
+      "event_type": "regulatory_enforcement",
+      "source_id": "src-ecb-stat",
+      "source_name": "src-ecb-stat",
+      "source_path": "https://www.ecb.europa.eu/stats",
+      "canonical_url": "https://www.ecb.europa.eu/press/contacts/html/index.en.html",
+      "classification": "REAL_OFFICIAL_SOURCE"
+    },
+    {
+      "io_id": "io-ff548d49f24e51c7",
+      "event_id": "evt-5331aa6979e0d9bc",
+      "event_type": "regulatory_enforcement",
+      "source_id": "src-ecb-stat",
+      "source_name": "src-ecb-stat",
+      "source_path": "https://www.ecb.europa.eu/stats",
+      "canonical_url": "https://www.ecb.europa.eu/press/economic-bulletin/focus/html/index.en.html",
+      "classification": "REAL_OFFICIAL_SOURCE"
+    },
+    {
+      "io_id": "io-2d0e8a209406f3ae",
+      "event_id": "evt-c8dac7352cb12847",
+      "event_type": "regulatory_enforcement",
+      "source_id": "src-ecb-stat",
+      "source_name": "src-ecb-stat",
+      "source_path": "https://www.ecb.europa.eu/stats",
+      "canonical_url": "https://www.ecb.europa.eu/press/research-publications/legal-working-papers/html/",
+      "classification": "REAL_OFFICIAL_SOURCE"
+    },
+    {
+      "io_id": "io-0c92fe718a263c48",
+      "event_id": "evt-42143f6519f850bd",
+      "event_type": "regulatory_enforcement",
+      "source_id": "src-ecb-stat",
+      "source_name": "src-ecb-stat",
+      "source_path": "https://www.ecb.europa.eu/stats",
+      "canonical_url": "https://www.ecb.europa.eu/press/conferences/html/index.en.html",
+      "classification": "REAL_OFFICIAL_SOURCE"
+    },
+    {
+      "io_id": "io-09fc0c899f715fdb",
+      "event_id": "evt-2771ed9718e75bc6",
+      "event_type": "monetary_policy_decision",
+      "source_id": "src-idda-ireland",
+      "source_name": "src-idda-ireland",
+      "source_path": "https://www.centralbank.ie",
+      "canonical_url": "https://www.centralbank.ie/publication/quarterly-bulletins/quarterly-bulletin-q3",
+      "classification": "REAL_OFFICIAL_SOURCE"
+    },
+    {
+      "io_id": "io-a271f790737c5d11",
+      "event_id": "evt-2c661d9447d56f00",
+      "event_type": "regulatory_enforcement",
+      "source_id": "src-ecb-stat",
+      "source_name": "src-ecb-stat",
+      "source_path": "https://www.ecb.europa.eu/stats",
+      "canonical_url": "https://www.ecb.europa.eu/press/annual-reports-financial-statements/html/index.e",
+      "classification": "REAL_OFFICIAL_SOURCE"
+    },
+    {
+      "io_id": "io-5afd0f02512daaf5",
+      "event_id": "evt-9422547b312e251b",
+      "event_type": "regulatory_enforcement",
+      "source_id": "src-nrcan",
+      "source_name": "src-nrcan",
+      "source_path": "https://www.nrcan.gc.ca",
+      "canonical_url": "https://www.canada.ca/en/news/advanced-news-search/news-results.html?typ=newsrel",
+      "classification": "REAL_OFFICIAL_SOURCE"
+    },
+    {
+      "io_id": "io-7436f69447ea5a7f",
+      "event_id": "evt-bd4d63f853a330e7",
+      "event_type": "regulatory_enforcement",
+      "source_id": "src-nrcan",
+      "source_name": "src-nrcan",
+      "source_path": "https://www.nrcan.gc.ca",
+      "canonical_url": "https://natural-resources.canada.ca/maps-tools-publications/maps/geographical-na",
+      "classification": "REAL_OFFICIAL_SOURCE"
+    },
+    {
+      "io_id": "io-083f7b45b940701e",
+      "event_id": "evt-2caf9f5e4023182f",
+      "event_type": "regulatory_enforcement",
+      "source_id": "src-ecb-stat",
+      "source_name": "src-ecb-stat",
+      "source_path": "https://www.ecb.europa.eu/stats",
+      "canonical_url": "https://www.ecb.europa.eu/press/financial-stability-publications/fsr/html/index.",
+      "classification": "REAL_OFFICIAL_SOURCE"
+    },
+    {
+      "io_id": "io-25daa26f895a5e27",
+      "event_id": "evt-3bb0c3a8254aa6f0",
+      "event_type": "regulatory_enforcement",
+      "source_id": "src-ecb-stat",
+      "source_name": "src-ecb-stat",
+      "source_path": "https://www.ecb.europa.eu/stats",
+      "canonical_url": "https://www.ecb.europa.eu/press/stats/ffi/html/index.en.html",
+      "classification": "REAL_OFFICIAL_SOURCE"
+    },
+    {
+      "io_id": "io-7f0aad49d7b36377",
+      "event_id": "evt-1f825773486f77e8",
+      "event_type": "regulatory_enforcement",
+      "source_id": "src-ecb-stat",
+      "source_name": "src-ecb-stat",
+      "source_path": "https://www.ecb.europa.eu/stats",
+      "canonical_url": "https://www.ecb.europa.eu/press/pr/date/2025/html/ecb.pr250313~9d160bc6e2.en.htm",
+      "classification": "REAL_OFFICIAL_SOURCE"
+    },
+    {
+      "io_id": "io-929b1f5db1e75bcc",
+      "event_id": "evt-f9814742ec67292c",
+      "event_type": "regulatory_enforcement",
+      "source_id": "src-nrcan",
+      "source_name": "src-nrcan",
+      "source_path": "https://www.nrcan.gc.ca",
+      "canonical_url": "https://www.canada.ca/en/news/advanced-news-search/news-results.html?dprtmnt=nat",
+      "classification": "REAL_OFFICIAL_SOURCE"
+    },
+    {
+      "io_id": "io-ba846fc82c4e5ce7",
+      "event_id": "evt-431b68d5d9c93abc",
+      "event_type": "regulatory_enforcement",
+      "source_id": "src-ecb-stat",
+      "source_name": "src-ecb-stat",
+      "source_path": "https://www.ecb.europa.eu/stats",
+      "canonical_url": "https://www.ecb.europa.eu/press/financial-stability-publications/html/index.en.h",
+      "classification": "REAL_OFFICIAL_SOURCE"
+    },
+    {
+      "io_id": "io-d8d7249867f510a3",
+      "event_id": "evt-27444bb0ae39945e",
+      "event_type": "regulatory_enforcement",
+      "source_id": "src-idda-ireland",
+      "source_name": "src-idda-ireland",
+      "source_path": "https://www.centralbank.ie",
+      "canonical_url": "https://www.centralbank.ie/publication/quarterly-bulletins/quarterly-bulletin-q3",
+      "classification": "REAL_OFFICIAL_SOURCE"
+    },
+    {
+      "io_id": "io-ffd2ed89173318af",
+      "event_id": "evt-c56cb9f0892d00a1",
+      "event_type": "regulatory_enforcement",
+      "source_id": "src-ecb-stat",
+      "source_name": "src-ecb-stat",
+      "source_path": "https://www.ecb.europa.eu/stats",
+      "canonical_url": "https://www.ecb.europa.eu/press/press_conference/monetary-policy-statement/html/",
+      "classification": "REAL_OFFICIAL_SOURCE"
+    },
+    {
+      "io_id": "io-0e573c8d5edd4b15",
+      "event_id": "evt-4e3d627402a7469a",
+      "event_type": "regulatory_enforcement",
+      "source_id": "src-ecb-stat",
+      "source_name": "src-ecb-stat",
+      "source_path": "https://www.ecb.europa.eu/stats",
+      "canonical_url": "https://www.ecb.europa.eu/press/calendars/reserve/html/index.en.html",
+      "classification": "REAL_OFFICIAL_SOURCE"
+    },
+    {
+      "io_id": "io-d4de556ba4a246b7",
+      "event_id": "evt-540b2663b1482c3f",
+      "event_type": "regulatory_enforcement",
+      "source_id": "src-ecb-stat",
+      "source_name": "src-ecb-stat",
+      "source_path": "https://www.ecb.europa.eu/stats",
+      "canonical_url": "https://www.ecb.europa.eu/press/pubbydate/html/index.en.html",
+      "classification": "REAL_OFFICIAL_SOURCE"
+    },
+    {
+      "io_id": "io-23d25c4b97b6bfec",
+      "event_id": "evt-cdcb2b2b257b9f6f",
+      "event_type": "regulatory_enforcement",
+      "source_id": "src-ecb-stat",
+      "source_name": "src-ecb-stat",
+      "source_path": "https://www.ecb.europa.eu/stats",
+      "canonical_url": "https://www.ecb.europa.eu/stats/macroeconomic_and_sectoral/hicp/html/index.en.ht",
+      "classification": "REAL_OFFICIAL_SOURCE"
+    },
+    {
+      "io_id": "io-2f3378b05a432690",
+      "event_id": "evt-6c2bbc40cd79b82e",
+      "event_type": "regulatory_enforcement",
+      "source_id": "src-ecb-stat",
+      "source_name": "src-ecb-stat",
+      "source_path": "https://www.ecb.europa.eu/stats",
+      "canonical_url": "https://www.ecb.europa.eu/press/calendars/weekly/html/index.en.html",
+      "classification": "REAL_OFFICIAL_SOURCE"
+    },
+    {
+      "io_id": "io-9b029fe2cb4faffe",
+      "event_id": "evt-14b7f0f34ecfa7fc",
+      "event_type": "regulatory_enforcement",
+      "source_id": "src-ecb-stat",
+      "source_name": "src-ecb-stat",
+      "source_path": "https://www.ecb.europa.eu/stats",
+      "canonical_url": "https://www.ecb.europa.eu/press/annual-reports-financial-statements/annual/balan",
+      "classification": "REAL_OFFICIAL_SOURCE"
+    },
+    {
+      "io_id": "io-9d37f405aa6e7523",
+      "event_id": "evt-3932ea6aba1c0e49",
+      "event_type": "regulatory_enforcement",
+      "source_id": "src-defra-carbon-uk",
+      "source_name": "src-defra-carbon-uk",
+      "source_path": "https://www.gov.uk/government/organisations/department-for-environment-food-rura",
+      "canonical_url": "https://www.gov.uk/government/news/major-clean-up-begins-at-notorious-kidlington",
+      "classification": "REAL_OFFICIAL_SOURCE"
+    },
+    {
+      "io_id": "io-a78ef35ca710e8b0",
+      "event_id": "evt-8ca3c64c8b091daf",
+      "event_type": "regulatory_enforcement",
+      "source_id": "src-ecb-stat",
+      "source_name": "src-ecb-stat",
+      "source_path": "https://www.ecb.europa.eu/stats",
+      "canonical_url": "https://www.ecb.europa.eu/press/economic-bulletin/articles/html/index.en.html",
       "classification": "REAL_OFFICIAL_SOURCE"
     }
   ]

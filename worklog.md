@@ -72,3 +72,22 @@ Work Log:
 Stage Summary:
 - Starting point: real_corpus_store (148 real IOs, 17 sources)
 - Target: 100+ new sources catalogued + 25+ new real IOs + continuous feed validated
+
+---
+Task ID: SOURCE-NETWORK-V3-OPERATIONALIZATION
+Agent: main
+Task: Execute GLOBAL SOURCE NETWORK OPERATIONALIZATION V3 — transform source catalog into operational intelligence factory. Targets: ≥250 catalogued, ≥150 qualified, ≥50 production-ready, ≥50 monitored, ≥1,000 real docs, ≥500 real IOs.
+
+Work Log:
+- Preserving all V2 closures (canonical cursor, K1/K2/D4, transport, idempotency)
+- Phase A: Wave C expansion to ≥250 catalogued sources
+- Phase B: Production-ready hardening — require document retrieval proof
+- Phase C: Process ≥1,000 real documents → ≥500 real IOs
+- Phase D: Continuous monitoring across ≥50 sources, 3 cycles
+- Phase E: Intelligence yield + freshness + health recovery
+- Phase F: Observability closure + persistence verification
+- Phase G: V3 evidence document
+
+Stage Summary:
+- Starting point: 192 catalogued, 101 qualified, 11 production-ready, 229 real IOs
+- Target: 250+ catalogued, 150+ qualified, 50+ production-ready, 1,000+ docs, 500+ IOs

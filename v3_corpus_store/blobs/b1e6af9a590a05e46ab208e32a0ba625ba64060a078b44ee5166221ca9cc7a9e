@@ -1,0 +1,319 @@
+
+<!DOCTYPE html>
+<html lang="en-gb">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+
+  <script src="/bundles/scripts/libs?v=fodsoiBsFcD0y_Z5V-_PFnKSt3SRTBQppNfN3UVjTW41" defer></script>
+
+  <script src="/bundles/scripts/components?v=34RnOjPUuuNRF9eyn8JesCdDhNMIK-n5QfmGrdKdQoI1" defer></script>
+
+  
+  <script src="/bundles/scripts/publications?v=MiRdyq7y-e1GFGJCMZN-Tjd3LFGEsiOJliabkHMJgP81" defer></script>
+<script src="/bundles/scripts/page?v=fscHj-wZZQpYBgDsmWSHok9mP_MZzsk0DJQx476jH0g1" defer></script>
+
+
+  <script src="/bundles/scripts/global?v=ruwZ5xVP9wmRpmUXFKgLgdBU36TLhzbg8x5k8zjD9v81" defer></script>
+
+
+    <link rel="preload" as="font" type="font/woff2" href="/Content/Fonts/Almarai-Bold.woff2" crossorigin>
+  <link rel="preload" as="font" type="font/woff2" href="/Content/Fonts/Almarai-Light.woff2" crossorigin>
+  <link rel="preload" as="font" type="font/woff2" href="/Content/Fonts/Almarai-Regular.woff2" crossorigin>
+  <link rel="preload" as="font" type="font/woff2" href="/Content/Fonts/PlantinMTPro-Italic.woff2" crossorigin>
+  <link rel="preload" as="font" type="font/woff2" href="/Content/Fonts/PlantinMTPro-Light.woff2" crossorigin>
+  <link rel="preload" as="font" type="font/woff2" href="/Content/Fonts/PlantinMTPro-LightItalic.woff2" crossorigin>
+  <link rel="preload" as="font" type="font/woff2" href="/Content/Fonts/PlantinMTPro-Regular.woff2" crossorigin>
+  <link rel="preload" as="font" type="font/woff2" href="/Content/Fonts/Prelo-Book.woff2" crossorigin>
+  <link rel="preload" as="font" type="font/woff2" href="/Content/Fonts/Prelo-BookItalic.woff2" crossorigin>
+  <link rel="preload" as="font" type="font/woff2" href="/Content/Fonts/Prelo-LightItalic.woff2" crossorigin>
+  <link rel="preload" as="font" type="font/woff2" href="/Content/Fonts/Prelo-Medium.woff2" crossorigin>
+  <link rel="preload" as="font" type="font/woff2" href="/Content/Fonts/Prelo-MediumItalic.woff2" crossorigin>
+  <link rel="preload" as="font" type="font/woff2" href="/Content/Fonts/Prelo-SemiBold.woff2" crossorigin>
+  <link rel="preload" as="font" type="font/woff2" href="/Content/Fonts/Prelo-SemiBoldItalic.woff2" crossorigin>
+
+
+<link href="/bundles/english-css?v=LBbtIn2_VPqCjs2BCbq938tPbrvXYWUIX6in750eK4I1" rel="stylesheet"/>
+    <script>window.isArabic = false;</script>
+  
+  
+
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>News &amp; Publications - ADIA</title>
+  <meta name="description" content="Read ADIA&#39;s latest news announcements, explore our annual ADIA Review, or download a comprehensive overview of our organisation.">
+  <link rel="icon" type="image/png" href="/Content/assets/favicon.png" />
+  <meta property="og:url" content="https://www.adia.ae/en/publications">
+  <meta property="og:type" content="article">
+  <meta property="og:title" content="News &amp; Publications">
+  <meta property="og:description" content="Read ADIA&#39;s latest news announcements, explore our annual ADIA Review, or download a comprehensive overview of our organisation.">
+  <meta property="og:site_name" content="ADIA">
+    <meta property="og:image" content="https://www.adia.ae/media/azure/adia/media/publications.png">
+
+
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:description" content="Read ADIA&#39;s latest news announcements, explore our annual ADIA Review, or download a comprehensive overview of our organisation.">
+  <meta name="twitter:title" content="News &amp; Publications">
+    <meta name="twitter:image" content="https://www.adia.ae/media/azure/adia/media/publications.png">
+    <meta name="twitter:image:alt" content="ADIA building during the day">
+
+
+  <meta name="ahrefs-site-verification" content="f3dd4fc45adc001660af814df1002979370d8ecf7dbff4b7dd8a5a0499009a14">
+
+<script type="text/javascript">
+!function(T,l,y){var S=T.location,u="script",k="instrumentationKey",D="ingestionendpoint",C="disableExceptionTracking",E="ai.device.",I="toLowerCase",b="crossOrigin",w="POST",e="appInsightsSDK",t=y.name||"appInsights";(y.name||T[e])&&(T[e]=t);var n=T[t]||function(d){var g=!1,f=!1,m={initialize:!0,queue:[],sv:"4",version:2,config:d};function v(e,t){var n={},a="Browser";return n[E+"id"]=a[I](),n[E+"type"]=a,n["ai.operation.name"]=S&&S.pathname||"_unknown_",n["ai.internal.sdkVersion"]="javascript:snippet_"+(m.sv||m.version),{time:function(){var e=new Date;function t(e){var t=""+e;return 1===t.length&&(t="0"+t),t}return e.getUTCFullYear()+"-"+t(1+e.getUTCMonth())+"-"+t(e.getUTCDate())+"T"+t(e.getUTCHours())+":"+t(e.getUTCMinutes())+":"+t(e.getUTCSeconds())+"."+((e.getUTCMilliseconds()/1e3).toFixed(3)+"").slice(2,5)+"Z"}(),iKey:e,name:"Microsoft.ApplicationInsights."+e.replace(/-/g,"")+"."+t,sampleRate:100,tags:n,data:{baseData:{ver:2}}}}var h=d.url||y.src;if(h){function a(e){var t,n,a,i,r,o,s,c,p,l,u;g=!0,m.queue=[],f||(f=!0,t=h,s=function(){var e={},t=d.connectionString;if(t)for(var n=t.split(";"),a=0;a<n.length;a++){var i=n[a].split("=");2===i.length&&(e[i[0][I]()]=i[1])}if(!e[D]){var r=e.endpointsuffix,o=r?e.location:null;e[D]="https://"+(o?o+".":"")+"dc."+(r||"services.visualstudio.com")}return e}(),c=s[k]||d[k]||"",p=s[D],l=p?p+"/v2/track":config.endpointUrl,(u=[]).push((n="SDK LOAD Failure: Failed to load Application Insights SDK script (See stack for details)",a=t,i=l,(o=(r=v(c,"Exception")).data).baseType="ExceptionData",o.baseData.exceptions=[{typeName:"SDKLoadFailed",message:n.replace(/\./g,"-"),hasFullStack:!1,stack:n+"\nSnippet failed to load ["+a+"] -- Telemetry is disabled\nHelp Link: https://go.microsoft.com/fwlink/?linkid=2128109\nHost: "+(S&&S.pathname||"_unknown_")+"\nEndpoint: "+i,parsedStack:[]}],r)),u.push(function(e,t,n,a){var i=v(c,"Message"),r=i.data;r.baseType="MessageData";var o=r.baseData;return o.message='AI (Internal): 99 message:"'+("SDK LOAD Failure: Failed to load Application Insights SDK script (See stack for details) ("+n+")").replace(/\"/g,"")+'"',o.properties={endpoint:a},i}(0,0,t,l)),function(e,t){if(JSON){var n=T.fetch;if(n&&!y.useXhr)n(t,{method:w,body:JSON.stringify(e),mode:"cors"});else if(XMLHttpRequest){var a=new XMLHttpRequest;a.open(w,t),a.setRequestHeader("Content-type","application/json"),a.send(JSON.stringify(e))}}}(u,l))}function i(e,t){f||setTimeout(function(){!t&&m.core||a()},500)}var e=function(){var n=l.createElement(u);n.src=h;var e=y[b];return!e&&""!==e||"undefined"==n[b]||(n[b]=e),n.onload=i,n.onerror=a,n.onreadystatechange=function(e,t){"loaded"!==n.readyState&&"complete"!==n.readyState||i(0,t)},n}();y.ld<0?l.getElementsByTagName("head")[0].appendChild(e):setTimeout(function(){l.getElementsByTagName(u)[0].parentNode.appendChild(e)},y.ld||0)}try{m.cookie=l.cookie}catch(p){}function t(e){for(;e.length;)!function(t){m[t]=function(){var e=arguments;g||m.queue.push(function(){m[t].apply(m,e)})}}(e.pop())}var n="track",r="TrackPage",o="TrackEvent";t([n+"Event",n+"PageView",n+"Exception",n+"Trace",n+"DependencyData",n+"Metric",n+"PageViewPerformance","start"+r,"stop"+r,"start"+o,"stop"+o,"addTelemetryInitializer","setAuthenticatedUserContext","clearAuthenticatedUserContext","flush"]),m.SeverityLevel={Verbose:0,Information:1,Warning:2,Error:3,Critical:4};var s=(d.extensionConfig||{}).ApplicationInsightsAnalytics||{};if(!0!==d[C]&&!0!==s[C]){method="onerror",t(["_"+method]);var c=T[method];T[method]=function(e,t,n,a,i){var r=c&&c(e,t,n,a,i);return!0!==r&&m["_"+method]({message:e,url:t,lineNumber:n,columnNumber:a,error:i}),r},d.autoExceptionInstrumented=!0}return m}(y.cfg);(T[t]=n).queue&&0===n.queue.length&&n.trackPageView({})}(window,document,{
+src: "https://az416426.vo.msecnd.net/scripts/b/ai.2.min.js", // The SDK URL Source
+//name: "appInsights", // Global SDK Instance name defaults to "appInsights" when not supplied
+//ld: 0, // Defines the load delay (in ms) before attempting to load the sdk. -1 = block page load and add to head. (default) = 0ms load after timeout,
+//useXhr: 1, // Use XHR instead of fetch to report failures (if available),
+//crossOrigin: "anonymous", // When supplied this will add the provided value as the cross origin attribute on the script tag 
+cfg: { // Application Insights Configuration
+  instrumentationKey: "a4cc82f4-0e74-4147-b9ab-8e43438f503e"
+    /* ...Other Configuration Options... */
+}});
+</script>
+
+
+</head>
+<body data-culture="en-gb">
+  <div class="body-inside">
+
+    <header class="header " id="Header">
+
+      <div class="header__top">
+  <div class="header__inner">
+    <a href="/" class="header__home"><img src="/assets/ADIA.svg" alt="ADIA" class="header__logo"></a>
+    <button type="button" class="header__toggle" id="NavToggle">Toggle menu</button>
+    <nav class="header__nav" aria-label="Primary" id="Nav">
+          <a href="/en/investments" class="header__page">Investments</a>
+          <a href="/en/people" class="header__page">People</a>
+          <a href="/en/purpose" class="header__page">Purpose</a>
+          <a href="/en/publications" class="header__page header__page--current" aria-current="page">Publications</a>
+    </nav>
+
+    <a href="/ar" class="header__lang">عربي</a>
+  </div>
+</div>
+
+
+        <div class="header__second" id="SubNav">
+          <div class="header__second__scroll">
+            <div class="header__second__inner">
+              <div class="header__second__title">
+                <a href="#PageHeader" class="header__heading" aria-current="page" id="PageTitle">News &amp; Publications</a>
+              </div>
+                <nav class="header__second__nav" aria-label="Page Sections" id="SectionList">
+        <a href="#News" class="header__section">News</a>
+        <a href="#ADIA-Review" class="header__section">ADIA Review</a>
+        <a href="#Who-We-Are" class="header__section">ADIA Overview</a>
+    <div class="header__second__line" id="Line"></div>
+  </nav>
+
+            </div>
+          </div>
+        </div>
+
+    </header>
+    
+
+    <div class="body-inside__container" id="Container">
+
+      <div class="canvas" id="Canvas" data-scale="2"></div>
+
+      <div class="page" id="Page">
+        <div class="page__inner" id="Inner">
+          <main>
+            
+
+
+
+<header class="hero nav-section" id="PageHeader">
+  <div class="hero__container">
+    <div class="hero__media corner-shadow animate animate--skew" data-corner="BL">
+      <div class="hero__inner">
+        <img src="https://www.adia.ae/media/azure/adia/media/publications.png" alt="News &amp; Publications" class="hero__item" decoding="sync">
+      </div>
+    </div>
+    <div class="hero__copy animate animate--copy">
+      <h1 class="copy__title">News &amp; Publications</h1>
+        <p class="copy__p">Read ADIA&#39;s latest news announcements, explore our annual ADIA Review, or download a comprehensive overview of our organisation.</p>
+    </div>
+  </div>
+</header>
+
+  <div class="between between-2"></div>
+<section class="section nav-section right-2" id="News">
+  <div class="section__container section__container--right">
+
+    <div class="news-copy animate animate--copy">
+      <h2 class="copy__heading">News</h2>
+      <strong class="copy__hero">Latest articles</strong>
+    </div>
+
+    <div class="news">
+      <ol class="news__list" data-count="17" id="NewsList">
+          <li class="news__item">
+            <div class="news__copy">
+              <time datetime="2026-05-22" class="news__date">May 22, 2026</time>
+              <h3 class="news__title" >ADIA marks its 50th Anniversary</h3>
+            </div>
+            <a href="/en/publications/news/adia-marks-its-50th-anniversary" class="news__button news__button--list">See more</a>
+          </li>
+          <li class="news__item">
+            <div class="news__copy">
+              <time datetime="2026-05-22" class="news__date">May 22, 2026</time>
+              <h3 class="news__title" >Tahnoon bin Zayed affirms confidence in ADIA’s continued success on company’s 50th anniversary</h3>
+            </div>
+            <a href="/en/publications/news/tahnoon-bin-zayed-affirms-confidence-in-adia’s-con" class="news__button news__button--list">See more</a>
+          </li>
+          <li class="news__item">
+            <div class="news__copy">
+              <time datetime="2026-05-22" class="news__date">May 22, 2026</time>
+              <h3 class="news__title" >Khaled bin Mohamed bin Zayed: ADIA’s 50th anniversary milestone in emirate’s journey towards building diversified, innovation-based, knowledge-driven economy</h3>
+            </div>
+            <a href="/en/publications/news/khaled-bin-mohamed-bin-zayed-adia’s-50th-anniversa" class="news__button news__button--list">See more</a>
+          </li>
+          <li class="news__item">
+            <div class="news__copy">
+              <time datetime="2026-05-22" class="news__date">May 22, 2026</time>
+              <h3 class="news__title" >Mansour bin Zayed: ADIA marks 50 years of long-term value creation</h3>
+            </div>
+            <a href="/en/publications/news/mansour-bin-zayed-adia-marks-50-years-of-long-term" class="news__button news__button--list">See more</a>
+          </li>
+      </ol>
+      <button type="button" class="news__more" id="MoreNews">More articles</button>
+    </div>
+
+  </div>
+</section>
+  <div class="between between-2"></div>
+<section class="section nav-section left-2" id="ADIA-Review">
+  <div class="section__container">
+    <div class="download">
+      <div class="copy__group download__copy animate animate--copy">
+        <h2 class="copy__heading">ADIA Review</h2>
+        <strong class="copy__hero">Our annual reviews</strong>
+          <p class="copy__p">This document contains an annual overview of our activities and performance each year, including our Managing Director’s letter, Operational Review and more detailed breakdowns by asset class.</p>
+      </div>
+      <a href="/en/pr/2024/index.html" target="_blank" rel="noopener noreferrer"  class="download__cover shadow animate">
+        <img src="https://www.adia.ae/media/azure/adia/media/2025/adia_annual_review_2024_fc.jpg" alt="ADIA Review 2024" class="download__image">
+        <div class="download__launch">Launch site</div>
+      </a>
+      <div class="dropdown">
+        <div class="dropdown__container">
+          <a href="#" class="dropdown__button">Previous Reviews</a>
+          <ol class="dropdown__list">
+              <li class="dropdown__item">
+                <a href="/en/pr/2024/index.html" target="_blank" rel="noopener noreferrer"  class="dropdown__link reviews__link">2024</a>
+              </li>
+              <li class="dropdown__item">
+                <a href="/en/pr/2023/index.html" target="_blank" rel="noopener noreferrer"  class="dropdown__link reviews__link">2023</a>
+              </li>
+              <li class="dropdown__item">
+                <a href="/en/pr/2022/index.html" target="_blank" rel="noopener noreferrer"  class="dropdown__link reviews__link">2022</a>
+              </li>
+              <li class="dropdown__item">
+                <a href="/en/pr/2021/index.html" target="_blank" rel="noopener noreferrer"  class="dropdown__link reviews__link">2021</a>
+              </li>
+              <li class="dropdown__item">
+                <a href="/en/pr/2020/index.html" target="_blank" rel="noopener noreferrer"  class="dropdown__link reviews__link">2020</a>
+              </li>
+              <li class="dropdown__item">
+                <a href="/en/pr/2019/index.html" target="_blank" rel="noopener noreferrer"  class="dropdown__link reviews__link">2019</a>
+              </li>
+              <li class="dropdown__item">
+                <a href="/en/pr/2018/index.html" target="_blank" rel="noopener noreferrer"  class="dropdown__link reviews__link">2018</a>
+              </li>
+              <li class="dropdown__item">
+                <a href="https://www.adia.ae/media/azure/adia/media/adia_review_2017.pdf" target="_blank" rel="noopener noreferrer" download class="dropdown__link reviews__link">2017</a>
+              </li>
+              <li class="dropdown__item">
+                <a href="https://www.adia.ae/media/azure/adia/media/adia_review_2016.pdf" target="_blank" rel="noopener noreferrer" download class="dropdown__link reviews__link">2016</a>
+              </li>
+              <li class="dropdown__item">
+                <a href="https://www.adia.ae/media/azure/adia/media/adia_review_2015.pdf" target="_blank" rel="noopener noreferrer" download class="dropdown__link reviews__link">2015</a>
+              </li>
+              <li class="dropdown__item">
+                <a href="https://www.adia.ae/media/azure/adia/media/adia_review_2014.pdf" target="_blank" rel="noopener noreferrer" download class="dropdown__link reviews__link">2014</a>
+              </li>
+              <li class="dropdown__item">
+                <a href="https://www.adia.ae/media/azure/adia/media/annual_review_website_2013.pdf" target="_blank" rel="noopener noreferrer" download class="dropdown__link reviews__link">2013</a>
+              </li>
+              <li class="dropdown__item">
+                <a href="https://www.adia.ae/media/azure/adia/media/annual_review_website_2012.pdf" target="_blank" rel="noopener noreferrer" download class="dropdown__link reviews__link">2012</a>
+              </li>
+              <li class="dropdown__item">
+                <a href="https://www.adia.ae/media/azure/adia/media/annual_review_website_2011.pdf" target="_blank" rel="noopener noreferrer" download class="dropdown__link reviews__link">2011</a>
+              </li>
+              <li class="dropdown__item">
+                <a href="https://www.adia.ae/media/azure/adia/media/annual_review_website_2010.pdf" target="_blank" rel="noopener noreferrer" download class="dropdown__link reviews__link">2010</a>
+              </li>
+              <li class="dropdown__item">
+                <a href="https://www.adia.ae/media/azure/adia/media/annual_review_website2009.pdf" target="_blank" rel="noopener noreferrer" download class="dropdown__link reviews__link">2009</a>
+              </li>
+          </ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+  <div class="between between-2"></div>
+<section class="section nav-section right-2" id="Who-We-Are">
+  <div class="section__container">
+    <div class="download align-right">
+      <div class="copy__group overview__copy animate animate--copy">
+        <h2 class="copy__heading">ADIA Overview</h2>
+        <strong class="copy__hero">An Introduction to ADIA</strong>
+          <p class="copy__p">This downloadable e-book provides detailed information on ADIA as an organisation, including our approach to investments, governance, how we organise ourselves and our people and culture.</p>
+      </div>
+      <a href="https://www.adia.ae/media/azure/adia/media/2023/01/adia-introduction-feb-2025.pdf" target="_blank" rel="noopener noreferrer" download class="download__cover download__cover--landscape shadow animate">
+        <img src="https://www.adia.ae/media/azure/adia/media/adia-overview-cover-light_2.png" alt="Cover image" class="download__image">
+        <div class="download__title">An Introduction to ADIA</div>
+        <div class="download__eng">Download</div>
+      </a>
+  </div>
+</section>
+
+
+          </main>
+            <div class="between between--footer between-2"></div>
+          <footer class="footer right-2" id="PageFooter">
+            <div class="footer__inner">
+              <a href="/" class="footer__home"><img src="/assets/ADIA.svg" alt="ADIA" class="footer__logo"></a>
+              <div class="footer__details">
+                <address class="footer__address">
+
+    Abu Dhabi Investment Authority<br>
+    211 Corniche, PO Box 3600<br>
+Abu Dhabi, United Arab Emirates<br>
+        <br>
+    <a href="tel:+97124150000" class="footer__tel">
+        Phone <span style="display: inline-block; direction: ltr">+971 2 415 0000</span>
+    </a>
+    <br>
+    <a href="tel:+97124151000" class="footer__tel keep-ltr">
+        Fax <span style="display: inline-block; direction: ltr">+971 2 415 1000</span>
+    </a>
+</address>
+
+                <br>
+                <nav class="footer__links">
+    <a href="/en/fraud-warning" class="footer__link">Fraud Warning</a>
+      <div class="footer__divider"></div>
+    <a href="/en/terms-and-conditions" class="footer__link">Terms &amp; Conditions</a>
+      <div class="footer__divider"></div>
+    <a href="/en/privacy-notice" class="footer__link">Privacy Notice</a>
+      <div class="footer__divider"></div>
+    <a href="/en/sitemap" class="footer__link">Sitemap</a>
+      <div class="footer__divider"></div>
+    <a href="/en/contact" class="footer__link">Contact</a>
+</nav>
+              </div>
+            </div>
+          </footer>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>

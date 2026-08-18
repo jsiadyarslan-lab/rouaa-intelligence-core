@@ -48,3 +48,7 @@ scale_validation_store/blobs/
 /cursor_closure_results.json
 /source_audit_results.json
 /remediation_queue_results.json
+
+# V3 — ignore transient test artifacts
+/wave_c_qualification_results.json
+/v3_processing_results.json

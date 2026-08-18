@@ -1,0 +1,1421 @@
+<!DOCTYPE html>
+<html lang="bg">
+    <head>
+        <!-- Required meta tags -->
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<base href="https://www.nsi.bg/" />
+
+<title>Международен ден на бирата</title>
+<meta name="description" content="Днес отбелязваме Международния ден на бирата. Той се чества в първия петък на месец август вече 20 години. По този повод Националният статистически институт представя десетте области в България с най-голямо средно потребление на бира през 2025 година. Начело в класацията е област Добрич с 61.5 литр ...">
+
+<meta property="og:site_name" content="НСИ - Национален статистически институт">
+<meta property="og:title" content="Международен ден на бирата">
+<meta property="og:description" content="Днес отбелязваме Международния ден на бирата. Той се чества в първия петък на месец август вече 20 години. По този повод Националният статистически институт представя десетте области в България с най-голямо средно потребление на бира през 2025 година. Начело в класацията е област Добрич с 61.5 литр ...">
+<meta property="og:image" content="https://www.nsi.bg/uploads/files/News_News/thumbs/big_42a7b659d71c86e2de5b725bd4507f9d914f7e18.png">
+
+<!-- Bootstrap Min CSS -->
+<link rel="stylesheet" href="templates/default/css/bootstrap.min.css">
+<!-- Animate Min CSS -->
+<link rel="stylesheet" href="templates/default/css/animate.min.css">
+<!-- FlatIcon CSS -->
+<link rel="stylesheet" href="templates/default/css/flaticon.css">
+<!-- Odometer Min CSS -->
+<link rel="stylesheet" href="templates/default/css/odometer.min.css">
+<!-- Nice Select CSS -->
+<link rel="stylesheet" href="templates/default/css/nice-select.min.css">
+<!-- MeanMenu CSS -->
+<link rel="stylesheet" href="templates/default/css/meanmenu.css">
+<!-- Magnific Popup Min CSS -->
+<link rel="stylesheet" href="templates/default/css/magnific-popup.min.css">
+<!-- Owl Carousel Min CSS -->
+<link rel="stylesheet" href="templates/default/css/owl.carousel.min.css">
+<!-- Font Awesome Min CSS -->
+<link rel="stylesheet" href="templates/default/css/fontawesome.min.css">
+<!-- FoIcon CSS -->
+<link rel="stylesheet" href="templates/default/css/foicons.css">
+<!-- Style CSS -->
+<link rel="stylesheet" href="templates/default/css/style.css?t=1787011543">
+<!-- Responsive CSS -->
+<link rel="stylesheet" href="templates/default/css/responsive.css?t=1787011543">
+<!-- JS UI CSS -->
+<link rel="stylesheet" href="templates/default/css/jquery-ui.css">
+<!-- datatable -->
+<link href="templates/default/js/external/dataTables.min.css" rel="stylesheet">
+<!-- custom -->
+<link rel="stylesheet" href="templates/default/css/custom.css?t=1787011543">
+
+<link rel="icon" type="image/png" href="templates/default/img/favico/favicon.ico">
+
+<link rel="stylesheet" href="templates/default/js/external/buttons.dataTables.css">
+<style>
+.datatable th, .datatable td {
+	vertical-align: top;
+}
+caption {
+    caption-side: top;
+    font-size: 1.2em;
+    font-weight: bold;
+    color: #000;
+    padding: 10px;
+    text-align: center;
+    background-color: #f0f0f0;
+}
+.custom-right-align {
+    text-align: right;
+}
+</style>
+
+<style>
+.charts_tabs li {
+    display: inline-block;
+	width: auto;
+}
+.charts_tabs li a {
+	display: inline-block;
+}
+</style>
+    </head>
+    <body>
+	        <!-- Preloader -->
+        <div class="preloader">
+            <div class="loader">
+                <div class="shadow"></div>
+                <div class="box"></div>
+            </div>
+        </div>
+        <!-- End Preloader -->
+			<!-- Start Navbar Area -->
+        <div class="navbar-area navbar-two">
+
+			  
+<!--topbar start-->
+<div id="header-top-bar" class="topbar primary-bg"
+	style="background-color: #547A95">
+	<div class="container">
+		<div class="row justify-content-between align-items-center">
+			<div class="col-md-8 col-lg-7 d-none d-md-none d-lg-block">
+				<div class="topbar-text text-white">
+					<ul class="list-inline" style="margin-bottom: 0px;">
+						<li class="list-inline-item text-white"><span
+							class="flaticon-placeholder-filled-point mr-1"></span> ул. „П. Волов“ № 2, София 1038, България</li>
+						<li class="list-inline-item text-white"><a href="tel:(02) 9857 111" target="_blank"><span class="fas fa-phone-alt mr-1"></span> (02) 9857 111</a></li>
+					</ul>
+				</div>
+			</div>
+			<div class="col-md-12 col-lg-5" style="text-align: right;">
+				<div class="topbar-text text-white">
+					<ul class="list-inline text-md-right text-lg-right text-right  my-2">
+                	                		<li class="list-inline-item text-white"><a href="tel:(02) 9857 111" target="_blank"><span class="fas fa-phone-alt mr-1"></span><span class="sr-only">phone</span></a></li>
+                                    	                		<li class="list-inline-item text-white"><a href="https://www.facebook.com/nsibg" target="_blank"><span class="fab fa-facebook-f"></span><span class="sr-only">facebook</span></a></li>
+                                                            	<li class="list-inline-item"><a href="https://www.youtube.com/@bgnsi" class="rounded" target="_blank"><span class="fab fa-youtube"></span><span class="sr-only">youtube</span></a></li>
+                                        
+                                                                <li class="list-inline-item text-white"><a href="/pages/vrazki-34" class="rounded">Връзки</a></li>
+					                        <li class="list-inline-item text-white"><a href="/contacts" class="rounded">Контакти</a></li>
+											                    </ul>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+<!--topbar end-->
+             <div class="crimso-responsive-nav">
+                <div class="container">
+                    <div class="crimso-responsive-menu">
+                        <div class="logo">
+                            <a href="">
+                                <img src="templates/default/img/logos/logo3.png" class="white-logo" alt="НСИ - Национален статистически институт">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="crimso-nav">
+                <div class="container">
+                    <nav class="navbar navbar-expand-md navbar-light">
+                        <a class="navbar-brand" href="">
+                        	                            <img src="templates/default/img/logos/logo-bg.png" class="white-logo" alt="НСИ - Национален статистически институт">
+                        </a>
+
+                       <div class="collapse navbar-collapse mean-menu" id="navbarSupportedContent">
+                       		
+<ul class="navbar-nav">
+    
+        
+        <li class="nav-item">
+            <a href="/statistical-data/258" class="nav-link">СТАТИСТИЧЕСКИ ДАННИ <i class="fa fa-plus"></i></a>
+
+            				<ul class="dropdown-menu">
+			<li class="nav-item">
+			<a class="nav-link" href="/infostat">ИС ИНФОСТАТ - база от данни</a>
+					</li>
+			<li class="nav-item">
+			<a class="nav-link" href="/statistical-data/258">Бизнес статистика</a>
+			<ul class="dropdown-menu">
+			<li class="nav-item">
+			<a class="nav-link" href="/statistical-data/407">Бизнес наблюдения</a>
+					</li>
+			<li class="nav-item">
+			<a class="nav-link" href="/statistical-data/403">Бизнес регистър</a>
+					</li>
+			<li class="nav-item">
+			<a class="nav-link" href="/statistical-data/391">Външна търговия</a>
+					</li>
+			<li class="nav-item">
+			<a class="nav-link" href="/statistical-data/349">Годишна бизнес статистика</a>
+					</li>
+			<li class="nav-item">
+			<a class="nav-link" href="/statistical-data/343">Инвестиции</a>
+					</li>
+			<li class="nav-item">
+			<a class="nav-link" href="/statistical-data/316">Краткосрочна бизнес статистика</a>
+					</li>
+			<li class="nav-item">
+			<a class="nav-link" href="/statistical-data/301">НИРД, иновации и информационно общество</a>
+					</li>
+			<li class="nav-item">
+			<a class="nav-link" href="/statistical-data/267">Туризъм</a>
+					</li>
+			<li class="nav-item">
+			<a class="nav-link" href="/statistical-data/423">Транспорт</a>
+					</li>
+	</ul>		</li>
+			<li class="nav-item">
+			<a class="nav-link" href="/statistical-data/142">Демографска и социална статистика</a>
+			<ul class="dropdown-menu">
+			<li class="nav-item">
+			<a class="nav-link" href="/statistical-data/246">Доходи, разходи и потребление на домакинствата</a>
+					</li>
+			<li class="nav-item">
+			<a class="nav-link" href="/statistical-data/243">Жилищен фонд</a>
+					</li>
+			<li class="nav-item">
+			<a class="nav-link" href="/statistical-data/229">Здравеопазване</a>
+					</li>
+			<li class="nav-item">
+			<a class="nav-link" href="/statistical-data/218">Култура</a>
+					</li>
+			<li class="nav-item">
+			<a class="nav-link" href="/statistical-data/202">Население - демография, миграция и прогнози</a>
+					</li>
+			<li class="nav-item">
+			<a class="nav-link" href="/statistical-data/181">Образование и учене през целия живот</a>
+					</li>
+			<li class="nav-item">
+			<a class="nav-link" href="/statistical-data/161">Пазар на труда</a>
+					</li>
+			<li class="nav-item">
+			<a class="nav-link" href="/statistical-data/152">Правосъдие и престъпност</a>
+					</li>
+			<li class="nav-item">
+			<a class="nav-link" href="/statistical-data/151">Преброяване на населението и жилищния фонд</a>
+					</li>
+			<li class="nav-item">
+			<a class="nav-link" href="/statistical-data/147">Социална защита</a>
+					</li>
+			<li class="nav-item">
+			<a class="nav-link" href="/statistical-data/143">Социално включване и условия на живот</a>
+					</li>
+	</ul>		</li>
+			<li class="nav-item">
+			<a class="nav-link" href="/statistical-data/82">Макроикономическа статистика</a>
+			<ul class="dropdown-menu">
+			<li class="nav-item">
+			<a class="nav-link" href="/statistical-data/136">Брутен вътрешен продукт (БВП)</a>
+					</li>
+			<li class="nav-item">
+			<a class="nav-link" href="/statistical-data/135">Брутен национален доход (БНД)</a>
+					</li>
+			<li class="nav-item">
+			<a class="nav-link" href="/statistical-data/127">Държавна финансова статистика</a>
+					</li>
+			<li class="nav-item">
+			<a class="nav-link" href="/statistical-data/125">Европейска система от национални и регионални сметки 2010</a>
+					</li>
+			<li class="nav-item">
+			<a class="nav-link" href="/statistical-data/121">Заетост и отработени човекочасове - национално ниво</a>
+					</li>
+			<li class="nav-item">
+			<a class="nav-link" href="/statistical-data/118">Заетост и отработени човекочасове - регионално ниво</a>
+					</li>
+			<li class="nav-item">
+			<a class="nav-link" href="/statistical-data/113">Инфлация и индекси на потребителските цени</a>
+					</li>
+			<li class="nav-item">
+			<a class="nav-link" href="/statistical-data/84">Национални сметки - доклади за качество по програма за предоставяне на данни за Евростат</a>
+					</li>
+			<li class="nav-item">
+			<a class="nav-link" href="/statistical-data/101">Паритети на покупателната способност (ППС) - Програма за европейски и международни сравнения</a>
+					</li>
+			<li class="nav-item">
+			<a class="nav-link" href="/statistical-data/83">Пенсионни права в социалното осигуряване</a>
+					</li>
+			<li class="nav-item">
+			<a class="nav-link" href="/statistical-data/100">Секторни нефинансови сметки по институционални сектори</a>
+					</li>
+			<li class="nav-item">
+			<a class="nav-link" href="/statistical-data/90">Статистика на цените на жилища</a>
+					</li>
+			<li class="nav-item">
+			<a class="nav-link" href="/statistical-data/87">Таблици "Ресурс-използване"</a>
+					</li>
+			<li class="nav-item">
+			<a class="nav-link" href="/statistical-data/85">Финансови национални сметки</a>
+					</li>
+	</ul>		</li>
+			<li class="nav-item">
+			<a class="nav-link" href="/statistical-data/57">Околна среда и енергетика</a>
+			<ul class="dropdown-menu">
+			<li class="nav-item">
+			<a class="nav-link" href="/statistical-data/74">Енергетика</a>
+					</li>
+			<li class="nav-item">
+			<a class="nav-link" href="/statistical-data/58">Околна среда</a>
+					</li>
+	</ul>		</li>
+			<li class="nav-item">
+			<a class="nav-link" href="/statistical-data/15">Многосекторна статистика</a>
+			<ul class="dropdown-menu">
+			<li class="nav-item">
+			<a class="nav-link" href="/statistical-data/48">Кризисни събития</a>
+					</li>
+			<li class="nav-item">
+			<a class="nav-link" href="/statistical-data/428">Равенство между половете</a>
+					</li>
+			<li class="nav-item">
+			<a class="nav-link" href="/statistical-data/46">Регионална статистика</a>
+					</li>
+			<li class="nav-item">
+			<a class="nav-link" href="/statistical-data/45">Баланс на територията на Република България</a>
+					</li>
+			<li class="nav-item">
+			<a class="nav-link" href="/statistical-data/19">Статистика на градовете</a>
+					</li>
+			<li class="nav-item">
+			<a class="nav-link" href="/statistical-data/17">Устойчиво развитие</a>
+					</li>
+			<li class="nav-item">
+			<a class="nav-link" href="/statistical-data/47">Показатели за стратегия "Европа 2020"</a>
+					</li>
+	</ul>		</li>
+			<li class="nav-item">
+			<a class="nav-link" href="/statistical-data/418">Геореферирани данни</a>
+			<ul class="dropdown-menu">
+			<li class="nav-item">
+			<a class="nav-link" href="/statistical-data/419">Грид на населението</a>
+					</li>
+	</ul>		</li>
+			<li class="nav-item">
+			<a class="nav-link" href="/statistical-data/5">Селско и горско стопанство</a>
+			<ul class="dropdown-menu">
+			<li class="nav-item">
+			<a class="nav-link" href="/statistical-data/8">Селско стопанство</a>
+					</li>
+			<li class="nav-item">
+			<a class="nav-link" href="/statistical-data/6">Горско стопанство</a>
+					</li>
+	</ul>		</li>
+			<li class="nav-item">
+			<a class="nav-link" href="/statistical-data/1">Данъчна статистика</a>
+			<ul class="dropdown-menu">
+			<li class="nav-item">
+			<a class="nav-link" href="/statistical-data/2">Продажби на течни горива (бензини, дизел и пропан-бутан)</a>
+					</li>
+	</ul>		</li>
+			<li class="nav-item">
+			<a class="nav-link" href="/statistical-data/411">Ключови показатели</a>
+					</li>
+	</ul>
+			        </li>
+        	
+        
+        <li class="nav-item">
+            <a href="/pages/godishna-otchetnost-za-deinostta-na-predpriyatiyata-2024-850" class="nav-link">ПРОДУКТИ И УСЛУГИ <i class="fa fa-plus"></i></a>
+
+            				<ul class="dropdown-menu">
+			<li class="nav-item">
+			<a class="nav-link" href="/pages/za-respondenti-5">ЗА РЕСПОНДЕНТИ</a>
+			<ul class="dropdown-menu">
+			<li class="nav-item">
+			<a class="nav-link" href="/bulstat">Проверка на задълженията към дата</a>
+					</li>
+			<li class="nav-item">
+			<a class="nav-link" href="/pages/informacionna-sistema-biznes-cikli-97">Информационни системи</a>
+					</li>
+			<li class="nav-item">
+			<a class="nav-link" href="/pages/nablyudenie-na-rabotnata-sila-581">Наблюдения</a>
+					</li>
+			<li class="nav-item">
+			<a class="nav-link" href="/documents/215">Формуляри по теми</a>
+					</li>
+	</ul>		</li>
+			<li class="nav-item">
+			<a class="nav-link" href="/pages/zayavki-za-uslugi-24">Заявки за услуги</a>
+			<ul class="dropdown-menu">
+			<li class="nav-item">
+			<a class="nav-link" href="/service">Заявки за статистически услуги - уеб формуляр</a>
+					</li>
+			<li class="nav-item">
+			<a class="nav-link" href="/pages/zayavki-za-drugi-elektronni-uslugi-935">Заявки за други електронни услуги</a>
+					</li>
+	</ul>		</li>
+			<li class="nav-item">
+			<a class="nav-link" href="/calendar">Календар за разпространение</a>
+					</li>
+			<li class="nav-item">
+			<a class="nav-link" href="/pages/spisak-na-standartnite-statisticheski-pokazateli-27">Списък на стандартните статистически показатели</a>
+					</li>
+			<li class="nav-item">
+			<a class="nav-link" href="/pages/statisticheski-klasifikacii-i-registri-372">Статистически класификации и регистри</a>
+			<ul class="dropdown-menu">
+			<li class="nav-item">
+			<a target="_blank" class="nav-link" href="https://www.nsi.bg/nrnm/">Национален регистър на населените места</a>
+					</li>
+			<li class="nav-item">
+			<a class="nav-link" href="/pages/statisticheski-klasifikacii-13">Статистически класификации</a>
+					</li>
+	</ul>		</li>
+			<li class="nav-item">
+			<a class="nav-link" href="/metadata">Метаданни и методология на изследванията</a>
+			<ul class="dropdown-menu">
+			<li class="nav-item">
+			<a class="nav-link" href="/pages/sdds-plus-57">SDDS Plus</a>
+					</li>
+	</ul>		</li>
+			<li class="nav-item">
+			<a class="nav-link" href="/quality-reports">Доклади за качество</a>
+					</li>
+			<li class="nav-item">
+			<a class="nav-link" href="/pages/obsht-model-na-statisticheskiya-proizvodstven-proces-v-nsi-476">Общ модел на статистическия производствен процес в НСИ</a>
+					</li>
+			<li class="nav-item">
+			<a class="nav-link" href="/publications">Публикации</a>
+					</li>
+			<li class="nav-item">
+			<a class="nav-link" href="/pages/statistika-za-vseki-739">Статистика за всеки</a>
+			<ul class="dropdown-menu">
+			<li class="nav-item">
+			<a class="nav-link" href="/pages/kalkulatori-na-inflaciyata-387">Калкулатори на инфлацията</a>
+					</li>
+			<li class="nav-item">
+			<a class="nav-link" href="/pages/statisticheski-hapcheta-740">Статистически хапчета</a>
+					</li>
+			<li class="nav-item">
+			<a class="nav-link" href="/pages/statistika-za-nachinaeshti-741">Статистика за начинаещи</a>
+					</li>
+			<li class="nav-item">
+			<a class="nav-link" href="/pages/statistika-v-klas-742">Статистика в клас</a>
+					</li>
+			<li class="nav-item">
+			<a class="nav-link" href="/pages/infografiki-743">Инфографики</a>
+					</li>
+			<li class="nav-item">
+			<a class="nav-link" href="/pages/digitalni-publikacii-744">Дигитални публикации</a>
+					</li>
+			<li class="nav-item">
+			<a class="nav-link" href="/pages/statisticheski-rechnici-745">Статистически речници</a>
+					</li>
+			<li class="nav-item">
+			<a class="nav-link" href="/pages/videouroci-po-statistika-i-ikonometriya-746">Видеоуроци по статистика и иконометрия</a>
+					</li>
+			<li class="nav-item">
+			<a class="nav-link" href="/pages/evropeiska-olimpiada-po-statistika-za-uchenici-747">Eвропейска олимпиада по статистика за ученици</a>
+					</li>
+			<li class="nav-item">
+			<a class="nav-link" href="/pages/mejdunaroden-konkurs-za-statisticheski-plakat-748">Международен конкурс за статистически плакат</a>
+					</li>
+			<li class="nav-item">
+			<a class="nav-link" href="/pages/konkurs-za-statistichesko-ese-za-uchenici-772">Конкурс за статистическо есе за ученици</a>
+					</li>
+			<li class="nav-item">
+			<a class="nav-link" href="/pages/datathon-2025-787">Datathon</a>
+					</li>
+			<li class="nav-item">
+			<a class="nav-link" href="/pages/izlojbi-804">Изложби</a>
+					</li>
+			<li class="nav-item">
+			<a class="nav-link" href="/pages/socialni-medii-749">Социални медии</a>
+					</li>
+	</ul>		</li>
+			<li class="nav-item">
+			<a class="nav-link" href="/pages/esds-help-desk-388">ESDS Help Desk</a>
+					</li>
+			<li class="nav-item">
+			<a target="_blank" class="nav-link" href="https://www.nsi.bg/ddb2.1/?l=bg">База данни за разпространение - SDMX 2.1 Референтна инфраструктура</a>
+					</li>
+			<li class="nav-item">
+			<a class="nav-link" href="/pages/harta-na-klienta-931">Харта на клиента</a>
+					</li>
+	</ul>
+			        </li>
+        	
+        
+        <li class="nav-item">
+            <a href="/pages/history-897" class="nav-link">ЗА НСИ <i class="fa fa-plus"></i></a>
+
+            				<ul class="dropdown-menu">
+			<li class="nav-item">
+			<a class="nav-link" href="/team-schema">Организационна структура</a>
+			<ul class="dropdown-menu">
+			<li class="nav-item">
+			<a class="nav-link" href="/team-schema">Организационна схема</a>
+					</li>
+			<li class="nav-item">
+			<a class="nav-link" href="/team-search">Търсене</a>
+					</li>
+			<li class="nav-item">
+			<a class="nav-link" href="/team-management">Ръководство</a>
+					</li>
+			<li class="nav-item">
+			<a class="nav-link" href="/team-structure/direkciya-biznes-statistika-11">Дирекция "Бизнес статистика"</a>
+					</li>
+			<li class="nav-item">
+			<a class="nav-link" href="/team-structure/direkciya-demografska-i-socialna-statistika-17">Дирекция "Демографска и социална статистика"</a>
+					</li>
+			<li class="nav-item">
+			<a class="nav-link" href="/team-structure/direkciya-makroikonomicheska-statistika-23">Дирекция "Макроикономическа статистика"</a>
+					</li>
+			<li class="nav-item">
+			<a class="nav-link" href="/team-structure/direkciya-mnogosektorna-statistika-metodologiya-i-registri-30">Дирекция "Многосекторна статистика, методология и регистри"</a>
+					</li>
+			<li class="nav-item">
+			<a class="nav-link" href="/team-structure/direkciya-informacionni-sistemi-i-infrastruktura-36">Дирекция "Информационни системи и инфраструктура"</a>
+					</li>
+			<li class="nav-item">
+			<a class="nav-link" href="/team-structure/direkciya-obshta-administraciya-6">Дирекция "Обща администрация"</a>
+					</li>
+			<li class="nav-item">
+			<a class="nav-link" href="/team-subordination">Структури на пряко подчинение на председателя</a>
+					</li>
+			<li class="nav-item">
+			<a class="nav-link" href="/team-tsb">ТСБ</a>
+					</li>
+	</ul>		</li>
+			<li class="nav-item">
+			<a class="nav-link" href="/pages/history-897">История</a>
+					</li>
+			<li class="nav-item">
+			<a class="nav-link" href="/documents/218">Нормативна уредба</a>
+			<ul class="dropdown-menu">
+			<li class="nav-item">
+			<a class="nav-link" href="/documents/218">Европейска нормативна уредба</a>
+					</li>
+			<li class="nav-item">
+			<a class="nav-link" href="/documents/224">Българска нормативна уредба</a>
+					</li>
+			<li class="nav-item">
+			<a class="nav-link" href="/documents/219">Достъп до обществена информация</a>
+					</li>
+			<li class="nav-item">
+			<a class="nav-link" href="/documents/220">Опазване на статистическата тайна</a>
+					</li>
+			<li class="nav-item">
+			<a class="nav-link" href="/documents/232">Методики по постановления на Министерския съвет</a>
+					</li>
+	</ul>		</li>
+			<li class="nav-item">
+			<a class="nav-link" href="/pages/nacionalna-statisticheska-sistema-241">Национална статистическа система</a>
+			<ul class="dropdown-menu">
+			<li class="nav-item">
+			<a class="nav-link" href="/pages/nacionalen-statisticheski-savet-63">Национален статистически съвет</a>
+					</li>
+			<li class="nav-item">
+			<a class="nav-link" href="/pages/spisak-na-organite-na-statistikata-32">Списък на органите на статистиката</a>
+					</li>
+			<li class="nav-item">
+			<a class="nav-link" href="/pages/rules-42">Правилник за дейността на Националния статистически съвет към председателя на НСИ</a>
+					</li>
+			<li class="nav-item">
+			<a class="nav-link" href="/pages/guidelines-512">Насоки за разпространение на статистическа информация в НСС</a>
+					</li>
+	</ul>		</li>
+			<li class="nav-item">
+			<a class="nav-link" href="/pages/konsultativen-savet-kam-predsedatelya-na-nsi-s-uchastie-na-predstaviteli-ot-nacionalno-predstavitelnite-rabotodatelski-organizacii-825">Консултативен съвет към председателя на НСИ</a>
+					</li>
+			<li class="nav-item">
+			<a class="nav-link" href="/pages/international-cooperation-4">Международно сътрудничество</a>
+			<ul class="dropdown-menu">
+			<li class="nav-item">
+			<a class="nav-link" href="/pages/mejdunarodna-konferenciya-11-12-septemvri-2025-g-906">Международна конференция, септември 2025</a>
+					</li>
+			<li class="nav-item">
+			<a class="nav-link" href="/pages/european-statistical-system-29">Европейска статистическа система</a>
+					</li>
+			<li class="nav-item">
+			<a class="nav-link" href="/pages/drugi-mejdunarodni-organizacii-797">Други международни организации</a>
+					</li>
+			<li class="nav-item">
+			<a class="nav-link" href="/pages/rabotna-grupa-12-statistika-30">Работна група 12 „Статистика”</a>
+					</li>
+	</ul>		</li>
+			<li class="nav-item">
+			<a class="nav-link" href="/pages/otkrito-upravlenie-399">Открито управление</a>
+			<ul class="dropdown-menu">
+			<li class="nav-item">
+			<a class="nav-link" href="/pages/godishen-byudjet-401">Годишен бюджет</a>
+					</li>
+			<li class="nav-item">
+			<a class="nav-link" href="/pages/kasovi-mesechni-otcheti-400">Касови месечни отчети</a>
+					</li>
+			<li class="nav-item">
+			<a class="nav-link" href="/pages/kasovi-trimesechni-otcheti-665">Касови тримесечни отчети</a>
+					</li>
+			<li class="nav-item">
+			<a class="nav-link" href="/pages/kasovi-godishni-otcheti-666">Касови годишни отчети</a>
+					</li>
+			<li class="nav-item">
+			<a class="nav-link" href="/pages/oditen-doklad-922">Одитен доклад</a>
+					</li>
+			<li class="nav-item">
+			<a class="nav-link" href="/pages/informaciya-za-plashtaniyata-v-sebra-332">Информация за плащанията в СЕБРА</a>
+					</li>
+			<li class="nav-item">
+			<a class="nav-link" href="/pages/kriterii-i-pravila-za-ocenka-i-podbor-na-investicionni-proekti-na-nsi-700">Критерии и правила за оценка и подбор на инвестиционни проекти на НСИ</a>
+					</li>
+	</ul>		</li>
+			<li class="nav-item">
+			<a class="nav-link" href="/pages/integrirana-sistema-za-upravlenie-na-kachestvoto-i-sigurnostta-na-informaciyata-370">Качество и сигурност на информацията</a>
+			<ul class="dropdown-menu">
+			<li class="nav-item">
+			<a class="nav-link" href="/pages/politika-po-kachestvoto-i-na-sigurnostta-na-informaciyata-na-nacionalniya-statisticheski-institut-582">Политика по качеството и сигурността на информацията</a>
+					</li>
+			<li class="nav-item">
+			<a class="nav-link" href="/pages/kachestvo-141">Качество</a>
+					</li>
+			<li class="nav-item">
+			<a class="nav-link" href="/pages/spisak-na-kategoriite-informaciya-v-nsi-podlejashti-na-klasifikaciya-kato-slujebna-taina-932">Списък на категориите информация в НСИ, подлежащи на класификация като служебна тайна</a>
+					</li>
+	</ul>		</li>
+			<li class="nav-item">
+			<a class="nav-link" href="/pages/registar-na-deklaraciite-795">Регистър на декларациите</a>
+			<ul class="dropdown-menu">
+			<li class="nav-item">
+			<a class="nav-link" href="/pages/registar-na-deklaraciite-po-chl-75-ot-zakona-za-smetnata-palata-zsp-za-2026-g-928">Регистър на декларациите по чл. 75 от Закона за Сметната палата (ЗСП) за 2026 г.</a>
+					</li>
+			<li class="nav-item">
+			<a class="nav-link" href="/pages/registar-na-deklaraciite-arhiv-796">Регистър на декларациите - архив</a>
+					</li>
+	</ul>		</li>
+			<li class="nav-item">
+			<a class="nav-link" href="/pages/uchebno-kvalifikacionen-centar-slivek-125">Учебно-квалификационен център Сливек</a>
+					</li>
+	</ul>
+			        </li>
+        	
+        	</ul>
+							<div class="logo2">
+								<h1><img src="templates/default/img/logos/logo22.png" class="black-logo d-none d-lg-block" alt="НСИ"></h1>
+							</div>
+
+
+                            <div class="others-options">
+								<div class="option-item">
+	<i class="search-btn fa fa-search"></i>
+    <i class="close-btn fa fa-times"></i>
+    <div class="search-overlay search-popup">
+        <div class='search-box'>
+            <form class="search-form" action="/search" method="get">
+            	<label for="q"><span class="sr-only">Search</span></label>
+                <input type="text" class="search-input" name="q" id="q" placeholder="Търси" value="">
+                <button class="search-button" type="submit"><i class="fas fa-search"></i><span class="sr-only">Search</span></button>
+            </form>
+        </div>
+    </div>
+</div>                                <div class="burger-menu">
+                                    <span></span>
+                                    <span></span>
+                                    <span></span>
+                                </div>
+
+                            </div>
+                        </div>
+
+                    </nav>
+                </div>
+            </div>
+        </div>
+        <!-- End Navbar Area -->
+		
+<!-- Sidebar Modal -->
+<div class="sidebar-modal">
+    <div class="sidebar-modal-inner">
+    	            <div class="sidebar-about-area">
+                <div class="title">
+                    <h2>За НСИ</h2>
+                    <p><strong data-start="26" data-end="71">Националният статистически институт (НСИ)</strong> е държавна институция в България, която събира, обработва и разпространява официална статистическа информация за социалните, икономическите и демографските процеси в страната. Дейността на НСИ е насочена към осигуряване на обективни и надеждни данни, които подпомагат вземането на информирани решения от страна на държавата, бизнеса и обществото. Институтът работи съгласно международните статистически стандарти и е активен участник в Европейската статистическа система.</p>                </div>
+            </div>
+    						        <div class="sidebar-contact-area">
+            <div class="contact-info">
+                <div class="contact-info-content">
+                    <h2>
+                        <a href="tel:(02) 9857 111">(02) 9857 111</a>
+                        <span>ИЛИ</span>
+                        <a href="/cdn-cgi/l/email-protection#b6ffd8d0d9f6d8c5df98d4d1"><span class="__cf_email__" data-cfemail="256c4b434a654b564c0b4742">[email&#160;protected]</span></a>
+                    </h2>
+
+                    <ul class="social">
+                    	                            <li>
+                                <a href="https://www.youtube.com/@bgnsi" target="_blank">
+                                    <i class="fab fa-youtube"></i>
+                                    <span class="sr-only">youtube</span>
+                                </a>
+                            </li>
+                                                                            <li>
+                                <a href="https://www.facebook.com/nsibg" target="_blank">
+                                    <i class="fab fa-facebook-f"></i>
+                                    <span class="sr-only">facebook</span>
+                                </a>
+                            </li>
+                                            </ul>
+                </div>
+            </div>
+        </div>
+
+        <span class="close-btn sidebar-modal-close-btn"><i class="fa fa-times"></i></span>
+    </div>
+</div>
+<!-- End Sidebar Modal -->
+
+        <div class="page-title-area">
+    <div class="d-table">
+        <div class="d-table-cell">
+            <div class="container">
+                <div class="page-title-content">
+            		<h2>Международен ден на бирата</h2>
+                    <ul>
+                    	                    		                    			<li><a href="">Начало</a></li>
+                    		                                            		                    			<li><a href="/news">Новини</a></li>
+                    		                                            		
+                    			<li>Международен ден на бирата</li>
+
+                    		                        
+					</ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+		<section class="blog-details-area">
+    <div class="container">
+        <div class="row">
+			<button class="send-btn-one left-menu-btn" type="button" style="width:140px;margin:25px 0px 0px 15px;">Филтри</button>
+            <div class="col-lg-3 col-md-12 col-xs-12 pt-4 pb-4 newsFilters">
+                <aside class="widget-area" id="secondary">
+                   					                        <section class="widget widget_archive pt-5">
+                            <h3 class="widget-title">По месеци</h3>
+                            <ul>
+                            	                                   <li><a href="/news?month=0&year=2026">Август 2026</a></li>
+                                                                   <li><a href="/news?month=1&year=2026">Юли 2026</a></li>
+                                                                   <li><a href="/news?month=2&year=2026">Юни 2026</a></li>
+                                                                   <li><a href="/news?month=3&year=2026">Май 2026</a></li>
+                                                                   <li><a href="/news?month=4&year=2026">Април 2026</a></li>
+                                                                   <li><a href="/news?month=5&year=2026">Март 2026</a></li>
+                                                                   <li><a href="/news?month=6&year=2026">Февруари 2026</a></li>
+                                                                   <li><a href="/news?month=7&year=2026">Януари 2026</a></li>
+                                                            </ul>
+                        </section>
+            		
+            	 	
+            		                        <section class="widget widget_archive pt-5">
+                            <h3 class="widget-title">Архив по години</h3>
+                            <ul>
+                            	                                   <li><a href="/news?year=2025">Архив 2025</a></li>
+                                                                   <li><a href="/news?year=2024">Архив 2024</a></li>
+                                                                   <li><a href="/news?year=2023">Архив 2023</a></li>
+                                                                   <li><a href="/news?year=2022">Архив 2022</a></li>
+                                                                   <li><a href="/news?year=2021">Архив 2021</a></li>
+                                                                   <li><a href="/news?year=2020">Архив 2020</a></li>
+                                                                   <li><a href="/news?year=2019">Архив 2019</a></li>
+                                                                   <li><a href="/news?year=2018">Архив 2018</a></li>
+                                                                   <li><a href="/news?year=2017">Архив 2017</a></li>
+                                                                   <li><a href="/news?year=2016">Архив 2016</a></li>
+                                                                   <li><a href="/news?year=2015">Архив 2015</a></li>
+                                                                   <li><a href="/news?year=2014">Архив 2014</a></li>
+                                                                   <li><a href="/news?year=2013">Архив 2013</a></li>
+                                                                   <li><a href="/news?year=2012">Архив 2012</a></li>
+                                                                   <li><a href="/news?year=2011">Архив 2011</a></li>
+                                                                   <li><a href="/news?year=2010">Архив 2010</a></li>
+                                                                   <li><a href="/news?year=2009">Архив 2009</a></li>
+                                                            </ul>
+                        </section>
+            		            		                                                        </aside>
+            </div>
+
+            <div class="col-lg-9 col-md-12 col-xs-12">
+                <div class="blog-details-desc">
+
+                	<div class="article-content">
+                        <div class="entry-meta">
+                            <ul>
+                            	<li><a href="#">07.08.2026 08:00:00</a></li>
+                             </ul>
+                        </div>
+						                        <h3>Международен ден на бирата</h3>
+                     </div>
+				                	<div class="newsImgHolder">
+
+    					
+    					    						    							<div class="article-image">
+    								    									<img src="/uploads/files/News_News/42a7b659d71c86e2de5b725bd4507f9d914f7e18.png" alt="Международен ден на бирата">
+    								                                    
+                                </div>
+                                										</div>
+				                    <div class="article-content">
+
+						<p>Днес отбелязваме Международния ден на бирата. Той се чества в първия петък на месец август вече 20 години.</p>
+<p>По този повод Националният статистически институт представя десетте области в България с най-голямо средно потребление на бира през 2025 година. Начело в класацията е област Добрич с 61.5 литра средно на лице, следвана от областите Плевен и Велико Търново.</p>
+<p>Честит празник на всички почитатели на бирата! Нека в горещите летни дни любимата напитка носи приятна разхлада, добро настроение и споделени мигове с приятели.</p>
+<p>&nbsp;</p>
+						                    </div>
+
+                    <div class="article-footer">
+                    	
+                    	
+                    								                        
+                        <div class="article-share">
+                            <ul class="social">
+                                <li><span>Сподели:</span></li>
+                                <li>
+                                	<a href="https://www.facebook.com/sharer.php?u=https://www.nsi.bg/news/mejdunaroden-den-na-birata-9733" target="_blank">
+                                        <i class="fab fa-facebook-f"></i>
+                                        <span class="sr-only">facebook</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="https://twitter.com/intent/tweet?url=https://www.nsi.bg/news/mejdunaroden-den-na-birata-9733" target="_blank">
+                                        <i class="fab fa-twitter"></i>
+                                        <span class="sr-only">twitter</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="https://www.linkedin.com/shareArticle?mini=true&url=https://www.nsi.bg/news/mejdunaroden-den-na-birata-9733" target="_blank">
+                                        <i class="fab fa-linkedin-in"></i>
+                                        <span class="sr-only">linkedin</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="https://www.instagram.com/?url=https://www.nsi.bg/news/mejdunaroden-den-na-birata-9733" target="_blank">
+                                        <i class="fab fa-instagram"></i>
+                                        <span class="sr-only">instagram</span>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="post-navigation">
+                        <div class="navigation-links">
+                            <div class="nav-previous">
+                                <a href="/news"><i class="fa fa-arrow-left"></i> Назад</a>
+                            </div>
+                        </div>
+                    </div>
+				</div>
+            </div>
+		</div>
+    </div>
+</section>
+
+		
+
+<!-- Start Footer Section -->
+<section class="footer-section ptb-50">
+	<div class="container">
+        <div class="row">
+        	                <div class="col-lg-3 col-md-6 col-sm-6">
+                    <div class="footer-area">
+                        <!-- <div class="footer-heading">
+                            <h3></h3>
+                        </div> -->
+
+                        <p><strong data-start="26" data-end="71">Националният статистически институт (НСИ)</strong> е държавна институция в България, която събира, обработва и разпространява официална статистическа информация за социалните, икономическите и демографските процеси в страната. Дейността на НСИ е насочена към осигуряване на обективни и надеждни данни, които подпомагат вземането на информирани решения от страна на държавата, бизнеса и обществото. Институтът работи съгласно международните статистически стандарти и е активен участник в Европейската статистическа система.</p>                        
+                                                <ul class="footer-social">
+                        								                        </ul>
+                    </div>
+                </div>
+            			
+			
+    			                    <div class="col-lg-2 col-md-6 col-sm-6">
+                        <div class="footer-item-area">
+                            <div class="footer-heading">
+                                <h3>Връзки</h3>
+                            </div>
+        					                            <ul class="footer-quick-links">
+                            	                                	<li><a href="/statistical-data/258">Статистически данни</a></li>
+                                                                	<li><a href="/sitemap">Карта на сайта</a></li>
+                                                                	<li><a href="/survey/1">Анкета</a></li>
+                                                                	<li><a href="pages/rss-911">RSS</a></li>
+                                                            </ul>
+                                                    </div>
+                    </div>
+                			
+    			                    <div class="col-lg-2 col-md-6 col-sm-6">
+                        <div class="footer-item-area">
+                            <div class="footer-heading">
+                                <h3>Конкурси, търгове и обявления</h3>
+                            </div>
+        					                            <ul class="footer-quick-links">
+                            	                                	<li><a href="/konkursi">Конкурси</a></li>
+                                                                	<li><a href="/targove">Търгове</a></li>
+                                                                	<li><a href="https://app.eop.bg/today">Профил на купувача</a></li>
+                                                            </ul>
+                                                    </div>
+                    </div>
+                			
+    			                    <div class="col-lg-2 col-md-6 col-sm-6">
+                        <div class="footer-item-area">
+                            <div class="footer-heading">
+                                <h3>Отговорност</h3>
+                            </div>
+        					                            <ul class="footer-quick-links">
+                            	                                	<li><a href="/pages/obshti-usloviya-za-polzvane-na-internet-saita-na-nsi-687">Условия за ползване</a></li>
+                                                                	<li><a href="/pages/politika-za-lichnite-danni-v-nacionalen-statisticheski-institut-591">Политика за личните данни</a></li>
+                                                                	<li><a href="/pages/deklaraciya-za-dostapnost-689">Декларация за достъпност</a></li>
+                                                                	<li><a href="/pages/politika-za-izpolzvaneto-na-biskvitki-688">Бисквитки</a></li>
+                                                                	<li><a href="/pages/licenz-za-izpolzvaneto-na-statisticheskata-informaciya-proizvejdana-i-razprostranyavana-ot-nacionalniya-statisticheski-institut-485">© 2025 | Лиценз</a></li>
+                                                            </ul>
+                                                    </div>
+                    </div>
+                						            <div class="col-lg-3 col-md-6 col-sm-6">
+                <div class="footer-heading">
+                    <h3>Контакти</h3>
+                </div>
+
+                <div class="footer-info-contact">
+                    <i class="flaticon-call-answer"></i>
+                    <h3>Телефон</h3>
+                    <span><a href="tel:(02) 9857 111">(02) 9857 111</a></span>
+                </div>
+
+                <div class="footer-info-contact">
+                    <i class="flaticon-envelope"></i>
+                    <h3>Имейл</h3>
+                    <span><a href="/cdn-cgi/l/email-protection#f5bc9b939ab59b869cdb9792"><span class="__cf_email__" data-cfemail="0d44636b624d637e64236f6a">[email&#160;protected]</span></a></span>
+                </div>
+
+                <div class="footer-info-contact">
+                    <i class="flaticon-placeholder-filled-point"></i>
+                    <h3>Адрес</h3>
+                    <span>ул. „П. Волов“ № 2, София 1038, България</span>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+
+    <div class="default-animation">
+        <div class="shape-img1"><img src="templates/default/img/shape/12.svg" alt="shape-img1"></div>
+        <div class="shape-img2"><img src="templates/default/img/shape/13.svg" alt="shape-img2"></div>
+        <div class="shape-img3"><img src="templates/default/img/shape/14.png" alt="shape-img3"></div>
+        <div class="shape-img4"><img src="templates/default/img/shape/15.png" alt="shape-img4"></div>
+        <div class="shape-img5"><img src="templates/default/img/shape/2.png" alt="shape-img5"></div>
+    </div>
+
+</section>
+<!-- End Footer Section -->
+
+<!-- Start Copy Right Section -->
+<div class="copyright-area">
+    <div class="container">
+        <div class="row align-items-center">
+            <div class="col-lg-6 col-md-6">
+                <p>
+                    Copyright © 2026 НСИ Всички права запазени                </p>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- End Copy Right Section -->
+<div class="go-top">
+    <i class="fas fa-chevron-up"></i>
+    <i class="fas fa-chevron-up"></i>
+</div>
+<!-- End Go Top Section -->
+<div class="cookie-disclaimer">
+  <div class="cookie-close accept-cookie"><i class="fa fa-times"></i></div>
+  <div class="container">
+    <p>Ние използваме бисквитки на този сайт, за да подобрим вашето потребителско изживяване.      <br>Като щракнете върху бутона Приемам, вие се съгласявате да го направим.       </p>
+    <button type="button" class="btn btn-success accept-cookie">Приемам</button>
+    <button type="button" class="btn btn-light accept-cookie">Не, благодаря</button>
+  </div>
+</div>
+        <!-- End Go Top Section -->
+
+<!-- jQuery Min JS -->
+<script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script src="templates/default/js/jquery.min.js"></script>
+<!-- Bootstrap Min JS -->
+<script src="templates/default/js/bootstrap.bundle.min.js"></script>
+<!-- MeanMenu JS  -->
+<script src="templates/default/js/jquery.meanmenu.js"></script>
+<!-- Appear Min JS -->
+<script src="templates/default/js/jquery.appear.min.js"></script>
+<!-- Odometer Min JS -->
+<script src="templates/default/js/odometer.min.js"></script>
+<!-- Owl Carousel Min JS -->
+<script src="templates/default/js/owl.carousel.min.js"></script>
+<!-- Magnific Popup Min JS -->
+<script src="templates/default/js/jquery.magnific-popup.min.js"></script>
+<!-- Nice Select Min JS -->
+<script src="templates/default/js/jquery.nice-select.min.js"></script>
+<!-- Mixitup Min JS -->
+<script src="templates/default/js/jquery.mixitup.min.js"></script>
+<!-- WOW Min JS -->
+<script src="templates/default/js/wow.min.js"></script>
+<!-- Parallax Min JS -->
+<script src="templates/default/js/parallax.min.js"></script>
+<!--=== AjaxChimp JS ===-->
+<script src="templates/default/js/jquery.ajaxchimp.min.js"></script>
+<!-- Form Validator JS -->
+<script src="templates/default/js/form-validator.min.js"></script>
+<!-- JS UI -->
+<script src="templates/default/js/jquery-ui.js"></script>
+<!-- Main JS -->
+<script src="templates/default/js/main.js?time=1787011543"></script>
+
+<script src="templates/default/js/external/dataTables.min.js"></script>
+<script src="templates/default/js/particles.js"></script>
+<!--<script src="templates/default/js/app.js"></script>-->
+<script src="templates/default/js/stats.js"></script>
+
+<!-- Nav tree -->
+<script src="templates/default/js/tree.js?time=1787011543"></script>
+
+<script src="templates/default/js/lightbox.js"></script>
+
+
+<script>
+function loadHomeCalendar()
+{
+	if($("#main-calendar").length) {
+
+		var active_dates = [];
+
+		$.ajax({
+	   	    url: '/news/index/ajax-calendar-dates',
+	        type: 'POST',
+	        async: false,
+	        dataType: 'json',
+	        success: function (res) {
+	        	active_dates = res;
+	        },
+	    });
+
+		$.datepicker.setDefaults($.datepicker.regional["bg"]);
+
+    	$("#main-calendar").datepicker({
+    		firstDay: 1,
+    		beforeShowDay: function(date) {
+
+        		var d = date;
+                var curr_date = d.getDate();
+                var curr_month = d.getMonth() + 1;
+                var curr_year = d.getFullYear();
+                var formattedDate = curr_date + "/" + curr_month + "/" + curr_year
+
+        		if ($.inArray(formattedDate, active_dates) != -1) {
+        			return [1, ""];
+        		} else {
+        			return [1, "noItem"];
+        		}
+        	},
+    		onSelect: function (dateString, txtDate) {
+    			$.ajax({
+    		   	    url: '/news/index/ajax-calendar',
+    		        type: 'POST',
+    		        data: {'date': dateString},
+    		        async: false,
+    		        success: function (res) {
+    		            $('.home-calendar').html(res);
+
+    		            loadHomeCalendar();
+
+    		            if($('#main-calendar').data('value')) {
+    		            	var date = new Date($('#main-calendar').data('value'));
+
+    		            	$("#main-calendar").datepicker("setDate", new Date($('#main-calendar').data('value')));
+    		            }
+    		        },
+    		    });
+    	    }
+    	});
+	}
+}
+
+loadHomeCalendar();
+
+$(function () {
+	$('[data-action="minifyMenu"]').on('click', function () {
+		let $menu = $('#tree1');
+		let $p = $menu.parent();
+		let nextElement = $menu.closest('.row').find('div:nth-child(2)');
+		if ($menu.width() > 0) {
+            $menu.animate({ width: '0px' }, 0, function () {
+                $('.menu-left').hide();
+                $('.menu-right').show();
+            });
+            $menu.hide();
+            $(nextElement[0]).removeClass();
+            $(nextElement[0]).addClass('col-lg-11 col-md-11');
+            $p.removeClass();
+            $p.addClass('col-lg-1 col-md-1');
+        } else {
+        	$menu.show();
+            $menu.animate({ width: '100%' }, 0, function () {
+            	$('.menu-left').show();
+                $('.menu-right').hide();
+            });
+            $(nextElement[0]).removeClass();
+            $(nextElement[0]).addClass('col-lg-8 col-md-8');
+            $p.removeClass();
+            $p.addClass('col-lg-4 col-md-4');
+        }
+    });
+});
+
+$('#tree1 li.active').parents().trigger('click');
+$('li.active:last').trigger('click');
+
+$('#tree1 a.active:last').css('color', 'black');
+$('.news-stats-filters li.active a').css('color', 'black').css('font-weight', 500);
+
+var cookie = false;
+var cookieContent = $('.cookie-disclaimer');
+
+checkCookie();
+
+if (cookie === true) {
+  cookieContent.hide();
+}
+
+function setCookie(cname, cvalue, exdays) {
+  var d = new Date();
+  d.setTime(d.getTime() + (exdays * 24 * 60 * 60 * 1000));
+  var expires = "expires=" + d.toGMTString();
+  document.cookie = cname + "=" + cvalue + "; " + expires;
+}
+
+function getCookie(cname) {
+  var name = cname + "=";
+  var ca = document.cookie.split(';');
+  for (var i = 0; i < ca.length; i++) {
+    var c = ca[i].trim();
+    if (c.indexOf(name) === 0) return c.substring(name.length, c.length);
+  }
+  return "";
+}
+
+function checkCookie() {
+  var check = getCookie("acookie");
+  if (check !== "") {
+    return cookie = true;
+  } else {
+      return cookie = false; //setCookie("acookie", "accepted", 365);
+  }
+
+}
+$('.accept-cookie').click(function () {
+  setCookie("acookie", "accepted", 365);
+  cookieContent.hide(500);
+});
+</script>
+
+
+<script src="templates/default/js/external/echarts.min.js"></script>
+<script src="templates/default/js/external/dataTables.buttons.js"></script>
+<script src="templates/default/js/external/buttons.dataTables.js"></script>
+<script src="templates/default/js/external/jszip.min.js"></script>
+<script src="templates/default/js/external/pdfmake.min.js"></script>
+<script src="templates/default/js/external/vfs_fonts.js"></script>
+<script src="templates/default/js/external/buttons.html5.min.js"></script>
+<script src="templates/default/js/external/buttons.print.min.js"></script>
+<script src="https://www.gstatic.com/charts/loader.js"></script>
+<script src="https://unpkg.com/gridviz/dist/gridviz.min.js"></script>
+<script>
+google.charts.load('current', {
+    'packages': ['geochart'],
+});
+</script>
+<script>
+$.fn.dataTable.ext.errMode = 'throw';
+function attachDatatable(el, pButtons)
+{
+	var pdf = {
+        extend: 'pdfHtml5',
+        text: 'PDF',
+        title: '',
+        orientation: 'landscape',
+        pageSize: 'A3',
+	};
+
+	const superscriptMap = {
+	  '0': '⁰', '1': '¹', '2': '²', '3': '³', '4': '⁴',
+	  '5': '⁵', '6': '⁶', '7': '⁷', '8': '⁸', '9': '⁹'
+	};
+
+	const subscriptMap = {
+	  '0': '₀', '1': '₁', '2': '₂', '3': '₃', '4': '₄',
+	  '5': '₅', '6': '₆', '7': '₇', '8': '₈', '9': '₉'
+	};
+
+	function replaceNumbersWithSuperSub(text) {
+	  // Replace <sup>...</sup> digits with superscript digits, keep other chars as-is
+	  text = text.replace(/<sup>(.*?)<\/sup>/g, (_, content) =>
+	    content.split('').map(c => superscriptMap[c] || c).join('')
+	  );
+
+	  // Replace <sub>...</sub> digits with subscript digits, keep other chars as-is
+	  text = text.replace(/<sub>(.*?)<\/sub>/g, (_, content) =>
+	    content.split('').map(c => subscriptMap[c] || c).join('')
+	  );
+
+	  return text;
+	}
+
+	var captionEl = el.find('caption');
+	var captionElLength = captionEl.length;
+
+	if (captionElLength) {
+		var caption = replaceNumbersWithSuperSub(captionEl.html());
+		//caption = $.fn.DataTable.Buttons.stripData(caption, null);
+		captionEl.html(caption);
+	}
+
+	var excel = {
+		extend: 'excelHtml5',
+        text: 'Excel',
+        title: '',
+        exportOptions: {
+            format: {
+           	 	header: function (data, rowIdx, colIdx, node) {
+               	 	var data2 = replaceNumbersWithSuperSub(data);
+                  	data2 = data2.replace(/<br\s*\/?>/ig, "\n");
+                  	data2 = $.fn.DataTable.Buttons.stripData(data2, null);
+                	return data2;
+				},
+                footer: function (data, rowIdx, colIdx, node) {
+                	var data2 = replaceNumbersWithSuperSub(data);
+                	data2 = data2.replace(/<br\s*\/?>/ig, '\n');
+                	data2 = $.fn.DataTable.Buttons.stripData(data2, null);
+                	return data2;
+                },
+                body: function (data, row, column, node) {
+                    var data2 = replaceNumbersWithSuperSub(data);
+                    data2 = data2.replace(/<br\s*\/?>/ig, '\n');
+                    data2 = $.fn.DataTable.Buttons.stripData(data2, null);
+                	var sanitizedValue = data2.replace(/\s+/g, '');
+                	if ($.isNumeric(sanitizedValue)) {
+						return sanitizedValue;
+                	}
+                    return data2;
+                }
+            }
+        },
+        customize: function(xlsx) {
+            var sheet = xlsx.xl.worksheets['sheet1.xml'];
+
+            // Add a custom number format for 1 decimal place
+            var styles = xlsx.xl['styles.xml'];
+            var numFmts = $('numFmts', styles);
+            if (!numFmts.length) {
+                numFmts = $('<numFmts count="1"/>');
+                $('styleSheet', styles).prepend(numFmts);
+            }
+            var fmtId = 164;
+            numFmts.append('<numFmt numFmtId="' + fmtId + '" formatCode="0.0"/>');
+            numFmts.attr('count', numFmts.find('numFmt').length);
+
+            // Add a cell style that uses this number format
+            var cellXfs = $('cellXfs', styles);
+            var newXf = '<xf numFmtId="' + fmtId + '" fontId="0" fillId="0" borderId="0" xfId="0" applyNumberFormat="1"/>';
+            cellXfs.append(newXf);
+            var oneDecimalStyleIdx = cellXfs.find('xf').length - 1;
+
+            // Add a cell style for left alignment
+            var leftAlignXf = '<xf numFmtId="0" fontId="0" fillId="0" borderId="0" xfId="0" applyAlignment="1"><alignment horizontal="left"/></xf>';
+            cellXfs.append(leftAlignXf);
+            var leftAlignStyleIdx = cellXfs.find('xf').length - 1;
+            cellXfs.attr('count', cellXfs.find('xf').length);
+
+            $('row', sheet).each(function (rIndex) {
+                if (!captionElLength || rIndex > 2) {
+                    $('c', this).each(function (cIndex) {
+                    	var td = el.find('tr').eq(rIndex - (captionElLength ? 1 : 0)).find('td').eq(cIndex);
+                    	if (td.hasClass('bold') || td.hasClass('boldt')) {
+                    		$(this).attr('s', '2');
+                    	}
+                    	var cellValue = $(this).text();
+                    	if (cellValue === 'NaN' || cellValue === '.' || cellValue === ',' || cellValue === '-' || cellValue === 'х' || cellValue === 'x') {
+                    		$(this).attr('s', '52');
+                        }
+                        // Apply 1 decimal format to cells whose original text had .0
+                        var originalText = td.text().replace(/\s+/g, '').replace(/,/g, '.');
+                        if (originalText.match(/^\-?\d+\.0$/)) {
+                            $(this).attr('s', oneDecimalStyleIdx);
+                        }
+                        // Apply left alignment for cells with class left_top
+                        if (td.hasClass('left_top')) {
+                            $(this).attr('s', leftAlignStyleIdx);
+                        }
+                    });
+                }
+            });
+            var totalRows = $(sheet).find('row').length;
+            var thHeadRowCount = el.find('thead tr').length;
+            var thFootRowCount = el.find('tfoot tr').length;
+            var footerStartRow = totalRows - thFootRowCount + 1;
+            for (var i = footerStartRow; i <= totalRows; i++) {
+                $(sheet).find('row[r="' + i + '"] c').each(function () {
+                	$(this).removeAttr('s');
+                });
+            }
+        }
+	};
+
+	var print = {
+        extend: 'print',
+        title: '',
+    };
+
+    var buttons = [];
+
+    if ($.isArray(pButtons)) {
+		for(var i = 0; i < pButtons.length; ++i) {
+			var b = pButtons[i];
+			if (b == 'excel') {
+				b = excel;
+			}
+			if (b == 'print') {
+				b = print;
+			}
+			if (b == 'pdf') {
+				b = pdf;
+			}
+			buttons.push(b);
+		}
+    } else {
+    	buttons = ['copy', 'csv', excel, pdf, print];
+    }
+
+	el.dataTable({
+		order: [],
+		ordering: false,
+		responsive: true,
+		paging: false,
+		searching: true,
+		info: false,
+			language: {
+	        url: 'templates/default/js/bg.json',
+	    },
+    	    layout: {
+	        topStart: {
+	            buttons: buttons,
+	        },
+	    }
+	});
+}
+$('.datatable').each(function () {
+	attachDatatable($(this), ['excel']);
+});
+$('.auto-tables table').each(function () {
+	$(this).wrap("<div class='table-responsive'></div>");
+	attachDatatable($(this), ['excel']);
+});
+$(function () {
+	$('.charts_tabs').addClass('active').find('> li:eq(0)').addClass('current');
+	$('.charts_tabs li a').on('click', function (g) {
+	    var tab = $(this).closest('.icycharts'),
+	    index = $(this).closest('li').index();
+	    tab.find('.charts_tabs > li').removeClass('current');
+	    $(this).closest('li').addClass('current');
+	    tab.find('.charts_tabs_content').find('.charts_tabs_item').not('.charts_tabs_item:eq(' + index + ')').slideUp();
+	    tab.find('.charts_tabs_content').find('.charts_tabs_item:eq(' + index + ')').slideDown();
+	    g.preventDefault();
+	});
+});
+$(function () {
+	var tds = {};
+	$('table.datatable tr td').each(function () {
+		var formatted = $(this).text().replace('&nbsp;', '').replace(/\s+/g, '').replace(/,/g, '.');
+        if (!isNaN(formatted) && formatted !== null && formatted !== '') {
+            $(this).addClass('custom-right-align');
+            tds[$(this).index()] = true;
+        }
+	});
+	$('table.datatable tr td').each(function () {
+		if (tds[$(this).index()] && !$(this).hasClass('custom-right-align')) {
+			$(this).addClass('custom-right-align');
+		}
+	});
+});
+function truncateMultibyteText(text, maxLength) {
+	  // Convert the text into an array of characters to handle multibyte characters
+	  const textArray = Array.from(text);
+	  // Check if the text exceeds the max length
+	  if (textArray.length > maxLength) {
+	    // Truncate the text and append '...'
+	    return textArray.slice(0, maxLength).join('') + '...';
+	  }
+	  // If the text is within the limit, return it as is
+	  return text;
+}
+</script>
+
+<script>
+(function($) {
+
+	'use strict';
+
+	/*
+	Thumb Gallery
+	*/
+	var $thumbGalleryDetail1 = $('#thumbGalleryDetail'),
+		$thumbGalleryThumbs1 = $('#thumbGalleryThumbs'),
+		flag = false,
+		duration = 300;
+
+	$thumbGalleryDetail1
+		.owlCarousel({
+			items: 1,
+			margin: 10,
+			nav: false,
+			dots: true,
+			loop: false,
+			navText: []
+		})
+		.on('changed.owl.carousel', function(e) {
+			if (!flag) {
+				flag = true;
+				$thumbGalleryThumbs1.trigger('to.owl.carousel', [e.item.index-1, duration, true]);
+				flag = false;
+			}
+		});
+
+	$thumbGalleryThumbs1
+		.owlCarousel({
+			margin: 10,
+			items:6,
+			nav: false,
+			center: false,
+			dots: false
+		})
+		.on('click', '.owl-item', function() {
+			$thumbGalleryDetail1.trigger('to.owl.carousel', [$(this).index(), duration, true]);
+		})
+		.on('changed.owl.carousel', function(e) {
+			if (!flag) {
+				flag = true;
+				$thumbGalleryDetail1.trigger('to.owl.carousel', [e.item.index, duration, true]);
+				flag = false;
+			}
+		});
+}).apply(this, [jQuery]);
+
+$('.left-menu-btn').on('click', function() {
+	$('.newsFilters').toggle();
+  });
+</script>
+
+            </body>
+</html>

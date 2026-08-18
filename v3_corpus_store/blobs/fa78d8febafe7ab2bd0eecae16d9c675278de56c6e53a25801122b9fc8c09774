@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-NPP8R2VV');</script>
+<!-- End Google Tag Manager -->
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta charset="UTF-8">
+<meta name="format-detection" content="telephone=no">
+<meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0">
+<meta name="description" content="">
+<meta name="keywords" content="">
+<link rel="shortcut icon" href="/favicon.ico">
+<title>広報誌・刊行物・パンフレット等 （METI/経済産業省）</title>
+<link rel="stylesheet" media="screen" href="/css_2017/style.css">
+<link rel="stylesheet" media="print" href="/css_2017/print.css">
+<link rel="stylesheet" href="/icomoon/style.css">
+<script src="/js_2017/jquery-3.2.1.min.js"></script>
+<script src="/js_2017/jquery-migrate.js"></script>
+<script src="/js_2017/jquery.matchHeight-min.js"></script>
+<script src="/js_2017/base.js"></script>
+<script src="/js_2017/ewbc.min.js" id="pt_loader"></script>
+
+<script>
+$(function(){
+   // #で始まるアンカーをクリックした場合に処理
+   $('a[href^="#"]').click(function() {
+      // スクロールの速度
+      var speed = 400; // ミリ秒
+      // アンカーの値取得
+      var href= $(this).attr("href");
+      // 移動先を取得
+      var target = $(href == "#" || href == "" ? 'html' : href);
+      // 移動先を数値で取得
+      var position = target.offset().top;
+      // スムーススクロール
+      $('body,html').animate({scrollTop:position}, speed, 'swing');
+      if (href == "#pagetop") {
+        $('h1.top_logo a').focus();
+      }
+      return false;
+   });
+});
+</script>
+</head>
+
+
+<body id="pagetop">
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-NPP8R2VV"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager -->
+	<script src="/js_2017/header.js"></script>
+	<script src="/js_2017/msearch.js"></script>
+	<noscript><div class="jsOn">すべての機能をご利用いただくにはJavascriptを有効にしてください。Javascriptを無効のまま閲覧される方は<a href="/sitemap/index.html">サイトマップからページをご覧ください。</a></div></noscript>	
+
+	<div id="main" tabindex="120">
+    <div class="bg-g">
+      <div class="w1000">
+        <div class="clearfix">
+          <div class="btn pc">
+            <div id="__english_url" class="border-btn"><a href="/english/publications/" lang="en">English</a></div>
+            <div class="border-btn"><a href="javascript:void(0)" onclick="window.print();return false;" tabindex="110"><span class="icon-copy"></span>印刷</a></div>
+          </div>
+          <!-- Breadcrumb List -->
+          <div class="pan">
+            <ol>
+              <li><a tabindex="100" href="/">ホーム</a></li>
+                                            <li><a tabindex="100" href="/intro/index.html">経済産業省について</a></li>
+                                            <li>広報誌・刊行物・パンフレット等</li>
+            </ol>
+          </div>
+        </div>
+        <h1 id="MainContentsArea">広報誌・刊行物・パンフレット等</h1>
+      </div>
+    </div>
+    <div class="w1000 sp clearfix">
+      <div class="btn btn_en">
+        <div id="__english_url_sp" class="border-btn sp"><a href="/english/publications/">English</a></div>
+      </div>
+    </div>
+    <div id="__main_contents" class="main w1000">
+
+      
+      <ul class="linkC clearfix">
+ <li><a href="#kohoshi">広報誌</a></li>
+ <li><a href="#kanko">刊行物</a></li>
+ <li><a href="#pamph">経済産業省について</a></li>
+</ul>
+<h2 id="kohoshi">広報誌</h2>
+<ul class="flex_column">
+ <li><h3>METI Journal オンライン</h3>
+  <div class="clearfix mb10">
+   <div class="leftPos imgBlock"><img alt="METI Journal オンラインロゴ" style="width: 220px;" src="/publication/images/mj_online.png">
+   </div>
+   <p>広報サイト『METI Journal』を『METI Journal オンライン』にリニューアルしました。<br>
+     コンセプトは、「世界の話題から身近なテーマまで　経済産業の”なるほど”が集まるウェブマガジン」。<br>
+     月替わりの政策特集や経営者の特別インタビュー等を、日々、お届けします。</p>
+  </div><p><a class="lnkIcon" href="https://journal.meti.go.jp/">METI Journal オンラインはこちらからご覧ください<img alt="外部リンク" height="13" width="13" src="/img_2017/template/icon_link.gif"></a></p><p><a class="lnkIcon" href="/publication/data/d110001j.html">過去の「METI Journal（平成29年5月以前）」はこちら</a></p></li>
+ <li><h3>中部経済産業局「中部発きらり企業紹介」</h3>
+  <div class="clearfix mb10">
+   <div class="leftPos imgBlock"><img alt="中部の魅力を再発見「中部発きらり企業紹介」ロゴ" src="/publication/images/bn_chubu_kirari.png">
+   </div>
+   <p>中部経済産業局ホームページの「中部発きらり企業紹介」では、経済産業省が推進する施策を利活用して新技術・新商品を開発している企業を紹介しています。</p>
+  </div><p><a class="lnkIcon" href="https://www.chubu.meti.go.jp/koho/kigyo/index.html">中部経済産業局「中部発きらり企業紹介」はこちらからご覧ください<img alt="外部リンク" height="13" width="13" src="/img_2017/template/icon_link.gif"></a></p></li>
+</ul>
+<ul class="flex_column">
+ <li><h3>近畿経済産業局「E!KANSAI」</h3>
+  <div class="clearfix mb10">
+   <div class="leftPos imgBlock"><img alt="「関西のE!（いい）情報をお届けします！「E!KANSAI」METI-Kansai　近畿経済産業局ウェブマガジンロゴ" src="/publication/images/bn_ekansai.gif">
+   </div>
+   <p>近畿経済産業局では電子ブック「E!KANSAI」を立ち上げました。<br>
+     この「E!KANSAI」では、関西産業に関するプロジェクトなどの旬な話題や近畿経済産業局の施策などについて、迅速に情報提供させていただくこととしております。</p>
+  </div><p><a class="lnkIcon" href="https://www.kansai.meti.go.jp/E_Kansai/index.html">「E!KANSAI」METI-Kansai　近畿経済産業局ウェブマガジンはこちらからご覧ください<img alt="外部リンク" height="13" width="13" src="/img_2017/template/icon_link.gif"></a></p></li>
+ <li><h3>中国経済産業局「ちゅうごく地域ナビ」</h3>
+  <div class="clearfix mb10">
+   <div class="leftPos imgBlock"><img alt="中国経済産業局電子広報誌「ちゅうごく地域ナビ」ロゴ" src="/publication/images/bn_shunrepo.png">
+   </div>
+   <p>中国経済産業局電子広報誌「ちゅうごく地域ナビ」は、毎号「旬」な情報を特集しているほか、経済産業施策の調査・イベントのご報告や、月々のエッセイをお届けしています。</p>
+  </div><p><a class="lnkIcon" href="https://www.chugoku.meti.go.jp/info/koho/index.html">中国経済産業局電子広報誌「ちゅうごく地域ナビ」はこちらからご覧ください<img alt="外部リンク" height="13" width="13" src="/img_2017/template/icon_link.gif"></a></p></li>
+</ul>
+<ul class="flex_column">
+ <li><h3>四国経済産業局「四国びと」</h3>
+  <div class="clearfix mb10">
+   <div class="leftPos imgBlock"><img alt="四国経済産業局WEBマガジン「四国びと」ロゴ" src="/publication/images/bn_shikokubito.gif">
+   </div>
+   <p>四国には、今後の日本のヒントがあるかも知れない・・・。四国経済産業局では、「企業や地域の四国らしい営み」を職員が取材し、インタビュー形式で紹介するWEBマガジン「四国びと」を発行しています。四国の人、四国にかかわる人の営みにふれながら、四国内外の人が、日本らしさ、地域らしさを考える、そして、未来の道しるべを模索する場になればと考えています。</p>
+  </div><p><a class="lnkIcon" href="https://www.shikoku.meti.go.jp/shikokubito/">四国経済産業局WEBマガジン「四国びと」はこちらからご覧ください<img alt="外部リンク" height="13" width="13" src="/img_2017/template/icon_link.gif"></a></p></li>
+ <li><h3>特許庁「広報誌とっきょ」</h3>
+  <div class="clearfix mb10">
+   <div class="leftPos imgBlock"><img alt="特許庁電子マガジン「とっきょ」ロゴ" src="/publication/images/bn_jpo.jpg">
+   </div>
+   <p>特許庁では、「知財のいまを知り　未来を創る」をテーマに、2か月に1度広報誌とっきょを発行しています。毎号様々な特集記事や、企業事例、大ヒット商品の歴史等を紹介しています。</p>
+  </div><p><a class="lnkIcon" href="https://www.jpo.go.jp/news/koho/kohoshi/index.html">特許庁「広報誌とっきょ」はこちらからご覧ください<img alt="外部リンク" height="13" width="13" src="/img_2017/template/icon_link.gif"></a></p></li>
+</ul>
+
+                                                                                                                          
+      
+      <h2 id="kanko">刊行物</h2>
+<h3>白書・報告書</h3>
+<ul class="lnkLst">
+ <li><a href="/report/whitepaper/index.html">白書・報告書はこちらからご覧ください</a></li>
+</ul><!--&#10;<h3>便覧・ハンドブック・逐条解説</h3>&#10;&#10;<div class="publicationBox4">&#10;<div class="photoPublicationBox"><a href="/publication/data/kanko01.html"><img alt="" src="images/kanko_01.gif"> </a>&#10;&#10;<p><a href="/publication/data/kanko01.html">平成29年度版 特別償却対象特定設備等便覧</a></p>&#10;</div>&#10;&#10;<div class="photoPublicationBox"><a href="/publication/data/kanko02.html"><img alt="" src="images/kanko_02.gif"> </a>&#10;&#10;<p><a href="/publication/data/kanko02.html">平成29年度版 産業税制ハンドブック</a></p>&#10;</div>&#10;&#10;<div class="photoPublicationBox"><a href="/publication/data/kanko03.html"><img alt="" src="images/kanko_03.gif"> </a>&#10;&#10;<p><a href="/publication/data/kanko03.html">新産業構造ビジョン</a></p>&#10;</div>&#10;&#10;<div class="photoPublicationBox"><a href="/publication/data/kanko04.html"><img alt="" src="images/kanko_04.jpg"> </a>&#10;&#10;<p><a href="/publication/data/kanko04.html">小学校高学年向け製品安全ワークブック</a></p>&#10;</div>&#10;&#10;<div class="photoPublicationBox"><a href="/publication/data/kanko05.html"><img alt="" src="images/kanko_05.jpg"> </a>&#10;&#10;<p><a href="/publication/data/kanko05.html">基準認証政策の歩み2016</a></p>&#10;</div>&#10;&#10;<div class="photoPublicationBox"><a href="/publication/data/kanko06.html"><img alt="" src="images/noimage.png"> </a>&#10;&#10;<p><a href="/publication/data/kanko06.html">デザイン政策ハンドブック2016</a></p>&#10;</div>&#10;&#10;<div class="photoPublicationBox"><a href="/publication/data/kanko07.html"><img alt="" src="images/kanko_07.gif"> </a>&#10;&#10;<p><a href="/publication/data/kanko07.html">ダイバーシティ経営戦略4</a></p>&#10;</div>&#10;&#10;<div class="photoPublicationBox"><a href="/publication/data/kanko08.html"><img alt="" src="images/kanko_08.jpg"> </a>&#10;&#10;<p><a href="/publication/data/kanko08.html">医工連携による医療機器事業化ガイドブック</a></p>&#10;</div>&#10;&#10;<div class="photoPublicationBox"><a href="/publication/data/kanko09.html"><img alt="" src="images/kanko_09.png"> </a>&#10;&#10;<p><a href="/publication/data/kanko09.html">産業競争力強化法逐条解説</a></p>&#10;</div>&#10;&#10;<div class="photoPublicationBox"><a href="/publication/data/kanko10.html"><img alt="" src="images/kanko_10.gif"> </a>&#10;&#10;<p><a href="/publication/data/kanko10.html">営業秘密保護のための競業避止義務の締結の方法</a></p>&#10;</div>&#10;&#10;<div class="photoPublicationBox"><a href="/publication/data/kanko11.html"><img alt="" src="images/kanko_11.gif"> </a>&#10;&#10;<p><a href="/publication/data/kanko11.html">ロイヤルティ料率データハンドブック</a></p>&#10;</div>&#10;</div>&#10;-->
+<h3>その他の刊行物</h3>
+<ul class="lnkLst">
+ <li><a href="http://www.gov-book.or.jp/book/">全国官報販売共同組合のウェブサイトをご覧ください<img alt="外部リンク" height="13" width="13" src="/img_2017/template/icon_link.gif"></a></li>
+</ul>
+
+                                                                                                                          
+      
+      <h2 id="pamph">経済産業省について</h2>
+<p>リンクをクリックするとPDFが開きます。</p>
+<h3>経済産業省について</h3>
+<div class="publicationBox4">
+ <div class="photoPublicationBox"><a href="/publication/data/meti_pamphlet/pdf/book.pdf"><img alt="" src="/publication/images/pamph_01.jpg"><br>
+    経済産業省紹介パンフレット<br>
+    ～Mission of METI～<br>
+    （PDF形式：3,214KB）<img alt="PDFファイル" height="16" width="16" src="/img_2017/template/icon_pdf.gif"></a>
+ </div>
+ <div class="photoPublicationBox"><a href="/publication/data/meti_pamphlet/pdf/kid_pamphlet_2026.pdf"><img alt="" src="/publication/images/pamph_30.jpg"><br>
+    見えないけれど、<br>
+    とても大切な仕事<br>
+    ～経済産業省のお仕事の秘密～<br>
+    （PDF形式：1,504KB）<img alt="PDFファイル" height="16" width="16" src="/img_2017/template/icon_pdf.gif"></a>
+ </div>
+</div>
+<h3>政策について</h3>
+<h4>経済産業</h4>
+<div class="publicationBox4">
+ <div class="photoPublicationBox"><a href="/publication/pdf/pamph_diver.pdf"><img alt="" src="/publication/images/pamph_03.jpg"><br>
+    ダイバーシティ経営のススメ<br>
+    （PDF形式：1,139KB）<img alt="PDFファイル" height="16" width="16" src="/img_2017/template/icon_pdf.gif"></a>
+ </div>
+ <div class="photoPublicationBox"><a href="/publication/pdf/pamph_kigyo.pdf"><img alt="" src="/publication/images/pamph_04.jpg"> </a>
+  <p><a href="/publication/pdf/pamph_kigyo.pdf">わたしの起業応援net<br>
+     （PDF形式：2,235KB）<img alt="PDFファイル" height="16" width="16" src="/img_2017/template/icon_pdf.gif"></a></p>
+ </div>
+ <div class="photoPublicationBox"><a href="/publication/pdf/pamph_kawaii.pdf"><img alt="" src="/publication/images/pamph_05.jpg"><br>
+    「カワイイ」だけで選んでませんか？ （PDF形式：3,690KB）<img alt="PDFファイル" height="16" width="16" src="/img_2017/template/icon_pdf.gif"></a>
+ </div>
+ <div class="photoPublicationBox"><a href="/publication/pdf/pamph_irui.pdf"><img alt="" src="/publication/images/pamph_06.jpg"><br>
+    衣類等の洗濯表示<br>
+    （PDF形式：1.39MB）<img alt="PDFファイル" height="16" width="16" src="/img_2017/template/icon_pdf.gif"></a>
+ </div>
+ <div class="photoPublicationBox"><a href="/publication/pdf/pamph_hyojun.pdf"><img alt="" src="/publication/images/pamph_07.jpg"> </a>
+  <p><a href="/publication/pdf/pamph_hyojun.pdf">"標準化・認証"を事業に活かす虎の巻 （PDF形式：2,162KB）<img alt="PDFファイル" height="16" width="16" src="/img_2017/template/icon_pdf.gif"></a></p>
+ </div>
+ <div class="photoPublicationBox"><a href="/publication/pdf/pamph_chizai.pdf"><img alt="" src="/publication/images/pamph_28.jpg"> </a>
+  <p><a href="/publication/pdf/pamph_chizai.pdf">知財を事業に活かす虎の巻 （PDF形式：3,873KB）<img alt="PDFファイル" height="16" width="16" src="/img_2017/template/icon_pdf.gif"></a></p>
+ </div>
+ <div class="photoPublicationBox"><a href="/publication/pdf/pamph_oshinagaki.pdf"><img alt="" src="/publication/images/pamph_27.jpg"> </a>
+  <p><a href="/publication/pdf/pamph_oshinagaki.pdf">海外展開支援策 おしながき<br>
+     （PDF形式：4,691KB）<img alt="PDFファイル" height="16" width="16" src="/img_2017/template/icon_pdf.gif"></a></p>
+ </div>
+ <div class="photoPublicationBox"><a href="/publication/pdf/pamph_kigyorenkei.pdf"><img alt="" src="/publication/images/pamph_29.jpg"> </a>
+  <p><a href="/publication/pdf/pamph_kigyorenkei.pdf">知財を使った企業連携4つのポイント （PDF形式：943KB）<img alt="PDFファイル" height="16" width="16" src="/img_2017/template/icon_pdf.gif"></a></p>
+ </div>
+</div>
+<h4>対外経済</h4>
+<div class="publicationBox4">
+ <div class="photoPublicationBox"><a href="/publication/pdf/pamph_soubenir.pdf"><img alt="" src="/publication/images/pamph_08.jpg"> </a>
+  <p><a href="/publication/pdf/pamph_soubenir.pdf">Souvenir Guide<br>
+     ～お土産を買うその前に～<br>
+     （PDF形式：4,158KB）<img alt="PDFファイル" height="16" width="16" src="/img_2017/template/icon_pdf.gif"></a></p>
+ </div>
+ <div class="photoPublicationBox"><a href="/publication/pdf/pamph_yushutsu.pdf"><img alt="" src="/publication/images/pamph_09.jpg"> </a>
+  <p><a href="/publication/pdf/pamph_yushutsu.pdf">新輸出大国コンソーシアム（JETRO-HP）<br>
+     （PDF形式：2,732KB）<img alt="PDFファイル" height="16" width="16" src="/img_2017/template/icon_pdf.gif"></a></p>
+ </div>
+ <div class="photoPublicationBox"><a href="/publication/pdf/pamph_boeki.pdf"><img alt="" src="/publication/images/pamph_10.jpg"> </a>
+  <p><a href="/publication/pdf/pamph_boeki.pdf">貿易救済措置について<br>
+     ～不公正な輸入でお困りの企業の方へ～ （PDF形式：2,900KB）<img alt="PDFファイル" height="16" width="16" src="/img_2017/template/icon_pdf.gif"></a></p>
+ </div>
+ <div class="photoPublicationBox"><a href="/publication/pdf/pamph_iten.pdf"><img alt="" src="/publication/images/pamph_11.jpg"> </a>
+  <p><a href="/publication/pdf/pamph_iten.pdf">移転価格税制文書化<br>
+     ～ローカルファイル　はじめてガイド～ （PDF形式：2,347KB）<img alt="PDFファイル" height="16" width="16" src="/img_2017/template/icon_pdf.gif"></a></p>
+ </div>
+ <div class="photoPublicationBox"><a href="/publication/pdf/pamph_seicho.pdf"><img alt="" src="/publication/images/pamph_12.jpg"> </a>
+  <p><a href="/publication/pdf/pamph_seicho.pdf">成長戦略における外国人材の活用について（PDF形式：853KB）<img alt="PDFファイル" height="16" width="16" src="/img_2017/template/icon_pdf.gif"></a></p>
+ </div>
+</div>
+<h4>ものづくり/情報/流通・サービス</h4>
+<div class="publicationBox4">
+ <div class="photoPublicationBox"><a href="/publication/pdf/cyber_security.pdf"><img alt="" src="/publication/images/cyber_security.jpg"> </a>
+  <p><a href="/publication/pdf/cyber_security.pdf">中小企業のサイバーセキュリティ安心サービスのご紹介（PDF形式：1,969KB）<img alt="PDFファイル" height="16" width="16" src="/img_2017/template/icon_pdf.gif"></a></p>
+ </div>
+ <div class="photoPublicationBox"><a href="/publication/pdf/pamph_sapocar.pdf"><img alt="" src="/publication/images/pamph_13.jpg"> </a>
+  <p><a href="/publication/pdf/pamph_sapocar.pdf">サポカー/サポカーSで未来はもっと明るくなる（PDF形式：747KB）<img alt="PDFファイル" height="16" width="16" src="/img_2017/template/icon_pdf.gif"></a></p>
+ </div>
+ <div class="photoPublicationBox"><a href="/publication/pdf/pamph_robot.pdf"><img alt="" src="/publication/images/pamph_14.jpg"> </a>
+  <p><a href="/publication/pdf/pamph_robot.pdf">World Robot Summit<br>
+     （PDF形式：612KB）<img alt="PDFファイル" height="16" width="16" src="/img_2017/template/icon_pdf.gif"></a></p>
+ </div>
+ <div class="photoPublicationBox"><a href="/publication/pdf/pamph_buhin01.pdf"><img alt="" src="/publication/images/pamph_15.jpg"> </a>
+  <p><a href="/publication/pdf/pamph_buhin01.pdf">部品の受注者の方へ（発注者への型の管理等に関する協議・相談について）（PDF形式：416KB）<img alt="PDFファイル" height="16" width="16" src="/img_2017/template/icon_pdf.gif"></a></p>
+ </div>
+ <div class="photoPublicationBox"><a href="/publication/pdf/pamph_buhin02.pdf"><img alt="" src="/publication/images/pamph_16.jpg"> </a>
+  <p><a href="/publication/pdf/pamph_buhin02.pdf">部品の発注者の方へ（経済産業省・中小企業庁からのお知らせ）（PDF形式：363KB）<img alt="PDFファイル" height="16" width="16" src="/img_2017/template/icon_pdf.gif"></a></p>
+ </div>
+ <div class="photoPublicationBox"><a href="/publication/pdf/pamph_premium.pdf"><img alt="" src="/publication/images/pamph_17.jpg"> </a>
+  <p><a href="/publication/pdf/pamph_premium.pdf">はじめてみませんか？プレミアムフライデー<br>
+     （PDF形式：697KB）<img alt="PDFファイル" height="16" width="16" src="/img_2017/template/icon_pdf.gif"></a></p>
+ </div>
+ <div class="photoPublicationBox"><a href="/publication/pdf/pamph_expo.pdf"><img alt="" src="/publication/images/pamph_18.jpg"> </a>
+  <p><a href="/publication/pdf/pamph_expo.pdf">EXPO 2025<br>
+     （PDF形式：2,426KB）<img alt="PDFファイル" height="16" width="16" src="/img_2017/template/icon_pdf.gif"></a></p>
+ </div>
+ <div class="photoPublicationBox"><a href="/publication/pdf/pamph_tec_management.pdf"><img alt="" src="/publication/images/pamph_tec_management_thum.png"> </a>
+  <p><a href="/publication/pdf/pamph_tec_management.pdf">事業者・研究機関の皆様の情報を守る技術情報管理認証制度<br>
+     （PDF形式：603KB）<img alt="PDFファイル" height="16" width="16" src="/img_2017/template/icon_pdf.gif"></a></p>
+ </div>
+ <div class="photoPublicationBox"><a href="/publication/pdf/pamph_selfcheck.pdf"><img alt="" src="/publication/images/pamph_selfcheck_thum.png"> </a>
+  <p><a href="/publication/pdf/pamph_selfcheck.pdf">あなたの会社の情報セキュリティ、チェックできます～『技術情報管理 自己チェックリスト』のご案内～（PDF形式：935KB）<img alt="PDFファイル" height="16" width="16" src="/img_2017/template/icon_pdf.gif"></a></p>
+ </div>
+</div>
+<h4>中小企業・地域経済産業</h4>
+<div class="publicationBox4">
+ <div class="photoPublicationBox"><a href="/publication/pdf/pamph_chiiki.pdf"><img alt="" src="/publication/images/pamph_19.jpg"> </a>
+  <p><a href="/publication/pdf/pamph_chiiki.pdf">地域経済を牽引する事業者への支援施策<br>
+     （PDF形式：961KB）<img alt="PDFファイル" height="16" width="16" src="/img_2017/template/icon_pdf.gif"></a></p>
+ </div>
+</div>
+<h4>安全・安心</h4>
+<div class="publicationBox4">
+ <div class="photoPublicationBox"><a href="/publication/pdf/pamph_gas4.pdf"><img alt="" src="/publication/images/pamph_20.jpg"> </a>
+  <p><a href="/publication/pdf/pamph_gas4.pdf">ガスを安全に利用する4つのポイント（家庭用）（PDF形式：4.529KB）<img alt="PDFファイル" height="16" width="16" src="/img_2017/template/icon_pdf.gif"></a></p>
+ </div>
+ <div class="photoPublicationBox"><a href="/publication/pdf/pamph_gas5.pdf"><img alt="" src="/publication/images/pamph_21.jpg"> </a>
+  <p><a href="/publication/pdf/pamph_gas5.pdf">ガスの安全5年10年30年で見直しましょう!（PDF形式：4,630KB）<img alt="PDFファイル" height="16" width="16" src="/img_2017/template/icon_pdf.gif"></a></p>
+ </div>
+ <div class="photoPublicationBox"><a href="/publication/pdf/pamph_gas6.pdf"><img alt="" src="/publication/images/pamph_22.jpg"> </a>
+  <p><a href="/publication/pdf/pamph_gas6.pdf">ガスを安全に利用する4つのポイント（飲食店用）（PDF形式：787KB）<img alt="PDFファイル" height="16" width="16" src="/img_2017/template/icon_pdf.gif"></a></p>
+ </div>
+ <div class="photoPublicationBox"><a href="/publication/pdf/pamph_ps.pdf"><img alt="" src="/publication/images/pamph_23.jpg"> </a>
+  <p><a href="/publication/pdf/pamph_ps.pdf">平成29年度 製品安全対策優良企業表彰(PSアワード)受賞企業紹介リーフレット（PDF形式：492KB）<img alt="PDFファイル" height="16" width="16" src="/img_2017/template/icon_pdf.gif"></a></p>
+ </div>
+ <div class="photoPublicationBox"><a href="/publication/pdf/pamph_seihin.pdf"><img alt="" src="/publication/images/pamph_24.jpg"> </a>
+  <p><a href="/publication/pdf/pamph_seihin.pdf">製品安全総点検月間ポスター（2017年）（PDF形式：1,132KB）<img alt="PDFファイル" height="16" width="16" src="/img_2017/template/icon_pdf.gif"></a></p>
+ </div>
+ <div class="photoPublicationBox"><a href="/publication/pdf/pamph_house.pdf"><img alt="" src="/publication/images/pamph_25.jpg"> </a>
+  <p><a href="/publication/pdf/pamph_house.pdf">製品安全 おうちのチェックリスト（PDF形式：450KB）<img alt="PDFファイル" height="16" width="16" src="/img_2017/template/icon_pdf.gif"></a></p>
+ </div>
+ <div class="photoPublicationBox"><a href="/publication/pdf/pamph_houseanzen.pdf"><img alt="" src="/publication/images/pamph_26.jpg"> </a>
+  <p><a href="/publication/pdf/pamph_houseanzen.pdf">安全・安心に使用するには、定期的な点検が必要です! （PDF形式：401KB）<img alt="PDFファイル" height="16" width="16" src="/img_2017/template/icon_pdf.gif"></a></p>
+ </div>
+</div>
+
+                                                                                                                          
+
+
+
+      <!-- update info -->
+      <div id="__rdo_update" class="b-top">
+        <p>最終更新日：2026年6月24日</p>
+      </div>
+    </div>
+  </div>
+<script src="/js_2017/footer.js"></script></body>
+</html>
+

@@ -1,0 +1,741 @@
+ 
+
+<!DOCTYPE html>
+
+<html lang="EN" dir="ltr" class="">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>
+        Just Published
+    </title>
+    <meta name="description" />
+    <meta property="og:url" />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Just Published" />
+    <meta property="og:description" />
+    <meta property="og:image" />
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="/Content/images/img/apple-touch-icon-144x144.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="/Content/images/img/apple-touch-icon-152x152.png" />
+    <link rel="icon" type="image/png" href="/Content/images/img/Emblem_Colour_RGB.png" sizes="32x32" />
+ <!--   <link rel="icon" type="image/png" href="~/Content/images/img/favicon-16x16.png" sizes="16x16" />-->
+
+
+    <meta name="application-name" content="&nbsp;" />
+    <meta name="msapplication-TileColor" content="#FFFFFF" />
+    <meta name="msapplication-TileImage" content="/Content/images/img/mstile-144x144.png" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-465405-9"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+        gtag('config', 'UA-465405-9');
+    </script>
+        <link rel="stylesheet" href="/Content/css/css/main.css?v=1.2" />
+
+</head>
+<body>
+
+
+    <header id="header">
+
+
+<!--MAIN NAVIGATION NAVBAR - This navigation is used ONLY for devices with larger screens-->
+
+
+<nav class="navbar navbar-expand-lg navbar-light">
+    <div class="container-fluid">
+        <a class="navbar-brand" href="/en" aria-label="Logo">
+            <img src="/Content/images/img/English_Colour_RGB_Horizontal.png" alt="Logo" />
+        </a>
+        <div class="nav-item d-flex align-items-center text-right" data-toggle="collapse">
+            <!-- <a href="/en/GoogleSearch/SearchPosts/Pages/Default.aspx" class="icon-button" data-toggle="modal" data-target="#search-box-modal" aria-label="Search website">
+                <i class="icon-search"></i>
+            </a>-->
+            <a class="icon-button" href="/en/GoogleSearch/SearchPosts/Default.aspx" role="button"><i class="icon-search"></i></a>
+            <!-- Mobile menu toggler -->
+            <button class="navbar-toggler mobile-menu-toggler" type="button" aria-label="Toggle navigation">
+                <span></span>
+            </button>
+            <!-- Mobile menu toggler end -->
+        </div>
+        <div class="collapse navbar-collapse" id="navbar-desktop">
+            <ul class="navbar-nav ml-auto">
+                        <li class="nav-item dropdown">
+                            <a href="https://www.imo.org/en/About/Pages/Default.aspx" class="nav-link dropdown-toggle" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">About IMO</a>
+                            <div class="dropdown-menu">
+                                    <a class="dropdown-item" href="https://www.imo.org/en/About/Pages/FAQs.aspx">FAQs</a>
+                                    <a class="dropdown-item" href="https://www.imo.org/en/About/HistoryOfIMO/Pages/Default.aspx">History of IMO</a>
+                                    <a class="dropdown-item" href="https://www.imo.org/en/About/Careers/Pages/default.aspx">Careers at IMO</a>
+                                    <a class="dropdown-item" href="https://www.imo.org/en/About/Procurement/Pages/default.aspx">Procurement</a>
+                                    <a class="dropdown-item" href="https://www.imo.org/en/About/Membership/Pages/Default.aspx">Membership</a>
+                                    <a class="dropdown-item" href="https://www.imo.org/en/About/Pages/Structure.aspx">Structure</a>
+                                    <a class="dropdown-item" href="https://www.imo.org/en/About/Pages/Council-candidates.aspx">Council Candidates</a>
+                                    <a class="dropdown-item" href="https://www.imo.org/en/About/Strategy/Pages/Default.aspx">Strategic Plan</a>
+                                    <a class="dropdown-item" href="https://www.imo.org/en/About/Pages/Annual-report.aspx">Annual report</a>
+                                    <a class="dropdown-item" href="https://www.imo.org/en/About/Conventions/Pages/Default.aspx">Conventions</a>
+                                    <a class="dropdown-item" href="https://www.imo.org/en/About/Pages/DocumentsResources.aspx">Documents and Resources</a>
+                                    <a class="dropdown-item" href="https://www.imo.org/en/about/Events/Pages/Default.aspx">IMO Events</a>
+                                    <a class="dropdown-item" href="https://www.imo.org/en/About/Pages/Affiliated-Bodies-and-Programmes.aspx">Affiliated Bodies and Programmes</a>
+                                    <a class="dropdown-item" href="https://www.imo.org/en/About/Pages/WMUandIMLI.aspx">World Maritime University (WMU) and IMO International Maritime Law Institute (IMLI)</a>
+                                    <a class="dropdown-item" href="https://www.imo.org/en/OurWork/Pages/Financial-Statements.aspx">Financial Statements Summary</a>
+                                    <a class="dropdown-item" href="https://www.imo.org/en/About/Pages/IMO-Multilingualism.aspx">IMO and Multilingualism</a>
+                                    <a class="dropdown-item" href="https://www.imo.org/en/About/Pages/Diversity-Equity-Inclusion.aspx">Diversity, Equity and Inclusion</a>
+                                    <a class="dropdown-item" href="https://www.imo.org/en/About/Pages/ContactUs.aspx">Contact Us</a>
+                            </div>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a href="https://www.imo.org/en/MediaCentre/Pages/default.aspx" class="nav-link dropdown-toggle" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Media Centre</a>
+                            <div class="dropdown-menu">
+                                    <a class="dropdown-item" href="https://www.imo.org/en/MediaCentre/PressBriefings/Pages/default.aspx">Press Briefings</a>
+                                    <a class="dropdown-item" href="https://www.imo.org/en/MediaCentre/MeetingSummaries/Pages/default.aspx">Meeting Summaries and schedule</a>
+                                    <a class="dropdown-item" href="https://www.imo.org/en/MediaCentre/SecretaryGeneral/Pages/Default.aspx">Secretary-General</a>
+                                    <a class="dropdown-item" href="https://www.imo.org/en/MediaCentre/SecretaryGeneral/Pages/Senior-Management-Committee.aspx">​Senior Management Committee (SMC)</a>
+                                    <a class="dropdown-item" href="https://www.imo.org/en/MediaCentre/Pages/WhatsNew.aspx">What&#39;s New</a>
+                                    <a class="dropdown-item" href="https://www.imo.org/en/MediaCentre/HotTopics/Pages/Default.aspx">Hot Topics</a>
+                                    <a class="dropdown-item" href="https://www.imo.org/en/MediaCentre/IMOMediaAccreditation/Pages/Default.aspx">Attending IMO Meetings</a>
+                                    <a class="dropdown-item" href="https://www.imo.org/en/About/Events/Pages/default.aspx">IMO Events</a>
+                            </div>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a href="https://www.imo.org/en/OurWork/Pages/Default.aspx" class="nav-link dropdown-toggle" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Our Work</a>
+                            <div class="dropdown-menu">
+                                    <a class="dropdown-item" href="https://www.imo.org/en/OurWork/Safety/Pages/default.aspx">Maritime Safety</a>
+                                    <a class="dropdown-item" href="https://www.imo.org/en/OurWork/Security/Pages/Default.aspx">Maritime Security and Piracy</a>
+                                    <a class="dropdown-item" href="https://www.imo.org/en/OurWork/Environment/Pages/Default.aspx">Marine Environment</a>
+                                    <a class="dropdown-item" href="https://www.imo.org/en/OurWork/Legal/Pages/Default.aspx">Legal Affairs</a>
+                                    <a class="dropdown-item" href="https://www.imo.org/en/OurWork/HumanElement/Pages/Default.aspx">Human Element</a>
+                                    <a class="dropdown-item" href="https://www.imo.org/en/OurWork/Facilitation/Pages/Default.aspx">Facilitation</a>
+                                    <a class="dropdown-item" href="https://www.imo.org/en/OurWork/MSAS/Pages/Default.aspx">Member State Audit Scheme</a>
+                                    <a class="dropdown-item" href="https://www.imo.org/en/OurWork/IIIS/Pages/default.aspx">Implementation of Instruments Support</a>
+                                    <a class="dropdown-item" href="https://www.imo.org/en/OurWork/TechnicalCooperation/Pages/Default.aspx">Technical Cooperation</a>
+                                    <a class="dropdown-item" href="https://www.imo.org/en/OurWork/PartnershipsProjects/Pages/default.aspx">Partnerships and Projects</a>
+                                    <a class="dropdown-item" href="https://www.imo.org/en/OurWork/Conferences/Pages/Default.aspx">Conferences</a>
+                                    <a class="dropdown-item" href="https://www.imo.org/en/OurWork/ERO/Pages/default.aspx">External Relations</a>
+                                    <a class="dropdown-item" href="https://www.imo.org/en/OurWork/Circulars/Pages/default.aspx">Circulars</a>
+                            </div>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a href="https://www.imo.org/en/publications/Pages/Home.aspx" class="nav-link dropdown-toggle" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Publications</a>
+                            <div class="dropdown-menu">
+                                    <a class="dropdown-item" href="https://www.imo.org/en/publications/Pages/IMO-ePublications.aspx">IMO ePublications</a>
+                                    <a class="dropdown-item" href="https://www.imo.org/en/publications/Pages/Distributors-default.aspx">Distributors&#39; Details</a>
+                                    <a class="dropdown-item" href="https://www.imo.org/en/publications/Pages/CatalogueAndBookCodeLists.aspx">Catalogue ＆ Code Listings</a>
+                                    <a class="dropdown-item" href="https://www.imo.org/en/publications/Pages/JustPublished.aspx">Just Published</a>
+                                    <a class="dropdown-item" href="https://www.imo.org/en/publications/Pages/FutureTitles.aspx">Future Titles</a>
+                                    <a class="dropdown-item" href="https://www.imo.org/en/publications/Pages/Flyers.aspx">Flyers</a>
+                                    <a class="dropdown-item" href="https://www.imo.org/en/publications/Pages/SupplementsAndCDs-Default.aspx">Supplements</a>
+                                    <a class="dropdown-item" href="https://www.imo.org/en/publications/Pages/PermissionRequests.aspx">Copyright and Permission Requests</a>
+                                    <a class="dropdown-item" href="https://www.imo.org/en/publications/Pages/Counterfeit-copies.aspx">Counterfeit copies</a>
+                                    <a class="dropdown-item" href="https://www.imo.org/en/publications/Pages/IMDG Code.aspx">IMDG Code</a>
+                                    <a class="dropdown-item" href="https://www.imo.org/en/publications/Pages/IMO-Vega.aspx">The IMO-Vega Database</a>
+                                    <a class="dropdown-item" href="https://www.imo.org/en/publications/Pages/FrequentlyAskedQuestions.aspx">Frequently Asked Questions (FAQ)</a>
+                                    <a class="dropdown-item" href="https://www.imo.org/en/publications/Pages/CurrentPublications.aspx">Listing of current IMO publications</a>
+                            </div>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a href="https://www.imo.org/en/KnowledgeCentre/Pages/Default.aspx" class="nav-link dropdown-toggle" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Knowledge Centre</a>
+                            <div class="dropdown-menu">
+                                    <a class="dropdown-item" href="https://www.imo.org/en/KnowledgeCentre/Pages/SearchTheOnlineCatalogueSeaLibrary.aspx">Search the MKC Online Catalogue</a>
+                                    <a class="dropdown-item" href="https://www.imo.org/en/KnowledgeCentre/Pages/FindInformation.aspx">How and Where to Find IMO Information</a>
+                                    <a class="dropdown-item" href="https://www.imo.org/en/KnowledgeCentre/IndexofIMOResolutions/Pages/Default.aspx">Index of IMO Resolutions</a>
+                                    <a class="dropdown-item" href="https://www.imo.org/en/KnowledgeCentre/Pages/CurrentAwarenessBulletin-Default.aspx">Current Awareness Bulletin</a>
+                                    <a class="dropdown-item" href="https://www.imo.org/en/KnowledgeCentre/ConferencesMeetings/Pages/Default.aspx">Conferences and Meetings</a>
+                                    <a class="dropdown-item" href="https://www.imo.org/en/KnowledgeCentre/Pages/MaritimeFactsFigures-Default.aspx">Maritime Facts and Figures</a>
+                                    <a class="dropdown-item" href="https://www.imo.org/en/KnowledgeCentre/Resources_for_Seafarers/Pages/default.aspx">Resources for Seafarers</a>
+                                    <a class="dropdown-item" href="https://www.imo.org/en/KnowledgeCentre/Pages/ContactUs.aspx">Contacts</a>
+                            </div>
+                        </li>
+                <li class="nav-item">
+                    <a class="icon-button" href="/en/GoogleSearch/SearchPosts/Default.aspx" role="button"><i class="icon-search"></i></a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+<!-- MAIN NAVIGATION NAVBAR END -->
+<!-- TOP BAR NAVIGATION -->
+<div id="langselect" role="navigation" class="navbar-top">
+    <div class="small-nav">
+        <span><a href="/en/About/Pages/ContactUs.aspx" class="">Contact us</a></span>
+        <span><a href="/en/About/Careers/Pages/Default.aspx" class="">Careers</a></span>
+    </div>
+    <div class="small-nav language-nav">
+              <span><a href="" class="setLang" lang="en">English</a></span>
+              <span><a href="" class="setLang" lang="fr">Français</a></span>
+              <span><a href="" class="setLang" lang="es">Español</a></span>
+              <span><a href="" class="setLang" lang="ru">Русский</a></span>
+              <span><a href="" class="setLang" lang="ar">العربية</a></span>
+              <span><a href="" class="setLang" lang="zh">汉语</a></span>
+          </div> 
+    <div class="small-nav-right d-none d-sm-block">
+        <span><a href="https://webaccounts.imo.org" class="btn btn-light-blue" target="_blank">IMO WEB ACCOUNTS</a></span>
+    </div>
+</div>
+<!-- TOP BAR NAVIGATION END
+
+<script src="~/Scripts/js/vendors.js"></script>
+<script src="~/Scripts/js/theme.js"></script>-->
+
+
+    </header>
+    <section id="main">
+       
+        
+
+
+<div class="main-content">
+
+    <div class="container-fluid">
+
+        <div class="row justify-content-center mr-xl-0 ml-xl-n5 ml-xxl-n8">
+            <!-- MAIN COLUMN -->
+            <div class="col-lg-12 col-xl-7 pl-xl-5 pl-xxl-8 pr-xl-0">
+
+                <article class="article">
+
+                    <header>
+                        <h1 class="article-title">Just Published</h1>
+                        <ul class="breadcrumb">
+                            <li><a href="https://www.imo.org/en">Home</a></li>
+                                <li><a href="https://www.imo.org/en/publications/Pages/Default.aspx">Publications</a></li>
+                                                        <li><span>Just Published</span></li>
+                        </ul>
+                    </header>
+
+
+                    <div class="content">
+                        <p class="lead">
+                            
+                        </p>
+                        <p>
+                                 <div class="my-8"><div class="table-responsive"><table cellspacing="0" style="width&#58;100%;height&#58;100%;" class="table table-striped table-borderless ms-rteTable-default"><tbody><tr class="ms-rteTableHeaderRow-default"><th class="ms-rteTableHeaderEvenCol-default" rowspan="1" colspan="1" style="width&#58;45%;height&#58;30px;">
+            <span class="ms-rteThemeForeColor-2-0"><strong>TITLE</strong><br></span></th><th class="ms-rteTableHeaderOddCol-default" rowspan="1" colspan="1" style="width&#58;9%;height&#58;30px;">
+            <strong class="ms-rteThemeForeColor-2-0">CODE</strong><br></th><th class="ms-rteTableHeaderEvenCol-default" rowspan="1" colspan="1" style="width&#58;9%;height&#58;30px;">
+            <span class="ms-rteThemeForeColor-2-0"><strong>PRICE</strong></span></th><th class="ms-rteTableHeaderOddCol-default" rowspan="1" colspan="1" style="width&#58;21%;height&#58;30px;">
+            <span class="ms-rteThemeForeColor-2-0"><strong>ISBN</strong></span></th><th class="ms-rteTableHeaderEvenCol-default" rowspan="1" colspan="1" style="width&#58;243px;height&#58;30px;">
+            <strong class="ms-rteThemeForeColor-2-0">PUBLISHED DATE</strong><br></th></tr><tr class="ms-rteTableOddRow-default"><td class="ms-rteTableEvenCol-default" rowspan="1" style="width&#58;45%;height&#58;30px;"><a href="https&#58;//imo-epublications.org/content/books/9789280102352">STCW Convention and STCW Code, 2026 Edition, French Edition (digital only)</a></td><td class="ms-rteTableOddCol-default" colspan="1" rowspan="1" style="width&#58;9%;height&#58;30px;"><strong>KE938F</strong></td><td class="ms-rteTableEvenCol-default" rowspan="1" style="width&#58;9%;height&#58;30px;">£89</td><td class="ms-rteTableOddCol-default" rowspan="1" style="width&#58;21%;height&#58;30px;">978-92-801-0235-2</td><td class="ms-rteTableEvenCol-default" rowspan="1" style="width&#58;243px;height&#58;30px;">12 August 2026</td></tr><tr class="ms-rteTableEvenRow-default"><td class="ms-rteTableEvenCol-default" rowspan="1" style="width&#58;45%;height&#58;30px;"><a href="https&#58;//imo-epublications.org/content/books/9789280102345">STCW Convention and STCW Code, 2026 Edition, Spanish Edition (digital only)</a></td><td class="ms-rteTableOddCol-default" colspan="1" rowspan="1" style="width&#58;9%;height&#58;30px;"><strong>KE938S</strong></td><td class="ms-rteTableEvenCol-default" rowspan="1" style="width&#58;9%;height&#58;30px;">£89</td><td class="ms-rteTableOddCol-default" rowspan="1" style="width&#58;21%;height&#58;30px;">978-92-801-0234-5</td><td class="ms-rteTableEvenCol-default" rowspan="1" style="width&#58;243px;height&#58;30px;">10&#160;August 2026</td></tr><tr class="ms-rteTableOddRow-default"><td class="ms-rteTableEvenCol-default" rowspan="1" style="width&#58;45%;height&#58;30px;"><a href="https&#58;//imo-epublications.org/content/books/9789280100686">STCW-F Convention and STCW-F Code, Chinese Edition (digital only)</a></td><td class="ms-rteTableOddCol-default" colspan="1" rowspan="1" style="width&#58;9%;height&#58;30px;"><strong>KA915C</strong></td><td class="ms-rteTableEvenCol-default" rowspan="1" style="width&#58;9%;height&#58;30px;">£34</td><td class="ms-rteTableOddCol-default" rowspan="1" style="width&#58;21%;height&#58;30px;">978-92-801-0068-6</td><td class="ms-rteTableEvenCol-default" rowspan="1" style="width&#58;243px;height&#58;30px;">3 August 2026</td></tr><tr class="ms-rteTableEvenRow-default"><td class="ms-rteTableEvenCol-default" rowspan="1" style="width&#58;45%;height&#58;30px;"><a href="https&#58;//imo-epublications.org/content/books/9789280102307">STCW Convention and STCW Code, 2026 Edition (digital)</a></td><td class="ms-rteTableOddCol-default" colspan="1" rowspan="1" style="width&#58;9%;height&#58;30px;"><strong>KE938E</strong></td><td class="ms-rteTableEvenCol-default" rowspan="1" style="width&#58;9%;height&#58;30px;">£89</td><td class="ms-rteTableOddCol-default" rowspan="1" style="width&#58;21%;height&#58;30px;">978-92-801-0230-7</td><td class="ms-rteTableEvenCol-default" rowspan="1" style="width&#58;243px;height&#58;30px;">30 July 2026</td></tr><tr class="ms-rteTableOddRow-default"><td class="ms-rteTableEvenCol-default" rowspan="1" style="width&#58;45%;height&#58;30px;"><a href="https&#58;//imo-epublications.org/content/books/9789280100594">Model Course 1.21&#58; Personal safety and social responsibilities (digital only)</a></td><td class="ms-rteTableOddCol-default" colspan="1" rowspan="1" style="width&#58;9%;height&#58;30px;"><strong>KTC121E</strong></td><td class="ms-rteTableEvenCol-default" rowspan="1" style="width&#58;9%;height&#58;30px;">£84</td><td class="ms-rteTableOddCol-default" rowspan="1" style="width&#58;21%;height&#58;30px;">987-92-801-0059-4</td><td class="ms-rteTableEvenCol-default" rowspan="1" style="width&#58;243px;height&#58;30px;">29 July 2026</td></tr><tr class="ms-rteTableEvenRow-default"><td class="ms-rteTableEvenCol-default" rowspan="1" style="width&#58;45%;height&#58;30px;"><a href="https&#58;//www.imo.org/en/publications/pages/distributors-default.aspx">International Code for Fire Safety Systems (FSS Code), 2026 Edition</a></td><td class="ms-rteTableOddCol-default" colspan="1" rowspan="1" style="width&#58;9%;height&#58;30px;"><strong>IC155E</strong></td><td class="ms-rteTableEvenCol-default" rowspan="1" style="width&#58;9%;height&#58;30px;">£69</td><td class="ms-rteTableOddCol-default" rowspan="1" style="width&#58;21%;height&#58;30px;">978-92-801-1844-5</td><td class="ms-rteTableEvenCol-default" rowspan="1" style="width&#58;243px;height&#58;30px;">20 July 2026</td></tr><tr class="ms-rteTableOddRow-default"><td class="ms-rteTableEvenCol-default" rowspan="1" style="width&#58;45%;height&#58;30px;"><a href="https&#58;//www.imo.org/en/publications/pages/distributors-default.aspx">Procedures for port State control, 2025, 2026 Edition</a></td><td class="ms-rteTableOddCol-default" colspan="1" rowspan="1" style="width&#58;9%;height&#58;30px;"><strong>IG650E</strong></td><td class="ms-rteTableEvenCol-default" rowspan="1" style="width&#58;9%;height&#58;30px;">£45</td><td class="ms-rteTableOddCol-default" rowspan="1" style="width&#58;21%;height&#58;30px;">978-92-801-0063-1</td><td class="ms-rteTableEvenCol-default" rowspan="1" style="width&#58;243px;height&#58;30px;">17 July 2026</td></tr><tr class="ms-rteTableEvenRow-default"><td class="ms-rteTableEvenCol-default" rowspan="1" style="width&#58;45%;height&#58;30px;"><a href="https&#58;//www.imo.org/en/publications/pages/distributors-default.aspx">London Convention and London Protocol, 2026 Edition</a></td><td class="ms-rteTableOddCol-default" colspan="1" rowspan="1" style="width&#58;9%;height&#58;30px;"><strong>IC532E</strong></td><td class="ms-rteTableEvenCol-default" rowspan="1" style="width&#58;9%;height&#58;30px;">£39</td><td class="ms-rteTableOddCol-default" rowspan="1" style="width&#58;21%;height&#58;30px;">978-92-801-1848-3</td><td class="ms-rteTableEvenCol-default" rowspan="1" style="width&#58;243px;height&#58;30px;">15 July 2026</td></tr><tr class="ms-rteTableOddRow-default"><td class="ms-rteTableEvenCol-default" rowspan="1" style="width&#58;45%;height&#58;30px;"><a href="https&#58;//imo-epublications.org/content/books/9789280132458">Procedures for Port State Control 2025, 2026 Edition, Spanish&#160;Edition (digital)</a></td><td class="ms-rteTableOddCol-default" colspan="1" rowspan="1" style="width&#58;9%;height&#58;30px;"><strong>KG650S</strong></td><td class="ms-rteTableEvenCol-default" rowspan="1" style="width&#58;9%;height&#58;30px;">£45</td><td class="ms-rteTableOddCol-default" rowspan="1" style="width&#58;21%;height&#58;30px;">978-92-801-3245-8</td><td class="ms-rteTableEvenCol-default" rowspan="1" style="width&#58;243px;height&#58;30px;">14 July 2026</td></tr><tr class="ms-rteTableEvenRow-default"><td class="ms-rteTableEvenCol-default" rowspan="1" style="width&#58;45%;height&#58;30px;"><a href="https&#58;//imo-epublications.org/content/books/9789280125962">Procedures for Port State Control 2025, 2026 Edition, French Edition&#160;(digital)</a></td><td class="ms-rteTableOddCol-default" colspan="1" rowspan="1" style="width&#58;9%;height&#58;30px;"><strong>KG650F</strong></td><td class="ms-rteTableEvenCol-default" rowspan="1" style="width&#58;9%;height&#58;30px;">£45</td><td class="ms-rteTableOddCol-default" rowspan="1" style="width&#58;21%;height&#58;30px;">978-92-801-2596-2</td><td class="ms-rteTableEvenCol-default" rowspan="1" style="width&#58;243px;height&#58;30px;">14 July 2026</td></tr><tr class="ms-rteTableOddRow-default"><td class="ms-rteTableEvenCol-default" rowspan="1" style="width&#58;45%;height&#58;30px;"><a href="https&#58;//imo-epublications.org/content/books/9789280100679">STCW - Fishing 95, 2025 Edition, Russian Edition (digital only)</a></td><td class="ms-rteTableOddCol-default" colspan="1" rowspan="1" style="width&#58;9%;height&#58;30px;"><strong>KA915R</strong></td><td class="ms-rteTableEvenCol-default" rowspan="1" style="width&#58;9%;height&#58;30px;">£34</td><td class="ms-rteTableOddCol-default" rowspan="1" style="width&#58;21%;height&#58;30px;">978-92-801-0067-9</td><td class="ms-rteTableEvenCol-default" rowspan="1" style="width&#58;243px;height&#58;30px;">10 July 2026</td></tr><tr class="ms-rteTableEvenRow-default"><td class="ms-rteTableEvenCol-default" rowspan="1" style="width&#58;45%;height&#58;30px;"><a href="https&#58;//imo-epublications.org/content/books/9789280132465">London Convention and London Protocol, 2026 Edition, Spanish&#160;Edition (digital only)</a></td><td class="ms-rteTableOddCol-default" colspan="1" rowspan="1" style="width&#58;9%;height&#58;30px;"><strong>KC532S</strong></td><td class="ms-rteTableEvenCol-default" rowspan="1" style="width&#58;9%;height&#58;30px;">£39</td><td class="ms-rteTableOddCol-default" rowspan="1" style="width&#58;21%;height&#58;30px;">978-92-801-3246-5</td><td class="ms-rteTableEvenCol-default" rowspan="1" style="width&#58;243px;height&#58;30px;">9 July 2026</td></tr><tr class="ms-rteTableOddRow-default"><td class="ms-rteTableEvenCol-default" rowspan="1" style="width&#58;45%;height&#58;30px;"><a href="https&#58;//imo-epublications.org/content/books/9789280102703">COLREG, 2026 Edition, Chinese&#160;Edition (digital only)</a></td><td class="ms-rteTableOddCol-default" colspan="1" rowspan="1" style="width&#58;9%;height&#58;30px;"><strong>KC904C</strong></td><td class="ms-rteTableEvenCol-default" rowspan="1" style="width&#58;9%;height&#58;30px;">£29</td><td class="ms-rteTableOddCol-default" rowspan="1" style="width&#58;21%;height&#58;30px;">978-92-801-0270-3</td><td class="ms-rteTableEvenCol-default" rowspan="1" style="width&#58;243px;height&#58;30px;">25 June 2026</td></tr><tr class="ms-rteTableEvenRow-default"><td class="ms-rteTableEvenCol-default" rowspan="1" style="width&#58;45%;height&#58;30px;"><a href="https&#58;//imo-epublications.org/content/books/9789280102239">London Convention and London Protocol, 2026 Edition, French Edition (digital only)</a></td><td class="ms-rteTableOddCol-default" colspan="1" rowspan="1" style="width&#58;9%;height&#58;30px;"><strong>KC532F</strong></td><td class="ms-rteTableEvenCol-default" rowspan="1" style="width&#58;9%;height&#58;30px;">£39</td><td class="ms-rteTableOddCol-default" rowspan="1" style="width&#58;21%;height&#58;30px;">978-92-801-0223-9</td><td class="ms-rteTableEvenCol-default" rowspan="1" style="width&#58;243px;height&#58;30px;">24 June 2026</td></tr><tr class="ms-rteTableOddRow-default"><td class="ms-rteTableEvenCol-default" rowspan="1" style="width&#58;45%;height&#58;30px;"><a href="https&#58;//imo-epublications.org/content/books/9789280102628">COLREG, 2026 Edition, Russian Edition (digital only)</a></td><td class="ms-rteTableOddCol-default" colspan="1" rowspan="1" style="width&#58;9%;height&#58;30px;"><strong>KC904R</strong></td><td class="ms-rteTableEvenCol-default" rowspan="1" style="width&#58;9%;height&#58;30px;">£29</td><td class="ms-rteTableOddCol-default" rowspan="1" style="width&#58;21%;height&#58;30px;">978-92-801-0262-8</td><td class="ms-rteTableEvenCol-default" rowspan="1" style="width&#58;243px;height&#58;30px;">24 June 2026</td></tr><tr class="ms-rteTableEvenRow-default"><td class="ms-rteTableEvenCol-default" rowspan="1" style="width&#58;45%;height&#58;30px;"><a href="https&#58;//imo-epublications.org/content/books/9789280100693">STCW - Fishing 95, 2025 Edition, Arabic Edition (digital only)</a></td><td class="ms-rteTableOddCol-default" colspan="1" rowspan="1" style="width&#58;9%;height&#58;30px;"><strong>KA915A</strong></td><td class="ms-rteTableEvenCol-default" rowspan="1" style="width&#58;9%;height&#58;30px;">£34</td><td class="ms-rteTableOddCol-default" rowspan="1" style="width&#58;21%;height&#58;30px;">978-92-801-0069-3</td><td class="ms-rteTableEvenCol-default" rowspan="1" style="width&#58;243px;height&#58;30px;">23 June 2026</td></tr><tr class="ms-rteTableOddRow-default"><td class="ms-rteTableEvenCol-default" rowspan="1" style="width&#58;45%;height&#58;30px;"><a href="https&#58;//imo-epublications.org/content/books/9789280118490">London Convention and London Protocol, 2026 edition (digital)</a></td><td class="ms-rteTableOddCol-default" colspan="1" rowspan="1" style="width&#58;9%;height&#58;30px;"><strong>KC532E</strong></td><td class="ms-rteTableEvenCol-default" rowspan="1" style="width&#58;9%;height&#58;30px;">£39</td><td class="ms-rteTableOddCol-default" rowspan="1" style="width&#58;21%;height&#58;30px;">978-92-801-1849-0</td><td class="ms-rteTableEvenCol-default" rowspan="1" style="width&#58;243px;height&#58;30px;">18 June 2026</td></tr><tr class="ms-rteTableEvenRow-default"><td class="ms-rteTableEvenCol-default" rowspan="1" style="width&#58;45%;height&#58;30px;"><a href="https&#58;//imo-epublications.org/content/books/9789280100617">Instruments relevant to Procedures for Port State Control, 2025, 2026 edition (digital only)</a></td><td class="ms-rteTableOddCol-default" colspan="1" rowspan="1" style="width&#58;9%;height&#58;30px;"><strong>KC657E</strong></td><td class="ms-rteTableEvenCol-default" rowspan="1" style="width&#58;9%;height&#58;30px;">£39</td><td class="ms-rteTableOddCol-default" rowspan="1" style="width&#58;21%;height&#58;30px;">978-92-801-0061-7</td><td class="ms-rteTableEvenCol-default" rowspan="1" style="width&#58;243px;height&#58;30px;">18 June 2026</td></tr><tr class="ms-rteTableOddRow-default"><td class="ms-rteTableEvenCol-default" rowspan="1" style="width&#58;45%;height&#58;30px;"><a href="https&#58;//imo-epublications.org/content/books/9789280100648">Procedures for Port State Control 2025, 2026 Edition (digital)</a></td><td class="ms-rteTableOddCol-default" colspan="1" rowspan="1" style="width&#58;9%;height&#58;30px;"><strong>KG650E</strong></td><td class="ms-rteTableEvenCol-default" rowspan="1" style="width&#58;9%;height&#58;30px;">£45</td><td class="ms-rteTableOddCol-default" rowspan="1" style="width&#58;21%;height&#58;30px;">978-92-801-0064-8</td><td class="ms-rteTableEvenCol-default" rowspan="1" style="width&#58;243px;height&#58;30px;">18 June 2026</td></tr><tr class="ms-rteTableEvenRow-default"><td class="ms-rteTableEvenCol-default" rowspan="1" style="width&#58;45%;height&#58;30px;"><a href="https&#58;//imo-epublications.org/content/books/9789280132366">FSS Code, 2026 Edition, Spanish Edition (digital only)</a></td><td class="ms-rteTableOddCol-default" colspan="1" rowspan="1" style="width&#58;9%;height&#58;30px;"><strong>KC155S</strong></td><td class="ms-rteTableEvenCol-default" rowspan="1" style="width&#58;9%;height&#58;30px;">£69</td><td class="ms-rteTableOddCol-default" rowspan="1" style="width&#58;21%;height&#58;30px;">978-92-801-3236-6</td><td class="ms-rteTableEvenCol-default" rowspan="1" style="width&#58;243px;height&#58;30px;">9 June 2026</td></tr><tr class="ms-rteTableOddRow-default"><td class="ms-rteTableEvenCol-default" rowspan="1" style="width&#58;45%;height&#58;30px;"><a href="https&#58;//imo-epublications.org/content/books/9789280118391">Model Course&#58; Survey of fire appliances and provisions, 2026 Edition (digital only)</a></td><td class="ms-rteTableOddCol-default" colspan="1" rowspan="1" style="width&#58;9%;height&#58;30px;"><strong>KTB305E</strong></td><td class="ms-rteTableEvenCol-default" rowspan="1" style="width&#58;9%;height&#58;30px;">£79</td><td class="ms-rteTableOddCol-default" rowspan="1" style="width&#58;21%;height&#58;30px;">978-92-801-1839-1</td><td class="ms-rteTableEvenCol-default" rowspan="1" style="width&#58;243px;height&#58;30px;">28 May 2026</td></tr><tr class="ms-rteTableEvenRow-default"><td class="ms-rteTableEvenCol-default" rowspan="1" style="width&#58;45%;height&#58;30px;"><a href="https&#58;//imo-epublications.org/content/books/9789280125917">FSS Code, 2026 Edition, French Edition (digital only)</a></td><td class="ms-rteTableOddCol-default" colspan="1" rowspan="1" style="width&#58;9%;height&#58;30px;"><strong>KC155F</strong></td><td class="ms-rteTableEvenCol-default" rowspan="1" style="width&#58;9%;height&#58;30px;">£69</td><td class="ms-rteTableOddCol-default" rowspan="1" style="width&#58;21%;height&#58;30px;">978-92-801-2591-7</td><td class="ms-rteTableEvenCol-default" rowspan="1" style="width&#58;243px;height&#58;30px;">22 May 2026</td></tr><tr class="ms-rteTableOddRow-default"><td class="ms-rteTableEvenCol-default" rowspan="1" style="width&#58;45%;height&#58;30px;"><a href="https&#58;//imo-epublications.org/content/books/9789280118452">FSS Code, 2026 Edition (digital)</a></td><td class="ms-rteTableOddCol-default" colspan="1" rowspan="1" style="width&#58;9%;height&#58;30px;"><strong>KC155E</strong></td><td class="ms-rteTableEvenCol-default" rowspan="1" style="width&#58;9%;height&#58;30px;">£69</td><td class="ms-rteTableOddCol-default" rowspan="1" style="width&#58;21%;height&#58;30px;">978-92-801-1845-2</td><td class="ms-rteTableEvenCol-default" rowspan="1" style="width&#58;243px;height&#58;30px;">22 May 2026</td></tr><tr class="ms-rteTableEvenRow-default"><td class="ms-rteTableEvenCol-default" rowspan="1" style="width&#58;45%;height&#58;30px;"><a href="https&#58;//imo-epublications.org/content/books/9789280100600">Hong Kong Convention, 2025 Edition, Russian Edition (digital only)</a></td><td class="ms-rteTableOddCol-default" colspan="1" rowspan="1" style="width&#58;9%;height&#58;30px;"><strong>KA683R</strong></td><td class="ms-rteTableEvenCol-default" rowspan="1" style="width&#58;9%;height&#58;30px;">£34</td><td class="ms-rteTableOddCol-default" rowspan="1" style="width&#58;21%;height&#58;30px;"><span></span>978-92-801-0060-0</td><td class="ms-rteTableEvenCol-default" rowspan="1" style="width&#58;243px;height&#58;30px;">20 May 2026</td></tr><tr class="ms-rteTableOddRow-default"><td class="ms-rteTableEvenCol-default" rowspan="1" style="width&#58;45%;height&#58;30px;"><a href="https&#58;//imo-epublications.org/content/books/9789280100662">Hong Kong Convention, 2025 Edition, Arabic Edition (digital only)</a></td><td class="ms-rteTableOddCol-default" colspan="1" rowspan="1" style="width&#58;9%;height&#58;30px;"><strong>KA683A</strong></td><td class="ms-rteTableEvenCol-default" rowspan="1" style="width&#58;9%;height&#58;30px;">£34</td><td class="ms-rteTableOddCol-default" rowspan="1" style="width&#58;21%;height&#58;30px;"><span></span>978-92-801-0066-2</td><td class="ms-rteTableEvenCol-default" rowspan="1" style="width&#58;243px;height&#58;30px;">20 May 2026</td></tr><tr class="ms-rteTableEvenRow-default"><td class="ms-rteTableEvenCol-default" rowspan="1" style="width&#58;45%;height&#58;30px;"><a href="https&#58;//imo-epublications.org/content/books/9789280117677">Basic Documents&#58; Volume I,&#160;2023 Edition, Chinese Edition&#160;(digital only)</a></td><td class="ms-rteTableOddCol-default" colspan="1" rowspan="1" style="width&#58;9%;height&#58;30px;"><strong>KC001C</strong></td><td class="ms-rteTableEvenCol-default" rowspan="1" style="width&#58;9%;height&#58;30px;">—</td><td class="ms-rteTableOddCol-default" rowspan="1" style="width&#58;21%;height&#58;30px;">978-92-801-6129-8</td><td class="ms-rteTableEvenCol-default" rowspan="1" style="width&#58;243px;height&#58;30px;">19 May 2026</td></tr><tr class="ms-rteTableOddRow-default"><td class="ms-rteTableEvenCol-default" rowspan="1" style="width&#58;45%;height&#58;30px;"><a href="https&#58;//imo-epublications.org/content/books/9789280118131">Model Course&#58; Actions to be Taken to Prevent Acts of Piracy and Armed Robbery, 2026 Edition&#160;(digital only)</a></td><td class="ms-rteTableOddCol-default" colspan="1" rowspan="1" style="width&#58;9%;height&#58;30px;"><strong>KTA323E</strong></td><td class="ms-rteTableEvenCol-default" rowspan="1" style="width&#58;9%;height&#58;30px;">£79</td><td class="ms-rteTableOddCol-default" rowspan="1" style="width&#58;21%;height&#58;30px;">978-92-801-1813-1</td><td class="ms-rteTableEvenCol-default" rowspan="1" style="width&#58;243px;height&#58;30px;">27 April 2026</td></tr><tr class="ms-rteTableEvenRow-default"><td class="ms-rteTableEvenCol-default" rowspan="1" style="width&#58;45%;height&#58;30px;"><a href="https&#58;//imo-epublications.org/content/books/9789280125955">IGF Code, French Edition, 2026 Edition (digital only)</a></td><td class="ms-rteTableOddCol-default" colspan="1" rowspan="1" style="width&#58;9%;height&#58;30px;"><strong>KA109F</strong></td><td class="ms-rteTableEvenCol-default" rowspan="1" style="width&#58;9%;height&#58;30px;">£34</td><td class="ms-rteTableOddCol-default" rowspan="1" style="width&#58;21%;height&#58;30px;">978-92-801-2595-5</td><td class="ms-rteTableEvenCol-default" rowspan="1" style="width&#58;243px;height&#58;30px;">27 April 2026</td></tr><tr class="ms-rteTableOddRow-default"><td class="ms-rteTableEvenCol-default" rowspan="1" style="width&#58;45%;height&#58;30px;"><a href="https&#58;//imo-epublications.org/content/books/9789280102635">COLREG, 2026 Edition, Arabic Edition (digital only)</a></td><td class="ms-rteTableOddCol-default" colspan="1" rowspan="1" style="width&#58;9%;height&#58;30px;"><strong>KC904A</strong></td><td class="ms-rteTableEvenCol-default" rowspan="1" style="width&#58;9%;height&#58;30px;">£29</td><td class="ms-rteTableOddCol-default" rowspan="1" style="width&#58;21%;height&#58;30px;">978-92-801-0263-5</td><td class="ms-rteTableEvenCol-default" rowspan="1" style="width&#58;243px;height&#58;30px;">21 April 2026</td></tr><tr class="ms-rteTableEvenRow-default"><td class="ms-rteTableEvenCol-default" rowspan="1" style="width&#58;45%;height&#58;30px;"><a href="https&#58;//www.imo.org/en/publications/pages/distributors-default.aspx">IGF Code, 2026 Edition</a></td><td class="ms-rteTableOddCol-default" colspan="1" rowspan="1" style="width&#58;9%;height&#58;30px;"><strong>IA109E</strong></td><td class="ms-rteTableEvenCol-default" rowspan="1" style="width&#58;9%;height&#58;30px;">£34</td><td class="ms-rteTableOddCol-default" rowspan="1" style="width&#58;21%;height&#58;30px;">978-92-801-0057-0</td><td class="ms-rteTableEvenCol-default" rowspan="1" style="width&#58;243px;height&#58;30px;">20 April 2026</td></tr><tr class="ms-rteTableOddRow-default"><td class="ms-rteTableEvenCol-default" rowspan="1" style="width&#58;45%;height&#58;30px;"><a href="https&#58;//imo-epublications.org/content/books/9789280102222">IGF Code, 2026 Edition, Spanish Edition (digital only)</a></td><td class="ms-rteTableOddCol-default" colspan="1" rowspan="1" style="width&#58;9%;height&#58;30px;"><strong>KA109S</strong></td><td class="ms-rteTableEvenCol-default" rowspan="1" style="width&#58;9%;height&#58;30px;">£34</td><td class="ms-rteTableOddCol-default" rowspan="1" style="width&#58;21%;height&#58;30px;">978-92-801-0222-2</td><td class="ms-rteTableEvenCol-default" rowspan="1" style="width&#58;243px;height&#58;30px;">17 April 2026</td></tr><tr class="ms-rteTableEvenRow-default"><td class="ms-rteTableEvenCol-default" rowspan="1" style="width&#58;45%;height&#58;30px;"><a href="https&#58;//imo-epublications.org/content/books/9789280100587">IGF Code, 2026 Edition (digital)</a></td><td class="ms-rteTableOddCol-default" colspan="1" rowspan="1" style="width&#58;9%;height&#58;30px;"><strong>KA109E</strong></td><td class="ms-rteTableEvenCol-default" rowspan="1" style="width&#58;9%;height&#58;30px;">£34</td><td class="ms-rteTableOddCol-default" rowspan="1" style="width&#58;21%;height&#58;30px;">978-92-801-0058-7</td><td class="ms-rteTableEvenCol-default" rowspan="1" style="width&#58;243px;height&#58;30px;">26 March 2026</td></tr><tr class="ms-rteTableOddRow-default"><td class="ms-rteTableEvenCol-default" rowspan="1" style="width&#58;45%;height&#58;30px;"><a href="https&#58;//www.imo.org/en/publications/pages/distributors-default.aspx">COLREG, 2026 Edition</a></td><td class="ms-rteTableOddCol-default" colspan="1" rowspan="1" style="width&#58;9%;height&#58;30px;"><strong>IC904E</strong></td><td class="ms-rteTableEvenCol-default" rowspan="1" style="width&#58;9%;height&#58;30px;">£29</td><td class="ms-rteTableOddCol-default" rowspan="1" style="width&#58;21%;height&#58;30px;">978-92-801-1046-3</td><td class="ms-rteTableEvenCol-default" rowspan="1" style="width&#58;243px;height&#58;30px;">24 March 2026</td></tr><tr class="ms-rteTableEvenRow-default"><td class="ms-rteTableEvenCol-default" rowspan="1" style="width&#58;45%;height&#58;30px;"><a href="https&#58;//www.imo.org/en/publications/pages/distributors-default.aspx">IAMSAR Manual Volume II, 2025 Edition&#160;</a></td><td class="ms-rteTableOddCol-default" colspan="1" rowspan="1" style="width&#58;9%;height&#58;30px;"><strong>II961E</strong></td><td class="ms-rteTableEvenCol-default" rowspan="1" style="width&#58;9%;height&#58;30px;">£89</td><td class="ms-rteTableOddCol-default" rowspan="1" style="width&#58;21%;height&#58;30px;">978-92-801-1822-3</td><td class="ms-rteTableEvenCol-default" rowspan="1" style="width&#58;243px;height&#58;30px;">16 March 2026</td></tr><tr class="ms-rteTableOddRow-default"><td class="ms-rteTableEvenCol-default" rowspan="1" style="width&#58;45%;height&#58;30px;"><a href="https&#58;//www.imo.org/en/publications/pages/distributors-default.aspx">IMSBC Code, 2025 Edition</a></td><td class="ms-rteTableOddCol-default" colspan="1" rowspan="1" style="width&#58;9%;height&#58;30px;"><strong>IM260E</strong></td><td class="ms-rteTableEvenCol-default" rowspan="1" style="width&#58;9%;height&#58;30px;">£115</td><td class="ms-rteTableOddCol-default" rowspan="1" style="width&#58;21%;height&#58;30px;">978-92-801-1840-7</td><td class="ms-rteTableEvenCol-default" rowspan="1" style="width&#58;243px;height&#58;30px;">16 March 2026</td></tr><tr class="ms-rteTableEvenRow-default"><td class="ms-rteTableEvenCol-default" rowspan="1" style="width&#58;45%;height&#58;30px;"><a href="https&#58;//imo-epublications.org/content/books/9789280130010">COLREG, 2026 Edition, Spanish&#160;Edition (digital only)</a></td><td class="ms-rteTableOddCol-default" colspan="1" rowspan="1" style="width&#58;9%;height&#58;30px;"><strong>KC904S</strong></td><td class="ms-rteTableEvenCol-default" rowspan="1" style="width&#58;9%;height&#58;30px;">£29</td><td class="ms-rteTableOddCol-default" rowspan="1" style="width&#58;21%;height&#58;30px;">978-92-801-3001-0</td><td class="ms-rteTableEvenCol-default" rowspan="1" style="width&#58;243px;height&#58;30px;">13 March 2026</td></tr><tr class="ms-rteTableOddRow-default"><td class="ms-rteTableEvenCol-default" rowspan="1" style="width&#58;45%;height&#58;30px;"><a href="https&#58;//imo-epublications.org/content/books/9789280125993">COLREG, 2026 Edition, French Edition (digital only)</a></td><td class="ms-rteTableOddCol-default" colspan="1" rowspan="1" style="width&#58;9%;height&#58;30px;"><strong>KC904F</strong></td><td class="ms-rteTableEvenCol-default" rowspan="1" style="width&#58;9%;height&#58;30px;">£29</td><td class="ms-rteTableOddCol-default" rowspan="1" style="width&#58;21%;height&#58;30px;">978-92-801-2599-3</td><td class="ms-rteTableEvenCol-default" rowspan="1" style="width&#58;243px;height&#58;30px;">9 March 2026</td></tr><tr class="ms-rteTableEvenRow-default"><td class="ms-rteTableEvenCol-default" rowspan="1" style="width&#58;45%;height&#58;30px;"><a href="https&#58;//store.veracity.com/imo-vega">New IMO-Vega release</a></td><td class="ms-rteTableOddCol-default" colspan="1" rowspan="1" style="width&#58;9%;height&#58;30px;">—</td><td class="ms-rteTableEvenCol-default" rowspan="1" style="width&#58;9%;height&#58;30px;">£2,300</td><td class="ms-rteTableOddCol-default" rowspan="1" style="width&#58;21%;height&#58;30px;">—</td><td class="ms-rteTableEvenCol-default" rowspan="1" style="width&#58;243px;height&#58;30px;">2 March 2026</td></tr></tbody></table></div></div><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+                            </p>
+                                                
+                    </div>
+                </article><!-- .article -->
+            </div>
+            <aside class="col mt-9 mt-lg-0 pl-xl-5 pl-xxl-8 pr-xl-0 order-xl-first">
+                <div class="sidebar">
+                    <div class="widget widget-accordion">
+
+                        <h3 class="widget-title">Publications</h3>
+                        <div class="accordion">
+ <div>
+                                            <a class="" href="https://www.imo.org/en/publications/Pages/IMO-ePublications.aspx">
+                                                IMO ePublications
+                                            </a>
+                                        </div>
+ <div>
+                                            <a class="" href="https://www.imo.org/en/publications/Pages/Distributors-default.aspx">
+                                                Distributors&#39; Details
+                                            </a>
+                                        </div>
+ <div>
+                                            <a class="" href="https://www.imo.org/en/publications/Pages/CatalogueAndBookCodeLists.aspx">
+                                                Catalogue ＆ Code Listings
+                                            </a>
+                                        </div>
+ <div>
+                                            <a class="" href="https://www.imo.org/en/publications/Pages/JustPublished.aspx">
+                                                Just Published
+                                            </a>
+                                        </div>
+ <div>
+                                            <a class="" href="https://www.imo.org/en/publications/Pages/FutureTitles.aspx">
+                                                Future Titles
+                                            </a>
+                                        </div>
+ <div>
+                                            <a class="" href="https://www.imo.org/en/publications/Pages/Flyers.aspx">
+                                                Flyers
+                                            </a>
+                                        </div>
+ <div>
+                                            <a class="" href="https://www.imo.org/en/publications/Pages/SupplementsAndCDs-Default.aspx">
+                                                Supplements
+                                            </a>
+                                        </div>
+ <div>
+                                            <a class="" href="https://www.imo.org/en/publications/Pages/PermissionRequests.aspx">
+                                                Copyright and Permission Requests
+                                            </a>
+                                        </div>
+ <div>
+                                            <a class="" href="https://www.imo.org/en/publications/Pages/Counterfeit-copies.aspx">
+                                                Counterfeit copies
+                                            </a>
+                                        </div>
+ <div>
+                                            <a class="" href="https://www.imo.org/en/publications/Pages/IMDG Code.aspx">
+                                                IMDG Code
+                                            </a>
+                                        </div>
+ <div>
+                                            <a class="" href="https://www.imo.org/en/publications/Pages/IMO-Vega.aspx">
+                                                The IMO-Vega Database
+                                            </a>
+                                        </div>
+ <div>
+                                            <a class="" href="https://www.imo.org/en/publications/Pages/FrequentlyAskedQuestions.aspx">
+                                                Frequently Asked Questions (FAQ)
+                                            </a>
+                                        </div>
+ <div>
+                                            <a class="" href="https://www.imo.org/en/publications/Pages/CurrentPublications.aspx">
+                                                Listing of current IMO publications
+                                            </a>
+                                        </div>
+
+                        </div>
+                    </div>
+                </div>
+            </aside>
+
+            <!-- SIDEBAR LEFT END -->
+
+            <aside class="col mt-9 mt-lg-0 pl-xl-5 pl-xxl-8 pr-xl-0">
+                <div class="sidebar">
+                    <!-- .widget -->
+
+                    
+                    <!-- .widget -->
+                    <!-- .widget -->
+
+                </div>
+            </aside>
+
+
+        </div>
+    </div>
+</div><!-- .main-content -->
+<!-- #main -->
+
+    </section>
+    <footer>
+<!-- SECTION -->
+<div class="section-extra-links py-10 bg-grey" style="margin-top: 100px;">
+    <div class="container-fluid">
+        <div class="row">
+                <div class="col-md-6 col-xl-3 py-4 px-xl-1 px-xll-4">
+                    <div class="card card-sm">
+                        <div class="card-media-top embed-responsive embed-responsive-65by33">
+                            <img class="embed-responsive-item" src="https://wwwcdn.imo.org/localresources/en/PublishingImages/SDGs.jpg" alt="image">
+                            <div class="card-img-overlay">
+                                <span class="bottom badge badge-primary badge-mid">SDGs</span>
+                            </div>
+                        </div>
+                        <a href="https://www.imo.org/en/MediaCentre/HotTopics/Pages/SustainableDevelopmentGoals.aspx" class="read-more" aria-label="read more"></a>
+                    </div>
+                </div>
+                <div class="col-md-6 col-xl-3 py-4 px-xl-1 px-xll-4">
+                    <div class="card card-sm">
+                        <div class="card-media-top embed-responsive embed-responsive-65by33">
+                            <img class="embed-responsive-item" src="https://wwwcdn.imo.org/localresources/en/PublishingImages/IMOe-LearningLogo.png" alt="image">
+                            <div class="card-img-overlay">
+                                <span class="bottom badge badge-primary badge-mid">IMO e-Learning</span>
+                            </div>
+                        </div>
+                        <a href="https://lms.imo.org/moodle310" class="read-more" aria-label="read more"></a>
+                    </div>
+                </div>
+                <div class="col-md-6 col-xl-3 py-4 px-xl-1 px-xll-4">
+                    <div class="card card-sm">
+                        <div class="card-media-top embed-responsive embed-responsive-65by33">
+                            <img class="embed-responsive-item" src="https://wwwcdn.imo.org/localresources/en/PublishingImages/TC Dashboard thumbnail_updated_medium.jpg" alt="image">
+                            <div class="card-img-overlay">
+                                <span class="bottom badge badge-primary badge-mid">TC Portal</span>
+                            </div>
+                        </div>
+                        <a href="https://tcportal.imo.org" class="read-more" aria-label="read more"></a>
+                    </div>
+                </div>
+                <div class="col-md-6 col-xl-3 py-4 px-xl-1 px-xll-4">
+                    <div class="card card-sm">
+                        <div class="card-media-top embed-responsive embed-responsive-65by33">
+                            <img class="embed-responsive-item" src="https://wwwcdn.imo.org/localresources/en/PublishingImages/entry-bg3.jpg" alt="image">
+                            <div class="card-img-overlay">
+                                <span class="bottom badge badge-primary badge-mid">PUBLICATIONS</span>
+                            </div>
+                        </div>
+                        <a href="https://www.imo.org/en/publications/Pages/Home.aspx" class="read-more" aria-label="read more"></a>
+                    </div>
+                </div>
+        </div>
+    </div>
+</div>
+<!-- SECTION END -->
+<footer id="footer">
+    <!-- SECTION CTA -->
+    <div class="section section-cta inverse-text has-background">
+        <div class="container">
+            <div class="row align-items-center space-between">
+                <div class=" col-sm-12 col-lg-4">
+                    <div class="media">
+                        <img src="/Content/images/img/English_White_RGB_Horizontal.png" />
+                    </div>
+                </div>
+
+                <div class="mt-md-5 m-xl-0 col-sm-5 col-lg-7">
+                    <div class="follow-us-box text-lg-right">
+                        <h6></h6>
+                        <a href="https://www.facebook.com/IMOHQ/" class="icon-button" aria-label="Facebook"><i class="icon-facebook"></i></a>
+                        <a href="https://twitter.com/imohq" class="icon-button" aria-label="Twitter"><i class="fa fa-twitter"></i></a>
+                        <a href="https://www.youtube.com/user/IMOHQ" class="icon-button" aria-label="Youtube"><i class="icon-youtube"></i></a>
+                        <a href="https://www.flickr.com/photos/imo-un/albums/" class="icon-button" aria-label="flickr"><i class="icon-flickr"></i></a>
+                        <a href="https://www.instagram.com/imo_hq/" class="icon-button" aria-label="instagram"><i class="icon-instagram"></i>  </a>
+                        <a href="https://www.linkedin.com/company/international-maritime-organization" class="icon-button" aria-label="linkedin"><i class="icon-linkedin21"></i>  </a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+       
+    </div>
+    <!-- SECTION CTA END  -->
+    <!-- SECTION  -->
+    <div class="section has-background">
+        <div class="container">
+            <div class="row footer-sidebar">
+                <div class="col-sm-6 col-lg-3">
+                    <div class="widget widget-text">
+                        <p>
+                            <strong>International Maritime Organization (IMO)</strong> 4 Albert Embankment, London SE1 7SR, United Kingdom
+                        </p>
+                        <ul>
+                            <li><a href="tel:+44 (0) 20 7735 7611"><i class="icon-left icon-phone mr-2"></i>+44 (0) 20 7735 7611</a></li>
+                            <li><a href="tel:+44 (0) 20 7735 7611"><i class="icon-left icon-fax mr-2"></i>+44 (0) 20 7735 7611</a></li>
+                            <li><a href="mailto:info@imo.org"><i class="icon-left icon-envelope mr-2"></i>info@imo.org</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <!--Group by start-->
+
+
+                <div class="col-sm-6 col-lg-3">
+                    <div class="widget widget-list">
+                        <ul class="list-bulleted">
+                                    <li><a href="https://www.imo.org/en/KnowledgeCentre/Pages/IMOinUN-default.aspx">IMO in the UN</a></li>
+                                    <li><a href="https://www.imo.org/en/About/Membership/Pages/Default.aspx">Member States</a></li>
+                                    <li><a href="https://www.imo.org/en/About/Pages/Affiliated-Bodies-and-Programmes.aspx">Affiliated Bodies and Programs</a></li>
+                                    <li><a href="https://www.imo.org/en/OurWork/Circulars/Pages/default.aspx">Circulars</a></li>
+                                    <li><a href="https://www.imo.org/en/About/Conventions/Pages/Default.aspx">Conventions</a></li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="col-sm-4 col-lg-3">
+                    <div class="widget widget-list">
+                        <ul class="list-bulleted">
+                                    <li><a href="https://www.imo.org/en/About/Pages/FAQs.aspx">IMO FAQ</a></li>
+                                    <li><a href="https://www.imo.org/en/About/Careers/Pages/default.aspx">Careers at IMO</a></li>
+                                    <li><a href="https://www.imo.org/en/OurWork/ERO/Pages/Internship-default.aspx">Internships</a></li>
+                                    <li><a href="https://www.imo.org/en/OurWork/ERO/Pages/Externships.aspx">Externships</a></li>
+                                    <li><a href="https://www.imo.org/en/About/Procurement/Pages/default.aspx">Procurement</a></li>
+                                    <li><a href="https://www.imo.org/en/OurWork/MSAS/Pages/Casualties.aspx">Casualties</a></li>
+                                    <li><a href="https://www.imo.org/en/OurWork/Circulars/Pages/CP.aspx">National Contacts</a></li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="col-sm-4 col-lg-3">
+                    <div class="widget widget-list">
+                        <ul class="list-bulleted">
+                                    <li><a href="https://www.imo.org/en/publications/Pages/Distributors-default.aspx">Publications Online Ordering</a></li>
+                                    <li><a href="https://www.imo.org/en/OurWork/HumanElement/Pages/CertificateVerification.aspx">Certificate Verification</a></li>
+                                    <li><a href="https://www.imo.org/en/OurWork/Safety/Pages/LRIT.aspx">LRIT</a></li>
+                                    <li><a href="https://www.imo.org/en/KnowledgeCentre/Pages/SearchTheOnlineCatalogueSeaLibrary.aspx">MKC Online Catalogue</a></li>
+                                    <li><a href="https://webaccounts.imo.org/Common/WebLogin.aspx?ReturnUrl=%2f">IMO Web Accounts</a></li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="col-sm-4 col-lg-3">
+                    <div class="widget widget-list">
+                        <ul class="list-bulleted">
+                                    <li><a href="https://www.imo.org/en/About/Pages/DocumentsResources.aspx">Documents and Resources</a></li>
+                                    <li><a href="https://www.imo.org/en/About/Pages/Fraud-Alert.aspx">Fraud Alert</a></li>
+                                    <li><a href="http://www.imo.org/en/About/Pages/SiteIndex.aspx">Site Index</a></li>
+                                    <li><a href="https://www.imo.org/en/About/Pages/ContactUs.aspx">Contact Us</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <!--Group by end-->
+        </div>
+    </div>
+    <!-- </div>-->
+    <!-- SECTION  -->
+    <!-- BOTTOM LINE -->
+    <div class="section bottom-line has-background">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 col-lg-12">
+                    <div class="d-flex flex-wrap align-items-center">
+                        <div>
+                            <p class="copyright">Copyright International Maritime Organization (IMO).</p>
+                        </div>
+                        <div>
+                            <ul class="secondary-nav">
+                                <li>    <a href="https://www.imo.org/en/About/Pages/IMO-Website-Terms-and-conditions-of-use.aspx" class="underlined">Terms of use</a></li>
+                                <li><a href="https://www.imo.org/en/About/Pages/PrivacyPolicy.aspx" class="underlined">Privacy Policy</a></li>
+                            </ul>
+                        </div>
+                        <div class="w-100">
+                            <small>
+                                The official languages of IMO are Arabic, Chinese, English, French, Russian and Spanish. The working languages are English, French and Spanish. Some content on this site is available in all official languages. The majority is presented in the working languages.
+
+                            </small>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <!-- BOTTOM LINE -->
+</footer>
+
+<!--SEARCH MODAL BOX
+<div id="search-box-modal" class="modal fade" aria-hidden="true" tabindex="-1">
+
+    <div class="modal-dialog modal-dialog-centered modal-xl">
+        <a href="#" role="button" class="close icon-button" data-dismiss="modal" aria-label="Close">
+            <i class="icon-cancel" aria-hidden="true"></i>
+        </a>
+        <div class="modal-content">
+            <div class="modal-body">
+                <form class="search-form" action="search" method="post">
+                    <div class="form-group form-group-search">
+                        <input type="text" name="s" class="form-control form-control-lg" id="s"
+                               placeholder="Search IMO.org" aria-label="Search Phrase">
+                        <button type="submit" class="btn btn-lg btn-secondary" name="submit" onclick="siteSearch();">
+                            SEARCH<i class="icon-search"></i>
+                        </button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+SEARCH MODAL BOX END -->
+
+
+<!-- MOBILE NAVIGATION -->
+    <nav id="navbar-mobile" class="navbar-mobile">
+        <ul>
+                    <li>
+                        <span>About IMO</span>
+                        <ul>
+                            <li><a href="https://www.imo.org/en/About/Pages/Default.aspx">ABOUT IMO</a></li>
+                                <li><a href="https://www.imo.org/en/About/Pages/FAQs.aspx">FAQs</a></li>
+                                <li><a href="https://www.imo.org/en/About/HistoryOfIMO/Pages/Default.aspx">History of IMO</a></li>
+                                <li><a href="https://www.imo.org/en/About/Careers/Pages/default.aspx">Careers at IMO</a></li>
+                                <li><a href="https://www.imo.org/en/About/Procurement/Pages/default.aspx">Procurement</a></li>
+                                <li><a href="https://www.imo.org/en/About/Membership/Pages/Default.aspx">Membership</a></li>
+                                <li><a href="https://www.imo.org/en/About/Pages/Structure.aspx">Structure</a></li>
+                                <li><a href="https://www.imo.org/en/About/Pages/Council-candidates.aspx">Council Candidates</a></li>
+                                <li><a href="https://www.imo.org/en/About/Strategy/Pages/Default.aspx">Strategic Plan</a></li>
+                                <li><a href="https://www.imo.org/en/About/Pages/Annual-report.aspx">Annual report</a></li>
+                                <li><a href="https://www.imo.org/en/About/Conventions/Pages/Default.aspx">Conventions</a></li>
+                                <li><a href="https://www.imo.org/en/About/Pages/DocumentsResources.aspx">Documents and Resources</a></li>
+                                <li><a href="https://www.imo.org/en/about/Events/Pages/Default.aspx">IMO Events</a></li>
+                                <li><a href="https://www.imo.org/en/About/Pages/Affiliated-Bodies-and-Programmes.aspx">Affiliated Bodies and Programmes</a></li>
+                                <li><a href="https://www.imo.org/en/About/Pages/WMUandIMLI.aspx">World Maritime University (WMU) and IMO International Maritime Law Institute (IMLI)</a></li>
+                                <li><a href="https://www.imo.org/en/OurWork/Pages/Financial-Statements.aspx">Financial Statements Summary</a></li>
+                                <li><a href="https://www.imo.org/en/About/Pages/IMO-Multilingualism.aspx">IMO and Multilingualism</a></li>
+                                <li><a href="https://www.imo.org/en/About/Pages/Diversity-Equity-Inclusion.aspx">Diversity, Equity and Inclusion</a></li>
+                                <li><a href="https://www.imo.org/en/About/Pages/ContactUs.aspx">Contact Us</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <span>Media Centre</span>
+                        <ul>
+                            <li><a href="https://www.imo.org/en/MediaCentre/Pages/default.aspx">MEDIA CENTRE</a></li>
+                                <li><a href="https://www.imo.org/en/MediaCentre/PressBriefings/Pages/default.aspx">Press Briefings</a></li>
+                                <li><a href="https://www.imo.org/en/MediaCentre/MeetingSummaries/Pages/default.aspx">Meeting Summaries and schedule</a></li>
+                                <li><a href="https://www.imo.org/en/MediaCentre/SecretaryGeneral/Pages/Default.aspx">Secretary-General</a></li>
+                                <li><a href="https://www.imo.org/en/MediaCentre/SecretaryGeneral/Pages/Senior-Management-Committee.aspx">​Senior Management Committee (SMC)</a></li>
+                                <li><a href="https://www.imo.org/en/MediaCentre/Pages/WhatsNew.aspx">What&#39;s New</a></li>
+                                <li><a href="https://www.imo.org/en/MediaCentre/HotTopics/Pages/Default.aspx">Hot Topics</a></li>
+                                <li><a href="https://www.imo.org/en/MediaCentre/IMOMediaAccreditation/Pages/Default.aspx">Attending IMO Meetings</a></li>
+                                <li><a href="https://www.imo.org/en/About/Events/Pages/default.aspx">IMO Events</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <span>Our Work</span>
+                        <ul>
+                            <li><a href="https://www.imo.org/en/OurWork/Pages/Default.aspx">OUR WORK</a></li>
+                                <li><a href="https://www.imo.org/en/OurWork/Safety/Pages/default.aspx">Maritime Safety</a></li>
+                                <li><a href="https://www.imo.org/en/OurWork/Security/Pages/Default.aspx">Maritime Security and Piracy</a></li>
+                                <li><a href="https://www.imo.org/en/OurWork/Environment/Pages/Default.aspx">Marine Environment</a></li>
+                                <li><a href="https://www.imo.org/en/OurWork/Legal/Pages/Default.aspx">Legal Affairs</a></li>
+                                <li><a href="https://www.imo.org/en/OurWork/HumanElement/Pages/Default.aspx">Human Element</a></li>
+                                <li><a href="https://www.imo.org/en/OurWork/Facilitation/Pages/Default.aspx">Facilitation</a></li>
+                                <li><a href="https://www.imo.org/en/OurWork/MSAS/Pages/Default.aspx">Member State Audit Scheme</a></li>
+                                <li><a href="https://www.imo.org/en/OurWork/IIIS/Pages/default.aspx">Implementation of Instruments Support</a></li>
+                                <li><a href="https://www.imo.org/en/OurWork/TechnicalCooperation/Pages/Default.aspx">Technical Cooperation</a></li>
+                                <li><a href="https://www.imo.org/en/OurWork/PartnershipsProjects/Pages/default.aspx">Partnerships and Projects</a></li>
+                                <li><a href="https://www.imo.org/en/OurWork/Conferences/Pages/Default.aspx">Conferences</a></li>
+                                <li><a href="https://www.imo.org/en/OurWork/ERO/Pages/default.aspx">External Relations</a></li>
+                                <li><a href="https://www.imo.org/en/OurWork/Circulars/Pages/default.aspx">Circulars</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <span>Publications</span>
+                        <ul>
+                            <li><a href="https://www.imo.org/en/publications/Pages/Home.aspx">PUBLICATIONS</a></li>
+                                <li><a href="https://www.imo.org/en/publications/Pages/IMO-ePublications.aspx">IMO ePublications</a></li>
+                                <li><a href="https://www.imo.org/en/publications/Pages/Distributors-default.aspx">Distributors&#39; Details</a></li>
+                                <li><a href="https://www.imo.org/en/publications/Pages/CatalogueAndBookCodeLists.aspx">Catalogue ＆ Code Listings</a></li>
+                                <li><a href="https://www.imo.org/en/publications/Pages/JustPublished.aspx">Just Published</a></li>
+                                <li><a href="https://www.imo.org/en/publications/Pages/FutureTitles.aspx">Future Titles</a></li>
+                                <li><a href="https://www.imo.org/en/publications/Pages/Flyers.aspx">Flyers</a></li>
+                                <li><a href="https://www.imo.org/en/publications/Pages/SupplementsAndCDs-Default.aspx">Supplements</a></li>
+                                <li><a href="https://www.imo.org/en/publications/Pages/PermissionRequests.aspx">Copyright and Permission Requests</a></li>
+                                <li><a href="https://www.imo.org/en/publications/Pages/Counterfeit-copies.aspx">Counterfeit copies</a></li>
+                                <li><a href="https://www.imo.org/en/publications/Pages/IMDG Code.aspx">IMDG Code</a></li>
+                                <li><a href="https://www.imo.org/en/publications/Pages/IMO-Vega.aspx">The IMO-Vega Database</a></li>
+                                <li><a href="https://www.imo.org/en/publications/Pages/FrequentlyAskedQuestions.aspx">Frequently Asked Questions (FAQ)</a></li>
+                                <li><a href="https://www.imo.org/en/publications/Pages/CurrentPublications.aspx">Listing of current IMO publications</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <span>Knowledge Centre</span>
+                        <ul>
+                            <li><a href="https://www.imo.org/en/KnowledgeCentre/Pages/Default.aspx">KNOWLEDGE CENTRE</a></li>
+                                <li><a href="https://www.imo.org/en/KnowledgeCentre/Pages/SearchTheOnlineCatalogueSeaLibrary.aspx">Search the MKC Online Catalogue</a></li>
+                                <li><a href="https://www.imo.org/en/KnowledgeCentre/Pages/FindInformation.aspx">How and Where to Find IMO Information</a></li>
+                                <li><a href="https://www.imo.org/en/KnowledgeCentre/IndexofIMOResolutions/Pages/Default.aspx">Index of IMO Resolutions</a></li>
+                                <li><a href="https://www.imo.org/en/KnowledgeCentre/Pages/CurrentAwarenessBulletin-Default.aspx">Current Awareness Bulletin</a></li>
+                                <li><a href="https://www.imo.org/en/KnowledgeCentre/ConferencesMeetings/Pages/Default.aspx">Conferences and Meetings</a></li>
+                                <li><a href="https://www.imo.org/en/KnowledgeCentre/Pages/MaritimeFactsFigures-Default.aspx">Maritime Facts and Figures</a></li>
+                                <li><a href="https://www.imo.org/en/KnowledgeCentre/Resources_for_Seafarers/Pages/default.aspx">Resources for Seafarers</a></li>
+                                <li><a href="https://www.imo.org/en/KnowledgeCentre/Pages/ContactUs.aspx">Contacts</a></li>
+                        </ul>
+                    </li>
+            <li><a href="/en/About/Pages/ContactUs.aspx">Contact us</a></li>
+            <li><a href="/en/About/Careers/Pages/Default.aspx">Careers</a></li>
+            <li><a href="https://webaccounts.imo.org" target="_blank">IMO Web Accounts</a></li>
+        </ul>
+    </nav>
+        <!-- MOBILE NAVIGATION END -->
+
+    </footer>
+
+    <script>
+        $(document).ready(function () {
+
+            var lang = imoorg.Cookies.getCookie("IMOPublicWebsiteLanguage");
+            imoorg.Cookies.setCookie("ISChangeLangClicked", "0", 30);
+
+            setPageLang(lang);
+            $(".setLang").on("click", function (event) {
+                var lang = $(this).attr("lang");
+                imoorg.Cookies.setCookie("ISChangeLangClicked", "1", 30);
+                imoorg.Cookies.setCookie("IMOPublicWebsiteLanguage", lang, 30);
+                imoorg.Cookies.setCookie("PressBriefingName", name, 30);
+                //location.reload();
+
+            })
+
+            function setPageLang(lang) {
+                $('#langselect a').each(function () {
+                    if ((lang == 'en' && $(this).attr('lang') == 'en') ||
+                        (lang == 'fr' && $(this).attr('lang') == 'fr') ||
+                        (lang == 'es' && $(this).attr('lang') == 'es') ||
+                        (lang == 'ru' && $(this).attr('lang') == 'ru') ||
+                        (lang == 'ar' && $(this).attr('lang') == 'ar') ||
+                        (lang == 'zh' && $(this).attr('lang') == 'zh')) {
+                        $(this).css('font-weight', 'bold');
+                    }
+                });
+            }
+        });
+        var imoorg = imoorg || {
+        };
+        imoorg.createNameSpace = function (namespace) {
+            //get the namespace string and split it
+            var namespaceArr = namespace.split('.');
+            var parent = imoorg;
+
+            // excluding the parent
+            if (namespaceArr[0] === 'imoorg') {
+                namespaceArr = namespaceArr.slice(1);
+            }
+
+            // loop through the array and create a nested namespace
+            for (var i = 0; i < namespaceArr.length; i++) {
+
+                var partname = namespaceArr[i];
+
+                // check if the current parent already has the namespace declared
+                // if it isn't, then create it
+                if (typeof parent[partname] === 'undefined') {
+                    parent[partname] = {};
+                }
+
+                // get a reference to the deepest element in the hierarchy so far
+                parent = parent[partname];
+            }
+            //  empty namespaces created and can be used.
+            return parent;
+        };
+
+        imoorg.createNameSpace("imoorg.Cookies");
+
+        imoorg.Cookies.getCookie = function (ck_name) {
+            var ck_value = document.cookie;
+            var ck_start = ck_value.indexOf(" " + ck_name + "=");
+            if (ck_start == -1) {
+                ck_start = ck_value.indexOf(ck_name + "=");
+            }
+            if (ck_start == -1) {
+                ck_value = null;
+            } else {
+                ck_start = ck_value.indexOf("=", ck_start) + 1;
+                var ck_end = ck_value.indexOf(";", ck_start);
+                if (ck_end == -1) {
+                    ck_end = ck_value.length;
+                }
+                ck_value = unescape(ck_value.substring(ck_start, ck_end));
+            }
+            return ck_value;
+        };
+
+        imoorg.Cookies.setCookie = function (ck_name, value, exdays) {
+            var exdate = new Date();
+            exdate.setDate(exdate.getDate() + exdays);
+            var ck_value = escape(value) + ((exdays == null) ? "" : "; path=/;expires=" + exdate.toUTCString());
+            document.cookie = ck_name + "=" + ck_value;
+        };
+    </script>
+    <script src="/Scripts/js/vendors.js"></script>
+    <script src="/Scripts/js/theme.js"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCDYY_ECpWhLm56VGe6abMJ8Msj_Nt_8LM" type="text/javascript"></script>
+    <!--   <script src="~/Scripts/js/twitter-override.js"></script>-->
+    <script src="/Scripts/js/fbShare.js"></script>
+    <script src="/Scripts/js/d3.js"></script>
+
+
+
+    <!-- Global site tag (gtag.js) - Google Analytics
+
+        <script src="~/Scripts/js/homepagevisits.js"></script>
+            <script src="~/Scripts/js/datamaps.world.js"></script>
+            <script src="~/Scripts/js/topojson.v1.min.js"></script>
+    <script src="~/Scripts/js/wim-map.js"></script>-->
+
+</body>
+</html>
