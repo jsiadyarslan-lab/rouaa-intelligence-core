@@ -1,13 +1,13 @@
 {
   "survivor_audit": {
-    "total": 141,
-    "valid": 141,
+    "total": 155,
+    "valid": 155,
     "ambiguous": 0,
     "false_positive": 0,
     "event_precision_pct": 100.0,
     "false_positive_rate_pct": 0.0,
-    "numerator": 141,
-    "denominator": 141,
+    "numerator": 155,
+    "denominator": 155,
     "universe": "all surviving events",
     "sample": "census (100% of corpus)",
     "results": [
@@ -997,30 +997,128 @@
         "source_id": "src-cso-ireland",
         "status": "SEMANTICALLY_VALID",
         "reason": "document has sufficient context (2/2 patterns matched)"
+      },
+      {
+        "io_id": "io-11560eb4ca7cac3c",
+        "event_type": "statistical_release",
+        "source_id": "imp-eurostat",
+        "status": "SEMANTICALLY_VALID",
+        "reason": "document has sufficient context (2/2 patterns matched)"
+      },
+      {
+        "io_id": "io-1305c0b3efc46d4f",
+        "event_type": "statistical_release",
+        "source_id": "imp-euronext",
+        "status": "SEMANTICALLY_VALID",
+        "reason": "document has sufficient context (2/2 patterns matched)"
+      },
+      {
+        "io_id": "io-5f4a24c3e307cc01",
+        "event_type": "monetary_policy_decision",
+        "source_id": "imp-federal-reserve",
+        "status": "SEMANTICALLY_VALID",
+        "reason": "document has sufficient context (2/2 patterns matched)"
+      },
+      {
+        "io_id": "io-68aeb1a370c256a6",
+        "event_type": "monetary_policy_decision",
+        "source_id": "imp-federal-reserve",
+        "status": "SEMANTICALLY_VALID",
+        "reason": "document has sufficient context (2/2 patterns matched)"
+      },
+      {
+        "io_id": "io-d699eb90722fdf91",
+        "event_type": "statistical_release",
+        "source_id": "imp-bea",
+        "status": "SEMANTICALLY_VALID",
+        "reason": "document has sufficient context (2/2 patterns matched)"
+      },
+      {
+        "io_id": "io-43d4e65609c4843a",
+        "event_type": "regulatory_enforcement",
+        "source_id": "imp-fca",
+        "status": "SEMANTICALLY_VALID",
+        "reason": "document has sufficient context (2/2 patterns matched)"
+      },
+      {
+        "io_id": "io-92fd94f33b931e4d",
+        "event_type": "statistical_release",
+        "source_id": "src-boc",
+        "status": "SEMANTICALLY_VALID",
+        "reason": "document has sufficient context (2/2 patterns matched)"
+      },
+      {
+        "io_id": "io-b811a7b2fd5ffe83",
+        "event_type": "statistical_release",
+        "source_id": "src-cbsl-srilanka",
+        "status": "SEMANTICALLY_VALID",
+        "reason": "document has sufficient context (2/2 patterns matched)"
+      },
+      {
+        "io_id": "io-f7afbc048a3e89b6",
+        "event_type": "statistical_release",
+        "source_id": "src-idda-ireland",
+        "status": "SEMANTICALLY_VALID",
+        "reason": "document has sufficient context (2/2 patterns matched)"
+      },
+      {
+        "io_id": "io-9842aa7541401bd0",
+        "event_type": "statistical_release",
+        "source_id": "src-cso-ireland",
+        "status": "SEMANTICALLY_VALID",
+        "reason": "document has sufficient context (2/2 patterns matched)"
+      },
+      {
+        "io_id": "io-a83d4f2ce07d3c33",
+        "event_type": "statistical_release",
+        "source_id": "src-cbbh-bosnia",
+        "status": "SEMANTICALLY_VALID",
+        "reason": "document has sufficient context (2/2 patterns matched)"
+      },
+      {
+        "io_id": "io-b1104549d3b7268c",
+        "event_type": "statistical_release",
+        "source_id": "src-cbbh-bosnia",
+        "status": "SEMANTICALLY_VALID",
+        "reason": "document has sufficient context (2/2 patterns matched)"
+      },
+      {
+        "io_id": "io-6962d7a58097c533",
+        "event_type": "statistical_release",
+        "source_id": "src-cbbh-bosnia",
+        "status": "SEMANTICALLY_VALID",
+        "reason": "document has sufficient context (2/2 patterns matched)"
+      },
+      {
+        "io_id": "io-1b47dec5c429f985",
+        "event_type": "statistical_release",
+        "source_id": "src-cbbh-bosnia",
+        "status": "SEMANTICALLY_VALID",
+        "reason": "document has sufficient context (2/2 patterns matched)"
       }
     ]
   },
   "fact_audit": {
-    "total_facts": 1385,
+    "total_facts": 1531,
     "fact_quality_dist": {
-      "DIRECTLY_SUPPORTED": 1306,
-      "INSUFFICIENT_EVIDENCE": 73,
-      "WRONG_CONTEXT": 6
+      "DIRECTLY_SUPPORTED": 1437,
+      "INSUFFICIENT_EVIDENCE": 76,
+      "WRONG_CONTEXT": 18
     },
     "evidence_grounding_dist": {
-      "INDIRECT_EVIDENCE": 243,
-      "DIRECT_EVIDENCE": 1142
+      "INDIRECT_EVIDENCE": 277,
+      "DIRECT_EVIDENCE": 1254
     },
-    "fact_precision_pct": 94.3,
-    "direct_evidence_pct": 82.5,
+    "fact_precision_pct": 93.9,
+    "direct_evidence_pct": 81.9,
     "insufficient_evidence_count": 0,
     "insufficient_evidence_pct": 0.0,
-    "numerator_fact": 1306,
-    "denominator_fact": 1385,
+    "numerator_fact": 1437,
+    "denominator_fact": 1531,
     "universe_fact": "all facts attached to surviving events",
     "sample_fact": "census (100%)",
-    "numerator_direct": 1142,
-    "denominator_direct": 1385,
+    "numerator_direct": 1254,
+    "denominator_direct": 1531,
     "universe_direct": "all facts attached to surviving events",
     "sample_direct": "census (100%)"
   }

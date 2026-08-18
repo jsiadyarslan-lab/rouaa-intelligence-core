@@ -1,0 +1,511 @@
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta charset="utf-8">
+    <title>Interview with Governor Jasmina Selimović for Central Banking</title>
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=no">
+
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700,300&subset=latin,latin-ext" rel="stylesheet" type="text/css">
+    <link rel="icon" href="/Content/img/favicon.ico" type="image/x-icon" />
+    <link rel="stylesheet" href="/Content/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/Content/css/owl.carousel.css">
+    <link rel="stylesheet" href="/Content/css/style.css">
+    <link rel="stylesheet" href="/Content/css/style-qss.css">
+    <link rel="stylesheet" href="/Content/css/bootstrap-datepicker3.min.css" />
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.imagesloaded/3.2.0/imagesloaded.pkgd.min.js"></script>
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+    <script src="/Scripts/bootstrap.min.js"></script>
+    <script src="/Content/js/bootstrap-datepicker.min.js"></script>
+    <script src="https://code.highcharts.com/highcharts.js"></script>
+    <script src="/Content/js/prefixfree.min.js"></script>
+    <script  async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCfDrtLdJHSwlPOuk5NBN1tzVoKz5NGaso"></script>
+    <script src="/Content/js/custom.js"></script>
+    <script src="/Content/js/owl.carousel.min.js"></script>
+    <script src="/Content/js/custom-qss.js"></script>
+    <script src="/Content/js/icheck.min.js"></script>
+
+    <script>
+        (function (i, s, o, g, r, a, m) {
+            i['GoogleAnalyticsObject'] = r; i[r] = i[r] || function () {
+                (i[r].q = i[r].q || []).push(arguments)
+            }, i[r].l = 1 * new Date(); a = s.createElement(o),
+            m = s.getElementsByTagName(o)[0]; a.async = 1; a.src = g; m.parentNode.insertBefore(a, m)
+        })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
+
+        ga('create', 'UA-79595547-1', 'auto');
+        ga('send', 'pageview');
+
+    </script>
+
+
+
+    <script src='https://www.google.com/recaptcha/api.js?onload=CaptchaCallback&amp;render=explicit'></script>
+</head>
+
+
+
+<body class=" ">    
+    <div class="overlay"></div>
+    <!-- Header -->
+  <header class="header">
+      <div class="topbar"><div class="container"><div class="inner"><div class="page-search"><form class="form form-search"><div class="form-group form-prefixed"><i class="icon-search picto"></i><input id="searchTextBoxDesktop" type="text" name="" value="" class="form-control" placeholder="Search web site" /></div></form></div><div class="secondary"><ul class="list-inline list-menu"><li><a href ="http://fined.cbbh.ba/"> Financial education</a></li><li><a href ="/Content/Read/7"> Banks in BH</a></li><li><a href ="/Content/Read/953"> Public procurement</a></li><li><a href ="/Content/Read/111"> Contacts</a></li><li><a href ="/Content/Read/10"> Links</a></li><li><a href ="/accessibility/"> Accessibility options</a></li><li class="soc"><a href="https://twitter.com/cbbih" class="link-circle" target="_blank"><i class="icon-twitter" ></i></a><a href="https://www.youtube.com/channel/UC8iRX4s7gvnKGnN6DCXxu3Q" class="link-circle" target="_blank"><i class="fab fa-youtube"></i></a><a href="https://www.facebook.com/CentralnaBankaBiH" class="link-circle"><i class="icon-facebook" ></i></a><a href="https://www.linkedin.com/company/cbbih" class="link-circle"><i class="icon-linkedin" ></i></a><a href="https://www.flickr.com/photos/196610362@N02" class="link-circle"><i class="fab fa-flickr" ></i></a><a href="/Feed/Rss/" class="link-circle" target="_blank"><i class="icon-rss"></i></a></li><li class="drop-lang"><a href="#" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false" data-bind="en"> English <span class="caret"></span></a><ul class="dropdown-menu" aria-labelledby="dLabel"><li><a href="?lang=bs">Bosanski</a></li><li><a href="?lang=hr">Hrvatski</a></li><li><a href="?lang=sr">Српски</a></li></ul></li></ul ></div></div></div></div><style>.logobar { background-color: #EAEBED; padding: 50px 0; background-image: url(/data/images/o_cbbh/header-bg.jpg );background-repeat: no-repeat; background-position: center;background-size: cover; position: relative; text-align: center;}</style> <style>@media only screen and (max-width: 992px) { .logobar { background-color: #EAEBED; padding: 5px !important; background-image: url(/data/images/o_cbbh/header-bg.jpg );background-repeat: no-repeat; background-position: center;background-size: cover; position: fixed; text-align: center;} }</style><div class="logobar" style='background:url(<%= BannerUrl %>)'><div class="container" ><div class="logo"><img class="logo-img" src='/data/images/o_cbbh/logo-cbbh-top-mobile.png' alt="Centralna banka Bosne i Hercegovine" /><img class="mob" src='/data/images/o_cbbh/logo-cbbh-top-mobile.png' alt="Centralna banka Bosne i Hercegovine" /></div><a href="#" class="btn-mobilemenu"><span></span><span></span><span></span>MENU</a></div></div>
+      <nav class="navbar navbar-default" role="navigation"> <div class="container">     <div class="navbar-header">         <button type ="button" class="navbar-toggle" data-toggle="collapse" data-target="#mobile-menu">             <span class="sr-only">Toggle navigation</span>             <span class="icon-bar"></span>             <span class="icon-bar"></span>             <span class="icon-bar"></span>         </button>         <a class="navbar-brand" href="#">             <p class="brand-name"><strong>Centralna banka</strong><br />Bosne i Hercegovine</p>         </a>         <a href="#" class="btn-closemenu"><i class="icon-x"></i></a>     </div>     <div class="collapse navbar-collapse" id="mobile-menu">         <form class="navbar-form navbar-left form-search" role="search">             <div class="form-group form-prefixed">                 <i class="icon-search picto"></i>                 <input id="searchTextBoxMobile" type ="text" name="" value="" class="form-control" placeholder="Search web site" />             </div>         </form>         <ul class="nav navbar-nav"> <li><a href="/"><i class="icon-home"></i></a></li><li class="dropdown"><a href="javascript:void(0);" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">About CBBH<span class="caret"></span></a><ul class="dropdown-menu"><li><a href="/Content/Read/13">General Information About the Bank</a></li><li><a href="/Content/Read/14">Regulations</a></li><li><a href="/Content/Read/730">CBBH Organizational Structure</a></li><li><a href="/Content/Read/15">CBBH Governing Board and Management Structure</a></li><li><a href="/Content/Archive/802">Strategic plan 2025 - 2027</a></li><li><a href="/Content/Read/1131">Compliance</a></li><li><a href="/Content/Read/473">Terms of use and other online services of the Central Bank of Bosnia and Herzegovina </a></li><li><a href="/Content/Read/1290">CBBH Privacy Rules</a></li></ul><li class="dropdown"><a href="javascript:void(0);" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">BH Currency<span class="caret"></span></a><ul class="dropdown-menu"><li><a href="/Content/Read/19">KM Banknotes</a></li><li><a href="/Content/Read/1072">KM Coins</a></li><li><a href="/Content/Read/645">Security Features of KM Banknotes</a></li><li><a href="/Content/Read/21">Numismatics</a></li><li><a href="/Content/Read/1261">KM banknotes, being withdrawn from circulation and ceased to be the legal tender</a></li><li><a href="/Content/Read/1287">Technical analysis of suspicious money</a></li><li><a href="/Content/Read/1090">Replacing cash KM unfit for circulation</a></li><li><a href="/Content/Read/1089">Regulations </a></li></ul><li class="dropdown"><a href="javascript:void(0);" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Currency Exchange List<span class="caret"></span></a><ul class="dropdown-menu"><li><a href="/CurrencyExchange/">Foreign Exchange List</a></li><li><a href="/OtherCurrencyExchange/Index/1227">Other Currencies</a></li></ul><li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Payment Systems<span class="caret"></span></a><ul class="dropdown-menu"><li><a href="/Content/Read/1058">Real time gross settlement (RTGS)</a></li><li><a href="/Content/Read/1241">Gyro Clearing</a></li><li><a href="/Content/Read/518">Clearing of International Payments</a></li><li><a href="/Content/Read/1291">Instant Payment System - IPS BiH</a></li><li><a href="/Content/Read/1242">Reports and statistics</a></li><li><a href="/Content/Read/1240">Oversight of payment systems</a></li><li><a href="/Content/Read/59">Contacts</a></li></ul><li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">CBBiH Registries and EIMM<span class="caret"></span></a><ul class="dropdown-menu"><li><a href="/Content/Read/1234">Single Registry of Accounts of Business Entities in Bosnia and Herzegovina</a></li><li><a href="/Content/Read/1235">Central Registry of Credits of legal entities and natural persons in Bosnia and Herzegovina </a></li><li><a href="/JIBAccountList">Business subjects accounts list</a></li><li><a href="/Content/Read/1236">Electronic Interbanking Money Market</a></li><li><a href="/Content/Read/1237">Contacts</a></li></ul><li class="dropdown"><a href="/Content/Read/8" class="dropdown-toggle" role="button" aria-haspopup="true" aria-expanded="false">Statistika</a><ul class="dropdown-menu"></ul><li class="dropdown"><a href="javascript:void(0);" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">International cooperation<span class="caret"></span></a><ul class="dropdown-menu"><li><a href="/Content/relations/892?newscategoryId=69">Membership and relations of BiH with the international financial institutions (IFIs)</a></li></ul><li class="dropdown"><a href="/Content/Read/1278" class="dropdown-toggle" role="button" aria-haspopup="true" aria-expanded="false">Cooperation with the EU</a><ul class="dropdown-menu"></ul><li class="dropdown"><a href="/press/read" class="dropdown-toggle" role="button" aria-haspopup="true" aria-expanded="false">Public Relations</a><ul class="dropdown-menu"></ul><li class="dropdown"><a href="/Content/Read/9" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Publications<span class="caret"></span></a><ul class="dropdown-menu"><li><a href="/Content/Archive/36">Annual Reports</a></li><li><a href="/Content/Archive/575">Financial Stability Reports</a></li><li><a href="/Content/Archive/35">Quarterly Bulletins</a></li><li><a href="/Content/Archive/1260">Report on Macroeconomic Imbalances</a></li><li><a href="/Content/Archive/1231">Financial Stability Risk Assessment</a></li><li><a href="/Content/Archive/903">Monthly Economic Review</a></li><li><a href="/Content/Archive/1134">Annual Financial Statements</a></li><li><a href="/Content/Archive/1137">Quarterly Financial Statements</a></li><li><a href="/Content/Archive/17">CBBH Monthly Report On Currency Board Arrangement</a></li><li><a href="/Content/Read/1138">Monthly Report on Financial Position – Data Series (1997-2018)</a></li><li><a href="/Content/Archive/1069">Weekly report from international financial market</a></li><li><a href="/Content/Archive/144">Special  Research Topics</a></li><li><a href="/Content/Archive/1141">Working papers</a></li><li><a href="/Content/Read/1130">Monograph</a></li></ul><li class="dropdown"><a href="javascript:void(0);" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Human resources<span class="caret"></span></a><ul class="dropdown-menu"><li><a href="/Content/Read/543">Bank as an employer</a></li><li><a href="/career/">Vacancies - employment in CBBH</a></li><li><a href="/Content/Read/1254">Kategorizacija radnih mjesta</a></li><li><a href="/Content/Read/1116">Internship in the CBBH</a></li><li><a href="/Content/Read/1117">Visits CBBH</a></li></ul><li class="dropdown"><a href="/RegistryRegulations" class="dropdown-toggle" role="button" aria-haspopup="true" aria-expanded="false">Public Registry Regulations of CBBH</a><ul class="dropdown-menu"></ul><li class="dropdown"><a href="/Content/Read/1275" class="dropdown-toggle" role="button" aria-haspopup="true" aria-expanded="false">Corporate Social Responsibility</a><ul class="dropdown-menu"></ul><li class="sec"><a href ="http://fined.cbbh.ba/"> Financial education</a></li><li class="sec"><a href ="/Content/Read/7"> Banks in BH</a></li><li class="sec"><a href ="/Content/Read/953"> Public procurement</a></li><li class="sec"><a href ="/Content/Read/111"> Contacts</a></li><li class="sec"><a href ="/Content/Read/10"> Links</a></li><li class="sec"><a href ="/accessibility/"> Accessibility options</a></li><li class="sec bottom-lang"><a href="#" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false" data-bind="en"> English <span class="caret"></span></a><ul class="dropdown-menu" aria-labelledby="dLabel"><li><a href="?lang=bs">Bosanski</a></li><li><a href="?lang=hr">Hrvatski</a></li><li><a href="?lang=sr">Српски</a></li></ul></li>
+    <!-- Navigation -->
+   </header>
+    
+<script type="text/javascript">
+    function newSearch(searchTerm) {
+        window.location = '/search/results?searchTerm=' + searchTerm;
+    }
+    $(document).ready(function () {
+
+        $('#searchTextBoxMobile').keypress(function (e) {
+            if (e.keyCode == 13) {
+                newSearch($('#searchTextBoxMobile').val());
+                return false;
+            }
+        });
+
+        $('#searchTextBoxDesktop').keypress(function (e) {
+            if (e.keyCode == 13) {
+                newSearch($('#searchTextBoxDesktop').val());
+                return false;
+            }
+        });
+
+    });
+</script>   
+
+    
+
+<!-- Breadcrumbs navigation -->
+<div class="subnav">
+    <div class="container">
+        <ol class="breadcrumb"><li><a href="/home"><i class="icon-home"></i></a></li><li class="active">Public Relations</li></ol>
+    </div>
+</div>
+<!-- End Breadcrumbs navigation -->
+<!-- Main Content -->
+<section class="content">
+    <div class="container">
+        <!-- Content Body -->
+        <div class="box contentbox">
+            <article class="main article">
+                <header class="head">
+                    <div class="header">
+                        <h1>Interview with Governor Jasmina Selimović for Central Banking</h1>
+                        <p class="date">7/27/2026</p>
+                    </div>
+                    <div class="boxaction">
+                        <ul class="list-inline list-soc">
+                            <li style="margin-top:5px;">
+                                <!-- Facebook API -->
+                                <div id="fb-root"></div>
+                                <script>
+                                    (function (d, s, id) {
+                                        var js, fjs = d.getElementsByTagName(s)[0];
+                                        if (d.getElementById(id)) return;
+                                        js = d.createElement(s); js.id = id;
+                                        js.src = "//connect.facebook.net/en_GB/sdk.js#xfbml=1&version=v2.4";
+                                        fjs.parentNode.insertBefore(js, fjs);
+                                    }(document, 'script', 'facebook-jssdk'));
+                                </script>
+                                <div class="fb-share-button" data-href="http://www.cbbh.ba/press/ShowNews/1802" data-layout="button"></div>
+                                <!-- Facebook ends here -->
+                            </li>
+                            <!-- Twitter API -->
+                            <li style="margin-top:8px;">
+                                <a class="twitter-share-button" href="https://www.cbbh.ba/press/ShowNews/1802" data-counturl="http://www.cbbh.ba/press/ShowNews/1802"><i class="icon-twitter"></i>Tweet</a>
+                                <script>!function (d, s, id) { var js, fjs = d.getElementsByTagName(s)[0], p = /^http:/.test(d.location) ? 'http' : 'https'; if (!d.getElementById(id)) { js = d.createElement(s); js.id = id; js.src = p + '://platform.twitter.com/widgets.js'; fjs.parentNode.insertBefore(js, fjs); } }(document, 'script', 'twitter-wjs');</script>
+                            </li>
+                            <!-- Twitter ends here -->
+                            <!-- LinkedIn -->
+                            <li style="margin-top:5px;">
+                                <script src="//platform.linkedin.com/in.js" type="text/javascript"> lang: en_US</script>
+                                <script type="IN/Share">
+                                </script>
+                            </li>
+                            <!-- LinkedIn ends here -->
+                            
+                            <li><a href="/Feed/RssNews/1802" class="link-circle" target="_blank"><i class="icon-rss"></i></a></li>
+                            <li><a href="#" class="link-circle wide no-print" onclick="window.print();"><i class="icon-print"> </i></a></li>
+                        </ul>
+                    </div>
+                </header>
+
+                <div class="body">
+<p><em>Jasmina Selimović on managing Europe’s last currency board</em></p>
+<p><em>The Central Bank of Bosnia and Herzegovina governor speaks about building resilience to counter geoeconomic shocks , strengthening reforms amid EU convergence, addressing stablecoin and NBFI risks, Sepa integration, and capacity building.</em></p>
+<p> <img src="/data/slike/galerija-slike/IMG_5406.WEBP" alt="" width="100%" height="auto" /></p>
+<p>Key points</p>
+<p> </p>
+<ul>
+<li>The Middle East conflict is a negative supply shock for Bosnia and Herzegovina, pushing up inflation and weakening growth; the CBBH’s May 2026 projection cuts 2026 growth to 1.9% and lifts inflation to 4.7%.</li>
+<li>BiH imports most oil, gas and many intermediate goods, so higher global energy prices quickly raise domestic transport, heating, electricity and production costs and squeeze household incomes.</li>
+<li>The CBBH is driving payments integration — aiming to join SEPA by end‑2026 and to launch a TIPS‑clone instant payments system on 20 July 2026, with wider bank onboarding through 2027.</li>
+<li>CBBH foreign‑exchange reserves stood at about 18.3bn KM (≈$10.6bn) at end‑May, with an ARA reserve coverage ratio of roughly 110% and net foreign assets near 1.6bn KM, which the bank views as supportive of the currency‑board.</li>
+</ul>
+<p><strong> </strong></p>
+<p><strong>What impacts are higher energy and other prices due to conflicts in the Middle East having on Bosnia and Herzegovina (BiH) and the Central Bank of Bosnia and Herzegovina (CBBH) policy now, and likely in the medium term? </strong></p>
+<p> </p>
+<p>For Bosnia and Herzegovina, the conflict in the Middle East represents primarily a negative supply shock, leading to higher inflation alongside weaker growth prospects. As BiH imports most of its oil, gas and many intermediate goods, increases in global energy prices are transmitted quickly into domestic transport, heating, electricity and production costs. Higher prices also reduce households’ real disposable income, weighing on private consumption and spending, which is a key driver of economic activity.</p>
+<p>In its latest projections – May 2026 – the CBBH identified rising energy costs as an important driver of inflation and warned that geopolitical tensions in the Middle East pose downside risks to economic growth. The projection for BiH’s economic activity growth in 2026 has been revised downwards, to the level of 1.9%, due to the weakening of domestic and external demand, which is reflected through personal consumption, investments, and imports and exports. The inflation rate has been revised to 4.7% in 2026, as a result of higher inflation pressures from the international environment, including rising energy prices on the global market and their spillover into domestic price growth.</p>
+<p>In addition, domestic factors, such as rising cost pressures in the services sector, rising electric energy prices and rising wages, contribute to keeping inflation at a higher level compared with previous projections.</p>
+<p>Over the medium term, inflation is expected to gradually moderate if energy markets stabilise. However, a prolonged period of geopolitical tensions and elevated energy prices would likely keep inflation above previously projected levels while further weakening growth prospects through lower private consumption, reduced business investment and higher production costs. In the medium term, if energy prices remain high, inflation in BiH may stay above the levels previously expected by the CBBH. The role of the CBBH remains anchored in preserving the credibility of the currency board.</p>
+<p> </p>
+<p>Jasmina Selimović is the governor of the Central Bank of Bosnia and Herzegovina, a role she took up for a six-year term in January 2024. She was previoulsy dean of the School of Economics and Business at the University of Sarajevo, a position she had held since 2018. Selimović has served as a longstanding teaching professor at the university, leading courses in finance, quantitative economics and actuarial science. She was previously deputy head of the department of finance and vice-dean for teaching and international co-operation.</p>
+<p>From 2011 to 2015, she was a member of the advisory group of the fiscal council of Bosnia and Herzegovina, as a representative of the prime minister of the Federation of Bosnia and Herzegovina. From 2018, she was an independent member of the supervisory board of Raiffeisen Bank BiH. Since 2021, she has served as president of the board of directors of Sarajevo Canton Institute of Health Insurance.</p>
+<p>Selimović holds a PhD in economic sciences from the University of Sarajevo.</p>
+<p> </p>
+<p><strong>The BiH authorities broke a deadlock last June by reaching an agreement in principle on the draft Reform Agenda under the EU Growth Plan. How are matters progressing, and what impact is this likely to have for CBBH, including the need for capacity building? </strong></p>
+<p><strong> </strong></p>
+<p>The European Commission’s adoption of the Reform Agenda positions the CBBH as a vital leader and the primary engine for integration into the EU single market. While BiH finalises the domestic ratification of the financial agreements, the CBBH is proactively advancing key reforms to maximise this growth opportunity.</p>
+<p>In terms of key advancements, the robust currency board arrangement remains a rock-solid anchor that successfully preserves macroeconomic stability. At the same time, the CBBH is successfully leading the harmonisation process to join the Single Euro Payments Area (Sepa) and the Target Instant Payments (Tips) framework, which is expected to significantly lower transaction costs and boost cross-border trade. The bank also operates as a central hub, uniting ministries, banking agencies and commercial banks to deliver modernised payment systems. Furthermore, this agenda provides an excellent framework for the bank to elevate its data transmissions and financial statistics to meet world-class Eurostat and European Central Bank standards.</p>
+<p>To support this momentum, the CBBH is strongly prioritising internal capacity building and technical modernisation through the complementary IPA III programme. This targeted support ensures central bank staff gain premium professional training to link local payment architecture seamlessly with European Central Bank settlement systems. It also strengthens institutional capacity by helping staff master cutting-edge financial regulations aligned with the EU acquis.</p>
+<p>Ultimately, these ongoing professional development initiatives equip teams with the advanced tools needed to manage a secure, future-proof and fully digitalised financial ecosystem.</p>
+<p> </p>
+<p><strong>How are efforts to upgrade BiH’s fiscal frameworks, with greater harmonisation and stronger enforcement of fiscal rules progressing, particularly when it comes to public sector employment, wages and social benefits, as well as in public investment management, procurement processes, fiscal risk oversight and the governance of public enterprises? </strong></p>
+<p> </p>
+<p>Progress in upgrading BiH’s fiscal frameworks has been very much limited and uneven. Namely, fiscal rules are implemented at different levels of the government. Given such a structure, monitoring and enforcement mechanisms are weak. However, reforms are being implemented at a somewhat slower pace with the aim of harmonising fiscal frameworks, strengthening compliance and improving co-ordination. But, the final step, its implementation, remains incomplete.</p>
+<p>As far as public sector employment, wages and social benefits are concerned, there has been very limited progress. Although the authorities have taken certain actions and implemented measures to get better control over the public wage bill and to target more vulnerable groups of population for social benefits, the share of public employment remains high with relatively high expenditure on wages. In addition to this, reforms were not implemented at an even pace across different levels of government. When it comes to public investment management, some encouraging steps were taken, but weaknesses remain, in particular in execution of public investment projects.</p>
+<p>In procurement processes, progress has been relatively slow to moderate with concerns related to implementation.</p>
+<p>On the other side, in the field of fiscal risk oversight, progress that has been made is encouraging and getting better. In this respect, the authorities have been making real progress in terms of reporting fiscal risks that include public enterprises and contingent liabilities. The limitation here remains that fiscal analysis do not encompass all government levels. However, when it comes to governance of public enterprises, there are certain limitations regarding transparency and efficiency challenges.</p>
+<p>Overall, fiscal frameworks are fragmented between the state, entity, cantonal and local levels. Although efforts to improve co-ordination and strengthen fiscal rule enforcement are under way, implementation remains incomplete.</p>
+<p> <img src="/data/slike/galerija-slike/IMG_6641.WEBP" width="100%" height="NaN" /></p>
+<p><strong>Are there plans to implement the Financial Sector Memorandum of Understanding (FSMOU)? If not, what is holding it back? </strong></p>
+<p><strong> </strong></p>
+<p>The signing of the revised Memorandum of Understanding (MoU) remains one of our primary strategic priorities within BiH’s EU integration process. The new operational framework will ensure the systemic integration of all relevant institutions within the financial safety net, thereby upgrading the current successful bilateral and multilateral co-operation at both domestic and cross-border levels. Due to the high complexity and significance of this document, detailed internal consultations are currently under way to fully harmonise the text with the specific constitutional competences and entity-level legislation governing banking and resolution. The expert teams are specifically focused on defining the technical modalities for information exchange and establishing operational crisis protocols. Achieving a full consensus among all stakeholders is a prerequisite for creating a long-term, sustainable and functional mechanism, which justifies the need for an extended timeframe for co-ordination.</p>
+<p> </p>
+<p><strong>How is the CBBH monitoring financial stability risks associated with rapid expansion of credit? How are enhancements in the macroprudential frameworks progressing? Are loan-to-value (LTV) and countercyclical capital buffer (CCyB) tools available to complement the D-Sibs (domestic systemically important banks) buffer? </strong></p>
+<p> </p>
+<p>The acceleration of credit growth continued for the third year in a row after a multi-year period of extremely weak credit activity, with which the ratio of total loans to GDP again reached the level above 50%, for the first time since 2021. Strong lending growth to the private non-financial sector was supported by relatively favorable financing conditions and stable demand in the circumstances of increasing inflationary pressures, implying lower growth rates in real terms.</p>
+<p>Robust credit growth in the private sector resulted in the narrowing of the negative gap of private credit sector-to-GDP ratio from the second quarter of 2023. In accordance with the CBBH’s latest estimation, the financial cycle in BiH is still in negative territory, according to C2GDP gap (-2.3 percentage points at the end of Q2 2025). At the same time, the composite indicator of financial cycle was above its long-term trend (0.61 standard deviation) at the end of Q4 2025, indicating a recovery of the credit cycle.</p>
+<p>Although the credit-to-GDP gap indicators still have a negative contribution to the composite indicator, negative contribution of these indicators is declining, while the positive value in the last three quarters is due to other non-credit variables included in the assessment of indicator, such as the strong increase in real estate market indicators and bank performance indicators.</p>
+<p>Non-performing loan ratios in both sectors (private companies and households) are at historically low levels. Nevertheless, strong growth in credit activity is contributing to the accumulation of systemic risks. In the context of strong credit activity and rising exposures to the household sector, both banking agencies (the Banking Agency of the Federation of Bosnia and Herzegovina and the Banking Agency of Republika Srpska) developed frameworks for monitoring bank credit activity and measures aimed at borrowers aligned with the relevant standards and recommendations of the European Systemic Risk Board (ESRB) and EU practices.</p>
+<p>In December 2025, the Federal Banking Agency adopted a decision on establishing a framework for monitoring bank credit activity and borrower-based measures, which defines key lending indicators (LTV, loan-to-income, debt-to-income and debt service-to-income), reporting requirements and measures aimed at strengthening the resilience of the banking sector and preserving financial stability. So far, CCyB tools are still not introduced by the banking agencies in BiH.</p>
+<p> </p>
+<p><strong>What efforts have been undertaken to increase the CBBH remuneration rate on banks’ excess reserves to narrow the gap with the ECB deposit rate?  </strong></p>
+<p><strong> </strong></p>
+<p>The CBBH has already taken important steps to adjust its remuneration framework in response to the changing monetary policy environment in the euro area. Prior to 2023, remuneration on excess reserves was effectively negative, reflecting the prolonged period of negative interest rates in the euro area. As monetary conditions changed, the governing board increased remuneration rates on required reserves and raised the remuneration rate on excess reserves from negative levels to 0%. In July 2023, the remuneration rate on required reserves was increased to 0.5% for reserve requirement based on domestic currency and to 0.3% for reserve requirements based on foreign currency and to foreign exchange-indexed liabilities. These measures represented a meaningful adjustment for commercial banks and reduced the cost of holding liquidity at the CBBH.</p>
+<p>Although a gap with the ECB deposit facility rate remains, the CBBH operates under a different institutional framework and mandate than the ECB. Therefore, remuneration decisions cannot be based solely on market interest rate developments. Such decisions also need to reflect the structure of the banking sector, the exceptionally high level of excess liquidity, the impact on the central bank’s balance sheet, and the need to preserve confidence in the currency board arrangement, which remains the cornerstone of monetary and financial stability in Bosnia and Herzegovina.</p>
+<p> </p>
+<p><strong>Will a country-wide financial stability fund to support bank restructuring be created? Has BiH committed to undertake a Financial Stability Assessment Program (FSap)? </strong></p>
+<p> </p>
+<p>Establishing a fund for bank restructuring in BiH represents a complex regulatory and institutional challenge. It is the missing link in the complete bank restructuring system, and also an obligation according to the relevant EU directive. The idea of ​​establishing a restructuring fund, financed by bank contributions, was not disputed from the beginning of the drafting of the new laws on banks from 2017–18. But the question of its organisation and arrangement was left for later analysis to find an optimal solution. The challenge is to reach an institutional consensus that the model for establishing the fund would ensure economies of scale while at the same time ensuring the formal-legal integrity of the restructuring process, which is the responsibility of the entities.</p>
+<p> </p>
+<p>We are fully aware that modern economic challenges – ranging from inflationary pressures to digitalisation and cyber risks – cannot be addressed in isolation Jasmina Selimović, Central Bank of Bosnia and Herzegovina</p>
+<p> </p>
+<p>In addition, in accordance with the recommendation of the International Monetary Fund, the restructuring fund would also serve to provide liquidity support to banks in the absence of a legal basis for the establishment of the function of lender of last resort in the CBBH. This further complicates the entire process of establishing a formal-legal framework for the fund’s functioning.</p>
+<p>The CBBH supports the launch of a new FSap mission, emphasising that the success of this complex process depends entirely on close co-operation and co-ordination among all the key institutions in the country. Maintaining financial stability and economic resilience is a shared goal that the CBBH divides with BiH’s Ministry of Finance and Treasury, the entity ministries of finance, as well as the entity banking agencies. The new financial sector assessment, jointly conducted by the IMF and the World Bank, will provide all of us with invaluable data and guidelines for the further improvement of our regulatory framework.</p>
+<p>We are fully aware that modern economic challenges – ranging from inflationary pressures to digitalisation and cyber risks – cannot be addressed in isolation. The CBBH is ready to contribute its full capacity and work hand in hand with the entity agencies and ministries. Only through a true partnership and full respect for the competencies of all participating institutions can we accelerate our path towards the EU, strengthen investor confidence, and guarantee the safety of our citizens’ deposits.</p>
+<p><strong> </strong></p>
+<p><strong>What are the CBBH’s gross and net FX reserves? Do you believe they are sufficiently large? </strong></p>
+<p><strong> </strong></p>
+<p>At the end of May, CBBH’s FX reserves were at a level of around 18.3 billion KM ($10.6 billion). While the absolute level of FX reserves is an important indicator, for a central bank operating under a currency board arrangement, particular attention is paid to the reserve coverage ratio. This ratio reflects the extent to which FX reserves back the central bank’s monetary liabilities and underpin confidence in the currency board arrangement and the convertible mark. The reserve coverage ratio currently stands at around 110%, comfortably above the minimum requirements of the currency board arrangement. We view this as a strong indicator of the strength and resilience of the reserve position and an important source of confidence in both the currency board arrangement and the convertible mark.</p>
+<p> </p>
+<p>At the same time, FX reserves have continued to grow over the years. Their growth reflects a combination of factors, including developments in external balances, capital inflows and broader confidence in the domestic monetary framework. Importantly, this increase in reserves has been achieved while maintaining a strong reserve coverage ratio and a positive level of net foreign assets, which stood at approximately 1.6 billion KM at the end of May 2026.</p>
+<p>Ultimately, FX reserves are not an objective in themselves. They provide the backing for the central bank’s monetary liabilities and represent one of the key foundations of confidence in the currency board arrangement and the domestic currency. From our perspective, the combination of sustained reserve growth, a reserve coverage ratio of around 110% and a positive level of net foreign assets demonstrates that reserves continue to fulfil their fundamental role as a cornerstone of monetary and financial stability in BiH.</p>
+<p> </p>
+<p><strong>Do you place more focus these days on resilience to financial and geopolitical shocks by using more scenario analysis and stress-testing versus portfolio optimisation? </strong></p>
+<p> </p>
+<p>Given the characteristics of the CBBH’s FX reserve management framework, our perspective is shaped by the specific responsibilities that come with operating under a currency board arrangement. The range of instruments and counterparties available for reserve management is clearly defined by Law on the Central Bank of Bosnia and Herzegovina and by our internal framework. That means resilience in our case is not about redesigning the investment universe or taking a broader investment risk. It is primarily about understanding how the existing FX reserve portfolio would behave under stress and ensuring it remains safe, liquid and available under all circumstances.</p>
+<p> </p>
+<p>FX reserves are not simply an investment portfolio on the balance sheet of the central bank. They are the backing for our monetary liabilities Jasmina Selimović, Central Bank of Bosnia and Herzegovina</p>
+<p> </p>
+<p>Recent years have shown that some risks cannot be fully captured by historical data or standard analytical tools. Market volatility, abrupt changes in interest rates, geopolitical tensions and disruptions in financial markets can all affect FX reserve portfolios in different ways. This is why scenario analysis and stress-testing are increasingly important. They help us to assess not only potential valuation effects, but also liquidity, concentration, counterparty and operational risks under stressed conditions.</p>
+<p>This is particularly important in a currency board arrangement. FX reserves are not simply an investment portfolio on the balance sheet of the central bank. They are the backing for our monetary liabilities and one of the key foundations of confidence in the currency board and domestic currency. Therefore, when we assess resilience, we are not only asking whether the portfolio would perform well in market terms. We are asking whether the FX reserve position would remain strong enough to support the monetary framework under different economic, financial and geopolitical scenarios.</p>
+<p> </p>
+<p><strong>What does that mean regarding actual holdings, their location, the counterparts used, etc? </strong></p>
+<p> </p>
+<p>In practical terms, this also affects how we look at actual holdings, counterparties and operational arrangements. Since the investment universe is conservative and legally constrained, the focus is constantly on the quality and liquidity of eligible assets, concentration limits, counterparty credit quality, custody and settlement arrangements, and continued access to liquidity in periods of stress. The location of assets, the robustness of custody infrastructure and the diversification of counterparties are, therefore, part of the broader resilience assessment.</p>
+<p> </p>
+<p><strong>What are your views when it comes to gold holdings, duration discipline and diversification? </strong></p>
+<p> </p>
+<p>When it comes to gold, duration and diversification, we apply the same overall principles. Gold may contribute to portfolio resilience not only because it is not exposed to credit risk, but also because its behaviour can differ significantly from that of traditional fixed-income assets during periods of market stress.</p>
+<p>Our own experience has demonstrated that even a relatively small allocation of gold can provide meaningful diversification benefits. During the sharp interest rate adjustment cycle that began in 2022, gold contributed positively to overall portfolio resilience and helped mitigate part of the valuation pressure experienced by fixed-income holdings. This provided additional flexibility during a period of significant market adjustment and supported the gradual restructuring of the FX reserve portfolio into the higher yield environment that followed.</p>
+<p>At the same time, for a central bank operating under a currency board arrangement the role of gold must always be assessed alongside liquidity requirements, reserve backing considerations and the broader objective of maintaining confidence in the monetary framework. Gold, therefore, forms part of the overall FX reserve management framework rather than being viewed as a standalone investment theme. Duration discipline is also essential because interest rate risk can have a direct impact on the valuation of reserves. The objective is not to position the portfolio around a single market view, but to ensure that the portfolio remains consistent with our safety and liquidity objectives under different interest-rate environments.</p>
+<p>Diversification remains important, but within the boundaries of our legal framework. For us, diversification is not only about issuers or instruments, it also relates to counterparties, custody arrangements, settlement infrastructure and sources of liquidity. In other words, resilience is not only about the assets we hold, but also about ensuring that the operational and institutional framework supporting reserve management remains robust and effective under adverse conditions.</p>
+<p> <img src="/data/slike/galerija-slike/Interview_Central_Banking.JPG" width="100%" height="NaN" /></p>
+<p><strong>Are you concerned that the increasing importance of NBFIs and private stablecoins could ultimately undermine the monetary transmission channel and even monetary sovereignty? </strong></p>
+<p> </p>
+<p>The growing importance of non-bank financial institutions (NBFIs) and private stablecoins should be monitored with caution. The role of fintech in the development of the digital payments market, as well as the broader ecosystem of NBFIs, has become increasingly significant in advancing modern payment systems. In addition, stablecoin digital assets designed to maintain a stable value by being pegged to fiat currencies have further diversified the financial landscape and fostered the development of innovative payment and financial instruments. From a holistic perspective, these market participants, mechanisms and financial instruments collectively serve as important catalysts for innovation and efficiency within the payments ecosystem. However, their growing importance also underscores the need for robust regulatory frameworks and effective supervisory oversight. Recent regulatory initiatives, both within the EU and globally, particularly those addressing digital assets and payment infrastructures, reflect regulators’ commitment to preserving financial stability while supporting technological innovation.</p>
+<p> </p>
+<p>Although BiH is not part of the EU, Mica is likely to serve as an important benchmark for future regulatory developments in the region Jasmina Selimović, Central Bank of Bosnia and Herzegovina</p>
+<p> </p>
+<p>Nevertheless, the pace of innovation continues to increase regulatory complexity, placing greater pressure on supervisory authorities to ensure that regulatory frameworks remain effective and adaptable. Adequate oversight is therefore a fundamental prerequisite for the sustainable development of these market mechanisms, as maintaining public confidence remains essential to their long-term success. Furthermore, safeguarding financial stability constitutes a core policy objective, making the role of central banks particularly in the regulation and supervision of digital payment systems and related financial infrastructures both critical and increasingly consequential.</p>
+<p>In the case of BiH, the issue should be viewed in the context of our currency board arrangement and the high degree of integration with the European financial system. The EU’s Mica framework represents an important step toward establishing a harmonised regulatory approach to crypto assets, enhancing consumer protection and mitigating potential risks to financial stability. Although BiH is not part of the EU, Mica is likely to serve as an important benchmark for future regulatory developments in the region. For the CBBH, maintaining confidence in the convertible mark and safeguarding monetary and financial stability remain the primary objectives, while ensuring that financial innovation develops within an appropriate regulatory framework.</p>
+<p>Regarding the specific impact on BiH and transmission channels, which is already slow and sluggish, the current scale of activity involving stablecoins and other crypto assets in the country is limited, suggesting that their impact on monetary transmission would likely be very small, if not negligible, at this stage. While developments in this area should continue to be monitored, they do not currently represent a material challenge to the effectiveness of monetary transmission or to monetary sovereignty.</p>
+<p> </p>
+<p><strong>Some have said that strong growth in US dollar stablecoin use could lead to problems in the US Treasury market if a stablecoin was to come under pressure or fail. Is this a concern for you or are you more worried about a potential run on US Treasuries causing problems in making payments using US dollar stablecoins around the world? </strong></p>
+<p> </p>
+<p>US dollar stablecoins have become dominant forces in the short-term US Treasury market. Leading issuers such as USDT and USDC hold the bulk of their reserves in Treasury bills and repo agreements, which makes them liquid, as well as tightly bound to the stability of the US financial system. When demand for stablecoins rises, issuers purchase more Treasuries, pushing short-term yields down. On the other hand, if trust in a stablecoin falters, large scale redemptions could force issuers to liquidate their Treasury holdings quickly, potentially destabilising the market and amplifying systemic risk.</p>
+<p>Stablecoins rely on Treasuries to maintain their peg to the dollar, but their own stability also depends on the resilience of the Treasury market. A potential run on US Treasuries would impair the ability of stablecoins to provide global dollar liquidity, undermining their role as a safe digital proxy for cash. In effect, stablecoins are not insulated from traditional finance. Instead, they are deeply intertwined with it.</p>
+<p>The rapid growth of US dollar-denominated stablecoins may introduce new interlinkages between the crypto-asset ecosystem and the US Treasury market. As stablecoin issuers increasingly hold Treasury securities as reserve assets, developments in one market could have implications for the other, particularly during periods of heightened market stress. While disruptions involving stablecoins could have localised effects on Treasury market liquidity, broader volatility in the Treasury market could also influence confidence in dollar-backed stablecoins. These evolving linkages highlight the importance of appropriate risk management, transparency and regulatory oversight to support financial stability and the smooth functioning of payment systems.</p>
+<p>Since BiH operates under a currency board arrangement, the stability of the domestic currency depends on the stability of the euro and indirectly on the global US Treasury bill market. Still, due to the pegged currency, foreign reserves and the legal approach to stablecoins in BiH, their direct influence is most likely minimised.</p>
+<p> </p>
+<p><strong>What is the timeline for full Sepa implementation? Can you explain the assumptions behind the estimated €90 million annual savings for diaspora remittances by implementing the scheme, and what are the annual costs? </strong></p>
+<p> </p>
+<p>The CBBH is actively and continuously co-ordinating the process of regulatory alignment with all relevant institutions in Bosnia and Herzegovina through the Co-ordination Committee – which it chairs – to support our Sepa integration. The final version of the application has been prepared, and its submission is expected following the adoption of necessary legislation at the entity level in the near future. Following the submission, an assessment and comment process will be conducted by the European Payments Council and the Directorate-General for Financial Stability, Financial Services and Capital Markets Union. After all comments have been addressed and aligned, the EPC will issue its final opinion regarding Bosnia and Herzegovina’s membership in Sepa.</p>
+<p>The current plan is to join Sepa by the end of 2026. Upon obtaining membership, the second phase will commence – the onboarding of banks into Sepa schemes and the execution of Sepa payment transactions. The CBBH is actively engaged in preparatory activities for this phase as well, and our activities include training banks and supporting process preparations, as the CBBH will also play a focal role in banks’ participation in Sepa schemes; and preparatory activities aimed at operationalising an efficient Sepa.</p>
+<p>The estimated annual savings of over €90 million are based on a joint cost-structure analysis of cross-border payments conducted by the World Bank and the CBBH. Entering into Sepa would eliminate current arrangements that include intermediary banks – currently, our banks must route transactions through correspondent banks in the EU, incurring high fees. For instance, on a €1,000 inbound transfer, a recipient in BiH currently loses up to 10%. Joining Sepa eliminates these intermediary costs completely, dropping the fee to just the local bank’s base commission. About 80% of BiH’s total imports and exports are with Sepa member countries, with payment transaction costs for our businesses up to six times higher than those within Sepa. Applying this premium to billions of euros in trade volume results in tens of millions in accumulated annual losses for our economy. One great contributor to our GDP is diaspora remittances, which amount to at least €3 billion annually (around 10% of our GDP). A large portion of this money currently is sent via high-fee channels or brought by hand. Under Sepa, transferring euros from an account in the Sepa zone to BiH will cost the same as a domestic transfer within those countries, directly keeping millions of euros in the pockets of our citizens. Other important aspects are speed and liquidity. Current cross-border transfers take two to five business days. Sepa introduces standard rapid processing and instant payments – settled within seconds, 24/7/365. This faster capital turnover drastically improves business liquidity and reduces the need for short-term financing, generating substantial hidden savings for companies.</p>
+<p> </p>
+<p><strong>What is the current readiness status for the Tips‑clone instant payments platform? </strong></p>
+<p> </p>
+<p>The CBBH signed a letter of intent together with four Western Balkan countries to establish a Tips clone system. The system is being implemented by the Bank of Italy, which operates the EU Tips system since the clone has the same architecture, operating model and operational resilience as the EU Tips. The official launch date of the domestic instant payments system in Bosnia and Herzegovina is July 20, 2026, with Tips Clone serving as the domestic instant payments platform. Initially, a limited number of banks, acting as payment service providers, are onboarded to the system, followed by other banks in subsequent phases. This phased implementation approach allows for an initial period of system stabilisation and supports the gradual expansion of instant payment services across the market. By the start of 2027, all major banks in Bosnia and Herzegovina would be on the Tips Clone platform. Our vision is not to have a payment rail, but to establish a new payment ecosystem using overlay services that will be built on top of Tips Clone infrastructure making payments faster, safer, more efficient and cheaper for individuals and companies in Bosnia and Herzegovina.</p>
+<p> </p>
+<p>The CBBH recognises that the digitalisation of the eurozone will inevitably impact the BiH financial system Jasmina Selimović, Central Bank of Bosnia and Herzegovina</p>
+<p> </p>
+<p>The second phase will involve interconnecting the western Balkan countries using the Tips Clone solution, enabling instant transfers for both legal entities and individuals across participating countries. Phase three of Tips Clone as a platform will link domestic payment service providers with the pan-European Tips infrastructure and EU payment service providers, enabling instant transfers between legal entities and individuals in BiH and the EU, once the necessary formal preconditions are met. Separately, we are also finishing the migration of our real-time gross settlement system from Swift Fin to the ISO 20022 standard.</p>
+<p> </p>
+<p><strong>Do you envisage the CBBH also having some form of ‘clone’ related to the digital euro if and when it is issued? </strong></p>
+<p> </p>
+<p>While the convertible mark is pegged to the euro, any monetary and technological evolution introduced by the ECB, including the potential issuance of the digital euro, is being closely monitored. The CBBH recognises that the digitalisation of the eurozone will inevitably impact the BiH financial system. Any future decision to introduce a convertible mark CBDC would require thorough impact assessments, alignment with domestic legal frameworks, and co-ordination with regional and European partners to ensure monetary stability and potential cross-border financial flows.</p>
+<p> </p>
+<p><strong>How is the CBBH embracing digitalisation and AI to improve transparency and efficiency at the central bank and across the financial sector? </strong></p>
+<p><strong> </strong></p>
+<p>Digitalisation and AI are not merely technological upgrades, they are strategic imperatives designed to reinforce institutional trust, core efficiency and regulatory clarity. Our approach is defined by balancing meaningful innovation with rigorous institutional governance. We are currently driving this transformation through two interconnected pillars:</p>
+<p>The first is modernising public infrastructure and transparency. The cornerstone of our public-facing digitalisation is the upcoming launch of our redesigned official website. This platform will serve as the primary engine for enhanced transparency. In parallel, we have developed a proof of concept for an advanced AI-powered virtual assistant, which will represent the next phase of implementation in enhancing the transparency of the central bank’s public website. Moving beyond standard chatbot functionalities, this solution is built on strictly curated, verified and approved knowledge bases. By limiting its scope to validated institutional data, we ensure high-integrity retrieval without the risk of independent content generation, providing financial institutions and the public with immediate, reliable access to CBBH insights and regulatory frameworks.</p>
+<p> </p>
+<p>Secondly, we are elevating our internal analytical capability. This centered on a structured ‘proof-of-concept’ model where we are piloting internal AI knowledge assistants, automated document analysis, and advanced tools designed to process vast volumes of regulatory and analytical data. In a central banking environment, where decision-making depends on the precise synthesis of extensive documentation, these tools significantly optimise our internal workflows and reduce time-to-insight for our analysts.</p>
+<p>These initiatives are not being developed in isolation. We are actively fostering an ecosystem that bridges central banking expertise with academic research and leading external technology providers. Ultimately, by modernising our digital infrastructure and embedding carefully governed AI capabilities, the CBBH is transitioning into a more data-driven, agile institution. This not only elevates our internal operational efficiency but also sets a benchmark for the wider financial sector, ensuring a more transparent and stable economic environment.</p>
+<p> </p>
+<p><strong>What is the implementation roadmap to improve financial education in schools? How will you measure outcomes, and how does this initiative link to your wider financial stability and inclusion objectives? </strong></p>
+<p> </p>
+<p>Our implementation of financial education is based on the gradual introduction of financial literacy into the educational system, with close co-operation with educational and pedagogical institutions, teachers, the financial sector and international partners. The curriculum includes topics such as personal budget management, savings, responsible borrowing, digital payments, financial security, recognition of financial fraud, as well as basic concepts of investing and entrepreneurship. The content will be adapted to different ages, with a special focus on upper elementary school and high school students – age groups that are preparing to make financial decisions independently.</p>
+<p>An important segment of implementation is the training of teachers through specialised educational programmes, manuals and digital teaching materials. Our goal is to ensure that the teaching staff has up-to-date knowledge and practical tools for quality implementation of financial literacy content in classrooms. We will measure the results through several indicators, including the number of schools, teachers and students involved, the results of evaluation tests before and after the education, the level of acquired knowledge and changes in the attitudes and behaviour of students when it comes to managing money and using financial services. In the long term, we will also monitor broader indicators of citizens’ financial literacy.</p>
+<p> </p>
+<p>This initiative is directly related to our strategic goals of strengthening financial stability and financial inclusion. Informed citizens make more responsible financial decisions, manage their personal finances more easily and use financial products and services more safely. This contributes to the greater resilience of households, more responsible management of financial risks and the inclusion of a greater number of citizens in the regulated financial system.</p>
+<p> </p>
+<p><strong>Is demand for sharia-compliant finance growing in BiH? Is the CBBH involved in the supervision and regulation of these types of products? </strong></p>
+<p><strong> </strong></p>
+<p>It is important to emphasise that CBBH does not have any mandate on supervision and regulation of different types of products. This is under the mandate of the two entity banking agencies. In BiH there is only one sharia-compliant bank with a small market share in the total banking sector. The absence of a comprehensive legal and regulatory framework specifically tailored for Islamic finance constrains expansion. Current regulations primarily cater to conventional banks. Despite market potential, a low awareness and understanding of Islamic finance principles hinder wider adoption. Also, compared to conventional financial sectors, Islamic banking has received limited government policy encouragement. As the biggest potential for promoting sharia-compliant financing we could single out the establishment of the Agency for Halal Quality Certification. This boosts credibility and compliance of financial products aligned with sharia principles, indirectly supporting banking growth.</p>
+<p> </p>
+<p>Our shared strategic objective is to transition from a reactive defence posture to a proactive, collective cyber resilience model Jasmina Selimović, Central Bank of Bosnia and Herzegovina</p>
+<p> </p>
+<p><strong>Which financial institutions and authorities will participate in the new ‘cyber security information‑sharing centre’? What types of information will be shared, how will data confidentiality and legal constraints be managed, and what KPIs will you use to measure the centre’s effectiveness? </strong></p>
+<p> </p>
+<p>In alignment with European Union standards and technical frameworks, the new Financial Sector Cyber Information-Sharing Centre, based on the Malware Information Sharing Platform with its technical implementation partially funded by the EU, has been established as a joint initiative of the key financial regulatory agencies and the Deposit Insurance Agency of Bosnia and Herzegovina. It is important to emphasise that this is not exclusively a central bank project. Rather, it is a system-wide effort where the CBBH has taken an active, foundational role as the central integrator, providing the essential connective tissue to link all participants in the financial system into a unified platform built for mutual benefit. Our shared strategic objective is to transition from a reactive defence posture to a proactive, collective cyber resilience model.</p>
+<p> </p>
+<p>To address the core components of this initiative, the strategy is structured across three pillars.</p>
+<p> </p>
+<p>The first is ecosystem governance and participation. The governance model reflects a true partnership, designed in two strategic phases. Phase one is the core authority integration. This is operational and unites the entities’ banking supervision agencies, deposit insurance institutions and the CBBH. Here, the CBBH acts as the central co-ordination hub, ensuring public-to-public sector synchronisation. Phase two inolved market integration through the gradual onboarding of commercial banks. By leveraging the infrastructure established by the agencies and the CBBH, the platform will transform into a comprehensive network where threat intelligence flows continuously, benefiting all participants in the broader financial sector.</p>
+<p> </p>
+<p>The second phase is information taxonomy and confidentiality. The center focuses strictly on actionable cyber threat intelligence (CTI), including indicators of compromise and anonymised incident lessons. Because this is a joint inter-agency platform, mutual trust is paramount. To navigate legal constraints and eliminate institutional liability, the platform enforces two strict protocols. One is on operational confidentiality to utilise the international protocol to ensure that data distribution is strictly controlled by the source institution. The other is data anonymisation. The system isolates and shares technical threat indicators while stripping out proprietary or institution-identifying data, preserving participant autonomy and compliance with data protection laws.</p>
+<p>The third pillar is measuring effectiveness through the future KPI framework. Given the platform is currently in its early adaptation phase, our immediate strategic focus is on driving forward system adoption and building user trust across all institutions. As the platform matures and achieves full operational capacity, we plan to establish a formalised KPI framework to measure its systemic effectiveness.</p>
+<p>Ultimately, by acting as the active connector in this joint regulatory initiative, the CBBH is helping to secure not just its own perimeter, but structurally preparing the entire financial system of Bosnia and Herzegovina to act as a unified, resilient and collaborative ecosystem.</p>
+<p> </p>
+<p><strong>What indicators are included in the sex‑disaggregated dashboard, how frequently will data be updated and what incentives or regulatory measures do you plan to encourage banks to translate this evidence into greater lending to women entrepreneurs? </strong></p>
+<p> </p>
+<p>The following indicators are included: micro, small, and medium enterprises (MSME) business customers, MSME number of loans (by sex and size), MSME business outstanding loans, MSME business non-performing loans, MSME loans by maturity, MSME effective interest rate, MSME type of loan by purpose and economic activity (NACE classification) and MSME collateralised loans.</p>
+<p>As for the frequency of data dissemination, it is envisaged to be on an annual level with the possibility to expand it to quarterly as well. The purpose of the dashboard is to serve as a tool for policy-makers and financial institutions to make informed decisions related to the increase of lending of women entrepreneurs. Therefore, the CBBH supports financial institutions in accessing and analysing high-quality, timely and gender-disaggregated data on the use of credit and deposit services by WMSMEs. These insights are key to designing effective solutions and driving measurable impact.</p>
+<p>At this stage, the WE Finance Code in BiH is based on a voluntary, evidence-driven approach rather than mandatory lending targets or regulatory quotas. Through the letters of intent and the ongoing submission of letters of commitment, participating institutions have expressed their willingness to systematically collect and use sex-disaggregated data, identify financing gaps, and develop products and services tailored to the needs of women entrepreneurs. The publication of the dashboard is intended to increase transparency, facilitate benchmarking and support evidence-based decision-making within financial institutions. By making gender-disaggregated data more visible, the initiative encourages banks and microcredit organisations to recognise the business potential of women-led enterprises and to translate insights into concrete actions that improve access to finance.</p>
+<p>Public institutions, banks and microcredit organisations in BiH, in accordance with their respective internal procedures and governance frameworks, are actively supporting the development and implementation of the WE Finance Code initiative. To date, 16 letters of intent have been signed, demonstrating a strong institutional commitment, while the submission of letters of commitment is currently under way. Going forward, the WE Finance Code platform will continue to promote peer learning, knowledge sharing and dialogue among participating institutions, creating a strong foundation for translating evidence into practical measures that can contribute to greater lending to women entrepreneurs and a more inclusive financial ecosystem in Bosnia and Herzegovina.</p>                </div>
+            </article>
+
+            <aside class="side">
+                <div class="body">
+                    <!-- Sidebox --><div class="sidebox"><div class="sidebody"><ul class="list-unstyled list-docs arrowicon"><li><a href="/press/govori/"><p class="title">Speeches and Presentations</p></a></li><li><a href="/content/read/1139"><p class="title">International Conference "The Future of Cash"</p></a></li><li><a href="/press/novina/"><p class="title">CBBH Newsletters</p></a></li><li><a href="/press/"><p class="title">Annual Report on the Implementation of the Law on Freedom of Access to Information</p></a></li><li><a href="/press/"><p class="title">CBBH Announces a Call for Papers</p></a></li><li><a href="/press/"><p class="title"></p></a></li><li><a href="/press/"><p class="title"></p></a></li><li><a href="/press/"><p class="title"></p></a></li><li><a href="/press/"><p class="title"></p></a></li><li><a href="/press/"><p class="title">WE-Finance Code 2025 BH</p></a></li><li><a href="/press/audio/"><p class="title">Audio Files from Press Conferences</p></a></li><li><a href="/content/read/1127"><p class="title">International Conference on the Occasion of the 20th Anniversary of the CBBH</p></a></li><li><a href="/press/"><p class="title"></p></a></li><ul></div></div> <!-- End Quick Links --><!-- Sidebox --><div class="sidebox bordered"><div class="sidehead"><h4>Access То Information</h4></div><div class="sidebody"><p>According to the Law on Free Access to Information in BH, the information under the control of a public institution represents public good with value. Any natural and legal person is entitled to access the information under the control of a public institution, and every public institution has the appropriate obligation to publish such information.</p></div><div class="sidefoot"><a href="/press/informacije/" class="btn-text">DOWNLOAD<i class="icon-arrow"></i></a></div></div> <!-- Sidebox -->
+                </div>
+            </aside>
+        </div>
+
+        <div class="row no-print">
+    <div class="col-md-6">
+        <a href="https://registri.cbbh.ba" class="btn-jumbo" style="background-image: url(/Content/img/btn-regbg.jpg)">
+            <div class="circle"><i class="icon-arrow"></i></div>
+            <p class="title">Single Registry of Legal Entities Accounts</p>
+            <p></p>
+        </a>
+    </div>
+    <div class="col-md-6">
+        <a href="https://registri.cbbh.ba/" class="btn-jumbo" style="background-image: url(/Content/img/btn-regbg.jpg)">
+            <div class="circle"><i class="icon-arrow"></i></div>
+            <p class="title">Central Registry of Credits</p>
+            <p></p>
+        </a>
+    </div>
+
+</div>
+<br />
+<div class="row no-print">
+    <div class="col-md-6">
+        <a href="/Content/Read/915" class="btn-jumbo" style="background-image: url(/Content/img/btn-statbg.jpg)">
+            <div class="circle"><i class="icon-arrow"></i></div>
+            <p class="title">Statistics Web portal of the CBBH</p>
+            <p></p>
+        </a>
+    </div>
+</div>
+<br/>
+<div class="row no-print">
+    <div class="col-md-6">
+        <a href="/JIBAccountList" class="btn-jumbo" style="background-image: url(/Content/img/btn-regbg.jpg)">
+            <div class="circle"><i class="icon-arrow"></i></div>
+            <p class="title">Informative business subjects accounts list</p>
+            <p></p>
+        </a>
+    </div>   
+</div>
+
+
+
+        <!-- Newsletter -->
+<div class="nletter no-print">
+    <div class="row">
+        <div class="col-md-6">
+            <h3>Newsletter CBBiH</h3>
+            <p></p>
+        </div>
+        <div class="col-md-6">
+
+            <div class="form">
+                <p style="display:none; font-size:20px;" class="text-danger" id="newsletterErrorMessage"></p>
+                <p style="display:none; font-size:20px;" class="text-success" id="newsletterSuccessMessage"></p>
+                <div class="form-group form-prefixed">
+                    <i class="icon-email picto"></i>
+                    <input id="Email" type="text" name="Email" class="form-control form-line" value="" placeholder="Your email address" />
+                    <button id="newsletterPrijavaBtn" class="btn">Sign up<i class="icon-arrow"></i></button>
+                </div>
+                <div class="form-group form-inline">
+                    <div class="checkbox icheck">
+                        <label>
+                            <input id="ForCurrencyExchange" name="ForCurrencyExchange" type="checkbox"> Currency Exchange
+                        </label>
+                    </div>
+                    <div class="checkbox icheck">
+                        <label>
+                            <input id="ForNews" name="ForNews" type="checkbox"> News
+                        </label>
+                    </div>
+                    <div class="form-group">
+                           
+                        <div id="g-recaptcha1"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div> <!-- End: Newsletter -->
+
+<script>
+    var CaptchaCallback = function () {
+        grecaptcha.render('g-recaptcha1', { 'sitekey': '6LeUYAcUAAAAAFcY4uC8gDU2C8Sm-eKXsCOOpDN7' });
+    };
+
+    function showError(data) {
+        $("#newsletterErrorMessage").html(data);
+        $("#newsletterErrorMessage").css("display", "block");
+        setTimeout(function () {
+            $("#newsletterErrorMessage").css("display", "none");
+        }, 3000);
+    }
+
+    function showSuccess(data) {
+        $("#newsletterSuccessMessage").html(data);
+        $("#newsletterSuccessMessage").css("display", "block");
+        setTimeout(function () {
+            $("#newsletterSuccessMessage").css("display", "none");
+        }, 3000);
+    }
+
+    $(document).ready(function () {
+        $("#newsletterPrijavaBtn").click(function () {
+            //var recap = grecaptcha.getResponse(jQuery('#g-recaptcha1').attr('data-widget-id'));
+            var recap = grecaptcha.getResponse(0);
+
+            $.ajax({
+                type: "POST",
+                url: "/Newsletter/SignUp",
+                dataType: "json",
+                data: {
+                    email: $("#Email").val(), forNews: $("#ForNews").is(":checked"), forCurrencyExchange: $("#ForCurrencyExchange").is(":checked"), captcha: recap /*captcha: $("#g-recaptcha-response").val()*/
+                },
+                success: function (data) {
+                    if (data.code == 200) showSuccess(data.message);
+                    if (data.code == 400) showError(data.message);
+                },
+                complete: function (jqXHR, status) {
+                    grecaptcha.reset(0);
+                },
+                cache: false
+            });
+        });
+    });
+
+</script>
+
+
+    </div>
+</section> <!-- End Main Content -->
+
+<script>
+    if ($('.yt-embed')) {
+        var maxwidth = $('.yt-embed').innerWidth();
+        var maxheight = maxwidth * 0.5625;
+
+        $('.yt-embed').attr('height', maxheight);
+    }
+</script>
+
+
+    
+<footer class="footer">
+    
+    <div class="inner">
+        <div class="container">
+            <div class="row"  "><div class="col-md-3 col-sm-6"><p class="title">BH Currency</p><ul class="list-unstyled list-menu"><li><a href="/content/read/19">KM Banknotes</a></li><li><a href="/content/read/1072">KM Coins</a></li><li><a href="/content/read/645">Security Features of KM Banknotes</a></li><li><a href="/content/read/21">Numismatics</a></li><li><a href="/content/read/1261">KM banknotes, being withdrawn from circulation and ceased to be the legal tender</a></li><li><a href="/content/read/1287">Technical analysis of suspicious money</a></li><li><a href="/content/read/1090">Replacing cash KM unfit for circulation</a></li><li><a href="/content/read/1089">Regulations </a></li></ul></div><div class="col-md-3 col-sm-6"><p class="title">Public Relations</p><ul class="list-unstyled list-menu"><li><a href="/press/AllNews">News and Press Releases</a></li><li><a href="/press/audio/753">Multimedia</a></li><li><a href="/press/Govori">Speeches and Presentations</a></li><li><a href="/press/Novina">CBBH Newsletters</a></li><li><a href="http://fined.cbbh.ba/">Education component</a></li><li><a href="/press/Informacije">Law on freedom to access information</a></li><li><a href="/Content/Read/473">Terms of use and other online services of the Central Bank of Bosnia and Herzegovina</a></li><li><a href="/press/faq">Questions and answers</a></li></ul></div><div class="col-md-3 col-sm-6"><p class="title">Payment Systems</p><ul class="list-unstyled list-menu"><li><a href="/content/read/1058">Real time gross settlement (RTGS)</a></li><li><a href="/content/read/1241">Gyro Clearing</a></li><li><a href="/content/read/518">Clearing of International Payments</a></li><li><a href="/content/read/1291">Instant Payment System - IPS BiH</a></li><li><a href="#">Reports and statistics</a></li><li><a href="/content/read/1240">Oversight of payment systems</a></li><li><a href="/content/read/59">Contacts</a></li></ul></div><div class="col-md-3 col-sm-6"><p class="title">Publications</p><ul class="list-unstyled list-menu"><li><a href="/content/archive/36">Annual Reports</a></li><li><a href="/content/archive/575">Financial Stability Reports</a></li><li><a href="/content/archive/35">Quarterly Bulletins</a></li><li><a href="/content/archive/1260">Report on Macroeconomic Imbalances</a></li><li><a href="/content/archive/1231">Financial Stability Risk Assessment</a></li><li><a href="/content/archive/903">Monthly Economic Review</a></li><li><a href="/content/archive/1134">Annual Financial Statements</a></li><li><a href="/content/archive/1137">Quarterly Financial Statements</a></li><li><a href="/content/archive/17">CBBH Monthly Report On Currency Board Arrangement</a></li><li><a href="/content/read/1138">Monthly Report on Financial Position – Data Series (1997-2018)</a></li><li><a href="/content/archive/1069">Weekly report from international financial market</a></li><li><a href="/content/archive/144">Special  Research Topics</a></li><li><a href="/content/archive/1141">Working papers</a></li><li><a href="/content/read/1130">Monograph</a></li></ul></div></div>
+            
+        </div>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="foot-foot">
+                    <p class="title">Follow us:</p>
+                    <ul class="list-inline list-soc">
+                        <li><a href="https://twitter.com/cbbih" class="link-circle"><i class="icon-twitter" target="_blank"></i></a></li>
+                        <li><a href="https://www.youtube.com/channel/UC8iRX4s7gvnKGnN6DCXxu3Q" class="link-circle"><i class="fab fa-youtube" target="_blank"></i></a></li>
+                        <li><a href="https://www.facebook.com/CentralnaBankaBiH" class="link-circle"><i class="icon-facebook" target="_blank"></i></a></li>
+                        <li><a href="https://www.linkedin.com/company/cbbih" class="link-circle"><i class="icon-linkedin"></i></a></li>
+                        <li><a href="/Feed/Rss/" class="link-circle" target="_blank"><i class="icon-rss"></i></a></li>
+                    </ul>
+                    <div class="copy">
+                        <img class="foot-logo" src="/data/images/o_cbbh/logo-cbbh-top.png" alt="The Central Bank of Bosnia and Herzegovina" />
+                        <p>© 2026. The Central Bank of Bosnia and Herzegovina</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</footer>
+
+
+
+
+    <script type="text/javascript">
+
+        $('#spinnercontainer, #spinner').ajaxStart(function () {
+            $(this).fadeIn('fast');
+        }).ajaxStop(function () {
+            $(this).stop().fadeOut('fast');
+        });
+
+        $("#backontop").click(function () {
+            $("html, body").animate({ scrollTop: 0 }, 1000);
+        });
+
+    </script>
+
+</body>
+</html>

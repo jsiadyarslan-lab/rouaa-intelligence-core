@@ -1,0 +1,606 @@
+<!DOCTYPE html>
+<html lang="hy">
+<head>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=2"/>
+    <meta name="description"
+          content="CBA meta description"/>
+    <meta name="keywords"
+          content="CBA meta Keywords"/>
+    <meta property="og:title"
+          content="Հրապարակումներ | CBA"/>
+    <meta property="og:description" content=""/>
+    <meta property="og:image"
+          content="https://www.cba.am/img/og-img.png"/>
+    <meta property="og:type" content="website"/>
+    <meta name="format-detection" content="telephone=no"/>
+    <meta name="csrf-token" content="9fGIANqmC0ziPjxyBJoStWSw6YuUgMjUDF6mcCqg">
+    <title>Հրապարակումներ | CBA</title>
+    <link rel="icon" href="/favicon.png"/>
+    <link rel="shortcut icon" href="/favicon.ico"/>
+    <link rel="stylesheet" href="/css/app.css?id=92786a3a61e6744631b9"/>
+        <link rel="apple-touch-icon" sizes="57x57" href="/img/apple-touch-icon-57x57.png"/>
+    <link rel="apple-touch-icon" sizes="72x72" href="/img/apple-touch-icon-72x72.png"/>
+    <link rel="apple-touch-icon" sizes="114x114" href="/img/apple-touch-icon-114x114.png"/>
+
+    <style>
+label.required::after {
+    content: " *";
+    color: red;
+}
+</style>
+    <script src="/js/app-top.js?id=152a0276a35a5aaf0d10"></script>
+    <script>
+        var $lngCode = 'hy';
+        var $wwwUrl = 'https://www.cba.am/hy/';
+        var $apiUrl = 'https://www.cba.am/hy/';
+                var $locSettings = {"trans":null};
+            </script>
+<script defer src="/client.ns.js"></script></head>
+
+<body class="hy">
+
+<header>
+    <div class="top-box pf">
+
+        <div class="top-box__top df j-spc-btwn pr">
+            <div class="top-box__top-left df a-center">
+                                    <ul class="top-box__languages-box df">
+                                                    <li class="top-box__languages-item">
+                                <a class="top-box__languages-link top-box__languages-link font-medium fs12"
+                                   href="https://www.cba.am/en/Publication">Eng</a>
+                            </li>
+                                                    <li class="top-box__languages-item">
+                                <a class="top-box__languages-link top-box__languages-link--active font-medium fs12"
+                                   href="https://www.cba.am/hy/Publications">Հայ</a>
+                            </li>
+                                            </ul>
+                
+                <a class="top-box__old-version-text fs12 font-medium"
+                   href="https://old.cba.am/">Կայքի հին տարբերակ</a>
+            </div>
+
+            <div class="top-box__top-right df a-center">
+                <div class="top-box__contacts a-center df">
+                    <a class="top-box__phone-number-link  fs14 font-medium"
+                       href="tel:+37410592697">(374) 10 592 592</a>
+
+
+                </div>
+
+
+
+
+
+
+
+
+            </div>
+
+        </div>
+        <div class="top-box__bottom">
+
+            <div class="top-box__bottom-box df j-spc-btwn a-center">
+                <div class="top-box__bottom-left">
+                    <h1 class="top-box__header-logo">
+                        <a class="top-box__logo sprite"
+                           href="https://www.cba.am/hy/" aria-label="Կենտրոնական բանկ">Կենտրոնական բանկ</a>
+                    </h1>
+                </div>
+                <div class="top-box__bottom-right df">
+                    <nav class="top-box__menu select-none scroller-block">
+                        <ul class="top-box__navigation-box df">
+                                                                                                                                        <li class="top-box__navigation-item pr">
+                                                                                            <span class="top-box__navigation-link top-box__navigation-link--has-sub fs14 font-medium sprite-a center-center-after pr db">Մեր մասին</span>
+                                                <ul class="top-box__sub-menu scroller-block pa">
+                                                    
+                                                    <li class="top-box__navigation-sub-item-first">
+                                                        <a class="top-box__navigation-sub-link fs18 font-medium"
+                                                           href="https://www.cba.am/hy/about_us/">Մեր մասին</a>
+                                                    </li>
+                                                    
+                                                        <li class="top-box__navigation-sub-item">
+                                                                                                                                                                                                <a class="top-box__navigation-sub-link fs14 font-medium" href="https://www.cba.am/hy/strategy/">Մեր ռազմավարությունը</a>                                                                                                                                                                                    </li>
+                                                    
+                                                        <li class="top-box__navigation-sub-item">
+                                                                                                                                                                                                <a class="top-box__navigation-sub-link fs14 font-medium" href="https://www.cba.am/hy/our-governance/">Մեր կառավարումը</a>                                                                                                                                                                                    </li>
+                                                    
+                                                        <li class="top-box__navigation-sub-item">
+                                                                                                                                                                                                <a class="top-box__navigation-sub-link fs14 font-medium"
+                                                                       href="https://www.cba.am/hy/our-work/">Մեր մարդիկ</a>
+                                                                                                                                                                                    </li>
+                                                    
+                                                        <li class="top-box__navigation-sub-item">
+                                                                                                                                                                                                <a class="top-box__navigation-sub-link fs14 font-medium" href="https://www.cba.am/hy/our-partners/">Մեր գործընկերները</a>                                                                                                                                                                                    </li>
+                                                    
+                                                        <li class="top-box__navigation-sub-item">
+                                                                                                                                                                                                <a class="top-box__navigation-sub-link fs14 font-medium" href="https://www.cba.am/hy/our-historyy/">Մեր պատմությունը</a>                                                                                                                                                                                    </li>
+                                                                                                    </ul>
+                                                                                    </li>
+                                                                                                                                                <li class="top-box__navigation-item pr">
+                                                                                            <span class="top-box__navigation-link top-box__navigation-link--has-sub fs14 font-medium sprite-a center-center-after pr db">Հիմնական գործառույթներ</span>
+                                                <ul class="top-box__sub-menu scroller-block pa">
+                                                    
+                                                    <li class="top-box__navigation-sub-item-first">
+                                                        <a class="top-box__navigation-sub-link fs18 font-medium"
+                                                           href="https://www.cba.am/hy/core-functions/">Հիմնական գործառույթներ</a>
+                                                    </li>
+                                                    
+                                                        <li class="top-box__navigation-sub-item">
+                                                                                                                                                                                                <a class="top-box__navigation-sub-link fs14 font-medium" href="https://www.cba.am/hy/mpmain/">Դրամավարկային քաղաքականություն</a>                                                                                                                                                                                    </li>
+                                                    
+                                                        <li class="top-box__navigation-sub-item">
+                                                                                                                                                                                                <a class="top-box__navigation-sub-link fs14 font-medium" href="https://www.cba.am/hy/financial-stability/">Ֆինանսական կայունություն</a>                                                                                                                                                                                    </li>
+                                                    
+                                                        <li class="top-box__navigation-sub-item">
+                                                                                                                                                                                                <a class="top-box__navigation-sub-link fs14 font-medium" href="https://www.cba.am/hy/payment-systems/">Վճարահաշվարկային համակարգ</a>                                                                                                                                                                                    </li>
+                                                    
+                                                        <li class="top-box__navigation-sub-item">
+                                                                                                                                                                                                <a class="top-box__navigation-sub-link fs14 font-medium" href="https://www.cba.am/hy/money-circulation/">Դրամաշրջանառություն</a>                                                                                                                                                                                    </li>
+                                                    
+                                                        <li class="top-box__navigation-sub-item">
+                                                                                                                                                                                                <a class="top-box__navigation-sub-link fs14 font-medium" href="https://www.cba.am/hy/financial-system-regulation-and-supervision/">Կարգավորում և վերահսկողություն</a>                                                                                                                                                                                    </li>
+                                                    
+                                                        <li class="top-box__navigation-sub-item">
+                                                                                                                                                                                                <a class="top-box__navigation-sub-link fs14 font-medium" href="https://www.cba.am/hy/consumer-rights-protection/">Սպառողների շահերի պաշտպանություն</a>                                                                                                                                                                                    </li>
+                                                    
+                                                        <li class="top-box__navigation-sub-item">
+                                                                                                                                                                                                <a class="top-box__navigation-sub-link fs14 font-medium" href="https://www.cba.am/hy/Combating-money-laundering-and-terrorism-financing/">Փողերի լվացման և ահաբեկչության ֆինանսավորման դեմ պայքար</a>                                                                                                                                                                                    </li>
+                                                                                                    </ul>
+                                                                                    </li>
+                                                                                                                                                <li class="top-box__navigation-item pr">
+                                                                                            <span class="top-box__navigation-link top-box__navigation-link--has-sub fs14 font-medium sprite-a center-center-after pr db">Շուկաներ</span>
+                                                <ul class="top-box__sub-menu scroller-block pa">
+                                                    
+                                                    <li class="top-box__navigation-sub-item-first">
+                                                        <a class="top-box__navigation-sub-link fs18 font-medium"
+                                                           href="https://www.cba.am/hy/market/">Շուկաներ</a>
+                                                    </li>
+                                                    
+                                                        <li class="top-box__navigation-sub-item">
+                                                                                                                                                                                                <a class="top-box__navigation-sub-link fs14 font-medium" href="https://www.cba.am/hy/financial-markets/">ՀՀ ֆինանսական շուկաներ</a>                                                                                                                                                                                    </li>
+                                                    
+                                                        <li class="top-box__navigation-sub-item">
+                                                                                                                                                                                                <a class="top-box__navigation-sub-link fs14 font-medium" href="https://www.cba.am/hy/օperational-regulation/">Գործառնական կանոնակարգում</a>                                                                                                                                                                                    </li>
+                                                    
+                                                        <li class="top-box__navigation-sub-item">
+                                                                                                                                                                                                <a class="top-box__navigation-sub-link fs14 font-medium" href="https://www.cba.am/hy/fmoliquiditymanagement/">Իրացվելիության կառավարում</a>                                                                                                                                                                                    </li>
+                                                    
+                                                        <li class="top-box__navigation-sub-item">
+                                                                                                                                                                                                <a class="top-box__navigation-sub-link fs14 font-medium"
+                                                                       href="https://www.cba.am/hy/financial-operations/">Ֆինանսական գործառնություններ</a>
+                                                                                                                                                                                    </li>
+                                                    
+                                                        <li class="top-box__navigation-sub-item">
+                                                                                                                                                                                                <a class="top-box__navigation-sub-link fs14 font-medium" href="https://www.cba.am/hy/yield-curves-of-gb/">ՊՊ եկամտաբերության կորեր</a>                                                                                                                                                                                    </li>
+                                                    
+                                                        <li class="top-box__navigation-sub-item">
+                                                                                                                                                                                                <a class="top-box__navigation-sub-link fs14 font-medium" href="https://www.cba.am/hy/gb-indexes/">ՊՊ ինդեքսներ</a>                                                                                                                                                                                    </li>
+                                                    
+                                                        <li class="top-box__navigation-sub-item">
+                                                                                                                            <a class="top-box__navigation-sub-link fs14 font-medium"
+                                                                   href="/hy/exchange-rates-archive/">Փոխարժեք</a>
+                                                                                                                    </li>
+                                                    
+                                                        <li class="top-box__navigation-sub-item">
+                                                                                                                                                                                                <a class="top-box__navigation-sub-link fs14 font-medium" href="https://www.cba.am/hy/international-reserves/">Միջազգային պահուստներ</a>                                                                                                                                                                                    </li>
+                                                                                                    </ul>
+                                                                                    </li>
+                                                                                                                                                <li class="top-box__navigation-item pr">
+                                                                                                                                                <a class="top-box__navigation-link fs14 font-medium"
+                                                       href="https://www.cba.am/hy/statistics/">Վիճակագրություն</a>
+                                                                                                                                    </li>
+                                                                                                                                                <li class="top-box__navigation-item pr">
+                                                                                            <span class="top-box__navigation-link top-box__navigation-link--has-sub fs14 font-medium sprite-a center-center-after pr db">Հրապարակումներ</span>
+                                                <ul class="top-box__sub-menu scroller-block pa">
+                                                    
+                                                    <li class="top-box__navigation-sub-item-first">
+                                                        <a class="top-box__navigation-sub-link fs18 font-medium"
+                                                           href="https://www.cba.am/hy/Publications/">Հրապարակումներ</a>
+                                                    </li>
+                                                    
+                                                        <li class="top-box__navigation-sub-item">
+                                                                                                                                                                                                <a class="top-box__navigation-sub-link fs14 font-medium"
+                                                                       href="https://www.cba.am/hy/Board-decisions/">Խորհրդի փաստաթղթեր</a>
+                                                                                                                                                                                    </li>
+                                                    
+                                                        <li class="top-box__navigation-sub-item">
+                                                                                                                                                                                                <a class="top-box__navigation-sub-link fs14 font-medium"
+                                                                       href="https://www.cba.am/hy/Chairman&#039;s-decisions/">ԿԲ նախագահի որոշումներ</a>
+                                                                                                                                                                                    </li>
+                                                    
+                                                        <li class="top-box__navigation-sub-item">
+                                                                                                                                                                                                <a class="top-box__navigation-sub-link fs14 font-medium"
+                                                                       href="https://www.cba.am/hy/press-releases/">Մամուլի հաղորդագրություններ</a>
+                                                                                                                                                                                    </li>
+                                                    
+                                                        <li class="top-box__navigation-sub-item">
+                                                                                                                                                                                                <a class="top-box__navigation-sub-link fs14 font-medium"
+                                                                       href="https://www.cba.am/hy/Announcements/">Հայտարարություններ</a>
+                                                                                                                                                                                    </li>
+                                                    
+                                                        <li class="top-box__navigation-sub-item">
+                                                                                                                                                                                                <a class="top-box__navigation-sub-link fs14 font-medium"
+                                                                       href="https://www.cba.am/hy/Reports/">Հաշվետվություններ</a>
+                                                                                                                                                                                    </li>
+                                                    
+                                                        <li class="top-box__navigation-sub-item">
+                                                                                                                                                                                                <a class="top-box__navigation-sub-link fs14 font-medium"
+                                                                       href="https://www.cba.am/hy/articles-and-speeches/">Հոդվածներ և ելույթներ</a>
+                                                                                                                                                                                    </li>
+                                                    
+                                                        <li class="top-box__navigation-sub-item">
+                                                                                                                                                                                                <a class="top-box__navigation-sub-link fs14 font-medium"
+                                                                       href="https://www.cba.am/hy/analytical-materials/">Վերլուծական նյութեր և հետազոտություններ</a>
+                                                                                                                                                                                    </li>
+                                                    
+                                                        <li class="top-box__navigation-sub-item">
+                                                                                                                                                                                                <a class="top-box__navigation-sub-link fs14 font-medium"
+                                                                       href="https://www.cba.am/hy/punishments/">Պատժամիջոցներ</a>
+                                                                                                                                                                                    </li>
+                                                    
+                                                        <li class="top-box__navigation-sub-item">
+                                                                                                                                                                                                <a class="top-box__navigation-sub-link fs14 font-medium"
+                                                                       href="https://www.cba.am/hy/circulars-notices/">Այլ</a>
+                                                                                                                                                                                    </li>
+                                                                                                    </ul>
+                                                                                    </li>
+                                                                                                                                                <li class="top-box__navigation-item pr">
+                                                                                                                                                <a class="top-box__navigation-link fs14 font-medium"
+                                                       href="https://www.cba.am/hy/Subscription/">Բաժանորդագրություն</a>
+                                                                                                                                    </li>
+                                                                                                                        </ul>
+                    </nav>
+
+                    <div class="top-box__clone-box dn"></div>
+
+                    <div class="top-box__search-wrapper df a-center">
+                        <button class="top-box__search-btn sprite" type="button" aria-label="Search"></button>
+                        <form class="top-box__search-box " action="https://www.cba.am/hy/search/" method="GET">
+                            <div class="top-box__search-box-wrapper df a-center pa">
+                                <button class="top-box__btn-close sprite" type="button"></button>
+                                <input class="top-box__search" type="text" autocomplete="off" name="q" value="" placeholder="Որոնել"/>
+                                <button class="top-box__clear-btn sprite pa" type="button"></button>
+                                <button class="top-box__search-btn--form sprite pa" type="submit"></button>
+                            </div>
+                        <input type="hidden" name="as_sfid" value="AAAAAAVdg9sw6XJ8KlFiy6etHXUsZBH_bGOz_uN4DK-azClWLwSxQPLCwcUgkfVHP6dWxG7x-0Gd7aEHJx1GxHvUkuO1EzBeMkprbnc1x4U778n94aYUY-uvW7mqHrc1HbacK6YLxM4HfQZpG36JRD0BxLXRFITXHpXIyHcRYZx9Qs9cJQ==" /><input type="hidden" name="as_fid" value="f29154467f62693f7156469b3dec57fe79248f75" /></form>
+
+                        <div class="top-box__search-result scroller-block pa dn"></div>
+                    </div>
+
+                </div>
+                <div class="burger pr dn">
+                    <div class="burger__line burger__line--1"></div>
+                    <div class="burger__line burger__line--2"></div>
+                    <div class="burger__line burger__line--3"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+
+<main>
+        <div class="main-content main-content--publication">
+        <div class="center">
+
+            <div class="bread-crumb">
+    <ul class="bread-crumb__list df a-center">
+        <li class="bread-crumb__item">
+            <a href="https://www.cba.am/hy/" class="bread-crumb__link bread-crumb__link--icon trans-opacity sprite"></a>
+        </li>
+                                                                                <li class="bread-crumb__item pr sprite-b" title="Հրապարակումներ">
+                            <span class="bread-crumb__title db fs12 font-medium three-dots-after-end">Հրապարակումներ</span>
+                        </li>
+                                                            </ul>
+</div>
+            <div class="main-content__wrapper clear-fix pr">
+                <aside class="main-content__left fl">
+                    <form class="filter-box filter-box--publication" action="https://www.cba.am/hy/Publications/"
+                          method="get">
+
+                        <label class="filter-box__label db font-medium fs14">Տեսակ</label>
+                        <div class="filter-box__form-box filter-box__form-box--select">
+                            <select class="filter-box__select select-2 dn" name="publication_menu_id" id="list-1">
+                                <option value="">Ընտրել</option>
+                                                                    <option value="443" >Խորհրդի փաստաթղթեր</option>
+                                                                    <option value="444" >ԿԲ նախագահի որոշումներ</option>
+                                                                    <option value="445" >Մամուլի հաղորդագրություններ</option>
+                                                                    <option value="446" >Հայտարարություններ</option>
+                                                                    <option value="447" >Հաշվետվություններ</option>
+                                                                    <option value="448" >Հոդվածներ և ելույթներ</option>
+                                                                    <option value="449" >Վերլուծական նյութեր և հետազոտություններ</option>
+                                                                    <option value="753" >Պատժամիջոցներ</option>
+                                                                    <option value="450" >Այլ</option>
+                                                            </select>
+                        </div>
+
+
+                        <label class="filter-box__label db font-medium fs14">Ենթատեսակ</label>
+                        <div class="filter-box__form-box filter-box__form-box--select">
+                            <select class="filter-box__select select-2 dn" name="publication_category_id" id="list-2">
+                                <option value="">Ընտրել</option>
+                                                                    <option value="4" >Պարզաբանումներ</option>
+                                                                    <option value="15" >Մրցույթներ</option>
+                                                                    <option value="16" >Անձնակազմ</option>
+                                                                    <option value="17" >Քաղաքականություն</option>
+                                                                    <option value="21" >Զեկույցներ</option>
+                                                                    <option value="22" >Հարցազրույցներ</option>
+                                                                    <option value="19" >Ելույթներ</option>
+                                                                    <option value="34" >ՖԴԿ նորություններ</option>
+                                                                    <option value="14" >Զգուշացումներ</option>
+                                                                    <option value="5" >Դրամաշրջանառություն</option>
+                                                                    <option value="12" >Ներքին</option>
+                                                                    <option value="18" >ԿԲ գործունեություն</option>
+                                                                    <option value="37" >Շրջաբերականներ</option>
+                                                                    <option value="27" >Կորած/ոչ պիտանի փաստաթղթեր</option>
+                                                                    <option value="39" >Հետազոտական աշխատանքներ</option>
+                                                                    <option value="44" >Հրապարակումներ</option>
+                                                                    <option value="3" >Քաղաքականության որոշումներ</option>
+                                                                    <option value="8" >Ներքին</option>
+                                                                    <option value="7" >Հաղորդակցում</option>
+                                                                    <option value="43" >Շաբաթական ամփոփագրեր</option>
+                                                                    <option value="41" >Վերլուծական փաստաթղթեր</option>
+                                                                    <option value="11" >Լիցենզավորում</option>
+                                                                    <option value="20" >Հոդվածներ</option>
+                                                                    <option value="40" >Քաղաքականության փաստաթղթեր</option>
+                                                                    <option value="9" >Ստուգումներ</option>
+                                                                    <option value="45" >ԿԲ տեղեկագրեր</option>
+                                                                    <option value="10" >Պատժամիջոցներ</option>
+                                                            </select>
+                        </div>
+
+                        <label class="filter-box__label db font-medium fs14">Ոլորտ</label>
+                        <div class="filter-box__form-box filter-box__form-box--select">
+                            <select class="filter-box__select select-2  dn" name="publication_sphere_id" id="list-3">
+                                <option value="">Ընտրել</option>
+                                                                    <option value="2">Դրամավարկային</option>
+                                                                    <option value="3">Ֆինանսական կայունություն</option>
+                                                                    <option value="4">Վիճակագրություն</option>
+                                                                    <option value="5">Կարգավորում</option>
+                                                                    <option value="6">Լիցենզավորում</option>
+                                                                    <option value="7">Դրամաշրջանառություն</option>
+                                                                    <option value="8">Կառավարում</option>
+                                                                    <option value="9">Վերահսկողություն</option>
+                                                                    <option value="10">Ֆինանսական դիտարկումների կենտրոն</option>
+                                                            </select>
+                        </div>
+
+                        <div class="filter-box__form-box form-box">
+                            <label class="filter-box__label font-medium fs14 db"
+                                   for="key">Բանալի բառ</label>
+                            <input class="form__input" type="text" value=""
+                                   name="keyword" id="key"
+                                   placeholder="Լրացնել">
+                            <div class="form-error-text fs14 dn">cba.publication.select.null</div>
+                        </div>
+
+                        <div class="filter-box__form date-range df a-center">
+                            <div class="filter-box__wrapper">
+                                <div class="filter-box__main-form">
+                                    <div class="filter-box__date-box pr">
+                                        <label class="filter-box__label font-medium fs14 db"
+                                               for="date-from">Սկիզբ</label>
+                                        <div class="pr">
+                                            <input class="filter-box__field ui-datepicker-input--active date-range-start ui-datepicker-input mask"
+                                                   id="date-from" type="text"
+                                                   autocomplete="off"
+                                                   value=""
+                                                   placeholder="Օ/Ա/Տ"/>
+                                            <input name="start_date" id="date-from-hidden" type="hidden"
+                                                   value=""/>
+                                        </div>
+
+                                    </div>
+                                    <div class="filter-box__date-box pr">
+                                        <label class="filter-box__label font-medium fs14 db"
+                                               for="date-to">Ավարտ</label>
+                                        <div class="pr">
+                                            <input class="filter-box__field ui-datepicker-input--active date-range-end ui-datepicker-input mask"
+                                                   id="date-to" type="text"
+                                                   autocomplete="off"
+                                                   value=""
+                                                   placeholder="Օ/Ա/Տ"/>
+                                            <input type="hidden" id="date-to-hidden" name="end_date"
+                                                   value="">
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <button class="filter-box__btn btn btn-yellow font-medium"
+                                type="submit">Որոնել</button>
+                    <input type="hidden" name="as_sfid" value="AAAAAAU__8T0KiJ-SEpGVHVAsOYvlr9P5TAfWpTUaahhckJTcBReo12CHO1u_ZqyG3Dok11n5ouXSUsC5-poXZf7pWgFtR5IcieHmqPDFcX_ZzE098gtdewLPMkk47avtrOJyBjitaz7UHdkFWhtSePNsAHVEc5OEJAhsHoMPOi6h_wTzA==" /><input type="hidden" name="as_fid" value="1b4f105384a634dc5bff23911d9b18c202c79a89" /></form>
+
+                </aside>
+                <aside class="main-content__right">
+    <h2 class="main-content__title font-medium">Հրապարակումներ</h2>
+    <div class="static-content">
+                    <a href="https://www.cba.am/hy/Publications/10493/">«Դրածո միջնորդների» սխեմաներ․ Կենտրոնական բանկը հորդորում է քաղաքացիներին ցուցաբերել զգոնություն</a>
+            <span>2026-08-17 12:39</span>
+            <p>Հարգելի քաղաքացիներ,Վերջին շրջանում ավելացել են դեպքերը, երբ հանցագործները քաղաքացիներին ներգրավում են կասկածելի ֆինանսական գործարքներում՝ օգտագործելով նրանց բանկային կամ կրիպտոակտիվի հաշիվները (այսուհետ՝ հաշիվներ), ինչպես նաև էլեկտրոնային դրամապանակները կամ...</p>
+                    <a href="https://www.cba.am/hy/Publications/10491/">ՄԱԿ ԱԽ-ի բանաձևերով հաստատված ցանկում կատարվել են փոփոխություններ</a>
+            <span>2026-08-17 10:32</span>
+            <p>ՄԱԿ-ի Անվտանգության խորհրդի 1267/1989/2253 բանաձևերի հիման վրա ստեղծված կոմիտեն փոփոխություններ է կատարել ԻԼԻՊ-ի և Ալ Քաիդայի հետ կապված անձանց...</p>
+                    <a href="https://www.cba.am/hy/Publications/10490/">ՀՀ ԿԲ տեղեկագիր (2026 հունիս)</a>
+            <span>2026-08-14 16:33</span>
+            <p>Հայաստանի Հանրապետության կենտրոնական բանկի &laquo;ՀՀ ԿԲ տեղեկագիր&raquo; ամենամսյա պարբերականի &laquo;Վիճակագրական ամփոփագիր&raquo; բաժինը ներառում է դրամավարկային, արտաքին, հարկաբյուջետային և իրական հատվածների, ՀՀ վճարահաշվարկային և ֆինանսական համակարգերի ցուցանիշների...</p>
+                    <a href="https://www.cba.am/hy/Publications/10489/">«ՍԻԹԻ» ՍԱՀՄԱՆԱՓԱԿ ՊԱՏԱՍԽԱՆԱՏՎՈՒԹՅԱՄԲ ԸՆԿԵՐՈՒԹՅԱՆԸ ՀԱՅԱՍՏԱՆԻ ՀԱՆՐԱՊԵՏՈՒԹՅԱՆ ԿԵՆՏՐՈՆԱԿԱՆ ԲԱՆԿԻ ԿՈՂՄԻՑ ՏՐԱՄԱԴՐՎՈՂ ՀԱՄԱԿԱՐԳՉԱՅԻՆ ԾՐԱԳՐԻ ԳՈՐԾԱՐԿՄԱՆԸ ՀԱՄԱՁԱՅՆՈՒԹՅՈՒՆ ՏԱԼՈՒ ՄԱՍԻՆ</a>
+            <span>2026-08-13 12:21</span>
+            <p>Հայաստանի Հանրապետության կենտրոնական բանկի նախագահՈրոշում թիվ 1/344 Ա13.08.2026&laquo;ՍԻԹԻ&raquo; ՍԱՀՄԱՆԱՓԱԿ ՊԱՏԱՍԽԱՆԱՏՎՈՒԹՅԱՄԲ ԸՆԿԵՐՈՒԹՅԱՆԸ&nbsp;ՀԱՅԱՍՏԱՆԻ ՀԱՆՐԱՊԵՏՈՒԹՅԱՆ ԿԵՆՏՐՈՆԱԿԱՆ ԲԱՆԿԻ ԿՈՂՄԻՑ ՏՐԱՄԱԴՐՎՈՂ&nbsp;ՀԱՄԱԿԱՐԳՉԱՅԻՆ ԾՐԱԳՐԻ ԳՈՐԾԱՐԿՄԱՆԸ ՀԱՄԱՁԱՅՆՈՒԹՅՈՒՆ&nbsp;ՏԱԼՈՒ...</p>
+                    <a href="https://www.cba.am/hy/Publications/10483/">Արտադրողականության չօգտագործված ներուժը Հայաստանի մշակող արդյունաբերությունում</a>
+            <span>2026-08-12 16:30</span>
+            <p>Հայաստանի Հանրապետության կենտրոնական բանկ
+Արտադրողականության չօգտագործված ներուժը Հայաստանի մշակող արդյունաբերությունում
+Հետազոտական ամփոփագիր 2026-04
+Թաթուլ Հայրունի, Անահիտ Պողոսյան...</p>
+                    <a href="https://www.cba.am/hy/Publications/10481/">Կրիպտոակտիվների ոլորտը կարգավորող նախագծերի վերաբերյալ դիտարկումներ ներկայացնելու մասին</a>
+            <span>2026-08-12 15:22</span>
+            <p>Կենտրոնական բանկը, հավատարիմ մնալով թափանցիկության և հաշվետվողականության սկզբունքներին, շարունակում է &laquo;Կրիպտոակտիվների մասին&raquo; օրենքի կիրարկման համար անհրաժեշտ կարգավորումների հանրային քննարկման...</p>
+                    <a href="https://www.cba.am/hy/Publications/10479/">«ՖԻՆԲՈՔՍ» ՓԲԸ վճարահաշվարկային կազմակերպության նկատմամբ պատասխանատվության միջոց կիրառելու մասին</a>
+            <span>2026-08-11 18:36</span>
+            <p>Հայտարարություն ՀՀ կենտրոնական բանկի կողմից կիրառված պատասխանատվության միջոցի...</p>
+                    <a href="https://www.cba.am/hy/Publications/10477/">«Հայփոստ» ՓԲԸ վճարահաշվարկային կազմակերպության նկատմամբ պատասխանատվության միջոց կիրառելու մասին</a>
+            <span>2026-08-11 18:31</span>
+            <p>Հայտարարություն
+ՀՀ կենտրոնական բանկի կողմից կիրառված պատասխանատվության միջոցի...</p>
+                    <a href="https://www.cba.am/hy/Publications/10487/">«ՆԵՔՍՈՒՍ ՔԵՓԻԹԱԼ» ՓԱԿ ԲԱԺՆԵՏԻՐԱԿԱՆ ԸՆԿԵՐՈՒԹՅԱՆ ՂԵԿԱՎԱՐՆԵՐԻՆ ԳՐԱՆՑԵԼՈՒ ՄԱՍԻՆ</a>
+            <span>2026-08-11 12:18</span>
+            <p>Հայաստանի Հանրապետության կենտրոնական բանկի նախագահՈրոշում թիվ 1/334 Ա11.08.2026&laquo;ՆԵՔՍՈՒՍ ՔԵՓԻԹԱԼ&raquo; ՓԱԿ ԲԱԺՆԵՏԻՐԱԿԱՆ ԸՆԿԵՐՈՒԹՅԱՆ ՂԵԿԱՎԱՐՆԵՐԻՆ ԳՐԱՆՑԵԼՈՒ...</p>
+                    <a href="https://www.cba.am/hy/Publications/10485/">«ՔՐԵԴԵՔՍ» ՍՊԸ ԳՐԱՎԱՏԱՆ ՎԱՐԿԱՎՈՐՄԱՆ ԸՆԴՀԱՆՈՒՐ ՊԱՅՄԱՆՆԵՐԻՆ ՀԱՄԱՁԱՅՆՈՒԹՅՈՒՆ ՏԱԼՈՒ ՄԱՍԻՆ</a>
+            <span>2026-08-11 12:15</span>
+            <p>Հայաստանի Հանրապետության կենտրոնական բանկի նախագահՈրոշում թիվ 1/333 Ա11.08.2026&laquo;ՔՐԵԴԵՔՍ&raquo; ՍՊԸ ԳՐԱՎԱՏԱՆ ՎԱՐԿԱՎՈՐՄԱՆ ԸՆԴՀԱՆՈՒՐ ՊԱՅՄԱՆՆԵՐԻՆ ՀԱՄԱՁԱՅՆՈՒԹՅՈՒՆ ՏԱԼՈՒ...</p>
+                    <a href="https://www.cba.am/hy/Publications/10457/">«ՅՈՒՓԵՅ» ՓԲԸ վճարահաշվարկային կազմակերպության նկատմամբ պատասխանատվության միջոց կիրառելու մասին</a>
+            <span>2026-08-10 17:21</span>
+            <p>Հայտարարություն
+ՀՀ կենտրոնական բանկի կողմից կիրառված պատասխանատվության միջոցի...</p>
+                    <a href="https://www.cba.am/hy/Publications/10455/">«ՄՈԲԻԴՐԱՄ» ՓԲԸ վճարահաշվարկային կազմակերպության նկատմամբ պատասխանատվության միջոց կիրառելու մասին</a>
+            <span>2026-08-10 17:16</span>
+            <p>Հայտարարություն
+ՀՀ կենտրոնական բանկի կողմից կիրառված պատասխանատվության միջոցի...</p>
+                    <a href="https://www.cba.am/hy/Publications/10453/">«ՄԻՓԵՅ» ՍՊԸ վճարահաշվարկային կազմակերպության նկատմամբ պատասխանատվության միջոց կիրառելու մասին</a>
+            <span>2026-08-10 17:11</span>
+            <p>Հայտարարություն ՀՀ կենտրոնական բանկի կողմից կիրառված պատասխանատվության միջոցի...</p>
+                    <a href="https://www.cba.am/hy/Publications/10451/">«ԻԴՐԱՄ» ՍՊԸ վճարահաշվարկային կազմակերպության նկատմամբ պատասխանատվության միջոց կիրառելու մասին</a>
+            <span>2026-08-10 17:07</span>
+            <p>Հայտարարություն
+ՀՀ կենտրոնական բանկի կողմից կիրառված պատասխանատվության միջոցի...</p>
+                    <a href="https://www.cba.am/hy/Publications/10449/">«Մանիտուն» ՍՊԸ վճարահաշվարկային կազմակերպության նկատմամբ պատասխանատվության միջոց կիրառելու մասին</a>
+            <span>2026-08-10 17:02</span>
+            <p>Հայտարարություն ՀՀ կենտրոնական բանկի կողմից կիրառված պատասխանատվության միջոցի...</p>
+            </div>
+
+    <ul class="pagination df">
+
+        
+        
+                                    <li class="pagination__item">
+                    <a href="https://www.cba.am/hy/Publications?page=1"
+                       class="pagination__link df j-ctr a-center font-medium  pagination__link--active ">1</a>
+                </li>
+                                                <li class="pagination__item">
+                    <a href="https://www.cba.am/hy/Publications?page=2"
+                       class="pagination__link df j-ctr a-center font-medium ">2</a>
+                </li>
+                                                <li class="pagination__item">
+                    <a href="https://www.cba.am/hy/Publications?page=3"
+                       class="pagination__link df j-ctr a-center font-medium ">3</a>
+                </li>
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    
+                    <li class="pagination__item">
+                <span class="pagination__dots df j-ctr a-center">...</span>
+            </li>
+
+            <li class="pagination__item">
+                <a href="https://www.cba.am/hy/Publications?page=587"
+                   class="pagination__link df j-ctr a-center font-medium  ">587</a>
+            </li>
+        
+
+                    <li class="pagination__item">
+                <a href="https://www.cba.am/hy/Publications?page=2"
+                   class="pagination__arrow pagination__arrow--next db sprite-b center-center-before pr trans-background"></a>
+            </li>
+            </ul>
+    
+    <!-- Go to www.addthis.com/dashboard to customize your tools -->
+<script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-60fab5a077d2983d"></script>
+<div class="addthis_inline_share_toolbox_eu5n">
+</div>
+</aside>
+            </div>
+        </div>
+    </div>
+</main>
+
+<footer>
+    <div class="bottom-box pr">
+        <div class="bottom-box__wrapper df">
+
+            <div class="bottom-box__left-box ">
+                <a class="bottom-box__logo sprite" aria-label="Կենտրոնական բանկ" href="https://www.cba.am/hy/"></a>
+
+                <ul class="bottom-box__soc-list df">
+                    <li class="bottom-box__soc-item">
+                        <a class="bottom-box__soc-link bottom-box__soc-link--fb sprite trans-opacity" aria-label="Facebook" href="https://www.facebook.com/cba.arm"></a>
+                    </li>
+
+                    <li class="bottom-box__soc-item">
+                        <a class="bottom-box__soc-link bottom-box__soc-link--in sprite trans-opacity"  aria-label="Linkedin" href="https://www.linkedin.com/company/central-bank-of-armenia/"></a>
+                    </li>
+
+                    <li class="bottom-box__soc-item">
+                        <a class="bottom-box__soc-link bottom-box__soc-link--yt sprite trans-opacity"  aria-label="Youtube" href="https://www.youtube.com/@centralbank_armenia/videos"></a>
+                    </li>
+
+                </ul>
+
+                <p class="bottom-box__copyright-text fs14 pa">
+                    &copy; Բոլոր իրավունքները պահպանված են</p>
+            </div>
+
+            <nav class="bottom-box__right-box df j-spc-btwn">
+                                    <ul class="bottom-box__nav-box">
+                                                    <li class="bottom-box__nav-item">
+                                                                    <a class="bottom-box__nav-link font-medium"
+                                       href="https://www.cba.am/hy/our-work/">Մեր մարդիկ</a>
+                                                            </li>
+                                                    <li class="bottom-box__nav-item">
+                                                                    <a class="bottom-box__nav-link font-medium"
+                                       href="https://www.cba.am/hy/warning/">Զգուշացումներ</a>
+                                                            </li>
+                                                    <li class="bottom-box__nav-item">
+                                                                    <a class="bottom-box__nav-link font-medium"
+                                       href="https://www.cba.am/hy/event/">Միջոցառումներ</a>
+                                                            </li>
+                                                    <li class="bottom-box__nav-item">
+                                                                    <a class="bottom-box__nav-link font-medium"
+                                       href="https://www.cba.am/hy/Site-map/">Կայքի քարտեզ</a>
+                                                            </li>
+                                            </ul>
+                                    <ul class="bottom-box__nav-box">
+                                                    <li class="bottom-box__nav-item">
+                                                                    <a class="bottom-box__nav-link font-medium"
+                                       href="https://www.cba.am/hy/faq/">Հաճախ տրվող հարցեր</a>
+                                                            </li>
+                                                    <li class="bottom-box__nav-item">
+                                                                    <a class="bottom-box__nav-link font-medium"
+                                       href="https://www.cba.am/hy/contact-us/">Հետադարձ կապ</a>
+                                                            </li>
+                                                    <li class="bottom-box__nav-item">
+                                                                    <a class="bottom-box__nav-link font-medium"
+                                       href="https://www.cba.am/hy/procurement/">Գնումներ</a>
+                                                            </li>
+                                                    <li class="bottom-box__nav-item">
+                                                                    <a class="bottom-box__nav-link font-medium"
+                                       href="https://www.cba.am/hy/punishments-archive/">Պատժամիջոցներ</a>
+                                                            </li>
+                                            </ul>
+                                    <ul class="bottom-box__nav-box">
+                                                    <li class="bottom-box__nav-item">
+                                                                    <a class="bottom-box__nav-link font-medium"
+                                       href="https://www.cba.am/hy/exchange-rates-retrieval/">Փոխարժեքների ստացում</a>
+                                                            </li>
+                                                    <li class="bottom-box__nav-item">
+                                                                    <a class="bottom-box__nav-link font-medium"
+                                       href="https://www.cba.am/hy/terms-of-use/">Օգտագործման պայմաններ</a>
+                                                            </li>
+                                            </ul>
+                            </nav>
+        </div>
+    </div>
+
+</footer>
+
+
+<script src="/js/app.js?id=2bda148109f6a63c0b00"></script>
+
+<script type='text/javascript' src='/js/pages/static.js?v=1'></script><script>
+    $.ajaxSetup({
+        headers: {
+            'X-CSRF-TOKEN': $('meta[name="csrf-token"]').attr('content')
+        }
+    });
+</script>
+<a href="/pIcFRND740SJqSE1k48Qdngzuba0eZ4"> </a></body>
+</html>

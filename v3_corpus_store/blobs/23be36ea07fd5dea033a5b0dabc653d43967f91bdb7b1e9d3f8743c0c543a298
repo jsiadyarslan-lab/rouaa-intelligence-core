@@ -1,0 +1,2091 @@
+
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="T&#xFC;rkiye &#x130;statistik Kurumu (T&#xDC;&#x130;K) merkezi Ankara olmak &#xFC;zere 26 B&#xF6;lge M&#xFC;d&#xFC;rl&#xFC;&#x11F;&#xFC;&#x27;nden olu&#x15F;an bir devlet kurumudur.">
+    <meta name="keywords" content="t&#xFC;ik, T&#xFC;rkiye &#x130;statistik Kurumu, istatistik">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="google-site-verification" content="Caqdf8DDx0QM6XQJRtxFcVMRxt2ZJ73IM6CxEY0uIco" />
+
+    <title>T&#xFC;rkiye &#x130;statistik Kurumu (T&#xDC;&#x130;K)</title>
+    <link rel="shortcut icon" href="/assets/favicon.ico" type="image/x-icon">
+
+    <link href="/css/main.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="/a11y/assets/css/style.css?v=CZigfQya-IlDguprc74EKq9Dl20rJa4jO-1d_TC-kJA" />
+    <script src="/js/main.min.js?v=23423445"></script>
+    <script defer
+            data-domain="tuik.gov.tr"
+            src="https://analytics.tuik.gov.tr/js/script.file-downloads.hash.outbound-links.js">
+    </script>
+
+    <script>
+        window.plausible = window.plausible || function () {
+         (window.plausible.q = window.plausible.q || []).push(arguments)
+        }
+    </script>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-KJ4ZM8X4V5"></script>
+    <script>
+        window.dataLayer = window.dataLayer || []; 
+        function gtag() 
+        { dataLayer.push(arguments); } 
+        gtag('js', new Date()); 
+        gtag('config', 'G-KJ4ZM8X4V5');
+    </script>
+    <style>
+       
+        #back-top {
+            position: fixed;
+            bottom: 75px !important;
+            right: 20px;
+            z-index: 100
+        }
+
+        .tuik-a11y-toggle{
+            display: flex;
+            flex-direction: column; 
+            justify-content: center; 
+            align-items: center; 
+            height: 100%;
+            width: 50px !important;
+            height: 50px !important;
+            right: 25px !important;
+           
+        }
+
+        .tuik-a11y {
+            --panel-header-bg:#b23134 !important;
+           
+            }
+
+     
+
+            #back-top a {
+                width: 60px;
+                display: block;
+                text-align: center;
+                color: #bbb;
+                /* background color transition */
+                -webkit-transition: 1s;
+                -moz-transition: 1s;
+                transition: 1s;
+            }
+
+                #back-top a:hover {
+                    color: #000;
+                }
+
+            /* arrow icon (span tag) */
+            #back-top span {
+                width: 60px;
+                height: 42px;
+                display: block;
+                background: url(/static/img/up-arrow.png) no-repeat center center;
+                /* background color transition */
+                -webkit-transition: 1s;
+                -moz-transition: 1s;
+                transition: 1s;
+            }
+
+            #back-top a:hover span {
+                background-color: #777;
+            }
+
+    </style>
+
+<script>NS_CSM_td=308333787;NS_CSM_pd=275116667;NS_CSM_u="/clm10";NS_CSM_col="AAAAAAVIq6mjy1hPyqZSk2pRFIcF4BacdInLCPbgsOgdUjQj6o2w4B17V4TpfLGsGkOimu+ZW3nSPWbJtLQvR4kn56S0";</script><script type="text/javascript">function sendTimingInfoInit(){setTimeout(sendTimingInfo,0)}function sendTimingInfo(){var wp=window.performance;if(wp){var c1,c2,t;c1=wp.timing;if(c1){var cm={};cm.ns=c1.navigationStart;if((t=c1.unloadEventStart)>0)cm.us=t;if((t=c1.unloadEventEnd)>0)cm.ue=t;if((t=c1.redirectStart)>0)cm.rs=t;if((t=c1.redirectEnd)>0)cm.re=t;cm.fs=c1.fetchStart;cm.dls=c1.domainLookupStart;cm.dle=c1.domainLookupEnd;cm.cs=c1.connectStart;cm.ce=c1.connectEnd;if((t=c1.secureConnectionStart)>0)cm.scs=t;cm.rqs=c1.requestStart;cm.rss=c1.responseStart;cm.rse=c1.responseEnd;cm.dl=c1.domLoading;cm.di=c1.domInteractive;cm.dcls=c1.domContentLoadedEventStart;cm.dcle=c1.domContentLoadedEventEnd;cm.dc=c1.domComplete;if((t=c1.loadEventStart)>0)cm.ls=t;if((t=c1.loadEventEnd)>0)cm.le=t;cm.tid=NS_CSM_td;cm.pid=NS_CSM_pd;cm.ac=NS_CSM_col;var xhttp=new XMLHttpRequest();if(xhttp){var JSON=JSON||{};JSON.stringify=JSON.stringify||function(ob){var t=typeof(ob);if(t!="object"||ob===null){if(t=="string")ob='"'+ob+'"';return String(ob);}else{var n,v,json=[],arr=(ob&&ob.constructor==Array);for(n in ob){v=ob[n];t=typeof(v);if(t=="string")v='"'+v+'"';else if(t=="object"&&v!==null)v=JSON.stringify(v);json.push((arr?"":'"'+n+'":')+String(v));}return(arr?"[":"{")+String(json)+(arr?"]":"}");}};xhttp.open("POST",NS_CSM_u,true);xhttp.send(JSON.stringify(cm));}}}}if(window.addEventListener)window.addEventListener("load",sendTimingInfoInit,false);else if(window.attachEvent)window.attachEvent("onload",sendTimingInfoInit);else window.onload=sendTimingInfoInit;</script></head>
+<body style="position: relative;" id="top">
+    <div id="tuik-loader">
+        <img class="tuik-logo" src="/static/img/SVG/tuik_logo_white_tr.svg" alt="tuik">
+        <p class="loading-message">"T&#xFC;rkiye&#x27;nin Bilgi Kayna&#x11F;&#x131;"</p>
+        <div class="loader">Loading...</div>
+    </div>
+
+    <div class="container-fluid p-0 m-0">
+        <a href="#" id="back-to-top" title="Başa Dön"><i class="fas fa-arrow-alt-circle-up d-none d-md-block" style="font-size: 6rem;"></i></a>
+        <header class="position-fixed fixed-top">
+            <div class="d-none d-lg-block header header-theme-statistics h-100 w-100 p-0 m-0">
+                <div class="header-container position-relative mx-auto h-100 position-relative">
+                    <div class="alo124" style="background:url('/static/img/SVG/124_cagri_merkezi.svg')no-repeat;">
+                        <a href="/Kurumsal/Alo_124" class="d-block w-100 h-100 " style="z-index:1;position:relative;">
+                        </a>
+                    </div>
+                    <div class="header-logo header-logo-light position-absolute">
+                        <a href="/" class="d-block w-100 h-100 " style="z-index:1;position:relative;">
+                        </a>
+                    </div>
+                    <div class="header-theme position-absolute"></div>
+
+                    <div id="search" class="d-none d-lg-flex search form-row h-100 align-items-center float-right " style="padding-right: 142px;z-index: 1;position: relative;">
+                        <div class="input-group input-group-lg mb-3 rounded-0">
+                            <input type="text" class="form-control form-control-lg border-0 tuik-fs-160 rounded-0" placeholder="Site &#x130;&#xE7;i Arama" aria-label="Site İçi Aramav" aria-describedby="button-addon2" style="height: calc(3.875rem + 2px);" name="elastic_search_param" id="id_elastic_search_param">
+                            <div class="input-group-append">
+                                <button class="btn btn-danger border-0 tuik-fs-160 rounded-0" type="button" id="button-addon2" style="height: calc(3.875rem + 2px);" onclick="Arama();">
+                                    Ara
+                                </button>
+                            </div>
+                            <ul id="menuUl" style="position:absolute;margin-top:40px;z-index:9;background-color:whitesmoke;width:100%;padding:5px;display:none;color:white;">
+                            </ul>
+                        </div>
+                    </div>
+                    <img src="/static/img/bayrak.png" style="position:absolute;right:0px;" />
+                    <div class="header-bg-right position-absolute"></div>
+                </div>
+            </div>
+            <!-- Desktop Menu -->
+            <nav class="d-none d-lg-flex navbar navbar-expand-lg navbar-light bg-light px-0">
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse header-container mx-auto" id="navbarSupportedContent">
+                    <script>
+                        showDropdownMenus = function (e) {
+                            if ($(window).width() > 992) {
+                                $(e.target).dropdown('show');
+                            }
+                        }
+                        hideDropdownMenus = function (e) {
+                            if ($(window).width() > 992) {
+                                $(e.target).children("a").dropdown('hide');
+                            }
+                        }
+                        $(document).ready(function () {
+                            var dropdownMenus = Array.from(document.getElementsByClassName("dropdown-menu"));
+                            dropdownMenus.map(function (dropdownMenu) {
+                                dropdownMenu.previousElementSibling.addEventListener("mouseover", showDropdownMenus);
+                                dropdownMenu.parentElement.addEventListener("mouseleave", hideDropdownMenus);
+                            })
+                        })
+                    </script>
+                    <ul class="navbar-nav mr-auto">
+                        <li class="nav-item">
+                            <a class="nav-link font-weight-bold"
+                               href="https://veriportali.tuik.gov.tr/tr/statistical-themes"
+                               target="_blank">
+                                &#x130;STAT&#x130;ST&#x130;KLER
+                            </a>
+                        </li>
+                        <li class="nav-item dropdown menu-area position-relative">
+                            <a class="nav-link dropdown-toggle font-weight-bold" href="#" id="navbarDropdown3" role="button" aria-haspopup="true" aria-expanded="false" data-toggle="dropdown">
+                                PORTALLAR
+                            </a>
+                            <div class="dropdown-menu mega-area" aria-labelledby="mega-one" style="min-width: 1000px !important; margin-top: -5px; ">
+                                <div class="row">
+                                    <style>
+                                        .popover {
+                                            left: 0 !important;
+                                            top: -10px !important;
+                                            font-size: 1.3rem !important;
+                                            -webkit-box-shadow: 5px 5px 5px 0px rgba(0, 0, 0, 0.05);
+                                            -moz-box-shadow: 5px 5px 5px 0px rgba(0, 0, 0, 0.05);
+                                            box-shadow: 5px 5px 5px 0px rgba(0, 0, 0, 0.05);
+                                            border: 1px solid #dee2e6;
+                                        }
+
+                                        .tuik-hover-2:hover {
+                                            background-color: #1b81a0 !important;
+                                        }
+
+                                            .tuik-hover-2:hover p {
+                                                color: white !important;
+                                            }
+
+                                            .tuik-hover-2:hover svg {
+                                                fill: white !important;
+                                            }
+
+                                        .cbs-icon {
+                                        }
+                                    </style>
+                                    <div class="container-fluid">
+                                        <div class="">
+                                            <h2 class="p-2 w-100 text-center my-4 bg-light border text-secondary">PORTALLAR</h2>
+                                            <div class="row p-0 m-0">
+                                                <div class=" p-0 m-0" style="max-width:115px">
+
+                                                    <a class="p-0 m-0 text-center" style="padding:2px;margin: 3px !important;" href="https://cip.tuik.gov.tr/" target="_blank">
+
+                                                        <svg class="w-100 tuik-hover-1 p-1 mb-1 rounded tuik-if-red" style="min-height:90px !important;min-width:80px !important">
+                                                            <use xlink:href="/static/img/SVG/main_symbol_v15082025.svg#tuik-icon-CBS"></use>
+                                                        </svg>
+                                                    </a>
+                                                    <p class="tuik-display-2 text-center">
+                                                        <small class="tuik-fs-160 text-secondary">
+                                                            Co&#x11F;rafi &#x130;statistik Portal&#x131;
+                                                        </small>
+                                                    </p>
+
+
+                                                </div>
+                                                <div class="p-0 m-0" style="max-width:115px">
+                                                    <a class="p-0 m-0 text-center" style="padding:2px;margin:3px !important"
+                                                       href="https://veriportali.tuik.gov.tr/tr" target="_blank">
+
+                                                        <svg class="w-100 tuik-hover-1 p-1 mb-1 rounded tuik-if-blue"
+                                                             style="min-height:90px !important;min-width:80px !important">
+                                                            <use href="/static/img/SVG/main_symbol_v15082025.svg?v=10#tuik-icon-veri_portali"
+                                                                 xlink:href="/static/img/SVG/main_symbol_v15082025.svg?v=10#tuik-icon-veri_portali"></use>
+                                                        </svg>
+                                                    </a>
+                                                    <p class="tuik-display-2 text-center">
+                                                        <small class="tuik-fs-160 text-secondary">
+                                                            Veri Portal&#x131;
+                                                        </small>
+                                                    </p>
+
+                                                </div>
+                                                <div class="p-0 m-0" style="max-width:125px">
+                                                    <a class="p-0 m-0 text-center" style="padding:2px;margin: 3px !important;" href="https://nip.tuik.gov.tr/" target="_blank">
+                                                        <svg class="w-100 tuik-hover-1 p-1 mb-1 rounded tuik-if-red" style="min-height:90px !important;min-width:80px !important">
+                                                            <use xlink:href="/static/img/SVG/main_symbol_v15082025.svg#tuik-icon-nip"></use>
+                                                        </svg>
+                                                    </a>
+                                                    <p class="tuik-display-2 text-center" style="width:130px">
+                                                        <small class="tuik-fs-160 text-secondary">
+                                                            N&#xFC;fus &#x130;statistikleri Portal&#x131;
+                                                        </small>
+                                                    </p>
+
+                                                </div>
+                                                <div class="p-0 m-0" style="max-width:125px">
+                                                    <a class="p-0 m-0 text-center" style="padding:2px;margin: 3px !important;" href=https://www.resmiistatistik.gov.tr/ target="_blank">
+                                                        <svg class="w-100 tuik-hover-1 p-1 mb-1 rounded tuik-if-blue" style="min-height:90px !important;min-width:80px !important">
+                                                            <use xlink:href="/static/img/SVG/main_symbol_v15082025.svg#tuik-icon-Resmi_istatistik_portali"></use>
+                                                        </svg>
+                                                    </a>
+                                                    <p class="tuik-display-2 text-center" style="width:130px">
+                                                        <small class="tuik-fs-160 text-secondary">
+                                                            Resmi &#x130;statistik Portal&#x131;
+                                                        </small>
+                                                    </p>
+
+                                                </div>
+                                                <div class="p-0 m-0" style="max-width:115px">
+                                                    <a class="p-0 m-0 text-center" style="padding:2px;margin: 3px !important;" href=https://sdg.tuik.gov.tr/ target="_blank">
+                                                        <svg class="w-100 tuik-hover-1 p-1 mb-1 rounded tuik-if-red" style="min-height:90px !important;min-width:80px !important">
+                                                            <use xlink:href="/static/img/SVG/main_symbol_v15082025.svg#tuik-icon-sdg"></use>
+                                                        </svg>
+                                                    </a>
+                                                    <p class="tuik-display-2 text-center">
+                                                        <small class="tuik-fs-160 text-secondary">
+                                                            SDG Portal&#x131;
+                                                        </small>
+                                                    </p>
+
+                                                </div>
+
+                                                <div class="p-0 m-0" style="max-width:115px">
+                                                    <a class="p-0 m-0 text-center" style="padding:2px;margin: 3px !important;" href="https://siniflama.tuik.gov.tr" target="_blank">
+                                                        <svg class="w-100 tuik-hover-1 p-1 mb-1 rounded tuik-if-red" style="min-height:90px !important;min-width:80px !important">
+                                                            <use xlink:href="/static/img/SVG/main_symbol_v15082025.svg#tuik-icon-siniflamaSun"></use>
+                                                        </svg>
+                                                    </a>
+                                                    <p class="tuik-display-2 text-center">
+                                                        <small class="tuik-fs-160 text-secondary">
+                                                            S&#x131;n&#x131;flama Sunucusu
+                                                        </small>
+                                                    </p>
+
+                                                </div>
+
+                                                <div class="p-0 m-0" style="max-width:125px">
+                                                    <a class="p-0 m-0 text-center" style="padding:2px;margin: 3px !important;" href=https://tuikcocuk.tuik.gov.tr target="_blank">
+                                                        <svg class="w-100 tuik-hover-1 p-1 mb-1 rounded tuik-if-blue" style="min-height:90px !important;min-width:80px !important">
+                                                            <use xlink:href="/static/img/SVG/main_symbol_v15082025.svg#tuik-icon-logo-tuik-cocuk"></use>
+                                                        </svg>
+                                                    </a>
+                                                    <p class="tuik-display-2 text-center" style="width:130px">
+                                                        <small class="tuik-fs-160 text-secondary">
+                                                            T&#xDC;&#x130;K &#xC7;ocuk Portal&#x131;
+                                                        </small>
+                                                    </p>
+
+                                                </div>
+
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="nav-item dropdown menu-area">
+                            <a class="nav-link dropdown-toggle font-weight-bold" href="#" id="navbarDropdown2" role="button" aria-haspopup="true" aria-expanded="false" data-toggle="dropdown">
+                                METAB&#x130;LG&#x130;
+                            </a>
+                            <div class="dropdown-menu mega-area" aria-labelledby="mega-one">
+                                <div class="row">
+
+                                    <div class="col-sm-6 col-lg-4 col-xl-2">
+                                        <h3 class="font-weight-bold text-tuik-red">Metaveri</h3>
+                                        <a href="/Kurumsal/Meta_Veri_Nedir" class="dropdown-item">Metaveri Nedir?</a>
+
+                                        <h3 class="font-weight-bold text-tuik-red">T&#xDC;&#x130;K Revizyon Politikas&#x131;</h3>
+                                        <a href="/Kurumsal/Revizyon_Politikasi" class="dropdown-item">Revizyon</a>
+                                        <a href="/Kurumsal/Cari_Yil_Revizyon_Plani" class="dropdown-item">Cari Y&#x131;l Revizyon Plan&#x131;</a>
+                                        <a href="/Kurumsal/Gecmis_Yil_Revizyonlari" class="dropdown-item">Ge&#xE7;mi&#x15F; Y&#x131;l Revizyonlar&#x131;</a>
+                                    </div>
+                                    <div class="col-sm-6 col-lg-4 col-xl-4">
+                                        <h3 class="font-weight-bold text-tuik-red">Dok&#xFC;manlar</h3>
+                                        <a href="/Kurumsal/Tuik_Kalite_Guvence_Cercevesi_Belgesi" class="dropdown-item">T&#xDC;&#x130;K Kalite G&#xFC;vence &#xC7;er&#xE7;evesi Belgesi</a>
+                                        <a href="/Kurumsal/Avrupa_Istatistikleri_Uygulama_Esaslari" class="dropdown-item">Avrupa &#x130;statistikleri Uygulama Esaslar&#x131; (COP)</a>
+                                        <a href="/Kurumsal/Soru_Form_Nasil_Hazirlanir" class="dropdown-item">Soru Formu Nas&#x131;l Haz&#x131;rlan&#x131;r, Tasar&#x131;mdan Teste T&#xFC;m Ad&#x131;mlar&#x131;yla</a>
+                                        <a href="/Kurumsal/Kaliteli_Bir_Arastirmanin_El_Kitabi" class="dropdown-item">Kaliteli Bir Ara&#x15F;t&#x131;rman&#x131;n El Kitab&#x131;</a>
+                                        <a href="/Kurumsal/Istatistik_Uretiminde_Idari_Kayitlarinin_Rolu" class="dropdown-item">&#x130;statistik &#xDC;retiminde &#x130;dari Kay&#x131;tlar&#x131;n Rol&#xFC;</a>
+                                        <a href="/Kurumsal/Haber_Bulteni_Hazirlama_El_Kitabi" class="dropdown-item">Haber B&#xFC;lteni Haz&#x131;rlama El Kitab&#x131;</a>
+                                        <a href="/Kurumsal/Revizyon_El_Kitabi" class="dropdown-item">Revizyon El Kitab&#x131;</a>
+                                            <a href="/Kurumsal/Terminoloji_Sozluk" class="dropdown-item">Terminoloji / Sözlük</a>
+                                    </div>
+                                    <div class="col-sm-6 col-lg-4 col-xl-3">
+                                        <h3 class="font-weight-bold text-tuik-red">Kalite Raporlar&#x131;</h3>
+                                        <a href="/Kurumsal/Cati_Uygulamasi" class="dropdown-item">CATI Uygulama Metodolojisi</a>
+                                        <a href="/Kurumsal/Kalite_Raporu_El_Kitabi" class="dropdown-item">Kalite Raporu El Kitab&#x131;</a>
+
+                                        <h3 class="font-weight-bold text-tuik-red">S&#x131;n&#x131;flamalar</h3>
+                                        <a href="https://siniflama.tuik.gov.tr/" target="_blank" class="dropdown-item">S&#x131;n&#x131;flamalar</a>
+                                        <h3 class="font-weight-bold text-tuik-red">&#x130;statistik Ofisleri</h3>
+                                        <a href="/Kurumsal/Istatistik_Ofisleri" class="dropdown-item">&#xDC;lke &#x130;statistik Ofisleri</a>
+                                    </div>
+                                    <div class="d-none d-xl-inline-block col-xl-3">
+                                        <h3 class="font-weight-bold text-tuik-red">Ba&#x11F;lant&#x131;lar</h3>
+                                        <a href="https://ec.europa.eu/eurostat/statistics-explained/index.php/Main_Page" target="_blank" class="dropdown-item"><img class="istatistik-ofis-logo" src="../static/img/metabilgiLogo/Eurostat.png" width="32" height="32"> A&#xE7;&#x131;klamal&#x131; &#x130;statistikler &#x2013; Eurostat</a>
+                                        <a href="http://stats.oecd.org/glossary/detail.asp?ID=1647" target="_blank" class="dropdown-item"><img class="istatistik-ofis-logo" src="/static/img/metabilgiLogo/OECD.webp" width="32" height="32"> OECD &#x130;statistiksel Terimler S&#xF6;zl&#xFC;&#x11F;&#xFC;</a>
+                                        <a href="http://ec.europa.eu/eurostat/ramon/coded_files/UNECE_TERMINOLOGY_STAT_METADATA_2000_EN.pdf" target="_blank" class="dropdown-item"><img class="istatistik-ofis-logo" src="../static/img/metabilgiLogo/Eurostat.png" width="32" height="32"> BM &#x130;statistiksel Metaveri Terminolojisi</a>
+                                        <a href="http://sdmx.org/" target="_blank" class="dropdown-item"><img class="istatistik-ofis-logo" src="../static/img/metabilgiLogo/sdmx-2.png" width="32" height="32"> &#x130;statistiksel Veri ve Metaveri De&#x11F;i&#x15F;imi (SDMX)</a>
+                                        <a href="http://www.ddialliance.org/" target="_blank" class="dropdown-item"><img class="istatistik-ofis-logo" src="/static/img/metabilgiLogo/DDI.webp" width="32" height="32"> Veri Dok&#xFC;mantasyon Giri&#x15F;imi (DDI)</a>
+                                        <a href="https://ec.europa.eu/eurostat/web/sdmx-infospace/welcome" target="_blank" class="dropdown-item"><img class="istatistik-ofis-logo" src="/static/img/metabilgiLogo/EC.webp" width="32" height="32"> &#x130;statistiksel Veri ve Metaveri De&#x11F;i&#x15F;imi (SDMX) Bilgi Alan&#x131;</a>
+                                        <a href="http://www.dublincore.org/" target="_blank" class="dropdown-item"><img class="istatistik-ofis-logo" src="../static/img/metabilgiLogo/Dublin_Core.png" width="32" height="32"> Dublin Core Metaveri Giri&#x15F;imi (DCMI)</a>
+                                        <a href="https://statswiki.unece.org/display/GSBPM/Generic+Statistical+Business+Process+Model" target="_blank" class="dropdown-item"><img class="istatistik-ofis-logo" src="../static/img/metabilgiLogo/UNECE.png" width="32" height="32"> Jenerik &#x130;statistiki &#x130;&#x15F; S&#xFC;re&#xE7;leri Modeli (GSBPM)</a>
+                                        <a href="https://statswiki.unece.org/display/gsim" target="_blank" class="dropdown-item"><img class="istatistik-ofis-logo" src="../static/img/metabilgiLogo/UNECE.png" width="32" height="32"> Jenerik &#x130;statistiki Bilgi Modeli (GSIM)</a>
+                                        <a href="https://showvoc.op.europa.eu/#/home" target="_blank" class="dropdown-item"><img class="istatistik-ofis-logo" src="../static/img/metabilgiLogo/Eurostat.png" width="32" height="32"> ShowVoc</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+
+                        <li class="nav-item dropdown menu-area position-relative">
+                            <a class="nav-link dropdown-toggle font-weight-bold" href="#" id="navbarDropdown3" role="button" aria-haspopup="true" aria-expanded="false" data-toggle="dropdown">
+                                E-H&#x130;ZMETLER
+                            </a>
+                            <div class="dropdown-menu mega-area" aria-labelledby="mega-one" style="min-width: 800px !important; margin-top: -5px; ">
+                                <div class="row">
+                                    <style>
+                                        .popover {
+                                            left: 0 !important;
+                                            top: -10px !important;
+                                            font-size: 1.3rem !important;
+                                            -webkit-box-shadow: 5px 5px 5px 0px rgba(0, 0, 0, 0.05);
+                                            -moz-box-shadow: 5px 5px 5px 0px rgba(0, 0, 0, 0.05);
+                                            box-shadow: 5px 5px 5px 0px rgba(0, 0, 0, 0.05);
+                                            border: 1px solid #dee2e6;
+                                        }
+
+                                        .tuik-hover-2:hover {
+                                            background-color: #1b81a0 !important;
+                                        }
+
+                                            .tuik-hover-2:hover p {
+                                                color: white !important;
+                                            }
+
+                                            .tuik-hover-2:hover svg {
+                                                fill: white !important;
+                                            }
+                                    </style>
+                                    <div class="container-fluid">
+                                        <h2 class="p-2 w-100 text-center my-4 bg-light border text-secondary"> E-H&#x130;ZMETLER</h2>
+                                        <div class="container-fluid d-flex">
+                                            <div id="menutab1" class="row p-0 m-0">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link font-weight-bold" href="/Kurumsal/Veri_Takvimi" target="_blank">VER&#x130; YAYIMLAMA TAKV&#x130;M&#x130;</a>
+                        </li>
+                        <li class="nav-item dropdown menu-area">
+                            <a class="nav-link dropdown-toggle font-weight-bold" href="#" id="navbarDropdown" role="button" aria-haspopup="true" aria-expanded="false" data-toggle="dropdown">
+                                KURUMSAL
+                            </a>
+                            <div class="dropdown-menu mega-area kurumsal" aria-labelledby="mega-one">
+                                <div class="row">
+                                    <div class="col-sm-12 col-lg-10">
+                                        <div class="row">
+                                            <div class="col-sm-6 col-lg-4">
+                                                <h3 class="font-weight-bold text-tuik-red">T&#xDC;&#x130;K Ba&#x15F;kanl&#x131;&#x11F;&#x131;</h3>
+                                                <div class="">
+                                                    <a href="/Kurumsal/Tuik_Baskani" class="dropdown-item">
+                                                        T&#xDC;&#x130;K Ba&#x15F;kan&#x131;
+                                                    </a>
+                                                    <a href="/Kurumsal/Baskandan_Mesaj" class="dropdown-item">
+                                                        Ba&#x15F;kandan Mesaj
+                                                    </a>
+                                                    <a href="/media/tarihce/tr/mobile/index.html" class="dropdown-item" target="_blank">
+                                                        Tarih&#xE7;e ve Ba&#x15F;kanlar
+                                                    </a>
+
+                                                </div>
+                                                <h3 class="font-weight-bold text-tuik-red">Hakk&#x131;m&#x131;zda</h3>
+                                                <a href="/Kurumsal/Teskilat_Yapisi" class="dropdown-item">
+                                                    Te&#x15F;kilat Yap&#x131;s&#x131;
+                                                </a>
+                                                <a href="/Kurumsal/Organizasyon_Semasi" class="dropdown-item">
+                                                    Te&#x15F;kilat &#x15E;emas&#x131;
+                                                </a>
+                                                <a href="/Kurumsal/Iletisim?bolge=1" class="dropdown-item">
+                                                    B&#xF6;lge M&#xFC;d&#xFC;rl&#xFC;kleri
+                                                </a>
+                                               
+                                                <a href="/Kurumsal/Gorev_Yetkileri" class="dropdown-item">
+                                                    G&#xF6;rev ve Yetkileri
+                                                </a>
+                                                    <a href="/Kurumsal/Kamu_Hizmet_Standartlari" class="dropdown-item">Hizmet Standartları</a>
+                                                    <a href="/Kurumsal/Calisma_Ilkelerimiz" class="dropdown-item"> Çalışma İlkeleri</a>
+                                                <a href="/Kurumsal/Etik_Komisyonu" class="dropdown-item">
+                                                    Etik Komisyonu
+                                                </a>
+                                                <a href="/Kurumsal/Kalite_Politikasi" class="dropdown-item">
+                                                    Kalite Politikas&#x131;
+                                                </a>
+                                                <a href="/Kurumsal/Bilgi_Guvenligi_Politikamiz" class="dropdown-item">
+                                                    Bilgi G&#xFC;venli&#x11F;i Politikas&#x131;
+                                                </a>
+                                                    <a href="/Kurumsal/Enerji_Politikasi" class="dropdown-item">
+                                                        Enerji Politikas&#x131;
+                                                    </a>
+                                            </div>
+                                            <div class="col-sm-6 col-lg-4">
+                                                <h3 class="font-weight-bold text-tuik-red">
+                                                    Mevzuat
+                                                </h3>
+                                                <div class="">
+                                                    <a href="/Kurumsal/Turkiye_Istatistik_Kanunu" class="dropdown-item">
+                                                        T&#xFC;rkiye &#x130;statistik Kanunu
+                                                    </a>
+                                                        <a href="/Kurumsal/Kanun_Hukmunde_Kararnameler" class="dropdown-item">
+                                                            Kanun Hükmünde Kararnameler
+                                                        </a>
+                                                        <a href="/Kurumsal/Cumhurbaskanligi_Kararnameleri" class="dropdown-item">
+                                                            Cumhurbaşkanlığı Kararnameleri
+                                                        </a>
+
+                                                    <a href="/Kurumsal/Cumhurbaskani_Kararlari" class="dropdown-item">
+                                                        Cumhurba&#x15F;kan&#x131; Kararlar&#x131;
+
+                                                    </a>
+
+
+                                                    <a href="/Kurumsal/Bakanlar_Kurulu_Kararlari" class="dropdown-item">
+                                                        Bakanlar Kurulu Kararlar&#x131;
+                                                    </a>
+                                                    <a href="/Kurumsal/Yonetmelikler" class="dropdown-item">
+                                                        Y&#xF6;netmelikler
+                                                    </a>
+                                                    <a href="/Kurumsal/Yonergeler" class="dropdown-item">
+                                                        Y&#xF6;nergeler
+                                                    </a>
+                                                    <a href="/Kurumsal/Diger_Mevzuatlar" class="dropdown-item">
+                                                        Di&#x11F;er Mevzuatlar
+                                                    </a>
+                                                        <h3 class="font-weight-bold text-tuik-red">
+                                                            İnsan Kaynakları
+                                                        </h3>
+                                                        <div class="">
+                                                            <a href="/Kurumsal/Tuik_Personel_Istihdami" class="dropdown-item">
+                                                                TÜİK Personel İstihdamı
+                                                            </a>
+                                                            <a href="/Kurumsal/Personel_Istatistikleri" class="dropdown-item">
+                                                                Personel İstatistikleri
+                                                            </a>
+                                                        </div>
+                                                </div>
+                                                <a href="/Kurumsal/Kurumsal_Kimlik" class="dropdown-item font-weight-bold">
+                                                    Kurumsal Kimlik
+                                                </a>
+
+                                                <a href="/Kurumsal/Haberler" class="dropdown-item font-weight-bold">
+                                                    Haberler
+                                                </a>
+                                                    <a href="/Kurumsal/Bilgi_Edinme_Hakki_Kanunu" class="dropdown-item font-weight-bold">
+                                                        Bilgi Edinme
+                                                    </a>
+
+
+                                            </div>
+                                            <div class="col-sm-6 col-lg-4">
+                                                <h3 class="font-weight-bold text-tuik-red">
+                                                    Plan, Program ve Raporlar
+                                                </h3>
+                                                <div class="">
+                                                    <a href="/Kurumsal/Stratejik_Plan" class="dropdown-item">
+                                                        Stratejik Plan
+                                                    </a>
+                                                        <a href="/Kurumsal/Performans_Programi" class="dropdown-item">
+                                                            Performans Programı
+                                                        </a>
+                                                        <a href="/Kurumsal/Mali_Yil_Faaliyet_Raporu" class="dropdown-item">
+                                                            Faaliyet Raporu
+                                                        </a>
+                                                        <a href="/Kurumsal/Mali_Durum_Beklentiler_Raporu" class="dropdown-item">
+                                                            Kurumsal Mali Durum ve Beklentiler Raporu
+                                                        </a>
+                                                        <a href="/Kurumsal/Mali_Yil_Tablolari" class="dropdown-item">
+                                                            Mali Yıl Tabloları
+                                                        </a>
+                                                        <a href="/Kurumsal/Konsolide_Mali_Tablolar" class="dropdown-item">
+                                                            Konsolide Mali Tablolar
+                                                        </a>
+                                                        <a href="/Kurumsal/Temel_Mali_Tablolar" class="dropdown-item">
+                                                            Temel Mali Tablolar
+                                                        </a>
+                                                </div>
+
+                                                <h3 class="font-weight-bold text-tuik-red">Tan&#x131;t&#x131;m</h3>
+                                                <div class="">
+                                                    <a href="/Kurumsal/Kurum_Tanitim_Filmi" class="dropdown-item">
+                                                        Kurum Tan&#x131;t&#x131;m Filmi
+                                                    </a>
+                                                        <a href="/Kurumsal/Guven_Ailesi" class="dropdown-item">
+                                                            Güven Ailesi
+                                                        </a>
+                                                </div>
+
+                                                <h3 class="font-weight-bold text-tuik-red">
+                                                    Uluslararas&#x131; Faaliyetler ve Projeler
+                                                </h3>
+                                                <div class="">
+                                                    <a href="/Kurumsal/Uluslararasi_Faaliyetler_Projeler" class="dropdown-item">
+                                                        Uluslararas&#x131; Faaliyetler ve Projeler
+                                                    </a>
+                                                    <a href="/Kurumsal/Newsletter" class="dropdown-item">
+                                                        Uluslararas&#x131; B&#xFC;lten
+                                                    </a>
+                                                    <a href="/Kurumsal/Veri_Gonderilen_Kurum_Kuruluslar" class="dropdown-item">
+                                                        Veri G&#xF6;nderilen Uluslararas&#x131; Kurum/Kurulu&#x15F;lar
+                                                    </a>
+
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-12 col-lg-2">
+                                        <h3 class="font-weight-bold text-tuik-red">&#x130;leti&#x15F;im</h3>
+                                        <img src="/static/img/tuik_photo.webp" width="100%" class="tuik_photo img-fluid mt-4">
+                                        <p class="mt-4">
+                                            Devlet Mah. Necatibey Cad. No:114 06420 Çankaya/Ankara
+                                            <br><br>
+                                            <strong> 0312 454 70 00</strong><br>
+                                                <a href="https:\\ty.tuik.gov.tr">ty.tuik.gov.tr</a>
+
+                                        </p>
+                                        <a href="/Kurumsal/Iletisim" class="btn btn-dark btn-tuik-red btn-block">
+                                            &#x130;leti&#x15F;im
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </li>
+
+                    </ul>
+                    <div class="navbar-nav">
+                        <ul class="header-social">
+                                <li class="nav-item mr-2">
+                                    <a class="nav-link font-weight-bold" href="/Kurumsal/Bilgi_Edinme">BİLGİ EDİNME</a>
+                                </li>
+                            <li class="nav-item mr-2 d-inline">
+                                <a href="https://www.facebook.com/tuikbilgi" target="_blank">
+                                    <svg style="width:18px;height:18px;" class="tuik-hover-1 tuik-if-gray">
+                                        <use xlink:href="/static/img/SVG/main_symbol_v15082025.svg#tuik-icon-SM_Facebook"></use>
+                                    </svg>
+                                </a>
+                            </li>
+                            <li class="nav-item mr-2 d-inline">
+                                <a href="https://twitter.com/tuikbilgi" target="_blank">
+
+                                    <svg style="width:18px;height:18px;" class="tuik-hover-1 tuik-if-gray">
+                                        <use xlink:href="/static/img/SVG/main_symbol_v15082025.svg#tuik-icon-SM_X"></use>
+                                    </svg>
+
+
+                                </a>
+                            </li>
+                            <li class="nav-item d-inline">
+                                <a href="https://www.instagram.com/tuikbilgi/" target="_blank">
+                                    <svg style="width:18px;height:18px;" class="tuik-hover-1 tuik-if-gray">
+                                        <use xlink:href="/static/img/SVG/main_symbol_v15082025.svg#tuik-icon-SM_lg_Instagram"></use>
+                                    </svg>
+                                </a>
+                            </li>
+                            <li class="nav-item mr-2 d-inline">
+                                <a href="https://www.youtube.com/channel/UC-V_n-aPRbjdI9NQ-1JtNrQ" target="_blank">
+                                    <svg style="width:30px;height:30px;" class="tuik-hover-1 tuik-if-gray">
+                                        <use xlink:href="/static/img/SVG/main_symbol_v15082025.svg#tuik-icon-SM_youtube"></use>
+                                    </svg>
+                                </a>
+                            </li>
+
+                            <li class="nav-item mr-0 d-inline">
+                                <a class="nav-link font-weight-bold tuik-fs-160" href="/Kurumsal/Sikca_Sorulan_Sorular">SSS</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <ul class="navbar-nav">
+                        <li class="nav-item dropdown" id="dropdownLanguages">
+                            <a id="dilBolumu" class="nav-link dropdown-toggle font-weight-bold" href="#" role="button" aria-haspopup="true" aria-expanded="true" data-toggle="dropdown">
+
+                            </a>
+
+                            <div class="dropdown-menu shadow-lg border-0 p-3 dropdown-menu-right" aria-labelledby="navbarDropdown" style="margin-top: -4px">
+                                <a class="dropdown-item" onclick="DilDegistir('2')">
+                                    English
+                                </a>
+                                <a class="dropdown-item" onclick="DilDegistir('1')">
+                                    Türkçe
+                                </a>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+            <!-- Mobile Menu -->
+            <div class="navjs-main">
+                <a href="/">
+                    <img src="/static/img/SVG/tuik_mobil_logo.svg" alt="TÜİK" style="width: 135px;">
+                </a>
+                <div>
+                    <img src="/static/img/SVG/alo124.png" alt="124_cagri_merkezi" style="height: 50px;">
+                    <button class="navjs-button">
+                        <i class="fas fa-bars"></i>
+                    </button>
+                </div>
+
+                <div class="navjs-main-menu">
+                    <ul class="nav_expant_css">
+                       
+                        <li>
+                            <a href="https://veriportali.tuik.gov.tr/tr">
+                                &#x130;STAT&#x130;ST&#x130;KLER
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                PORTALLAR
+                            </a>
+
+                            <ul>
+                                <li>
+                                    <a href="https://cip.tuik.gov.tr/" target="_blank">
+                                        Co&#x11F;rafi &#x130;statistik Portal&#x131;
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="https://veriportali.tuik.gov.tr/tr" target="_blank">
+                                        Veri Portal&#x131;
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="https://nip.tuik.gov.tr/" ) target="_blank">
+                                        N&#xFC;fus &#x130;statistikleri Portal&#x131;
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href=https://www.resmiistatistik.gov.tr/ target="_blank">
+                                        Resmi &#x130;statistik Portal&#x131;
+                                    </a>
+                                </li>
+
+                                <li>
+                                    <a href=https://sdg.tuik.gov.tr/ target="_blank">
+                                        SDG Portal&#x131;
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="https://siniflama.tuik.gov.tr" target="_blank">
+                                        S&#x131;n&#x131;flama Sunucusu
+                                    </a>
+                                </li>
+                                <li>
+
+                                    <a href=https://tuikcocuk.tuik.gov.tr target="_blank">
+                                        T&#xDC;&#x130;K &#xC7;ocuk Portal&#x131;
+                                    </a>
+                                </li>
+                           </ul>
+                        </li>
+                        <li>
+                            <a href="#">
+                                METAB&#x130;LG&#x130;
+                            </a>
+                            <ul>
+                                <li>
+                                    <a href="/Kurumsal/Meta_Veri_Nedir">Metaveri Nedir?</a>
+                                </li>
+
+                                <li>
+                                    <a href="#">T&#xDC;&#x130;K Revizyon Politikas&#x131;</a>
+                                    <ul>
+                                        <li>
+                                            <a href="/Kurumsal/Revizyon_Politikasi">
+                                                Revizyon
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="/Kurumsal/Cari_Yil_Revizyon_Plani">
+                                                Cari Y&#x131;l Revizyon Plan&#x131;
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="/Kurumsal/Gecmis_Yil_Revizyonlari">
+                                                Ge&#xE7;mi&#x15F; Y&#x131;l Revizyonlar&#x131;
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <a href="#">Dok&#xFC;manlar</a>
+                                    <ul>
+                                        <li>
+                                            <a href="/Kurumsal/Tuik_Kalite_Guvence_Cercevesi_Belgesi">
+                                                T&#xDC;&#x130;K Kalite G&#xFC;vence &#xC7;er&#xE7;evesi Belgesi
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="/Kurumsal/Avrupa_Istatistikleri_Uygulama_Esaslari">
+                                                Avrupa &#x130;statistikleri Uygulama Esaslar&#x131; (COP)
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="/Kurumsal/Soru_Form_Nasil_Hazirlanir">
+                                                Soru Formu Nas&#x131;l Haz&#x131;rlan&#x131;r, Tasar&#x131;mdan Teste T&#xFC;m Ad&#x131;mlar&#x131;yla
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="/Kurumsal/Arastirmalarin_Cevaplayicilar_Uzerindeki_Yukunun_Olcumu">
+                                                Ara&#x15F;t&#x131;rmalar&#x131;n Cevaplay&#x131;c&#x131;lar &#xDC;zerindeki Y&#xFC;k&#xFC;n&#xFC;n &#xD6;l&#xE7;&#xFC;lmesi, 2013
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="/Kurumsal/Kaliteli_Bir_Arastirmanin_El_Kitabi">
+                                                Kaliteli Bir Ara&#x15F;t&#x131;rman&#x131;n El Kitab&#x131;
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="/Kurumsal/Istatistik_Uretiminde_Idari_Kayitlarinin_Rolu">
+                                                &#x130;statistik &#xDC;retiminde &#x130;dari Kay&#x131;tlar&#x131;n Rol&#xFC;
+                                            </a>
+                                        </li>
+
+                                        <li>
+                                            <a href="/Kurumsal/Haber_Bulteni_Hazirlama_El_Kitabi">
+                                                Haber B&#xFC;lteni Haz&#x131;rlama El Kitab&#x131;
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="/Kurumsal/Revizyon_El_Kitabi">
+                                                Revizyon El Kitab&#x131;
+                                            </a>
+                                        </li>
+                                            <li>
+                                                <a href="/Kurumsal/Terminoloji_Sozluk" class="dropdown-item">Terminoloji / Sözlük</a>
+                                            </li>
+                                    </ul>
+                                </li>
+                                <!--Quality Reports-->
+                                <li>
+                                    <a href="#">Kalite Raporlar&#x131;</a>
+                                    <ul>
+                                        <li>
+                                            <a href="/Kurumsal/Cati_Uygulamasi">
+                                                CATI Uygulama Metodolojisi
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="/Kurumsal/Kalite_Raporu_El_Kitabi">
+                                                Kalite Raporu El Kitab&#x131;
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <a href="https://biruni.tuik.gov.tr/DIESS/ChangeLocaleAction.do?dil=tr" target="_blank">S&#x131;n&#x131;flamalar</a>
+                                </li>
+                                <li>
+                                    <a href="#">&#x130;statistik Ofisleri</a>
+                                    <ul>
+                                        <li>
+                                            <a href="/Kurumsal/Istatistik_Ofisleri">
+                                                &#xDC;lke &#x130;statistik Ofisleri
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <!--Links-->
+                                <li>
+                                    <a href="#">Ba&#x11F;lant&#x131;lar</a>
+                                    <ul>
+                                        <li>
+                                            <a href="https://ec.europa.eu/eurostat/statistics-explained/index.php/Main_Page">
+                                                A&#xE7;&#x131;klamal&#x131; &#x130;statistikler &#x2013; Eurostat
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="http://www.unece.org/stats/metis.html">
+                                                &#x130;statistiksel Metaveri (METIS)
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="http://www1.unece.org/stat/platform/display/metis/The+Common+Metadata+Framework">
+                                                Ortak Metaveri &#xC7;er&#xE7;evesi
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="http://stats.oecd.org/glossary/detail.asp?ID=1647">
+                                                OECD &#x130;statistiksel Terimler S&#xF6;zl&#xFC;&#x11F;&#xFC;
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="http://ec.europa.eu/eurostat/ramon/coded_files/UNECE_TERMINOLOGY_STAT_METADATA_2000_EN.pdf">
+                                                BM &#x130;statistiksel Metaveri Terminolojisi
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="http://sdmx.org/">
+                                                &#x130;statistiksel Veri ve Metaveri De&#x11F;i&#x15F;imi (SDMX)
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="http://www.ddialliance.org/">
+                                                Veri Dok&#xFC;mantasyon Giri&#x15F;imi (DDI)
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="https://webgate.ec.europa.eu/fpfis/mwikis/sdmx/index.php/Main_Page">
+                                                &#x130;statistiksel Veri ve Metaveri De&#x11F;i&#x15F;imi (SDMX) Bilgi Alan&#x131;
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="http://www.dublincore.org/">
+                                                Dublin Core Metaveri Giri&#x15F;imi (DCMI)
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="http://www1.unece.org/stat/platform/display/metis/Generic+Statistical+Business+Process+Model">
+                                                Jenerik &#x130;statistiki &#x130;&#x15F; S&#xFC;re&#xE7;leri Modeli (GSBPM)
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="http://www1.unece.org/stat/platform/display/metis/Generic+Statistical+Information+Model+(GSIM)">
+                                                Jenerik &#x130;statistiki Bilgi Modeli (GSIM)
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="http://ec.europa.eu/eurostat/ramon/index.cfm?TargetUrl=DSP_PUB_WELC">
+                                                RAMON-Eurostat&#x27;&#x131;n Metaveri Sunucusu
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="#">
+                                E-H&#x130;ZMETLER
+                            </a>
+                            <ul>
+                                    <li>
+                                        <a href="https://biruni.tuik.gov.tr/EdUygulamaDis/zul/giris.zul" target="_blank">
+                                            Ankete Giriş
+                                        </a>
+                                    </li>
+                                <li>
+                                    <a href="/Kurumsal/Avrupa_Istatistiki_Veri_Destegi">
+                                        Avrupa &#x130;statistiki Veri Deste&#x11F;i
+                                    </a>
+                                </li>
+
+                                <li>
+                                    <a href="https://www.turkiye.gov.tr/tuik-istatistiksel-bilgi-talebi-uygulamas-3401" target="_blank">
+                                        Bilgi Talebi
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="/Kurumsal/Bilgiye_Nasil_Erisilir">
+                                        Bilgiye Nas&#x131;l Eri&#x15F;ilir
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="https://biruni.tuik.gov.tr/bolgeselistatistik/anaSayfa.do?dil=tr">
+                                        B&#xF6;lgesel &#x130;statistikler
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="/Kurumsal/Cbm_Arastirmalar_Isyeri">
+                                        Cevaplay&#x131;c&#x131; Bilgilendirme
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="https://dijitaldefter.tuik.gov.tr">
+                                        Dijital Defter Giri&#x15F;
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="https://biruni.tuik.gov.tr/ilgosterge/?locale=tr">
+                                        &#x130;l G&#xF6;stergeleri
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="https://dergipark.org.tr/tr/pub/jsstr">
+                                        &#x130;statistik Ara&#x15F;t&#x131;rma Dergisi
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="https://ty.tuik.gov.tr/">
+                                        Kazan&#xE7; Bilgisi Sorgulama
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="/Kurumsal/Mikro_Veri">
+                                        Mikro Veri
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="https://ty.tuik.gov.tr">
+                                        Mikro Veri Talebi
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="https://ty.tuik.gov.tr">
+                                        &#xD6;rneklem Talebi
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="https://ty.tuik.gov.tr">
+                                        Parasal De&#x11F;eri G&#xFC;ncelleme Arac&#x131;
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="https://biruni.tuik.gov.tr/DIESS/ChangeLocaleAction.do?dil=tr">
+                                        S&#x131;n&#x131;flamalar (Eski)
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="https://kutuphane.tuik.gov.tr/yordambt/yordam.php">
+                                        T&#xDC;&#x130;K K&#xFC;t&#xFC;phane
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="https://biruni.tuik.gov.tr/yayin/views/visitorPages/index.zul">
+                                        T&#xDC;&#x130;K Yay&#x131;nlar
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="https://www.tuik.gov.tr/Turcat">
+                                        Ulusal Veri Sayfas&#x131;
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="https://biruni.tuik.gov.tr/secilmisgostergeler/">
+                                        Uluslararas&#x131; Se&#xE7;ilmi&#x15F; G&#xF6;stergeler
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="/Kurumsal/Urun_Hizmetlerimiz">
+                                        &#xDC;r&#xFC;n ve Hizmetlerimiz
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="/Kurumsal/Veri_Bilgilerin_Ucretlendirilmesi">
+                                        Veri / Bilgilerin &#xDC;cretlendirilmesi
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="https://biruni.tuik.gov.tr/medas/?locale=tr">
+                                        Farkl&#x131; konulardaki istatistiksel verilerin tek bir da&#x11F;&#x131;t&#x131;m kanal&#x131;ndan, kar&#x15F;&#x131;la&#x15F;t&#x131;rmal&#x131; olarak sunulabilmesini...
+                                    </a>
+                                </li>
+                                
+
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="#">
+                                KURUMSAL
+                            </a>
+                            <ul>
+
+
+                                <li>
+                                    <a href="#">T&#xDC;&#x130;K Ba&#x15F;kanl&#x131;&#x11F;&#x131;</a>
+                                    <ul>
+                                        <li>
+                                            <a href="/Kurumsal/Tuik_Baskani">
+                                                T&#xDC;&#x130;K Ba&#x15F;kan&#x131;
+                                            </a>
+                                        </li>
+             
+                                        <li>
+                                            <a href="/Kurumsal/Baskandan_Mesaj">
+                                                Ba&#x15F;kandan Mesaj
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="/media/tarihce/tr/mobile/index.html" target="_blank">
+                                                Tarih&#xE7;e ve Ba&#x15F;kanlar
+                                            </a>
+                                        </li>
+
+                                    </ul>
+                                </li>
+                                <li>
+                                    <a href="#">Hakk&#x131;m&#x131;zda</a>
+                                    <ul>
+                                        <li>
+                                            <a href="/Kurumsal/Teskilat_Yapisi">
+                                                Te&#x15F;kilat Yap&#x131;s&#x131;
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="/Kurumsal/Organizasyon_Semasi">
+                                                Te&#x15F;kilat &#x15E;emas&#x131;
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="/Kurumsal/Iletisim?bolge=1" class="dropdown-item">
+                                                B&#xF6;lge M&#xFC;d&#xFC;rl&#xFC;kleri
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="/Kurumsal/Gorev_Yetkileri">
+                                                G&#xF6;rev ve Yetkileri
+                                            </a>
+                                        </li>
+                                            <li>
+                                                <a href="/Kurumsal/Kamu_Hizmet_Standartlari">
+                                                    Hizmet Standartları
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="/Kurumsal/Calisma_Ilkelerimiz">
+                                                    Çalışma İlkeleri
+                                                </a>
+                                            </li>
+                                        <li>
+                                            <a href="/Kurumsal/Etik_Komisyonu">
+                                                Etik Komisyonu
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="/Kurumsal/Kurumsal_Kimlik" class="dropdown-item">
+                                                Kurumsal Kimlik
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="/Kurumsal/Kalite_Politikasi">
+                                                Kalite Politikas&#x131;
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="/Kurumsal/Bilgi_Guvenligi_Politikamiz">
+                                                Bilgi G&#xFC;venli&#x11F;i Politikas&#x131;
+                                            </a>
+                                        </li>
+                                            <li>
+                                                <a href="/Kurumsal/Enerji_Politikasi" class="dropdown-item">
+                                                    Enerji Politikas&#x131;
+                                                </a>
+                                            </li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <a href="#">Mevzuat</a>
+                                    <ul>
+                                        <li>
+                                            <a href="/Kurumsal/Turkiye_Istatistik_Kanunu">
+                                                T&#xFC;rkiye &#x130;statistik Kanunu
+                                            </a>
+                                        </li>
+                                            <li>
+                                                <a href="/Kurumsal/Kanun_Hukmunde_Kararnameler">
+                                                    Kanun Hükmünde Kararnameler
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="/Kurumsal/Cumhurbaskanligi_Kararnameleri">
+                                                    Cumhurbaşkanlığı Kararnameleri
+                                                </a>
+                                            </li>
+                                        <li>
+                                            <a href="/Kurumsal/Cumhurbaskani_Kararlari">
+                                                Cumhurba&#x15F;kan&#x131; Kararlar&#x131;
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="/Kurumsal/Bakanlar_Kurulu_Kararlari">
+                                                Bakanlar Kurulu Kararlar&#x131;
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="/Kurumsal/Yonetmelikler">
+                                                Y&#xF6;netmelikler
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="/Kurumsal/Yonergeler">
+                                                Y&#xF6;nergeler
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="/Kurumsal/Diger_Mevzuatlar" class="dropdown-item">
+                                                Di&#x11F;er Mevzuatlar
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                    <li>
+                                        <a href="#">İnsan Kaynakları</a>
+                                        <ul>
+                                            <li>
+                                                <a href="/Kurumsal/Tuik_Personel_Istihdami">
+                                                    TÜİK Personel İstihdamı
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="/Kurumsal/Personel_Istatistikleri">
+                                                    Personel İstatistikleri
+                                                </a>
+                                            </li>
+
+                                        </ul>
+                                    </li>
+                                <li>
+                                    <a href="#">Plan, Program ve Raporlar</a>
+                                    <ul>
+                                        <li>
+                                            <a href="/Kurumsal/Stratejik_Plan">
+                                                Stratejik Plan
+                                            </a>
+                                        </li>
+                                            <li>
+                                                <a href="/Kurumsal/Performans_Programi">
+                                                    Performans Programı
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="/Kurumsal/Mali_Yil_Faaliyet_Raporu">
+                                                    Faaliyet Raporu
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="/Kurumsal/Mali_Durum_Beklentiler_Raporu">
+                                                    Kurumsal Mali Durum ve Beklentiler Raporu
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="/Kurumsal/Mali_Yil_Tablolari">
+                                                    Mali Yıl Tabloları
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="/Kurumsal/Konsolide_Mali_Tablolar">
+                                                    Konsolide Mali Tablolar
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="/Kurumsal/Temel_Mali_Tablolar">
+                                                    Temel Mali Tablolar
+                                                </a>
+                                            </li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <a href="/Kurumsal/Haberler" class="dropdown-item font-weight-bold">
+                                        Haberler
+                                    </a>
+                                </li>
+                                <!--tanıtım-->
+                                <li>
+                                    <a href="#">Tan&#x131;t&#x131;m</a>
+                                    <ul>
+                                        <li>
+                                            <a href="/Kurumsal/Kurum_Tanitim_Filmi">
+                                                Kurum Tan&#x131;t&#x131;m Filmi
+                                            </a>
+                                        </li>
+                                            <li>
+
+                                                <a href="/Kurumsal/Guven_Ailesi">
+                                                    Güven Ailesi
+                                                </a>
+
+                                            </li>
+                                    </ul>
+                                </li>
+
+                                <li>
+                                    <a href="/Kurumsal/Veri_Gonderilen_Kurum_Kuruluslar">
+                                        Veri G&#xF6;nderilen Uluslararas&#x131; Kurum/Kurulu&#x15F;lar
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">Uluslararas&#x131; Faaliyetler ve Projeler</a>
+                                    <ul>
+                                        <li>
+                                            <a href="/Kurumsal/Uluslararasi_Faaliyetler_Projeler">
+                                                Uluslararas&#x131; Faaliyetler ve Projeler
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="/Kurumsal/Newsletter">
+                                                Uluslararas&#x131; B&#xFC;lten
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="/Kurumsal/Veri_Gonderilen_Kurum_Kuruluslar">
+                                                Veri G&#xF6;nderilen Uluslararas&#x131; Kurum/Kurulu&#x15F;lar
+                                            </a>
+                                        </li>
+                                      
+                                    </ul>
+                                </li>
+
+                                    <li>
+                                        <a href="/Kurumsal/Bilgi_Edinme_Hakki_Kanunu">
+                                            Bilgi Edinme
+                                        </a>
+                                    </li>
+                                <li>
+                                    <a href="/Kurumsal/Iletisim">
+                                        &#x130;leti&#x15F;im
+                                    </a>
+                                </li>
+
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="/Kurumsal/Sikca_Sorulan_Sorular">SSS</a>
+                        </li>
+
+                        <li>
+                            <a href="/Kurumsal/Veri_Takvimi">VER&#x130; YAYIMLAMA TAKV&#x130;M&#x130;</a>
+                        </li>
+                        <li>
+                            <div id="search2" class="d-lg-none px-3 form-row w-100 bg-dark mb-2 mt-3 mx-0">
+                                <div class="input-group input-group-lg rounded-0 w-100">
+                                    <input type="text" class="form-control form-control-lg border-0 tuik-fs-140 rounded-0" placeholder="Site &#x130;&#xE7;i Arama" aria-label="Site İçi Arama" aria-describedby="button-addon2" style="height: 3rem;" name="elastic_search_param">
+                                    <div class="input-group-append">
+                                        <button class="btn btn-danger border-0 tuik-fs-140 rounded-0" type="button" id="button-addon2" style="height: 3rem;" onclick="Arama(event);">
+                                            Ara
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+
+                        <li>
+                            <a href="#">
+                                Sosyal Medya
+                            </a>
+                            <ul>
+                                <li>
+                                    <a href="https://www.facebook.com/tuikbilgi" target="_blank">
+                                        <i class="fab fa-facebook-square tuik-link-white"> /FaceeBook</i>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="https://twitter.com/tuikbilgi" target="_blank">
+                                        <i class="fab fa-twitter-square tuik-link-white"> /Twitter</i>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="https://www.instagram.com/tuikbilgi/" target="_blank">
+                                        <i class="fab fa-instagram tuik-link-white"> /Instagram</i>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="https://www.youtube.com/channel/UC-V_n-aPRbjdI9NQ-1JtNrQ" target="_blank">
+                                        <i class="fab fa-youtube tuik-link-white"> /YouTube</i>
+                                    </a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li>
+
+                            <a href="https://www.tuik.gov.tr/en/">English</a>
+
+                        </li>
+                        <li>
+
+                            <a href="https://www.tuik.gov.tr">Türkçe </a>
+
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <script>
+                new Navjs();
+            </script>
+        </header>
+    </div>
+    <div class="container-fluid p-0 m-0 pt-4">
+        
+
+<div class="corparate-container p-5">
+    
+
+<div class="clecorparate-side-menu d-none d-lg-inline-block h-100 float-left">
+    <style>
+        .list-group-item:hover {
+            background-color: #b13032;
+            color: #fff;
+        }
+
+        .list-group-item-action.active {
+            background-color: #b13032 !important;
+            border: 0;
+        }
+    </style>
+
+    <div class="corporate-menu" style="max-width: 400px">
+        <div class="accordion-menu">
+            <ul class="menu">
+                <li>
+                    <a href="#"><div class="fa fa-user"></div>  T&#xDC;&#x130;K Ba&#x15F;kanl&#x131;&#x11F;&#x131; <i class="fa fa-chevron-down"></i></a>
+                    <ul>
+                        <li id="tuikBaskaniLi"><a href="/Kurumsal/Tuik_Baskani">T&#xDC;&#x130;K Ba&#x15F;kan&#x131;</a></li>
+                        <li id="baskandanMesajLi"><a href="/Kurumsal/Baskandan_Mesaj">Ba&#x15F;kandan Mesaj</a></li>
+                        <li id="eskiBaskanlarLi"><a href="/media/tarihce/tr/mobile/index.html" target="_blank">Tarih&#xE7;e ve Ba&#x15F;kanlar</a></li>
+
+                    </ul>
+                </li>
+                <li id="teskilatYapisiLi"><a href="/Kurumsal/Teskilat_Yapisi"><div class="fa fa-users"></div> Te&#x15F;kilat Yap&#x131;s&#x131;</a></li>
+                <li id="organizasyonSemasiLi"><a href="/Kurumsal/Organizasyon_Semasi"><div class="fa fa-sitemap"></div> Te&#x15F;kilat &#x15E;emas&#x131;</a></li>
+                <li id="bolgeLi"><a href="/Kurumsal/Iletisim?bolge=1"><div class="fa fa-home"></div> B&#xF6;lge M&#xFC;d&#xFC;rl&#xFC;kleri</a></li>
+                <li>
+                    <a href="#"><div class="fa fa-book"></div> Mevzuat <i class="fa fa-chevron-down"></i></a>
+                    <ul>
+                        <li id="turkiyeIstatistikKanunuLi"><a href="/Kurumsal/Turkiye_Istatistik_Kanunu">T&#xFC;rkiye &#x130;statistik Kanunu</a></li>
+                            <li id="kanunHukmundeKararnamelerLi"><a href="/Kurumsal/Kanun_Hukmunde_Kararnameler">Kanun H&#xFC;km&#xFC;nde Kararnameler</a></li>
+                            <li id="CumhurbaskaniKararlari"><a href="/Kurumsal/Cumhurbaskani_Kararlari">Cumhurba&#x15F;kan&#x131; Kararlar&#x131;</a></li>
+                            <li id="cumhurbaskanligiKararnameleriLi"><a href="/Kurumsal/Cumhurbaskanligi_Kararnameleri">Cumhurba&#x15F;kanl&#x131;&#x11F;&#x131; Kararnameleri</a></li>
+                        <li id="bakanlarKuruluKararlariLi"><a href="/Kurumsal/Bakanlar_Kurulu_Kararlari">Bakanlar Kurulu Kararlar&#x131;</a></li>
+                        <li id="yonetmeliklerLi"><a href="/Kurumsal/Yonetmelikler">Y&#xF6;netmelikler</a></li>
+                        <li id="yonergelerLi"><a href="/Kurumsal/Yonergeler">Y&#xF6;nergeler</a></li>
+                        <li id="digerMevzuatLi"><a href="/Kurumsal/Diger_Mevzuatlar">Di&#x11F;er Mevzuatlar</a></li>
+                    </ul>
+                </li>
+                <li id="gorevVeYetkileriLi"><a href="/Kurumsal/Gorev_Yetkileri"><div class="fa fa-tasks"></div> G&#xF6;rev ve Yetkileri</a></li>
+                    <li id="hizmetStandartlariLi"><a href="/Kurumsal/Kamu_Hizmet_Standartlari"><div class="fa fa-book-open"></div> Hizmet Standartlar&#x131;</a></li>
+                    <li id="calismaIlkelerimizLi"><a href="/Kurumsal/Calisma_Ilkelerimiz"><div class="fa fa-file-alt"></div> &#xC7;al&#x131;&#x15F;ma &#x130;lkeleri</a></li>
+                <li>
+                    <a href="#"><div class="fa fa-book"></div> Etik <i class="fa fa-chevron-down"></i></a>
+                    <ul>
+                        <li id="etikKomisyonuLi"><a href="/Kurumsal/Etik_Komisyonu">Etik Komisyonu</a></li>
+                        <li id="ilgiliMevzuatBelgelerLi"><a href="/Kurumsal/Ilgili_Mevzuat_Belgeler">&#x130;lgili Mevzuat ve Belgeler</a></li>
+                            <li id="etikKomisyonuToplantiTutanaklariLi"><a href="/Kurumsal/Etik_Komisyonu_Toplanti_Tutanaklari">Etik Komisyonu Toplantı Tutanakları</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="#"><div class="fa fa-book"></div> Plan, Program ve Raporlar<i class="fa fa-chevron-down"></i></a>
+                    <ul>
+                        <li id="stratejikPlanLi"><a href="/Kurumsal/Stratejik_Plan">Stratejik Plan</a></li>
+                            <li id="performansProgramiLi"><a href="/Kurumsal/Performans_Programi">Performans Program&#x131;</a></li>
+                            <li id="maliYiliFaaliyetRaporuLi"><a href="/Kurumsal/Mali_Yil_Faaliyet_Raporu">Faaliyet Raporu</a></li>
+                            <li id="maliDurumVeBeklentilerRaporuLi"><a href="/Kurumsal/Mali_Durum_Beklentiler_Raporu">Kurumsal Mali Durum ve Beklentiler Raporu</a></li>
+                            <li id="maliYilTablolariLi"><a href="/Kurumsal/Mali_Yil_Tablolari">Mali Y&#x131;l Tablolar&#x131;</a></li>
+                            <li id="konsolideTablolariLi"><a href="/Kurumsal/Konsolide_Mali_Tablolar">Konsolide Mali Tablolar</a></li>
+                            <li id="temelMaliTablolarLi"><a href="/Kurumsal/Temel_Mali_Tablolar">Temel Mali Tablolar</a></li>
+                    </ul>
+                </li>
+                    <li>
+                        <a href="#"><div class="fa fa-users-cog"></div> &#x130;nsan Kaynaklar&#x131; <i class="fa fa-chevron-down"></i></a>
+                        <ul>
+                            <li id="tuikPersonelIstihdamiLi"><a href="/Kurumsal/Tuik_Personel_Istihdami">T&#xDC;&#x130;K Personel &#x130;stihdam&#x131;</a></li>
+                            <li id="personelIstatistikleriLi"><a href="/Kurumsal/Personel_Istatistikleri">Personel İstatistikleri</a></li>
+                        </ul>
+                    </li>
+                <li id="kalitePolitikasiLi"><a href="/Kurumsal/Kalite_Politikasi"><div class="fa fa-user-shield"></div> Kalite Politikas&#x131;</a></li>
+
+                <li id="bilgiGuvenligiPolitikamizLi"><a href="/Kurumsal/Bilgi_Guvenligi_Politikamiz"><div class="fa fa-user-shield"></div> Bilgi G&#xFC;venli&#x11F;i Politikas&#x131;</a></li>
+                
+               
+                    <li id="enerjiPolitikasiLi"><a href="/Kurumsal/Enerji_Politikasi"><div class="fa fa-user-shield"></div> Enerji Politikas&#x131;</a></li>
+                    <li>
+                        <a href="#"><div class="fa fa-phone-square"></div> Bilgi Edinme <i class="fa fa-chevron-down"></i></a>
+                        <ul>
+                            <li id="bilgiEdinmeHakkiKanunuLi"><a href="/Kurumsal/Bilgi_Edinme_Hakki_Kanunu">Bilgi Edinme Hakkı Kanunu</a></li>
+                            <li id="bilgiEdinmeyonetmeliklerLi"><a href="/Kurumsal/Bilgi_Edinme_Yonetmelik">Yönetmelikler</a></li>
+                        </ul>
+                    </li>
+                <li id="kurumsalKimlikLi"><a href="/Kurumsal/Kurumsal_Kimlik"><div class="far fa-clipboard"></div> Kurumsal Kimlik</a></li>
+                <li>
+                    <a href="#">
+                        <div class="fa fa-microphone-alt"></div> Medya <i class="fa fa-chevron-down"></i>
+                    </a>
+                    <ul>
+                        <li id="haberlerLi"><a href="/Kurumsal/Haberler">Haberler</a></li>
+                        <li id="kamuoyuBilgilendirmeLi"><a href="/Kurumsal/Kamuoyu_Bilgilendirme">Kamuoyu Bilgilendirme</a></li>
+                        <li id="duyurularLi"><a href="/Kurumsal/Duyurular">Duyurular</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="#">
+                        <div class="fa fa-play-circle"></div> Tan&#x131;t&#x131;m<i class="fa fa-chevron-down"></i>
+                    </a>
+                    <ul>
+                        <li id="kurumTanitimFilmiLi"><a href="/Kurumsal/Kurum_Tanitim_Filmi">Kurum Tan&#x131;t&#x131;m Filmi</a></li>
+                            <li id="guvenAilesiLi"><a href="/Kurumsal/Guven_Ailesi">Güven Ailesi</a></li>
+
+                    </ul>
+                </li>
+                <li id="veriGonderilenUluslararasiKurumLi"><a href="/Kurumsal/Veri_Gonderilen_Kurum_Kuruluslar"> <div class="fa fa-share-square"></div> Veri G&#xF6;nderilen Uluslararas&#x131; Kurum/Kurulu&#x15F;lar</a></li>
+                <li id="uluslararasiFaaliyetlerProjelerLi"><a href="/Kurumsal/Uluslararasi_Faaliyetler_Projeler"><div class="fa fa-handshake"></div> Uluslararas&#x131; Faaliyetler ve Projeler</a></li>
+                <li id="iletisimLi"><a href="/Kurumsal/Iletisim"><div class="fa fa-envelope"></div> &#x130;leti&#x15F;im</a></li>
+            </ul>
+        </div>
+    </div>
+    <script type="text/javascript">
+        $(document).ready(function () {
+            var path = window.location.pathname;
+
+            if (path == "/Kurumsal/Tuik_Baskani") {
+                $($('#tuikBaskaniLi').parent()[0]).css("display", "block");
+                $('#tuikBaskaniLi').addClass("active");
+            }
+            else if (path == "/Kurumsal/Baskan_Yardimcilari") {
+                $($('#tuikBaskanYardimcilariLi').parent()[0]).css("display", "block");
+                $('#tuikBaskanYardimcilariLi').addClass("active");
+            }
+            else if (path == "/Kurumsal/Eski_Baskanlar") {
+                $($('#eskiBaskanlarLi').parent()[0]).css("display", "block");
+                $('#eskiBaskanlarLi').addClass("active");
+            }
+            else if (path == "/Kurumsal/Baskandan_Mesaj") {
+                $($('#baskandanMesajLi').parent()[0]).css("display", "block");
+                $('#baskandanMesajLi').addClass("active");
+            }
+            else if (path == "/Kurumsal/Teskilat_Yapisi") {
+                $('#teskilatYapisiLi').addClass("active");
+            }
+            else if (path == "/Kurumsal/Organizasyon_Semasi") {
+                $('#organizasyonSemasiLi').addClass("active");
+            }
+            else if (path == "/Kurumsal/Iletisim") {
+                $('#bolgeLi').addClass("active");
+            }
+            else if (path == "/Kurumsal/Turkiye_Istatistik_Kanunu") {
+                $($('#turkiyeIstatistikKanunuLi').parent()[0]).css("display", "block");
+                $('#turkiyeIstatistikKanunuLi').addClass("active");
+            }
+            else if (path == "/Kurumsal/Kanun_Hukmunde_Kararnameler") {
+                $($('#kanunHukmundeKararnamelerLi').parent()[0]).css("display", "block");
+                $('#kanunHukmundeKararnamelerLi').addClass("active");
+            }
+            else if (path == "/Kurumsal/Cumhurbaskanligi_Kararnameleri") {
+                $($('#cumhurbaskanligiKararnameleriLi').parent()[0]).css("display", "block");
+                $('#cumhurbaskanligiKararnameleriLi').addClass("active");
+            }
+            else if (path == "/Kurumsal/Bakanlar_Kurulu_Kararlari") {
+                $($('#bakanlarKuruluKararlariLi').parent()[0]).css("display", "block");
+                $('#bakanlarKuruluKararlariLi').addClass("active");
+            }
+            else if (path == "/Kurumsal/Yonetmelikler") {
+                $($('#yonetmeliklerLi').parent()[0]).css("display", "block");
+                $('#yonetmeliklerLi').addClass("active");
+            }
+            else if (path == "/Kurumsal/Yonergeler") {
+                $($('#yonergelerLi').parent()[0]).css("display", "block");
+                $('#yonergelerLi').addClass("active");
+            }
+            else if (path == "/Kurumsal/Diger_Mevzuatlar") {
+                $($('#digerMevzuatLi').parent()[0]).css("display", "block");
+                $('#digerMevzuatLi').addClass("active");
+            }
+            else if (path == "/Kurumsal/Kamu_Hizmet_Standartlari") {
+                $('#hizmetStandartlariLi').addClass("active");
+            }
+            else if (path == "/Kurumsal/Calisma_Ilkelerimiz") {
+                $('#calismaIlkelerimizLi').addClass("active");
+            }
+            else if (path == "/Kurumsal/Ilgili_Mevzuat_Belgeler") {
+                $($('#ilgiliMevzuatBelgelerLi').parent()[0]).css("display", "block");
+                $('#ilgiliMevzuatBelgelerLi').addClass("active");
+            }
+            else if (path == "/Kurumsal/Etik_Komisyonu") {
+                $($('#etikKomisyonuLi').parent()[0]).css("display", "block");
+                $('#etikKomisyonuLi').addClass("active");
+            }
+            else if (path == "/Kurumsal/Etik_Komisyonu_Toplanti_Tutanaklari") {
+                $($('#etikKomisyonuToplantiTutanaklariLi').parent()[0]).css("display", "block");
+                $('#etikKomisyonuToplantiTutanaklariLi').addClass("active");
+            }
+            else if (path == "/Kurumsal/Stratejik_Plan") {
+                $($('#stratejikPlanLi').parent()[0]).css("display", "block");
+                $('#stratejikPlanLi').addClass("active");
+            }
+            else if (path == "/Kurumsal/Performans_Programi") {
+                $($('#performansProgramiLi').parent()[0]).css("display", "block");
+                $('#performansProgramiLi').addClass("active");
+            }
+            else if (path == "/Kurumsal/Mali_Yil_Faaliyet_Raporu") {
+                $($('#maliYiliFaaliyetRaporuLi').parent()[0]).css("display", "block");
+                $('#maliYiliFaaliyetRaporuLi').addClass("active");
+            }
+            else if (path == "/Kurumsal/Mali_Durum_Beklentiler_Raporu") {
+                $($('#maliDurumVeBeklentilerRaporuLi').parent()[0]).css("display", "block");
+                $('#maliDurumVeBeklentilerRaporuLi').addClass("active");
+            }
+            else if (path == "/Kurumsal/Mali_Yil_Tablolari") {
+                $($('#maliYilTablolariLi').parent()[0]).css("display", "block");
+                $('#maliYilTablolariLi').addClass("active");
+            }
+             else if (path == "/Kurumsal/Konsolide_Mali_Tablolar") {
+                $($('#konsolideTablolariLi').parent()[0]).css("display", "block");
+                $('#konsolideTablolariLi').addClass("active");
+            }
+            else if (path == "/Kurumsal/Temel_Mali_Tablolar") {
+                $($('#temelMaliTablolarLi').parent()[0]).css("display", "block");
+                $('#temelMaliTablolarLi').addClass("active");
+            }
+            else if (path == "/Kurumsal/Bilgi_Edinme_Hakki_Kanunu") {
+                $($('#bilgiEdinmeHakkiKanunuLi').parent()[0]).css("display", "block");
+                $('#bilgiEdinmeHakkiKanunuLi').addClass("active");
+            }
+            else if (path == "/Kurumsal/Kurumsal_Kimlik") {
+                $($('#kurumsalKimlikLi').parent()[0]).css("display", "block");
+                $('#kurumsalKimlikLi').addClass("active");
+            }
+            else if (path == "/Kurumsal/Gorev_Yetkileri") {
+                $($('#gorevVeYetkileriLi').parent()[0]).css("display", "block");
+                $('#gorevVeYetkileriLi').addClass("active");
+            }
+            else if (path == "/Kurumsal/Tuik_Personel_Istihdami") {
+                $($('#tuikPersonelIstihdamiLi').parent()[0]).css("display", "block");
+                $('#tuikPersonelIstihdamiLi').addClass("active");
+            }
+            else if (path == "/Kurumsal/Staj_Olanaklari") {
+                $($('#stajOlanaklariLi').parent()[0]).css("display", "block");
+                $('#stajOlanaklariLi').addClass("active");
+            }
+            else if (path == "/Kurumsal/Personel_Istatistikleri") {
+                $($('#personelIstatistikleriLi').parent()[0]).css("display", "block");
+                $('#personelIstatistikleriLi').addClass("active");
+            }
+            else if (path == "/Kurumsal/Bilgi_Guvenligi_Politikamiz") {
+                $('#bilgiGuvenligiPolitikamizLi').addClass("active");
+            }
+            
+            else if (path == "/Kurumsal/Kalite_Politikasi") {
+                $('#kalitePolitikasiLi').addClass("active");
+            }
+            else if (path == "/Kurumsal/Enerji_Politikasi") {
+                $('#enerjiPolitikasiLi').addClass("active");
+            }
+            else if (path == "/Kurumsal/Bilgi_Edinme_Yonetmelik") {
+                $($('#bilgiEdinmeyonetmeliklerLi').parent()[0]).css("display", "block");
+                $('#bilgiEdinmeyonetmeliklerLi').addClass("active");
+            }
+            else if (path == "/Kurumsal/Haberler") {
+                $($('#haberlerLi').parent()[0]).css("display", "block");
+                $('#haberlerLi').addClass("active");
+            }
+            else if (path == "/Kurumsal/Kamuoyu_Bilgilendirme") {
+                $($('#kamuoyuBilgilendirmeLi').parent()[0]).css("display", "block");
+                $('#kamuoyuBilgilendirmeLi').addClass("active");
+            }
+            else if (path == "/Kurumsal/Duyurular") {
+                $($('#duyurularLi').parent()[0]).css("display", "block");
+                $('#duyurularLi').addClass("active");
+            }
+            else if (path == "/Kurumsal/Kurum_Tanitim_Filmi") {
+                $($('#kurumTanitimFilmiLi').parent()[0]).css("display", "block");
+                $('#kurumTanitimFilmiLi').addClass("active");
+            }
+            else if (path == "/Kurumsal/Guven_Ailesi") {
+                $($('#guvenAilesiLi').parent()[0]).css("display", "block");
+                $('#guvenAilesiLi').addClass("active");
+            }
+            else if (path == "/Kurumsal/Veri_Gonderilen_Kurum_Kuruluslar") {
+                $($('#veriGonderilenUluslararasiKurumLi').parent()[0]).css("display", "block");
+                $('#veriGonderilenUluslararasiKurumLi').addClass("active");
+            }
+            else if (path == "/Kurumsal/Uluslararasi_Faaliyetler_Projeler") {
+                $($('#uluslararasiFaaliyetlerProjelerLi').parent()[0]).css("display", "block");
+                $('#uluslararasiFaaliyetlerProjelerLi').addClass("active");
+            }
+            else if (path == "/Kurumsal/Iletisim") {
+                $('#iletisimLi').addClass("active");
+            }
+            else if (path == "/Kurumsal/Cumhurbaskani_Kararlari") {
+                $($('#CumhurbaskaniKararlari').parent()[0]).css("display", "block");
+                $('#CumhurbaskaniKararlari').addClass("active");
+            }
+        })
+    </script>
+
+    <script type="text/javascript" src="/static/tuikjs/corporate-page.js"></script>
+
+</div>
+    <div class="m-0 ml-lg-4 corparate-content d-none d-lg-inline-block bg-white h-100 d-inline-block float-left shadow" style="min-height:calc(100vh - 550px) ;">
+        <h1 class="corporate-header">
+            Uluslararas&#x131; B&#xFC;lten
+        </h1>
+        <div class="view img-effect tuik-pdf gazete-card m-0 m-lg-5 d-flex align-items-center justify-content-center mx-auto mx-lg-0" style="height: 310px">
+    <a class="d-block" href="/media/gazete/2025-2/mobile/index.html" target="_blank">
+        <img class="mx-auto" src="/media/gazete/kapak/news20252.png" width="220">
+    </a>
+
+    <div class="mx-auto mask">
+        <a href="/media/gazete/2025-2/mobile/index.html" class="info" target="_blank">..</a>
+    </div>
+</div>
+
+<div class="view img-effect tuik-pdf gazete-card m-0 m-lg-5 d-flex align-items-center justify-content-center mx-auto mx-lg-0" style="height: 310px">
+    <a class="d-block" href="/media/gazete/2025-1/mobile/index.html" target="_blank">
+        <img class="mx-auto" src="/media/gazete/kapak/news20251.png" width="220">
+    </a>
+
+    <div class="mx-auto mask">
+        <a href="/media/gazete/2025-1/mobile/index.html" class="info" target="_blank">..</a>
+    </div>
+</div>
+
+<div class="view img-effect tuik-pdf gazete-card m-0 m-lg-5 d-flex align-items-center justify-content-center mx-auto mx-lg-0" style="height: 310px">
+    <a class="d-block" href="/media/gazete/2024-2/mobile/index.html" target="_blank">
+        <img class="mx-auto" src="/media/gazete/kapak/news20242.png" width="220">
+    </a>
+
+    <div class="mx-auto mask">
+        <a href="/media/gazete/2024-2/mobile/index.html" class="info" target="_blank">..</a>
+    </div>
+</div>
+
+<div class="view img-effect tuik-pdf gazete-card m-0 m-lg-5 d-flex align-items-center justify-content-center mx-auto mx-lg-0" style="height: 310px">
+    <a class="d-block" href="/media/gazete/2024-1/mobile/index.html" target="_blank">
+        <img class="mx-auto" src="/media/gazete/kapak/news20241.png" width="220">
+    </a>
+
+    <div class="mx-auto mask">
+        <a href="/media/gazete/2024-1/mobile/index.html" class="info" target="_blank">..</a>
+    </div>
+</div>
+    </div>
+    <div class="clearfix"></div>
+</div>
+    </div>
+
+    <div class="container-fluid p-0 m-0">
+
+
+        <footer class="w-100">
+
+            <div class="container-fluid mx-auto">
+
+                <div class="row mx-auto justify-content-center">
+                    <div class="col-lg-2 col-md-6 col-sm-6 col-xs-6">
+                        <div>
+                            <h3>Eri&#x15F;im</h3>
+                            <ul>
+                                    <li><a href="/Kurumsal/Bilgi_Edinme">Bilgi Edinme</a></li>
+                                <li><a href="/Kurumsal/Sikca_Sorulan_Sorular">Yard&#x131;m</a></li>
+                                <li><a href="/Kurumsal/Site_Haritasi">Site Haritas&#x131;</a></li>
+                                <li><a href="/Kurumsal/Yasal_Uyari">Yasal Uyar&#x131;</a></li>
+                                <li><a href="/Kurumsal/Cerez_Kullanimi">&#xC7;erez Kullan&#x131;m&#x131; (Cookie)</a></li>
+                                    <li><a href="#" onclick="PdfDetayClick('126')">Sosyal Medya Takipçileri için Kullanım İlkeleri</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-lg-2 col-md-6 col-sm-6 col-xs-6 ">
+                        <h3>Tan&#x131;t&#x131;m</h3>
+                        <ul>
+                            <li><a href="/Kurumsal/Kurum_Tanitim_Filmi">Kurum Tan&#x131;t&#x131;m Filmi</a></li>
+
+                            <li><a href="/Kurumsal/Guven_Ailesi">G&#xFC;ven Ailesi</a></li>
+
+                        </ul>
+                    </div>
+                    <div class="col-lg-2 col-md-6 col-sm-6 col-xs-6">
+                        <div class="row pr-3 m-0 justify-content-center">
+                            <div>
+                                <h3>&#x130;leti&#x15F;im</h3>
+                                <p>Devlet Mahallesi Necatibey Cad. No:114 06420<br> Çankaya/Ankara</p>
+                                <p>
+                                    <svg class="tuik-is-2 tuik-if-milk" style="opacity: .5;">
+                                        <use xlink:href="/static/img/SVG/main_symbol_v15082025.svg#tuik-icon-telefon"></use>
+                                    </svg>
+                                    <a href="tel:+903124547000">0312 454 70 00</a>
+                                </p>
+
+                                <p>
+                                    <a href="/Kurumsal/Iletisim" class="nav-link tuik-link-white p-0 m-0 text-muted" style="text-decoration: none; color: #67756d !important;">
+                                        Bize Ula&#x15F;&#x131;n
+                                    </a>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-2 col-md-6 col-sm-6 col-xs-6">
+                        <div id="cimerErisilebilirlikRow" class="row tuik-cimer text-center">
+                            <div class="col">
+                                <div class="card bg-transparent border-0">
+                                </div>
+                            </div>
+                        </div>
+                            <a href="https://www.cimer.gov.tr/" target="_blank">
+                                <img class="img-responsive mt-5" src="/static/img/SVG/cimer_logo.svg" alt="" style="opacity:1; width:100% !important; max-width: 300px;">
+                            </a>
+                    </div>
+                </div>
+                <div class="text-white text-center w-100">
+
+                        <p> Türkiye İstatistik Kurumu © 2026 Tüm hakları saklıdır.</p>
+
+
+                </div>
+            </div>
+        </footer>
+
+
+
+    </div>
+    <p id="back-top">
+        <a href="#top"><span></span></a>
+    </p>
+
+    <div id="surveyModal" class="modal fade" data-backdrop="static" data-keyboard="false">
+        <div class="modal-dialog modal-confirm">
+            <div class="modal-header justify-content-center">
+                <div class="icon-box">
+                    <img src="/static/img/SVG/tuik_logo_white_tr.svg" width="90px" alt="">
+                </div>
+
+            </div>
+            <div class="modal-content">
+
+                <div class="modal-body text-justify p-0 m-0 pt-2">
+                        <strong>Sayın Kullanıcımız,</strong>
+                        <br>
+                        <span>
+                            Kullanıcılarımızı tanımak ve ihtiyaçlarını belirlemek amacıyla düzenlenen Kullanıcı Memnuniyet Anketi’ne yapacağınız katkı ile
+                            Kurumumuz hakkındaki görüşlerinizi öğrenmemizi sağlayacak, ürün ve hizmetlerimizi iyileştirmemize katkıda bulunacaksınız.<br><br>
+                            Anketimiz yaklaşık <strong> 5 dakika </strong> sürmektedir.<br>
+                            <em> Göstermiş olduğunuz ilgi ve işbirliği için teşekkür ederiz.</em><br><br>
+                        </span>
+                    <p class="text-right">
+                        <button class="btn btn-danger btn-never_show" style="background-color:#c2c2c2;border-color:#c2c2c2"><span>Tekrar G&#xF6;sterme</span> <i class="fas fa-eye-slash mb-2"></i></button>
+                        <button class="btn btn-secondary btn-remind-later mb-2"><span>Daha Sonra Hat&#x131;rlat</span> <i class="fas fa-bell"></i></button>
+                        <button class="btn btn-info btn-survey mb-2"><span>Ankete Kat&#x131;l</span> <i class="fas fa-chevron-circle-right"></i></button>
+                    </p>
+
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <form action="/Kurumsal/PDF_Detay" method="post" id="pdfDetayPostForm">
+        <input type="hidden" name="Id" id="id" />
+    </form>
+
+    <form action="/Kurumsal/DuyuruDetay" method="post" id="duyuruDetayPostForm">
+        <input type="hidden" name="Id" id="duyuruDetayId" />
+    </form>
+   
+    <script>
+        $(document).ready(function () {
+
+            // hide #back-top first
+            $("#back-top").hide();
+
+            // fade in #back-top
+            $(function () {
+                $(window).scroll(function () {
+                    if ($(this).scrollTop() > 100) {
+                        $('#back-top').fadeIn();
+                    } else {
+                        $('#back-top').fadeOut();
+                    }
+                });
+
+                // scroll body to 0px on click
+                $('#back-top a').click(function () {
+                    $('body,html').animate({
+                        scrollTop: 0
+                    }, 800);
+                    return false;
+                });
+            });
+
+        });
+    </script>
+
+    <script type="text/javascript">
+
+        console.log("Current Server : SRV29")
+
+        function GetDilId() {
+            return Cookies.get('dil');
+        }
+
+        function GetPortalUrl() {
+            return "https://veriportali.tuik.gov.tr";
+        }
+
+        function Arama() {
+            var value = $('#id_elastic_search_param').val().trim();
+            var veriportaliDil = GetDilId() == "1" ? "/tr" : "/en";
+           
+            location.href = GetPortalUrl() + veriportaliDil+"/search?q=" + value;
+            
+        }
+        $(document).ready(function () {
+            if (localStorage.getItem('displayPopup') !== '0') {
+                const openTime = Date.now();
+
+                const totalVisitTime = +localStorage.getItem('totalVisitTime');
+
+                setTimeout(() => {
+
+                    localStorage.removeItem('totalVisitTime');
+                    $('#surveyModal').modal('show');
+
+                }, 6e4 - totalVisitTime);
+
+                window.addEventListener('beforeunload', () => {
+                    if (localStorage.getItem('displayPopup') === '0') return;
+                    localStorage.setItem('totalVisitTime', totalVisitTime + Date.now() - openTime);
+                });
+            }
+            else {
+                var tarih = (Date(Date.now())).toString();
+
+                if (tarih >= localStorage.getItem('expireDate')) {
+                    localStorage.removeItem('displayPopup');
+                    localStorage.removeItem('expireDate');
+                    $('#surveyModal').modal('show');
+
+                }
+            }
+
+            $(".btn-survey").click(function () {
+                window.open("https://anket.tuik.gov.tr/tr/MAnket/b588756c1a9049a09668a26020053334", '_blank');
+                localStorage.setItem('displayPopup', '0');
+                $('#surveyModal').modal('hide');
+            });
+            $(".btn-never_show").click(function () {
+                localStorage.setItem('displayPopup', '0');
+                $('#surveyModal').modal('hide');
+            });
+            $(".btn-remind-later").click(function () {
+                localStorage.setItem('displayPopup', '0');
+                $('#surveyModal').modal('hide');
+                var gun = new Date();
+                gun.setDate(gun.getDate() + 1);
+                localStorage.setItem('expireDate', gun);
+            });
+        });
+
+        $("#navbarDropdown4").mouseover(function () {
+            $.ajax({
+                type: 'GET',
+                url: "/Home/BilgiBankKategoriPartial",
+                success: function (data) {
+                    $('#bilgiBankasiArea').empty().append(data);
+                }
+            });
+        });
+
+
+        $("#id_elastic_search_param").bind("keypress keyup", function (event) {
+            if (event.keyCode == 13) {
+                Arama();
+            }
+            //else if (event.keyCode == 8) {
+            //    var value = $('#id_elastic_search_param').val().trim();
+
+            //    if (value.length == 0) {
+            //        $('#menuUl').empty();
+
+            //        $('#menuUl').css("display", "none");
+            //    }
+            //}
+        });
+
+        function PdfDetayClick(value) {
+            $('#id').val(value);
+            $('#pdfDetayPostForm').submit();
+        }
+
+        function DuyuruDetayClick(value) {
+            $('#duyuruDetayId').val(value);
+            $('#duyuruDetayPostForm').submit();
+        }
+
+
+        var menudata = [];
+
+        itemmenu.title = "Cevaplamakla yükümlü olduğunuz araştırmaya ait bilgilerinizi girebileceğiniz sayfadır.";
+        itemmenu.url = "https://biruni.tuik.gov.tr/EdUygulamaDis/zul/giris.zul?lang=tr";
+        itemmenu.label = "Ankete Giriş";
+        itemmenu.svg = "tuik-icon-Genel_Form_3";
+        menudata.push(Object.assign({}, itemmenu));
+
+        itemmenu.title = "Avrupa İstatistiki Veri Desteği";
+        itemmenu.url = "/Kurumsal/Avrupa_Istatistiki_Veri_Destegi";
+        itemmenu.label = "Avrupa İstatistiki Veri Desteği";
+        itemmenu.svg = "tuik-icon-Avrupa_isbirligi";
+        menudata.push(Object.assign({}, itemmenu));
+
+        itemmenu.title = "Bilgi Talebi";
+        itemmenu.url = "https://ty.tuik.gov.tr";
+        itemmenu.label = "Bilgi Talebi";
+        itemmenu.svg = "tuik-icon-CSA_03_03_3_Bilgi_Toplumu";
+        menudata.push(Object.assign({}, itemmenu));
+
+        itemmenu.title = "Bilgiye Nasıl Erişilir";
+        itemmenu.url = "/Kurumsal/Bilgiye_Nasil_Erisilir";
+        itemmenu.label = "Bilgiye Nasıl Erişilir";
+        itemmenu.svg = "tuik-icon-yardim";
+        menudata.push(Object.assign({}, itemmenu));
+
+        itemmenu.title = "İstatistiki Bölge Birimleri Sınıflandırmasına göre Türkiye, bölge, alt bölge, il ve ilçeler için 1995 yılından günümüze kadar olan dönemin verileri sunulmaktadır.";
+        itemmenu.url = "https://biruni.tuik.gov.tr/bolgeselistatistik/anaSayfa.do?dil=tr";
+        itemmenu.label = "Bölgesel İstatistikler";
+        itemmenu.svg = "tuik-icon-CSA_03_03_Cok_Alanli_Istatistikler_ve_Gostergeler";
+        menudata.push(Object.assign({}, itemmenu));
+
+        itemmenu.title = "Cevaplamanız istenen araştırmanın içeriği ve sürecin işleyişi hakkında ihtiyacınız olan bilgileri bu bölümde bulabilirsiniz.";
+        itemmenu.url = "/Kurumsal/Cbm_Arastirmalar_Isyeri";
+        itemmenu.label = "Cevaplayıcı Bilgilendirme";
+        itemmenu.svg = "tuik-icon-APPS_or_NEWPAGE_Cevaplayici_Bilgilendirme_Modulu";
+        menudata.push(Object.assign({}, itemmenu));
+
+        itemmenu.title = "Dijital Defter Giriş";
+        itemmenu.url = "https://dijitaldefter.tuik.gov.tr";
+        itemmenu.label = "Dijital Defter Giriş";
+        itemmenu.svg = "tuik-icon-digitalDefter_logo";
+        menudata.push(Object.assign({}, itemmenu));
+
+        itemmenu.title = "Uygulama ile göstergeleri, il ve yıllara göre sorgulayabileceğiniz gibi, farklı göstergelere ilişkin bilgileri metaverisi ";
+        itemmenu.url = "https://biruni.tuik.gov.tr/ilgosterge/?locale=tr";
+        itemmenu.label = "&#x130;l G&#xF6;stergeleri";
+        itemmenu.svg = "tuik-icon-Genel_lg_Turkiye";
+        menudata.push(Object.assign({}, itemmenu));
+
+        itemmenu.title = "İstatistik Araştırma Dergisi";
+        itemmenu.url = "https://dergipark.org.tr/tr/pub/jsstr";
+        itemmenu.label = "İstatistik Araştırma Dergisi";
+        itemmenu.svg = "tuik-icon-istatistik-dergisi";
+        menudata.push(Object.assign({}, itemmenu));
+
+        itemmenu.title = "Mesleklerin ait olduğu alt ana grup düzeyinin kazanç ve brüt ücret bilgilerinin sorgulanabileceği sayfadır.";
+        itemmenu.url = "https://ty.tuik.gov.tr/";
+        itemmenu.label = "Kazanç Bilgisi Sorgulama";
+        itemmenu.svg = "tuik-icon-APPS_or_NEWPAGE_Kazanc_Bilgisi_Sorgulama";
+        menudata.push(Object.assign({}, itemmenu));
+
+        itemmenu.title = "Kullanıcı Memnuniyet Araştırması";
+        itemmenu.url = "https://anket.tuik.gov.tr/tr/MAnket/b588756c1a9049a09668a26020053334";
+        itemmenu.label = "Kullanıcı Memnuniyet Araştırması";
+        itemmenu.svg = "tuik-icon-Genel_Form_3";
+        menudata.push(Object.assign({}, itemmenu));
+
+        itemmenu.title = "Mikro Veri";
+        itemmenu.url = "/Kurumsal/Mikro_Veri";
+        itemmenu.label = "Mikro Veri";
+        itemmenu.svg = "tuik-icon-APPS_or_NEWPAGE_Mikroveri";
+        menudata.push(Object.assign({}, itemmenu));
+        if (1 === 1) {
+            itemmenu.title = "Mikro Veri Talebi";
+            itemmenu.url = "https://ty.tuik.gov.tr";
+            itemmenu.label = "Mikro Veri Talebi";
+            itemmenu.svg = "tuik-icon-APPS_or_NEWPAGE_Mikroveri";
+            menudata.push(Object.assign({}, itemmenu));
+
+
+            itemmenu.title = "Örneklem Talebi";
+            itemmenu.url = "https://ty.tuik.gov.tr";
+            itemmenu.label = "Örneklem Talebi";
+            itemmenu.svg = "tuik-icon-Genel_Form_9";
+            menudata.push(Object.assign({}, itemmenu));
+        }
+
+        itemmenu.title = "Belli bir tarihteki parasal değeri TÜFE ve Yİ-ÜFE değişim oranları kullanılarak talep edilen tarihteki değere dönüştürme aracıdır.";
+        itemmenu.url = "https://ty.tuik.gov.tr/";
+        itemmenu.label = "Parasal Değeri Güncelleme Aracı";
+        itemmenu.svg = "tuik-icon-APPS_or_NEWPAGE_Parasal_Degerleri_Guncelleme_Araci";
+        menudata.push(Object.assign({}, itemmenu));
+
+        // itemmenu.title = "Sınıflama, istatistiki sınıflamalar hakkında bilgi sunmaktadır.";
+        // itemmenu.url = "https://biruni.tuik.gov.tr/DIESS/ChangeLocaleAction.do?dil=tr";
+        // itemmenu.label = "Sınıflamalar (Eski)";
+        // itemmenu.svg = "tuik-icon-CSA_04_02_Siniflamalar";
+        // menudata.push(Object.assign({}, itemmenu));
+
+        itemmenu.title = "Kütüphanemiz, istatistik alanında en geniş koleksiyona sahip araştırma ve ihtisas kütüphanesidir. ";
+        itemmenu.url = "https://kutuphane.tuik.gov.tr/yordambt/yordam.php";
+        itemmenu.label = "TÜİK Kütüphane";
+        itemmenu.svg = "tuik-icon-APPS_or_NEWPAGE_Kutuphane";
+        menudata.push(Object.assign({}, itemmenu));
+
+        itemmenu.title = "TÜİK Yayınlar";
+        itemmenu.url = "https://biruni.tuik.gov.tr/yayin/views/visitorPages/index.zul";
+        itemmenu.label = "TÜİK Yayınlar";
+        itemmenu.svg = "tuik-icon-yayn_kitap";
+        menudata.push(Object.assign({}, itemmenu));
+
+        itemmenu.title = "Uluslararası Seçilmiş Göstergeler";
+        itemmenu.url = "https://biruni.tuik.gov.tr/secilmisgostergeler/";
+        itemmenu.label = "Uluslararas&#x131; Se&#xE7;ilmi&#x15F; G&#xF6;stergeler";
+        itemmenu.svg = "tuik-icon-dunya";
+        menudata.push(Object.assign({}, itemmenu));
+
+        itemmenu.title = "Ürün ve Hizmetlerimiz";
+        itemmenu.url = "/Kurumsal/Urun_Hizmetlerimiz";
+        itemmenu.label = "Ürün ve Hizmetlerimiz";
+        itemmenu.svg = "tuik-icon-urun_hizmet";
+        menudata.push(Object.assign({}, itemmenu));
+
+
+        itemmenu.title = "Veri / Bilgilerin Ücretlendirilmesi";
+        itemmenu.url = "/Kurumsal/Veri_Bilgilerin_Ucretlendirilmesi";
+        itemmenu.label = "Veri / Bilgilerin Ücretlendirilmesi";
+        itemmenu.svg = "tuik-icon-fiyatlandirma";
+        menudata.push(Object.assign({}, itemmenu));
+
+        itemmenu.title = "Farklı konulardaki istatistiksel verilerin tek bir dağıtım kanalından, karşılaştırmalı olarak sunulabilmesini...";
+        itemmenu.url = "https://biruni.tuik.gov.tr/medas/?locale=tr";
+        itemmenu.label = "Veritabanları (MEDAS)";
+        itemmenu.svg = "tuik-icon-APPS_or_NEWPAGE_Medas";
+        menudata.push(Object.assign({}, itemmenu));
+
+        loadAppis(menudata, "appis", 1.2, 1, 0);
+
+        itemmenu.title = "Ulusal Veri Sayfası";
+        itemmenu.url = "https://www.tuik.gov.tr/Turcat";
+        itemmenu.label = "Ulusal Veri Sayfası";
+        itemmenu.svg = "tuik-icon-ulusal-veri";
+        menudata.push(Object.assign({}, itemmenu));
+        menusLoad("menutab1", menudata)
+       
+        
+    </script>
+
+    <script type="module">
+        import A11y from '/a11y/js/A11y.js';
+        const lang = "tr";
+
+        new A11y({
+            language: lang
+        });
+    </script>
+
+
+</body>
+</html>

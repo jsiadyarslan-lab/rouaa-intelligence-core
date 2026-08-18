@@ -1,0 +1,524 @@
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta charset="utf-8">
+    <title>Membership and relations of BiH with the international financial institutions (IFIs)</title>
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=no">
+
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700,300&subset=latin,latin-ext" rel="stylesheet" type="text/css">
+    <link rel="icon" href="/Content/img/favicon.ico" type="image/x-icon" />
+    <link rel="stylesheet" href="/Content/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/Content/css/owl.carousel.css">
+    <link rel="stylesheet" href="/Content/css/style.css">
+    <link rel="stylesheet" href="/Content/css/style-qss.css">
+    <link rel="stylesheet" href="/Content/css/bootstrap-datepicker3.min.css" />
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.imagesloaded/3.2.0/imagesloaded.pkgd.min.js"></script>
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+    <script src="/Scripts/bootstrap.min.js"></script>
+    <script src="/Content/js/bootstrap-datepicker.min.js"></script>
+    <script src="https://code.highcharts.com/highcharts.js"></script>
+    <script src="/Content/js/prefixfree.min.js"></script>
+    <script  async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCfDrtLdJHSwlPOuk5NBN1tzVoKz5NGaso"></script>
+    <script src="/Content/js/custom.js"></script>
+    <script src="/Content/js/owl.carousel.min.js"></script>
+    <script src="/Content/js/custom-qss.js"></script>
+    <script src="/Content/js/icheck.min.js"></script>
+
+    <script>
+        (function (i, s, o, g, r, a, m) {
+            i['GoogleAnalyticsObject'] = r; i[r] = i[r] || function () {
+                (i[r].q = i[r].q || []).push(arguments)
+            }, i[r].l = 1 * new Date(); a = s.createElement(o),
+            m = s.getElementsByTagName(o)[0]; a.async = 1; a.src = g; m.parentNode.insertBefore(a, m)
+        })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
+
+        ga('create', 'UA-79595547-1', 'auto');
+        ga('send', 'pageview');
+
+    </script>
+
+
+
+    <script src='https://www.google.com/recaptcha/api.js?onload=CaptchaCallback&amp;render=explicit'></script>
+</head>
+
+
+
+<body class=" ">    
+    <div class="overlay"></div>
+    <!-- Header -->
+  <header class="header">
+      <div class="topbar"><div class="container"><div class="inner"><div class="page-search"><form class="form form-search"><div class="form-group form-prefixed"><i class="icon-search picto"></i><input id="searchTextBoxDesktop" type="text" name="" value="" class="form-control" placeholder="Search web site" /></div></form></div><div class="secondary"><ul class="list-inline list-menu"><li><a href ="http://fined.cbbh.ba/"> Financial education</a></li><li><a href ="/Content/Read/7"> Banks in BH</a></li><li><a href ="/Content/Read/953"> Public procurement</a></li><li><a href ="/Content/Read/111"> Contacts</a></li><li><a href ="/Content/Read/10"> Links</a></li><li><a href ="/accessibility/"> Accessibility options</a></li><li class="soc"><a href="https://twitter.com/cbbih" class="link-circle" target="_blank"><i class="icon-twitter" ></i></a><a href="https://www.youtube.com/channel/UC8iRX4s7gvnKGnN6DCXxu3Q" class="link-circle" target="_blank"><i class="fab fa-youtube"></i></a><a href="https://www.facebook.com/CentralnaBankaBiH" class="link-circle"><i class="icon-facebook" ></i></a><a href="https://www.linkedin.com/company/cbbih" class="link-circle"><i class="icon-linkedin" ></i></a><a href="https://www.flickr.com/photos/196610362@N02" class="link-circle"><i class="fab fa-flickr" ></i></a><a href="/Feed/Rss/" class="link-circle" target="_blank"><i class="icon-rss"></i></a></li><li class="drop-lang"><a href="#" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false" data-bind="en"> English <span class="caret"></span></a><ul class="dropdown-menu" aria-labelledby="dLabel"><li><a href="?newscategoryId=69&lang=bs">Bosanski</a></li><li><a href="?newscategoryId=69&lang=hr">Hrvatski</a></li><li><a href="?newscategoryId=69&lang=sr">Српски</a></li></ul></li></ul ></div></div></div></div><style>.logobar { background-color: #EAEBED; padding: 50px 0; background-image: url(/data/images/o_cbbh/header-bg.jpg );background-repeat: no-repeat; background-position: center;background-size: cover; position: relative; text-align: center;}</style> <style>@media only screen and (max-width: 992px) { .logobar { background-color: #EAEBED; padding: 5px !important; background-image: url(/data/images/o_cbbh/header-bg.jpg );background-repeat: no-repeat; background-position: center;background-size: cover; position: fixed; text-align: center;} }</style><div class="logobar" style='background:url(<%= BannerUrl %>)'><div class="container" ><div class="logo"><img class="logo-img" src='/data/images/o_cbbh/logo-cbbh-top-mobile.png' alt="Centralna banka Bosne i Hercegovine" /><img class="mob" src='/data/images/o_cbbh/logo-cbbh-top-mobile.png' alt="Centralna banka Bosne i Hercegovine" /></div><a href="#" class="btn-mobilemenu"><span></span><span></span><span></span>MENU</a></div></div>
+      <nav class="navbar navbar-default" role="navigation"> <div class="container">     <div class="navbar-header">         <button type ="button" class="navbar-toggle" data-toggle="collapse" data-target="#mobile-menu">             <span class="sr-only">Toggle navigation</span>             <span class="icon-bar"></span>             <span class="icon-bar"></span>             <span class="icon-bar"></span>         </button>         <a class="navbar-brand" href="#">             <p class="brand-name"><strong>Centralna banka</strong><br />Bosne i Hercegovine</p>         </a>         <a href="#" class="btn-closemenu"><i class="icon-x"></i></a>     </div>     <div class="collapse navbar-collapse" id="mobile-menu">         <form class="navbar-form navbar-left form-search" role="search">             <div class="form-group form-prefixed">                 <i class="icon-search picto"></i>                 <input id="searchTextBoxMobile" type ="text" name="" value="" class="form-control" placeholder="Search web site" />             </div>         </form>         <ul class="nav navbar-nav"> <li><a href="/"><i class="icon-home"></i></a></li><li class="dropdown"><a href="javascript:void(0);" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">About CBBH<span class="caret"></span></a><ul class="dropdown-menu"><li><a href="/Content/Read/13">General Information About the Bank</a></li><li><a href="/Content/Read/14">Regulations</a></li><li><a href="/Content/Read/730">CBBH Organizational Structure</a></li><li><a href="/Content/Read/15">CBBH Governing Board and Management Structure</a></li><li><a href="/Content/Archive/802">Strategic plan 2025 - 2027</a></li><li><a href="/Content/Read/1131">Compliance</a></li><li><a href="/Content/Read/473">Terms of use and other online services of the Central Bank of Bosnia and Herzegovina </a></li><li><a href="/Content/Read/1290">CBBH Privacy Rules</a></li></ul><li class="dropdown"><a href="javascript:void(0);" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">BH Currency<span class="caret"></span></a><ul class="dropdown-menu"><li><a href="/Content/Read/19">KM Banknotes</a></li><li><a href="/Content/Read/1072">KM Coins</a></li><li><a href="/Content/Read/645">Security Features of KM Banknotes</a></li><li><a href="/Content/Read/21">Numismatics</a></li><li><a href="/Content/Read/1261">KM banknotes, being withdrawn from circulation and ceased to be the legal tender</a></li><li><a href="/Content/Read/1287">Technical analysis of suspicious money</a></li><li><a href="/Content/Read/1090">Replacing cash KM unfit for circulation</a></li><li><a href="/Content/Read/1089">Regulations </a></li></ul><li class="dropdown"><a href="javascript:void(0);" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Currency Exchange List<span class="caret"></span></a><ul class="dropdown-menu"><li><a href="/CurrencyExchange/">Foreign Exchange List</a></li><li><a href="/OtherCurrencyExchange/Index/1227">Other Currencies</a></li></ul><li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Payment Systems<span class="caret"></span></a><ul class="dropdown-menu"><li><a href="/Content/Read/1058">Real time gross settlement (RTGS)</a></li><li><a href="/Content/Read/1241">Gyro Clearing</a></li><li><a href="/Content/Read/518">Clearing of International Payments</a></li><li><a href="/Content/Read/1291">Instant Payment System - IPS BiH</a></li><li><a href="/Content/Read/1242">Reports and statistics</a></li><li><a href="/Content/Read/1240">Oversight of payment systems</a></li><li><a href="/Content/Read/59">Contacts</a></li></ul><li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">CBBiH Registries and EIMM<span class="caret"></span></a><ul class="dropdown-menu"><li><a href="/Content/Read/1234">Single Registry of Accounts of Business Entities in Bosnia and Herzegovina</a></li><li><a href="/Content/Read/1235">Central Registry of Credits of legal entities and natural persons in Bosnia and Herzegovina </a></li><li><a href="/JIBAccountList">Business subjects accounts list</a></li><li><a href="/Content/Read/1236">Electronic Interbanking Money Market</a></li><li><a href="/Content/Read/1237">Contacts</a></li></ul><li class="dropdown"><a href="/Content/Read/8" class="dropdown-toggle" role="button" aria-haspopup="true" aria-expanded="false">Statistika</a><ul class="dropdown-menu"></ul><li class="dropdown"><a href="javascript:void(0);" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">International cooperation<span class="caret"></span></a><ul class="dropdown-menu"><li><a href="/Content/relations/892?newscategoryId=69">Membership and relations of BiH with the international financial institutions (IFIs)</a></li></ul><li class="dropdown"><a href="/Content/Read/1278" class="dropdown-toggle" role="button" aria-haspopup="true" aria-expanded="false">Cooperation with the EU</a><ul class="dropdown-menu"></ul><li class="dropdown"><a href="/press/read" class="dropdown-toggle" role="button" aria-haspopup="true" aria-expanded="false">Public Relations</a><ul class="dropdown-menu"></ul><li class="dropdown"><a href="/Content/Read/9" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Publications<span class="caret"></span></a><ul class="dropdown-menu"><li><a href="/Content/Archive/36">Annual Reports</a></li><li><a href="/Content/Archive/575">Financial Stability Reports</a></li><li><a href="/Content/Archive/35">Quarterly Bulletins</a></li><li><a href="/Content/Archive/1260">Report on Macroeconomic Imbalances</a></li><li><a href="/Content/Archive/1231">Financial Stability Risk Assessment</a></li><li><a href="/Content/Archive/903">Monthly Economic Review</a></li><li><a href="/Content/Archive/1134">Annual Financial Statements</a></li><li><a href="/Content/Archive/1137">Quarterly Financial Statements</a></li><li><a href="/Content/Archive/17">CBBH Monthly Report On Currency Board Arrangement</a></li><li><a href="/Content/Read/1138">Monthly Report on Financial Position – Data Series (1997-2018)</a></li><li><a href="/Content/Archive/1069">Weekly report from international financial market</a></li><li><a href="/Content/Archive/144">Special  Research Topics</a></li><li><a href="/Content/Archive/1141">Working papers</a></li><li><a href="/Content/Read/1130">Monograph</a></li></ul><li class="dropdown"><a href="javascript:void(0);" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Human resources<span class="caret"></span></a><ul class="dropdown-menu"><li><a href="/Content/Read/543">Bank as an employer</a></li><li><a href="/career/">Vacancies - employment in CBBH</a></li><li><a href="/Content/Read/1254">Kategorizacija radnih mjesta</a></li><li><a href="/Content/Read/1116">Internship in the CBBH</a></li><li><a href="/Content/Read/1117">Visits CBBH</a></li></ul><li class="dropdown"><a href="/RegistryRegulations" class="dropdown-toggle" role="button" aria-haspopup="true" aria-expanded="false">Public Registry Regulations of CBBH</a><ul class="dropdown-menu"></ul><li class="dropdown"><a href="/Content/Read/1275" class="dropdown-toggle" role="button" aria-haspopup="true" aria-expanded="false">Corporate Social Responsibility</a><ul class="dropdown-menu"></ul><li class="sec"><a href ="http://fined.cbbh.ba/"> Financial education</a></li><li class="sec"><a href ="/Content/Read/7"> Banks in BH</a></li><li class="sec"><a href ="/Content/Read/953"> Public procurement</a></li><li class="sec"><a href ="/Content/Read/111"> Contacts</a></li><li class="sec"><a href ="/Content/Read/10"> Links</a></li><li class="sec"><a href ="/accessibility/"> Accessibility options</a></li><li class="sec bottom-lang"><a href="#" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false" data-bind="en"> English <span class="caret"></span></a><ul class="dropdown-menu" aria-labelledby="dLabel"><li><a href="?newscategoryId=69&lang=bs">Bosanski</a></li><li><a href="?newscategoryId=69&lang=hr">Hrvatski</a></li><li><a href="?newscategoryId=69&lang=sr">Српски</a></li></ul></li>
+    <!-- Navigation -->
+   </header>
+    
+<script type="text/javascript">
+    function newSearch(searchTerm) {
+        window.location = '/search/results?searchTerm=' + searchTerm;
+    }
+    $(document).ready(function () {
+
+        $('#searchTextBoxMobile').keypress(function (e) {
+            if (e.keyCode == 13) {
+                newSearch($('#searchTextBoxMobile').val());
+                return false;
+            }
+        });
+
+        $('#searchTextBoxDesktop').keypress(function (e) {
+            if (e.keyCode == 13) {
+                newSearch($('#searchTextBoxDesktop').val());
+                return false;
+            }
+        });
+
+    });
+</script>   
+
+    
+
+<!-- Breadcrumbs navigation -->
+<div class="subnav">
+    <div class="container">
+        <ol class="breadcrumb"><li><a href="/home"><i class="icon-home"></i></a></li><li><a href="javascript:void(0);">International cooperation</a></li><li class="active">Membership and relations of BiH with the international financial institutions (IFIs)</li></ol>
+    </div>
+</div>
+<!-- End Breadcrumbs navigation -->
+<!-- Main Content -->
+<section class="content">
+    <div class="container">
+        <!-- Content Body -->
+        <div class="box contentbox">
+
+            <article class="main article">
+
+                <header class="head">
+                    <div class="header">
+                        <h3>Membership and relations of BiH with the international financial institutions (IFIs)</h3>
+                    </div>
+                    <div class="boxaction">
+
+                            <ul class="list-inline list-soc">
+                              
+                                 <li><a href="#" class="link-circle wide no-print"  onclick="window.print();"><i class="icon-print"> </i></a></li>
+                            </ul>
+                        </div>
+                </header>
+
+                <div class="body">
+                    <h3 align="justify">General information on international financial institutions</h3>
+<p align="justify">International financial institutions (IFI) represent countries of the world and their cooperation in terms of international financial relations. International financial relations basically represent financial aspect of international trade. Therefore, international financial system (or <em>international financial architecture</em>, as it was named in 1990s) encompasses rules, regulations, and conventions that regulate financial relations between countries, as well as IFIs, which represent an important element of international financial system/architecture, exist with one main purpose - to ensure free (unrestricted) international trade and capital flows. Other purposes of international financial cooperation concern continuous growth of world economy which includes increased employment and standard of living, real income growth, and efficient use of production resources.</p>
+<p align="justify">At the mention of IFI, especially from the point of view of any central bank of the world, the first thing that comes to mind is that it includes two well known institutions: the International Monetary Fund and the World Bank. These two institutions were formed at the International Conference held in Breton Woods in 1944, and are usually referred to as <em>the Breton Woods Institutions</em>. The Breton Woods Institutions were namely established in order to regulate international monetary system after the war (competence of the IMF) and to reconstruct devastated economy after the WWII (formerly under competence of the International Bank for Development and Reconstruction; presently, one of five institutions forming the World Bank Group). International monetary system established back at that time was called the Breton Woods System (system of fixed currency exchange rates with an obligation of central banks to intervene and maintain the fixed parity), and it was in force until 1971. At the moment of establishing, around 30 countries were members of the Breton Woods Institutions, while today, the IMF and the World Bank are global institutions representing international financial cooperation of almost all countries of the world.</p>
+<p align="justify">Apart from global IFIs, certain groups of countries cooperate in international financial institutions according to the principle of related interests in the region, or the principle of specific shared purpose. Examples of these are: the European Bank for Reconstruction and Development, the Bank for International Settlements established in 1930, the European Investment Bank, etc.</p>
+<p align="justify">Member countries of the aforementioned two IFIs have to deposit (or guarantee to make a payment on call) certain amount of assets according to the rules of IFIs defined by the statute or some other document defining basic rights and responsibilities of membership. The funds deposited by the members represent general source of funds (or paid-in capital) of each IFI. Funds provided in this manner are usually not sufficient to ensure financial assistance to the members, so IFIs provide additional funds by making calls for payments based on decisions on increase in the amount of general funds, or by taking loans from financial markets by issuing securities.</p>
+<p align="justify">Having in mind that, since the 1970s, forty years of modern international financial system/architecture were marked by two phenomena - globalisation and crises, other forms of international financial cooperation emerged, such as different forums, associations and committees organised by certain groups of countries. At meetings of these groups, associations or committees, decisions are made that significantly affect international financial system, especially regulatory framework, but also very IFIs, particularly the IMF. In that context, there are some famous examples of this form of cooperation: G-7 group of the most developed countries of the world, or G-20, a group that became the main economic forum after the outbreak of the global economic crisis in 2008; specific association such as the Organisation for Economic Cooperation and Development (OECD) or the Paris Club; various committees, such as the International Monetary and Financial Committee (IMFC) or the Financial Stability Board (FSB).</p>
+<p align="justify">Bosnia and Herzegovina (BiH) inherited membership in the Breton Woods Institutions and the Bank for International Settlements as one of the five countries that came out of the Socialist Federal Republic of Yugoslavia (SFRY). SFRY was a member of the Breton Woods Institutions from the very beginning. The Central Bank of Bosnia and Herzegovina (CBBiH) is a depository for the Breton Woods Institutions, and since 2002, it is a fiscal agent for the membership of BiH in the IMF. Bosnia and Herzegovina is a member of the European Bank for Reconstruction and Development and the European Investment Bank.</p>
+<p align="justify">In all of the aforementioned institutions, BiH has partially inherited and subsequently paid or deposited all necessary guarantees for paying its share of funds in general sources of funds for these IFIs. In terms of financial position of BiH in these IFIs, BiH has been in debt (meaning it is a beneficiary of a loan in amount exceeding its share in total sources of funds), neutral (not using funds), or with a zero status (uses funds in amount equal to its share in total sources of funds).</p>
+<div align="justify">Under this topic, you may find further information in international financial institutions in which BiH is member, as well as the most relevant information on relations between BiH and these institutions; information is available in three official languages in BiH, and are based on the relevant texts in English which may be accessed via links to appropriate IFI.</div>
+<div align="justify"></div>
+<div align="justify">
+<ul class="list-unstyled list-inlinelinks">
+<li><a class="btn-jumbo" href="/content/read/1052"> <span class="circle"><i class="icon-arrow"></i></span> <span class="title">World Bank Relations</span> </a></li>
+<li><a class="btn-jumbo" href="/content/read/1053"> <span class="circle"><i class="icon-arrow"></i></span> <span class="title">IMF Relations</span> </a></li>
+</ul>
+</div>
+
+                    <!--<h3>Announcements</h3>
+                    <ul class="list-unstyled list-inlinelinks">
+                            <li>
+                                <a href="/press/ShowNews/1039" class="btn-jumbo">
+                                    <div class="circle"><i class="icon-arrow"></i></div>
+                                    <p class="title">Standard &amp; Poor&#39;s Affirmed the Credit Rating of Bosnia and Herzegovina</p>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="/press/ShowNews/1036" class="btn-jumbo">
+                                    <div class="circle"><i class="icon-arrow"></i></div>
+                                    <p class="title">Moody&#39;s Affirmed Credit Rating of Bosnia and Herzegovina</p>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="/press/ShowNews/1013" class="btn-jumbo">
+                                    <div class="circle"><i class="icon-arrow"></i></div>
+                                    <p class="title">Standard&amp;Poor’s Confirmed Credit Rating of BH</p>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="/press/ShowNews/987" class="btn-jumbo">
+                                    <div class="circle"><i class="icon-arrow"></i></div>
+                                    <p class="title">Standard&amp;Poor’s Affirmed the Credit Rating of Bosnia and Herzegovina</p>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="/press/ShowNews/937" class="btn-jumbo">
+                                    <div class="circle"><i class="icon-arrow"></i></div>
+                                    <p class="title">Standard&amp;Poor&#39;s Confirmed Credit Rating of Bosnia and Herzegovina</p>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="/press/ShowNews/924" class="btn-jumbo">
+                                    <div class="circle"><i class="icon-arrow"></i></div>
+                                    <p class="title">Standard&amp;Poor&#39;s - Credit Rating on Bosnia and Herzegovina Affirmed</p>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="/press/ShowNews/904" class="btn-jumbo">
+                                    <div class="circle"><i class="icon-arrow"></i></div>
+                                    <p class="title">Standard&amp;Poor&#39;s - Credit Ratings On Bosnia And Herzegovina Affirmed</p>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="/press/ShowNews/850" class="btn-jumbo">
+                                    <div class="circle"><i class="icon-arrow"></i></div>
+                                    <p class="title">Funds of the Stand-By Arrangement Transferred</p>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="/press/ShowNews/844" class="btn-jumbo">
+                                    <div class="circle"><i class="icon-arrow"></i></div>
+                                    <p class="title">Credit Rating of Bosnia and Herzegovina Remains the Same, With Stable Outlook</p>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="/press/ShowNews/805" class="btn-jumbo">
+                                    <div class="circle"><i class="icon-arrow"></i></div>
+                                    <p class="title">Standard&amp;Poor&#39;s – credit ratings affirmed, outlook improved</p>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="/press/ShowNews/790" class="btn-jumbo">
+                                    <div class="circle"><i class="icon-arrow"></i></div>
+                                    <p class="title">MOODY&#39;S – BH Maintained the Credit Rating</p>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="/press/ShowNews/788" class="btn-jumbo">
+                                    <div class="circle"><i class="icon-arrow"></i></div>
+                                    <p class="title">Rating On Bosnia And Herzegovina Lowered</p>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="/press/ShowNews/769" class="btn-jumbo">
+                                    <div class="circle"><i class="icon-arrow"></i></div>
+                                    <p class="title">Moody&#39;s Has Changed BH Outlook Within Credit Rating</p>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="/press/ShowNews/744" class="btn-jumbo">
+                                    <div class="circle"><i class="icon-arrow"></i></div>
+                                    <p class="title">Bosnia and Herzegovina Maintained Credit Rating</p>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="/press/ShowNews/736" class="btn-jumbo">
+                                    <div class="circle"><i class="icon-arrow"></i></div>
+                                    <p class="title">Funds From The Stand By Arrangement Disbursed</p>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="/press/ShowNews/735" class="btn-jumbo">
+                                    <div class="circle"><i class="icon-arrow"></i></div>
+                                    <p class="title">Standard And Poor&#39;s Published The Annual Report On Credit Rating Of BH For 2009</p>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="/press/ShowNews/720" class="btn-jumbo">
+                                    <div class="circle"><i class="icon-arrow"></i></div>
+                                    <p class="title">Funds From The Stand By Arrangement Disbursed</p>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="/press/ShowNews/710" class="btn-jumbo">
+                                    <div class="circle"><i class="icon-arrow"></i></div>
+                                    <p class="title">MOODY&#39;S Annual Report on BH: No Changes Of Credit Rating</p>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="/press/ShowNews/668" class="btn-jumbo">
+                                    <div class="circle"><i class="icon-arrow"></i></div>
+                                    <p class="title">Standard &amp; Poor&#39;s: Credit Rating on BH Remains the Same</p>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="/press/ShowNews/634" class="btn-jumbo">
+                                    <div class="circle"><i class="icon-arrow"></i></div>
+                                    <p class="title">The SDR Funds allocatted by International Monetary Fund</p>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="/press/ShowNews/626" class="btn-jumbo">
+                                    <div class="circle"><i class="icon-arrow"></i></div>
+                                    <p class="title">Funds of the First Tranche of the New Stand-By Arrangement Disbursed</p>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="/press/ShowNews/612" class="btn-jumbo">
+                                    <div class="circle"><i class="icon-arrow"></i></div>
+                                    <p class="title">Credit Rating of Bosnia and Herzegovina Remains Stable</p>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="/press/ShowNews/580" class="btn-jumbo">
+                                    <div class="circle"><i class="icon-arrow"></i></div>
+                                    <p class="title">Better Credit Rating to BH</p>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="/press/ShowNews/558" class="btn-jumbo">
+                                    <div class="circle"><i class="icon-arrow"></i></div>
+                                    <p class="title">BH credit rating confirmed – B2 with stable outlook</p>
+                                </a>
+                            </li>
+                    </ul>-->
+                  
+                </div>
+
+            </article>
+<aside class="side">
+    <div class="body">
+
+        <!-- Sidebox -->
+        <div class="sidebox">
+            <div class="sidehead">
+                <h4>Documents</h4>
+            </div>
+            <div class="sidebody">
+                <ul class="list-unstyled list-docs" style="text-align:left">
+                                                    <li>
+                                                        <a href="/Home/GetTableAttachment?contentId=4e4a0e5f-8761-4abb-a852-6318cfef7486&amp;lang=en">
+                                                            <p class="title">Strategic plan 2022 - 2024</p>
+                                                            <p class="date">7/7/2022</p>
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="/Home/GetTableAttachment?contentId=43c58999-6dad-4fa5-9114-3a4a0cd125eb&amp;lang=en">
+                                                            <p class="title">Financial Statements and Independent Auditor&#39;s Report for the Year Ended 31 December 2024</p>
+                                                            <p class="date">4/10/2025</p>
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="/Home/GetTableAttachment?contentId=37efbd70-2954-40b0-97bb-dc55a1bd2ecb&amp;lang=en">
+                                                            <p class="title">Bank Lending Survey in BiH Q4 2025</p>
+                                                            <p class="date">2/27/2026</p>
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="/Home/GetTableAttachment?contentId=53adf4d2-d91b-4b40-8cc6-70cad6057928&amp;lang=en">
+                                                            <p class="title">Financial Statements and Independent Auditor&#39;s Report for the Year Ended 31 December 2025</p>
+                                                            <p class="date">4/10/2026</p>
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="/Home/GetTableAttachment?contentId=fb32cdd1-3d94-409a-a3eb-7c53476bd492&amp;lang=en">
+                                                            <p class="title">Bank Lending Survey in BiH _Q1 2026</p>
+                                                            <p class="date">5/20/2026</p>
+                                                        </a>
+                                                    </li>
+                                                    <li class="visible-lg">
+                                                        <a href="/Home/GetTableAttachment?contentId=ead3c4ec-2de4-4f1d-8963-210618d4832a&amp;lang=en">
+                                                            <p class="title">Monthly Economic Review, January-February 2026</p>
+                                                            <p class="date">6/26/2026</p>
+                                                        </a>
+                                                    </li>
+
+                </ul>
+            </div>
+        </div> <!-- End Sidebox -->
+
+    </div>
+</aside>        </div>
+
+        <div class="row no-print">
+    <div class="col-md-6">
+        <a href="https://registri.cbbh.ba" class="btn-jumbo" style="background-image: url(/Content/img/btn-regbg.jpg)">
+            <div class="circle"><i class="icon-arrow"></i></div>
+            <p class="title">Single Registry of Legal Entities Accounts</p>
+            <p></p>
+        </a>
+    </div>
+    <div class="col-md-6">
+        <a href="https://registri.cbbh.ba/" class="btn-jumbo" style="background-image: url(/Content/img/btn-regbg.jpg)">
+            <div class="circle"><i class="icon-arrow"></i></div>
+            <p class="title">Central Registry of Credits</p>
+            <p></p>
+        </a>
+    </div>
+
+</div>
+<br />
+<div class="row no-print">
+    <div class="col-md-6">
+        <a href="/Content/Read/915" class="btn-jumbo" style="background-image: url(/Content/img/btn-statbg.jpg)">
+            <div class="circle"><i class="icon-arrow"></i></div>
+            <p class="title">Statistics Web portal of the CBBH</p>
+            <p></p>
+        </a>
+    </div>
+</div>
+<br/>
+<div class="row no-print">
+    <div class="col-md-6">
+        <a href="/JIBAccountList" class="btn-jumbo" style="background-image: url(/Content/img/btn-regbg.jpg)">
+            <div class="circle"><i class="icon-arrow"></i></div>
+            <p class="title">Informative business subjects accounts list</p>
+            <p></p>
+        </a>
+    </div>   
+</div>
+
+
+
+        <!-- Newsletter -->
+<div class="nletter no-print">
+    <div class="row">
+        <div class="col-md-6">
+            <h3>Newsletter CBBiH</h3>
+            <p></p>
+        </div>
+        <div class="col-md-6">
+
+            <div class="form">
+                <p style="display:none; font-size:20px;" class="text-danger" id="newsletterErrorMessage"></p>
+                <p style="display:none; font-size:20px;" class="text-success" id="newsletterSuccessMessage"></p>
+                <div class="form-group form-prefixed">
+                    <i class="icon-email picto"></i>
+                    <input id="Email" type="text" name="Email" class="form-control form-line" value="" placeholder="Your email address" />
+                    <button id="newsletterPrijavaBtn" class="btn">Sign up<i class="icon-arrow"></i></button>
+                </div>
+                <div class="form-group form-inline">
+                    <div class="checkbox icheck">
+                        <label>
+                            <input id="ForCurrencyExchange" name="ForCurrencyExchange" type="checkbox"> Currency Exchange
+                        </label>
+                    </div>
+                    <div class="checkbox icheck">
+                        <label>
+                            <input id="ForNews" name="ForNews" type="checkbox"> News
+                        </label>
+                    </div>
+                    <div class="form-group">
+                           
+                        <div id="g-recaptcha1"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div> <!-- End: Newsletter -->
+
+<script>
+    var CaptchaCallback = function () {
+        grecaptcha.render('g-recaptcha1', { 'sitekey': '6LeUYAcUAAAAAFcY4uC8gDU2C8Sm-eKXsCOOpDN7' });
+    };
+
+    function showError(data) {
+        $("#newsletterErrorMessage").html(data);
+        $("#newsletterErrorMessage").css("display", "block");
+        setTimeout(function () {
+            $("#newsletterErrorMessage").css("display", "none");
+        }, 3000);
+    }
+
+    function showSuccess(data) {
+        $("#newsletterSuccessMessage").html(data);
+        $("#newsletterSuccessMessage").css("display", "block");
+        setTimeout(function () {
+            $("#newsletterSuccessMessage").css("display", "none");
+        }, 3000);
+    }
+
+    $(document).ready(function () {
+        $("#newsletterPrijavaBtn").click(function () {
+            //var recap = grecaptcha.getResponse(jQuery('#g-recaptcha1').attr('data-widget-id'));
+            var recap = grecaptcha.getResponse(0);
+
+            $.ajax({
+                type: "POST",
+                url: "/Newsletter/SignUp",
+                dataType: "json",
+                data: {
+                    email: $("#Email").val(), forNews: $("#ForNews").is(":checked"), forCurrencyExchange: $("#ForCurrencyExchange").is(":checked"), captcha: recap /*captcha: $("#g-recaptcha-response").val()*/
+                },
+                success: function (data) {
+                    if (data.code == 200) showSuccess(data.message);
+                    if (data.code == 400) showError(data.message);
+                },
+                complete: function (jqXHR, status) {
+                    grecaptcha.reset(0);
+                },
+                cache: false
+            });
+        });
+    });
+
+</script>
+
+
+
+
+    </div>
+</section> <!-- End Main Content -->
+
+
+    
+<footer class="footer">
+    
+    <div class="inner">
+        <div class="container">
+            <div class="row"  "><div class="col-md-3 col-sm-6"><p class="title">BH Currency</p><ul class="list-unstyled list-menu"><li><a href="/content/read/19">KM Banknotes</a></li><li><a href="/content/read/1072">KM Coins</a></li><li><a href="/content/read/645">Security Features of KM Banknotes</a></li><li><a href="/content/read/21">Numismatics</a></li><li><a href="/content/read/1261">KM banknotes, being withdrawn from circulation and ceased to be the legal tender</a></li><li><a href="/content/read/1287">Technical analysis of suspicious money</a></li><li><a href="/content/read/1090">Replacing cash KM unfit for circulation</a></li><li><a href="/content/read/1089">Regulations </a></li></ul></div><div class="col-md-3 col-sm-6"><p class="title">Public Relations</p><ul class="list-unstyled list-menu"><li><a href="/press/AllNews">News and Press Releases</a></li><li><a href="/press/audio/753">Multimedia</a></li><li><a href="/press/Govori">Speeches and Presentations</a></li><li><a href="/press/Novina">CBBH Newsletters</a></li><li><a href="http://fined.cbbh.ba/">Education component</a></li><li><a href="/press/Informacije">Law on freedom to access information</a></li><li><a href="/Content/Read/473">Terms of use and other online services of the Central Bank of Bosnia and Herzegovina</a></li><li><a href="/press/faq">Questions and answers</a></li></ul></div><div class="col-md-3 col-sm-6"><p class="title">Payment Systems</p><ul class="list-unstyled list-menu"><li><a href="/content/read/1058">Real time gross settlement (RTGS)</a></li><li><a href="/content/read/1241">Gyro Clearing</a></li><li><a href="/content/read/518">Clearing of International Payments</a></li><li><a href="/content/read/1291">Instant Payment System - IPS BiH</a></li><li><a href="#">Reports and statistics</a></li><li><a href="/content/read/1240">Oversight of payment systems</a></li><li><a href="/content/read/59">Contacts</a></li></ul></div><div class="col-md-3 col-sm-6"><p class="title">Publications</p><ul class="list-unstyled list-menu"><li><a href="/content/archive/36">Annual Reports</a></li><li><a href="/content/archive/575">Financial Stability Reports</a></li><li><a href="/content/archive/35">Quarterly Bulletins</a></li><li><a href="/content/archive/1260">Report on Macroeconomic Imbalances</a></li><li><a href="/content/archive/1231">Financial Stability Risk Assessment</a></li><li><a href="/content/archive/903">Monthly Economic Review</a></li><li><a href="/content/archive/1134">Annual Financial Statements</a></li><li><a href="/content/archive/1137">Quarterly Financial Statements</a></li><li><a href="/content/archive/17">CBBH Monthly Report On Currency Board Arrangement</a></li><li><a href="/content/read/1138">Monthly Report on Financial Position – Data Series (1997-2018)</a></li><li><a href="/content/archive/1069">Weekly report from international financial market</a></li><li><a href="/content/archive/144">Special  Research Topics</a></li><li><a href="/content/archive/1141">Working papers</a></li><li><a href="/content/read/1130">Monograph</a></li></ul></div></div>
+            
+        </div>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="foot-foot">
+                    <p class="title">Follow us:</p>
+                    <ul class="list-inline list-soc">
+                        <li><a href="https://twitter.com/cbbih" class="link-circle"><i class="icon-twitter" target="_blank"></i></a></li>
+                        <li><a href="https://www.youtube.com/channel/UC8iRX4s7gvnKGnN6DCXxu3Q" class="link-circle"><i class="fab fa-youtube" target="_blank"></i></a></li>
+                        <li><a href="https://www.facebook.com/CentralnaBankaBiH" class="link-circle"><i class="icon-facebook" target="_blank"></i></a></li>
+                        <li><a href="https://www.linkedin.com/company/cbbih" class="link-circle"><i class="icon-linkedin"></i></a></li>
+                        <li><a href="/Feed/Rss/" class="link-circle" target="_blank"><i class="icon-rss"></i></a></li>
+                    </ul>
+                    <div class="copy">
+                        <img class="foot-logo" src="/data/images/o_cbbh/logo-cbbh-top.png" alt="The Central Bank of Bosnia and Herzegovina" />
+                        <p>© 2026. The Central Bank of Bosnia and Herzegovina</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</footer>
+
+
+
+
+    <script type="text/javascript">
+
+        $('#spinnercontainer, #spinner').ajaxStart(function () {
+            $(this).fadeIn('fast');
+        }).ajaxStop(function () {
+            $(this).stop().fadeOut('fast');
+        });
+
+        $("#backontop").click(function () {
+            $("html, body").animate({ scrollTop: 0 }, 1000);
+        });
+
+    </script>
+
+</body>
+</html>

@@ -194,3 +194,17 @@ Phase D: Re-extract with navigation exclusion + evidence selector
 Phase E: Full census re-audit (153 IOs + all facts)
 Phase F: 60+ golden corpus
 Phase G: V10 evidence document
+
+---
+Task ID: QUALITY-PRESERVED-SCALE-V11
+Agent: main
+Task: Scale Core pipeline to ≥500 sources, ≥2,500 docs, ≥500 IOs while preserving V10 quality. MEASURE RECALL (not just precision). Prove quality survives scale.
+
+Phase A: Expand source catalog to ≥500 (add Wave D sources)
+Phase B: Qualify + process ≥2,500 real documents
+Phase C: Measure Fact Recall + Event Recall (stratified 300-doc audit)
+Phase D: Pattern governance + multilingual baseline
+Phase E: ≥75 sources × 5 cycles continuous monitoring
+Phase F: Failure isolation + reprocessing
+Phase G: 75+ golden corpus
+Phase H: V11 evidence document
