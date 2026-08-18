@@ -1,0 +1,2840 @@
+{
+  "total_facts_audited": 200,
+  "fact_quality_dist": {
+    "DIRECTLY_SUPPORTED": 200
+  },
+  "evidence_grounding_dist": {
+    "DIRECT_EVIDENCE": 147,
+    "INDIRECT_EVIDENCE": 53
+  },
+  "fact_precision_pct": 100.0,
+  "direct_evidence_pct": 73.5,
+  "evidence_grounding_pct": 100.0,
+  "fact_classifications": [
+    {
+      "fact_id": "fact-c7cfe1cdf63d1ece",
+      "metric": "rate_decision",
+      "value": "lower",
+      "doc_id": "doc-60379f7197c52080",
+      "classification": "DIRECTLY_SUPPORTED",
+      "reason": "evidence + context verified (1 context matches)"
+    },
+    {
+      "fact_id": "fact-71bb4a4b3fef6cb2",
+      "metric": "policy_rate",
+      "value": "0",
+      "doc_id": "doc-3977e22b6168c0e8",
+      "classification": "DIRECTLY_SUPPORTED",
+      "reason": "evidence + context verified (1 context matches)"
+    },
+    {
+      "fact_id": "fact-62fcf24c7626a738",
+      "metric": "policy_rate",
+      "value": "110",
+      "doc_id": "doc-3977e22b6168c0e8",
+      "classification": "DIRECTLY_SUPPORTED",
+      "reason": "evidence + context verified (1 context matches)"
+    },
+    {
+      "fact_id": "fact-2e9816b04f365718",
+      "metric": "policy_rate",
+      "value": "0",
+      "doc_id": "doc-3977e22b6168c0e8",
+      "classification": "DIRECTLY_SUPPORTED",
+      "reason": "evidence + context verified (1 context matches)"
+    },
+    {
+      "fact_id": "fact-d7e6385aca2cde6d",
+      "metric": "policy_rate",
+      "value": "0",
+      "doc_id": "doc-3977e22b6168c0e8",
+      "classification": "DIRECTLY_SUPPORTED",
+      "reason": "evidence + context verified (1 context matches)"
+    },
+    {
+      "fact_id": "fact-38cd877df8b17620",
+      "metric": "policy_rate",
+      "value": "0",
+      "doc_id": "doc-3977e22b6168c0e8",
+      "classification": "DIRECTLY_SUPPORTED",
+      "reason": "evidence + context verified (1 context matches)"
+    },
+    {
+      "fact_id": "fact-7d10e1e1e32cd4a9",
+      "metric": "percentage_statistic",
+      "value": "1.5",
+      "doc_id": "doc-7c5cd3967c2f9f10",
+      "classification": "DIRECTLY_SUPPORTED",
+      "reason": "evidence + context verified (1 context matches)"
+    },
+    {
+      "fact_id": "fact-87295e50bc3a2a5d",
+      "metric": "percentage_statistic",
+      "value": "2.1",
+      "doc_id": "doc-7c5cd3967c2f9f10",
+      "classification": "DIRECTLY_SUPPORTED",
+      "reason": "evidence + context verified (1 context matches)"
+    },
+    {
+      "fact_id": "fact-7b0c0ade01277b52",
+      "metric": "percentage_statistic",
+      "value": "0.2",
+      "doc_id": "doc-7c5cd3967c2f9f10",
+      "classification": "DIRECTLY_SUPPORTED",
+      "reason": "evidence + context verified (1 context matches)"
+    },
+    {
+      "fact_id": "fact-8e8c0a3daba7f141",
+      "metric": "percentage_statistic",
+      "value": "0.7",
+      "doc_id": "doc-7c5cd3967c2f9f10",
+      "classification": "DIRECTLY_SUPPORTED",
+      "reason": "evidence + context verified (1 context matches)"
+    },
+    {
+      "fact_id": "fact-a101942805b2e327",
+      "metric": "usd_amount",
+      "value": "54.9",
+      "doc_id": "doc-7c5cd3967c2f9f10",
+      "classification": "DIRECTLY_SUPPORTED",
+      "reason": "evidence + context verified (1 context matches)"
+    },
+    {
+      "fact_id": "fact-c46ab81814844502",
+      "metric": "usd_amount",
+      "value": "48.3",
+      "doc_id": "doc-7c5cd3967c2f9f10",
+      "classification": "DIRECTLY_SUPPORTED",
+      "reason": "evidence + context verified (1 context matches)"
+    },
+    {
+      "fact_id": "fact-a91254e1c71b8e89",
+      "metric": "usd_amount",
+      "value": "65.2",
+      "doc_id": "doc-7c5cd3967c2f9f10",
+      "classification": "DIRECTLY_SUPPORTED",
+      "reason": "evidence + context verified (1 context matches)"
+    },
+    {
+      "fact_id": "fact-5804542e242981d7",
+      "metric": "usd_amount",
+      "value": "70.0",
+      "doc_id": "doc-7c5cd3967c2f9f10",
+      "classification": "DIRECTLY_SUPPORTED",
+      "reason": "evidence + context verified (1 context matches)"
+    },
+    {
+      "fact_id": "fact-811fb57032682c8f",
+      "metric": "usd_amount",
+      "value": "646.1",
+      "doc_id": "doc-7c5cd3967c2f9f10",
+      "classification": "DIRECTLY_SUPPORTED",
+      "reason": "evidence + context verified (1 context matches)"
+    },
+    {
+      "fact_id": "fact-125b39157aa0e914",
+      "metric": "usd_amount",
+      "value": "5.8",
+      "doc_id": "doc-7c5cd3967c2f9f10",
+      "classification": "DIRECTLY_SUPPORTED",
+      "reason": "evidence + context verified (1 context matches)"
+    },
+    {
+      "fact_id": "fact-da1fc0e2d2810de7",
+      "metric": "usd_amount",
+      "value": "226.8",
+      "doc_id": "doc-7c5cd3967c2f9f10",
+      "classification": "DIRECTLY_SUPPORTED",
+      "reason": "evidence + context verified (1 context matches)"
+    },
+    {
+      "fact_id": "fact-14b87cf63b4f5882",
+      "metric": "usd_amount",
+      "value": "221.1",
+      "doc_id": "doc-7c5cd3967c2f9f10",
+      "classification": "DIRECTLY_SUPPORTED",
+      "reason": "evidence + context verified (1 context matches)"
+    },
+    {
+      "fact_id": "fact-a42cce73ba975ac1",
+      "metric": "usd_amount",
+      "value": "21.27",
+      "doc_id": "doc-7c5cd3967c2f9f10",
+      "classification": "DIRECTLY_SUPPORTED",
+      "reason": "evidence + context verified (1 context matches)"
+    },
+    {
+      "fact_id": "fact-0bacae8f5d8a822c",
+      "metric": "usd_amount",
+      "value": "43.37",
+      "doc_id": "doc-7c5cd3967c2f9f10",
+      "classification": "DIRECTLY_SUPPORTED",
+      "reason": "evidence + context verified (1 context matches)"
+    },
+    {
+      "fact_id": "fact-30aab60c5ea41e7e",
+      "metric": "usd_amount",
+      "value": "64.64",
+      "doc_id": "doc-7c5cd3967c2f9f10",
+      "classification": "DIRECTLY_SUPPORTED",
+      "reason": "evidence + context verified (1 context matches)"
+    },
+    {
+      "fact_id": "fact-ec8352c9b3de4a46",
+      "metric": "usd_amount",
+      "value": "21.87",
+      "doc_id": "doc-7c5cd3967c2f9f10",
+      "classification": "DIRECTLY_SUPPORTED",
+      "reason": "evidence + context verified (1 context matches)"
+    },
+    {
+      "fact_id": "fact-c506c2cb9773f9d9",
+      "metric": "usd_amount",
+      "value": "77.6",
+      "doc_id": "doc-7c5cd3967c2f9f10",
+      "classification": "DIRECTLY_SUPPORTED",
+      "reason": "evidence + context verified (1 context matches)"
+    },
+    {
+      "fact_id": "fact-65fcb4218130bb5e",
+      "metric": "usd_amount",
+      "value": "73.3",
+      "doc_id": "doc-7c5cd3967c2f9f10",
+      "classification": "DIRECTLY_SUPPORTED",
+      "reason": "evidence + context verified (1 context matches)"
+    },
+    {
+      "fact_id": "fact-b9dfeae86f5034f8",
+      "metric": "usd_amount",
+      "value": "3.9",
+      "doc_id": "doc-7c5cd3967c2f9f10",
+      "classification": "DIRECTLY_SUPPORTED",
+      "reason": "evidence + context verified (1 context matches)"
+    },
+    {
+      "fact_id": "fact-b532dc5822243746",
+      "metric": "usd_amount",
+      "value": "102.1",
+      "doc_id": "doc-7c5cd3967c2f9f10",
+      "classification": "DIRECTLY_SUPPORTED",
+      "reason": "evidence + context verified (1 context matches)"
+    },
+    {
+      "fact_id": "fact-0cfe88758e3899d6",
+      "metric": "usd_amount",
+      "value": "0.5",
+      "doc_id": "doc-7c5cd3967c2f9f10",
+      "classification": "DIRECTLY_SUPPORTED",
+      "reason": "evidence + context verified (1 context matches)"
+    },
+    {
+      "fact_id": "fact-bdb2cced1440d2e3",
+      "metric": "usd_amount",
+      "value": "28.8",
+      "doc_id": "doc-7c5cd3967c2f9f10",
+      "classification": "DIRECTLY_SUPPORTED",
+      "reason": "evidence + context verified (1 context matches)"
+    },
+    {
+      "fact_id": "fact-610af58a04c5b879",
+      "metric": "usd_amount",
+      "value": "232.2",
+      "doc_id": "doc-7c5cd3967c2f9f10",
+      "classification": "DIRECTLY_SUPPORTED",
+      "reason": "evidence + context verified (1 context matches)"
+    },
+    {
+      "fact_id": "fact-6558c919e548f789",
+      "metric": "usd_amount",
+      "value": "76.8",
+      "doc_id": "doc-7c5cd3967c2f9f10",
+      "classification": "DIRECTLY_SUPPORTED",
+      "reason": "evidence + context verified (1 context matches)"
+    },
+    {
+      "fact_id": "fact-ddda73552ff13870",
+      "metric": "percentage_statistic",
+      "value": "0.3",
+      "doc_id": "doc-632f5af27cb8e177",
+      "classification": "DIRECTLY_SUPPORTED",
+      "reason": "evidence + context verified (1 context matches)"
+    },
+    {
+      "fact_id": "fact-b6b28b716a0453f7",
+      "metric": "percentage_statistic",
+      "value": "0.4",
+      "doc_id": "doc-632f5af27cb8e177",
+      "classification": "DIRECTLY_SUPPORTED",
+      "reason": "evidence + context verified (1 context matches)"
+    },
+    {
+      "fact_id": "fact-9a6d587421a6d717",
+      "metric": "percentage_statistic",
+      "value": "0.1",
+      "doc_id": "doc-632f5af27cb8e177",
+      "classification": "DIRECTLY_SUPPORTED",
+      "reason": "evidence + context verified (1 context matches)"
+    },
+    {
+      "fact_id": "fact-aa5cd3324e36d8e9",
+      "metric": "percentage_statistic",
+      "value": "0.8",
+      "doc_id": "doc-632f5af27cb8e177",
+      "classification": "DIRECTLY_SUPPORTED",
+      "reason": "evidence + context verified (1 context matches)"
+    },
+    {
+      "fact_id": "fact-062bf59e9caf330c",
+      "metric": "percentage_statistic",
+      "value": "0.0",
+      "doc_id": "doc-ab8dbef146c79b7d",
+      "classification": "DIRECTLY_SUPPORTED",
+      "reason": "evidence + context verified (1 context matches)"
+    },
+    {
+      "fact_id": "fact-1f0690e182f427f8",
+      "metric": "percentage_statistic",
+      "value": "0.0",
+      "doc_id": "doc-ab8dbef146c79b7d",
+      "classification": "DIRECTLY_SUPPORTED",
+      "reason": "evidence + context verified (1 context matches)"
+    },
+    {
+      "fact_id": "fact-44de9bfc112b38e8",
+      "metric": "percentage_statistic",
+      "value": "0.0",
+      "doc_id": "doc-ab8dbef146c79b7d",
+      "classification": "DIRECTLY_SUPPORTED",
+      "reason": "evidence + context verified (1 context matches)"
+    },
+    {
+      "fact_id": "fact-4ad42c4ab9ec19cc",
+      "metric": "percentage_statistic",
+      "value": "0.0",
+      "doc_id": "doc-ab8dbef146c79b7d",
+      "classification": "DIRECTLY_SUPPORTED",
+      "reason": "evidence + context verified (1 context matches)"
+    },
+    {
+      "fact_id": "fact-2a79432cdc8d24a0",
+      "metric": "percentage_statistic",
+      "value": "0.0",
+      "doc_id": "doc-ab8dbef146c79b7d",
+      "classification": "DIRECTLY_SUPPORTED",
+      "reason": "evidence + context verified (1 context matches)"
+    },
+    {
+      "fact_id": "fact-02f973b3abc7148c",
+      "metric": "percentage_statistic",
+      "value": "0.0",
+      "doc_id": "doc-ab8dbef146c79b7d",
+      "classification": "DIRECTLY_SUPPORTED",
+      "reason": "evidence + context verified (1 context matches)"
+    },
+    {
+      "fact_id": "fact-2ad029439ec96392",
+      "metric": "percentage_statistic",
+      "value": "0.3",
+      "doc_id": "doc-ab8dbef146c79b7d",
+      "classification": "DIRECTLY_SUPPORTED",
+      "reason": "evidence + context verified (1 context matches)"
+    },
+    {
+      "fact_id": "fact-ef252cfe0113ecdb",
+      "metric": "percentage_statistic",
+      "value": "0.4",
+      "doc_id": "doc-ab8dbef146c79b7d",
+      "classification": "DIRECTLY_SUPPORTED",
+      "reason": "evidence + context verified (1 context matches)"
+    },
+    {
+      "fact_id": "fact-4ed242ea8a0998a1",
+      "metric": "percentage_statistic",
+      "value": "0.1",
+      "doc_id": "doc-ab8dbef146c79b7d",
+      "classification": "DIRECTLY_SUPPORTED",
+      "reason": "evidence + context verified (1 context matches)"
+    },
+    {
+      "fact_id": "fact-d5604c6377296973",
+      "metric": "gdp_growth",
+      "value": "0.0",
+      "doc_id": "doc-ab8dbef146c79b7d",
+      "classification": "DIRECTLY_SUPPORTED",
+      "reason": "evidence + context verified (1 context matches)"
+    },
+    {
+      "fact_id": "fact-0041eea877fe44e5",
+      "metric": "percentage_statistic",
+      "value": "0.0",
+      "doc_id": "doc-ab8dbef146c79b7d",
+      "classification": "DIRECTLY_SUPPORTED",
+      "reason": "evidence + context verified (1 context matches)"
+    },
+    {
+      "fact_id": "fact-fd81bf787f8934b8",
+      "metric": "percentage_statistic",
+      "value": "0.0",
+      "doc_id": "doc-ab8dbef146c79b7d",
+      "classification": "DIRECTLY_SUPPORTED",
+      "reason": "evidence + context verified (1 context matches)"
+    },
+    {
+      "fact_id": "fact-f14d5f560fe8e6de",
+      "metric": "percentage_statistic",
+      "value": "0.0",
+      "doc_id": "doc-ab8dbef146c79b7d",
+      "classification": "DIRECTLY_SUPPORTED",
+      "reason": "evidence + context verified (1 context matches)"
+    },
+    {
+      "fact_id": "fact-bc11e50548ea45df",
+      "metric": "percentage_statistic",
+      "value": "0.0",
+      "doc_id": "doc-ab8dbef146c79b7d",
+      "classification": "DIRECTLY_SUPPORTED",
+      "reason": "evidence + context verified (1 context matches)"
+    },
+    {
+      "fact_id": "fact-1a726980e5e00989",
+      "metric": "percentage_statistic",
+      "value": "0.0",
+      "doc_id": "doc-ab8dbef146c79b7d",
+      "classification": "DIRECTLY_SUPPORTED",
+      "reason": "evidence + context verified (1 context matches)"
+    },
+    {
+      "fact_id": "fact-703c310b0eb71958",
+      "metric": "percentage_statistic",
+      "value": "0.0",
+      "doc_id": "doc-ab8dbef146c79b7d",
+      "classification": "DIRECTLY_SUPPORTED",
+      "reason": "evidence + context verified (1 context matches)"
+    },
+    {
+      "fact_id": "fact-ea2dd9e1f761c817",
+      "metric": "percentage_statistic",
+      "value": "0.3",
+      "doc_id": "doc-ab8dbef146c79b7d",
+      "classification": "DIRECTLY_SUPPORTED",
+      "reason": "evidence + context verified (1 context matches)"
+    },
+    {
+      "fact_id": "fact-3873e6b96a3fd37f",
+      "metric": "percentage_statistic",
+      "value": "0.4",
+      "doc_id": "doc-ab8dbef146c79b7d",
+      "classification": "DIRECTLY_SUPPORTED",
+      "reason": "evidence + context verified (1 context matches)"
+    },
+    {
+      "fact_id": "fact-c64d26e281c89db6",
+      "metric": "percentage_statistic",
+      "value": "0.1",
+      "doc_id": "doc-ab8dbef146c79b7d",
+      "classification": "DIRECTLY_SUPPORTED",
+      "reason": "evidence + context verified (1 context matches)"
+    },
+    {
+      "fact_id": "fact-6858a52ff966300c",
+      "metric": "gdp_growth",
+      "value": "0.0",
+      "doc_id": "doc-ab8dbef146c79b7d",
+      "classification": "DIRECTLY_SUPPORTED",
+      "reason": "evidence + context verified (1 context matches)"
+    },
+    {
+      "fact_id": "fact-b8c3d553c6f5cacf",
+      "metric": "action_type",
+      "value": "charged",
+      "doc_id": "doc-9a2c3554bf239005",
+      "classification": "DIRECTLY_SUPPORTED",
+      "reason": "evidence + context verified (1 context matches)"
+    },
+    {
+      "fact_id": "fact-adc02b02e97fc6f8",
+      "metric": "action_type",
+      "value": "charged",
+      "doc_id": "doc-9a2c3554bf239005",
+      "classification": "DIRECTLY_SUPPORTED",
+      "reason": "evidence + context verified (1 context matches)"
+    },
+    {
+      "fact_id": "fact-bef4f076f72c5a63",
+      "metric": "action_type",
+      "value": "disgorgement",
+      "doc_id": "doc-9a2c3554bf239005",
+      "classification": "DIRECTLY_SUPPORTED",
+      "reason": "evidence + context verified (1 context matches)"
+    },
+    {
+      "fact_id": "fact-b07ffe404be37e97",
+      "metric": "penalty_amount",
+      "value": "74",
+      "doc_id": "doc-9a2c3554bf239005",
+      "classification": "DIRECTLY_SUPPORTED",
+      "reason": "evidence + context verified (1 context matches)"
+    },
+    {
+      "fact_id": "fact-03a658a0a04bcb10",
+      "metric": "penalty_amount",
+      "value": "74",
+      "doc_id": "doc-9a2c3554bf239005",
+      "classification": "DIRECTLY_SUPPORTED",
+      "reason": "evidence + context verified (1 context matches)"
+    },
+    {
+      "fact_id": "fact-f28ef05be994b18b",
+      "metric": "penalty_amount",
+      "value": "74",
+      "doc_id": "doc-9a2c3554bf239005",
+      "classification": "DIRECTLY_SUPPORTED",
+      "reason": "evidence + context verified (1 context matches)"
+    },
+    {
+      "fact_id": "fact-49fa7cb5f1f82496",
+      "metric": "penalty_amount",
+      "value": "74",
+      "doc_id": "doc-9a2c3554bf239005",
+      "classification": "DIRECTLY_SUPPORTED",
+      "reason": "evidence + context verified (1 context matches)"
+    },
+    {
+      "fact_id": "fact-a62906de137a3861",
+      "metric": "penalty_amount",
+      "value": "23",
+      "doc_id": "doc-9a2c3554bf239005",
+      "classification": "DIRECTLY_SUPPORTED",
+      "reason": "evidence + context verified (1 context matches)"
+    },
+    {
+      "fact_id": "fact-01999f1791977ff9",
+      "metric": "penalty_amount",
+      "value": "12",
+      "doc_id": "doc-9a2c3554bf239005",
+      "classification": "DIRECTLY_SUPPORTED",
+      "reason": "evidence + context verified (1 context matches)"
+    },
+    {
+      "fact_id": "fact-41cca54c0f9ed48b",
+      "metric": "penalty_amount",
+      "value": "4",
+      "doc_id": "doc-9a2c3554bf239005",
+      "classification": "DIRECTLY_SUPPORTED",
+      "reason": "evidence + context verified (1 context matches)"
+    },
+    {
+      "fact_id": "fact-fae7549b7c1e83b7",
+      "metric": "action_type",
+      "value": "charged",
+      "doc_id": "doc-fa4e9cecec3e8d7d",
+      "classification": "DIRECTLY_SUPPORTED",
+      "reason": "evidence + context verified (1 context matches)"
+    },
+    {
+      "fact_id": "fact-5faf1aab919f0379",
+      "metric": "action_type",
+      "value": "disgorgement",
+      "doc_id": "doc-fa4e9cecec3e8d7d",
+      "classification": "DIRECTLY_SUPPORTED",
+      "reason": "evidence + context verified (1 context matches)"
+    },
+    {
+      "fact_id": "fact-b39a2956ae59dbf9",
+      "metric": "action_type",
+      "value": "injunction",
+      "doc_id": "doc-fa4e9cecec3e8d7d",
+      "classification": "DIRECTLY_SUPPORTED",
+      "reason": "evidence + context verified (1 context matches)"
+    },
+    {
+      "fact_id": "fact-86b3212f7e5090d6",
+      "metric": "penalty_amount",
+      "value": "47",
+      "doc_id": "doc-fa4e9cecec3e8d7d",
+      "classification": "DIRECTLY_SUPPORTED",
+      "reason": "evidence + context verified (1 context matches)"
+    },
+    {
+      "fact_id": "fact-45fac5e9663fef69",
+      "metric": "penalty_amount",
+      "value": "47",
+      "doc_id": "doc-fa4e9cecec3e8d7d",
+      "classification": "DIRECTLY_SUPPORTED",
+      "reason": "evidence + context verified (1 context matches)"
+    },
+    {
+      "fact_id": "fact-ec8f014c31aaa6db",
+      "metric": "penalty_amount",
+      "value": "47",
+      "doc_id": "doc-fa4e9cecec3e8d7d",
+      "classification": "DIRECTLY_SUPPORTED",
+      "reason": "evidence + context verified (1 context matches)"
+    },
+    {
+      "fact_id": "fact-f46a415c0dc1b864",
+      "metric": "penalty_amount",
+      "value": "47",
+      "doc_id": "doc-fa4e9cecec3e8d7d",
+      "classification": "DIRECTLY_SUPPORTED",
+      "reason": "evidence + context verified (1 context matches)"
+    },
+    {
+      "fact_id": "fact-d88242430e2a82e0",
+      "metric": "penalty_amount",
+      "value": "11",
+      "doc_id": "doc-fa4e9cecec3e8d7d",
+      "classification": "DIRECTLY_SUPPORTED",
+      "reason": "evidence + context verified (1 context matches)"
+    },
+    {
+      "fact_id": "fact-b338dfb32c18be33",
+      "metric": "penalty_amount",
+      "value": "850,000",
+      "doc_id": "doc-fa4e9cecec3e8d7d",
+      "classification": "DIRECTLY_SUPPORTED",
+      "reason": "evidence + context verified (1 context matches)"
+    },
+    {
+      "fact_id": "fact-f1b79a4a430ab8ac",
+      "metric": "penalty_amount",
+      "value": "23",
+      "doc_id": "doc-fa4e9cecec3e8d7d",
+      "classification": "DIRECTLY_SUPPORTED",
+      "reason": "evidence + context verified (1 context matches)"
+    },
+    {
+      "fact_id": "fact-da9317ea872eae27",
+      "metric": "penalty_amount",
+      "value": "25",
+      "doc_id": "doc-fa4e9cecec3e8d7d",
+      "classification": "DIRECTLY_SUPPORTED",
+      "reason": "evidence + context verified (1 context matches)"
+    },
+    {
+      "fact_id": "fact-2865dfd79f692645",
+      "metric": "action_type",
+      "value": "charged",
+      "doc_id": "doc-607891ddb7eae21c",
+      "classification": "DIRECTLY_SUPPORTED",
+      "reason": "evidence + context verified (1 context matches)"
+    },
+    {
+      "fact_id": "fact-fc04ce35c603fdaf",
+      "metric": "action_type",
+      "value": "charged",
+      "doc_id": "doc-607891ddb7eae21c",
+      "classification": "DIRECTLY_SUPPORTED",
+      "reason": "evidence + context verified (1 context matches)"
+    },
+    {
+      "fact_id": "fact-7dd35f189987e9e5",
+      "metric": "action_type",
+      "value": "disgorgement",
+      "doc_id": "doc-607891ddb7eae21c",
+      "classification": "DIRECTLY_SUPPORTED",
+      "reason": "evidence + context verified (1 context matches)"
+    },
+    {
+      "fact_id": "fact-675fbe73255e49d8",
+      "metric": "action_type",
+      "value": "penalty",
+      "doc_id": "doc-607891ddb7eae21c",
+      "classification": "DIRECTLY_SUPPORTED",
+      "reason": "evidence + context verified (1 context matches)"
+    },
+    {
+      "fact_id": "fact-4c37194b1ba94c61",
+      "metric": "penalty_amount",
+      "value": "10",
+      "doc_id": "doc-607891ddb7eae21c",
+      "classification": "DIRECTLY_SUPPORTED",
+      "reason": "evidence + context verified (1 context matches)"
+    },
+    {
+      "fact_id": "fact-65108060f3e525a7",
+      "metric": "penalty_amount",
+      "value": "400",
+      "doc_id": "doc-c35a0a455e177d33",
+      "classification": "DIRECTLY_SUPPORTED",
+      "reason": "evidence + context verified (1 context matches)"
+    },
+    {
+      "fact_id": "fact-f3cf61824ca1e8d1",
+      "metric": "penalty_amount",
+      "value": "8",
+      "doc_id": "doc-c35a0a455e177d33",
+      "classification": "DIRECTLY_SUPPORTED",
+      "reason": "evidence + context verified (1 context matches)"
+    },
+    {
+      "fact_id": "fact-f48ff41f586dbf06",
+      "metric": "penalty_amount",
+      "value": "35,000",
+      "doc_id": "doc-c35a0a455e177d33",
+      "classification": "DIRECTLY_SUPPORTED",
+      "reason": "evidence + context verified (1 context matches)"
+    },
+    {
+      "fact_id": "fact-beadebf27543674e",
+      "metric": "penalty_amount",
+      "value": "2.5",
+      "doc_id": "doc-c35a0a455e177d33",
+      "classification": "DIRECTLY_SUPPORTED",
+      "reason": "evidence + context verified (1 context matches)"
+    },
+    {
+      "fact_id": "fact-06d239758e0011f6",
+      "metric": "action_type",
+      "value": "settlement",
+      "doc_id": "doc-4af3271a80d211ac",
+      "classification": "DIRECTLY_SUPPORTED",
+      "reason": "evidence + context verified (1 context matches)"
+    },
+    {
+      "fact_id": "fact-6f499f6010fa1611",
+      "metric": "action_type",
+      "value": "settlement",
+      "doc_id": "doc-5a0d604dbdfb38d7",
+      "classification": "DIRECTLY_SUPPORTED",
+      "reason": "evidence + context verified (1 context matches)"
+    },
+    {
+      "fact_id": "fact-61abe9601dacbef9",
+      "metric": "action_type",
+      "value": "settlement",
+      "doc_id": "doc-feed6a6cbc4d4c7b",
+      "classification": "DIRECTLY_SUPPORTED",
+      "reason": "evidence + context verified (1 context matches)"
+    },
+    {
+      "fact_id": "fact-6bd47eddfeddf8ac",
+      "metric": "action_type",
+      "value": "settlement",
+      "doc_id": "doc-b72c1ee4a05de89b",
+      "classification": "DIRECTLY_SUPPORTED",
+      "reason": "evidence + context verified (1 context matches)"
+    },
+    {
+      "fact_id": "fact-dd5acb860eade6c3",
+      "metric": "action_type",
+      "value": "penalty",
+      "doc_id": "doc-b72c1ee4a05de89b",
+      "classification": "DIRECTLY_SUPPORTED",
+      "reason": "evidence + context verified (1 context matches)"
+    },
+    {
+      "fact_id": "fact-2b041599762a21c8",
+      "metric": "action_type",
+      "value": "settlement",
+      "doc_id": "doc-b72c1ee4a05de89b",
+      "classification": "DIRECTLY_SUPPORTED",
+      "reason": "evidence + context verified (1 context matches)"
+    },
+    {
+      "fact_id": "fact-ccc3f76d09ed5b39",
+      "metric": "action_type",
+      "value": "penalty",
+      "doc_id": "doc-b72c1ee4a05de89b",
+      "classification": "DIRECTLY_SUPPORTED",
+      "reason": "evidence + context verified (1 context matches)"
+    },
+    {
+      "fact_id": "fact-522eb207af7ee09f",
+      "metric": "action_type",
+      "value": "settlement",
+      "doc_id": "doc-ef790d13880c21e9",
+      "classification": "DIRECTLY_SUPPORTED",
+      "reason": "evidence + context verified (1 context matches)"
+    },
+    {
+      "fact_id": "fact-dfdf2e8fb24b0e4e",
+      "metric": "action_type",
+      "value": "settlement",
+      "doc_id": "doc-ef790d13880c21e9",
+      "classification": "DIRECTLY_SUPPORTED",
+      "reason": "evidence + context verified (1 context matches)"
+    },
+    {
+      "fact_id": "fact-72b237cbfa18bccc",
+      "metric": "action_type",
+      "value": "settlement",
+      "doc_id": "doc-ef790d13880c21e9",
+      "classification": "DIRECTLY_SUPPORTED",
+      "reason": "evidence + context verified (1 context matches)"
+    },
+    {
+      "fact_id": "fact-36aeebd4497adf41",
+      "metric": "action_type",
+      "value": "settlement",
+      "doc_id": "doc-ef790d13880c21e9",
+      "classification": "DIRECTLY_SUPPORTED",
+      "reason": "evidence + context verified (1 context matches)"
+    },
+    {
+      "fact_id": "fact-f39b7ce21a9f56e3",
+      "metric": "action_type",
+      "value": "settlement",
+      "doc_id": "doc-ef790d13880c21e9",
+      "classification": "DIRECTLY_SUPPORTED",
+      "reason": "evidence + context verified (1 context matches)"
+    },
+    {
+      "fact_id": "fact-8c31575fd66146d7",
+      "metric": "action_type",
+      "value": "settlement",
+      "doc_id": "doc-ef790d13880c21e9",
+      "classification": "DIRECTLY_SUPPORTED",
+      "reason": "evidence + context verified (1 context matches)"
+    },
+    {
+      "fact_id": "fact-f3a9bf1ea582f8d8",
+      "metric": "action_type",
+      "value": "settlement",
+      "doc_id": "doc-ef790d13880c21e9",
+      "classification": "DIRECTLY_SUPPORTED",
+      "reason": "evidence + context verified (1 context matches)"
+    },
+    {
+      "fact_id": "fact-e3588b996659e520",
+      "metric": "action_type",
+      "value": "settlement",
+      "doc_id": "doc-ef790d13880c21e9",
+      "classification": "DIRECTLY_SUPPORTED",
+      "reason": "evidence + context verified (1 context matches)"
+    },
+    {
+      "fact_id": "fact-45301f8298c0c5d0",
+      "metric": "action_type",
+      "value": "settlement",
+      "doc_id": "doc-ef790d13880c21e9",
+      "classification": "DIRECTLY_SUPPORTED",
+      "reason": "evidence + context verified (1 context matches)"
+    },
+    {
+      "fact_id": "fact-3f79f2a6c79ebe43",
+      "metric": "action_type",
+      "value": "settlement",
+      "doc_id": "doc-ef790d13880c21e9",
+      "classification": "DIRECTLY_SUPPORTED",
+      "reason": "evidence + context verified (1 context matches)"
+    },
+    {
+      "fact_id": "fact-27db5410519eea50",
+      "metric": "action_type",
+      "value": "settlement",
+      "doc_id": "doc-ef790d13880c21e9",
+      "classification": "DIRECTLY_SUPPORTED",
+      "reason": "evidence + context verified (1 context matches)"
+    },
+    {
+      "fact_id": "fact-cd4cc6ad5d5dc45c",
+      "metric": "action_type",
+      "value": "settlement",
+      "doc_id": "doc-ef790d13880c21e9",
+      "classification": "DIRECTLY_SUPPORTED",
+      "reason": "evidence + context verified (1 context matches)"
+    },
+    {
+      "fact_id": "fact-28c63b668514bee1",
+      "metric": "action_type",
+      "value": "settlement",
+      "doc_id": "doc-ef790d13880c21e9",
+      "classification": "DIRECTLY_SUPPORTED",
+      "reason": "evidence + context verified (1 context matches)"
+    },
+    {
+      "fact_id": "fact-49493d83f906f5ea",
+      "metric": "action_type",
+      "value": "settlement",
+      "doc_id": "doc-ef790d13880c21e9",
+      "classification": "DIRECTLY_SUPPORTED",
+      "reason": "evidence + context verified (1 context matches)"
+    },
+    {
+      "fact_id": "fact-a6d103529061ea85",
+      "metric": "action_type",
+      "value": "settlement",
+      "doc_id": "doc-ef790d13880c21e9",
+      "classification": "DIRECTLY_SUPPORTED",
+      "reason": "evidence + context verified (1 context matches)"
+    },
+    {
+      "fact_id": "fact-3ed574cb949d947e",
+      "metric": "action_type",
+      "value": "settlement",
+      "doc_id": "doc-ef790d13880c21e9",
+      "classification": "DIRECTLY_SUPPORTED",
+      "reason": "evidence + context verified (1 context matches)"
+    },
+    {
+      "fact_id": "fact-3499ba5d6a6157a5",
+      "metric": "action_type",
+      "value": "settlement",
+      "doc_id": "doc-ef790d13880c21e9",
+      "classification": "DIRECTLY_SUPPORTED",
+      "reason": "evidence + context verified (1 context matches)"
+    },
+    {
+      "fact_id": "fact-5c7fc2b5b8120514",
+      "metric": "action_type",
+      "value": "settlement",
+      "doc_id": "doc-ef790d13880c21e9",
+      "classification": "DIRECTLY_SUPPORTED",
+      "reason": "evidence + context verified (1 context matches)"
+    },
+    {
+      "fact_id": "fact-c91142e8082ca250",
+      "metric": "action_type",
+      "value": "settlement",
+      "doc_id": "doc-ef790d13880c21e9",
+      "classification": "DIRECTLY_SUPPORTED",
+      "reason": "evidence + context verified (1 context matches)"
+    },
+    {
+      "fact_id": "fact-f6e5a3699bf377ae",
+      "metric": "action_type",
+      "value": "settlement",
+      "doc_id": "doc-ef790d13880c21e9",
+      "classification": "DIRECTLY_SUPPORTED",
+      "reason": "evidence + context verified (1 context matches)"
+    },
+    {
+      "fact_id": "fact-9ab3e9491ea6fb75",
+      "metric": "action_type",
+      "value": "settlement",
+      "doc_id": "doc-ef790d13880c21e9",
+      "classification": "DIRECTLY_SUPPORTED",
+      "reason": "evidence + context verified (1 context matches)"
+    },
+    {
+      "fact_id": "fact-e56027c3fc152bb3",
+      "metric": "action_type",
+      "value": "settlement",
+      "doc_id": "doc-ef790d13880c21e9",
+      "classification": "DIRECTLY_SUPPORTED",
+      "reason": "evidence + context verified (1 context matches)"
+    },
+    {
+      "fact_id": "fact-f843270a8ac1ae35",
+      "metric": "action_type",
+      "value": "settlement",
+      "doc_id": "doc-ef790d13880c21e9",
+      "classification": "DIRECTLY_SUPPORTED",
+      "reason": "evidence + context verified (1 context matches)"
+    },
+    {
+      "fact_id": "fact-ee4a2847e49c9b43",
+      "metric": "action_type",
+      "value": "settlement",
+      "doc_id": "doc-ef790d13880c21e9",
+      "classification": "DIRECTLY_SUPPORTED",
+      "reason": "evidence + context verified (1 context matches)"
+    },
+    {
+      "fact_id": "fact-8c5c00e89bd6622f",
+      "metric": "action_type",
+      "value": "settlement",
+      "doc_id": "doc-ef790d13880c21e9",
+      "classification": "DIRECTLY_SUPPORTED",
+      "reason": "evidence + context verified (1 context matches)"
+    },
+    {
+      "fact_id": "fact-a87ec4d3f1055c1d",
+      "metric": "action_type",
+      "value": "settlement",
+      "doc_id": "doc-ef790d13880c21e9",
+      "classification": "DIRECTLY_SUPPORTED",
+      "reason": "evidence + context verified (1 context matches)"
+    },
+    {
+      "fact_id": "fact-feaf62642dc1b841",
+      "metric": "percentage_statistic",
+      "value": "232",
+      "doc_id": "doc-ce3737ae73faa68e",
+      "classification": "DIRECTLY_SUPPORTED",
+      "reason": "evidence + context verified (1 context matches)"
+    },
+    {
+      "fact_id": "fact-30d484bf4ed4627d",
+      "metric": "percentage_statistic",
+      "value": "12.2021",
+      "doc_id": "doc-ce3737ae73faa68e",
+      "classification": "DIRECTLY_SUPPORTED",
+      "reason": "evidence + context verified (1 context matches)"
+    },
+    {
+      "fact_id": "fact-f9048f8a9b4aefc7",
+      "metric": "percentage_statistic",
+      "value": "20",
+      "doc_id": "doc-ce3737ae73faa68e",
+      "classification": "DIRECTLY_SUPPORTED",
+      "reason": "evidence + context verified (1 context matches)"
+    },
+    {
+      "fact_id": "fact-b2b642d204bdfe4a",
+      "metric": "percentage_statistic",
+      "value": "29",
+      "doc_id": "doc-ce3737ae73faa68e",
+      "classification": "DIRECTLY_SUPPORTED",
+      "reason": "evidence + context verified (1 context matches)"
+    },
+    {
+      "fact_id": "fact-35060dbd2c048075",
+      "metric": "percentage_statistic",
+      "value": "20",
+      "doc_id": "doc-ce3737ae73faa68e",
+      "classification": "DIRECTLY_SUPPORTED",
+      "reason": "evidence + context verified (1 context matches)"
+    },
+    {
+      "fact_id": "fact-54fc4c5f11dd1262",
+      "metric": "percentage_statistic",
+      "value": "232",
+      "doc_id": "doc-ce3737ae73faa68e",
+      "classification": "DIRECTLY_SUPPORTED",
+      "reason": "evidence + context verified (1 context matches)"
+    },
+    {
+      "fact_id": "fact-d0208c434e42752b",
+      "metric": "percentage_statistic",
+      "value": "12.2020",
+      "doc_id": "doc-ce3737ae73faa68e",
+      "classification": "DIRECTLY_SUPPORTED",
+      "reason": "evidence + context verified (1 context matches)"
+    },
+    {
+      "fact_id": "fact-884fce98f5209809",
+      "metric": "percentage_statistic",
+      "value": "20",
+      "doc_id": "doc-ce3737ae73faa68e",
+      "classification": "DIRECTLY_SUPPORTED",
+      "reason": "evidence + context verified (1 context matches)"
+    },
+    {
+      "fact_id": "fact-8e14735656fc5ef3",
+      "metric": "percentage_statistic",
+      "value": "29",
+      "doc_id": "doc-ce3737ae73faa68e",
+      "classification": "DIRECTLY_SUPPORTED",
+      "reason": "evidence + context verified (1 context matches)"
+    },
+    {
+      "fact_id": "fact-8b87f608906dadde",
+      "metric": "percentage_statistic",
+      "value": "232",
+      "doc_id": "doc-ce3737ae73faa68e",
+      "classification": "DIRECTLY_SUPPORTED",
+      "reason": "evidence + context verified (1 context matches)"
+    },
+    {
+      "fact_id": "fact-b627b0525fedd8c7",
+      "metric": "percentage_statistic",
+      "value": "12.2019",
+      "doc_id": "doc-ce3737ae73faa68e",
+      "classification": "DIRECTLY_SUPPORTED",
+      "reason": "evidence + context verified (1 context matches)"
+    },
+    {
+      "fact_id": "fact-6df142386dcb26b6",
+      "metric": "percentage_statistic",
+      "value": "2031",
+      "doc_id": "doc-ce3737ae73faa68e",
+      "classification": "DIRECTLY_SUPPORTED",
+      "reason": "evidence + context verified (1 context matches)"
+    },
+    {
+      "fact_id": "fact-f667342a773a00c5",
+      "metric": "percentage_statistic",
+      "value": "2031",
+      "doc_id": "doc-ce3737ae73faa68e",
+      "classification": "DIRECTLY_SUPPORTED",
+      "reason": "evidence + context verified (1 context matches)"
+    },
+    {
+      "fact_id": "fact-1562ec8d587f1eb3",
+      "metric": "percentage_statistic",
+      "value": "2031",
+      "doc_id": "doc-ce3737ae73faa68e",
+      "classification": "DIRECTLY_SUPPORTED",
+      "reason": "evidence + context verified (1 context matches)"
+    },
+    {
+      "fact_id": "fact-ec19eaba3cfe803e",
+      "metric": "percentage_statistic",
+      "value": "2031",
+      "doc_id": "doc-ce3737ae73faa68e",
+      "classification": "DIRECTLY_SUPPORTED",
+      "reason": "evidence + context verified (1 context matches)"
+    },
+    {
+      "fact_id": "fact-4cfd069cd23312bd",
+      "metric": "usd_amount",
+      "value": "3",
+      "doc_id": "doc-c86a43cb997c9911",
+      "classification": "DIRECTLY_SUPPORTED",
+      "reason": "evidence + context verified (1 context matches)"
+    },
+    {
+      "fact_id": "fact-4be305a6bea87a4d",
+      "metric": "policy_rate",
+      "value": "31",
+      "doc_id": "doc-90ec453edce4dd75",
+      "classification": "DIRECTLY_SUPPORTED",
+      "reason": "evidence + context verified (1 context matches)"
+    },
+    {
+      "fact_id": "fact-ef96d0cc081c5c35",
+      "metric": "rate_decision",
+      "value": "lower",
+      "doc_id": "doc-60379f7197c52080",
+      "classification": "DIRECTLY_SUPPORTED",
+      "reason": "evidence + context verified (1 context matches)"
+    },
+    {
+      "fact_id": "fact-fa145628cce884d6",
+      "metric": "rate_decision",
+      "value": "raise",
+      "doc_id": "doc-fb1d49f16ce70f30",
+      "classification": "DIRECTLY_SUPPORTED",
+      "reason": "evidence + context verified (1 context matches)"
+    },
+    {
+      "fact_id": "fact-d9174ec82c85702e",
+      "metric": "rate_decision",
+      "value": "lower",
+      "doc_id": "doc-fb1d49f16ce70f30",
+      "classification": "DIRECTLY_SUPPORTED",
+      "reason": "evidence + context verified (1 context matches)"
+    },
+    {
+      "fact_id": "fact-f43a2fa381b88f35",
+      "metric": "rate_decision",
+      "value": "lower",
+      "doc_id": "doc-fb1d49f16ce70f30",
+      "classification": "DIRECTLY_SUPPORTED",
+      "reason": "evidence + context verified (1 context matches)"
+    },
+    {
+      "fact_id": "fact-db3a75c42d98fc63",
+      "metric": "rate_decision",
+      "value": "lower",
+      "doc_id": "doc-fb1d49f16ce70f30",
+      "classification": "DIRECTLY_SUPPORTED",
+      "reason": "evidence + context verified (1 context matches)"
+    },
+    {
+      "fact_id": "fact-c6e7b5d75279f1f8",
+      "metric": "rate_decision",
+      "value": "raised",
+      "doc_id": "doc-fb1d49f16ce70f30",
+      "classification": "DIRECTLY_SUPPORTED",
+      "reason": "evidence + context verified (1 context matches)"
+    },
+    {
+      "fact_id": "fact-a07d21b72db0ce11",
+      "metric": "rate_decision",
+      "value": "lower",
+      "doc_id": "doc-fb1d49f16ce70f30",
+      "classification": "DIRECTLY_SUPPORTED",
+      "reason": "evidence + context verified (1 context matches)"
+    },
+    {
+      "fact_id": "fact-9f5f6f56234d211b",
+      "metric": "rate_decision",
+      "value": "lower",
+      "doc_id": "doc-fb1d49f16ce70f30",
+      "classification": "DIRECTLY_SUPPORTED",
+      "reason": "evidence + context verified (1 context matches)"
+    },
+    {
+      "fact_id": "fact-c6df273883aaf78c",
+      "metric": "rate_decision",
+      "value": "raise",
+      "doc_id": "doc-fb1d49f16ce70f30",
+      "classification": "DIRECTLY_SUPPORTED",
+      "reason": "evidence + context verified (1 context matches)"
+    },
+    {
+      "fact_id": "fact-4e375ce31a7769aa",
+      "metric": "policy_rate",
+      "value": "1",
+      "doc_id": "doc-8670676aae5747a2",
+      "classification": "DIRECTLY_SUPPORTED",
+      "reason": "evidence + context verified (1 context matches)"
+    },
+    {
+      "fact_id": "fact-538e3e0baa3f4e77",
+      "metric": "percentage_statistic",
+      "value": "1.5",
+      "doc_id": "doc-7c5cd3967c2f9f10",
+      "classification": "DIRECTLY_SUPPORTED",
+      "reason": "evidence + context verified (1 context matches)"
+    },
+    {
+      "fact_id": "fact-c24bb468668b2efe",
+      "metric": "percentage_statistic",
+      "value": "2.1",
+      "doc_id": "doc-7c5cd3967c2f9f10",
+      "classification": "DIRECTLY_SUPPORTED",
+      "reason": "evidence + context verified (1 context matches)"
+    },
+    {
+      "fact_id": "fact-569d6b1c828ad899",
+      "metric": "percentage_statistic",
+      "value": "0.2",
+      "doc_id": "doc-7c5cd3967c2f9f10",
+      "classification": "DIRECTLY_SUPPORTED",
+      "reason": "evidence + context verified (1 context matches)"
+    },
+    {
+      "fact_id": "fact-8e8d7be299963dbb",
+      "metric": "percentage_statistic",
+      "value": "0.7",
+      "doc_id": "doc-7c5cd3967c2f9f10",
+      "classification": "DIRECTLY_SUPPORTED",
+      "reason": "evidence + context verified (1 context matches)"
+    },
+    {
+      "fact_id": "fact-658fa521098a10a8",
+      "metric": "usd_amount",
+      "value": "54.9",
+      "doc_id": "doc-7c5cd3967c2f9f10",
+      "classification": "DIRECTLY_SUPPORTED",
+      "reason": "evidence + context verified (1 context matches)"
+    },
+    {
+      "fact_id": "fact-88b6d9251b88c036",
+      "metric": "usd_amount",
+      "value": "48.3",
+      "doc_id": "doc-7c5cd3967c2f9f10",
+      "classification": "DIRECTLY_SUPPORTED",
+      "reason": "evidence + context verified (1 context matches)"
+    },
+    {
+      "fact_id": "fact-9b74711c84cc1e16",
+      "metric": "usd_amount",
+      "value": "65.2",
+      "doc_id": "doc-7c5cd3967c2f9f10",
+      "classification": "DIRECTLY_SUPPORTED",
+      "reason": "evidence + context verified (1 context matches)"
+    },
+    {
+      "fact_id": "fact-4aa1e411cdbb866f",
+      "metric": "usd_amount",
+      "value": "70.0",
+      "doc_id": "doc-7c5cd3967c2f9f10",
+      "classification": "DIRECTLY_SUPPORTED",
+      "reason": "evidence + context verified (1 context matches)"
+    },
+    {
+      "fact_id": "fact-33b357352c3f49e3",
+      "metric": "usd_amount",
+      "value": "646.1",
+      "doc_id": "doc-7c5cd3967c2f9f10",
+      "classification": "DIRECTLY_SUPPORTED",
+      "reason": "evidence + context verified (1 context matches)"
+    },
+    {
+      "fact_id": "fact-e692c096b53766fe",
+      "metric": "usd_amount",
+      "value": "5.8",
+      "doc_id": "doc-7c5cd3967c2f9f10",
+      "classification": "DIRECTLY_SUPPORTED",
+      "reason": "evidence + context verified (1 context matches)"
+    },
+    {
+      "fact_id": "fact-f7780eba609cd0f6",
+      "metric": "usd_amount",
+      "value": "226.8",
+      "doc_id": "doc-7c5cd3967c2f9f10",
+      "classification": "DIRECTLY_SUPPORTED",
+      "reason": "evidence + context verified (1 context matches)"
+    },
+    {
+      "fact_id": "fact-fd14cee24cd424bc",
+      "metric": "usd_amount",
+      "value": "221.1",
+      "doc_id": "doc-7c5cd3967c2f9f10",
+      "classification": "DIRECTLY_SUPPORTED",
+      "reason": "evidence + context verified (1 context matches)"
+    },
+    {
+      "fact_id": "fact-5c290456615e3488",
+      "metric": "usd_amount",
+      "value": "21.27",
+      "doc_id": "doc-7c5cd3967c2f9f10",
+      "classification": "DIRECTLY_SUPPORTED",
+      "reason": "evidence + context verified (1 context matches)"
+    },
+    {
+      "fact_id": "fact-2b6e4626630911fe",
+      "metric": "usd_amount",
+      "value": "43.37",
+      "doc_id": "doc-7c5cd3967c2f9f10",
+      "classification": "DIRECTLY_SUPPORTED",
+      "reason": "evidence + context verified (1 context matches)"
+    },
+    {
+      "fact_id": "fact-7bd6f58f9509f935",
+      "metric": "usd_amount",
+      "value": "64.64",
+      "doc_id": "doc-7c5cd3967c2f9f10",
+      "classification": "DIRECTLY_SUPPORTED",
+      "reason": "evidence + context verified (1 context matches)"
+    },
+    {
+      "fact_id": "fact-34034951793d266a",
+      "metric": "usd_amount",
+      "value": "21.87",
+      "doc_id": "doc-7c5cd3967c2f9f10",
+      "classification": "DIRECTLY_SUPPORTED",
+      "reason": "evidence + context verified (1 context matches)"
+    },
+    {
+      "fact_id": "fact-2141acfb87bc4fe3",
+      "metric": "usd_amount",
+      "value": "77.6",
+      "doc_id": "doc-7c5cd3967c2f9f10",
+      "classification": "DIRECTLY_SUPPORTED",
+      "reason": "evidence + context verified (1 context matches)"
+    },
+    {
+      "fact_id": "fact-a26d76792f9033ea",
+      "metric": "usd_amount",
+      "value": "73.3",
+      "doc_id": "doc-7c5cd3967c2f9f10",
+      "classification": "DIRECTLY_SUPPORTED",
+      "reason": "evidence + context verified (1 context matches)"
+    },
+    {
+      "fact_id": "fact-e69bdda96196b2de",
+      "metric": "usd_amount",
+      "value": "3.9",
+      "doc_id": "doc-7c5cd3967c2f9f10",
+      "classification": "DIRECTLY_SUPPORTED",
+      "reason": "evidence + context verified (1 context matches)"
+    },
+    {
+      "fact_id": "fact-996215ef8a1183fa",
+      "metric": "usd_amount",
+      "value": "102.1",
+      "doc_id": "doc-7c5cd3967c2f9f10",
+      "classification": "DIRECTLY_SUPPORTED",
+      "reason": "evidence + context verified (1 context matches)"
+    },
+    {
+      "fact_id": "fact-672af1abede8dce1",
+      "metric": "usd_amount",
+      "value": "0.5",
+      "doc_id": "doc-7c5cd3967c2f9f10",
+      "classification": "DIRECTLY_SUPPORTED",
+      "reason": "evidence + context verified (1 context matches)"
+    },
+    {
+      "fact_id": "fact-81f135f87718365b",
+      "metric": "usd_amount",
+      "value": "28.8",
+      "doc_id": "doc-7c5cd3967c2f9f10",
+      "classification": "DIRECTLY_SUPPORTED",
+      "reason": "evidence + context verified (1 context matches)"
+    },
+    {
+      "fact_id": "fact-ff9137476124af06",
+      "metric": "usd_amount",
+      "value": "232.2",
+      "doc_id": "doc-7c5cd3967c2f9f10",
+      "classification": "DIRECTLY_SUPPORTED",
+      "reason": "evidence + context verified (1 context matches)"
+    },
+    {
+      "fact_id": "fact-d9e1be3e86af4119",
+      "metric": "usd_amount",
+      "value": "76.8",
+      "doc_id": "doc-7c5cd3967c2f9f10",
+      "classification": "DIRECTLY_SUPPORTED",
+      "reason": "evidence + context verified (1 context matches)"
+    },
+    {
+      "fact_id": "fact-43c3cfc9be13bfda",
+      "metric": "percentage_statistic",
+      "value": "0.3",
+      "doc_id": "doc-632f5af27cb8e177",
+      "classification": "DIRECTLY_SUPPORTED",
+      "reason": "evidence + context verified (1 context matches)"
+    },
+    {
+      "fact_id": "fact-fd8078b3b58a55a8",
+      "metric": "percentage_statistic",
+      "value": "0.4",
+      "doc_id": "doc-632f5af27cb8e177",
+      "classification": "DIRECTLY_SUPPORTED",
+      "reason": "evidence + context verified (1 context matches)"
+    },
+    {
+      "fact_id": "fact-41f327304ff0865f",
+      "metric": "percentage_statistic",
+      "value": "0.1",
+      "doc_id": "doc-632f5af27cb8e177",
+      "classification": "DIRECTLY_SUPPORTED",
+      "reason": "evidence + context verified (1 context matches)"
+    },
+    {
+      "fact_id": "fact-aad9d350b84f6345",
+      "metric": "percentage_statistic",
+      "value": "0.8",
+      "doc_id": "doc-632f5af27cb8e177",
+      "classification": "DIRECTLY_SUPPORTED",
+      "reason": "evidence + context verified (1 context matches)"
+    },
+    {
+      "fact_id": "fact-dddee88b4c96648c",
+      "metric": "percentage_statistic",
+      "value": "0.0",
+      "doc_id": "doc-ab8dbef146c79b7d",
+      "classification": "DIRECTLY_SUPPORTED",
+      "reason": "evidence + context verified (1 context matches)"
+    },
+    {
+      "fact_id": "fact-21028e1690e26773",
+      "metric": "percentage_statistic",
+      "value": "0.0",
+      "doc_id": "doc-ab8dbef146c79b7d",
+      "classification": "DIRECTLY_SUPPORTED",
+      "reason": "evidence + context verified (1 context matches)"
+    },
+    {
+      "fact_id": "fact-cd5573cd8d7389dd",
+      "metric": "percentage_statistic",
+      "value": "0.0",
+      "doc_id": "doc-ab8dbef146c79b7d",
+      "classification": "DIRECTLY_SUPPORTED",
+      "reason": "evidence + context verified (1 context matches)"
+    },
+    {
+      "fact_id": "fact-6b60f01d22d00c29",
+      "metric": "percentage_statistic",
+      "value": "0.0",
+      "doc_id": "doc-ab8dbef146c79b7d",
+      "classification": "DIRECTLY_SUPPORTED",
+      "reason": "evidence + context verified (1 context matches)"
+    },
+    {
+      "fact_id": "fact-8467b7d0cdeeadc4",
+      "metric": "percentage_statistic",
+      "value": "0.0",
+      "doc_id": "doc-ab8dbef146c79b7d",
+      "classification": "DIRECTLY_SUPPORTED",
+      "reason": "evidence + context verified (1 context matches)"
+    },
+    {
+      "fact_id": "fact-6a21edeb86970d02",
+      "metric": "percentage_statistic",
+      "value": "0.0",
+      "doc_id": "doc-ab8dbef146c79b7d",
+      "classification": "DIRECTLY_SUPPORTED",
+      "reason": "evidence + context verified (1 context matches)"
+    },
+    {
+      "fact_id": "fact-c11bf72cf3886145",
+      "metric": "percentage_statistic",
+      "value": "0.3",
+      "doc_id": "doc-ab8dbef146c79b7d",
+      "classification": "DIRECTLY_SUPPORTED",
+      "reason": "evidence + context verified (1 context matches)"
+    },
+    {
+      "fact_id": "fact-7320270c9994e699",
+      "metric": "percentage_statistic",
+      "value": "0.4",
+      "doc_id": "doc-ab8dbef146c79b7d",
+      "classification": "DIRECTLY_SUPPORTED",
+      "reason": "evidence + context verified (1 context matches)"
+    },
+    {
+      "fact_id": "fact-180a0b4cbff1591b",
+      "metric": "percentage_statistic",
+      "value": "0.1",
+      "doc_id": "doc-ab8dbef146c79b7d",
+      "classification": "DIRECTLY_SUPPORTED",
+      "reason": "evidence + context verified (1 context matches)"
+    },
+    {
+      "fact_id": "fact-3e274d6485cc1f5e",
+      "metric": "gdp_growth",
+      "value": "0.0",
+      "doc_id": "doc-ab8dbef146c79b7d",
+      "classification": "DIRECTLY_SUPPORTED",
+      "reason": "evidence + context verified (1 context matches)"
+    },
+    {
+      "fact_id": "fact-9346f35c0b4f1767",
+      "metric": "percentage_statistic",
+      "value": "0.0",
+      "doc_id": "doc-ab8dbef146c79b7d",
+      "classification": "DIRECTLY_SUPPORTED",
+      "reason": "evidence + context verified (1 context matches)"
+    },
+    {
+      "fact_id": "fact-f3488e3ad75e3bfb",
+      "metric": "percentage_statistic",
+      "value": "0.0",
+      "doc_id": "doc-ab8dbef146c79b7d",
+      "classification": "DIRECTLY_SUPPORTED",
+      "reason": "evidence + context verified (1 context matches)"
+    },
+    {
+      "fact_id": "fact-7684bd53a3abb8db",
+      "metric": "percentage_statistic",
+      "value": "0.0",
+      "doc_id": "doc-ab8dbef146c79b7d",
+      "classification": "DIRECTLY_SUPPORTED",
+      "reason": "evidence + context verified (1 context matches)"
+    },
+    {
+      "fact_id": "fact-09461491046f5165",
+      "metric": "percentage_statistic",
+      "value": "0.0",
+      "doc_id": "doc-ab8dbef146c79b7d",
+      "classification": "DIRECTLY_SUPPORTED",
+      "reason": "evidence + context verified (1 context matches)"
+    },
+    {
+      "fact_id": "fact-65fedb6caece6c1f",
+      "metric": "percentage_statistic",
+      "value": "0.0",
+      "doc_id": "doc-ab8dbef146c79b7d",
+      "classification": "DIRECTLY_SUPPORTED",
+      "reason": "evidence + context verified (1 context matches)"
+    },
+    {
+      "fact_id": "fact-959b825f419e5a93",
+      "metric": "percentage_statistic",
+      "value": "0.0",
+      "doc_id": "doc-ab8dbef146c79b7d",
+      "classification": "DIRECTLY_SUPPORTED",
+      "reason": "evidence + context verified (1 context matches)"
+    },
+    {
+      "fact_id": "fact-b72f794590e5912b",
+      "metric": "percentage_statistic",
+      "value": "0.3",
+      "doc_id": "doc-ab8dbef146c79b7d",
+      "classification": "DIRECTLY_SUPPORTED",
+      "reason": "evidence + context verified (1 context matches)"
+    },
+    {
+      "fact_id": "fact-ce9946861f1e44aa",
+      "metric": "percentage_statistic",
+      "value": "0.4",
+      "doc_id": "doc-ab8dbef146c79b7d",
+      "classification": "DIRECTLY_SUPPORTED",
+      "reason": "evidence + context verified (1 context matches)"
+    },
+    {
+      "fact_id": "fact-81ce42485bdd8039",
+      "metric": "percentage_statistic",
+      "value": "0.1",
+      "doc_id": "doc-ab8dbef146c79b7d",
+      "classification": "DIRECTLY_SUPPORTED",
+      "reason": "evidence + context verified (1 context matches)"
+    },
+    {
+      "fact_id": "fact-d58651826e12848f",
+      "metric": "gdp_growth",
+      "value": "0.0",
+      "doc_id": "doc-ab8dbef146c79b7d",
+      "classification": "DIRECTLY_SUPPORTED",
+      "reason": "evidence + context verified (1 context matches)"
+    },
+    {
+      "fact_id": "fact-c0ee6227c5946d21",
+      "metric": "percentage_statistic",
+      "value": "0.5",
+      "doc_id": "doc-7eafb0e5382d524a",
+      "classification": "DIRECTLY_SUPPORTED",
+      "reason": "evidence + context verified (1 context matches)"
+    },
+    {
+      "fact_id": "fact-6af23f279631bb91",
+      "metric": "percentage_statistic",
+      "value": "5.7",
+      "doc_id": "doc-7eafb0e5382d524a",
+      "classification": "DIRECTLY_SUPPORTED",
+      "reason": "evidence + context verified (1 context matches)"
+    },
+    {
+      "fact_id": "fact-de24e0ad1868da2a",
+      "metric": "percentage_statistic",
+      "value": "22",
+      "doc_id": "doc-7eafb0e5382d524a",
+      "classification": "DIRECTLY_SUPPORTED",
+      "reason": "evidence + context verified (1 context matches)"
+    },
+    {
+      "fact_id": "fact-852ce66689e30825",
+      "metric": "percentage_statistic",
+      "value": "2",
+      "doc_id": "doc-7eafb0e5382d524a",
+      "classification": "DIRECTLY_SUPPORTED",
+      "reason": "evidence + context verified (1 context matches)"
+    },
+    {
+      "fact_id": "fact-5f3b2e449737f77d",
+      "metric": "percentage_statistic",
+      "value": "0.3",
+      "doc_id": "doc-7eafb0e5382d524a",
+      "classification": "DIRECTLY_SUPPORTED",
+      "reason": "evidence + context verified (1 context matches)"
+    },
+    {
+      "fact_id": "fact-f48a370b229ea698",
+      "metric": "percentage_statistic",
+      "value": "0.3",
+      "doc_id": "doc-7eafb0e5382d524a",
+      "classification": "DIRECTLY_SUPPORTED",
+      "reason": "evidence + context verified (1 context matches)"
+    },
+    {
+      "fact_id": "fact-575d7c1d28ebbfb5",
+      "metric": "percentage_statistic",
+      "value": "3.7",
+      "doc_id": "doc-7eafb0e5382d524a",
+      "classification": "DIRECTLY_SUPPORTED",
+      "reason": "evidence + context verified (1 context matches)"
+    },
+    {
+      "fact_id": "fact-d52422974538128a",
+      "metric": "percentage_statistic",
+      "value": "5.5",
+      "doc_id": "doc-7eafb0e5382d524a",
+      "classification": "DIRECTLY_SUPPORTED",
+      "reason": "evidence + context verified (1 context matches)"
+    }
+  ],
+  "evidence_classifications": [
+    {
+      "fact_id": "fact-c7cfe1cdf63d1ece",
+      "metric": "rate_decision",
+      "classification": "DIRECT_EVIDENCE",
+      "reason": "excerpt contains value + 1 context keywords"
+    },
+    {
+      "fact_id": "fact-71bb4a4b3fef6cb2",
+      "metric": "policy_rate",
+      "classification": "DIRECT_EVIDENCE",
+      "reason": "excerpt contains value + 1 context keywords"
+    },
+    {
+      "fact_id": "fact-62fcf24c7626a738",
+      "metric": "policy_rate",
+      "classification": "DIRECT_EVIDENCE",
+      "reason": "excerpt contains value + 1 context keywords"
+    },
+    {
+      "fact_id": "fact-2e9816b04f365718",
+      "metric": "policy_rate",
+      "classification": "DIRECT_EVIDENCE",
+      "reason": "excerpt contains value + 1 context keywords"
+    },
+    {
+      "fact_id": "fact-d7e6385aca2cde6d",
+      "metric": "policy_rate",
+      "classification": "DIRECT_EVIDENCE",
+      "reason": "excerpt contains value + 1 context keywords"
+    },
+    {
+      "fact_id": "fact-38cd877df8b17620",
+      "metric": "policy_rate",
+      "classification": "DIRECT_EVIDENCE",
+      "reason": "excerpt contains value + 1 context keywords"
+    },
+    {
+      "fact_id": "fact-7d10e1e1e32cd4a9",
+      "metric": "percentage_statistic",
+      "classification": "DIRECT_EVIDENCE",
+      "reason": "excerpt contains value + 1 context keywords"
+    },
+    {
+      "fact_id": "fact-87295e50bc3a2a5d",
+      "metric": "percentage_statistic",
+      "classification": "DIRECT_EVIDENCE",
+      "reason": "excerpt contains value + 1 context keywords"
+    },
+    {
+      "fact_id": "fact-7b0c0ade01277b52",
+      "metric": "percentage_statistic",
+      "classification": "DIRECT_EVIDENCE",
+      "reason": "excerpt contains value + 1 context keywords"
+    },
+    {
+      "fact_id": "fact-8e8c0a3daba7f141",
+      "metric": "percentage_statistic",
+      "classification": "DIRECT_EVIDENCE",
+      "reason": "excerpt contains value + 1 context keywords"
+    },
+    {
+      "fact_id": "fact-a101942805b2e327",
+      "metric": "usd_amount",
+      "classification": "DIRECT_EVIDENCE",
+      "reason": "excerpt contains value + 1 context keywords"
+    },
+    {
+      "fact_id": "fact-c46ab81814844502",
+      "metric": "usd_amount",
+      "classification": "DIRECT_EVIDENCE",
+      "reason": "excerpt contains value + 1 context keywords"
+    },
+    {
+      "fact_id": "fact-a91254e1c71b8e89",
+      "metric": "usd_amount",
+      "classification": "DIRECT_EVIDENCE",
+      "reason": "excerpt contains value + 1 context keywords"
+    },
+    {
+      "fact_id": "fact-5804542e242981d7",
+      "metric": "usd_amount",
+      "classification": "DIRECT_EVIDENCE",
+      "reason": "excerpt contains value + 1 context keywords"
+    },
+    {
+      "fact_id": "fact-811fb57032682c8f",
+      "metric": "usd_amount",
+      "classification": "DIRECT_EVIDENCE",
+      "reason": "excerpt contains value + 1 context keywords"
+    },
+    {
+      "fact_id": "fact-125b39157aa0e914",
+      "metric": "usd_amount",
+      "classification": "DIRECT_EVIDENCE",
+      "reason": "excerpt contains value + 1 context keywords"
+    },
+    {
+      "fact_id": "fact-da1fc0e2d2810de7",
+      "metric": "usd_amount",
+      "classification": "DIRECT_EVIDENCE",
+      "reason": "excerpt contains value + 1 context keywords"
+    },
+    {
+      "fact_id": "fact-14b87cf63b4f5882",
+      "metric": "usd_amount",
+      "classification": "DIRECT_EVIDENCE",
+      "reason": "excerpt contains value + 1 context keywords"
+    },
+    {
+      "fact_id": "fact-a42cce73ba975ac1",
+      "metric": "usd_amount",
+      "classification": "DIRECT_EVIDENCE",
+      "reason": "excerpt contains value + 1 context keywords"
+    },
+    {
+      "fact_id": "fact-0bacae8f5d8a822c",
+      "metric": "usd_amount",
+      "classification": "DIRECT_EVIDENCE",
+      "reason": "excerpt contains value + 1 context keywords"
+    },
+    {
+      "fact_id": "fact-30aab60c5ea41e7e",
+      "metric": "usd_amount",
+      "classification": "DIRECT_EVIDENCE",
+      "reason": "excerpt contains value + 1 context keywords"
+    },
+    {
+      "fact_id": "fact-ec8352c9b3de4a46",
+      "metric": "usd_amount",
+      "classification": "DIRECT_EVIDENCE",
+      "reason": "excerpt contains value + 1 context keywords"
+    },
+    {
+      "fact_id": "fact-c506c2cb9773f9d9",
+      "metric": "usd_amount",
+      "classification": "DIRECT_EVIDENCE",
+      "reason": "excerpt contains value + 1 context keywords"
+    },
+    {
+      "fact_id": "fact-65fcb4218130bb5e",
+      "metric": "usd_amount",
+      "classification": "DIRECT_EVIDENCE",
+      "reason": "excerpt contains value + 1 context keywords"
+    },
+    {
+      "fact_id": "fact-b9dfeae86f5034f8",
+      "metric": "usd_amount",
+      "classification": "DIRECT_EVIDENCE",
+      "reason": "excerpt contains value + 1 context keywords"
+    },
+    {
+      "fact_id": "fact-b532dc5822243746",
+      "metric": "usd_amount",
+      "classification": "DIRECT_EVIDENCE",
+      "reason": "excerpt contains value + 1 context keywords"
+    },
+    {
+      "fact_id": "fact-0cfe88758e3899d6",
+      "metric": "usd_amount",
+      "classification": "DIRECT_EVIDENCE",
+      "reason": "excerpt contains value + 1 context keywords"
+    },
+    {
+      "fact_id": "fact-bdb2cced1440d2e3",
+      "metric": "usd_amount",
+      "classification": "DIRECT_EVIDENCE",
+      "reason": "excerpt contains value + 1 context keywords"
+    },
+    {
+      "fact_id": "fact-610af58a04c5b879",
+      "metric": "usd_amount",
+      "classification": "DIRECT_EVIDENCE",
+      "reason": "excerpt contains value + 1 context keywords"
+    },
+    {
+      "fact_id": "fact-6558c919e548f789",
+      "metric": "usd_amount",
+      "classification": "DIRECT_EVIDENCE",
+      "reason": "excerpt contains value + 1 context keywords"
+    },
+    {
+      "fact_id": "fact-ddda73552ff13870",
+      "metric": "percentage_statistic",
+      "classification": "INDIRECT_EVIDENCE",
+      "reason": "excerpt contains value but lacks context keywords"
+    },
+    {
+      "fact_id": "fact-b6b28b716a0453f7",
+      "metric": "percentage_statistic",
+      "classification": "INDIRECT_EVIDENCE",
+      "reason": "excerpt contains value but lacks context keywords"
+    },
+    {
+      "fact_id": "fact-9a6d587421a6d717",
+      "metric": "percentage_statistic",
+      "classification": "INDIRECT_EVIDENCE",
+      "reason": "excerpt contains value but lacks context keywords"
+    },
+    {
+      "fact_id": "fact-aa5cd3324e36d8e9",
+      "metric": "percentage_statistic",
+      "classification": "INDIRECT_EVIDENCE",
+      "reason": "excerpt contains value but lacks context keywords"
+    },
+    {
+      "fact_id": "fact-062bf59e9caf330c",
+      "metric": "percentage_statistic",
+      "classification": "DIRECT_EVIDENCE",
+      "reason": "excerpt contains value + 1 context keywords"
+    },
+    {
+      "fact_id": "fact-1f0690e182f427f8",
+      "metric": "percentage_statistic",
+      "classification": "DIRECT_EVIDENCE",
+      "reason": "excerpt contains value + 1 context keywords"
+    },
+    {
+      "fact_id": "fact-44de9bfc112b38e8",
+      "metric": "percentage_statistic",
+      "classification": "DIRECT_EVIDENCE",
+      "reason": "excerpt contains value + 1 context keywords"
+    },
+    {
+      "fact_id": "fact-4ad42c4ab9ec19cc",
+      "metric": "percentage_statistic",
+      "classification": "DIRECT_EVIDENCE",
+      "reason": "excerpt contains value + 1 context keywords"
+    },
+    {
+      "fact_id": "fact-2a79432cdc8d24a0",
+      "metric": "percentage_statistic",
+      "classification": "DIRECT_EVIDENCE",
+      "reason": "excerpt contains value + 1 context keywords"
+    },
+    {
+      "fact_id": "fact-02f973b3abc7148c",
+      "metric": "percentage_statistic",
+      "classification": "DIRECT_EVIDENCE",
+      "reason": "excerpt contains value + 1 context keywords"
+    },
+    {
+      "fact_id": "fact-2ad029439ec96392",
+      "metric": "percentage_statistic",
+      "classification": "DIRECT_EVIDENCE",
+      "reason": "excerpt contains value + 1 context keywords"
+    },
+    {
+      "fact_id": "fact-ef252cfe0113ecdb",
+      "metric": "percentage_statistic",
+      "classification": "DIRECT_EVIDENCE",
+      "reason": "excerpt contains value + 1 context keywords"
+    },
+    {
+      "fact_id": "fact-4ed242ea8a0998a1",
+      "metric": "percentage_statistic",
+      "classification": "DIRECT_EVIDENCE",
+      "reason": "excerpt contains value + 1 context keywords"
+    },
+    {
+      "fact_id": "fact-d5604c6377296973",
+      "metric": "gdp_growth",
+      "classification": "DIRECT_EVIDENCE",
+      "reason": "excerpt contains value + 1 context keywords"
+    },
+    {
+      "fact_id": "fact-0041eea877fe44e5",
+      "metric": "percentage_statistic",
+      "classification": "DIRECT_EVIDENCE",
+      "reason": "excerpt contains value + 1 context keywords"
+    },
+    {
+      "fact_id": "fact-fd81bf787f8934b8",
+      "metric": "percentage_statistic",
+      "classification": "DIRECT_EVIDENCE",
+      "reason": "excerpt contains value + 1 context keywords"
+    },
+    {
+      "fact_id": "fact-f14d5f560fe8e6de",
+      "metric": "percentage_statistic",
+      "classification": "DIRECT_EVIDENCE",
+      "reason": "excerpt contains value + 1 context keywords"
+    },
+    {
+      "fact_id": "fact-bc11e50548ea45df",
+      "metric": "percentage_statistic",
+      "classification": "DIRECT_EVIDENCE",
+      "reason": "excerpt contains value + 1 context keywords"
+    },
+    {
+      "fact_id": "fact-1a726980e5e00989",
+      "metric": "percentage_statistic",
+      "classification": "DIRECT_EVIDENCE",
+      "reason": "excerpt contains value + 1 context keywords"
+    },
+    {
+      "fact_id": "fact-703c310b0eb71958",
+      "metric": "percentage_statistic",
+      "classification": "DIRECT_EVIDENCE",
+      "reason": "excerpt contains value + 1 context keywords"
+    },
+    {
+      "fact_id": "fact-ea2dd9e1f761c817",
+      "metric": "percentage_statistic",
+      "classification": "DIRECT_EVIDENCE",
+      "reason": "excerpt contains value + 1 context keywords"
+    },
+    {
+      "fact_id": "fact-3873e6b96a3fd37f",
+      "metric": "percentage_statistic",
+      "classification": "DIRECT_EVIDENCE",
+      "reason": "excerpt contains value + 1 context keywords"
+    },
+    {
+      "fact_id": "fact-c64d26e281c89db6",
+      "metric": "percentage_statistic",
+      "classification": "DIRECT_EVIDENCE",
+      "reason": "excerpt contains value + 1 context keywords"
+    },
+    {
+      "fact_id": "fact-6858a52ff966300c",
+      "metric": "gdp_growth",
+      "classification": "DIRECT_EVIDENCE",
+      "reason": "excerpt contains value + 1 context keywords"
+    },
+    {
+      "fact_id": "fact-b8c3d553c6f5cacf",
+      "metric": "action_type",
+      "classification": "DIRECT_EVIDENCE",
+      "reason": "excerpt contains value + 1 context keywords"
+    },
+    {
+      "fact_id": "fact-adc02b02e97fc6f8",
+      "metric": "action_type",
+      "classification": "INDIRECT_EVIDENCE",
+      "reason": "excerpt contains value but lacks context keywords"
+    },
+    {
+      "fact_id": "fact-bef4f076f72c5a63",
+      "metric": "action_type",
+      "classification": "INDIRECT_EVIDENCE",
+      "reason": "excerpt contains value but lacks context keywords"
+    },
+    {
+      "fact_id": "fact-b07ffe404be37e97",
+      "metric": "penalty_amount",
+      "classification": "INDIRECT_EVIDENCE",
+      "reason": "excerpt contains value but lacks context keywords"
+    },
+    {
+      "fact_id": "fact-03a658a0a04bcb10",
+      "metric": "penalty_amount",
+      "classification": "INDIRECT_EVIDENCE",
+      "reason": "excerpt contains value but lacks context keywords"
+    },
+    {
+      "fact_id": "fact-f28ef05be994b18b",
+      "metric": "penalty_amount",
+      "classification": "INDIRECT_EVIDENCE",
+      "reason": "excerpt contains value but lacks context keywords"
+    },
+    {
+      "fact_id": "fact-49fa7cb5f1f82496",
+      "metric": "penalty_amount",
+      "classification": "INDIRECT_EVIDENCE",
+      "reason": "excerpt contains value but lacks context keywords"
+    },
+    {
+      "fact_id": "fact-a62906de137a3861",
+      "metric": "penalty_amount",
+      "classification": "DIRECT_EVIDENCE",
+      "reason": "excerpt contains value + 1 context keywords"
+    },
+    {
+      "fact_id": "fact-01999f1791977ff9",
+      "metric": "penalty_amount",
+      "classification": "DIRECT_EVIDENCE",
+      "reason": "excerpt contains value + 1 context keywords"
+    },
+    {
+      "fact_id": "fact-41cca54c0f9ed48b",
+      "metric": "penalty_amount",
+      "classification": "DIRECT_EVIDENCE",
+      "reason": "excerpt contains value + 1 context keywords"
+    },
+    {
+      "fact_id": "fact-fae7549b7c1e83b7",
+      "metric": "action_type",
+      "classification": "DIRECT_EVIDENCE",
+      "reason": "excerpt contains value + 1 context keywords"
+    },
+    {
+      "fact_id": "fact-5faf1aab919f0379",
+      "metric": "action_type",
+      "classification": "DIRECT_EVIDENCE",
+      "reason": "excerpt contains value + 1 context keywords"
+    },
+    {
+      "fact_id": "fact-b39a2956ae59dbf9",
+      "metric": "action_type",
+      "classification": "DIRECT_EVIDENCE",
+      "reason": "excerpt contains value + 1 context keywords"
+    },
+    {
+      "fact_id": "fact-86b3212f7e5090d6",
+      "metric": "penalty_amount",
+      "classification": "INDIRECT_EVIDENCE",
+      "reason": "excerpt contains value but lacks context keywords"
+    },
+    {
+      "fact_id": "fact-45fac5e9663fef69",
+      "metric": "penalty_amount",
+      "classification": "INDIRECT_EVIDENCE",
+      "reason": "excerpt contains value but lacks context keywords"
+    },
+    {
+      "fact_id": "fact-ec8f014c31aaa6db",
+      "metric": "penalty_amount",
+      "classification": "INDIRECT_EVIDENCE",
+      "reason": "excerpt contains value but lacks context keywords"
+    },
+    {
+      "fact_id": "fact-f46a415c0dc1b864",
+      "metric": "penalty_amount",
+      "classification": "INDIRECT_EVIDENCE",
+      "reason": "excerpt contains value but lacks context keywords"
+    },
+    {
+      "fact_id": "fact-d88242430e2a82e0",
+      "metric": "penalty_amount",
+      "classification": "DIRECT_EVIDENCE",
+      "reason": "excerpt contains value + 1 context keywords"
+    },
+    {
+      "fact_id": "fact-b338dfb32c18be33",
+      "metric": "penalty_amount",
+      "classification": "DIRECT_EVIDENCE",
+      "reason": "excerpt contains value + 1 context keywords"
+    },
+    {
+      "fact_id": "fact-f1b79a4a430ab8ac",
+      "metric": "penalty_amount",
+      "classification": "DIRECT_EVIDENCE",
+      "reason": "excerpt contains value + 1 context keywords"
+    },
+    {
+      "fact_id": "fact-da9317ea872eae27",
+      "metric": "penalty_amount",
+      "classification": "INDIRECT_EVIDENCE",
+      "reason": "excerpt contains value but lacks context keywords"
+    },
+    {
+      "fact_id": "fact-2865dfd79f692645",
+      "metric": "action_type",
+      "classification": "DIRECT_EVIDENCE",
+      "reason": "excerpt contains value + 1 context keywords"
+    },
+    {
+      "fact_id": "fact-fc04ce35c603fdaf",
+      "metric": "action_type",
+      "classification": "DIRECT_EVIDENCE",
+      "reason": "excerpt contains value + 1 context keywords"
+    },
+    {
+      "fact_id": "fact-7dd35f189987e9e5",
+      "metric": "action_type",
+      "classification": "DIRECT_EVIDENCE",
+      "reason": "excerpt contains value + 1 context keywords"
+    },
+    {
+      "fact_id": "fact-675fbe73255e49d8",
+      "metric": "action_type",
+      "classification": "DIRECT_EVIDENCE",
+      "reason": "excerpt contains value + 1 context keywords"
+    },
+    {
+      "fact_id": "fact-4c37194b1ba94c61",
+      "metric": "penalty_amount",
+      "classification": "DIRECT_EVIDENCE",
+      "reason": "excerpt contains value + 1 context keywords"
+    },
+    {
+      "fact_id": "fact-65108060f3e525a7",
+      "metric": "penalty_amount",
+      "classification": "DIRECT_EVIDENCE",
+      "reason": "excerpt contains value + 1 context keywords"
+    },
+    {
+      "fact_id": "fact-f3cf61824ca1e8d1",
+      "metric": "penalty_amount",
+      "classification": "DIRECT_EVIDENCE",
+      "reason": "excerpt contains value + 1 context keywords"
+    },
+    {
+      "fact_id": "fact-f48ff41f586dbf06",
+      "metric": "penalty_amount",
+      "classification": "DIRECT_EVIDENCE",
+      "reason": "excerpt contains value + 1 context keywords"
+    },
+    {
+      "fact_id": "fact-beadebf27543674e",
+      "metric": "penalty_amount",
+      "classification": "DIRECT_EVIDENCE",
+      "reason": "excerpt contains value + 1 context keywords"
+    },
+    {
+      "fact_id": "fact-06d239758e0011f6",
+      "metric": "action_type",
+      "classification": "INDIRECT_EVIDENCE",
+      "reason": "excerpt contains value but lacks context keywords"
+    },
+    {
+      "fact_id": "fact-6f499f6010fa1611",
+      "metric": "action_type",
+      "classification": "INDIRECT_EVIDENCE",
+      "reason": "excerpt contains value but lacks context keywords"
+    },
+    {
+      "fact_id": "fact-61abe9601dacbef9",
+      "metric": "action_type",
+      "classification": "INDIRECT_EVIDENCE",
+      "reason": "excerpt contains value but lacks context keywords"
+    },
+    {
+      "fact_id": "fact-6bd47eddfeddf8ac",
+      "metric": "action_type",
+      "classification": "INDIRECT_EVIDENCE",
+      "reason": "excerpt contains value but lacks context keywords"
+    },
+    {
+      "fact_id": "fact-dd5acb860eade6c3",
+      "metric": "action_type",
+      "classification": "INDIRECT_EVIDENCE",
+      "reason": "excerpt contains value but lacks context keywords"
+    },
+    {
+      "fact_id": "fact-2b041599762a21c8",
+      "metric": "action_type",
+      "classification": "INDIRECT_EVIDENCE",
+      "reason": "excerpt contains value but lacks context keywords"
+    },
+    {
+      "fact_id": "fact-ccc3f76d09ed5b39",
+      "metric": "action_type",
+      "classification": "INDIRECT_EVIDENCE",
+      "reason": "excerpt contains value but lacks context keywords"
+    },
+    {
+      "fact_id": "fact-522eb207af7ee09f",
+      "metric": "action_type",
+      "classification": "INDIRECT_EVIDENCE",
+      "reason": "excerpt contains value but lacks context keywords"
+    },
+    {
+      "fact_id": "fact-dfdf2e8fb24b0e4e",
+      "metric": "action_type",
+      "classification": "INDIRECT_EVIDENCE",
+      "reason": "excerpt contains value but lacks context keywords"
+    },
+    {
+      "fact_id": "fact-72b237cbfa18bccc",
+      "metric": "action_type",
+      "classification": "DIRECT_EVIDENCE",
+      "reason": "excerpt contains value + 1 context keywords"
+    },
+    {
+      "fact_id": "fact-36aeebd4497adf41",
+      "metric": "action_type",
+      "classification": "INDIRECT_EVIDENCE",
+      "reason": "excerpt contains value but lacks context keywords"
+    },
+    {
+      "fact_id": "fact-f39b7ce21a9f56e3",
+      "metric": "action_type",
+      "classification": "INDIRECT_EVIDENCE",
+      "reason": "excerpt contains value but lacks context keywords"
+    },
+    {
+      "fact_id": "fact-8c31575fd66146d7",
+      "metric": "action_type",
+      "classification": "INDIRECT_EVIDENCE",
+      "reason": "excerpt contains value but lacks context keywords"
+    },
+    {
+      "fact_id": "fact-f3a9bf1ea582f8d8",
+      "metric": "action_type",
+      "classification": "INDIRECT_EVIDENCE",
+      "reason": "excerpt contains value but lacks context keywords"
+    },
+    {
+      "fact_id": "fact-e3588b996659e520",
+      "metric": "action_type",
+      "classification": "INDIRECT_EVIDENCE",
+      "reason": "excerpt contains value but lacks context keywords"
+    },
+    {
+      "fact_id": "fact-45301f8298c0c5d0",
+      "metric": "action_type",
+      "classification": "INDIRECT_EVIDENCE",
+      "reason": "excerpt contains value but lacks context keywords"
+    },
+    {
+      "fact_id": "fact-3f79f2a6c79ebe43",
+      "metric": "action_type",
+      "classification": "INDIRECT_EVIDENCE",
+      "reason": "excerpt contains value but lacks context keywords"
+    },
+    {
+      "fact_id": "fact-27db5410519eea50",
+      "metric": "action_type",
+      "classification": "INDIRECT_EVIDENCE",
+      "reason": "excerpt contains value but lacks context keywords"
+    },
+    {
+      "fact_id": "fact-cd4cc6ad5d5dc45c",
+      "metric": "action_type",
+      "classification": "INDIRECT_EVIDENCE",
+      "reason": "excerpt contains value but lacks context keywords"
+    },
+    {
+      "fact_id": "fact-28c63b668514bee1",
+      "metric": "action_type",
+      "classification": "INDIRECT_EVIDENCE",
+      "reason": "excerpt contains value but lacks context keywords"
+    },
+    {
+      "fact_id": "fact-49493d83f906f5ea",
+      "metric": "action_type",
+      "classification": "INDIRECT_EVIDENCE",
+      "reason": "excerpt contains value but lacks context keywords"
+    },
+    {
+      "fact_id": "fact-a6d103529061ea85",
+      "metric": "action_type",
+      "classification": "INDIRECT_EVIDENCE",
+      "reason": "excerpt contains value but lacks context keywords"
+    },
+    {
+      "fact_id": "fact-3ed574cb949d947e",
+      "metric": "action_type",
+      "classification": "INDIRECT_EVIDENCE",
+      "reason": "excerpt contains value but lacks context keywords"
+    },
+    {
+      "fact_id": "fact-3499ba5d6a6157a5",
+      "metric": "action_type",
+      "classification": "INDIRECT_EVIDENCE",
+      "reason": "excerpt contains value but lacks context keywords"
+    },
+    {
+      "fact_id": "fact-5c7fc2b5b8120514",
+      "metric": "action_type",
+      "classification": "INDIRECT_EVIDENCE",
+      "reason": "excerpt contains value but lacks context keywords"
+    },
+    {
+      "fact_id": "fact-c91142e8082ca250",
+      "metric": "action_type",
+      "classification": "INDIRECT_EVIDENCE",
+      "reason": "excerpt contains value but lacks context keywords"
+    },
+    {
+      "fact_id": "fact-f6e5a3699bf377ae",
+      "metric": "action_type",
+      "classification": "INDIRECT_EVIDENCE",
+      "reason": "excerpt contains value but lacks context keywords"
+    },
+    {
+      "fact_id": "fact-9ab3e9491ea6fb75",
+      "metric": "action_type",
+      "classification": "INDIRECT_EVIDENCE",
+      "reason": "excerpt contains value but lacks context keywords"
+    },
+    {
+      "fact_id": "fact-e56027c3fc152bb3",
+      "metric": "action_type",
+      "classification": "INDIRECT_EVIDENCE",
+      "reason": "excerpt contains value but lacks context keywords"
+    },
+    {
+      "fact_id": "fact-f843270a8ac1ae35",
+      "metric": "action_type",
+      "classification": "INDIRECT_EVIDENCE",
+      "reason": "excerpt contains value but lacks context keywords"
+    },
+    {
+      "fact_id": "fact-ee4a2847e49c9b43",
+      "metric": "action_type",
+      "classification": "INDIRECT_EVIDENCE",
+      "reason": "excerpt contains value but lacks context keywords"
+    },
+    {
+      "fact_id": "fact-8c5c00e89bd6622f",
+      "metric": "action_type",
+      "classification": "INDIRECT_EVIDENCE",
+      "reason": "excerpt contains value but lacks context keywords"
+    },
+    {
+      "fact_id": "fact-a87ec4d3f1055c1d",
+      "metric": "action_type",
+      "classification": "INDIRECT_EVIDENCE",
+      "reason": "excerpt contains value but lacks context keywords"
+    },
+    {
+      "fact_id": "fact-feaf62642dc1b841",
+      "metric": "percentage_statistic",
+      "classification": "DIRECT_EVIDENCE",
+      "reason": "excerpt contains value + 1 context keywords"
+    },
+    {
+      "fact_id": "fact-30d484bf4ed4627d",
+      "metric": "percentage_statistic",
+      "classification": "DIRECT_EVIDENCE",
+      "reason": "excerpt contains value + 1 context keywords"
+    },
+    {
+      "fact_id": "fact-f9048f8a9b4aefc7",
+      "metric": "percentage_statistic",
+      "classification": "DIRECT_EVIDENCE",
+      "reason": "excerpt contains value + 1 context keywords"
+    },
+    {
+      "fact_id": "fact-b2b642d204bdfe4a",
+      "metric": "percentage_statistic",
+      "classification": "DIRECT_EVIDENCE",
+      "reason": "excerpt contains value + 1 context keywords"
+    },
+    {
+      "fact_id": "fact-35060dbd2c048075",
+      "metric": "percentage_statistic",
+      "classification": "DIRECT_EVIDENCE",
+      "reason": "excerpt contains value + 1 context keywords"
+    },
+    {
+      "fact_id": "fact-54fc4c5f11dd1262",
+      "metric": "percentage_statistic",
+      "classification": "DIRECT_EVIDENCE",
+      "reason": "excerpt contains value + 1 context keywords"
+    },
+    {
+      "fact_id": "fact-d0208c434e42752b",
+      "metric": "percentage_statistic",
+      "classification": "DIRECT_EVIDENCE",
+      "reason": "excerpt contains value + 1 context keywords"
+    },
+    {
+      "fact_id": "fact-884fce98f5209809",
+      "metric": "percentage_statistic",
+      "classification": "DIRECT_EVIDENCE",
+      "reason": "excerpt contains value + 1 context keywords"
+    },
+    {
+      "fact_id": "fact-8e14735656fc5ef3",
+      "metric": "percentage_statistic",
+      "classification": "DIRECT_EVIDENCE",
+      "reason": "excerpt contains value + 1 context keywords"
+    },
+    {
+      "fact_id": "fact-8b87f608906dadde",
+      "metric": "percentage_statistic",
+      "classification": "DIRECT_EVIDENCE",
+      "reason": "excerpt contains value + 1 context keywords"
+    },
+    {
+      "fact_id": "fact-b627b0525fedd8c7",
+      "metric": "percentage_statistic",
+      "classification": "DIRECT_EVIDENCE",
+      "reason": "excerpt contains value + 1 context keywords"
+    },
+    {
+      "fact_id": "fact-6df142386dcb26b6",
+      "metric": "percentage_statistic",
+      "classification": "DIRECT_EVIDENCE",
+      "reason": "excerpt contains value + 1 context keywords"
+    },
+    {
+      "fact_id": "fact-f667342a773a00c5",
+      "metric": "percentage_statistic",
+      "classification": "DIRECT_EVIDENCE",
+      "reason": "excerpt contains value + 1 context keywords"
+    },
+    {
+      "fact_id": "fact-1562ec8d587f1eb3",
+      "metric": "percentage_statistic",
+      "classification": "DIRECT_EVIDENCE",
+      "reason": "excerpt contains value + 1 context keywords"
+    },
+    {
+      "fact_id": "fact-ec19eaba3cfe803e",
+      "metric": "percentage_statistic",
+      "classification": "DIRECT_EVIDENCE",
+      "reason": "excerpt contains value + 1 context keywords"
+    },
+    {
+      "fact_id": "fact-4cfd069cd23312bd",
+      "metric": "usd_amount",
+      "classification": "DIRECT_EVIDENCE",
+      "reason": "excerpt contains value + 1 context keywords"
+    },
+    {
+      "fact_id": "fact-4be305a6bea87a4d",
+      "metric": "policy_rate",
+      "classification": "DIRECT_EVIDENCE",
+      "reason": "excerpt contains value + 1 context keywords"
+    },
+    {
+      "fact_id": "fact-ef96d0cc081c5c35",
+      "metric": "rate_decision",
+      "classification": "DIRECT_EVIDENCE",
+      "reason": "excerpt contains value + 1 context keywords"
+    },
+    {
+      "fact_id": "fact-fa145628cce884d6",
+      "metric": "rate_decision",
+      "classification": "DIRECT_EVIDENCE",
+      "reason": "excerpt contains value + 1 context keywords"
+    },
+    {
+      "fact_id": "fact-d9174ec82c85702e",
+      "metric": "rate_decision",
+      "classification": "DIRECT_EVIDENCE",
+      "reason": "excerpt contains value + 1 context keywords"
+    },
+    {
+      "fact_id": "fact-f43a2fa381b88f35",
+      "metric": "rate_decision",
+      "classification": "DIRECT_EVIDENCE",
+      "reason": "excerpt contains value + 1 context keywords"
+    },
+    {
+      "fact_id": "fact-db3a75c42d98fc63",
+      "metric": "rate_decision",
+      "classification": "DIRECT_EVIDENCE",
+      "reason": "excerpt contains value + 1 context keywords"
+    },
+    {
+      "fact_id": "fact-c6e7b5d75279f1f8",
+      "metric": "rate_decision",
+      "classification": "DIRECT_EVIDENCE",
+      "reason": "excerpt contains value + 1 context keywords"
+    },
+    {
+      "fact_id": "fact-a07d21b72db0ce11",
+      "metric": "rate_decision",
+      "classification": "DIRECT_EVIDENCE",
+      "reason": "excerpt contains value + 1 context keywords"
+    },
+    {
+      "fact_id": "fact-9f5f6f56234d211b",
+      "metric": "rate_decision",
+      "classification": "DIRECT_EVIDENCE",
+      "reason": "excerpt contains value + 1 context keywords"
+    },
+    {
+      "fact_id": "fact-c6df273883aaf78c",
+      "metric": "rate_decision",
+      "classification": "DIRECT_EVIDENCE",
+      "reason": "excerpt contains value + 1 context keywords"
+    },
+    {
+      "fact_id": "fact-4e375ce31a7769aa",
+      "metric": "policy_rate",
+      "classification": "DIRECT_EVIDENCE",
+      "reason": "excerpt contains value + 1 context keywords"
+    },
+    {
+      "fact_id": "fact-538e3e0baa3f4e77",
+      "metric": "percentage_statistic",
+      "classification": "DIRECT_EVIDENCE",
+      "reason": "excerpt contains value + 1 context keywords"
+    },
+    {
+      "fact_id": "fact-c24bb468668b2efe",
+      "metric": "percentage_statistic",
+      "classification": "DIRECT_EVIDENCE",
+      "reason": "excerpt contains value + 1 context keywords"
+    },
+    {
+      "fact_id": "fact-569d6b1c828ad899",
+      "metric": "percentage_statistic",
+      "classification": "DIRECT_EVIDENCE",
+      "reason": "excerpt contains value + 1 context keywords"
+    },
+    {
+      "fact_id": "fact-8e8d7be299963dbb",
+      "metric": "percentage_statistic",
+      "classification": "DIRECT_EVIDENCE",
+      "reason": "excerpt contains value + 1 context keywords"
+    },
+    {
+      "fact_id": "fact-658fa521098a10a8",
+      "metric": "usd_amount",
+      "classification": "DIRECT_EVIDENCE",
+      "reason": "excerpt contains value + 1 context keywords"
+    },
+    {
+      "fact_id": "fact-88b6d9251b88c036",
+      "metric": "usd_amount",
+      "classification": "DIRECT_EVIDENCE",
+      "reason": "excerpt contains value + 1 context keywords"
+    },
+    {
+      "fact_id": "fact-9b74711c84cc1e16",
+      "metric": "usd_amount",
+      "classification": "DIRECT_EVIDENCE",
+      "reason": "excerpt contains value + 1 context keywords"
+    },
+    {
+      "fact_id": "fact-4aa1e411cdbb866f",
+      "metric": "usd_amount",
+      "classification": "DIRECT_EVIDENCE",
+      "reason": "excerpt contains value + 1 context keywords"
+    },
+    {
+      "fact_id": "fact-33b357352c3f49e3",
+      "metric": "usd_amount",
+      "classification": "DIRECT_EVIDENCE",
+      "reason": "excerpt contains value + 1 context keywords"
+    },
+    {
+      "fact_id": "fact-e692c096b53766fe",
+      "metric": "usd_amount",
+      "classification": "DIRECT_EVIDENCE",
+      "reason": "excerpt contains value + 1 context keywords"
+    },
+    {
+      "fact_id": "fact-f7780eba609cd0f6",
+      "metric": "usd_amount",
+      "classification": "DIRECT_EVIDENCE",
+      "reason": "excerpt contains value + 1 context keywords"
+    },
+    {
+      "fact_id": "fact-fd14cee24cd424bc",
+      "metric": "usd_amount",
+      "classification": "DIRECT_EVIDENCE",
+      "reason": "excerpt contains value + 1 context keywords"
+    },
+    {
+      "fact_id": "fact-5c290456615e3488",
+      "metric": "usd_amount",
+      "classification": "DIRECT_EVIDENCE",
+      "reason": "excerpt contains value + 1 context keywords"
+    },
+    {
+      "fact_id": "fact-2b6e4626630911fe",
+      "metric": "usd_amount",
+      "classification": "DIRECT_EVIDENCE",
+      "reason": "excerpt contains value + 1 context keywords"
+    },
+    {
+      "fact_id": "fact-7bd6f58f9509f935",
+      "metric": "usd_amount",
+      "classification": "DIRECT_EVIDENCE",
+      "reason": "excerpt contains value + 1 context keywords"
+    },
+    {
+      "fact_id": "fact-34034951793d266a",
+      "metric": "usd_amount",
+      "classification": "DIRECT_EVIDENCE",
+      "reason": "excerpt contains value + 1 context keywords"
+    },
+    {
+      "fact_id": "fact-2141acfb87bc4fe3",
+      "metric": "usd_amount",
+      "classification": "DIRECT_EVIDENCE",
+      "reason": "excerpt contains value + 1 context keywords"
+    },
+    {
+      "fact_id": "fact-a26d76792f9033ea",
+      "metric": "usd_amount",
+      "classification": "DIRECT_EVIDENCE",
+      "reason": "excerpt contains value + 1 context keywords"
+    },
+    {
+      "fact_id": "fact-e69bdda96196b2de",
+      "metric": "usd_amount",
+      "classification": "DIRECT_EVIDENCE",
+      "reason": "excerpt contains value + 1 context keywords"
+    },
+    {
+      "fact_id": "fact-996215ef8a1183fa",
+      "metric": "usd_amount",
+      "classification": "DIRECT_EVIDENCE",
+      "reason": "excerpt contains value + 1 context keywords"
+    },
+    {
+      "fact_id": "fact-672af1abede8dce1",
+      "metric": "usd_amount",
+      "classification": "DIRECT_EVIDENCE",
+      "reason": "excerpt contains value + 1 context keywords"
+    },
+    {
+      "fact_id": "fact-81f135f87718365b",
+      "metric": "usd_amount",
+      "classification": "DIRECT_EVIDENCE",
+      "reason": "excerpt contains value + 1 context keywords"
+    },
+    {
+      "fact_id": "fact-ff9137476124af06",
+      "metric": "usd_amount",
+      "classification": "DIRECT_EVIDENCE",
+      "reason": "excerpt contains value + 1 context keywords"
+    },
+    {
+      "fact_id": "fact-d9e1be3e86af4119",
+      "metric": "usd_amount",
+      "classification": "DIRECT_EVIDENCE",
+      "reason": "excerpt contains value + 1 context keywords"
+    },
+    {
+      "fact_id": "fact-43c3cfc9be13bfda",
+      "metric": "percentage_statistic",
+      "classification": "INDIRECT_EVIDENCE",
+      "reason": "excerpt contains value but lacks context keywords"
+    },
+    {
+      "fact_id": "fact-fd8078b3b58a55a8",
+      "metric": "percentage_statistic",
+      "classification": "INDIRECT_EVIDENCE",
+      "reason": "excerpt contains value but lacks context keywords"
+    },
+    {
+      "fact_id": "fact-41f327304ff0865f",
+      "metric": "percentage_statistic",
+      "classification": "INDIRECT_EVIDENCE",
+      "reason": "excerpt contains value but lacks context keywords"
+    },
+    {
+      "fact_id": "fact-aad9d350b84f6345",
+      "metric": "percentage_statistic",
+      "classification": "INDIRECT_EVIDENCE",
+      "reason": "excerpt contains value but lacks context keywords"
+    },
+    {
+      "fact_id": "fact-dddee88b4c96648c",
+      "metric": "percentage_statistic",
+      "classification": "DIRECT_EVIDENCE",
+      "reason": "excerpt contains value + 1 context keywords"
+    },
+    {
+      "fact_id": "fact-21028e1690e26773",
+      "metric": "percentage_statistic",
+      "classification": "DIRECT_EVIDENCE",
+      "reason": "excerpt contains value + 1 context keywords"
+    },
+    {
+      "fact_id": "fact-cd5573cd8d7389dd",
+      "metric": "percentage_statistic",
+      "classification": "DIRECT_EVIDENCE",
+      "reason": "excerpt contains value + 1 context keywords"
+    },
+    {
+      "fact_id": "fact-6b60f01d22d00c29",
+      "metric": "percentage_statistic",
+      "classification": "DIRECT_EVIDENCE",
+      "reason": "excerpt contains value + 1 context keywords"
+    },
+    {
+      "fact_id": "fact-8467b7d0cdeeadc4",
+      "metric": "percentage_statistic",
+      "classification": "DIRECT_EVIDENCE",
+      "reason": "excerpt contains value + 1 context keywords"
+    },
+    {
+      "fact_id": "fact-6a21edeb86970d02",
+      "metric": "percentage_statistic",
+      "classification": "DIRECT_EVIDENCE",
+      "reason": "excerpt contains value + 1 context keywords"
+    },
+    {
+      "fact_id": "fact-c11bf72cf3886145",
+      "metric": "percentage_statistic",
+      "classification": "DIRECT_EVIDENCE",
+      "reason": "excerpt contains value + 1 context keywords"
+    },
+    {
+      "fact_id": "fact-7320270c9994e699",
+      "metric": "percentage_statistic",
+      "classification": "DIRECT_EVIDENCE",
+      "reason": "excerpt contains value + 1 context keywords"
+    },
+    {
+      "fact_id": "fact-180a0b4cbff1591b",
+      "metric": "percentage_statistic",
+      "classification": "DIRECT_EVIDENCE",
+      "reason": "excerpt contains value + 1 context keywords"
+    },
+    {
+      "fact_id": "fact-3e274d6485cc1f5e",
+      "metric": "gdp_growth",
+      "classification": "DIRECT_EVIDENCE",
+      "reason": "excerpt contains value + 1 context keywords"
+    },
+    {
+      "fact_id": "fact-9346f35c0b4f1767",
+      "metric": "percentage_statistic",
+      "classification": "DIRECT_EVIDENCE",
+      "reason": "excerpt contains value + 1 context keywords"
+    },
+    {
+      "fact_id": "fact-f3488e3ad75e3bfb",
+      "metric": "percentage_statistic",
+      "classification": "DIRECT_EVIDENCE",
+      "reason": "excerpt contains value + 1 context keywords"
+    },
+    {
+      "fact_id": "fact-7684bd53a3abb8db",
+      "metric": "percentage_statistic",
+      "classification": "DIRECT_EVIDENCE",
+      "reason": "excerpt contains value + 1 context keywords"
+    },
+    {
+      "fact_id": "fact-09461491046f5165",
+      "metric": "percentage_statistic",
+      "classification": "DIRECT_EVIDENCE",
+      "reason": "excerpt contains value + 1 context keywords"
+    },
+    {
+      "fact_id": "fact-65fedb6caece6c1f",
+      "metric": "percentage_statistic",
+      "classification": "DIRECT_EVIDENCE",
+      "reason": "excerpt contains value + 1 context keywords"
+    },
+    {
+      "fact_id": "fact-959b825f419e5a93",
+      "metric": "percentage_statistic",
+      "classification": "DIRECT_EVIDENCE",
+      "reason": "excerpt contains value + 1 context keywords"
+    },
+    {
+      "fact_id": "fact-b72f794590e5912b",
+      "metric": "percentage_statistic",
+      "classification": "DIRECT_EVIDENCE",
+      "reason": "excerpt contains value + 1 context keywords"
+    },
+    {
+      "fact_id": "fact-ce9946861f1e44aa",
+      "metric": "percentage_statistic",
+      "classification": "DIRECT_EVIDENCE",
+      "reason": "excerpt contains value + 1 context keywords"
+    },
+    {
+      "fact_id": "fact-81ce42485bdd8039",
+      "metric": "percentage_statistic",
+      "classification": "DIRECT_EVIDENCE",
+      "reason": "excerpt contains value + 1 context keywords"
+    },
+    {
+      "fact_id": "fact-d58651826e12848f",
+      "metric": "gdp_growth",
+      "classification": "DIRECT_EVIDENCE",
+      "reason": "excerpt contains value + 1 context keywords"
+    },
+    {
+      "fact_id": "fact-c0ee6227c5946d21",
+      "metric": "percentage_statistic",
+      "classification": "INDIRECT_EVIDENCE",
+      "reason": "excerpt contains value but lacks context keywords"
+    },
+    {
+      "fact_id": "fact-6af23f279631bb91",
+      "metric": "percentage_statistic",
+      "classification": "INDIRECT_EVIDENCE",
+      "reason": "excerpt contains value but lacks context keywords"
+    },
+    {
+      "fact_id": "fact-de24e0ad1868da2a",
+      "metric": "percentage_statistic",
+      "classification": "DIRECT_EVIDENCE",
+      "reason": "excerpt contains value + 1 context keywords"
+    },
+    {
+      "fact_id": "fact-852ce66689e30825",
+      "metric": "percentage_statistic",
+      "classification": "DIRECT_EVIDENCE",
+      "reason": "excerpt contains value + 1 context keywords"
+    },
+    {
+      "fact_id": "fact-5f3b2e449737f77d",
+      "metric": "percentage_statistic",
+      "classification": "DIRECT_EVIDENCE",
+      "reason": "excerpt contains value + 1 context keywords"
+    },
+    {
+      "fact_id": "fact-f48a370b229ea698",
+      "metric": "percentage_statistic",
+      "classification": "DIRECT_EVIDENCE",
+      "reason": "excerpt contains value + 1 context keywords"
+    },
+    {
+      "fact_id": "fact-575d7c1d28ebbfb5",
+      "metric": "percentage_statistic",
+      "classification": "DIRECT_EVIDENCE",
+      "reason": "excerpt contains value + 1 context keywords"
+    },
+    {
+      "fact_id": "fact-d52422974538128a",
+      "metric": "percentage_statistic",
+      "classification": "DIRECT_EVIDENCE",
+      "reason": "excerpt contains value + 1 context keywords"
+    }
+  ],
+  "metric_quality": {
+    "rate_decision": {
+      "DIRECTLY_SUPPORTED": 10
+    },
+    "policy_rate": {
+      "DIRECTLY_SUPPORTED": 7
+    },
+    "percentage_statistic": {
+      "DIRECTLY_SUPPORTED": 75
+    },
+    "usd_amount": {
+      "DIRECTLY_SUPPORTED": 41
+    },
+    "gdp_growth": {
+      "DIRECTLY_SUPPORTED": 4
+    },
+    "action_type": {
+      "DIRECTLY_SUPPORTED": 43
+    },
+    "penalty_amount": {
+      "DIRECTLY_SUPPORTED": 20
+    }
+  }
+}

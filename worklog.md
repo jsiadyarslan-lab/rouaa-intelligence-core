@@ -91,3 +91,23 @@ Work Log:
 Stage Summary:
 - Starting point: 192 catalogued, 101 qualified, 11 production-ready, 229 real IOs
 - Target: 250+ catalogued, 150+ qualified, 50+ production-ready, 1,000+ docs, 500+ IOs
+
+---
+Task ID: FACT-EVIDENCE-QUALITY-V5
+Agent: main
+Task: Execute CORE FACT & EVIDENCE QUALITY CLOSURE V5 — raise Fact Precision from 81.7% to ≥95%, Evidence Grounding to ≥95%, Event Precision to ≥98%, False Positives to 0%.
+
+Work Log:
+- Phase A: Root-cause audit of 200+ facts (classify failure modes)
+- Phase B: Evidence-grounding audit (DIRECT/INDIRECT/INSUFFICIENT)
+- Phase C: Implement sentence-aware evidence extraction
+- Phase D: Fact entity/unit/context validation
+- Phase E: Pattern quality (refine or dormant)
+- Phase F: Multilingual audit + language golden IOs
+- Phase G: Re-audit with strict targets
+- Phase H: 50+ golden corpus + regression
+- Phase I: V5 evidence document
+
+Stage Summary:
+- Starting: Fact Precision 81.7%, Evidence 71.7%, Ambiguous 25.8%
+- Target: Fact ≥95%, Evidence ≥95%, FP=0%, Ambiguous ≤5%

@@ -56,3 +56,7 @@ scale_validation_store/blobs/
 # V4 — ignore transient test artifacts
 /semantic_audit_results.json
 /pattern_audit_results.json
+
+# V5 — ignore transient test artifacts
+/fact_evidence_audit_results.json
+/multilingual_audit_results.json
