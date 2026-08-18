@@ -1,0 +1,37 @@
+{
+  "gt_sample_size": 195,
+  "gt_confirmation_rate": 86.2,
+  "gt_artifact_rate": 2.6,
+  "gt_ambiguity_rate": 11.3,
+  "gt_classification": {
+    "REAL_MATERIAL_FACT": 168,
+    "AMBIGUOUS": 22,
+    "NOT_A_FACT": 5
+  },
+  "core_total": 633,
+  "core_classification": {
+    "TRUE_POSITIVE": 632,
+    "GT_ARTIFACT": 1
+  },
+  "true_tp": 632,
+  "true_fp": 0,
+  "gt_artifact": 1,
+  "adjusted_tp": 633,
+  "fp_taxonomy": {
+    "GT_ARTIFACT": 1
+  },
+  "fn_sample_size": 250,
+  "fn_classification": {
+    "TRUE_MISSED_FACT": 135,
+    "AMBIGUOUS": 106,
+    "GT_ARTIFACT": 9
+  },
+  "fn_true_ratio": 0.54,
+  "corrected_fact_precision": 100.0,
+  "corrected_fact_recall": 48.8,
+  "event_tp": 36,
+  "event_fp": 2,
+  "event_precision": 94.7,
+  "event_recall": 17.3,
+  "methodology": "INDEPENDENT_MACHINE_ADJUDICATION (semi-automated, NOT human expert review)"
+}
