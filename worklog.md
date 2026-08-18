@@ -208,3 +208,20 @@ Phase E: ≥75 sources × 5 cycles continuous monitoring
 Phase F: Failure isolation + reprocessing
 Phase G: 75+ golden corpus
 Phase H: V11 evidence document
+
+---
+Task ID: QUALITY-NORMALIZATION-RECALL-V12
+Agent: main
+Task: Make V10 quality gates mandatory for every document. Reprocess 1,034 docs. Measure recall on ≥150-doc stratified benchmark. Audit navigation + semantic gate false negatives. PDF impact assessment.
+
+Phase A: Build mandatory quality pipeline (every doc passes V10 gates)
+Phase B: Reprocess 1,034 documents through complete pipeline
+Phase C: Source-level quality report
+Phase D: Stratified recall benchmark (≥150 docs)
+Phase E: Navigation false-negative audit (200 candidates)
+Phase F: Semantic gate false-negative audit (200 candidates)
+Phase G: Multilingual recall baseline (ja, zh, ar)
+Phase H: PDF impact assessment (≥100 PDFs)
+Phase I: Pattern governance (precision + recall per pattern)
+Phase J: 75+ golden corpus + continuous monitoring
+Phase K: V12 evidence document

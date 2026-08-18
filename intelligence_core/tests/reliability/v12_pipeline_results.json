@@ -1,0 +1,874 @@
+{
+  "pipeline_stats": {
+    "FORMAT_VALID": 1421,
+    "LANG_en": 1185,
+    "NAV_REJECTED": 3181,
+    "SEMANTIC_GATE_PASSED": 226,
+    "FACTS_APPENDED": 2410,
+    "EVENTS_CREATED": 144,
+    "IOS_BUILT": 144,
+    "SEMANTIC_GATE_REJECTED": 179,
+    "LANG_ja": 61,
+    "LANG_zh": 10,
+    "PDF_BINARY_REJECTED": 4,
+    "LANG_ar": 67,
+    "LANG_ru": 96,
+    "LANG_unknown": 2
+  },
+  "final_events": 144,
+  "final_facts": 2410,
+  "final_evidence": 2410,
+  "language_stats": {
+    "en": {
+      "documents": 1185
+    },
+    "ja": {
+      "documents": 61
+    },
+    "zh": {
+      "documents": 10
+    },
+    "ar": {
+      "documents": 67
+    },
+    "ru": {
+      "documents": 96
+    },
+    "unknown": {
+      "documents": 2
+    }
+  },
+  "nav_rejected_count": 3181,
+  "semantic_rejected_count": 179,
+  "nav_rejected_sample": [
+    {
+      "fact_id": "fact-67b14374a06741c3",
+      "metric": "percentage_statistic",
+      "value": "92",
+      "excerpt": "Strategy review Asset purchase programmes Latest monetary policy press conferenc",
+      "source_id": "imp-ecb",
+      "doc_id": "doc-ac00651c0093d6f9"
+    },
+    {
+      "fact_id": "fact-7b68a556b62e5721",
+      "metric": "percentage_statistic",
+      "value": "92",
+      "excerpt": "Fixed-term employee Short-term employee Trainee Cost-free secondee FAQs Search M",
+      "source_id": "imp-ecb",
+      "doc_id": "doc-ac00651c0093d6f9"
+    },
+    {
+      "fact_id": "fact-d4e2630a92f726f1",
+      "metric": "action_type",
+      "value": "settlement",
+      "excerpt": "Cash remains most widely accepted payment method in euro area Skip to: Skip to n",
+      "source_id": "imp-ecb",
+      "doc_id": "doc-ac00651c0093d6f9"
+    },
+    {
+      "fact_id": "fact-44507f3041d96250",
+      "metric": "action_type",
+      "value": "settlement",
+      "excerpt": "ECB and Frankfurt Radio Symphony invite the public to Europa Open Air concert on",
+      "source_id": "imp-ecb",
+      "doc_id": "doc-737e4fff6a05c09d"
+    },
+    {
+      "fact_id": "fact-388c5c67743f287c",
+      "metric": "percentage_statistic",
+      "value": "2",
+      "excerpt": "For more information on how these cookies work please see our Cookie policy . Ac",
+      "source_id": "imp-bank-of-england",
+      "doc_id": "doc-5ecb669f6f2ea51a"
+    },
+    {
+      "fact_id": "fact-aa255d6a1bf01a83",
+      "metric": "action_type",
+      "value": "settlement",
+      "excerpt": "For more information on how these cookies work please see our Cookie policy . Ac",
+      "source_id": "imp-bank-of-england",
+      "doc_id": "doc-5ecb669f6f2ea51a"
+    },
+    {
+      "fact_id": "fact-1a732e198a83900b",
+      "metric": "percentage_statistic",
+      "value": "2",
+      "excerpt": "For more information on how these cookies work please see our Cookie policy . Ac",
+      "source_id": "imp-bank-of-england",
+      "doc_id": "doc-b1ffbaa20d211ae5"
+    },
+    {
+      "fact_id": "fact-b4c0ff43c0eff8f7",
+      "metric": "action_type",
+      "value": "settlement",
+      "excerpt": "For more information on how these cookies work please see our Cookie policy . Ac",
+      "source_id": "imp-bank-of-england",
+      "doc_id": "doc-b1ffbaa20d211ae5"
+    },
+    {
+      "fact_id": "fact-6f07e260ce38f1d5",
+      "metric": "percentage_statistic",
+      "value": "2",
+      "excerpt": "For more information on how these cookies work please see our Cookie policy . Ac",
+      "source_id": "imp-bank-of-england",
+      "doc_id": "doc-60379f7197c52080"
+    },
+    {
+      "fact_id": "fact-79df3925c3b33223",
+      "metric": "percentage_statistic",
+      "value": "3.75",
+      "excerpt": "Bank Rate maintained at 3.75% - July 2026 Monetary Policy Summary and Minutes Pu",
+      "source_id": "imp-bank-of-england",
+      "doc_id": "doc-60379f7197c52080"
+    },
+    {
+      "fact_id": "fact-6a545ee8d23aea9a",
+      "metric": "percentage_statistic",
+      "value": "3.75",
+      "excerpt": "Transcript of the Governor's pooled broadcast interview given on 18 June 2026 Ne",
+      "source_id": "imp-bank-of-england",
+      "doc_id": "doc-60379f7197c52080"
+    },
+    {
+      "fact_id": "fact-2e389af259fafcfe",
+      "metric": "action_type",
+      "value": "settlement",
+      "excerpt": "For more information on how these cookies work please see our Cookie policy . Ac",
+      "source_id": "imp-bank-of-england",
+      "doc_id": "doc-60379f7197c52080"
+    },
+    {
+      "fact_id": "fact-ccbb1994066da100",
+      "metric": "action_type",
+      "value": "settlement",
+      "excerpt": "The SNB's Money Market team is available to assist with any queries, or if you r",
+      "source_id": "imp-swiss-national-bank",
+      "doc_id": "doc-3977e22b6168c0e8"
+    },
+    {
+      "fact_id": "fact-ddda73552ff13870",
+      "metric": "percentage_statistic",
+      "value": "0.3",
+      "excerpt": "Where is GDP the highest? Menu Close Menu Back Previous items Next items Home Da",
+      "source_id": "imp-eurostat",
+      "doc_id": "doc-632f5af27cb8e177"
+    },
+    {
+      "fact_id": "fact-b6b28b716a0453f7",
+      "metric": "percentage_statistic",
+      "value": "0.4",
+      "excerpt": "Where is GDP the highest? Menu Close Menu Back Previous items Next items Home Da",
+      "source_id": "imp-eurostat",
+      "doc_id": "doc-632f5af27cb8e177"
+    },
+    {
+      "fact_id": "fact-9a6d587421a6d717",
+      "metric": "percentage_statistic",
+      "value": "0.1",
+      "excerpt": "Where is GDP the highest? Menu Close Menu Back Previous items Next items Home Da",
+      "source_id": "imp-eurostat",
+      "doc_id": "doc-632f5af27cb8e177"
+    },
+    {
+      "fact_id": "fact-aa5cd3324e36d8e9",
+      "metric": "percentage_statistic",
+      "value": "0.8",
+      "excerpt": "Where is GDP the highest? Menu Close Menu Back Previous items Next items Home Da",
+      "source_id": "imp-eurostat",
+      "doc_id": "doc-632f5af27cb8e177"
+    },
+    {
+      "fact_id": "fact-062bf59e9caf330c",
+      "metric": "percentage_statistic",
+      "value": "0.0",
+      "excerpt": "Where is GDP the highest? Menu Close Menu Back Previous items Next items Home Da",
+      "source_id": "imp-eurostat",
+      "doc_id": "doc-ab8dbef146c79b7d"
+    },
+    {
+      "fact_id": "fact-1f0690e182f427f8",
+      "metric": "percentage_statistic",
+      "value": "0.0",
+      "excerpt": "Where is GDP the highest? Menu Close Menu Back Previous items Next items Home Da",
+      "source_id": "imp-eurostat",
+      "doc_id": "doc-ab8dbef146c79b7d"
+    },
+    {
+      "fact_id": "fact-44de9bfc112b38e8",
+      "metric": "percentage_statistic",
+      "value": "0.0",
+      "excerpt": "Where is GDP the highest? Menu Close Menu Back Previous items Next items Home Da",
+      "source_id": "imp-eurostat",
+      "doc_id": "doc-ab8dbef146c79b7d"
+    },
+    {
+      "fact_id": "fact-4ad42c4ab9ec19cc",
+      "metric": "percentage_statistic",
+      "value": "0.0",
+      "excerpt": "Where is GDP the highest? Menu Close Menu Back Previous items Next items Home Da",
+      "source_id": "imp-eurostat",
+      "doc_id": "doc-ab8dbef146c79b7d"
+    },
+    {
+      "fact_id": "fact-2a79432cdc8d24a0",
+      "metric": "percentage_statistic",
+      "value": "0.0",
+      "excerpt": "Where is GDP the highest? Menu Close Menu Back Previous items Next items Home Da",
+      "source_id": "imp-eurostat",
+      "doc_id": "doc-ab8dbef146c79b7d"
+    },
+    {
+      "fact_id": "fact-02f973b3abc7148c",
+      "metric": "percentage_statistic",
+      "value": "0.0",
+      "excerpt": "Where is GDP the highest? Menu Close Menu Back Previous items Next items Home Da",
+      "source_id": "imp-eurostat",
+      "doc_id": "doc-ab8dbef146c79b7d"
+    },
+    {
+      "fact_id": "fact-2ad029439ec96392",
+      "metric": "percentage_statistic",
+      "value": "0.3",
+      "excerpt": "Where is GDP the highest? Menu Close Menu Back Previous items Next items Home Da",
+      "source_id": "imp-eurostat",
+      "doc_id": "doc-ab8dbef146c79b7d"
+    },
+    {
+      "fact_id": "fact-ef252cfe0113ecdb",
+      "metric": "percentage_statistic",
+      "value": "0.4",
+      "excerpt": "Where is GDP the highest? Menu Close Menu Back Previous items Next items Home Da",
+      "source_id": "imp-eurostat",
+      "doc_id": "doc-ab8dbef146c79b7d"
+    },
+    {
+      "fact_id": "fact-4ed242ea8a0998a1",
+      "metric": "percentage_statistic",
+      "value": "0.1",
+      "excerpt": "Where is GDP the highest? Menu Close Menu Back Previous items Next items Home Da",
+      "source_id": "imp-eurostat",
+      "doc_id": "doc-ab8dbef146c79b7d"
+    },
+    {
+      "fact_id": "fact-d5604c6377296973",
+      "metric": "gdp_growth",
+      "value": "0.0",
+      "excerpt": "Where is GDP the highest? Menu Close Menu Back Previous items Next items Home Da",
+      "source_id": "imp-eurostat",
+      "doc_id": "doc-ab8dbef146c79b7d"
+    },
+    {
+      "fact_id": "fact-0041eea877fe44e5",
+      "metric": "percentage_statistic",
+      "value": "0.0",
+      "excerpt": "Where is GDP the highest? Menu Close Menu Back Previous items Next items Home Da",
+      "source_id": "imp-eurostat",
+      "doc_id": "doc-ab8dbef146c79b7d"
+    },
+    {
+      "fact_id": "fact-fd81bf787f8934b8",
+      "metric": "percentage_statistic",
+      "value": "0.0",
+      "excerpt": "Where is GDP the highest? Menu Close Menu Back Previous items Next items Home Da",
+      "source_id": "imp-eurostat",
+      "doc_id": "doc-ab8dbef146c79b7d"
+    },
+    {
+      "fact_id": "fact-f14d5f560fe8e6de",
+      "metric": "percentage_statistic",
+      "value": "0.0",
+      "excerpt": "Where is GDP the highest? Menu Close Menu Back Previous items Next items Home Da",
+      "source_id": "imp-eurostat",
+      "doc_id": "doc-ab8dbef146c79b7d"
+    },
+    {
+      "fact_id": "fact-bc11e50548ea45df",
+      "metric": "percentage_statistic",
+      "value": "0.0",
+      "excerpt": "Where is GDP the highest? Menu Close Menu Back Previous items Next items Home Da",
+      "source_id": "imp-eurostat",
+      "doc_id": "doc-ab8dbef146c79b7d"
+    },
+    {
+      "fact_id": "fact-1a726980e5e00989",
+      "metric": "percentage_statistic",
+      "value": "0.0",
+      "excerpt": "Where is GDP the highest? Menu Close Menu Back Previous items Next items Home Da",
+      "source_id": "imp-eurostat",
+      "doc_id": "doc-ab8dbef146c79b7d"
+    },
+    {
+      "fact_id": "fact-703c310b0eb71958",
+      "metric": "percentage_statistic",
+      "value": "0.0",
+      "excerpt": "Where is GDP the highest? Menu Close Menu Back Previous items Next items Home Da",
+      "source_id": "imp-eurostat",
+      "doc_id": "doc-ab8dbef146c79b7d"
+    },
+    {
+      "fact_id": "fact-ea2dd9e1f761c817",
+      "metric": "percentage_statistic",
+      "value": "0.3",
+      "excerpt": "Where is GDP the highest? Menu Close Menu Back Previous items Next items Home Da",
+      "source_id": "imp-eurostat",
+      "doc_id": "doc-ab8dbef146c79b7d"
+    },
+    {
+      "fact_id": "fact-3873e6b96a3fd37f",
+      "metric": "percentage_statistic",
+      "value": "0.4",
+      "excerpt": "Where is GDP the highest? Menu Close Menu Back Previous items Next items Home Da",
+      "source_id": "imp-eurostat",
+      "doc_id": "doc-ab8dbef146c79b7d"
+    },
+    {
+      "fact_id": "fact-c64d26e281c89db6",
+      "metric": "percentage_statistic",
+      "value": "0.1",
+      "excerpt": "Where is GDP the highest? Menu Close Menu Back Previous items Next items Home Da",
+      "source_id": "imp-eurostat",
+      "doc_id": "doc-ab8dbef146c79b7d"
+    },
+    {
+      "fact_id": "fact-6858a52ff966300c",
+      "metric": "gdp_growth",
+      "value": "0.0",
+      "excerpt": "Where is GDP the highest? Menu Close Menu Back Previous items Next items Home Da",
+      "source_id": "imp-eurostat",
+      "doc_id": "doc-ab8dbef146c79b7d"
+    },
+    {
+      "fact_id": "fact-b8c3d553c6f5cacf",
+      "metric": "action_type",
+      "value": "charged",
+      "excerpt": "Share sensitive information only on official, secure websites. SEC homepage Menu",
+      "source_id": "imp-sec",
+      "doc_id": "doc-9a2c3554bf239005"
+    },
+    {
+      "fact_id": "fact-adc02b02e97fc6f8",
+      "metric": "action_type",
+      "value": "charged",
+      "excerpt": "Through entities he owned, Spaventa purchased the pre-IPO shares, either directl",
+      "source_id": "imp-sec",
+      "doc_id": "doc-9a2c3554bf239005"
+    },
+    {
+      "fact_id": "fact-03a658a0a04bcb10",
+      "metric": "penalty_amount",
+      "value": "74",
+      "excerpt": "Share sensitive information only on official, secure websites. SEC homepage Menu",
+      "source_id": "imp-sec",
+      "doc_id": "doc-9a2c3554bf239005"
+    },
+    {
+      "fact_id": "fact-f28ef05be994b18b",
+      "metric": "penalty_amount",
+      "value": "74",
+      "excerpt": "Share sensitive information only on official, secure websites. SEC homepage Menu",
+      "source_id": "imp-sec",
+      "doc_id": "doc-9a2c3554bf239005"
+    },
+    {
+      "fact_id": "fact-49fa7cb5f1f82496",
+      "metric": "penalty_amount",
+      "value": "74",
+      "excerpt": "SEC homepage Menu Close Search SEC.gov & EDGAR Search Search Filings Search Fili",
+      "source_id": "imp-sec",
+      "doc_id": "doc-9a2c3554bf239005"
+    },
+    {
+      "fact_id": "fact-981ae1bcce538cdf",
+      "metric": "usd_amount",
+      "value": "74",
+      "excerpt": "SEC homepage Menu Close Search SEC.gov & EDGAR Search Search Filings Search Fili",
+      "source_id": "imp-sec",
+      "doc_id": "doc-9a2c3554bf239005"
+    },
+    {
+      "fact_id": "fact-fae7549b7c1e83b7",
+      "metric": "action_type",
+      "value": "charged",
+      "excerpt": "Share sensitive information only on official, secure websites. SEC homepage Menu",
+      "source_id": "imp-sec",
+      "doc_id": "doc-fa4e9cecec3e8d7d"
+    },
+    {
+      "fact_id": "fact-45fac5e9663fef69",
+      "metric": "penalty_amount",
+      "value": "47",
+      "excerpt": "Share sensitive information only on official, secure websites. SEC homepage Menu",
+      "source_id": "imp-sec",
+      "doc_id": "doc-fa4e9cecec3e8d7d"
+    },
+    {
+      "fact_id": "fact-ec8f014c31aaa6db",
+      "metric": "penalty_amount",
+      "value": "47",
+      "excerpt": "Share sensitive information only on official, secure websites. SEC homepage Menu",
+      "source_id": "imp-sec",
+      "doc_id": "doc-fa4e9cecec3e8d7d"
+    },
+    {
+      "fact_id": "fact-f46a415c0dc1b864",
+      "metric": "penalty_amount",
+      "value": "47",
+      "excerpt": "Share sensitive information only on official, secure websites. SEC homepage Menu",
+      "source_id": "imp-sec",
+      "doc_id": "doc-fa4e9cecec3e8d7d"
+    },
+    {
+      "fact_id": "fact-88edc09a4f4e433f",
+      "metric": "usd_amount",
+      "value": "47",
+      "excerpt": "Share sensitive information only on official, secure websites. SEC homepage Menu",
+      "source_id": "imp-sec",
+      "doc_id": "doc-fa4e9cecec3e8d7d"
+    },
+    {
+      "fact_id": "fact-2865dfd79f692645",
+      "metric": "action_type",
+      "value": "charged",
+      "excerpt": "Share sensitive information only on official, secure websites. SEC homepage Menu",
+      "source_id": "imp-sec",
+      "doc_id": "doc-607891ddb7eae21c"
+    },
+    {
+      "fact_id": "fact-65108060f3e525a7",
+      "metric": "penalty_amount",
+      "value": "400",
+      "excerpt": "Press Releases | CFTC /PressRoom/PressReleases Skip to main content icon-hamburg",
+      "source_id": "imp-cftc",
+      "doc_id": "doc-c35a0a455e177d33"
+    }
+  ],
+  "semantic_rejected_sample": [
+    {
+      "event_type": "regulatory_enforcement",
+      "source_id": "imp-swiss-national-bank",
+      "doc_id": "doc-3977e22b6168c0e8",
+      "reason": "context validation failed: missing required context patterns (1/2 matched)"
+    },
+    {
+      "event_type": "statistical_release",
+      "source_id": "imp-sec",
+      "doc_id": "doc-9a2c3554bf239005",
+      "reason": "context validation failed: missing required context patterns (1/2 matched)"
+    },
+    {
+      "event_type": "statistical_release",
+      "source_id": "imp-sec",
+      "doc_id": "doc-fa4e9cecec3e8d7d",
+      "reason": "context validation failed: missing required context patterns (1/2 matched)"
+    },
+    {
+      "event_type": "statistical_release",
+      "source_id": "imp-sec",
+      "doc_id": "doc-607891ddb7eae21c",
+      "reason": "context validation failed: missing required context patterns (1/2 matched)"
+    },
+    {
+      "event_type": "regulatory_enforcement",
+      "source_id": "imp-fca",
+      "doc_id": "doc-b72c1ee4a05de89b",
+      "reason": "context validation failed: missing required context patterns (1/2 matched)"
+    },
+    {
+      "event_type": "statistical_release",
+      "source_id": "imp-fca",
+      "doc_id": "doc-b72c1ee4a05de89b",
+      "reason": "context validation failed: missing required context patterns (1/2 matched)"
+    },
+    {
+      "event_type": "regulatory_enforcement",
+      "source_id": "imp-fca",
+      "doc_id": "doc-ef790d13880c21e9",
+      "reason": "context validation failed: missing required context patterns (1/2 matched)"
+    },
+    {
+      "event_type": "regulatory_enforcement",
+      "source_id": "imp-bank-of-england",
+      "doc_id": "doc-8670676aae5747a2",
+      "reason": "context validation failed: missing required context patterns (1/2 matched)"
+    },
+    {
+      "event_type": "regulatory_enforcement",
+      "source_id": "imp-bank-of-england",
+      "doc_id": "doc-ebb300b7f6e60f66",
+      "reason": "context validation failed: document matches exclusion pattern: speech/op-ed exclusion"
+    },
+    {
+      "event_type": "statistical_release",
+      "source_id": "imp-stats-china",
+      "doc_id": "doc-6a5080876f147da8",
+      "reason": "context validation failed: missing required context patterns (0/2 matched)"
+    },
+    {
+      "event_type": "regulatory_enforcement",
+      "source_id": "imp-sec",
+      "doc_id": "doc-31270f0e83371c52",
+      "reason": "context validation failed: missing required context patterns (1/2 matched)"
+    },
+    {
+      "event_type": "regulatory_enforcement",
+      "source_id": "imp-cftc",
+      "doc_id": "doc-a6331135eddf955b",
+      "reason": "context validation failed: missing required context patterns (1/2 matched)"
+    },
+    {
+      "event_type": "statistical_release",
+      "source_id": "imp-cftc",
+      "doc_id": "doc-a6331135eddf955b",
+      "reason": "context validation failed: missing required context patterns (0/2 matched)"
+    },
+    {
+      "event_type": "regulatory_enforcement",
+      "source_id": "imp-cftc",
+      "doc_id": "doc-00c1c3e3f6e4d5ec",
+      "reason": "context validation failed: document matches exclusion pattern: speech/op-ed exclusion"
+    },
+    {
+      "event_type": "statistical_release",
+      "source_id": "imp-cftc",
+      "doc_id": "doc-00c1c3e3f6e4d5ec",
+      "reason": "context validation failed: missing required context patterns (0/2 matched)"
+    },
+    {
+      "event_type": "regulatory_enforcement",
+      "source_id": "imp-esma",
+      "doc_id": "doc-9ccd1716031e5939",
+      "reason": "context validation failed: missing required context patterns (1/2 matched)"
+    },
+    {
+      "event_type": "regulatory_enforcement",
+      "source_id": "imp-fca",
+      "doc_id": "doc-b72c1ee4a05de89b",
+      "reason": "context validation failed: missing required context patterns (1/2 matched)"
+    },
+    {
+      "event_type": "statistical_release",
+      "source_id": "imp-fca",
+      "doc_id": "doc-b72c1ee4a05de89b",
+      "reason": "context validation failed: missing required context patterns (1/2 matched)"
+    },
+    {
+      "event_type": "regulatory_enforcement",
+      "source_id": "imp-fca",
+      "doc_id": "doc-ef790d13880c21e9",
+      "reason": "context validation failed: missing required context patterns (1/2 matched)"
+    },
+    {
+      "event_type": "regulatory_enforcement",
+      "source_id": "imp-fca",
+      "doc_id": "doc-b6a3b4fd764791c8",
+      "reason": "context validation failed: missing required context patterns (1/2 matched)"
+    },
+    {
+      "event_type": "statistical_release",
+      "source_id": "imp-fca",
+      "doc_id": "doc-b6a3b4fd764791c8",
+      "reason": "context validation failed: missing required context patterns (1/2 matched)"
+    },
+    {
+      "event_type": "monetary_policy_decision",
+      "source_id": "imp-deutsche-boerse",
+      "doc_id": "doc-bd24a49fcae6e681",
+      "reason": "context validation failed: missing required context patterns (1/2 matched)"
+    },
+    {
+      "event_type": "statistical_release",
+      "source_id": "imp-fsb",
+      "doc_id": "doc-109eefd982264392",
+      "reason": "context validation failed: missing required context patterns (1/2 matched)"
+    },
+    {
+      "event_type": "statistical_release",
+      "source_id": "imp-bea",
+      "doc_id": "doc-e96dc7902ddcfa54",
+      "reason": "context validation failed: missing required context patterns (1/2 matched)"
+    },
+    {
+      "event_type": "statistical_release",
+      "source_id": "imp-bea",
+      "doc_id": "doc-93c89f0c3311c178",
+      "reason": "context validation failed: missing required context patterns (1/2 matched)"
+    },
+    {
+      "event_type": "regulatory_enforcement",
+      "source_id": "imp-bank-of-england",
+      "doc_id": "doc-c4cc15e96080ff01",
+      "reason": "context validation failed: missing required context patterns (1/2 matched)"
+    },
+    {
+      "event_type": "regulatory_enforcement",
+      "source_id": "imp-cftc",
+      "doc_id": "doc-5d55c41d98f4dd08",
+      "reason": "context validation failed: missing required context patterns (1/2 matched)"
+    },
+    {
+      "event_type": "regulatory_enforcement",
+      "source_id": "imp-bank-of-england",
+      "doc_id": "doc-5032b8230b3b0553",
+      "reason": "context validation failed: missing required context patterns (1/2 matched)"
+    },
+    {
+      "event_type": "statistical_release",
+      "source_id": "imp-cftc",
+      "doc_id": "doc-09cefa8413a24efc",
+      "reason": "context validation failed: missing required context patterns (1/2 matched)"
+    },
+    {
+      "event_type": "regulatory_enforcement",
+      "source_id": "imp-bank-of-england",
+      "doc_id": "doc-6bf098252f5795fd",
+      "reason": "context validation failed: missing required context patterns (1/2 matched)"
+    },
+    {
+      "event_type": "regulatory_enforcement",
+      "source_id": "imp-ecb",
+      "doc_id": "doc-62fb79276d16635a",
+      "reason": "context validation failed: missing required context patterns (1/2 matched)"
+    },
+    {
+      "event_type": "regulatory_enforcement",
+      "source_id": "imp-esma",
+      "doc_id": "doc-9ccd1716031e5939",
+      "reason": "context validation failed: missing required context patterns (1/2 matched)"
+    },
+    {
+      "event_type": "regulatory_enforcement",
+      "source_id": "imp-fca",
+      "doc_id": "doc-b72c1ee4a05de89b",
+      "reason": "context validation failed: missing required context patterns (1/2 matched)"
+    },
+    {
+      "event_type": "statistical_release",
+      "source_id": "imp-fca",
+      "doc_id": "doc-b72c1ee4a05de89b",
+      "reason": "context validation failed: missing required context patterns (1/2 matched)"
+    },
+    {
+      "event_type": "regulatory_enforcement",
+      "source_id": "imp-fca",
+      "doc_id": "doc-ef790d13880c21e9",
+      "reason": "context validation failed: missing required context patterns (1/2 matched)"
+    },
+    {
+      "event_type": "regulatory_enforcement",
+      "source_id": "imp-fca",
+      "doc_id": "doc-b6a3b4fd764791c8",
+      "reason": "context validation failed: missing required context patterns (1/2 matched)"
+    },
+    {
+      "event_type": "statistical_release",
+      "source_id": "imp-fca",
+      "doc_id": "doc-b6a3b4fd764791c8",
+      "reason": "context validation failed: missing required context patterns (1/2 matched)"
+    },
+    {
+      "event_type": "regulatory_enforcement",
+      "source_id": "imp-bank-of-england",
+      "doc_id": "doc-3d654a9d1470e83d",
+      "reason": "context validation failed: missing required context patterns (1/2 matched)"
+    },
+    {
+      "event_type": "regulatory_enforcement",
+      "source_id": "imp-bank-of-england",
+      "doc_id": "doc-317fafc76cb4c021",
+      "reason": "context validation failed: missing required context patterns (1/2 matched)"
+    },
+    {
+      "event_type": "regulatory_enforcement",
+      "source_id": "imp-fca",
+      "doc_id": "doc-9a712ccb39c76784",
+      "reason": "context validation failed: missing required context patterns (1/2 matched)"
+    },
+    {
+      "event_type": "statistical_release",
+      "source_id": "imp-fca",
+      "doc_id": "doc-84f7e6fd6439aaf2",
+      "reason": "context validation failed: missing required context patterns (1/2 matched)"
+    },
+    {
+      "event_type": "statistical_release",
+      "source_id": "imp-fca",
+      "doc_id": "doc-84919d04d9ff13ff",
+      "reason": "context validation failed: missing required context patterns (1/2 matched)"
+    },
+    {
+      "event_type": "monetary_policy_decision",
+      "source_id": "imp-bank-of-england",
+      "doc_id": "doc-96cc4daade0cade8",
+      "reason": "context validation failed: document matches exclusion pattern: statistical release exclusion"
+    },
+    {
+      "event_type": "regulatory_enforcement",
+      "source_id": "imp-bank-of-england",
+      "doc_id": "doc-96cc4daade0cade8",
+      "reason": "context validation failed: missing required context patterns (1/2 matched)"
+    },
+    {
+      "event_type": "regulatory_enforcement",
+      "source_id": "imp-sec",
+      "doc_id": "doc-3b44691a77e503af",
+      "reason": "context validation failed: missing required context patterns (1/2 matched)"
+    },
+    {
+      "event_type": "regulatory_enforcement",
+      "source_id": "imp-sec",
+      "doc_id": "doc-1d62eefb43a4b9c8",
+      "reason": "context validation failed: missing required context patterns (1/2 matched)"
+    },
+    {
+      "event_type": "regulatory_enforcement",
+      "source_id": "imp-fca",
+      "doc_id": "doc-b72c1ee4a05de89b",
+      "reason": "context validation failed: missing required context patterns (1/2 matched)"
+    },
+    {
+      "event_type": "statistical_release",
+      "source_id": "imp-fca",
+      "doc_id": "doc-b72c1ee4a05de89b",
+      "reason": "context validation failed: missing required context patterns (1/2 matched)"
+    },
+    {
+      "event_type": "regulatory_enforcement",
+      "source_id": "imp-fca",
+      "doc_id": "doc-ef790d13880c21e9",
+      "reason": "context validation failed: missing required context patterns (1/2 matched)"
+    },
+    {
+      "event_type": "regulatory_enforcement",
+      "source_id": "imp-fca",
+      "doc_id": "doc-b6a3b4fd764791c8",
+      "reason": "context validation failed: missing required context patterns (1/2 matched)"
+    }
+  ],
+  "source_stats": {
+    "imp-ecb": {
+      "facts": 341,
+      "events": 12,
+      "ios": 12
+    },
+    "imp-bank-of-england": {
+      "facts": 311,
+      "events": 23,
+      "ios": 23
+    },
+    "imp-swiss-national-bank": {
+      "facts": 10,
+      "events": 2,
+      "ios": 2
+    },
+    "imp-bea": {
+      "facts": 462,
+      "events": 27,
+      "ios": 27
+    },
+    "imp-sec": {
+      "facts": 23,
+      "events": 5,
+      "ios": 5
+    },
+    "imp-consob": {
+      "pdf_binary": 1
+    },
+    "imp-federal-reserve": {
+      "facts": 1,
+      "events": 1,
+      "ios": 1
+    },
+    "imp-eurostat": {
+      "facts": 8,
+      "events": 1,
+      "ios": 1
+    },
+    "imp-hm-treasury": {
+      "facts": 3,
+      "events": 1,
+      "ios": 1
+    },
+    "imp-euronext": {
+      "facts": 192,
+      "events": 20,
+      "ios": 20
+    },
+    "imp-fca": {
+      "facts": 18,
+      "events": 3,
+      "ios": 3
+    },
+    "src-boc": {
+      "facts": 74,
+      "events": 24,
+      "ios": 24
+    },
+    "src-beis-uk": {
+      "facts": 5,
+      "events": 3,
+      "ios": 3
+    },
+    "src-eurostat-emp": {
+      "facts": 672,
+      "events": 3,
+      "ios": 3
+    },
+    "src-nrb-nepal": {
+      "pdf_binary": 1
+    },
+    "src-naic-us": {
+      "facts": 6,
+      "events": 1,
+      "ios": 1
+    },
+    "src-frb-ny": {
+      "facts": 16,
+      "events": 2,
+      "ios": 2
+    },
+    "src-eurostat-agri": {
+      "facts": 5,
+      "events": 2,
+      "ios": 2
+    },
+    "src-ecb-stat": {
+      "facts": 150,
+      "events": 4,
+      "ios": 4
+    },
+    "src-boj": {
+      "pdf_binary": 1,
+      "facts": 6,
+      "events": 1,
+      "ios": 1
+    },
+    "src-bank-tanzania": {
+      "pdf_binary": 1
+    },
+    "src-dfsa-uae": {
+      "facts": 2,
+      "events": 1,
+      "ios": 1
+    },
+    "src-defra-carbon-uk": {
+      "facts": 1,
+      "events": 1,
+      "ios": 1
+    },
+    "src-cso-ireland": {
+      "facts": 76,
+      "events": 3,
+      "ios": 3
+    },
+    "src-treasurydirect-us": {
+      "facts": 11,
+      "events": 1,
+      "ios": 1
+    },
+    "src-cbbh-bosnia": {
+      "facts": 17,
+      "events": 3,
+      "ios": 3
+    }
+  }
+}

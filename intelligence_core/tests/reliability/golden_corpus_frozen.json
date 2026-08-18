@@ -2,7 +2,7 @@
   "io-9e2848265ad5928d": {
     "io_id": "io-9e2848265ad5928d",
     "event_type": "monetary_policy_decision",
-    "frozen_at": "2026-08-18T03:08:57Z",
+    "frozen_at": "2026-08-18T03:35:42Z",
     "io_dict": {
       "io_id": "io-9e2848265ad5928d",
       "version": 1,
@@ -51,7 +51,7 @@
   "io-e57db30de41a9d7e": {
     "io_id": "io-e57db30de41a9d7e",
     "event_type": "monetary_policy_decision",
-    "frozen_at": "2026-08-18T03:08:57Z",
+    "frozen_at": "2026-08-18T03:35:42Z",
     "io_dict": {
       "io_id": "io-e57db30de41a9d7e",
       "version": 1,
@@ -208,7 +208,7 @@
   "io-34acaea89e0d8ab2": {
     "io_id": "io-34acaea89e0d8ab2",
     "event_type": "monetary_policy_decision",
-    "frozen_at": "2026-08-18T03:08:57Z",
+    "frozen_at": "2026-08-18T03:35:42Z",
     "io_dict": {
       "io_id": "io-34acaea89e0d8ab2",
       "version": 1,
@@ -281,7 +281,7 @@
   "io-3be348eb6518bd7f": {
     "io_id": "io-3be348eb6518bd7f",
     "event_type": "monetary_policy_decision",
-    "frozen_at": "2026-08-18T03:08:57Z",
+    "frozen_at": "2026-08-18T03:35:42Z",
     "io_dict": {
       "io_id": "io-3be348eb6518bd7f",
       "version": 1,
@@ -519,7 +519,7 @@
   "io-5fa6076e9c6539fc": {
     "io_id": "io-5fa6076e9c6539fc",
     "event_type": "monetary_policy_decision",
-    "frozen_at": "2026-08-18T03:08:57Z",
+    "frozen_at": "2026-08-18T03:35:42Z",
     "io_dict": {
       "io_id": "io-5fa6076e9c6539fc",
       "version": 1,
@@ -568,7 +568,7 @@
   "io-f252514d7487e66e": {
     "io_id": "io-f252514d7487e66e",
     "event_type": "monetary_policy_decision",
-    "frozen_at": "2026-08-18T03:08:57Z",
+    "frozen_at": "2026-08-18T03:35:42Z",
     "io_dict": {
       "io_id": "io-f252514d7487e66e",
       "version": 1,
@@ -641,7 +641,7 @@
   "io-099e8da90a8a370d": {
     "io_id": "io-099e8da90a8a370d",
     "event_type": "monetary_policy_decision",
-    "frozen_at": "2026-08-18T03:08:57Z",
+    "frozen_at": "2026-08-18T03:35:42Z",
     "io_dict": {
       "io_id": "io-099e8da90a8a370d",
       "version": 1,
@@ -717,7 +717,7 @@
   "io-256adcc57e30a91c": {
     "io_id": "io-256adcc57e30a91c",
     "event_type": "monetary_policy_decision",
-    "frozen_at": "2026-08-18T03:08:57Z",
+    "frozen_at": "2026-08-18T03:35:42Z",
     "io_dict": {
       "io_id": "io-256adcc57e30a91c",
       "version": 1,
@@ -817,183 +817,10 @@
     "source_id": "src-boc",
     "multi_event": false
   },
-  "io-5f4a24c3e307cc01": {
-    "io_id": "io-5f4a24c3e307cc01",
-    "event_type": "monetary_policy_decision",
-    "frozen_at": "2026-08-18T03:08:57Z",
-    "io_dict": {
-      "io_id": "io-5f4a24c3e307cc01",
-      "version": 1,
-      "event_id": "evt-996c1f05cb224df7",
-      "event_version": 1,
-      "headline": "imp-federal-reserve Monetary Policy Decision",
-      "chain": [
-        {
-          "fact": {
-            "fact_id": "fact-8a50d7dd05357a91",
-            "fact_version": 1,
-            "metric": "policy_rate",
-            "value": "90"
-          },
-          "evidence": [
-            {
-              "evidence_id": "evi-533a91c8f0de04ed",
-              "excerpt": "ual banking organizations. These institutions are owned by depositors rather than shareholders, and more than 90 percent",
-              "representation_id": "rep-a19a4833563df189"
-            }
-          ],
-          "representation": {
-            "representation_id": "rep-a19a4833563df189",
-            "content_sha256": "094b5b592c3b64cf65c26b41249854ddf1c7d182d47c9edb898494b55bd63224"
-          },
-          "document": {
-            "document_id": "doc-c86a43cb997c9911",
-            "canonical_url": "https://www.federalreserve.gov/newsevents/pressreleases/bcreg20260731a.htm"
-          },
-          "source": {
-            "source_id": "imp-federal-reserve",
-            "institution_id": "INST-imp-federal-reserve"
-          }
-        }
-      ],
-      "created_at": "",
-      "event_type": "monetary_policy_decision",
-      "temporal_data": {
-        "temporal_tuples": [
-          {
-            "original_value": "Fri, 31 Jul 2026 14:00:00 GMT",
-            "timezone_status": "EXPLICIT_ZONE",
-            "normalized_utc": "2026-07-31T14:00:00Z",
-            "normalization_basis": "EXPLICIT_SOURCE_TIMEZONE",
-            "timestamp_semantics": "publication",
-            "provenance_source": "rss_pubdate"
-          }
-        ],
-        "publication_time": "2026-07-31T14:00:00Z",
-        "publication_time_raw": "Fri, 31 Jul 2026 14:00:00 GMT",
-        "publication_timezone_status": "EXPLICIT_ZONE",
-        "publication_normalization_basis": "EXPLICIT_SOURCE_TIMEZONE",
-        "publication_timestamp_semantics": "publication",
-        "publication_provenance_source": "rss_pubdate",
-        "reference_period": null,
-        "reference_period_normalized_utc": null,
-        "reference_period_raw": null,
-        "reference_period_timezone_status": null,
-        "reference_period_normalization_basis": null,
-        "reference_period_timestamp_semantics": null,
-        "reference_period_provenance_source": null
-      },
-      "status": "ACTIVE",
-      "supersedes_io_id": null
-    },
-    "etag": "W/\"52b9089217de22c7\"",
-    "source_id": "imp-federal-reserve",
-    "multi_event": false
-  },
-  "io-68aeb1a370c256a6": {
-    "io_id": "io-68aeb1a370c256a6",
-    "event_type": "monetary_policy_decision",
-    "frozen_at": "2026-08-18T03:08:57Z",
-    "io_dict": {
-      "io_id": "io-68aeb1a370c256a6",
-      "version": 1,
-      "event_id": "evt-e2752a4f85fed5f7",
-      "event_version": 1,
-      "headline": "imp-federal-reserve Monetary Policy Decision",
-      "chain": [
-        {
-          "fact": {
-            "fact_id": "fact-38d412e33d2cd0c2",
-            "fact_version": 1,
-            "metric": "policy_rate",
-            "value": "4"
-          },
-          "evidence": [
-            {
-              "evidence_id": "evi-220917aa2b5a9aea",
-              "excerpt": "y a 9 \u2013 3 vote: The Committee decided to maintain the target range for the federal funds rate at 3-1/2 to 3-3/4 percent,",
-              "representation_id": "rep-6206ea24c3495344"
-            }
-          ],
-          "representation": {
-            "representation_id": "rep-6206ea24c3495344",
-            "content_sha256": "0beb4fac3cc5dee44823d43c27a5e968c68fdb5bef8cbbb717c3eaf306768c68"
-          },
-          "document": {
-            "document_id": "doc-e290aabba3caad80",
-            "canonical_url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260729a.htm"
-          },
-          "source": {
-            "source_id": "imp-federal-reserve",
-            "institution_id": "INST-imp-federal-reserve"
-          }
-        },
-        {
-          "fact": {
-            "fact_id": "fact-e6802470dc6dd44e",
-            "fact_version": 1,
-            "metric": "policy_rate",
-            "value": "2"
-          },
-          "evidence": [
-            {
-              "evidence_id": "evi-f9c2d2952e30eb22",
-              "excerpt": "rkforce, and the unemployment rate has changed little. Inflation remains elevated relative to the Committee's 2 percent ",
-              "representation_id": "rep-6206ea24c3495344"
-            }
-          ],
-          "representation": {
-            "representation_id": "rep-6206ea24c3495344",
-            "content_sha256": "0beb4fac3cc5dee44823d43c27a5e968c68fdb5bef8cbbb717c3eaf306768c68"
-          },
-          "document": {
-            "document_id": "doc-e290aabba3caad80",
-            "canonical_url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260729a.htm"
-          },
-          "source": {
-            "source_id": "imp-federal-reserve",
-            "institution_id": "INST-imp-federal-reserve"
-          }
-        }
-      ],
-      "created_at": "",
-      "event_type": "monetary_policy_decision",
-      "temporal_data": {
-        "temporal_tuples": [
-          {
-            "original_value": "Wed, 29 Jul 2026 18:00:00 GMT",
-            "timezone_status": "EXPLICIT_ZONE",
-            "normalized_utc": "2026-07-29T18:00:00Z",
-            "normalization_basis": "EXPLICIT_SOURCE_TIMEZONE",
-            "timestamp_semantics": "publication",
-            "provenance_source": "rss_pubdate"
-          }
-        ],
-        "publication_time": "2026-07-29T18:00:00Z",
-        "publication_time_raw": "Wed, 29 Jul 2026 18:00:00 GMT",
-        "publication_timezone_status": "EXPLICIT_ZONE",
-        "publication_normalization_basis": "EXPLICIT_SOURCE_TIMEZONE",
-        "publication_timestamp_semantics": "publication",
-        "publication_provenance_source": "rss_pubdate",
-        "reference_period": null,
-        "reference_period_normalized_utc": null,
-        "reference_period_raw": null,
-        "reference_period_timezone_status": null,
-        "reference_period_normalization_basis": null,
-        "reference_period_timestamp_semantics": null,
-        "reference_period_provenance_source": null
-      },
-      "status": "ACTIVE",
-      "supersedes_io_id": null
-    },
-    "etag": "W/\"b5e7ef89ac59c3dc\"",
-    "source_id": "imp-federal-reserve",
-    "multi_event": false
-  },
   "io-be817f73577ff8e1": {
     "io_id": "io-be817f73577ff8e1",
     "event_type": "statistical_release",
-    "frozen_at": "2026-08-18T03:08:57Z",
+    "frozen_at": "2026-08-18T03:35:42Z",
     "io_dict": {
       "io_id": "io-be817f73577ff8e1",
       "version": 1,
@@ -1201,7 +1028,7 @@
   "io-dcf76f5a97a74c3e": {
     "io_id": "io-dcf76f5a97a74c3e",
     "event_type": "statistical_release",
-    "frozen_at": "2026-08-18T03:08:57Z",
+    "frozen_at": "2026-08-18T03:35:42Z",
     "io_dict": {
       "io_id": "io-dcf76f5a97a74c3e",
       "version": 1,
@@ -1439,7 +1266,7 @@
   "io-a5963d0fb0a8b10d": {
     "io_id": "io-a5963d0fb0a8b10d",
     "event_type": "statistical_release",
-    "frozen_at": "2026-08-18T03:08:57Z",
+    "frozen_at": "2026-08-18T03:35:42Z",
     "io_dict": {
       "io_id": "io-a5963d0fb0a8b10d",
       "version": 1,
@@ -1596,7 +1423,7 @@
   "io-abed2ad81fcd4f55": {
     "io_id": "io-abed2ad81fcd4f55",
     "event_type": "statistical_release",
-    "frozen_at": "2026-08-18T03:08:57Z",
+    "frozen_at": "2026-08-18T03:35:42Z",
     "io_dict": {
       "io_id": "io-abed2ad81fcd4f55",
       "version": 1,
@@ -2266,7 +2093,7 @@
   "io-f3750c8c05f9b04c": {
     "io_id": "io-f3750c8c05f9b04c",
     "event_type": "statistical_release",
-    "frozen_at": "2026-08-18T03:08:57Z",
+    "frozen_at": "2026-08-18T03:35:42Z",
     "io_dict": {
       "io_id": "io-f3750c8c05f9b04c",
       "version": 1,
@@ -2339,7 +2166,7 @@
   "io-42a1a68e297feffb": {
     "io_id": "io-42a1a68e297feffb",
     "event_type": "statistical_release",
-    "frozen_at": "2026-08-18T03:08:57Z",
+    "frozen_at": "2026-08-18T03:35:42Z",
     "io_dict": {
       "io_id": "io-42a1a68e297feffb",
       "version": 1,
@@ -2412,7 +2239,7 @@
   "io-f92aa209b5d5c885": {
     "io_id": "io-f92aa209b5d5c885",
     "event_type": "statistical_release",
-    "frozen_at": "2026-08-18T03:08:57Z",
+    "frozen_at": "2026-08-18T03:35:42Z",
     "io_dict": {
       "io_id": "io-f92aa209b5d5c885",
       "version": 1,
@@ -2971,7 +2798,7 @@
   "io-c6c8ac878a439394": {
     "io_id": "io-c6c8ac878a439394",
     "event_type": "statistical_release",
-    "frozen_at": "2026-08-18T03:08:57Z",
+    "frozen_at": "2026-08-18T03:35:42Z",
     "io_dict": {
       "io_id": "io-c6c8ac878a439394",
       "version": 1,
@@ -3044,7 +2871,7 @@
   "io-43450fbfbd3f5f48": {
     "io_id": "io-43450fbfbd3f5f48",
     "event_type": "statistical_release",
-    "frozen_at": "2026-08-18T03:08:57Z",
+    "frozen_at": "2026-08-18T03:35:42Z",
     "io_dict": {
       "io_id": "io-43450fbfbd3f5f48",
       "version": 1,
@@ -3117,7 +2944,7 @@
   "io-a27ee61aa6026a13": {
     "io_id": "io-a27ee61aa6026a13",
     "event_type": "statistical_release",
-    "frozen_at": "2026-08-18T03:08:57Z",
+    "frozen_at": "2026-08-18T03:35:42Z",
     "io_dict": {
       "io_id": "io-a27ee61aa6026a13",
       "version": 1,
@@ -3244,7 +3071,7 @@
   "io-0f57ee23f994dd09": {
     "io_id": "io-0f57ee23f994dd09",
     "event_type": "statistical_release",
-    "frozen_at": "2026-08-18T03:08:57Z",
+    "frozen_at": "2026-08-18T03:35:42Z",
     "io_dict": {
       "io_id": "io-0f57ee23f994dd09",
       "version": 1,
@@ -3725,7 +3552,7 @@
   "io-5374d45575bb9c06": {
     "io_id": "io-5374d45575bb9c06",
     "event_type": "statistical_release",
-    "frozen_at": "2026-08-18T03:08:57Z",
+    "frozen_at": "2026-08-18T03:35:42Z",
     "io_dict": {
       "io_id": "io-5374d45575bb9c06",
       "version": 1,
@@ -3963,7 +3790,7 @@
   "io-f803af6f431d9f8a": {
     "io_id": "io-f803af6f431d9f8a",
     "event_type": "statistical_release",
-    "frozen_at": "2026-08-18T03:08:57Z",
+    "frozen_at": "2026-08-18T03:35:42Z",
     "io_dict": {
       "io_id": "io-f803af6f431d9f8a",
       "version": 1,
@@ -4363,7 +4190,7 @@
   "io-877cfaba4b9dc235": {
     "io_id": "io-877cfaba4b9dc235",
     "event_type": "statistical_release",
-    "frozen_at": "2026-08-18T03:08:57Z",
+    "frozen_at": "2026-08-18T03:35:42Z",
     "io_dict": {
       "io_id": "io-877cfaba4b9dc235",
       "version": 1,
@@ -4412,7 +4239,7 @@
   "io-e8c9109c25a423dd": {
     "io_id": "io-e8c9109c25a423dd",
     "event_type": "statistical_release",
-    "frozen_at": "2026-08-18T03:08:57Z",
+    "frozen_at": "2026-08-18T03:35:42Z",
     "io_dict": {
       "io_id": "io-e8c9109c25a423dd",
       "version": 1,
@@ -4488,7 +4315,7 @@
   "io-1ca8a75ee22968f7": {
     "io_id": "io-1ca8a75ee22968f7",
     "event_type": "regulatory_enforcement",
-    "frozen_at": "2026-08-18T03:08:57Z",
+    "frozen_at": "2026-08-18T03:35:42Z",
     "io_dict": {
       "io_id": "io-1ca8a75ee22968f7",
       "version": 1,
@@ -4669,7 +4496,7 @@
   "io-86eb51402109b465": {
     "io_id": "io-86eb51402109b465",
     "event_type": "regulatory_enforcement",
-    "frozen_at": "2026-08-18T03:08:57Z",
+    "frozen_at": "2026-08-18T03:35:42Z",
     "io_dict": {
       "io_id": "io-86eb51402109b465",
       "version": 1,
@@ -4904,7 +4731,7 @@
   "io-7fb679b134aeabb3": {
     "io_id": "io-7fb679b134aeabb3",
     "event_type": "regulatory_enforcement",
-    "frozen_at": "2026-08-18T03:08:57Z",
+    "frozen_at": "2026-08-18T03:35:42Z",
     "io_dict": {
       "io_id": "io-7fb679b134aeabb3",
       "version": 1,
@@ -5058,7 +4885,7 @@
   "io-732c2593f8322d3e": {
     "io_id": "io-732c2593f8322d3e",
     "event_type": "regulatory_enforcement",
-    "frozen_at": "2026-08-18T03:08:57Z",
+    "frozen_at": "2026-08-18T03:35:42Z",
     "io_dict": {
       "io_id": "io-732c2593f8322d3e",
       "version": 1,
@@ -5185,7 +5012,7 @@
   "io-1dad53e489db8113": {
     "io_id": "io-1dad53e489db8113",
     "event_type": "regulatory_enforcement",
-    "frozen_at": "2026-08-18T03:08:57Z",
+    "frozen_at": "2026-08-18T03:35:42Z",
     "io_dict": {
       "io_id": "io-1dad53e489db8113",
       "version": 1,
@@ -5339,7 +5166,7 @@
   "io-e7f1ab14fa41db16": {
     "io_id": "io-e7f1ab14fa41db16",
     "event_type": "regulatory_enforcement",
-    "frozen_at": "2026-08-18T03:08:57Z",
+    "frozen_at": "2026-08-18T03:35:42Z",
     "io_dict": {
       "io_id": "io-e7f1ab14fa41db16",
       "version": 1,
@@ -5415,7 +5242,7 @@
   "io-06e3082b313fcdc5": {
     "io_id": "io-06e3082b313fcdc5",
     "event_type": "regulatory_enforcement",
-    "frozen_at": "2026-08-18T03:08:57Z",
+    "frozen_at": "2026-08-18T03:35:42Z",
     "io_dict": {
       "io_id": "io-06e3082b313fcdc5",
       "version": 1,
@@ -5488,113 +5315,10 @@
     "source_id": "src-dfsa-uae",
     "multi_event": false
   },
-  "io-43d4e65609c4843a": {
-    "io_id": "io-43d4e65609c4843a",
-    "event_type": "regulatory_enforcement",
-    "frozen_at": "2026-08-18T03:08:57Z",
-    "io_dict": {
-      "io_id": "io-43d4e65609c4843a",
-      "version": 1,
-      "event_id": "evt-94e19e72cfba19a9",
-      "event_version": 1,
-      "headline": "imp-fca Regulatory Enforcement Action",
-      "chain": [
-        {
-          "fact": {
-            "fact_id": "fact-e54f1e0bf5a4c596",
-            "fact_version": 1,
-            "metric": "action_type",
-            "value": "charged"
-          },
-          "evidence": [
-            {
-              "evidence_id": "evi-a478743d43697d44",
-              "excerpt": "Trial date set for individual charged with illegal promotions | FCA Skip to m",
-              "representation_id": "rep-0859a0283806d547"
-            }
-          ],
-          "representation": {
-            "representation_id": "rep-0859a0283806d547",
-            "content_sha256": "8566441c23ee5acdfb897dc06a15f2d4cdc058f963b9c597d123f6b94b5a8a39"
-          },
-          "document": {
-            "document_id": "doc-cb697730df7bfe66",
-            "canonical_url": "https://www.fca.org.uk/news/press-releases/trial-date-set-individual-charged-illegal-promotions"
-          },
-          "source": {
-            "source_id": "imp-fca",
-            "institution_id": "INST-imp-fca"
-          }
-        },
-        {
-          "fact": {
-            "fact_id": "fact-bc63c452331120d9",
-            "fact_version": 1,
-            "metric": "action_type",
-            "value": "charged"
-          },
-          "evidence": [
-            {
-              "evidence_id": "evi-16f66bf207b864ab",
-              "excerpt": "eadlines for giving feedback. Respond to our consultations Close menu Home News Trial date set for individual charged wi",
-              "representation_id": "rep-0859a0283806d547"
-            }
-          ],
-          "representation": {
-            "representation_id": "rep-0859a0283806d547",
-            "content_sha256": "8566441c23ee5acdfb897dc06a15f2d4cdc058f963b9c597d123f6b94b5a8a39"
-          },
-          "document": {
-            "document_id": "doc-cb697730df7bfe66",
-            "canonical_url": "https://www.fca.org.uk/news/press-releases/trial-date-set-individual-charged-illegal-promotions"
-          },
-          "source": {
-            "source_id": "imp-fca",
-            "institution_id": "INST-imp-fca"
-          }
-        },
-        {
-          "fact": {
-            "fact_id": "fact-e45bb596d9d969f1",
-            "fact_version": 1,
-            "metric": "action_type",
-            "value": "charged"
-          },
-          "evidence": [
-            {
-              "evidence_id": "evi-364b0920fdd71604",
-              "excerpt": "se menu Home News Trial date set for individual charged with illegal promotions Trial date set for individual charged wi",
-              "representation_id": "rep-0859a0283806d547"
-            }
-          ],
-          "representation": {
-            "representation_id": "rep-0859a0283806d547",
-            "content_sha256": "8566441c23ee5acdfb897dc06a15f2d4cdc058f963b9c597d123f6b94b5a8a39"
-          },
-          "document": {
-            "document_id": "doc-cb697730df7bfe66",
-            "canonical_url": "https://www.fca.org.uk/news/press-releases/trial-date-set-individual-charged-illegal-promotions"
-          },
-          "source": {
-            "source_id": "imp-fca",
-            "institution_id": "INST-imp-fca"
-          }
-        }
-      ],
-      "created_at": "",
-      "event_type": "regulatory_enforcement",
-      "temporal_data": null,
-      "status": "ACTIVE",
-      "supersedes_io_id": null
-    },
-    "etag": "W/\"2ab247032d8558c1\"",
-    "source_id": "imp-fca",
-    "multi_event": false
-  },
   "io-03f54ef461c06001": {
     "io_id": "io-03f54ef461c06001",
     "event_type": "statistical_release",
-    "frozen_at": "2026-08-18T03:08:57Z",
+    "frozen_at": "2026-08-18T03:35:42Z",
     "io_dict": {
       "io_id": "io-03f54ef461c06001",
       "version": 1,
@@ -5697,7 +5421,7 @@
   "io-0db41fde8c803040": {
     "io_id": "io-0db41fde8c803040",
     "event_type": "statistical_release",
-    "frozen_at": "2026-08-18T03:08:57Z",
+    "frozen_at": "2026-08-18T03:35:42Z",
     "io_dict": {
       "io_id": "io-0db41fde8c803040",
       "version": 1,
@@ -8254,7 +7978,7 @@
   "io-8203734e329b78da": {
     "io_id": "io-8203734e329b78da",
     "event_type": "statistical_release",
-    "frozen_at": "2026-08-18T03:08:57Z",
+    "frozen_at": "2026-08-18T03:35:42Z",
     "io_dict": {
       "io_id": "io-8203734e329b78da",
       "version": 1,
@@ -8543,7 +8267,7 @@
   "io-09189d018d2081b4": {
     "io_id": "io-09189d018d2081b4",
     "event_type": "statistical_release",
-    "frozen_at": "2026-08-18T03:08:57Z",
+    "frozen_at": "2026-08-18T03:35:42Z",
     "io_dict": {
       "io_id": "io-09189d018d2081b4",
       "version": 1,
@@ -8859,7 +8583,7 @@
   "io-6e897d602140277f": {
     "io_id": "io-6e897d602140277f",
     "event_type": "statistical_release",
-    "frozen_at": "2026-08-18T03:08:57Z",
+    "frozen_at": "2026-08-18T03:35:42Z",
     "io_dict": {
       "io_id": "io-6e897d602140277f",
       "version": 1,
@@ -9256,7 +8980,7 @@
   "io-8fa184904578eae6": {
     "io_id": "io-8fa184904578eae6",
     "event_type": "statistical_release",
-    "frozen_at": "2026-08-18T03:08:57Z",
+    "frozen_at": "2026-08-18T03:35:42Z",
     "io_dict": {
       "io_id": "io-8fa184904578eae6",
       "version": 1,
@@ -10004,7 +9728,7 @@
   "io-9304252516f5b4a0": {
     "io_id": "io-9304252516f5b4a0",
     "event_type": "statistical_release",
-    "frozen_at": "2026-08-18T03:08:57Z",
+    "frozen_at": "2026-08-18T03:35:42Z",
     "io_dict": {
       "io_id": "io-9304252516f5b4a0",
       "version": 1,
@@ -10833,7 +10557,7 @@
   "io-0873c447e9b9733c": {
     "io_id": "io-0873c447e9b9733c",
     "event_type": "statistical_release",
-    "frozen_at": "2026-08-18T03:08:57Z",
+    "frozen_at": "2026-08-18T03:35:42Z",
     "io_dict": {
       "io_id": "io-0873c447e9b9733c",
       "version": 1,
@@ -11176,7 +10900,7 @@
   "io-ca43d858fe433433": {
     "io_id": "io-ca43d858fe433433",
     "event_type": "statistical_release",
-    "frozen_at": "2026-08-18T03:08:57Z",
+    "frozen_at": "2026-08-18T03:35:42Z",
     "io_dict": {
       "io_id": "io-ca43d858fe433433",
       "version": 1,
@@ -11735,7 +11459,7 @@
   "io-82bd93037aae3793": {
     "io_id": "io-82bd93037aae3793",
     "event_type": "statistical_release",
-    "frozen_at": "2026-08-18T03:08:57Z",
+    "frozen_at": "2026-08-18T03:35:42Z",
     "io_dict": {
       "io_id": "io-82bd93037aae3793",
       "version": 1,
@@ -12564,7 +12288,7 @@
   "io-7e619d8c238339cc": {
     "io_id": "io-7e619d8c238339cc",
     "event_type": "statistical_release",
-    "frozen_at": "2026-08-18T03:08:57Z",
+    "frozen_at": "2026-08-18T03:35:42Z",
     "io_dict": {
       "io_id": "io-7e619d8c238339cc",
       "version": 1,
@@ -12637,7 +12361,7 @@
   "io-d4c7af5cba135595": {
     "io_id": "io-d4c7af5cba135595",
     "event_type": "statistical_release",
-    "frozen_at": "2026-08-18T03:08:57Z",
+    "frozen_at": "2026-08-18T03:35:42Z",
     "io_dict": {
       "io_id": "io-d4c7af5cba135595",
       "version": 1,
@@ -13142,7 +12866,7 @@
   "io-dd7f1db542d212a3": {
     "io_id": "io-dd7f1db542d212a3",
     "event_type": "statistical_release",
-    "frozen_at": "2026-08-18T03:08:57Z",
+    "frozen_at": "2026-08-18T03:35:42Z",
     "io_dict": {
       "io_id": "io-dd7f1db542d212a3",
       "version": 1,
@@ -13809,7 +13533,7 @@
   "io-34e78b9a8798dc7a": {
     "io_id": "io-34e78b9a8798dc7a",
     "event_type": "statistical_release",
-    "frozen_at": "2026-08-18T03:08:57Z",
+    "frozen_at": "2026-08-18T03:35:42Z",
     "io_dict": {
       "io_id": "io-34e78b9a8798dc7a",
       "version": 1,
@@ -14071,7 +13795,7 @@
   "io-9701ebc40db3ea9b": {
     "io_id": "io-9701ebc40db3ea9b",
     "event_type": "statistical_release",
-    "frozen_at": "2026-08-18T03:08:57Z",
+    "frozen_at": "2026-08-18T03:35:42Z",
     "io_dict": {
       "io_id": "io-9701ebc40db3ea9b",
       "version": 1,
@@ -14144,7 +13868,7 @@
   "io-e360d9bc9e0d2c0c": {
     "io_id": "io-e360d9bc9e0d2c0c",
     "event_type": "statistical_release",
-    "frozen_at": "2026-08-18T03:08:57Z",
+    "frozen_at": "2026-08-18T03:35:42Z",
     "io_dict": {
       "io_id": "io-e360d9bc9e0d2c0c",
       "version": 1,
@@ -14973,7 +14697,7 @@
   "io-35ce3669e1ba2204": {
     "io_id": "io-35ce3669e1ba2204",
     "event_type": "statistical_release",
-    "frozen_at": "2026-08-18T03:08:57Z",
+    "frozen_at": "2026-08-18T03:35:42Z",
     "io_dict": {
       "io_id": "io-35ce3669e1ba2204",
       "version": 1,
@@ -15472,6 +15196,1494 @@
       "supersedes_io_id": null
     },
     "etag": "W/\"7a5d78251d7911db\"",
+    "source_id": "imp-bea",
+    "multi_event": false
+  },
+  "io-9513f96cb044270e": {
+    "io_id": "io-9513f96cb044270e",
+    "event_type": "statistical_release",
+    "frozen_at": "2026-08-18T03:35:42Z",
+    "io_dict": {
+      "io_id": "io-9513f96cb044270e",
+      "version": 1,
+      "event_id": "evt-ebd9943f624435b3",
+      "event_version": 1,
+      "headline": "imp-ecb Statistical Release",
+      "chain": [
+        {
+          "fact": {
+            "fact_id": "fact-6d3f01c854d4312d",
+            "fact_version": 1,
+            "metric": "percentage_statistic",
+            "value": "6.2"
+          },
+          "evidence": [
+            {
+              "evidence_id": "evi-4d4bd66e8c242c90",
+              "excerpt": "Unemployment stood at 6.2% in May, close to historical lows.",
+              "representation_id": "rep-212f7d303b574399"
+            }
+          ],
+          "representation": {
+            "representation_id": "rep-212f7d303b574399",
+            "content_sha256": "99cfe84363cd3e19863712b5e37ded0128b9bcb0b455476d27f8e0710c75d36c"
+          },
+          "document": {
+            "document_id": "doc-62fb79276d16635a",
+            "canonical_url": "https://www.ecb.europa.eu//press/press_conference/monetary-policy-statement/2026/html/ecb.is260723~b6fadd48f4.en.html"
+          },
+          "source": {
+            "source_id": "imp-ecb",
+            "institution_id": "INST-imp-ecb"
+          }
+        },
+        {
+          "fact": {
+            "fact_id": "fact-f0de1c49481773d9",
+            "fact_version": 1,
+            "metric": "percentage_statistic",
+            "value": "0.3"
+          },
+          "evidence": [
+            {
+              "evidence_id": "evi-d74792c348f36d4c",
+              "excerpt": "You look at inflation, which came out much lower than anticipated: 2.8 versus 3.3 [ 1 ] , a difference relative to our a",
+              "representation_id": "rep-212f7d303b574399"
+            }
+          ],
+          "representation": {
+            "representation_id": "rep-212f7d303b574399",
+            "content_sha256": "99cfe84363cd3e19863712b5e37ded0128b9bcb0b455476d27f8e0710c75d36c"
+          },
+          "document": {
+            "document_id": "doc-62fb79276d16635a",
+            "canonical_url": "https://www.ecb.europa.eu//press/press_conference/monetary-policy-statement/2026/html/ecb.is260723~b6fadd48f4.en.html"
+          },
+          "source": {
+            "source_id": "imp-ecb",
+            "institution_id": "INST-imp-ecb"
+          }
+        }
+      ],
+      "created_at": "",
+      "event_type": "statistical_release",
+      "temporal_data": {
+        "temporal_tuples": [
+          {
+            "original_value": "Thu, 23 Jul 2026 15:00:00 +0200",
+            "timezone_status": "EXPLICIT_OFFSET",
+            "normalized_utc": "2026-07-23T13:00:00Z",
+            "normalization_basis": "EXPLICIT_SOURCE_TIMEZONE",
+            "timestamp_semantics": "publication",
+            "provenance_source": "rss_pubdate"
+          }
+        ],
+        "publication_time": "2026-07-23T13:00:00Z",
+        "publication_time_raw": "Thu, 23 Jul 2026 15:00:00 +0200",
+        "publication_timezone_status": "EXPLICIT_OFFSET",
+        "publication_normalization_basis": "EXPLICIT_SOURCE_TIMEZONE",
+        "publication_timestamp_semantics": "publication",
+        "publication_provenance_source": "rss_pubdate",
+        "reference_period": null,
+        "reference_period_normalized_utc": null,
+        "reference_period_raw": null,
+        "reference_period_timezone_status": null,
+        "reference_period_normalization_basis": null,
+        "reference_period_timestamp_semantics": null,
+        "reference_period_provenance_source": null
+      },
+      "status": "ACTIVE",
+      "supersedes_io_id": null
+    },
+    "etag": "W/\"54e650b70476658b\"",
+    "source_id": "imp-ecb",
+    "multi_event": false
+  },
+  "io-0eb15c9170ee2b98": {
+    "io_id": "io-0eb15c9170ee2b98",
+    "event_type": "statistical_release",
+    "frozen_at": "2026-08-18T03:35:42Z",
+    "io_dict": {
+      "io_id": "io-0eb15c9170ee2b98",
+      "version": 1,
+      "event_id": "evt-2f41ebca4c5df1cd",
+      "event_version": 1,
+      "headline": "imp-bea Statistical Release",
+      "chain": [
+        {
+          "fact": {
+            "fact_id": "fact-eac4a9a13a49ad75",
+            "fact_version": 1,
+            "metric": "usd_amount",
+            "value": "22.8"
+          },
+          "evidence": [
+            {
+              "evidence_id": "evi-e9ae1880312fef08",
+              "excerpt": "EST, Wednesday, January 14, 2026 BEA 26\u201302 U.S. International Transactions, 3rd Quarter 2025 Current-Account Balance (Ta",
+              "representation_id": "rep-ca47b3fda5a08bbf"
+            }
+          ],
+          "representation": {
+            "representation_id": "rep-ca47b3fda5a08bbf",
+            "content_sha256": "94742ec717f8aa4af01016ca36e433410f3bb4aea3429bcadf67a3cae2772d73"
+          },
+          "document": {
+            "document_id": "doc-c412f0b51dd2d4f7",
+            "canonical_url": "https://www.bea.gov/news/2026/us-international-transactions-3rd-quarter-2025"
+          },
+          "source": {
+            "source_id": "imp-bea",
+            "institution_id": "INST-imp-bea"
+          }
+        },
+        {
+          "fact": {
+            "fact_id": "fact-ced09dbce2cf82a3",
+            "fact_version": 1,
+            "metric": "usd_amount",
+            "value": "226.4"
+          },
+          "evidence": [
+            {
+              "evidence_id": "evi-c7b977fc266de7cd",
+              "excerpt": "EST, Wednesday, January 14, 2026 BEA 26\u201302 U.S. International Transactions, 3rd Quarter 2025 Current-Account Balance (Ta",
+              "representation_id": "rep-ca47b3fda5a08bbf"
+            }
+          ],
+          "representation": {
+            "representation_id": "rep-ca47b3fda5a08bbf",
+            "content_sha256": "94742ec717f8aa4af01016ca36e433410f3bb4aea3429bcadf67a3cae2772d73"
+          },
+          "document": {
+            "document_id": "doc-c412f0b51dd2d4f7",
+            "canonical_url": "https://www.bea.gov/news/2026/us-international-transactions-3rd-quarter-2025"
+          },
+          "source": {
+            "source_id": "imp-bea",
+            "institution_id": "INST-imp-bea"
+          }
+        },
+        {
+          "fact": {
+            "fact_id": "fact-6a4b2ee4ee686cf2",
+            "fact_version": 1,
+            "metric": "usd_amount",
+            "value": "249.2"
+          },
+          "evidence": [
+            {
+              "evidence_id": "evi-3833e0a62a6f4798",
+              "excerpt": "Bureau of Economic Analysis. The revised second-quarter deficit was $249.2 billion. The third-quarter deficit was 2.9 pe",
+              "representation_id": "rep-ca47b3fda5a08bbf"
+            }
+          ],
+          "representation": {
+            "representation_id": "rep-ca47b3fda5a08bbf",
+            "content_sha256": "94742ec717f8aa4af01016ca36e433410f3bb4aea3429bcadf67a3cae2772d73"
+          },
+          "document": {
+            "document_id": "doc-c412f0b51dd2d4f7",
+            "canonical_url": "https://www.bea.gov/news/2026/us-international-transactions-3rd-quarter-2025"
+          },
+          "source": {
+            "source_id": "imp-bea",
+            "institution_id": "INST-imp-bea"
+          }
+        },
+        {
+          "fact": {
+            "fact_id": "fact-ce5efc0404bd5e13",
+            "fact_version": 1,
+            "metric": "usd_amount",
+            "value": "22.8"
+          },
+          "evidence": [
+            {
+              "evidence_id": "evi-fb4d9a1d320fc788",
+              "excerpt": "The third-quarter deficit was 2.9 percent of current-dollar gross domestic product, down from 3.3 percent in the second ",
+              "representation_id": "rep-ca47b3fda5a08bbf"
+            }
+          ],
+          "representation": {
+            "representation_id": "rep-ca47b3fda5a08bbf",
+            "content_sha256": "94742ec717f8aa4af01016ca36e433410f3bb4aea3429bcadf67a3cae2772d73"
+          },
+          "document": {
+            "document_id": "doc-c412f0b51dd2d4f7",
+            "canonical_url": "https://www.bea.gov/news/2026/us-international-transactions-3rd-quarter-2025"
+          },
+          "source": {
+            "source_id": "imp-bea",
+            "institution_id": "INST-imp-bea"
+          }
+        },
+        {
+          "fact": {
+            "fact_id": "fact-146a04472596d987",
+            "fact_version": 1,
+            "metric": "usd_amount",
+            "value": "24.1"
+          },
+          "evidence": [
+            {
+              "evidence_id": "evi-f83db9d1818b7657",
+              "excerpt": "The $22.8 billion narrowing of the current-account deficit in the third quarter reflected a shift in the balance on prim",
+              "representation_id": "rep-ca47b3fda5a08bbf"
+            }
+          ],
+          "representation": {
+            "representation_id": "rep-ca47b3fda5a08bbf",
+            "content_sha256": "94742ec717f8aa4af01016ca36e433410f3bb4aea3429bcadf67a3cae2772d73"
+          },
+          "document": {
+            "document_id": "doc-c412f0b51dd2d4f7",
+            "canonical_url": "https://www.bea.gov/news/2026/us-international-transactions-3rd-quarter-2025"
+          },
+          "source": {
+            "source_id": "imp-bea",
+            "institution_id": "INST-imp-bea"
+          }
+        },
+        {
+          "fact": {
+            "fact_id": "fact-446188976d6bc0b8",
+            "fact_version": 1,
+            "metric": "usd_amount",
+            "value": "1.30"
+          },
+          "evidence": [
+            {
+              "evidence_id": "evi-483f08649ac74da7",
+              "excerpt": "The $22.8 billion narrowing of the current-account deficit in the third quarter reflected a shift in the balance on prim",
+              "representation_id": "rep-ca47b3fda5a08bbf"
+            }
+          ],
+          "representation": {
+            "representation_id": "rep-ca47b3fda5a08bbf",
+            "content_sha256": "94742ec717f8aa4af01016ca36e433410f3bb4aea3429bcadf67a3cae2772d73"
+          },
+          "document": {
+            "document_id": "doc-c412f0b51dd2d4f7",
+            "canonical_url": "https://www.bea.gov/news/2026/us-international-transactions-3rd-quarter-2025"
+          },
+          "source": {
+            "source_id": "imp-bea",
+            "institution_id": "INST-imp-bea"
+          }
+        },
+        {
+          "fact": {
+            "fact_id": "fact-c723a9b7b47afe2f",
+            "fact_version": 1,
+            "metric": "usd_amount",
+            "value": "1.3"
+          },
+          "evidence": [
+            {
+              "evidence_id": "evi-6ed4ca895b9ea49c",
+              "excerpt": "Current-Account Transactions (Tables 1\u20135) Exports of goods and services to, and income received from, foreign residents ",
+              "representation_id": "rep-ca47b3fda5a08bbf"
+            }
+          ],
+          "representation": {
+            "representation_id": "rep-ca47b3fda5a08bbf",
+            "content_sha256": "94742ec717f8aa4af01016ca36e433410f3bb4aea3429bcadf67a3cae2772d73"
+          },
+          "document": {
+            "document_id": "doc-c412f0b51dd2d4f7",
+            "canonical_url": "https://www.bea.gov/news/2026/us-international-transactions-3rd-quarter-2025"
+          },
+          "source": {
+            "source_id": "imp-bea",
+            "institution_id": "INST-imp-bea"
+          }
+        },
+        {
+          "fact": {
+            "fact_id": "fact-fbd65bbb69346fb7",
+            "fact_version": 1,
+            "metric": "usd_amount",
+            "value": "1.53"
+          },
+          "evidence": [
+            {
+              "evidence_id": "evi-60e2c215731e421d",
+              "excerpt": "Current-Account Transactions (Tables 1\u20135) Exports of goods and services to, and income received from, foreign residents ",
+              "representation_id": "rep-ca47b3fda5a08bbf"
+            }
+          ],
+          "representation": {
+            "representation_id": "rep-ca47b3fda5a08bbf",
+            "content_sha256": "94742ec717f8aa4af01016ca36e433410f3bb4aea3429bcadf67a3cae2772d73"
+          },
+          "document": {
+            "document_id": "doc-c412f0b51dd2d4f7",
+            "canonical_url": "https://www.bea.gov/news/2026/us-international-transactions-3rd-quarter-2025"
+          },
+          "source": {
+            "source_id": "imp-bea",
+            "institution_id": "INST-imp-bea"
+          }
+        },
+        {
+          "fact": {
+            "fact_id": "fact-a363d30af3e954a2",
+            "fact_version": 1,
+            "metric": "usd_amount",
+            "value": "1.9"
+          },
+          "evidence": [
+            {
+              "evidence_id": "evi-65dee346d60f5ea9",
+              "excerpt": "Current-Account Transactions (Tables 1\u20135) Exports of goods and services to, and income received from, foreign residents ",
+              "representation_id": "rep-ca47b3fda5a08bbf"
+            }
+          ],
+          "representation": {
+            "representation_id": "rep-ca47b3fda5a08bbf",
+            "content_sha256": "94742ec717f8aa4af01016ca36e433410f3bb4aea3429bcadf67a3cae2772d73"
+          },
+          "document": {
+            "document_id": "doc-c412f0b51dd2d4f7",
+            "canonical_url": "https://www.bea.gov/news/2026/us-international-transactions-3rd-quarter-2025"
+          },
+          "source": {
+            "source_id": "imp-bea",
+            "institution_id": "INST-imp-bea"
+          }
+        },
+        {
+          "fact": {
+            "fact_id": "fact-4dc1120be63a1e29",
+            "fact_version": 1,
+            "metric": "usd_amount",
+            "value": "548.0"
+          },
+          "evidence": [
+            {
+              "evidence_id": "evi-91f49ffc05841efc",
+              "excerpt": "Current-Account Transactions (Tables 1\u20135) Exports of goods and services to, and income received from, foreign residents ",
+              "representation_id": "rep-ca47b3fda5a08bbf"
+            }
+          ],
+          "representation": {
+            "representation_id": "rep-ca47b3fda5a08bbf",
+            "content_sha256": "94742ec717f8aa4af01016ca36e433410f3bb4aea3429bcadf67a3cae2772d73"
+          },
+          "document": {
+            "document_id": "doc-c412f0b51dd2d4f7",
+            "canonical_url": "https://www.bea.gov/news/2026/us-international-transactions-3rd-quarter-2025"
+          },
+          "source": {
+            "source_id": "imp-bea",
+            "institution_id": "INST-imp-bea"
+          }
+        },
+        {
+          "fact": {
+            "fact_id": "fact-71504e937aa93b29",
+            "fact_version": 1,
+            "metric": "usd_amount",
+            "value": "5.0"
+          },
+          "evidence": [
+            {
+              "evidence_id": "evi-1b807d1f51d09e54",
+              "excerpt": "Imports of goods and services from, and income paid to, foreign residents increased $1.3 billion to $1.53 trillion. 1 Tr",
+              "representation_id": "rep-ca47b3fda5a08bbf"
+            }
+          ],
+          "representation": {
+            "representation_id": "rep-ca47b3fda5a08bbf",
+            "content_sha256": "94742ec717f8aa4af01016ca36e433410f3bb4aea3429bcadf67a3cae2772d73"
+          },
+          "document": {
+            "document_id": "doc-c412f0b51dd2d4f7",
+            "canonical_url": "https://www.bea.gov/news/2026/us-international-transactions-3rd-quarter-2025"
+          },
+          "source": {
+            "source_id": "imp-bea",
+            "institution_id": "INST-imp-bea"
+          }
+        },
+        {
+          "fact": {
+            "fact_id": "fact-7e5abe7e43c35865",
+            "fact_version": 1,
+            "metric": "usd_amount",
+            "value": "815.4"
+          },
+          "evidence": [
+            {
+              "evidence_id": "evi-0d94f832ec12a9b0",
+              "excerpt": "Imports of goods and services from, and income paid to, foreign residents increased $1.3 billion to $1.53 trillion. 1 Tr",
+              "representation_id": "rep-ca47b3fda5a08bbf"
+            }
+          ],
+          "representation": {
+            "representation_id": "rep-ca47b3fda5a08bbf",
+            "content_sha256": "94742ec717f8aa4af01016ca36e433410f3bb4aea3429bcadf67a3cae2772d73"
+          },
+          "document": {
+            "document_id": "doc-c412f0b51dd2d4f7",
+            "canonical_url": "https://www.bea.gov/news/2026/us-international-transactions-3rd-quarter-2025"
+          },
+          "source": {
+            "source_id": "imp-bea",
+            "institution_id": "INST-imp-bea"
+          }
+        },
+        {
+          "fact": {
+            "fact_id": "fact-9e544cc46e84cd56",
+            "fact_version": 1,
+            "metric": "usd_amount",
+            "value": "11.7"
+          },
+          "evidence": [
+            {
+              "evidence_id": "evi-f9e048fde16bb2b0",
+              "excerpt": "Imports of goods and services from, and income paid to, foreign residents increased $1.3 billion to $1.53 trillion. 1 Tr",
+              "representation_id": "rep-ca47b3fda5a08bbf"
+            }
+          ],
+          "representation": {
+            "representation_id": "rep-ca47b3fda5a08bbf",
+            "content_sha256": "94742ec717f8aa4af01016ca36e433410f3bb4aea3429bcadf67a3cae2772d73"
+          },
+          "document": {
+            "document_id": "doc-c412f0b51dd2d4f7",
+            "canonical_url": "https://www.bea.gov/news/2026/us-international-transactions-3rd-quarter-2025"
+          },
+          "source": {
+            "source_id": "imp-bea",
+            "institution_id": "INST-imp-bea"
+          }
+        },
+        {
+          "fact": {
+            "fact_id": "fact-8152150b07df9ef3",
+            "fact_version": 1,
+            "metric": "usd_amount",
+            "value": "314.2"
+          },
+          "evidence": [
+            {
+              "evidence_id": "evi-1e4e062bb097d493",
+              "excerpt": "Imports of goods and services from, and income paid to, foreign residents increased $1.3 billion to $1.53 trillion. 1 Tr",
+              "representation_id": "rep-ca47b3fda5a08bbf"
+            }
+          ],
+          "representation": {
+            "representation_id": "rep-ca47b3fda5a08bbf",
+            "content_sha256": "94742ec717f8aa4af01016ca36e433410f3bb4aea3429bcadf67a3cae2772d73"
+          },
+          "document": {
+            "document_id": "doc-c412f0b51dd2d4f7",
+            "canonical_url": "https://www.bea.gov/news/2026/us-international-transactions-3rd-quarter-2025"
+          },
+          "source": {
+            "source_id": "imp-bea",
+            "institution_id": "INST-imp-bea"
+          }
+        },
+        {
+          "fact": {
+            "fact_id": "fact-874e93552d191a2e",
+            "fact_version": 1,
+            "metric": "usd_amount",
+            "value": "3.1"
+          },
+          "evidence": [
+            {
+              "evidence_id": "evi-b48241fc834d7957",
+              "excerpt": "Imports of goods and services from, and income paid to, foreign residents increased $1.3 billion to $1.53 trillion. 1 Tr",
+              "representation_id": "rep-ca47b3fda5a08bbf"
+            }
+          ],
+          "representation": {
+            "representation_id": "rep-ca47b3fda5a08bbf",
+            "content_sha256": "94742ec717f8aa4af01016ca36e433410f3bb4aea3429bcadf67a3cae2772d73"
+          },
+          "document": {
+            "document_id": "doc-c412f0b51dd2d4f7",
+            "canonical_url": "https://www.bea.gov/news/2026/us-international-transactions-3rd-quarter-2025"
+          },
+          "source": {
+            "source_id": "imp-bea",
+            "institution_id": "INST-imp-bea"
+          }
+        },
+        {
+          "fact": {
+            "fact_id": "fact-6dd29dfa4c68f642",
+            "fact_version": 1,
+            "metric": "usd_amount",
+            "value": "225.0"
+          },
+          "evidence": [
+            {
+              "evidence_id": "evi-8bf69e5436a86c6a",
+              "excerpt": "Imports of goods and services from, and income paid to, foreign residents increased $1.3 billion to $1.53 trillion. 1 Tr",
+              "representation_id": "rep-ca47b3fda5a08bbf"
+            }
+          ],
+          "representation": {
+            "representation_id": "rep-ca47b3fda5a08bbf",
+            "content_sha256": "94742ec717f8aa4af01016ca36e433410f3bb4aea3429bcadf67a3cae2772d73"
+          },
+          "document": {
+            "document_id": "doc-c412f0b51dd2d4f7",
+            "canonical_url": "https://www.bea.gov/news/2026/us-international-transactions-3rd-quarter-2025"
+          },
+          "source": {
+            "source_id": "imp-bea",
+            "institution_id": "INST-imp-bea"
+          }
+        },
+        {
+          "fact": {
+            "fact_id": "fact-e4131e71645b5a43",
+            "fact_version": 1,
+            "metric": "usd_amount",
+            "value": "16.3"
+          },
+          "evidence": [
+            {
+              "evidence_id": "evi-31d4a99e1be6ce42",
+              "excerpt": "The increases in both exports and imports were led by \u201cother business services,\u201d mostly professional and management cons",
+              "representation_id": "rep-ca47b3fda5a08bbf"
+            }
+          ],
+          "representation": {
+            "representation_id": "rep-ca47b3fda5a08bbf",
+            "content_sha256": "94742ec717f8aa4af01016ca36e433410f3bb4aea3429bcadf67a3cae2772d73"
+          },
+          "document": {
+            "document_id": "doc-c412f0b51dd2d4f7",
+            "canonical_url": "https://www.bea.gov/news/2026/us-international-transactions-3rd-quarter-2025"
+          },
+          "source": {
+            "source_id": "imp-bea",
+            "institution_id": "INST-imp-bea"
+          }
+        },
+        {
+          "fact": {
+            "fact_id": "fact-f80f6179f304c374",
+            "fact_version": 1,
+            "metric": "usd_amount",
+            "value": "395.2"
+          },
+          "evidence": [
+            {
+              "evidence_id": "evi-4150244d06c6f689",
+              "excerpt": "The increases in both exports and imports were led by \u201cother business services,\u201d mostly professional and management cons",
+              "representation_id": "rep-ca47b3fda5a08bbf"
+            }
+          ],
+          "representation": {
+            "representation_id": "rep-ca47b3fda5a08bbf",
+            "content_sha256": "94742ec717f8aa4af01016ca36e433410f3bb4aea3429bcadf67a3cae2772d73"
+          },
+          "document": {
+            "document_id": "doc-c412f0b51dd2d4f7",
+            "canonical_url": "https://www.bea.gov/news/2026/us-international-transactions-3rd-quarter-2025"
+          },
+          "source": {
+            "source_id": "imp-bea",
+            "institution_id": "INST-imp-bea"
+          }
+        },
+        {
+          "fact": {
+            "fact_id": "fact-ef861b02a5b1ccf5",
+            "fact_version": 1,
+            "metric": "usd_amount",
+            "value": "5.3"
+          },
+          "evidence": [
+            {
+              "evidence_id": "evi-857da7731d24144a",
+              "excerpt": "The increases were led by direct investment income. Payments of primary income increased $5.3 billion to $390.0 billion,",
+              "representation_id": "rep-ca47b3fda5a08bbf"
+            }
+          ],
+          "representation": {
+            "representation_id": "rep-ca47b3fda5a08bbf",
+            "content_sha256": "94742ec717f8aa4af01016ca36e433410f3bb4aea3429bcadf67a3cae2772d73"
+          },
+          "document": {
+            "document_id": "doc-c412f0b51dd2d4f7",
+            "canonical_url": "https://www.bea.gov/news/2026/us-international-transactions-3rd-quarter-2025"
+          },
+          "source": {
+            "source_id": "imp-bea",
+            "institution_id": "INST-imp-bea"
+          }
+        },
+        {
+          "fact": {
+            "fact_id": "fact-e8ea9e23dc3dcee1",
+            "fact_version": 1,
+            "metric": "usd_amount",
+            "value": "390.0"
+          },
+          "evidence": [
+            {
+              "evidence_id": "evi-58dea33cf62caaeb",
+              "excerpt": "The increases were led by direct investment income. Payments of primary income increased $5.3 billion to $390.0 billion,",
+              "representation_id": "rep-ca47b3fda5a08bbf"
+            }
+          ],
+          "representation": {
+            "representation_id": "rep-ca47b3fda5a08bbf",
+            "content_sha256": "94742ec717f8aa4af01016ca36e433410f3bb4aea3429bcadf67a3cae2772d73"
+          },
+          "document": {
+            "document_id": "doc-c412f0b51dd2d4f7",
+            "canonical_url": "https://www.bea.gov/news/2026/us-international-transactions-3rd-quarter-2025"
+          },
+          "source": {
+            "source_id": "imp-bea",
+            "institution_id": "INST-imp-bea"
+          }
+        },
+        {
+          "fact": {
+            "fact_id": "fact-2b5267af697027e8",
+            "fact_version": 1,
+            "metric": "usd_amount",
+            "value": "2.0"
+          },
+          "evidence": [
+            {
+              "evidence_id": "evi-19c0aaad160eae45",
+              "excerpt": "Payments of primary income increased $5.3 billion to $390.0 billion, mostly reflecting an increase in \u201cother investment ",
+              "representation_id": "rep-ca47b3fda5a08bbf"
+            }
+          ],
+          "representation": {
+            "representation_id": "rep-ca47b3fda5a08bbf",
+            "content_sha256": "94742ec717f8aa4af01016ca36e433410f3bb4aea3429bcadf67a3cae2772d73"
+          },
+          "document": {
+            "document_id": "doc-c412f0b51dd2d4f7",
+            "canonical_url": "https://www.bea.gov/news/2026/us-international-transactions-3rd-quarter-2025"
+          },
+          "source": {
+            "source_id": "imp-bea",
+            "institution_id": "INST-imp-bea"
+          }
+        },
+        {
+          "fact": {
+            "fact_id": "fact-cc80d6a13a9a1270",
+            "fact_version": 1,
+            "metric": "usd_amount",
+            "value": "44.4"
+          },
+          "evidence": [
+            {
+              "evidence_id": "evi-b86c5c596de117d3",
+              "excerpt": "Payments of primary income increased $5.3 billion to $390.0 billion, mostly reflecting an increase in \u201cother investment ",
+              "representation_id": "rep-ca47b3fda5a08bbf"
+            }
+          ],
+          "representation": {
+            "representation_id": "rep-ca47b3fda5a08bbf",
+            "content_sha256": "94742ec717f8aa4af01016ca36e433410f3bb4aea3429bcadf67a3cae2772d73"
+          },
+          "document": {
+            "document_id": "doc-c412f0b51dd2d4f7",
+            "canonical_url": "https://www.bea.gov/news/2026/us-international-transactions-3rd-quarter-2025"
+          },
+          "source": {
+            "source_id": "imp-bea",
+            "institution_id": "INST-imp-bea"
+          }
+        },
+        {
+          "fact": {
+            "fact_id": "fact-44f1bffb67263aea",
+            "fact_version": 1,
+            "metric": "usd_amount",
+            "value": "2.1"
+          },
+          "evidence": [
+            {
+              "evidence_id": "evi-2921f39dcde930e3",
+              "excerpt": "Secondary income (table 5) Receipts of secondary income (current transfers) decreased $2.0 billion to $44.4 billion, ref",
+              "representation_id": "rep-ca47b3fda5a08bbf"
+            }
+          ],
+          "representation": {
+            "representation_id": "rep-ca47b3fda5a08bbf",
+            "content_sha256": "94742ec717f8aa4af01016ca36e433410f3bb4aea3429bcadf67a3cae2772d73"
+          },
+          "document": {
+            "document_id": "doc-c412f0b51dd2d4f7",
+            "canonical_url": "https://www.bea.gov/news/2026/us-international-transactions-3rd-quarter-2025"
+          },
+          "source": {
+            "source_id": "imp-bea",
+            "institution_id": "INST-imp-bea"
+          }
+        },
+        {
+          "fact": {
+            "fact_id": "fact-aa88bdd8f960980d",
+            "fact_version": 1,
+            "metric": "usd_amount",
+            "value": "97.9"
+          },
+          "evidence": [
+            {
+              "evidence_id": "evi-8e795f5114976c65",
+              "excerpt": "Secondary income (table 5) Receipts of secondary income (current transfers) decreased $2.0 billion to $44.4 billion, ref",
+              "representation_id": "rep-ca47b3fda5a08bbf"
+            }
+          ],
+          "representation": {
+            "representation_id": "rep-ca47b3fda5a08bbf",
+            "content_sha256": "94742ec717f8aa4af01016ca36e433410f3bb4aea3429bcadf67a3cae2772d73"
+          },
+          "document": {
+            "document_id": "doc-c412f0b51dd2d4f7",
+            "canonical_url": "https://www.bea.gov/news/2026/us-international-transactions-3rd-quarter-2025"
+          },
+          "source": {
+            "source_id": "imp-bea",
+            "institution_id": "INST-imp-bea"
+          }
+        },
+        {
+          "fact": {
+            "fact_id": "fact-b0cba1f95d97b13d",
+            "fact_version": 1,
+            "metric": "usd_amount",
+            "value": "164"
+          },
+          "evidence": [
+            {
+              "evidence_id": "evi-944382ea95403d65",
+              "excerpt": "Payments of secondary income decreased $2.1 billion to $97.9 billion, reflecting a decrease in general government transf",
+              "representation_id": "rep-ca47b3fda5a08bbf"
+            }
+          ],
+          "representation": {
+            "representation_id": "rep-ca47b3fda5a08bbf",
+            "content_sha256": "94742ec717f8aa4af01016ca36e433410f3bb4aea3429bcadf67a3cae2772d73"
+          },
+          "document": {
+            "document_id": "doc-c412f0b51dd2d4f7",
+            "canonical_url": "https://www.bea.gov/news/2026/us-international-transactions-3rd-quarter-2025"
+          },
+          "source": {
+            "source_id": "imp-bea",
+            "institution_id": "INST-imp-bea"
+          }
+        },
+        {
+          "fact": {
+            "fact_id": "fact-79810e0db5da210a",
+            "fact_version": 1,
+            "metric": "usd_amount",
+            "value": "181"
+          },
+          "evidence": [
+            {
+              "evidence_id": "evi-2acbbe1251d37c3a",
+              "excerpt": "Payments of secondary income decreased $2.1 billion to $97.9 billion, reflecting a decrease in general government transf",
+              "representation_id": "rep-ca47b3fda5a08bbf"
+            }
+          ],
+          "representation": {
+            "representation_id": "rep-ca47b3fda5a08bbf",
+            "content_sha256": "94742ec717f8aa4af01016ca36e433410f3bb4aea3429bcadf67a3cae2772d73"
+          },
+          "document": {
+            "document_id": "doc-c412f0b51dd2d4f7",
+            "canonical_url": "https://www.bea.gov/news/2026/us-international-transactions-3rd-quarter-2025"
+          },
+          "source": {
+            "source_id": "imp-bea",
+            "institution_id": "INST-imp-bea"
+          }
+        },
+        {
+          "fact": {
+            "fact_id": "fact-8376fb6c985ec7c6",
+            "fact_version": 1,
+            "metric": "usd_amount",
+            "value": "659"
+          },
+          "evidence": [
+            {
+              "evidence_id": "evi-908747a8b3ef2bf7",
+              "excerpt": "Capital-Account Transactions (Table 1) Capital-transfer receipts increased $164 million to $181 million in the third qua",
+              "representation_id": "rep-ca47b3fda5a08bbf"
+            }
+          ],
+          "representation": {
+            "representation_id": "rep-ca47b3fda5a08bbf",
+            "content_sha256": "94742ec717f8aa4af01016ca36e433410f3bb4aea3429bcadf67a3cae2772d73"
+          },
+          "document": {
+            "document_id": "doc-c412f0b51dd2d4f7",
+            "canonical_url": "https://www.bea.gov/news/2026/us-international-transactions-3rd-quarter-2025"
+          },
+          "source": {
+            "source_id": "imp-bea",
+            "institution_id": "INST-imp-bea"
+          }
+        },
+        {
+          "fact": {
+            "fact_id": "fact-328d38e6b8fd64ec",
+            "fact_version": 1,
+            "metric": "usd_amount",
+            "value": "1.3"
+          },
+          "evidence": [
+            {
+              "evidence_id": "evi-0b6f38da2261c09e",
+              "excerpt": "Capital-Account Transactions (Table 1) Capital-transfer receipts increased $164 million to $181 million in the third qua",
+              "representation_id": "rep-ca47b3fda5a08bbf"
+            }
+          ],
+          "representation": {
+            "representation_id": "rep-ca47b3fda5a08bbf",
+            "content_sha256": "94742ec717f8aa4af01016ca36e433410f3bb4aea3429bcadf67a3cae2772d73"
+          },
+          "document": {
+            "document_id": "doc-c412f0b51dd2d4f7",
+            "canonical_url": "https://www.bea.gov/news/2026/us-international-transactions-3rd-quarter-2025"
+          },
+          "source": {
+            "source_id": "imp-bea",
+            "institution_id": "INST-imp-bea"
+          }
+        },
+        {
+          "fact": {
+            "fact_id": "fact-dff10818bd71fc02",
+            "fact_version": 1,
+            "metric": "usd_amount",
+            "value": "409.9"
+          },
+          "evidence": [
+            {
+              "evidence_id": "evi-3e83558f17f932d3",
+              "excerpt": "Capital-transfer payments decreased $659 million to $1.3 billion. Financial-Account Transactions (Tables 1, 6, 7, and 8)",
+              "representation_id": "rep-ca47b3fda5a08bbf"
+            }
+          ],
+          "representation": {
+            "representation_id": "rep-ca47b3fda5a08bbf",
+            "content_sha256": "94742ec717f8aa4af01016ca36e433410f3bb4aea3429bcadf67a3cae2772d73"
+          },
+          "document": {
+            "document_id": "doc-c412f0b51dd2d4f7",
+            "canonical_url": "https://www.bea.gov/news/2026/us-international-transactions-3rd-quarter-2025"
+          },
+          "source": {
+            "source_id": "imp-bea",
+            "institution_id": "INST-imp-bea"
+          }
+        },
+        {
+          "fact": {
+            "fact_id": "fact-7d63ade2584729ec",
+            "fact_version": 1,
+            "metric": "usd_amount",
+            "value": "403.4"
+          },
+          "evidence": [
+            {
+              "evidence_id": "evi-9e5495c24545aa74",
+              "excerpt": "Financial-Account Transactions (Tables 1, 6, 7, and 8) Net financial-account transactions were \u2212$409.9 billion in the th",
+              "representation_id": "rep-ca47b3fda5a08bbf"
+            }
+          ],
+          "representation": {
+            "representation_id": "rep-ca47b3fda5a08bbf",
+            "content_sha256": "94742ec717f8aa4af01016ca36e433410f3bb4aea3429bcadf67a3cae2772d73"
+          },
+          "document": {
+            "document_id": "doc-c412f0b51dd2d4f7",
+            "canonical_url": "https://www.bea.gov/news/2026/us-international-transactions-3rd-quarter-2025"
+          },
+          "source": {
+            "source_id": "imp-bea",
+            "institution_id": "INST-imp-bea"
+          }
+        },
+        {
+          "fact": {
+            "fact_id": "fact-bc7ca081fc14f5d1",
+            "fact_version": 1,
+            "metric": "usd_amount",
+            "value": "224.4"
+          },
+          "evidence": [
+            {
+              "evidence_id": "evi-a8e2e3e7e9d6ca23",
+              "excerpt": "Financial assets (tables 1, 6, 7, and 8) Third-quarter transactions increased U.S. residents\u2019 foreign financial assets b",
+              "representation_id": "rep-ca47b3fda5a08bbf"
+            }
+          ],
+          "representation": {
+            "representation_id": "rep-ca47b3fda5a08bbf",
+            "content_sha256": "94742ec717f8aa4af01016ca36e433410f3bb4aea3429bcadf67a3cae2772d73"
+          },
+          "document": {
+            "document_id": "doc-c412f0b51dd2d4f7",
+            "canonical_url": "https://www.bea.gov/news/2026/us-international-transactions-3rd-quarter-2025"
+          },
+          "source": {
+            "source_id": "imp-bea",
+            "institution_id": "INST-imp-bea"
+          }
+        },
+        {
+          "fact": {
+            "fact_id": "fact-4e599802ea002305",
+            "fact_version": 1,
+            "metric": "usd_amount",
+            "value": "91.9"
+          },
+          "evidence": [
+            {
+              "evidence_id": "evi-8aa1c2e83415ca1c",
+              "excerpt": "Financial assets (tables 1, 6, 7, and 8) Third-quarter transactions increased U.S. residents\u2019 foreign financial assets b",
+              "representation_id": "rep-ca47b3fda5a08bbf"
+            }
+          ],
+          "representation": {
+            "representation_id": "rep-ca47b3fda5a08bbf",
+            "content_sha256": "94742ec717f8aa4af01016ca36e433410f3bb4aea3429bcadf67a3cae2772d73"
+          },
+          "document": {
+            "document_id": "doc-c412f0b51dd2d4f7",
+            "canonical_url": "https://www.bea.gov/news/2026/us-international-transactions-3rd-quarter-2025"
+          },
+          "source": {
+            "source_id": "imp-bea",
+            "institution_id": "INST-imp-bea"
+          }
+        },
+        {
+          "fact": {
+            "fact_id": "fact-e10f822c4bbf6703",
+            "fact_version": 1,
+            "metric": "usd_amount",
+            "value": "86.2"
+          },
+          "evidence": [
+            {
+              "evidence_id": "evi-fa9fcaa3f868f6ed",
+              "excerpt": "Financial assets (tables 1, 6, 7, and 8) Third-quarter transactions increased U.S. residents\u2019 foreign financial assets b",
+              "representation_id": "rep-ca47b3fda5a08bbf"
+            }
+          ],
+          "representation": {
+            "representation_id": "rep-ca47b3fda5a08bbf",
+            "content_sha256": "94742ec717f8aa4af01016ca36e433410f3bb4aea3429bcadf67a3cae2772d73"
+          },
+          "document": {
+            "document_id": "doc-c412f0b51dd2d4f7",
+            "canonical_url": "https://www.bea.gov/news/2026/us-international-transactions-3rd-quarter-2025"
+          },
+          "source": {
+            "source_id": "imp-bea",
+            "institution_id": "INST-imp-bea"
+          }
+        },
+        {
+          "fact": {
+            "fact_id": "fact-04b661ba05eba61e",
+            "fact_version": 1,
+            "metric": "usd_amount",
+            "value": "0.9"
+          },
+          "evidence": [
+            {
+              "evidence_id": "evi-cff1c38318018300",
+              "excerpt": "Financial assets (tables 1, 6, 7, and 8) Third-quarter transactions increased U.S. residents\u2019 foreign financial assets b",
+              "representation_id": "rep-ca47b3fda5a08bbf"
+            }
+          ],
+          "representation": {
+            "representation_id": "rep-ca47b3fda5a08bbf",
+            "content_sha256": "94742ec717f8aa4af01016ca36e433410f3bb4aea3429bcadf67a3cae2772d73"
+          },
+          "document": {
+            "document_id": "doc-c412f0b51dd2d4f7",
+            "canonical_url": "https://www.bea.gov/news/2026/us-international-transactions-3rd-quarter-2025"
+          },
+          "source": {
+            "source_id": "imp-bea",
+            "institution_id": "INST-imp-bea"
+          }
+        },
+        {
+          "fact": {
+            "fact_id": "fact-4e75ac038ec4ca49",
+            "fact_version": 1,
+            "metric": "usd_amount",
+            "value": "797.2"
+          },
+          "evidence": [
+            {
+              "evidence_id": "evi-dbbc8c68cc0b4f38",
+              "excerpt": "Transactions increased \u201cother investment assets\u201d by $224.4 billion; direct investment assets by $91.9 billion; portfolio",
+              "representation_id": "rep-ca47b3fda5a08bbf"
+            }
+          ],
+          "representation": {
+            "representation_id": "rep-ca47b3fda5a08bbf",
+            "content_sha256": "94742ec717f8aa4af01016ca36e433410f3bb4aea3429bcadf67a3cae2772d73"
+          },
+          "document": {
+            "document_id": "doc-c412f0b51dd2d4f7",
+            "canonical_url": "https://www.bea.gov/news/2026/us-international-transactions-3rd-quarter-2025"
+          },
+          "source": {
+            "source_id": "imp-bea",
+            "institution_id": "INST-imp-bea"
+          }
+        },
+        {
+          "fact": {
+            "fact_id": "fact-bc49e431074894fd",
+            "fact_version": 1,
+            "metric": "usd_amount",
+            "value": "486.8"
+          },
+          "evidence": [
+            {
+              "evidence_id": "evi-cf4d563f71382cbd",
+              "excerpt": "Liabilities (tables 1, 6, 7, and 8) Third-quarter transactions increased U.S. liabilities to foreign residents by $797.2",
+              "representation_id": "rep-ca47b3fda5a08bbf"
+            }
+          ],
+          "representation": {
+            "representation_id": "rep-ca47b3fda5a08bbf",
+            "content_sha256": "94742ec717f8aa4af01016ca36e433410f3bb4aea3429bcadf67a3cae2772d73"
+          },
+          "document": {
+            "document_id": "doc-c412f0b51dd2d4f7",
+            "canonical_url": "https://www.bea.gov/news/2026/us-international-transactions-3rd-quarter-2025"
+          },
+          "source": {
+            "source_id": "imp-bea",
+            "institution_id": "INST-imp-bea"
+          }
+        },
+        {
+          "fact": {
+            "fact_id": "fact-90d0d117ab46345c",
+            "fact_version": 1,
+            "metric": "usd_amount",
+            "value": "195.9"
+          },
+          "evidence": [
+            {
+              "evidence_id": "evi-edeeffd49a363819",
+              "excerpt": "Liabilities (tables 1, 6, 7, and 8) Third-quarter transactions increased U.S. liabilities to foreign residents by $797.2",
+              "representation_id": "rep-ca47b3fda5a08bbf"
+            }
+          ],
+          "representation": {
+            "representation_id": "rep-ca47b3fda5a08bbf",
+            "content_sha256": "94742ec717f8aa4af01016ca36e433410f3bb4aea3429bcadf67a3cae2772d73"
+          },
+          "document": {
+            "document_id": "doc-c412f0b51dd2d4f7",
+            "canonical_url": "https://www.bea.gov/news/2026/us-international-transactions-3rd-quarter-2025"
+          },
+          "source": {
+            "source_id": "imp-bea",
+            "institution_id": "INST-imp-bea"
+          }
+        },
+        {
+          "fact": {
+            "fact_id": "fact-18922563eb0b470e",
+            "fact_version": 1,
+            "metric": "usd_amount",
+            "value": "114.6"
+          },
+          "evidence": [
+            {
+              "evidence_id": "evi-42f0f792788386cd",
+              "excerpt": "Liabilities (tables 1, 6, 7, and 8) Third-quarter transactions increased U.S. liabilities to foreign residents by $797.2",
+              "representation_id": "rep-ca47b3fda5a08bbf"
+            }
+          ],
+          "representation": {
+            "representation_id": "rep-ca47b3fda5a08bbf",
+            "content_sha256": "94742ec717f8aa4af01016ca36e433410f3bb4aea3429bcadf67a3cae2772d73"
+          },
+          "document": {
+            "document_id": "doc-c412f0b51dd2d4f7",
+            "canonical_url": "https://www.bea.gov/news/2026/us-international-transactions-3rd-quarter-2025"
+          },
+          "source": {
+            "source_id": "imp-bea",
+            "institution_id": "INST-imp-bea"
+          }
+        },
+        {
+          "fact": {
+            "fact_id": "fact-f8f708900d575050",
+            "fact_version": 1,
+            "metric": "usd_amount",
+            "value": "16.1"
+          },
+          "evidence": [
+            {
+              "evidence_id": "evi-902cded7505026e6",
+              "excerpt": "Transactions increased portfolio investment liabilities by $486.8 billion; \u201cother investment liabilities\u201d by $195.9 bill",
+              "representation_id": "rep-ca47b3fda5a08bbf"
+            }
+          ],
+          "representation": {
+            "representation_id": "rep-ca47b3fda5a08bbf",
+            "content_sha256": "94742ec717f8aa4af01016ca36e433410f3bb4aea3429bcadf67a3cae2772d73"
+          },
+          "document": {
+            "document_id": "doc-c412f0b51dd2d4f7",
+            "canonical_url": "https://www.bea.gov/news/2026/us-international-transactions-3rd-quarter-2025"
+          },
+          "source": {
+            "source_id": "imp-bea",
+            "institution_id": "INST-imp-bea"
+          }
+        }
+      ],
+      "created_at": "",
+      "event_type": "statistical_release",
+      "temporal_data": {
+        "temporal_tuples": [
+          {
+            "original_value": "Wed, 14 Jan 2026 08:30:00 EST",
+            "timezone_status": "EXPLICIT_OFFSET",
+            "normalized_utc": "2026-01-14T13:30:00Z",
+            "normalization_basis": "EXPLICIT_SOURCE_TIMEZONE",
+            "timestamp_semantics": "publication",
+            "provenance_source": "rss_pubdate"
+          }
+        ],
+        "publication_time": "2026-01-14T13:30:00Z",
+        "publication_time_raw": "Wed, 14 Jan 2026 08:30:00 EST",
+        "publication_timezone_status": "EXPLICIT_OFFSET",
+        "publication_normalization_basis": "EXPLICIT_SOURCE_TIMEZONE",
+        "publication_timestamp_semantics": "publication",
+        "publication_provenance_source": "rss_pubdate",
+        "reference_period": null,
+        "reference_period_normalized_utc": null,
+        "reference_period_raw": null,
+        "reference_period_timezone_status": null,
+        "reference_period_normalization_basis": null,
+        "reference_period_timestamp_semantics": null,
+        "reference_period_provenance_source": null
+      },
+      "status": "ACTIVE",
+      "supersedes_io_id": null
+    },
+    "etag": "W/\"6ab9c22f0c16248c\"",
+    "source_id": "imp-bea",
+    "multi_event": false
+  },
+  "io-4d0ae13598a4e04d": {
+    "io_id": "io-4d0ae13598a4e04d",
+    "event_type": "statistical_release",
+    "frozen_at": "2026-08-18T03:35:42Z",
+    "io_dict": {
+      "io_id": "io-4d0ae13598a4e04d",
+      "version": 1,
+      "event_id": "evt-8b4f84c2ba1b7605",
+      "event_version": 1,
+      "headline": "imp-bea Statistical Release",
+      "chain": [
+        {
+          "fact": {
+            "fact_id": "fact-6c86d36e3c48115f",
+            "fact_version": 1,
+            "metric": "usd_amount",
+            "value": "6.9"
+          },
+          "evidence": [
+            {
+              "evidence_id": "evi-849d86bb10d2a381",
+              "excerpt": "6 percent to $6.9 trillion.",
+              "representation_id": "rep-fe06aa8159fd7a2a"
+            }
+          ],
+          "representation": {
+            "representation_id": "rep-fe06aa8159fd7a2a",
+            "content_sha256": "286af4108037dad100f7d2bd47203d814500288ce7aab1a68d5e0f19c4516956"
+          },
+          "document": {
+            "document_id": "doc-d0740e3a5d707138",
+            "canonical_url": "https://www.bea.gov/news/2025/activities-us-multinational-enterprises-2023"
+          },
+          "source": {
+            "source_id": "imp-bea",
+            "institution_id": "INST-imp-bea"
+          }
+        },
+        {
+          "fact": {
+            "fact_id": "fact-4faadac47897d68d",
+            "fact_version": 1,
+            "metric": "usd_amount",
+            "value": "5.3"
+          },
+          "evidence": [
+            {
+              "evidence_id": "evi-bc2c30880f3671eb",
+              "excerpt": "0 percent to $5.3 trillion.",
+              "representation_id": "rep-fe06aa8159fd7a2a"
+            }
+          ],
+          "representation": {
+            "representation_id": "rep-fe06aa8159fd7a2a",
+            "content_sha256": "286af4108037dad100f7d2bd47203d814500288ce7aab1a68d5e0f19c4516956"
+          },
+          "document": {
+            "document_id": "doc-d0740e3a5d707138",
+            "canonical_url": "https://www.bea.gov/news/2025/activities-us-multinational-enterprises-2023"
+          },
+          "source": {
+            "source_id": "imp-bea",
+            "institution_id": "INST-imp-bea"
+          }
+        },
+        {
+          "fact": {
+            "fact_id": "fact-9c20459a21871b4c",
+            "fact_version": 1,
+            "metric": "usd_amount",
+            "value": "1.6"
+          },
+          "evidence": [
+            {
+              "evidence_id": "evi-320100d1e1082def",
+              "excerpt": "8 percent to $1.6 trillion.",
+              "representation_id": "rep-fe06aa8159fd7a2a"
+            }
+          ],
+          "representation": {
+            "representation_id": "rep-fe06aa8159fd7a2a",
+            "content_sha256": "286af4108037dad100f7d2bd47203d814500288ce7aab1a68d5e0f19c4516956"
+          },
+          "document": {
+            "document_id": "doc-d0740e3a5d707138",
+            "canonical_url": "https://www.bea.gov/news/2025/activities-us-multinational-enterprises-2023"
+          },
+          "source": {
+            "source_id": "imp-bea",
+            "institution_id": "INST-imp-bea"
+          }
+        },
+        {
+          "fact": {
+            "fact_id": "fact-6eb3e81c145b20dc",
+            "fact_version": 1,
+            "metric": "usd_amount",
+            "value": "1.1"
+          },
+          "evidence": [
+            {
+              "evidence_id": "evi-5719611547cbf315",
+              "excerpt": "Worldwide expenditures for property, plant, and equipment of U.S. MNEs increased 7.5 percent to $1.1 trillion. Expenditu",
+              "representation_id": "rep-fe06aa8159fd7a2a"
+            }
+          ],
+          "representation": {
+            "representation_id": "rep-fe06aa8159fd7a2a",
+            "content_sha256": "286af4108037dad100f7d2bd47203d814500288ce7aab1a68d5e0f19c4516956"
+          },
+          "document": {
+            "document_id": "doc-d0740e3a5d707138",
+            "canonical_url": "https://www.bea.gov/news/2025/activities-us-multinational-enterprises-2023"
+          },
+          "source": {
+            "source_id": "imp-bea",
+            "institution_id": "INST-imp-bea"
+          }
+        },
+        {
+          "fact": {
+            "fact_id": "fact-b966178eb08bc97f",
+            "fact_version": 1,
+            "metric": "usd_amount",
+            "value": "886.1"
+          },
+          "evidence": [
+            {
+              "evidence_id": "evi-89671f3d8b77135c",
+              "excerpt": "MNEs increased 7.5 percent to $1.1 trillion. Expenditures by U.S. parents accounted for $886.1 billion, and expenditures",
+              "representation_id": "rep-fe06aa8159fd7a2a"
+            }
+          ],
+          "representation": {
+            "representation_id": "rep-fe06aa8159fd7a2a",
+            "content_sha256": "286af4108037dad100f7d2bd47203d814500288ce7aab1a68d5e0f19c4516956"
+          },
+          "document": {
+            "document_id": "doc-d0740e3a5d707138",
+            "canonical_url": "https://www.bea.gov/news/2025/activities-us-multinational-enterprises-2023"
+          },
+          "source": {
+            "source_id": "imp-bea",
+            "institution_id": "INST-imp-bea"
+          }
+        },
+        {
+          "fact": {
+            "fact_id": "fact-dfa1b2473db828ae",
+            "fact_version": 1,
+            "metric": "usd_amount",
+            "value": "216.2"
+          },
+          "evidence": [
+            {
+              "evidence_id": "evi-e5a10d634b292817",
+              "excerpt": "MNEs increased 7.5 percent to $1.1 trillion. Expenditures by U.S. parents accounted for $886.1 billion, and expenditures",
+              "representation_id": "rep-fe06aa8159fd7a2a"
+            }
+          ],
+          "representation": {
+            "representation_id": "rep-fe06aa8159fd7a2a",
+            "content_sha256": "286af4108037dad100f7d2bd47203d814500288ce7aab1a68d5e0f19c4516956"
+          },
+          "document": {
+            "document_id": "doc-d0740e3a5d707138",
+            "canonical_url": "https://www.bea.gov/news/2025/activities-us-multinational-enterprises-2023"
+          },
+          "source": {
+            "source_id": "imp-bea",
+            "institution_id": "INST-imp-bea"
+          }
+        },
+        {
+          "fact": {
+            "fact_id": "fact-108354220ec4db96",
+            "fact_version": 1,
+            "metric": "usd_amount",
+            "value": "558.3"
+          },
+          "evidence": [
+            {
+              "evidence_id": "evi-f92f3f3def12c702",
+              "excerpt": "Worldwide research and development (R&D) expenditures of U.S. MNEs increased 7.5 percent to $558.3 billion. U.S. parents",
+              "representation_id": "rep-fe06aa8159fd7a2a"
+            }
+          ],
+          "representation": {
+            "representation_id": "rep-fe06aa8159fd7a2a",
+            "content_sha256": "286af4108037dad100f7d2bd47203d814500288ce7aab1a68d5e0f19c4516956"
+          },
+          "document": {
+            "document_id": "doc-d0740e3a5d707138",
+            "canonical_url": "https://www.bea.gov/news/2025/activities-us-multinational-enterprises-2023"
+          },
+          "source": {
+            "source_id": "imp-bea",
+            "institution_id": "INST-imp-bea"
+          }
+        },
+        {
+          "fact": {
+            "fact_id": "fact-1eadd18167e3bb20",
+            "fact_version": 1,
+            "metric": "usd_amount",
+            "value": "476.6"
+          },
+          "evidence": [
+            {
+              "evidence_id": "evi-984b9ca18222498a",
+              "excerpt": "MNEs increased 7.5 percent to $558.3 billion. U.S. parents accounted for expenditures of $476.6 billion, and majority-ow",
+              "representation_id": "rep-fe06aa8159fd7a2a"
+            }
+          ],
+          "representation": {
+            "representation_id": "rep-fe06aa8159fd7a2a",
+            "content_sha256": "286af4108037dad100f7d2bd47203d814500288ce7aab1a68d5e0f19c4516956"
+          },
+          "document": {
+            "document_id": "doc-d0740e3a5d707138",
+            "canonical_url": "https://www.bea.gov/news/2025/activities-us-multinational-enterprises-2023"
+          },
+          "source": {
+            "source_id": "imp-bea",
+            "institution_id": "INST-imp-bea"
+          }
+        },
+        {
+          "fact": {
+            "fact_id": "fact-decdc19289f5fd01",
+            "fact_version": 1,
+            "metric": "usd_amount",
+            "value": "81.7"
+          },
+          "evidence": [
+            {
+              "evidence_id": "evi-9380666f2bb6dca9",
+              "excerpt": "MNEs increased 7.5 percent to $558.3 billion. U.S. parents accounted for expenditures of $476.6 billion, and majority-ow",
+              "representation_id": "rep-fe06aa8159fd7a2a"
+            }
+          ],
+          "representation": {
+            "representation_id": "rep-fe06aa8159fd7a2a",
+            "content_sha256": "286af4108037dad100f7d2bd47203d814500288ce7aab1a68d5e0f19c4516956"
+          },
+          "document": {
+            "document_id": "doc-d0740e3a5d707138",
+            "canonical_url": "https://www.bea.gov/news/2025/activities-us-multinational-enterprises-2023"
+          },
+          "source": {
+            "source_id": "imp-bea",
+            "institution_id": "INST-imp-bea"
+          }
+        }
+      ],
+      "created_at": "",
+      "event_type": "statistical_release",
+      "temporal_data": {
+        "temporal_tuples": [
+          {
+            "original_value": "Fri, 22 Aug 2025 08:30:00 EDT",
+            "timezone_status": "EXPLICIT_OFFSET",
+            "normalized_utc": "2025-08-22T12:30:00Z",
+            "normalization_basis": "EXPLICIT_SOURCE_TIMEZONE",
+            "timestamp_semantics": "publication",
+            "provenance_source": "rss_pubdate"
+          }
+        ],
+        "publication_time": "2025-08-22T12:30:00Z",
+        "publication_time_raw": "Fri, 22 Aug 2025 08:30:00 EDT",
+        "publication_timezone_status": "EXPLICIT_OFFSET",
+        "publication_normalization_basis": "EXPLICIT_SOURCE_TIMEZONE",
+        "publication_timestamp_semantics": "publication",
+        "publication_provenance_source": "rss_pubdate",
+        "reference_period": null,
+        "reference_period_normalized_utc": null,
+        "reference_period_raw": null,
+        "reference_period_timezone_status": null,
+        "reference_period_normalization_basis": null,
+        "reference_period_timestamp_semantics": null,
+        "reference_period_provenance_source": null
+      },
+      "status": "ACTIVE",
+      "supersedes_io_id": null
+    },
+    "etag": "W/\"ed3708f423c95ac4\"",
     "source_id": "imp-bea",
     "multi_event": false
   }

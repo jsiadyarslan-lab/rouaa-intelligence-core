@@ -1,145 +1,211 @@
 {
-  "sources_monitored": 22,
+  "sources_monitored": 23,
   "cycles": [
     {
-      "cycle_id": "cycle-1787018227",
+      "cycle_id": "cycle-1787024142",
       "elapsed_s": 0.01,
-      "sources_monitored": 11,
+      "sources_monitored": 13,
       "results": [
         {
-          "source_id": "src-dfsa-uae",
-          "cycle_id": "cycle-1787018227",
-          "health": "HEALTHY",
-          "documents": 20,
-          "events": 1,
-          "new_docs": 20,
-          "new_events": 1,
-          "latest_doc_time": null,
-          "check_elapsed_ms": 6.48
-        },
-        {
-          "source_id": "src-boc",
-          "cycle_id": "cycle-1787018227",
-          "health": "HEALTHY",
-          "documents": 25,
-          "events": 2,
-          "new_docs": 25,
-          "new_events": 2,
-          "latest_doc_time": null,
-          "check_elapsed_ms": 0.24
-        },
-        {
-          "source_id": "src-ecb-stat",
-          "cycle_id": "cycle-1787018227",
-          "health": "HEALTHY",
-          "documents": 26,
-          "events": 1,
-          "new_docs": 26,
-          "new_events": 1,
-          "latest_doc_time": null,
-          "check_elapsed_ms": 0.21
-        },
-        {
-          "source_id": "src-idda-ireland",
-          "cycle_id": "cycle-1787018227",
-          "health": "HEALTHY",
-          "documents": 20,
-          "events": 1,
-          "new_docs": 20,
-          "new_events": 1,
-          "latest_doc_time": null,
-          "check_elapsed_ms": 0.17
-        },
-        {
-          "source_id": "src-eurostat-emp",
-          "cycle_id": "cycle-1787018227",
+          "source_id": "src-cso-ireland",
+          "cycle_id": "cycle-1787024142",
           "health": "HEALTHY",
           "documents": 15,
           "events": 3,
           "new_docs": 15,
           "new_events": 3,
           "latest_doc_time": null,
+          "check_elapsed_ms": 7.23
+        },
+        {
+          "source_id": "src-dfsa-uae",
+          "cycle_id": "cycle-1787024142",
+          "health": "HEALTHY",
+          "documents": 20,
+          "events": 1,
+          "new_docs": 20,
+          "new_events": 1,
+          "latest_doc_time": null,
+          "check_elapsed_ms": 0.25
+        },
+        {
+          "source_id": "src-eurostat-emp",
+          "cycle_id": "cycle-1787024142",
+          "health": "HEALTHY",
+          "documents": 15,
+          "events": 3,
+          "new_docs": 15,
+          "new_events": 3,
+          "latest_doc_time": null,
+          "check_elapsed_ms": 0.2
+        },
+        {
+          "source_id": "src-cbbh-bosnia",
+          "cycle_id": "cycle-1787024142",
+          "health": "HEALTHY",
+          "documents": 19,
+          "events": 3,
+          "new_docs": 19,
+          "new_events": 3,
+          "latest_doc_time": null,
           "check_elapsed_ms": 0.18
         },
         {
-          "source_id": "src-treasurydirect-us",
-          "cycle_id": "cycle-1787018227",
+          "source_id": "src-eurostat-agri",
+          "cycle_id": "cycle-1787024142",
           "health": "HEALTHY",
           "documents": 9,
-          "events": 1,
+          "events": 2,
           "new_docs": 9,
-          "new_events": 1,
+          "new_events": 2,
           "latest_doc_time": null,
-          "check_elapsed_ms": 0.15
+          "check_elapsed_ms": 0.21
         },
         {
-          "source_id": "src-cbk-kenya",
-          "cycle_id": "cycle-1787018227",
+          "source_id": "src-boc",
+          "cycle_id": "cycle-1787024142",
           "health": "HEALTHY",
-          "documents": 10,
-          "events": 4,
-          "new_docs": 10,
-          "new_events": 4,
+          "documents": 25,
+          "events": 24,
+          "new_docs": 25,
+          "new_events": 24,
           "latest_doc_time": null,
-          "check_elapsed_ms": 0.15
-        },
-        {
-          "source_id": "src-defra-carbon-uk",
-          "cycle_id": "cycle-1787018227",
-          "health": "HEALTHY",
-          "documents": 10,
-          "events": 1,
-          "new_docs": 10,
-          "new_events": 1,
-          "latest_doc_time": null,
-          "check_elapsed_ms": 0.19
-        },
-        {
-          "source_id": "src-cbsl-srilanka",
-          "cycle_id": "cycle-1787018227",
-          "health": "HEALTHY",
-          "documents": 26,
-          "events": 1,
-          "new_docs": 26,
-          "new_events": 1,
-          "latest_doc_time": null,
-          "check_elapsed_ms": 0.16
+          "check_elapsed_ms": 0.18
         },
         {
           "source_id": "src-frb-ny",
-          "cycle_id": "cycle-1787018227",
+          "cycle_id": "cycle-1787024142",
           "health": "HEALTHY",
           "documents": 3,
           "events": 2,
           "new_docs": 3,
           "new_events": 2,
           "latest_doc_time": null,
-          "check_elapsed_ms": 0.15
+          "check_elapsed_ms": 0.17
         },
         {
-          "source_id": "src-eurostat-agri",
-          "cycle_id": "cycle-1787018227",
+          "source_id": "src-boj",
+          "cycle_id": "cycle-1787024142",
+          "health": "HEALTHY",
+          "documents": 13,
+          "events": 1,
+          "new_docs": 13,
+          "new_events": 1,
+          "latest_doc_time": null,
+          "check_elapsed_ms": 0.17
+        },
+        {
+          "source_id": "src-ecb-stat",
+          "cycle_id": "cycle-1787024142",
+          "health": "HEALTHY",
+          "documents": 26,
+          "events": 4,
+          "new_docs": 26,
+          "new_events": 4,
+          "latest_doc_time": null,
+          "check_elapsed_ms": 0.17
+        },
+        {
+          "source_id": "src-treasurydirect-us",
+          "cycle_id": "cycle-1787024142",
           "health": "HEALTHY",
           "documents": 9,
-          "events": 2,
+          "events": 1,
           "new_docs": 9,
-          "new_events": 2,
+          "new_events": 1,
           "latest_doc_time": null,
-          "check_elapsed_ms": 0.16
+          "check_elapsed_ms": 0.18
+        },
+        {
+          "source_id": "src-beis-uk",
+          "cycle_id": "cycle-1787024142",
+          "health": "HEALTHY",
+          "documents": 10,
+          "events": 3,
+          "new_docs": 10,
+          "new_events": 3,
+          "latest_doc_time": null,
+          "check_elapsed_ms": 0.19
+        },
+        {
+          "source_id": "src-defra-carbon-uk",
+          "cycle_id": "cycle-1787024142",
+          "health": "HEALTHY",
+          "documents": 10,
+          "events": 1,
+          "new_docs": 10,
+          "new_events": 1,
+          "latest_doc_time": null,
+          "check_elapsed_ms": 0.18
+        },
+        {
+          "source_id": "src-naic-us",
+          "cycle_id": "cycle-1787024142",
+          "health": "HEALTHY",
+          "documents": 4,
+          "events": 1,
+          "new_docs": 4,
+          "new_events": 1,
+          "latest_doc_time": null,
+          "check_elapsed_ms": 0.17
         }
       ]
     },
     {
-      "cycle_id": "cycle-1787018227",
+      "cycle_id": "cycle-1787024142",
       "elapsed_s": 0.0,
-      "sources_monitored": 11,
+      "sources_monitored": 13,
       "results": [
         {
+          "source_id": "src-cso-ireland",
+          "cycle_id": "cycle-1787024142",
+          "health": "STALE",
+          "documents": 15,
+          "events": 3,
+          "new_docs": 0,
+          "new_events": 0,
+          "latest_doc_time": null,
+          "check_elapsed_ms": 0.14
+        },
+        {
           "source_id": "src-dfsa-uae",
-          "cycle_id": "cycle-1787018227",
+          "cycle_id": "cycle-1787024142",
           "health": "STALE",
           "documents": 20,
           "events": 1,
+          "new_docs": 0,
+          "new_events": 0,
+          "latest_doc_time": null,
+          "check_elapsed_ms": 0.13
+        },
+        {
+          "source_id": "src-eurostat-emp",
+          "cycle_id": "cycle-1787024142",
+          "health": "STALE",
+          "documents": 15,
+          "events": 3,
+          "new_docs": 0,
+          "new_events": 0,
+          "latest_doc_time": null,
+          "check_elapsed_ms": 0.15
+        },
+        {
+          "source_id": "src-cbbh-bosnia",
+          "cycle_id": "cycle-1787024142",
+          "health": "STALE",
+          "documents": 19,
+          "events": 3,
+          "new_docs": 0,
+          "new_events": 0,
+          "latest_doc_time": null,
+          "check_elapsed_ms": 0.13
+        },
+        {
+          "source_id": "src-eurostat-agri",
+          "cycle_id": "cycle-1787024142",
+          "health": "STALE",
+          "documents": 9,
+          "events": 2,
           "new_docs": 0,
           "new_events": 0,
           "latest_doc_time": null,
@@ -147,10 +213,32 @@
         },
         {
           "source_id": "src-boc",
-          "cycle_id": "cycle-1787018227",
+          "cycle_id": "cycle-1787024142",
           "health": "STALE",
           "documents": 25,
+          "events": 24,
+          "new_docs": 0,
+          "new_events": 0,
+          "latest_doc_time": null,
+          "check_elapsed_ms": 0.13
+        },
+        {
+          "source_id": "src-frb-ny",
+          "cycle_id": "cycle-1787024142",
+          "health": "STALE",
+          "documents": 3,
           "events": 2,
+          "new_docs": 0,
+          "new_events": 0,
+          "latest_doc_time": null,
+          "check_elapsed_ms": 0.12
+        },
+        {
+          "source_id": "src-boj",
+          "cycle_id": "cycle-1787024142",
+          "health": "STALE",
+          "documents": 13,
+          "events": 1,
           "new_docs": 0,
           "new_events": 0,
           "latest_doc_time": null,
@@ -158,9 +246,192 @@
         },
         {
           "source_id": "src-ecb-stat",
-          "cycle_id": "cycle-1787018227",
+          "cycle_id": "cycle-1787024142",
           "health": "STALE",
           "documents": 26,
+          "events": 4,
+          "new_docs": 0,
+          "new_events": 0,
+          "latest_doc_time": null,
+          "check_elapsed_ms": 0.13
+        },
+        {
+          "source_id": "src-treasurydirect-us",
+          "cycle_id": "cycle-1787024142",
+          "health": "STALE",
+          "documents": 9,
+          "events": 1,
+          "new_docs": 0,
+          "new_events": 0,
+          "latest_doc_time": null,
+          "check_elapsed_ms": 0.13
+        },
+        {
+          "source_id": "src-beis-uk",
+          "cycle_id": "cycle-1787024142",
+          "health": "STALE",
+          "documents": 10,
+          "events": 3,
+          "new_docs": 0,
+          "new_events": 0,
+          "latest_doc_time": null,
+          "check_elapsed_ms": 0.13
+        },
+        {
+          "source_id": "src-defra-carbon-uk",
+          "cycle_id": "cycle-1787024142",
+          "health": "STALE",
+          "documents": 10,
+          "events": 1,
+          "new_docs": 0,
+          "new_events": 0,
+          "latest_doc_time": null,
+          "check_elapsed_ms": 0.12
+        },
+        {
+          "source_id": "src-naic-us",
+          "cycle_id": "cycle-1787024142",
+          "health": "STALE",
+          "documents": 4,
+          "events": 1,
+          "new_docs": 0,
+          "new_events": 0,
+          "latest_doc_time": null,
+          "check_elapsed_ms": 0.12
+        }
+      ]
+    },
+    {
+      "cycle_id": "cycle-1787024142",
+      "elapsed_s": 0.0,
+      "sources_monitored": 13,
+      "results": [
+        {
+          "source_id": "src-cso-ireland",
+          "cycle_id": "cycle-1787024142",
+          "health": "STALE",
+          "documents": 15,
+          "events": 3,
+          "new_docs": 0,
+          "new_events": 0,
+          "latest_doc_time": null,
+          "check_elapsed_ms": 0.13
+        },
+        {
+          "source_id": "src-dfsa-uae",
+          "cycle_id": "cycle-1787024142",
+          "health": "STALE",
+          "documents": 20,
+          "events": 1,
+          "new_docs": 0,
+          "new_events": 0,
+          "latest_doc_time": null,
+          "check_elapsed_ms": 0.13
+        },
+        {
+          "source_id": "src-eurostat-emp",
+          "cycle_id": "cycle-1787024142",
+          "health": "STALE",
+          "documents": 15,
+          "events": 3,
+          "new_docs": 0,
+          "new_events": 0,
+          "latest_doc_time": null,
+          "check_elapsed_ms": 0.13
+        },
+        {
+          "source_id": "src-cbbh-bosnia",
+          "cycle_id": "cycle-1787024142",
+          "health": "STALE",
+          "documents": 19,
+          "events": 3,
+          "new_docs": 0,
+          "new_events": 0,
+          "latest_doc_time": null,
+          "check_elapsed_ms": 0.13
+        },
+        {
+          "source_id": "src-eurostat-agri",
+          "cycle_id": "cycle-1787024142",
+          "health": "STALE",
+          "documents": 9,
+          "events": 2,
+          "new_docs": 0,
+          "new_events": 0,
+          "latest_doc_time": null,
+          "check_elapsed_ms": 0.13
+        },
+        {
+          "source_id": "src-boc",
+          "cycle_id": "cycle-1787024142",
+          "health": "STALE",
+          "documents": 25,
+          "events": 24,
+          "new_docs": 0,
+          "new_events": 0,
+          "latest_doc_time": null,
+          "check_elapsed_ms": 0.13
+        },
+        {
+          "source_id": "src-frb-ny",
+          "cycle_id": "cycle-1787024142",
+          "health": "STALE",
+          "documents": 3,
+          "events": 2,
+          "new_docs": 0,
+          "new_events": 0,
+          "latest_doc_time": null,
+          "check_elapsed_ms": 0.12
+        },
+        {
+          "source_id": "src-boj",
+          "cycle_id": "cycle-1787024142",
+          "health": "STALE",
+          "documents": 13,
+          "events": 1,
+          "new_docs": 0,
+          "new_events": 0,
+          "latest_doc_time": null,
+          "check_elapsed_ms": 0.12
+        },
+        {
+          "source_id": "src-ecb-stat",
+          "cycle_id": "cycle-1787024142",
+          "health": "STALE",
+          "documents": 26,
+          "events": 4,
+          "new_docs": 0,
+          "new_events": 0,
+          "latest_doc_time": null,
+          "check_elapsed_ms": 0.13
+        },
+        {
+          "source_id": "src-treasurydirect-us",
+          "cycle_id": "cycle-1787024142",
+          "health": "STALE",
+          "documents": 9,
+          "events": 1,
+          "new_docs": 0,
+          "new_events": 0,
+          "latest_doc_time": null,
+          "check_elapsed_ms": 0.12
+        },
+        {
+          "source_id": "src-beis-uk",
+          "cycle_id": "cycle-1787024142",
+          "health": "STALE",
+          "documents": 10,
+          "events": 3,
+          "new_docs": 0,
+          "new_events": 0,
+          "latest_doc_time": null,
+          "check_elapsed_ms": 0.12
+        },
+        {
+          "source_id": "src-defra-carbon-uk",
+          "cycle_id": "cycle-1787024142",
+          "health": "STALE",
+          "documents": 10,
           "events": 1,
           "new_docs": 0,
           "new_events": 0,
@@ -168,225 +439,28 @@
           "check_elapsed_ms": 0.14
         },
         {
-          "source_id": "src-idda-ireland",
-          "cycle_id": "cycle-1787018227",
+          "source_id": "src-naic-us",
+          "cycle_id": "cycle-1787024142",
           "health": "STALE",
-          "documents": 20,
+          "documents": 4,
           "events": 1,
           "new_docs": 0,
           "new_events": 0,
           "latest_doc_time": null,
-          "check_elapsed_ms": 0.12
-        },
-        {
-          "source_id": "src-eurostat-emp",
-          "cycle_id": "cycle-1787018227",
-          "health": "STALE",
-          "documents": 15,
-          "events": 3,
-          "new_docs": 0,
-          "new_events": 0,
-          "latest_doc_time": null,
-          "check_elapsed_ms": 0.12
-        },
-        {
-          "source_id": "src-treasurydirect-us",
-          "cycle_id": "cycle-1787018227",
-          "health": "STALE",
-          "documents": 9,
-          "events": 1,
-          "new_docs": 0,
-          "new_events": 0,
-          "latest_doc_time": null,
-          "check_elapsed_ms": 0.12
-        },
-        {
-          "source_id": "src-cbk-kenya",
-          "cycle_id": "cycle-1787018227",
-          "health": "STALE",
-          "documents": 10,
-          "events": 4,
-          "new_docs": 0,
-          "new_events": 0,
-          "latest_doc_time": null,
-          "check_elapsed_ms": 0.12
-        },
-        {
-          "source_id": "src-defra-carbon-uk",
-          "cycle_id": "cycle-1787018227",
-          "health": "STALE",
-          "documents": 10,
-          "events": 1,
-          "new_docs": 0,
-          "new_events": 0,
-          "latest_doc_time": null,
-          "check_elapsed_ms": 0.12
-        },
-        {
-          "source_id": "src-cbsl-srilanka",
-          "cycle_id": "cycle-1787018227",
-          "health": "STALE",
-          "documents": 26,
-          "events": 1,
-          "new_docs": 0,
-          "new_events": 0,
-          "latest_doc_time": null,
-          "check_elapsed_ms": 0.12
-        },
-        {
-          "source_id": "src-frb-ny",
-          "cycle_id": "cycle-1787018227",
-          "health": "STALE",
-          "documents": 3,
-          "events": 2,
-          "new_docs": 0,
-          "new_events": 0,
-          "latest_doc_time": null,
-          "check_elapsed_ms": 0.11
-        },
-        {
-          "source_id": "src-eurostat-agri",
-          "cycle_id": "cycle-1787018227",
-          "health": "STALE",
-          "documents": 9,
-          "events": 2,
-          "new_docs": 0,
-          "new_events": 0,
-          "latest_doc_time": null,
-          "check_elapsed_ms": 0.13
-        }
-      ]
-    },
-    {
-      "cycle_id": "cycle-1787018227",
-      "elapsed_s": 0.0,
-      "sources_monitored": 11,
-      "results": [
-        {
-          "source_id": "src-dfsa-uae",
-          "cycle_id": "cycle-1787018227",
-          "health": "STALE",
-          "documents": 20,
-          "events": 1,
-          "new_docs": 0,
-          "new_events": 0,
-          "latest_doc_time": null,
-          "check_elapsed_ms": 0.12
-        },
-        {
-          "source_id": "src-boc",
-          "cycle_id": "cycle-1787018227",
-          "health": "STALE",
-          "documents": 25,
-          "events": 2,
-          "new_docs": 0,
-          "new_events": 0,
-          "latest_doc_time": null,
-          "check_elapsed_ms": 0.12
-        },
-        {
-          "source_id": "src-ecb-stat",
-          "cycle_id": "cycle-1787018227",
-          "health": "STALE",
-          "documents": 26,
-          "events": 1,
-          "new_docs": 0,
-          "new_events": 0,
-          "latest_doc_time": null,
-          "check_elapsed_ms": 0.12
-        },
-        {
-          "source_id": "src-idda-ireland",
-          "cycle_id": "cycle-1787018227",
-          "health": "STALE",
-          "documents": 20,
-          "events": 1,
-          "new_docs": 0,
-          "new_events": 0,
-          "latest_doc_time": null,
-          "check_elapsed_ms": 0.12
-        },
-        {
-          "source_id": "src-eurostat-emp",
-          "cycle_id": "cycle-1787018227",
-          "health": "STALE",
-          "documents": 15,
-          "events": 3,
-          "new_docs": 0,
-          "new_events": 0,
-          "latest_doc_time": null,
-          "check_elapsed_ms": 0.12
-        },
-        {
-          "source_id": "src-treasurydirect-us",
-          "cycle_id": "cycle-1787018227",
-          "health": "STALE",
-          "documents": 9,
-          "events": 1,
-          "new_docs": 0,
-          "new_events": 0,
-          "latest_doc_time": null,
-          "check_elapsed_ms": 0.11
-        },
-        {
-          "source_id": "src-cbk-kenya",
-          "cycle_id": "cycle-1787018227",
-          "health": "STALE",
-          "documents": 10,
-          "events": 4,
-          "new_docs": 0,
-          "new_events": 0,
-          "latest_doc_time": null,
-          "check_elapsed_ms": 0.12
-        },
-        {
-          "source_id": "src-defra-carbon-uk",
-          "cycle_id": "cycle-1787018227",
-          "health": "STALE",
-          "documents": 10,
-          "events": 1,
-          "new_docs": 0,
-          "new_events": 0,
-          "latest_doc_time": null,
-          "check_elapsed_ms": 0.13
-        },
-        {
-          "source_id": "src-cbsl-srilanka",
-          "cycle_id": "cycle-1787018227",
-          "health": "STALE",
-          "documents": 26,
-          "events": 1,
-          "new_docs": 0,
-          "new_events": 0,
-          "latest_doc_time": null,
-          "check_elapsed_ms": 0.12
-        },
-        {
-          "source_id": "src-frb-ny",
-          "cycle_id": "cycle-1787018227",
-          "health": "STALE",
-          "documents": 3,
-          "events": 2,
-          "new_docs": 0,
-          "new_events": 0,
-          "latest_doc_time": null,
-          "check_elapsed_ms": 0.11
-        },
-        {
-          "source_id": "src-eurostat-agri",
-          "cycle_id": "cycle-1787018227",
-          "health": "STALE",
-          "documents": 9,
-          "events": 2,
-          "new_docs": 0,
-          "new_events": 0,
-          "latest_doc_time": null,
-          "check_elapsed_ms": 0.12
+          "check_elapsed_ms": 0.14
         }
       ]
     }
   ],
   "freshness_by_class": {
+    "statistical_agency": {
+      "source_count": 4,
+      "total_docs": 65,
+      "total_events": 12,
+      "avg_doc_age_days": null,
+      "min_doc_age_days": null,
+      "max_doc_age_days": null
+    },
     "financial_regulator": {
       "source_count": 1,
       "total_docs": 20,
@@ -397,24 +471,8 @@
     },
     "central_bank": {
       "source_count": 4,
-      "total_docs": 64,
-      "total_events": 9,
-      "avg_doc_age_days": null,
-      "min_doc_age_days": null,
-      "max_doc_age_days": null
-    },
-    "statistical_agency": {
-      "source_count": 3,
-      "total_docs": 50,
-      "total_events": 6,
-      "avg_doc_age_days": null,
-      "min_doc_age_days": null,
-      "max_doc_age_days": null
-    },
-    "insurance_regulator": {
-      "source_count": 1,
-      "total_docs": 20,
-      "total_events": 1,
+      "total_docs": 60,
+      "total_events": 30,
       "avg_doc_age_days": null,
       "min_doc_age_days": null,
       "max_doc_age_days": null
@@ -427,9 +485,25 @@
       "min_doc_age_days": null,
       "max_doc_age_days": null
     },
+    "energy_ministry": {
+      "source_count": 1,
+      "total_docs": 10,
+      "total_events": 3,
+      "avg_doc_age_days": null,
+      "min_doc_age_days": null,
+      "max_doc_age_days": null
+    },
     "environmental_carbon_authority": {
       "source_count": 1,
       "total_docs": 10,
+      "total_events": 1,
+      "avg_doc_age_days": null,
+      "min_doc_age_days": null,
+      "max_doc_age_days": null
+    },
+    "insurance_regulator": {
+      "source_count": 1,
+      "total_docs": 4,
       "total_events": 1,
       "avg_doc_age_days": null,
       "min_doc_age_days": null,
