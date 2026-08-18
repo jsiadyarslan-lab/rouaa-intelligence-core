@@ -1,0 +1,28 @@
+{
+  "gt_total_facts": 1612,
+  "gt_total_events": 208,
+  "v17": {
+    "fact_tp": 245,
+    "fact_fp": 53,
+    "fact_fn": 1328,
+    "fact_precision": 82.2,
+    "fact_recall": 15.6,
+    "event_tp": 32,
+    "event_fp": 6,
+    "event_fn": 176,
+    "event_precision": 84.2,
+    "event_recall": 15.4
+  },
+  "v20": {
+    "fact_tp": 268,
+    "fact_fp": 53,
+    "fact_fn": 1344,
+    "fact_precision": 83.5,
+    "fact_recall": 16.6,
+    "event_tp": 47,
+    "event_fp": 8,
+    "event_fn": 161,
+    "event_precision": 85.5,
+    "event_recall": 22.6
+  }
+}
