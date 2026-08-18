@@ -1,0 +1,73 @@
+[
+  {
+    "io_id": "io-935ab64f33806484",
+    "event_type": "monetary_policy_decision",
+    "source_id": "imp-bea",
+    "document_id": "doc-7c5cd3967c2f9f10",
+    "root_cause": "KEYWORD_ONLY",
+    "reason": "Document contains 'rate' keyword but has no monetary policy decision context \u2014 it's a statistical release that happens to mention rates",
+    "fix": "Require BOTH monetary policy context AND decision language before creating monetary_policy_decision event",
+    "document_text_preview": "U.S. Economy at a Glance | U.S. Bureau of Economic Analysis (BEA) Skip to main content An official website of the United States government Toggle navigation Main navigation Data by Topic by Place by Economic Account Tools Interactive Data Application Programming Interface (API) Global Value Chain Analyzer Income Distribution Analysis Tool (IDAT) Country Facts BEARFACTS Industry Facts GDP & Personal Income Mapping RIMS II eFile News Economy at a Glance News Releases Release Schedule The BEA Wire ",
+    "facts": [
+      {
+        "metric": "policy_rate",
+        "value": "1.5",
+        "excerpt": "U.S. Economy at a Glance Table National Economic Accounts GDP (Advance Estimate), 2nd Quarter 2026 Q2 2026 (Adv) +1.5% Q1 2026 +2.1% Real gross domest"
+      },
+      {
+        "metric": "policy_rate",
+        "value": "2.1",
+        "excerpt": "Bureau of Economic Analysis (BEA). In the first quarter, real GDP increased 2.1 percent. The contributors to the increase in real GDP in the second qu"
+      },
+      {
+        "metric": "policy_rate",
+        "value": "0.2",
+        "excerpt": "Imports, which are a subtraction in the calculation of GDP, increased. Current Release Current Release: July 30, 2026 Next Release: August 26, 2026 GD"
+      }
+    ]
+  },
+  {
+    "io_id": "io-39cfc3b482bba190",
+    "event_type": "regulatory_enforcement",
+    "source_id": "imp-cftc",
+    "document_id": "doc-5d55c41d98f4dd08",
+    "root_cause": "KEYWORD_ONLY",
+    "reason": "Document contains 'enforcement' keyword but doesn't describe an actual enforcement action (no consent order, penalty, injunction, etc.)",
+    "fix": "Require actual enforcement action language (consent order, penalty imposed, charged with, etc.) not just the word 'enforcement'",
+    "document_text_preview": "The Economist Op-Ed | The New Era of Finance Needs Innovation More Than Consensus | CFTC /PressRoom/SpeechesTestimony/seligstatement080626 Skip to main content icon-hamburger Created with Sketch. Menu Transparency Contact Us Search Search Main navigation About the CFTC The Commission Chairman & Commissioners CFTC Organization Advisory Committees Innovation at the CFTC Agriculture at the CFTC Budget & Performance Privacy at the CFTC Careers Industry Oversight Industry Filings Trading Organization",
+    "facts": [
+      {
+        "metric": "penalty_amount",
+        "value": "1.2",
+        "excerpt": "For decades, derivatives\u2014financial contracts such as futures, options and swaps, whose value is based on the price or performance of an underlying ass"
+      }
+    ]
+  },
+  {
+    "io_id": "io-f405b7c878fbec26",
+    "event_type": "regulatory_enforcement",
+    "source_id": "imp-bea",
+    "document_id": "doc-7c5cd3967c2f9f10",
+    "root_cause": "KEYWORD_ONLY",
+    "reason": "Document contains 'enforcement' keyword but doesn't describe an actual enforcement action (no consent order, penalty, injunction, etc.)",
+    "fix": "Require actual enforcement action language (consent order, penalty imposed, charged with, etc.) not just the word 'enforcement'",
+    "document_text_preview": "U.S. Economy at a Glance | U.S. Bureau of Economic Analysis (BEA) Skip to main content An official website of the United States government Toggle navigation Main navigation Data by Topic by Place by Economic Account Tools Interactive Data Application Programming Interface (API) Global Value Chain Analyzer Income Distribution Analysis Tool (IDAT) Country Facts BEARFACTS Industry Facts GDP & Personal Income Mapping RIMS II eFile News Economy at a Glance News Releases Release Schedule The BEA Wire ",
+    "facts": [
+      {
+        "metric": "penalty_amount",
+        "value": "54.9",
+        "excerpt": "Imports, which are a subtraction in the calculation of GDP, increased. Current Release Current Release: July 30, 2026 Next Release: August 26, 2026 GD"
+      },
+      {
+        "metric": "penalty_amount",
+        "value": "48.3",
+        "excerpt": "Bureau of Economic Analysis (BEA). Disposable personal income (DPI)\u2014personal income less personal current taxes\u2014increased $48.3 billion (0.2 percent),"
+      },
+      {
+        "metric": "penalty_amount",
+        "value": "65.2",
+        "excerpt": "Bureau of Economic Analysis (BEA). Disposable personal income (DPI)\u2014personal income less personal current taxes\u2014increased $48.3 billion (0.2 percent),"
+      }
+    ]
+  }
+]

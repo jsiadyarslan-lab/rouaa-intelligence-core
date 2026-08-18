@@ -111,3 +111,23 @@ Work Log:
 Stage Summary:
 - Starting: Fact Precision 81.7%, Evidence 71.7%, Ambiguous 25.8%
 - Target: Fact ≥95%, Evidence ≥95%, FP=0%, Ambiguous ≤5%
+
+---
+Task ID: EVENT-SEMANTIC-CLOSURE-V6
+Agent: main
+Task: Execute CORE EVENT SEMANTIC CLOSURE V6 — eliminate 3 remaining false positives, implement document-level semantic gate, raise Event Precision to ≥98%, False Positives to 0%.
+
+Work Log:
+- Phase A: Forensic analysis of 3 false positives (BEA monetary, CFTC regulatory, BEA regulatory)
+- Phase B: Define explicit event context requirements per Event Type
+- Phase C: Implement document-level semantic gate (fact → context → event gate → event)
+- Phase D: Reprocess corpus with improved gates
+- Phase E: Re-audit ≥200 events for Event Precision ≥98%
+- Phase F: Evidence directness classification (Direct ≥90%, Insufficient = 0%)
+- Phase G: Multilingual prioritization (PRIORITY vs DEFERRED)
+- Phase H: 50+ golden corpus with 3 NEGATIVE regression tests
+- Phase I: V6 evidence document
+
+Stage Summary:
+- Starting: Event Precision 95.0%, False Positives 2.5%, Direct Evidence 73.5%
+- Target: Event Precision ≥98%, False Positives = 0%, Direct Evidence ≥90%

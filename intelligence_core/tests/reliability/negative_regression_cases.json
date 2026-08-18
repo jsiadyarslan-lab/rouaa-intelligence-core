@@ -1,0 +1,29 @@
+{
+  "io-935ab64f33806484": {
+    "io_id": "io-935ab64f33806484",
+    "event_type": "monetary_policy_decision",
+    "source_id": "imp-bea",
+    "document_id": "doc-7c5cd3967c2f9f10",
+    "negative_test": true,
+    "reason": "BEA GDP statistical release incorrectly classified as monetary_policy_decision",
+    "frozen_at": "2026-08-18T01:03:18Z"
+  },
+  "io-39cfc3b482bba190": {
+    "io_id": "io-39cfc3b482bba190",
+    "event_type": "regulatory_enforcement",
+    "source_id": "imp-cftc",
+    "document_id": "doc-5d55c41d98f4dd08",
+    "negative_test": true,
+    "reason": "CFTC op-ed incorrectly classified as regulatory_enforcement",
+    "frozen_at": "2026-08-18T01:03:18Z"
+  },
+  "io-f405b7c878fbec26": {
+    "io_id": "io-f405b7c878fbec26",
+    "event_type": "regulatory_enforcement",
+    "source_id": "imp-bea",
+    "document_id": "doc-7c5cd3967c2f9f10",
+    "negative_test": true,
+    "reason": "BEA statistical release incorrectly classified as regulatory_enforcement",
+    "frozen_at": "2026-08-18T01:03:18Z"
+  }
+}

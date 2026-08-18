@@ -60,3 +60,6 @@ scale_validation_store/blobs/
 # V5 — ignore transient test artifacts
 /fact_evidence_audit_results.json
 /multilingual_audit_results.json
+
+# V6 — ignore transient test artifacts
+/false_positive_forensic_results.json
