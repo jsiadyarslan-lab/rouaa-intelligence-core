@@ -168,3 +168,16 @@ Work Log:
 - Phase I: Multilingual accounting matrix
 - Phase J: 60+ golden corpus
 - Phase K: V8 evidence document
+
+---
+Task ID: COMPLETE-LINEAGE-EVIDENCE-V9
+Agent: main
+Task: Close complete 626→153 lineage accounting + fix 19 fact failures + 270 INDIRECT evidence. sum(lineage)=626. Every current IO mapped backward. Fact Precision ≥99.5%, Direct Evidence ≥95%.
+
+Phase A: Build complete 626 V3 cohort ledger (terminal lineage statuses)
+Phase B: Link 626 → 437 → 119+318 → 119+34=153
+Phase C: Audit + fix 19 fact failures
+Phase D: Analyze + fix 270 INDIRECT evidence (navigation/UI exclusion)
+Phase E: Recovery after fixes
+Phase F: 60+ golden corpus
+Phase G: V9 evidence document
