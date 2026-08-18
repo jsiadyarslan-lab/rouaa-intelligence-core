@@ -1,13 +1,13 @@
 {
   "survivor_audit": {
-    "total": 144,
+    "total": 153,
     "valid": 144,
     "ambiguous": 0,
-    "false_positive": 0,
-    "event_precision_pct": 100.0,
-    "false_positive_rate_pct": 0.0,
+    "false_positive": 9,
+    "event_precision_pct": 94.1,
+    "false_positive_rate_pct": 5.9,
     "numerator": 144,
-    "denominator": 144,
+    "denominator": 153,
     "universe": "all surviving events",
     "sample": "census (100% of corpus)",
     "results": [
@@ -73,6 +73,13 @@
         "source_id": "imp-sec",
         "status": "SEMANTICALLY_VALID",
         "reason": "document has sufficient context (2/2 patterns matched)"
+      },
+      {
+        "io_id": "io-f76ffc30691c854c",
+        "event_type": "regulatory_enforcement",
+        "source_id": "imp-fca",
+        "status": "FALSE_POSITIVE",
+        "reason": "missing required context patterns (1/2 matched)"
       },
       {
         "io_id": "io-f3750c8c05f9b04c",
@@ -180,6 +187,13 @@
         "reason": "document has sufficient context (2/2 patterns matched)"
       },
       {
+        "io_id": "io-3ba6bc20160d3cd7",
+        "event_type": "regulatory_enforcement",
+        "source_id": "imp-esma",
+        "status": "FALSE_POSITIVE",
+        "reason": "missing required context patterns (1/2 matched)"
+      },
+      {
         "io_id": "io-03f54ef461c06001",
         "event_type": "statistical_release",
         "source_id": "imp-hm-treasury",
@@ -199,6 +213,20 @@
         "source_id": "imp-bea",
         "status": "SEMANTICALLY_VALID",
         "reason": "document has sufficient context (2/2 patterns matched)"
+      },
+      {
+        "io_id": "io-4b3549f2bfeabd43",
+        "event_type": "statistical_release",
+        "source_id": "imp-bea",
+        "status": "FALSE_POSITIVE",
+        "reason": "missing required context patterns (1/2 matched)"
+      },
+      {
+        "io_id": "io-0c647330a91d640c",
+        "event_type": "statistical_release",
+        "source_id": "imp-bea",
+        "status": "FALSE_POSITIVE",
+        "reason": "missing required context patterns (1/2 matched)"
       },
       {
         "io_id": "io-09189d018d2081b4",
@@ -635,6 +663,13 @@
         "reason": "document has sufficient context (2/2 patterns matched)"
       },
       {
+        "io_id": "io-b5e6e01f2a705af8",
+        "event_type": "statistical_release",
+        "source_id": "imp-bea",
+        "status": "FALSE_POSITIVE",
+        "reason": "missing required context patterns (1/2 matched)"
+      },
+      {
         "io_id": "io-cc38d9340dd09ee6",
         "event_type": "statistical_release",
         "source_id": "imp-bea",
@@ -768,6 +803,13 @@
         "reason": "document has sufficient context (2/2 patterns matched)"
       },
       {
+        "io_id": "io-c322e66ad91a84bb",
+        "event_type": "statistical_release",
+        "source_id": "src-cma-energy",
+        "status": "FALSE_POSITIVE",
+        "reason": "missing required context patterns (1/2 matched)"
+      },
+      {
         "io_id": "io-6fef2e40160506bb",
         "event_type": "statistical_release",
         "source_id": "src-eurostat-emp",
@@ -829,6 +871,20 @@
         "source_id": "src-ecb-stat",
         "status": "SEMANTICALLY_VALID",
         "reason": "document has sufficient context (2/2 patterns matched)"
+      },
+      {
+        "io_id": "io-478b3771245b3bd0",
+        "event_type": "regulatory_enforcement",
+        "source_id": "src-dfsa-uae",
+        "status": "FALSE_POSITIVE",
+        "reason": "missing required context patterns (1/2 matched)"
+      },
+      {
+        "io_id": "io-4d78210bf97ce3af",
+        "event_type": "regulatory_enforcement",
+        "source_id": "src-ecb-stat",
+        "status": "FALSE_POSITIVE",
+        "reason": "missing required context patterns (1/2 matched)"
       },
       {
         "io_id": "io-135e23aacb4d8f27",
@@ -1018,30 +1074,37 @@
         "source_id": "src-cbbh-bosnia",
         "status": "SEMANTICALLY_VALID",
         "reason": "document has sufficient context (2/2 patterns matched)"
+      },
+      {
+        "io_id": "io-3d564cb820f793a1",
+        "event_type": "regulatory_enforcement",
+        "source_id": "src-ecb-stat2",
+        "status": "FALSE_POSITIVE",
+        "reason": "missing required context patterns (1/2 matched)"
       }
     ]
   },
   "fact_audit": {
-    "total_facts": 1402,
+    "total_facts": 1463,
     "fact_quality_dist": {
-      "DIRECTLY_SUPPORTED": 1321,
+      "DIRECTLY_SUPPORTED": 1381,
       "INSUFFICIENT_EVIDENCE": 75,
-      "WRONG_CONTEXT": 6
+      "WRONG_CONTEXT": 7
     },
     "evidence_grounding_dist": {
-      "INDIRECT_EVIDENCE": 246,
-      "DIRECT_EVIDENCE": 1156
+      "INDIRECT_EVIDENCE": 247,
+      "DIRECT_EVIDENCE": 1216
     },
-    "fact_precision_pct": 94.2,
-    "direct_evidence_pct": 82.5,
+    "fact_precision_pct": 94.4,
+    "direct_evidence_pct": 83.1,
     "insufficient_evidence_count": 0,
     "insufficient_evidence_pct": 0.0,
-    "numerator_fact": 1321,
-    "denominator_fact": 1402,
+    "numerator_fact": 1381,
+    "denominator_fact": 1463,
     "universe_fact": "all facts attached to surviving events",
     "sample_fact": "census (100%)",
-    "numerator_direct": 1156,
-    "denominator_direct": 1402,
+    "numerator_direct": 1216,
+    "denominator_direct": 1463,
     "universe_direct": "all facts attached to surviving events",
     "sample_direct": "census (100%)"
   }
