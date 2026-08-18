@@ -150,3 +150,21 @@ Work Log:
 Stage Summary:
 - Starting: 153 IOs, Direct Evidence 73.5%, Event Precision 100% (on 61 sample)
 - Target: Event Precision ≥98% (on 120+), Fact Precision ≥98% (on 500+), Direct Evidence ≥90% (on 300+)
+
+---
+Task ID: VALIDATION-LEDGER-GOVERNANCE-V8
+Agent: main
+Task: Build canonical validation ledger + quality metric governance. Every entity has explicit disposition, every KPI has numerator/denominator/universe. Full 153/153 audit, full fact audit, 626 reconciliation with sum=original.
+
+Work Log:
+- Phase A: Build ValidationLedger (DOCUMENT, EVENT_CANDIDATE, EVENT, IO, FACT, EVIDENCE)
+- Phase B: Full V3→V8 reconciliation (626 terminal dispositions, sum = original)
+- Phase C: Rejection ledger (provenance for every rejected candidate)
+- Phase D: KPI governance (numerator + denominator + universe + sample method)
+- Phase E: Full 153/153 survivor audit (not sample)
+- Phase F: Full fact audit (ALL facts, not 500)
+- Phase G: Direct evidence ≥95% with strict definition
+- Phase H: Recovery from 426 candidates
+- Phase I: Multilingual accounting matrix
+- Phase J: 60+ golden corpus
+- Phase K: V8 evidence document
