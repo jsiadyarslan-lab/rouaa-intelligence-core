@@ -235,3 +235,8 @@ Task: Build independent ground-truth benchmark on 300 real documents. Measure re
 Task ID: RECALL-GROUND-TRUTH-HARDENING-V15
 Agent: main
 Task: Reconcile 1,612 vs 681 GT facts. Human-adjudicate benchmark. Build pattern-gap taxonomy. HTML-aware extraction. First recall recovery. Frozen benchmark re-run.
+
+---
+Task ID: GROUND-TRUTH-ACCOUNTING-V16
+Agent: main
+Task: Reconcile all V14/V15 numbers into one mathematically consistent ground-truth universe. Prove what TRUE Fact Recall is. No extraction changes.
