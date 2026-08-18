@@ -1,0 +1,152 @@
+{
+  "forensic_analysis": {
+    "total_events": 14,
+    "classification": {
+      "TRUE_EVENT": 14
+    },
+    "forensic_results": [
+      {
+        "event_id": "evt-de90a317a69593eb",
+        "event_type": "statistical_release",
+        "document_id": "doc-ac00651c0093d6f9",
+        "classification": "TRUE_EVENT",
+        "semantic_valid": true,
+        "semantic_reason": "context valid (2/2)",
+        "chain_ok": true,
+        "language": "en"
+      },
+      {
+        "event_id": "evt-a5ff702530367617",
+        "event_type": "monetary_policy_decision",
+        "document_id": "doc-60379f7197c52080",
+        "classification": "TRUE_EVENT",
+        "semantic_valid": true,
+        "semantic_reason": "context valid (2/2)",
+        "chain_ok": true,
+        "language": "en"
+      },
+      {
+        "event_id": "evt-955c53ab013e63b1",
+        "event_type": "statistical_release",
+        "document_id": "doc-60379f7197c52080",
+        "classification": "TRUE_EVENT",
+        "semantic_valid": true,
+        "semantic_reason": "context valid (2/2)",
+        "chain_ok": true,
+        "language": "en"
+      },
+      {
+        "event_id": "evt-4202b509c86ea6d7",
+        "event_type": "monetary_policy_decision",
+        "document_id": "doc-3977e22b6168c0e8",
+        "classification": "TRUE_EVENT",
+        "semantic_valid": true,
+        "semantic_reason": "context valid (2/2)",
+        "chain_ok": true,
+        "language": "en"
+      },
+      {
+        "event_id": "evt-60ba1430c6e2a5b6",
+        "event_type": "statistical_release",
+        "document_id": "doc-3977e22b6168c0e8",
+        "classification": "TRUE_EVENT",
+        "semantic_valid": true,
+        "semantic_reason": "context valid (2/2)",
+        "chain_ok": true,
+        "language": "en"
+      },
+      {
+        "event_id": "evt-96644749b358baca",
+        "event_type": "statistical_release",
+        "document_id": "doc-7c5cd3967c2f9f10",
+        "classification": "TRUE_EVENT",
+        "semantic_valid": true,
+        "semantic_reason": "context valid (2/2)",
+        "chain_ok": true,
+        "language": "en"
+      },
+      {
+        "event_id": "evt-67f14ecfb915582d",
+        "event_type": "statistical_release",
+        "document_id": "doc-31841035c943c52f",
+        "classification": "TRUE_EVENT",
+        "semantic_valid": true,
+        "semantic_reason": "context valid (2/2)",
+        "chain_ok": true,
+        "language": "en"
+      },
+      {
+        "event_id": "evt-3b548a186101450d",
+        "event_type": "statistical_release",
+        "document_id": "doc-632f5af27cb8e177",
+        "classification": "TRUE_EVENT",
+        "semantic_valid": true,
+        "semantic_reason": "context valid (2/2)",
+        "chain_ok": true,
+        "language": "en"
+      },
+      {
+        "event_id": "evt-0181a2ccb1e92a47",
+        "event_type": "statistical_release",
+        "document_id": "doc-ab8dbef146c79b7d",
+        "classification": "TRUE_EVENT",
+        "semantic_valid": true,
+        "semantic_reason": "context valid (2/2)",
+        "chain_ok": true,
+        "language": "en"
+      },
+      {
+        "event_id": "evt-9f0155f4098cba79",
+        "event_type": "statistical_release",
+        "document_id": "doc-584efdd36f10b9b3",
+        "classification": "TRUE_EVENT",
+        "semantic_valid": true,
+        "semantic_reason": "context valid (2) [lang=ja]",
+        "chain_ok": true,
+        "language": "ja"
+      },
+      {
+        "event_id": "evt-31a17f8e8c7f6ff4",
+        "event_type": "regulatory_enforcement",
+        "document_id": "doc-9a2c3554bf239005",
+        "classification": "TRUE_EVENT",
+        "semantic_valid": true,
+        "semantic_reason": "context valid (2/2)",
+        "chain_ok": true,
+        "language": "en"
+      },
+      {
+        "event_id": "evt-6726f19bf8a5555d",
+        "event_type": "regulatory_enforcement",
+        "document_id": "doc-fa4e9cecec3e8d7d",
+        "classification": "TRUE_EVENT",
+        "semantic_valid": true,
+        "semantic_reason": "context valid (2/2)",
+        "chain_ok": true,
+        "language": "en"
+      },
+      {
+        "event_id": "evt-35110dcbe6af1e8b",
+        "event_type": "regulatory_enforcement",
+        "document_id": "doc-607891ddb7eae21c",
+        "classification": "TRUE_EVENT",
+        "semantic_valid": true,
+        "semantic_reason": "context valid (2/2)",
+        "chain_ok": true,
+        "language": "en"
+      },
+      {
+        "event_id": "evt-ecd70f3ae34ce3bb",
+        "event_type": "regulatory_enforcement",
+        "document_id": "doc-b72c1ee4a05de89b",
+        "classification": "TRUE_EVENT",
+        "semantic_valid": true,
+        "semantic_reason": "context valid (2/2)",
+        "chain_ok": true,
+        "language": "en"
+      }
+    ]
+  },
+  "metric_normalization_tests_pass": true,
+  "unit_confusion_tests_pass": true
+}
