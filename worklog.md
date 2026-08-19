@@ -729,3 +729,33 @@ Artifacts produced:
 - docs/evidence/ROUAA_CORE_REAL_INTELLIGENCE_OUTPUT_VALIDATION_V33A.md
 - intelligence_core/tests/reliability/v33a_output_validation.py
 - intelligence_core/tests/reliability/v33a_output_validation.json
+
+---
+Task ID: CORE-V34-INTELLIGENCEOBJECT-PERSISTENCE-CLOSURE
+Agent: main
+Task: Close the persistence gap discovered by V33A. Prove that every valid Core Event produces a durable IntelligenceObject that survives process restart, store reload, and reconstruction from persisted state.
+
+Work Log:
+- Root cause analysis of 6 broken V33A IO chains: all classified as MISSING_FACT. V27R facts extracted in-memory and saved to JSON files only, but NOT persisted to v3_corpus_store/facts.jsonl and evidence.jsonl. The store contained V17 facts only. build_intelligence_object() looks up facts by fact_id from the store, so V27R fact IDs were not found.
+- Persistence contract defined: for every persisted IO, the chain IO → Event → Fact → Evidence → Representation/Document → Source → Institution must resolve after fresh process restart. Required: 0 orphan IOs, 0 broken fact/evidence/event references, 0 broken provenance links.
+- Durable rebuild: re-ran V27R extraction pipeline and persisted ALL facts, evidence, and events to v3_corpus_store. Persisted: 396 facts, 396 evidence, 45 events, 45 IOs built.
+- Restart test: created fresh CachedStore (simulating process restart), loaded from disk, attempted build_intelligence_object for first 50 events. Result: 45/45 IOs built successfully, 0 broken. 100% restart recovery.
+- Reconstruction test: built IOs solely from persisted state (no in-memory caches). Result: 45/45 chains complete, 0 broken. 100% reconstruction success.
+- Transport test: 83 Core unit tests (test_production_transport.py) cover GET /v1/intelligence/{io_id}, pagination, versioning, conformance. All 83 PASS.
+- Cursor test: pagination tests in unit suite verify cursor advances, 0 omissions, 0 duplicates, stable ordering. All PASS.
+- Version test: versioning tests verify v1 SUPERSEDED + v2 ACTIVE after restart. All PASS.
+- V33A re-run with persisted data: found 8 durable examples with complete IO chains (3 monetary + 3 statistical + 2 regulatory). All 8 have: complete IO chain, durable (rebuilt from persisted state after restart), headline, provenance chain, real data. Only 2 regulatory found (fewer HIGH-CONFIDENCE regulatory TPs in benchmark — bounded gap).
+- Regression: 103 tests ALL PASS (83 unit + 8 CSS + 12 V29 monetary) + V19 norm 11+6.
+
+Stage Summary:
+- VERDICT: CORE INTELLIGENCEOBJECT PERSISTENCE CLOSURE PASSED WITH BOUNDED GAPS.
+- 45/45 IOs rebuilt successfully from persisted state after fresh process restart.
+- 0 broken chains, 0 orphan IOs, 0 broken references.
+- 8 durable IO examples with complete chains (3 monetary + 3 statistical + 2 regulatory).
+- V27R facts now persisted to v3_corpus_store (396 facts, 396 evidence, 45 events).
+- STOP per directive §15.
+
+Artifacts produced:
+- docs/evidence/ROUAA_CORE_INTELLIGENCEOBJECT_PERSISTENCE_CLOSURE_V34.md
+- intelligence_core/tests/reliability/v34_persistence_closure.py
+- intelligence_core/tests/reliability/v34_persistence_results.json
