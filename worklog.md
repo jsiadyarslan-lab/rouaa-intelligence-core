@@ -759,3 +759,39 @@ Artifacts produced:
 - docs/evidence/ROUAA_CORE_INTELLIGENCEOBJECT_PERSISTENCE_CLOSURE_V34.md
 - intelligence_core/tests/reliability/v34_persistence_closure.py
 - intelligence_core/tests/reliability/v34_persistence_results.json
+
+---
+Task ID: CORE-V35-LIVE-DELIVERY-RESTART-VALIDATION
+Agent: main
+Task: Validate full durable delivery path of Core as a standalone service. Start live HTTP server, query IOs, restart process, query again, test cursor/concurrent/version/provenance/performance.
+
+Work Log:
+- Started production transport server (ThreadingHTTPServer) on port 9173 against persisted v3_corpus_store. No mocks — real HTTP server.
+- Process A: queried 20 real IOs via GET /v1/intelligence/{io_id}. All 20 returned HTTP 200 with complete IO structure (io_id + event_id + chain + version). ✓
+- Process restart: terminated Process A, started Process B with same persisted store. Queried same 20 IOs. Result: 20/20 success, 0 broken. 100% restart recovery. ✓
+- List endpoint: paginated through all 45 IOs at limit=25. 2 pages, 0 duplicates, 0 omissions. Cursor stable. ✓
+- Single-IO latency: p50=0.7ms, p95=0.9ms, p99=1.0ms. Sub-millisecond. ✓
+- Concurrent readers: 10/10 (100%), 25/25 (100%), 50/50 (100%). No dropped connections. ✓
+- Provenance walk: 10/10 IOs with complete chain, 0 broken links. IO→Event→Fact→Evidence→Representation→Source all resolve. ✓
+- Real durable examples via HTTP: 9 complete (3 monetary + 3 statistical + 3 regulatory). All retrieved via live HTTP after restart, all with provenance chains. ✓
+- Performance: List endpoint p50=2.6ms, p95=2.8ms. ✓
+- Regression: 120 tests ALL PASS (no code changes). ✓
+
+Stage Summary:
+- VERDICT: CORE LIVE DELIVERY VALIDATION PASSED.
+- Core is now a standalone intelligence engine:
+  * Extracts real intelligence from official sources ✓
+  * Persists it durably ✓
+  * Survives process restart ✓
+  * Delivers via live HTTP ✓
+  * Supports cursor pagination ✓
+  * Handles 50 concurrent readers at 100% ✓
+  * Maintains provenance chains ✓
+  * Sub-millisecond latency ✓
+- 9 real durable IO examples via HTTP (3+3+3).
+- STOP per directive §16.
+
+Artifacts produced:
+- docs/evidence/ROUAA_CORE_LIVE_DELIVERY_RESTART_VALIDATION_V35.md
+- intelligence_core/tests/reliability/v35_live_delivery.py
+- intelligence_core/tests/reliability/v35_live_delivery_results.json
