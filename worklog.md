@@ -656,3 +656,39 @@ Artifacts produced:
 - intelligence_core/tests/reliability/v31_gt_audit.py
 - intelligence_core/tests/reliability/v31_gt_audit_results.json
 - intelligence_core/tests/reliability/fact_gt_v2.json (GT_V2, 1,187 facts)
+
+---
+Task ID: CORE-V32-DEEP-MACHINE-GT-ADJUDICATION
+Agent: main
+Task: Deep machine adjudication of all 788 V31 AMBIGUOUS GT facts. NOT human review. Reduce ambiguity using deeper structural/semantic analysis. Build GT_V3, compute recall bounds, prepare human review packet.
+
+Work Log:
+- Deep adjudicated all 788 V31 AMBIGUOUS facts using: DOM location analysis (nav/footer/aside vs article/main/section), link structure (anchor tags, stock photo credits), semantic context (±300 chars sentence, ±600 chars paragraph), metric context (keyword/unit/entity/period), document purpose (listing page vs publication), duplication check (>5 occurrences = duplicate).
+- V32 dispositions: DUPLICATE_SEMANTIC_FACT 463 (58.8%), REMAINS_AMBIGUOUS 203 (25.8%), TRUE_MATERIAL_FACT 116 (14.7%), LISTING_OVER_CAPTURE 6 (0.8%). Hard invariant: 463+203+116+6 = 788 ✓.
+- Key finding: 463 of 788 AMBIGUOUS (58.8%) were reclassified as DUPLICATE_SEMANTIC_FACT — same value appears >5 times in document, indicating repeated navigation/listing element.
+- Built GT_V3_MACHINE_ADJUDICATED: 724 facts (V31 TRUE_MATERIAL 399 + V32 TRUE_MATERIAL 116 + REMAINS_AMBIGUOUS 203 + MEDIUM-confidence). Removed 469 HIGH-confidence duplicates/listings with full lineage.
+- Recall recalculation: Original GT (1,612) Recall=20.97%, GT_V2 (1,187) Recall=27.04%, GT_V3 (724) Recall=40.19%.
+- Uncertainty bounds: Lower bound (all 203 ambiguous valid) = 40.19%. Upper bound (all 203 ambiguous artifacts) = 55.85%. Machine-adjudicated estimate = 40.19%.
+- True extraction gap: 175 HIGH-confidence true FN (V31 missed 143 + V32 HIGH missed 32). Gap taxonomy: EVIDENCE_SELECTION_GAP 158 (90.3%), METRIC_CONTEXT_GAP 11, ENTITY_CONTEXT_GAP 2, OTHER 4.
+- Key insight: 90.3% of HIGH-confidence true FN are EVIDENCE_SELECTION_GAP — value has metric+unit context but evidence classifier rejects the excerpt. Same bottleneck as V27R.
+- Built human review packet: 468 cases (all LOW + all MEDIUM + representative HIGH + all V31 missed). Saved as CSV and JSON. Explicitly states "Machine-prepared; human adjudication pending."
+- Regression: 103 tests ALL PASS. V19 normalization 11+6 pass. All invariants hold: GT_V3 TP(291)+FN(433)=724 ✓.
+
+Stage Summary:
+- VERDICT: CORE DEEP MACHINE GT ADJUDICATION PASSED WITH BOUNDED GAPS.
+- Machine-adjudicated Recall: 40.19% (GT_V3, 724 facts). NOT "True Recall".
+- True Recall is between 40.19% and 55.85% (pending human review of 203 AMBIGUOUS).
+- 175 HIGH-confidence true FN remain — 90.3% are evidence selection gaps.
+- Human review packet (468 cases) ready for human adjudication.
+- V30's 35.3% estimate was UNDERSTATED (machine-adjudicated is 40.19%).
+- V31's 27.04% was conservative (GT_V2 included 788 ambiguous, GT_V3 removed 469).
+- STOP per directive §17. Next: human review of packet, then V33 evidence selection improvement.
+
+Artifacts produced:
+- docs/evidence/ROUAA_CORE_DEEP_MACHINE_GT_ADJUDICATION_V32.md
+- docs/evidence/ROUAA_CORE_HUMAN_REVIEW_PACKET_V32.csv
+- intelligence_core/tests/reliability/v32_deep_adjudication.py
+- intelligence_core/tests/reliability/v32_deep_adjudication_results.json
+- intelligence_core/tests/reliability/v32_adjudication_ledger.json
+- intelligence_core/tests/reliability/v32_review_packet.json
+- intelligence_core/tests/reliability/fact_gt_v3.json (GT_V3, 724 facts)
