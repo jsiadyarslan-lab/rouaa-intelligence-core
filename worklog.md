@@ -429,3 +429,29 @@ Artifacts produced:
 - intelligence_core/tests/reliability/v27r_results.json
 - intelligence_core/tests/reliability/v27r_raw_facts.json
 - intelligence_core/tests/reliability/v27r_raw_events.json
+
+---
+Task ID: CORE-V23-V27-RECONSTRUCTION-FINAL-LEDGER
+Agent: main
+Task: Final reconstruction ledger for V23→V27 controlled reconstruction. Cross-stage regression + summary.
+
+Work Log:
+- Ran cross-stage regression: 91 unit tests + 8 CSS exclusion tests + V19 normalization (11+6) = 108 tests ALL PASS.
+- Created final reconstruction ledger: docs/evidence/ROUAA_CORE_V23_V27_RECONSTRUCTION_LEDGER.md.
+- Verified all 5 stages (V23R→V27R) pushed to remote with git ls-remote verification.
+- Verified all invariants hold from V23R onward (V22 V17 invariant was broken, V23R fixed it).
+- Cumulative improvement: Fact Recall +5.37pp (15.6% → 20.97%), Event Recall +5.75pp (15.4% → 21.15%).
+- V27R has 0 TRUE extraction errors (1 GT artifact only). Mechanical precision 84.50%, forensic precision 99.75%.
+
+Stage Summary:
+- VERDICT: CORE V23→V27 RECONSTRUCTION VERIFIED.
+- All 5 stages reconstructed from V22 verified checkpoint.
+- All commits pushed to remote (git ls-remote verified).
+- All measurements independently derived (NOT using previous V23-V27 reported metrics).
+- All invariants hold (TP+FN = GT_TOTAL for both facts and events, all stages V23R+).
+- 108 regression tests pass.
+- The V23→V27 chain is now durable on GitHub.
+- STOP per directive. V28 actual engineering deferred until user review.
+
+Artifacts produced:
+- docs/evidence/ROUAA_CORE_V23_V27_RECONSTRUCTION_LEDGER.md (this final ledger)
