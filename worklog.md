@@ -795,3 +795,44 @@ Artifacts produced:
 - docs/evidence/ROUAA_CORE_LIVE_DELIVERY_RESTART_VALIDATION_V35.md
 - intelligence_core/tests/reliability/v35_live_delivery.py
 - intelligence_core/tests/reliability/v35_live_delivery_results.json
+
+---
+Task ID: CORE-V36-INTELLIGENCE-OUTPUT-COVERAGE-AUDIT
+Agent: main
+Task: Audit the 9 durable V35 IOs. Derive Canonical Intelligence Contract V1. Audit reusability across News/Trading/Corporate/Research/Risk/Compliance. Build coverage gap map. Strategic recommendation.
+
+Work Log:
+- Forensically audited all 9 durable V35 IOs: 3 monetary_policy_decision, 3 statistical_release, 3 regulatory_enforcement. Each inspected for: source, institution, document, representation, evidence, facts, event, IO, version lineage, temporal data, provenance chain.
+- Key findings:
+  * Only 1/9 IOs has temporal_data (SEC example from RSS pubDate)
+  * Headlines are generic (source_name + event_type) — not editorial quality
+  * Density varies: 1-31 facts per IO (BEA statistical is densest at 31 facts)
+  * All 9 have complete provenance chains — 0 broken links
+  * Entity is NOT a separate field — embedded in evidence excerpt
+  * Unit is NOT a separate field — embedded in raw_value
+- Derived CORE_CANONICAL_INTELLIGENCE_CONTRACT_V1: 8 sections (A-I) covering Identity, Event Semantics, Facts, Evidence, Temporal, Source/Provenance, Version, Quality, Context. Required vs optional vs not-present fields documented.
+- Reusability audit: 0/10 workflows READY, 8/10 PARTIALLY_READY, 0 NOT_READY. All IOs have facts+evidence+provenance but lack temporal_data and editorial headlines. Raw intelligence is present but needs enrichment.
+- News consumability: Core provides event type, facts, evidence, source. News must add editorial headline, story, language, ranking. PARTIALLY_READY.
+- Trading consumability: Core provides rate values, GDP figures, penalty amounts. Core MUST NOT create BUY/SELL. PARTIALLY_READY — temporal_data missing limits timing-sensitive use.
+- Corporate consumability: Core provides action type, penalty amounts, evidence, source. Entity not structured. PARTIALLY_READY.
+- Multi-workflow reuse test: 1 IO (SEC enforcement) can feed 5+ workflows (News, Trading, Corporate, Compliance, Research) without changing the Core object. Canonical payload is reusable.
+- Information density: HIGH 2, MEDIUM 4, LOW 3.
+- Coverage gap map: 3 P0 (evidence selection, recall, event recall), 6 P1 (entity, temporal, headline, multilingual, navigation, document purpose), 3 P2 (unit, quality metadata, GT ambiguity).
+- Source scale: safe to 1,000 sources with current architecture. Bottleneck at 5,000+ due to evidence selection gap.
+- Strategic recommendation: E. HYBRID — 1) Continue quality/recall work, 2) Improve semantic contract (headlines, entity, temporal), 3) Expand sources, 4) Prepare for product integration.
+- Created docs/architecture/ROUAA_CORE_CANONICAL_INTELLIGENCE_CONTRACT_V1.md.
+
+Stage Summary:
+- VERDICT: CORE INTELLIGENCE OUTPUT AUDIT PASSED WITH BOUNDED GAPS.
+- 9 durable IOs audited with complete provenance and evidence.
+- Canonical contract derived — IO payload is reusable across workflows.
+- 0/10 workflows READY (all PARTIALLY_READY due to missing temporal/headlines).
+- 3 P0 gaps: evidence selection (158 FN), recall (40.19%), event recall (20.67%).
+- Recommendation: E. HYBRID — recall first, then semantic enrichment, then source expansion.
+- STOP per directive §21.
+
+Artifacts produced:
+- docs/evidence/ROUAA_CORE_INTELLIGENCE_OUTPUT_COVERAGE_AUDIT_V36.md
+- docs/architecture/ROUAA_CORE_CANONICAL_INTELLIGENCE_CONTRACT_V1.md
+- intelligence_core/tests/reliability/v36_output_audit.py
+- intelligence_core/tests/reliability/v36_output_audit_results.json
