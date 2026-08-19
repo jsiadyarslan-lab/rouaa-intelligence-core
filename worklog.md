@@ -275,3 +275,32 @@ Artifacts produced:
 - docs/evidence/ROUAA_CORE_HISTORY_RECOVERY_V28R.md
 - /home/z/my-project/v28r_recovery/rouaa-intelligence-core/ (fresh V22 clone, verified)
 - /home/z/my-project/v28r_recovery/v23_v27_surviving_scripts/ (15 scripts, copied from /tmp)
+
+---
+Task ID: CORE-V23R-RECONSTRUCTION
+Agent: main
+Task: Controlled reconstruction of V23 (bipartite matching closure) from V22 verified checkpoint. Independent measurement — NOT using previous V23 reported metrics as expected results.
+
+Work Log:
+- Started from V22 verified checkpoint (71e7805) + V28R recovery report (17eea7a).
+- Implemented V23R bipartite matching with multiplicities: canonical_identity = (doc, canonical_metric, canonical_value). TP += min(GT, Core), FN += max(0, GT-Core), FP += max(0, Core-GT). Guarantees TP+FN = GT_TOTAL by construction.
+- Ran V23R against V17 raw facts (from V22 store): TP=187, FP=111, FN=1425, DUP=41. Invariant TP+FN=1612 ✓ PASSES.
+- Ran V23R against V20 raw facts (re-extracted using V21 pipeline, 70.9s): TP=251, FP=70, FN=1361, DUP=0. Invariant TP+FN=1612 ✓ PASSES.
+- V17 and V20 event invariants also PASS: V17 32+176=208, V20 47+161=208.
+- Independent measurement: Fact Recall 11.60% → 15.57% (+3.97pp), Event Recall 15.38% → 22.60% (+7.21pp).
+- These numbers were measured fresh from V22 source + V22 GT + V22 corpus. They are NOT copied from the previous V23 session.
+- Created V23R governance artifact: docs/evidence/ROUAA_CORE_BASELINE_MATCHING_CLOSURE_V23R.md.
+- Saved V20 raw facts (321) and events (55) to disk for future audit.
+
+Stage Summary:
+- VERDICT: CORE BASELINE MATCHING CLOSURE PASSED.
+- All 4 invariants hold: V17 Fact 187+1425=1612, V20 Fact 251+1361=1612, V17 Event 32+176=208, V20 Event 47+161=208.
+- V22 matching gap of 39 facts (1573 vs 1612) is CLOSED.
+- V23R is the new verified baseline for V24R.
+
+Artifacts produced:
+- docs/evidence/ROUAA_CORE_BASELINE_MATCHING_CLOSURE_V23R.md
+- intelligence_core/tests/reliability/v23r_bipartite_matching.py
+- intelligence_core/tests/reliability/v23r_results.json
+- intelligence_core/tests/reliability/v20_raw_facts.json
+- intelligence_core/tests/reliability/v20_raw_events.json

@@ -1,0 +1,53 @@
+{
+  "v23r_reconstruction": {
+    "start_commit": "71e7805 (V22 verified)",
+    "parent_commit": "17eea7a (V28R recovery report)",
+    "gt_total_facts": 1612,
+    "gt_total_events": 208,
+    "v17": {
+      "fact_tp": 187,
+      "fact_fp": 111,
+      "fact_fn": 1425,
+      "fact_duplicate": 41,
+      "fact_precision": 62.75,
+      "fact_recall": 11.6,
+      "fact_invariant_holds": true,
+      "fact_gt_total": 1612,
+      "fact_core_total": 298,
+      "event_tp": 32,
+      "event_fp": 6,
+      "event_fn": 176,
+      "event_precision": 84.21,
+      "event_recall": 15.38,
+      "event_invariant_holds": true,
+      "event_gt_total": 208,
+      "event_core_total": 38
+    },
+    "v20": {
+      "fact_tp": 251,
+      "fact_fp": 70,
+      "fact_fn": 1361,
+      "fact_duplicate": 0,
+      "fact_precision": 78.19,
+      "fact_recall": 15.57,
+      "fact_invariant_holds": true,
+      "fact_gt_total": 1612,
+      "fact_core_total": 321,
+      "event_tp": 47,
+      "event_fp": 8,
+      "event_fn": 161,
+      "event_precision": 85.45,
+      "event_recall": 22.6,
+      "event_invariant_holds": true,
+      "event_gt_total": 208,
+      "event_core_total": 55
+    },
+    "deltas": {
+      "fact_recall_delta_pp": 3.97,
+      "event_recall_delta_pp": 7.21,
+      "fact_precision_delta_pp": 15.44,
+      "event_precision_delta_pp": 1.24
+    },
+    "all_invariants_hold": true
+  }
+}
