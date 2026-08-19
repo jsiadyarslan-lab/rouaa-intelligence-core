@@ -165,7 +165,7 @@ def classify_evidence_strict(fact, excerpt: str) -> tuple[str, str]:
         r"\b(?:facebook|twitter|linkedin|youtube|instagram|tiktok)\b",
         r"\b(?:subscribe|newsletter|sign\s+up|sign\s+in|log\s+in|register)\b",
         r"\b(?:privacy\s+policy|terms\s+of\s+use|cookie\s+(?:consent|policy))\b",
-        r"\b(?:all\s+rights\s+reserved|copyright\s*©?)\b",
+        r"\b(?:all\s+rights\s+reserved|copyright\s*©)",  # V30: require © symbol, not just word "copyright"
         r"\b(?:skip\s+to\s+(?:main|content|navigation))\b",
         r"\b(?:main\s+menu|site\s+menu|navigation\s+menu)\b",
         r"\b(?:page\s+\d+\s+of\s+\d+)\b",
