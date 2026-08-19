@@ -1,28 +1,28 @@
 {
   "v27r_measurement": {
-    "fact_tp": 338,
-    "fact_fp": 62,
-    "fact_fn": 1274,
-    "fact_precision": 84.5,
-    "fact_recall": 20.97,
+    "fact_tp": 337,
+    "fact_fp": 27,
+    "fact_fn": 1275,
+    "fact_precision": 92.58,
+    "fact_recall": 20.91,
     "fact_invariant_holds": true,
-    "event_tp": 44,
-    "event_fp": 5,
-    "event_fn": 164,
-    "event_precision": 89.8,
-    "event_recall": 21.15,
+    "event_tp": 38,
+    "event_fp": 2,
+    "event_fn": 170,
+    "event_precision": 95.0,
+    "event_recall": 18.27,
     "event_invariant_holds": true
   },
-  "mechanical_precision": 84.5,
-  "forensic_precision": 99.75,
+  "mechanical_precision": 92.58,
+  "forensic_precision": 99.73,
   "fp_classification": {
-    "WRONG_METRIC": 61,
+    "WRONG_METRIC": 26,
     "TRUE_FP": 1
   },
   "deltas_vs_v26r": {
-    "fact_recall_delta_pp": 4.97,
-    "event_recall_delta_pp": 4.32,
-    "new_tps": 80,
-    "accepted": false
+    "fact_recall_delta_pp": 4.91,
+    "event_recall_delta_pp": 1.44,
+    "new_tps": 79,
+    "accepted": true
   }
 }

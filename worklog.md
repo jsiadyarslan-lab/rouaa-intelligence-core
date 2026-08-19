@@ -487,3 +487,35 @@ Artifacts produced:
 - docs/evidence/ROUAA_CORE_CANONICAL_METRIC_EVENT_CLOSURE_V28.md
 - intelligence_core/tests/reliability/v28_canonical_metric_audit.py
 - intelligence_core/tests/reliability/v28_audit_results.json
+
+---
+Task ID: CORE-V29-MONETARY-EVENT-SEMANTIC-CLOSURE
+Agent: main
+Task: Eliminate 3 monetary_policy_decision TRUE_EVENT_FPs from V28 while preserving valid monetary events and Event Recall ≥21.15%.
+
+Work Log:
+- Audited 3 V28 TRUE_EVENT_FPs: all from Bank of Canada (src-boc), same trigger "CIMPA and CDS announce the start of the trial period for the fail fee framework for Government of Canada securities transactions." Root cause: V13 semantic gate passes because "monetary policy" and "interest rate" appear in site navigation, and "announce" appears in market notice title.
+- Added securities-market exclusion patterns to monetary_policy_decision gate in v13_recall_patterns.py: fail fee, CIMPA, CDS announce, trial period for, government securities, securities settlement/transaction/auction/clearing/custody, bond settlement/auction/issuance/custody/clearing, clearing agency/corporation/system/notice, market notice/operation, settlement framework/system/cycle/notice.
+- Created 12 V29 monetary event tests: 4 negative (CIMPA/CDS, government securities, bond auction, fail fee framework), 6 positive (rate hike, rate cut, rate hold, press release, policy statement, announced rate change), 2 no-false-negative (comprehensive monetary policy doc, simple rate decision). All 12 PASS.
+- Ran V29 extraction: 3 TRUE_EVENT_FPs eliminated ✓. 0 TRUE_EVENT_FP remaining ✓. Adjusted Event Precision 100% ✓.
+- BUT: Event Recall REGRESSED from 21.15% to 18.27% (-2.88pp). The exclusion patterns are too broad — they reject 57 of 71 valid monetary_policy_decision GT docs. 6 valid monetary events were lost.
+- Fact layer: Fact TP 338→337 (-1), Fact Recall 20.97%→20.91% (-0.06pp, negligible).
+- Mechanical Event Precision: 89.80% → 95.00% (improved but below 98% target).
+- Adjusted Event Precision: 93.88% → 100.00% (meets target).
+- True Event FP = 0 ✓ (meets target).
+- Event Recall 18.27% ✗ (below 21.15% target — RECALL REGRESSION).
+- All invariants hold: V29 Fact 337+1275=1612, V29 Event 38+170=208.
+
+Stage Summary:
+- VERDICT: CORE NOT READY — MONETARY RECALL REGRESSION.
+- 3 TRUE_EVENT_FPs eliminated ✓, 0 TRUE_EVENT_FP ✓, Adjusted Event Precision 100% ✓.
+- BUT Event Recall dropped 21.15% → 18.27% (-2.88pp) — exclusion patterns too broad.
+- 57 of 71 valid monetary_policy_decision GT docs rejected by new gate.
+- Recommended fix: narrow exclusion to only CIMPA/CDS/fail-fee-framework pattern.
+- 120 regression tests ALL PASS (83 unit + 8 CSS + 11 norm + 6 unit-confusion + 12 V29 monetary).
+- STOP per directive §16. V29 NOT READY. Exclusion patterns need refinement.
+
+Artifacts produced:
+- docs/evidence/ROUAA_CORE_MONETARY_EVENT_SEMANTIC_CLOSURE_V29.md
+- intelligence_core/tests/reliability/v13_recall_patterns.py (securities exclusion added)
+- intelligence_core/tests/reliability/v29_monetary_event_tests.py (12 tests)

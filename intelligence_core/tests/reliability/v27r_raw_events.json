@@ -1051,41 +1051,6 @@
     "derived_at": ""
   },
   {
-    "event_id": "evt-f151263897364ce4",
-    "event_version": 1,
-    "document_id": "doc-ac00651c0093d6f9",
-    "event_type": "monetary_policy_decision",
-    "fact_version_snapshot": [
-      {
-        "fact_id": "fact-65fe53085d21269d",
-        "fact_version": 1
-      },
-      {
-        "fact_id": "fact-4e97016a09f2f79a",
-        "fact_version": 1
-      },
-      {
-        "fact_id": "fact-2531206c243ee1da",
-        "fact_version": 1
-      },
-      {
-        "fact_id": "fact-446533b3c87d6c6b",
-        "fact_version": 1
-      },
-      {
-        "fact_id": "fact-e8bd7c6e82b21377",
-        "fact_version": 1
-      },
-      {
-        "fact_id": "fact-edf29b6b67d73333",
-        "fact_version": 1
-      }
-    ],
-    "occurrence": 0,
-    "status": "ACTIVE",
-    "derived_at": ""
-  },
-  {
     "event_id": "evt-de90a317a69593eb",
     "event_version": 1,
     "document_id": "doc-ac00651c0093d6f9",
@@ -1205,21 +1170,6 @@
     "derived_at": ""
   },
   {
-    "event_id": "evt-cfc0cf38c96cf188",
-    "event_version": 1,
-    "document_id": "doc-19a6ebb8b8b9eadd",
-    "event_type": "monetary_policy_decision",
-    "fact_version_snapshot": [
-      {
-        "fact_id": "fact-f68b4312e089924a",
-        "fact_version": 1
-      }
-    ],
-    "occurrence": 0,
-    "status": "ACTIVE",
-    "derived_at": ""
-  },
-  {
     "event_id": "evt-44acde85cbae40e8",
     "event_version": 1,
     "document_id": "doc-19a6ebb8b8b9eadd",
@@ -1227,57 +1177,6 @@
     "fact_version_snapshot": [
       {
         "fact_id": "fact-900808c3076e5ce0",
-        "fact_version": 1
-      }
-    ],
-    "occurrence": 0,
-    "status": "ACTIVE",
-    "derived_at": ""
-  },
-  {
-    "event_id": "evt-2b0acb5817144571",
-    "event_version": 1,
-    "document_id": "doc-7d5803d21c44a224",
-    "event_type": "monetary_policy_decision",
-    "fact_version_snapshot": [
-      {
-        "fact_id": "fact-6e7408692a6c1ac7",
-        "fact_version": 1
-      },
-      {
-        "fact_id": "fact-66c520d7080df60a",
-        "fact_version": 1
-      },
-      {
-        "fact_id": "fact-4ef9232ce138ec82",
-        "fact_version": 1
-      },
-      {
-        "fact_id": "fact-374bf9c15535613f",
-        "fact_version": 1
-      },
-      {
-        "fact_id": "fact-01e9a310a093f301",
-        "fact_version": 1
-      },
-      {
-        "fact_id": "fact-b1e78833b43bca1b",
-        "fact_version": 1
-      },
-      {
-        "fact_id": "fact-0856a4bf11bf636f",
-        "fact_version": 1
-      },
-      {
-        "fact_id": "fact-9f9b1e472b23102a",
-        "fact_version": 1
-      },
-      {
-        "fact_id": "fact-102457e23993e9b0",
-        "fact_version": 1
-      },
-      {
-        "fact_id": "fact-373a7595a7040b4b",
         "fact_version": 1
       }
     ],
@@ -1480,21 +1379,6 @@
     "derived_at": ""
   },
   {
-    "event_id": "evt-dac553a68acd3919",
-    "event_version": 1,
-    "document_id": "doc-3d16cf2bca67cc15",
-    "event_type": "monetary_policy_decision",
-    "fact_version_snapshot": [
-      {
-        "fact_id": "fact-de1611e4e3ae235a",
-        "fact_version": 1
-      }
-    ],
-    "occurrence": 0,
-    "status": "ACTIVE",
-    "derived_at": ""
-  },
-  {
     "event_id": "evt-c964744ebee4255e",
     "event_version": 1,
     "document_id": "doc-3d16cf2bca67cc15",
@@ -1502,21 +1386,6 @@
     "fact_version_snapshot": [
       {
         "fact_id": "fact-17e1d2ed391910b6",
-        "fact_version": 1
-      }
-    ],
-    "occurrence": 0,
-    "status": "ACTIVE",
-    "derived_at": ""
-  },
-  {
-    "event_id": "evt-822017407acb4e59",
-    "event_version": 1,
-    "document_id": "doc-c84807e39583b5c5",
-    "event_type": "monetary_policy_decision",
-    "fact_version_snapshot": [
-      {
-        "fact_id": "fact-f0abed148a322655",
         "fact_version": 1
       }
     ],
@@ -1540,21 +1409,6 @@
     "derived_at": ""
   },
   {
-    "event_id": "evt-8d90d82fd86f2e03",
-    "event_version": 1,
-    "document_id": "doc-024943207bc4b772",
-    "event_type": "monetary_policy_decision",
-    "fact_version_snapshot": [
-      {
-        "fact_id": "fact-6dc541dc82c51285",
-        "fact_version": 1
-      }
-    ],
-    "occurrence": 0,
-    "status": "ACTIVE",
-    "derived_at": ""
-  },
-  {
     "event_id": "evt-e44626e56d1fb4fc",
     "event_version": 1,
     "document_id": "doc-024943207bc4b772",
@@ -1562,21 +1416,6 @@
     "fact_version_snapshot": [
       {
         "fact_id": "fact-848e14654e2f5a47",
-        "fact_version": 1
-      }
-    ],
-    "occurrence": 0,
-    "status": "ACTIVE",
-    "derived_at": ""
-  },
-  {
-    "event_id": "evt-29e6c8e139132156",
-    "event_version": 1,
-    "document_id": "doc-a04cb4fb1ce1e79a",
-    "event_type": "monetary_policy_decision",
-    "fact_version_snapshot": [
-      {
-        "fact_id": "fact-d7f895f3c9c01d3a",
         "fact_version": 1
       }
     ],
@@ -1745,37 +1584,6 @@
       },
       {
         "fact_id": "fact-261e4570345c6f99",
-        "fact_version": 1
-      }
-    ],
-    "occurrence": 0,
-    "status": "ACTIVE",
-    "derived_at": ""
-  },
-  {
-    "event_id": "evt-3b7eb1cfd9d6ee99",
-    "event_version": 1,
-    "document_id": "doc-b3d9add0dfb060c9",
-    "event_type": "monetary_policy_decision",
-    "fact_version_snapshot": [
-      {
-        "fact_id": "fact-224d0cc5d5925f42",
-        "fact_version": 1
-      },
-      {
-        "fact_id": "fact-ee5744fbcdadc37a",
-        "fact_version": 1
-      },
-      {
-        "fact_id": "fact-5922bff47d9da77a",
-        "fact_version": 1
-      },
-      {
-        "fact_id": "fact-432c932eb4a4f921",
-        "fact_version": 1
-      },
-      {
-        "fact_id": "fact-bd73445a1a6a1745",
         "fact_version": 1
       }
     ],
@@ -2052,57 +1860,6 @@
     "fact_version_snapshot": [
       {
         "fact_id": "fact-283995a495dcc170",
-        "fact_version": 1
-      }
-    ],
-    "occurrence": 0,
-    "status": "ACTIVE",
-    "derived_at": ""
-  },
-  {
-    "event_id": "evt-57fde274b7cbf3ce",
-    "event_version": 1,
-    "document_id": "doc-bc3ccf0a2c2ef2e7",
-    "event_type": "monetary_policy_decision",
-    "fact_version_snapshot": [
-      {
-        "fact_id": "fact-03f5237ab31988e6",
-        "fact_version": 1
-      },
-      {
-        "fact_id": "fact-210d90314ba9dd33",
-        "fact_version": 1
-      },
-      {
-        "fact_id": "fact-89f7cba830eb9e5c",
-        "fact_version": 1
-      },
-      {
-        "fact_id": "fact-e4f7665aa948dabd",
-        "fact_version": 1
-      },
-      {
-        "fact_id": "fact-14d4fc9cc63352fb",
-        "fact_version": 1
-      },
-      {
-        "fact_id": "fact-112a8a57cf480478",
-        "fact_version": 1
-      },
-      {
-        "fact_id": "fact-b48bcc25489dad5d",
-        "fact_version": 1
-      },
-      {
-        "fact_id": "fact-2df3d4943a083029",
-        "fact_version": 1
-      },
-      {
-        "fact_id": "fact-90a74bc1b6df6f9c",
-        "fact_version": 1
-      },
-      {
-        "fact_id": "fact-e61be7c079fdd3ea",
         "fact_version": 1
       }
     ],

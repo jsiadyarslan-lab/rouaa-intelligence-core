@@ -195,6 +195,19 @@ EXPANDED_EVENT_CONTEXT = {
             r"economic\s+indicators?\s+(?:report|release)|"
             r"statistical\s+release|cpi\s+(?:report|release)|"
             r"employment\s+situation\s+report)\b",
+            # V29 §3 — Disqualifying signals for securities market operations.
+            # These indicate the document is about securities/bond/clearing
+            # operations, NOT monetary policy decisions. The required patterns
+            # may match site navigation ("Core functions → Monetary policy")
+            # but the document's actual purpose is a market operation notice.
+            r"\b(fail\s+fee|CIMPA|CDS\s+(?:announce|to)|"
+            r"trial\s+period\s+for|"
+            r"government\s+(?:of\s+)?(?:canada|japan|uk|australia)\s+securities|"
+            r"securities\s+(?:settlement|transaction|auction|clearing|custody)|"
+            r"bond\s+(?:settlement|auction|issuance|custody|clearing)|"
+            r"clearing\s+(?:agency|corporation|system|notice)|"
+            r"market\s+(?:notice|operation)|"
+            r"settlement\s+(?:framework|system|cycle|notice))\b",
         ],
     },
     "statistical_release": {
