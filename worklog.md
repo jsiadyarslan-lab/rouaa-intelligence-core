@@ -548,3 +548,45 @@ Artifacts produced:
 - docs/evidence/ROUAA_CORE_MONETARY_EVENT_GATE_V29_1.md
 - intelligence_core/tests/reliability/v13_recall_patterns.py (narrowed CIMPA/CDS exclusion)
 - intelligence_core/tests/reliability/v29_monetary_event_tests.py (updated for V29.1)
+
+---
+Task ID: CORE-V29_2-EVENT-OCCURRENCE-AND-BENCHMARK-AMBIGUITY
+Agent: main
+Task: Resolve the single V29.1 monetary-event ambiguity (doc-c84807e39583b5c5) and correct the inconsistent event accounting without changing extraction, benchmark, or fact layer.
+
+Work Log:
+- Forensic review of doc-c84807e39583b5c5 (Bank of Canada Press page, 11,537 chars):
+  * Document is a press/publications INDEX page listing multiple content types
+  * Contains navigation: "Core functions → Monetary policy", "Policy interest rate"
+  * Contains CIMPA/CDS market notice content (securities market)
+  * Contains Monetary Policy Report excerpt (publication listing, not decision)
+  * References "interest rate decision on July 15, 2026" — but as a FORWARD-LOOKING media advisory about summary of deliberations, NOT the decision itself
+  * Searched for actual rate decision language: "The Bank decided to raise...", "overnight rate target was set to..." — NOT FOUND
+  * Classification: PUBLICATION_INDEX_PAGE (not a monetary policy decision)
+- Defined event occurrence rule (§3): monetary_policy_decision requires ACTUAL DECISION OCCURRENCE — decision language + rate specification. Navigation, publication listings, media advisories, and source identity do NOT qualify.
+- Corrected confusion matrix from raw event IDs (§7):
+  monetary_policy_decision: TP=9, FP=0, FN=62, GT=71
+  regulatory_enforcement: TP=5, FP=0, FN=28, GT=33
+  statistical_release: TP=29, FP=2, FN=75, GT=104
+  TOTAL: TP=43, FP=2, FN=165, GT=208
+  Invariant: 43 + 165 = 208 ✓ (internally consistent)
+- Confirmed 3 CIMPA negatives remain rejected (§5): 0 regression.
+- Confirmed 5 of 6 V29-lost TPs recovered (§6): 1 remains as BENCHMARK_AMBIGUITY.
+- Adjudication: doc-c84807e39583b5c5 is BENCHMARK_AMBIGUITY — GT over-classified the index page as monetary_policy_decision because source is central bank and monetary terms appear in navigation. V29.1 gate rejection is semantically correct. GT is NOT modified.
+- Mechanical Event Precision: 95.56% (2 GT_ARTIFACT FPs — BEA docs GT missed, not extraction errors).
+- Adjusted Event Precision: 100% (0 TRUE_EVENT_FP, both FPs are GT_ARTIFACT).
+- Event Recall: 20.67% (43/208). The -0.48pp gap from V28's 21.15% is entirely due to BENCHMARK_AMBIGUITY.
+- Fact layer unchanged: TP=338, Recall=20.97%.
+- Regression: 103 tests ALL PASS (83 unit + 8 CSS + 12 V29 monetary) + V19 norm 11+6.
+
+Stage Summary:
+- VERDICT: CORE EVENT OCCURRENCE CLOSURE PASSED WITH BOUNDED GAPS.
+- 1 BENCHMARK_AMBIGUITY: doc-c84807e39583b5c5 (publications index page, GT over-classified as monetary_policy_decision).
+- 0 TRUE_EVENT_FP. Adjusted Event Precision 100%.
+- Corrected confusion matrix: TP=43, FP=2, FN=165, GT=208. Invariant ✓.
+- Event Recall 20.67% (-0.48pp from BENCHMARK_AMBIGUITY, not gate failure).
+- Event occurrence definition: "actual decision occurrence" required, not navigation/listing/source identity.
+- STOP per directive §14. Ready for Entity-Aware Extraction (V30) when approved.
+
+Artifacts produced:
+- docs/evidence/ROUAA_CORE_EVENT_OCCURRENCE_AND_BENCHMARK_AMBIGUITY_V29_2.md
