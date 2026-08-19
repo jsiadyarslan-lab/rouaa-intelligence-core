@@ -36,24 +36,40 @@ from intelligence_core.tests.reliability.v9_navigation_exclusion import is_navig
 # The excerpt must establish: metric + value + context.
 # This is STRICTER than "value appears in excerpt."
 
+# V27R §5 — Semantic equivalence for percentage expressions.
+# The evidence classifier must recognize equivalent linguistic forms:
+#   %  =  percent  =  percentage  =  percentage points  =  pct
+# WITHOUT lowering contextual requirements (still needs context keywords).
+# Note: No trailing \b after % because % is not a word character.
+# Use (?!\w) lookahead to prevent matching partial words like "5percentX".
+PERCENT_EQUIV = r"(?:%|percent(?:age\s+points?)?|percentage|pct)(?!\w)"
+
 DIRECT_EVIDENCE_REQUIREMENTS = {
     "percentage_statistic": {
-        "value_pattern": r"\d+(?:\.\d+)?\s*%",
+        "value_pattern": rf"\d+(?:\.\d+)?\s*{PERCENT_EQUIV}",
         "context_patterns": [
             r"\b(rate|growth|change|increase|decrease|figure|percent|percentage|"
-            r"statistic|estimate|index|indicator)\b",
+            r"statistic|estimate|index|indicator|"
+            # V27R: verb forms (past tense)
+            r"grew|grows|growing|rose|rises|rising|fell|falls|falling|"
+            r"declined|declines|declining|increased|increases|increasing|"
+            r"decreased|decreases|decreasing|narrowed|narrows|narrowing|"
+            r"expanded|expands|expanding|stood|reached|revised|observed|"
+            # V27R: economic nouns (context for percentages)
+            r"gdp|inflation|cpi|unemployment|employment|production|output|"
+            r"trade|deficit|surplus|balance)\b",
         ],
         "min_context": 1,
     },
     "rate_value": {
-        "value_pattern": r"\d+(?:\.\d+)?\s*%",
+        "value_pattern": rf"\d+(?:\.\d+)?\s*{PERCENT_EQUIV}",
         "context_patterns": [
             r"\b(rate|interest|policy|benchmark|base\s+rate)\b",
         ],
         "min_context": 1,
     },
     "policy_rate": {
-        "value_pattern": r"\d+(?:\.\d+)?\s*%",
+        "value_pattern": rf"\d+(?:\.\d+)?\s*{PERCENT_EQUIV}",
         "context_patterns": [
             r"\b(policy\s+rate|interest\s+rate|benchmark|base\s+rate)\b",
         ],
@@ -90,21 +106,21 @@ DIRECT_EVIDENCE_REQUIREMENTS = {
         "min_context": 1,
     },
     "gdp_growth": {
-        "value_pattern": r"\d+(?:\.\d+)?\s*%",
+        "value_pattern": rf"\d+(?:\.\d+)?\s*{PERCENT_EQUIV}",
         "context_patterns": [
             r"\b(gdp|gross\s+domestic\s+product)\b",
         ],
         "min_context": 1,
     },
     "inflation_rate": {
-        "value_pattern": r"\d+(?:\.\d+)?\s*%",
+        "value_pattern": rf"\d+(?:\.\d+)?\s*{PERCENT_EQUIV}",
         "context_patterns": [
             r"\b(inflation|cpi|consumer\s+price)\b",
         ],
         "min_context": 1,
     },
     "unemployment_rate": {
-        "value_pattern": r"\d+(?:\.\d+)?\s*%",
+        "value_pattern": rf"\d+(?:\.\d+)?\s*{PERCENT_EQUIV}",
         "context_patterns": [
             r"\b(unemployment|employment\s+rate)\b",
         ],
@@ -127,6 +143,9 @@ def classify_evidence_strict(fact, excerpt: str) -> tuple[str, str]:
     INDIRECT: excerpt contains value but not context
     INSUFFICIENT: excerpt doesn't contain value
     INVALID: excerpt is navigation/UI content
+
+    V27R §5: Semantic equivalence for percentage expressions —
+    recognizes % = percent = percentage = percentage points = pct.
     """
     # Support both dict and Fact dataclass
     if hasattr(fact, 'metric'):
@@ -139,6 +158,21 @@ def classify_evidence_strict(fact, excerpt: str) -> tuple[str, str]:
     # First check: is this navigation/UI content?
     if is_navigation_content(excerpt):
         return "INVALID", "evidence is navigation/UI content"
+
+    # V27R §5: Extended navigation check — reject social media, subscribe, cookie, etc.
+    excerpt_lower = excerpt.lower()
+    extended_nav_patterns = [
+        r"\b(?:facebook|twitter|linkedin|youtube|instagram|tiktok)\b",
+        r"\b(?:subscribe|newsletter|sign\s+up|sign\s+in|log\s+in|register)\b",
+        r"\b(?:privacy\s+policy|terms\s+of\s+use|cookie\s+(?:consent|policy))\b",
+        r"\b(?:all\s+rights\s+reserved|copyright\s*©?)\b",
+        r"\b(?:skip\s+to\s+(?:main|content|navigation))\b",
+        r"\b(?:main\s+menu|site\s+menu|navigation\s+menu)\b",
+        r"\b(?:page\s+\d+\s+of\s+\d+)\b",
+    ]
+    for p in extended_nav_patterns:
+        if re.search(p, excerpt_lower):
+            return "INVALID", "evidence is navigation/UI/boilerplate content"
 
     # Get requirements for this metric
     reqs = DIRECT_EVIDENCE_REQUIREMENTS.get(metric)

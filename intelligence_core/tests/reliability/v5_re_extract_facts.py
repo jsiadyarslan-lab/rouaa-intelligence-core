@@ -38,21 +38,23 @@ from intelligence_core.tests.reliability.topup_expanded_patterns import EXPANDED
 
 REFINED_PATTERNS = {
     "monetary": [
-        (r"\b(\d+(?:\.\d+)?)\s*(?:%|percent)\b", "rate_value"),
+        (r"\b(\d+(?:\.\d+)?)\s*(?:%|percent(?:age\s+points?)?|percentage|pct)(?!\w)", "rate_value"),
         (r"\b(maintain(?:ed)?|raise(?:d)?|cut|lower(?:ed)?)\s+(?:the\s+)?(?:key\s+|policy\s+|interest\s+)?rate", "rate_action"),
-        (r"\bpolicy\s+rate\b.*?\b(\d+(?:\.\d+)?)\s*%", "policy_rate"),
-        (r"\b(\d+(?:\.\d+)?)\s*(?:%|percent)\s+(?:policy\s+rate|key\s+rate|interest\s+rate)", "policy_rate"),
+        (r"\bpolicy\s+rate\b.*?\b(\d+(?:\.\d+)?)\s*(?:%|percent(?:age\s+points?)?|percentage|pct)(?!\w)", "policy_rate"),
+        (r"\b(\d+(?:\.\d+)?)\s*(?:%|percent(?:age\s+points?)?|percentage|pct)(?!\w)\s+(?:policy\s+rate|key\s+rate|interest\s+rate)", "policy_rate"),
     ],
     "statistical": [
-        (r"\b(\d+(?:\.\d+)?)\s*%", "percentage_statistic"),
-        (r"\bGDP\s+(?:grew|growth|increased|expanded|rose)\s+(?:by\s+)?(\d+(?:\.\d+)?)\s*%", "gdp_growth"),
-        (r"\b(\d+(?:\.\d+)?)\s*%\s+GDP\s+growth", "gdp_growth"),
-        (r"\bgross\s+domestic\s+product\s+(?:grew|rose|expanded)\s+(?:by\s+)?(\d+(?:\.\d+)?)\s*%", "gdp_growth"),
-        (r"\binflation\s+rate\s+(?:of\s+|was\s+|reached\s+|stood\s+at\s+)?(\d+(?:\.\d+)?)\s*%", "inflation_rate"),
-        (r"\b(\d+(?:\.\d+)?)\s*%\s+inflation", "inflation_rate"),
-        (r"\bCPI\s+(?:rose|increased|grew)\s+(?:by\s+)?(\d+(?:\.\d+)?)\s*%", "inflation_rate"),
-        (r"\bunemployment\s+rate\s+(?:of\s+|was\s+|reached\s+|stood\s+at\s+)?(\d+(?:\.\d+)?)\s*%", "unemployment_rate"),
-        (r"\b(\d+(?:\.\d+)?)\s*%\s+unemployment", "unemployment_rate"),
+        # V27R Pattern Family 1: match "percent" word with (?!\w) fix
+        # (trailing \b after % fails because % is not a word character)
+        (r"\b(\d+(?:\.\d+)?)\s*(?:%|percent(?:age\s+points?)?|percentage|pct)(?!\w)", "percentage_statistic"),
+        (r"\bGDP\s+(?:grew|growth|increased|expanded|rose)\s+(?:by\s+)?(\d+(?:\.\d+)?)\s*(?:%|percent(?:age\s+points?)?|percentage|pct)(?!\w)", "gdp_growth"),
+        (r"\b(\d+(?:\.\d+)?)\s*(?:%|percent(?:age\s+points?)?|percentage|pct)(?!\w)\s+GDP\s+growth", "gdp_growth"),
+        (r"\bgross\s+domestic\s+product\s+(?:grew|rose|expanded)\s+(?:by\s+)?(\d+(?:\.\d+)?)\s*(?:%|percent(?:age\s+points?)?|percentage|pct)(?!\w)", "gdp_growth"),
+        (r"\binflation\s+rate\s+(?:of\s+|was\s+|reached\s+|stood\s+at\s+)?(\d+(?:\.\d+)?)\s*(?:%|percent(?:age\s+points?)?|percentage|pct)(?!\w)", "inflation_rate"),
+        (r"\b(\d+(?:\.\d+)?)\s*(?:%|percent(?:age\s+points?)?|percentage|pct)(?!\w)\s+inflation", "inflation_rate"),
+        (r"\bCPI\s+(?:rose|increased|grew)\s+(?:by\s+)?(\d+(?:\.\d+)?)\s*(?:%|percent(?:age\s+points?)?|percentage|pct)(?!\w)", "inflation_rate"),
+        (r"\bunemployment\s+rate\s+(?:of\s+|was\s+|reached\s+|stood\s+at\s+)?(\d+(?:\.\d+)?)\s*(?:%|percent(?:age\s+points?)?|percentage|pct)(?!\w)", "unemployment_rate"),
+        (r"\b(\d+(?:\.\d+)?)\s*(?:%|percent(?:age\s+points?)?|percentage|pct)(?!\w)\s+unemployment", "unemployment_rate"),
         (r"\bemployment\s+(?:level|stood)\s+(?:at\s+)?(\d+(?:,\d{3})+)\b", "employment_level"),
         (r"\b(\d+(?:,\d{3})+)\s+(?:persons|people|jobs)\s+employed", "employment_level"),
         # Refined trade_balance (V5 §6) — broaden
