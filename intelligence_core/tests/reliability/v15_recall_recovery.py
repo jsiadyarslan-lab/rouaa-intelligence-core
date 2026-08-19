@@ -27,7 +27,14 @@ from intelligence_core.normalize import strip_html
 # ══════════════════════════════════════════════════════════
 
 class HTMLStructureParser(HTMLParser):
-    """Parse HTML preserving structural context for extraction."""
+    """Parse HTML preserving structural context for extraction.
+
+    V24R hardening: skip <style>, <script>, <template>, <noscript> tags
+    so CSS/JS/template content cannot participate in semantic extraction.
+    """
+
+    # Tags whose content must NEVER participate in extraction
+    SKIP_TAGS = frozenset({"style", "script", "template", "noscript"})
 
     def __init__(self):
         super().__init__()
@@ -40,10 +47,19 @@ class HTMLStructureParser(HTMLParser):
         self.in_li = False
         self.current_cell_text = ""
         self.current_row_cells = []
+        self.skip_depth = 0  # V24R: depth of skip-tag nesting
 
     def handle_starttag(self, tag, attrs):
         tag = tag.lower()
         self.context_stack.append(tag)
+
+        # V24R: skip CSS/JS/template content entirely
+        if tag in self.SKIP_TAGS:
+            self.skip_depth += 1
+            return
+
+        if self.skip_depth > 0:
+            return
 
         if tag == "table":
             self.in_table = True
@@ -60,6 +76,19 @@ class HTMLStructureParser(HTMLParser):
 
     def handle_endtag(self, tag):
         tag = tag.lower()
+
+        # V24R: handle skip-tag closing
+        if tag in self.SKIP_TAGS:
+            if self.skip_depth > 0:
+                self.skip_depth -= 1
+            if self.context_stack and self.context_stack[-1] == tag:
+                self.context_stack.pop()
+            return
+
+        if self.skip_depth > 0:
+            if self.context_stack and self.context_stack[-1] == tag:
+                self.context_stack.pop()
+            return
 
         if tag == "td":
             self.in_td = False
@@ -86,6 +115,10 @@ class HTMLStructureParser(HTMLParser):
             self.context_stack.pop()
 
     def handle_data(self, data):
+        # V24R: skip CSS/JS/template content entirely
+        if self.skip_depth > 0:
+            return
+
         data = data.strip()
         if not data:
             return
