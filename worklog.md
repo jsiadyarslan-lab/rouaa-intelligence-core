@@ -455,3 +455,35 @@ Stage Summary:
 
 Artifacts produced:
 - docs/evidence/ROUAA_CORE_V23_V27_RECONSTRUCTION_LEDGER.md (this final ledger)
+
+---
+Task ID: CORE-V28-CANONICAL-METRIC-EVENT-CLOSURE
+Agent: main
+Task: Close remaining metric identity and Event false-positive boundary revealed by V27R. Semantic contract/measurement closure — no new extraction.
+
+Work Log:
+- Built canonical metric ontology: percentage_statistic → {inflation_rate, unemployment_rate, gdp_growth, policy_rate, rate_value}; usd_amount → {penalty_amount, revenue, trade_balance}. rate_decision and action_type have no children (leaf metrics).
+- Defined matching semantics: EXACT_MATCH (same value + same metric), SEMANTIC_SUBTYPE_MATCH (same value + Core metric is child of GT metric), NON_MATCH (value not in GT or metric completely different), AMBIGUOUS (value in GT but metric relationship unclear).
+- Audited all 62 V27R fact FPs: 61 SEMANTIC_SUBTYPE_MATCH (46 policy_rate, 7 penalty_amount, 6 inflation_rate, 2 gdp_growth — all Core more specific than GT), 1 GT_ARTIFACT (GT missed "raised interest rate"), 0 TRUE_EXTRACTION_ERROR, 0 MATCHING_ERROR, 0 DUPLICATE. Hard invariant 62 = sum(classifications) ✓.
+- Audited all 5 V27R event FPs: 2 GT_ARTIFACT (BEA statistical releases GT missed), 3 TRUE_EVENT_FP (Canadian securities market notices misclassified as monetary_policy_decision — GT correctly classifies as statistical_release).
+- Created 5 permanent event FP regression fixtures.
+- Recomputed precision with canonical metric ontology:
+  Mechanical: Fact 84.50% (TP=338, FP=62), Event 89.80% (TP=44, FP=5).
+  Adjusted: Fact 100.00% (TP=400, FP=0 — 61 semantic subtype + 1 GT artifact reclassified as TP), Event 93.88% (TP=46, FP=3 — 2 GT artifacts reclassified as TP, 3 TRUE_EVENT_FPs remain).
+- Recall preserved: Fact Recall 20.97%, Event Recall 21.15% (V28 does not change extraction, only measurement).
+- Regression: 91 unit tests + 8 CSS exclusion + V19 norm 11+6 = 108 tests ALL PASS.
+- Invariants hold: V28 Fact 338+1274=1612, V28 Event 44+164=208.
+
+Stage Summary:
+- VERDICT: CORE CANONICAL METRIC/EVENT CLOSURE PASSED WITH BOUNDED GAPS.
+- Metric identity gap CLOSED: 0 TRUE_EXTRACTION_ERRORS. All 62 fact FPs are semantic subtype matches (Core more specific than GT) or GT artifacts.
+- Event precision gap NOT CLOSED: 3 TRUE_EVENT_FPs remain (1.4% error rate — Canadian securities market notices misclassified as monetary_policy_decision).
+- Mechanical precision below target (Fact 84.50%, Event 89.80%) but semantic precision Fact 100%, Event 93.88%.
+- Recall fully preserved: Fact 20.97%, Event 21.15%.
+- Entity-Aware Extraction (V29) can proceed with prerequisites: accept 3 bounded TRUE_EVENT_FPs, use canonical metric ontology, report mechanical AND semantic precision separately, maintain 5 event FP regression fixtures.
+- STOP per directive §12.
+
+Artifacts produced:
+- docs/evidence/ROUAA_CORE_CANONICAL_METRIC_EVENT_CLOSURE_V28.md
+- intelligence_core/tests/reliability/v28_canonical_metric_audit.py
+- intelligence_core/tests/reliability/v28_audit_results.json
