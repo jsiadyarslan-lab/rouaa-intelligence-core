@@ -1,0 +1,793 @@
+<!DOCTYPE html  PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html>
+<head><meta http-equiv="Content-Type"
+        content="text/html; charset=utf-8" /><script type="text/javascript">
+   var _U = "undefined";
+   var g_HttpRelativeWebRoot = "/bnbweb/";
+   var SSContributor = false;
+   var SSForceContributor = false;
+   var SSHideContributorUI = false;
+   var ssUrlPrefix = "/";
+   var ssUrlType = "1";
+   var ssDomainNum = "1e154c02";
+   var g_navNode_Path = new Array();
+       g_navNode_Path[0] = '29';
+       g_navNode_Path[1] = '38';
+       g_navNode_Path[2] = '37';
+       g_navNode_Path[3] = '223';
+       g_navNode_Path[4] = '228';
+   var g_ssSourceNodeId = "228";
+   var g_ssSourceSiteId = "bnb";
+   var g_strLanguageId = "bg";
+</script>
+<script id="SSNavigationFunctionsScript" type="text/javascript" src="/bnbweb/websites/bnb/sitenavigationfunctions.js"></script>
+<script id="SSNavigationScript" type="text/javascript" src="/bnbweb/websites/bnb/sitenavigation.js"></script>
+
+	<script type="text/javascript" src="/bnbweb/resources/sitestudio/ssajax/ssajax.js"></script>
+
+
+  <script id="ssInfo"
+        type="text/xml"
+        warning="DO NOT MODIFY!">
+  <ssinfo >
+    <fragmentinstance  id="fragment1" fragmentid="bnb_iclude_fragment" library="server:BNB_WEB_FRAGMENTS">
+      
+    </fragmentinstance>
+    <fragmentinstance  id="fragment2" fragmentid="BNB_top_quick_navigation" library="server:BNB_WEB_FRAGMENTS">
+      
+    </fragmentinstance>
+    <fragmentinstance  id="fragment3" fragmentid="BNB_NAV_HORIZONTAL" library="server:BNB_NAV_HORIZONTAL">
+    </fragmentinstance>
+    <fragmentinstance  id="fragment6" fragmentid="BNB_footer" library="server:BNB_WEB_FRAGMENTS">
+      
+    </fragmentinstance>
+    <fragmentinstance  id="fragment7" fragmentid="BNB_Breadcrumb" library="server:BNB_BREADCRUMB">
+      
+    </fragmentinstance>
+    <fragmentinstance  id="fragment8" fragmentid="BNB_LeftVerticalMenu" library="server:BNB_LEFTVERTICALMENU">
+      
+    </fragmentinstance>
+    
+      <fragmentinstance  id="fragment10" fragmentid="BNB_Fragments_Stat_Pressreleases" library="server:BNB_FRAGMENTS_STAT_PRESSRELEAS">
+      </fragmentinstance>
+    
+      <fragmentinstance  id="fragment11" fragmentid="BNB_Fragments_Archive" library="server:BNB_FRAGMENTS_ARCHIVE">
+      </fragmentinstance>
+      <fragmentinstance  id="fragment12" fragmentid="BNB_Fragments_Calendar" library="server:BNB_FRAGMENTS_CALENDAR">
+      </fragmentinstance>
+      
+      <fragmentinstance  id="fragment13" fragmentid="BNB_Right_Download" library="server:BNB_RIGHT_DOWNLOAD">
+      </fragmentinstance>
+      
+      
+      <fragmentinstance  id="fragment15" fragmentid="BNB_Right_Inner_Section" library="server:BNB_RIGHT_INNER_LINKS">
+      </fragmentinstance>
+      
+      
+      <fragmentinstance  id="fragment16" fragmentid="BNB_Right_Inner_Section" library="server:BNB_RIGHT_INNER_LINKS">
+      </fragmentinstance>
+  </ssinfo>
+  </script>
+
+  <title>(untitled)</title>
+  
+  <meta content="MSHTML 6.00.2900.3086"
+        name="GENERATOR" />
+<!-- SS_BEGIN_SNIPPET(fragment1,include)-->				
+	
+	
+ 
+
+ 
+
+
+
+ 
+	<!--currentBrowserLocale="BG"-->
+	<!--if HTTP_ACCEPT_LANGUAGE-->
+		<!--currentBrowserLocale=HTTP_ACCEPT_LANGUAGE-->
+	<!--endif-->
+	
+	<!--browserParsedLanguage=strSubstring(currentBrowserLocale,0,2)-->
+	
+	<!--if browserParsedLanguage like "BG|EN" -->
+		<!--currentUserLanguage=strUpper(browserParsedLanguage)-->
+	<!--else-->
+			
+	<!--endif--> 
+  	
+
+
+	
+	
+	
+		
+	 
+		
+		
+	
+	
+	
+	
+	
+
+	
+	 
+	 
+		
+		 
+	
+	
+
+		
+	
+
+	
+	
+	
+	
+	
+	
+<!-- SURVEY1 -->
+<!-- SURVEY2 -->
+<!-- SURVEY3 -->
+<!-- SURVEY4 -->
+<!-- SURVEY5 -->
+<!-- SURVEY6 -->
+<!-- SURVEY7 -->
+<!-- SURVEY8 -->
+<!-- SURVEY9 -->
+
+<!-- SURVEY10 -->
+
+<!-- SURVEY11 -->
+
+<!-- SURVEY12 -->
+
+<!-- SURVEY13 -->
+
+<!-- SURVEY14 -->
+
+<!-- SURVEY15 -->
+
+<!-- SURVEY16 -->
+
+<!-- SURVEY17 -->
+
+<!-- SURVEY18 -->
+
+<!-- SURVEY19 -->
+
+<!-- SURVEY_TEMPLATE -->
+
+ 	<link rel="shortcut icon" href="/bnbweb/fragments/bnb_iclude_fragment/images/favicon.ico" type="image/x-icon" />
+	<link rel="icon" href="/bnbweb/fragments/bnb_iclude_fragment/images/favicon.ico" type="image/x-icon" />
+ 		
+ 	<link rel="stylesheet" href="/bnbweb/fragments/bnb_iclude_fragment/css/reset.css" type="text/css" media="screen" />
+    <link rel="stylesheet" href="/bnbweb/fragments/bnb_iclude_fragment/css/common.css" type="text/css" media="screen" />
+        
+     
+	 
+			
+    
+		<link rel="stylesheet" href="/bnbweb/fragments/bnb_iclude_fragment/css/default.css" type="text/css" media="screen" />
+    <link rel="stylesheet" href="/bnbweb/fragments/bnb_iclude_fragment/css/fixes/others.css" type="text/css" media="screen" />
+    
+					
+		<link rel="stylesheet" href="/bnbweb/fragments/bnb_iclude_fragment/css/lang/bg.css" type="text/css" media="screen" />
+								 				
+    <link rel="stylesheet" href="/bnbweb/fragments/bnb_iclude_fragment/css/print.css" type="text/css" media="print" />
+    
+     <!--[if IE 6]>
+     <link href="/bnbweb/fragments/bnb_iclude_fragment/css/fixes/ie6.css" media="screen" rel="stylesheet" type="text/css" />
+        <script type="text/javascript" src="/bnbweb/fragments/bnb_iclude_fragment/js/pngfix.js"></script>
+        <style type="text/css"> 
+			body {
+				behavior: url("/bnbweb/fragments/bnb_iclude_fragment/js/fixes/csshover.htc");
+			}
+			</style>
+ 
+    <![endif]-->
+    <!--[if IE 7]>
+    	<link href="/bnbweb/fragments/bnb_iclude_fragment/css/fixes/ie7.css" media="screen" rel="stylesheet" type="text/css" />
+    <![endif]-->
+    
+    <script type="text/javascript" src="/bnbweb/fragments/bnb_iclude_fragment/js/jquery-1.2.6.min.js"></script>
+    <script type="text/javascript" src="/bnbweb/fragments/bnb_iclude_fragment/js/lib/jquery.cookies.js"></script>
+    <script type="text/javascript" src="/bnbweb/fragments/bnb_iclude_fragment/js/lib/jquery.easing.js"></script>
+    <script type="text/javascript" src="/bnbweb/fragments/bnb_iclude_fragment/js/lib/jquery.accordion.js"></script>
+    
+    	<script type="text/javascript" src="/bnbweb/fragments/bnb_iclude_fragment/js/default.js"></script>
+    <script type="text/javascript" src="/bnbweb/fragments/bnb_iclude_fragment/js/sitemap.js"></script>
+    <script type="text/javascript" src="/bnbweb/fragments/bnb_iclude_fragment/js/font_size.js"></script>
+    <script type="text/javascript" src="/bnbweb/fragments/bnb_iclude_fragment/js/fixes/css_browser_selector.js"></script>
+
+ 
+<script src="/bnbweb/fragments/bnb_iclude_fragment/customLangInternationalization.js" type="text/javascript"></script>
+<script src="/bnbweb/fragments/bnb_top_quick_navigation/BNB_Search_Box.js"></script>
+ 
+
+
+
+
+<script language="javascript">
+	   internationalizeNodeAndSubNodes(g_navNode_Root, "BG");
+</script>
+
+
+<script>
+	
+	var strPageTitle = 'Българска народна банка';
+	var lang = 'BG';
+  
+   if (strPageTitle == ("(untitled)" || ""))
+      strPageTitle = document.title;
+      
+   document.title = strPageTitle;
+</script>
+
+			<!-- SS_END_SNIPPET(fragment1,include)--><!-- SS_BEGIN_SNIPPET(fragment3,1)-->				<script src="/bnbweb/fragments/bnb_nav_horizontal/BNB_NAV_HORIZONTAL.js"></script>
+			
+			<!-- SS_END_SNIPPET(fragment3,1)--></head>
+
+<body>
+
+	<!-- SS_BEGIN_SNIPPET(fragment2,body)-->				<!-- За принт -->
+	<img class="print_header" src="/bnbweb/fragments/bnb_iclude_fragment/images/backgrounds/logo_print.gif" alt="logo"/>
+<div class="dvCookies">
+		<div id="inferior">
+			<table style="width:100%;font-size:1em;line-height: 2.2em;color: #521811;">
+				<tr>
+					<th>
+						<div id="cont_cookie" style="text-align: center;">
+							Тази интернет страница използва бисквитки (cookies), които са необходими за пълноценното ѝ функциониране или предоставяне на електронни административни услуги.	
+						</div>
+					</th>
+				</tr>
+				<tr>
+					<th>
+						<div id="btn_cookie" style="text-align: center;">
+						    <button class="cookie-button-style" onclick="location.href='/AboutUs/AUPersonalDataProtection/index.htm'">Повече информация</button>
+							<button class="cookie-button cookie-button-style">Затвори</button>
+						</div>
+					</th>
+				</tr>
+				
+			</table>			
+		</div>
+	</div>
+
+
+<!-- За разпознаване на езиците (не се ползва) -->
+  <a href="#main" class="hide">Skip to content</a>
+  
+  <div class="white_wrapper_tl"><!-- Този контейнер държи горния ляв заоблен ъгъл -->
+  <div class="white_wrapper_tr"><!-- Този контейнер държи горния десен заоблен ъгъл -->
+  <div class="white_wrapper_bl"><!-- Този контейнер държи долния ляв заоблен ъгъл -->
+  <div class="white_wrapper_br"><!-- Този контейнер държи долния десен заоблен ъгъл -->
+  
+<div id="wrapper" class="home">
+<div id="header">
+
+	<div class="top_header">
+          <ul class="quick_menu">
+				<li class="home"><a href="/index.htm">Начало</a></li> 		
+				<li class="contacts"><a href="/AboutUs/AUCustomerService/AUCContacts/index.htm">Контакти</a></li> 
+				<li class="sitemap"><a href="/AboutUs/AUSiteMap/index.htm">Карта на сайта</a></li>  
+				<li class="rss"><a href="/AboutUs/PressOffice/PORSS/index.htm">RSS</a></li>
+				<li class="blind_site">
+					<a  
+           			 
+					 
+						
+							onclick="document.cookie ='isBlind=true;path=/'; location.href=location.href" href="#">
+          						Само текст
+	
+          		</a>
+			</li>          				
+          </ul>
+          
+          <ul class="languages">
+				<li><span>Български</span></li>
+				<li><a onclick="document.cookie ='userLanguage=EN;path=/'; location.href=getLanguagePath('BG', 'EN')" href="#">English</a></li>
+ 
+          </ul>
+          
+          <script language="javascript">
+				function submitSearchForm() {
+					document.forms['quickSearchForm'].inDesc.value=encodeURI(document.forms['quickSearchForm'].userText.value);
+					document.forms['quickSearchForm'].submit();
+				}
+				
+				function getLanguagePath(lang, lang2) {
+					var currentPath = location.href;
+					var fromIndex = currentPath.length - 4;
+					if ('BG'==lang) {
+						if (currentPath.indexOf('_BG', fromIndex) > 0) {
+							return currentPath.substring(0,currentPath.length-3) + '_EN';
+						}
+					}
+					if ('EN'==lang) {
+						if (currentPath.indexOf('_EN', fromIndex) > 0) {
+							return currentPath.substring(0,currentPath.length-3) + '_BG';
+						}
+					}
+					if (currentPath.indexOf("?")>0) {
+						return currentPath + "&toLang=_" + lang2;
+					} else {
+						return currentPath + "?toLang=_" + lang2;
+					}
+				}
+			</script>
+          <form name="quickSearchForm" action="/AboutUs/AUAdvancedSearch/index.htm" method="post" class="search_tool" onsubmit="return submitSearchForm()">            
+
+             <input type="text" value="" maxlength="40" name="userText" /> 
+
+                                                                                                          
+
+                                   <INPUT type=hidden name=inDesc value="">
+
+                                   <INPUT type=hidden name=rubric value="">
+
+                                   <INPUT type=hidden name=fromDate value=""> 
+
+                                   <INPUT type=hidden name=toDate value="">
+
+                                   <INPUT type=hidden name=fullText value="">
+
+                                   <INPUT type=hidden name=criteria value="any"> 
+
+                                   <INPUT type=hidden name=resultCount value="10"> 
+
+                                   <INPUT type=hidden name=currentPage value=""> 
+
+                                   <INPUT type=hidden name=SortOrder value="DESC"> 
+
+                                   <INPUT type=hidden name=SortField value="xEffectiveDate"> 
+
+                                   <INPUT type=hidden name=formAction value="search">
+
+                                    
+
+            <div class="buttons">
+
+                        <button type="button" onclick="javascript:submitSearchForm()">Търси</button>
+
+            </div>
+
+            <a href="/AboutUs/AUAdvancedSearch/index.htm">Разширено търсене</a>
+
+</form>
+
+
+        </div><!--/top_header-->
+        <h1 class="logo">
+				<a title="Българска народна банка" href="/index.htm">Българска народна банка</a>
+	
+        </h1>
+
+		<style> 
+                        @keyframes marquee { 
+                            from { transform: translateX(100%); } 
+                            to { transform: translateX(-100%); } 
+                        } 
+                         
+                        .marquee { 
+                            overflow: hidden; 
+                            position: relative; 
+                            white-space: nowrap; 
+                            width: 100%; 
+                            margin: 0;  
+                            font-size: 12px;  
+                            line-height: 1.5;              
+                        } 
+                         
+                        .marquee a { 
+    	/*                     position: absolute;   */ 
+                            display: block; 
+                            width: 100%; 
+                            height: 100%;  
+                            animation: marquee 30s linear infinite; 
+                            color: inherit;  
+                            text-decoration: none;  
+                            white-space: nowrap;  
+                                        min-width: 100%; 
+                            box-sizing: border-box; 
+                            padding: 8px 8px 8px 8px; 
+                            font-family: Arial, Helvetica, sans-serif; 
+                            font-weight: bold; 
+                            color: #792A28; 
+                        } 
+     		</style> 
+         
+        	 
+                        <h4 class="marquee"> 
+                            <a href="/AboutUs/PressOffice/POPressReleases/POPRDate/PR_20250722_BG"> 
+                            БНБ предупреждава за зачестили измамни телефонни обаждания от хора, представящи се за служители на БНБ! За повече информация вижте тук. 
+                            </a> 
+                        </h4> 
+            			<!-- SS_END_SNIPPET(fragment2,body)-->
+
+	<!-- SS_BEGIN_SNIPPET(fragment3,2)-->				<script>
+				{		
+					var fragment = new BNB_NAV_HORIZONTAL('', '', '', 
+														'|', 'BNB_NAV_HORIZONTAL', 'false');
+					                                     
+					fragment.Display(g_navNode_Root);
+				}
+				</script>
+
+</div><!--/header-->
+				
+			<!-- SS_END_SNIPPET(fragment3,2)-->
+	
+	<div id="content_top_shadow">
+    	<div id="content"> 
+    		<div class="two_cols_wrapper">
+    			<!-- SS_BEGIN_SNIPPET(fragment7,body)--><div id="breadcrumb">
+		
+	<ol>
+			<script> 
+			{				
+				var br = new Breadcrumb(g_navNode_Root);
+				br.display();
+			}
+			</script>			
+						
+	</ol>
+	
+	<a href="javascript:window.print();" class="print_link">отпечатване</a>
+		
+	<ul class="font_size">
+	  <li class="reset"><a href="javascript:;" onclick="reset_fontsize();">A</a></li>
+      <li class="decrease"><a href="javascript:;" onclick="change_fontsize(-1);">А</a></li>
+      <li class="increase"><a href="javascript:;" onclick="change_fontsize(+1);">A</a></li>
+    </ul>
+    
+ 
+
+
+
+	
+</div>
+					
+			<!-- SS_END_SNIPPET(fragment7,body)-->
+    			
+    			<!-- SS_BEGIN_SNIPPET(fragment8,body)-->
+				<div id="sidebar">
+    <div class="box menu">
+    	<div class="top">
+        <div>
+ 			<script language="javascript">
+  			
+  				var lm = new LeftMenu(BNB_Vertical_Menu_Bar_FindNode (g_navNode_Root));
+				
+  				lm.display();
+    	
+  			</script>
+   		</div>
+   		</div>
+   	</div>
+</div>
+			<!-- SS_END_SNIPPET(fragment8,body)-->
+    			
+    			<div id="main">
+                	<div class="content" id="content_box">      
+
+                        <!-- SS_BEGIN_SNIPPET(fragment10,body)-->	
+	
+		
+	
+	
+	
+	
+
+<h2>
+					
+		   2026 г.
+		
+</h2>
+
+	
+	
+	
+		
+	
+
+	
+
+
+
+
+	<div class="downloads">
+				
+        	
+        		         		
+         	
+        		 
+					
+						<h4> <a href="202606_S_DEP_CR_PRESS_BG">Юни</a></h4>
+				
+					
+            	
+            	
+				
+        	
+        		         		
+						  
+					         	
+						 								
+					         	
+        		        			<div>
+						<span class="filename">Кредити и депозити по количествени категории и икономически дейности, 07.08.2026 г.</span>
+						<a href="/bnbweb/groups/public/documents/bnb_download/202606_s_dep_cr_press_a1_bg.pdf">Изтегли</a>
+						
+											
+							<img src="/bnbweb/fragments/bnb_iclude_fragment/images/icons/pdf.gif" width="16" height="16" alt="PDF" />					
+						<span class="filesize">(582&nbsp;KB)</span>
+						
+					</div>
+            	
+            	
+				
+        	
+        								 								
+					         	
+        		        			<div>
+						<span class="filename">Таблици</span>
+						<a href="/bnbweb/groups/public/documents/bnb_download/s_dep_cr_press_a2_bg.xlsx">Изтегли</a>
+						
+													<img src="/bnbweb/fragments/bnb_iclude_fragment/images/icons/excel.gif" width="16" height="16" alt="XLSX" />
+						<span class="filesize">(43&nbsp;KB)</span>
+						
+					</div>
+            	
+            	
+				
+        	
+        								 <hr class="breakline" />
+         	
+        		 
+					
+    					<h4> Март</h4>
+									
+					
+            	
+            	
+				
+        	
+        		         		
+						  
+					         	
+						 								
+					         	
+        		        			<div>
+						<span class="filename">Кредити и депозити по количествени категории и икономически дейности, 13.05.2026 г.</span>
+						<a href="/bnbweb/groups/public/documents/bnb_download/202603_s_dep_cr_press_a1_bg.pdf">Изтегли</a>
+						
+											
+							<img src="/bnbweb/fragments/bnb_iclude_fragment/images/icons/pdf.gif" width="16" height="16" alt="PDF" />					
+						<span class="filesize">(478&nbsp;KB)</span>
+						
+					</div>
+            	
+            	
+	</div>
+	
+			<!-- SS_END_SNIPPET(fragment10,body)-->
+                       
+                    </div><!--/content_box-->
+					
+                </div><!--/main-->
+			</div><!--/two_cols_wrapper-->
+				
+    		<div id="more_information">
+    			
+    			<!-- SS_BEGIN_SNIPPET(fragment11,body)--><div class="box archive">
+	<div class="top">
+	<div>
+		<h4 class="title">
+					Архив
+ 
+		</h4>      	
+                        		
+						
+				
+					<a href="/AboutUs/PressOffice/POStatisticalPressReleases/POPRSDepositsLoans/index.htm?forYear=2026">
+						2026
+					</a>
+				
+					<a href="/AboutUs/PressOffice/POStatisticalPressReleases/POPRSDepositsLoans/index.htm?forYear=2025">
+						2025
+					</a>
+				
+					<a href="/AboutUs/PressOffice/POStatisticalPressReleases/POPRSDepositsLoans/index.htm?forYear=2024">
+						2024
+					</a>
+				
+					<a href="/AboutUs/PressOffice/POStatisticalPressReleases/POPRSDepositsLoans/index.htm?forYear=2023">
+						2023
+					</a>
+				
+					<a href="/AboutUs/PressOffice/POStatisticalPressReleases/POPRSDepositsLoans/index.htm?forYear=2022">
+						2022
+					</a>
+				
+					<a href="/AboutUs/PressOffice/POStatisticalPressReleases/POPRSDepositsLoans/index.htm?forYear=2021">
+						2021
+					</a>
+				
+					<a href="/AboutUs/PressOffice/POStatisticalPressReleases/POPRSDepositsLoans/index.htm?forYear=2020">
+						2020
+					</a>
+				
+					<a href="/AboutUs/PressOffice/POStatisticalPressReleases/POPRSDepositsLoans/index.htm?forYear=2019">
+						2019
+					</a>
+				
+					<a href="/AboutUs/PressOffice/POStatisticalPressReleases/POPRSDepositsLoans/index.htm?forYear=2018">
+						2018
+					</a>
+				
+					<a href="/AboutUs/PressOffice/POStatisticalPressReleases/POPRSDepositsLoans/index.htm?forYear=2017">
+						2017
+					</a>
+				
+					<a href="/AboutUs/PressOffice/POStatisticalPressReleases/POPRSDepositsLoans/index.htm?forYear=2016">
+						2016
+					</a>
+				
+					<a href="/AboutUs/PressOffice/POStatisticalPressReleases/POPRSDepositsLoans/index.htm?forYear=2015">
+						2015
+					</a>
+				
+					<a href="/AboutUs/PressOffice/POStatisticalPressReleases/POPRSDepositsLoans/index.htm?forYear=2014">
+						2014
+					</a>
+				
+					<a href="/AboutUs/PressOffice/POStatisticalPressReleases/POPRSDepositsLoans/index.htm?forYear=2013">
+						2013
+					</a>
+				
+					<a href="/AboutUs/PressOffice/POStatisticalPressReleases/POPRSDepositsLoans/index.htm?forYear=2012">
+						2012
+					</a>
+				
+					<a href="/AboutUs/PressOffice/POStatisticalPressReleases/POPRSDepositsLoans/index.htm?forYear=2011">
+						2011
+					</a>
+				
+					<a href="/AboutUs/PressOffice/POStatisticalPressReleases/POPRSDepositsLoans/index.htm?forYear=2010">
+						2010
+					</a>
+				
+					<a href="/AboutUs/PressOffice/POStatisticalPressReleases/POPRSDepositsLoans/index.htm?forYear=2009">
+						2009
+					</a>
+				
+					<a href="/AboutUs/PressOffice/POStatisticalPressReleases/POPRSDepositsLoans/index.htm?forYear=2008">
+						2008
+					</a>
+				
+					<a href="/AboutUs/PressOffice/POStatisticalPressReleases/POPRSDepositsLoans/index.htm?forYear=2007">
+						2007
+					</a>
+	</div>
+	</div>
+</div>
+			<!-- SS_END_SNIPPET(fragment11,body)-->
+    		
+                <!-- SS_BEGIN_SNIPPET(fragment12,body)--><div class="box white">
+	<div class="top">
+		<div>
+			<h4 class="title">
+			Календар
+			</h4>
+	
+ 	
+ 	<ul>
+    	
+      		<li>
+      		<strong>09.11.2026, 12:00</strong>
+      		<br />
+      			<a href="/AboutUs/PressOffice/POCalendar/index.htm?searchBy=1&page=110&r=Press Office">
+      				Кредити и депозити по количествени категории и икономически дейности
+      			</a>
+      			<br />
+      			Септември 2026
+      		</li>
+				
+	</ul>
+
+	
+    
+	<a href="/AboutUs/PressOffice/POCalendar/index.htm?searchBy=1&r=Press Office">Общ календар на рубриката</a>
+	
+	</div>
+</div>
+</div>
+			<!-- SS_END_SNIPPET(fragment12,body)-->
+                
+                <div class="box rate">
+                    <div class="top">
+          			<div>
+                    	<ul>
+                    		<!-- SS_BEGIN_SNIPPET(fragment13,body)-->			
+		
+		
+		
+   					
+					
+						<li><a href="/bnbweb/groups/public/documents/bnb_download/st_m_instr_sdleact_bg.pdf">Методологически бележки</a></li>
+	            	                        	
+			<!-- SS_END_SNIPPET(fragment13,body)-->
+                    	</ul>                    	
+                    </div>
+                    </div>
+                </div>
+            	
+            	<div class="box white">
+                 	<div class="top">
+          			<div>
+                        <h4 class="title">
+            				Данни
+            			</h4>
+                        <ul>
+                			<!-- SS_BEGIN_SNIPPET(fragment15,body)-->				
+
+    <li>
+    			    	<a href="/Statistics/StMonetaryInterestRate/StDepositsAndLoans/StDCLoans/StDCLoansQuarterlyData/index.htm">
+            		Кредити и депозити по количествени категории и икономически дейности - тримесечни данни
+		</a>
+	</li>
+
+			<!-- SS_END_SNIPPET(fragment15,body)-->
+                			<!-- SS_BEGIN_SNIPPET(fragment16,body)-->				
+
+    <li>
+    			    	<a href="/Statistics/StMonetaryInterestRate/StDepositsAndLoans/StDCLoans/StDCLoansDataSeries/index.htm">
+            		Кредити и депозити по количествени категории и икономически дейности - динамични редове
+		</a>
+	</li>
+
+			<!-- SS_END_SNIPPET(fragment16,body)-->
+                		</ul>
+        			</div>
+    				</div>
+				</div>	
+               
+            </div><!--/more_information-->
+            
+      	</div><!--/content-->
+    </div><!--/content_top_shadow-->
+	
+	<!-- SS_BEGIN_SNIPPET(fragment6,body)-->					<div id="footer_menu">
+        <ul>
+			<li><a href="/index.htm">Начало</a></li>			
+			<li><a href="/AboutUs/AUCustomerService/AUCContacts/index.htm">Контакти</a></li>
+			<li><a href="/AboutUs/AUPersonalDataProtection/index.htm">Защита на личните данни</a></li></li>
+			<li><a href="/AboutUs/PressOffice/PORightsUsing/index.htm">Права за ползване</a></li>
+			<li><a href="/AboutUs/AUFAQ/index.htm">Често задавани въпроси</a></li>
+			<li><a href="/AboutUs/PressOffice/POUsefullinks/index.htm">Полезни връзки</a></li>
+			<li class="last"><a href="/AboutUs/AUSiteMap/index.htm">Карта на сайта</a></li>
+    </ul>
+  </div><!--/footer_menu-->
+
+</div><!--/wrapper-->
+
+</div><!--/white_wrapper_br-->
+</div><!--/white_wrapper_bl-->
+</div><!--/white_wrapper_tr-->
+</div><!--/white_wrapper_tl-->
+
+<div id="footer">
+	
+	  Българска народна банка. <a href="/AboutUs/PressOffice/PORightsUsing/index.htm">Права за ползване</a>
+	
+</div><!--/footer-->
+
+			<!-- SS_END_SNIPPET(fragment6,body)-->
+
+</body>
+</html>

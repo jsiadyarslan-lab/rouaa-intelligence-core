@@ -1,0 +1,1438 @@
+
+<!DOCTYPE html>
+<!--[if IE 9]><html lang="en" class="ie9 no-js"><![endif]-->
+<!--[if !IE]><!-->
+<html lang="en" class="no-js menu-closed">
+<!--<![endif]-->
+<head>
+	<!-- csj6x -->
+	
+	<link rel="preload" as="style" href="/styles/boe.vendor.min.css?ver=98f91" />
+<link rel="preload" as="style" href="/styles/BoE.min.css?ver=98f91" />
+<link rel="preload" as="style" href="/-/media/css/cludosearchmin.css?ver=99CF8F" />
+
+	
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta http-equiv="Content-type" content="text/html; charset=utf-8">
+	<meta content="width=device-width, initial-scale=1.0" name="viewport" />
+	
+
+<title>Financial Policy Committee Record – July 2026 | Bank of England</title>
+<meta name="description" content=""/>
+<meta name="apple-mobile-web-app-title" content="Bank of England" />
+<meta name="format-detection" content="telephone=no" />
+<link rel="canonical" href="https://www.bankofengland.co.uk/financial-policy-committee-record/2026/july-2026" />
+<meta property="og:title" content="Financial Policy Committee Record – July 2026">
+<meta property="og:description" content="Our Financial Policy Committee (FPC) meets to identify risks to financial stability and agree policy actions aimed at safeguarding the resilience of the UK financial system.">
+<meta property="og:image" content="https://www.bankofengland.co.uk/-/media/boe/images/logo/boe-default ">
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://www.bankofengland.co.uk/financial-policy-committee-record/2026/july-2026" />
+
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Financial Policy Committee Record – July 2026">
+<meta name="twitter:description" content="Our Financial Policy Committee (FPC) meets to identify risks to financial stability and agree policy actions aimed at safeguarding the resilience of the UK financial system.">
+<meta name="twitter:image" content="https://www.bankofengland.co.uk/-/media/boe/images/logo/boe-default ">
+
+	<script>
+	var CheckCookies = {
+		getCookie: function (cname) {
+			var name = cname + "=";
+			var decodedCookie = decodeURIComponent(document.cookie);
+			var ca = decodedCookie.split(';');
+			for (var i = 0; i < ca.length; i++) {
+				var c = ca[i];
+				while (c.charAt(0) === ' ') {
+					c = c.substring(1);
+				}
+				if (c.indexOf(name) === 0) {
+					return c.substring(name.length, c.length);
+				}
+			}
+			return "";
+		}
+	};
+	var SetAnalytics = {
+		setTagManager: function () {
+			var hasConsentAnalytics = CheckCookies.getCookie('boeconsent');
+			if (hasConsentAnalytics === "analytics") {
+				(function (w, d, s, l, i) {
+					w[l] = w[l] || []; w[l].push({
+						'gtm.start':
+							new Date().getTime(), event: 'gtm.js'
+					}); var f = d.getElementsByTagName(s)[0],
+						j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''; j.async = true; j.src =
+							'https://www.googletagmanager.com/gtm.js?id=' + i + dl; f.parentNode.insertBefore(j, f);
+				})(window, document, 'script', 'dataLayer', 'GTM-5H35J9');
+			}
+		},
+	}
+	SetAnalytics.setTagManager();
+	</script>
+
+	<script>
+		var el = document.getElementsByTagName('html')[0];
+		if (el.classList) {
+			el.classList.remove('no-js');
+		} else {
+			el.className = el.className.replace('no-js', '');
+		}
+	</script>
+
+	
+	<link href="/styles/boe.vendor.min.css?ver=98f91" rel="stylesheet" media="screen,print" />
+<link href="/styles/BoE.min.css?ver=98f91" rel="stylesheet" media="screen,print" />
+<link href="/-/media/css/cludosearchmin.css?ver=99CF8F" rel="stylesheet" media="screen" />
+
+	
+		<!-- Tracking Disabled -->
+	<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png?ver=98f91">
+	<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png?ver=98f91">
+	<link rel="icon" type="image/png" sizes="96x96" href="/favicon-96x96.png?ver=98f91">
+	<link rel="icon" type="image/png" sizes="180x180" href="/favicon-180x180.png?ver=98f91">
+	<link rel="icon" type="image/png" sizes="192x192" href="/favicon-192x192.png?ver=98f91">
+	<link rel="icon" type="image/png" sizes="512x512" href="/favicon-512x512.png?ver=98f91">
+
+	<link rel="icon" href="/favicon.ico?ver=98f91" sizes="any">
+	<link rel="icon" href="/favicon.svg?ver=98f91" type="image/svg+xml">
+	<link rel="apple-touch-icon" href="/apple-touch-icon.png?ver=98f91">
+
+
+<script>(window.BOOMR_mq=window.BOOMR_mq||[]).push(["addVar",{"rua.upush":"false","rua.cpush":"true","rua.upre":"false","rua.cpre":"false","rua.uprl":"false","rua.cprl":"false","rua.cprf":"false","rua.trans":"SJ-58b72da7-b8fa-4a1a-a607-2f093fd53070","rua.cook":"false","rua.ims":"false","rua.ufprl":"false","rua.cfprl":"false","rua.isuxp":"false","rua.texp":"norulematch","rua.ceh":"false","rua.ueh":"false","rua.ieh.st":"0"}]);</script>
+                                <script>!function(a){var e="https://s.go-mpulse.net/boomerang/",t="addEventListener";if("False"=="True")a.BOOMR_config=a.BOOMR_config||{},a.BOOMR_config.PageParams=a.BOOMR_config.PageParams||{},a.BOOMR_config.PageParams.pci=!0,e="https://s2.go-mpulse.net/boomerang/";if(window.BOOMR_API_key="9R3WH-S6EDC-8JGQW-55286-CGTTF",function(){function n(e){a.BOOMR_onload=e&&e.timeStamp||(new Date).getTime()}if(!a.BOOMR||!a.BOOMR.version&&!a.BOOMR.snippetExecuted){a.BOOMR=a.BOOMR||{},a.BOOMR.snippetExecuted=!0;var i,_,o,r=document.createElement("iframe");if(a[t])a[t]("load",n,!1);else if(a.attachEvent)a.attachEvent("onload",n);r.src="javascript:void(0)",r.title="",r.role="presentation",(r.frameElement||r).style.cssText="width:0;height:0;border:0;display:none;",o=document.getElementsByTagName("script")[0],o.parentNode.insertBefore(r,o);try{_=r.contentWindow.document}catch(O){i=document.domain,r.src="javascript:var d=document.open();d.domain='"+i+"';void(0);",_=r.contentWindow.document}_.open()._l=function(){var a=this.createElement("script");if(i)this.domain=i;a.id="boomr-if-as",a.src=e+"9R3WH-S6EDC-8JGQW-55286-CGTTF",BOOMR_lstart=(new Date).getTime(),this.body.appendChild(a)},_.write("<bo"+'dy onload="document._l();">'),_.close()}}(),"".length>0)if(a&&"performance"in a&&a.performance&&"function"==typeof a.performance.setResourceTimingBufferSize)a.performance.setResourceTimingBufferSize();!function(){if(BOOMR=a.BOOMR||{},BOOMR.plugins=BOOMR.plugins||{},!BOOMR.plugins.AK){var e="true"=="true"?1:0,t="",n="f446r2fykv4k42udrjia-f-9b52338f1-clientnsv4-s.akamaihd.net",i="false"=="true"?2:1,_={"ak.v":"41","ak.cp":"445139","ak.ai":parseInt("286733",10),"ak.ol":"0","ak.cr":4,"ak.ipv":4,"ak.proto":"http/1.1","ak.rid":"16d8c62d","ak.r":34657,"ak.a2":e,"ak.m":"a","ak.n":"essl","ak.cport":51088,"ak.gh":"184.51.102.4","ak.quicv":"","ak.tlsv":"tls1.3","ak.0rtt":"","ak.0rtt.ed":"","ak.csrc":"-","ak.acc":"bbr","ak.t":"1787005520","ak.ak":"hOBiQwZUYzCg5VSAfCLimQ==NfNCpiCcTjwfW829Iq57DAQqHK4TMb45kVuNV7s+TUUAX3k4j2dZr1mEmvveEQOjkUvNhxtfx+1Z2Vy41CQ9XI7zno3uFW/f/XqVZTLQVmk7Q2iClJkaVejHV8Hw8bXhGQ0lCcEANsiEA1z3KfntXclOVmJz/8Ktzi3PzxWU8iPhqADj8sLFJKr8/sa9G3r9jwXCEe8OnsIMLqtQq0dfXnUkkk4a1GDew6m5O92ykAJ9b6zE1LQ5Cl7OsPoypCmMz93iVbtn9RHnAXUywfknCaV+mnU46hmtviHsyn46eTkmtHVorlrp4S7gD13jgoT1IcaPIHeNErdH6wdMIsNTYt3u9IRi711KPPeLNu87g4rZ4sMmnkABv8f8g/+ryp5T8AuV1Rymq2qpbFMj87dQJ3+pX1w+BzJ/ZjQ3Y9j+Av0=","ak.pv":"356","ak.dpoabenc":"","ak.tf":i};if(""!==t)_["ak.ruds"]=t;var o={i:!1,av:function(e){var t="http.initiator";if(e&&(!e[t]||"spa_hard"===e[t]))_["ak.feo"]=void 0!==a.aFeoApplied?1:0,BOOMR.addVar(_)},rv:function(){var a=["ak.cport","ak.cr","ak.csrc","ak.gh","ak.ipv","ak.m","ak.n","ak.ol","ak.proto","ak.quicv","ak.tlsv","ak.0rtt","ak.0rtt.ed","ak.r","ak.acc","ak.t","ak.tf"];BOOMR.removeVar(a)}};BOOMR.plugins.AK={akVars:_,akDNSPreFetchDomain:n,init:function(){if(!o.i){var a=BOOMR.subscribe;a("before_beacon",o.av,null,null),a("onbeacon",o.rv,null,null),o.i=!0}return this},is_complete:function(){return!0}}}}()}(window);</script></head>
+<body >
+		<div class="wrap" itemscope="" itemtype="http://schema.org/WebPage">
+
+
+<div class="cookie-notice">
+	<div class="cookie-notice__panel">
+		<div class="cookie-content content-block">
+			<h2 class="cookie-title exclude-navigation">Our use of cookies</h2>
+
+			<p>We use necessary cookies to make our site work. We&rsquo;d also like to use some non-essential cookies (including third-party cookies) to help us improve the site. By clicking &lsquo;Accept recommended settings&rsquo; on this banner, you accept our use of analytics cookies.&nbsp;  For more information on how these cookies work please see our <a href="/legal/privacy-and-cookie-policy">Cookie policy</a>.</p>
+
+			<button type="button" class="cookie__button btn btn-default" data-cookie="analytics">Accept recommended cookies</button>
+			<button type="button" class="cookie__button btn btn-default btn-neutral" data-cookie="necessary">Proceed with necessary cookies only</button>
+
+					</div>
+	</div>
+</div>		<div class="nav-bypass">
+			<a href="#main-content" class="nav-bypass__link">Skip to main content</a>
+		</div>
+		
+<header class="global-header" itemscope="" itemtype="http://schema.org/WPHeader">
+    <div class="container">
+        <div class="col12">
+            <div class="header-brand" itemscope="" itemtype="http://schema.org/Organisation">
+                
+
+	<a class="header-logo " itemscope itemtype="http://schema.org/Brand" href="/">
+		<img src="/-/media/boe/images/logo/logo-boe.svg?iar=0&amp;mh=61&amp;hash=2C88D4FFDD47844D6BD2541F5A92D70F" alt="Bank of England home" />
+
+	</a>
+
+            </div>
+
+            <div class="header-nav " id="menu">
+                <nav class="container-nav-primary" id="container-nav-primary" role="navigation" aria-label="Main navigation" itemscope="" itemtype="http://schema.org/SiteNavigationElement" data-nav-primary>
+                    <button class="nav-primary__button" aria-controls="main-menu" data-nav-toggle>
+                        <span class="icon-menu"><span class="visually-hidden">Main menu</span></span>
+                        <span class="icon-cross"><span class="visually-hidden">Close main menu</span></span>
+                    </button>
+                    <ul class="nav-primary" id="main-menu">
+                        
+                        
+
+<li class="nav-primary__list-item nav-primary__list-item--has-children" data-nav-has-children>
+    <span class="nav-primary__link">
+        Topics
+    </span>
+    <button class="nav-primary__dropdown-toggle">
+		<span class="visually-hidden">
+			Open Topics sub menu
+		</span>
+	</button>
+    <ul class="nav-primary__sublist">
+        <li class="nav-primary__sublist-item nav-primary__sublist-item--back">
+            <a href="#" class="nav-primary__sublist-link" data-nav-back>
+                Back <span class="visually-hidden">to main menu</span>
+            </a>
+        </li>
+            <li class="nav-primary__sublist-item  nav-primary__sublist-item--has-children" data-nav-has-children>
+                    <a href="/banknotes" class="nav-primary__sublist-link">
+                        Banknotes
+                    </a>
+                                    <button class="nav-primary__dropdown-toggle">
+                        <span class="visually-hidden">Open Banknotes sub menu</span>
+                    </button>
+                    <ul class="nav-primary__sublist">
+                        <li class="nav-primary__sublist-item nav-primary__sublist-item--back">
+                            <a href="#" class="nav-primary__sublist-link" data-nav-back>
+                                Back <span class="visually-hidden">to main menu</span>
+                            </a>
+                        </li>
+                            <li class="nav-primary__sublist-item">
+                                <a href="/banknotes/counterfeit-banknotes" class="nav-primary__sublist-link">
+                                    Counterfeit banknotes 
+                                </a>
+                            </li>
+                            <li class="nav-primary__sublist-item">
+                                <a href="/banknotes/current-banknotes" class="nav-primary__sublist-link">
+                                    Current banknotes 
+                                </a>
+                            </li>
+                            <li class="nav-primary__sublist-item">
+                                <a href="/banknotes/damaged-and-contaminated-banknotes" class="nav-primary__sublist-link">
+                                    Damaged and contaminated banknotes 
+                                </a>
+                            </li>
+                            <li class="nav-primary__sublist-item">
+                                <a href="/banknotes/exchanging-old-banknotes" class="nav-primary__sublist-link">
+                                    Exchanging old banknotes 
+                                </a>
+                            </li>
+                            <li class="nav-primary__sublist-item">
+                                <a href="/banknotes/note-circulation-scheme" class="nav-primary__sublist-link">
+                                    Note Circulation Scheme 
+                                </a>
+                            </li>
+                            <li class="nav-primary__sublist-item">
+                                <a href="/banknotes/retailers-and-businesses" class="nav-primary__sublist-link">
+                                    Advice for retailers and businesses 
+                                </a>
+                            </li>
+                            <li class="nav-primary__sublist-item">
+                                <a href="/banknotes/scottish-and-northern-ireland-banknotes" class="nav-primary__sublist-link">
+                                    Scottish and Northern Ireland banknotes 
+                                </a>
+                            </li>
+                            <li class="nav-primary__sublist-item">
+                                <a href="/banknotes/using-images-of-banknotes" class="nav-primary__sublist-link">
+                                    Using images of banknotes 
+                                </a>
+                            </li>
+                            <li class="nav-primary__sublist-item">
+                                <a href="/banknotes/wholesale-cash-supervision" class="nav-primary__sublist-link">
+                                    Wholesale cash supervision 
+                                </a>
+                            </li>
+                            <li class="nav-primary__sublist-item">
+                                <a href="/banknotes/withdrawn-banknotes" class="nav-primary__sublist-link">
+                                    Withdrawn banknotes 
+                                </a>
+                            </li>
+					</ul>
+            </li>
+            <li class="nav-primary__sublist-item  nav-primary__sublist-item--has-children" data-nav-has-children>
+                    <a href="/careers" class="nav-primary__sublist-link">
+                        Careers
+                    </a>
+                                    <button class="nav-primary__dropdown-toggle">
+                        <span class="visually-hidden">Open Careers sub menu</span>
+                    </button>
+                    <ul class="nav-primary__sublist">
+                        <li class="nav-primary__sublist-item nav-primary__sublist-item--back">
+                            <a href="#" class="nav-primary__sublist-link" data-nav-back>
+                                Back <span class="visually-hidden">to main menu</span>
+                            </a>
+                        </li>
+                            <li class="nav-primary__sublist-item">
+                                <a href="/careers/application-tips" class="nav-primary__sublist-link">
+                                    Application tips 
+                                </a>
+                            </li>
+                            <li class="nav-primary__sublist-item">
+                                <a href="/careers/career-returner" class="nav-primary__sublist-link">
+                                    Career Returner Programme 
+                                </a>
+                            </li>
+                            <li class="nav-primary__sublist-item">
+                                <a href="/careers/future-talent" class="nav-primary__sublist-link">
+                                    Future talent 
+                                </a>
+                            </li>
+                            <li class="nav-primary__sublist-item">
+                                <a href="/careers/our-locations" class="nav-primary__sublist-link">
+                                    Our locations 
+                                </a>
+                            </li>
+                            <li class="nav-primary__sublist-item">
+                                <a href="/careers/research-careers" class="nav-primary__sublist-link">
+                                    Research careers 
+                                </a>
+                            </li>
+                            <li class="nav-primary__sublist-item">
+                                <a href="/careers/we-value-diversity-and-inclusion" class="nav-primary__sublist-link">
+                                    We value diversity and inclusion 
+                                </a>
+                            </li>
+                            <li class="nav-primary__sublist-item">
+                                <a href="/careers/what-we-offer-you" class="nav-primary__sublist-link">
+                                    What we offer you 
+                                </a>
+                            </li>
+                            <li class="nav-primary__sublist-item">
+                                <a href="/careers/why-you-should-join-us" class="nav-primary__sublist-link">
+                                    Why you should join us 
+                                </a>
+                            </li>
+					</ul>
+            </li>
+            <li class="nav-primary__sublist-item" >
+                    <a href="/climate-change" class="nav-primary__sublist-link">
+                        Climate change
+                    </a>
+                            </li>
+            <li class="nav-primary__sublist-item" >
+                    <a href="/the-digital-pound" class="nav-primary__sublist-link">
+                        Digital pound
+                    </a>
+                            </li>
+            <li class="nav-primary__sublist-item  nav-primary__sublist-item--has-children" data-nav-has-children>
+                    <a href="/education" class="nav-primary__sublist-link">
+                        Education
+                    </a>
+                                    <button class="nav-primary__dropdown-toggle">
+                        <span class="visually-hidden">Open Education sub menu</span>
+                    </button>
+                    <ul class="nav-primary__sublist">
+                        <li class="nav-primary__sublist-item nav-primary__sublist-item--back">
+                            <a href="#" class="nav-primary__sublist-link" data-nav-back>
+                                Back <span class="visually-hidden">to main menu</span>
+                            </a>
+                        </li>
+                            <li class="nav-primary__sublist-item">
+                                <a href="/education/competitions" class="nav-primary__sublist-link">
+                                    Competitions 
+                                </a>
+                            </li>
+                            <li class="nav-primary__sublist-item">
+                                <a href="/education/education-resources" class="nav-primary__sublist-link">
+                                    Education resources 
+                                </a>
+                            </li>
+                            <li class="nav-primary__sublist-item">
+                                <a href="/education/research-support-programme" class="nav-primary__sublist-link">
+                                    Research support programme 
+                                </a>
+                            </li>
+                            <li class="nav-primary__sublist-item">
+                                <a href="/education/school-visits" class="nav-primary__sublist-link">
+                                    Request a speaker for your school 
+                                </a>
+                            </li>
+					</ul>
+            </li>
+            <li class="nav-primary__sublist-item  nav-primary__sublist-item--has-children" data-nav-has-children>
+                    <a href="/financial-stability" class="nav-primary__sublist-link">
+                        Financial stability
+                    </a>
+                                    <button class="nav-primary__dropdown-toggle">
+                        <span class="visually-hidden">Open Financial stability sub menu</span>
+                    </button>
+                    <ul class="nav-primary__sublist">
+                        <li class="nav-primary__sublist-item nav-primary__sublist-item--back">
+                            <a href="#" class="nav-primary__sublist-link" data-nav-back>
+                                Back <span class="visually-hidden">to main menu</span>
+                            </a>
+                        </li>
+                            <li class="nav-primary__sublist-item">
+                                <a href="/financial-stability/digital-securities-sandbox" class="nav-primary__sublist-link">
+                                    Digital Securities Sandbox (DSS) 
+                                </a>
+                            </li>
+                            <li class="nav-primary__sublist-item">
+                                <a href="/financial-stability/financial-market-infrastructure-supervision" class="nav-primary__sublist-link">
+                                    Financial market infrastructure supervision 
+                                </a>
+                            </li>
+                            <li class="nav-primary__sublist-item">
+                                <a href="/financial-stability/operational-resilience-of-the-financial-sector" class="nav-primary__sublist-link">
+                                    Operational resilience of the financial sector 
+                                </a>
+                            </li>
+                            <li class="nav-primary__sublist-item">
+                                <a href="/financial-stability/resolution" class="nav-primary__sublist-link">
+                                    Resolution 
+                                </a>
+                            </li>
+                            <li class="nav-primary__sublist-item">
+                                <a href="/financial-stability/trade-repository-data" class="nav-primary__sublist-link">
+                                    Trade Repository (TR) Data Collections 
+                                </a>
+                            </li>
+					</ul>
+            </li>
+            <li class="nav-primary__sublist-item" >
+                    <a href="/gold" class="nav-primary__sublist-link">
+                        Gold
+                    </a>
+                            </li>
+            <li class="nav-primary__sublist-item  nav-primary__sublist-item--has-children" data-nav-has-children>
+                    <a href="/markets" class="nav-primary__sublist-link">
+                        Markets
+                    </a>
+                                    <button class="nav-primary__dropdown-toggle">
+                        <span class="visually-hidden">Open Markets sub menu</span>
+                    </button>
+                    <ul class="nav-primary__sublist">
+                        <li class="nav-primary__sublist-item nav-primary__sublist-item--back">
+                            <a href="#" class="nav-primary__sublist-link" data-nav-back>
+                                Back <span class="visually-hidden">to main menu</span>
+                            </a>
+                        </li>
+                            <li class="nav-primary__sublist-item">
+                                <a href="/markets/bank-of-england-market-operations-guide" class="nav-primary__sublist-link">
+                                    Bank of England Market Operations Guide 
+                                </a>
+                            </li>
+                            <li class="nav-primary__sublist-item">
+                                <a href="/markets/eligible-collateral" class="nav-primary__sublist-link">
+                                    Eligible collateral 
+                                </a>
+                            </li>
+                            <li class="nav-primary__sublist-item">
+                                <a href="/markets/fair-and-effective-markets" class="nav-primary__sublist-link">
+                                    Fair and Effective Markets  
+                                </a>
+                            </li>
+                            <li class="nav-primary__sublist-item">
+                                <a href="/markets/foreign-currency-reserves" class="nav-primary__sublist-link">
+                                    Foreign currency reserves 
+                                </a>
+                            </li>
+                            <li class="nav-primary__sublist-item">
+                                <a href="/markets/greening-the-corporate-bond-purchase-scheme" class="nav-primary__sublist-link">
+                                    Greening our Corporate Bond Purchase Scheme (CBPS) 
+                                </a>
+                            </li>
+                            <li class="nav-primary__sublist-item">
+                                <a href="/markets/market-intelligence" class="nav-primary__sublist-link">
+                                    Market intelligence 
+                                </a>
+                            </li>
+                            <li class="nav-primary__sublist-item">
+                                <a href="/markets/money-markets-committee-and-uk-money-markets-code" class="nav-primary__sublist-link">
+                                    Money Markets Committee and UK Money Markets Code 
+                                </a>
+                            </li>
+                            <li class="nav-primary__sublist-item">
+                                <a href="/markets/collateral-and-settlement" class="nav-primary__sublist-link">
+                                    Settlement and collateral management 
+                                </a>
+                            </li>
+                            <li class="nav-primary__sublist-item">
+                                <a href="/markets/sonia-benchmark" class="nav-primary__sublist-link">
+                                    SONIA interest rate benchmark 
+                                </a>
+                            </li>
+                            <li class="nav-primary__sublist-item">
+                                <a href="/markets/the-sterling-bond-portfolio" class="nav-primary__sublist-link">
+                                    The Sterling Bond Portfolio 
+                                </a>
+                            </li>
+                            <li class="nav-primary__sublist-item">
+                                <a href="/markets/transition-to-sterling-risk-free-rates-from-libor" class="nav-primary__sublist-link">
+                                    Transition from LIBOR to risk-free rates 
+                                </a>
+                            </li>
+					</ul>
+            </li>
+            <li class="nav-primary__sublist-item  nav-primary__sublist-item--has-children" data-nav-has-children>
+                    <a href="/monetary-policy" class="nav-primary__sublist-link">
+                        Monetary policy
+                    </a>
+                                    <button class="nav-primary__dropdown-toggle">
+                        <span class="visually-hidden">Open Monetary policy sub menu</span>
+                    </button>
+                    <ul class="nav-primary__sublist">
+                        <li class="nav-primary__sublist-item nav-primary__sublist-item--back">
+                            <a href="#" class="nav-primary__sublist-link" data-nav-back>
+                                Back <span class="visually-hidden">to main menu</span>
+                            </a>
+                        </li>
+                            <li class="nav-primary__sublist-item">
+                                <a href="/monetary-policy/inflation" class="nav-primary__sublist-link">
+                                    Inflation and the 2% target 
+                                </a>
+                            </li>
+                            <li class="nav-primary__sublist-item">
+                                <a href="/monetary-policy/quantitative-easing" class="nav-primary__sublist-link">
+                                    Quantitative easing 
+                                </a>
+                            </li>
+                            <li class="nav-primary__sublist-item">
+                                <a href="/monetary-policy/the-interest-rate-bank-rate" class="nav-primary__sublist-link">
+                                    Interest rates and Bank Rate 
+                                </a>
+                            </li>
+					</ul>
+            </li>
+            <li class="nav-primary__sublist-item  nav-primary__sublist-item--has-children" data-nav-has-children>
+                    <a href="/payments" class="nav-primary__sublist-link">
+                        Payments
+                    </a>
+                                    <button class="nav-primary__dropdown-toggle">
+                        <span class="visually-hidden">Open Payments sub menu</span>
+                    </button>
+                    <ul class="nav-primary__sublist">
+                        <li class="nav-primary__sublist-item nav-primary__sublist-item--back">
+                            <a href="#" class="nav-primary__sublist-link" data-nav-back>
+                                Back <span class="visually-hidden">to main menu</span>
+                            </a>
+                        </li>
+                            <li class="nav-primary__sublist-item">
+                                <a href="/payments/banking-services" class="nav-primary__sublist-link">
+                                    Banking services 
+                                </a>
+                            </li>
+                            <li class="nav-primary__sublist-item">
+                                <a href="/payments/chaps" class="nav-primary__sublist-link">
+                                    CHAPS 
+                                </a>
+                            </li>
+                            <li class="nav-primary__sublist-item">
+                                <a href="/payments/payment-settlement" class="nav-primary__sublist-link">
+                                    Payment and settlement 
+                                </a>
+                            </li>
+                            <li class="nav-primary__sublist-item">
+                                <a href="/payments/payments-innovation" class="nav-primary__sublist-link">
+                                    Payments innovation 
+                                </a>
+                            </li>
+					</ul>
+            </li>
+            <li class="nav-primary__sublist-item  nav-primary__sublist-item--has-children" data-nav-has-children>
+                    <a href="/prudential-regulation" class="nav-primary__sublist-link">
+                        Prudential regulation
+                    </a>
+                                    <button class="nav-primary__dropdown-toggle">
+                        <span class="visually-hidden">Open Prudential regulation sub menu</span>
+                    </button>
+                    <ul class="nav-primary__sublist">
+                        <li class="nav-primary__sublist-item nav-primary__sublist-item--back">
+                            <a href="#" class="nav-primary__sublist-link" data-nav-back>
+                                Back <span class="visually-hidden">to main menu</span>
+                            </a>
+                        </li>
+                            <li class="nav-primary__sublist-item">
+                                <a href="/prudential-regulation/authorisations" class="nav-primary__sublist-link">
+                                    Authorisations 
+                                </a>
+                            </li>
+                            <li class="nav-primary__sublist-item">
+                                <a href="/prudential-regulation/new-bank-start-up-unit" class="nav-primary__sublist-link">
+                                    New Bank Start-up Unit 
+                                </a>
+                            </li>
+                            <li class="nav-primary__sublist-item">
+                                <a href="/prudential-regulation/new-insurer-start-up-unit" class="nav-primary__sublist-link">
+                                    New Insurer Start-up Unit 
+                                </a>
+                            </li>
+                            <li class="nav-primary__sublist-item">
+                                <a href="/prudential-regulation/policy" class="nav-primary__sublist-link">
+                                    Policy 
+                                </a>
+                            </li>
+                            <li class="nav-primary__sublist-item">
+                                <a href="/prudential-regulation/prudential-and-resolution-policy-index" class="nav-primary__sublist-link">
+                                    Prudential and Resolution Policy Index 
+                                </a>
+                            </li>
+                            <li class="nav-primary__sublist-item">
+                                <a href="/prudential-regulation/regulatory-reporting" class="nav-primary__sublist-link">
+                                    Regulatory reporting 
+                                </a>
+                            </li>
+                            <li class="nav-primary__sublist-item">
+                                <a href="/prudential-regulation/our-secondary-objectives" class="nav-primary__sublist-link">
+                                    Our secondary objectives 
+                                </a>
+                            </li>
+                            <li class="nav-primary__sublist-item">
+                                <a href="/prudential-regulation/supervision" class="nav-primary__sublist-link">
+                                    Supervision 
+                                </a>
+                            </li>
+                            <li class="nav-primary__sublist-item">
+                                <a href="/prudential-regulation/the-bank-of-england-enforcement" class="nav-primary__sublist-link">
+                                    The Bank of England’s approach to enforcement 
+                                </a>
+                            </li>
+					</ul>
+            </li>
+            <li class="nav-primary__sublist-item  nav-primary__sublist-item--has-children" data-nav-has-children>
+                    <a href="/research" class="nav-primary__sublist-link">
+                        Research
+                    </a>
+                                    <button class="nav-primary__dropdown-toggle">
+                        <span class="visually-hidden">Open Research sub menu</span>
+                    </button>
+                    <ul class="nav-primary__sublist">
+                        <li class="nav-primary__sublist-item nav-primary__sublist-item--back">
+                            <a href="#" class="nav-primary__sublist-link" data-nav-back>
+                                Back <span class="visually-hidden">to main menu</span>
+                            </a>
+                        </li>
+                            <li class="nav-primary__sublist-item">
+                                <a href="/research/bank-of-england-agenda-for-research" class="nav-primary__sublist-link">
+                                    Bank of England Agenda for Research, 2025-2028 
+                                </a>
+                            </li>
+                            <li class="nav-primary__sublist-item">
+                                <a href="/research/fintech" class="nav-primary__sublist-link">
+                                    Fintech 
+                                </a>
+                            </li>
+                            <li class="nav-primary__sublist-item">
+                                <a href="/research/future-finance" class="nav-primary__sublist-link">
+                                    The Future of Finance - our response 
+                                </a>
+                            </li>
+                            <li class="nav-primary__sublist-item">
+                                <a href="/research/visitor-programme" class="nav-primary__sublist-link">
+                                    Research Visitor Programme 
+                                </a>
+                            </li>
+                            <li class="nav-primary__sublist-item">
+                                <a href="/research/research-funding-and-fellowships" class="nav-primary__sublist-link">
+                                    Research funding and fellowships 
+                                </a>
+                            </li>
+                            <li class="nav-primary__sublist-item">
+                                <a href="/research/researchers" class="nav-primary__sublist-link">
+                                    Researchers 
+                                </a>
+                            </li>
+					</ul>
+            </li>
+            <li class="nav-primary__sublist-item  nav-primary__sublist-item--has-children" data-nav-has-children>
+                    <a href="/statistics" class="nav-primary__sublist-link">
+                        Statistics
+                    </a>
+                                    <button class="nav-primary__dropdown-toggle">
+                        <span class="visually-hidden">Open Statistics sub menu</span>
+                    </button>
+                    <ul class="nav-primary__sublist">
+                        <li class="nav-primary__sublist-item nav-primary__sublist-item--back">
+                            <a href="#" class="nav-primary__sublist-link" data-nav-back>
+                                Back <span class="visually-hidden">to main menu</span>
+                            </a>
+                        </li>
+                            <li class="nav-primary__sublist-item">
+                                <a href="/statistics/banknote" class="nav-primary__sublist-link">
+                                    Banknote statistics 
+                                </a>
+                            </li>
+                            <li class="nav-primary__sublist-item">
+                                <a href="/statistics/tables" class="nav-primary__sublist-link">
+                                    Bankstats tables 
+                                </a>
+                            </li>
+                            <li class="nav-primary__sublist-item">
+                                <a href="/statistics/data-collection" class="nav-primary__sublist-link">
+                                    Data collection 
+                                </a>
+                            </li>
+                            <li class="nav-primary__sublist-item">
+                                <a href="/statistics/exchange-rates" class="nav-primary__sublist-link">
+                                    Exchange rates 
+                                </a>
+                            </li>
+                            <li class="nav-primary__sublist-item">
+                                <a href="/statistics/gold" class="nav-primary__sublist-link">
+                                    Gold statistics 
+                                </a>
+                            </li>
+                            <li class="nav-primary__sublist-item">
+                                <a href="/statistics/research-datasets" class="nav-primary__sublist-link">
+                                    Research datasets 
+                                </a>
+                            </li>
+                            <li class="nav-primary__sublist-item">
+                                <a href="/statistics/statistics-requested-by-users" class="nav-primary__sublist-link">
+                                    Statistics requested by users 
+                                </a>
+                            </li>
+                            <li class="nav-primary__sublist-item">
+                                <a href="/statistics/yield-curves" class="nav-primary__sublist-link">
+                                    Yield curves 
+                                </a>
+                            </li>
+					</ul>
+            </li>
+    </ul>
+</li>
+
+                        
+                                <li class="nav-primary__list-item nav-primary__list-item--has-children" data-nav-has-children>
+
+            <a href="/about" class="nav-primary__link" >
+                <span>About</span>
+            </a>
+				<button class="nav-primary__dropdown-toggle">
+					<span class="visually-hidden">Open About sub menu</span>
+			    </button>
+				<ul class="nav-primary__sublist">
+					<li class="nav-primary__sublist-item nav-primary__sublist-item--back">
+						<a href="#" class="nav-primary__sublist-link" data-nav-back>
+							Back <span class="visually-hidden">to main menu</span>
+						</a>
+					</li>
+                    <li class="nav-primary__sublist-item  nav-primary__sublist-item--has-children" data-nav-has-children >
+                        <a href="/about/get-involved" class="nav-primary__sublist-link" >
+                                Get involved
+                        </a>
+                            <button class="nav-primary__dropdown-toggle">
+                                <span class="visually-hidden">Open Get involved sub menu</span>
+                            </button>
+                            <ul class="nav-primary__sublist">
+                                <li class="nav-primary__sublist-item nav-primary__sublist-item--back">
+                                    <a href="#" class="nav-primary__sublist-link" data-nav-back>
+                                        Back <span class="visually-hidden">to main menu</span>
+                                    </a>
+                                </li>
+                                        <li class="nav-primary__sublist-item">
+                                            <a href="/about/get-involved/citizens-panels" class="nav-primary__sublist-link" >
+                                                Citizens’ Forum
+                                            </a>
+                                        </li>
+                                        <li class="nav-primary__sublist-item">
+                                            <a href="/about/get-involved/community-forums" class="nav-primary__sublist-link" >
+                                                Community Forum
+                                            </a>
+                                        </li>
+                                        <li class="nav-primary__sublist-item">
+                                            <a href="/about/get-involved/community-partners" class="nav-primary__sublist-link" >
+                                                Partners
+                                            </a>
+                                        </li>
+                                        <li class="nav-primary__sublist-item">
+                                            <a href="/about/get-involved/youth-forum" class="nav-primary__sublist-link" >
+                                                Youth Voice
+                                            </a>
+                                        </li>
+                            </ul>
+                    </li>
+                    <li class="nav-primary__sublist-item  nav-primary__sublist-item--has-children" data-nav-has-children >
+                        <a href="/about/governance-and-funding" class="nav-primary__sublist-link" >
+                                Governance and funding
+                        </a>
+                            <button class="nav-primary__dropdown-toggle">
+                                <span class="visually-hidden">Open Governance and funding sub menu</span>
+                            </button>
+                            <ul class="nav-primary__sublist">
+                                <li class="nav-primary__sublist-item nav-primary__sublist-item--back">
+                                    <a href="#" class="nav-primary__sublist-link" data-nav-back>
+                                        Back <span class="visually-hidden">to main menu</span>
+                                    </a>
+                                </li>
+                                        <li class="nav-primary__sublist-item">
+                                            <a href="/about/governance-and-funding/staff-codes-and-policies" class="nav-primary__sublist-link" >
+                                                Staff codes and policies
+                                            </a>
+                                        </li>
+                            </ul>
+                    </li>
+                    <li class="nav-primary__sublist-item"  >
+                        <a href="/about/history" class="nav-primary__sublist-link" >
+                                History
+                        </a>
+                    </li>
+                    <li class="nav-primary__sublist-item  nav-primary__sublist-item--has-children" data-nav-has-children >
+                        <a href="/about/people" class="nav-primary__sublist-link" >
+                                Our people
+                        </a>
+                            <button class="nav-primary__dropdown-toggle">
+                                <span class="visually-hidden">Open Our people sub menu</span>
+                            </button>
+                            <ul class="nav-primary__sublist">
+                                <li class="nav-primary__sublist-item nav-primary__sublist-item--back">
+                                    <a href="#" class="nav-primary__sublist-link" data-nav-back>
+                                        Back <span class="visually-hidden">to main menu</span>
+                                    </a>
+                                </li>
+                                        <li class="nav-primary__sublist-item">
+                                            <a href="/about/people/agents" class="nav-primary__sublist-link" >
+                                                Agents
+                                            </a>
+                                        </li>
+                                        <li class="nav-primary__sublist-item">
+                                            <a href="/about/people/chief-cashiers" class="nav-primary__sublist-link" >
+                                                Chief Cashiers
+                                            </a>
+                                        </li>
+                                        <li class="nav-primary__sublist-item">
+                                            <a href="/about/people/court-of-directors" class="nav-primary__sublist-link" >
+                                                Court of Directors
+                                            </a>
+                                        </li>
+                                        <li class="nav-primary__sublist-item">
+                                            <a href="/about/people/executive-directors" class="nav-primary__sublist-link" >
+                                                Executive Directors
+                                            </a>
+                                        </li>
+                                        <li class="nav-primary__sublist-item">
+                                            <a href="/about/people/financial-policy-committee" class="nav-primary__sublist-link" >
+                                                Financial Policy Committee
+                                            </a>
+                                        </li>
+                                        <li class="nav-primary__sublist-item">
+                                            <a href="/about/people/fmi-committee" class="nav-primary__sublist-link" >
+                                                Financial Market Infrastructure Committee
+                                            </a>
+                                        </li>
+                                        <li class="nav-primary__sublist-item">
+                                            <a href="/about/people/governors" class="nav-primary__sublist-link" >
+                                                Governors
+                                            </a>
+                                        </li>
+                                        <li class="nav-primary__sublist-item">
+                                            <a href="/about/people/monetary-policy-committee" class="nav-primary__sublist-link" >
+                                                Monetary Policy Committee
+                                            </a>
+                                        </li>
+                                        <li class="nav-primary__sublist-item">
+                                            <a href="/about/people/prudential-regulation-committee" class="nav-primary__sublist-link" >
+                                                Prudential Regulation Committee
+                                            </a>
+                                        </li>
+                            </ul>
+                    </li>
+				</ul>
+		</li>
+        <li class="nav-primary__list-item nav-primary__list-item--has-children" data-nav-has-children>
+
+            <a href="/news" class="nav-primary__link" >
+                <span>News and publications</span>
+            </a>
+				<button class="nav-primary__dropdown-toggle">
+					<span class="visually-hidden">Open News and publications sub menu</span>
+			    </button>
+				<ul class="nav-primary__sublist">
+					<li class="nav-primary__sublist-item nav-primary__sublist-item--back">
+						<a href="#" class="nav-primary__sublist-link" data-nav-back>
+							Back <span class="visually-hidden">to main menu</span>
+						</a>
+					</li>
+                    <li class="nav-primary__sublist-item"  >
+                        <a href="/news/events" class="nav-primary__sublist-link" >
+                                Events
+                        </a>
+                    </li>
+                    <li class="nav-primary__sublist-item"  >
+                        <a href="/news/news" class="nav-primary__sublist-link" >
+                                News and minutes
+                        </a>
+                    </li>
+                    <li class="nav-primary__sublist-item"  >
+                        <a href="/news/prudential-regulation" class="nav-primary__sublist-link" >
+                                Prudential regulation publications
+                        </a>
+                    </li>
+                    <li class="nav-primary__sublist-item"  >
+                        <a href="/news/publications" class="nav-primary__sublist-link" >
+                                Publications
+                        </a>
+                    </li>
+                    <li class="nav-primary__sublist-item"  >
+                        <a href="/news/speeches" class="nav-primary__sublist-link" >
+                                Speeches
+                        </a>
+                    </li>
+                    <li class="nav-primary__sublist-item"  >
+                        <a href="/news/statistics" class="nav-primary__sublist-link" >
+                                Statistical releases
+                        </a>
+                    </li>
+                    <li class="nav-primary__sublist-item"  >
+                        <a href="/news/upcoming" class="nav-primary__sublist-link" >
+                                Upcoming
+                        </a>
+                    </li>
+				</ul>
+		</li>
+        <li class="nav-primary__list-item" >
+
+            <a href="/museum" class="nav-primary__link" >
+                <span>Museum</span>
+            </a>
+		</li>
+        <li class="nav-primary__list-item" >
+
+            <a href="/contact" class="nav-primary__link" >
+                <span>Contact</span>
+            </a>
+		</li>
+
+
+                        
+                            <li class="nav-primary__list-item">
+                                
+
+<script>
+	var cludo_engineId = 9479; 
+	var cludo_language = 'en'; 
+	var cludo_searchUrl = 'https://www.bankofengland.co.uk/search'; 
+</script>
+<div class="search-widget " >
+    <form class="" id="cludo-search-form" >
+        <div class="search-widget-fields">
+            <label for="clu-q" class="label-hidden">Search</label>
+            <input tabindex="0" onkeyup="removeErrorMessage(event)" type="search" name="q" id="clu-q" placeholder="Search the Bank of England" data-placeholder="Search the Bank of England" data-empty="Search the Bank of England" class="search-widget-field" value="" autocomplete="off">
+            <div tabindex="0" role="button" id="clearInput" aria-label="Clear all search text"></div>
+            <input tabindex="0" type="submit" class="search-widget-btn" id="searchBtn" value="submit search">
+        </div>
+    </form>
+
+    <input tabindex="0" type="submit" class="search-widget-btn search-widget-btn--overlay" id="searchBtn-nosearch" onclick="giveErrorIfEmpty()" value="submit search">
+
+    <div role="alert" class="search-widget-error" id="search-error"><p>Nothing searched for. Please enter a search term.</p></div>
+</div>
+                            </li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </div>
+</header>
+
+		<main class="main" id="main-content" role="main">
+			
+
+ 
+
+
+<section class="page-banner">
+    <div class="page-banner__head">
+        <div class="container">
+            <div class="col9">
+                <nav aria-label="Breadcrumb">
+
+	<ol class="list-breadcrumbs">
+		<li class="list-breadcrumbs__item">
+			<a href="/" class="list-breadcrumbs__link">
+				Home
+			</a>
+		</li>
+
+		<li class="list-breadcrumbs__item list-breadcrumbs__item--active" aria-current="page">
+			Financial Policy Committee Record – July 2026
+		</li>
+
+	</ol>
+</nav>
+
+
+				<h1 itemprop="name">Financial Policy Committee Record – July 2026</h1>
+            </div>
+        </div>
+
+    </div>
+    <div class="page-banner__body">
+        <div class="container">
+                <div class="col9 m-3_4">
+
+                        <div class="page-description" itemprop="description">       
+                            <span class="hero">Our Financial Policy Committee (FPC) meets to identify risks to financial stability and agree policy actions aimed at safeguarding the resilience of the UK financial system.</span>
+                        </div>
+                </div>
+                            <div class="col3 m-1_4">
+                    
+<div class="related-links-wrap">
+	<ul class="accordion" data-accordion-mobile>
+		<li>
+			<div class="accordion-head">
+				<h2 class="exclude-navigation">
+					<span class="display-lap-desk">Related links</span>
+					<button class="accordion-button">
+						Related links
+						<span class="accordion-toggle"></span>
+					</button>
+				</h2>
+			</div>
+			<div class="accordion-content">
+				<ul class="related-links">
+					
+
+<li>
+		<a href="/about/people/financial-policy-committee"  >
+			Financial Policy Committee
+		</a>
+</li>
+
+<li>
+		<a href="/financial-stability-report/2026/july-2026"  >
+			Financial Stability Report - July 2026
+		</a>
+</li>
+				</ul>
+			</div>
+		</li>
+	</ul>
+</div>
+                </div>
+
+        </div>
+    </div>
+
+</section>
+
+
+<section class="page-section  ">
+  <div class="container">
+     <div class="col9">
+      
+
+<div class="published-date">
+    Published on  
+        07 July 2026
+
+    
+
+</div>
+ </div>
+ 
+
+    <div class="clear"></div>
+</div>
+
+</section> 
+<section class="page-section  ">
+  	<div class="container-download" data-download>
+		<a class="button-download icon-download" href="/-/media/boe/files/financial-policy-committee-record/2026/fpc-summary-and-record-july-2026.pdf" target="_blank">
+			<span class="button-download__title">Financial Policy Committee Record - July 2026 <br>(<span class="visually-hidden-lap">PDF </span>0.3MB)</span>
+			<span class="display-no-xxldesk button-download__text" aria-hidden="true">PDF</span>
+		</a>
+		<button class="button-close" type="button"><span class="visually-hidden">Close dialog</span></button>
+	</div>
+<div class="container container-has-navigation">
+	<div class="nav-chapters__line">
+		<span class="nav-chapters__line-indicator"></span>
+	</div>
+	<nav class="nav-chapters nav-chapters--vertical" role="navigation" aria-label="heading links" data-chapter>
+		<button class="nav-chapters__button" data-chapter-trigger aria-controls="list-chapters">Browse content</button>
+		<h3 class="nav-chapters__title exclude-navigation">Contents</h3>
+		<ul class="list-nav" id="list-chapters"></ul>
+	</nav>
+	<div class="nav-chapters__percentage hide" data-percentage>
+		<span class="nav-chapters__percentage-number" data-percentage-number></span>
+	</div>
+	<div class="container-publication" data-publication>
+		
+<!-- Start HTML Snippet-->
+<div class="content-block">
+<div class="page-content" id="content">
+<div id="output"><section class="page-section" data-section><h2><a id="_Hlk202260707"></a>Record of the Financial Policy Committee meeting on 26 June 2026</h2><div class="box-highlight"><h3 data-box-start=""><a id="_Hlk193965425"></a>Headline judgements and policy actions</h3><h4>Overall summary</h4><ul><li><strong>Vulnerabilities in risky asset valuations, sovereign debt markets, and risky credit markets, including in private credit, previously highlighted by the Financial Policy Committee (FPC) remain, and some have become more pronounced since the December 2025 Financial Stability Report (FSR).</strong> Notably, there has been a substantial increase in the use of leverage in equity markets. </li><li><strong>Developments in the Middle East have affected the global risk environment materially.</strong> Despite this, the UK financial system has remained resilient and has continued to support the UK real economy, emphasising the benefits of the resilience that has been built.</li><li><strong>Recent rapid advances in frontier Artificial Intelligence (AI) capabilities have increased financial stability risks related to cyber and operational resilience. </strong></li></ul><h4>The macroeconomic environment</h4><ul><li><strong>The conflict in the Middle East has resulted in a substantial negative supply shock to the global economy and triggered significant market reactions. </strong>Energy and some other commodity prices, as well as sovereign bond yields, have been volatile, initially rising sharply above pre-conflict levels. Market interest rates globally, including in the UK, have risen, thus tightening financial conditions. Meanwhile risky asset prices have reached high levels. </li><li><strong>The signing of the Memorandum of Understanding between the US and Iran has led energy prices to fall back to just above pre-conflict levels, reducing near-term risks, and sovereign bond yields have also declined.</strong> However, substantial uncertainty remains and energy prices and interest rate markets have remained volatile.   </li><li><strong>Persistent vulnerabilities in the financial system previously identified by the FPC could interact with further developments in the Middle East. In addition, leverage has increased in equity markets.</strong> The likelihood of these vulnerabilities crystallising at the same time has increased since the December FSR, potentially amplifying their combined impacts on financial stability.</li></ul><h4> Vulnerabilities </h4><ul><li><strong>Equity prices have increased especially for AI-related stocks. In global equity indices this has, in part, been driven by continuing positive earnings news since the December FSR.</strong> However, on some metrics, valuations have also become more stretched. Rising equity prices have been driven, in part, by a narrow set of AI-related companies, increasing market concentration in some global indices. There has been a significant rise in hedge fund leverage in equity markets, creating risks, including via the prime brokers which facilitate this activity and through markets that are interconnected via hedge funds’ exposures, such as sovereign debt. Retail inflows, including via exchange traded funds (ETFs), may have added momentum to the rise in equity prices, and there has also been rapid growth in assets under management of levered ETFs. </li><li><strong>AI-related companies’ use of credit markets has accelerated rapidly, including in public markets, private credit, leveraged and structured finance, and is set to increase further as financing needs continue to expand.</strong> This pace of investment is unprecedented historically. As of yet, there is little evidence that AI activity in these markets is crowding out the ability of other businesses or governments to access funding markets. </li><li><strong>AI has the potential to raise productivity across a range of sectors and, in turn, support long-term economic growth.</strong> Developments in AI have already provided a tailwind to growth in some regions, but there is uncertainty over the scale and timing of future productivity gains and the ability of companies to monetise these. While AI-related equity valuations are underpinned by forecasts of strong long-term earnings growth, those forecasts are highly uncertain and depend on the successful buildout of infrastructure, continued access to financing, and the pace at which AI is adopted across the economy. A reassessment of these prospects could trigger a fall in equity prices that might be amplified by high concentration, correlated momentum-driven positions that can exacerbate volatility as markets fall, and increased leverage. </li><li>Considerations around the future earnings potential for AI-related companies will also be relevant to the sustainability of these companies’ debt, where the increasing complexity and opacity in debt structures used could increase risks to financial stability. In the FSR, the FPC sets out its forward-looking framework to monitor the macrofinancial implications of AI developments for financial stability.</li><li><strong>Risky credit markets, including private credit, remain vulnerable to a tightening in financing conditions.</strong> Investor sentiment in parts of private and riskier credit markets had already weakened ahead of the Middle East conflict, reflecting growing concerns around asset quality, valuations and liquidity. Redemption requests have been elevated in several retail funds, with some limiting redemptions, underlining both liquidity mismatch and valuation concerns.</li><li>Higher interest rates could increase debt servicing pressures for leveraged borrowers and lower growth could decrease asset quality, further increasing pressure on, for example, private credit funds. </li><li><strong>Vulnerabilities in these markets remain, including high leverage, complexity and opacity. </strong>The Bank’s second <a href="https://www.bankofengland.co.uk/financial-stability/boe-system-wide-exploratory-scenario-exercise/boe-private-markets-swes">system-wide exploratory scenario (SWES) exercise</a> is examining how stress could propagate in these markets. </li><li><strong>Global sovereign bond market issuance is at historically high levels, with higher proportions issued at shorter maturities</strong>. Debt-to-GDP ratios are continuing to trend upwards globally, which raises risks of increased volatility and reduces the capacity of governments to respond to future shocks. Current market expectations are that increases in growth driven by AI developments will support debt sustainability. Any negative change in expectations could have wider consequences for sovereign debt markets. In addition, many of these markets are characterised by a relatively high use of leverage by a small number of hedge funds pursuing similar trading strategies across jurisdictions. The high use of leverage also increases the risk of a disorderly unwind of positions that could cause a jump to illiquidity in core markets. Should investor sentiment on the sovereign debt outlook deteriorate abruptly, this could affect the UK market directly, or indirectly via spillovers from other sovereign debt markets, with potential implications for domestic financing conditions. </li><li><strong>During the most significant period of volatility following the onset of the Middle East conflict, moves in gilt yields were amplified by hedge fund deleveraging. </strong>Markets absorbed high volatility and volumes, underpinned by functioning repo markets. This partly reflects resilience built in recent years, particularly in Liability Driven Investment funds and Money Market Funds (MMFs). This underlines the importance of locking in this resilience through reforms such as those recently announced for MMFs across the UK and Europe, and through the changes the Bank is exploring to support gilt repo market resilience following its first <a href="https://www.bankofengland.co.uk/financial-stability/boe-system-wide-exploratory-scenario-exercise/boe-swes-exercise-final-report">SWES</a>.</li><li><strong>The FPC is particularly concerned that a number of these vulnerabilities could crystallise simultaneously. The FPC emphasises the importance of market participants ensuring that they have a clear and comprehensive understanding of the size, concentration, and interconnections of their exposures. </strong>Strengthening this understanding will support effective risk management and help sustain the resilience of the markets in which they operate. </li></ul><h4>UK household, corporate and banking system resilience</h4><ul><li><strong>UK household and corporate aggregate indebtedness remains low relative to historical averages and debt vulnerability metrics remain around their long-run averages, providing resilience against shocks. </strong>Debt-servicing burdens are projected to rise moderately due to higher energy prices and borrowing costs, but it would take a severe shock to return aggregate debt servicing pressures to near previous peaks. Some vulnerable low-income households, and smaller and more leveraged corporates, particularly those which are financed by riskier credit markets like private credit and leveraged loans, remain more exposed. Overall, the FPC judges that in aggregate households and corporates remain resilient, even in a challenging external environment. </li><li><strong>The UK banking system remains appropriately capitalised with high levels of liquidity. </strong>Past stress test results demonstrate that the UK banking system is able to absorb a severe energy price shock and associated economic downturn while continuing to support lending to the real economy. Consistent with this, banks have continued to supply credit to households and businesses despite the deterioration in the macroeconomic outlook and heightened uncertainty, with no sign of lending being restricted to protect capital positions.<strong> </strong></li><li><strong>Banks’ interlinkages with non-bank financial institutions, including those that support credit provision to the real economy, create channels through which risks can be transmitted back to banks</strong>. Effective monitoring and risk management of these interconnections is important in the current environment. An example is significant risk transfers (SRTs) which allow banks to transfer credit risk to third parties. The Prudential Regulation Authority (PRA) continues to engage with banks on appropriate use of SRTs and is testing thoroughly any proposed structures that appear to be more complex or less robust.<strong> </strong></li><li><strong>The FPC has maintained the UK countercyclical capital buffer (CCyB) rate at its neutral setting of 2%. </strong>Maintaining a neutral setting of the UK CCyB in the region of 2% would help to ensure that banks continue to have capacity to absorb unexpected future shocks without restricting lending in a counterproductive way.</li></ul><h4>Developments in frontier AI</h4><ul><li><strong>Rapid progress in frontier AI capabilities since the December FSR present a significant increase in the risks to financial stability from cyber and operational vulnerabilities. </strong>Frontier AI models are increasingly capable of identifying and exploiting software vulnerabilities at greater scale and over multiple stages. Whilst frontier AI will offer opportunities to improve cyber defence, it will also increase the sophistication and impact of cyber-attacks on firms, including financial institutions and market infrastructure. Operational risks are also likely to increase as frontier AI accelerates vulnerability discovery and exploitation, requiring firms to identify, patch and mitigate vulnerabilities more quickly and frequently, increasing the risk of disruption if change is not managed effectively.<strong> </strong></li><li><strong>These developments reinforce the importance of firms acting on the May 2026 joint statement from the Bank, Financial Conduct Authority (FCA) and HM Treasury on frontier models, and on existing cyber and operational resilience frameworks</strong>. UK authorities are providing further support through supervision and sector engagement, including through the Cross Market Operational Resilience Group, and through the Bank and PRA’s upcoming consultation on Cyber and Information and Communication Technology risk management. These developments also mean firms and authorities should revisit whether current deep cyber recovery capabilities, coordination arrangements and the resilience of key technology providers remain sufficient. Deepening coordination across authorities and key vendors domestically and internationally will be critical. These developments also underline the importance of operationalising the UK’s Critical Third Party regime. </li></ul><h4>Bank capital review</h4><ul><li><strong>The FPC, working with the PRA, is modernising the capital framework. </strong>The proposed changes will help ensure the framework is simpler, more effective, more proportionate and better calibrated to the risks in today’s financial system, while ensuring that the system remains resilient so that it can support the economy when it needs it most. The reforms will address unintended consequences in the leverage framework and strengthen the releasability and usability of buffers. In doing so, they will make it easier for banks to use capital to provide credit to households and businesses and support the functioning of core sterling markets, while maintaining overall consistency with international standards.<strong> </strong></li><li><strong>The Committee will work with the PRA and international authorities to pursue broad reform of the bank capital buffer framework, moving towards the goal of a single buffer that is releasable in stress. </strong>In the near term, the FPC and PRA are taking steps towards this vision domestically. The FPC welcomes the PRA’s intention to release the other systemically important institution (O-SII) buffer that applies to certain domestic systemically important firms in the event of systemic stress, engaging with the FPC when doing so.<strong>   </strong></li><li>The FPC and PRA also intend to consult on a package of measures to make the leverage ratio framework more proportionate and more effective by being better targeted. This package includes removing the countercyclical leverage buffer from banks’ leverage requirements; moving the calibration of the additional leverage ratio buffer for firms with systemic buffers into line with international standards; and making a greater share of leverage requirements and buffers releasable.</li></ul><h4>Systemic stablecoins</h4><ul><li><strong>The FPC welcomes the Bank’s recent publication of its Policy Statement and a draft Code of Practice for systemic sterling-denominated stablecoins. </strong>The Committee notes that the regime is forward looking and intended to mitigate risks to financial stability, including through the calibration of backing assets and temporary issuance guardrails, while supporting innovation in payments.</li></ul></div><p>1: The Financial Policy Committee (FPC) seeks to ensure the UK financial system is prepared for, and resilient to, the wide range of risks it could face, so that it is able to absorb rather than amplify shocks, and serve UK households and businesses, thus supporting stability and long-term growth in the UK economy.</p><p>2: The Committee met on 26 June 2026 to agree its view on the outlook for UK financial stability. The FPC discussed the risks faced by the UK financial system and assessed the resilience of the system to those risks. On that basis, the Committee agreed its intended policy actions.</p><h3>The overall risk environment</h3><p>3: The FPC discussed recent developments in financial markets; global vulnerabilities; UK household and corporate debt vulnerabilities; and the resilience of the UK banking sector and market-based finance (MBF). The FPC’s judgements for these areas would be set out in the <a href="https://www.bankofengland.co.uk/financial-stability-report/2026/july-2026"> July 2026 Financial Stability Report</a>.</p><h3>Macrofinancial risks arising from the AI transition</h3><p>4: The FPC judged that AI had the potential to raise productivity across a range of sectors and, in turn, support long-term economic growth. Currently, the surge in AI-related capital expenditure was supporting investment and growth in regions with links to the AI supply chain. This, alongside the potential for AI to raise productivity, was shaping expectations for growth. However, there was uncertainty over the scale and timing of future productivity gains and the ability of firms to monetise these. AI was also becoming an increasingly important channel through which financing conditions and asset prices could affect UK financial stability. </p><p>5: The Committee noted, for example, that rising equity prices more generally had&nbsp;been driven, in part, by a narrow set of AI-related firms, increasing market concentration in some global indices.&nbsp;In addition, retail inflows, including via ETFs, may have added momentum to the rise in these equity prices, and within this there had also been a rapid growth in assets under management of levered ETFs. The Committee noted the risk that any fall in the equity prices of AI companies in the near term – for example, if there were to be a re-evaluation of earnings prospects – would be amplified by this high index concentration in AI-related equities, momentum-driven positioning and increasing leverage. While valuations were supported by high long-term earnings expectations, those expectations depended on the successful build-out of infrastructure, continued access to financing and the pace at which AI was adopted across the economy. The Committee judged that these assumptions were uncertain, and that a shift in expectations around AI adoption or profitability could trigger sharp adjustments in asset prices. The FPC set out its forward-looking framework to monitor the macrofinancial implications of AI developments for financial stability in the<a href="https://www.bankofengland.co.uk/financial-stability-report/2026/july-2026"> July 2026 Financial Stability Report</a>.</p><p>6: Recent developments also pointed to a rapid and material increase in financing needs, which was increasing the financial system’s exposure to firms in the AI supply chain. At the beginning of 2026, the stock of outstanding debt from AI companies remained relatively modest, which helped to contain immediate risks to financial stability. But the Committee noted that activity across credit markets was expanding rapidly, including in public markets, private credit, leveraged finance and structured finance. The pace of this investment was unprecedented and there was significant uncertainty about the scale of the AI infrastructure required to meet future demand. The Committee noted that if key assumptions underpinning AI investment proved to be incorrect, including the size of future compute demand, the timely availability of power to data centres, and the depreciation rate of data centre facilities and AI chips, this could create risks to holders of debt issued by AI companies and projects. </p><p>7: The FPC judged that the increasing interconnectedness of the AI ecosystem with other sectors and an increasing reliance on external financing raised the risk that shocks to AI-related assets could propagate more widely through the financial system. As noted above, a negative reassessment of AI-related earnings could, by extension, weaken growth expectations. Such a shift would directly increase borrowing requirements in jurisdictions where growth outlooks were particularly reliant on AI developments. It could also prompt a broader negative repricing in sovereign debt markets, including higher yields and term premia, as investors seek compensation for increased uncertainty and fiscal risk. These changes could affect market participants’ assessment of the sustainability of current debt trajectories, especially in jurisdictions with high and rising debt stocks relative to GDP. This could result in spillovers to financial markets that are relevant to UK financial stability and potentially lead to tighter financial conditions for UK borrowers.</p><p>8: The Committee therefore emphasised the importance of firms ensuring that their risk management frameworks, including stress testing and assumptions about asset price correlations, kept pace with this rapidly evolving external environment. </p><p>9: Further details of the FPC’s assessment of these risks would be set out in Section 2 of the <a href="https://www.bankofengland.co.uk/financial-stability-report/2026/july-2026"> July 2026 Financial Stability Report</a>.</p><h3>Recent developments in frontier AI </h3><p>10: As well as potentially bringing significant benefits, the FPC judged that recent advances in frontier AI could pose material risks to UK financial stability, through cyber and operational resilience channels. The Committee observed how frontier AI models were becoming increasingly capable of carrying out complex, multi-stage tasks with limited human input, creating significant opportunities for innovation and efficiency. The Committee noted early signs of frontier AI being used to help develop future AI systems, though fully autonomous recursive self-improvement remained unproven. The Committee agreed that whilst frontier AI would offer opportunities to improve cyber defence, those capabilities could increase the speed, scale and sophistication of malicious cyber activity. A key risk for the financial system was that software vulnerabilities could be identified and exploited faster than firms were able to respond, leaving less time to detect, contain and remediate emerging threats.</p><p>11: The FPC agreed that the implications for financial stability would depend on three factors: the pace of further capability gains; the extent to which those capabilities diffused to malicious actors; and the speed and effectiveness of firms’ defensive adaptation. In a severe scenario, firms and key third-party providers could fail to keep pace, vulnerabilities could accumulate, and the risk of a systemic cyber event could rise materially. Even in more benign scenarios, a sustained increase in the volume and complexity of attack capabilities would require firms to identify, assess and remediate issues at much greater pace and magnitude. The Committee judged that such ‘patching’ of vulnerabilities could itself become a source of systemic operational risk, increasing the likelihood of errors, outages and disruption across interconnected services. </p><p>12: The FPC also agreed that frontier AI capabilities appeared set to continue to improve rapidly. They noted that firms should act now to enhance their ability to identify and remediate vulnerabilities at greater speed and scale, manage risks from third-party providers, and maintain the resilience of critical services in a more demanding threat environment. The Committee endorsed the <a href="https://www.bankofengland.co.uk/news/2026/may/boe-fca-and-hm-treasury-joint-statement-on-frontier-ai-models-and-cyber-resilience">May 2026 joint statement from the Bank, FCA and HM Treasury</a> on frontier models, which set out practical steps firms should take to prepare for and reduce frontier AI-related cyber risks within the existing operational resilience framework.</p><p>13: The FPC welcomed authorities’ engagement with firms through the Cross Market Operational Resilience Group (CMORG), which in May 2026 discussed the sector’s response to emerging frontier AI models and subsequently ran a <a href="https://www.cmorg.org.uk/news/frontier-ai-risk-mitigation-webinar-recording" target="_blank" title="Opens in new window">frontier AI risk mitigation webinar</a> for UK regulated financial services firms. CMORG also issued <a href="https://www.cmorg.org.uk/sites/default/files/2026-06/CMORG%20-%20Firm%20Guidance%20For%20Frontier%20AI%20-%20Final%20-%20June%202026%20-%20Version%201.0%20-%20TLP%20CLEAR.pdf" target="_blank" title="Opens in new window">guidance on frontier AI and cyber resilience</a> in June. In addition, the Bank and PRA’s upcoming consultation on Cyber and Information and Communication Technology risk management would consider issues relevant to frontier AI cyber risks. The Financial Stability Board (FSB) was also <a href="https://www.fsb.org/2026/06/sound-practices-for-responsible-adoption-of-artificial-intelligence-ai-consultation-report/" target="_blank" title="Opens in new window">consulting on sound practices for the responsible adoption of AI</a>, including elements relevant to the cyber risk posed by frontier AI. The FPC judged that system-wide monitoring and preparedness would become increasingly important as frontier AI capabilities developed. This included assessing the level of resilience that should be expected not only of the largest technology providers to the financial system, but also of smaller ones; the standard of deep cyber-recovery capability required of regulated firms given the scope for more severe and fast-moving disruption scenarios; and whether greater coordination or shared infrastructure might be needed to deliver those standards.</p><p>14: The FPC also judged that international and domestic coordination with key authorities and vendors would be important. The financial system was globally interconnected, and differences in cyber capability, resilience and recovery capacity across jurisdictions could therefore have consequences beyond the jurisdiction in which an incident begins. The Committee noted that it was critical for macroprudential authorities to deepen coordination through international forums, including the FSB and G7, to build common understanding of how frontier AI was changing cyber risk and to support consistent approaches to monitoring, testing and preparedness. The Committee also noted the importance of coordination domestically between regulators, HMT and the wider UK Government. The Committee agreed that these developments underlined the importance of operationalising the UK’s Critical Third Party regime.</p><p>15: Further details of the FPC’s assessment of these risks would be set out in Section 3 of the<a href="https://www.bankofengland.co.uk/financial-stability-report/2026/july-2026"> July 2026 Financial Stability Report</a>.</p><h3>The UK countercyclical capital buffer rate </h3><p>16: The FPC discussed its setting of the UK CCyB rate. The Committee’s principal aim in setting the UK CCyB rate was to help ensure that the UK banking system was able to absorb severe but plausible shocks without an unwarranted restriction in essential services, such as the supply of credit, to the UK real economy. Setting the UK CCyB rate enabled the FPC to adjust the capital requirements of the UK banking system to the changing scale of risk of losses on banks’ UK exposures over the course of the financial cycle. The approach therefore included an assessment of financial vulnerabilities and banks’ capacity to absorb such losses, including the potential impact of shocks.</p><p>17: In considering the appropriate setting of the UK CCyB rate, the FPC discussed the supply of credit to the UK economy and its judgements around underlying vulnerabilities that could amplify economic shocks. While the global risk environment remained elevated, UK household and corporate aggregate indebtedness remained low, and it would take severe shocks to both funding and earnings to put debt servicing under pressure for households and corporates in aggregate. Past stress test results indicate the banking system could withstand a scenario substantially more severe than the current outlook, and there were no signs of banks restricting lending in order to defend capital positions.</p><p>18: In view of these considerations, the FPC decided to maintain the UK CCyB rate at 2%. Maintaining a neutral setting of the UK CCyB rate in the region of 2% would help to ensure that banks continued to have capacity to absorb unexpected future shocks without an unwarranted restriction in essential services, including the supply of credit, to the UK real economy.</p><p>19: The Committee would continue to monitor the evolution of financial conditions closely to ensure the setting of the CCyB remained appropriate.</p><h3>Private markets system-wide exploratory scenario</h3><p>20: The FPC welcomed the publication of the <a href="https://www.bankofengland.co.uk/financial-stability/boe-system-wide-exploratory-scenario-exercise/private-markets-system-wide-exploratory-scenario">stress scenario for the private markets SWES</a> on 19 June 2026. The PM SWES scenario had been calibrated to represent a tail-risk outcome for the global economy and was broadly consistent with the severity of other Bank stress tests, such as the Bank Capital Stress Test. The FPC expected to use the SWES to improve its understanding of how banks and non-banks active in private markets would respond to a severe but plausible global downturn. This would include how their actions could interact at a system level, and whether these interactions could amplify stress across the financial system and pose risks to UK financial stability and the provision of finance to the UK real economy. </p><p>21: The FPC were also updated on initial insights staff had gained from their engagement with participants in the PM SWES. A progress update on the PM SWES would be set out in Box A of the<a href="https://www.bankofengland.co.uk/financial-stability-report/2026/july-2026"> July 2026 Financial Stability Report</a>.</p><h3>The FPC’s assessment of bank capital requirements</h3><p>22: The FPC, working with the PRA, reaffirmed its commitment to modernising the capital framework. The Committee agreed a package of proposed changes that would help ensure the framework was simpler, more effective, more proportionate and better calibrated to the risks in today’s financial system, while ensuring that the UK banking system remained resilient and able to support the economy when it was needed most. The FPC and PRA were committed to addressing unintended consequences in the leverage framework and strengthening the releasability and usability of buffers, thereby making it easier for banks to use capital to support lending and the functioning of core sterling markets in stress. </p><p>23: <a href="https://www.bankofengland.co.uk/financial-stability-in-focus/2025/fsif-the-fpcs-assessment-of-bank-capital-requirements">In December 2025</a>, the FPC had revisited its assessment of appropriate capital requirements for the UK banking system. The Committee judged that the appropriate benchmark for system-wide Tier 1 capital requirements was around 13% of risk-weighted assets – equivalent to a Common Equity Tier 1 (CET1) ratio of around 11%. That assessment was made with a view to maximising long-run growth in the UK economy by weighing the macroeconomic costs of capital, which stem from the impact of higher capital on borrowing costs, against the macroeconomic benefits of capital, which arise because higher bank capital reduces the likelihood and costs of future financial crises.  </p><p>24: The FPC welcomed feedback received from a broad group of stakeholders on the issues covered in the December 2025 Financial Stability in Focus (FSIF). This included feedback on the overall level of capital requirements, international comparisons, the functioning of the capital buffer framework and the leverage ratio, and capital requirements related to domestic exposures. </p><p>25: The FPC considered that the range of views received on the overall level of bank capital requirements was broadly reflective of the issues the Committee had weighed in its December assessment. The Committee therefore reaffirmed its judgement that the appropriate benchmark for system-wide Tier 1 capital requirements was around 13% of risk-weighted assets – equivalent to a CET1 ratio of around 11%. </p><p>26: Since December, the FPC, working with the PRA, had progressed its analysis of buffer usability and the implementation of the leverage ratio, and had agreed a package of reforms informed by the feedback it had received. </p><h5>Further enhancing the usability and releasability of regulatory capital buffers </h5><p>27: The FPC noted that capital buffers were intended to be used to absorb losses and to help maintain the provision of financial services to the real economy in a downturn by reducing the need for banks to deleverage to preserve capital. But a range of interrelated factors impeded the usability of regulatory capital buffers in practice. The Committee agreed that these factors could also contribute to banks maintaining capital substantially above regulatory requirements and so reducing their capacity to lend. </p><p>28: The FPC reaffirmed that there was a clear macroprudential case for a simpler and more effective capital buffer framework that reduced impediments to buffer usability. The Committee would work with the PRA and international authorities to pursue broad reform of the capital buffer framework and move towards a goal of a single buffer that was releasable in stress, and that could be used without automatic distribution restrictions.</p><p>29: In the near term, the FPC and PRA were taking steps domestically to support buffer usability by making clear that systemic buffers for domestic systemically important banks would be releasable in a stress. The FPC welcomed the PRA’s intention to use its existing discretionary powers to release the other systemically important institution (O‑SII) buffer that applied to certain domestic systemically important firms in the event of systemic stress, engaging with the FPC when doing so.  </p><p>30: The FPC agreed that the impact of releasing the O-SII buffer would be similar in many ways to releasing the CCyB. It would lower the level of capital at which distribution restrictions automatically applied, which would reduce banks’ incentives to take defensive actions such as counterproductive deleveraging. The pace of return to normal-times O-SII buffer rates would depend on banks’ ability to rebuild capital while continuing to lend to creditworthy UK households and businesses. The FPC (along with the PRA) recognised that when banks’ capital ratios declined in a stress, their combined regulatory buffers might then need to be rebuilt over multiple years, as had been the case with previous releases of the CCyB. Otherwise, the prospect of a rapid rebuild could undermine banks’ incentives to use the released capital. The FPC noted that the PRA would consult on its approach to setting O-SII buffers in 2026 H2.  </p><p>31: In the Bank Capital Stress Test exercise, the Bank typically assessed the capital resilience of individual banks against a hurdle rate that included minimum capital requirements and systemic risk buffers. To enhance the usability of O-SII buffers upon their release, the FPC and PRC intended for the O-SII buffer rates included in the hurdle rates for future stress tests to reflect the prevailing rates at the time of each test. For example, when stress tests were carried out in normal times the hurdle rate would reflect banks’ standard O-SII buffer, whereas when the O-SII buffer had been fully released, the stress test hurdle rate would reflect the prevailing O-SII buffer rate of 0%. </p><p>32: This would ensure that, in a real stress where O-SII buffers had been released, stress testing would not require firms to restore capital ratios more quickly than intended by the path set by the PRA and FPC. </p><p>33: In addition to the steps being taken to enhance releasability and lower the level of capital at which automatic distribution restrictions apply in stress, the FPC noted that the PRA would consider firms’ feedback that greater clarity on the use of the PRA buffer in circumstances outside periods of systemic stress could help buffer usability. <strong> </strong></p><h5>The implementation of the leverage ratio in the UK </h5><p>34: The FPC noted the leverage ratio – the ratio of bank capital to a gross measure of exposures – is an important part of the capital framework. Complementing the risk-weighted requirement with a leverage ratio requirement made the capital framework more robust against the inherent errors and uncertainties in measuring risk when assigning risk weights. More generally, leverage ratio capital requirements could help to curtail balance sheet growth that was unsustainable from a systemic perspective.  </p><p>35: In the UK, leverage ratio requirements comprise a minimum of 3.25% of the UK leverage exposure measure (excluding central bank reserves), a systemic buffer (known as the additional leverage ratio buffer or ALRB) for globally systemically important banks (G-SIBs) and O-SIIs and the countercyclical leverage buffer (CCLB). At present, the ALRB and the CCLB were applied at 35% of the equivalent risk-based buffers. </p><p>36: In its <a href="https://www.bankofengland.co.uk/financial-stability-in-focus/2025/fsif-the-fpcs-assessment-of-bank-capital-requirements">December 2025 FSIF</a>, the FPC had committed to review the implementation of the leverage ratio in the UK to ensure that it functions as intended, prioritising reviewing the UK’s approach to regulatory buffers in leverage requirements. This work had highlighted a number of features of the UK’s leverage ratio framework:  </p><ul><li>The decline in average risk weights in the UK had contributed to leverage ratio requirements becoming more binding. This was to be expected to some extent in a framework with both leverage and risk-based capital requirements, as banks structured their balance sheets in a way that most efficiently met both. While there was some evidence that the decline in average risk weights had been driven by a reduction in the riskiness of banks’ exposures over the past decade, there had also been growth in more complex and opaque forms of lending where the leverage ratio may be particularly effective in guarding against errors in risk measurement.&nbsp;Taken together, these trends highlighted the continued importance of the leverage ratio framework.</li><li>Although the calibration of UK leverage ratio requirements was consistent overall with international standards, the UK’s implementation for some elements of the leverage ratio framework differed from those standards, including its approach to setting leverage ratio buffers. When the FPC designed its leverage ratio framework it included both a systemic component and countercyclical component to maintain the relative bindingness of the leverage regime for systemically important firms and during times of high system-wide risk, setting the level of those buffers at 35% of their risk-weighted counterparts. This preceded the finalisation of the Basel standards, which included a single leverage ratio buffer set at 50% of systemic risk-weighted buffers for G-SIBs.  </li><li>The FPC noted that the presence of usable capital buffers was a desirable feature of the leverage ratio regime. Such leverage buffers help ensure that banks whose activity is relatively concentrated in lower-risk weighted lending to the real economy, such as mortgage lending, could absorb losses and continue to support the economy in an economic stress. They also help ensure that banks whose activity is relatively concentrated in lower-risk-weighted financial market activity, including in core sterling markets, could absorb shocks and continue to support market functioning in a financial market stress. </li></ul><p>37: Nevertheless, the FPC observed that the UK’s current approach to leverage ratio buffers had a number of features that could be made more proportionate and more effective by being better targeted to achieve financial stability goals. In particular:  </p><ul><li>Following the FPC’s decision in 2019 to increase the neutral rate for the UK CCyB from 1% to 2%, risk-weighted minimum capital requirements were adjusted so that overall regulatory loss-absorbing capacity was kept broadly unchanged. An equivalent offsetting adjustment was not made in the leverage framework. As a result, leverage ratio requirements increased when the CCyB increased to 2% making the leverage ratio more likely to bind for a given risk profile. This unintended consequence affected all banks subject to leverage requirements. The most notable impact, however, was on banks with greater relative exposure to UK domestic lending, especially&nbsp;those with lower average risk weights.</li><li>Although leverage buffers help to ensure resilience in the provision of services to financial markets as well as lending to the real economy, the CCLB was not well targeted to serve both of these purposes. The CCLB rate that applies to each individual bank was determined by the share of their relevant credit exposures (largely real economy exposures) in each jurisdiction and varies in line with each jurisdiction’s CCyB rate. But many banks to which the CCLB applied had business models that were focussed on the provision of services to financial markets, including core sterling markets, rather than the real economy. The fact that the CCLB’s calibration was driven by real economy exposures meant that the FPC’s current countercyclical policy framework was not well designed to support market functioning.  </li></ul><p>38: The FPC discussed these features, and whether the implementation of the leverage ratio in the UK should be adjusted with a view to ensuring that the banking system was appropriately capitalised to support sustainable growth over the long term. In particular, the Committee discussed the importance of maintaining credibility in the leverage regime by making changes where there was a case for doing so, given undesirable and unintended features in the current implementation. Members also noted the interaction with international standards, the importance of ensuring there were releasable buffers in the leverage framework that could provide appropriate resilience to different risks, and the need to guard against an unsustainable build-up of leverage in low risk-weighted assets, including leverage in financial markets. </p><p>39: The FPC and PRA intended to consult on a package of measures to make the leverage ratio framework more proportionate and more effective by being better targeted. This package would:  </p><ul><li>Remove the CCLB from banks’ leverage requirements to address the unintended consequence of how it had been implemented and reflecting the fact that its calibration was not closely linked to the systemically important financial market activity for which the leverage ratio was a key prudential constraint.  </li><li>Move the calibration of the ALRB for firms with systemic buffers into line with international standards - to 50% of risk-weighted systemic buffers. Like its risk-weighted counterpart, the ALRB for domestically systemic firms would be releasable in a stress. </li><li>Make a greater share of leverage requirements and buffers releasable. The leverage ratio Tier 1 minimum requirements would be reduced from 3.25% to 3% and a simple general leverage ratio buffer would be applied to firms subject to leverage requirements, set at 25 basis points of the leverage exposure measure (which currently excludes central bank reserves). </li></ul><p>40: The general leverage ratio buffer would be releasable, if necessary to zero, to help ensure that banks could absorb losses in an economic or financial market stress while continuing to support the real economy and the functioning of financial markets. If, on the other hand, the FPC were to in future judge that risks were heightened and that additional resilience was warranted, it could consider increasing the general leverage ratio buffer above 25 basis points. Like all buffer requirements in the UK capital framework, the general leverage ratio buffer would be met with CET1 capital.</p><p>41: In its Bank Capital Stress Test, the Bank typically assessed the capital resilience of individual banks against a leverage ratio hurdle rate that included minimum leverage ratio requirements and the ALRB. To ensure that the capital banks needed to remain above the hurdle rate in the Bank Capital Stress Test did not increase as a result of this package, the Bank would expect to adjust the leverage ratio hurdle rate. Specifically, alongside these proposals, the Bank would expect to set leverage hurdle rates for the test as minimum requirements plus 40% of banks’ risk-weighted systemic buffers (lower than the 50% of risk weighted systemic buffers that would apply in banks’ regulatory requirements). </p><p>42: When taking into account both regulatory requirements and the capital needed to remain above the leverage ratio hurdle rate in the Bank Capital Stress Test, the changes would reduce the leverage ratio that large UK banks subject to the leverage requirement need to maintain by around 20 basis points in aggregate, with the impact varying by bank. This would leave leverage ratio requirements for UK large domestically-focused banks and G-SIBs within the range of other jurisdictions globally.</p><p>43: The FPC considered that the package of proposed leverage ratio reforms would make the UK leverage ratio framework more proportionate and more effective by being better targeted. The Committee judged that were the proposals implemented, the outcome would remain consistent with international standards. The FPC also judged that it was appropriate for the package of changes to unwind the unintended consequences of raising the neutral rate of the CCyB, and that this would result in some reduction in the aggregate leverage ratio that the banking system needed to maintain, whilst maintaining the overall resilience of the banking system.  </p><p>44: Notwithstanding the benefits of the proposed changes, given the importance of the leverage ratio in determining capital requirements associated with activity in core sterling markets, some FPC members were concerned that the proposal might lead to an unwanted increase in market-based leverage, with implications for the resilience of core UK markets. The Committee discussed the extent of this risk and potential mitigations. Most judged that the benefits of the proposed changes outweighed the costs. Most also judged that the changes in UK leverage requirements were likely to have a relatively small impact on leverage in the context of financial markets and that alternative tools might be better suited to mitigate risks from financial leverage, particularly in the context of the FPC’s gilt repo market resilience work. Some, however, believed that mitigating policy actions targeted towards some firms that play an important role in core UK markets would likely be necessary. </p><p>45: The Committee agreed that the implications of the proposals for the resilience of core UK markets merited further consideration.&nbsp;The Committee would work, alongside the PRA,&nbsp;to identify whether the proposal would leave any financial stability gaps that would need to be managed and whether this justified further adjustments to the policy package. This analysis, which would take into account the FPC’s work on gilt repo market resilience and impacts of the proposal on market functioning, would be completed by, and considered at, the Q3 FPC meeting to allow any potential consultation on this element alongside the rest of the proposal.</p><h5>Next steps</h5><p>46: In addition to the FPC’s Q3 work on the implications of its leverage ratio proposals, the Committee expected to update on its assessment of the interaction of capital requirements that were related to domestic exposures in the Q4 2026 FSR. Capital requirements that were related to domestic exposures included the UK CCyB, O-SII buffers, and Pillar 2A requirements for geographic credit concentration risk, which each served different purposes in the capital framework, but were all calibrated based on measures of domestic lending. The FPC and the PRA intended to draw on several sources of information when conducting this work including on the impact of systemic failures and credit concentration, and banks’ stress-test results.</p><p>47: The FPC also continued to support other initiatives by the Bank to respond to feedback on interactions, proportionality and complexity in the capital framework. This&nbsp;included PRA work to develop a systematic approach to updating the regulatory thresholds, the PRA’s contribution to the Government’s&nbsp;review of the ring-fencing regime, and the PRA’s work to assess firms’ feedback and supporting evidence on&nbsp;a range of possible changes to internal ratings based (IRB) models for mortgage lending. Further details would be set out in the FPC's <a href="https://www.bankofengland.co.uk/financial-stability-in-focus/2026/fsif-the-bank-capital-framework">bank capital review FSIF.</a></p><h3>Systemic sterling-denominated stablecoins </h3><p>48: The FPC welcomed the Bank’s publication on 22 June of its <a href="https://www.bankofengland.co.uk/news/2026/june/boe-launches-policy-statement-and-draft-rules-on-regulating-systemic-stablecoins#:~:text=News%20release-,The%20Bank%20of%20England%20has%20today%20published%20its%20policy%20statement,trusted%20forms%20of%20digital%20money.">Policy Statement and a draft Code of Practice for systemic sterling-denominated stablecoins</a>. The framework was designed to enable innovation, market entry and allow UK issued stablecoins to develop as trusted forms of money. The Committee noted that the regime was forward looking and intended to mitigate risks to financial stability, including through the calibration of backing assets and temporary issuance guardrails. The Committee also noted the forthcoming publication of the Bank of England and FCA’s approach to joint regulation of systemic stablecoin issuers, which would provide important clarity on the transition between the non-systemic and systemic parts of the UK stablecoin regimes. </p><h3>Money market funds</h3><p>49: The FPC judged that it remained important to lock in the higher levels of resilience that had been held by MMFs since the ‘dash-for-cash’ in 2020, as liquidity mismatch in these funds remained a key potential source of vulnerability in the system of MBF. Following the onset of the Middle East conflict, moves in bond yields in some markets, including the UK, had been amplified by hedge fund deleveraging. Markets had nevertheless remained orderly, supported by the resilience and behaviour of market participants such as MMFs. This underscored the importance of embedding the resilience built in the sector. </p><p>50: The FPC welcomed <a href="https://assets.publishing.service.gov.uk/media/6a059b2622977ebc82cb3f5d/The_Government_and_FCA_announce_plans_to_reform_UK_Money_Market_Fund_Regulations..pdf" target="_blank" title="Opens in new window">recent statements</a> by HM Treasury and the FCA on their plans to enhance MMF resilience, in line with the 2021 FSB policy proposals. The Committee judged that these reforms, including measures to strengthen liquidity risk management, formed an important element of the broader programme to increase resilience in MBF. It also welcomed discussions between UK and EU authorities and the progress made in advancing reforms to enhance MMF resilience in both jurisdictions.</p><p>The following members of the Committee were present at the 26 June Policy meeting: </p><ul><li>Andrew Bailey, Governor </li><li>Nathanaël Benjamin </li><li>Stephen Blyth</li><li>Sarah Breeden </li><li>Jon Hall </li><li>Randall Kroszner</li><li>Clare Lombardelli</li><li>Liz Oakes</li><li>Dave Ramsden</li><li>Nikhil Rathi</li><li>Carolyn Wilkins</li><li>Sam Woods</li></ul><p>Gwyneth Nurse attended as the Treasury member in a non-voting capacity. </p></section></div></div>
+</div>
+<!-- End HTML Snippet -->
+	</div>
+</div>
+
+</section> 
+<section class="page-section  ">
+  <div class="container">
+     <div class="col12">
+      <div class="container container-latest">
+	<div class="col12">
+		<h2 class="exclude-navigation">Other financial stability publications</h2>
+	</div>
+	<div class="clear"></div>
+</div>
+<div class="container">
+	
+
+<div class="col3">
+    <a href="/financial-stability-report/2026/july-2026" class="release release-pubs " >
+        <div class="release-tag-wrap"><div class="release-tag">Publication // Financial Stability Report (FSR)</div></div>
+
+        <div class="release-content">
+			<div class="release-copy">
+					<div class="release-meta">
+						<time class="release-date" itemprop="datePublished" datetime="2026-07-07">07 July 2026</time>
+					</div>
+				<h3 itemprop="name" class="grid-view exclude-navigation">Financial Stability Report - July 2026</h3>
+				<h3 itemprop="name" class="list exclude-navigation">Financial Stability Report - July 2026</h3>
+			</div>
+        </div>
+    </a>
+</div>
+
+<div class="col3">
+    <a href="/news/2026/april/fpc-preview-of-uk-bank-capital-summary-of-stakeholder-evidence-gathering-event" class="release release-news " >
+        <div class="release-tag-wrap"><div class="release-tag">News // News</div></div>
+
+        <div class="release-content">
+			<div class="release-copy">
+					<div class="release-meta">
+						<time class="release-date" itemprop="datePublished" datetime="2026-04-20">20 April 2026</time>
+					</div>
+				<h3 itemprop="name" class="grid-view exclude-navigation">FPC review of UK bank capital – summary of...</h3>
+				<h3 itemprop="name" class="list exclude-navigation">FPC review of UK bank capital – summary of stakeholder evidence gathering event</h3>
+			</div>
+        </div>
+    </a>
+</div>
+
+<div class="col3">
+    <a href="/financial-policy-committee-record/2026/april-2026" class="release release-news " >
+        <div class="release-tag-wrap"><div class="release-tag">News // Financial Policy Committee (FPC)</div></div>
+
+        <div class="release-content">
+			<div class="release-copy">
+					<div class="release-meta">
+						<time class="release-date" itemprop="datePublished" datetime="2026-04-01">01 April 2026</time>
+					</div>
+				<h3 itemprop="name" class="grid-view exclude-navigation">Financial Policy Committee Record – April...</h3>
+				<h3 itemprop="name" class="list exclude-navigation">Financial Policy Committee Record – April 2026</h3>
+			</div>
+        </div>
+    </a>
+</div>
+
+<div class="col3">
+    <a href="/financial-stability-report/2025/december-2025" class="release release-pubs " >
+        <div class="release-tag-wrap"><div class="release-tag">Publication // Financial Stability Report (FSR)</div></div>
+
+        <div class="release-content">
+			<div class="release-copy">
+					<div class="release-meta">
+						<time class="release-date" itemprop="datePublished" datetime="2025-12-02">02 December 2025</time>
+					</div>
+				<h3 itemprop="name" class="grid-view exclude-navigation">Financial Stability Report - December 2025</h3>
+				<h3 itemprop="name" class="list exclude-navigation">Financial Stability Report - December 2025</h3>
+			</div>
+        </div>
+    </a>
+</div>
+
+<div class="clear"></div>
+
+</div>
+<div class="container">
+	<div class="col12">
+		<a class="release-view-more" href="/news?NewsTypes=09f8960ebc384e3589da5349744916ae&amp;NewsTypes=ce90163e489841e0b66d06243d35d5cb&amp;Taxonomies=4973ac117aea43ed91a798089845a4f5&amp;Taxonomies=c8e73089acf542cd957f833b88ac64e7&amp;Taxonomies=d5d5a364dd144d9a95cbc895190a5d4d&amp;Taxonomies=6af72386c7a045c4b624088f677335ce&amp;SearchTerm=&amp;InfiniteScrolling=False&amp;Direction=Latest">View more <span class="visually-hidden">Other financial stability publications</span></a>
+	</div>
+	<div class="clear"></div>
+</div>
+
+ </div>
+ 
+
+    <div class="clear"></div>
+</div>
+
+</section> 				<section class="page-section page-section--last">
+					<div class="container">
+						<div class="col12">
+							<p class="txtr">
+								<a class="scroll-to-top" href="#">Back to top</a>
+							</p>
+						</div>
+					</div>
+				</section>
+
+
+<section class="page-section-survey">
+    <div class="container">
+        <div class="col12">          
+			<div class="page-survey">
+								<div class="page-survey-survey">
+					
+						<iframe src="/forms/page-survey-page?path=%2fsitecore%2fcontent%2fBoE%2fHome%2ffinancial-policy-committee-record%2f2026%2fjuly-2026&id=pageSurvey1abb00f1c4a6488187293e962b9cb9eb" id="pageSurvey1abb00f1c4a6488187293e962b9cb9eb" frameborder="0" title="Page Survey" class="page-survey-iframe"></iframe>
+				</div>
+			</div>
+        </div>
+    </div>
+</section>
+		</main>
+		<div class="clear"></div>
+		<footer class="global-footer" itemscope="" itemtype="http://schema.org/WPFooter">
+			<div class="container">
+	<div class="col3">
+		<div class="footer-social-bank">
+			<ul class="accordion" data-accordion-mobile>
+				<li>
+					<div class="accordion-head">
+						<h3 class="exclude-navigation">
+							<span class="display-lap-desk">Follow us</span>
+							<button class="accordion-button">
+								Follow us
+								<span class="accordion-toggle"></span>
+							</button>
+						</h3>
+					</div>
+					<div class="accordion-content">
+						
+
+<div class="footer-social-bank">
+    <ul class="social-links">
+            <li class="social-item">
+                    <a class="social-link "
+                        href="https://www.linkedin.com/company/bank-of-england/"
+                        target="_blank"
+						title="Opens in a new window">
+                            <span class="icon-linkedin"></span>
+                        <span class="si-text">Connect with us on LinkedIn</span>
+                    </a>
+			</li>
+            <li class="social-item">
+                    <a class="social-link "
+                        href="https://x.com/bankofengland"
+                        target="_blank"
+						title="Opens in a new window">
+                            <span class="icon-twitter-bird"></span>
+                        <span class="si-text">Follow us on Twitter</span>
+                    </a>
+			</li>
+            <li class="social-item">
+                    <a class="social-link "
+                        href="https://www.facebook.com/bankofengland.co.uk"
+                        target="_blank"
+						title="Opens in a new window">
+                            <span class="icon-facebook"></span>
+                        <span class="si-text">Add us on Facebook</span>
+                    </a>
+			</li>
+            <li class="social-item">
+                    <a class="social-link "
+                        href="https://www.instagram.com/bankofengland"
+                        target="_blank"
+						>
+                            <span class="icon-instagram"></span>
+                        <span class="si-text">Follow us on Instagram</span>
+                    </a>
+			</li>
+            <li class="social-item">
+                    <a class="social-link "
+                        href="https://www.threads.com/@bankofengland"
+                        target="_blank"
+						>
+                            <span class="icon-treads"></span>
+                        <span class="si-text">Follow us on Threads</span>
+                    </a>
+			</li>
+            <li class="social-item">
+                    <a class="social-link "
+                        href="https://tiktok.com/@bankofengland"
+                        target="_blank"
+						>
+                            <span class="icon-tiktok"></span>
+                        <span class="si-text">Follow us on TikTok</span>
+                    </a>
+			</li>
+            <li class="social-item">
+                    <a class="social-link "
+                        href="https://www.youtube.com/user/bankofenglanduk"
+                        target="_blank"
+						title="Opens in a new window">
+                            <span class="icon-youtube-play"></span>
+                        <span class="si-text">Watch us on Youtube</span>
+                    </a>
+			</li>
+            <li class="social-item">
+                    <a class="social-link "
+                        href="https://www.flickr.com/photos/bankofengland/albums"
+                        target="_blank"
+						title="Opens in a new window">
+                            <span class="icon-flickr"></span>
+                        <span class="si-text">Find us on Flickr</span>
+                    </a>
+			</li>
+    </ul>
+</div>
+						
+
+<div class="footer-social-bank">
+		<h3 class="exclude-navigation">Museum</h3>
+    <ul class="social-links">
+            <li class="social-item">
+                    <a class="social-link "
+                        href="https://www.facebook.com/boemuseum"
+                        target="_blank"
+						title="Opens in a new window">
+                            <span class="icon-facebook"></span>
+                        <span class="si-text">Like the Bank of England museum on Facebook</span>
+                    </a>
+			</li>
+            <li class="social-item">
+                    <a class="social-link "
+                        href="https://instagram.com/boemuseum"
+                        target="_blank"
+						title="Opens in a new window">
+                            <span class="icon-instagram"></span>
+                        <span class="si-text">Follow the Bank of England museum on Instagram</span>
+                    </a>
+			</li>
+            <li class="social-item">
+                    <a class="social-link "
+                        href="https://www.threads.com/@boemuseum"
+                        target="_blank"
+						>
+                            <span class="icon-treads"></span>
+                        <span class="si-text">Follow the Bank of England museum on Threads</span>
+                    </a>
+			</li>
+            <li class="social-item">
+                    <a class="social-link "
+                        href="https://www.tiktok.com/@boemuseum"
+                        target="_blank"
+						>
+                            <span class="icon-tiktok"></span>
+                        <span class="si-text">Follow the Bank of England museum on TikTok</span>
+                    </a>
+			</li>
+    </ul>
+</div>
+					</div>
+				</li>
+			</ul>
+		</div>
+
+	</div>
+	<div class="col3">
+		
+<div class="footer-topics">
+    <ul class="accordion" data-accordion-mobile>
+        <li>
+            <div class="accordion-head">
+                <h3 class="exclude-navigation">
+                    <span class="display-lap-desk">Useful links</span>
+                    <button class="accordion-button">Useful links<span class="accordion-toggle"></span></button>
+                </h3>
+            </div>
+			<div class="accordion-content">
+				<ul class="footer-links">
+						<li class="footer-item">
+                                <a href="/about" class="footer-link" >
+                                    About us
+                                </a>
+						</li>
+						<li class="footer-item">
+                                <a href="/archive" class="footer-link" >
+                                    Archive
+                                </a>
+						</li>
+						<li class="footer-item">
+                                <a href="/careers" class="footer-link" >
+                                    Careers
+                                </a>
+						</li>
+						<li class="footer-item">
+                                <a href="/contact" class="footer-link" >
+                                    Contact us
+                                </a>
+						</li>
+						<li class="footer-item">
+                                <a href="/explainers" class="footer-link" >
+                                    Explainers
+                                </a>
+						</li>
+						<li class="footer-item">
+                                <a href="/faq" class="footer-link" >
+                                    FAQs
+                                </a>
+						</li>
+						<li class="footer-item">
+                                <a href="/freedom-of-information" class="footer-link" >
+                                    Freedom of Information
+                                </a>
+						</li>
+						<li class="footer-item">
+                                <a href="/glossary" class="footer-link" >
+                                    Glossary
+                                </a>
+						</li>
+						<li class="footer-item">
+                                <a href="/museum" class="footer-link" >
+                                    Museum
+                                </a>
+						</li>
+						<li class="footer-item">
+                                <a href="/subscribe-to-emails" class="footer-link" >
+                                    Subscribe to emails
+                                </a>
+						</li>
+				</ul>
+			</div>
+		</li>
+	</ul>
+</div>
+	</div>
+	<div class="col3">
+		<div class="footer-contact">
+			
+<h3 class="exclude-navigation">Bank of England</h3>
+<ul class="footer-contact-info">
+    <li class="footer-address">Threadneedle Street, London, EC2R 8AH</li>
+    <li class="footer-tel">Switchboard: <a class="footer-tel-link" href="tel://00442034614444" target="_blank" title="Switchboard">+44(0)20 3461 4444</a></li>
+    <li class="footer-tel">Enquiries: <a class="footer-tel-link" href="tel://00442034614878" target="_blank" title="Enquiries">+44(0)20 3461 4878</a></li>
+</ul>
+			
+<h3 class="exclude-navigation">Bank of England Museum</h3>
+<ul class="footer-contact-info">
+    <li class="footer-address">Bartholomew Lane, London, EC2R 8AH</li>
+</ul>
+		</div>
+	</div>
+	<div class="col3">
+		
+	<div class="container-seal">
+		<a class="icon-seal" href="/"  ><img src="/-/media/boe/images/logo/footer-logo.svg?h=50&amp;iar=0&amp;mh=50&amp;mw=240&amp;w=50&amp;hash=21937D63AC8E857977043CB73AE10F74" alt="Bank of England home" width="50" height="50" /></a>
+	</div>
+
+	</div>
+</div>
+
+<div class="footer-copyright">
+	<div class="container">
+		<div class="col12">
+			
+<ul class="list-inline">
+	    <li class="list-inline__item"> 
+			    <a href="/accessibility" class="list-inline__link" >
+Accessibility statement			    </a>
+	    </li>
+	    <li class="list-inline__item"> 
+			    <a href="/legal/privacy-and-cookie-policy" class="list-inline__link" >
+Cookies			    </a>
+	    </li>
+	    <li class="list-inline__item"> 
+			    <a href="/about/gymraeg" class="list-inline__link" >
+						<span lang="cy">
+							Cymraeg
+						</span>
+			    </a>
+	    </li>
+	    <li class="list-inline__item"> 
+			    <a href="/legal" class="list-inline__link" >
+Legal			    </a>
+	    </li>
+	    <li class="list-inline__item"> 
+			    <a href="/legal/privacy" class="list-inline__link" >
+Privacy			    </a>
+	    </li>
+	    <li class="list-inline__item"> 
+			    <a href="/sitemap" class="list-inline__link" >
+Sitemap			    </a>
+	    </li>
+</ul>
+
+
+			
+<p class="text-copyright">&#169;2026 Bank of England&#160;</p>
+		</div>
+	</div>
+</div>
+		</footer>
+		<script src="/scripts/boe.vendor.min.js?ver=98f91" type="text/javascript"></script>
+<script src="/scripts/boe.min.js?ver=98f91" type="text/javascript"></script>
+<script src="/-/media/css/search-bundle-script.js?ver=BB56DD&mode=npe" type="text/javascript"></script>
+<script src="/-/media/css/search-new-js.js?ver=6AFCD3&mode=npe" type="text/javascript"></script>
+
+		
+		
+	</div>
+</body>
+</html>

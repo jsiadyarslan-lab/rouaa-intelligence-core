@@ -1,0 +1,1417 @@
+
+<!DOCTYPE html>
+<html  lang="en" dir="ltr" prefix="content: http://purl.org/rss/1.0/modules/content/  dc: http://purl.org/dc/terms/  foaf: http://xmlns.com/foaf/0.1/  og: http://ogp.me/ns#  rdfs: http://www.w3.org/2000/01/rdf-schema#  schema: http://schema.org/  sioc: http://rdfs.org/sioc/ns#  sioct: http://rdfs.org/sioc/types#  skos: http://www.w3.org/2004/02/skos/core#  xsd: http://www.w3.org/2001/XMLSchema# ">
+  <head>
+    <meta charset="utf-8" />
+<link rel="canonical" href="https://www.bea.gov/news/blog" />
+<meta name="google" content="YTUCDlBs59yC1yvqKFhclR-b_kx9bU_BTCQJzo8lwjk" />
+<meta name="Generator" content="Drupal 10 (https://www.drupal.org)" />
+<meta name="MobileOptimized" content="width" />
+<meta name="HandheldFriendly" content="true" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<link rel="icon" href="/themes/custom/beagov_theme/logo.ico" type="image/vnd.microsoft.icon" />
+
+    <title>The BEA Wire | BEA&#039;s Official Blog | U.S. Bureau of Economic Analysis (BEA)</title>
+    <link rel="stylesheet" media="all" href="/sites/default/files/css/css_e9K4dLbj1sF2UySvu04Jfx4E6nwbnPdM_TCDUDxwAUU.css?delta=0&amp;language=en&amp;theme=beagov_theme&amp;include=eJxdiUEOgCAMBD-E8iTThhWJBYytqL_XGA_Gy05mlkGxtsEmZPhARp0RC9Tx9xhrsV-KUpmkUzsllehw2M3Zh3VbSPpXnZ5qyJ5J4VrCrv7ZPtewCS72bDDB" />
+<link rel="stylesheet" media="all" href="/sites/default/files/css/css_7eQ37UuGTyEyyV8DHE6uL2lQBdvUvH-HkY4M1Y-CJwI.css?delta=1&amp;language=en&amp;theme=beagov_theme&amp;include=eJxdiUEOgCAMBD-E8iTThhWJBYytqL_XGA_Gy05mlkGxtsEmZPhARp0RC9Tx9xhrsV-KUpmkUzsllehw2M3Zh3VbSPpXnZ5qyJ5J4VrCrv7ZPtewCS72bDDB" />
+<link rel="stylesheet" media="all" href="//fonts.googleapis.com/css?family=Lato:300,400,400i,700" />
+<link rel="stylesheet" media="all" href="/sites/default/files/css/css_ChAnK4gHi4RVTwzIgrTqzQ7ZKZx3XxAx-GBz7xhKk6Q.css?delta=3&amp;language=en&amp;theme=beagov_theme&amp;include=eJxdiUEOgCAMBD-E8iTThhWJBYytqL_XGA_Gy05mlkGxtsEmZPhARp0RC9Tx9xhrsV-KUpmkUzsllehw2M3Zh3VbSPpXnZ5qyJ5J4VrCrv7ZPtewCS72bDDB" />
+
+    <script src="https://use.fontawesome.com/releases/v6.4.2/js/all.js" defer crossorigin="anonymous"></script>
+<script src="https://use.fontawesome.com/releases/v6.4.2/js/v4-shims.js" defer crossorigin="anonymous"></script>
+
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-J4698JNNFT"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'G-J4698JNNFT');
+    </script>
+  </head>
+
+  <body class="path-news navbar-is-fixed-top has-glyphicons">
+    <a href="#main-content" class="visually-hidden focusable skip-link">
+      Skip to main content
+    </a>
+    
+      <div class="dialog-off-canvas-main-canvas" data-off-canvas-main-canvas>
+              <header class="navbar navbar-default navbar-fixed-top" id="navbar" role="banner">
+            <div class="usa-banner">
+        <div class="usa-banner-header container">
+                <div class="usa-grid usa-banner-inner">
+                        <img src="/sites/default/files/favicon-57.png" alt="U.S. flag">
+                        <p>An official website of the United States government</p>
+                </div>
+        </div>
+</div>       
+              <div class="container">
+            <div class="navbar-header">
+        <a class="navbar-brand" href="/" aria-label="homepage link">
+                                     </a>
+       
+                          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-collapse">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+              </div>
+
+                    <div id="navbar-collapse" class="navbar-collapse collapse">
+          
+    <div class="region region-navigation-collapsible">
+        <nav role="navigation" id="block-beagov-theme-main-menu" data-block-plugin-id="system_menu_block:main">
+    <div class="panel-inverse system-menu-block">
+      <div class="panel-heading sr-only">
+                                                    
+          <h3 id="block-beagov-theme-main-menu" data-block-plugin-id="system_menu_block:main" class="panel-title sr-only"  class="visually-hidden" id="block-beagov-theme-main-menu-menu"> 
+            Main navigation
+          </h3>
+          
+      </div>
+                      
+                            <ul region="navigation_collapsible" class="menu nav navbar-nav">
+                                                        <li class="expanded dropdown">
+                    <a href="/data" class="dropdown-toggle" data-target="#" data-hover="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Data
+                        <span class="caret"></span>
+                    </a>
+                                                                    <ul region="navigation_collapsible" class="menu dropdown-menu">
+                                                        <li class="expanded dropdown">
+                    <a href="/data/gdp" data-drupal-link-system-path="node/13541">by Topic</a>
+                                    </li>
+                                                <li class="expanded dropdown">
+                    <a href="/data/by-place-us" data-drupal-link-system-path="node/13656">by Place</a>
+                                    </li>
+                                                <li class="expanded dropdown">
+                    <a href="/data/economic-accounts" data-drupal-link-system-path="node/13646">by Economic Account</a>
+                                    </li>
+                    </ul>
+    
+                        </li>
+                                                <li class="expanded dropdown">
+                    <a href="/tools" class="dropdown-toggle" data-target="#" data-hover="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Tools
+                        <span class="caret"></span>
+                    </a>
+                                                                    <ul region="navigation_collapsible" class="menu dropdown-menu">
+                                                        <li class="expanded dropdown">
+                    <a href="/itable" data-drupal-link-system-path="node/33356">Interactive Data</a>
+                                    </li>
+                                                <li class="expanded dropdown">
+                    <a href="https://apps.bea.gov/API/signup/">Application Programming Interface (API)</a>
+                                    </li>
+                                                <li class="expanded dropdown">
+                    <a href="https://apps.bea.gov/iTable/?reqid=158&amp;step=1">Global Value Chain Analyzer</a>
+                                    </li>
+                                                <li class="expanded dropdown">
+                    <a href="https://tools.bea.gov/pidv/">Income Distribution Analysis Tool (IDAT)</a>
+                                    </li>
+                                                <li class="expanded dropdown">
+                    <a href="https://apps.bea.gov/international/factsheet/">Country Facts</a>
+                                    </li>
+                                                <li class="expanded dropdown">
+                    <a href="https://apps.bea.gov/regional/bearfacts/">BEARFACTS</a>
+                                    </li>
+                                                <li class="expanded dropdown">
+                    <a href="https://apps.bea.gov/industry/factsheet/">Industry Facts</a>
+                                    </li>
+                                                <li class="expanded dropdown">
+                    <a href="https://apps.bea.gov/itable/?ReqID=99&amp;step=1">GDP &amp; Personal Income Mapping</a>
+                                    </li>
+                                                <li class="expanded dropdown">
+                    <a href="https://apps.bea.gov/regional/rims/rimsii/">RIMS II</a>
+                                    </li>
+                                                <li class="expanded dropdown">
+                    <a href="https://apps.bea.gov/efile">eFile</a>
+                                    </li>
+                    </ul>
+    
+                        </li>
+                                                <li class="expanded dropdown active">
+                    <a href="/news" class="dropdown-toggle" data-target="#" data-hover="dropdown" aria-haspopup="true" aria-expanded="false">
+                        News
+                        <span class="caret"></span>
+                    </a>
+                                                                    <ul region="navigation_collapsible" class="menu dropdown-menu">
+                                                        <li class="expanded dropdown">
+                    <a href="/news/glance" data-drupal-link-system-path="node/20292">Economy at a Glance</a>
+                                    </li>
+                                                <li class="expanded dropdown">
+                    <a href="/news/current-releases" data-drupal-link-system-path="news/current-releases">News Releases</a>
+                                    </li>
+                                                <li class="expanded dropdown">
+                    <a href="/news/schedule" data-drupal-link-system-path="news/schedule">Release Schedule</a>
+                                    </li>
+                                                <li class="expanded dropdown active">
+                    <a href="/news/blog" data-drupal-link-system-path="news/blog" class="is-active" aria-current="page">The BEA Wire | BEA&#039;s Official Blog</a>
+                                    </li>
+                                                <li class="expanded dropdown">
+                    <a href="https://apps.bea.gov/scb/">Survey of Current Business</a>
+                                    </li>
+                                                <li class="expanded dropdown">
+                    <a href="/news/archive?field_related_product_target_id=All&amp;created_1=All&amp;title=" data-drupal-link-query="{&quot;created_1&quot;:&quot;All&quot;,&quot;field_related_product_target_id&quot;:&quot;All&quot;,&quot;title&quot;:&quot;&quot;}" data-drupal-link-system-path="news/archive">Archive</a>
+                                    </li>
+                                                <li class="expanded dropdown">
+                    <a href="/news/for-journalists" data-drupal-link-system-path="node/23916">For Journalists</a>
+                                    </li>
+                    </ul>
+    
+                        </li>
+                                                <li class="expanded dropdown">
+                    <a href="/research" class="dropdown-toggle" data-target="#" data-hover="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Research
+                        <span class="caret"></span>
+                    </a>
+                                                                    <ul region="navigation_collapsible" class="menu dropdown-menu">
+                                                        <li class="expanded dropdown">
+                    <a href="/research/offices-of-research" data-drupal-link-system-path="node/8126">Offices of Research</a>
+                                    </li>
+                                                <li class="expanded dropdown">
+                    <a href="/research/meet-the-researchers" data-drupal-link-system-path="research/meet-the-researchers">Meet the Researchers</a>
+                                    </li>
+                                                <li class="expanded dropdown">
+                    <a href="/research/papers" data-drupal-link-system-path="research/papers">Papers</a>
+                                    </li>
+                                                <li class="expanded dropdown">
+                    <a href="/research/special-sworn-researcher-program" data-drupal-link-system-path="node/8131">Special Sworn Researcher Program</a>
+                                    </li>
+                                                <li class="expanded dropdown">
+                    <a href="/research/special-sworn-researcher-program/papers" data-drupal-link-system-path="node/8211">Research Using Company-Level Data</a>
+                                    </li>
+                                                <li class="expanded dropdown">
+                    <a href="/research/fellowship-program" data-drupal-link-system-path="node/8136">Fellowship Program</a>
+                                    </li>
+                    </ul>
+    
+                        </li>
+                                                <li class="expanded dropdown">
+                    <a href="/resources" class="dropdown-toggle" data-target="#" data-hover="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Resources
+                        <span class="caret"></span>
+                    </a>
+                                                                    <ul region="navigation_collapsible" class="menu dropdown-menu">
+                                                        <li class="expanded dropdown">
+                    <a href="/resources/learning-center" data-drupal-link-system-path="node/14796">Learning Center</a>
+                                    </li>
+                                                <li class="expanded dropdown">
+                    <a href="/resources/methodologies" data-drupal-link-system-path="resources/methodologies">Methodologies</a>
+                                    </li>
+                                                <li class="expanded dropdown">
+                    <a href="/resources/multimedia" data-drupal-link-system-path="resources/multimedia">Multimedia</a>
+                                    </li>
+                                                <li class="expanded dropdown">
+                    <a href="https://apps.bea.gov/scb/subjects.htm">Article Collections</a>
+                                    </li>
+                                                <li class="expanded dropdown">
+                    <a href="/congressional-users" title="congressional users">For Congressional Users</a>
+                                    </li>
+                                                <li class="expanded dropdown">
+                    <a href="/resources/for-developers" data-drupal-link-system-path="node/9396">For Developers</a>
+                                    </li>
+                                                <li class="expanded dropdown">
+                    <a href="/resources/learning-center/bea-in-the-classroom" data-drupal-link-system-path="node/22426">For Students</a>
+                                    </li>
+                    </ul>
+    
+                        </li>
+                                                <li class="expanded dropdown">
+                    <a href="/about" class="dropdown-toggle" data-target="#" data-hover="dropdown" aria-haspopup="true" aria-expanded="false">
+                        About
+                        <span class="caret"></span>
+                    </a>
+                                                                    <ul region="navigation_collapsible" class="menu dropdown-menu">
+                                                        <li class="expanded dropdown">
+                    <a href="/about/who-we-are" data-drupal-link-system-path="node/24146">Who We Are</a>
+                                    </li>
+                                                <li class="expanded dropdown">
+                    <a href="/about/leadership" data-drupal-link-system-path="node/24691">BEA Leadership</a>
+                                    </li>
+                                                <li class="expanded dropdown">
+                    <a href="/about/innovation-bea" data-drupal-link-system-path="node/42904">Innovation at BEA</a>
+                                    </li>
+                                                <li class="expanded dropdown">
+                    <a href="/about/advisory-committees" data-drupal-link-system-path="node/6426">Advisory Committees</a>
+                                    </li>
+                                                <li class="expanded dropdown">
+                    <a href="/about/budget-and-performance" data-drupal-link-system-path="node/6431">Budget and Performance</a>
+                                    </li>
+                                                <li class="expanded dropdown">
+                    <a href="/about/policies-and-information" data-drupal-link-system-path="node/6436">Policies and Information</a>
+                                    </li>
+                                                <li class="expanded dropdown">
+                    <a href="https://www.bea.gov/about/working-at-bea">Working at BEA</a>
+                                    </li>
+                    </ul>
+    
+                        </li>
+                                                <li class="expanded dropdown">
+                    <a href="/help" class="dropdown-toggle" data-target="#" data-hover="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Help
+                        <span class="caret"></span>
+                    </a>
+                                                                    <ul region="navigation_collapsible" class="menu dropdown-menu">
+                                                        <li class="expanded dropdown">
+                    <a href="/help/contact-us" data-drupal-link-system-path="node/9106">Contact Us</a>
+                                    </li>
+                                                <li class="expanded dropdown">
+                    <a href="/form/ask-an-expert" data-drupal-link-system-path="webform/ask_an_expert">Ask an Expert</a>
+                                    </li>
+                                                <li class="expanded dropdown">
+                    <a href="/help/information-for-survey-respondents" data-drupal-link-system-path="node/9356">For Survey Respondents</a>
+                                    </li>
+                                                <li class="expanded dropdown">
+                    <a href="/help/faq" data-drupal-link-system-path="help/faq">Frequently Asked Questions (FAQ)</a>
+                                    </li>
+                                                <li class="expanded dropdown">
+                    <a href="/help/glossary" data-drupal-link-system-path="help/glossary">Glossary</a>
+                                    </li>
+                                                <li class="expanded dropdown">
+                    <a href="/help/guidelines-for-citing-bea" data-drupal-link-system-path="node/10936">Guidelines for Citing BEA</a>
+                                    </li>
+                    </ul>
+    
+                        </li>
+                    </ul>
+    
+
+
+          </div>
+</nav><section id="block-beagovsearchblock" class="block block-beagov-search block-beagov-search-block clearfix" data-block-plugin-id="beagov_search_block">
+  
+    
+
+      <form id="search-block-form"
+  class="navbar-form navbar-right"
+  role="search"
+  action="https://search.bea.gov/search"
+  method="get"
+  accept-charset="UTF-8"
+  data-drupal-form-fields="edit-keys"
+>
+  <input id="affiliate"
+    name="affiliate"
+    type="hidden"
+    value="u.s.bureauofeconomicanalysis"
+  />
+  <div class="form-group form-group-sm js-form-item form-item js-form-type-search form-item-keys js-form-item-keys form-no-label">
+    <input id="edit-keys" class="form-search form-control usagov-search-autocomplete" title="" data-drupal-selector="edit-keys" placeholder="Search" name="query" value="" type="search" aria-labelledby="btnSearch">
+  </div>
+  <button id="btnSearch" class="btn btn-default js-form-submit button" type="submit" aria-label="Search">
+    <span class="glyphicon glyphicon-search" aria-hidden="true"></span>
+  </button>
+  <div id="edit-actions" class="form-actions form-group js-form-wrapper form-wrapper" data-drupal-selector="edit-actions">
+  </div>
+</form>
+<script type="text/javascript">
+  //<![CDATA[
+    var usasearch_config = {siteHandle: "BEA"};
+    var script = document.createElement("script");
+    script.type = "text/javascript";
+    script.src = "//search.bea.gov/javascripts/remote.loader.js";
+    document.getElementsByTagName("head")[0].appendChild(script);
+  //]]>
+</script>
+
+  </section>
+
+
+    </div>
+
+        </div>
+                    </div>
+          </header>
+  
+  <div role="main" class="main-container container js-quickedit-main-content">
+    <div class="row">
+
+                              <div class="col-sm-12" role="heading">
+            
+    <div class="region region-header">
+            <ol class="breadcrumb">
+          <li >
+                  <a href="/">Home</a>
+              </li>
+          <li >
+                  <a href="/news">News</a>
+              </li>
+          <li  class="active">
+                  The BEA Wire | BEA's Official Blog
+              </li>
+      </ol>
+
+      <div class="page-header">
+  <h1>The BEA Wire | BEA's Official Blog</h1>
+  </div>
+
+
+    </div>
+
+          </div>
+              
+            
+                  <section class="col-xs-12 col-sm-12 col-md-9 col-lg-8">
+
+                                      <div class="highlighted">
+    <div class="region region-highlighted">
+        <div data-drupal-messages-fallback class="hidden"></div>
+
+    </div>
+</div>
+                  
+                
+                
+                
+                          <a id="main-content"></a>
+          
+    <div class="region region-content">
+          <div class="views-element-container form-group"><div class="blog-list-page view view-article-list view-id-article_list view-display-id-blogview js-view-dom-id-8316abd708377d1439760155fbfe80184af2ce0105429b850e03da752849441c">
+    
+        
+            
+            <div class="view-content">
+                <div class="blog-list-item clearfix"><h3 class="blog-post-title"><a href="/news/blog/2026-08-17/annual-update-gdp-industry-and-state-stats-publicly-available-starting-sept-30" hreflang="en">Annual Update of GDP, Industry, and State Stats Publicly Available Starting Sept. 30</a></h3><div class="blog-post-date">  <time datetime="2026-08-17T08:20:19-04:00">August 17, 2026</time>
+
+</div><p class="blog-summary"><p>BEA will release this year’s annual update of gross domestic product and related statistics beginning Sept. 30, part of our regular effort to better measure the U.S. economy. For the first time, updated state and county statistics will also start to flow to the public on the same day as the national and industry numbers.&nbsp;</p></p><div class="views-field views-field-path"><span class="field-content"><a href="/news/blog/2026-08-17/annual-update-gdp-industry-and-state-stats-publicly-available-starting-sept-30">Read More&nbsp;<i class="fa fa-arrow-circle-right" aria-hidden="true"></i></a> </span></div></div>
+    <div class="blog-list-item clearfix"><h3 class="blog-post-title"><a href="/news/blog/2026-07-01/beyond-news-release-closer-look-first-quarter-2026-state-personal-income" hreflang="en">Beyond the News Release: A Closer Look at First-Quarter 2026 State Personal Income</a></h3><div class="blog-post-date">  <time datetime="2026-07-01T09:39:48-04:00">July 1, 2026</time>
+
+</div><p class="blog-summary"><p>For each quarter of the year, BEA produces a wealth of state economic statistics. They are now featured in the same news release with industry statistics and the third estimate of U.S. gross domestic product each quarter.</p><p>Starting with the fourth quarter of 2025, BEA accelerated its production of state GDP and personal income statistics to present this comprehensive picture of the economy on the same day.&nbsp;</p></p><div class="views-field views-field-path"><span class="field-content"><a href="/news/blog/2026-07-01/beyond-news-release-closer-look-first-quarter-2026-state-personal-income">Read More&nbsp;<i class="fa fa-arrow-circle-right" aria-hidden="true"></i></a> </span></div></div>
+    <div class="blog-list-item clearfix"><h3 class="blog-post-title"><a href="/news/blog/2026-06-29/bea-expands-statistics-and-data-tool-analyzing-global-value-chains" hreflang="en">BEA Expands Statistics and Data Tool for Analyzing Global Value Chains</a></h3><div class="blog-post-date">  <time datetime="2026-06-29T08:53:20-04:00">June 29, 2026</time>
+
+</div><p class="blog-summary"><p>BEA has significantly expanded its global value chain statistics to help policymakers and the public better understand international supply chains.&nbsp;</p><p>Global value chain statistics lay out the mix of domestic and imported value included in the cross-border production chains of goods and services. They are also known as statistics measuring trade in value added.</p></p><div class="views-field views-field-path"><span class="field-content"><a href="/news/blog/2026-06-29/bea-expands-statistics-and-data-tool-analyzing-global-value-chains">Read More&nbsp;<i class="fa fa-arrow-circle-right" aria-hidden="true"></i></a> </span></div></div>
+    <div class="blog-list-item clearfix"><h3 class="blog-post-title"><a href="/news/blog/2026-06-16/innovations-distribution-income-statistics-new-data-and-new-tool" hreflang="en">Innovations in Distribution of Income Statistics: New Data and a New Tool</a></h3><div class="blog-post-date">  <time datetime="2026-06-16T07:29:21-04:00">June 16, 2026</time>
+
+</div><p class="blog-summary"><p>Build custom tables and charts from BEA's distribution of personal income statistics with BEA’s newest data analysis tool.</p></p><div class="views-field views-field-path"><span class="field-content"><a href="/news/blog/2026-06-16/innovations-distribution-income-statistics-new-data-and-new-tool">Read More&nbsp;<i class="fa fa-arrow-circle-right" aria-hidden="true"></i></a> </span></div></div>
+    <div class="blog-list-item clearfix"><h3 class="blog-post-title"><a href="/news/blog/2026-06-15/advancing-measurement-and-understanding-ais-economic-impact" hreflang="en">Advancing Measurement and Understanding of AI’s Economic Impact</a></h3><div class="blog-post-date">  <time datetime="2026-06-15T08:40:48-04:00">June 15, 2026</time>
+
+</div><p class="blog-summary"><p></p><p>A blog post from BEA Director Vipin Arora&nbsp;</p><p>I’m sure many of us remember playing the “don’t say it” game. Someone picks a word to avoid, and the first person to utter that word loses. Can you imagine how quickly the game would end these days if the word was AI?&nbsp;</p></p><div class="views-field views-field-path"><span class="field-content"><a href="/news/blog/2026-06-15/advancing-measurement-and-understanding-ais-economic-impact">Read More&nbsp;<i class="fa fa-arrow-circle-right" aria-hidden="true"></i></a> </span></div></div>
+    <div class="blog-list-item clearfix"><h3 class="blog-post-title"><a href="/news/blog/2026-06-08/how-does-ai-drive-growth-explore-our-integrated-industry-level-production" hreflang="en">How Does AI Drive Growth? Explore Our Integrated Industry-Level Production Stats </a></h3><div class="blog-post-date">  <time datetime="2026-06-08T08:54:18-04:00">June 8, 2026</time>
+
+</div><p class="blog-summary"><p></p><p>A blog post from BEA Director Vipin Arora</p><p>When my kids were younger, they always asked me how things are made. I usually didn’t know. My own dad’s playbook for these questions was saying “I forgot.” I guess I’ve forgotten a lot over the years, too. That said, understanding how things are made is critical to making them better, and ultimately to driving economic growth.</p></p><div class="views-field views-field-path"><span class="field-content"><a href="/news/blog/2026-06-08/how-does-ai-drive-growth-explore-our-integrated-industry-level-production">Read More&nbsp;<i class="fa fa-arrow-circle-right" aria-hidden="true"></i></a> </span></div></div>
+    <div class="blog-list-item clearfix"><h3 class="blog-post-title"><a href="/news/blog/2026-06-01/need-intel-us-capacity-produce-check-out-our-fixed-assets-data" hreflang="en">Need Intel on the U.S. Capacity to Produce? Check Out Our Fixed Assets Data </a></h3><div class="blog-post-date">  <time datetime="2026-06-01T08:55:58-04:00">June 1, 2026</time>
+
+</div><p class="blog-summary"><p></p><p>A blog post from BEA Director Vipin Arora</p><p>It still seems novel to me that the United States is the world’s largest producer of crude oil, though we’ve had that distinction since 2018. And my guess is that even in the eternally optimistic oil business, there weren’t many people who predicted this back when the shale boom began gathering momentum. In fact, I remember claims at the time that even with new fracking technology,…</p><div class="views-field views-field-path"><span class="field-content"><a href="/news/blog/2026-06-01/need-intel-us-capacity-produce-check-out-our-fixed-assets-data">Read More&nbsp;<i class="fa fa-arrow-circle-right" aria-hidden="true"></i></a> </span></div></div>
+    <div class="blog-list-item clearfix"><h3 class="blog-post-title"><a href="/news/blog/2026-05-06/how-beas-numbers-come-together" hreflang="en">How BEA’s Numbers Come Together </a></h3><div class="blog-post-date">  <time datetime="2026-05-06T07:53:03-04:00">May 6, 2026</time>
+
+</div><p class="blog-summary"><p></p><p>A blog post from BEA Director Vipin Arora</p><p>My guess is that the standards and methods we use at BEA to put our statistics together are a bit different than people might expect. Understandably so—most people think about statistics in terms of surveys, so concepts like response rates, sample size, margin of error, and standard deviation are usually top of mind.</p><p>We do some of that. But most of our economic indicators are…</p><div class="views-field views-field-path"><span class="field-content"><a href="/news/blog/2026-05-06/how-beas-numbers-come-together">Read More&nbsp;<i class="fa fa-arrow-circle-right" aria-hidden="true"></i></a> </span></div></div>
+    <div class="blog-list-item clearfix"><h3 class="blog-post-title"><a href="/news/blog/2026-05-04/looking-supply-chain-intel-explore-beas-supply-and-use-tables" hreflang="en">Looking for Supply Chain Intel? Explore BEA’s Supply and Use Tables </a></h3><div class="blog-post-date">  <time datetime="2026-05-04T08:52:20-04:00">May 4, 2026</time>
+
+</div><p class="blog-summary"><p></p><p>A blog post from BEA Director Vipin Arora</p><p>I’ve written in the past about how BEA’s supply and use tables are the unsung hero of economic accounting. They do a lot, including providing the framework for modern economic measurement and analysis. But did you know they are also central to understanding supply chains?</p><p></p><div class="views-field views-field-path"><span class="field-content"><a href="/news/blog/2026-05-04/looking-supply-chain-intel-explore-beas-supply-and-use-tables">Read More&nbsp;<i class="fa fa-arrow-circle-right" aria-hidden="true"></i></a> </span></div></div>
+    <div class="blog-list-item clearfix"><h3 class="blog-post-title"><a href="/news/blog/2026-04-20/when-are-data-and-tractors-treated-same-economic-accounting" hreflang="en">When Are Data and Tractors Treated the Same in Economic Accounting?</a></h3><div class="blog-post-date">  <time datetime="2026-04-20T09:07:20-04:00">April 20, 2026</time>
+
+</div><p class="blog-summary"><p></p><p>A blog post from BEA Director Vipin Arora</p><p>I’ve struggled over the years with some basic grammar (and I know I’m not the only one). It’s hard for me to remember what an adverb is, or to pick out a simile versus a metaphor. You can add treating the word data as plural to that list. Saying “the data are” instead of the “the data is” doesn’t sound right to me, even though I know that the singular usage has arisen only in recent years…</p><div class="views-field views-field-path"><span class="field-content"><a href="/news/blog/2026-04-20/when-are-data-and-tractors-treated-same-economic-accounting">Read More&nbsp;<i class="fa fa-arrow-circle-right" aria-hidden="true"></i></a> </span></div></div>
+    <div class="blog-list-item clearfix"><h3 class="blog-post-title"><a href="/news/blog/2026-03-30/delving-inside-global-value-chains-expanded-data-coming-soon" hreflang="en">Delving Inside Global Value Chains: Expanded Data Coming Soon </a></h3><div class="blog-post-date">  <time datetime="2026-03-30T08:58:04-04:00">March 30, 2026</time>
+
+</div><p class="blog-summary"><p></p><p>A blog post from BEA Director Vipin Arora&nbsp;</p><p>I’d bet most people have heard of global supply chains. But are you familiar with their fraternal twin, global value chains? I’m guessing not. BEA’s statistics on value chains are an underappreciated tool that can help policymakers and the public better understand supply chains.</p></p><div class="views-field views-field-path"><span class="field-content"><a href="/news/blog/2026-03-30/delving-inside-global-value-chains-expanded-data-coming-soon">Read More&nbsp;<i class="fa fa-arrow-circle-right" aria-hidden="true"></i></a> </span></div></div>
+    <div class="blog-list-item clearfix"><h3 class="blog-post-title"><a href="/news/blog/2026-03-23/state-personal-income-more-critical-economic-measure" hreflang="en">State Personal Income: More Than a Critical Economic Measure</a></h3><div class="blog-post-date">  <time datetime="2026-03-23T13:00:00Z">March 23, 2026</time>
+
+</div><p class="blog-summary"><p></p><p>A blog from BEA Director Vipin Arora</p><p>It’s widely recognized that BEA’s economic statistics are among the world’s most closely watched. That’s because our data about trade, consumer prices, and economic activity underpin decisions about interest rates and trade policy, taxes and spending, hiring and investing, and more. You might, however, be unaware that BEA data are also used in allocating hundreds of billions in federal funds…</p><div class="views-field views-field-path"><span class="field-content"><a href="/news/blog/2026-03-23/state-personal-income-more-critical-economic-measure">Read More&nbsp;<i class="fa fa-arrow-circle-right" aria-hidden="true"></i></a> </span></div></div>
+
+        </div>
+    
+            
+    <nav class="pager-nav text-center" role="navigation" aria-labelledby="pagination-heading">
+        <h4 id="pagination-heading" class="sr-only">
+            Pagination
+        </h4>
+        <ul class="pagination js-pager__items">
+
+                        
+                        
+                                        <li class="pager__item is-active active">
+                                                                                    <a href="?page=0" title="Current page" aria-current="page">
+                        <span class="sr-only">
+                            Current page of blogs
+                        </span>
+                        <span aria-hidden="true">1</span>
+                    </a>
+                </li>
+                            <li class="pager__item">
+                                                                                    <a href="?page=1" title="Go to page 2">
+                        <span class="sr-only">
+                            Go to page 2 of 0 of blogs
+                        </span>
+                        <span aria-hidden="true">2</span>
+                    </a>
+                </li>
+                            <li class="pager__item">
+                                                                                    <a href="?page=2" title="Go to page 3">
+                        <span class="sr-only">
+                            Go to page 3 of 0 of blogs
+                        </span>
+                        <span aria-hidden="true">3</span>
+                    </a>
+                </li>
+                            <li class="pager__item">
+                                                                                    <a href="?page=3" title="Go to page 4">
+                        <span class="sr-only">
+                            Go to page 4 of 0 of blogs
+                        </span>
+                        <span aria-hidden="true">4</span>
+                    </a>
+                </li>
+                            <li class="pager__item">
+                                                                                    <a href="?page=4" title="Go to page 5">
+                        <span class="sr-only">
+                            Go to page 5 of 0 of blogs
+                        </span>
+                        <span aria-hidden="true">5</span>
+                    </a>
+                </li>
+                            <li class="pager__item">
+                                                                                    <a href="?page=5" title="Go to page 6">
+                        <span class="sr-only">
+                            Go to page 6 of 0 of blogs
+                        </span>
+                        <span aria-hidden="true">6</span>
+                    </a>
+                </li>
+                            <li class="pager__item">
+                                                                                    <a href="?page=6" title="Go to page 7">
+                        <span class="sr-only">
+                            Go to page 7 of 0 of blogs
+                        </span>
+                        <span aria-hidden="true">7</span>
+                    </a>
+                </li>
+                            <li class="pager__item">
+                                                                                    <a href="?page=7" title="Go to page 8">
+                        <span class="sr-only">
+                            Go to page 8 of 0 of blogs
+                        </span>
+                        <span aria-hidden="true">8</span>
+                    </a>
+                </li>
+                            <li class="pager__item">
+                                                                                    <a href="?page=8" title="Go to page 9">
+                        <span class="sr-only">
+                            Go to page 9 of 0 of blogs
+                        </span>
+                        <span aria-hidden="true">9</span>
+                    </a>
+                </li>
+            
+                                        <li class="pager__item pager__item--next">
+                    <a href="?page=1" title="Go to next page" rel="next">
+                        <span class="sr-only">Next page of blogs</span>
+                        <span aria-hidden="true">Next ›</span>
+                    </a>
+                </li>
+            
+                                        <li class="pager__item pager__item--last">
+                    <a href="?page=101" title="Go to last page" rel="last">
+                        <span class="sr-only">Last page of blogs</span>
+                        <span aria-hidden="true">Last »</span>
+                    </a>
+                </li>
+                    </ul>
+    </nav>
+
+                        <div class="view-footer">
+            
+        </div>
+        </div>
+</div>
+
+
+    </div>
+
+              </section>
+
+                              <aside class="col-xs-12 col-sm-12 col-md-3 col-lg-4" role="complementary">
+            
+    <div class="region region-sidebar-second">
+        <section class="views-exposed-form block block-views block-views-exposed-filter-blockarticle-list-blogview clearfix" data-drupal-selector="views-exposed-form-article-list-blogview" id="block-exposedformarticle-listblogview" data-block-plugin-id="views_exposed_filter_block:article_list-blogview">
+  
+    
+
+      <form region="sidebar_second" action="/news/blog" method="get" id="views-exposed-form-article-list-blogview" accept-charset="UTF-8">
+  
+
+  <div class="panel panel-form">
+    <div class="panel-body">
+      <div class="form-item js-form-item form-type-textfield js-form-type-textfield form-item-title js-form-item-title form-group">
+      <label for="edit-title--2" class="control-label">Title Search</label>
+  
+  
+  <input placeholder="Keyword(s)" data-drupal-selector="edit-title" class="form-text form-control" type="text" id="edit-title--2" name="title" value="" size="30" maxlength="128" />
+
+  
+  
+  </div>
+
+
+
+    <label for="edit-tid--2" class="control-label">Filter by Category</label>
+
+
+
+
+
+<select data-drupal-selector="edit-tid" class="form-select form-control" id="edit-tid--2" name="tid">
+                        <option value="All" selected="selected">
+                - Any -
+            </option>
+                                <option value="1136">
+                Announcements
+            </option>
+                                <option value="1066">
+                Consumer Spending
+            </option>
+                                <option value="2041">
+                Director&#039;s Blog
+            </option>
+                                <option value="1096">
+                Employment
+            </option>
+                                <option value="1101">
+                Government
+            </option>
+                                <option value="1051">
+                Gross Domestic Product
+            </option>
+                                <option value="1421">
+                Healthcare
+            </option>
+                                <option value="1071">
+                Income &amp; Saving
+            </option>
+                                <option value="1076">
+                Industries
+            </option>
+                                <option value="1081">
+                International Trade &amp; Investment
+            </option>
+                                <option value="1091">
+                Investment in Fixed Assets
+            </option>
+                                <option value="1121">
+                Local
+            </option>
+                                <option value="1111">
+                National
+            </option>
+                                <option value="1131">
+                New Projects
+            </option>
+                                <option value="1086">
+                Prices &amp; Inflation
+            </option>
+                                <option value="1106">
+                Special Topics
+            </option>
+                                <option value="1116">
+                State
+            </option>
+                                <option value="1126">
+                Territories
+            </option>
+            </select>
+
+
+
+
+
+
+
+<div data-drupal-selector="edit-actions" class="form-actions form-group js-form-wrapper form-wrapper" id="edit-actions--2"><button data-drupal-selector="edit-submit-article-list-2" class="button js-form-submit form-submit btn-primary btn icon-before" type="submit" id="edit-submit-article-list--2" value="Search"><span class="icon glyphicon glyphicon-search" aria-hidden="true"></span>
+Search</button></div>
+
+    </div>
+  </div>
+
+
+</form>
+
+  </section>
+
+<nav role="navigation" id="block-newsmore" data-block-plugin-id="system_menu_block:news-more">
+    <div class="panel-inverse system-menu-block">
+      <div class="panel-heading sr-only">
+                              
+          <h3 id="block-newsmore" class="panel-title sr-only" data-block-plugin-id="system_menu_block:news-more"  id="block-newsmore-menu"> 
+            Quick Links
+          </h3>
+          
+      </div>
+                      
+              <ul region="sidebar_second" class="nav list-group">
+                                          <a href="/news/glance"  class="list-group-item">Economy at a Glance</a>     
+                          </li>
+                                <a href="/news/current-releases"  class="list-group-item">News Releases</a>     
+                          </li>
+                                <a href="/news/schedule"  class="list-group-item">Release Schedule</a>     
+                          </li>
+                                <a href="/news/blog"  class="active list-group-item">The BEA Wire | BEA&#039;s Official Blog</a>     
+                          </li>
+                                <a href="http://www.bea.gov/scb"  class="list-group-item">Survey of Current Business</a>     
+                          </li>
+                                <a href="/news/archive?field_related_product_target_id=All&amp;created_1=All&amp;title="  class="list-group-item">Archive</a>     
+                          </li>
+                                <a href="/news/for-journalists"  class="list-group-item">For Journalists</a>     
+                          </li>
+        </ul>
+  
+
+
+          </div>
+</nav><section id="block-newscontacts" class="block block-block-content block-block-contentfb19898b-6839-45c9-8cd2-26ffa061fd8d clearfix" data-block-plugin-id="block_content:fb19898b-6839-45c9-8cd2-26ffa061fd8d">
+  
+    
+
+      
+            <div class="field field--name-body field--type-text-with-summary field--label-hidden field--item"><div role="article" class="panel panel-default">
+   <div class="panel-heading">
+      <h3 class="panel-title">Additional Archives</h3>
+   </div>
+   <div class="list-group"> <a class="list-group-item" href="https://www.bea.gov/information-previous-updates-nipa-regional-accounts">Information on Previous Updates of the National and Regional Economic Accounts</a> <a class="list-group-item" href="/federal-recovery-programs-and-bea-statistics">Federal Recovery Programs and BEA Statistics</a> <a class="list-group-item" href="https://apps.bea.gov/histdatacore/index.html">Data Archive</a> <a class="list-group-item" href="/data/discontinued-or-delayed-statistics">Previously Published/Impacted Statistics</a> </div>
+</div>
+<div role="article" class="panel panel-default contact">
+   <div class="panel-heading">
+      <h3 class="panel-title">Media Contacts</h3>
+   </div>
+   <div class="panel-body">
+      <ul class="list-contact">
+         <li>
+            <div class="list-contact-area">News Media</div>
+            <div class="list-contact-name">Connie O'Connell</div>
+            <div class="list-contact-phone"> <i class="fa fa-phone" aria-hidden="true"></i> <a href="tel:3012789003">(301) 278-9003</a></div>
+            <div class="list-contact-email"> <i class="fa fa-envelope-o" aria-hidden="true"></i><a href="mailto:Connie.OConnell@bea.gov">Connie.OConnell@bea.gov</a></div>
+         </li>
+         <li>
+            <div class="list-contact-area">News Media</div>
+            <div class="list-contact-name">Thomas Dail</div>
+            <div class="list-contact-phone"> <i class="fa fa-phone" aria-hidden="true"></i> <a href="tel:301278-9003">(301) 278-9003</a></div>
+            <div class="list-contact-email"> <i class="fa fa-envelope-o" aria-hidden="true"></i><a href="mailto:Thomas.Dail@bea.gov">Thomas.Dail@bea.gov</a></div>
+         </li>
+      </ul>
+   </div>
+</div>
+<style>
+  [class*="scheduled-releases-type"] td:not(.bea-highlight) {
+                border: none !important;
+            }
+  #release-schedule-table {
+    xvisibility: hidden;
+  }
+ [class*="scheduled-releases-type"] td .release-date span{
+  color: #3c763d;
+    
+  display:block;
+  font-size: 90%;
+  /*border-bottom: solid 1px #3c763d;*/
+}
+ 
+.row-disabled {
+  opacity: 0.5;
+  /*text-decoration: line-through;*/
+}
+ .scheduled-date.bea-highlight{
+  border-color: rgba(60,118,61,0.35);
+  border-style: solid;
+  border-radius: 0px 15px 15px 0px;
+  border-width: 0px 3px 0px 0px;
+ }
+</style>
+<script>
+ document.addEventListener("DOMContentLoaded", () => {
+  const monthMap = {
+    January: "Jan.", February: "Feb.", March: "Mar.", April: "Apr.",
+    May: "May", June: "Jun.", July: "Jul.", August: "Aug.",
+    September: "Sept.", October: "Oct.", November: "Nov.", December: "Dec."
+  };
+
+  const updates = [
+    
+       {
+    "target-date": "February 5",
+    "occurrenceIndex": 0,
+    "replacement-releaseText": null,
+    "replacement-smallText": null,
+    "replacement-topText": "New Date",
+    "row-disable": false,
+    "apply-to": ["Upcoming Releases", "Full Schedule"] //Null is all, or any combo: ["Upcoming Releases", "2025 Schedule", "2026 Schedule"]
+  },
+    {
+    "target-date": "February 19",
+    "occurrenceIndex": 0,
+    "replacement-releaseText": null,
+    "replacement-smallText": null,
+    "replacement-topText": "New Date",
+    "row-disable": false,
+    "apply-to": null //Null is all, or any combo: ["Upcoming Releases", "2025 Schedule", "2026 Schedule"]
+   },
+   {
+    "target-date": "February 19",
+    "occurrenceIndex": 1,
+    "replacement-releaseText": null,
+    "replacement-smallText": null,
+    "replacement-topText": "New Date",
+    "row-disable": false,
+    "apply-to": null //Null is all, or any combo: ["Upcoming Releases", "2025 Schedule", "2026 Schedule"]
+   },
+
+      {
+    "target-date": "February 20",
+    "occurrenceIndex": 0,
+    "replacement-releaseText": null,
+    "replacement-smallText": null,
+    "replacement-topText": "New Date",
+    "row-disable": false,
+    "apply-to": null //Null is all, or any combo: ["Upcoming Releases", "2025 Schedule", "2026 Schedule"]
+ 
+  }, 
+   {
+       "target-date": "February 20",
+    "occurrenceIndex": 1,
+    "replacement-releaseText": null,
+    "replacement-smallText": null,
+    "replacement-topText": "New Date",
+    "row-disable": false,
+    "apply-to": null //Null is all, or any combo: ["Upcoming Releases", "2025 Schedule", "2026 Schedule"]
+ 
+  },
+   
+   {
+    "target-date": "February 26",
+    "occurrenceIndex": 0,
+    "replacement-releaseText": "To Be Rescheduled",
+    "replacement-smallText": "(Orig. Feb. 26)",
+    "replacement-topText": null,
+    "row-disable": false,
+    "apply-to": null //Null is all, or any combo: ["Upcoming Releases", "2025 Schedule", "2026 Schedule"]
+  },{
+    "target-date": "February 26",
+    "occurrenceIndex": 1,
+    "replacement-releaseText": "To Be Rescheduled",
+    "replacement-smallText": "(Orig. Feb. 26)",
+    "replacement-topText": null,
+    "row-disable": false,
+    "apply-to": null //Null is all, or any combo: ["Upcoming Releases", "2025 Schedule", "2026 Schedule"]
+  },
+   
+ {
+    "target-date": "January 8",
+    "occurrenceIndex": 0,
+    "replacement-releaseText": null,
+    "replacement-smallText": null,
+    "replacement-topText": "New Date",
+    "row-disable": false,
+    "apply-to": null //Null is all, or any combo: ["Upcoming Releases", "2025 Schedule", "2026 Schedule"]
+ 
+  },
+  {
+    "target-date": "January 14",
+    "occurrenceIndex": 0,
+    "replacement-releaseText": null,
+    "replacement-smallText": null,
+    "replacement-topText": "New Date",
+    "row-disable": false,
+    "apply-to": null //Null is all, or any combo: ["Upcoming Releases", "2025 Schedule", "2026 Schedule"]
+ 
+  },
+  {
+    "target-date": "January 16",
+    "occurrenceIndex": 0,
+    "replacement-releaseText": null,
+    "replacement-smallText": null,
+    "replacement-topText": "New Date",
+    "row-disable": false,
+    "apply-to": null //Null is all, or any combo: ["Upcoming Releases", "2025 Schedule", "2026 Schedule"]
+ 
+  },
+  {
+    "target-date": "January 22",
+    "occurrenceIndex": 0,
+    "replacement-releaseText": null,
+    "replacement-smallText": null,
+    "replacement-topText": "New Date",
+    "row-disable": false,
+    "apply-to": null //Null is all, or any combo: ["Upcoming Releases", "2025 Schedule", "2026 Schedule"]
+ 
+  },
+    {
+    "target-date": "January 22",
+    "occurrenceIndex": 1,
+    "replacement-releaseText": null,
+    "replacement-smallText": null,
+    "replacement-topText": "New Date",
+    "row-disable": false,
+    "apply-to": null //Null is all, or any combo: ["Upcoming Releases", "2025 Schedule", "2026 Schedule"]
+ 
+  }, 
+   
+  {
+    "target-date": "January 23",
+    "occurrenceIndex": 0,
+    "replacement-releaseText": null,
+    "replacement-smallText": null,
+    "replacement-topText": "New Date",
+    "row-disable": false,
+    "apply-to": null //Null is all, or any combo: ["Upcoming Releases", "2025 Schedule", "2026 Schedule"]
+ 
+  },
+//{
+//    "target-date": "January 29",
+//    "occurrenceIndex": 0,
+//    "replacement-releaseText": "To Be Rescheduled",
+//    "replacement-smallText": "(Orig. Jan. 29)",
+//    "replacement-topText": null,
+//    "row-disable": false,
+//    "apply-to": null //Null is all, or any combo: ["Upcoming Releases", "2025 Schedule", "2026 Schedule"]
+//  }, 
+//   {
+//    "target-date": "January 29",
+//    "occurrenceIndex": 1,
+//    "replacement-releaseText": null,
+//    "replacement-smallText": null,
+//    "replacement-topText": null,
+//    "row-disable": false,
+//    "apply-to": null //Null is all, or any combo: ["Upcoming Releases", "2025 Schedule", "2026 Schedule"]
+//  }, 
+   {
+    "target-date": "January 29",
+    "occurrenceIndex": 0,
+    "replacement-releaseText": null,
+    "replacement-smallText": null,
+    "replacement-topText": "New Date",
+    "row-disable": false,
+    "apply-to": null //Null is all, or any combo: ["Upcoming Releases", "2025 Schedule", "2026 Schedule"]
+  }, 
+
+      {
+    "target-date": "March 12",
+    "occurrenceIndex": 0,
+    "replacement-releaseText": null,
+    "replacement-smallText": null,
+    "replacement-topText": "New Date",
+    "row-disable": false,
+    "apply-to": ["Upcoming Releases", "Full Schedule"] //Null is all, or any combo: ["Upcoming Releases", "2025 Schedule", "2026 Schedule"]
+  },
+   
+   
+   {
+    "target-date": "March 13",
+    "occurrenceIndex": 0,
+    "replacement-releaseText": null,
+    "replacement-smallText": null,
+    "replacement-topText": "New Date",
+    "row-disable": false,
+    "apply-to": ["Upcoming Releases", "Full Schedule"] //Null is all, or any combo: ["Upcoming Releases", "2025 Schedule", "2026 Schedule"]
+  },    
+   {
+    "target-date": "March 13",
+    "occurrenceIndex": 1,
+    "replacement-releaseText": null,
+    "replacement-smallText": null,
+    "replacement-topText": "New Date",
+    "row-disable": false,
+    "apply-to": ["Upcoming Releases", "Full Schedule"] //Null is all, or any combo: ["Upcoming Releases", "2025 Schedule", "2026 Schedule"]
+  },   
+   
+      {
+    "target-date": "April 9",
+    "occurrenceIndex": 0,
+    "replacement-releaseText": null,
+    "replacement-smallText": null,
+    "replacement-topText": "New Date",
+    "row-disable": false,
+    "apply-to": ["Upcoming Releases", "Full Schedule"] //Null is all, or any combo: ["Upcoming Releases", "2025 Schedule", "2026 Schedule"]
+  },
+         {
+    "target-date": "April 9",
+    "occurrenceIndex": 1,
+    "replacement-releaseText": null,
+    "replacement-smallText": null,
+    "replacement-topText": "New Date",
+    "row-disable": false,
+    "apply-to": ["Upcoming Releases", "Full Schedule"] //Null is all, or any combo: ["Upcoming Releases", "2025 Schedule", "2026 Schedule"]
+  },
+   
+   
+   
+   
+   
+  {
+    "target-date": "October 30",
+    "occurrenceIndex": 0,
+    "replacement-releaseText": "Cancelled",
+    "replacement-smallText": null,
+    "replacement-topText": null,
+    "row-disable": true,
+    "apply-to": ["Upcoming Releases", "2025 Schedule"] //Null is all, or any combo: ["Upcoming Releases", "2025 Schedule", "2026 Schedule"]
+ 
+  }, 
+   {
+    "target-date": "November 26",
+    "occurrenceIndex": 0,
+    "replacement-releaseText": "To Be Rescheduled",
+    "replacement-smallText": "(Orig. Nov. 26)",
+    "replacement-topText": null,
+    "row-disable": false,
+    "apply-to": ["Upcoming Releases", "2025 Schedule"] //Null is all, or any combo: ["Upcoming Releases", "2025 Schedule", "2026 Schedule"]
+ 
+  },
+//  {
+//    "target-date": "December 4",
+//    "occurrenceIndex": 0,
+//    "replacement-releaseText": "To Be Rescheduled",
+//    "replacement-smallText": "(Orig. Dec. 4)",
+//    "replacement-topText": null,
+//    "row-disable": false,
+//    "apply-to": null //Null is all, or any combo: ["Upcoming Releases", "2025 Schedule", "2026 Schedule"]
+// 
+//  },
+  {
+    "target-date": "November 19",
+    "occurrenceIndex": 0,
+    "replacement-releaseText": null,
+    "replacement-smallText": null,
+    "replacement-topText": "New Date",
+    "row-disable": false,
+    "apply-to": ["2025 Schedule"] //Null is all, or any combo: ["Upcoming Releases", "2025 Schedule", "2026 Schedule"]
+ 
+  },
+     {
+    "target-date": "November 19",
+    "occurrenceIndex": 1,
+    "replacement-releaseText": null,
+    "replacement-smallText": null,
+    "replacement-topText": "New Date",
+    "row-disable": false,
+    "apply-to": ["2025 Schedule"] //Null is all, or any combo: ["Upcoming Releases", "2025 Schedule", "2026 Schedule"]
+ 
+  },
+  {
+    "target-date": "December 5",
+    "occurrenceIndex": 0,
+    "replacement-releaseText": null,
+    "replacement-smallText": null,
+    "replacement-topText": "New Date",
+    "row-disable": false,
+    "apply-to": ["Upcoming Releases", "2025 Schedule"] //Null is all, or any combo: ["Upcoming Releases", "2025 Schedule", "2026 Schedule"]
+ 
+  },
+  {
+    "target-date": "December 5",
+    "occurrenceIndex": 1,
+    "replacement-releaseText": null,
+    "replacement-smallText": null,
+    "replacement-topText": "New Date",
+    "row-disable": false,
+    "apply-to": ["Upcoming Releases", "2025 Schedule"] //Null is all, or any combo: ["Upcoming Releases", "2025 Schedule", "2026 Schedule"]
+ 
+  },
+  {
+    "target-date": "December 11",
+    "occurrenceIndex": 0,
+    "replacement-releaseText": null,
+    "replacement-smallText": null,
+    "replacement-topText": "New Date",
+    "row-disable": false,
+    "apply-to": ["Upcoming Releases", "2025 Schedule"] //Null is all, or any combo: ["Upcoming Releases", "2025 Schedule", "2026 Schedule"]
+   },
+      {
+    "target-date": "December 19",
+    "occurrenceIndex": 0,
+    "replacement-releaseText": "To Be Rescheduled",
+    "replacement-smallText": "(Orig. Dec. 19)",
+    "replacement-topText": null,
+    "row-disable": false,
+    "apply-to": ["Upcoming Releases", "2025 Schedule"] //Null is all, or any combo: ["Upcoming Releases", "2025 Schedule", "2026 Schedule"]
+ 
+  },
+   {
+    "target-date": "December 23",
+    "occurrenceIndex": 0,
+    "replacement-releaseText": null,
+    "replacement-smallText": null,
+    "replacement-topText": "New Date",
+    "row-disable": false,
+    "apply-to": ["2025 Schedule"] //Null is all, or any combo: ["Upcoming Releases", "2025 Schedule", "2026 Schedule"]
+ 
+  },
+  {
+    "target-date": "December 30",
+    "occurrenceIndex": 0,
+    "replacement-releaseText": "To Be Rescheduled",
+    "replacement-smallText": "(Orig. November 2025)", // corrected
+    "replacement-topText": null,
+    "row-disable": false,
+    "apply-to": ["Upcoming Releases", "2025 Schedule"] //Null is all, or any combo: ["Upcoming Releases", "2025 Schedule", "2026 Schedule"]
+ 
+
+  }
+];
+  
+  // Get the active tab label (e.g., "Upcoming Releases", "2025 Schedule", etc.)
+  const activeTab = document.querySelector("ul.tabs--primary li.active a")?.textContent.trim();
+  if (!activeTab) {
+    console.warn("No active tab detected. Skipping updates.");
+    return;
+  }
+
+  const table = document.querySelector("#release-schedule-table");
+  if (!table) {
+    console.error("Table with ID #release-schedule-table not found.");
+    return;
+  }
+
+  let changesMade = 0;
+
+  // Step 1: Pre-index all matching cells by date BEFORE any updates
+  const dateIndexMap = {};
+  const cells = Array.from(table.querySelectorAll("td.scheduled-date"));
+
+  cells.forEach(cell => {
+    const releaseDateDiv = cell.querySelector(".release-date");
+    if (!releaseDateDiv) return;
+
+    const rawDate = Array.from(releaseDateDiv.childNodes)
+      .filter(node => node.nodeType === Node.TEXT_NODE)
+      .map(node => node.textContent.trim())
+      .join(" ");
+
+    if (!dateIndexMap[rawDate]) {
+      dateIndexMap[rawDate] = [];
+    }
+    dateIndexMap[rawDate].push(cell);
+  });
+
+  // Step 2: Apply updates using pre-indexed cells
+  updates.forEach(update => {
+    const appliesTo = update["apply-to"];
+
+    // Skip update if it doesn't apply to the current tab
+    if (appliesTo !== null && Array.isArray(appliesTo) && !appliesTo.includes(activeTab)) {
+      console.debug(`Skipping update for "${update["target-date"]}" — not applicable to tab "${activeTab}"`);
+      return;
+    }
+
+    const matchingCells = dateIndexMap[update["target-date"]];
+    if (!matchingCells || !matchingCells[update.occurrenceIndex]) {
+      console.warn(`No matching cell found for date "${update["target-date"]}" at index ${update.occurrenceIndex}`);
+      return;
+    }
+
+    const targetCell = matchingCells[update.occurrenceIndex];
+    const releaseDateDiv = targetCell.querySelector(".release-date");
+    const smallTag = targetCell.querySelector("small");
+    const row = targetCell.closest("tr");
+    let modified = false;
+
+    // Insert topText if provided
+    if (update["replacement-topText"]) {
+      const span = document.createElement("span");
+      span.textContent = update["replacement-topText"] + " ";
+      releaseDateDiv.prepend(span);
+
+      // Add highlight class to the <td>
+      targetCell.classList.add("bea-highlight");
+      modified = true;
+    }
+
+    // Replace release-date text if provided
+    if (update["replacement-releaseText"]) {
+      releaseDateDiv.textContent = update["replacement-releaseText"];
+      modified = true;
+    }
+
+    // Replace small text if provided
+    if (update["replacement-smallText"] && smallTag) {
+      const originalDate = update["target-date"];
+      const [month, day] = originalDate.split(" ");
+      const formatted = `(Orig. ${monthMap[month]} ${day})`;
+      smallTag.textContent = isNaN(Date.parse(update["replacement-smallText"]))
+        ? update["replacement-smallText"]
+        : formatted;
+      modified = true;
+    }
+
+    // Apply row-disable class if requested
+    if (update["row-disable"] && row) {
+      row.classList.add("row-disabled");
+      modified = true;
+    }
+
+    if (modified) {
+      console.debug("Updated row:", {
+        targetDate: update["target-date"],
+        occurrenceIndex: update.occurrenceIndex,
+        activeTab,
+        rowClass: row?.className,
+        cellHTML: targetCell.innerHTML
+      });
+      changesMade++;
+    }
+  });
+
+  // Final step: make the table visible
+  table.style.visibility = "visible";
+
+  if (changesMade > 0) {
+    console.info(`${changesMade} row(s) updated and table made visible.`);
+  } else {
+    console.info("No matching rows found for update.");
+  }
+});
+
+ </script>
+</div>
+      
+  </section>
+
+<section id="block-blogarchiveslink" class="block block-block-content block-block-contentc29d3bcc-86d8-466c-9559-0dd7eb54c094 clearfix" data-block-plugin-id="block_content:c29d3bcc-86d8-466c-9559-0dd7eb54c094">
+  
+    
+
+      
+            <div class="field field--name-body field--type-text-with-summary field--label-hidden field--item"><a class="btn btn-primary btn-lg btn-block" href="/news/blog/archive/">BEA Blog Archives</a></div>
+      
+  </section>
+
+
+    </div>
+
+          </aside>
+                  </div>
+  </div>
+    <div class="full-width">
+    <div class="container">
+        <div class="row last-modified">
+            <div class="col-xs-12 col-sm-6">
+                <div class="download-link"><a href="http://get.adobe.com/reader/">Download Acrobat Reader</a></div>
+            </div>
+            <div class="col-xs-12 col-sm-6">
+                <div class="date-info">Page last modified on 8/17/26</div>
+            </div>
+        </div>
+    </div>
+    </div>
+ 
+
+      <footer class="footer container" role="contentinfo">
+      
+    <div class="region region-footer">
+        <section id="block-beagovfooter" data-block-plugin-id="block_content:aa0d67fd-5738-4477-83ce-e17e948518e8" class="block block-block-content block-block-contentaa0d67fd-5738-4477-83ce-e17e948518e8 clearfix">
+  
+    
+
+      
+            <div class="field field--name-body field--type-text-with-summary field--label-hidden field--item"><div class="container">
+    <div class="row">
+        <div class="col-lg-12">
+            <h4>Bureau of Economic Analysis <span> 4600 Silver Hill Road &bull; Suitland, MD 20746 </span></h4>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-sm-4">
+            <ul class="footer-links">
+                <li class="text-large"><a href="/contact-us">Contact Us</a></li>
+                <li class="text-large"><a href="/about/working-at-bea">Working at BEA</a></li>
+                <li class="text-large"><a href="/help/faq">Frequently Asked Questions</a></li>
+                <li class="text-large"><a href="/about/policies-and-information">Our Policies</a></li>
+                <li class="text-large"><a href="/privacy">Privacy</a></li>
+            </ul>
+        </div>
+        <div class="col-sm-4">
+            <ul class="footer-links">
+                <li><a href="/statement-commitment-scientific-integrity-principal-statistical-agencies">Commitment to Scientific Integrity</a></li>
+                <li><a href="/about/policies-and-information/data-dissemination">Data Dissemination Practices</a></li>
+                <li><a href="/open-data">Open Data</a></li>
+                <li><a href="https://www.usa.gov/">USA.gov</a></li>
+                <li><a href="https://business.usa.gov">Business USA</a></li>
+                <li><a href="https://www.commerce.gov/cr/reports-and-resources/no-fear-act">No FEAR Act</a></li>
+                <li><a href="https://www.commerce.gov/opog">FOIA</a></li>
+                <li><a href="https://www.commerce.gov/">U.S. Department of Commerce</a></li>
+                <li><a href="https://apps.bea.gov/status/">Emergency Status </a></li>
+            </ul>
+        </div>
+        <div class="col-sm-4">
+            <ul class="footer-links">
+                <li><a href="/news/blog">The BEA Wire | BEA's Official Blog</a></li>
+                <li><a href="https://apps.bea.gov/rss/rss.xml" title="BEA's RSS Feeds">News Release Feed (RSS)</a></li>
+                <li><a href="/_subscribe/" title="Email Subscription Service">Sign up for Email Notifications</a></li>
+            </ul>
+            <div class="footer-links-toolbar"> <a class="footer-icon-social-twitter" href="https://x.com/bea_news"></a> <a class="footer-icon-social-linkedin" href="https://www.linkedin.com/company/bureau-of-economic-analysis"></a> <a class="footer-icon-social-youtube" href="https://www.youtube.com/channel/UCCP9QD1x_z__duUivA6Yb5w"></a> <a class="footer-icon-social-instagram" href="https://www.instagram.com/usbeagov/"></a><a class="footer-icon-social-facebook" href="https://www.facebook.com/usbeagov"></a> </div>
+        </div>
+    </div>
+</div>
+<style>
+    .noteworthy .pin{
+        background-image: url(https://www.bea.gov/system/files/pushpin-orange.png) !important;
+        background-position: left .4em !important;
+    }
+    .noteworthy .sticky{
+        border-color:#C55420;
+        border-style: solid;
+        border-width: 0px;
+        padding-bottom: 10px !important;
+        border-bottom-width: 1px;
+        margin-bottom: 10px;
+    }
+      .noteworthy-links-toolbar{
+            margin-top: 14px;
+            margin-left: 20px;
+            /*margin-left: 36px;*/
+      }
+    .noteworthy-links-toolbar a{
+        display: inline-block;
+        height: 21px;
+        width: 21px;
+        background-size: 21px auto;
+        background-repeat: no-repeat;
+        background-position: top left;
+        padding: 3px 21px 3px 0px;
+        margin-right: 7px;
+        opacity: 0.75;
+
+    }
+    .noteworthy-links-toolbar a:hover{
+        opacity: 1.0;
+
+    }
+        .noteworthy-links-toolbar a.noteworthy-icon-social-youtube{
+        display: inline-block;
+        width: 30px;
+        background-size: 30px auto;
+        padding: 3px 30px 3px 0px;
+    }
+    
+    
+    
+    .noteworthy-links-toolbar svg.ext{
+        display: none;
+    }
+    
+    .noteworthy-icon-social-twitter{
+        background-image: url("/sites/default/files/logo-x-600-blue-dark.png");
+    }    
+    .noteworthy-icon-social-facebook{
+        background-image: url("/sites/default/files/logo-facebook-600-blue-dark.png");
+    }    
+    .noteworthy-icon-social-instagram{
+        background-image: url("/sites/default/files/logo-instagram-600-blue-dark.png");
+    }    
+    .noteworthy-icon-social-linkedin{
+        background-image: url("/sites/default/files/logo-linkedin-600-blue-dark.png");
+    }    
+    .noteworthy-icon-social-youtube{
+        background-image: url("/sites/default/files/logo-youtube-600-blue-dark.png");
+    }    
+      
+      .noteworthy-links-toolbar.page-top{
+            text-align: center;
+            background-color: rgba(0,0,0,0.15);
+            border-radius: 4px;
+      }
+      
+      
+      .noteworthy-links-toolbar.page-top [class*="noteworthy-icon-social"] a {
+        color: rgba(0,0,0,1) !important;
+
+    } 
+            
+
+      
+    footer ul li[class*="footer-icon-social"] a {
+        color: rgba(255,255,255,1) !important;
+        opacity: 0.75;
+        background-repeat: no-repeat;
+        background-position: left;
+        padding: 2px 0px 3px 30px;
+    } 
+    footer ul.contextual-links li a {
+        color: rgba(0,0,0,1) !important;
+    } 
+    footer ul li[class*="footer-icon-social"] a:hover {
+        opacity: 1.00;
+    }     
+    .footer-links  .footer-icon-social{
+        vertical-align: middle;
+    }
+    
+    .footer-links-toolbar a{
+        display: inline-block;
+        height: 21px;
+        width: 21px;
+        background-size: 21px auto;
+        background-repeat: no-repeat;
+        background-position: top left;
+        padding: 3px 21px 3px 0px;
+        margin-right: 7px;
+        opacity: 0.75;
+
+    }
+    .footer-links-toolbar a:hover{
+        opacity: 1.0;
+
+    }
+        .footer-links-toolbar a.footer-icon-social-youtube{
+        display: inline-block;
+        width: 30px;
+        background-size: 30px auto;
+        padding: 3px 30px 3px 0px;
+    }
+    
+    
+    
+    .footer-links-toolbar svg.ext{
+        display: none;
+    }
+    
+    .footer-icon-social-twitter{
+        background-image: url("/sites/default/files/logo-x-600-white.png");
+    }    
+    .footer-icon-social-facebook{
+        background-image: url("/sites/default/files/logo-facebook-600-white.png");
+    }    
+    .footer-icon-social-instagram{
+        background-image: url("/sites/default/files/logo-instagram-600-white.png");
+    }    
+    .footer-icon-social-linkedin{
+        background-image: url("/sites/default/files/logo-linkedin-600-white.png");
+    }    
+    .footer-icon-social-youtube{
+        background-image: url("/sites/default/files/logo-youtube-600-white.png");
+    }   
+      
+      .footer-links-toolbar.page-top{
+            text-align: center;
+            background-color: rgba(0,0,0,0.15);
+            border-radius: 4px;
+      }
+      
+      
+      .footer-links-toolbar.page-top [class*="footer-icon-social"] a {
+        color: rgba(0,0,0,1) !important;
+
+    } 
+    [class*="-links-toolbar"] svg{
+        display: none;
+    }
+</style>
+
+</div>
+      
+  </section>
+
+
+    </div>
+
+    </footer>
+  
+  </div>
+
+    
+    <script type="application/json" data-drupal-selector="drupal-settings-json">{"path":{"baseUrl":"\/","pathPrefix":"","currentPath":"news\/blog","currentPathIsAdmin":false,"isFront":false,"currentLanguage":"en"},"pluralDelimiter":"\u0003","suppressDeprecationErrors":true,"data":{"extlink":{"extTarget":false,"extTargetAppendNewWindowDisplay":true,"extTargetAppendNewWindowLabel":"(opens in a new window)","extTargetNoOverride":false,"extNofollow":true,"extTitleNoOverride":false,"extNoreferrer":true,"extFollowNoOverride":false,"extClass":"ext","extLabel":"(link is external)","extImgClass":false,"extSubdomains":true,"extExclude":"\\.gov","extInclude":"","extCssExclude":"","extCssInclude":"","extCssExplicit":"","extAlert":true,"extAlertText":"This page provides links to non-BEA web sites that provide additional information about this topic. You will leave the BEA.gov domain, and BEA cannot attest to the accuracy of information on that non-BEA page. Providing links to a non-BEA Web site is not an endorsement of the other site or the information it contains by BEA or any of its employees. Also, be aware that the privacy protection provided on the BEA.gov domain may not be available at the external link. ","extHideIcons":false,"mailtoClass":"0","telClass":"0","mailtoLabel":"(link sends email)","telLabel":"(link is a phone number)","extUseFontAwesome":false,"extIconPlacement":"after","extPreventOrphan":false,"extFaLinkClasses":"fa fa-external-link","extFaMailtoClasses":"fa fa-envelope-o","extAdditionalLinkClasses":"","extAdditionalMailtoClasses":"","extAdditionalTelClasses":"","extFaTelClasses":"fa fa-phone","allowedDomains":[],"extExcludeNoreferrer":""}},"bootstrap":{"forms_has_error_value_toggle":1,"modal_animation":1,"modal_backdrop":"true","modal_focus_input":1,"modal_keyboard":1,"modal_select_text":1,"modal_show":1,"modal_size":"","popover_enabled":1,"popover_animation":1,"popover_auto_close":1,"popover_container":"body","popover_content":"","popover_delay":"0","popover_html":1,"popover_placement":"top","popover_selector":"","popover_title":"","popover_trigger":"click","tooltip_enabled":1,"tooltip_animation":1,"tooltip_container":"body","tooltip_delay":"0","tooltip_html":0,"tooltip_placement":"auto left","tooltip_selector":"","tooltip_trigger":"hover"},"ajaxTrustedUrl":{"\/news\/blog":true},"ajax":[],"user":{"uid":0,"permissionsHash":"9e503acfd754e60f47cd824b29d8dc4a12892646052899603a74371ac447af64"}}</script>
+<script src="/sites/default/files/js/js_iKIz59DWbMqD1uZmgo29841BpFyVe-OWUI79tYJ8BHU.js?scope=footer&amp;delta=0&amp;language=en&amp;theme=beagov_theme&amp;include=eJx9jUEOwyAMBD9E4EnIKC5BdbCFt7T9fXOoKk69ze5Iu4Wp6sw4-OS0E2gDFWEPZRVVtJBsjre0XkNRhWOQpR9lG5xbb1ikqenksTRQFTQL_MI1dE_7eBhJ_MZw0w56sut1uXD0Wf-56Ec7P2aeT9k"></script>
+
+
+    <script src="https://dap.digitalgov.gov/Universal-Federated-Analytics-Min.js?agency=DOC&subagency=BEA"
+      id="_fed_an_ua_tag" async></script>
+  </body>
+</html>

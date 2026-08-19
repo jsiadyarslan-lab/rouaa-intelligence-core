@@ -1,0 +1,1358 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="initial-scale=1">
+    <title>News — TreasuryDirect</title>
+    <link rel="stylesheet" type="text/css" href="/styles/style.css">
+    <link rel="icon" href="/images/favicon.svg" type="image/svg+xml">
+    
+    <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+    
+    
+    <style>
+      .scrollButton:hover{
+        background-color: #0379ca;
+        opacity: 100% !important;
+      }
+    </style>
+    
+  </head>
+  <body>
+
+    
+
+    <div class="container">
+      <a class="sr-only sr-only-focusable" href="#main">Skip Navigation</a>
+    </div>
+
+    
+
+    
+  
+<div class="text-white bg-usa-blue-dark" role="banner">
+
+  <div class="container-xxl">
+    <div class="row">
+    
+      <div class="col-md py-1 media small">
+        <img class="align-self-center mr-2" src="/images/icons/us_flag_small.png" alt="U.S. flag">
+        <div class="media-body">
+          <span class="mr-2">An official website of the United States government</span>
+          <a class="d-block d-md-inline-block text-td-blue-light arrow-collapse" role="button" href="#" data-toggle="collapse" data-target="#official-site-collapse" aria-expanded="false" aria-controls="official-site-collapse">
+            Here’s how you know
+            <svg class="bi-chevron-down" width="1.1em" height="1.1em" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512"><path fill="currentColor" d="M143 352.3L7 216.3c-9.4-9.4-9.4-24.6 0-33.9l22.6-22.6c9.4-9.4 24.6-9.4 33.9 0l96.4 96.4 96.4-96.4c9.4-9.4 24.6-9.4 33.9 0l22.6 22.6c9.4 9.4 9.4 24.6 0 33.9l-136 136c-9.2 9.4-24.4 9.4-33.8 0z"/></svg>
+          </a>
+        </div>
+      </div>
+      
+      <div class="col-md py-1 border-top border-md-0 border-usa-gray-light small text-md-right">
+        <a class="text-white" href="https://www.treasury.gov" target="_blank" rel="nofollow noopener noreferrer">U.S. Department of the Treasury</a>
+      </div>
+      
+    </div>
+  </div>
+  
+  <div id="official-site-collapse" class="collapse container-xxl border-top border-md-0 border-usa-gray-light">
+    <div class="row">
+    
+      <div class="p-3 col-md-6">
+        <div class="media">
+          <img class="w-2-5em h-2-5em mr-2" src="/images/icons/icon-dot-gov.svg" alt="">
+          <div class="media-body">
+            <strong>Official websites use .gov</strong><br>
+            A <strong>.gov</strong> website belongs to an official government organization in the United States.
+          </div>
+        </div>
+      </div>
+      
+      <div class="p-3 col-md-6">
+        <div class="media">
+          <img class="w-2-5em h-2-5em mr-2" src="/images/icons/icon-https.svg" alt="">
+          <div class="media-body">
+            <strong>Secure .gov websites use HTTPS</strong><br>
+            A <strong>lock</strong> (<span class="icon-lock-white"></span>) or <strong>https://</strong> means you’ve safely connected to the .gov website. Share sensitive information only on official, secure websites.
+          </div>
+        </div>
+      </div>
+      
+    </div>
+  </div>
+  
+</div>
+
+  
+<header id="header-site" class="bg-white">
+
+  <div class="container-xxl">
+    <nav class="navbar navbar-expand-lg navbar-td p-0">
+      <a class="navbar-brand d-lg-none py-3" href="/"><img src="/images/logo-treasurydirect-color.svg" alt="TreasuryDirect Home"></a>
+
+      <button class="navbar-toggler btn btn-outline-td-blue nav-text-small shadow-none" data-toggle="collapse" data-target="#site-nav-collapse" aria-controls="site-nav-collapse" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="align-middle">Menu</span></button>
+
+      <div class="collapse navbar-collapse flex-wrap navbars" id="site-nav-collapse">
+
+        <a class="navbar-brand d-none d-lg-block py-lg-4 order-lg-0" href="/"><img src="/images/logo-treasurydirect-color.svg" alt="TreasuryDirect Home"></a>
+
+        <div class="navbar-nav ml-lg-auto align-items-center order-lg-2">
+          <a class="btn btn-sm btn-td-orange text-white shadow-none" href="/log-in/">Log In</a>
+
+          <form id="search-form-page-header" action="https://search.usa.gov/search" accept-charset="UTF-8" method="get" class="ml-lg-3 my-0 py-2">
+            <div class="input-group input-group-sm">
+              <input type="text" name="query" id="query-page-header" autocomplete="off" class="form-control" placeholder="Search…" aria-label="Search TreasuryDirect" aria-describedby="button-site-search-header-submit">
+              <input name="utf8" type="hidden" value="&#x2713;" aria-label="Search">
+              <input type="hidden" name="affiliate" id="affiliate" value="treasurydirect" aria-label="Search">
+              <div class="input-group-append">
+                <button class="btn btn-td-green font-weight-bold shadow-none" type="submit" id="button-site-search-header-submit" name="commit" data-disable-with="Search" aria-label="Submit">
+                  <span class="icon-search-solid-white"></span>
+                </button>
+              </div>
+            </div>
+          </form>
+        </div>
+
+        <ul class="navbar-nav nav-text-large order-lg-3 pb-lg-2">
+          <li class="nav-item"><a class="nav-link" href="/"><span class="icon-home-solid-blue"></span></a></li>
+
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="site-nav-savings-bond-link" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Savings Bonds</a>
+
+            <div class="dropdown-menu" aria-labelledby="site-nav-savings-bond-link">
+              <div class="dropdown-menu-wrapper">
+                <a class="dropdown-item" href="/savings-bonds/">About U.S. Savings Bonds</a>
+                <a class="dropdown-item" href="/savings-bonds/buy-a-bond/">Buy a Bond</a>
+                <a class="dropdown-item" href="/savings-bonds/gift-a-bond/">Gift a Savings Bond</a>
+                <a class="dropdown-item" href="/savings-bonds/cashing-a-bond/">Cash In a Bond</a>
+                <a class="dropdown-item" href="/savings-bonds/savings-bond-calculator/">Savings Bond Value Calculator</a>
+                <a class="dropdown-item" href="/savings-bonds/manage-bonds/">Manage Bonds</a>
+                <a class="dropdown-item" href="/savings-bonds/forms/">Forms for Savings Bonds</a>
+                <a class="dropdown-item" href="/savings-bonds/treasury-hunt/">Treasury Hunt</a>
+              </div>
+            </div>
+          </li>
+
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="site-nav-us-marketable-securities-link" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Treasury Marketable Securities</a>
+
+            <div class="dropdown-menu" aria-labelledby="site-nav-us-marketable-securities-link">
+              <div class="dropdown-menu-wrapper">
+                <a class="dropdown-item" href="/marketable-securities/">About Treasury Marketable Securities</a>
+                <a class="dropdown-item" href="/marketable-securities/treasury-bills/">Treasury Bills</a>
+                <a class="dropdown-item" href="/marketable-securities/treasury-bonds/">Treasury Bonds</a>
+                <a class="dropdown-item" href="/marketable-securities/treasury-notes/">Treasury Notes</a>
+                <a class="dropdown-item" href="/marketable-securities/tips/">TIPS</a>
+                <a class="dropdown-item" href="/marketable-securities/floating-rate-notes/">Floating Rate Notes (FRNs)</a>
+                <a class="dropdown-item" href="/marketable-securities/strips/">STRIPS</a>
+                <a class="dropdown-item" href="/marketable-securities/forms/">Forms for Treasury Marketable Securities</a>
+                <a class="dropdown-item" href="/savings-bonds/treasury-hunt/">Treasury Hunt</a>
+              </div>
+            </div>
+          </li>
+
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="site-nav-auctions-link" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Auctions</a>
+
+            <div class="dropdown-menu" aria-labelledby="site-nav-auctions-link">
+              <div class="dropdown-menu-wrapper">
+                <a class="dropdown-item" href="/auctions/">About Auctions</a>
+                <a class="dropdown-item" href="/auctions/how-auctions-work/">How Auctions Work (Participating)</a>
+                <a class="dropdown-item" href="/auctions/when-auctions-happen/">When Auctions Happen (Schedules)</a>
+                <a class="dropdown-item" href="/auctions/reopenings/">Reopenings</a>
+                <a class="dropdown-item" href="/auctions/announcements-data-results/">Announcements, Data & Results</a>
+                <a class="dropdown-item" href="/auctions/announcements-data-results/buy-backs/">Buyback Announcements and Results</a>
+                <a class="dropdown-item" href="/auctions/upcoming/">Upcoming Auctions</a>
+                <a class="dropdown-item" href="/auctions/results/">Recent Auction Results</a>
+                <a class="dropdown-item" href="/auctions/auction-query/">Auction Search (Query)</a>
+                <a class="dropdown-item" href="/auctions/announcements-data-results/announcement-results-press-releases/treasury-marketable/">Auction Press Releases</a>
+                <a class="dropdown-item" href="/laws-and-regulations/auction-regulations-uoc/">Auction Regulations (UOC)</a>
+              </div>
+            </div>
+          </li>
+
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="site-nav-laws-link" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Laws and Regulations</a>
+
+            <div class="dropdown-menu" aria-labelledby="site-nav-laws-link">
+              <div class="dropdown-menu-wrapper">
+                <a class="dropdown-item" href="/laws-and-regulations/">About Laws and Regulations</a>
+                <a class="dropdown-item" href="/laws-and-regulations/auction-regulations-uoc/">Auction Regulations (UOC)</a>
+                <a class="dropdown-item" href="/laws-and-regulations/collateral-programs/">Collateral Programs</a>
+                <a class="dropdown-item" href="/laws-and-regulations/trades/">Commercial Book-Entry Regulations (TRADES)</a>
+                <a class="dropdown-item" href="/laws-and-regulations/fraud/">Frauds, Phonies, & Scams</a>
+                <a class="dropdown-item" href="/laws-and-regulations/gsa/">Government Securities Act (GSA) Regulations</a>
+                <a class="dropdown-item" href="/laws-and-regulations/gsa/lpr-reports/">Large Position Reporting (LPR)</a>
+                <a class="dropdown-item" href="/laws-and-regulations/buyback-rules/">Redemption (Buyback) Operations Regulations</a>
+                <a class="dropdown-item" href="/laws-and-regulations/marketable-securities-laws-and-regulations/">Treasury Marketable Securities Regulations</a>
+                <a class="dropdown-item" href="/laws-and-regulations/savings-bond-regulations/">Savings Bond Regulations</a>
+                <a class="dropdown-item" href="/laws-and-regulations/treasury-direct-regulations/">TreasuryDirect Regulations</a>
+              </div>
+            </div>
+          </li>
+
+          <li class="nav-item"><a class="nav-link" href="/research-center/">Research Center</a></li>
+
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="site-nav-government-users-link" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Government Users</a>
+
+            <div class="dropdown-menu dropdown-menu-right dropdown-menu-xl-left" aria-labelledby="site-nav-government-users-link">
+              <div class="dropdown-menu-wrapper">
+                <a class="dropdown-item" href="/government/">For Government Users</a>
+                <a class="dropdown-item" href="/government/federal-investments-program/">Federal Investments Program</a>
+                <a class="dropdown-item" href="/government/slgs/">SLGS &amp; SLGSafe</a>
+                <a class="dropdown-item" href="/government/security-liquidation-proceeds/">Security Liquidation &amp; Proceeds</a>
+                <a class="dropdown-item" href="/government/federal-borrowings-program/">Federal Borrowings Program</a>
+                <a class="dropdown-item" href="/government/treasury-managed-accounts/">Treasury Managed Accounts</a>
+                <a class="dropdown-item" href="/government/funds-management-program-reports/">Funds Management Program Reports</a>
+                <a class="dropdown-item" href="/government/historical-debt-outstanding/">History of the Debt</a>
+                <a class="dropdown-item" href="/government/public-debt-reports/">Public Debt Reports </a>
+                <a class="dropdown-item" href="/government/interest-rates-and-prices/">Interest Rates and Prices </a>
+              </div>
+            </div>
+          </li>
+        </ul>
+
+        <ul class="navbar-nav nav-text-small order-lg-1">
+          <li class="nav-item"><a class="nav-link" href="/mailing-lists/">Mailing Lists</a></li>
+          <li class="nav-item"><a class="nav-link" href="/news/">News</a></li>
+          <li class="nav-item"><a class="nav-link" href="/about/">About</a></li>
+          <li class="nav-item"><a class="nav-link" href="/forms/">Forms</a></li>
+          <li class="nav-item"><a class="nav-link" href="/help-center/">Help Center</a></li>
+          <li class="nav-item"><a class="nav-link" href="/contact-us/">Contact Us</a></li>
+        </ul>
+
+      </div>
+    </nav>
+  </div>
+
+</header>
+
+
+
+    <main id="main">
+
+      
+
+      
+  
+
+    
+<section class="jumbo-stage">
+  <div class="background text-center" style="background-image: url('/images/content/stage-news.jpg');">
+    <div class="container-xxl">
+      <img src="/images/content-icons/icon-circle-news.svg" alt="">
+      <h1>News</h1>
+    </div>
+  </div>
+  <div class="container-xxl">
+    <div class="content">
+      <div class="content-inner">
+        
+
+        <p>This section contains official press releases for  U.S. Savings Bonds, marketable and non-marketable securities sold to the general public, financial professionals, and state and local governments, with links to archives for releases back to 1996.</p>
+        <p>We are no longer posting disaster press releases.  However, you can find disaster declarations at <a href="https://fema.gov" target="_blank" rel="noopener noreferrer">fema.gov</a> and you can read about what Fiscal Service does to help people in disaster areas at <a href="/savings-bonds/cashing-a-bond/affected-by-a-disaster/">https://treasurydirect.gov/savings-bonds/cashing-a-bond/affected-by-a-disaster/</a></p>
+
+    
+      </div>
+    </div>
+  </div>
+</section>
+
+
+    
+<section>
+  <div class="section-container container-xxl">
+    
+        
+<div class="body-copy">
+  
+        
+            <h2 class="h1">2026</h2>
+             <h3 class="h2">August 2026</h3>
+              <ul>
+               <li><a href="/news/2026/release-08-06-strips/">The Fiscal Service Announces Activity for Securities in the STRIPS Program for July 2026</a></li>
+               </ul>
+            <h3 class="h2">July 2026</h3>
+            <ul>
+                <li><a href="/news/2026/release-07-07-strips/">The Fiscal Service Announces Activity for Securities in the STRIPS Program for June 2026</a></li>
+            </ul>
+              <h3 class="h2">June 2026</h3>
+              <ul>
+                <li><a href="/news/2026/release-06-04-strips/">The Fiscal Service Announces Activity for Securities in the STRIPS Program for May 2026</a></li>
+              </ul>
+            <h3 class="h2">May 2026</h3>
+            <ul>
+               <li><a href="/news/2026/release-05-06-strips/">The Fiscal Service Announces Activity for Securities in the STRIPS Program for April 2026</a></li>
+               <li><a href="/news/2026/release-05-01-rates/">The Bureau of the Fiscal Service Announces New Savings Bonds Rates, Series I to Earn 4.26%, Series EE to Earn 2.40%</a></li>
+            </ul>
+            <h3 class="h2">April 2026</h3>
+            <ul>
+                <li><a href="/news/2026/release-04-06-strips/">The Fiscal Service Announces Activity for Securities in the STRIPS Program for March 2026</a></li>
+            </ul>
+            <h3 class="h2">March 2026</h3>
+            <ul>
+                <li><a href="/news/2026/release-03-05-strips/">The Fiscal Service Announces Activity for Securities in the STRIPS Program for February 2026</a></li>
+            </ul>
+           <h3 class="h2">February 2026</h3>
+            <ul>
+                <li><a href="/news/2026/release-02-05-strips/">The Fiscal Service Announces Activity for Securities in the STRIPS Program for January 2026</a></li>
+            </ul>
+            <h3 class="h2">January 2026</h3>
+            <ul>
+                <li><a href="/news/2026/release-01-07-strips/">The Fiscal Service Announces Activity for Securities in the STRIPS Program for December 2025</a></li>
+            </ul>
+            <h2 class="h1">2025</h2>
+            <h3 class="h2">December 2025</h3>
+            <ul>
+            <li><a href="/news/2025/release-12-04-strips/">The Fiscal Service Announces Activity for Securities in the STRIPS Program for November 2025</a></li>
+            </ul>
+            <h3 class="h2">November 2025</h3>
+            <ul>
+            <li><a href="/news/2025/release-11-06-strips/">The Fiscal Service Announces Activity for
+              Securities in the STRIPS Program for October 2025</a></li>
+            <li><a href="/news/2025/release-11-01-rates/">Fiscal Service Announces New Savings Bonds Rates, Series I to Earn 4.03%, Series EE to Earn 2.50% </a></li>
+            </ul>
+            <h3 class="h2">October 2025</h3>
+            <ul>
+                <li><a href="/news/2025/release-10-06-strips/">The Fiscal Service Announces Activity for Securities in the STRIPS Program for September 2025</a></li>
+            </ul>
+            <h3 class="h2">September 2025</h3>
+            <ul>
+                <li><a href="/news/2025/release-09-05-strips/">The Fiscal Service Announces Activity for
+                        Securities in the STRIPS Program for August 2025</a></li>
+            </ul>
+            <h3 class="h2">August 2025</h3>
+            <ul>
+            <li><a href="/news/2025/release-08-06-strips/">The Fiscal Service Announces Activity for
+                    Securities in the STRIPS Program for July 2025</a></li>
+            </ul>
+            <h3 class="h2">July 2025</h3>
+            <ul>
+                <li><a href="/news/2025/release-07-25-disaster/">Fiscal Service Aids Savings Bonds Owners in New Mexico Affected by Severe Storms, Flooding, and Landslides; One-year minimum holding period waived</li>
+                <li><a href="/news/2025/release-07-24-disaster/">Fiscal Service Aids Savings Bonds Owners in West Virginia Affected by Severe Storms, Straight-line Winds, Flooding, Landslides, and Mudslides; One-year minimum holding period waived</li>
+                <li><a href="/news/2025/release-07-07-strips/">The Fiscal Service Announces Activity for
+                 Securities in the STRIPS Program for June 2025</a></li>
+                <li><a href="/news/2025/release-07-07-disaster/">Fiscal Service Aids Savings Bonds Owners in Texas Affected  by Severe Storms, Straight-Line Winds, and Flooding; One-year minimum holding period waived</a></li>
+            </ul>
+            <h3 class="h2">June 2025</h3>
+            <ul>
+                <li><a href="/news/2025/release-06-24-disaster/">Fiscal Service Aids Savings Bonds Owners in Tennessee Affected by Severe Storms, Straight-Line Winds, Tornadoes, and Flooding; One-year minimum holding period waived</a></li>
+                <li><a href="/news/2025/release-06-12-disaster/">Fiscal Service Aids Savings Bonds Owners in Missouri Affected by Severe Storms, Straight-Line Winds, Tornadoes, and Flooding; One-year minimum holding period waived</a></li>
+                <li><a href="/news/2025/release-06-05-strips/">The Fiscal Service Announces Activity for Securities in the STRIPS Program for May 2025</a></li>
+            </ul>
+             <h3 class="h2">May 2025</h3>
+              <ul>
+                  <li><a href="/news/2025/release-05-30c-disaster/">Fiscal Service Aids Savings Bonds Owners in Arkansas Affected by Severe Storms, Tornadoes, and Flooding; One-year minimum holding period waived</a></li>
+                  <li><a href="/news/2025/release-05-30b-disaster/">Fiscal Service Aids Savings Bonds Owners in Oklahoma Affected by Wildfires and Straight-Line Winds; One-year minimum holding period waived</a></li>
+                  <li><a href="/news/2025/release-05-30a-disaster/">Fiscal Service Aids Savings Bonds Owners in Missouri Affected by Severe Storms, Straight-Line Winds, Tornadoes, and Wildfires; One-year minimum holding period waived</a></li>
+                  <li><a href="/news/2025/release-05-29b-disaster/">Fiscal Service Aids Savings Bonds Owners in Mississippi Affected by Severe Storms, Straight-Line Winds, Tornadoes and Flooding; One-year minimum holding period waived</a></li>
+                  <li><a href="/news/2025/release-05-29a-disaster/">Fiscal Service Aids Savings Bonds Owners in Texas
+                          Affected by Severe Storms and Flooding; One-year minimum holding period waived</a></li>
+                  <li><a href="/news/2025/release-05-27-disaster/">Fiscal Service Aids Savings Bonds Owners in
+                          Kentucky Affected by Severe Storms, Straight-Line Winds and Tornadoes; One-year minimum holding period waived</a></li>
+                  <li><a href="/news/2025/release-04-28-disaster/">Fiscal Service Aids Savings Bonds Owners in Kentucky Affected by Severe Storms, Straight-Line Winds, Tornadoes, Flooding, Landslides, and Mudslides; One-year minimum holding period waived</a></li>
+                  <li><a href="/news/2025/release-05-15-disaster/">Fiscal Service Aids Savings Bonds Owners in Arkansas Affected by Severe Storms and Tornadoes; One-year minimum holding period waived </a></li>
+                  <li><a href="/news/2025/release-05-06-strips/">The Fiscal Service Announces Activity for Securities in the STRIPS Program for April 2025</a></li>
+                 <li><a href="/news/2025/release-05-01-rates/">Fiscal Service Announces New Savings Bonds Rates, Series I to Earn 3.98%, Series EE to Earn 2.70% </a></li>
+              </ul>
+            <h3 class="h2">April 2025</h3>
+            <ul>
+                <li><a href="/news/2025/release-04-04-strips/">The Fiscal Service Announces Activity for Securities in the STRIPS Program for March 2025</a></li>
+            </ul>
+            <h3 class="h2">March 2025</h3>
+            <ul>
+                <li><a href="/news/2025/release-03-06-strips/">The Fiscal Service Announces Activity for Securities in the STRIPS Program for February 2025</a></li>
+            </ul>
+            <h3 class="h2">February  2025</h3>
+            <ul>
+                <li><a href="/news/2025/release-02-27-disaster/">Fiscal Service Aids Savings Bonds Owners in West Virginia Affected by Severe Storm, Straight-line Winds, Flooding, Landslides, and Mudslides; One-year minimum holding period waived </a></li>
+                <li><a href="/news/2025/release-02-26-disaster/">Fiscal Service Aids Savings Bonds Owners in Kentucky Affected by Severe Storms, Straight-line Winds, Flooding, Landslides, and Mudslides; One-year minimum holding period waived </a></li>
+                <li><a href="/news/2025/release-02-06-strips/">The Fiscal Service Announces Activity for Securities in the STRIPS Program for January 2025</a></li>
+            </ul>
+            <h3 class="h2">January  2025</h3>
+            <ul>
+                <li><a href="/news/2025/release-01-10-disaster/">Fiscal Service Aids Savings Bonds Owners in California Affected by Wildfires and Straight-line Winds; One-year minimum holding period waived</a></li>
+                <li><a href="/news/2025/release-01-07-strips/">The Fiscal Service Announces Activity for Securities in the STRIPS Program for December 2024</a></li>
+            </ul>
+            <h2 class="h1">2024</h2>
+            <h3 class="h2">December  2024</h3>
+            <ul>
+                <li><a href="/news/2024/release-12-12-disaster/">Fiscal Service Aids Savings Bonds Owners in West Virginia Affected by Tropical Storm Helene; One-year minimum holding period waived</a></li>
+                <li><a href="/news/2024/release-12-05-strips/">The Fiscal Service Announces Activity for Securities in the STRIPS Program for November 2024</a></li>
+            </ul>
+            <h3 class="h2">November  2024</h3>
+            <ul>
+                <li><a href="/news/2024/release-11-15-disaster/">Fiscal Service Aids Savings Bonds Owners of the Crow Tribe of Montana Affected by Severe Storm and Straight-line Winds; One-year minimum holding period waived</a></li>
+                <li><a href="/news/2024/release-11-08-disaster/">Fiscal Service Aids Savings Bonds Owners of the Seminole Tribe in Florida Affected by Hurricane Milton; One-year minimum holding period waived</a></li>
+                <li><a href="/news/2024/release-11-06-disasterb/">Fiscal Service Aids Savings Bonds Owners in New Mexico Affected by Severe Storm and Flooding; One-year minimum holding period waived </a></li>
+                <li><a href="/news/2024/release-11-06-disaster/">Fiscal Service Aids Savings Bonds Owners in the Cheyenne River Sioux Tribe Affected by Severe Storm, Straight-line Winds, and Flooding; One-year minimum holding period waived </a></li>
+                <li><a href="/news/2024/release-11-06-strips/">The Fiscal Service Announces Activity for Securities in the STRIPS Program for October 2024</a></li>
+                <li><a href="/news/2024/release-11-01-rates/">Fiscal Service Announces New Savings Bonds Rates, Series I to Earn 3.11%, Series EE to Earn 2.60%</a></li>
+            </ul>
+            <h3 class="h2">October  2024</h3>
+            <ul>
+                <li><a href="/news/2024/release-10-30-disaster/">Fiscal Service Aids Savings Bonds Owners in Arizona Affected by Havasupai Tribe Flooding; One-year minimum holding period waived</a></li>
+                <li><a href="/news/2024/release-10-18-disaster/">Fiscal Service Aids Savings Bonds Owners in Alaska Affected by Flooding; One-year minimum holding period waived</a></li>
+                <li><a href="/news/2024/release-10-17-disaster/">Fiscal Service Aids Savings Bonds Owners in Florida Affected by Hurricane Milton; One-year minimum holding period waived</a></li>
+                <li><a href="/news/2024/release-10-09-disaster/">Fiscal Service Aids Savings Bonds Owners in San Carlos Affected by San Carlos Apache Tribe Watch Fire; One-year minimum holding period waived</a></li>
+                <li><a href="/news/2024/release-10-07a-disaster/">Fiscal Service Aids Savings Bonds Owners in Virginia Affected by Tropical Storm Helene; One-year minimum holding period waived</a></li>
+                <li><a href="/news/2024/release-10-07b-disaster/">Fiscal Service Aids Savings Bonds Owners in Tennessee Affected by Tropical Storm Helene; One-year minimum holding period waived </a></li>
+                <li><a href="/news/2024/release-10-04-strips/">Fiscal Service Announces Activity for Securities in the STRIPS Program for September 2024</a></li>
+                <li><a href="/news/2024/release-10-03d-disaster/">Fiscal Service Aids Savings Bonds Owners in Georgia Affected by Hurricane Helene; One-year minimum holding period waived</a></li>
+                <li><a href="/news/2024/release-10-03b-disaster/">Fiscal Service Aids Savings Bonds Owners in Florida Affected by Hurricane Helene; One-year minimum holding period waived</a></li>
+                <li><a href="/news/2024/release-10-03c-disaster/">Fiscal Service Aids Savings Bonds Owners in South Carolina Affected by Hurricane Helene; One-year minimum holding period waived</a></li>
+                <li><a href="/news/2024/release-10-03a-disaster/">Fiscal Service Aids Savings Bonds Owners in North Carolina Affected by Tropical Storm Helene; One-year minimum holding period waived</a></li>
+            </ul>
+            <h3 class="h2">September  2024</h3>
+            <ul>
+                <li><a href="/news/2024/release-09-27-disaster/">Fiscal Service Aids Savings Bonds Owners in Vermont Affected by Severe Storm, Flooding, Landslides and Mudslides; One-year minimum holding period waived</a></li>
+                <li><a href="/news/2024/release-09-26-disaster/">Fiscal Service Aids Savings Bonds Owners in Yakama Reservation Affected by Confederated Tribes and Bands of the Yakama Nation Wildfires; One-year minimum holding period waived </a></li>
+                <li><a href="/news/2024/release-09-28-disaster/">Fiscal Service Aids Savings Bonds Owners in Georgia Affected by Tropical Storm Debby; One-year minimum holding period waived</a></li>
+                <li><a href="/news/2024/release-09-25-disasterb/">Fiscal Service Aids Savings Bonds Owners in Connecticut Affected by Severe Storm, Flooding, Landslides and Mudslides; One-year minimum holding period waived</a></li>
+                <li><a href="/news/2024/release-09-25-disastera/">Fiscal Service Aids Savings Bonds Owners in Illinois Affected by Severe Storms, Tornadoes, Straight-line Winds, and Flooding; One-year minimum holding period waived</a></li>
+                <li><a href="/news/2024/release-09-18-disaster/">Fiscal Service Aids Savings Bonds Owners in Louisiana Affected by Hurricane Francine; One-year minimum holding period waived</a></li>
+                <li><a href="/news/2024/release-09-16-disaster/">Fiscal Service Aids Savings Bonds Owners in Pennsylvania Affected by Tropical Storm Debby; One-year minimum holding period waived </a></li>
+                <li><a href="/news/2024/release-09-06-strips/">Fiscal Service Announces Activity for Securities in the STRIPS Program for August  2024</a></li>
+            </ul>
+            <h3 class="h2">August  2024</h3>
+            <ul>
+                <li><a href="/news/2024/release-08-23-disaster/">Fiscal Service Aids Savings Bonds Owners in Vermont Affected by Severe Storm, Flooding, Landslides and Mudslides; One-year minimum holding period waived</a></li>
+                <li><a href="/news/2024/release-08-21-disaster/">Fiscal Service Aids Savings Bonds Owners in South Dakota Affected by Severe Storm, Straight-line Winds, and Flooding; One-year minimum holding period waived</a></li>
+                <li><a href="/news/2024/release-08-15-disaster/">Fiscal Service Aids Savings Bonds Owners in Florida Affected by Hurricane Debby; One-year minimum holding period waived</a></li>
+                <li><a href="/news/2024/release-08-05-strips/">Fiscal Service Announces Activity for Securities in the STRIPS Program for July 2024</a></li>
+                <li><a href="/news/2024/release-08-02-disaster/">Fiscal Service Aids Savings Bonds Owners in Minnesota Affected by Severe Storms and Flooding; One-year minimum holding period waived</a></li>
+            </ul>
+            <h3 class="h2">July  2024</h3>
+            <ul>
+                <li><a href="/news/2024/release-07-25-disaster-b/">Fiscal Service Aids Savings Bonds Owners in  Missouri Affected by Severe Storms, Straight-line Winds, Tornadoes, and Flooding; One-year minimum holding period waived</a></li>
+                <li><a href="/news/2024/release-07-25-disaster/">Fiscal Service Aids Savings Bonds Owners in Kentucky Affected by Severe Storms, Straight-line Winds, Tornadoes, Landslides and Mudslides; One-year minimum holding period waived</a></li>
+                <li><a href="/news/2024/release-07-17-disaster/">Fiscal Service Aids Savings Bonds Owners in Texas Affected by Hurricane Beryl; One-year minimum holding period waived</a></li>
+                <li><a href="/news/2024/release-07-10-disaster/">Fiscal Service Aids Savings Bonds Owners in West Virginia Affected by Severe Storms, Flooding, Landslides and Mudslides; One-year minimum holding period waived</a></li>
+                <li><a href="/news/2024/release-07-05-strips/">Fiscal Service Announces Activity for Securities in the STRIPS Program for June 2024</a></li>
+            </ul>
+            <h3 class="h2">June 2024</h3>
+            <ul>
+                <li><a href="/news/2024/release-06-27-disaster/">Fiscal Service Aids Savings Bonds Owners in Iowa Affected by Severe Storms, Flooding, Straight-line Winds, and Tornadoes; One-year minimum holding period waived</a></li>
+                <li><a href="/news/2024/release-06-21-disaster-a/">Fiscal Service Aids Savings Bonds Owners in Oklahoma Affected by Severe Storms, Straight-line Winds, Tornadoes, and Flooding; One-year minimum holding period waived</a></li>
+                <li><a href="/news/2024/release-06-21-disaster-b/">Fiscal Service Aids Savings Bonds Owners in Florida Affected by Severe Storms, Straight-line Winds, and Flooding; One-year minimum holding period waived</a></li>
+                <li><a href="/news/2024/release-06-21-disaster-c/">Fiscal Service Aids Savings Bonds Owners in New Mexico Affected by Fire and Salt Fire; One-year minimum holding period waived</a></li>
+                <li><a href="/news/2024/release-06-12-disaster/">Fiscal Service Aids Savings Bonds Owners in Mississippi Affected by Severe Storms, Straight-line Winds, Tornadoes, and Flooding; One-year minimum holding period waived</a></li>
+                <li><a href="/news/2024/release-06-06-sb/">Fiscal Service Launches Interactive Guide to Savings Bonds </a></li>
+                <li><a href="/news/2024/release-06-06-strips/">Fiscal Service Announces Activity for Securities in the STRIPS Program for May 2024</a></li>
+                <li><a href="/news/2024/release-06-04-disaster/">Fiscal Service Aids Savings Bonds Owners in Arkansas Affected by Severe Storms, Straight-line Winds, Tornadoes, and Flooding; One-year minimum holding period waived</a></li>
+            </ul>
+            <h3 class="h2">May 2024</h3>
+            <ul>
+                <li><a href="/news/2024/release-05-29-disaster/">Fiscal Service Aids Savings Bonds Owners in Iowa Affected by Severe Storms; One-year minimum holding period waived</a></li>
+                <li><a href="/news/2024/release-05-23A-disaster/">Fiscal Service Aids Savings Bonds Owners in West Virginia Affected by Severe Storms, Straight-line Winds, Tornadoes, Flooding, Landslides and Mudslides; One-year minimum holding period waived</a></li>
+                <li><a href="/news/2024/release-05-23-disaster/">Fiscal Service Aids Savings Bonds Owners in Kentucky Affected by Severe Storms, Straight-line Winds, Tornadoes, Landslides and Mudslides; One-year minimum holding period waived</a></li>
+                <li><a href="/news/2024/release-05-21-disaster/">Fiscal Service Aids Savings Bonds Owners in Texas Affected by Severe Storms, Straight-line Winds, Tornadoes, and Flooding; One-year minimum holding period waived</a></li>
+                <li><a href="/news/2024/release-05-17-disaster/">Fiscal Service Aids Savings Bonds Owners in Massachusetts Affected by Severe Storms and Flooding; One-year minimum holding period waived</a></li>
+                <li><a href="/news/2024/release-05-16-disaster/">Fiscal Service Aids Savings Bonds Owners in Iowa Affected by Severe Storms and Tornadoes; One-year minimum holding period waived</a></li>
+                <li><a href="/news/2024/release-05-07-disaster/">Fiscal Service Aids Savings Bonds Owners in Nebraska Affected by Severe Storms, Straight Line Winds, and Tornadoes; One-year minimum holding period waived</a></li>
+                <li><a href="/news/2024/release-05-06-strips/">Fiscal Service Announces Activity for Securities in the STRIPS Program for April  2024</a></li>
+                <li><a href="/news/2024/release-05-03-disaster/">Fiscal Service Aids Savings Bonds Owners in Oklahoma Affected by Severe Storms, Straight-line Winds, Tornadoes, and Flooding; One-year minimum holding period waived</a></li>
+                <li><a href="/news/2024/release-05-03-disasterb/">Fiscal Service Aids Savings Bonds Owners in Ohio Affected by Tornadoes; One-year minimum holding period waived</a></li>
+                <li><a href="/news/2024/release-05-01-rates/">Fiscal Service Announces New Savings Bonds Rates, Series I to Earn 4.28%, Series EE to Earn 2.70% </a></li>
+            </ul>
+            <h3 class="h2">April 2024</h3>
+            <ul>
+                <li><a href="/news/2024/release-04-04-strips/">Fiscal Service Announces Activity for Securities in the STRIPS Program for March 2024</a></li>
+            </ul>
+            <h3 class="h2">March 2024</h3>
+            <ul>
+                <li><a href="/news/2024/release-03-22b-disaster/">Fiscal Service Aids Savings Bonds Owners in Rhode Island Affected by Severe Storms and Flooding; One-year minimum holding period waived</a></li>
+                <li><a href="/news/2024/release-03-22-disaster/">Fiscal Service Aids Savings Bonds Owners in Maine Affected by Severe Storms and Flooding; One-year minimum holding period waived</a></li>
+                <li><a href="/news/2024/release-03-20-disaster/">Fiscal Service Aids Savings Bonds Owners in Alaska Affected by Severe Storm, Landslides, and Mudslides; One-year minimum holding period waived</a></li>
+                <li><a href="/news/2024/release-03-06-strips/">Fiscal Service Announces Activity for Securities in the STRIPS Program for February 2024</a></li>
+                <li><a href="/news/2024/release-02-26-slgs/">Treasury has published an updated rule governing State and Local Government Series Securities</a></li>
+            </ul>
+            <h3 class="h2">February 2024</h3>
+            <ul>
+                <li><a href="/news/2024/release-02-21B-disaster/">Fiscal Service Aids Savings Bonds Owners in Washington Affected by Wildfires; One-year minimum holding period waived</a></li>
+                <li><a href="/news/2024/release-02-21A-disaster/">Fiscal Service Aids Savings Bonds Owners in California Affected by Severe Storms and Flooding; One-year minimum holding period waived</a></li>
+                <li><a href="/news/2024/release-02-13-disaster/">Fiscal Service Aids Savings Bonds Owners in Michigan Affected by Severe Storms, Flooding, and Tornadoes; One-year minimum holding period waived</a></li>
+                <li><a href="/news/2024/release-02-06-strips/">Fiscal Service Announces Activity for Securities in the STRIPS Program for January 2024</a></li>
+                <li><a href="/news/2024/release-02-02-disastera/">Fiscal Service Aids Savings Bonds Owners in Maine Affected by Severe Storms and Flooding; One-year minimum holding period waived</a></li>
+                <li><a href="/news/2024/release-02-02-disasterb/">Fiscal Service Aids Savings Bonds Owners in West Virginia Affected by Severe Storms, Flooding, Landslides, and Mudslides; One-year minimum holding period waived</a></li>
+            </ul>
+            <h3 class="h2">January 2024</h3>
+            <ul>
+                <li><a href="/news/2024/release-01-19-disaster/">Fiscal Service Aids Savings Bonds Owners in Rhode Island Affected by Severe Storms, Flooding, and Tornadoes; One-year minimum holding period waived</a></li>
+                <li><a href="/news/2024/release-01-05-strips/">Fiscal Service Announces Activity for Securities in the STRIPS Program for December 2023</a></li>
+            </ul>
+            <h2 class="h1">2023</h2>
+            <h3 class="h2">December 2023</h3>
+            <ul>
+                <li><a href="/news/2023/release-12-15-disaster/">Fiscal Service Aids Savings Bonds Owners in Tennessee Affected by Severe Storms and Tornadoes; One-year minimum holding period waived</a></li>
+                <li><a href="/news/2023/release-12-06-strips/">Fiscal Service Announces Activity for Securities in the STRIPS Program for November 2023</a></li>
+            </ul>
+
+            <h3 class="h2">November 2023</h3>
+            <ul>
+                <li><a href="/news/2023/release-11-29-disaster/">Fiscal Service Aids Savings Bonds Owners in Illinois Affected by Severe Storms and Flooding; One-year minimum holding period waived</a></li>
+                <li><a href="/news/2023/release-11-06-strips/">Fiscal Service Announces Activity for Securities in the STRIPS Program for October 2023</a></li>
+                <li><a href="/news/2023/release-11-01-rates/">Fiscal Service Announces New Savings Bonds Rates, Series I to Earn 5.27%, Series EE to Earn 2.70%</a></li>
+            </ul>
+            <h3 class="h2">October 2023</h3>
+            <ul>
+                <li><a href="/news/2023/release-09-05-disaster/">Fiscal Service Aids Savings Bonds Owners in Florida Affected by Hurricane Idalia; One-year minimum holding period waived </a></li>
+                <li><a href="/news/2023/release-09-13-disaster/">Fiscal Service Aids Savings Bonds Owners in Georgia Affected by Hurricane Idalia; One-year minimum holding period waived</a></li>
+                <li><a href="/news/2023/release-10-05-strips/">Fiscal Service Announces Activity for Securities in the STRIPS Program for September 2023</a></li>
+            </ul>
+            <h3 class="h2">September 2023</h3>
+            <ul>
+
+                <li><a href="/news/2023/release-09-07-strips/">Fiscal Service Announces Activity for Securities in the STRIPS Program for August 2023</a></li>
+            </ul>
+            <h3 class="h2">August 2023</h3>
+            <ul>
+                <li><a href="/news/2023/release-08-29-disaster/">Fiscal Service Aids Savings Bonds Owners in Alaska Affected by Flooding; One-year minimum holding period waived </a></li>
+                <li><a href="/news/2023/release-08-17-disaster/">Fiscal Service Aids Savings Bonds Owners in Illinois Affected by Severe Storms and Flooding; One-year minimum holding period waived </a></li>
+                <li><a href="/news/2023/release-08-15-disaster/">Fiscal Service Aids Savings Bonds Owners in Mississippi Affected by Severe Storms, Straight-line Winds and Tornadoes; One-year minimum holding period waived</a></li>
+                <li><a href="/news/2023/hawaii-wildfires/">Fiscal Service Aids Savings Bonds Owners in Hawaii Affected by Wildfires; One-year minimum holding period waived</a></li>
+                <li><a href="/news/2023/release-08-04-strips/">Fiscal Service Announces Activity for Securities in the STRIPS Program for July 2023</a></li>
+            </ul>
+            <h3 class="h2">July 2023</h3>
+            <ul>
+                <li><a href="/news/2023/release-07-18-disaster/">Fiscal Service Aids Savings Bonds Owners in Vermont Affected by Severe Storms and Flooding; One-year minimum holding period waived</a></li>
+                <li><a href="/news/2023/release-07-07-strips/">Fiscal Service Announces Activity for Securities in the STRIPS Program for June 2023</a></li>
+            </ul>
+            <h3 class="h2">June 2023</h3>
+            <ul>
+                <li><a href="/news/2023/release-04-07-disaster/">Fiscal Service Aids Savings Bonds Owners in California Affected by Severe Winter Storms, Straight-line Winds, Flooding, Landslides, and Mudslides; One-year minimum holding period waived</a></li>
+                <li><a href="/news/2023/release-06-06-strips/">Fiscal Service Announces Activity for Securities in the STRIPS Program for May 2023</a></li>
+                <li><a href="/news/2023/release-06-05-slgs/">Treasury Resumes Sales of State and Local Government Series Securities </a></li>
+                <li><a href="/news/2023/release-06-06-disaster/">Fiscal Service Aids Savings Bonds Owners in the  Hoopa Valley Tribe Affected by Severe Winter Storms and Mudslides;One-year minimum holding period waived </a></li>
+            </ul>
+            <h3 class="h2">May 2023</h3>
+            <ul>
+                <li><a href="/news/2023/release-06-01-disaster/">Fiscal Service Aids Savings Bonds Owners in Guam Affected by Typhoon Mawar; One-year minimum holding period waived</a></li>
+                <li><a href="https://www.fiscal.treasury.gov/news/veterans-affairs-reminder.html" target="_blank" rel="nofollow noreferrer noopener">Treasury and Veterans Affairs Remind Veterans This Memorial Day to Visit TreasuryHunt.gov to Find and Redeem Their Matured Savings Bonds</a></li>
+                <li><a href="/news/2023/release-04-26-disaster/">Fiscal Service Aids Savings Bonds Owners in Oklahoma Affected by Severe Storms, Straight-line Winds, and Tornadoes; One-year minimum holding period waived</a></li>
+                <li><a href="/news/2023/release-05-04-strips/">Fiscal Service Announces Activity for Securities in the STRIPS Program for April  2023</a></li>
+                <li><a href="/news/2023/release-05-03-disaster/">Fiscal Service Aids Savings Bonds Owners in Florida Affected by Severe Storms, Tornadoes, and Flooding; One-year minimum holding period waived</a></li>
+                <li><a href="/news/2023/release-05-01-slgs/">Treasury to Suspend Sales of State and Local Government Series Securities</a></li>
+                <li><a href="/news/2023/release-05-01-rates/">Fiscal Service Announces New Savings Bonds Rates, Series I to Earn 4.30%, Series EE to Earn 2.50% </a></li>
+            </ul>
+            <h3 class="h2">April 2023</h3>
+            <ul>
+                <li><a href="/news/2023/release-04-20-disaster/">Fiscal Service Aids Savings Bonds Owners in Indiana for Severe Storms, Straight-line Winds, and Tornadoes; One-year minimum holding period waived</a></li>
+                <li><a href="/news/2023/release-04-11-disaster/">Fiscal Service Aids Savings Bonds Owners in Tennessee for Severe Storms, Straight-line Winds, and Tornadoes; One-year minimum holding period waived</a></li>
+                <li><a href="/news/2023/release-04-06-strips/">Fiscal Service Announces Activity for Securities in the STRIPS Program for March 2023</a></li>
+                <li><a href="/news/2023/release-04-06-disaster/">Fiscal Service Aids Savings Bonds Owners in Arkansas for Severe Storms and Tornadoes; One-year minimum holding period waived</a></li>
+            </ul>
+            <h3 class="h2">March 2023</h3>
+            <ul>
+                <li><a href="/news/2023/release-03-30-disaster/">Fiscal Service Aids Savings Bonds Owners in Mississippi for Severe Storms, Straight-line Winds, and Tornadoes; One-year minimum holding period waived </a></li>
+                <li><a href="/news/2023/release-03-29-disaster/">Fiscal Service Aids Savings Bonds Owners in New York for Severe Winter Storm and Snowstorm; One-year minimum holding period waived </a></li>
+                <li><a href="/news/2023/release-03-06-strips/">Fiscal Service Announces Activity for Securities in the STRIPS Program for February 2023</a></li>
+            </ul>
+            <h3 class="h2">February 2023</h3>
+            <ul>
+                <li><a href="/news/2023/release-02-06-strips/">Fiscal Service Announces Activity for Securities in the STRIPS Program for January 2023</a></li>
+                <li><a href="/news/2023/release-01-19-disaster-a/">Fiscal Service Aids Savings Bonds Owners in Georgia Affected by Severe Weather; One-year minimum holding period waived</a></li>
+            </ul>
+            <h3 class="h2">January 2023</h3>
+            <ul>
+                <li><a href="/news/2023/release-01-19-disaster-c/">Fiscal Service Aids Savings Bonds Owners in Alabama Affected by Severe Storms, Straight-line Winds, and Tornadoes; One-year minimum holding period waived</a></li>
+                <li><a href="/news/2023/release-01-19-disaster-b/">Fiscal Service Aids Savings Bonds Owners in California Affected by Severe Winter Storms, Flooding, Landslides, and Mudslides; One-year minimum holding period waived</a></li>
+                <li><a href="/news/2023/release-01-06-strips/">Fiscal Service Announces Activity for Securities in the STRIPS Program for December 2022</a></li>
+            </ul>
+
+            <h2 class="h1">2022</h2>
+            <h3 class="h2">December 2022</h3>
+            <ul>
+                <li><a href="/news/2022/release-12-16-disaster">Fiscal Service Aids Savings Bonds Owners in Florida Affected by Hurricane Nicole; One-year minimum holding period waived</a></li>
+                <li><a href="/news/2022/release-12-06-strips/">Fiscal Service Announces Activity for Securities in the STRIPS Program for November 2022</a></li>
+            </ul>
+
+            <h3 class="h2">November 2022</h3>
+            <ul>
+                <li><a href="/news/2022/release-11-30-disaster/">Fiscal Service Aids Savings Bonds Owners in South Carolina Affected by Hurricane Ian; One-year minimum holding period waived</a></li>
+                <li><a href="/news/2022/release-11-17/">Treasury Seeking Comments on State and Local Government Series (SLGS) Securities Notice of Proposed Rulemaking (NPRM)</a></li>
+                <li><a href="/news/2022/release-11-04-strips/">Fiscal Service Announces Activity for Securities in the STRIPS Program for October 2022</a></li>
+                <li><a href="/news/2022/release-11-02-rates/">Fiscal Service Announces New Savings Bonds Rates, Series I to Earn 6.89%, Series EE to Earn 2.10% </a></li>
+            </ul>
+
+            <h3 class="h2">October 2022</h3>
+            <ul>
+                <li><a href="/news/2022/release-10-21-disaster/">Fiscal Service Aids Savings Bonds Owners in Illinois Affected by Severe Storms and Flooding; One-year minimum holding period waived</a></li>
+                <li><a href="/news/2022/release-10-06-strips/">Fiscal Service Announces Activity for Securities in the STRIPS Program for September 2022</a></li>
+                <li><a href="/news/2022/release-10-05-disaster-b/">Fiscal Service Aids Savings Bonds Owners in Florida Affected by Hurricane Ian; One-year minimum holding period waived</a></li>
+                <li><a href="/news/2022/release-10-05-disaster/">Fiscal Service Aids Savings Bonds Owners with the Seminole Tribe of Florida; One-year minimum holding period waived</a></li>
+            </ul>
+
+            <h3 class="h2">September 2022</h3>
+            <ul>
+                <li><a href="/news/2022/release-09-30-disaster/">Fiscal Service Aids Savings Bonds Owners in Alaska Affected by Severe Storm, Flooding and Landslides; One-year minimum holding period waived</a></li>
+                <li><a href="/news/2022/release-09-23-disaster/">Fiscal Service Aids Savings Bonds Owners in Puerto Rico Affected by Hurricane Fiona; One-year minimum holding period waived</a></li>
+                <li><a href="/news/2022/release-09-09-disaster/">Fiscal Service Aids Savings Bonds Owners in Kentucky Affected by Severe Storms, Flooding, Landslides and Mudslides; One-year minimum holding period waived </a></li>
+                <li><a href="/news/2022/release-09-08-disaster/">Fiscal Service Aids Savings Bonds Owners in the Salt River Pima – Maricopa Indian Community Affected by Severe Storms; One-year minimum holding period waived</a></li>
+                <li><a href="/news/2022/release-09-07-strips/">Fiscal Service Announces Activity for Securities in the STRIPS Program for August 2022</a></li>
+            </ul>
+
+            <h3 class="h2">August 2022</h3>
+            <ul>
+                <li><a href="/news/2022/release-08-11-disaster/">Fiscal Service Aids Savings Bonds Owners in Missouri Affected by Severe Storms and Flooding; One-year minimum holding period waived</a></li>
+                <li><a href="/news/2022/release-08-04-strips/">Fiscal Service Announces Activity for Securities in the STRIPS Program for July 2022</a></li>
+            </ul>
+
+            <h3 class="h2">July 2022</h3>
+            <ul>
+                <li><a href="2022/release-07-27-disaster/">Fiscal Service Aids Savings Bonds Owners in Montana Affected by Severe Storms and Flooding; One-year minimum holding period waived</a></li>
+                <li><a href="2022/release-07-13-disaster/">Fiscal Service Aids Savings Bonds Owners in Oklahoma Affected by Severe Storms and Flooding; One-year minimum holding period waived</a></li>
+                <li><a href="2022/release-07-07-strips/">The Fiscal Service Announces Activity for Securities in the STRIPS Program for June 2022</a></li>
+            </ul>
+
+            <h3 class="h2">June 2022</h3>
+            <ul>
+                <li><a href="2022/release-06-06-strips/">The Fiscal Service Announces Activity for Securities in the STRIPS Program for May 2022</a></li>
+            </ul>
+
+            <h3 class="h2">May 2022</h3>
+            <ul>
+                <li><a href="2022/release-05-05-strips/">The Fiscal Service Announces Activity for Securities in the STRIPS Program for April 2022</a></li>
+                <li><a href="2022/release-05-02-rates/">Fiscal Service Announces New Savings Bonds Rates, Series I to Earn 9.62%, Series EE to Earn 0.10%</a></li>
+                <li><a href="2022/release-05-09-disaster/">Fiscal Service Aids Savings Bonds Owners in New Mexico Affected by Wildfires and Straight-line Winds; One-year minimum holding period waived</a></li>
+            </ul>
+
+            <h3 class="h2">April 2022</h3>
+            <ul>
+                <li><a href="2022/release-04-06-strips/">The Fiscal Service Announces Activity for Securities in the STRIPS Program for March 2022</a></li>
+            </ul>
+
+            <h3 class="h2">March 2022</h3>
+            <ul>
+                <li><a href="2022/release-03-31-disaster/">Fiscal Service Aids Savings Bonds Owners in Puerto Rico Affected by Severe Storms, Flooding, and Landslides; One-year minimum holding period waived</a></li>
+                <li><a href="2022/release-03-04-strips/">The Fiscal Service Announces Activity for Securities in the STRIPS Program for February 2022</a></li>
+            </ul>
+
+            <h3 class="h2">February 2022</h3>
+            <ul>
+                <li><a href="2022/release-02-04-strips/">The Fiscal Service Announces Activity for Securities in the STRIPS Program for January 2022</a></li>
+            </ul>
+
+            <h3 class="h2">January 2022</h3>
+            <ul>
+                <li><a href="2022/release-01-20-disaster/">Fiscal Service Aids Savings Bonds Owners in Tennessee Affected by Severe Storms, Straight-line Winds, and Tornadoes; One-year minimum holding period waived</a></li>
+                <li><a href="2022/release-01-06-strips/">The Fiscal Service Announces Activity for Securities in the STRIPS Program for December 2021</a></li>
+                <li><a href="2022/release-01-06-disaster-a/">Fiscal Service Aids Savings Bonds Owners in Colorado Affected by Wildfires and Straight-line Winds; One-year minimum holding period waived</a></li>
+                <li><a href="2022/release-01-06-disaster-b/">Fiscal Service Aids Savings Bonds Owners in Washington Affected by Flooding and Mudslides; One-year minimum holding period waived</a></li>
+            </ul>
+        
+</div>
+
+
+        
+<div class="body-copy">
+  
+            <h2 class="h1">2021</h2>
+            <h3 class="h2">December 2021</h3>
+            <ul>
+                <li><a href="2021/release-12-16/">Treasury Resumes Sales of State and Local Government Series Securities</a></li>
+                <li><a href="2021/release-12-06-strips/">The Fiscal Service Announces Activity for Securities in the STRIPS Program for November 2021</a></li>
+                <li><a href="2021/release-12-30-disaster/">Fiscal Service Aids Savings Bonds Owners in Kentucky Affected by Severe Storms, Straight-line Winds, Flooding, and Tornadoes; One-year minimum holding period waived</a></li>
+                <li><a href="2021/release-12-23-disaster/">Fiscal Service Aids Savings Bonds Owners in Alabama Affected by Severe Storms and Flooding; One-year minimum holding period waived</a></li>
+                <li><a href="2021/release-12-28-disaster/">Fiscal Service Aids Savings Bonds Owners in Arkansas Affected by Severe Storms and Tornadoes; One-year minimum holding period waived</a></li>
+                <li><a href="2021/release-12-03-disaster/">Fiscal Service Aids Savings Bonds Owners in Connecticut Affected by Hurricane Ida; One-year minimum holding period waived</a></li>
+            </ul>
+            <h3 class="h2">November 2021</h3>
+            <ul>
+                <li><a href="2021/release-11-08/">Treasury Reminds Veterans to Redeem their Matured U.S. Savings Bonds; Veterans - You May Have Matured Savings Bonds. U.S. Treasury Wants to Help You Redeem Them</a></li>
+                <li><a href="2021/release-11-04-strips/">The Fiscal Service Announces Activity for Securities in the STRIPS Program for October 2021</a></li>
+                <li><a href="2021/release-11-01-rates/">Fiscal Service Announces New Savings Bonds Rates Series I to Earn 7.12%, Series EE to Earn 0.10%</a></li>
+            </ul>
+            <h3 class="h2">October 2021</h3>
+            <ul>
+                <li><a href="2021/release-10-27-disaster/">Fiscal Service Aids Savings Bonds Owners in Mississippi Affected by Hurricane Ida; One-year minimum holding period waived</a></li>
+                <li><a href="2021/release-10-06-strips/">The Fiscal Service Announces Activity for Securities in the STRIPS Program for September 2021</a></li>
+            </ul>
+
+            <h3 class="h2">September 2021</h3>
+            <ul>
+                <li><a href="2021/release-09-27-disaster/">Fiscal Service Aids Savings Bonds Owners in California Affected by Wildfires; One-year minimum holding period waived</a></li>
+                <li><a href="2021/release-09-14-disaster/">Fiscal Service Aids Savings Bonds Owners in North Carolina Affected by Remnants of Tropical Storm Fred; One-year minimum holding period waived</a></li>
+                <li><a href="2021/release-09-29-disaster/">Fiscal Service Aids Savings Bonds Owners in Pennsylvania Affected by Remnants of Hurricane Ida; One-year minimum holding period waived</a></li>
+                <li><a href="2021/release-09-24-disaster/">Fiscal Service Aids Savings Bonds Owners in New York and New Jersey Affected by Remnants of Hurricane Ida; One-year minimum holding period waived</a></li>
+                <li><a href="2021/release-09-07-disaster/">Fiscal Service Aids Savings Bonds Owners in Louisiana Affected by Hurricane Ida; One-year minimum holding period waived</a></li>
+                <li><a href="2021/release-09-07-strips/">Fiscal Service Announces Activity for Securities in the STRIPS Program for August 2021</a></li>
+            </ul>
+
+            <h3 class="h2">August 2021</h3>
+            <ul>
+                <li><a href="2021/release-08-31-disaster/">Fiscal Service Aids Savings Bonds Owners in Tennessee Affected by Severe Storm and Flooding; One-year minimum holding period waived</a></li>
+                <li><a href="2021/release-08-05-strips/">The Fiscal Service Announces Activity for Securities in the STRIPS Program for July 2021</a></li>
+            </ul>
+            <h3 class="h2">July 2021</h3>
+            <ul>
+                <li><a href="2021/release-07-20-disaster/">Fiscal Service Aids Savings Bonds Owners in Michigan Affected by Severe Storms, Flooding, and Tornadoes; One-year minimum holding period waived</a></li>
+                <li><a href="2021/release-07-23-slgs/">Treasury to Suspend Sales of State and Local Government Series Securities</a></li>
+                <li><a href="2021/release-07-07-strips/">The Fiscal Service Announces Activity for Securities in the STRIPS Program for June 2021</a></li>
+            </ul>
+            <h3 class="h2">June 2021</h3>
+            <ul>
+                <li><a href="2021/release-06-07-disaster-a/">Fiscal Service Aids Savings Bonds Owners in West Virginia Affected by Severe Storms and Flooding; One-year minimum holding period waived</a></li>
+                <li><a href="2021/release-06-07-disaster-b/">Fiscal Service Aids Savings Bonds Owners in Louisiana Affected by Severe Storms, Tornadoes, and Flooding; One-year minimum holding period waived</a></li>
+                <li><a href="2021/release-06-04-strips/">Fiscal Service Announces Activity for Securities in the STRIPS Program for May 2021</a></li>
+            </ul>
+            <h3 class="h2">May 2021</h3>
+            <ul>
+                <li><a href="2021/release-05-10-disaster/">Fiscal Service Aids Savings Bonds Owners in Tennessee Affected by Severe Storms, Tornadoes and Flooding; One-year minimum holding period waived</a></li>
+                <li><a href="2021/release-05-06-strips/">The Fiscal Service Announces Activity for Securities in the STRIPS Program for April 2021</a></li>
+                <li><a href="2021/release-05-03-rates/">Fiscal Service Announces New Savings Bonds Rates Series I to Earn 3.54%, Series EE to Earn 0.10%</a></li>
+
+            </ul>
+            <h3 class="h2">April 2021</h3>
+            <ul>
+                <li><a href="2021/release-04-26-disaster/">Fiscal Service Aids Savings Bonds Owners in Kentucky Affected by Severe Storms, Flooding, Landslides and Mudslides; One-year minimum holding period waived</a></li>
+                <li><a href="2021/release-04-06-strips/">The Fiscal Service Announces Activity for Securities in the STRIPS Program for March 2021</a></li>
+
+            </ul>
+            <h3 class="h2">March 2021</h3>
+            <ul>
+                <li><a href="2021/release-03-15-disaster/">Fiscal Service Aids Savings Bonds Owners in Louisiana Affected by Severe Winter Storms; One-year minimum holding period waived</a></li>
+                <li><a href="2021/release-03-04-strips/">The Fiscal Service Announces Activity for Securities in the STRIPS Program for February 2021</a></li>
+
+            </ul>
+            <h3 class="h2">February 2021</h3>
+            <ul>
+                <li><a href="2021/release-02-26-disaster/">Fiscal Service Aids Savings Bonds Owners in Oklahoma Affected by Severe Winter Storms; One-year minimum holding period waived</a></li>
+                <li><a href="2021/release-03-02-disaster/">Fiscal Service Aids Savings Bonds Owners in Texas Affected by Severe Winter Storms; One-year minimum holding period waived</a></li>
+                <li><a href="2021/release-02-04-strips/">Fiscal Service Announces Activity for Securities in the STRIPS Program for January 2021</a></li>
+            </ul>
+            <h3 class="h2">January 2021</h3>
+            <ul>
+                <li><a href="2021/release-01-14-disaster/">Fiscal Service Aids Savings Bonds Owners in Louisiana Affected by Hurricane Zeta; One-year minimum holding period waived</a></li>
+                <li><a href="2021/release-01-11-disaster-a/">Fiscal Service Aids Savings Bonds Owners in Alabama Affected by Hurricane Zeta; One-year minimum holding period waived</a></li>
+                <li><a href="2021/release-01-11-disaster-b/">Fiscal Service Aids Savings Bonds Owners in Mississippi Affected by Hurricane Zeta; One-year minimum holding period waived</a></li>
+                <li><a href="2021/release-01-07-strips/">Fiscal Service Announces Activity for Securities in the STRIPS Program for December 2020</a></li>
+            </ul>
+        
+</div>
+
+
+        
+<div class="body-copy">
+  
+            
+            <h3 class="h2">Archived Press Releases</h3>
+
+        
+</div>
+
+
+        
+<div class="grid-row-container row ">
+  
+
+            
+<div class="grid-column-container col-md">
+  <div class="negate">
+    <div class="consume">
+      
+
+                
+    
+
+    
+        
+    
+    <div class="collapse-block py-3" style="" id="id-2010---2020-640092">
+
+        <a class="collapse-summary font-large text-body text-decoration-none"
+           role="button"
+           data-toggle="collapse"
+           href="#id-2010---2020-640092-1"
+           aria-controls="id-2010---2020-640092-1"
+           aria-expanded="false">
+            2010 - 2020
+        </a>
+
+        <div id="id-2010---2020-640092-1" class="collapse">
+            <div class="collapse-details mt-4">
+                
+
+                    
+<div class="quick-links">
+  
+    <h3 class="h2"></h3>
+  
+
+    
+
+      
+        <p>
+          <a href="/news/2020/2020-archived-news-releases/" target="" rel="">2020
+            <span class="icon-angle-right-solid-blue"></span>
+          </a>
+        </p>
+      
+
+    
+
+      
+        <p>
+          <a href="/news/2019/2019-archived-news-releases/" target="" rel="">2019
+            <span class="icon-angle-right-solid-blue"></span>
+          </a>
+        </p>
+      
+
+    
+
+      
+        <p>
+          <a href="/news/2018/2018-archived-news-releases/" target="" rel="">2018
+            <span class="icon-angle-right-solid-blue"></span>
+          </a>
+        </p>
+      
+
+    
+
+      
+        <p>
+          <a href="/news/2017/2017-archived-news-releases/" target="" rel="">2017
+            <span class="icon-angle-right-solid-blue"></span>
+          </a>
+        </p>
+      
+
+    
+
+      
+        <p>
+          <a href="/news/2016/2016-archived-news-releases/" target="" rel="">2016
+            <span class="icon-angle-right-solid-blue"></span>
+          </a>
+        </p>
+      
+
+    
+
+      
+        <p>
+          <a href="/news/2015/2015-archived-news-releases/" target="" rel="">2015
+            <span class="icon-angle-right-solid-blue"></span>
+          </a>
+        </p>
+      
+
+    
+
+      
+        <p>
+          <a href="/news/2014/2014-archived-news-releases/" target="" rel="">2014
+            <span class="icon-angle-right-solid-blue"></span>
+          </a>
+        </p>
+      
+
+    
+
+      
+        <p>
+          <a href="/news/2013/2013-archived-news-releases/" target="" rel="">2013
+            <span class="icon-angle-right-solid-blue"></span>
+          </a>
+        </p>
+      
+
+    
+
+      
+        <p>
+          <a href="/news/2012/2012-archived-news-releases/" target="" rel="">2012
+            <span class="icon-angle-right-solid-blue"></span>
+          </a>
+        </p>
+      
+
+    
+
+      
+        <p>
+          <a href="/news/2011/2011-archived-news-releases/" target="" rel="">2011
+            <span class="icon-angle-right-solid-blue"></span>
+          </a>
+        </p>
+      
+
+    
+
+      
+        <p>
+          <a href="/news/2010/2010-archived-news-releases/" target="" rel="">2010
+            <span class="icon-angle-right-solid-blue"></span>
+          </a>
+        </p>
+      
+
+    
+
+</div>
+
+
+                
+            </div>
+        </div>
+
+    </div>
+
+
+            
+    </div>
+  </div>
+</div>
+
+
+            
+<div class="grid-column-container col-md">
+  <div class="negate">
+    <div class="consume">
+      
+
+                
+    
+
+    
+        
+    
+    <div class="collapse-block py-3" style="" id="id-2000---2009-173302">
+
+        <a class="collapse-summary font-large text-body text-decoration-none"
+           role="button"
+           data-toggle="collapse"
+           href="#id-2000---2009-173302-1"
+           aria-controls="id-2000---2009-173302-1"
+           aria-expanded="false">
+            2000 - 2009
+        </a>
+
+        <div id="id-2000---2009-173302-1" class="collapse">
+            <div class="collapse-details mt-4">
+                
+
+                    
+<div class="quick-links">
+  
+    <h3 class="h2"></h3>
+  
+
+    
+
+      
+        <p>
+          <a href="/news/2009/2009-archived-news-releases/" target="" rel="">2009
+            <span class="icon-angle-right-solid-blue"></span>
+          </a>
+        </p>
+      
+
+    
+
+      
+        <p>
+          <a href="/news/2008/2008-archived-news-releases/" target="" rel="">2008
+            <span class="icon-angle-right-solid-blue"></span>
+          </a>
+        </p>
+      
+
+    
+
+      
+        <p>
+          <a href="/news/2007/2007-archived-news-releases/" target="" rel="">2007
+            <span class="icon-angle-right-solid-blue"></span>
+          </a>
+        </p>
+      
+
+    
+
+      
+        <p>
+          <a href="/news/2006/2006-archived-news-releases/" target="" rel="">2006
+            <span class="icon-angle-right-solid-blue"></span>
+          </a>
+        </p>
+      
+
+    
+
+      
+        <p>
+          <a href="/news/2005/2005-archived-news-releases/" target="" rel="">2005
+            <span class="icon-angle-right-solid-blue"></span>
+          </a>
+        </p>
+      
+
+    
+
+      
+        <p>
+          <a href="/news/2004/2004-archived-news-releases/" target="" rel="">2004
+            <span class="icon-angle-right-solid-blue"></span>
+          </a>
+        </p>
+      
+
+    
+
+      
+        <p>
+          <a href="/news/2003/2003-archived-news-releases/" target="" rel="">2003
+            <span class="icon-angle-right-solid-blue"></span>
+          </a>
+        </p>
+      
+
+    
+
+      
+        <p>
+          <a href="/news/2002/2002-archived-news-releases/" target="" rel="">2002
+            <span class="icon-angle-right-solid-blue"></span>
+          </a>
+        </p>
+      
+
+    
+
+      
+        <p>
+          <a href="/news/2001/2001-archived-news-releases/" target="" rel="">2001
+            <span class="icon-angle-right-solid-blue"></span>
+          </a>
+        </p>
+      
+
+    
+
+      
+        <p>
+          <a href="/news/2000/2000-archived-news-releases/" target="" rel="">2000
+            <span class="icon-angle-right-solid-blue"></span>
+          </a>
+        </p>
+      
+
+    
+
+</div>
+
+
+                
+            </div>
+        </div>
+
+    </div>
+
+
+            
+    </div>
+  </div>
+</div>
+
+
+            
+<div class="grid-column-container col-md">
+  <div class="negate">
+    <div class="consume">
+      
+
+                
+    
+
+    
+        
+    
+    <div class="collapse-block py-3" style="" id="id-1996---1999-626849">
+
+        <a class="collapse-summary font-large text-body text-decoration-none"
+           role="button"
+           data-toggle="collapse"
+           href="#id-1996---1999-626849-1"
+           aria-controls="id-1996---1999-626849-1"
+           aria-expanded="false">
+            1996 - 1999
+        </a>
+
+        <div id="id-1996---1999-626849-1" class="collapse">
+            <div class="collapse-details mt-4">
+                
+                    
+<div class="quick-links">
+  
+    <h3 class="h2"></h3>
+  
+
+    
+
+      
+        <p>
+          <a href="/news/1999/1999-archived-news-releases/" target="" rel="">1999
+            <span class="icon-angle-right-solid-blue"></span>
+          </a>
+        </p>
+      
+
+    
+
+      
+        <p>
+          <a href="/news/1998/1998-archived-news-releases/" target="" rel="">1998
+            <span class="icon-angle-right-solid-blue"></span>
+          </a>
+        </p>
+      
+
+    
+
+      
+        <p>
+          <a href="/news/1997/1997-archived-news-releases/" target="" rel="">1997
+            <span class="icon-angle-right-solid-blue"></span>
+          </a>
+        </p>
+      
+
+    
+
+      
+        <p>
+          <a href="/news/1996/1996-archived-news-releases/" target="" rel="">1996
+            <span class="icon-angle-right-solid-blue"></span>
+          </a>
+        </p>
+      
+
+    
+
+</div>
+
+                
+            </div>
+        </div>
+
+    </div>
+
+
+            
+    </div>
+  </div>
+</div>
+
+
+        
+</div>
+
+
+        
+<div class="body-copy">
+  
+
+            <h3 class="h2">Home Page Articles Archive</h3>
+            <h4><a href="home-page-articles-archive/">2004-2007</a></h4>
+            <p>(Note: No articles were placed on the home page after 2007)</p>
+        
+</div>
+
+
+        
+<div class="body-copy">
+  
+
+            <h3 class="h2">Features (for the Media)</h3>
+            <a href="/files/news/pressroom-mar-hh-bonds-byliner.doc">Series HH Savings Bonds will be Discontinued in August (Word file, 31k, uploaded 4/19/2004)</a>
+        
+</div>
+
+
+
+    
+  </div>
+</section>
+
+
+
+
+      
+      <button type="button" class="btn btn-td-blue scrollButton d-print-none" onclick="topFunction()" id="myBtn" title="Back to Top" style="display: none; position: fixed; bottom: 1em; right: 1em; opacity: 50%; z-index: 99999999">
+        <svg class="bi-chevron-down" style="transform: rotate(180deg)" width="2em" height="2em" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512">
+          <path fill="currentColor" d="M143 352.3L7 216.3c-9.4-9.4-9.4-24.6 0-33.9l22.6-22.6c9.4-9.4 24.6-9.4 33.9 0l96.4 96.4 96.4-96.4c9.4-9.4 24.6-9.4 33.9 0l22.6 22.6c9.4 9.4 9.4 24.6 0 33.9l-136 136c-9.2 9.4-24.4 9.4-33.8 0z"></path>
+        </svg>
+      </button>
+
+    </main>
+
+    
+
+    
+  
+<footer>
+
+  <nav>
+    <div class="container-xxl hide-print">
+      <div class="wrapper py-5">
+      
+        <div class="row mb-4 text-md-center">
+          <div class="col-12">
+          
+            <a href="/"><img src="/images/logo-treasurydirect-color.svg" alt="TreasuryDirect Home"></a>
+            
+            <form id="search-form-page-footer" action="https://search.usa.gov/search" accept-charset="UTF-8" method="get" class="py-2 mx-md-auto">
+              <div class="input-group">
+                <input type="text" name="query" id="query-page-footer" autocomplete="off" class="form-control" placeholder="Search…" aria-label="Search TreasuryDirect" aria-describedby="button-site-search-footer-submit">
+                <input name="utf8" type="hidden" value="&#x2713;">
+                <input type="hidden" name="affiliate" id="affiliate2" value="treasurydirect">
+                <div class="input-group-append">
+                  <button class="btn btn-td-green font-weight-bold" type="submit" id="button-site-search-footer-submit" aria-label="Submit">
+                    <span class="icon-search-solid-white"></span>
+                  </button>
+                </div>
+              </div>
+            </form>
+            
+          </div>
+        </div>
+        
+        <div class="row">
+        
+          <div class="col-12 col-md-4">
+            <h3>Connect With Us</h3>
+            <ul class="list-unstyled nav-text-large social-icons">
+              <li><a class="no-icon" target="_blank" rel="noopener noreferrer nofollow" href="https://twitter.com/treasurydirect/"><span class="icon-twitter mr-2"></span>X (formerly Twitter)</a></li>
+              <li><a class="no-icon" target="_blank" rel="noopener noreferrer nofollow" href="https://www.facebook.com/fiscalservice/"><span class="icon-facebook mr-2"></span>Facebook</a></li>
+              <li><a class="no-icon" target="_blank" rel="noopener noreferrer nofollow" href="https://www.youtube.com/TreasuryDirect/"><span class="icon-youtube mr-2"></span>YouTube</a></li>
+              <li><a class="no-icon" href="/rss/"><span class="icon-rss mr-2"></span>RSS Feeds</a></li>
+            </ul>
+          </div>
+          
+          <div class="col-12 col-md-4">
+            <h3>Legal Information</h3>
+            <ul class="list-unstyled nav-text-small">
+              <li><a href="/legal-information/foia/">Freedom of Information Act</a></li>
+              <li><a href="/legal-information/privacy/">Privacy</a></li>
+              <li><a href="/legal-information/terms/">Terms & Conditions</a></li>
+              <li><a href="/legal-information/data-quality/">Data Quality</a></li>
+              <li><a href="/legal-information/developers/">For Web Developers</a></li>
+              <li><a href="/legal-information/accessibility/">Accessibility</a></li>
+            </ul>
+          </div>
+          
+          <div class="col-12 col-md-4">
+            <h3>Related Sites</h3>
+            <ul class="list-unstyled nav-text-small">
+              <li><a target="_blank" rel="noopener noreferrer" href="https://www.treasury.gov">treasury.gov</a></li>
+              <li><a target="_blank" rel="noopener noreferrer" href="https://fiscaldata.treasury.gov">fiscaldata.treasury.gov</a></li>
+              <li><a target="_blank" rel="noopener noreferrer" href="https://www.usaspending.gov">USAspending.gov</a></li>
+              <li><a target="_blank" rel="noopener noreferrer" href="https://fiscal.treasury.gov">Bureau of the Fiscal Service</a></li>
+              <li><a target="_blank" rel="noopener noreferrer" href="https://www.usa.gov">USA.gov</a></li>
+              <li><a target="_blank" rel="noopener noreferrer" href="https://www.data.gov">Data.gov</a></li>
+              <li><a target="_blank" rel="noopener noreferrer" href="https://www.regulations.gov">Regulations.gov</a></li>
+            </ul>
+          </div>
+          
+        </div>
+        
+      </div>
+    </div>
+  </nav>
+  
+</footer>
+
+
+    
+    <script src="/scripts/jquery.min.js" charset="utf-8"></script>
+    <script src="/scripts/bootstrap.bundle.min.js" charset="utf-8"></script>
+    <script src="/scripts/components.js" charset="utf-8"></script>
+    <script src="/scripts/back-to-top.js" charset="utf-8"></script>
+    <!-- START DAP Universal Analytics Code -->
+    <script id="_fed_an_ua_tag" src="https://dap.digitalgov.gov/Universal-Federated-Analytics-Min.js?agency=TRE&subagency=FS&exts=xml,prn,json,csv,tsv"></script>
+    <!-- END DAP Universal Analytics Code -->
+    <!-- Google Translate Code -->
+    <script type="text/javascript">
+      function googleTranslateElementInit() {
+        new google.translate.TranslateElement({
+          pageLanguage: 'en',
+          floatPosition: google.translate.TranslateElement.FloatPosition.BOTTOM_RIGHT
+        });
+      }
+    </script>
+    <script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+    <script type="text/javascript">
+     // ---------------------------Production snippet-------------------------------
+     // Verint Production Embed Script v2.01
+     // DO NOT MODIFY BELOW THIS LINE *****************************************
+     ;(function (g) {
+       var d = document, am = d.createElement('script'), h = d.head || d.getElementsByTagName("head")[0], fsr = 'fsReady',
+               aex = {
+                 "src": "//eex-gateway.voc.ttecgov.us/sites/treasurydirect-gov/production/gateway.min.js",
+                 "type": "text/javascript",
+                 "async": "true",
+                 "data-vendor": "fs",
+                 "data-role": "gateway"
+               };
+       for (var attr in aex) { am.setAttribute(attr, aex[attr]); } h.appendChild(am); g[fsr] || (g[fsr] = function () { var aT = '__' + fsr + '_stk__'; g[aT] = g[aT] || []; g[aT].push(arguments); });
+     })(window);
+     // DO NOT MODIFY ABOVE THIS LINE *****************************************
+     fsReady(function() {
+       var currentURL = window.location.href;
+       FSR.CPPS.set("url", currentURL);
+       /*
+       FSR.CPPS.set('name','value'); // use single quotes when passing a static-value
+       FSR.CPPS.set('name2',somevariable); // don't use quotes for a dynamic value
+       FSR.CPPS.set('name3',othervariable); // add as many CPPs as you like in this way
+       */
+     });
+      // DO NOT MODIFY ABOVE THIS LINE *****************************************
+
+    </script>
+    
+  </body>
+</html>

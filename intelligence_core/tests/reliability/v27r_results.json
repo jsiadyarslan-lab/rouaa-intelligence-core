@@ -1,0 +1,28 @@
+{
+  "v27r_measurement": {
+    "fact_tp": 338,
+    "fact_fp": 58,
+    "fact_fn": 1274,
+    "fact_precision": 85.35,
+    "fact_recall": 20.97,
+    "fact_invariant_holds": true,
+    "event_tp": 43,
+    "event_fp": 2,
+    "event_fn": 165,
+    "event_precision": 95.56,
+    "event_recall": 20.67,
+    "event_invariant_holds": true
+  },
+  "mechanical_precision": 85.35,
+  "forensic_precision": 99.75,
+  "fp_classification": {
+    "WRONG_METRIC": 57,
+    "TRUE_FP": 1
+  },
+  "deltas_vs_v26r": {
+    "fact_recall_delta_pp": 4.97,
+    "event_recall_delta_pp": 3.84,
+    "new_tps": 80,
+    "accepted": false
+  }
+}

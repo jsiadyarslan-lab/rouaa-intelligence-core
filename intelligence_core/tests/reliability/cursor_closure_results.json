@@ -1,0 +1,45 @@
+{
+  "schema_version": "1.0",
+  "captured_at": "2026-08-18T02:09:02Z",
+  "store_root": "v3_corpus_store",
+  "backfill": {
+    "total_events": 141,
+    "already_set": 0,
+    "backfilled": 141,
+    "empty_after": 0
+  },
+  "concurrent_test": {
+    "10": {
+      "readers": 10,
+      "elapsed_s": 0.16,
+      "io_count_seen": 141,
+      "baseline_count": 141,
+      "stable_ordering": true,
+      "omissions": 0,
+      "pass": true
+    },
+    "50": {
+      "readers": 50,
+      "elapsed_s": 1.01,
+      "io_count_seen": 141,
+      "baseline_count": 141,
+      "stable_ordering": true,
+      "omissions": 0,
+      "pass": true
+    },
+    "100": {
+      "readers": 100,
+      "elapsed_s": 2.18,
+      "io_count_seen": 141,
+      "baseline_count": 141,
+      "stable_ordering": true,
+      "omissions": 0,
+      "pass": true
+    },
+    "checkpoint_recovery": {
+      "pass": true,
+      "overlap": 0
+    },
+    "overall_pass": true
+  }
+}

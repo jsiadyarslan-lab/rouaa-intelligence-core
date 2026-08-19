@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-NPP8R2VV');</script>
+<!-- End Google Tag Manager -->
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta charset="UTF-8">
+<meta name="format-detection" content="telephone=no">
+<meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0">
+<meta name="description" content="鉄鋼業界は、我が国製造業のCO₂排出量のうち、最大の約35%を占めており、そのGX（グリーントランスフォーメーション）が特に求められています。今般、経済産業省が製造時のCO₂排出量を削減した鋼材である「グリーン鉄」を活用した公共工事におけるCFP（製造段階も含めたCO₂排出量）の算定などの調査を行うにあたり、国土交通省の発注する土木工事にて「グリーン鉄試行工事」を実施することとなりました。2030年以降の公共工事における本格活用に向け、今年度も順次、試行工事を追加します。">
+<meta name="keywords" content="">
+<link rel="shortcut icon" href="/files/000000036.ico">
+<title>CO2排出量を削減した鋼材の試行工事を開始！（METI/経済産業省）</title>
+<link rel="stylesheet" media="screen" href="/css_2025/style.css">
+<link rel="stylesheet" media="print" href="/css_2025/print.css">
+<link rel="stylesheet" href="/css_2025/aly.css">
+<link href="/icomoon/style.css" rel="stylesheet">
+<script src="/js_2025/jquery-3.2.1.min.js"></script>
+<script src="/js_2025/jquery-migrate.js"></script>
+<script src="/js_2025/jquery.matchHeight-min.js"></script>
+<script src="/js_2025/base.js"></script>
+<script src="/js_2025/ewbc.min.js" id="pt_loader"></script>
+
+<script>
+$(function(){
+   // #で始まるアンカーをクリックした場合に処理
+   $('a[href^="#"],area[href^="#"]').click(function() {
+      // スクロールの速度
+      var speed = 400; // ミリ秒
+      // アンカーの値取得
+      var href= $(this).attr("href");
+      // 移動先を取得
+      var target = $(href == "#" || href == "" ? 'html' : href);
+      // 移動先を数値で取得
+      var position = target.offset().top;
+      // スムーススクロール
+      $('body,html').animate({scrollTop:position}, speed, 'swing');
+      if (href == "#pagetop") {
+        $('h1.top_logo a').focus();
+      }
+      return false;
+   });
+});
+</script>
+
+</head>
+
+<body id="pagetop">
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-NPP8R2VV"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+<script src="/js_2025/header.js"></script>
+<script src="/js_2025/msearch.js"></script>
+  <noscript><div class="jsOn">すべての機能をご利用いただくにはJavascriptを有効にしてください。Javascriptを無効のまま閲覧される方は<a href="sitemap/index.html">サイトマップからページをご覧ください。</a></div></noscript>
+  <div id="fb-root"></div>
+
+  <div id="main" tabindex="120">
+    <div class="bg-g">
+      <div class="w1000">
+        <div class="clearfix">
+          <div class="btn clearfix">
+            <div class="border-btn pc"><a href="javascript:void(0)" onclick="window.print();return false;" tabindex="110"><span class="icon-copy"></span>印刷</a></div>
+          </div>
+          <div class="pan">
+            <ol>
+              <li><a href="/index.html" tabindex="100">ホーム</a></li>
+              <li><a href="/press/index.html" tabindex="100">ニュースリリース</a></li>
+              <li><a href="/press/archive.html" tabindex="100">ニュースリリースアーカイブ</a></li>
+              <li><a href="/press/archive_202607.html" tabindex="100">2026年度 7月一覧</a></li>
+              <li>CO2排出量を削減した鋼材の試行工事を開始！</li>
+            </ol>
+          </div>
+        </div>
+        <h1 id="MainContentsArea">CO2排出量を削減した鋼材の試行工事を開始！</h1>
+        <p>直轄土木工事でグリーン鉄を試行的に活用し、GX製品の流通と価値の調査を実施</p>
+      </div>
+    </div>
+    <div class="w1000 clearfix mb10">
+    </div>
+    <div class="main w1000">
+      <div class="clearfix float_box">
+        <div class="left">
+          <p class="b-g">2026年7月31日</p><p class="b-g color-g">同時発表：国土交通省</p>        </div>
+      </div>
+      <div class="clearfix">
+        <div class="border-btn color-blue right mb15"><a href="/press/category_05.html"><span class="icon-yaji01"></span>エネルギー・環境</a></div>
+      </div>
+      <div class="border_box">
+<p>鉄鋼業界は、我が国製造業のCO₂排出量のうち、最大の約35%を占めており、そのGX（グリーントランスフォーメーション）が特に求められています。<br>
+	今般、経済産業省が製造時のCO₂排出量を削減した鋼材である「グリーン鉄」を活用した公共工事におけるCFP（製造段階も含めたCO₂排出量）の算定などの調査を行うにあたり、国土交通省の発注する土木工事にて「グリーン鉄試行工事」を実施することとなりました。<br>
+	2030年以降の公共工事における本格活用に向け、今年度も順次、試行工事を追加します。</p>
+
+      </div>
+<h2>​1．背景・概要</h2>
+<div class="textArea"><p>鉄鋼業は、我が国の産業部門におけるCO₂排出量のうち大きな割合を占めており、カーボンニュートラルの実現に向けたGXが特に求められています。一方、製造時のCO₂排出量を削減した鋼材であるグリーン鉄の市場形成は未だ不十分です。したがって、政府が率先的に公共調達を進めることで初期需要を創出し、GX価値が適切に評価される市場を形成していくことが重要です。<span style="font-size: 1.6rem;">&nbsp;</span></p>
+
+<p>このため、2030年以降の公共工事における本格活用に向け、グリーン鉄の流通やGX価値等に関する知見を蓄積することとし、経済産業省の「GX需要創出・カーボンプライシング運営事業」において、国土交通省の発注する土木工事で、鋼矢板、橋梁厚板等をはじめとしたグリーン鉄を試行的に活用し、製造段階も含めたCO₂排出量等の調査を実施します。</p>
+
+<p>調査の実施にあたり、順次、試行の対象を拡大します。</p>
+</div>
+<h2>​2．直轄の試行工事について（一例）※</h2>
+<div class="textArea"><ul>
+	<li>北海道開発局「一般国道5号 仁木町銀山大橋上部中央工事」（北海道）</li>
+	<li>中部地方整備局「令和7年度 鵜森三郷排水路整備工事」（岐阜県）</li>
+	<li>中部地方整備局「令和7年度 42号松阪多気BP朝田高架橋鋼上部工事」（三重県）</li>
+	<li>中国地方整備局「令和7年度 福山道路赤坂東歩道橋鋼上下部工事」（広島県）</li>
+	<li>四国地方整備局「令和7-9年度 安芸道路黒鳥高架橋上部A1-P2工事」（高知県）</li>
+	<li>四国地方整備局「令和7-9年度 安芸道路黒鳥高架橋上部P7-A2工事」（高知県）</li>
+</ul>
+
+<p>※ 7月24日時点（今年度実施する試行工事を順次追加予定）</p>
+</div>
+<h2>​3．参考</h2>
+<div class="textArea"><p>今月閣議決定された日本成長戦略においても、主要な製品・技術等の一つとしてグリーン鉄は位置づけられており、そのロードマップの中で「グリーン鉄の国内初期需要創出（公共工事におけるグリーン鉄の調達等）」が講じるべき施策として明記されています。また、「国土交通省土木工事の脱炭素アクションプラン」（令和8年7月31日）では、建設資材（鉄鋼）についても、ロードマップを示しています。</p>
+</div>
+      <h2>関連資料</h2>
+<ul class="lnkLst">
+  <li><a href="/files/000003071.pdf">（別紙）グリーン鉄試行工事の詳細について（PDF形式：222KB）<img src="/files/000000013.gif" width="16" height="16" alt=""></a></li>
+</ul>
+      <h2>関連リンク</h2>
+<ul class="lnkLst">
+  <li><a href="https://www.cas.go.jp/jp/seisaku/nipponseichosenryaku/pdf/rm2026.pdf">戦略17分野における「主要な製品・技術等」の官民投資ロードマップ（2026年7月21日）資源・エネルギー安全保障・GX ③グリーン鉄（P．230からP．233）<img src="/files/000000004.gif" width="13" height="13" alt="外部リンク"></a></li>
+  <li><a href="https://www.mlit.go.jp/report/press/kanbo08_hh_001355.html">国土交通省土木工事の脱炭素アクションプラン（2026年7月31日改定）ロードマップ：②建設資材（鋼材）の脱炭素化（P．8）<img src="/files/000000004.gif" width="13" height="13" alt="外部リンク"></a></li>
+</ul>
+      <h2>担当</h2>
+<h3>GX需要創出・カーボンプライシング運営事業について</h3>
+
+<p>GXグループ 環境政策課 GX推進企画室長 河野<br>
+	担当者：菊池、高山、毛利<br>
+	電話：03-3501-1511（内線 3521）<br>
+	メール：bzl-gx-promotion★meti.go.jp<br>
+	※［★］を［@］に置き換えてください。</p>
+
+<h3>グリーン鉄について</h3>
+
+<p>製造産業局 金属課長 津脇<br>
+	担当者：大下、小川、中村<br>
+	電話：03-3501-1511（内線 3661）<br>
+	メール：bzl-s-seizo-kinzoku★meti.go.jp<br>
+	※［★］を［@］に置き換えてください。</p>
+
+<h3>試行工事について</h3>
+
+<p>国土交通省 大臣官房技術調査課<br>
+	担当者：内田、菅野<br>
+	電話：03-5253-8111（内線 22343、22305）</p>
+
+      <div class="boxAdobe">
+        <ul class="lnkLst">
+          <li class="clearfix"><a href="http://get.adobe.com/jp/reader/"><img src="/files/000000037.png" alt="Adobe Reader" width="158" height="39">ダウンロード（Adobeサイトへ）<img src="/files/000000004.gif" width="13" height="13" alt="外部リンク"></a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+<script src="/js_2025/footer.js"></script>
+</body>
+</html>

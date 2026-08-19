@@ -1,0 +1,1339 @@
+<!DOCTYPE html>
+<!--[if lt IE 9]><html lang="en" dir="ltr" class="no-js"><![endif]-->
+<!--[if gt IE 8]><!-->
+<html lang="en" dir="ltr" class="no-js">
+<!--<![endif]-->
+  <head>
+    <meta charset="utf-8" />
+<meta name="description" content="The RETScreen® Clean Energy Management Software platform" />
+<link rel="canonical" href="https://natural-resources.canada.ca/maps-tools-publications/tools-applications/retscreen" />
+<meta name="dcterms.title" content="RETScreen" />
+<meta name="dcterms.creator" content="Natural Resources Canada" />
+<meta name="dcterms.description" content="The RETScreen® Clean Energy Management Software platform" />
+<meta name="dcterms.identifier" content="7465" />
+<meta name="dcterms.language" content="eng" title="ISO639-2/T" />
+<meta name="dcterms.spatial" content="Canada" />
+<meta name="dcterms.issued" content="2010-03-09" title="W3CDTF" />
+<meta name="dcterms.accessRights" content="2" />
+<meta name="dcterms.modified" content="2026-01-21" title="W3CDTF" />
+<meta name="gcaaterms.sitename" content="NRCAN-RNCAN" />
+<meta name="Generator" content="Drupal 10 (https://www.drupal.org)" />
+<meta name="MobileOptimized" content="width" />
+<meta name="HandheldFriendly" content="true" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<noscript><link rel="stylesheet" href="/libraries/wet-boew/css/noscript.min.css" />
+</noscript><link rel="icon" href="/themes/custom/nrcan_wxt/favicon.ico" type="image/vnd.microsoft.icon" />
+<link rel="alternate" hreflang="en" href="https://natural-resources.canada.ca/maps-tools-publications/tools-applications/retscreen" />
+<link rel="alternate" hreflang="fr" href="https://ressources-naturelles.canada.ca/carte-outils-publications/outils-logiciels/retscreen" />
+
+          <title>RETScreen - Natural Resources Canada</title>
+        <link rel="stylesheet" media="all" href="/core/modules/system/css/components/align.module.css?tjxuo1" />
+<link rel="stylesheet" media="all" href="/core/modules/system/css/components/fieldgroup.module.css?tjxuo1" />
+<link rel="stylesheet" media="all" href="/core/modules/system/css/components/container-inline.module.css?tjxuo1" />
+<link rel="stylesheet" media="all" href="/core/modules/system/css/components/clearfix.module.css?tjxuo1" />
+<link rel="stylesheet" media="all" href="/core/modules/system/css/components/details.module.css?tjxuo1" />
+<link rel="stylesheet" media="all" href="/core/modules/system/css/components/hidden.module.css?tjxuo1" />
+<link rel="stylesheet" media="all" href="/core/modules/system/css/components/item-list.module.css?tjxuo1" />
+<link rel="stylesheet" media="all" href="/core/modules/system/css/components/js.module.css?tjxuo1" />
+<link rel="stylesheet" media="all" href="/core/modules/system/css/components/nowrap.module.css?tjxuo1" />
+<link rel="stylesheet" media="all" href="/core/modules/system/css/components/position-container.module.css?tjxuo1" />
+<link rel="stylesheet" media="all" href="/core/modules/system/css/components/reset-appearance.module.css?tjxuo1" />
+<link rel="stylesheet" media="all" href="/core/modules/system/css/components/resize.module.css?tjxuo1" />
+<link rel="stylesheet" media="all" href="/core/modules/system/css/components/system-status-counter.css?tjxuo1" />
+<link rel="stylesheet" media="all" href="/core/modules/system/css/components/system-status-report-counters.css?tjxuo1" />
+<link rel="stylesheet" media="all" href="/core/modules/system/css/components/system-status-report-general-info.css?tjxuo1" />
+<link rel="stylesheet" media="all" href="/core/modules/system/css/components/tablesort.module.css?tjxuo1" />
+<link rel="stylesheet" media="all" href="/libraries/theme-gcweb/css/theme.min.css?tjxuo1" />
+<link rel="stylesheet" media="all" href="/themes/contrib/wxt_bootstrap/css/style.css?tjxuo1" />
+<link rel="stylesheet" media="all" href="/themes/custom/nrcan_wxt/css/style.css?tjxuo1" />
+
+    <script src="/core/assets/vendor/jquery/jquery.min.js?v=3.7.1"></script>
+<script src="https://kit.fontawesome.com/bd12f94a86.js" defer crossorigin="anonymous"></script>
+<script src="https://use.fontawesome.com/releases/v6.4.0/js/v4-shims.js" defer crossorigin="anonymous"></script>
+<script src="//assets.adobedtm.com/be5dfd287373/0127575cd23a/launch-f7c3e6060667.min.js"></script>
+<script src="/modules/custom/nrcan_analytics/js/clarity_analytics_header.js?tjxuo1"></script>
+<script src="/modules/custom/nrcan_analytics/js/gtm_header_production.js?tjxuo1"></script>
+
+  </head>
+  <body class="path-node page-node-type-page has-glyphicons nrcan-wxt theme-gcweb">
+    <nav>
+      <ul id="wb-tphp">
+        <li class="wb-slc">
+          <a class="wb-sl" href="#wb-cont">
+            Skip to main content
+          </a>
+        </li>
+        <li class="wb-slc">
+          <a class="wb-sl" href="#wb-info">
+            Skip to "About government"
+          </a>
+        </li>
+      </ul>
+    </nav>
+    
+      <div class="dialog-off-canvas-main-canvas" data-off-canvas-main-canvas>
+    
+  
+        <header class="navbar navbar-default" id="navbar">
+      <div id="wb-bnr" class="container">
+        <div class="row">
+          <section id="wb-lng" class="col-xs-3 col-sm-12 pull-right text-right ">
+            <h2 class="wb-inv">Language selection</h2>
+              <div class="region region-language-toggle">
+    <section class="language-switcher-language-url block block-wxt-library block-wxt-language-blocklanguage-interface clearfix" id="block-nrcan-wxt-languageswitcher" data-block-plugin-id="wxt_language_block:language_interface">
+  
+      <h2 class="wb-inv">Language selection</h2>
+    
+
+      <ul class="links list-inline mrgn-bttm-0">                    <li><a href="https://ressources-naturelles.canada.ca/carte-outils-publications/outils-logiciels/retscreen" class="language-link" lang="fr" hreflang="fr" data-drupal-link-system-path="node/7465"><span class="hidden-xs">Français</span><abbr title="Français" class="visible-xs h3 mrgn-tp-sm mrgn-bttm-0 text-uppercase">fr</abbr></a></li></ul>
+  </section>
+
+  </div>
+
+          </section>
+            <div class="region col-xs-9 col-sm-5 col-md-4 region-banner">
+      <div class="brand" property="publisher" typeof="GovernmentOrganization">
+    <a href="https://canada.ca/en.html" property="url">
+      <img id="header-logo" src='/libraries/theme-gcweb/assets/sig-blk-en.svg' alt="Government of Canada" property="logo" />
+      <span class="wb-inv"> /
+        <span lang="fr">Gouvernement du Canada</span>
+      </span>
+    </a>
+    <meta property="name" content="Government of Canada">
+    <meta property="areaServed" typeof="Country" content="Canada">
+    <link property="logo" href="/libraries/theme-gcweb/assets/wmms-blk.svg">
+  </div>
+
+  </div>
+
+                      <div class="region col-lg-offset-4 col-md-offset-4 col-sm-offset-2 col-xs-12 col-sm-5 col-md-4 region-search">
+    
+<div id="block-nrcan-wxt-preferredglobalsearchblock" data-block-plugin-id="preferred_global_search_block" class="block block-nrcan-blocks block-preferred-global-search-block clearfix">
+  
+    
+
+  <section id="wb-srch">
+    <h2>Search</h2>
+    <form action="/search" method="get" role="search" class="form-inline">
+      <div class="form-group wb-srch-qry">
+        <label for="wb-srch-q" class="wb-inv">Search the website</label>
+        <input id="wb-srch-q" list="wb-srch-q-ac" class="wb-srch-q form-control" name="keywords" type="search"
+          value="" size="34" maxlength="170" placeholder="Search the website">
+      </div>
+      <div class="form-group submit">
+        <button type="submit" id="wb-srch-sub" class="btn btn-primary btn-small" name="">
+          <span class="glyphicon-search glyphicon"></span>
+          <span class="wb-inv">Search</span>
+        </button>
+      </div>
+    </form>
+  </section>
+
+</div>
+
+
+  </div>
+
+        </div>
+      </div>
+              <nav aria-labelledby="gcweb-main-menu" class="gcweb-menu" data-trgt="mb-pnl" typeof="SiteNavigationElement">
+          <div class="container">
+            <h2 id="gcweb-main-menu" class="wb-inv">Menu</h2>
+            <button type="button" aria-haspopup="true" aria-expanded="false"><span class="wb-inv">Main </span>Menu <span class="expicon glyphicon glyphicon-chevron-down"></span></button>
+                
+                      <ul role="menu" aria-orientation="vertical" data-ajax-replace="https://www.canada.ca/content/dam/canada/sitemenu/sitemenu-v2-en.html">
+                                            <li role="presentation">
+          <a href="https://natural-resources.canada.ca/" role="menuitem" data-drupal-link-system-path="&lt;front&gt;">Home</a>
+                          </li>
+                                  <li role="presentation">
+          <a href="https://www.canada.ca/en/services/jobs.html" role="menuitem">Jobs and the workplace</a>
+                          </li>
+                                  <li role="presentation">
+          <a href="https://www.canada.ca/en/services/immigration-citizenship.html" role="menuitem">Immigration and citizenship</a>
+                          </li>
+                                  <li role="presentation">
+          <a href="https://travel.gc.ca/" role="menuitem">Travel and tourism</a>
+                          </li>
+                                  <li role="presentation">
+          <a href="https://www.canada.ca/en/services/business.html" role="menuitem">Business and industry</a>
+                          </li>
+                                  <li role="presentation">
+          <a href="https://www.canada.ca/en/services/benefits.html" role="menuitem">Benefits</a>
+                          </li>
+                                  <li role="presentation">
+          <a href="https://www.canada.ca/en/services/health.html" role="menuitem">Health</a>
+                          </li>
+                                  <li role="presentation">
+          <a href="https://www.canada.ca/en/services/taxes.html" role="menuitem">Taxes</a>
+                          </li>
+                                  <li role="presentation">
+          <a href="https://www.canada.ca/en/services/environment.html" role="menuitem">Environment and natural resources</a>
+                          </li>
+                                  <li role="presentation">
+          <a href="https://www.canada.ca/en/services/defence.html" role="menuitem">National security and defence</a>
+                          </li>
+                                  <li role="presentation">
+          <a href="https://www.canada.ca/en/services/culture.html" role="menuitem">Culture, history and sport</a>
+                          </li>
+                                  <li role="presentation">
+          <a href="https://www.canada.ca/en/services/policing.html" role="menuitem">Policing, justice and emergencies</a>
+                          </li>
+                                  <li role="presentation">
+          <a href="https://www.canada.ca/en/services/transport.html" role="menuitem">Transport and infrastructure</a>
+                          </li>
+                                  <li role="presentation">
+          <a href="http://international.gc.ca/world-monde/index.aspx?lang=eng" role="menuitem">Canada and the world</a>
+                          </li>
+                                  <li role="presentation">
+          <a href="https://www.canada.ca/en/services/finance.html" role="menuitem">Money and finances</a>
+                          </li>
+                                  <li role="presentation">
+          <a href="https://www.canada.ca/en/services/finance.html" role="menuitem">Science and innovation</a>
+                          </li>
+        </ul>
+  
+
+
+
+
+          </div>
+        </nav>
+              <div class="region region-breadcrumb">
+        <nav id="wb-bc" property="breadcrumb" aria-labelledby="breadcrumbTitle">
+    <h2 id="breadcrumbTitle">You are here</h2>
+    <div class="container">
+      <ol class="breadcrumb">
+                  <li >
+                          <a href="https://www.canada.ca/en">Canada.ca</a>
+                      </li>
+                  <li >
+                          <a href="https://natural-resources.canada.ca/">Natural Resources Canada</a>
+                      </li>
+                  <li >
+                          <a href="/home">Natural Resources Canada</a>
+                      </li>
+                  <li >
+                          <a href="https://natural-resources.canada.ca/maps-tools-publications">Maps, tools, publications</a>
+                      </li>
+                  <li >
+                          <a href="https://natural-resources.canada.ca/maps-tools-publications/tools-applications">Tools and applications</a>
+                      </li>
+              </ol>
+  </div>
+</nav>
+
+
+  </div>
+
+    </header>
+  
+
+  <div class="container">
+    <div class="row">
+
+                              <div class="highlighted col-md-12">  <div class="region region-highlighted">
+    <div data-drupal-messages-fallback class="hidden"></div>
+
+  </div>
+</div>
+              
+            
+      <main property="mainContentOfPage"  class="col-sm-12 container main-container js-quickedit-main-content">
+
+                                            <div class="region region-header">
+      
+  
+      <h1 property="name" id="wb-cont" class="gc-thickline">
+<span>RETScreen</span>
+</h1>
+  
+
+
+  </div>
+
+                        
+      <section>
+
+                
+                
+                
+                          <a id="main-content"></a>
+
+                        <div class="region region-content">
+      <article class="page full clearfix">
+
+  
+    
+
+  
+  <div class="content">
+    
+            <div class="field field--name-body field--type-text-with-summary field--label-hidden field--item"><div class="row">
+<div class="col-md-7">
+<p>The <em>RETScreen<sup>®</sup> Clean Energy Management Software </em>platform  enables low-cost energy planning, implementation, monitoring and reporting.</p>
+
+<p><strong><em>RETScreen Expert</em></strong> is an all-in-one platform available in Viewer mode free-of-charge.</p>
+
+<div class="row">
+<div class="col-xs-10 col-xs-offset-1">
+<p class="mrgn-bttm-lg mrgn-tp-md"><a class="btn btn-primary btn-lg btn-block" href="https://nrcaniets.blob.core.windows.net/iets/RETScreenExpertInstaller.exe">Click here to download RETScreen Expert</a></p>
+</div>
+</div>
+
+<p>Premium features are available in Professional mode by purchasing an annual subscription. <a href="/maps-tools-and-publications/tools/modelling-tools/retscreen/retscreen-subscription-order/23599#retscreen">Click here for more information</a>.</p>
+<p>System requirements: Microsoft<sup>®</sup> Windows 8.1 | Windows 10 | Windows 11 | Microsoft<sup>®</sup> .NET Framework 4.8 or higher</p>
+</div>
+
+<div class="col-md-5">
+<h3 class="text-center mrgn-tp-0">Introduction to RETScreen Expert</h3>
+
+<div class="thumbnail">
+<figure class="wb-mltmd"><iframe class="text-center" height="290" src="https://www.youtube.com/embed/wa30PZQRGzw" title="Introduction to RETScreen Expert" width="330"></iframe>
+
+<figcaption>
+<details><summary>Transcript</summary>
+
+<p>Our world needs more clean energy.</p>
+
+<p>Renewable energy and energy efficiency can lower fuel consumption, greenhouse gas emissions, and pollution, as well as save money.</p>
+
+<p>However, it’s not always easy knowing what to do – or where to start.</p>
+
+<p>But what if you had expert help to figure it out?</p>
+
+<p>Instead of spending money evaluating potentially bad projects, or worse – investing in one that isn’t financially viable – devote your resources to a project that is going to make money, save energy, and reduce greenhouse gas emissions.</p>
+
+<p>The RETScreen Clean Energy Management Software can be your desktop energy expert.</p>
+
+<p>It’s the world’s leading software to empower cleaner energy decisions.</p>
+
+<p>RETScreen harnesses advanced algorithms to simplify decision making around energy projects, including renewable energy, energy efficiency, and cogeneration.</p>
+
+<p>Combined with a number of databases, including global climate data from NASA satellites, the RETScreen software helps determine if a proposed energy project makes financial sense.</p>
+
+<p>Whether for commercial and institutional buildings, factories, power plants, or individual homes…</p>
+
+<p>Whether you want to compare your facility to similar ones or understand the financial feasibility of your proposed project…</p>
+
+<p>Measure its energy performance after implementation or build a portfolio of multiple facilities…</p>
+
+<p>RETScreen reduces the cost of getting real, viable energy projects on the ground, and helps ensure that investments continue to perform as expected over the long term.</p>
+
+<p>Developed by the Government of Canada with a number of partners, RETScreen is used by the public and private sectors to help analyze, plan, implement and monitor energy projects, and by universities and colleges worldwide for teaching and research.</p>
+
+<p>Engineers, architects, technicians, planners and other professionals in Canada and around the world use RETScreen in 36 languages.</p>
+
+<p>Our world needs more clean energy.</p>
+
+<p>RETScreen helps get us there faster by empowering cleaner energy decisions.</p>
+</details>
+</figcaption>
+</figure>
+</div>
+</div>
+</div>
+
+<h2 class="mrgn-tp-0">About us</h2>
+
+<div class="row mrgn-tp-md">
+<div class="col-md-4 col-sm-4"><a href="/science-data/science-research/research-centres/retscreen-innovation-lab"><img alt class="img-responsive mrgn-bttm-md center-block" src="/sites/nrcan/files/canmetenergy/images/RETScreen-(2)-Innovation-Lab%20(Custom).png"></a>
+
+<p class="text-center"><a href="/science-data/science-research/research-centres/retscreen-innovation-lab"><strong>RETScreen<br>
+Innovation Lab </strong></a></p>
+</div>
+
+<div class="col-md-4 col-sm-4"><a href="/science-data/science-research/research-centres/retscreen-data-onboarding"><img alt class="img-responsive mrgn-bttm-md center-block" src="/sites/nrcan/files/canmetenergy/images/RETScreen-(3)-Data-Onboarding%20(Custom).png"></a>
+
+<p class="text-center"><a href="/science-data/science-research/research-centres/retscreen-data-onboarding"><strong>RETScreen<br>
+Data Onboarding </strong></a></p>
+</div>
+
+<div class="col-md-4 col-sm-4"><a href="/science-data/science-research/research-centres/retscreen-capacity-building"><img alt class="img-responsive mrgn-bttm-md center-block" src="/sites/nrcan/files/canmetenergy/images/RETScreen-(4)-Capacity-Building%20(Custom).png"></a>
+
+<p class="text-center"><a href="/science-data/science-research/research-centres/retscreen-capacity-building"><strong>RETScreen<br>
+Capacity Building </strong></a></p>
+</div>
+</div>
+
+
+<p>Be the first to learn about software updates and receive other RETScreen-related news. Sign up to receive communications and alerts by sending an e-mail to <a href="mailto:RETScreen@nrcan-rncan.gc.ca?Subject=Newsletter%20signup&amp;Body=Please%20include%20me%20on%20the%20RETScreen%20International%20mailing%20list.%20I%20would%20like%20to%20receive%20the%20RETScreen%20Newsletter%20and%20other%20RETScreen-related%20alerts%20via%20email.">RETScreen@nrcan-rncan.gc.ca</a>. You may unsubscribe at any time.</p>
+
+<h2 class="mrgn-tp-lg">Language selection</h2>
+
+<details class="wb-prettify"><summary>
+<h3><span lang="sq" xml:lang="sq">Shqip</span> – Albanian</h3>
+</summary>
+
+<p>RETScreen është <strong>Software i Menaxhimit të Energjisë së Pastër</strong> për efiçencën e energjisë, energjinë e rinovueshme dhe analizën e fizibilitetit të projektit të koogjenerimit, si dhe për analiza të progresit të performancës së energjisë.</p>
+
+<p><strong>RETScreen Expert</strong>, një version premium i avancuar i softuerit RETScreen, disponohet në <strong>modalitetin Viewer</strong> plotësisht pa pagesë.</p>
+
+<p><a href="https://nrcaniets.blob.core.windows.net/iets/RETScreenExpertInstaller.exe"><strong>Klikoni këtu për të shkarkuar RETScreen Expert</strong></a></p>
+
+<p>RETScreen lejon vendimmarrësit dhe profesionistët të përcaktojnë nëse një projekt i propozuar i energjisë së rinovueshme, efikasitetit të energjisë ose koogjenerimit ka kuptim financiar ose jo. Nëse një projekt është i zbatueshëm - ose nëse nuk është - RETScreen e ndihmon vendimmarrësin ta kuptojë këtë: shpejt, pa mëdyshje, në një format miqësor për përdoruesin dhe me një kosto relativisht minimale.</p>
+
+<p><strong>Kërkesat e sistemit</strong></p>
+
+<ul>
+	<li>Microsoft<sup>®</sup>&nbsp;Windows 8.1 | Windows 10 | Windows 11</li>
+	<li>Microsoft<sup>®</sup>&nbsp;.NET Framework 4.8 ose më i avancuar</li>
+</ul>
+</details>
+
+<details class="wb-prettify"><summary>
+<h3><span dir="rtl" lang="ar" xml:lang="ar">العَرَبِية</span> – Arabic</h3>
+</summary>
+
+<p dir="rtl"><span dir="ltr">&nbsp;RETScreen</span>هو نظام <strong>لبرنامج إدارة الطاقة النظيفة </strong>معني بتحليل جدوى مشروع توليد الطاقة وفعالية استخدام الطاقة والطاقة المتجددة فضلاً عن تحليل (ودراسة استهلاك الطاقة) المستمرة</p>
+
+<p dir="rtl"><span dir="rtl">تمثل نسخة متقدمة </span><span dir="rtl">من البرنامج، </span><span dir="rtl">وهي متوفرة في <strong>نمط العارض </strong>مجانا</span><strong><em>RETScreen Expert</em></strong><span dir="rtl">النسخة</span><span dir="rtl"> </span></p>
+
+<p dir="rtl"><a href="https://nrcaniets.blob.core.windows.net/iets/RETScreenExpertInstaller.exe"><strong>اظغط هنا للتحميل </strong><strong><span dir="ltr">RETScreen Expert</span></strong></a><strong><span dir="ltr"> </span></strong></p>
+
+<p dir="rtl"><span dir="ltr">RETScreen</span> تمكين المحترفين و اخذي القرارات الخاصة على العثور على المشارىع التى تسمح بحسن استخدام الطاقة و الوقوف على الجدوى الفنية والمالية لمشروعات الطاقة النظيفة المرتقبة وكذلك تقييمها وتحسينها. علاوة على ذلك، يسمح هذا النظام&nbsp; للبرنامج المعلوماتي الخاص باتخاذ القرارات التى تسمح للمديرين بتيسير قياس الأداء الفعلي والتحقق منه للمنشآت و إيجاد فرص إضافية لإنتاج و توفير الطاقة<span dir="ltr"> </span></p>
+
+<p dir="rtl"><strong>متطلبات النظام</strong><span dir="ltr"> </span><strong><span dir="ltr"> :</span></strong></p>
+
+<ul>
+	<li dir="rtl"><span dir="ltr">Microsoft<sup>®</sup>&nbsp;Windows 8.1 | Windows 10 | Windows 11</span></li>
+	<li dir="rtl">برنامج <span dir="ltr">Microsoft<sup>®</sup>&nbsp;.NET Framework 4.8</span> أو أحدث</li>
+</ul>
+</details>
+
+<details class="wb-prettify"><summary>
+<h3><span lang="bn" xml:lang="bn">বাংলা</span> – Bengali</h3>
+</summary>
+
+<p>RETScreen <strong>হচ্ছে ক্লিন এনার্জি ম্যানেজমেন্ট সফ্টওয়্যার</strong> শক্তি দক্ষতা, পুনরুজ্জীবিত শক্তি এবং কো-জেনেরেশণ প্রকল্প সম্ভাবতা বিশ্লেষণ এবং চলন্ত শক্তি সম্পাদন বিশ্লেষণ করার একটি পদ্ধতি।</p>
+
+<p><strong><em>RETScreen Expert</em></strong><strong>, </strong>সফটেওয়্যারটির একটি অগ্রসর হওয়া প্রিমিয়াম সংস্করণ<strong>, </strong>একেবারে বিনামূল্যে <strong>দর্শক মোড</strong> পাওয়া যাচ্ছে।</p>
+
+<p><a href="https://nrcaniets.blob.core.windows.net/iets/RETScreenExpertInstaller.exe"><strong>RETScreen Expert </strong><strong>ডাউনলোড করতে এখানে ক্লিক করুন</strong></a></p>
+
+<p>RETScreen পেশাদারী এবং সিদ্ধান্ত গ্রহণকারীদেরকে ক্লিন এনার্জি প্রকল্পগুলির প্রায়োগিক এবং বিত্তীয় সম্ভাবতা দ্রুতভাবে সনাক্ত, মূল্যায়ন এবং অনুকূলকরণ করতে সক্ষম করে তোলে। এর ছাড়া, এই সিদ্ধান্ত বুদ্ধিমত্তা সফ্টওয়্যার তাদের সুবিধাগুলির প্রকৃত সম্পাদনের সহজ পরিমাপ এবং যাচাই করতে ম্যানেজারদেরকে অনুমতি দেয় এবং অতিরিক্ত শক্তি সঞ্চয়/উত্পাদনের সুযোগগুলি বের করতে ম্যানেজারদেরকে সাহায্য করে।</p>
+
+<p><strong>কনফিগারেশন প্রয়োজনীয়তাগুলি:</strong></p>
+
+<ul>
+	<li>Microsoft<sup>®</sup>&nbsp;Windows 8.1 | Windows 10 | Windows 11</li>
+	<li>Microsoft<sup>®</sup>&nbsp;.NET Framework 4.8 বা তার বেশি</li>
+</ul>
+</details>
+
+<details class="wb-prettify"><summary>
+<h3><span lang="bg" xml:lang="bg">Български</span> – Bulgarian</h3>
+</summary>
+
+<p>RETScreen е <strong>Софтуер за управление на екологично чистата енергия </strong>система за енергийна ефективност, възобновяема енергия и анализи на проекти за приложимост на когенерация, както и за изходни анализи на ефективността.</p>
+
+<p><strong><em>RETScreen Expert</em></strong>, усъвършенствана разширена версия на софтуера, е достъпна в <strong>Режим "Визуализатор"</strong> напълно безплатно.</p>
+
+<p><a href="https://nrcaniets.blob.core.windows.net/iets/RETScreenExpertInstaller.exe"><strong>щракнете тук, за да свалите RETScreen Expert</strong></a></p>
+
+<p>RETScreen позволява на професионалистите и лицата, вземащи решения, бързо да разпознаят, оценят и оптимизират техническата и финансовата жизнеспособност на потениални проекти за чиста енергия. Тази софтуерна платформа за интелигентно вземане на решения позволява на мениджърите също така и лесно измерване и проверка на текущата ефективност на техните съоръжения и им помага да намерят допълнителни възможности за икономия на енергия/производство.</p>
+
+<p><strong>Системни изисквания:</strong></p>
+
+<ul>
+	<li>Microsoft<sup>®</sup>&nbsp;Windows 8.1 | Windows 10 | Windows 11</li>
+	<li>Microsoft<sup>®</sup>&nbsp;.NET Framework 4.8 или по-нова версия</li>
+</ul>
+</details>
+
+<details class="wb-prettify"><summary>
+<h3><span lang="zh" xml:lang="zh">中文</span> – Chinese</h3>
+</summary>
+
+<p>RETScreen 是一个 <strong>清</strong><strong>洁能源管理软件</strong> 用于能源效率、可再生能源和热电联产项目可行性分析及正在进行的能效分析的系统。</p>
+
+<p><strong><em>RETScreen Expert</em></strong>是软件的一种 高级版本 能够以 <strong>浏览器模式</strong> 完全免费提供。</p>
+
+<p><a href="https://nrcaniets.blob.core.windows.net/iets/RETScreenExpertInstaller.exe"><strong>点</strong><strong>击此处下载</strong><strong> RETScreen Expert</strong></a></p>
+
+<p>RETScreen 可授权专业人员和决策者对可能的洁净能源工程的财务可行性进行鉴定、评估、分析和优化。这个决策智能软件平台还可让管理人员容易测量和验证他们的设施的实际效能并帮助发现更多节能或生产良机。</p>
+
+<p><strong>系</strong><strong>统要求</strong><strong>:</strong></p>
+
+<ul>
+	<li>Microsoft<sup>®</sup>&nbsp;Windows 8.1 | Windows 10 | Windows 11</li>
+	<li>Microsoft<sup>®</sup>&nbsp;.NET Framework 4.8 或更高版本</li>
+</ul>
+</details>
+
+<details class="wb-prettify"><summary>
+<h3><span lang="hr" xml:lang="hr">Hrvatski</span> – Croatian</h3>
+</summary>
+
+<p>RETScreen <strong>Softver za upravljanje čistom energijom</strong> je sustav za analizu učinkovitosti energije, isplativost projekata obnovljivih izvora energije i kogeneracije kao i kontinuiranu analizu energetskih performansi.</p>
+
+<p><strong><em>RETScreen Expert</em></strong>, napredna premium verzija softvera, dostupna je u <strong>Načinu rada za pregled</strong> potpuno besplatno.</p>
+
+<p><a href="https://nrcaniets.blob.core.windows.net/iets/RETScreenExpertInstaller.exe"><strong>Pritisnite ovdje za preuzimanje RETScreen Experta</strong></a><strong> </strong></p>
+
+<p>RETScreen osposobljava profesionalce i donositelje odluka kako bi mogli brzo identificirati, procijeniti i optimizirati tehničku i financijsku održivost potencijalnih projekata čiste energije. Ova programska platforma za inteligentno odlučivanje također omogućuje upraviteljima lako mjerenje i provjeru stvarnih performansi njihovih postrojenja i pomaže pri otkrivanju dodatnih mogućnosti uštede ili proizvodnje energije.</p>
+
+<p><strong>Zahtjevi sustava:</strong></p>
+
+<ul>
+	<li>Microsoft<sup>®</sup>&nbsp;Windows 8.1 | Windows 10 | Windows 11</li>
+	<li>Microsoft<sup>®</sup>&nbsp;.NET Framework 4.8 ili noviji</li>
+</ul>
+</details>
+
+<details class="wb-prettify"><summary>
+<h3><span lang="cs" xml:lang="cs">Česky</span> – Czech</h3>
+</summary>
+
+<p>RETScreen je systémový <strong>software pro hospodaření s čistou energií</strong> zajišťující efektivní využití energie, využití obnovitelné energie a proveditelnost kogeneračních projektů, stejně jako průběžnou analýzu energetické výkonnosti.</p>
+
+<p><strong><em>RETScreen Expert</em></strong>, pokročilá prémiová verze softwaru je k dispozici v <strong>režimu Prohlížeč</strong> zcela zdarma.</p>
+
+<p><a href="https://nrcaniets.blob.core.windows.net/iets/RETScreenExpertInstaller.exe"><strong>Klikněte zde a stáhněte si RETScreen Expert</strong></a><strong> </strong></p>
+
+<p>RETScreen umožňuje odborníkům a vedoucím pracovníkům rychle identifikovat, posoudit a optimalizovat technickou a finanční proveditelnost potenciálních projektů využívajících čistou energii. Díky této softwarové platformě umožňující činit odborná a inteligentní rozhodnutí mohou rovněž manažeři snadno měřit a ověřovat výkon svých zařízení a určovat další možnosti úspor/výroby energie.</p>
+
+<p><strong>Systémové požadavky:</strong></p>
+
+<ul>
+	<li>Microsoft<sup>®</sup>&nbsp;Windows 8.1 | Windows 10 | Windows 11</li>
+	<li>Microsoft<sup>®</sup>&nbsp;.NET Framework 4.8 nebo vyšší</li>
+</ul>
+</details>
+
+<details class="wb-prettify"><summary>
+<h3><span lang="da" xml:lang="da">Dansk</span> – Danish</h3>
+</summary>
+
+<p>RETScreen er et <strong>Styringssoftware for ren energi</strong>-system til energiudnyttelse, vedvarende energi og kombineret produktionsprojekt gennemførlighed-analyse samt en løbende energiydelsesanalyse.</p>
+
+<p><strong><em>RETScreen Expert</em></strong>, en avanceret premium-version af softwaren, er tilgængelig i <strong>Viewer-mode</strong> helt gratis.</p>
+
+<p><a href="https://nrcaniets.blob.core.windows.net/iets/RETScreenExpertInstaller.exe"><strong>Klik her for at hente RETScreen Expert</strong></a></p>
+
+<p>RETScreen gør fagfolk og beslutningstagere i stand til hurtigt at identificere, vurdere og optimere&nbsp; den tekniske og finansielle levedygtighed for potentielle projekter inden for ren energi. Med denne programplatform til behandling af beslutningsinformationer kan ledelsen hurtigt måle og kontrollere deres anlægs nøjagtige ydeevne. Det er et værktøj til at finde flere energispare/produktionsmuligheder.</p>
+
+<p><strong>Systemkrav:</strong></p>
+
+<ul>
+	<li>Microsoft<sup>®</sup>&nbsp;Windows 8.1 | Windows 10 | Windows 11</li>
+	<li>Microsoft<sup>®</sup>&nbsp;.NET Framework 4.8 eller nyere</li>
+</ul>
+</details>
+
+<details class="wb-prettify"><summary>
+<h3><span lang="nl" xml:lang="nl">Nederlands</span> – Dutch</h3>
+</summary>
+
+<p>RETScreen is een <strong>Energiebeheersoftware</strong> systeem voor energie-efficiëntie, duurzame energie en haalbaarheidsanalyse voor warmtekrachtkoppelingprojecten alsook voortdurende energieprestatie-analyse.</p>
+
+<p><strong><em>RETScreen Expert</em></strong>, een geavanceerde premium versie van de software, is geheel gratis verkrijgbaar in de <strong>Viewer-modus</strong>.</p>
+
+<p><a href="https://nrcaniets.blob.core.windows.net/iets/RETScreenExpertInstaller.exe"><strong>Klikt u hier om RETScreen Expert te downloaden</strong></a></p>
+
+<p>RETScreen stelt professionals en beleidsmakers in staat om snel de technische en financiële haalbaarheid van mogelijke projecten voor schone energie te identificeren, evalueren en optimaliseren. Dit intelligente softwareplatform voor besluitvorming stelt managers ook in staat om gemakkelijk de feitelijke prestaties van hun voorzieningen te meten en controleren en helpt zoeken naar additionele energiebesparende en productiemogelijkheden.</p>
+
+<p><strong>Systeemvereisten:</strong></p>
+
+<ul>
+	<li>Microsoft<sup>®</sup>&nbsp;Windows 8.1 | Windows 10 | Windows 11</li>
+	<li>Microsoft<sup>®</sup>&nbsp;.NET Framework 4.8 of hoger</li>
+</ul>
+</details>
+
+<details class="wb-prettify"><summary>
+<h3><span dir="rtl" lang="fa" xml:lang="fa">پارسی</span> – Farsi</h3>
+</summary>
+
+<p dir="rtl"><strong><span dir="rtl">&nbsp;</span></strong><span dir="ltr">RETScreen</span> یک<strong> نرم افزار مدیریت انرژی پاک</strong> برای تحلیل&nbsp; راندمان انرژی ،انرژی های تجدید پذیر وامکان سنجی اجرای<span dir="ltr"> </span>پروژه های تولید همزمان نیرو و حرارت و همچنین بررسی راندمان پروژه های&nbsp; در دست اقدام می باشد<span dir="ltr"> </span><span dir="ltr"> .</span></p>
+
+<p dir="rtl"><strong><em><span dir="ltr">RETScreen Expert</span></em></strong><span dir="rtl"> </span> <strong>،</strong><span dir="ltr"> </span><strong>نسخه ممتاز</strong> پیشرفته نرم‌افزار، در <strong>حالت نمایشی</strong> کاملاً رایگان است<span dir="ltr"> </span><strong><span dir="ltr"> .</span></strong></p>
+
+<p dir="rtl"><a href="https://nrcaniets.blob.core.windows.net/iets/RETScreenExpertInstaller.exe"><strong>برای دانلود اینجا را کلیک کنید </strong><strong><span dir="ltr">RETScreen Expert</span></strong></a></p>
+
+<p dir="rtl">نرم افزار <span dir="ltr">RETScreen</span> افراد حرفه ای و تصمیم گیرنده را جهت شناخت سریع، ارزیابی و بهینه سازی امکان سنجی فنی و مالی پروژه های انرژی های پاک احتمالی به کار می گیرد.این سکوی نرم افزاری هوشمند تصمیم گیری، علاوه بر این به مدیران این امکان را می دهد تا به سادگی عملکرد واقعی تاسیسات خود را اندازه گیری و صحه گذاری نمایند و فرصت های صرفه جویی/تولید انرژی بیشتر را بیابند<span dir="ltr"> </span><br>
+<strong>نیازهای سیستم</strong><span dir="ltr"> </span><strong><span dir="ltr"> :</span></strong></p>
+
+<ul>
+	<li dir="rtl"><span dir="ltr">Microsoft<sup>®</sup>&nbsp;Windows 8.1 | Windows 10 | Windows 11</span></li>
+	<li dir="rtl"><span dir="ltr">Microsoft<sup>®</sup>&nbsp;.NET Framework 4.8 </span>&nbsp;یا بالاتر</li>
+</ul>
+</details>
+
+<details class="wb-prettify"><summary>
+<h3><span lang="fi" xml:lang="fi">Suomi</span> – Finnish</h3>
+</summary>
+
+<p>RETScreen on <strong>Päästöttömän energian hallintaohjelmisto</strong> järjestelmä energiatehokkuuden, uusiutuvien energialähteiden ja yhteistuotantohankkeen toteutettavuusanalyysiin sekä jatkuvaan energiatehokkuusanalyysiin.</p>
+
+<p><strong><em>RETScreen Expert</em></strong>, kehittyneempi premium versio ohjelmistosta, on saatavilla <strong>Viewer mode</strong> täysin ilmaiseksi.</p>
+
+<p><a href="https://nrcaniets.blob.core.windows.net/iets/RETScreenExpertInstaller.exe"><strong>Klikkaa tästä ladataksesi RETScreenin Expertin</strong></a></p>
+
+<p>RETScreen antaa ammattilaisten ja päättäjien nopeasti tunnistaa, arvioida ja optimoida teknistä ja taloudellista tuottavuutta mahdollisiin puhtaan energian hankkeisiin. Tämä päätöksenteon ohjelmistoalustan ansiosta myös johtajat voivat helposti mitata ja todentaa laitostensa todellisen suorituskyvyn ja löytää uusia mahdollisuuksia säästää energiaa / tuotantomahdollisuuksia.</p>
+
+<p><strong>Järjestelmävaatimukset:</strong></p>
+
+<ul>
+	<li>Microsoft<sup>®</sup>&nbsp;Windows 8.1 | Windows 10 | Windows 11</li>
+	<li>Microsoft<sup>®</sup>&nbsp;.NET Framework 4.8 tai uudempi</li>
+</ul>
+</details>
+
+<details class="wb-prettify"><summary>
+<h3><span lang="de" xml:lang="de">Deutsch</span> – German</h3>
+</summary>
+
+<p>RETScreen ist ein System <strong>Managementsoftware</strong> <strong>für saubere Energien</strong> zur Prüfung der Machbarkeit von Projekten im Bereich der Energieeffizienz, der erneuerbaren Energien und der Kraft/Wärme-Kopplung, sowie zur laufenden Untersuchung der energiebezogenen Leistungsdaten.</p>
+
+<p><strong><em>RETScreen Expert</em></strong>, eine erweiterte Premium-Version, ist vollkommen kostenlos im <strong>Viewer-Modus</strong> verfügbar.</p>
+
+<p><a href="https://nrcaniets.blob.core.windows.net/iets/RETScreenExpertInstaller.exe"><strong>Klicken Sie hier, um RETScreen Expert herunterzuladen</strong></a></p>
+
+<p>RETScreen ermöglicht es Fachleuten und Entscheidungsträgern, die technische und finanzielle Durchführbarkeit geplanter Projekt im Bereich saubere Energien auf schnelle Weise zu erkennen, zu bewerten und zu optimieren. Dank der intelligenten, softwaregestützten Entscheidungsplattform können Manager die tatsächlichen Leistungsdaten ihrer Anlage messen und prüfen sowie zusätzliche Möglichkeiten zu Energieeinsparung/-erzeugung erkennen.</p>
+
+<p><strong>Systemanforderungen:</strong></p>
+
+<ul>
+	<li>Microsoft<sup>®</sup>&nbsp;Windows 8.1 | Windows 10 | Windows 11</li>
+	<li>Microsoft<sup>®</sup>&nbsp;.NET Framework 4.8 oder höher</li>
+</ul>
+</details>
+
+<details class="wb-prettify"><summary>
+<h3><span lang="el" xml:lang="el">Ελληνικά</span> – Greek</h3>
+</summary>
+
+<p>Το RETScreen είναι ένα σύστημα <strong>Λογισμικού Διαχείρισης Καθαρής Ενέργειας</strong> για την ανάλυση σκοπιμότητας έργων ενεργειακής απόδοσης, ανανεώσιμης ενέργειας και συμπαραγωγής ενέργειας, όπως επίσης και για την ανάλυση της εν εξελίξει ενεργειακής απόδοσης.</p>
+
+<p>Το<strong><em> RETScreen Expert</em></strong>, μια προηγμένη προνομιακή έκδοση του λογισμικού, διατίθεται σε <strong>Λειτουργία προβολής</strong> εντελώς δωρεάν.</p>
+
+<p><a href="https://nrcaniets.blob.core.windows.net/iets/RETScreenExpertInstaller.exe"><strong>κάντε κλικ εδώ για να κατεβάσετε το RETScreen Expert</strong></a></p>
+
+<p>Το RETScreen ενισχύει τους επαγγελματίες και τους λήπτες αποφάσεων στο γρήγορο εντοπισμό, εκτίμηση και βελτιστοποίηση της τεχνικής και οικονομικής βιωσιμότητας των δυνητικών έργων καθαρής ενέργειας. Αυτή η πλατφόρμα λογισμικού νοημοσύνης αποφάσεων επιτρέπει επίσης στους διευθυντές να μετρούν εύκολα και να επαληθεύουν την πραγματική απόδοση των εγκαταστάσεών τους και βοηθά στην εξεύρεση πρόσθετων ευκαιριών εξοικονόμησης/παραγωγής ενέργειας.</p>
+
+<p><strong>Απαιτήσεις συστήματος:</strong></p>
+
+<ul>
+	<li>Microsoft<sup>®</sup>&nbsp;Windows 8.1 | Windows 10 | Windows 11</li>
+	<li>Microsoft<sup>®</sup>&nbsp;.NET Framework 4.8 ή ανώτερο</li>
+</ul>
+</details>
+
+<details class="wb-prettify"><summary>
+<h3><span lang="hi" xml:lang="hi">हिन्दी</span> – Hindi</h3>
+</summary>
+
+<p>RETScreen ऊर्जा-कार्यदक्षता, नवीकरणीय ऊर्जा और सह-निर्माण परियोजना की व्यवहार्यता विश्लेषण तथा चालू ऊर्जा निष्पादन विश्लेषण के लिए <strong>स्वच्छ ऊर्जा प्रबंधन सॉफ़्टवेयर</strong> प्रणाली है।</p>
+
+<p><strong><em>RETScreen Expert</em></strong>, सॉफ़्टवेयर का उन्नत प्रीमियम संस्करण <strong>दर्शक विधा</strong> में बिलकुल मुफ़्त में उपलब्ध है।</p>
+
+<p><a href="https://nrcaniets.blob.core.windows.net/iets/RETScreenExpertInstaller.exe"><strong>RETScreen Expert </strong><strong>को डाउनलोड करने के लिए यहाँ क्लिक करें</strong></a></p>
+
+<p>RETScreen पेशेवरों और निर्णय-कर्ताओं को संभाव्य स्वच्छ ऊर्जा परियोजनाओं की तकनीकी और वित्तीय व्यवहार्यता को तेज़ी से पहचानने, मूल्यांकित करने और इष्टतमीकृत करने में समर्थ करता है। निर्णय बुद्धिमत्ता सॉफ़्टवेयर से मंच प्रबंधक अपनी सुविधाओं के वास्तविक निष्पादन को आसानी से माप और सत्यापित कर सकते हैं तथा यह उन्हें अतिरिक्त ऊर्जा बचत/उत्पादन अवसर खोजने में भी उनकी मदद करता है।</p>
+
+<p><strong>प्रणाली-गत आवश्यकताएँ</strong><strong>:</strong></p>
+
+<ul>
+	<li>Microsoft<sup>®</sup>&nbsp;Windows 8.1 | Windows 10 | Windows 11</li>
+	<li>Microsoft<sup>®</sup>&nbsp;.NET फ्रेमवर्क 4.8 या उससे उन्नत</li>
+</ul>
+</details>
+
+<details class="wb-prettify"><summary>
+<h3><span lang="hu" xml:lang="hu">Magyar</span> – Hungarian</h3>
+</summary>
+
+<p>A RETScreen egy <strong>tisztaenergia-kezelő szoftver</strong> rendszer, amelynek célja az energiahatékonyság, a megújuló energia- és kogenerációs projektek megvalósíthatóságának elemzése, valamint az energiateljesítmény folyamatos elemzése.</p>
+
+<p>A <strong><em>RETScreen Expert</em></strong>, a szoftver haladó prémium verziója <strong>Megtekintő módban</strong> teljesen ingyenesen rendelkezésre áll.</p>
+
+<p><a href="https://nrcaniets.blob.core.windows.net/iets/RETScreenExpertInstaller.exe"><strong>Kattintson ide a RETScreen Expert letöltéséhez</strong></a></p>
+
+<p>A RETScreen lehetővé teszi a szakemberek és döntéshozók számára, hogy rövid idő alatt azonosítsák, felmérjék és optimalizálják a potenciális tisztaenergia-projektek műszaki és pénzügyi megvalósíthatóságát. Ez a döntéssegítő szoftverplatform azt is lehetővé teszi a vezetők számára, hogy egyszerűen mérjék és ellenőrizzék létesítményeik tényleges teljesítményét, és további energiatakarékossági/termelési lehetőségek fellelésében is segít.</p>
+
+<p><strong>Rendszerkövetelmények:</strong></p>
+
+<ul>
+	<li>Microsoft<sup>®</sup>&nbsp;Windows 8.1 | Windows 10 | Windows 11</li>
+	<li>Microsoft<sup>®</sup>&nbsp;.NET Framework 4.8 vagy újabb</li>
+</ul>
+</details>
+
+<details class="wb-prettify"><summary>
+<h3><span lang="id" xml:lang="id">Bahasa Indonesia</span> – Indonesian</h3>
+</summary>
+
+<p>RETScreen adalah sistem <strong>Perangkat Lunak Manajemen Energi Bersih</strong> untuk efisiensi energi, energi terbarukan, dan analisis kelayakan proyek kogenerasi serta analisis kinerja energi berkelanjutan.</p>
+
+<p><strong><em>RETScreen Expert</em></strong>, versi premium tingkat lanjutan dari perangkat lunak ini, tersedia dalam <strong>mode Penampil</strong> secara gratis.</p>
+
+<p><a href="https://nrcaniets.blob.core.windows.net/iets/RETScreenExpertInstaller.exe"><strong>Klik di sini untuk mengunduh RETScreen Expert</strong></a></p>
+
+<p>RETScreen memberdayakan para profesional dan pengambil keputusan agar dapat dengan cepat mengidentifikasi, menilai, dan mengoptimalkan kelayakan teknis dan kelayakan keuangan proyek-proyek energi bersih. Platform perangkat lunak kecerdasan keputusan ini juga memungkinkan para manajer agar dapat dengan mudah mengukur dan memverifikasi fasilitas mereka serta membantu menemukan peluang penghematan/ produksi energi tambahan.</p>
+
+<p><strong>Persyaratan sistem:</strong></p>
+
+<ul>
+	<li>Microsoft<sup>®</sup>&nbsp;Windows 8.1 | Windows 10 | Windows 11</li>
+	<li>Microsoft<sup>®</sup>&nbsp;.NET Framework 4.8 atau yang lebih baru</li>
+</ul>
+</details>
+
+<details class="wb-prettify"><summary>
+<h3><span lang="it" xml:lang="it">Italiano</span> – Italian</h3>
+</summary>
+
+<p>RETScreen è un <strong>Software di gestione energetica</strong> dedicato all'analisi della fattibilità di progetti di efficienza energetica, per l'utilizzo delle energie rinnovabili e di cogenerazione, nonché all'analisi continua delle prestazioni energetiche.</p>
+
+<p><strong><em>RETScreen Expert</em></strong>, la versione avanzata premium del software, è disponibile gratuitamente in <strong>modalità Viewer</strong>.</p>
+
+<p><a href="https://nrcaniets.blob.core.windows.net/iets/RETScreenExpertInstaller.exe"><strong>Fare clic qui per scaricare RETScreen Expert</strong></a><strong> </strong></p>
+
+<p>RETScreen permette ai professionisti e ai responsabili delle decisioni di identificare, valutare e ottimizzare rapidamente la fattibilità tecnica e finanziaria dei potenziali progetti di utilizzo di energia pulita. Inoltre, questa piattaforma software decisionale consente ai manager di misurare e verificare con facilità le prestazioni reali dei loro impianti, aiutandoli a trovare nuove opportunità di risparmio/produzione di energia.</p>
+
+<p><strong>Requisiti di sistema:</strong></p>
+
+<ul>
+	<li>Microsoft<sup>®</sup>&nbsp;Windows 8.1 | Windows 10 | Windows 11</li>
+	<li>Microsoft<sup>®</sup>&nbsp;.NET Framework 4.8 o versioni successive</li>
+</ul>
+</details>
+
+<details class="wb-prettify"><summary>
+<h3><span lang="ja" xml:lang="ja">日本語</span> – Japanese</h3>
+</summary>
+
+<p>RETScreen は エネルギー効率、再生可能エネルギー及び、コージェネレーション•プロジェクトの実行可能性分析や、現在進行中のエネルギー•パフォーマンス分析のための<strong>クリーンエネルギーマネージメントソフト</strong>システムです。</p>
+
+<p><strong><em>RETScreen Expert </em></strong>、ソフトウェアの詳細プレミアムバージョンは完全に無料で<strong>ビューアーモード</strong>で利用できる</p>
+
+<p><a href="https://nrcaniets.blob.core.windows.net/iets/RETScreenExpertInstaller.exe"><strong>ここをクリックして</strong><strong>RETScreen Expert</strong><strong>をダウンロードしてください</strong></a><strong> </strong></p>
+
+<p>RETScreen　によって、担当者と意思決定者が潜在的なクリーンエネルギー•プロジェクトの技術的、及び資金的な実行可能性を早く確定、予想、最適化することが出来る様になります。この意思決定知性ソフトプラットフォームによって、マネジャーが簡単に実際の彼等の施設のパフォーマンスを測定検証し、追加的なエネルギー節約／生産の機会を見つけるのに役立ちます。</p>
+
+<p><strong>システム必要条件</strong><strong>:</strong></p>
+
+<ul>
+	<li>Microsoft<sup>®</sup>&nbsp;Windows 8.1 | Windows 10 | Windows 11</li>
+	<li>Microsoft<sup>®</sup>&nbsp;.NET Framework 4.8もしくはそれ以上</li>
+</ul>
+</details>
+
+<details class="wb-prettify"><summary>
+<h3><span lang="ko" xml:lang="ko">한국어</span> – Korean</h3>
+</summary>
+
+<p>RETScreen 은 에너지 성능을 지속적으로 분석하고 에너지 효율성, 재생 가능 에너지 및 열병합 발전 프로젝트의 타당성을 분석하기 위한 <strong>청정 에너지 관리 소프트웨어</strong> 시스템이다.</p>
+
+<p>소프트웨어의 고급 프리미엄 버전인<em>&nbsp;<strong>RETScreen Expert </strong></em>는 전부 무료로 <strong>뷰어</strong> <strong>모드</strong>로 제공됩니다.</p>
+
+<p><a href="https://nrcaniets.blob.core.windows.net/iets/RETScreenExpertInstaller.exe"><strong>이곳을</strong><strong> </strong><strong>클릭하여</strong><strong> RETScreen Expert</strong><strong>를</strong><strong> </strong><strong>다운로드</strong></a></p>
+
+<p>RETScreen을 활용하여 전문가, 의사 결정권자가 신속히 잠재적 청정 에너지 프로젝트의 기술적, 재정적 실현 가능성을 파악, 평가, 최적화할 수 있습니다. 또한 관리자가 본 결정 지능 소프트웨어 플랫폼으로 설비물의 실지 수행 기능을 손쉽게 측정, 확인할 수 있으며, 기타 에너지 절감/생산의 기회를 파악할 수 있습니다.</p>
+
+<p><strong>시스템 요구 사항:</strong></p>
+
+<ul>
+	<li>Microsoft<sup>®</sup>&nbsp;Windows 8.1 | Windows 10 | Windows 11</li>
+	<li>Microsoft<sup>®</sup>&nbsp;.NET Framework 4.8 이상</li>
+</ul>
+</details>
+
+<details class="wb-prettify"><summary>
+<h3><span lang="mk" xml:lang="mk">Македонски</span> – Macedonian</h3>
+</summary>
+
+<p>RETScreen е систем со <strong>софтвер за управување со чиста нергија</strong> за анализа на изводливоста на проектите за енергетска ефикасност, обновлива енергија и когенерација, како и анализа на тековните енергетски резултати.</p>
+
+<p><strong><em>RETScreen Expert</em></strong>, напредна премиум верзија на софтверот, е достапна <strong>во Режим на прегледувач</strong> целосно бесплатно.</p>
+
+<p><a href="https://nrcaniets.blob.core.windows.net/iets/RETScreenExpertInstaller.exe"><strong>кликнете овде за да го преземете RETScreen Expert</strong></a><strong> </strong></p>
+
+<p>RETScreen им овозможува на професионалците и носителите на одлуки брзо да ја утврдуваат, оценуваат и оптимизираат техничката и финансиската одржливост на потенцијалните проекти за чиста енергија. Оваа софтверска платформа за известување за донесените одлуки исто така им овозможува на менаџерите лесно да ги измерат и потврдат фактичките резултати на нивните објекти и помага при наоѓањето дополнителни можности за заштеда/производство на енергија.</p>
+
+<p><strong>Системски барања:</strong></p>
+
+<ul>
+	<li>Microsoft<sup>®</sup>&nbsp;Windows 8.1 | Windows 10 | Windows 11</li>
+	<li>Microsoft<sup>®</sup>&nbsp;.NET Framework 4.8 или понова верзија</li>
+</ul>
+</details>
+
+<details class="wb-prettify"><summary>
+<h3><span lang="mn" xml:lang="mn">Монгол</span> – Mongolian</h3>
+</summary>
+
+<p>RETScreen бол эрчим хүчний үр ашиг, сэргээгдэх эрчим хүч, когенерацийн төслүүдийн боломжит байдал, өнөөгийн эрчим хүчний гүйцэтгэлд дүн шинжилгээ хийх&nbsp;<strong>цэвэр эрчим хүчний менежментийн систем</strong>&nbsp;юм.&nbsp;</p>
+
+<p>Програмын сайжруулсан, төлбөртэй хувилбар болох&nbsp;<strong>RETScreen Expert</strong>&nbsp;програмыг&nbsp;<strong>үзэгчийн хувьд</strong>&nbsp;бүрэн үнэгүй ашиглах боломжтой.&nbsp;</p>
+
+<p>[<a href="https://nrcaniets.blob.core.windows.net/iets/RETScreenExpertInstaller.exe" target="_blank">RETScreen Expert</a>&nbsp;<strong>татаж авах бол энд дарна уу</strong>]</p>
+
+<p>RETScreen нь цэвэр эрчим хүчний боломжит төслүүдийн техникийн болон санхүүгийн чадавхийг хурдан тодорхойлох, үнэлэх, оновчтой болгох чадварыг мэргэжилтнүүд, удирдагчдад олгодог. Энэхүү шинжээчийн шийдвэр гаргах програм хангамжийн платформ нь менежерүүдэд байгууламжийнхаа бодит гүйцэтгэлийг хялбархан хэмжих, шалгах боломжийг олгодог бөгөөд нэмэлт үйлдвэрлэлийн / эрчим хүчний хэмнэлт гаргах боломжийг тодорхойлоход тусалдаг.</p>
+
+<p><strong>Системийн шаардлага</strong>&nbsp;</p>
+
+<p>Microsoft® Windows 8.1 | Windows 10 | Windows 11</p>
+
+<p>Microsoft® .NET Framework 4.8 &nbsp;ба түүнээс дээш хувилбарууд</p>
+</details>
+
+<details class="wb-prettify"><summary>
+<h3><span lang="pl" xml:lang="pl">Polski</span> – Polish</h3>
+</summary>
+
+<p>RETScreen to system do <strong>oprogramowanie do zarządzania czystą energetyką</strong> służący do analizy wykonalności projektów efektywności energetycznej, odnawialnej energii oraz&nbsp; kogeneracji, jak również bieżącej analizy wydajności energetycznej.&nbsp;</p>
+
+<p><strong><em>RETScreen Expert</em></strong>, zaawansowana wersja premium oprogramowania, dostępna jest <strong>w trybie przeglądania</strong> całkowicie bezpłatnie.&nbsp;</p>
+
+<p><a href="https://nrcaniets.blob.core.windows.net/iets/RETScreenExpertInstaller.exe"><strong>Kliknij tutaj w celu pobrania RETScreen Expert</strong></a></p>
+
+<p>RETScreen umożliwia ekspertom i osobom decyzyjnym szybką identyfikację, ocenę i optymalizację techniczną oraz finansową wykonalności potencjalnych projektów dotyczących czystej energii. Taka platforma inteligentnego oprogramowania ds. podejmowania decyzji pozwala także kierownictwu na ułatwioną ocenę i weryfikację rzeczywistej wydajności obiektów oraz pomaga w znalezieniu dodatkowych możliwych oszczędności praz mocy produkcyjnych.</p>
+
+<p><strong>Wymagania systemu:</strong></p>
+
+<ul>
+	<li>Microsoft<sup>®</sup>&nbsp;Windows 8.1 | Windows 10 | Windows 11</li>
+	<li>Microsoft<sup>®</sup>&nbsp;.NET Framework 4.8 &nbsp;lub wersja późniejsza</li>
+</ul>
+</details>
+
+<details class="wb-prettify"><summary>
+<h3><span lang="pt" xml:lang="pt">Português</span> – Portuguese</h3>
+</summary>
+
+<p>RETScreen é um sistema <strong>Software de gerenciamento de energia limpa</strong> destinado a analisar a viabilidade de projetos de eficácia energética, energias renováveis e de cogeração, assim como analisar o desempenho energético de forma contínua.</p>
+
+<p><strong><em>RETScreen Expert</em></strong>, uma versão premium do software, está disponível gratuitamente em <strong>Modo Visualizador</strong>.</p>
+
+<p><a href="https://nrcaniets.blob.core.windows.net/iets/RETScreenExpertInstaller.exe"><strong>Clique aqui para&nbsp; baixar o RETScreen Expert</strong></a><strong> </strong></p>
+
+<p>RETScreen permite aos profissionais e decisores identificar, avaliar e otimizar de forma rápida a viabilidade técnica e financeira de potenciais projetos em matéria de energia limpa. Esta plataforma de decisão inteligente permite também aos gerentes medir e verificar facilmente os desempenhos reais de suas instalações, e ainda encontrar possibilidades suplementares de economia e produção energética.</p>
+
+<p><strong>Requisitos do sistema:</strong></p>
+
+<ul>
+	<li>Microsoft<sup>®</sup>&nbsp;Windows 8.1 | Windows 10 | Windows 11</li>
+	<li>Microsoft<sup>®</sup>&nbsp;.NET Framework 4.8 ou superior</li>
+</ul>
+</details>
+
+<details class="wb-prettify"><summary>
+<h3><span lang="ro" xml:lang="ro">Română</span> – Romanian</h3>
+</summary>
+
+<p>RETScreen este un sistem <strong>Soft de Administrare a Energiei Curate</strong> pentru analiza fezabilității proiectelor pentru eficiență energetică, energie&nbsp; regenerabilă și cogenerare, precum și analiza performanței energetice continue.</p>
+
+<p><strong><em>RETScreen Expert</em></strong>, o versiune premium avansată a software-ului, este disponibilă în <strong>Modul vizualizare</strong> complet gratuită.</p>
+
+<p><a href="https://nrcaniets.blob.core.windows.net/iets/RETScreenExpertInstaller.exe"><strong>Faceți clic aici pentru a descărca RETScreen Expert</strong></a><strong> </strong></p>
+
+<p>RETScreen permite profesioniștilor și factorilor de decizie identificarea, evaluarea și optimizarea rapidă a viabilității tehnice și financiare a posibilelor proiecte de energie curată. Platforma de software expert în decizii inteligente permite de asemenea administratorilor măsurarea facilă și verificarea performanței actuale a facilităților lor, și ajută la găsirea unor oportunități adiționale de economii de energie/producție.</p>
+
+<p><strong>Cerințele pentru sistem:</strong></p>
+
+<ul>
+	<li>Microsoft<sup>®</sup>&nbsp;Windows 8.1 | Windows 10 | Windows 11</li>
+	<li>Microsoft<sup>®</sup>&nbsp;.NET Framework 4.8 &nbsp;sau mai nou</li>
+</ul>
+</details>
+
+<details class="wb-prettify"><summary>
+<h3><span lang="ru" xml:lang="ru">Pу́сский</span> – Russian</h3>
+</summary>
+
+<p>RETScreen является системой <strong>пo рационального использования чистой энергии</strong> для анализа осуществимости проектов по энергетической эффективности, использованию источников возобновляемой энергии и конгенерации, а также для анализа текущих энергетических показателей.</p>
+
+<p><strong><em>RETScreen Expert</em></strong>, расширенная платная версия программного обеспечения, доступна в <strong>режиме просмотра </strong>совершенно бесплатно.</p>
+
+<p><a href="https://nrcaniets.blob.core.windows.net/iets/RETScreenExpertInstaller.exe"><strong>щелкните здесь, чтобы загрузить RETScreen Expert</strong></a><strong> </strong></p>
+
+<p>RETScreen наделяет профессионалов и руководителей возможностью быстро определять, оценивать и оптимизировать техническую и финансовую жизнеспособность возможных проектов экологически чистых видов энергии. Эта новая программная платформа для принятие экспертных решений также позволяет менеджерам легко измерять и проверять фактическую эффективность своих объектов, а также помогает находить дополнительные возможности производства/экономии энергии.</p>
+
+<p><strong>Системные требования:</strong></p>
+
+<ul>
+	<li>Microsoft<sup>®</sup>&nbsp;Windows 8.1 | Windows 10 | Windows 11</li>
+	<li>Microsoft<sup>®</sup>&nbsp;.NET Framework 4.8 или выше</li>
+</ul>
+</details>
+
+<details class="wb-prettify"><summary>
+<h3><span lang="sr" xml:lang="sr">Srpski</span> – Serbian</h3>
+</summary>
+
+<p>RETScreen je sistem <strong>Softver za upravljanje projektima čiste energije</strong> a energetsku efikasnost, obnovljivu energiju i analizu izvodljivosti projekata kogenerisanja kao i za kontinuiranu analizu energetskih performansi.</p>
+
+<p><strong><em>RETScreen Expert</em></strong>, napredna prvoklasna verzija softvera, dostupna je u <strong>osnovnom režimu slike</strong> potpuno besplatno.</p>
+
+<p><a href="https://nrcaniets.blob.core.windows.net/iets/RETScreenExpertInstaller.exe"><strong>Kliknite ovde da preuzmete program RETScreen Expert</strong></a><strong> </strong></p>
+
+<p>RETScreen omogućava profesionalcima i donosiocima odluka da brzo identifikuju, procene i optimizuju tehničku i finansijsku održivost potencijalnih projekata čsite energije. Ova obaveštajna softverska platforma za donošenje odluka takođe omogućava menadžerima da lakše mere i verifikuju stvarne performanse svojih objekata i pomaže naći dodatne mogućnosti proizvodnje/štednje energije.</p>
+
+<p><strong>Uslovi sistema:</strong></p>
+
+<ul>
+	<li>Microsoft<sup>®</sup>&nbsp;Windows 8.1 | Windows 10 | Windows 11</li>
+	<li>Microsoft<sup>®</sup>&nbsp;.NET Framework 4.8 ili noviji</li>
+</ul>
+</details>
+
+<details class="wb-prettify"><summary>
+<h3><span lang="es" xml:lang="es">Español</span> – Spanish</h3>
+</summary>
+
+<p>RETScreen es un sistema<strong> software de gestión de energías limpias</strong> para el análisis de viabilidad de proyectos de eficiencia energética, energías renovables y cogeneración, así como para el análisis del rendimiento energético operativo.</p>
+
+<p><strong><em>RETScreen Expert</em></strong>, una avanzada premium version del programa, disponible en <strong>Modo visualización</strong> gratuitamente.</p>
+
+<p><a href="https://nrcaniets.blob.core.windows.net/iets/RETScreenExpertInstaller.exe"><strong>Haga clic aquí para descargar RETScreen Expert</strong></a><strong> </strong></p>
+
+<p>RETScreen permite a los profesionales y los directivos identificar, evaluar y optimizar de forma rápida la viabilidad técnica y financiera de proyectos potenciales de energías limpias. Esta plataforma de software experta inteligente de toma de decisiones también permite a los directivos medir y verificar fácilmente el rendimiento real de las instalaciones y facilita la detección de oportunidades adicionales de producción y ahorro de energía.</p>
+
+<p><strong>Requisitos del sistema:</strong></p>
+
+<ul>
+	<li>Microsoft<sup>®</sup>&nbsp;Windows 8.1 | Windows 10 | Windows 11</li>
+	<li>Microsoft<sup>®</sup>&nbsp;.NET Framework 4.8 o superior</li>
+</ul>
+</details>
+
+<details class="wb-prettify"><summary>
+<h3><span lang="sw" xml:lang="sw">Kiswahili</span> – Swahili</h3>
+</summary>
+
+<p>RETScreen ni mfumo wa Programu ya <strong>Usimamizi wa Nishati Safi</strong> wa matumizi bora ya nishati, nishati inayoweza kutumiwa tena na uchanganuzi wa mradi unaowezekana wa uzalishaji upya na hata pia uchanganuzi wa utendajikazi unaoendelea wa nishati.</p>
+
+<p><strong><em>RETScreen Expert</em></strong>, toleo mahiri la kulipiwa la programu, linapatikana katika <strong>Hali ya mtazamaji</strong> bila malipo yoyote.</p>
+
+<p><a href="https://nrcaniets.blob.core.windows.net/iets/RETScreenExpertInstaller.exe"><strong>Bofya hapa ili upakue RETScreen Expert</strong></a><strong> </strong></p>
+
+<p>RETScreen huwawezesha wataalamu na wafanya maamuzi kutambua, kufikia na kuboresha uwezekano wa kiufundi na wa kifedha wa miradi ya nishati safi haraka. Jukwaa hili la programu ya uamuzi wa ujasusi huwawezesha pia wasimamizi kupima kwa urahisi na kuthibitisha utendajikazi halisi wa suhula na husaidia kupata nafasi za ziada za kuhifadhi/uzalishaji wa nishati.</p>
+
+<p><strong>Mahitaji ya mfumo:</strong></p>
+
+<ul>
+	<li>Microsoft<sup>®</sup>&nbsp;Windows 8.1 | Windows 10 | Windows 11</li>
+	<li>Microsoft<sup>®</sup>&nbsp;.NET Framework 4.8 au juu zaidi</li>
+</ul>
+</details>
+
+<details class="wb-prettify"><summary>
+<h3><span lang="sv" xml:lang="sv">Svenska</span> – Swedish</h3>
+</summary>
+
+
+<p>RETScreen är ett <strong>Programvara för hantering av "grön" energi</strong> system för analys av energieffektivitet, förnybar energi och kraftvärmeproduktion samt kontinuerlig energiprestanda.</p>
+
+<p><strong><em>RETScreen Expert </em></strong>är en avancerad premiumversion av programvaran, som tillhandahålls helt kostnadsfritt i <strong>visningsläge</strong>.</p>
+
+<p><a href="https://nrcaniets.blob.core.windows.net/iets/RETScreenExpertInstaller.exe"><strong>Klicka här för att hämta RETScreen Expert</strong></a><strong> </strong></p>
+
+<p>RETScreen ger specialister och beslutsfattare möjlighet att snabbt identifiera, utvärdera och optimera den tekniska och ekonomiska bärkraften hos potentiella projekt gällande ren energi. Denna beslutsintelligenta mjukvaruplattform möjliggör också för chefer att enkelt mäta och kontrollera den faktiska prestandan hos sina anläggningar och hjälper till att hitta ytterligare energibesparingar / produktionsmöjligheter.</p>
+
+<p><strong>Systemkrav:</strong></p>
+
+<ul>
+	<li>Microsoft<sup>®</sup>&nbsp;Windows 8.1 | Windows 10 | Windows 11</li>
+	<li>Microsoft<sup>®</sup>&nbsp;.NET Framework 4.8 eller senare</li>
+</ul>
+</details>
+
+<details class="wb-prettify"><summary>
+<h3><span lang="tl" xml:lang="tl">Tagalog</span> – Tagalog</h3>
+</summary>
+
+<p>Ang RETScreen ay isang <strong>Software para sa Pamamahala ng Malinis na Enerhiya</strong> na sistema para sa pagka-episyente ng enerhiya, pagsusuri ng renewable na enerhiya at feasibility ng proyekto ng cogeneration at gayundin ang pagsusuri ng pagganap ng enerhiya.</p>
+
+<p><strong><em>RETScreen Expert</em></strong>, isang advanced premium na bersiyon ng software, ay available sa <strong>Viewer mode</strong> nang ganap na lobre.</p>
+
+<p><a href="https://nrcaniets.blob.core.windows.net/iets/RETScreenExpertInstaller.exe"><strong>Mag-click dito upang i-download ang RETScreen Expert</strong></a><strong> </strong></p>
+
+<p>Ang RETScreen ay tumutulong sa mga propesyunal at mga nagsasagawa ng pagpaplano at desisyon na mabilis na matukoy, matasa, at ma-optimize ang teknikal at pinansiyal na viability ng potensiyal na mga proyekto ng malinis na enerhiya. Ang decision intelligence software platform na ito ay nagpapahintulot din sa mga manager na madaling masukat at makita ang aktuwal na pagganap ng kanilang mga pasilidad at tumutulong na humanap ng karagdagang oportunidad para sa pagtitipid/produksiyon ng enerhiya.</p>
+
+<p><strong>Mga rekisito para sa sistema:</strong></p>
+
+<ul>
+	<li>Microsoft<sup>®</sup>&nbsp;Windows 8.1 | Windows 10 | Windows 11</li>
+	<li>Microsoft<sup>®</sup>&nbsp;.NET Framework 4.8 o mas mataas</li>
+</ul>
+</details>
+
+<details class="wb-prettify"><summary>
+<h3><span lang="te" xml:lang="te">తెలుగు</span> – Telugu</h3>
+</summary>
+
+<p>RETScreen అనేది <strong>పరిశుద్ధ ఎనర్జీ నిర్వహణ సాఫ్ట్‌వేర్</strong> ఎనర్జీ సామర్థ్యము, పునరుద్ధరించబడే ఎనర్జీ మరియు సహ ఉత్పత్తి ప్రాజెక్టు సాధ్యత విశ్లేషణ అలాగే కొనసాగుతున్న ఎనర్జీ పనితీరు విశ్లేషణ కోసం సిస్టం.</p>
+
+<p><strong><em>RETScreen Expert</em></strong>,ఒక అభివృద్ధి చెందిన ప్రీమియం వర్షన్ సాఫ్ట్ వేర్<strong>, </strong>పూర్తి ఉచితంగా <strong>వీక్షకుడి స్థితి</strong> అందుబాటులో ఉంది.</p>
+
+<p><a href="https://nrcaniets.blob.core.windows.net/iets/RETScreenExpertInstaller.exe"><strong>RETScreen Expert</strong><strong>ను డౌన్లోడ్ చేసేందుకు ఇక్కడ క్లిక్ చేయండి</strong></a><strong> </strong></p>
+
+<p>సంభావ్య పరిశుద్ధ ఎనర్జీ ప్రాజెక్టుల యొక్క సాంకేతిక మరియు ఆర్థిక స్వయంభరణశక్తిని వేగంగా గుర్తించి, అంచనా వేసి మరియు అనుకూల పరిచేందుకు నిర్ణయం-చేసేవారు మరియు నిపుణులకు RETScreen అధికారం కల్పిస్తుంది. ఈ నిర్ణయ చతురత సాఫ్ట్‌వేర్ ప్లాట్‌ఫారం వారి సౌకర్యాల యొక్క అసలు పనితీరును సులభంగా కొలిచి మరియు తనిఖీ చేసేందుకు మరియు అదనపు ఎనర్జీ పొదుపులు/ఉత్పాదకత అవకాశాలను కనుగొనడంలో సహాయపడేందుకు కూడా నిర్వాహకులకు అనుమతిస్తుంది.</p>
+
+<p><strong>సిస్టం అవసరాలు</strong><strong>:</strong></p>
+
+<ul>
+	<li>Microsoft<sup>®</sup>&nbsp;Windows 8.1 | Windows 10 | Windows 11</li>
+	<li>Microsoft<sup>®</sup>&nbsp;.NET Framework 4.8 లేదా ఆపైది</li>
+</ul>
+</details>
+
+<details class="wb-prettify"><summary>
+<h3><span lang="th" xml:lang="th">ภาษาไทย</span> – Thai</h3>
+</summary>
+
+<p>RETScreen คือ <strong>ระบบ ซอต์แวร์จัดการพลังงานสะอาด</strong> สำหรับการวิเคราะห์ประสิทธิภาพการใช้พลังงาน พลังงานทดแทน และความเป็นไปได้ของโครงการพลังงาน รวมถึงการวิเคราะห์สมรรถภาพพลังงานที่ใช้งานกันอยู่</p>
+
+<p><strong><em>RETScreen Expert </em></strong>เป็นซอฟต์แวร์ รุ่นพรีเมี่ยม ระดับประสิทธิภาพสูง และเปิดให้ใช้งานฟรีใน <strong>โหมดดัวแสดง</strong></p>
+
+<p><a href="https://nrcaniets.blob.core.windows.net/iets/RETScreenExpertInstaller.exe"><strong>กดที่นี่เพื่อดาวน์โหลด </strong><strong>RETScreen Expert</strong></a><strong> </strong></p>
+
+<p>RETScreen ช่วยให้มืออาชีพและผู้มีอำนาจตัดสินใจสามารถระบุ ประเมิน และเพิ่มศักยภาพทางเทคนิคและการเงินของโครงการพลังงานสะอาดที่มีความเป็นไปได้ แพลตฟอร์มซอฟต์แวร์ปัญญาการตัดสินใจนี้ยังช่วยผู้บริหารในการมาตรวัดและตรวจสอบสมรรถภาพที่แท้จริงของสิ่งอำนวยความสะดวกและช่วยหาโอกาสเพิ่มเติมด้านการประหยัดพลังงาน/การผลิตพลังงานอีกด้วย<br>
+<strong>ข้อกำหนดด้านระบบ</strong><strong>:</strong></p>
+
+<ul>
+	<li>Microsoft<sup>®</sup>&nbsp;Windows 8.1 | Windows 10 | Windows 11</li>
+	<li>Microsoft<sup>®</sup>&nbsp;.NET Framework 4.8 หรือสูงกว่า</li>
+</ul>
+</details>
+
+<details class="wb-prettify"><summary>
+<h3><span lang="tr" xml:lang="tr">Türkçe</span> – Turkish</h3>
+</summary>
+
+<p>RETScreen, enerji verimliliği, yenilenebilir enerji ve kojenerasyon projeleri fizibilite analizleri ve aynı zamanda süregelen enerji performans analizleri için <strong>Temiz Enerji Yönetim Yazılımı</strong> sistemidir.</p>
+
+<p><strong><em>RETScreen Expert</em></strong>, yazılımın ileri seviye premium sürümü olup <strong>Görüntüleme modunda</strong> tamamen ücretsizdir.</p>
+
+<p><a href="https://nrcaniets.blob.core.windows.net/iets/RETScreenExpertInstaller.exe"><strong>Buraya tıklayarak RETScreen Expert'i indirin</strong></a><strong> </strong></p>
+
+<p>RETScreen, profesyonellere ve karar vericilere, potansiyel temiz enerji projelerini teknik ve finansal açıdan hayata geçirilebilirliğini belirleme, değerlendirme ve optimize etme olanağı vermektedir. Karar vermeye yardımcı olan bilgi yönetim yazılım platformu aynı zamanda yöneticilere tesislerinin gerçek performansını kolaylıkla ölçme ve doğrulama olanağı sağlarken ek enerji tasarrufları/üretim fırsatları sunmaktadır.</p>
+
+<p><strong>Sistem gereksinimleri:</strong></p>
+
+<ul>
+	<li>Microsoft<sup>®</sup>&nbsp;Windows 8.1 | Windows 10 | Windows 11</li>
+	<li>Microsoft<sup>®</sup>&nbsp;.NET Framework 4.8 veya üzeri</li>
+</ul>
+</details>
+
+<details class="wb-prettify"><summary>
+<h3><span lang="uk" xml:lang="uk">Українська</span> – Ukrainian</h3>
+</summary>
+
+<p>RETScreen це система <strong>Програмне забезпечення з енергетичного менеджменту</strong> з метою енергозберігання, відновлюваної енергії та ТЕО для проектів комбінованого виробництва електричної та теплової енергії, а також постійного&nbsp; аналізу енергоефективності.</p>
+
+<p><strong><em>RETScreen Expert</em></strong>, передова версія програмного забезпечення, доступна в <strong>режимі Перегляду</strong> безкоштовно.</p>
+
+<p><a href="https://nrcaniets.blob.core.windows.net/iets/RETScreenExpertInstaller.exe"><strong>клацніть тут, щоб завантажити RETScreen Expert</strong></a><strong> </strong></p>
+
+<p>RETScreen дає можливість професіоналам та особам, уповноваженим приймати рішення, швидко визначати, оцінювати та оптимзувати технічну та фінансову життєздатність потенційних проектів чистої енергії. Ця програмна платформа розумного прийняття рішень також дозволяє менеджерам легко вимірювати та перевіряти фактичну пролуктивність свого обладнання та допомагає у пошуках додаткових шляхів енергозберігання та вдосконалення виробництва.</p>
+
+<p><strong>Системні вимоги:</strong></p>
+
+<ul>
+	<li>Microsoft<sup>®</sup>&nbsp;Windows 8.1 | Windows 10 | Windows 11</li>
+	<li>Microsoft<sup>®</sup>&nbsp;.NET Framework 4.8 &nbsp;або вище</li>
+</ul>
+</details>
+
+<details class="wb-prettify"><summary>
+<h3><span dir="rtl" lang="ur" xml:lang="ur">اردو</span> – Urdu</h3>
+</summary>
+
+<p dir="rtl"><span dir="ltr">&nbsp;RETScreen</span>توانائی کی بچت، قابل تجدید توانائی اور جنریشن منصوبے کی فزیبلٹی تجزیہ کے طور پر اچھی طرح سے کے طور پر جاری توانائی کی کارکردگی کا تجزیہ کے لئے ایک <strong>صاف</strong> <strong>توانائی کے انتظام کے سافٹ ویئر کا نظام ہے</strong><span dir="ltr"> . </span></p>
+
+<p dir="rtl"><strong><em><span dir="ltr">RETScreen Expert</span></em></strong><span dir="rtl"> </span><em><span dir="rtl"> </span>،</em><span dir="ltr"> </span>ایک جدید<strong>پرییمئم ورژن</strong> سافٹ ویئر اب ویور موڈ میں بالکل مفت دستیاب ہے<span dir="ltr"> </span></p>
+
+<p dir="rtl"><a href="https://nrcaniets.blob.core.windows.net/iets/RETScreenExpertInstaller.exe"><strong><span dir="ltr">RETScreen Expert</span></strong><strong> ڈاون لوڈ کرنے کے لیے یہاں کلک کریں</strong></a><strong><span dir="ltr"> </span></strong><br>
+<span dir="ltr">&nbsp;</span></p>
+
+<p dir="rtl"><span dir="ltr">RETScreen</span>ماہرین اور فیصلہ سازوں کو موقع دیتا ہے کہ وہ صاف توانائی کے منصوبوں کی تکنیکی اور مالی قابل عملیت کی نشاندہی اور جانچ پرکھ تیزی سے کر سکیں۔ ذہانت سے فیصلہ کرنے والا یہ سافٹ ویئر پلیٹ فارم مینیجروں کو موقع دیتا ہے کہ وہ اپنی تنصیبات کی حقیقی کارکردگی کی پیمائش اور تصدیق کر سکیں اور توانائی کی بچت/پیداوار کے مزید مواقع تلاش کرنے میں ان کی مدد کرتا ہے۔<span dir="ltr"> </span></p>
+
+<p dir="rtl"><strong>نظام کی شرائط</strong><span dir="ltr"> </span><strong><span dir="ltr"> :</span></strong></p>
+
+<ul>
+	<li dir="rtl"><span dir="ltr">Microsoft<sup>®</sup>&nbsp;Windows 8.1 | Windows 10 | Windows 11</span></li>
+	<li dir="rtl"><span dir="ltr">&nbsp;Microsoft<sup>®</sup>&nbsp;.NET Framework 4.8</span>یا اس سے جدید</li>
+</ul>
+</details>
+
+<details class="wb-prettify"><summary>
+<h3><span lang="vi" xml:lang="vi">Tiếng Việt</span> – Vietnamese</h3>
+</summary>
+
+<p>RETScreen là một hệ thống <strong>Phần mềm quản lý năng lượng sạch</strong> để phân tích tính hiệu quả năng lượng, năng lượng tái tạo và tính khả thi dự án đồng phát cũng như phân tích hiệu suất năng lượng hiện hữu.</p>
+
+<p><strong><em>RETScreen Expert</em></strong>, một phiên bản cao cấp phần mềm tiên tiến, có sẵn <strong>chế độ người xem</strong> hoàn toàn miễn phí.</p>
+
+<p><a href="https://nrcaniets.blob.core.windows.net/iets/RETScreenExpertInstaller.exe"><strong>Hãy nhấp chuột tại đây để tải phần mềm RETScreen Expert về</strong></a><strong> </strong></p>
+
+<p>RETScreen cho phép các chuyên gia và những người ra quyết định nhanh chóng nhận dạng, đánh giá và tối ưu hóa tính khả thi kỹ thuật và tài chính của các dự án năng lượng sạch tiềm năng. Nền hệ thống phần mềm trí tuệ quyết định này còn giúp các nhà quản lý dễ dàng đo lường và kiểm tra hiệu năng thực tế của các cơ sở mình và giúp tìm ra các cơ hội tiết kiệm/sản xuất năng lượng bổ sung.</p>
+
+<p><strong>Các yêu cầu hệ thống:</strong></p>
+
+<ul>
+	<li>Microsoft<sup>®</sup>&nbsp;Windows 8.1 | Windows 10 | Windows 11</li>
+	<li>Microsoft<sup>®</sup>&nbsp;.NET Framework 4.8 hoặc cao hơn</li>
+</ul>
+</details></div>
+      
+  </div>
+
+</article>
+
+
+  </div>
+
+           
+          <div class="pagedetails-wrapper">
+                            <div class="pagedetails region region-content-footer">
+    <div class="row">
+      
+<div id="block-nrcan-wxt-reportandshare" data-block-plugin-id="block_content:7572f30b-4d88-45de-a379-09a9471cfb78" class="block block-block-content block-block-content7572f30b-4d88-45de-a379-09a9471cfb78 clearfix">
+  
+    
+
+      
+            <div class="field field--name-body field--type-text-with-summary field--label-hidden field--item"><div class="container p-0">
+<div class="col-sm-12 col-md-12 col-lg-12">
+<div class="wb-disable-allow" data-ajax-replace="https://www.canada.ca/etc/designs/canada/wet-boew/assets/feedback/page-feedback-en.html"><!-- Will always be replaced by data-ajax --></div>
+</div>
+
+<! --div class="wb-share col-sm-6 col-md-4 col-lg-2" data-wb-share="{&quot;lnkClass&quot;: &quot;btn btn-default btn-block&quot;}">&nbsp;</div -->
+</div></div>
+      
+  </div>
+
+<div id="block-nrcan-wxt-preferreddatemodified" data-block-plugin-id="preferred_date_modified" class="block block-nrcan-blocks block-preferred-date-modified clearfix">
+  
+    
+
+      <dl id="wb-dtmd"><dt>Date modified: </dt><dd><time property="dateModified">2026-01-21</time></dd></dl>
+  </div>
+
+    </div>
+  </div>
+
+                      </div>
+              </section>
+
+      </main>
+
+                        
+                          
+    </div>
+  </div>
+
+
+
+            <footer id="wb-info">
+        <h2 class="wb-inv">About this site</h2>
+        <div class="landscape">
+            <div class="region region-footer">
+    <div class="gc-contextual">
+  <nav id="block-nrcan-wxt-footer-contextual" data-block-plugin-id="system_menu_block:footer-contextual" class="container wb-navcurr" aria-labelledby="gc-department-menu">
+    
+          <h3 id="gc-department-menu">Natural Resources Canada</h3>
+        
+          <ul class="list-unstyled colcount-sm-2 colcount-md-3">
+      
+    
+                        <li >
+        <a href="https://contact-contactez.nrcan-rncan.gc.ca/index.cfm?lang=eng&amp;context=https%3A//admin.natural-resources.canada.ca/home" title="Contextual link 1">Contact NRCan</a>
+                          </li>
+                              <li >
+        <a href="https://www.canada.ca/en/news/advanced-news-search/news-results.html?typ=newsreleases&amp;dprtmnt=naturalresourcescanada&amp;start=&amp;end=" title=" News"> News</a>
+                          </li>
+                              <li >
+        <a href="https://natural-resources.canada.ca/science-data/science-research/research-centres/careers" title=" Careers" data-drupal-link-system-path="node/5741"> Careers</a>
+                          </li>
+          
+  
+
+
+      </ul>
+      </nav>
+</div>
+<div class="gc-main-footer-top">
+  <nav id="block-nrcan-wxt-footer-top" data-block-plugin-id="system_menu_block:footer-top" class="container wb-navcurr" aria-labelledby="gcweb-menu-footertop">
+    
+    <h3 id="gcweb-menu-footertop">Government of Canada</h3>
+    
+          <ul class="list-unstyled colcount-sm-2 colcount-md-3">
+      
+    
+                        <li >
+        <a href="https://www.canada.ca/en/contact.html" title="All Contacts section.">All Contacts</a>
+                          </li>
+                              <li >
+        <a href="https://www.canada.ca/en/government/dept.html" title="Departments and agencies section.">Departments and agencies</a>
+                          </li>
+                              <li >
+        <a href="https://www.canada.ca/en/government/system.html" title="About government section.">About government</a>
+                          </li>
+          
+  
+
+
+      </ul>
+      </nav>
+</div>
+<div class="gc-main-footer-body">
+  <nav id="block-nrcan-wxt-footer" data-block-plugin-id="system_menu_block:footer" class="container wb-navcurr pad-tp-0" aria-labelledby="themes-and-topics">
+    
+    <h4 id="themes-and-topics">
+      <span class="wb-inv">Themes and topics</span>
+    </h4>
+    
+          <ul class="list-unstyled colcount-sm-2 colcount-md-3">
+      
+                                    <li >
+        <a href="https://www.canada.ca/en/services/jobs.html" title="Jobs section.">Jobs</a>
+                          </li>
+                              <li >
+        <a href="https://www.canada.ca/en/services/immigration-citizenship.html" title="Immigration and citizenship section.">Immigration and citizenship</a>
+                          </li>
+                              <li >
+        <a href="https://travel.gc.ca" title="Travel and tourism section.">Travel and tourism</a>
+                          </li>
+                              <li >
+        <a href="https://www.canada.ca/en/services/business.html" title="Business section.">Business</a>
+                          </li>
+                              <li >
+        <a href="https://www.canada.ca/en/services/benefits.html" title="Benefits section.">Benefits</a>
+                          </li>
+                              <li >
+        <a href="https://www.canada.ca/en/services/health.html" title="Health section.">Health</a>
+                          </li>
+                              <li >
+        <a href="https://www.canada.ca/en/services/taxes.html" title="Taxes section.">Taxes</a>
+                          </li>
+                              <li >
+        <a href="https://www.canada.ca/en/services/environment.html" title="Environment and natural resources section.">Environment and natural resources</a>
+                          </li>
+                              <li >
+        <a href="https://www.canada.ca/en/services/defence.html" title="National security and defence section.">National security and defence</a>
+                          </li>
+                              <li >
+        <a href="https://www.canada.ca/en/services/culture.html" title="Culture, history and sport section.">Culture, history and sport</a>
+                          </li>
+                              <li >
+        <a href="https://www.canada.ca/en/services/policing.html" title="Policing, justice and emergencies section.">Policing, justice and emergencies</a>
+                          </li>
+                              <li >
+        <a href="https://www.canada.ca/en/services/transport.html" title="Transport and infrastructure section.">Transport and infrastructure</a>
+                          </li>
+                              <li >
+        <a href="https://international.gc.ca/world-monde/index.aspx?lang=eng" title="Canada and the world section.">Canada and the world</a>
+                          </li>
+                              <li >
+        <a href="https://www.canada.ca/en/services/finance.html" title="Money and finance section.">Money and finance</a>
+                          </li>
+                              <li >
+        <a href="https://www.canada.ca/en/services/science.html" title="Science and innovation section.">Science and innovation</a>
+                          </li>
+                              <li >
+        <a href="https://www.canada.ca/en/services/indigenous-peoples.html" title="Indigenous peoples section.">Indigenous Peoples</a>
+                          </li>
+                              <li >
+        <a href="https://www.canada.ca/en/services/veterans.html" title="Veterans and military section.">Veterans and military</a>
+                          </li>
+                              <li >
+        <a href="https://www.canada.ca/en/services/youth.html" title="Youth section.">Youth</a>
+                          </li>
+                              <li >
+        <a href="https://www.canada.ca/fr/services/evenements-vie.html">Manage life events</a>
+                          </li>
+                    
+
+
+      </ul>
+      </nav>
+</div>
+
+  </div>
+
+        </div>
+        <div class="brand">
+          <div class="container">
+            <div class="row">
+                <div class="region region-branding">
+    <nav aria-labelledby="block-nrcan-wxt-brand-menu" id="block-nrcan-wxt-brand" data-block-plugin-id="system_menu_block:brand" class="col-md-10 ftr-urlt-lnk">
+      
+  <h3 class="wb-inv" id="block-nrcan-wxt-brand-menu">Government of Canada Corporate</h3>
+  
+
+        
+        <ul role="menu">
+                        <li role="presentation">
+        <a href="https://www.canada.ca/en/social.html" title="Social media section." role="menuitem">Social media</a>
+                  </li>
+                        <li role="presentation">
+        <a href="https://www.canada.ca/en/mobile.html" title="Mobile applications section." role="menuitem">Mobile applications</a>
+                  </li>
+                        <li role="presentation">
+        <a href="https://www.canada.ca/en/government/about.html" title="About Canada.ca section." role="menuitem">About Canada.ca</a>
+                  </li>
+                        <li role="presentation">
+        <a href="https://natural-resources.canada.ca/corporate/terms-conditions" title="Terms and conditions section." role="menuitem" data-drupal-link-system-path="node/10847">Terms and conditions</a>
+                  </li>
+                        <li role="presentation">
+        <a href="https://www.canada.ca/en/transparency/privacy.html" title="Privacy section." role="menuitem">Privacy</a>
+                  </li>
+        </ul>
+  
+
+
+  </nav>
+
+  </div>
+
+              <div class="col-xs-6 visible-sm visible-xs tofpg">
+                <a href="#wb-cont">Top of Page<span class="glyphicon glyphicon-chevron-up"></span></a>
+              </div>
+              <div class="col-xs-6 col-md-2 text-right">
+                <img src='/libraries/theme-gcweb/assets/wmms-blk.svg' alt='Symbol of the Government of Canada' />
+              </div>
+            </div>
+          </div>
+        </div>
+      </footer>
+      
+  </div>
+
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-KG9WWH6"
+        height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<div data-gc-analytics-pageid="7465"></div>
+
+    <script type="application/json" data-drupal-selector="drupal-settings-json">{"path":{"baseUrl":"\/","pathPrefix":"","currentPath":"node\/7465","currentPathIsAdmin":false,"isFront":false,"currentLanguage":"en"},"pluralDelimiter":"\u0003","suppressDeprecationErrors":true,"bootstrap":{"forms_has_error_value_toggle":1,"modal_animation":1,"modal_backdrop":"true","modal_focus_input":1,"modal_keyboard":1,"modal_select_text":1,"modal_show":1,"modal_size":"","popover_enabled":1,"popover_animation":1,"popover_auto_close":1,"popover_container":"body","popover_content":"","popover_delay":"0","popover_html":0,"popover_placement":"right","popover_selector":"","popover_title":"","popover_trigger":"click","tooltip_enabled":1,"tooltip_animation":1,"tooltip_container":"body","tooltip_delay":"0","tooltip_html":0,"tooltip_placement":"auto left","tooltip_selector":"","tooltip_trigger":"hover"},"user":{"uid":0,"permissionsHash":"dfbe9e1d8ed11d18b2a75ac52b44fa3d8b076dec3a850e1adc9560bd985d00a6"},"ajax":[]}</script>
+<script src="/core/assets/vendor/underscore/underscore-min.js?v=1.13.7"></script>
+<script src="/core/assets/vendor/once/once.min.js?v=1.0.1"></script>
+<script src="/core/misc/drupalSettingsLoader.js?v=10.4.1"></script>
+<script src="/core/misc/drupal.js?v=10.4.1"></script>
+<script src="/core/misc/drupal.init.js?v=10.4.1"></script>
+<script src="/core/misc/debounce.js?v=10.4.1"></script>
+<script src="/libraries/wet-boew/js/wet-boew.min.js?tjxuo1"></script>
+<script src="/themes/contrib/wxt_bootstrap/js/bootstrap/alert.js?tjxuo1"></script>
+<script src="/themes/contrib/wxt_bootstrap/js/bootstrap/collapse.js?tjxuo1"></script>
+<script src="/themes/contrib/wxt_bootstrap/js/bootstrap/dropdown.js?tjxuo1"></script>
+<script src="/themes/contrib/wxt_bootstrap/js/bootstrap/modal.js?tjxuo1"></script>
+<script src="/themes/contrib/wxt_bootstrap/js/bootstrap/tooltip.js?tjxuo1"></script>
+<script src="/themes/contrib/wxt_bootstrap/js/bootstrap/popover.js?tjxuo1"></script>
+<script src="/themes/contrib/wxt_bootstrap/js/drupal.wxt_bootstrap.js?tjxuo1"></script>
+<script src="/themes/contrib/bootstrap/js/drupal.bootstrap.js?tjxuo1"></script>
+<script src="/themes/contrib/bootstrap/js/attributes.js?tjxuo1"></script>
+<script src="/themes/contrib/bootstrap/js/theme.js?tjxuo1"></script>
+<script src="/themes/contrib/bootstrap/js/popover.js?tjxuo1"></script>
+<script src="/themes/contrib/bootstrap/js/tooltip.js?tjxuo1"></script>
+<script src="/core/misc/form.js?v=10.4.1"></script>
+<script src="/themes/contrib/bootstrap/js/misc/form.js?tjxuo1"></script>
+<script src="/core/misc/details-summarized-content.js?v=10.4.1"></script>
+<script src="/core/misc/details-aria.js?v=10.4.1"></script>
+<script src="/core/misc/details.js?v=10.4.1"></script>
+<script src="/modules/custom/nrcan_analytics/js/adobe_analytics_footer.js?tjxuo1"></script>
+<script src="/libraries/theme-gcweb/js/theme.min.js?tjxuo1"></script>
+
+  </body>
+</html>

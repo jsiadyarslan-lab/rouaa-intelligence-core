@@ -1,0 +1,507 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+        <meta charset="utf-8">        
+        <link rel="preload" href="/shared/dist/fonts/opensans_fixed/OpenSans-Regular.woff2" as="font" crossorigin>
+        <link rel="preload" href="/shared/dist/fonts/opensans_fixed/OpenSans-SemiBold.woff2" as="font" crossorigin>
+        <link rel="preload" href="/shared/dist/fonts/opensans_fixed/OpenSans-Bold.woff2" as="font" crossorigin> 
+        <link rel="preload" href="/shared/dist/fonts/ecb-iconset/ECB-icon-set.woff2" as="font" crossorigin> 
+        <link rel="icon" href="/fav.ico" sizes="16x16">
+        <link rel="icon" href="/favicon-16.png" sizes="16x16">
+        <link rel="icon" href="/favicon-32.png" sizes="32x32">
+        <link rel="icon" href="/favicon-64.png" sizes="64x64">
+        <link rel="icon" href="/favicon-128.png" sizes="128x128">
+        <link rel="icon" href="/favicon-192.png" sizes="192x192">
+        <link rel="icon" href="/favicon-256.png" sizes="256x256">
+
+        <link rel="shortcut icon" href="/favicon-196.png" sizes="196x196">
+        <link rel="apple-touch-icon" href="/favicon-152.png" sizes="152x152">
+        <link rel="apple-touch-icon" href="/favicon-180.png" sizes="180x180">
+
+        
+    
+        <title>Frontier AI models could strain cyber resilience in the financial system, ESRB warns</title>
+                 <meta name = "citation_title" content="Frontier AI models could strain cyber resilience in the financial system, ESRB warns">
+<meta name = "citation_online_date" content="7 July 2026">
+<meta property="article:published_time"  content="2026-07-07">
+<link rel="canonical" href="https://www.esrb.europa.eu/news/pr/date/2026/html/esrb.pr260707~4e1b68241a.en.html">
+    
+        <meta name="author" content="European Central Bank">
+        <meta name="description" content="The European Central Bank (ECB) is the central bank of the 19 European Union countries which have adopted the euro. Our main task is to maintain price stability in the euro area and so preserve the purchasing power of the single currency.">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+
+        
+        <script>
+            var ECB = {};
+            ECB.currentLanguage = 'en';
+            ECB.isoLocalLanguageName = 'English';
+            ECB.isLive = true;
+            ECB.version = '5338937';
+            ECB.navigationVersion = '1756712710';
+            ECB.clientTimeError = 1787011529 - (new Date().getTime());
+
+            
+
+            ECB.availableLanguages = [{"en": "English"}];            
+           
+
+        </script>
+            
+        <link rel="stylesheet" href="/shared/dist/css/main-esrb.min.css?5338937" media="all">         
+        <meta name="twitter:card" content="summary">
+        <meta name="twitter:site" content="@ecb">
+   
+            <meta name="explainerDate" content="1 January 1970">
+        	    	<meta property="og:type" content="article">
+	            <meta property="og:type" content="website">
+        <meta property="og:title" content="Frontier AI models could strain cyber resilience in the financial system, ESRB warns">
+        <meta property="og:url" content="https://www.esrb.europa.eu/news/pr/date/2026/html/esrb.pr260707~4e1b68241a.en.html">
+        <meta property="og:image:secure_url" content="https://www.esrb.europa.eu/news/shared/img/socialmedia/social-default.jpg?3b8b3478c9d9f58a7ad20e98b6f6f9ba">
+        <meta property="og:image" content="https://www.esrb.europa.eu/news/shared/img/socialmedia/social-default.jpg?3b8b3478c9d9f58a7ad20e98b6f6f9ba" >
+        <meta property="og:image:width" content="1200">
+        <meta property="og:image:height" content="600">
+        <meta property="og:site_name" content="European Central Bank">
+    
+        <noscript>
+            <style>            
+                .accordion .content-box {
+                    display: block;
+                }
+            </style>
+        </noscript>        
+    <script type="text/javascript">
+        /*! ecb - v2.0.0 - European Central Bank */
+var ECB=window.ECB||{};ECB.fast=ECB.fast||{},ECB.slow=ECB.slow||{},ECB.supports=ECB.supports||{},ECB.fast.annexSwap=function(){var t,e,n=document.querySelector(".section-press .address-box + .definition-list");n&&(t=(e=(t=(e=(t=n.previousElementSibling).previousElementSibling)&&e.classList.contains("related-topics")?e:t).previousElementSibling)&&e.classList.contains("footnotes")?e:t).parentNode.insertBefore(n,t)},ECB.fast.attribution=function(n){var t,e,a=n.style.backgroundImage||n.src;a=(a=a.replace('url("',"")).replace('")',""),n.src&&(n=n.closest("picture"));a&&(t=(t=a).replace('url("',""),e=document.location.protocol+"//"+document.location.hostname,-1===t.indexOf("http")&&-1===t.indexOf('url("//')||t.startsWith(e))&&ECB.fast.exif.getArtist(a,function(t){var e;0<(t=t?.exif||t?.xmp||"").length&&!n.classList.contains("-attribution")&&(n.classList.add("-attribution"),t='<span class="attribution"><span class="attribution-details">'+(t.startsWith("©")?"":"© ")+t+'</span> <button aria-label="Photographer"></button></span>',n.classList.contains("slider_image")&&n.parentElement?.classList.contains("-bottom")&&((e=n.parentElement?.querySelector(".slider_content_container .slider_text")).insertAdjacentHTML("beforeend",t),e=e.querySelector(".attribution button")),n.insertAdjacentHTML("beforeend",t),[n.querySelector(".attribution button"),e].forEach(e=>{e&&e.addEventListener("click",function(t){return e.parentElement.classList.toggle("-active"),t.preventDefault(),t.stopPropagation(),!1})}))})},ECB.fast.authorMove=function(){var t,e=document.getElementById("side-authors");e&&(t=Array.from(document.querySelectorAll("aside > *")).reduce(function(t,e){return t+e.clientHeight},0),e.style.marginTop=Math.max(110,t)+50+"px")},ECB.fast.connector=function(t){function e(t){t.classList.contains("-gradient-upper")&&(i="-gradient-upper"),t.classList.contains("-dark-grey")&&(o="-dark-grey"),t.classList.contains("-light-grey-blue")&&(i="-transparent-light-grey",o="-transparent-blue");var e="<div class='upper-connection "+i+"'></div> <div class='lower-connection "+o+"'></div>";t.insertAdjacentHTML("afterend",e)}function a(t,e){return t.classList.contains(e)}function n(t,e){for(var n=0;n<e.length;n++)if(a(t,e[n]))return 1}var r=(t=t||document).querySelectorAll(".connector"),i="-transparent-blue",o="-light-blue";if(0<r.length)e(r[r.length-1]);else{var s=Array.from(t.querySelectorAll(".contact-box, .see-also-boxes, .carousel, .promo-box, .contact-box, .explainer-box"));if(s.length){var c=s[0],l=c.previousElementSibling;if(l&&"DIV"==l.tagName&&!a(l,"title")){for(var u=c.nextElementSibling,g=!1;null!=u;)a(u,"in-this-section")||"SCRIPT"==u.tagName||"STYLE"==u.tagName||(-1==s.indexOf(u)?g=!0:g&&(l=(c=u).previousElementSibling,g=!1)),u=u.nextElementSibling;g||l.closest(".-no-connector")||(l.classList.add("connector"),n(l,["section","intro","boxes","accordion","definition-list","tags"])&&l.classList.add("-gradient-upper"),n(l,["jumbo-box"])&&a(l,"-dark-blue")&&l.classList.add("-light-grey-blue"),a(c,".carousel")||l.classList.add("-dark-grey"),e(l))}}}},ECB.fast.exif=(()=>{var i=function(t,e,n){var a,r,i,o=t,s=e,c=n,l="";for(c=s+n;s<c;)switch((a=o.getUint8(s++))>>4){case 0:case 1:case 2:case 3:case 4:case 5:case 6:case 7:l+=String.fromCharCode(a);break;case 12:case 13:r=o.getUint8(s++),l+=String.fromCharCode((31&a)<<6|63&r);break;case 14:r=o.getUint8(s++),i=o.getUint8(s++),l+=String.fromCharCode((15&a)<<12|(63&r)<<6|(63&i)<<0)}return l},r=function(t,e,n,a){for(var r,i=t.getUint16(n,!a),o=0;o<i;o++)if(315===t.getUint16(r=n+12*o+2,!a))return s(t,r,e,a);return""},s=function(t,e,n,a){var r=t.getUint32(e+4,!a),a=t.getUint32(e+8,!a)+n;return i(t,4<r?a:e+8,r-1)},o=function(t,e,n){if("exif"!=i(t,e,4).toLowerCase())return!1;var a,e=e+(n?8:6);if(18761==t.getUint16(e))a=!1;else{if(19789!=t.getUint16(e))return!1;a=!0}return 42==t.getUint16(e+2,!a)&&!((n=t.getUint32(e+4,!a))<8)&&r(t,e,e+n,a)},c=function(t,e){return!!(t&1<<e-1)};return{getArtist:function(t,a){let e=t=>{new DataView(t);var e,n,t={exif:(t=>{var e=new DataView(t),n=!1;if(1380533830==e.getUint32(0)&&1464156752==e.getUint32(8)&&1448097880==e.getUint32(12)){if(!c(e.getUint8(20),4))return!1;n=!0}else if(255!=e.getUint8(0)||216!=e.getUint8(1))return!1;var a=2,r=t.byteLength;if(n)for(a=16;a<r;){if(a+=e.getUint32(a,!0)+4,"EXIF"==i(e,a,4))return o(e,a,!0,e.getUint32(a,!0));a+=4}else for(;a<r;){if(255!=e.getUint8(a))return!1;if(225==e.getUint8(a+1))return o(e,a+4,!1,e.getUint16(a+2)-2);a+=2+e.getUint16(a+2)}})(t),xmp:(t=t,e=new TextDecoder("utf-8"),t=new Uint8Array(t),t=(e=e.decode(t)).indexOf("<x:xmpmeta"),n=e.indexOf("</x:xmpmeta>"),-1!==t&&-1!==n&&(e=e.slice(t,n+12),(new DOMParser).parseFromString(e,"application/xml").querySelector("dc\\:creator, creator")?.textContent?.trim())||"")};a(t)},n=new XMLHttpRequest;n.onload=function(){200!==this.status&&0!==this.status||e(n.response)},n.open("GET",t,!0),n.responseType="arraybuffer",n.send(null)}}})(),ECB.fast.isLoading=function(){for(var t=document.querySelectorAll(".-is-loading"),e=0;e<t.length;e++)t[e].insertAdjacentHTML("afterbegin","<div class='is-busy'> Loading ... </div>")},ECB.fast.langLinks=function(){if(ECB.fast.isEuLanguage=!!document.querySelector("#language-values a[lang="+ECB.currentLanguage+"]:not([specialLang])"),ECB.fast.isEuLanguage&&"en"!=ECB.currentLanguage){var e=document.querySelectorAll("a:not([lang]"),n=/\.[a-z]{2,3}(\.(html|pdf)([\?#].*)?)$/;let t=["www.ecb.europa.eu","www.bankingsupervision.europa.eu","www.esrb.europa.eu"];for(var a=0;a<e.length;a++){var r=e[a];r.hasAttribute("href")&&!!(i=(i=r).getAttribute("href"))&&(-1===i.indexOf(":")||(i=i.match(/^https?:\/\/([^/]+)/))&&i[1]&&t.includes(i[1]))&&(t=>!!((t=t.getAttribute("href").match(n))&&0<t.length)&&"en"==t[0].substr(1,2))(r)&&r.setAttribute("href",r.getAttribute("href").replace(n,"."+ECB.currentLanguage+"$1"))}}var i},ECB.fast.langSwitch=function(){var e,n;ECB.isLive&&(e=localStorage.getItem("lastLanguage"),(n=function(t){return!(!t||ECB.currentLanguage==t||((t=document.querySelector("#language-values>a[lang="+t+"]"))&&(document.location.href=t.href),0))})(e)||window.addEventListener("storage",function(t){"lastLanguage"==t.key&&t.newValue!=e&&n(t.newValue)}))},ECB.fast.loadImages=function(t){for(var n,e=t,a=(t||(e=document),function(t){var e=ECB.supports.webp&&t.getAttribute("data-image-webp")?t.getAttribute("data-image-webp"):t.getAttribute("data-image"),n=t;n.style.backgroundImage="url('"+e+"')",t.classList.contains("-inner")||ECB.fast.attribution(n),n.classList.add("loaded")}),r=(window.IntersectionObserver&&(n=new IntersectionObserver(function(t){for(var e=0;e<t.length;e++)t[e].isIntersecting&&(a(t[e].target),n.unobserve(t[e].target))},{rootMargin:"50%"})),e.querySelectorAll("[data-image]")),i=0;i<r.length;i++)r[i].classList.contains("fast")||r[i].classList.contains("coin-cropper")||!n?a(r[i]):n.observe(r[i]);for(var o=e.querySelectorAll("picture img"),i=0;i<o.length;i++)ECB.fast.attribution(o[i])},ECB.fast.pageTitle=function(){var t=document.querySelector("main>.title h1");t&&0<t.innerText.length&&(document.title=t.innerText)},ECB.fast.random=function(t){Element.prototype.matches||(Element.prototype.matches=Element.prototype.msMatchesSelector||Element.prototype.webkitMatchesSelector);for(var e=(t?t:document).querySelectorAll(".random"),n=0;n<e.length;n++){e[n].querySelectorAll(".random-item");var a=[],r=(Array.prototype.slice.call(e[n].children).map(function(t){t.matches(".random-item")&&a.push(t)}),Math.floor(Math.random()*a.length));e[n].classList.contains("-daily")&&(r=(new Date).getDate()%a.length),a[r].classList.add("active");for(var i=0;i<a.length;i++)i!=r&&e[n].removeChild(a[i])}},ECB.fast.supportCheck=function(e){var n=new Image;n.onload=function(t){"load"==t.type&&1==n.width&&(document.documentElement.classList.add("webp"),ECB.supports.webp=!0),e&&e()},n.onerror=function(){e&&e()},n.src="data:image/webp;base64,UklGRiQAAABXRUJQVlA4IBgAAAAwAQCdASoBAAEAAwA0JaQAA3AA/vuUAAA="},ECB.fast.tempFixes=function(){for(var t=".table .wrapper h3",e=function(t){var e=t.parentElement.parentElement,n=document.createElement("div");n.classList.add("header"),n.innerHTML='<div class="title">'+t.innerHTML+"</div>",t.parentElement.removeChild(t),e.prepend(n)},n=document.querySelectorAll(t),a=0;a<n.length;a++)e(n[a])},ECB.fast.supportCheck(function(){function t(){ECB.jsForContentOnly||ECB.fast.pageTitle(),ECB.fast.tempFixes(),ECB.fast.random(),ECB.fast.loadImages(),ECB.fast.langLinks(),ECB.fast.connector(),ECB.fast.annexSwap(),ECB.fast.isLoading(),ECB.fast.authorMove()}"loading"!==document.readyState?t():window.addEventListener("DOMContentLoaded",t)});    </script>
+    <script type="text/javascript" async src="/shared/dist/js/slow.min.js?v=5338937"></script>
+
+</head>
+
+<body class="project-esrb section-news sub-pr sub-date sub-2026	">
+
+	
+<div id="skip-links">
+	<div class="skip-links-content">	
+		<span>Skip to:</span>
+		<a href="#navwrapper"><span class="sr-only">Skip to </span>navigation</a>
+		<a href="#main-content"><span class="sr-only">Skip to </span>content</a>
+		<a href="#ecb-doc-footer"><span class="sr-only">Skip to </span>footer</a>
+	</div>
+</div>
+<header id="ecb-doc-header" class="v2"> 
+	<div class="headerHolder">
+		<button id="toggle-sticky-nav" aria-haspopup="true" ></button>
+		<div class="logo-name">
+			<a href="/home/html/index.en.html" alt="Go to our homepage">
+				<img src="/shared/img/logo/logo_name.en.svg" alt="European Central Bank - eurosystem">			</a>
+		</div>
+		<div class="logo-name-mobile">
+			<a href="/home/html/index.en.html" alt="Go to our homepage">
+				<img src="/shared/img/logo/logos-esrb-mobile/logo_name_mobile.en.svg" alt="European Systemic Risk Board">			</a>
+		</div>
+	
+		<div id="language-selector-holder" role="button" title="Select language">
+			<div id="language-selector"></div>
+			<div id="language-selected"   aria-haspopup="true"><i></i><span class="ecb-full">EN</span></div>			
+			<div id="language-values">				
+				<a href="esrb.pr260707~4e1b68241a.bg.html" lang="bg" title="Български"><span class="ecb-full">Български</span></a><a href="esrb.pr260707~4e1b68241a.cs.html" lang="cs" title="Čeština"><span class="ecb-full">Čeština</span></a><a href="esrb.pr260707~4e1b68241a.da.html" lang="da" title="Dansk"><span class="ecb-full">Dansk</span></a><a href="esrb.pr260707~4e1b68241a.de.html" lang="de" title="Deutsch"><span class="ecb-full">Deutsch</span></a><a href="esrb.pr260707~4e1b68241a.el.html" lang="el" title="Eλληνικά"><span class="ecb-full">Eλληνικά</span></a><a href="esrb.pr260707~4e1b68241a.en.html" class="selected available" lang="en" title="English"><span class="ecb-full">English</span></a><a href="esrb.pr260707~4e1b68241a.es.html" lang="es" title="Español"><span class="ecb-full">Español</span></a><a href="esrb.pr260707~4e1b68241a.et.html" lang="et" title="Eesti keel"><span class="ecb-full">Eesti keel</span></a><a href="esrb.pr260707~4e1b68241a.fi.html" lang="fi" title="Suomi"><span class="ecb-full">Suomi</span></a><a href="esrb.pr260707~4e1b68241a.fr.html" lang="fr" title="Français"><span class="ecb-full">Français</span></a><a href="esrb.pr260707~4e1b68241a.ga.html" lang="ga" title="Gaeilge"><span class="ecb-full">Gaeilge</span></a><a href="esrb.pr260707~4e1b68241a.hr.html" lang="hr" title="Hrvatski"><span class="ecb-full">Hrvatski</span></a><a href="esrb.pr260707~4e1b68241a.hu.html" lang="hu" title="Magyar"><span class="ecb-full">Magyar</span></a><a href="esrb.pr260707~4e1b68241a.it.html" lang="it" title="Italiano"><span class="ecb-full">Italiano</span></a><a href="esrb.pr260707~4e1b68241a.lt.html" lang="lt" title="Lietuvių"><span class="ecb-full">Lietuvių</span></a><a href="esrb.pr260707~4e1b68241a.lv.html" lang="lv" title="Latviešu"><span class="ecb-full">Latviešu</span></a><a href="esrb.pr260707~4e1b68241a.mt.html" lang="mt" title="Malti"><span class="ecb-full">Malti</span></a><a href="esrb.pr260707~4e1b68241a.nl.html" lang="nl" title="Nederlands"><span class="ecb-full">Nederlands</span></a><a href="esrb.pr260707~4e1b68241a.pl.html" lang="pl" title="Polski"><span class="ecb-full">Polski</span></a><a href="esrb.pr260707~4e1b68241a.pt.html" lang="pt" title="Português"><span class="ecb-full">Português</span></a><a href="esrb.pr260707~4e1b68241a.ro.html" lang="ro" title="Română"><span class="ecb-full">Română</span></a><a href="esrb.pr260707~4e1b68241a.sk.html" lang="sk" title="Slovenčina"><span class="ecb-full">Slovenčina</span></a><a href="esrb.pr260707~4e1b68241a.sl.html" lang="sl" title="Slovenščina"><span class="ecb-full">Slovenščina</span></a><a href="esrb.pr260707~4e1b68241a.sv.html" lang="sv" title="Svenska"><span class="ecb-full">Svenska</span></a>			</div>
+		</div>
+		
+		<button id="hamburger" aria-haspopup="true" >
+			Menu
+			<div class="icon">
+				<div class="line-outer">
+			    	<div class="line-inner"></div>
+			  	</div>
+				<div class="line-outer">
+			    	<div class="line-inner"></div>
+				</div>
+				<div class="line-outer">
+			    	<div class="line-inner"></div>
+				</div>		
+			</div>			
+					</button>
+		<div class="logo">
+			<a href="/home/html/index.en.html" alt="Go to our homepage">
+				<img src="/shared/img/logo/logo_only.svg" alt="our logo, a yellow Euro sign surrounded by yellow stars centered in a dark blue circle resting on a dark blue base">			
+			</a>
+		</div>	
+		<nav id="navwrapper" role="navigation" aria-label="Main navigation"><div id="mainnav"><ul><li class="has-subpages" aria-expanded="false"><a href="/about/html/index.en.html">About us</a><a href="#" class="subpages" title="toggle subpages for About us"></a><div class="nav-first-level-wrap"><div class="nav-featured-wrap"><div class="nav-featured"><div class="item">
+    <div class="title">About us</div>
+    <a href="/about/html/index.en.html">Overview of the European Systemic Risk Board</a></div>
+</div></div><ul><li class="clearfix"><a href="/about/background/html/index.en.html">Mission & establishment</a></li><li class="has-subpages"><a href="/about/orga/html/index.en.html">Organisation</a><a href="#" class="subpages" title="toggle subpages for Organisation"></a><ul><li class="clearfix"><a href="/about/orga/board/html/index.en.html">General Board</a></li><li class="clearfix"><a href="/about/orga/steercomm/html/index.en.html">Steering Committee</a></li><li class="clearfix"><a href="/about/orga/atc/html/index.en.html">Advisory Technical Committee</a></li><li class="has-subpages"><a href="/about/orga/asc/html/index.en.html">Advisory Scientific Committee</a><a href="#" class="subpages" title="toggle subpages for Advisory Scientific Committee"></a><ul><li class="clearfix"><a href="/about/orga/asc/ieke/html/index.en.html">Ieke van den Burg Prize</a></li></ul></li><li class="clearfix"><a href="/about/orga/secr/html/index.en.html">Secretariat</a></li><li class="clearfix"><a href="/about/orga/list/html/index.en.html">List of members</a></li></ul></li><li class="has-subpages"><a href="/about/legal/html/index.en.html">Legal framework</a><a href="#" class="subpages" title="toggle subpages for Legal framework"></a><ul><li class="clearfix"><a href="/about/legal/corgov/html/index.en.html">Corporate governance</a></li><li class="clearfix"><a href="/about/legal/scope/html/index.en.html">Scope of action</a></li></ul></li><li class="clearfix"><a href="/about/careers/html/index.en.html">Careers</a></li></ul></div></li><li class="has-subpages -section" aria-expanded="false"><a href="/news/html/index.en.html">Media & events</a><a href="#" class="subpages" title="toggle subpages for Media & events"></a><div class="nav-first-level-wrap"><div class="nav-featured-wrap"><div class="nav-featured"><div class="item">
+    <div class="title">Media & events</div>
+    <a href="/news/html/index.en.html">Overview of media & events</a></div>
+</div></div><ul><li class="clearfix"><a href="/news/schedule/html/index.en.html">Schedule of events</a></li><li class="clearfix -section"><a href="/news/pr/html/index.en.html">Press releases</a></li><li class="clearfix"><a href="/news/speeches/html/index.en.html">Speeches</a></li></ul></div></li><li class="has-subpages" aria-expanded="false"><a href="/pub/html/index.en.html">Publications & research</a><a href="#" class="subpages" title="toggle subpages for Publications & research"></a><div class="nav-first-level-wrap"><div class="nav-featured-wrap"><div class="nav-featured"><div class="item">
+    <div class="title">Publications & research</div>
+    <a href="/pub/html/index.en.html">Overview of publications & research</a></div>
+</div></div><ul><li class="has-subpages"><a href="/pub/reports/html/index.en.html">ESRB reports</a><a href="#" class="subpages" title="toggle subpages for ESRB reports"></a><ul><li class="clearfix"><a href="/pub/reports/ar/html/index.en.html">Annual reports</a></li><li class="clearfix"><a href="/pub/reports/nbfi_monitor/html/index.en.html">NBFI Risk Monitor</a></li><li class="clearfix"><a href="/pub/reports/review_macroprudential_policy/html/index.en.html">Macroprudential policy reviews</a></li></ul></li><li class="has-subpages"><a href="/pub/asc/html/index.en.html">ASC publications</a><a href="#" class="subpages" title="toggle subpages for ASC publications"></a><ul><li class="clearfix"><a href="/pub/asc/reports/html/index.en.html">ASC reports</a></li><li class="clearfix"><a href="/pub/asc/insights/html/index.en.html">ASC insights</a></li></ul></li><li class="has-subpages"><a href="/pub/rd/html/index.en.html">Risk dashboard</a><a href="#" class="subpages" title="toggle subpages for Risk dashboard"></a><ul><li class="clearfix"><a href="/pub/rd/interactive_rd/html/index.en.html">Interactive risk dashboard</a></li></ul></li><li class="has-subpages"><a href="/pub/series/html/index.en.html">Papers & research</a><a href="#" class="subpages" title="toggle subpages for Papers & research"></a><ul><li class="clearfix"><a href="/pub/series/occasional-papers/html/index.en.html">Occasional papers</a></li><li class="clearfix"><a href="/pub/series/working-papers/html/index.en.html">Working papers</a></li><li class="clearfix"><a href="/pub/series/ieke-prize/html/index.en.html">Ieke van den Burg Prize</a></li><li class="clearfix"><a href="/pub/series/research-programme/html/index.en.html">Alberto Giovannini Programme for Data Science</a></li><li class="clearfix"><a href="/pub/series/commentaries/html/index.en.html">Commentaries</a></li><li class="clearfix"><a href="/pub/series/task-force-safe-assets/html/index.en.html">High-level task force on safe assets</a></li></ul></li><li class="clearfix"><a href="/pub/financial-crises/html/index.en.html">European financial crises database</a></li><li class="clearfix"><a href="/pub/pubbydate/html/index.en.html">Publications by date</a></li></ul></div></li><li class="has-subpages" aria-expanded="false"><a href="/mppa/html/index.en.html">ESRB policy</a><a href="#" class="subpages" title="toggle subpages for ESRB policy"></a><div class="nav-first-level-wrap"><div class="nav-featured-wrap"><div class="nav-featured"><div class="item">
+    <div class="title">ESRB policy</div>
+    <a href="/mppa/html/index.en.html">Overview of ESRB policy</a></div>
+</div></div><ul><li class="clearfix"><a href="/mppa/framework/html/index.en.html">Policy framework</a></li><li class="clearfix"><a href="/mppa/warnings/html/index.en.html">Warnings</a></li><li class="clearfix"><a href="/mppa/recommendations/html/index.en.html">Recommendations</a></li><li class="clearfix"><a href="/mppa/stress/html/index.en.html">Stress testing</a></li><li class="clearfix"><a href="/mppa/opinions/html/index.en.html">Opinions</a></li><li class="clearfix"><a href="/mppa/responses/html/index.en.html">Responses & letters</a></li><li class="clearfix"><a href="/mppa/surveys/html/index.en.html">Surveys</a></li><li class="clearfix"><a href="/mppa/covid-19-policy-measures/html/index.en.html">COVID-19 policy measures</a></li></ul></div></li><li class="has-subpages" aria-expanded="false"><a href="/national_policy/html/index.en.html">National policy</a><a href="#" class="subpages" title="toggle subpages for National policy"></a><div class="nav-first-level-wrap"><div class="nav-featured-wrap"><div class="nav-featured"><div class="item">
+    <div class="title">National policy</div>
+    <a href="/national_policy/html/index.en.html">Overview of national policy</a></div>
+</div></div><ul><li class="clearfix"><a href="/national_policy/ccb/html/index.en.html">Countercyclical capital buffer</a></li><li class="clearfix"><a href="/national_policy/systemically/html/index.en.html">Systemically important institutions</a></li><li class="clearfix"><a href="/national_policy/systemic/html/index.en.html">Systemic risk buffer</a></li><li class="clearfix"><a href="/national_policy/capital/html/index.en.html">Capital conservation buffer</a></li><li class="clearfix"><a href="/national_policy/risk/html/index.en.html">Risk weight measures</a></li><li class="clearfix"><a href="/national_policy/other/html/index.en.html">Other measures</a></li><li class="clearfix"><a href="/national_policy/reciprocation/html/index.en.html">Reciprocation of measures</a></li></ul></div></li></ul></div></nav>		
+		
+		
+		<div id="page-actions">			
+			<div class="ecb-quickSearch" style="width:100%;">
+				<form role="search" method="get" style="width:100%;display:flex" onsubmit="return false">
+					<input type="text" name="search" class="addsearch" id="searchInput" maxlength="300" aria-label="Search" alt="Search" autocomplete="off" />				
+					<a href="#" id="searchButton">Search</a>
+				</form>
+			</div>
+		</div>
+
+		<button id="toggle-mobile-nav" aria-expanded="false" aria-controls="navwrapper"><span class="sr-only">Menu</span></button> 
+
+		
+		
+		
+	</div>
+			<div id="ecb-breadcrumbscontainer"><div id="ecb-breadcrumbwrapper"><nav id="ecb-breadcrumbs"></nav></div></div>
+		
+</header>
+
+<div id="ecb-mainnavwrapper" style="display: none !important;"></div>
+
+<div id="addSearch-container-full">
+    <div class="blue-bg">
+        <div class="arrow-top"></div>
+        <div class="section filter-radio">
+            <div class="tabs-container -white-blue">
+
+                <input id="searchAll" name="search-tab-group" type="radio" checked="" onClick="ECB.slow.addSearchApi.filterDate(this.value);" value="all">
+                <label for="searchAll" class="count-hits-all">ANYTIME <span class="count-hits"></span></label>
+                <div class="spacer"></div>
+                <input id="searchMonth" name="search-tab-group" type="radio" onClick="ECB.slow.addSearchApi.filterDate(this.value);" value="month">
+                <label for="searchMonth" class="count-hits-month">PAST MONTH <span class="count-hits"></span></label>
+                <div class="spacer"></div>
+                <input id="searchYear" name="search-tab-group" type="radio" onClick="ECB.slow.addSearchApi.filterDate(this.value);" value="year">
+                <label for="searchYear" class="count-hits-year">PAST YEAR <span class="count-hits"></span></label>
+
+            </div>
+            <div class="tabs-search-options-head">
+                <div id="text-search-options" class="title-option">Search Options</div>
+                <div id="text-image-preview" class="title-option hidden">Image Preview</div>
+            </div>
+        </div>
+        <div class="arrow-bottom"></div>
+        <div class="filter-selection form">
+            <div class="form-content">
+                <form>
+
+                    <div>
+                        <label for="dropdownSuggestions">Sort by</label>
+                        <div id="dropdownFilter" class="dropdown">
+                            <span class="icon"></span>
+                            <select onchange="ECB.slow.addSearchApi.filterDate(this.value)" id="searchFilterDate">
+                                <option value="all" class="count-hits-all">ANYTIME </option>
+                                <option value="month" class="count-hits-month">PAST MONTH </option>
+                                <option value="year" class="count-hits-year">PAST YEAR </option>
+                            </select>
+                        </div>
+                    </div>
+
+                    <div>
+                        <label for="dropdownSuggestions" class="space-top">Suggestions</label>
+                        <div id="dropdownSuggestions" class="dropdown">
+                            <span class="icon"></span>
+                            <select onchange="ECB.slow.addSearchApi.initSearch(this.value)" id="searchSuggestion">
+                                <option></option>
+                            </select>
+                        </div>
+                    </div>
+
+                </form>
+            </div>
+
+        </div>
+    </div>
+    <div class="white-bg">
+        <div class="section">
+            <div class="result-main-panel">
+                <!--<h1 class="ecb0 title-stick">Search Results</h1>-->
+                <div id="addsearch-api-results"></div>
+                <div class="addsearch-legends-categories">
+                    <span id="adcat_home">Home</span>
+                    <span id="adcat_press">Media</span>
+                    <span id="adcat_explainers">Explainers</span>
+                    <span id="adcat_pub">Research &amp; Publications</span>
+                    <span id="adcat_stats">Statistics</span>
+                    <span id="adcat_mopo">Monetary Policy</span>
+                    <span id="adcat_euro">The &euro;uro</span>
+                    <span id="adcat_paym">Payments &amp; Markets</span>
+                    <span id="adcat_career">Careers</span>
+                </div>
+            </div>
+            <div class="result-side-panel">
+                <div id="addsearch-sidemenu">
+                    <div id="result-suggestions">
+                        <span>Suggestions</span>
+                        <div id="suggestions-container">
+                        </div>
+                    </div>
+                    <div id="result-sortBy">
+                        <span>Sort by</span>
+                        <div id="sortby-radio-container">
+                            <div class="addsearch-sortby-radiogroup">
+                                <label>
+                                    <input id="sort-by-relevance" type="radio" name="sortby-radio-container" onclick="ECB.slow.addSearchApi.sortBy('relevance')" data-field="relevance" data-order="desc" value="" checked="">Relevance
+                                </label>
+                                <label>
+                                    <input id="sort-by-date" type="radio" name="sortby-radio-container" onclick="ECB.slow.addSearchApi.sortBy('date')" data-field="date" data-order="desc" value="">Date
+                                </label>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div id="addsearch-image-container"><a href="#" class="no-icon" target="_blank"><img src="" id="addsearch-image" /></a></div>
+            </div>
+        </div>
+    </div>
+</div>
+	<div id="main-wrapper" >
+				<div class="header fast image-attribution  -small" 			data-image="/news/shared/img/header.jpg">
+			<div data-image="/news/shared/img/header.jpg" ></div>		</div>
+		
+				<aside aria-label="Social media sharing and related content (if available)">
+					
+					<div id="ecb-social-sharing" class="" tab-index="2">
+						
+<ul class="-links">
+<li class="-print"><a href="javascript:window.print()" title="Print page"></a></li>
+
+</ul>
+<div class="-separator"></div>
+<ul class="-links">
+<li class="-twitter"><a href="javascript:window.open('https://twitter.com/intent/tweet?url='+window.location.href,'_blank','width=600,height=400,menubar=no')" title="Share on X"></a></li>
+<li class="-facebook"><a href="javascript:window.open('https://www.facebook.com/sharer/sharer.php?u='+window.location.href,'_blank','width=600,height=400,menubar=no')" title="Share on Facebook"></a></li>
+<li class="-linkedin"><a href="javascript:window.open('https://www.linkedin.com/shareArticle?url='+window.location.href,'_blank','width=600,height=400,menubar=no')" title="Share on LinkedIn"></a></li>
+<li class="-email"><a href="javascript:window.open('mailto:?subject=I would like to share this link with you&body=Link to the website of the European Central Bank: '+window.location.href)" title="Share by Email"></a></li>
+</ul>
+
+
+					</div>
+					
+																		</aside>
+						
+						<main >
+			<div class="title"><ul><li>PRESS RELEASE</li></ul><h1>Frontier AI models could strain cyber resilience in the financial system, ESRB warns</h1></div><div class="section"><p class="ecb-publicationDate">7 July 2026</p><ul><li>Frontier AI models are changing cyber threat landscape for EU financial system</li><li>These models may increase speed, scale and sophistication of cyberattacks</li><li>Relevant authorities should reflect these risks in supervisory and oversight work</li></ul><p>The European Systemic Risk Board (ESRB) published today a <a href="/pub/pdf/warnings/esrb.warning260625_on_systemic_cyber_risks_stemming_from_frontier_ai_models~ef424708cf.en.pdf" class="link-inline pdf">warning on systemic cyber risks stemming from frontier AI models</a>. This warning comes after the ESRB General Board assessed systemic cyber risk as "severe" <a href="/pub/outcomes/html/esrb.gbm260702~9cab04f4da.en.html" class="link-inline arrow">in June</a>, up from "elevated" <a href="/pub/outcomes/html/esrb.pr260331~f75f42f645.en.html" class="link-inline arrow">in March</a>.</p><p>Frontier AI models are advanced AI models capable of materially affecting offensive or defensive cyber operations. The ESRB warning explains how these models are reshaping the cyber threat landscape, assesses the resulting systemic risks and outlines implications for public authorities and private financial institutions.</p><p>Frontier AI models<strong> </strong>are a paradigm shift for cybersecurity. Eventually, these models are likely to strengthen cyber resilience<a id="_Hlk233711915" class="link-inline"></a>. In the short to medium term, however, they provide an advantage to threat actors, enabling them to discover vulnerabilities and execute cyberattacks with increased speed, scale and sophistication. In addition, the concentration of leading AI providers outside the European Union exposes the EU to strategic dependency and geopolitical risks.</p><p>In order to reinforce the warning’s message, the General Board calls on <a id="_Hlk233711891" class="link-inline"></a>the EU to scale up its capacity, expertise and strategic autonomy in this critical area. This requires a coordinated answer of all parties, including AI providers, software providers, security firms, open-source maintainers, financial institutions and authorities at both national and Union level. </p><p>Reflecting this, the ESRB welcomes the <a href="https://www.bankingsupervision.europa.eu/press/letterstobanks/shared/pdf/2026/ssm.2026_letter_on_AI_enabled_cybersecurity_threats.en.pdf" class="link-inline pdf">letter to CEOs of significant euro area banks</a> <a id="_Hlk233712144" class="link-inline"></a>from ECB Banking Supervision, also published today. The letter sets out supervisory expectations for addressing the evolving AI-related cyber threat landscape.</p><p>The ESRB will continue to monitor the use and development of frontier AI models with cyber capability and their impact on the financial sector from a systemic risk perspective. <a id="_Hlk233654215" class="link-inline"></a><a id="_Hlk233712158" class="link-inline"></a>The ESRB General Board will reassess such developments in its quarterly risk assessments and consider further appropriate action in its remit when needed.</p><p>The ESRB General Board also approved the publication of a note entitled “<a href="/pub/pdf/reports/esrb.report202607_AImodelscybercapabilites.en.pdf" class="link-inline pdf">Addressing Frontier AI Models with cyber capabilities from a financial stability perspective</a>”. This note provides further analysis of the risks identified.</p><p><strong>For media queries, please contact </strong><a href="mailto:francois.peyratout@ecb.europa.eu" class="link-inline mail"><strong>François Peyratout</strong></a><strong>, tel.: +49 172 8632119.</strong></p><h4>Notes</h4><ul class="ecb-small"><li>The ESRB is responsible for the macro-prudential oversight of the financial system within the European Union to contribute to the prevention or mitigation of systemic risks to financial stability. It brings together representatives from the ECB, national central banks, European and national supervisory authorities, the European Commission, and independent experts, working together to monitor and mitigate systemic risks to financial stability in the European Union.</li><li>The ESRB issues <a href="/mppa/warnings/html/index.en.html" class="link-inline arrow">warnings </a>when it identifies significant systemic risks to financial stability.</li></ul></div><!-- converted at 2020-05-29_23:27:41 -->
+<!-- converted at 2015-04-28_09:44:33 -->   
+<div class="address-box -top-arrow">    
+    <div class="headline">CONTACT</div>
+    <h2>European Central Bank</h2>
+    <div class="wrapper">
+        <div class="content-box">            
+            <h3>Directorate General Communications</h3>
+			<ul>                
+                <li>Sonnemannstrasse 20</li>
+                <li>60314 Frankfurt am Main, Germany</li>
+				<li><a href="tel:+49 69 1344 7455">+49 69 1344 7455</a></li>
+				<li><a href="mailto:media@ecb.europa.eu">media@ecb.europa.eu</a></a></li>
+            </ul>
+        </div>
+        <div class="content-box">
+            <p>Reproduction is permitted provided that the source is acknowledged.</p>
+            <a class="arrow" href="/services/contacts/html/index.en.html">Media contacts</a> 
+        </div>
+    </div>
+</div>
+			
+			
+		</main>
+	</div>
+	<div id="feedback" class="hidden">
+	<div class="content-box">
+		<div class="initial">
+			<div class="title">Are you happy with this page?</div>        
+			<a class="button -inverted-color" id="feedback-yes">Yes</a>
+			<a class="button -inverted-color" id="feedback-no">No</a>
+		</div>
+		<div class="second hidden">
+			<div class="title">What made you unhappy?</div>
+			<a class="button -inverted-color" id="feedback-broken">Page not working</a>   
+			<a class="button -inverted-color" id="feedback-content">Information not useful</a>
+			<a class="button -inverted-color" id="feedback-design">Design not attractive</a> 
+			<a class="button -inverted-color" id="feedback-other">Something else</a> 
+		</div>
+		<div class="final hidden">
+			<div class="title">Thank you for letting us know!</div>
+		</div>
+	</div>
+</div>	<footer id="ecb-doc-footer">
+    <div class="ecb-footerTop">
+        
+	
+	<div class="ecb-serviceNavigation">
+		<div class="ecb-serviceNavigationBox">
+			<div class="ecb-serviceNavigationBoxTitle">Useful links</div>
+			<div class="ecb-serviceNavigationBoxLinks">
+			
+				<ul>
+					<li><a	href="/home/members/html/login.en.html">ESRB member login</a></li>				
+					<li><a	href="/home/glossary/html/index.en.html">Glossary</a></li>	
+					<li><a href="/home/contacts/html/index.en.html">Contacts</a></li>			
+				</ul>
+			</div>
+			
+		</div>
+		<div class="ecb-serviceNavigationBox">
+			<div class="ecb-serviceNavigationBoxTitle">Using our Site</div>
+			<div class="ecb-serviceNavigationBoxLinks">
+				<ul>
+					<li><a	href="/home/disclaimer/html/index.en.html">Disclaimer &amp; Copyright</a></li>
+			        <li><a href ="/home/data-protection/privacy-statements/website/html/index.en.html">Privacy statement</a></li>
+					<li><a href="/home/languagepolicy/html/index.en.html">Language policy</a></li>	
+					<li><a href="/services/accessibility-statement/html/index.en.html">Accessibility statement</a></li>
+				</ul>
+			</div>
+		</div>
+		<div class="ecb-serviceNavigationBox">
+			<div class="ecb-serviceNavigationBoxTitle">Corporate Policies</div>
+			<div class="ecb-serviceNavigationBoxLinks">
+				<ul>
+					<li><a href="/home/data-protection/html/index.en.html">Data Protection</a></li>
+					<li><a href="/home/responsible-disclosure/html/index.en.html">Responsible disclosure</a></li>
+				</ul>
+			</div>
+		</div>
+	</div>	
+
+	<div class="footerBottomLinks">
+		<div class="sitemap">
+			<a href="/home/sitedir/html/index.en.html" title="Site Directory">Site directory</a>
+		</div>
+	</div>	
+</div><div class="ecb-footerBottom">
+	<div>
+		<p><span>Copyright 2026, </span>European Systemic Risk Board</p> 
+	</div>
+	<div class="ecb-footerBottomSocialLinks">
+		<h2 role="presentation">Follow us</h2>
+		<div class="socialLinks">
+			<a href="https://x.com/ESRBofficial" class="twitter" title="Twitter"></a>                
+			<a href="https://www.youtube.com/playlist?list=PLnVAEZuF9FZnCkf-H0PuNV2gCpJzx86-o" class="youtube" title="YouTube"></a>
+			<a href="/rss" class="rss" title="RSS news feeds"></a>
+		</div>
+	</div>
+</div>
+    <!-- <button id='back-to-top' class='fa fa-angle-up'>Back to top</button> -->
+</footer>
+
+<style>
+[data-count]{
+	position: relative;
+}
+[data-count]::after{
+	position: absolute;
+    right: -20px;
+    bottom: 0px;
+    display: block;
+    content: attr(data-count);
+    color: rgba(255, 255, 255, 0.8);
+    text-shadow: 0 0 8px black;
+    font-size: 11px;
+}
+
+body.hideCount [data-count]::after{
+	display: none;
+}
+</style>
+
+<script>
+	(function(){
+		let addedCount = false;
+		let addCount = function(){
+			let list = document.querySelectorAll("h2,h3,h4,p,a");
+			for(var i = 0; i < list.length; i++){
+				let item = list[i];
+				item.setAttribute("data-count",item.textContent.length);
+			}	
+		}
+
+		document.onkeypress = function(e){			
+			if(e.ctrlKey && e.code == "KeyM"){
+				if(addedCount){	
+					document.body.classList.add('hideCount');
+					addedCount = false;
+				}else{				
+					document.body.classList.remove('hideCount');
+					addCount();
+					addedCount = true;
+				}	
+			}
+		}	
+	})();
+	
+	
+</script>
+<link rel="stylesheet" href="/shared/dist/css/print.min.css?5338937" media="print">
+
+<div class="ecb-cookieConsent hidden" id="cookieConsent" role="region" aria-label="Cookies on the European Central Bank website">
+	<div class="initial">
+		<h2>Our website uses cookies</h2>
+		<p>We use functional cookies to store user preferences; analytics cookies to improve website performance; third-party cookies set by third-party services integrated into the website. You have the choice to accept or reject them. For more information or to review your preference on the cookies and server logs we use, we invite you to:</p>
+		<p class="cookieConsentMoreInfoLinks"><a href="/home/data-protection/privacy-statements/esrb.privacy_statement_website.en.html">Read our privacy statement </a> <a href="/home/data-protection/privacy-statements/esrb.privacy_statement_cookiepolicy.en.html">Learn more about how we use cookies</a></p>
+		<!--<a href="/home/data-protection/privacy-statements/website/html/index.en.html" class="arrow">Learn more about how we use cookies</a></p>-->
+		<div class="consentButtons initial cf">
+			<button class="check linkButton linkButtonLarge floatLeft highlight-medium">I understand and I accept the use of
+				cookies</button>
+			<button class="cross linkButton linkButtonLarge floatRight highlight-medium">I do not accept the use of
+				cookies</button>
+		</div>
+	</div>
+	<div class="accepted hidden">
+		<h2>Thank you!</h2>
+		<div style="background-image:url(/shared/nav/svg/cookies_accepted.svg);width:100px;height:100px;margin:auto"
+			class="img"></div>		
+	</div>
+	<div class="refused hidden">
+		<h2>Thank you!</h2>
+		<div style="background-image:url(/shared/nav/svg/cookies_refused.svg);width:100px;height:100px;margin:auto"
+			class="img"></div>		
+	</div>
+	<div class="updated hidden">
+		<h2>We have updated our privacy policy</h2>
+		<p>We are always working to improve this website for our users. To do this, we use the anonymous data provided
+			by cookies.<br>
+			<a href="/home/data-protection/privacy-statements/website/html/index.en.html"
+				class="arrow">See what has changed in our privacy policy</a>
+		</p>
+		<div class="consentButtons updated cf">
+			<button class="check linkButton linkButtonLarge floatLeft highlight-medium">I understand and I accept the use of
+				cookies</button>
+			<button class="cross linkButton linkButtonLarge floatRight highlight-medium">I do not accept the use of
+				cookies</button>
+		</div>
+	</div>
+	<div class="expired hidden">
+		<h2>Your cookie preference has expired</h2>
+		<p>We are always working to improve this website for our users. To do this, we use the anonymous data provided
+			by cookies.<br>
+			<a href="/home/data-protection/privacy-statements/website/html/index.en.html"
+				class="arrow">Learn more about how we use cookies</a>
+		</p>
+		<div class="consentButtons expired cf">
+			<button class="check linkButton linkButtonLarge floatLeft highlight-medium">I understand and I accept the use of
+				cookies</button>
+			<button class="cross linkButton linkButtonLarge floatRight highlight-medium">I do not accept the use of
+				cookies</button>
+		</div>
+	</div>
+</div>
+<div class="cookieBlockedMessage template hidden">
+	<div class="cookieBlockedContentHolder">
+		<div class="mainCookieBlockedMessage">This feature requires cookies.</div>
+		<a class="button modify-cookies">Modify</a>
+	</div>
+</div> 
+
+
+<script src="/shared/js/analytics/pa_events.js?v=" data-siteID="638443" data-collectDomain="https://qfknbhm.pa-cd.com"></script>
+
+
+		
+</body>
+
+</html>

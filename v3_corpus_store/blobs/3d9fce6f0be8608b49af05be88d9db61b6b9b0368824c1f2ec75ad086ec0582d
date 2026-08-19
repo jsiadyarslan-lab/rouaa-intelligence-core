@@ -1,0 +1,157 @@
+<!doctype html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width">
+  <meta name="format-detection" content="telephone=no">
+  <title>お知らせ | 誤使用・不注意による製品事故リスクを低減した製品に対する表彰・表示制度（METI/経済産業省）</title>
+  <link rel="shortcut icon" href="https://www.meti.go.jp/favicon.ico">
+  <link rel="canonical" href="./news.html">
+
+  <!-- OGP設定 -->
+  <meta property="og:title" content="お知らせ | 誤使用・不注意による製品事故リスクを低減した製品に対する表彰・表示制度">
+  <meta property="og:type" content="article"><!-- TOPページなら"website"、それ以外なら"article" -->
+  <meta property="og:url" content="/news.html">
+  <meta property="og:site_name" content="誤使用・不注意による製品事故リスクを低減した製品に対する表彰・表示制度（METI/経済産業省）">
+  <!-- /OGP設定 -->
+
+  <!-- Load Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/yakuhanjp@3.3.1/dist/css/yakuhanjp_s.min.css">
+  <!-- /Load Fonts -->
+
+  <!-- Load css -->
+  <link rel="stylesheet" href="../css/reset.css">
+  <link rel="stylesheet" href="../css/style.css">
+  <link rel="stylesheet" href="../css/general.css">
+  <link rel="stylesheet" href="../css/unique.css?date=241023">
+  <!-- /Load css -->
+
+  <!-- jQuery, jQueryUI load from CDN -->
+  <script src="https://code.jquery.com/jquery-3.6.1.js" integrity="sha256-3zlB5s2uwoUzrXK3BT7AX3FyvojsraNFxCc2vC/7pNI=" crossorigin="anonymous"></script>
+  <!-- /jQuery, jQueryUI read from CDN -->
+</head>
+<body id="top">
+  <header class="header l_wrap js_calcH_target">
+    <script src="../js/header.js" data-root-path="../" id="header-script"></script>
+  </header>
+
+  <main class="wrapper">
+    <header class="l_wrap top article_keyvisual article_keyvisual__noMv">
+      <div class="article_keyvisual_heading heading heading__primary u_alignC">
+        <div class="article_keyvisual_heading_inr">
+          <p class="article_keyvisual_subttl heading_subttl u_bold u_tt_up" aria-hidden="true">News</p>
+          <h1 class="article_keyvisual_ttl heading_ttl u_bold">お知らせ</h1>
+        </div>
+      </div>
+      <div class="article_keyvisual_body">
+        <ol class="l_wrap_inr article_keyvisual_breadcrumb g_breadcrumb_lst l_flex">
+          <li class="g_breadcrumb_lst_li">
+            <a class="" href="../">TOP</a>
+          </li>
+          <li class="g_breadcrumb_lst_li">
+            <a class="" href="./index.html">お知らせ</a>
+          </li>
+          <li class="g_breadcrumb_lst_li">
+            令和８年度（＋あんしん）の応募受付を開始しました
+          </li>
+        </ol>
+      </div>
+    </header>
+    <div class="l_wrap g_sec g_sec__bg g_sec__article g_sec__last">
+      <div class="l_wrap_inr">
+        <div class="txt_box txt_box__hasgutter_lg">
+          <div class="news_list_item" id="news10">
+            <p class="news_list_date u_fz14"><time datetime="2026-04-13">2026.04.13</time></p>
+            <div class="news_list_body">
+              <p>令和８年度（＋あんしん）の応募受付を開始しました</p>
+              <br>
+              <div class="news_list_body">
+                <p>4/13(月)より令和８年度（＋あんしん）の応募受付を開始しました。<br>詳細は以下のボタンをクリックしてください。
+                </p>
+              </div>  
+              <div class="mt_20">
+                <p class="g_btn g_btn__main mx_auto">
+                  <a class="u_bold" href="../flow.html">応募に関するページ</a>
+                </p>
+              </div>
+                <br>
+                <dl>
+                  <div class="l_flex l_flexWrap">
+                    <dt class="l_flex">応募期間　：</dt>
+                    <dd> 2026年4月13日（月）　～　6月26日（金）</dd>
+                  </div>
+                  <div class="l_flex l_flexWrap mt_10_md">
+                    <dt class="l_flex">必要書類　：</dt>
+                    <dd>応募に関するページ内で確認ください</dd>
+                  </div>
+                  <div class="l_flex l_flexWrap mt_10_md">
+                    <dt class="l_flex">個別相談　：</dt>
+                    <dd>
+                      応募にあたり、随時個別相談（対面・オンライン）が可能です。<br>
+                      お気軽に下記のまでご連絡ください。<br>
+                      plus-anshin@nttdata-strategy.com
+                    </dd>
+                  </div>
+                </dl>
+              </div>
+              <!--<div class="g_sec g_sec__article">
+                <h3 class="g_decoHd_bl u_fz20 u_fz18_md u_fz14_sm u_bold">講演動画</h3>
+                  <ul class="mt_20 l_grid l_grid_2 l_grid_md l_grid_md_1 l_gap_15">
+                    <li>
+                      <figure class="u_img">
+                        <video src="../video/2603_risk_assessment.mp4" controls></video>
+                      </figure>
+                      <p class="mt_5 u_fz13">リスクアセスメント講座</p>
+                    </li>
+                    <li>
+                      <figure class="u_img">
+                        <video src="../video/2603_outline_description.mp4" controls></video>
+                      </figure>
+                      <p class="mt_5 u_fz13">表彰制度の概要説明</p>
+                    </li>
+                  </ul>
+              </div>
+              <div class="g_sec g_sec__article">
+                <h3 class="g_decoHd_bl u_fz20 u_fz18_md u_fz14_sm u_bold">講演資料</h3>
+                <ul>
+                  <li class="hasIco hasIco__pdf"><a class="g_link g_link__def_color" href="../img/pdf/202603_iso-tc.pdf" target="_blank">リスクアセスメント講座（野口様）</a></li>
+                  <li class="hasIco hasIco__pdf"><a class="g_link g_link__def_color" href="../img/pdf/202603_meti.pdf" target="_blank">表彰制度の概要説明（経済産業省）</a></li>
+                  <li class="hasIco hasIco__pdf"><a class="g_link g_link__def_color" href="../img/pdf/202603_nite.pdf" target="_blank">表彰制度の概要説明（NITE：独立行政法人製品評価技術基盤機構）</a></li>
+                </ul>
+              </div>-->
+            </div>
+          </div>
+        </div>
+        <div class="pt_70">
+          <p class="g_btn g_btn__main mx_auto">
+            <a class="u_bold" href="./">一覧に戻る</a>
+          </p>
+        </div>
+      </div>
+    </div>
+  </main>
+  <footer class="footer l_wrap" id="Footer">
+    <script src="../js/footer.js" data-root-path="../" id="footer-script"></script>
+  </footer>
+
+  <!-- Load JavaScript -->
+  <script src="../js/ua.js"></script>
+  <script src="../js/jquery.cookie.js"></script>
+  <script src="../js/plugin/jquery.matchHeight.js"></script>
+  <script src="../js/plugin/slick.min.js"></script>
+  <script src="../js/common.js"></script>
+  <!-- /Load JavaScript -->
+  <!-- User Insight PCDF Code Start : meti.go.jp -->
+  <script type="text/javascript">
+  var _uic = _uic ||{}; var _uih = _uih ||{};_uih['id'] = 52277; _uih['lg_id'] = ''; _uih['fb_id'] = ''; _uih['tw_id'] = ''; _uih['uigr_1'] = ''; _uih['uigr_2'] = ''; _uih['uigr_3'] = ''; _uih['uigr_4'] = ''; _uih['uigr_5'] = ''; _uih['uigr_6'] = ''; _uih['uigr_7'] = ''; _uih['uigr_8'] = ''; _uih['uigr_9'] = ''; _uih['uigr_10'] = ''; _uic['security_type'] = 1;
+  /* DO NOT ALTER BELOW THIS LINE */
+  (function() {
+    var bi = document.createElement('script');bi.type = 'text/javascript'; bi.async = true; bi.src = '//cs.nakanohito.jp/b3/bi.js'; var s = document.getElementsByTagName('script')[0];s.parentNode.insertBefore(bi, s); 
+  })(); 
+  </script>
+  <!-- User Insight PCDF Code End : meti.go.jp -->
+  </body>
+</html>

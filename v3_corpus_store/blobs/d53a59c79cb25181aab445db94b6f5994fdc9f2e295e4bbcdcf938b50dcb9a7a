@@ -1,0 +1,2567 @@
+<!DOCTYPE html>
+<html lang="bg">
+    <head>
+        <!-- Required meta tags -->
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<base href="https://www.nsi.bg/" />
+
+<title>Индекси на оборота в раздел „Tърговия на дребно, без търговията с автомобили и мотоциклети“ по съпоставими цени - юни 2026 година</title>
+<meta name="description" content="През юни[1]&nbsp;2026 г. индексът на оборота в раздел &bdquo;Търговия на дребно, без търговията с автомобили и мотоциклети&ldquo; по съпоставими цени се увеличава с 0.5% спрямо предходния месец. Данните са предварителни и сезонно изгладени. Търговският оборот нараства със 7.1% спрямо юни 2025 г. сп ...">
+
+<meta property="og:site_name" content="НСИ - Национален статистически институт">
+<meta property="og:title" content="Индекси на оборота в раздел „Tърговия на дребно, без търговията с автомобили и мотоциклети“ по съпоставими цени - юни 2026 година">
+<meta property="og:description" content="През юни[1]&nbsp;2026 г. индексът на оборота в раздел &bdquo;Търговия на дребно, без търговията с автомобили и мотоциклети&ldquo; по съпоставими цени се увеличава с 0.5% спрямо предходния месец. Данните са предварителни и сезонно изгладени. Търговският оборот нараства със 7.1% спрямо юни 2025 г. сп ...">
+<meta property="og:image" content="https://www.nsi.bg/templates/default/img/default.jpg">
+
+<!-- Bootstrap Min CSS -->
+<link rel="stylesheet" href="templates/default/css/bootstrap.min.css">
+<!-- Animate Min CSS -->
+<link rel="stylesheet" href="templates/default/css/animate.min.css">
+<!-- FlatIcon CSS -->
+<link rel="stylesheet" href="templates/default/css/flaticon.css">
+<!-- Odometer Min CSS -->
+<link rel="stylesheet" href="templates/default/css/odometer.min.css">
+<!-- Nice Select CSS -->
+<link rel="stylesheet" href="templates/default/css/nice-select.min.css">
+<!-- MeanMenu CSS -->
+<link rel="stylesheet" href="templates/default/css/meanmenu.css">
+<!-- Magnific Popup Min CSS -->
+<link rel="stylesheet" href="templates/default/css/magnific-popup.min.css">
+<!-- Owl Carousel Min CSS -->
+<link rel="stylesheet" href="templates/default/css/owl.carousel.min.css">
+<!-- Font Awesome Min CSS -->
+<link rel="stylesheet" href="templates/default/css/fontawesome.min.css">
+<!-- FoIcon CSS -->
+<link rel="stylesheet" href="templates/default/css/foicons.css">
+<!-- Style CSS -->
+<link rel="stylesheet" href="templates/default/css/style.css?t=1787011560">
+<!-- Responsive CSS -->
+<link rel="stylesheet" href="templates/default/css/responsive.css?t=1787011560">
+<!-- JS UI CSS -->
+<link rel="stylesheet" href="templates/default/css/jquery-ui.css">
+<!-- datatable -->
+<link href="templates/default/js/external/dataTables.min.css" rel="stylesheet">
+<!-- custom -->
+<link rel="stylesheet" href="templates/default/css/custom.css?t=1787011560">
+
+<link rel="icon" type="image/png" href="templates/default/img/favico/favicon.ico">
+
+<link rel="stylesheet" href="templates/default/js/external/buttons.dataTables.css">
+<style>
+.datatable th, .datatable td {
+	vertical-align: top;
+}
+caption {
+    caption-side: top;
+    font-size: 1.2em;
+    font-weight: bold;
+    color: #000;
+    padding: 10px;
+    text-align: center;
+    background-color: #f0f0f0;
+}
+.custom-right-align {
+    text-align: right;
+}
+</style>
+
+<style>
+.charts_tabs li {
+    display: inline-block;
+	width: auto;
+}
+.charts_tabs li a {
+	display: inline-block;
+}
+</style>
+    </head>
+    <body>
+	        <!-- Preloader -->
+        <div class="preloader">
+            <div class="loader">
+                <div class="shadow"></div>
+                <div class="box"></div>
+            </div>
+        </div>
+        <!-- End Preloader -->
+			<!-- Start Navbar Area -->
+        <div class="navbar-area navbar-two">
+
+			  
+<!--topbar start-->
+<div id="header-top-bar" class="topbar primary-bg"
+	style="background-color: #547A95">
+	<div class="container">
+		<div class="row justify-content-between align-items-center">
+			<div class="col-md-8 col-lg-7 d-none d-md-none d-lg-block">
+				<div class="topbar-text text-white">
+					<ul class="list-inline" style="margin-bottom: 0px;">
+						<li class="list-inline-item text-white"><span
+							class="flaticon-placeholder-filled-point mr-1"></span> ул. „П. Волов“ № 2, София 1038, България</li>
+						<li class="list-inline-item text-white"><a href="tel:(02) 9857 111" target="_blank"><span class="fas fa-phone-alt mr-1"></span> (02) 9857 111</a></li>
+					</ul>
+				</div>
+			</div>
+			<div class="col-md-12 col-lg-5" style="text-align: right;">
+				<div class="topbar-text text-white">
+					<ul class="list-inline text-md-right text-lg-right text-right  my-2">
+                	                		<li class="list-inline-item text-white"><a href="tel:(02) 9857 111" target="_blank"><span class="fas fa-phone-alt mr-1"></span><span class="sr-only">phone</span></a></li>
+                                    	                		<li class="list-inline-item text-white"><a href="https://www.facebook.com/nsibg" target="_blank"><span class="fab fa-facebook-f"></span><span class="sr-only">facebook</span></a></li>
+                                                            	<li class="list-inline-item"><a href="https://www.youtube.com/@bgnsi" class="rounded" target="_blank"><span class="fab fa-youtube"></span><span class="sr-only">youtube</span></a></li>
+                                        
+                                                                <li class="list-inline-item text-white"><a href="/pages/vrazki-34" class="rounded">Връзки</a></li>
+					                        <li class="list-inline-item text-white"><a href="/contacts" class="rounded">Контакти</a></li>
+													<li class="list-inline-item text-white"><a href="/en/press-release/indeksi-na-oborota-v-razdel-targoviya-na-drebno-bez-targoviyata-s-avtomobili-i-motocikleti-po-sapostavimi-ceni-9107" class="rounded">English</a></li>
+                    </ul>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+<!--topbar end-->
+             <div class="crimso-responsive-nav">
+                <div class="container">
+                    <div class="crimso-responsive-menu">
+                        <div class="logo">
+                            <a href="">
+                                <img src="templates/default/img/logos/logo3.png" class="white-logo" alt="НСИ - Национален статистически институт">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="crimso-nav">
+                <div class="container">
+                    <nav class="navbar navbar-expand-md navbar-light">
+                        <a class="navbar-brand" href="">
+                        	                            <img src="templates/default/img/logos/logo-bg.png" class="white-logo" alt="НСИ - Национален статистически институт">
+                        </a>
+
+                       <div class="collapse navbar-collapse mean-menu" id="navbarSupportedContent">
+                       		
+<ul class="navbar-nav">
+    
+        
+        <li class="nav-item">
+            <a href="/statistical-data/258" class="nav-link">СТАТИСТИЧЕСКИ ДАННИ <i class="fa fa-plus"></i></a>
+
+            				<ul class="dropdown-menu">
+			<li class="nav-item">
+			<a class="nav-link" href="/infostat">ИС ИНФОСТАТ - база от данни</a>
+					</li>
+			<li class="nav-item">
+			<a class="nav-link" href="/statistical-data/258">Бизнес статистика</a>
+			<ul class="dropdown-menu">
+			<li class="nav-item">
+			<a class="nav-link" href="/statistical-data/407">Бизнес наблюдения</a>
+					</li>
+			<li class="nav-item">
+			<a class="nav-link" href="/statistical-data/403">Бизнес регистър</a>
+					</li>
+			<li class="nav-item">
+			<a class="nav-link" href="/statistical-data/391">Външна търговия</a>
+					</li>
+			<li class="nav-item">
+			<a class="nav-link" href="/statistical-data/349">Годишна бизнес статистика</a>
+					</li>
+			<li class="nav-item">
+			<a class="nav-link" href="/statistical-data/343">Инвестиции</a>
+					</li>
+			<li class="nav-item">
+			<a class="nav-link" href="/statistical-data/316">Краткосрочна бизнес статистика</a>
+					</li>
+			<li class="nav-item">
+			<a class="nav-link" href="/statistical-data/301">НИРД, иновации и информационно общество</a>
+					</li>
+			<li class="nav-item">
+			<a class="nav-link" href="/statistical-data/267">Туризъм</a>
+					</li>
+			<li class="nav-item">
+			<a class="nav-link" href="/statistical-data/423">Транспорт</a>
+					</li>
+	</ul>		</li>
+			<li class="nav-item">
+			<a class="nav-link" href="/statistical-data/142">Демографска и социална статистика</a>
+			<ul class="dropdown-menu">
+			<li class="nav-item">
+			<a class="nav-link" href="/statistical-data/246">Доходи, разходи и потребление на домакинствата</a>
+					</li>
+			<li class="nav-item">
+			<a class="nav-link" href="/statistical-data/243">Жилищен фонд</a>
+					</li>
+			<li class="nav-item">
+			<a class="nav-link" href="/statistical-data/229">Здравеопазване</a>
+					</li>
+			<li class="nav-item">
+			<a class="nav-link" href="/statistical-data/218">Култура</a>
+					</li>
+			<li class="nav-item">
+			<a class="nav-link" href="/statistical-data/202">Население - демография, миграция и прогнози</a>
+					</li>
+			<li class="nav-item">
+			<a class="nav-link" href="/statistical-data/181">Образование и учене през целия живот</a>
+					</li>
+			<li class="nav-item">
+			<a class="nav-link" href="/statistical-data/161">Пазар на труда</a>
+					</li>
+			<li class="nav-item">
+			<a class="nav-link" href="/statistical-data/152">Правосъдие и престъпност</a>
+					</li>
+			<li class="nav-item">
+			<a class="nav-link" href="/statistical-data/151">Преброяване на населението и жилищния фонд</a>
+					</li>
+			<li class="nav-item">
+			<a class="nav-link" href="/statistical-data/147">Социална защита</a>
+					</li>
+			<li class="nav-item">
+			<a class="nav-link" href="/statistical-data/143">Социално включване и условия на живот</a>
+					</li>
+	</ul>		</li>
+			<li class="nav-item">
+			<a class="nav-link" href="/statistical-data/82">Макроикономическа статистика</a>
+			<ul class="dropdown-menu">
+			<li class="nav-item">
+			<a class="nav-link" href="/statistical-data/136">Брутен вътрешен продукт (БВП)</a>
+					</li>
+			<li class="nav-item">
+			<a class="nav-link" href="/statistical-data/135">Брутен национален доход (БНД)</a>
+					</li>
+			<li class="nav-item">
+			<a class="nav-link" href="/statistical-data/127">Държавна финансова статистика</a>
+					</li>
+			<li class="nav-item">
+			<a class="nav-link" href="/statistical-data/125">Европейска система от национални и регионални сметки 2010</a>
+					</li>
+			<li class="nav-item">
+			<a class="nav-link" href="/statistical-data/121">Заетост и отработени човекочасове - национално ниво</a>
+					</li>
+			<li class="nav-item">
+			<a class="nav-link" href="/statistical-data/118">Заетост и отработени човекочасове - регионално ниво</a>
+					</li>
+			<li class="nav-item">
+			<a class="nav-link" href="/statistical-data/113">Инфлация и индекси на потребителските цени</a>
+					</li>
+			<li class="nav-item">
+			<a class="nav-link" href="/statistical-data/84">Национални сметки - доклади за качество по програма за предоставяне на данни за Евростат</a>
+					</li>
+			<li class="nav-item">
+			<a class="nav-link" href="/statistical-data/101">Паритети на покупателната способност (ППС) - Програма за европейски и международни сравнения</a>
+					</li>
+			<li class="nav-item">
+			<a class="nav-link" href="/statistical-data/83">Пенсионни права в социалното осигуряване</a>
+					</li>
+			<li class="nav-item">
+			<a class="nav-link" href="/statistical-data/100">Секторни нефинансови сметки по институционални сектори</a>
+					</li>
+			<li class="nav-item">
+			<a class="nav-link" href="/statistical-data/90">Статистика на цените на жилища</a>
+					</li>
+			<li class="nav-item">
+			<a class="nav-link" href="/statistical-data/87">Таблици "Ресурс-използване"</a>
+					</li>
+			<li class="nav-item">
+			<a class="nav-link" href="/statistical-data/85">Финансови национални сметки</a>
+					</li>
+	</ul>		</li>
+			<li class="nav-item">
+			<a class="nav-link" href="/statistical-data/57">Околна среда и енергетика</a>
+			<ul class="dropdown-menu">
+			<li class="nav-item">
+			<a class="nav-link" href="/statistical-data/74">Енергетика</a>
+					</li>
+			<li class="nav-item">
+			<a class="nav-link" href="/statistical-data/58">Околна среда</a>
+					</li>
+	</ul>		</li>
+			<li class="nav-item">
+			<a class="nav-link" href="/statistical-data/15">Многосекторна статистика</a>
+			<ul class="dropdown-menu">
+			<li class="nav-item">
+			<a class="nav-link" href="/statistical-data/48">Кризисни събития</a>
+					</li>
+			<li class="nav-item">
+			<a class="nav-link" href="/statistical-data/428">Равенство между половете</a>
+					</li>
+			<li class="nav-item">
+			<a class="nav-link" href="/statistical-data/46">Регионална статистика</a>
+					</li>
+			<li class="nav-item">
+			<a class="nav-link" href="/statistical-data/45">Баланс на територията на Република България</a>
+					</li>
+			<li class="nav-item">
+			<a class="nav-link" href="/statistical-data/19">Статистика на градовете</a>
+					</li>
+			<li class="nav-item">
+			<a class="nav-link" href="/statistical-data/17">Устойчиво развитие</a>
+					</li>
+			<li class="nav-item">
+			<a class="nav-link" href="/statistical-data/47">Показатели за стратегия "Европа 2020"</a>
+					</li>
+	</ul>		</li>
+			<li class="nav-item">
+			<a class="nav-link" href="/statistical-data/418">Геореферирани данни</a>
+			<ul class="dropdown-menu">
+			<li class="nav-item">
+			<a class="nav-link" href="/statistical-data/419">Грид на населението</a>
+					</li>
+	</ul>		</li>
+			<li class="nav-item">
+			<a class="nav-link" href="/statistical-data/5">Селско и горско стопанство</a>
+			<ul class="dropdown-menu">
+			<li class="nav-item">
+			<a class="nav-link" href="/statistical-data/8">Селско стопанство</a>
+					</li>
+			<li class="nav-item">
+			<a class="nav-link" href="/statistical-data/6">Горско стопанство</a>
+					</li>
+	</ul>		</li>
+			<li class="nav-item">
+			<a class="nav-link" href="/statistical-data/1">Данъчна статистика</a>
+			<ul class="dropdown-menu">
+			<li class="nav-item">
+			<a class="nav-link" href="/statistical-data/2">Продажби на течни горива (бензини, дизел и пропан-бутан)</a>
+					</li>
+	</ul>		</li>
+			<li class="nav-item">
+			<a class="nav-link" href="/statistical-data/411">Ключови показатели</a>
+					</li>
+	</ul>
+			        </li>
+        	
+        
+        <li class="nav-item">
+            <a href="/pages/godishna-otchetnost-za-deinostta-na-predpriyatiyata-2024-850" class="nav-link">ПРОДУКТИ И УСЛУГИ <i class="fa fa-plus"></i></a>
+
+            				<ul class="dropdown-menu">
+			<li class="nav-item">
+			<a class="nav-link" href="/pages/za-respondenti-5">ЗА РЕСПОНДЕНТИ</a>
+			<ul class="dropdown-menu">
+			<li class="nav-item">
+			<a class="nav-link" href="/bulstat">Проверка на задълженията към дата</a>
+					</li>
+			<li class="nav-item">
+			<a class="nav-link" href="/pages/informacionna-sistema-biznes-cikli-97">Информационни системи</a>
+					</li>
+			<li class="nav-item">
+			<a class="nav-link" href="/pages/nablyudenie-na-rabotnata-sila-581">Наблюдения</a>
+					</li>
+			<li class="nav-item">
+			<a class="nav-link" href="/documents/215">Формуляри по теми</a>
+					</li>
+	</ul>		</li>
+			<li class="nav-item">
+			<a class="nav-link" href="/pages/zayavki-za-uslugi-24">Заявки за услуги</a>
+			<ul class="dropdown-menu">
+			<li class="nav-item">
+			<a class="nav-link" href="/service">Заявки за статистически услуги - уеб формуляр</a>
+					</li>
+			<li class="nav-item">
+			<a class="nav-link" href="/pages/zayavki-za-drugi-elektronni-uslugi-935">Заявки за други електронни услуги</a>
+					</li>
+	</ul>		</li>
+			<li class="nav-item">
+			<a class="nav-link" href="/calendar">Календар за разпространение</a>
+					</li>
+			<li class="nav-item">
+			<a class="nav-link" href="/pages/spisak-na-standartnite-statisticheski-pokazateli-27">Списък на стандартните статистически показатели</a>
+					</li>
+			<li class="nav-item">
+			<a class="nav-link" href="/pages/statisticheski-klasifikacii-i-registri-372">Статистически класификации и регистри</a>
+			<ul class="dropdown-menu">
+			<li class="nav-item">
+			<a target="_blank" class="nav-link" href="https://www.nsi.bg/nrnm/">Национален регистър на населените места</a>
+					</li>
+			<li class="nav-item">
+			<a class="nav-link" href="/pages/statisticheski-klasifikacii-13">Статистически класификации</a>
+					</li>
+	</ul>		</li>
+			<li class="nav-item">
+			<a class="nav-link" href="/metadata">Метаданни и методология на изследванията</a>
+			<ul class="dropdown-menu">
+			<li class="nav-item">
+			<a class="nav-link" href="/pages/sdds-plus-57">SDDS Plus</a>
+					</li>
+	</ul>		</li>
+			<li class="nav-item">
+			<a class="nav-link" href="/quality-reports">Доклади за качество</a>
+					</li>
+			<li class="nav-item">
+			<a class="nav-link" href="/pages/obsht-model-na-statisticheskiya-proizvodstven-proces-v-nsi-476">Общ модел на статистическия производствен процес в НСИ</a>
+					</li>
+			<li class="nav-item">
+			<a class="nav-link" href="/publications">Публикации</a>
+					</li>
+			<li class="nav-item">
+			<a class="nav-link" href="/pages/statistika-za-vseki-739">Статистика за всеки</a>
+			<ul class="dropdown-menu">
+			<li class="nav-item">
+			<a class="nav-link" href="/pages/kalkulatori-na-inflaciyata-387">Калкулатори на инфлацията</a>
+					</li>
+			<li class="nav-item">
+			<a class="nav-link" href="/pages/statisticheski-hapcheta-740">Статистически хапчета</a>
+					</li>
+			<li class="nav-item">
+			<a class="nav-link" href="/pages/statistika-za-nachinaeshti-741">Статистика за начинаещи</a>
+					</li>
+			<li class="nav-item">
+			<a class="nav-link" href="/pages/statistika-v-klas-742">Статистика в клас</a>
+					</li>
+			<li class="nav-item">
+			<a class="nav-link" href="/pages/infografiki-743">Инфографики</a>
+					</li>
+			<li class="nav-item">
+			<a class="nav-link" href="/pages/digitalni-publikacii-744">Дигитални публикации</a>
+					</li>
+			<li class="nav-item">
+			<a class="nav-link" href="/pages/statisticheski-rechnici-745">Статистически речници</a>
+					</li>
+			<li class="nav-item">
+			<a class="nav-link" href="/pages/videouroci-po-statistika-i-ikonometriya-746">Видеоуроци по статистика и иконометрия</a>
+					</li>
+			<li class="nav-item">
+			<a class="nav-link" href="/pages/evropeiska-olimpiada-po-statistika-za-uchenici-747">Eвропейска олимпиада по статистика за ученици</a>
+					</li>
+			<li class="nav-item">
+			<a class="nav-link" href="/pages/mejdunaroden-konkurs-za-statisticheski-plakat-748">Международен конкурс за статистически плакат</a>
+					</li>
+			<li class="nav-item">
+			<a class="nav-link" href="/pages/konkurs-za-statistichesko-ese-za-uchenici-772">Конкурс за статистическо есе за ученици</a>
+					</li>
+			<li class="nav-item">
+			<a class="nav-link" href="/pages/datathon-2025-787">Datathon</a>
+					</li>
+			<li class="nav-item">
+			<a class="nav-link" href="/pages/izlojbi-804">Изложби</a>
+					</li>
+			<li class="nav-item">
+			<a class="nav-link" href="/pages/socialni-medii-749">Социални медии</a>
+					</li>
+	</ul>		</li>
+			<li class="nav-item">
+			<a class="nav-link" href="/pages/esds-help-desk-388">ESDS Help Desk</a>
+					</li>
+			<li class="nav-item">
+			<a target="_blank" class="nav-link" href="https://www.nsi.bg/ddb2.1/?l=bg">База данни за разпространение - SDMX 2.1 Референтна инфраструктура</a>
+					</li>
+			<li class="nav-item">
+			<a class="nav-link" href="/pages/harta-na-klienta-931">Харта на клиента</a>
+					</li>
+	</ul>
+			        </li>
+        	
+        
+        <li class="nav-item">
+            <a href="/pages/history-897" class="nav-link">ЗА НСИ <i class="fa fa-plus"></i></a>
+
+            				<ul class="dropdown-menu">
+			<li class="nav-item">
+			<a class="nav-link" href="/team-schema">Организационна структура</a>
+			<ul class="dropdown-menu">
+			<li class="nav-item">
+			<a class="nav-link" href="/team-schema">Организационна схема</a>
+					</li>
+			<li class="nav-item">
+			<a class="nav-link" href="/team-search">Търсене</a>
+					</li>
+			<li class="nav-item">
+			<a class="nav-link" href="/team-management">Ръководство</a>
+					</li>
+			<li class="nav-item">
+			<a class="nav-link" href="/team-structure/direkciya-biznes-statistika-11">Дирекция "Бизнес статистика"</a>
+					</li>
+			<li class="nav-item">
+			<a class="nav-link" href="/team-structure/direkciya-demografska-i-socialna-statistika-17">Дирекция "Демографска и социална статистика"</a>
+					</li>
+			<li class="nav-item">
+			<a class="nav-link" href="/team-structure/direkciya-makroikonomicheska-statistika-23">Дирекция "Макроикономическа статистика"</a>
+					</li>
+			<li class="nav-item">
+			<a class="nav-link" href="/team-structure/direkciya-mnogosektorna-statistika-metodologiya-i-registri-30">Дирекция "Многосекторна статистика, методология и регистри"</a>
+					</li>
+			<li class="nav-item">
+			<a class="nav-link" href="/team-structure/direkciya-informacionni-sistemi-i-infrastruktura-36">Дирекция "Информационни системи и инфраструктура"</a>
+					</li>
+			<li class="nav-item">
+			<a class="nav-link" href="/team-structure/direkciya-obshta-administraciya-6">Дирекция "Обща администрация"</a>
+					</li>
+			<li class="nav-item">
+			<a class="nav-link" href="/team-subordination">Структури на пряко подчинение на председателя</a>
+					</li>
+			<li class="nav-item">
+			<a class="nav-link" href="/team-tsb">ТСБ</a>
+					</li>
+	</ul>		</li>
+			<li class="nav-item">
+			<a class="nav-link" href="/pages/history-897">История</a>
+					</li>
+			<li class="nav-item">
+			<a class="nav-link" href="/documents/218">Нормативна уредба</a>
+			<ul class="dropdown-menu">
+			<li class="nav-item">
+			<a class="nav-link" href="/documents/218">Европейска нормативна уредба</a>
+					</li>
+			<li class="nav-item">
+			<a class="nav-link" href="/documents/224">Българска нормативна уредба</a>
+					</li>
+			<li class="nav-item">
+			<a class="nav-link" href="/documents/219">Достъп до обществена информация</a>
+					</li>
+			<li class="nav-item">
+			<a class="nav-link" href="/documents/220">Опазване на статистическата тайна</a>
+					</li>
+			<li class="nav-item">
+			<a class="nav-link" href="/documents/232">Методики по постановления на Министерския съвет</a>
+					</li>
+	</ul>		</li>
+			<li class="nav-item">
+			<a class="nav-link" href="/pages/nacionalna-statisticheska-sistema-241">Национална статистическа система</a>
+			<ul class="dropdown-menu">
+			<li class="nav-item">
+			<a class="nav-link" href="/pages/nacionalen-statisticheski-savet-63">Национален статистически съвет</a>
+					</li>
+			<li class="nav-item">
+			<a class="nav-link" href="/pages/spisak-na-organite-na-statistikata-32">Списък на органите на статистиката</a>
+					</li>
+			<li class="nav-item">
+			<a class="nav-link" href="/pages/rules-42">Правилник за дейността на Националния статистически съвет към председателя на НСИ</a>
+					</li>
+			<li class="nav-item">
+			<a class="nav-link" href="/pages/guidelines-512">Насоки за разпространение на статистическа информация в НСС</a>
+					</li>
+	</ul>		</li>
+			<li class="nav-item">
+			<a class="nav-link" href="/pages/konsultativen-savet-kam-predsedatelya-na-nsi-s-uchastie-na-predstaviteli-ot-nacionalno-predstavitelnite-rabotodatelski-organizacii-825">Консултативен съвет към председателя на НСИ</a>
+					</li>
+			<li class="nav-item">
+			<a class="nav-link" href="/pages/international-cooperation-4">Международно сътрудничество</a>
+			<ul class="dropdown-menu">
+			<li class="nav-item">
+			<a class="nav-link" href="/pages/mejdunarodna-konferenciya-11-12-septemvri-2025-g-906">Международна конференция, септември 2025</a>
+					</li>
+			<li class="nav-item">
+			<a class="nav-link" href="/pages/european-statistical-system-29">Европейска статистическа система</a>
+					</li>
+			<li class="nav-item">
+			<a class="nav-link" href="/pages/drugi-mejdunarodni-organizacii-797">Други международни организации</a>
+					</li>
+			<li class="nav-item">
+			<a class="nav-link" href="/pages/rabotna-grupa-12-statistika-30">Работна група 12 „Статистика”</a>
+					</li>
+	</ul>		</li>
+			<li class="nav-item">
+			<a class="nav-link" href="/pages/otkrito-upravlenie-399">Открито управление</a>
+			<ul class="dropdown-menu">
+			<li class="nav-item">
+			<a class="nav-link" href="/pages/godishen-byudjet-401">Годишен бюджет</a>
+					</li>
+			<li class="nav-item">
+			<a class="nav-link" href="/pages/kasovi-mesechni-otcheti-400">Касови месечни отчети</a>
+					</li>
+			<li class="nav-item">
+			<a class="nav-link" href="/pages/kasovi-trimesechni-otcheti-665">Касови тримесечни отчети</a>
+					</li>
+			<li class="nav-item">
+			<a class="nav-link" href="/pages/kasovi-godishni-otcheti-666">Касови годишни отчети</a>
+					</li>
+			<li class="nav-item">
+			<a class="nav-link" href="/pages/oditen-doklad-922">Одитен доклад</a>
+					</li>
+			<li class="nav-item">
+			<a class="nav-link" href="/pages/informaciya-za-plashtaniyata-v-sebra-332">Информация за плащанията в СЕБРА</a>
+					</li>
+			<li class="nav-item">
+			<a class="nav-link" href="/pages/kriterii-i-pravila-za-ocenka-i-podbor-na-investicionni-proekti-na-nsi-700">Критерии и правила за оценка и подбор на инвестиционни проекти на НСИ</a>
+					</li>
+	</ul>		</li>
+			<li class="nav-item">
+			<a class="nav-link" href="/pages/integrirana-sistema-za-upravlenie-na-kachestvoto-i-sigurnostta-na-informaciyata-370">Качество и сигурност на информацията</a>
+			<ul class="dropdown-menu">
+			<li class="nav-item">
+			<a class="nav-link" href="/pages/politika-po-kachestvoto-i-na-sigurnostta-na-informaciyata-na-nacionalniya-statisticheski-institut-582">Политика по качеството и сигурността на информацията</a>
+					</li>
+			<li class="nav-item">
+			<a class="nav-link" href="/pages/kachestvo-141">Качество</a>
+					</li>
+			<li class="nav-item">
+			<a class="nav-link" href="/pages/spisak-na-kategoriite-informaciya-v-nsi-podlejashti-na-klasifikaciya-kato-slujebna-taina-932">Списък на категориите информация в НСИ, подлежащи на класификация като служебна тайна</a>
+					</li>
+	</ul>		</li>
+			<li class="nav-item">
+			<a class="nav-link" href="/pages/registar-na-deklaraciite-795">Регистър на декларациите</a>
+			<ul class="dropdown-menu">
+			<li class="nav-item">
+			<a class="nav-link" href="/pages/registar-na-deklaraciite-po-chl-75-ot-zakona-za-smetnata-palata-zsp-za-2026-g-928">Регистър на декларациите по чл. 75 от Закона за Сметната палата (ЗСП) за 2026 г.</a>
+					</li>
+			<li class="nav-item">
+			<a class="nav-link" href="/pages/registar-na-deklaraciite-arhiv-796">Регистър на декларациите - архив</a>
+					</li>
+	</ul>		</li>
+			<li class="nav-item">
+			<a class="nav-link" href="/pages/uchebno-kvalifikacionen-centar-slivek-125">Учебно-квалификационен център Сливек</a>
+					</li>
+	</ul>
+			        </li>
+        	
+        	</ul>
+							<div class="logo2">
+								<h1><img src="templates/default/img/logos/logo22.png" class="black-logo d-none d-lg-block" alt="НСИ"></h1>
+							</div>
+
+
+                            <div class="others-options">
+								<div class="option-item">
+	<i class="search-btn fa fa-search"></i>
+    <i class="close-btn fa fa-times"></i>
+    <div class="search-overlay search-popup">
+        <div class='search-box'>
+            <form class="search-form" action="/search" method="get">
+            	<label for="q"><span class="sr-only">Search</span></label>
+                <input type="text" class="search-input" name="q" id="q" placeholder="Търси" value="">
+                <button class="search-button" type="submit"><i class="fas fa-search"></i><span class="sr-only">Search</span></button>
+            </form>
+        </div>
+    </div>
+</div>                                <div class="burger-menu">
+                                    <span></span>
+                                    <span></span>
+                                    <span></span>
+                                </div>
+
+                            </div>
+                        </div>
+
+                    </nav>
+                </div>
+            </div>
+        </div>
+        <!-- End Navbar Area -->
+		
+<!-- Sidebar Modal -->
+<div class="sidebar-modal">
+    <div class="sidebar-modal-inner">
+    	            <div class="sidebar-about-area">
+                <div class="title">
+                    <h2>За НСИ</h2>
+                    <p><strong data-start="26" data-end="71">Националният статистически институт (НСИ)</strong> е държавна институция в България, която събира, обработва и разпространява официална статистическа информация за социалните, икономическите и демографските процеси в страната. Дейността на НСИ е насочена към осигуряване на обективни и надеждни данни, които подпомагат вземането на информирани решения от страна на държавата, бизнеса и обществото. Институтът работи съгласно международните статистически стандарти и е активен участник в Европейската статистическа система.</p>                </div>
+            </div>
+    						        <div class="sidebar-contact-area">
+            <div class="contact-info">
+                <div class="contact-info-content">
+                    <h2>
+                        <a href="tel:(02) 9857 111">(02) 9857 111</a>
+                        <span>ИЛИ</span>
+                        <a href="/cdn-cgi/l/email-protection#8cc5e2eae3cce2ffe5a2eeeb"><span class="__cf_email__" data-cfemail="d59cbbb3ba95bba6bcfbb7b2">[email&#160;protected]</span></a>
+                    </h2>
+
+                    <ul class="social">
+                    	                            <li>
+                                <a href="https://www.youtube.com/@bgnsi" target="_blank">
+                                    <i class="fab fa-youtube"></i>
+                                    <span class="sr-only">youtube</span>
+                                </a>
+                            </li>
+                                                                            <li>
+                                <a href="https://www.facebook.com/nsibg" target="_blank">
+                                    <i class="fab fa-facebook-f"></i>
+                                    <span class="sr-only">facebook</span>
+                                </a>
+                            </li>
+                                            </ul>
+                </div>
+            </div>
+        </div>
+
+        <span class="close-btn sidebar-modal-close-btn"><i class="fa fa-times"></i></span>
+    </div>
+</div>
+<!-- End Sidebar Modal -->
+
+        <div class="page-title-area">
+    <div class="d-table">
+        <div class="d-table-cell">
+            <div class="container">
+                <div class="page-title-content">
+            		<h2>Индекси на оборота в раздел „Tърговия на дребно, без търговията с автомобили и мотоциклети“ по съпоставими цени - юни 2026 година</h2>
+                    <ul>
+                    	                    		                    			<li><a href="">Начало</a></li>
+                    		                                            		                    			<li><a href="/press-release">Прессъобщения</a></li>
+                    		                                            		
+                    			<li>Индекси на оборота в раздел „Tърговия на дребно, без търговията с автомобили и мотоциклети“ по съпоставими цени - юни 2026 година</li>
+
+                    		                        
+					</ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+		<section class="blog-details-area">
+    <div class="container">
+        <div class="row">
+			<button class="send-btn-one left-menu-btn" type="button" style="width:140px;margin:25px 0px 0px 15px;">Филтри</button>
+            <div class="col-lg-3 col-md-12 col-xs-12 pt-4 pb-4 newsFilters">
+                <aside class="widget-area" id="secondary">
+                                           <section class="widget widget_categories">
+                            <h3 class="widget-title">Статистическа област</h3>
+
+                            <ul>
+                            	                                	<li><a href="/press-release?statsId=258">Бизнес статистика</a></li>
+                                                                	<li><a href="/press-release?statsId=142">Демографска и социална статистика</a></li>
+                                                                	<li><a href="/press-release?statsId=82">Макроикономическа статистика</a></li>
+                                                                	<li><a href="/press-release?statsId=57">Околна среда и енергетика</a></li>
+                                                                	<li><a href="/press-release?statsId=15">Многосекторна статистика</a></li>
+                                                                	<li><a href="/press-release?statsId=418">Геореферирани данни</a></li>
+                                                                	<li><a href="/press-release?statsId=5">Селско и горско стопанство</a></li>
+                                                                	<li><a href="/press-release?statsId=1">Данъчна статистика</a></li>
+                                                                	<li><a href="/press-release?statsId=411">Ключови показатели</a></li>
+                                                            </ul>
+                        </section>
+            							                        <section class="widget widget_archive pt-5">
+                            <h3 class="widget-title">По месеци</h3>
+                            <ul>
+                            	                                   <li><a href="/press-release?month=0&year=2026">Август 2026</a></li>
+                                                                   <li><a href="/press-release?month=1&year=2026">Юли 2026</a></li>
+                                                                   <li><a href="/press-release?month=2&year=2026">Юни 2026</a></li>
+                                                                   <li><a href="/press-release?month=3&year=2026">Май 2026</a></li>
+                                                                   <li><a href="/press-release?month=4&year=2026">Април 2026</a></li>
+                                                                   <li><a href="/press-release?month=5&year=2026">Март 2026</a></li>
+                                                                   <li><a href="/press-release?month=6&year=2026">Февруари 2026</a></li>
+                                                                   <li><a href="/press-release?month=7&year=2026">Януари 2026</a></li>
+                                                            </ul>
+                        </section>
+            		
+            	 	                        <section class="widget widget_archive pt-5">
+                            <h3 class="widget-title">Предстоящи</h3>
+                            <ul>
+                                                                	<li><a href="/press-release?month=9&year=2026">Септември 2026</a></li>
+
+                                                                 	<li><a href="/press-release?month=10&year=2026">Октомври 2026</a></li>
+
+                                                                 	<li><a href="/press-release?month=11&year=2026">Ноември 2026</a></li>
+
+                                                                 	<li><a href="/press-release?month=12&year=2026">Декември 2026</a></li>
+
+                                                                 	<li><a href="/press-release?month=1&year=2027">Януари 2027</a></li>
+
+                                                                 	<li><a href="/press-release?month=2&year=2027">Февруари 2027</a></li>
+
+                                                                 	<li><a href="/press-release?month=3&year=2027">Март 2027</a></li>
+
+                                                                 	<li><a href="/press-release?month=4&year=2027">Април 2027</a></li>
+
+                                                                 	<li><a href="/press-release?month=5&year=2027">Май 2027</a></li>
+
+                                                                 	<li><a href="/press-release?month=6&year=2027">Юни 2027</a></li>
+
+                                                                 	<li><a href="/press-release?month=7&year=2027">Юли 2027</a></li>
+
+                                                                 	<li><a href="/press-release?month=8&year=2027">Август 2027</a></li>
+
+                                                             </ul>
+                        </section>
+            		
+            		                        <section class="widget widget_archive pt-5">
+                            <h3 class="widget-title">Архив по години</h3>
+                            <ul>
+                            	                                   <li><a href="/press-release?year=2025">Архив 2025</a></li>
+                                                                   <li><a href="/press-release?year=2024">Архив 2024</a></li>
+                                                                   <li><a href="/press-release?year=2023">Архив 2023</a></li>
+                                                                   <li><a href="/press-release?year=2022">Архив 2022</a></li>
+                                                                   <li><a href="/press-release?year=2021">Архив 2021</a></li>
+                                                                   <li><a href="/press-release?year=2020">Архив 2020</a></li>
+                                                                   <li><a href="/press-release?year=2019">Архив 2019</a></li>
+                                                                   <li><a href="/press-release?year=2018">Архив 2018</a></li>
+                                                                   <li><a href="/press-release?year=2017">Архив 2017</a></li>
+                                                                   <li><a href="/press-release?year=2016">Архив 2016</a></li>
+                                                                   <li><a href="/press-release?year=2015">Архив 2015</a></li>
+                                                                   <li><a href="/press-release?year=2014">Архив 2014</a></li>
+                                                                   <li><a href="/press-release?year=2009">Архив 2009</a></li>
+                                                                   <li><a href="/press-release?year=2013">Архив 2013</a></li>
+                                                                   <li><a href="/press-release?year=2012">Архив 2012</a></li>
+                                                                   <li><a href="/press-release?year=2011">Архив 2011</a></li>
+                                                                   <li><a href="/press-release?year=2010">Архив 2010</a></li>
+                                                            </ul>
+                        </section>
+            		            		                                        	<section class="widget widget_tag_cloud pt-5">
+                            <h3 class="widget-title">Регионални прессъобщения</h3>
+                            <div class="tagcloud">
+                        		<a href="https://www.nsi.bg/tsb/" target="_blank">Виж всички регионални пресъобщения</a>
+                        	</div>
+                		</section>
+                                                        </aside>
+            </div>
+
+            <div class="col-lg-9 col-md-12 col-xs-12">
+                <div class="blog-details-desc">
+
+                	<div class="article-content">
+                        <div class="entry-meta">
+                            <ul>
+                            	<li><a href="#">07.08.2026 11:00:00</a></li>
+                             </ul>
+                        </div>
+						    						<!-- FILES for download -->
+    						<div class="entry-file">
+                                <ul>
+                            	                                		<li><a target="_blank" href="/file/37171/indeksi_na_oborota_v_razdel_targoviya_na_drebno_bez_targoviyata_s_avtomobili_i_motocikleti_po_sapostavimi_ceni (69).pdf"><i class="mx-1 fa-solid fa-file-pdf"></i>Свали</a></li>
+                                	                                                                      </ul>
+                            </div>
+                            <!-- END FILES for download -->
+                                                <h3>Индекси на оборота в раздел „Tърговия на дребно, без търговията с автомобили и мотоциклети“ по съпоставими цени - юни 2026 година</h3>
+                     </div>
+				                    <div class="article-content">
+
+						<p style="text-align: left;"><span style="color: #000000; background-color: #ffffff;">През юни<sup>[1]</sup>&nbsp;2026 г. индексът на оборота в раздел &bdquo;Търговия на дребно, без търговията с автомобили и мотоциклети&ldquo; по съпоставими цени се увеличава с 0.5% спрямо предходния месец. Данните са предварителни и сезонно изгладени.</span></p>
+<p style="text-align: justify;"><span style="color: #000000; background-color: #000000;"><span style="background-color: #ffffff;">Търговският оборот нараства със 7.1% спрямо юни 2025 г. според календарно изгладените данни.</span></span></p>
+<p style="text-align: justify;"><div class="icycharts"><div id="mainLine0" style="width: 100%; min-height: 600px;" ></div>
+</div></p>
+<p style="text-align: justify;"><sup>[1]</sup>&nbsp;Данните за юни 2026 г. са предварителни.</p>
+<p style="text-align: justify;">&nbsp;</p>
+<p style="text-align: justify;"><strong>Месечни изменения</strong></p>
+<p style="text-align: justify;">През юни 2026 г., в сравнение с предходния месец, е отчетено&nbsp;увеличение на оборота при&nbsp;&bdquo;Търговия на дребно с нехранителни стоки, без търговията с автомобилни горива и смазочни материали&ldquo; - с 1.5%, докато при &bdquo;Търговия на дребно с автомобилни горива и смазочни материали&ldquo;&nbsp;и &bdquo;Търговия на дребно с хранителни стоки, напитки и тютюневи изделия&ldquo; се наблюдава намаление, съответно с 5.1 и&nbsp;0.2%.</p>
+<p style="text-align: justify;">В групата &bdquo;Търговия на дребно с нехранителни стоки, без търговията с автомобилни горива и смазочни материали&ldquo; по-значително повишение е регистрирано при &bdquo;Търговия на дребно чрез поръчки по пощата, телефона или Интернет&ldquo; - с 6.0%&nbsp;и при &bdquo;Търговия с фармацевтични и медицински стоки, козметика и тоалетни принадлежности&ldquo; - с 4.7%.</p>
+<p style="text-align: justify;">&nbsp;</p>
+<p style="text-align: justify;"><div class="icycharts">	<div id="mainChart1" style="width: 100%; height: 600px;"></div>
+    </div></p>
+<p style="text-align: justify;"><div class="pageBreak"></div>&nbsp; &nbsp;&nbsp;</p>
+<p style="text-align: justify;"><strong>Годишни изменения</strong></p>
+<p>През юни 2026 г., в сравнение със същия месец на 2025 г., се&nbsp;наблюдава нарастване на оборота при всички големи групи: &bdquo;Търговия на дребно с нехранителни стоки, без търговията с автомобилни горива и смазочни материали&ldquo; - с 9.9%, &bdquo;Търговия на дребно с хранителни стоки, напитки и тютюневи изделия&ldquo; - с 4.1% и &bdquo;Търговия на дребно с автомобилни горива и смазочни материали&ldquo; - с 3.1%.&nbsp;</p>
+<p style="text-align: justify;">В групата &bdquo;Търговия на дребно с нехранителни стоки, без търговията с автомобилни горива и смазочни материали&ldquo;&nbsp;ръст е регистриран при всички подгрупи, като по-съществен е отчетен при &bdquo;Търговия на дребно чрез поръчки по пощата, телефона или Интернет&ldquo; - с 26.4% и при &bdquo;Търговия на дребно с текстил, облекло, обувки и кожени изделия&ldquo; - с 22.5%.&nbsp;</p>
+<p><span style="color: #ff0000;">&nbsp;</span><div class="icycharts">	<div id="mainChart2" style="width: 100%; height: 600px;"></div>
+    </div></p>
+<p style="text-align: center;"><strong>Методологични бележки</strong></p>
+<p style="text-align: justify;">Месечните индекси на оборота отразяват краткосрочните изменения в стойността на показателя между два сравнявани периода по съпоставими цени. Информацията може да бъде използвана за оценка на текущото състояние и тенденциите в развитието на търговския сектор, а също и за краткосрочни прогнози. За изчисляването на индексите се извършва наблюдение на търговските предприятия, като се използва представителна извадка, формираща около 70% от годишните приходи на наблюдаваната съвкупност. Месечните индекси на оборота се изчисляват съгласно Регламент (ЕС) 2019/2152 на Европейския парламент и на Съвета от 27&nbsp;ноември 2019 година за европейската бизнес статистика и за отмяна на 10 правни акта в областта на бизнес статистиката при база 2021 година.</p>
+<p style="text-align: justify;">Сезонното изглаждане е статистически метод за отстраняване на сезонния компонент на времевия ред.</p>
+<p style="text-align: justify;">Календарното изглаждане представлява отстраняване на вариациите в месечните данни, дължащи се на различния брой календарни и работни дни в месеците, на националните празници, както и на наличието на екстремни стойности (например наличието на повече неработни дни през месец май може да допринесе за спад в търговията).<br /><br /></p>
+<p><div class="pageBreak"></div></p>
+<p style="text-align: center;"><strong>Приложение</strong></p>
+<p style="text-align: right;"><strong>Таблица 1</strong></p>
+<p style="text-align: left;"><div class="icytables table-responsive">
+<table class="datatable display" id="icyTable0">
+	<caption>Изменение на оборота в раздел „Търговия на дребно, без търговията с автомобили и мотоциклети“ по съпоставими  цени спрямо предходния месец</caption>
+	<thead>
+		<tr>
+						<th></th>
+    					<th></th>
+    					<th></th>
+    					<th></th>
+    					<th></th>
+    					<th></th>
+    					<th>(Проценти)</th>
+    				</tr>
+	</thead>
+    <tbody>
+        	<tr>
+    	    		<td style="font-weight: bold;">Икономически дейности</td>
+    	    		<td style="font-weight: bold;">I.2026</td>
+    	    		<td style="font-weight: bold;">II.2026</td>
+    	    		<td style="font-weight: bold;">III.2026</td>
+    	    		<td style="font-weight: bold;">IV.2026</td>
+    	    		<td style="font-weight: bold;">V.2026</td>
+    	    		<td style="font-weight: bold;">VI.2026</td>
+    	    	</tr>
+        	<tr>
+    	    		<td style="font-weight: bold;">Търговия на дребно, без търговията с автомобили и мотоциклети</td>
+    	    		<td style="font-weight: bold;">-0.4</td>
+    	    		<td style="font-weight: bold;">2.2</td>
+    	    		<td style="font-weight: bold;">1.3</td>
+    	    		<td style="font-weight: bold;">-1.0</td>
+    	    		<td style="font-weight: bold;">0.7</td>
+    	    		<td style="font-weight: bold;">0.5</td>
+    	    	</tr>
+        	<tr>
+    	    		<td style="font-weight: bold;">Търговия на дребно с хранителни стоки, напитки и тютюневи изделия</td>
+    	    		<td style="font-weight: bold;">2.0</td>
+    	    		<td style="font-weight: bold;">2.2</td>
+    	    		<td style="font-weight: bold;">-0.5</td>
+    	    		<td style="font-weight: bold;">-0.1</td>
+    	    		<td style="font-weight: bold;">1.3</td>
+    	    		<td style="font-weight: bold;">-0.2</td>
+    	    	</tr>
+        	<tr>
+    	    		<td>Търговия на дребно в неспециализирани магазини предимно с хранителни стоки, напитки и тютюневи изделия</td>
+    	    		<td>2.6</td>
+    	    		<td>2.3</td>
+    	    		<td>-0.7</td>
+    	    		<td>0.0</td>
+    	    		<td>1.3</td>
+    	    		<td>-0.3</td>
+    	    	</tr>
+        	<tr>
+    	    		<td>Търговия на дребно в специализирани магазини с хранителни стоки, напитки и тютюневи изделия</td>
+    	    		<td>-2.0</td>
+    	    		<td>0.8</td>
+    	    		<td>0.5</td>
+    	    		<td>-0.7</td>
+    	    		<td>-0.2</td>
+    	    		<td>0.2</td>
+    	    	</tr>
+        	<tr>
+    	    		<td style="font-weight: bold;">Търговия на дребно с нехранителни стоки, без търговията с автомобилни горива и смазочни материали</td>
+    	    		<td style="font-weight: bold;">-1.5</td>
+    	    		<td style="font-weight: bold;">1.8</td>
+    	    		<td style="font-weight: bold;">2.1</td>
+    	    		<td style="font-weight: bold;">-1.7</td>
+    	    		<td style="font-weight: bold;">0.4</td>
+    	    		<td style="font-weight: bold;">1.5</td>
+    	    	</tr>
+        	<tr>
+    	    		<td>в това число:</td>
+    	    		<td></td>
+    	    		<td></td>
+    	    		<td></td>
+    	    		<td></td>
+    	    		<td></td>
+    	    		<td></td>
+    	    	</tr>
+        	<tr>
+    	    		<td>Търговия на дребно в неспециализирани магазини с разнообразни стоки</td>
+    	    		<td>-4.1</td>
+    	    		<td>1.4</td>
+    	    		<td>0.9</td>
+    	    		<td>1.7</td>
+    	    		<td>3.2</td>
+    	    		<td>1.0</td>
+    	    	</tr>
+        	<tr>
+    	    		<td>Търговия на дребно с текстил, облекло, обувки и кожени изделия</td>
+    	    		<td>7.1</td>
+    	    		<td>-1.0</td>
+    	    		<td>3.6</td>
+    	    		<td>-0.8</td>
+    	    		<td>4.0</td>
+    	    		<td>0.8</td>
+    	    	</tr>
+        	<tr>
+    	    		<td>Търговия на дребно с битова техника, мебели и други стоки за бита</td>
+    	    		<td>-1.7</td>
+    	    		<td>0.7</td>
+    	    		<td>1.9</td>
+    	    		<td>-0.3</td>
+    	    		<td>-0.6</td>
+    	    		<td>0.4</td>
+    	    	</tr>
+        	<tr>
+    	    		<td>Търговия на дребно с компютърна и комуникационна техника и други потребителски стоки</td>
+    	    		<td>-1.1</td>
+    	    		<td>3.4</td>
+    	    		<td>1.7</td>
+    	    		<td>-5.4</td>
+    	    		<td>-0.7</td>
+    	    		<td>2.0</td>
+    	    	</tr>
+        	<tr>
+    	    		<td>Търговия на дребно с фармацевтични и медицински стоки, козметика и тоалетни принадлежности</td>
+    	    		<td>-8.6</td>
+    	    		<td>3.6</td>
+    	    		<td>2.7</td>
+    	    		<td>-3.0</td>
+    	    		<td>-1.3</td>
+    	    		<td>4.7</td>
+    	    	</tr>
+        	<tr>
+    	    		<td>Търговия на дребно чрез поръчки по пощата, телефона или Интернет</td>
+    	    		<td>-5.9</td>
+    	    		<td>1.1</td>
+    	    		<td>0.7</td>
+    	    		<td>-0.3</td>
+    	    		<td>0.7</td>
+    	    		<td>6.0</td>
+    	    	</tr>
+        	<tr>
+    	    		<td style="font-weight: bold;">Търговия на дребно с автомобилни горива и смазочни материали</td>
+    	    		<td style="font-weight: bold;">-3.9</td>
+    	    		<td style="font-weight: bold;">1.9</td>
+    	    		<td style="font-weight: bold;">10.1</td>
+    	    		<td style="font-weight: bold;">-3.8</td>
+    	    		<td style="font-weight: bold;">0.6</td>
+    	    		<td style="font-weight: bold;">-5.1</td>
+    	    	</tr>
+        </tbody>
+</table></div></p>
+<p style="text-align: left;">&nbsp;</p>
+<p style="text-align: right;"><strong>Таблица 2</strong></p>
+<p><div class="icytables table-responsive">
+<table class="datatable display" id="icyTable1">
+	<caption>Изменение на оборота в раздел „Търговия на дребно, без търговията с автомобили и мотоциклети“ по съпоставими цени спрямо  съответния месец на предходната година</caption>
+	<thead>
+		<tr>
+						<th></th>
+    					<th></th>
+    					<th></th>
+    					<th></th>
+    					<th></th>
+    					<th></th>
+    					<th>(Проценти)</th>
+    				</tr>
+	</thead>
+    <tbody>
+        	<tr>
+    	    		<td style="font-weight: bold;">Икономически дейности</td>
+    	    		<td style="font-weight: bold;">I.2026</td>
+    	    		<td style="font-weight: bold;">II.2026</td>
+    	    		<td style="font-weight: bold;">III.2026</td>
+    	    		<td style="font-weight: bold;">IV.2026</td>
+    	    		<td style="font-weight: bold;">V.2026</td>
+    	    		<td style="font-weight: bold;">VI.2026</td>
+    	    	</tr>
+        	<tr>
+    	    		<td style="font-weight: bold;">Търговия на дребно, без търговията с автомобили и мотоциклети</td>
+    	    		<td style="font-weight: bold;">4.2</td>
+    	    		<td style="font-weight: bold;">7.3</td>
+    	    		<td style="font-weight: bold;">12.4</td>
+    	    		<td style="font-weight: bold;">7.4</td>
+    	    		<td style="font-weight: bold;">7.9</td>
+    	    		<td style="font-weight: bold;">7.1</td>
+    	    	</tr>
+        	<tr>
+    	    		<td style="font-weight: bold;">Търговия на дребно с хранителни стоки, напитки и тютюневи изделия</td>
+    	    		<td style="font-weight: bold;">0.1</td>
+    	    		<td style="font-weight: bold;">5.3</td>
+    	    		<td style="font-weight: bold;">3.6</td>
+    	    		<td style="font-weight: bold;">2.7</td>
+    	    		<td style="font-weight: bold;">4.7</td>
+    	    		<td style="font-weight: bold;">4.1</td>
+    	    	</tr>
+        	<tr>
+    	    		<td>Търговия на дребно в неспециализирани магазини предимно с хранителни стоки, напитки и тютюневи изделия</td>
+    	    		<td>0.6</td>
+    	    		<td>6.2</td>
+    	    		<td>4.3</td>
+    	    		<td>3.6</td>
+    	    		<td>5.9</td>
+    	    		<td>4.8</td>
+    	    	</tr>
+        	<tr>
+    	    		<td>Търговия на дребно в специализирани магазини с хранителни стоки, напитки и тютюневи изделия</td>
+    	    		<td>-3.4</td>
+    	    		<td>-1.1</td>
+    	    		<td>-1.0</td>
+    	    		<td>-2.6</td>
+    	    		<td>-2.9</td>
+    	    		<td>-1.0</td>
+    	    	</tr>
+        	<tr>
+    	    		<td style="font-weight: bold;">Търговия на дребно с нехранителни стоки, без търговията с автомобилни горива и смазочни материали</td>
+    	    		<td style="font-weight: bold;">8.3</td>
+    	    		<td style="font-weight: bold;">10.5</td>
+    	    		<td style="font-weight: bold;">16.4</td>
+    	    		<td style="font-weight: bold;">10.1</td>
+    	    		<td style="font-weight: bold;">8.3</td>
+    	    		<td style="font-weight: bold;">9.9</td>
+    	    	</tr>
+        	<tr>
+    	    		<td>в това число:</td>
+    	    		<td></td>
+    	    		<td></td>
+    	    		<td></td>
+    	    		<td></td>
+    	    		<td></td>
+    	    		<td></td>
+    	    	</tr>
+        	<tr>
+    	    		<td>Търговия на дребно в неспециализирани магазини с разнообразни стоки</td>
+    	    		<td>1.8</td>
+    	    		<td>4.7</td>
+    	    		<td>4.0</td>
+    	    		<td>6.4</td>
+    	    		<td>10.2</td>
+    	    		<td>10.6</td>
+    	    	</tr>
+        	<tr>
+    	    		<td>Търговия на дребно с текстил, облекло, обувки и кожени изделия</td>
+    	    		<td>19.8</td>
+    	    		<td>17.1</td>
+    	    		<td>22.4</td>
+    	    		<td>20.3</td>
+    	    		<td>23.0</td>
+    	    		<td>22.5</td>
+    	    	</tr>
+        	<tr>
+    	    		<td>Търговия на дребно с битова техника, мебели и други стоки за бита</td>
+    	    		<td>15.2</td>
+    	    		<td>13.8</td>
+    	    		<td>17.1</td>
+    	    		<td>14.4</td>
+    	    		<td>11.2</td>
+    	    		<td>9.0</td>
+    	    	</tr>
+        	<tr>
+    	    		<td>Търговия на дребно с компютърна и комуникационна техника и други потребителски стоки</td>
+    	    		<td>10.5</td>
+    	    		<td>16.9</td>
+    	    		<td>24.4</td>
+    	    		<td>8.9</td>
+    	    		<td>4.0</td>
+    	    		<td>8.0</td>
+    	    	</tr>
+        	<tr>
+    	    		<td>Търговия на дребно с фармацевтични и медицински стоки, козметика и тоалетни принадлежности</td>
+    	    		<td>-2.7</td>
+    	    		<td>-3.2</td>
+    	    		<td>9.1</td>
+    	    		<td>-0.2</td>
+    	    		<td>-2.5</td>
+    	    		<td>1.0</td>
+    	    	</tr>
+        	<tr>
+    	    		<td>Търговия на дребно чрез поръчки по пощата, телефона или Интернет</td>
+    	    		<td>13.1</td>
+    	    		<td>23.7</td>
+    	    		<td>24.1</td>
+    	    		<td>21.0</td>
+    	    		<td>19.1</td>
+    	    		<td>26.4</td>
+    	    	</tr>
+        	<tr>
+    	    		<td style="font-weight: bold;">Търговия на дребно с автомобилни горива и смазочни материали</td>
+    	    		<td style="font-weight: bold;">-1.5</td>
+    	    		<td style="font-weight: bold;">0.4</td>
+    	    		<td style="font-weight: bold;">18.6</td>
+    	    		<td style="font-weight: bold;">8.6</td>
+    	    		<td style="font-weight: bold;">13.7</td>
+    	    		<td style="font-weight: bold;">3.1</td>
+    	    	</tr>
+        </tbody>
+</table></div></p>
+<p style="text-align: left;"><div class="pageBreak"></div></p>
+<p style="text-align: right;"><strong>Таблица 3</strong></p>
+<div style="text-align: left;"><div class="icytables table-responsive">
+<table class="datatable display" id="icyTable2">
+	<caption>Индекси на оборота в раздел „Търговия на дребно, без търговията с автомобили и мотоциклети“ по съпоставими цени (сезонно изгладени данни, 2021 = 100)</caption>
+	<thead>
+		<tr>
+						<th>Икономически дейности</th>
+    					<th>VI.2025</th>
+    					<th>VII.2025</th>
+    					<th>VIII.2025</th>
+    					<th>IX.2025</th>
+    					<th>X.2025</th>
+    					<th>XI.2025</th>
+    					<th>XII.2025</th>
+    					<th>I.2026</th>
+    					<th>II.2026</th>
+    					<th>III.2026</th>
+    					<th>IV.2026</th>
+    					<th>V.2026</th>
+    					<th>VI.2026</th>
+    				</tr>
+	</thead>
+    <tbody>
+        	<tr>
+    	    		<td style="font-weight: bold;">Търговия на дребно, без търговията с автомобили и мотоциклети</td>
+    	    		<td style="font-weight: bold;">120.6</td>
+    	    		<td style="font-weight: bold;">121.0</td>
+    	    		<td style="font-weight: bold;">121.1</td>
+    	    		<td style="font-weight: bold;">122.2</td>
+    	    		<td style="font-weight: bold;">123.4</td>
+    	    		<td style="font-weight: bold;">123.1</td>
+    	    		<td style="font-weight: bold;">125.0</td>
+    	    		<td style="font-weight: bold;">124.5</td>
+    	    		<td style="font-weight: bold;">127.3</td>
+    	    		<td style="font-weight: bold;">128.9</td>
+    	    		<td style="font-weight: bold;">127.6</td>
+    	    		<td style="font-weight: bold;">128.5</td>
+    	    		<td style="font-weight: bold;">129.1</td>
+    	    	</tr>
+        	<tr>
+    	    		<td style="font-weight: bold;"> Търговия на дребно с  хранителни стоки, напитки и тютюневи  изделия</td>
+    	    		<td style="font-weight: bold;">105.8</td>
+    	    		<td style="font-weight: bold;">107.4</td>
+    	    		<td style="font-weight: bold;">106.2</td>
+    	    		<td style="font-weight: bold;">106.8</td>
+    	    		<td style="font-weight: bold;">107.3</td>
+    	    		<td style="font-weight: bold;">106.6</td>
+    	    		<td style="font-weight: bold;">104.9</td>
+    	    		<td style="font-weight: bold;">107.0</td>
+    	    		<td style="font-weight: bold;">109.4</td>
+    	    		<td style="font-weight: bold;">108.9</td>
+    	    		<td style="font-weight: bold;">108.8</td>
+    	    		<td style="font-weight: bold;">110.2</td>
+    	    		<td style="font-weight: bold;">110.0</td>
+    	    	</tr>
+        	<tr>
+    	    		<td>   Търговия на дребно в  неспециализирани магазини предимно с  хранителни стоки,  напитки и тютюневи  изделия</td>
+    	    		<td>106.6</td>
+    	    		<td>108.6</td>
+    	    		<td>107.4</td>
+    	    		<td>107.4</td>
+    	    		<td>107.8</td>
+    	    		<td>107.4</td>
+    	    		<td>105.4</td>
+    	    		<td>108.2</td>
+    	    		<td>110.8</td>
+    	    		<td>110.1</td>
+    	    		<td>110.2</td>
+    	    		<td>111.7</td>
+    	    		<td>111.5</td>
+    	    	</tr>
+        	<tr>
+    	    		<td>   Търговия на дребно в специализирани  магазини с хранителни  стоки, напитки и тютюневи изделия</td>
+    	    		<td>100.5</td>
+    	    		<td>99.8</td>
+    	    		<td>98.3</td>
+    	    		<td>103.0</td>
+    	    		<td>103.9</td>
+    	    		<td>101.8</td>
+    	    		<td>101.8</td>
+    	    		<td>99.8</td>
+    	    		<td>100.6</td>
+    	    		<td>101.1</td>
+    	    		<td>100.4</td>
+    	    		<td>100.2</td>
+    	    		<td>100.4</td>
+    	    	</tr>
+        	<tr>
+    	    		<td style="font-weight: bold;">Търговия на дребно с нехранителни стоки, без търговията с автомобилни горива и смазочни материали</td>
+    	    		<td style="font-weight: bold;">128.5</td>
+    	    		<td style="font-weight: bold;">130.1</td>
+    	    		<td style="font-weight: bold;">129.7</td>
+    	    		<td style="font-weight: bold;">131.8</td>
+    	    		<td style="font-weight: bold;">133.9</td>
+    	    		<td style="font-weight: bold;">133.9</td>
+    	    		<td style="font-weight: bold;">137.9</td>
+    	    		<td style="font-weight: bold;">135.9</td>
+    	    		<td style="font-weight: bold;">138.4</td>
+    	    		<td style="font-weight: bold;">141.3</td>
+    	    		<td style="font-weight: bold;">138.9</td>
+    	    		<td style="font-weight: bold;">139.5</td>
+    	    		<td style="font-weight: bold;">141.6</td>
+    	    	</tr>
+        	<tr>
+    	    		<td>в това число:</td>
+    	    		<td></td>
+    	    		<td></td>
+    	    		<td></td>
+    	    		<td></td>
+    	    		<td></td>
+    	    		<td></td>
+    	    		<td></td>
+    	    		<td></td>
+    	    		<td></td>
+    	    		<td></td>
+    	    		<td></td>
+    	    		<td></td>
+    	    		<td></td>
+    	    	</tr>
+        	<tr>
+    	    		<td>   Търговия на дребно в неспециализирани магазини с разнообразни стоки</td>
+    	    		<td>138.9</td>
+    	    		<td>138.0</td>
+    	    		<td>139.1</td>
+    	    		<td>139.1</td>
+    	    		<td>138.9</td>
+    	    		<td>139.8</td>
+    	    		<td>144.4</td>
+    	    		<td>138.5</td>
+    	    		<td>140.4</td>
+    	    		<td>141.7</td>
+    	    		<td>144.1</td>
+    	    		<td>148.7</td>
+    	    		<td>150.2</td>
+    	    	</tr>
+        	<tr>
+    	    		<td>   Търговия на дребно с текстил, облекло,  обувки и кожени  изделия</td>
+    	    		<td>157.3</td>
+    	    		<td>161.9</td>
+    	    		<td>168.1</td>
+    	    		<td>163.6</td>
+    	    		<td>174.8</td>
+    	    		<td>163.1</td>
+    	    		<td>168.1</td>
+    	    		<td>180.0</td>
+    	    		<td>178.2</td>
+    	    		<td>184.6</td>
+    	    		<td>183.1</td>
+    	    		<td>190.5</td>
+    	    		<td>192.1</td>
+    	    	</tr>
+        	<tr>
+    	    		<td>  Търговия на дребно с  битова техника, мебели и други стоки за бита</td>
+    	    		<td>130.8</td>
+    	    		<td>131.7</td>
+    	    		<td>133.2</td>
+    	    		<td>135.1</td>
+    	    		<td>137.5</td>
+    	    		<td>140.3</td>
+    	    		<td>145.0</td>
+    	    		<td>142.6</td>
+    	    		<td>143.6</td>
+    	    		<td>146.4</td>
+    	    		<td>146.0</td>
+    	    		<td>145.1</td>
+    	    		<td>145.7</td>
+    	    	</tr>
+        	<tr>
+    	    		<td> Търговия на дребно с  компютърна и  комуникационна техника и други потребителски стоки</td>
+    	    		<td>117.6</td>
+    	    		<td>123.8</td>
+    	    		<td>116.4</td>
+    	    		<td>122.9</td>
+    	    		<td>128.7</td>
+    	    		<td>128.6</td>
+    	    		<td>129.2</td>
+    	    		<td>127.8</td>
+    	    		<td>132.2</td>
+    	    		<td>134.4</td>
+    	    		<td>127.1</td>
+    	    		<td>126.2</td>
+    	    		<td>128.7</td>
+    	    	</tr>
+        	<tr>
+    	    		<td> Търговия на дребно с  фармацевтични и медицински стоки, козметика и тоалетни принадлежности</td>
+    	    		<td>131.0</td>
+    	    		<td>131.9</td>
+    	    		<td>129.1</td>
+    	    		<td>135.6</td>
+    	    		<td>133.6</td>
+    	    		<td>128.8</td>
+    	    		<td>134.9</td>
+    	    		<td>123.3</td>
+    	    		<td>127.8</td>
+    	    		<td>131.3</td>
+    	    		<td>127.3</td>
+    	    		<td>125.6</td>
+    	    		<td>131.5</td>
+    	    	</tr>
+        	<tr>
+    	    		<td>   Търговия на дребно  чрез поръчки по пощата, телефона или Интернет</td>
+    	    		<td>123.3</td>
+    	    		<td>126.4</td>
+    	    		<td>124.1</td>
+    	    		<td>125.8</td>
+    	    		<td>127.8</td>
+    	    		<td>125.9</td>
+    	    		<td>151.4</td>
+    	    		<td>142.5</td>
+    	    		<td>144.0</td>
+    	    		<td>145.0</td>
+    	    		<td>144.5</td>
+    	    		<td>145.5</td>
+    	    		<td>154.3</td>
+    	    	</tr>
+        	<tr>
+    	    		<td style="font-weight: bold;">Търговия на дребно с автомобилни горива и  смазочни материали</td>
+    	    		<td style="font-weight: bold;">129.4</td>
+    	    		<td style="font-weight: bold;">127.3</td>
+    	    		<td style="font-weight: bold;">129.1</td>
+    	    		<td style="font-weight: bold;">128.7</td>
+    	    		<td style="font-weight: bold;">130.8</td>
+    	    		<td style="font-weight: bold;">133.7</td>
+    	    		<td style="font-weight: bold;">136.4</td>
+    	    		<td style="font-weight: bold;">131.1</td>
+    	    		<td style="font-weight: bold;">133.6</td>
+    	    		<td style="font-weight: bold;">147.1</td>
+    	    		<td style="font-weight: bold;">141.5</td>
+    	    		<td style="font-weight: bold;">142.3</td>
+    	    		<td style="font-weight: bold;">135.0</td>
+    	    	</tr>
+        </tbody>
+</table></div></div>
+<div style="text-align: left;">&nbsp;</div>
+<div style="text-align: left;"><div class="pageBreak"></div>&nbsp;</div>
+<div style="text-align: right;">&nbsp; &nbsp;<strong>Таблица 4</strong></div>
+<div style="text-align: left;">&nbsp;</div>
+<div style="text-align: left;"><div class="icytables table-responsive">
+<table class="datatable display" id="icyTable3">
+	<caption>Индекси на оборота в раздел „Търговия на дребно, без търговията с автомобили и мотоциклети“ по съпоставими цени (календарно изгладени данни, 2021 = 100)</caption>
+	<thead>
+		<tr>
+						<th>Икономически дейности</th>
+    					<th>VI.2025</th>
+    					<th>VII.2025</th>
+    					<th>VIII.2025</th>
+    					<th>ІX.2025</th>
+    					<th>X.2025</th>
+    					<th>XІ.2025</th>
+    					<th>XІІ.2025</th>
+    					<th>І.2026</th>
+    					<th>ІІ.2026</th>
+    					<th>IIІ.2026</th>
+    					<th>IV.2026</th>
+    					<th>V.2026</th>
+    					<th>VI.2026</th>
+    				</tr>
+	</thead>
+    <tbody>
+        	<tr>
+    	    		<td style="font-weight: bold;">Търговия на дребно, без търговията с автомобили и мотоциклети</td>
+    	    		<td style="font-weight: bold;">120.5</td>
+    	    		<td style="font-weight: bold;">127.5</td>
+    	    		<td style="font-weight: bold;">125.5</td>
+    	    		<td style="font-weight: bold;">123.7</td>
+    	    		<td style="font-weight: bold;">128.2</td>
+    	    		<td style="font-weight: bold;">129.4</td>
+    	    		<td style="font-weight: bold;">142.4</td>
+    	    		<td style="font-weight: bold;">113.6</td>
+    	    		<td style="font-weight: bold;">108.7</td>
+    	    		<td style="font-weight: bold;">126.6</td>
+    	    		<td style="font-weight: bold;">122.3</td>
+    	    		<td style="font-weight: bold;">126.1</td>
+    	    		<td style="font-weight: bold;">129.0</td>
+    	    	</tr>
+        	<tr>
+    	    		<td style="font-weight: bold;"> Търговия на дребно с  хранителни стоки, напитки и тютюневи  изделия</td>
+    	    		<td style="font-weight: bold;">105.6</td>
+    	    		<td style="font-weight: bold;">112.7</td>
+    	    		<td style="font-weight: bold;">114.0</td>
+    	    		<td style="font-weight: bold;">106.4</td>
+    	    		<td style="font-weight: bold;">109.2</td>
+    	    		<td style="font-weight: bold;">104.5</td>
+    	    		<td style="font-weight: bold;">118.6</td>
+    	    		<td style="font-weight: bold;">99.1</td>
+    	    		<td style="font-weight: bold;">97.4</td>
+    	    		<td style="font-weight: bold;">106.9</td>
+    	    		<td style="font-weight: bold;">105.7</td>
+    	    		<td style="font-weight: bold;">109.8</td>
+    	    		<td style="font-weight: bold;">109.9</td>
+    	    	</tr>
+        	<tr>
+    	    		<td>   Търговия на дребно в  неспециализирани магазини предимно с  хранителни стоки,  напитки и тютюневи  изделия</td>
+    	    		<td>106.2</td>
+    	    		<td>113.6</td>
+    	    		<td>115.0</td>
+    	    		<td>106.9</td>
+    	    		<td>109.7</td>
+    	    		<td>105.3</td>
+    	    		<td>119.8</td>
+    	    		<td>100.5</td>
+    	    		<td>98.8</td>
+    	    		<td>108.4</td>
+    	    		<td>106.8</td>
+    	    		<td>111.5</td>
+    	    		<td>111.3</td>
+    	    	</tr>
+        	<tr>
+    	    		<td>   Търговия на дребно в специализирани  магазини с хранителни  стоки, напитки и тютюневи изделия</td>
+    	    		<td>102.3</td>
+    	    		<td>106.7</td>
+    	    		<td>107.7</td>
+    	    		<td>103.4</td>
+    	    		<td>105.9</td>
+    	    		<td>99.6</td>
+    	    		<td>111.1</td>
+    	    		<td>90.1</td>
+    	    		<td>88.0</td>
+    	    		<td>97.4</td>
+    	    		<td>98.6</td>
+    	    		<td>99.4</td>
+    	    		<td>101.3</td>
+    	    	</tr>
+        	<tr>
+    	    		<td style="font-weight: bold;">Търговия на дребно с нехранителни стоки, без търговията с автомобилни горива и смазочни материали</td>
+    	    		<td style="font-weight: bold;">127.7</td>
+    	    		<td style="font-weight: bold;">133.1</td>
+    	    		<td style="font-weight: bold;">128.6</td>
+    	    		<td style="font-weight: bold;">134.0</td>
+    	    		<td style="font-weight: bold;">141.4</td>
+    	    		<td style="font-weight: bold;">147.9</td>
+    	    		<td style="font-weight: bold;">162.8</td>
+    	    		<td style="font-weight: bold;">123.4</td>
+    	    		<td style="font-weight: bold;">115.9</td>
+    	    		<td style="font-weight: bold;">136.8</td>
+    	    		<td style="font-weight: bold;">131.4</td>
+    	    		<td style="font-weight: bold;">134.6</td>
+    	    		<td style="font-weight: bold;">140.4</td>
+    	    	</tr>
+        	<tr>
+    	    		<td>в това число:</td>
+    	    		<td></td>
+    	    		<td></td>
+    	    		<td></td>
+    	    		<td></td>
+    	    		<td></td>
+    	    		<td></td>
+    	    		<td></td>
+    	    		<td></td>
+    	    		<td></td>
+    	    		<td></td>
+    	    		<td></td>
+    	    		<td></td>
+    	    		<td></td>
+    	    	</tr>
+        	<tr>
+    	    		<td>   Търговия на дребно в неспециализирани магазини с разнообразни стоки</td>
+    	    		<td>142.3</td>
+    	    		<td>146.7</td>
+    	    		<td>152.9</td>
+    	    		<td>145.7</td>
+    	    		<td>141.2</td>
+    	    		<td>141.0</td>
+    	    		<td>166.8</td>
+    	    		<td>117.1</td>
+    	    		<td>114.9</td>
+    	    		<td>136.9</td>
+    	    		<td>136.3</td>
+    	    		<td>150.9</td>
+    	    		<td>157.4</td>
+    	    	</tr>
+        	<tr>
+    	    		<td>   Търговия на дребно с текстил, облекло,  обувки и кожени  изделия</td>
+    	    		<td>160.6</td>
+    	    		<td>157.4</td>
+    	    		<td>161.6</td>
+    	    		<td>187.9</td>
+    	    		<td>186.0</td>
+    	    		<td>176.1</td>
+    	    		<td>206.9</td>
+    	    		<td>151.8</td>
+    	    		<td>135.5</td>
+    	    		<td>183.5</td>
+    	    		<td>169.8</td>
+    	    		<td>194.5</td>
+    	    		<td>196.7</td>
+    	    	</tr>
+        	<tr>
+    	    		<td>  Търговия на дребно с  битова техника, мебели и други стоки за бита</td>
+    	    		<td>133.2</td>
+    	    		<td>139.8</td>
+    	    		<td>133.9</td>
+    	    		<td>136.4</td>
+    	    		<td>147.8</td>
+    	    		<td>168.0</td>
+    	    		<td>170.8</td>
+    	    		<td>119.6</td>
+    	    		<td>109.7</td>
+    	    		<td>129.8</td>
+    	    		<td>138.5</td>
+    	    		<td>139.6</td>
+    	    		<td>145.2</td>
+    	    	</tr>
+        	<tr>
+    	    		<td> Търговия на дребно с  компютърна и  комуникационна техника и други потребителски стоки</td>
+    	    		<td>116.6</td>
+    	    		<td>126.6</td>
+    	    		<td>115.5</td>
+    	    		<td>123.1</td>
+    	    		<td>134.1</td>
+    	    		<td>135.4</td>
+    	    		<td>148.0</td>
+    	    		<td>114.7</td>
+    	    		<td>114.8</td>
+    	    		<td>135.6</td>
+    	    		<td>120.8</td>
+    	    		<td>119.8</td>
+    	    		<td>125.9</td>
+    	    	</tr>
+        	<tr>
+    	    		<td> Търговия на дребно с  фармацевтични и медицински стоки, козметика и тоалетни принадлежности</td>
+    	    		<td>126.1</td>
+    	    		<td>130.2</td>
+    	    		<td>127.0</td>
+    	    		<td>129.9</td>
+    	    		<td>136.7</td>
+    	    		<td>129.6</td>
+    	    		<td>148.2</td>
+    	    		<td>128.2</td>
+    	    		<td>117.1</td>
+    	    		<td>135.4</td>
+    	    		<td>124.6</td>
+    	    		<td>122.2</td>
+    	    		<td>127.4</td>
+    	    	</tr>
+        	<tr>
+    	    		<td>   Търговия на дребно  чрез поръчки по пощата, телефона или Интернет</td>
+    	    		<td>112.8</td>
+    	    		<td>114.0</td>
+    	    		<td>109.4</td>
+    	    		<td>117.9</td>
+    	    		<td>125.7</td>
+    	    		<td>172.9</td>
+    	    		<td>198.2</td>
+    	    		<td>148.1</td>
+    	    		<td>134.2</td>
+    	    		<td>139.5</td>
+    	    		<td>131.7</td>
+    	    		<td>133.1</td>
+    	    		<td>142.6</td>
+    	    	</tr>
+        	<tr>
+    	    		<td style="font-weight: bold;">Търговия на дребно с автомобилни горива и  смазочни материали</td>
+    	    		<td style="font-weight: bold;">136.6</td>
+    	    		<td style="font-weight: bold;">149.7</td>
+    	    		<td style="font-weight: bold;">148.0</td>
+    	    		<td style="font-weight: bold;">134.3</td>
+    	    		<td style="font-weight: bold;">132.0</td>
+    	    		<td style="font-weight: bold;">129.0</td>
+    	    		<td style="font-weight: bold;">131.4</td>
+    	    		<td style="font-weight: bold;">117.8</td>
+    	    		<td style="font-weight: bold;">114.1</td>
+    	    		<td style="font-weight: bold;">144.7</td>
+    	    		<td style="font-weight: bold;">135.6</td>
+    	    		<td style="font-weight: bold;">140.5</td>
+    	    		<td style="font-weight: bold;">140.8</td>
+    	    	</tr>
+        </tbody>
+</table></div></div>
+<div style="text-align: left;">&nbsp;</div>
+												    				    		<div>Подробни данни могат да бъдат намерени на сайта на НСИ в разделите:    				    			    				    				    				    					<br><a href="/statistical-data/335">Индекси на оборота в сектор „Търговия; ремонт на автомобили и мотоциклети” по текущи цени</a>
+    				    				    				    			    				    				    				    					<br><a href="/statistical-data/333">Индекси на оборота в сектор „Търговия; ремонт на автомобили и мотоциклети” по съпоставими цени</a>
+    				    				    				    			
+
+    				    		</div>
+    				    						                    </div>
+
+                    <div class="article-footer">
+                    	
+                    	
+                    								                                <div class="article-tags" style="display:block;width:100%;max-width:100%; flex:none">
+                                    <span><i class="fas fa-bookmark"></i></span>
+        							100.5% индекс на оборота в търговията на дребно                                </div>
+                                                    
+                        <div class="article-share">
+                            <ul class="social">
+                                <li><span>Сподели:</span></li>
+                                <li>
+                                	<a href="https://www.facebook.com/sharer.php?u=https://www.nsi.bg/press-release/indeksi-na-oborota-v-razdel-targoviya-na-drebno-bez-targoviyata-s-avtomobili-i-motocikleti-po-sapostavimi-ceni-9107" target="_blank">
+                                        <i class="fab fa-facebook-f"></i>
+                                        <span class="sr-only">facebook</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="https://twitter.com/intent/tweet?url=https://www.nsi.bg/press-release/indeksi-na-oborota-v-razdel-targoviya-na-drebno-bez-targoviyata-s-avtomobili-i-motocikleti-po-sapostavimi-ceni-9107" target="_blank">
+                                        <i class="fab fa-twitter"></i>
+                                        <span class="sr-only">twitter</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="https://www.linkedin.com/shareArticle?mini=true&url=https://www.nsi.bg/press-release/indeksi-na-oborota-v-razdel-targoviya-na-drebno-bez-targoviyata-s-avtomobili-i-motocikleti-po-sapostavimi-ceni-9107" target="_blank">
+                                        <i class="fab fa-linkedin-in"></i>
+                                        <span class="sr-only">linkedin</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="https://www.instagram.com/?url=https://www.nsi.bg/press-release/indeksi-na-oborota-v-razdel-targoviya-na-drebno-bez-targoviyata-s-avtomobili-i-motocikleti-po-sapostavimi-ceni-9107" target="_blank">
+                                        <i class="fab fa-instagram"></i>
+                                        <span class="sr-only">instagram</span>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="post-navigation">
+                        <div class="navigation-links">
+                            <div class="nav-previous">
+                                <a href="/press-release"><i class="fa fa-arrow-left"></i> Назад</a>
+                            </div>
+                        </div>
+                    </div>
+				</div>
+            </div>
+		</div>
+    </div>
+</section>
+
+		
+
+<!-- Start Footer Section -->
+<section class="footer-section ptb-50">
+	<div class="container">
+        <div class="row">
+        	                <div class="col-lg-3 col-md-6 col-sm-6">
+                    <div class="footer-area">
+                        <!-- <div class="footer-heading">
+                            <h3></h3>
+                        </div> -->
+
+                        <p><strong data-start="26" data-end="71">Националният статистически институт (НСИ)</strong> е държавна институция в България, която събира, обработва и разпространява официална статистическа информация за социалните, икономическите и демографските процеси в страната. Дейността на НСИ е насочена към осигуряване на обективни и надеждни данни, които подпомагат вземането на информирани решения от страна на държавата, бизнеса и обществото. Институтът работи съгласно международните статистически стандарти и е активен участник в Европейската статистическа система.</p>                        
+                                                <ul class="footer-social">
+                        								                        </ul>
+                    </div>
+                </div>
+            			
+			
+    			                    <div class="col-lg-2 col-md-6 col-sm-6">
+                        <div class="footer-item-area">
+                            <div class="footer-heading">
+                                <h3>Връзки</h3>
+                            </div>
+        					                            <ul class="footer-quick-links">
+                            	                                	<li><a href="/statistical-data/258">Статистически данни</a></li>
+                                                                	<li><a href="/sitemap">Карта на сайта</a></li>
+                                                                	<li><a href="/survey/1">Анкета</a></li>
+                                                                	<li><a href="pages/rss-911">RSS</a></li>
+                                                            </ul>
+                                                    </div>
+                    </div>
+                			
+    			                    <div class="col-lg-2 col-md-6 col-sm-6">
+                        <div class="footer-item-area">
+                            <div class="footer-heading">
+                                <h3>Конкурси, търгове и обявления</h3>
+                            </div>
+        					                            <ul class="footer-quick-links">
+                            	                                	<li><a href="/konkursi">Конкурси</a></li>
+                                                                	<li><a href="/targove">Търгове</a></li>
+                                                                	<li><a href="https://app.eop.bg/today">Профил на купувача</a></li>
+                                                            </ul>
+                                                    </div>
+                    </div>
+                			
+    			                    <div class="col-lg-2 col-md-6 col-sm-6">
+                        <div class="footer-item-area">
+                            <div class="footer-heading">
+                                <h3>Отговорност</h3>
+                            </div>
+        					                            <ul class="footer-quick-links">
+                            	                                	<li><a href="/pages/obshti-usloviya-za-polzvane-na-internet-saita-na-nsi-687">Условия за ползване</a></li>
+                                                                	<li><a href="/pages/politika-za-lichnite-danni-v-nacionalen-statisticheski-institut-591">Политика за личните данни</a></li>
+                                                                	<li><a href="/pages/deklaraciya-za-dostapnost-689">Декларация за достъпност</a></li>
+                                                                	<li><a href="/pages/politika-za-izpolzvaneto-na-biskvitki-688">Бисквитки</a></li>
+                                                                	<li><a href="/pages/licenz-za-izpolzvaneto-na-statisticheskata-informaciya-proizvejdana-i-razprostranyavana-ot-nacionalniya-statisticheski-institut-485">© 2025 | Лиценз</a></li>
+                                                            </ul>
+                                                    </div>
+                    </div>
+                						            <div class="col-lg-3 col-md-6 col-sm-6">
+                <div class="footer-heading">
+                    <h3>Контакти</h3>
+                </div>
+
+                <div class="footer-info-contact">
+                    <i class="flaticon-call-answer"></i>
+                    <h3>Телефон</h3>
+                    <span><a href="tel:(02) 9857 111">(02) 9857 111</a></span>
+                </div>
+
+                <div class="footer-info-contact">
+                    <i class="flaticon-envelope"></i>
+                    <h3>Имейл</h3>
+                    <span><a href="/cdn-cgi/l/email-protection#ca83a4aca58aa4b9a3e4a8ad"><span class="__cf_email__" data-cfemail="c188afa7ae81afb2a8efa3a6">[email&#160;protected]</span></a></span>
+                </div>
+
+                <div class="footer-info-contact">
+                    <i class="flaticon-placeholder-filled-point"></i>
+                    <h3>Адрес</h3>
+                    <span>ул. „П. Волов“ № 2, София 1038, България</span>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+
+    <div class="default-animation">
+        <div class="shape-img1"><img src="templates/default/img/shape/12.svg" alt="shape-img1"></div>
+        <div class="shape-img2"><img src="templates/default/img/shape/13.svg" alt="shape-img2"></div>
+        <div class="shape-img3"><img src="templates/default/img/shape/14.png" alt="shape-img3"></div>
+        <div class="shape-img4"><img src="templates/default/img/shape/15.png" alt="shape-img4"></div>
+        <div class="shape-img5"><img src="templates/default/img/shape/2.png" alt="shape-img5"></div>
+    </div>
+
+</section>
+<!-- End Footer Section -->
+
+<!-- Start Copy Right Section -->
+<div class="copyright-area">
+    <div class="container">
+        <div class="row align-items-center">
+            <div class="col-lg-6 col-md-6">
+                <p>
+                    Copyright © 2026 НСИ Всички права запазени                </p>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- End Copy Right Section -->
+<div class="go-top">
+    <i class="fas fa-chevron-up"></i>
+    <i class="fas fa-chevron-up"></i>
+</div>
+<!-- End Go Top Section -->
+<div class="cookie-disclaimer">
+  <div class="cookie-close accept-cookie"><i class="fa fa-times"></i></div>
+  <div class="container">
+    <p>Ние използваме бисквитки на този сайт, за да подобрим вашето потребителско изживяване.      <br>Като щракнете върху бутона Приемам, вие се съгласявате да го направим.       </p>
+    <button type="button" class="btn btn-success accept-cookie">Приемам</button>
+    <button type="button" class="btn btn-light accept-cookie">Не, благодаря</button>
+  </div>
+</div>
+        <!-- End Go Top Section -->
+
+<!-- jQuery Min JS -->
+<script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script src="templates/default/js/jquery.min.js"></script>
+<!-- Bootstrap Min JS -->
+<script src="templates/default/js/bootstrap.bundle.min.js"></script>
+<!-- MeanMenu JS  -->
+<script src="templates/default/js/jquery.meanmenu.js"></script>
+<!-- Appear Min JS -->
+<script src="templates/default/js/jquery.appear.min.js"></script>
+<!-- Odometer Min JS -->
+<script src="templates/default/js/odometer.min.js"></script>
+<!-- Owl Carousel Min JS -->
+<script src="templates/default/js/owl.carousel.min.js"></script>
+<!-- Magnific Popup Min JS -->
+<script src="templates/default/js/jquery.magnific-popup.min.js"></script>
+<!-- Nice Select Min JS -->
+<script src="templates/default/js/jquery.nice-select.min.js"></script>
+<!-- Mixitup Min JS -->
+<script src="templates/default/js/jquery.mixitup.min.js"></script>
+<!-- WOW Min JS -->
+<script src="templates/default/js/wow.min.js"></script>
+<!-- Parallax Min JS -->
+<script src="templates/default/js/parallax.min.js"></script>
+<!--=== AjaxChimp JS ===-->
+<script src="templates/default/js/jquery.ajaxchimp.min.js"></script>
+<!-- Form Validator JS -->
+<script src="templates/default/js/form-validator.min.js"></script>
+<!-- JS UI -->
+<script src="templates/default/js/jquery-ui.js"></script>
+<!-- Main JS -->
+<script src="templates/default/js/main.js?time=1787011560"></script>
+
+<script src="templates/default/js/external/dataTables.min.js"></script>
+<script src="templates/default/js/particles.js"></script>
+<!--<script src="templates/default/js/app.js"></script>-->
+<script src="templates/default/js/stats.js"></script>
+
+<!-- Nav tree -->
+<script src="templates/default/js/tree.js?time=1787011560"></script>
+
+<script src="templates/default/js/lightbox.js"></script>
+
+
+<script>
+function loadHomeCalendar()
+{
+	if($("#main-calendar").length) {
+
+		var active_dates = [];
+
+		$.ajax({
+	   	    url: '/news/index/ajax-calendar-dates',
+	        type: 'POST',
+	        async: false,
+	        dataType: 'json',
+	        success: function (res) {
+	        	active_dates = res;
+	        },
+	    });
+
+		$.datepicker.setDefaults($.datepicker.regional["bg"]);
+
+    	$("#main-calendar").datepicker({
+    		firstDay: 1,
+    		beforeShowDay: function(date) {
+
+        		var d = date;
+                var curr_date = d.getDate();
+                var curr_month = d.getMonth() + 1;
+                var curr_year = d.getFullYear();
+                var formattedDate = curr_date + "/" + curr_month + "/" + curr_year
+
+        		if ($.inArray(formattedDate, active_dates) != -1) {
+        			return [1, ""];
+        		} else {
+        			return [1, "noItem"];
+        		}
+        	},
+    		onSelect: function (dateString, txtDate) {
+    			$.ajax({
+    		   	    url: '/news/index/ajax-calendar',
+    		        type: 'POST',
+    		        data: {'date': dateString},
+    		        async: false,
+    		        success: function (res) {
+    		            $('.home-calendar').html(res);
+
+    		            loadHomeCalendar();
+
+    		            if($('#main-calendar').data('value')) {
+    		            	var date = new Date($('#main-calendar').data('value'));
+
+    		            	$("#main-calendar").datepicker("setDate", new Date($('#main-calendar').data('value')));
+    		            }
+    		        },
+    		    });
+    	    }
+    	});
+	}
+}
+
+loadHomeCalendar();
+
+$(function () {
+	$('[data-action="minifyMenu"]').on('click', function () {
+		let $menu = $('#tree1');
+		let $p = $menu.parent();
+		let nextElement = $menu.closest('.row').find('div:nth-child(2)');
+		if ($menu.width() > 0) {
+            $menu.animate({ width: '0px' }, 0, function () {
+                $('.menu-left').hide();
+                $('.menu-right').show();
+            });
+            $menu.hide();
+            $(nextElement[0]).removeClass();
+            $(nextElement[0]).addClass('col-lg-11 col-md-11');
+            $p.removeClass();
+            $p.addClass('col-lg-1 col-md-1');
+        } else {
+        	$menu.show();
+            $menu.animate({ width: '100%' }, 0, function () {
+            	$('.menu-left').show();
+                $('.menu-right').hide();
+            });
+            $(nextElement[0]).removeClass();
+            $(nextElement[0]).addClass('col-lg-8 col-md-8');
+            $p.removeClass();
+            $p.addClass('col-lg-4 col-md-4');
+        }
+    });
+});
+
+$('#tree1 li.active').parents().trigger('click');
+$('li.active:last').trigger('click');
+
+$('#tree1 a.active:last').css('color', 'black');
+$('.news-stats-filters li.active a').css('color', 'black').css('font-weight', 500);
+
+var cookie = false;
+var cookieContent = $('.cookie-disclaimer');
+
+checkCookie();
+
+if (cookie === true) {
+  cookieContent.hide();
+}
+
+function setCookie(cname, cvalue, exdays) {
+  var d = new Date();
+  d.setTime(d.getTime() + (exdays * 24 * 60 * 60 * 1000));
+  var expires = "expires=" + d.toGMTString();
+  document.cookie = cname + "=" + cvalue + "; " + expires;
+}
+
+function getCookie(cname) {
+  var name = cname + "=";
+  var ca = document.cookie.split(';');
+  for (var i = 0; i < ca.length; i++) {
+    var c = ca[i].trim();
+    if (c.indexOf(name) === 0) return c.substring(name.length, c.length);
+  }
+  return "";
+}
+
+function checkCookie() {
+  var check = getCookie("acookie");
+  if (check !== "") {
+    return cookie = true;
+  } else {
+      return cookie = false; //setCookie("acookie", "accepted", 365);
+  }
+
+}
+$('.accept-cookie').click(function () {
+  setCookie("acookie", "accepted", 365);
+  cookieContent.hide(500);
+});
+</script>
+
+
+<script src="templates/default/js/external/echarts.min.js"></script>
+<script src="templates/default/js/external/dataTables.buttons.js"></script>
+<script src="templates/default/js/external/buttons.dataTables.js"></script>
+<script src="templates/default/js/external/jszip.min.js"></script>
+<script src="templates/default/js/external/pdfmake.min.js"></script>
+<script src="templates/default/js/external/vfs_fonts.js"></script>
+<script src="templates/default/js/external/buttons.html5.min.js"></script>
+<script src="templates/default/js/external/buttons.print.min.js"></script>
+<script src="https://www.gstatic.com/charts/loader.js"></script>
+<script src="https://unpkg.com/gridviz/dist/gridviz.min.js"></script>
+<script>
+google.charts.load('current', {
+    'packages': ['geochart'],
+});
+</script>
+<script>
+$.fn.dataTable.ext.errMode = 'throw';
+function attachDatatable(el, pButtons)
+{
+	var pdf = {
+        extend: 'pdfHtml5',
+        text: 'PDF',
+        title: '',
+        orientation: 'landscape',
+        pageSize: 'A3',
+	};
+
+	const superscriptMap = {
+	  '0': '⁰', '1': '¹', '2': '²', '3': '³', '4': '⁴',
+	  '5': '⁵', '6': '⁶', '7': '⁷', '8': '⁸', '9': '⁹'
+	};
+
+	const subscriptMap = {
+	  '0': '₀', '1': '₁', '2': '₂', '3': '₃', '4': '₄',
+	  '5': '₅', '6': '₆', '7': '₇', '8': '₈', '9': '₉'
+	};
+
+	function replaceNumbersWithSuperSub(text) {
+	  // Replace <sup>...</sup> digits with superscript digits, keep other chars as-is
+	  text = text.replace(/<sup>(.*?)<\/sup>/g, (_, content) =>
+	    content.split('').map(c => superscriptMap[c] || c).join('')
+	  );
+
+	  // Replace <sub>...</sub> digits with subscript digits, keep other chars as-is
+	  text = text.replace(/<sub>(.*?)<\/sub>/g, (_, content) =>
+	    content.split('').map(c => subscriptMap[c] || c).join('')
+	  );
+
+	  return text;
+	}
+
+	var captionEl = el.find('caption');
+	var captionElLength = captionEl.length;
+
+	if (captionElLength) {
+		var caption = replaceNumbersWithSuperSub(captionEl.html());
+		//caption = $.fn.DataTable.Buttons.stripData(caption, null);
+		captionEl.html(caption);
+	}
+
+	var excel = {
+		extend: 'excelHtml5',
+        text: 'Excel',
+        title: '',
+        exportOptions: {
+            format: {
+           	 	header: function (data, rowIdx, colIdx, node) {
+               	 	var data2 = replaceNumbersWithSuperSub(data);
+                  	data2 = data2.replace(/<br\s*\/?>/ig, "\n");
+                  	data2 = $.fn.DataTable.Buttons.stripData(data2, null);
+                	return data2;
+				},
+                footer: function (data, rowIdx, colIdx, node) {
+                	var data2 = replaceNumbersWithSuperSub(data);
+                	data2 = data2.replace(/<br\s*\/?>/ig, '\n');
+                	data2 = $.fn.DataTable.Buttons.stripData(data2, null);
+                	return data2;
+                },
+                body: function (data, row, column, node) {
+                    var data2 = replaceNumbersWithSuperSub(data);
+                    data2 = data2.replace(/<br\s*\/?>/ig, '\n');
+                    data2 = $.fn.DataTable.Buttons.stripData(data2, null);
+                	var sanitizedValue = data2.replace(/\s+/g, '');
+                	if ($.isNumeric(sanitizedValue)) {
+						return sanitizedValue;
+                	}
+                    return data2;
+                }
+            }
+        },
+        customize: function(xlsx) {
+            var sheet = xlsx.xl.worksheets['sheet1.xml'];
+
+            // Add a custom number format for 1 decimal place
+            var styles = xlsx.xl['styles.xml'];
+            var numFmts = $('numFmts', styles);
+            if (!numFmts.length) {
+                numFmts = $('<numFmts count="1"/>');
+                $('styleSheet', styles).prepend(numFmts);
+            }
+            var fmtId = 164;
+            numFmts.append('<numFmt numFmtId="' + fmtId + '" formatCode="0.0"/>');
+            numFmts.attr('count', numFmts.find('numFmt').length);
+
+            // Add a cell style that uses this number format
+            var cellXfs = $('cellXfs', styles);
+            var newXf = '<xf numFmtId="' + fmtId + '" fontId="0" fillId="0" borderId="0" xfId="0" applyNumberFormat="1"/>';
+            cellXfs.append(newXf);
+            var oneDecimalStyleIdx = cellXfs.find('xf').length - 1;
+
+            // Add a cell style for left alignment
+            var leftAlignXf = '<xf numFmtId="0" fontId="0" fillId="0" borderId="0" xfId="0" applyAlignment="1"><alignment horizontal="left"/></xf>';
+            cellXfs.append(leftAlignXf);
+            var leftAlignStyleIdx = cellXfs.find('xf').length - 1;
+            cellXfs.attr('count', cellXfs.find('xf').length);
+
+            $('row', sheet).each(function (rIndex) {
+                if (!captionElLength || rIndex > 2) {
+                    $('c', this).each(function (cIndex) {
+                    	var td = el.find('tr').eq(rIndex - (captionElLength ? 1 : 0)).find('td').eq(cIndex);
+                    	if (td.hasClass('bold') || td.hasClass('boldt')) {
+                    		$(this).attr('s', '2');
+                    	}
+                    	var cellValue = $(this).text();
+                    	if (cellValue === 'NaN' || cellValue === '.' || cellValue === ',' || cellValue === '-' || cellValue === 'х' || cellValue === 'x') {
+                    		$(this).attr('s', '52');
+                        }
+                        // Apply 1 decimal format to cells whose original text had .0
+                        var originalText = td.text().replace(/\s+/g, '').replace(/,/g, '.');
+                        if (originalText.match(/^\-?\d+\.0$/)) {
+                            $(this).attr('s', oneDecimalStyleIdx);
+                        }
+                        // Apply left alignment for cells with class left_top
+                        if (td.hasClass('left_top')) {
+                            $(this).attr('s', leftAlignStyleIdx);
+                        }
+                    });
+                }
+            });
+            var totalRows = $(sheet).find('row').length;
+            var thHeadRowCount = el.find('thead tr').length;
+            var thFootRowCount = el.find('tfoot tr').length;
+            var footerStartRow = totalRows - thFootRowCount + 1;
+            for (var i = footerStartRow; i <= totalRows; i++) {
+                $(sheet).find('row[r="' + i + '"] c').each(function () {
+                	$(this).removeAttr('s');
+                });
+            }
+        }
+	};
+
+	var print = {
+        extend: 'print',
+        title: '',
+    };
+
+    var buttons = [];
+
+    if ($.isArray(pButtons)) {
+		for(var i = 0; i < pButtons.length; ++i) {
+			var b = pButtons[i];
+			if (b == 'excel') {
+				b = excel;
+			}
+			if (b == 'print') {
+				b = print;
+			}
+			if (b == 'pdf') {
+				b = pdf;
+			}
+			buttons.push(b);
+		}
+    } else {
+    	buttons = ['copy', 'csv', excel, pdf, print];
+    }
+
+	el.dataTable({
+		order: [],
+		ordering: false,
+		responsive: true,
+		paging: false,
+		searching: true,
+		info: false,
+			language: {
+	        url: 'templates/default/js/bg.json',
+	    },
+    	    layout: {
+	        topStart: {
+	            buttons: buttons,
+	        },
+	    }
+	});
+}
+$('.datatable').each(function () {
+	attachDatatable($(this), ['excel']);
+});
+$('.auto-tables table').each(function () {
+	$(this).wrap("<div class='table-responsive'></div>");
+	attachDatatable($(this), ['excel']);
+});
+$(function () {
+	$('.charts_tabs').addClass('active').find('> li:eq(0)').addClass('current');
+	$('.charts_tabs li a').on('click', function (g) {
+	    var tab = $(this).closest('.icycharts'),
+	    index = $(this).closest('li').index();
+	    tab.find('.charts_tabs > li').removeClass('current');
+	    $(this).closest('li').addClass('current');
+	    tab.find('.charts_tabs_content').find('.charts_tabs_item').not('.charts_tabs_item:eq(' + index + ')').slideUp();
+	    tab.find('.charts_tabs_content').find('.charts_tabs_item:eq(' + index + ')').slideDown();
+	    g.preventDefault();
+	});
+});
+$(function () {
+	var tds = {};
+	$('table.datatable tr td').each(function () {
+		var formatted = $(this).text().replace('&nbsp;', '').replace(/\s+/g, '').replace(/,/g, '.');
+        if (!isNaN(formatted) && formatted !== null && formatted !== '') {
+            $(this).addClass('custom-right-align');
+            tds[$(this).index()] = true;
+        }
+	});
+	$('table.datatable tr td').each(function () {
+		if (tds[$(this).index()] && !$(this).hasClass('custom-right-align')) {
+			$(this).addClass('custom-right-align');
+		}
+	});
+});
+function truncateMultibyteText(text, maxLength) {
+	  // Convert the text into an array of characters to handle multibyte characters
+	  const textArray = Array.from(text);
+	  // Check if the text exceeds the max length
+	  if (textArray.length > maxLength) {
+	    // Truncate the text and append '...'
+	    return textArray.slice(0, maxLength).join('') + '...';
+	  }
+	  // If the text is within the limit, return it as is
+	  return text;
+}
+</script>
+
+<script>
+(function () {
+	var el = $('#mainLine0');
+    el.width(el.closest('.icycharts').width());
+    var chart = echarts.init(el[0]);
+    
+var titleWidth = 950;
+var titleFontSize = 16;
+
+if(true) {
+    if(window.innerWidth <= 480) {
+    	titleWidth = 350;
+    	titleFontSize = 12;
+    } else if(window.innerWidth <= 800) {
+    	titleWidth = 750;
+    	titleFontSize = 14;
+    } else if(window.innerWidth <= 1280) {
+    	titleWidth = 850;
+    }
+}
+
+var isMobile = window.innerWidth <= 480;
+
+var formatter = {
+	format: function (s) {
+		var fs = s;
+		if (false) {
+			fs = s.toLocaleString('bg-BG', {style: 'decimal', useGrouping: true, minimumFractionDigits: 1});
+		} else {
+			var intlo = new Intl.NumberFormat('bg-BG', { style: 'decimal', useGrouping: true, minimumFractionDigits: 1 });
+			fs = intlo.format(s);
+		}
+
+		fs = fs.replace(',', '.');
+
+		return fs;
+	},
+};
+var option = {
+    tooltip: {
+    	trigger: 'axis',
+	    	formatter: function (params) {
+        	var tmp = params[0].name + '<br/>';
+        	for (var i = 0; i < params.length; ++i) {
+        		var c = params[i];
+            	tmp += c.marker + ' ' + c.seriesName.trim() + ': <b>' + formatter.format(c.value) + '</b><br />';
+            }
+            return tmp;
+        }
+        },
+    grid: {
+		containLabel: true,
+	},
+	title: {
+		show: true,
+		text: 'Фиг. 1. Индекси на оборота в раздел „Търговия на дребно, без търговията с автомобили и мотоциклети”  (2021 = 100)',
+		left: 'center',
+		textStyle: {
+			lineHeight: 20,
+			fontSize: titleFontSize,
+			width: titleWidth,
+			overflow: 'break',
+			lineHeight: isMobile ? 18 : 24
+		}
+	},
+    legend: {
+		orient: 'horizontal',
+        bottom: 0,
+    },
+    toolbox: {
+        feature: {
+        			saveAsImage: {
+				title: 'Запази',
+			},
+		        },
+    },
+    xAxis: {
+        type: 'category',
+        boundaryGap: false,
+        data: ["VI.2024","VII.2024","VIII.2024","IX.2024","X.2024","XI.2024","XII.2024","I.2025","II.2025","III.2025","IV.2025","V.2025","VI.2025","VII.2025","VIII.2025","IX.2025","X.2025","XI.2025","XII.2025","I.2026","II.2026","III.2026","IV.2026","V.2026","VI.2026"],
+            axisLabel: {
+        	rotate: 90,
+            interval: 0,
+            show: true,
+            formatter: function (value) {
+                return truncateMultibyteText(value, 15);
+            },
+        },
+    },
+    yAxis: {
+        type: 'value',
+        min: 90,
+        axisLabel: {
+            formatter: function (value) {
+                return formatter.format(value) + '';
+            },
+        },
+    },
+    color: ["#55809E","#88D5FE","#E98A8A","#C3D69B","#58A7A9","#A55971","#32566F","#5BA4D8"],
+    series: [{"name":"\u0422\u044a\u0440\u0433\u043e\u0432\u0438\u044f \u043d\u0430 \u0434\u0440\u0435\u0431\u043d\u043e, \u0431\u0435\u0437 \u0442\u044a\u0440\u0433\u043e\u0432\u0438\u044f\u0442\u0430 \u0441 \u0430\u0432\u0442\u043e\u043c\u043e\u0431\u0438\u043b\u0438 \u0438 \u043c\u043e\u0442\u043e\u0446\u0438\u043a\u043b\u0435\u0442\u0438 - \u043d\u0435\u0438\u0437\u0433\u043b\u0430\u0434\u0435\u043d\u0438 \u0434\u0430\u043d\u043d\u0438","type":"line","symbol":"emptyCircle","symbolSize":4,"data":[111.5,118.9,118.5,115.4,117.9,123.5,130.7,109,101.3,112.6,113.9,116.9,120.5,127.5,125.5,123.7,128.2,129.4,142.4,113.6,108.7,126.6,122.3,126.06,129.01],"lineStyle":{"width":3},"label":{"show":false,"position":"top","formatter":function(params) { return formatter.format(params.value) + ''; }}},{"name":"\u0422\u044a\u0440\u0433\u043e\u0432\u0438\u044f \u043d\u0430 \u0434\u0440\u0435\u0431\u043d\u043e, \u0431\u0435\u0437 \u0442\u044a\u0440\u0433\u043e\u0432\u0438\u044f\u0442\u0430 \u0441 \u0430\u0432\u0442\u043e\u043c\u043e\u0431\u0438\u043b\u0438 \u0438 \u043c\u043e\u0442\u043e\u0446\u0438\u043a\u043b\u0435\u0442\u0438 - \u0441\u0435\u0437\u043e\u043d\u043d\u043e \u0438\u0437\u0433\u043b\u0430\u0434\u0435\u043d\u0438 \u0434\u0430\u043d\u043d\u0438","type":"line","symbol":"emptyCircle","symbolSize":4,"data":[111.9,113.5,114.1,114.3,114.5,116.5,116.3,118.2,116.9,118.3,118.1,120,120.6,121,121.1,122.2,123.4,123.1,125,124.5,127.3,128.9,127.6,128.5,129.14],"lineStyle":{"width":3},"label":{"show":false,"position":"top","formatter":function(params) { return formatter.format(params.value) + ''; }}}],
+};    chart.setOption(option);
+})();
+</script>
+
+    <script>
+    (function () {
+        var el = $('#mainChart1');
+        el.width(el.closest('.icycharts').width());
+        var chart = echarts.init(el[0]);
+        
+var titleWidth = 950;
+var titleFontSize = 16;
+
+if(true) {
+    if(window.innerWidth <= 480) {
+    	titleWidth = 350;
+    	titleFontSize = 12;
+    } else if(window.innerWidth <= 800) {
+    	titleWidth = 750;
+    	titleFontSize = 14;
+    } else if(window.innerWidth <= 1280) {
+    	titleWidth = 850;
+    }
+}
+
+var isMobile = window.innerWidth <= 480;
+
+var formatter = {
+	format: function (s) {
+		var fs = s;
+		if (false) {
+			fs = s.toLocaleString('bg-BG', {style: 'decimal', useGrouping: true, minimumFractionDigits: 1});
+		} else {
+			var intlo = new Intl.NumberFormat('bg-BG', { style: 'decimal', useGrouping: true, minimumFractionDigits: 1 });
+			fs = intlo.format(s);
+		}
+	
+		fs = fs.replace(',', '.');
+	
+		return fs;
+	},
+};
+var option = {
+    tooltip: {
+        trigger: 'axis',
+            formatter: function (params) {
+        	let tmp = params[0].name + '<br/>';
+        	for (let i = 0; i < params.length; ++i) {
+        		let c = params[i];
+            	tmp += `${c.marker} ${c.seriesName.trim()}: <b>${formatter.format(c.value)}%</b><br />`;
+            }
+            return tmp;
+        }
+        },
+	grid: {
+		containLabel: true,
+			left: '1%',
+		},
+	legend: {
+        orient: 'horizontal',
+        bottom: 0,
+        //left: 0,
+    },
+	title: {
+		show: true,
+		text: 'Фиг. 2. Изменение на оборота в раздел „Търговия на дребно, без търговията с автомобили и мотоциклети” спрямо предходния месец (сезонно изгладени данни)',
+		left: 'center',
+		textStyle: {
+			lineHeight: 20,
+			fontSize: titleFontSize,
+			width: titleWidth,
+			overflow: 'break',
+			lineHeight: isMobile ? 18 : 24
+		}
+	},
+    toolbox: {
+        feature: {
+        			saveAsImage: {
+				title: 'Запази',
+			},
+		        },
+    },
+    yAxis: {
+        type: 'value',
+        min:-2,        axisLabel: {
+            formatter: function (value) {
+                return formatter.format(value) + '%';
+            },
+        },
+  	},
+    xAxis: {
+        type: 'category',
+        data: ["VI.2024","VII.2024","VIII.2024","IX.2024","X.2024","XI.2024","XII.2024","I.2025","II.2025","III.2025","IV.2025","V.2025","VI.2025","VII.2025","VIII.2025","IX.2025","X.2025","XI.2025","XII.2025","I.2026","II.2026","III.2026","IV.2026","V.2026","VI.2026"],
+        axisLabel: {
+        	rotate: 90,
+            interval: 0,
+            formatter: function (value) {
+                return truncateMultibyteText(value, 15);
+            },
+		},
+	},
+	color: ["#55809E","#71BCDF","#5BA4D8","#88D5FE","#365D78","#58A7A9","#89BCBD","#C3D69B","#A55971","#E98A8A","#365D78","#55809E","#71BCDF","#5BA4D8","#88D5FE","#58A7A9","#89BCBD","#C3D69B","#A55971","#E98A8A"],
+	series: [{"name":"","type":"bar","data":[{"value":0.9,"label":{"position":"top"}},{"value":1.4,"label":{"position":"top"}},{"value":0.5,"label":{"position":"top"}},{"value":0.2,"label":{"position":"top"}},{"value":0.2,"label":{"position":"top"}},{"value":1.7,"label":{"position":"top"}},{"value":-0.2,"label":{"position":"bottom"}},{"value":1.6,"label":{"position":"top"}},{"value":-1.1,"label":{"position":"bottom"}},{"value":1.2,"label":{"position":"top"}},{"value":-0.2,"label":{"position":"bottom"}},{"value":1.6,"label":{"position":"top"}},{"value":0.5,"label":{"position":"top"}},{"value":0.3,"label":{"position":"top"}},{"value":0.1,"label":{"position":"top"}},{"value":0.9,"label":{"position":"top"}},{"value":1,"label":{"position":"top"}},{"value":-0.2,"label":{"position":"bottom"}},{"value":1.5,"label":{"position":"top"}},{"value":-0.4,"label":{"position":"bottom"}},{"value":2.2,"label":{"position":"top"}},{"value":1.3,"label":{"position":"top"}},{"value":-1,"label":{"position":"bottom"}},{"value":0.7,"label":{"position":"top"}},{"value":0.5,"label":{"position":"top"}}],"label":{"show":true,"position":"top","formatter":function(params) { return formatter.format(params.value) + '%'; }}}]};        chart.setOption(option);
+    })();
+    </script>
+    
+    <script>
+    (function () {
+        var el = $('#mainChart2');
+        el.width(el.closest('.icycharts').width());
+        var chart = echarts.init(el[0]);
+        
+var titleWidth = 950;
+var titleFontSize = 16;
+
+if(true) {
+    if(window.innerWidth <= 480) {
+    	titleWidth = 350;
+    	titleFontSize = 12;
+    } else if(window.innerWidth <= 800) {
+    	titleWidth = 750;
+    	titleFontSize = 14;
+    } else if(window.innerWidth <= 1280) {
+    	titleWidth = 850;
+    }
+}
+
+var isMobile = window.innerWidth <= 480;
+
+var formatter = {
+	format: function (s) {
+		var fs = s;
+		if (false) {
+			fs = s.toLocaleString('bg-BG', {style: 'decimal', useGrouping: true, minimumFractionDigits: 1});
+		} else {
+			var intlo = new Intl.NumberFormat('bg-BG', { style: 'decimal', useGrouping: true, minimumFractionDigits: 1 });
+			fs = intlo.format(s);
+		}
+	
+		fs = fs.replace(',', '.');
+	
+		return fs;
+	},
+};
+var option = {
+    tooltip: {
+        trigger: 'axis',
+            formatter: function (params) {
+        	let tmp = params[0].name + '<br/>';
+        	for (let i = 0; i < params.length; ++i) {
+        		let c = params[i];
+            	tmp += `${c.marker} ${c.seriesName.trim()}: <b>${formatter.format(c.value)}%</b><br />`;
+            }
+            return tmp;
+        }
+        },
+	grid: {
+		containLabel: true,
+			left: '1%',
+		},
+	legend: {
+        orient: 'horizontal',
+        bottom: 0,
+        //left: 0,
+    },
+	title: {
+		show: true,
+		text: 'Фиг. 3. Изменение на оборота в раздел „Търговия на дребно, без търговията с автомобили и мотоциклети” спрямо съответния месец на предходната година (календарно изгладени данни)',
+		left: 'center',
+		textStyle: {
+			lineHeight: 20,
+			fontSize: titleFontSize,
+			width: titleWidth,
+			overflow: 'break',
+			lineHeight: isMobile ? 18 : 24
+		}
+	},
+    toolbox: {
+        feature: {
+        			saveAsImage: {
+				title: 'Запази',
+			},
+		        },
+    },
+    yAxis: {
+        type: 'value',
+        min:-2,        axisLabel: {
+            formatter: function (value) {
+                return formatter.format(value) + '%';
+            },
+        },
+  	},
+    xAxis: {
+        type: 'category',
+        data: ["VI.2024","VII.2024","VIII.2024","IX.2024","X.2024","XI.2024","XII.2024","I.2025","II.2025","III.2025","IV.2025","V.2025","VI.2025","VII.2025","VIII.2025","IX.2025","X.2025","XI.2025","XII.2025","I.2026","II.2026","III.2026","IV.2026","V.2026","VI.2026"],
+        axisLabel: {
+        	rotate: 90,
+            interval: 0,
+            formatter: function (value) {
+                return truncateMultibyteText(value, 15);
+            },
+		},
+	},
+	color: ["#55809E","#71BCDF","#5BA4D8","#88D5FE","#365D78","#58A7A9","#89BCBD","#C3D69B","#A55971","#E98A8A","#365D78","#55809E","#71BCDF","#5BA4D8","#88D5FE","#58A7A9","#89BCBD","#C3D69B","#A55971","#E98A8A"],
+	series: [{"name":"","type":"bar","data":[{"value":3.3,"label":{"position":"top"}},{"value":6.6,"label":{"position":"top"}},{"value":6.2,"label":{"position":"top"}},{"value":6.8,"label":{"position":"top"}},{"value":6.3,"label":{"position":"top"}},{"value":8,"label":{"position":"top"}},{"value":9.2,"label":{"position":"top"}},{"value":9.1,"label":{"position":"top"}},{"value":3.4,"label":{"position":"top"}},{"value":6.3,"label":{"position":"top"}},{"value":3.3,"label":{"position":"top"}},{"value":8.1,"label":{"position":"top"}},{"value":8.1,"label":{"position":"top"}},{"value":7.2,"label":{"position":"top"}},{"value":5.9,"label":{"position":"top"}},{"value":7.2,"label":{"position":"top"}},{"value":8.7,"label":{"position":"top"}},{"value":4.8,"label":{"position":"top"}},{"value":9,"label":{"position":"top"}},{"value":4.2,"label":{"position":"top"}},{"value":7.3,"label":{"position":"top"}},{"value":12.4,"label":{"position":"top"}},{"value":7.4,"label":{"position":"top"}},{"value":7.9,"label":{"position":"top"}},{"value":7.1,"label":{"position":"top"}}],"label":{"show":true,"position":"top","formatter":function(params) { return formatter.format(params.value) + '%'; }}}]};        chart.setOption(option);
+    })();
+    </script>
+    
+<script>
+(function($) {
+
+	'use strict';
+
+	/*
+	Thumb Gallery
+	*/
+	var $thumbGalleryDetail1 = $('#thumbGalleryDetail'),
+		$thumbGalleryThumbs1 = $('#thumbGalleryThumbs'),
+		flag = false,
+		duration = 300;
+
+	$thumbGalleryDetail1
+		.owlCarousel({
+			items: 1,
+			margin: 10,
+			nav: false,
+			dots: true,
+			loop: false,
+			navText: []
+		})
+		.on('changed.owl.carousel', function(e) {
+			if (!flag) {
+				flag = true;
+				$thumbGalleryThumbs1.trigger('to.owl.carousel', [e.item.index-1, duration, true]);
+				flag = false;
+			}
+		});
+
+	$thumbGalleryThumbs1
+		.owlCarousel({
+			margin: 10,
+			items:6,
+			nav: false,
+			center: false,
+			dots: false
+		})
+		.on('click', '.owl-item', function() {
+			$thumbGalleryDetail1.trigger('to.owl.carousel', [$(this).index(), duration, true]);
+		})
+		.on('changed.owl.carousel', function(e) {
+			if (!flag) {
+				flag = true;
+				$thumbGalleryDetail1.trigger('to.owl.carousel', [e.item.index, duration, true]);
+				flag = false;
+			}
+		});
+}).apply(this, [jQuery]);
+
+$('.left-menu-btn').on('click', function() {
+	$('.newsFilters').toggle();
+  });
+</script>
+
+            </body>
+</html>

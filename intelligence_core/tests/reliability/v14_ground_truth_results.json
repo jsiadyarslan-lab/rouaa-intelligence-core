@@ -1,0 +1,2840 @@
+{
+  "total_documents": 300,
+  "total_gt_facts": 1612,
+  "total_gt_events": 208,
+  "fact_tp": 267,
+  "fact_fp": 1,
+  "fact_fn": 414,
+  "event_tp": 36,
+  "event_fp": 2,
+  "event_fn": 172,
+  "fact_precision": 99.6,
+  "fact_recall": 39.2,
+  "event_precision": 94.7,
+  "event_recall": 17.3,
+  "error_taxonomy": {
+    "EVENT_PATTERN_GAP": 172,
+    "PATTERN_GAP": 389,
+    "LANGUAGE_GAP": 19,
+    "FALSE_POSITIVE_EVENT": 2,
+    "NAVIGATION_REJECTION": 6,
+    "FALSE_POSITIVE_FACT": 1
+  },
+  "disputed_events": [
+    {
+      "event_id": "evt-ecd70f3ae34ce3bb",
+      "event_type": "regulatory_enforcement",
+      "v6_reason": "missing required context patterns (1/2 matched)",
+      "v13_reason": "context valid (2/2)",
+      "adjudication": "TRUE_RECOVERY"
+    },
+    {
+      "event_id": "evt-c4426456acd78de1",
+      "event_type": "regulatory_enforcement",
+      "v6_reason": "missing required context patterns (1/2 matched)",
+      "v13_reason": "context valid (2/2)",
+      "adjudication": "TRUE_RECOVERY"
+    },
+    {
+      "event_id": "evt-a72c6db8c23e7f3f",
+      "event_type": "statistical_release",
+      "v6_reason": "missing required context patterns (1/2 matched)",
+      "v13_reason": "context valid (2/2)",
+      "adjudication": "FALSE_POSITIVE"
+    },
+    {
+      "event_id": "evt-834819ce943fc7e8",
+      "event_type": "statistical_release",
+      "v6_reason": "missing required context patterns (1/2 matched)",
+      "v13_reason": "context valid (2/2)",
+      "adjudication": "FALSE_POSITIVE"
+    },
+    {
+      "event_id": "evt-5dbed48f671636e8",
+      "event_type": "statistical_release",
+      "v6_reason": "missing required context patterns (1/2 matched)",
+      "v13_reason": "context valid (2/2)",
+      "adjudication": "NOT_IN_BENCHMARK"
+    },
+    {
+      "event_id": "evt-95d34d2c4810bdfb",
+      "event_type": "statistical_release",
+      "v6_reason": "missing required context patterns (1/2 matched)",
+      "v13_reason": "context valid (2/2)",
+      "adjudication": "NOT_IN_BENCHMARK"
+    },
+    {
+      "event_id": "evt-70af38beee2bd0aa",
+      "event_type": "regulatory_enforcement",
+      "v6_reason": "missing required context patterns (1/2 matched)",
+      "v13_reason": "context valid (2/2)",
+      "adjudication": "NOT_IN_BENCHMARK"
+    },
+    {
+      "event_id": "evt-3b08dba9a319f93d",
+      "event_type": "regulatory_enforcement",
+      "v6_reason": "missing required context patterns (1/2 matched)",
+      "v13_reason": "context valid (2/2)",
+      "adjudication": "NOT_IN_BENCHMARK"
+    },
+    {
+      "event_id": "evt-1e7675c35f6aab50",
+      "event_type": "regulatory_enforcement",
+      "v6_reason": "missing required context patterns (1/2 matched)",
+      "v13_reason": "context valid (2/2)",
+      "adjudication": "NOT_IN_BENCHMARK"
+    }
+  ],
+  "ground_truth": [
+    {
+      "doc_id": "doc-28d5f3203fc3ce7e",
+      "src_id": "imp-bea",
+      "language": "en",
+      "is_pdf": false,
+      "gt_facts_count": 0,
+      "gt_events": [
+        "statistical_release"
+      ]
+    },
+    {
+      "doc_id": "doc-7c5cd3967c2f9f10",
+      "src_id": "imp-bea",
+      "language": "en",
+      "is_pdf": false,
+      "gt_facts_count": 44,
+      "gt_events": [
+        "statistical_release"
+      ]
+    },
+    {
+      "doc_id": "doc-31841035c943c52f",
+      "src_id": "imp-bea",
+      "language": "en",
+      "is_pdf": false,
+      "gt_facts_count": 0,
+      "gt_events": [
+        "statistical_release"
+      ]
+    },
+    {
+      "doc_id": "doc-632f5af27cb8e177",
+      "src_id": "imp-eurostat",
+      "language": "en",
+      "is_pdf": false,
+      "gt_facts_count": 4,
+      "gt_events": []
+    },
+    {
+      "doc_id": "doc-ab8dbef146c79b7d",
+      "src_id": "imp-eurostat",
+      "language": "en",
+      "is_pdf": false,
+      "gt_facts_count": 9,
+      "gt_events": []
+    },
+    {
+      "doc_id": "doc-584efdd36f10b9b3",
+      "src_id": "imp-stat-japan",
+      "language": "ja",
+      "is_pdf": false,
+      "gt_facts_count": 0,
+      "gt_events": []
+    },
+    {
+      "doc_id": "doc-8a51dd7e705f3eed",
+      "src_id": "imp-stat-japan",
+      "language": "ja",
+      "is_pdf": false,
+      "gt_facts_count": 0,
+      "gt_events": []
+    },
+    {
+      "doc_id": "doc-bc688bb1de5c18b4",
+      "src_id": "imp-stats-china",
+      "language": "zh",
+      "is_pdf": false,
+      "gt_facts_count": 0,
+      "gt_events": []
+    },
+    {
+      "doc_id": "doc-b653e9b41643b715",
+      "src_id": "imp-stats-china",
+      "language": "zh",
+      "is_pdf": false,
+      "gt_facts_count": 0,
+      "gt_events": []
+    },
+    {
+      "doc_id": "doc-c6c5da1c84d4b830",
+      "src_id": "imp-stats-china",
+      "language": "zh",
+      "is_pdf": false,
+      "gt_facts_count": 0,
+      "gt_events": []
+    },
+    {
+      "doc_id": "doc-fd4e4b2ac67cbbe5",
+      "src_id": "imp-bea",
+      "language": "en",
+      "is_pdf": false,
+      "gt_facts_count": 0,
+      "gt_events": [
+        "statistical_release"
+      ]
+    },
+    {
+      "doc_id": "doc-e87cf2e59f5141bc",
+      "src_id": "imp-bea",
+      "language": "en",
+      "is_pdf": false,
+      "gt_facts_count": 0,
+      "gt_events": [
+        "statistical_release"
+      ]
+    },
+    {
+      "doc_id": "doc-617682784edc7c1c",
+      "src_id": "imp-eurostat",
+      "language": "en",
+      "is_pdf": false,
+      "gt_facts_count": 0,
+      "gt_events": []
+    },
+    {
+      "doc_id": "doc-2186483658e6e5a4",
+      "src_id": "imp-eurostat",
+      "language": "en",
+      "is_pdf": false,
+      "gt_facts_count": 0,
+      "gt_events": [
+        "statistical_release"
+      ]
+    },
+    {
+      "doc_id": "doc-7eafb0e5382d524a",
+      "src_id": "imp-eurostat",
+      "language": "en",
+      "is_pdf": false,
+      "gt_facts_count": 27,
+      "gt_events": [
+        "statistical_release"
+      ]
+    },
+    {
+      "doc_id": "doc-01640f17fa63572b",
+      "src_id": "imp-stats-china",
+      "language": "zh",
+      "is_pdf": false,
+      "gt_facts_count": 0,
+      "gt_events": []
+    },
+    {
+      "doc_id": "doc-c5a7dcf7ff63b5bc",
+      "src_id": "imp-stats-china",
+      "language": "zh",
+      "is_pdf": false,
+      "gt_facts_count": 0,
+      "gt_events": []
+    },
+    {
+      "doc_id": "doc-61624c417d639958",
+      "src_id": "src-istat",
+      "language": "en",
+      "is_pdf": false,
+      "gt_facts_count": 0,
+      "gt_events": []
+    },
+    {
+      "doc_id": "doc-006115d8fbdce6fb",
+      "src_id": "src-istat",
+      "language": "en",
+      "is_pdf": false,
+      "gt_facts_count": 45,
+      "gt_events": []
+    },
+    {
+      "doc_id": "doc-508c1c7c89272ab9",
+      "src_id": "src-istat",
+      "language": "en",
+      "is_pdf": false,
+      "gt_facts_count": 0,
+      "gt_events": []
+    },
+    {
+      "doc_id": "doc-bd2d61296484fe8f",
+      "src_id": "src-istat",
+      "language": "en",
+      "is_pdf": false,
+      "gt_facts_count": 4,
+      "gt_events": []
+    },
+    {
+      "doc_id": "doc-4be8bb6ef0487071",
+      "src_id": "src-istat",
+      "language": "en",
+      "is_pdf": false,
+      "gt_facts_count": 38,
+      "gt_events": []
+    },
+    {
+      "doc_id": "doc-05e27a5e51522eb3",
+      "src_id": "src-eurostat-emp",
+      "language": "en",
+      "is_pdf": false,
+      "gt_facts_count": 0,
+      "gt_events": []
+    },
+    {
+      "doc_id": "doc-9009073715abef71",
+      "src_id": "src-eurostat-emp",
+      "language": "en",
+      "is_pdf": false,
+      "gt_facts_count": 16,
+      "gt_events": [
+        "statistical_release"
+      ]
+    },
+    {
+      "doc_id": "doc-e78adff59e79dfc9",
+      "src_id": "src-eurostat-emp",
+      "language": "en",
+      "is_pdf": false,
+      "gt_facts_count": 0,
+      "gt_events": []
+    },
+    {
+      "doc_id": "doc-c03b8f831ba5d044",
+      "src_id": "src-eurostat-emp",
+      "language": "en",
+      "is_pdf": false,
+      "gt_facts_count": 0,
+      "gt_events": []
+    },
+    {
+      "doc_id": "doc-073788e20a39fc0c",
+      "src_id": "src-eurostat-emp",
+      "language": "en",
+      "is_pdf": false,
+      "gt_facts_count": 0,
+      "gt_events": []
+    },
+    {
+      "doc_id": "doc-a075072373749354",
+      "src_id": "src-nbu-ukraine",
+      "language": "ru",
+      "is_pdf": false,
+      "gt_facts_count": 1,
+      "gt_events": []
+    },
+    {
+      "doc_id": "doc-a273ba2b5044ffcf",
+      "src_id": "src-nbu-ukraine",
+      "language": "ru",
+      "is_pdf": false,
+      "gt_facts_count": 2,
+      "gt_events": []
+    },
+    {
+      "doc_id": "doc-3213242beb1222fa",
+      "src_id": "src-nbu-ukraine",
+      "language": "ru",
+      "is_pdf": false,
+      "gt_facts_count": 1,
+      "gt_events": []
+    },
+    {
+      "doc_id": "doc-af3ca30800c4cca5",
+      "src_id": "src-nbu-ukraine",
+      "language": "ru",
+      "is_pdf": false,
+      "gt_facts_count": 1,
+      "gt_events": []
+    },
+    {
+      "doc_id": "doc-82f37c7a4b30b42b",
+      "src_id": "src-nbu-ukraine",
+      "language": "ru",
+      "is_pdf": false,
+      "gt_facts_count": 2,
+      "gt_events": []
+    },
+    {
+      "doc_id": "doc-77033ce268c53d1e",
+      "src_id": "src-mof-philippines",
+      "language": "en",
+      "is_pdf": false,
+      "gt_facts_count": 0,
+      "gt_events": [
+        "statistical_release"
+      ]
+    },
+    {
+      "doc_id": "doc-7868506a9af84aad",
+      "src_id": "src-mof-philippines",
+      "language": "en",
+      "is_pdf": false,
+      "gt_facts_count": 0,
+      "gt_events": []
+    },
+    {
+      "doc_id": "doc-5687e9f619db1850",
+      "src_id": "src-mof-philippines",
+      "language": "en",
+      "is_pdf": false,
+      "gt_facts_count": 5,
+      "gt_events": []
+    },
+    {
+      "doc_id": "doc-22461fb787426a7b",
+      "src_id": "src-ine-chile",
+      "language": "unknown",
+      "is_pdf": false,
+      "gt_facts_count": 0,
+      "gt_events": []
+    },
+    {
+      "doc_id": "doc-3c78c920fe89e689",
+      "src_id": "src-eurostat-agri",
+      "language": "en",
+      "is_pdf": false,
+      "gt_facts_count": 4,
+      "gt_events": [
+        "statistical_release"
+      ]
+    },
+    {
+      "doc_id": "doc-bda03277aa1bba1f",
+      "src_id": "src-eurostat-agri",
+      "language": "en",
+      "is_pdf": false,
+      "gt_facts_count": 0,
+      "gt_events": []
+    },
+    {
+      "doc_id": "doc-0da8ba073c6314c5",
+      "src_id": "src-ine-chile",
+      "language": "unknown",
+      "is_pdf": false,
+      "gt_facts_count": 0,
+      "gt_events": []
+    },
+    {
+      "doc_id": "doc-cc10a6c194e5435b",
+      "src_id": "src-eurostat-agri",
+      "language": "en",
+      "is_pdf": false,
+      "gt_facts_count": 27,
+      "gt_events": [
+        "statistical_release"
+      ]
+    },
+    {
+      "doc_id": "doc-a38db0e71ecea0b4",
+      "src_id": "src-eurostat-agri",
+      "language": "en",
+      "is_pdf": false,
+      "gt_facts_count": 0,
+      "gt_events": []
+    },
+    {
+      "doc_id": "doc-bd3dc524ca677680",
+      "src_id": "src-eurostat-agri",
+      "language": "en",
+      "is_pdf": false,
+      "gt_facts_count": 0,
+      "gt_events": [
+        "statistical_release"
+      ]
+    },
+    {
+      "doc_id": "doc-355e5db8d90694fe",
+      "src_id": "src-stat-austria",
+      "language": "en",
+      "is_pdf": false,
+      "gt_facts_count": 0,
+      "gt_events": []
+    },
+    {
+      "doc_id": "doc-a72c0918e27dd12b",
+      "src_id": "src-stat-austria",
+      "language": "en",
+      "is_pdf": false,
+      "gt_facts_count": 317,
+      "gt_events": []
+    },
+    {
+      "doc_id": "doc-ca65a7def6b51801",
+      "src_id": "src-stat-austria",
+      "language": "en",
+      "is_pdf": false,
+      "gt_facts_count": 0,
+      "gt_events": []
+    },
+    {
+      "doc_id": "doc-47122c3552cd82da",
+      "src_id": "src-stat-austria",
+      "language": "en",
+      "is_pdf": false,
+      "gt_facts_count": 0,
+      "gt_events": []
+    },
+    {
+      "doc_id": "doc-10a47513a0b1d617",
+      "src_id": "src-stat-denmark",
+      "language": "en",
+      "is_pdf": false,
+      "gt_facts_count": 0,
+      "gt_events": []
+    },
+    {
+      "doc_id": "doc-cffa0c0ad40e8f6d",
+      "src_id": "src-stat-turkey",
+      "language": "en",
+      "is_pdf": false,
+      "gt_facts_count": 0,
+      "gt_events": []
+    },
+    {
+      "doc_id": "doc-d08483efeb6d9d81",
+      "src_id": "src-stat-latvia",
+      "language": "en",
+      "is_pdf": false,
+      "gt_facts_count": 0,
+      "gt_events": []
+    },
+    {
+      "doc_id": "doc-e24a26033245a0fc",
+      "src_id": "src-stat-latvia",
+      "language": "en",
+      "is_pdf": false,
+      "gt_facts_count": 0,
+      "gt_events": []
+    },
+    {
+      "doc_id": "doc-a243d3728569d675",
+      "src_id": "src-stat-latvia",
+      "language": "en",
+      "is_pdf": false,
+      "gt_facts_count": 0,
+      "gt_events": []
+    },
+    {
+      "doc_id": "doc-ea5b56a8726f20f3",
+      "src_id": "src-beac2",
+      "language": "en",
+      "is_pdf": false,
+      "gt_facts_count": 0,
+      "gt_events": []
+    },
+    {
+      "doc_id": "doc-6c89a510bef9dbc0",
+      "src_id": "src-beac2",
+      "language": "en",
+      "is_pdf": false,
+      "gt_facts_count": 0,
+      "gt_events": []
+    },
+    {
+      "doc_id": "doc-7b5c01d42fea5a77",
+      "src_id": "src-beac2",
+      "language": "en",
+      "is_pdf": false,
+      "gt_facts_count": 0,
+      "gt_events": []
+    },
+    {
+      "doc_id": "doc-cc3f5f29684b1427",
+      "src_id": "src-beac2",
+      "language": "en",
+      "is_pdf": false,
+      "gt_facts_count": 0,
+      "gt_events": []
+    },
+    {
+      "doc_id": "doc-2af2f6698f309258",
+      "src_id": "src-beac2",
+      "language": "en",
+      "is_pdf": false,
+      "gt_facts_count": 0,
+      "gt_events": []
+    },
+    {
+      "doc_id": "doc-ddc7dc3776ddac6e",
+      "src_id": "imp-bea",
+      "language": "en",
+      "is_pdf": false,
+      "gt_facts_count": 0,
+      "gt_events": [
+        "statistical_release"
+      ]
+    },
+    {
+      "doc_id": "doc-9464f7b088e5ec1c",
+      "src_id": "imp-bea",
+      "language": "en",
+      "is_pdf": false,
+      "gt_facts_count": 0,
+      "gt_events": [
+        "statistical_release"
+      ]
+    },
+    {
+      "doc_id": "doc-040b455073a77c4e",
+      "src_id": "imp-bea",
+      "language": "en",
+      "is_pdf": false,
+      "gt_facts_count": 0,
+      "gt_events": [
+        "statistical_release"
+      ]
+    },
+    {
+      "doc_id": "doc-17483ba14a0767ec",
+      "src_id": "imp-bea",
+      "language": "en",
+      "is_pdf": false,
+      "gt_facts_count": 0,
+      "gt_events": []
+    },
+    {
+      "doc_id": "doc-9f36c06184aac596",
+      "src_id": "imp-bea",
+      "language": "en",
+      "is_pdf": false,
+      "gt_facts_count": 0,
+      "gt_events": [
+        "statistical_release"
+      ]
+    },
+    {
+      "doc_id": "doc-e1a36c80a03e5163",
+      "src_id": "imp-eurostat",
+      "language": "en",
+      "is_pdf": false,
+      "gt_facts_count": 30,
+      "gt_events": [
+        "statistical_release"
+      ]
+    },
+    {
+      "doc_id": "doc-15a296428c8e2245",
+      "src_id": "imp-eurostat",
+      "language": "en",
+      "is_pdf": false,
+      "gt_facts_count": 2,
+      "gt_events": [
+        "statistical_release",
+        "regulatory_enforcement"
+      ]
+    },
+    {
+      "doc_id": "doc-4a81c7ad2e6dd48b",
+      "src_id": "imp-eurostat",
+      "language": "en",
+      "is_pdf": false,
+      "gt_facts_count": 0,
+      "gt_events": [
+        "statistical_release"
+      ]
+    },
+    {
+      "doc_id": "doc-4cb924c6e5be939d",
+      "src_id": "imp-eurostat",
+      "language": "en",
+      "is_pdf": false,
+      "gt_facts_count": 0,
+      "gt_events": []
+    },
+    {
+      "doc_id": "doc-ebc25b7095fb48a8",
+      "src_id": "imp-stats-china",
+      "language": "zh",
+      "is_pdf": false,
+      "gt_facts_count": 0,
+      "gt_events": []
+    },
+    {
+      "doc_id": "doc-81a678aa78e4782d",
+      "src_id": "imp-stats-china",
+      "language": "zh",
+      "is_pdf": false,
+      "gt_facts_count": 0,
+      "gt_events": []
+    },
+    {
+      "doc_id": "doc-6a5080876f147da8",
+      "src_id": "imp-stats-china",
+      "language": "zh",
+      "is_pdf": false,
+      "gt_facts_count": 9,
+      "gt_events": []
+    },
+    {
+      "doc_id": "doc-3ac77b5a90f6e905",
+      "src_id": "imp-stats-china",
+      "language": "zh",
+      "is_pdf": false,
+      "gt_facts_count": 0,
+      "gt_events": []
+    },
+    {
+      "doc_id": "doc-a34d49377327dddd",
+      "src_id": "imp-stats-china",
+      "language": "zh",
+      "is_pdf": false,
+      "gt_facts_count": 0,
+      "gt_events": []
+    },
+    {
+      "doc_id": "doc-8700a0859c829c44",
+      "src_id": "imp-bea",
+      "language": "en",
+      "is_pdf": false,
+      "gt_facts_count": 139,
+      "gt_events": [
+        "statistical_release",
+        "regulatory_enforcement"
+      ]
+    },
+    {
+      "doc_id": "doc-9d7146f970cd6602",
+      "src_id": "imp-bea",
+      "language": "en",
+      "is_pdf": false,
+      "gt_facts_count": 13,
+      "gt_events": [
+        "statistical_release"
+      ]
+    },
+    {
+      "doc_id": "doc-5a0547ffcaa7a57e",
+      "src_id": "imp-bea",
+      "language": "en",
+      "is_pdf": false,
+      "gt_facts_count": 19,
+      "gt_events": [
+        "statistical_release"
+      ]
+    },
+    {
+      "doc_id": "doc-e96dc7902ddcfa54",
+      "src_id": "imp-bea",
+      "language": "en",
+      "is_pdf": false,
+      "gt_facts_count": 36,
+      "gt_events": []
+    },
+    {
+      "doc_id": "doc-93c89f0c3311c178",
+      "src_id": "imp-bea",
+      "language": "en",
+      "is_pdf": false,
+      "gt_facts_count": 12,
+      "gt_events": []
+    },
+    {
+      "doc_id": "doc-9a2c3554bf239005",
+      "src_id": "imp-sec",
+      "language": "en",
+      "is_pdf": false,
+      "gt_facts_count": 12,
+      "gt_events": [
+        "regulatory_enforcement"
+      ]
+    },
+    {
+      "doc_id": "doc-fa4e9cecec3e8d7d",
+      "src_id": "imp-sec",
+      "language": "en",
+      "is_pdf": false,
+      "gt_facts_count": 11,
+      "gt_events": [
+        "regulatory_enforcement"
+      ]
+    },
+    {
+      "doc_id": "doc-607891ddb7eae21c",
+      "src_id": "imp-sec",
+      "language": "en",
+      "is_pdf": false,
+      "gt_facts_count": 5,
+      "gt_events": [
+        "regulatory_enforcement"
+      ]
+    },
+    {
+      "doc_id": "doc-c35a0a455e177d33",
+      "src_id": "imp-cftc",
+      "language": "en",
+      "is_pdf": false,
+      "gt_facts_count": 4,
+      "gt_events": []
+    },
+    {
+      "doc_id": "doc-46caff36d4e54faa",
+      "src_id": "imp-cftc",
+      "language": "en",
+      "is_pdf": false,
+      "gt_facts_count": 0,
+      "gt_events": []
+    },
+    {
+      "doc_id": "doc-6365790354fd7f31",
+      "src_id": "imp-cftc",
+      "language": "en",
+      "is_pdf": false,
+      "gt_facts_count": 0,
+      "gt_events": []
+    },
+    {
+      "doc_id": "doc-4af3271a80d211ac",
+      "src_id": "imp-esma",
+      "language": "en",
+      "is_pdf": false,
+      "gt_facts_count": 1,
+      "gt_events": [
+        "regulatory_enforcement"
+      ]
+    },
+    {
+      "doc_id": "doc-5a0d604dbdfb38d7",
+      "src_id": "imp-esma",
+      "language": "en",
+      "is_pdf": false,
+      "gt_facts_count": 1,
+      "gt_events": [
+        "regulatory_enforcement"
+      ]
+    },
+    {
+      "doc_id": "doc-feed6a6cbc4d4c7b",
+      "src_id": "imp-esma",
+      "language": "en",
+      "is_pdf": false,
+      "gt_facts_count": 1,
+      "gt_events": [
+        "regulatory_enforcement"
+      ]
+    },
+    {
+      "doc_id": "doc-773084bf36ee6077",
+      "src_id": "imp-fca",
+      "language": "en",
+      "is_pdf": false,
+      "gt_facts_count": 0,
+      "gt_events": [
+        "monetary_policy_decision"
+      ]
+    },
+    {
+      "doc_id": "doc-b72c1ee4a05de89b",
+      "src_id": "imp-fca",
+      "language": "en",
+      "is_pdf": false,
+      "gt_facts_count": 6,
+      "gt_events": [
+        "monetary_policy_decision",
+        "regulatory_enforcement"
+      ]
+    },
+    {
+      "doc_id": "doc-ef790d13880c21e9",
+      "src_id": "imp-fca",
+      "language": "en",
+      "is_pdf": false,
+      "gt_facts_count": 31,
+      "gt_events": [
+        "monetary_policy_decision",
+        "statistical_release",
+        "regulatory_enforcement"
+      ]
+    },
+    {
+      "doc_id": "doc-4d80948d5f8cdb57",
+      "src_id": "imp-consob",
+      "language": "en",
+      "is_pdf": false,
+      "gt_facts_count": 0,
+      "gt_events": []
+    },
+    {
+      "doc_id": "doc-4f8bb76e8e3f8c36",
+      "src_id": "imp-consob",
+      "language": "en",
+      "is_pdf": false,
+      "gt_facts_count": 0,
+      "gt_events": []
+    },
+    {
+      "doc_id": "doc-1c9e1bbeb9e7eb51",
+      "src_id": "imp-sec",
+      "language": "en",
+      "is_pdf": false,
+      "gt_facts_count": 0,
+      "gt_events": []
+    },
+    {
+      "doc_id": "doc-b49643d97ea1e348",
+      "src_id": "imp-sec",
+      "language": "en",
+      "is_pdf": false,
+      "gt_facts_count": 0,
+      "gt_events": []
+    },
+    {
+      "doc_id": "doc-881ce0fe2b2ed569",
+      "src_id": "imp-cftc",
+      "language": "en",
+      "is_pdf": false,
+      "gt_facts_count": 0,
+      "gt_events": [
+        "statistical_release"
+      ]
+    },
+    {
+      "doc_id": "doc-982ed01d055635b2",
+      "src_id": "imp-cftc",
+      "language": "en",
+      "is_pdf": false,
+      "gt_facts_count": 0,
+      "gt_events": []
+    },
+    {
+      "doc_id": "doc-9ccd1716031e5939",
+      "src_id": "imp-esma",
+      "language": "en",
+      "is_pdf": false,
+      "gt_facts_count": 2,
+      "gt_events": [
+        "regulatory_enforcement"
+      ]
+    },
+    {
+      "doc_id": "doc-708c6cc84dc76280",
+      "src_id": "imp-esma",
+      "language": "en",
+      "is_pdf": false,
+      "gt_facts_count": 1,
+      "gt_events": [
+        "regulatory_enforcement"
+      ]
+    },
+    {
+      "doc_id": "doc-fb6bb0f100c7649b",
+      "src_id": "imp-fca",
+      "language": "en",
+      "is_pdf": false,
+      "gt_facts_count": 0,
+      "gt_events": [
+        "monetary_policy_decision"
+      ]
+    },
+    {
+      "doc_id": "doc-0070e8ab5c7c0e62",
+      "src_id": "imp-fca",
+      "language": "en",
+      "is_pdf": false,
+      "gt_facts_count": 0,
+      "gt_events": [
+        "monetary_policy_decision"
+      ]
+    },
+    {
+      "doc_id": "doc-7b6c40a38ca3602a",
+      "src_id": "src-bmfca-canada",
+      "language": "en",
+      "is_pdf": false,
+      "gt_facts_count": 0,
+      "gt_events": []
+    },
+    {
+      "doc_id": "doc-fdc6fd713b5b4fe4",
+      "src_id": "src-bmfca-canada",
+      "language": "en",
+      "is_pdf": false,
+      "gt_facts_count": 0,
+      "gt_events": []
+    },
+    {
+      "doc_id": "doc-e46a35f1f5d4b2e0",
+      "src_id": "src-bmfca-canada",
+      "language": "en",
+      "is_pdf": false,
+      "gt_facts_count": 0,
+      "gt_events": []
+    },
+    {
+      "doc_id": "doc-df396985caaaeead",
+      "src_id": "src-bmfca-canada",
+      "language": "en",
+      "is_pdf": false,
+      "gt_facts_count": 0,
+      "gt_events": []
+    },
+    {
+      "doc_id": "doc-5d0b92aa91d3c9e0",
+      "src_id": "src-bmfca-canada",
+      "language": "en",
+      "is_pdf": false,
+      "gt_facts_count": 0,
+      "gt_events": []
+    },
+    {
+      "doc_id": "doc-d22a4cde2105134b",
+      "src_id": "src-naic-us",
+      "language": "en",
+      "is_pdf": false,
+      "gt_facts_count": 0,
+      "gt_events": [
+        "statistical_release"
+      ]
+    },
+    {
+      "doc_id": "doc-49401aaf4cb8f90c",
+      "src_id": "src-naic-us",
+      "language": "en",
+      "is_pdf": false,
+      "gt_facts_count": 6,
+      "gt_events": [
+        "statistical_release"
+      ]
+    },
+    {
+      "doc_id": "doc-3802c7674b23f4c6",
+      "src_id": "src-naic-us",
+      "language": "en",
+      "is_pdf": false,
+      "gt_facts_count": 1,
+      "gt_events": [
+        "statistical_release"
+      ]
+    },
+    {
+      "doc_id": "doc-f94cf4ac9a651f4c",
+      "src_id": "src-naic-us",
+      "language": "en",
+      "is_pdf": false,
+      "gt_facts_count": 0,
+      "gt_events": []
+    },
+    {
+      "doc_id": "doc-31270f0e83371c52",
+      "src_id": "imp-sec",
+      "language": "en",
+      "is_pdf": false,
+      "gt_facts_count": 1,
+      "gt_events": [
+        "statistical_release",
+        "regulatory_enforcement"
+      ]
+    },
+    {
+      "doc_id": "doc-2c242017eb037b99",
+      "src_id": "imp-sec",
+      "language": "en",
+      "is_pdf": false,
+      "gt_facts_count": 0,
+      "gt_events": []
+    },
+    {
+      "doc_id": "doc-c91a9af0b9e3af7f",
+      "src_id": "imp-sec",
+      "language": "en",
+      "is_pdf": false,
+      "gt_facts_count": 0,
+      "gt_events": []
+    },
+    {
+      "doc_id": "doc-50e5a44f55dcb314",
+      "src_id": "imp-sec",
+      "language": "en",
+      "is_pdf": false,
+      "gt_facts_count": 0,
+      "gt_events": [
+        "statistical_release"
+      ]
+    },
+    {
+      "doc_id": "doc-a5daa8f4133faf62",
+      "src_id": "imp-sec",
+      "language": "en",
+      "is_pdf": false,
+      "gt_facts_count": 0,
+      "gt_events": []
+    },
+    {
+      "doc_id": "doc-be4eab782f512cc3",
+      "src_id": "imp-cftc",
+      "language": "en",
+      "is_pdf": false,
+      "gt_facts_count": 0,
+      "gt_events": []
+    },
+    {
+      "doc_id": "doc-f83c00b474a5deed",
+      "src_id": "imp-cftc",
+      "language": "en",
+      "is_pdf": false,
+      "gt_facts_count": 0,
+      "gt_events": []
+    },
+    {
+      "doc_id": "doc-a6331135eddf955b",
+      "src_id": "imp-cftc",
+      "language": "en",
+      "is_pdf": false,
+      "gt_facts_count": 1,
+      "gt_events": []
+    },
+    {
+      "doc_id": "doc-00c1c3e3f6e4d5ec",
+      "src_id": "imp-cftc",
+      "language": "en",
+      "is_pdf": false,
+      "gt_facts_count": 6,
+      "gt_events": [
+        "regulatory_enforcement"
+      ]
+    },
+    {
+      "doc_id": "doc-0703ce761c4d610b",
+      "src_id": "imp-cftc",
+      "language": "en",
+      "is_pdf": false,
+      "gt_facts_count": 0,
+      "gt_events": []
+    },
+    {
+      "doc_id": "doc-df48a4c1d05c75f2",
+      "src_id": "imp-esma",
+      "language": "en",
+      "is_pdf": false,
+      "gt_facts_count": 6,
+      "gt_events": [
+        "regulatory_enforcement"
+      ]
+    },
+    {
+      "doc_id": "doc-c563b94166f8c3f3",
+      "src_id": "imp-esma",
+      "language": "en",
+      "is_pdf": false,
+      "gt_facts_count": 1,
+      "gt_events": [
+        "regulatory_enforcement"
+      ]
+    },
+    {
+      "doc_id": "doc-17e61e8f13f535b3",
+      "src_id": "imp-esma",
+      "language": "en",
+      "is_pdf": false,
+      "gt_facts_count": 1,
+      "gt_events": [
+        "regulatory_enforcement"
+      ]
+    },
+    {
+      "doc_id": "doc-0a73b65236f87f19",
+      "src_id": "imp-esma",
+      "language": "en",
+      "is_pdf": false,
+      "gt_facts_count": 1,
+      "gt_events": [
+        "regulatory_enforcement"
+      ]
+    },
+    {
+      "doc_id": "doc-116ab80aa3fbec96",
+      "src_id": "imp-esma",
+      "language": "en",
+      "is_pdf": false,
+      "gt_facts_count": 1,
+      "gt_events": [
+        "regulatory_enforcement"
+      ]
+    },
+    {
+      "doc_id": "doc-8e6181a1c3297bef",
+      "src_id": "imp-fca",
+      "language": "en",
+      "is_pdf": false,
+      "gt_facts_count": 0,
+      "gt_events": [
+        "monetary_policy_decision"
+      ]
+    },
+    {
+      "doc_id": "doc-8046ed13c593d000",
+      "src_id": "imp-fca",
+      "language": "en",
+      "is_pdf": false,
+      "gt_facts_count": 0,
+      "gt_events": [
+        "monetary_policy_decision"
+      ]
+    },
+    {
+      "doc_id": "doc-b6a3b4fd764791c8",
+      "src_id": "imp-fca",
+      "language": "en",
+      "is_pdf": false,
+      "gt_facts_count": 3,
+      "gt_events": [
+        "monetary_policy_decision",
+        "regulatory_enforcement"
+      ]
+    },
+    {
+      "doc_id": "doc-361ea7bf66de3730",
+      "src_id": "imp-fca",
+      "language": "en",
+      "is_pdf": false,
+      "gt_facts_count": 0,
+      "gt_events": [
+        "monetary_policy_decision"
+      ]
+    },
+    {
+      "doc_id": "doc-ca152425a012e1e3",
+      "src_id": "imp-fca",
+      "language": "en",
+      "is_pdf": false,
+      "gt_facts_count": 0,
+      "gt_events": [
+        "monetary_policy_decision"
+      ]
+    },
+    {
+      "doc_id": "doc-d2b8570ec39977f4",
+      "src_id": "imp-cftc",
+      "language": "en",
+      "is_pdf": false,
+      "gt_facts_count": 0,
+      "gt_events": []
+    },
+    {
+      "doc_id": "doc-5d55c41d98f4dd08",
+      "src_id": "imp-cftc",
+      "language": "en",
+      "is_pdf": false,
+      "gt_facts_count": 1,
+      "gt_events": [
+        "monetary_policy_decision",
+        "statistical_release"
+      ]
+    },
+    {
+      "doc_id": "doc-f7a28f15d3317b9f",
+      "src_id": "imp-cftc",
+      "language": "en",
+      "is_pdf": false,
+      "gt_facts_count": 0,
+      "gt_events": [
+        "statistical_release"
+      ]
+    },
+    {
+      "doc_id": "doc-c5653fef34eb6a1d",
+      "src_id": "imp-cftc",
+      "language": "en",
+      "is_pdf": false,
+      "gt_facts_count": 0,
+      "gt_events": [
+        "monetary_policy_decision"
+      ]
+    },
+    {
+      "doc_id": "doc-ed188835a08b0161",
+      "src_id": "imp-cftc",
+      "language": "en",
+      "is_pdf": false,
+      "gt_facts_count": 0,
+      "gt_events": []
+    },
+    {
+      "doc_id": "doc-09cefa8413a24efc",
+      "src_id": "imp-cftc",
+      "language": "en",
+      "is_pdf": false,
+      "gt_facts_count": 1,
+      "gt_events": []
+    },
+    {
+      "doc_id": "doc-a9e4e5bb046314bf",
+      "src_id": "imp-cftc",
+      "language": "en",
+      "is_pdf": false,
+      "gt_facts_count": 0,
+      "gt_events": []
+    },
+    {
+      "doc_id": "doc-b47084d7e7c4f9cd",
+      "src_id": "imp-cftc",
+      "language": "en",
+      "is_pdf": false,
+      "gt_facts_count": 0,
+      "gt_events": []
+    },
+    {
+      "doc_id": "doc-523272d5b4944336",
+      "src_id": "imp-cftc",
+      "language": "en",
+      "is_pdf": false,
+      "gt_facts_count": 0,
+      "gt_events": []
+    },
+    {
+      "doc_id": "doc-11fe45958fe1580b",
+      "src_id": "imp-cftc",
+      "language": "en",
+      "is_pdf": false,
+      "gt_facts_count": 0,
+      "gt_events": []
+    },
+    {
+      "doc_id": "doc-cb697730df7bfe66",
+      "src_id": "imp-fca",
+      "language": "en",
+      "is_pdf": false,
+      "gt_facts_count": 3,
+      "gt_events": [
+        "monetary_policy_decision",
+        "regulatory_enforcement"
+      ]
+    },
+    {
+      "doc_id": "doc-4948ce14a03b3c19",
+      "src_id": "imp-fca",
+      "language": "en",
+      "is_pdf": false,
+      "gt_facts_count": 1,
+      "gt_events": [
+        "monetary_policy_decision",
+        "statistical_release"
+      ]
+    },
+    {
+      "doc_id": "doc-9a712ccb39c76784",
+      "src_id": "imp-fca",
+      "language": "en",
+      "is_pdf": false,
+      "gt_facts_count": 4,
+      "gt_events": [
+        "monetary_policy_decision",
+        "regulatory_enforcement"
+      ]
+    },
+    {
+      "doc_id": "doc-84f7e6fd6439aaf2",
+      "src_id": "imp-fca",
+      "language": "en",
+      "is_pdf": false,
+      "gt_facts_count": 2,
+      "gt_events": [
+        "monetary_policy_decision"
+      ]
+    },
+    {
+      "doc_id": "doc-84919d04d9ff13ff",
+      "src_id": "imp-fca",
+      "language": "en",
+      "is_pdf": false,
+      "gt_facts_count": 1,
+      "gt_events": [
+        "monetary_policy_decision"
+      ]
+    },
+    {
+      "doc_id": "doc-f88cf6158c0a0c31",
+      "src_id": "imp-fca",
+      "language": "en",
+      "is_pdf": false,
+      "gt_facts_count": 0,
+      "gt_events": [
+        "monetary_policy_decision"
+      ]
+    },
+    {
+      "doc_id": "doc-c142deb417c8fbf2",
+      "src_id": "imp-fca",
+      "language": "en",
+      "is_pdf": false,
+      "gt_facts_count": 0,
+      "gt_events": [
+        "monetary_policy_decision"
+      ]
+    },
+    {
+      "doc_id": "doc-60e8e4990db38b6b",
+      "src_id": "imp-fca",
+      "language": "en",
+      "is_pdf": false,
+      "gt_facts_count": 4,
+      "gt_events": [
+        "monetary_policy_decision",
+        "statistical_release"
+      ]
+    },
+    {
+      "doc_id": "doc-e63a81b7ed33ab0d",
+      "src_id": "imp-fca",
+      "language": "en",
+      "is_pdf": false,
+      "gt_facts_count": 1,
+      "gt_events": [
+        "monetary_policy_decision",
+        "regulatory_enforcement"
+      ]
+    },
+    {
+      "doc_id": "doc-76db58a41348002b",
+      "src_id": "imp-fca",
+      "language": "en",
+      "is_pdf": false,
+      "gt_facts_count": 2,
+      "gt_events": [
+        "monetary_policy_decision",
+        "regulatory_enforcement"
+      ]
+    },
+    {
+      "doc_id": "doc-f0ecce5ed3d8e413",
+      "src_id": "imp-sec",
+      "language": "en",
+      "is_pdf": false,
+      "gt_facts_count": 0,
+      "gt_events": []
+    },
+    {
+      "doc_id": "doc-cf69615a5dc96b4e",
+      "src_id": "imp-sec",
+      "language": "en",
+      "is_pdf": false,
+      "gt_facts_count": 0,
+      "gt_events": []
+    },
+    {
+      "doc_id": "doc-70fe5c71e2590b5e",
+      "src_id": "imp-sec",
+      "language": "en",
+      "is_pdf": false,
+      "gt_facts_count": 0,
+      "gt_events": []
+    },
+    {
+      "doc_id": "doc-ec7294b428eb2138",
+      "src_id": "imp-sec",
+      "language": "en",
+      "is_pdf": false,
+      "gt_facts_count": 0,
+      "gt_events": []
+    },
+    {
+      "doc_id": "doc-ac00651c0093d6f9",
+      "src_id": "imp-ecb",
+      "language": "en",
+      "is_pdf": false,
+      "gt_facts_count": 9,
+      "gt_events": [
+        "monetary_policy_decision",
+        "statistical_release"
+      ]
+    },
+    {
+      "doc_id": "doc-737e4fff6a05c09d",
+      "src_id": "imp-ecb",
+      "language": "en",
+      "is_pdf": false,
+      "gt_facts_count": 1,
+      "gt_events": [
+        "monetary_policy_decision",
+        "statistical_release"
+      ]
+    },
+    {
+      "doc_id": "doc-5ecb669f6f2ea51a",
+      "src_id": "imp-bank-of-england",
+      "language": "en",
+      "is_pdf": false,
+      "gt_facts_count": 2,
+      "gt_events": [
+        "monetary_policy_decision"
+      ]
+    },
+    {
+      "doc_id": "doc-b1ffbaa20d211ae5",
+      "src_id": "imp-bank-of-england",
+      "language": "en",
+      "is_pdf": false,
+      "gt_facts_count": 2,
+      "gt_events": [
+        "monetary_policy_decision",
+        "statistical_release"
+      ]
+    },
+    {
+      "doc_id": "doc-60379f7197c52080",
+      "src_id": "imp-bank-of-england",
+      "language": "en",
+      "is_pdf": false,
+      "gt_facts_count": 12,
+      "gt_events": [
+        "monetary_policy_decision",
+        "statistical_release"
+      ]
+    },
+    {
+      "doc_id": "doc-7b9bed919044b58e",
+      "src_id": "imp-bank-of-japan",
+      "language": "en",
+      "is_pdf": false,
+      "gt_facts_count": 8,
+      "gt_events": [
+        "statistical_release"
+      ]
+    },
+    {
+      "doc_id": "doc-8f6d9e11b80e3441",
+      "src_id": "imp-bank-of-japan",
+      "language": "en",
+      "is_pdf": false,
+      "gt_facts_count": 9,
+      "gt_events": [
+        "statistical_release"
+      ]
+    },
+    {
+      "doc_id": "doc-3a490d3d33a22491",
+      "src_id": "imp-bank-of-japan",
+      "language": "en",
+      "is_pdf": false,
+      "gt_facts_count": 9,
+      "gt_events": [
+        "statistical_release"
+      ]
+    },
+    {
+      "doc_id": "doc-1dc9be1de1172725",
+      "src_id": "imp-swiss-national-bank",
+      "language": "en",
+      "is_pdf": false,
+      "gt_facts_count": 0,
+      "gt_events": [
+        "monetary_policy_decision",
+        "statistical_release"
+      ]
+    },
+    {
+      "doc_id": "doc-3977e22b6168c0e8",
+      "src_id": "imp-swiss-national-bank",
+      "language": "en",
+      "is_pdf": false,
+      "gt_facts_count": 11,
+      "gt_events": [
+        "monetary_policy_decision",
+        "statistical_release"
+      ]
+    },
+    {
+      "doc_id": "doc-9df4010a669fb6d8",
+      "src_id": "imp-swiss-national-bank",
+      "language": "en",
+      "is_pdf": false,
+      "gt_facts_count": 0,
+      "gt_events": [
+        "monetary_policy_decision"
+      ]
+    },
+    {
+      "doc_id": "doc-24b0e40b2592d8d6",
+      "src_id": "imp-deutsche-boerse",
+      "language": "en",
+      "is_pdf": false,
+      "gt_facts_count": 0,
+      "gt_events": []
+    },
+    {
+      "doc_id": "doc-6692f1aec12bf364",
+      "src_id": "imp-deutsche-boerse",
+      "language": "en",
+      "is_pdf": false,
+      "gt_facts_count": 0,
+      "gt_events": []
+    },
+    {
+      "doc_id": "doc-cca58c0f24000803",
+      "src_id": "imp-deutsche-boerse",
+      "language": "en",
+      "is_pdf": false,
+      "gt_facts_count": 0,
+      "gt_events": []
+    },
+    {
+      "doc_id": "doc-50c56c4e70dd1177",
+      "src_id": "imp-hm-treasury",
+      "language": "en",
+      "is_pdf": false,
+      "gt_facts_count": 0,
+      "gt_events": [
+        "statistical_release"
+      ]
+    },
+    {
+      "doc_id": "doc-ee740231d342aa74",
+      "src_id": "imp-hm-treasury",
+      "language": "en",
+      "is_pdf": false,
+      "gt_facts_count": 0,
+      "gt_events": [
+        "monetary_policy_decision"
+      ]
+    },
+    {
+      "doc_id": "doc-8bdf1c54e4e30dcd",
+      "src_id": "imp-hm-treasury",
+      "language": "en",
+      "is_pdf": false,
+      "gt_facts_count": 0,
+      "gt_events": [
+        "monetary_policy_decision",
+        "statistical_release"
+      ]
+    },
+    {
+      "doc_id": "doc-d4ad3d322c93a782",
+      "src_id": "imp-mof-japan",
+      "language": "ja",
+      "is_pdf": false,
+      "gt_facts_count": 0,
+      "gt_events": []
+    },
+    {
+      "doc_id": "doc-303629e76a5acfb5",
+      "src_id": "imp-mof-japan",
+      "language": "ja",
+      "is_pdf": false,
+      "gt_facts_count": 0,
+      "gt_events": []
+    },
+    {
+      "doc_id": "doc-db7b274482c7ff61",
+      "src_id": "imp-mof-japan",
+      "language": "ja",
+      "is_pdf": false,
+      "gt_facts_count": 0,
+      "gt_events": []
+    },
+    {
+      "doc_id": "doc-19a6ebb8b8b9eadd",
+      "src_id": "imp-ecb",
+      "language": "en",
+      "is_pdf": false,
+      "gt_facts_count": 7,
+      "gt_events": [
+        "monetary_policy_decision",
+        "statistical_release",
+        "regulatory_enforcement"
+      ]
+    },
+    {
+      "doc_id": "doc-d01c2992c5cd85d6",
+      "src_id": "imp-ecb",
+      "language": "en",
+      "is_pdf": false,
+      "gt_facts_count": 1,
+      "gt_events": [
+        "monetary_policy_decision",
+        "statistical_release",
+        "regulatory_enforcement"
+      ]
+    },
+    {
+      "doc_id": "doc-7d5803d21c44a224",
+      "src_id": "imp-ecb",
+      "language": "en",
+      "is_pdf": false,
+      "gt_facts_count": 26,
+      "gt_events": [
+        "monetary_policy_decision",
+        "statistical_release"
+      ]
+    },
+    {
+      "doc_id": "doc-6a8a4047814c4caf",
+      "src_id": "imp-bank-of-england",
+      "language": "en",
+      "is_pdf": false,
+      "gt_facts_count": 17,
+      "gt_events": [
+        "monetary_policy_decision",
+        "statistical_release"
+      ]
+    },
+    {
+      "doc_id": "doc-fb1d49f16ce70f30",
+      "src_id": "imp-bank-of-england",
+      "language": "en",
+      "is_pdf": false,
+      "gt_facts_count": 17,
+      "gt_events": [
+        "monetary_policy_decision",
+        "statistical_release"
+      ]
+    },
+    {
+      "doc_id": "doc-560b6bcfde6d23b4",
+      "src_id": "imp-bank-of-japan",
+      "language": "en",
+      "is_pdf": false,
+      "gt_facts_count": 8,
+      "gt_events": [
+        "statistical_release"
+      ]
+    },
+    {
+      "doc_id": "doc-bdf46a2169862b12",
+      "src_id": "imp-bank-of-japan",
+      "language": "en",
+      "is_pdf": false,
+      "gt_facts_count": 8,
+      "gt_events": [
+        "statistical_release"
+      ]
+    },
+    {
+      "doc_id": "doc-bdcaf89dbd3ceed0",
+      "src_id": "imp-swiss-national-bank",
+      "language": "en",
+      "is_pdf": false,
+      "gt_facts_count": 0,
+      "gt_events": [
+        "monetary_policy_decision"
+      ]
+    },
+    {
+      "doc_id": "doc-61106736a249f118",
+      "src_id": "imp-swiss-national-bank",
+      "language": "en",
+      "is_pdf": false,
+      "gt_facts_count": 0,
+      "gt_events": [
+        "monetary_policy_decision",
+        "statistical_release"
+      ]
+    },
+    {
+      "doc_id": "doc-4182b8b5d2af4702",
+      "src_id": "imp-deutsche-boerse",
+      "language": "en",
+      "is_pdf": false,
+      "gt_facts_count": 0,
+      "gt_events": []
+    },
+    {
+      "doc_id": "doc-1bb4de68aeb642ca",
+      "src_id": "imp-deutsche-boerse",
+      "language": "en",
+      "is_pdf": false,
+      "gt_facts_count": 0,
+      "gt_events": []
+    },
+    {
+      "doc_id": "doc-50ec2fa92093db3c",
+      "src_id": "imp-hm-treasury",
+      "language": "en",
+      "is_pdf": false,
+      "gt_facts_count": 0,
+      "gt_events": []
+    },
+    {
+      "doc_id": "doc-9478d7a1e1d9a260",
+      "src_id": "imp-hm-treasury",
+      "language": "en",
+      "is_pdf": false,
+      "gt_facts_count": 5,
+      "gt_events": [
+        "statistical_release",
+        "regulatory_enforcement"
+      ]
+    },
+    {
+      "doc_id": "doc-34f7061ab296ea28",
+      "src_id": "imp-mof-japan",
+      "language": "ja",
+      "is_pdf": false,
+      "gt_facts_count": 0,
+      "gt_events": []
+    },
+    {
+      "doc_id": "doc-a2004eb1f589166b",
+      "src_id": "imp-mof-japan",
+      "language": "ja",
+      "is_pdf": false,
+      "gt_facts_count": 0,
+      "gt_events": []
+    },
+    {
+      "doc_id": "doc-3d16cf2bca67cc15",
+      "src_id": "src-boc",
+      "language": "en",
+      "is_pdf": false,
+      "gt_facts_count": 3,
+      "gt_events": [
+        "statistical_release"
+      ]
+    },
+    {
+      "doc_id": "doc-c84807e39583b5c5",
+      "src_id": "src-boc",
+      "language": "en",
+      "is_pdf": false,
+      "gt_facts_count": 3,
+      "gt_events": [
+        "monetary_policy_decision",
+        "statistical_release"
+      ]
+    },
+    {
+      "doc_id": "doc-024943207bc4b772",
+      "src_id": "src-boc",
+      "language": "en",
+      "is_pdf": false,
+      "gt_facts_count": 3,
+      "gt_events": [
+        "statistical_release"
+      ]
+    },
+    {
+      "doc_id": "doc-5f1cbc06aae19e39",
+      "src_id": "src-boc",
+      "language": "en",
+      "is_pdf": false,
+      "gt_facts_count": 0,
+      "gt_events": []
+    },
+    {
+      "doc_id": "doc-a04cb4fb1ce1e79a",
+      "src_id": "src-boc",
+      "language": "en",
+      "is_pdf": false,
+      "gt_facts_count": 3,
+      "gt_events": [
+        "statistical_release"
+      ]
+    },
+    {
+      "doc_id": "doc-a065dc2e3f02a976",
+      "src_id": "src-boj",
+      "language": "en",
+      "is_pdf": false,
+      "gt_facts_count": 15,
+      "gt_events": [
+        "monetary_policy_decision",
+        "statistical_release"
+      ]
+    },
+    {
+      "doc_id": "doc-665a299e220457b1",
+      "src_id": "src-boj",
+      "language": "en",
+      "is_pdf": false,
+      "gt_facts_count": 8,
+      "gt_events": [
+        "statistical_release"
+      ]
+    },
+    {
+      "doc_id": "doc-a705ecd153f1cbd9",
+      "src_id": "src-boj",
+      "language": "en",
+      "is_pdf": false,
+      "gt_facts_count": 8,
+      "gt_events": [
+        "statistical_release"
+      ]
+    },
+    {
+      "doc_id": "doc-de2aa23ae32bf15b",
+      "src_id": "src-boj",
+      "language": "en",
+      "is_pdf": false,
+      "gt_facts_count": 34,
+      "gt_events": [
+        "monetary_policy_decision",
+        "statistical_release"
+      ]
+    },
+    {
+      "doc_id": "doc-013e31b4eca68303",
+      "src_id": "src-boj",
+      "language": "en",
+      "is_pdf": false,
+      "gt_facts_count": 41,
+      "gt_events": [
+        "monetary_policy_decision",
+        "statistical_release"
+      ]
+    },
+    {
+      "doc_id": "doc-918bdb1dd9171560",
+      "src_id": "src-mof-japan",
+      "language": "ja",
+      "is_pdf": false,
+      "gt_facts_count": 0,
+      "gt_events": []
+    },
+    {
+      "doc_id": "doc-b0ba2cdbdee505c1",
+      "src_id": "src-bankitaly",
+      "language": "en",
+      "is_pdf": false,
+      "gt_facts_count": 0,
+      "gt_events": []
+    },
+    {
+      "doc_id": "doc-5750c1a3e38fbe94",
+      "src_id": "src-mof-japan",
+      "language": "ja",
+      "is_pdf": false,
+      "gt_facts_count": 0,
+      "gt_events": []
+    },
+    {
+      "doc_id": "doc-28ae630a7c0d4532",
+      "src_id": "src-mof-japan",
+      "language": "ja",
+      "is_pdf": false,
+      "gt_facts_count": 0,
+      "gt_events": []
+    },
+    {
+      "doc_id": "doc-d6d1890bf0a6d33f",
+      "src_id": "src-bankitaly",
+      "language": "en",
+      "is_pdf": false,
+      "gt_facts_count": 0,
+      "gt_events": []
+    },
+    {
+      "doc_id": "doc-141415756f4ed56d",
+      "src_id": "src-bank-tanzania",
+      "language": "en",
+      "is_pdf": false,
+      "gt_facts_count": 8,
+      "gt_events": [
+        "monetary_policy_decision",
+        "statistical_release"
+      ]
+    },
+    {
+      "doc_id": "doc-2ba3e08090003fa8",
+      "src_id": "src-bank-tanzania",
+      "language": "en",
+      "is_pdf": false,
+      "gt_facts_count": 8,
+      "gt_events": [
+        "monetary_policy_decision",
+        "statistical_release"
+      ]
+    },
+    {
+      "doc_id": "doc-ed7b544da844d9f8",
+      "src_id": "src-bank-tanzania",
+      "language": "en",
+      "is_pdf": false,
+      "gt_facts_count": 8,
+      "gt_events": [
+        "monetary_policy_decision",
+        "statistical_release"
+      ]
+    },
+    {
+      "doc_id": "doc-c9235bb73f1949f5",
+      "src_id": "src-bank-tanzania",
+      "language": "en",
+      "is_pdf": false,
+      "gt_facts_count": 8,
+      "gt_events": [
+        "monetary_policy_decision",
+        "statistical_release"
+      ]
+    },
+    {
+      "doc_id": "doc-81890828044d6e85",
+      "src_id": "src-bank-tanzania",
+      "language": "en",
+      "is_pdf": false,
+      "gt_facts_count": 8,
+      "gt_events": [
+        "monetary_policy_decision",
+        "statistical_release"
+      ]
+    },
+    {
+      "doc_id": "doc-5e3d1f6ffe061667",
+      "src_id": "src-cbk-kenya",
+      "language": "en",
+      "is_pdf": false,
+      "gt_facts_count": 5,
+      "gt_events": [
+        "monetary_policy_decision",
+        "statistical_release",
+        "regulatory_enforcement"
+      ]
+    },
+    {
+      "doc_id": "doc-2b029db9976ec6cb",
+      "src_id": "src-cbk-kenya",
+      "language": "en",
+      "is_pdf": false,
+      "gt_facts_count": 3,
+      "gt_events": [
+        "monetary_policy_decision",
+        "statistical_release"
+      ]
+    },
+    {
+      "doc_id": "doc-5102b38e54787f66",
+      "src_id": "src-cbk-kenya",
+      "language": "en",
+      "is_pdf": false,
+      "gt_facts_count": 2,
+      "gt_events": [
+        "monetary_policy_decision",
+        "statistical_release"
+      ]
+    },
+    {
+      "doc_id": "doc-5a5d852382f800b4",
+      "src_id": "src-cbk-kenya",
+      "language": "en",
+      "is_pdf": false,
+      "gt_facts_count": 3,
+      "gt_events": [
+        "monetary_policy_decision",
+        "statistical_release"
+      ]
+    },
+    {
+      "doc_id": "doc-a690244c1044fda8",
+      "src_id": "src-cbk-kenya",
+      "language": "en",
+      "is_pdf": false,
+      "gt_facts_count": 2,
+      "gt_events": [
+        "monetary_policy_decision",
+        "statistical_release"
+      ]
+    },
+    {
+      "doc_id": "doc-d736b8e0c2529e30",
+      "src_id": "src-ecb-stat",
+      "language": "en",
+      "is_pdf": false,
+      "gt_facts_count": 1,
+      "gt_events": [
+        "monetary_policy_decision",
+        "statistical_release"
+      ]
+    },
+    {
+      "doc_id": "doc-b3d9add0dfb060c9",
+      "src_id": "src-ecb-stat",
+      "language": "en",
+      "is_pdf": false,
+      "gt_facts_count": 9,
+      "gt_events": [
+        "monetary_policy_decision",
+        "statistical_release",
+        "regulatory_enforcement"
+      ]
+    },
+    {
+      "doc_id": "doc-e2766cbce9b2ba77",
+      "src_id": "src-ecb-stat",
+      "language": "en",
+      "is_pdf": false,
+      "gt_facts_count": 1,
+      "gt_events": [
+        "monetary_policy_decision",
+        "statistical_release"
+      ]
+    },
+    {
+      "doc_id": "doc-da802c5165a71f32",
+      "src_id": "src-ecb-stat",
+      "language": "en",
+      "is_pdf": false,
+      "gt_facts_count": 104,
+      "gt_events": [
+        "monetary_policy_decision",
+        "statistical_release",
+        "regulatory_enforcement"
+      ]
+    },
+    {
+      "doc_id": "doc-3f8f2e8f104c5940",
+      "src_id": "src-ecb-stat",
+      "language": "en",
+      "is_pdf": false,
+      "gt_facts_count": 1,
+      "gt_events": [
+        "monetary_policy_decision",
+        "statistical_release"
+      ]
+    },
+    {
+      "doc_id": "doc-c42b79a8211a642b",
+      "src_id": "src-treasurydirect-us",
+      "language": "en",
+      "is_pdf": false,
+      "gt_facts_count": 4,
+      "gt_events": []
+    },
+    {
+      "doc_id": "doc-97b45efe58ac96f2",
+      "src_id": "src-treasurydirect-us",
+      "language": "en",
+      "is_pdf": false,
+      "gt_facts_count": 0,
+      "gt_events": [
+        "statistical_release"
+      ]
+    },
+    {
+      "doc_id": "doc-f8355574dd8bc322",
+      "src_id": "src-treasurydirect-us",
+      "language": "en",
+      "is_pdf": false,
+      "gt_facts_count": 22,
+      "gt_events": []
+    },
+    {
+      "doc_id": "doc-0335e08ac2f98acb",
+      "src_id": "src-treasurydirect-us",
+      "language": "en",
+      "is_pdf": false,
+      "gt_facts_count": 0,
+      "gt_events": []
+    },
+    {
+      "doc_id": "doc-8256ffdea0a72f50",
+      "src_id": "src-treasurydirect-us",
+      "language": "en",
+      "is_pdf": false,
+      "gt_facts_count": 4,
+      "gt_events": []
+    },
+    {
+      "doc_id": "doc-9b88c8be2e5da6cd",
+      "src_id": "src-bank-tanzania2",
+      "language": "en",
+      "is_pdf": false,
+      "gt_facts_count": 8,
+      "gt_events": [
+        "monetary_policy_decision",
+        "statistical_release"
+      ]
+    },
+    {
+      "doc_id": "doc-bcffe40e706431f3",
+      "src_id": "src-bank-tanzania2",
+      "language": "en",
+      "is_pdf": false,
+      "gt_facts_count": 8,
+      "gt_events": [
+        "monetary_policy_decision",
+        "statistical_release"
+      ]
+    },
+    {
+      "doc_id": "doc-42499485d955ba26",
+      "src_id": "src-bank-tanzania2",
+      "language": "en",
+      "is_pdf": false,
+      "gt_facts_count": 8,
+      "gt_events": [
+        "monetary_policy_decision",
+        "statistical_release"
+      ]
+    },
+    {
+      "doc_id": "doc-c2c02c827fe84a85",
+      "src_id": "src-bank-tanzania2",
+      "language": "en",
+      "is_pdf": false,
+      "gt_facts_count": 9,
+      "gt_events": [
+        "monetary_policy_decision",
+        "statistical_release"
+      ]
+    },
+    {
+      "doc_id": "doc-5fbb72050cd50eb6",
+      "src_id": "src-bank-tanzania2",
+      "language": "en",
+      "is_pdf": false,
+      "gt_facts_count": 8,
+      "gt_events": [
+        "monetary_policy_decision",
+        "statistical_release"
+      ]
+    },
+    {
+      "doc_id": "doc-86b112d22257464b",
+      "src_id": "imp-federal-reserve",
+      "language": "en",
+      "is_pdf": false,
+      "gt_facts_count": 3,
+      "gt_events": [
+        "monetary_policy_decision",
+        "statistical_release"
+      ]
+    },
+    {
+      "doc_id": "doc-2fe4c3360c5a7a2b",
+      "src_id": "imp-federal-reserve",
+      "language": "en",
+      "is_pdf": false,
+      "gt_facts_count": 1,
+      "gt_events": [
+        "monetary_policy_decision",
+        "statistical_release"
+      ]
+    },
+    {
+      "doc_id": "doc-888652bb279a9979",
+      "src_id": "imp-federal-reserve",
+      "language": "en",
+      "is_pdf": false,
+      "gt_facts_count": 1,
+      "gt_events": [
+        "monetary_policy_decision",
+        "statistical_release"
+      ]
+    },
+    {
+      "doc_id": "doc-114420e1d04a67d6",
+      "src_id": "imp-ons",
+      "language": "en",
+      "is_pdf": false,
+      "gt_facts_count": 0,
+      "gt_events": [
+        "statistical_release"
+      ]
+    },
+    {
+      "doc_id": "doc-57e2e04597c6089c",
+      "src_id": "imp-ons",
+      "language": "en",
+      "is_pdf": false,
+      "gt_facts_count": 0,
+      "gt_events": []
+    },
+    {
+      "doc_id": "doc-75f0caba9296ded5",
+      "src_id": "imp-ons",
+      "language": "en",
+      "is_pdf": false,
+      "gt_facts_count": 0,
+      "gt_events": []
+    },
+    {
+      "doc_id": "doc-b9962985b122812f",
+      "src_id": "imp-fsa-japan",
+      "language": "ja",
+      "is_pdf": false,
+      "gt_facts_count": 0,
+      "gt_events": []
+    },
+    {
+      "doc_id": "doc-f1292d61cad10f10",
+      "src_id": "imp-fsa-japan",
+      "language": "ja",
+      "is_pdf": false,
+      "gt_facts_count": 0,
+      "gt_events": []
+    },
+    {
+      "doc_id": "doc-fe7e4999f516da87",
+      "src_id": "imp-jpx",
+      "language": "ja",
+      "is_pdf": false,
+      "gt_facts_count": 0,
+      "gt_events": []
+    },
+    {
+      "doc_id": "doc-f3254b042c8fb641",
+      "src_id": "imp-jpx",
+      "language": "ja",
+      "is_pdf": false,
+      "gt_facts_count": 0,
+      "gt_events": []
+    },
+    {
+      "doc_id": "doc-00fb04ba7e7da272",
+      "src_id": "imp-jpx",
+      "language": "ja",
+      "is_pdf": false,
+      "gt_facts_count": 0,
+      "gt_events": []
+    },
+    {
+      "doc_id": "doc-9ad5268c4f885bb0",
+      "src_id": "imp-szse",
+      "language": "en",
+      "is_pdf": false,
+      "gt_facts_count": 0,
+      "gt_events": []
+    },
+    {
+      "doc_id": "doc-4e869a7937c9a19f",
+      "src_id": "imp-euronext",
+      "language": "en",
+      "is_pdf": false,
+      "gt_facts_count": 24,
+      "gt_events": [
+        "statistical_release"
+      ]
+    },
+    {
+      "doc_id": "doc-ce3737ae73faa68e",
+      "src_id": "imp-euronext",
+      "language": "en",
+      "is_pdf": false,
+      "gt_facts_count": 39,
+      "gt_events": [
+        "statistical_release"
+      ]
+    },
+    {
+      "doc_id": "doc-692c7334389da116",
+      "src_id": "imp-euronext",
+      "language": "en",
+      "is_pdf": false,
+      "gt_facts_count": 24,
+      "gt_events": [
+        "monetary_policy_decision",
+        "statistical_release",
+        "regulatory_enforcement"
+      ]
+    },
+    {
+      "doc_id": "doc-fbf80bf35a893d5c",
+      "src_id": "imp-fsb",
+      "language": "en",
+      "is_pdf": false,
+      "gt_facts_count": 0,
+      "gt_events": []
+    },
+    {
+      "doc_id": "doc-e7f4044e1b436d02",
+      "src_id": "imp-fsb",
+      "language": "en",
+      "is_pdf": false,
+      "gt_facts_count": 0,
+      "gt_events": []
+    },
+    {
+      "doc_id": "doc-03be562230f78e0f",
+      "src_id": "imp-fsb",
+      "language": "en",
+      "is_pdf": false,
+      "gt_facts_count": 0,
+      "gt_events": [
+        "statistical_release"
+      ]
+    },
+    {
+      "doc_id": "doc-efb5d3bd8ee2477e",
+      "src_id": "imp-federal-reserve",
+      "language": "en",
+      "is_pdf": false,
+      "gt_facts_count": 1,
+      "gt_events": [
+        "monetary_policy_decision",
+        "statistical_release"
+      ]
+    },
+    {
+      "doc_id": "doc-e8f7cb2840c6d715",
+      "src_id": "imp-federal-reserve",
+      "language": "en",
+      "is_pdf": false,
+      "gt_facts_count": 1,
+      "gt_events": [
+        "monetary_policy_decision",
+        "statistical_release"
+      ]
+    },
+    {
+      "doc_id": "doc-f8185d5556ce1b3c",
+      "src_id": "imp-ons",
+      "language": "en",
+      "is_pdf": false,
+      "gt_facts_count": 0,
+      "gt_events": [
+        "statistical_release"
+      ]
+    },
+    {
+      "doc_id": "doc-c7b730c07136d07e",
+      "src_id": "imp-ons",
+      "language": "en",
+      "is_pdf": false,
+      "gt_facts_count": 0,
+      "gt_events": []
+    },
+    {
+      "doc_id": "doc-96ddc634782b5423",
+      "src_id": "imp-fsa-japan",
+      "language": "ja",
+      "is_pdf": false,
+      "gt_facts_count": 0,
+      "gt_events": []
+    },
+    {
+      "doc_id": "doc-e732ebe990061d7c",
+      "src_id": "imp-fsa-japan",
+      "language": "ja",
+      "is_pdf": false,
+      "gt_facts_count": 0,
+      "gt_events": []
+    },
+    {
+      "doc_id": "doc-a5a6433b7d7cae94",
+      "src_id": "imp-fsa-japan",
+      "language": "ja",
+      "is_pdf": false,
+      "gt_facts_count": 0,
+      "gt_events": []
+    },
+    {
+      "doc_id": "doc-866a84319b35bbb3",
+      "src_id": "imp-jpx",
+      "language": "ja",
+      "is_pdf": false,
+      "gt_facts_count": 0,
+      "gt_events": []
+    },
+    {
+      "doc_id": "doc-aac35e02acf98b60",
+      "src_id": "imp-jpx",
+      "language": "ja",
+      "is_pdf": false,
+      "gt_facts_count": 0,
+      "gt_events": []
+    },
+    {
+      "doc_id": "doc-8e2c8145bd13d85c",
+      "src_id": "imp-euronext",
+      "language": "en",
+      "is_pdf": false,
+      "gt_facts_count": 25,
+      "gt_events": [
+        "statistical_release"
+      ]
+    },
+    {
+      "doc_id": "doc-4cd3d782b23bf539",
+      "src_id": "imp-euronext",
+      "language": "en",
+      "is_pdf": false,
+      "gt_facts_count": 24,
+      "gt_events": [
+        "statistical_release"
+      ]
+    },
+    {
+      "doc_id": "doc-f6069901adada981",
+      "src_id": "imp-fsb",
+      "language": "en",
+      "is_pdf": false,
+      "gt_facts_count": 0,
+      "gt_events": []
+    },
+    {
+      "doc_id": "doc-0a57419b285ee622",
+      "src_id": "imp-fsb",
+      "language": "en",
+      "is_pdf": false,
+      "gt_facts_count": 0,
+      "gt_events": []
+    },
+    {
+      "doc_id": "doc-2739f59589dff94f",
+      "src_id": "imp-hm-feed",
+      "language": "en",
+      "is_pdf": false,
+      "gt_facts_count": 0,
+      "gt_events": [
+        "statistical_release"
+      ]
+    },
+    {
+      "doc_id": "doc-abe9711f6286f61e",
+      "src_id": "imp-hm-feed",
+      "language": "en",
+      "is_pdf": false,
+      "gt_facts_count": 0,
+      "gt_events": [
+        "statistical_release"
+      ]
+    },
+    {
+      "doc_id": "doc-59adc00323b09408",
+      "src_id": "imp-hm-feed",
+      "language": "en",
+      "is_pdf": false,
+      "gt_facts_count": 0,
+      "gt_events": []
+    },
+    {
+      "doc_id": "doc-9af919e054c1ae22",
+      "src_id": "imp-hm-feed",
+      "language": "en",
+      "is_pdf": false,
+      "gt_facts_count": 0,
+      "gt_events": [
+        "statistical_release"
+      ]
+    },
+    {
+      "doc_id": "doc-87281086536625a5",
+      "src_id": "imp-hm-feed",
+      "language": "en",
+      "is_pdf": false,
+      "gt_facts_count": 0,
+      "gt_events": []
+    },
+    {
+      "doc_id": "doc-abfb0a8762e1253d",
+      "src_id": "src-cvm-brazil",
+      "language": "en",
+      "is_pdf": false,
+      "gt_facts_count": 0,
+      "gt_events": []
+    },
+    {
+      "doc_id": "doc-dc0bee32d08b4d92",
+      "src_id": "src-cvm-brazil",
+      "language": "en",
+      "is_pdf": false,
+      "gt_facts_count": 0,
+      "gt_events": []
+    },
+    {
+      "doc_id": "doc-cc571610dcd76a9d",
+      "src_id": "src-cvm-brazil",
+      "language": "en",
+      "is_pdf": false,
+      "gt_facts_count": 0,
+      "gt_events": []
+    },
+    {
+      "doc_id": "doc-ff001f163beb83b3",
+      "src_id": "src-cvm-brazil",
+      "language": "en",
+      "is_pdf": false,
+      "gt_facts_count": 0,
+      "gt_events": []
+    },
+    {
+      "doc_id": "doc-e7d7ec65484e9d9c",
+      "src_id": "src-cvm-brazil",
+      "language": "en",
+      "is_pdf": false,
+      "gt_facts_count": 0,
+      "gt_events": []
+    },
+    {
+      "doc_id": "doc-f2e46fa34385bee2",
+      "src_id": "src-bmf-brazil",
+      "language": "en",
+      "is_pdf": false,
+      "gt_facts_count": 0,
+      "gt_events": []
+    },
+    {
+      "doc_id": "doc-783e330830b0cd07",
+      "src_id": "src-bmf-brazil",
+      "language": "en",
+      "is_pdf": false,
+      "gt_facts_count": 0,
+      "gt_events": []
+    },
+    {
+      "doc_id": "doc-33867643efb6fcd8",
+      "src_id": "src-bmf-brazil",
+      "language": "en",
+      "is_pdf": false,
+      "gt_facts_count": 0,
+      "gt_events": []
+    },
+    {
+      "doc_id": "doc-10827604d525052d",
+      "src_id": "src-bmf-brazil",
+      "language": "en",
+      "is_pdf": false,
+      "gt_facts_count": 0,
+      "gt_events": []
+    },
+    {
+      "doc_id": "doc-53dd37c64fa8a692",
+      "src_id": "src-bmf-brazil",
+      "language": "en",
+      "is_pdf": false,
+      "gt_facts_count": 0,
+      "gt_events": []
+    },
+    {
+      "doc_id": "doc-14d41610edc8fbe3",
+      "src_id": "src-sfc-hk",
+      "language": "en",
+      "is_pdf": false,
+      "gt_facts_count": 1,
+      "gt_events": [
+        "regulatory_enforcement"
+      ]
+    },
+    {
+      "doc_id": "doc-0f461486e593e723",
+      "src_id": "src-sfc-hk",
+      "language": "en",
+      "is_pdf": false,
+      "gt_facts_count": 0,
+      "gt_events": []
+    },
+    {
+      "doc_id": "doc-408246b404dad3f9",
+      "src_id": "src-sfc-hk",
+      "language": "en",
+      "is_pdf": false,
+      "gt_facts_count": 0,
+      "gt_events": []
+    },
+    {
+      "doc_id": "doc-1158b1edfb4e033c",
+      "src_id": "src-sfc-hk",
+      "language": "en",
+      "is_pdf": false,
+      "gt_facts_count": 0,
+      "gt_events": []
+    },
+    {
+      "doc_id": "doc-d21921ed5c755c52",
+      "src_id": "src-sfc-hk",
+      "language": "en",
+      "is_pdf": false,
+      "gt_facts_count": 0,
+      "gt_events": []
+    },
+    {
+      "doc_id": "doc-155f372bb6f7417b",
+      "src_id": "src-fsa-japan",
+      "language": "ja",
+      "is_pdf": false,
+      "gt_facts_count": 0,
+      "gt_events": []
+    },
+    {
+      "doc_id": "doc-8a118f462664fef0",
+      "src_id": "src-fsa-japan",
+      "language": "ja",
+      "is_pdf": false,
+      "gt_facts_count": 0,
+      "gt_events": []
+    },
+    {
+      "doc_id": "doc-15c5de578dd02a3b",
+      "src_id": "src-fsa-japan",
+      "language": "ja",
+      "is_pdf": false,
+      "gt_facts_count": 0,
+      "gt_events": []
+    },
+    {
+      "doc_id": "doc-396690a962a5d597",
+      "src_id": "src-fsa-japan",
+      "language": "ja",
+      "is_pdf": false,
+      "gt_facts_count": 0,
+      "gt_events": []
+    },
+    {
+      "doc_id": "doc-74d8c6f078744674",
+      "src_id": "src-fsa-japan",
+      "language": "ja",
+      "is_pdf": false,
+      "gt_facts_count": 0,
+      "gt_events": []
+    },
+    {
+      "doc_id": "doc-dc870be9e3b93e0d",
+      "src_id": "src-beis-uk",
+      "language": "en",
+      "is_pdf": false,
+      "gt_facts_count": 0,
+      "gt_events": [
+        "statistical_release"
+      ]
+    },
+    {
+      "doc_id": "doc-28cdcfc023138e41",
+      "src_id": "src-beis-uk",
+      "language": "en",
+      "is_pdf": false,
+      "gt_facts_count": 0,
+      "gt_events": []
+    },
+    {
+      "doc_id": "doc-bda337df91614348",
+      "src_id": "src-beis-uk",
+      "language": "en",
+      "is_pdf": false,
+      "gt_facts_count": 4,
+      "gt_events": [
+        "statistical_release"
+      ]
+    },
+    {
+      "doc_id": "doc-55351346ad8936fe",
+      "src_id": "src-beis-uk",
+      "language": "en",
+      "is_pdf": false,
+      "gt_facts_count": 2,
+      "gt_events": [
+        "statistical_release",
+        "regulatory_enforcement"
+      ]
+    },
+    {
+      "doc_id": "doc-66950c69b18ecd92",
+      "src_id": "src-beis-uk",
+      "language": "en",
+      "is_pdf": false,
+      "gt_facts_count": 0,
+      "gt_events": [
+        "statistical_release"
+      ]
+    },
+    {
+      "doc_id": "doc-a50acea54cde4025",
+      "src_id": "src-mitijapan",
+      "language": "ja",
+      "is_pdf": false,
+      "gt_facts_count": 0,
+      "gt_events": []
+    },
+    {
+      "doc_id": "doc-c5c56ea5ebfc55f0",
+      "src_id": "src-mitijapan",
+      "language": "ja",
+      "is_pdf": false,
+      "gt_facts_count": 0,
+      "gt_events": []
+    },
+    {
+      "doc_id": "doc-3444ab969bc7dc0b",
+      "src_id": "src-mitijapan",
+      "language": "ja",
+      "is_pdf": false,
+      "gt_facts_count": 0,
+      "gt_events": []
+    },
+    {
+      "doc_id": "doc-76b31bf4a61836ba",
+      "src_id": "src-mitijapan",
+      "language": "ja",
+      "is_pdf": false,
+      "gt_facts_count": 1,
+      "gt_events": []
+    },
+    {
+      "doc_id": "doc-9f87371402a14ace",
+      "src_id": "src-mitijapan",
+      "language": "ja",
+      "is_pdf": false,
+      "gt_facts_count": 1,
+      "gt_events": []
+    },
+    {
+      "doc_id": "doc-25f0805b02064f25",
+      "src_id": "src-sama-saudi",
+      "language": "ar",
+      "is_pdf": false,
+      "gt_facts_count": 2,
+      "gt_events": []
+    },
+    {
+      "doc_id": "doc-03ba1ae13a2e6107",
+      "src_id": "src-sama-saudi",
+      "language": "ar",
+      "is_pdf": false,
+      "gt_facts_count": 2,
+      "gt_events": []
+    },
+    {
+      "doc_id": "doc-e48454fef40f4cd3",
+      "src_id": "src-cbi-iraq",
+      "language": "ar",
+      "is_pdf": false,
+      "gt_facts_count": 0,
+      "gt_events": []
+    },
+    {
+      "doc_id": "doc-17e9dee093905a9e",
+      "src_id": "src-bnb-bulgaria",
+      "language": "ru",
+      "is_pdf": false,
+      "gt_facts_count": 0,
+      "gt_events": []
+    },
+    {
+      "doc_id": "doc-970aa29756ec17f4",
+      "src_id": "src-cbi-iraq",
+      "language": "ar",
+      "is_pdf": false,
+      "gt_facts_count": 0,
+      "gt_events": []
+    },
+    {
+      "doc_id": "doc-5c0d08ea42d9de6f",
+      "src_id": "src-cbi-iraq",
+      "language": "ar",
+      "is_pdf": false,
+      "gt_facts_count": 0,
+      "gt_events": []
+    },
+    {
+      "doc_id": "doc-ed320a1908ffc66d",
+      "src_id": "src-bnb-bulgaria",
+      "language": "ru",
+      "is_pdf": false,
+      "gt_facts_count": 0,
+      "gt_events": []
+    },
+    {
+      "doc_id": "doc-bc3ccf0a2c2ef2e7",
+      "src_id": "src-bb-bangladesh",
+      "language": "en",
+      "is_pdf": false,
+      "gt_facts_count": 14,
+      "gt_events": [
+        "monetary_policy_decision"
+      ]
+    },
+    {
+      "doc_id": "doc-85ff5ba8ad694f8f",
+      "src_id": "src-bb-bangladesh",
+      "language": "en",
+      "is_pdf": false,
+      "gt_facts_count": 0,
+      "gt_events": [
+        "monetary_policy_decision",
+        "statistical_release"
+      ]
+    }
+  ]
+}

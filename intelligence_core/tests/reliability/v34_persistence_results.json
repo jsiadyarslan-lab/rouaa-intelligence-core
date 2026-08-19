@@ -1,0 +1,25 @@
+{
+  "persisted": {
+    "facts": 396,
+    "evidence": 396,
+    "events": 45,
+    "ios": 45
+  },
+  "restart_test": {
+    "total_tested": 45,
+    "success": 45,
+    "broken": 0
+  },
+  "reconstruction_test": {
+    "complete": 45,
+    "broken": 0
+  },
+  "v33a_rerun": {
+    "total_durable_examples": 8,
+    "by_type": {
+      "monetary_policy_decision": 3,
+      "statistical_release": 3,
+      "regulatory_enforcement": 2
+    }
+  }
+}

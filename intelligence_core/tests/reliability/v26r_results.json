@@ -1,0 +1,60 @@
+{
+  "v26r_measurement": {
+    "fact_tp": 258,
+    "fact_fp": 18,
+    "fact_fn": 1354,
+    "fact_precision": 93.48,
+    "fact_recall": 16.0,
+    "fact_invariant_holds": true,
+    "event_tp": 35,
+    "event_fp": 2,
+    "event_fn": 173,
+    "event_precision": 94.59,
+    "event_recall": 16.83,
+    "event_invariant_holds": true
+  },
+  "fn_taxonomy": {
+    "total_fn": 1361,
+    "gap_type_split": {
+      "CARDINALITY_GAP": 110,
+      "TRUE_EXTRACTION_GAP": 1251
+    },
+    "true_extraction_gap_categories": {
+      "STATISTICAL_EXPRESSION": 531,
+      "VALUE_FORMAT": 188,
+      "PATTERN_LEXICON": 189,
+      "LANGUAGE": 22,
+      "FINANCIAL_EXPRESSION": 69,
+      "REGULATORY_EXPRESSION": 249,
+      "MONETARY_EXPRESSION": 3
+    },
+    "cardinality_gap_categories": {
+      "STATISTICAL_EXPRESSION": 58,
+      "FINANCIAL_EXPRESSION": 43,
+      "PATTERN_LEXICON": 3,
+      "MONETARY_EXPRESSION": 6
+    },
+    "top_subcategories": {
+      "OTHER_PERCENTAGE": 424,
+      "ENFORCEMENT_ACTION": 245,
+      "BARE_NUMBER_NO_PERCENT": 189,
+      "VALUE_NOT_IN_DOC_TEXT": 167,
+      "DOLLAR_AMOUNT": 59,
+      "PERCENTAGE_CARDINALITY": 58,
+      "AMOUNT_CARDINALITY": 43,
+      "GDP_PERCENTAGE": 37,
+      "INFLATION_PERCENTAGE": 31,
+      "PRODUCTION_PERCENTAGE": 22,
+      "EMPLOYMENT_PERCENTAGE": 16,
+      "NEGATIVE_VALUE": 11,
+      "OTHER_AMOUNT": 10,
+      "ZH": 9,
+      "APPROXIMATE": 9
+    }
+  },
+  "deltas_vs_v25r": {
+    "fact_recall_delta_pp": 0.43,
+    "new_tps": 7,
+    "accepted": true
+  }
+}

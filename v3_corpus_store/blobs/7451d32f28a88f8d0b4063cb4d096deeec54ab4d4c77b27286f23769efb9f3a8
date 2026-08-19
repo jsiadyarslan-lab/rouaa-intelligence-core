@@ -1,0 +1,363 @@
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta charset="utf-8">
+    <title>The Central Bank of Bosnia and Herzegovina Launched the Domestic Instant Payment System</title>
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=no">
+
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700,300&subset=latin,latin-ext" rel="stylesheet" type="text/css">
+    <link rel="icon" href="/Content/img/favicon.ico" type="image/x-icon" />
+    <link rel="stylesheet" href="/Content/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/Content/css/owl.carousel.css">
+    <link rel="stylesheet" href="/Content/css/style.css">
+    <link rel="stylesheet" href="/Content/css/style-qss.css">
+    <link rel="stylesheet" href="/Content/css/bootstrap-datepicker3.min.css" />
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.imagesloaded/3.2.0/imagesloaded.pkgd.min.js"></script>
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+    <script src="/Scripts/bootstrap.min.js"></script>
+    <script src="/Content/js/bootstrap-datepicker.min.js"></script>
+    <script src="https://code.highcharts.com/highcharts.js"></script>
+    <script src="/Content/js/prefixfree.min.js"></script>
+    <script  async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCfDrtLdJHSwlPOuk5NBN1tzVoKz5NGaso"></script>
+    <script src="/Content/js/custom.js"></script>
+    <script src="/Content/js/owl.carousel.min.js"></script>
+    <script src="/Content/js/custom-qss.js"></script>
+    <script src="/Content/js/icheck.min.js"></script>
+
+    <script>
+        (function (i, s, o, g, r, a, m) {
+            i['GoogleAnalyticsObject'] = r; i[r] = i[r] || function () {
+                (i[r].q = i[r].q || []).push(arguments)
+            }, i[r].l = 1 * new Date(); a = s.createElement(o),
+            m = s.getElementsByTagName(o)[0]; a.async = 1; a.src = g; m.parentNode.insertBefore(a, m)
+        })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
+
+        ga('create', 'UA-79595547-1', 'auto');
+        ga('send', 'pageview');
+
+    </script>
+
+
+
+    <script src='https://www.google.com/recaptcha/api.js?onload=CaptchaCallback&amp;render=explicit'></script>
+</head>
+
+
+
+<body class=" ">    
+    <div class="overlay"></div>
+    <!-- Header -->
+  <header class="header">
+      <div class="topbar"><div class="container"><div class="inner"><div class="page-search"><form class="form form-search"><div class="form-group form-prefixed"><i class="icon-search picto"></i><input id="searchTextBoxDesktop" type="text" name="" value="" class="form-control" placeholder="Search web site" /></div></form></div><div class="secondary"><ul class="list-inline list-menu"><li><a href ="http://fined.cbbh.ba/"> Financial education</a></li><li><a href ="/Content/Read/7"> Banks in BH</a></li><li><a href ="/Content/Read/953"> Public procurement</a></li><li><a href ="/Content/Read/111"> Contacts</a></li><li><a href ="/Content/Read/10"> Links</a></li><li><a href ="/accessibility/"> Accessibility options</a></li><li class="soc"><a href="https://twitter.com/cbbih" class="link-circle" target="_blank"><i class="icon-twitter" ></i></a><a href="https://www.youtube.com/channel/UC8iRX4s7gvnKGnN6DCXxu3Q" class="link-circle" target="_blank"><i class="fab fa-youtube"></i></a><a href="https://www.facebook.com/CentralnaBankaBiH" class="link-circle"><i class="icon-facebook" ></i></a><a href="https://www.linkedin.com/company/cbbih" class="link-circle"><i class="icon-linkedin" ></i></a><a href="https://www.flickr.com/photos/196610362@N02" class="link-circle"><i class="fab fa-flickr" ></i></a><a href="/Feed/Rss/" class="link-circle" target="_blank"><i class="icon-rss"></i></a></li><li class="drop-lang"><a href="#" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false" data-bind="en"> English <span class="caret"></span></a><ul class="dropdown-menu" aria-labelledby="dLabel"><li><a href="?lang=bs">Bosanski</a></li><li><a href="?lang=hr">Hrvatski</a></li><li><a href="?lang=sr">Српски</a></li></ul></li></ul ></div></div></div></div><style>.logobar { background-color: #EAEBED; padding: 50px 0; background-image: url(/data/images/o_cbbh/header-bg.jpg );background-repeat: no-repeat; background-position: center;background-size: cover; position: relative; text-align: center;}</style> <style>@media only screen and (max-width: 992px) { .logobar { background-color: #EAEBED; padding: 5px !important; background-image: url(/data/images/o_cbbh/header-bg.jpg );background-repeat: no-repeat; background-position: center;background-size: cover; position: fixed; text-align: center;} }</style><div class="logobar" style='background:url(<%= BannerUrl %>)'><div class="container" ><div class="logo"><img class="logo-img" src='/data/images/o_cbbh/logo-cbbh-top-mobile.png' alt="Centralna banka Bosne i Hercegovine" /><img class="mob" src='/data/images/o_cbbh/logo-cbbh-top-mobile.png' alt="Centralna banka Bosne i Hercegovine" /></div><a href="#" class="btn-mobilemenu"><span></span><span></span><span></span>MENU</a></div></div>
+      <nav class="navbar navbar-default" role="navigation"> <div class="container">     <div class="navbar-header">         <button type ="button" class="navbar-toggle" data-toggle="collapse" data-target="#mobile-menu">             <span class="sr-only">Toggle navigation</span>             <span class="icon-bar"></span>             <span class="icon-bar"></span>             <span class="icon-bar"></span>         </button>         <a class="navbar-brand" href="#">             <p class="brand-name"><strong>Centralna banka</strong><br />Bosne i Hercegovine</p>         </a>         <a href="#" class="btn-closemenu"><i class="icon-x"></i></a>     </div>     <div class="collapse navbar-collapse" id="mobile-menu">         <form class="navbar-form navbar-left form-search" role="search">             <div class="form-group form-prefixed">                 <i class="icon-search picto"></i>                 <input id="searchTextBoxMobile" type ="text" name="" value="" class="form-control" placeholder="Search web site" />             </div>         </form>         <ul class="nav navbar-nav"> <li><a href="/"><i class="icon-home"></i></a></li><li class="dropdown"><a href="javascript:void(0);" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">About CBBH<span class="caret"></span></a><ul class="dropdown-menu"><li><a href="/Content/Read/13">General Information About the Bank</a></li><li><a href="/Content/Read/14">Regulations</a></li><li><a href="/Content/Read/730">CBBH Organizational Structure</a></li><li><a href="/Content/Read/15">CBBH Governing Board and Management Structure</a></li><li><a href="/Content/Archive/802">Strategic plan 2025 - 2027</a></li><li><a href="/Content/Read/1131">Compliance</a></li><li><a href="/Content/Read/473">Terms of use and other online services of the Central Bank of Bosnia and Herzegovina </a></li><li><a href="/Content/Read/1290">CBBH Privacy Rules</a></li></ul><li class="dropdown"><a href="javascript:void(0);" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">BH Currency<span class="caret"></span></a><ul class="dropdown-menu"><li><a href="/Content/Read/19">KM Banknotes</a></li><li><a href="/Content/Read/1072">KM Coins</a></li><li><a href="/Content/Read/645">Security Features of KM Banknotes</a></li><li><a href="/Content/Read/21">Numismatics</a></li><li><a href="/Content/Read/1261">KM banknotes, being withdrawn from circulation and ceased to be the legal tender</a></li><li><a href="/Content/Read/1287">Technical analysis of suspicious money</a></li><li><a href="/Content/Read/1090">Replacing cash KM unfit for circulation</a></li><li><a href="/Content/Read/1089">Regulations </a></li></ul><li class="dropdown"><a href="javascript:void(0);" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Currency Exchange List<span class="caret"></span></a><ul class="dropdown-menu"><li><a href="/CurrencyExchange/">Foreign Exchange List</a></li><li><a href="/OtherCurrencyExchange/Index/1227">Other Currencies</a></li></ul><li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Payment Systems<span class="caret"></span></a><ul class="dropdown-menu"><li><a href="/Content/Read/1058">Real time gross settlement (RTGS)</a></li><li><a href="/Content/Read/1241">Gyro Clearing</a></li><li><a href="/Content/Read/518">Clearing of International Payments</a></li><li><a href="/Content/Read/1291">Instant Payment System - IPS BiH</a></li><li><a href="/Content/Read/1242">Reports and statistics</a></li><li><a href="/Content/Read/1240">Oversight of payment systems</a></li><li><a href="/Content/Read/59">Contacts</a></li></ul><li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">CBBiH Registries and EIMM<span class="caret"></span></a><ul class="dropdown-menu"><li><a href="/Content/Read/1234">Single Registry of Accounts of Business Entities in Bosnia and Herzegovina</a></li><li><a href="/Content/Read/1235">Central Registry of Credits of legal entities and natural persons in Bosnia and Herzegovina </a></li><li><a href="/JIBAccountList">Business subjects accounts list</a></li><li><a href="/Content/Read/1236">Electronic Interbanking Money Market</a></li><li><a href="/Content/Read/1237">Contacts</a></li></ul><li class="dropdown"><a href="/Content/Read/8" class="dropdown-toggle" role="button" aria-haspopup="true" aria-expanded="false">Statistika</a><ul class="dropdown-menu"></ul><li class="dropdown"><a href="javascript:void(0);" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">International cooperation<span class="caret"></span></a><ul class="dropdown-menu"><li><a href="/Content/relations/892?newscategoryId=69">Membership and relations of BiH with the international financial institutions (IFIs)</a></li></ul><li class="dropdown"><a href="/Content/Read/1278" class="dropdown-toggle" role="button" aria-haspopup="true" aria-expanded="false">Cooperation with the EU</a><ul class="dropdown-menu"></ul><li class="dropdown"><a href="/press/read" class="dropdown-toggle" role="button" aria-haspopup="true" aria-expanded="false">Public Relations</a><ul class="dropdown-menu"></ul><li class="dropdown"><a href="/Content/Read/9" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Publications<span class="caret"></span></a><ul class="dropdown-menu"><li><a href="/Content/Archive/36">Annual Reports</a></li><li><a href="/Content/Archive/575">Financial Stability Reports</a></li><li><a href="/Content/Archive/35">Quarterly Bulletins</a></li><li><a href="/Content/Archive/1260">Report on Macroeconomic Imbalances</a></li><li><a href="/Content/Archive/1231">Financial Stability Risk Assessment</a></li><li><a href="/Content/Archive/903">Monthly Economic Review</a></li><li><a href="/Content/Archive/1134">Annual Financial Statements</a></li><li><a href="/Content/Archive/1137">Quarterly Financial Statements</a></li><li><a href="/Content/Archive/17">CBBH Monthly Report On Currency Board Arrangement</a></li><li><a href="/Content/Read/1138">Monthly Report on Financial Position – Data Series (1997-2018)</a></li><li><a href="/Content/Archive/1069">Weekly report from international financial market</a></li><li><a href="/Content/Archive/144">Special  Research Topics</a></li><li><a href="/Content/Archive/1141">Working papers</a></li><li><a href="/Content/Read/1130">Monograph</a></li></ul><li class="dropdown"><a href="javascript:void(0);" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Human resources<span class="caret"></span></a><ul class="dropdown-menu"><li><a href="/Content/Read/543">Bank as an employer</a></li><li><a href="/career/">Vacancies - employment in CBBH</a></li><li><a href="/Content/Read/1254">Kategorizacija radnih mjesta</a></li><li><a href="/Content/Read/1116">Internship in the CBBH</a></li><li><a href="/Content/Read/1117">Visits CBBH</a></li></ul><li class="dropdown"><a href="/RegistryRegulations" class="dropdown-toggle" role="button" aria-haspopup="true" aria-expanded="false">Public Registry Regulations of CBBH</a><ul class="dropdown-menu"></ul><li class="dropdown"><a href="/Content/Read/1275" class="dropdown-toggle" role="button" aria-haspopup="true" aria-expanded="false">Corporate Social Responsibility</a><ul class="dropdown-menu"></ul><li class="sec"><a href ="http://fined.cbbh.ba/"> Financial education</a></li><li class="sec"><a href ="/Content/Read/7"> Banks in BH</a></li><li class="sec"><a href ="/Content/Read/953"> Public procurement</a></li><li class="sec"><a href ="/Content/Read/111"> Contacts</a></li><li class="sec"><a href ="/Content/Read/10"> Links</a></li><li class="sec"><a href ="/accessibility/"> Accessibility options</a></li><li class="sec bottom-lang"><a href="#" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false" data-bind="en"> English <span class="caret"></span></a><ul class="dropdown-menu" aria-labelledby="dLabel"><li><a href="?lang=bs">Bosanski</a></li><li><a href="?lang=hr">Hrvatski</a></li><li><a href="?lang=sr">Српски</a></li></ul></li>
+    <!-- Navigation -->
+   </header>
+    
+<script type="text/javascript">
+    function newSearch(searchTerm) {
+        window.location = '/search/results?searchTerm=' + searchTerm;
+    }
+    $(document).ready(function () {
+
+        $('#searchTextBoxMobile').keypress(function (e) {
+            if (e.keyCode == 13) {
+                newSearch($('#searchTextBoxMobile').val());
+                return false;
+            }
+        });
+
+        $('#searchTextBoxDesktop').keypress(function (e) {
+            if (e.keyCode == 13) {
+                newSearch($('#searchTextBoxDesktop').val());
+                return false;
+            }
+        });
+
+    });
+</script>   
+
+    
+
+<!-- Breadcrumbs navigation -->
+<div class="subnav">
+    <div class="container">
+        <ol class="breadcrumb"><li><a href="/home"><i class="icon-home"></i></a></li><li class="active">Public Relations</li></ol>
+    </div>
+</div>
+<!-- End Breadcrumbs navigation -->
+<!-- Main Content -->
+<section class="content">
+    <div class="container">
+        <!-- Content Body -->
+        <div class="box contentbox">
+            <article class="main article">
+                <header class="head">
+                    <div class="header">
+                        <h1>The Central Bank of Bosnia and Herzegovina Launched the Domestic Instant Payment System</h1>
+                        <p class="date">7/20/2026</p>
+                    </div>
+                    <div class="boxaction">
+                        <ul class="list-inline list-soc">
+                            <li style="margin-top:5px;">
+                                <!-- Facebook API -->
+                                <div id="fb-root"></div>
+                                <script>
+                                    (function (d, s, id) {
+                                        var js, fjs = d.getElementsByTagName(s)[0];
+                                        if (d.getElementById(id)) return;
+                                        js = d.createElement(s); js.id = id;
+                                        js.src = "//connect.facebook.net/en_GB/sdk.js#xfbml=1&version=v2.4";
+                                        fjs.parentNode.insertBefore(js, fjs);
+                                    }(document, 'script', 'facebook-jssdk'));
+                                </script>
+                                <div class="fb-share-button" data-href="http://www.cbbh.ba/press/ShowNews/1798" data-layout="button"></div>
+                                <!-- Facebook ends here -->
+                            </li>
+                            <!-- Twitter API -->
+                            <li style="margin-top:8px;">
+                                <a class="twitter-share-button" href="https://www.cbbh.ba/press/ShowNews/1798" data-counturl="http://www.cbbh.ba/press/ShowNews/1798"><i class="icon-twitter"></i>Tweet</a>
+                                <script>!function (d, s, id) { var js, fjs = d.getElementsByTagName(s)[0], p = /^http:/.test(d.location) ? 'http' : 'https'; if (!d.getElementById(id)) { js = d.createElement(s); js.id = id; js.src = p + '://platform.twitter.com/widgets.js'; fjs.parentNode.insertBefore(js, fjs); } }(document, 'script', 'twitter-wjs');</script>
+                            </li>
+                            <!-- Twitter ends here -->
+                            <!-- LinkedIn -->
+                            <li style="margin-top:5px;">
+                                <script src="//platform.linkedin.com/in.js" type="text/javascript"> lang: en_US</script>
+                                <script type="IN/Share">
+                                </script>
+                            </li>
+                            <!-- LinkedIn ends here -->
+                            
+                            <li><a href="/Feed/RssNews/1798" class="link-circle" target="_blank"><i class="icon-rss"></i></a></li>
+                            <li><a href="#" class="link-circle wide no-print" onclick="window.print();"><i class="icon-print"> </i></a></li>
+                        </ul>
+                    </div>
+                </header>
+
+                <div class="body">
+                        <iframe class="yt-embed" src="https://www.youtube.com/embed/6edre0DhT6I" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="" frameborder="0" width="100%" height="100%"></iframe>
+<p style="text-align: justify;">The Central Bank of Bosnia and Herzegovina (CBBH) has established a domestic instant payment system, making the most significant step forward in the modernization of Bosnia and Herzegovina's payment infrastructure in the last 25 years.</p>
+<p style="text-align: justify;">The system is available to all commercial banks in Bosnia and Herzegovina from the first day, and in the initial phase, Intesa Sanpaolo Banka BiH, Raiffeisen Bank, and Sparkasse Bank d.d. BiH, joined it, which made the necessary technical adjustments and successfully completed the testing. Together, these three banks make up a quarter of the total assets of the banking sector in Bosnia and Herzegovina. Citizens and business entities, clients of these banks, as well as others when they join, will be able to execute payment transactions within a few seconds, regardless of whether it is a working day, weekend or holiday. The system is available 24 hours a day, seven days a week, throughout the year.</p>
+<p style="text-align: justify;">Instant payments bring numerous benefits to citizens, the economy sector, banks and the overall economy of Bosnia and Herzegovina. They enable citizens to have funds available immediately. They bring faster inflow of funds, more efficient cash flow management and better liquidity to the economy. They provide banks with a modern infrastructure for the development of new digital services and the improvement of the user experience.</p>
+<p style="text-align: justify;">The CBBH fee for processing a transaction in the instant payment system is lower than the existing fee for processing transactions in the giro clearing system.</p>
+<p style="text-align: justify;"><strong><em>"By establishing and putting into operation the domestic instant payment system, Bosnia and Herzegovina obtains a modern payment infrastructure which is harmonized with European standards, and ready for the future development of digital financial services. The Central Bank of Bosnia and Herzegovina has established a safe, reliable and modern payment system. This is not only a technological improvement, but an investment in a more efficient economy, a more competitive financial sector and better services for citizens and the economy of Bosnia and Herzegovina. In this way, BH becomes equal to EU member states," </em></strong>said the Governor of the Central Bank of BH, Jasmina Selimović, Ph.D..</p>
+<p style="text-align: justify;">The domestic instant payment system was established on the model of the European instant payment system, which was adapted for the countries of the Western Balkans by the Bank of Italy with the consent of the European Central Bank. The project was implemented with the support of the European Commission and the Delegation of the European Union in Bosnia and Herzegovina.</p>
+<p style="text-align: justify;"><em><strong>"The launch of the domestic instant payment system is an important step closer to the EU’s digital single market. By aligning payment infrastructure with European standards, the Central Bank of Bosnia and Herzegovina is helping ensure secure, seamless, and immediate financial transactions for citizens as well as opening the door for future integration into cross-border European networks. The EU has pledged EUR 2 million to support the development and first year of maintenance of the TIPS Clone Project. This achievement, developed in close cooperation with European partners, demonstrates how progress can be achieved with vision and technical dedication,”</strong></em> said the Head of the EU Delegation and EU Special Representative in Bosnia and Herzegovina, Ambassador Luigi Soreca.</p>
+<p style="text-align: justify;">In the coming period, the CBBH plans further development of the system through the introduction of new functionalities and additional services (the so-called <em>overlay</em> services), which will provide to citizens and businesses even simpler, safer and more innovative payment methods, such as QR codes, and at a later stage, the possibility of cross-border payments.</p>
+<p style="text-align: justify;">On the occasion of joining the domestic payment system, the President of the Management Board of Intesa Sanpaolo Bank BIH, Michele Castoro said: <strong><em>"I am particularly proud that Intesa Sanpaolo Bank BIH, in close cooperation with the Central Bank of Bosnia and Herzegovina, is one of the pioneer banks in Bosnia and Herzegovina that is introducing instant payments for its clients. This achievement once again shows our significant commitment to innovation, and our determination to deliver specific value by continuously improving the banking experience. We believe that instant payments will change the way citizens and businesses carry out their daily financial transactions."</em></strong></p>
+<p style="text-align: justify;">Lars Frankemolle, Chairman of the Management Board of Raiffeisen Bank, also expressed his satisfaction with the modernization of the domestic payment infrastructure:</p>
+<p style="text-align: justify;"><strong><em>"Instant payments are not just a matter of technology. It's about people and moments that matter.  Whether you're sending money to a family, paying a supplier, or running a business, customers increasingly expect transactions to be instant and flawless. We are proud that Raiffeisen Bank is among the first banks to support this transformation in Bosnia and Herzegovina with the Central Bank of Bosnia and Herzegovina. Innovation only creates value when it improves people's daily lives."</em></strong></p>
+<p style="text-align: justify;">Amir Softić, Bank Management Chairman of the Board of Sparkasse Bank d.d. BiH, said on this occasion:</p>
+<p style="text-align: justify;"><strong><em>"This is one of the important steps forward in the modernization of payment transactions in Bosnia and Herzegovina, on which we sincerely congratulate the Central Bank of BiH. With further implementation throughout the banking sector, this service brings new value to citizens and businesses through safe, faster and more efficient implementation of payment transactions. We are pleased that Sparkasse Bank d.d. BiH is among the first partners in this process, and that through this service we will soon be able to offer our clients a new dimension of speed and efficiency of transactions."</em></strong></p>
+<p style="text-align: justify;">The establishment of the instant payment system has been supported by the European Union with EUR 2 million.</p>
+<p style="text-align: justify;">The Central Bank of Bosnia and Herzegovina has prepared operational, technical and regulatory conditions for the functioning of the system and has adopted the Rules of Operation of the Instant Payment System of Bosnia and Herzegovina.</p>
+<p style="text-align: justify;">Banks that are still adapting their technical and operational conditions to the needs of the instant payment system will join gradually.</p>
+<p style="text-align: justify;">Information on the availability of the service, the manner of its use and the time of its introduction at individual banks will be available to clients directly from their banks.</p>                </div>
+            </article>
+
+            <aside class="side">
+                <div class="body">
+                    <!-- Sidebox --><div class="sidebox"><div class="sidebody"><ul class="list-unstyled list-docs arrowicon"><li><a href="/press/govori/"><p class="title">Speeches and Presentations</p></a></li><li><a href="/content/read/1139"><p class="title">International Conference "The Future of Cash"</p></a></li><li><a href="/press/novina/"><p class="title">CBBH Newsletters</p></a></li><li><a href="/press/"><p class="title">Annual Report on the Implementation of the Law on Freedom of Access to Information</p></a></li><li><a href="/press/"><p class="title">CBBH Announces a Call for Papers</p></a></li><li><a href="/press/"><p class="title"></p></a></li><li><a href="/press/"><p class="title"></p></a></li><li><a href="/press/"><p class="title"></p></a></li><li><a href="/press/"><p class="title"></p></a></li><li><a href="/press/"><p class="title">WE-Finance Code 2025 BH</p></a></li><li><a href="/press/audio/"><p class="title">Audio Files from Press Conferences</p></a></li><li><a href="/content/read/1127"><p class="title">International Conference on the Occasion of the 20th Anniversary of the CBBH</p></a></li><li><a href="/press/"><p class="title"></p></a></li><ul></div></div> <!-- End Quick Links --><!-- Sidebox --><div class="sidebox bordered"><div class="sidehead"><h4>Access То Information</h4></div><div class="sidebody"><p>According to the Law on Free Access to Information in BH, the information under the control of a public institution represents public good with value. Any natural and legal person is entitled to access the information under the control of a public institution, and every public institution has the appropriate obligation to publish such information.</p></div><div class="sidefoot"><a href="/press/informacije/" class="btn-text">DOWNLOAD<i class="icon-arrow"></i></a></div></div> <!-- Sidebox -->
+                </div>
+            </aside>
+        </div>
+
+        <div class="row no-print">
+    <div class="col-md-6">
+        <a href="https://registri.cbbh.ba" class="btn-jumbo" style="background-image: url(/Content/img/btn-regbg.jpg)">
+            <div class="circle"><i class="icon-arrow"></i></div>
+            <p class="title">Single Registry of Legal Entities Accounts</p>
+            <p></p>
+        </a>
+    </div>
+    <div class="col-md-6">
+        <a href="https://registri.cbbh.ba/" class="btn-jumbo" style="background-image: url(/Content/img/btn-regbg.jpg)">
+            <div class="circle"><i class="icon-arrow"></i></div>
+            <p class="title">Central Registry of Credits</p>
+            <p></p>
+        </a>
+    </div>
+
+</div>
+<br />
+<div class="row no-print">
+    <div class="col-md-6">
+        <a href="/Content/Read/915" class="btn-jumbo" style="background-image: url(/Content/img/btn-statbg.jpg)">
+            <div class="circle"><i class="icon-arrow"></i></div>
+            <p class="title">Statistics Web portal of the CBBH</p>
+            <p></p>
+        </a>
+    </div>
+</div>
+<br/>
+<div class="row no-print">
+    <div class="col-md-6">
+        <a href="/JIBAccountList" class="btn-jumbo" style="background-image: url(/Content/img/btn-regbg.jpg)">
+            <div class="circle"><i class="icon-arrow"></i></div>
+            <p class="title">Informative business subjects accounts list</p>
+            <p></p>
+        </a>
+    </div>   
+</div>
+
+
+
+        <!-- Newsletter -->
+<div class="nletter no-print">
+    <div class="row">
+        <div class="col-md-6">
+            <h3>Newsletter CBBiH</h3>
+            <p></p>
+        </div>
+        <div class="col-md-6">
+
+            <div class="form">
+                <p style="display:none; font-size:20px;" class="text-danger" id="newsletterErrorMessage"></p>
+                <p style="display:none; font-size:20px;" class="text-success" id="newsletterSuccessMessage"></p>
+                <div class="form-group form-prefixed">
+                    <i class="icon-email picto"></i>
+                    <input id="Email" type="text" name="Email" class="form-control form-line" value="" placeholder="Your email address" />
+                    <button id="newsletterPrijavaBtn" class="btn">Sign up<i class="icon-arrow"></i></button>
+                </div>
+                <div class="form-group form-inline">
+                    <div class="checkbox icheck">
+                        <label>
+                            <input id="ForCurrencyExchange" name="ForCurrencyExchange" type="checkbox"> Currency Exchange
+                        </label>
+                    </div>
+                    <div class="checkbox icheck">
+                        <label>
+                            <input id="ForNews" name="ForNews" type="checkbox"> News
+                        </label>
+                    </div>
+                    <div class="form-group">
+                           
+                        <div id="g-recaptcha1"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div> <!-- End: Newsletter -->
+
+<script>
+    var CaptchaCallback = function () {
+        grecaptcha.render('g-recaptcha1', { 'sitekey': '6LeUYAcUAAAAAFcY4uC8gDU2C8Sm-eKXsCOOpDN7' });
+    };
+
+    function showError(data) {
+        $("#newsletterErrorMessage").html(data);
+        $("#newsletterErrorMessage").css("display", "block");
+        setTimeout(function () {
+            $("#newsletterErrorMessage").css("display", "none");
+        }, 3000);
+    }
+
+    function showSuccess(data) {
+        $("#newsletterSuccessMessage").html(data);
+        $("#newsletterSuccessMessage").css("display", "block");
+        setTimeout(function () {
+            $("#newsletterSuccessMessage").css("display", "none");
+        }, 3000);
+    }
+
+    $(document).ready(function () {
+        $("#newsletterPrijavaBtn").click(function () {
+            //var recap = grecaptcha.getResponse(jQuery('#g-recaptcha1').attr('data-widget-id'));
+            var recap = grecaptcha.getResponse(0);
+
+            $.ajax({
+                type: "POST",
+                url: "/Newsletter/SignUp",
+                dataType: "json",
+                data: {
+                    email: $("#Email").val(), forNews: $("#ForNews").is(":checked"), forCurrencyExchange: $("#ForCurrencyExchange").is(":checked"), captcha: recap /*captcha: $("#g-recaptcha-response").val()*/
+                },
+                success: function (data) {
+                    if (data.code == 200) showSuccess(data.message);
+                    if (data.code == 400) showError(data.message);
+                },
+                complete: function (jqXHR, status) {
+                    grecaptcha.reset(0);
+                },
+                cache: false
+            });
+        });
+    });
+
+</script>
+
+
+    </div>
+</section> <!-- End Main Content -->
+
+<script>
+    if ($('.yt-embed')) {
+        var maxwidth = $('.yt-embed').innerWidth();
+        var maxheight = maxwidth * 0.5625;
+
+        $('.yt-embed').attr('height', maxheight);
+    }
+</script>
+
+
+    
+<footer class="footer">
+    
+    <div class="inner">
+        <div class="container">
+            <div class="row"  "><div class="col-md-3 col-sm-6"><p class="title">BH Currency</p><ul class="list-unstyled list-menu"><li><a href="/content/read/19">KM Banknotes</a></li><li><a href="/content/read/1072">KM Coins</a></li><li><a href="/content/read/645">Security Features of KM Banknotes</a></li><li><a href="/content/read/21">Numismatics</a></li><li><a href="/content/read/1261">KM banknotes, being withdrawn from circulation and ceased to be the legal tender</a></li><li><a href="/content/read/1287">Technical analysis of suspicious money</a></li><li><a href="/content/read/1090">Replacing cash KM unfit for circulation</a></li><li><a href="/content/read/1089">Regulations </a></li></ul></div><div class="col-md-3 col-sm-6"><p class="title">Public Relations</p><ul class="list-unstyled list-menu"><li><a href="/press/AllNews">News and Press Releases</a></li><li><a href="/press/audio/753">Multimedia</a></li><li><a href="/press/Govori">Speeches and Presentations</a></li><li><a href="/press/Novina">CBBH Newsletters</a></li><li><a href="http://fined.cbbh.ba/">Education component</a></li><li><a href="/press/Informacije">Law on freedom to access information</a></li><li><a href="/Content/Read/473">Terms of use and other online services of the Central Bank of Bosnia and Herzegovina</a></li><li><a href="/press/faq">Questions and answers</a></li></ul></div><div class="col-md-3 col-sm-6"><p class="title">Payment Systems</p><ul class="list-unstyled list-menu"><li><a href="/content/read/1058">Real time gross settlement (RTGS)</a></li><li><a href="/content/read/1241">Gyro Clearing</a></li><li><a href="/content/read/518">Clearing of International Payments</a></li><li><a href="/content/read/1291">Instant Payment System - IPS BiH</a></li><li><a href="#">Reports and statistics</a></li><li><a href="/content/read/1240">Oversight of payment systems</a></li><li><a href="/content/read/59">Contacts</a></li></ul></div><div class="col-md-3 col-sm-6"><p class="title">Publications</p><ul class="list-unstyled list-menu"><li><a href="/content/archive/36">Annual Reports</a></li><li><a href="/content/archive/575">Financial Stability Reports</a></li><li><a href="/content/archive/35">Quarterly Bulletins</a></li><li><a href="/content/archive/1260">Report on Macroeconomic Imbalances</a></li><li><a href="/content/archive/1231">Financial Stability Risk Assessment</a></li><li><a href="/content/archive/903">Monthly Economic Review</a></li><li><a href="/content/archive/1134">Annual Financial Statements</a></li><li><a href="/content/archive/1137">Quarterly Financial Statements</a></li><li><a href="/content/archive/17">CBBH Monthly Report On Currency Board Arrangement</a></li><li><a href="/content/read/1138">Monthly Report on Financial Position – Data Series (1997-2018)</a></li><li><a href="/content/archive/1069">Weekly report from international financial market</a></li><li><a href="/content/archive/144">Special  Research Topics</a></li><li><a href="/content/archive/1141">Working papers</a></li><li><a href="/content/read/1130">Monograph</a></li></ul></div></div>
+            
+        </div>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="foot-foot">
+                    <p class="title">Follow us:</p>
+                    <ul class="list-inline list-soc">
+                        <li><a href="https://twitter.com/cbbih" class="link-circle"><i class="icon-twitter" target="_blank"></i></a></li>
+                        <li><a href="https://www.youtube.com/channel/UC8iRX4s7gvnKGnN6DCXxu3Q" class="link-circle"><i class="fab fa-youtube" target="_blank"></i></a></li>
+                        <li><a href="https://www.facebook.com/CentralnaBankaBiH" class="link-circle"><i class="icon-facebook" target="_blank"></i></a></li>
+                        <li><a href="https://www.linkedin.com/company/cbbih" class="link-circle"><i class="icon-linkedin"></i></a></li>
+                        <li><a href="/Feed/Rss/" class="link-circle" target="_blank"><i class="icon-rss"></i></a></li>
+                    </ul>
+                    <div class="copy">
+                        <img class="foot-logo" src="/data/images/o_cbbh/logo-cbbh-top.png" alt="The Central Bank of Bosnia and Herzegovina" />
+                        <p>© 2026. The Central Bank of Bosnia and Herzegovina</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</footer>
+
+
+
+
+    <script type="text/javascript">
+
+        $('#spinnercontainer, #spinner').ajaxStart(function () {
+            $(this).fadeIn('fast');
+        }).ajaxStop(function () {
+            $(this).stop().fadeOut('fast');
+        });
+
+        $("#backontop").click(function () {
+            $("html, body").animate({ scrollTop: 0 }, 1000);
+        });
+
+    </script>
+
+</body>
+</html>

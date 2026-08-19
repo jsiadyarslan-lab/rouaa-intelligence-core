@@ -1,0 +1,20 @@
+{
+  "results": {
+    "25": {
+      "elapsed_s": 0.05,
+      "throughput_jps": 493.41,
+      "pass": true
+    },
+    "50": {
+      "elapsed_s": 0.11,
+      "throughput_jps": 471.48,
+      "pass": true
+    },
+    "100": {
+      "elapsed_s": 0.26,
+      "throughput_jps": 390.52,
+      "pass": true
+    }
+  },
+  "failure_isolation_pass": true
+}

@@ -1,0 +1,359 @@
+
+<div style="border:1px solid #990000;padding-left:20px;margin:0 0 10px 0;">
+
+<h4>A PHP Error was encountered</h4>
+
+<p>Severity: Warning</p>
+<p>Message:  fopen(/var/opt/rh/rh-php72/lib/php/session/ci_sessionedbdbnfl5jdq6ih7benfr7950abe673a): failed to open stream: No space left on device</p>
+<p>Filename: drivers/Session_files_driver.php</p>
+<p>Line Number: 176</p>
+
+
+	<p>Backtrace:</p>
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+			<p style="margin-left:10px">
+			File: /webcontent/bblibrary/index.php<br />
+			Line: 315<br />
+			Function: require_once			</p>
+
+		
+	
+
+</div>
+<div style="border:1px solid #990000;padding-left:20px;margin:0 0 10px 0;">
+
+<h4>A PHP Error was encountered</h4>
+
+<p>Severity: Warning</p>
+<p>Message:  session_start(): Failed to read session data: user (path: /var/opt/rh/rh-php72/lib/php/session)</p>
+<p>Filename: Session/Session.php</p>
+<p>Line Number: 143</p>
+
+
+	<p>Backtrace:</p>
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+			<p style="margin-left:10px">
+			File: /webcontent/bblibrary/index.php<br />
+			Line: 315<br />
+			Function: require_once			</p>
+
+		
+	
+
+</div><!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Bangladesh Bank Library</title>
+    <link rel="icon" type="image/png" href="https://www.bb.org.bd/bblibrary/assets/img/favicon.png">
+
+		<!-- Bootstrap -->
+
+	
+		
+		<link rel="stylesheet" href="https://www.bb.org.bd/bblibrary/assets/css/bootstrap.min.css">
+  		<script src="https://www.bb.org.bd/bblibrary/assets/js/jquery.min.js"></script>
+		<link rel="stylesheet" href="https://www.bb.org.bd/bblibrary/assets/fonts/fonts.css">
+		<link rel="stylesheet" href="https://www.bb.org.bd/bblibrary/assets/plugins/font-awesome/css/font-awesome.min.css">
+		
+<!--script src="< ?php echo base_url('assets/js/popper.min.js');?>"></script-->
+
+
+<!----------------bootstrap.min.js-------for mobile version menue----------->
+    <script src="https://www.bb.org.bd/bblibrary/assets/js/bootstrap.min.js"></script>
+	
+		
+	<link rel="stylesheet" href="https://www.bb.org.bd/bblibrary/assets/css/datatables.min.css">
+	<link rel="stylesheet" href="https://www.bb.org.bd/bblibrary/assets/css/datepicker.css">
+		
+		
+		
+    <!-- Font Awesome -->
+  <!--  <link rel="stylesheet" href="https://www.bb.org.bd/bblibrary/assets/css/font-awesome.min.css">
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">-->
+
+  	<!-- Include CSS -->
+		 
+		
+		 	<link rel="stylesheet" href="https://www.bb.org.bd/bblibrary/assets/css/library.css">
+		
+		
+	</head>
+	<body class="layout-boxed">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg">
+					<img class="img-fluid" src="https://www.bb.org.bd/bblibrary/assets/img/bblibrary_banner.jpg" alt="Bangladesh Bank Library">
+					<nav class="navbar navbar-expand-lg navbar-light bg-dark navbar-dark">
+  						<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    						<span class="navbar-toggler-icon"></span>
+  						</button>
+						<div class="collapse navbar-collapse" id="navbarSupportedContent">
+    						<ul class="navbar-nav mr-auto">
+      							<li class="nav-item active">
+        							<a class="nav-link" href="https://www.bb.org.bd/bblibrary/index.php/bblibrary/home">Home</a>
+      							</li>
+      							<li class="nav-item active">
+        							<a class="nav-link" href="https://www.bb.org.bd/bblibrary/index.php/bblibrary/bblibrary_management">Management & Collection</a>
+      							</li>
+      							<li class="nav-item active">
+        							<a class="nav-link" href="https://www.bb.org.bd/bblibrary/index.php/bblibrary/bblibrary_services">Library Services</a>
+      							</li>
+      							<li class="nav-item active">
+        							<a class="nav-link" href="https://www.bb.org.bd/bblibrary/index.php/bblibrary/bblibrary_spclservices">Special Services</a>
+      							</li>
+      							<li class="nav-item active">
+      								<a class="nav-link" href="https://www.bb.org.bd/bblibrary/index.php/bblibrary/bblibrary_facilities">Facilities</a>
+      							</li>
+                    <li class="nav-item active">
+                      <a class="nav-link" href="https://www.bb.org.bd/bblibrary/index.php/bblibrary/bblibrary_corners_and_zones">Corners and Zones</a>
+                    </li>
+                    <li class="nav-item active">
+                      <a class="nav-link" href="https://www.bb.org.bd/bblibrary/index.php/bblibrary/bblibrary_eResources">eResources</a>
+                    </li>
+								 <li class="nav-item active">
+                      <a class="nav-link" href="https://www.bb.org.bd/bblibrary/index.php/bblibrary/newsclip">eNews Clip</a>
+                    </li>
+					<li class="nav-item active">
+                      <a class="nav-link" href="https://www.bb.org.bd/bblibrary/index.php/bblibrary/pub_archive">Archive</a>
+                    </li>
+      							<!--<li class="nav-item dropdown">
+        							<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Dropdown
+        							</a>
+        							<div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          							<a class="dropdown-item" href="#">Action</a>
+          							<a class="dropdown-item" href="#">Another action</a>
+          							<div class="dropdown-divider"></div>
+          							<a class="dropdown-item" href="#">Something else here</a>
+        							</div>
+      							</li>-->
+    						</ul>
+    						<!--<form class="form-inline my-2 my-lg-0">
+      							<input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+      							<button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+    						</form>-->
+  						</div>
+					</nav>
+				</div>
+			</div>
+		</div>
+<div class="content-wrapper">
+	<section class="content">
+			<div class="container">
+				<div class="row">
+					<div class="col-12">
+						
+					</div>
+				</div>
+			</div>
+		</section>
+				<div class="container">
+			<div class="row">
+				<div class="col-lg-3">
+					<div class="bbsidebar-sidebar">
+						<div class="single-widget categories">
+							<!--h4 class="title">
+								Search
+							</h4--><br>
+							<div class="form">
+								<span class="form-msg"></span>
+                                <form method="post" action="https://www.bb.org.bd/bblibrary/index.php/bblibrary/newsclip" id="search-form">
+									<div class="input-group mb-3">
+										<div class="input-group-prepend">
+											<label class="input-group-text" for="inputGroupSelect01"><i class="fa fa-caret-down" aria-hidden="true"></i></label>
+										</div>
+										<select class="form-control form-control-sm"  name="cboNewsPaper" id="cboNewsPaper">
+																						<option value="-1"  selected>Select News Paper</option>
+											<option value="89">Ajker Sylhet [&#2438;&#2460;&#2453;&#2503;&#2480; &#2488;&#2495;&#2482;&#2503;&#2463;]</option><option value="58">Alokita Bangladesh [&#2438;&#2482;&#2507;&#2453;&#2495;&#2468; &#2476;&#2494;&#2434;&#2482;&#2494;&#2470;&#2503;&#2486;]</option><option value="52">Amader Orthoneeti [&#2438;&#2478;&#2494;&#2470;&#2503;&#2480; &#2437;&#2480;&#2509;&#2469;&#2472;&#2496;&#2468;&#2495;]</option><option value="13">Amader Shomoy [&#2438;&#2478;&#2494;&#2470;&#2503;&#2480; &#2488;&#2478;&#2479;&#2492;]</option><option value="49">Amader Shomoy.Com [&#2438;&#2478;&#2494;&#2470;&#2503;&#2480;&#2488;&#2478;&#2479;&#2492;.&#2453;&#2478;]</option><option value="24">Amar Desh [&#2438;&#2478;&#2494;&#2480; &#2470;&#2503;&#2486;]</option><option value="106">Amar Sangbad [&#2438;&#2478;&#2494;&#2480; &#2488;&#2434;&#2476;&#2494;&#2470;]</option><option value="72">Anandabazar Patrika [&#2438;&#2472;&#2472;&#2509;&#2470;&#2476;&#2494;&#2460;&#2494;&#2480; &#2474;&#2468;&#2509;&#2480;&#2495;&#2453;&#2494;]</option><option value="16">Arthaniti Pratidin [&#2437;&#2480;&#2509;&#2469;&#2472;&#2496;&#2468;&#2495; &#2474;&#2509;&#2480;&#2468;&#2495;&#2470;&#2495;&#2472;]</option><option value="82">Arthosuchak [&#2437;&#2480;&#2509;&#2469;&#2488;&#2498;&#2458;&#2453;]</option><option value="78">Asian Age</option><option value="83">Bangla Tribune [&#2476;&#2494;&#2434;&#2482;&#2494; &#2463;&#2509;&#2480;&#2495;&#2476;&#2495;&#2441;&#2472;]</option><option value="35">Bangla24.com</option><option value="12">Bangladesh Pratidin [&#2476;&#2494;&#2434;&#2482;&#2494;&#2470;&#2503;&#2486; &#2474;&#2509;&#2480;&#2468;&#2495;&#2470;&#2495;&#2472;]</option><option value="41">Bangladesh Sangbad Sangstha [&#2476;&#2494;&#2434;&#2482;&#2494;&#2470;&#2503;&#2486; &#2488;&#2434;&#2476;&#2494;&#2470; &#2488;&#2434;&#2488;&#2509;&#2469;&#2494;]</option><option value="31">Bangladesh Today</option><option value="94">Bangladesher Khabor [&#2476;&#2494;&#2434;&#2482;&#2494;&#2470;&#2503;&#2486;&#2503;&#2480; &#2454;&#2476;&#2480;]</option><option value="77">Banglamail24.com</option><option value="44">Banglanews24.com</option><option value="75">Bank for International Settlements</option><option value="39">Bankinfobd.com</option><option value="100">Barta24.com</option><option value="54">Bartaman [&#2476;&#2480;&#2509;&#2468;&#2478;&#2494;&#2472;]</option><option value="110">BB Library</option><option value="104">BBC Bangla</option><option value="96">BD Financial News 24.com</option><option value="4">bdnews24.com</option><option value="23">Bhorer Kagoj [&#2477;&#2507;&#2480;&#2503;&#2480; &#2453;&#2494;&#2455;&#2460;]</option><option value="76">BIS Central Bankers Speeches</option><option value="38">Bizbdnews.com</option><option value="1">Bonik Barta [&#2476;&#2467;&#2495;&#2453; &#2476;&#2494;&#2480;&#2509;&#2468;&#2494;]</option><option value="55">Central Banking.com</option><option value="112">Channel i Online</option><option value="32">Daily Destiny</option><option value="99">Daily Industry</option><option value="103">Daily Industry</option><option value="56">Daily Observer</option><option value="25">Daily Star</option><option value="43">Daily Sun</option><option value="92">Dainik Azadi [&#2470;&#2504;&#2472;&#2495;&#2453; &#2438;&#2460;&#2494;&#2470;&#2496;]</option><option value="95">Dainik Purbokone [&#2470;&#2504;&#2472;&#2495;&#2453; &#2474;&#2498;&#2480;&#2509;&#2476;&#2453;&#2507;&#2467;]</option><option value="105">Desh Rupantor [&#2470;&#2503;&#2486; &#2480;&#2498;&#2474;&#2494;&#2472;&#2509;&#2468;&#2480;]</option><option value="111">Dhaka Post</option><option value="98">Dhaka Times [&#2466;&#2494;&#2453;&#2494; &#2463;&#2494;&#2439;&#2478;&#2488;]</option><option value="46">Dhaka Tribune</option><option value="17">Dinkal [&#2470;&#2495;&#2472;&#2453;&#2494;&#2482;]</option><option value="97">Ekushe TV [&#2447;&#2453;&#2497;&#2486;&#2503; &#2463;&#2495;&#2477;&#2495;.&#2453;&#2478;]</option><option value="15">Financial Express</option><option value="90">Financial Times</option><option value="50">Hawker.com.bd</option><option value="28">Independent</option><option value="101">India Today</option><option value="20">Inqilab [&#2439;&#2472;&#2453;&#2495;&#2482;&#2494;&#2476;]</option><option value="3">Ittefaq [&#2439;&#2468;&#2509;&#2468;&#2503;&#2475;&#2494;&#2453;]</option><option value="85">Jagonews24bd</option><option value="21">Jaijaidin [&#2479;&#2494;&#2479;&#2492;&#2479;&#2494;&#2479;&#2492;&#2470;&#2495;&#2472;]</option><option value="10">Janakantha [&#2460;&#2472;&#2453;&#2467;&#2509;&#2464;]</option><option value="14">Jugantor [&#2479;&#2497;&#2455;&#2494;&#2472;&#2509;&#2468;&#2480;]</option><option value="7">Kaler Kantho [&#2453;&#2494;&#2482;&#2503;&#2480; &#2453;&#2467;&#2509;&#2464;]</option><option value="102">Khola Kagoj [&#2454;&#2507;&#2482;&#2494; &#2453;&#2494;&#2455;&#2460;]</option><option value="26">Manab Zamin [&#2478;&#2494;&#2472;&#2476;&#2460;&#2478;&#2495;&#2472;]</option><option value="45">Manobkantha [&#2478;&#2494;&#2472;&#2476; &#2453;&#2467;&#2509;&#2464;]</option><option value="57">mtnews24.com</option><option value="19">Naya Diganta [&#2472;&#2479;&#2492;&#2494; &#2470;&#2495;&#2455;&#2472;&#2509;&#2468;]</option><option value="29">New Age</option><option value="30">New Nation</option><option value="91">New York Times</option><option value="34">News Today</option><option value="81">OurTime.com</option><option value="37">Priyo</option><option value="2">Prothom Alo [&#2474;&#2509;&#2480;&#2469;&#2478; &#2438;&#2482;&#2507;]</option><option value="88">Protidiner Sangbad [&#2474;&#2509;&#2480;&#2468;&#2495;&#2470;&#2495;&#2472;&#2503;&#2480; &#2488;&#2434;&#2476;&#2494;&#2470;]</option><option value="47">Real Time News Network</option><option value="53">Risingbd.com</option><option value="9">Samakal [&#2488;&#2478;&#2453;&#2494;&#2482;]</option><option value="18">Sangbad [&#2488;&#2434;&#2476;&#2494;&#2470;]</option><option value="27">Sangram [&#2488;&#2434;&#2455;&#2509;&#2480;&#2494;&#2478;]</option><option value="42">Share Biz [&#2486;&#2503;&#2527;&#2494;&#2480; &#2476;&#2495;&#2460;]</option><option value="36">Sharenews24.com</option><option value="86">shershanews24.com [&#2486;&#2496;&#2480;&#2509;&#2487; &#2472;&#2495;&#2441;&#2460;.&#2453;&#2478;]</option><option value="8">Shokaler Khabor [&#2488;&#2453;&#2494;&#2482;&#2503;&#2480; &#2454;&#2476;&#2480;]</option><option value="40">Skyscrapercity.com</option><option value="84">Suprobhat Bangladesh [&#2488;&#2497;&#2474;&#2509;&#2480;&#2477;&#2494;&#2468; &#2476;&#2494;&#2434;&#2482;&#2494;&#2470;&#2503;&#2486;]</option><option value="109">TBS - The Business Standard</option><option value="74">The Banker</option><option value="48">Timenewsbd.com</option><option value="93">Vorer Pata [&#2477;&#2507;&#2480;&#2503;&#2480; &#2474;&#2494;&#2468;&#2494;]</option><option value="79">Wall Street Journal</option>										</select>
+									</div>
+									<div class="input-group mb-3">
+			                            <div class="input-group-prepend"  >
+			                                <label class="input-group-text">
+			                                    <i class="fa fa-calendar" aria-hidden="true"></i>
+			                                </label>
+			                            </div>
+			                                                        			<input type='text' id='datepicker1' name="from_date" class="form_input_date form-control" value="From Date" />
+                        			</div>
+
+			                        <div class="input-group mb-3">
+			                            <div class="input-group-prepend"  >
+			                                <label class="input-group-text">
+			                                    <i class="fa fa-calendar" aria-hidden="true"></i>
+			                                </label>
+			                            </div>
+			                            			                            <input type='text' id='datepicker' name="to_date" class="form_input_date form-control" value="To Date" />
+			                        </div>
+									<div class="form_group mt-3">
+										<!--<input type="submit" class="form_submit btn" name="search_circular" value="search">-->
+										<button type="submit" class="btn btn-info" name="search_circular" value="search">Search</button>
+									</div>
+                               </form>
+                             </div><!--<div class="form">-->
+                         </div>
+                      </div>
+                </div>
+				<div class="col-lg-9">
+					<div class="row"> 
+						<div class="col-12">
+							<div class="page_header">
+							</div>
+							<span class="data-container">
+								<div class="content-circular">
+								<h5 class="header_title">eNews Clipping: &nbsp;
+								News Clips published today</h5>
+								<table class="table table-striped table-bordered" id="sortableTable">
+										<thead>
+								<tr>
+									<th>SL</th>
+									<th>Publish on</th>
+									<th>Title</th>
+									<th>Source</th>
+								</tr>
+						
+										</thead>
+										<tbody>
+														    </tbody>
+									</table>
+								</div>
+							</span>
+								
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+
+
+
+<script type="text/javascript">
+    $(document).ready(function(){
+        $('#datepicker').datepicker({
+        language: "en",
+        clearBtn: true,
+        autoClose: true,
+        dateFormat: 'yyyy-mm-dd'
+    });
+  });
+</script>
+
+<script type="text/javascript">
+    $(document).ready(function(){
+        $('#datepicker1').datepicker({
+        language: "en",
+        autoClose: true,
+        clearBtn: true,
+        dateFormat: 'yyyy-mm-dd'
+    });
+  });
+</script>
+
+
+<!--script src="https://www.bb.org.bd/bblibrary/assets/js/datepicker.min.js"></script>
+<script src="https://www.bb.org.bd/bblibrary/assets/js/datepicker.en.js"></script>
+
+<script src="https://www.bb.org.bd/bblibrary/assets/js/main.js"></script>
+<script src="https://www.bb.org.bd/bblibrary/assets/js/datatables.min.js"></script-->
+		<div class="container bg-dark mt-3">
+			<div class="row mt-3">
+				<div class="col-lg">
+					<h4 class="text-center text-white mt-3"><a href="https://www.bb.org.bd/bblibrary/index.php/bblibrary/bblibrary_contact">Contact Us</a></h2>
+				</div>
+				<!--<div class="col-lg">
+					<h4 class="text-center text-white mt-3">Usefull Links</h2>
+				</div>-->
+			</div>
+			<div class="row">
+				<hr style="width:96%;text-align: center;background-color:white;">
+				<span class="text-white m-3 text-center">Disclaimer: While every effort is made to ensure accuracy of the information in this website, Bangladesh Bank assumes no responsibility for any damages or losses to users resulting from any error/omission/inadvertent alteration in information provided by this website.</span>
+
+			</div>
+		</div>
+
+
+
+
+<script src="https://www.bb.org.bd/bblibrary/assets/js/jquery.min.js"></script>
+<script src="https://www.bb.org.bd/bblibrary/assets/js/easing.min.js"></script>
+<script src="https://www.bb.org.bd/bblibrary/assets/js/jquery.plugin.js"></script>
+<script src="https://www.bb.org.bd/bblibrary/assets/js/jquery.newsTicker.min.js"></script>
+<script src="https://www.bb.org.bd/bblibrary/assets/plugins/swiper/swiper.js"></script>
+<!--<script src=""></script>-->
+<script src="https://www.bb.org.bd/bblibrary/assets/js/wow.min.js"></script>
+<script src="https://www.bb.org.bd/bblibrary/assets/js/jquery.scrollUp.min.js"></script>
+
+<script src="https://www.bb.org.bd/bblibrary/assets/js/datepicker.min.js"></script>
+<script src="https://www.bb.org.bd/bblibrary/assets/js/datepicker.en.js"></script>
+<script src="https://www.bb.org.bd/bblibrary/assets/js/jquery.more.js"></script>
+
+<script src="https://www.bb.org.bd/bblibrary/assets/js/main.js"></script>
+<script src="https://www.bb.org.bd/bblibrary/assets/js/datatables.min.js"></script>
+
+
+</body>
+</html>

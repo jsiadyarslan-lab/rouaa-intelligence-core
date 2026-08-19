@@ -1,0 +1,3888 @@
+<!DOCTYPE html>
+<html lang="bg">
+    <head>
+        <!-- Required meta tags -->
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<base href="https://www.nsi.bg/" />
+
+<title>Индекси на промишленото производство - юни 2026 година</title>
+<meta name="description" content="Индексът на промишленото производство през юни 2026&nbsp;г. се повишава с 0.4% спрямо предходния месец. Данните са предварителни и сезонно изгладени. В сравнение с юни 2025 г. е регистрирано намаление с 2.5% на календарно изгладения индекс на промишленото производство. &nbsp; Месечни изменения ...">
+
+<meta property="og:site_name" content="НСИ - Национален статистически институт">
+<meta property="og:title" content="Индекси на промишленото производство - юни 2026 година">
+<meta property="og:description" content="Индексът на промишленото производство през юни 2026&nbsp;г. се повишава с 0.4% спрямо предходния месец. Данните са предварителни и сезонно изгладени. В сравнение с юни 2025 г. е регистрирано намаление с 2.5% на календарно изгладения индекс на промишленото производство. &nbsp; Месечни изменения ...">
+<meta property="og:image" content="https://www.nsi.bg/templates/default/img/default.jpg">
+
+<!-- Bootstrap Min CSS -->
+<link rel="stylesheet" href="templates/default/css/bootstrap.min.css">
+<!-- Animate Min CSS -->
+<link rel="stylesheet" href="templates/default/css/animate.min.css">
+<!-- FlatIcon CSS -->
+<link rel="stylesheet" href="templates/default/css/flaticon.css">
+<!-- Odometer Min CSS -->
+<link rel="stylesheet" href="templates/default/css/odometer.min.css">
+<!-- Nice Select CSS -->
+<link rel="stylesheet" href="templates/default/css/nice-select.min.css">
+<!-- MeanMenu CSS -->
+<link rel="stylesheet" href="templates/default/css/meanmenu.css">
+<!-- Magnific Popup Min CSS -->
+<link rel="stylesheet" href="templates/default/css/magnific-popup.min.css">
+<!-- Owl Carousel Min CSS -->
+<link rel="stylesheet" href="templates/default/css/owl.carousel.min.css">
+<!-- Font Awesome Min CSS -->
+<link rel="stylesheet" href="templates/default/css/fontawesome.min.css">
+<!-- FoIcon CSS -->
+<link rel="stylesheet" href="templates/default/css/foicons.css">
+<!-- Style CSS -->
+<link rel="stylesheet" href="templates/default/css/style.css?t=1787011540">
+<!-- Responsive CSS -->
+<link rel="stylesheet" href="templates/default/css/responsive.css?t=1787011540">
+<!-- JS UI CSS -->
+<link rel="stylesheet" href="templates/default/css/jquery-ui.css">
+<!-- datatable -->
+<link href="templates/default/js/external/dataTables.min.css" rel="stylesheet">
+<!-- custom -->
+<link rel="stylesheet" href="templates/default/css/custom.css?t=1787011540">
+
+<link rel="icon" type="image/png" href="templates/default/img/favico/favicon.ico">
+
+<link rel="stylesheet" href="templates/default/js/external/buttons.dataTables.css">
+<style>
+.datatable th, .datatable td {
+	vertical-align: top;
+}
+caption {
+    caption-side: top;
+    font-size: 1.2em;
+    font-weight: bold;
+    color: #000;
+    padding: 10px;
+    text-align: center;
+    background-color: #f0f0f0;
+}
+.custom-right-align {
+    text-align: right;
+}
+</style>
+
+<style>
+.charts_tabs li {
+    display: inline-block;
+	width: auto;
+}
+.charts_tabs li a {
+	display: inline-block;
+}
+</style>
+    </head>
+    <body>
+	        <!-- Preloader -->
+        <div class="preloader">
+            <div class="loader">
+                <div class="shadow"></div>
+                <div class="box"></div>
+            </div>
+        </div>
+        <!-- End Preloader -->
+			<!-- Start Navbar Area -->
+        <div class="navbar-area navbar-two">
+
+			  
+<!--topbar start-->
+<div id="header-top-bar" class="topbar primary-bg"
+	style="background-color: #547A95">
+	<div class="container">
+		<div class="row justify-content-between align-items-center">
+			<div class="col-md-8 col-lg-7 d-none d-md-none d-lg-block">
+				<div class="topbar-text text-white">
+					<ul class="list-inline" style="margin-bottom: 0px;">
+						<li class="list-inline-item text-white"><span
+							class="flaticon-placeholder-filled-point mr-1"></span> ул. „П. Волов“ № 2, София 1038, България</li>
+						<li class="list-inline-item text-white"><a href="tel:(02) 9857 111" target="_blank"><span class="fas fa-phone-alt mr-1"></span> (02) 9857 111</a></li>
+					</ul>
+				</div>
+			</div>
+			<div class="col-md-12 col-lg-5" style="text-align: right;">
+				<div class="topbar-text text-white">
+					<ul class="list-inline text-md-right text-lg-right text-right  my-2">
+                	                		<li class="list-inline-item text-white"><a href="tel:(02) 9857 111" target="_blank"><span class="fas fa-phone-alt mr-1"></span><span class="sr-only">phone</span></a></li>
+                                    	                		<li class="list-inline-item text-white"><a href="https://www.facebook.com/nsibg" target="_blank"><span class="fab fa-facebook-f"></span><span class="sr-only">facebook</span></a></li>
+                                                            	<li class="list-inline-item"><a href="https://www.youtube.com/@bgnsi" class="rounded" target="_blank"><span class="fab fa-youtube"></span><span class="sr-only">youtube</span></a></li>
+                                        
+                                                                <li class="list-inline-item text-white"><a href="/pages/vrazki-34" class="rounded">Връзки</a></li>
+					                        <li class="list-inline-item text-white"><a href="/contacts" class="rounded">Контакти</a></li>
+													<li class="list-inline-item text-white"><a href="/en/press-release/indeksi-na-promishlenoto-proizvodstvo-9111" class="rounded">English</a></li>
+                    </ul>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+<!--topbar end-->
+             <div class="crimso-responsive-nav">
+                <div class="container">
+                    <div class="crimso-responsive-menu">
+                        <div class="logo">
+                            <a href="">
+                                <img src="templates/default/img/logos/logo3.png" class="white-logo" alt="НСИ - Национален статистически институт">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="crimso-nav">
+                <div class="container">
+                    <nav class="navbar navbar-expand-md navbar-light">
+                        <a class="navbar-brand" href="">
+                        	                            <img src="templates/default/img/logos/logo-bg.png" class="white-logo" alt="НСИ - Национален статистически институт">
+                        </a>
+
+                       <div class="collapse navbar-collapse mean-menu" id="navbarSupportedContent">
+                       		
+<ul class="navbar-nav">
+    
+        
+        <li class="nav-item">
+            <a href="/statistical-data/258" class="nav-link">СТАТИСТИЧЕСКИ ДАННИ <i class="fa fa-plus"></i></a>
+
+            				<ul class="dropdown-menu">
+			<li class="nav-item">
+			<a class="nav-link" href="/infostat">ИС ИНФОСТАТ - база от данни</a>
+					</li>
+			<li class="nav-item">
+			<a class="nav-link" href="/statistical-data/258">Бизнес статистика</a>
+			<ul class="dropdown-menu">
+			<li class="nav-item">
+			<a class="nav-link" href="/statistical-data/407">Бизнес наблюдения</a>
+					</li>
+			<li class="nav-item">
+			<a class="nav-link" href="/statistical-data/403">Бизнес регистър</a>
+					</li>
+			<li class="nav-item">
+			<a class="nav-link" href="/statistical-data/391">Външна търговия</a>
+					</li>
+			<li class="nav-item">
+			<a class="nav-link" href="/statistical-data/349">Годишна бизнес статистика</a>
+					</li>
+			<li class="nav-item">
+			<a class="nav-link" href="/statistical-data/343">Инвестиции</a>
+					</li>
+			<li class="nav-item">
+			<a class="nav-link" href="/statistical-data/316">Краткосрочна бизнес статистика</a>
+					</li>
+			<li class="nav-item">
+			<a class="nav-link" href="/statistical-data/301">НИРД, иновации и информационно общество</a>
+					</li>
+			<li class="nav-item">
+			<a class="nav-link" href="/statistical-data/267">Туризъм</a>
+					</li>
+			<li class="nav-item">
+			<a class="nav-link" href="/statistical-data/423">Транспорт</a>
+					</li>
+	</ul>		</li>
+			<li class="nav-item">
+			<a class="nav-link" href="/statistical-data/142">Демографска и социална статистика</a>
+			<ul class="dropdown-menu">
+			<li class="nav-item">
+			<a class="nav-link" href="/statistical-data/246">Доходи, разходи и потребление на домакинствата</a>
+					</li>
+			<li class="nav-item">
+			<a class="nav-link" href="/statistical-data/243">Жилищен фонд</a>
+					</li>
+			<li class="nav-item">
+			<a class="nav-link" href="/statistical-data/229">Здравеопазване</a>
+					</li>
+			<li class="nav-item">
+			<a class="nav-link" href="/statistical-data/218">Култура</a>
+					</li>
+			<li class="nav-item">
+			<a class="nav-link" href="/statistical-data/202">Население - демография, миграция и прогнози</a>
+					</li>
+			<li class="nav-item">
+			<a class="nav-link" href="/statistical-data/181">Образование и учене през целия живот</a>
+					</li>
+			<li class="nav-item">
+			<a class="nav-link" href="/statistical-data/161">Пазар на труда</a>
+					</li>
+			<li class="nav-item">
+			<a class="nav-link" href="/statistical-data/152">Правосъдие и престъпност</a>
+					</li>
+			<li class="nav-item">
+			<a class="nav-link" href="/statistical-data/151">Преброяване на населението и жилищния фонд</a>
+					</li>
+			<li class="nav-item">
+			<a class="nav-link" href="/statistical-data/147">Социална защита</a>
+					</li>
+			<li class="nav-item">
+			<a class="nav-link" href="/statistical-data/143">Социално включване и условия на живот</a>
+					</li>
+	</ul>		</li>
+			<li class="nav-item">
+			<a class="nav-link" href="/statistical-data/82">Макроикономическа статистика</a>
+			<ul class="dropdown-menu">
+			<li class="nav-item">
+			<a class="nav-link" href="/statistical-data/136">Брутен вътрешен продукт (БВП)</a>
+					</li>
+			<li class="nav-item">
+			<a class="nav-link" href="/statistical-data/135">Брутен национален доход (БНД)</a>
+					</li>
+			<li class="nav-item">
+			<a class="nav-link" href="/statistical-data/127">Държавна финансова статистика</a>
+					</li>
+			<li class="nav-item">
+			<a class="nav-link" href="/statistical-data/125">Европейска система от национални и регионални сметки 2010</a>
+					</li>
+			<li class="nav-item">
+			<a class="nav-link" href="/statistical-data/121">Заетост и отработени човекочасове - национално ниво</a>
+					</li>
+			<li class="nav-item">
+			<a class="nav-link" href="/statistical-data/118">Заетост и отработени човекочасове - регионално ниво</a>
+					</li>
+			<li class="nav-item">
+			<a class="nav-link" href="/statistical-data/113">Инфлация и индекси на потребителските цени</a>
+					</li>
+			<li class="nav-item">
+			<a class="nav-link" href="/statistical-data/84">Национални сметки - доклади за качество по програма за предоставяне на данни за Евростат</a>
+					</li>
+			<li class="nav-item">
+			<a class="nav-link" href="/statistical-data/101">Паритети на покупателната способност (ППС) - Програма за европейски и международни сравнения</a>
+					</li>
+			<li class="nav-item">
+			<a class="nav-link" href="/statistical-data/83">Пенсионни права в социалното осигуряване</a>
+					</li>
+			<li class="nav-item">
+			<a class="nav-link" href="/statistical-data/100">Секторни нефинансови сметки по институционални сектори</a>
+					</li>
+			<li class="nav-item">
+			<a class="nav-link" href="/statistical-data/90">Статистика на цените на жилища</a>
+					</li>
+			<li class="nav-item">
+			<a class="nav-link" href="/statistical-data/87">Таблици "Ресурс-използване"</a>
+					</li>
+			<li class="nav-item">
+			<a class="nav-link" href="/statistical-data/85">Финансови национални сметки</a>
+					</li>
+	</ul>		</li>
+			<li class="nav-item">
+			<a class="nav-link" href="/statistical-data/57">Околна среда и енергетика</a>
+			<ul class="dropdown-menu">
+			<li class="nav-item">
+			<a class="nav-link" href="/statistical-data/74">Енергетика</a>
+					</li>
+			<li class="nav-item">
+			<a class="nav-link" href="/statistical-data/58">Околна среда</a>
+					</li>
+	</ul>		</li>
+			<li class="nav-item">
+			<a class="nav-link" href="/statistical-data/15">Многосекторна статистика</a>
+			<ul class="dropdown-menu">
+			<li class="nav-item">
+			<a class="nav-link" href="/statistical-data/48">Кризисни събития</a>
+					</li>
+			<li class="nav-item">
+			<a class="nav-link" href="/statistical-data/428">Равенство между половете</a>
+					</li>
+			<li class="nav-item">
+			<a class="nav-link" href="/statistical-data/46">Регионална статистика</a>
+					</li>
+			<li class="nav-item">
+			<a class="nav-link" href="/statistical-data/45">Баланс на територията на Република България</a>
+					</li>
+			<li class="nav-item">
+			<a class="nav-link" href="/statistical-data/19">Статистика на градовете</a>
+					</li>
+			<li class="nav-item">
+			<a class="nav-link" href="/statistical-data/17">Устойчиво развитие</a>
+					</li>
+			<li class="nav-item">
+			<a class="nav-link" href="/statistical-data/47">Показатели за стратегия "Европа 2020"</a>
+					</li>
+	</ul>		</li>
+			<li class="nav-item">
+			<a class="nav-link" href="/statistical-data/418">Геореферирани данни</a>
+			<ul class="dropdown-menu">
+			<li class="nav-item">
+			<a class="nav-link" href="/statistical-data/419">Грид на населението</a>
+					</li>
+	</ul>		</li>
+			<li class="nav-item">
+			<a class="nav-link" href="/statistical-data/5">Селско и горско стопанство</a>
+			<ul class="dropdown-menu">
+			<li class="nav-item">
+			<a class="nav-link" href="/statistical-data/8">Селско стопанство</a>
+					</li>
+			<li class="nav-item">
+			<a class="nav-link" href="/statistical-data/6">Горско стопанство</a>
+					</li>
+	</ul>		</li>
+			<li class="nav-item">
+			<a class="nav-link" href="/statistical-data/1">Данъчна статистика</a>
+			<ul class="dropdown-menu">
+			<li class="nav-item">
+			<a class="nav-link" href="/statistical-data/2">Продажби на течни горива (бензини, дизел и пропан-бутан)</a>
+					</li>
+	</ul>		</li>
+			<li class="nav-item">
+			<a class="nav-link" href="/statistical-data/411">Ключови показатели</a>
+					</li>
+	</ul>
+			        </li>
+        	
+        
+        <li class="nav-item">
+            <a href="/pages/godishna-otchetnost-za-deinostta-na-predpriyatiyata-2024-850" class="nav-link">ПРОДУКТИ И УСЛУГИ <i class="fa fa-plus"></i></a>
+
+            				<ul class="dropdown-menu">
+			<li class="nav-item">
+			<a class="nav-link" href="/pages/za-respondenti-5">ЗА РЕСПОНДЕНТИ</a>
+			<ul class="dropdown-menu">
+			<li class="nav-item">
+			<a class="nav-link" href="/bulstat">Проверка на задълженията към дата</a>
+					</li>
+			<li class="nav-item">
+			<a class="nav-link" href="/pages/informacionna-sistema-biznes-cikli-97">Информационни системи</a>
+					</li>
+			<li class="nav-item">
+			<a class="nav-link" href="/pages/nablyudenie-na-rabotnata-sila-581">Наблюдения</a>
+					</li>
+			<li class="nav-item">
+			<a class="nav-link" href="/documents/215">Формуляри по теми</a>
+					</li>
+	</ul>		</li>
+			<li class="nav-item">
+			<a class="nav-link" href="/pages/zayavki-za-uslugi-24">Заявки за услуги</a>
+			<ul class="dropdown-menu">
+			<li class="nav-item">
+			<a class="nav-link" href="/service">Заявки за статистически услуги - уеб формуляр</a>
+					</li>
+			<li class="nav-item">
+			<a class="nav-link" href="/pages/zayavki-za-drugi-elektronni-uslugi-935">Заявки за други електронни услуги</a>
+					</li>
+	</ul>		</li>
+			<li class="nav-item">
+			<a class="nav-link" href="/calendar">Календар за разпространение</a>
+					</li>
+			<li class="nav-item">
+			<a class="nav-link" href="/pages/spisak-na-standartnite-statisticheski-pokazateli-27">Списък на стандартните статистически показатели</a>
+					</li>
+			<li class="nav-item">
+			<a class="nav-link" href="/pages/statisticheski-klasifikacii-i-registri-372">Статистически класификации и регистри</a>
+			<ul class="dropdown-menu">
+			<li class="nav-item">
+			<a target="_blank" class="nav-link" href="https://www.nsi.bg/nrnm/">Национален регистър на населените места</a>
+					</li>
+			<li class="nav-item">
+			<a class="nav-link" href="/pages/statisticheski-klasifikacii-13">Статистически класификации</a>
+					</li>
+	</ul>		</li>
+			<li class="nav-item">
+			<a class="nav-link" href="/metadata">Метаданни и методология на изследванията</a>
+			<ul class="dropdown-menu">
+			<li class="nav-item">
+			<a class="nav-link" href="/pages/sdds-plus-57">SDDS Plus</a>
+					</li>
+	</ul>		</li>
+			<li class="nav-item">
+			<a class="nav-link" href="/quality-reports">Доклади за качество</a>
+					</li>
+			<li class="nav-item">
+			<a class="nav-link" href="/pages/obsht-model-na-statisticheskiya-proizvodstven-proces-v-nsi-476">Общ модел на статистическия производствен процес в НСИ</a>
+					</li>
+			<li class="nav-item">
+			<a class="nav-link" href="/publications">Публикации</a>
+					</li>
+			<li class="nav-item">
+			<a class="nav-link" href="/pages/statistika-za-vseki-739">Статистика за всеки</a>
+			<ul class="dropdown-menu">
+			<li class="nav-item">
+			<a class="nav-link" href="/pages/kalkulatori-na-inflaciyata-387">Калкулатори на инфлацията</a>
+					</li>
+			<li class="nav-item">
+			<a class="nav-link" href="/pages/statisticheski-hapcheta-740">Статистически хапчета</a>
+					</li>
+			<li class="nav-item">
+			<a class="nav-link" href="/pages/statistika-za-nachinaeshti-741">Статистика за начинаещи</a>
+					</li>
+			<li class="nav-item">
+			<a class="nav-link" href="/pages/statistika-v-klas-742">Статистика в клас</a>
+					</li>
+			<li class="nav-item">
+			<a class="nav-link" href="/pages/infografiki-743">Инфографики</a>
+					</li>
+			<li class="nav-item">
+			<a class="nav-link" href="/pages/digitalni-publikacii-744">Дигитални публикации</a>
+					</li>
+			<li class="nav-item">
+			<a class="nav-link" href="/pages/statisticheski-rechnici-745">Статистически речници</a>
+					</li>
+			<li class="nav-item">
+			<a class="nav-link" href="/pages/videouroci-po-statistika-i-ikonometriya-746">Видеоуроци по статистика и иконометрия</a>
+					</li>
+			<li class="nav-item">
+			<a class="nav-link" href="/pages/evropeiska-olimpiada-po-statistika-za-uchenici-747">Eвропейска олимпиада по статистика за ученици</a>
+					</li>
+			<li class="nav-item">
+			<a class="nav-link" href="/pages/mejdunaroden-konkurs-za-statisticheski-plakat-748">Международен конкурс за статистически плакат</a>
+					</li>
+			<li class="nav-item">
+			<a class="nav-link" href="/pages/konkurs-za-statistichesko-ese-za-uchenici-772">Конкурс за статистическо есе за ученици</a>
+					</li>
+			<li class="nav-item">
+			<a class="nav-link" href="/pages/datathon-2025-787">Datathon</a>
+					</li>
+			<li class="nav-item">
+			<a class="nav-link" href="/pages/izlojbi-804">Изложби</a>
+					</li>
+			<li class="nav-item">
+			<a class="nav-link" href="/pages/socialni-medii-749">Социални медии</a>
+					</li>
+	</ul>		</li>
+			<li class="nav-item">
+			<a class="nav-link" href="/pages/esds-help-desk-388">ESDS Help Desk</a>
+					</li>
+			<li class="nav-item">
+			<a target="_blank" class="nav-link" href="https://www.nsi.bg/ddb2.1/?l=bg">База данни за разпространение - SDMX 2.1 Референтна инфраструктура</a>
+					</li>
+			<li class="nav-item">
+			<a class="nav-link" href="/pages/harta-na-klienta-931">Харта на клиента</a>
+					</li>
+	</ul>
+			        </li>
+        	
+        
+        <li class="nav-item">
+            <a href="/pages/history-897" class="nav-link">ЗА НСИ <i class="fa fa-plus"></i></a>
+
+            				<ul class="dropdown-menu">
+			<li class="nav-item">
+			<a class="nav-link" href="/team-schema">Организационна структура</a>
+			<ul class="dropdown-menu">
+			<li class="nav-item">
+			<a class="nav-link" href="/team-schema">Организационна схема</a>
+					</li>
+			<li class="nav-item">
+			<a class="nav-link" href="/team-search">Търсене</a>
+					</li>
+			<li class="nav-item">
+			<a class="nav-link" href="/team-management">Ръководство</a>
+					</li>
+			<li class="nav-item">
+			<a class="nav-link" href="/team-structure/direkciya-biznes-statistika-11">Дирекция "Бизнес статистика"</a>
+					</li>
+			<li class="nav-item">
+			<a class="nav-link" href="/team-structure/direkciya-demografska-i-socialna-statistika-17">Дирекция "Демографска и социална статистика"</a>
+					</li>
+			<li class="nav-item">
+			<a class="nav-link" href="/team-structure/direkciya-makroikonomicheska-statistika-23">Дирекция "Макроикономическа статистика"</a>
+					</li>
+			<li class="nav-item">
+			<a class="nav-link" href="/team-structure/direkciya-mnogosektorna-statistika-metodologiya-i-registri-30">Дирекция "Многосекторна статистика, методология и регистри"</a>
+					</li>
+			<li class="nav-item">
+			<a class="nav-link" href="/team-structure/direkciya-informacionni-sistemi-i-infrastruktura-36">Дирекция "Информационни системи и инфраструктура"</a>
+					</li>
+			<li class="nav-item">
+			<a class="nav-link" href="/team-structure/direkciya-obshta-administraciya-6">Дирекция "Обща администрация"</a>
+					</li>
+			<li class="nav-item">
+			<a class="nav-link" href="/team-subordination">Структури на пряко подчинение на председателя</a>
+					</li>
+			<li class="nav-item">
+			<a class="nav-link" href="/team-tsb">ТСБ</a>
+					</li>
+	</ul>		</li>
+			<li class="nav-item">
+			<a class="nav-link" href="/pages/history-897">История</a>
+					</li>
+			<li class="nav-item">
+			<a class="nav-link" href="/documents/218">Нормативна уредба</a>
+			<ul class="dropdown-menu">
+			<li class="nav-item">
+			<a class="nav-link" href="/documents/218">Европейска нормативна уредба</a>
+					</li>
+			<li class="nav-item">
+			<a class="nav-link" href="/documents/224">Българска нормативна уредба</a>
+					</li>
+			<li class="nav-item">
+			<a class="nav-link" href="/documents/219">Достъп до обществена информация</a>
+					</li>
+			<li class="nav-item">
+			<a class="nav-link" href="/documents/220">Опазване на статистическата тайна</a>
+					</li>
+			<li class="nav-item">
+			<a class="nav-link" href="/documents/232">Методики по постановления на Министерския съвет</a>
+					</li>
+	</ul>		</li>
+			<li class="nav-item">
+			<a class="nav-link" href="/pages/nacionalna-statisticheska-sistema-241">Национална статистическа система</a>
+			<ul class="dropdown-menu">
+			<li class="nav-item">
+			<a class="nav-link" href="/pages/nacionalen-statisticheski-savet-63">Национален статистически съвет</a>
+					</li>
+			<li class="nav-item">
+			<a class="nav-link" href="/pages/spisak-na-organite-na-statistikata-32">Списък на органите на статистиката</a>
+					</li>
+			<li class="nav-item">
+			<a class="nav-link" href="/pages/rules-42">Правилник за дейността на Националния статистически съвет към председателя на НСИ</a>
+					</li>
+			<li class="nav-item">
+			<a class="nav-link" href="/pages/guidelines-512">Насоки за разпространение на статистическа информация в НСС</a>
+					</li>
+	</ul>		</li>
+			<li class="nav-item">
+			<a class="nav-link" href="/pages/konsultativen-savet-kam-predsedatelya-na-nsi-s-uchastie-na-predstaviteli-ot-nacionalno-predstavitelnite-rabotodatelski-organizacii-825">Консултативен съвет към председателя на НСИ</a>
+					</li>
+			<li class="nav-item">
+			<a class="nav-link" href="/pages/international-cooperation-4">Международно сътрудничество</a>
+			<ul class="dropdown-menu">
+			<li class="nav-item">
+			<a class="nav-link" href="/pages/mejdunarodna-konferenciya-11-12-septemvri-2025-g-906">Международна конференция, септември 2025</a>
+					</li>
+			<li class="nav-item">
+			<a class="nav-link" href="/pages/european-statistical-system-29">Европейска статистическа система</a>
+					</li>
+			<li class="nav-item">
+			<a class="nav-link" href="/pages/drugi-mejdunarodni-organizacii-797">Други международни организации</a>
+					</li>
+			<li class="nav-item">
+			<a class="nav-link" href="/pages/rabotna-grupa-12-statistika-30">Работна група 12 „Статистика”</a>
+					</li>
+	</ul>		</li>
+			<li class="nav-item">
+			<a class="nav-link" href="/pages/otkrito-upravlenie-399">Открито управление</a>
+			<ul class="dropdown-menu">
+			<li class="nav-item">
+			<a class="nav-link" href="/pages/godishen-byudjet-401">Годишен бюджет</a>
+					</li>
+			<li class="nav-item">
+			<a class="nav-link" href="/pages/kasovi-mesechni-otcheti-400">Касови месечни отчети</a>
+					</li>
+			<li class="nav-item">
+			<a class="nav-link" href="/pages/kasovi-trimesechni-otcheti-665">Касови тримесечни отчети</a>
+					</li>
+			<li class="nav-item">
+			<a class="nav-link" href="/pages/kasovi-godishni-otcheti-666">Касови годишни отчети</a>
+					</li>
+			<li class="nav-item">
+			<a class="nav-link" href="/pages/oditen-doklad-922">Одитен доклад</a>
+					</li>
+			<li class="nav-item">
+			<a class="nav-link" href="/pages/informaciya-za-plashtaniyata-v-sebra-332">Информация за плащанията в СЕБРА</a>
+					</li>
+			<li class="nav-item">
+			<a class="nav-link" href="/pages/kriterii-i-pravila-za-ocenka-i-podbor-na-investicionni-proekti-na-nsi-700">Критерии и правила за оценка и подбор на инвестиционни проекти на НСИ</a>
+					</li>
+	</ul>		</li>
+			<li class="nav-item">
+			<a class="nav-link" href="/pages/integrirana-sistema-za-upravlenie-na-kachestvoto-i-sigurnostta-na-informaciyata-370">Качество и сигурност на информацията</a>
+			<ul class="dropdown-menu">
+			<li class="nav-item">
+			<a class="nav-link" href="/pages/politika-po-kachestvoto-i-na-sigurnostta-na-informaciyata-na-nacionalniya-statisticheski-institut-582">Политика по качеството и сигурността на информацията</a>
+					</li>
+			<li class="nav-item">
+			<a class="nav-link" href="/pages/kachestvo-141">Качество</a>
+					</li>
+			<li class="nav-item">
+			<a class="nav-link" href="/pages/spisak-na-kategoriite-informaciya-v-nsi-podlejashti-na-klasifikaciya-kato-slujebna-taina-932">Списък на категориите информация в НСИ, подлежащи на класификация като служебна тайна</a>
+					</li>
+	</ul>		</li>
+			<li class="nav-item">
+			<a class="nav-link" href="/pages/registar-na-deklaraciite-795">Регистър на декларациите</a>
+			<ul class="dropdown-menu">
+			<li class="nav-item">
+			<a class="nav-link" href="/pages/registar-na-deklaraciite-po-chl-75-ot-zakona-za-smetnata-palata-zsp-za-2026-g-928">Регистър на декларациите по чл. 75 от Закона за Сметната палата (ЗСП) за 2026 г.</a>
+					</li>
+			<li class="nav-item">
+			<a class="nav-link" href="/pages/registar-na-deklaraciite-arhiv-796">Регистър на декларациите - архив</a>
+					</li>
+	</ul>		</li>
+			<li class="nav-item">
+			<a class="nav-link" href="/pages/uchebno-kvalifikacionen-centar-slivek-125">Учебно-квалификационен център Сливек</a>
+					</li>
+	</ul>
+			        </li>
+        	
+        	</ul>
+							<div class="logo2">
+								<h1><img src="templates/default/img/logos/logo22.png" class="black-logo d-none d-lg-block" alt="НСИ"></h1>
+							</div>
+
+
+                            <div class="others-options">
+								<div class="option-item">
+	<i class="search-btn fa fa-search"></i>
+    <i class="close-btn fa fa-times"></i>
+    <div class="search-overlay search-popup">
+        <div class='search-box'>
+            <form class="search-form" action="/search" method="get">
+            	<label for="q"><span class="sr-only">Search</span></label>
+                <input type="text" class="search-input" name="q" id="q" placeholder="Търси" value="">
+                <button class="search-button" type="submit"><i class="fas fa-search"></i><span class="sr-only">Search</span></button>
+            </form>
+        </div>
+    </div>
+</div>                                <div class="burger-menu">
+                                    <span></span>
+                                    <span></span>
+                                    <span></span>
+                                </div>
+
+                            </div>
+                        </div>
+
+                    </nav>
+                </div>
+            </div>
+        </div>
+        <!-- End Navbar Area -->
+		
+<!-- Sidebar Modal -->
+<div class="sidebar-modal">
+    <div class="sidebar-modal-inner">
+    	            <div class="sidebar-about-area">
+                <div class="title">
+                    <h2>За НСИ</h2>
+                    <p><strong data-start="26" data-end="71">Националният статистически институт (НСИ)</strong> е държавна институция в България, която събира, обработва и разпространява официална статистическа информация за социалните, икономическите и демографските процеси в страната. Дейността на НСИ е насочена към осигуряване на обективни и надеждни данни, които подпомагат вземането на информирани решения от страна на държавата, бизнеса и обществото. Институтът работи съгласно международните статистически стандарти и е активен участник в Европейската статистическа система.</p>                </div>
+            </div>
+    						        <div class="sidebar-contact-area">
+            <div class="contact-info">
+                <div class="contact-info-content">
+                    <h2>
+                        <a href="tel:(02) 9857 111">(02) 9857 111</a>
+                        <span>ИЛИ</span>
+                        <a href="/cdn-cgi/l/email-protection#f1b89f979eb19f8298df9396"><span class="__cf_email__" data-cfemail="024b6c646d426c716b2c6065">[email&#160;protected]</span></a>
+                    </h2>
+
+                    <ul class="social">
+                    	                            <li>
+                                <a href="https://www.youtube.com/@bgnsi" target="_blank">
+                                    <i class="fab fa-youtube"></i>
+                                    <span class="sr-only">youtube</span>
+                                </a>
+                            </li>
+                                                                            <li>
+                                <a href="https://www.facebook.com/nsibg" target="_blank">
+                                    <i class="fab fa-facebook-f"></i>
+                                    <span class="sr-only">facebook</span>
+                                </a>
+                            </li>
+                                            </ul>
+                </div>
+            </div>
+        </div>
+
+        <span class="close-btn sidebar-modal-close-btn"><i class="fa fa-times"></i></span>
+    </div>
+</div>
+<!-- End Sidebar Modal -->
+
+        <div class="page-title-area">
+    <div class="d-table">
+        <div class="d-table-cell">
+            <div class="container">
+                <div class="page-title-content">
+            		<h2>Индекси на промишленото производство - юни 2026 година</h2>
+                    <ul>
+                    	                    		                    			<li><a href="">Начало</a></li>
+                    		                                            		                    			<li><a href="/press-release">Прессъобщения</a></li>
+                    		                                            		
+                    			<li>Индекси на промишленото производство - юни 2026 година</li>
+
+                    		                        
+					</ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+		<section class="blog-details-area">
+    <div class="container">
+        <div class="row">
+			<button class="send-btn-one left-menu-btn" type="button" style="width:140px;margin:25px 0px 0px 15px;">Филтри</button>
+            <div class="col-lg-3 col-md-12 col-xs-12 pt-4 pb-4 newsFilters">
+                <aside class="widget-area" id="secondary">
+                                           <section class="widget widget_categories">
+                            <h3 class="widget-title">Статистическа област</h3>
+
+                            <ul>
+                            	                                	<li><a href="/press-release?statsId=258">Бизнес статистика</a></li>
+                                                                	<li><a href="/press-release?statsId=142">Демографска и социална статистика</a></li>
+                                                                	<li><a href="/press-release?statsId=82">Макроикономическа статистика</a></li>
+                                                                	<li><a href="/press-release?statsId=57">Околна среда и енергетика</a></li>
+                                                                	<li><a href="/press-release?statsId=15">Многосекторна статистика</a></li>
+                                                                	<li><a href="/press-release?statsId=418">Геореферирани данни</a></li>
+                                                                	<li><a href="/press-release?statsId=5">Селско и горско стопанство</a></li>
+                                                                	<li><a href="/press-release?statsId=1">Данъчна статистика</a></li>
+                                                                	<li><a href="/press-release?statsId=411">Ключови показатели</a></li>
+                                                            </ul>
+                        </section>
+            							                        <section class="widget widget_archive pt-5">
+                            <h3 class="widget-title">По месеци</h3>
+                            <ul>
+                            	                                   <li><a href="/press-release?month=0&year=2026">Август 2026</a></li>
+                                                                   <li><a href="/press-release?month=1&year=2026">Юли 2026</a></li>
+                                                                   <li><a href="/press-release?month=2&year=2026">Юни 2026</a></li>
+                                                                   <li><a href="/press-release?month=3&year=2026">Май 2026</a></li>
+                                                                   <li><a href="/press-release?month=4&year=2026">Април 2026</a></li>
+                                                                   <li><a href="/press-release?month=5&year=2026">Март 2026</a></li>
+                                                                   <li><a href="/press-release?month=6&year=2026">Февруари 2026</a></li>
+                                                                   <li><a href="/press-release?month=7&year=2026">Януари 2026</a></li>
+                                                            </ul>
+                        </section>
+            		
+            	 	                        <section class="widget widget_archive pt-5">
+                            <h3 class="widget-title">Предстоящи</h3>
+                            <ul>
+                                                                	<li><a href="/press-release?month=9&year=2026">Септември 2026</a></li>
+
+                                                                 	<li><a href="/press-release?month=10&year=2026">Октомври 2026</a></li>
+
+                                                                 	<li><a href="/press-release?month=11&year=2026">Ноември 2026</a></li>
+
+                                                                 	<li><a href="/press-release?month=12&year=2026">Декември 2026</a></li>
+
+                                                                 	<li><a href="/press-release?month=1&year=2027">Януари 2027</a></li>
+
+                                                                 	<li><a href="/press-release?month=2&year=2027">Февруари 2027</a></li>
+
+                                                                 	<li><a href="/press-release?month=3&year=2027">Март 2027</a></li>
+
+                                                                 	<li><a href="/press-release?month=4&year=2027">Април 2027</a></li>
+
+                                                                 	<li><a href="/press-release?month=5&year=2027">Май 2027</a></li>
+
+                                                                 	<li><a href="/press-release?month=6&year=2027">Юни 2027</a></li>
+
+                                                                 	<li><a href="/press-release?month=7&year=2027">Юли 2027</a></li>
+
+                                                                 	<li><a href="/press-release?month=8&year=2027">Август 2027</a></li>
+
+                                                             </ul>
+                        </section>
+            		
+            		                        <section class="widget widget_archive pt-5">
+                            <h3 class="widget-title">Архив по години</h3>
+                            <ul>
+                            	                                   <li><a href="/press-release?year=2025">Архив 2025</a></li>
+                                                                   <li><a href="/press-release?year=2024">Архив 2024</a></li>
+                                                                   <li><a href="/press-release?year=2023">Архив 2023</a></li>
+                                                                   <li><a href="/press-release?year=2022">Архив 2022</a></li>
+                                                                   <li><a href="/press-release?year=2021">Архив 2021</a></li>
+                                                                   <li><a href="/press-release?year=2020">Архив 2020</a></li>
+                                                                   <li><a href="/press-release?year=2019">Архив 2019</a></li>
+                                                                   <li><a href="/press-release?year=2018">Архив 2018</a></li>
+                                                                   <li><a href="/press-release?year=2017">Архив 2017</a></li>
+                                                                   <li><a href="/press-release?year=2016">Архив 2016</a></li>
+                                                                   <li><a href="/press-release?year=2015">Архив 2015</a></li>
+                                                                   <li><a href="/press-release?year=2014">Архив 2014</a></li>
+                                                                   <li><a href="/press-release?year=2009">Архив 2009</a></li>
+                                                                   <li><a href="/press-release?year=2013">Архив 2013</a></li>
+                                                                   <li><a href="/press-release?year=2012">Архив 2012</a></li>
+                                                                   <li><a href="/press-release?year=2011">Архив 2011</a></li>
+                                                                   <li><a href="/press-release?year=2010">Архив 2010</a></li>
+                                                            </ul>
+                        </section>
+            		            		                                        	<section class="widget widget_tag_cloud pt-5">
+                            <h3 class="widget-title">Регионални прессъобщения</h3>
+                            <div class="tagcloud">
+                        		<a href="https://www.nsi.bg/tsb/" target="_blank">Виж всички регионални пресъобщения</a>
+                        	</div>
+                		</section>
+                                                        </aside>
+            </div>
+
+            <div class="col-lg-9 col-md-12 col-xs-12">
+                <div class="blog-details-desc">
+
+                	<div class="article-content">
+                        <div class="entry-meta">
+                            <ul>
+                            	<li><a href="#">10.08.2026 11:00:00</a></li>
+                             </ul>
+                        </div>
+						    						<!-- FILES for download -->
+    						<div class="entry-file">
+                                <ul>
+                            	                                		<li><a target="_blank" href="/file/37204/indeksi_na_promishlenoto_proizvodstvo (22).pdf"><i class="mx-1 fa-solid fa-file-pdf"></i>Свали</a></li>
+                                	                                                                      </ul>
+                            </div>
+                            <!-- END FILES for download -->
+                                                <h3>Индекси на промишленото производство - юни 2026 година</h3>
+                     </div>
+				                    <div class="article-content">
+
+						<p>Индексът на промишленото производство през юни 2026&nbsp;г. се повишава с 0.4% спрямо предходния месец. Данните са предварителни и сезонно изгладени.</p>
+<p>В сравнение с юни 2025 г. е регистрирано намаление с 2.5% на календарно изгладения индекс на промишленото производство.</p>
+<p>&nbsp;</p>
+<p><div class="icycharts"><div id="mainLine0" style="width: 100%; min-height: 600px;" ></div>
+</div></p>
+<p><strong>Месечни изменения</strong></p>
+<p>През юни 2026 г. спрямо май 2026 г. повишение е регистрирано в преработващата промишленост - с 1.6%, докато в добивната промишленост и при производството и разпределението на електрическа и топлоенергия и газ е отчетено намаление, съответно&nbsp;с 10.8 и с 2.7%.</p>
+<p>В преработващата промишленост по-съществен ръст е регистриран при производството на компютърна и комуникационна техника, електронни и оптични продукти - с 40.3%, и при производството на метални изделия, без машини и oборудване - с 15.7%.</p>
+<p>Намаление&nbsp;е отчетено при производството на превозни средства, без автомобили - със 7.4%, при производството на лекарствени вещества и продукти - със 7.0%, производството на облекло - с 6.5%, производството на изделия от каучук и пластмаси - с 6.1%, и при производството на дървен материал и изделия от него, без мебели - с 6.0%.</p>
+<p>&nbsp;</p>
+<p><div class="icycharts">	<div id="mainChart1" style="width: 100%; height: 600px;"></div>
+    </div></p>
+<p><div class="pageBreak"></div></p>
+<p><strong>Годишни изменения</strong></p>
+<p>На годишна база спад на промишленото производство, изчислен от календарно изгладените данни, е отчетен в добивната промишленост - с 49.1%, докато нарастване се наблюдава при производството и разпределението на електрическа и топлоенергия и газ - с 10.0% и в преработващата промишленост - с 1.3%.</p>
+<p>В преработващата промишленост&nbsp;значителен ръст спрямо юни 2025 г. е регистриран при: производството на компютърна и комуникационна техника, електронни и оптични продукти - с 39.3%, производството на електрически съоръжения - с 19.6%,&nbsp; производството на машини и оборудване с общо и специално предназначение - с 19.2%.</p>
+<p>По-съществен спад е отчетен при обработката на кожи; производството на обувки и други изделия от обработени кожи без косъм - с 30.5%, и при производството на облекло - с 18.7%.</p>
+<p>&nbsp;</p>
+<p><div class="icycharts">	<div id="mainChart2" style="width: 100%; height: 600px;"></div>
+    </div></p>
+<p>&nbsp;</p>
+<p style="text-align: center;"><strong>Методологични бележки</strong></p>
+<p>Месечните индекси на промишленото производство се изчисляват съгласно изискванията на Регламент (ЕС) 2019/2152 на Европейския парламент и на Съвета за европейската бизнес статистика.</p>
+<p>Във връзка с членството на България в еврозоната от 1 януари 2026 г. Националният статистически институт (НСИ) е задължен да произвежда и публикува Индекси на оборота на международния пазар за и извън еврозоната. Това е валидно за всички държави членки на еврозоната.</p>
+<p>Месечните индекси на производството измерват измененията в произведената продукция на промишлените предприятия. Тази информация е подходяща за проследяване на текущото икономическо развитие и за краткосрочни прогнози. Индексите не измерват действителното равнище на производството, а оценяват средното изменение на производството между два времеви периода. За оценката на индексите се извършва представително наблюдение на предприятията от промишлеността, като извадката обхваща предприятия, чийто годишен оборот надхвърля 97% от оборота на цялата промишленост.</p>
+<p>Индексите на промишленото производство се изчисляват при постоянна база чрез претегляне със структурата на добавената стойност по факторни разходи.</p>
+<p>Сезонното изглаждане е статистически метод за отстраняване на сезонния компонент на времевия ред.</p>
+<p>Календарното изглаждане представлява отстраняване на вариациите в месечните данни, дължащи се на различния брой календарни и работни дни в месеците, на националните празници, както и на наличието на екстремни стойности (например наличието на повече неработни дни през май може да допринесе до спад на производството в някои дейности).</p>
+<p><div class="pageBreak"></div></p>
+<p style="text-align: center;"><strong>Приложение</strong></p>
+<p style="text-align: right;"><strong>Таблица 1</strong></p>
+<p style="text-align: left;"><div class="icytables table-responsive">
+<table class="datatable display" id="icyTable0">
+	<caption>Изменение на индексите на промишленото производство спрямо предходния месец</caption>
+	<thead>
+		<tr>
+						<th></th>
+    					<th></th>
+    					<th></th>
+    					<th></th>
+    					<th></th>
+    					<th></th>
+    					<th></th>
+    					<th>(Проценти)</th>
+    				</tr>
+	</thead>
+    <tbody>
+        	<tr>
+    	    		<td style="font-weight: bold;">Икономически дейности</td>
+    	    		<td style="font-weight: bold;">Код по КИД - 2008</td>
+    	    		<td style="font-weight: bold;">I.2026</td>
+    	    		<td style="font-weight: bold;">II.2026</td>
+    	    		<td style="font-weight: bold;">III.2026</td>
+    	    		<td style="font-weight: bold;">IV.2026</td>
+    	    		<td style="font-weight: bold;">V.2026</td>
+    	    		<td style="font-weight: bold;">VI.2026*</td>
+    	    	</tr>
+        	<tr>
+    	    		<td></td>
+    	    		<td></td>
+    	    		<td></td>
+    	    		<td></td>
+    	    		<td></td>
+    	    		<td></td>
+    	    		<td></td>
+    	    		<td></td>
+    	    	</tr>
+        	<tr>
+    	    		<td style="font-weight: bold;">Промишленост - общо</td>
+    	    		<td style="font-weight: bold;">B_TO_E36</td>
+    	    		<td style="font-weight: bold;">-3.6</td>
+    	    		<td style="font-weight: bold;">1.6</td>
+    	    		<td style="font-weight: bold;">5.2</td>
+    	    		<td style="font-weight: bold;">-4.6</td>
+    	    		<td style="font-weight: bold;">-0.5</td>
+    	    		<td style="font-weight: bold;">0.4</td>
+    	    	</tr>
+        	<tr>
+    	    		<td style="font-weight: bold;">Добивна промишленост</td>
+    	    		<td style="font-weight: bold;">B</td>
+    	    		<td style="font-weight: bold;">-18.8</td>
+    	    		<td style="font-weight: bold;">-5.8</td>
+    	    		<td style="font-weight: bold;">-2.0</td>
+    	    		<td style="font-weight: bold;">-9.2</td>
+    	    		<td style="font-weight: bold;">1.1</td>
+    	    		<td style="font-weight: bold;">-10.8</td>
+    	    	</tr>
+        	<tr>
+    	    		<td>Добив на въглища</td>
+    	    		<td>B05</td>
+    	    		<td>..</td>
+    	    		<td>..</td>
+    	    		<td>..</td>
+    	    		<td>..</td>
+    	    		<td>..</td>
+    	    		<td>..</td>
+    	    	</tr>
+        	<tr>
+    	    		<td>Добив на нефт и природен газ</td>
+    	    		<td>B06</td>
+    	    		<td>..</td>
+    	    		<td>..</td>
+    	    		<td>..</td>
+    	    		<td>..</td>
+    	    		<td>..</td>
+    	    		<td>..</td>
+    	    	</tr>
+        	<tr>
+    	    		<td>Добив на метални руди</td>
+    	    		<td>B07</td>
+    	    		<td>-13.5</td>
+    	    		<td>-14.7</td>
+    	    		<td>-2.8</td>
+    	    		<td>-10.7</td>
+    	    		<td>-1.9</td>
+    	    		<td>-21.8</td>
+    	    	</tr>
+        	<tr>
+    	    		<td>Добив на неметални материали и суровини</td>
+    	    		<td>B08</td>
+    	    		<td>-2.8</td>
+    	    		<td>-0.5</td>
+    	    		<td>7.5</td>
+    	    		<td>-1.8</td>
+    	    		<td>-5.1</td>
+    	    		<td>-7.3</td>
+    	    	</tr>
+        	<tr>
+    	    		<td>Спомагателни дейности в добива</td>
+    	    		<td>B09</td>
+    	    		<td>..</td>
+    	    		<td>..</td>
+    	    		<td>..</td>
+    	    		<td>..</td>
+    	    		<td>..</td>
+    	    		<td>..</td>
+    	    	</tr>
+        	<tr>
+    	    		<td style="font-weight: bold;">Преработваща промишленост</td>
+    	    		<td style="font-weight: bold;">C</td>
+    	    		<td style="font-weight: bold;">-4.3</td>
+    	    		<td style="font-weight: bold;">4.2</td>
+    	    		<td style="font-weight: bold;">2.1</td>
+    	    		<td style="font-weight: bold;">-3.9</td>
+    	    		<td style="font-weight: bold;">-1.1</td>
+    	    		<td style="font-weight: bold;">1.6</td>
+    	    	</tr>
+        	<tr>
+    	    		<td>Производство на хранителни продукти</td>
+    	    		<td>C10</td>
+    	    		<td>-3.6</td>
+    	    		<td>1.4</td>
+    	    		<td>8.9</td>
+    	    		<td>-2.3</td>
+    	    		<td>-3.0</td>
+    	    		<td>0.3</td>
+    	    	</tr>
+        	<tr>
+    	    		<td>Производство на напитки</td>
+    	    		<td>C11</td>
+    	    		<td>-5.4</td>
+    	    		<td>4.5</td>
+    	    		<td>-2.4</td>
+    	    		<td>-5.9</td>
+    	    		<td>2.0</td>
+    	    		<td>4.0</td>
+    	    	</tr>
+        	<tr>
+    	    		<td>Производство на тютюневи изделия</td>
+    	    		<td>C12</td>
+    	    		<td>12.0</td>
+    	    		<td>-4.5</td>
+    	    		<td>-5.7</td>
+    	    		<td>0.4</td>
+    	    		<td>3.5</td>
+    	    		<td>3.0</td>
+    	    	</tr>
+        	<tr>
+    	    		<td>Производство на текстил и изделия от текстил, без облекло</td>
+    	    		<td>C13</td>
+    	    		<td>-12.5</td>
+    	    		<td>17.7</td>
+    	    		<td>-8.5</td>
+    	    		<td>6.0</td>
+    	    		<td>-9.6</td>
+    	    		<td>2.9</td>
+    	    	</tr>
+        	<tr>
+    	    		<td>Производство на облекло</td>
+    	    		<td>C14</td>
+    	    		<td>-1.4</td>
+    	    		<td>-0.8</td>
+    	    		<td>-6.7</td>
+    	    		<td>7.5</td>
+    	    		<td>-4.9</td>
+    	    		<td>-6.5</td>
+    	    	</tr>
+        	<tr>
+    	    		<td>Обработка на кожи; производство на обувки и други изделия от обработени кожи без косъм</td>
+    	    		<td>C15</td>
+    	    		<td>-30.4</td>
+    	    		<td>8.8</td>
+    	    		<td>-3.3</td>
+    	    		<td>2.0</td>
+    	    		<td>-3.3</td>
+    	    		<td>-0.1</td>
+    	    	</tr>
+        	<tr>
+    	    		<td>Производство на дървен материал и изделия от него, без мебели</td>
+    	    		<td>C16</td>
+    	    		<td>3.3</td>
+    	    		<td>-12.7</td>
+    	    		<td>11.5</td>
+    	    		<td>-6.7</td>
+    	    		<td>6.5</td>
+    	    		<td>-6.0</td>
+    	    	</tr>
+        	<tr>
+    	    		<td>Производство на хартия, картон и изделия от хартия и картон</td>
+    	    		<td>C17</td>
+    	    		<td>3.7</td>
+    	    		<td>1.2</td>
+    	    		<td>4.2</td>
+    	    		<td>-2.1</td>
+    	    		<td>-5.1</td>
+    	    		<td>1.7</td>
+    	    	</tr>
+        	<tr>
+    	    		<td>Печатна дейност и възпроизвеждане на записани носители</td>
+    	    		<td>C18</td>
+    	    		<td>-3.7</td>
+    	    		<td>5.0</td>
+    	    		<td>-1.1</td>
+    	    		<td>8.3</td>
+    	    		<td>-7.5</td>
+    	    		<td>0.0</td>
+    	    	</tr>
+        	<tr>
+    	    		<td>Производство на кокс и рафинирани нефтопродукти</td>
+    	    		<td>C19</td>
+    	    		<td>..</td>
+    	    		<td>..</td>
+    	    		<td>..</td>
+    	    		<td>..</td>
+    	    		<td>..</td>
+    	    		<td>..</td>
+    	    	</tr>
+        	<tr>
+    	    		<td>Производство на химични продукти</td>
+    	    		<td>C20</td>
+    	    		<td>4.6</td>
+    	    		<td>-1.4</td>
+    	    		<td>0.2</td>
+    	    		<td>1.5</td>
+    	    		<td>-5.4</td>
+    	    		<td>-3.5</td>
+    	    	</tr>
+        	<tr>
+    	    		<td>Производство на лекарствени вещества и продукти</td>
+    	    		<td>C21</td>
+    	    		<td>7.8</td>
+    	    		<td>5.9</td>
+    	    		<td>7.3</td>
+    	    		<td>-5.1</td>
+    	    		<td>-0.4</td>
+    	    		<td>-7.0</td>
+    	    	</tr>
+        	<tr>
+    	    		<td>Производство на изделия от каучук и пластмаси</td>
+    	    		<td>C22</td>
+    	    		<td>5.8</td>
+    	    		<td>1.2</td>
+    	    		<td>0.6</td>
+    	    		<td>0.3</td>
+    	    		<td>1.9</td>
+    	    		<td>-6.1</td>
+    	    	</tr>
+        	<tr>
+    	    		<td>Производство на изделия от други неметални минерални суровини</td>
+    	    		<td>C23</td>
+    	    		<td>-5.7</td>
+    	    		<td>1.8</td>
+    	    		<td>4.1</td>
+    	    		<td>2.1</td>
+    	    		<td>2.7</td>
+    	    		<td>-0.2</td>
+    	    	</tr>
+        	<tr>
+    	    		<td>Производство на основни метали</td>
+    	    		<td>C24</td>
+    	    		<td>12.4</td>
+    	    		<td>3.4</td>
+    	    		<td>-5.9</td>
+    	    		<td>-2.9</td>
+    	    		<td>0.9</td>
+    	    		<td>1.4</td>
+    	    	</tr>
+        	<tr>
+    	    		<td>Производство на метални изделия, без машини и оборудване</td>
+    	    		<td>C25</td>
+    	    		<td>-0.5</td>
+    	    		<td>1.8</td>
+    	    		<td>-8.1</td>
+    	    		<td>-17.4</td>
+    	    		<td>-7.4</td>
+    	    		<td>15.7</td>
+    	    	</tr>
+        	<tr>
+    	    		<td>Производство на компютърна и комуникационна техника, електронни и оптични продукти</td>
+    	    		<td>C26</td>
+    	    		<td>-17.5</td>
+    	    		<td>1.8</td>
+    	    		<td>23.1</td>
+    	    		<td>-20.5</td>
+    	    		<td>-2.5</td>
+    	    		<td>40.3</td>
+    	    	</tr>
+        	<tr>
+    	    		<td>Производство на електрически съоръжения</td>
+    	    		<td>C27</td>
+    	    		<td>-39.8</td>
+    	    		<td>9.1</td>
+    	    		<td>10.5</td>
+    	    		<td>0.9</td>
+    	    		<td>7.2</td>
+    	    		<td>-4.2</td>
+    	    	</tr>
+        	<tr>
+    	    		<td>Производство на машини и оборудване, с общо и специално предназначение</td>
+    	    		<td>C28</td>
+    	    		<td>-7.1</td>
+    	    		<td>0.7</td>
+    	    		<td>6.0</td>
+    	    		<td>-4.1</td>
+    	    		<td>1.6</td>
+    	    		<td>10.4</td>
+    	    	</tr>
+        	<tr>
+    	    		<td>Производство на автомобили, ремаркета и полуремаркета</td>
+    	    		<td>C29</td>
+    	    		<td>-10.2</td>
+    	    		<td>0.6</td>
+    	    		<td>3.1</td>
+    	    		<td>-2.0</td>
+    	    		<td>-4.2</td>
+    	    		<td>9.0</td>
+    	    	</tr>
+        	<tr>
+    	    		<td>Производство на превозни средства, без автомобили</td>
+    	    		<td>C30</td>
+    	    		<td>-7.7</td>
+    	    		<td>4.6</td>
+    	    		<td>-7.8</td>
+    	    		<td>13.6</td>
+    	    		<td>6.8</td>
+    	    		<td>-7.4</td>
+    	    	</tr>
+        	<tr>
+    	    		<td>Производство на мебели</td>
+    	    		<td>C31</td>
+    	    		<td>0.3</td>
+    	    		<td>1.1</td>
+    	    		<td>-3.7</td>
+    	    		<td>3.0</td>
+    	    		<td>-1.9</td>
+    	    		<td>2.2</td>
+    	    	</tr>
+        	<tr>
+    	    		<td>Производство, некласифицирано другаде</td>
+    	    		<td>C32</td>
+    	    		<td>-20.5</td>
+    	    		<td>12.6</td>
+    	    		<td>-6.7</td>
+    	    		<td>4.3</td>
+    	    		<td>-5.5</td>
+    	    		<td>-3.2</td>
+    	    	</tr>
+        	<tr>
+    	    		<td>Ремонт и инсталиране на машини и оборудване</td>
+    	    		<td>C33</td>
+    	    		<td>-1.1</td>
+    	    		<td>1.8</td>
+    	    		<td>12.5</td>
+    	    		<td>-3.6</td>
+    	    		<td>-3.8</td>
+    	    		<td>3.2</td>
+    	    	</tr>
+        	<tr>
+    	    		<td style="font-weight: bold;">Производство и разпределение на електрическа и топлоенергия и газ</td>
+    	    		<td style="font-weight: bold;">D</td>
+    	    		<td style="font-weight: bold;">0.7</td>
+    	    		<td style="font-weight: bold;">-7.9</td>
+    	    		<td style="font-weight: bold;">15.7</td>
+    	    		<td style="font-weight: bold;">4.2</td>
+    	    		<td style="font-weight: bold;">7.0</td>
+    	    		<td style="font-weight: bold;">-2.7</td>
+    	    	</tr>
+        	<tr>
+    	    		<td>Производство и разпределение на електрическа и топлоенергия и газ</td>
+    	    		<td>D35</td>
+    	    		<td>0.7</td>
+    	    		<td>-7.9</td>
+    	    		<td>15.7</td>
+    	    		<td>4.2</td>
+    	    		<td>7.0</td>
+    	    		<td>-2.7</td>
+    	    	</tr>
+        	<tr>
+    	    		<td></td>
+    	    		<td></td>
+    	    		<td></td>
+    	    		<td></td>
+    	    		<td></td>
+    	    		<td></td>
+    	    		<td></td>
+    	    		<td></td>
+    	    	</tr>
+        	<tr>
+    	    		<td> Сезонно изгладени данни.</td>
+    	    		<td></td>
+    	    		<td></td>
+    	    		<td></td>
+    	    		<td></td>
+    	    		<td></td>
+    	    		<td></td>
+    	    		<td></td>
+    	    	</tr>
+        	<tr>
+    	    		<td>* Предварителни данни.</td>
+    	    		<td></td>
+    	    		<td></td>
+    	    		<td></td>
+    	    		<td></td>
+    	    		<td></td>
+    	    		<td></td>
+    	    		<td></td>
+    	    	</tr>
+        	<tr>
+    	    		<td>„..“ - конфиденциални данни.</td>
+    	    		<td></td>
+    	    		<td></td>
+    	    		<td></td>
+    	    		<td></td>
+    	    		<td></td>
+    	    		<td></td>
+    	    		<td></td>
+    	    	</tr>
+        </tbody>
+</table></div></p>
+<p style="text-align: left;"><div class="pageBreak"></div></p>
+<p style="text-align: right;"><strong>Таблица 2</strong></p>
+<p style="text-align: left;"><div class="icytables table-responsive">
+<table class="datatable display" id="icyTable1">
+	<caption>Изменение на индексите на промишленото производство спрямо съответния месец на предходната година</caption>
+	<thead>
+		<tr>
+						<th></th>
+    					<th></th>
+    					<th></th>
+    					<th></th>
+    					<th></th>
+    					<th></th>
+    					<th></th>
+    					<th>(Проценти)</th>
+    				</tr>
+	</thead>
+    <tbody>
+        	<tr>
+    	    		<td style="font-weight: bold;">Икономически дейности</td>
+    	    		<td style="font-weight: bold;">Код по КИД - 2008</td>
+    	    		<td style="font-weight: bold;">I.2026</td>
+    	    		<td style="font-weight: bold;">II.2026</td>
+    	    		<td style="font-weight: bold;">III.2026</td>
+    	    		<td style="font-weight: bold;">IV.2026</td>
+    	    		<td style="font-weight: bold;">V.2026</td>
+    	    		<td style="font-weight: bold;">VI.2026*</td>
+    	    	</tr>
+        	<tr>
+    	    		<td></td>
+    	    		<td></td>
+    	    		<td></td>
+    	    		<td></td>
+    	    		<td></td>
+    	    		<td></td>
+    	    		<td></td>
+    	    		<td></td>
+    	    	</tr>
+        	<tr>
+    	    		<td style="font-weight: bold;">Промишленост - общо</td>
+    	    		<td style="font-weight: bold;">B_TO_E36</td>
+    	    		<td style="font-weight: bold;">-9.9</td>
+    	    		<td style="font-weight: bold;">-8.7</td>
+    	    		<td style="font-weight: bold;">4.7</td>
+    	    		<td style="font-weight: bold;">-3.8</td>
+    	    		<td style="font-weight: bold;">-5.3</td>
+    	    		<td style="font-weight: bold;">-2.5</td>
+    	    	</tr>
+        	<tr>
+    	    		<td style="font-weight: bold;">Добивна промишленост</td>
+    	    		<td style="font-weight: bold;">B</td>
+    	    		<td style="font-weight: bold;">-23.4</td>
+    	    		<td style="font-weight: bold;">-23.2</td>
+    	    		<td style="font-weight: bold;">-27.3</td>
+    	    		<td style="font-weight: bold;">-33.6</td>
+    	    		<td style="font-weight: bold;">-33.1</td>
+    	    		<td style="font-weight: bold;">-49.1</td>
+    	    	</tr>
+        	<tr>
+    	    		<td>Добив на въглища</td>
+    	    		<td>B05</td>
+    	    		<td>..</td>
+    	    		<td>..</td>
+    	    		<td>..</td>
+    	    		<td>..</td>
+    	    		<td>..</td>
+    	    		<td>..</td>
+    	    	</tr>
+        	<tr>
+    	    		<td>Добив на нефт и природен газ</td>
+    	    		<td>B06</td>
+    	    		<td>..</td>
+    	    		<td>..</td>
+    	    		<td>..</td>
+    	    		<td>..</td>
+    	    		<td>..</td>
+    	    		<td>..</td>
+    	    	</tr>
+        	<tr>
+    	    		<td>Добив на метални руди</td>
+    	    		<td>B07</td>
+    	    		<td>-18.3</td>
+    	    		<td>-22.0</td>
+    	    		<td>-29.9</td>
+    	    		<td>-38.9</td>
+    	    		<td>-37.3</td>
+    	    		<td>-55.2</td>
+    	    	</tr>
+        	<tr>
+    	    		<td>Добив на неметални материали и суровини</td>
+    	    		<td>B08</td>
+    	    		<td>-10.7</td>
+    	    		<td>12.7</td>
+    	    		<td>13.2</td>
+    	    		<td>4.6</td>
+    	    		<td>1.3</td>
+    	    		<td>-4.6</td>
+    	    	</tr>
+        	<tr>
+    	    		<td>Спомагателни дейности в добива</td>
+    	    		<td>B09</td>
+    	    		<td>..</td>
+    	    		<td>..</td>
+    	    		<td>..</td>
+    	    		<td>..</td>
+    	    		<td>..</td>
+    	    		<td>..</td>
+    	    	</tr>
+        	<tr>
+    	    		<td style="font-weight: bold;">Преработваща промишленост</td>
+    	    		<td style="font-weight: bold;">C</td>
+    	    		<td style="font-weight: bold;">-7.0</td>
+    	    		<td style="font-weight: bold;">0.0</td>
+    	    		<td style="font-weight: bold;">3.9</td>
+    	    		<td style="font-weight: bold;">-0.3</td>
+    	    		<td style="font-weight: bold;">-4.5</td>
+    	    		<td style="font-weight: bold;">1.3</td>
+    	    	</tr>
+        	<tr>
+    	    		<td>Производство на хранителни продукти</td>
+    	    		<td>C10</td>
+    	    		<td>-9.9</td>
+    	    		<td>-0.3</td>
+    	    		<td>8.2</td>
+    	    		<td>3.9</td>
+    	    		<td>-4.0</td>
+    	    		<td>4.6</td>
+    	    	</tr>
+        	<tr>
+    	    		<td>Производство на напитки</td>
+    	    		<td>C11</td>
+    	    		<td>-5.9</td>
+    	    		<td>0.8</td>
+    	    		<td>1.8</td>
+    	    		<td>-6.8</td>
+    	    		<td>-4.4</td>
+    	    		<td>2.2</td>
+    	    	</tr>
+        	<tr>
+    	    		<td>Производство на тютюневи изделия</td>
+    	    		<td>C12</td>
+    	    		<td>66.6</td>
+    	    		<td>47.3</td>
+    	    		<td>22.3</td>
+    	    		<td>3.4</td>
+    	    		<td>12.7</td>
+    	    		<td>17.8</td>
+    	    	</tr>
+        	<tr>
+    	    		<td>Производство на текстил и изделия от текстил, без облекло</td>
+    	    		<td>C13</td>
+    	    		<td>-18.7</td>
+    	    		<td>-3.8</td>
+    	    		<td>-11.4</td>
+    	    		<td>-5.8</td>
+    	    		<td>-13.7</td>
+    	    		<td>-2.1</td>
+    	    	</tr>
+        	<tr>
+    	    		<td>Производство на облекло</td>
+    	    		<td>C14</td>
+    	    		<td>-5.1</td>
+    	    		<td>-5.9</td>
+    	    		<td>-10.3</td>
+    	    		<td>-4.2</td>
+    	    		<td>-4.5</td>
+    	    		<td>-18.7</td>
+    	    	</tr>
+        	<tr>
+    	    		<td>Обработка на кожи; производство на обувки и други изделия от обработени кожи без косъм</td>
+    	    		<td>C15</td>
+    	    		<td>-33.3</td>
+    	    		<td>-23.1</td>
+    	    		<td>-25.1</td>
+    	    		<td>-32.0</td>
+    	    		<td>-33.2</td>
+    	    		<td>-30.5</td>
+    	    	</tr>
+        	<tr>
+    	    		<td>Производство на дървен материал и изделия от него, без мебели</td>
+    	    		<td>C16</td>
+    	    		<td>-2.5</td>
+    	    		<td>-15.3</td>
+    	    		<td>-1.3</td>
+    	    		<td>-7.4</td>
+    	    		<td>4.9</td>
+    	    		<td>-2.4</td>
+    	    	</tr>
+        	<tr>
+    	    		<td>Производство на хартия, картон и изделия от хартия и картон</td>
+    	    		<td>C17</td>
+    	    		<td>-2.3</td>
+    	    		<td>-4.9</td>
+    	    		<td>2.4</td>
+    	    		<td>0.6</td>
+    	    		<td>-2.3</td>
+    	    		<td>1.3</td>
+    	    	</tr>
+        	<tr>
+    	    		<td>Печатна дейност и възпроизвеждане на записани носители</td>
+    	    		<td>C18</td>
+    	    		<td>-8.4</td>
+    	    		<td>0.4</td>
+    	    		<td>-6.3</td>
+    	    		<td>6.9</td>
+    	    		<td>-4.4</td>
+    	    		<td>-5.7</td>
+    	    	</tr>
+        	<tr>
+    	    		<td>Производство на кокс и рафинирани нефтопродукти</td>
+    	    		<td>C19</td>
+    	    		<td>..</td>
+    	    		<td>..</td>
+    	    		<td>..</td>
+    	    		<td>..</td>
+    	    		<td>..</td>
+    	    		<td>..</td>
+    	    	</tr>
+        	<tr>
+    	    		<td>Производство на химични продукти</td>
+    	    		<td>C20</td>
+    	    		<td>-1.4</td>
+    	    		<td>0.5</td>
+    	    		<td>1.8</td>
+    	    		<td>5.6</td>
+    	    		<td>-7.7</td>
+    	    		<td>-1.8</td>
+    	    	</tr>
+        	<tr>
+    	    		<td>Производство на лекарствени вещества и продукти</td>
+    	    		<td>C21</td>
+    	    		<td>2.5</td>
+    	    		<td>19.9</td>
+    	    		<td>21.0</td>
+    	    		<td>20.7</td>
+    	    		<td>14.9</td>
+    	    		<td>-8.8</td>
+    	    	</tr>
+        	<tr>
+    	    		<td>Производство на изделия от каучук и пластмаси</td>
+    	    		<td>C22</td>
+    	    		<td>1.3</td>
+    	    		<td>3.5</td>
+    	    		<td>3.6</td>
+    	    		<td>1.7</td>
+    	    		<td>8.7</td>
+    	    		<td>-2.6</td>
+    	    	</tr>
+        	<tr>
+    	    		<td>Производство на изделия от други неметални минерални суровини</td>
+    	    		<td>C23</td>
+    	    		<td>-18.1</td>
+    	    		<td>-4.1</td>
+    	    		<td>-4.0</td>
+    	    		<td>6.7</td>
+    	    		<td>-0.9</td>
+    	    		<td>1.3</td>
+    	    	</tr>
+        	<tr>
+    	    		<td>Производство на основни метали</td>
+    	    		<td>C24</td>
+    	    		<td>13.8</td>
+    	    		<td>15.2</td>
+    	    		<td>5.3</td>
+    	    		<td>4.9</td>
+    	    		<td>4.6</td>
+    	    		<td>10.7</td>
+    	    	</tr>
+        	<tr>
+    	    		<td>Производство на метални изделия, без машини и оборудване</td>
+    	    		<td>C25</td>
+    	    		<td>-15.0</td>
+    	    		<td>5.5</td>
+    	    		<td>-14.6</td>
+    	    		<td>-25.9</td>
+    	    		<td>-34.0</td>
+    	    		<td>-7.0</td>
+    	    	</tr>
+        	<tr>
+    	    		<td>Производство на компютърна и комуникационна техника, електронни и оптични продукти</td>
+    	    		<td>C26</td>
+    	    		<td>14.9</td>
+    	    		<td>0.2</td>
+    	    		<td>14.2</td>
+    	    		<td>6.3</td>
+    	    		<td>-2.9</td>
+    	    		<td>39.3</td>
+    	    	</tr>
+        	<tr>
+    	    		<td>Производство на електрически съоръжения</td>
+    	    		<td>C27</td>
+    	    		<td>-7.1</td>
+    	    		<td>6.3</td>
+    	    		<td>16.9</td>
+    	    		<td>8.0</td>
+    	    		<td>23.5</td>
+    	    		<td>19.6</td>
+    	    	</tr>
+        	<tr>
+    	    		<td>Производство на машини и оборудване, с общо и специално предназначение</td>
+    	    		<td>C28</td>
+    	    		<td>1.6</td>
+    	    		<td>-2.6</td>
+    	    		<td>2.7</td>
+    	    		<td>4.2</td>
+    	    		<td>3.4</td>
+    	    		<td>19.2</td>
+    	    	</tr>
+        	<tr>
+    	    		<td>Производство на автомобили, ремаркета и полуремаркета</td>
+    	    		<td>C29</td>
+    	    		<td>-17.8</td>
+    	    		<td>-15.8</td>
+    	    		<td>-15.7</td>
+    	    		<td>-15.6</td>
+    	    		<td>-23.8</td>
+    	    		<td>-9.6</td>
+    	    	</tr>
+        	<tr>
+    	    		<td>Производство на превозни средства, без автомобили</td>
+    	    		<td>C30</td>
+    	    		<td>-23.3</td>
+    	    		<td>-31.6</td>
+    	    		<td>-13.8</td>
+    	    		<td>-16.7</td>
+    	    		<td>-0.7</td>
+    	    		<td>-3.9</td>
+    	    	</tr>
+        	<tr>
+    	    		<td>Производство на мебели</td>
+    	    		<td>C31</td>
+    	    		<td>16.2</td>
+    	    		<td>8.4</td>
+    	    		<td>-9.5</td>
+    	    		<td>6.8</td>
+    	    		<td>-3.6</td>
+    	    		<td>9.8</td>
+    	    	</tr>
+        	<tr>
+    	    		<td>Производство, некласифицирано другаде</td>
+    	    		<td>C32</td>
+    	    		<td>-4.9</td>
+    	    		<td>-10.0</td>
+    	    		<td>-1.4</td>
+    	    		<td>-11.1</td>
+    	    		<td>-15.8</td>
+    	    		<td>-6.4</td>
+    	    	</tr>
+        	<tr>
+    	    		<td>Ремонт и инсталиране на машини и оборудване</td>
+    	    		<td>C33</td>
+    	    		<td>-16.9</td>
+    	    		<td>-0.6</td>
+    	    		<td>18.0</td>
+    	    		<td>7.5</td>
+    	    		<td>12.7</td>
+    	    		<td>-0.2</td>
+    	    	</tr>
+        	<tr>
+    	    		<td style="font-weight: bold;">Производство и разпределение на електрическа и топлоенергия и газ</td>
+    	    		<td style="font-weight: bold;">D</td>
+    	    		<td style="font-weight: bold;">-18.5</td>
+    	    		<td style="font-weight: bold;">-36.6</td>
+    	    		<td style="font-weight: bold;">35.7</td>
+    	    		<td style="font-weight: bold;">-10.3</td>
+    	    		<td style="font-weight: bold;">8.1</td>
+    	    		<td style="font-weight: bold;">10.0</td>
+    	    	</tr>
+        	<tr>
+    	    		<td>Производство и разпределение на електрическа и топлоенергия и газ</td>
+    	    		<td>D35</td>
+    	    		<td>-18.5</td>
+    	    		<td>-36.6</td>
+    	    		<td>35.7</td>
+    	    		<td>-10.3</td>
+    	    		<td>8.1</td>
+    	    		<td>10.0</td>
+    	    	</tr>
+        	<tr>
+    	    		<td></td>
+    	    		<td></td>
+    	    		<td></td>
+    	    		<td></td>
+    	    		<td></td>
+    	    		<td></td>
+    	    		<td></td>
+    	    		<td></td>
+    	    	</tr>
+        	<tr>
+    	    		<td>Календарно изгладени данни.</td>
+    	    		<td></td>
+    	    		<td></td>
+    	    		<td></td>
+    	    		<td></td>
+    	    		<td></td>
+    	    		<td></td>
+    	    		<td></td>
+    	    	</tr>
+        	<tr>
+    	    		<td>* Предварителни данни.</td>
+    	    		<td></td>
+    	    		<td></td>
+    	    		<td></td>
+    	    		<td></td>
+    	    		<td></td>
+    	    		<td></td>
+    	    		<td></td>
+    	    	</tr>
+        	<tr>
+    	    		<td>„..“ - конфиденциални данни.</td>
+    	    		<td></td>
+    	    		<td></td>
+    	    		<td></td>
+    	    		<td></td>
+    	    		<td></td>
+    	    		<td></td>
+    	    		<td></td>
+    	    	</tr>
+        </tbody>
+</table></div></p>
+<p style="text-align: left;"><div class="pageBreak"></div></p>
+<p style="text-align: right;"><strong>Таблица 3</strong></p>
+<p style="text-align: left;"><div class="icytables table-responsive">
+<table class="datatable display" id="icyTable2">
+	<caption>Индекси на промишленото производство  (сезонно изгладени, 2021 = 100)</caption>
+	<thead>
+		<tr>
+						<th>Код по КИД - 2008</th>
+    					<th>VI.2025</th>
+    					<th>VII.2025</th>
+    					<th>VІІІ.2025</th>
+    					<th>ІX.2025</th>
+    					<th>X.2025</th>
+    					<th>XI.2025</th>
+    					<th>ХІІ.2025</th>
+    					<th>І.2026</th>
+    					<th>ІІ.2026</th>
+    					<th>ІІІ.2026</th>
+    					<th>ІV.2026</th>
+    					<th>V.2026</th>
+    					<th>VI.2026*</th>
+    				</tr>
+	</thead>
+    <tbody>
+        	<tr>
+    	    		<td style="font-weight: bold;">B_TO_E36</td>
+    	    		<td style="font-weight: bold;">91.6</td>
+    	    		<td style="font-weight: bold;">91.6</td>
+    	    		<td style="font-weight: bold;">91.9</td>
+    	    		<td style="font-weight: bold;">94.5</td>
+    	    		<td style="font-weight: bold;">92.3</td>
+    	    		<td style="font-weight: bold;">91.0</td>
+    	    		<td style="font-weight: bold;">90.9</td>
+    	    		<td style="font-weight: bold;">87.6</td>
+    	    		<td style="font-weight: bold;">89.0</td>
+    	    		<td style="font-weight: bold;">93.7</td>
+    	    		<td style="font-weight: bold;">89.4</td>
+    	    		<td style="font-weight: bold;">88.9</td>
+    	    		<td style="font-weight: bold;">89.3</td>
+    	    	</tr>
+        	<tr>
+    	    		<td style="font-weight: bold;">B</td>
+    	    		<td style="font-weight: bold;">97.3</td>
+    	    		<td style="font-weight: bold;">86.4</td>
+    	    		<td style="font-weight: bold;">93.9</td>
+    	    		<td style="font-weight: bold;">89.9</td>
+    	    		<td style="font-weight: bold;">78.2</td>
+    	    		<td style="font-weight: bold;">96.1</td>
+    	    		<td style="font-weight: bold;">81.9</td>
+    	    		<td style="font-weight: bold;">66.5</td>
+    	    		<td style="font-weight: bold;">62.6</td>
+    	    		<td style="font-weight: bold;">61.4</td>
+    	    		<td style="font-weight: bold;">55.7</td>
+    	    		<td style="font-weight: bold;">56.4</td>
+    	    		<td style="font-weight: bold;">50.3</td>
+    	    	</tr>
+        	<tr>
+    	    		<td>B05</td>
+    	    		<td>..</td>
+    	    		<td>..</td>
+    	    		<td>..</td>
+    	    		<td>..</td>
+    	    		<td>..</td>
+    	    		<td>..</td>
+    	    		<td>..</td>
+    	    		<td>..</td>
+    	    		<td>..</td>
+    	    		<td>..</td>
+    	    		<td>..</td>
+    	    		<td>..</td>
+    	    		<td>..</td>
+    	    	</tr>
+        	<tr>
+    	    		<td>B06</td>
+    	    		<td>..</td>
+    	    		<td>..</td>
+    	    		<td>..</td>
+    	    		<td>..</td>
+    	    		<td>..</td>
+    	    		<td>..</td>
+    	    		<td>..</td>
+    	    		<td>..</td>
+    	    		<td>..</td>
+    	    		<td>..</td>
+    	    		<td>..</td>
+    	    		<td>..</td>
+    	    		<td>..</td>
+    	    	</tr>
+        	<tr>
+    	    		<td>B07</td>
+    	    		<td>105.0</td>
+    	    		<td>101.3</td>
+    	    		<td>105.2</td>
+    	    		<td>108.7</td>
+    	    		<td>102.8</td>
+    	    		<td>111.3</td>
+    	    		<td>97.5</td>
+    	    		<td>84.3</td>
+    	    		<td>71.9</td>
+    	    		<td>69.9</td>
+    	    		<td>62.5</td>
+    	    		<td>61.3</td>
+    	    		<td>47.9</td>
+    	    	</tr>
+        	<tr>
+    	    		<td>B08</td>
+    	    		<td>73.5</td>
+    	    		<td>76.6</td>
+    	    		<td>79.5</td>
+    	    		<td>76.5</td>
+    	    		<td>71.1</td>
+    	    		<td>74.6</td>
+    	    		<td>79.1</td>
+    	    		<td>76.9</td>
+    	    		<td>76.5</td>
+    	    		<td>82.3</td>
+    	    		<td>80.9</td>
+    	    		<td>76.8</td>
+    	    		<td>71.2</td>
+    	    	</tr>
+        	<tr>
+    	    		<td>B09</td>
+    	    		<td>..</td>
+    	    		<td>..</td>
+    	    		<td>..</td>
+    	    		<td>..</td>
+    	    		<td>..</td>
+    	    		<td>..</td>
+    	    		<td>..</td>
+    	    		<td>..</td>
+    	    		<td>..</td>
+    	    		<td>..</td>
+    	    		<td>..</td>
+    	    		<td>..</td>
+    	    		<td>..</td>
+    	    	</tr>
+        	<tr>
+    	    		<td style="font-weight: bold;">C</td>
+    	    		<td style="font-weight: bold;">99.2</td>
+    	    		<td style="font-weight: bold;">101.1</td>
+    	    		<td style="font-weight: bold;">101.7</td>
+    	    		<td style="font-weight: bold;">103.9</td>
+    	    		<td style="font-weight: bold;">100.3</td>
+    	    		<td style="font-weight: bold;">101.8</td>
+    	    		<td style="font-weight: bold;">102.0</td>
+    	    		<td style="font-weight: bold;">97.6</td>
+    	    		<td style="font-weight: bold;">101.7</td>
+    	    		<td style="font-weight: bold;">103.8</td>
+    	    		<td style="font-weight: bold;">99.8</td>
+    	    		<td style="font-weight: bold;">98.7</td>
+    	    		<td style="font-weight: bold;">100.3</td>
+    	    	</tr>
+        	<tr>
+    	    		<td>C10</td>
+    	    		<td>88.8</td>
+    	    		<td>89.9</td>
+    	    		<td>89.6</td>
+    	    		<td>85.2</td>
+    	    		<td>84.5</td>
+    	    		<td>90.1</td>
+    	    		<td>90.0</td>
+    	    		<td>86.8</td>
+    	    		<td>88.0</td>
+    	    		<td>95.8</td>
+    	    		<td>93.6</td>
+    	    		<td>90.8</td>
+    	    		<td>91.0</td>
+    	    	</tr>
+        	<tr>
+    	    		<td>C11</td>
+    	    		<td>94.5</td>
+    	    		<td>91.0</td>
+    	    		<td>90.6</td>
+    	    		<td>92.2</td>
+    	    		<td>89.0</td>
+    	    		<td>95.1</td>
+    	    		<td>99.7</td>
+    	    		<td>94.3</td>
+    	    		<td>98.5</td>
+    	    		<td>96.1</td>
+    	    		<td>90.4</td>
+    	    		<td>92.2</td>
+    	    		<td>95.9</td>
+    	    	</tr>
+        	<tr>
+    	    		<td>C12</td>
+    	    		<td>99.2</td>
+    	    		<td>92.6</td>
+    	    		<td>87.9</td>
+    	    		<td>103.6</td>
+    	    		<td>85.5</td>
+    	    		<td>88.2</td>
+    	    		<td>110.5</td>
+    	    		<td>123.8</td>
+    	    		<td>118.1</td>
+    	    		<td>111.4</td>
+    	    		<td>111.8</td>
+    	    		<td>115.8</td>
+    	    		<td>119.2</td>
+    	    	</tr>
+        	<tr>
+    	    		<td>C13</td>
+    	    		<td>47.8</td>
+    	    		<td>54.9</td>
+    	    		<td>52.4</td>
+    	    		<td>48.4</td>
+    	    		<td>51.5</td>
+    	    		<td>54.5</td>
+    	    		<td>50.0</td>
+    	    		<td>43.8</td>
+    	    		<td>51.5</td>
+    	    		<td>47.1</td>
+    	    		<td>49.9</td>
+    	    		<td>45.1</td>
+    	    		<td>46.4</td>
+    	    	</tr>
+        	<tr>
+    	    		<td>C14</td>
+    	    		<td>77.8</td>
+    	    		<td>71.2</td>
+    	    		<td>70.3</td>
+    	    		<td>70.6</td>
+    	    		<td>73.7</td>
+    	    		<td>70.3</td>
+    	    		<td>73.6</td>
+    	    		<td>72.6</td>
+    	    		<td>72.0</td>
+    	    		<td>67.2</td>
+    	    		<td>72.3</td>
+    	    		<td>68.7</td>
+    	    		<td>64.3</td>
+    	    	</tr>
+        	<tr>
+    	    		<td>C15</td>
+    	    		<td>63.2</td>
+    	    		<td>57.6</td>
+    	    		<td>63.9</td>
+    	    		<td>68.5</td>
+    	    		<td>64.1</td>
+    	    		<td>61.9</td>
+    	    		<td>61.4</td>
+    	    		<td>42.7</td>
+    	    		<td>46.5</td>
+    	    		<td>45.0</td>
+    	    		<td>45.9</td>
+    	    		<td>44.4</td>
+    	    		<td>44.3</td>
+    	    	</tr>
+        	<tr>
+    	    		<td>C16</td>
+    	    		<td>78.5</td>
+    	    		<td>77.6</td>
+    	    		<td>78.6</td>
+    	    		<td>81.1</td>
+    	    		<td>76.3</td>
+    	    		<td>77.8</td>
+    	    		<td>82.0</td>
+    	    		<td>84.7</td>
+    	    		<td>73.9</td>
+    	    		<td>82.4</td>
+    	    		<td>76.9</td>
+    	    		<td>81.9</td>
+    	    		<td>77.0</td>
+    	    	</tr>
+        	<tr>
+    	    		<td>C17</td>
+    	    		<td>70.3</td>
+    	    		<td>72.5</td>
+    	    		<td>71.2</td>
+    	    		<td>71.7</td>
+    	    		<td>72.8</td>
+    	    		<td>68.2</td>
+    	    		<td>69.0</td>
+    	    		<td>71.6</td>
+    	    		<td>72.4</td>
+    	    		<td>75.5</td>
+    	    		<td>73.8</td>
+    	    		<td>70.1</td>
+    	    		<td>71.2</td>
+    	    	</tr>
+        	<tr>
+    	    		<td>C18</td>
+    	    		<td>93.0</td>
+    	    		<td>88.1</td>
+    	    		<td>90.2</td>
+    	    		<td>87.8</td>
+    	    		<td>88.9</td>
+    	    		<td>81.4</td>
+    	    		<td>87.3</td>
+    	    		<td>84.1</td>
+    	    		<td>88.3</td>
+    	    		<td>87.3</td>
+    	    		<td>94.6</td>
+    	    		<td>87.4</td>
+    	    		<td>87.4</td>
+    	    	</tr>
+        	<tr>
+    	    		<td>C19</td>
+    	    		<td>..</td>
+    	    		<td>..</td>
+    	    		<td>..</td>
+    	    		<td>..</td>
+    	    		<td>..</td>
+    	    		<td>..</td>
+    	    		<td>..</td>
+    	    		<td>..</td>
+    	    		<td>..</td>
+    	    		<td>..</td>
+    	    		<td>..</td>
+    	    		<td>..</td>
+    	    		<td>..</td>
+    	    	</tr>
+        	<tr>
+    	    		<td>C20</td>
+    	    		<td>89.1</td>
+    	    		<td>92.2</td>
+    	    		<td>96.8</td>
+    	    		<td>91.9</td>
+    	    		<td>84.8</td>
+    	    		<td>89.1</td>
+    	    		<td>91.4</td>
+    	    		<td>95.7</td>
+    	    		<td>94.3</td>
+    	    		<td>94.5</td>
+    	    		<td>96.0</td>
+    	    		<td>90.8</td>
+    	    		<td>87.6</td>
+    	    	</tr>
+        	<tr>
+    	    		<td>C21</td>
+    	    		<td>127.0</td>
+    	    		<td>115.3</td>
+    	    		<td>124.4</td>
+    	    		<td>123.8</td>
+    	    		<td>118.9</td>
+    	    		<td>124.9</td>
+    	    		<td>110.8</td>
+    	    		<td>119.4</td>
+    	    		<td>126.4</td>
+    	    		<td>135.6</td>
+    	    		<td>128.7</td>
+    	    		<td>128.2</td>
+    	    		<td>119.3</td>
+    	    	</tr>
+        	<tr>
+    	    		<td>C22</td>
+    	    		<td>81.0</td>
+    	    		<td>78.4</td>
+    	    		<td>77.3</td>
+    	    		<td>80.2</td>
+    	    		<td>77.8</td>
+    	    		<td>82.3</td>
+    	    		<td>77.2</td>
+    	    		<td>81.6</td>
+    	    		<td>82.6</td>
+    	    		<td>83.1</td>
+    	    		<td>83.4</td>
+    	    		<td>84.9</td>
+    	    		<td>79.7</td>
+    	    	</tr>
+        	<tr>
+    	    		<td>C23</td>
+    	    		<td>103.8</td>
+    	    		<td>106.6</td>
+    	    		<td>105.7</td>
+    	    		<td>107.5</td>
+    	    		<td>103.8</td>
+    	    		<td>107.5</td>
+    	    		<td>99.9</td>
+    	    		<td>94.2</td>
+    	    		<td>95.9</td>
+    	    		<td>99.9</td>
+    	    		<td>101.9</td>
+    	    		<td>104.6</td>
+    	    		<td>104.4</td>
+    	    	</tr>
+        	<tr>
+    	    		<td>C24</td>
+    	    		<td>70.8</td>
+    	    		<td>77.2</td>
+    	    		<td>73.4</td>
+    	    		<td>77.6</td>
+    	    		<td>82.1</td>
+    	    		<td>81.2</td>
+    	    		<td>72.5</td>
+    	    		<td>81.5</td>
+    	    		<td>84.3</td>
+    	    		<td>79.3</td>
+    	    		<td>77.0</td>
+    	    		<td>77.6</td>
+    	    		<td>78.7</td>
+    	    	</tr>
+        	<tr>
+    	    		<td>C25</td>
+    	    		<td>144.9</td>
+    	    		<td>170.0</td>
+    	    		<td>179.9</td>
+    	    		<td>188.8</td>
+    	    		<td>172.6</td>
+    	    		<td>151.4</td>
+    	    		<td>164.4</td>
+    	    		<td>163.5</td>
+    	    		<td>166.5</td>
+    	    		<td>153.0</td>
+    	    		<td>126.4</td>
+    	    		<td>117.0</td>
+    	    		<td>135.4</td>
+    	    	</tr>
+        	<tr>
+    	    		<td>C26</td>
+    	    		<td>108.4</td>
+    	    		<td>102.2</td>
+    	    		<td>107.6</td>
+    	    		<td>124.4</td>
+    	    		<td>109.9</td>
+    	    		<td>114.0</td>
+    	    		<td>130.0</td>
+    	    		<td>107.2</td>
+    	    		<td>109.1</td>
+    	    		<td>134.4</td>
+    	    		<td>106.8</td>
+    	    		<td>104.1</td>
+    	    		<td>146.1</td>
+    	    	</tr>
+        	<tr>
+    	    		<td>C27</td>
+    	    		<td>98.7</td>
+    	    		<td>96.8</td>
+    	    		<td>98.8</td>
+    	    		<td>102.9</td>
+    	    		<td>102.8</td>
+    	    		<td>125.2</td>
+    	    		<td>156.5</td>
+    	    		<td>94.3</td>
+    	    		<td>102.8</td>
+    	    		<td>113.6</td>
+    	    		<td>114.7</td>
+    	    		<td>123.0</td>
+    	    		<td>117.8</td>
+    	    	</tr>
+        	<tr>
+    	    		<td>C28</td>
+    	    		<td>93.2</td>
+    	    		<td>91.8</td>
+    	    		<td>99.0</td>
+    	    		<td>96.7</td>
+    	    		<td>95.5</td>
+    	    		<td>97.3</td>
+    	    		<td>102.6</td>
+    	    		<td>95.3</td>
+    	    		<td>96.0</td>
+    	    		<td>101.8</td>
+    	    		<td>97.6</td>
+    	    		<td>99.1</td>
+    	    		<td>109.4</td>
+    	    	</tr>
+        	<tr>
+    	    		<td>C29</td>
+    	    		<td>113.1</td>
+    	    		<td>112.6</td>
+    	    		<td>104.6</td>
+    	    		<td>108.9</td>
+    	    		<td>112.0</td>
+    	    		<td>99.8</td>
+    	    		<td>105.6</td>
+    	    		<td>94.8</td>
+    	    		<td>95.4</td>
+    	    		<td>98.4</td>
+    	    		<td>96.4</td>
+    	    		<td>92.3</td>
+    	    		<td>100.7</td>
+    	    	</tr>
+        	<tr>
+    	    		<td>C30</td>
+    	    		<td>87.8</td>
+    	    		<td>68.0</td>
+    	    		<td>65.7</td>
+    	    		<td>89.9</td>
+    	    		<td>97.7</td>
+    	    		<td>81.9</td>
+    	    		<td>84.2</td>
+    	    		<td>77.7</td>
+    	    		<td>81.3</td>
+    	    		<td>75.0</td>
+    	    		<td>85.2</td>
+    	    		<td>91.0</td>
+    	    		<td>84.3</td>
+    	    	</tr>
+        	<tr>
+    	    		<td>C31</td>
+    	    		<td>86.2</td>
+    	    		<td>89.3</td>
+    	    		<td>94.3</td>
+    	    		<td>98.7</td>
+    	    		<td>102.9</td>
+    	    		<td>96.0</td>
+    	    		<td>94.1</td>
+    	    		<td>94.3</td>
+    	    		<td>95.3</td>
+    	    		<td>91.8</td>
+    	    		<td>94.6</td>
+    	    		<td>92.8</td>
+    	    		<td>94.8</td>
+    	    	</tr>
+        	<tr>
+    	    		<td>C32</td>
+    	    		<td>113.6</td>
+    	    		<td>128.9</td>
+    	    		<td>111.8</td>
+    	    		<td>125.1</td>
+    	    		<td>134.0</td>
+    	    		<td>116.8</td>
+    	    		<td>133.8</td>
+    	    		<td>106.4</td>
+    	    		<td>119.8</td>
+    	    		<td>111.7</td>
+    	    		<td>116.5</td>
+    	    		<td>110.1</td>
+    	    		<td>106.7</td>
+    	    	</tr>
+        	<tr>
+    	    		<td>C33</td>
+    	    		<td>117.0</td>
+    	    		<td>118.4</td>
+    	    		<td>125.8</td>
+    	    		<td>131.5</td>
+    	    		<td>102.1</td>
+    	    		<td>114.1</td>
+    	    		<td>107.4</td>
+    	    		<td>106.3</td>
+    	    		<td>108.2</td>
+    	    		<td>121.7</td>
+    	    		<td>117.4</td>
+    	    		<td>112.9</td>
+    	    		<td>116.6</td>
+    	    	</tr>
+        	<tr>
+    	    		<td style="font-weight: bold;">D</td>
+    	    		<td style="font-weight: bold;">63.2</td>
+    	    		<td style="font-weight: bold;">63.1</td>
+    	    		<td style="font-weight: bold;">53.8</td>
+    	    		<td style="font-weight: bold;">62.3</td>
+    	    		<td style="font-weight: bold;">68.6</td>
+    	    		<td style="font-weight: bold;">44.9</td>
+    	    		<td style="font-weight: bold;">58.4</td>
+    	    		<td style="font-weight: bold;">58.8</td>
+    	    		<td style="font-weight: bold;">54.2</td>
+    	    		<td style="font-weight: bold;">62.7</td>
+    	    		<td style="font-weight: bold;">65.3</td>
+    	    		<td style="font-weight: bold;">69.9</td>
+    	    		<td style="font-weight: bold;">68.1</td>
+    	    	</tr>
+        	<tr>
+    	    		<td>D35</td>
+    	    		<td>63.2</td>
+    	    		<td>63.1</td>
+    	    		<td>53.8</td>
+    	    		<td>62.3</td>
+    	    		<td>68.6</td>
+    	    		<td>44.9</td>
+    	    		<td>58.4</td>
+    	    		<td>58.8</td>
+    	    		<td>54.2</td>
+    	    		<td>62.7</td>
+    	    		<td>65.3</td>
+    	    		<td>69.9</td>
+    	    		<td>68.1</td>
+    	    	</tr>
+        	<tr>
+    	    		<td></td>
+    	    		<td></td>
+    	    		<td></td>
+    	    		<td></td>
+    	    		<td></td>
+    	    		<td></td>
+    	    		<td></td>
+    	    		<td></td>
+    	    		<td></td>
+    	    		<td></td>
+    	    		<td></td>
+    	    		<td></td>
+    	    		<td></td>
+    	    		<td></td>
+    	    	</tr>
+        	<tr>
+    	    		<td>* Предварителни данни.</td>
+    	    		<td></td>
+    	    		<td></td>
+    	    		<td></td>
+    	    		<td></td>
+    	    		<td></td>
+    	    		<td></td>
+    	    		<td></td>
+    	    		<td></td>
+    	    		<td></td>
+    	    		<td></td>
+    	    		<td></td>
+    	    		<td></td>
+    	    		<td></td>
+    	    	</tr>
+        	<tr>
+    	    		<td> „..“ - конфиденциални данни.</td>
+    	    		<td></td>
+    	    		<td></td>
+    	    		<td></td>
+    	    		<td></td>
+    	    		<td></td>
+    	    		<td></td>
+    	    		<td></td>
+    	    		<td></td>
+    	    		<td></td>
+    	    		<td></td>
+    	    		<td></td>
+    	    		<td></td>
+    	    		<td></td>
+    	    	</tr>
+        </tbody>
+</table></div></p>
+<p style="text-align: left;"><div class="pageBreak"></div></p>
+<p style="text-align: right;"><strong>Таблица 4</strong></p>
+<p style="text-align: left;"><div class="icytables table-responsive">
+<table class="datatable display" id="icyTable3">
+	<caption>Индекси на промишленото производство  (календарно изгладени, 2021 = 100)</caption>
+	<thead>
+		<tr>
+						<th>Код по КИД - 2008</th>
+    					<th>VI.2025</th>
+    					<th>VII.2025</th>
+    					<th>VІІІ.2025</th>
+    					<th>ІX.2025</th>
+    					<th>X.2025</th>
+    					<th>XI.2025</th>
+    					<th>ХІІ.2025</th>
+    					<th>І.2026</th>
+    					<th>ІІ.2026</th>
+    					<th>ІІІ.2026</th>
+    					<th>ІV.2026</th>
+    					<th>V.2026</th>
+    					<th>VI.2026*</th>
+    				</tr>
+	</thead>
+    <tbody>
+        	<tr>
+    	    		<td style="font-weight: bold;">B_TO_E36</td>
+    	    		<td style="font-weight: bold;">92.9</td>
+    	    		<td style="font-weight: bold;">94.4</td>
+    	    		<td style="font-weight: bold;">89.7</td>
+    	    		<td style="font-weight: bold;">96.8</td>
+    	    		<td style="font-weight: bold;">98.1</td>
+    	    		<td style="font-weight: bold;">95.4</td>
+    	    		<td style="font-weight: bold;">94.9</td>
+    	    		<td style="font-weight: bold;">81.8</td>
+    	    		<td style="font-weight: bold;">82.8</td>
+    	    		<td style="font-weight: bold;">96.1</td>
+    	    		<td style="font-weight: bold;">85.7</td>
+    	    		<td style="font-weight: bold;">84.4</td>
+    	    		<td style="font-weight: bold;">90.5</td>
+    	    	</tr>
+        	<tr>
+    	    		<td style="font-weight: bold;">B</td>
+    	    		<td style="font-weight: bold;">93.9</td>
+    	    		<td style="font-weight: bold;">82.5</td>
+    	    		<td style="font-weight: bold;">94.2</td>
+    	    		<td style="font-weight: bold;">96.9</td>
+    	    		<td style="font-weight: bold;">85.5</td>
+    	    		<td style="font-weight: bold;">104.0</td>
+    	    		<td style="font-weight: bold;">92.6</td>
+    	    		<td style="font-weight: bold;">63.2</td>
+    	    		<td style="font-weight: bold;">57.7</td>
+    	    		<td style="font-weight: bold;">59.5</td>
+    	    		<td style="font-weight: bold;">50.1</td>
+    	    		<td style="font-weight: bold;">51.4</td>
+    	    		<td style="font-weight: bold;">47.8</td>
+    	    	</tr>
+        	<tr>
+    	    		<td>B05</td>
+    	    		<td>..</td>
+    	    		<td>..</td>
+    	    		<td>..</td>
+    	    		<td>..</td>
+    	    		<td>..</td>
+    	    		<td>..</td>
+    	    		<td>..</td>
+    	    		<td>..</td>
+    	    		<td>..</td>
+    	    		<td>..</td>
+    	    		<td>..</td>
+    	    		<td>..</td>
+    	    		<td>..</td>
+    	    	</tr>
+        	<tr>
+    	    		<td>B06</td>
+    	    		<td>..</td>
+    	    		<td>..</td>
+    	    		<td>..</td>
+    	    		<td>..</td>
+    	    		<td>..</td>
+    	    		<td>..</td>
+    	    		<td>..</td>
+    	    		<td>..</td>
+    	    		<td>..</td>
+    	    		<td>..</td>
+    	    		<td>..</td>
+    	    		<td>..</td>
+    	    		<td>..</td>
+    	    	</tr>
+        	<tr>
+    	    		<td>B07</td>
+    	    		<td>113.6</td>
+    	    		<td>96.5</td>
+    	    		<td>112.6</td>
+    	    		<td>117.7</td>
+    	    		<td>97.8</td>
+    	    		<td>122.5</td>
+    	    		<td>108.7</td>
+    	    		<td>75.5</td>
+    	    		<td>66.1</td>
+    	    		<td>66.8</td>
+    	    		<td>55.3</td>
+    	    		<td>57.3</td>
+    	    		<td>50.9</td>
+    	    	</tr>
+        	<tr>
+    	    		<td>B08</td>
+    	    		<td>78.6</td>
+    	    		<td>80.5</td>
+    	    		<td>83.5</td>
+    	    		<td>81.4</td>
+    	    		<td>79.9</td>
+    	    		<td>83.8</td>
+    	    		<td>80.4</td>
+    	    		<td>56.1</td>
+    	    		<td>59.4</td>
+    	    		<td>78.8</td>
+    	    		<td>79.6</td>
+    	    		<td>80.2</td>
+    	    		<td>75.0</td>
+    	    	</tr>
+        	<tr>
+    	    		<td>B09</td>
+    	    		<td>..</td>
+    	    		<td>..</td>
+    	    		<td>..</td>
+    	    		<td>..</td>
+    	    		<td>..</td>
+    	    		<td>..</td>
+    	    		<td>..</td>
+    	    		<td>..</td>
+    	    		<td>..</td>
+    	    		<td>..</td>
+    	    		<td>..</td>
+    	    		<td>..</td>
+    	    		<td>..</td>
+    	    	</tr>
+        	<tr>
+    	    		<td style="font-weight: bold;">C</td>
+    	    		<td style="font-weight: bold;">103.3</td>
+    	    		<td style="font-weight: bold;">104.9</td>
+    	    		<td style="font-weight: bold;">98.4</td>
+    	    		<td style="font-weight: bold;">106.9</td>
+    	    		<td style="font-weight: bold;">108.4</td>
+    	    		<td style="font-weight: bold;">106.5</td>
+    	    		<td style="font-weight: bold;">101.4</td>
+    	    		<td style="font-weight: bold;">86.9</td>
+    	    		<td style="font-weight: bold;">93.2</td>
+    	    		<td style="font-weight: bold;">107.8</td>
+    	    		<td style="font-weight: bold;">97.6</td>
+    	    		<td style="font-weight: bold;">96.2</td>
+    	    		<td style="font-weight: bold;">104.7</td>
+    	    	</tr>
+        	<tr>
+    	    		<td>C10</td>
+    	    		<td>89.2</td>
+    	    		<td>89.8</td>
+    	    		<td>91.2</td>
+    	    		<td>88.2</td>
+    	    		<td>93.4</td>
+    	    		<td>94.2</td>
+    	    		<td>93.0</td>
+    	    		<td>78.6</td>
+    	    		<td>76.8</td>
+    	    		<td>95.9</td>
+    	    		<td>91.0</td>
+    	    		<td>86.7</td>
+    	    		<td>93.3</td>
+    	    	</tr>
+        	<tr>
+    	    		<td>C11</td>
+    	    		<td>113.1</td>
+    	    		<td>111.3</td>
+    	    		<td>110.5</td>
+    	    		<td>103.5</td>
+    	    		<td>81.4</td>
+    	    		<td>87.6</td>
+    	    		<td>96.5</td>
+    	    		<td>70.1</td>
+    	    		<td>73.1</td>
+    	    		<td>88.0</td>
+    	    		<td>86.7</td>
+    	    		<td>92.8</td>
+    	    		<td>115.5</td>
+    	    	</tr>
+        	<tr>
+    	    		<td>C12</td>
+    	    		<td>121.1</td>
+    	    		<td>118.1</td>
+    	    		<td>90.2</td>
+    	    		<td>114.6</td>
+    	    		<td>89.0</td>
+    	    		<td>81.3</td>
+    	    		<td>100.6</td>
+    	    		<td>88.1</td>
+    	    		<td>93.3</td>
+    	    		<td>117.9</td>
+    	    		<td>131.6</td>
+    	    		<td>134.6</td>
+    	    		<td>142.6</td>
+    	    	</tr>
+        	<tr>
+    	    		<td>C13</td>
+    	    		<td>50.9</td>
+    	    		<td>56.4</td>
+    	    		<td>43.8</td>
+    	    		<td>49.2</td>
+    	    		<td>54.7</td>
+    	    		<td>58.9</td>
+    	    		<td>44.7</td>
+    	    		<td>38.7</td>
+    	    		<td>52.1</td>
+    	    		<td>50.1</td>
+    	    		<td>50.9</td>
+    	    		<td>47.4</td>
+    	    		<td>49.8</td>
+    	    	</tr>
+        	<tr>
+    	    		<td>C14</td>
+    	    		<td>85.0</td>
+    	    		<td>80.4</td>
+    	    		<td>65.6</td>
+    	    		<td>69.3</td>
+    	    		<td>78.2</td>
+    	    		<td>72.4</td>
+    	    		<td>71.8</td>
+    	    		<td>76.8</td>
+    	    		<td>72.7</td>
+    	    		<td>65.0</td>
+    	    		<td>66.8</td>
+    	    		<td>62.6</td>
+    	    		<td>69.1</td>
+    	    	</tr>
+        	<tr>
+    	    		<td>C15</td>
+    	    		<td>67.9</td>
+    	    		<td>61.9</td>
+    	    		<td>51.2</td>
+    	    		<td>68.7</td>
+    	    		<td>71.5</td>
+    	    		<td>71.4</td>
+    	    		<td>57.7</td>
+    	    		<td>41.8</td>
+    	    		<td>45.0</td>
+    	    		<td>46.8</td>
+    	    		<td>45.8</td>
+    	    		<td>41.4</td>
+    	    		<td>47.2</td>
+    	    	</tr>
+        	<tr>
+    	    		<td>C16</td>
+    	    		<td>82.0</td>
+    	    		<td>82.3</td>
+    	    		<td>75.9</td>
+    	    		<td>84.1</td>
+    	    		<td>81.0</td>
+    	    		<td>84.4</td>
+    	    		<td>77.7</td>
+    	    		<td>74.2</td>
+    	    		<td>65.5</td>
+    	    		<td>84.5</td>
+    	    		<td>76.6</td>
+    	    		<td>85.7</td>
+    	    		<td>80.0</td>
+    	    	</tr>
+        	<tr>
+    	    		<td>C17</td>
+    	    		<td>74.0</td>
+    	    		<td>76.6</td>
+    	    		<td>66.4</td>
+    	    		<td>72.0</td>
+    	    		<td>81.2</td>
+    	    		<td>73.4</td>
+    	    		<td>62.5</td>
+    	    		<td>67.6</td>
+    	    		<td>67.4</td>
+    	    		<td>78.9</td>
+    	    		<td>71.4</td>
+    	    		<td>69.5</td>
+    	    		<td>74.9</td>
+    	    	</tr>
+        	<tr>
+    	    		<td>C18</td>
+    	    		<td>97.1</td>
+    	    		<td>86.8</td>
+    	    		<td>83.4</td>
+    	    		<td>84.2</td>
+    	    		<td>95.2</td>
+    	    		<td>91.6</td>
+    	    		<td>92.9</td>
+    	    		<td>74.9</td>
+    	    		<td>79.8</td>
+    	    		<td>89.6</td>
+    	    		<td>95.2</td>
+    	    		<td>88.0</td>
+    	    		<td>91.6</td>
+    	    	</tr>
+        	<tr>
+    	    		<td>C19</td>
+    	    		<td>..</td>
+    	    		<td>..</td>
+    	    		<td>..</td>
+    	    		<td>..</td>
+    	    		<td>..</td>
+    	    		<td>..</td>
+    	    		<td>..</td>
+    	    		<td>..</td>
+    	    		<td>..</td>
+    	    		<td>..</td>
+    	    		<td>..</td>
+    	    		<td>..</td>
+    	    		<td>..</td>
+    	    	</tr>
+        	<tr>
+    	    		<td>C20</td>
+    	    		<td>91.5</td>
+    	    		<td>93.0</td>
+    	    		<td>92.7</td>
+    	    		<td>90.8</td>
+    	    		<td>85.0</td>
+    	    		<td>91.7</td>
+    	    		<td>90.5</td>
+    	    		<td>90.4</td>
+    	    		<td>89.6</td>
+    	    		<td>103.6</td>
+    	    		<td>97.8</td>
+    	    		<td>90.2</td>
+    	    		<td>89.9</td>
+    	    	</tr>
+        	<tr>
+    	    		<td>C21</td>
+    	    		<td>141.8</td>
+    	    		<td>112.1</td>
+    	    		<td>116.1</td>
+    	    		<td>116.2</td>
+    	    		<td>125.9</td>
+    	    		<td>131.2</td>
+    	    		<td>110.1</td>
+    	    		<td>116.8</td>
+    	    		<td>115.3</td>
+    	    		<td>151.2</td>
+    	    		<td>128.2</td>
+    	    		<td>123.1</td>
+    	    		<td>129.3</td>
+    	    	</tr>
+        	<tr>
+    	    		<td>C22</td>
+    	    		<td>85.5</td>
+    	    		<td>81.7</td>
+    	    		<td>72.3</td>
+    	    		<td>82.9</td>
+    	    		<td>84.1</td>
+    	    		<td>86.3</td>
+    	    		<td>69.3</td>
+    	    		<td>75.6</td>
+    	    		<td>78.2</td>
+    	    		<td>87.6</td>
+    	    		<td>83.2</td>
+    	    		<td>86.1</td>
+    	    		<td>83.3</td>
+    	    	</tr>
+        	<tr>
+    	    		<td>C23</td>
+    	    		<td>109.0</td>
+    	    		<td>115.6</td>
+    	    		<td>108.7</td>
+    	    		<td>113.1</td>
+    	    		<td>113.7</td>
+    	    		<td>115.3</td>
+    	    		<td>92.2</td>
+    	    		<td>69.5</td>
+    	    		<td>79.8</td>
+    	    		<td>99.1</td>
+    	    		<td>102.5</td>
+    	    		<td>111.9</td>
+    	    		<td>110.5</td>
+    	    	</tr>
+        	<tr>
+    	    		<td>C24</td>
+    	    		<td>72.4</td>
+    	    		<td>78.2</td>
+    	    		<td>66.8</td>
+    	    		<td>76.5</td>
+    	    		<td>89.6</td>
+    	    		<td>86.9</td>
+    	    		<td>63.0</td>
+    	    		<td>80.7</td>
+    	    		<td>82.8</td>
+    	    		<td>84.6</td>
+    	    		<td>76.7</td>
+    	    		<td>79.1</td>
+    	    		<td>80.1</td>
+    	    	</tr>
+        	<tr>
+    	    		<td>C25</td>
+    	    		<td>147.3</td>
+    	    		<td>182.9</td>
+    	    		<td>177.7</td>
+    	    		<td>192.5</td>
+    	    		<td>184.0</td>
+    	    		<td>164.0</td>
+    	    		<td>169.5</td>
+    	    		<td>130.7</td>
+    	    		<td>147.3</td>
+    	    		<td>154.4</td>
+    	    		<td>125.6</td>
+    	    		<td>109.9</td>
+    	    		<td>137.0</td>
+    	    	</tr>
+        	<tr>
+    	    		<td>C26</td>
+    	    		<td>114.5</td>
+    	    		<td>104.8</td>
+    	    		<td>94.5</td>
+    	    		<td>128.3</td>
+    	    		<td>122.1</td>
+    	    		<td>120.6</td>
+    	    		<td>126.3</td>
+    	    		<td>98.2</td>
+    	    		<td>104.9</td>
+    	    		<td>146.0</td>
+    	    		<td>102.9</td>
+    	    		<td>95.8</td>
+    	    		<td>159.4</td>
+    	    	</tr>
+        	<tr>
+    	    		<td>C27</td>
+    	    		<td>106.1</td>
+    	    		<td>100.2</td>
+    	    		<td>91.4</td>
+    	    		<td>105.8</td>
+    	    		<td>108.7</td>
+    	    		<td>128.2</td>
+    	    		<td>136.6</td>
+    	    		<td>85.2</td>
+    	    		<td>102.0</td>
+    	    		<td>119.9</td>
+    	    		<td>116.6</td>
+    	    		<td>118.0</td>
+    	    		<td>127.0</td>
+    	    	</tr>
+        	<tr>
+    	    		<td>C28</td>
+    	    		<td>98.1</td>
+    	    		<td>93.6</td>
+    	    		<td>87.7</td>
+    	    		<td>98.5</td>
+    	    		<td>103.5</td>
+    	    		<td>101.8</td>
+    	    		<td>100.0</td>
+    	    		<td>85.1</td>
+    	    		<td>93.1</td>
+    	    		<td>110.5</td>
+    	    		<td>98.6</td>
+    	    		<td>96.1</td>
+    	    		<td>116.9</td>
+    	    	</tr>
+        	<tr>
+    	    		<td>C29</td>
+    	    		<td>116.5</td>
+    	    		<td>106.6</td>
+    	    		<td>92.1</td>
+    	    		<td>108.1</td>
+    	    		<td>119.4</td>
+    	    		<td>106.6</td>
+    	    		<td>93.5</td>
+    	    		<td>95.1</td>
+    	    		<td>96.8</td>
+    	    		<td>105.9</td>
+    	    		<td>97.0</td>
+    	    		<td>91.0</td>
+    	    		<td>105.3</td>
+    	    	</tr>
+        	<tr>
+    	    		<td>C30</td>
+    	    		<td>91.3</td>
+    	    		<td>62.9</td>
+    	    		<td>59.4</td>
+    	    		<td>88.7</td>
+    	    		<td>112.8</td>
+    	    		<td>79.9</td>
+    	    		<td>75.5</td>
+    	    		<td>62.5</td>
+    	    		<td>85.0</td>
+    	    		<td>70.4</td>
+    	    		<td>92.0</td>
+    	    		<td>97.3</td>
+    	    		<td>87.8</td>
+    	    	</tr>
+        	<tr>
+    	    		<td>C31</td>
+    	    		<td>90.7</td>
+    	    		<td>91.8</td>
+    	    		<td>89.8</td>
+    	    		<td>99.7</td>
+    	    		<td>111.9</td>
+    	    		<td>100.3</td>
+    	    		<td>91.1</td>
+    	    		<td>81.5</td>
+    	    		<td>91.0</td>
+    	    		<td>93.3</td>
+    	    		<td>93.9</td>
+    	    		<td>90.2</td>
+    	    		<td>99.6</td>
+    	    	</tr>
+        	<tr>
+    	    		<td>C32</td>
+    	    		<td>129.0</td>
+    	    		<td>130.5</td>
+    	    		<td>110.0</td>
+    	    		<td>130.3</td>
+    	    		<td>149.0</td>
+    	    		<td>124.1</td>
+    	    		<td>123.1</td>
+    	    		<td>90.5</td>
+    	    		<td>105.6</td>
+    	    		<td>111.7</td>
+    	    		<td>113.4</td>
+    	    		<td>108.8</td>
+    	    		<td>120.7</td>
+    	    	</tr>
+        	<tr>
+    	    		<td>C33</td>
+    	    		<td>120.6</td>
+    	    		<td>120.0</td>
+    	    		<td>123.3</td>
+    	    		<td>141.0</td>
+    	    		<td>106.5</td>
+    	    		<td>124.2</td>
+    	    		<td>141.9</td>
+    	    		<td>78.4</td>
+    	    		<td>91.4</td>
+    	    		<td>121.8</td>
+    	    		<td>106.7</td>
+    	    		<td>105.4</td>
+    	    		<td>120.3</td>
+    	    	</tr>
+        	<tr>
+    	    		<td style="font-weight: bold;">D</td>
+    	    		<td style="font-weight: bold;">52.4</td>
+    	    		<td style="font-weight: bold;">59.8</td>
+    	    		<td style="font-weight: bold;">52.6</td>
+    	    		<td style="font-weight: bold;">58.0</td>
+    	    		<td style="font-weight: bold;">65.8</td>
+    	    		<td style="font-weight: bold;">49.1</td>
+    	    		<td style="font-weight: bold;">70.2</td>
+    	    		<td style="font-weight: bold;">71.1</td>
+    	    		<td style="font-weight: bold;">57.5</td>
+    	    		<td style="font-weight: bold;">72.4</td>
+    	    		<td style="font-weight: bold;">56.9</td>
+    	    		<td style="font-weight: bold;">55.5</td>
+    	    		<td style="font-weight: bold;">57.7</td>
+    	    	</tr>
+        	<tr>
+    	    		<td>D35</td>
+    	    		<td>52.4</td>
+    	    		<td>59.8</td>
+    	    		<td>52.6</td>
+    	    		<td>58.0</td>
+    	    		<td>65.8</td>
+    	    		<td>49.1</td>
+    	    		<td>70.2</td>
+    	    		<td>71.1</td>
+    	    		<td>57.5</td>
+    	    		<td>72.4</td>
+    	    		<td>56.9</td>
+    	    		<td>55.5</td>
+    	    		<td>57.7</td>
+    	    	</tr>
+        	<tr>
+    	    		<td></td>
+    	    		<td></td>
+    	    		<td></td>
+    	    		<td></td>
+    	    		<td></td>
+    	    		<td></td>
+    	    		<td></td>
+    	    		<td></td>
+    	    		<td></td>
+    	    		<td></td>
+    	    		<td></td>
+    	    		<td></td>
+    	    		<td></td>
+    	    		<td></td>
+    	    	</tr>
+        	<tr>
+    	    		<td>* Предварителни данни.</td>
+    	    		<td></td>
+    	    		<td></td>
+    	    		<td></td>
+    	    		<td></td>
+    	    		<td></td>
+    	    		<td></td>
+    	    		<td></td>
+    	    		<td></td>
+    	    		<td></td>
+    	    		<td></td>
+    	    		<td></td>
+    	    		<td></td>
+    	    		<td></td>
+    	    	</tr>
+        	<tr>
+    	    		<td>„..“ - конфиденциални данни.</td>
+    	    		<td></td>
+    	    		<td></td>
+    	    		<td></td>
+    	    		<td></td>
+    	    		<td></td>
+    	    		<td></td>
+    	    		<td></td>
+    	    		<td></td>
+    	    		<td></td>
+    	    		<td></td>
+    	    		<td></td>
+    	    		<td></td>
+    	    		<td></td>
+    	    	</tr>
+        </tbody>
+</table></div></p>
+<p style="text-align: left;">&nbsp;</p>
+												    				    		<div>Подробни данни могат да бъдат намерени на сайта на НСИ в разделите:    				    			    				    				    				    					<br><a href="/statistical-data/341">Индекси на промишленото производство</a>
+    				    				    				    			
+
+    				    		</div>
+    				    						                    </div>
+
+                    <div class="article-footer">
+                    	
+                    	
+                    								                                <div class="article-tags" style="display:block;width:100%;max-width:100%; flex:none">
+                                    <span><i class="fas fa-bookmark"></i></span>
+        							100.4% индекс на промишлено производство                                </div>
+                                                    
+                        <div class="article-share">
+                            <ul class="social">
+                                <li><span>Сподели:</span></li>
+                                <li>
+                                	<a href="https://www.facebook.com/sharer.php?u=https://www.nsi.bg/press-release/indeksi-na-promishlenoto-proizvodstvo-9111" target="_blank">
+                                        <i class="fab fa-facebook-f"></i>
+                                        <span class="sr-only">facebook</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="https://twitter.com/intent/tweet?url=https://www.nsi.bg/press-release/indeksi-na-promishlenoto-proizvodstvo-9111" target="_blank">
+                                        <i class="fab fa-twitter"></i>
+                                        <span class="sr-only">twitter</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="https://www.linkedin.com/shareArticle?mini=true&url=https://www.nsi.bg/press-release/indeksi-na-promishlenoto-proizvodstvo-9111" target="_blank">
+                                        <i class="fab fa-linkedin-in"></i>
+                                        <span class="sr-only">linkedin</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="https://www.instagram.com/?url=https://www.nsi.bg/press-release/indeksi-na-promishlenoto-proizvodstvo-9111" target="_blank">
+                                        <i class="fab fa-instagram"></i>
+                                        <span class="sr-only">instagram</span>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="post-navigation">
+                        <div class="navigation-links">
+                            <div class="nav-previous">
+                                <a href="/press-release"><i class="fa fa-arrow-left"></i> Назад</a>
+                            </div>
+                        </div>
+                    </div>
+				</div>
+            </div>
+		</div>
+    </div>
+</section>
+
+		
+
+<!-- Start Footer Section -->
+<section class="footer-section ptb-50">
+	<div class="container">
+        <div class="row">
+        	                <div class="col-lg-3 col-md-6 col-sm-6">
+                    <div class="footer-area">
+                        <!-- <div class="footer-heading">
+                            <h3></h3>
+                        </div> -->
+
+                        <p><strong data-start="26" data-end="71">Националният статистически институт (НСИ)</strong> е държавна институция в България, която събира, обработва и разпространява официална статистическа информация за социалните, икономическите и демографските процеси в страната. Дейността на НСИ е насочена към осигуряване на обективни и надеждни данни, които подпомагат вземането на информирани решения от страна на държавата, бизнеса и обществото. Институтът работи съгласно международните статистически стандарти и е активен участник в Европейската статистическа система.</p>                        
+                                                <ul class="footer-social">
+                        								                        </ul>
+                    </div>
+                </div>
+            			
+			
+    			                    <div class="col-lg-2 col-md-6 col-sm-6">
+                        <div class="footer-item-area">
+                            <div class="footer-heading">
+                                <h3>Връзки</h3>
+                            </div>
+        					                            <ul class="footer-quick-links">
+                            	                                	<li><a href="/statistical-data/258">Статистически данни</a></li>
+                                                                	<li><a href="/sitemap">Карта на сайта</a></li>
+                                                                	<li><a href="/survey/1">Анкета</a></li>
+                                                                	<li><a href="pages/rss-911">RSS</a></li>
+                                                            </ul>
+                                                    </div>
+                    </div>
+                			
+    			                    <div class="col-lg-2 col-md-6 col-sm-6">
+                        <div class="footer-item-area">
+                            <div class="footer-heading">
+                                <h3>Конкурси, търгове и обявления</h3>
+                            </div>
+        					                            <ul class="footer-quick-links">
+                            	                                	<li><a href="/konkursi">Конкурси</a></li>
+                                                                	<li><a href="/targove">Търгове</a></li>
+                                                                	<li><a href="https://app.eop.bg/today">Профил на купувача</a></li>
+                                                            </ul>
+                                                    </div>
+                    </div>
+                			
+    			                    <div class="col-lg-2 col-md-6 col-sm-6">
+                        <div class="footer-item-area">
+                            <div class="footer-heading">
+                                <h3>Отговорност</h3>
+                            </div>
+        					                            <ul class="footer-quick-links">
+                            	                                	<li><a href="/pages/obshti-usloviya-za-polzvane-na-internet-saita-na-nsi-687">Условия за ползване</a></li>
+                                                                	<li><a href="/pages/politika-za-lichnite-danni-v-nacionalen-statisticheski-institut-591">Политика за личните данни</a></li>
+                                                                	<li><a href="/pages/deklaraciya-za-dostapnost-689">Декларация за достъпност</a></li>
+                                                                	<li><a href="/pages/politika-za-izpolzvaneto-na-biskvitki-688">Бисквитки</a></li>
+                                                                	<li><a href="/pages/licenz-za-izpolzvaneto-na-statisticheskata-informaciya-proizvejdana-i-razprostranyavana-ot-nacionalniya-statisticheski-institut-485">© 2025 | Лиценз</a></li>
+                                                            </ul>
+                                                    </div>
+                    </div>
+                						            <div class="col-lg-3 col-md-6 col-sm-6">
+                <div class="footer-heading">
+                    <h3>Контакти</h3>
+                </div>
+
+                <div class="footer-info-contact">
+                    <i class="flaticon-call-answer"></i>
+                    <h3>Телефон</h3>
+                    <span><a href="tel:(02) 9857 111">(02) 9857 111</a></span>
+                </div>
+
+                <div class="footer-info-contact">
+                    <i class="flaticon-envelope"></i>
+                    <h3>Имейл</h3>
+                    <span><a href="/cdn-cgi/l/email-protection#357c5b535a755b465c1b5752"><span class="__cf_email__" data-cfemail="1a53747c755a74697334787d">[email&#160;protected]</span></a></span>
+                </div>
+
+                <div class="footer-info-contact">
+                    <i class="flaticon-placeholder-filled-point"></i>
+                    <h3>Адрес</h3>
+                    <span>ул. „П. Волов“ № 2, София 1038, България</span>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+
+    <div class="default-animation">
+        <div class="shape-img1"><img src="templates/default/img/shape/12.svg" alt="shape-img1"></div>
+        <div class="shape-img2"><img src="templates/default/img/shape/13.svg" alt="shape-img2"></div>
+        <div class="shape-img3"><img src="templates/default/img/shape/14.png" alt="shape-img3"></div>
+        <div class="shape-img4"><img src="templates/default/img/shape/15.png" alt="shape-img4"></div>
+        <div class="shape-img5"><img src="templates/default/img/shape/2.png" alt="shape-img5"></div>
+    </div>
+
+</section>
+<!-- End Footer Section -->
+
+<!-- Start Copy Right Section -->
+<div class="copyright-area">
+    <div class="container">
+        <div class="row align-items-center">
+            <div class="col-lg-6 col-md-6">
+                <p>
+                    Copyright © 2026 НСИ Всички права запазени                </p>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- End Copy Right Section -->
+<div class="go-top">
+    <i class="fas fa-chevron-up"></i>
+    <i class="fas fa-chevron-up"></i>
+</div>
+<!-- End Go Top Section -->
+<div class="cookie-disclaimer">
+  <div class="cookie-close accept-cookie"><i class="fa fa-times"></i></div>
+  <div class="container">
+    <p>Ние използваме бисквитки на този сайт, за да подобрим вашето потребителско изживяване.      <br>Като щракнете върху бутона Приемам, вие се съгласявате да го направим.       </p>
+    <button type="button" class="btn btn-success accept-cookie">Приемам</button>
+    <button type="button" class="btn btn-light accept-cookie">Не, благодаря</button>
+  </div>
+</div>
+        <!-- End Go Top Section -->
+
+<!-- jQuery Min JS -->
+<script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script src="templates/default/js/jquery.min.js"></script>
+<!-- Bootstrap Min JS -->
+<script src="templates/default/js/bootstrap.bundle.min.js"></script>
+<!-- MeanMenu JS  -->
+<script src="templates/default/js/jquery.meanmenu.js"></script>
+<!-- Appear Min JS -->
+<script src="templates/default/js/jquery.appear.min.js"></script>
+<!-- Odometer Min JS -->
+<script src="templates/default/js/odometer.min.js"></script>
+<!-- Owl Carousel Min JS -->
+<script src="templates/default/js/owl.carousel.min.js"></script>
+<!-- Magnific Popup Min JS -->
+<script src="templates/default/js/jquery.magnific-popup.min.js"></script>
+<!-- Nice Select Min JS -->
+<script src="templates/default/js/jquery.nice-select.min.js"></script>
+<!-- Mixitup Min JS -->
+<script src="templates/default/js/jquery.mixitup.min.js"></script>
+<!-- WOW Min JS -->
+<script src="templates/default/js/wow.min.js"></script>
+<!-- Parallax Min JS -->
+<script src="templates/default/js/parallax.min.js"></script>
+<!--=== AjaxChimp JS ===-->
+<script src="templates/default/js/jquery.ajaxchimp.min.js"></script>
+<!-- Form Validator JS -->
+<script src="templates/default/js/form-validator.min.js"></script>
+<!-- JS UI -->
+<script src="templates/default/js/jquery-ui.js"></script>
+<!-- Main JS -->
+<script src="templates/default/js/main.js?time=1787011540"></script>
+
+<script src="templates/default/js/external/dataTables.min.js"></script>
+<script src="templates/default/js/particles.js"></script>
+<!--<script src="templates/default/js/app.js"></script>-->
+<script src="templates/default/js/stats.js"></script>
+
+<!-- Nav tree -->
+<script src="templates/default/js/tree.js?time=1787011540"></script>
+
+<script src="templates/default/js/lightbox.js"></script>
+
+
+<script>
+function loadHomeCalendar()
+{
+	if($("#main-calendar").length) {
+
+		var active_dates = [];
+
+		$.ajax({
+	   	    url: '/news/index/ajax-calendar-dates',
+	        type: 'POST',
+	        async: false,
+	        dataType: 'json',
+	        success: function (res) {
+	        	active_dates = res;
+	        },
+	    });
+
+		$.datepicker.setDefaults($.datepicker.regional["bg"]);
+
+    	$("#main-calendar").datepicker({
+    		firstDay: 1,
+    		beforeShowDay: function(date) {
+
+        		var d = date;
+                var curr_date = d.getDate();
+                var curr_month = d.getMonth() + 1;
+                var curr_year = d.getFullYear();
+                var formattedDate = curr_date + "/" + curr_month + "/" + curr_year
+
+        		if ($.inArray(formattedDate, active_dates) != -1) {
+        			return [1, ""];
+        		} else {
+        			return [1, "noItem"];
+        		}
+        	},
+    		onSelect: function (dateString, txtDate) {
+    			$.ajax({
+    		   	    url: '/news/index/ajax-calendar',
+    		        type: 'POST',
+    		        data: {'date': dateString},
+    		        async: false,
+    		        success: function (res) {
+    		            $('.home-calendar').html(res);
+
+    		            loadHomeCalendar();
+
+    		            if($('#main-calendar').data('value')) {
+    		            	var date = new Date($('#main-calendar').data('value'));
+
+    		            	$("#main-calendar").datepicker("setDate", new Date($('#main-calendar').data('value')));
+    		            }
+    		        },
+    		    });
+    	    }
+    	});
+	}
+}
+
+loadHomeCalendar();
+
+$(function () {
+	$('[data-action="minifyMenu"]').on('click', function () {
+		let $menu = $('#tree1');
+		let $p = $menu.parent();
+		let nextElement = $menu.closest('.row').find('div:nth-child(2)');
+		if ($menu.width() > 0) {
+            $menu.animate({ width: '0px' }, 0, function () {
+                $('.menu-left').hide();
+                $('.menu-right').show();
+            });
+            $menu.hide();
+            $(nextElement[0]).removeClass();
+            $(nextElement[0]).addClass('col-lg-11 col-md-11');
+            $p.removeClass();
+            $p.addClass('col-lg-1 col-md-1');
+        } else {
+        	$menu.show();
+            $menu.animate({ width: '100%' }, 0, function () {
+            	$('.menu-left').show();
+                $('.menu-right').hide();
+            });
+            $(nextElement[0]).removeClass();
+            $(nextElement[0]).addClass('col-lg-8 col-md-8');
+            $p.removeClass();
+            $p.addClass('col-lg-4 col-md-4');
+        }
+    });
+});
+
+$('#tree1 li.active').parents().trigger('click');
+$('li.active:last').trigger('click');
+
+$('#tree1 a.active:last').css('color', 'black');
+$('.news-stats-filters li.active a').css('color', 'black').css('font-weight', 500);
+
+var cookie = false;
+var cookieContent = $('.cookie-disclaimer');
+
+checkCookie();
+
+if (cookie === true) {
+  cookieContent.hide();
+}
+
+function setCookie(cname, cvalue, exdays) {
+  var d = new Date();
+  d.setTime(d.getTime() + (exdays * 24 * 60 * 60 * 1000));
+  var expires = "expires=" + d.toGMTString();
+  document.cookie = cname + "=" + cvalue + "; " + expires;
+}
+
+function getCookie(cname) {
+  var name = cname + "=";
+  var ca = document.cookie.split(';');
+  for (var i = 0; i < ca.length; i++) {
+    var c = ca[i].trim();
+    if (c.indexOf(name) === 0) return c.substring(name.length, c.length);
+  }
+  return "";
+}
+
+function checkCookie() {
+  var check = getCookie("acookie");
+  if (check !== "") {
+    return cookie = true;
+  } else {
+      return cookie = false; //setCookie("acookie", "accepted", 365);
+  }
+
+}
+$('.accept-cookie').click(function () {
+  setCookie("acookie", "accepted", 365);
+  cookieContent.hide(500);
+});
+</script>
+
+
+<script src="templates/default/js/external/echarts.min.js"></script>
+<script src="templates/default/js/external/dataTables.buttons.js"></script>
+<script src="templates/default/js/external/buttons.dataTables.js"></script>
+<script src="templates/default/js/external/jszip.min.js"></script>
+<script src="templates/default/js/external/pdfmake.min.js"></script>
+<script src="templates/default/js/external/vfs_fonts.js"></script>
+<script src="templates/default/js/external/buttons.html5.min.js"></script>
+<script src="templates/default/js/external/buttons.print.min.js"></script>
+<script src="https://www.gstatic.com/charts/loader.js"></script>
+<script src="https://unpkg.com/gridviz/dist/gridviz.min.js"></script>
+<script>
+google.charts.load('current', {
+    'packages': ['geochart'],
+});
+</script>
+<script>
+$.fn.dataTable.ext.errMode = 'throw';
+function attachDatatable(el, pButtons)
+{
+	var pdf = {
+        extend: 'pdfHtml5',
+        text: 'PDF',
+        title: '',
+        orientation: 'landscape',
+        pageSize: 'A3',
+	};
+
+	const superscriptMap = {
+	  '0': '⁰', '1': '¹', '2': '²', '3': '³', '4': '⁴',
+	  '5': '⁵', '6': '⁶', '7': '⁷', '8': '⁸', '9': '⁹'
+	};
+
+	const subscriptMap = {
+	  '0': '₀', '1': '₁', '2': '₂', '3': '₃', '4': '₄',
+	  '5': '₅', '6': '₆', '7': '₇', '8': '₈', '9': '₉'
+	};
+
+	function replaceNumbersWithSuperSub(text) {
+	  // Replace <sup>...</sup> digits with superscript digits, keep other chars as-is
+	  text = text.replace(/<sup>(.*?)<\/sup>/g, (_, content) =>
+	    content.split('').map(c => superscriptMap[c] || c).join('')
+	  );
+
+	  // Replace <sub>...</sub> digits with subscript digits, keep other chars as-is
+	  text = text.replace(/<sub>(.*?)<\/sub>/g, (_, content) =>
+	    content.split('').map(c => subscriptMap[c] || c).join('')
+	  );
+
+	  return text;
+	}
+
+	var captionEl = el.find('caption');
+	var captionElLength = captionEl.length;
+
+	if (captionElLength) {
+		var caption = replaceNumbersWithSuperSub(captionEl.html());
+		//caption = $.fn.DataTable.Buttons.stripData(caption, null);
+		captionEl.html(caption);
+	}
+
+	var excel = {
+		extend: 'excelHtml5',
+        text: 'Excel',
+        title: '',
+        exportOptions: {
+            format: {
+           	 	header: function (data, rowIdx, colIdx, node) {
+               	 	var data2 = replaceNumbersWithSuperSub(data);
+                  	data2 = data2.replace(/<br\s*\/?>/ig, "\n");
+                  	data2 = $.fn.DataTable.Buttons.stripData(data2, null);
+                	return data2;
+				},
+                footer: function (data, rowIdx, colIdx, node) {
+                	var data2 = replaceNumbersWithSuperSub(data);
+                	data2 = data2.replace(/<br\s*\/?>/ig, '\n');
+                	data2 = $.fn.DataTable.Buttons.stripData(data2, null);
+                	return data2;
+                },
+                body: function (data, row, column, node) {
+                    var data2 = replaceNumbersWithSuperSub(data);
+                    data2 = data2.replace(/<br\s*\/?>/ig, '\n');
+                    data2 = $.fn.DataTable.Buttons.stripData(data2, null);
+                	var sanitizedValue = data2.replace(/\s+/g, '');
+                	if ($.isNumeric(sanitizedValue)) {
+						return sanitizedValue;
+                	}
+                    return data2;
+                }
+            }
+        },
+        customize: function(xlsx) {
+            var sheet = xlsx.xl.worksheets['sheet1.xml'];
+
+            // Add a custom number format for 1 decimal place
+            var styles = xlsx.xl['styles.xml'];
+            var numFmts = $('numFmts', styles);
+            if (!numFmts.length) {
+                numFmts = $('<numFmts count="1"/>');
+                $('styleSheet', styles).prepend(numFmts);
+            }
+            var fmtId = 164;
+            numFmts.append('<numFmt numFmtId="' + fmtId + '" formatCode="0.0"/>');
+            numFmts.attr('count', numFmts.find('numFmt').length);
+
+            // Add a cell style that uses this number format
+            var cellXfs = $('cellXfs', styles);
+            var newXf = '<xf numFmtId="' + fmtId + '" fontId="0" fillId="0" borderId="0" xfId="0" applyNumberFormat="1"/>';
+            cellXfs.append(newXf);
+            var oneDecimalStyleIdx = cellXfs.find('xf').length - 1;
+
+            // Add a cell style for left alignment
+            var leftAlignXf = '<xf numFmtId="0" fontId="0" fillId="0" borderId="0" xfId="0" applyAlignment="1"><alignment horizontal="left"/></xf>';
+            cellXfs.append(leftAlignXf);
+            var leftAlignStyleIdx = cellXfs.find('xf').length - 1;
+            cellXfs.attr('count', cellXfs.find('xf').length);
+
+            $('row', sheet).each(function (rIndex) {
+                if (!captionElLength || rIndex > 2) {
+                    $('c', this).each(function (cIndex) {
+                    	var td = el.find('tr').eq(rIndex - (captionElLength ? 1 : 0)).find('td').eq(cIndex);
+                    	if (td.hasClass('bold') || td.hasClass('boldt')) {
+                    		$(this).attr('s', '2');
+                    	}
+                    	var cellValue = $(this).text();
+                    	if (cellValue === 'NaN' || cellValue === '.' || cellValue === ',' || cellValue === '-' || cellValue === 'х' || cellValue === 'x') {
+                    		$(this).attr('s', '52');
+                        }
+                        // Apply 1 decimal format to cells whose original text had .0
+                        var originalText = td.text().replace(/\s+/g, '').replace(/,/g, '.');
+                        if (originalText.match(/^\-?\d+\.0$/)) {
+                            $(this).attr('s', oneDecimalStyleIdx);
+                        }
+                        // Apply left alignment for cells with class left_top
+                        if (td.hasClass('left_top')) {
+                            $(this).attr('s', leftAlignStyleIdx);
+                        }
+                    });
+                }
+            });
+            var totalRows = $(sheet).find('row').length;
+            var thHeadRowCount = el.find('thead tr').length;
+            var thFootRowCount = el.find('tfoot tr').length;
+            var footerStartRow = totalRows - thFootRowCount + 1;
+            for (var i = footerStartRow; i <= totalRows; i++) {
+                $(sheet).find('row[r="' + i + '"] c').each(function () {
+                	$(this).removeAttr('s');
+                });
+            }
+        }
+	};
+
+	var print = {
+        extend: 'print',
+        title: '',
+    };
+
+    var buttons = [];
+
+    if ($.isArray(pButtons)) {
+		for(var i = 0; i < pButtons.length; ++i) {
+			var b = pButtons[i];
+			if (b == 'excel') {
+				b = excel;
+			}
+			if (b == 'print') {
+				b = print;
+			}
+			if (b == 'pdf') {
+				b = pdf;
+			}
+			buttons.push(b);
+		}
+    } else {
+    	buttons = ['copy', 'csv', excel, pdf, print];
+    }
+
+	el.dataTable({
+		order: [],
+		ordering: false,
+		responsive: true,
+		paging: false,
+		searching: true,
+		info: false,
+			language: {
+	        url: 'templates/default/js/bg.json',
+	    },
+    	    layout: {
+	        topStart: {
+	            buttons: buttons,
+	        },
+	    }
+	});
+}
+$('.datatable').each(function () {
+	attachDatatable($(this), ['excel']);
+});
+$('.auto-tables table').each(function () {
+	$(this).wrap("<div class='table-responsive'></div>");
+	attachDatatable($(this), ['excel']);
+});
+$(function () {
+	$('.charts_tabs').addClass('active').find('> li:eq(0)').addClass('current');
+	$('.charts_tabs li a').on('click', function (g) {
+	    var tab = $(this).closest('.icycharts'),
+	    index = $(this).closest('li').index();
+	    tab.find('.charts_tabs > li').removeClass('current');
+	    $(this).closest('li').addClass('current');
+	    tab.find('.charts_tabs_content').find('.charts_tabs_item').not('.charts_tabs_item:eq(' + index + ')').slideUp();
+	    tab.find('.charts_tabs_content').find('.charts_tabs_item:eq(' + index + ')').slideDown();
+	    g.preventDefault();
+	});
+});
+$(function () {
+	var tds = {};
+	$('table.datatable tr td').each(function () {
+		var formatted = $(this).text().replace('&nbsp;', '').replace(/\s+/g, '').replace(/,/g, '.');
+        if (!isNaN(formatted) && formatted !== null && formatted !== '') {
+            $(this).addClass('custom-right-align');
+            tds[$(this).index()] = true;
+        }
+	});
+	$('table.datatable tr td').each(function () {
+		if (tds[$(this).index()] && !$(this).hasClass('custom-right-align')) {
+			$(this).addClass('custom-right-align');
+		}
+	});
+});
+function truncateMultibyteText(text, maxLength) {
+	  // Convert the text into an array of characters to handle multibyte characters
+	  const textArray = Array.from(text);
+	  // Check if the text exceeds the max length
+	  if (textArray.length > maxLength) {
+	    // Truncate the text and append '...'
+	    return textArray.slice(0, maxLength).join('') + '...';
+	  }
+	  // If the text is within the limit, return it as is
+	  return text;
+}
+</script>
+
+<script>
+(function () {
+	var el = $('#mainLine0');
+    el.width(el.closest('.icycharts').width());
+    var chart = echarts.init(el[0]);
+    
+var titleWidth = 950;
+var titleFontSize = 16;
+
+if(true) {
+    if(window.innerWidth <= 480) {
+    	titleWidth = 350;
+    	titleFontSize = 12;
+    } else if(window.innerWidth <= 800) {
+    	titleWidth = 750;
+    	titleFontSize = 14;
+    } else if(window.innerWidth <= 1280) {
+    	titleWidth = 850;
+    }
+}
+
+var isMobile = window.innerWidth <= 480;
+
+var formatter = {
+	format: function (s) {
+		var fs = s;
+		if (false) {
+			fs = s.toLocaleString('bg-BG', {style: 'decimal', useGrouping: true, minimumFractionDigits: 1});
+		} else {
+			var intlo = new Intl.NumberFormat('bg-BG', { style: 'decimal', useGrouping: true, minimumFractionDigits: 1 });
+			fs = intlo.format(s);
+		}
+
+		fs = fs.replace(',', '.');
+
+		return fs;
+	},
+};
+var option = {
+    tooltip: {
+    	trigger: 'axis',
+	    	formatter: function (params) {
+        	var tmp = params[0].name + '<br/>';
+        	for (var i = 0; i < params.length; ++i) {
+        		var c = params[i];
+            	tmp += c.marker + ' ' + c.seriesName.trim() + ': <b>' + formatter.format(c.value) + '%</b><br />';
+            }
+            return tmp;
+        }
+        },
+    grid: {
+		containLabel: true,
+	},
+	title: {
+		show: true,
+		text: 'Фиг. 1. Индекси на промишленото производство (2021 = 100)',
+		left: 'center',
+		textStyle: {
+			lineHeight: 20,
+			fontSize: titleFontSize,
+			width: titleWidth,
+			overflow: 'break',
+			lineHeight: isMobile ? 18 : 24
+		}
+	},
+    legend: {
+		orient: 'horizontal',
+        bottom: 0,
+    },
+    toolbox: {
+        feature: {
+        			saveAsImage: {
+				title: 'Запази',
+			},
+		        },
+    },
+    xAxis: {
+        type: 'category',
+        boundaryGap: false,
+        data: ["VI.2024","VII.2024","VIII.2024","IX.2024","X.2024","XI.2024","XII.2024","I.2025","II.2025","III.2025","IV.2025","V.2025","VI.2025","VII.2025","VIII.2025","IX.2025","X.2025","XI.2025","XII.2025","I.2026","II.2026","III.2026","IV.2026","V.2026","VI.2026"],
+            axisLabel: {
+        	rotate: 90,
+            interval: 0,
+            show: true,
+            formatter: function (value) {
+                return truncateMultibyteText(value, 15);
+            },
+        },
+    },
+    yAxis: {
+        type: 'value',
+        min: 80,
+        axisLabel: {
+            formatter: function (value) {
+                return formatter.format(value) + '%';
+            },
+        },
+    },
+    color: ["#55809E","#88D5FE","#E98A8A","#C3D69B","#58A7A9","#A55971","#32566F","#5BA4D8"],
+    series: [{"name":"\u0418\u043d\u0434\u0435\u043a\u0441 \u043d\u0430 \u043f\u0440\u043e\u043c\u0438\u0448\u043b\u0435\u043d\u043e\u0442\u043e \u043f\u0440\u043e\u0438\u0437\u0432\u043e\u0434\u0441\u0442\u0432\u043e - \u043d\u0435\u0438\u0437\u0433\u043b\u0430\u0434\u0435\u043d\u0438 \u0434\u0430\u043d\u043d\u0438","type":"line","symbol":"emptyCircle","symbolSize":4,"data":[98.9,104.6,98.4,101,107.5,104.1,100,91.7,90.1,89.6,89.4,88.2,92.2,95.8,88,96.8,99.5,93.1,94.3,81.1,82.3,95,85.7,82.4,91.3],"lineStyle":{"width":3},"label":{"show":false,"position":"top","formatter":function(params) { return formatter.format(params.value) + '%'; }}},{"name":"\u0418\u043d\u0434\u0435\u043a\u0441 \u043d\u0430 \u043f\u0440\u043e\u043c\u0438\u0448\u043b\u0435\u043d\u043e\u0442\u043e \u043f\u0440\u043e\u0438\u0437\u0432\u043e\u0434\u0441\u0442\u0432\u043e - \u0441\u0435\u0437\u043e\u043d\u043d\u043e \u0438\u0437\u0433\u043b\u0430\u0434\u0435\u043d\u0438 \u0434\u0430\u043d\u043d\u0438","type":"line","symbol":"emptyCircle","symbolSize":4,"data":[100,100.1,100.6,99.6,100.2,99.6,97.9,96,95.9,91.5,92.8,93.6,92,92,91.5,94.2,92.3,91,90.9,87.6,89,93.7,89.4,88.9,89.3],"lineStyle":{"width":3},"label":{"show":false,"position":"top","formatter":function(params) { return formatter.format(params.value) + '%'; }}}],
+};    chart.setOption(option);
+})();
+</script>
+
+    <script>
+    (function () {
+        var el = $('#mainChart1');
+        el.width(el.closest('.icycharts').width());
+        var chart = echarts.init(el[0]);
+        
+var titleWidth = 950;
+var titleFontSize = 16;
+
+if(true) {
+    if(window.innerWidth <= 480) {
+    	titleWidth = 350;
+    	titleFontSize = 12;
+    } else if(window.innerWidth <= 800) {
+    	titleWidth = 750;
+    	titleFontSize = 14;
+    } else if(window.innerWidth <= 1280) {
+    	titleWidth = 850;
+    }
+}
+
+var isMobile = window.innerWidth <= 480;
+
+var formatter = {
+	format: function (s) {
+		var fs = s;
+		if (false) {
+			fs = s.toLocaleString('bg-BG', {style: 'decimal', useGrouping: true, minimumFractionDigits: 1});
+		} else {
+			var intlo = new Intl.NumberFormat('bg-BG', { style: 'decimal', useGrouping: true, minimumFractionDigits: 1 });
+			fs = intlo.format(s);
+		}
+	
+		fs = fs.replace(',', '.');
+	
+		return fs;
+	},
+};
+var option = {
+    tooltip: {
+        trigger: 'axis',
+            formatter: function (params) {
+        	let tmp = params[0].name + '<br/>';
+        	for (let i = 0; i < params.length; ++i) {
+        		let c = params[i];
+            	tmp += `${c.marker} ${c.seriesName.trim()}: <b>${formatter.format(c.value)}%</b><br />`;
+            }
+            return tmp;
+        }
+        },
+	grid: {
+		containLabel: true,
+			left: '1%',
+		},
+	legend: {
+        orient: 'horizontal',
+        bottom: 0,
+        //left: 0,
+    },
+	title: {
+		show: true,
+		text: 'Фиг. 2. Изменение на индекса на промишленото производство спрямо предходния месец \n(сезонно изгладени данни)',
+		left: 'center',
+		textStyle: {
+			lineHeight: 20,
+			fontSize: titleFontSize,
+			width: titleWidth,
+			overflow: 'break',
+			lineHeight: isMobile ? 18 : 24
+		}
+	},
+    toolbox: {
+        feature: {
+        			saveAsImage: {
+				title: 'Запази',
+			},
+		        },
+    },
+    yAxis: {
+        type: 'value',
+        min:-6,        axisLabel: {
+            formatter: function (value) {
+                return formatter.format(value) + '%';
+            },
+        },
+  	},
+    xAxis: {
+        type: 'category',
+        data: ["VI.2024","VII.2024","VIII.2024","IX.2024","X.2024","XI.2024","XII.2024","I.2025","II.2025","III.2025","IV.2025","V.2025","VI.2025","VII.2025","VIII.2025","IX.2025","X.2025","XI.2025","XII.2025","I.2026","II.2026","III.2026","IV.2026","V.2026","VI.2026"],
+        axisLabel: {
+        	rotate: 90,
+            interval: 0,
+            formatter: function (value) {
+                return truncateMultibyteText(value, 15);
+            },
+		},
+	},
+	color: ["#55809E","#71BCDF","#5BA4D8","#88D5FE","#365D78","#58A7A9","#89BCBD","#C3D69B","#A55971","#E98A8A","#365D78","#55809E","#71BCDF","#5BA4D8","#88D5FE","#58A7A9","#89BCBD","#C3D69B","#A55971","#E98A8A"],
+	series: [{"name":"","type":"bar","data":[{"value":0,"label":{"position":"top"}},{"value":0.6,"label":{"position":"top"}},{"value":0.9,"label":{"position":"top"}},{"value":1.3,"label":{"position":"top"}},{"value":-0.9,"label":{"position":"bottom"}},{"value":-0.4,"label":{"position":"bottom"}},{"value":-2.2,"label":{"position":"bottom"}},{"value":-2.1,"label":{"position":"bottom"}},{"value":-0.5,"label":{"position":"bottom"}},{"value":-5,"label":{"position":"bottom"}},{"value":1.7,"label":{"position":"top"}},{"value":0.7,"label":{"position":"top"}},{"value":-1.9,"label":{"position":"bottom"}},{"value":-0.1,"label":{"position":"bottom"}},{"value":0.3,"label":{"position":"top"}},{"value":2.9,"label":{"position":"top"}},{"value":-2.4,"label":{"position":"bottom"}},{"value":-1.4,"label":{"position":"bottom"}},{"value":-0.1,"label":{"position":"bottom"}},{"value":-3.6,"label":{"position":"bottom"}},{"value":1.6,"label":{"position":"top"}},{"value":5.2,"label":{"position":"top"}},{"value":-4.6,"label":{"position":"bottom"}},{"value":-0.5,"label":{"position":"bottom"}},{"value":0.4,"label":{"position":"top"}}],"label":{"show":true,"position":"top","formatter":function(params) { return formatter.format(params.value) + '%'; }}}]};        chart.setOption(option);
+    })();
+    </script>
+    
+    <script>
+    (function () {
+        var el = $('#mainChart2');
+        el.width(el.closest('.icycharts').width());
+        var chart = echarts.init(el[0]);
+        
+var titleWidth = 950;
+var titleFontSize = 16;
+
+if(true) {
+    if(window.innerWidth <= 480) {
+    	titleWidth = 350;
+    	titleFontSize = 12;
+    } else if(window.innerWidth <= 800) {
+    	titleWidth = 750;
+    	titleFontSize = 14;
+    } else if(window.innerWidth <= 1280) {
+    	titleWidth = 850;
+    }
+}
+
+var isMobile = window.innerWidth <= 480;
+
+var formatter = {
+	format: function (s) {
+		var fs = s;
+		if (false) {
+			fs = s.toLocaleString('bg-BG', {style: 'decimal', useGrouping: true, minimumFractionDigits: 1});
+		} else {
+			var intlo = new Intl.NumberFormat('bg-BG', { style: 'decimal', useGrouping: true, minimumFractionDigits: 1 });
+			fs = intlo.format(s);
+		}
+	
+		fs = fs.replace(',', '.');
+	
+		return fs;
+	},
+};
+var option = {
+    tooltip: {
+        trigger: 'axis',
+            formatter: function (params) {
+        	let tmp = params[0].name + '<br/>';
+        	for (let i = 0; i < params.length; ++i) {
+        		let c = params[i];
+            	tmp += `${c.marker} ${c.seriesName.trim()}: <b>${formatter.format(c.value)}%</b><br />`;
+            }
+            return tmp;
+        }
+        },
+	grid: {
+		containLabel: true,
+			left: '1%',
+		},
+	legend: {
+        orient: 'horizontal',
+        bottom: 0,
+        //left: 0,
+    },
+	title: {
+		show: true,
+		text: 'Фиг. 3. Изменение на индекса на промишленото производство спрямо съответния месец на предходната година (календарно изгладени данни)',
+		left: 'center',
+		textStyle: {
+			lineHeight: 20,
+			fontSize: titleFontSize,
+			width: titleWidth,
+			overflow: 'break',
+			lineHeight: isMobile ? 18 : 24
+		}
+	},
+    toolbox: {
+        feature: {
+        			saveAsImage: {
+				title: 'Запази',
+			},
+		        },
+    },
+    yAxis: {
+        type: 'value',
+        min:-15,        axisLabel: {
+            formatter: function (value) {
+                return formatter.format(value) + '%';
+            },
+        },
+  	},
+    xAxis: {
+        type: 'category',
+        data: ["VI.2024","VII.2024","VIII.2024","IX.2024","X.2024","XI.2024","XII.2024","I.2025","II.2025","III.2025","IV.2025","V.2025","VI.2025","VII.2025","VIII.2025","IX.2025","X.2025","XI.2025","XII.2025","I.2026","II.2026","III.2026","IV.2026","V.2026","VI.2026"],
+        axisLabel: {
+        	rotate: 90,
+            interval: 0,
+            formatter: function (value) {
+                return truncateMultibyteText(value, 15);
+            },
+		},
+	},
+	color: ["#55809E","#71BCDF","#5BA4D8","#88D5FE","#365D78","#58A7A9","#89BCBD","#C3D69B","#A55971","#E98A8A","#365D78","#55809E","#71BCDF","#5BA4D8","#88D5FE","#58A7A9","#89BCBD","#C3D69B","#A55971","#E98A8A"],
+	series: [{"name":"","type":"bar","data":[{"value":-4.9,"label":{"position":"bottom"}},{"value":-2.7,"label":{"position":"bottom"}},{"value":-2.9,"label":{"position":"bottom"}},{"value":1.2,"label":{"position":"top"}},{"value":-1.5,"label":{"position":"bottom"}},{"value":2.4,"label":{"position":"top"}},{"value":-3.9,"label":{"position":"bottom"}},{"value":-3.3,"label":{"position":"bottom"}},{"value":-3.5,"label":{"position":"bottom"}},{"value":-9.9,"label":{"position":"bottom"}},{"value":-9.8,"label":{"position":"bottom"}},{"value":-6,"label":{"position":"bottom"}},{"value":-8.3,"label":{"position":"bottom"}},{"value":-8.4,"label":{"position":"bottom"}},{"value":-9,"label":{"position":"bottom"}},{"value":-5.7,"label":{"position":"bottom"}},{"value":-7.5,"label":{"position":"bottom"}},{"value":-9,"label":{"position":"bottom"}},{"value":-6.7,"label":{"position":"bottom"}},{"value":-9.9,"label":{"position":"bottom"}},{"value":-8.7,"label":{"position":"bottom"}},{"value":4.7,"label":{"position":"top"}},{"value":-3.8,"label":{"position":"bottom"}},{"value":-5.3,"label":{"position":"bottom"}},{"value":-2.5,"label":{"position":"bottom"}}],"label":{"show":true,"position":"top","formatter":function(params) { return formatter.format(params.value) + '%'; }}}]};        chart.setOption(option);
+    })();
+    </script>
+    
+<script>
+(function($) {
+
+	'use strict';
+
+	/*
+	Thumb Gallery
+	*/
+	var $thumbGalleryDetail1 = $('#thumbGalleryDetail'),
+		$thumbGalleryThumbs1 = $('#thumbGalleryThumbs'),
+		flag = false,
+		duration = 300;
+
+	$thumbGalleryDetail1
+		.owlCarousel({
+			items: 1,
+			margin: 10,
+			nav: false,
+			dots: true,
+			loop: false,
+			navText: []
+		})
+		.on('changed.owl.carousel', function(e) {
+			if (!flag) {
+				flag = true;
+				$thumbGalleryThumbs1.trigger('to.owl.carousel', [e.item.index-1, duration, true]);
+				flag = false;
+			}
+		});
+
+	$thumbGalleryThumbs1
+		.owlCarousel({
+			margin: 10,
+			items:6,
+			nav: false,
+			center: false,
+			dots: false
+		})
+		.on('click', '.owl-item', function() {
+			$thumbGalleryDetail1.trigger('to.owl.carousel', [$(this).index(), duration, true]);
+		})
+		.on('changed.owl.carousel', function(e) {
+			if (!flag) {
+				flag = true;
+				$thumbGalleryDetail1.trigger('to.owl.carousel', [e.item.index, duration, true]);
+				flag = false;
+			}
+		});
+}).apply(this, [jQuery]);
+
+$('.left-menu-btn').on('click', function() {
+	$('.newsFilters').toggle();
+  });
+</script>
+
+            </body>
+</html>

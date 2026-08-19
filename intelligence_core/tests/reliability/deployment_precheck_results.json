@@ -1,0 +1,184 @@
+{
+  "checks": {
+    "externalized_config": [
+      {
+        "item": "CORE_API_TOKEN (auth)",
+        "externalized": true,
+        "evidence": "production_transport.py reads from os.environ.get('CORE_API_TOKEN')"
+      },
+      {
+        "item": "CORE_STORE_PATH (storage path)",
+        "externalized": true,
+        "evidence": "production_transport.py reads from os.environ.get('CORE_STORE_PATH')"
+      },
+      {
+        "item": "PORT (HTTP listen port)",
+        "externalized": true,
+        "evidence": "serve(port) accepts port as argument; can be set via env"
+      },
+      {
+        "item": "CORE_SOURCE_REGISTRY_PATH",
+        "externalized": true,
+        "evidence": "production_transport.py: os.environ.setdefault('CORE_SOURCE_REGISTRY_PATH', './source_registry')"
+      }
+    ],
+    "secrets_management": [
+      {
+        "item": "No hardcoded API tokens",
+        "passed": true,
+        "evidence": "production_transport.py reads token from env, not hardcoded"
+      },
+      {
+        "item": "Token only in env var",
+        "passed": true,
+        "evidence": "Token never written to logs (log_message suppressed)"
+      }
+    ],
+    "persistent_storage": [
+      {
+        "item": "Append-only JSONL store",
+        "passed": true,
+        "evidence": "AppendOnlyStore writes to {root}/{collection}.jsonl \u2014 filesystem-persistent"
+      },
+      {
+        "item": "Content-addressed blob storage",
+        "passed": true,
+        "evidence": "Blobs stored at {root}/blobs/{sha256} \u2014 SHA-256 content-addressed"
+      },
+      {
+        "item": "No in-memory-only state",
+        "passed": true,
+        "evidence": "CachedStore is a cache layer; canonical truth is on disk"
+      },
+      {
+        "item": "Survives process restart",
+        "passed": true,
+        "evidence": "Verified in restart_consumer_test.py \u2014 all state persisted across restart"
+      }
+    ],
+    "health_endpoint": [
+      {
+        "item": "GET /health endpoint",
+        "passed": true,
+        "evidence": "production_transport.py: path == '/health' returns 200 {status: ok}"
+      },
+      {
+        "item": "Health endpoint is public (no auth required)",
+        "passed": true,
+        "evidence": "Health check happens before auth check in do_GET"
+      },
+      {
+        "item": "Source health observable",
+        "passed": true,
+        "evidence": "SourceRegistry tracks health_status per source (HEALTHY/DEGRADED/BLOCKED/etc.)"
+      }
+    ],
+    "logging": [
+      {
+        "item": "Standard Python logging to stderr",
+        "passed": true,
+        "evidence": "production_transport.py writes chain-broken errors to sys.stderr"
+      },
+      {
+        "item": "Token never logged",
+        "passed": true,
+        "evidence": "log_message() suppressed to prevent token leakage"
+      },
+      {
+        "item": "Structured logs (JSON)",
+        "passed": false,
+        "evidence": "Logs are plain text, not structured JSON",
+        "remediation": "Add structured JSON logging for production"
+      }
+    ],
+    "metrics": [
+      {
+        "item": "Request count metrics",
+        "passed": true,
+        "evidence": "GET /metrics endpoint returns io_count, event_count, fact_count, source_count, document_count"
+      },
+      {
+        "item": "Cache stats metrics",
+        "passed": true,
+        "evidence": "GET /metrics returns cache_stats: io_cache_size, list_cache_size, store_cache_size"
+      },
+      {
+        "item": "Source health metrics",
+        "passed": true,
+        "evidence": "SourceRegistry.stats() returns per-source health counts; /metrics includes source_count"
+      },
+      {
+        "item": "Latency percentiles (p50/p95/p99) at runtime",
+        "passed": false,
+        "evidence": "Measured in load tests but not exposed as runtime metrics",
+        "remediation": "Add histogram metrics to /metrics endpoint for runtime p50/p95/p99"
+      }
+    ],
+    "graceful_shutdown": [
+      {
+        "item": "SIGTERM handling",
+        "passed": true,
+        "evidence": "production_transport.py registers SIGTERM handler that calls server.shutdown() in a separate thread"
+      },
+      {
+        "item": "SIGINT handling",
+        "passed": true,
+        "evidence": "production_transport.py registers SIGINT handler (Ctrl+C)"
+      },
+      {
+        "item": "In-flight request completion",
+        "passed": true,
+        "evidence": "ThreadingHTTPServer waits for threads to complete on shutdown"
+      },
+      {
+        "item": "Store flush on shutdown",
+        "passed": true,
+        "evidence": "AppendOnlyStore.append() writes immediately (no buffering) \u2014 no flush needed"
+      }
+    ],
+    "recovery": [
+      {
+        "item": "State recovery after restart",
+        "passed": true,
+        "evidence": "Verified in restart_consumer_test.py \u00a712 \u2014 all state persisted"
+      },
+      {
+        "item": "No duplicate ingestion after restart",
+        "passed": true,
+        "evidence": "Verified in restart_consumer_test.py \u00a713 \u2014 idempotent reprocessing"
+      },
+      {
+        "item": "Cache warm-up on restart",
+        "passed": true,
+        "evidence": "CachedStore lazily loads collections on first access"
+      }
+    ],
+    "data_retention": [
+      {
+        "item": "Append-only history retention",
+        "passed": true,
+        "evidence": "D9: No update/delete APIs \u2014 all history preserved"
+      },
+      {
+        "item": "Version lineage retention",
+        "passed": true,
+        "evidence": "D2: Versioned facts/events \u2014 old versions never deleted"
+      },
+      {
+        "item": "Blob deduplication",
+        "passed": true,
+        "evidence": "write_blob() is idempotent \u2014 same content stored once"
+      },
+      {
+        "item": "Configurable retention policy",
+        "passed": false,
+        "evidence": "No retention policy \u2014 all data kept forever",
+        "remediation": "Add DATA_RETENTION_DAYS env var for archival/cleanup"
+      }
+    ]
+  },
+  "total": 31,
+  "passed": 28,
+  "passed_pct": 90.3,
+  "deployment_ready": true
+}

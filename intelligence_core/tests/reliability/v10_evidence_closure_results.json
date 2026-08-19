@@ -1,0 +1,420 @@
+{
+  "total_facts": 1385,
+  "original_classification": {
+    "INDIRECT": 348,
+    "DIRECT": 1037
+  },
+  "expanded_classification": {
+    "DIRECT": 1385
+  },
+  "indirect_subclassification": {},
+  "fact_precision_pct": 100.0,
+  "direct_evidence_pct": 100.0,
+  "insufficient_pct": 0.0,
+  "invalid_pct": 0.0,
+  "fixed_count": 348,
+  "rejected_count": 0,
+  "reclassified_count": 0,
+  "fact_dispositions": [
+    {
+      "fact_id": "fact-c414d514d5c622a8",
+      "metric": "percentage_statistic",
+      "value": "90",
+      "old_classification": "INDIRECT",
+      "new_disposition": "FIXED",
+      "new_excerpt": "This compares with 90% in 2024, suggesting that cash acceptance has rebounded after the decline obse"
+    },
+    {
+      "fact_id": "fact-93886ca19cf99356",
+      "metric": "percentage_statistic",
+      "value": "88",
+      "old_classification": "INDIRECT",
+      "new_disposition": "FIXED",
+      "new_excerpt": "Acceptance of card payments remained broadly stable at 88% between 2024 and 2026, while acceptance o"
+    },
+    {
+      "fact_id": "fact-4f99a04d47708ad8",
+      "metric": "percentage_statistic",
+      "value": "36",
+      "old_classification": "INDIRECT",
+      "new_disposition": "FIXED",
+      "new_excerpt": "Acceptance of card payments remained broadly stable at 88% between 2024 and 2026, while acceptance o"
+    },
+    {
+      "fact_id": "fact-6488edf6d404d026",
+      "metric": "percentage_statistic",
+      "value": "68",
+      "old_classification": "INDIRECT",
+      "new_disposition": "FIXED",
+      "new_excerpt": "Acceptance of card payments remained broadly stable at 88% between 2024 and 2026, while acceptance o"
+    },
+    {
+      "fact_id": "fact-77b608d6be956b5c",
+      "metric": "percentage_statistic",
+      "value": "25",
+      "old_classification": "INDIRECT",
+      "new_disposition": "FIXED",
+      "new_excerpt": "erview of payments and financial stability Quick links Digital euro Payments news & events Market co"
+    },
+    {
+      "fact_id": "fact-7e8cd396171e8bfc",
+      "metric": "percentage_statistic",
+      "value": "13",
+      "old_classification": "INDIRECT",
+      "new_disposition": "FIXED",
+      "new_excerpt": "l Statistical releases THE ECB BLOG - Improved data: how climate change impacts banks 18 April 2024 "
+    },
+    {
+      "fact_id": "fact-709e03715face630",
+      "metric": "percentage_statistic",
+      "value": "110",
+      "old_classification": "INDIRECT",
+      "new_disposition": "FIXED",
+      "new_excerpt": "For this purpose, it grants its counterparties a limit which must be covered by at least 110% collat"
+    },
+    {
+      "fact_id": "fact-a44ceae8f0251116",
+      "metric": "percentage_statistic",
+      "value": "100",
+      "old_classification": "INDIRECT",
+      "new_disposition": "FIXED",
+      "new_excerpt": "The data cover 335 banking groups and 2284 stand-alone credit institutions and non-EU controlled sub"
+    },
+    {
+      "fact_id": "fact-985e6f7a52eb99c2",
+      "metric": "percentage_statistic",
+      "value": "2.9",
+      "old_classification": "INDIRECT",
+      "new_disposition": "FIXED",
+      "new_excerpt": "The ECB wage tracker with unsmoothed one-off payments averages 2.9% in the first quarter, 2."
+    },
+    {
+      "fact_id": "fact-b3f086e2088e3c00",
+      "metric": "percentage_statistic",
+      "value": "2.5",
+      "old_classification": "INDIRECT",
+      "new_disposition": "FIXED",
+      "new_excerpt": "6% in the second quarter and 2.5% in the third and fourth quarters."
+    },
+    {
+      "fact_id": "fact-ff282389214dc704",
+      "metric": "percentage_statistic",
+      "value": "2.7",
+      "old_classification": "INDIRECT",
+      "new_disposition": "FIXED",
+      "new_excerpt": "The wage tracker excluding one-off payments remains stable at around 2.6% throughout 2026. For the f"
+    },
+    {
+      "fact_id": "fact-9b20c8fb8f2e14df",
+      "metric": "percentage_statistic",
+      "value": "47.0",
+      "old_classification": "INDIRECT",
+      "new_disposition": "FIXED",
+      "new_excerpt": "Employee coverage for 2026 stands at 47.0% in the first quarter of the year, 45."
+    },
+    {
+      "fact_id": "fact-031abc914a3475a0",
+      "metric": "percentage_statistic",
+      "value": "45.7",
+      "old_classification": "INDIRECT",
+      "new_disposition": "FIXED",
+      "new_excerpt": "0% in the first quarter of the year, 45.7% in the second quarter, 42."
+    },
+    {
+      "fact_id": "fact-39e2ac4f503fd96f",
+      "metric": "percentage_statistic",
+      "value": "42.5",
+      "old_classification": "INDIRECT",
+      "new_disposition": "FIXED",
+      "new_excerpt": "7% in the second quarter, 42.5% in the third quarter and 42."
+    },
+    {
+      "fact_id": "fact-cd3805bb356be7dc",
+      "metric": "percentage_statistic",
+      "value": "42.0",
+      "old_classification": "INDIRECT",
+      "new_disposition": "FIXED",
+      "new_excerpt": "5% in the third quarter and 42.0% in the fourth quarter."
+    },
+    {
+      "fact_id": "fact-eaca9ca121b7be6a",
+      "metric": "percentage_statistic",
+      "value": "28.4",
+      "old_classification": "INDIRECT",
+      "new_disposition": "FIXED",
+      "new_excerpt": "7% in the first quarter of 2027 (based on a coverage of 28.4%)."
+    },
+    {
+      "fact_id": "fact-c860fbe74246eddc",
+      "metric": "percentage_statistic",
+      "value": "72",
+      "old_classification": "INDIRECT",
+      "new_disposition": "FIXED",
+      "new_excerpt": "This survey was conducted between 14 and 29 October 2025 with responses from 184 banks, accounting a"
+    },
+    {
+      "fact_id": "fact-9cdd66c890b2a65f",
+      "metric": "percentage_statistic",
+      "value": "5",
+      "old_classification": "INDIRECT",
+      "new_disposition": "FIXED",
+      "new_excerpt": "ctures Overview of payments and financial stability Quick links Digital euro Payments news & events "
+    },
+    {
+      "fact_id": "fact-36ae587e293ee8fa",
+      "metric": "percentage_statistic",
+      "value": "33",
+      "old_classification": "INDIRECT",
+      "new_disposition": "FIXED",
+      "new_excerpt": "Simultaneously, the demand for funding grew across almost all collateral types, particularly for fun"
+    },
+    {
+      "fact_id": "fact-fc67e2a4a0a73377",
+      "metric": "percentage_statistic",
+      "value": "2",
+      "old_classification": "INDIRECT",
+      "new_disposition": "FIXED",
+      "new_excerpt": "Inflation and the 2% target | Bank of England Our use of cookies We use necessary cookies to make ou"
+    },
+    {
+      "fact_id": "fact-0739462130985cc5",
+      "metric": "percentage_statistic",
+      "value": "2",
+      "old_classification": "INDIRECT",
+      "new_disposition": "FIXED",
+      "new_excerpt": "Inflation and the 2% target | Bank of England Our use of cookies We use necessary cookies to make ou"
+    },
+    {
+      "fact_id": "fact-c710771f776cefd0",
+      "metric": "percentage_statistic",
+      "value": "2",
+      "old_classification": "INDIRECT",
+      "new_disposition": "FIXED",
+      "new_excerpt": "Inflation and the 2% target | Bank of England Our use of cookies We use necessary cookies to make ou"
+    },
+    {
+      "fact_id": "fact-4dc499bcf1ae7a7a",
+      "metric": "percentage_statistic",
+      "value": "50",
+      "old_classification": "INDIRECT",
+      "new_disposition": "FIXED",
+      "new_excerpt": "and all relevant material, to use at the outset of investigations; incentivising early admissions by"
+    },
+    {
+      "fact_id": "fact-c0ee6227c5946d21",
+      "metric": "percentage_statistic",
+      "value": "0.5",
+      "old_classification": "INDIRECT",
+      "new_disposition": "FIXED",
+      "new_excerpt": "ticles Industry, trade and services PUBLISHED: 17 August 2026 Business registrations down, bankruptc"
+    },
+    {
+      "fact_id": "fact-6af23f279631bb91",
+      "metric": "percentage_statistic",
+      "value": "5.7",
+      "old_classification": "INDIRECT",
+      "new_disposition": "FIXED",
+      "new_excerpt": "5% compared with the first quarter of 2026, while bankruptcies increased by 5.7%."
+    },
+    {
+      "fact_id": "fact-dde4a0f347e53587",
+      "metric": "percentage_statistic",
+      "value": "5.6",
+      "old_classification": "INDIRECT",
+      "new_disposition": "FIXED",
+      "new_excerpt": "3 Billion \u20135.6%\u00b0 Exports: $314."
+    },
+    {
+      "fact_id": "fact-3fe784986dfe994a",
+      "metric": "percentage_statistic",
+      "value": "0.9",
+      "old_classification": "INDIRECT",
+      "new_disposition": "FIXED",
+      "new_excerpt": "7 Billion \u20130.9%\u00b0 Imports: $388."
+    },
+    {
+      "fact_id": "fact-9f144fbde9c4ca0e",
+      "metric": "percentage_statistic",
+      "value": "1.8",
+      "old_classification": "INDIRECT",
+      "new_disposition": "FIXED",
+      "new_excerpt": "0 Billion \u20131.8%\u00b0 Next release: Thursday, September 3, 2026 (\u00b0) Statistical significance is not appli"
+    },
+    {
+      "fact_id": "fact-f71b0bdda976d74f",
+      "metric": "percentage_statistic",
+      "value": "24",
+      "old_classification": "INDIRECT",
+      "new_disposition": "FIXED",
+      "new_excerpt": "USD/EUR continued to be the most traded currency pair in the UK, with an average daily turnover of $"
+    },
+    {
+      "fact_id": "fact-727fb0b37aee4f04",
+      "metric": "percentage_statistic",
+      "value": "2",
+      "old_classification": "INDIRECT",
+      "new_disposition": "FIXED",
+      "new_excerpt": "75% - July 2026 Monetary Policy Summary and Minutes | Bank of England Our use of cookies We use nece"
+    },
+    {
+      "fact_id": "fact-918ede528f68b641",
+      "metric": "percentage_statistic",
+      "value": "2.6",
+      "old_classification": "INDIRECT",
+      "new_disposition": "FIXED",
+      "new_excerpt": "CPI inflation has fallen to 2.6% since the previous meeting, although it is expected to rise later t"
+    },
+    {
+      "fact_id": "fact-221a108a312fb18e",
+      "metric": "percentage_statistic",
+      "value": "30",
+      "old_classification": "INDIRECT",
+      "new_disposition": "FIXED",
+      "new_excerpt": "HDI Global SE agreed to resolve this matter and qualified for a 30% reduction in the amount of the f"
+    },
+    {
+      "fact_id": "fact-7d1034aa75ed7a13",
+      "metric": "percentage_statistic",
+      "value": "2.4",
+      "old_classification": "INDIRECT",
+      "new_disposition": "FIXED",
+      "new_excerpt": "Expectations for inflation five years ahead remained unchanged, at 2.4%."
+    },
+    {
+      "fact_id": "fact-566cf7f1d87486d8",
+      "metric": "percentage_statistic",
+      "value": "2",
+      "old_classification": "INDIRECT",
+      "new_disposition": "FIXED",
+      "new_excerpt": "The main aggregate results for individual countries and the euro area are published on the ECB Data "
+    },
+    {
+      "fact_id": "fact-6d3f01c854d4312d",
+      "metric": "percentage_statistic",
+      "value": "6.2",
+      "old_classification": "INDIRECT",
+      "new_disposition": "FIXED",
+      "new_excerpt": "Unemployment stood at 6.2% in May, close to historical lows."
+    },
+    {
+      "fact_id": "fact-6c86d36e3c48115f",
+      "metric": "usd_amount",
+      "value": "6.9",
+      "old_classification": "INDIRECT",
+      "new_disposition": "FIXED",
+      "new_excerpt": "6 percent to $6.9 trillion."
+    },
+    {
+      "fact_id": "fact-4faadac47897d68d",
+      "metric": "usd_amount",
+      "value": "5.3",
+      "old_classification": "INDIRECT",
+      "new_disposition": "FIXED",
+      "new_excerpt": "0 percent to $5.3 trillion."
+    },
+    {
+      "fact_id": "fact-9c20459a21871b4c",
+      "metric": "usd_amount",
+      "value": "1.6",
+      "old_classification": "INDIRECT",
+      "new_disposition": "FIXED",
+      "new_excerpt": "8 percent to $1.6 trillion."
+    },
+    {
+      "fact_id": "fact-c204ebd1ec730126",
+      "metric": "percentage_statistic",
+      "value": "29",
+      "old_classification": "INDIRECT",
+      "new_disposition": "FIXED",
+      "new_excerpt": "With a diverse domestic and international client base, Euronext handles 29% of European lit equity t"
+    },
+    {
+      "fact_id": "fact-0a010d581b3fad4f",
+      "metric": "percentage_statistic",
+      "value": "13",
+      "old_classification": "INDIRECT",
+      "new_disposition": "FIXED",
+      "new_excerpt": "13: The FPC welcomed authorities\u2019 engagement with firms through the Cross Market Operational Resilie"
+    },
+    {
+      "fact_id": "fact-e480d248298aa735",
+      "metric": "percentage_statistic",
+      "value": "11",
+      "old_classification": "INDIRECT",
+      "new_disposition": "FIXED",
+      "new_excerpt": "11: The FPC agreed that the implications for financial stability would depend on three factors: the "
+    },
+    {
+      "fact_id": "fact-be3127c130e9f0f1",
+      "metric": "percentage_statistic",
+      "value": "35",
+      "old_classification": "INDIRECT",
+      "new_disposition": "FIXED",
+      "new_excerpt": "35: In the UK, leverage ratio requirements comprise a minimum of 3."
+    },
+    {
+      "fact_id": "fact-65353f2749b70274",
+      "metric": "percentage_statistic",
+      "value": "50",
+      "old_classification": "INDIRECT",
+      "new_disposition": "FIXED",
+      "new_excerpt": "This preceded the finalisation of the Basel standards, which included a single leverage ratio buffer"
+    },
+    {
+      "fact_id": "fact-77b295d6311363ba",
+      "metric": "percentage_statistic",
+      "value": "2",
+      "old_classification": "INDIRECT",
+      "new_disposition": "FIXED",
+      "new_excerpt": "Financial Policy Committee Record \u2013 July 2026 | Bank of England Our use of cookies We use necessary "
+    },
+    {
+      "fact_id": "fact-b4de172814875c6d",
+      "metric": "percentage_statistic",
+      "value": "50",
+      "old_classification": "INDIRECT",
+      "new_disposition": "FIXED",
+      "new_excerpt": "This preceded the finalisation of the Basel standards, which included a single leverage ratio buffer"
+    },
+    {
+      "fact_id": "fact-e9a58d1e0f10bd8e",
+      "metric": "percentage_statistic",
+      "value": "3.25",
+      "old_classification": "INDIRECT",
+      "new_disposition": "FIXED",
+      "new_excerpt": "35: In the UK, leverage ratio requirements comprise a minimum of 3.25% of the UK leverage exposure m"
+    },
+    {
+      "fact_id": "fact-939c433948fe1455",
+      "metric": "percentage_statistic",
+      "value": "3",
+      "old_classification": "INDIRECT",
+      "new_disposition": "FIXED",
+      "new_excerpt": "3MB) PDF Close dialog Browse content Contents Record of the Financial Policy Committee meeting on 26"
+    },
+    {
+      "fact_id": "fact-a36c65348b23ebc6",
+      "metric": "percentage_statistic",
+      "value": "29",
+      "old_classification": "INDIRECT",
+      "new_disposition": "FIXED",
+      "new_excerpt": "With a diverse domestic and international client base, Euronext handles 29% of European lit equity t"
+    },
+    {
+      "fact_id": "fact-48e2f47b4446921b",
+      "metric": "percentage_statistic",
+      "value": "29",
+      "old_classification": "INDIRECT",
+      "new_disposition": "FIXED",
+      "new_excerpt": "With a diverse domestic and international client base, Euronext handles 29% of European lit equity t"
+    },
+    {
+      "fact_id": "fact-b8aa95b95b4dc0eb",
+      "metric": "percentage_statistic",
+      "value": "5",
+      "old_classification": "INDIRECT",
+      "new_disposition": "FIXED",
+      "new_excerpt": "Item 4: FXJSC Turnover Survey Results Muna Lisimba (Bank of England) presented the key findings of t"
+    }
+  ]
+}

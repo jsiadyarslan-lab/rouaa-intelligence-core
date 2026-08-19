@@ -1,0 +1,1572 @@
+
+<!DOCTYPE html>
+<!--[if IE 9]><html lang="en" class="ie9 no-js"><![endif]-->
+<!--[if !IE]><!-->
+<html lang="en" class="no-js menu-closed">
+<!--<![endif]-->
+<head>
+	<!-- x48nw -->
+	
+	<link rel="preload" as="style" href="/styles/boe.vendor.min.css?ver=98f91" />
+<link rel="preload" as="style" href="/styles/BoE.min.css?ver=98f91" />
+<link rel="preload" as="style" href="/-/media/css/cludosearchmin.css?ver=99CF8F" />
+
+	
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta http-equiv="Content-type" content="text/html; charset=utf-8">
+	<meta content="width=device-width, initial-scale=1.0" name="viewport" />
+	
+
+<title>Policy | Bank of England</title>
+<meta name="description" content="Find out how the Prudential Regulation Authority (PRA) makes and communicates policy and engages with global policymaking."/>
+<meta name="apple-mobile-web-app-title" content="Bank of England" />
+<meta name="format-detection" content="telephone=no" />
+<link rel="canonical" href="https://www.bankofengland.co.uk/prudential-regulation/policy" />
+<meta property="og:title" content="Policy">
+<meta property="og:description" content="Find out how the Prudential Regulation Authority (PRA) makes and communicates policy and engages with global policymaking.">
+<meta property="og:image" content="https://www.bankofengland.co.uk/-/media/boe/images/logo/boe-default ">
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://www.bankofengland.co.uk/prudential-regulation/policy" />
+
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Policy">
+<meta name="twitter:description" content="Find out how the Prudential Regulation Authority (PRA) makes and communicates policy and engages with global policymaking.">
+<meta name="twitter:image" content="https://www.bankofengland.co.uk/-/media/boe/images/logo/boe-default ">
+
+	<script>
+	var CheckCookies = {
+		getCookie: function (cname) {
+			var name = cname + "=";
+			var decodedCookie = decodeURIComponent(document.cookie);
+			var ca = decodedCookie.split(';');
+			for (var i = 0; i < ca.length; i++) {
+				var c = ca[i];
+				while (c.charAt(0) === ' ') {
+					c = c.substring(1);
+				}
+				if (c.indexOf(name) === 0) {
+					return c.substring(name.length, c.length);
+				}
+			}
+			return "";
+		}
+	};
+	var SetAnalytics = {
+		setTagManager: function () {
+			var hasConsentAnalytics = CheckCookies.getCookie('boeconsent');
+			if (hasConsentAnalytics === "analytics") {
+				(function (w, d, s, l, i) {
+					w[l] = w[l] || []; w[l].push({
+						'gtm.start':
+							new Date().getTime(), event: 'gtm.js'
+					}); var f = d.getElementsByTagName(s)[0],
+						j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''; j.async = true; j.src =
+							'https://www.googletagmanager.com/gtm.js?id=' + i + dl; f.parentNode.insertBefore(j, f);
+				})(window, document, 'script', 'dataLayer', 'GTM-5H35J9');
+			}
+		},
+	}
+	SetAnalytics.setTagManager();
+	</script>
+
+	<script>
+		var el = document.getElementsByTagName('html')[0];
+		if (el.classList) {
+			el.classList.remove('no-js');
+		} else {
+			el.className = el.className.replace('no-js', '');
+		}
+	</script>
+
+	
+	<link href="/styles/boe.vendor.min.css?ver=98f91" rel="stylesheet" media="screen,print" />
+<link href="/styles/BoE.min.css?ver=98f91" rel="stylesheet" media="screen,print" />
+<link href="/-/media/css/cludosearchmin.css?ver=99CF8F" rel="stylesheet" media="screen" />
+
+	
+		<!-- Tracking Disabled -->
+	<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png?ver=98f91">
+	<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png?ver=98f91">
+	<link rel="icon" type="image/png" sizes="96x96" href="/favicon-96x96.png?ver=98f91">
+	<link rel="icon" type="image/png" sizes="180x180" href="/favicon-180x180.png?ver=98f91">
+	<link rel="icon" type="image/png" sizes="192x192" href="/favicon-192x192.png?ver=98f91">
+	<link rel="icon" type="image/png" sizes="512x512" href="/favicon-512x512.png?ver=98f91">
+
+	<link rel="icon" href="/favicon.ico?ver=98f91" sizes="any">
+	<link rel="icon" href="/favicon.svg?ver=98f91" type="image/svg+xml">
+	<link rel="apple-touch-icon" href="/apple-touch-icon.png?ver=98f91">
+
+
+<script>(window.BOOMR_mq=window.BOOMR_mq||[]).push(["addVar",{"rua.upush":"false","rua.cpush":"true","rua.upre":"false","rua.cpre":"false","rua.uprl":"false","rua.cprl":"false","rua.cprf":"false","rua.trans":"SJ-cbab80b0-fbff-4c62-a3c3-04ff85cdc900","rua.cook":"false","rua.ims":"false","rua.ufprl":"false","rua.cfprl":"false","rua.isuxp":"false","rua.texp":"norulematch","rua.ceh":"false","rua.ueh":"false","rua.ieh.st":"0"}]);</script>
+                                <script>!function(a){var e="https://s.go-mpulse.net/boomerang/",t="addEventListener";if("False"=="True")a.BOOMR_config=a.BOOMR_config||{},a.BOOMR_config.PageParams=a.BOOMR_config.PageParams||{},a.BOOMR_config.PageParams.pci=!0,e="https://s2.go-mpulse.net/boomerang/";if(window.BOOMR_API_key="9R3WH-S6EDC-8JGQW-55286-CGTTF",function(){function n(e){a.BOOMR_onload=e&&e.timeStamp||(new Date).getTime()}if(!a.BOOMR||!a.BOOMR.version&&!a.BOOMR.snippetExecuted){a.BOOMR=a.BOOMR||{},a.BOOMR.snippetExecuted=!0;var i,_,o,r=document.createElement("iframe");if(a[t])a[t]("load",n,!1);else if(a.attachEvent)a.attachEvent("onload",n);r.src="javascript:void(0)",r.title="",r.role="presentation",(r.frameElement||r).style.cssText="width:0;height:0;border:0;display:none;",o=document.getElementsByTagName("script")[0],o.parentNode.insertBefore(r,o);try{_=r.contentWindow.document}catch(O){i=document.domain,r.src="javascript:var d=document.open();d.domain='"+i+"';void(0);",_=r.contentWindow.document}_.open()._l=function(){var a=this.createElement("script");if(i)this.domain=i;a.id="boomr-if-as",a.src=e+"9R3WH-S6EDC-8JGQW-55286-CGTTF",BOOMR_lstart=(new Date).getTime(),this.body.appendChild(a)},_.write("<bo"+'dy onload="document._l();">'),_.close()}}(),"".length>0)if(a&&"performance"in a&&a.performance&&"function"==typeof a.performance.setResourceTimingBufferSize)a.performance.setResourceTimingBufferSize();!function(){if(BOOMR=a.BOOMR||{},BOOMR.plugins=BOOMR.plugins||{},!BOOMR.plugins.AK){var e="true"=="true"?1:0,t="",n="bdkavh5ykv4k42udooxa-f-e508f475c-clientnsv4-s.akamaihd.net",i="false"=="true"?2:1,_={"ak.v":"41","ak.cp":"445139","ak.ai":parseInt("286733",10),"ak.ol":"0","ak.cr":6,"ak.ipv":4,"ak.proto":"http/1.1","ak.rid":"169fb9e7","ak.r":34657,"ak.a2":e,"ak.m":"a","ak.n":"essl","ak.cport":25147,"ak.gh":"184.51.102.4","ak.quicv":"","ak.tlsv":"tls1.3","ak.0rtt":"","ak.0rtt.ed":"","ak.csrc":"-","ak.acc":"bbr","ak.t":"1786999726","ak.ak":"hOBiQwZUYzCg5VSAfCLimQ==tkvS37eblgoFrtaHsOHgn9rqytEeUx+K0uVzUjn14Bh6Mq36WzDUYvuaq4IcXoplOPqnoW0hB0CVix9jxge/BcJAdnm/A7bN7WEy07FiEWjjZNCrn9SxpJ/C7uiBTPYjxhqZPpy8RrnzhsuPephodp8OgFPhvA/nKhOcY9OI9dZ9+oOpi4dhjwDYca9qvr9h6OQqVtbmvrKaeyTVHkZCTqYKnKamk+r28YE0+ZpEcaZuARGp+LFa6WQsZlwLx4GpK+oHybA31GOpH+gTI/OPfa5dizd1IMpZbDKaevqwdmnuNp4iZ5+HAEmk+XEDrLtvlDNskgmt1l3iNR563aSVpfuWfQhUPaIcLUKKMe4sM1ruIaNwWH0sce//2UCsc/NOwcGq0T48JVTfqo6fNF2HZZ+pSVtoBgUW2W6RZDDdAPg=","ak.pv":"356","ak.dpoabenc":"","ak.tf":i};if(""!==t)_["ak.ruds"]=t;var o={i:!1,av:function(e){var t="http.initiator";if(e&&(!e[t]||"spa_hard"===e[t]))_["ak.feo"]=void 0!==a.aFeoApplied?1:0,BOOMR.addVar(_)},rv:function(){var a=["ak.cport","ak.cr","ak.csrc","ak.gh","ak.ipv","ak.m","ak.n","ak.ol","ak.proto","ak.quicv","ak.tlsv","ak.0rtt","ak.0rtt.ed","ak.r","ak.acc","ak.t","ak.tf"];BOOMR.removeVar(a)}};BOOMR.plugins.AK={akVars:_,akDNSPreFetchDomain:n,init:function(){if(!o.i){var a=BOOMR.subscribe;a("before_beacon",o.av,null,null),a("onbeacon",o.rv,null,null),o.i=!0}return this},is_complete:function(){return!0}}}}()}(window);</script></head>
+<body >
+		<div class="wrap" itemscope="" itemtype="http://schema.org/WebPage">
+
+
+<div class="cookie-notice">
+	<div class="cookie-notice__panel">
+		<div class="cookie-content content-block">
+			<h2 class="cookie-title exclude-navigation">Our use of cookies</h2>
+
+			<p>We use necessary cookies to make our site work. We&rsquo;d also like to use some non-essential cookies (including third-party cookies) to help us improve the site. By clicking &lsquo;Accept recommended settings&rsquo; on this banner, you accept our use of analytics cookies.&nbsp;  For more information on how these cookies work please see our <a href="/legal/privacy-and-cookie-policy">Cookie policy</a>.</p>
+
+			<button type="button" class="cookie__button btn btn-default" data-cookie="analytics">Accept recommended cookies</button>
+			<button type="button" class="cookie__button btn btn-default btn-neutral" data-cookie="necessary">Proceed with necessary cookies only</button>
+
+					</div>
+	</div>
+</div>		<div class="nav-bypass">
+			<a href="#main-content" class="nav-bypass__link">Skip to main content</a>
+		</div>
+		
+<header class="global-header" itemscope="" itemtype="http://schema.org/WPHeader">
+    <div class="container">
+        <div class="col12">
+            <div class="header-brand" itemscope="" itemtype="http://schema.org/Organisation">
+                
+
+	<a class="header-logo " itemscope itemtype="http://schema.org/Brand" href="/">
+		<img src="/-/media/boe/images/logo/logo-boe.svg?iar=0&amp;mh=61&amp;hash=2C88D4FFDD47844D6BD2541F5A92D70F" alt="Bank of England home" />
+
+	</a>
+
+            </div>
+
+            <div class="header-nav " id="menu">
+                <nav class="container-nav-primary" id="container-nav-primary" role="navigation" aria-label="Main navigation" itemscope="" itemtype="http://schema.org/SiteNavigationElement" data-nav-primary>
+                    <button class="nav-primary__button" aria-controls="main-menu" data-nav-toggle>
+                        <span class="icon-menu"><span class="visually-hidden">Main menu</span></span>
+                        <span class="icon-cross"><span class="visually-hidden">Close main menu</span></span>
+                    </button>
+                    <ul class="nav-primary" id="main-menu">
+                        
+                        
+
+<li class="nav-primary__list-item nav-primary__list-item--has-children" data-nav-has-children>
+    <span class="nav-primary__link">
+        Topics
+    </span>
+    <button class="nav-primary__dropdown-toggle">
+		<span class="visually-hidden">
+			Open Topics sub menu
+		</span>
+	</button>
+    <ul class="nav-primary__sublist">
+        <li class="nav-primary__sublist-item nav-primary__sublist-item--back">
+            <a href="#" class="nav-primary__sublist-link" data-nav-back>
+                Back <span class="visually-hidden">to main menu</span>
+            </a>
+        </li>
+            <li class="nav-primary__sublist-item  nav-primary__sublist-item--has-children" data-nav-has-children>
+                    <a href="/banknotes" class="nav-primary__sublist-link">
+                        Banknotes
+                    </a>
+                                    <button class="nav-primary__dropdown-toggle">
+                        <span class="visually-hidden">Open Banknotes sub menu</span>
+                    </button>
+                    <ul class="nav-primary__sublist">
+                        <li class="nav-primary__sublist-item nav-primary__sublist-item--back">
+                            <a href="#" class="nav-primary__sublist-link" data-nav-back>
+                                Back <span class="visually-hidden">to main menu</span>
+                            </a>
+                        </li>
+                            <li class="nav-primary__sublist-item">
+                                <a href="/banknotes/counterfeit-banknotes" class="nav-primary__sublist-link">
+                                    Counterfeit banknotes 
+                                </a>
+                            </li>
+                            <li class="nav-primary__sublist-item">
+                                <a href="/banknotes/current-banknotes" class="nav-primary__sublist-link">
+                                    Current banknotes 
+                                </a>
+                            </li>
+                            <li class="nav-primary__sublist-item">
+                                <a href="/banknotes/damaged-and-contaminated-banknotes" class="nav-primary__sublist-link">
+                                    Damaged and contaminated banknotes 
+                                </a>
+                            </li>
+                            <li class="nav-primary__sublist-item">
+                                <a href="/banknotes/exchanging-old-banknotes" class="nav-primary__sublist-link">
+                                    Exchanging old banknotes 
+                                </a>
+                            </li>
+                            <li class="nav-primary__sublist-item">
+                                <a href="/banknotes/note-circulation-scheme" class="nav-primary__sublist-link">
+                                    Note Circulation Scheme 
+                                </a>
+                            </li>
+                            <li class="nav-primary__sublist-item">
+                                <a href="/banknotes/retailers-and-businesses" class="nav-primary__sublist-link">
+                                    Advice for retailers and businesses 
+                                </a>
+                            </li>
+                            <li class="nav-primary__sublist-item">
+                                <a href="/banknotes/scottish-and-northern-ireland-banknotes" class="nav-primary__sublist-link">
+                                    Scottish and Northern Ireland banknotes 
+                                </a>
+                            </li>
+                            <li class="nav-primary__sublist-item">
+                                <a href="/banknotes/using-images-of-banknotes" class="nav-primary__sublist-link">
+                                    Using images of banknotes 
+                                </a>
+                            </li>
+                            <li class="nav-primary__sublist-item">
+                                <a href="/banknotes/wholesale-cash-supervision" class="nav-primary__sublist-link">
+                                    Wholesale cash supervision 
+                                </a>
+                            </li>
+                            <li class="nav-primary__sublist-item">
+                                <a href="/banknotes/withdrawn-banknotes" class="nav-primary__sublist-link">
+                                    Withdrawn banknotes 
+                                </a>
+                            </li>
+					</ul>
+            </li>
+            <li class="nav-primary__sublist-item  nav-primary__sublist-item--has-children" data-nav-has-children>
+                    <a href="/careers" class="nav-primary__sublist-link">
+                        Careers
+                    </a>
+                                    <button class="nav-primary__dropdown-toggle">
+                        <span class="visually-hidden">Open Careers sub menu</span>
+                    </button>
+                    <ul class="nav-primary__sublist">
+                        <li class="nav-primary__sublist-item nav-primary__sublist-item--back">
+                            <a href="#" class="nav-primary__sublist-link" data-nav-back>
+                                Back <span class="visually-hidden">to main menu</span>
+                            </a>
+                        </li>
+                            <li class="nav-primary__sublist-item">
+                                <a href="/careers/application-tips" class="nav-primary__sublist-link">
+                                    Application tips 
+                                </a>
+                            </li>
+                            <li class="nav-primary__sublist-item">
+                                <a href="/careers/career-returner" class="nav-primary__sublist-link">
+                                    Career Returner Programme 
+                                </a>
+                            </li>
+                            <li class="nav-primary__sublist-item">
+                                <a href="/careers/future-talent" class="nav-primary__sublist-link">
+                                    Future talent 
+                                </a>
+                            </li>
+                            <li class="nav-primary__sublist-item">
+                                <a href="/careers/our-locations" class="nav-primary__sublist-link">
+                                    Our locations 
+                                </a>
+                            </li>
+                            <li class="nav-primary__sublist-item">
+                                <a href="/careers/research-careers" class="nav-primary__sublist-link">
+                                    Research careers 
+                                </a>
+                            </li>
+                            <li class="nav-primary__sublist-item">
+                                <a href="/careers/we-value-diversity-and-inclusion" class="nav-primary__sublist-link">
+                                    We value diversity and inclusion 
+                                </a>
+                            </li>
+                            <li class="nav-primary__sublist-item">
+                                <a href="/careers/what-we-offer-you" class="nav-primary__sublist-link">
+                                    What we offer you 
+                                </a>
+                            </li>
+                            <li class="nav-primary__sublist-item">
+                                <a href="/careers/why-you-should-join-us" class="nav-primary__sublist-link">
+                                    Why you should join us 
+                                </a>
+                            </li>
+					</ul>
+            </li>
+            <li class="nav-primary__sublist-item" >
+                    <a href="/climate-change" class="nav-primary__sublist-link">
+                        Climate change
+                    </a>
+                            </li>
+            <li class="nav-primary__sublist-item" >
+                    <a href="/the-digital-pound" class="nav-primary__sublist-link">
+                        Digital pound
+                    </a>
+                            </li>
+            <li class="nav-primary__sublist-item  nav-primary__sublist-item--has-children" data-nav-has-children>
+                    <a href="/education" class="nav-primary__sublist-link">
+                        Education
+                    </a>
+                                    <button class="nav-primary__dropdown-toggle">
+                        <span class="visually-hidden">Open Education sub menu</span>
+                    </button>
+                    <ul class="nav-primary__sublist">
+                        <li class="nav-primary__sublist-item nav-primary__sublist-item--back">
+                            <a href="#" class="nav-primary__sublist-link" data-nav-back>
+                                Back <span class="visually-hidden">to main menu</span>
+                            </a>
+                        </li>
+                            <li class="nav-primary__sublist-item">
+                                <a href="/education/competitions" class="nav-primary__sublist-link">
+                                    Competitions 
+                                </a>
+                            </li>
+                            <li class="nav-primary__sublist-item">
+                                <a href="/education/education-resources" class="nav-primary__sublist-link">
+                                    Education resources 
+                                </a>
+                            </li>
+                            <li class="nav-primary__sublist-item">
+                                <a href="/education/research-support-programme" class="nav-primary__sublist-link">
+                                    Research support programme 
+                                </a>
+                            </li>
+                            <li class="nav-primary__sublist-item">
+                                <a href="/education/school-visits" class="nav-primary__sublist-link">
+                                    Request a speaker for your school 
+                                </a>
+                            </li>
+					</ul>
+            </li>
+            <li class="nav-primary__sublist-item  nav-primary__sublist-item--has-children" data-nav-has-children>
+                    <a href="/financial-stability" class="nav-primary__sublist-link">
+                        Financial stability
+                    </a>
+                                    <button class="nav-primary__dropdown-toggle">
+                        <span class="visually-hidden">Open Financial stability sub menu</span>
+                    </button>
+                    <ul class="nav-primary__sublist">
+                        <li class="nav-primary__sublist-item nav-primary__sublist-item--back">
+                            <a href="#" class="nav-primary__sublist-link" data-nav-back>
+                                Back <span class="visually-hidden">to main menu</span>
+                            </a>
+                        </li>
+                            <li class="nav-primary__sublist-item">
+                                <a href="/financial-stability/digital-securities-sandbox" class="nav-primary__sublist-link">
+                                    Digital Securities Sandbox (DSS) 
+                                </a>
+                            </li>
+                            <li class="nav-primary__sublist-item">
+                                <a href="/financial-stability/financial-market-infrastructure-supervision" class="nav-primary__sublist-link">
+                                    Financial market infrastructure supervision 
+                                </a>
+                            </li>
+                            <li class="nav-primary__sublist-item">
+                                <a href="/financial-stability/operational-resilience-of-the-financial-sector" class="nav-primary__sublist-link">
+                                    Operational resilience of the financial sector 
+                                </a>
+                            </li>
+                            <li class="nav-primary__sublist-item">
+                                <a href="/financial-stability/resolution" class="nav-primary__sublist-link">
+                                    Resolution 
+                                </a>
+                            </li>
+                            <li class="nav-primary__sublist-item">
+                                <a href="/financial-stability/trade-repository-data" class="nav-primary__sublist-link">
+                                    Trade Repository (TR) Data Collections 
+                                </a>
+                            </li>
+					</ul>
+            </li>
+            <li class="nav-primary__sublist-item" >
+                    <a href="/gold" class="nav-primary__sublist-link">
+                        Gold
+                    </a>
+                            </li>
+            <li class="nav-primary__sublist-item  nav-primary__sublist-item--has-children" data-nav-has-children>
+                    <a href="/markets" class="nav-primary__sublist-link">
+                        Markets
+                    </a>
+                                    <button class="nav-primary__dropdown-toggle">
+                        <span class="visually-hidden">Open Markets sub menu</span>
+                    </button>
+                    <ul class="nav-primary__sublist">
+                        <li class="nav-primary__sublist-item nav-primary__sublist-item--back">
+                            <a href="#" class="nav-primary__sublist-link" data-nav-back>
+                                Back <span class="visually-hidden">to main menu</span>
+                            </a>
+                        </li>
+                            <li class="nav-primary__sublist-item">
+                                <a href="/markets/bank-of-england-market-operations-guide" class="nav-primary__sublist-link">
+                                    Bank of England Market Operations Guide 
+                                </a>
+                            </li>
+                            <li class="nav-primary__sublist-item">
+                                <a href="/markets/eligible-collateral" class="nav-primary__sublist-link">
+                                    Eligible collateral 
+                                </a>
+                            </li>
+                            <li class="nav-primary__sublist-item">
+                                <a href="/markets/fair-and-effective-markets" class="nav-primary__sublist-link">
+                                    Fair and Effective Markets  
+                                </a>
+                            </li>
+                            <li class="nav-primary__sublist-item">
+                                <a href="/markets/foreign-currency-reserves" class="nav-primary__sublist-link">
+                                    Foreign currency reserves 
+                                </a>
+                            </li>
+                            <li class="nav-primary__sublist-item">
+                                <a href="/markets/greening-the-corporate-bond-purchase-scheme" class="nav-primary__sublist-link">
+                                    Greening our Corporate Bond Purchase Scheme (CBPS) 
+                                </a>
+                            </li>
+                            <li class="nav-primary__sublist-item">
+                                <a href="/markets/market-intelligence" class="nav-primary__sublist-link">
+                                    Market intelligence 
+                                </a>
+                            </li>
+                            <li class="nav-primary__sublist-item">
+                                <a href="/markets/money-markets-committee-and-uk-money-markets-code" class="nav-primary__sublist-link">
+                                    Money Markets Committee and UK Money Markets Code 
+                                </a>
+                            </li>
+                            <li class="nav-primary__sublist-item">
+                                <a href="/markets/collateral-and-settlement" class="nav-primary__sublist-link">
+                                    Settlement and collateral management 
+                                </a>
+                            </li>
+                            <li class="nav-primary__sublist-item">
+                                <a href="/markets/sonia-benchmark" class="nav-primary__sublist-link">
+                                    SONIA interest rate benchmark 
+                                </a>
+                            </li>
+                            <li class="nav-primary__sublist-item">
+                                <a href="/markets/the-sterling-bond-portfolio" class="nav-primary__sublist-link">
+                                    The Sterling Bond Portfolio 
+                                </a>
+                            </li>
+                            <li class="nav-primary__sublist-item">
+                                <a href="/markets/transition-to-sterling-risk-free-rates-from-libor" class="nav-primary__sublist-link">
+                                    Transition from LIBOR to risk-free rates 
+                                </a>
+                            </li>
+					</ul>
+            </li>
+            <li class="nav-primary__sublist-item  nav-primary__sublist-item--has-children" data-nav-has-children>
+                    <a href="/monetary-policy" class="nav-primary__sublist-link">
+                        Monetary policy
+                    </a>
+                                    <button class="nav-primary__dropdown-toggle">
+                        <span class="visually-hidden">Open Monetary policy sub menu</span>
+                    </button>
+                    <ul class="nav-primary__sublist">
+                        <li class="nav-primary__sublist-item nav-primary__sublist-item--back">
+                            <a href="#" class="nav-primary__sublist-link" data-nav-back>
+                                Back <span class="visually-hidden">to main menu</span>
+                            </a>
+                        </li>
+                            <li class="nav-primary__sublist-item">
+                                <a href="/monetary-policy/inflation" class="nav-primary__sublist-link">
+                                    Inflation and the 2% target 
+                                </a>
+                            </li>
+                            <li class="nav-primary__sublist-item">
+                                <a href="/monetary-policy/quantitative-easing" class="nav-primary__sublist-link">
+                                    Quantitative easing 
+                                </a>
+                            </li>
+                            <li class="nav-primary__sublist-item">
+                                <a href="/monetary-policy/the-interest-rate-bank-rate" class="nav-primary__sublist-link">
+                                    Interest rates and Bank Rate 
+                                </a>
+                            </li>
+					</ul>
+            </li>
+            <li class="nav-primary__sublist-item  nav-primary__sublist-item--has-children" data-nav-has-children>
+                    <a href="/payments" class="nav-primary__sublist-link">
+                        Payments
+                    </a>
+                                    <button class="nav-primary__dropdown-toggle">
+                        <span class="visually-hidden">Open Payments sub menu</span>
+                    </button>
+                    <ul class="nav-primary__sublist">
+                        <li class="nav-primary__sublist-item nav-primary__sublist-item--back">
+                            <a href="#" class="nav-primary__sublist-link" data-nav-back>
+                                Back <span class="visually-hidden">to main menu</span>
+                            </a>
+                        </li>
+                            <li class="nav-primary__sublist-item">
+                                <a href="/payments/banking-services" class="nav-primary__sublist-link">
+                                    Banking services 
+                                </a>
+                            </li>
+                            <li class="nav-primary__sublist-item">
+                                <a href="/payments/chaps" class="nav-primary__sublist-link">
+                                    CHAPS 
+                                </a>
+                            </li>
+                            <li class="nav-primary__sublist-item">
+                                <a href="/payments/payment-settlement" class="nav-primary__sublist-link">
+                                    Payment and settlement 
+                                </a>
+                            </li>
+                            <li class="nav-primary__sublist-item">
+                                <a href="/payments/payments-innovation" class="nav-primary__sublist-link">
+                                    Payments innovation 
+                                </a>
+                            </li>
+					</ul>
+            </li>
+            <li class="nav-primary__sublist-item  nav-primary__sublist-item--has-children" data-nav-has-children>
+                    <a href="/prudential-regulation" class="nav-primary__sublist-link">
+                        Prudential regulation
+                    </a>
+                                    <button class="nav-primary__dropdown-toggle">
+                        <span class="visually-hidden">Open Prudential regulation sub menu</span>
+                    </button>
+                    <ul class="nav-primary__sublist">
+                        <li class="nav-primary__sublist-item nav-primary__sublist-item--back">
+                            <a href="#" class="nav-primary__sublist-link" data-nav-back>
+                                Back <span class="visually-hidden">to main menu</span>
+                            </a>
+                        </li>
+                            <li class="nav-primary__sublist-item">
+                                <a href="/prudential-regulation/authorisations" class="nav-primary__sublist-link">
+                                    Authorisations 
+                                </a>
+                            </li>
+                            <li class="nav-primary__sublist-item">
+                                <a href="/prudential-regulation/new-bank-start-up-unit" class="nav-primary__sublist-link">
+                                    New Bank Start-up Unit 
+                                </a>
+                            </li>
+                            <li class="nav-primary__sublist-item">
+                                <a href="/prudential-regulation/new-insurer-start-up-unit" class="nav-primary__sublist-link">
+                                    New Insurer Start-up Unit 
+                                </a>
+                            </li>
+                            <li class="nav-primary__sublist-item">
+                                <a href="/prudential-regulation/policy" class="nav-primary__sublist-link">
+                                    Policy 
+                                </a>
+                            </li>
+                            <li class="nav-primary__sublist-item">
+                                <a href="/prudential-regulation/prudential-and-resolution-policy-index" class="nav-primary__sublist-link">
+                                    Prudential and Resolution Policy Index 
+                                </a>
+                            </li>
+                            <li class="nav-primary__sublist-item">
+                                <a href="/prudential-regulation/regulatory-reporting" class="nav-primary__sublist-link">
+                                    Regulatory reporting 
+                                </a>
+                            </li>
+                            <li class="nav-primary__sublist-item">
+                                <a href="/prudential-regulation/our-secondary-objectives" class="nav-primary__sublist-link">
+                                    Our secondary objectives 
+                                </a>
+                            </li>
+                            <li class="nav-primary__sublist-item">
+                                <a href="/prudential-regulation/supervision" class="nav-primary__sublist-link">
+                                    Supervision 
+                                </a>
+                            </li>
+                            <li class="nav-primary__sublist-item">
+                                <a href="/prudential-regulation/the-bank-of-england-enforcement" class="nav-primary__sublist-link">
+                                    The Bank of England’s approach to enforcement 
+                                </a>
+                            </li>
+					</ul>
+            </li>
+            <li class="nav-primary__sublist-item  nav-primary__sublist-item--has-children" data-nav-has-children>
+                    <a href="/research" class="nav-primary__sublist-link">
+                        Research
+                    </a>
+                                    <button class="nav-primary__dropdown-toggle">
+                        <span class="visually-hidden">Open Research sub menu</span>
+                    </button>
+                    <ul class="nav-primary__sublist">
+                        <li class="nav-primary__sublist-item nav-primary__sublist-item--back">
+                            <a href="#" class="nav-primary__sublist-link" data-nav-back>
+                                Back <span class="visually-hidden">to main menu</span>
+                            </a>
+                        </li>
+                            <li class="nav-primary__sublist-item">
+                                <a href="/research/bank-of-england-agenda-for-research" class="nav-primary__sublist-link">
+                                    Bank of England Agenda for Research, 2025-2028 
+                                </a>
+                            </li>
+                            <li class="nav-primary__sublist-item">
+                                <a href="/research/fintech" class="nav-primary__sublist-link">
+                                    Fintech 
+                                </a>
+                            </li>
+                            <li class="nav-primary__sublist-item">
+                                <a href="/research/future-finance" class="nav-primary__sublist-link">
+                                    The Future of Finance - our response 
+                                </a>
+                            </li>
+                            <li class="nav-primary__sublist-item">
+                                <a href="/research/visitor-programme" class="nav-primary__sublist-link">
+                                    Research Visitor Programme 
+                                </a>
+                            </li>
+                            <li class="nav-primary__sublist-item">
+                                <a href="/research/research-funding-and-fellowships" class="nav-primary__sublist-link">
+                                    Research funding and fellowships 
+                                </a>
+                            </li>
+                            <li class="nav-primary__sublist-item">
+                                <a href="/research/researchers" class="nav-primary__sublist-link">
+                                    Researchers 
+                                </a>
+                            </li>
+					</ul>
+            </li>
+            <li class="nav-primary__sublist-item  nav-primary__sublist-item--has-children" data-nav-has-children>
+                    <a href="/statistics" class="nav-primary__sublist-link">
+                        Statistics
+                    </a>
+                                    <button class="nav-primary__dropdown-toggle">
+                        <span class="visually-hidden">Open Statistics sub menu</span>
+                    </button>
+                    <ul class="nav-primary__sublist">
+                        <li class="nav-primary__sublist-item nav-primary__sublist-item--back">
+                            <a href="#" class="nav-primary__sublist-link" data-nav-back>
+                                Back <span class="visually-hidden">to main menu</span>
+                            </a>
+                        </li>
+                            <li class="nav-primary__sublist-item">
+                                <a href="/statistics/banknote" class="nav-primary__sublist-link">
+                                    Banknote statistics 
+                                </a>
+                            </li>
+                            <li class="nav-primary__sublist-item">
+                                <a href="/statistics/tables" class="nav-primary__sublist-link">
+                                    Bankstats tables 
+                                </a>
+                            </li>
+                            <li class="nav-primary__sublist-item">
+                                <a href="/statistics/data-collection" class="nav-primary__sublist-link">
+                                    Data collection 
+                                </a>
+                            </li>
+                            <li class="nav-primary__sublist-item">
+                                <a href="/statistics/exchange-rates" class="nav-primary__sublist-link">
+                                    Exchange rates 
+                                </a>
+                            </li>
+                            <li class="nav-primary__sublist-item">
+                                <a href="/statistics/gold" class="nav-primary__sublist-link">
+                                    Gold statistics 
+                                </a>
+                            </li>
+                            <li class="nav-primary__sublist-item">
+                                <a href="/statistics/research-datasets" class="nav-primary__sublist-link">
+                                    Research datasets 
+                                </a>
+                            </li>
+                            <li class="nav-primary__sublist-item">
+                                <a href="/statistics/statistics-requested-by-users" class="nav-primary__sublist-link">
+                                    Statistics requested by users 
+                                </a>
+                            </li>
+                            <li class="nav-primary__sublist-item">
+                                <a href="/statistics/yield-curves" class="nav-primary__sublist-link">
+                                    Yield curves 
+                                </a>
+                            </li>
+					</ul>
+            </li>
+    </ul>
+</li>
+
+                        
+                                <li class="nav-primary__list-item nav-primary__list-item--has-children" data-nav-has-children>
+
+            <a href="/about" class="nav-primary__link" >
+                <span>About</span>
+            </a>
+				<button class="nav-primary__dropdown-toggle">
+					<span class="visually-hidden">Open About sub menu</span>
+			    </button>
+				<ul class="nav-primary__sublist">
+					<li class="nav-primary__sublist-item nav-primary__sublist-item--back">
+						<a href="#" class="nav-primary__sublist-link" data-nav-back>
+							Back <span class="visually-hidden">to main menu</span>
+						</a>
+					</li>
+                    <li class="nav-primary__sublist-item  nav-primary__sublist-item--has-children" data-nav-has-children >
+                        <a href="/about/get-involved" class="nav-primary__sublist-link" >
+                                Get involved
+                        </a>
+                            <button class="nav-primary__dropdown-toggle">
+                                <span class="visually-hidden">Open Get involved sub menu</span>
+                            </button>
+                            <ul class="nav-primary__sublist">
+                                <li class="nav-primary__sublist-item nav-primary__sublist-item--back">
+                                    <a href="#" class="nav-primary__sublist-link" data-nav-back>
+                                        Back <span class="visually-hidden">to main menu</span>
+                                    </a>
+                                </li>
+                                        <li class="nav-primary__sublist-item">
+                                            <a href="/about/get-involved/citizens-panels" class="nav-primary__sublist-link" >
+                                                Citizens’ Forum
+                                            </a>
+                                        </li>
+                                        <li class="nav-primary__sublist-item">
+                                            <a href="/about/get-involved/community-forums" class="nav-primary__sublist-link" >
+                                                Community Forum
+                                            </a>
+                                        </li>
+                                        <li class="nav-primary__sublist-item">
+                                            <a href="/about/get-involved/community-partners" class="nav-primary__sublist-link" >
+                                                Partners
+                                            </a>
+                                        </li>
+                                        <li class="nav-primary__sublist-item">
+                                            <a href="/about/get-involved/youth-forum" class="nav-primary__sublist-link" >
+                                                Youth Voice
+                                            </a>
+                                        </li>
+                            </ul>
+                    </li>
+                    <li class="nav-primary__sublist-item  nav-primary__sublist-item--has-children" data-nav-has-children >
+                        <a href="/about/governance-and-funding" class="nav-primary__sublist-link" >
+                                Governance and funding
+                        </a>
+                            <button class="nav-primary__dropdown-toggle">
+                                <span class="visually-hidden">Open Governance and funding sub menu</span>
+                            </button>
+                            <ul class="nav-primary__sublist">
+                                <li class="nav-primary__sublist-item nav-primary__sublist-item--back">
+                                    <a href="#" class="nav-primary__sublist-link" data-nav-back>
+                                        Back <span class="visually-hidden">to main menu</span>
+                                    </a>
+                                </li>
+                                        <li class="nav-primary__sublist-item">
+                                            <a href="/about/governance-and-funding/staff-codes-and-policies" class="nav-primary__sublist-link" >
+                                                Staff codes and policies
+                                            </a>
+                                        </li>
+                            </ul>
+                    </li>
+                    <li class="nav-primary__sublist-item"  >
+                        <a href="/about/history" class="nav-primary__sublist-link" >
+                                History
+                        </a>
+                    </li>
+                    <li class="nav-primary__sublist-item  nav-primary__sublist-item--has-children" data-nav-has-children >
+                        <a href="/about/people" class="nav-primary__sublist-link" >
+                                Our people
+                        </a>
+                            <button class="nav-primary__dropdown-toggle">
+                                <span class="visually-hidden">Open Our people sub menu</span>
+                            </button>
+                            <ul class="nav-primary__sublist">
+                                <li class="nav-primary__sublist-item nav-primary__sublist-item--back">
+                                    <a href="#" class="nav-primary__sublist-link" data-nav-back>
+                                        Back <span class="visually-hidden">to main menu</span>
+                                    </a>
+                                </li>
+                                        <li class="nav-primary__sublist-item">
+                                            <a href="/about/people/agents" class="nav-primary__sublist-link" >
+                                                Agents
+                                            </a>
+                                        </li>
+                                        <li class="nav-primary__sublist-item">
+                                            <a href="/about/people/chief-cashiers" class="nav-primary__sublist-link" >
+                                                Chief Cashiers
+                                            </a>
+                                        </li>
+                                        <li class="nav-primary__sublist-item">
+                                            <a href="/about/people/court-of-directors" class="nav-primary__sublist-link" >
+                                                Court of Directors
+                                            </a>
+                                        </li>
+                                        <li class="nav-primary__sublist-item">
+                                            <a href="/about/people/executive-directors" class="nav-primary__sublist-link" >
+                                                Executive Directors
+                                            </a>
+                                        </li>
+                                        <li class="nav-primary__sublist-item">
+                                            <a href="/about/people/financial-policy-committee" class="nav-primary__sublist-link" >
+                                                Financial Policy Committee
+                                            </a>
+                                        </li>
+                                        <li class="nav-primary__sublist-item">
+                                            <a href="/about/people/fmi-committee" class="nav-primary__sublist-link" >
+                                                Financial Market Infrastructure Committee
+                                            </a>
+                                        </li>
+                                        <li class="nav-primary__sublist-item">
+                                            <a href="/about/people/governors" class="nav-primary__sublist-link" >
+                                                Governors
+                                            </a>
+                                        </li>
+                                        <li class="nav-primary__sublist-item">
+                                            <a href="/about/people/monetary-policy-committee" class="nav-primary__sublist-link" >
+                                                Monetary Policy Committee
+                                            </a>
+                                        </li>
+                                        <li class="nav-primary__sublist-item">
+                                            <a href="/about/people/prudential-regulation-committee" class="nav-primary__sublist-link" >
+                                                Prudential Regulation Committee
+                                            </a>
+                                        </li>
+                            </ul>
+                    </li>
+				</ul>
+		</li>
+        <li class="nav-primary__list-item nav-primary__list-item--has-children" data-nav-has-children>
+
+            <a href="/news" class="nav-primary__link" >
+                <span>News and publications</span>
+            </a>
+				<button class="nav-primary__dropdown-toggle">
+					<span class="visually-hidden">Open News and publications sub menu</span>
+			    </button>
+				<ul class="nav-primary__sublist">
+					<li class="nav-primary__sublist-item nav-primary__sublist-item--back">
+						<a href="#" class="nav-primary__sublist-link" data-nav-back>
+							Back <span class="visually-hidden">to main menu</span>
+						</a>
+					</li>
+                    <li class="nav-primary__sublist-item"  >
+                        <a href="/news/events" class="nav-primary__sublist-link" >
+                                Events
+                        </a>
+                    </li>
+                    <li class="nav-primary__sublist-item"  >
+                        <a href="/news/news" class="nav-primary__sublist-link" >
+                                News and minutes
+                        </a>
+                    </li>
+                    <li class="nav-primary__sublist-item"  >
+                        <a href="/news/prudential-regulation" class="nav-primary__sublist-link" >
+                                Prudential regulation publications
+                        </a>
+                    </li>
+                    <li class="nav-primary__sublist-item"  >
+                        <a href="/news/publications" class="nav-primary__sublist-link" >
+                                Publications
+                        </a>
+                    </li>
+                    <li class="nav-primary__sublist-item"  >
+                        <a href="/news/speeches" class="nav-primary__sublist-link" >
+                                Speeches
+                        </a>
+                    </li>
+                    <li class="nav-primary__sublist-item"  >
+                        <a href="/news/statistics" class="nav-primary__sublist-link" >
+                                Statistical releases
+                        </a>
+                    </li>
+                    <li class="nav-primary__sublist-item"  >
+                        <a href="/news/upcoming" class="nav-primary__sublist-link" >
+                                Upcoming
+                        </a>
+                    </li>
+				</ul>
+		</li>
+        <li class="nav-primary__list-item" >
+
+            <a href="/museum" class="nav-primary__link" >
+                <span>Museum</span>
+            </a>
+		</li>
+        <li class="nav-primary__list-item" >
+
+            <a href="/contact" class="nav-primary__link" >
+                <span>Contact</span>
+            </a>
+		</li>
+
+
+                        
+                            <li class="nav-primary__list-item">
+                                
+
+<script>
+	var cludo_engineId = 9479; 
+	var cludo_language = 'en'; 
+	var cludo_searchUrl = 'https://www.bankofengland.co.uk/search'; 
+</script>
+<div class="search-widget " >
+    <form class="" id="cludo-search-form" >
+        <div class="search-widget-fields">
+            <label for="clu-q" class="label-hidden">Search</label>
+            <input tabindex="0" onkeyup="removeErrorMessage(event)" type="search" name="q" id="clu-q" placeholder="Search the Bank of England" data-placeholder="Search the Bank of England" data-empty="Search the Bank of England" class="search-widget-field" value="" autocomplete="off">
+            <div tabindex="0" role="button" id="clearInput" aria-label="Clear all search text"></div>
+            <input tabindex="0" type="submit" class="search-widget-btn" id="searchBtn" value="submit search">
+        </div>
+    </form>
+
+    <input tabindex="0" type="submit" class="search-widget-btn search-widget-btn--overlay" id="searchBtn-nosearch" onclick="giveErrorIfEmpty()" value="submit search">
+
+    <div role="alert" class="search-widget-error" id="search-error"><p>Nothing searched for. Please enter a search term.</p></div>
+</div>
+                            </li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </div>
+</header>
+
+		<main class="main" id="main-content" role="main">
+			
+
+ 
+
+
+<section class="page-banner">
+    <div class="page-banner__head">
+        <div class="container">
+            <div class="col9">
+                <nav aria-label="Breadcrumb">
+
+	<ol class="list-breadcrumbs">
+		<li class="list-breadcrumbs__item">
+			<a href="/" class="list-breadcrumbs__link">
+				Home
+			</a>
+		</li>
+		<li class="list-breadcrumbs__item">
+			<a href="/prudential-regulation" class="list-breadcrumbs__link">
+				Prudential regulation
+			</a>
+		</li>
+
+		<li class="list-breadcrumbs__item list-breadcrumbs__item--active" aria-current="page">
+			Policy
+		</li>
+
+	</ol>
+</nav>
+
+
+				<h1 itemprop="name">Policy</h1>
+            </div>
+        </div>
+
+    </div>
+    <div class="page-banner__body">
+        <div class="container">
+                <div class="col9 m-3_4">
+
+                        <div class="page-description" itemprop="description">       
+                            <span class="hero">Find out how the Prudential Regulation Authority (PRA) makes and communicates policy and engages with global policymaking.</span>
+                        </div>
+                </div>
+                            <div class="col3 m-1_4">
+                    
+<div class="related-links-wrap">
+	<ul class="accordion" data-accordion-mobile>
+		<li>
+			<div class="accordion-head">
+				<h2 class="exclude-navigation">
+					<span class="display-lap-desk">Related links</span>
+					<button class="accordion-button">
+						Related links
+						<span class="accordion-toggle"></span>
+					</button>
+				</h2>
+			</div>
+			<div class="accordion-content">
+				<ul class="related-links">
+					
+
+<li>
+		<a href="http://www.prarulebook.co.uk" target="_blank" title="Opens in a new window">
+			PRA Rulebook
+		</a>
+</li>
+
+<li>
+		<a href="/prudential-regulation/prudential-and-resolution-policy-index"  >
+			Prudential and Resolution Policy Index
+		</a>
+</li>
+
+<li>
+		<a href="/prudential-regulation/publication/2025/february/pra-approach-to-policy-policy-statement"  >
+			PS3/25 – The Prudential Regulation Authority’s approach to policy
+		</a>
+</li>
+				</ul>
+			</div>
+		</li>
+	</ul>
+</div>
+                </div>
+
+        </div>
+    </div>
+
+</section>
+
+
+<section class="page-section  ">
+  <div class="container">
+     <div class="col12">
+      
+
+<div class="anchor-links-wrap" data-title="On this page" data-headerType="H2" data-pageeditor="False">
+
+</div>
+ </div>
+ 
+
+    <div class="clear"></div>
+</div>
+
+</section> 
+<section class="page-section  ">
+  <div class="container">
+     <div class="col9">
+          <div class="content-block">
+        <div class="page-content" data-id="a8c70d1b0a864db59cf5980ef8a25a79">
+            <p>The way we prudentially supervise firms is based on policies that ensure judgements about risks to our objectives are made within a clear and coherent framework. </p>
+<h2>How we make prudential policy</h2>
+<p>We aim to establish and maintain published policy material that is consistent with our objectives, clear in intent, straightforward in presentation and as concise as possible. Taken as a whole, the set of published policy material is intended to set out clearly and concisely what outcomes we expect, so that firms can meet these expectations through their actions.</p>
+<p>Our <a href="/-/media/boe/files/prudential-regulation/policy-statement/2025/february/ps325app1.pdf" target="_blank">approach to policy document</a> sets out how we carry out our role in practice.</p>
+<p>Where we issue rules, we aim to do so in a manner that is clear about the intended outcome, straightforward to understand and as concise as possible. We set out these rules in the <a rel="noopener noreferrer" href="http://www.prarulebook.co.uk/" target="_blank">PRA Rulebook</a>, which contains direct requirements for firms. Our policy framework also includes non-rule material, which is contained in supervisory statements.&nbsp;</p>
+<p>We expect firms to engage directly with policy materials, including rules in the PRA Rulebook, supervisory statements and EU materials, and determine - bearing in mind the overarching principle of safety and soundness - whether they are meeting the expectations set out in them.</p>
+<ul class="list-links">
+    <li class="list-links__item">           </li>
+</ul>
+        </div>
+    </div>
+
+ </div>
+ 
+
+    <div class="clear"></div>
+</div>
+
+</section> 
+<section class="page-section  ">
+  <div class="container">
+     <div class="col9">
+          <div class="content-block">
+        <div class="page-content" data-id="28246b6e7ab34c1f9d9f53e6806759f3">
+            <h2>Types of PRA policy publication</h2>
+<p>There are several different types of PRA policy publication:</p>
+<h3>Discussion paper (DP)</h3>
+<p>Discussion papers are used to stimulate debate on issues about which we are considering making rules or setting out expectations. We use the responses we receive to DPs to help formulate our policy. Once we establish a preferred position, we will draft rules and supervisory statements and the formal consultation process, by way of a consultation paper, will commence.&nbsp;</p>
+<h3>Consultation paper (CP)</h3>
+<p>Consultation papers set out draft policy proposals. We invite firms and the public to provide responses to consultation papers before we finalise policy. We make minor and low impact changes to policy via the <a href="https://www.bankofengland.co.uk/prudential-regulation/low-impact-amendments-to-pra-rules-and-policy-material">Low Impact Amendments Process (LIAP)</a>, rather than issuing a full CP.</p>
+<p><a class="btn btn-cta btn-lg" href="https://www.bankofengland.co.uk/news?NewsTypes=65d34b0d42784c6bb1dd302c1ed63653&amp;Taxonomies=20b5fe84fcfe44ef89a95cbd39626fde&amp;InfiniteScrolling=False&amp;Direction=Upcoming">Consultation papers</a></p>
+<p>For information on how we handle responses to PRA consultations and discussion papers, please see the&nbsp;<a href="/prudential-regulation/low-impact-amendments-to-pra-rules-and-policy-material/disclaimer-liap">PRA consultations and discussion papers &ndash; your personal data page</a>.</p>
+<h3>Policy statement (PS)</h3>
+<p>Policy statements set out our feedback on consultation responses, together with our policy line.</p>
+<p><a href="https://www.bankofengland.co.uk/news?NewsTypes=65d34b0d42784c6bb1dd302c1ed63653&amp;Taxonomies=708a477279ec403d9df9930c9504e164&amp;InfiniteScrolling=False&amp;Direction=Upcoming" class="btn btn-cta btn-lg">Policy statements</a></p>
+<h3>Supervisory statement (SS)</h3>
+<p>Supervisory statements set flexible frameworks for firms, incorporating new and existing expectations. They focus on our expectations and are aimed at facilitating firm and supervisory judgement in determining whether they meet those expectations. They do not set absolute requirements &ndash; these are contained in rules.&nbsp;</p>
+<a href="https://www.bankofengland.co.uk/news/prudential-regulation?NewsTypes=65d34b0d42784c6bb1dd302c1ed63653&amp;Taxonomies=65a33f20fd5241d58bd01d5fb54bded8&amp;Direction=Latest" class="btn btn-lg">Supervisory statements</a>
+<br />
+<h3>Statement of policy (SoP)</h3>
+<p>Statements of policy are the formal document in which we detail our policy on a particular matter. Statements of policy usually set out our approach to exercising powers conferred by the Financial Services and Markets Act 2000. They do not contain our expectations, which are set out in supervisory statements.</p>
+<a href="https://www.bankofengland.co.uk/news/prudential-regulation?NewsTypes=65d34b0d42784c6bb1dd302c1ed63653&amp;Taxonomies=7d299a7477874858849990ea23f885c0&amp;Direction=Latest" class="btn btn-lg">Statements of policy</a>
+        </div>
+    </div>
+
+ </div>
+ 
+
+    <div class="clear"></div>
+</div>
+
+</section> 
+<section class="page-section  ">
+  <div class="container">
+     <div class="col9">
+          <div class="content-block">
+        <div class="page-content" data-id="e732231d0e594463a03f16451b102ee0">
+            <h2>Engaging with international policy</h2>
+<p>Banking and insurance are international industries and, to a large extent, the policy framework for supervising banks and insurance companies is agreed internationally. Therefore effective international cooperation is essential to the PRA&rsquo;s success.&nbsp;</p>
+<p>At the global level, we are actively involved in the work of the <a rel="noopener noreferrer" href="http://www.fsb.org/" target="_blank">Financial Stability Board</a>, the <a rel="noopener noreferrer" href="https://www.bis.org/bcbs/" target="_blank">Basel Committee on Banking Supervision</a>, and&nbsp;the <a rel="noopener noreferrer" href="https://www.iaisweb.org/home" target="_blank">International Association of Insurance supervisors</a>. We use these forums to advance our safety and soundness and policyholder protection objectives.&nbsp;</p>
+<p>The UK is an international financial centre, so one of our key responsibilities is supervising overseas firms operating in the UK, as well as UK groups operating abroad. We engage actively with our overseas counterparts in supervising cross-border firms. To support this, we maintain co-operation agreements, including memoranda of understanding with overseas counterparts to enable confidential information sharing on cross-border firms. We participate in &lsquo;supervisory colleges&rsquo; for firms with significant operations in the UK, and organise and chair the colleges for UK firms. &nbsp;</p>
+        </div>
+    </div>
+
+ </div>
+ 
+
+    <div class="clear"></div>
+</div>
+
+</section> 
+<section class="page-section  ">
+  <div class="container">
+     <div class="col9">
+          <div class="content-block">
+        <div class="page-content" data-id="70f0b1e0268e4bc89f87beb4f2ab1715">
+            <h2>PRA Rulebook</h2>
+<p>The PRA Rulebook sets out the rules we make that apply to the firms we authorise. Some PRA rules have changed to reflect the UK’s withdrawal from the European Union. Firms’ obligations should be interpreted in accordance with the <a href="/-/media/boe/files/prudential-regulation/policy-statement/2020/ps3020app2.pdf" target="_blank">PRA Transitional Direction</a> and <a href="/eu-withdrawal/temporary-transitional-power">related guidance</a>.</p>
+<p><a href="http://www.prarulebook.co.uk/" class="btn btn-cta btn-lg icon-link-ext" target="_blank">PRA Rulebook<span class="visually-hidden"> Opens in a new window</span><span class="visually-hidden"> Opens in a new window</span><span class="visually-hidden"> Opens in a new window</span><span class="visually-hidden"> Opens in a new window</span></a></p>
+<p>The Rulebook aims to be consistent with our objectives, clear in intent, straightforward in its presentation and as concise as possible. You can find out more in the <a href="http://www.prarulebook.co.uk/home/Help" target="_blank">Rulebook FAQs<span class="visually-hidden"> Opens in a new window</span><span class="visually-hidden"> Opens in a new window</span><span class="visually-hidden"> Opens in a new window</span><span class="visually-hidden"> Opens in a new window</span></a>.</p>
+<p>If you would like to request authorisation to reuse PRA Rulebook content, contact: Firm Enquiries Team (MG1-SE), Prudential Regulation Authority, 20 Moorgate, London, EC2R 6DA. You can also phone +44 (0)20 3461 7000 or email <a href="mailto:firmenquiries@bankofengland.co.uk">firmenquiries@bankofengland.co.uk</a>. </p>
+<h3>Rule-making instruments</h3>
+<p>Section 138G of the <a href="http://www.legislation.gov.uk/ukpga/2000/8/contents" target="_blank">Financial Services and Markets Act 2000<span class="visually-hidden"> Opens in a new window</span><span class="visually-hidden"> Opens in a new window</span><span class="visually-hidden"> Opens in a new window</span><span class="visually-hidden"> Opens in a new window</span></a> (FSMA) requires us to exercise our rule-making powers in writing, in a document FSMA calls a ‘rule-making instrument’, and to make all such instruments available. We publish these instruments online. This fulfils our obligation to publish our rules. The definitive version of the rules at any particular time is the version contained in the legal instruments. The instruments are consolidated into the rulebook online.</p>
+<p>If you experience any issues accessing the rule-making instruments in the PRA Rulebook, these are available below by year.</p>
+        </div>
+    </div>
+
+
+<ul class="accordion ">
+                    <li>
+                        <div class="accordion-head">
+                            <h3>
+                            <button class="accordion-button">
+                                PRA Rulebook instruments 2014-2026<span class="accordion-toggle"></span>
+                            </button>
+                            </h3>
+                        </div>
+                        <div class="accordion-content">
+							
+
+	                        
+
+	<div class="content-block">
+				<ul class="list-links">
+						<li class="list-links__item"><a href="/-/media/boe/files/prudential-regulation/policy/pra-rulebook-instruments-2026.pdf" target="_blank" title="Opens in new window" class="list-links__link icon-download">PRA Rulebook instruments 2026<span> (PDF 10.5MB)</span></a></li>
+						<li class="list-links__item"><a href="/-/media/boe/files/prudential-regulation/policy/pra-rulebook-instruments-2025.pdf" target="_blank" title="Opens in new window" class="list-links__link icon-download">PRA Rulebook instruments 2025<span> (PDF 7MB)</span></a></li>
+						<li class="list-links__item"><a href="/-/media/boe/files/prudential-regulation/policy/pra-rulebook-instruments-2024.pdf" target="_blank" title="Opens in new window" class="list-links__link icon-download">PRA Rulebook instruments 2024<span> (PDF 5.1MB)</span></a></li>
+						<li class="list-links__item"><a href="/-/media/boe/files/prudential-regulation/policy/pra-rulebook-instruments-2023.pdf" target="_blank" title="Opens in new window" class="list-links__link icon-download">PRA Rulebook instruments 2023<span> (PDF 2.2MB)</span></a></li>
+						<li class="list-links__item"><a href="/-/media/boe/files/prudential-regulation/policy/pra-rulebook-instruments-2022.pdf" target="_blank" title="Opens in new window" class="list-links__link icon-download">PRA Rulebook instruments 2022<span> (PDF 4.3MB)</span></a></li>
+						<li class="list-links__item"><a href="/-/media/boe/files/prudential-regulation/policy/pra-rulebook-instruments-2021.pdf" target="_blank" title="Opens in new window" class="list-links__link icon-download">PRA Rulebook instruments 2021<span> (PDF 9.2MB)</span></a></li>
+						<li class="list-links__item"><a href="/-/media/boe/files/prudential-regulation/policy/pra-rulebook-instruments-2020.pdf" target="_blank" title="Opens in new window" class="list-links__link icon-download">PRA Rulebook instruments 2020<span> (PDF 8.4MB)</span></a></li>
+						<li class="list-links__item"><a href="/-/media/boe/files/prudential-regulation/policy/instruments-2019-ytd-01.pdf" target="_blank" title="Opens in new window" class="list-links__link icon-download">PRA Rulebook instruments 2019<span> (PDF 6.9MB)</span></a></li>
+						<li class="list-links__item"><a href="/-/media/boe/files/prudential-regulation/policy/instruments-2018-ytd-01.pdf" target="_blank" title="Opens in new window" class="list-links__link icon-download">PRA Rulebook instruments 2018<span> (PDF 3.6MB)</span></a></li>
+						<li class="list-links__item"><a href="/-/media/boe/files/prudential-regulation/policy/pra-rulebook-instruments-2017.pdf" target="_blank" title="Opens in new window" class="list-links__link icon-download">PRA Rulebook instruments 2017<span> (PDF 6.3MB)</span></a></li>
+						<li class="list-links__item"><a href="/-/media/boe/files/prudential-regulation/policy/pra-rulebook-instruments-2016.pdf" target="_blank" title="Opens in new window" class="list-links__link icon-download">PRA Rulebook instruments 2016<span> (PDF 7.9MB)</span></a></li>
+						<li class="list-links__item"><a href="/-/media/boe/files/prudential-regulation/policy/pra-rulebook-instruments-2015.pdf" target="_blank" title="Opens in new window" class="list-links__link icon-download">PRA Rulebook instruments 2015<span> (PDF 9.8MB)</span></a></li>
+						<li class="list-links__item"><a href="/-/media/boe/files/prudential-regulation/policy/pra-rulebook-instruments-2014.pdf" target="_blank" title="Opens in new window" class="list-links__link icon-download">PRA Rulebook instruments 2014<span> (PDF 1.9MB)</span></a></li>
+		</ul>
+	</div>
+
+                        </div>
+                    </li>
+</ul>
+ </div>
+ 
+
+    <div class="clear"></div>
+</div>
+
+</section> 
+<section class="page-section  ">
+  <div class="container">
+     <div class="col9">
+          <div class="content-block">
+        <div class="page-content" data-id="9f8fcc8adc73423280fec09743ae0d2f">
+            <h2>Prudential and Resolution Policy Index</h2>
+<p>The Prudential and Resolution Policy Index provides links to currently applicable policies relating to:</p>
+<ul>
+    <li>the prudential regulation of financial services firms by the PRA and </li>
+    <li>the UK resolution regime. </li>
+</ul>
+<p>This is intended to help firms identify which policies are relevant for their particular areas of business. It does this by grouping policies into sectors and topic area pages.</p>
+<p><a href="/prudential-regulation/prudential-and-resolution-policy-index" class="btn btn-cta btn-lg">Prudential and Resolution Policy Index</a></p>
+        </div>
+    </div>
+
+ </div>
+ 
+
+    <div class="clear"></div>
+</div>
+
+</section> 
+<section class="page-section  ">
+  <div class="container">
+     <div class="col12">
+      <div class="container container-latest">
+	<div class="col12">
+		<h2 class="exclude-navigation">Recent prudential regulation publications</h2>
+	</div>
+	<div class="clear"></div>
+</div>
+<div class="container">
+	
+
+<div class="col3">
+    <a href="/prudential-regulation/publication/2026/july/solvency-uk-policy-statement" class="release release-regulation " >
+        <div class="release-tag-wrap"><div class="release-tag">Prudential Regulation // Policy statement</div></div>
+
+        <div class="release-content">
+			<div class="release-copy">
+					<div class="release-meta">
+						<time class="release-date" itemprop="datePublished" datetime="2026-07-29">29 July 2026</time>
+					</div>
+				<h3 itemprop="name" class="grid-view exclude-navigation">PS18/26 – Solvency UK: Post-implementation...</h3>
+				<h3 itemprop="name" class="list exclude-navigation">PS18/26 – Solvency UK: Post-implementation reporting and disclosure amendments and Own Funds permissions...</h3>
+			</div>
+        </div>
+    </a>
+</div>
+
+<div class="col3">
+    <a href="/prudential-regulation/publication/2026/july/low-impact-amendments-consultation-july-2026" class="release release-regulation " >
+        <div class="release-tag-wrap"><div class="release-tag">Prudential Regulation // Policy statement</div></div>
+
+        <div class="release-content">
+			<div class="release-copy">
+					<div class="release-meta">
+						<time class="release-date" itemprop="datePublished" datetime="2026-07-29">29 July 2026</time>
+					</div>
+				<h3 itemprop="name" class="grid-view exclude-navigation">LIAC02/26 – Low Impact Amendments Consultation...</h3>
+				<h3 itemprop="name" class="list exclude-navigation">LIAC02/26 – Low Impact Amendments Consultation July 2026</h3>
+			</div>
+        </div>
+    </a>
+</div>
+
+<div class="col3">
+    <a href="/prudential-regulation/publication/2026/july/insurance-friendly-societies-amalgamations-and-transfers-consultation-paper" class="release release-regulation " >
+        <div class="release-tag-wrap"><div class="release-tag">Prudential Regulation // Consultation paper</div></div>
+
+        <div class="release-content">
+			<div class="release-copy">
+					<div class="release-meta">
+						<time class="release-date" itemprop="datePublished" datetime="2026-07-22">22 July 2026</time>
+					</div>
+				<h3 itemprop="name" class="grid-view exclude-navigation">CP12/26 – Insurance friendly societies, amalgamations...</h3>
+				<h3 itemprop="name" class="list exclude-navigation">CP12/26 – Insurance friendly societies, amalgamations and transfers</h3>
+			</div>
+        </div>
+    </a>
+</div>
+
+<div class="col3">
+    <a href="/prudential-regulation/publication/2026/july/ring-fenced-bodies-consultation-paper" class="release release-regulation " >
+        <div class="release-tag-wrap"><div class="release-tag">Prudential Regulation // Consultation paper</div></div>
+
+        <div class="release-content">
+			<div class="release-copy">
+					<div class="release-meta">
+						<time class="release-date" itemprop="datePublished" datetime="2026-07-14">14 July 2026</time>
+					</div>
+				<h3 itemprop="name" class="grid-view exclude-navigation">CP10/26 – Ring-fenced bodies: Changes to...</h3>
+				<h3 itemprop="name" class="list exclude-navigation">CP10/26 – Ring-fenced bodies: Changes to the continuity of provision of services rules</h3>
+			</div>
+        </div>
+    </a>
+</div>
+
+<div class="clear"></div>
+
+</div>
+<div class="container">
+	<div class="col12">
+		<a class="release-view-more" href="/news?NewsTypes=65d34b0d42784c6bb1dd302c1ed63653&amp;Taxonomies=65a33f20fd5241d58bd01d5fb54bded8&amp;Taxonomies=20b5fe84fcfe44ef89a95cbd39626fde&amp;Taxonomies=708a477279ec403d9df9930c9504e164&amp;Taxonomies=a45c67c94383452895893a040c37e2a9&amp;Taxonomies=7d299a7477874858849990ea23f885c0&amp;SearchTerm=&amp;InfiniteScrolling=False&amp;Direction=Latest">View more <span class="visually-hidden">Recent prudential regulation publications</span></a>
+	</div>
+	<div class="clear"></div>
+</div>
+
+ </div>
+ 
+
+    <div class="clear"></div>
+</div>
+
+</section> 				<section class="page-section page-section--last">
+					<div class="container">
+						<div class="col12">
+							<p class="txtr">
+								<a class="scroll-to-top" href="#">Back to top</a>
+							</p>
+						</div>
+					</div>
+				</section>
+
+
+<section class="page-section-survey">
+    <div class="container">
+        <div class="col12">          
+			<div class="page-survey">
+				<div class="page-last-updated">This page was last updated 19 May 2026</div>
+								<div class="page-survey-survey">
+					
+						<iframe src="/forms/page-survey-page?path=%2fsitecore%2fcontent%2fBoE%2fHome%2fprudential-regulation%2fpolicy&id=pageSurvey4cdd1a6c3e144fcda84e8bee250e0bc8" id="pageSurvey4cdd1a6c3e144fcda84e8bee250e0bc8" frameborder="0" title="Page Survey" class="page-survey-iframe"></iframe>
+				</div>
+			</div>
+        </div>
+    </div>
+</section>
+		</main>
+		<div class="clear"></div>
+		<footer class="global-footer" itemscope="" itemtype="http://schema.org/WPFooter">
+			<div class="container">
+	<div class="col3">
+		<div class="footer-social-bank">
+			<ul class="accordion" data-accordion-mobile>
+				<li>
+					<div class="accordion-head">
+						<h3 class="exclude-navigation">
+							<span class="display-lap-desk">Follow us</span>
+							<button class="accordion-button">
+								Follow us
+								<span class="accordion-toggle"></span>
+							</button>
+						</h3>
+					</div>
+					<div class="accordion-content">
+						
+
+<div class="footer-social-bank">
+    <ul class="social-links">
+            <li class="social-item">
+                    <a class="social-link "
+                        href="https://www.linkedin.com/company/bank-of-england/"
+                        target="_blank"
+						title="Opens in a new window">
+                            <span class="icon-linkedin"></span>
+                        <span class="si-text">Connect with us on LinkedIn</span>
+                    </a>
+			</li>
+            <li class="social-item">
+                    <a class="social-link "
+                        href="https://x.com/bankofengland"
+                        target="_blank"
+						title="Opens in a new window">
+                            <span class="icon-twitter-bird"></span>
+                        <span class="si-text">Follow us on Twitter</span>
+                    </a>
+			</li>
+            <li class="social-item">
+                    <a class="social-link "
+                        href="https://www.facebook.com/bankofengland.co.uk"
+                        target="_blank"
+						title="Opens in a new window">
+                            <span class="icon-facebook"></span>
+                        <span class="si-text">Add us on Facebook</span>
+                    </a>
+			</li>
+            <li class="social-item">
+                    <a class="social-link "
+                        href="https://www.instagram.com/bankofengland"
+                        target="_blank"
+						>
+                            <span class="icon-instagram"></span>
+                        <span class="si-text">Follow us on Instagram</span>
+                    </a>
+			</li>
+            <li class="social-item">
+                    <a class="social-link "
+                        href="https://www.threads.com/@bankofengland"
+                        target="_blank"
+						>
+                            <span class="icon-treads"></span>
+                        <span class="si-text">Follow us on Threads</span>
+                    </a>
+			</li>
+            <li class="social-item">
+                    <a class="social-link "
+                        href="https://tiktok.com/@bankofengland"
+                        target="_blank"
+						>
+                            <span class="icon-tiktok"></span>
+                        <span class="si-text">Follow us on TikTok</span>
+                    </a>
+			</li>
+            <li class="social-item">
+                    <a class="social-link "
+                        href="https://www.youtube.com/user/bankofenglanduk"
+                        target="_blank"
+						title="Opens in a new window">
+                            <span class="icon-youtube-play"></span>
+                        <span class="si-text">Watch us on Youtube</span>
+                    </a>
+			</li>
+            <li class="social-item">
+                    <a class="social-link "
+                        href="https://www.flickr.com/photos/bankofengland/albums"
+                        target="_blank"
+						title="Opens in a new window">
+                            <span class="icon-flickr"></span>
+                        <span class="si-text">Find us on Flickr</span>
+                    </a>
+			</li>
+    </ul>
+</div>
+						
+
+<div class="footer-social-bank">
+		<h3 class="exclude-navigation">Museum</h3>
+    <ul class="social-links">
+            <li class="social-item">
+                    <a class="social-link "
+                        href="https://www.facebook.com/boemuseum"
+                        target="_blank"
+						title="Opens in a new window">
+                            <span class="icon-facebook"></span>
+                        <span class="si-text">Like the Bank of England museum on Facebook</span>
+                    </a>
+			</li>
+            <li class="social-item">
+                    <a class="social-link "
+                        href="https://instagram.com/boemuseum"
+                        target="_blank"
+						title="Opens in a new window">
+                            <span class="icon-instagram"></span>
+                        <span class="si-text">Follow the Bank of England museum on Instagram</span>
+                    </a>
+			</li>
+            <li class="social-item">
+                    <a class="social-link "
+                        href="https://www.threads.com/@boemuseum"
+                        target="_blank"
+						>
+                            <span class="icon-treads"></span>
+                        <span class="si-text">Follow the Bank of England museum on Threads</span>
+                    </a>
+			</li>
+            <li class="social-item">
+                    <a class="social-link "
+                        href="https://www.tiktok.com/@boemuseum"
+                        target="_blank"
+						>
+                            <span class="icon-tiktok"></span>
+                        <span class="si-text">Follow the Bank of England museum on TikTok</span>
+                    </a>
+			</li>
+    </ul>
+</div>
+					</div>
+				</li>
+			</ul>
+		</div>
+
+	</div>
+	<div class="col3">
+		
+<div class="footer-topics">
+    <ul class="accordion" data-accordion-mobile>
+        <li>
+            <div class="accordion-head">
+                <h3 class="exclude-navigation">
+                    <span class="display-lap-desk">Useful links</span>
+                    <button class="accordion-button">Useful links<span class="accordion-toggle"></span></button>
+                </h3>
+            </div>
+			<div class="accordion-content">
+				<ul class="footer-links">
+						<li class="footer-item">
+                                <a href="/about" class="footer-link" >
+                                    About us
+                                </a>
+						</li>
+						<li class="footer-item">
+                                <a href="/archive" class="footer-link" >
+                                    Archive
+                                </a>
+						</li>
+						<li class="footer-item">
+                                <a href="/careers" class="footer-link" >
+                                    Careers
+                                </a>
+						</li>
+						<li class="footer-item">
+                                <a href="/contact" class="footer-link" >
+                                    Contact us
+                                </a>
+						</li>
+						<li class="footer-item">
+                                <a href="/explainers" class="footer-link" >
+                                    Explainers
+                                </a>
+						</li>
+						<li class="footer-item">
+                                <a href="/faq" class="footer-link" >
+                                    FAQs
+                                </a>
+						</li>
+						<li class="footer-item">
+                                <a href="/freedom-of-information" class="footer-link" >
+                                    Freedom of Information
+                                </a>
+						</li>
+						<li class="footer-item">
+                                <a href="/glossary" class="footer-link" >
+                                    Glossary
+                                </a>
+						</li>
+						<li class="footer-item">
+                                <a href="/museum" class="footer-link" >
+                                    Museum
+                                </a>
+						</li>
+						<li class="footer-item">
+                                <a href="/subscribe-to-emails" class="footer-link" >
+                                    Subscribe to emails
+                                </a>
+						</li>
+				</ul>
+			</div>
+		</li>
+	</ul>
+</div>
+	</div>
+	<div class="col3">
+		<div class="footer-contact">
+			
+<h3 class="exclude-navigation">Bank of England</h3>
+<ul class="footer-contact-info">
+    <li class="footer-address">Threadneedle Street, London, EC2R 8AH</li>
+    <li class="footer-tel">Switchboard: <a class="footer-tel-link" href="tel://00442034614444" target="_blank" title="Switchboard">+44(0)20 3461 4444</a></li>
+    <li class="footer-tel">Enquiries: <a class="footer-tel-link" href="tel://00442034614878" target="_blank" title="Enquiries">+44(0)20 3461 4878</a></li>
+</ul>
+			
+<h3 class="exclude-navigation">Bank of England Museum</h3>
+<ul class="footer-contact-info">
+    <li class="footer-address">Bartholomew Lane, London, EC2R 8AH</li>
+</ul>
+		</div>
+	</div>
+	<div class="col3">
+		
+	<div class="container-seal">
+		<a class="icon-seal" href="/"  ><img src="/-/media/boe/images/logo/footer-logo.svg?h=50&amp;iar=0&amp;mh=50&amp;mw=240&amp;w=50&amp;hash=21937D63AC8E857977043CB73AE10F74" alt="Bank of England home" width="50" height="50" /></a>
+	</div>
+
+	</div>
+</div>
+
+<div class="footer-copyright">
+	<div class="container">
+		<div class="col12">
+			
+<ul class="list-inline">
+	    <li class="list-inline__item"> 
+			    <a href="/accessibility" class="list-inline__link" >
+Accessibility statement			    </a>
+	    </li>
+	    <li class="list-inline__item"> 
+			    <a href="/legal/privacy-and-cookie-policy" class="list-inline__link" >
+Cookies			    </a>
+	    </li>
+	    <li class="list-inline__item"> 
+			    <a href="/about/gymraeg" class="list-inline__link" >
+						<span lang="cy">
+							Cymraeg
+						</span>
+			    </a>
+	    </li>
+	    <li class="list-inline__item"> 
+			    <a href="/legal" class="list-inline__link" >
+Legal			    </a>
+	    </li>
+	    <li class="list-inline__item"> 
+			    <a href="/legal/privacy" class="list-inline__link" >
+Privacy			    </a>
+	    </li>
+	    <li class="list-inline__item"> 
+			    <a href="/sitemap" class="list-inline__link" >
+Sitemap			    </a>
+	    </li>
+</ul>
+
+
+			
+<p class="text-copyright">&#169;2026 Bank of England&#160;</p>
+		</div>
+	</div>
+</div>
+		</footer>
+		<script src="/scripts/boe.vendor.min.js?ver=98f91" type="text/javascript"></script>
+<script src="/scripts/boe.min.js?ver=98f91" type="text/javascript"></script>
+<script src="/-/media/css/search-bundle-script.js?ver=BB56DD&mode=npe" type="text/javascript"></script>
+<script src="/-/media/css/search-new-js.js?ver=6AFCD3&mode=npe" type="text/javascript"></script>
+
+		
+		
+	</div>
+</body>
+</html>

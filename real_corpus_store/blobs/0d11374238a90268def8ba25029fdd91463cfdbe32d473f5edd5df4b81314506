@@ -1,0 +1,513 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<meta http-equiv="X-UA-Compatible" content="IE=10" />
+<head>
+
+<meta http-equiv=content-type content="text/html; charset=iso-8859-1">
+<meta name="DC.title" content="Bureau of Economic Analysis" />
+<meta name="DC.creator" content="US Department of Commerce, BEA, Bureau of Economic Analysis" />
+<meta name="DC.language" scheme="DCTERMS.RFC4646" content="EN-US" />
+
+<link rel="P3Pv1" href="/w3c/p3p.xml">
+<link rel="alternate" type="application/rss+xml" title="BEA - Current Release (RSS)" href="/rss/rss.xml">
+
+<meta name="apple-mobile-web-app-title" content="BEA">
+<meta name="application-name" content="BEA">
+<meta name="msapplication-TileColor" content="#da532c">
+<meta name="msapplication-TileImage" content="/mstile-144x144.png?v=9BBR3Ay64f">
+<meta name="theme-color" content="#ffffff">
+
+<link rel="apple-touch-icon" sizes="57x57" href="/apple-touch-icon-57x57.png?v=9BBR3Ay64f">
+<link rel="apple-touch-icon" sizes="60x60" href="/apple-touch-icon-60x60.png?v=9BBR3Ay64f">
+<link rel="apple-touch-icon" sizes="72x72" href="/apple-touch-icon-72x72.png?v=9BBR3Ay64f">
+<link rel="apple-touch-icon" sizes="76x76" href="/apple-touch-icon-76x76.png?v=9BBR3Ay64f">
+<link rel="apple-touch-icon" sizes="114x114" href="/apple-touch-icon-114x114.png?v=9BBR3Ay64f">
+<link rel="apple-touch-icon" sizes="120x120" href="/apple-touch-icon-120x120.png?v=9BBR3Ay64f">
+<link rel="apple-touch-icon" sizes="144x144" href="/apple-touch-icon-144x144.png?v=9BBR3Ay64f">
+<link rel="apple-touch-icon" sizes="152x152" href="/apple-touch-icon-152x152.png?v=9BBR3Ay64f">
+<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon-180x180.png?v=9BBR3Ay64f">
+<link rel="icon" type="image/png" href="/favicon-32x32.png?v=9BBR3Ay64f" sizes="32x32">
+<link rel="icon" type="image/png" href="/favicon-194x194.png?v=9BBR3Ay64f" sizes="194x194">
+<link rel="icon" type="image/png" href="/favicon-96x96.png?v=9BBR3Ay64f" sizes="96x96">
+<link rel="icon" type="image/png" href="/android-chrome-192x192.png?v=9BBR3Ay64f" sizes="192x192">
+<link rel="icon" type="image/png" href="/favicon-16x16.png?v=9BBR3Ay64f" sizes="16x16">
+<link rel="manifest" href="/manifest.json?v=9BBR3Ay64f">
+<link rel="mask-icon" href="/safari-pinned-tab.svg?v=9BBR3Ay64f" color="#5bbad5">
+<link rel="shortcut icon" href="/favicon.ico?v=9BBR3Ay64f">
+
+<!-- CSS -->
+<link rel="stylesheet" type="text/css" href="/_css/reset_global.css" >
+<link rel="stylesheet" type="text/css" href="/_framework/jquery-ui-1.11.4/jquery-ui.css">
+<link rel="stylesheet" type="text/css" href="/_framework/bootstrap-3.3.6-dist/css/bootstrap.css">
+
+<link rel="stylesheet" type="text/css" href="/_css/jquery-override.css">
+<link rel="stylesheet" type="text/css" href="/_css/bea_refresh-bootstrap-fix.css">
+<link rel="stylesheet" type="text/css" href="/_css/bea_refresh.css">
+
+<link rel="stylesheet" type="text/css" href="/_scripts/fancybox2/jquery.fancybox.css">
+
+<!--Javascript -->
+<script src="/_framework/jquery-1.12.3.min.js"></script>
+<script src="/_framework/jquery-ui-1.11.4/jquery-ui.min.js"></script>
+<script src="/_framework/bootstrap-3.3.6-dist/js/bootstrap.min.js"></script>
+
+<!--Plugins -->
+<script type="text/javascript" src="/_scripts/fancybox2/jquery.fancybox.pack.js"></script>
+<script type="text/javascript" src="/_scripts/fancybox2/jquery.fancybox-media.js"></script>
+
+
+<!--Analystics -->
+<script type="text/javascript" src="/_scripts/federated-analytics.js?agency=DOC&subagency=BEA" id="_fed_an_ua_tag"></script>
+<script type="text/javascript">
+// DO NOT MODIFY BELOW THIS LINE *****************************************
+	;(function (g) {
+		var d = document, am = d.createElement('script'), h = d.head || d.getElementsByTagName("head")[0], fsr = 'fsReady',
+			aex = {
+				"src": "//gateway.foresee.com/sites/bea-gov/production/gateway.min.js",
+				"type": "text/javascript",
+				"async": "true",
+				"data-vendor": "fs",
+				"data-role": "gateway"
+			};
+		for (var attr in aex){am.setAttribute(attr, aex[attr]);}h.appendChild(am);g[fsr] = function () {var aT = '__' + fsr + '_stk__';g[aT] = g[aT] || [];g[aT].push(arguments);};
+	})(window);
+//	 DO NOT MODIFY ABOVE THIS LINE **************************************	
+</script>
+<script type="text/javascript">
+	$(document).ready(function() {
+		$(".fancybox").fancybox({
+			helpers : {
+				media: true
+			}
+		});
+	});
+	function MM_jumpMenu(targ,selObj,restore){ //v3.0
+	  eval(targ+".location='"+selObj.options[selObj.selectedIndex].value+"'");
+	  if (restore) selObj.selectedIndex=0;
+	}
+	
+	function MM_findObj(n, d) { //v4.0
+	  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+		d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+	  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+	  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+	  if(!x && document.getElementById) x=document.getElementById(n); return x;
+	}
+	
+	function MM_jumpMenuGo(selName,targ,restore){ //v3.0
+	  var selObj = MM_findObj(selName); if (selObj) MM_jumpMenu(targ,selObj,restore);
+	}
+</script>
+
+
+<!-- 1: Document Title -->
+<title>News Release: Summary Estimates for Multinational Companies</title>
+<!-- 1: Document Title -->
+<meta name="description" content="Data on gross domestic product (GDP), personal income/outlays, corporate profits, fixed assets, government receipts/expenditures. Plus interactive national income and product account (NIPA) tables, previously published and supplemental estimates." />
+<!-- 1.a: META KEYWORDS -->
+<meta name="keywords" content="capital, consumption, estimates, expenditures, fixed assets, corporate, profit, flow of funds, GDP, government, expenditures, receipts, gross domestic product, gross investment, interactive, national, income, product, account, NIPA, outlays, personal, savings, profit, inventory, real, table" />
+<meta name="DC.LastModified" content="2013-04-18" />
+<!-- 1.a: META KEYWORDS -->
+<style type="text/css">
+<!--
+
+#content p {
+	xwidth: 800px;
+}
+
+#content ul {
+	xwidth: 800px;
+}
+
+#content .data_line {
+	xwidth: 800px;
+	margin-left: 25px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+#content .data_line .data_synopsis {
+	xwidth: 425px;
+	text-align: justify;
+	margin-top: 50px;
+}
+
+.contact_name {
+	margin-left: 8px;
+	padding-top: 3px;
+}
+
+.contact_email {
+	margin-left: 8px;
+}
+
+#content .data_line .clear {
+	clear: both;
+}
+
+#content .data_line .data_image {
+	float: right;
+}
+
+#content .text_box {
+	xwidth: 750px;
+	border: 1px solid #000000;
+	margin-right: 20px;
+	margin-left: 20px;
+	padding: 10px 17px 8px 0px;
+}
+
+#content .text_box p {
+	width: auto;
+}
+
+.contact_telephone {
+	margin-left: 8px;
+}
+
+#content .release .title {
+	font-size: 120%;
+	font-weight: bold;
+	color: #000000;
+	text-align: center;
+	margin-top: 58px;
+}
+
+#content .release p {
+	margin-top: 20px;
+	margin-right: 0px;
+	margin-bottom: 20px;
+	margin-left: 0px;
+	text-align: justify;
+	line-height: 120%;
+	padding: 0px;
+}
+
+#content .release {
+	margin-top: 20px;
+	margin-right: 15px;
+	margin-left: 15px;
+}
+
+#content .release .split {
+	text-align: center;
+}
+
+#content .release .sub_title {
+	font-size: 100%;
+	font-weight: bold;
+	color: #000000;
+	text-align: center;
+	margin-top: 0px;
+}
+
+#content .release .chart {
+	text-align: center;
+	border-top-width: 1px;
+	border-top-style: solid;
+	border-top-color: #C59300;
+	padding-top: 10px;
+}
+-->
+</style>
+</head>
+<!-- 2: Document Class -->
+<body class="international">
+<!-- 2: Document Class -->
+<!-- DO NOT MODIFY BELOW -->
+<div id="header">
+	<form class="search-form" id="search-form" action="//search.bea.gov/search" method="get" accept-charset="UTF-8">
+		<div class="search-wrapper">
+			<div class="search-textBox">
+				<input name="query" class="search-input-text" id="search-textfield" type="text" autocomplete="off">
+			</div>
+			<div class="search-submitButton">
+				<input name="commit" class="search-input-button" id="search-submit" type="submit" value="Go">
+			</div>
+		</div>
+		<input name="utf8" type="hidden" value="&#x2713">
+		<input name="affiliate" id="affiliate" type="hidden" value="u.s.bureauofeconomicanalysis">
+	
+	
+	
+	</form>
+	<a class="bea-link" href="/index.htm"></a> <a class="doc-link" href="http://www.commerce.gov"></a>
+</div>
+<!-- DO NOT MODIFY ABOVE -->
+<!-- 3: Header Tabs Sub-item (Gold Bar)-->
+<cfinclude template="/_includes/header_tabs_main.ssi">
+	<div id="topTabs">
+		<ul>
+			<li id="home"><a href="/index.htm"><span>Home</span></a></li>
+			<li id="national"><a href="/national/index.htm"><span>National</span></a></li>
+			<li id="international"><a href="/international/index.htm"><span>International</span></a></li>
+			<li id="regional"><a href="/regional/index.htm"><span>Regional</span></a></li>
+			<li id="industry"><a href="/industry/index.htm"><span>Industry</span></a></li>
+			<li id="interactive"><a href="/itable/"><span>Interactive Data</span></a></li>
+			<li id="about" class="float-tab"><a href="/about/index.htm"><span>About BEA</span></a></li>
+			<li id="faqs" class="float-tab"><a href="/faq/index.cfm"><span>FAQs</span></a></li>
+			<li id="contact" class="float-tab"><a href="/contacts/search.htm"><span>Contact Us</span></a></li>
+		</ul>
+	</div>
+
+
+<nav  id="bottomTabs">
+
+<ul>
+	<li id="aboutIndustry"><a href="/about/overview_international.htm">About International</a></li>
+	<li id="method"><a href="/methodologies/index.htm#international_meth">Methodologies</a></li>
+	<li id="articles"><a href="/international/ai1.htm">Articles</a></li>
+	<li id="schedule"><a href="/newsreleases/news_release_sort_international.htm">Release Schedule</a></li>
+	<li id="contacts"><a href="/contacts/email.htm">Staff Contacts</a></li>
+	<li id="subscription"><a href="/_subscribe/">Email Subscriptions</a></li>
+</ul>
+</nav>
+<div class="clear"></div>
+
+<!-- 3: Header Tabs Sub-item (Gold Bar)-->
+<table width="100%" border="0" cellpadding="0" cellspacing="0">
+	<tr>
+		<td bgcolor="#FFFFFF"><!--<div class="crumbs">
+<a href="/index.htm">Home</a> &gt; <a href="/newsreleases/rels.htm">News</a> &gt; <a href="/newsreleases/release_archive.htm">News Release Archive</a> &gt; <a href="/newsreleases/relsarchive2011.htm">2011</a> &gt; News Release: Summary Estimates for Multinational Companies, 2009</div>-->
+			<div id="content">
+				<!-- PASTE MAIN PAGE CONTENT BELOW -->
+				<!-- PASTE MAIN PAGE CONTENT BELOW -->
+				<!-- PASTE MAIN PAGE CONTENT BELOW -->
+				<!-- PASTE MAIN PAGE CONTENT BELOW -->
+				<!-- PASTE MAIN PAGE CONTENT BELOW -->
+				<h1>News Release</h1>
+				<div class="release">
+					<div id="release_header_wrap">
+						<div class="release_status">FOR WIRE TRANSMISSION: 8:30 A.M. EDT, THURSDAY, APRIL 18, 2013</div>
+						<div align="left" class="release_id">BEA 13-16</div>
+					</div>
+					<br />
+					<div class="release_title" style="font-size:140%;">Summary Estimates for Multinational Companies:<br />
+                                                Employment, Sales, and Capital Expenditures for 2011</div>
+					<p>The following are 2011 advance and 2010 revised summary estimates of the employment, capital expenditures, and sales activity of U.S. multinational companies (comprising both their U.S. and foreign operations) and the corresponding activity of foreign multinational companies in the United States.  Preliminary 2011 and revised 2010 statistics based on more complete source data and including country and industry detail will be released later this year.<sup>1</sup></p>
+                    
+					<h2>U.S. multinational companies: U.S. and foreign operations</h2>
+					<p style="margin-left:25px; margin-right:25px;">Worldwide employment by U.S. multinational companies (MNCs) increased 1.5 percent in 2011 to 34.5 million workers, with the increase primarily reflecting increases abroad.  In the United States, employment by U.S. parent companies increased 0.1 percent to 22.9 million workers, compared with a 1.8 percent increase in total private-industry employment in the United States.<sup>2</sup>   The total employment by U.S. parents accounted for roughly one-fifth of total U.S. employment in private industries.  Abroad, employment by majority-owned foreign affiliates of U.S. MNCs increased 4.4 percent to 11.7 million workers.	</p>
+					<p style="margin-left:25px; margin-right:25px;">Worldwide capital expenditures by U.S. MNCs increased 16.7 percent in 2011 to $706 billion.  Capital expenditures in the United States by U.S. parent companies increased 17.1 percent to $514 billion.  Capital expenditures abroad by their majority-owned foreign affiliates increased 15.4 percent to $192 billion.  As shown in table 1, capital expenditures have varied widely in recent years.</p>
+					<p style="margin-left:25px; margin-right:25px;"> Sales by U.S. parent companies increased 9.4 percent in 2011 to $10,696 billion.  Sales by their majority-owned foreign affiliates increased 15.8 percent to $5,985 billion.<sup>3</sup>					  </p>
+					<p style="margin-left:25px; margin-right:25px;">Because the growth in employment of U.S. parent companies was not as strong as the growth in employment of majority-owned foreign affiliates, the U.S. parent share of worldwide employment of U.S. MNCs fell nearly 1 percentage point in 2011 to 66 percent (table 2 and chart 1).  The U.S.-parent share of worldwide capital expenditures of U.S. MNCs in 2011 was 73 percent, a share that was little changed from 2010.					  </p>
+					<p style="margin-left:25px; margin-right:25px;">Changes in the share of MNC activity at the U.S. parent do not necessarily indicate production shifting between U.S. parents and their foreign affiliates.  Other factors that may be associated with changes in the share include different rates of economic growth in the United States and in specific markets where investment is occurring abroad, or the creation of new market opportunities abroad that cannot be served by exports from the United States.  These issues are discussed in annual articles on U.S. MNC operations in the <em>Survey of Current Business.</em><sup>4</sup> </p>
+                    
+                    <p style="margin-left:25px; margin-right:25px;">
+<sup>1</sup> <a href="/iTable/index_MNC.cfm">2010 preliminary statistics</a> with country and industry detail are available on BEA’s Web site.
+  <br><sup>2</sup> Statistics for total U.S private-industry employment are from BEA’s national income and product accounts, table 6.4D: Full-Time and Part-Time Employees by Industry (see <a href="/iTable/index_nipa.cfm">/iTable/index_nipa.cfm</a>).<br> <sup>3</sup> An MNC-wide total for sales is not provided because it would contain duplication resulting from transactions among and within MNCs.
+<br><sup>4</sup> See “U.S. Multinational Companies: Operations of U.S. Parents and Their Foreign Affiliates in 2010” in the November 2012 issue of the <em>Survey</em>. Additional discussion of data and analytical considerations may be found in “A Note on Patterns of Production and Employment by U.S. Multinational Companies,” in the March 2004 issue of the <em>Survey</em>. </p>
+		
+					<h2>Foreign multinational companies: U.S. operations</h2>
+					<p style="margin-left:25px; margin-right:25px;">Employment in the United States by majority-owned U.S. affiliates of foreign MNCs rose 3.3 percent, to 5.6 million workers, in 2011, a rate of increase higher than the 1.8 percent increase in total U.S. private-industry employment in 2011.  U.S. affiliates accounted for 5.0 percent of U.S. private-industry employment in 2011, one-tenth of a percentage point higher than in 2010.</p>
+					<p style="margin-left:25px; margin-right:25px;">Capital expenditures by U.S. affiliates rose 12.3  percent in 2011 to $173 billion. Sales by U.S. affiliates rose 11.9 percent in  2011 to $3,491 billion. </p>
+					<p style="margin-left:25px; margin-right:25px;">Changes in the measures of activity of  majority-owned U.S. affiliates of foreign companies may reflect a variety of  factors, including changes in the operations of existing affiliates as well as  entries to and exits from the universe of majority-owned U.S. affiliates.&nbsp; For example, the increase in employment was  due in part to acquisitions made by existing U.S. affiliates and the entry of  new majority-owned affiliates.</p>
+		
+				
+					<h2>Revisions </h2>
+					<p style="margin-left:25px; margin-right:25px;">The MNC statistics for 2010 presented in this release supersede preliminary statistics that were released in the second half of 2012.  For U.S. parent companies, the levels shown in table 1 for 2010 represent upward revisions of 0.1 percent for employment, 0.2 percent for capital expenditures, and less than 0.1 percent for sales.  For majority-owned foreign affiliates, the levels shown represent an upward revision of 0.9 percent for employment, a downward revision of less than 0.1 percent for capital expenditures, and an upward revision of less than 0.1 percent for sales.  For majority-owned U.S. affiliates of foreign MNCs, the levels shown in table 3 for 2010 represent upward revisions of 3.1 percent for employment, 3.4 percent for capital expenditures, and 1.1 percent for sales.</p>
+					<p class="split">*  *  *</p>
+					<div align="center"><strong>TECHNICAL NOTE </strong></div>
+					<p style="margin-left:25px; margin-right:25px;">Each year, the Bureau of Economic Analysis releases advance summary statistics of employment, sales, and capital expenditures by U.S. parent companies, by their foreign affiliates, and by U.S. affiliates of foreign MNCs.  Statistics based on more complete source data, including country and industry detail, will be released later this year. </p>
+				  <p style="margin-left:25px; margin-right:25px;">The statistics presented in this release were  constructed from data collected by BEA in two distinct surveys of MNC  operations: (1) a survey of U.S. MNCs that covers the operations of both U.S.  parent companies and their foreign affiliates, and (2) a survey of the  operations of U.S. affiliates of foreign MNCs.</p>
+					<p style="margin-left:25px; margin-right:25px;"> A U.S. parent company may itself be foreign-owned, so there is some overlap between the data on U.S. parent companies and on U.S. affiliates; thus, to avoid duplication, data on U.S. parents and U.S. affiliates should not be added together to produce U.S. totals.
+				  </p>
+					<p style="margin-left:25px; margin-right:25px;">The statistics presented here pertain to U.S. parent companies and their majority-owned foreign affiliates, and to majority-owned U.S. affiliates of foreign MNCs.  Statistics on all U.S. and foreign affiliates, including affiliates that are not majority owned, will be released by BEA later this year.  In these series, “affiliates” are defined as businesses in which an investor of another country holds at least 10-percent voting ownership.  For 2010, foreign affiliates that were not majority-owned employed 2.2 million workers, and U.S. affiliates that were not majority-owned employed 0.5 million workers.
+				  </p>
+					<p style="margin-left:25px; margin-right:25px;">For both U.S. MNCs and U.S. affiliates of foreign MNCs, employment covers the total number of full-time and part-time employees on the payroll at the end of the year.  Sales cover gross sales minus returns, allowances and discounts, or gross operating revenues.  Capital expenditures cover total expenditures on property, plant, and equipment (that is, expenditures for land and depreciable structures and equipment); they are gross of any sales, retirements, or transfers of previously owned tangible assets.  Capital expenditures include spending for equipment that is leased or rented to others, which in some industries—such as automotive equipment rental and leasing—can be very large.  The value of sales, retirements, or transfers in these industries can be very large.
+				  </p>
+					<p style="margin-left:25px; margin-right:25px;">In addition to presenting data collected directly in its surveys of MNC operations, BEA uses data collected on costs incurred and profits earned in production to estimate the value added of U.S. parent companies, of majority-owned foreign affiliates, and of majority-owned U.S. affiliates of foreign companies.  Value added, which is not discussed in this release, is an important measure of MNC activity that indicates the contribution of parents or affiliates to gross domestic product in the United States or in foreign host countries.  The latest statistics for the value added are for 2010 and are available on BEA’s website at <a href="/iTable/index_MNC.cfm">/iTable/index_MNC.cfm</a>. </p>
+					<p class="split">*  *  *</p>
+					<p class="chart"><img src="/newsreleases/international/mnc/2013/_images/mnc2011.png" alt="Chart 1. U.S.-Parent Share of Employment by U.S. Multinational Companies for Selected Years" width="514" /></p>
+				</div>
+			</div>
+			<!-- end of content div -->
+			<!-- 10: Last Updated -->
+			<!-- 10: Last Updated --></td>
+		<td id="sidebar" width="166" align="left" background="/_images/alt/background_right.jpg"><!-- START of sidebarRight div -->
+			<!--
+			Uncomment the below to use the right side bar. Otherweise leave it (this will 
+				keep the gold section in place with no content. 
+		-->
+			<div id="sidebarRight">
+				<div class="title_right">
+					<label for="search_textfield">Search:</label>
+				</div>
+				<div id="search_fieldset">
+							<form accept-charset="UTF-8" action="//search.bea.gov/search" method="get" class="search_form" id="search_form" style="float:right;">
+			<div class="search_wrapper" >
+				<div class="search_textBox">
+					<input autocomplete="off" class="search_input_text" id="search_textfield" name="query" type="text" />
+				</div>
+				<div class="search_submitButton">
+					<input name="commit" type="submit" value="Go"  class="search_input_buttom" id="search_submit" />
+				</div>
+			</div>
+	<div class="searchLinks"><a href="//search.bea.gov/search/advanced?affiliate=u.s.bureauofeconomicanalysis&enable_highlighting=true&m=false&page=1&per_page=10">Advanced</a> | <a href="/faq">FAQ</a> | <a href="/azindex/index.htm">A-Z Index</a></div>
+			<input name="utf8" type="hidden" value="&#x2713;" />
+			<input id="affiliate" name="affiliate" type="hidden" value="u.s.bureauofeconomicanalysis" />
+		</form>
+	<div class="clear"></div>
+
+
+<ul><li><a style="background-image: url(/_images/bullet_information.png);background-position: left 5px;" href="/about/BEAciting.htm">Guidelines for Citing BEA Information</a></li></ul>
+
+
+		
+<!--<form action="/search/index.cfm" method="post" class="search_form" id="search_form">
+	<div class="search_wrapper">
+		<div class="search_textBox">
+			<input type="text" name="query" class="search_input_text" id="search_textfield">
+		</div>
+		<div class="search_submitButton">
+			<input type="submit" value="Go" class="search_input_buttom" id="search_submit">
+		</div>
+	</div>
+	<div class="searchLinks"><a href="/search/?advanced=1">Advanced</a> | <a href="/faq">FAQ</a> | <a href="/azindex/index.htm">A-Z Index</a></div>
+</form>
+-->
+				</div>
+				<div class="title_right">Related Files:</div>
+				<ul id="related_files">
+					<li><a href="/newsreleases/international/mnc/2013/_pdf/mnc2011.pdf">Full Release &amp; Tables <span class="file_size">(PDF)</span></a></li>
+					<li><a href="/newsreleases/international/mnc/2013/_txt/mnc2011.txt">Text Full Release&nbsp;<span class="file_size">(Text)</span></a></li>
+					<li><a href="/newsreleases/international/mnc/2013/_xls/mnc2011.xls">Tables&nbsp;<span class="file_size">(Excel)</span></a></li>
+				</ul>
+				<div class="title_right">Related Links:</div>
+				<ul>
+					<li><a href="/iTable/index_MNC.cfm">Interactive Tables</a></li>
+				</ul>
+				<div class="title_right">Contacts:</div>
+				<div id="contact_wrap">
+					<!-- 12: PERSONAL Contact-->
+					<div class="contact_name">Thomas Anderson</div>
+					<div class="contact_telephone">(202) 606-9879</div>					
+					<div class="contact_name">Jeannine Aversa&nbsp;<span class="file_size">(News Media)</span></div>
+					<div class="contact_telephone">(202) 606-2649</div>
+					<!-- 12: PERSONAL Contact-->
+				</div>
+			</div>
+			<p class="subscribe_sidebar"><a href="/_subscribe/" title="This link will take you to another Web site.">Sign up</a> for e-mail notifications.</p>
+			<p class="pdfreader_sidebar"><a href="/exit_site.asp?link=http://www.adobe.com/products/acrobat/readstep2.html" title="This link will take you to another Web site.">Download</a> the Acrobat Reader.</p>
+			<!-- end of sidebarRight div --></td>
+	</tr>
+</table>
+<div id="footer_wrapper">
+	<div class="centerContent_wrapper">
+		<div class="lastUpdate_wrapper">
+			<div class="lastUpdate_wrapperRight"> 
+				<!--Last updated on <span id="RealFileDate"></span>-->
+			<script>
+				//var req = new XMLHttpRequest();
+				//req.open('HEAD', "/_last-modified-date/IISLastModified.ashx", false);
+				//req.send();
+				//document.getElementById("RealFileDate").innerHTML = req.getResponseHeader("RealFileDate");
+			</script>
+			</div>
+		</div>
+		<div class="footerLinks_shell">
+			<div class="footerLinks_wrapper">
+				<div class="columnLeft_wrapper" style="width:210px;">
+					<ul class="topicMain">
+						<li><a href="/contacts/search.htm">Contact All of Us</a></li>
+						<li><a href="/faq/index.cfm">Frequently Asked Questions</a></li>
+						<li><a href="/about/index.htm">About BEA</a></li>
+						<li><a href="/about/policies.htm">Policies</a></li>
+					</ul>
+					<ul class="general_links">
+						<li><a href="/about/Privacy_Statement.htm">Privacy Policy</a></li>
+						<li><a href="http://www.osec.doc.gov/omo/FOIA/FOIAWebsite.htm">FOIA</a></li>
+						<li><a href="/about/accessibility.htm">Accessibility</a></li>
+						<li><a href="/_pdf/scientific_integrity_statement_of_the_principal_statistical_agencies.pdf">Commitment to Scientific Integrity</a></li>
+						<li><a href="/about/infoqual.htm">Information Quality Guidelines</a></li>
+						<li><a href="/about/BEAdissemination.htm">Data Dissemination Practices</a></li>
+						<li><a href="/data.htm">Open Data</a></li>
+						<li><a href="/status/default.aspx">ESR System</a></li>
+						<li><a href="//www.usa.gov/">USA.gov</a></li>
+						<li><a href="//www.commerce.gov/">U.S. Department of Commerce</a></li>
+					</ul>
+				</div>
+				<div class="columnLeft_wrapper">
+					<ul>
+						<li class="title">News</li>
+						<li><a href="/newsreleases/glance.htm">U.S. Economy at a Glance</a></li>
+						<li><a href="/newsreleases/rels.htm">Current Releases</a></li>
+						<li><a href="/newsreleases/release_archive.htm">News Release Archive</a></li>
+					</ul>
+				</div>
+				<div class="columnLeft_wrapper">
+					<ul>
+						<li class="title">Information For...</li>
+						<li><a href="/newsroom/index.htm">Media</a></li>
+						<li><a href="/congressional/index.htm">Congressional Users</a></li>
+						<li><a href="/efile/">eFile Users</a></li>
+						<li><a href="/surveys/respondent_be13.htm">BE-13 Respondents</a></li>
+						<li><a href="/surveys/privatefunds">Private Fund Reporters</a></li>
+						<li><a href="/jobs/index.htm">Job Seekers</a></li>
+					</ul>
+				</div>
+				<div class="columnLeft_wrapper">
+					<ul>
+						<li class="title">Factsheets</li>
+						<li><a href="/regional/bearfacts/">Regional PI &amp; GDP</a></li>
+						<li><a href="/international/factsheet/">Int'l Trade &amp; Investment</a></li>
+						<li><a href="/industry/factsheet/">Industry GDP</a></li>
+					</ul>
+				</div>
+				<div class="columnLeft_wrapper">
+					<ul>
+						<li class="title">Publications</li>
+						<li><a href="/scb/index.htm"><em>Survey of Current Business</em></a></li>
+						<li><a href="/research/by_topic.htm">Papers by Topic</a></li>
+						<!--<li><a href="/agency/pdf/BEA_Customer_Guide.pdf">BEA Customer Guide</a></li>-->
+					</ul>
+				</div>
+				<div class="columnLeft_wrapper">
+					<ul>
+						<li class="title">Resources</li>
+						<li><a href="/itable/index.cfm">Interactive Data</a></li>
+						<li><a href="/research/index.htm">Research at BEA</a></li>
+						<li><a href="/developers/">Developers</a></li>
+						<li><a href="/video/index.htm">Multimedia</a></li>
+						<li><a href="/faq/index.cfm">FAQs</a></li>
+					</ul>
+				</div>
+				<div class="columnLeft_wrapper">
+					<ul>
+						<li class="title">More</li>
+						<li><a href="/about/director.htm">Director's Page</a></li>
+						<li><a href="/agency/exhibit_schedule.htm">Conferences</a></li>
+						<li><a href="/about/BEAciting.htm">Guidelines for Citing BEA Information</a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		<div class="clear"></div>
+	</div>
+	<!--Analytics --> 
+	
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-37717925-1', 'auto');
+  ga('send', 'pageview');
+
+</script> 
+	<script type="text/javascript" src="/_scripts/uaevents.js"></script> 
+	<script type="text/javascript">
+//<![CDATA[
+      var usasearch_config = { siteHandle:"u.s.bureauofeconomicanalysis" };
+      var script = document.createElement("script");
+      script.type = "text/javascript";
+      script.src = "//search.usa.gov/javascripts/remote.loader.js";
+      document.getElementsByTagName("head")[0].appendChild(script);
+
+//]]>
+</script>
+
+</div>
+</body></html>
+</body>

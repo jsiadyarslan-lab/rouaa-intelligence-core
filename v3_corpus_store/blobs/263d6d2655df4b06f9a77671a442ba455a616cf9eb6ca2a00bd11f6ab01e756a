@@ -1,0 +1,1769 @@
+<!DOCTYPE html>
+<html xmlns="https://www.w3.org/1999/xhtml" lang="en">
+	<head>
+		<!--scale the layout to work correctly on moble decives-->
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<!--define the character encoding for the page-->
+		<meta charset="UTF-8">
+		<title>  Monthly Unemployment July 2026 - Central Statistics Office</title>
+          <!-- navigation object :  Key words --><meta name="DC.Keywords" content="" /> <!-- Keywords -->
+          <!-- navigation object :  Last modified --><meta property="article:published_time" name="DC.Keywords" content="2026-08-06" /> <!-- modified -->
+          <meta name="DC.Publisher" content="CSO" /> <!-- modified -->
+          <!-- start css -->
+          <!-- IE compatibility mode fix--><meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+        <!--main.css--><link rel="stylesheet" type="text/css" media="" href="/en/media/styleassets/css/granite/main.css" />
+        <!--earthworm.css--><link rel="stylesheet" type="text/css" media="" href="/en/media/styleassets/css/granite/earthworm.css" />
+        <!--layout.css--><link rel="stylesheet" type="text/css" media="" href="/en/media/styleassets/css/granite/layout.css" />
+        <!--colours.css--><link rel="stylesheet" type="text/css" media="" href="/en/media/styleassets/css/granite/colours-aa.css" />
+        
+        <!--jquery.fancybox.css--><link href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.2.5/jquery.fancybox.css" rel="stylesheet">
+        <!--mediaQueries.css--><link rel="stylesheet" type="text/css" media="" href="/en/media/styleassets/css/granite/mediaQueries.css" />
+          
+          
+          <link rel="stylesheet" type="text/css" media="" href="/en/media/styleassets/css/publications.css" /><!-- publications -->
+    			<link rel="stylesheet" type="text/css" media="screen, print" href="/en/media/styleassets/css/Statisyearbook.css" />   <!--yearbook -->
+          <link rel="stylesheet" type="text/css" media="" href="/en/media/styleassets/css/ep_new.css" />   <!--ep_new.css -->
+          <link rel="stylesheet" type="text/css" media="screen, print" href="/en/media/styleassets/css/granite/illustrated-chapter.css" />   <!--illustrated-chapter.css -->
+          <link rel="stylesheet" type="text/css" media="screen, print" href="/en/media/styleassets/css/granite/Stylesheet_Infobyte.css" /> <!--infobyte-chapter.css -->
+           <!--colours.css-->
+        
+    			<link rel="stylesheet" type="text/css" media="print" href="/en/media/styleassets/css/granite/publication_print.css" /> <!-- publication print styles -->
+		
+        <!--include jQuery-->
+		<!--jquery-1.11.1.min.js--><script type="text/javascript" src="/en/media/styleassets/javascript/granite/jquery-1.11.1.min.js"></script>
+		
+       
+          <script type="text/javascript" src="https://code.highcharts.com/9.3.3/highcharts.js"></script>
+    <script src="https://code.highcharts.com/9.3.3/highcharts-3d.js"></script>
+    <script type="text/javascript" src="https://code.highcharts.com/maps/9.3.3/modules/map.js"></script>
+<script type="text/javascript" src="https://code.highcharts.com/9.3.3/modules/data.js"></script>
+<script type="text/javascript" src="https://code.highcharts.com/9.3.3/highcharts-more.js"></script>
+<script type="text/javascript" src="https://code.highcharts.com/maps/9.3.3/modules/exporting.js"></script>
+
+          
+        
+        <!--include Flexslider - used for carousels and image slders-->
+		<!--jquery.flexslider-min.js--><script type="text/javascript" src="/en/media/styleassets/javascript/granite/jquery.flexslider.js"></script>
+          
+		<!--include Fancybox - used for modal windows-->
+		<!--jquery.fancybox.js--><script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.2.5/jquery.fancybox.min.js"></script>
+          <!--flexslider.css<link rel="stylesheet" type="text/css" media="" href="/en/media/styleassets/css/granite/flexslider.css" />-->
+          
+
+          <!--include sitewide JavaScript for cso.ie-->
+		<!--site.js--><script type="text/javascript" src="/en/media/styleassets/javascript/granite/site.js"></script>
+          
+          
+          
+            <script type="text/javascript" src="/en/media/styleassets/javascript/functions.js"></script> <!-- javascript functions  -->
+          
+          <script type="text/javascript" src="/en/media/styleassets/javascript/scripts.js"></script><!-- scripts.js -->
+        <script type="text/javascript" src="/en/media/styleassets/mip/mip_print.js"></script> <!--print individual indicator -->
+        <script type="text/javascript" src="/en/media/styleassets/javascript/electronicreleases/slideMenuMobile.js"></script><!-- slide menu mobile -->
+        <script type="text/javascript" src=""></script><!-- google analytics -->
+        <script type="text/javascript" src="/en/media/styleassets/javascript/jquery.corner.js"></script><!-- jquery.corner.js -->        
+        <script type="text/javascript" src="/en/media/styleassets/javascript/rounder_corners.js"></script><!-- rounded_corner.js -->
+               
+    
+          <!--START HIGHSLIDES-->  
+                     
+               <script type="text/javascript" src="/en/media/styleassets/mip/highslide-full.js"></script><!--highslide full-->
+                  <!--<script type="text/javascript" src="/en/media/styleassets/mip/mobile.js"></script>mobile highslides-->
+                  <link rel="stylesheet" type="text/css" media="" href="/en/media/styleassets/mip/highslide.css" /><!--highslide.css-->
+                  
+           <script type="text/javascript">
+             //hs.graphicsDir = '/images/highslide/graphics/';
+             
+            hs.graphicsDir = 'https://cdn.cso.ie/static/img/highslide/'
+    hs.outlineType = 'rounded-white';
+            hs.align = 'center';
+             hs.showCredits = false;
+             
+</script>
+                  
+                    
+                <!--END HIGHSLIDES--> 
+          
+          
+          
+          <!--excel tables styles-->
+          <style type="text/css">
+      
+      </style>
+          
+          <style type="text/css">
+.b1{white-space-collapsing:preserve;}
+.excel-631525-media-t1{border-collapse:collapse;border-spacing:0;}
+.excel-631525-media-r1{height:15.0pt;}
+.excel-631525-media-c1{white-space: pre-wrap; text-align: left; vertical-align: middle; border-bottom: thin solid black; font-weight: bold; font-family:arial;font-size:10pt; }
+.excel-631525-media-c2{white-space: pre-wrap; text-align: left; vertical-align: middle; border-top: thin solid black; border-bottom: thin solid black; font-family:arial;font-size:10pt; }
+.excel-631525-media-c3{white-space: pre-wrap; text-align: right; vertical-align: middle; border-top: thin solid black; border-bottom: thin solid black; font-weight: bold; font-family:arial;font-size:10pt; }
+.excel-631525-media-c4{white-space: pre-wrap; text-align: left; vertical-align: middle; font-weight: bold; font-family:arial;font-size:10pt; }
+.excel-631525-media-c5{white-space: pre-wrap; text-align: right; vertical-align: bottom; border-top: thin solid black; color: black; font-family:arial;font-size:10pt; }
+.excel-631525-media-c6{white-space: pre-wrap; text-align: right; vertical-align: middle; color: black; font-family:arial;font-size:10pt; }
+.excel-631525-media-c7{white-space: pre-wrap; text-align: right; vertical-align: bottom; color: black; font-family:arial;font-size:10pt; }
+.excel-631525-media-c8{white-space: pre-wrap; text-align: right; vertical-align: bottom; border-bottom: thin solid black; color: black; font-family:arial;font-size:10pt; }
+.excel-631525-media-c9{white-space: pre-wrap; text-align: right; vertical-align: middle; border-bottom: thin solid black; color: black; font-family:arial;font-size:10pt; }
+.excel-631525-media-c10{white-space: pre-wrap; text-align: right; vertical-align: middle; font-weight: bold; font-family:arial;font-size:10pt; }
+
+.b1{white-space-collapsing:preserve;}
+.excel-631527-media-t1{border-collapse:collapse;border-spacing:0;}
+.excel-631527-media-r1{height:15.0pt;}
+.excel-631527-media-c1{white-space: pre-wrap; text-align: left; vertical-align: middle; border-bottom: thin solid #000000; font-weight: bold; font-family:arial;font-size:10pt; }
+.excel-631527-media-c2{white-space: pre-wrap; text-align: left; vertical-align: middle; font-family:arial;font-size:10pt; }
+.excel-631527-media-c3{white-space: pre-wrap; text-align: center; vertical-align: middle; border-bottom: thin solid #000000; font-family:arial;font-size:10pt; }
+.excel-631527-media-c4{white-space: pre-wrap; text-align: left; vertical-align: middle; border-bottom: thin solid #000000; font-family:arial;font-size:10pt; }
+.excel-631527-media-c5{white-space: pre-wrap; text-align: right; vertical-align: middle; border-bottom: thin solid #000000; font-family:arial;font-size:10pt; }
+.excel-631527-media-c6{white-space: pre-wrap; text-align: right; vertical-align: middle; font-family:arial;font-size:10pt; }
+.excel-631527-media-c7{white-space: pre-wrap; text-align: center; vertical-align: middle; font-family:arial;font-size:10pt; }
+
+.b1{white-space-collapsing:preserve;}
+.excel-631528-media-t1{border-collapse:collapse;border-spacing:0;}
+.excel-631528-media-r1{height:15.0pt;}
+.excel-631528-media-c1{white-space: pre-wrap; text-align: left; vertical-align: middle; border-bottom: thin solid #000000; font-weight: bold; font-family:arial;font-size:10pt; }
+.excel-631528-media-c2{white-space: pre-wrap; text-align: left; vertical-align: middle; font-family:arial;font-size:10pt; }
+.excel-631528-media-c3{white-space: pre-wrap; text-align: center; vertical-align: middle; border-bottom: thin solid #000000; font-family:arial;font-size:10pt; }
+.excel-631528-media-c4{white-space: pre-wrap; text-align: left; vertical-align: middle; border-bottom: thin solid #000000; font-family:arial;font-size:10pt; }
+.excel-631528-media-c5{white-space: pre-wrap; text-align: right; vertical-align: middle; border-bottom: thin solid #000000; font-family:arial;font-size:10pt; }
+.excel-631528-media-c6{white-space: pre-wrap; text-align: right; vertical-align: middle; font-family:arial;font-size:10pt; }
+.excel-631528-media-c7{white-space: pre-wrap; text-align: center; vertical-align: middle; font-family:arial;font-size:10pt; }
+.excel-631528-media-c8{white-space: pre-wrap; text-align: left; vertical-align: middle; font-family:arial;font-size:10pt; }
+
+.b1{white-space-collapsing:preserve;}
+.excel-631529-media-t1{border-collapse:collapse;border-spacing:0;}
+.excel-631529-media-r1{height:15.0pt;}
+.excel-631529-media-c1{white-space: pre-wrap; text-align: left; vertical-align: middle; border-bottom: thin solid #000000; font-weight: bold; font-family:arial;font-size:10pt; }
+.excel-631529-media-c2{white-space: pre-wrap; text-align: left; vertical-align: middle; font-family:arial;font-size:10pt; }
+.excel-631529-media-c3{white-space: pre-wrap; text-align: center; vertical-align: middle; border-bottom: thin solid #000000; font-family:arial;font-size:10pt; }
+.excel-631529-media-c4{white-space: pre-wrap; text-align: left; vertical-align: middle; border-bottom: thin solid #000000; font-family:arial;font-size:10pt; }
+.excel-631529-media-c5{white-space: pre-wrap; text-align: right; vertical-align: middle; border-bottom: thin solid #000000; font-family:arial;font-size:10pt; }
+.excel-631529-media-c6{white-space: pre-wrap; text-align: right; vertical-align: middle; font-family:arial;font-size:10pt; }
+.excel-631529-media-c7{white-space: pre-wrap; text-align: center; vertical-align: middle; font-family:arial;font-size:10pt; }
+
+
+</style>
+
+          
+          
+         <!-- end css --> 
+          
+                   
+          
+           <style type="text/css">
+.b1{white-space-collapsing:preserve;}
+.excel-631525-media-t1{border-collapse:collapse;border-spacing:0;}
+.excel-631525-media-r1{height:15.0pt;}
+.excel-631525-media-c1{white-space: pre-wrap; text-align: left; vertical-align: middle; border-bottom: thin solid black; font-weight: bold; font-family:arial;font-size:10pt; }
+.excel-631525-media-c2{white-space: pre-wrap; text-align: left; vertical-align: middle; border-top: thin solid black; border-bottom: thin solid black; font-family:arial;font-size:10pt; }
+.excel-631525-media-c3{white-space: pre-wrap; text-align: right; vertical-align: middle; border-top: thin solid black; border-bottom: thin solid black; font-weight: bold; font-family:arial;font-size:10pt; }
+.excel-631525-media-c4{white-space: pre-wrap; text-align: left; vertical-align: middle; font-weight: bold; font-family:arial;font-size:10pt; }
+.excel-631525-media-c5{white-space: pre-wrap; text-align: right; vertical-align: bottom; border-top: thin solid black; color: black; font-family:arial;font-size:10pt; }
+.excel-631525-media-c6{white-space: pre-wrap; text-align: right; vertical-align: middle; color: black; font-family:arial;font-size:10pt; }
+.excel-631525-media-c7{white-space: pre-wrap; text-align: right; vertical-align: bottom; color: black; font-family:arial;font-size:10pt; }
+.excel-631525-media-c8{white-space: pre-wrap; text-align: right; vertical-align: bottom; border-bottom: thin solid black; color: black; font-family:arial;font-size:10pt; }
+.excel-631525-media-c9{white-space: pre-wrap; text-align: right; vertical-align: middle; border-bottom: thin solid black; color: black; font-family:arial;font-size:10pt; }
+.excel-631525-media-c10{white-space: pre-wrap; text-align: right; vertical-align: middle; font-weight: bold; font-family:arial;font-size:10pt; }
+
+.b1{white-space-collapsing:preserve;}
+.excel-631527-media-t1{border-collapse:collapse;border-spacing:0;}
+.excel-631527-media-r1{height:15.0pt;}
+.excel-631527-media-c1{white-space: pre-wrap; text-align: left; vertical-align: middle; border-bottom: thin solid #000000; font-weight: bold; font-family:arial;font-size:10pt; }
+.excel-631527-media-c2{white-space: pre-wrap; text-align: left; vertical-align: middle; font-family:arial;font-size:10pt; }
+.excel-631527-media-c3{white-space: pre-wrap; text-align: center; vertical-align: middle; border-bottom: thin solid #000000; font-family:arial;font-size:10pt; }
+.excel-631527-media-c4{white-space: pre-wrap; text-align: left; vertical-align: middle; border-bottom: thin solid #000000; font-family:arial;font-size:10pt; }
+.excel-631527-media-c5{white-space: pre-wrap; text-align: right; vertical-align: middle; border-bottom: thin solid #000000; font-family:arial;font-size:10pt; }
+.excel-631527-media-c6{white-space: pre-wrap; text-align: right; vertical-align: middle; font-family:arial;font-size:10pt; }
+.excel-631527-media-c7{white-space: pre-wrap; text-align: center; vertical-align: middle; font-family:arial;font-size:10pt; }
+
+.b1{white-space-collapsing:preserve;}
+.excel-631528-media-t1{border-collapse:collapse;border-spacing:0;}
+.excel-631528-media-r1{height:15.0pt;}
+.excel-631528-media-c1{white-space: pre-wrap; text-align: left; vertical-align: middle; border-bottom: thin solid #000000; font-weight: bold; font-family:arial;font-size:10pt; }
+.excel-631528-media-c2{white-space: pre-wrap; text-align: left; vertical-align: middle; font-family:arial;font-size:10pt; }
+.excel-631528-media-c3{white-space: pre-wrap; text-align: center; vertical-align: middle; border-bottom: thin solid #000000; font-family:arial;font-size:10pt; }
+.excel-631528-media-c4{white-space: pre-wrap; text-align: left; vertical-align: middle; border-bottom: thin solid #000000; font-family:arial;font-size:10pt; }
+.excel-631528-media-c5{white-space: pre-wrap; text-align: right; vertical-align: middle; border-bottom: thin solid #000000; font-family:arial;font-size:10pt; }
+.excel-631528-media-c6{white-space: pre-wrap; text-align: right; vertical-align: middle; font-family:arial;font-size:10pt; }
+.excel-631528-media-c7{white-space: pre-wrap; text-align: center; vertical-align: middle; font-family:arial;font-size:10pt; }
+.excel-631528-media-c8{white-space: pre-wrap; text-align: left; vertical-align: middle; font-family:arial;font-size:10pt; }
+
+.b1{white-space-collapsing:preserve;}
+.excel-631529-media-t1{border-collapse:collapse;border-spacing:0;}
+.excel-631529-media-r1{height:15.0pt;}
+.excel-631529-media-c1{white-space: pre-wrap; text-align: left; vertical-align: middle; border-bottom: thin solid #000000; font-weight: bold; font-family:arial;font-size:10pt; }
+.excel-631529-media-c2{white-space: pre-wrap; text-align: left; vertical-align: middle; font-family:arial;font-size:10pt; }
+.excel-631529-media-c3{white-space: pre-wrap; text-align: center; vertical-align: middle; border-bottom: thin solid #000000; font-family:arial;font-size:10pt; }
+.excel-631529-media-c4{white-space: pre-wrap; text-align: left; vertical-align: middle; border-bottom: thin solid #000000; font-family:arial;font-size:10pt; }
+.excel-631529-media-c5{white-space: pre-wrap; text-align: right; vertical-align: middle; border-bottom: thin solid #000000; font-family:arial;font-size:10pt; }
+.excel-631529-media-c6{white-space: pre-wrap; text-align: right; vertical-align: middle; font-family:arial;font-size:10pt; }
+.excel-631529-media-c7{white-space: pre-wrap; text-align: center; vertical-align: middle; font-family:arial;font-size:10pt; }
+
+
+</style>
+    
+    
+		<span id="d.en.402062"></span>
+<!--start Code only (admin)-->
+<!-- JS-Cookie - https://github.com/js-cookie/js-cookie -->
+    <script src="https://cdn.jsdelivr.net/npm/js-cookie@3.0.1/dist/js.cookie.min.js" integrity="sha256-0H3Nuz3aug3afVbUlsu12Puxva3CP4EhJtPExqs54Vg=" crossorigin="anonymous"></script>
+
+<!-- Select2 - https://github.com/select2/select2/ -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/select2/select2@4.0.11/dist/css/select2.min.css" integrity="sha256-FdatTf20PQr/rWg+cAKfl6j4/IY3oohFAJ7gVC3M34E=" crossorigin="anonymous">
+<script src="https://cdn.jsdelivr.net/gh/select2/select2@4.0.11/dist/js/select2.min.js" integrity="sha256-VMYYVlWd1eeWKvFsWsuzS3NmrTyAr+hfx2IWg0mGJI4=" crossorigin="anonymous"></script>
+<!-- JSON-Stat - https://github.com/badosa/JSON-stat/ -->
+<script src="https://cdn.jsdelivr.net/npm/jsonstat-toolkit@1.4.2" integrity="sha256-2thu1JF3OzZ7Ei4vjUkarWnNreAx4zXt3DEJghTTLus=" crossorigin="anonymous"></script>
+<!-- T4 SDK - https://github.com/CSOIreland/T4-SDK-->
+
+<script src="https://cdn.jsdelivr.net/gh/CSOIreland/T4-SDK@2.3.2/t4sdk.library.js" crossorigin="anonymous"></script>
+<!-- T4 SDK - https://github.com/CSOIreland/T4-SDK-->
+
+
+
+<script src="https://cdn.jsdelivr.net/gh/CSOIreland/T4-SDK@2.3.2/pxwidget/js/pxwidget.constant.min.js" crossorigin="anonymous"></script>
+
+<!--<script>
+const T4SDK_PXWIDGET_READ_METADATA = "PxStat.Data.Cube_API.ReadMetadata";
+const T4SDK_PXWIDGET_READ_PRE_METADATA = "PxStat.Data.Cube_API.ReadPreMetadata";
+const T4SDK_PXWIDGET_READ_DATASET = "PxStat.Data.Cube_API.ReadDataset";
+const T4SDK_PXWIDGET_URL_API_PRIVATE = "https://dev-ws2.cso.ie/private/api.jsonrpc";
+const T4SDK_PXWIDGET_URL_API_PUBLIC = "https://dev-ws2.cso.ie/public/api.jsonrpc";
+</script>
+-->
+
+<script src="https://cdn.jsdelivr.net/gh/CSOIreland/T4-SDK@2.3.2/pxwidget/js/pxwidget.library.js" crossorigin="anonymous"></script>
+
+
+
+
+    <!--end js for widget toggles-->      
+<!--end Code only (admin)-->   
+
+    <!-- navigation object : ImagePdfFixes Include code --><span id="d.en.401648"></span>
+<!--start Code only (admin)-->
+  <!-------------------T4SDK fixes and convert functions------------------->
+    <!--css-->
+    <link rel="stylesheet"
+        href="https://cdn.jsdelivr.net/gh/CSOIreland/T4-SDK@2.2.0/high_chart_fix/css/high_chart_fix.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/CSOIreland/T4-SDK@2.2.0/html2image/css/html2image.min.css">
+    <!--css-->
+
+    <!--T4-SDK/html2image-->
+    <script type="text/javascript"
+        src="https://cdn.jsdelivr.net/gh/CSOIreland/T4-SDK@2.2.0/html2image/js/dom-to-image.min.js"></script>
+    <script type="text/javascript"
+        src="https://cdn.jsdelivr.net/gh/CSOIreland/T4-SDK@2.2.0/html2image/js/html2image.constants.min.js"></script>
+
+    <script type="text/javascript"
+        src="https://cdn.jsdelivr.net/gh/CSOIreland/T4-SDK@2.2.0/html2image/js/html2image.library.min.js"></script>
+
+
+    <!--T4-SDK/html2image-->
+
+
+    <!--T4-SDK/html2pdf,dependency:html2image-->
+    <script type="text/javascript"
+        src="https://cdn.jsdelivr.net/gh/CSOIreland/T4-SDK@2.2.0/html2pdf/js/html2pdf.constants.min.js"></script>
+
+    <script type="text/javascript"
+        src="https://cdn.jsdelivr.net/gh/CSOIreland/T4-SDK@2.2.0/html2pdf/js/html2pdf.library.min.js"></script>
+
+    <script type="text/javascript"
+        src="https://cdn.jsdelivr.net/gh/CSOIreland/T4-SDK@2.2.0/html2pdf/js/html2pdf.min.js"></script>
+    <!--T4-SDK/html2pdf,dependency:html2image-->
+
+    <!--T4-SDK/high_chart_fix,dependency:html2image-->
+    <script type="text/javascript"
+        src="https://cdn.jsdelivr.net/gh/CSOIreland/T4-SDK@2.2.0/high_chart_fix/js/ConvertDivs.library.min.js"></script>
+    <script type="text/javascript"
+        src="https://cdn.jsdelivr.net/gh/CSOIreland/T4-SDK@2.2.0/high_chart_fix/js/high_chart_fix.constants.min.js"></script>
+    <script type="text/javascript"
+        src="https://cdn.jsdelivr.net/gh/CSOIreland/T4-SDK@2.2.0/high_chart_fix/js/high_chart_fix.library.min.js"></script>
+    <script type="text/javascript"
+        src="https://cdn.jsdelivr.net/gh/CSOIreland/T4-SDK@2.2.0/high_chart_fix/js/high_chart_fix.min.js"></script>
+    <!--T4-SDK/high_chart_fix,dependency:html2image-->
+    <!-------------------T4SDK fixes and convert functions------------------->
+<!--end Code only (admin)-->	
+    
+           
+<script> 
+//js to set current tab to active on main nav DR
+
+    $(document).ready(function () {
+
+
+        var theme = 'Releases and Publications';
+
+  //alert(theme);
+
+        if (theme.length == '0') {
+            $("#homeTab").addClass("currentbranch0");
+            // alert('I am here');
+        }
+
+        else if (theme == 'Statistics' || theme == 'Releases and Publications') {
+
+            $("#statisticsTab").addClass("currentbranch0");
+
+        }
+
+        else if (theme == 'Databases') {
+
+            $("#databasesTab").addClass("currentbranch0");
+
+        }
+
+
+        else if (theme == 'Surveys and Methodology') {
+
+            $("#methodsTab").addClass("currentbranch0");
+
+        }
+
+        else if (theme == 'About Us') {
+
+            $("#aboutUsTab").addClass("currentbranch0");
+
+        }
+
+
+        else {
+            //do nothing
+        }
+
+
+    });
+
+    //end main nav JS DR
+</script>
+    
+    <!--start js for widget toggles-->
+        
+
+      <!-- start header --> 
+
+		<!-- ********** HEADER ********** -->
+		<!-- navigation object : Header code --><!--start Code only (admin)-->
+<!-- Website Header - Nov 2025 -->
+
+<!-- Font-awesome - https://github.com/FortAwesome/Font-Awesome/-->
+<link rel="stylesheet" href="
+https://cdn.jsdelivr.net/gh/CSOIreland/Fontawesome@6.5.2b1/css/all.min.css"
+integrity="sha256-vvmBgdkRo5x0l5TaZ9VSsHaMyObJD8oBGA0etv2xnRk=" crossorigin="anonymous">
+
+<!--masthead.css--><link rel="stylesheet" type="text/css" media="" href="/en/media/styleassets/css/granite/masthead.css" />
+
+
+<link rel="icon" 
+      type="image/png" 
+      href="https://cdn.cso.ie/client/1.0.2/favicon/apple-icon-57x57.png">
+
+<link rel="apple-touch-icon" type="image/png" sizes="57x57" href="https://cdn.cso.ie/client/1.0.2/favicon/apple-icon-57x57.png">
+<link rel="apple-touch-icon" type="image/png" sizes="60x60" href="https://cdn.cso.ie/client/1.0.2/favicon/apple-icon-60x60.png">
+<link rel="apple-touch-icon" type="image/png" sizes="72x72" href="https://cdn.cso.ie/client/1.0.2/favicon/apple-icon-72x72.png">
+<link rel="apple-touch-icon" type="image/png" sizes="76x76" href="https://cdn.cso.ie/client/1.0.2/favicon/apple-icon-76x76.png">
+<link rel="apple-touch-icon" type="image/png" sizes="114x114" href="https://cdn.cso.ie/client/1.0.2/favicon/apple-icon-114x114.png">
+<link rel="apple-touch-icon" type="image/png" sizes="120x120" href="https://cdn.cso.ie/client/1.0.2/favicon/apple-icon-120x120.png">
+<link rel="apple-touch-icon" type="image/png" sizes="144x144" href="https://cdn.cso.ie/client/1.0.2/favicon/apple-icon-144x144.png">
+<link rel="apple-touch-icon" type="image/png" sizes="152x152" href="https://cdn.cso.ie/client/1.0.2/favicon/apple-icon-152x152.png">
+<link rel="apple-touch-icon" type="image/png" sizes="180x180" href="https://cdn.cso.ie/client/1.0.2/favicon/apple-icon-180x180.png">
+
+<link rel="icon" type="image/png" sizes="192x192"  href="https://cdn.cso.ie/client/1.0.2/favicon/android-icon-192x192.png">
+<link rel="icon" type="image/png" sizes="32x32" href="https://cdn.cso.ie/client/1.0.2/favicon/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="96x96" href="https://cdn.cso.ie/client/1.0.2/favicon/favicon-96x96.png">
+<link rel="icon" type="image/png" sizes="16x16" href="https://cdn.cso.ie/client/1.0.2/favicon/favicon-16x16.png">
+
+<link rel="manifest" href="/favicons/manifest.json">
+<meta name="msapplication-TileColor" content="#ffffff">
+<meta name="msapplication-TileImage" content="/favicons/ms-icon-144x144.png">
+
+ <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-M5K0ZBH6F8"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
+
+    // Initialize with consent denied
+    gtag('consent', 'default', {
+      'ad_storage': 'denied',
+      'analytics_storage': 'denied'
+    });
+
+    gtag('config', 'G-M5K0ZBH6F8', {
+      'send_page_view': false,  // Prevent the initial page view
+      'anonymize_ip': true
+    });
+
+    gtag('set', {
+      'allow_google_signals': false,
+      'allow_ad_personalization_signals': false,
+      'restricted_data_processing': true
+    });
+
+  </script>
+
+<!-- Begin Cookie Consent plugin by Osano- https://cookieconsent.insites.com/ -->
+<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.1.1/cookieconsent.min.css" />
+<script src="https://cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.1.1/cookieconsent.min.js"></script>
+<style>
+.cc-message a:visited {
+     color: rgb(255, 255, 255)
+}
+.cc-highlight cc-btn:focus, .cc-highlight .cc-btn:hover {
+    border-color: rgb(31, 31, 31);
+}
+.cc-highlight .cc-btn:first-child:focus, .cc-highlight .cc-btn:first-child:hover {
+    text-decoration: none;
+    border-color: rgb(31, 31, 31);
+    background-color: rgb(134, 147, 179);
+    filter: brightness(120%);
+}
+</style>
+<script>
+
+function setCookie(cname, cvalue, exdays, domain) {
+      domain = domain || "";
+      var d = new Date();
+      d.setTime(d.getTime() + (exdays * 24 * 60 * 60 * 1000));
+      var expires = "expires=" + d.toUTCString();
+      document.cookie = cname + "=" + cvalue + ";" + expires + ";path=/;domain=" + domain;
+    }
+
+
+window.addEventListener("load", function () {
+  window.cookieconsent.initialise({
+    "palette": {
+      "popup": {
+        "background": "#35456B",
+        "text": "#ffffff"
+      },
+      "button": {
+        "background": "#00959f",
+        "text": "#1f1f1f"
+      },
+      "highlight": {
+        "background": "#8693B3",
+        "text": "#1f1f1f"
+      }
+    },
+    position: "bottom",
+    "static": false,
+    "type": "opt-in",
+    "revokable": false,
+    "content": {
+      "message": "<h2 style='margin-bottom: 10px'>Cookies</h2>This website uses cookies to improve your experience and to monitor the site traffic. Non-essential cookies are not set by default. To learn more and manage your cookie consent view our ",
+      "allow": "Allow All",
+      "deny": "Only Necessary",
+      "link": "<span style='font-weight: bold'>Privacy Statement</span>",
+      "href": "#",
+       "policy":  "Cookie Policy"
+    },
+    "onInitialise": function (e) {
+     if (e == "allow") {
+         gtag('consent', 'update', {
+              'analytics_storage': 'granted'
+            });
+            // Manually send the page view after consent is granted
+            gtag('event', 'page_view');
+      } else {
+//delete ga cookies
+         setCookie("_ga", "", 0, ".cso.ie");
+            setCookie("_ga_M5K0ZBH6F8", "", 0, ".cso.ie");
+      }     
+    },
+    "onStatusChange": function (e, t) {
+
+     if (e == "allow") {
+        gtag('consent', 'update', {
+              'analytics_storage': 'granted'
+            });
+            // Manually send the page view after consent is granted
+            gtag('event', 'page_view');
+            // window.location.href = window.location.pathname;
+            $("#cookie-consent-status-toggle").prop("checked", true)
+      } else {
+
+       setCookie("_ga", "", 0, ".cso.ie");
+            setCookie("_ga_M5K0ZBH6F8", "", 0, ".cso.ie");
+
+      }
+    }
+  });
+
+$(".cc-message").append(
+
+);
+
+$(".cc-message").append(
+    $("<br>").get(0).outerHTML +
+    $("<br>").get(0).outerHTML +
+    $("<a>", {
+        "html": "Dismiss this message",
+        "href": "#",
+        "name": "dismiss-cookie-banner",
+        "style": "color: #ffffff"
+    }).get(0).outerHTML
+
+);
+
+$("[name=dismiss-cookie-banner]").click(function(e) {
+    e.preventDefault();
+    $(".cc-window").hide();
+});
+
+
+
+
+  $(".cc-link, #cookie-banner-privacy-statement-link").click(function (e) {
+    e.preventDefault()
+    //setCookie("cookieconsent_status", "deny", 365);
+    window.location.href = "/en/aboutus/lgdp/dataprotectionprivacytransparency/websiteprivacystatement/index.html#cookie-toggle-anchor"
+  });
+
+  window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'G-M5K0ZBH6F8', { 'anonymize_ip' : true });
+      gtag('set', {'allow_google_signals': false});
+      gtag('set', {'allow_ad_personalization_signals': false});
+      gtag ( 'set', { 'restricted_data_processing': true });
+
+});
+</script>
+<!-- End Cookie Consent plugin -->
+
+<!-- JQuery UI -->
+<link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+   <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+<!-- JS-Cookie - https://github.com/js-cookie/js-cookie -->
+    <script src="https://cdn.jsdelivr.net/gh/js-cookie/js-cookie@v2.2.1/src/js.cookie.min.js"></script>
+<!-- Datatables - https://datatables.net/ powered by CloudFlare -->
+    <script src="https://cdn.datatables.net/1.10.20/js/jquery.dataTables.min.js"></script>
+     <script src="https://cdn.datatables.net/responsive/2.2.3/js/dataTables.responsive.min.js"></script>
+    <script src="https://cdn.datatables.net/buttons/1.6.2/js/dataTables.buttons.min.js"></script>
+    <script src="https://cdn.datatables.net/buttons/1.6.2/js/buttons.flash.min.js"></script>
+    <script src="https://cdn.datatables.net/buttons/1.6.2/js/buttons.html5.min.js"></script>
+    <script src="https://cdn.datatables.net/buttons/1.6.2/js/buttons.print.min.js"></script>
+   <link rel="stylesheet" href="https://cdn.datatables.net/1.10.20/css/jquery.dataTables.min.css">
+    <!-- PapaParse CSV - https://github.com/mholt/PapaParse/ -->
+    <script src="https://cdn.jsdelivr.net/gh/mholt/PapaParse@5.1.0/papaparse.min.js"></script>
+</head>
+
+
+<body>
+
+<a href="#" class="back-to-top">Back to Top</a> 
+
+<a id="top"></a> 
+
+  <!-- banner to appear at top of page when enabled -->     
+
+<!-- SITE MASTHEAD -->        
+<header class="container masthead">
+    <div class="row">
+        <div class="masthead-logo">
+            <a href="/en/">
+            <picture>
+                <source media="(min-width: 960px)" srcset="/en/media/csologo.png" width="444" height="108">
+                <img src="/en/media/Logo.png" alt="Central Statistics Office" width="70" height="83">
+            </picture> 
+            </a>
+        </div> <!-- /logo -->
+        <div class="masthead-buttons masthead-button-1">
+            <a href="https://data.cso.ie/" class="btn"><i class="fa fa-database" aria-hidden="true"></i> Statistics Database</a>
+        </div> <!-- /masthead-buttons -->
+        <div class="masthead-buttons masthead-button-2">
+            <a href="/en/baile/" class="btn"><i class="fa fa-globe" aria-hidden="true"></i> cso.ie as Gaeilge</a>
+        </div> <!-- /masthead-buttons -->
+        <div class="masthead-search">
+            <!-- Form's action must be the results page's URL -->
+            <form method="get" action="https://www.cso.ie/en/search/">
+                <!-- Search field's name must be addsearch -->
+                <input type="text" name="addsearch" placeholder="&#128269; Search cso.ie" autocomplete="off" aria-label="Search cso.ie" />
+            </form>          
+        </div> <!-- /masthead search -->
+    </div> <!-- /row -->
+</header> <!-- container masthead -->
+<!-- END MASTHEAD -->
+
+<!-- SITE NAVIGATION -->
+<p class="hide" aria-hidden>&nbsp;<a accesskey="s" href="#content">Skip navigation</a></p>
+
+<div class="container mainNav">
+<div class="row">
+<div class="col span12"><a class="toggleMainNav navMobile" href="javascript:" title="show menu">Show Menu <em class="fa fa-navicon">&nbsp;</em></a>
+<ul class="mainNavList">
+<li><span id="homeTab"><a title="Home" href="/en/">Home</a></span></li>
+<li><span id="statisticsTab">Statistics</span>
+<div class="ddBox"><a class="pageLink" href="/en/statistics/">Explore Statistics</a>
+<ul class="statisticsList">
+<li><a href="/en/statistics/">People and Society</a>
+<!-- navigation object : People and society box --><span id="d.en.88546"></span>
+<ul class="links ulList">
+  
+  <li id="li88546_1"><a href="/en/statistics/population/">Population</a>  <span class="externalSource"></span></li>
+  
+  <li id="li88546_2"><a href="/en/statistics/education/">Education</a>  <span class="externalSource"></span></li>
+  
+  <li id="li88546_3"><a href="/en/statistics/birthsdeathsandmarriages/"> Births, Deaths &amp; Marriages </a>  <span class="externalSource"></span></li>
+  
+  <li id="li88546_4"><a href="/en/statistics/crimeandjustice/">Crime and Justice</a>  <span class="externalSource"></span></li>
+  
+  <li id="li88546_5"><a href="/en/statistics/socialconditions/">Social Conditions</a>  <span class="externalSource"></span></li>
+  
+  <li id="li88546_6"><a href="/en/statistics/health/">Health</a>  <span class="externalSource"></span></li>
+  
+  <li id="li88546_7"><a href="/en/statistics/informationsociety/">Information Society</a>  <span class="externalSource"></span></li>
+  
+  <li id="li88546_8"><a href="/en/statistics/housingandhouseholds/">Housing and Households</a>  <span class="externalSource"></span></li>
+  
+  <li id="li88546_9">  <span class="externalSource"></span></li>
+  
+  <li id="li88546_10">  <span class="externalSource"></span></li>
+  
+  <li id="li88546_11">  <span class="externalSource"></span></li>
+  
+  <li id="li88546_12">  <span class="externalSource"></span></li>
+</ul>
+
+
+<!--<div style="margin-bottom: 20px"></div>-->
+
+<script>
+ 
+ $("#li88546_1").not(":has(a)").remove();  
+  $("#li88546_2").not(":has(a)").remove();
+  $("#li88546_3").not(":has(a)").remove();  
+  $("#li88546_4").not(":has(a)").remove();  
+  $("#li88546_5").not(":has(a)").remove();
+  $("#li88546_6").not(":has(a)").remove();
+  $("#li88546_7").not(":has(a)").remove();
+  $("#li88546_8").not(":has(a)").remove();
+  $("#li88546_9").not(":has(a)").remove();
+  $("#li88546_10").not(":has(a)").remove();
+  $("#li88546_11").not(":has(a)").remove();
+  $("#li88546_12").not(":has(a)").remove();
+  
+</script>  
+
+
+</li>
+<li><a href="/en/statistics/">Labour Market and Earnings</a>
+<!-- navigation object : Labour Market & Earnings --><span id="d.en.88548"></span>
+<ul class="links ulList">
+  
+  <li id="li88548_1"><a href="/en/statistics/labourmarket/">Labour Market</a>  <span class="externalSource"></span></li>
+  
+  <li id="li88548_2"><a href="/en/statistics/earnings/">Earnings</a>  <span class="externalSource"></span></li>
+  
+  <li id="li88548_3">  <span class="externalSource"></span></li>
+  
+  <li id="li88548_4">  <span class="externalSource"></span></li>
+  
+  <li id="li88548_5">  <span class="externalSource"></span></li>
+  
+  <li id="li88548_6">  <span class="externalSource"></span></li>
+  
+  <li id="li88548_7">  <span class="externalSource"></span></li>
+  
+  <li id="li88548_8">  <span class="externalSource"></span></li>
+  
+  <li id="li88548_9">  <span class="externalSource"></span></li>
+  
+  <li id="li88548_10">  <span class="externalSource"></span></li>
+  
+  <li id="li88548_11">  <span class="externalSource"></span></li>
+  
+  <li id="li88548_12">  <span class="externalSource"></span></li>
+</ul>
+
+
+<!--<div style="margin-bottom: 20px"></div>-->
+
+<script>
+ 
+ $("#li88548_1").not(":has(a)").remove();  
+  $("#li88548_2").not(":has(a)").remove();
+  $("#li88548_3").not(":has(a)").remove();  
+  $("#li88548_4").not(":has(a)").remove();  
+  $("#li88548_5").not(":has(a)").remove();
+  $("#li88548_6").not(":has(a)").remove();
+  $("#li88548_7").not(":has(a)").remove();
+  $("#li88548_8").not(":has(a)").remove();
+  $("#li88548_9").not(":has(a)").remove();
+  $("#li88548_10").not(":has(a)").remove();
+  $("#li88548_11").not(":has(a)").remove();
+  $("#li88548_12").not(":has(a)").remove();
+  
+</script>  
+
+
+</li>
+<li><a href="/en/statistics/">Business Sectors</a>
+<!-- navigation object : Business Sectors --><span id="d.en.88550"></span>
+<ul class="links ulList">
+  
+  <li id="li88550_1"><a href="/en/statistics/agriculture/">Agriculture</a>  <span class="externalSource"></span></li>
+  
+  <li id="li88550_2"><a href="/en/statistics/buildingandconstruction/">Building and Construction</a>  <span class="externalSource"></span></li>
+  
+  <li id="li88550_3"><a href="/en/statistics/digitaleconomy/">Digital Economy</a>  <span class="externalSource"></span></li>
+  
+  <li id="li88550_4"><a href="/en/statistics/enterprisestatistics/">Enterprise Statistics</a>  <span class="externalSource"></span></li>
+  
+  <li id="li88550_5"><a href="/en/statistics/industry/">Industry</a>  <span class="externalSource"></span></li>
+  
+  <li id="li88550_6"><a href="/en/statistics/internationalenterprises/">International Enterprises</a>  <span class="externalSource"></span></li>
+  
+  <li id="li88550_7"><a href="/en/statistics/peopleinbusiness/">People in Business</a>  <span class="externalSource"></span></li>
+  
+  <li id="li88550_8"><a href="/en/statistics/retailandservices/">Retail and Services</a>  <span class="externalSource"></span></li>
+  
+  <li id="li88550_9"><a href="/en/statistics/smallandmediumenterprises/">Small and Medium Enterprises</a>  <span class="externalSource"></span></li>
+  
+  <li id="li88550_10"><a href="/en/statistics/technologyandinnovation/">Technology and Innovation</a>  <span class="externalSource"></span></li>
+  
+  <li id="li88550_11"><a href="/en/statistics/tourismandtravel/">Tourism and Travel</a>  <span class="externalSource"></span></li>
+  
+  <li id="li88550_12"><a href="/en/statistics/transport/">Transport</a>  <span class="externalSource"></span></li>
+</ul>
+
+
+<!--<div style="margin-bottom: 20px"></div>-->
+
+<script>
+ 
+ $("#li88550_1").not(":has(a)").remove();  
+  $("#li88550_2").not(":has(a)").remove();
+  $("#li88550_3").not(":has(a)").remove();  
+  $("#li88550_4").not(":has(a)").remove();  
+  $("#li88550_5").not(":has(a)").remove();
+  $("#li88550_6").not(":has(a)").remove();
+  $("#li88550_7").not(":has(a)").remove();
+  $("#li88550_8").not(":has(a)").remove();
+  $("#li88550_9").not(":has(a)").remove();
+  $("#li88550_10").not(":has(a)").remove();
+  $("#li88550_11").not(":has(a)").remove();
+  $("#li88550_12").not(":has(a)").remove();
+  
+</script>  
+
+
+</li>
+<li><a href="/en/statistics/">Economy</a>
+<!-- navigation object : Economy --><span id="d.en.88556"></span>
+<ul class="links ulList">
+  
+  <li id="li88556_1"><a href="/en/statistics/internationalaccounts/">International Accounts</a>  <span class="externalSource"></span></li>
+  
+  <li id="li88556_2"><a href="/en/statistics/prices/">Prices</a>  <span class="externalSource"></span></li>
+  
+  <li id="li88556_3"><a href="/en/statistics/nationalaccounts/">National Accounts</a>  <span class="externalSource"></span></li>
+  
+  <li id="li88556_4"><a href="/en/statistics/governmentaccounts/">Government Accounts</a>  <span class="externalSource"></span></li>
+  
+  <li id="li88556_5"><a href="/en/statistics/externaltrade/">External Trade</a>  <span class="externalSource"></span></li>
+  
+  <li id="li88556_6"><a href="/en/statistics/keyeconomicindicators/">Key Economic Indicators</a>  <span class="externalSource"></span></li>
+  
+  <li id="li88556_7"><a href="/en/statistics/imfsummarydatapage/">IMF Summary Data Page</a>  <span class="externalSource"></span></li>
+  
+  <li id="li88556_8">  <span class="externalSource"></span></li>
+  
+  <li id="li88556_9">  <span class="externalSource"></span></li>
+  
+  <li id="li88556_10">  <span class="externalSource"></span></li>
+  
+  <li id="li88556_11">  <span class="externalSource"></span></li>
+  
+  <li id="li88556_12">  <span class="externalSource"></span></li>
+</ul>
+
+
+<!--<div style="margin-bottom: 20px"></div>-->
+
+<script>
+ 
+ $("#li88556_1").not(":has(a)").remove();  
+  $("#li88556_2").not(":has(a)").remove();
+  $("#li88556_3").not(":has(a)").remove();  
+  $("#li88556_4").not(":has(a)").remove();  
+  $("#li88556_5").not(":has(a)").remove();
+  $("#li88556_6").not(":has(a)").remove();
+  $("#li88556_7").not(":has(a)").remove();
+  $("#li88556_8").not(":has(a)").remove();
+  $("#li88556_9").not(":has(a)").remove();
+  $("#li88556_10").not(":has(a)").remove();
+  $("#li88556_11").not(":has(a)").remove();
+  $("#li88556_12").not(":has(a)").remove();
+  
+</script>  
+
+
+</li>
+<li><a href="/en/statistics/">Environment</a>
+<!-- navigation object : Environment and Climate --><span id="d.en.88559"></span>
+<ul class="links ulList">
+  
+  <li id="li88559_1"><a href="/en/statistics/agri-environment/">Agri-Environment</a>  <span class="externalSource"></span></li>
+  
+  <li id="li88559_2"><a href="/en/statistics/climate/">Climate</a>  <span class="externalSource"></span></li>
+  
+  <li id="li88559_3"><a href="/en/statistics/ecosystemaccounts/">Ecosystem Accounts</a>  <span class="externalSource"></span></li>
+  
+  <li id="li88559_4"><a href="/en/statistics/energy/">Energy</a>  <span class="externalSource"></span></li>
+  
+  <li id="li88559_5"><a href="/en/statistics/environmentaccounts/">Environment Accounts</a>  <span class="externalSource"></span></li>
+  
+  <li id="li88559_6"><a href="/en/statistics/fishery/">Fishery</a>  <span class="externalSource"></span></li>
+  
+  <li id="li88559_7"><a href="/en/statistics/forestry/">Forestry</a>  <span class="externalSource"></span></li>
+  
+  <li id="li88559_8"><a href="/en/statistics/indicators/">Indicators</a>  <span class="externalSource"></span></li>
+  
+  <li id="li88559_9"><a href="/en/statistics/social/">Social</a>  <span class="externalSource"></span></li>
+  
+  <li id="li88559_10"><a href="/en/statistics/waterandwastewater/">Water and Waste Water</a>  <span class="externalSource"></span></li>
+  
+  <li id="li88559_11">  <span class="externalSource"></span></li>
+  
+  <li id="li88559_12">  <span class="externalSource"></span></li>
+</ul>
+
+
+<!--<div style="margin-bottom: 20px"></div>-->
+
+<script>
+ 
+ $("#li88559_1").not(":has(a)").remove();  
+  $("#li88559_2").not(":has(a)").remove();
+  $("#li88559_3").not(":has(a)").remove();  
+  $("#li88559_4").not(":has(a)").remove();  
+  $("#li88559_5").not(":has(a)").remove();
+  $("#li88559_6").not(":has(a)").remove();
+  $("#li88559_7").not(":has(a)").remove();
+  $("#li88559_8").not(":has(a)").remove();
+  $("#li88559_9").not(":has(a)").remove();
+  $("#li88559_10").not(":has(a)").remove();
+  $("#li88559_11").not(":has(a)").remove();
+  $("#li88559_12").not(":has(a)").remove();
+  
+</script>  
+
+
+</li>
+<li><a href="/en/statistics/generalintereststatistics/">General Statistical Publications</a><br><br>
+     <a href="/en/statistics/a-zofreleasespublications/">A-Z of Releases and Publications</a><br><br>
+     <a href="/en/statistics/hubsdashboards/">Hubs & Dashboards</a>
+</li>
+</ul>
+<a class="close" href="javascript:">close <em class="fa fa-arrow-circle-up">&nbsp;</em></a></div>
+<!--/ddBox--></li>
+<li><span id="databasesTab"><a title="Databases" href="/en/databases/">Databases</a></span></li>
+<li><span id="methodsTab"><a title="Methods" href="/en/methods/">Methods</a></span></li>
+<li><span id="surveysTab"><a title="Surveys" href="/en/surveys/">Surveys</a></span></li>
+<li><span id="aboutUsTab"><a title="About Us" href="/en/aboutus/">About Us</a></span></li>
+<li><span id="censusTab"><a title="Census" href="/en/census/">Census</a></span></li>
+<li><span id="trustTab"><a title="Trust & Transparency" href="/en/trusttransparency/">Trust & Transparency</a></span></li>
+</div><!--/col-->
+</div><!--/row-->
+</div><!--/mainNav-->
+  <!-- END NAVIGATION -->
+
+<!--end Code only (admin)-->	
+      <!--/mainNav-->
+         <!-- end header -->   
+
+		
+    
+    <!-- ********** CONTENT ********** -->
+		<div class="container content">
+			<div class="row pageHeader">
+				<div class="col span12">
+					<div id="breadcrumbs">
+						<span class="youarehere">You are here: </span> 
+                       <a href="/en/">Home</a> / <a href="/en/statistics/">Statistics</a>  /
+						<!-- navigation object : Breadcrumb --><a href="/en/releasesandpublications/ep/p-mue/monthlyunemploymentjuly2026/">Monthly Unemployment July 2026</a>
+					</div><!--/breadcrumb-->
+				</div><!--/col-->
+                 
+<script>
+   $(function(){
+   
+   var publicationTitle = escape("Monthly Unemployment July 2026");
+   var chapterTitle = escape("Monthly Unemployment July 2026");
+       
+   if(publicationTitle == chapterTitle) {
+   
+   $( "#chapterTitle" ).hide();
+   } 
+   
+   });    
+        
+</script>
+              
+                           
+				<div class="col span12">
+					
+                  <h1 id="pageTitle">Monthly Unemployment July 2026  </h1>
+                  
+                  
+				</div><!--/col-->
+
+			</div><!--/row-->
+          
+        
+          
+          <div  class="row">	
+            
+          </div><!--/row-->
+          
+			<div class="row mainContent">
+              
+              <div class="col span12" id="chapterTitleWrapper">
+                  
+                  <h2 id="chapterTitle">Monthly Unemployment July 2026</h2>
+                  
+				</div><!--/col-->
+              
+				<div id="columnLeft" class="col columnLeftinner-rightcol">
+					<div class="copy">
+                      <div class="int-pub-header">
+  
+  <div class="int-pub-headline-block">
+
+	<h2>The Monthly Unemployment rate for July 2026 was 5.1%, up from 5.0% in June 2026</h2>
+    
+    
+  </div>
+
+    <div class="int-pub-body-block">
+
+    <div class="pub-header-data">
+                
+            <div class="pub-header-issn">
+                Online ISSN: 2009-8456
+            </div> 
+
+		<div class="pub-header-date">
+ 		 	CSO statistical release, <time datetime="2026-08-6IST110000+0100">06 August 2026</time>, 11am
+
+            
+
+
+		</div> <!-- end pub-header-date -->
+
+	</div> <!-- end pub-header-data -->
+
+      
+
+  </div> <!-- end int-pub-body-block -->
+  
+</div> <!-- end int-pub-header -->
+
+<div class="release-key-findings">
+    <h3 class="pub-findings-header">Key Findings</h3>
+
+    <ul class="pub-findings-list">
+
+        <li><p>In July 2026, the seasonally adjusted unemployment rate was 5.1%, up from 5.0% in both June 2026 and July 2025.</p></li>
+
+        <li><p>Breaking down the results by sex, the monthly unemployment rate for males in July 2026 was 4.9%, up from a revised rate of 4.8% in June 2026, and down from 5.0% in July 2025.</p></li>
+
+        <li><p>The monthly unemployment rate in July 2026 was 5.3% for females, an increase from a revised rate of 5.2% in June 2026, and up from 5.0% in July 2025.</p></li>
+
+        <li><p>In terms of age, the monthly unemployment rate for people aged 15-24 years (Youth Unemployment Rate) was 12.3%, up from a revised rate of 11.8% in June 2026.</p></li>
+
+        <li><p>The monthly unemployment rate for people aged 25-74 years at 4.1%, was up from a revised rate of 4.0% in June 2026.</p></li>
+
+        
+
+        
+
+        
+
+    </ul>
+</div>
+
+    <div class="pub-comment">
+        <h3>Statistician's Comment</h3>
+        <p>The Central Statistics Office (CSO) has today (06 August 2026) published Monthly Unemployment Estimates results for July 2026.</p>
+<p>Commenting on today&rsquo;s release, Conor Delves, Statistician in the Labour Market Analysis Section, said:<em> &ldquo;The seasonally adjusted unemployment rate for all people aged 15-74 years in July 2026 was 5.1%, up from 5.0% in both June 2026 and July 2025. In July 2026, the unemployment rate for males was 4.9%, and for females was 5.3%.</em></p>
+<p><em>The seasonally adjusted number of people unemployed was 149,900 in July 2026, compared with 147,100 in June 2026. There was a rise of 2,600 in the seasonally adjusted number of people unemployed in July 2026 when compared with July 2025.</em></p>
+<p><em>The seasonally adjusted number of unemployed males increased to 75,600 in July 2026, compared with 74,500 in June 2026. The seasonally adjusted number of unemployed females in July 2026 was 74,300, up from 72,500 in June 2026.&rdquo;</em></p>
+    </div>
+
+
+<span id="d.en.631524"></span>
+<div class="pub-comment">
+    <h3>Editor's Note</h3>
+<p>The methodology for the Monthly Unemployment Estimates involves forecasting the number of persons who are unemployed using the trend in the recipient Live Register series. The Department of Social Protection is providing Working Age Income supports to people arriving in Ireland from Ukraine under the Temporary Protection Directive. The Live Register series includes recipients of these supports who have met the relevant criteria. This has impacted on the numbers of unemployed, primarily females, in these monthly estimates.</p>
+<p>From 9 September 2024 beneficiaries of EU&rsquo;s Temporary Protection Directive (TPD) living in Designated Accommodation Centres no longer qualify for Jobseeker&rsquo;s Allowance and thus are no longer enumerated on the Live Register &ndash; see Background Notes.</p>
+</div>
+
+
+
+<div class="advisory-notification advisory--grey">
+    <p>Data in this release are subject to revision based on updates to the seasonally adjusted series whenever new monthly data are added. In addition, it should be noted that larger revisions can occur when the most recent Labour Force Survey (LFS) data are included in the calculation process.</p>
+<p>The Monthly Unemployment Estimates published today for July 2026 have incorporated the LFS benchmarks up to Q2 2026 for the monthly estimates up to June 2026. <strong>The estimates for July 2026 have been forecasted. Forecasted figures are subject to revision.</strong></p>
+    
+</div><span id="d.en.631531"></span>
+<h3 class="pub-findings-header ">Key Figures  </h3>
+
+ <div class="indicatorHeadlineTable"><div id="excel-631525-insertexceltable">
+<div id="table-631525-1-insertexceltable">
+<table class="excel-631525-media-t1">
+<colgroup>
+<col width="138">
+<col width="215">
+<col width="26">
+<col width="215">
+</colgroup>
+<tbody>
+<tr class="excel-631525-media-r1">
+<td class="excel-631525-media-c1" colspan="4">Seasonally Adjusted Monthly Unemployment</td>
+</tr>
+<tr class="excel-631525-media-r1">
+<td class="excel-631525-media-c2">&nbsp;</td><td class="excel-631525-media-c3">Number of persons unemployed</td><td class="excel-631525-media-c3">&nbsp;</td><td class="excel-631525-media-c3">Unemployment rate (%)</td>
+</tr>
+<tr class="excel-631525-media-r1">
+<td class="excel-631525-media-c4">July 2025</td><td class="excel-631525-media-c5">147,300</td><td class="excel-631525-media-c6">&nbsp;</td><td class="excel-631525-media-c6">5.0</td>
+</tr>
+<tr class="excel-631525-media-r1">
+<td class="excel-631525-media-c4">June 2026</td><td class="excel-631525-media-c7">147,100</td><td class="excel-631525-media-c6">&nbsp;</td><td class="excel-631525-media-c6">5.0</td>
+</tr>
+<tr class="excel-631525-media-r1">
+<td class="excel-631525-media-c1">July 2026</td><td class="excel-631525-media-c8">149,900</td><td class="excel-631525-media-c9">&nbsp;</td><td class="excel-631525-media-c9">5.1</td>
+</tr>
+<tr class="excel-631525-media-r1">
+<td class="excel-631525-media-c4">&nbsp;</td><td class="excel-631525-media-c10">Number</td><td class="excel-631525-media-c10">&nbsp;</td><td class="excel-631525-media-c10">Percentage points</td>
+</tr>
+<tr class="excel-631525-media-r1">
+<td class="excel-631525-media-c4">Change in month</td><td class="excel-631525-media-c6">2,800</td><td class="excel-631525-media-c6">&nbsp;</td><td class="excel-631525-media-c6">0.1</td>
+</tr>
+<tr class="excel-631525-media-r1">
+<td class="excel-631525-media-c1">Change in year</td><td class="excel-631525-media-c9">2,600</td><td class="excel-631525-media-c9">&nbsp;</td><td class="excel-631525-media-c9">0.1</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+</div> 
+<div class="OpenInExcel">Open in Excel: <a href="/en/media/csoie/releasespublications/documents/ep/monthlyunemployment/july2026/P-MUE2026M07HT.xlsx">Monthly Unemployment July 2026 Headline Table (XLS 10KB)</a> </div>
+
+
+
+
+
+
+
+
+<div class="px-stat-widget-chart new-widget-style px-stat-widget-chart-standard">
+<div class="px-stat-widget">
+   <div class="module  px-stat-widget-module-75">
+      <div class="moduleHeader">       
+        <span class="px-stat-widget-heading">
+Figure 1: Seasonally Adjusted Monthly Unemployment Rate (ILO), July 2023 to July 2026
+         </span>
+      </div>
+      <div id="px-stat-widget-631533" class="moduleBody">
+       
+         <script src="https://cdn.jsdelivr.net/gh/CSOIreland/PxWidget@2.9.18/js/isogram.min.js"></script>
+<script>pxWidget.queue('chart', 'pxwidget4516203741', {"autoupdate":false,"matrix":null,"type":"line","showPercentage":null,"copyright":true,"link":"https://data.cso.ie/table/MUM01","sort":false,"maxNumberValues":null,"metadata":{"xAxis":{"TLIST(M1)":["202607","202606","202605","202604","202603","202602","202601","202512","202511","202510","202509","202508","202507","202506","202505","202504","202503","202502","202501","202412","202411","202410","202409","202408","202407","202406","202405","202404","202403","202402","202401","202312","202311","202310","202309","202308","202307"],"role":"time"},"fluidTime":[],"api":{"query":{},"response":{"class":"dataset","dimension":{"STATISTIC":{"category":{"index":{"MUM01C01":0,"MUM01C02":1},"label":{"MUM01C01":"Seasonally Adjusted Monthly Unemployment","MUM01C02":"Seasonally Adjusted Monthly Unemployment Rate"},"unit":{"MUM01C01":{"decimals":1,"label":"Thousand","position":"end"},"MUM01C02":{"decimals":1,"label":"%","position":"end"}}},"label":"Statistic"},"TLIST(M1)":{"category":{"index":{"199801":0,"199802":1,"199803":2,"199804":3,"199805":4,"199806":5,"199807":6,"199808":7,"199809":8,"199810":9,"199811":10,"199812":11,"199901":12,"199902":13,"199903":14,"199904":15,"199905":16,"199906":17,"199907":18,"199908":19,"199909":20,"199910":21,"199911":22,"199912":23,"200001":24,"200002":25,"200003":26,"200004":27,"200005":28,"200006":29,"200007":30,"200008":31,"200009":32,"200010":33,"200011":34,"200012":35,"200101":36,"200102":37,"200103":38,"200104":39,"200105":40,"200106":41,"200107":42,"200108":43,"200109":44,"200110":45,"200111":46,"200112":47,"200201":48,"200202":49,"200203":50,"200204":51,"200205":52,"200206":53,"200207":54,"200208":55,"200209":56,"200210":57,"200211":58,"200212":59,"200301":60,"200302":61,"200303":62,"200304":63,"200305":64,"200306":65,"200307":66,"200308":67,"200309":68,"200310":69,"200311":70,"200312":71,"200401":72,"200402":73,"200403":74,"200404":75,"200405":76,"200406":77,"200407":78,"200408":79,"200409":80,"200410":81,"200411":82,"200412":83,"200501":84,"200502":85,"200503":86,"200504":87,"200505":88,"200506":89,"200507":90,"200508":91,"200509":92,"200510":93,"200511":94,"200512":95,"200601":96,"200602":97,"200603":98,"200604":99,"200605":100,"200606":101,"200607":102,"200608":103,"200609":104,"200610":105,"200611":106,"200612":107,"200701":108,"200702":109,"200703":110,"200704":111,"200705":112,"200706":113,"200707":114,"200708":115,"200709":116,"200710":117,"200711":118,"200712":119,"200801":120,"200802":121,"200803":122,"200804":123,"200805":124,"200806":125,"200807":126,"200808":127,"200809":128,"200810":129,"200811":130,"200812":131,"200901":132,"200902":133,"200903":134,"200904":135,"200905":136,"200906":137,"200907":138,"200908":139,"200909":140,"200910":141,"200911":142,"200912":143,"201001":144,"201002":145,"201003":146,"201004":147,"201005":148,"201006":149,"201007":150,"201008":151,"201009":152,"201010":153,"201011":154,"201012":155,"201101":156,"201102":157,"201103":158,"201104":159,"201105":160,"201106":161,"201107":162,"201108":163,"201109":164,"201110":165,"201111":166,"201112":167,"201201":168,"201202":169,"201203":170,"201204":171,"201205":172,"201206":173,"201207":174,"201208":175,"201209":176,"201210":177,"201211":178,"201212":179,"201301":180,"201302":181,"201303":182,"201304":183,"201305":184,"201306":185,"201307":186,"201308":187,"201309":188,"201310":189,"201311":190,"201312":191,"201401":192,"201402":193,"201403":194,"201404":195,"201405":196,"201406":197,"201407":198,"201408":199,"201409":200,"201410":201,"201411":202,"201412":203,"201501":204,"201502":205,"201503":206,"201504":207,"201505":208,"201506":209,"201507":210,"201508":211,"201509":212,"201510":213,"201511":214,"201512":215,"201601":216,"201602":217,"201603":218,"201604":219,"201605":220,"201606":221,"201607":222,"201608":223,"201609":224,"201610":225,"201611":226,"201612":227,"201701":228,"201702":229,"201703":230,"201704":231,"201705":232,"201706":233,"201707":234,"201708":235,"201709":236,"201710":237,"201711":238,"201712":239,"201801":240,"201802":241,"201803":242,"201804":243,"201805":244,"201806":245,"201807":246,"201808":247,"201809":248,"201810":249,"201811":250,"201812":251,"201901":252,"201902":253,"201903":254,"201904":255,"201905":256,"201906":257,"201907":258,"201908":259,"201909":260,"201910":261,"201911":262,"201912":263,"202001":264,"202002":265,"202003":266,"202004":267,"202005":268,"202006":269,"202007":270,"202008":271,"202009":272,"202010":273,"202011":274,"202012":275,"202101":276,"202102":277,"202103":278,"202104":279,"202105":280,"202106":281,"202107":282,"202108":283,"202109":284,"202110":285,"202111":286,"202112":287,"202201":288,"202202":289,"202203":290,"202204":291,"202205":292,"202206":293,"202207":294,"202208":295,"202209":296,"202210":297,"202211":298,"202212":299,"202301":300,"202302":301,"202303":302,"202304":303,"202305":304,"202306":305,"202307":306,"202308":307,"202309":308,"202310":309,"202311":310,"202312":311,"202401":312,"202402":313,"202403":314,"202404":315,"202405":316,"202406":317,"202407":318,"202408":319,"202409":320,"202410":321,"202411":322,"202412":323,"202501":324,"202502":325,"202503":326,"202504":327,"202505":328,"202506":329,"202507":330,"202508":331,"202509":332,"202510":333,"202511":334,"202512":335,"202601":336,"202602":337,"202603":338,"202604":339,"202605":340,"202606":341,"202607":342},"label":{"199801":"1998 January","199802":"1998 February","199803":"1998 March","199804":"1998 April","199805":"1998 May","199806":"1998 June","199807":"1998 July","199808":"1998 August","199809":"1998 September","199810":"1998 October","199811":"1998 November","199812":"1998 December","199901":"1999 January","199902":"1999 February","199903":"1999 March","199904":"1999 April","199905":"1999 May","199906":"1999 June","199907":"1999 July","199908":"1999 August","199909":"1999 September","199910":"1999 October","199911":"1999 November","199912":"1999 December","200001":"2000 January","200002":"2000 February","200003":"2000 March","200004":"2000 April","200005":"2000 May","200006":"2000 June","200007":"2000 July","200008":"2000 August","200009":"2000 September","200010":"2000 October","200011":"2000 November","200012":"2000 December","200101":"2001 January","200102":"2001 February","200103":"2001 March","200104":"2001 April","200105":"2001 May","200106":"2001 June","200107":"2001 July","200108":"2001 August","200109":"2001 September","200110":"2001 October","200111":"2001 November","200112":"2001 December","200201":"2002 January","200202":"2002 February","200203":"2002 March","200204":"2002 April","200205":"2002 May","200206":"2002 June","200207":"2002 July","200208":"2002 August","200209":"2002 September","200210":"2002 October","200211":"2002 November","200212":"2002 December","200301":"2003 January","200302":"2003 February","200303":"2003 March","200304":"2003 April","200305":"2003 May","200306":"2003 June","200307":"2003 July","200308":"2003 August","200309":"2003 September","200310":"2003 October","200311":"2003 November","200312":"2003 December","200401":"2004 January","200402":"2004 February","200403":"2004 March","200404":"2004 April","200405":"2004 May","200406":"2004 June","200407":"2004 July","200408":"2004 August","200409":"2004 September","200410":"2004 October","200411":"2004 November","200412":"2004 December","200501":"2005 January","200502":"2005 February","200503":"2005 March","200504":"2005 April","200505":"2005 May","200506":"2005 June","200507":"2005 July","200508":"2005 August","200509":"2005 September","200510":"2005 October","200511":"2005 November","200512":"2005 December","200601":"2006 January","200602":"2006 February","200603":"2006 March","200604":"2006 April","200605":"2006 May","200606":"2006 June","200607":"2006 July","200608":"2006 August","200609":"2006 September","200610":"2006 October","200611":"2006 November","200612":"2006 December","200701":"2007 January","200702":"2007 February","200703":"2007 March","200704":"2007 April","200705":"2007 May","200706":"2007 June","200707":"2007 July","200708":"2007 August","200709":"2007 September","200710":"2007 October","200711":"2007 November","200712":"2007 December","200801":"2008 January","200802":"2008 February","200803":"2008 March","200804":"2008 April","200805":"2008 May","200806":"2008 June","200807":"2008 July","200808":"2008 August","200809":"2008 September","200810":"2008 October","200811":"2008 November","200812":"2008 December","200901":"2009 January","200902":"2009 February","200903":"2009 March","200904":"2009 April","200905":"2009 May","200906":"2009 June","200907":"2009 July","200908":"2009 August","200909":"2009 September","200910":"2009 October","200911":"2009 November","200912":"2009 December","201001":"2010 January","201002":"2010 February","201003":"2010 March","201004":"2010 April","201005":"2010 May","201006":"2010 June","201007":"2010 July","201008":"2010 August","201009":"2010 September","201010":"2010 October","201011":"2010 November","201012":"2010 December","201101":"2011 January","201102":"2011 February","201103":"2011 March","201104":"2011 April","201105":"2011 May","201106":"2011 June","201107":"2011 July","201108":"2011 August","201109":"2011 September","201110":"2011 October","201111":"2011 November","201112":"2011 December","201201":"2012 January","201202":"2012 February","201203":"2012 March","201204":"2012 April","201205":"2012 May","201206":"2012 June","201207":"2012 July","201208":"2012 August","201209":"2012 September","201210":"2012 October","201211":"2012 November","201212":"2012 December","201301":"2013 January","201302":"2013 February","201303":"2013 March","201304":"2013 April","201305":"2013 May","201306":"2013 June","201307":"2013 July","201308":"2013 August","201309":"2013 September","201310":"2013 October","201311":"2013 November","201312":"2013 December","201401":"2014 January","201402":"2014 February","201403":"2014 March","201404":"2014 April","201405":"2014 May","201406":"2014 June","201407":"2014 July","201408":"2014 August","201409":"2014 September","201410":"2014 October","201411":"2014 November","201412":"2014 December","201501":"2015 January","201502":"2015 February","201503":"2015 March","201504":"2015 April","201505":"2015 May","201506":"2015 June","201507":"2015 July","201508":"2015 August","201509":"2015 September","201510":"2015 October","201511":"2015 November","201512":"2015 December","201601":"2016 January","201602":"2016 February","201603":"2016 March","201604":"2016 April","201605":"2016 May","201606":"2016 June","201607":"2016 July","201608":"2016 August","201609":"2016 September","201610":"2016 October","201611":"2016 November","201612":"2016 December","201701":"2017 January","201702":"2017 February","201703":"2017 March","201704":"2017 April","201705":"2017 May","201706":"2017 June","201707":"2017 July","201708":"2017 August","201709":"2017 September","201710":"2017 October","201711":"2017 November","201712":"2017 December","201801":"2018 January","201802":"2018 February","201803":"2018 March","201804":"2018 April","201805":"2018 May","201806":"2018 June","201807":"2018 July","201808":"2018 August","201809":"2018 September","201810":"2018 October","201811":"2018 November","201812":"2018 December","201901":"2019 January","201902":"2019 February","201903":"2019 March","201904":"2019 April","201905":"2019 May","201906":"2019 June","201907":"2019 July","201908":"2019 August","201909":"2019 September","201910":"2019 October","201911":"2019 November","201912":"2019 December","202001":"2020 January","202002":"2020 February","202003":"2020 March","202004":"2020 April","202005":"2020 May","202006":"2020 June","202007":"2020 July","202008":"2020 August","202009":"2020 September","202010":"2020 October","202011":"2020 November","202012":"2020 December","202101":"2021 January","202102":"2021 February","202103":"2021 March","202104":"2021 April","202105":"2021 May","202106":"2021 June","202107":"2021 July","202108":"2021 August","202109":"2021 September","202110":"2021 October","202111":"2021 November","202112":"2021 December","202201":"2022 January","202202":"2022 February","202203":"2022 March","202204":"2022 April","202205":"2022 May","202206":"2022 June","202207":"2022 July","202208":"2022 August","202209":"2022 September","202210":"2022 October","202211":"2022 November","202212":"2022 December","202301":"2023 January","202302":"2023 February","202303":"2023 March","202304":"2023 April","202305":"2023 May","202306":"2023 June","202307":"2023 July","202308":"2023 August","202309":"2023 September","202310":"2023 October","202311":"2023 November","202312":"2023 December","202401":"2024 January","202402":"2024 February","202403":"2024 March","202404":"2024 April","202405":"2024 May","202406":"2024 June","202407":"2024 July","202408":"2024 August","202409":"2024 September","202410":"2024 October","202411":"2024 November","202412":"2024 December","202501":"2025 January","202502":"2025 February","202503":"2025 March","202504":"2025 April","202505":"2025 May","202506":"2025 June","202507":"2025 July","202508":"2025 August","202509":"2025 September","202510":"2025 October","202511":"2025 November","202512":"2025 December","202601":"2026 January","202602":"2026 February","202603":"2026 March","202604":"2026 April","202605":"2026 May","202606":"2026 June","202607":"2026 July"}},"label":"Month"},"C02076V02508":{"category":{"index":{"310":0,"316":1,"4350":2},"label":{"310":"15 - 24 years","316":"15 - 74 years","4350":"25 - 74 years"}},"label":"Age Group"},"C02199V02655":{"category":{"index":{"1":1,"2":2,"-":0},"label":{"1":"Male","2":"Female","-":"Both sexes"}},"label":"Sex"}},"extension":{"matrix":"MUM01","language":{"code":"en","name":"English"},"elimination":{"C02076V02508":null,"C02199V02655":null},"contact":{"name":"Conor Delves","email":"labour@cso.ie","phone":"(+353) 21 453 5189"},"subject":{"code":26,"value":"Labour Market"},"product":{"code":"MUE","value":"Monthly Unemployment"},"official":true,"copyright":{"name":"Central Statistics Office, Ireland","code":"CSO","href":"https://www.cso.ie/"},"exceptional":false,"reservation":false,"archive":false,"experimental":false,"analytical":false},"id":["STATISTIC","TLIST(M1)","C02076V02508","C02199V02655"],"label":"Seasonally Adjusted Monthly Unemployment","note":["For more information, please go to the[url=https://www.cso.ie/en/statistics/labourmarket/monthlyunemployment/] statistical release page[/url] on our website."],"role":{"metric":["STATISTIC"],"time":["TLIST(M1)"],"geo":null,"classification":["C02076V02508","C02199V02655"]},"size":[2,343,3,3],"value":[],"version":"2.0"}}},"data":{"labels":[],"datasets":[{"label":"Monthly Unemployment Rate","pointRadius":2,"pointHoverRadius":4,"maxBarThickness":90,"minBarLength":1,"api":{"query":{},"response":{"class":"dataset","dimension":{"STATISTIC":{"category":{"index":{"MUM01C02":0},"label":{"MUM01C02":"Seasonally Adjusted Monthly Unemployment Rate"},"unit":{"MUM01C02":{"decimals":1,"label":"%","position":"end"}}},"label":"Statistic"},"TLIST(M1)":{"category":{"index":{"199801":0,"199802":1,"199803":2,"199804":3,"199805":4,"199806":5,"199807":6,"199808":7,"199809":8,"199810":9,"199811":10,"199812":11,"199901":12,"199902":13,"199903":14,"199904":15,"199905":16,"199906":17,"199907":18,"199908":19,"199909":20,"199910":21,"199911":22,"199912":23,"200001":24,"200002":25,"200003":26,"200004":27,"200005":28,"200006":29,"200007":30,"200008":31,"200009":32,"200010":33,"200011":34,"200012":35,"200101":36,"200102":37,"200103":38,"200104":39,"200105":40,"200106":41,"200107":42,"200108":43,"200109":44,"200110":45,"200111":46,"200112":47,"200201":48,"200202":49,"200203":50,"200204":51,"200205":52,"200206":53,"200207":54,"200208":55,"200209":56,"200210":57,"200211":58,"200212":59,"200301":60,"200302":61,"200303":62,"200304":63,"200305":64,"200306":65,"200307":66,"200308":67,"200309":68,"200310":69,"200311":70,"200312":71,"200401":72,"200402":73,"200403":74,"200404":75,"200405":76,"200406":77,"200407":78,"200408":79,"200409":80,"200410":81,"200411":82,"200412":83,"200501":84,"200502":85,"200503":86,"200504":87,"200505":88,"200506":89,"200507":90,"200508":91,"200509":92,"200510":93,"200511":94,"200512":95,"200601":96,"200602":97,"200603":98,"200604":99,"200605":100,"200606":101,"200607":102,"200608":103,"200609":104,"200610":105,"200611":106,"200612":107,"200701":108,"200702":109,"200703":110,"200704":111,"200705":112,"200706":113,"200707":114,"200708":115,"200709":116,"200710":117,"200711":118,"200712":119,"200801":120,"200802":121,"200803":122,"200804":123,"200805":124,"200806":125,"200807":126,"200808":127,"200809":128,"200810":129,"200811":130,"200812":131,"200901":132,"200902":133,"200903":134,"200904":135,"200905":136,"200906":137,"200907":138,"200908":139,"200909":140,"200910":141,"200911":142,"200912":143,"201001":144,"201002":145,"201003":146,"201004":147,"201005":148,"201006":149,"201007":150,"201008":151,"201009":152,"201010":153,"201011":154,"201012":155,"201101":156,"201102":157,"201103":158,"201104":159,"201105":160,"201106":161,"201107":162,"201108":163,"201109":164,"201110":165,"201111":166,"201112":167,"201201":168,"201202":169,"201203":170,"201204":171,"201205":172,"201206":173,"201207":174,"201208":175,"201209":176,"201210":177,"201211":178,"201212":179,"201301":180,"201302":181,"201303":182,"201304":183,"201305":184,"201306":185,"201307":186,"201308":187,"201309":188,"201310":189,"201311":190,"201312":191,"201401":192,"201402":193,"201403":194,"201404":195,"201405":196,"201406":197,"201407":198,"201408":199,"201409":200,"201410":201,"201411":202,"201412":203,"201501":204,"201502":205,"201503":206,"201504":207,"201505":208,"201506":209,"201507":210,"201508":211,"201509":212,"201510":213,"201511":214,"201512":215,"201601":216,"201602":217,"201603":218,"201604":219,"201605":220,"201606":221,"201607":222,"201608":223,"201609":224,"201610":225,"201611":226,"201612":227,"201701":228,"201702":229,"201703":230,"201704":231,"201705":232,"201706":233,"201707":234,"201708":235,"201709":236,"201710":237,"201711":238,"201712":239,"201801":240,"201802":241,"201803":242,"201804":243,"201805":244,"201806":245,"201807":246,"201808":247,"201809":248,"201810":249,"201811":250,"201812":251,"201901":252,"201902":253,"201903":254,"201904":255,"201905":256,"201906":257,"201907":258,"201908":259,"201909":260,"201910":261,"201911":262,"201912":263,"202001":264,"202002":265,"202003":266,"202004":267,"202005":268,"202006":269,"202007":270,"202008":271,"202009":272,"202010":273,"202011":274,"202012":275,"202101":276,"202102":277,"202103":278,"202104":279,"202105":280,"202106":281,"202107":282,"202108":283,"202109":284,"202110":285,"202111":286,"202112":287,"202201":288,"202202":289,"202203":290,"202204":291,"202205":292,"202206":293,"202207":294,"202208":295,"202209":296,"202210":297,"202211":298,"202212":299,"202301":300,"202302":301,"202303":302,"202304":303,"202305":304,"202306":305,"202307":306,"202308":307,"202309":308,"202310":309,"202311":310,"202312":311,"202401":312,"202402":313,"202403":314,"202404":315,"202405":316,"202406":317,"202407":318,"202408":319,"202409":320,"202410":321,"202411":322,"202412":323,"202501":324,"202502":325,"202503":326,"202504":327,"202505":328,"202506":329,"202507":330,"202508":331,"202509":332,"202510":333,"202511":334,"202512":335,"202601":336,"202602":337,"202603":338,"202604":339,"202605":340,"202606":341,"202607":342},"label":{"199801":"1998 January","199802":"1998 February","199803":"1998 March","199804":"1998 April","199805":"1998 May","199806":"1998 June","199807":"1998 July","199808":"1998 August","199809":"1998 September","199810":"1998 October","199811":"1998 November","199812":"1998 December","199901":"1999 January","199902":"1999 February","199903":"1999 March","199904":"1999 April","199905":"1999 May","199906":"1999 June","199907":"1999 July","199908":"1999 August","199909":"1999 September","199910":"1999 October","199911":"1999 November","199912":"1999 December","200001":"2000 January","200002":"2000 February","200003":"2000 March","200004":"2000 April","200005":"2000 May","200006":"2000 June","200007":"2000 July","200008":"2000 August","200009":"2000 September","200010":"2000 October","200011":"2000 November","200012":"2000 December","200101":"2001 January","200102":"2001 February","200103":"2001 March","200104":"2001 April","200105":"2001 May","200106":"2001 June","200107":"2001 July","200108":"2001 August","200109":"2001 September","200110":"2001 October","200111":"2001 November","200112":"2001 December","200201":"2002 January","200202":"2002 February","200203":"2002 March","200204":"2002 April","200205":"2002 May","200206":"2002 June","200207":"2002 July","200208":"2002 August","200209":"2002 September","200210":"2002 October","200211":"2002 November","200212":"2002 December","200301":"2003 January","200302":"2003 February","200303":"2003 March","200304":"2003 April","200305":"2003 May","200306":"2003 June","200307":"2003 July","200308":"2003 August","200309":"2003 September","200310":"2003 October","200311":"2003 November","200312":"2003 December","200401":"2004 January","200402":"2004 February","200403":"2004 March","200404":"2004 April","200405":"2004 May","200406":"2004 June","200407":"2004 July","200408":"2004 August","200409":"2004 September","200410":"2004 October","200411":"2004 November","200412":"2004 December","200501":"2005 January","200502":"2005 February","200503":"2005 March","200504":"2005 April","200505":"2005 May","200506":"2005 June","200507":"2005 July","200508":"2005 August","200509":"2005 September","200510":"2005 October","200511":"2005 November","200512":"2005 December","200601":"2006 January","200602":"2006 February","200603":"2006 March","200604":"2006 April","200605":"2006 May","200606":"2006 June","200607":"2006 July","200608":"2006 August","200609":"2006 September","200610":"2006 October","200611":"2006 November","200612":"2006 December","200701":"2007 January","200702":"2007 February","200703":"2007 March","200704":"2007 April","200705":"2007 May","200706":"2007 June","200707":"2007 July","200708":"2007 August","200709":"2007 September","200710":"2007 October","200711":"2007 November","200712":"2007 December","200801":"2008 January","200802":"2008 February","200803":"2008 March","200804":"2008 April","200805":"2008 May","200806":"2008 June","200807":"2008 July","200808":"2008 August","200809":"2008 September","200810":"2008 October","200811":"2008 November","200812":"2008 December","200901":"2009 January","200902":"2009 February","200903":"2009 March","200904":"2009 April","200905":"2009 May","200906":"2009 June","200907":"2009 July","200908":"2009 August","200909":"2009 September","200910":"2009 October","200911":"2009 November","200912":"2009 December","201001":"2010 January","201002":"2010 February","201003":"2010 March","201004":"2010 April","201005":"2010 May","201006":"2010 June","201007":"2010 July","201008":"2010 August","201009":"2010 September","201010":"2010 October","201011":"2010 November","201012":"2010 December","201101":"2011 January","201102":"2011 February","201103":"2011 March","201104":"2011 April","201105":"2011 May","201106":"2011 June","201107":"2011 July","201108":"2011 August","201109":"2011 September","201110":"2011 October","201111":"2011 November","201112":"2011 December","201201":"2012 January","201202":"2012 February","201203":"2012 March","201204":"2012 April","201205":"2012 May","201206":"2012 June","201207":"2012 July","201208":"2012 August","201209":"2012 September","201210":"2012 October","201211":"2012 November","201212":"2012 December","201301":"2013 January","201302":"2013 February","201303":"2013 March","201304":"2013 April","201305":"2013 May","201306":"2013 June","201307":"2013 July","201308":"2013 August","201309":"2013 September","201310":"2013 October","201311":"2013 November","201312":"2013 December","201401":"2014 January","201402":"2014 February","201403":"2014 March","201404":"2014 April","201405":"2014 May","201406":"2014 June","201407":"2014 July","201408":"2014 August","201409":"2014 September","201410":"2014 October","201411":"2014 November","201412":"2014 December","201501":"2015 January","201502":"2015 February","201503":"2015 March","201504":"2015 April","201505":"2015 May","201506":"2015 June","201507":"2015 July","201508":"2015 August","201509":"2015 September","201510":"2015 October","201511":"2015 November","201512":"2015 December","201601":"2016 January","201602":"2016 February","201603":"2016 March","201604":"2016 April","201605":"2016 May","201606":"2016 June","201607":"2016 July","201608":"2016 August","201609":"2016 September","201610":"2016 October","201611":"2016 November","201612":"2016 December","201701":"2017 January","201702":"2017 February","201703":"2017 March","201704":"2017 April","201705":"2017 May","201706":"2017 June","201707":"2017 July","201708":"2017 August","201709":"2017 September","201710":"2017 October","201711":"2017 November","201712":"2017 December","201801":"2018 January","201802":"2018 February","201803":"2018 March","201804":"2018 April","201805":"2018 May","201806":"2018 June","201807":"2018 July","201808":"2018 August","201809":"2018 September","201810":"2018 October","201811":"2018 November","201812":"2018 December","201901":"2019 January","201902":"2019 February","201903":"2019 March","201904":"2019 April","201905":"2019 May","201906":"2019 June","201907":"2019 July","201908":"2019 August","201909":"2019 September","201910":"2019 October","201911":"2019 November","201912":"2019 December","202001":"2020 January","202002":"2020 February","202003":"2020 March","202004":"2020 April","202005":"2020 May","202006":"2020 June","202007":"2020 July","202008":"2020 August","202009":"2020 September","202010":"2020 October","202011":"2020 November","202012":"2020 December","202101":"2021 January","202102":"2021 February","202103":"2021 March","202104":"2021 April","202105":"2021 May","202106":"2021 June","202107":"2021 July","202108":"2021 August","202109":"2021 September","202110":"2021 October","202111":"2021 November","202112":"2021 December","202201":"2022 January","202202":"2022 February","202203":"2022 March","202204":"2022 April","202205":"2022 May","202206":"2022 June","202207":"2022 July","202208":"2022 August","202209":"2022 September","202210":"2022 October","202211":"2022 November","202212":"2022 December","202301":"2023 January","202302":"2023 February","202303":"2023 March","202304":"2023 April","202305":"2023 May","202306":"2023 June","202307":"2023 July","202308":"2023 August","202309":"2023 September","202310":"2023 October","202311":"2023 November","202312":"2023 December","202401":"2024 January","202402":"2024 February","202403":"2024 March","202404":"2024 April","202405":"2024 May","202406":"2024 June","202407":"2024 July","202408":"2024 August","202409":"2024 September","202410":"2024 October","202411":"2024 November","202412":"2024 December","202501":"2025 January","202502":"2025 February","202503":"2025 March","202504":"2025 April","202505":"2025 May","202506":"2025 June","202507":"2025 July","202508":"2025 August","202509":"2025 September","202510":"2025 October","202511":"2025 November","202512":"2025 December","202601":"2026 January","202602":"2026 February","202603":"2026 March","202604":"2026 April","202605":"2026 May","202606":"2026 June","202607":"2026 July"}},"label":"Month"},"C02076V02508":{"category":{"index":{"316":0},"label":{"316":"15 - 74 years"}},"label":"Age Group"},"C02199V02655":{"category":{"index":{"-":0},"label":{"-":"Both sexes"}},"label":"Sex"}},"extension":{"matrix":"MUM01","language":{"code":"en","name":"English"},"elimination":{"C02076V02508":null,"C02199V02655":null},"contact":{"name":"Conor Delves","email":"labour@cso.ie","phone":"(+353) 21 453 5189"},"subject":{"code":26,"value":"Labour Market"},"product":{"code":"MUE","value":"Monthly Unemployment"},"official":true,"copyright":{"name":"Central Statistics Office, Ireland","code":"CSO","href":"https://www.cso.ie/"},"exceptional":false,"reservation":false,"archive":false,"experimental":false,"analytical":false},"id":["STATISTIC","TLIST(M1)","C02076V02508","C02199V02655"],"label":"Seasonally Adjusted Monthly Unemployment","note":["For more information, please go to the[url=https://www.cso.ie/en/statistics/labourmarket/monthlyunemployment/] statistical release page[/url] on our website."],"role":{"metric":["STATISTIC"],"time":["TLIST(M1)"],"geo":null,"classification":["C02076V02508","C02199V02655"]},"size":[1,343,1,1],"value":[8.7,8.9,8.8,8.2,7.9,7.6,7.4,7.2,7.2,6.9,6.6,6.5,6.4,6.2,6.2,6.1,6.1,5.8,5.6,5.3,5.4,5.4,5.3,5.2,4.9,4.8,4.7,4.7,4.6,4.5,4.4,4.2,4.1,3.9,3.9,3.9,4,4,3.9,3.9,4,4.1,4.3,4.4,4.4,4.4,4.4,4.4,4.4,4.5,4.7,4.6,4.7,4.6,4.4,4.4,4.7,5.1,5.3,5.3,5,4.8,4.7,4.7,4.7,4.9,5,5,5,4.8,4.7,4.8,5.1,5.2,5.1,4.8,4.7,4.5,4.5,4.4,4.6,4.7,4.7,4.7,4.4,4.3,4.6,4.8,4.9,4.9,4.8,4.7,4.6,4.5,4.6,4.6,4.7,4.7,4.7,4.7,4.7,4.8,5,5.1,4.9,4.6,4.6,4.7,4.8,4.9,5,5,5,5,4.9,4.9,4.9,5.1,5.3,5.3,5.3,5.3,5.5,5.6,5.9,6.3,6.9,7.4,7.8,8.1,8.5,9,10.1,10.9,11.6,12.2,12.7,12.9,13,13.2,13.7,13.9,13.9,13.8,13.8,13.7,13.9,14.2,14.5,14.4,14.3,14.4,15,15.6,15.7,15.6,15.4,15.1,14.9,14.9,15,15.2,15.5,15.6,15.7,15.7,15.8,16.1,15.6,16.1,16.1,15.7,15.5,15.4,15.6,15.5,15.4,15.2,15,14.8,14.6,14.5,14.3,14.5,14.5,14.1,13.6,13.3,13.1,12.9,12.8,12.8,12.9,12.9,12.7,12.4,12.2,12,11.9,11.7,11.4,11,10.8,10.8,10.7,10.7,10.5,10.3,10,9.9,9.6,9.5,9.5,9.6,9.6,9.1,9.1,8.9,8.8,9,8.8,8.7,8.5,8.3,7.9,7.7,7.5,7.5,7.4,7.3,7.1,6.8,6.6,6.6,6.7,6.6,6.6,6.6,6.4,6.3,6.1,6,5.8,5.9,5.9,5.8,5.7,5.7,5.7,5.9,5.8,5.5,5.2,4.9,5,5.1,5.2,5.2,5.1,5,4.9,4.8,4.8,4.8,5,4.9,4.9,4.7,5,5.7,6.7,7.1,7.3,6.4,6.2,6.2,7,7.5,7.7,7.5,7,6.4,5.8,5.4,5.2,5.3,5.3,5.1,5,4.7,5,4.5,4.2,4.1,4.2,4.2,4.2,4.5,4.5,4.3,4.3,4.2,4.1,4.1,4.2,4.3,4.3,4.3,4.5,4.5,4.5,4.4,4.4,4.2,4.2,4.4,4.4,4.4,4.4,4.1,4.1,4.2,4.3,4.5,4.4,4.4,4.5,4.6,4.6,4.7,5,4.9,4.8,4.6,4.6,4.8,5,5.1,5.1,4.9,4.9,5,5.1],"version":"2.0"}},"data":[],"unit":["%","%","%","%","%","%","%","%","%","%","%","%","%","%","%","%","%","%","%","%","%","%","%","%","%","%","%","%","%","%","%","%","%","%","%","%","%"],"decimal":[],"fluidTime":[],"fill":false}],"null":".."},"options":{"responsive":true,"maintainAspectRatio":false,"title":{"display":true,"text":[""]},"tooltips":{"mode":"index","intersect":false,"callbacks":{}},"hover":{"mode":"nearest","intersect":true},"scales":{"xAxes":[{"ticks":{"beginAtZero":false,"maxTicksLimit":"20","reverse":true},"gridLines":{"display":false},"scaleLabel":{"display":true,"labelString":"Month"},"stacked":false}],"yAxes":[{"display":true,"position":"left","id":"y-axis-1","ticks":{"beginAtZero":true},"callback":null,"scaleLabel":{"display":true,"labelString":"Monthly Unemployment Rate (%)"},"stacked":false}]},"plugins":{"stacked100":{"enable":false,"replaceTooltipLabel":false},"colorschemes":{"scheme":["#405381","#5BC1A5","#FCBE72","#0091AB","#90989F","#3D5999","#C6CC5C","#579599","#FBAA34","#007780","#B9BEC3","#00AF86","#6BC2C2","#00758C","#FCB053","#6A7794","#A3CCC1","#F68B58","#36A0B3"]}},"legend":{"display":false},"elements":{"line":{"tension":0.4}},"updated":null,"layout":{"padding":{"left":22,"right":22,"top":0,"bottom":22}}},"datasetLabels":["Monthly Unemployment Rate"],"plugins":[{}]});</script>
+<div id="pxwidget4516203741" class="pxwidget"></div>
+        
+         
+        
+      </div>
+   </div>
+</div>
+</div>
+
+<script>
+         //handle snippet code string for parsing. Need to pass as string
+  var snippet = $('<span>').html('&lt;script src=&quot;https://cdn.jsdelivr.net/gh/CSOIreland/PxWidget@2.9.18/js/isogram.min.js&quot;&gt;&lt;/script&gt;\n&lt;script&gt;pxWidget.queue(\'chart\', \'pxwidget4516203741\', {&quot;autoupdate&quot;:false,&quot;matrix&quot;:null,&quot;type&quot;:&quot;line&quot;,&quot;showPercentage&quot;:null,&quot;copyright&quot;:true,&quot;link&quot;:&quot;https://data.cso.ie/table/MUM01&quot;,&quot;sort&quot;:false,&quot;maxNumberValues&quot;:null,&quot;metadata&quot;:{&quot;xAxis&quot;:{&quot;TLIST(M1)&quot;:[&quot;202607&quot;,&quot;202606&quot;,&quot;202605&quot;,&quot;202604&quot;,&quot;202603&quot;,&quot;202602&quot;,&quot;202601&quot;,&quot;202512&quot;,&quot;202511&quot;,&quot;202510&quot;,&quot;202509&quot;,&quot;202508&quot;,&quot;202507&quot;,&quot;202506&quot;,&quot;202505&quot;,&quot;202504&quot;,&quot;202503&quot;,&quot;202502&quot;,&quot;202501&quot;,&quot;202412&quot;,&quot;202411&quot;,&quot;202410&quot;,&quot;202409&quot;,&quot;202408&quot;,&quot;202407&quot;,&quot;202406&quot;,&quot;202405&quot;,&quot;202404&quot;,&quot;202403&quot;,&quot;202402&quot;,&quot;202401&quot;,&quot;202312&quot;,&quot;202311&quot;,&quot;202310&quot;,&quot;202309&quot;,&quot;202308&quot;,&quot;202307&quot;],&quot;role&quot;:&quot;time&quot;},&quot;fluidTime&quot;:[],&quot;api&quot;:{&quot;query&quot;:{},&quot;response&quot;:{&quot;class&quot;:&quot;dataset&quot;,&quot;dimension&quot;:{&quot;STATISTIC&quot;:{&quot;category&quot;:{&quot;index&quot;:{&quot;MUM01C01&quot;:0,&quot;MUM01C02&quot;:1},&quot;label&quot;:{&quot;MUM01C01&quot;:&quot;Seasonally Adjusted Monthly Unemployment&quot;,&quot;MUM01C02&quot;:&quot;Seasonally Adjusted Monthly Unemployment Rate&quot;},&quot;unit&quot;:{&quot;MUM01C01&quot;:{&quot;decimals&quot;:1,&quot;label&quot;:&quot;Thousand&quot;,&quot;position&quot;:&quot;end&quot;},&quot;MUM01C02&quot;:{&quot;decimals&quot;:1,&quot;label&quot;:&quot;%&quot;,&quot;position&quot;:&quot;end&quot;}}},&quot;label&quot;:&quot;Statistic&quot;},&quot;TLIST(M1)&quot;:{&quot;category&quot;:{&quot;index&quot;:{&quot;199801&quot;:0,&quot;199802&quot;:1,&quot;199803&quot;:2,&quot;199804&quot;:3,&quot;199805&quot;:4,&quot;199806&quot;:5,&quot;199807&quot;:6,&quot;199808&quot;:7,&quot;199809&quot;:8,&quot;199810&quot;:9,&quot;199811&quot;:10,&quot;199812&quot;:11,&quot;199901&quot;:12,&quot;199902&quot;:13,&quot;199903&quot;:14,&quot;199904&quot;:15,&quot;199905&quot;:16,&quot;199906&quot;:17,&quot;199907&quot;:18,&quot;199908&quot;:19,&quot;199909&quot;:20,&quot;199910&quot;:21,&quot;199911&quot;:22,&quot;199912&quot;:23,&quot;200001&quot;:24,&quot;200002&quot;:25,&quot;200003&quot;:26,&quot;200004&quot;:27,&quot;200005&quot;:28,&quot;200006&quot;:29,&quot;200007&quot;:30,&quot;200008&quot;:31,&quot;200009&quot;:32,&quot;200010&quot;:33,&quot;200011&quot;:34,&quot;200012&quot;:35,&quot;200101&quot;:36,&quot;200102&quot;:37,&quot;200103&quot;:38,&quot;200104&quot;:39,&quot;200105&quot;:40,&quot;200106&quot;:41,&quot;200107&quot;:42,&quot;200108&quot;:43,&quot;200109&quot;:44,&quot;200110&quot;:45,&quot;200111&quot;:46,&quot;200112&quot;:47,&quot;200201&quot;:48,&quot;200202&quot;:49,&quot;200203&quot;:50,&quot;200204&quot;:51,&quot;200205&quot;:52,&quot;200206&quot;:53,&quot;200207&quot;:54,&quot;200208&quot;:55,&quot;200209&quot;:56,&quot;200210&quot;:57,&quot;200211&quot;:58,&quot;200212&quot;:59,&quot;200301&quot;:60,&quot;200302&quot;:61,&quot;200303&quot;:62,&quot;200304&quot;:63,&quot;200305&quot;:64,&quot;200306&quot;:65,&quot;200307&quot;:66,&quot;200308&quot;:67,&quot;200309&quot;:68,&quot;200310&quot;:69,&quot;200311&quot;:70,&quot;200312&quot;:71,&quot;200401&quot;:72,&quot;200402&quot;:73,&quot;200403&quot;:74,&quot;200404&quot;:75,&quot;200405&quot;:76,&quot;200406&quot;:77,&quot;200407&quot;:78,&quot;200408&quot;:79,&quot;200409&quot;:80,&quot;200410&quot;:81,&quot;200411&quot;:82,&quot;200412&quot;:83,&quot;200501&quot;:84,&quot;200502&quot;:85,&quot;200503&quot;:86,&quot;200504&quot;:87,&quot;200505&quot;:88,&quot;200506&quot;:89,&quot;200507&quot;:90,&quot;200508&quot;:91,&quot;200509&quot;:92,&quot;200510&quot;:93,&quot;200511&quot;:94,&quot;200512&quot;:95,&quot;200601&quot;:96,&quot;200602&quot;:97,&quot;200603&quot;:98,&quot;200604&quot;:99,&quot;200605&quot;:100,&quot;200606&quot;:101,&quot;200607&quot;:102,&quot;200608&quot;:103,&quot;200609&quot;:104,&quot;200610&quot;:105,&quot;200611&quot;:106,&quot;200612&quot;:107,&quot;200701&quot;:108,&quot;200702&quot;:109,&quot;200703&quot;:110,&quot;200704&quot;:111,&quot;200705&quot;:112,&quot;200706&quot;:113,&quot;200707&quot;:114,&quot;200708&quot;:115,&quot;200709&quot;:116,&quot;200710&quot;:117,&quot;200711&quot;:118,&quot;200712&quot;:119,&quot;200801&quot;:120,&quot;200802&quot;:121,&quot;200803&quot;:122,&quot;200804&quot;:123,&quot;200805&quot;:124,&quot;200806&quot;:125,&quot;200807&quot;:126,&quot;200808&quot;:127,&quot;200809&quot;:128,&quot;200810&quot;:129,&quot;200811&quot;:130,&quot;200812&quot;:131,&quot;200901&quot;:132,&quot;200902&quot;:133,&quot;200903&quot;:134,&quot;200904&quot;:135,&quot;200905&quot;:136,&quot;200906&quot;:137,&quot;200907&quot;:138,&quot;200908&quot;:139,&quot;200909&quot;:140,&quot;200910&quot;:141,&quot;200911&quot;:142,&quot;200912&quot;:143,&quot;201001&quot;:144,&quot;201002&quot;:145,&quot;201003&quot;:146,&quot;201004&quot;:147,&quot;201005&quot;:148,&quot;201006&quot;:149,&quot;201007&quot;:150,&quot;201008&quot;:151,&quot;201009&quot;:152,&quot;201010&quot;:153,&quot;201011&quot;:154,&quot;201012&quot;:155,&quot;201101&quot;:156,&quot;201102&quot;:157,&quot;201103&quot;:158,&quot;201104&quot;:159,&quot;201105&quot;:160,&quot;201106&quot;:161,&quot;201107&quot;:162,&quot;201108&quot;:163,&quot;201109&quot;:164,&quot;201110&quot;:165,&quot;201111&quot;:166,&quot;201112&quot;:167,&quot;201201&quot;:168,&quot;201202&quot;:169,&quot;201203&quot;:170,&quot;201204&quot;:171,&quot;201205&quot;:172,&quot;201206&quot;:173,&quot;201207&quot;:174,&quot;201208&quot;:175,&quot;201209&quot;:176,&quot;201210&quot;:177,&quot;201211&quot;:178,&quot;201212&quot;:179,&quot;201301&quot;:180,&quot;201302&quot;:181,&quot;201303&quot;:182,&quot;201304&quot;:183,&quot;201305&quot;:184,&quot;201306&quot;:185,&quot;201307&quot;:186,&quot;201308&quot;:187,&quot;201309&quot;:188,&quot;201310&quot;:189,&quot;201311&quot;:190,&quot;201312&quot;:191,&quot;201401&quot;:192,&quot;201402&quot;:193,&quot;201403&quot;:194,&quot;201404&quot;:195,&quot;201405&quot;:196,&quot;201406&quot;:197,&quot;201407&quot;:198,&quot;201408&quot;:199,&quot;201409&quot;:200,&quot;201410&quot;:201,&quot;201411&quot;:202,&quot;201412&quot;:203,&quot;201501&quot;:204,&quot;201502&quot;:205,&quot;201503&quot;:206,&quot;201504&quot;:207,&quot;201505&quot;:208,&quot;201506&quot;:209,&quot;201507&quot;:210,&quot;201508&quot;:211,&quot;201509&quot;:212,&quot;201510&quot;:213,&quot;201511&quot;:214,&quot;201512&quot;:215,&quot;201601&quot;:216,&quot;201602&quot;:217,&quot;201603&quot;:218,&quot;201604&quot;:219,&quot;201605&quot;:220,&quot;201606&quot;:221,&quot;201607&quot;:222,&quot;201608&quot;:223,&quot;201609&quot;:224,&quot;201610&quot;:225,&quot;201611&quot;:226,&quot;201612&quot;:227,&quot;201701&quot;:228,&quot;201702&quot;:229,&quot;201703&quot;:230,&quot;201704&quot;:231,&quot;201705&quot;:232,&quot;201706&quot;:233,&quot;201707&quot;:234,&quot;201708&quot;:235,&quot;201709&quot;:236,&quot;201710&quot;:237,&quot;201711&quot;:238,&quot;201712&quot;:239,&quot;201801&quot;:240,&quot;201802&quot;:241,&quot;201803&quot;:242,&quot;201804&quot;:243,&quot;201805&quot;:244,&quot;201806&quot;:245,&quot;201807&quot;:246,&quot;201808&quot;:247,&quot;201809&quot;:248,&quot;201810&quot;:249,&quot;201811&quot;:250,&quot;201812&quot;:251,&quot;201901&quot;:252,&quot;201902&quot;:253,&quot;201903&quot;:254,&quot;201904&quot;:255,&quot;201905&quot;:256,&quot;201906&quot;:257,&quot;201907&quot;:258,&quot;201908&quot;:259,&quot;201909&quot;:260,&quot;201910&quot;:261,&quot;201911&quot;:262,&quot;201912&quot;:263,&quot;202001&quot;:264,&quot;202002&quot;:265,&quot;202003&quot;:266,&quot;202004&quot;:267,&quot;202005&quot;:268,&quot;202006&quot;:269,&quot;202007&quot;:270,&quot;202008&quot;:271,&quot;202009&quot;:272,&quot;202010&quot;:273,&quot;202011&quot;:274,&quot;202012&quot;:275,&quot;202101&quot;:276,&quot;202102&quot;:277,&quot;202103&quot;:278,&quot;202104&quot;:279,&quot;202105&quot;:280,&quot;202106&quot;:281,&quot;202107&quot;:282,&quot;202108&quot;:283,&quot;202109&quot;:284,&quot;202110&quot;:285,&quot;202111&quot;:286,&quot;202112&quot;:287,&quot;202201&quot;:288,&quot;202202&quot;:289,&quot;202203&quot;:290,&quot;202204&quot;:291,&quot;202205&quot;:292,&quot;202206&quot;:293,&quot;202207&quot;:294,&quot;202208&quot;:295,&quot;202209&quot;:296,&quot;202210&quot;:297,&quot;202211&quot;:298,&quot;202212&quot;:299,&quot;202301&quot;:300,&quot;202302&quot;:301,&quot;202303&quot;:302,&quot;202304&quot;:303,&quot;202305&quot;:304,&quot;202306&quot;:305,&quot;202307&quot;:306,&quot;202308&quot;:307,&quot;202309&quot;:308,&quot;202310&quot;:309,&quot;202311&quot;:310,&quot;202312&quot;:311,&quot;202401&quot;:312,&quot;202402&quot;:313,&quot;202403&quot;:314,&quot;202404&quot;:315,&quot;202405&quot;:316,&quot;202406&quot;:317,&quot;202407&quot;:318,&quot;202408&quot;:319,&quot;202409&quot;:320,&quot;202410&quot;:321,&quot;202411&quot;:322,&quot;202412&quot;:323,&quot;202501&quot;:324,&quot;202502&quot;:325,&quot;202503&quot;:326,&quot;202504&quot;:327,&quot;202505&quot;:328,&quot;202506&quot;:329,&quot;202507&quot;:330,&quot;202508&quot;:331,&quot;202509&quot;:332,&quot;202510&quot;:333,&quot;202511&quot;:334,&quot;202512&quot;:335,&quot;202601&quot;:336,&quot;202602&quot;:337,&quot;202603&quot;:338,&quot;202604&quot;:339,&quot;202605&quot;:340,&quot;202606&quot;:341,&quot;202607&quot;:342},&quot;label&quot;:{&quot;199801&quot;:&quot;1998 January&quot;,&quot;199802&quot;:&quot;1998 February&quot;,&quot;199803&quot;:&quot;1998 March&quot;,&quot;199804&quot;:&quot;1998 April&quot;,&quot;199805&quot;:&quot;1998 May&quot;,&quot;199806&quot;:&quot;1998 June&quot;,&quot;199807&quot;:&quot;1998 July&quot;,&quot;199808&quot;:&quot;1998 August&quot;,&quot;199809&quot;:&quot;1998 September&quot;,&quot;199810&quot;:&quot;1998 October&quot;,&quot;199811&quot;:&quot;1998 November&quot;,&quot;199812&quot;:&quot;1998 December&quot;,&quot;199901&quot;:&quot;1999 January&quot;,&quot;199902&quot;:&quot;1999 February&quot;,&quot;199903&quot;:&quot;1999 March&quot;,&quot;199904&quot;:&quot;1999 April&quot;,&quot;199905&quot;:&quot;1999 May&quot;,&quot;199906&quot;:&quot;1999 June&quot;,&quot;199907&quot;:&quot;1999 July&quot;,&quot;199908&quot;:&quot;1999 August&quot;,&quot;199909&quot;:&quot;1999 September&quot;,&quot;199910&quot;:&quot;1999 October&quot;,&quot;199911&quot;:&quot;1999 November&quot;,&quot;199912&quot;:&quot;1999 December&quot;,&quot;200001&quot;:&quot;2000 January&quot;,&quot;200002&quot;:&quot;2000 February&quot;,&quot;200003&quot;:&quot;2000 March&quot;,&quot;200004&quot;:&quot;2000 April&quot;,&quot;200005&quot;:&quot;2000 May&quot;,&quot;200006&quot;:&quot;2000 June&quot;,&quot;200007&quot;:&quot;2000 July&quot;,&quot;200008&quot;:&quot;2000 August&quot;,&quot;200009&quot;:&quot;2000 September&quot;,&quot;200010&quot;:&quot;2000 October&quot;,&quot;200011&quot;:&quot;2000 November&quot;,&quot;200012&quot;:&quot;2000 December&quot;,&quot;200101&quot;:&quot;2001 January&quot;,&quot;200102&quot;:&quot;2001 February&quot;,&quot;200103&quot;:&quot;2001 March&quot;,&quot;200104&quot;:&quot;2001 April&quot;,&quot;200105&quot;:&quot;2001 May&quot;,&quot;200106&quot;:&quot;2001 June&quot;,&quot;200107&quot;:&quot;2001 July&quot;,&quot;200108&quot;:&quot;2001 August&quot;,&quot;200109&quot;:&quot;2001 September&quot;,&quot;200110&quot;:&quot;2001 October&quot;,&quot;200111&quot;:&quot;2001 November&quot;,&quot;200112&quot;:&quot;2001 December&quot;,&quot;200201&quot;:&quot;2002 January&quot;,&quot;200202&quot;:&quot;2002 February&quot;,&quot;200203&quot;:&quot;2002 March&quot;,&quot;200204&quot;:&quot;2002 April&quot;,&quot;200205&quot;:&quot;2002 May&quot;,&quot;200206&quot;:&quot;2002 June&quot;,&quot;200207&quot;:&quot;2002 July&quot;,&quot;200208&quot;:&quot;2002 August&quot;,&quot;200209&quot;:&quot;2002 September&quot;,&quot;200210&quot;:&quot;2002 October&quot;,&quot;200211&quot;:&quot;2002 November&quot;,&quot;200212&quot;:&quot;2002 December&quot;,&quot;200301&quot;:&quot;2003 January&quot;,&quot;200302&quot;:&quot;2003 February&quot;,&quot;200303&quot;:&quot;2003 March&quot;,&quot;200304&quot;:&quot;2003 April&quot;,&quot;200305&quot;:&quot;2003 May&quot;,&quot;200306&quot;:&quot;2003 June&quot;,&quot;200307&quot;:&quot;2003 July&quot;,&quot;200308&quot;:&quot;2003 August&quot;,&quot;200309&quot;:&quot;2003 September&quot;,&quot;200310&quot;:&quot;2003 October&quot;,&quot;200311&quot;:&quot;2003 November&quot;,&quot;200312&quot;:&quot;2003 December&quot;,&quot;200401&quot;:&quot;2004 January&quot;,&quot;200402&quot;:&quot;2004 February&quot;,&quot;200403&quot;:&quot;2004 March&quot;,&quot;200404&quot;:&quot;2004 April&quot;,&quot;200405&quot;:&quot;2004 May&quot;,&quot;200406&quot;:&quot;2004 June&quot;,&quot;200407&quot;:&quot;2004 July&quot;,&quot;200408&quot;:&quot;2004 August&quot;,&quot;200409&quot;:&quot;2004 September&quot;,&quot;200410&quot;:&quot;2004 October&quot;,&quot;200411&quot;:&quot;2004 November&quot;,&quot;200412&quot;:&quot;2004 December&quot;,&quot;200501&quot;:&quot;2005 January&quot;,&quot;200502&quot;:&quot;2005 February&quot;,&quot;200503&quot;:&quot;2005 March&quot;,&quot;200504&quot;:&quot;2005 April&quot;,&quot;200505&quot;:&quot;2005 May&quot;,&quot;200506&quot;:&quot;2005 June&quot;,&quot;200507&quot;:&quot;2005 July&quot;,&quot;200508&quot;:&quot;2005 August&quot;,&quot;200509&quot;:&quot;2005 September&quot;,&quot;200510&quot;:&quot;2005 October&quot;,&quot;200511&quot;:&quot;2005 November&quot;,&quot;200512&quot;:&quot;2005 December&quot;,&quot;200601&quot;:&quot;2006 January&quot;,&quot;200602&quot;:&quot;2006 February&quot;,&quot;200603&quot;:&quot;2006 March&quot;,&quot;200604&quot;:&quot;2006 April&quot;,&quot;200605&quot;:&quot;2006 May&quot;,&quot;200606&quot;:&quot;2006 June&quot;,&quot;200607&quot;:&quot;2006 July&quot;,&quot;200608&quot;:&quot;2006 August&quot;,&quot;200609&quot;:&quot;2006 September&quot;,&quot;200610&quot;:&quot;2006 October&quot;,&quot;200611&quot;:&quot;2006 November&quot;,&quot;200612&quot;:&quot;2006 December&quot;,&quot;200701&quot;:&quot;2007 January&quot;,&quot;200702&quot;:&quot;2007 February&quot;,&quot;200703&quot;:&quot;2007 March&quot;,&quot;200704&quot;:&quot;2007 April&quot;,&quot;200705&quot;:&quot;2007 May&quot;,&quot;200706&quot;:&quot;2007 June&quot;,&quot;200707&quot;:&quot;2007 July&quot;,&quot;200708&quot;:&quot;2007 August&quot;,&quot;200709&quot;:&quot;2007 September&quot;,&quot;200710&quot;:&quot;2007 October&quot;,&quot;200711&quot;:&quot;2007 November&quot;,&quot;200712&quot;:&quot;2007 December&quot;,&quot;200801&quot;:&quot;2008 January&quot;,&quot;200802&quot;:&quot;2008 February&quot;,&quot;200803&quot;:&quot;2008 March&quot;,&quot;200804&quot;:&quot;2008 April&quot;,&quot;200805&quot;:&quot;2008 May&quot;,&quot;200806&quot;:&quot;2008 June&quot;,&quot;200807&quot;:&quot;2008 July&quot;,&quot;200808&quot;:&quot;2008 August&quot;,&quot;200809&quot;:&quot;2008 September&quot;,&quot;200810&quot;:&quot;2008 October&quot;,&quot;200811&quot;:&quot;2008 November&quot;,&quot;200812&quot;:&quot;2008 December&quot;,&quot;200901&quot;:&quot;2009 January&quot;,&quot;200902&quot;:&quot;2009 February&quot;,&quot;200903&quot;:&quot;2009 March&quot;,&quot;200904&quot;:&quot;2009 April&quot;,&quot;200905&quot;:&quot;2009 May&quot;,&quot;200906&quot;:&quot;2009 June&quot;,&quot;200907&quot;:&quot;2009 July&quot;,&quot;200908&quot;:&quot;2009 August&quot;,&quot;200909&quot;:&quot;2009 September&quot;,&quot;200910&quot;:&quot;2009 October&quot;,&quot;200911&quot;:&quot;2009 November&quot;,&quot;200912&quot;:&quot;2009 December&quot;,&quot;201001&quot;:&quot;2010 January&quot;,&quot;201002&quot;:&quot;2010 February&quot;,&quot;201003&quot;:&quot;2010 March&quot;,&quot;201004&quot;:&quot;2010 April&quot;,&quot;201005&quot;:&quot;2010 May&quot;,&quot;201006&quot;:&quot;2010 June&quot;,&quot;201007&quot;:&quot;2010 July&quot;,&quot;201008&quot;:&quot;2010 August&quot;,&quot;201009&quot;:&quot;2010 September&quot;,&quot;201010&quot;:&quot;2010 October&quot;,&quot;201011&quot;:&quot;2010 November&quot;,&quot;201012&quot;:&quot;2010 December&quot;,&quot;201101&quot;:&quot;2011 January&quot;,&quot;201102&quot;:&quot;2011 February&quot;,&quot;201103&quot;:&quot;2011 March&quot;,&quot;201104&quot;:&quot;2011 April&quot;,&quot;201105&quot;:&quot;2011 May&quot;,&quot;201106&quot;:&quot;2011 June&quot;,&quot;201107&quot;:&quot;2011 July&quot;,&quot;201108&quot;:&quot;2011 August&quot;,&quot;201109&quot;:&quot;2011 September&quot;,&quot;201110&quot;:&quot;2011 October&quot;,&quot;201111&quot;:&quot;2011 November&quot;,&quot;201112&quot;:&quot;2011 December&quot;,&quot;201201&quot;:&quot;2012 January&quot;,&quot;201202&quot;:&quot;2012 February&quot;,&quot;201203&quot;:&quot;2012 March&quot;,&quot;201204&quot;:&quot;2012 April&quot;,&quot;201205&quot;:&quot;2012 May&quot;,&quot;201206&quot;:&quot;2012 June&quot;,&quot;201207&quot;:&quot;2012 July&quot;,&quot;201208&quot;:&quot;2012 August&quot;,&quot;201209&quot;:&quot;2012 September&quot;,&quot;201210&quot;:&quot;2012 October&quot;,&quot;201211&quot;:&quot;2012 November&quot;,&quot;201212&quot;:&quot;2012 December&quot;,&quot;201301&quot;:&quot;2013 January&quot;,&quot;201302&quot;:&quot;2013 February&quot;,&quot;201303&quot;:&quot;2013 March&quot;,&quot;201304&quot;:&quot;2013 April&quot;,&quot;201305&quot;:&quot;2013 May&quot;,&quot;201306&quot;:&quot;2013 June&quot;,&quot;201307&quot;:&quot;2013 July&quot;,&quot;201308&quot;:&quot;2013 August&quot;,&quot;201309&quot;:&quot;2013 September&quot;,&quot;201310&quot;:&quot;2013 October&quot;,&quot;201311&quot;:&quot;2013 November&quot;,&quot;201312&quot;:&quot;2013 December&quot;,&quot;201401&quot;:&quot;2014 January&quot;,&quot;201402&quot;:&quot;2014 February&quot;,&quot;201403&quot;:&quot;2014 March&quot;,&quot;201404&quot;:&quot;2014 April&quot;,&quot;201405&quot;:&quot;2014 May&quot;,&quot;201406&quot;:&quot;2014 June&quot;,&quot;201407&quot;:&quot;2014 July&quot;,&quot;201408&quot;:&quot;2014 August&quot;,&quot;201409&quot;:&quot;2014 September&quot;,&quot;201410&quot;:&quot;2014 October&quot;,&quot;201411&quot;:&quot;2014 November&quot;,&quot;201412&quot;:&quot;2014 December&quot;,&quot;201501&quot;:&quot;2015 January&quot;,&quot;201502&quot;:&quot;2015 February&quot;,&quot;201503&quot;:&quot;2015 March&quot;,&quot;201504&quot;:&quot;2015 April&quot;,&quot;201505&quot;:&quot;2015 May&quot;,&quot;201506&quot;:&quot;2015 June&quot;,&quot;201507&quot;:&quot;2015 July&quot;,&quot;201508&quot;:&quot;2015 August&quot;,&quot;201509&quot;:&quot;2015 September&quot;,&quot;201510&quot;:&quot;2015 October&quot;,&quot;201511&quot;:&quot;2015 November&quot;,&quot;201512&quot;:&quot;2015 December&quot;,&quot;201601&quot;:&quot;2016 January&quot;,&quot;201602&quot;:&quot;2016 February&quot;,&quot;201603&quot;:&quot;2016 March&quot;,&quot;201604&quot;:&quot;2016 April&quot;,&quot;201605&quot;:&quot;2016 May&quot;,&quot;201606&quot;:&quot;2016 June&quot;,&quot;201607&quot;:&quot;2016 July&quot;,&quot;201608&quot;:&quot;2016 August&quot;,&quot;201609&quot;:&quot;2016 September&quot;,&quot;201610&quot;:&quot;2016 October&quot;,&quot;201611&quot;:&quot;2016 November&quot;,&quot;201612&quot;:&quot;2016 December&quot;,&quot;201701&quot;:&quot;2017 January&quot;,&quot;201702&quot;:&quot;2017 February&quot;,&quot;201703&quot;:&quot;2017 March&quot;,&quot;201704&quot;:&quot;2017 April&quot;,&quot;201705&quot;:&quot;2017 May&quot;,&quot;201706&quot;:&quot;2017 June&quot;,&quot;201707&quot;:&quot;2017 July&quot;,&quot;201708&quot;:&quot;2017 August&quot;,&quot;201709&quot;:&quot;2017 September&quot;,&quot;201710&quot;:&quot;2017 October&quot;,&quot;201711&quot;:&quot;2017 November&quot;,&quot;201712&quot;:&quot;2017 December&quot;,&quot;201801&quot;:&quot;2018 January&quot;,&quot;201802&quot;:&quot;2018 February&quot;,&quot;201803&quot;:&quot;2018 March&quot;,&quot;201804&quot;:&quot;2018 April&quot;,&quot;201805&quot;:&quot;2018 May&quot;,&quot;201806&quot;:&quot;2018 June&quot;,&quot;201807&quot;:&quot;2018 July&quot;,&quot;201808&quot;:&quot;2018 August&quot;,&quot;201809&quot;:&quot;2018 September&quot;,&quot;201810&quot;:&quot;2018 October&quot;,&quot;201811&quot;:&quot;2018 November&quot;,&quot;201812&quot;:&quot;2018 December&quot;,&quot;201901&quot;:&quot;2019 January&quot;,&quot;201902&quot;:&quot;2019 February&quot;,&quot;201903&quot;:&quot;2019 March&quot;,&quot;201904&quot;:&quot;2019 April&quot;,&quot;201905&quot;:&quot;2019 May&quot;,&quot;201906&quot;:&quot;2019 June&quot;,&quot;201907&quot;:&quot;2019 July&quot;,&quot;201908&quot;:&quot;2019 August&quot;,&quot;201909&quot;:&quot;2019 September&quot;,&quot;201910&quot;:&quot;2019 October&quot;,&quot;201911&quot;:&quot;2019 November&quot;,&quot;201912&quot;:&quot;2019 December&quot;,&quot;202001&quot;:&quot;2020 January&quot;,&quot;202002&quot;:&quot;2020 February&quot;,&quot;202003&quot;:&quot;2020 March&quot;,&quot;202004&quot;:&quot;2020 April&quot;,&quot;202005&quot;:&quot;2020 May&quot;,&quot;202006&quot;:&quot;2020 June&quot;,&quot;202007&quot;:&quot;2020 July&quot;,&quot;202008&quot;:&quot;2020 August&quot;,&quot;202009&quot;:&quot;2020 September&quot;,&quot;202010&quot;:&quot;2020 October&quot;,&quot;202011&quot;:&quot;2020 November&quot;,&quot;202012&quot;:&quot;2020 December&quot;,&quot;202101&quot;:&quot;2021 January&quot;,&quot;202102&quot;:&quot;2021 February&quot;,&quot;202103&quot;:&quot;2021 March&quot;,&quot;202104&quot;:&quot;2021 April&quot;,&quot;202105&quot;:&quot;2021 May&quot;,&quot;202106&quot;:&quot;2021 June&quot;,&quot;202107&quot;:&quot;2021 July&quot;,&quot;202108&quot;:&quot;2021 August&quot;,&quot;202109&quot;:&quot;2021 September&quot;,&quot;202110&quot;:&quot;2021 October&quot;,&quot;202111&quot;:&quot;2021 November&quot;,&quot;202112&quot;:&quot;2021 December&quot;,&quot;202201&quot;:&quot;2022 January&quot;,&quot;202202&quot;:&quot;2022 February&quot;,&quot;202203&quot;:&quot;2022 March&quot;,&quot;202204&quot;:&quot;2022 April&quot;,&quot;202205&quot;:&quot;2022 May&quot;,&quot;202206&quot;:&quot;2022 June&quot;,&quot;202207&quot;:&quot;2022 July&quot;,&quot;202208&quot;:&quot;2022 August&quot;,&quot;202209&quot;:&quot;2022 September&quot;,&quot;202210&quot;:&quot;2022 October&quot;,&quot;202211&quot;:&quot;2022 November&quot;,&quot;202212&quot;:&quot;2022 December&quot;,&quot;202301&quot;:&quot;2023 January&quot;,&quot;202302&quot;:&quot;2023 February&quot;,&quot;202303&quot;:&quot;2023 March&quot;,&quot;202304&quot;:&quot;2023 April&quot;,&quot;202305&quot;:&quot;2023 May&quot;,&quot;202306&quot;:&quot;2023 June&quot;,&quot;202307&quot;:&quot;2023 July&quot;,&quot;202308&quot;:&quot;2023 August&quot;,&quot;202309&quot;:&quot;2023 September&quot;,&quot;202310&quot;:&quot;2023 October&quot;,&quot;202311&quot;:&quot;2023 November&quot;,&quot;202312&quot;:&quot;2023 December&quot;,&quot;202401&quot;:&quot;2024 January&quot;,&quot;202402&quot;:&quot;2024 February&quot;,&quot;202403&quot;:&quot;2024 March&quot;,&quot;202404&quot;:&quot;2024 April&quot;,&quot;202405&quot;:&quot;2024 May&quot;,&quot;202406&quot;:&quot;2024 June&quot;,&quot;202407&quot;:&quot;2024 July&quot;,&quot;202408&quot;:&quot;2024 August&quot;,&quot;202409&quot;:&quot;2024 September&quot;,&quot;202410&quot;:&quot;2024 October&quot;,&quot;202411&quot;:&quot;2024 November&quot;,&quot;202412&quot;:&quot;2024 December&quot;,&quot;202501&quot;:&quot;2025 January&quot;,&quot;202502&quot;:&quot;2025 February&quot;,&quot;202503&quot;:&quot;2025 March&quot;,&quot;202504&quot;:&quot;2025 April&quot;,&quot;202505&quot;:&quot;2025 May&quot;,&quot;202506&quot;:&quot;2025 June&quot;,&quot;202507&quot;:&quot;2025 July&quot;,&quot;202508&quot;:&quot;2025 August&quot;,&quot;202509&quot;:&quot;2025 September&quot;,&quot;202510&quot;:&quot;2025 October&quot;,&quot;202511&quot;:&quot;2025 November&quot;,&quot;202512&quot;:&quot;2025 December&quot;,&quot;202601&quot;:&quot;2026 January&quot;,&quot;202602&quot;:&quot;2026 February&quot;,&quot;202603&quot;:&quot;2026 March&quot;,&quot;202604&quot;:&quot;2026 April&quot;,&quot;202605&quot;:&quot;2026 May&quot;,&quot;202606&quot;:&quot;2026 June&quot;,&quot;202607&quot;:&quot;2026 July&quot;}},&quot;label&quot;:&quot;Month&quot;},&quot;C02076V02508&quot;:{&quot;category&quot;:{&quot;index&quot;:{&quot;310&quot;:0,&quot;316&quot;:1,&quot;4350&quot;:2},&quot;label&quot;:{&quot;310&quot;:&quot;15 - 24 years&quot;,&quot;316&quot;:&quot;15 - 74 years&quot;,&quot;4350&quot;:&quot;25 - 74 years&quot;}},&quot;label&quot;:&quot;Age Group&quot;},&quot;C02199V02655&quot;:{&quot;category&quot;:{&quot;index&quot;:{&quot;1&quot;:1,&quot;2&quot;:2,&quot;-&quot;:0},&quot;label&quot;:{&quot;1&quot;:&quot;Male&quot;,&quot;2&quot;:&quot;Female&quot;,&quot;-&quot;:&quot;Both sexes&quot;}},&quot;label&quot;:&quot;Sex&quot;}},&quot;extension&quot;:{&quot;matrix&quot;:&quot;MUM01&quot;,&quot;language&quot;:{&quot;code&quot;:&quot;en&quot;,&quot;name&quot;:&quot;English&quot;},&quot;elimination&quot;:{&quot;C02076V02508&quot;:null,&quot;C02199V02655&quot;:null},&quot;contact&quot;:{&quot;name&quot;:&quot;Conor Delves&quot;,&quot;email&quot;:&quot;labour@cso.ie&quot;,&quot;phone&quot;:&quot;(+353) 21 453 5189&quot;},&quot;subject&quot;:{&quot;code&quot;:26,&quot;value&quot;:&quot;Labour Market&quot;},&quot;product&quot;:{&quot;code&quot;:&quot;MUE&quot;,&quot;value&quot;:&quot;Monthly Unemployment&quot;},&quot;official&quot;:true,&quot;copyright&quot;:{&quot;name&quot;:&quot;Central Statistics Office, Ireland&quot;,&quot;code&quot;:&quot;CSO&quot;,&quot;href&quot;:&quot;https://www.cso.ie/&quot;},&quot;exceptional&quot;:false,&quot;reservation&quot;:false,&quot;archive&quot;:false,&quot;experimental&quot;:false,&quot;analytical&quot;:false},&quot;id&quot;:[&quot;STATISTIC&quot;,&quot;TLIST(M1)&quot;,&quot;C02076V02508&quot;,&quot;C02199V02655&quot;],&quot;label&quot;:&quot;Seasonally Adjusted Monthly Unemployment&quot;,&quot;note&quot;:[&quot;For more information, please go to the[url=https://www.cso.ie/en/statistics/labourmarket/monthlyunemployment/] statistical release page[/url] on our website.&quot;],&quot;role&quot;:{&quot;metric&quot;:[&quot;STATISTIC&quot;],&quot;time&quot;:[&quot;TLIST(M1)&quot;],&quot;geo&quot;:null,&quot;classification&quot;:[&quot;C02076V02508&quot;,&quot;C02199V02655&quot;]},&quot;size&quot;:[2,343,3,3],&quot;value&quot;:[],&quot;version&quot;:&quot;2.0&quot;}}},&quot;data&quot;:{&quot;labels&quot;:[],&quot;datasets&quot;:[{&quot;label&quot;:&quot;Monthly Unemployment Rate&quot;,&quot;pointRadius&quot;:2,&quot;pointHoverRadius&quot;:4,&quot;maxBarThickness&quot;:90,&quot;minBarLength&quot;:1,&quot;api&quot;:{&quot;query&quot;:{},&quot;response&quot;:{&quot;class&quot;:&quot;dataset&quot;,&quot;dimension&quot;:{&quot;STATISTIC&quot;:{&quot;category&quot;:{&quot;index&quot;:{&quot;MUM01C02&quot;:0},&quot;label&quot;:{&quot;MUM01C02&quot;:&quot;Seasonally Adjusted Monthly Unemployment Rate&quot;},&quot;unit&quot;:{&quot;MUM01C02&quot;:{&quot;decimals&quot;:1,&quot;label&quot;:&quot;%&quot;,&quot;position&quot;:&quot;end&quot;}}},&quot;label&quot;:&quot;Statistic&quot;},&quot;TLIST(M1)&quot;:{&quot;category&quot;:{&quot;index&quot;:{&quot;199801&quot;:0,&quot;199802&quot;:1,&quot;199803&quot;:2,&quot;199804&quot;:3,&quot;199805&quot;:4,&quot;199806&quot;:5,&quot;199807&quot;:6,&quot;199808&quot;:7,&quot;199809&quot;:8,&quot;199810&quot;:9,&quot;199811&quot;:10,&quot;199812&quot;:11,&quot;199901&quot;:12,&quot;199902&quot;:13,&quot;199903&quot;:14,&quot;199904&quot;:15,&quot;199905&quot;:16,&quot;199906&quot;:17,&quot;199907&quot;:18,&quot;199908&quot;:19,&quot;199909&quot;:20,&quot;199910&quot;:21,&quot;199911&quot;:22,&quot;199912&quot;:23,&quot;200001&quot;:24,&quot;200002&quot;:25,&quot;200003&quot;:26,&quot;200004&quot;:27,&quot;200005&quot;:28,&quot;200006&quot;:29,&quot;200007&quot;:30,&quot;200008&quot;:31,&quot;200009&quot;:32,&quot;200010&quot;:33,&quot;200011&quot;:34,&quot;200012&quot;:35,&quot;200101&quot;:36,&quot;200102&quot;:37,&quot;200103&quot;:38,&quot;200104&quot;:39,&quot;200105&quot;:40,&quot;200106&quot;:41,&quot;200107&quot;:42,&quot;200108&quot;:43,&quot;200109&quot;:44,&quot;200110&quot;:45,&quot;200111&quot;:46,&quot;200112&quot;:47,&quot;200201&quot;:48,&quot;200202&quot;:49,&quot;200203&quot;:50,&quot;200204&quot;:51,&quot;200205&quot;:52,&quot;200206&quot;:53,&quot;200207&quot;:54,&quot;200208&quot;:55,&quot;200209&quot;:56,&quot;200210&quot;:57,&quot;200211&quot;:58,&quot;200212&quot;:59,&quot;200301&quot;:60,&quot;200302&quot;:61,&quot;200303&quot;:62,&quot;200304&quot;:63,&quot;200305&quot;:64,&quot;200306&quot;:65,&quot;200307&quot;:66,&quot;200308&quot;:67,&quot;200309&quot;:68,&quot;200310&quot;:69,&quot;200311&quot;:70,&quot;200312&quot;:71,&quot;200401&quot;:72,&quot;200402&quot;:73,&quot;200403&quot;:74,&quot;200404&quot;:75,&quot;200405&quot;:76,&quot;200406&quot;:77,&quot;200407&quot;:78,&quot;200408&quot;:79,&quot;200409&quot;:80,&quot;200410&quot;:81,&quot;200411&quot;:82,&quot;200412&quot;:83,&quot;200501&quot;:84,&quot;200502&quot;:85,&quot;200503&quot;:86,&quot;200504&quot;:87,&quot;200505&quot;:88,&quot;200506&quot;:89,&quot;200507&quot;:90,&quot;200508&quot;:91,&quot;200509&quot;:92,&quot;200510&quot;:93,&quot;200511&quot;:94,&quot;200512&quot;:95,&quot;200601&quot;:96,&quot;200602&quot;:97,&quot;200603&quot;:98,&quot;200604&quot;:99,&quot;200605&quot;:100,&quot;200606&quot;:101,&quot;200607&quot;:102,&quot;200608&quot;:103,&quot;200609&quot;:104,&quot;200610&quot;:105,&quot;200611&quot;:106,&quot;200612&quot;:107,&quot;200701&quot;:108,&quot;200702&quot;:109,&quot;200703&quot;:110,&quot;200704&quot;:111,&quot;200705&quot;:112,&quot;200706&quot;:113,&quot;200707&quot;:114,&quot;200708&quot;:115,&quot;200709&quot;:116,&quot;200710&quot;:117,&quot;200711&quot;:118,&quot;200712&quot;:119,&quot;200801&quot;:120,&quot;200802&quot;:121,&quot;200803&quot;:122,&quot;200804&quot;:123,&quot;200805&quot;:124,&quot;200806&quot;:125,&quot;200807&quot;:126,&quot;200808&quot;:127,&quot;200809&quot;:128,&quot;200810&quot;:129,&quot;200811&quot;:130,&quot;200812&quot;:131,&quot;200901&quot;:132,&quot;200902&quot;:133,&quot;200903&quot;:134,&quot;200904&quot;:135,&quot;200905&quot;:136,&quot;200906&quot;:137,&quot;200907&quot;:138,&quot;200908&quot;:139,&quot;200909&quot;:140,&quot;200910&quot;:141,&quot;200911&quot;:142,&quot;200912&quot;:143,&quot;201001&quot;:144,&quot;201002&quot;:145,&quot;201003&quot;:146,&quot;201004&quot;:147,&quot;201005&quot;:148,&quot;201006&quot;:149,&quot;201007&quot;:150,&quot;201008&quot;:151,&quot;201009&quot;:152,&quot;201010&quot;:153,&quot;201011&quot;:154,&quot;201012&quot;:155,&quot;201101&quot;:156,&quot;201102&quot;:157,&quot;201103&quot;:158,&quot;201104&quot;:159,&quot;201105&quot;:160,&quot;201106&quot;:161,&quot;201107&quot;:162,&quot;201108&quot;:163,&quot;201109&quot;:164,&quot;201110&quot;:165,&quot;201111&quot;:166,&quot;201112&quot;:167,&quot;201201&quot;:168,&quot;201202&quot;:169,&quot;201203&quot;:170,&quot;201204&quot;:171,&quot;201205&quot;:172,&quot;201206&quot;:173,&quot;201207&quot;:174,&quot;201208&quot;:175,&quot;201209&quot;:176,&quot;201210&quot;:177,&quot;201211&quot;:178,&quot;201212&quot;:179,&quot;201301&quot;:180,&quot;201302&quot;:181,&quot;201303&quot;:182,&quot;201304&quot;:183,&quot;201305&quot;:184,&quot;201306&quot;:185,&quot;201307&quot;:186,&quot;201308&quot;:187,&quot;201309&quot;:188,&quot;201310&quot;:189,&quot;201311&quot;:190,&quot;201312&quot;:191,&quot;201401&quot;:192,&quot;201402&quot;:193,&quot;201403&quot;:194,&quot;201404&quot;:195,&quot;201405&quot;:196,&quot;201406&quot;:197,&quot;201407&quot;:198,&quot;201408&quot;:199,&quot;201409&quot;:200,&quot;201410&quot;:201,&quot;201411&quot;:202,&quot;201412&quot;:203,&quot;201501&quot;:204,&quot;201502&quot;:205,&quot;201503&quot;:206,&quot;201504&quot;:207,&quot;201505&quot;:208,&quot;201506&quot;:209,&quot;201507&quot;:210,&quot;201508&quot;:211,&quot;201509&quot;:212,&quot;201510&quot;:213,&quot;201511&quot;:214,&quot;201512&quot;:215,&quot;201601&quot;:216,&quot;201602&quot;:217,&quot;201603&quot;:218,&quot;201604&quot;:219,&quot;201605&quot;:220,&quot;201606&quot;:221,&quot;201607&quot;:222,&quot;201608&quot;:223,&quot;201609&quot;:224,&quot;201610&quot;:225,&quot;201611&quot;:226,&quot;201612&quot;:227,&quot;201701&quot;:228,&quot;201702&quot;:229,&quot;201703&quot;:230,&quot;201704&quot;:231,&quot;201705&quot;:232,&quot;201706&quot;:233,&quot;201707&quot;:234,&quot;201708&quot;:235,&quot;201709&quot;:236,&quot;201710&quot;:237,&quot;201711&quot;:238,&quot;201712&quot;:239,&quot;201801&quot;:240,&quot;201802&quot;:241,&quot;201803&quot;:242,&quot;201804&quot;:243,&quot;201805&quot;:244,&quot;201806&quot;:245,&quot;201807&quot;:246,&quot;201808&quot;:247,&quot;201809&quot;:248,&quot;201810&quot;:249,&quot;201811&quot;:250,&quot;201812&quot;:251,&quot;201901&quot;:252,&quot;201902&quot;:253,&quot;201903&quot;:254,&quot;201904&quot;:255,&quot;201905&quot;:256,&quot;201906&quot;:257,&quot;201907&quot;:258,&quot;201908&quot;:259,&quot;201909&quot;:260,&quot;201910&quot;:261,&quot;201911&quot;:262,&quot;201912&quot;:263,&quot;202001&quot;:264,&quot;202002&quot;:265,&quot;202003&quot;:266,&quot;202004&quot;:267,&quot;202005&quot;:268,&quot;202006&quot;:269,&quot;202007&quot;:270,&quot;202008&quot;:271,&quot;202009&quot;:272,&quot;202010&quot;:273,&quot;202011&quot;:274,&quot;202012&quot;:275,&quot;202101&quot;:276,&quot;202102&quot;:277,&quot;202103&quot;:278,&quot;202104&quot;:279,&quot;202105&quot;:280,&quot;202106&quot;:281,&quot;202107&quot;:282,&quot;202108&quot;:283,&quot;202109&quot;:284,&quot;202110&quot;:285,&quot;202111&quot;:286,&quot;202112&quot;:287,&quot;202201&quot;:288,&quot;202202&quot;:289,&quot;202203&quot;:290,&quot;202204&quot;:291,&quot;202205&quot;:292,&quot;202206&quot;:293,&quot;202207&quot;:294,&quot;202208&quot;:295,&quot;202209&quot;:296,&quot;202210&quot;:297,&quot;202211&quot;:298,&quot;202212&quot;:299,&quot;202301&quot;:300,&quot;202302&quot;:301,&quot;202303&quot;:302,&quot;202304&quot;:303,&quot;202305&quot;:304,&quot;202306&quot;:305,&quot;202307&quot;:306,&quot;202308&quot;:307,&quot;202309&quot;:308,&quot;202310&quot;:309,&quot;202311&quot;:310,&quot;202312&quot;:311,&quot;202401&quot;:312,&quot;202402&quot;:313,&quot;202403&quot;:314,&quot;202404&quot;:315,&quot;202405&quot;:316,&quot;202406&quot;:317,&quot;202407&quot;:318,&quot;202408&quot;:319,&quot;202409&quot;:320,&quot;202410&quot;:321,&quot;202411&quot;:322,&quot;202412&quot;:323,&quot;202501&quot;:324,&quot;202502&quot;:325,&quot;202503&quot;:326,&quot;202504&quot;:327,&quot;202505&quot;:328,&quot;202506&quot;:329,&quot;202507&quot;:330,&quot;202508&quot;:331,&quot;202509&quot;:332,&quot;202510&quot;:333,&quot;202511&quot;:334,&quot;202512&quot;:335,&quot;202601&quot;:336,&quot;202602&quot;:337,&quot;202603&quot;:338,&quot;202604&quot;:339,&quot;202605&quot;:340,&quot;202606&quot;:341,&quot;202607&quot;:342},&quot;label&quot;:{&quot;199801&quot;:&quot;1998 January&quot;,&quot;199802&quot;:&quot;1998 February&quot;,&quot;199803&quot;:&quot;1998 March&quot;,&quot;199804&quot;:&quot;1998 April&quot;,&quot;199805&quot;:&quot;1998 May&quot;,&quot;199806&quot;:&quot;1998 June&quot;,&quot;199807&quot;:&quot;1998 July&quot;,&quot;199808&quot;:&quot;1998 August&quot;,&quot;199809&quot;:&quot;1998 September&quot;,&quot;199810&quot;:&quot;1998 October&quot;,&quot;199811&quot;:&quot;1998 November&quot;,&quot;199812&quot;:&quot;1998 December&quot;,&quot;199901&quot;:&quot;1999 January&quot;,&quot;199902&quot;:&quot;1999 February&quot;,&quot;199903&quot;:&quot;1999 March&quot;,&quot;199904&quot;:&quot;1999 April&quot;,&quot;199905&quot;:&quot;1999 May&quot;,&quot;199906&quot;:&quot;1999 June&quot;,&quot;199907&quot;:&quot;1999 July&quot;,&quot;199908&quot;:&quot;1999 August&quot;,&quot;199909&quot;:&quot;1999 September&quot;,&quot;199910&quot;:&quot;1999 October&quot;,&quot;199911&quot;:&quot;1999 November&quot;,&quot;199912&quot;:&quot;1999 December&quot;,&quot;200001&quot;:&quot;2000 January&quot;,&quot;200002&quot;:&quot;2000 February&quot;,&quot;200003&quot;:&quot;2000 March&quot;,&quot;200004&quot;:&quot;2000 April&quot;,&quot;200005&quot;:&quot;2000 May&quot;,&quot;200006&quot;:&quot;2000 June&quot;,&quot;200007&quot;:&quot;2000 July&quot;,&quot;200008&quot;:&quot;2000 August&quot;,&quot;200009&quot;:&quot;2000 September&quot;,&quot;200010&quot;:&quot;2000 October&quot;,&quot;200011&quot;:&quot;2000 November&quot;,&quot;200012&quot;:&quot;2000 December&quot;,&quot;200101&quot;:&quot;2001 January&quot;,&quot;200102&quot;:&quot;2001 February&quot;,&quot;200103&quot;:&quot;2001 March&quot;,&quot;200104&quot;:&quot;2001 April&quot;,&quot;200105&quot;:&quot;2001 May&quot;,&quot;200106&quot;:&quot;2001 June&quot;,&quot;200107&quot;:&quot;2001 July&quot;,&quot;200108&quot;:&quot;2001 August&quot;,&quot;200109&quot;:&quot;2001 September&quot;,&quot;200110&quot;:&quot;2001 October&quot;,&quot;200111&quot;:&quot;2001 November&quot;,&quot;200112&quot;:&quot;2001 December&quot;,&quot;200201&quot;:&quot;2002 January&quot;,&quot;200202&quot;:&quot;2002 February&quot;,&quot;200203&quot;:&quot;2002 March&quot;,&quot;200204&quot;:&quot;2002 April&quot;,&quot;200205&quot;:&quot;2002 May&quot;,&quot;200206&quot;:&quot;2002 June&quot;,&quot;200207&quot;:&quot;2002 July&quot;,&quot;200208&quot;:&quot;2002 August&quot;,&quot;200209&quot;:&quot;2002 September&quot;,&quot;200210&quot;:&quot;2002 October&quot;,&quot;200211&quot;:&quot;2002 November&quot;,&quot;200212&quot;:&quot;2002 December&quot;,&quot;200301&quot;:&quot;2003 January&quot;,&quot;200302&quot;:&quot;2003 February&quot;,&quot;200303&quot;:&quot;2003 March&quot;,&quot;200304&quot;:&quot;2003 April&quot;,&quot;200305&quot;:&quot;2003 May&quot;,&quot;200306&quot;:&quot;2003 June&quot;,&quot;200307&quot;:&quot;2003 July&quot;,&quot;200308&quot;:&quot;2003 August&quot;,&quot;200309&quot;:&quot;2003 September&quot;,&quot;200310&quot;:&quot;2003 October&quot;,&quot;200311&quot;:&quot;2003 November&quot;,&quot;200312&quot;:&quot;2003 December&quot;,&quot;200401&quot;:&quot;2004 January&quot;,&quot;200402&quot;:&quot;2004 February&quot;,&quot;200403&quot;:&quot;2004 March&quot;,&quot;200404&quot;:&quot;2004 April&quot;,&quot;200405&quot;:&quot;2004 May&quot;,&quot;200406&quot;:&quot;2004 June&quot;,&quot;200407&quot;:&quot;2004 July&quot;,&quot;200408&quot;:&quot;2004 August&quot;,&quot;200409&quot;:&quot;2004 September&quot;,&quot;200410&quot;:&quot;2004 October&quot;,&quot;200411&quot;:&quot;2004 November&quot;,&quot;200412&quot;:&quot;2004 December&quot;,&quot;200501&quot;:&quot;2005 January&quot;,&quot;200502&quot;:&quot;2005 February&quot;,&quot;200503&quot;:&quot;2005 March&quot;,&quot;200504&quot;:&quot;2005 April&quot;,&quot;200505&quot;:&quot;2005 May&quot;,&quot;200506&quot;:&quot;2005 June&quot;,&quot;200507&quot;:&quot;2005 July&quot;,&quot;200508&quot;:&quot;2005 August&quot;,&quot;200509&quot;:&quot;2005 September&quot;,&quot;200510&quot;:&quot;2005 October&quot;,&quot;200511&quot;:&quot;2005 November&quot;,&quot;200512&quot;:&quot;2005 December&quot;,&quot;200601&quot;:&quot;2006 January&quot;,&quot;200602&quot;:&quot;2006 February&quot;,&quot;200603&quot;:&quot;2006 March&quot;,&quot;200604&quot;:&quot;2006 April&quot;,&quot;200605&quot;:&quot;2006 May&quot;,&quot;200606&quot;:&quot;2006 June&quot;,&quot;200607&quot;:&quot;2006 July&quot;,&quot;200608&quot;:&quot;2006 August&quot;,&quot;200609&quot;:&quot;2006 September&quot;,&quot;200610&quot;:&quot;2006 October&quot;,&quot;200611&quot;:&quot;2006 November&quot;,&quot;200612&quot;:&quot;2006 December&quot;,&quot;200701&quot;:&quot;2007 January&quot;,&quot;200702&quot;:&quot;2007 February&quot;,&quot;200703&quot;:&quot;2007 March&quot;,&quot;200704&quot;:&quot;2007 April&quot;,&quot;200705&quot;:&quot;2007 May&quot;,&quot;200706&quot;:&quot;2007 June&quot;,&quot;200707&quot;:&quot;2007 July&quot;,&quot;200708&quot;:&quot;2007 August&quot;,&quot;200709&quot;:&quot;2007 September&quot;,&quot;200710&quot;:&quot;2007 October&quot;,&quot;200711&quot;:&quot;2007 November&quot;,&quot;200712&quot;:&quot;2007 December&quot;,&quot;200801&quot;:&quot;2008 January&quot;,&quot;200802&quot;:&quot;2008 February&quot;,&quot;200803&quot;:&quot;2008 March&quot;,&quot;200804&quot;:&quot;2008 April&quot;,&quot;200805&quot;:&quot;2008 May&quot;,&quot;200806&quot;:&quot;2008 June&quot;,&quot;200807&quot;:&quot;2008 July&quot;,&quot;200808&quot;:&quot;2008 August&quot;,&quot;200809&quot;:&quot;2008 September&quot;,&quot;200810&quot;:&quot;2008 October&quot;,&quot;200811&quot;:&quot;2008 November&quot;,&quot;200812&quot;:&quot;2008 December&quot;,&quot;200901&quot;:&quot;2009 January&quot;,&quot;200902&quot;:&quot;2009 February&quot;,&quot;200903&quot;:&quot;2009 March&quot;,&quot;200904&quot;:&quot;2009 April&quot;,&quot;200905&quot;:&quot;2009 May&quot;,&quot;200906&quot;:&quot;2009 June&quot;,&quot;200907&quot;:&quot;2009 July&quot;,&quot;200908&quot;:&quot;2009 August&quot;,&quot;200909&quot;:&quot;2009 September&quot;,&quot;200910&quot;:&quot;2009 October&quot;,&quot;200911&quot;:&quot;2009 November&quot;,&quot;200912&quot;:&quot;2009 December&quot;,&quot;201001&quot;:&quot;2010 January&quot;,&quot;201002&quot;:&quot;2010 February&quot;,&quot;201003&quot;:&quot;2010 March&quot;,&quot;201004&quot;:&quot;2010 April&quot;,&quot;201005&quot;:&quot;2010 May&quot;,&quot;201006&quot;:&quot;2010 June&quot;,&quot;201007&quot;:&quot;2010 July&quot;,&quot;201008&quot;:&quot;2010 August&quot;,&quot;201009&quot;:&quot;2010 September&quot;,&quot;201010&quot;:&quot;2010 October&quot;,&quot;201011&quot;:&quot;2010 November&quot;,&quot;201012&quot;:&quot;2010 December&quot;,&quot;201101&quot;:&quot;2011 January&quot;,&quot;201102&quot;:&quot;2011 February&quot;,&quot;201103&quot;:&quot;2011 March&quot;,&quot;201104&quot;:&quot;2011 April&quot;,&quot;201105&quot;:&quot;2011 May&quot;,&quot;201106&quot;:&quot;2011 June&quot;,&quot;201107&quot;:&quot;2011 July&quot;,&quot;201108&quot;:&quot;2011 August&quot;,&quot;201109&quot;:&quot;2011 September&quot;,&quot;201110&quot;:&quot;2011 October&quot;,&quot;201111&quot;:&quot;2011 November&quot;,&quot;201112&quot;:&quot;2011 December&quot;,&quot;201201&quot;:&quot;2012 January&quot;,&quot;201202&quot;:&quot;2012 February&quot;,&quot;201203&quot;:&quot;2012 March&quot;,&quot;201204&quot;:&quot;2012 April&quot;,&quot;201205&quot;:&quot;2012 May&quot;,&quot;201206&quot;:&quot;2012 June&quot;,&quot;201207&quot;:&quot;2012 July&quot;,&quot;201208&quot;:&quot;2012 August&quot;,&quot;201209&quot;:&quot;2012 September&quot;,&quot;201210&quot;:&quot;2012 October&quot;,&quot;201211&quot;:&quot;2012 November&quot;,&quot;201212&quot;:&quot;2012 December&quot;,&quot;201301&quot;:&quot;2013 January&quot;,&quot;201302&quot;:&quot;2013 February&quot;,&quot;201303&quot;:&quot;2013 March&quot;,&quot;201304&quot;:&quot;2013 April&quot;,&quot;201305&quot;:&quot;2013 May&quot;,&quot;201306&quot;:&quot;2013 June&quot;,&quot;201307&quot;:&quot;2013 July&quot;,&quot;201308&quot;:&quot;2013 August&quot;,&quot;201309&quot;:&quot;2013 September&quot;,&quot;201310&quot;:&quot;2013 October&quot;,&quot;201311&quot;:&quot;2013 November&quot;,&quot;201312&quot;:&quot;2013 December&quot;,&quot;201401&quot;:&quot;2014 January&quot;,&quot;201402&quot;:&quot;2014 February&quot;,&quot;201403&quot;:&quot;2014 March&quot;,&quot;201404&quot;:&quot;2014 April&quot;,&quot;201405&quot;:&quot;2014 May&quot;,&quot;201406&quot;:&quot;2014 June&quot;,&quot;201407&quot;:&quot;2014 July&quot;,&quot;201408&quot;:&quot;2014 August&quot;,&quot;201409&quot;:&quot;2014 September&quot;,&quot;201410&quot;:&quot;2014 October&quot;,&quot;201411&quot;:&quot;2014 November&quot;,&quot;201412&quot;:&quot;2014 December&quot;,&quot;201501&quot;:&quot;2015 January&quot;,&quot;201502&quot;:&quot;2015 February&quot;,&quot;201503&quot;:&quot;2015 March&quot;,&quot;201504&quot;:&quot;2015 April&quot;,&quot;201505&quot;:&quot;2015 May&quot;,&quot;201506&quot;:&quot;2015 June&quot;,&quot;201507&quot;:&quot;2015 July&quot;,&quot;201508&quot;:&quot;2015 August&quot;,&quot;201509&quot;:&quot;2015 September&quot;,&quot;201510&quot;:&quot;2015 October&quot;,&quot;201511&quot;:&quot;2015 November&quot;,&quot;201512&quot;:&quot;2015 December&quot;,&quot;201601&quot;:&quot;2016 January&quot;,&quot;201602&quot;:&quot;2016 February&quot;,&quot;201603&quot;:&quot;2016 March&quot;,&quot;201604&quot;:&quot;2016 April&quot;,&quot;201605&quot;:&quot;2016 May&quot;,&quot;201606&quot;:&quot;2016 June&quot;,&quot;201607&quot;:&quot;2016 July&quot;,&quot;201608&quot;:&quot;2016 August&quot;,&quot;201609&quot;:&quot;2016 September&quot;,&quot;201610&quot;:&quot;2016 October&quot;,&quot;201611&quot;:&quot;2016 November&quot;,&quot;201612&quot;:&quot;2016 December&quot;,&quot;201701&quot;:&quot;2017 January&quot;,&quot;201702&quot;:&quot;2017 February&quot;,&quot;201703&quot;:&quot;2017 March&quot;,&quot;201704&quot;:&quot;2017 April&quot;,&quot;201705&quot;:&quot;2017 May&quot;,&quot;201706&quot;:&quot;2017 June&quot;,&quot;201707&quot;:&quot;2017 July&quot;,&quot;201708&quot;:&quot;2017 August&quot;,&quot;201709&quot;:&quot;2017 September&quot;,&quot;201710&quot;:&quot;2017 October&quot;,&quot;201711&quot;:&quot;2017 November&quot;,&quot;201712&quot;:&quot;2017 December&quot;,&quot;201801&quot;:&quot;2018 January&quot;,&quot;201802&quot;:&quot;2018 February&quot;,&quot;201803&quot;:&quot;2018 March&quot;,&quot;201804&quot;:&quot;2018 April&quot;,&quot;201805&quot;:&quot;2018 May&quot;,&quot;201806&quot;:&quot;2018 June&quot;,&quot;201807&quot;:&quot;2018 July&quot;,&quot;201808&quot;:&quot;2018 August&quot;,&quot;201809&quot;:&quot;2018 September&quot;,&quot;201810&quot;:&quot;2018 October&quot;,&quot;201811&quot;:&quot;2018 November&quot;,&quot;201812&quot;:&quot;2018 December&quot;,&quot;201901&quot;:&quot;2019 January&quot;,&quot;201902&quot;:&quot;2019 February&quot;,&quot;201903&quot;:&quot;2019 March&quot;,&quot;201904&quot;:&quot;2019 April&quot;,&quot;201905&quot;:&quot;2019 May&quot;,&quot;201906&quot;:&quot;2019 June&quot;,&quot;201907&quot;:&quot;2019 July&quot;,&quot;201908&quot;:&quot;2019 August&quot;,&quot;201909&quot;:&quot;2019 September&quot;,&quot;201910&quot;:&quot;2019 October&quot;,&quot;201911&quot;:&quot;2019 November&quot;,&quot;201912&quot;:&quot;2019 December&quot;,&quot;202001&quot;:&quot;2020 January&quot;,&quot;202002&quot;:&quot;2020 February&quot;,&quot;202003&quot;:&quot;2020 March&quot;,&quot;202004&quot;:&quot;2020 April&quot;,&quot;202005&quot;:&quot;2020 May&quot;,&quot;202006&quot;:&quot;2020 June&quot;,&quot;202007&quot;:&quot;2020 July&quot;,&quot;202008&quot;:&quot;2020 August&quot;,&quot;202009&quot;:&quot;2020 September&quot;,&quot;202010&quot;:&quot;2020 October&quot;,&quot;202011&quot;:&quot;2020 November&quot;,&quot;202012&quot;:&quot;2020 December&quot;,&quot;202101&quot;:&quot;2021 January&quot;,&quot;202102&quot;:&quot;2021 February&quot;,&quot;202103&quot;:&quot;2021 March&quot;,&quot;202104&quot;:&quot;2021 April&quot;,&quot;202105&quot;:&quot;2021 May&quot;,&quot;202106&quot;:&quot;2021 June&quot;,&quot;202107&quot;:&quot;2021 July&quot;,&quot;202108&quot;:&quot;2021 August&quot;,&quot;202109&quot;:&quot;2021 September&quot;,&quot;202110&quot;:&quot;2021 October&quot;,&quot;202111&quot;:&quot;2021 November&quot;,&quot;202112&quot;:&quot;2021 December&quot;,&quot;202201&quot;:&quot;2022 January&quot;,&quot;202202&quot;:&quot;2022 February&quot;,&quot;202203&quot;:&quot;2022 March&quot;,&quot;202204&quot;:&quot;2022 April&quot;,&quot;202205&quot;:&quot;2022 May&quot;,&quot;202206&quot;:&quot;2022 June&quot;,&quot;202207&quot;:&quot;2022 July&quot;,&quot;202208&quot;:&quot;2022 August&quot;,&quot;202209&quot;:&quot;2022 September&quot;,&quot;202210&quot;:&quot;2022 October&quot;,&quot;202211&quot;:&quot;2022 November&quot;,&quot;202212&quot;:&quot;2022 December&quot;,&quot;202301&quot;:&quot;2023 January&quot;,&quot;202302&quot;:&quot;2023 February&quot;,&quot;202303&quot;:&quot;2023 March&quot;,&quot;202304&quot;:&quot;2023 April&quot;,&quot;202305&quot;:&quot;2023 May&quot;,&quot;202306&quot;:&quot;2023 June&quot;,&quot;202307&quot;:&quot;2023 July&quot;,&quot;202308&quot;:&quot;2023 August&quot;,&quot;202309&quot;:&quot;2023 September&quot;,&quot;202310&quot;:&quot;2023 October&quot;,&quot;202311&quot;:&quot;2023 November&quot;,&quot;202312&quot;:&quot;2023 December&quot;,&quot;202401&quot;:&quot;2024 January&quot;,&quot;202402&quot;:&quot;2024 February&quot;,&quot;202403&quot;:&quot;2024 March&quot;,&quot;202404&quot;:&quot;2024 April&quot;,&quot;202405&quot;:&quot;2024 May&quot;,&quot;202406&quot;:&quot;2024 June&quot;,&quot;202407&quot;:&quot;2024 July&quot;,&quot;202408&quot;:&quot;2024 August&quot;,&quot;202409&quot;:&quot;2024 September&quot;,&quot;202410&quot;:&quot;2024 October&quot;,&quot;202411&quot;:&quot;2024 November&quot;,&quot;202412&quot;:&quot;2024 December&quot;,&quot;202501&quot;:&quot;2025 January&quot;,&quot;202502&quot;:&quot;2025 February&quot;,&quot;202503&quot;:&quot;2025 March&quot;,&quot;202504&quot;:&quot;2025 April&quot;,&quot;202505&quot;:&quot;2025 May&quot;,&quot;202506&quot;:&quot;2025 June&quot;,&quot;202507&quot;:&quot;2025 July&quot;,&quot;202508&quot;:&quot;2025 August&quot;,&quot;202509&quot;:&quot;2025 September&quot;,&quot;202510&quot;:&quot;2025 October&quot;,&quot;202511&quot;:&quot;2025 November&quot;,&quot;202512&quot;:&quot;2025 December&quot;,&quot;202601&quot;:&quot;2026 January&quot;,&quot;202602&quot;:&quot;2026 February&quot;,&quot;202603&quot;:&quot;2026 March&quot;,&quot;202604&quot;:&quot;2026 April&quot;,&quot;202605&quot;:&quot;2026 May&quot;,&quot;202606&quot;:&quot;2026 June&quot;,&quot;202607&quot;:&quot;2026 July&quot;}},&quot;label&quot;:&quot;Month&quot;},&quot;C02076V02508&quot;:{&quot;category&quot;:{&quot;index&quot;:{&quot;316&quot;:0},&quot;label&quot;:{&quot;316&quot;:&quot;15 - 74 years&quot;}},&quot;label&quot;:&quot;Age Group&quot;},&quot;C02199V02655&quot;:{&quot;category&quot;:{&quot;index&quot;:{&quot;-&quot;:0},&quot;label&quot;:{&quot;-&quot;:&quot;Both sexes&quot;}},&quot;label&quot;:&quot;Sex&quot;}},&quot;extension&quot;:{&quot;matrix&quot;:&quot;MUM01&quot;,&quot;language&quot;:{&quot;code&quot;:&quot;en&quot;,&quot;name&quot;:&quot;English&quot;},&quot;elimination&quot;:{&quot;C02076V02508&quot;:null,&quot;C02199V02655&quot;:null},&quot;contact&quot;:{&quot;name&quot;:&quot;Conor Delves&quot;,&quot;email&quot;:&quot;labour@cso.ie&quot;,&quot;phone&quot;:&quot;(+353) 21 453 5189&quot;},&quot;subject&quot;:{&quot;code&quot;:26,&quot;value&quot;:&quot;Labour Market&quot;},&quot;product&quot;:{&quot;code&quot;:&quot;MUE&quot;,&quot;value&quot;:&quot;Monthly Unemployment&quot;},&quot;official&quot;:true,&quot;copyright&quot;:{&quot;name&quot;:&quot;Central Statistics Office, Ireland&quot;,&quot;code&quot;:&quot;CSO&quot;,&quot;href&quot;:&quot;https://www.cso.ie/&quot;},&quot;exceptional&quot;:false,&quot;reservation&quot;:false,&quot;archive&quot;:false,&quot;experimental&quot;:false,&quot;analytical&quot;:false},&quot;id&quot;:[&quot;STATISTIC&quot;,&quot;TLIST(M1)&quot;,&quot;C02076V02508&quot;,&quot;C02199V02655&quot;],&quot;label&quot;:&quot;Seasonally Adjusted Monthly Unemployment&quot;,&quot;note&quot;:[&quot;For more information, please go to the[url=https://www.cso.ie/en/statistics/labourmarket/monthlyunemployment/] statistical release page[/url] on our website.&quot;],&quot;role&quot;:{&quot;metric&quot;:[&quot;STATISTIC&quot;],&quot;time&quot;:[&quot;TLIST(M1)&quot;],&quot;geo&quot;:null,&quot;classification&quot;:[&quot;C02076V02508&quot;,&quot;C02199V02655&quot;]},&quot;size&quot;:[1,343,1,1],&quot;value&quot;:[8.7,8.9,8.8,8.2,7.9,7.6,7.4,7.2,7.2,6.9,6.6,6.5,6.4,6.2,6.2,6.1,6.1,5.8,5.6,5.3,5.4,5.4,5.3,5.2,4.9,4.8,4.7,4.7,4.6,4.5,4.4,4.2,4.1,3.9,3.9,3.9,4,4,3.9,3.9,4,4.1,4.3,4.4,4.4,4.4,4.4,4.4,4.4,4.5,4.7,4.6,4.7,4.6,4.4,4.4,4.7,5.1,5.3,5.3,5,4.8,4.7,4.7,4.7,4.9,5,5,5,4.8,4.7,4.8,5.1,5.2,5.1,4.8,4.7,4.5,4.5,4.4,4.6,4.7,4.7,4.7,4.4,4.3,4.6,4.8,4.9,4.9,4.8,4.7,4.6,4.5,4.6,4.6,4.7,4.7,4.7,4.7,4.7,4.8,5,5.1,4.9,4.6,4.6,4.7,4.8,4.9,5,5,5,5,4.9,4.9,4.9,5.1,5.3,5.3,5.3,5.3,5.5,5.6,5.9,6.3,6.9,7.4,7.8,8.1,8.5,9,10.1,10.9,11.6,12.2,12.7,12.9,13,13.2,13.7,13.9,13.9,13.8,13.8,13.7,13.9,14.2,14.5,14.4,14.3,14.4,15,15.6,15.7,15.6,15.4,15.1,14.9,14.9,15,15.2,15.5,15.6,15.7,15.7,15.8,16.1,15.6,16.1,16.1,15.7,15.5,15.4,15.6,15.5,15.4,15.2,15,14.8,14.6,14.5,14.3,14.5,14.5,14.1,13.6,13.3,13.1,12.9,12.8,12.8,12.9,12.9,12.7,12.4,12.2,12,11.9,11.7,11.4,11,10.8,10.8,10.7,10.7,10.5,10.3,10,9.9,9.6,9.5,9.5,9.6,9.6,9.1,9.1,8.9,8.8,9,8.8,8.7,8.5,8.3,7.9,7.7,7.5,7.5,7.4,7.3,7.1,6.8,6.6,6.6,6.7,6.6,6.6,6.6,6.4,6.3,6.1,6,5.8,5.9,5.9,5.8,5.7,5.7,5.7,5.9,5.8,5.5,5.2,4.9,5,5.1,5.2,5.2,5.1,5,4.9,4.8,4.8,4.8,5,4.9,4.9,4.7,5,5.7,6.7,7.1,7.3,6.4,6.2,6.2,7,7.5,7.7,7.5,7,6.4,5.8,5.4,5.2,5.3,5.3,5.1,5,4.7,5,4.5,4.2,4.1,4.2,4.2,4.2,4.5,4.5,4.3,4.3,4.2,4.1,4.1,4.2,4.3,4.3,4.3,4.5,4.5,4.5,4.4,4.4,4.2,4.2,4.4,4.4,4.4,4.4,4.1,4.1,4.2,4.3,4.5,4.4,4.4,4.5,4.6,4.6,4.7,5,4.9,4.8,4.6,4.6,4.8,5,5.1,5.1,4.9,4.9,5,5.1],&quot;version&quot;:&quot;2.0&quot;}},&quot;data&quot;:[],&quot;unit&quot;:[&quot;%&quot;,&quot;%&quot;,&quot;%&quot;,&quot;%&quot;,&quot;%&quot;,&quot;%&quot;,&quot;%&quot;,&quot;%&quot;,&quot;%&quot;,&quot;%&quot;,&quot;%&quot;,&quot;%&quot;,&quot;%&quot;,&quot;%&quot;,&quot;%&quot;,&quot;%&quot;,&quot;%&quot;,&quot;%&quot;,&quot;%&quot;,&quot;%&quot;,&quot;%&quot;,&quot;%&quot;,&quot;%&quot;,&quot;%&quot;,&quot;%&quot;,&quot;%&quot;,&quot;%&quot;,&quot;%&quot;,&quot;%&quot;,&quot;%&quot;,&quot;%&quot;,&quot;%&quot;,&quot;%&quot;,&quot;%&quot;,&quot;%&quot;,&quot;%&quot;,&quot;%&quot;],&quot;decimal&quot;:[],&quot;fluidTime&quot;:[],&quot;fill&quot;:false}],&quot;null&quot;:&quot;..&quot;},&quot;options&quot;:{&quot;responsive&quot;:true,&quot;maintainAspectRatio&quot;:false,&quot;title&quot;:{&quot;display&quot;:true,&quot;text&quot;:[&quot;&quot;]},&quot;tooltips&quot;:{&quot;mode&quot;:&quot;index&quot;,&quot;intersect&quot;:false,&quot;callbacks&quot;:{}},&quot;hover&quot;:{&quot;mode&quot;:&quot;nearest&quot;,&quot;intersect&quot;:true},&quot;scales&quot;:{&quot;xAxes&quot;:[{&quot;ticks&quot;:{&quot;beginAtZero&quot;:false,&quot;maxTicksLimit&quot;:&quot;20&quot;,&quot;reverse&quot;:true},&quot;gridLines&quot;:{&quot;display&quot;:false},&quot;scaleLabel&quot;:{&quot;display&quot;:true,&quot;labelString&quot;:&quot;Month&quot;},&quot;stacked&quot;:false}],&quot;yAxes&quot;:[{&quot;display&quot;:true,&quot;position&quot;:&quot;left&quot;,&quot;id&quot;:&quot;y-axis-1&quot;,&quot;ticks&quot;:{&quot;beginAtZero&quot;:true},&quot;callback&quot;:null,&quot;scaleLabel&quot;:{&quot;display&quot;:true,&quot;labelString&quot;:&quot;Monthly Unemployment Rate (%)&quot;},&quot;stacked&quot;:false}]},&quot;plugins&quot;:{&quot;stacked100&quot;:{&quot;enable&quot;:false,&quot;replaceTooltipLabel&quot;:false},&quot;colorschemes&quot;:{&quot;scheme&quot;:[&quot;#405381&quot;,&quot;#5BC1A5&quot;,&quot;#FCBE72&quot;,&quot;#0091AB&quot;,&quot;#90989F&quot;,&quot;#3D5999&quot;,&quot;#C6CC5C&quot;,&quot;#579599&quot;,&quot;#FBAA34&quot;,&quot;#007780&quot;,&quot;#B9BEC3&quot;,&quot;#00AF86&quot;,&quot;#6BC2C2&quot;,&quot;#00758C&quot;,&quot;#FCB053&quot;,&quot;#6A7794&quot;,&quot;#A3CCC1&quot;,&quot;#F68B58&quot;,&quot;#36A0B3&quot;]}},&quot;legend&quot;:{&quot;display&quot;:false},&quot;elements&quot;:{&quot;line&quot;:{&quot;tension&quot;:0.4}},&quot;updated&quot;:null,&quot;layout&quot;:{&quot;padding&quot;:{&quot;left&quot;:22,&quot;right&quot;:22,&quot;top&quot;:0,&quot;bottom&quot;:22}}},&quot;datasetLabels&quot;:[&quot;Monthly Unemployment Rate&quot;],&quot;plugins&quot;:[{}]});&lt;/script&gt;\n&lt;div id=&quot;pxwidget4516203741&quot; class=&quot;pxwidget&quot;&gt;&lt;/div&gt;').text();
+       
+        var isSnippetPrivate = t4Sdk.pxWidget.utility.isSnippetPrivate("chart", snippet);
+         
+          if(isSnippetPrivate) {
+            
+            $("#px-stat-widget-631533").addClass("px-stat-widget-error");
+            pxWidget.queue(null, "px-stat-widget-631533");                       
+          }
+        </script>
+
+<style>
+  .px-stat-widget-error {
+  text-align: center;
+  }
+</style><span id="d.en.631526"></span>
+<h3 class="pub-findings-header ">Tables</h3>
+
+<div style="clear: both;"></div>
+<div class="pubOpenCloseTable" >
+  <div class="pubOpenCloseTableTitle" id="631527_description">
+    <span id="#631527_openClose"><i name="open-close-icon" class="fa fa-plus-circle" aria-hidden="true"></i></span> Table 1a Seasonally adjusted monthly unemployment by sex - persons aged 15-74 years
+  </div>
+
+<div style="clear: both"></div>
+
+<div id="631527_text" style="display: none" class="indicatorHeadlineTable" >
+<div id="excel-631527-insertexceltable">
+<div id="table-631527-1-insertexceltable">
+<table class="excel-631527-media-t1">
+<colgroup>
+<col width="80">
+<col width="47">
+<col width="26">
+<col width="75">
+<col width="75">
+<col width="75">
+<col width="33">
+<col width="75">
+<col width="75">
+<col width="75">
+</colgroup>
+<tbody>
+<tr class="excel-631527-media-r1">
+<td class="excel-631527-media-c1" colspan="10">Table 1a Seasonally adjusted monthly unemployment by sex - persons aged 15-74 years</td>
+</tr>
+<tr class="excel-631527-media-r1">
+<td class="excel-631527-media-c2">&nbsp;</td><td class="excel-631527-media-c2">&nbsp;</td><td class="excel-631527-media-c2">&nbsp;</td><td class="excel-631527-media-c3" colspan="3">Number of persons</td><td class="excel-631527-media-c2">&nbsp;</td><td class="excel-631527-media-c3" colspan="3">Unemployment rate (%)</td>
+</tr>
+<tr class="excel-631527-media-r1">
+<td class="excel-631527-media-c4">&nbsp;</td><td class="excel-631527-media-c4">&nbsp;</td><td class="excel-631527-media-c4">&nbsp;</td><td class="excel-631527-media-c5">Males</td><td class="excel-631527-media-c5">Females</td><td class="excel-631527-media-c5">All Persons</td><td class="excel-631527-media-c4">&nbsp;</td><td class="excel-631527-media-c5">Males</td><td class="excel-631527-media-c5">Females</td><td class="excel-631527-media-c5">All Persons</td>
+</tr>
+<tr class="excel-631527-media-r1">
+<td class="excel-631527-media-c2">2024</td><td class="excel-631527-media-c2" colspan="2">July</td><td class="excel-631527-media-c6">64,500</td><td class="excel-631527-media-c6">63,700</td><td class="excel-631527-media-c6">128,200</td><td class="excel-631527-media-c2">&nbsp;</td><td class="excel-631527-media-c6">4.3</td><td class="excel-631527-media-c6">4.6</td><td class="excel-631527-media-c6">4.4</td>
+</tr>
+<tr class="excel-631527-media-r1">
+<td class="excel-631527-media-c2">&nbsp;</td><td class="excel-631527-media-c2" colspan="2">August</td><td class="excel-631527-media-c6">59,400</td><td class="excel-631527-media-c6">57,800</td><td class="excel-631527-media-c6">117,200</td><td class="excel-631527-media-c6">&nbsp;</td><td class="excel-631527-media-c6">3.9</td><td class="excel-631527-media-c6">4.2</td><td class="excel-631527-media-c6">4.1</td>
+</tr>
+<tr class="excel-631527-media-r1">
+<td class="excel-631527-media-c2">&nbsp;</td><td class="excel-631527-media-c2" colspan="2">September</td><td class="excel-631527-media-c6">61,200</td><td class="excel-631527-media-c6">56,000</td><td class="excel-631527-media-c6">117,200</td><td class="excel-631527-media-c6">&nbsp;</td><td class="excel-631527-media-c6">4.0</td><td class="excel-631527-media-c6">4.1</td><td class="excel-631527-media-c6">4.1</td>
+</tr>
+<tr class="excel-631527-media-r1">
+<td class="excel-631527-media-c2">&nbsp;</td><td class="excel-631527-media-c2" colspan="2">October</td><td class="excel-631527-media-c6">66,400</td><td class="excel-631527-media-c6">54,900</td><td class="excel-631527-media-c6">121,200</td><td class="excel-631527-media-c6">&nbsp;</td><td class="excel-631527-media-c6">4.4</td><td class="excel-631527-media-c6">4.0</td><td class="excel-631527-media-c6">4.2</td>
+</tr>
+<tr class="excel-631527-media-r1">
+<td class="excel-631527-media-c2">&nbsp;</td><td class="excel-631527-media-c2" colspan="2">November</td><td class="excel-631527-media-c6">69,300</td><td class="excel-631527-media-c6">54,200</td><td class="excel-631527-media-c6">123,500</td><td class="excel-631527-media-c6">&nbsp;</td><td class="excel-631527-media-c6">4.6</td><td class="excel-631527-media-c6">4.0</td><td class="excel-631527-media-c6">4.3</td>
+</tr>
+<tr class="excel-631527-media-r1">
+<td class="excel-631527-media-c2">&nbsp;</td><td class="excel-631527-media-c2" colspan="2">December</td><td class="excel-631527-media-c6">72,500</td><td class="excel-631527-media-c6">56,900</td><td class="excel-631527-media-c6">129,500</td><td class="excel-631527-media-c6">&nbsp;</td><td class="excel-631527-media-c6">4.8</td><td class="excel-631527-media-c6">4.2</td><td class="excel-631527-media-c6">4.5</td>
+</tr>
+<tr class="excel-631527-media-r1">
+<td class="excel-631527-media-c7" colspan="10">&nbsp;</td>
+</tr>
+<tr class="excel-631527-media-r1">
+<td class="excel-631527-media-c2">2025</td><td class="excel-631527-media-c2" colspan="2">January</td><td class="excel-631527-media-c6">68,400</td><td class="excel-631527-media-c6">60,200</td><td class="excel-631527-media-c6">128,600</td><td class="excel-631527-media-c6">&nbsp;</td><td class="excel-631527-media-c6">4.5</td><td class="excel-631527-media-c6">4.4</td><td class="excel-631527-media-c6">4.4</td>
+</tr>
+<tr class="excel-631527-media-r1">
+<td class="excel-631527-media-c2">&nbsp;</td><td class="excel-631527-media-c2" colspan="2">February</td><td class="excel-631527-media-c6">67,400</td><td class="excel-631527-media-c6">61,900</td><td class="excel-631527-media-c6">129,300</td><td class="excel-631527-media-c6">&nbsp;</td><td class="excel-631527-media-c6">4.4</td><td class="excel-631527-media-c6">4.4</td><td class="excel-631527-media-c6">4.4</td>
+</tr>
+<tr class="excel-631527-media-r1">
+<td class="excel-631527-media-c2">&nbsp;</td><td class="excel-631527-media-c2" colspan="2">March</td><td class="excel-631527-media-c6">69,400</td><td class="excel-631527-media-c6">62,500</td><td class="excel-631527-media-c6">131,900</td><td class="excel-631527-media-c6">&nbsp;</td><td class="excel-631527-media-c6">4.5</td><td class="excel-631527-media-c6">4.5</td><td class="excel-631527-media-c6">4.5</td>
+</tr>
+<tr class="excel-631527-media-r1">
+<td class="excel-631527-media-c2">&nbsp;</td><td class="excel-631527-media-c2" colspan="2">April</td><td class="excel-631527-media-c6">73,100</td><td class="excel-631527-media-c6">61,800</td><td class="excel-631527-media-c6">134,900</td><td class="excel-631527-media-c6">&nbsp;</td><td class="excel-631527-media-c6">4.7</td><td class="excel-631527-media-c6">4.5</td><td class="excel-631527-media-c6">4.6</td>
+</tr>
+<tr class="excel-631527-media-r1">
+<td class="excel-631527-media-c2">&nbsp;</td><td class="excel-631527-media-c2" colspan="2">May</td><td class="excel-631527-media-c6">73,800</td><td class="excel-631527-media-c6">61,300</td><td class="excel-631527-media-c6">135,100</td><td class="excel-631527-media-c6">&nbsp;</td><td class="excel-631527-media-c6">4.8</td><td class="excel-631527-media-c6">4.4</td><td class="excel-631527-media-c6">4.6</td>
+</tr>
+<tr class="excel-631527-media-r1">
+<td class="excel-631527-media-c2">&nbsp;</td><td class="excel-631527-media-c2" colspan="2">June</td><td class="excel-631527-media-c6">75,300</td><td class="excel-631527-media-c6">61,700</td><td class="excel-631527-media-c6">137,000</td><td class="excel-631527-media-c2">&nbsp;</td><td class="excel-631527-media-c6">4.9</td><td class="excel-631527-media-c6">4.5</td><td class="excel-631527-media-c6">4.7</td>
+</tr>
+<tr class="excel-631527-media-r1">
+<td class="excel-631527-media-c2">&nbsp;</td><td class="excel-631527-media-c2" colspan="2">July</td><td class="excel-631527-media-c6">78,000</td><td class="excel-631527-media-c6">69,300</td><td class="excel-631527-media-c6">147,300</td><td class="excel-631527-media-c6">&nbsp;</td><td class="excel-631527-media-c6">5.0</td><td class="excel-631527-media-c6">5.0</td><td class="excel-631527-media-c6">5.0</td>
+</tr>
+<tr class="excel-631527-media-r1">
+<td class="excel-631527-media-c2">&nbsp;</td><td class="excel-631527-media-c2" colspan="2">August</td><td class="excel-631527-media-c6">77,000</td><td class="excel-631527-media-c6">67,900</td><td class="excel-631527-media-c6">144,900</td><td class="excel-631527-media-c6">&nbsp;</td><td class="excel-631527-media-c6">5.0</td><td class="excel-631527-media-c6">4.9</td><td class="excel-631527-media-c6">4.9</td>
+</tr>
+<tr class="excel-631527-media-r1">
+<td class="excel-631527-media-c2">&nbsp;</td><td class="excel-631527-media-c2" colspan="2">September</td><td class="excel-631527-media-c6">75,900</td><td class="excel-631527-media-c6">66,000</td><td class="excel-631527-media-c6">141,900</td><td class="excel-631527-media-c6">&nbsp;</td><td class="excel-631527-media-c6">4.9</td><td class="excel-631527-media-c6">4.7</td><td class="excel-631527-media-c6">4.8</td>
+</tr>
+<tr class="excel-631527-media-r1">
+<td class="excel-631527-media-c2">&nbsp;</td><td class="excel-631527-media-c2" colspan="2">October</td><td class="excel-631527-media-c6">73,000</td><td class="excel-631527-media-c6">63,300</td><td class="excel-631527-media-c6">136,300</td><td class="excel-631527-media-c6">&nbsp;</td><td class="excel-631527-media-c6">4.7</td><td class="excel-631527-media-c6">4.6</td><td class="excel-631527-media-c6">4.6</td>
+</tr>
+<tr class="excel-631527-media-r1">
+<td class="excel-631527-media-c2">&nbsp;</td><td class="excel-631527-media-c2" colspan="2">November</td><td class="excel-631527-media-c6">72,200</td><td class="excel-631527-media-c6">62,700</td><td class="excel-631527-media-c6">134,900</td><td class="excel-631527-media-c6">&nbsp;</td><td class="excel-631527-media-c6">4.6</td><td class="excel-631527-media-c6">4.5</td><td class="excel-631527-media-c6">4.6</td>
+</tr>
+<tr class="excel-631527-media-r1">
+<td class="excel-631527-media-c2">&nbsp;</td><td class="excel-631527-media-c2" colspan="2">December</td><td class="excel-631527-media-c6">74,600</td><td class="excel-631527-media-c6">66,100</td><td class="excel-631527-media-c6">140,800</td><td class="excel-631527-media-c6">&nbsp;</td><td class="excel-631527-media-c6">4.8</td><td class="excel-631527-media-c6">4.8</td><td class="excel-631527-media-c6">4.8</td>
+</tr>
+<tr class="excel-631527-media-r1">
+<td class="excel-631527-media-c7" colspan="10">&nbsp;</td>
+</tr>
+<tr class="excel-631527-media-r1">
+<td class="excel-631527-media-c2">2026</td><td class="excel-631527-media-c2" colspan="2">January</td><td class="excel-631527-media-c6">75,600</td><td class="excel-631527-media-c6">70,800</td><td class="excel-631527-media-c6">146,400</td><td class="excel-631527-media-c6">&nbsp;</td><td class="excel-631527-media-c6">4.9</td><td class="excel-631527-media-c6">5.1</td><td class="excel-631527-media-c6">5.0</td>
+</tr>
+<tr class="excel-631527-media-r1">
+<td class="excel-631527-media-c2">&nbsp;</td><td class="excel-631527-media-c2" colspan="2">February</td><td class="excel-631527-media-c6">75,500</td><td class="excel-631527-media-c6">72,700</td><td class="excel-631527-media-c6">148,200</td><td class="excel-631527-media-c6">&nbsp;</td><td class="excel-631527-media-c6">4.9</td><td class="excel-631527-media-c6">5.3</td><td class="excel-631527-media-c6">5.1</td>
+</tr>
+<tr class="excel-631527-media-r1">
+<td class="excel-631527-media-c2">&nbsp;</td><td class="excel-631527-media-c2" colspan="2">March</td><td class="excel-631527-media-c6">74,600</td><td class="excel-631527-media-c6">74,100</td><td class="excel-631527-media-c6">148,700</td><td class="excel-631527-media-c6">&nbsp;</td><td class="excel-631527-media-c6">4.8</td><td class="excel-631527-media-c6">5.3</td><td class="excel-631527-media-c6">5.1</td>
+</tr>
+<tr class="excel-631527-media-r1">
+<td class="excel-631527-media-c2">&nbsp;</td><td class="excel-631527-media-c2" colspan="2">April</td><td class="excel-631527-media-c6">73,100</td><td class="excel-631527-media-c6">72,200</td><td class="excel-631527-media-c6">145,300</td><td class="excel-631527-media-c6">&nbsp;</td><td class="excel-631527-media-c6">4.7</td><td class="excel-631527-media-c6">5.2</td><td class="excel-631527-media-c6">4.9</td>
+</tr>
+<tr class="excel-631527-media-r1">
+<td class="excel-631527-media-c2">&nbsp;</td><td class="excel-631527-media-c2" colspan="2">May</td><td class="excel-631527-media-c6">73,800</td><td class="excel-631527-media-c6">72,200</td><td class="excel-631527-media-c6">146,100</td><td class="excel-631527-media-c6">&nbsp;</td><td class="excel-631527-media-c6">4.7</td><td class="excel-631527-media-c6">5.2</td><td class="excel-631527-media-c6">4.9</td>
+</tr>
+<tr class="excel-631527-media-r1">
+<td class="excel-631527-media-c2">&nbsp;</td><td class="excel-631527-media-c2" colspan="2">June</td><td class="excel-631527-media-c6">74,500</td><td class="excel-631527-media-c6">72,500</td><td class="excel-631527-media-c6">147,100</td><td class="excel-631527-media-c6">&nbsp;</td><td class="excel-631527-media-c6">4.8</td><td class="excel-631527-media-c6">5.2</td><td class="excel-631527-media-c6">5.0</td>
+</tr>
+<tr class="excel-631527-media-r1">
+<td class="excel-631527-media-c4">&nbsp;</td><td class="excel-631527-media-c4" colspan="2">July</td><td class="excel-631527-media-c5">75,600</td><td class="excel-631527-media-c5">74,300</td><td class="excel-631527-media-c5">149,900</td><td class="excel-631527-media-c4">&nbsp;</td><td class="excel-631527-media-c5">4.9</td><td class="excel-631527-media-c5">5.3</td><td class="excel-631527-media-c5">5.1</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+
+   <div class="OpenInExcel">Open in Excel: <a href="/en/media/csoie/releasespublications/documents/ep/monthlyunemployment/july2026/P-MUE2026M07TBL1a.xls">Monthly Unemployment July 2026 Table 1(a) (XLS 37KB)</a> </div>
+  
+  
+  
+  <div class="OpenInExcel"><a href="https://data.cso.ie/table/MUM01">Visit Table MUM01 on PxStat</a></div>
+
+
+
+
+
+  
+
+  
+  
+  
+  
+</div>
+  </div>
+<div style="clear: both;"></div>
+</br>
+
+<script>
+  
+  //$(document).ready(function(){
+  
+  
+$("#631527_description").click(function(){
+    $("#631527_text").slideToggle(600, function() {
+
+      if($("#631527_text").is(":visible")) {
+        $("#631527_description").find("[name=open-close-icon]").removeClass().addClass("fa fa-minus-circle")
+      }
+      else {
+      $("#631527_description").find("[name=open-close-icon]").removeClass().addClass("fa fa-plus-circle")
+            
+      }
+    
+    });  
+  
+  
+  //var spanValue = $("#631527_openClose").val();
+  //alert(spanValue);
+
+  });
+  
+  //});
+  
+</script><div style="clear: both;"></div>
+<div class="pubOpenCloseTable" >
+  <div class="pubOpenCloseTableTitle" id="631528_description">
+    <span id="#631528_openClose"><i name="open-close-icon" class="fa fa-plus-circle" aria-hidden="true"></i></span> Table 1b Seasonally adjusted monthly unemployment by sex - persons aged 15-24 years
+  </div>
+
+<div style="clear: both"></div>
+
+<div id="631528_text" style="display: none" class="indicatorHeadlineTable" >
+<div id="excel-631528-insertexceltable">
+<div id="table-631528-1-insertexceltable">
+<table class="excel-631528-media-t1">
+<colgroup>
+<col width="80">
+<col width="47">
+<col width="26">
+<col width="75">
+<col width="75">
+<col width="75">
+<col width="33">
+<col width="75">
+<col width="75">
+<col width="75">
+</colgroup>
+<tbody>
+<tr class="excel-631528-media-r1">
+<td class="excel-631528-media-c1" colspan="10">Table 1b Seasonally adjusted monthly unemployment by sex - persons aged 15-24 years</td>
+</tr>
+<tr class="excel-631528-media-r1">
+<td class="excel-631528-media-c2">&nbsp;</td><td class="excel-631528-media-c2">&nbsp;</td><td class="excel-631528-media-c2">&nbsp;</td><td class="excel-631528-media-c3" colspan="3">Number of persons</td><td class="excel-631528-media-c2">&nbsp;</td><td class="excel-631528-media-c3" colspan="3">Unemployment rate (%)</td>
+</tr>
+<tr class="excel-631528-media-r1">
+<td class="excel-631528-media-c4">&nbsp;</td><td class="excel-631528-media-c4">&nbsp;</td><td class="excel-631528-media-c4">&nbsp;</td><td class="excel-631528-media-c5">Males</td><td class="excel-631528-media-c5">Females</td><td class="excel-631528-media-c5">All Persons</td><td class="excel-631528-media-c4">&nbsp;</td><td class="excel-631528-media-c5">Males</td><td class="excel-631528-media-c5">Females</td><td class="excel-631528-media-c5">All Persons</td>
+</tr>
+<tr class="excel-631528-media-r1">
+<td class="excel-631528-media-c2">2024</td><td class="excel-631528-media-c2" colspan="2">July</td><td class="excel-631528-media-c6">20,300</td><td class="excel-631528-media-c6">19,500</td><td class="excel-631528-media-c6">39,800</td><td class="excel-631528-media-c2">&nbsp;</td><td class="excel-631528-media-c6">10.5</td><td class="excel-631528-media-c6">10.7</td><td class="excel-631528-media-c6">10.6</td>
+</tr>
+<tr class="excel-631528-media-r1">
+<td class="excel-631528-media-c2">&nbsp;</td><td class="excel-631528-media-c2" colspan="2">August</td><td class="excel-631528-media-c6">18,600</td><td class="excel-631528-media-c6">17,700</td><td class="excel-631528-media-c6">36,300</td><td class="excel-631528-media-c6">&nbsp;</td><td class="excel-631528-media-c6">9.7</td><td class="excel-631528-media-c6">9.7</td><td class="excel-631528-media-c6">9.7</td>
+</tr>
+<tr class="excel-631528-media-r1">
+<td class="excel-631528-media-c2">&nbsp;</td><td class="excel-631528-media-c2" colspan="2">September</td><td class="excel-631528-media-c6">19,700</td><td class="excel-631528-media-c6">18,000</td><td class="excel-631528-media-c6">37,600</td><td class="excel-631528-media-c6">&nbsp;</td><td class="excel-631528-media-c6">10.3</td><td class="excel-631528-media-c6">10.0</td><td class="excel-631528-media-c6">10.1</td>
+</tr>
+<tr class="excel-631528-media-r1">
+<td class="excel-631528-media-c2">&nbsp;</td><td class="excel-631528-media-c2" colspan="2">October</td><td class="excel-631528-media-c6">21,600</td><td class="excel-631528-media-c6">18,000</td><td class="excel-631528-media-c6">39,600</td><td class="excel-631528-media-c6">&nbsp;</td><td class="excel-631528-media-c6">11.4</td><td class="excel-631528-media-c6">10.5</td><td class="excel-631528-media-c6">11.0</td>
+</tr>
+<tr class="excel-631528-media-r1">
+<td class="excel-631528-media-c2">&nbsp;</td><td class="excel-631528-media-c2" colspan="2">November</td><td class="excel-631528-media-c6">23,700</td><td class="excel-631528-media-c6">18,400</td><td class="excel-631528-media-c6">42,100</td><td class="excel-631528-media-c6">&nbsp;</td><td class="excel-631528-media-c6">12.4</td><td class="excel-631528-media-c6">10.9</td><td class="excel-631528-media-c6">11.7</td>
+</tr>
+<tr class="excel-631528-media-r1">
+<td class="excel-631528-media-c2">&nbsp;</td><td class="excel-631528-media-c2" colspan="2">December</td><td class="excel-631528-media-c6">23,900</td><td class="excel-631528-media-c6">19,500</td><td class="excel-631528-media-c6">43,400</td><td class="excel-631528-media-c6">&nbsp;</td><td class="excel-631528-media-c6">12.5</td><td class="excel-631528-media-c6">11.5</td><td class="excel-631528-media-c6">12.0</td>
+</tr>
+<tr class="excel-631528-media-r1">
+<td class="excel-631528-media-c7" colspan="10">&nbsp;</td>
+</tr>
+<tr class="excel-631528-media-r1">
+<td class="excel-631528-media-c2">2025</td><td class="excel-631528-media-c2" colspan="2">January</td><td class="excel-631528-media-c6">20,300</td><td class="excel-631528-media-c6">20,800</td><td class="excel-631528-media-c6">41,100</td><td class="excel-631528-media-c2">&nbsp;</td><td class="excel-631528-media-c6">10.8</td><td class="excel-631528-media-c6">11.9</td><td class="excel-631528-media-c6">11.3</td>
+</tr>
+<tr class="excel-631528-media-r1">
+<td class="excel-631528-media-c2">&nbsp;</td><td class="excel-631528-media-c2" colspan="2">February</td><td class="excel-631528-media-c6">19,600</td><td class="excel-631528-media-c6">21,500</td><td class="excel-631528-media-c6">41,200</td><td class="excel-631528-media-c6">&nbsp;</td><td class="excel-631528-media-c6">10.4</td><td class="excel-631528-media-c6">12.2</td><td class="excel-631528-media-c6">11.3</td>
+</tr>
+<tr class="excel-631528-media-r1">
+<td class="excel-631528-media-c2">&nbsp;</td><td class="excel-631528-media-c2" colspan="2">March</td><td class="excel-631528-media-c6">20,400</td><td class="excel-631528-media-c6">21,800</td><td class="excel-631528-media-c6">42,200</td><td class="excel-631528-media-c6">&nbsp;</td><td class="excel-631528-media-c6">10.7</td><td class="excel-631528-media-c6">12.2</td><td class="excel-631528-media-c6">11.4</td>
+</tr>
+<tr class="excel-631528-media-r1">
+<td class="excel-631528-media-c2">&nbsp;</td><td class="excel-631528-media-c2" colspan="2">April</td><td class="excel-631528-media-c6">22,100</td><td class="excel-631528-media-c6">21,200</td><td class="excel-631528-media-c6">43,300</td><td class="excel-631528-media-c6">&nbsp;</td><td class="excel-631528-media-c6">11.5</td><td class="excel-631528-media-c6">11.9</td><td class="excel-631528-media-c6">11.7</td>
+</tr>
+<tr class="excel-631528-media-r1">
+<td class="excel-631528-media-c2">&nbsp;</td><td class="excel-631528-media-c2" colspan="2">May</td><td class="excel-631528-media-c6">22,000</td><td class="excel-631528-media-c6">20,300</td><td class="excel-631528-media-c6">42,300</td><td class="excel-631528-media-c6">&nbsp;</td><td class="excel-631528-media-c6">11.4</td><td class="excel-631528-media-c6">11.5</td><td class="excel-631528-media-c6">11.5</td>
+</tr>
+<tr class="excel-631528-media-r1">
+<td class="excel-631528-media-c2">&nbsp;</td><td class="excel-631528-media-c2" colspan="2">June</td><td class="excel-631528-media-c6">22,800</td><td class="excel-631528-media-c6">19,600</td><td class="excel-631528-media-c6">42,400</td><td class="excel-631528-media-c6">&nbsp;</td><td class="excel-631528-media-c6">11.9</td><td class="excel-631528-media-c6">11.3</td><td class="excel-631528-media-c6">11.6</td>
+</tr>
+<tr class="excel-631528-media-r1">
+<td class="excel-631528-media-c2">&nbsp;</td><td class="excel-631528-media-c2" colspan="2">July</td><td class="excel-631528-media-c6">24,200</td><td class="excel-631528-media-c6">22,000</td><td class="excel-631528-media-c6">46,200</td><td class="excel-631528-media-c6">&nbsp;</td><td class="excel-631528-media-c6">12.6</td><td class="excel-631528-media-c6">12.6</td><td class="excel-631528-media-c6">12.6</td>
+</tr>
+<tr class="excel-631528-media-r1">
+<td class="excel-631528-media-c2">&nbsp;</td><td class="excel-631528-media-c2" colspan="2">August</td><td class="excel-631528-media-c6">24,900</td><td class="excel-631528-media-c6">20,700</td><td class="excel-631528-media-c6">45,600</td><td class="excel-631528-media-c6">&nbsp;</td><td class="excel-631528-media-c6">13.0</td><td class="excel-631528-media-c6">12.0</td><td class="excel-631528-media-c6">12.5</td>
+</tr>
+<tr class="excel-631528-media-r1">
+<td class="excel-631528-media-c2">&nbsp;</td><td class="excel-631528-media-c2" colspan="2">September</td><td class="excel-631528-media-c6">24,500</td><td class="excel-631528-media-c6">20,200</td><td class="excel-631528-media-c6">44,700</td><td class="excel-631528-media-c6">&nbsp;</td><td class="excel-631528-media-c6">12.7</td><td class="excel-631528-media-c6">11.7</td><td class="excel-631528-media-c6">12.2</td>
+</tr>
+<tr class="excel-631528-media-r1">
+<td class="excel-631528-media-c2">&nbsp;</td><td class="excel-631528-media-c2" colspan="2">October</td><td class="excel-631528-media-c6">22,400</td><td class="excel-631528-media-c6">19,500</td><td class="excel-631528-media-c6">41,900</td><td class="excel-631528-media-c6">&nbsp;</td><td class="excel-631528-media-c6">11.7</td><td class="excel-631528-media-c6">11.2</td><td class="excel-631528-media-c6">11.4</td>
+</tr>
+<tr class="excel-631528-media-r1">
+<td class="excel-631528-media-c2">&nbsp;</td><td class="excel-631528-media-c2" colspan="2">November</td><td class="excel-631528-media-c6">22,600</td><td class="excel-631528-media-c6">19,000</td><td class="excel-631528-media-c6">41,600</td><td class="excel-631528-media-c6">&nbsp;</td><td class="excel-631528-media-c6">11.7</td><td class="excel-631528-media-c6">10.9</td><td class="excel-631528-media-c6">11.3</td>
+</tr>
+<tr class="excel-631528-media-r1">
+<td class="excel-631528-media-c2">&nbsp;</td><td class="excel-631528-media-c2" colspan="2">December</td><td class="excel-631528-media-c6">22,800</td><td class="excel-631528-media-c6">18,900</td><td class="excel-631528-media-c6">41,700</td><td class="excel-631528-media-c6">&nbsp;</td><td class="excel-631528-media-c6">11.9</td><td class="excel-631528-media-c6">10.9</td><td class="excel-631528-media-c6">11.4</td>
+</tr>
+<tr class="excel-631528-media-r1">
+<td class="excel-631528-media-c2">&nbsp;</td><td class="excel-631528-media-c2">&nbsp;</td><td class="excel-631528-media-c8">&nbsp;</td><td class="excel-631528-media-c6">&nbsp;</td><td class="excel-631528-media-c6">&nbsp;</td><td class="excel-631528-media-c6">&nbsp;</td><td class="excel-631528-media-c6">&nbsp;</td><td class="excel-631528-media-c6">&nbsp;</td><td class="excel-631528-media-c6">&nbsp;</td><td class="excel-631528-media-c6">&nbsp;</td>
+</tr>
+<tr class="excel-631528-media-r1">
+<td class="excel-631528-media-c2">2026</td><td class="excel-631528-media-c2" colspan="2">January</td><td class="excel-631528-media-c6">23,900</td><td class="excel-631528-media-c6">19,000</td><td class="excel-631528-media-c6">42,800</td><td class="excel-631528-media-c6">&nbsp;</td><td class="excel-631528-media-c6">12.7</td><td class="excel-631528-media-c6">11.2</td><td class="excel-631528-media-c6">12.0</td>
+</tr>
+<tr class="excel-631528-media-r1">
+<td class="excel-631528-media-c2">&nbsp;</td><td class="excel-631528-media-c2" colspan="2">February</td><td class="excel-631528-media-c6">24,500</td><td class="excel-631528-media-c6">19,000</td><td class="excel-631528-media-c6">43,500</td><td class="excel-631528-media-c6">&nbsp;</td><td class="excel-631528-media-c6">13.1</td><td class="excel-631528-media-c6">11.3</td><td class="excel-631528-media-c6">12.3</td>
+</tr>
+<tr class="excel-631528-media-r1">
+<td class="excel-631528-media-c2">&nbsp;</td><td class="excel-631528-media-c2" colspan="2">March</td><td class="excel-631528-media-c6">24,000</td><td class="excel-631528-media-c6">19,000</td><td class="excel-631528-media-c6">43,000</td><td class="excel-631528-media-c6">&nbsp;</td><td class="excel-631528-media-c6">12.8</td><td class="excel-631528-media-c6">11.2</td><td class="excel-631528-media-c6">12.0</td>
+</tr>
+<tr class="excel-631528-media-r1">
+<td class="excel-631528-media-c2">&nbsp;</td><td class="excel-631528-media-c2" colspan="2">April</td><td class="excel-631528-media-c6">22,700</td><td class="excel-631528-media-c6">18,800</td><td class="excel-631528-media-c6">41,400</td><td class="excel-631528-media-c6">&nbsp;</td><td class="excel-631528-media-c6">12.1</td><td class="excel-631528-media-c6">10.8</td><td class="excel-631528-media-c6">11.5</td>
+</tr>
+<tr class="excel-631528-media-r1">
+<td class="excel-631528-media-c2">&nbsp;</td><td class="excel-631528-media-c2" colspan="2">May</td><td class="excel-631528-media-c6">23,000</td><td class="excel-631528-media-c6">19,300</td><td class="excel-631528-media-c6">42,300</td><td class="excel-631528-media-c6">&nbsp;</td><td class="excel-631528-media-c6">12.2</td><td class="excel-631528-media-c6">11.0</td><td class="excel-631528-media-c6">11.6</td>
+</tr>
+<tr class="excel-631528-media-r1">
+<td class="excel-631528-media-c2">&nbsp;</td><td class="excel-631528-media-c2" colspan="2">June</td><td class="excel-631528-media-c6">23,400</td><td class="excel-631528-media-c6">19,400</td><td class="excel-631528-media-c6">42,800</td><td class="excel-631528-media-c6">&nbsp;</td><td class="excel-631528-media-c6">12.5</td><td class="excel-631528-media-c6">11.0</td><td class="excel-631528-media-c6">11.8</td>
+</tr>
+<tr class="excel-631528-media-r1">
+<td class="excel-631528-media-c4">&nbsp;</td><td class="excel-631528-media-c4" colspan="2">July</td><td class="excel-631528-media-c5">23,800</td><td class="excel-631528-media-c5">20,600</td><td class="excel-631528-media-c5">44,400</td><td class="excel-631528-media-c4">&nbsp;</td><td class="excel-631528-media-c5">12.8</td><td class="excel-631528-media-c5">11.8</td><td class="excel-631528-media-c5">12.3</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+
+   <div class="OpenInExcel">Open in Excel: <a href="/en/media/csoie/releasespublications/documents/ep/monthlyunemployment/july2026/P-MUE2026M07TBL1b.xls">Monthly Unemployment July 2026 Table 1(b) (XLS 37KB)</a> </div>
+  
+  
+  
+  <div class="OpenInExcel"><a href="https://data.cso.ie/table/MUM01">Visit Table MUM01 on PxStat</a></div>
+
+
+
+
+
+  
+
+  
+  
+  
+  
+</div>
+  </div>
+<div style="clear: both;"></div>
+</br>
+
+<script>
+  
+  //$(document).ready(function(){
+  
+  
+$("#631528_description").click(function(){
+    $("#631528_text").slideToggle(600, function() {
+
+      if($("#631528_text").is(":visible")) {
+        $("#631528_description").find("[name=open-close-icon]").removeClass().addClass("fa fa-minus-circle")
+      }
+      else {
+      $("#631528_description").find("[name=open-close-icon]").removeClass().addClass("fa fa-plus-circle")
+            
+      }
+    
+    });  
+  
+  
+  //var spanValue = $("#631528_openClose").val();
+  //alert(spanValue);
+
+  });
+  
+  //});
+  
+</script><div style="clear: both;"></div>
+<div class="pubOpenCloseTable" >
+  <div class="pubOpenCloseTableTitle" id="631529_description">
+    <span id="#631529_openClose"><i name="open-close-icon" class="fa fa-plus-circle" aria-hidden="true"></i></span> Table 1c Seasonally adjusted monthly unemployment by sex - persons aged 25-74 years
+  </div>
+
+<div style="clear: both"></div>
+
+<div id="631529_text" style="display: none" class="indicatorHeadlineTable" >
+<div id="excel-631529-insertexceltable">
+<div id="table-631529-1-insertexceltable">
+<table class="excel-631529-media-t1">
+<colgroup>
+<col width="80">
+<col width="47">
+<col width="26">
+<col width="75">
+<col width="75">
+<col width="75">
+<col width="33">
+<col width="75">
+<col width="75">
+<col width="75">
+</colgroup>
+<tbody>
+<tr class="excel-631529-media-r1">
+<td class="excel-631529-media-c1" colspan="10">Table 1c Seasonally adjusted monthly unemployment by sex - persons aged 25-74 years</td>
+</tr>
+<tr class="excel-631529-media-r1">
+<td class="excel-631529-media-c2">&nbsp;</td><td class="excel-631529-media-c2">&nbsp;</td><td class="excel-631529-media-c2">&nbsp;</td><td class="excel-631529-media-c3" colspan="3">Number of persons</td><td class="excel-631529-media-c2">&nbsp;</td><td class="excel-631529-media-c3" colspan="3">Unemployment rate (%)</td>
+</tr>
+<tr class="excel-631529-media-r1">
+<td class="excel-631529-media-c4">&nbsp;</td><td class="excel-631529-media-c4">&nbsp;</td><td class="excel-631529-media-c4">&nbsp;</td><td class="excel-631529-media-c5">Males</td><td class="excel-631529-media-c5">Females</td><td class="excel-631529-media-c5">All Persons</td><td class="excel-631529-media-c4">&nbsp;</td><td class="excel-631529-media-c5">Males</td><td class="excel-631529-media-c5">Females</td><td class="excel-631529-media-c5">All Persons</td>
+</tr>
+<tr class="excel-631529-media-r1">
+<td class="excel-631529-media-c2">2024</td><td class="excel-631529-media-c2" colspan="2">July</td><td class="excel-631529-media-c6">44,200</td><td class="excel-631529-media-c6">44,100</td><td class="excel-631529-media-c6">88,400</td><td class="excel-631529-media-c2">&nbsp;</td><td class="excel-631529-media-c6">3.3</td><td class="excel-631529-media-c6">3.7</td><td class="excel-631529-media-c6">3.5</td>
+</tr>
+<tr class="excel-631529-media-r1">
+<td class="excel-631529-media-c2">&nbsp;</td><td class="excel-631529-media-c2" colspan="2">August</td><td class="excel-631529-media-c6">40,800</td><td class="excel-631529-media-c6">40,100</td><td class="excel-631529-media-c6">80,900</td><td class="excel-631529-media-c6">&nbsp;</td><td class="excel-631529-media-c6">3.1</td><td class="excel-631529-media-c6">3.4</td><td class="excel-631529-media-c6">3.2</td>
+</tr>
+<tr class="excel-631529-media-r1">
+<td class="excel-631529-media-c2">&nbsp;</td><td class="excel-631529-media-c2" colspan="2">September</td><td class="excel-631529-media-c6">41,500</td><td class="excel-631529-media-c6">38,000</td><td class="excel-631529-media-c6">79,600</td><td class="excel-631529-media-c6">&nbsp;</td><td class="excel-631529-media-c6">3.1</td><td class="excel-631529-media-c6">3.2</td><td class="excel-631529-media-c6">3.2</td>
+</tr>
+<tr class="excel-631529-media-r1">
+<td class="excel-631529-media-c2">&nbsp;</td><td class="excel-631529-media-c2" colspan="2">October</td><td class="excel-631529-media-c6">44,700</td><td class="excel-631529-media-c6">36,800</td><td class="excel-631529-media-c6">81,600</td><td class="excel-631529-media-c6">&nbsp;</td><td class="excel-631529-media-c6">3.4</td><td class="excel-631529-media-c6">3.1</td><td class="excel-631529-media-c6">3.2</td>
+</tr>
+<tr class="excel-631529-media-r1">
+<td class="excel-631529-media-c2">&nbsp;</td><td class="excel-631529-media-c2" colspan="2">November</td><td class="excel-631529-media-c6">45,600</td><td class="excel-631529-media-c6">35,900</td><td class="excel-631529-media-c6">81,500</td><td class="excel-631529-media-c6">&nbsp;</td><td class="excel-631529-media-c6">3.4</td><td class="excel-631529-media-c6">3.0</td><td class="excel-631529-media-c6">3.2</td>
+</tr>
+<tr class="excel-631529-media-r1">
+<td class="excel-631529-media-c2">&nbsp;</td><td class="excel-631529-media-c2" colspan="2">December</td><td class="excel-631529-media-c6">48,600</td><td class="excel-631529-media-c6">37,400</td><td class="excel-631529-media-c6">86,000</td><td class="excel-631529-media-c6">&nbsp;</td><td class="excel-631529-media-c6">3.7</td><td class="excel-631529-media-c6">3.1</td><td class="excel-631529-media-c6">3.4</td>
+</tr>
+<tr class="excel-631529-media-r1">
+<td class="excel-631529-media-c7" colspan="10">&nbsp;</td>
+</tr>
+<tr class="excel-631529-media-r1">
+<td class="excel-631529-media-c2">2025</td><td class="excel-631529-media-c2" colspan="2">January</td><td class="excel-631529-media-c6">48,100</td><td class="excel-631529-media-c6">39,500</td><td class="excel-631529-media-c6">87,500</td><td class="excel-631529-media-c6">&nbsp;</td><td class="excel-631529-media-c6">3.6</td><td class="excel-631529-media-c6">3.3</td><td class="excel-631529-media-c6">3.4</td>
+</tr>
+<tr class="excel-631529-media-r1">
+<td class="excel-631529-media-c2">&nbsp;</td><td class="excel-631529-media-c2" colspan="2">February</td><td class="excel-631529-media-c6">47,800</td><td class="excel-631529-media-c6">40,300</td><td class="excel-631529-media-c6">88,200</td><td class="excel-631529-media-c6">&nbsp;</td><td class="excel-631529-media-c6">3.6</td><td class="excel-631529-media-c6">3.3</td><td class="excel-631529-media-c6">3.4</td>
+</tr>
+<tr class="excel-631529-media-r1">
+<td class="excel-631529-media-c2">&nbsp;</td><td class="excel-631529-media-c2" colspan="2">March</td><td class="excel-631529-media-c6">49,100</td><td class="excel-631529-media-c6">40,600</td><td class="excel-631529-media-c6">89,700</td><td class="excel-631529-media-c6">&nbsp;</td><td class="excel-631529-media-c6">3.6</td><td class="excel-631529-media-c6">3.3</td><td class="excel-631529-media-c6">3.5</td>
+</tr>
+<tr class="excel-631529-media-r1">
+<td class="excel-631529-media-c2">&nbsp;</td><td class="excel-631529-media-c2" colspan="2">April</td><td class="excel-631529-media-c6">51,100</td><td class="excel-631529-media-c6">40,600</td><td class="excel-631529-media-c6">91,600</td><td class="excel-631529-media-c2">&nbsp;</td><td class="excel-631529-media-c6">3.8</td><td class="excel-631529-media-c6">3.4</td><td class="excel-631529-media-c6">3.6</td>
+</tr>
+<tr class="excel-631529-media-r1">
+<td class="excel-631529-media-c2">&nbsp;</td><td class="excel-631529-media-c2" colspan="2">May</td><td class="excel-631529-media-c6">51,800</td><td class="excel-631529-media-c6">41,000</td><td class="excel-631529-media-c6">92,800</td><td class="excel-631529-media-c6">&nbsp;</td><td class="excel-631529-media-c6">3.8</td><td class="excel-631529-media-c6">3.4</td><td class="excel-631529-media-c6">3.6</td>
+</tr>
+<tr class="excel-631529-media-r1">
+<td class="excel-631529-media-c2">&nbsp;</td><td class="excel-631529-media-c2" colspan="2">June</td><td class="excel-631529-media-c6">52,500</td><td class="excel-631529-media-c6">42,100</td><td class="excel-631529-media-c6">94,600</td><td class="excel-631529-media-c6">&nbsp;</td><td class="excel-631529-media-c6">3.9</td><td class="excel-631529-media-c6">3.5</td><td class="excel-631529-media-c6">3.7</td>
+</tr>
+<tr class="excel-631529-media-r1">
+<td class="excel-631529-media-c2">&nbsp;</td><td class="excel-631529-media-c2" colspan="2">July</td><td class="excel-631529-media-c6">53,800</td><td class="excel-631529-media-c6">47,300</td><td class="excel-631529-media-c6">101,100</td><td class="excel-631529-media-c6">&nbsp;</td><td class="excel-631529-media-c6">4.0</td><td class="excel-631529-media-c6">3.9</td><td class="excel-631529-media-c6">3.9</td>
+</tr>
+<tr class="excel-631529-media-r1">
+<td class="excel-631529-media-c2">&nbsp;</td><td class="excel-631529-media-c2" colspan="2">August</td><td class="excel-631529-media-c6">52,100</td><td class="excel-631529-media-c6">47,200</td><td class="excel-631529-media-c6">99,300</td><td class="excel-631529-media-c6">&nbsp;</td><td class="excel-631529-media-c6">3.8</td><td class="excel-631529-media-c6">3.9</td><td class="excel-631529-media-c6">3.9</td>
+</tr>
+<tr class="excel-631529-media-r1">
+<td class="excel-631529-media-c2">&nbsp;</td><td class="excel-631529-media-c2" colspan="2">September</td><td class="excel-631529-media-c6">51,400</td><td class="excel-631529-media-c6">45,800</td><td class="excel-631529-media-c6">97,100</td><td class="excel-631529-media-c6">&nbsp;</td><td class="excel-631529-media-c6">3.8</td><td class="excel-631529-media-c6">3.8</td><td class="excel-631529-media-c6">3.8</td>
+</tr>
+<tr class="excel-631529-media-r1">
+<td class="excel-631529-media-c2">&nbsp;</td><td class="excel-631529-media-c2" colspan="2">October</td><td class="excel-631529-media-c6">50,500</td><td class="excel-631529-media-c6">43,900</td><td class="excel-631529-media-c6">94,400</td><td class="excel-631529-media-c6">&nbsp;</td><td class="excel-631529-media-c6">3.7</td><td class="excel-631529-media-c6">3.6</td><td class="excel-631529-media-c6">3.7</td>
+</tr>
+<tr class="excel-631529-media-r1">
+<td class="excel-631529-media-c2">&nbsp;</td><td class="excel-631529-media-c2" colspan="2">November</td><td class="excel-631529-media-c6">49,600</td><td class="excel-631529-media-c6">43,700</td><td class="excel-631529-media-c6">93,300</td><td class="excel-631529-media-c6">&nbsp;</td><td class="excel-631529-media-c6">3.6</td><td class="excel-631529-media-c6">3.6</td><td class="excel-631529-media-c6">3.6</td>
+</tr>
+<tr class="excel-631529-media-r1">
+<td class="excel-631529-media-c2">&nbsp;</td><td class="excel-631529-media-c2" colspan="2">December</td><td class="excel-631529-media-c6">51,900</td><td class="excel-631529-media-c6">47,200</td><td class="excel-631529-media-c6">99,100</td><td class="excel-631529-media-c6">&nbsp;</td><td class="excel-631529-media-c6">3.8</td><td class="excel-631529-media-c6">3.9</td><td class="excel-631529-media-c6">3.8</td>
+</tr>
+<tr class="excel-631529-media-r1">
+<td class="excel-631529-media-c7" colspan="10">&nbsp;</td>
+</tr>
+<tr class="excel-631529-media-r1">
+<td class="excel-631529-media-c2">2026</td><td class="excel-631529-media-c2" colspan="2">January</td><td class="excel-631529-media-c6">51,800</td><td class="excel-631529-media-c6">51,800</td><td class="excel-631529-media-c6">103,600</td><td class="excel-631529-media-c6">&nbsp;</td><td class="excel-631529-media-c6">3.8</td><td class="excel-631529-media-c6">4.3</td><td class="excel-631529-media-c6">4.0</td>
+</tr>
+<tr class="excel-631529-media-r1">
+<td class="excel-631529-media-c2">&nbsp;</td><td class="excel-631529-media-c2" colspan="2">February</td><td class="excel-631529-media-c6">51,000</td><td class="excel-631529-media-c6">53,700</td><td class="excel-631529-media-c6">104,700</td><td class="excel-631529-media-c6">&nbsp;</td><td class="excel-631529-media-c6">3.7</td><td class="excel-631529-media-c6">4.4</td><td class="excel-631529-media-c6">4.1</td>
+</tr>
+<tr class="excel-631529-media-r1">
+<td class="excel-631529-media-c2">&nbsp;</td><td class="excel-631529-media-c2" colspan="2">March</td><td class="excel-631529-media-c6">50,700</td><td class="excel-631529-media-c6">55,100</td><td class="excel-631529-media-c6">105,800</td><td class="excel-631529-media-c6">&nbsp;</td><td class="excel-631529-media-c6">3.7</td><td class="excel-631529-media-c6">4.5</td><td class="excel-631529-media-c6">4.1</td>
+</tr>
+<tr class="excel-631529-media-r1">
+<td class="excel-631529-media-c2">&nbsp;</td><td class="excel-631529-media-c2" colspan="2">April</td><td class="excel-631529-media-c6">50,500</td><td class="excel-631529-media-c6">53,400</td><td class="excel-631529-media-c6">103,900</td><td class="excel-631529-media-c6">&nbsp;</td><td class="excel-631529-media-c6">3.7</td><td class="excel-631529-media-c6">4.4</td><td class="excel-631529-media-c6">4.0</td>
+</tr>
+<tr class="excel-631529-media-r1">
+<td class="excel-631529-media-c2">&nbsp;</td><td class="excel-631529-media-c2" colspan="2">May</td><td class="excel-631529-media-c6">50,800</td><td class="excel-631529-media-c6">52,900</td><td class="excel-631529-media-c6">103,800</td><td class="excel-631529-media-c6">&nbsp;</td><td class="excel-631529-media-c6">3.7</td><td class="excel-631529-media-c6">4.3</td><td class="excel-631529-media-c6">4.0</td>
+</tr>
+<tr class="excel-631529-media-r1">
+<td class="excel-631529-media-c2">&nbsp;</td><td class="excel-631529-media-c2" colspan="2">June</td><td class="excel-631529-media-c6">51,100</td><td class="excel-631529-media-c6">53,200</td><td class="excel-631529-media-c6">104,300</td><td class="excel-631529-media-c6">&nbsp;</td><td class="excel-631529-media-c6">3.7</td><td class="excel-631529-media-c6">4.3</td><td class="excel-631529-media-c6">4.0</td>
+</tr>
+<tr class="excel-631529-media-r1">
+<td class="excel-631529-media-c4">&nbsp;</td><td class="excel-631529-media-c4" colspan="2">July</td><td class="excel-631529-media-c5">51,800</td><td class="excel-631529-media-c5">53,800</td><td class="excel-631529-media-c5">105,500</td><td class="excel-631529-media-c4">&nbsp;</td><td class="excel-631529-media-c5">3.8</td><td class="excel-631529-media-c5">4.4</td><td class="excel-631529-media-c5">4.1</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+
+   <div class="OpenInExcel">Open in Excel: <a href="/en/media/csoie/releasespublications/documents/ep/monthlyunemployment/july2026/P-MUE2026M07TBL1c.xls">Monthly Unemployment July 2026 Table 1(c) (XLS 37KB)</a> </div>
+  
+  
+  
+  <div class="OpenInExcel"><a href="https://data.cso.ie/table/MUM01">Visit Table MUM01 on PxStat</a></div>
+
+
+
+
+
+  
+
+  
+  
+  
+  
+</div>
+  </div>
+<div style="clear: both;"></div>
+</br>
+
+<script>
+  
+  //$(document).ready(function(){
+  
+  
+$("#631529_description").click(function(){
+    $("#631529_text").slideToggle(600, function() {
+
+      if($("#631529_text").is(":visible")) {
+        $("#631529_description").find("[name=open-close-icon]").removeClass().addClass("fa fa-minus-circle")
+      }
+      else {
+      $("#631529_description").find("[name=open-close-icon]").removeClass().addClass("fa fa-plus-circle")
+            
+      }
+    
+    });  
+  
+  
+  //var spanValue = $("#631529_openClose").val();
+  //alert(spanValue);
+
+  });
+  
+  //});
+  
+</script><div class="next-chapter-btn "><a href='/en/releasesandpublications/ep/p-mue/monthlyunemploymentjuly2026/data/' class="btn">Go to <strong>Data <span class="fa fa-chevron-circle-right" style="font-size:1.3rem; padding: 0.25rem 0 0.25rem 0.5rem;"></span></strong></a></div>
+
+<script>
+  
+  $(document).ready(function(){
+  var theme = 'Releases and Publications';
+    
+    if(theme == 'Baile') {
+     // $("#electronic-pub-v2-chapters-text").text("Clár Ábhair");
+    }
+    else {
+     // $("#electronic-pub-v2-chapters-text").text("Contents")
+    }
+      
+});
+  
+  
+</script>
+
+</div><!--/copy-->
+
+
+</div> <!--close copy div and LHS div -->
+
+<div class="col columnRightinner-rightcol">
+  <div class="copy">
+
+
+				<div class="module purple publicationMenu">
+						<div class="moduleHeader">
+							<h2><a id="electronic-pub-v2-chapters-text" href="#">Contents</a></h2>
+						</div>
+						<div class="moduleBody">
+							<ul><li><a href="/en/releasesandpublications/ep/p-mue/monthlyunemploymentjuly2026/">Key Findings</a></li><li><a href="/en/releasesandpublications/ep/p-mue/monthlyunemploymentjuly2026/data/">Data</a></li><li><a href="/en/releasesandpublications/ep/p-mue/monthlyunemploymentjuly2026/backgroundnotes/">Background Notes</a></li><li><a href="/en/releasesandpublications/ep/p-mue/monthlyunemploymentjuly2026/contactdetails/">Contact Details</a></li></ul>
+						</div>
+				</div>
+    
+    		<div class="module purple publicationMenu">
+  <div class="moduleHeader">
+    <h2><a id="electronic-pub-v2-related-text" href="#">Related</a></h2>
+  </div>
+  <div class="moduleBody">
+		<ul>
+          <li><a href="/en/methods/labourmarket/monthlyunemployment/">Methodology</a></li>
+          <li><a href="/en/statistics/labourmarket/monthlyunemployment/">Previous Releases</a></li>
+          
+          
+          
+          
+          
+          
+           
+           
+           
+    	
+          
+         
+          
+             
+          
+             
+          
+             
+          
+          
+
+			
+
+			
+
+          
+    </ul>							
+	</div>
+</div>
+
+
+        <div class="sideitem light-purple minimised">
+            <h3><a href="/en/trusttransparency/">Why you can Trust the CSO</a></h3>
+            <p>Learn about our data and confidentiality safeguards, and the steps we take to produce statistics that can be trusted by all.  </p>
+            <div class="sideitemFooter">
+              <a class="btn" href="/en/trusttransparency/">go to trust &amp; transparency <i class="fa fa-angle-right"></i></a>
+            </div>
+        </div>    
+    
+    
+
+	</div><!--/copy-->
+</div><!--/col-->
+           
+</div><!--/content-->
+
+<!-- start footer -->
+<!-- navigation object : Footer code --><!--start Code only (admin)-->
+<!-- GLOBAL FOOTER -->
+<div class="footer container">
+  <div class="row">
+     <div class="col span4 contactDetails">
+        <h2>Contact us </h2>
+        <p><b>Central Statistics Office</b><br>
+           Skehard Road, Cork T12 X00E, Ireland
+        </p>
+        <div class="divFooterTable">
+           <div class="divFooterTableBody">
+              <div class="divFooterTableRow">
+                 <div class="divFooterTableCell"><b>Tel:</b></div>
+                 <div class="divFooterTableCell"><a href="tel:+353214535000">(+353) 21 453 5000</a></div>
+              </div>
+              
+              <div class="divFooterTableRow">
+                 <div class="divFooterTableCell"><b>E-Mail:</b></div>
+                 <div class="divFooterTableCell"><a href="mailto:information@cso.ie">information@cso.ie</a></div>
+              </div>
+           </div>
+        </div> <!-- divFooterTable.com -->
+     </div> <!--/col-->
+
+     <div class="col span4 footerLinks">
+        <h2>Links </h2>
+<ul class="footerNavList">
+           <li><a href="/en/aboutus/whoweare/copyrightpolicy/">&copy; 2026</a></li>
+           <li><a href="/en/aboutus/whoweare/copyrightpolicy/">Copyright and Re-use Policy</a></li>
+           <li><a href="/en/freedomofinformation/">Freedom of Information</a></li>
+           <li><a href="/en/accessibilityatthecso/accessibility/">Accessibility</a></li>
+           <li><a href="/en/aboutus/lgdp/dataprotectionprivacytransparency/">Data Protection & Transparency</a></li>
+           <li><a href="/en/aboutus/lgdp/dataprotectionprivacytransparency/websiteprivacystatement/">Privacy & Cookies</a></li>
+           <li><a href="/en/aboutus/contactus/feedback/">Feedback</a></li>
+           <li><a href="/en/aboutus/contactus/">Contact us</a></li>
+           </ul>
+     </div> <!--/col-->
+
+     <div class="col span4 footerSocial">
+        <h2>Careers</h2>
+        <p>You can count on a rewarding career with the CSO.</p>
+        <p><a href="/en/aboutus/careers/">Learn about our variety of roles and the benefits of working with the CSO.</a></p>
+        <h2>Follow us </h2>
+        <ul class="socialNavList inverted">
+           <li class="youtube">
+            <a href="https://www.youtube.com/user/CSOIrelandMedia" title="Follow us on YouTube" target="_blank"><i class="fa-brands fa-square-youtube fa-xl"></i></a>
+          </li>
+           <li class="twitter">
+            <a href="https://twitter.com/csoIreland" title="Follow us on Twitter" target="_blank"><i class="fa-brands fa-square-x-twitter fa-xl"></i></a>
+          </li>
+           <li class="facebook">
+            <a href="https://www.facebook.com/CSOIreland" title="Like us on Facebook"><i class="fa-brands fa-square-facebook fa-xl"></i></a>
+          </li>
+           <li class="instagram">
+            <a href="https://www.instagram.com/csoireland/" title="Follow us on Instagram"><i class="fa-brands fa-square-instagram fa-xl"></i></a>
+          </li>
+          <li class="linkedin">
+            <a href="https://www.linkedin.com/company/csoireland" title="Follow us LinkedIn"><i class="fa-brands fa-linkedin fa-xl"></i></a>
+         </li>
+          <li class="whatsapp">
+            <a href="https://whatsapp.com/channel/0029VbCWqldBlHpfx897413J" title="Get updates on WhatsApp fa-lg"><i class="fa-brands fa-square-whatsapp fa-xl"></i></a>
+         </li>
+
+   </ul>
+     </div> <!--/col-->
+  </div> <!--/row-->
+</div><!--/footer container-->
+
+</body>
+</html>
+ <!-- /GLOBAL FOOTER -->
+<!--end Code only (admin)-->	
+<!-- end footer -->

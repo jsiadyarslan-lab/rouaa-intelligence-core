@@ -1,0 +1,57 @@
+{
+  "v32_adjudication": {
+    "total_ambiguous": 788,
+    "dispositions": {
+      "TRUE_MATERIAL_FACT": 116,
+      "REMAINS_AMBIGUOUS": 203,
+      "LISTING_OVER_CAPTURE": 6,
+      "DUPLICATE_SEMANTIC_FACT": 463
+    },
+    "confidence": {
+      "HIGH": 542,
+      "LOW": 203,
+      "MEDIUM": 43
+    }
+  },
+  "gt_v3": {
+    "size": 724,
+    "removed_v32": 463,
+    "remains_ambiguous": 203
+  },
+  "recall": {
+    "original_gt": {
+      "gt": 1612,
+      "tp": 338,
+      "fn": 1274,
+      "recall": 20.97
+    },
+    "gt_v2": {
+      "gt": 1187,
+      "tp": 321,
+      "fn": 866,
+      "recall": 27.04
+    },
+    "gt_v3": {
+      "gt": 724,
+      "tp": 291,
+      "fn": 433,
+      "recall": 40.19,
+      "precision": 73.48
+    },
+    "lower_bound": 40.19,
+    "upper_bound": 55.85,
+    "machine_adjudicated": 40.19
+  },
+  "true_fn": {
+    "v31_true_material_missed": 143,
+    "v32_high_true_material_missed": 32,
+    "total_high_confidence_fn": 175,
+    "gap_taxonomy": {
+      "EVIDENCE_SELECTION_GAP": 158,
+      "OTHER": 4,
+      "ENTITY_CONTEXT_GAP": 2,
+      "METRIC_CONTEXT_GAP": 11
+    }
+  },
+  "review_packet_size": 468
+}

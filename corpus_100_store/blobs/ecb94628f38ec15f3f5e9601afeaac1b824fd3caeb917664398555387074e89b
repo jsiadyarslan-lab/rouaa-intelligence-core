@@ -1,0 +1,5088 @@
+<!DOCTYPE html>
+<html lang="en" data-g-name="Page" class="c-page" data-setup='{ "authorMode": false, "gdpr": { "version": "2023-09-27T10:35:00.000+02:00", "categories": [ "essential", "analytics", "marketing" ], "tracking": "analytics" } }'
+>
+	<head>
+		<meta charset="utf-8">
+
+	<meta name="version" content="2.55.0">
+	<meta name="environment" content="P2">
+	<meta name="timestamp" content="2026-08-17T14:08:22.064560Z">
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+
+<title>The implementation of monetary policy | Swiss National Bank</title>
+<meta name="title" content="The implementation of monetary policy | Swiss National Bank">
+<meta name="description" content="Here you will find all of the SNB’s monetary policy decisions, sorted by year.">
+<meta name="keywords" content="">
+
+
+<meta name="format-detection" content="telephone=no">
+
+<meta name="application-name" content="">
+<meta property="og:title" content="">
+<meta property="og:description" content="">
+<meta property="og:site_name" content="">
+<meta property="og:type" content="">
+<meta property="og:url" content="">
+
+
+<meta property="twitter:card" content="summary_large_image">
+<meta property="twitter:title" content="">
+<meta property="twitter:description" content="">
+
+
+<link rel="apple-touch-icon" sizes="180x180" href="/.resources/frontend/assets/default/img/icon/apple-touch-icon~f5f2d2d5~2026-07-21-19-29-18-000~cache.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/.resources/frontend/assets/default/img/icon/favicon-32x32~f5f2d2d5~2026-07-21-19-29-18-000~cache.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/.resources/frontend/assets/default/img/icon/favicon-16x16~f5f2d2d5~2026-07-21-19-29-18-000~cache.png">
+<link rel="manifest" crossorigin="use-credentials" href="/.resources/frontend/assets/default/img/icon/site~f5f2d2d5~2026-07-21-19-29-18-000~cache.webmanifest">
+<link rel="mask-icon" href="/.resources/frontend/assets/default/img/icon/safari-pinned-tab~f5f2d2d5~2026-07-21-19-29-18-000~cache.svg" color="#073871">
+<link rel="shortcut icon" href="/.resources/frontend/assets/default/img/icon/favicon~f5f2d2d5~2026-07-21-19-29-18-000~cache.ico">
+<meta name="msapplication-config" content="/.resources/frontend/assets/default/img/icon/browserconfig~f5f2d2d5~2026-07-21-19-29-18-000~cache.xml">
+<meta name="msapplication-TileColor" content="#073871">
+<meta name="theme-color" content="#ffffff">
+
+<link rel="canonical" itemprop="url" href="https://www.snb.ch/en/the-snb/mandates-goals/monetary-policy/implementation">
+
+
+	<link rel="alternate" href="https://www.snb.ch/de/the-snb/mandates-goals/monetary-policy/implementation" hreflang="de">
+
+	<link rel="alternate" href="https://www.snb.ch/fr/the-snb/mandates-goals/monetary-policy/implementation" hreflang="fr">
+
+	<link rel="alternate" href="https://www.snb.ch/it/the-snb/mandates-goals/monetary-policy/implementation" hreflang="it">
+
+
+
+	<link href="/.resources/frontend/assets/default/css/ui.min~f5f2d2d5~2026-07-21-19-29-18-000~cache.css" rel="stylesheet">
+	<script defer src="/.resources/frontend/assets/default/js/vendors.min~f5f2d2d5~2026-07-21-19-29-18-000~cache.js"></script>
+	<script defer src="/.resources/frontend/assets/default/js/ui.min~f5f2d2d5~2026-07-21-19-29-18-000~cache.js"></script>
+
+
+
+
+
+
+	<script>window.__resourceBasePath = '/.resources/frontend/assets/default/';</script>
+
+
+
+		
+		<script>
+			/*<![CDATA[*/
+			window.__tagManagerInitialized = false;
+			window.__tagManagerInit = function () { if (localStorage && localStorage.getItem('ccm.analytics') === 'true' && !window.__tagManagerInitialized) { window.__tagManagerInitialized = true; window.analytics_env = 'p';
+var _mtm = window._mtm = window._mtm || [];
+  _mtm.push({'mtm.startTime': (new Date().getTime()), 'event': 'mtm.Start'});
+  (function() {
+    var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+    g.async=true; g.src='https://analytics.snb.ch/js/container_t1yFwIu0.js'; s.parentNode.insertBefore(g,s);
+  })(); } };
+			window.__tagManagerInit();
+			/*]]>*/
+		</script>
+		
+
+
+		
+	</head>
+
+	<body>
+		
+	
+
+
+
+
+
+
+
+
+		<header>
+			<div class="m-nav-a11y js-o-page__scroll-target" tabindex="0">
+	<p class="m-nav-a11y__title" role="heading" aria-level="1">Skip Links Navigation</p>
+	<nav>
+		<ol>
+			<li class="m-nav-a11y__item">
+				<a class="m-nav-a11y__link" href="#a11y-nav-main">Skip to main navigation</a>
+			</li>
+			<li class="m-nav-a11y__item">
+				<a class="m-nav-a11y__link" href="#a11y-main">Skip to main content</a>
+			</li>
+			<li class="m-nav-a11y__item">
+				<a class="m-nav-a11y__link" href="#a11y-search">Skip to search</a>
+			</li>
+			<li class="m-nav-a11y__item">
+				<a class="m-nav-a11y__link" href="#a11y-footer">Skip to Footer</a>
+			</li>
+		</ol>
+	</nav>
+</div>
+
+			<div class="o-header js-o-header" data-g-name="Header">
+	<div class="o-header__wrap js-o-header__wrap">
+		<p class="o-header__a11y-title" role="heading" aria-level="1">Header</p>
+		<div class="container">
+			<div class="o-header__line">
+				<div class="o-header__logo">
+					<a class="o-header__logo-link" href="/en/">
+						<p class="o-header__a11y-title" role="heading" aria-level="2">Logo</p>
+						<img class="o-header__logo-small" src="/.resources/frontend/assets/default/img/logo/logo-small-white~f5f2d2d5~2026-07-21-19-29-18-000~cache.svg" alt="">
+						<img class="o-header__logo-large" src="/.resources/frontend/assets/default/img/logo/logo-white~f5f2d2d5~2026-07-21-19-29-18-000~cache.svg" alt="">
+						
+					</a>
+				</div>
+				<div class="o-header__content">
+					<div class="o-header__content-top">
+						<div class="o-header__nav-meta">
+							<p class="o-header__a11y-title" role="heading" aria-level="2">Meta Navigation</p>
+							<ul class="m-nav-meta m-nav-meta--header" data-g-name="NavMeta">
+	
+		<li class="m-nav-meta__item m-nav-meta__item--hide-sm">
+			<a class="m-nav-meta__item-link" href="/en/contact" >
+				<span class="m-nav-meta__item-text h-typo-small">Contact</span>
+			</a>
+		</li>
+	
+		<li class="m-nav-meta__item m-nav-meta__item--hide-sm">
+			<a class="m-nav-meta__item-link" href="/en/media" >
+				<span class="m-nav-meta__item-text h-typo-small">Media</span>
+			</a>
+		</li>
+	
+		<li class="m-nav-meta__item m-nav-meta__item--hide-sm">
+			<a class="m-nav-meta__item-link" href="/en/career" >
+				<span class="m-nav-meta__item-text h-typo-small">Career</span>
+			</a>
+		</li>
+	
+
+	
+		
+			<li class="m-nav-meta__item m-nav-meta__item--has-icon m-nav-meta__item--search">
+				<a href="#" class="m-nav-meta__item-link js-m-nav-meta__link" data-overlay-id="overlay-search" data-overlay-origin="header" role="button" aria-pressed="false">
+					<span class="m-nav-meta__item-icon"><svg class="a-icon" aria-hidden="true" xmlns="http://www.w3.org/2000/svg">
+	
+	<use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="/.resources/frontend/assets/default/svg/icons~f5f2d2d5~2026-07-21-19-29-18-000~cache.svg#search"></use>
+</svg>
+</span>
+					<span class="m-nav-meta__item-text">Search</span>
+				</a>
+			</li>
+		
+		
+		
+			<li class="m-nav-meta__item m-nav-meta__item--has-icon m-nav-meta__item--hide-sm m-nav-meta__item--language dropdown">
+				<a href="#" class="m-nav-meta__item-link js-m-nav-meta__link dropdown-toggle" role="button" id="dropdown-language" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+					<span class="m-nav-meta__item-text h-typo-small">EN</span>
+					<span class="m-nav-meta__item-icon"><svg class="a-icon" aria-hidden="true" xmlns="http://www.w3.org/2000/svg">
+	
+	<use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="/.resources/frontend/assets/default/svg/icons~f5f2d2d5~2026-07-21-19-29-18-000~cache.svg#chevron-down-small"></use>
+</svg>
+</span>
+				</a>
+				<div class="m-nav-meta__item-dropdown dropdown-menu dropdown-menu-end" aria-labelledby="dropdown-language">
+					<ul class="h-typo-body">
+						
+							<li class="m-nav-meta__language-item">
+								
+									<a class="m-nav-meta__language-link js-m-nav-meta__language-link" href="/de/the-snb/mandates-goals/monetary-policy/implementation">Deutsch</a>
+								
+							</li>
+						
+							<li class="m-nav-meta__language-item">
+								
+									<a class="m-nav-meta__language-link js-m-nav-meta__language-link" href="/fr/the-snb/mandates-goals/monetary-policy/implementation">Français</a>
+								
+							</li>
+						
+							<li class="m-nav-meta__language-item">
+								
+									<span class="m-nav-meta__language-current">English</span>
+								
+							</li>
+						
+							<li class="m-nav-meta__language-item">
+								
+									<a class="m-nav-meta__language-link js-m-nav-meta__language-link" href="/it/the-snb/mandates-goals/monetary-policy/implementation">Italiano</a>
+								
+							</li>
+						
+					</ul>
+				</div>
+			</li>
+		
+		
+		<li class="m-nav-meta__item m-nav-meta__item--has-icon m-nav-meta__item--menu">
+			<a href="#" class="m-nav-meta__item-link js-m-nav-meta__link" data-overlay-id="overlay-menu" data-overlay-origin="header" role="button" aria-pressed="false">
+				<span class="m-nav-meta__item-text">Menu</span>
+				<span class="m-nav-meta__item-icon"><svg class="a-icon" aria-hidden="true" xmlns="http://www.w3.org/2000/svg">
+	
+	<use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="/.resources/frontend/assets/default/svg/icons~f5f2d2d5~2026-07-21-19-29-18-000~cache.svg#menu"></use>
+</svg>
+</span>
+
+				<span class="m-nav-meta__close-text">Close</span>
+				<span class="m-nav-meta__close-icon"><svg class="a-icon" aria-hidden="true" xmlns="http://www.w3.org/2000/svg">
+	
+	<use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="/.resources/frontend/assets/default/svg/icons~f5f2d2d5~2026-07-21-19-29-18-000~cache.svg#close"></use>
+</svg>
+</span>
+			</a>
+		</li>
+	
+	
+</ul>
+
+						</div>
+					</div>
+					<div class="o-header__content-bottom">
+						<div class="o-header__navigation js-o-header__navigation">
+							<nav class="m-nav-main js-m-nav-main" data-g-name="NavMain" id="a11y-nav-main">
+	<p class="m-nav-main__a11y-title" role="heading" aria-level="2">Main Navigation</p>
+	<ul class="m-nav-main__items">
+		
+			<li class="m-nav-main__item js-m-nav-main__item">
+				<a class="m-nav-main__link js-m-nav-main__link" href="/en/the-snb">
+					<span class="m-nav-main__text h-typo-navigation">The SNB</span>
+					
+						<span class="m-nav-main__link-icon">
+							<svg class="a-icon" aria-hidden="true" xmlns="http://www.w3.org/2000/svg">
+	
+	<use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="/.resources/frontend/assets/default/svg/icons~f5f2d2d5~2026-07-21-19-29-18-000~cache.svg#chevron-right-small"></use>
+</svg>
+
+						</span>
+					
+				</a>
+				
+				<div class="m-nav-main__flyout js-m-nav-main__flyout">
+					<div class="container-box">
+						<div class="row g-0">
+							<div class="col">
+								<div class="m-nav-main__close">
+									<button type="button" class="m-nav-main__button js-m-nav-main__close">
+										<span class="m-nav-main__button-text">Close</span>
+										<span class="m-nav-main__button-icon"><svg class="a-icon" aria-hidden="true" xmlns="http://www.w3.org/2000/svg">
+	
+	<use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="/.resources/frontend/assets/default/svg/icons~f5f2d2d5~2026-07-21-19-29-18-000~cache.svg#close"></use>
+</svg>
+</span>
+									</button>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="m-nav-main-level js-m-nav-main-level" data-g-name="NavMainLevel">
+	<button type="button" class="m-nav-main-level__back js-m-nav-main-level__back">
+		<span class="h-s6"></span>
+
+		<span class="m-nav-main-level__button-icon">
+			<svg class="a-icon" aria-hidden="true" xmlns="http://www.w3.org/2000/svg">
+	
+	<use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="/.resources/frontend/assets/default/svg/icons~f5f2d2d5~2026-07-21-19-29-18-000~cache.svg#chevron-left-small"></use>
+</svg>
+
+		</span>
+		<span class="m-nav-main-level__button-text h-typo-navigation">
+			Back
+		</span>
+		<span class="h-s6"></span>
+
+	</button>
+	<div class="m-nav-main-level__scroll-area">
+		<div class="m-nav-main-level__wrapper js-m-nav-main-level__wrapper">
+			<div class="container">
+				<div class="row gx-md-4 m-nav-main-level__row">
+					
+						<div class="m-nav-main-level__col col-md-3
+						">
+							<div class="m-nav-main-level__box">
+								
+									<h2 class="m-nav-main-level__heading h-typo-navigation-bold">Responsibilities and goals</h2>
+									<div class="h-s5"></div>
+
+								
+
+								<div class="m-nav-main-level__teaser">
+									
+
+									<div class="m-nav-main-level__links">
+										<ul class="m-nav-main-level__items">
+											
+												<li class="m-nav-main-level__item js-m-nav-main-level__item">
+													<a class="m-nav-main-level__link" href="/en/the-snb/mandates-goals/monetary-policy">
+														<span class="m-nav-main-level__link-text h-typo-small">Monetary policy</span>
+													</a>
+												</li>
+											
+												<li class="m-nav-main-level__item js-m-nav-main-level__item">
+													<a class="m-nav-main-level__link" href="/en/the-snb/mandates-goals/cash">
+														<span class="m-nav-main-level__link-text h-typo-small">Cash supply and distribution</span>
+													</a>
+												</li>
+											
+												<li class="m-nav-main-level__item js-m-nav-main-level__item">
+													<a class="m-nav-main-level__link" href="/en/the-snb/mandates-goals/payment-transactions">
+														<span class="m-nav-main-level__link-text h-typo-small">Payment transactions</span>
+													</a>
+												</li>
+											
+												<li class="m-nav-main-level__item js-m-nav-main-level__item">
+													<a class="m-nav-main-level__link" href="/en/the-snb/mandates-goals/investment-assets">
+														<span class="m-nav-main-level__link-text h-typo-small">Investment of assets</span>
+													</a>
+												</li>
+											
+												<li class="m-nav-main-level__item js-m-nav-main-level__item">
+													<a class="m-nav-main-level__link" href="/en/the-snb/mandates-goals/financial-stability">
+														<span class="m-nav-main-level__link-text h-typo-small">Financial stability</span>
+													</a>
+												</li>
+											
+												<li class="m-nav-main-level__item js-m-nav-main-level__item">
+													<a class="m-nav-main-level__link" href="/en/the-snb/mandates-goals/international-cooperations">
+														<span class="m-nav-main-level__link-text h-typo-small">International</span>
+													</a>
+												</li>
+											
+												<li class="m-nav-main-level__item js-m-nav-main-level__item">
+													<a class="m-nav-main-level__link" href="/en/the-snb/mandates-goals/services-to-the-confederation">
+														<span class="m-nav-main-level__link-text h-typo-small">Services for the Confederation</span>
+													</a>
+												</li>
+											
+												<li class="m-nav-main-level__item js-m-nav-main-level__item">
+													<a class="m-nav-main-level__link" href="/en/the-snb/mandates-goals/statistics">
+														<span class="m-nav-main-level__link-text h-typo-small">Statistics</span>
+													</a>
+												</li>
+											
+												<li class="m-nav-main-level__item js-m-nav-main-level__item">
+													<a class="m-nav-main-level__link" href="/en/the-snb/mandates-goals/monetary-policy/implementation">
+														<span class="m-nav-main-level__link-text h-typo-small">Implementation of monetary policy</span>
+													</a>
+												</li>
+											
+												<li class="m-nav-main-level__item js-m-nav-main-level__item">
+													<a class="m-nav-main-level__link" href="/en/the-snb/mandates-goals/research">
+														<span class="m-nav-main-level__link-text h-typo-small">Research at the SNB</span>
+													</a>
+												</li>
+											
+										</ul>
+
+										
+											<div class="h-s5"></div>
+
+											
+<a class="a-link" href="/en/the-snb/mandates-goals" >
+	<span class="a-link__text">
+		<span class="a-link__text-inline">Overview</span><span
+			class="a-link__icon">&#65279;<span
+				class="a-link__icon-box"><svg
+					class="a-link__arrow" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20">
+						<path fill="currentColor" d="M14 4.69L18.14 9H0v1h18.13L14 14.31l.72.69L20 9.5 14.72 4l-.72.69z"/>
+					</svg>
+				</span>
+			</span>
+	</span>
+</a>
+
+										
+									</div>
+								</div>
+							</div>
+						</div>
+					
+						<div class="m-nav-main-level__col col-md-3
+						">
+							<div class="m-nav-main-level__box">
+								
+									<h2 class="m-nav-main-level__heading h-typo-navigation-bold">Organisation</h2>
+									<div class="h-s5"></div>
+
+								
+
+								<div class="m-nav-main-level__teaser">
+									
+
+									<div class="m-nav-main-level__links">
+										<ul class="m-nav-main-level__items">
+											
+												<li class="m-nav-main-level__item js-m-nav-main-level__item">
+													<a class="m-nav-main-level__link" href="/en/the-snb/organisation/supervisory-management-boards">
+														<span class="m-nav-main-level__link-text h-typo-small">Supervisory and executive bodies</span>
+													</a>
+												</li>
+											
+												<li class="m-nav-main-level__item js-m-nav-main-level__item">
+													<a class="m-nav-main-level__link" href="/en/the-snb/organisation/snb-joint-stock-company">
+														<span class="m-nav-main-level__link-text h-typo-small">The SNB as a joint-stock company</span>
+													</a>
+												</li>
+											
+												<li class="m-nav-main-level__item js-m-nav-main-level__item">
+													<a class="m-nav-main-level__link" href="/en/the-snb/organisation/annual-report-profit">
+														<span class="m-nav-main-level__link-text h-typo-small">Annual financial statements and profit</span>
+													</a>
+												</li>
+											
+												<li class="m-nav-main-level__item js-m-nav-main-level__item">
+													<a class="m-nav-main-level__link" href="/en/the-snb/organisation/legal-framework">
+														<span class="m-nav-main-level__link-text h-typo-small">Legal basis</span>
+													</a>
+												</li>
+											
+												<li class="m-nav-main-level__item js-m-nav-main-level__item">
+													<a class="m-nav-main-level__link" href="/en/the-snb/organisation/regional-economic-contacts">
+														<span class="m-nav-main-level__link-text h-typo-small">Regional economic relations</span>
+													</a>
+												</li>
+											
+												<li class="m-nav-main-level__item js-m-nav-main-level__item">
+													<a class="m-nav-main-level__link" href="/en/the-snb/organisation/history">
+														<span class="m-nav-main-level__link-text h-typo-small">The history of the SNB</span>
+													</a>
+												</li>
+											
+												<li class="m-nav-main-level__item js-m-nav-main-level__item">
+													<a class="m-nav-main-level__link" href="/en/the-snb/organisation/about-the-snb">
+														<span class="m-nav-main-level__link-text h-typo-small">About the SNB</span>
+													</a>
+												</li>
+											
+										</ul>
+
+										
+											<div class="h-s5"></div>
+
+											
+<a class="a-link" href="/en/the-snb/organisation" >
+	<span class="a-link__text">
+		<span class="a-link__text-inline">Overview</span><span
+			class="a-link__icon">&#65279;<span
+				class="a-link__icon-box"><svg
+					class="a-link__arrow" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20">
+						<path fill="currentColor" d="M14 4.69L18.14 9H0v1h18.13L14 14.31l.72.69L20 9.5 14.72 4l-.72.69z"/>
+					</svg>
+				</span>
+			</span>
+	</span>
+</a>
+
+										
+									</div>
+								</div>
+							</div>
+						</div>
+					
+						<div class="m-nav-main-level__col col-md-3
+						">
+							<div class="m-nav-main-level__box">
+								
+									<h2 class="m-nav-main-level__heading h-typo-navigation-bold">The SNB explained</h2>
+									<div class="h-s5"></div>
+
+								
+
+								<div class="m-nav-main-level__teaser">
+									
+										<figure class="m-nav-main-level__img">
+											<div class="a-img" data-ratio="3x2">
+	<img loading="lazy" class="a-img__image js-a-img__image js-h-lazy-load"
+		 data-sizes="auto"
+		 srcset="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
+		 data-srcset="/.imaging/flex/jcr:f1e77d64-69d4-4b57-9223-d79b56c13697/fillColor/-1/hash/1b4b89a72d33453aee0285e16d348085/mode/CROP/ratio/3:2/version/1718289624/width/212/240507%20snb%20erklaert%20-%20die%20organisation_ohne_hintergrund.png 212w, /.imaging/flex/jcr:f1e77d64-69d4-4b57-9223-d79b56c13697/fillColor/-1/hash/2bb9ec17cee19caea4ce364f7009dcd9/mode/CROP/ratio/3:2/version/1718289624/width/286/240507%20snb%20erklaert%20-%20die%20organisation_ohne_hintergrund.png 240w, /.imaging/flex/jcr:f1e77d64-69d4-4b57-9223-d79b56c13697/fillColor/-1/hash/270513571a0de1392fdb34ec21a47e51/mode/CROP/ratio/3:2/version/1718289624/width/381/240507%20snb%20erklaert%20-%20die%20organisation_ohne_hintergrund.png 381w, /.imaging/flex/jcr:f1e77d64-69d4-4b57-9223-d79b56c13697/fillColor/-1/hash/46c76009669dfd5e6f0f19ed94e6eeff/mode/CROP/ratio/3:2/version/1718289624/width/400/240507%20snb%20erklaert%20-%20die%20organisation_ohne_hintergrund.png 400w, /.imaging/flex/jcr:f1e77d64-69d4-4b57-9223-d79b56c13697/fillColor/-1/hash/369261422362933c5e134b7bfd9dead2/mode/CROP/ratio/3:2/version/1718289624/width/424/240507%20snb%20erklaert%20-%20die%20organisation_ohne_hintergrund.png 424w, /.imaging/flex/jcr:f1e77d64-69d4-4b57-9223-d79b56c13697/fillColor/-1/hash/f5e45effbe7fc3be1a84777decb19ddb/mode/CROP/ratio/3:2/version/1718289624/width/548/240507%20snb%20erklaert%20-%20die%20organisation_ohne_hintergrund.png 548w, /.imaging/flex/jcr:f1e77d64-69d4-4b57-9223-d79b56c13697/fillColor/-1/hash/3147ced2b79709596923d65db32c4eec/mode/CROP/ratio/3:2/version/1718289624/width/572/240507%20snb%20erklaert%20-%20die%20organisation_ohne_hintergrund.png 572w, /.imaging/flex/jcr:f1e77d64-69d4-4b57-9223-d79b56c13697/fillColor/-1/hash/8fea0e1c2ab9ebc3c408ddf95b52fcc3/mode/CROP/ratio/3:2/version/1718289624/width/762/240507%20snb%20erklaert%20-%20die%20organisation_ohne_hintergrund.png 762w" width="212" height="142"
+		 alt=""
+	>
+		<img loading="lazy" class="a-img__preview" src="/.imaging/flex/jcr:f1e77d64-69d4-4b57-9223-d79b56c13697/fillColor/-1/hash/40bf8659aca53dac6b4c172bbfdddc68/mode/CROP/ratio/3:2/version/1718289624/width/15/240507%20snb%20erklaert%20-%20die%20organisation_ohne_hintergrund.png" alt="" aria-hidden="true">
+</div>
+
+											
+											<div class="h-s5"></div>
+
+										</figure>
+									
+
+									<div class="m-nav-main-level__links">
+										<ul class="m-nav-main-level__items">
+											
+												<li class="m-nav-main-level__item js-m-nav-main-level__item">
+													<a class="m-nav-main-level__link" href="/en/snb-explained/portrait">
+														<span class="m-nav-main-level__link-text h-typo-small">Who is the SNB?</span>
+													</a>
+												</li>
+											
+												<li class="m-nav-main-level__item js-m-nav-main-level__item">
+													<a class="m-nav-main-level__link" href="/en/snb-explained/price-stability">
+														<span class="m-nav-main-level__link-text h-typo-small">Why are stable prices important?</span>
+													</a>
+												</li>
+											
+												<li class="m-nav-main-level__item js-m-nav-main-level__item">
+													<a class="m-nav-main-level__link" href="/en/snb-explained/swiss-franc">
+														<span class="m-nav-main-level__link-text h-typo-small">What determines the Swiss franc exchange rate?</span>
+													</a>
+												</li>
+											
+										</ul>
+
+										
+											<div class="h-s5"></div>
+
+											
+<a class="a-link" href="/en/snb-explained" >
+	<span class="a-link__text">
+		<span class="a-link__text-inline">Overview</span><span
+			class="a-link__icon">&#65279;<span
+				class="a-link__icon-box"><svg
+					class="a-link__arrow" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20">
+						<path fill="currentColor" d="M14 4.69L18.14 9H0v1h18.13L14 14.31l.72.69L20 9.5 14.72 4l-.72.69z"/>
+					</svg>
+				</span>
+			</span>
+	</span>
+</a>
+
+										
+									</div>
+								</div>
+							</div>
+						</div>
+					
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+				</div>
+				
+			</li>
+		
+			<li class="m-nav-main__item js-m-nav-main__item">
+				<a class="m-nav-main__link js-m-nav-main__link" href="/en/news-publications">
+					<span class="m-nav-main__text h-typo-navigation">News &amp; Publications</span>
+					
+						<span class="m-nav-main__link-icon">
+							<svg class="a-icon" aria-hidden="true" xmlns="http://www.w3.org/2000/svg">
+	
+	<use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="/.resources/frontend/assets/default/svg/icons~f5f2d2d5~2026-07-21-19-29-18-000~cache.svg#chevron-right-small"></use>
+</svg>
+
+						</span>
+					
+				</a>
+				
+				<div class="m-nav-main__flyout js-m-nav-main__flyout">
+					<div class="container-box">
+						<div class="row g-0">
+							<div class="col">
+								<div class="m-nav-main__close">
+									<button type="button" class="m-nav-main__button js-m-nav-main__close">
+										<span class="m-nav-main__button-text">Close</span>
+										<span class="m-nav-main__button-icon"><svg class="a-icon" aria-hidden="true" xmlns="http://www.w3.org/2000/svg">
+	
+	<use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="/.resources/frontend/assets/default/svg/icons~f5f2d2d5~2026-07-21-19-29-18-000~cache.svg#close"></use>
+</svg>
+</span>
+									</button>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="m-nav-main-level js-m-nav-main-level" data-g-name="NavMainLevel">
+	<button type="button" class="m-nav-main-level__back js-m-nav-main-level__back">
+		<span class="h-s6"></span>
+
+		<span class="m-nav-main-level__button-icon">
+			<svg class="a-icon" aria-hidden="true" xmlns="http://www.w3.org/2000/svg">
+	
+	<use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="/.resources/frontend/assets/default/svg/icons~f5f2d2d5~2026-07-21-19-29-18-000~cache.svg#chevron-left-small"></use>
+</svg>
+
+		</span>
+		<span class="m-nav-main-level__button-text h-typo-navigation">
+			Back
+		</span>
+		<span class="h-s6"></span>
+
+	</button>
+	<div class="m-nav-main-level__scroll-area">
+		<div class="m-nav-main-level__wrapper js-m-nav-main-level__wrapper">
+			<div class="container">
+				<div class="row gx-md-4 m-nav-main-level__row">
+					
+						<div class="m-nav-main-level__col col-md-3
+						">
+							<div class="m-nav-main-level__box">
+								
+									<h2 class="m-nav-main-level__heading h-typo-navigation-bold">Publication types</h2>
+									<div class="h-s5"></div>
+
+								
+
+								<div class="m-nav-main-level__teaser">
+									
+
+									<div class="m-nav-main-level__links">
+										<ul class="m-nav-main-level__items">
+											
+												<li class="m-nav-main-level__item js-m-nav-main-level__item">
+													<a class="m-nav-main-level__link" href="/en/news-publications/news">
+														<span class="m-nav-main-level__link-text h-typo-small">New on the website</span>
+													</a>
+												</li>
+											
+												<li class="m-nav-main-level__item js-m-nav-main-level__item">
+													<a class="m-nav-main-level__link" href="/en/news-publications/media-releases">
+														<span class="m-nav-main-level__link-text h-typo-small">Press releases</span>
+													</a>
+												</li>
+											
+												<li class="m-nav-main-level__item js-m-nav-main-level__item">
+													<a class="m-nav-main-level__link" href="/en/news-publications/media_releases_adhoc">
+														<span class="m-nav-main-level__link-text h-typo-small">Ad hoc announcements</span>
+													</a>
+												</li>
+											
+												<li class="m-nav-main-level__item js-m-nav-main-level__item">
+													<a class="m-nav-main-level__link" href="/en/news-publications/economy">
+														<span class="m-nav-main-level__link-text h-typo-small">Economic publications</span>
+													</a>
+												</li>
+											
+												<li class="m-nav-main-level__item js-m-nav-main-level__item">
+													<a class="m-nav-main-level__link" href="/en/news-publications/statistics-overview">
+														<span class="m-nav-main-level__link-text h-typo-small">Statistical publications</span>
+													</a>
+												</li>
+											
+												<li class="m-nav-main-level__item js-m-nav-main-level__item">
+													<a class="m-nav-main-level__link" href="/en/news-publications/business-cycle-signals">
+														<span class="m-nav-main-level__link-text h-typo-small">Business cycle signals</span>
+													</a>
+												</li>
+											
+												<li class="m-nav-main-level__item js-m-nav-main-level__item">
+													<a class="m-nav-main-level__link" href="/en/news-publications/speeches">
+														<span class="m-nav-main-level__link-text h-typo-small">Speeches &amp; presentations</span>
+													</a>
+												</li>
+											
+												<li class="m-nav-main-level__item js-m-nav-main-level__item">
+													<a class="m-nav-main-level__link" href="/en/news-publications/interviews">
+														<span class="m-nav-main-level__link-text h-typo-small">Interviews</span>
+													</a>
+												</li>
+											
+												<li class="m-nav-main-level__item js-m-nav-main-level__item">
+													<a class="m-nav-main-level__link" href="/en/news-publications/annual-report-overview">
+														<span class="m-nav-main-level__link-text h-typo-small">Annual Report</span>
+													</a>
+												</li>
+											
+												<li class="m-nav-main-level__item js-m-nav-main-level__item">
+													<a class="m-nav-main-level__link" href="/en/news-publications/research-report">
+														<span class="m-nav-main-level__link-text h-typo-small">SNB Research Report</span>
+													</a>
+												</li>
+											
+												<li class="m-nav-main-level__item js-m-nav-main-level__item">
+													<a class="m-nav-main-level__link" href="/en/news-publications/sustainability-report">
+														<span class="m-nav-main-level__link-text h-typo-small">Sustainability management</span>
+													</a>
+												</li>
+											
+												<li class="m-nav-main-level__item js-m-nav-main-level__item">
+													<a class="m-nav-main-level__link" href="/en/particular/order-publications">
+														<span class="m-nav-main-level__link-text h-typo-small">Ordering print publications</span>
+													</a>
+												</li>
+											
+										</ul>
+
+										
+											<div class="h-s5"></div>
+
+											
+<a class="a-link" href="/en/news-publications" >
+	<span class="a-link__text">
+		<span class="a-link__text-inline">Overview</span><span
+			class="a-link__icon">&#65279;<span
+				class="a-link__icon-box"><svg
+					class="a-link__arrow" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20">
+						<path fill="currentColor" d="M14 4.69L18.14 9H0v1h18.13L14 14.31l.72.69L20 9.5 14.72 4l-.72.69z"/>
+					</svg>
+				</span>
+			</span>
+	</span>
+</a>
+
+										
+									</div>
+								</div>
+							</div>
+						</div>
+					
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+				</div>
+				
+			</li>
+		
+			<li class="m-nav-main__item js-m-nav-main__item">
+				<a class="m-nav-main__link js-m-nav-main__link" href="/en/services-events">
+					<span class="m-nav-main__text h-typo-navigation">Services &amp; Events</span>
+					
+						<span class="m-nav-main__link-icon">
+							<svg class="a-icon" aria-hidden="true" xmlns="http://www.w3.org/2000/svg">
+	
+	<use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="/.resources/frontend/assets/default/svg/icons~f5f2d2d5~2026-07-21-19-29-18-000~cache.svg#chevron-right-small"></use>
+</svg>
+
+						</span>
+					
+				</a>
+				
+				<div class="m-nav-main__flyout js-m-nav-main__flyout">
+					<div class="container-box">
+						<div class="row g-0">
+							<div class="col">
+								<div class="m-nav-main__close">
+									<button type="button" class="m-nav-main__button js-m-nav-main__close">
+										<span class="m-nav-main__button-text">Close</span>
+										<span class="m-nav-main__button-icon"><svg class="a-icon" aria-hidden="true" xmlns="http://www.w3.org/2000/svg">
+	
+	<use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="/.resources/frontend/assets/default/svg/icons~f5f2d2d5~2026-07-21-19-29-18-000~cache.svg#close"></use>
+</svg>
+</span>
+									</button>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="m-nav-main-level js-m-nav-main-level" data-g-name="NavMainLevel">
+	<button type="button" class="m-nav-main-level__back js-m-nav-main-level__back">
+		<span class="h-s6"></span>
+
+		<span class="m-nav-main-level__button-icon">
+			<svg class="a-icon" aria-hidden="true" xmlns="http://www.w3.org/2000/svg">
+	
+	<use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="/.resources/frontend/assets/default/svg/icons~f5f2d2d5~2026-07-21-19-29-18-000~cache.svg#chevron-left-small"></use>
+</svg>
+
+		</span>
+		<span class="m-nav-main-level__button-text h-typo-navigation">
+			Back
+		</span>
+		<span class="h-s6"></span>
+
+	</button>
+	<div class="m-nav-main-level__scroll-area">
+		<div class="m-nav-main-level__wrapper js-m-nav-main-level__wrapper">
+			<div class="container">
+				<div class="row gx-md-4 m-nav-main-level__row">
+					
+						<div class="m-nav-main-level__col col-md-3
+						">
+							<div class="m-nav-main-level__box">
+								
+									<h2 class="m-nav-main-level__heading h-typo-navigation-bold">Digital services</h2>
+									<div class="h-s5"></div>
+
+								
+
+								<div class="m-nav-main-level__teaser">
+									
+
+									<div class="m-nav-main-level__links">
+										<ul class="m-nav-main-level__items">
+											
+												<li class="m-nav-main-level__item js-m-nav-main-level__item">
+													<a class="m-nav-main-level__link" href="/en/services-events/digital-services/webtv">
+														<span class="m-nav-main-level__link-text h-typo-small">Web TV</span>
+													</a>
+												</li>
+											
+												<li class="m-nav-main-level__item js-m-nav-main-level__item">
+													<a class="m-nav-main-level__link" href="/en/services-events/digital-services/research-tv">
+														<span class="m-nav-main-level__link-text h-typo-small">Research TV</span>
+													</a>
+												</li>
+											
+												<li class="m-nav-main-level__item js-m-nav-main-level__item">
+													<a class="m-nav-main-level__link" href="/en/services-events/digital-services/datenportal">
+														<span class="m-nav-main-level__link-text h-typo-small">SNB data portal</span>
+													</a>
+												</li>
+											
+												<li class="m-nav-main-level__item js-m-nav-main-level__item">
+													<a class="m-nav-main-level__link" href="/en/services-events/digital-services/rss-calendar-feeds">
+														<span class="m-nav-main-level__link-text h-typo-small">RSS and Calendar feeds</span>
+													</a>
+												</li>
+											
+												<li class="m-nav-main-level__item js-m-nav-main-level__item">
+													<a class="m-nav-main-level__link" href="/en/services-events/digital-services/news_alert">
+														<span class="m-nav-main-level__link-text h-typo-small">SNB News Alert</span>
+													</a>
+												</li>
+											
+												<li class="m-nav-main-level__item js-m-nav-main-level__item">
+													<a class="m-nav-main-level__link" href="/en/services-events/digital-services/event-schedule">
+														<span class="m-nav-main-level__link-text h-typo-small">Time schedule</span>
+													</a>
+												</li>
+											
+												<li class="m-nav-main-level__item js-m-nav-main-level__item">
+													<a class="m-nav-main-level__link" href="/en/services-events/digital-services/iconomix">
+														<span class="m-nav-main-level__link-text h-typo-small">Iconomix</span>
+													</a>
+												</li>
+											
+												<li class="m-nav-main-level__item js-m-nav-main-level__item">
+													<a class="m-nav-main-level__link" href="/en/services-events/digital-services/faq-overview">
+														<span class="m-nav-main-level__link-text h-typo-small">Q&amp;A</span>
+													</a>
+												</li>
+											
+												<li class="m-nav-main-level__item js-m-nav-main-level__item">
+													<a class="m-nav-main-level__link" href="/en/services-events/digital-services/glossary">
+														<span class="m-nav-main-level__link-text h-typo-small">Glossary</span>
+													</a>
+												</li>
+											
+										</ul>
+
+										
+											<div class="h-s5"></div>
+
+											
+<a class="a-link" href="/en/services-events/digital-services" >
+	<span class="a-link__text">
+		<span class="a-link__text-inline">Overview</span><span
+			class="a-link__icon">&#65279;<span
+				class="a-link__icon-box"><svg
+					class="a-link__arrow" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20">
+						<path fill="currentColor" d="M14 4.69L18.14 9H0v1h18.13L14 14.31l.72.69L20 9.5 14.72 4l-.72.69z"/>
+					</svg>
+				</span>
+			</span>
+	</span>
+</a>
+
+										
+									</div>
+								</div>
+							</div>
+						</div>
+					
+						<div class="m-nav-main-level__col col-md-3
+						">
+							<div class="m-nav-main-level__box">
+								
+									<h2 class="m-nav-main-level__heading h-typo-navigation-bold">Services on site</h2>
+									<div class="h-s5"></div>
+
+								
+
+								<div class="m-nav-main-level__teaser">
+									
+
+									<div class="m-nav-main-level__links">
+										<ul class="m-nav-main-level__items">
+											
+												<li class="m-nav-main-level__item js-m-nav-main-level__item">
+													<a class="m-nav-main-level__link" href="/en/services-events/on-site-services/forum">
+														<span class="m-nav-main-level__link-text h-typo-small">SNB Forum</span>
+													</a>
+												</li>
+											
+												<li class="m-nav-main-level__item js-m-nav-main-level__item">
+													<a class="m-nav-main-level__link" href="/en/services-events/on-site-services/library">
+														<span class="m-nav-main-level__link-text h-typo-small">SNB library</span>
+													</a>
+												</li>
+											
+												<li class="m-nav-main-level__item js-m-nav-main-level__item">
+													<a class="m-nav-main-level__link" href="/en/services-events/on-site-services/archive">
+														<span class="m-nav-main-level__link-text h-typo-small">Archives</span>
+													</a>
+												</li>
+											
+												<li class="m-nav-main-level__item js-m-nav-main-level__item">
+													<a class="m-nav-main-level__link" href="/en/services-events/on-site-services/moneyverse">
+														<span class="m-nav-main-level__link-text h-typo-small">Moneyverse</span>
+													</a>
+												</li>
+											
+										</ul>
+
+										
+											<div class="h-s5"></div>
+
+											
+<a class="a-link" href="/en/services-events/on-site-services" >
+	<span class="a-link__text">
+		<span class="a-link__text-inline">Overview</span><span
+			class="a-link__icon">&#65279;<span
+				class="a-link__icon-box"><svg
+					class="a-link__arrow" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20">
+						<path fill="currentColor" d="M14 4.69L18.14 9H0v1h18.13L14 14.31l.72.69L20 9.5 14.72 4l-.72.69z"/>
+					</svg>
+				</span>
+			</span>
+	</span>
+</a>
+
+										
+									</div>
+								</div>
+							</div>
+						</div>
+					
+						<div class="m-nav-main-level__col col-md-3
+						">
+							<div class="m-nav-main-level__box">
+								
+									<h2 class="m-nav-main-level__heading h-typo-navigation-bold">Events</h2>
+									<div class="h-s5"></div>
+
+								
+
+								<div class="m-nav-main-level__teaser">
+									
+
+									<div class="m-nav-main-level__links">
+										<ul class="m-nav-main-level__items">
+											
+												<li class="m-nav-main-level__item js-m-nav-main-level__item">
+													<a class="m-nav-main-level__link" href="/en/services-events/events/financial-market-events">
+														<span class="m-nav-main-level__link-text h-typo-small">Money market events of the SNB</span>
+													</a>
+												</li>
+											
+												<li class="m-nav-main-level__item js-m-nav-main-level__item">
+													<a class="m-nav-main-level__link" href="/en/services-events/events/karl-brunner-lectures">
+														<span class="m-nav-main-level__link-text h-typo-small">Karl Brunner Lecture Series</span>
+													</a>
+												</li>
+											
+												<li class="m-nav-main-level__item js-m-nav-main-level__item">
+													<a class="m-nav-main-level__link" href="/en/services-events/events/scientific-conferences/research_conference_overview">
+														<span class="m-nav-main-level__link-text h-typo-small">SNB Research Conference</span>
+													</a>
+												</li>
+											
+												<li class="m-nav-main-level__item js-m-nav-main-level__item">
+													<a class="m-nav-main-level__link" href="/en/services-events/events/scientific-conferences/snb_cif_conference_overview">
+														<span class="m-nav-main-level__link-text h-typo-small">SNB-CIF Conference</span>
+													</a>
+												</li>
+											
+												<li class="m-nav-main-level__item js-m-nav-main-level__item">
+													<a class="m-nav-main-level__link" href="/en/services-events/events/scientific-conferences/snb_frb_bis_high_level_conference_on_gruv_overview">
+														<span class="m-nav-main-level__link-text h-typo-small">SNB-FRB-BIS High-Level Conference on GRUV</span>
+													</a>
+												</li>
+											
+												<li class="m-nav-main-level__item js-m-nav-main-level__item">
+													<a class="m-nav-main-level__link" href="/en/services-events/events/scientific-conferences/ipa_workshop_overview">
+														<span class="m-nav-main-level__link-text h-typo-small">Workshop on International Macroeconomics and Finance</span>
+													</a>
+												</li>
+											
+												<li class="m-nav-main-level__item js-m-nav-main-level__item">
+													<a class="m-nav-main-level__link" href="/en/services-events/events/scientific-conferences/nbp_snb_joint_seminar_overview">
+														<span class="m-nav-main-level__link-text h-typo-small">NBP-SNB Joint Seminar</span>
+													</a>
+												</li>
+											
+												<li class="m-nav-main-level__item js-m-nav-main-level__item">
+													<a class="m-nav-main-level__link" href="/en/services-events/events/scientific-conferences/sem_overview">
+														<span class="m-nav-main-level__link-text h-typo-small">Other academic conferences</span>
+													</a>
+												</li>
+											
+										</ul>
+
+										
+											<div class="h-s5"></div>
+
+											
+<a class="a-link" href="/en/services-events/events" >
+	<span class="a-link__text">
+		<span class="a-link__text-inline">Overview</span><span
+			class="a-link__icon">&#65279;<span
+				class="a-link__icon-box"><svg
+					class="a-link__arrow" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20">
+						<path fill="currentColor" d="M14 4.69L18.14 9H0v1h18.13L14 14.31l.72.69L20 9.5 14.72 4l-.72.69z"/>
+					</svg>
+				</span>
+			</span>
+	</span>
+</a>
+
+										
+									</div>
+								</div>
+							</div>
+						</div>
+					
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+				</div>
+				
+			</li>
+		
+	</ul>
+</nav>
+
+						</div>
+						
+							<a href="#" class="o-header__search js-o-header__search" data-overlay-id="overlay-search" data-overlay-origin="" role="button" aria-pressed="false">
+								<span class="o-header__search-icon">
+									<svg class="a-icon" aria-hidden="true" xmlns="http://www.w3.org/2000/svg">
+	
+	<use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="/.resources/frontend/assets/default/svg/icons~f5f2d2d5~2026-07-21-19-29-18-000~cache.svg#search"></use>
+</svg>
+
+								</span>
+								<span class="h-typo-navigation">
+									Search
+								</span>
+							</a>
+						
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="o-header__placeholder js-o-header__placeholder"></div>
+
+	<section data-g-name="Overlay"
+		 data-overlay-id="overlay-menu"
+		 class="o-overlay js-o-overlay o-overlay--menu"
+		 
+		  data-closeable="true"
+>
+	<div class="o-overlay__vertical-alignment">
+		<div class="o-overlay__horizontal-alignment">
+			<div class="o-overlay__wrapper js-o-overlay__wrapper">
+				<div class="container">
+					<div class="o-overlay__header">
+						
+							<div class="o-overlay__logo">
+								<div class="a-logo">
+	<a class="a-logo__link" href="/en/">
+		<span class="a-logo__wrapper">
+			<span class="a-logo__link-text">Welcome. Grüezi. Bonjour. Buongiorno. Allegra.</span>
+			<img class="a-logo__img" src="/.resources/frontend/assets/default/img/logo/logo~f5f2d2d5~2026-07-21-19-29-18-000~cache.svg" alt="">
+		</span>
+	</a>
+</div>
+
+							</div>
+						
+						
+							<button type="button" class="o-overlay__close js-o-overlay__close">
+								<span class="o-overlay__close-text">
+									Close
+								</span>
+								<span class="o-overlay__close-icon">
+									<svg class="a-icon" aria-hidden="true" xmlns="http://www.w3.org/2000/svg">
+	
+	<use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="/.resources/frontend/assets/default/svg/icons~f5f2d2d5~2026-07-21-19-29-18-000~cache.svg#close"></use>
+</svg>
+
+								</span>
+							</button>
+						
+					</div>
+				</div>
+				<div class="o-overlay__content">
+					<div class="container">
+						<div class="o-overlay-content">
+	<div class="js-o-overlay-content__outlet"></div>
+	<div class="o-overlay-content__nav-meta">
+		<ul class="m-nav-meta m-nav-meta--offscreen" data-g-name="NavMeta">
+	
+		<li class="m-nav-meta__item m-nav-meta__item--hide-sm">
+			<a class="m-nav-meta__item-link" href="/en/contact" >
+				<span class="m-nav-meta__item-text h-typo-small">Contact</span>
+			</a>
+		</li>
+	
+		<li class="m-nav-meta__item m-nav-meta__item--hide-sm">
+			<a class="m-nav-meta__item-link" href="/en/media" >
+				<span class="m-nav-meta__item-text h-typo-small">Media</span>
+			</a>
+		</li>
+	
+		<li class="m-nav-meta__item m-nav-meta__item--hide-sm">
+			<a class="m-nav-meta__item-link" href="/en/career" >
+				<span class="m-nav-meta__item-text h-typo-small">Career</span>
+			</a>
+		</li>
+	
+
+	
+	
+		
+		
+			<li class="m-nav-meta__item m-nav-meta__item--language">
+				<ul class="a-lang">
+	<li
+		class="a-lang__item">
+			<a class="a-lang__text" href="/de/the-snb/mandates-goals/monetary-policy/implementation">DE</a>
+	</li><li
+		class="a-lang__item">
+			<a class="a-lang__text" href="/fr/the-snb/mandates-goals/monetary-policy/implementation">FR</a>
+	</li><li
+		class="a-lang__item a-lang__item--active">
+			<span class="a-lang__text">EN</span>
+	</li><li
+		class="a-lang__item">
+			<a class="a-lang__text" href="/it/the-snb/mandates-goals/monetary-policy/implementation">IT</a>
+	</li>
+</ul>
+
+			</li>
+		
+	
+</ul>
+
+	</div>
+</div>
+
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+
+
+	
+		<section data-g-name="Overlay"
+		 data-overlay-id="overlay-search"
+		 class="o-overlay js-o-overlay o-overlay--search"
+		  data-initial-focus="js-m-search__input"
+		  data-closeable="true"
+>
+	<div class="o-overlay__vertical-alignment">
+		<div class="o-overlay__horizontal-alignment">
+			<div class="o-overlay__wrapper js-o-overlay__wrapper">
+				<div class="container">
+					<div class="o-overlay__header">
+						
+							<button type="button" class="o-overlay__back js-o-overlay__back">
+								<span class="o-overlay__close-text">
+									Back
+								</span>
+								<span class="o-overlay__close-icon">
+									<svg class="a-icon" aria-hidden="true" xmlns="http://www.w3.org/2000/svg">
+	
+	<use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="/.resources/frontend/assets/default/svg/icons~f5f2d2d5~2026-07-21-19-29-18-000~cache.svg#arrow-left"></use>
+</svg>
+
+								</span>
+							</button>
+						
+						
+							<button type="button" class="o-overlay__close js-o-overlay__close">
+								<span class="o-overlay__close-text">
+									Close
+								</span>
+								<span class="o-overlay__close-icon">
+									<svg class="a-icon" aria-hidden="true" xmlns="http://www.w3.org/2000/svg">
+	
+	<use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="/.resources/frontend/assets/default/svg/icons~f5f2d2d5~2026-07-21-19-29-18-000~cache.svg#close"></use>
+</svg>
+
+								</span>
+							</button>
+						
+					</div>
+				</div>
+				<div class="o-overlay__content">
+					<div class="container">
+						<div class="o-overlay-content">
+	<div class="row">
+		<div class="col-md-6 offset-md-3">
+			<div id="a11y-search">
+				<div class="h-s9"></div>
+
+				<h1 class="h-typo-t1">Search Keyword</h1>
+
+				<div class="h-s6"></div>
+
+				<div class="m-search">
+	<form class="m-search__form" action="/en/srv/search" method="GET" autocomplete="off" novalidate>
+		<label class="m-search__label" for="m-search-input-overlay">Search</label>
+		<input id="m-search-input-overlay" name="q" type="search"
+		       class="m-search__input h-typo-body js-m-search__input"
+			   placeholder="Search for..."
+			   value=""
+			   required
+		>
+		<button type="submit" class="m-search__button h-typo-button-small">
+			<span class="m-search__button-text">Search</span>
+			<span class="m-search__button-icon"><svg class="a-icon" aria-hidden="true" xmlns="http://www.w3.org/2000/svg">
+	
+	<use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="/.resources/frontend/assets/default/svg/icons~f5f2d2d5~2026-07-21-19-29-18-000~cache.svg#search"></use>
+</svg>
+</span>
+		</button>
+		
+	</form>
+</div>
+
+				<div class="h-s10"></div>
+
+			</div>
+		</div>
+	</div>
+</div>
+
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+
+	
+</div>
+
+		</header>
+
+		<main id="a11y-main">
+			
+			
+
+
+	<div class="cms-stage cms-stage--white cms-stage--filler-curves">
+	<div class="container">
+		<div class="cms-stage__relative">
+			<div class="row">
+				<div class="col-12">
+					<div class="h-s8"></div>
+
+					<div class="cms-stage__subject">
+						
+							<div class="m-subject m-subject--t1 m-subject--inv">
+	<div class="m-subject__head">
+		
+		
+			
+<a class="a-link a-link--small a-link--inv" href="/en/the-snb/mandates-goals/monetary-policy" >
+	<span class="a-link__text">
+		<span class="a-link__text-inline">Monetary policy</span>
+	</span>
+</a>
+
+			<div class="h-s5"></div>
+
+		
+		<div class="m-subject__decorator m-subject__decorator--lime"></div>
+		
+			<div class="h-s6"></div>
+
+		
+	</div>
+	<h1 class="h-typo-t1">Implementation of monetary policy</h1>
+
+</div>
+
+						
+					</div>
+					<div class="row">
+						<div class="col-12 col-sm-6">
+							<div class="cms-stage__meta">
+								
+
+								
+
+								
+
+								
+
+								
+							</div>
+						</div>
+						
+					</div>
+					
+						<div class="h-s9"></div>
+
+					
+				</div>
+				
+			</div>
+			<div class="cms-stage__curves h-bg-curves-blue-black"></div>
+		</div>
+	</div>
+</div>
+
+
+
+			
+
+
+	<div class="cms-richtext h-bg-white" data-g-name="Richtext">
+	<div class="container">
+		<div class="row">
+		
+			<div class="col-md-8 offset-md-2">
+		
+		
+		
+		
+		
+
+		
+				
+				<div class="h-s8"></div>
+
+				
+					<div class="a-text">
+	
+		<html>
+ <head></head>
+ <body>
+  <p class="large">The implementation of monetary policy is the third element of the SNB's monetary policy strategy, in addition to the definition of price stability and the conditional inflation forecast. Find an overview of the monetary policy instruments and a Q&amp;A on the implementation of monetary policy here.</p>
+ </body>
+</html>
+	
+</div>
+
+				
+				
+
+				
+				
+
+				
+				
+				<div class="h-s8"></div>
+
+
+				
+				
+			</div>
+		</div>
+	</div>
+</div>
+
+
+	<div class="cms-anchor d-print-none" id="instr">
+	
+</div>
+
+
+	<div class="cms-accordion">
+	<div class="container">
+		
+			<div class="h-s8"></div>
+
+		
+		
+			
+				<div class="m-subject m-subject--t2">
+	<div class="m-subject__head">
+		
+		
+		<div class="m-subject__decorator m-subject__decorator--lime"></div>
+		
+			<div class="h-s6"></div>
+
+		
+	</div>
+	<h2 class="h-typo-t2">Overview monetary policy instruments</h2>
+
+</div>
+
+			
+		
+		
+			
+				<div class="h-s5"></div>
+
+				<div class="cms-accordion__text">
+					<p class="h-typo-small">The SNB's instruments comprise open market operations, standing facilities and the interest rate on sight deposits at the SNB.</p>
+
+				</div>
+			
+			<div class="h-s7"></div>
+
+			<div class="cms-accordion__box">
+				<div class="h-s7"></div>
+
+				
+	<div class="cms-accordion-item cms-accordion-item--boxed" data-g-name="AccordionItem">
+	<div class="cms-accordion-item__header" id="heading-61aca26b-511b-442e-a67d-ef4add9fbf6b">
+		<button class="cms-accordion-item__button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse-61aca26b-511b-442e-a67d-ef4add9fbf6b" aria-controls="collapse-61aca26b-511b-442e-a67d-ef4add9fbf6b" aria-expanded="false">
+			
+				<span class="cms-accordion-item__text h-typo-large">Interest on sight deposits</span>
+				<span class="cms-accordion-item__icon"><svg class="a-icon" aria-hidden="true" xmlns="http://www.w3.org/2000/svg">
+	
+	<use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="/.resources/frontend/assets/default/svg/icons~f5f2d2d5~2026-07-21-19-29-18-000~cache.svg#chevron-up"></use>
+</svg>
+</span>
+			
+		</button>
+	</div>
+	<div id="collapse-61aca26b-511b-442e-a67d-ef4add9fbf6b" class="cms-accordion-item__collapse collapse" aria-labelledby="heading-61aca26b-511b-442e-a67d-ef4add9fbf6b">
+		<div class="cms-accordion-item__content">
+			
+				
+					
+	<div class="cms-accordion-text-image">
+	<div class="cms-accordion-text-image__layout flex-md-row">
+		<div>
+			<div class="a-text">
+	
+		<html>
+ <head></head>
+ <body>
+  <p>The SNB applies interest to, or 'remunerates', sight deposits in Swiss francs held by banks and other financial market participants at the SNB. By applying this remuneration, the SNB influences the interest rate level on the money market, so that the secured short-term Swiss franc money market rates remain close to the SNB policy rate. The SNB uses a system of tiered remuneration. This encourages liquidity redistribution between sight deposit account holders and thereby promotes an active money market. For sight deposits up to a certain threshold, the SNB policy rate is applied. If the SNB policy rate is 0%, sight deposits above the threshold are subject to negative remuneration. Sight deposits which are held to meet minimum reserve requirements are not remunerated.</p>
+ </body>
+</html>
+	
+</div>
+
+		</div>
+		
+	</div>
+
+	
+	
+
+	
+	
+</div>
+
+
+
+				
+			
+		</div>
+	</div>
+</div>
+
+
+	<div class="cms-accordion-item cms-accordion-item--boxed" data-g-name="AccordionItem">
+	<div class="cms-accordion-item__header" id="heading-4ff5212f-d79b-471e-b15e-b4981b0f12bf">
+		<button class="cms-accordion-item__button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse-4ff5212f-d79b-471e-b15e-b4981b0f12bf" aria-controls="collapse-4ff5212f-d79b-471e-b15e-b4981b0f12bf" aria-expanded="false">
+			
+				<span class="cms-accordion-item__text h-typo-large">Open market operations</span>
+				<span class="cms-accordion-item__icon"><svg class="a-icon" aria-hidden="true" xmlns="http://www.w3.org/2000/svg">
+	
+	<use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="/.resources/frontend/assets/default/svg/icons~f5f2d2d5~2026-07-21-19-29-18-000~cache.svg#chevron-up"></use>
+</svg>
+</span>
+			
+		</button>
+	</div>
+	<div id="collapse-4ff5212f-d79b-471e-b15e-b4981b0f12bf" class="cms-accordion-item__collapse collapse" aria-labelledby="heading-4ff5212f-d79b-471e-b15e-b4981b0f12bf">
+		<div class="cms-accordion-item__content">
+			
+				
+					
+	<div class="cms-accordion-text-image">
+	<div class="cms-accordion-text-image__layout flex-md-row">
+		<div>
+			<div class="a-text">
+	
+		<html>
+ <head></head>
+ <body>
+  <p>In the case of open market operations, the SNB takes the initiative in the transaction. Open market operations include repo transactions, the issuance, purchase and sale of its own debt certificates (SNB Bills), and foreign exchange transactions. They serve primarily to manage liquidity in order to keep the short-term money market rates in Swiss francs close to the SNB policy rate.</p>
+  <p>In the case of liquidity-providing repo transactions, the SNB purchases securities from a bank (or another financial institution admitted to the repo market) and credits the corresponding sum in Swiss francs to the counterparty's sight deposit account with the SNB. At the same time, it is agreed that the SNB will resell securities of the same type and quantity at a later date. In the case of a liquidity-absorbing repo, the transactions are conducted in the opposite direction. For the term of the repo agreement, the cash taker generally pays interest (the repo rate) to the cash provider. Repo transactions can be conducted by way of auction or on a bilateral basis with a wide range of counterparties.</p>
+  <p>Issuing SNB Bills enables the SNB to absorb liquidity. It can repurchase SNB Bills via the secondary market in order to increase the supply of liquidity to the financial system where necessary.</p>
+  <p>In order to fulfil its monetary policy mandate, the SNB may purchase and sell foreign currency against Swiss francs on the financial markets. Foreign exchange transactions conducted by the SNB are usually spot or swap transactions. In foreign exchange swaps, the purchase (sale) of foreign currency at the current spot rate and the sale (purchase) of the foreign currency at a later date are simultaneously agreed. They serve to manage liquidity in Swiss francs. The SNB can conclude foreign exchange transactions with a wide range of domestic and foreign counterparties.</p>
+  <p>Moreover, the SNB can purchase and sell securities in Swiss francs. This instrument has not been used for a number of years.</p>
+ </body>
+</html>
+	
+</div>
+
+		</div>
+		
+	</div>
+
+	
+	
+
+	
+	
+</div>
+
+
+
+				
+			
+		</div>
+	</div>
+</div>
+
+
+	<div class="cms-accordion-item cms-accordion-item--boxed" data-g-name="AccordionItem">
+	<div class="cms-accordion-item__header" id="heading-316e8b8b-6bb5-45de-ba78-ad4b2578c4b1">
+		<button class="cms-accordion-item__button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse-316e8b8b-6bb5-45de-ba78-ad4b2578c4b1" aria-controls="collapse-316e8b8b-6bb5-45de-ba78-ad4b2578c4b1" aria-expanded="false">
+			
+				<span class="cms-accordion-item__text h-typo-large">Standing facilities</span>
+				<span class="cms-accordion-item__icon"><svg class="a-icon" aria-hidden="true" xmlns="http://www.w3.org/2000/svg">
+	
+	<use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="/.resources/frontend/assets/default/svg/icons~f5f2d2d5~2026-07-21-19-29-18-000~cache.svg#chevron-up"></use>
+</svg>
+</span>
+			
+		</button>
+	</div>
+	<div id="collapse-316e8b8b-6bb5-45de-ba78-ad4b2578c4b1" class="cms-accordion-item__collapse collapse" aria-labelledby="heading-316e8b8b-6bb5-45de-ba78-ad4b2578c4b1">
+		<div class="cms-accordion-item__content">
+			
+				
+					
+	<div class="cms-accordion-text-image">
+	<div class="cms-accordion-text-image__layout flex-md-row">
+		<div>
+			<div class="a-text">
+	
+		<html>
+ <head></head>
+ <body>
+  <p>In the case of standing facilities, the SNB only sets the conditions under which eligible counterparties can, on their own initiative, draw liquidity. Standing facilities include the intraday facility, the liquidity-shortage financing facility and the SNB COVID-19 refinancing facility (CRF).</p>
+  <p>During the day, the SNB provides its counterparties with interest-free liquidity (intraday facility) through repo transactions so as to facilitate the settlement of payment transactions. The funds received must be repaid by the end of the same bank working day at the latest.</p>
+  <p>To bridge unexpected liquidity bottlenecks, the SNB offers a liquidity-shortage financing facility. For this purpose, it grants its counterparties a limit which must be covered by at least 110% collateral eligible for SNB repos. Counterparties can obtain liquidity up to the limit granted until the following bank working day. The liquidity-shortage financing facility is granted in the form of a special-rate repo transaction. The special rate is calculated as the SNB policy rate plus a surcharge, and is at least 0%.</p>
+  <p>Furthermore, since 26&nbsp;March 2020, the SNB's monetary policy instruments have included the SNB COVID-19 refinancing facility. Under the CRF, liquidity can be drawn at the SNB policy rate as a covered loan against credit claims in accordance with the COVID-19 ordinance on joint and several guarantees (COVID-19-Solidarbürgschaftsverordnung) and against other collateral the SNB deems eligible. The loan has no fixed term. It can be raised or reduced daily by the bank drawing the loan.</p>
+ </body>
+</html>
+	
+</div>
+
+		</div>
+		
+	</div>
+
+	
+	
+
+	
+	
+</div>
+
+
+
+				
+			
+		</div>
+	</div>
+</div>
+
+
+
+				<div class="h-s8"></div>
+
+			</div>
+		
+		
+			<div class="h-s9"></div>
+
+		
+	</div>
+</div>
+
+
+	
+<div class="cms-box h-bg-white">
+	<div class="container">
+		<div class="h-s8"></div>
+
+		
+			<div class="m-subject m-subject--t3">
+	<div class="m-subject__head">
+		
+		
+		<div class="m-subject__decorator m-subject__decorator--blue"></div>
+		
+			<div class="h-s6"></div>
+
+		
+	</div>
+	<h3 class="h-typo-t3">Guidelines on monetary policy instruments</h3>
+
+</div>
+
+			
+				<div class="h-s7"></div>
+
+			
+		
+		
+		<div class="cms-box__container">
+			<div class="h-s6"></div>
+
+			
+				<div class="m-mixed-list">
+	
+		
+
+
+	
+
+
+
+
+
+
+	<a class="m-mixed-list-item h-typo-body" href="/en/the-snb/organisation/legal-framework#richtlinien" >
+	<div class="h-s4"></div>
+
+
+	<div class="m-mixed-list-item__content">
+		
+
+		<div class="m-mixed-list-item__info">
+			
+			
+		</div>
+
+		<span class="m-mixed-list-item__text">Guidelines on monetary policy instruments</span>
+		<span class="m-mixed-list-item__icon-right"><svg class="a-icon" aria-hidden="true" xmlns="http://www.w3.org/2000/svg">
+	
+	<use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="/.resources/frontend/assets/default/svg/icons~f5f2d2d5~2026-07-21-19-29-18-000~cache.svg#arrow-right"></use>
+</svg>
+</span>
+	</div>
+	<div class="h-s3"></div>
+
+</a>
+
+
+
+
+
+
+	
+
+	
+</div>
+
+			
+			<div class="h-s8"></div>
+
+		</div>
+		<div class="h-s9"></div>
+
+	</div>
+</div>
+
+
+	<div class="cms-anchor d-print-none" id="sichtguthaben">
+	
+</div>
+
+
+	<div class="cms-richtext h-bg-white" data-g-name="Richtext">
+	<div class="container">
+		<div class="row">
+		
+		
+		
+			<div class="col-md-4">
+		
+		
+				
+				<div class="h-s8"></div>
+
+				
+					<div class="m-subject m-subject--t2">
+	<div class="m-subject__head">
+		
+		
+		<div class="m-subject__decorator m-subject__decorator--blue"></div>
+		
+			<div class="h-s6"></div>
+
+		
+	</div>
+	<h2 class="h-typo-t2">Interest on sight deposits</h2>
+
+</div>
+
+				
+				
+				
+				
+				
+		
+		
+			</div>
+		
+
+		
+			<div class="col-md-7">
+				<div class="d-none d-md-block"><div class="h-s6"></div>
+</div>
+		
+				
+				<div class="h-s8"></div>
+
+				
+					<div class="a-text">
+	
+		<html>
+ <head></head>
+ <body>
+  <p>The SNB applies interest to, or 'remunerates', sight deposits in Swiss francs held by banks and other financial market participants at the SNB. By applying this remuneration, the SNB influences the interest rate level on the money market, so that the secured short-term Swiss franc money market rates remain close to the SNB policy rate. The SNB uses a system of tiered remuneration. This encourages liquidity redistribution between sight deposit account holders and thereby promotes an active money market. For sight deposits up to a certain threshold, the SNB policy rate is applied. Sight deposits above this threshold are remunerated at the SNB policy rate minus a discount. If the SNB policy rate is 0%, sight deposits above the threshold are subject to negative remuneration. Sight deposits which are held to meet minimum reserve requirements are not remunerated.</p>
+ </body>
+</html>
+	
+</div>
+
+				
+				
+
+				
+				
+
+				
+				
+				<div class="h-s8"></div>
+
+
+				
+				
+			</div>
+		</div>
+	</div>
+</div>
+
+
+	<div class="cms-box h-bg-white">
+	<div class="container">
+		<div class="h-s8"></div>
+
+		
+		
+		<div class="row">
+			<div class="col-12  col-md-6 col-print-6">
+				<div class="cms-box__container">
+					<div class="h-s6"></div>
+
+					
+
+
+	<div class="m-mixed-list">
+	
+		
+
+
+	
+	
+	<div class="m-mixed-list-list__subtitle">
+		<h4 class="h-typo-t4">Terms of Business</h4>
+
+	</div>
+	<div class="h-s2"></div>
+
+
+
+
+
+
+
+
+	<a class="m-mixed-list-item h-typo-body" href="/en/the-snb/organisation/legal-framework#geschaeftsbedingungen" >
+	<div class="h-s4"></div>
+
+
+	<div class="m-mixed-list-item__content">
+		
+
+		<div class="m-mixed-list-item__info">
+			
+			
+		</div>
+
+		<span class="m-mixed-list-item__text">Legal Framework</span>
+		<span class="m-mixed-list-item__icon-right"><svg class="a-icon" aria-hidden="true" xmlns="http://www.w3.org/2000/svg">
+	
+	<use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="/.resources/frontend/assets/default/svg/icons~f5f2d2d5~2026-07-21-19-29-18-000~cache.svg#arrow-right"></use>
+</svg>
+</span>
+	</div>
+	<div class="h-s3"></div>
+
+</a>
+
+
+
+
+
+
+	
+
+	
+</div>
+
+
+
+					<div class="h-s8"></div>
+
+				</div>
+			</div>
+			<div class="col-12 d-md-none d-print-none"><div class="h-s7"></div>
+</div>
+			<div class="col-12  col-md-6 col-print-6">
+				<div class="cms-box__container">
+					<div class="h-s6"></div>
+
+					
+
+
+	<div class="m-mixed-list">
+	
+		
+
+
+	
+	
+	<div class="m-mixed-list-list__subtitle">
+		<h4 class="h-typo-t4">Instruction sheet</h4>
+
+	</div>
+	<div class="h-s2"></div>
+
+
+
+
+
+
+
+
+	<a class="m-mixed-list-item h-typo-body" href="/dam/jcr:dcc7163a-5893-48c2-81a3-ed42a2457377/vz_mb.en.pdf" >
+	<div class="h-s4"></div>
+
+
+	<div class="m-mixed-list-item__content">
+		
+			<span class="m-mixed-list-item__icon-left"><svg class="a-icon" aria-hidden="true" xmlns="http://www.w3.org/2000/svg">
+	
+	<use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="/.resources/frontend/assets/default/svg/icons~f5f2d2d5~2026-07-21-19-29-18-000~cache.svg#pdf"></use>
+</svg>
+</span>
+		
+
+		<div class="m-mixed-list-item__info">
+			
+			
+		</div>
+
+		<span class="m-mixed-list-item__text">Instruction sheet governing interest on sight deposits (applies when the SNB policy rate is positive)</span>
+		<span class="m-mixed-list-item__icon-right"><svg class="a-icon" aria-hidden="true" xmlns="http://www.w3.org/2000/svg">
+	
+	<use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="/.resources/frontend/assets/default/svg/icons~f5f2d2d5~2026-07-21-19-29-18-000~cache.svg#download"></use>
+</svg>
+</span>
+	</div>
+	<div class="h-s3"></div>
+
+</a>
+
+
+	<a class="m-mixed-list-item h-typo-body" href="/dam/jcr:60fd7eaa-c9e0-4496-b509-6162e6d6d4bb/vz_mb_2.en.pdf" >
+	<div class="h-s4"></div>
+
+
+	<div class="m-mixed-list-item__content">
+		
+			<span class="m-mixed-list-item__icon-left"><svg class="a-icon" aria-hidden="true" xmlns="http://www.w3.org/2000/svg">
+	
+	<use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="/.resources/frontend/assets/default/svg/icons~f5f2d2d5~2026-07-21-19-29-18-000~cache.svg#pdf"></use>
+</svg>
+</span>
+		
+
+		<div class="m-mixed-list-item__info">
+			
+			
+		</div>
+
+		<span class="m-mixed-list-item__text">Instruction sheet governing interest on sight deposits (applies when the SNB policy rate is 0%)</span>
+		<span class="m-mixed-list-item__icon-right"><svg class="a-icon" aria-hidden="true" xmlns="http://www.w3.org/2000/svg">
+	
+	<use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="/.resources/frontend/assets/default/svg/icons~f5f2d2d5~2026-07-21-19-29-18-000~cache.svg#download"></use>
+</svg>
+</span>
+	</div>
+	<div class="h-s3"></div>
+
+</a>
+
+
+
+
+
+
+	
+
+	
+</div>
+
+
+
+					<div class="h-s8"></div>
+
+				</div>
+			</div>
+		</div>
+		<div class="h-s9"></div>
+
+	</div>
+</div>
+
+
+	<div class="cms-anchor d-print-none" id="repogeschaefte">
+	
+</div>
+
+
+	<div class="cms-richtext h-bg-white" data-g-name="Richtext">
+	<div class="container">
+		<div class="row">
+		
+		
+		
+			<div class="col-md-4">
+		
+		
+				
+				<div class="h-s8"></div>
+
+				
+					<div class="m-subject m-subject--t2">
+	<div class="m-subject__head">
+		
+		
+		<div class="m-subject__decorator m-subject__decorator--blue"></div>
+		
+			<div class="h-s6"></div>
+
+		
+	</div>
+	<h2 class="h-typo-t2">Repo transactions</h2>
+
+</div>
+
+				
+				
+				
+				
+				
+		
+		
+			</div>
+		
+
+		
+			<div class="col-md-7">
+				<div class="d-none d-md-block"><div class="h-s6"></div>
+</div>
+		
+				
+				<div class="h-s8"></div>
+
+				
+					<div class="a-text">
+	
+		<html>
+ <head></head>
+ <body>
+  <p>The SNB uses repo transactions to manage the Swiss franc liquidity in the financial system, thereby keeping the secured short-term Swiss franc money market rates close to the SNB policy rate. These are to be distinguished from foreign currency repo transactions, which the SNB uses to manage its foreign currency investments, as well as from repo transactions within the context of liquidity swap agreements to provide SNB counterparties with foreign currencies.</p>
+ </body>
+</html>
+	
+</div>
+
+				
+				
+
+				
+				
+
+				
+				
+				<div class="h-s8"></div>
+
+
+				
+				
+			</div>
+		</div>
+	</div>
+</div>
+
+
+	<div class="cms-text-teaser">
+	<div class="container-box">
+		<div class="h-bg-stripes-skyblue">
+			<div class="container">
+				<div class="row">
+					<div class="offset-sm-1 col-sm-10 col-md-8">
+						<div class="h-s9"></div>
+
+						
+							<h3 class="h-typo-t3">The SNB's repo transactions</h3>
+
+						
+						<div class="h-s5"></div>
+
+						
+							<p class="h-typo-body">Find further information here on the SNB's repo transactions as well as documentation on collateral eligible for SNB repos and on Swiss Reference Rates.</p>
+
+						
+						<div class="d-print-none">
+							<div class="h-s7"></div>
+
+						</div>
+						
+							<div class="cms-text-teaser__button-wrapper d-print-none">
+								<div class="cms-text-teaser__button">
+									
+										
+	<a class="a-button a-button--primary h-typo-button"
+		href="/en/the-snb/mandates-goals/monetary-policy/implementation/repo-payments-transactions"
+	>
+		
+		<span class="a-button__text">Learn more</span>
+		
+		
+			<span class="a-button__icon"><svg class="a-icon" aria-hidden="true" xmlns="http://www.w3.org/2000/svg">
+	
+	<use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="/.resources/frontend/assets/default/svg/icons~f5f2d2d5~2026-07-21-19-29-18-000~cache.svg#arrow-right"></use>
+</svg>
+</span>
+		
+	</a>
+
+
+									
+								</div>
+								
+							</div>
+						
+						<div class="h-s9"></div>
+
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+
+	<div class="cms-anchor d-print-none" id="bills">
+	
+</div>
+
+
+	
+<div class="cms-box h-bg-white">
+	<div class="container">
+		<div class="h-s8"></div>
+
+		
+			<div class="m-subject m-subject--t2">
+	<div class="m-subject__head">
+		
+		
+		<div class="m-subject__decorator m-subject__decorator--blue"></div>
+		
+			<div class="h-s6"></div>
+
+		
+	</div>
+	<h2 class="h-typo-t2">Issuance of SNB Bills</h2>
+
+</div>
+
+			
+				<div class="h-s7"></div>
+
+			
+		
+		
+		<div class="cms-box__container">
+			<div class="h-s6"></div>
+
+			
+				<div class="m-mixed-list">
+	
+		
+
+
+	
+	
+	<div class="m-mixed-list-list__subtitle">
+		<h4 class="h-typo-t4">Issue Conditions</h4>
+
+	</div>
+	<div class="h-s2"></div>
+
+
+
+
+
+
+
+
+	<a class="m-mixed-list-item h-typo-body" href="/dam/jcr:b8fb1449-5e42-4a12-8220-67c4cd5b670b/snb_bills_terms.en.pdf" >
+	<div class="h-s4"></div>
+
+
+	<div class="m-mixed-list-item__content">
+		
+			<span class="m-mixed-list-item__icon-left"><svg class="a-icon" aria-hidden="true" xmlns="http://www.w3.org/2000/svg">
+	
+	<use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="/.resources/frontend/assets/default/svg/icons~f5f2d2d5~2026-07-21-19-29-18-000~cache.svg#pdf"></use>
+</svg>
+</span>
+		
+
+		<div class="m-mixed-list-item__info">
+			
+			
+		</div>
+
+		<span class="m-mixed-list-item__text">SNB Bills - Issue Conditions</span>
+		<span class="m-mixed-list-item__icon-right"><svg class="a-icon" aria-hidden="true" xmlns="http://www.w3.org/2000/svg">
+	
+	<use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="/.resources/frontend/assets/default/svg/icons~f5f2d2d5~2026-07-21-19-29-18-000~cache.svg#download"></use>
+</svg>
+</span>
+	</div>
+	<div class="h-s3"></div>
+
+</a>
+
+
+	<a class="m-mixed-list-item h-typo-body" href="/dam/jcr:5ac28a0c-e479-497c-830c-706d74a03565/snb_bills_terms_vst.en.pdf" >
+	<div class="h-s4"></div>
+
+
+	<div class="m-mixed-list-item__content">
+		
+			<span class="m-mixed-list-item__icon-left"><svg class="a-icon" aria-hidden="true" xmlns="http://www.w3.org/2000/svg">
+	
+	<use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="/.resources/frontend/assets/default/svg/icons~f5f2d2d5~2026-07-21-19-29-18-000~cache.svg#pdf"></use>
+</svg>
+</span>
+		
+
+		<div class="m-mixed-list-item__info">
+			
+			
+		</div>
+
+		<span class="m-mixed-list-item__text">Treatment of withholding tax on SNB Bills</span>
+		<span class="m-mixed-list-item__icon-right"><svg class="a-icon" aria-hidden="true" xmlns="http://www.w3.org/2000/svg">
+	
+	<use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="/.resources/frontend/assets/default/svg/icons~f5f2d2d5~2026-07-21-19-29-18-000~cache.svg#download"></use>
+</svg>
+</span>
+	</div>
+	<div class="h-s3"></div>
+
+</a>
+
+
+	<a class="m-mixed-list-item h-typo-body" href="/dam/jcr:c05aeaa5-f32e-4c29-b98a-fcfa888493af/snb_bills_terms_vst_gultigbis.en.pdf" >
+	<div class="h-s4"></div>
+
+
+	<div class="m-mixed-list-item__content">
+		
+			<span class="m-mixed-list-item__icon-left"><svg class="a-icon" aria-hidden="true" xmlns="http://www.w3.org/2000/svg">
+	
+	<use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="/.resources/frontend/assets/default/svg/icons~f5f2d2d5~2026-07-21-19-29-18-000~cache.svg#pdf"></use>
+</svg>
+</span>
+		
+
+		<div class="m-mixed-list-item__info">
+			
+			
+		</div>
+
+		<span class="m-mixed-list-item__text">Treatment of withholding tax on SNB Bills (valid for issues until 1 May 2026)</span>
+		<span class="m-mixed-list-item__icon-right"><svg class="a-icon" aria-hidden="true" xmlns="http://www.w3.org/2000/svg">
+	
+	<use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="/.resources/frontend/assets/default/svg/icons~f5f2d2d5~2026-07-21-19-29-18-000~cache.svg#download"></use>
+</svg>
+</span>
+	</div>
+	<div class="h-s3"></div>
+
+</a>
+
+
+	<a class="m-mixed-list-item h-typo-body" href="mailto:bo.trading@snb.ch" >
+	<div class="h-s4"></div>
+
+
+	<div class="m-mixed-list-item__content">
+		
+
+		<div class="m-mixed-list-item__info">
+			
+			
+		</div>
+
+		<span class="m-mixed-list-item__text">The issue conditions of previous issues can be obtained from the issuer.</span>
+		<span class="m-mixed-list-item__icon-right"><svg class="a-icon" aria-hidden="true" xmlns="http://www.w3.org/2000/svg">
+	
+	<use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="/.resources/frontend/assets/default/svg/icons~f5f2d2d5~2026-07-21-19-29-18-000~cache.svg#mail"></use>
+</svg>
+</span>
+	</div>
+	<div class="h-s3"></div>
+
+</a>
+
+
+
+
+
+
+	
+
+	
+</div>
+
+			
+			<div class="h-s8"></div>
+
+		</div>
+		<div class="h-s9"></div>
+
+	</div>
+</div>
+
+
+	<div class="cms-richtext h-bg-white" data-g-name="Richtext">
+	<div class="container">
+		<div class="row">
+		
+			<div class="col-md-8 offset-md-2">
+		
+		
+		
+		
+				
+				<div class="h-s8"></div>
+
+				
+					<div class="m-subject m-subject--t3">
+	<div class="m-subject__head">
+		
+		
+		<div class="m-subject__decorator m-subject__decorator--blue"></div>
+		
+			<div class="h-s6"></div>
+
+		
+	</div>
+	<h3 class="h-typo-t3">Issuance calendar</h3>
+
+</div>
+
+				
+				
+				
+				
+				
+		
+		
+
+		
+				
+				<div class="h-s6"></div>
+
+				
+					<div class="a-text">
+	
+		<html>
+ <head></head>
+ <body>
+  <p>Generally, two auctions of SNB Bills are held every Thursday between 11.00 and 11.30. If a Thursday is not a bank business day, the two auctions will take place on the preceding bank business day.</p>
+  <p><strong>The terms of the auctioned SNB Bills follow a four-week rhythm:</strong></p>
+  <ul>
+   <li>Week one: 28-day and 84-day terms;</li>
+   <li>Week two: 28-day and 168-day terms;</li>
+   <li>Week three: 28-day and 84-day terms;</li>
+   <li>Week four: 28-day and 336-day terms.</li>
+  </ul>
+  <p>The issuance calendar is published on this page four weeks before the end of each quarter. Deviations and changes are possible.</p>
+  <p>The auction conditions are published on the day preceding the auction at 16.00 under the 'Announcements and conditions' heading. The 'SNB Bills - Issue Conditions' including sales restrictions apply.</p>
+ </body>
+</html>
+	
+</div>
+
+				
+				
+
+				
+				
+
+				
+				
+				<div class="h-s8"></div>
+
+
+				
+				
+			</div>
+		</div>
+	</div>
+</div>
+
+
+	
+<div class="cms-box h-bg-white">
+	<div class="container">
+		<div class="h-s8"></div>
+
+		
+		
+		<div class="cms-box__container">
+			<div class="h-s6"></div>
+
+			
+				<div class="m-mixed-list">
+	
+		
+
+
+	
+	
+	<div class="m-mixed-list-list__subtitle">
+		<h4 class="h-typo-t4">Announcements and conditions</h4>
+
+	</div>
+	<div class="h-s2"></div>
+
+
+
+
+
+
+
+
+	<a class="m-mixed-list-item h-typo-body" href="https://marketoperations.snb.ch/en/snb-bills#announcements" >
+	<div class="h-s4"></div>
+
+
+	<div class="m-mixed-list-item__content">
+		
+
+		<div class="m-mixed-list-item__info">
+			
+			
+		</div>
+
+		<span class="m-mixed-list-item__text">Announcements and conditions for new SNB Bills auctions (in Swiss francs)</span>
+		<span class="m-mixed-list-item__icon-right"><svg class="a-icon" aria-hidden="true" xmlns="http://www.w3.org/2000/svg">
+	
+	<use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="/.resources/frontend/assets/default/svg/icons~f5f2d2d5~2026-07-21-19-29-18-000~cache.svg#arrow-right"></use>
+</svg>
+</span>
+	</div>
+	<div class="h-s3"></div>
+
+</a>
+
+
+
+
+
+	
+	
+		<div class="h-s6"></div>
+
+	
+	<div class="m-mixed-list-list__subtitle">
+		<h4 class="h-typo-t4">Auction results</h4>
+
+	</div>
+	<div class="h-s2"></div>
+
+
+
+
+
+
+
+
+	<a class="m-mixed-list-item h-typo-body" href="/en/publications/financial-markets/snb_bills_res" >
+	<div class="h-s4"></div>
+
+
+	<div class="m-mixed-list-item__content">
+		
+
+		<div class="m-mixed-list-item__info">
+			
+			
+		</div>
+
+		<span class="m-mixed-list-item__text">Issued SNB Bills</span>
+		<span class="m-mixed-list-item__icon-right"><svg class="a-icon" aria-hidden="true" xmlns="http://www.w3.org/2000/svg">
+	
+	<use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="/.resources/frontend/assets/default/svg/icons~f5f2d2d5~2026-07-21-19-29-18-000~cache.svg#arrow-right"></use>
+</svg>
+</span>
+	</div>
+	<div class="h-s3"></div>
+
+</a>
+
+
+	<a class="m-mixed-list-item h-typo-body" href="https://data.snb.ch/en/topics/snb/list/snbbillshreg"  target="_blank" rel="noopener noreferrer">
+	<div class="h-s4"></div>
+
+
+	<div class="m-mixed-list-item__content">
+		
+
+		<div class="m-mixed-list-item__info">
+			
+			
+		</div>
+
+		<span class="m-mixed-list-item__text">Main register</span>
+		<span class="m-mixed-list-item__icon-right"><svg class="a-icon" aria-hidden="true" xmlns="http://www.w3.org/2000/svg">
+	
+	<use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="/.resources/frontend/assets/default/svg/icons~f5f2d2d5~2026-07-21-19-29-18-000~cache.svg#external-link"></use>
+</svg>
+</span>
+	</div>
+	<div class="h-s3"></div>
+
+</a>
+
+
+
+
+
+	
+	
+		<div class="h-s6"></div>
+
+	
+	<div class="m-mixed-list-list__subtitle">
+		<h4 class="h-typo-t4">Issuance calendar SNB Bills</h4>
+
+	</div>
+	<div class="h-s2"></div>
+
+
+
+
+
+
+
+
+	<a class="m-mixed-list-item h-typo-body" href="/en/publications/financial-markets/snb_bills_calendar" >
+	<div class="h-s4"></div>
+
+
+	<div class="m-mixed-list-item__content">
+		
+
+		<div class="m-mixed-list-item__info">
+			
+			
+		</div>
+
+		<span class="m-mixed-list-item__text">Issuance calendar SNB Bills</span>
+		<span class="m-mixed-list-item__icon-right"><svg class="a-icon" aria-hidden="true" xmlns="http://www.w3.org/2000/svg">
+	
+	<use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="/.resources/frontend/assets/default/svg/icons~f5f2d2d5~2026-07-21-19-29-18-000~cache.svg#arrow-right"></use>
+</svg>
+</span>
+	</div>
+	<div class="h-s3"></div>
+
+</a>
+
+
+
+
+
+	
+	
+		<div class="h-s6"></div>
+
+	
+	<div class="m-mixed-list-list__subtitle">
+		<h4 class="h-typo-t4">Archive of issued SNB Bills</h4>
+
+	</div>
+	<div class="h-s2"></div>
+
+
+
+
+
+
+
+
+	<a class="m-mixed-list-item h-typo-body" href="/dam/jcr:554a8f28-e75f-4976-b31e-6d15810191e1/snb_bills_res_2008-2011.n.pdf" >
+	<div class="h-s4"></div>
+
+
+	<div class="m-mixed-list-item__content">
+		
+			<span class="m-mixed-list-item__icon-left"><svg class="a-icon" aria-hidden="true" xmlns="http://www.w3.org/2000/svg">
+	
+	<use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="/.resources/frontend/assets/default/svg/icons~f5f2d2d5~2026-07-21-19-29-18-000~cache.svg#pdf"></use>
+</svg>
+</span>
+		
+
+		<div class="m-mixed-list-item__info">
+			
+			
+		</div>
+
+		<span class="m-mixed-list-item__text">Issued SNB Bills (2008-2011)</span>
+		<span class="m-mixed-list-item__icon-right"><svg class="a-icon" aria-hidden="true" xmlns="http://www.w3.org/2000/svg">
+	
+	<use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="/.resources/frontend/assets/default/svg/icons~f5f2d2d5~2026-07-21-19-29-18-000~cache.svg#download"></use>
+</svg>
+</span>
+	</div>
+	<div class="h-s3"></div>
+
+</a>
+
+
+
+
+
+
+	
+
+	
+</div>
+
+			
+			<div class="h-s8"></div>
+
+		</div>
+		<div class="h-s9"></div>
+
+	</div>
+</div>
+
+
+	<div class="cms-anchor d-print-none" id="devisenmarktinterventionen">
+	
+</div>
+
+
+	<div class="cms-richtext h-bg-white" data-g-name="Richtext">
+	<div class="container">
+		<div class="row">
+		
+		
+		
+			<div class="col-md-4">
+		
+		
+				
+				<div class="h-s8"></div>
+
+				
+					<div class="m-subject m-subject--t2">
+	<div class="m-subject__head">
+		
+		
+		<div class="m-subject__decorator m-subject__decorator--blue"></div>
+		
+			<div class="h-s6"></div>
+
+		
+	</div>
+	<h2 class="h-typo-t2">Foreign exchange market interventions</h2>
+
+</div>
+
+				
+				
+				
+				
+				
+		
+		
+			</div>
+		
+
+		
+			<div class="col-md-7">
+				<div class="d-none d-md-block"><div class="h-s6"></div>
+</div>
+		
+				
+				<div class="h-s8"></div>
+
+				
+					<div class="a-text">
+	
+		<html>
+ <head></head>
+ <body>
+  <p>In order to fulfil its monetary policy mandate, the SNB may purchase and sell foreign currency against Swiss francs on the financial markets. Foreign exchange transactions conducted by the SNB are usually spot or swap transactions. In foreign exchange swaps, the purchase (sale) of foreign currency at the current spot rate and the sale (purchase) of the foreign currency at a later date are simultaneously agreed. They serve to manage liquidity in Swiss francs. The SNB can conclude foreign exchange transactions with a wide range of domestic and foreign counterparties.</p>
+ </body>
+</html>
+	
+</div>
+
+				
+				
+
+				
+				
+
+				
+				
+				<div class="h-s8"></div>
+
+
+				
+				
+			</div>
+		</div>
+	</div>
+</div>
+
+
+	<div class="cms-anchor d-print-none" id="crf">
+	
+</div>
+
+
+	<div class="cms-richtext h-bg-white" data-g-name="Richtext">
+	<div class="container">
+		<div class="row">
+		
+		
+		
+			<div class="col-md-4">
+		
+		
+				
+				<div class="h-s8"></div>
+
+				
+					<div class="m-subject m-subject--t2">
+	<div class="m-subject__head">
+		
+		
+		<div class="m-subject__decorator m-subject__decorator--blue"></div>
+		
+			<div class="h-s6"></div>
+
+		
+	</div>
+	<h2 class="h-typo-t2">SNB COVID-19 refinancing facility (CRF)</h2>
+
+</div>
+
+				
+				
+				
+				
+				
+		
+		
+			</div>
+		
+
+		
+			<div class="col-md-7">
+				<div class="d-none d-md-block"><div class="h-s6"></div>
+</div>
+		
+				
+				<div class="h-s8"></div>
+
+				
+					<div class="a-text">
+	
+		<html>
+ <head></head>
+ <body>
+  <p>Since 26&nbsp;March 2020, the Swiss National Bank has made available a standing facility called the SNB COVID-19 refinancing facility (CRF) in order to cushion the economic impact of the coronavirus pandemic. Under this facility, liquidity can be drawn at the SNB policy rate as a covered loan against credit claims in accordance with the COVID-19 ordinance on joint and several guarantees (COVID-19-Solidarbürgschaftsverordnung) and against other collateral the SNB deems eligible.</p>
+ </body>
+</html>
+	
+</div>
+
+				
+				
+
+				
+				
+
+				
+				
+				<div class="h-s8"></div>
+
+
+				
+				
+			</div>
+		</div>
+	</div>
+</div>
+
+
+	<div class="cms-box h-bg-white">
+	<div class="container">
+		<div class="h-s8"></div>
+
+		
+		
+		<div class="row">
+			<div class="col-12  col-md-6 col-print-6">
+				<div class="cms-box__container">
+					<div class="h-s6"></div>
+
+					
+
+
+	<div class="m-mixed-list">
+	
+		
+
+
+	
+	
+	<div class="m-mixed-list-list__subtitle">
+		<h4 class="h-typo-t4">Instruction sheets and forms</h4>
+
+	</div>
+	<div class="h-s2"></div>
+
+
+
+
+
+
+
+
+	<a class="m-mixed-list-item h-typo-body" href="/dam/jcr:e58db64a-6d70-4d40-adbf-d43a68ee77d0/repo_mb29.en.pdf" >
+	<div class="h-s4"></div>
+
+
+	<div class="m-mixed-list-item__content">
+		
+			<span class="m-mixed-list-item__icon-left"><svg class="a-icon" aria-hidden="true" xmlns="http://www.w3.org/2000/svg">
+	
+	<use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="/.resources/frontend/assets/default/svg/icons~f5f2d2d5~2026-07-21-19-29-18-000~cache.svg#pdf"></use>
+</svg>
+</span>
+		
+
+		<div class="m-mixed-list-item__info">
+			
+			
+		</div>
+
+		<span class="m-mixed-list-item__text">Instruction sheet on SNB COVID-19 refinancing facility (CRF)</span>
+		<span class="m-mixed-list-item__icon-right"><svg class="a-icon" aria-hidden="true" xmlns="http://www.w3.org/2000/svg">
+	
+	<use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="/.resources/frontend/assets/default/svg/icons~f5f2d2d5~2026-07-21-19-29-18-000~cache.svg#download"></use>
+</svg>
+</span>
+	</div>
+	<div class="h-s3"></div>
+
+</a>
+
+
+	<a class="m-mixed-list-item h-typo-body" href="/dam/jcr:0e706ebe-3092-4cad-ae71-2b3d6e95f779/repo_mb29_anhang1.en.xlsx" >
+	<div class="h-s4"></div>
+
+
+	<div class="m-mixed-list-item__content">
+		
+			<span class="m-mixed-list-item__icon-left"><svg class="a-icon" aria-hidden="true" xmlns="http://www.w3.org/2000/svg">
+	
+	<use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="/.resources/frontend/assets/default/svg/icons~f5f2d2d5~2026-07-21-19-29-18-000~cache.svg#xls"></use>
+</svg>
+</span>
+		
+
+		<div class="m-mixed-list-item__info">
+			
+			
+		</div>
+
+		<span class="m-mixed-list-item__text">Form for submitting collateral and drawing on loan</span>
+		<span class="m-mixed-list-item__icon-right"><svg class="a-icon" aria-hidden="true" xmlns="http://www.w3.org/2000/svg">
+	
+	<use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="/.resources/frontend/assets/default/svg/icons~f5f2d2d5~2026-07-21-19-29-18-000~cache.svg#download"></use>
+</svg>
+</span>
+	</div>
+	<div class="h-s3"></div>
+
+</a>
+
+
+	<a class="m-mixed-list-item h-typo-body" href="/dam/jcr:b621397a-7e85-48c3-8f54-2a839868c411/repo_mb29_anhang2.en.pdf" >
+	<div class="h-s4"></div>
+
+
+	<div class="m-mixed-list-item__content">
+		
+			<span class="m-mixed-list-item__icon-left"><svg class="a-icon" aria-hidden="true" xmlns="http://www.w3.org/2000/svg">
+	
+	<use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="/.resources/frontend/assets/default/svg/icons~f5f2d2d5~2026-07-21-19-29-18-000~cache.svg#pdf"></use>
+</svg>
+</span>
+		
+
+		<div class="m-mixed-list-item__info">
+			
+			
+		</div>
+
+		<span class="m-mixed-list-item__text">Technical instructions annex to the instruction sheet on the SNB COVID-19 refinancing facility (CRF)</span>
+		<span class="m-mixed-list-item__icon-right"><svg class="a-icon" aria-hidden="true" xmlns="http://www.w3.org/2000/svg">
+	
+	<use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="/.resources/frontend/assets/default/svg/icons~f5f2d2d5~2026-07-21-19-29-18-000~cache.svg#download"></use>
+</svg>
+</span>
+	</div>
+	<div class="h-s3"></div>
+
+</a>
+
+
+	<a class="m-mixed-list-item h-typo-body" href="/dam/jcr:e3847b28-f72f-48bc-b80e-c45c7bd10ca2/repo_mb29_anhang3.en.pdf" >
+	<div class="h-s4"></div>
+
+
+	<div class="m-mixed-list-item__content">
+		
+			<span class="m-mixed-list-item__icon-left"><svg class="a-icon" aria-hidden="true" xmlns="http://www.w3.org/2000/svg">
+	
+	<use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="/.resources/frontend/assets/default/svg/icons~f5f2d2d5~2026-07-21-19-29-18-000~cache.svg#pdf"></use>
+</svg>
+</span>
+		
+
+		<div class="m-mixed-list-item__info">
+			
+			
+		</div>
+
+		<span class="m-mixed-list-item__text">Annex to instruction sheet on SNB COVID-19 refinancing facility (CRF): Surety and loan guarantee programmes eligible for the CRF</span>
+		<span class="m-mixed-list-item__icon-right"><svg class="a-icon" aria-hidden="true" xmlns="http://www.w3.org/2000/svg">
+	
+	<use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="/.resources/frontend/assets/default/svg/icons~f5f2d2d5~2026-07-21-19-29-18-000~cache.svg#download"></use>
+</svg>
+</span>
+	</div>
+	<div class="h-s3"></div>
+
+</a>
+
+
+
+
+
+
+	
+
+	
+</div>
+
+
+
+					<div class="h-s8"></div>
+
+				</div>
+			</div>
+			<div class="col-12 d-md-none d-print-none"><div class="h-s7"></div>
+</div>
+			<div class="col-12  col-md-6 col-print-6">
+				<div class="cms-box__container">
+					<div class="h-s6"></div>
+
+					
+
+
+	<div class="m-mixed-list">
+	
+		
+
+
+	
+	
+	<div class="m-mixed-list-list__subtitle">
+		<h4 class="h-typo-t4">Additional documents</h4>
+
+	</div>
+	<div class="h-s2"></div>
+
+
+
+
+
+
+
+
+	<a class="m-mixed-list-item h-typo-body" href="/dam/jcr:105b5159-ba09-402e-8f4e-81017f35a57e/repo_mb29_beispiel1.en.xlsx" >
+	<div class="h-s4"></div>
+
+
+	<div class="m-mixed-list-item__content">
+		
+			<span class="m-mixed-list-item__icon-left"><svg class="a-icon" aria-hidden="true" xmlns="http://www.w3.org/2000/svg">
+	
+	<use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="/.resources/frontend/assets/default/svg/icons~f5f2d2d5~2026-07-21-19-29-18-000~cache.svg#xls"></use>
+</svg>
+</span>
+		
+
+		<div class="m-mixed-list-item__info">
+			
+			
+		</div>
+
+		<span class="m-mixed-list-item__text">Form for submitting collateral and drawing on loan</span>
+		<span class="m-mixed-list-item__icon-right"><svg class="a-icon" aria-hidden="true" xmlns="http://www.w3.org/2000/svg">
+	
+	<use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="/.resources/frontend/assets/default/svg/icons~f5f2d2d5~2026-07-21-19-29-18-000~cache.svg#download"></use>
+</svg>
+</span>
+	</div>
+	<div class="h-s3"></div>
+
+</a>
+
+
+	<a class="m-mixed-list-item h-typo-body" href="/dam/jcr:bcc2bf42-bd64-45fe-abf6-a10226e48ad3/repo_mb29_beispiel2.de.pdf" >
+	<div class="h-s4"></div>
+
+
+	<div class="m-mixed-list-item__content">
+		
+			<span class="m-mixed-list-item__icon-left"><svg class="a-icon" aria-hidden="true" xmlns="http://www.w3.org/2000/svg">
+	
+	<use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="/.resources/frontend/assets/default/svg/icons~f5f2d2d5~2026-07-21-19-29-18-000~cache.svg#pdf"></use>
+</svg>
+</span>
+		
+
+		<div class="m-mixed-list-item__info">
+			
+			
+		</div>
+
+		<span class="m-mixed-list-item__text">Sample waiver of set-off (in German)</span>
+		<span class="m-mixed-list-item__icon-right"><svg class="a-icon" aria-hidden="true" xmlns="http://www.w3.org/2000/svg">
+	
+	<use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="/.resources/frontend/assets/default/svg/icons~f5f2d2d5~2026-07-21-19-29-18-000~cache.svg#download"></use>
+</svg>
+</span>
+	</div>
+	<div class="h-s3"></div>
+
+</a>
+
+
+
+
+
+
+	
+
+	
+</div>
+
+
+
+					<div class="h-s8"></div>
+
+				</div>
+			</div>
+		</div>
+		<div class="h-s9"></div>
+
+	</div>
+</div>
+
+
+	
+<div class="cms-box h-bg-curves-white">
+	<div class="container">
+		<div class="h-s8"></div>
+
+		
+			<div class="m-subject m-subject--t2">
+	<div class="m-subject__head">
+		
+		
+		<div class="m-subject__decorator m-subject__decorator--blue"></div>
+		
+			<div class="h-s6"></div>
+
+		
+	</div>
+	<h2 class="h-typo-t2">Communication on the CRF</h2>
+
+</div>
+
+			
+				<div class="h-s7"></div>
+
+			
+		
+		
+		<div class="cms-box__container">
+			<div class="h-s6"></div>
+
+			
+				<div class="m-mixed-list">
+	
+		
+
+
+	
+
+
+
+
+
+
+	<a class="m-mixed-list-item h-typo-body" href="/en/publications/communication/press-releases/2020/pre_20200511" >
+	<div class="h-s4"></div>
+
+
+	<div class="m-mixed-list-item__content">
+		
+
+		<div class="m-mixed-list-item__info">
+			
+			
+		</div>
+
+		<span class="m-mixed-list-item__text">SNB COVID-19 refinancing facility expanded to include cantonal loan guarantees as well as joint and several loan guarantees for startups</span>
+		<span class="m-mixed-list-item__icon-right"><svg class="a-icon" aria-hidden="true" xmlns="http://www.w3.org/2000/svg">
+	
+	<use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="/.resources/frontend/assets/default/svg/icons~f5f2d2d5~2026-07-21-19-29-18-000~cache.svg#arrow-right"></use>
+</svg>
+</span>
+	</div>
+	<div class="h-s3"></div>
+
+</a>
+
+
+	<a class="m-mixed-list-item h-typo-body" href="/en/publications/communication/press-releases/2020/pre_20200325" >
+	<div class="h-s4"></div>
+
+
+	<div class="m-mixed-list-item__content">
+		
+
+		<div class="m-mixed-list-item__info">
+			
+			
+		</div>
+
+		<span class="m-mixed-list-item__text">Swiss National Bank sets up SNB COVID-19 refinancing facility and requests deactivation of countercyclical capital buffer</span>
+		<span class="m-mixed-list-item__icon-right"><svg class="a-icon" aria-hidden="true" xmlns="http://www.w3.org/2000/svg">
+	
+	<use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="/.resources/frontend/assets/default/svg/icons~f5f2d2d5~2026-07-21-19-29-18-000~cache.svg#arrow-right"></use>
+</svg>
+</span>
+	</div>
+	<div class="h-s3"></div>
+
+</a>
+
+
+	<a class="m-mixed-list-item h-typo-body" href="/en/publications/communication/speeches/2020/ref_20200325_tjn" >
+	<div class="h-s4"></div>
+
+
+	<div class="m-mixed-list-item__content">
+		
+
+		<div class="m-mixed-list-item__info">
+			
+			
+		</div>
+
+		<span class="m-mixed-list-item__text">Introductory remarks</span>
+		<span class="m-mixed-list-item__icon-right"><svg class="a-icon" aria-hidden="true" xmlns="http://www.w3.org/2000/svg">
+	
+	<use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="/.resources/frontend/assets/default/svg/icons~f5f2d2d5~2026-07-21-19-29-18-000~cache.svg#arrow-right"></use>
+</svg>
+</span>
+	</div>
+	<div class="h-s3"></div>
+
+</a>
+
+
+
+
+
+
+	
+
+	
+		<div class="h-s8"></div>
+
+		<div class="m-mixed-list__link">
+			
+<a class="a-link" href="/en/news-publications/media-releases" >
+	<span class="a-link__text">
+		<span class="a-link__text-inline">All press releases</span><span
+			class="a-link__icon">&#65279;<span
+				class="a-link__icon-box"><svg
+					class="a-link__arrow" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20">
+						<path fill="currentColor" d="M14 4.69L18.14 9H0v1h18.13L14 14.31l.72.69L20 9.5 14.72 4l-.72.69z"/>
+					</svg>
+				</span>
+			</span>
+	</span>
+</a>
+
+		</div>
+	
+</div>
+
+			
+			<div class="h-s8"></div>
+
+		</div>
+		<div class="h-s9"></div>
+
+	</div>
+</div>
+
+
+	<div class="cms-anchor d-print-none" id="fremdwaehrungen">
+	
+</div>
+
+
+	<div class="cms-richtext h-bg-white" data-g-name="Richtext">
+	<div class="container">
+		<div class="row">
+		
+		
+		
+			<div class="col-md-4">
+		
+		
+				
+				<div class="h-s8"></div>
+
+				
+					<div class="m-subject m-subject--t2">
+	<div class="m-subject__head">
+		
+		
+		<div class="m-subject__decorator m-subject__decorator--blue"></div>
+		
+			<div class="h-s6"></div>
+
+		
+	</div>
+	<h2 class="h-typo-t2">Foreign exchange operations</h2>
+
+</div>
+
+				
+				
+				
+				
+				
+		
+		
+			</div>
+		
+
+		
+			<div class="col-md-7">
+				<div class="d-none d-md-block"><div class="h-s6"></div>
+</div>
+		
+				
+				<div class="h-s8"></div>
+
+				
+					<div class="a-text">
+	
+		<html>
+ <head></head>
+ <body>
+  <p>Within the framework of various swap arrangements, the SNB can, where necessary, provide liquidity in foreign currencies, thus serving as a liquidity backstop. While such measures have no effect on the supply of money in Swiss francs, they enable the SNB's counterparties to gain easier access to liquidity in foreign currencies.</p>
+ </body>
+</html>
+	
+</div>
+
+				
+				
+
+				
+				
+
+				
+				
+				<div class="h-s8"></div>
+
+
+				
+				
+			</div>
+		</div>
+	</div>
+</div>
+
+
+	<div class="cms-text-teaser">
+	<div class="container-box">
+		<div class="h-bg-stripes-skyblue">
+			<div class="container">
+				<div class="row">
+					<div class="offset-sm-1 col-sm-10 col-md-8">
+						<div class="h-s9"></div>
+
+						
+							<h3 class="h-typo-t3">Foreign exchange operations</h3>
+
+						
+						<div class="h-s5"></div>
+
+						
+							<p class="h-typo-body">Everything about the SNB's foreign exchange operations.</p>
+
+						
+						<div class="d-print-none">
+							<div class="h-s7"></div>
+
+						</div>
+						
+							<div class="cms-text-teaser__button-wrapper d-print-none">
+								<div class="cms-text-teaser__button">
+									
+										
+	<a class="a-button a-button--primary h-typo-button"
+		href="/en/the-snb/mandates-goals/monetary-policy/foreign-exchange-operations"
+	>
+		
+		<span class="a-button__text">Learn more</span>
+		
+		
+			<span class="a-button__icon"><svg class="a-icon" aria-hidden="true" xmlns="http://www.w3.org/2000/svg">
+	
+	<use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="/.resources/frontend/assets/default/svg/icons~f5f2d2d5~2026-07-21-19-29-18-000~cache.svg#arrow-right"></use>
+</svg>
+</span>
+		
+	</a>
+
+
+									
+								</div>
+								
+							</div>
+						
+						<div class="h-s9"></div>
+
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+
+	<div class="cms-anchor d-print-none" id="fzv">
+	
+</div>
+
+
+	<div class="cms-richtext h-bg-white" data-g-name="Richtext">
+	<div class="container">
+		<div class="row">
+		
+		
+		
+			<div class="col-md-4">
+		
+		
+				
+				<div class="h-s8"></div>
+
+				
+					<div class="m-subject m-subject--t2">
+	<div class="m-subject__head">
+		
+		
+		<div class="m-subject__decorator m-subject__decorator--blue"></div>
+		
+			<div class="h-s6"></div>
+
+		
+	</div>
+	<h2 class="h-typo-t2">Payment System Support Facility (PSSF)</h2>
+
+</div>
+
+				
+				
+				
+				
+				
+		
+		
+			</div>
+		
+
+		
+			<div class="col-md-7">
+				<div class="d-none d-md-block"><div class="h-s6"></div>
+</div>
+		
+				
+				<div class="h-s8"></div>
+
+				
+					<div class="a-text">
+	
+		<html>
+ <head></head>
+ <body>
+  <p>The Payment System Support Facility (PSSF) will facilitate the settlement of payment transactions and support participants in the Swiss Interbank Clearing (SIC) payment system in bridging unexpected, short-term liquidity bottlenecks. Counterparties of the Swiss National Bank will newly be able to draw liquidity independently on a secured basis at any time.</p>
+ </body>
+</html>
+	
+</div>
+
+				
+				
+
+				
+				
+
+				
+				
+				<div class="h-s8"></div>
+
+
+				
+				
+			</div>
+		</div>
+	</div>
+</div>
+
+
+	<div class="cms-text-teaser">
+	<div class="container-box">
+		<div class="h-bg-stripes-skyblue">
+			<div class="container">
+				<div class="row">
+					<div class="offset-sm-1 col-sm-10 col-md-8">
+						<div class="h-s9"></div>
+
+						
+							<h3 class="h-typo-t3">Payment System Support Facility (PSSF)</h3>
+
+						
+						<div class="h-s5"></div>
+
+						
+						<div class="d-print-none">
+							<div class="h-s7"></div>
+
+						</div>
+						
+							<div class="cms-text-teaser__button-wrapper d-print-none">
+								<div class="cms-text-teaser__button">
+									
+										
+	<a class="a-button a-button--primary h-typo-button"
+		href="/en/the-snb/mandates-goals/monetary-policy/implementation/payment-system-support-facility"
+	>
+		
+		<span class="a-button__text">Learn more</span>
+		
+		
+			<span class="a-button__icon"><svg class="a-icon" aria-hidden="true" xmlns="http://www.w3.org/2000/svg">
+	
+	<use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="/.resources/frontend/assets/default/svg/icons~f5f2d2d5~2026-07-21-19-29-18-000~cache.svg#arrow-right"></use>
+</svg>
+</span>
+		
+	</a>
+
+
+									
+								</div>
+								
+							</div>
+						
+						<div class="h-s9"></div>
+
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+
+	<div class="cms-anchor d-print-none" id="testoperationen">
+	
+</div>
+
+
+	<div class="cms-richtext h-bg-white" data-g-name="Richtext">
+	<div class="container">
+		<div class="row">
+		
+		
+			<div class="col-md-10 col-lg-8">
+		
+		
+		
+				
+				<div class="h-s8"></div>
+
+				
+					<div class="m-subject m-subject--t2">
+	<div class="m-subject__head">
+		
+		
+		<div class="m-subject__decorator m-subject__decorator--blue"></div>
+		
+			<div class="h-s6"></div>
+
+		
+	</div>
+	<h2 class="h-typo-t2">Operational readiness </h2>
+
+</div>
+
+				
+				
+				
+				
+				
+		
+		
+
+		
+				
+				<div class="h-s8"></div>
+
+				
+					<div class="a-text">
+	
+		<html>
+ <head></head>
+ <body>
+  <p>The Swiss National Bank (SNB) tests its open market operations and standing facilities using a standardised framework. The aim of this framework is to ensure the operational readiness of the SNB, market participants and infrastructure providers. In addition to the aforementioned operations, the SNB is available to its counterparties for tests in the SIX CO:RE Membertest environment.</p>
+  <p>The SNB's Money Market team is available to assist with any queries, or if you require further information, either by email or phone (moneymarket@snb.ch/ +41 58 631 77 00).</p>
+ </body>
+</html>
+	
+</div>
+
+				
+				
+
+				
+				
+
+				
+				
+				<div class="h-s8"></div>
+
+
+				
+				
+			</div>
+		</div>
+	</div>
+</div>
+
+
+	<div class="cms-richtext h-bg-white" data-g-name="Richtext">
+	<div class="container">
+		<div class="row">
+		
+			<div class="col-md-8 offset-md-2">
+		
+		
+		
+		
+		
+
+		
+				
+				<div class="h-s6"></div>
+
+				
+					<div class="a-text">
+	
+		<html>
+ <head></head>
+ <body>
+  <h3>Intraday facility</h3>
+  <p>During the day, the SNB provides its counterparties with interest-free liquidity (intraday facility) through repo transactions to facilitate the settlement of payment transactions.</p>
+  <p>The SNB expects its counterparties to draw liquidity in a small-value exercise with a minimum cash amount of CHF&nbsp;1,000,000 on SIX Repo Ltd's trading platform (CO:RE) <strong>once a year</strong> using one of the following channels:</p>
+  <ul>
+   <li>
+    <p>either between 07.30 and 16.45&nbsp;by responding to the SNB quote for the <em>INTRADAY SNB (CH0008257112) </em>contract on CO:RE with a Buy Order;</p></li>
+   <li>
+    <p>or between 07.30 and 17.55&nbsp;by responding to the SNB quote for the <em>TOM INTRADAY SNB (CH0008257120)</em> contract on CO:RE with a Buy Order.</p></li>
+  </ul>
+ </body>
+</html>
+	
+</div>
+
+				
+				
+
+				
+				
+
+				
+				
+					<div class="h-s5"></div>
+
+					
+						
+<a class="a-link" href="/dam/jcr:4eb883e6-46fe-4a2a-b874-6f9290dc830a/repo_mb24.en.pdf" >
+	<span class="a-link__text">
+		<span class="a-link__text-inline">Instruction sheet on the intraday facility</span><span
+			class="a-link__icon">&#65279;<span
+				class="a-link__icon-box"><svg
+					class="a-link__arrow" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20">
+						<path fill="currentColor" d="M14 4.69L18.14 9H0v1h18.13L14 14.31l.72.69L20 9.5 14.72 4l-.72.69z"/>
+					</svg>
+				</span>
+			</span>
+	</span>
+</a>
+
+					
+				
+				<div class="h-s8"></div>
+
+
+				
+				
+			</div>
+		</div>
+	</div>
+</div>
+
+
+	<div class="cms-richtext h-bg-white" data-g-name="Richtext">
+	<div class="container">
+		<div class="row">
+		
+			<div class="col-md-8 offset-md-2">
+		
+		
+		
+		
+		
+
+		
+				
+				<div class="h-s6"></div>
+
+				
+					<div class="a-text">
+	
+		<html>
+ <head></head>
+ <body>
+  <h3>Liquidity-shortage financing facility</h3>
+  <p>As part of its standing facilities, the SNB provides its counterparties with the liquidity-shortage financing facility (LSFF) to bridge unexpected, short-term liquidity bottlenecks.</p>
+  <p>The SNB expects counterparties that have been granted an LSFF limit to draw liquidity in a small-value exercise with a minimum cash amount of CHF&nbsp;50,000 on SIX Repo Ltd's trading platform (CO:RE) <strong>once a year</strong> using both of the following channels:</p>
+  <ul>
+   <li>
+    <p>between 08.00 and 18.00 via bilateral repo order using the <em>ON SNB SPECIAL RATE (CH0008257153) </em>contract at the applicable special rate;</p></li>
+   <li>
+    <p>between 18.00 and 18.15 by submitting a bid during the regular daily auction.</p></li>
+  </ul>
+ </body>
+</html>
+	
+</div>
+
+				
+				
+
+				
+				
+
+				
+				
+					<div class="h-s5"></div>
+
+					
+						
+<a class="a-link" href="/dam/jcr:40e4a264-8d44-4f4a-856c-f50c4f9e7a3f/repo_mb25.en.pdf" >
+	<span class="a-link__text">
+		<span class="a-link__text-inline">Instruction sheet on the liquidity-shortage financing facility (special-rate repo transactions)</span><span
+			class="a-link__icon">&#65279;<span
+				class="a-link__icon-box"><svg
+					class="a-link__arrow" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20">
+						<path fill="currentColor" d="M14 4.69L18.14 9H0v1h18.13L14 14.31l.72.69L20 9.5 14.72 4l-.72.69z"/>
+					</svg>
+				</span>
+			</span>
+	</span>
+</a>
+
+					
+				
+				<div class="h-s8"></div>
+
+
+				
+				
+			</div>
+		</div>
+	</div>
+</div>
+
+
+	<div class="cms-richtext h-bg-white" data-g-name="Richtext">
+	<div class="container">
+		<div class="row">
+		
+			<div class="col-md-8 offset-md-2">
+		
+		
+		
+		
+		
+
+		
+				
+				<div class="h-s6"></div>
+
+				
+					<div class="a-text">
+	
+		<html>
+ <head></head>
+ <body>
+  <h3>SNB Bills</h3>
+  <p>The Swiss National Bank issues SNB Bills according to the issuance calendar. To test emergency procedures, the SNB occasionally conducts additional SNB Bills auctions. The SNB encourages its counterparties to participate in these additional operations.</p>
+  <p>These auctions are included in the regular SNB Bills issuance calendar and labelled as such. As usual, the auction conditions are announced via the SNB website one day prior to the auction and, in addition, 30 minutes prior to the auction start via the electronic market information services. The SNB's main contact number for money market transactions (+41 58 631 77 00) is to be used for submitting bids. Settlement takes place via the usual channels using the SIX SIS infrastructure.</p>
+  <p>Further details regarding the auction procedure, the emergency procedure and the criteria for participation can be found in the instruction sheet on open market operations and the issue conditions.</p>
+ </body>
+</html>
+	
+</div>
+
+				
+				
+
+				
+				
+
+				
+				
+				<div class="h-s8"></div>
+
+
+				
+				
+					<div class="cms-richtext__box-container">
+						<div class="h-s6"></div>
+
+						
+							<a class="m-mixed-list-item h-typo-body" href="https://marketoperations.snb.ch/en/snb-bills#announcements" >
+	<div class="h-s4"></div>
+
+
+	<div class="m-mixed-list-item__content">
+		
+
+		<div class="m-mixed-list-item__info">
+			
+			
+		</div>
+
+		<span class="m-mixed-list-item__text">Announcements and conditions for new SNB Bills auctions (in Swiss francs)</span>
+		<span class="m-mixed-list-item__icon-right"><svg class="a-icon" aria-hidden="true" xmlns="http://www.w3.org/2000/svg">
+	
+	<use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="/.resources/frontend/assets/default/svg/icons~f5f2d2d5~2026-07-21-19-29-18-000~cache.svg#arrow-right"></use>
+</svg>
+</span>
+	</div>
+	<div class="h-s3"></div>
+
+</a>
+
+						
+							<a class="m-mixed-list-item h-typo-body" href="/en/publications/financial-markets/snb_bills_calendar" >
+	<div class="h-s4"></div>
+
+
+	<div class="m-mixed-list-item__content">
+		
+
+		<div class="m-mixed-list-item__info">
+			
+			
+		</div>
+
+		<span class="m-mixed-list-item__text">Issuance calendar SNB Bills</span>
+		<span class="m-mixed-list-item__icon-right"><svg class="a-icon" aria-hidden="true" xmlns="http://www.w3.org/2000/svg">
+	
+	<use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="/.resources/frontend/assets/default/svg/icons~f5f2d2d5~2026-07-21-19-29-18-000~cache.svg#arrow-right"></use>
+</svg>
+</span>
+	</div>
+	<div class="h-s3"></div>
+
+</a>
+
+						
+							<a class="m-mixed-list-item h-typo-body" href="/dam/jcr:d8cb5379-325c-4668-ad30-d41958cb5467/repo_mb23.en.pdf" >
+	<div class="h-s4"></div>
+
+
+	<div class="m-mixed-list-item__content">
+		
+			<span class="m-mixed-list-item__icon-left"><svg class="a-icon" aria-hidden="true" xmlns="http://www.w3.org/2000/svg">
+	
+	<use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="/.resources/frontend/assets/default/svg/icons~f5f2d2d5~2026-07-21-19-29-18-000~cache.svg#pdf"></use>
+</svg>
+</span>
+		
+
+		<div class="m-mixed-list-item__info">
+			
+			
+		</div>
+
+		<span class="m-mixed-list-item__text">Instruction sheet on open market operations</span>
+		<span class="m-mixed-list-item__icon-right"><svg class="a-icon" aria-hidden="true" xmlns="http://www.w3.org/2000/svg">
+	
+	<use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="/.resources/frontend/assets/default/svg/icons~f5f2d2d5~2026-07-21-19-29-18-000~cache.svg#download"></use>
+</svg>
+</span>
+	</div>
+	<div class="h-s3"></div>
+
+</a>
+
+						
+							<a class="m-mixed-list-item h-typo-body" href="/dam/jcr:b8fb1449-5e42-4a12-8220-67c4cd5b670b/snb_bills_terms.en.pdf" >
+	<div class="h-s4"></div>
+
+
+	<div class="m-mixed-list-item__content">
+		
+			<span class="m-mixed-list-item__icon-left"><svg class="a-icon" aria-hidden="true" xmlns="http://www.w3.org/2000/svg">
+	
+	<use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="/.resources/frontend/assets/default/svg/icons~f5f2d2d5~2026-07-21-19-29-18-000~cache.svg#pdf"></use>
+</svg>
+</span>
+		
+
+		<div class="m-mixed-list-item__info">
+			
+			
+		</div>
+
+		<span class="m-mixed-list-item__text">SNB Bills - Issue Conditions</span>
+		<span class="m-mixed-list-item__icon-right"><svg class="a-icon" aria-hidden="true" xmlns="http://www.w3.org/2000/svg">
+	
+	<use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="/.resources/frontend/assets/default/svg/icons~f5f2d2d5~2026-07-21-19-29-18-000~cache.svg#download"></use>
+</svg>
+</span>
+	</div>
+	<div class="h-s3"></div>
+
+</a>
+
+						
+						<div class="h-s8"></div>
+
+					</div>
+					<div class="h-s8"></div>
+
+				
+			</div>
+		</div>
+	</div>
+</div>
+
+
+	<div class="cms-richtext h-bg-white" data-g-name="Richtext">
+	<div class="container">
+		<div class="row">
+		
+			<div class="col-md-8 offset-md-2">
+		
+		
+		
+		
+		
+
+		
+				
+				<div class="h-s6"></div>
+
+				
+					<div class="a-text">
+	
+		<html>
+ <head></head>
+ <body>
+  <h3>CHF repo operations</h3>
+  <p>The SNB conducts CHF repo auctions according to its repo auction calendar. To test emergency procedures, the SNB occasionally conducts additional CHF repo auctions. The SNB encourages its counterparties to participate in these additional operations.</p>
+  <p>These auctions are included in the regular CHF repo auction calendar and labelled as such. The auction conditions are announced as per the normal process, i.e. 30 minutes prior to the auction start via the electronic market information services. The SNB's main contact number for money market transactions (+41 58 631 77 00) is to be used for submitting bids. Settlement takes place via the usual channels using the SIX SIS infrastructure.</p>
+  <p>The special conditions set out in the following table apply:</p>
+ </body>
+</html>
+	
+</div>
+
+				
+				
+
+				
+				
+
+				
+				
+				<div class="h-s8"></div>
+
+
+				
+				
+			</div>
+		</div>
+	</div>
+</div>
+
+
+	<div class="cms-table cms-table--nowrap h-bg-white" data-row-limit="">
+	<div class="container">
+		<div class="h-s9"></div>
+
+		
+		
+		
+
+		
+
+		<div class="row">
+			<div class="col-12">
+				<div class="cms-table__wrap h-link">
+					
+						
+							<table>
+							
+								<thead>
+								
+	<tr><th class="align-left"></th>
+<th class="align-left"></th>
+<th class="align-left"></th>
+<th class="align-left"></th>
+<th class="align-left"></th>
+<th class="align-left"></th>
+<th class="align-left"></th>
+<th class="align-left"></th>
+<th class="align-left"></th>
+<th class="align-left"></th>
+<th class="align-left"></th>
+<th class="align-left"></th>
+</tr>
+
+
+								</thead>
+							
+							
+								<tbody>
+								
+	<tr><td class="align-left"></td>
+<td class="align-left"></td>
+<td class="align-left"></td>
+<td class="align-left"></td>
+<td class="align-left"></td>
+<td class="align-left"><strong>Auction dates</strong></td>
+<td class="align-left">Monday, 2 November 2026 and Monday, 9 November 2026</td>
+<td class="align-left"></td>
+<td class="align-left"></td>
+<td class="align-left"></td>
+<td class="align-left"></td>
+<td class="align-left"></td>
+</tr>
+
+	<tr><td class="align-left"></td>
+<td class="align-left"></td>
+<td class="align-left"></td>
+<td class="align-left"></td>
+<td class="align-left"></td>
+<td class="align-left"><strong>Auction time</strong></td>
+<td class="align-left">10.30-10.40 am</td>
+<td class="align-left"></td>
+<td class="align-left"></td>
+<td class="align-left"></td>
+<td class="align-left"></td>
+<td class="align-left"></td>
+</tr>
+
+	<tr><td class="align-left"></td>
+<td class="align-left"></td>
+<td class="align-left"></td>
+<td class="align-left"></td>
+<td class="align-left"></td>
+<td class="align-left"><strong>Settlement</strong></td>
+<td class="align-left">T+2</td>
+<td class="align-left"></td>
+<td class="align-left"></td>
+<td class="align-left"></td>
+<td class="align-left"></td>
+<td class="align-left"></td>
+</tr>
+
+	<tr><td class="align-left"></td>
+<td class="align-left"></td>
+<td class="align-left"></td>
+<td class="align-left"></td>
+<td class="align-left"></td>
+<td class="align-left"><strong>Term</strong></td>
+<td class="align-left">2 days</td>
+<td class="align-left"></td>
+<td class="align-left"></td>
+<td class="align-left"></td>
+<td class="align-left"></td>
+<td class="align-left"></td>
+</tr>
+
+	<tr><td class="align-left"></td>
+<td class="align-left"></td>
+<td class="align-left"></td>
+<td class="align-left"></td>
+<td class="align-left"></td>
+<td class="align-left"><strong>Auction type</strong></td>
+<td class="align-left">Fixed rate tender</td>
+<td class="align-left"></td>
+<td class="align-left"></td>
+<td class="align-left"></td>
+<td class="align-left"></td>
+<td class="align-left"></td>
+</tr>
+
+	<tr><td class="align-left"></td>
+<td class="align-left"></td>
+<td class="align-left"></td>
+<td class="align-left"></td>
+<td class="align-left"></td>
+<td class="align-left"><strong>Allotment method</strong></td>
+<td class="align-left">Full allotment</td>
+<td class="align-left"></td>
+<td class="align-left"></td>
+<td class="align-left"></td>
+<td class="align-left"></td>
+<td class="align-left"></td>
+</tr>
+
+	<tr><td class="align-left"></td>
+<td class="align-left"></td>
+<td class="align-left"></td>
+<td class="align-left"></td>
+<td class="align-left"></td>
+<td class="align-left"><strong>Min. bid amount</strong></td>
+<td class="align-left">CHF 1 million</td>
+<td class="align-left"></td>
+<td class="align-left"></td>
+<td class="align-left"></td>
+<td class="align-left"></td>
+<td class="align-left"></td>
+</tr>
+
+	<tr><td class="align-left"></td>
+<td class="align-left"></td>
+<td class="align-left"></td>
+<td class="align-left"></td>
+<td class="align-left"></td>
+<td class="align-left"><strong>Max. bid amount</strong></td>
+<td class="align-left">CHF 1 million</td>
+<td class="align-left"></td>
+<td class="align-left"></td>
+<td class="align-left"></td>
+<td class="align-left"></td>
+<td class="align-left"></td>
+</tr>
+
+	<tr><td class="align-left"></td>
+<td class="align-left"></td>
+<td class="align-left"></td>
+<td class="align-left"></td>
+<td class="align-left"></td>
+<td class="align-left"><strong>Bids per counterparty</strong></td>
+<td class="align-left">1 bid</td>
+<td class="align-left"></td>
+<td class="align-left"></td>
+<td class="align-left"></td>
+<td class="align-left"></td>
+<td class="align-left"></td>
+</tr>
+
+	<tr><th class="align-left"></th>
+<th class="align-left"></th>
+<th class="align-left"></th>
+<th class="align-left"></th>
+<th class="align-left"></th>
+<th class="align-left"></th>
+<th class="align-left"></th>
+<th class="align-left"></th>
+<th class="align-left"></th>
+<th class="align-left"></th>
+<th class="align-left"></th>
+<th class="align-left"></th>
+</tr>
+
+
+								</tbody>
+							
+							</table>
+						
+					
+				</div>
+				
+			</div>
+		</div>
+		<div class="h-s9"></div>
+
+	</div>
+</div>
+
+
+	<div class="cms-richtext h-bg-white" data-g-name="Richtext">
+	<div class="container">
+		<div class="row">
+		
+			<div class="col-md-8 offset-md-2">
+		
+		
+		
+		
+		
+
+		
+				
+				<div class="h-s6"></div>
+
+				
+					<div class="a-text">
+	
+		<html>
+ <head></head>
+ <body>
+  <p>Further details regarding the auction procedure, the emergency procedure and the criteria for participation can be found in the instruction sheet on open market operations.&nbsp;</p>
+ </body>
+</html>
+	
+</div>
+
+				
+				
+
+				
+				
+
+				
+				
+				<div class="h-s8"></div>
+
+
+				
+				
+					<div class="cms-richtext__box-container">
+						<div class="h-s6"></div>
+
+						
+							<a class="m-mixed-list-item h-typo-body" href="/en/publications/financial-markets/repo_schedule" >
+	<div class="h-s4"></div>
+
+
+	<div class="m-mixed-list-item__content">
+		
+
+		<div class="m-mixed-list-item__info">
+			
+			
+		</div>
+
+		<span class="m-mixed-list-item__text">Calendar of repo auctions (in CHF)</span>
+		<span class="m-mixed-list-item__icon-right"><svg class="a-icon" aria-hidden="true" xmlns="http://www.w3.org/2000/svg">
+	
+	<use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="/.resources/frontend/assets/default/svg/icons~f5f2d2d5~2026-07-21-19-29-18-000~cache.svg#arrow-right"></use>
+</svg>
+</span>
+	</div>
+	<div class="h-s3"></div>
+
+</a>
+
+						
+							<a class="m-mixed-list-item h-typo-body" href="/dam/jcr:d8cb5379-325c-4668-ad30-d41958cb5467/repo_mb23.en.pdf" >
+	<div class="h-s4"></div>
+
+
+	<div class="m-mixed-list-item__content">
+		
+			<span class="m-mixed-list-item__icon-left"><svg class="a-icon" aria-hidden="true" xmlns="http://www.w3.org/2000/svg">
+	
+	<use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="/.resources/frontend/assets/default/svg/icons~f5f2d2d5~2026-07-21-19-29-18-000~cache.svg#pdf"></use>
+</svg>
+</span>
+		
+
+		<div class="m-mixed-list-item__info">
+			
+			
+		</div>
+
+		<span class="m-mixed-list-item__text">Instruction sheet on open market operations</span>
+		<span class="m-mixed-list-item__icon-right"><svg class="a-icon" aria-hidden="true" xmlns="http://www.w3.org/2000/svg">
+	
+	<use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="/.resources/frontend/assets/default/svg/icons~f5f2d2d5~2026-07-21-19-29-18-000~cache.svg#download"></use>
+</svg>
+</span>
+	</div>
+	<div class="h-s3"></div>
+
+</a>
+
+						
+						<div class="h-s8"></div>
+
+					</div>
+					<div class="h-s8"></div>
+
+				
+			</div>
+		</div>
+	</div>
+</div>
+
+
+	<div class="cms-accordion h-bg-marine">
+	<div class="container">
+		
+			<div class="h-s9"></div>
+
+		
+		
+			
+				<div class="cms-accordion__head">
+					<div class="m-subject m-subject--t2 m-subject--inv">
+	<div class="m-subject__head">
+		
+		
+		<div class="m-subject__decorator m-subject__decorator--lime"></div>
+		
+			<div class="h-s6"></div>
+
+		
+	</div>
+	<h2 class="h-typo-t2">Questions and answers on monetary policy implementation</h2>
+
+</div>
+
+					
+						<div class="cms-accordion__head-link">
+							
+<a class="a-link a-link--inv" href="/en/services-events/digital-services/faq-overview/qas_gp_ums" >
+	<span class="a-link__text">
+		<span class="a-link__text-inline">Q&amp;A</span><span
+			class="a-link__icon">&#65279;<span
+				class="a-link__icon-box"><svg
+					class="a-link__arrow" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20">
+						<path fill="currentColor" d="M14 4.69L18.14 9H0v1h18.13L14 14.31l.72.69L20 9.5 14.72 4l-.72.69z"/>
+					</svg>
+				</span>
+			</span>
+	</span>
+</a>
+
+						</div>
+					
+				</div>
+				<div class="h-s9"></div>
+
+			
+		
+		
+			
+
+		
+		
+			<div class="h-s10"></div>
+
+		
+	</div>
+</div>
+
+
+	<div class="cms-text-teaser-multi h-bg-white">
+	<div class="h-s8"></div>
+
+	<div class="container">
+		
+			<div class="row">
+				<div class="col-12">
+					<div class="m-subject m-subject--t2">
+	<div class="m-subject__head">
+		
+		
+		<div class="m-subject__decorator m-subject__decorator--blue"></div>
+		
+			<div class="h-s6"></div>
+
+		
+	</div>
+	<h2 class="h-typo-t2">This might also be of interest</h2>
+
+</div>
+
+					<div class="h-s7"></div>
+
+				</div>
+			</div>
+		
+
+		<div class="row">
+		
+			
+			<div class="col-12 col-md-4 col-print-4">
+			
+				<div class="cms-text-teaser-multi__teaser">
+					<div class="cms-text-teaser-multi__bg h-bg-brown-soft">
+						
+							<p class="h-typo-t5">Monetary policy decisions</p>
+
+						
+						<div class="h-s3"></div>
+
+						
+							<p class="h-typo-small">Here you will find all publications regarding the monetary policy decisions, sorted by year.</p>
+
+							<div class="h-s5"></div>
+
+						
+						<div class="cms-text-teaser-multi__target d-print-none">
+							
+	<a class="a-button a-button--primary h-typo-button"
+		href="/en/the-snb/mandates-goals/monetary-policy/decisions"
+	>
+		
+		<span class="a-button__text">Learn more</span>
+		
+		
+			<span class="a-button__icon"><svg class="a-icon" aria-hidden="true" xmlns="http://www.w3.org/2000/svg">
+	
+	<use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="/.resources/frontend/assets/default/svg/icons~f5f2d2d5~2026-07-21-19-29-18-000~cache.svg#arrow-right"></use>
+</svg>
+</span>
+		
+	</a>
+
+
+						</div>
+					</div>
+					<div class="h-s7"></div>
+
+				</div>
+			</div>
+		
+			
+			<div class="col-12 col-md-4 col-print-4">
+			
+				<div class="cms-text-teaser-multi__teaser">
+					<div class="cms-text-teaser-multi__bg h-bg-lime-middle">
+						
+							<p class="h-typo-t5">Monetary policy strategy</p>
+
+						
+						<div class="h-s3"></div>
+
+						
+							<p class="h-typo-small">The SNB conducts Switzerland's monetary policy as an independent central bank. Find relevant information here.</p>
+
+							<div class="h-s5"></div>
+
+						
+						<div class="cms-text-teaser-multi__target d-print-none">
+							
+	<a class="a-button a-button--primary h-typo-button"
+		href="/en/the-snb/mandates-goals/monetary-policy/strategy"
+	>
+		
+		<span class="a-button__text">Learn more</span>
+		
+		
+			<span class="a-button__icon"><svg class="a-icon" aria-hidden="true" xmlns="http://www.w3.org/2000/svg">
+	
+	<use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="/.resources/frontend/assets/default/svg/icons~f5f2d2d5~2026-07-21-19-29-18-000~cache.svg#arrow-right"></use>
+</svg>
+</span>
+		
+	</a>
+
+
+						</div>
+					</div>
+					<div class="h-s7"></div>
+
+				</div>
+			</div>
+		
+			
+			<div class="col-12 col-md-4 col-print-4">
+			
+				<div class="cms-text-teaser-multi__teaser">
+					<div class="cms-text-teaser-multi__bg h-bg-blue-finest">
+						
+							<p class="h-typo-t5">Services for the Confederation</p>
+
+						
+						<div class="h-s3"></div>
+
+						
+							<p class="h-typo-small">Find out about the banking services the SNB provides to the Confederation here.</p>
+
+							<div class="h-s5"></div>
+
+						
+						<div class="cms-text-teaser-multi__target d-print-none">
+							
+	<a class="a-button a-button--primary h-typo-button"
+		href="/en/the-snb/mandates-goals/services-to-the-confederation"
+	>
+		
+		<span class="a-button__text">Learn more</span>
+		
+		
+			<span class="a-button__icon"><svg class="a-icon" aria-hidden="true" xmlns="http://www.w3.org/2000/svg">
+	
+	<use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="/.resources/frontend/assets/default/svg/icons~f5f2d2d5~2026-07-21-19-29-18-000~cache.svg#arrow-right"></use>
+</svg>
+</span>
+		
+	</a>
+
+
+						</div>
+					</div>
+					<div class="h-s7"></div>
+
+				</div>
+			</div>
+		
+		</div>
+	</div>
+	<div class="h-s6"></div>
+
+</div>
+
+
+
+		</main>
+
+		<div class="o-anchor-navigation__spacer d-print-none"></div>
+
+	<div class="o-anchor-navigation d-print-none" data-g-name="AnchorNavigation" aria-hidden="true">
+		<div class="o-anchor-navigation__wrap">
+			<button type="button" class="o-anchor-navigation__button js-o-anchor-navigation__button">
+				<span class="h-typo-small-bold">Table of contents</span>
+
+				<span class="o-anchor-navigation__icon">
+					<svg class="a-icon" aria-hidden="true" xmlns="http://www.w3.org/2000/svg">
+	
+	<use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="/.resources/frontend/assets/default/svg/icons~f5f2d2d5~2026-07-21-19-29-18-000~cache.svg#chevron-up-small"></use>
+</svg>
+
+				</span>
+			</button>
+			<div class="o-anchor-navigation__scroll-area">
+				<ul class="o-anchor-navigation__items">
+				
+					<li class="o-anchor-navigation__item">
+						<a class="o-anchor-navigation__link js-o-anchor-navigation__link h-typo-small-bold" href="#instr">
+							<span class="o-anchor-navigation__link-text">Monetary policy instruments</span>
+						</a>
+					</li>
+				
+					<li class="o-anchor-navigation__item">
+						<a class="o-anchor-navigation__link js-o-anchor-navigation__link h-typo-small-bold" href="#sichtguthaben">
+							<span class="o-anchor-navigation__link-text">Interest on sight deposits</span>
+						</a>
+					</li>
+				
+					<li class="o-anchor-navigation__item">
+						<a class="o-anchor-navigation__link js-o-anchor-navigation__link h-typo-small-bold" href="#repogeschaefte">
+							<span class="o-anchor-navigation__link-text">Repo transactions</span>
+						</a>
+					</li>
+				
+					<li class="o-anchor-navigation__item">
+						<a class="o-anchor-navigation__link js-o-anchor-navigation__link h-typo-small-bold" href="#bills">
+							<span class="o-anchor-navigation__link-text">SNB Bills</span>
+						</a>
+					</li>
+				
+					<li class="o-anchor-navigation__item">
+						<a class="o-anchor-navigation__link js-o-anchor-navigation__link h-typo-small-bold" href="#devisenmarktinterventionen">
+							<span class="o-anchor-navigation__link-text">Foreign exchange market interventions</span>
+						</a>
+					</li>
+				
+					<li class="o-anchor-navigation__item">
+						<a class="o-anchor-navigation__link js-o-anchor-navigation__link h-typo-small-bold" href="#crf">
+							<span class="o-anchor-navigation__link-text">COVID-19 refinancing facility (CRF)</span>
+						</a>
+					</li>
+				
+					<li class="o-anchor-navigation__item">
+						<a class="o-anchor-navigation__link js-o-anchor-navigation__link h-typo-small-bold" href="#fremdwaehrungen">
+							<span class="o-anchor-navigation__link-text">Foreign exchange operations</span>
+						</a>
+					</li>
+				
+					<li class="o-anchor-navigation__item">
+						<a class="o-anchor-navigation__link js-o-anchor-navigation__link h-typo-small-bold" href="#fzv">
+							<span class="o-anchor-navigation__link-text">Payment System Support Facility (PSSF)</span>
+						</a>
+					</li>
+				
+					<li class="o-anchor-navigation__item">
+						<a class="o-anchor-navigation__link js-o-anchor-navigation__link h-typo-small-bold" href="#testoperationen">
+							<span class="o-anchor-navigation__link-text">Operational readiness</span>
+						</a>
+					</li>
+				
+				</ul>
+			</div>
+		</div>
+	</div>
+
+
+		<footer role="contentinfo">
+			<div id="a11y-footer" class="o-footer" data-g-name="Footer">
+	<p class="o-footer__a11y-title" role="heading" aria-level="1">Footer</p>
+	<div class="o-footer__main">
+		<div class="h-s6"></div>
+
+		<div class="container">
+			<div class="row">
+				<div class="col-12">
+					<div class="h-s7"></div>
+
+					<div class="o-footer__header">
+						<a class="o-footer__logo" href="/en/">
+							<p class="o-footer__a11y-title" role="heading" aria-level="2">Logo</p>
+							<img class="o-footer__logo-img" src="/.resources/frontend/assets/default/img/logo/logo-small-white~f5f2d2d5~2026-07-21-19-29-18-000~cache.svg" alt="">
+						</a>
+						
+							<div class="o-footer__header-links">
+								<ul class="o-footer__social-channels">
+									
+										<li class="o-footer__social-channel">
+											<a href="https://x.com/snb_bns" class="o-footer__social-channel-link" target="_blank" rel="noopener noreferrer">
+												<span class="o-footer__social-channel-icon" aria-hidden="true">
+													<svg class="a-icon" aria-hidden="true" xmlns="http://www.w3.org/2000/svg">
+	
+	<use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="/.resources/frontend/assets/default/svg/icons~f5f2d2d5~2026-07-21-19-29-18-000~cache.svg#social-twitter"></use>
+</svg>
+
+												</span>
+												<span class="o-footer__social-channel-text">
+													https://x.com/snb_bns
+												</span>
+											</a>
+										</li>
+									
+										<li class="o-footer__social-channel">
+											<a href="https://ch.linkedin.com/company/swiss-national-bank" class="o-footer__social-channel-link" target="_blank" rel="noopener noreferrer">
+												<span class="o-footer__social-channel-icon" aria-hidden="true">
+													<svg class="a-icon" aria-hidden="true" xmlns="http://www.w3.org/2000/svg">
+	
+	<use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="/.resources/frontend/assets/default/svg/icons~f5f2d2d5~2026-07-21-19-29-18-000~cache.svg#social-linkedin"></use>
+</svg>
+
+												</span>
+												<span class="o-footer__social-channel-text">
+													https://ch.linkedin.com/company/swiss-national-bank
+												</span>
+											</a>
+										</li>
+									
+										<li class="o-footer__social-channel">
+											<a href="https://www.youtube.com/@swissnationalbank" class="o-footer__social-channel-link" target="_blank" rel="noopener noreferrer">
+												<span class="o-footer__social-channel-icon" aria-hidden="true">
+													<svg class="a-icon" aria-hidden="true" xmlns="http://www.w3.org/2000/svg">
+	
+	<use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="/.resources/frontend/assets/default/svg/icons~f5f2d2d5~2026-07-21-19-29-18-000~cache.svg#social-youtube"></use>
+</svg>
+
+												</span>
+												<span class="o-footer__social-channel-text">
+													https://www.youtube.com/@swissnationalbank
+												</span>
+											</a>
+										</li>
+									
+								</ul>
+								
+									<div class="o-footer__promote">
+										
+	<a class="a-button a-button--primary-inv h-typo-button"
+		href="/en/services-events/digital-services/news_alert"
+	>
+		
+		<span class="a-button__text">SNB News Alert</span>
+		
+		
+	</a>
+
+
+									</div>
+								
+							</div>
+						
+						
+					</div>
+					<div class="h-s9"></div>
+
+				</div>
+			</div>
+			<div class="row">
+				
+					<div class="col-12 col-md-6">
+						<div class="o-footer__column">
+							<h3 class="o-footer__column-title h-typo-small-bold js-o-footer__column-title">
+								Postal address &amp; contact
+								<span class="o-footer__title-icon">
+									<svg class="a-icon" aria-hidden="true" xmlns="http://www.w3.org/2000/svg">
+	
+	<use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="/.resources/frontend/assets/default/svg/icons~f5f2d2d5~2026-07-21-19-29-18-000~cache.svg#chevron-down-small"></use>
+</svg>
+
+								</span>
+							</h3>
+							<div class="o-footer__column-content">
+								<div class="h-typo-small">
+									<p>Swiss National Bank<br>Börsenstrasse 15<br>P. O. Box<br>CH-8022 Zurich</p>
+									<div class="h-s6"></div>
+
+									
+										<p>Telephone +41 58 631 00 00</p>
+									
+									<div class="h-s2"></div>
+
+									<div class="h-s2"></div>
+
+									
+								</div>
+								<div class="h-s6"></div>
+
+								
+									
+<a class="a-link a-link--inv" href="/en/contact" >
+	<span class="a-link__text">
+		<span class="a-link__text-inline">Email and additional contacts</span><span
+			class="a-link__icon">&#65279;<span
+				class="a-link__icon-box"><svg
+					class="a-link__arrow" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20">
+						<path fill="currentColor" d="M14 4.69L18.14 9H0v1h18.13L14 14.31l.72.69L20 9.5 14.72 4l-.72.69z"/>
+					</svg>
+				</span>
+			</span>
+	</span>
+</a>
+
+								
+							</div>
+						</div>
+					</div>
+				
+				
+				<div class="col-12 col-md-2">
+					<div class="o-footer__column">
+						<h3 class="o-footer__column-title h-typo-small-bold js-o-footer__column-title">
+							Quick links
+							<span class="o-footer__title-icon">
+								<svg class="a-icon" aria-hidden="true" xmlns="http://www.w3.org/2000/svg">
+	
+	<use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="/.resources/frontend/assets/default/svg/icons~f5f2d2d5~2026-07-21-19-29-18-000~cache.svg#chevron-down-small"></use>
+</svg>
+
+							</span>
+						</h3>
+						<div class="o-footer__column-content">
+							<ul class="o-footer__list">
+								
+								<li class="o-footer__list-item h-typo-small">
+									<a class="o-footer__list-link" href="/en/the-snb/mandates-goals/cash/series-9">
+										<span class="o-footer__list-link-text">
+											The current banknote series
+											
+										</span>
+									</a>
+								</li>
+								
+								<li class="o-footer__list-item h-typo-small">
+									<a class="o-footer__list-link" href="/en/the-snb/mandates-goals/monetary-policy">
+										<span class="o-footer__list-link-text">
+											Monetary policy
+											
+										</span>
+									</a>
+								</li>
+								
+								<li class="o-footer__list-item h-typo-small">
+									<a class="o-footer__list-link" href="/en/news-publications/annual-report">
+										<span class="o-footer__list-link-text">
+											Annual report
+											
+										</span>
+									</a>
+								</li>
+								
+								<li class="o-footer__list-item h-typo-small">
+									<a class="o-footer__list-link" href="/en/services-events/digital-services/event-schedule">
+										<span class="o-footer__list-link-text">
+											Time schedule
+											
+										</span>
+									</a>
+								</li>
+								
+							</ul>
+						</div>
+					</div>
+					
+				</div>
+				
+				<div class="col-12 col-md-2">
+					<div class="o-footer__column">
+						<h3 class="o-footer__column-title h-typo-small-bold js-o-footer__column-title">
+							Information for
+							<span class="o-footer__title-icon">
+								<svg class="a-icon" aria-hidden="true" xmlns="http://www.w3.org/2000/svg">
+	
+	<use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="/.resources/frontend/assets/default/svg/icons~f5f2d2d5~2026-07-21-19-29-18-000~cache.svg#chevron-down-small"></use>
+</svg>
+
+							</span>
+						</h3>
+						<div class="o-footer__column-content">
+							<ul class="o-footer__list">
+								
+								<li class="o-footer__list-item h-typo-small">
+									<a class="o-footer__list-link" href="/en/media">
+										<span class="o-footer__list-link-text">
+											Media
+											
+										</span>
+									</a>
+								</li>
+								
+								<li class="o-footer__list-item h-typo-small">
+									<a class="o-footer__list-link" href="/en/the-snb/mandates-goals/monetary-policy/decisions">
+										<span class="o-footer__list-link-text">
+											Financial market participants
+											
+										</span>
+									</a>
+								</li>
+								
+								<li class="o-footer__list-item h-typo-small">
+									<a class="o-footer__list-link" href="/en/the-snb/organisation/snb-joint-stock-company">
+										<span class="o-footer__list-link-text">
+											Shareholders
+											
+										</span>
+									</a>
+								</li>
+								
+							</ul>
+						</div>
+					</div>
+					
+				</div>
+				
+				<div class="col-12 col-md-2">
+					<div class="o-footer__column">
+						<h3 class="o-footer__column-title h-typo-small-bold js-o-footer__column-title">
+							Portals
+							<span class="o-footer__title-icon">
+								<svg class="a-icon" aria-hidden="true" xmlns="http://www.w3.org/2000/svg">
+	
+	<use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="/.resources/frontend/assets/default/svg/icons~f5f2d2d5~2026-07-21-19-29-18-000~cache.svg#chevron-down-small"></use>
+</svg>
+
+							</span>
+						</h3>
+						<div class="o-footer__column-content">
+							<ul class="o-footer__list">
+								
+								<li class="o-footer__list-item h-typo-small">
+									<a class="o-footer__list-link" href="https://data.snb.ch/en">
+										<span class="o-footer__list-link-text">
+											SNB data portal
+											
+										</span>
+									</a>
+								</li>
+								
+								<li class="o-footer__list-item h-typo-small">
+									<a class="o-footer__list-link" href="https://marketoperations.snb.ch/en/" target="_blank" rel="noopener noreferrer">
+										<span class="o-footer__list-link-text">
+											Market operations
+											
+										</span>
+									</a>
+								</li>
+								
+								<li class="o-footer__list-item h-typo-small">
+									<a class="o-footer__list-link" href="https://surveys.snb.ch/auth/ui/app/auth/flow/surveys-prod/password">
+										<span class="o-footer__list-link-text">
+											eSurvey
+											
+										</span>
+									</a>
+								</li>
+								
+								<li class="o-footer__list-item h-typo-small">
+									<a class="o-footer__list-link" href="https://careers.snb.ch/search/?locale&#x3D;en_US">
+										<span class="o-footer__list-link-text">
+											Vacancies
+											
+										</span>
+									</a>
+								</li>
+								
+							</ul>
+						</div>
+					</div>
+					
+				</div>
+				
+			</div>
+		</div>
+		<div class="h-s8"></div>
+
+	</div>
+
+	<div class="o-footer__bottom">
+		<div class="container">
+			<div class="row">
+				<div class="col-12 col-md-3">
+					<p class="h-typo-small">© Swiss National Bank, 
+Zurich (Switzerland) 2026</p>
+				</div>
+				<div class="col-12 col-md-9">
+					<div class="o-footer__links">
+						
+							<div class="o-footer__link-item">
+								
+								<a class="o-footer__link h-typo-small-bold" href="/en/srv/disclaimer_copyright">Copyright</a>
+							</div>
+						
+							<div class="o-footer__link-item">
+								
+								<a class="o-footer__link h-typo-small-bold" href="/en/srv/disclaimer_liability">Limitation of liability</a>
+							</div>
+						
+							<div class="o-footer__link-item">
+								
+								<a class="o-footer__link h-typo-small-bold" href="/en/srv/disclaimer_data">Data protection</a>
+							</div>
+						
+							<div class="o-footer__link-item">
+								
+								<a class="o-footer__link h-typo-small-bold" href="/en/srv/disclaimer_e-mails">Phishing emails and calls / fake websites</a>
+							</div>
+						
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+		</footer>
+
+		<svg class="c-page__svg-filters" aria-hidden="true" tabindex="-1">
+	<filter id="blur50">
+		<feGaussianBlur stdDeviation="50"></feGaussianBlur>
+		<feColorMatrix type="matrix" values="1 0 0 0 0, 0 1 0 0 0, 0 0 1 0 0, 0 0 0 9 0"></feColorMatrix>
+		<feComposite in2="SourceGraphic" operator="in"></feComposite>
+	</filter>
+</svg>
+
+		<div class="js-o-page__gdpr-overlay">
+	<section data-g-name="Overlay"
+		 data-overlay-id="overlay-gdpr"
+		 class="o-overlay js-o-overlay o-overlay--gdpr"
+		  data-initial-focus="js-m-gdpr-settings__button-all"
+		 
+>
+	<div class="o-overlay__vertical-alignment">
+		<div class="o-overlay__horizontal-alignment">
+			<div class="o-overlay__wrapper js-o-overlay__wrapper">
+				<div class="container">
+					<div class="o-overlay__header">
+						
+						
+					</div>
+				</div>
+				<div class="o-overlay__content">
+					<div class="container">
+						<div class="o-overlay-content">
+	<div class="h-s8"></div>
+
+	<div class="m-gdpr-settings" data-g-name="GdprSettings">
+	<div class="m-gdpr-settings__wrapper">
+		<div class="m-gdpr-settings__scroll-container">
+			<h2 class="h-typo-t4">Your settings</h2>
+
+			<div class="h-s2"></div>
+
+			<div class="a-text">
+	
+		<p><strong>Required</strong>: These cookies (e.g. for storing your IP address) cannot be rejected as they are necessary to ensure the operation of the website. These data are not evaluated further.<br />
+<strong>Analytics</strong>: If you consent to this category, data such as IP address, location, device information, browser version and site visitor behaviour will be collected. For this, cookies will be stored on your device that record information about your user behaviour. These data are evaluated for the SNB&#39;s internal purposes and are kept for two years.<br />
+<strong>Third-party</strong>: If you consent to this category, third-party services (used, for example, to add social multimedia content to the SNB&#39;s website) will be activated which collect personal data, process these data, disclose them abroad - worldwide - and place cookies. The relevant data protection regulations are linked in the &#39;<a href="/en/srv/disclaimer_data_website">Privacy statement for the website of the Swiss National Bank</a>&#39;.</p>
+
+	
+</div>
+
+			<div class="h-s7"></div>
+
+			<h3 class="h-typo-t5">Choose your preferred settings:</h3>
+
+			<div class="h-s4"></div>
+
+			<div class="m-gdpr-settings__categories">
+				
+					<div class="m-gdpr-settings__category">
+						
+							<div class="a-checkbox" data-g-name="Checkbox">
+	<input class="a-checkbox__input js-a-checkbox__input"
+		name="essential"
+		id="essential"
+		type="checkbox"
+		value="essential"
+		 checked
+		
+		 disabled
+		
+		data-label-id="label-essential"
+		
+	>
+	<label class="a-checkbox__label h-link js-a-checkbox__label" for="essential" id="label-essential">
+		Required&nbsp;*
+	</label>
+</div>
+
+						
+					</div>
+				
+					<div class="m-gdpr-settings__category">
+						
+							<div class="a-checkbox" data-g-name="Checkbox">
+	<input class="a-checkbox__input js-a-checkbox__input"
+		name="analytics"
+		id="analytics"
+		type="checkbox"
+		value="analytics"
+		
+		
+		
+		
+		data-label-id="label-analytics"
+		
+	>
+	<label class="a-checkbox__label h-link js-a-checkbox__label" for="analytics" id="label-analytics">
+		Analytics
+	</label>
+</div>
+
+						
+					</div>
+				
+					<div class="m-gdpr-settings__category">
+						
+							<div class="a-checkbox" data-g-name="Checkbox">
+	<input class="a-checkbox__input js-a-checkbox__input"
+		name="marketing"
+		id="marketing"
+		type="checkbox"
+		value="marketing"
+		
+		
+		
+		
+		data-label-id="label-marketing"
+		
+	>
+	<label class="a-checkbox__label h-link js-a-checkbox__label" for="marketing" id="label-marketing">
+		Third-party
+	</label>
+</div>
+
+						
+					</div>
+				
+			</div>
+		</div>
+		<div class="h-s7"></div>
+
+		<div class="m-gdpr-settings__buttons">
+			<div class="m-gdpr-settings__button">
+				
+	<button class="a-button a-button--secondary h-typo-button js-m-gdpr-settings__button-custom" type="button"
+	>
+		
+		<span class="a-button__text">Accept selected categories</span>
+		
+		
+	</button>
+
+
+			</div>
+			<div class="m-gdpr-settings__button">
+				
+	<button class="a-button a-button--primary h-typo-button js-m-gdpr-settings__button-all" type="button"
+	>
+		
+		<span class="a-button__text">Accept all categories</span>
+		
+		
+	</button>
+
+
+			</div>
+		</div>
+	</div>
+</div>
+
+	<div class="h-s8"></div>
+
+</div>
+
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+
+</div>
+
+	<div class="m-gdpr-banner h-bg-skyblue-dark" data-g-name="GdprBanner">
+	<div class="container">
+		<div class="h-s6"></div>
+
+		<div class="m-gdpr-banner__inner">
+			<div class="m-gdpr-banner__text">
+				<div class="a-text">
+	
+		<p>This website uses cookies, analytics tools and other technologies to provide requested features, content and services, to personalise the content shown, to provide links to social media, and to analyse the use of the website in anonymised form for the purposes of improving usability.&nbsp;Personal data are also disclosed abroad - worldwide - to video service providers and the analytics tools of these providers are used. More information is available under &#39;Manage settings&#39;.</p>
+
+	
+</div>
+
+			</div>
+			<div class="m-gdpr-banner__buttons">
+				
+	<button class="a-button a-button--primary h-typo-button js-m-gdpr-banner__button-all" type="button"
+	>
+		
+		<span class="a-button__text">Accept</span>
+		
+		
+	</button>
+
+
+				
+	<button class="a-button a-button--secondary h-typo-button js-m-gdpr-banner__button-manage" type="button"
+	>
+		
+		<span class="a-button__text">Manage settings</span>
+		
+		
+	</button>
+
+
+			</div>
+		</div>
+		<div class="h-s6"></div>
+
+	</div>
+</div>
+
+
+
+		
+<div class="a-backdrop"
+	 data-g-name="Backdrop"
+	 aria-hidden="true"
+	 
+></div>
+
+
+
+
+
+	</body>
+</html>

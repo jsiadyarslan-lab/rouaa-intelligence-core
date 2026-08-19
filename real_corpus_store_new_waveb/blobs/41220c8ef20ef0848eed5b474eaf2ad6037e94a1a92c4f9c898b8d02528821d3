@@ -1,0 +1,1321 @@
+<!DOCTYPE html>
+<html dir="ltr" lang="en-US" prefix="og: https://ogp.me/ns#">
+<head>
+    <!-- Google Tag Manager -->
+<!--    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':-->
+<!--                new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],-->
+<!--            j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=-->
+<!--            'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);-->
+<!--        })(window,document,'script','dataLayer','GTM-52PLNR');</script>-->
+    <!-- End Google Tag Manager -->
+    <!-- Google Analytics -->
+    <script async
+            src="https://www.googletagmanager.com/gtag/js?id=G-CGC57HQ1TC">
+    </script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', 'G-CGC57HQ1TC');
+    </script>
+    <!-- END Google Analytics without GTM -->
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <link rel="profile" href="//gmpg.org/xfn/11" />
+    <link rel="stylesheet" type="text/css" href="//cdnjs.cloudflare.com/ajax/libs/bootstrap/5.2.1/css/bootstrap.min.css">
+
+    <link rel="stylesheet" type="text/css" href="//fred.stlouisfed.org/css/pager.min.css">
+    <link rel="stylesheet" type="text/css" href="//fred.stlouisfed.org/css/styles.css">
+    <link rel="stylesheet" type="text/css" href="//fred.stlouisfed.org/assets/select2/dist/css/select2.min.css">
+    <link rel="stylesheet" type="text/css" href="//fred.stlouisfed.org/css/src/user.css">
+    <link rel="stylesheet" type="text/css" href="//fred.stlouisfed.org/css/src/footer.css">
+
+    <!--[if IE]>
+    <link rel="stylesheet" type="text/css" href="//fred.stlouisfed.org/css/ie.css" >
+    <![endif]-->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" rel="stylesheet">
+    <!--[if IE 8]><!-->
+    <script src="//fred.stlouisfed.org/js/lib/respond.js"></script>
+    <!--<![endif]-->
+
+    <link rel="stylesheet" type="text/css" href="/wp-content/themes/research-new/style.css">
+    <style type="text/css">
+        iframe[src*=graph] { width: 100% !important; }
+        .widget-title {margin-top:1em; font-weight: bold; font-size: 1.1em; margin-bottom: 10px;}
+        .entry-title * {font-size:20px !important}
+        .entry-subtitle {font-size: 0.7em !important;margin-top:10px;}
+        .tag { float: inherit !important; white-space: inherit !important; line-height: inherit !important; padding-right: inherit !important; }
+        #content-container .row {
+            padding-left: 0;
+        }
+        @media only screen and (max-width : 767px) {
+
+            .content-2columns-left iframe {display:none}
+            .content-2columns-left ul ,
+            .content-2columns-left ul {
+                padding: 0;
+                margin: 0 0 12px 0;
+            }
+
+            .content-2columns-left {
+                text-align: center;
+            }
+
+            .content-2columns-left ul a,
+            .content-2columns-left ul a:visited,
+            .content-2columns-left ul a,
+            .content-2columns-left ul a:visited,
+            .content-2columns-left ul a,
+            .content-2columns-left ul a:visited {
+                text-decoration: none;
+                height: 100%;
+                width: 100%;
+                display: block;
+            }
+
+            .content-2columns-left ul li,
+            .content-2columns-left ul li,
+            .content-2columns-left ul li {
+                margin: 2px 0;
+                background-color: #f5f5f5;
+                padding: 10px 0;
+                /*list-style-type: none;*/
+            }
+
+            .content-2columns-left ul .icon-search,
+            .content-2columns-left ul .icon-email,
+            .content-2columns-left ul a {
+                /*background-image: none;*/
+            }
+
+            .content-2columns-left {
+                border-top: 1px solid #e8e8e8;
+                padding-top: 10px;
+                margin-top: 5px;
+            }
+
+            .content-2columns-left li {
+                /*list-style-type: none;*/
+            }
+        }
+
+        /* Additional custom styling brought over from FRED Help for styling 30 Years Masthead */
+        .entry-title * {font-size:20px !important; margin-bottom:0}
+        .entry-content h2 {font-size:1.5em !important; margin-bottom: 5px;}
+        /*.entry-meta {margin-bottom:1em}*/
+        /*.entry-meta span, .entry-meta a {font-size:.9em;color:#999 !important}*/
+        .nav-previous {margin-bottom:1em}
+        .featured-post-widget {padding-left:0}
+        .featured-post-widget li {list-style-type:none}
+        .featured-post-widget li a {font-weight:normal}
+        .home #container { background: #f8f8f8 !important; }
+
+        #help-area i.spin {
+            -webkit-animation: fa-spin 1.05s infinite linear;
+            animation: fa-spin 1.05s infinite linear;
+            font-size: 1.5em;
+            color: #BFBFBF;
+        }
+        #user-nav a {
+            text-transform: none;
+        }
+        #user-nav {
+            margin: 0;
+        }
+        .ERRA-header, .account-header, .my-account-link, .signin {
+            display: inline-block;
+            vertical-align: middle;
+            line-height: normal;
+            font-size: 14px;
+            font-family: Roboto,sans-serif;
+        }
+
+        #user-nav li {
+            display: inline;
+            list-style-type: none;
+            padding: 0 .7em;
+            margin: 0;
+            border: 0;
+        }
+
+        #help-area .spinner {
+            text-align: center;
+        }
+
+        #help-area .spinner.main-spinner {
+            margin: 35px 0 25px 0;
+        }
+
+        #help-area a {
+            color: #3d90f8;
+        }
+
+        #footer .footer-section-header {
+            margin-left: -5px;
+        }
+        .ERRA-header {
+            padding-bottom: 10px;
+        }
+        #help-area .menu-3 .panel-body ul {
+            padding: 0;
+            margin: 15px 0 2px 0;
+        }
+
+        #help-area .menu-3 .panel-body li {
+            list-style: none;
+            line-height: 3em;
+        }
+
+        #help-area .menu-3 .panel-body li i {
+            color: #6D6D6D;
+            margin-right: 25px;
+            font-size: .8em;
+            position: relative;
+            top: -1px;
+        }
+
+        #help-area .menu-3 .panel-body li a {
+            font-size: 1.1em;
+            color: #3F7CA5;
+        }
+
+        #help-area .rotate{
+            -moz-transition: all .2s linear;
+            -webkit-transition: all .2s linear;
+            transition: all .2s linear;
+        }
+
+        #help-area .rotate.right{
+            -moz-transform:rotate(90deg);
+            -webkit-transform:rotate(90deg);
+            transform:rotate(90deg);
+        }
+
+        #help-area .col-pull-left {
+            padding-left: 4px;
+        }
+
+        #help-area .col-pull-right {
+            padding-right: 4px;
+        }
+
+        #help-area .nav-pills.menu-1 {
+            margin: 20px 0;
+            font-size: .9em;
+        }
+
+        #help-area .nav-pills > li > a {
+            color: #636363;
+        }
+
+        #help-area .nav-pills.menu-1 > li > a {
+            margin: 0 1px;
+            padding: 10px 40px;
+        }
+
+        #help-area .nav-pills.menu-2 > li > a {
+            margin: 0 1px;
+        }
+
+        #help-area .nav-pills.menu-1 > li.active > a,
+        nav-pills.menu-1 > li.active > a:focus,
+        .nav-pills.menu-1 > li.active > a:hover {
+            background-color: #7992B7;
+            border-radius: 6px;
+            color: #ffffff;
+        }
+
+        #help-area .help-inner-section {
+            background: #ffffff;
+            padding: 12px 12px 18px 12px;
+            border-bottom: 1px solid #E6E6E6;
+        }
+
+        #help-area .help-inner-section.menu-2 {
+            color: #999999;
+            text-align: center;
+            margin-bottom: 5px;
+        }
+
+        #help-area .nav-pills.menu-2 > li {
+            padding: 10px 2% 12px 2%;
+            margin: 0 10px;
+            display: inline-block;
+            float: none;
+        }
+
+        #help-area .nav-pills.menu-2 > li.active {
+            border-bottom: 2px solid #8DABD8;
+        }
+
+        #help-area .nav-pills.menu-2 > li.active > a,
+        nav-pills.menu-2 > li.active > a:focus,
+        .nav-pills.menu-2 > li.active > a:hover {
+            background: none;
+            color: #999999;
+        }
+
+        #help-area .help-inner-section.menu-2 h3 {
+            color: #5d5d5d;
+            font-size: .85em;
+            margin: 8px 0 0 0;
+        }
+        .panel-heading {
+            padding: 0;
+            background: transparent;
+            border: 0;
+        }
+
+        #help-area .help-inner-section.menu-2 i {
+            font-size: 2em;
+            margin-bottom: 10px;
+            color: #808080;
+        }
+
+        #help-area .help-inner-section.menu-2 li.active i {
+            color: #8391A5;
+        }
+
+        #help-area .help-inner-section.menu-3 {
+            padding-top: 20px;
+            padding-bottom: 20px;
+            padding-left: 40px;
+        }
+
+        #help-area .help-inner-section.menu-3 a.accordion-toggle {
+            text-decoration: none;
+        }
+
+        #help-area .help-inner-section.menu-3 h4.panel-title {
+            color: #6F6F6F;
+            font-size: 1.05em !important;
+            font-weight: bold;
+        }
+
+        #help-area .panel-group .panel {
+            border-radius: 0;
+        }
+
+        #help-area .help-inner-section.menu-3 .menu-items {
+            list-style: none;
+            padding: 0;
+        }
+
+        #help-area .help-inner-section.menu-3 i.indicator {
+            color: #8DABD8;
+            font-weight: 100;
+            position: relative;
+            top: 2px;
+            left: -10px;
+        }
+
+        #help-area .help-inner-section.menu-3 .menu-items li {
+            margin: 20px 10px;
+        }
+
+        #help-area .help-inner-section.menu-3 .menu-items li + li {
+            margin-top: 50px;
+        }
+
+        #help-area .help-inner-section.menu-3 .menu-items li h5 {
+            color: #808080;
+            font-size: 1.05em;
+            font-weight: normal;
+            display: inline;
+            margin-left: 20px;
+            margin-top: 1px;
+        }
+
+        #help-area .help-inner-section.menu-3 .menu-items li i {
+            color: #808080;
+            font-size: .9em;
+            font-weight: 100;
+        }
+
+        #help-area .contact {
+            padding-top: 32px;
+            padding-bottom: 52px;
+            text-align: center;
+        }
+
+        #help-area .contact h2 {
+            font-size: .8em;
+            font-weight: bold;
+            color: #9a9a9a;
+        }
+
+        #help-area .contact a {
+            font-size: .8em;
+        }
+
+        @media only screen and (max-width : 767px) {
+
+            .content-2columns-left iframe {display:none}
+
+            .content-2columns-left ul ,
+            .content-2columns-left ul {
+                padding: 0;
+                margin: 0 0 12px 0;
+            }
+
+            .content-2columns-left {
+                text-align: center;
+            }
+
+            .content-2columns-left ul a,
+            .content-2columns-left ul a:visited,
+            .content-2columns-left ul a,
+            .content-2columns-left ul a:visited,
+            .content-2columns-left ul a,
+            .content-2columns-left ul a:visited {
+                text-decoration: none;
+                height: 100%;
+                width: 100%;
+                display: block;
+            }
+
+            .content-2columns-left ul li,
+            .content-2columns-left ul li,
+            .content-2columns-left ul li {
+                margin: 2px 0;
+                background-color: #f5f5f5;
+                padding: 10px 0;
+                list-style-type: none;
+            }
+
+            .content-2columns-left ul .icon-search,
+            .content-2columns-left ul .icon-email,
+            .content-2columns-left ul a {
+                background-image: none;
+            }
+
+            .content-2columns-left {
+                border-top: 1px solid #e8e8e8;
+                padding-top: 10px;
+                margin-top: 5px;
+            }
+
+            .content-2columns-left li {
+                list-style-type: none;
+            }
+            #breadcrumbs {color:#333 !important;font-size:1.2em;font-weight:bold}
+            .breadcrumb_link {color:#333 !important}
+
+            #help-area .nav-pills.menu-1 li {
+                float: none;
+            }
+
+            #help-area .nav-pills.menu-2 li {
+                display: block;
+                float: none;
+                width: 150px;
+                margin: 10px auto;
+            }
+        }
+
+        #s {
+            max-width: 144px;
+        }
+
+        .seperator-bottom {
+            padding-bottom: 2em;
+        }
+
+    </style>
+    	<style>img:is([sizes="auto" i], [sizes^="auto," i]) { contain-intrinsic-size: 3000px 1500px }</style>
+	
+		<!-- All in One SEO 4.8.9 - aioseo.com -->
+		<title>FRED Announcements | St. Louis Fed Economic Research</title>
+	<meta name="robots" content="max-image-preview:large" />
+	<link rel="canonical" href="https://news.research.stlouisfed.org/category/fred-announcements/" />
+	<link rel="next" href="https://news.research.stlouisfed.org/category/fred-announcements/page/2/" />
+	<meta name="generator" content="All in One SEO (AIOSEO) 4.8.9" />
+		<script type="application/ld+json" class="aioseo-schema">
+			{"@context":"https:\/\/schema.org","@graph":[{"@type":"BreadcrumbList","@id":"https:\/\/news.research.stlouisfed.org\/category\/fred-announcements\/#breadcrumblist","itemListElement":[{"@type":"ListItem","@id":"https:\/\/news.research.stlouisfed.org#listItem","position":1,"name":"Home","item":"https:\/\/news.research.stlouisfed.org","nextItem":{"@type":"ListItem","@id":"https:\/\/news.research.stlouisfed.org\/category\/fred-announcements\/#listItem","name":"FRED Announcements"}},{"@type":"ListItem","@id":"https:\/\/news.research.stlouisfed.org\/category\/fred-announcements\/#listItem","position":2,"name":"FRED Announcements","previousItem":{"@type":"ListItem","@id":"https:\/\/news.research.stlouisfed.org#listItem","name":"Home"}}]},{"@type":"CollectionPage","@id":"https:\/\/news.research.stlouisfed.org\/category\/fred-announcements\/#collectionpage","url":"https:\/\/news.research.stlouisfed.org\/category\/fred-announcements\/","name":"FRED Announcements | St. Louis Fed Economic Research","inLanguage":"en-US","isPartOf":{"@id":"https:\/\/news.research.stlouisfed.org\/#website"},"breadcrumb":{"@id":"https:\/\/news.research.stlouisfed.org\/category\/fred-announcements\/#breadcrumblist"}},{"@type":"Organization","@id":"https:\/\/news.research.stlouisfed.org\/#organization","name":"St. Louis Fed Economic Research","description":"Advancing Economic Knowledge Through Research & Data","url":"https:\/\/news.research.stlouisfed.org\/"},{"@type":"WebSite","@id":"https:\/\/news.research.stlouisfed.org\/#website","url":"https:\/\/news.research.stlouisfed.org\/","name":"St. Louis Fed Economic Research","description":"Advancing Economic Knowledge Through Research & Data","inLanguage":"en-US","publisher":{"@id":"https:\/\/news.research.stlouisfed.org\/#organization"}}]}
+		</script>
+		<!-- All in One SEO -->
+
+<link rel="alternate" type="application/rss+xml" title="St. Louis Fed Economic Research &raquo; Feed" href="https://news.research.stlouisfed.org/feed/" />
+<link rel="alternate" type="application/rss+xml" title="St. Louis Fed Economic Research &raquo; Comments Feed" href="https://news.research.stlouisfed.org/comments/feed/" />
+<link rel="alternate" type="application/rss+xml" title="St. Louis Fed Economic Research &raquo; FRED Announcements Category Feed" href="https://news.research.stlouisfed.org/category/fred-announcements/feed/" />
+		<!-- This site uses the Google Analytics by MonsterInsights plugin v9.9.0 - Using Analytics tracking - https://www.monsterinsights.com/ -->
+		<!-- Note: MonsterInsights is not currently configured on this site. The site owner needs to authenticate with Google Analytics in the MonsterInsights settings panel. -->
+					<!-- No tracking code set -->
+				<!-- / Google Analytics by MonsterInsights -->
+		<script type="text/javascript">
+/* <![CDATA[ */
+window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/16.0.1\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/16.0.1\/svg\/","svgExt":".svg","source":{"concatemoji":"https:\/\/news.research.stlouisfed.org\/wp-includes\/js\/wp-emoji-release.min.js?ver=6.8.3"}};
+/*! This file is auto-generated */
+!function(s,n){var o,i,e;function c(e){try{var t={supportTests:e,timestamp:(new Date).valueOf()};sessionStorage.setItem(o,JSON.stringify(t))}catch(e){}}function p(e,t,n){e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(t,0,0);var t=new Uint32Array(e.getImageData(0,0,e.canvas.width,e.canvas.height).data),a=(e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(n,0,0),new Uint32Array(e.getImageData(0,0,e.canvas.width,e.canvas.height).data));return t.every(function(e,t){return e===a[t]})}function u(e,t){e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(t,0,0);for(var n=e.getImageData(16,16,1,1),a=0;a<n.data.length;a++)if(0!==n.data[a])return!1;return!0}function f(e,t,n,a){switch(t){case"flag":return n(e,"\ud83c\udff3\ufe0f\u200d\u26a7\ufe0f","\ud83c\udff3\ufe0f\u200b\u26a7\ufe0f")?!1:!n(e,"\ud83c\udde8\ud83c\uddf6","\ud83c\udde8\u200b\ud83c\uddf6")&&!n(e,"\ud83c\udff4\udb40\udc67\udb40\udc62\udb40\udc65\udb40\udc6e\udb40\udc67\udb40\udc7f","\ud83c\udff4\u200b\udb40\udc67\u200b\udb40\udc62\u200b\udb40\udc65\u200b\udb40\udc6e\u200b\udb40\udc67\u200b\udb40\udc7f");case"emoji":return!a(e,"\ud83e\udedf")}return!1}function g(e,t,n,a){var r="undefined"!=typeof WorkerGlobalScope&&self instanceof WorkerGlobalScope?new OffscreenCanvas(300,150):s.createElement("canvas"),o=r.getContext("2d",{willReadFrequently:!0}),i=(o.textBaseline="top",o.font="600 32px Arial",{});return e.forEach(function(e){i[e]=t(o,e,n,a)}),i}function t(e){var t=s.createElement("script");t.src=e,t.defer=!0,s.head.appendChild(t)}"undefined"!=typeof Promise&&(o="wpEmojiSettingsSupports",i=["flag","emoji"],n.supports={everything:!0,everythingExceptFlag:!0},e=new Promise(function(e){s.addEventListener("DOMContentLoaded",e,{once:!0})}),new Promise(function(t){var n=function(){try{var e=JSON.parse(sessionStorage.getItem(o));if("object"==typeof e&&"number"==typeof e.timestamp&&(new Date).valueOf()<e.timestamp+604800&&"object"==typeof e.supportTests)return e.supportTests}catch(e){}return null}();if(!n){if("undefined"!=typeof Worker&&"undefined"!=typeof OffscreenCanvas&&"undefined"!=typeof URL&&URL.createObjectURL&&"undefined"!=typeof Blob)try{var e="postMessage("+g.toString()+"("+[JSON.stringify(i),f.toString(),p.toString(),u.toString()].join(",")+"));",a=new Blob([e],{type:"text/javascript"}),r=new Worker(URL.createObjectURL(a),{name:"wpTestEmojiSupports"});return void(r.onmessage=function(e){c(n=e.data),r.terminate(),t(n)})}catch(e){}c(n=g(i,f,p,u))}t(n)}).then(function(e){for(var t in e)n.supports[t]=e[t],n.supports.everything=n.supports.everything&&n.supports[t],"flag"!==t&&(n.supports.everythingExceptFlag=n.supports.everythingExceptFlag&&n.supports[t]);n.supports.everythingExceptFlag=n.supports.everythingExceptFlag&&!n.supports.flag,n.DOMReady=!1,n.readyCallback=function(){n.DOMReady=!0}}).then(function(){return e}).then(function(){var e;n.supports.everything||(n.readyCallback(),(e=n.source||{}).concatemoji?t(e.concatemoji):e.wpemoji&&e.twemoji&&(t(e.twemoji),t(e.wpemoji)))}))}((window,document),window._wpemojiSettings);
+/* ]]> */
+</script>
+<style id='wp-emoji-styles-inline-css' type='text/css'>
+
+	img.wp-smiley, img.emoji {
+		display: inline !important;
+		border: none !important;
+		box-shadow: none !important;
+		height: 1em !important;
+		width: 1em !important;
+		margin: 0 0.07em !important;
+		vertical-align: -0.1em !important;
+		background: none !important;
+		padding: 0 !important;
+	}
+</style>
+<link rel='stylesheet' id='wp-block-library-css' href='https://news.research.stlouisfed.org/wp-includes/css/dist/block-library/style.min.css?ver=6.8.3' type='text/css' media='all' />
+<style id='classic-theme-styles-inline-css' type='text/css'>
+/*! This file is auto-generated */
+.wp-block-button__link{color:#fff;background-color:#32373c;border-radius:9999px;box-shadow:none;text-decoration:none;padding:calc(.667em + 2px) calc(1.333em + 2px);font-size:1.125em}.wp-block-file__button{background:#32373c;color:#fff;text-decoration:none}
+</style>
+<style id='global-styles-inline-css' type='text/css'>
+:root{--wp--preset--aspect-ratio--square: 1;--wp--preset--aspect-ratio--4-3: 4/3;--wp--preset--aspect-ratio--3-4: 3/4;--wp--preset--aspect-ratio--3-2: 3/2;--wp--preset--aspect-ratio--2-3: 2/3;--wp--preset--aspect-ratio--16-9: 16/9;--wp--preset--aspect-ratio--9-16: 9/16;--wp--preset--color--black: #000000;--wp--preset--color--cyan-bluish-gray: #abb8c3;--wp--preset--color--white: #ffffff;--wp--preset--color--pale-pink: #f78da7;--wp--preset--color--vivid-red: #cf2e2e;--wp--preset--color--luminous-vivid-orange: #ff6900;--wp--preset--color--luminous-vivid-amber: #fcb900;--wp--preset--color--light-green-cyan: #7bdcb5;--wp--preset--color--vivid-green-cyan: #00d084;--wp--preset--color--pale-cyan-blue: #8ed1fc;--wp--preset--color--vivid-cyan-blue: #0693e3;--wp--preset--color--vivid-purple: #9b51e0;--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple: linear-gradient(135deg,rgba(6,147,227,1) 0%,rgb(155,81,224) 100%);--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan: linear-gradient(135deg,rgb(122,220,180) 0%,rgb(0,208,130) 100%);--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange: linear-gradient(135deg,rgba(252,185,0,1) 0%,rgba(255,105,0,1) 100%);--wp--preset--gradient--luminous-vivid-orange-to-vivid-red: linear-gradient(135deg,rgba(255,105,0,1) 0%,rgb(207,46,46) 100%);--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray: linear-gradient(135deg,rgb(238,238,238) 0%,rgb(169,184,195) 100%);--wp--preset--gradient--cool-to-warm-spectrum: linear-gradient(135deg,rgb(74,234,220) 0%,rgb(151,120,209) 20%,rgb(207,42,186) 40%,rgb(238,44,130) 60%,rgb(251,105,98) 80%,rgb(254,248,76) 100%);--wp--preset--gradient--blush-light-purple: linear-gradient(135deg,rgb(255,206,236) 0%,rgb(152,150,240) 100%);--wp--preset--gradient--blush-bordeaux: linear-gradient(135deg,rgb(254,205,165) 0%,rgb(254,45,45) 50%,rgb(107,0,62) 100%);--wp--preset--gradient--luminous-dusk: linear-gradient(135deg,rgb(255,203,112) 0%,rgb(199,81,192) 50%,rgb(65,88,208) 100%);--wp--preset--gradient--pale-ocean: linear-gradient(135deg,rgb(255,245,203) 0%,rgb(182,227,212) 50%,rgb(51,167,181) 100%);--wp--preset--gradient--electric-grass: linear-gradient(135deg,rgb(202,248,128) 0%,rgb(113,206,126) 100%);--wp--preset--gradient--midnight: linear-gradient(135deg,rgb(2,3,129) 0%,rgb(40,116,252) 100%);--wp--preset--font-size--small: 13px;--wp--preset--font-size--medium: 20px;--wp--preset--font-size--large: 36px;--wp--preset--font-size--x-large: 42px;--wp--preset--spacing--20: 0.44rem;--wp--preset--spacing--30: 0.67rem;--wp--preset--spacing--40: 1rem;--wp--preset--spacing--50: 1.5rem;--wp--preset--spacing--60: 2.25rem;--wp--preset--spacing--70: 3.38rem;--wp--preset--spacing--80: 5.06rem;--wp--preset--shadow--natural: 6px 6px 9px rgba(0, 0, 0, 0.2);--wp--preset--shadow--deep: 12px 12px 50px rgba(0, 0, 0, 0.4);--wp--preset--shadow--sharp: 6px 6px 0px rgba(0, 0, 0, 0.2);--wp--preset--shadow--outlined: 6px 6px 0px -3px rgba(255, 255, 255, 1), 6px 6px rgba(0, 0, 0, 1);--wp--preset--shadow--crisp: 6px 6px 0px rgba(0, 0, 0, 1);}:where(.is-layout-flex){gap: 0.5em;}:where(.is-layout-grid){gap: 0.5em;}body .is-layout-flex{display: flex;}.is-layout-flex{flex-wrap: wrap;align-items: center;}.is-layout-flex > :is(*, div){margin: 0;}body .is-layout-grid{display: grid;}.is-layout-grid > :is(*, div){margin: 0;}:where(.wp-block-columns.is-layout-flex){gap: 2em;}:where(.wp-block-columns.is-layout-grid){gap: 2em;}:where(.wp-block-post-template.is-layout-flex){gap: 1.25em;}:where(.wp-block-post-template.is-layout-grid){gap: 1.25em;}.has-black-color{color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-color{color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-color{color: var(--wp--preset--color--white) !important;}.has-pale-pink-color{color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-color{color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-color{color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-color{color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-color{color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-color{color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-color{color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-color{color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-color{color: var(--wp--preset--color--vivid-purple) !important;}.has-black-background-color{background-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-background-color{background-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-background-color{background-color: var(--wp--preset--color--white) !important;}.has-pale-pink-background-color{background-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-background-color{background-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-background-color{background-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-background-color{background-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-background-color{background-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-background-color{background-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-background-color{background-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-background-color{background-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-background-color{background-color: var(--wp--preset--color--vivid-purple) !important;}.has-black-border-color{border-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-border-color{border-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-border-color{border-color: var(--wp--preset--color--white) !important;}.has-pale-pink-border-color{border-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-border-color{border-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-border-color{border-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-border-color{border-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-border-color{border-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-border-color{border-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-border-color{border-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-border-color{border-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-border-color{border-color: var(--wp--preset--color--vivid-purple) !important;}.has-vivid-cyan-blue-to-vivid-purple-gradient-background{background: var(--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple) !important;}.has-light-green-cyan-to-vivid-green-cyan-gradient-background{background: var(--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan) !important;}.has-luminous-vivid-amber-to-luminous-vivid-orange-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange) !important;}.has-luminous-vivid-orange-to-vivid-red-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-orange-to-vivid-red) !important;}.has-very-light-gray-to-cyan-bluish-gray-gradient-background{background: var(--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray) !important;}.has-cool-to-warm-spectrum-gradient-background{background: var(--wp--preset--gradient--cool-to-warm-spectrum) !important;}.has-blush-light-purple-gradient-background{background: var(--wp--preset--gradient--blush-light-purple) !important;}.has-blush-bordeaux-gradient-background{background: var(--wp--preset--gradient--blush-bordeaux) !important;}.has-luminous-dusk-gradient-background{background: var(--wp--preset--gradient--luminous-dusk) !important;}.has-pale-ocean-gradient-background{background: var(--wp--preset--gradient--pale-ocean) !important;}.has-electric-grass-gradient-background{background: var(--wp--preset--gradient--electric-grass) !important;}.has-midnight-gradient-background{background: var(--wp--preset--gradient--midnight) !important;}.has-small-font-size{font-size: var(--wp--preset--font-size--small) !important;}.has-medium-font-size{font-size: var(--wp--preset--font-size--medium) !important;}.has-large-font-size{font-size: var(--wp--preset--font-size--large) !important;}.has-x-large-font-size{font-size: var(--wp--preset--font-size--x-large) !important;}
+:where(.wp-block-post-template.is-layout-flex){gap: 1.25em;}:where(.wp-block-post-template.is-layout-grid){gap: 1.25em;}
+:where(.wp-block-columns.is-layout-flex){gap: 2em;}:where(.wp-block-columns.is-layout-grid){gap: 2em;}
+:root :where(.wp-block-pullquote){font-size: 1.5em;line-height: 1.6;}
+</style>
+<link rel="https://api.w.org/" href="https://news.research.stlouisfed.org/wp-json/" /><link rel="alternate" title="JSON" type="application/json" href="https://news.research.stlouisfed.org/wp-json/wp/v2/categories/4" /><link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://news.research.stlouisfed.org/xmlrpc.php?rsd" />
+<meta name="generator" content="WordPress 6.8.3" />
+			<style type="text/css" media="screen">
+				/**
+				 * Plugin Name: Subtitles
+				 * Plugin URI: http://wordpress.org/plugins/subtitles/
+				 * Description: Easily add subtitles into your WordPress posts, pages, custom post types, and themes.
+				 * Author: We Cobble
+				 * Author URI: https://wecobble.com/
+				 * Version: 2.2.0
+				 * License: GNU General Public License v2 or later
+				 * License URI: http://www.gnu.org/licenses/gpl-2.0.html
+				 */
+
+				/**
+				 * Be explicit about this styling only applying to spans,
+				 * since that's the default markup that's returned by
+				 * Subtitles. If a developer overrides the default subtitles
+				 * markup with another element or class, we don't want to stomp
+				 * on that.
+				 *
+				 * @since 1.0.0
+				 */
+				span.entry-subtitle {
+					display: block; /* Put subtitles on their own line by default. */
+					font-size: 0.53333333333333em; /* Sensible scaling. It's assumed that post titles will be wrapped in heading tags. */
+				}
+				/**
+				 * If subtitles are shown in comment areas, we'll hide them by default.
+				 *
+				 * @since 1.0.5
+				 */
+				#comments .comments-title span.entry-subtitle {
+					display: none;
+				}
+			</style><link rel="icon" href="https://news.research.stlouisfed.org/wp-content/uploads/2017/06/favicon.png" sizes="32x32" />
+<link rel="icon" href="https://news.research.stlouisfed.org/wp-content/uploads/2017/06/favicon.png" sizes="192x192" />
+<link rel="apple-touch-icon" href="https://news.research.stlouisfed.org/wp-content/uploads/2017/06/favicon.png" />
+<meta name="msapplication-TileImage" content="https://news.research.stlouisfed.org/wp-content/uploads/2017/06/favicon.png" />
+</head>
+
+<body class="archive category category-fred-announcements category-4 wp-theme-research-new">
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-52PLNR"
+                  height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap" rel="stylesheet">
+<!--googleoff: snippet-->
+<a href="#content-container" class="skip-to">Skip to main content</a>
+<!--googleon: snippet-->
+<a id="top"></a>
+<!--Move content shift styles internal to boost performance scores-->
+<style>
+    #zoom-and-share {
+        position:relative;
+        background-color: rgb(225, 233, 240);
+        min-height: 437px;
+    }
+</style>
+<div id="container">
+    <header>
+        <nav class="navbar navbar-expand-lg header-not-home py-0 EL-nonhomepage-header EL-header-and-subheader">
+            <div id="hidden-user" class='hide'></div>
+            <div id="action-modal"></div>
+            <div class="col-12 d-none d-lg-block">
+                <div class="col-12 d-none d-lg-flex">
+                    <a class="bank-logo-gtm" target="_blank" href="https://www.stlouisfed.org">
+                        <img class="research-logo-gtm" src="//fred.stlouisfed.org/images/Small_Stl_Fed_Logo.svg" alt="Federal Reserve Bank of St. Louis">
+                    </a>
+                    <hr class=" hr-post-frb-stls-logo">
+                </div>
+                <div class="col-12 d-none d-lg-flex">
+                    <div class="col-3 align-content-center">
+                        <a class="fred-logo-gtm" target="_blank" href="//fred.stlouisfed.org">
+                            <img class="header-logo-eagle" src="//fred.stlouisfed.org/images/FRED_Logo_Header.svg" alt="FRED homepage">
+                        </a>
+                    </div>    
+                    <div class="col-9 d-none d-lg-flex align-content-center justify-content-end">
+                        <div class='input-group EL-header-search-container' id="search-container-header">
+    <select id="head-search" class='EL-header-search'>
+        <option></option>
+    </select>
+
+    <button class="search-submit-select2" id="select2-nav-search-button" type="submit" aria-label="Submit Search">
+        <i class="fa fa-search" title="Submit Search"></i>
+    </button>
+</div>
+                        <nav id="blueheader-navbar-nav">
+                            <ul id="blueheader-navbar" class="nav float-end">
+                                <li class="blueheader-navbar-item center-content-vertically switch-products-gtm">
+                                    <span id="switchprod-popover-container" class="switchprod-popover-container">
+
+  <button type="button" id="switchProd" data-toggle="popover" aria-controls="switch-prod-list" 
+    aria-haspopup="true" class="header-popover" aria-label="Toggle Explore Our Apps Menu">
+    <img class="Switch-Products-gtm" src="//fred.stlouisfed.org/images/Waffle_Menu_off.svg" alt="Toggle Explore Our Apps Menu" />
+  </button>
+</span>
+
+<div id="switchprod-popover" class="hide">
+  <!-- empty alt values handle older screen readers that don't handle WAI-ARIA roles. Both methods allow the screenreader to skip the image and not read the filename to the user. -->
+<h2 class="explore-products-desk">Explore Our Apps</h2>
+<hr>
+<ul id="switch-prod-list" class="list-group switch-products-list" role="menu" aria-labelledby="switchProduct">
+    <li role="presentaion" id="ham-fred-dev" class="list-group-item product-fred">
+      <a class="d-flex burger-fred-gtm" role="menuitem" href="//fred.stlouisfed.org">
+        <div>
+          <img class="switch-icon-padding burger-fred-gtm" src="//fred.stlouisfed.org/images/FRED_Logo_for_Waffle.svg" alt="" role="presentation">
+        </div>
+        <div>
+          <h3 class="burger-fred-gtm">FRED</h3>
+          <p>Tools and resources to find and use economic data worldwide</p>
+        </div>
+      </a>
+    </li>
+    <li role="presentaion" id="ham-fraser" class="list-group-item">
+      <a rel="noopener" target="_blank" class="d-flex burger-fraser-gtm" role="menuitem" href="https://fraser.stlouisfed.org/">
+        <div>
+          <img class="switch-icon-padding burger-fraser-gtm" src="//fred.stlouisfed.org/images/FRASER_Logo_for_Waffle.svg" alt="" role="presentation">
+        </div>
+        <div>
+          <h3 class="burger-fraser-gtm">FRASER</h3>
+          <p>U.S. financial, economic, and banking history</p>
+        </div>
+      </a>
+    </li>
+    <li role="presentaion" id="ham-alfred" class="list-group-item">
+      <a rel="noopener" target="_blank" class="d-flex burger-alfred-gtm" role="menuitem" href="//alfred.stlouisfed.org">
+        <div>
+          <img class="switch-icon-padding burger-alfred-gtm" src="//fred.stlouisfed.org/images/ALFRED_Logo_for_Waffle.svg" alt="" role="presentation">
+        </div>
+        <div>
+          <h3 class="burger-alfred-gtm">ALFRED</h3>
+          <p>Vintages of economic data from specific dates in history</p>
+        </div>
+      </a>
+    </li>
+    <li role="presentaion" id="ham-ecolowdown" class="list-group-item">
+      <a rel="noopener" target="_blank" class="d-flex burger-econlowdown-gtm" role="menuitem" href="https://cassidi.stlouisfed.org/index">
+        <div>
+          <img class="burger-econlowdown-gtm" src="//fred.stlouisfed.org/images/CASSIDI_Logo_for_Waffle.svg" alt="" role="presentation">
+        </div>
+        <div>
+          <h3 class="burger-econlowdown-gtm">CASSIDI</h3>
+          <p>View banking market concentrations and perform HHI analysis</p>
+        </div>
+      </a>
+  </li>
+</ul>
+</div>                                </li>
+                                <li class="blueheader-navbar-item center-content-vertically">
+                                    <div class="hidden-xs" id="signin-wrap">
+                                        <div id="user-nav" class="EL-my-account-link"></div>
+                                    </div>
+                                </li>
+                            </ul>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 d-lg-none">
+                <div class="fred-logo-div col-6 align-content-center">
+                    <a class="fred-logo-gtm" href="//fred.stlouisfed.org/">
+                        <img class="header-logo" src="//fred.stlouisfed.org/images/FRED_Logo_Header_white_text.svg" alt="FRED homepage">
+                    </a>
+                </div>
+                <div class="blueheader-navbar center-content-vertically">
+                    <button type="button" id="search-btn-open" aria-controls="mobile-search-container" 
+    onclick="mobileSearchToggle('open')" aria-label="Open Search">
+    <i class="fas fa-solid fa-search" title="Open Search"></i>
+</button>
+<button type="button" id="search-btn-close" class="hide" aria-controls="mobile-search-container" 
+    onclick="mobileSearchToggle('close')" aria-label="Close Search" disabled="true">
+    <i class="fa-solid fa-x" title="Close Search"></i>
+</button>  
+                    <button type="button" id="hamburger-btn-open" class="hamburger-gtm" aria-controls="hamburger-drawer" 
+    onclick="hamburgerMenuToggle('open')" aria-label="Open Mobile Menu">
+    <i id="hamburger" class="fas fa-bars hamburger-header" title="Open Mobile Menu"></i>
+</button> 
+<button type="button" id="hamburger-btn-close" class="close-btn burger-close-gtm hide" aria-controls="hamburger-drawer" 
+    onclick="hamburgerMenuToggle('close')" aria-label="Close Mobile Menu">
+    <i class="fa-solid fa-x" title="Close Mobile Menu"></i>
+</button> 
+                </div>
+            </div>
+            <div id="notifications-container"></div>
+        </nav>
+        <div class="blueheader-navbar d-lg-none">
+            <div id="mobile-search-container" class="hide col-12">
+                <input type="hidden" id="mobile-search-input" class="search-text-input" placeholder="Search FRED Data..." disabled="disabled">
+                <button type="submit" class="search-submit-select2" id="mobile-search-submit" disabled="disabled">
+                    <i class="fas fa-solid fa-search" title="Search"></i>
+                </button>
+            </div>
+            <nav id="hamburger-drawer" class="hide">
+    <div class="slide-content">
+        <div id="hamburger-navigation">
+            <div id="hamburger-home">
+                <ul class="list-group flush-list hamburger-list col-12">
+                    <li class="list-group-item">
+                        <a class="burger-calendar-gtm" href="https://fred.stlouisfed.org/releases/calendar">Release Calendar</a>
+                    </li>
+                    <li class="list-group-item hamburger-menu-item">
+                        <button type="button" class="burger-tools-gtm" onclick="toggleMenuNavigation('hamburger-tools', true)" aria-controls="hamburger-tools">Tools
+                            <i class="fas fa-solid fa-angle-down" title="Toggle FRED Tools Submenu"></i>
+                        </button>
+                        <ul id="hamburger-tools" role="menu" class="hide list-group hamburger-submenu-list col-12">
+                            <li role="presentation" class="list-group-item">
+                                <a role="menuitem" class="burger-fred-excel-add-in-gtm" href="https://fred.stlouisfed.org/fred-addin"> FRED Add-in for Excel</a>
+                            </li>
+                            <li role="presentation" class="list-group-item">
+                                <a role="menuitem" class="burger-fred-api-gtm" href="https://fred.stlouisfed.org/docs/api/fred"> FRED API</a>
+                            </li>
+                            <li role="presentation" class="list-group-item">
+                                <a role="menuitem" class="burger-fred-mobile-apps-gtm" href="https://fred.stlouisfed.org/fred-mobile"> FRED Mobile Apps</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="list-group-item">
+                        <a class="burger-news-gtm" href="https://news.research.stlouisfed.org/category/fred-announcements/">News</a>
+                    </li>
+                    <li class="list-group-item">
+                        <a class="burger-blog-gtm" href="https://fredblog.stlouisfed.org">Blog</a>
+                    </li>
+                    <li class="list-group-item hamburger-menu-item">
+                        <button type="button" class="burger-about-gtm" onclick="toggleMenuNavigation('hamburger-about-fred', true)" aria-controls="hamburger-about-fred">About
+                            <i class="fas fa-solid fa-angle-down" title="Toggle About FRED Submenu"></i>
+                        </button>
+                        <ul id="hamburger-about-fred" role="menu" class="hide list-group hamburger-submenu-list col-12">
+                            <li role="presentation" class="list-group-item">
+                                <a role="menuitem" class="burger-fred-about-gtm" href="https://fredhelp.stlouisfed.org/fred/about/about-fred/what-is-fred/"> What is FRED</a>
+                            </li>
+                            <li role="presentation" class="list-group-item">
+                                <a role="menuitem" class="burger-tutorials-gtm" href="https://fredhelp.stlouisfed.org"> Tutorials</a>
+                            </li>
+                            <li role="presentation" class="list-group-item">
+                                <a role="menuitem" class="burger-data-literacy-gtm" href="https://fred.stlouisfed.org/digital-badges/">
+                                Digital Badges
+                                </a>
+                            </li>
+                            <li role="presentation" class="list-group-item">
+                                <a role="menuitem" class="burger-contact-us-gtm" href="https://fred.stlouisfed.org/contactus/"> Contact Us</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="list-group-item">
+                        <a class="burger-myaccount-gtm" href="https://fredaccount.stlouisfed.org">My Account</a>
+                    </li>
+                    <li class="list-group-item hamburger-menu-item">
+                        <button type="button" class="burger-switch-gtm" onclick="toggleMenuNavigation('hamburger-products', true)" aria-controls="hamburger-products">
+                            Explore Our Apps
+                            <i class="fas fa-solid fa-angle-down" title="Toggle Apps Submenu"></i>
+                        </button>
+                        <div id="hamburger-products" class="hide">
+                            <!-- empty alt values handle older screen readers that don't handle WAI-ARIA roles. Both methods allow the screenreader to skip the image and not read the filename to the user. -->
+<h2 class="explore-products-desk">Explore Our Apps</h2>
+<hr>
+<ul id="switch-prod-list" class="list-group switch-products-list" role="menu" aria-labelledby="switchProduct">
+    <li role="presentaion" id="ham-fred-dev" class="list-group-item product-fred">
+      <a class="d-flex burger-fred-gtm" role="menuitem" href="//fred.stlouisfed.org">
+        <div>
+          <img class="switch-icon-padding burger-fred-gtm" src="//fred.stlouisfed.org/images/FRED_Logo_for_Waffle.svg" alt="" role="presentation">
+        </div>
+        <div>
+          <h3 class="burger-fred-gtm">FRED</h3>
+          <p>Tools and resources to find and use economic data worldwide</p>
+        </div>
+      </a>
+    </li>
+    <li role="presentaion" id="ham-fraser" class="list-group-item">
+      <a rel="noopener" target="_blank" class="d-flex burger-fraser-gtm" role="menuitem" href="https://fraser.stlouisfed.org/">
+        <div>
+          <img class="switch-icon-padding burger-fraser-gtm" src="//fred.stlouisfed.org/images/FRASER_Logo_for_Waffle.svg" alt="" role="presentation">
+        </div>
+        <div>
+          <h3 class="burger-fraser-gtm">FRASER</h3>
+          <p>U.S. financial, economic, and banking history</p>
+        </div>
+      </a>
+    </li>
+    <li role="presentaion" id="ham-alfred" class="list-group-item">
+      <a rel="noopener" target="_blank" class="d-flex burger-alfred-gtm" role="menuitem" href="//alfred.stlouisfed.org">
+        <div>
+          <img class="switch-icon-padding burger-alfred-gtm" src="//fred.stlouisfed.org/images/ALFRED_Logo_for_Waffle.svg" alt="" role="presentation">
+        </div>
+        <div>
+          <h3 class="burger-alfred-gtm">ALFRED</h3>
+          <p>Vintages of economic data from specific dates in history</p>
+        </div>
+      </a>
+    </li>
+    <li role="presentaion" id="ham-ecolowdown" class="list-group-item">
+      <a rel="noopener" target="_blank" class="d-flex burger-econlowdown-gtm" role="menuitem" href="https://cassidi.stlouisfed.org/index">
+        <div>
+          <img class="burger-econlowdown-gtm" src="//fred.stlouisfed.org/images/CASSIDI_Logo_for_Waffle.svg" alt="" role="presentation">
+        </div>
+        <div>
+          <h3 class="burger-econlowdown-gtm">CASSIDI</h3>
+          <p>View banking market concentrations and perform HHI analysis</p>
+        </div>
+      </a>
+  </li>
+</ul>
+                        </div>
+                    </li>
+                    <li class="list-group-item">
+                        <a class="burger-stls-home-gtm" href="https://www.stlouisfed.org/">STL Fed Home Page</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</nav>
+        </div>
+        <div class='navbar navbar-expand-lg sub-header EL-header-and-subheader'>
+            <div class="container-fluid gx-0">
+                <div class="col d-flex justify-content-end">
+                    <div class="container-fluid gx-0">
+                        
+<hr class="col-12 hr-pre-subheader-nav d-none d-lg-block">
+<nav class="col-12 navbar EL-main-nav navbar-expand-sm d-none d-lg-flex" id="subheader-nav">
+    <div class="navbar-collapse collapse d-flex justify-content-end">
+        <ul id="subheader-navbar" class="nav float-end navbar-nav">
+            <li class="nav-li-subheader">
+                <a href="https://fred.stlouisfed.org/releases/calendar" class="nav-releasecal-subheader-gtm">Release Calendar</a>
+            </li>
+            <li class="nav-li-subheader">
+              <span class="sub-header-nav-tools-gtm  header-popover fred-tools-container">
+  <button type="button" id="fred-tools-link" class="align-icon header-popover tools-gtm" 
+    aria-haspopup="true" aria-controls="fred-tools-menu" data-toggle="popover" 
+    onclick="toggleMenuNavigation('fred-tools-popover')">Tools
+    <i class="fas fa-angle-down" title="Toggle Tools Menu"></i>
+  </button>
+</span>
+
+<div id="fred-tools-popover" class="hide">
+  <ul id="fred-tools-menu" role="menu" class="header-list-popover list-group flush-list">
+    <li role="presentation" class="list-group-item">
+      <a role="menuitem" class="homepage-nav-tools-fred-excel-addin-gtm" href="https://fred.stlouisfed.org/fred-addin">FRED Add-in for Excel</a>
+    </li>
+    <li role="presentation" class="list-group-item">
+      <a role="menuitem" class="homepage-nav-tools-fred-api-gtm" href="https://fred.stlouisfed.org/docs/api/fred">FRED API</a>
+    </li>
+    <li role="presentation" class="list-group-item">
+      <a role="menuitem" class="homepage-nav-tools-fred-mobile-gtm" href="https://fred.stlouisfed.org/fred-mobile">FRED Mobile Apps</a>
+    </li>
+  </ul>
+</div>            </li>
+            <li class="nav-li-subheader">
+                <a href="https://news.research.stlouisfed.org/category/fred-announcements/" class="nav-news-subheader-gtm">News</a>
+            </li>
+            <li class="nav-li-subheader">
+                <a href="https://fredblog.stlouisfed.org" class="nav-fredblog-subheader-gtm">Blog</a>
+            </li>
+            <li class="nav-li-subheader">
+              
+<span class="subheader-nav-about-gtm about-fred-container">
+  <button type="button" id="about-fred-link" class="align-icon header-popover about-gtm" 
+    data-toggle="popover" aria-controls="about-fred-menu" aria-haspopup="true"
+    onclick="toggleMenuNavigation('about-fred-popover')">About
+    <i class="fas fa-angle-down" alt="Toggle About Menu"></i>
+  </button>
+</span>
+
+<div id="about-fred-popover" class="hide">
+  <ul id="about-fred-menu" role="menu" aria-labelledby="about-fred-link" class="header-list-popover list-group flush-list">
+    <li role="presentation" class="list-group-item">
+      <a role="menuitem" class="about-fred-what-is-gtm" href="https://fredhelp.stlouisfed.org/fred/about/about-fred/what-is-fred/">
+        What is FRED
+      </a>
+    </li>
+    <li role="presentation" class="list-group-item">
+      <a role="menuitem" class="about-fred-tutorials-gtm" href="https://fredhelp.stlouisfed.org">
+        Tutorials
+      </a>
+    </li>
+    <li role="presentation" class="list-group-item">
+      <a role="menuitem" class="about-research-data-literacy-gtm" href="https://fred.stlouisfed.org/digital-badges/">
+        Digital Badges
+      </a>
+    </li>
+    <li role="presentation" class="list-group-item">
+      <a role="menuitem" class="about-fred-contact-gtm" href="https://fred.stlouisfed.org/contactus/ ">
+        Contact Us
+      </a>
+    </li>
+  </ul>
+</div>
+            </li>
+        </ul>
+    </div>
+</nav>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <div class="clear row gx-0 container" id="content-container"><div class="row">
+<div class="col-xs-12 col-sm-3 content-2columns-left">
+		<div id="primary" class="widget-area" role="complementary">
+
+<p><a href="/feed/" title="RSS Feed">RSS Feed <i class="fa fa-rss" style="color:#FF6600"></i></a></p>
+
+		
+		<h2 class="widget-title">Recent Posts</h2>
+		<ul>
+											<li>
+					<a href="https://news.research.stlouisfed.org/2026/08/fred-con-navigating-trust-ai-storytelling-in-a-world-of-data/">FRED Con: Navigating Trust, AI &amp; Storytelling in a World of Data</a>
+									</li>
+											<li>
+					<a href="https://news.research.stlouisfed.org/2026/08/fred-adds-data-on-probability-of-recessions/">FRED Adds Data on Probability of Recessions</a>
+									</li>
+											<li>
+					<a href="https://news.research.stlouisfed.org/2026/07/fred-adds-data-about-the-adoption-of-generative-artificial-intelligence/">FRED Adds Data About the Adoption of Generative Artificial Intelligence</a>
+									</li>
+											<li>
+					<a href="https://news.research.stlouisfed.org/2026/06/fred-adds-small-business-credit-survey-sbcs-data/">FRED Adds Small Business Credit Survey (SBCS) Data</a>
+									</li>
+											<li>
+					<a href="https://news.research.stlouisfed.org/2026/06/fred-adds-survey-of-household-economics-and-decisionmaking-shed-data/">FRED Adds Survey of Household Economics and Decisionmaking (SHED) Data</a>
+									</li>
+					</ul>
+
+		<iframe style="border: 1px solid #333333; overflow: hidden; width: 190px; height: 490px;margin:1em 0" 
+			src="//research.stlouisfed.org/fred-glance-widget.php" height="240" width="320" frameborder="0" scrolling="no"></iframe>		</div><!-- #primary .widget-area -->
+
+</div>
+<div class="col-xs-12 col-sm-9 content-2columns-main">
+
+
+	<h1>FRED Announcements</h1>
+			
+	<div id="breadcrumbs">
+	<div id="nav-above" class="navigation">
+		<div class="nav-previous" style="width:45%;float:left"><a href="https://news.research.stlouisfed.org/category/fred-announcements/page/2/" ><span class="meta-nav">&larr;</span> Older posts</a></div>
+		<div class="nav-next" style="float:right;text-align:right;width:45%"></div>
+		<br style="clear:both">
+	</div><!-- #nav-above -->
+	</div>
+
+
+
+
+			<div id="post-7052" class="post-7052 post type-post status-publish format-standard hentry category-fred-announcements">
+
+						<h2 class="entry-title"><a href="https://news.research.stlouisfed.org/2026/08/fred-con-navigating-trust-ai-storytelling-in-a-world-of-data/" title="Permalink to FRED Con: Navigating Trust, AI &amp; Storytelling in a World of Data" rel="bookmark">FRED Con: Navigating Trust, AI &amp; Storytelling in a World of Data</a></h2>
+						<div class="entry-meta">
+				<span class="meta-prep meta-prep-author">Posted on</span> <a href="https://news.research.stlouisfed.org/2026/08/fred-con-navigating-trust-ai-storytelling-in-a-world-of-data/" title="7:25 am" rel="bookmark" class="entry-date">August 11, 2026</a> 			</div><!-- .entry-meta -->
+
+				<div class="entry-summary">
+				<p>Mark your calendar to virtually attend the October 1st FRED Conference on the &#8220;now and next&#8221; of data.Update: The in-person event is now at capacity. The livestream, from 9am-4pm CT, will be available to view on this page. The program &hellip; <a href="https://news.research.stlouisfed.org/2026/08/fred-con-navigating-trust-ai-storytelling-in-a-world-of-data/">Continue reading <span class="meta-nav">&rarr;</span></a></p>
+			</div><!-- .entry-summary -->
+	
+			<div class="entry-utility seperator-bottom">
+									<span class="cat-links">
+						<span class="entry-utility-prep entry-utility-prep-cat-links">Posted in</span> <a href="https://news.research.stlouisfed.org/category/fred-announcements/" rel="category tag">FRED Announcements</a>					</span>
+															</div><!-- .entry-utility -->
+		</div><!-- #post-## -->
+
+		
+	
+
+
+			<div id="post-6946" class="post-6946 post type-post status-publish format-standard hentry category-fred-announcements">
+
+						<h2 class="entry-title"><a href="https://news.research.stlouisfed.org/2026/08/fred-adds-data-on-probability-of-recessions/" title="Permalink to FRED Adds Data on Probability of Recessions" rel="bookmark">FRED Adds Data on Probability of Recessions</a></h2>
+						<div class="entry-meta">
+				<span class="meta-prep meta-prep-author">Posted on</span> <a href="https://news.research.stlouisfed.org/2026/08/fred-adds-data-on-probability-of-recessions/" title="2:48 pm" rel="bookmark" class="entry-date">August 10, 2026</a> 			</div><!-- .entry-meta -->
+
+				<div class="entry-summary">
+				<p>FRED has added two data series about the monthly median (50th percentile) probability of recession for the United States and the Euro Area reported by researchers Francesco Furno and Domenico Giannone. Values range from 0 to 100, where values closer &hellip; <a href="https://news.research.stlouisfed.org/2026/08/fred-adds-data-on-probability-of-recessions/">Continue reading <span class="meta-nav">&rarr;</span></a></p>
+			</div><!-- .entry-summary -->
+	
+			<div class="entry-utility seperator-bottom">
+									<span class="cat-links">
+						<span class="entry-utility-prep entry-utility-prep-cat-links">Posted in</span> <a href="https://news.research.stlouisfed.org/category/fred-announcements/" rel="category tag">FRED Announcements</a>					</span>
+															</div><!-- .entry-utility -->
+		</div><!-- #post-## -->
+
+		
+	
+
+
+			<div id="post-1289" class="post-1289 post type-post status-publish format-standard hentry category-fred-announcements">
+
+						<h2 class="entry-title"><a href="https://news.research.stlouisfed.org/2026/07/fred-adds-data-about-the-adoption-of-generative-artificial-intelligence/" title="Permalink to FRED Adds Data About the Adoption of Generative Artificial Intelligence" rel="bookmark">FRED Adds Data About the Adoption of Generative Artificial Intelligence</a></h2>
+						<div class="entry-meta">
+				<span class="meta-prep meta-prep-author">Posted on</span> <a href="https://news.research.stlouisfed.org/2026/07/fred-adds-data-about-the-adoption-of-generative-artificial-intelligence/" title="1:33 pm" rel="bookmark" class="entry-date">July 24, 2026</a> 			</div><!-- .entry-meta -->
+
+				<div class="entry-summary">
+				<p>FRED has added 137 data series about the adoption of generative artificial intelligence (AI) technology in the United States, reported by Alexander Bick, Adam Blandin, and David Deming. The researchers use information collected through the Real-Time Population Survey (RPS) to &hellip; <a href="https://news.research.stlouisfed.org/2026/07/fred-adds-data-about-the-adoption-of-generative-artificial-intelligence/">Continue reading <span class="meta-nav">&rarr;</span></a></p>
+			</div><!-- .entry-summary -->
+	
+			<div class="entry-utility seperator-bottom">
+									<span class="cat-links">
+						<span class="entry-utility-prep entry-utility-prep-cat-links">Posted in</span> <a href="https://news.research.stlouisfed.org/category/fred-announcements/" rel="category tag">FRED Announcements</a>					</span>
+															</div><!-- .entry-utility -->
+		</div><!-- #post-## -->
+
+		
+	
+
+
+			<div id="post-2256" class="post-2256 post type-post status-publish format-standard hentry category-fred-announcements">
+
+						<h2 class="entry-title"><a href="https://news.research.stlouisfed.org/2026/06/fred-adds-small-business-credit-survey-sbcs-data/" title="Permalink to FRED Adds Small Business Credit Survey (SBCS) Data" rel="bookmark">FRED Adds Small Business Credit Survey (SBCS) Data</a></h2>
+						<div class="entry-meta">
+				<span class="meta-prep meta-prep-author">Posted on</span> <a href="https://news.research.stlouisfed.org/2026/06/fred-adds-small-business-credit-survey-sbcs-data/" title="9:19 am" rel="bookmark" class="entry-date">June 12, 2026</a> 			</div><!-- .entry-meta -->
+
+				<div class="entry-summary">
+				<p>FRED has added 420 data series from the Small Business Credit Survey (SBCS) reported by the Federal Reserve Bank of Cleveland. The SBCS captures the perspectives of business owners operating firms with fewer than 500 employees; it is conducted in &hellip; <a href="https://news.research.stlouisfed.org/2026/06/fred-adds-small-business-credit-survey-sbcs-data/">Continue reading <span class="meta-nav">&rarr;</span></a></p>
+			</div><!-- .entry-summary -->
+	
+			<div class="entry-utility seperator-bottom">
+									<span class="cat-links">
+						<span class="entry-utility-prep entry-utility-prep-cat-links">Posted in</span> <a href="https://news.research.stlouisfed.org/category/fred-announcements/" rel="category tag">FRED Announcements</a>					</span>
+															</div><!-- .entry-utility -->
+		</div><!-- #post-## -->
+
+		
+	
+
+
+			<div id="post-2513" class="post-2513 post type-post status-publish format-standard hentry category-fred-announcements">
+
+						<h2 class="entry-title"><a href="https://news.research.stlouisfed.org/2026/06/fred-adds-survey-of-household-economics-and-decisionmaking-shed-data/" title="Permalink to FRED Adds Survey of Household Economics and Decisionmaking (SHED) Data" rel="bookmark">FRED Adds Survey of Household Economics and Decisionmaking (SHED) Data</a></h2>
+						<div class="entry-meta">
+				<span class="meta-prep meta-prep-author">Posted on</span> <a href="https://news.research.stlouisfed.org/2026/06/fred-adds-survey-of-household-economics-and-decisionmaking-shed-data/" title="2:47 pm" rel="bookmark" class="entry-date">June 10, 2026</a> 			</div><!-- .entry-meta -->
+
+				<div class="entry-summary">
+				<p>FRED has added 85 data series from the Survey of Household Economics and Decisionmaking (SHED) reported by the Board of Governors of the Federal Reserve System. The survey measures the economic well-being of U.S. households and identifies potential risks to &hellip; <a href="https://news.research.stlouisfed.org/2026/06/fred-adds-survey-of-household-economics-and-decisionmaking-shed-data/">Continue reading <span class="meta-nav">&rarr;</span></a></p>
+			</div><!-- .entry-summary -->
+	
+			<div class="entry-utility seperator-bottom">
+									<span class="cat-links">
+						<span class="entry-utility-prep entry-utility-prep-cat-links">Posted in</span> <a href="https://news.research.stlouisfed.org/category/fred-announcements/" rel="category tag">FRED Announcements</a>					</span>
+															</div><!-- .entry-utility -->
+		</div><!-- #post-## -->
+
+		
+	
+
+
+			<div id="post-2516" class="post-2516 post type-post status-publish format-standard hentry category-fred-announcements">
+
+						<h2 class="entry-title"><a href="https://news.research.stlouisfed.org/2026/06/fred-adds-financial-risk-measurement-data-from-the-kansas-city-fed/" title="Permalink to FRED Adds Financial Risk Measurement Data from the Kansas City Fed" rel="bookmark">FRED Adds Financial Risk Measurement Data from the Kansas City Fed</a></h2>
+						<div class="entry-meta">
+				<span class="meta-prep meta-prep-author">Posted on</span> <a href="https://news.research.stlouisfed.org/2026/06/fred-adds-financial-risk-measurement-data-from-the-kansas-city-fed/" title="8:56 am" rel="bookmark" class="entry-date">June 9, 2026</a> 			</div><!-- .entry-meta -->
+
+				<div class="entry-summary">
+				<p>FRED has added 6 data series about preferences for and perceptions of financial risks reported by the Federal Reserve Bank of Kansas City.</p>
+			</div><!-- .entry-summary -->
+	
+			<div class="entry-utility seperator-bottom">
+									<span class="cat-links">
+						<span class="entry-utility-prep entry-utility-prep-cat-links">Posted in</span> <a href="https://news.research.stlouisfed.org/category/fred-announcements/" rel="category tag">FRED Announcements</a>					</span>
+															</div><!-- .entry-utility -->
+		</div><!-- #post-## -->
+
+		
+	
+
+
+			<div id="post-4383" class="post-4383 post type-post status-publish format-standard has-post-thumbnail hentry category-fred-announcements">
+
+						<h2 class="entry-title"><a href="https://news.research.stlouisfed.org/2026/05/fred-adds-data-from-the-treasury-international-capital-system/" title="Permalink to FRED Adds Data from the Treasury International Capital System" rel="bookmark">FRED Adds Data from the Treasury International Capital System</a></h2>
+						<div class="entry-meta">
+				<span class="meta-prep meta-prep-author">Posted on</span> <a href="https://news.research.stlouisfed.org/2026/05/fred-adds-data-from-the-treasury-international-capital-system/" title="3:40 pm" rel="bookmark" class="entry-date">May 26, 2026</a> 			</div><!-- .entry-meta -->
+
+				<div class="entry-summary">
+				<p>FRED has added 4260 data series about cross-border portfolio investment flows and positions between U.S. residents (including U.S.-based branches of firms headquartered in other countries) and foreign residents (including offshore branches of U.S. firms), reported by the U.S. Department of &hellip; <a href="https://news.research.stlouisfed.org/2026/05/fred-adds-data-from-the-treasury-international-capital-system/">Continue reading <span class="meta-nav">&rarr;</span></a></p>
+			</div><!-- .entry-summary -->
+	
+			<div class="entry-utility seperator-bottom">
+									<span class="cat-links">
+						<span class="entry-utility-prep entry-utility-prep-cat-links">Posted in</span> <a href="https://news.research.stlouisfed.org/category/fred-announcements/" rel="category tag">FRED Announcements</a>					</span>
+															</div><!-- .entry-utility -->
+		</div><!-- #post-## -->
+
+		
+	
+
+
+			<div id="post-5516" class="post-5516 post type-post status-publish format-standard hentry category-fred-announcements">
+
+						<h2 class="entry-title"><a href="https://news.research.stlouisfed.org/2026/04/fred-adds-bankrate-data/" title="Permalink to FRED Adds Bankrate Data" rel="bookmark">FRED Adds Bankrate Data</a></h2>
+						<div class="entry-meta">
+				<span class="meta-prep meta-prep-author">Posted on</span> <a href="https://news.research.stlouisfed.org/2026/04/fred-adds-bankrate-data/" title="10:57 am" rel="bookmark" class="entry-date">April 7, 2026</a> 			</div><!-- .entry-meta -->
+
+				<div class="entry-summary">
+				<p>FRED has added select series from Bankrate LLC in two different releases: • Bankrate Consumer Polls, an annual survey of financial sentiment, behaviors, and goals. The poll has 10 questions, and it has been conducted since 2011. • Bankrate Monitor &hellip; <a href="https://news.research.stlouisfed.org/2026/04/fred-adds-bankrate-data/">Continue reading <span class="meta-nav">&rarr;</span></a></p>
+			</div><!-- .entry-summary -->
+	
+			<div class="entry-utility seperator-bottom">
+									<span class="cat-links">
+						<span class="entry-utility-prep entry-utility-prep-cat-links">Posted in</span> <a href="https://news.research.stlouisfed.org/category/fred-announcements/" rel="category tag">FRED Announcements</a>					</span>
+															</div><!-- .entry-utility -->
+		</div><!-- #post-## -->
+
+		
+	
+
+
+			<div id="post-6952" class="post-6952 post type-post status-publish format-standard hentry category-fred-announcements">
+
+						<h2 class="entry-title"><a href="https://news.research.stlouisfed.org/2026/04/fred-expands-chicago-fed-advance-retail-trade-summary-data/" title="Permalink to FRED Expands Chicago Fed Advance Retail Trade Summary Data" rel="bookmark">FRED Expands Chicago Fed Advance Retail Trade Summary Data</a></h2>
+						<div class="entry-meta">
+				<span class="meta-prep meta-prep-author">Posted on</span> <a href="https://news.research.stlouisfed.org/2026/04/fred-expands-chicago-fed-advance-retail-trade-summary-data/" title="9:33 am" rel="bookmark" class="entry-date">April 2, 2026</a> 			</div><!-- .entry-meta -->
+
+				<div class="entry-summary">
+				<p>FRED has added 13 new series to its Chicago Fed Advance Retail Trade Summary (CARTS) release. CARTS combines eight weekly indicators for retail sales (including payment card transactions, retail foot traffic, gasoline sales, and consumer sentiment) with the U.S. Census &hellip; <a href="https://news.research.stlouisfed.org/2026/04/fred-expands-chicago-fed-advance-retail-trade-summary-data/">Continue reading <span class="meta-nav">&rarr;</span></a></p>
+			</div><!-- .entry-summary -->
+	
+			<div class="entry-utility seperator-bottom">
+									<span class="cat-links">
+						<span class="entry-utility-prep entry-utility-prep-cat-links">Posted in</span> <a href="https://news.research.stlouisfed.org/category/fred-announcements/" rel="category tag">FRED Announcements</a>					</span>
+															</div><!-- .entry-utility -->
+		</div><!-- #post-## -->
+
+		
+	
+
+
+			<div id="post-5539" class="post-5539 post type-post status-publish format-standard hentry category-fred-announcements">
+
+						<h2 class="entry-title"><a href="https://news.research.stlouisfed.org/2026/02/fred-expands-adco-u-s-mortgage-high-yield-index-data/" title="Permalink to FRED Expands AD&amp;Co U.S. Mortgage High Yield Index Data" rel="bookmark">FRED Expands AD&amp;Co U.S. Mortgage High Yield Index Data</a></h2>
+						<div class="entry-meta">
+				<span class="meta-prep meta-prep-author">Posted on</span> <a href="https://news.research.stlouisfed.org/2026/02/fred-expands-adco-u-s-mortgage-high-yield-index-data/" title="9:43 am" rel="bookmark" class="entry-date">February 18, 2026</a> 			</div><!-- .entry-meta -->
+
+				<div class="entry-summary">
+				<p>FRED has added 5 new series to its Andrew Davidson &amp; Co., Inc. (AD&amp;Co) U.S. Mortgage High Yield Index release. The index tracks the total return of the bonds issued within the credit risk transfer (CRT) programs of Fannie Mae &hellip; <a href="https://news.research.stlouisfed.org/2026/02/fred-expands-adco-u-s-mortgage-high-yield-index-data/">Continue reading <span class="meta-nav">&rarr;</span></a></p>
+			</div><!-- .entry-summary -->
+	
+			<div class="entry-utility seperator-bottom">
+									<span class="cat-links">
+						<span class="entry-utility-prep entry-utility-prep-cat-links">Posted in</span> <a href="https://news.research.stlouisfed.org/category/fred-announcements/" rel="category tag">FRED Announcements</a>					</span>
+															</div><!-- .entry-utility -->
+		</div><!-- #post-## -->
+
+		
+	
+
+				<div id="nav-below" class="navigation">
+					<div class="nav-previous" style="float:left;width:45%;"><a href="https://news.research.stlouisfed.org/category/fred-announcements/page/2/" ><span class="meta-nav">&larr;</span> Older posts</a></div>
+					<div class="nav-next" style="float:right;width:45%;text-align:right"></div>
+				</div><!-- #nav-below -->
+</div>
+</div>
+<br class="clear">
+</div>
+
+<div class="hidden-print d-lg-none icon-container sticky-bottom btt-ct col-12">
+    <a id="back-to-top" class="back-to-top" href="#top">
+        <i aria-hidden="true" class="fas fa-solid fa-chevron-up" title="Back to Top"></i>
+    <span class="fa-sr-only">Back to Top</span></a>
+</div>
+<button disabled id="filter-button" class="hidden drawer-dropdown-trigger filter-tags-btn btn sticky-bottom btn-block btn-default dropdown-is-active">
+    <div class="filter-button-inner">
+        <i class="fa fa-filter" style="padding-right:5px;"></i>Filter
+        <span class="badge badge-primary subpage-badge-primary">0</span>
+    </div>
+</button>
+
+<div class="footer2 hidden-print row EL-footer2">
+    <div class="container d-md-flex">
+        <div class="col-md-6 col-lg-5 col-12">
+            <div class="col-12">
+                <h3 class="col-12">Subscribe to the FRED newsletter</h3>
+                <form id="subscribe-div" class="form-horizontal form-control newsletter-form">
+                    <div class="col-12">
+                        <div class="input-group">
+                            <input id="subscribe-email-input" type="text" name="email" placeholder="Email"
+                            class="form-control email" aria-label="email">
+                            <button id="subscribe-email-btn" type="button"
+                            class="btn subscribe-newsletter-btn-gtm">
+                            Subscribe</button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+            <div class="col-12">
+                <h3 class="col-12">Follow us</h3>
+                <div id="follow-icons" class="col-12">
+                    <span id="li-container" class="icon-container">
+                        <a href="http://bit.ly/d056zL">
+                            <i aria-hidden="true" class="fab fa-brands fa-linkedin-in" title="Linked In"></i>
+                            <span class="fa-sr-only">Saint Louis Fed linkedin page</span></a></span>
+                    <span id="fb-container" class="icon-container">
+                        <a href="https://www.facebook.com/stlfed">
+                            <i aria-hidden="true" class="fab fa-brands fa-facebook-f" title="Facebook"></i>
+                            <span class="fa-sr-only">Saint Louis Fed facebook page</span></a></span>
+                    <span id="x-container" class="icon-container">
+                        <a href="http://bit.ly/9ngC3L">
+                            <i aria-hidden="true" class="fab fa-brands fa-x-twitter" title="X (formerly Twitter)"></i>
+                            <span class="fa-sr-only">Saint Louis Fed X page</span></a></span>
+                    <span id="yt-container" class="icon-container">
+                        <a href="http://bit.ly/aY9TVF">
+                            <i aria-hidden="true" class="fab fa-brands fa-youtube" title="YouTube"></i>
+                            <span class="fa-sr-only">Saint Louis Fed YouTube page</span></a></span> 
+                </div>
+            </div>
+        </div>
+        <div class="col-md-1 col-lg-2 d-none d-md-block">&nbsp;</div>
+        <div class="col-md-4 col-lg-3 col-7 need-help">
+            <h3 class="col-12">Need Help?</h3>
+            <div class="col-12">
+                <div class="footer-link">
+                    <a class="footer-questions-gtm q-and-a-link-gtm" href="//fred.stlouisfed.org/contactus/">
+                        Questions or Comments</a></div>
+                <div class="footer-link">
+                    <a class="footer-fredhelp-gtm" href="//fredhelp.stlouisfed.org/">FRED Help</a></div>
+            </div>
+            <hr class="col-12">
+            <div class="col-12">
+                <div class="footer-link">
+                    <a href="//fred.stlouisfed.org/legal/">Legal</a></div>
+                <div class="footer-link">
+                    <a href="https://www.stlouisfed.org/about-us/privacy-policy/online-notice">Privacy Notice & Policy</a></div>
+            </div>
+        </div>
+        <div class="col-md-1 col-lg-2 d-none d-md-block">&nbsp;</div>
+    </div>
+</div>
+
+<script>
+    // function to parse cookies, and return the value
+    function getCookie(name) {
+        var cookies = document.cookie.split(';');
+        for (var i in cookies) {
+            var cookie = cookies[i].trim().split('=');
+            if (cookie[0] == name) {
+                return cookie[1];
+            }
+        }
+        return null;
+    }
+    // certain pages in FRED set a custom tag variable
+    // this gets sent to Google Analytics so we can see what tags people are using
+    if (window.tags) {
+        dataLayer.push({ 'tags': tags });
+
+    }
+
+    // if the user is logged in, send the value of the liruid cookie to Google Analytics
+    var researchLiruid = getCookie('research-liruid');
+    dataLayer.push({ 'userId': researchLiruid });
+
+</script>
+<script src="//fred.stlouisfed.org/assets/jquery/dist/1767718298.jquery.min.js" type="text/javascript"></script>
+<script src="//fred.stlouisfed.org/assets/popperjs/dist/umd/1767718298.popper.min.js"></script>
+<script src="//fred.stlouisfed.org/assets/bootstrap/dist/js/1767718298.bootstrap.min.js"></script>
+<script src="//fred.stlouisfed.org/assets/select2/dist/js/1767718298.select2.full.min.js"></script>
+<script>
+    // force expire the .fred.stlouisfed.org _ga cookie
+    document.cookie = document.cookie + '_ga=;domain=.fred.stlouisfed.org;expires=Sat, 01-Jan-2000 00:00:00 GMT';
+</script>
+
+<script defer src="//fred.stlouisfed.org/assets/jquery-menu-aim/1780157731.jquery.menu-aim.min.js"></script>
+
+<script src="//fred.stlouisfed.org/js/wpcommon.js"></script>
+
+<script src="//fred.stlouisfed.org/js/1780157731.508.min.js"></script>
+
+<script>
+    var appConfig = {
+        uapi_host: 'https://fredblog.stlouisfed.org/uapi',
+        research_host: 'https://research.stlouisfed.org',
+        fred_host: 'https://fred.stlouisfed.org',
+        alfred_host: 'https://alfred.stlouisfed.org',
+        gsi_client_id: '115290014367-vpb89b600koe9kn0njeeq38c1unfr3gk.apps.googleusercontent.com',
+        fred_account_host: 'https://fredaccount.stlouisfed.org',
+    };
+
+    var domain_suffix = (window.location.hostname.split(".")[0].split("-")[1] || '');
+    appConfig.logged_in = getCookie('research-lirua' + (domain_suffix ? '-' + domain_suffix : '')) !== null && getCookie('research-lirua' + (domain_suffix ? '-' + domain_suffix : '')) !== undefined;
+    var getAuth = function (callback) {
+        if (typeof callback === 'function') {
+            callback();
+        }
+        return;
+    };
+    window.getAuth = getAuth;
+
+</script>
+
+<script>
+    <!--suppress back to top before scroll-->
+    window.onscroll = function(){
+        backTop = $("#back-to-top");
+        window.pageYOffset >= 205 ? backTop.css('display', 'block') : backTop.css('display', 'none');
+    }
+
+</script>
+
+<script src="//accounts.google.com/gsi/client" async defer></script>
+<script src="//fred.stlouisfed.org/assets/stlrch-fred/fred-account-react/dist/1780089960.main.dist.js"></script>
+<script src="//fred.stlouisfed.org/assets/stlrch-fred/fred-account-react/dist/1780089960.vendor.dist.js"></script>
+
+<script type="text/javascript">
+    // update mobile footer filter bar active filter count to content.tagsDrawers tags-number
+    $('.filter-button-inner .badge').text($('.tags-number').text());
+</script>
+<script type="text/javascript" src="https://fred.stlouisfed.org/graph/js/embed.js?1"></script>
+<!-- ABQIAAAAPelFyeCz0PpV85SR5rWaqRRhAb2Ap3qYoysH45CbGq2mti5UQBSkEmzrEopuvbJMUl_7-XoJ24PVBg -->
+
+<script>
+    let isMobile = window.matchMedia("only screen and (max-width: 760px)").matches;
+
+    if (isMobile) {
+        $('iframe').each(function() {
+            let src = $(this).attr('src');
+
+            var url = new URL(src);
+            var g = url.searchParams.get('g');
+
+            var customizeUrl = 'https://fred.stlouisfed.org/graph/?g=' + g;
+            var downloadUrl = 'https://fred.stlouisfed.org/graph/fredgraph.xls?g=' + g;
+
+            src = src.replace('graph-landing.php', 'fredgraph.png').replace(/width=[0-9]+/g, 'width='+screen.width);
+
+
+            $(this).parent().removeClass('embed-container');
+            $(this).parent().append($('<a />', {"href": customizeUrl, "text": "Customize"}))
+            $(this).parent().append(' | ')
+            $(this).parent().append($('<a />', {"href": downloadUrl, "text": "Download"}))
+            $(this).replaceWith('<img src="'+src+'" style="width: 100%; height; auto">');
+
+        });
+    }
+</script>
+
+<script type="text/javascript"  src="/Yw-Q1u8U/Mt8/215/2ffSdS0-xp/iuOwtV8kfkXrmJ3J/IDZSAQ/Kz5/0FVkPO2oB"></script></body>
+</html>
+
+<!--
+Performance optimized by W3 Total Cache. Learn more: https://www.boldgrid.com/w3-total-cache/
+
+
+Served from: news.research.stlouisfed.org @ 2026-08-17 17:40:21 by W3 Total Cache
+-->

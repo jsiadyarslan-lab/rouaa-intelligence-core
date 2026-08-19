@@ -1,0 +1,1641 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="initial-scale=1">
+    <title>Buyback Announcements &amp; Results Press Releases — TreasuryDirect</title>
+    <link rel="stylesheet" type="text/css" href="/styles/style.css">
+    <link rel="icon" href="/images/favicon.svg" type="image/svg+xml">
+    
+    <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+    
+    
+    <style>
+      .scrollButton:hover{
+        background-color: #0379ca;
+        opacity: 100% !important;
+      }
+    </style>
+    
+  </head>
+  <body>
+
+    
+
+    <div class="container">
+      <a class="sr-only sr-only-focusable" href="#main">Skip Navigation</a>
+    </div>
+
+    
+
+    
+  
+<div class="text-white bg-usa-blue-dark" role="banner">
+
+  <div class="container-xxl">
+    <div class="row">
+    
+      <div class="col-md py-1 media small">
+        <img class="align-self-center mr-2" src="/images/icons/us_flag_small.png" alt="U.S. flag">
+        <div class="media-body">
+          <span class="mr-2">An official website of the United States government</span>
+          <a class="d-block d-md-inline-block text-td-blue-light arrow-collapse" role="button" href="#" data-toggle="collapse" data-target="#official-site-collapse" aria-expanded="false" aria-controls="official-site-collapse">
+            Here’s how you know
+            <svg class="bi-chevron-down" width="1.1em" height="1.1em" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512"><path fill="currentColor" d="M143 352.3L7 216.3c-9.4-9.4-9.4-24.6 0-33.9l22.6-22.6c9.4-9.4 24.6-9.4 33.9 0l96.4 96.4 96.4-96.4c9.4-9.4 24.6-9.4 33.9 0l22.6 22.6c9.4 9.4 9.4 24.6 0 33.9l-136 136c-9.2 9.4-24.4 9.4-33.8 0z"/></svg>
+          </a>
+        </div>
+      </div>
+      
+      <div class="col-md py-1 border-top border-md-0 border-usa-gray-light small text-md-right">
+        <a class="text-white" href="https://www.treasury.gov" target="_blank" rel="nofollow noopener noreferrer">U.S. Department of the Treasury</a>
+      </div>
+      
+    </div>
+  </div>
+  
+  <div id="official-site-collapse" class="collapse container-xxl border-top border-md-0 border-usa-gray-light">
+    <div class="row">
+    
+      <div class="p-3 col-md-6">
+        <div class="media">
+          <img class="w-2-5em h-2-5em mr-2" src="/images/icons/icon-dot-gov.svg" alt="">
+          <div class="media-body">
+            <strong>Official websites use .gov</strong><br>
+            A <strong>.gov</strong> website belongs to an official government organization in the United States.
+          </div>
+        </div>
+      </div>
+      
+      <div class="p-3 col-md-6">
+        <div class="media">
+          <img class="w-2-5em h-2-5em mr-2" src="/images/icons/icon-https.svg" alt="">
+          <div class="media-body">
+            <strong>Secure .gov websites use HTTPS</strong><br>
+            A <strong>lock</strong> (<span class="icon-lock-white"></span>) or <strong>https://</strong> means you’ve safely connected to the .gov website. Share sensitive information only on official, secure websites.
+          </div>
+        </div>
+      </div>
+      
+    </div>
+  </div>
+  
+</div>
+
+  
+<header id="header-site" class="bg-white">
+
+  <div class="container-xxl">
+    <nav class="navbar navbar-expand-lg navbar-td p-0">
+      <a class="navbar-brand d-lg-none py-3" href="/"><img src="/images/logo-treasurydirect-color.svg" alt="TreasuryDirect Home"></a>
+
+      <button class="navbar-toggler btn btn-outline-td-blue nav-text-small shadow-none" data-toggle="collapse" data-target="#site-nav-collapse" aria-controls="site-nav-collapse" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="align-middle">Menu</span></button>
+
+      <div class="collapse navbar-collapse flex-wrap navbars" id="site-nav-collapse">
+
+        <a class="navbar-brand d-none d-lg-block py-lg-4 order-lg-0" href="/"><img src="/images/logo-treasurydirect-color.svg" alt="TreasuryDirect Home"></a>
+
+        <div class="navbar-nav ml-lg-auto align-items-center order-lg-2">
+          <a class="btn btn-sm btn-td-orange text-white shadow-none" href="/log-in/">Log In</a>
+
+          <form id="search-form-page-header" action="https://search.usa.gov/search" accept-charset="UTF-8" method="get" class="ml-lg-3 my-0 py-2">
+            <div class="input-group input-group-sm">
+              <input type="text" name="query" id="query-page-header" autocomplete="off" class="form-control" placeholder="Search…" aria-label="Search TreasuryDirect" aria-describedby="button-site-search-header-submit">
+              <input name="utf8" type="hidden" value="&#x2713;" aria-label="Search">
+              <input type="hidden" name="affiliate" id="affiliate" value="treasurydirect" aria-label="Search">
+              <div class="input-group-append">
+                <button class="btn btn-td-green font-weight-bold shadow-none" type="submit" id="button-site-search-header-submit" name="commit" data-disable-with="Search" aria-label="Submit">
+                  <span class="icon-search-solid-white"></span>
+                </button>
+              </div>
+            </div>
+          </form>
+        </div>
+
+        <ul class="navbar-nav nav-text-large order-lg-3 pb-lg-2">
+          <li class="nav-item"><a class="nav-link" href="/"><span class="icon-home-solid-blue"></span></a></li>
+
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="site-nav-savings-bond-link" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Savings Bonds</a>
+
+            <div class="dropdown-menu" aria-labelledby="site-nav-savings-bond-link">
+              <div class="dropdown-menu-wrapper">
+                <a class="dropdown-item" href="/savings-bonds/">About U.S. Savings Bonds</a>
+                <a class="dropdown-item" href="/savings-bonds/buy-a-bond/">Buy a Bond</a>
+                <a class="dropdown-item" href="/savings-bonds/gift-a-bond/">Gift a Savings Bond</a>
+                <a class="dropdown-item" href="/savings-bonds/cashing-a-bond/">Cash In a Bond</a>
+                <a class="dropdown-item" href="/savings-bonds/savings-bond-calculator/">Savings Bond Value Calculator</a>
+                <a class="dropdown-item" href="/savings-bonds/manage-bonds/">Manage Bonds</a>
+                <a class="dropdown-item" href="/savings-bonds/forms/">Forms for Savings Bonds</a>
+                <a class="dropdown-item" href="/savings-bonds/treasury-hunt/">Treasury Hunt</a>
+              </div>
+            </div>
+          </li>
+
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="site-nav-us-marketable-securities-link" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Treasury Marketable Securities</a>
+
+            <div class="dropdown-menu" aria-labelledby="site-nav-us-marketable-securities-link">
+              <div class="dropdown-menu-wrapper">
+                <a class="dropdown-item" href="/marketable-securities/">About Treasury Marketable Securities</a>
+                <a class="dropdown-item" href="/marketable-securities/treasury-bills/">Treasury Bills</a>
+                <a class="dropdown-item" href="/marketable-securities/treasury-bonds/">Treasury Bonds</a>
+                <a class="dropdown-item" href="/marketable-securities/treasury-notes/">Treasury Notes</a>
+                <a class="dropdown-item" href="/marketable-securities/tips/">TIPS</a>
+                <a class="dropdown-item" href="/marketable-securities/floating-rate-notes/">Floating Rate Notes (FRNs)</a>
+                <a class="dropdown-item" href="/marketable-securities/strips/">STRIPS</a>
+                <a class="dropdown-item" href="/marketable-securities/forms/">Forms for Treasury Marketable Securities</a>
+                <a class="dropdown-item" href="/savings-bonds/treasury-hunt/">Treasury Hunt</a>
+              </div>
+            </div>
+          </li>
+
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="site-nav-auctions-link" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Auctions</a>
+
+            <div class="dropdown-menu" aria-labelledby="site-nav-auctions-link">
+              <div class="dropdown-menu-wrapper">
+                <a class="dropdown-item" href="/auctions/">About Auctions</a>
+                <a class="dropdown-item" href="/auctions/how-auctions-work/">How Auctions Work (Participating)</a>
+                <a class="dropdown-item" href="/auctions/when-auctions-happen/">When Auctions Happen (Schedules)</a>
+                <a class="dropdown-item" href="/auctions/reopenings/">Reopenings</a>
+                <a class="dropdown-item" href="/auctions/announcements-data-results/">Announcements, Data & Results</a>
+                <a class="dropdown-item" href="/auctions/announcements-data-results/buy-backs/">Buyback Announcements and Results</a>
+                <a class="dropdown-item" href="/auctions/upcoming/">Upcoming Auctions</a>
+                <a class="dropdown-item" href="/auctions/results/">Recent Auction Results</a>
+                <a class="dropdown-item" href="/auctions/auction-query/">Auction Search (Query)</a>
+                <a class="dropdown-item" href="/auctions/announcements-data-results/announcement-results-press-releases/treasury-marketable/">Auction Press Releases</a>
+                <a class="dropdown-item" href="/laws-and-regulations/auction-regulations-uoc/">Auction Regulations (UOC)</a>
+              </div>
+            </div>
+          </li>
+
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="site-nav-laws-link" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Laws and Regulations</a>
+
+            <div class="dropdown-menu" aria-labelledby="site-nav-laws-link">
+              <div class="dropdown-menu-wrapper">
+                <a class="dropdown-item" href="/laws-and-regulations/">About Laws and Regulations</a>
+                <a class="dropdown-item" href="/laws-and-regulations/auction-regulations-uoc/">Auction Regulations (UOC)</a>
+                <a class="dropdown-item" href="/laws-and-regulations/collateral-programs/">Collateral Programs</a>
+                <a class="dropdown-item" href="/laws-and-regulations/trades/">Commercial Book-Entry Regulations (TRADES)</a>
+                <a class="dropdown-item" href="/laws-and-regulations/fraud/">Frauds, Phonies, & Scams</a>
+                <a class="dropdown-item" href="/laws-and-regulations/gsa/">Government Securities Act (GSA) Regulations</a>
+                <a class="dropdown-item" href="/laws-and-regulations/gsa/lpr-reports/">Large Position Reporting (LPR)</a>
+                <a class="dropdown-item" href="/laws-and-regulations/buyback-rules/">Redemption (Buyback) Operations Regulations</a>
+                <a class="dropdown-item" href="/laws-and-regulations/marketable-securities-laws-and-regulations/">Treasury Marketable Securities Regulations</a>
+                <a class="dropdown-item" href="/laws-and-regulations/savings-bond-regulations/">Savings Bond Regulations</a>
+                <a class="dropdown-item" href="/laws-and-regulations/treasury-direct-regulations/">TreasuryDirect Regulations</a>
+              </div>
+            </div>
+          </li>
+
+          <li class="nav-item"><a class="nav-link" href="/research-center/">Research Center</a></li>
+
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="site-nav-government-users-link" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Government Users</a>
+
+            <div class="dropdown-menu dropdown-menu-right dropdown-menu-xl-left" aria-labelledby="site-nav-government-users-link">
+              <div class="dropdown-menu-wrapper">
+                <a class="dropdown-item" href="/government/">For Government Users</a>
+                <a class="dropdown-item" href="/government/federal-investments-program/">Federal Investments Program</a>
+                <a class="dropdown-item" href="/government/slgs/">SLGS &amp; SLGSafe</a>
+                <a class="dropdown-item" href="/government/security-liquidation-proceeds/">Security Liquidation &amp; Proceeds</a>
+                <a class="dropdown-item" href="/government/federal-borrowings-program/">Federal Borrowings Program</a>
+                <a class="dropdown-item" href="/government/treasury-managed-accounts/">Treasury Managed Accounts</a>
+                <a class="dropdown-item" href="/government/funds-management-program-reports/">Funds Management Program Reports</a>
+                <a class="dropdown-item" href="/government/historical-debt-outstanding/">History of the Debt</a>
+                <a class="dropdown-item" href="/government/public-debt-reports/">Public Debt Reports </a>
+                <a class="dropdown-item" href="/government/interest-rates-and-prices/">Interest Rates and Prices </a>
+              </div>
+            </div>
+          </li>
+        </ul>
+
+        <ul class="navbar-nav nav-text-small order-lg-1">
+          <li class="nav-item"><a class="nav-link" href="/mailing-lists/">Mailing Lists</a></li>
+          <li class="nav-item"><a class="nav-link" href="/news/">News</a></li>
+          <li class="nav-item"><a class="nav-link" href="/about/">About</a></li>
+          <li class="nav-item"><a class="nav-link" href="/forms/">Forms</a></li>
+          <li class="nav-item"><a class="nav-link" href="/help-center/">Help Center</a></li>
+          <li class="nav-item"><a class="nav-link" href="/contact-us/">Contact Us</a></li>
+        </ul>
+
+      </div>
+    </nav>
+  </div>
+
+</header>
+
+
+
+    <main id="main">
+
+      
+
+      
+  
+    
+    <link href="/datatables/css/dataTables.css" rel="stylesheet">
+    
+    <link href="/scripts/datatables/buttons.dataTables.min.css" rel="stylesheet">
+    <link href="/scripts/datatables/jquery-ui.css" rel="stylesheet">
+    <link href="/scripts/datatables/jquery.dataTables.min.css" rel="stylesheet">
+    <style>
+        .nested-table {
+            width: 100%;
+            padding-left: 4em;
+            float: left;
+        }
+
+        .date-range-container {
+            position: relative;
+            z-index: 2;
+        }
+
+        .dataTables_paginate {
+            padding-top: 1em !important;
+            /*width: 73%;*/
+            text-align: center !important;
+        }
+
+        .dataTables_length {
+            width: 39%;
+            padding-top: 1.3em;
+            float: right !important;
+            text-align: right;
+        }
+
+        .dataTables_info {
+            /*width: 69%;*/
+            padding-top: 1.2em !important;
+        }
+
+        .form-check {
+            padding-top: 0.5em;
+            padding-bottom: 0.5em;
+        }
+
+        @media print {
+            @page {
+                size: legal landscape;
+            }
+
+            .container, .text-white {
+                visibility: hidden !important;
+                display: none !important;
+                overflow: hidden;
+                height: 1px;
+            }
+
+            .show-print {
+                visibility: visible !important;
+                display: block !important;
+                overflow: visible;
+            }
+        }
+    </style>
+    
+<section>
+  <div class="section-container container-xxl">
+    
+        <div class="hide-print">
+            
+<nav class="breadcrumb-container" aria-label="breadcrumb">
+  <ol class="breadcrumb">
+    
+      <li class="breadcrumb-item"><a href="/auctions/">Auctions</a></li>
+    
+      <li class="breadcrumb-item"><a href="/auctions/announcements-data-results/">Announcements, Data &amp; Results</a></li>
+    
+      <li style="padding-left: 0.2rem;">Buyback Announcements &amp; Results Press Releases</li>
+  </ol>
+</nav>
+
+            
+<div >
+  
+                <h1>Buyback Announcements &amp; Results Press Releases</h1>
+            
+</div>
+
+
+            
+<div class="card-deck rate-boxes-group">
+  
+
+                
+<div class="rate-box card">
+  <div class="card-body">
+  
+    <div class="negate">
+      <div class="consume">
+
+        
+        
+        <a class="security-link h2 mt-0" href=""></a>
+        
+
+        
+        
+        
+
+        <div class="rate"></div>
+
+        
+                    <p class="h2 mt-0" style="color: #0e3253;">Tentative Buyback Schedule</p>
+                    <p class="icon-angle-right-solid-red"><a href="https://home.treasury.gov/system/files/221/Tentative-Buyback-Schedule.pdf" target="_blank" rel="nonreferrer noopener">(PDF format)</a></p>
+                    <p class="icon-angle-right-solid-red"><a href="https://home.treasury.gov/system/files/221/Tentative-Buyback-Schedule.xml" target="_blank" rel="nonreferrer noopener">(XML format)</a></p>
+                
+        
+      </div>
+    </div>
+
+  </div>
+</div>
+
+
+                
+<div class="rate-box card">
+  <div class="card-body">
+  
+    <div class="negate">
+      <div class="consume">
+
+        
+        
+        <a class="security-link h2 mt-0" href=""></a>
+        
+
+        
+        
+        
+
+        <div class="rate"></div>
+
+        
+                    <p class="h2 mt-0" style="color: #0e3253;">Helpful Information</p>
+                    <p class="icon-angle-right-solid-red"><a href="/help-center/faqs/buyback-faqs/">Buyback FAQs</a></p>
+                    <p class="icon-angle-right-solid-red"><a href="/files/auction/TenYearEquivalentAuctionCalculator-10012025-03312026.xlsx" download>10-Year Equivalent Auction Awards Calculator</a></p>
+                
+        
+      </div>
+    </div>
+
+  </div>
+</div>
+
+
+                
+<div class="rate-box card">
+  <div class="card-body">
+  
+    <div class="negate">
+      <div class="consume">
+
+        
+        
+        <a class="security-link h2 mt-0" href=""></a>
+        
+
+        
+        
+        
+
+        <div class="rate"></div>
+
+        
+                    <p class="h2 mt-0" style="color: #0e3253;">Current Buyback Rules</p>
+                    <p class="icon-angle-right-solid-red"><a href="https://www.ecfr.gov/current/title-31/subtitle-B/chapter-II/subchapter-A/part-375" target="_blank" rel="nonreferrer noopener">31 CFR Part 375</a></p>
+                    <p class="icon-angle-right-solid-red"><a href="/laws-and-regulations/buyback-rules/">Buyback rule update (March 2026)</a></p>
+                
+        
+      </div>
+    </div>
+
+  </div>
+</div>
+
+            
+</div>
+
+
+            <p>The schedule of Treasury Securities buybacks is released the day of Treasury's Quarterly Refunding press conference, usually held on the first Wednesday of February, May, August, and November.</p>
+
+            <table id="specialTable" class="display" style="width: 100%; margin-bottom: 15px" hidden>
+                <thead>
+                <tr class="bg-td-blue-lighter sticky-top">
+                    <th style="text-align: left"><strong>Special Announcements</strong></th>
+                </tr>
+                </thead>
+            </table>
+
+
+            <h2>Buyback Announcements and Results by Operation Date</h2>
+            <p class="font-italic">From 2003 to 2013, there were no Buyback Operations.</p>
+            <hr>
+            <div class="row align-items-baseline g-3">
+                <div class="col-md-6" style="border-right:1px solid #77777726">
+                    <h3 style="text-align: left">Date Range:</h3>
+                    <div style="text-align: center">
+                        <p><label class="form-check-label" for="startDate" style="margin-right: .5em">Operation Start Date:</label><input type="date" id="startDate"></p>
+                        <p class="text-end"><label class="form-check-label" for="endDate" style="margin-right: 1em">Operation End Date: </label><input type="date" id="endDate"></p>
+                        <div class="buttons-block">
+                            <a class="btn btn-td-blue" id="dateRange">Apply Date Filter</a>
+                            <a class="btn btn-outline-td-blue" id="allData">Show All</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <h3>Export:</h3>
+                    <div class="buttons-block" style="text-align: center">
+                        <a class="btn btn-td-blue" style="margin-bottom: 1em" id="exportPDF">PDF</a>
+                        <a class="btn btn-td-blue" style="margin-bottom: 1em" id="exportCSV">CSV</a>
+                        <a class="btn btn-td-blue" style="margin-bottom: 1em" id="exportExcel">Excel</a>
+                    </div>
+                </div>
+            </div>
+
+            
+
+    <p style="font-size:smaller; text-align: center; white-space: nowrap">
+        <span class="icon-angle-left-solid-blue"></span>
+        Table may scroll on smaller screens
+        <span class="icon-angle-right-solid-blue"></span>
+    </p>
+    <p style="font-size:smaller; text-align: center; white-space: nowrap; margin-top: -1rem">(use the scroll bar on the right to see the entire table)</p>
+
+
+
+            
+
+            <div class="row">
+                <div class="col" id="fetchedData" style="margin-bottom: -.5em;"></div>
+            </div>
+
+            
+            <table id="example" class="display" style="width: 100%">
+                <thead>
+                <tr class="bg-td-blue-lighter sticky-top">
+                    <th rowspan="2"></th>
+                    <th rowspan="2" style="text-align: left"><strong>Operation Date</strong></th>
+                    <th rowspan="2" style="text-align: left"><strong>Operation Start Time (ET)</strong></th>
+                    <th rowspan="2" style="text-align: left"><strong>Operation Close Time (ET)</strong></th>
+                    <th rowspan="2" style="text-align: left"><strong>Settlement Date</strong></th>
+                    <th rowspan="2" style="text-align: left"><strong>Operation Type</strong></th>
+                    <th rowspan="2" style="text-align: left"><strong>Security Type</strong></th>
+                    <th rowspan="2" style="text-align: left"><strong>Maturity Bucket</strong></th>
+                    <th colspan="2" style="text-align: center"><strong>Preliminary Announcement</strong></th>
+                    <th colspan="2" style="text-align: center"><strong>Final Announcement</strong></th>
+                    <th colspan="2" style="text-align: center"><strong>Results</strong></th>
+                    <th colspan="1" style="text-align: center"><strong>Special Announcement</strong></th>
+                    <th rowspan="2" style="text-align: center"><strong>Max Number of Offers</strong></th>
+                    <th rowspan="2" style="text-align: center"><strong>Max Par Amount to be Redeemed</strong></th>
+                    <th rowspan="2" style="text-align: center"><strong>Min Offer Amount</strong></th>
+                    <th rowspan="2" style="text-align: center"><strong>No. Issues Accepted</strong></th>
+                    <th rowspan="2" style="text-align: center"><strong>No. Issue Eligible</strong></th>
+                    <th rowspan="2" style="text-align: center"><strong>Total Par Amount Accepted</strong></th>
+                    <th rowspan="2" style="text-align: center"><strong>Total Par Amount Offered</strong></th>
+                    <th rowspan="2" style="text-align: left"><strong>Search Data</strong></th>
+                </tr>
+                <tr class="bg-td-blue-lighter sticky-top">
+                    <th>PDF</th>
+                    <th>XML</th>
+                    <th>PDF</th>
+                    <th>XML</th>
+                    <th>PDF</th>
+                    <th>XML</th>
+                    <th>PDF</th>
+                </tr>
+                </thead>
+            </table>
+
+            <hr>
+
+            <p style="font-size: small">* Download the <a href="/xsd/buyback-schema.xsd" download="buyback-schema.xsd">XML schema definition file</a></p>
+            <p style="font-size: small">** Buyback file names include the Operation Date and Start Time (YYYYMMDDHHMMSS) in Greenwich Mean Time (GMT).  The Operation Start DTM &  Operation Close DTM are included in the XML files in Eastern Time with the current GMT offset.</p>
+            <p style="font-size: small">*** <a href="/instit/annceresult/press/preanre/2025/Buyback-XML-Changes.pdf" target="_blank" rel="noopener noreferrer" >Changes to Buyback XML files - May 29, 2025</a></p>
+
+            <form id="toggleColumns"> 
+                <div class="row">
+                    <h3>Show Additional Columns</h3>
+                </div>
+                <div class="row">
+                    <div class="col-sm-6 col-md-4 col-lg-3">
+                        <div class="form-check form-check-inline">
+                            <input type="checkbox" class="form-check-input" data-column="15" id="col15">
+                            <label class="form-check-label" for="col15">Max Number of Offers</label>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-md-4 col-lg-3">
+                        <div class="form-check form-check-inline">
+                            <input type="checkbox" class="form-check-input" data-column="16" id="col16">
+                            <label class="form-check-label" for="col16">Max Par Amount to be Redeemed</label>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-md-4 col-lg-3">
+                        <div class="form-check form-check-inline">
+                            <input type="checkbox" class="form-check-input" data-column="17" id="col17">
+                            <label class="form-check-label" for="col17">Min Offer Amount</label>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-sm-6 col-md-4 col-lg-3">
+                        <div class="form-check form-check-inline">
+                            <input type="checkbox" class="form-check-input" data-column="18" id="col18">
+                            <label class="form-check-label" for="col18">No. of Issues Accepted</label>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-md-4 col-lg-3">
+                        <div class="form-check form-check-inline">
+                            <input type="checkbox" class="form-check-input" data-column="19" id="col19">
+                            <label class="form-check-label" for="col19">No. Issue Eligible</label>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-md-4 col-lg-3">
+                        <div class="form-check form-check-inline">
+                            <input type="checkbox" class="form-check-input" data-column="2" id="col2">
+                            <label class="form-check-label" for="col2">Operation Start Time</label>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-sm-6 col-md-4 col-lg-3">
+                        <div class="form-check form-check-inline">
+                            <input type="checkbox" class="form-check-input" data-column="4" id="col4">
+                            <label class="form-check-label" for="col4">Settlement Date</label>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-md-4 col-lg-3">
+                        <div class="form-check form-check-inline">
+                            <input type="checkbox" class="form-check-input" data-column="20" id="col20">
+                            <label class="form-check-label" for="col20">Total Par Amount Accepted</label>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-md-4 col-lg-3">
+                        <div class="form-check form-check-inline">
+                            <input type="checkbox" class="form-check-input" data-column="21" id="col21">
+                            <label class="form-check-label" for="col21">Total Par Amount Offered</label>
+                        </div>
+                    </div>
+                </div>
+            </form>
+        </div> 
+
+        
+        <table id="print" class="display show-print" style="width: 100%" hidden>
+            <thead>
+            <tr class="bg-td-blue-lighter">
+                <th>CUSIP Number</th>
+                <th>Operation Date</th>
+                <th>Operation Start Time (ET)</th>
+                <th>Operation Close Time (ET)</th>
+                <th>Settlement Date</th>
+                <th>Operation Type</th>
+                <th>Security Type</th>
+                <th>Maturity Bucket</th>
+                <th>Coupon Rate</th>
+                <th>Maturity Date</th>
+                <th>Par Amount Accepted</th>
+                <th>Weighted Average Accepted Price</th>
+
+                <th>Max Par Amount to be Redeemed</th>
+
+                <th>No. Issues Accepted</th>
+                <th>No. Issue Eligible</th>
+                <th>Total Par Amount Accepted</th>
+                <th>Total Par Amount Offered</th>
+
+            </tr>
+            </thead>
+        </table>
+    
+  </div>
+</section>
+
+
+
+      
+      <button type="button" class="btn btn-td-blue scrollButton d-print-none" onclick="topFunction()" id="myBtn" title="Back to Top" style="display: none; position: fixed; bottom: 1em; right: 1em; opacity: 50%; z-index: 99999999">
+        <svg class="bi-chevron-down" style="transform: rotate(180deg)" width="2em" height="2em" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512">
+          <path fill="currentColor" d="M143 352.3L7 216.3c-9.4-9.4-9.4-24.6 0-33.9l22.6-22.6c9.4-9.4 24.6-9.4 33.9 0l96.4 96.4 96.4-96.4c9.4-9.4 24.6-9.4 33.9 0l22.6 22.6c9.4 9.4 9.4 24.6 0 33.9l-136 136c-9.2 9.4-24.4 9.4-33.8 0z"></path>
+        </svg>
+      </button>
+
+    </main>
+
+    
+
+    
+  
+<footer>
+
+  <nav>
+    <div class="container-xxl hide-print">
+      <div class="wrapper py-5">
+      
+        <div class="row mb-4 text-md-center">
+          <div class="col-12">
+          
+            <a href="/"><img src="/images/logo-treasurydirect-color.svg" alt="TreasuryDirect Home"></a>
+            
+            <form id="search-form-page-footer" action="https://search.usa.gov/search" accept-charset="UTF-8" method="get" class="py-2 mx-md-auto">
+              <div class="input-group">
+                <input type="text" name="query" id="query-page-footer" autocomplete="off" class="form-control" placeholder="Search…" aria-label="Search TreasuryDirect" aria-describedby="button-site-search-footer-submit">
+                <input name="utf8" type="hidden" value="&#x2713;">
+                <input type="hidden" name="affiliate" id="affiliate2" value="treasurydirect">
+                <div class="input-group-append">
+                  <button class="btn btn-td-green font-weight-bold" type="submit" id="button-site-search-footer-submit" aria-label="Submit">
+                    <span class="icon-search-solid-white"></span>
+                  </button>
+                </div>
+              </div>
+            </form>
+            
+          </div>
+        </div>
+        
+        <div class="row">
+        
+          <div class="col-12 col-md-4">
+            <h3>Connect With Us</h3>
+            <ul class="list-unstyled nav-text-large social-icons">
+              <li><a class="no-icon" target="_blank" rel="noopener noreferrer nofollow" href="https://twitter.com/treasurydirect/"><span class="icon-twitter mr-2"></span>X (formerly Twitter)</a></li>
+              <li><a class="no-icon" target="_blank" rel="noopener noreferrer nofollow" href="https://www.facebook.com/fiscalservice/"><span class="icon-facebook mr-2"></span>Facebook</a></li>
+              <li><a class="no-icon" target="_blank" rel="noopener noreferrer nofollow" href="https://www.youtube.com/TreasuryDirect/"><span class="icon-youtube mr-2"></span>YouTube</a></li>
+              <li><a class="no-icon" href="/rss/"><span class="icon-rss mr-2"></span>RSS Feeds</a></li>
+            </ul>
+          </div>
+          
+          <div class="col-12 col-md-4">
+            <h3>Legal Information</h3>
+            <ul class="list-unstyled nav-text-small">
+              <li><a href="/legal-information/foia/">Freedom of Information Act</a></li>
+              <li><a href="/legal-information/privacy/">Privacy</a></li>
+              <li><a href="/legal-information/terms/">Terms & Conditions</a></li>
+              <li><a href="/legal-information/data-quality/">Data Quality</a></li>
+              <li><a href="/legal-information/developers/">For Web Developers</a></li>
+              <li><a href="/legal-information/accessibility/">Accessibility</a></li>
+            </ul>
+          </div>
+          
+          <div class="col-12 col-md-4">
+            <h3>Related Sites</h3>
+            <ul class="list-unstyled nav-text-small">
+              <li><a target="_blank" rel="noopener noreferrer" href="https://www.treasury.gov">treasury.gov</a></li>
+              <li><a target="_blank" rel="noopener noreferrer" href="https://fiscaldata.treasury.gov">fiscaldata.treasury.gov</a></li>
+              <li><a target="_blank" rel="noopener noreferrer" href="https://www.usaspending.gov">USAspending.gov</a></li>
+              <li><a target="_blank" rel="noopener noreferrer" href="https://fiscal.treasury.gov">Bureau of the Fiscal Service</a></li>
+              <li><a target="_blank" rel="noopener noreferrer" href="https://www.usa.gov">USA.gov</a></li>
+              <li><a target="_blank" rel="noopener noreferrer" href="https://www.data.gov">Data.gov</a></li>
+              <li><a target="_blank" rel="noopener noreferrer" href="https://www.regulations.gov">Regulations.gov</a></li>
+            </ul>
+          </div>
+          
+        </div>
+        
+      </div>
+    </div>
+  </nav>
+  
+</footer>
+
+
+    
+    <script src="/scripts/jquery.min.js" charset="utf-8"></script>
+    <script src="/scripts/bootstrap.bundle.min.js" charset="utf-8"></script>
+    <script src="/scripts/components.js" charset="utf-8"></script>
+    <script src="/scripts/back-to-top.js" charset="utf-8"></script>
+    <!-- START DAP Universal Analytics Code -->
+    <script id="_fed_an_ua_tag" src="https://dap.digitalgov.gov/Universal-Federated-Analytics-Min.js?agency=TRE&subagency=FS&exts=xml,prn,json,csv,tsv"></script>
+    <!-- END DAP Universal Analytics Code -->
+    <!-- Google Translate Code -->
+    <script type="text/javascript">
+      function googleTranslateElementInit() {
+        new google.translate.TranslateElement({
+          pageLanguage: 'en',
+          floatPosition: google.translate.TranslateElement.FloatPosition.BOTTOM_RIGHT
+        });
+      }
+    </script>
+    <script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+    <script type="text/javascript">
+     // ---------------------------Production snippet-------------------------------
+     // Verint Production Embed Script v2.01
+     // DO NOT MODIFY BELOW THIS LINE *****************************************
+     ;(function (g) {
+       var d = document, am = d.createElement('script'), h = d.head || d.getElementsByTagName("head")[0], fsr = 'fsReady',
+               aex = {
+                 "src": "//eex-gateway.voc.ttecgov.us/sites/treasurydirect-gov/production/gateway.min.js",
+                 "type": "text/javascript",
+                 "async": "true",
+                 "data-vendor": "fs",
+                 "data-role": "gateway"
+               };
+       for (var attr in aex) { am.setAttribute(attr, aex[attr]); } h.appendChild(am); g[fsr] || (g[fsr] = function () { var aT = '__' + fsr + '_stk__'; g[aT] = g[aT] || []; g[aT].push(arguments); });
+     })(window);
+     // DO NOT MODIFY ABOVE THIS LINE *****************************************
+     fsReady(function() {
+       var currentURL = window.location.href;
+       FSR.CPPS.set("url", currentURL);
+       /*
+       FSR.CPPS.set('name','value'); // use single quotes when passing a static-value
+       FSR.CPPS.set('name2',somevariable); // don't use quotes for a dynamic value
+       FSR.CPPS.set('name3',othervariable); // add as many CPPs as you like in this way
+       */
+     });
+      // DO NOT MODIFY ABOVE THIS LINE *****************************************
+
+    </script>
+    
+    <script src="/scripts/datatables/datatables.js"></script>
+    
+    <script src="/scripts/datatables/dataTables-buttons.js"></script>
+    <script src="/scripts/datatables/flash-buttons.js"></script>
+    <script src="/scripts/papaparse/papaparse.js"></script>
+    <script src="/scripts/xlsx-0.20.0/package/xlsx.js"></script>
+    <script src="/scripts/datatables/jszip.min.js"></script>
+    <script src="/scripts/datatables/buttons.html5.min.js"></script>
+    <script src="/scripts/datatables/buttons.print.min.js"></script>
+    <script src="/scripts/datatables/jquery-ui.js"></script>
+    <script src="/scripts/datatables/daterangepicker.js"></script>
+
+    <script type="text/javascript">
+
+        var hostLocation = 'https://api.fiscal.treasury.gov/ap/exp/v1/marketable-securities/buybacks';
+        var hostLocationSpecial = 'https://api.fiscal.treasury.gov/ap/exp/v1/marketable-securities/buybacks/special';
+        var host = {
+            "client_id": '8c94af521a854babb36ad4112c83df03',
+            "client_secret": 'c33631F97444440cbb527E79549CFc40'
+        };
+
+        if (window.location.origin === 'https://acc.treasurydirect.gov') {
+            hostLocation = 'https://api-preprod.fiscal.treasury.gov/ap/acc/exp/v1/marketable-securities/buybacks';
+            hostLocationSpecial = 'https://api-preprod.fiscal.treasury.gov/ap/acc/exp/v1/marketable-securities/buybacks/special';
+            host = {
+                "client_id": '173431d595124d7cab7b5c817bba349f',
+                "client_secret": '1e9dCb22DB224B6C960715Cf2948877a'
+            }
+        }
+
+        // hostLocation = 'https://api-preprod.fiscal.treasury.gov/ap/dev/exp/v1/marketable-securities/buybacks';
+        // hostLocationSpecial = 'https://api-preprod.fiscal.treasury.gov/ap/dev/exp/v1/marketable-securities/buybacks/special';
+        // host = {
+        //     "client_id": '173431d595124d7cab7b5c817bba349f',
+        //     "client_secret": '1e9dCb22DB224B6C960715Cf2948877a'
+        // }
+
+        //special announcement
+        $(document).ready(function () {
+            let outerColumns = [
+                {
+                    data: {
+                        title : "title", fileName : "fileName", expiration : "expiration"
+                    },
+                    defaultContent: '',
+                    orderable: false,
+                    render : function(data, type, full) {
+                        let currDate = data.fileName.split('_')[1].substring(0,4);
+                        return '<a href="/instit/annceresult/press/preanre/' + formatUrlSegment(currDate) + '/' + formatUrlSegment(data.fileName) + '" target="_blank">' + formatInput(data.title) + '</a>';
+                    }
+                }
+            ];
+            let outerDefs = [
+                {
+                    //Render title
+                    targets: [0],
+                    render: function (data, type, full, meta) {
+                        return formatInput(data);
+                    }
+                },
+                {
+                    //Render into a PDF Link
+                    targets: [1],
+                    render: function (data, type, full, meta) {
+                        if (type === 'display') {
+                            //We can have empty data fields here
+                            if (typeof data === 'undefined') {
+                                return '';
+                            } else {
+                                //Catch all
+                                //JS months are zero-indexed, so subtract one when creating date object
+                                let currDate = data.split('_')[1].substring(0,4);
+
+
+                                return '<a href="/instit/annceresult/press/preanre/' + formatUrlSegment(currDate[0]) + '/' + formatUrlSegment(data) + '" target="_blank">PDF</a>';
+                            }
+                        }
+                        return formatInput(data);
+                    }
+                }
+            ];
+
+            let table = $('#specialTable').DataTable({
+                ajax: {
+                    url: hostLocationSpecial,
+                    dataSrc: function(json) {
+                        return json.filter(function(item) {
+                            let spDate = new Date(item.expiration);
+                            return new Date(Date.UTC(spDate.getFullYear(), spDate.getMonth(), spDate.getDate(), spDate.getHours(), spDate.getMinutes())) >= new Date();
+                        })
+                    },
+                    headers: host,
+                },
+                columns: outerColumns,
+                order: [],
+                bPaginate: false,
+                bFilter: false,
+                bInfo: false,
+                fnInitComplete : function() {
+                    if (!table.rows().count()) {
+                        document.getElementById("specialTable_wrapper").hidden = true;
+                    }
+                    else {
+                        document.getElementById("specialTable").hidden = false;
+                    }
+                }
+            });
+
+        });
+
+        //Add a button to clear url
+        let url = hostLocation
+        Date.prototype.toDateInputValue = (function () {
+            var local = new Date(this);
+            local.setMinutes(this.getMinutes() - this.getTimezoneOffset());
+            return local.toJSON().slice(0, 10);
+        });
+        let today = new Date();
+        let start = new Date(today.getFullYear(), today.getMonth() - 6, 1);
+        let end = new Date(today.getFullYear(), today.getMonth() + 6, 1);
+
+        url = url + '?operationStartDTMBegin=' + start.getFullYear() + '-' + (start.getMonth() + 1).toString().padStart(2, '0') + '-' + start.getDate().toString().padStart(2, '0') + 'T00%3A00%3A00Z&operationStartDTMEnd=' + end.getFullYear() + '-' + (end.getMonth() + 1).toString().padStart(2, '0') + '-' + end.getDate().toString().padStart(2, '0') + 'T23%3A59%3A00Z';
+        document.getElementById('endDate').value = end.toDateInputValue();
+        document.getElementById('startDate').value = start.toDateInputValue();
+
+        $(document).ready(function () {
+            let outerColumns = [
+                {
+                    className: 'dt-control', //0
+                    orderable: false,
+                    data: null,
+                    defaultContent: '',
+                    sortable: false
+                },
+                {
+                    data: "operationStartDTM", //1
+                    defaultContent: ""
+                },
+                {
+                    data: "operationStartDTM", //2
+                    visible: false,
+                    defaultContent: ""
+                },
+                {
+                    data: "operationCloseDTM", //3
+                    defaultContent: ""
+                },
+                {
+                    data: "settlementDT", //4
+                    visible: false,
+                    defaultContent: ""
+                },
+                {
+                    data: "operationType", //5
+                    defaultContent: ""
+                },
+                {
+                    data: "securityType", //6
+                    defaultContent: ""
+                },
+                {
+                    data: "maturityBucket", //7
+                    defaultContent: ""
+                },
+                {
+                    data: "preliminaryAnnouncementPDF", //888
+                    sortable: false,
+                    defaultContent: "",
+                    className: 'dt-center'
+                },
+                {
+                    data: "preliminaryAnnouncementXML", //9
+                    sortable: false,
+                    defaultContent: "",
+                    className: 'dt-center'
+                },
+                {
+                    data: "finalAnnouncementPDF", //10
+                    sortable: false,
+                    defaultContent: "",
+                    className: 'dt-center'
+                },
+                {
+                    data: "finalAnnouncementXML", //11
+                    sortable: false,
+                    defaultContent: "",
+                    className: 'dt-center'
+                },
+                {
+                    data: "resultsPDF", //12
+                    sortable: false,
+                    defaultContent: "",
+                    className: 'dt-center'
+                },
+                {
+                    data: "resultsXML", //13
+                    sortable: false,
+                    defaultContent: "",
+                    className: 'dt-center'
+                },
+                {
+                    data: "specialAnnouncePDF", //14
+                    sortable: false,
+                    defaultContent: "",
+                    className: 'dt-center'
+                },
+                {
+                    data: "maxNumberOffersPerSubmitterPerSecurity", //15
+                    visible: false,
+                    defaultContent: "",
+                    className: "dt-center"
+                },
+                {
+                    data: "maxParAmountRedeemed", //16
+                    visible: false,
+                    defaultContent: "",
+                    className: 'dt-right'
+                },
+                {
+                    data: "minOfferAmountAndMultiples", //17
+                    visible: false,
+                    defaultContent: "",
+                    className: 'dt-right'
+                },
+                {
+                    data: "numberIssuesAccepted", //18
+                    visible: false,
+                    defaultContent: "",
+                    className: 'dt-center'
+                },
+                {
+                    data: "numberIssuesEligible", //19
+                    visible: false,
+                    defaultContent: "",
+                    className: "dt-center"
+                },
+                {
+                    data: "totalParAmountAccepted", //20
+                    visible: false,
+                    defaultContent: "",
+                    className: 'dt-right'
+                },
+                {
+                    data: "totalParAmountOffered", //21
+                    visible: false,
+                    defaultContent: "",
+                    className: 'dt-right'
+                },
+                {
+                    data: "securityDetails", //22
+                    render: function (data, type, full, meta) {
+
+                        let ans = '';
+                        full.securityDetails.forEach((sd) => {
+                            if (typeof sd.couponRate !== 'undefined') {
+                                ans = ans + ' ' + formatPercent(sd.couponRate.toString())
+                            }
+                            if (typeof sd.cusipNumber !== 'undefined') {
+                                ans = ans + ' ' + sd.cusipNumber.toString()
+                            }
+                            if (typeof sd.maturityDate !== 'undefined') {
+                                ans = ans + ' ' + formatDate(sd.maturityDate.toString())
+                            }
+                            if (typeof sd.parAmountOffered !== 'undefined') {
+                                ans = ans + ' ' + formatCurrency2(sd.parAmountOffered.toString())
+                            }
+                            if (typeof sd.parAmountAccepted !== 'undefined') {
+                                ans = ans + ' ' + formatCurrency2(sd.parAmountAccepted.toString())
+                            }
+                            if (typeof sd.weightedAverageAcceptedPrice !== 'undefined') {
+                                ans = ans + ' ' + formatCurrency3(sd.weightedAverageAcceptedPrice.toString())
+                            }
+                            if (typeof sd.offersAccepted !== 'undefined') {
+                                ans = ans + ' ' + sd.offersAccepted.toString()
+                            }
+                        })
+
+                        return formatInput(ans);
+                    },
+                    visible: false,
+                    defaultContent: ""
+                }
+            ];
+            let outerDefs = [
+                {
+                    //Render into an MM DD YYYY format
+                    targets: [1, 4],
+                    render: function (data, type, full, meta) {
+                        if (type === 'display' || type === 'filter') {
+                            //Assuming we get a standard format like "YYYY-MM-DD HH:MM:SS"
+                            return formatDate(data);
+                        }
+                        return formatInput(data);
+                    }
+                },
+                {
+                    //Render into an HH:MM format
+                    targets: [2, 3],
+                    render: function (data, type, full, meta) {
+                        if (type === 'display' || type === 'filter') {
+                            //Assuming we get a standard format like "YYYY-MM-DD HH:MM:SS"
+                            return formatTime(data);
+                        }
+                        return formatInput(data);
+                    }
+                },
+                {
+                    //Render into a PDF Link
+                    targets: [8, 10, 14],
+                    render: function (data, type, full, meta) {
+                        if (type === 'display') {
+                            //We can have empty data fields here
+                            if (typeof data === 'undefined') {
+                                return '';
+                            } else {
+                                //Catch all
+                                //JS months are zero-indexed, so subtract one when creating date object
+                                let currDate = full.operationStartDTM.split('T')[0].split('-');
+                                let checkDate = new Date(2023, 3, 1);
+                                let month = parseInt(currDate[1], 10) - 1
+                                let thisDate = new Date(currDate[0], month, currDate[2]);
+
+                                //Historical Data case
+                                // console.log(full.operationStartDTM.split('T')[0]);
+                                return '<a href="/instit/annceresult/press/preanre/' + formatUrlSegment(currDate[0]) + '/' + formatUrlSegment(data) + '" target="_blank">PDF</a>';
+                            }
+                        }
+                        return formatInput(data);
+                    }
+                },
+                {
+                    //Render into a PDF Link
+                    targets: [12],
+                    render: function (data, type, full, meta) {
+                        if (type === 'display') {
+                            //We can have empty data fields here
+                            //Render into a PDF Link ONLY for the **results PDFs**
+                            //JS months are zero-indexed, so subtract one when creating date object
+                            let currDate = full.operationStartDTM.split('T')[0].split('-');
+                            let checkDate = new Date(2023, 3, 1);
+                            let month = parseInt(currDate[1], 10) - 1
+                            let thisDate = new Date(currDate[0], month, currDate[2]);
+
+                            if (typeof data === 'undefined') {
+                                if (typeof full.detailResultsPDF !== 'undefined' && typeof full.summaryResultsPDF !== 'undefined') {
+                                    return '<a href="/instit/annceresult/press/preanre/' + formatUrlSegment(currDate[0]) + '/' + formatUrlSegment(full.summaryResultsPDF) + '" target="_blank">Summary</a><br><a href="/instit/annceresult/press/preanre/' + formatUrlSegment(currDate[0]) + '/' + formatUrlSegment(full.detailResultsPDF) + '" target="_blank">Detail</a>';
+                                } else {
+                                    return '';
+                                }
+                            } else {
+                                //Catch all
+                                return '<a href="/instit/annceresult/press/preanre/' + formatUrlSegment(currDate[0]) + '/' + formatUrlSegment(data) + '" target="_blank">PDF</a>';
+                            }
+                        }
+                        return formatInput(data);
+                    }
+                },
+                {
+                    //Render into an XML Link
+                    targets: [9, 11, 13],
+                    render: function (data, type, full, meta) {
+                        if (type === 'display') {
+                            //We can have empty data fields here
+                            if (typeof data === 'undefined') {
+                                return '';
+                            } else {
+                                //JS months are zero-indexed, so subtract one when creating date object
+                                let currDate = full.operationStartDTM.split('T')[0].split('-');
+                                let checkDate = new Date(2023, 3, 1);
+                                let month = parseInt(currDate[1], 10) - 1
+                                let thisDate = new Date(currDate[0], month, currDate[2]);
+
+                                //Historical Data case
+                                return '<a href="/instit/annceresult/press/preanre/' + formatUrlSegment(currDate[0]) + '/' + formatUrlSegment(data) + '" target="_blank">XML</a>';
+                            }
+                        }
+                        return formatInput(data);
+                    }
+                },
+                {
+                    // hide totalParAmountOffered when resultsPDF is null
+                    targets: [21],
+                    render: function (data, type, row, meta) {
+                       // if (!row.resultsPDF){
+                       //     return '';
+                       // }
+                        if (type === 'display') {
+                            return formatCurrency2(data);
+                        }
+                        return formatInput(data);
+                    }
+                },
+                {
+                    //Render into USD Currency
+                    targets: [16, 17, 20],
+                    render: function (data, type, full, meta) {
+                        if (type === 'display') {
+                            return formatCurrency2(data);
+                        }
+                        return formatInput(data);
+                    }
+                },
+                {
+                    //This is to account for API returning no values
+                    targets: [18, 15, 19],
+                    render: function (data, type, full, meta) {
+                        return formatInput(data);
+                    }
+                },
+                {
+                    //THIS COLUMN SHOULD NEVER BE VISIBLE, IT WILL BE FOR SECURITY DETAILS
+                    //Render into a SINGLE long string for search purposes
+                    targets: [22],
+                    render: function (data, type, full, meta) {
+                        let ans = '';
+                        full.securityDetails.forEach((sd) => {
+                            if (typeof sd.couponRate !== 'undefined') {
+                                ans = ans + ' ' + sd.couponRate.toString()
+                            }
+                            if (typeof sd.cusipNumber !== 'undefined') {
+                                ans = ans + ' ' + sd.cusipNumber.toString()
+                            }
+                            if (typeof sd.maturityDate !== 'undefined') {
+                                ans = ans + ' ' + sd.maturityDate.toString()
+                            }
+                            if (typeof sd.parAmountOffered !== 'undefined') {
+                                ans = ans + ' ' + sd.parAmountOffered.toString()
+                            }
+                            if (typeof sd.parAmountAccepted !== 'undefined') {
+                                ans = ans + ' ' + sd.parAmountAccepted.toString()
+                            }
+                            if (typeof sd.weightedAverageAcceptedPrice !== 'undefined') {
+                                ans = ans + ' ' + sd.weightedAverageAcceptedPrice.toString()
+                            }
+                            if (typeof sd.offersAccepted !== 'undefined') {
+                                ans = ans + ' ' + sd.offersAccepted.toString()
+                            }
+                        })
+                        if (type === 'display') {
+                            return formatInput(ans);
+                        }
+                        return formatInput(data);
+                    },
+                    visible: false
+                }
+            ];
+            let table = $('#example').DataTable({
+                ajax: {
+                    url: url,
+                    dataSrc: '',
+                    headers: host,
+                    cache: true
+                },
+                scrollX: true,
+                scrollY: 450,
+                pageLength: 25, 
+                lengthMenu: [10, 25, 50, 100],
+                buttons: [
+                    {extend: 'excel', exportOptions: {columns: ':visible'}},
+                    {extend: 'pdf', exportOptions: {columns: ':visible'}},
+                    {extend: 'csv', exportOptions: {columns: ':visible'}},
+                    'colvis'
+                ],
+                dom: 'frtilp',
+                scrollCollapse: true,
+                columns: outerColumns,
+                order: [[1, 'desc'], [3, 'desc']],
+                columnDefs: outerDefs,
+                rowCallback: function (row, data) {
+                    $(row).addClass("parent-table");
+                },
+                language: {
+                    searchPlaceholder: 'CUSIP#, Dates, Etc.',
+                    emptyTable: 'No buyback operations were held in the selected date range.'
+                }
+            });
+
+            //Initialize Date Filter message
+            let dataContainer = document.getElementById("fetchedData");
+            dataContainer.innerHTML = "";
+            let header = document.createElement("p");
+            let start = document.getElementById('startDate').value;
+            start = start.split('-')[1] + '/' + start.split('-')[2] + '/' + start.split('-')[0]
+            let end = document.getElementById('endDate').value;
+            end = end.split('-')[1] + '/' + end.split('-')[2] + '/' + end.split('-')[0]
+            header.textContent = "Currently displaying all data in between " + start + " and " + end + ". Please click 'Show All' to remove filter."
+            header.className = "dataTables_info";
+            dataContainer.appendChild(header);
+
+            //Show/Hide logic for child tables
+            $('#example tbody').on('click', 'tr', function (e) {
+                let tr = $(this);
+                let row = table.row(tr);
+                let icon = tr.find('i');
+
+                if (!$(e.target).is('a')) {
+                    if (tr[0].classList.contains('parent-table')) {
+                        if (row.child.isShown()) {
+                            //Row is open, close it
+                            row.child.hide();
+                            tr.removeClass('shown');
+                            icon.removeClass('minus-circled').addClass('plus-circled');
+                        } else {
+                            //Open the row
+                            // console.log('Data:', row.data());
+                            // console.log('Row:', row);
+                            row.child(format(row.data())).show();
+                            tr.addClass('shown');
+                            icon.removeClass('plus-circled').addClass('minus-circled');
+                        }
+                    }
+                }
+            });
+
+            //Logic to populate child table
+            function format(data) {
+                if (typeof data.securityDetails !== 'undefined') {
+                    let nestedTable = $('<table>').addClass('nested-table').DataTable({
+                        data: data.securityDetails,
+                        dataSrc: '',
+                        headers: host,
+                        columns: [
+                            {data: "cusipNumber", title: 'CUSIP Number', defaultContent: ""},
+                            {data: "couponRate", title: 'Coupon Rate', defaultContent: ""},
+                            {data: "maturityDate", title: 'Maturity Date', defaultContent: ""},
+                            // {data: "parAmountOffered", title: 'Par Amount Offered', defaultContent: ""},
+                            {data: "parAmountAccepted", title: 'Par Amount Accepted', defaultContent: ""},
+                            {data: "weightedAverageAcceptedPrice", title: 'Weighted Average Accepted Price', defaultContent: ""},
+                            // {data: "offersAccepted", title: 'Offers Accepted'} They do want it shown when exported
+                        ],
+                        paging: false,
+                        info: false,
+                        searching: false,
+                        order: [[2, 'asc'], [1, 'asc']],
+                        columnDefs: [
+                            {
+                                //Render into a %
+                                targets: [0],
+                                render: function (data, type, full, meta) {
+                                    if (type === 'display' || type === 'filter') {
+                                        //Assuming we need to move decimal back 2 places to convert to percent
+                                        return formatInput(data);
+                                    }
+                                    return formatInput(data);
+                                }
+                            },
+                            {
+                                //Render into a %
+                                targets: [1],
+                                render: function (data, type, full, meta) {
+                                    if (type === 'display' || type === 'filter') {
+                                        //Assuming we need to move decimal back 2 places to convert to percent
+                                        return formatPercent(data);
+                                    }
+                                    return formatInput(data);
+                                }
+                            },
+                            {
+                                //Render into an MM DD YYYY format
+                                targets: [2],
+                                render: function (data, type, full, meta) {
+                                    if (type === 'display' || type === 'filter') {
+                                        //Assuming we get a standard format like "YYYY-MM-DD HH:MM:SS"
+                                        return formatDate(data);
+                                    }
+                                    return formatInput(data);
+                                }
+                            },
+                            {
+                                //Render into USD Currency (No need for decimal values, as it will always be .00)
+                                targets: [3],
+                                render: function (data, type, full, meta) {
+                                    if (type === 'display') {
+                                        return formatCurrency2(data);
+                                    }
+                                    return formatInput(data);
+                                }
+                            },
+                            {
+                                //Render into USD Currency (No truncate)
+                                targets: [4],
+                                render: function (data, type, full, meta) {
+                                    if (type === 'display') {
+                                        return formatCurrency3(data);
+                                    }
+                                    return formatInput(data);
+                                }
+                            }
+                        ]
+                    })
+                    return nestedTable.table().container();
+                } else {
+                    console.error('Security Details dataset was undefined. Here is the data object it was passed:', data);
+                }
+
+            }
+
+            //Create an array to track individual cols, removing 1 col for position 0
+            let columnVisibility = Array(table.columns().count()).fill(true);
+            for (let i = 12; i < (table.columns().count() + 1); i++) {
+                columnVisibility[i] = false;
+            }
+
+            //Add event listener for checkboxes
+            let checkboxes = $('#toggleColumns input[type="checkbox"]');
+            checkboxes.on('change', function () {
+                //Code to execute when any checkbox changes
+                let columnNumber = $(this).data('column');
+                //We are only checking and unchecking the last few columns
+                columnVisibility[columnNumber] = this.checked;
+
+                //Apply visibility changes to the single CHANGED dataTable column
+                table.column(columnNumber).visible(columnVisibility[columnNumber]);
+            })
+
+            //Buttons
+            $('#dateRange').on('click', function () {
+                reinitializeTable();
+                let dataContainer = document.getElementById("fetchedData");
+                dataContainer.innerHTML = "";
+                let header = document.createElement("p");
+                let start = document.getElementById('startDate').value;
+                start = start.split('-')[1] + '/' + start.split('-')[2] + '/' + start.split('-')[0]
+                let end = document.getElementById('endDate').value;
+                end = end.split('-')[1] + '/' + end.split('-')[2] + '/' + end.split('-')[0]
+                header.textContent = "Currently displaying all data in between " + start + " and " + end + ". Please click 'Show All' to remove filter."
+                header.className = "dataTables_info";
+                dataContainer.appendChild(header);
+            })
+            $('#allData').on('click', function () {
+                reinitializeTable(true);
+                let dataContainer = document.getElementById("fetchedData");
+                dataContainer.innerHTML = "";
+            })
+            $('#exportPDF').on('click', function () {
+                exportData('pdf');
+            })
+            $('#exportCSV').on('click', function () {
+                exportData('csv');
+            })
+            $('#exportExcel').on('click', function () {
+                exportData('excel');
+            })
+
+            //Button Functions
+            function reinitializeTable(clear = null) {
+                //Get all checkboxes with specific class name *NOTE: THIS WILL AFFECT ALL CHECKBOXES ON THE PAGE CURRENTLY*
+                let checkboxes = document.querySelectorAll('.form-check-input');
+                //Pull checkbox array
+                checkboxes.forEach(function (checkbox) {
+                    //Uncheck each checkbox
+                    checkbox.checked = false;
+                })
+                url = hostLocation;
+                table.destroy();
+                Date.prototype.toDateInputValue = (function () {
+                    var local = new Date(this);
+                    local.setMinutes(this.getMinutes() - this.getTimezoneOffset());
+                    return local.toJSON().slice(0, 10);
+                });
+
+                if (clear === null) {
+                    url = url + '?operationStartDTMBegin=' + document.getElementById('startDate').value + 'T00%3A00%3A00Z&operationStartDTMEnd=' + document.getElementById('endDate').value + 'T23%3A59%3A00Z';
+                }
+
+                table = $('#example').DataTable({
+                    ajax: {
+                        url: url,
+                        dataSrc: '',
+                        headers: host,
+                        cache: true
+                    },
+                    scrollX: true,
+                    scrollY: 450,
+                    pageLength: 25, 
+                    lengthMenu: [10, 25, 50, 100],
+                    buttons: [
+                        {extend: 'excel', exportOptions: {columns: ':visible'}},
+                        {extend: 'pdf', exportOptions: {columns: ':visible'}},
+                        {extend: 'csv', exportOptions: {columns: ':visible'}},
+                        'colvis'
+                    ],
+                    dom: 'frtilp',
+                    scrollCollapse: true,
+                    columns: outerColumns,
+                    order: [[0, 'asc']],
+                    columnDefs: outerDefs,
+                    rowCallback: function (row, data) {
+                        $(row).addClass("parent-table");
+                    },
+                    language: {
+                        searchPlaceholder: 'CUSIP#, Dates, Etc.',
+                        emptyTable: 'No buyback operations were held in the selected date range.'
+                    }
+                });
+            }
+
+            function exportData(item) {
+                //Call in data based on given URL
+                fetch(url, {
+                    headers: host
+                })
+                    .then(response => {
+                        if (!response.ok) {
+                            throw new Error('Network response was not okay');
+                        }
+                        return response.json();
+                    })
+                    .then(data => {
+                        //Process data into a flattened array
+                        let newData = [];
+                        //First item in array will be headers for each column, in case PDFs/Excel/CSVs needs those to create header row
+                        if (item !== 'pdf') {
+                            newData.push(['CUSIP Number', 'Operation Date (from - to)', 'Operation Start Time (ET)', 'Operation Close Time (ET)', 'Settlement Date (from - to)', 'Operation Type', 'Security Type', 'Maturity Bucket', 'Coupon Rate', 'Maturity Date', 'Par Amount Accepted', 'Weighted Average Accepted Price', 'Max Number of Offers', 'Max Par Amount to be Redeemed', 'Min Offer Amount', 'No. Issues Accepted', 'No. Issue Eligible', 'Total Par Amount Accepted', 'Total Par Amount Offered', 'Offers Accepted']);
+                        }
+                        //Flatten the data, making sure to format it to match what we display in the table
+                        data.forEach((operation) => {
+                            operation.securityDetails.forEach((sd) => {
+                                let newSD = [];
+                                newSD.push(formatInput(sd.cusipNumber));
+                                newSD.push(formatDate(sd.operationStartDTM)); //This should be day
+                                newSD.push(formatTime(operation.operationStartDTM)); //This should be time
+                                newSD.push(formatTime(operation.operationCloseDTM));
+                                newSD.push(formatDate(operation.settlementDT));
+                                newSD.push(formatInput(operation.operationType));
+                                newSD.push(formatInput(operation.securityType));
+                                newSD.push(formatInput(operation.maturityBucket));
+                                newSD.push(formatPercent(sd.couponRate));
+                                newSD.push(formatDate(sd.maturityDate));
+                                newSD.push(formatCurrency2(sd.parAmountAccepted));
+                                newSD.push(formatCurrency3(sd.weightedAverageAcceptedPrice));
+                                if (item !== 'pdf') {newSD.push(formatInput(operation.maxNumberOffersPerSubmitterPerSecurity));}
+                                newSD.push(formatCurrency2(operation.maxParAmountRedeemed));
+                                if (item !== 'pdf') {newSD.push(formatCurrency2(operation.minOfferAmountAndMultiples));}
+                                newSD.push(formatInput(operation.numberIssuesAccepted));
+                                newSD.push(formatInput(operation.numberIssuesEligible));
+                                newSD.push(formatCurrency2(operation.totalParAmountAccepted));
+                                newSD.push(formatCurrency2(operation.totalParAmountOffered));
+                                if (item !== 'pdf') {newSD.push(formatInput(sd.offersAccepted));}
+                                newData.push(newSD);
+                            })
+                        })
+
+                        //create PDF
+                        if (item === 'pdf') {
+                            $('#print').DataTable().clear().destroy();
+                            new DataTable('#print', {
+                                ordering: false,
+                                paging: false,
+                                searching: false,
+                                fixedHeader: false,
+                                info: false,
+                                data: newData
+                            });
+                            window.print();
+                        }
+
+                        //create CSV
+                        if (item === 'csv') {
+                            let csv = Papa.unparse(newData, { escapeFormulae: true });
+                            let csvData = new Blob([csv], {type: 'text/csv;charset=utf-8;'});
+                            let csvUrl = URL.createObjectURL(csvData);
+                            let csvLink = document.createElement('a');
+                            csvLink.href = csvUrl;
+                            csvLink.download = 'data.csv';
+                            csvLink.click();
+                        }
+
+                        //create Excel
+                        if (item === 'excel') {
+                            let worksheet = XLSX.utils.json_to_sheet(newData.slice(1));
+                            let workbook = XLSX.utils.book_new();
+                            XLSX.utils.book_append_sheet(workbook, worksheet, "Data");
+                            worksheet["!cols"] = [{wch: 10}]; // set column A width to 10 characters
+                            /* fix headers */
+                            XLSX.utils.sheet_add_aoa(worksheet, [['CUSIP Number', 'Operation Date (from - to)', 'Operation Start Time (ET)', 'Operation Close Time (ET)', 'Settlement Date (from - to)', 'Operation Type', 'Security Type', 'Maturity Bucket', 'Coupon Rate', 'Maturity Date', 'Par Amount Accepted', 'Weighted Average Accepted Price', 'Max Number of Offers', 'Max Par Amount to be Redeemed', 'Min Offer Amount', 'No. Issues Accepted', 'No. Issue Eligible', 'Total Par Amount Accepted', 'Total Par Amount Offered', 'Offers Accepted']], {origin: "A1"});
+                            XLSX.writeFile(workbook, "data.xlsx", {compression: true});
+                        }
+                    })
+                    .catch(error => {
+                        console.error('Error fetching data:', error);
+                    })
+            }
+
+            //Format functions
+            function formatInput(data) {
+                if (typeof data === "undefined" || data === null) {
+                    return "";
+                }
+                return String(data).replace(/[&<>"']/g, function (character) {
+                    return { '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[character];
+                });
+            }
+
+            function formatUrlSegment(data) {
+                if (typeof data === "undefined" || data === null) {
+                    return "";
+                }
+                return encodeURIComponent(String(data));
+            }
+
+            function formatDate(data) {
+                if (typeof data === "undefined") {
+                    return "";
+                }
+                let date = data.split('T')[0].split('-');
+                return formatInput(date[1] + '/' + date[2] + '/' + date[0]);
+            }
+
+            function formatTime(data) {
+                if (typeof data === "undefined") {
+                    return "";
+                }
+                let options = {
+                    hour: '2-digit',
+                    minute: '2-digit',
+                    hour12: true,
+                    timeZone: 'America/New_York'
+                };
+                var date = new Date(data);
+                return formatInput(new Intl.DateTimeFormat("en-US", options).format(date));
+            }
+
+            function formatPercent(data) {
+                if (typeof data === "undefined") {
+                    return "";
+                }
+                return formatInput((Number(data)).toFixed(3) + '%');
+            }
+
+            function formatCurrency2(data) {
+                if (typeof data === "undefined") {
+                    return "";
+                }
+                return formatInput('$' + String(data).replace(/(\d)(?=(\d{3})+(?!\d))/g, '$1,'));
+            }
+
+            function formatCurrency3(data) {
+                if (typeof data === "undefined") {
+                    return "";
+                }
+                return formatInput('$' + String(Number(data).toFixed(3)));
+            }
+
+        });
+    </script>
+
+  </body>
+</html>

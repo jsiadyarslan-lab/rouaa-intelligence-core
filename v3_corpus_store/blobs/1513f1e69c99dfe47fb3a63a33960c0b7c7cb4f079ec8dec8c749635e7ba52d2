@@ -1,0 +1,2179 @@
+<!DOCTYPE html>
+<html lang="bg">
+    <head>
+        <!-- Required meta tags -->
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<base href="https://www.nsi.bg/" />
+
+<title>Инфлация и индекси на потребителските цени - юли 2026 година</title>
+<meta name="description" content="Месечната инфлация е 0.8%, а годишната инфлация е 4.5%. Инфлацията е измерена чрез ИПЦ, като месечната инфлация се отнася за юли 2026 г. спрямо предходния месец, а годишната инфлация е за юли 2026 г. спрямо същия месец на предходната година. През юли 2026 г. спрямо предходния месец е регистрирано н ...">
+
+<meta property="og:site_name" content="НСИ - Национален статистически институт">
+<meta property="og:title" content="Инфлация и индекси на потребителските цени - юли 2026 година">
+<meta property="og:description" content="Месечната инфлация е 0.8%, а годишната инфлация е 4.5%. Инфлацията е измерена чрез ИПЦ, като месечната инфлация се отнася за юли 2026 г. спрямо предходния месец, а годишната инфлация е за юли 2026 г. спрямо същия месец на предходната година. През юли 2026 г. спрямо предходния месец е регистрирано н ...">
+<meta property="og:image" content="https://www.nsi.bg/templates/default/img/default.jpg">
+
+<!-- Bootstrap Min CSS -->
+<link rel="stylesheet" href="templates/default/css/bootstrap.min.css">
+<!-- Animate Min CSS -->
+<link rel="stylesheet" href="templates/default/css/animate.min.css">
+<!-- FlatIcon CSS -->
+<link rel="stylesheet" href="templates/default/css/flaticon.css">
+<!-- Odometer Min CSS -->
+<link rel="stylesheet" href="templates/default/css/odometer.min.css">
+<!-- Nice Select CSS -->
+<link rel="stylesheet" href="templates/default/css/nice-select.min.css">
+<!-- MeanMenu CSS -->
+<link rel="stylesheet" href="templates/default/css/meanmenu.css">
+<!-- Magnific Popup Min CSS -->
+<link rel="stylesheet" href="templates/default/css/magnific-popup.min.css">
+<!-- Owl Carousel Min CSS -->
+<link rel="stylesheet" href="templates/default/css/owl.carousel.min.css">
+<!-- Font Awesome Min CSS -->
+<link rel="stylesheet" href="templates/default/css/fontawesome.min.css">
+<!-- FoIcon CSS -->
+<link rel="stylesheet" href="templates/default/css/foicons.css">
+<!-- Style CSS -->
+<link rel="stylesheet" href="templates/default/css/style.css?t=1787011546">
+<!-- Responsive CSS -->
+<link rel="stylesheet" href="templates/default/css/responsive.css?t=1787011546">
+<!-- JS UI CSS -->
+<link rel="stylesheet" href="templates/default/css/jquery-ui.css">
+<!-- datatable -->
+<link href="templates/default/js/external/dataTables.min.css" rel="stylesheet">
+<!-- custom -->
+<link rel="stylesheet" href="templates/default/css/custom.css?t=1787011546">
+
+<link rel="icon" type="image/png" href="templates/default/img/favico/favicon.ico">
+
+<link rel="stylesheet" href="templates/default/js/external/buttons.dataTables.css">
+<style>
+.datatable th, .datatable td {
+	vertical-align: top;
+}
+caption {
+    caption-side: top;
+    font-size: 1.2em;
+    font-weight: bold;
+    color: #000;
+    padding: 10px;
+    text-align: center;
+    background-color: #f0f0f0;
+}
+.custom-right-align {
+    text-align: right;
+}
+</style>
+
+<style>
+.charts_tabs li {
+    display: inline-block;
+	width: auto;
+}
+.charts_tabs li a {
+	display: inline-block;
+}
+</style>
+    </head>
+    <body>
+	        <!-- Preloader -->
+        <div class="preloader">
+            <div class="loader">
+                <div class="shadow"></div>
+                <div class="box"></div>
+            </div>
+        </div>
+        <!-- End Preloader -->
+			<!-- Start Navbar Area -->
+        <div class="navbar-area navbar-two">
+
+			  
+<!--topbar start-->
+<div id="header-top-bar" class="topbar primary-bg"
+	style="background-color: #547A95">
+	<div class="container">
+		<div class="row justify-content-between align-items-center">
+			<div class="col-md-8 col-lg-7 d-none d-md-none d-lg-block">
+				<div class="topbar-text text-white">
+					<ul class="list-inline" style="margin-bottom: 0px;">
+						<li class="list-inline-item text-white"><span
+							class="flaticon-placeholder-filled-point mr-1"></span> ул. „П. Волов“ № 2, София 1038, България</li>
+						<li class="list-inline-item text-white"><a href="tel:(02) 9857 111" target="_blank"><span class="fas fa-phone-alt mr-1"></span> (02) 9857 111</a></li>
+					</ul>
+				</div>
+			</div>
+			<div class="col-md-12 col-lg-5" style="text-align: right;">
+				<div class="topbar-text text-white">
+					<ul class="list-inline text-md-right text-lg-right text-right  my-2">
+                	                		<li class="list-inline-item text-white"><a href="tel:(02) 9857 111" target="_blank"><span class="fas fa-phone-alt mr-1"></span><span class="sr-only">phone</span></a></li>
+                                    	                		<li class="list-inline-item text-white"><a href="https://www.facebook.com/nsibg" target="_blank"><span class="fab fa-facebook-f"></span><span class="sr-only">facebook</span></a></li>
+                                                            	<li class="list-inline-item"><a href="https://www.youtube.com/@bgnsi" class="rounded" target="_blank"><span class="fab fa-youtube"></span><span class="sr-only">youtube</span></a></li>
+                                        
+                                                                <li class="list-inline-item text-white"><a href="/pages/vrazki-34" class="rounded">Връзки</a></li>
+					                        <li class="list-inline-item text-white"><a href="/contacts" class="rounded">Контакти</a></li>
+													<li class="list-inline-item text-white"><a href="/en/press-release/inflaciya-i-indeksi-na-potrebitelskite-ceni-9121" class="rounded">English</a></li>
+                    </ul>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+<!--topbar end-->
+             <div class="crimso-responsive-nav">
+                <div class="container">
+                    <div class="crimso-responsive-menu">
+                        <div class="logo">
+                            <a href="">
+                                <img src="templates/default/img/logos/logo3.png" class="white-logo" alt="НСИ - Национален статистически институт">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="crimso-nav">
+                <div class="container">
+                    <nav class="navbar navbar-expand-md navbar-light">
+                        <a class="navbar-brand" href="">
+                        	                            <img src="templates/default/img/logos/logo-bg.png" class="white-logo" alt="НСИ - Национален статистически институт">
+                        </a>
+
+                       <div class="collapse navbar-collapse mean-menu" id="navbarSupportedContent">
+                       		
+<ul class="navbar-nav">
+    
+        
+        <li class="nav-item">
+            <a href="/statistical-data/258" class="nav-link">СТАТИСТИЧЕСКИ ДАННИ <i class="fa fa-plus"></i></a>
+
+            				<ul class="dropdown-menu">
+			<li class="nav-item">
+			<a class="nav-link" href="/infostat">ИС ИНФОСТАТ - база от данни</a>
+					</li>
+			<li class="nav-item">
+			<a class="nav-link" href="/statistical-data/258">Бизнес статистика</a>
+			<ul class="dropdown-menu">
+			<li class="nav-item">
+			<a class="nav-link" href="/statistical-data/407">Бизнес наблюдения</a>
+					</li>
+			<li class="nav-item">
+			<a class="nav-link" href="/statistical-data/403">Бизнес регистър</a>
+					</li>
+			<li class="nav-item">
+			<a class="nav-link" href="/statistical-data/391">Външна търговия</a>
+					</li>
+			<li class="nav-item">
+			<a class="nav-link" href="/statistical-data/349">Годишна бизнес статистика</a>
+					</li>
+			<li class="nav-item">
+			<a class="nav-link" href="/statistical-data/343">Инвестиции</a>
+					</li>
+			<li class="nav-item">
+			<a class="nav-link" href="/statistical-data/316">Краткосрочна бизнес статистика</a>
+					</li>
+			<li class="nav-item">
+			<a class="nav-link" href="/statistical-data/301">НИРД, иновации и информационно общество</a>
+					</li>
+			<li class="nav-item">
+			<a class="nav-link" href="/statistical-data/267">Туризъм</a>
+					</li>
+			<li class="nav-item">
+			<a class="nav-link" href="/statistical-data/423">Транспорт</a>
+					</li>
+	</ul>		</li>
+			<li class="nav-item">
+			<a class="nav-link" href="/statistical-data/142">Демографска и социална статистика</a>
+			<ul class="dropdown-menu">
+			<li class="nav-item">
+			<a class="nav-link" href="/statistical-data/246">Доходи, разходи и потребление на домакинствата</a>
+					</li>
+			<li class="nav-item">
+			<a class="nav-link" href="/statistical-data/243">Жилищен фонд</a>
+					</li>
+			<li class="nav-item">
+			<a class="nav-link" href="/statistical-data/229">Здравеопазване</a>
+					</li>
+			<li class="nav-item">
+			<a class="nav-link" href="/statistical-data/218">Култура</a>
+					</li>
+			<li class="nav-item">
+			<a class="nav-link" href="/statistical-data/202">Население - демография, миграция и прогнози</a>
+					</li>
+			<li class="nav-item">
+			<a class="nav-link" href="/statistical-data/181">Образование и учене през целия живот</a>
+					</li>
+			<li class="nav-item">
+			<a class="nav-link" href="/statistical-data/161">Пазар на труда</a>
+					</li>
+			<li class="nav-item">
+			<a class="nav-link" href="/statistical-data/152">Правосъдие и престъпност</a>
+					</li>
+			<li class="nav-item">
+			<a class="nav-link" href="/statistical-data/151">Преброяване на населението и жилищния фонд</a>
+					</li>
+			<li class="nav-item">
+			<a class="nav-link" href="/statistical-data/147">Социална защита</a>
+					</li>
+			<li class="nav-item">
+			<a class="nav-link" href="/statistical-data/143">Социално включване и условия на живот</a>
+					</li>
+	</ul>		</li>
+			<li class="nav-item">
+			<a class="nav-link" href="/statistical-data/82">Макроикономическа статистика</a>
+			<ul class="dropdown-menu">
+			<li class="nav-item">
+			<a class="nav-link" href="/statistical-data/136">Брутен вътрешен продукт (БВП)</a>
+					</li>
+			<li class="nav-item">
+			<a class="nav-link" href="/statistical-data/135">Брутен национален доход (БНД)</a>
+					</li>
+			<li class="nav-item">
+			<a class="nav-link" href="/statistical-data/127">Държавна финансова статистика</a>
+					</li>
+			<li class="nav-item">
+			<a class="nav-link" href="/statistical-data/125">Европейска система от национални и регионални сметки 2010</a>
+					</li>
+			<li class="nav-item">
+			<a class="nav-link" href="/statistical-data/121">Заетост и отработени човекочасове - национално ниво</a>
+					</li>
+			<li class="nav-item">
+			<a class="nav-link" href="/statistical-data/118">Заетост и отработени човекочасове - регионално ниво</a>
+					</li>
+			<li class="nav-item">
+			<a class="nav-link" href="/statistical-data/113">Инфлация и индекси на потребителските цени</a>
+					</li>
+			<li class="nav-item">
+			<a class="nav-link" href="/statistical-data/84">Национални сметки - доклади за качество по програма за предоставяне на данни за Евростат</a>
+					</li>
+			<li class="nav-item">
+			<a class="nav-link" href="/statistical-data/101">Паритети на покупателната способност (ППС) - Програма за европейски и международни сравнения</a>
+					</li>
+			<li class="nav-item">
+			<a class="nav-link" href="/statistical-data/83">Пенсионни права в социалното осигуряване</a>
+					</li>
+			<li class="nav-item">
+			<a class="nav-link" href="/statistical-data/100">Секторни нефинансови сметки по институционални сектори</a>
+					</li>
+			<li class="nav-item">
+			<a class="nav-link" href="/statistical-data/90">Статистика на цените на жилища</a>
+					</li>
+			<li class="nav-item">
+			<a class="nav-link" href="/statistical-data/87">Таблици "Ресурс-използване"</a>
+					</li>
+			<li class="nav-item">
+			<a class="nav-link" href="/statistical-data/85">Финансови национални сметки</a>
+					</li>
+	</ul>		</li>
+			<li class="nav-item">
+			<a class="nav-link" href="/statistical-data/57">Околна среда и енергетика</a>
+			<ul class="dropdown-menu">
+			<li class="nav-item">
+			<a class="nav-link" href="/statistical-data/74">Енергетика</a>
+					</li>
+			<li class="nav-item">
+			<a class="nav-link" href="/statistical-data/58">Околна среда</a>
+					</li>
+	</ul>		</li>
+			<li class="nav-item">
+			<a class="nav-link" href="/statistical-data/15">Многосекторна статистика</a>
+			<ul class="dropdown-menu">
+			<li class="nav-item">
+			<a class="nav-link" href="/statistical-data/48">Кризисни събития</a>
+					</li>
+			<li class="nav-item">
+			<a class="nav-link" href="/statistical-data/428">Равенство между половете</a>
+					</li>
+			<li class="nav-item">
+			<a class="nav-link" href="/statistical-data/46">Регионална статистика</a>
+					</li>
+			<li class="nav-item">
+			<a class="nav-link" href="/statistical-data/45">Баланс на територията на Република България</a>
+					</li>
+			<li class="nav-item">
+			<a class="nav-link" href="/statistical-data/19">Статистика на градовете</a>
+					</li>
+			<li class="nav-item">
+			<a class="nav-link" href="/statistical-data/17">Устойчиво развитие</a>
+					</li>
+			<li class="nav-item">
+			<a class="nav-link" href="/statistical-data/47">Показатели за стратегия "Европа 2020"</a>
+					</li>
+	</ul>		</li>
+			<li class="nav-item">
+			<a class="nav-link" href="/statistical-data/418">Геореферирани данни</a>
+			<ul class="dropdown-menu">
+			<li class="nav-item">
+			<a class="nav-link" href="/statistical-data/419">Грид на населението</a>
+					</li>
+	</ul>		</li>
+			<li class="nav-item">
+			<a class="nav-link" href="/statistical-data/5">Селско и горско стопанство</a>
+			<ul class="dropdown-menu">
+			<li class="nav-item">
+			<a class="nav-link" href="/statistical-data/8">Селско стопанство</a>
+					</li>
+			<li class="nav-item">
+			<a class="nav-link" href="/statistical-data/6">Горско стопанство</a>
+					</li>
+	</ul>		</li>
+			<li class="nav-item">
+			<a class="nav-link" href="/statistical-data/1">Данъчна статистика</a>
+			<ul class="dropdown-menu">
+			<li class="nav-item">
+			<a class="nav-link" href="/statistical-data/2">Продажби на течни горива (бензини, дизел и пропан-бутан)</a>
+					</li>
+	</ul>		</li>
+			<li class="nav-item">
+			<a class="nav-link" href="/statistical-data/411">Ключови показатели</a>
+					</li>
+	</ul>
+			        </li>
+        	
+        
+        <li class="nav-item">
+            <a href="/pages/godishna-otchetnost-za-deinostta-na-predpriyatiyata-2024-850" class="nav-link">ПРОДУКТИ И УСЛУГИ <i class="fa fa-plus"></i></a>
+
+            				<ul class="dropdown-menu">
+			<li class="nav-item">
+			<a class="nav-link" href="/pages/za-respondenti-5">ЗА РЕСПОНДЕНТИ</a>
+			<ul class="dropdown-menu">
+			<li class="nav-item">
+			<a class="nav-link" href="/bulstat">Проверка на задълженията към дата</a>
+					</li>
+			<li class="nav-item">
+			<a class="nav-link" href="/pages/informacionna-sistema-biznes-cikli-97">Информационни системи</a>
+					</li>
+			<li class="nav-item">
+			<a class="nav-link" href="/pages/nablyudenie-na-rabotnata-sila-581">Наблюдения</a>
+					</li>
+			<li class="nav-item">
+			<a class="nav-link" href="/documents/215">Формуляри по теми</a>
+					</li>
+	</ul>		</li>
+			<li class="nav-item">
+			<a class="nav-link" href="/pages/zayavki-za-uslugi-24">Заявки за услуги</a>
+			<ul class="dropdown-menu">
+			<li class="nav-item">
+			<a class="nav-link" href="/service">Заявки за статистически услуги - уеб формуляр</a>
+					</li>
+			<li class="nav-item">
+			<a class="nav-link" href="/pages/zayavki-za-drugi-elektronni-uslugi-935">Заявки за други електронни услуги</a>
+					</li>
+	</ul>		</li>
+			<li class="nav-item">
+			<a class="nav-link" href="/calendar">Календар за разпространение</a>
+					</li>
+			<li class="nav-item">
+			<a class="nav-link" href="/pages/spisak-na-standartnite-statisticheski-pokazateli-27">Списък на стандартните статистически показатели</a>
+					</li>
+			<li class="nav-item">
+			<a class="nav-link" href="/pages/statisticheski-klasifikacii-i-registri-372">Статистически класификации и регистри</a>
+			<ul class="dropdown-menu">
+			<li class="nav-item">
+			<a target="_blank" class="nav-link" href="https://www.nsi.bg/nrnm/">Национален регистър на населените места</a>
+					</li>
+			<li class="nav-item">
+			<a class="nav-link" href="/pages/statisticheski-klasifikacii-13">Статистически класификации</a>
+					</li>
+	</ul>		</li>
+			<li class="nav-item">
+			<a class="nav-link" href="/metadata">Метаданни и методология на изследванията</a>
+			<ul class="dropdown-menu">
+			<li class="nav-item">
+			<a class="nav-link" href="/pages/sdds-plus-57">SDDS Plus</a>
+					</li>
+	</ul>		</li>
+			<li class="nav-item">
+			<a class="nav-link" href="/quality-reports">Доклади за качество</a>
+					</li>
+			<li class="nav-item">
+			<a class="nav-link" href="/pages/obsht-model-na-statisticheskiya-proizvodstven-proces-v-nsi-476">Общ модел на статистическия производствен процес в НСИ</a>
+					</li>
+			<li class="nav-item">
+			<a class="nav-link" href="/publications">Публикации</a>
+					</li>
+			<li class="nav-item">
+			<a class="nav-link" href="/pages/statistika-za-vseki-739">Статистика за всеки</a>
+			<ul class="dropdown-menu">
+			<li class="nav-item">
+			<a class="nav-link" href="/pages/kalkulatori-na-inflaciyata-387">Калкулатори на инфлацията</a>
+					</li>
+			<li class="nav-item">
+			<a class="nav-link" href="/pages/statisticheski-hapcheta-740">Статистически хапчета</a>
+					</li>
+			<li class="nav-item">
+			<a class="nav-link" href="/pages/statistika-za-nachinaeshti-741">Статистика за начинаещи</a>
+					</li>
+			<li class="nav-item">
+			<a class="nav-link" href="/pages/statistika-v-klas-742">Статистика в клас</a>
+					</li>
+			<li class="nav-item">
+			<a class="nav-link" href="/pages/infografiki-743">Инфографики</a>
+					</li>
+			<li class="nav-item">
+			<a class="nav-link" href="/pages/digitalni-publikacii-744">Дигитални публикации</a>
+					</li>
+			<li class="nav-item">
+			<a class="nav-link" href="/pages/statisticheski-rechnici-745">Статистически речници</a>
+					</li>
+			<li class="nav-item">
+			<a class="nav-link" href="/pages/videouroci-po-statistika-i-ikonometriya-746">Видеоуроци по статистика и иконометрия</a>
+					</li>
+			<li class="nav-item">
+			<a class="nav-link" href="/pages/evropeiska-olimpiada-po-statistika-za-uchenici-747">Eвропейска олимпиада по статистика за ученици</a>
+					</li>
+			<li class="nav-item">
+			<a class="nav-link" href="/pages/mejdunaroden-konkurs-za-statisticheski-plakat-748">Международен конкурс за статистически плакат</a>
+					</li>
+			<li class="nav-item">
+			<a class="nav-link" href="/pages/konkurs-za-statistichesko-ese-za-uchenici-772">Конкурс за статистическо есе за ученици</a>
+					</li>
+			<li class="nav-item">
+			<a class="nav-link" href="/pages/datathon-2025-787">Datathon</a>
+					</li>
+			<li class="nav-item">
+			<a class="nav-link" href="/pages/izlojbi-804">Изложби</a>
+					</li>
+			<li class="nav-item">
+			<a class="nav-link" href="/pages/socialni-medii-749">Социални медии</a>
+					</li>
+	</ul>		</li>
+			<li class="nav-item">
+			<a class="nav-link" href="/pages/esds-help-desk-388">ESDS Help Desk</a>
+					</li>
+			<li class="nav-item">
+			<a target="_blank" class="nav-link" href="https://www.nsi.bg/ddb2.1/?l=bg">База данни за разпространение - SDMX 2.1 Референтна инфраструктура</a>
+					</li>
+			<li class="nav-item">
+			<a class="nav-link" href="/pages/harta-na-klienta-931">Харта на клиента</a>
+					</li>
+	</ul>
+			        </li>
+        	
+        
+        <li class="nav-item">
+            <a href="/pages/history-897" class="nav-link">ЗА НСИ <i class="fa fa-plus"></i></a>
+
+            				<ul class="dropdown-menu">
+			<li class="nav-item">
+			<a class="nav-link" href="/team-schema">Организационна структура</a>
+			<ul class="dropdown-menu">
+			<li class="nav-item">
+			<a class="nav-link" href="/team-schema">Организационна схема</a>
+					</li>
+			<li class="nav-item">
+			<a class="nav-link" href="/team-search">Търсене</a>
+					</li>
+			<li class="nav-item">
+			<a class="nav-link" href="/team-management">Ръководство</a>
+					</li>
+			<li class="nav-item">
+			<a class="nav-link" href="/team-structure/direkciya-biznes-statistika-11">Дирекция "Бизнес статистика"</a>
+					</li>
+			<li class="nav-item">
+			<a class="nav-link" href="/team-structure/direkciya-demografska-i-socialna-statistika-17">Дирекция "Демографска и социална статистика"</a>
+					</li>
+			<li class="nav-item">
+			<a class="nav-link" href="/team-structure/direkciya-makroikonomicheska-statistika-23">Дирекция "Макроикономическа статистика"</a>
+					</li>
+			<li class="nav-item">
+			<a class="nav-link" href="/team-structure/direkciya-mnogosektorna-statistika-metodologiya-i-registri-30">Дирекция "Многосекторна статистика, методология и регистри"</a>
+					</li>
+			<li class="nav-item">
+			<a class="nav-link" href="/team-structure/direkciya-informacionni-sistemi-i-infrastruktura-36">Дирекция "Информационни системи и инфраструктура"</a>
+					</li>
+			<li class="nav-item">
+			<a class="nav-link" href="/team-structure/direkciya-obshta-administraciya-6">Дирекция "Обща администрация"</a>
+					</li>
+			<li class="nav-item">
+			<a class="nav-link" href="/team-subordination">Структури на пряко подчинение на председателя</a>
+					</li>
+			<li class="nav-item">
+			<a class="nav-link" href="/team-tsb">ТСБ</a>
+					</li>
+	</ul>		</li>
+			<li class="nav-item">
+			<a class="nav-link" href="/pages/history-897">История</a>
+					</li>
+			<li class="nav-item">
+			<a class="nav-link" href="/documents/218">Нормативна уредба</a>
+			<ul class="dropdown-menu">
+			<li class="nav-item">
+			<a class="nav-link" href="/documents/218">Европейска нормативна уредба</a>
+					</li>
+			<li class="nav-item">
+			<a class="nav-link" href="/documents/224">Българска нормативна уредба</a>
+					</li>
+			<li class="nav-item">
+			<a class="nav-link" href="/documents/219">Достъп до обществена информация</a>
+					</li>
+			<li class="nav-item">
+			<a class="nav-link" href="/documents/220">Опазване на статистическата тайна</a>
+					</li>
+			<li class="nav-item">
+			<a class="nav-link" href="/documents/232">Методики по постановления на Министерския съвет</a>
+					</li>
+	</ul>		</li>
+			<li class="nav-item">
+			<a class="nav-link" href="/pages/nacionalna-statisticheska-sistema-241">Национална статистическа система</a>
+			<ul class="dropdown-menu">
+			<li class="nav-item">
+			<a class="nav-link" href="/pages/nacionalen-statisticheski-savet-63">Национален статистически съвет</a>
+					</li>
+			<li class="nav-item">
+			<a class="nav-link" href="/pages/spisak-na-organite-na-statistikata-32">Списък на органите на статистиката</a>
+					</li>
+			<li class="nav-item">
+			<a class="nav-link" href="/pages/rules-42">Правилник за дейността на Националния статистически съвет към председателя на НСИ</a>
+					</li>
+			<li class="nav-item">
+			<a class="nav-link" href="/pages/guidelines-512">Насоки за разпространение на статистическа информация в НСС</a>
+					</li>
+	</ul>		</li>
+			<li class="nav-item">
+			<a class="nav-link" href="/pages/konsultativen-savet-kam-predsedatelya-na-nsi-s-uchastie-na-predstaviteli-ot-nacionalno-predstavitelnite-rabotodatelski-organizacii-825">Консултативен съвет към председателя на НСИ</a>
+					</li>
+			<li class="nav-item">
+			<a class="nav-link" href="/pages/international-cooperation-4">Международно сътрудничество</a>
+			<ul class="dropdown-menu">
+			<li class="nav-item">
+			<a class="nav-link" href="/pages/mejdunarodna-konferenciya-11-12-septemvri-2025-g-906">Международна конференция, септември 2025</a>
+					</li>
+			<li class="nav-item">
+			<a class="nav-link" href="/pages/european-statistical-system-29">Европейска статистическа система</a>
+					</li>
+			<li class="nav-item">
+			<a class="nav-link" href="/pages/drugi-mejdunarodni-organizacii-797">Други международни организации</a>
+					</li>
+			<li class="nav-item">
+			<a class="nav-link" href="/pages/rabotna-grupa-12-statistika-30">Работна група 12 „Статистика”</a>
+					</li>
+	</ul>		</li>
+			<li class="nav-item">
+			<a class="nav-link" href="/pages/otkrito-upravlenie-399">Открито управление</a>
+			<ul class="dropdown-menu">
+			<li class="nav-item">
+			<a class="nav-link" href="/pages/godishen-byudjet-401">Годишен бюджет</a>
+					</li>
+			<li class="nav-item">
+			<a class="nav-link" href="/pages/kasovi-mesechni-otcheti-400">Касови месечни отчети</a>
+					</li>
+			<li class="nav-item">
+			<a class="nav-link" href="/pages/kasovi-trimesechni-otcheti-665">Касови тримесечни отчети</a>
+					</li>
+			<li class="nav-item">
+			<a class="nav-link" href="/pages/kasovi-godishni-otcheti-666">Касови годишни отчети</a>
+					</li>
+			<li class="nav-item">
+			<a class="nav-link" href="/pages/oditen-doklad-922">Одитен доклад</a>
+					</li>
+			<li class="nav-item">
+			<a class="nav-link" href="/pages/informaciya-za-plashtaniyata-v-sebra-332">Информация за плащанията в СЕБРА</a>
+					</li>
+			<li class="nav-item">
+			<a class="nav-link" href="/pages/kriterii-i-pravila-za-ocenka-i-podbor-na-investicionni-proekti-na-nsi-700">Критерии и правила за оценка и подбор на инвестиционни проекти на НСИ</a>
+					</li>
+	</ul>		</li>
+			<li class="nav-item">
+			<a class="nav-link" href="/pages/integrirana-sistema-za-upravlenie-na-kachestvoto-i-sigurnostta-na-informaciyata-370">Качество и сигурност на информацията</a>
+			<ul class="dropdown-menu">
+			<li class="nav-item">
+			<a class="nav-link" href="/pages/politika-po-kachestvoto-i-na-sigurnostta-na-informaciyata-na-nacionalniya-statisticheski-institut-582">Политика по качеството и сигурността на информацията</a>
+					</li>
+			<li class="nav-item">
+			<a class="nav-link" href="/pages/kachestvo-141">Качество</a>
+					</li>
+			<li class="nav-item">
+			<a class="nav-link" href="/pages/spisak-na-kategoriite-informaciya-v-nsi-podlejashti-na-klasifikaciya-kato-slujebna-taina-932">Списък на категориите информация в НСИ, подлежащи на класификация като служебна тайна</a>
+					</li>
+	</ul>		</li>
+			<li class="nav-item">
+			<a class="nav-link" href="/pages/registar-na-deklaraciite-795">Регистър на декларациите</a>
+			<ul class="dropdown-menu">
+			<li class="nav-item">
+			<a class="nav-link" href="/pages/registar-na-deklaraciite-po-chl-75-ot-zakona-za-smetnata-palata-zsp-za-2026-g-928">Регистър на декларациите по чл. 75 от Закона за Сметната палата (ЗСП) за 2026 г.</a>
+					</li>
+			<li class="nav-item">
+			<a class="nav-link" href="/pages/registar-na-deklaraciite-arhiv-796">Регистър на декларациите - архив</a>
+					</li>
+	</ul>		</li>
+			<li class="nav-item">
+			<a class="nav-link" href="/pages/uchebno-kvalifikacionen-centar-slivek-125">Учебно-квалификационен център Сливек</a>
+					</li>
+	</ul>
+			        </li>
+        	
+        	</ul>
+							<div class="logo2">
+								<h1><img src="templates/default/img/logos/logo22.png" class="black-logo d-none d-lg-block" alt="НСИ"></h1>
+							</div>
+
+
+                            <div class="others-options">
+								<div class="option-item">
+	<i class="search-btn fa fa-search"></i>
+    <i class="close-btn fa fa-times"></i>
+    <div class="search-overlay search-popup">
+        <div class='search-box'>
+            <form class="search-form" action="/search" method="get">
+            	<label for="q"><span class="sr-only">Search</span></label>
+                <input type="text" class="search-input" name="q" id="q" placeholder="Търси" value="">
+                <button class="search-button" type="submit"><i class="fas fa-search"></i><span class="sr-only">Search</span></button>
+            </form>
+        </div>
+    </div>
+</div>                                <div class="burger-menu">
+                                    <span></span>
+                                    <span></span>
+                                    <span></span>
+                                </div>
+
+                            </div>
+                        </div>
+
+                    </nav>
+                </div>
+            </div>
+        </div>
+        <!-- End Navbar Area -->
+		
+<!-- Sidebar Modal -->
+<div class="sidebar-modal">
+    <div class="sidebar-modal-inner">
+    	            <div class="sidebar-about-area">
+                <div class="title">
+                    <h2>За НСИ</h2>
+                    <p><strong data-start="26" data-end="71">Националният статистически институт (НСИ)</strong> е държавна институция в България, която събира, обработва и разпространява официална статистическа информация за социалните, икономическите и демографските процеси в страната. Дейността на НСИ е насочена към осигуряване на обективни и надеждни данни, които подпомагат вземането на информирани решения от страна на държавата, бизнеса и обществото. Институтът работи съгласно международните статистически стандарти и е активен участник в Европейската статистическа система.</p>                </div>
+            </div>
+    						        <div class="sidebar-contact-area">
+            <div class="contact-info">
+                <div class="contact-info-content">
+                    <h2>
+                        <a href="tel:(02) 9857 111">(02) 9857 111</a>
+                        <span>ИЛИ</span>
+                        <a href="/cdn-cgi/l/email-protection#9ad3f4fcf5daf4e9f3b4f8fd"><span class="__cf_email__" data-cfemail="763f1810193618051f581411">[email&#160;protected]</span></a>
+                    </h2>
+
+                    <ul class="social">
+                    	                            <li>
+                                <a href="https://www.youtube.com/@bgnsi" target="_blank">
+                                    <i class="fab fa-youtube"></i>
+                                    <span class="sr-only">youtube</span>
+                                </a>
+                            </li>
+                                                                            <li>
+                                <a href="https://www.facebook.com/nsibg" target="_blank">
+                                    <i class="fab fa-facebook-f"></i>
+                                    <span class="sr-only">facebook</span>
+                                </a>
+                            </li>
+                                            </ul>
+                </div>
+            </div>
+        </div>
+
+        <span class="close-btn sidebar-modal-close-btn"><i class="fa fa-times"></i></span>
+    </div>
+</div>
+<!-- End Sidebar Modal -->
+
+        <div class="page-title-area">
+    <div class="d-table">
+        <div class="d-table-cell">
+            <div class="container">
+                <div class="page-title-content">
+            		<h2>Инфлация и индекси на потребителските цени - юли 2026 година</h2>
+                    <ul>
+                    	                    		                    			<li><a href="">Начало</a></li>
+                    		                                            		                    			<li><a href="/press-release">Прессъобщения</a></li>
+                    		                                            		
+                    			<li>Инфлация и индекси на потребителските цени - юли 2026 година</li>
+
+                    		                        
+					</ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+		<section class="blog-details-area">
+    <div class="container">
+        <div class="row">
+			<button class="send-btn-one left-menu-btn" type="button" style="width:140px;margin:25px 0px 0px 15px;">Филтри</button>
+            <div class="col-lg-3 col-md-12 col-xs-12 pt-4 pb-4 newsFilters">
+                <aside class="widget-area" id="secondary">
+                                           <section class="widget widget_categories">
+                            <h3 class="widget-title">Статистическа област</h3>
+
+                            <ul>
+                            	                                	<li><a href="/press-release?statsId=258">Бизнес статистика</a></li>
+                                                                	<li><a href="/press-release?statsId=142">Демографска и социална статистика</a></li>
+                                                                	<li><a href="/press-release?statsId=82">Макроикономическа статистика</a></li>
+                                                                	<li><a href="/press-release?statsId=57">Околна среда и енергетика</a></li>
+                                                                	<li><a href="/press-release?statsId=15">Многосекторна статистика</a></li>
+                                                                	<li><a href="/press-release?statsId=418">Геореферирани данни</a></li>
+                                                                	<li><a href="/press-release?statsId=5">Селско и горско стопанство</a></li>
+                                                                	<li><a href="/press-release?statsId=1">Данъчна статистика</a></li>
+                                                                	<li><a href="/press-release?statsId=411">Ключови показатели</a></li>
+                                                            </ul>
+                        </section>
+            							                        <section class="widget widget_archive pt-5">
+                            <h3 class="widget-title">По месеци</h3>
+                            <ul>
+                            	                                   <li><a href="/press-release?month=0&year=2026">Август 2026</a></li>
+                                                                   <li><a href="/press-release?month=1&year=2026">Юли 2026</a></li>
+                                                                   <li><a href="/press-release?month=2&year=2026">Юни 2026</a></li>
+                                                                   <li><a href="/press-release?month=3&year=2026">Май 2026</a></li>
+                                                                   <li><a href="/press-release?month=4&year=2026">Април 2026</a></li>
+                                                                   <li><a href="/press-release?month=5&year=2026">Март 2026</a></li>
+                                                                   <li><a href="/press-release?month=6&year=2026">Февруари 2026</a></li>
+                                                                   <li><a href="/press-release?month=7&year=2026">Януари 2026</a></li>
+                                                            </ul>
+                        </section>
+            		
+            	 	                        <section class="widget widget_archive pt-5">
+                            <h3 class="widget-title">Предстоящи</h3>
+                            <ul>
+                                                                	<li><a href="/press-release?month=9&year=2026">Септември 2026</a></li>
+
+                                                                 	<li><a href="/press-release?month=10&year=2026">Октомври 2026</a></li>
+
+                                                                 	<li><a href="/press-release?month=11&year=2026">Ноември 2026</a></li>
+
+                                                                 	<li><a href="/press-release?month=12&year=2026">Декември 2026</a></li>
+
+                                                                 	<li><a href="/press-release?month=1&year=2027">Януари 2027</a></li>
+
+                                                                 	<li><a href="/press-release?month=2&year=2027">Февруари 2027</a></li>
+
+                                                                 	<li><a href="/press-release?month=3&year=2027">Март 2027</a></li>
+
+                                                                 	<li><a href="/press-release?month=4&year=2027">Април 2027</a></li>
+
+                                                                 	<li><a href="/press-release?month=5&year=2027">Май 2027</a></li>
+
+                                                                 	<li><a href="/press-release?month=6&year=2027">Юни 2027</a></li>
+
+                                                                 	<li><a href="/press-release?month=7&year=2027">Юли 2027</a></li>
+
+                                                                 	<li><a href="/press-release?month=8&year=2027">Август 2027</a></li>
+
+                                                             </ul>
+                        </section>
+            		
+            		                        <section class="widget widget_archive pt-5">
+                            <h3 class="widget-title">Архив по години</h3>
+                            <ul>
+                            	                                   <li><a href="/press-release?year=2025">Архив 2025</a></li>
+                                                                   <li><a href="/press-release?year=2024">Архив 2024</a></li>
+                                                                   <li><a href="/press-release?year=2023">Архив 2023</a></li>
+                                                                   <li><a href="/press-release?year=2022">Архив 2022</a></li>
+                                                                   <li><a href="/press-release?year=2021">Архив 2021</a></li>
+                                                                   <li><a href="/press-release?year=2020">Архив 2020</a></li>
+                                                                   <li><a href="/press-release?year=2019">Архив 2019</a></li>
+                                                                   <li><a href="/press-release?year=2018">Архив 2018</a></li>
+                                                                   <li><a href="/press-release?year=2017">Архив 2017</a></li>
+                                                                   <li><a href="/press-release?year=2016">Архив 2016</a></li>
+                                                                   <li><a href="/press-release?year=2015">Архив 2015</a></li>
+                                                                   <li><a href="/press-release?year=2014">Архив 2014</a></li>
+                                                                   <li><a href="/press-release?year=2009">Архив 2009</a></li>
+                                                                   <li><a href="/press-release?year=2013">Архив 2013</a></li>
+                                                                   <li><a href="/press-release?year=2012">Архив 2012</a></li>
+                                                                   <li><a href="/press-release?year=2011">Архив 2011</a></li>
+                                                                   <li><a href="/press-release?year=2010">Архив 2010</a></li>
+                                                            </ul>
+                        </section>
+            		            		                                        	<section class="widget widget_tag_cloud pt-5">
+                            <h3 class="widget-title">Регионални прессъобщения</h3>
+                            <div class="tagcloud">
+                        		<a href="https://www.nsi.bg/tsb/" target="_blank">Виж всички регионални пресъобщения</a>
+                        	</div>
+                		</section>
+                                                        </aside>
+            </div>
+
+            <div class="col-lg-9 col-md-12 col-xs-12">
+                <div class="blog-details-desc">
+
+                	<div class="article-content">
+                        <div class="entry-meta">
+                            <ul>
+                            	<li><a href="#">17.08.2026 11:00:00</a></li>
+                             </ul>
+                        </div>
+						    						<!-- FILES for download -->
+    						<div class="entry-file">
+                                <ul>
+                            	                                		<li><a target="_blank" href="/file/37341/inflaciya_i_indeksi_na_potrebitelskite_ceni.pdf"><i class="mx-1 fa-solid fa-file-pdf"></i>Свали</a></li>
+                                	                                                                     		<li><a target="_blank" href="/file/37342/Инфлация-NEW-ЮЛИ-26.jpg"><i class="mx-1 fa-solid fa-file-image"></i>Инфографика</a></li>
+                                	                                                                      </ul>
+                            </div>
+                            <!-- END FILES for download -->
+                                                <h3>Инфлация и индекси на потребителските цени - юли 2026 година</h3>
+                     </div>
+				                    <div class="article-content">
+
+						<p style="text-align: justify;"><em>Месечната инфлация е 0.8%, а годишната инфлация е 4.5%. Инфлацията е измерена чрез ИПЦ, като месечната инфлация се отнася за юли 2026 г. спрямо предходния месец, а годишната инфлация е за юли 2026 г. спрямо същия месец на предходната година.</em></p>
+<p style="text-align: justify;"><em>През юли 2026 г. спрямо предходния месец е регистрирано най-голямо увеличение на цените в групите: &bdquo;Развлечения, спорт и култура&ldquo; (11.6%), &bdquo;Услуги на ресторанти и хотели&ldquo; (2.3%) и &bdquo;Жилища, вода, електроенергия, газ и други горива&ldquo; (2.0%). Най-голямо намаление е регистрирано в групите: &bdquo;Облекло и обувки&ldquo; (-2.9%), &bdquo;Застрахователни и финансови услуги&ldquo; (-1.8%) и &bdquo;Хранителни продукти и безалкохолни напитки&ldquo; (-1.0%).</em></p>
+<p style="text-align: justify;"><strong>&nbsp;</strong></p>
+<p style="text-align: justify;"><strong>Индекс на потребителските цени (ИПЦ)</strong></p>
+<p style="text-align: justify;">През юли 2026 г. <strong>месечната инфлация</strong> е 0.8%, а <strong>годишната инфлация</strong> за юли 2026 г. спрямо юли 2025 г. е 4.5%. Инфлацията от началото на годината (юли 2026 г. спрямо декември 2025 г.) е 3.7%<sup><a href="#_ftn1" name="_ftnref1">[1]</a></sup>.</p>
+<p style="text-align: justify;">Средногодишната инфлация за периода август 2025 - юли 2026 г. спрямо периода август 2024 - юли 2025 г. е 5.1%.</p>
+<p style="text-align: justify;"><div class="icycharts">	<div id="mainChart0" style="width: 100%; height: 600px;"></div>
+    </div></p>
+<p style="text-align: justify;"><strong><em>&nbsp;</em></strong><strong><em>Месечна инфлация</em></strong></p>
+<p style="text-align: justify;">Според ИПЦ през юли 2026 г. цените на стоките и услугите са увеличени в следните потребителски групи:</p>
+<ul style="text-align: justify;">
+<li>&bdquo;Развлечения, спорт и култура&ldquo; - увеличение с 11.6%;</li>
+<li>&bdquo;Услуги на ресторанти и хотели&ldquo; - увеличение с 2.3%;</li>
+<li>&bdquo;Жилища, вода, електроенергия, газ и други горива&ldquo; - увеличение с 2.0%;</li>
+<li>&bdquo;Образователни услуги&ldquo; - увеличение с 0.5%;</li>
+<li>&bdquo;Информация и комуникация&ldquo; - увеличение с 0.2%;</li>
+<li>&bdquo;Здравеопазване&ldquo; - увеличение с 0.2%;</li>
+<li>&bdquo;Жилищно обзавеждане, стоки и услуги за домакинството и за обичайно поддържане на дома&ldquo; - увеличение с 0.1%;</li>
+<li>&bdquo;Алкохолни напитки, тютюневи изделия&ldquo; - увеличение с 0.1%.</li>
+</ul>
+<p style="text-align: justify;">По-ниски са цените на стоките и услугите в следните потребителски групи:</p>
+<ul style="text-align: justify;">
+<li>&bdquo;Облекло и обувки&ldquo; - намаление с 2.9%;</li>
+<li>&bdquo;Застрахователни и финансови услуги&ldquo; - намаление с 1.8%;</li>
+<li>&bdquo;Хранителни продукти и безалкохолни напитки&ldquo; - намаление с 1.0%;</li>
+<li>&bdquo;Транспорт&ldquo; - намаление с 0.7%;</li>
+<li>&bdquo;Лични грижи, социална защита и разни стоки и услуги&ldquo; - намаление с 0.1%.</li>
+</ul>
+<p style="text-align: justify;">През месец юли 2026 г. са увеличени цените на следните хранителни продукти: месо от едър рогат добитък - с 3.9%, зрял лук - с 3.1%, прясна и охладена риба - с 2.7%, макаронени изделия - с 2.4%,&nbsp; сладолед - с 1.8%, зрял боб - с 1.4%, месо от домашни птици - с 1.2%, зърнени закуски - с 1.0%, олио - с 0.9%, ябълки - с 0.9%, сухи сладкарски изделия - с 0.8%, сирене - с 0.7%, извара - с 0.7%, газирани напитки - с 0.7%, замразена риба - с 0.5%, сол - с 0.5%, плодови сокове - с 0.5%, вина - с 0.5%, гъби - с 0.5%, кайма - с 0.4%, оцет - с 0.2%, какао - с 0.2%, и други.</p>
+<p style="text-align: justify;">Намалени са цените на следните хранителни продукти: картофи - с 18.9%, праскови и кайсии - с 18.6%, зелен фасул - със 17.1%, други пресни зеленчуци (тиквички и патладжани) - с 15.6%, домати - с 11.0%, пипер - с 10.0%, зеле - с 6.7%, краставици - с 4.1%, банани - с 3.3%, цитрусови плодове - с 3.0%, пресни зеленчукови подправки - с 2.9%, кореноплодни зеленчуци (моркови и червено цвекло) - с 2.7%, шоколад и шоколадови изделия - с 2.1%, маслини - с 1.9%, захар - с 1.8%, яйца - с 1.6%, зрял чесън - с 1.6%, свинско месо - с 1.5%, малотрайни колбаси - с 1.4%, кафе - с 1.3%, хляб &bdquo;Добруджа&ldquo; - с 1.1%, ориз - с 1.0%, пълномаслено прясно мляко - с 1.0%, брашно - с 0.9%, нискомаслено прясно мляко - с 0.8%, млечни масла - с 0.8%, маргарин - с 0.8%, бира - с 0.7%, трайни колбаси - с 0.7%, кисели млека - с 0.6%, бял хляб - с 0.5%, ракии - с 0.4%, кашкавал - с 0.2%, минерална вода - с 0.2%, и други.</p>
+<p style="text-align: justify;">В групите на нехранителните стоки и услуги е регистрирано увеличение на цените при: хотели във ваканционни центрове и курорти - с 19.5%, пакетни услуги за почивка и туристически пътувания - с 18.4%, международни полети - със 17.8%, топлинна енергия - с 5.3%, ветеринарни услуги - с 4.1%, централно газоснабдяване - с 3.5%, електроенергия - с 3.1%, перални и сушилни машини - с 2.3%, съдомиялни машини - с 2.2%, метан за ЛТС - с 2.2%, прахосмукачки - с 1.6%, бръснаро-фризьорски услуги и услуги за поддържане на добър външен вид - с 1.3%, услуги на ресторанти - с 0.7%, принадлежности за ЛТС - с 0.6%, почистващи и дезинфекционни препарати - с 0.5%, поддържане и ремонт на ЛТС - с 0.5%, шофьорски курсове - с 0.4%, хладилници - с 0.3%, цигари - с 0.2%, и други.</p>
+<p style="text-align: justify;">При нехранителните стоки и услуги е регистрирано намаление на цените при: газ пропан-бутан за ЛТС - със 7.3%, облекло - с 3.1%, застраховане - с 2.9%,&nbsp; велосипеди - с 2.7%, обувки - с 2.4%, бензин А95Н - с 2.2%, големи готварски уреди - с 2.0%, препарати за почистване на съдове - с 1.8%, продукти за лична хигиена - с 1.8%, електрически уреди за лична хигиена и разкрасяване - с 1.5%, бензин А100Н - с 1.2%, климатици - с 0.7%, дизелово гориво - с 0.2%, телевизори - с 0.2%, и други.</p>
+<p style="text-align: justify;">Регистрирано е увеличение на: цените на лекарските услуги - с 1.0%, стоматологичните услуги - с 0.3%, услугите на медицинските лаборатории - с 0.3%, и лекарствените продукти - с 0.1%.</p>
+<p style="text-align: justify;"><strong><em>Натрупана инфлация</em></strong></p>
+<p style="text-align: justify;">Натрупаната инфлация, измерена с ИПЦ, за последните три години (юли 2026 г. спрямо юли 2023 г.) е 12.7%, а за последните пет години (юли 2026 г. спрямо юли 2021 г.) е 43.4%.</p>
+<p style="text-align: justify;">&nbsp;</p>
+<p style="text-align: justify;"><strong>Хармонизиран индекс на потребителските цени</strong> <strong>(ХИПЦ)</strong></p>
+<p style="text-align: justify;">През юли 2026 г. <strong>месечната инфлация</strong> е 0.6%, а <strong>годишната инфлация</strong> за юли 2026 г. спрямо юли 2025 г. е 4.4%. Инфлацията от началото на годината (юли 2026 г. спрямо декември 2025 г.) е 4.1%<sup><a href="#_ftn2" name="_ftnref2">[2]</a></sup>.</p>
+<p style="text-align: justify;">Средногодишната инфлация за периода август 2025 - юли 2026 г. спрямо периода август 2024 - юли 2025 г. е 4.0%.</p>
+<p style="text-align: justify;"><div class="icycharts">	<div id="mainChart1" style="width: 100%; height: 600px;"></div>
+    </div>&nbsp;</p>
+<p style="text-align: justify;">&nbsp;</p>
+<p style="text-align: justify;"><strong><em>Месечна инфлация</em></strong></p>
+<p style="text-align: justify;">Според ХИПЦ през юли 2026 г. цените на стоките и услугите са увеличени в следните потребителски групи:</p>
+<ul style="text-align: justify;">
+<li>&bdquo;Услуги на ресторанти и хотели&ldquo; - увеличение с 4.6%;</li>
+<li>&bdquo;Развлечения, спорт и култура&ldquo; - увеличение с 3.8%;</li>
+<li>&bdquo;Жилища, вода, електроенергия, газ и други горива&ldquo; - увеличение с 1.6%;</li>
+<li>&bdquo;Образователни услуги&ldquo; - увеличение с 0.5%;</li>
+<li>&bdquo;Жилищно обзавеждане, стоки и услуги за домакинството и за обичайно поддържане на дома&ldquo; - увеличение с 0.2%;</li>
+<li>&bdquo;Здравеопазване&ldquo; - увеличение с 0.2%;</li>
+<li>&bdquo;Алкохолни напитки, тютюневи изделия&ldquo;- увеличение с 0.1%;</li>
+<li>&bdquo;Транспорт&ldquo; - увеличение с 0.1%;</li>
+<li>&bdquo;Информация и комуникация&ldquo; - увеличение с 0.1%.</li>
+</ul>
+<p style="text-align: justify;">По-ниски са цените на стоките и услугите в следните потребителски групи:</p>
+<ul style="text-align: justify;">
+<li>&bdquo;Облекло и обувки&ldquo; - намаление с 2.9%;</li>
+<li>&bdquo;Застрахователни и финансови услуги&ldquo; - намаление с 1.1%;</li>
+<li>&bdquo;Хранителни продукти и безалкохолни напитки&ldquo; - намаление с 0.8%;</li>
+<li>&bdquo;Лични грижи, социална защита и разни стоки и услуги&ldquo; - намаление с 0.1%.</li>
+</ul>
+<p style="text-align: justify;"><strong><em>Натрупана инфлация</em></strong></p>
+<p style="text-align: justify;">Натрупаната инфлация, измерена с ХИПЦ, за последните три години (юли 2026 г. спрямо юли 2023 г.) е 10.9%, а за последните пет години (юли 2026 г. спрямо юли 2021 г.) е 37.4%.</p>
+<p style="text-align: justify;"><strong>&nbsp;</strong></p>
+<p style="text-align: justify;"><strong>Индекс на цените за малката кошница (ИЦМК)</strong></p>
+<p style="text-align: justify;">През юли 2026 г. месечното изменение<strong> на индекса на цените на малката кошница</strong> е -0.4%, а <strong>годишното изменение</strong> за юли 2026 г. спрямо юли 2025 г. е 2.0%<a href="#_ftn3" name="_ftnref3"><sup>[3]</sup></a>.</p>
+<p style="text-align: justify;">Цените на стоките и услугите от малката кошница за най-нискодоходните 20% от домакинствата са се променили спрямо предходния месец, както следва:</p>
+<ul style="text-align: justify;">
+<li>хранителни продукти - намаление с 1.4%;</li>
+<li>нехранителни стоки - намаление с 0.7%;</li>
+<li>услуги - увеличение с 2.2%.</li>
+</ul>
+<p style="text-align: justify;"><div class="pageBreak"></div></p>
+<p style="text-align: center;"><strong>Методологични бележки</strong></p>
+<p style="text-align: justify;"><strong>&nbsp;</strong></p>
+<p style="text-align: justify;">Съгласно изискванията на Делегиран Регламент (ЕС) 2024/3159 от началото на 2026 г. НСИ прилага новата Европейска класификация на индивидуалното потребление по цели, версия 2, в съответствие с класификацията КОИКОП 2018 на Организация на обединените нации (ООН) при структурирането на ИПЦ, ХИПЦ и ИЦМК.</p>
+<p style="text-align: justify;">Съгласно изискванията на Регламент за изпълнение (ЕС) № 2025/1182 от началото на 2026 г. беше сменена базисната година за ИПЦ, ХИПЦ и ИЦМК и всички индекси се изчисляват и публикуват при база 2025 година (www.nsi.bg).</p>
+<p style="text-align: justify;">Съгласно изискванията на Делегиран Регламент (ЕС) 2024/3159 от януари 2026 г. хазартните игри са включени в обхвата на ИПЦ и ХИПЦ като част от подгрупа &bdquo;Услуги за развлечение&ldquo;, група &bdquo;Развлечения, спорт и култура&ldquo;.</p>
+<p style="text-align: justify;"><strong>Индексът на потребителските цени (ИПЦ) е официален измерител на инфлацията</strong> <strong>в Република България.</strong> Той оценява общото относително изменение на цените на стоките и услугите, използвани от домакинствата за лично (непроизводствено) потребление, и се изчислява, като се прилага структурата на крайните парични потребителски разходи на българските домакинства. Основен източник на информация за разходите е изследването на бюджетите на домакинствата в страната. ИПЦ в година<strong> <em>t</em></strong> се изчислява при структура на разходите от година <strong><em>t - 1</em>.</strong></p>
+<p style="text-align: justify;"><strong>Хармонизираният индекс на потребителските цени</strong> <strong>(ХИПЦ) е сравнима мярка на инфлацията на държавите от ЕС. Той е един от критериите за ценовата стабилност и за присъединяването на България към еврозоната.</strong> ХИПЦ, както и ИПЦ, измерват общото относително изменение в равнището на цените на стоките и услугите. Двата индекса се изчисляват от една и съща кошница от стоки и услуги и от едни и същи цени, но се различават по използваните тегла. ХИПЦ се изчислява с тегла, представляващи относителните дялове по групи стоки на индивидуалното и колективното потребление на всички домакинства (включително институционалните и чуждестранните) на икономическата територия на страната. Основен източник на информация за теглата са данните от националните сметки. При изчисляването му за 2026 г. за тегла се използват данни за крайните парични потребителски разходи на домакинствата (КППРД) - вътрешна концепция за 2024 г., които са преразгледани и актуализирани, за да бъдат представителни за 2025 година.</p>
+<p style="text-align: justify;"><strong>Индексът на цените за малката кошница (ИЦМК) </strong>е измерител на средното относително изменение на цените на 100 социалнополезни и жизненонеобходими стоки и услуги. Теглата за изчисляване на този индекс представляват относителните дялове на паричните разходи на най-нискодоходните 20% от домакинствата. Източник на информацията за теглата е изследването на бюджетите на домакинствата в страната. Този индекс в година<strong> <em>t</em></strong> се изчислява с тегла от година <strong><em>t - 1</em>.</strong></p>
+<p style="text-align: justify;"><strong>Верижните </strong>индекси на потребителските цени измерват изменението на цените през текущия месец спрямо предходния месец. Верижните индекси на потребителските цени са измерители на <strong>месечната инфлация.</strong></p>
+<p style="text-align: justify;"><strong>12-месечните </strong>индекси на потребителските цени измерват изменението на цените през текущия месец спрямо същия месец на предходната година. 12-месечните индекси на потребителските цени са измерители на <strong>годишната инфлация.</strong></p>
+<p style="text-align: justify;">Индексите на потребителските цени <strong>с натрупване от началото на годината</strong> измерват изменението на цените през текущия месец спрямо декември на предходната година. Индексите на потребителските цени с натрупване от началото на годината са измерители на <strong>натрупаната инфлация от началото на годината. </strong>През декември всяка година 12-месечният индекс и индексът с натрупване от началото на годината са равни.</p>
+<p style="text-align: justify;"><strong>Средногодишните </strong>индекси на потребителските цени измерват средното изменение на цените за дванадесетте месеца на текущата година спрямо средното изменение на цените за дванадесетте месеца на предходната година. Средногодишните индекси на потребителските цени са измерители на <strong>средногодишната инфлация.</strong></p>
+<p style="text-align: justify;">Във връзка с членството на България в еврозоната от 1 януари 2026 г. Националният статистически институт (НСИ) е задължен да произвежда и публикува експресни предварителни оценки (flash estimates) за инфлацията и индексите на потребителските цени. Това е валидно за всички държави членки на еврозоната. НСИ публикува на сайта си прессъобщение за експресните предварителни оценки за инфлацията и индексите на потребителските цени, съгласно <a href="calendar">Календара за разпространение</a> на статистическа информация.</p>
+<p style="text-align: justify;"><strong>&nbsp;</strong></p>
+<p style="text-align: justify;"><strong>Статистическа област: Инфлация и индекси на потребителските цени:</strong></p>
+<p style="text-align: justify;"><a href="bg/content/2445/%D0%B8%D0%BD%D1%84%D0%BB%D0%B0%D1%86%D0%B8%D1%8F-%D0%B8-%D0%B8%D0%BD%D0%B4%D0%B5%D0%BA%D1%81%D0%B8-%D0%BD%D0%B0-%D0%BF%D0%BE%D1%82%D1%80%D0%B5%D0%B1%D0%B8%D1%82%D0%B5%D0%BB%D1%81%D0%BA%D0%B8%D1%82%D0%B5-%D1%86%D0%B5%D0%BD%D0%B8">Инфлация и индекси на потребителските цени | Национален статистически институт (nsi.bg)</a></p>
+<p style="text-align: justify;"><strong>ИС ИНФОСТАТ: Потребителски цени:</strong></p>
+<p style="text-align: justify;"><a href="https://infostat.nsi.bg/infostat/pages/module.jsf?x_2=68">https://infostat.nsi.bg/infostat/pages/module.jsf?x_2=68</a></p>
+<p style="text-align: justify;"><strong>Метаданни и методология:</strong></p>
+<p style="text-align: justify;"><a href="bg/content/2507/%D0%BC%D0%B5%D1%82%D0%B0%D0%B4%D0%B0%D0%BD%D0%BD%D0%B8/%D0%B8%D0%BD%D0%B4%D0%B5%D0%BA%D1%81%D0%B8-%D0%BD%D0%B0-%D0%BF%D0%BE%D1%82%D1%80%D0%B5%D0%B1%D0%B8%D1%82%D0%B5%D0%BB%D1%81%D0%BA%D0%B8%D1%82%D0%B5-%D1%86%D0%B5%D0%BD%D0%B8-%D0%B8%D0%BF%D1%86">Индекси на потребителските цени (ИПЦ) | Национален статистически институт (nsi.bg)</a></p>
+<p style="text-align: justify;"><strong>Калкулатори на инфлацията:</strong></p>
+<p style="text-align: justify;"><a href="bg/content/2538/%D0%BA%D0%B0%D0%BB%D0%BA%D1%83%D0%BB%D0%B0%D1%82%D0%BE%D1%80%D0%B8-%D0%BD%D0%B0-%D0%B8%D0%BD%D1%84%D0%BB%D0%B0%D1%86%D0%B8%D1%8F%D1%82%D0%B0">Калкулатори на инфлацията | Национален статистически институт (nsi.bg)</a></p>
+<p style="text-align: justify;"><div class="pageBreak"></div><strong><br /> </strong></p>
+<p style="text-align: center;"><strong>Приложение</strong></p>
+<p style="text-align: right;"><strong>Таблица 1</strong></p>
+<p style="text-align: justify;">&nbsp;<div class="icytables table-responsive">
+<table class="datatable display" id="icyTable0">
+	<caption>Индекси на потребителските цени за юли 2026 година</caption>
+	<thead>
+		<tr>
+						<th>Код</th>
+    					<th>Потребителски групи</th>
+    					<th>юли 2026 г. спрямо юни 2026 г. </th>
+    					<th>юли 2026 г. спрямо декември 2025 г. </th>
+    					<th>юли 2026 г. спрямо юли 2025 г. </th>
+    				</tr>
+	</thead>
+    <tbody>
+        	<tr>
+    	    		<td></td>
+    	    		<td></td>
+    	    		<td>%</td>
+    	    		<td>%</td>
+    	    		<td>%</td>
+    	    	</tr>
+        	<tr>
+    	    		<td>00</td>
+    	    		<td>Общ ИПЦ</td>
+    	    		<td>100.8</td>
+    	    		<td>103.7</td>
+    	    		<td>104.5</td>
+    	    	</tr>
+        	<tr>
+    	    		<td>01</td>
+    	    		<td>Хранителни продукти и безалкохолни напитки</td>
+    	    		<td>99.0</td>
+    	    		<td>100.6</td>
+    	    		<td>101.2</td>
+    	    	</tr>
+        	<tr>
+    	    		<td>02</td>
+    	    		<td>Алкохолни напитки, тютюневи изделия</td>
+    	    		<td>100.1</td>
+    	    		<td>103.9</td>
+    	    		<td>105.7</td>
+    	    	</tr>
+        	<tr>
+    	    		<td>03</td>
+    	    		<td>Облекло и обувки</td>
+    	    		<td>97.1</td>
+    	    		<td>96.8</td>
+    	    		<td>99.6</td>
+    	    	</tr>
+        	<tr>
+    	    		<td>04</td>
+    	    		<td>Жилища, вода, електроенергия, газ и други горива</td>
+    	    		<td>102.0</td>
+    	    		<td>104.5</td>
+    	    		<td>105.1</td>
+    	    	</tr>
+        	<tr>
+    	    		<td>05</td>
+    	    		<td>Жилищно обзавеждане, стоки и услуги за домакинството и за обичайно поддържане на дома</td>
+    	    		<td>100.1</td>
+    	    		<td>100.0</td>
+    	    		<td>100.3</td>
+    	    	</tr>
+        	<tr>
+    	    		<td>06</td>
+    	    		<td>Здравеопазване</td>
+    	    		<td>100.2</td>
+    	    		<td>102.9</td>
+    	    		<td>104.0</td>
+    	    	</tr>
+        	<tr>
+    	    		<td>07</td>
+    	    		<td>Транспорт</td>
+    	    		<td>99.3</td>
+    	    		<td>113.2</td>
+    	    		<td>114.5</td>
+    	    	</tr>
+        	<tr>
+    	    		<td>08</td>
+    	    		<td>Информация и комуникация</td>
+    	    		<td>100.2</td>
+    	    		<td>103.2</td>
+    	    		<td>101.8</td>
+    	    	</tr>
+        	<tr>
+    	    		<td>09</td>
+    	    		<td>Развлечения, спорт и култура</td>
+    	    		<td>111.6</td>
+    	    		<td>106.2</td>
+    	    		<td>107.5</td>
+    	    	</tr>
+        	<tr>
+    	    		<td>10</td>
+    	    		<td>Образователни услуги</td>
+    	    		<td>100.5</td>
+    	    		<td>103.0</td>
+    	    		<td>109.2</td>
+    	    	</tr>
+        	<tr>
+    	    		<td>11</td>
+    	    		<td>Услуги на ресторанти и хотели</td>
+    	    		<td>102.3</td>
+    	    		<td>108.7</td>
+    	    		<td>109.3</td>
+    	    	</tr>
+        	<tr>
+    	    		<td>12</td>
+    	    		<td>Застрахователни и финансови услуги</td>
+    	    		<td>98.2</td>
+    	    		<td>99.7</td>
+    	    		<td>101.1</td>
+    	    	</tr>
+        	<tr>
+    	    		<td>13</td>
+    	    		<td>Лични грижи, социална защита и разни стоки и услуги</td>
+    	    		<td>99.9</td>
+    	    		<td>103.6</td>
+    	    		<td>105.3</td>
+    	    	</tr>
+        	<tr>
+    	    		<td></td>
+    	    		<td></td>
+    	    		<td></td>
+    	    		<td></td>
+    	    		<td></td>
+    	    	</tr>
+        	<tr>
+    	    		<td></td>
+    	    		<td>Хранителни стоки</td>
+    	    		<td>99.1</td>
+    	    		<td>100.5</td>
+    	    		<td>101.2</td>
+    	    	</tr>
+        	<tr>
+    	    		<td></td>
+    	    		<td>Нехранителни стоки</td>
+    	    		<td>99.4</td>
+    	    		<td>104.1</td>
+    	    		<td>104.8</td>
+    	    	</tr>
+        	<tr>
+    	    		<td></td>
+    	    		<td>Обществено хранене</td>
+    	    		<td>100.7</td>
+    	    		<td>106.0</td>
+    	    		<td>109.9</td>
+    	    	</tr>
+        	<tr>
+    	    		<td></td>
+    	    		<td>Услуги</td>
+    	    		<td>104.3</td>
+    	    		<td>106.0</td>
+    	    		<td>106.7</td>
+    	    	</tr>
+        </tbody>
+</table></div></p>
+<p style="text-align: justify;">&nbsp;<div class="pageBreak"></div></p>
+<p style="text-align: right;"><strong>&nbsp;</strong><strong>Таблица 2</strong></p>
+<p style="text-align: justify;">&nbsp;</p>
+<p style="text-align: justify;">&nbsp;<div class="icytables table-responsive">
+<table class="datatable display" id="icyTable1">
+	<caption>Хармонизирани индекси на потребителските цени за юли 2026 година</caption>
+	<thead>
+		<tr>
+						<th>Код</th>
+    					<th>Потребителски групи</th>
+    					<th>юли 2026 г. спрямо юни 2026 г.  </th>
+    					<th>юли 2026 г. спрямо декември 2025 г.  </th>
+    					<th>юли 2026 г. спрямо юли 2025 г.  </th>
+    				</tr>
+	</thead>
+    <tbody>
+        	<tr>
+    	    		<td></td>
+    	    		<td></td>
+    	    		<td>%</td>
+    	    		<td>%</td>
+    	    		<td>%</td>
+    	    	</tr>
+        	<tr>
+    	    		<td>00</td>
+    	    		<td>Общ ХИПЦ</td>
+    	    		<td>100.6</td>
+    	    		<td>104.1</td>
+    	    		<td>104.4</td>
+    	    	</tr>
+        	<tr>
+    	    		<td>01</td>
+    	    		<td>Хранителни продукти и безалкохолни напитки</td>
+    	    		<td>99.2</td>
+    	    		<td>100.6</td>
+    	    		<td>101.2</td>
+    	    	</tr>
+        	<tr>
+    	    		<td>02</td>
+    	    		<td>Алкохолни напитки, тютюневи изделия</td>
+    	    		<td>100.1</td>
+    	    		<td>103.4</td>
+    	    		<td>105.2</td>
+    	    	</tr>
+        	<tr>
+    	    		<td>03</td>
+    	    		<td>Облекло и обувки</td>
+    	    		<td>97.1</td>
+    	    		<td>96.9</td>
+    	    		<td>100.2</td>
+    	    	</tr>
+        	<tr>
+    	    		<td>04</td>
+    	    		<td>Жилища, вода, електроенергия, газ и други горива</td>
+    	    		<td>101.6</td>
+    	    		<td>104.2</td>
+    	    		<td>105.0</td>
+    	    	</tr>
+        	<tr>
+    	    		<td>05</td>
+    	    		<td>Жилищно обзавеждане, стоки и услуги за домакинството и за обичайно поддържане на дома</td>
+    	    		<td>100.2</td>
+    	    		<td>100.8</td>
+    	    		<td>101.1</td>
+    	    	</tr>
+        	<tr>
+    	    		<td>06</td>
+    	    		<td>Здравеопазване</td>
+    	    		<td>100.2</td>
+    	    		<td>103.0</td>
+    	    		<td>103.9</td>
+    	    	</tr>
+        	<tr>
+    	    		<td>07</td>
+    	    		<td>Транспорт</td>
+    	    		<td>100.1</td>
+    	    		<td>108.8</td>
+    	    		<td>109.4</td>
+    	    	</tr>
+        	<tr>
+    	    		<td>08</td>
+    	    		<td>Информация и комуникация</td>
+    	    		<td>100.1</td>
+    	    		<td>102.0</td>
+    	    		<td>100.5</td>
+    	    	</tr>
+        	<tr>
+    	    		<td>09</td>
+    	    		<td>Развлечения, спорт и култура</td>
+    	    		<td>103.8</td>
+    	    		<td>104.9</td>
+    	    		<td>105.6</td>
+    	    	</tr>
+        	<tr>
+    	    		<td>10</td>
+    	    		<td>Образователни услуги</td>
+    	    		<td>100.5</td>
+    	    		<td>103.0</td>
+    	    		<td>109.3</td>
+    	    	</tr>
+        	<tr>
+    	    		<td>11</td>
+    	    		<td>Услуги на ресторанти и хотели</td>
+    	    		<td>104.6</td>
+    	    		<td>113.0</td>
+    	    		<td>106.7</td>
+    	    	</tr>
+        	<tr>
+    	    		<td>12</td>
+    	    		<td>Застрахователни и финансови услуги</td>
+    	    		<td>98.9</td>
+    	    		<td>99.8</td>
+    	    		<td>102.1</td>
+    	    	</tr>
+        	<tr>
+    	    		<td>13</td>
+    	    		<td>Лични грижи, социална защита и разни стоки и услуги</td>
+    	    		<td>99.9</td>
+    	    		<td>107.4</td>
+    	    		<td>109.5</td>
+    	    	</tr>
+        </tbody>
+</table></div></p>
+<p style="text-align: justify;">&nbsp;<div class="pageBreak"></div></p>
+<p style="text-align: right;"><strong>Таблица 3</strong></p>
+<p style="text-align: justify;"><div class="icytables table-responsive">
+<table class="datatable display" id="icyTable2">
+	<caption>Индекси на цените за малката кошница от 100 социалнополезни и жизненонеобходими стоки и услуги на най-нискодоходните 20% от   домакинствата за юли 2026 година</caption>
+	<thead>
+		<tr>
+						<th>Код</th>
+    					<th>Потребителски групи</th>
+    					<th>юли 2026 г. спрямо юни 2026 г.    </th>
+    					<th>юли 2026 г. спрямо юли 2025 г.    </th>
+    				</tr>
+	</thead>
+    <tbody>
+        	<tr>
+    	    		<td></td>
+    	    		<td></td>
+    	    		<td> %</td>
+    	    		<td> %</td>
+    	    	</tr>
+        	<tr>
+    	    		<td>00</td>
+    	    		<td>Общ ИЦМК</td>
+    	    		<td>99.6</td>
+    	    		<td>102.0</td>
+    	    	</tr>
+        	<tr>
+    	    		<td>01</td>
+    	    		<td>Хранителни продукти и безалкохолни напитки</td>
+    	    		<td>98.6</td>
+    	    		<td>101.0</td>
+    	    	</tr>
+        	<tr>
+    	    		<td>03</td>
+    	    		<td>Облекло и обувки</td>
+    	    		<td>97.7</td>
+    	    		<td>97.6</td>
+    	    	</tr>
+        	<tr>
+    	    		<td>04</td>
+    	    		<td>Жилища, вода, електроенергия, газ и други горива</td>
+    	    		<td>102.0</td>
+    	    		<td>104.1</td>
+    	    	</tr>
+        	<tr>
+    	    		<td>05</td>
+    	    		<td>Жилищно обзавеждане, стоки и услуги за домакинството и за обичайно поддържане на дома</td>
+    	    		<td>97.3</td>
+    	    		<td>103.3</td>
+    	    	</tr>
+        	<tr>
+    	    		<td>06</td>
+    	    		<td>Здравеопазване</td>
+    	    		<td>100.2</td>
+    	    		<td>103.0</td>
+    	    	</tr>
+        	<tr>
+    	    		<td>07</td>
+    	    		<td>Транспорт</td>
+    	    		<td>100.1</td>
+    	    		<td>101.1</td>
+    	    	</tr>
+        	<tr>
+    	    		<td>08</td>
+    	    		<td>Информация и комуникация</td>
+    	    		<td>100.0</td>
+    	    		<td>99.9</td>
+    	    	</tr>
+        	<tr>
+    	    		<td>09</td>
+    	    		<td>Развлечения, спорт и култура</td>
+    	    		<td>99.8</td>
+    	    		<td>102.0</td>
+    	    	</tr>
+        	<tr>
+    	    		<td>13</td>
+    	    		<td>Лични грижи, социална защита и разни стоки и услуги</td>
+    	    		<td>98.8</td>
+    	    		<td>101.6</td>
+    	    	</tr>
+        	<tr>
+    	    		<td></td>
+    	    		<td></td>
+    	    		<td></td>
+    	    		<td></td>
+    	    	</tr>
+        	<tr>
+    	    		<td></td>
+    	    		<td>Хранителни стоки</td>
+    	    		<td>98.6</td>
+    	    		<td>101.0</td>
+    	    	</tr>
+        	<tr>
+    	    		<td></td>
+    	    		<td>Нехранителни стоки</td>
+    	    		<td>99.3</td>
+    	    		<td>102.0</td>
+    	    	</tr>
+        	<tr>
+    	    		<td></td>
+    	    		<td>Услуги</td>
+    	    		<td>102.2</td>
+    	    		<td>104.3</td>
+    	    	</tr>
+        </tbody>
+</table></div></p>
+<p style="text-align: justify;">&nbsp;&nbsp;</p>
+<p style="text-align: justify;"><sup><a href="#_ftnref1" name="_ftn1">[1]</a></sup> Според методологията за индекса на потребителските цени (ИПЦ). За повече информация виж &bdquo;Методологични бележки&ldquo; и табл. 1 от приложението.</p>
+<p style="text-align: justify;"><sup><a href="#_ftnref2" name="_ftn2">[2]</a></sup> Според методологията за хармонизирания индекс на потребителските цени (ХИПЦ). За повече информация виж &bdquo;Методологични бележки&ldquo; и табл. 2 от приложението.</p>
+<p style="text-align: justify;"><sup><a href="#_ftnref3" name="_ftn3">[3]</a></sup> За повече информация виж &bdquo;Методологични бележки&ldquo; и табл. 3 от приложението.</p>
+<p style="text-align: justify;">&nbsp;</p>
+												    				    		<div>Подробни данни могат да бъдат намерени на сайта на НСИ в разделите:    				    			    				    				    				    					<br><a href="/statistical-data/113">Инфлация и индекси на потребителските цени</a>
+    				    				    				    			
+
+    				    		</div>
+    				    						                    </div>
+
+                    <div class="article-footer">
+                    	
+                    	
+                    								                                <div class="article-tags" style="display:block;width:100%;max-width:100%; flex:none">
+                                    <span><i class="fas fa-bookmark"></i></span>
+        							4.5% годишна инфлация                                </div>
+                                                    
+                        <div class="article-share">
+                            <ul class="social">
+                                <li><span>Сподели:</span></li>
+                                <li>
+                                	<a href="https://www.facebook.com/sharer.php?u=https://www.nsi.bg/press-release/inflaciya-i-indeksi-na-potrebitelskite-ceni-9121" target="_blank">
+                                        <i class="fab fa-facebook-f"></i>
+                                        <span class="sr-only">facebook</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="https://twitter.com/intent/tweet?url=https://www.nsi.bg/press-release/inflaciya-i-indeksi-na-potrebitelskite-ceni-9121" target="_blank">
+                                        <i class="fab fa-twitter"></i>
+                                        <span class="sr-only">twitter</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="https://www.linkedin.com/shareArticle?mini=true&url=https://www.nsi.bg/press-release/inflaciya-i-indeksi-na-potrebitelskite-ceni-9121" target="_blank">
+                                        <i class="fab fa-linkedin-in"></i>
+                                        <span class="sr-only">linkedin</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="https://www.instagram.com/?url=https://www.nsi.bg/press-release/inflaciya-i-indeksi-na-potrebitelskite-ceni-9121" target="_blank">
+                                        <i class="fab fa-instagram"></i>
+                                        <span class="sr-only">instagram</span>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="post-navigation">
+                        <div class="navigation-links">
+                            <div class="nav-previous">
+                                <a href="/press-release"><i class="fa fa-arrow-left"></i> Назад</a>
+                            </div>
+                        </div>
+                    </div>
+				</div>
+            </div>
+		</div>
+    </div>
+</section>
+
+		
+
+<!-- Start Footer Section -->
+<section class="footer-section ptb-50">
+	<div class="container">
+        <div class="row">
+        	                <div class="col-lg-3 col-md-6 col-sm-6">
+                    <div class="footer-area">
+                        <!-- <div class="footer-heading">
+                            <h3></h3>
+                        </div> -->
+
+                        <p><strong data-start="26" data-end="71">Националният статистически институт (НСИ)</strong> е държавна институция в България, която събира, обработва и разпространява официална статистическа информация за социалните, икономическите и демографските процеси в страната. Дейността на НСИ е насочена към осигуряване на обективни и надеждни данни, които подпомагат вземането на информирани решения от страна на държавата, бизнеса и обществото. Институтът работи съгласно международните статистически стандарти и е активен участник в Европейската статистическа система.</p>                        
+                                                <ul class="footer-social">
+                        								                        </ul>
+                    </div>
+                </div>
+            			
+			
+    			                    <div class="col-lg-2 col-md-6 col-sm-6">
+                        <div class="footer-item-area">
+                            <div class="footer-heading">
+                                <h3>Връзки</h3>
+                            </div>
+        					                            <ul class="footer-quick-links">
+                            	                                	<li><a href="/statistical-data/258">Статистически данни</a></li>
+                                                                	<li><a href="/sitemap">Карта на сайта</a></li>
+                                                                	<li><a href="/survey/1">Анкета</a></li>
+                                                                	<li><a href="pages/rss-911">RSS</a></li>
+                                                            </ul>
+                                                    </div>
+                    </div>
+                			
+    			                    <div class="col-lg-2 col-md-6 col-sm-6">
+                        <div class="footer-item-area">
+                            <div class="footer-heading">
+                                <h3>Конкурси, търгове и обявления</h3>
+                            </div>
+        					                            <ul class="footer-quick-links">
+                            	                                	<li><a href="/konkursi">Конкурси</a></li>
+                                                                	<li><a href="/targove">Търгове</a></li>
+                                                                	<li><a href="https://app.eop.bg/today">Профил на купувача</a></li>
+                                                            </ul>
+                                                    </div>
+                    </div>
+                			
+    			                    <div class="col-lg-2 col-md-6 col-sm-6">
+                        <div class="footer-item-area">
+                            <div class="footer-heading">
+                                <h3>Отговорност</h3>
+                            </div>
+        					                            <ul class="footer-quick-links">
+                            	                                	<li><a href="/pages/obshti-usloviya-za-polzvane-na-internet-saita-na-nsi-687">Условия за ползване</a></li>
+                                                                	<li><a href="/pages/politika-za-lichnite-danni-v-nacionalen-statisticheski-institut-591">Политика за личните данни</a></li>
+                                                                	<li><a href="/pages/deklaraciya-za-dostapnost-689">Декларация за достъпност</a></li>
+                                                                	<li><a href="/pages/politika-za-izpolzvaneto-na-biskvitki-688">Бисквитки</a></li>
+                                                                	<li><a href="/pages/licenz-za-izpolzvaneto-na-statisticheskata-informaciya-proizvejdana-i-razprostranyavana-ot-nacionalniya-statisticheski-institut-485">© 2025 | Лиценз</a></li>
+                                                            </ul>
+                                                    </div>
+                    </div>
+                						            <div class="col-lg-3 col-md-6 col-sm-6">
+                <div class="footer-heading">
+                    <h3>Контакти</h3>
+                </div>
+
+                <div class="footer-info-contact">
+                    <i class="flaticon-call-answer"></i>
+                    <h3>Телефон</h3>
+                    <span><a href="tel:(02) 9857 111">(02) 9857 111</a></span>
+                </div>
+
+                <div class="footer-info-contact">
+                    <i class="flaticon-envelope"></i>
+                    <h3>Имейл</h3>
+                    <span><a href="/cdn-cgi/l/email-protection#cc85a2aaa38ca2bfa5e2aeab"><span class="__cf_email__" data-cfemail="521b3c343d123c213b7c3035">[email&#160;protected]</span></a></span>
+                </div>
+
+                <div class="footer-info-contact">
+                    <i class="flaticon-placeholder-filled-point"></i>
+                    <h3>Адрес</h3>
+                    <span>ул. „П. Волов“ № 2, София 1038, България</span>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+
+    <div class="default-animation">
+        <div class="shape-img1"><img src="templates/default/img/shape/12.svg" alt="shape-img1"></div>
+        <div class="shape-img2"><img src="templates/default/img/shape/13.svg" alt="shape-img2"></div>
+        <div class="shape-img3"><img src="templates/default/img/shape/14.png" alt="shape-img3"></div>
+        <div class="shape-img4"><img src="templates/default/img/shape/15.png" alt="shape-img4"></div>
+        <div class="shape-img5"><img src="templates/default/img/shape/2.png" alt="shape-img5"></div>
+    </div>
+
+</section>
+<!-- End Footer Section -->
+
+<!-- Start Copy Right Section -->
+<div class="copyright-area">
+    <div class="container">
+        <div class="row align-items-center">
+            <div class="col-lg-6 col-md-6">
+                <p>
+                    Copyright © 2026 НСИ Всички права запазени                </p>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- End Copy Right Section -->
+<div class="go-top">
+    <i class="fas fa-chevron-up"></i>
+    <i class="fas fa-chevron-up"></i>
+</div>
+<!-- End Go Top Section -->
+<div class="cookie-disclaimer">
+  <div class="cookie-close accept-cookie"><i class="fa fa-times"></i></div>
+  <div class="container">
+    <p>Ние използваме бисквитки на този сайт, за да подобрим вашето потребителско изживяване.      <br>Като щракнете върху бутона Приемам, вие се съгласявате да го направим.       </p>
+    <button type="button" class="btn btn-success accept-cookie">Приемам</button>
+    <button type="button" class="btn btn-light accept-cookie">Не, благодаря</button>
+  </div>
+</div>
+        <!-- End Go Top Section -->
+
+<!-- jQuery Min JS -->
+<script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script src="templates/default/js/jquery.min.js"></script>
+<!-- Bootstrap Min JS -->
+<script src="templates/default/js/bootstrap.bundle.min.js"></script>
+<!-- MeanMenu JS  -->
+<script src="templates/default/js/jquery.meanmenu.js"></script>
+<!-- Appear Min JS -->
+<script src="templates/default/js/jquery.appear.min.js"></script>
+<!-- Odometer Min JS -->
+<script src="templates/default/js/odometer.min.js"></script>
+<!-- Owl Carousel Min JS -->
+<script src="templates/default/js/owl.carousel.min.js"></script>
+<!-- Magnific Popup Min JS -->
+<script src="templates/default/js/jquery.magnific-popup.min.js"></script>
+<!-- Nice Select Min JS -->
+<script src="templates/default/js/jquery.nice-select.min.js"></script>
+<!-- Mixitup Min JS -->
+<script src="templates/default/js/jquery.mixitup.min.js"></script>
+<!-- WOW Min JS -->
+<script src="templates/default/js/wow.min.js"></script>
+<!-- Parallax Min JS -->
+<script src="templates/default/js/parallax.min.js"></script>
+<!--=== AjaxChimp JS ===-->
+<script src="templates/default/js/jquery.ajaxchimp.min.js"></script>
+<!-- Form Validator JS -->
+<script src="templates/default/js/form-validator.min.js"></script>
+<!-- JS UI -->
+<script src="templates/default/js/jquery-ui.js"></script>
+<!-- Main JS -->
+<script src="templates/default/js/main.js?time=1787011546"></script>
+
+<script src="templates/default/js/external/dataTables.min.js"></script>
+<script src="templates/default/js/particles.js"></script>
+<!--<script src="templates/default/js/app.js"></script>-->
+<script src="templates/default/js/stats.js"></script>
+
+<!-- Nav tree -->
+<script src="templates/default/js/tree.js?time=1787011546"></script>
+
+<script src="templates/default/js/lightbox.js"></script>
+
+
+<script>
+function loadHomeCalendar()
+{
+	if($("#main-calendar").length) {
+
+		var active_dates = [];
+
+		$.ajax({
+	   	    url: '/news/index/ajax-calendar-dates',
+	        type: 'POST',
+	        async: false,
+	        dataType: 'json',
+	        success: function (res) {
+	        	active_dates = res;
+	        },
+	    });
+
+		$.datepicker.setDefaults($.datepicker.regional["bg"]);
+
+    	$("#main-calendar").datepicker({
+    		firstDay: 1,
+    		beforeShowDay: function(date) {
+
+        		var d = date;
+                var curr_date = d.getDate();
+                var curr_month = d.getMonth() + 1;
+                var curr_year = d.getFullYear();
+                var formattedDate = curr_date + "/" + curr_month + "/" + curr_year
+
+        		if ($.inArray(formattedDate, active_dates) != -1) {
+        			return [1, ""];
+        		} else {
+        			return [1, "noItem"];
+        		}
+        	},
+    		onSelect: function (dateString, txtDate) {
+    			$.ajax({
+    		   	    url: '/news/index/ajax-calendar',
+    		        type: 'POST',
+    		        data: {'date': dateString},
+    		        async: false,
+    		        success: function (res) {
+    		            $('.home-calendar').html(res);
+
+    		            loadHomeCalendar();
+
+    		            if($('#main-calendar').data('value')) {
+    		            	var date = new Date($('#main-calendar').data('value'));
+
+    		            	$("#main-calendar").datepicker("setDate", new Date($('#main-calendar').data('value')));
+    		            }
+    		        },
+    		    });
+    	    }
+    	});
+	}
+}
+
+loadHomeCalendar();
+
+$(function () {
+	$('[data-action="minifyMenu"]').on('click', function () {
+		let $menu = $('#tree1');
+		let $p = $menu.parent();
+		let nextElement = $menu.closest('.row').find('div:nth-child(2)');
+		if ($menu.width() > 0) {
+            $menu.animate({ width: '0px' }, 0, function () {
+                $('.menu-left').hide();
+                $('.menu-right').show();
+            });
+            $menu.hide();
+            $(nextElement[0]).removeClass();
+            $(nextElement[0]).addClass('col-lg-11 col-md-11');
+            $p.removeClass();
+            $p.addClass('col-lg-1 col-md-1');
+        } else {
+        	$menu.show();
+            $menu.animate({ width: '100%' }, 0, function () {
+            	$('.menu-left').show();
+                $('.menu-right').hide();
+            });
+            $(nextElement[0]).removeClass();
+            $(nextElement[0]).addClass('col-lg-8 col-md-8');
+            $p.removeClass();
+            $p.addClass('col-lg-4 col-md-4');
+        }
+    });
+});
+
+$('#tree1 li.active').parents().trigger('click');
+$('li.active:last').trigger('click');
+
+$('#tree1 a.active:last').css('color', 'black');
+$('.news-stats-filters li.active a').css('color', 'black').css('font-weight', 500);
+
+var cookie = false;
+var cookieContent = $('.cookie-disclaimer');
+
+checkCookie();
+
+if (cookie === true) {
+  cookieContent.hide();
+}
+
+function setCookie(cname, cvalue, exdays) {
+  var d = new Date();
+  d.setTime(d.getTime() + (exdays * 24 * 60 * 60 * 1000));
+  var expires = "expires=" + d.toGMTString();
+  document.cookie = cname + "=" + cvalue + "; " + expires;
+}
+
+function getCookie(cname) {
+  var name = cname + "=";
+  var ca = document.cookie.split(';');
+  for (var i = 0; i < ca.length; i++) {
+    var c = ca[i].trim();
+    if (c.indexOf(name) === 0) return c.substring(name.length, c.length);
+  }
+  return "";
+}
+
+function checkCookie() {
+  var check = getCookie("acookie");
+  if (check !== "") {
+    return cookie = true;
+  } else {
+      return cookie = false; //setCookie("acookie", "accepted", 365);
+  }
+
+}
+$('.accept-cookie').click(function () {
+  setCookie("acookie", "accepted", 365);
+  cookieContent.hide(500);
+});
+</script>
+
+
+<script src="templates/default/js/external/echarts.min.js"></script>
+<script src="templates/default/js/external/dataTables.buttons.js"></script>
+<script src="templates/default/js/external/buttons.dataTables.js"></script>
+<script src="templates/default/js/external/jszip.min.js"></script>
+<script src="templates/default/js/external/pdfmake.min.js"></script>
+<script src="templates/default/js/external/vfs_fonts.js"></script>
+<script src="templates/default/js/external/buttons.html5.min.js"></script>
+<script src="templates/default/js/external/buttons.print.min.js"></script>
+<script src="https://www.gstatic.com/charts/loader.js"></script>
+<script src="https://unpkg.com/gridviz/dist/gridviz.min.js"></script>
+<script>
+google.charts.load('current', {
+    'packages': ['geochart'],
+});
+</script>
+<script>
+$.fn.dataTable.ext.errMode = 'throw';
+function attachDatatable(el, pButtons)
+{
+	var pdf = {
+        extend: 'pdfHtml5',
+        text: 'PDF',
+        title: '',
+        orientation: 'landscape',
+        pageSize: 'A3',
+	};
+
+	const superscriptMap = {
+	  '0': '⁰', '1': '¹', '2': '²', '3': '³', '4': '⁴',
+	  '5': '⁵', '6': '⁶', '7': '⁷', '8': '⁸', '9': '⁹'
+	};
+
+	const subscriptMap = {
+	  '0': '₀', '1': '₁', '2': '₂', '3': '₃', '4': '₄',
+	  '5': '₅', '6': '₆', '7': '₇', '8': '₈', '9': '₉'
+	};
+
+	function replaceNumbersWithSuperSub(text) {
+	  // Replace <sup>...</sup> digits with superscript digits, keep other chars as-is
+	  text = text.replace(/<sup>(.*?)<\/sup>/g, (_, content) =>
+	    content.split('').map(c => superscriptMap[c] || c).join('')
+	  );
+
+	  // Replace <sub>...</sub> digits with subscript digits, keep other chars as-is
+	  text = text.replace(/<sub>(.*?)<\/sub>/g, (_, content) =>
+	    content.split('').map(c => subscriptMap[c] || c).join('')
+	  );
+
+	  return text;
+	}
+
+	var captionEl = el.find('caption');
+	var captionElLength = captionEl.length;
+
+	if (captionElLength) {
+		var caption = replaceNumbersWithSuperSub(captionEl.html());
+		//caption = $.fn.DataTable.Buttons.stripData(caption, null);
+		captionEl.html(caption);
+	}
+
+	var excel = {
+		extend: 'excelHtml5',
+        text: 'Excel',
+        title: '',
+        exportOptions: {
+            format: {
+           	 	header: function (data, rowIdx, colIdx, node) {
+               	 	var data2 = replaceNumbersWithSuperSub(data);
+                  	data2 = data2.replace(/<br\s*\/?>/ig, "\n");
+                  	data2 = $.fn.DataTable.Buttons.stripData(data2, null);
+                	return data2;
+				},
+                footer: function (data, rowIdx, colIdx, node) {
+                	var data2 = replaceNumbersWithSuperSub(data);
+                	data2 = data2.replace(/<br\s*\/?>/ig, '\n');
+                	data2 = $.fn.DataTable.Buttons.stripData(data2, null);
+                	return data2;
+                },
+                body: function (data, row, column, node) {
+                    var data2 = replaceNumbersWithSuperSub(data);
+                    data2 = data2.replace(/<br\s*\/?>/ig, '\n');
+                    data2 = $.fn.DataTable.Buttons.stripData(data2, null);
+                	var sanitizedValue = data2.replace(/\s+/g, '');
+                	if ($.isNumeric(sanitizedValue)) {
+						return sanitizedValue;
+                	}
+                    return data2;
+                }
+            }
+        },
+        customize: function(xlsx) {
+            var sheet = xlsx.xl.worksheets['sheet1.xml'];
+
+            // Add a custom number format for 1 decimal place
+            var styles = xlsx.xl['styles.xml'];
+            var numFmts = $('numFmts', styles);
+            if (!numFmts.length) {
+                numFmts = $('<numFmts count="1"/>');
+                $('styleSheet', styles).prepend(numFmts);
+            }
+            var fmtId = 164;
+            numFmts.append('<numFmt numFmtId="' + fmtId + '" formatCode="0.0"/>');
+            numFmts.attr('count', numFmts.find('numFmt').length);
+
+            // Add a cell style that uses this number format
+            var cellXfs = $('cellXfs', styles);
+            var newXf = '<xf numFmtId="' + fmtId + '" fontId="0" fillId="0" borderId="0" xfId="0" applyNumberFormat="1"/>';
+            cellXfs.append(newXf);
+            var oneDecimalStyleIdx = cellXfs.find('xf').length - 1;
+
+            // Add a cell style for left alignment
+            var leftAlignXf = '<xf numFmtId="0" fontId="0" fillId="0" borderId="0" xfId="0" applyAlignment="1"><alignment horizontal="left"/></xf>';
+            cellXfs.append(leftAlignXf);
+            var leftAlignStyleIdx = cellXfs.find('xf').length - 1;
+            cellXfs.attr('count', cellXfs.find('xf').length);
+
+            $('row', sheet).each(function (rIndex) {
+                if (!captionElLength || rIndex > 2) {
+                    $('c', this).each(function (cIndex) {
+                    	var td = el.find('tr').eq(rIndex - (captionElLength ? 1 : 0)).find('td').eq(cIndex);
+                    	if (td.hasClass('bold') || td.hasClass('boldt')) {
+                    		$(this).attr('s', '2');
+                    	}
+                    	var cellValue = $(this).text();
+                    	if (cellValue === 'NaN' || cellValue === '.' || cellValue === ',' || cellValue === '-' || cellValue === 'х' || cellValue === 'x') {
+                    		$(this).attr('s', '52');
+                        }
+                        // Apply 1 decimal format to cells whose original text had .0
+                        var originalText = td.text().replace(/\s+/g, '').replace(/,/g, '.');
+                        if (originalText.match(/^\-?\d+\.0$/)) {
+                            $(this).attr('s', oneDecimalStyleIdx);
+                        }
+                        // Apply left alignment for cells with class left_top
+                        if (td.hasClass('left_top')) {
+                            $(this).attr('s', leftAlignStyleIdx);
+                        }
+                    });
+                }
+            });
+            var totalRows = $(sheet).find('row').length;
+            var thHeadRowCount = el.find('thead tr').length;
+            var thFootRowCount = el.find('tfoot tr').length;
+            var footerStartRow = totalRows - thFootRowCount + 1;
+            for (var i = footerStartRow; i <= totalRows; i++) {
+                $(sheet).find('row[r="' + i + '"] c').each(function () {
+                	$(this).removeAttr('s');
+                });
+            }
+        }
+	};
+
+	var print = {
+        extend: 'print',
+        title: '',
+    };
+
+    var buttons = [];
+
+    if ($.isArray(pButtons)) {
+		for(var i = 0; i < pButtons.length; ++i) {
+			var b = pButtons[i];
+			if (b == 'excel') {
+				b = excel;
+			}
+			if (b == 'print') {
+				b = print;
+			}
+			if (b == 'pdf') {
+				b = pdf;
+			}
+			buttons.push(b);
+		}
+    } else {
+    	buttons = ['copy', 'csv', excel, pdf, print];
+    }
+
+	el.dataTable({
+		order: [],
+		ordering: false,
+		responsive: true,
+		paging: false,
+		searching: true,
+		info: false,
+			language: {
+	        url: 'templates/default/js/bg.json',
+	    },
+    	    layout: {
+	        topStart: {
+	            buttons: buttons,
+	        },
+	    }
+	});
+}
+$('.datatable').each(function () {
+	attachDatatable($(this), ['excel']);
+});
+$('.auto-tables table').each(function () {
+	$(this).wrap("<div class='table-responsive'></div>");
+	attachDatatable($(this), ['excel']);
+});
+$(function () {
+	$('.charts_tabs').addClass('active').find('> li:eq(0)').addClass('current');
+	$('.charts_tabs li a').on('click', function (g) {
+	    var tab = $(this).closest('.icycharts'),
+	    index = $(this).closest('li').index();
+	    tab.find('.charts_tabs > li').removeClass('current');
+	    $(this).closest('li').addClass('current');
+	    tab.find('.charts_tabs_content').find('.charts_tabs_item').not('.charts_tabs_item:eq(' + index + ')').slideUp();
+	    tab.find('.charts_tabs_content').find('.charts_tabs_item:eq(' + index + ')').slideDown();
+	    g.preventDefault();
+	});
+});
+$(function () {
+	var tds = {};
+	$('table.datatable tr td').each(function () {
+		var formatted = $(this).text().replace('&nbsp;', '').replace(/\s+/g, '').replace(/,/g, '.');
+        if (!isNaN(formatted) && formatted !== null && formatted !== '') {
+            $(this).addClass('custom-right-align');
+            tds[$(this).index()] = true;
+        }
+	});
+	$('table.datatable tr td').each(function () {
+		if (tds[$(this).index()] && !$(this).hasClass('custom-right-align')) {
+			$(this).addClass('custom-right-align');
+		}
+	});
+});
+function truncateMultibyteText(text, maxLength) {
+	  // Convert the text into an array of characters to handle multibyte characters
+	  const textArray = Array.from(text);
+	  // Check if the text exceeds the max length
+	  if (textArray.length > maxLength) {
+	    // Truncate the text and append '...'
+	    return textArray.slice(0, maxLength).join('') + '...';
+	  }
+	  // If the text is within the limit, return it as is
+	  return text;
+}
+</script>
+
+    <script>
+    (function () {
+        var el = $('#mainChart0');
+        el.width(el.closest('.icycharts').width());
+        var chart = echarts.init(el[0]);
+        
+var titleWidth = 950;
+var titleFontSize = 16;
+
+if(true) {
+    if(window.innerWidth <= 480) {
+    	titleWidth = 350;
+    	titleFontSize = 12;
+    } else if(window.innerWidth <= 800) {
+    	titleWidth = 750;
+    	titleFontSize = 14;
+    } else if(window.innerWidth <= 1280) {
+    	titleWidth = 850;
+    }
+}
+
+var isMobile = window.innerWidth <= 480;
+
+var formatter = {
+	format: function (s) {
+		var fs = s;
+		if (false) {
+			fs = s.toLocaleString('bg-BG', {style: 'decimal', useGrouping: true, minimumFractionDigits: 1});
+		} else {
+			var intlo = new Intl.NumberFormat('bg-BG', { style: 'decimal', useGrouping: true, minimumFractionDigits: 1 });
+			fs = intlo.format(s);
+		}
+
+		fs = fs.replace(',', '.');
+
+		return fs;
+	},
+};
+var option = {
+    tooltip: {
+        trigger: 'axis',
+        axisPointer: {
+          	type: 'cross',
+          	crossStyle: {
+            color: '#999'
+          }
+    	},
+            formatter: function (params) {
+        	let tmp = params[0].name + '<br/>';
+        	for (let i = 0; i < params.length; ++i) {
+        		let c = params[i];
+            	tmp += `${c.marker} ${c.seriesName.trim()}: <b>${formatter.format(c.value)}%</b><br />`;
+            }
+            return tmp;
+        }
+        },
+	grid: {
+		containLabel: true,
+			left: '1%',
+		},
+	legend: {
+        orient: 'horizontal',
+        bottom: 0,
+        //left: 0,
+    },
+	title: {
+		show: true,
+		text: "Фиг. 1. Инфлация, измерена чрез ИПЦ, по месеци",
+		left: 'center',
+		textStyle: {
+			lineHeight: 20,
+			fontSize: titleFontSize,
+			width: titleWidth,
+			overflow: 'break',
+			lineHeight: isMobile ? 18 : 24
+		}
+	},
+    toolbox: {
+        feature: {
+        			saveAsImage: {
+				title: 'Запази',
+			},
+		        },
+    },
+    xAxis: {
+        type: 'category',
+        data: ["VII.2025","VIII.2025","IX.2025","X.2025","XI.2025","XII.2025","I.2026","II.2026","III.2026","IV.2026","V.2026","VI.2026","VII.2026"],
+        axisLabel: {
+        	rotate: 90,
+            interval: 0,
+            formatter: function (value) {
+                return truncateMultibyteText(value, 15);
+            },
+		},
+	},
+		yAxis: {
+        type: 'value',
+        min:-2,        axisLabel: {
+            formatter: function (value) {
+                return formatter.format(value) + '%';
+            },
+        },
+  	},
+  		color: ["#55809E","#71BCDF","#5BA4D8","#88D5FE","#365D78","#58A7A9","#89BCBD","#C3D69B","#A55971","#E98A8A","#365D78","#55809E","#71BCDF","#5BA4D8","#88D5FE","#58A7A9","#89BCBD","#C3D69B","#A55971","#E98A8A"],
+	series: [{"name":"Годишна инфлация","type":"bar","data":[{"value":5.3,"label":{"position":"top"}},{"value":5.3,"label":{"position":"top"}},{"value":5.6,"label":{"position":"top"}},{"value":5.3,"label":{"position":"top"}},{"value":5.2,"label":{"position":"top"}},{"value":5,"label":{"position":"top"}},{"value":3.5,"label":{"position":"top"}},{"value":3.3,"label":{"position":"top"}},{"value":4.1,"label":{"position":"top"}},{"value":6.8,"label":{"position":"top"}},{"value":6.9,"label":{"position":"top"}},{"value":5.4,"label":{"position":"top"}},{"value":4.5,"label":{"position":"top"}}],"yAxisIndex":0,"label":{"show":true,"position":"top","formatter":function(params) { return formatter.format(params.value) + '%'; }}},{"name":"Месечна инфлация","type":"line","data":[{"value":1.7,"label":{"position":"top"}},{"value":0.1,"label":{"position":"top"}},{"value":-0.8,"label":{"position":"bottom"}},{"value":0.9,"label":{"position":"top"}},{"value":0.5,"label":{"position":"top"}},{"value":0.1,"label":{"position":"top"}},{"value":0.6,"label":{"position":"top"}},{"value":0.4,"label":{"position":"top"}},{"value":0.9,"label":{"position":"top"}},{"value":1.8,"label":{"position":"top"}},{"value":0,"label":{"position":"top"}},{"value":-0.9,"label":{"position":"bottom"}},{"value":0.8,"label":{"position":"top"}}],"yAxisIndex":0,"label":{"show":true,"position":"top","formatter":function(params) { return formatter.format(params.value) + '%'; }}}]};        chart.setOption(option);
+    })();
+    </script>
+    
+    <script>
+    (function () {
+        var el = $('#mainChart1');
+        el.width(el.closest('.icycharts').width());
+        var chart = echarts.init(el[0]);
+        
+var titleWidth = 950;
+var titleFontSize = 16;
+
+if(true) {
+    if(window.innerWidth <= 480) {
+    	titleWidth = 350;
+    	titleFontSize = 12;
+    } else if(window.innerWidth <= 800) {
+    	titleWidth = 750;
+    	titleFontSize = 14;
+    } else if(window.innerWidth <= 1280) {
+    	titleWidth = 850;
+    }
+}
+
+var isMobile = window.innerWidth <= 480;
+
+var formatter = {
+	format: function (s) {
+		var fs = s;
+		if (false) {
+			fs = s.toLocaleString('bg-BG', {style: 'decimal', useGrouping: true, minimumFractionDigits: 1});
+		} else {
+			var intlo = new Intl.NumberFormat('bg-BG', { style: 'decimal', useGrouping: true, minimumFractionDigits: 1 });
+			fs = intlo.format(s);
+		}
+
+		fs = fs.replace(',', '.');
+
+		return fs;
+	},
+};
+var option = {
+    tooltip: {
+        trigger: 'axis',
+        axisPointer: {
+          	type: 'cross',
+          	crossStyle: {
+            color: '#999'
+          }
+    	},
+            formatter: function (params) {
+        	let tmp = params[0].name + '<br/>';
+        	for (let i = 0; i < params.length; ++i) {
+        		let c = params[i];
+            	tmp += `${c.marker} ${c.seriesName.trim()}: <b>${formatter.format(c.value)}%</b><br />`;
+            }
+            return tmp;
+        }
+        },
+	grid: {
+		containLabel: true,
+			left: '1%',
+		},
+	legend: {
+        orient: 'horizontal',
+        bottom: 0,
+        //left: 0,
+    },
+	title: {
+		show: true,
+		text: "Фиг. 2. Инфлация, измерена чрез ХИПЦ, по месеци",
+		left: 'center',
+		textStyle: {
+			lineHeight: 20,
+			fontSize: titleFontSize,
+			width: titleWidth,
+			overflow: 'break',
+			lineHeight: isMobile ? 18 : 24
+		}
+	},
+    toolbox: {
+        feature: {
+        			saveAsImage: {
+				title: 'Запази',
+			},
+		        },
+    },
+    xAxis: {
+        type: 'category',
+        data: ["VII.2025","VIII.2025","IX.2025","X.2025","XI.2025","XII.2025","I.2026","II.2026","III.2026","IV.2026","V.2026","VI.2026","VII.2026"],
+        axisLabel: {
+        	rotate: 90,
+            interval: 0,
+            formatter: function (value) {
+                return truncateMultibyteText(value, 15);
+            },
+		},
+	},
+		yAxis: {
+        type: 'value',
+        min:-2,        axisLabel: {
+            formatter: function (value) {
+                return formatter.format(value) + '%';
+            },
+        },
+  	},
+  		color: ["#55809E","#71BCDF","#5BA4D8","#88D5FE","#365D78","#58A7A9","#89BCBD","#C3D69B","#A55971","#E98A8A","#365D78","#55809E","#71BCDF","#5BA4D8","#88D5FE","#58A7A9","#89BCBD","#C3D69B","#A55971","#E98A8A"],
+	series: [{"name":"Годишна инфлация","type":"bar","data":[{"value":3.4,"label":{"position":"top"}},{"value":3.5,"label":{"position":"top"}},{"value":4.1,"label":{"position":"top"}},{"value":3.8,"label":{"position":"top"}},{"value":3.7,"label":{"position":"top"}},{"value":3.5,"label":{"position":"top"}},{"value":2.3,"label":{"position":"top"}},{"value":2.1,"label":{"position":"top"}},{"value":2.8,"label":{"position":"top"}},{"value":6,"label":{"position":"top"}},{"value":6.3,"label":{"position":"top"}},{"value":5.2,"label":{"position":"top"}},{"value":4.4,"label":{"position":"top"}}],"yAxisIndex":0,"label":{"show":true,"position":"top","formatter":function(params) { return formatter.format(params.value) + '%'; }}},{"name":"Месечна инфлация","type":"line","data":[{"value":1.4,"label":{"position":"top"}},{"value":0.1,"label":{"position":"top"}},{"value":-0.6,"label":{"position":"bottom"}},{"value":0.4,"label":{"position":"top"}},{"value":0.2,"label":{"position":"top"}},{"value":0.1,"label":{"position":"top"}},{"value":0.6,"label":{"position":"top"}},{"value":0.2,"label":{"position":"top"}},{"value":1,"label":{"position":"top"}},{"value":1.8,"label":{"position":"top"}},{"value":0.3,"label":{"position":"top"}},{"value":-0.5,"label":{"position":"bottom"}},{"value":0.6,"label":{"position":"top"}}],"yAxisIndex":0,"label":{"show":true,"position":"top","formatter":function(params) { return formatter.format(params.value) + '%'; }}}]};        chart.setOption(option);
+    })();
+    </script>
+    
+<script>
+(function($) {
+
+	'use strict';
+
+	/*
+	Thumb Gallery
+	*/
+	var $thumbGalleryDetail1 = $('#thumbGalleryDetail'),
+		$thumbGalleryThumbs1 = $('#thumbGalleryThumbs'),
+		flag = false,
+		duration = 300;
+
+	$thumbGalleryDetail1
+		.owlCarousel({
+			items: 1,
+			margin: 10,
+			nav: false,
+			dots: true,
+			loop: false,
+			navText: []
+		})
+		.on('changed.owl.carousel', function(e) {
+			if (!flag) {
+				flag = true;
+				$thumbGalleryThumbs1.trigger('to.owl.carousel', [e.item.index-1, duration, true]);
+				flag = false;
+			}
+		});
+
+	$thumbGalleryThumbs1
+		.owlCarousel({
+			margin: 10,
+			items:6,
+			nav: false,
+			center: false,
+			dots: false
+		})
+		.on('click', '.owl-item', function() {
+			$thumbGalleryDetail1.trigger('to.owl.carousel', [$(this).index(), duration, true]);
+		})
+		.on('changed.owl.carousel', function(e) {
+			if (!flag) {
+				flag = true;
+				$thumbGalleryDetail1.trigger('to.owl.carousel', [e.item.index, duration, true]);
+				flag = false;
+			}
+		});
+}).apply(this, [jQuery]);
+
+$('.left-menu-btn').on('click', function() {
+	$('.newsFilters').toggle();
+  });
+</script>
+
+            </body>
+</html>

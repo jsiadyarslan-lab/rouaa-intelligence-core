@@ -1,0 +1,23 @@
+{
+  "v24r_measurement": {
+    "fact_tp": 251,
+    "fact_fp": 18,
+    "fact_fn": 1361,
+    "fact_precision": 93.31,
+    "fact_recall": 15.57,
+    "fact_invariant_holds": true,
+    "event_tp": 35,
+    "event_fp": 2,
+    "event_fn": 173,
+    "event_precision": 94.59,
+    "event_recall": 16.83,
+    "event_invariant_holds": true,
+    "css_filtered": 10
+  },
+  "deltas_vs_v23r": {
+    "fact_recall_delta_pp": 0.0,
+    "event_recall_delta_pp": -5.77,
+    "fact_precision_delta_pp": 15.12,
+    "fp_eliminated": 52
+  }
+}

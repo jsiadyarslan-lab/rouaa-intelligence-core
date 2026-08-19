@@ -1,0 +1,706 @@
+{
+  "survivor_audit": {
+    "total": 95,
+    "valid": 89,
+    "ambiguous": 1,
+    "false_positive": 5,
+    "event_precision_pct": 93.7,
+    "false_positive_rate_pct": 5.3,
+    "numerator": 89,
+    "denominator": 95,
+    "universe": "all surviving events",
+    "sample": "census (100% of corpus)",
+    "results": [
+      {
+        "io_id": "io-be817f73577ff8e1",
+        "event_type": "statistical_release",
+        "source_id": "imp-ecb",
+        "status": "SEMANTICALLY_VALID",
+        "reason": "document has sufficient context (2/2 patterns matched)"
+      },
+      {
+        "io_id": "io-9e2848265ad5928d",
+        "event_type": "monetary_policy_decision",
+        "source_id": "imp-bank-of-england",
+        "status": "SEMANTICALLY_VALID",
+        "reason": "document has sufficient context (2/2 patterns matched)"
+      },
+      {
+        "io_id": "io-dcf76f5a97a74c3e",
+        "event_type": "statistical_release",
+        "source_id": "imp-bank-of-england",
+        "status": "SEMANTICALLY_VALID",
+        "reason": "document has sufficient context (2/2 patterns matched)"
+      },
+      {
+        "io_id": "io-e57db30de41a9d7e",
+        "event_type": "monetary_policy_decision",
+        "source_id": "imp-swiss-national-bank",
+        "status": "SEMANTICALLY_VALID",
+        "reason": "document has sufficient context (2/2 patterns matched)"
+      },
+      {
+        "io_id": "io-a5963d0fb0a8b10d",
+        "event_type": "statistical_release",
+        "source_id": "imp-swiss-national-bank",
+        "status": "SEMANTICALLY_VALID",
+        "reason": "document has sufficient context (2/2 patterns matched)"
+      },
+      {
+        "io_id": "io-abed2ad81fcd4f55",
+        "event_type": "statistical_release",
+        "source_id": "imp-bea",
+        "status": "SEMANTICALLY_VALID",
+        "reason": "document has sufficient context (2/2 patterns matched)"
+      },
+      {
+        "io_id": "io-b3669a5c62a617df",
+        "event_type": "statistical_release",
+        "source_id": "imp-bea",
+        "status": "SEMANTICALLY_VALID",
+        "reason": "document has sufficient context (2/2 patterns matched)"
+      },
+      {
+        "io_id": "io-7111a5a79c44efc1",
+        "event_type": "statistical_release",
+        "source_id": "imp-eurostat",
+        "status": "FALSE_POSITIVE",
+        "reason": "missing required context patterns (1/2 matched)"
+      },
+      {
+        "io_id": "io-90d70bff856232d9",
+        "event_type": "statistical_release",
+        "source_id": "imp-eurostat",
+        "status": "FALSE_POSITIVE",
+        "reason": "missing required context patterns (1/2 matched)"
+      },
+      {
+        "io_id": "io-e2727d812b800ed2",
+        "event_type": "statistical_release",
+        "source_id": "imp-stat-japan",
+        "status": "SEMANTICALLY_AMBIGUOUS",
+        "reason": "missing required context patterns (0/2 matched)"
+      },
+      {
+        "io_id": "io-1ca8a75ee22968f7",
+        "event_type": "regulatory_enforcement",
+        "source_id": "imp-sec",
+        "status": "SEMANTICALLY_VALID",
+        "reason": "document has sufficient context (2/2 patterns matched)"
+      },
+      {
+        "io_id": "io-86eb51402109b465",
+        "event_type": "regulatory_enforcement",
+        "source_id": "imp-sec",
+        "status": "SEMANTICALLY_VALID",
+        "reason": "document has sufficient context (2/2 patterns matched)"
+      },
+      {
+        "io_id": "io-7fb679b134aeabb3",
+        "event_type": "regulatory_enforcement",
+        "source_id": "imp-sec",
+        "status": "SEMANTICALLY_VALID",
+        "reason": "document has sufficient context (2/2 patterns matched)"
+      },
+      {
+        "io_id": "io-f76ffc30691c854c",
+        "event_type": "regulatory_enforcement",
+        "source_id": "imp-fca",
+        "status": "FALSE_POSITIVE",
+        "reason": "missing required context patterns (1/2 matched)"
+      },
+      {
+        "io_id": "io-a1780be1434f5a4c",
+        "event_type": "statistical_release",
+        "source_id": "imp-fsb",
+        "status": "SEMANTICALLY_VALID",
+        "reason": "document has sufficient context (2/2 patterns matched)"
+      },
+      {
+        "io_id": "io-f3750c8c05f9b04c",
+        "event_type": "statistical_release",
+        "source_id": "imp-federal-reserve",
+        "status": "SEMANTICALLY_VALID",
+        "reason": "document has sufficient context (2/2 patterns matched)"
+      },
+      {
+        "io_id": "io-42a1a68e297feffb",
+        "event_type": "statistical_release",
+        "source_id": "imp-ecb",
+        "status": "SEMANTICALLY_VALID",
+        "reason": "document has sufficient context (2/2 patterns matched)"
+      },
+      {
+        "io_id": "io-f92aa209b5d5c885",
+        "event_type": "statistical_release",
+        "source_id": "imp-ecb",
+        "status": "SEMANTICALLY_VALID",
+        "reason": "document has sufficient context (2/2 patterns matched)"
+      },
+      {
+        "io_id": "io-c6c8ac878a439394",
+        "event_type": "statistical_release",
+        "source_id": "imp-ecb",
+        "status": "SEMANTICALLY_VALID",
+        "reason": "document has sufficient context (2/2 patterns matched)"
+      },
+      {
+        "io_id": "io-732c2593f8322d3e",
+        "event_type": "regulatory_enforcement",
+        "source_id": "imp-ecb",
+        "status": "SEMANTICALLY_VALID",
+        "reason": "document has sufficient context (2/2 patterns matched)"
+      },
+      {
+        "io_id": "io-43450fbfbd3f5f48",
+        "event_type": "statistical_release",
+        "source_id": "imp-ecb",
+        "status": "SEMANTICALLY_VALID",
+        "reason": "document has sufficient context (2/2 patterns matched)"
+      },
+      {
+        "io_id": "io-34acaea89e0d8ab2",
+        "event_type": "monetary_policy_decision",
+        "source_id": "imp-ecb",
+        "status": "SEMANTICALLY_VALID",
+        "reason": "document has sufficient context (2/2 patterns matched)"
+      },
+      {
+        "io_id": "io-a27ee61aa6026a13",
+        "event_type": "statistical_release",
+        "source_id": "imp-ecb",
+        "status": "SEMANTICALLY_VALID",
+        "reason": "document has sufficient context (2/2 patterns matched)"
+      },
+      {
+        "io_id": "io-0f57ee23f994dd09",
+        "event_type": "statistical_release",
+        "source_id": "imp-bank-of-england",
+        "status": "SEMANTICALLY_VALID",
+        "reason": "document has sufficient context (2/2 patterns matched)"
+      },
+      {
+        "io_id": "io-3be348eb6518bd7f",
+        "event_type": "monetary_policy_decision",
+        "source_id": "imp-bank-of-england",
+        "status": "SEMANTICALLY_VALID",
+        "reason": "document has sufficient context (2/2 patterns matched)"
+      },
+      {
+        "io_id": "io-5374d45575bb9c06",
+        "event_type": "statistical_release",
+        "source_id": "imp-bank-of-england",
+        "status": "SEMANTICALLY_VALID",
+        "reason": "document has sufficient context (2/2 patterns matched)"
+      },
+      {
+        "io_id": "io-5fa6076e9c6539fc",
+        "event_type": "monetary_policy_decision",
+        "source_id": "imp-bank-of-england",
+        "status": "SEMANTICALLY_VALID",
+        "reason": "document has sufficient context (2/2 patterns matched)"
+      },
+      {
+        "io_id": "io-f803af6f431d9f8a",
+        "event_type": "statistical_release",
+        "source_id": "imp-bank-of-england",
+        "status": "SEMANTICALLY_VALID",
+        "reason": "document has sufficient context (2/2 patterns matched)"
+      },
+      {
+        "io_id": "io-877cfaba4b9dc235",
+        "event_type": "statistical_release",
+        "source_id": "imp-bank-of-england",
+        "status": "SEMANTICALLY_VALID",
+        "reason": "document has sufficient context (2/2 patterns matched)"
+      },
+      {
+        "io_id": "io-e37837171f84db58",
+        "event_type": "statistical_release",
+        "source_id": "imp-bea",
+        "status": "SEMANTICALLY_VALID",
+        "reason": "document has sufficient context (2/2 patterns matched)"
+      },
+      {
+        "io_id": "io-2c8c66d86fd8a3a6",
+        "event_type": "statistical_release",
+        "source_id": "imp-bea",
+        "status": "SEMANTICALLY_VALID",
+        "reason": "document has sufficient context (2/2 patterns matched)"
+      },
+      {
+        "io_id": "io-8604efe470f1c2cd",
+        "event_type": "statistical_release",
+        "source_id": "imp-bea",
+        "status": "SEMANTICALLY_VALID",
+        "reason": "document has sufficient context (2/2 patterns matched)"
+      },
+      {
+        "io_id": "io-41a6209f6371a461",
+        "event_type": "statistical_release",
+        "source_id": "imp-bea",
+        "status": "SEMANTICALLY_VALID",
+        "reason": "document has sufficient context (2/2 patterns matched)"
+      },
+      {
+        "io_id": "io-b7fa14d84ffb9a65",
+        "event_type": "statistical_release",
+        "source_id": "imp-bea",
+        "status": "SEMANTICALLY_VALID",
+        "reason": "document has sufficient context (2/2 patterns matched)"
+      },
+      {
+        "io_id": "io-e8c9109c25a423dd",
+        "event_type": "statistical_release",
+        "source_id": "imp-eurostat",
+        "status": "SEMANTICALLY_VALID",
+        "reason": "document has sufficient context (2/2 patterns matched)"
+      },
+      {
+        "io_id": "io-79d3e4977bb98a02",
+        "event_type": "statistical_release",
+        "source_id": "imp-cftc",
+        "status": "SEMANTICALLY_VALID",
+        "reason": "document has sufficient context (2/2 patterns matched)"
+      },
+      {
+        "io_id": "io-03f54ef461c06001",
+        "event_type": "statistical_release",
+        "source_id": "imp-hm-treasury",
+        "status": "SEMANTICALLY_VALID",
+        "reason": "document has sufficient context (2/2 patterns matched)"
+      },
+      {
+        "io_id": "io-0db41fde8c803040",
+        "event_type": "statistical_release",
+        "source_id": "imp-bea",
+        "status": "SEMANTICALLY_VALID",
+        "reason": "document has sufficient context (2/2 patterns matched)"
+      },
+      {
+        "io_id": "io-8203734e329b78da",
+        "event_type": "statistical_release",
+        "source_id": "imp-bea",
+        "status": "SEMANTICALLY_VALID",
+        "reason": "document has sufficient context (2/2 patterns matched)"
+      },
+      {
+        "io_id": "io-4b3549f2bfeabd43",
+        "event_type": "statistical_release",
+        "source_id": "imp-bea",
+        "status": "FALSE_POSITIVE",
+        "reason": "missing required context patterns (1/2 matched)"
+      },
+      {
+        "io_id": "io-0c647330a91d640c",
+        "event_type": "statistical_release",
+        "source_id": "imp-bea",
+        "status": "FALSE_POSITIVE",
+        "reason": "missing required context patterns (1/2 matched)"
+      },
+      {
+        "io_id": "io-09189d018d2081b4",
+        "event_type": "statistical_release",
+        "source_id": "imp-bea",
+        "status": "SEMANTICALLY_VALID",
+        "reason": "document has sufficient context (2/2 patterns matched)"
+      },
+      {
+        "io_id": "io-6e897d602140277f",
+        "event_type": "statistical_release",
+        "source_id": "imp-bank-of-england",
+        "status": "SEMANTICALLY_VALID",
+        "reason": "document has sufficient context (2/2 patterns matched)"
+      },
+      {
+        "io_id": "io-8fa184904578eae6",
+        "event_type": "statistical_release",
+        "source_id": "imp-bea",
+        "status": "SEMANTICALLY_VALID",
+        "reason": "document has sufficient context (2/2 patterns matched)"
+      },
+      {
+        "io_id": "io-9304252516f5b4a0",
+        "event_type": "statistical_release",
+        "source_id": "imp-bea",
+        "status": "SEMANTICALLY_VALID",
+        "reason": "document has sufficient context (2/2 patterns matched)"
+      },
+      {
+        "io_id": "io-0873c447e9b9733c",
+        "event_type": "statistical_release",
+        "source_id": "imp-bea",
+        "status": "SEMANTICALLY_VALID",
+        "reason": "document has sufficient context (2/2 patterns matched)"
+      },
+      {
+        "io_id": "io-ca43d858fe433433",
+        "event_type": "statistical_release",
+        "source_id": "imp-bea",
+        "status": "SEMANTICALLY_VALID",
+        "reason": "document has sufficient context (2/2 patterns matched)"
+      },
+      {
+        "io_id": "io-82bd93037aae3793",
+        "event_type": "statistical_release",
+        "source_id": "imp-bea",
+        "status": "SEMANTICALLY_VALID",
+        "reason": "document has sufficient context (2/2 patterns matched)"
+      },
+      {
+        "io_id": "io-dd6dde27a141af85",
+        "event_type": "statistical_release",
+        "source_id": "imp-cftc",
+        "status": "SEMANTICALLY_VALID",
+        "reason": "document has sufficient context (2/2 patterns matched)"
+      },
+      {
+        "io_id": "io-7e619d8c238339cc",
+        "event_type": "statistical_release",
+        "source_id": "imp-bank-of-england",
+        "status": "SEMANTICALLY_VALID",
+        "reason": "document has sufficient context (2/2 patterns matched)"
+      },
+      {
+        "io_id": "io-d4c7af5cba135595",
+        "event_type": "statistical_release",
+        "source_id": "imp-bea",
+        "status": "SEMANTICALLY_VALID",
+        "reason": "document has sufficient context (2/2 patterns matched)"
+      },
+      {
+        "io_id": "io-393b618c050dc7e4",
+        "event_type": "statistical_release",
+        "source_id": "imp-cftc",
+        "status": "SEMANTICALLY_VALID",
+        "reason": "document has sufficient context (2/2 patterns matched)"
+      },
+      {
+        "io_id": "io-dd7f1db542d212a3",
+        "event_type": "statistical_release",
+        "source_id": "imp-bank-of-england",
+        "status": "SEMANTICALLY_VALID",
+        "reason": "document has sufficient context (2/2 patterns matched)"
+      },
+      {
+        "io_id": "io-34e78b9a8798dc7a",
+        "event_type": "statistical_release",
+        "source_id": "imp-ecb",
+        "status": "SEMANTICALLY_VALID",
+        "reason": "document has sufficient context (2/2 patterns matched)"
+      },
+      {
+        "io_id": "io-9701ebc40db3ea9b",
+        "event_type": "statistical_release",
+        "source_id": "imp-bank-of-england",
+        "status": "SEMANTICALLY_VALID",
+        "reason": "document has sufficient context (2/2 patterns matched)"
+      },
+      {
+        "io_id": "io-1dad53e489db8113",
+        "event_type": "regulatory_enforcement",
+        "source_id": "imp-bank-of-england",
+        "status": "SEMANTICALLY_VALID",
+        "reason": "document has sufficient context (2/2 patterns matched)"
+      },
+      {
+        "io_id": "io-e360d9bc9e0d2c0c",
+        "event_type": "statistical_release",
+        "source_id": "imp-ecb",
+        "status": "SEMANTICALLY_VALID",
+        "reason": "document has sufficient context (2/2 patterns matched)"
+      },
+      {
+        "io_id": "io-01a0497680eb646f",
+        "event_type": "statistical_release",
+        "source_id": "imp-cftc",
+        "status": "SEMANTICALLY_VALID",
+        "reason": "document has sufficient context (2/2 patterns matched)"
+      },
+      {
+        "io_id": "io-35ce3669e1ba2204",
+        "event_type": "statistical_release",
+        "source_id": "imp-bea",
+        "status": "SEMANTICALLY_VALID",
+        "reason": "document has sufficient context (2/2 patterns matched)"
+      },
+      {
+        "io_id": "io-f252514d7487e66e",
+        "event_type": "monetary_policy_decision",
+        "source_id": "imp-ecb",
+        "status": "SEMANTICALLY_VALID",
+        "reason": "document has sufficient context (2/2 patterns matched)"
+      },
+      {
+        "io_id": "io-9513f96cb044270e",
+        "event_type": "statistical_release",
+        "source_id": "imp-ecb",
+        "status": "SEMANTICALLY_VALID",
+        "reason": "document has sufficient context (2/2 patterns matched)"
+      },
+      {
+        "io_id": "io-0eb15c9170ee2b98",
+        "event_type": "statistical_release",
+        "source_id": "imp-bea",
+        "status": "SEMANTICALLY_VALID",
+        "reason": "document has sufficient context (2/2 patterns matched)"
+      },
+      {
+        "io_id": "io-4d0ae13598a4e04d",
+        "event_type": "statistical_release",
+        "source_id": "imp-bea",
+        "status": "SEMANTICALLY_VALID",
+        "reason": "document has sufficient context (2/2 patterns matched)"
+      },
+      {
+        "io_id": "io-25d63db0b736fc25",
+        "event_type": "statistical_release",
+        "source_id": "imp-bea",
+        "status": "SEMANTICALLY_VALID",
+        "reason": "document has sufficient context (2/2 patterns matched)"
+      },
+      {
+        "io_id": "io-dc4bfb902bab1744",
+        "event_type": "statistical_release",
+        "source_id": "imp-euronext",
+        "status": "SEMANTICALLY_VALID",
+        "reason": "document has sufficient context (2/2 patterns matched)"
+      },
+      {
+        "io_id": "io-3be9de8dd3168da7",
+        "event_type": "statistical_release",
+        "source_id": "imp-bea",
+        "status": "SEMANTICALLY_VALID",
+        "reason": "document has sufficient context (2/2 patterns matched)"
+      },
+      {
+        "io_id": "io-cdee3122804c8504",
+        "event_type": "statistical_release",
+        "source_id": "imp-bank-of-england",
+        "status": "SEMANTICALLY_VALID",
+        "reason": "document has sufficient context (2/2 patterns matched)"
+      },
+      {
+        "io_id": "io-e4eea97503974f5b",
+        "event_type": "statistical_release",
+        "source_id": "imp-euronext",
+        "status": "SEMANTICALLY_VALID",
+        "reason": "document has sufficient context (2/2 patterns matched)"
+      },
+      {
+        "io_id": "io-6d1470fdb40c3286",
+        "event_type": "statistical_release",
+        "source_id": "imp-bea",
+        "status": "SEMANTICALLY_VALID",
+        "reason": "document has sufficient context (2/2 patterns matched)"
+      },
+      {
+        "io_id": "io-bb20a591675d2c35",
+        "event_type": "statistical_release",
+        "source_id": "imp-euronext",
+        "status": "SEMANTICALLY_VALID",
+        "reason": "document has sufficient context (2/2 patterns matched)"
+      },
+      {
+        "io_id": "io-0556ef49eb5d7404",
+        "event_type": "statistical_release",
+        "source_id": "imp-bea",
+        "status": "SEMANTICALLY_VALID",
+        "reason": "document has sufficient context (2/2 patterns matched)"
+      },
+      {
+        "io_id": "io-534abe93a5d52fcf",
+        "event_type": "statistical_release",
+        "source_id": "imp-bank-of-england",
+        "status": "SEMANTICALLY_VALID",
+        "reason": "document has sufficient context (2/2 patterns matched)"
+      },
+      {
+        "io_id": "io-800941fa5aa8ae0f",
+        "event_type": "statistical_release",
+        "source_id": "imp-bea",
+        "status": "SEMANTICALLY_VALID",
+        "reason": "document has sufficient context (2/2 patterns matched)"
+      },
+      {
+        "io_id": "io-f464fe33820ed6a3",
+        "event_type": "statistical_release",
+        "source_id": "imp-euronext",
+        "status": "SEMANTICALLY_VALID",
+        "reason": "document has sufficient context (2/2 patterns matched)"
+      },
+      {
+        "io_id": "io-66fa4ffdfc68e571",
+        "event_type": "statistical_release",
+        "source_id": "imp-fca",
+        "status": "SEMANTICALLY_VALID",
+        "reason": "document has sufficient context (2/2 patterns matched)"
+      },
+      {
+        "io_id": "io-4126e1de92802da6",
+        "event_type": "statistical_release",
+        "source_id": "imp-euronext",
+        "status": "SEMANTICALLY_VALID",
+        "reason": "document has sufficient context (2/2 patterns matched)"
+      },
+      {
+        "io_id": "io-907eb1c59a2dd17d",
+        "event_type": "statistical_release",
+        "source_id": "imp-bea",
+        "status": "SEMANTICALLY_VALID",
+        "reason": "document has sufficient context (2/2 patterns matched)"
+      },
+      {
+        "io_id": "io-cd1755c140271312",
+        "event_type": "statistical_release",
+        "source_id": "imp-bea",
+        "status": "SEMANTICALLY_VALID",
+        "reason": "document has sufficient context (2/2 patterns matched)"
+      },
+      {
+        "io_id": "io-3ab292a5c1bfc342",
+        "event_type": "statistical_release",
+        "source_id": "imp-euronext",
+        "status": "SEMANTICALLY_VALID",
+        "reason": "document has sufficient context (2/2 patterns matched)"
+      },
+      {
+        "io_id": "io-4541e02ffc8de75b",
+        "event_type": "statistical_release",
+        "source_id": "imp-euronext",
+        "status": "SEMANTICALLY_VALID",
+        "reason": "document has sufficient context (2/2 patterns matched)"
+      },
+      {
+        "io_id": "io-a713e503e7f1fb43",
+        "event_type": "statistical_release",
+        "source_id": "imp-bank-of-england",
+        "status": "SEMANTICALLY_VALID",
+        "reason": "document has sufficient context (2/2 patterns matched)"
+      },
+      {
+        "io_id": "io-c471c43798ea93f1",
+        "event_type": "statistical_release",
+        "source_id": "imp-euronext",
+        "status": "SEMANTICALLY_VALID",
+        "reason": "document has sufficient context (2/2 patterns matched)"
+      },
+      {
+        "io_id": "io-ccfa36eb5f543b49",
+        "event_type": "statistical_release",
+        "source_id": "imp-fca",
+        "status": "SEMANTICALLY_VALID",
+        "reason": "document has sufficient context (2/2 patterns matched)"
+      },
+      {
+        "io_id": "io-4be0da3597bc2805",
+        "event_type": "statistical_release",
+        "source_id": "imp-bank-of-england",
+        "status": "SEMANTICALLY_VALID",
+        "reason": "document has sufficient context (2/2 patterns matched)"
+      },
+      {
+        "io_id": "io-f97611ba1e68b3c7",
+        "event_type": "statistical_release",
+        "source_id": "imp-euronext",
+        "status": "SEMANTICALLY_VALID",
+        "reason": "document has sufficient context (2/2 patterns matched)"
+      },
+      {
+        "io_id": "io-e7f1ab14fa41db16",
+        "event_type": "regulatory_enforcement",
+        "source_id": "imp-fca",
+        "status": "SEMANTICALLY_VALID",
+        "reason": "document has sufficient context (2/2 patterns matched)"
+      },
+      {
+        "io_id": "io-fdcb541d6796090e",
+        "event_type": "statistical_release",
+        "source_id": "imp-euronext",
+        "status": "SEMANTICALLY_VALID",
+        "reason": "document has sufficient context (2/2 patterns matched)"
+      },
+      {
+        "io_id": "io-30e32100998a36f2",
+        "event_type": "statistical_release",
+        "source_id": "imp-euronext",
+        "status": "SEMANTICALLY_VALID",
+        "reason": "document has sufficient context (2/2 patterns matched)"
+      },
+      {
+        "io_id": "io-1d843980c07050f9",
+        "event_type": "statistical_release",
+        "source_id": "imp-bank-of-england",
+        "status": "SEMANTICALLY_VALID",
+        "reason": "document has sufficient context (2/2 patterns matched)"
+      },
+      {
+        "io_id": "io-1bb1829e6def6ac2",
+        "event_type": "statistical_release",
+        "source_id": "imp-bank-of-england",
+        "status": "SEMANTICALLY_VALID",
+        "reason": "document has sufficient context (2/2 patterns matched)"
+      },
+      {
+        "io_id": "io-5a95f3709478c0fa",
+        "event_type": "statistical_release",
+        "source_id": "imp-euronext",
+        "status": "SEMANTICALLY_VALID",
+        "reason": "document has sufficient context (2/2 patterns matched)"
+      },
+      {
+        "io_id": "io-dc1fae67d48ba888",
+        "event_type": "statistical_release",
+        "source_id": "imp-euronext",
+        "status": "SEMANTICALLY_VALID",
+        "reason": "document has sufficient context (2/2 patterns matched)"
+      },
+      {
+        "io_id": "io-1a13f8fcba1e6428",
+        "event_type": "statistical_release",
+        "source_id": "imp-sec",
+        "status": "SEMANTICALLY_VALID",
+        "reason": "document has sufficient context (2/2 patterns matched)"
+      },
+      {
+        "io_id": "io-4bed0a52202e9f6d",
+        "event_type": "statistical_release",
+        "source_id": "imp-sec",
+        "status": "SEMANTICALLY_VALID",
+        "reason": "document has sufficient context (2/2 patterns matched)"
+      },
+      {
+        "io_id": "io-52a962982a031b80",
+        "event_type": "statistical_release",
+        "source_id": "imp-euronext",
+        "status": "SEMANTICALLY_VALID",
+        "reason": "document has sufficient context (2/2 patterns matched)"
+      }
+    ]
+  },
+  "fact_audit": {
+    "total_facts": 680,
+    "fact_quality_dist": {
+      "DIRECTLY_SUPPORTED": 656,
+      "INSUFFICIENT_EVIDENCE": 13,
+      "WRONG_CONTEXT": 10,
+      "PARTIALLY_SUPPORTED": 1
+    },
+    "evidence_grounding_dist": {
+      "INDIRECT_EVIDENCE": 67,
+      "DIRECT_EVIDENCE": 613
+    },
+    "fact_precision_pct": 96.6,
+    "direct_evidence_pct": 90.1,
+    "insufficient_evidence_count": 0,
+    "insufficient_evidence_pct": 0.0,
+    "numerator_fact": 657,
+    "denominator_fact": 680,
+    "universe_fact": "all facts attached to surviving events",
+    "sample_fact": "census (100%)",
+    "numerator_direct": 613,
+    "denominator_direct": 680,
+    "universe_direct": "all facts attached to surviving events",
+    "sample_direct": "census (100%)"
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "schema_version": "1.0",
+  "captured_at": "2026-08-18T01:16:21Z",
+  "language_stats": {
+    "en": {
+      "documents": 1075,
+      "facts": 5146,
+      "events": 153,
+      "ambiguous": 0
+    },
+    "ja": {
+      "documents": 61,
+      "facts": 0,
+      "events": 0,
+      "ambiguous": 0
+    },
+    "zh": {
+      "documents": 10,
+      "facts": 5,
+      "events": 0,
+      "ambiguous": 0
+    },
+    "ar": {
+      "documents": 58,
+      "facts": 0,
+      "events": 0,
+      "ambiguous": 0
+    },
+    "ru": {
+      "documents": 77,
+      "facts": 11,
+      "events": 0,
+      "ambiguous": 0
+    },
+    "unknown": {
+      "documents": 2,
+      "facts": 0,
+      "events": 0,
+      "ambiguous": 0
+    }
+  },
+  "language_goldens": {}
+}

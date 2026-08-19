@@ -1,0 +1,373 @@
+{
+  "schema_version": "1.0-real-parallel",
+  "run_id": "real-parallel-1787005189",
+  "captured_at": "2026-08-17T22:20:50Z",
+  "store_root": "real_corpus_store",
+  "max_items_per_source": 30,
+  "max_workers": 7,
+  "starting_events": 61,
+  "final_events": 91,
+  "new_events": 30,
+  "elapsed_s": 60.8,
+  "results": [
+    {
+      "source_id": "imp-federal-reserve",
+      "name": "Federal Reserve",
+      "class": "Central Bank",
+      "country": "US",
+      "website": "https://www.federalreserve.gov",
+      "acquisition": null,
+      "documents_acquired": 0,
+      "documents_processed": 0,
+      "documents_with_facts": 0,
+      "facts_extracted": 0,
+      "documents_with_events": 0,
+      "events_detected": 0,
+      "intelligence_objects": [],
+      "errors": [],
+      "failure_stage": "ACQUISITION",
+      "failure_reason": "no_rss_feed"
+    },
+    {
+      "source_id": "imp-ecb",
+      "name": "European Central Bank",
+      "class": "Central Bank",
+      "country": "EU",
+      "website": "https://www.ecb.europa.eu",
+      "acquisition": {
+        "http_status": 200,
+        "bytes": 5992,
+        "feed_url": "https://www.ecb.europa.eu/rss/press.html"
+      },
+      "documents_acquired": 15,
+      "documents_processed": 15,
+      "documents_with_facts": 1,
+      "facts_extracted": 1,
+      "documents_with_events": 1,
+      "events_detected": 1,
+      "intelligence_objects": [
+        "io-f252514d7487e66e"
+      ],
+      "errors": [
+        {
+          "stage": "DOCUMENT",
+          "message": "PDF skipped (D10)"
+        },
+        {
+          "stage": "DOCUMENT",
+          "message": "PDF skipped (D10)"
+        }
+      ],
+      "failure_stage": null,
+      "failure_reason": null
+    },
+    {
+      "source_id": "imp-bank-of-england",
+      "name": "Bank of England",
+      "class": "Central Bank",
+      "country": "UK",
+      "website": "https://www.bankofengland.co.uk",
+      "acquisition": {
+        "http_status": 200,
+        "bytes": 25170,
+        "feed_url": "https://www.bankofengland.co.uk/rss/news"
+      },
+      "documents_acquired": 50,
+      "documents_processed": 30,
+      "documents_with_facts": 1,
+      "facts_extracted": 2,
+      "documents_with_events": 1,
+      "events_detected": 1,
+      "intelligence_objects": [
+        "io-915e64c62ecf2c1d"
+      ],
+      "errors": [],
+      "failure_stage": null,
+      "failure_reason": null
+    },
+    {
+      "source_id": "imp-bea",
+      "name": "Bureau of Economic Analysis",
+      "class": "Statistical Agency",
+      "country": "US",
+      "website": "https://www.bea.gov",
+      "acquisition": {
+        "http_status": 200,
+        "bytes": 86802,
+        "feed_url": "https://apps.bea.gov/rss/rss.xml"
+      },
+      "documents_acquired": 47,
+      "documents_processed": 30,
+      "documents_with_facts": 2,
+      "facts_extracted": 15,
+      "documents_with_events": 2,
+      "events_detected": 2,
+      "intelligence_objects": [
+        "io-0db41fde8c803040",
+        "io-d699eb90722fdf91"
+      ],
+      "errors": [
+        {
+          "stage": "DOCUMENT",
+          "message": "fetch failed: unknown url type: 'www.bea.gov/news/2026/gdp-advance-estimate-4th-quarter-and-year-2025'"
+        }
+      ],
+      "failure_stage": null,
+      "failure_reason": null
+    },
+    {
+      "source_id": "imp-eurostat",
+      "name": "Eurostat",
+      "class": "Statistical Agency",
+      "country": "EU",
+      "website": "https://ec.europa.eu/eurostat",
+      "acquisition": null,
+      "documents_acquired": 0,
+      "documents_processed": 0,
+      "documents_with_facts": 0,
+      "facts_extracted": 0,
+      "documents_with_events": 0,
+      "events_detected": 0,
+      "intelligence_objects": [],
+      "errors": [],
+      "failure_stage": "ACQUISITION",
+      "failure_reason": "no_rss_feed"
+    },
+    {
+      "source_id": "imp-sec",
+      "name": "SEC",
+      "class": "Financial Regulator",
+      "country": "US",
+      "website": "https://www.sec.gov",
+      "acquisition": {
+        "http_status": 200,
+        "bytes": 18148,
+        "feed_url": "https://www.sec.gov/news/pressreleases.rss"
+      },
+      "documents_acquired": 25,
+      "documents_processed": 25,
+      "documents_with_facts": 6,
+      "facts_extracted": 33,
+      "documents_with_events": 6,
+      "events_detected": 6,
+      "intelligence_objects": [
+        "io-1ca8a75ee22968f7",
+        "io-86eb51402109b465",
+        "io-7fb679b134aeabb3",
+        "io-510e7472d7e96491",
+        "io-ba0ad37c35390b92",
+        "io-05e4a13e43cc5f9b"
+      ],
+      "errors": [],
+      "failure_stage": null,
+      "failure_reason": null
+    },
+    {
+      "source_id": "imp-cftc",
+      "name": "CFTC",
+      "class": "Financial Regulator",
+      "country": "US",
+      "website": "https://www.cftc.gov",
+      "acquisition": {
+        "http_status": 200,
+        "bytes": 76184,
+        "feed_url": "https://www.cftc.gov/rss.xml"
+      },
+      "documents_acquired": 10,
+      "documents_processed": 10,
+      "documents_with_facts": 1,
+      "facts_extracted": 1,
+      "documents_with_events": 1,
+      "events_detected": 1,
+      "intelligence_objects": [
+        "io-39cfc3b482bba190"
+      ],
+      "errors": [],
+      "failure_stage": null,
+      "failure_reason": null
+    },
+    {
+      "source_id": "imp-esma",
+      "name": "ESMA",
+      "class": "Financial Regulator",
+      "country": "EU",
+      "website": "https://www.esma.europa.eu",
+      "acquisition": {
+        "http_status": 200,
+        "bytes": 55542,
+        "feed_url": "https://www.esma.europa.eu/rss.xml"
+      },
+      "documents_acquired": 10,
+      "documents_processed": 10,
+      "documents_with_facts": 10,
+      "facts_extracted": 15,
+      "documents_with_events": 10,
+      "events_detected": 10,
+      "intelligence_objects": [
+        "io-b6abac1393987508",
+        "io-5150003cff76e0ab",
+        "io-eb4ea7a98e0e81d3",
+        "io-3ba6bc20160d3cd7",
+        "io-4323d212da946519",
+        "io-bbb8485464e13316",
+        "io-617804e0b8d7b49a",
+        "io-db1df3ae20d1206f",
+        "io-9085ed58996e2289",
+        "io-cb958bd7f073a0e5"
+      ],
+      "errors": [],
+      "failure_stage": null,
+      "failure_reason": null
+    },
+    {
+      "source_id": "imp-fca",
+      "name": "FCA",
+      "class": "Financial Regulator",
+      "country": "UK",
+      "website": "https://www.fca.org.uk",
+      "acquisition": {
+        "http_status": 200,
+        "bytes": 65823,
+        "feed_url": "https://www.fca.org.uk/news/rss.xml"
+      },
+      "documents_acquired": 20,
+      "documents_processed": 20,
+      "documents_with_facts": 6,
+      "facts_extracted": 40,
+      "documents_with_events": 6,
+      "events_detected": 6,
+      "intelligence_objects": [
+        "io-f76ffc30691c854c",
+        "io-936e16f976e71fe5",
+        "io-30022112e390cb2f",
+        "io-43d4e65609c4843a",
+        "io-1c89837982b29495",
+        "io-e7f1ab14fa41db16"
+      ],
+      "errors": [],
+      "failure_stage": null,
+      "failure_reason": null
+    },
+    {
+      "source_id": "imp-euronext",
+      "name": "Euronext",
+      "class": "Market Infrastructure",
+      "country": "EU",
+      "website": "https://www.euronext.com",
+      "acquisition": {
+        "http_status": 200,
+        "bytes": 22183,
+        "feed_url": "https://www.euronext.com/en/about/media/euronext-press-releases/releases.rss"
+      },
+      "documents_acquired": 20,
+      "documents_processed": 20,
+      "documents_with_facts": 20,
+      "facts_extracted": 166,
+      "documents_with_events": 20,
+      "events_detected": 20,
+      "intelligence_objects": [
+        "io-15160d8f1e8e817d",
+        "io-a86c513fe82baac9",
+        "io-1796adc656a8819c",
+        "io-0761347c246b0551",
+        "io-647bc102ca1e480a",
+        "io-207cfbb36f332c9a",
+        "io-7e2fcd255208c9cc",
+        "io-0c2694b8973e8e6d",
+        "io-012868ae3188c8cd",
+        "io-c73ae5e73df25f53",
+        "io-d7dec3d2c382ac59",
+        "io-83daad3380efe57c",
+        "io-2a63bb1648049715",
+        "io-b18e78c546eac35d",
+        "io-63713fc83d88737d",
+        "io-d35a418438d982f7",
+        "io-34973d2c06aff9f7",
+        "io-ff0afee692cd20be",
+        "io-b6ac12308e2ccac6",
+        "io-01b07f8332ebeb0c"
+      ],
+      "errors": [],
+      "failure_stage": null,
+      "failure_reason": null
+    },
+    {
+      "source_id": "imp-hm-treasury",
+      "name": "HM Treasury",
+      "class": "Ministry of Finance",
+      "country": "UK",
+      "website": "https://www.gov.uk",
+      "acquisition": null,
+      "documents_acquired": 0,
+      "documents_processed": 0,
+      "documents_with_facts": 0,
+      "facts_extracted": 0,
+      "documents_with_events": 0,
+      "events_detected": 0,
+      "intelligence_objects": [],
+      "errors": [],
+      "failure_stage": "ACQUISITION",
+      "failure_reason": "no_rss_feed"
+    },
+    {
+      "source_id": "imp-consob",
+      "name": "CONSOB",
+      "class": "Financial Regulator",
+      "country": "IT",
+      "website": "https://www.consob.it",
+      "acquisition": null,
+      "documents_acquired": 0,
+      "documents_processed": 0,
+      "documents_with_facts": 0,
+      "facts_extracted": 0,
+      "documents_with_events": 0,
+      "events_detected": 0,
+      "intelligence_objects": [],
+      "errors": [],
+      "failure_stage": "ACQUISITION",
+      "failure_reason": "no_rss_feed"
+    },
+    {
+      "source_id": "imp-stats-china",
+      "name": "National Bureau of Statistics of China",
+      "class": "Statistical Agency",
+      "country": "CN",
+      "website": "http://www.stats.gov.cn",
+      "acquisition": null,
+      "documents_acquired": 0,
+      "documents_processed": 0,
+      "documents_with_facts": 0,
+      "facts_extracted": 0,
+      "documents_with_events": 0,
+      "events_detected": 0,
+      "intelligence_objects": [],
+      "errors": [],
+      "failure_stage": "ACQUISITION",
+      "failure_reason": "no_rss_feed"
+    },
+    {
+      "source_id": "imp-fsb",
+      "name": "Financial Stability Board",
+      "class": "International Organization",
+      "country": "International",
+      "website": "https://www.fsb.org",
+      "acquisition": {
+        "http_status": 200,
+        "bytes": 12719,
+        "feed_url": "https://www.fsb.org/feed"
+      },
+      "documents_acquired": 10,
+      "documents_processed": 10,
+      "documents_with_facts": 1,
+      "facts_extracted": 2,
+      "documents_with_events": 1,
+      "events_detected": 1,
+      "intelligence_objects": [
+        "io-b73f1b5cfe2f69e4"
+      ],
+      "errors": [],
+      "failure_stage": null,
+      "failure_reason": null
+    }
+  ]
+}

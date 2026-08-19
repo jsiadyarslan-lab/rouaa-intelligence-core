@@ -1,0 +1,525 @@
+<!DOCTYPE html>
+<html lang="hu">
+
+<head>
+    <base href="//www.ksh.hu/">
+    <meta name="google-site-verification" content="SBza5dAyFkT_muTyGMs2UEaaPj3pZ6TtxqUuwNJfi28">
+    <meta charset="iso-8859-2">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/base.css">
+    <script src="js/base.js"></script>
+    <link rel="stylesheet" href="css/migrated.css">
+    <link rel="stylesheet" type="text/css" href="css/content.css" />
+<title>Központi Statisztikai Hivatal</title>        <link rel="stylesheet" href="/css/a11y.css">
+    <script src="/js/a11y.js" charset="utf-8"></script>
+</head>
+
+<body>
+    <a href="impresszum#main" class="jump-to-content">Ugrás a tartalomhoz</a>
+    <div id="page">
+        <header class="container">
+            <a id="logo" href="//www.ksh.hu/?lang=hu"><img src="images/logos/kshlogo.svg" height="60" alt="KSH logo"></a>
+            <nav class="quick-nav" aria-label="Kiegészítő">
+                <ul>
+                    <li><a href="sajtoszoba">Sajtószoba</a></li>
+                    <li><a href="kapcsolat">Kapcsolat</a></li>
+                    <li><a href="//www.ksh.hu/imprint?lang=en">English</a></li>
+                </ul>
+            </nav>
+            <div id="page-header-search">
+                <form method="get" action="/kereses" accept-charset="UTF-8">
+                    <input type="text" name="q" placeholder="keresés a honlapon..." aria-label="keresés a honlapon..." onfocus="this.parentNode.className='focused'" onblur="this.parentNode.className=''" ><button type="submit" title="Keresés" aria-label="Keresés"><svg class="icon icon-search" aria-hidden="true"><use xlink:href="images/icons.svg#search"></use></svg></button>
+                </form>
+            </div>
+            <button class="mobile open-page-menu" aria-label="Menü megnyitása"><svg class="icon icon-menu" aria-hidden="true"><use xlink:href="images/icons.svg#menu"></use></svg></button>
+        </header>
+
+        <nav aria-label="Elsődleges">
+            <div class="container">
+                <div class="mobile">
+    <button class="close-page-menu" aria-label="Menü bezárása"><svg class="icon icon-close" aria-hidden="true"><use xlink:href="images/icons.svg#close"></use></svg></button>
+    <nav class="quick-nav" aria-label="Kiegészítő">
+        <ul>
+            <li><a href="sajtoszoba">Sajtószoba</a></li>
+            <li><a href="kapcsolat">Kapcsolat</a></li>
+            <li><a href="?lang=en" lang="en">English</a></li>
+        </ul>
+    </nav>
+</div>
+<ul id="menu" class="hover-dropdown">
+    <li><a href="#">Témakörök</a>
+        <div class="panel">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-3">
+                        <ul class="themes">
+                            <li><a href="arak"><svg class="icon icon-arak" aria-hidden="true"><use xlink:href="images/icons.svg#arak"></use></svg><span class="label">Árak</span></a></li>
+                            <li><a href="belkereskedelem"><svg class="icon icon-belker" aria-hidden="true"><use xlink:href="images/icons.svg#belker"></use></svg><span class="label">Belkereskedelem</span></a></li>
+                            <li><a href="beruhazas2"><svg class="icon icon-beruhazas" aria-hidden="true"><use xlink:href="images/icons.svg#beruhazas"></use></svg><span class="label">Beruházás</span></a></li>
+                            <li><a href="egeszsegugy-baleset"><svg class="icon icon-egeszsegugy" aria-hidden="true"><use xlink:href="images/icons.svg#egeszsegugy"></use></svg><span class="label">Egészségügy, baleset</span></a></li>
+                            <li><a href="eletkorulmenyek"><svg class="icon icon-szegenyseg" aria-hidden="true"><use xlink:href="images/icons.svg#szegenyseg"></use></svg><span class="label">Életkörülmények</span></a></li>
+                            <li><a href="energiagazdalkodas"><svg class="icon icon-energiagazd" aria-hidden="true"><use xlink:href="images/icons.svg#energiagazd"></use></svg><span class="label">Energiagazdálkodás</span></a></li>
+                            <li><a href="epitoipar"><svg class="icon icon-epitoipar" aria-hidden="true"><use xlink:href="images/icons.svg#epitoipar"></use></svg><span class="label">Építőipar</span></a></li>
+                            <li><a href="ferfiak-es-nok"><svg class="icon icon-ferfiak" aria-hidden="true"><use xlink:href="images/icons.svg#ferfiak-es-nok"></use></svg><span class="label">Férfiak és nők</span></a></li>
+                            <li><a href="fiatalok-es-idosek"><svg class="icon icon-fiatalok" aria-hidden="true"><use xlink:href="images/icons.svg#fiatalok-es-idosek"></use></svg><span class="label">Fiatalok és idősek</span></a></li>
+                        </ul>
+                    </div>
+
+                    <div class="col-lg-3">
+                        <ul class="themes">
+                            <li><a href="fogyatekossag-korlatozottsag"><svg class="icon icon-fogyatekossag" aria-hidden="true"><use xlink:href="images/icons.svg#fogyatekossag-korlatozottsag"></use></svg><span class="label">Fogyatékosság, korlátozottság</span></a></li>
+                            <li><a href="gazdasagi-es-nonprofit-szervezetek"><svg class="icon icon-nonprofit" aria-hidden="true"><use xlink:href="images/icons.svg#nonprofit"></use></svg><span class="label">Gazdasági és<br>nonprofit szervezetek</span></a></li>
+                            <li><a href="idofelhasznalas-idomerleg"><svg class="icon icon-idomerleg" aria-hidden="true"><use xlink:href="images/icons.svg#idomerleg"></use></svg><span class="label">Időfelhasználás, időmérleg</span></a></li>
+                            <li><a href="igazsagszolgaltatas"><svg class="icon icon-igszolg" aria-hidden="true"><use xlink:href="images/icons.svg#igszolg"></use></svg><span class="label">Igazságszolgáltatás</span></a></li>
+                            <li><a href="informacio-kommunikacio"><svg class="icon icon-infokomm" aria-hidden="true"><use xlink:href="images/icons.svg#infokomm"></use></svg><span class="label">Információ, kommunikáció</span></a></li>
+                            <li><a href="ipar"><svg class="icon icon-ipar" aria-hidden="true"><use xlink:href="images/icons.svg#ipar"></use></svg><span class="label">Ipar</span></a></li>
+                            <li><a href="jovedelem-es-fogyasztas"><svg class="icon icon-jovedelem" aria-hidden="true"><use xlink:href="images/icons.svg#jovedelem"></use></svg><span class="label">Jövedelem és fogyasztás</span></a></li>
+                            <li><a href="kormanyzati-penzugyek"><svg class="icon icon-kormanyzat" aria-hidden="true"><use xlink:href="images/icons.svg#kormanyzat"></use></svg><span class="label">Kormányzati pénzügyek</span></a></li>
+                            <li><a href="kornyezet-kommunalis-ellatas"><svg class="icon icon-kornyezet" aria-hidden="true"><use xlink:href="images/icons.svg#kornyezet"></use></svg><span class="label">Környezet, kommunális ellátás</span></a></li>
+                        </ul>
+                    </div>
+
+                    <div class="col-lg-3">
+                        <ul class="themes">
+                            <li><a href="kultura"><svg class="icon icon-kultura" aria-hidden="true"><use xlink:href="images/icons.svg#kultura"></use></svg><span class="label">Kultúra</span></a></li>
+                            <li><a href="kulkereskedelem-es-fizetesi-merleg"><svg class="icon icon-kulker" aria-hidden="true"><use xlink:href="images/icons.svg#kulker"></use></svg><span class="label">Külkereskedelem és fizetési mérleg</span></a></li>
+                            <li><a href="lakas"><svg class="icon icon-lakas" aria-hidden="true"><use xlink:href="images/icons.svg#lakas"></use></svg><span class="label">Lakás</span></a></li>
+                            <li><a href="mezogazdasag"><svg class="icon icon-mezogazd" aria-hidden="true"><use xlink:href="images/icons.svg#mezogazd"></use></svg><span class="label">Mezőgazdaság</span></a></li>
+                            <li><a href="munkaero"><svg class="icon icon-munkaero" aria-hidden="true"><use xlink:href="images/icons.svg#munkaero"></use></svg><span class="label">Munkaerő</span></a></li>
+                            <li><a href="nemzeti-szamlak-gdp"><svg class="icon icon-gdp" aria-hidden="true"><use xlink:href="images/icons.svg#gdp"></use></svg><span class="label">Nemzeti számlák, GDP</span></a></li>
+                            <li><a href="nemzetkozi-adatok"><svg class="icon icon-nemzetkozi" aria-hidden="true"><use xlink:href="images/icons.svg#nemzetkozi"></use></svg><span class="label">Nemzetközi adatok</span></a></li>
+                            <li><a href="nepesseg-es-nepmozgalom"><svg class="icon icon-nepesseg" aria-hidden="true"><use xlink:href="images/icons.svg#nepesseg"></use></svg><span class="label">Népesség és népmozgalom</span></a></li>
+                            <li><a href="nepszamlalasok"><svg class="icon icon-nepszamlalasok" aria-hidden="true"><use xlink:href="images/icons.svg#nepszamlalasok"></use></svg><span class="label">Népszámlálások</span></a></li>
+                        </ul>
+                    </div>
+
+                    <div class="col-lg-3">
+                        <ul class="themes">
+                            <li><a href="oktatas"><svg class="icon icon-oktatas" aria-hidden="true"><use xlink:href="images/icons.svg#oktatas"></use></svg><span class="label">Oktatás</span></a></li>
+                            <li><a href="szallitas-kozlekedes"><svg class="icon icon-szallitas" aria-hidden="true"><use xlink:href="images/icons.svg#szallitas"></use></svg><span class="label">Szállítás, közlekedés</span></a></li>
+                            <li><a href="szocialis-ellatas"><svg class="icon icon-szocialis" aria-hidden="true"><use xlink:href="images/icons.svg#szocialis"></use></svg><span class="label">Szociális ellátás</span></a></li>
+                            <li><a href="teruleti-adatok"><svg class="icon icon-teruletistat" aria-hidden="true"><use xlink:href="images/icons.svg#teruletistat"></use></svg><span class="label">Területi adatok</span></a></li>
+                            <li><a href="tudomany-es-technologia"><svg class="icon icon-tudomany" aria-hidden="true"><use xlink:href="images/icons.svg#tudomany"></use></svg><span class="label">Tudomány és technológia</span></a></li>
+                            <li><a href="turizmus-vendeglatas"><svg class="icon icon-turizmus" aria-hidden="true"><use xlink:href="images/icons.svg#turizmus"></use></svg><span class="label">Turizmus, vendéglátás</span></a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="footer"><a href="temakorok-a-z">Témakörök A&ndash;Z-ig</a></div>
+            </div>
+        </div>
+    </li>
+    <li><a href="#">Adatok, kiadványok</a>
+        <div class="panel">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-6">
+                        <h1>Adatok</h1>
+                        <div class="row">
+                            <div class="col-lg-6">
+                                <ul>
+                                    <li><a href="stadat">Összefoglaló táblák (STADAT)</a></li>
+                                    <li><a href="adatbazis" target="_blank">Tájékoztatási adatbázis</a></li>
+                                    <li><a href="https://nepszamlalas2022.ksh.hu/adatbazis/" target="_blank">Népszámlálási adatbázis</a></li>
+                                    <li><a href="ksh-evkonyvek/#/">Évkönyvek, zsebkönyvek, adattárak</a></li>
+                                    <li><a href="idoszaki-adatfelvetelek-mutatoszamrendszerek">Időszaki adatfelvételek eredményei, mutatószámrendszerek</a></li>
+                                </ul>
+                            </div>
+                            <div class="col-lg-6">
+                                <ul>
+                                    <li><a href="ingatlanadattar">Ingatlanadattár</a></li>
+                                    <li><a href="helysegnevtar">Helységnévtár</a></li>
+                                    <li><a href="teruletiatlasz">Területi atlasz</a></li>
+                                    <li><a href="edp_jelentes">EDP jelentés<span class="desc">Jelentés a kormányzati szektor<br>egyenlegéről és adósságáról</span></a></li>
+                                    <li><a href="kutatoknak_nyilvanos_mikroadat_allomanyok">Nyilvános mikroadatállományok</a></li>
+                                    <li><a href="hvd">Nagy értékű adatkészletek</a></li>
+                                    <li><a href="/s/kiserleti-statisztika" style="color: #007bff;font-weight:bold">Kísérleti statisztika<img src="/s/kiserleti-statisztika/assets/experimental-statistics.svg" height="24" alt="" style="position:relative;top:-2px;margin: -4px 0 -4px 5px;filter: hue-rotate(390deg);"></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3">
+                        <h1>Elemzések</h1>
+                        <ul>
+                            <li><a href="gyorstajekoztatok">Gyorstájékoztatók</a></li>
+                            <li><a href="/apps/shop.lista?p_lang=HU&amp;p_kereses_id=100082">Elemző kiadványok</a></li>
+                            <li><a href="https://go.ksh.hu/101">Fókuszban a vármegyék</a></li>
+                            <li><a href="/kiadvanyok/helyzetkep/2025/">Helyzetkép</a></li>
+                            <li><a href="sdg">A fenntartható fejlődés indikátorai (SDG+FFI)</a></li>
+                            <li><a href="folyoiratok">Folyóiratok</a></li>
+                            <li><a href="/s/kiadvanyok/eu-silc-hivatalos-statisztikai-hatter/">EU&ndash;SILC</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="col-lg-3">
+                        <h1>Adatvizualizációk</h1>
+                        <ul>
+                            <li><a href="heti-monitor/">KSH Monitor</a></li>
+                            <li><a href="tematikus-terkepek">Tematikus térképek</a></li>
+                            <li><a href="adatvizualizaciok?type=chart">Interaktív grafikonok</a></li>
+                            <li><a href="adatvizualizaciok?type=story">Storytellingek</a></li>
+                            <li><a href="adatvizualizaciok?type=infogr">Infografikák</a></li>
+                            <li><a href="adatvizualizaciok?type=design">Infoképek</a></li>
+                        </ul>
+                        <h1>Naptár</h1>
+                        <ul>
+                            <li><a href="katalogus">Közzétételi naptár</a></li>
+                            <li><a href="katalogus/revizios_naptar.xlsx">Revíziós naptár (XLSX)</a></li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col">
+                        <div class="footer">
+                            <h1 class="visually-hidden">Egyéb</h1>
+                            <a href="/apps/shop.main">Kiadványtár</a>
+                            &nbsp;&nbsp;|&nbsp;&nbsp;
+                            <a href="polc">e-Polc</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </li>
+    <li><a href="#">Szolgáltatások</a>
+        <div class="panel">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-4">
+                        <h1>Adat- és információigénylés</h1>
+                        <ul>
+                            <li><a href="teaor-valtassal-kapcsolatos-tudnivalok">TEÁOR-váltással kapcsolatos tudnivalók</a></li>
+                            <li><a href="statisztikai-szamjel">Statisztikai számjel</a></li>
+                            <li><a href="adatigenyles">Adatigénylés</a></li>
+                            <li><a href="egyedi-elemzes">Egyedi elemzés</a></li>
+                            <li><a href="besorolasi-allasfoglalas">Besorolási állásfoglalás</a></li>
+                            <li><a href="kiadvanyertekesites">Kiadványértékesítés</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="col-lg-4">
+                        <h1>Speciális tartalmak</h1>
+                        <ul>
+                            <li><a href="kkv">Kis- és középvállalkozásoknak </a></li>
+                            <li><a href="kutatoknak">Kutatóknak</a></li>
+                            <li><a href="sajtoszoba">Sajtónak</a></li>
+                            <li><a href="fvk">Felhasználóinkról</a></li>
+                            <li><a href="ksh-stat-akademia-2025">KSH STAT Akadémia Közig+</a></li>
+                            <li><a href="ksh-stat-akademia-business-2025">KSH STAT Akadémia Business</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="col-lg-4">
+                        <h1>Szolgáltatásainkhoz való hozzáférés</h1>
+                        <ul>
+                            <li><a href="szolgaltatasainkhoz-valo-hozzaferes">Szolgáltatásaink igénylése</a></li>
+                            <li><a href="szolgaltatasaink-teritesi-dijai">Szolgáltatásaink térítési díjai</a></li>
+                            <li><a href="gyik">Gyakran ismételt kérdések (GYIK)</a></li>
+                            <li><a href="karat_adatkiadas_hirek">KARÁT adatátadási csatorna</a></li>
+                            <li><a href="docs/szolgaltatasok/hun/ksh_elektronikus_rendszerek_uzemszunet-uzemzavar_eljarasrendje.pdf" target="_blank">KSH elektronikus rendszerek üzemszünet-üzemzavar eljárásrendje (PDF)</a></li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col">
+                        <div class="footer">
+                            <h1 class="visually-hidden">Egyéb</h1>
+                            A felhasználói igények írásban történő benyújtására a <a href="kapcsolat">Lépjen velünk kapcsolatba!</a> felületen keresztül van lehetőség.
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </li>
+    <li><a href="#">Módszertan</a>
+        <div class="panel">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-6">
+                        <h1>Metainformációk</h1>
+                        <ul>
+                            <li><a href="/apps/meta.menu?p_lang=HU&amp;p_menu_id=110">Szakstatisztikák<span class="desc">A KSH felelősségében lévő szakstatisztikák;<br>azok adatforrásai, adatelőállítási folyamata, módszerei,<br>eredménytermékei és ezek dokumentációi</span></a></li>
+                            <li><a href="/apps/meta.menu?p_lang=HU&amp;p_menu_id=1110">Adatfelvételek<span class="desc">A KSH által a hivatalos statisztikák fejlesztését,<br>előállítását és közzétételét támogató adatgyűjtések,<br>valamint adatátvételek információi</span></a></li>
+                            <li><a href="/apps/meta.menu?p_lang=HU&amp;p_menu_id=1410">Regiszterek<span class="desc">A KSH által kezelt statisztikai regiszterek és<br>azok részletes módszertani információi</span></a></li>
+                            <li><a href="/apps/meta.menu?p_lang=HU&amp;p_menu_id=210">Fogalmak, definíciók<span class="desc">A KSH által publikált eredménytermékekben, illetve<br>a statisztikai adatelőállítási folyamatokban használt<br>legfontosabb fogalmak és nomenklatúrák információi</span></a></li>
+                        </ul>
+                    </div>
+
+                    <div class="col-lg-6">
+                        <h1>Módszertani keretrendszer</h1>
+                        <ul class="flip">
+                            <li><a href="modszerek-es-iranyelvek">Módszerek és irányelvek<span class="desc">A statisztikai adatelőállítási folyamatot és<br>annak elemeit támogató módszertani ajánlások és irányelvek</span></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </li>
+    <li><a href="#">Osztályozások</a>
+        <div class="panel">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-6">
+                        <h1>Gazdasági</h1>
+                        <div class="row">
+                            <div class="col-lg-6">
+                                <ul>
+                                    <li><a href="teaor_menu">TEÁOR&rsquo;08<span class="desc">Gazdasági tevékenységek egységes ágazati osztályozási rendszere</span></a></li>
+                                    <li><a href="osztalyozasok_teaor25">TEÁOR&rsquo;25<span class="desc">Gazdasági tevékenységek egységes ágazati osztályozási rendszere</span></a></li>
+                                    <li><a href="osztalyozasok_teszor2-1">TESZOR&rsquo;15<span class="desc">Termékek és szolgáltatások osztályozási rendszere</span></a></li>
+                                    <li><a href="osztalyozasok_teszor25">TESZOR&rsquo;25<span class="desc">Termékek és szolgáltatások osztályozási rendszere</span></a></li>
+                                    <li><a href="ovtj_menu">ÖVTJ&rsquo;24<span class="desc">Önálló vállalkozók tevékenységi jegyzéke, 2024</span></a></li>
+                                    <li><a href="osztalyozasok_ovtj25">ÖVTJ&rsquo;25<span class="desc">Önálló vállalkozók tevékenységi jegyzéke, 2025</span></a></li>
+                                    <li><a href="ito_menu">ITO<span class="desc">Ipari termékosztályozás</span></a></li>
+                                    <li><a href="cofog_menu">COFOG<span class="desc">A kormányzati kiadások funkciók szerinti osztályozása</span></a></li>
+                                    <li><a href="epitmenyjegyzek_menu">ÉJ<span class="desc">Építményjegyzék</span></a></li>
+                                    <li><a href="nszor_menu">NSZOR<span class="desc">Nonprofit szervezetek osztályozási rendszere</span></a></li>
+                                    <li><a href="kombinalt_nomenklatura">KN<span class="desc">Kombinált nómenklatúra</span></a></li>
+                                    <li><a href="migs_menu">MIGs<span class="desc">Ipari termékek rendeltetés szerinti osztályozása</span></a></li>
+                                </ul>
+                            </div>
+
+                            <div class="col-lg-6">
+                                <ul>
+                                    <li><a href="nst_menu">NST&rsquo;2007<span class="desc">Szállítás-statisztikai áruosztályozás</span></a></li>
+                                    <li><a href="ewc-stat_menu">EWC-Stat<span class="desc">Hulladékosztályozás</span></a></li>
+                                    <li><a href="coicop_menu">COICOP<span class="desc">Az egyéni fogyasztás rendeltetés szerinti osztályozása</span></a></li>
+                                    <li><a href="osztalyozasok_ebops">EBOPS<span class="desc">A fizetési mérleg szolgáltatásokra vonatkozó, kibővített osztályozási rendszere</span></a></li>
+                                    <li><a href="osztalyozasok_arbevetel">Árbevétel-kategória<span class="desc">Gazdálkodó szervezetek árbevétel-kategóriái</span></a></li>
+                                    <li><a href="osztalyozasok_letszam">Létszám-kategória<span class="desc">Gazdálkodó szervezetek létszám-kategóriái</span></a></li>
+                                    <li><a href="osztalyozasok_esa">Eszközök osztályozása<span class="desc">Eszközök osztályozása a nemzeti számlákban (ESA eszközkód)</span></a></li>
+                                    <li><a href="osztalyozasok_esa_szektorkod">Gazdasági szektorok osztályozása<span class="desc">A gazdasági szektorok osztályozása a nemzeti számlákban (ESA szektorkód)</span></a></li>
+                                    <li><a href="osztalyozasok_fogyar">Termékek és szolgáltatások kiadási csoportok szerint<span class="desc">Fogyasztóiár-index termékei és szolgáltatásai kiadási csoportok szerint</span></a></li>
+                                    <li><a href="osztalyozasok_sitc">SITC<span class="desc">Egységes Külkereskedelmi Termékjegyzék</span></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3">
+                        <h1>Társadalmi</h1>
+                        <ul class="flip">
+                            <li><a href="feor_menu">FEOR<span class="desc">Foglalkozások egységes<br>osztályozási rendszere</span></a></li>
+                            <li><a href="bnsor_menu">BNSOR<span class="desc">Bűncselekmények nemzetközi<br>statisztikai osztályozási rendszere</span></a></li>
+                            <li><a href="k_f_menu">K+F<span class="desc">Tudományág, -ágazat szerinti besorolás</span></a></li>
+                            <li><a href="osztalyozasok_bnox">BNO-X<span class="desc">A betegségek és az egészséggel kapcsolatos problémák nemzetközi statisztikai osztályozása, X. revízió </span></a></li>
+                            <li><a href="osztalyozasok_keor">KEOR<span class="desc">Képzési területek egységes osztályozási rendszere, 2018</span></a></li>
+                            <li><a href="osztalyozasok_fvo">FVO<span class="desc">Foglalkozási viszonyok osztályozása, 1999</span></a></li>
+                            <li><a href="osztalyozasok_ellatasi_tipusok">Ellátási típusok<span class="desc">Ellátási típusok a szociális szolgáltatásokban, a gyermekjólétben és a gyermekvédelemben</span></a></li>
+                            <li><a href="osztalyozasok_isced">ISCED<span class="desc">Az oktatási programok és végzettségek egységes nemzetközi osztályozása</span></a></li>
+                            <li><a href="osztalyozasok_tevekenysegjegyzek">Tevékenységjegyzék<span class="desc">Időfelhasználás tevékenységjegyzéke </span></a></li>
+                        </ul>
+                    </div>
+
+                    <div class="col-lg-3">
+                        <h1>Földrajzi</h1>
+                        <ul class="flip">
+                            <li><a href="teruleti_szamjel_menu">TSZJ<span class="desc">Területi számjelrendszer</span></a></li>
+                            <li><a href="nuts_menu">NUTS rendszer<span class="desc">Statisztikai célú területi egységek nómenklatúrája</span></a></li>
+                        </ul>
+                        <h1>Egyéb</h1>
+                        <ul class="flip">
+                            <li><a href="gfo_menu">GFO<span class="desc">Gazdasági szervezetek<br>gazdálkodási forma szerinti<br>osztályozása</span></a></li>
+                            <li><a href="nemzetkozi_osztalyozasok_menu">Nemzetközi osztályozások</a></li>
+                            <li><a href="/apps/meta.menu?p_lang=HU&amp;p_menu_id=320">További osztályozások</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </li>
+    <li><a href="#">Adatszolgáltatóknak</a>
+        <div class="panel">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-4">
+                        <h1>Adatszolgáltatási kötelezettségek</h1>
+                        <ul>
+                            <li><a href="nyomtatvanyok">Kérdőívek, nyomtatványok</a></li>
+                            <li><a href="osap">Országos Statisztikai Adatfelvételi Program (OSAP)</a></li>
+                            <li><a href="/hataridonaplo">Határidőnapló (OSAP)</a></li>
+                            <li><a href="/kozigazgatasi-eljarasok">Közigazgatási eljárások</a></li>
+                            <li><a href="interaktiv_lakossagi">Lakossági adatfelvételek mintában szereplő települései (térkép)</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="col-lg-4">
+                        <h1>Adatszolgáltatás teljesítése</h1>
+                        <ul>
+                            <li><a href="https://elektra.ksh.hu/" target="_blank">Gazdasági szervezetekre vonatkozó adatgyűjtések (KSH-ELEKTRA)</a></li>
+                            <li><a href="https://maja.ksh.hu/" target="_blank">MAJA</a></li>
+                            <li><a href="mezogazdasagi_osszeirasok">Mezőgazdasági összeírások</a></li>
+                            <li><a href="elakos">Lakossági adatgyűjtések</a></li>
+                            <li><a href="karatatad">Adatátadások (KARÁT)</a></li>
+                            <li><a href="nyomtatvanyok_adatszolgaltatas_emailen_2026">Adatszolgáltatás e-mailen</a></li>
+                            <li><a href="intrastat">Intrastat</a></li>
+                            <li><a href="szolgkulker_menu">Szolgkülker</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="col-lg-4">
+                        <h1>Háttérinformációk</h1>
+                        <ul class="flip">
+                            <li><a href="adatvedelmi_tajekoztato">Adatvédelem</a></li>
+                            <li><a href="osap_vonatkozo_jogszabalyok_2026">Adatfelvételekre vonatkozó jogszabályok</a></li>
+                            <li><a href="statek_menu">Összeírói, kérdezőbiztosi hálózat<span class="desc">Statek Kft.</span></a></li>
+                            <li><a href="adatszolgaltatoi-terhek">A vállalkozások adminisztrációs terhei</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </li>
+    <li><a href="#">Rólunk</a>
+        <div class="panel">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-4">
+                        <h1>Szervezet</h1>
+                        <ul>
+                            <li><a href="tevekenyseg-bemutatkozas">Tevékenység</a></li>
+                            <li><a href="a_ksh_vezetosege_tart">Szervezet</a></li>
+                            <li><a href="nemzetkozi-ajanlasok">Nemzetközi ajánlások</a></li>
+                            <li><a href="politikak-iranyelvek">Politikák, irányelvek</a></li>
+                            <li><a href="strategia-beszamolo">Stratégia, beszámolók</a></li>
+                            <li><a href="karrier">Karrier</a></li>
+                            <li><a href="kozerdeku_adatok_tart">Közérdekű adatok</a></li>
+                            <li><a href="mult_kezdetek">Történet</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="col-lg-4">
+                        <h1>Hazai együttműködés</h1>
+                        <ul>
+                            <li><a href="partnereink">Partnereink</a></li>
+                            <li><a href="sajtoegyuttmukodesek_publikaciok">Sajtóegyüttműködések, publikációk</a></li>
+                        </ul>
+                        <h1>Nemzetközi együttműködés</h1>
+                        <ul>
+                            <li><a href="nemzetkozi_egyuttmukodes">Nemzetközi kapcsolatrendszer</a></li>
+                            <li><a href="statisztikai_hivatalok">Nemzeti statisztikai hivatalok</a></li>
+                            <li><a href="egyeb_nemzetkozi_szervezetek">Egyéb nemzetközi szervezetek</a></li>
+                            <li><a href="https://eu2024.ksh.hu/hu" target="_blank" rel="noopener noreferrer">Az Európai Unió Tanácsa magyar elnökségének statisztikai oldala</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="col-lg-4">
+                        <h1>Statisztikai testületek, szervezetek</h1>
+                        <ul>
+                            <li><a href="hssz_nskt">Nemzeti Statisztikai Koordinációs Testület</a></li>
+                            <li><a href="ost_menu">Országos Statisztikai Tanács</a></li>
+                            <li><a href="hazai_statisztikai_szervezetek">Egyéb statisztikai szervezetek</a></li>
+                        </ul>
+                        <h1>Hivatalos Statisztikai Szolgálat (HSSz)</h1>
+                        <ul>
+                            <li><a href="hssz">Hivatalos Statisztikai Szolgálat<span class="desc">OSAP, Akkreditáció, Tagok</span></a></li>
+                        </ul>
+                        
+                        <h1>Felhasználóinknak &ndash; felhasználóinkról</h1>
+                        <ul>
+                            <li><a href="fvk">Felhasználóinknak &ndash; felhasználóinkról</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </li>
+</ul>            </div>
+        </nav>
+
+        <a name="main"></a>
+        <main class="container">
+            <article id="content" class="box" aria-labelledby="content-title">
+    <h1 id="content-title">Impresszum</h1>
+    <table class="impresszum">
+<tbody>
+<tr>
+<td>Domain-névtulajdonos</td>
+<td><b>Központi Statisztikai Hivatal</b></td>
+</tr>
+<tr>
+<td>Hivatalvezető(elnök)<br />Elnöki titkárság</td>
+<td><b>Dr. Kincses Áron</b><br />Telefonszám: +36 1 345 6478<br /><a href="mailto:elntitk@ksh.hu">elntitk@ksh.hu</a></td>
+</tr>
+<tr>
+<td>Főszerkesztő</td>
+<td><!-- <b>&nbsp;</b><br />Telefonszám: &nbsp;<br /> --> <a href="mailto:kiado@ksh.hu">kiado@ksh.hu</a></td>
+</tr>
+<tr>
+<td>Az utolsó verzió bevezetésének időpontja</td>
+<td>2012. március 7.</td>
+</tr>
+</tbody>
+</table>
+<div id="keszitettek">
+<div class="keszitette">Készítette:</div>
+<a target="_blank" href="http://www.dss.hu/" class="dss"><img src="images/dss.png" alt="dss.hu" /></a> <a target="_blank" href="http://www.dolphinet.hu/" class="dolphinet"><img src="images/dolphinet.png" alt="dolphinet.hu" /></a> </div></article> </main>
+
+        <footer>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 order-1">
+                        <nav id="page-footer-nav" class="row" aria-label="Lábléc">
+    <div class="col-md-4">
+        <ul>
+            <li><a href="impresszum">Impresszum</a></li>
+            <li><a href="copyright">Felhasználási&nbsp;feltételek</a></li>
+            <li><a href="adatvedelmi_tajekoztato">Adatvédelmi&nbsp;tájékoztató</a></li>
+        </ul>
+    </div>
+    <div class="col-md-4">
+        <ul>
+            <li><a href="karrier">Karrier</a></li>
+            <li><a href="elerhetoseg">Elérhetőség</a></li>
+            <li><a href="fvk">Felhasználóinknak&nbsp;&#8211;&nbsp;felhasználóinkról</a></li>
+        </ul>
+    </div>
+    <div class="col-md-4">
+        <ul>
+            <li><a href="kozerdeku_adatok_also">Közérdekű&nbsp;adatok</a></li>
+            <li><a href="akadalymentesitesi-nyilatkozat">Akadálymentesítési&nbsp;nyilatkozat</a></li>
+            <li><a href="linkcentrum">Linkcentrum</a></li>
+        </ul>
+    </div>
+</nav>                    </div>
+                    <div class="col-lg-4 order-2 order-lg-0">
+                        <div class="row">
+                            <div class="col-12">
+                                                                <nav id="page-footer-socialmedia" aria-label="Közösségi csatornák">
+                                    <a href="kapcsolat" aria-label="Lépjen velünk kapcsolatba!"><svg class="icon icon-contactcenter-large" aria-hidden="true"><use xlink:href="images/icons.svg#contactcenter-large"></use></svg></a>
+                                    <a href="https://facebook.com/KozpontiStatisztikaiHivatal" target="_blank" aria-label="Facebook"><svg class="icon icon-facebook" aria-hidden="true"><use xlink:href="images/icons.svg#facebook"></use></svg></a>
+                                    <a href="https://www.instagram.com/kozpontistatisztikaihivatal/" aria-label="Instagram">
+                                        <svg class="icon-instagram" viewBox="0 0 512 512" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                                            <radialGradient id="iga" cx="-219" cy="73" r="65" gradientTransform="matrix(0 -7.81 -7.26 0 667.9 -1154.7)" gradientUnits="userSpaceOnUse"><stop offset="0" style="stop-color:#fd5"/><stop offset=".1" style="stop-color:#fd5"/><stop offset=".5" style="stop-color:#ff543e"/><stop offset="1" style="stop-color:#c837ab"/></radialGradient>
+                                            <radialGradient id="igb" cx="819" cy="145" r="65" gradientTransform="matrix(.68 3.42 14.1 -2.82 -2697.7 -2354.04)" gradientUnits="userSpaceOnUse"><stop offset="0" style="stop-color:#3771c8"/><stop offset=".128" style="stop-color:#3771c8"/><stop offset="1" style="stop-color:#60f;stop-opacity:0"/></radialGradient>
+                                            <path fill="#777" d="M256 0C149 0 118 0 112 1 90 2 76 6 61 13c-11 6-20 13-29 22C16 52 6 72 2 97c-1 12-2 15-2 76v83c0 107 0 138 1 144 1 21 5 35 12 49 13 29 39 50 70 58 10 2 22 4 37 5h271c17-1 27-3 39-5 30-8 56-29 70-58 6-14 10-28 12-48V256 111c-2-21-6-34-13-49-6-12-12-21-22-30-17-16-37-26-62-30-12-1-14-2-76-2h-83z"/>
+                                            <path class="igcolor" fill="url(#iga)" d="M256 0C149 0 118 0 112 1 90 2 76 6 61 13c-11 6-20 13-29 22C16 52 6 72 2 97c-1 12-2 15-2 76v83c0 107 0 138 1 144 1 21 5 35 12 49 13 29 39 50 70 58 10 2 22 4 37 5h271c17-1 27-3 39-5 30-8 56-29 70-58 6-14 10-28 12-48V256 111c-2-21-6-34-13-49-6-12-12-21-22-30-17-16-37-26-62-30-12-1-14-2-76-2h-83z"/>
+                                            <path class="igcolor" fill="url(#igb)" d="M256 0C149 0 118 0 112 1 90 2 76 6 61 13c-11 6-20 13-29 22C16 52 6 72 2 97c-1 12-2 15-2 76v83c0 107 0 138 1 144 1 21 5 35 12 49 13 29 39 50 70 58 10 2 22 4 37 5h271c17-1 27-3 39-5 30-8 56-29 70-58 6-14 10-28 12-48V256 111c-2-21-6-34-13-49-6-12-12-21-22-30-17-16-37-26-62-30-12-1-14-2-76-2h-83z"/>
+                                            <path fill="#fff" d="M256 67c-51 0-58 0-78 1s-34 4-46 9-23 11-33 22c-11 10-17 21-22 33s-8 26-9 46-1 27-1 78 0 58 1 78 4 34 9 46 11 23 22 33c10 11 21 17 33 22s26 8 46 9 27 1 78 1 58 0 78-1 34-4 46-9 23-11 33-22c11-10 17-21 22-33s8-26 9-46 1-27 1-78 0-58-1-78-4-34-9-46-11-23-22-33c-10-11-21-17-33-22s-26-8-46-9-27-1-78-1zm-17 34h17c50 0 56 0 76 1 19 1 29 4 35 7 9 3 16 7 22 14 7 6 11 13 14 22 3 6 6 16 7 35 1 20 1 26 1 76s0 56-1 76c-1 19-4 29-7 35-3 9-7 16-14 22-6 7-13 11-22 14-6 3-16 6-35 7-20 1-26 1-76 1-51 0-57 0-76-1s-29-4-36-7c-8-3-15-7-21-14-7-6-11-13-14-22-3-6-6-16-7-35-1-20-1-26-1-76 0-51 0-57 1-76s4-29 7-36c3-8 7-15 14-21 6-7 13-11 21-14 7-3 17-6 36-7 17-1 24-1 59-1zm118 31c-13 0-23 11-23 23 0 13 10 23 23 23 12 0 23-10 23-23 0-12-11-23-23-23zm-101 27c-54 0-97 43-97 97s43 97 97 97 97-43 97-97-43-97-97-97zm0 34c35 0 63 28 63 63s-28 63-63 63-63-28-63-63 28-63 63-63z"/>
+                                        </svg>
+                                    </a>
+                                    <a href="https://www.youtube.com/channel/UC39mbRS71Aug1ftU8o0qILA" target="_blank" aria-label="YouTube"><svg class="icon icon-youtube" aria-hidden="true"><use xlink:href="images/icons.svg#youtube"></use></svg></a>
+                                    <a href="https://anchor.fm/ksh-podcast" target="_blank" aria-label="Anchor"><svg class="icon icon-anchor" aria-hidden="true"><use xlink:href="images/icons.svg#anchor"></use></svg></a>
+                                    <a href="https://hu.linkedin.com/company/hungarian-central-statistical-office" target="_blank" aria-label="LinkedIn"><svg class="icon icon-linkedin" aria-hidden="true"><use xlink:href="images/icons.svg#linkedin"></use></svg></a>
+                                    <a href="rss" aria-label="RSS"><svg class="icon icon-rss" aria-hidden="true"><use xlink:href="images/icons.svg#rss"></use></svg></a>
+                                </nav>
+                                                            </div>
+                            <div class="col-12">
+                                <div id="page-footer-contact">
+                                    <img src="images/home/mo_cimer.png" width="20" alt="Magyarország címere">
+                                    <strong>Központi Statisztikai Hivatal</strong><br>
+                                    1024 Budapest, Keleti Károly utca 5&ndash;7.<br>
+                                    (+36-1) 345-6000
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div>
+</body>
+
+</html>

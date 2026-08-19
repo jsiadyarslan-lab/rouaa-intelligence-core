@@ -1,0 +1,38 @@
+{
+  "process_a": {
+    "ios_retrieved": 20,
+    "all_200": true
+  },
+  "restart": {
+    "success": 20,
+    "broken": 0,
+    "100_percent": true
+  },
+  "list_endpoint": {
+    "total_ios": 45,
+    "duplicates": 0,
+    "pages": 2
+  },
+  "single_io_latency": {
+    "p50_ms": 0.7,
+    "p95_ms": 0.9,
+    "p99_ms": 1.0
+  },
+  "concurrent_readers": {
+    "10": "50/10",
+    "25": "50/25",
+    "50": "50/50"
+  },
+  "provenance_walk": {
+    "success": 10,
+    "broken": 0
+  },
+  "real_examples": {
+    "total": 9,
+    "by_type": {
+      "monetary_policy_decision": 3,
+      "statistical_release": 3,
+      "regulatory_enforcement": 3
+    }
+  }
+}

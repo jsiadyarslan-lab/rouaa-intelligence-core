@@ -1,0 +1,760 @@
+
+<!DOCTYPE html>
+<html  lang="en" dir="ltr" prefix="content: http://purl.org/rss/1.0/modules/content/  dc: http://purl.org/dc/terms/  foaf: http://xmlns.com/foaf/0.1/  og: http://ogp.me/ns#  rdfs: http://www.w3.org/2000/01/rdf-schema#  schema: http://schema.org/  sioc: http://rdfs.org/sioc/ns#  sioct: http://rdfs.org/sioc/types#  skos: http://www.w3.org/2004/02/skos/core#  xsd: http://www.w3.org/2001/XMLSchema# ">
+  <head>
+    <meta charset="utf-8" />
+<meta name="description" content="Real gross domestic product for Puerto Rico increased 3.0 percent in 2023 after decreasing 2.1 percent in 2022, according to statistics released today by the U.S. Bureau of Economic Analysis." />
+<link rel="canonical" href="https://www.bea.gov/news/2025/gross-domestic-product-puerto-rico-2023" />
+<meta name="google" content="YTUCDlBs59yC1yvqKFhclR-b_kx9bU_BTCQJzo8lwjk" />
+<meta name="Generator" content="Drupal 10 (https://www.drupal.org)" />
+<meta name="MobileOptimized" content="width" />
+<meta name="HandheldFriendly" content="true" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<link rel="icon" href="/themes/custom/beagov_theme/logo.ico" type="image/vnd.microsoft.icon" />
+
+    <title>Gross Domestic Product for Puerto Rico, 2023 | U.S. Bureau of Economic Analysis (BEA)</title>
+    <link rel="stylesheet" media="all" href="/sites/default/files/css/css_kKr04oEbnBoZPun2ymhdByhgZHMDg7OUSZhUI9val3s.css?delta=0&amp;language=en&amp;theme=beagov_theme&amp;include=eJxdiUEOgCAMBD8E9kmmDSsaCxhbjfxeDx6Mp8nMCDi3c_QZBZTYOTqLwoJ8x9Sq_1LWJqzRvOtSc8DlD1dK-7GxDq8G6-YoJGy4AZxzKVY" />
+<link rel="stylesheet" media="all" href="/sites/default/files/css/css_7eQ37UuGTyEyyV8DHE6uL2lQBdvUvH-HkY4M1Y-CJwI.css?delta=1&amp;language=en&amp;theme=beagov_theme&amp;include=eJxdiUEOgCAMBD8E9kmmDSsaCxhbjfxeDx6Mp8nMCDi3c_QZBZTYOTqLwoJ8x9Sq_1LWJqzRvOtSc8DlD1dK-7GxDq8G6-YoJGy4AZxzKVY" />
+<link rel="stylesheet" media="all" href="//fonts.googleapis.com/css?family=Lato:300,400,400i,700" />
+<link rel="stylesheet" media="all" href="/sites/default/files/css/css_ChAnK4gHi4RVTwzIgrTqzQ7ZKZx3XxAx-GBz7xhKk6Q.css?delta=3&amp;language=en&amp;theme=beagov_theme&amp;include=eJxdiUEOgCAMBD8E9kmmDSsaCxhbjfxeDx6Mp8nMCDi3c_QZBZTYOTqLwoJ8x9Sq_1LWJqzRvOtSc8DlD1dK-7GxDq8G6-YoJGy4AZxzKVY" />
+
+    <script src="https://use.fontawesome.com/releases/v6.4.2/js/all.js" defer crossorigin="anonymous"></script>
+<script src="https://use.fontawesome.com/releases/v6.4.2/js/v4-shims.js" defer crossorigin="anonymous"></script>
+
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-J4698JNNFT"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'G-J4698JNNFT');
+    </script>
+  </head>
+
+  <body class="path-node page-node-type-release navbar-is-fixed-top has-glyphicons page-node-42932">
+    <a href="#main-content" class="visually-hidden focusable skip-link">
+      Skip to main content
+    </a>
+    
+      <div class="dialog-off-canvas-main-canvas" data-off-canvas-main-canvas>
+                        <header class="navbar shadow navbar-default navbar-fixed-top" id="navbar" role="banner">
+                        <div class="usa-banner">
+        <div class="usa-banner-header container">
+                <div class="usa-grid usa-banner-inner">
+                        <img src="/sites/default/files/favicon-57.png" alt="U.S. flag">
+                        <p>An official website of the United States government</p>
+                </div>
+        </div>
+</div>            
+                            <div class="container">
+                        <div class="navbar-header">
+                <a class="navbar-brand" href="/" aria-label="homepage link">
+                                     </a>
+                
+
+                                                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                            </div>
+
+                                        <div id="navbar-collapse" class="navbar-collapse collapse">
+                    
+    <div class="region region-navigation-collapsible">
+        <nav role="navigation" id="block-beagov-theme-main-menu" data-block-plugin-id="system_menu_block:main">
+    <div class="panel-inverse system-menu-block">
+      <div class="panel-heading sr-only">
+                                                    
+          <h3 id="block-beagov-theme-main-menu" data-block-plugin-id="system_menu_block:main" class="panel-title sr-only"  class="visually-hidden" id="block-beagov-theme-main-menu-menu"> 
+            Main navigation
+          </h3>
+          
+      </div>
+                      
+                            <ul region="navigation_collapsible" class="menu nav navbar-nav">
+                                                        <li class="expanded dropdown">
+                    <a href="/data" class="dropdown-toggle" data-target="#" data-hover="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Data
+                        <span class="caret"></span>
+                    </a>
+                                                                    <ul region="navigation_collapsible" class="menu dropdown-menu">
+                                                        <li class="expanded dropdown">
+                    <a href="/data/gdp" data-drupal-link-system-path="node/13541">by Topic</a>
+                                    </li>
+                                                <li class="expanded dropdown">
+                    <a href="/data/by-place-us" data-drupal-link-system-path="node/13656">by Place</a>
+                                    </li>
+                                                <li class="expanded dropdown">
+                    <a href="/data/economic-accounts" data-drupal-link-system-path="node/13646">by Economic Account</a>
+                                    </li>
+                    </ul>
+    
+                        </li>
+                                                <li class="expanded dropdown">
+                    <a href="/tools" class="dropdown-toggle" data-target="#" data-hover="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Tools
+                        <span class="caret"></span>
+                    </a>
+                                                                    <ul region="navigation_collapsible" class="menu dropdown-menu">
+                                                        <li class="expanded dropdown">
+                    <a href="/itable" data-drupal-link-system-path="node/33356">Interactive Data</a>
+                                    </li>
+                                                <li class="expanded dropdown">
+                    <a href="https://apps.bea.gov/API/signup/">Application Programming Interface (API)</a>
+                                    </li>
+                                                <li class="expanded dropdown">
+                    <a href="https://apps.bea.gov/iTable/?reqid=158&amp;step=1">Global Value Chain Analyzer</a>
+                                    </li>
+                                                <li class="expanded dropdown">
+                    <a href="https://tools.bea.gov/pidv/">Income Distribution Analysis Tool (IDAT)</a>
+                                    </li>
+                                                <li class="expanded dropdown">
+                    <a href="https://apps.bea.gov/international/factsheet/">Country Facts</a>
+                                    </li>
+                                                <li class="expanded dropdown">
+                    <a href="https://apps.bea.gov/regional/bearfacts/">BEARFACTS</a>
+                                    </li>
+                                                <li class="expanded dropdown">
+                    <a href="https://apps.bea.gov/industry/factsheet/">Industry Facts</a>
+                                    </li>
+                                                <li class="expanded dropdown">
+                    <a href="https://apps.bea.gov/itable/?ReqID=99&amp;step=1">GDP &amp; Personal Income Mapping</a>
+                                    </li>
+                                                <li class="expanded dropdown">
+                    <a href="https://apps.bea.gov/regional/rims/rimsii/">RIMS II</a>
+                                    </li>
+                                                <li class="expanded dropdown">
+                    <a href="https://apps.bea.gov/efile">eFile</a>
+                                    </li>
+                    </ul>
+    
+                        </li>
+                                                <li class="expanded dropdown">
+                    <a href="/news" class="dropdown-toggle" data-target="#" data-hover="dropdown" aria-haspopup="true" aria-expanded="false">
+                        News
+                        <span class="caret"></span>
+                    </a>
+                                                                    <ul region="navigation_collapsible" class="menu dropdown-menu">
+                                                        <li class="expanded dropdown">
+                    <a href="/news/glance" data-drupal-link-system-path="node/20292">Economy at a Glance</a>
+                                    </li>
+                                                <li class="expanded dropdown">
+                    <a href="/news/current-releases" data-drupal-link-system-path="news/current-releases">News Releases</a>
+                                    </li>
+                                                <li class="expanded dropdown">
+                    <a href="/news/schedule" data-drupal-link-system-path="news/schedule">Release Schedule</a>
+                                    </li>
+                                                <li class="expanded dropdown">
+                    <a href="/news/blog" data-drupal-link-system-path="news/blog">The BEA Wire | BEA&#039;s Official Blog</a>
+                                    </li>
+                                                <li class="expanded dropdown">
+                    <a href="https://apps.bea.gov/scb/">Survey of Current Business</a>
+                                    </li>
+                                                <li class="expanded dropdown">
+                    <a href="/news/archive?field_related_product_target_id=All&amp;created_1=All&amp;title=" data-drupal-link-query="{&quot;created_1&quot;:&quot;All&quot;,&quot;field_related_product_target_id&quot;:&quot;All&quot;,&quot;title&quot;:&quot;&quot;}" data-drupal-link-system-path="news/archive">Archive</a>
+                                    </li>
+                                                <li class="expanded dropdown">
+                    <a href="/news/for-journalists" data-drupal-link-system-path="node/23916">For Journalists</a>
+                                    </li>
+                    </ul>
+    
+                        </li>
+                                                <li class="expanded dropdown">
+                    <a href="/research" class="dropdown-toggle" data-target="#" data-hover="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Research
+                        <span class="caret"></span>
+                    </a>
+                                                                    <ul region="navigation_collapsible" class="menu dropdown-menu">
+                                                        <li class="expanded dropdown">
+                    <a href="/research/offices-of-research" data-drupal-link-system-path="node/8126">Offices of Research</a>
+                                    </li>
+                                                <li class="expanded dropdown">
+                    <a href="/research/meet-the-researchers" data-drupal-link-system-path="research/meet-the-researchers">Meet the Researchers</a>
+                                    </li>
+                                                <li class="expanded dropdown">
+                    <a href="/research/papers" data-drupal-link-system-path="research/papers">Papers</a>
+                                    </li>
+                                                <li class="expanded dropdown">
+                    <a href="/research/special-sworn-researcher-program" data-drupal-link-system-path="node/8131">Special Sworn Researcher Program</a>
+                                    </li>
+                                                <li class="expanded dropdown">
+                    <a href="/research/special-sworn-researcher-program/papers" data-drupal-link-system-path="node/8211">Research Using Company-Level Data</a>
+                                    </li>
+                                                <li class="expanded dropdown">
+                    <a href="/research/fellowship-program" data-drupal-link-system-path="node/8136">Fellowship Program</a>
+                                    </li>
+                    </ul>
+    
+                        </li>
+                                                <li class="expanded dropdown">
+                    <a href="/resources" class="dropdown-toggle" data-target="#" data-hover="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Resources
+                        <span class="caret"></span>
+                    </a>
+                                                                    <ul region="navigation_collapsible" class="menu dropdown-menu">
+                                                        <li class="expanded dropdown">
+                    <a href="/resources/learning-center" data-drupal-link-system-path="node/14796">Learning Center</a>
+                                    </li>
+                                                <li class="expanded dropdown">
+                    <a href="/resources/methodologies" data-drupal-link-system-path="resources/methodologies">Methodologies</a>
+                                    </li>
+                                                <li class="expanded dropdown">
+                    <a href="/resources/multimedia" data-drupal-link-system-path="resources/multimedia">Multimedia</a>
+                                    </li>
+                                                <li class="expanded dropdown">
+                    <a href="https://apps.bea.gov/scb/subjects.htm">Article Collections</a>
+                                    </li>
+                                                <li class="expanded dropdown">
+                    <a href="/congressional-users" title="congressional users">For Congressional Users</a>
+                                    </li>
+                                                <li class="expanded dropdown">
+                    <a href="/resources/for-developers" data-drupal-link-system-path="node/9396">For Developers</a>
+                                    </li>
+                                                <li class="expanded dropdown">
+                    <a href="/resources/learning-center/bea-in-the-classroom" data-drupal-link-system-path="node/22426">For Students</a>
+                                    </li>
+                    </ul>
+    
+                        </li>
+                                                <li class="expanded dropdown">
+                    <a href="/about" class="dropdown-toggle" data-target="#" data-hover="dropdown" aria-haspopup="true" aria-expanded="false">
+                        About
+                        <span class="caret"></span>
+                    </a>
+                                                                    <ul region="navigation_collapsible" class="menu dropdown-menu">
+                                                        <li class="expanded dropdown">
+                    <a href="/about/who-we-are" data-drupal-link-system-path="node/24146">Who We Are</a>
+                                    </li>
+                                                <li class="expanded dropdown">
+                    <a href="/about/leadership" data-drupal-link-system-path="node/24691">BEA Leadership</a>
+                                    </li>
+                                                <li class="expanded dropdown">
+                    <a href="/about/innovation-bea" data-drupal-link-system-path="node/42904">Innovation at BEA</a>
+                                    </li>
+                                                <li class="expanded dropdown">
+                    <a href="/about/advisory-committees" data-drupal-link-system-path="node/6426">Advisory Committees</a>
+                                    </li>
+                                                <li class="expanded dropdown">
+                    <a href="/about/budget-and-performance" data-drupal-link-system-path="node/6431">Budget and Performance</a>
+                                    </li>
+                                                <li class="expanded dropdown">
+                    <a href="/about/policies-and-information" data-drupal-link-system-path="node/6436">Policies and Information</a>
+                                    </li>
+                                                <li class="expanded dropdown">
+                    <a href="https://www.bea.gov/about/working-at-bea">Working at BEA</a>
+                                    </li>
+                    </ul>
+    
+                        </li>
+                                                <li class="expanded dropdown">
+                    <a href="/help" class="dropdown-toggle" data-target="#" data-hover="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Help
+                        <span class="caret"></span>
+                    </a>
+                                                                    <ul region="navigation_collapsible" class="menu dropdown-menu">
+                                                        <li class="expanded dropdown">
+                    <a href="/help/contact-us" data-drupal-link-system-path="node/9106">Contact Us</a>
+                                    </li>
+                                                <li class="expanded dropdown">
+                    <a href="/form/ask-an-expert" data-drupal-link-system-path="webform/ask_an_expert">Ask an Expert</a>
+                                    </li>
+                                                <li class="expanded dropdown">
+                    <a href="/help/information-for-survey-respondents" data-drupal-link-system-path="node/9356">For Survey Respondents</a>
+                                    </li>
+                                                <li class="expanded dropdown">
+                    <a href="/help/faq" data-drupal-link-system-path="help/faq">Frequently Asked Questions (FAQ)</a>
+                                    </li>
+                                                <li class="expanded dropdown">
+                    <a href="/help/glossary" data-drupal-link-system-path="help/glossary">Glossary</a>
+                                    </li>
+                                                <li class="expanded dropdown">
+                    <a href="/help/guidelines-for-citing-bea" data-drupal-link-system-path="node/10936">Guidelines for Citing BEA</a>
+                                    </li>
+                    </ul>
+    
+                        </li>
+                    </ul>
+    
+
+
+          </div>
+</nav><section id="block-beagovsearchblock" class="block block-beagov-search block-beagov-search-block clearfix" data-block-plugin-id="beagov_search_block">
+  
+    
+
+      <form id="search-block-form"
+  class="navbar-form navbar-right"
+  role="search"
+  action="https://search.bea.gov/search"
+  method="get"
+  accept-charset="UTF-8"
+  data-drupal-form-fields="edit-keys"
+>
+  <input id="affiliate"
+    name="affiliate"
+    type="hidden"
+    value="u.s.bureauofeconomicanalysis"
+  />
+  <div class="form-group form-group-sm js-form-item form-item js-form-type-search form-item-keys js-form-item-keys form-no-label">
+    <input id="edit-keys" class="form-search form-control usagov-search-autocomplete" title="" data-drupal-selector="edit-keys" placeholder="Search" name="query" value="" type="search" aria-labelledby="btnSearch">
+  </div>
+  <button id="btnSearch" class="btn btn-default js-form-submit button" type="submit" aria-label="Search">
+    <span class="glyphicon glyphicon-search" aria-hidden="true"></span>
+  </button>
+  <div id="edit-actions" class="form-actions form-group js-form-wrapper form-wrapper" data-drupal-selector="edit-actions">
+  </div>
+</form>
+<script type="text/javascript">
+  //<![CDATA[
+    var usasearch_config = {siteHandle: "BEA"};
+    var script = document.createElement("script");
+    script.type = "text/javascript";
+    script.src = "//search.bea.gov/javascripts/remote.loader.js";
+    document.getElementsByTagName("head")[0].appendChild(script);
+  //]]>
+</script>
+
+  </section>
+
+
+    </div>
+
+                </div>
+                                        </div>
+                    </header>
+    
+    <div role="main" class="main-container container js-quickedit-main-content">
+        <div class="row">
+
+                                                            <div class="col-md-12" role="heading">
+                        
+    <div class="region region-header">
+            <ol class="breadcrumb">
+          <li >
+                  <a href="/">Home</a>
+              </li>
+          <li >
+                  <a href="/news">News</a>
+              </li>
+          <li  class="active">
+                  Gross Domestic Product for Puerto Rico, 2023
+              </li>
+      </ol>
+
+  
+
+    </div>
+
+                    </div>
+                            
+                        
+            <div id="test" class="col-sm-12">
+
+                                                                            <div class="highlighted">
+                            
+    <div class="region region-highlighted">
+        <div data-drupal-messages-fallback class="hidden"></div>
+
+    </div>
+
+                        </div>
+                                    
+                                
+                                
+                                
+                                                    <a id="main-content"></a>
+                    
+    <div class="region region-content">
+          
+<article about="/news/2025/gross-domestic-product-puerto-rico-2023">
+                 <div class="clearfix row">
+            <div class="col-md-12 release-page-title">
+                <h1>News Release</h1>
+            </div>
+        </div>
+                              
+    <div class="row">
+        <div class="container">
+            <div class="col-md-3 col-sm-12 col-xs-12 pull-right">
+                <a class="btn btn-primary btn-block btn-product-view" href="/data/gdp/gdp-puerto-rico">Explore Product View</a>
+            </div>
+            <ul class="nav nav-tabs">
+                <li class="active">
+                    <a data-toggle="tab" href="#home">News Release</a>
+                </li>
+                                    <li>
+                        <a data-toggle="tab" href="#menu1">Related Materials</a>
+                    </li>
+                                                    <li>
+                        <a data-toggle="tab" href="#menu2">Contacts</a>
+                    </li>
+                                            </ul>
+            <div class="tab-content">
+                <div id="home" class="tab-pane fade in active">
+                   
+                        <div class="row release-embargo">
+                                                            <div class="col-md-10">
+                                    
+            <div class="field field--name-field-release-date field--type-string field--label-hidden field--item">EMBARGOED UNTIL RELEASE AT 10:00 a.m. EDT, Tuesday, September 16, 2025</div>
+      
+                                </div>
+                                                                                        <div class="col-md-2">
+                                                            BEA 25–38
+            
+                                </div>
+                                                    </div>
+                                                <h1>Gross Domestic Product for Puerto Rico, 2023
+                                                        
+                        </h1>
+                    
+                                            <div class="row">
+                            <div class="col-md-12 release-body">
+                                
+            <div class="field field--name-body field--type-text-with-summary field--label-hidden field--item"><p>Real gross domestic product for Puerto Rico increased 3.0 percent in 2023 after decreasing 2.1 percent in 2022, according to statistics released today by the U.S. Bureau of Economic Analysis.</p><div class="center_div"><a href="/system/files/prgdp0925-1.png"><img style="margin:0px;" src="/system/files/prgdp0925-1.png" data-entity-type="file" alt="Puerto Rico: Real GDP, Percent Change From Preceding Year" width="100%" height="100%"></a></div><p>The <a href="https://apps.bea.gov/itable/?ReqID=70&amp;step=1#eyJhcHBpZCI6NzAsInN0ZXBzIjpbMSwyOSwyNSwzMSwyNiwyNywzMF0sImRhdGEiOltbIlRhYmxlSWQiLCI4MjciXSxbIk1ham9yX0FyZWEiLCIxNiJdLFsiU3RhdGUiLFsiMCJdXSxbIkFyZWEiLFsiNzIwMDAiXV0sWyJTdGF0aXN0aWMiLFsiLTEiXV0sWyJVbml0X29mX21lYXN1cmUiLCJMZXZlbHMiXSxbIlllYXIiLFsiLTEiXV0sWyJZZWFyQmVnaW4iLCItMSJdLFsiWWVhcl9FbmQiLCItMSJdXX0=">increase in real gross domestic product (GDP)</a> in 2023 primarily reflected an <a href="https://apps.bea.gov/itable/?ReqID=70&amp;step=1#eyJhcHBpZCI6NzAsInN0ZXBzIjpbMSwyOSwyNSwzMSwyNiwyNywzMF0sImRhdGEiOltbIlRhYmxlSWQiLCI4MjgiXSxbIk1ham9yX0FyZWEiLCIxNiJdLFsiU3RhdGUiLFsiMCJdXSxbIkFyZWEiLFsiNzIwMDAiXV0sWyJTdGF0aXN0aWMiLFsiLTEiXV0sWyJVbml0X29mX21lYXN1cmUiLCJMZXZlbHMiXSxbIlllYXIiLFsiLTEiXV0sWyJZZWFyQmVnaW4iLCItMSJdLFsiWWVhcl9FbmQiLCItMSJdXX0=">increase in exports</a>. Personal consumption expenditures, government spending, and private fixed investment also increased. These increases were partly offset by a decrease in private inventory investment. Imports, which are a subtraction in the calculation of GDP, increased.</p><div class="center_div"><a href="/system/files/prgdp0925-2.png"><img style="margin:0px;" src="/system/files/prgdp0925-2.png" data-entity-type="file" alt="Puerto Rico: Contributions to the Percent Change in Real GDP, 2023" width="100%" height="100%"></a></div><p><a href="https://apps.bea.gov/itable/?ReqID=70&amp;step=1#eyJhcHBpZCI6NzAsInN0ZXBzIjpbMSwyOSwyNSwzMSwyNiwyNywzMF0sImRhdGEiOltbIlRhYmxlSWQiLCI4MzUiXSxbIk1ham9yX0FyZWEiLCIxNiJdLFsiU3RhdGUiLFsiMCJdXSxbIkFyZWEiLFsiNzIwMDAiXV0sWyJTdGF0aXN0aWMiLFsiLTEiXV0sWyJVbml0X29mX21lYXN1cmUiLCJMZXZlbHMiXSxbIlllYXIiLFsiLTEiXV0sWyJZZWFyQmVnaW4iLCItMSJdLFsiWWVhcl9FbmQiLCItMSJdXX0=">Real exports increased</a> 6.4 percent, reflecting increases in goods and services. Exports of goods increased 6.6 percent, while exports of services increased 5.6 percent.</p><ul><li>The <a href="https://apps.bea.gov/itable/?ReqID=70&amp;step=1#eyJhcHBpZCI6NzAsInN0ZXBzIjpbMSwyOSwyNSwzMSwyNiwyNywzMF0sImRhdGEiOltbIlRhYmxlSWQiLCI4MzYiXSxbIk1ham9yX0FyZWEiLCIxNiJdLFsiU3RhdGUiLFsiMCJdXSxbIkFyZWEiLFsiNzIwMDAiXV0sWyJTdGF0aXN0aWMiLFsiLTEiXV0sWyJVbml0X29mX21lYXN1cmUiLCJMZXZlbHMiXSxbIlllYXIiLFsiLTEiXV0sWyJZZWFyQmVnaW4iLCItMSJdLFsiWWVhcl9FbmQiLCItMSJdXX0=">leading contributor to the increase in exports of goods</a> was pharmaceuticals and organic chemicals, which increased 5.9 percent. Exports of medical and scientific equipment and appliances increased 8.0 percent.</li><li>The leading contributor to the increase in exports of services was travel services, which includes purchases of goods and services by tourists and other nonresidents in Puerto Rico. Exports of travel services increased 15.1 percent, largely reflecting increases in expenditures by air visitors. According to statistics published by the Economic Development Bank for Puerto Rico, total inbound air passengers increased 18.7 percent in 2023.</li></ul><p><a href="https://apps.bea.gov/itable/?ReqID=70&amp;step=1#eyJhcHBpZCI6NzAsInN0ZXBzIjpbMSwyOSwyNSwzMSwyNiwyNywzMF0sImRhdGEiOltbIlRhYmxlSWQiLCI4MzEiXSxbIk1ham9yX0FyZWEiLCIxNiJdLFsiU3RhdGUiLFsiMCJdXSxbIkFyZWEiLFsiNzIwMDAiXV0sWyJTdGF0aXN0aWMiLFsiLTEiXV0sWyJVbml0X29mX21lYXN1cmUiLCJMZXZlbHMiXSxbIlllYXIiLFsiLTEiXV0sWyJZZWFyQmVnaW4iLCItMSJdLFsiWWVhcl9FbmQiLCItMSJdXX0=">Real personal consumption expenditures (PCE) increased</a> 1.2 percent. PCE services increased 4.0 percent, while spending on PCE goods decreased 0.8 percent.</p><ul><li>The increase in PCE services reflected widespread growth. The <a href="https://apps.bea.gov/itable/?ReqID=70&amp;step=1#eyJhcHBpZCI6NzAsInN0ZXBzIjpbMSwyOSwyNSwzMSwyNiwyNywzMF0sImRhdGEiOltbIlRhYmxlSWQiLCI4MzIiXSxbIk1ham9yX0FyZWEiLCIxNiJdLFsiU3RhdGUiLFsiMCJdXSxbIkFyZWEiLFsiNzIwMDAiXV0sWyJTdGF0aXN0aWMiLFsiLTEiXV0sWyJVbml0X29mX21lYXN1cmUiLCJMZXZlbHMiXSxbIlllYXIiLFsiLTEiXV0sWyJZZWFyQmVnaW4iLCItMSJdLFsiWWVhcl9FbmQiLCItMSJdXX0=">leading contributors to the increase in PCE</a> were health care services and “other services,”<sup>1</sup> which includes recreation services such as live entertainment.</li><li>The leading contributor to the decrease in PCE goods was food and beverages, which decreased 6.2 percent. The decrease reflected an increase in the Puerto Rico consumer price index for food and beverage that outpaced the increase in current-dollar PCE.</li><li>Net foreign travel, which equals foreign travel expenditures by Puerto Rico residents less expenditures in Puerto Rico by nonresidents, subtracted from PCE growth. Nonresident spending on PCE goods and PCE services in Puerto Rico increased.</li></ul><p><a href="https://apps.bea.gov/itable/?ReqID=70&amp;step=1#eyJhcHBpZCI6NzAsInN0ZXBzIjpbMSwyOSwyNSwzMSwyNiwyNywzMF0sImRhdGEiOltbIlRhYmxlSWQiLCI4MjciXSxbIk1ham9yX0FyZWEiLCIxNiJdLFsiU3RhdGUiLFsiMCJdXSxbIkFyZWEiLFsiNzIwMDAiXV0sWyJTdGF0aXN0aWMiLFsiLTEiXV0sWyJVbml0X29mX21lYXN1cmUiLCJMZXZlbHMiXSxbIlllYXIiLFsiLTEiXV0sWyJZZWFyQmVnaW4iLCItMSJdLFsiWWVhcl9FbmQiLCItMSJdXX0=">Real government spending increased</a> 4.8 percent. Spending increased across all levels of government, including widespread <a href="https://apps.bea.gov/itable/?ReqID=70&amp;step=1#eyJhcHBpZCI6NzAsInN0ZXBzIjpbMSwyOSwyNSwzMSwyNiwyNywzMF0sImRhdGEiOltbIlRhYmxlSWQiLCI4MzkiXSxbIk1ham9yX0FyZWEiLCIxNiJdLFsiU3RhdGUiLFsiMCJdXSxbIkFyZWEiLFsiNzIwMDAiXV0sWyJTdGF0aXN0aWMiLFsiLTEiXV0sWyJVbml0X29mX21lYXN1cmUiLCJMZXZlbHMiXSxbIlllYXIiLFsiLTEiXV0sWyJZZWFyQmVnaW4iLCItMSJdLFsiWWVhcl9FbmQiLCItMSJdXX0=">increases in investment spending</a> by federal, central, and municipal governments. The increases in government investment spending reflect continued growth in disbursements of federal funds for disaster recovery activities associated with Hurricanes Irma and Maria in 2017, earthquakes in 2019 and 2020, and Hurricane Fiona in 2022. Notable ongoing projects include work to rebuild and improve the power grid, the aqueduct system, roads and bridges, and the National Guard’s Camp Santiago.</p><p><a href="https://apps.bea.gov/itable/?ReqID=70&amp;step=1#eyJhcHBpZCI6NzAsInN0ZXBzIjpbMSwyOSwyNSwzMSwyNiwyNywzMF0sImRhdGEiOltbIlRhYmxlSWQiLCI4NDIiXSxbIk1ham9yX0FyZWEiLCIxNiJdLFsiU3RhdGUiLFsiMCJdXSxbIkFyZWEiLFsiNzIwMDAiXV0sWyJTdGF0aXN0aWMiLFsiLTEiXV0sWyJVbml0X29mX21lYXN1cmUiLCJMZXZlbHMiXSxbIlllYXIiLFsiLTEiXV0sWyJZZWFyQmVnaW4iLCItMSJdLFsiWWVhcl9FbmQiLCItMSJdXX0=">Real private fixed investment increased</a> 3.8 percent, primarily reflecting widespread increases in equipment. The <a href="https://apps.bea.gov/itable/?ReqID=70&amp;step=1#eyJhcHBpZCI6NzAsInN0ZXBzIjpbMSwyOSwyNSwzMSwyNiwyNywzMF0sImRhdGEiOltbIlRhYmxlSWQiLCI4NDMiXSxbIk1ham9yX0FyZWEiLCIxNiJdLFsiU3RhdGUiLFsiMCJdXSxbIkFyZWEiLFsiNzIwMDAiXV0sWyJTdGF0aXN0aWMiLFsiLTEiXV0sWyJVbml0X29mX21lYXN1cmUiLCJMZXZlbHMiXSxbIlllYXIiLFsiLTEiXV0sWyJZZWFyQmVnaW4iLCItMSJdLFsiWWVhcl9FbmQiLCItMSJdXX0=">increase was led by industrial equipment</a>, which includes purchases of engines, turbines, and electrical equipment by businesses.</p><p><a href="https://apps.bea.gov/itable/?ReqID=70&amp;step=1#eyJhcHBpZCI6NzAsInN0ZXBzIjpbMSwyOSwyNSwzMSwyNiwyNywzMF0sImRhdGEiOltbIlRhYmxlSWQiLCI4MjYiXSxbIk1ham9yX0FyZWEiLCIxNiJdLFsiU3RhdGUiLFsiMCJdXSxbIkFyZWEiLFsiNzIwMDAiXV0sWyJTdGF0aXN0aWMiLFsiLTEiXV0sWyJVbml0X29mX21lYXN1cmUiLCJMZXZlbHMiXSxbIlllYXIiLFsiLTEiXV0sWyJZZWFyQmVnaW4iLCItMSJdLFsiWWVhcl9FbmQiLCItMSJdXX0=">Real private inventory investment decreased</a>; the largest contributor to the decrease was the manufacturing sector.</p><p><a href="https://apps.bea.gov/itable/?ReqID=70&amp;step=1#eyJhcHBpZCI6NzAsInN0ZXBzIjpbMSwyOSwyNSwzMSwyNiwyNywzMF0sImRhdGEiOltbIlRhYmxlSWQiLCI4MzUiXSxbIk1ham9yX0FyZWEiLCIxNiJdLFsiU3RhdGUiLFsiMCJdXSxbIkFyZWEiLFsiNzIwMDAiXV0sWyJTdGF0aXN0aWMiLFsiLTEiXV0sWyJVbml0X29mX21lYXN1cmUiLCJMZXZlbHMiXSxbIlllYXIiLFsiLTEiXV0sWyJZZWFyQmVnaW4iLCItMSJdLFsiWWVhcl9FbmQiLCItMSJdXX0=">Real imports increased</a> 4.4 percent, primarily reflecting an increase in imports of goods. The increase was led by pharmaceuticals and organic chemicals, which increased 6.0 percent.</p><p>Real GDP for 2018–2022 was revised to incorporate updates to source data; the largest revision in any year was 0.4 percentage point in 2022. For more information, refer to “Technical Notes” below.</p><div class="panel panel-default" id="Notice2"><div class="panel-heading text-center"><strong>Acknowledgments</strong></div><div class="panel-body"><p>Because Puerto Rico is not included in most of the major surveys used by BEA to estimate U.S. GDP, the support and assistance provided by the government of Puerto Rico has been critical to the successful production of these estimates. BEA appreciates the information provided by numerous organizations and individuals in Puerto Rico including (in alphabetical order) the following: &nbsp;</p><ul><li>Discover Puerto Rico (Puerto Rico’s destination marketing organization)</li><li>Economic Development Bank for Puerto Rico, Office of Economic Studies</li><li>Office of the Commissioner of Insurance of Puerto Rico</li><li>Puerto Rico Department of Economic Development and Commerce</li><li>Puerto Rico Department of Labor and Human Resources</li><li>Puerto Rico Department of Treasury</li><li>Puerto Rico Electric Power Authority</li><li>Puerto Rico Industrial Development Company</li><li>Puerto Rico Institute of Statistics</li><li>Puerto Rico Planning Board</li><li>Puerto Rico Ports Authority</li><li>Puerto Rico Tourism Company</li></ul></div></div><p class="text-align-center"><strong>Related Interactive Data Tables</strong></p><p>For the annual GDP for Puerto Rico statistics highlighted in this release, as well as historical time series for these estimates, see the below data tables in <a href="https://apps.bea.gov/itable/?ReqID=70&amp;step=1">BEA’s Interactive Data Application</a>.</p><p><strong>GDP</strong><br><a href="https://apps.bea.gov/itable/?ReqID=70&amp;step=1#eyJhcHBpZCI6NzAsInN0ZXBzIjpbMSwyOSwyNSwzMSwyNiwyNywzMF0sImRhdGEiOltbIlRhYmxlSWQiLCI4MjUiXSxbIk1ham9yX0FyZWEiLCIxNiJdLFsiU3RhdGUiLFsiMCJdXSxbIkFyZWEiLFsiNzIwMDAiXV0sWyJTdGF0aXN0aWMiLFsiLTEiXV0sWyJVbml0X29mX21lYXN1cmUiLCJMZXZlbHMiXSxbIlllYXIiLFsiLTEiXV0sWyJZZWFyQmVnaW4iLCItMSJdLFsiWWVhcl9FbmQiLCItMSJdXX0=">Table PRGDP1-1. GDP</a><br><a href="https://apps.bea.gov/itable/?ReqID=70&amp;step=1#eyJhcHBpZCI6NzAsInN0ZXBzIjpbMSwyOSwyNSwzMSwyNiwyNywzMF0sImRhdGEiOltbIlRhYmxlSWQiLCI4MjYiXSxbIk1ham9yX0FyZWEiLCIxNiJdLFsiU3RhdGUiLFsiMCJdXSxbIkFyZWEiLFsiNzIwMDAiXV0sWyJTdGF0aXN0aWMiLFsiLTEiXV0sWyJVbml0X29mX21lYXN1cmUiLCJMZXZlbHMiXSxbIlllYXIiLFsiLTEiXV0sWyJZZWFyQmVnaW4iLCItMSJdLFsiWWVhcl9FbmQiLCItMSJdXX0=">Table PRGDP1-2. Real GDP</a><br><a href="https://apps.bea.gov/itable/?ReqID=70&amp;step=1#eyJhcHBpZCI6NzAsInN0ZXBzIjpbMSwyOSwyNSwzMSwyNiwyNywzMF0sImRhdGEiOltbIlRhYmxlSWQiLCI4MjciXSxbIk1ham9yX0FyZWEiLCIxNiJdLFsiU3RhdGUiLFsiMCJdXSxbIkFyZWEiLFsiNzIwMDAiXV0sWyJTdGF0aXN0aWMiLFsiLTEiXV0sWyJVbml0X29mX21lYXN1cmUiLCJMZXZlbHMiXSxbIlllYXIiLFsiLTEiXV0sWyJZZWFyQmVnaW4iLCItMSJdLFsiWWVhcl9FbmQiLCItMSJdXX0=">Table PRGDP1-3. Percent Change From Preceding Year in Real GDP</a><br><a href="https://apps.bea.gov/itable/?ReqID=70&amp;step=1#eyJhcHBpZCI6NzAsInN0ZXBzIjpbMSwyOSwyNSwzMSwyNiwyNywzMF0sImRhdGEiOltbIlRhYmxlSWQiLCI4MjgiXSxbIk1ham9yX0FyZWEiLCIxNiJdLFsiU3RhdGUiLFsiMCJdXSxbIkFyZWEiLFsiNzIwMDAiXV0sWyJTdGF0aXN0aWMiLFsiLTEiXV0sWyJVbml0X29mX21lYXN1cmUiLCJMZXZlbHMiXSxbIlllYXIiLFsiLTEiXV0sWyJZZWFyQmVnaW4iLCItMSJdLFsiWWVhcl9FbmQiLCItMSJdXX0=">Table PRGDP1-4. Contributions to Percent Change in Real GDP</a></p><p><strong>PCE</strong><br><a href="https://apps.bea.gov/itable/?ReqID=70&amp;step=1#eyJhcHBpZCI6NzAsInN0ZXBzIjpbMSwyOSwyNSwzMSwyNiwyNywzMF0sImRhdGEiOltbIlRhYmxlSWQiLCI4MjkiXSxbIk1ham9yX0FyZWEiLCIxNiJdLFsiU3RhdGUiLFsiMCJdXSxbIkFyZWEiLFsiNzIwMDAiXV0sWyJTdGF0aXN0aWMiLFsiLTEiXV0sWyJVbml0X29mX21lYXN1cmUiLCJMZXZlbHMiXSxbIlllYXIiLFsiLTEiXV0sWyJZZWFyQmVnaW4iLCItMSJdLFsiWWVhcl9FbmQiLCItMSJdXX0=">Table PRGDP2-1. PCE by Type</a><br><a href="https://apps.bea.gov/itable/?ReqID=70&amp;step=1#eyJhcHBpZCI6NzAsInN0ZXBzIjpbMSwyOSwyNSwzMSwyNiwyNywzMF0sImRhdGEiOltbIlRhYmxlSWQiLCI4MzAiXSxbIk1ham9yX0FyZWEiLCIxNiJdLFsiU3RhdGUiLFsiMCJdXSxbIkFyZWEiLFsiNzIwMDAiXV0sWyJTdGF0aXN0aWMiLFsiLTEiXV0sWyJVbml0X29mX21lYXN1cmUiLCJMZXZlbHMiXSxbIlllYXIiLFsiLTEiXV0sWyJZZWFyQmVnaW4iLCItMSJdLFsiWWVhcl9FbmQiLCItMSJdXX0=">Table PRGDP2-2. Real PCE by Type</a><br><a href="https://apps.bea.gov/itable/?ReqID=70&amp;step=1#eyJhcHBpZCI6NzAsInN0ZXBzIjpbMSwyOSwyNSwzMSwyNiwyNywzMF0sImRhdGEiOltbIlRhYmxlSWQiLCI4MzEiXSxbIk1ham9yX0FyZWEiLCIxNiJdLFsiU3RhdGUiLFsiMCJdXSxbIkFyZWEiLFsiNzIwMDAiXV0sWyJTdGF0aXN0aWMiLFsiLTEiXV0sWyJVbml0X29mX21lYXN1cmUiLCJMZXZlbHMiXSxbIlllYXIiLFsiLTEiXV0sWyJZZWFyQmVnaW4iLCItMSJdLFsiWWVhcl9FbmQiLCItMSJdXX0=">Table PRGDP2-3. Percent Change From Preceding Year in Real PCE by Type</a><br><a href="https://apps.bea.gov/itable/?ReqID=70&amp;step=1#eyJhcHBpZCI6NzAsInN0ZXBzIjpbMSwyOSwyNSwzMSwyNiwyNywzMF0sImRhdGEiOltbIlRhYmxlSWQiLCI4MzIiXSxbIk1ham9yX0FyZWEiLCIxNiJdLFsiU3RhdGUiLFsiMCJdXSxbIkFyZWEiLFsiNzIwMDAiXV0sWyJTdGF0aXN0aWMiLFsiLTEiXV0sWyJVbml0X29mX21lYXN1cmUiLCJMZXZlbHMiXSxbIlllYXIiLFsiLTEiXV0sWyJZZWFyQmVnaW4iLCItMSJdLFsiWWVhcl9FbmQiLCItMSJdXX0=">Table PRGDP2-4. Contributions to Percent Change in Real PCE</a></p><p><strong>Exports and imports of goods and services</strong><br><a href="https://apps.bea.gov/itable/?ReqID=70&amp;step=1#eyJhcHBpZCI6NzAsInN0ZXBzIjpbMSwyOSwyNSwzMSwyNiwyNywzMF0sImRhdGEiOltbIlRhYmxlSWQiLCI4MzMiXSxbIk1ham9yX0FyZWEiLCIxNiJdLFsiU3RhdGUiLFsiMCJdXSxbIkFyZWEiLFsiNzIwMDAiXV0sWyJTdGF0aXN0aWMiLFsiLTEiXV0sWyJVbml0X29mX21lYXN1cmUiLCJMZXZlbHMiXSxbIlllYXIiLFsiLTEiXV0sWyJZZWFyQmVnaW4iLCItMSJdLFsiWWVhcl9FbmQiLCItMSJdXX0=">Table PRGDP3-1. Exports and Imports of Goods and Services</a><br><a href="https://apps.bea.gov/itable/?ReqID=70&amp;step=1#eyJhcHBpZCI6NzAsInN0ZXBzIjpbMSwyOSwyNSwzMSwyNiwyNywzMF0sImRhdGEiOltbIlRhYmxlSWQiLCI4MzQiXSxbIk1ham9yX0FyZWEiLCIxNiJdLFsiU3RhdGUiLFsiMCJdXSxbIkFyZWEiLFsiNzIwMDAiXV0sWyJTdGF0aXN0aWMiLFsiLTEiXV0sWyJVbml0X29mX21lYXN1cmUiLCJMZXZlbHMiXSxbIlllYXIiLFsiLTEiXV0sWyJZZWFyQmVnaW4iLCItMSJdLFsiWWVhcl9FbmQiLCItMSJdXX0=">Table PRGDP3-2. Real Exports and Imports of Goods and Services</a><br><a href="https://apps.bea.gov/itable/?ReqID=70&amp;step=1#eyJhcHBpZCI6NzAsInN0ZXBzIjpbMSwyOSwyNSwzMSwyNiwyNywzMF0sImRhdGEiOltbIlRhYmxlSWQiLCI4MzUiXSxbIk1ham9yX0FyZWEiLCIxNiJdLFsiU3RhdGUiLFsiMCJdXSxbIkFyZWEiLFsiNzIwMDAiXV0sWyJTdGF0aXN0aWMiLFsiLTEiXV0sWyJVbml0X29mX21lYXN1cmUiLCJMZXZlbHMiXSxbIlllYXIiLFsiLTEiXV0sWyJZZWFyQmVnaW4iLCItMSJdLFsiWWVhcl9FbmQiLCItMSJdXX0=">Table PRGDP3-3. Percent Change From Preceding Year in Real Exports and in Real Imports of Goods and Services by Type of Product</a><br><a href="https://apps.bea.gov/itable/?ReqID=70&amp;step=1#eyJhcHBpZCI6NzAsInN0ZXBzIjpbMSwyOSwyNSwzMSwyNiwyNywzMF0sImRhdGEiOltbIlRhYmxlSWQiLCI4MzYiXSxbIk1ham9yX0FyZWEiLCIxNiJdLFsiU3RhdGUiLFsiMCJdXSxbIkFyZWEiLFsiNzIwMDAiXV0sWyJTdGF0aXN0aWMiLFsiLTEiXV0sWyJVbml0X29mX21lYXN1cmUiLCJMZXZlbHMiXSxbIlllYXIiLFsiLTEiXV0sWyJZZWFyQmVnaW4iLCItMSJdLFsiWWVhcl9FbmQiLCItMSJdXX0=">Table PRGDP3-4. Contributions to Percent Change in Real Exports and Imports</a></p><p><strong>Gross domestic investment</strong><br><a href="https://apps.bea.gov/itable/?ReqID=70&amp;step=1#eyJhcHBpZCI6NzAsInN0ZXBzIjpbMSwyOSwyNSwzMSwyNiwyNywzMF0sImRhdGEiOltbIlRhYmxlSWQiLCI4MzciXSxbIk1ham9yX0FyZWEiLCIxNiJdLFsiU3RhdGUiLFsiMCJdXSxbIkFyZWEiLFsiNzIwMDAiXV0sWyJTdGF0aXN0aWMiLFsiLTEiXV0sWyJVbml0X29mX21lYXN1cmUiLCJMZXZlbHMiXSxbIlllYXIiLFsiLTEiXV0sWyJZZWFyQmVnaW4iLCItMSJdLFsiWWVhcl9FbmQiLCItMSJdXX0=">Table PRGDP4-1-1. Gross Domestic Investment</a><br><a href="https://apps.bea.gov/itable/?ReqID=70&amp;step=1#eyJhcHBpZCI6NzAsInN0ZXBzIjpbMSwyOSwyNSwzMSwyNiwyNywzMF0sImRhdGEiOltbIlRhYmxlSWQiLCI4MzgiXSxbIk1ham9yX0FyZWEiLCIxNiJdLFsiU3RhdGUiLFsiMCJdXSxbIkFyZWEiLFsiNzIwMDAiXV0sWyJTdGF0aXN0aWMiLFsiLTEiXV0sWyJVbml0X29mX21lYXN1cmUiLCJMZXZlbHMiXSxbIlllYXIiLFsiLTEiXV0sWyJZZWFyQmVnaW4iLCItMSJdLFsiWWVhcl9FbmQiLCItMSJdXX0=">Table PRGDP4-1-2. Real Gross Domestic Investment</a><br><a href="https://apps.bea.gov/itable/?ReqID=70&amp;step=1#eyJhcHBpZCI6NzAsInN0ZXBzIjpbMSwyOSwyNSwzMSwyNiwyNywzMF0sImRhdGEiOltbIlRhYmxlSWQiLCI4MzkiXSxbIk1ham9yX0FyZWEiLCIxNiJdLFsiU3RhdGUiLFsiMCJdXSxbIkFyZWEiLFsiNzIwMDAiXV0sWyJTdGF0aXN0aWMiLFsiLTEiXV0sWyJVbml0X29mX21lYXN1cmUiLCJMZXZlbHMiXSxbIlllYXIiLFsiLTEiXV0sWyJZZWFyQmVnaW4iLCItMSJdLFsiWWVhcl9FbmQiLCItMSJdXX0=">Table PRGDP4-1-3. Percent Change From Preceding Year in Real Gross Domestic Investment by Type</a></p><p><strong>Private fixed investment</strong><br><a href="https://apps.bea.gov/itable/?ReqID=70&amp;step=1#eyJhcHBpZCI6NzAsInN0ZXBzIjpbMSwyOSwyNSwzMSwyNiwyNywzMF0sImRhdGEiOltbIlRhYmxlSWQiLCI4NDAiXSxbIk1ham9yX0FyZWEiLCIxNiJdLFsiU3RhdGUiLFsiMCJdXSxbIkFyZWEiLFsiNzIwMDAiXV0sWyJTdGF0aXN0aWMiLFsiLTEiXV0sWyJVbml0X29mX21lYXN1cmUiLCJMZXZlbHMiXSxbIlllYXIiLFsiLTEiXV0sWyJZZWFyQmVnaW4iLCItMSJdLFsiWWVhcl9FbmQiLCItMSJdXX0=">Table PRGDP4-2-1. Private Fixed Investment by Type</a><br><a href="https://apps.bea.gov/itable/?ReqID=70&amp;step=1#eyJhcHBpZCI6NzAsInN0ZXBzIjpbMSwyOSwyNSwzMSwyNiwyNywzMF0sImRhdGEiOltbIlRhYmxlSWQiLCI4NDEiXSxbIk1ham9yX0FyZWEiLCIxNiJdLFsiU3RhdGUiLFsiMCJdXSxbIkFyZWEiLFsiNzIwMDAiXV0sWyJTdGF0aXN0aWMiLFsiLTEiXV0sWyJVbml0X29mX21lYXN1cmUiLCJMZXZlbHMiXSxbIlllYXIiLFsiLTEiXV0sWyJZZWFyQmVnaW4iLCItMSJdLFsiWWVhcl9FbmQiLCItMSJdXX0=">Table PRGDP4-2-2. Real Private Fixed Investment by Type</a><br><a href="https://apps.bea.gov/itable/?ReqID=70&amp;step=1#eyJhcHBpZCI6NzAsInN0ZXBzIjpbMSwyOSwyNSwzMSwyNiwyNywzMF0sImRhdGEiOltbIlRhYmxlSWQiLCI4NDIiXSxbIk1ham9yX0FyZWEiLCIxNiJdLFsiU3RhdGUiLFsiMCJdXSxbIkFyZWEiLFsiNzIwMDAiXV0sWyJTdGF0aXN0aWMiLFsiLTEiXV0sWyJVbml0X29mX21lYXN1cmUiLCJMZXZlbHMiXSxbIlllYXIiLFsiLTEiXV0sWyJZZWFyQmVnaW4iLCItMSJdLFsiWWVhcl9FbmQiLCItMSJdXX0=">Table PRGDP4-2-3. Percent Change From Preceding Year in Real Private Fixed Investment by Type</a><br><a href="https://apps.bea.gov/itable/?ReqID=70&amp;step=1#eyJhcHBpZCI6NzAsInN0ZXBzIjpbMSwyOSwyNSwzMSwyNiwyNywzMF0sImRhdGEiOltbIlRhYmxlSWQiLCI4NDMiXSxbIk1ham9yX0FyZWEiLCIxNiJdLFsiU3RhdGUiLFsiMCJdXSxbIkFyZWEiLFsiNzIwMDAiXV0sWyJTdGF0aXN0aWMiLFsiLTEiXV0sWyJVbml0X29mX21lYXN1cmUiLCJMZXZlbHMiXSxbIlllYXIiLFsiLTEiXV0sWyJZZWFyQmVnaW4iLCItMSJdLFsiWWVhcl9FbmQiLCItMSJdXX0=">Table PRGDP4-2-4. Contributions to Percent Change in Real Private Fixed Investment by Type</a></p><div class="panel panel-default" id="Notice"><div class="panel-body text-center"><strong>Note. </strong>BEA will no longer produce Puerto Rico GDP statistics after today’s release of 2023 estimates. Previously published vintages of the Puerto Rico GDP data can be accessed in <a href="https://apps.bea.gov/histdatacore/Regional_Accounts_new.html">BEA’s Data Archive</a><strong>.</strong></div></div><hr><div class="text-center"><strong>Technical Notes</strong></div><p><strong>Sources of revisions to GDP for Puerto Rico</strong></p><p>Estimates of GDP and its components for 2018–2022 that were released on July 31, 2024, have been revised to incorporate updates to source data including the following:</p><ul><li>Newly available financial data for companies from the Puerto Rico Department of State online Registry of Corporations and Entities and from the Puerto Rico Department of Economic Development and Commerce.</li><li>Updated information from the Puerto Rico Planning Board for business inventories and sales, balance of payments, construction spending, and government spending.</li><li>Newly available audited government financial statements and unaudited operating and budget statements for the Commonwealth government, its component units, and municipal governments.</li><li>Updated data on shipments from the joint U.S. Census Bureau and BEA <em>International Trade in Goods and Services </em>(FT900) report.</li></ul><p>The revised estimates exhibit a pattern of inflation-adjusted GDP growth similar to the previously published estimates.</p><div class="table-responsive"><table class="table table-sm table-reset" align="center"><thead><tr><th style="text-align:center;" colspan="12">Puerto Rico: Revisions to Real GDP</th></tr><tr><th class="text-left" rowspan="2" align="left">Line</th><th class="text-left" rowspan="2" align="left">&nbsp;</th><th class="text-center" style="text-align:center;" colspan="5">Current release</th><th class="text-center" style="text-align:center;" colspan="5">Revision from prior release</th></tr><tr><th style="text-align:right;">2018</th><th style="text-align:right;">2019</th><th style="text-align:right;">2020</th><th style="text-align:right;">2021</th><th style="text-align:right;">2022</th><th style="text-align:right;">2018</th><th style="text-align:right;">2019</th><th style="text-align:right;">2020</th><th style="text-align:right;">2021</th><th style="text-align:right;">2022</th></tr></thead><tbody><tr><td style="text-align:right;">&nbsp;</td><td class="text-center" style="text-align:left;"><strong>Real GDP</strong></td><td style="text-align:right;">&nbsp;</td><td style="text-align:right;">&nbsp;</td><td style="text-align:right;">&nbsp;</td><td style="text-align:right;">&nbsp;</td><td style="text-align:right;">&nbsp;</td><td style="text-align:right;">&nbsp;</td><td style="text-align:right;">&nbsp;</td><td style="text-align:right;">&nbsp;</td><td style="text-align:right;">&nbsp;</td><td style="text-align:right;">&nbsp;</td></tr><tr><td style="text-align:left;">1</td><td class="nowrap" style="text-align:left;">Millions of chained (2012) dollars</td><td style="text-align:right;">99,002</td><td style="text-align:right;">99,457</td><td style="text-align:right;">93,152</td><td style="text-align:right;">97,101</td><td style="text-align:right;">95,077</td><td style="text-align:right;">1</td><td style="text-align:right;">5</td><td style="text-align:right;">0</td><td style="text-align:right;">115</td><td style="text-align:right;">558</td></tr><tr><td style="text-align:left;">2</td><td class="nowrap" style="text-align:left;">Percent change from preceding period</td><td style="text-align:right;">—3.0</td><td style="text-align:right;">0.5</td><td style="text-align:right;">—6.3</td><td style="text-align:right;">4.2</td><td style="text-align:right;">—2.1</td><td style="text-align:right;">0.0</td><td style="text-align:right;">0.0</td><td style="text-align:right;">0.0</td><td style="text-align:right;">0.1</td><td style="text-align:right;">0.4</td></tr><tr><td colspan="12">Note. The revision from the prior release is calculated as the value reported in the current release minus the value reported in the prior release.<br>GDP Gross domestic product<br>U.S. Bureau of Economic Analysis</td></tr></tbody></table></div><p>For more information on the data sources underlying these estimates, see <a href="https://www.bea.gov/index.php/resources/methodologies/summary-of-methodologies-puerto-rico-gross-domestic-product"><em>Summary of Methodologies: Puerto Rico Gross Domestic Product</em></a>.</p><div class="panel panel-default" id="Notice"><div class="panel-body text-center">For definitions and statistical conventions, visit “<a href="/news/gdp-puerto-rico-release-additional-information">Additional Information</a>”.</div></div><p><sup>1</sup>“Other services” includes all services other than housing and utilities, health care, and food services and accommodations.</p></div>
+      
+                            </div>
+                        </div>
+                                    </div>
+                                    <div id="menu1" class="tab-pane fade">
+                        <div class="row">
+                            <div class="col-md-12">
+                                    
+    <h3>
+    <a href="/sites/default/files/2025-09/prgdp0925.pdf">Full release</a>
+    <small class="mime-type">PDF</small>
+    <small></small>
+    
+</h3>
+
+    
+    <h3>
+    <a href="https://apps.bea.gov/itable/?ReqID=70&amp;step=1">Interactive Tables</a>
+    <small class="mime-type"></small>
+    <small></small>
+    
+</h3>
+
+    
+    <h3>
+    <a href="https://www.bea.gov/news/gdp-puerto-rico-release-additional-information">Additional Information</a>
+    <small class="mime-type"></small>
+    <small></small>
+    
+</h3>
+
+
+                                
+                            </div>
+                        </div>
+                    </div>
+                                                    <div id="menu2" class="tab-pane fade">
+                        <div class="row">
+                            <div class="col-md-12">
+                                    <ul class="list-contact">
+        <li>
+                <div class="list-contact-area">
+                            Technical (BEA)
+
+                </div>
+                <div class="list-contact-name">
+                            Amy Filipek
+
+                </div>
+                                        <div class="list-contact-phone">
+                                <i class="fa fa-phone" aria-hidden="true"></i>
+                                    <a href="tel:301-278-9023">301-278-9023</a>
+
+                        </div>
+                                                        <div class="list-contact-email">
+                                <i class="fa fa-envelope-o" aria-hidden="true"></i>
+                                <a href="mailto:Territories@bea.gov">
+                                            Territories@bea.gov
+
+                                </a>
+                        </div>
+                        </li>
+</ul>
+
+
+    <ul class="list-contact">
+        <li>
+                <div class="list-contact-area">
+                            Media
+
+                </div>
+                <div class="list-contact-name">
+                            Connie O&#039;Connell
+
+                </div>
+                                        <div class="list-contact-phone">
+                                <i class="fa fa-phone" aria-hidden="true"></i>
+                                    <a href="tel:301-278-9003">301-278-9003</a>
+
+                        </div>
+                                                        <div class="list-contact-email">
+                                <i class="fa fa-envelope-o" aria-hidden="true"></i>
+                                <a href="mailto:Connie.OConnell@bea.gov">
+                                            Connie.OConnell@bea.gov
+
+                                </a>
+                        </div>
+                        </li>
+</ul>
+
+
+
+                            </div>
+                        </div>
+                    </div>
+                                            </div>
+        </div>
+    </div>
+</article>
+
+
+    </div>
+
+                            </div>
+
+                                </div>
+    </div>
+    <div class="full-width">
+    <div class="container">
+        <div class="row last-modified">
+            <div class="col-xs-12 col-sm-6">
+                <div class="download-link"><a href="http://get.adobe.com/reader/">Download Acrobat Reader</a></div>
+            </div>
+            <div class="col-xs-12 col-sm-6">
+                <div class="date-info">Page last modified on 9/16/25</div>
+            </div>
+        </div>
+    </div>
+    </div>
+ 
+
+            <footer class="footer container" role="contentinfo">
+            
+    <div class="region region-footer">
+        <section id="block-beagovfooter" data-block-plugin-id="block_content:aa0d67fd-5738-4477-83ce-e17e948518e8" class="block block-block-content block-block-contentaa0d67fd-5738-4477-83ce-e17e948518e8 clearfix">
+  
+    
+
+      
+            <div class="field field--name-body field--type-text-with-summary field--label-hidden field--item"><div class="container">
+    <div class="row">
+        <div class="col-lg-12">
+            <h4>Bureau of Economic Analysis <span> 4600 Silver Hill Road &bull; Suitland, MD 20746 </span></h4>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-sm-4">
+            <ul class="footer-links">
+                <li class="text-large"><a href="/contact-us">Contact Us</a></li>
+                <li class="text-large"><a href="/about/working-at-bea">Working at BEA</a></li>
+                <li class="text-large"><a href="/help/faq">Frequently Asked Questions</a></li>
+                <li class="text-large"><a href="/about/policies-and-information">Our Policies</a></li>
+                <li class="text-large"><a href="/privacy">Privacy</a></li>
+            </ul>
+        </div>
+        <div class="col-sm-4">
+            <ul class="footer-links">
+                <li><a href="/statement-commitment-scientific-integrity-principal-statistical-agencies">Commitment to Scientific Integrity</a></li>
+                <li><a href="/about/policies-and-information/data-dissemination">Data Dissemination Practices</a></li>
+                <li><a href="/open-data">Open Data</a></li>
+                <li><a href="https://www.usa.gov/">USA.gov</a></li>
+                <li><a href="https://business.usa.gov">Business USA</a></li>
+                <li><a href="https://www.commerce.gov/cr/reports-and-resources/no-fear-act">No FEAR Act</a></li>
+                <li><a href="https://www.commerce.gov/opog">FOIA</a></li>
+                <li><a href="https://www.commerce.gov/">U.S. Department of Commerce</a></li>
+                <li><a href="https://apps.bea.gov/status/">Emergency Status </a></li>
+            </ul>
+        </div>
+        <div class="col-sm-4">
+            <ul class="footer-links">
+                <li><a href="/news/blog">The BEA Wire | BEA's Official Blog</a></li>
+                <li><a href="https://apps.bea.gov/rss/rss.xml" title="BEA's RSS Feeds">News Release Feed (RSS)</a></li>
+                <li><a href="/_subscribe/" title="Email Subscription Service">Sign up for Email Notifications</a></li>
+            </ul>
+            <div class="footer-links-toolbar"> <a class="footer-icon-social-twitter" href="https://x.com/bea_news"></a> <a class="footer-icon-social-linkedin" href="https://www.linkedin.com/company/bureau-of-economic-analysis"></a> <a class="footer-icon-social-youtube" href="https://www.youtube.com/channel/UCCP9QD1x_z__duUivA6Yb5w"></a> <a class="footer-icon-social-instagram" href="https://www.instagram.com/usbeagov/"></a><a class="footer-icon-social-facebook" href="https://www.facebook.com/usbeagov"></a> </div>
+        </div>
+    </div>
+</div>
+<style>
+    .noteworthy .pin{
+        background-image: url(https://www.bea.gov/system/files/pushpin-orange.png) !important;
+        background-position: left .4em !important;
+    }
+    .noteworthy .sticky{
+        border-color:#C55420;
+        border-style: solid;
+        border-width: 0px;
+        padding-bottom: 10px !important;
+        border-bottom-width: 1px;
+        margin-bottom: 10px;
+    }
+      .noteworthy-links-toolbar{
+            margin-top: 14px;
+            margin-left: 20px;
+            /*margin-left: 36px;*/
+      }
+    .noteworthy-links-toolbar a{
+        display: inline-block;
+        height: 21px;
+        width: 21px;
+        background-size: 21px auto;
+        background-repeat: no-repeat;
+        background-position: top left;
+        padding: 3px 21px 3px 0px;
+        margin-right: 7px;
+        opacity: 0.75;
+
+    }
+    .noteworthy-links-toolbar a:hover{
+        opacity: 1.0;
+
+    }
+        .noteworthy-links-toolbar a.noteworthy-icon-social-youtube{
+        display: inline-block;
+        width: 30px;
+        background-size: 30px auto;
+        padding: 3px 30px 3px 0px;
+    }
+    
+    
+    
+    .noteworthy-links-toolbar svg.ext{
+        display: none;
+    }
+    
+    .noteworthy-icon-social-twitter{
+        background-image: url("/sites/default/files/logo-x-600-blue-dark.png");
+    }    
+    .noteworthy-icon-social-facebook{
+        background-image: url("/sites/default/files/logo-facebook-600-blue-dark.png");
+    }    
+    .noteworthy-icon-social-instagram{
+        background-image: url("/sites/default/files/logo-instagram-600-blue-dark.png");
+    }    
+    .noteworthy-icon-social-linkedin{
+        background-image: url("/sites/default/files/logo-linkedin-600-blue-dark.png");
+    }    
+    .noteworthy-icon-social-youtube{
+        background-image: url("/sites/default/files/logo-youtube-600-blue-dark.png");
+    }    
+      
+      .noteworthy-links-toolbar.page-top{
+            text-align: center;
+            background-color: rgba(0,0,0,0.15);
+            border-radius: 4px;
+      }
+      
+      
+      .noteworthy-links-toolbar.page-top [class*="noteworthy-icon-social"] a {
+        color: rgba(0,0,0,1) !important;
+
+    } 
+            
+
+      
+    footer ul li[class*="footer-icon-social"] a {
+        color: rgba(255,255,255,1) !important;
+        opacity: 0.75;
+        background-repeat: no-repeat;
+        background-position: left;
+        padding: 2px 0px 3px 30px;
+    } 
+    footer ul.contextual-links li a {
+        color: rgba(0,0,0,1) !important;
+    } 
+    footer ul li[class*="footer-icon-social"] a:hover {
+        opacity: 1.00;
+    }     
+    .footer-links  .footer-icon-social{
+        vertical-align: middle;
+    }
+    
+    .footer-links-toolbar a{
+        display: inline-block;
+        height: 21px;
+        width: 21px;
+        background-size: 21px auto;
+        background-repeat: no-repeat;
+        background-position: top left;
+        padding: 3px 21px 3px 0px;
+        margin-right: 7px;
+        opacity: 0.75;
+
+    }
+    .footer-links-toolbar a:hover{
+        opacity: 1.0;
+
+    }
+        .footer-links-toolbar a.footer-icon-social-youtube{
+        display: inline-block;
+        width: 30px;
+        background-size: 30px auto;
+        padding: 3px 30px 3px 0px;
+    }
+    
+    
+    
+    .footer-links-toolbar svg.ext{
+        display: none;
+    }
+    
+    .footer-icon-social-twitter{
+        background-image: url("/sites/default/files/logo-x-600-white.png");
+    }    
+    .footer-icon-social-facebook{
+        background-image: url("/sites/default/files/logo-facebook-600-white.png");
+    }    
+    .footer-icon-social-instagram{
+        background-image: url("/sites/default/files/logo-instagram-600-white.png");
+    }    
+    .footer-icon-social-linkedin{
+        background-image: url("/sites/default/files/logo-linkedin-600-white.png");
+    }    
+    .footer-icon-social-youtube{
+        background-image: url("/sites/default/files/logo-youtube-600-white.png");
+    }   
+      
+      .footer-links-toolbar.page-top{
+            text-align: center;
+            background-color: rgba(0,0,0,0.15);
+            border-radius: 4px;
+      }
+      
+      
+      .footer-links-toolbar.page-top [class*="footer-icon-social"] a {
+        color: rgba(0,0,0,1) !important;
+
+    } 
+    [class*="-links-toolbar"] svg{
+        display: none;
+    }
+</style>
+
+</div>
+      
+  </section>
+
+
+    </div>
+
+        </footer>
+    
+  </div>
+
+    
+    <script type="application/json" data-drupal-selector="drupal-settings-json">{"path":{"baseUrl":"\/","pathPrefix":"","currentPath":"node\/42932","currentPathIsAdmin":false,"isFront":false,"currentLanguage":"en"},"pluralDelimiter":"\u0003","suppressDeprecationErrors":true,"data":{"extlink":{"extTarget":false,"extTargetAppendNewWindowDisplay":true,"extTargetAppendNewWindowLabel":"(opens in a new window)","extTargetNoOverride":false,"extNofollow":true,"extTitleNoOverride":false,"extNoreferrer":true,"extFollowNoOverride":false,"extClass":"ext","extLabel":"(link is external)","extImgClass":false,"extSubdomains":true,"extExclude":"\\.gov","extInclude":"","extCssExclude":"","extCssInclude":"","extCssExplicit":"","extAlert":true,"extAlertText":"This page provides links to non-BEA web sites that provide additional information about this topic. You will leave the BEA.gov domain, and BEA cannot attest to the accuracy of information on that non-BEA page. Providing links to a non-BEA Web site is not an endorsement of the other site or the information it contains by BEA or any of its employees. Also, be aware that the privacy protection provided on the BEA.gov domain may not be available at the external link. ","extHideIcons":false,"mailtoClass":"0","telClass":"0","mailtoLabel":"(link sends email)","telLabel":"(link is a phone number)","extUseFontAwesome":false,"extIconPlacement":"after","extPreventOrphan":false,"extFaLinkClasses":"fa fa-external-link","extFaMailtoClasses":"fa fa-envelope-o","extAdditionalLinkClasses":"","extAdditionalMailtoClasses":"","extAdditionalTelClasses":"","extFaTelClasses":"fa fa-phone","allowedDomains":[],"extExcludeNoreferrer":""}},"bootstrap":{"forms_has_error_value_toggle":1,"modal_animation":1,"modal_backdrop":"true","modal_focus_input":1,"modal_keyboard":1,"modal_select_text":1,"modal_show":1,"modal_size":"","popover_enabled":1,"popover_animation":1,"popover_auto_close":1,"popover_container":"body","popover_content":"","popover_delay":"0","popover_html":1,"popover_placement":"top","popover_selector":"","popover_title":"","popover_trigger":"click","tooltip_enabled":1,"tooltip_animation":1,"tooltip_container":"body","tooltip_delay":"0","tooltip_html":0,"tooltip_placement":"auto left","tooltip_selector":"","tooltip_trigger":"hover"},"ajax":[],"user":{"uid":0,"permissionsHash":"9e503acfd754e60f47cd824b29d8dc4a12892646052899603a74371ac447af64"}}</script>
+<script src="/sites/default/files/js/js_iKIz59DWbMqD1uZmgo29841BpFyVe-OWUI79tYJ8BHU.js?scope=footer&amp;delta=0&amp;language=en&amp;theme=beagov_theme&amp;include=eJx9jUEOwyAMBD9E4EnIKC5BdbCFt7T9fXOoKk69ze5Iu4Wp6sw4-OS0E2gDFWEPZRVVtJBsjre0XkNRhWOQpR9lG5xbb1ikqenksTRQFTQL_MI1dE_7eBhJ_MZw0w56sut1uXD0Wf-56Ec7P2aeT9k"></script>
+
+
+    <script src="https://dap.digitalgov.gov/Universal-Federated-Analytics-Min.js?agency=DOC&subagency=BEA"
+      id="_fed_an_ua_tag" async></script>
+  </body>
+</html>

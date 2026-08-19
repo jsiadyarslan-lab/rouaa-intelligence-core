@@ -1,0 +1,457 @@
+﻿<!DOCTYPE html>
+<html lang="ja">
+
+<head prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb# article: http://ogp.me/ns/article#">
+  <!-- meta -->
+  <meta charset="UTF-8">
+  <meta name="robots" content="index,follow">
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="format-detection" content="telephone=no">
+  <meta name="copyright" content="Copyright (C) 財務省 Ministry of Finance, The Japanese Government" />
+  <meta name="description" content="予算・決算" />
+  <meta name="keywords" content="財務省,予算,決算" />
+  <meta name="date" content="2026-06-08" />
+
+  <!-- og -->
+  <meta property="og:title" content="予算・決算（国のお金の使い道） : 財務省" />
+  <meta property="og:type" content="article" />
+  <meta property="og:url" content="https://www.mof.go.jp/policy/budget/index.html" />
+  <meta property="og:image" content="https://www.mof.go.jp/common/images/og_img.png" />
+  <meta property="og:site_name" content="財務省" />
+  <meta property="fb:app_id" content="253099528071523" />
+  <title>予算・決算（国のお金の使い道） : 財務省</title>
+
+  <!-- icon -->
+  <link rel="shortcut icon" href="/favicon.ico">
+  <link rel="apple-touch-icon" href="/apple-touch-icon.png">
+
+  <!-- seo -->
+  <link rel="canonical" href="https://www.mof.go.jp/policy/budget/index.html">
+
+  <!-- stylesheet -->
+  <link rel="stylesheet" href="/common/css/base.css">
+  <link rel="stylesheet" href="/common/css/common_new.css">
+
+  <!-- JavaScript -->
+  <script src="/common/js/vender/jquery.min.js" defer></script>
+  <script src="/common/js/common.js" defer></script>
+</head>
+
+<body>
+  <noscript>
+    <p>このサイトではJavaScript機能をONにしてご利用ください。</p>
+  </noscript>
+  <div id="contents" class="contents">
+    <div class="block-skip"><a href="#skipmain" class="js-smooth">このページの本文へ移動</a></div>
+    <!-- header -->
+    <header class="header" id="header">
+<div class="header-inner">
+<div class="header-logo"><a href="/index.htm"><span class="header-logo-main"><img alt="財務省" src="/common/images/logo_company.png"></span><span class="header-logo-sub"><img alt="Ministry of Finance Japan" src="/common/images/logo_company_sub.png" lang="en"></span></a></div>
+<div class="header-philosophy"><img alt="国の信用を守り、希望ある社会を次世代に引き継ぐ。" src="/common/images/philosophy_company.png" width="213" height="36"></div>
+<div class="header-search"><form id="cse-search-box" action="https://www.google.com/search" method="get">
+<div class="search-box-row"><input name="cx" type="hidden" value="015355283094946217929:qry5ib_fqyq"> <input name="cof" type="hidden" value="https://www.mof.go.jp"> <input name="q" title="ここに検索語を入力" class="search-field text" type="text" size="25"> <input name="searchBtn" class="botton search-btn" id="searchBtn" type="submit" value="検索"></div>
+<script type="text/javascript" src="https://www.google.com/cse/brand?form=cse-search-box&lang=ja"></script></form></div>
+<div class="header-utility">
+<ul class="header-link">
+<li class="header-link-item"><a href="/english/index.htm" lang="en">English</a></li>
+<li class="header-link-item"><a href="/faq/index.htm">財務省FAQ</a></li>
+<li class="header-link-item"><a href="/about_mof/sitemap/index.html">サイトマップ</a></li>
+</ul>
+<ul class="header-social">
+<li class="header-social-item -twitter"><a href="https://x.com/MOF_Japan" target="_blank" rel="noopener"><img alt="財務省公式X" src="/common/images/icon_social_twitter.png"></a></li>
+<li class="header-social-item -facebook"><a href="https://ja-jp.facebook.com/MOF.Japan" target="_blank" rel="noopener"><img alt="財務省公式Facebook" src="/common/images/icon_social_facebook.png"></a></li>
+<li class="header-social-item -note"><a href="https://mof-gov.note.jp/" target="_blank" rel="noopener"><img alt="財務省公式note" src="/common/images/icon_social_note.png"></a></li>
+<li class="header-social-item -youtube"><a href="https://www.youtube.com/user/MOFJapan" target="_blank" rel="noopener"><img alt="財務省公式YouTube" src="/common/images/icon_social_youtube.png"></a></li>
+</ul>
+</div>
+<button class="header-ham-icon js-ham-button"><span class="header-ham-icon-line"></span><span class="header-ham-icon-text"></span></button></div>
+<nav class="header-nav">
+<div class="header-search"><form id="cse-search-box-sp" action="https://www.google.com/search" method="get">
+<div class="search-box-row"><input name="cx" type="hidden" value="015355283094946217929:qry5ib_fqyq"> <input name="cof" type="hidden" value="https://www.mof.go.jp"> <input name="q" title="ここに検索語を入力" class="search-field text" type="text" size="25"> <input name="searchBtnSp" class="botton search-btn" id="searchBtnSp" type="submit" value="検索"></div>
+<script type="text/javascript" src="https://www.google.com/cse/brand?form=cse-search-box-sp&lang=ja"></script></form></div>
+<ul class="header-nav-global">
+<li class="header-nav-global-item"><button class="header-nav-global-title js-dropdown-button">財務省の政策</button>
+<div class="header-dropdown js-dropdown-menu">
+<p class="header-dropdown-title"><a href="/policy/index.html">財務省の政策</a></p>
+<ul class="header-dropdown-menu">
+<li class="header-dropdown-menu-item"><a href="/policy/budget/index.html">予算・決算</a></li>
+<li class="header-dropdown-menu-item"><a href="/tax_policy/index.html">税制</a></li>
+<li class="header-dropdown-menu-item"><a href="/policy/customs_tariff/index.html">関税制度</a></li>
+<li class="header-dropdown-menu-item"><a href="/policy/international_policy/index.html">国際政策</a></li>
+<li class="header-dropdown-menu-item"><a href="/policy/financial_system/index.html">政策金融・地震保険・金融危機管理</a></li>
+<li class="header-dropdown-menu-item"><a href="/pri/index.htm">財務総合政策研究所</a></li>
+<li class="header-dropdown-menu-item"><a href="/jgbs/index.html">国債</a></li>
+<li class="header-dropdown-menu-item"><a href="/policy/filp/index.html">財政投融資</a></li>
+<li class="header-dropdown-menu-item"><a href="/policy/exchequer/index.html">国庫</a></li>
+<li class="header-dropdown-menu-item"><a href="/policy/currency/index.html">通貨</a></li>
+<li class="header-dropdown-menu-item"><a href="/policy/national_property/index.html">国有財産</a></li>
+<li class="header-dropdown-menu-item"><a href="/policy/tab_salt/index.html">たばこ・塩</a></li>
+</ul>
+<button class="header-dropdown-close js-dropdown-close-button">閉じる</button></div>
+</li>
+<li class="header-nav-global-item"><button class="header-nav-global-title js-dropdown-button">財務省について</button>
+<div class="header-dropdown js-dropdown-menu">
+<p class="header-dropdown-title"><a href="/about_mof/index.html">財務省について</a></p>
+<ul class="header-dropdown-menu">
+<li class="header-dropdown-menu-item"><a href="/about_mof/ministers_profile/index.htm">大臣・副大臣・政務官</a></li>
+<li class="header-dropdown-menu-item"><a href="/about_mof/introduction/index.html">財務省について</a></li>
+<li class="header-dropdown-menu-item"><a href="/about_mof/mof_budget/index.htm">財務省の予算・決算</a></li>
+<li class="header-dropdown-menu-item"><a href="/about_mof/councils/index.htm">審議会・研究会</a></li>
+<li class="header-dropdown-menu-item"><a href="/about_mof/act/index.htm">所管の法令・告示・通達等</a></li>
+<li class="header-dropdown-menu-item"><a href="/about_mof/policy_evaluation/index.htm">政策評価</a></li>
+<li class="header-dropdown-menu-item"><a href="/about_mof/constitution/index.html">財務省に関連するリンク集</a></li>
+<li class="header-dropdown-menu-item"><a href="/about_mof/recruit/index.htm">採用情報</a></li>
+<li class="header-dropdown-menu-item"><a href="/about_mof/other/index.html">その他の財務省の取り組み</a></li>
+</ul>
+<button class="header-dropdown-close js-dropdown-close-button">閉じる</button></div>
+</li>
+<li class="header-nav-global-item"><button class="header-nav-global-title js-dropdown-button">広報・報道</button>
+<div class="header-dropdown js-dropdown-menu">
+<p class="header-dropdown-title"><a href="/public_relations/index.html">広報・報道</a></p>
+<ul class="header-dropdown-menu">
+<li class="header-dropdown-menu-item"><a href="/public_relations/conference/index.html">大臣等記者会見</a></li>
+<li class="header-dropdown-menu-item"><a href="/public_relations/statement/index.htm">大臣談話・ステートメント</a></li>
+<li class="header-dropdown-menu-item"><a href="/public_relations/weekly_schedule/index.htm">広報・報道の週間予定</a></li>
+<li class="header-dropdown-menu-item"><a href="/public_relations/gallery/index.html">財務省NOW!</a></li>
+<li class="header-dropdown-menu-item"><a href="/public_relations/finance/index.htm">広報誌「ファイナンス」</a></li>
+<li class="header-dropdown-menu-item"><a href="/public_relations/publication/index.htm">広報誌・パンフレット・刊行物</a></li>
+<li class="header-dropdown-menu-item"><a href="/public_relations/whats_new/index.htm">過去の掲載履歴（新着情報）</a></li>
+<li class="header-dropdown-menu-item"><a href="/public_relations/top10/index.html">週間アクセストップ10</a></li>
+<li class="header-dropdown-menu-item"><a href="/public_relations/ohter/index.html">その他の広報・報道関係</a></li>
+<li class="header-dropdown-menu-item"><a href="/public_relations/caution/index.html">財務省の名をかたる詐欺などにご注意！</a></li>
+<li class="header-dropdown-menu-item"><a href="/public_relations/disaster/index.html">震災・豪雨関連情報</a></li>
+<li class="header-dropdown-menu-item"><a href="/public_relations/shonai_kengaku/index.html">小中高生の財務省訪問</a></li>
+<li class="header-dropdown-menu-item"><a href="/public_relations/kengaku/index.html">MOFナビ 財務省関連施設の見学申込みサイト</a></li>
+<li class="header-dropdown-menu-item"><a href="/public_relations/2020_coronavirus/index.html">新型コロナウイルス感染症関連情報</a></li>
+<li class="header-dropdown-menu-item"><a href="/public_relations/zaisei_kyouiku/index.html">財政を知る、考える</a></li>
+</ul>
+<button class="header-dropdown-close js-dropdown-close-button">閉じる</button></div>
+</li>
+<li class="header-nav-global-item"><button class="header-nav-global-title js-dropdown-button">統計</button>
+<div class="header-dropdown js-dropdown-menu">
+<p class="header-dropdown-title"><a href="/statistics/">統計</a></p>
+<ul class="header-dropdown-menu">
+<li class="header-dropdown-menu-item"><a href="/statistics/#jump1">予算・決算</a></li>
+<li class="header-dropdown-menu-item"><a href="/statistics/#jump2">税制</a></li>
+<li class="header-dropdown-menu-item"><a href="/statistics/#jump3">関税制度</a></li>
+<li class="header-dropdown-menu-item"><a href="/statistics/#jump4">国際政策</a></li>
+<li class="header-dropdown-menu-item"><a href="/statistics/#jump5">企業統計</a></li>
+<li class="header-dropdown-menu-item"><a href="/statistics/#jump6">国債</a></li>
+<li class="header-dropdown-menu-item"><a href="/statistics/#jump7">財政投融資</a></li>
+<li class="header-dropdown-menu-item"><a href="/statistics/#jump8">国庫</a></li>
+<li class="header-dropdown-menu-item"><a href="/statistics/#jump9">国有財産</a></li>
+<li class="header-dropdown-menu-item"><a href="/statistics/#jump10">たばこ・塩</a></li>
+<li class="header-dropdown-menu-item"><a href="/statistics/#jump11">財務省が所管する統計調査をご利用の皆様へ</a></li>
+</ul>
+<button class="header-dropdown-close js-dropdown-close-button">閉じる</button></div>
+</li>
+<li class="header-nav-global-item"><button class="header-nav-global-title js-dropdown-button">申請・お問合せ</button>
+<div class="header-dropdown js-dropdown-menu">
+<p class="header-dropdown-title"><a href="/application-contact/index.html">申請・お問合せ</a></p>
+<ul class="header-dropdown-menu">
+<li class="header-dropdown-menu-item"><a href="/application-contact/procurement/index.html">調達情報</a></li>
+<li class="header-dropdown-menu-item"><a href="/application-contact/procedure/index.html">各種手続</a></li>
+<li class="header-dropdown-menu-item"><a href="/application-contact/e-service/index.htm">財務省メールマガジン配信サービス</a></li>
+<li class="header-dropdown-menu-item"><a href="/application-contact/feedback/index.html">ご意見箱</a></li>
+</ul>
+<button class="header-dropdown-close js-dropdown-close-button">閉じる</button></div>
+</li>
+</ul>
+<div class="header-utility">
+<ul class="header-link">
+<li class="header-link-item"><a href="/english/index.htm" lang="en">English</a></li>
+<li class="header-link-item"><a href="/faq/index.htm">財務省FAQ</a></li>
+<li class="header-link-item"><a href="/about_mof/sitemap/index.html">サイトマップ</a></li>
+</ul>
+<ul class="header-social">
+<li class="header-social-item -twitter"><a href="https://x.com/MOF_Japan" target="_blank" rel="noopener"><img alt="財務省公式X" src="/common/images/icon_social_twitter.png"></a></li>
+<li class="header-social-item -facebook"><a href="https://ja-jp.facebook.com/MOF.Japan" target="_blank" rel="noopener"><img alt="財務省公式Facebook" src="/common/images/icon_social_facebook.png"></a></li>
+<li class="header-social-item -note"><a href="https://mof-gov.note.jp/" target="_blank" rel="noopener"><img alt="財務省公式note" src="/common/images/icon_social_note.png"></a></li>
+<li class="header-social-item -youtube"><a href="https://www.youtube.com/user/MOFJapan" target="_blank" rel="noopener"><img alt="財務省公式YouTube" src="/common/images/icon_social_youtube.png"></a></li>
+</ul>
+</div>
+<div class="header-nav-close"><button class="button js-nav-close-button">閉じる</button></div>
+</nav></header>
+    <!-- /.header -->
+    <!-- main -->
+    <main id="main" class="main">
+      <header class="content-header">
+        <div class="content-inner">
+          <nav class="breadcrumb">
+            <ul>
+
+              
+              <li><a href="../../index.htm">トップページ</a> </li><li> <a href="../index.html">財務省の政策</a> </li><li> 予算・決算（国のお金の使い道）</li>
+
+            </ul>
+          </nav>
+          <h1 id="skipmain" class="heading-lv1">予算・決算（国のお金の使い道）</h1>
+        </div>
+      </header>
+      <div class="content">
+        <div class="content-inner">
+          <div class="content-upper-links">
+            <ul class="social-link">
+              <li class="social-link-item -facebook">
+                <!-- Load Facebook SDK for JavaScript -->
+                <div id="fb-root"></div>
+                <script async defer crossorigin="anonymous"
+                  src="https://connect.facebook.net/ja_JP/sdk.js#xfbml=1&version=v8.0" nonce="Ke9xkPhC"></script>
+                <!-- //Load Facebook SDK for JavaScript -->
+                <!-- Your like button code -->
+                <div class="fb-like"
+                  data-href="https://www.mof.go.jp/policy/budget/index.html"
+                  data-width="" data-layout="button_count" data-action="like" data-size="small" data-share="false">
+                </div>
+                <!-- //Your like button code -->
+              </li>
+              <li class="social-link-item -twiiter">
+                <a class="twitter-share-button" href="https://x.com/share" data-lang="ja">X ポスト
+                </a>
+                <script charset="UTF-8" type="text/javascript" src="https://platform.twitter.com/widgets.js ">
+                </script>
+              </li>
+            </ul>
+            
+          </div>
+
+
+          <!-- 注目情報一覧ブロック -->
+          <section class="topics">
+          <h2 class="topics-header"><span>注目情報</span></h2>
+          <div class="topics-body">
+          <ul class="list-normal">
+<li><a href="./budger_workflow/budget/fy2026/km260804.pdf">令和８年熊本地震に係る予備費使用について(PDF:156KB)<img src="/common/images/icon_pdf.gif" alt="" width="16" height="16" class="fileIcon" /></a></li><li><a href="./budger_workflow/account/fy2025/ke080731.pdf">令和7年度決算概要(PDF:150KB)<img src="/common/images/icon_pdf.gif" alt="" width="16" height="16" class="fileIcon" /></a></li><li><a href="https://www.mof.go.jp/policy/budget/budger_workflow/budget/fy2027/index.html" target="_self">概算要求基準閣議了解</a></li><li><a href="./topics/budget_execution_audit/fy2026/sy0806/0806b.html">令和８年度 予算執行調査の結果を公表します</a></li><li><a href="https://www.mof.go.jp/policy/budget/budger_workflow/budget/fy2026/index.html" target="_self">令和８年度補正予算が成立しました</a></li>
+
+
+
+</ul>
+          </div>
+          <!-- /topicTop --></section>
+          <!-- // 注目情報一覧ブロック -->
+
+          <!-- トップエリアブロック -->
+          
+          <!-- // トップエリアブロック -->
+          
+          <div class="unique-block">
+          
+
+          <!-- シングルブロック２ --><section class="content-section">
+          <h2 class="heading-lv2 -link"><a href="budger_workflow/index.html">毎年度の予算・決算</a></h2><div class="column-box -gutter-0-sp content-inside">
+          <div class="clmBox1">
+<ul>
+<li><a href="budger_workflow/budget/index.html">予算 </a></li>
+</ul>
+</div>
+<div class="clmBox2">
+<ul>
+<li><a href="budger_workflow/account/index.html">決算 </a></li>
+</ul>
+</div>
+          <!-- /singleBlock --></div></section>
+          
+
+          <!-- シングルブロック３ --><section class="content-section">
+          <h2 class="heading-lv2 -link"><a href="fiscal_condition/index.html">わが国の財政状況</a></h2><div class="column-box -gutter-0-sp content-inside">
+          <div class="clmBox1">
+<ul>
+<li><a href="./fiscal_condition/related_data/index.html">財政関係パンフレット・教材</a></li>
+</ul>
+</div>
+<div class="clmBox2">
+<ul>
+<li><a href="./fiscal_condition/basic_data/index.html">財政関係基礎データ</a></li>
+</ul>
+</div>
+          <!-- /singleBlock --></div></section>
+          
+
+          <!-- シングルブロック４ --><section class="content-section">
+          <h2 class="heading-lv2 -link"><a href="report/index.html">財政状況の報告</a></h2><div class="column-box -gutter-0-sp content-inside">
+          <div class="clmBox1">
+<ul>
+<li><a href="report/46_report/index.htm">財政法46条に基づく国民への財政報告 </a></li>
+<li><a href="report/budget_use/index.htm">予算使用の状況（四半期ごとの一般会計・特別会計四半期歳入歳出/概要） </a></li>
+<li><a href="../exchequer/reference/exchequer_report/index.htm">国庫の状況報告書 </a></li>
+</ul>
+</div>
+<div class="clmBox2">
+<ul>
+<li><a href="https://www.mof.go.jp/policy/budget/report/revenue_and_expenditure/index.html">国庫歳入歳出状況（予算額と毎月の歳入歳出実績） </a></li>
+<li><a href="https://www.mof.go.jp/policy/budget/report/public_finance_fact_sheet/index.html">国の財務書類・省庁別財務書類・特別会計財務書類</a></li>
+</ul>
+</div>
+          <!-- /singleBlock --></div></section>
+          
+
+          <!-- シングルブロック５ --><section class="content-section">
+          <h2 class="heading-lv2 -link"><a href="topics/index.html">予算トピックス</a></h2><div class="column-box -gutter-0-sp content-inside">
+          <div class="clmBox1">
+<ul>
+<li><a href="/public_relations/statement/index.htm">財務大臣の財政演説 </a></li>
+<li><a href="topics/outlook/index.htm">後年度影響試算 </a></li>
+<li><a href="topics/special_account/index.html">特別会計 </a></li>
+<li><a href="topics/budget_execution_audit/index.htm">予算執行調査 </a>（・<a href="./topics/PDCA.html">予算編成におけるPDCAサイクルの取組</a>）</li>
+<li><a href="topics/public_purchase/index.html">公共調達 </a></li>
+<li><a href="topics/kurikoshi/index.htm">繰越制度</a></li>
+</ul>
+</div>
+<div class="clmBox2">
+<ul>
+<li><a href="./topics/fullcost.html">事業別フルコスト情報</a></li>
+<li><a href="./topics/futanritsu/index.htm">国民負担率</a></li>
+<li><a href="topics/portalsite.htm">各府省の予算執行情報ポータルページ、テーマ別ページリンク先一覧</a></li>
+<li><a href="topics/guideline/index.htm">会計監査ガイドライン</a></li>
+<li><a href="https://www.mof.go.jp/policy/budget/topics/travel_expenses/index.html" title="国家公務員等の旅費制度">国家公務員等の旅費制度</a></li>
+</ul>
+</div>
+          <!-- /singleBlock --></div></section>
+          
+
+          <!-- シングルブロック６ --><section class="content-section">
+          <h2 class="heading-lv2 -link"><a href="./reference/index.html">関連資料・データ</a></h2><div class="column-box -gutter-0-sp content-inside">
+          <div class="clmBox1">
+<ul>
+<li><a href="reference/statistics/index.htm">財政統計（予算決算等データ） </a></li>
+<li><a href="https://www.bb.mof.go.jp/hdocs/bxsselect.html">予算書・決算書データベース</a></li>
+</ul>
+<br><br>　<br><br></div>
+<div class="clmBox2">
+<ul>
+<li><a href="reference/kk_annual_report/index.htm">国家公務員共済組合事業統計年報</a></li>
+<li><a href="reference/medical_research/index.html">連合会を組織する共済組合における医療状況実態統計調査 </a></li>
+<li><a href="./reference/kkr_fund_evaluation/index.html">国家公務員共済組合連合会にかかる管理積立金の管理及び運用の状況についての評価の結果</a></li>
+</ul>
+</div>
+          <!-- /singleBlock --></div></section>
+          
+
+          <!-- シングルブロック７ --><section class="content-section">
+          <h2 class="heading-lv2 -link"><a href="faq/index.html">よくあるご質問</a></h2></section>
+
+          <!-- シングルブロック８ --><section class="content-section">
+          <h2 class="heading-lv2 -link"><a href="councils/index.html">審議会・研究会</a></h2><div class="column-box -gutter-0-sp content-inside">
+          <div class="clmBox1">
+<ul>
+<li><a href="/about_mof/councils/fiscal_system_council/index.html">財政制度等審議会 </a>
+<ul>
+<li><a href="/about_mof/councils/fiscal_system_council/sub-of_fiscal_system/index.html">財政制度分科会 </a></li>
+</ul>
+</li>
+</ul>
+</div>
+<div class="clmBox2">
+<ul>
+<li class="listNone">&nbsp;
+<ul>
+<li><a href="/about_mof/councils/fiscal_system_council/sub-of_kkr/index.html">国家公務員共済組合分科会 </a></li>
+</ul>
+</li>
+</ul>
+</div>
+          <!-- /singleBlock --></div></section>
+          
+
+          <!-- シングルブロック９ --><section class="content-section">
+          <h2 class="heading-lv2 -link"><a href="publication/index.html">出版物等</a></h2><div class="column-box -gutter-0-sp content-inside">
+          <div class="clmBox1">
+<ul>
+<li><a href="./fiscal_condition/related_data/index.html">日本の財政関係資料</a></li>
+<li><a href="/pri/publication/zaikin_geppo/hyou04.htm">財政金融統計月報（予算特集） </a></li>
+</ul>
+</div>
+<div class="clmBox2">
+<ul>
+<li><a href="./topics/special_account/fy2025/index.html">特別会計ガイドブック </a></li>
+</ul>
+</div>
+          <!-- /singleBlock --></div></section>
+          
+
+          
+
+          
+
+          
+
+          
+
+          
+
+          
+
+          
+
+          
+
+          
+
+          
+
+          
+          </div>
+          
+          
+
+          
+
+
+          
+          
+          <!-- //sidemenu-->
+          
+          <div class="content-lower-links">
+            <a href="/index.htm" class="button -arrow-l -sm">財務省ホームページトップへ戻る</a>
+          </div>
+        </div>
+      </div>
+    </main>
+    <!-- /.main -->
+    <!-- footer -->
+    <footer class="footer" id="footer">
+<div class="pagetop js-pagetop"><a title="このページのトップへ" href="#contents"></a></div>
+<div class="footer-upper">
+<div class="footer-inner">
+<div class="footer-social">
+<p class="footer-social-title">公式SNS</p>
+<ul class="footer-social-list">
+<li class="footer-social-item -twitter"><a href="https://x.com/MOF_Japan" target="_blank" rel="noopener"><img alt="財務省公式X" src="/common/images/icon_social_twitter.png"></a></li>
+<li class="footer-social-item -facebook"><a href="https://ja-jp.facebook.com/MOF.Japan" target="_blank" rel="noopener"><img alt="財務省公式Facebook" src="/common/images/icon_social_facebook.png"></a></li>
+<li class="footer-social-item -note"><a href="https://mof-gov.note.jp/" target="_blank" rel="noopener"><img alt="財務省公式note" src="/common/images/icon_social_note.png"></a></li>
+<li class="footer-social-item -youtube"><a href="https://www.youtube.com/user/MOFJapan" target="_blank" rel="noopener"><img alt="財務省公式YouTube" src="/common/images/icon_social_youtube.png"></a></li>
+</ul>
+</div>
+<div class="footer-info">
+<div class="footer-info-logo"><a href="/index.htm"><span class="footer-info-logo-main"><img alt="財務省" src="/common/images/logo_company.png"></span><span class="footer-info-logo-sub"><img lang="en" alt="Ministry of Finance Japan" src="/common/images/logo_company_sub.png"></span></a>
+<div class="footer-philosophy"><img width="213" height="36" alt="国の信用を守り、希望ある社会を次世代に引き継ぐ。" src="/common/images/philosophy_company.png"></div>
+</div>
+<div class="footer-info-text">
+<p>〒100-8940 東京都千代田区霞が関3-1-1<br>電話番号：03-3581-4111（代表）<br>法人番号 8000012050001</p>
+</div>
+</div>
+</div>
+</div>
+<div class="footer-lower">
+<div class="footer-inner">
+<ul class="footer-link">
+<li class="footer-link-item"><a href="/application-contact/feedback/index.html">ご意見箱</a></li>
+<li class="footer-link-item"><a href="/about_mof/introduction/location/index.html">所在地案内</a></li>
+<li class="footer-link-item"><a href="/about_mof/privacy_policy/index.html">プライバシーポリシー</a></li>
+<li class="footer-link-item"><a href="/about_mof/notice/index.html">著作権・リンク等について</a></li>
+<li class="footer-link-item"><a href="/about_mof/accessibility/index.html">ウェブアクセシビリティ</a></li>
+<li class="footer-link-item"><a href="/about_mof/social_media_account/index.html">ソーシャルメディア　アカウント運用ポリシー</a></li>
+<li class="footer-link-item"><a href="/about_mof/help/index.html">ヘルプ（サイトの使い方）</a></li>
+</ul>
+<p class="footer-copy" lang="en">Copyright &copy; Ministry of Finance Japan. <br class="sp-pc">All Rights Reserved.</p>
+</div>
+</div>
+</footer>
+    <!-- /.footer -->
+  </div>
+  <!-- /.container -->
+<script type="text/javascript" src="/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3&ns=2&cb=1571743200" async></script></body>
+
+</html>
+

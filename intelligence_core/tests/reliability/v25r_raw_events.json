@@ -1,0 +1,1513 @@
+[
+  {
+    "event_id": "evt-96644749b358baca",
+    "event_version": 1,
+    "document_id": "doc-7c5cd3967c2f9f10",
+    "event_type": "statistical_release",
+    "fact_version_snapshot": [
+      {
+        "fact_id": "fact-7d10e1e1e32cd4a9",
+        "fact_version": 1
+      },
+      {
+        "fact_id": "fact-87295e50bc3a2a5d",
+        "fact_version": 1
+      },
+      {
+        "fact_id": "fact-7b0c0ade01277b52",
+        "fact_version": 1
+      },
+      {
+        "fact_id": "fact-8e8c0a3daba7f141",
+        "fact_version": 1
+      },
+      {
+        "fact_id": "fact-a101942805b2e327",
+        "fact_version": 1
+      },
+      {
+        "fact_id": "fact-c46ab81814844502",
+        "fact_version": 1
+      },
+      {
+        "fact_id": "fact-a91254e1c71b8e89",
+        "fact_version": 1
+      },
+      {
+        "fact_id": "fact-5804542e242981d7",
+        "fact_version": 1
+      },
+      {
+        "fact_id": "fact-811fb57032682c8f",
+        "fact_version": 1
+      },
+      {
+        "fact_id": "fact-125b39157aa0e914",
+        "fact_version": 1
+      },
+      {
+        "fact_id": "fact-da1fc0e2d2810de7",
+        "fact_version": 1
+      },
+      {
+        "fact_id": "fact-14b87cf63b4f5882",
+        "fact_version": 1
+      },
+      {
+        "fact_id": "fact-a42cce73ba975ac1",
+        "fact_version": 1
+      },
+      {
+        "fact_id": "fact-0bacae8f5d8a822c",
+        "fact_version": 1
+      },
+      {
+        "fact_id": "fact-30aab60c5ea41e7e",
+        "fact_version": 1
+      },
+      {
+        "fact_id": "fact-ec8352c9b3de4a46",
+        "fact_version": 1
+      },
+      {
+        "fact_id": "fact-c506c2cb9773f9d9",
+        "fact_version": 1
+      },
+      {
+        "fact_id": "fact-65fcb4218130bb5e",
+        "fact_version": 1
+      },
+      {
+        "fact_id": "fact-b9dfeae86f5034f8",
+        "fact_version": 1
+      },
+      {
+        "fact_id": "fact-b532dc5822243746",
+        "fact_version": 1
+      },
+      {
+        "fact_id": "fact-0cfe88758e3899d6",
+        "fact_version": 1
+      },
+      {
+        "fact_id": "fact-bdb2cced1440d2e3",
+        "fact_version": 1
+      },
+      {
+        "fact_id": "fact-610af58a04c5b879",
+        "fact_version": 1
+      },
+      {
+        "fact_id": "fact-6558c919e548f789",
+        "fact_version": 1
+      },
+      {
+        "fact_id": "fact-7d10e1e1e32cd4a9",
+        "fact_version": 1
+      },
+      {
+        "fact_id": "fact-7d10e1e1e32cd4a9",
+        "fact_version": 1
+      },
+      {
+        "fact_id": "fact-7d10e1e1e32cd4a9",
+        "fact_version": 1
+      },
+      {
+        "fact_id": "fact-7d10e1e1e32cd4a9",
+        "fact_version": 1
+      }
+    ],
+    "occurrence": 0,
+    "status": "ACTIVE",
+    "derived_at": ""
+  },
+  {
+    "event_id": "evt-d4f7053293157018",
+    "event_version": 1,
+    "document_id": "doc-7eafb0e5382d524a",
+    "event_type": "statistical_release",
+    "fact_version_snapshot": [
+      {
+        "fact_id": "fact-c0ee6227c5946d21",
+        "fact_version": 1
+      },
+      {
+        "fact_id": "fact-6af23f279631bb91",
+        "fact_version": 1
+      }
+    ],
+    "occurrence": 0,
+    "status": "ACTIVE",
+    "derived_at": ""
+  },
+  {
+    "event_id": "evt-04c57aabceff5bca",
+    "event_version": 1,
+    "document_id": "doc-9009073715abef71",
+    "event_type": "statistical_release",
+    "fact_version_snapshot": [
+      {
+        "fact_id": "fact-17774a244bb80267",
+        "fact_version": 1
+      },
+      {
+        "fact_id": "fact-d9650df6d25658a7",
+        "fact_version": 1
+      },
+      {
+        "fact_id": "fact-bdeadfebc80b2f62",
+        "fact_version": 1
+      },
+      {
+        "fact_id": "fact-35dcddf062ebd49f",
+        "fact_version": 1
+      },
+      {
+        "fact_id": "fact-982c2724e072df00",
+        "fact_version": 1
+      },
+      {
+        "fact_id": "fact-61a79bc48b6e8d5d",
+        "fact_version": 1
+      },
+      {
+        "fact_id": "fact-d03371b42228b490",
+        "fact_version": 1
+      },
+      {
+        "fact_id": "fact-24ca544c9cb90a71",
+        "fact_version": 1
+      },
+      {
+        "fact_id": "fact-142716fac433b43d",
+        "fact_version": 1
+      },
+      {
+        "fact_id": "fact-829e44b49ec4fc12",
+        "fact_version": 1
+      },
+      {
+        "fact_id": "fact-18e1098bd75bc9c0",
+        "fact_version": 1
+      },
+      {
+        "fact_id": "fact-66f5db8f396b608c",
+        "fact_version": 1
+      }
+    ],
+    "occurrence": 0,
+    "status": "ACTIVE",
+    "derived_at": ""
+  },
+  {
+    "event_id": "evt-524faef265c83747",
+    "event_version": 1,
+    "document_id": "doc-3c78c920fe89e689",
+    "event_type": "statistical_release",
+    "fact_version_snapshot": [
+      {
+        "fact_id": "fact-5eb23f80f287a8a4",
+        "fact_version": 1
+      }
+    ],
+    "occurrence": 0,
+    "status": "ACTIVE",
+    "derived_at": ""
+  },
+  {
+    "event_id": "evt-1f48502b0d93e5c5",
+    "event_version": 1,
+    "document_id": "doc-cc10a6c194e5435b",
+    "event_type": "statistical_release",
+    "fact_version_snapshot": [
+      {
+        "fact_id": "fact-fdedce25d5c8302a",
+        "fact_version": 1
+      },
+      {
+        "fact_id": "fact-63f09252de74a3f9",
+        "fact_version": 1
+      }
+    ],
+    "occurrence": 0,
+    "status": "ACTIVE",
+    "derived_at": ""
+  },
+  {
+    "event_id": "evt-76a4c67228da9ccb",
+    "event_version": 1,
+    "document_id": "doc-8700a0859c829c44",
+    "event_type": "statistical_release",
+    "fact_version_snapshot": [
+      {
+        "fact_id": "fact-dde4a0f347e53587",
+        "fact_version": 1
+      },
+      {
+        "fact_id": "fact-3fe784986dfe994a",
+        "fact_version": 1
+      },
+      {
+        "fact_id": "fact-9f144fbde9c4ca0e",
+        "fact_version": 1
+      },
+      {
+        "fact_id": "fact-797d8392b7df375c",
+        "fact_version": 1
+      },
+      {
+        "fact_id": "fact-f31a571fd313d8bf",
+        "fact_version": 1
+      },
+      {
+        "fact_id": "fact-5c671d34b1eff713",
+        "fact_version": 1
+      },
+      {
+        "fact_id": "fact-63c2ce5a2bfde06c",
+        "fact_version": 1
+      },
+      {
+        "fact_id": "fact-cab4665af034438a",
+        "fact_version": 1
+      },
+      {
+        "fact_id": "fact-9680409d33635d38",
+        "fact_version": 1
+      },
+      {
+        "fact_id": "fact-d58d34debd60e2e7",
+        "fact_version": 1
+      },
+      {
+        "fact_id": "fact-16d1ea2217259d97",
+        "fact_version": 1
+      },
+      {
+        "fact_id": "fact-12942849a4e9b078",
+        "fact_version": 1
+      },
+      {
+        "fact_id": "fact-e8d9443944bf24af",
+        "fact_version": 1
+      },
+      {
+        "fact_id": "fact-e99e3a7ed9f50f9c",
+        "fact_version": 1
+      },
+      {
+        "fact_id": "fact-0c010db2496b6de7",
+        "fact_version": 1
+      },
+      {
+        "fact_id": "fact-be173e31da39ba0a",
+        "fact_version": 1
+      },
+      {
+        "fact_id": "fact-50ea79aa60d35769",
+        "fact_version": 1
+      },
+      {
+        "fact_id": "fact-91c579e930c26005",
+        "fact_version": 1
+      },
+      {
+        "fact_id": "fact-1f53624218ac37a5",
+        "fact_version": 1
+      },
+      {
+        "fact_id": "fact-a75c1b3008aa6d7d",
+        "fact_version": 1
+      },
+      {
+        "fact_id": "fact-d5c9384f96f7563b",
+        "fact_version": 1
+      },
+      {
+        "fact_id": "fact-0465abbd151f9192",
+        "fact_version": 1
+      },
+      {
+        "fact_id": "fact-1f8543cf38f27c16",
+        "fact_version": 1
+      },
+      {
+        "fact_id": "fact-325e3c118b2448d6",
+        "fact_version": 1
+      },
+      {
+        "fact_id": "fact-99fdb0ad5454229a",
+        "fact_version": 1
+      },
+      {
+        "fact_id": "fact-e616b18c62d6c94e",
+        "fact_version": 1
+      },
+      {
+        "fact_id": "fact-c050f7753e4362c9",
+        "fact_version": 1
+      },
+      {
+        "fact_id": "fact-0e566498c53fc974",
+        "fact_version": 1
+      },
+      {
+        "fact_id": "fact-b7fd03eadfa06224",
+        "fact_version": 1
+      },
+      {
+        "fact_id": "fact-570377b803cb4f61",
+        "fact_version": 1
+      },
+      {
+        "fact_id": "fact-07e3c0cfb2dab919",
+        "fact_version": 1
+      },
+      {
+        "fact_id": "fact-0ddd1d13fb082e59",
+        "fact_version": 1
+      },
+      {
+        "fact_id": "fact-05c37ef6565c43a3",
+        "fact_version": 1
+      },
+      {
+        "fact_id": "fact-ce2dcad0c5ca4a53",
+        "fact_version": 1
+      },
+      {
+        "fact_id": "fact-66beee995cad1cbc",
+        "fact_version": 1
+      },
+      {
+        "fact_id": "fact-0a16009c65aa7609",
+        "fact_version": 1
+      },
+      {
+        "fact_id": "fact-d447aa547131689d",
+        "fact_version": 1
+      },
+      {
+        "fact_id": "fact-9ac61ada368ed540",
+        "fact_version": 1
+      },
+      {
+        "fact_id": "fact-a191b1ce100f8c1c",
+        "fact_version": 1
+      },
+      {
+        "fact_id": "fact-df4cd05b8796d34f",
+        "fact_version": 1
+      },
+      {
+        "fact_id": "fact-e35e5330d5da0d7a",
+        "fact_version": 1
+      },
+      {
+        "fact_id": "fact-aac1671ab67af104",
+        "fact_version": 1
+      },
+      {
+        "fact_id": "fact-d13583ada57d51e3",
+        "fact_version": 1
+      },
+      {
+        "fact_id": "fact-8c9efd680fd9de55",
+        "fact_version": 1
+      },
+      {
+        "fact_id": "fact-df00af53f95d72fe",
+        "fact_version": 1
+      },
+      {
+        "fact_id": "fact-da862c1be4891b5a",
+        "fact_version": 1
+      },
+      {
+        "fact_id": "fact-7581548d8ca022d4",
+        "fact_version": 1
+      },
+      {
+        "fact_id": "fact-dba41e4e8cee5313",
+        "fact_version": 1
+      },
+      {
+        "fact_id": "fact-6a4340811d17be63",
+        "fact_version": 1
+      },
+      {
+        "fact_id": "fact-105016c4c653ec9e",
+        "fact_version": 1
+      },
+      {
+        "fact_id": "fact-b8a0cda897bce97e",
+        "fact_version": 1
+      },
+      {
+        "fact_id": "fact-11b9cbd82bad6a7d",
+        "fact_version": 1
+      },
+      {
+        "fact_id": "fact-1d2c1c0400cc15b4",
+        "fact_version": 1
+      },
+      {
+        "fact_id": "fact-d816acdc88d825ee",
+        "fact_version": 1
+      },
+      {
+        "fact_id": "fact-1ebabf3f4089a4ef",
+        "fact_version": 1
+      },
+      {
+        "fact_id": "fact-7b297e001a306c33",
+        "fact_version": 1
+      },
+      {
+        "fact_id": "fact-633b59bdf0a9e113",
+        "fact_version": 1
+      },
+      {
+        "fact_id": "fact-3343cf6d2219fbb5",
+        "fact_version": 1
+      },
+      {
+        "fact_id": "fact-a05a9db80b4765a4",
+        "fact_version": 1
+      },
+      {
+        "fact_id": "fact-e8604ddc21c9dbf2",
+        "fact_version": 1
+      },
+      {
+        "fact_id": "fact-bc0201653644b773",
+        "fact_version": 1
+      },
+      {
+        "fact_id": "fact-9bf47d911bead7b2",
+        "fact_version": 1
+      },
+      {
+        "fact_id": "fact-3da1fe6861cbc7de",
+        "fact_version": 1
+      },
+      {
+        "fact_id": "fact-2ada048cd9e577c8",
+        "fact_version": 1
+      },
+      {
+        "fact_id": "fact-3cf105ed297f00a8",
+        "fact_version": 1
+      },
+      {
+        "fact_id": "fact-15027fec1f7577cd",
+        "fact_version": 1
+      },
+      {
+        "fact_id": "fact-a3f6134a437d3c38",
+        "fact_version": 1
+      },
+      {
+        "fact_id": "fact-e95d3ae25d6e6f4c",
+        "fact_version": 1
+      },
+      {
+        "fact_id": "fact-dde4a0f347e53587",
+        "fact_version": 1
+      },
+      {
+        "fact_id": "fact-dde4a0f347e53587",
+        "fact_version": 1
+      },
+      {
+        "fact_id": "fact-dde4a0f347e53587",
+        "fact_version": 1
+      }
+    ],
+    "occurrence": 0,
+    "status": "ACTIVE",
+    "derived_at": ""
+  },
+  {
+    "event_id": "evt-5f95d093b7d9a38b",
+    "event_version": 1,
+    "document_id": "doc-5a0547ffcaa7a57e",
+    "event_type": "statistical_release",
+    "fact_version_snapshot": [
+      {
+        "fact_id": "fact-a8852755c0b85704",
+        "fact_version": 1
+      },
+      {
+        "fact_id": "fact-de44d770c49d1def",
+        "fact_version": 1
+      },
+      {
+        "fact_id": "fact-4a882b731c5d4b79",
+        "fact_version": 1
+      },
+      {
+        "fact_id": "fact-e60c6d44f2597800",
+        "fact_version": 1
+      },
+      {
+        "fact_id": "fact-c270b640f95fcc15",
+        "fact_version": 1
+      },
+      {
+        "fact_id": "fact-bbbf490fe1621026",
+        "fact_version": 1
+      },
+      {
+        "fact_id": "fact-aeca997c204c65da",
+        "fact_version": 1
+      }
+    ],
+    "occurrence": 0,
+    "status": "ACTIVE",
+    "derived_at": ""
+  },
+  {
+    "event_id": "evt-a72c6db8c23e7f3f",
+    "event_version": 1,
+    "document_id": "doc-e96dc7902ddcfa54",
+    "event_type": "statistical_release",
+    "fact_version_snapshot": [
+      {
+        "fact_id": "fact-07cdb46f8dae280c",
+        "fact_version": 1
+      },
+      {
+        "fact_id": "fact-4077388c2d2cbc38",
+        "fact_version": 1
+      },
+      {
+        "fact_id": "fact-f1d1661b500ff0ed",
+        "fact_version": 1
+      },
+      {
+        "fact_id": "fact-f9d11e90a90b5869",
+        "fact_version": 1
+      },
+      {
+        "fact_id": "fact-4fa8304a9c47f2e0",
+        "fact_version": 1
+      },
+      {
+        "fact_id": "fact-fb601e8a2ff18279",
+        "fact_version": 1
+      },
+      {
+        "fact_id": "fact-6d7ab2f18c38c345",
+        "fact_version": 1
+      },
+      {
+        "fact_id": "fact-519038af1381d57a",
+        "fact_version": 1
+      },
+      {
+        "fact_id": "fact-91e936bd0aab1dfe",
+        "fact_version": 1
+      },
+      {
+        "fact_id": "fact-b3393320f4085ae1",
+        "fact_version": 1
+      },
+      {
+        "fact_id": "fact-e992d865892b2b55",
+        "fact_version": 1
+      },
+      {
+        "fact_id": "fact-958a3dbf3286739f",
+        "fact_version": 1
+      },
+      {
+        "fact_id": "fact-f9b760e3291be2a7",
+        "fact_version": 1
+      },
+      {
+        "fact_id": "fact-ab4007b3d3747214",
+        "fact_version": 1
+      },
+      {
+        "fact_id": "fact-8a465b93b8625985",
+        "fact_version": 1
+      },
+      {
+        "fact_id": "fact-8de5c855d87be5f6",
+        "fact_version": 1
+      },
+      {
+        "fact_id": "fact-037586ab8bfa829c",
+        "fact_version": 1
+      },
+      {
+        "fact_id": "fact-8568000b8d61ae05",
+        "fact_version": 1
+      },
+      {
+        "fact_id": "fact-8fa54981ecc026e0",
+        "fact_version": 1
+      },
+      {
+        "fact_id": "fact-4486cb30e6ac1cdf",
+        "fact_version": 1
+      },
+      {
+        "fact_id": "fact-9fb9dff37369e61e",
+        "fact_version": 1
+      },
+      {
+        "fact_id": "fact-40429bae395a499a",
+        "fact_version": 1
+      },
+      {
+        "fact_id": "fact-1336c1f8354e1094",
+        "fact_version": 1
+      },
+      {
+        "fact_id": "fact-236f0afbe4593457",
+        "fact_version": 1
+      },
+      {
+        "fact_id": "fact-23c10ee8f41c2668",
+        "fact_version": 1
+      }
+    ],
+    "occurrence": 0,
+    "status": "ACTIVE",
+    "derived_at": ""
+  },
+  {
+    "event_id": "evt-834819ce943fc7e8",
+    "event_version": 1,
+    "document_id": "doc-93c89f0c3311c178",
+    "event_type": "statistical_release",
+    "fact_version_snapshot": [
+      {
+        "fact_id": "fact-a1cf3b2d84ed92dd",
+        "fact_version": 1
+      },
+      {
+        "fact_id": "fact-600704bcb225fd44",
+        "fact_version": 1
+      },
+      {
+        "fact_id": "fact-af938f3a2975a1cd",
+        "fact_version": 1
+      }
+    ],
+    "occurrence": 0,
+    "status": "ACTIVE",
+    "derived_at": ""
+  },
+  {
+    "event_id": "evt-31a17f8e8c7f6ff4",
+    "event_version": 1,
+    "document_id": "doc-9a2c3554bf239005",
+    "event_type": "regulatory_enforcement",
+    "fact_version_snapshot": [
+      {
+        "fact_id": "fact-bef4f076f72c5a63",
+        "fact_version": 1
+      },
+      {
+        "fact_id": "fact-b07ffe404be37e97",
+        "fact_version": 1
+      },
+      {
+        "fact_id": "fact-a62906de137a3861",
+        "fact_version": 1
+      },
+      {
+        "fact_id": "fact-01999f1791977ff9",
+        "fact_version": 1
+      },
+      {
+        "fact_id": "fact-41cca54c0f9ed48b",
+        "fact_version": 1
+      }
+    ],
+    "occurrence": 0,
+    "status": "ACTIVE",
+    "derived_at": ""
+  },
+  {
+    "event_id": "evt-6726f19bf8a5555d",
+    "event_version": 1,
+    "document_id": "doc-fa4e9cecec3e8d7d",
+    "event_type": "regulatory_enforcement",
+    "fact_version_snapshot": [
+      {
+        "fact_id": "fact-5faf1aab919f0379",
+        "fact_version": 1
+      },
+      {
+        "fact_id": "fact-b39a2956ae59dbf9",
+        "fact_version": 1
+      },
+      {
+        "fact_id": "fact-86b3212f7e5090d6",
+        "fact_version": 1
+      },
+      {
+        "fact_id": "fact-d88242430e2a82e0",
+        "fact_version": 1
+      },
+      {
+        "fact_id": "fact-b338dfb32c18be33",
+        "fact_version": 1
+      },
+      {
+        "fact_id": "fact-f1b79a4a430ab8ac",
+        "fact_version": 1
+      },
+      {
+        "fact_id": "fact-da9317ea872eae27",
+        "fact_version": 1
+      }
+    ],
+    "occurrence": 0,
+    "status": "ACTIVE",
+    "derived_at": ""
+  },
+  {
+    "event_id": "evt-35110dcbe6af1e8b",
+    "event_version": 1,
+    "document_id": "doc-607891ddb7eae21c",
+    "event_type": "regulatory_enforcement",
+    "fact_version_snapshot": [
+      {
+        "fact_id": "fact-7dd35f189987e9e5",
+        "fact_version": 1
+      },
+      {
+        "fact_id": "fact-675fbe73255e49d8",
+        "fact_version": 1
+      },
+      {
+        "fact_id": "fact-4c37194b1ba94c61",
+        "fact_version": 1
+      }
+    ],
+    "occurrence": 0,
+    "status": "ACTIVE",
+    "derived_at": ""
+  },
+  {
+    "event_id": "evt-ecd70f3ae34ce3bb",
+    "event_version": 1,
+    "document_id": "doc-b72c1ee4a05de89b",
+    "event_type": "regulatory_enforcement",
+    "fact_version_snapshot": [
+      {
+        "fact_id": "fact-6bd47eddfeddf8ac",
+        "fact_version": 1
+      },
+      {
+        "fact_id": "fact-dd5acb860eade6c3",
+        "fact_version": 1
+      }
+    ],
+    "occurrence": 0,
+    "status": "ACTIVE",
+    "derived_at": ""
+  },
+  {
+    "event_id": "evt-8dae79a832761567",
+    "event_version": 1,
+    "document_id": "doc-49401aaf4cb8f90c",
+    "event_type": "statistical_release",
+    "fact_version_snapshot": [
+      {
+        "fact_id": "fact-3d2309ae5018ff25",
+        "fact_version": 1
+      },
+      {
+        "fact_id": "fact-f3f762c2006d4337",
+        "fact_version": 1
+      },
+      {
+        "fact_id": "fact-8cbc7c94cf26ab71",
+        "fact_version": 1
+      },
+      {
+        "fact_id": "fact-cf2f7aecc224bef2",
+        "fact_version": 1
+      },
+      {
+        "fact_id": "fact-2c620815607c5045",
+        "fact_version": 1
+      },
+      {
+        "fact_id": "fact-6d2b2bfe6d70a280",
+        "fact_version": 1
+      }
+    ],
+    "occurrence": 0,
+    "status": "ACTIVE",
+    "derived_at": ""
+  },
+  {
+    "event_id": "evt-2ebcc45622487737",
+    "event_version": 1,
+    "document_id": "doc-4948ce14a03b3c19",
+    "event_type": "statistical_release",
+    "fact_version_snapshot": [
+      {
+        "fact_id": "fact-a68cee90da47afbe",
+        "fact_version": 1
+      }
+    ],
+    "occurrence": 0,
+    "status": "ACTIVE",
+    "derived_at": ""
+  },
+  {
+    "event_id": "evt-ae00859c3f255f9c",
+    "event_version": 1,
+    "document_id": "doc-60e8e4990db38b6b",
+    "event_type": "statistical_release",
+    "fact_version_snapshot": [
+      {
+        "fact_id": "fact-9d21c8ba2112eae6",
+        "fact_version": 1
+      },
+      {
+        "fact_id": "fact-aa09ead49ecbf39b",
+        "fact_version": 1
+      },
+      {
+        "fact_id": "fact-4a3cea8cf93bb7c4",
+        "fact_version": 1
+      }
+    ],
+    "occurrence": 0,
+    "status": "ACTIVE",
+    "derived_at": ""
+  },
+  {
+    "event_id": "evt-8e5bddb6a753bfe4",
+    "event_version": 1,
+    "document_id": "doc-76db58a41348002b",
+    "event_type": "regulatory_enforcement",
+    "fact_version_snapshot": [
+      {
+        "fact_id": "fact-6d72ebd9f29e3586",
+        "fact_version": 1
+      }
+    ],
+    "occurrence": 0,
+    "status": "ACTIVE",
+    "derived_at": ""
+  },
+  {
+    "event_id": "evt-de90a317a69593eb",
+    "event_version": 1,
+    "document_id": "doc-ac00651c0093d6f9",
+    "event_type": "statistical_release",
+    "fact_version_snapshot": [
+      {
+        "fact_id": "fact-c414d514d5c622a8",
+        "fact_version": 1
+      },
+      {
+        "fact_id": "fact-93886ca19cf99356",
+        "fact_version": 1
+      },
+      {
+        "fact_id": "fact-4f99a04d47708ad8",
+        "fact_version": 1
+      },
+      {
+        "fact_id": "fact-6488edf6d404d026",
+        "fact_version": 1
+      },
+      {
+        "fact_id": "fact-77b608d6be956b5c",
+        "fact_version": 1
+      },
+      {
+        "fact_id": "fact-7e8cd396171e8bfc",
+        "fact_version": 1
+      }
+    ],
+    "occurrence": 0,
+    "status": "ACTIVE",
+    "derived_at": ""
+  },
+  {
+    "event_id": "evt-a5ff702530367617",
+    "event_version": 1,
+    "document_id": "doc-60379f7197c52080",
+    "event_type": "monetary_policy_decision",
+    "fact_version_snapshot": [
+      {
+        "fact_id": "fact-c7cfe1cdf63d1ece",
+        "fact_version": 1
+      }
+    ],
+    "occurrence": 0,
+    "status": "ACTIVE",
+    "derived_at": ""
+  },
+  {
+    "event_id": "evt-955c53ab013e63b1",
+    "event_version": 1,
+    "document_id": "doc-60379f7197c52080",
+    "event_type": "statistical_release",
+    "fact_version_snapshot": [
+      {
+        "fact_id": "fact-2fb5486b7ebb2192",
+        "fact_version": 1
+      },
+      {
+        "fact_id": "fact-5832a7cca4052570",
+        "fact_version": 1
+      },
+      {
+        "fact_id": "fact-a3893f5901b16ffc",
+        "fact_version": 1
+      }
+    ],
+    "occurrence": 0,
+    "status": "ACTIVE",
+    "derived_at": ""
+  },
+  {
+    "event_id": "evt-4202b509c86ea6d7",
+    "event_version": 1,
+    "document_id": "doc-3977e22b6168c0e8",
+    "event_type": "monetary_policy_decision",
+    "fact_version_snapshot": [
+      {
+        "fact_id": "fact-71bb4a4b3fef6cb2",
+        "fact_version": 1
+      },
+      {
+        "fact_id": "fact-62fcf24c7626a738",
+        "fact_version": 1
+      }
+    ],
+    "occurrence": 0,
+    "status": "ACTIVE",
+    "derived_at": ""
+  },
+  {
+    "event_id": "evt-60ba1430c6e2a5b6",
+    "event_version": 1,
+    "document_id": "doc-3977e22b6168c0e8",
+    "event_type": "statistical_release",
+    "fact_version_snapshot": [
+      {
+        "fact_id": "fact-fb3d468f77a30cb4",
+        "fact_version": 1
+      },
+      {
+        "fact_id": "fact-709e03715face630",
+        "fact_version": 1
+      }
+    ],
+    "occurrence": 0,
+    "status": "ACTIVE",
+    "derived_at": ""
+  },
+  {
+    "event_id": "evt-44acde85cbae40e8",
+    "event_version": 1,
+    "document_id": "doc-19a6ebb8b8b9eadd",
+    "event_type": "statistical_release",
+    "fact_version_snapshot": [
+      {
+        "fact_id": "fact-a44ceae8f0251116",
+        "fact_version": 1
+      }
+    ],
+    "occurrence": 0,
+    "status": "ACTIVE",
+    "derived_at": ""
+  },
+  {
+    "event_id": "evt-d5b417a3a28689d0",
+    "event_version": 1,
+    "document_id": "doc-7d5803d21c44a224",
+    "event_type": "statistical_release",
+    "fact_version_snapshot": [
+      {
+        "fact_id": "fact-2fb3034fc5010993",
+        "fact_version": 1
+      },
+      {
+        "fact_id": "fact-1448d0b018c6f2ba",
+        "fact_version": 1
+      },
+      {
+        "fact_id": "fact-afb86c48e3509166",
+        "fact_version": 1
+      },
+      {
+        "fact_id": "fact-985e6f7a52eb99c2",
+        "fact_version": 1
+      },
+      {
+        "fact_id": "fact-b3f086e2088e3c00",
+        "fact_version": 1
+      },
+      {
+        "fact_id": "fact-9b20c8fb8f2e14df",
+        "fact_version": 1
+      },
+      {
+        "fact_id": "fact-031abc914a3475a0",
+        "fact_version": 1
+      },
+      {
+        "fact_id": "fact-39e2ac4f503fd96f",
+        "fact_version": 1
+      },
+      {
+        "fact_id": "fact-cd3805bb356be7dc",
+        "fact_version": 1
+      },
+      {
+        "fact_id": "fact-d762cf36bd9fba14",
+        "fact_version": 1
+      }
+    ],
+    "occurrence": 0,
+    "status": "ACTIVE",
+    "derived_at": ""
+  },
+  {
+    "event_id": "evt-3b2aff26534a32ec",
+    "event_version": 1,
+    "document_id": "doc-6a8a4047814c4caf",
+    "event_type": "statistical_release",
+    "fact_version_snapshot": [
+      {
+        "fact_id": "fact-fc67e2a4a0a73377",
+        "fact_version": 1
+      },
+      {
+        "fact_id": "fact-3430a44fd66b5a6a",
+        "fact_version": 1
+      },
+      {
+        "fact_id": "fact-e68565cf8fe99438",
+        "fact_version": 1
+      },
+      {
+        "fact_id": "fact-445d4a08038c29bc",
+        "fact_version": 1
+      },
+      {
+        "fact_id": "fact-ba58cccbf44aeff8",
+        "fact_version": 1
+      },
+      {
+        "fact_id": "fact-6bd325207be44909",
+        "fact_version": 1
+      },
+      {
+        "fact_id": "fact-d480eca0351c6a18",
+        "fact_version": 1
+      }
+    ],
+    "occurrence": 0,
+    "status": "ACTIVE",
+    "derived_at": ""
+  },
+  {
+    "event_id": "evt-3bfbb51410ad5df6",
+    "event_version": 1,
+    "document_id": "doc-fb1d49f16ce70f30",
+    "event_type": "monetary_policy_decision",
+    "fact_version_snapshot": [
+      {
+        "fact_id": "fact-fa145628cce884d6",
+        "fact_version": 1
+      },
+      {
+        "fact_id": "fact-d9174ec82c85702e",
+        "fact_version": 1
+      },
+      {
+        "fact_id": "fact-c6e7b5d75279f1f8",
+        "fact_version": 1
+      }
+    ],
+    "occurrence": 0,
+    "status": "ACTIVE",
+    "derived_at": ""
+  },
+  {
+    "event_id": "evt-79ac120640d6ff0f",
+    "event_version": 1,
+    "document_id": "doc-fb1d49f16ce70f30",
+    "event_type": "statistical_release",
+    "fact_version_snapshot": [
+      {
+        "fact_id": "fact-48e89a4759016501",
+        "fact_version": 1
+      },
+      {
+        "fact_id": "fact-d7e4a63e6b9e8b56",
+        "fact_version": 1
+      },
+      {
+        "fact_id": "fact-e24b8105a453b058",
+        "fact_version": 1
+      }
+    ],
+    "occurrence": 0,
+    "status": "ACTIVE",
+    "derived_at": ""
+  },
+  {
+    "event_id": "evt-e09b21d11929de3e",
+    "event_version": 1,
+    "document_id": "doc-9478d7a1e1d9a260",
+    "event_type": "statistical_release",
+    "fact_version_snapshot": [
+      {
+        "fact_id": "fact-de54b4868bf22b36",
+        "fact_version": 1
+      },
+      {
+        "fact_id": "fact-04a41eec41415ea4",
+        "fact_version": 1
+      }
+    ],
+    "occurrence": 0,
+    "status": "ACTIVE",
+    "derived_at": ""
+  },
+  {
+    "event_id": "evt-c964744ebee4255e",
+    "event_version": 1,
+    "document_id": "doc-3d16cf2bca67cc15",
+    "event_type": "statistical_release",
+    "fact_version_snapshot": [
+      {
+        "fact_id": "fact-17e1d2ed391910b6",
+        "fact_version": 1
+      }
+    ],
+    "occurrence": 0,
+    "status": "ACTIVE",
+    "derived_at": ""
+  },
+  {
+    "event_id": "evt-5c0adf589b1b3503",
+    "event_version": 1,
+    "document_id": "doc-c84807e39583b5c5",
+    "event_type": "statistical_release",
+    "fact_version_snapshot": [
+      {
+        "fact_id": "fact-0b2a28485448be75",
+        "fact_version": 1
+      }
+    ],
+    "occurrence": 0,
+    "status": "ACTIVE",
+    "derived_at": ""
+  },
+  {
+    "event_id": "evt-e44626e56d1fb4fc",
+    "event_version": 1,
+    "document_id": "doc-024943207bc4b772",
+    "event_type": "statistical_release",
+    "fact_version_snapshot": [
+      {
+        "fact_id": "fact-848e14654e2f5a47",
+        "fact_version": 1
+      }
+    ],
+    "occurrence": 0,
+    "status": "ACTIVE",
+    "derived_at": ""
+  },
+  {
+    "event_id": "evt-8be4ed722805032c",
+    "event_version": 1,
+    "document_id": "doc-a04cb4fb1ce1e79a",
+    "event_type": "statistical_release",
+    "fact_version_snapshot": [
+      {
+        "fact_id": "fact-e7d393ddf0e9f2ee",
+        "fact_version": 1
+      }
+    ],
+    "occurrence": 0,
+    "status": "ACTIVE",
+    "derived_at": ""
+  },
+  {
+    "event_id": "evt-3b7eb1cfd9d6ee99",
+    "event_version": 1,
+    "document_id": "doc-b3d9add0dfb060c9",
+    "event_type": "monetary_policy_decision",
+    "fact_version_snapshot": [
+      {
+        "fact_id": "fact-bd73445a1a6a1745",
+        "fact_version": 1
+      }
+    ],
+    "occurrence": 0,
+    "status": "ACTIVE",
+    "derived_at": ""
+  },
+  {
+    "event_id": "evt-d4e094cee119ba3d",
+    "event_version": 1,
+    "document_id": "doc-b3d9add0dfb060c9",
+    "event_type": "statistical_release",
+    "fact_version_snapshot": [
+      {
+        "fact_id": "fact-89b7c1d29ed4f812",
+        "fact_version": 1
+      },
+      {
+        "fact_id": "fact-16cb738216083d54",
+        "fact_version": 1
+      },
+      {
+        "fact_id": "fact-9cc152e5e648c1e6",
+        "fact_version": 1
+      },
+      {
+        "fact_id": "fact-0e875a7f3295b316",
+        "fact_version": 1
+      }
+    ],
+    "occurrence": 0,
+    "status": "ACTIVE",
+    "derived_at": ""
+  },
+  {
+    "event_id": "evt-3c3e2499cbb5fb33",
+    "event_version": 1,
+    "document_id": "doc-da802c5165a71f32",
+    "event_type": "statistical_release",
+    "fact_version_snapshot": [
+      {
+        "fact_id": "fact-806a8f2a936694d8",
+        "fact_version": 1
+      },
+      {
+        "fact_id": "fact-8eb425a09088679d",
+        "fact_version": 1
+      },
+      {
+        "fact_id": "fact-ed994a7f0fb9b86b",
+        "fact_version": 1
+      },
+      {
+        "fact_id": "fact-8d3d10bb075647e2",
+        "fact_version": 1
+      },
+      {
+        "fact_id": "fact-715359eea97fb99a",
+        "fact_version": 1
+      },
+      {
+        "fact_id": "fact-8bbc20fcdc80d116",
+        "fact_version": 1
+      },
+      {
+        "fact_id": "fact-8cdfea6d883a8c32",
+        "fact_version": 1
+      },
+      {
+        "fact_id": "fact-87d15d1337534cf7",
+        "fact_version": 1
+      },
+      {
+        "fact_id": "fact-fd22e8aa1f47e8e3",
+        "fact_version": 1
+      },
+      {
+        "fact_id": "fact-9bac323a816c5620",
+        "fact_version": 1
+      },
+      {
+        "fact_id": "fact-2d32af27a0383672",
+        "fact_version": 1
+      },
+      {
+        "fact_id": "fact-c292eafa229f92d7",
+        "fact_version": 1
+      },
+      {
+        "fact_id": "fact-c4c3eb3d41f47050",
+        "fact_version": 1
+      },
+      {
+        "fact_id": "fact-d4600fdeec10dadf",
+        "fact_version": 1
+      },
+      {
+        "fact_id": "fact-54e6edf7346111ad",
+        "fact_version": 1
+      },
+      {
+        "fact_id": "fact-4bc3758b7d6c0675",
+        "fact_version": 1
+      },
+      {
+        "fact_id": "fact-efdc8e7f6301ed92",
+        "fact_version": 1
+      },
+      {
+        "fact_id": "fact-2b42eb90e1e580da",
+        "fact_version": 1
+      },
+      {
+        "fact_id": "fact-942b155ed3051700",
+        "fact_version": 1
+      },
+      {
+        "fact_id": "fact-544c44aa23677a31",
+        "fact_version": 1
+      },
+      {
+        "fact_id": "fact-2ad6ab8a9b343148",
+        "fact_version": 1
+      },
+      {
+        "fact_id": "fact-d9f76bab9fff286b",
+        "fact_version": 1
+      },
+      {
+        "fact_id": "fact-b703376d886fa76b",
+        "fact_version": 1
+      },
+      {
+        "fact_id": "fact-c1f740eed65d21b7",
+        "fact_version": 1
+      },
+      {
+        "fact_id": "fact-76c4bf808835fbc4",
+        "fact_version": 1
+      },
+      {
+        "fact_id": "fact-8564edb001aed4bf",
+        "fact_version": 1
+      },
+      {
+        "fact_id": "fact-be6d7f52fca94736",
+        "fact_version": 1
+      },
+      {
+        "fact_id": "fact-b1b98e768e753e29",
+        "fact_version": 1
+      },
+      {
+        "fact_id": "fact-5bff360a304fecf9",
+        "fact_version": 1
+      },
+      {
+        "fact_id": "fact-a8a3d24256413701",
+        "fact_version": 1
+      },
+      {
+        "fact_id": "fact-451e6014e0f1e24e",
+        "fact_version": 1
+      },
+      {
+        "fact_id": "fact-aa2e36112029064e",
+        "fact_version": 1
+      },
+      {
+        "fact_id": "fact-ce016a6e249c51f3",
+        "fact_version": 1
+      },
+      {
+        "fact_id": "fact-ba426a82e4ddfc99",
+        "fact_version": 1
+      },
+      {
+        "fact_id": "fact-922362acc20fcc40",
+        "fact_version": 1
+      },
+      {
+        "fact_id": "fact-b4d95828901e957a",
+        "fact_version": 1
+      },
+      {
+        "fact_id": "fact-b11f38d14432c2cb",
+        "fact_version": 1
+      },
+      {
+        "fact_id": "fact-8fd88563fc8e9cee",
+        "fact_version": 1
+      },
+      {
+        "fact_id": "fact-77f8fc9477374bef",
+        "fact_version": 1
+      },
+      {
+        "fact_id": "fact-587adaf10bd74896",
+        "fact_version": 1
+      },
+      {
+        "fact_id": "fact-3db0d91768d0652f",
+        "fact_version": 1
+      },
+      {
+        "fact_id": "fact-7f91cb9174659326",
+        "fact_version": 1
+      },
+      {
+        "fact_id": "fact-94896543837f3f3d",
+        "fact_version": 1
+      },
+      {
+        "fact_id": "fact-497df91d19bce655",
+        "fact_version": 1
+      },
+      {
+        "fact_id": "fact-65e1f36f9913745a",
+        "fact_version": 1
+      }
+    ],
+    "occurrence": 0,
+    "status": "ACTIVE",
+    "derived_at": ""
+  },
+  {
+    "event_id": "evt-3769e038c2668cd4",
+    "event_version": 1,
+    "document_id": "doc-bda337df91614348",
+    "event_type": "statistical_release",
+    "fact_version_snapshot": [
+      {
+        "fact_id": "fact-b5582ca50c312c9b",
+        "fact_version": 1
+      },
+      {
+        "fact_id": "fact-110d8e3803ab575e",
+        "fact_version": 1
+      }
+    ],
+    "occurrence": 0,
+    "status": "ACTIVE",
+    "derived_at": ""
+  },
+  {
+    "event_id": "evt-752ea19bd9a08078",
+    "event_version": 1,
+    "document_id": "doc-55351346ad8936fe",
+    "event_type": "statistical_release",
+    "fact_version_snapshot": [
+      {
+        "fact_id": "fact-283995a495dcc170",
+        "fact_version": 1
+      }
+    ],
+    "occurrence": 0,
+    "status": "ACTIVE",
+    "derived_at": ""
+  }
+]

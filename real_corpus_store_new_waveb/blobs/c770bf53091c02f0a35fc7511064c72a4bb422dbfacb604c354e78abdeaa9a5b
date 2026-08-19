@@ -1,0 +1,3116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta charset="utf-8">
+                <title>Small Business Credit Survey | FRED | St. Louis Fed</title>
+              <script>
+      dataLayer = []
+    </script>
+
+    <!-- Google Tag Manager -->
+    <script>(function (w, d, s, l, i) {
+      w[l] = w[l] || []
+      w[l].push({
+        'gtm.start':
+          new Date().getTime(), event: 'gtm.js'
+      })
+      var f = d.getElementsByTagName(s)[0],
+        j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''
+      j.async = true
+      j.src =
+        '//www.googletagmanager.com/gtm.js?id=' + i + dl
+      f.parentNode.insertBefore(j, f)
+    })(window, document, 'script', 'dataLayer', 'GTM-5L322W')</script>
+    <!-- End Google Tag Manager -->
+
+        <meta name="description" content="Release: Small Business Credit Survey, 418 economic data series, FRED: Download, graph, and track economic data.">
+            <meta name="keywords" content="Economic Data, FRED, St. Louis Fed, Federal Reserve">
+    
+
+        
+    <script type="application/ld+json">
+    {
+        "@context": "http://schema.org",
+        "@type": "DataCatalog",
+        "license": "",
+        "name": "FRED",
+        "alternateName": "Federal Reserve Economic Data",
+        "url": "https://fred.stlouisfed.org/release?rid=1",
+        "publisher": {
+            "@type": "Organization",
+            "name": "Federal Reserve Bank of St. Louis",
+            "url": "https://www.stlouisfed.org/",
+            "address": {
+              "@type": "PostalAddress",
+                "addressLocality": "St. Louis",
+                "addressRegion": "MO",
+                "postalCode": "63102",
+                "streetAddress": "Federal Reserve Bank Plaza, 1 Broadway",
+                "addressCountry": "USA"
+            },
+             "department": "Research Division",
+             "email": "fred@stlouisfed.org",
+             "telephone": "(314) 444-8444"                  
+        }             
+    }
+
+
+    </script>
+        
+    <link rel="preconnect" href="https://research.stlouisfed.org">
+    <link rel="preconnect" href="https://uapi.stlouisfed.org">
+    <link rel="preconnect" href="https://alfred.stlouisfed.org">
+    <link rel="preconnect" href="https://fred.stlouisfed.org">
+    <link rel="preconnect" href="https://fred.stlouisfed.org">
+    <link rel="preconnect" href="https://apis.google.com">
+    <link rel="preconnect" href="https://cdnjs.cloudflare.com">
+    <link rel="preconnect" href="https://www.google-analytics.com">
+    <link rel="preconnect" href="https://www.googletagmanager.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+
+    <meta name="apple-itunes-app" content="app-id=451715489">
+    <meta name="google-play-app" content="app-id=org.stlouisfed.research.fred">
+
+    
+    
+        <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport">
+
+    <!--<meta name="viewport" content="width=device-width">-->
+
+        <link rel="canonical" href="https://fred.stlouisfed.org/release?rid=1">
+    
+    
+
+</head>
+<body class="series-pager">
+
+<!-- Google Tag Manager (noscript) -->
+<noscript>
+    <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-5L322W"
+            height="0" width="0" style="display:none;visibility:hidden"></iframe>
+</noscript>
+<!-- End Google Tag Manager (noscript) -->
+
+<!-- pingdom_uptime_check=uXCPjTUzTxL7ULra -->
+<link rel="stylesheet" type="text/css" href=/assets/bootstrap/dist/css/1786729776.bootstrap.min.css>
+<link rel="stylesheet" type="text/css" href=/assets/fontawesome-free/css/all.min.css>
+<script></script>
+<link rel="stylesheet" type="text/css" href=/css/1786729781.pager.min.css>
+<script></script>
+<link rel="stylesheet" type="text/css" href=/assets/select2/dist/css/1786729774.select2.min.css>
+
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap" rel="stylesheet">
+<!--googleoff: snippet-->
+<a href="#content-container" class="skip-to">Skip to main content</a>
+<!--googleon: snippet-->
+<a id="top"></a>
+<!--Move content shift styles internal to boost performance scores-->
+<style>
+    #zoom-and-share {
+        position:relative;
+        background-color: rgb(225, 233, 240);
+        min-height: 437px;
+    }
+</style>
+<div id="container">
+    <header>
+        <nav class="navbar navbar-expand-lg header-not-home py-0 EL-nonhomepage-header EL-header-and-subheader">
+            <div id="hidden-user" class='hide'></div>
+            <div id="action-modal"></div>
+            <div class="col-12 d-none d-lg-block">
+                <div class="col-12 d-none d-lg-flex">
+                    <a class="bank-logo-gtm" target="_blank" href="https://www.stlouisfed.org">
+                        <img class="research-logo-gtm" src="//fred.stlouisfed.org/images/Small_Stl_Fed_Logo.svg" alt="Federal Reserve Bank of St. Louis">
+                    </a>
+                    <hr class=" hr-post-frb-stls-logo">
+                </div>
+                <div class="col-12 d-none d-lg-flex">
+                    <div class="col-3 align-content-center">
+                        <a class="fred-logo-gtm" target="_blank" href="//fred.stlouisfed.org">
+                            <img class="header-logo-eagle" src="//fred.stlouisfed.org/images/FRED_Logo_Header.svg" alt="FRED homepage">
+                        </a>
+                    </div>    
+                    <div class="col-9 d-none d-lg-flex align-content-center justify-content-end">
+                        <div class='input-group EL-header-search-container' id="search-container-header">
+    <select id="head-search" class='EL-header-search'>
+        <option></option>
+    </select>
+
+    <button class="search-submit-select2" id="select2-nav-search-button" type="submit" aria-label="Submit Search">
+        <i class="fa fa-search" title="Submit Search"></i>
+    </button>
+</div>
+                        <nav id="blueheader-navbar-nav">
+                            <ul id="blueheader-navbar" class="nav float-end">
+                                <li class="blueheader-navbar-item center-content-vertically switch-products-gtm">
+                                    <span id="switchprod-popover-container" class="switchprod-popover-container">
+
+  <button type="button" id="switchProd" data-toggle="popover" aria-controls="switch-prod-list" 
+    aria-haspopup="true" class="header-popover" aria-label="Toggle Explore Our Apps Menu">
+    <img class="Switch-Products-gtm" src="//fred.stlouisfed.org/images/Waffle_Menu_off.svg" alt="Toggle Explore Our Apps Menu" />
+  </button>
+</span>
+
+<div id="switchprod-popover" class="hide">
+  <!-- empty alt values handle older screen readers that don't handle WAI-ARIA roles. Both methods allow the screenreader to skip the image and not read the filename to the user. -->
+<h2 class="explore-products-desk">Explore Our Apps</h2>
+<hr>
+<ul id="switch-prod-list" class="list-group switch-products-list" role="menu" aria-labelledby="switchProduct">
+    <li role="presentaion" id="ham-fred-dev" class="list-group-item product-fred">
+      <a class="d-flex burger-fred-gtm" role="menuitem" href="//fred.stlouisfed.org">
+        <div>
+          <img class="switch-icon-padding burger-fred-gtm" src="//fred.stlouisfed.org/images/FRED_Logo_for_Waffle.svg" alt="" role="presentation">
+        </div>
+        <div>
+          <h3 class="burger-fred-gtm">FRED</h3>
+          <p>Tools and resources to find and use economic data worldwide</p>
+        </div>
+      </a>
+    </li>
+    <li role="presentaion" id="ham-fraser" class="list-group-item">
+      <a rel="noopener" target="_blank" class="d-flex burger-fraser-gtm" role="menuitem" href="https://fraser.stlouisfed.org/">
+        <div>
+          <img class="switch-icon-padding burger-fraser-gtm" src="//fred.stlouisfed.org/images/FRASER_Logo_for_Waffle.svg" alt="" role="presentation">
+        </div>
+        <div>
+          <h3 class="burger-fraser-gtm">FRASER</h3>
+          <p>U.S. financial, economic, and banking history</p>
+        </div>
+      </a>
+    </li>
+    <li role="presentaion" id="ham-alfred" class="list-group-item">
+      <a rel="noopener" target="_blank" class="d-flex burger-alfred-gtm" role="menuitem" href="//alfred.stlouisfed.org">
+        <div>
+          <img class="switch-icon-padding burger-alfred-gtm" src="//fred.stlouisfed.org/images/ALFRED_Logo_for_Waffle.svg" alt="" role="presentation">
+        </div>
+        <div>
+          <h3 class="burger-alfred-gtm">ALFRED</h3>
+          <p>Vintages of economic data from specific dates in history</p>
+        </div>
+      </a>
+    </li>
+    <li role="presentaion" id="ham-ecolowdown" class="list-group-item">
+      <a rel="noopener" target="_blank" class="d-flex burger-econlowdown-gtm" role="menuitem" href="https://cassidi.stlouisfed.org/index">
+        <div>
+          <img class="burger-econlowdown-gtm" src="//fred.stlouisfed.org/images/CASSIDI_Logo_for_Waffle.svg" alt="" role="presentation">
+        </div>
+        <div>
+          <h3 class="burger-econlowdown-gtm">CASSIDI</h3>
+          <p>View banking market concentrations and perform HHI analysis</p>
+        </div>
+      </a>
+  </li>
+</ul>
+</div>                                </li>
+                                <li class="blueheader-navbar-item center-content-vertically">
+                                    <div class="hidden-xs" id="signin-wrap">
+                                        <div id="user-nav" class="EL-my-account-link"></div>
+                                    </div>
+                                </li>
+                            </ul>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 d-lg-none">
+                <div class="fred-logo-div col-6 align-content-center">
+                    <a class="fred-logo-gtm" href="//fred.stlouisfed.org/">
+                        <img class="header-logo" src="//fred.stlouisfed.org/images/FRED_Logo_Header_white_text.svg" alt="FRED homepage">
+                    </a>
+                </div>
+                <div class="blueheader-navbar center-content-vertically">
+                    <button type="button" id="search-btn-open" aria-controls="mobile-search-container" 
+    onclick="mobileSearchToggle('open')" aria-label="Open Search">
+    <i class="fas fa-solid fa-search" title="Open Search"></i>
+</button>
+<button type="button" id="search-btn-close" class="hide" aria-controls="mobile-search-container" 
+    onclick="mobileSearchToggle('close')" aria-label="Close Search" disabled="true">
+    <i class="fa-solid fa-x" title="Close Search"></i>
+</button>  
+                    <button type="button" id="hamburger-btn-open" class="hamburger-gtm" aria-controls="hamburger-drawer" 
+    onclick="hamburgerMenuToggle('open')" aria-label="Open Mobile Menu">
+    <i id="hamburger" class="fas fa-bars hamburger-header" title="Open Mobile Menu"></i>
+</button> 
+<button type="button" id="hamburger-btn-close" class="close-btn burger-close-gtm hide" aria-controls="hamburger-drawer" 
+    onclick="hamburgerMenuToggle('close')" aria-label="Close Mobile Menu">
+    <i class="fa-solid fa-x" title="Close Mobile Menu"></i>
+</button> 
+                </div>
+            </div>
+            <div id="notifications-container"></div>
+        </nav>
+        <div class="blueheader-navbar d-lg-none">
+            <div id="mobile-search-container" class="hide col-12">
+                <input type="hidden" id="mobile-search-input" class="search-text-input" placeholder="Search FRED Data..." disabled="disabled">
+                <button type="submit" class="search-submit-select2" id="mobile-search-submit" disabled="disabled">
+                    <i class="fas fa-solid fa-search" title="Search"></i>
+                </button>
+            </div>
+            <nav id="hamburger-drawer" class="hide">
+    <div class="slide-content">
+        <div id="hamburger-navigation">
+            <div id="hamburger-home">
+                <ul class="list-group flush-list hamburger-list col-12">
+                    <li class="list-group-item">
+                        <a class="burger-calendar-gtm" href="https://fred.stlouisfed.org/releases/calendar">Release Calendar</a>
+                    </li>
+                    <li class="list-group-item hamburger-menu-item">
+                        <button type="button" class="burger-tools-gtm" onclick="toggleMenuNavigation('hamburger-tools', true)" aria-controls="hamburger-tools">Tools
+                            <i class="fas fa-solid fa-angle-down" title="Toggle FRED Tools Submenu"></i>
+                        </button>
+                        <ul id="hamburger-tools" role="menu" class="hide list-group hamburger-submenu-list col-12">
+                            <li role="presentation" class="list-group-item">
+                                <a role="menuitem" class="burger-fred-excel-add-in-gtm" href="https://fred.stlouisfed.org/fred-addin"> FRED Add-in for Excel</a>
+                            </li>
+                            <li role="presentation" class="list-group-item">
+                                <a role="menuitem" class="burger-fred-api-gtm" href="https://fred.stlouisfed.org/docs/api/fred"> FRED API</a>
+                            </li>
+                            <li role="presentation" class="list-group-item">
+                                <a role="menuitem" class="burger-fred-mobile-apps-gtm" href="https://fred.stlouisfed.org/fred-mobile"> FRED Mobile Apps</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="list-group-item">
+                        <a class="burger-news-gtm" href="https://news.research.stlouisfed.org/category/fred-announcements/">News</a>
+                    </li>
+                    <li class="list-group-item">
+                        <a class="burger-blog-gtm" href="https://fredblog.stlouisfed.org">Blog</a>
+                    </li>
+                    <li class="list-group-item hamburger-menu-item">
+                        <button type="button" class="burger-about-gtm" onclick="toggleMenuNavigation('hamburger-about-fred', true)" aria-controls="hamburger-about-fred">About
+                            <i class="fas fa-solid fa-angle-down" title="Toggle About FRED Submenu"></i>
+                        </button>
+                        <ul id="hamburger-about-fred" role="menu" class="hide list-group hamburger-submenu-list col-12">
+                            <li role="presentation" class="list-group-item">
+                                <a role="menuitem" class="burger-fred-about-gtm" href="https://fredhelp.stlouisfed.org/fred/about/about-fred/what-is-fred/"> What is FRED</a>
+                            </li>
+                            <li role="presentation" class="list-group-item">
+                                <a role="menuitem" class="burger-tutorials-gtm" href="https://fredhelp.stlouisfed.org"> Tutorials</a>
+                            </li>
+                            <li role="presentation" class="list-group-item">
+                                <a role="menuitem" class="burger-data-literacy-gtm" href="https://fred.stlouisfed.org/digital-badges/">
+                                Digital Badges
+                                </a>
+                            </li>
+                            <li role="presentation" class="list-group-item">
+                                <a role="menuitem" class="burger-contact-us-gtm" href="https://fred.stlouisfed.org/contactus/"> Contact Us</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="list-group-item">
+                        <a class="burger-myaccount-gtm" href="https://fredaccount.stlouisfed.org">My Account</a>
+                    </li>
+                    <li class="list-group-item hamburger-menu-item">
+                        <button type="button" class="burger-switch-gtm" onclick="toggleMenuNavigation('hamburger-products', true)" aria-controls="hamburger-products">
+                            Explore Our Apps
+                            <i class="fas fa-solid fa-angle-down" title="Toggle Apps Submenu"></i>
+                        </button>
+                        <div id="hamburger-products" class="hide">
+                            <!-- empty alt values handle older screen readers that don't handle WAI-ARIA roles. Both methods allow the screenreader to skip the image and not read the filename to the user. -->
+<h2 class="explore-products-desk">Explore Our Apps</h2>
+<hr>
+<ul id="switch-prod-list" class="list-group switch-products-list" role="menu" aria-labelledby="switchProduct">
+    <li role="presentaion" id="ham-fred-dev" class="list-group-item product-fred">
+      <a class="d-flex burger-fred-gtm" role="menuitem" href="//fred.stlouisfed.org">
+        <div>
+          <img class="switch-icon-padding burger-fred-gtm" src="//fred.stlouisfed.org/images/FRED_Logo_for_Waffle.svg" alt="" role="presentation">
+        </div>
+        <div>
+          <h3 class="burger-fred-gtm">FRED</h3>
+          <p>Tools and resources to find and use economic data worldwide</p>
+        </div>
+      </a>
+    </li>
+    <li role="presentaion" id="ham-fraser" class="list-group-item">
+      <a rel="noopener" target="_blank" class="d-flex burger-fraser-gtm" role="menuitem" href="https://fraser.stlouisfed.org/">
+        <div>
+          <img class="switch-icon-padding burger-fraser-gtm" src="//fred.stlouisfed.org/images/FRASER_Logo_for_Waffle.svg" alt="" role="presentation">
+        </div>
+        <div>
+          <h3 class="burger-fraser-gtm">FRASER</h3>
+          <p>U.S. financial, economic, and banking history</p>
+        </div>
+      </a>
+    </li>
+    <li role="presentaion" id="ham-alfred" class="list-group-item">
+      <a rel="noopener" target="_blank" class="d-flex burger-alfred-gtm" role="menuitem" href="//alfred.stlouisfed.org">
+        <div>
+          <img class="switch-icon-padding burger-alfred-gtm" src="//fred.stlouisfed.org/images/ALFRED_Logo_for_Waffle.svg" alt="" role="presentation">
+        </div>
+        <div>
+          <h3 class="burger-alfred-gtm">ALFRED</h3>
+          <p>Vintages of economic data from specific dates in history</p>
+        </div>
+      </a>
+    </li>
+    <li role="presentaion" id="ham-ecolowdown" class="list-group-item">
+      <a rel="noopener" target="_blank" class="d-flex burger-econlowdown-gtm" role="menuitem" href="https://cassidi.stlouisfed.org/index">
+        <div>
+          <img class="burger-econlowdown-gtm" src="//fred.stlouisfed.org/images/CASSIDI_Logo_for_Waffle.svg" alt="" role="presentation">
+        </div>
+        <div>
+          <h3 class="burger-econlowdown-gtm">CASSIDI</h3>
+          <p>View banking market concentrations and perform HHI analysis</p>
+        </div>
+      </a>
+  </li>
+</ul>
+                        </div>
+                    </li>
+                    <li class="list-group-item">
+                        <a class="burger-stls-home-gtm" href="https://www.stlouisfed.org/">STL Fed Home Page</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</nav>
+        </div>
+        <div class='navbar navbar-expand-lg sub-header EL-header-and-subheader'>
+            <div class="container-fluid gx-0">
+                <div class="col d-flex justify-content-end">
+                    <div class="container-fluid gx-0">
+                        
+<hr class="col-12 hr-pre-subheader-nav d-none d-lg-block">
+<nav class="col-12 navbar EL-main-nav navbar-expand-sm d-none d-lg-flex" id="subheader-nav">
+    <div class="navbar-collapse collapse d-flex justify-content-end">
+        <ul id="subheader-navbar" class="nav float-end navbar-nav">
+            <li class="nav-li-subheader">
+                <a href="https://fred.stlouisfed.org/releases/calendar" class="nav-releasecal-subheader-gtm">Release Calendar</a>
+            </li>
+            <li class="nav-li-subheader">
+              <span class="sub-header-nav-tools-gtm  header-popover fred-tools-container">
+  <button type="button" id="fred-tools-link" class="align-icon header-popover tools-gtm" 
+    aria-haspopup="true" aria-controls="fred-tools-menu" data-toggle="popover" 
+    onclick="toggleMenuNavigation('fred-tools-popover')">Tools
+    <i class="fas fa-angle-down" title="Toggle Tools Menu"></i>
+  </button>
+</span>
+
+<div id="fred-tools-popover" class="hide">
+  <ul id="fred-tools-menu" role="menu" class="header-list-popover list-group flush-list">
+    <li role="presentation" class="list-group-item">
+      <a role="menuitem" class="homepage-nav-tools-fred-excel-addin-gtm" href="https://fred.stlouisfed.org/fred-addin">FRED Add-in for Excel</a>
+    </li>
+    <li role="presentation" class="list-group-item">
+      <a role="menuitem" class="homepage-nav-tools-fred-api-gtm" href="https://fred.stlouisfed.org/docs/api/fred">FRED API</a>
+    </li>
+    <li role="presentation" class="list-group-item">
+      <a role="menuitem" class="homepage-nav-tools-fred-mobile-gtm" href="https://fred.stlouisfed.org/fred-mobile">FRED Mobile Apps</a>
+    </li>
+  </ul>
+</div>            </li>
+            <li class="nav-li-subheader">
+                <a href="https://news.research.stlouisfed.org/category/fred-announcements/" class="nav-news-subheader-gtm">News</a>
+            </li>
+            <li class="nav-li-subheader">
+                <a href="https://fredblog.stlouisfed.org" class="nav-fredblog-subheader-gtm">Blog</a>
+            </li>
+            <li class="nav-li-subheader">
+              
+<span class="subheader-nav-about-gtm about-fred-container">
+  <button type="button" id="about-fred-link" class="align-icon header-popover about-gtm" 
+    data-toggle="popover" aria-controls="about-fred-menu" aria-haspopup="true"
+    onclick="toggleMenuNavigation('about-fred-popover')">About
+    <i class="fas fa-angle-down" alt="Toggle About Menu"></i>
+  </button>
+</span>
+
+<div id="about-fred-popover" class="hide">
+  <ul id="about-fred-menu" role="menu" aria-labelledby="about-fred-link" class="header-list-popover list-group flush-list">
+    <li role="presentation" class="list-group-item">
+      <a role="menuitem" class="about-fred-what-is-gtm" href="https://fredhelp.stlouisfed.org/fred/about/about-fred/what-is-fred/">
+        What is FRED
+      </a>
+    </li>
+    <li role="presentation" class="list-group-item">
+      <a role="menuitem" class="about-fred-tutorials-gtm" href="https://fredhelp.stlouisfed.org">
+        Tutorials
+      </a>
+    </li>
+    <li role="presentation" class="list-group-item">
+      <a role="menuitem" class="about-research-data-literacy-gtm" href="https://fred.stlouisfed.org/digital-badges/">
+        Digital Badges
+      </a>
+    </li>
+    <li role="presentation" class="list-group-item">
+      <a role="menuitem" class="about-fred-contact-gtm" href="https://fred.stlouisfed.org/contactus/ ">
+        Contact Us
+      </a>
+    </li>
+  </ul>
+</div>
+            </li>
+        </ul>
+    </div>
+</nav>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+
+<nav id="site-breadcrumbs" class="site-breadcrumbs d-none d-lg-block align-content-center" aria-label="site breadcrumbs">
+    <div class="container gx-0">
+        <a class="breadcrumb_link" href="/sources">Sources</a> <span class="px-2">&gt;</span> <a class="breadcrumb_link" href="/source?soid=2">Federal Reserve Banks (Fed Small Business)</a>
+    </div>
+</nav>
+<div class="clear row gx-0 container" id="content-container">
+
+
+
+
+<div id="page-title" class="page-title">
+    <h1>Small Business Credit Survey</h1>
+
+
+
+
+<hr class="header-divider d-block d-lg-none">
+
+<p class="series-title-notes">
+    The annual Small Business Credit Survey (SBCS) provides timely insights on small business conditions to policymakers, service providers, and lenders. The survey is a national sample of small businesses, or firms with fewer than 500 employees, aimed at providing insight into firms' financing and debt needs and experiences. Its reports focus attention on growing and changing segments of the small business market, including startups, minority-owned firms, women-owned firms, rural firms, and the self-employed and gig workers.
+</p><!-- /series-title-notes -->
+
+
+<hr class="header-divider d-none d-lg-block">
+
+</div>
+
+    
+        <div id="sidebar-div" class="col-sm-3 content-2columns-left hidden-xs" tabindex="-1">
+    <a id="skipToMainContentLink" class="skip-to" href="#releaseContentContainer" tabindex="-1">Skip to main content</a>
+        <div class="hidden"> 
+   <h2>Tools</h2>
+    <ul>
+        <li><a href="/releases/calendar?rid=1&amp;y=2026">Release Calendar</a></li>
+                <li><a href="https://www.fedsmallbusiness.org/about" target="_blank" rel="nofollow" class="sprite-offsite">Release Website</a></li>
+            </ul>
+</div>
+    
+    <div class="d-none d-sm-block sidebar-filters">
+
+<form method="GET" name="search_tags" style="display:inline" id="tags-related-search-form">
+        <input type="hidden" name="t" value="">
+        <input type="hidden" name="et" value="">
+        <input type="hidden" name="rid" value="1">
+      
+    <input type="hidden" name="ptic" value="418">    
+    <input type="hidden" name="ob" value="pv">
+    <input type="hidden" name="od" value="desc">
+    <input type="hidden" name="tg" value="" id="tg">   
+    <div id="tag-search-container" class="hidden">
+    <input type="text" name="tt" value="" id="tag-search" autocomplete="off" title="Search Tags" class="hidden js-placeholder">
+    <button type="submit" name="search_tags" id="tag-search-button"> </button>
+    </div> 
+</form>
+<div id="tags-sidebar-container">
+<h2 id="sidebar-filter-by" tabindex="0" class="list-group-header header-big hidden panel-filter-header">Filter by:</h2>
+<div class="panel panel-primary panel-border top mt30 hidden panel-group-default">
+  <div class="panel-body p10">
+    <div class="list-group list-group-links list-group-spacing-xs mbn">
+        <div class="list-group-header row">
+            <h3 tabindex="0" class="group-tag-name mb-1 col-8"></h3>
+            <span class="float-end col-4 pe-2 tags-view-all"><a href="#" class="view-all-tags view-all-tags-gtm hidden" data-bs-toggle="modal" data-tilte="test" data-bs-target="#viewallModal" data-group="gen" >View All</a></span>
+        <input type="hidden" name="tg-geo" value="geo" id="tg-geo">
+      </div>
+       <div class="group-tag-list"></div>
+    </div>
+</div>
+</div>
+
+<div id="related-tags" class="old-tags-menu tag-tooltip-selector">
+</div>
+</div>
+ <div class="modal fade viewallModal" tabindex="-1" role="dialog" id="viewallModal">
+  <div class="modal-dialog viewallModalDialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+          <h4 class="modal-title">Filter by ""</h4>
+        <button type="button" class="close" data-bs-dismiss="modal" aria-label="Close" style="font-size: 26px !important;"><span style="color: #d6d6d6 !important;" aria-hidden="true">&times;</span></button>
+      </div>
+      <div class="modal-body">
+<div class="row">
+  <div class="btn-toolbar alpha">
+    <div class="btn-group btn-group-sm alphabet">
+      <button class="btn btn-default first filter-tag-letter-gtm">A</button>
+      <button class="btn btn-default filter-tag-letter-gtm">B</button>
+      <button class="btn btn-default filter-tag-letter-gtm">C</button>
+      <button class="btn btn-default filter-tag-letter-gtm">D</button>
+      <button class="btn btn-default filter-tag-letter-gtm">E</button>
+      <button class="btn btn-default filter-tag-letter-gtm">F</button>
+      <button class="btn btn-default filter-tag-letter-gtm">G</button>
+      <button class="btn btn-default filter-tag-letter-gtm">H</button>
+      <button class="btn btn-default filter-tag-letter-gtm">I</button>
+      <button class="btn btn-default filter-tag-letter-gtm">J</button>
+      <button class="btn btn-default filter-tag-letter-gtm">K</button>
+      <button class="btn btn-default filter-tag-letter-gtm">L</button>
+      <button class="btn btn-default filter-tag-letter-gtm">M</button>
+      <button class="btn btn-default filter-tag-letter-gtm">N</button>
+      <button class="btn btn-default filter-tag-letter-gtm">O</button>
+      <button class="btn btn-default filter-tag-letter-gtm">P</button>
+      <button class="btn btn-default filter-tag-letter-gtm">Q</button>
+      <button class="btn btn-default filter-tag-letter-gtm">R</button>
+      <button class="btn btn-default filter-tag-letter-gtm">S</button>
+      <button class="btn btn-default filter-tag-letter-gtm">T</button>
+      <button class="btn btn-default filter-tag-letter-gtm">U</button>
+      <button class="btn btn-default filter-tag-letter-gtm">V</button>
+      <button class="btn btn-default filter-tag-letter-gtm">W</button>
+      <button class="btn btn-default filter-tag-letter-gtm">X</button>
+      <button class="btn btn-default filter-tag-letter-gtm">Y</button>
+      <button class="btn btn-default filter-tag-letter-gtm">Z</button>
+      <button class="btn btn-default filter-tag-letter-gtm last">#</button>      
+    </div>
+  </div>
+</div>
+<div class="row">
+  <div class="form-group float-end pr10 mt10">
+      <form method="GET" name="search_tags" style="display:inline" id="tags-related-search-form">
+                    <input type="hidden" name="t" value="">
+                    <input type="hidden" name="et" value="">
+                    <input type="hidden" name="rid" value="1">
+            
+          <input type="hidden" name="ptic" value="418">    
+          <input type="hidden" name="ob" value="pv">
+          <input type="hidden" name="od" value="desc">
+          <input type="hidden" name="tg" value="" id="tg">   
+          <div class="input-group tagsFilterSearch float-end">
+            <div class="form-group has-feedback has-clear">
+              <input type="text" class="form-control" id="tag-search-view-all" placeholder="Find Filters..." value="" name="tt" autocomplete="off" title="Search Tags">
+              <span class="form-control-clear fa fa-times form-control-feedback d-none"></span>
+            </div>
+          </div>
+
+      </form>
+  </div>
+</div>
+<div class="row section modal-tag-list">
+          </div>
+</div>
+      <div class="modal-footer viewallModalFooter">
+        <button type="button" class="btn btn-default viewallFooterButton" data-bs-dismiss="modal">Cancel</button>
+      </div>
+    </div><!-- /.modal-content -->
+  </div><!-- /.modal-dialog -->
+</div><!-- /.modal -->
+  
+</div>
+
+
+</div>
+
+
+        <div class="col-12 col-sm-9 content-2columns-main gx-4">
+    
+                        
+                
+<div id="releaseContentContainer" class="pager-container" tabindex="-1">
+        <header>
+        <div class="drawer-dropdown-wrapper">
+            <nav class="drawer-dropdown">
+                <h2 class="filter-header-mobile">
+                    <div class="filter-header-inner">
+                        <i class="fa fa-filter filter-icon"></i>Filter
+                        <!--                    -->
+                    </div>
+                </h2>
+                <a href="#0" class="drawer-close">Close</a>
+                <ul class="drawer-dropdown-content">
+                <!-- Sort Dropdown -->
+                <li class="has-children">
+                    <a href="#" style="border:none; margin-top: 5px">
+                        <div class="sort-by-inner">
+                            <span class="float-start">Sort by: </span><span id="sort-by-text" class="float-end smaller">Popularity</span>
+                        </div>
+                    </a>
+                        <ul class="drawer-secondary-dropdown is-hidden" id="order_by_options-dropdown">
+                            <li class="go-back"><a class="pt-2" href="#0">Back</a></li>
+                            <li class="has-children-no">
+                                <a href="" class="list-group-item pt-2" data-order-by="pv"> <span class="float-start">Popularity </span>
+                                    <b class="float-end"><span class="tag-count sort-checked sort-checked-pv"></span></b>
+                                </a>
+                            </li>
+                            <li class="has-children-no">
+                            <a href="#" class="list-group-item pt-2" data-order-by="lu"> <span class="float-start">Updated </span>
+                                <b class="float-end"><span class="tag-count sort-checked sort-checked-lu"> </span></b>
+                            </a>
+                            </li>                            
+                            <li class="has-children-no">
+                                <a href="#" class="list-group-item pt-2" data-order-by="oe"> <span class="float-start"> Obs End</span>
+                                    <b class="float-end"><span class="tag-count sort-checked sort-checked-oe"> </span></b>
+                                </a>
+                            </li>
+                           <li class="has-children-no">
+                                <a href="#" class="list-group-item pt-2" data-order-by="os"> <span class="float-start"> Obs Start</span>
+                                    <b class="float-end"><span class="tag-count sort-checked sort-checked-os"> </span></b>
+                                </a>
+                            </li>
+                           <li class="has-children-no">
+                                <a href="#" class="list-group-item pt-2" data-order-by="t"> <span class="float-start"> Title</span>
+                                    <b class="float-end"><span class="tag-count sort-checked sort-checked-t"> </span></b>
+                                </a>
+                            </li>
+                           <li class="has-children-no">
+                                <a href="#" class="list-group-item pt-2" data-order-by="f"> <span class="float-start"> Frequency</span>
+                                    <b class="float-end"><span class="tag-count sort-checked sort-checked-f"> </span></b>
+                                </a>
+                            </li>
+                           <li class="has-children-no">
+                                <a href="#" class="list-group-item pt-2" data-order-by="u"> <span class="float-start"> Units</span>
+                                    <b class="float-end"><span class="tag-count sort-checked sort-checked-u"> </span></b>
+                                </a>
+                            </li>
+                           <li class="has-children-no">
+                                <a href="#" class="list-group-item pt-2" data-order-by="sa"> <span class="float-start"> Seas Adj</span>
+                                    <b class="float-end"><span class="tag-count sort-checked sort-checked-sa"> </span></b>
+                                </a>
+                            </li>
+
+                        </ul>
+                </li>
+                <!-- Selected Tags -->
+                                
+
+                <li class="drawer-divider browse-filters-seperator"><div class="browse-filters-text">Browse Filters</div> </li>
+
+                <li class="has-children tag-drawer-group-item hidden">
+                <a class="group-tag-name" href="#">Group 1</a>
+                    <ul class="drawer-secondary-dropdown is-hidden">
+                        <li class="go-back"><a class="pt-2" href="#0">Back</a></li>
+
+                        <li class="see-all has-children"><a class="group-tag-name-all" data-group="" href="#">View All Group</a>
+                            <ul class="drawer-secondary-dropdown is-hidden view-all-group">
+                                <li class="go-back"><a class="pt-2" href="#0">Back</a></li>
+                                <li><a href="" class="list-group-item pt-2 px-0 px-sm-2"> <span class="float-start">Loading Filters</span><b class="float-end"><span class="tag-count"></span></b></a></li>
+                            </ul>
+                        </li>
+
+                    </ul> <!-- .drawer-secondary-dropdown -->
+                </li> <!-- .has-children -->
+                </ul> <!-- .drawer-dropdown-content -->
+            </nav> <!-- .drawer-dropdown -->
+        </div> <!-- .drawer-dropdown-wrapper -->
+    </header>
+
+<style>
+    .pager-title-header{
+        padding-top: 10px;
+        font-weight: normal ;
+        font-size: 1.1rem !important;
+    }
+    @media only screen and (min-width : 1200px) {
+
+        .list-num-2  {
+            float: right;
+        }
+    }
+    @media only screen and (max-width :767px) {
+
+        .list-num-2  {
+            padding-left: 15px !important;
+            padding-right: 15px !important;
+        }
+    }
+</style>
+
+<div class="panel category-panel">
+    <form method="GET" name="mainform" action="/release"
+          style="display:inline">
+
+        <div class="panel-heading">
+            <div class="tools hidden-xs">
+                <!--<h3>Displaying  for
+                  </h3>-->
+                                <a href="/releases/calendar?rid=1&amp;y=2026"
+                   id="release-cal-btn" class="btn series-btn-508" data-bs-toggle="tooltip" data-placement="top" title=""
+                   data-original-title="Release Calendar" aria-label="Release Calendar">Release Calendar <i class="fas fa-calendar-alt" aria-hidden="true"></i></a></button>
+                                <a href="https://www.fedsmallbusiness.org/about"  rel="nofollow" target="_blank" id="data-src-btn" class="btn series-btn-508" data-bs-toggle="tooltip"
+                data-placement="top" title="" data-original-title="Release Website" aria-label="Release Website">Data Source <i
+                    class="fas fa-external-link-alt" aria-hidden="true"> </i> </a></button>
+                                            </div><!-- /tools -->
+        </div><!-- /panel-heading -->
+
+        <div class="panel-menu">
+                                    <div class="subcats col-12">
+                <div class="col-sm-12 col-12">
+                                        <p class="subtitle">Release Tables</p>
+                                        <ul class="list-bullets col-md-6 col-12 float-start release-ele-sec-left" style="padding-bottom:0;">
+                                                <li style="padding-right:5px; padding-left:15px">
+                            <a aria-describedby="1240265-avail-records" href="/release/tables?rid=1&eid=1240265">Used Owner&#039;s Personal Funds in Response to Financial Challenge</a>&nbsp;<span id="1240265-avail-records" aria-label="0 records">(0) </span>
+                        </li>
+                                                <li style="padding-right:5px; padding-left:15px">
+                            <a aria-describedby="1240315-avail-records" href="/release/tables?rid=1&eid=1240315">Applied for New Financing</a>&nbsp;<span id="1240315-avail-records" aria-label="0 records">(0) </span>
+                        </li>
+                                                <li style="padding-right:5px; padding-left:15px">
+                            <a aria-describedby="1240365-avail-records" href="/release/tables?rid=1&eid=1240365">Approved for New Financing</a>&nbsp;<span id="1240365-avail-records" aria-label="0 records">(0) </span>
+                        </li>
+                                                <li style="padding-right:5px; padding-left:15px">
+                            <a aria-describedby="1240415-avail-records" href="/release/tables?rid=1&eid=1240415">Financial Condition, Poor or Fair</a>&nbsp;<span id="1240415-avail-records" aria-label="0 records">(0) </span>
+                        </li>
+                                                <li style="padding-right:5px; padding-left:15px">
+                            <a aria-describedby="1240465-avail-records" href="/release/tables?rid=1&eid=1240465">Increased Employment</a>&nbsp;<span id="1240465-avail-records" aria-label="0 records">(0) </span>
+                        </li>
+                                                <li style="padding-right:5px; padding-left:15px">
+                            <a aria-describedby="1240515-avail-records" href="/release/tables?rid=1&eid=1240515">Expected Increase in Employment</a>&nbsp;<span id="1240515-avail-records" aria-label="0 records">(0) </span>
+                        </li>
+                                            </ul>
+                    <ul class="list-bullets list-num-2 col-md-6 col-12 float-end release-ele-sec-right" style="padding-bottom:0;">
+                                                <li>
+                            <a aria-describedby="1240565-avail-records" href="/release/tables?rid=1&eid=1240565">Operated at a Profit</a>&nbsp; <span id="1240565-avail-records" aria-label="0 records">(0) </span>
+                        </li>
+                                                <li>
+                            <a aria-describedby="1240615-avail-records" href="/release/tables?rid=1&eid=1240615">Increased Revenue</a>&nbsp; <span id="1240615-avail-records" aria-label="0 records">(0) </span>
+                        </li>
+                                                <li>
+                            <a aria-describedby="1240665-avail-records" href="/release/tables?rid=1&eid=1240665">Expected Increase in Revenue</a>&nbsp; <span id="1240665-avail-records" aria-label="0 records">(0) </span>
+                        </li>
+                                                <li>
+                            <a aria-describedby="1240715-avail-records" href="/release/tables?rid=1&eid=1240715">Experienced at Least One Financial Challenge</a>&nbsp; <span id="1240715-avail-records" aria-label="0 records">(0) </span>
+                        </li>
+                                                <li>
+                            <a aria-describedby="1240765-avail-records" href="/release/tables?rid=1&eid=1240765">Had Outstanding Debt</a>&nbsp; <span id="1240765-avail-records" aria-label="0 records">(0) </span>
+                        </li>
+                                            </ul>
+                                    </div><!-- /col-12 -->
+            </div><!-- /subcats -->
+                        
+                                                <div class="series-pager-header clear" style="border-top: 1px solid #e2e2e2; margin-bottom: .5em; padding:12px 0px;">
+                                <input type="checkbox" class="select-all-checkboxes pager-check-all-series-gtm" aria-label="Select All Releases">
+                <button name="addseries2" class="series-btn-508 add-to-data-list-gtm">Add to Data List</button>
+                <button name="addgraph2" class="series-btn-508 add-to-graph-gtm">Add to Graph</button>
+                <span class="add-multiple-graphs-to-dashboard-btn-container"></span>
+                
+                <div class="dropdown float-end" style="margin-right: -12px;">
+                    <button class="series-dropdown-508 sort-series-gtm" data-bs-toggle="dropdown"
+                            id="order-by-btn" role="combobox" aria-controls="order_by_options-dropdown" tabindex="0" aria-label="Sort by Popularity" aria-description="Choose an option from the list below">Sort by Popularity <i class="caret sort-series-gtm"></i>
+                    </button>
+                    <ul class="dropdown-menu sort-dropdown" role="listbox" id="order_by_options-dropdown" aria-labeledby="order-by-btn">
+                                                <li><a href="#" data-order-by="pv" class="sort-dropdown-item dropdown-item sort-series-pv-gtm" role="option" aria-selected="true" aria-label="Popularity">Popularity</a></li>
+                                                <li><a href="#" data-order-by="lu" class="sort-dropdown-item dropdown-item sort-series-lu-gtm" role="option" aria-selected="false" aria-label="Updated">Updated</a></li>
+                                                <li><a href="#" data-order-by="oe" class="sort-dropdown-item dropdown-item sort-series-oe-gtm" role="option" aria-selected="false" aria-label="Observation End">Obs End</a></li>
+                                                <li><a href="#" data-order-by="os" class="sort-dropdown-item dropdown-item sort-series-os-gtm" role="option" aria-selected="false" aria-label="Observation Start">Obs Start</a></li>
+                                                <li><a href="#" data-order-by="t" class="sort-dropdown-item dropdown-item sort-series-t-gtm" role="option" aria-selected="false" aria-label="Title">Title</a></li>
+                                                <li><a href="#" data-order-by="f" class="sort-dropdown-item dropdown-item sort-series-f-gtm" role="option" aria-selected="false" aria-label="Frequency">Frequency</a></li>
+                                                <li><a href="#" data-order-by="u" class="sort-dropdown-item dropdown-item sort-series-u-gtm" role="option" aria-selected="false" aria-label="Units">Units</a></li>
+                                                <li><a href="#" data-order-by="sa" class="sort-dropdown-item dropdown-item sort-series-sa-gtm" role="option" aria-selected="false" aria-label="Seasonally Adjusted">Seas Adj</a></li>
+                                            </ul>
+                </div><!-- /dropdown -->
+
+            </div><!-- /series-pager-header -->
+
+        </div><!-- /panel-menu -->
+
+
+        <div class="panel-body ph20">
+
+            <input type="hidden" name="pageID" value="1">
+            <input type="hidden" name="ob" value="pv">
+            <input type="hidden" name="od" value="desc">
+                        <input type="hidden" name="t" value="">
+                        <input type="hidden" name="et" value="">
+                        <input type="hidden" name="rid" value="1">
+            
+            <div class="series-pager-header hidden" style="margin-bottom:.5em">
+                                <input type="checkbox" class="select-all-checkboxes" aria-label="Select All Releases">
+                <button name="addseries1" class="btn btn-default btn-sm add-to-data-list-gtm">Add to Data List</button>
+                <button name="addgraph1" class="btn btn-default btn-sm add-to-graph-gtm">Add to Graph</button>
+                <span class="add-multiple-graphs-to-dashboard-btn-container"></span>
+                
+                <div class="dropdown float-end">
+                    <button class="dropdown-toggle btn btn-sm btn-default sort-series-gtm" data-bs-toggle="dropdown"
+                            id="order-by-btn" role="combobox" aria-controls="order_by_options-dropdown" tabindex="0"  aria-label="Sort by Popularity" aria-description="Choose an option from the list below">Sort by Popularity <i class="caret sort-series-gtm"></i>
+                    </button>
+                    <ul class="dropdown-menu" style="transform: translate3d(-19px, -34px, 0px);" role="listbox" id="order_by_options-dropdown" aria-labeledby="order-by-btn">
+                                                <li><a href="#" data-order-by="pv" class="dropdown-item sort-series-pv-gtm" role="option" aria-selected="true" aria-label="Popularity">Popularity</a></li>
+                                                <li><a href="#" data-order-by="lu" class="dropdown-item sort-series-lu-gtm" role="option" aria-selected="false" aria-label="Updated">Updated</a></li>
+                                                <li><a href="#" data-order-by="oe" class="dropdown-item sort-series-oe-gtm" role="option" aria-selected="false" aria-label="Observation End">Obs End</a></li>
+                                                <li><a href="#" data-order-by="os" class="dropdown-item sort-series-os-gtm" role="option" aria-selected="false" aria-label="Observation Start">Obs Start</a></li>
+                                                <li><a href="#" data-order-by="t" class="dropdown-item sort-series-t-gtm" role="option" aria-selected="false" aria-label="Title">Title</a></li>
+                                                <li><a href="#" data-order-by="f" class="dropdown-item sort-series-f-gtm" role="option" aria-selected="false" aria-label="Frequency">Frequency</a></li>
+                                                <li><a href="#" data-order-by="u" class="dropdown-item sort-series-u-gtm" role="option" aria-selected="false" aria-label="Units">Units</a></li>
+                                                <li><a href="#" data-order-by="sa" class="dropdown-item sort-series-sa-gtm" role="option" aria-selected="false" aria-label="Seasonally Adjusted">Seas Adj</a></li>
+                                            </ul>
+                </div><!-- /dropdown  -->
+            </div><!-- /series-pager-header  -->
+
+            <table border="0" id="series-pager" role="presentation" class="table-responsive">
+                
+                                
+                <tr class="series-pager-title">
+
+  <td valign="top" colspan="2">
+      <div class="display-results-title col-xs-12 col-sm-10">
+          <h3><a id="titleLink" href="/series/SBCSS10B4V2FRB" style="font-size:1.2em; padding-bottom: 2px" class="series-title pager-series-title-gtm">Small Business Credit Survey: Experienced at Least One Financial Challenge: Employer Firms Equally Owned by Men and Women</a></h3>
+      </div>
+      <div class="display-results-popularity-bar d-none d-sm-block col-sm-2">
+        <span class="popularity-bar-span-parent" data-target="popularity-bar-span-SBCSS10B4V2FRB" tabindex="0" aria-label="popularity 6% popular" title="6% popular">
+       <span aria-hidden="true" style="padding-top: 3px; padding-left:4px;" class="popularity_bar">&nbsp;</span>       <span id="popularity-bar-span-SBCSS10B4V2FRB" aria-hidden="true" class="popularity_bar_background">&nbsp;</span></span>
+      </div>
+  </td>
+  </tr>
+
+<tr class="series-pager-attr">
+
+<td colspan="2">
+      <div class="series-meta series-group-single">
+  <input class="pager-item-checkbox pager-check-series-gtm" type="checkbox" name="sids[0]" value="SBCSS10B4V2FRB">
+  <span class="attributes" style="width:350px;">Percent, Annual, Not Seasonally Adjusted</span><span class="series-meta-dates">2017 to 2025 (Jul 30)</span>
+  <br class="clear">
+  </div>
+    
+        <a id="unitLinkSBCSS10B4V2FRB" aria-describedby="aria-target-SBCSS10B4V2FRB" class="pager-series-attributes-gtm" href="/series/SBCSS10B4V2FRB">
+    
+  
+  
+  </a>
+      
+</td>
+</tr>
+<tr><td colspan="2" style="font-size:9px">&nbsp;</td></tr>
+
+                                
+                <tr class="series-pager-title">
+
+  <td valign="top" colspan="2">
+      <div class="display-results-title col-xs-12 col-sm-10">
+          <h3><a id="titleLink" href="/series/SBCSS10B0V0FRB" style="font-size:1.2em; padding-bottom: 2px" class="series-title pager-series-title-gtm">Small Business Credit Survey: Experienced at Least One Financial Challenge: Employer Firms</a></h3>
+      </div>
+      <div class="display-results-popularity-bar d-none d-sm-block col-sm-2">
+        <span class="popularity-bar-span-parent" data-target="popularity-bar-span-SBCSS10B0V0FRB" tabindex="0" aria-label="popularity 3% popular" title="3% popular">
+       <span aria-hidden="true" style="padding-top: 3px; padding-left:2px;" class="popularity_bar">&nbsp;</span>       <span id="popularity-bar-span-SBCSS10B0V0FRB" aria-hidden="true" class="popularity_bar_background">&nbsp;</span></span>
+      </div>
+  </td>
+  </tr>
+
+<tr class="series-pager-attr">
+
+<td colspan="2">
+      <div class="series-meta series-group-single">
+  <input class="pager-item-checkbox pager-check-series-gtm" type="checkbox" name="sids[1]" value="SBCSS10B0V0FRB">
+  <span class="attributes" style="width:350px;">Percent, Annual, Not Seasonally Adjusted</span><span class="series-meta-dates">2017 to 2025 (Jul 30)</span>
+  <br class="clear">
+  </div>
+    
+        <a id="unitLinkSBCSS10B0V0FRB" aria-describedby="aria-target-SBCSS10B0V0FRB" class="pager-series-attributes-gtm" href="/series/SBCSS10B0V0FRB">
+    
+  
+  
+  </a>
+      
+</td>
+</tr>
+<tr><td colspan="2" style="font-size:9px">&nbsp;</td></tr>
+
+                                
+                <tr class="series-pager-title">
+
+  <td valign="top" colspan="2">
+      <div class="display-results-title col-xs-12 col-sm-10">
+          <h3><a id="titleLink" href="/series/SBCSS8B3V1FRB" style="font-size:1.2em; padding-bottom: 2px" class="series-title pager-series-title-gtm">Small Business Credit Survey: Increased Revenue: Employer Firms With Less Than $1M in Annual Revenues</a></h3>
+      </div>
+      <div class="display-results-popularity-bar d-none d-sm-block col-sm-2">
+        <span class="popularity-bar-span-parent" data-target="popularity-bar-span-SBCSS8B3V1FRB" tabindex="0" aria-label="popularity 2% popular" title="2% popular">
+       <span aria-hidden="true" style="padding-top: 3px; padding-left:1px;" class="popularity_bar">&nbsp;</span>       <span id="popularity-bar-span-SBCSS8B3V1FRB" aria-hidden="true" class="popularity_bar_background">&nbsp;</span></span>
+      </div>
+  </td>
+  </tr>
+
+<tr class="series-pager-attr">
+
+<td colspan="2">
+      <div class="series-meta series-group-single">
+  <input class="pager-item-checkbox pager-check-series-gtm" type="checkbox" name="sids[2]" value="SBCSS8B3V1FRB">
+  <span class="attributes" style="width:350px;">Percent, Annual, Not Seasonally Adjusted</span><span class="series-meta-dates">2016 to 2025 (Jul 30)</span>
+  <br class="clear">
+  </div>
+    
+        <a id="unitLinkSBCSS8B3V1FRB" aria-describedby="aria-target-SBCSS8B3V1FRB" class="pager-series-attributes-gtm" href="/series/SBCSS8B3V1FRB">
+    
+  
+  
+  </a>
+      
+</td>
+</tr>
+<tr><td colspan="2" style="font-size:9px">&nbsp;</td></tr>
+
+                                
+                <tr class="series-pager-title">
+
+  <td valign="top" colspan="2">
+      <div class="display-results-title col-xs-12 col-sm-10">
+          <h3><a id="titleLink" href="/series/SBCSS2B1V4FRB" style="font-size:1.2em; padding-bottom: 2px" class="series-title pager-series-title-gtm">Small Business Credit Survey: Applied for New Financing: American Indian or Alaska Native-Owned Employer Firms</a></h3>
+      </div>
+      <div class="display-results-popularity-bar d-none d-sm-block col-sm-2">
+        <span class="popularity-bar-span-parent" data-target="popularity-bar-span-SBCSS2B1V4FRB" tabindex="0" aria-label="popularity 2% popular" title="2% popular">
+       <span aria-hidden="true" style="padding-top: 3px; padding-left:1px;" class="popularity_bar">&nbsp;</span>       <span id="popularity-bar-span-SBCSS2B1V4FRB" aria-hidden="true" class="popularity_bar_background">&nbsp;</span></span>
+      </div>
+  </td>
+  </tr>
+
+<tr class="series-pager-attr">
+
+<td colspan="2">
+      <div class="series-meta series-group-single">
+  <input class="pager-item-checkbox pager-check-series-gtm" type="checkbox" name="sids[3]" value="SBCSS2B1V4FRB">
+  <span class="attributes" style="width:350px;">Percent, Annual, Not Seasonally Adjusted</span><span class="series-meta-dates">2016 to 2025 (Jul 30)</span>
+  <br class="clear">
+  </div>
+    
+        <a id="unitLinkSBCSS2B1V4FRB" aria-describedby="aria-target-SBCSS2B1V4FRB" class="pager-series-attributes-gtm" href="/series/SBCSS2B1V4FRB">
+    
+  
+  
+  </a>
+      
+</td>
+</tr>
+<tr><td colspan="2" style="font-size:9px">&nbsp;</td></tr>
+
+                                
+                <tr class="series-pager-title">
+
+  <td valign="top" colspan="2">
+      <div class="display-results-title col-xs-12 col-sm-10">
+          <h3><a id="titleLink" href="/series/SBCSS3B8V1FRB" style="font-size:1.2em; padding-bottom: 2px" class="series-title pager-series-title-gtm">Small Business Credit Survey: Approved for New Financing: Low Credit Risk Employer Firms</a></h3>
+      </div>
+      <div class="display-results-popularity-bar d-none d-sm-block col-sm-2">
+        <span class="popularity-bar-span-parent" data-target="popularity-bar-span-SBCSS3B8V1FRB" tabindex="0" aria-label="popularity 2% popular" title="2% popular">
+       <span aria-hidden="true" style="padding-top: 3px; padding-left:1px;" class="popularity_bar">&nbsp;</span>       <span id="popularity-bar-span-SBCSS3B8V1FRB" aria-hidden="true" class="popularity_bar_background">&nbsp;</span></span>
+      </div>
+  </td>
+  </tr>
+
+<tr class="series-pager-attr">
+
+<td colspan="2">
+      <div class="series-meta series-group-single">
+  <input class="pager-item-checkbox pager-check-series-gtm" type="checkbox" name="sids[4]" value="SBCSS3B8V1FRB">
+  <span class="attributes" style="width:350px;">Percent, Annual, Not Seasonally Adjusted</span><span class="series-meta-dates">2016 to 2025 (Jul 30)</span>
+  <br class="clear">
+  </div>
+    
+        <a id="unitLinkSBCSS3B8V1FRB" aria-describedby="aria-target-SBCSS3B8V1FRB" class="pager-series-attributes-gtm" href="/series/SBCSS3B8V1FRB">
+    
+  
+  
+  </a>
+      
+</td>
+</tr>
+<tr><td colspan="2" style="font-size:9px">&nbsp;</td></tr>
+
+                                
+                <tr class="series-pager-title">
+
+  <td valign="top" colspan="2">
+      <div class="display-results-title col-xs-12 col-sm-10">
+          <h3><a id="titleLink" href="/series/SBCSS5B10V1FRB" style="font-size:1.2em; padding-bottom: 2px" class="series-title pager-series-title-gtm">Small Business Credit Survey: Increased Employment: Employer Firms Majority-Owned by Immigrant(s)</a></h3>
+      </div>
+      <div class="display-results-popularity-bar d-none d-sm-block col-sm-2">
+        <span class="popularity-bar-span-parent" data-target="popularity-bar-span-SBCSS5B10V1FRB" tabindex="0" aria-label="popularity 2% popular" title="2% popular">
+       <span aria-hidden="true" style="padding-top: 3px; padding-left:1px;" class="popularity_bar">&nbsp;</span>       <span id="popularity-bar-span-SBCSS5B10V1FRB" aria-hidden="true" class="popularity_bar_background">&nbsp;</span></span>
+      </div>
+  </td>
+  </tr>
+
+<tr class="series-pager-attr">
+
+<td colspan="2">
+      <div class="series-meta series-group-single">
+  <input class="pager-item-checkbox pager-check-series-gtm" type="checkbox" name="sids[5]" value="SBCSS5B10V1FRB">
+  <span class="attributes" style="width:350px;">Percent, Annual, Not Seasonally Adjusted</span><span class="series-meta-dates">2017 to 2025 (Jul 30)</span>
+  <br class="clear">
+  </div>
+    
+        <a id="unitLinkSBCSS5B10V1FRB" aria-describedby="aria-target-SBCSS5B10V1FRB" class="pager-series-attributes-gtm" href="/series/SBCSS5B10V1FRB">
+    
+  
+  
+  </a>
+      
+</td>
+</tr>
+<tr><td colspan="2" style="font-size:9px">&nbsp;</td></tr>
+
+                                
+                <tr class="series-pager-title">
+
+  <td valign="top" colspan="2">
+      <div class="display-results-title col-xs-12 col-sm-10">
+          <h3><a id="titleLink" href="/series/SBCSS11B3V2FRB" style="font-size:1.2em; padding-bottom: 2px" class="series-title pager-series-title-gtm">Small Business Credit Survey: Had Outstanding Debt: Employer Firms With More Than $1M in Annual Revenues</a></h3>
+      </div>
+      <div class="display-results-popularity-bar d-none d-sm-block col-sm-2">
+        <span class="popularity-bar-span-parent" data-target="popularity-bar-span-SBCSS11B3V2FRB" tabindex="0" aria-label="popularity 1% popular" title="1% popular">
+       <span aria-hidden="true" style="padding-top: 3px; padding-left:1px;" class="popularity_bar">&nbsp;</span>       <span id="popularity-bar-span-SBCSS11B3V2FRB" aria-hidden="true" class="popularity_bar_background">&nbsp;</span></span>
+      </div>
+  </td>
+  </tr>
+
+<tr class="series-pager-attr">
+
+<td colspan="2">
+      <div class="series-meta series-group-single">
+  <input class="pager-item-checkbox pager-check-series-gtm" type="checkbox" name="sids[6]" value="SBCSS11B3V2FRB">
+  <span class="attributes" style="width:350px;">Percent, Annual, Not Seasonally Adjusted</span><span class="series-meta-dates">2016 to 2025 (Jul 30)</span>
+  <br class="clear">
+  </div>
+    
+        <a id="unitLinkSBCSS11B3V2FRB" aria-describedby="aria-target-SBCSS11B3V2FRB" class="pager-series-attributes-gtm" href="/series/SBCSS11B3V2FRB">
+    
+  
+  
+  </a>
+      
+</td>
+</tr>
+<tr><td colspan="2" style="font-size:9px">&nbsp;</td></tr>
+
+                                
+                <tr class="series-pager-title">
+
+  <td valign="top" colspan="2">
+      <div class="display-results-title col-xs-12 col-sm-10">
+          <h3><a id="titleLink" href="/series/SBCSS10B2V4FRB" style="font-size:1.2em; padding-bottom: 2px" class="series-title pager-series-title-gtm">Small Business Credit Survey: Experienced at Least One Financial Challenge: Employer Firms With 20 to 49 Employees</a></h3>
+      </div>
+      <div class="display-results-popularity-bar d-none d-sm-block col-sm-2">
+        <span class="popularity-bar-span-parent" data-target="popularity-bar-span-SBCSS10B2V4FRB" tabindex="0" aria-label="popularity 1% popular" title="1% popular">
+       <span aria-hidden="true" style="padding-top: 3px; padding-left:1px;" class="popularity_bar">&nbsp;</span>       <span id="popularity-bar-span-SBCSS10B2V4FRB" aria-hidden="true" class="popularity_bar_background">&nbsp;</span></span>
+      </div>
+  </td>
+  </tr>
+
+<tr class="series-pager-attr">
+
+<td colspan="2">
+      <div class="series-meta series-group-single">
+  <input class="pager-item-checkbox pager-check-series-gtm" type="checkbox" name="sids[7]" value="SBCSS10B2V4FRB">
+  <span class="attributes" style="width:350px;">Percent, Annual, Not Seasonally Adjusted</span><span class="series-meta-dates">2017 to 2025 (Jul 30)</span>
+  <br class="clear">
+  </div>
+    
+        <a id="unitLinkSBCSS10B2V4FRB" aria-describedby="aria-target-SBCSS10B2V4FRB" class="pager-series-attributes-gtm" href="/series/SBCSS10B2V4FRB">
+    
+  
+  
+  </a>
+      
+</td>
+</tr>
+<tr><td colspan="2" style="font-size:9px">&nbsp;</td></tr>
+
+                                
+                <tr class="series-pager-title">
+
+  <td valign="top" colspan="2">
+      <div class="display-results-title col-xs-12 col-sm-10">
+          <h3><a id="titleLink" href="/series/SBCSS2B10V1FRB" style="font-size:1.2em; padding-bottom: 2px" class="series-title pager-series-title-gtm">Small Business Credit Survey: Applied for New Financing: Employer Firms Majority-Owned by Immigrant(s)</a></h3>
+      </div>
+      <div class="display-results-popularity-bar d-none d-sm-block col-sm-2">
+        <span class="popularity-bar-span-parent" data-target="popularity-bar-span-SBCSS2B10V1FRB" tabindex="0" aria-label="popularity 1% popular" title="1% popular">
+       <span aria-hidden="true" style="padding-top: 3px; padding-left:1px;" class="popularity_bar">&nbsp;</span>       <span id="popularity-bar-span-SBCSS2B10V1FRB" aria-hidden="true" class="popularity_bar_background">&nbsp;</span></span>
+      </div>
+  </td>
+  </tr>
+
+<tr class="series-pager-attr">
+
+<td colspan="2">
+      <div class="series-meta series-group-single">
+  <input class="pager-item-checkbox pager-check-series-gtm" type="checkbox" name="sids[8]" value="SBCSS2B10V1FRB">
+  <span class="attributes" style="width:350px;">Percent, Annual, Not Seasonally Adjusted</span><span class="series-meta-dates">2017 to 2025 (Jul 30)</span>
+  <br class="clear">
+  </div>
+    
+        <a id="unitLinkSBCSS2B10V1FRB" aria-describedby="aria-target-SBCSS2B10V1FRB" class="pager-series-attributes-gtm" href="/series/SBCSS2B10V1FRB">
+    
+  
+  
+  </a>
+      
+</td>
+</tr>
+<tr><td colspan="2" style="font-size:9px">&nbsp;</td></tr>
+
+                                
+                <tr class="series-pager-title">
+
+  <td valign="top" colspan="2">
+      <div class="display-results-title col-xs-12 col-sm-10">
+          <h3><a id="titleLink" href="/series/SBCSS2B0V0FRB" style="font-size:1.2em; padding-bottom: 2px" class="series-title pager-series-title-gtm">Small Business Credit Survey: Applied for New Financing: Employer Firms</a></h3>
+      </div>
+      <div class="display-results-popularity-bar d-none d-sm-block col-sm-2">
+        <span class="popularity-bar-span-parent" data-target="popularity-bar-span-SBCSS2B0V0FRB" tabindex="0" aria-label="popularity 1% popular" title="1% popular">
+       <span aria-hidden="true" style="padding-top: 3px; padding-left:1px;" class="popularity_bar">&nbsp;</span>       <span id="popularity-bar-span-SBCSS2B0V0FRB" aria-hidden="true" class="popularity_bar_background">&nbsp;</span></span>
+      </div>
+  </td>
+  </tr>
+
+<tr class="series-pager-attr">
+
+<td colspan="2">
+      <div class="series-meta series-group-single">
+  <input class="pager-item-checkbox pager-check-series-gtm" type="checkbox" name="sids[9]" value="SBCSS2B0V0FRB">
+  <span class="attributes" style="width:350px;">Percent, Annual, Not Seasonally Adjusted</span><span class="series-meta-dates">2016 to 2025 (Jul 30)</span>
+  <br class="clear">
+  </div>
+    
+        <a id="unitLinkSBCSS2B0V0FRB" aria-describedby="aria-target-SBCSS2B0V0FRB" class="pager-series-attributes-gtm" href="/series/SBCSS2B0V0FRB">
+    
+  
+  
+  </a>
+      
+</td>
+</tr>
+<tr><td colspan="2" style="font-size:9px">&nbsp;</td></tr>
+
+                                
+                <tr class="series-pager-title">
+
+  <td valign="top" colspan="2">
+      <div class="display-results-title col-xs-12 col-sm-10">
+          <h3><a id="titleLink" href="/series/SBCSS11B5V1FRB" style="font-size:1.2em; padding-bottom: 2px" class="series-title pager-series-title-gtm">Small Business Credit Survey: Had Outstanding Debt: Non-Manufacturing Goods Production and Associated Services Employer Firms</a></h3>
+      </div>
+      <div class="display-results-popularity-bar d-none d-sm-block col-sm-2">
+        <span class="popularity-bar-span-parent" data-target="popularity-bar-span-SBCSS11B5V1FRB" tabindex="0" aria-label="popularity 1% popular" title="1% popular">
+       <span aria-hidden="true" style="padding-top: 3px; padding-left:1px;" class="popularity_bar">&nbsp;</span>       <span id="popularity-bar-span-SBCSS11B5V1FRB" aria-hidden="true" class="popularity_bar_background">&nbsp;</span></span>
+      </div>
+  </td>
+  </tr>
+
+<tr class="series-pager-attr">
+
+<td colspan="2">
+      <div class="series-meta series-group-single">
+  <input class="pager-item-checkbox pager-check-series-gtm" type="checkbox" name="sids[10]" value="SBCSS11B5V1FRB">
+  <span class="attributes" style="width:350px;">Percent, Annual, Not Seasonally Adjusted</span><span class="series-meta-dates">2016 to 2025 (Jul 30)</span>
+  <br class="clear">
+  </div>
+    
+        <a id="unitLinkSBCSS11B5V1FRB" aria-describedby="aria-target-SBCSS11B5V1FRB" class="pager-series-attributes-gtm" href="/series/SBCSS11B5V1FRB">
+    
+  
+  
+  </a>
+      
+</td>
+</tr>
+<tr><td colspan="2" style="font-size:9px">&nbsp;</td></tr>
+
+                                
+                <tr class="series-pager-title">
+
+  <td valign="top" colspan="2">
+      <div class="display-results-title col-xs-12 col-sm-10">
+          <h3><a id="titleLink" href="/series/SBCSS11B1V1FRB" style="font-size:1.2em; padding-bottom: 2px" class="series-title pager-series-title-gtm">Small Business Credit Survey: Had Outstanding Debt: White-Owned Employer Firms</a></h3>
+      </div>
+      <div class="display-results-popularity-bar d-none d-sm-block col-sm-2">
+        <span class="popularity-bar-span-parent" data-target="popularity-bar-span-SBCSS11B1V1FRB" tabindex="0" aria-label="popularity 1% popular" title="1% popular">
+       <span aria-hidden="true" style="padding-top: 3px; padding-left:1px;" class="popularity_bar">&nbsp;</span>       <span id="popularity-bar-span-SBCSS11B1V1FRB" aria-hidden="true" class="popularity_bar_background">&nbsp;</span></span>
+      </div>
+  </td>
+  </tr>
+
+<tr class="series-pager-attr">
+
+<td colspan="2">
+      <div class="series-meta series-group-single">
+  <input class="pager-item-checkbox pager-check-series-gtm" type="checkbox" name="sids[11]" value="SBCSS11B1V1FRB">
+  <span class="attributes" style="width:350px;">Percent, Annual, Not Seasonally Adjusted</span><span class="series-meta-dates">2016 to 2025 (Jul 30)</span>
+  <br class="clear">
+  </div>
+    
+        <a id="unitLinkSBCSS11B1V1FRB" aria-describedby="aria-target-SBCSS11B1V1FRB" class="pager-series-attributes-gtm" href="/series/SBCSS11B1V1FRB">
+    
+  
+  
+  </a>
+      
+</td>
+</tr>
+<tr><td colspan="2" style="font-size:9px">&nbsp;</td></tr>
+
+                                
+                <tr class="series-pager-title">
+
+  <td valign="top" colspan="2">
+      <div class="display-results-title col-xs-12 col-sm-10">
+          <h3><a id="titleLink" href="/series/SBCSS11B2V3FRB" style="font-size:1.2em; padding-bottom: 2px" class="series-title pager-series-title-gtm">Small Business Credit Survey: Had Outstanding Debt: Employer Firms With 10 to 19 Employees</a></h3>
+      </div>
+      <div class="display-results-popularity-bar d-none d-sm-block col-sm-2">
+        <span class="popularity-bar-span-parent" data-target="popularity-bar-span-SBCSS11B2V3FRB" tabindex="0" aria-label="popularity 1% popular" title="1% popular">
+       <span aria-hidden="true" style="padding-top: 3px; padding-left:1px;" class="popularity_bar">&nbsp;</span>       <span id="popularity-bar-span-SBCSS11B2V3FRB" aria-hidden="true" class="popularity_bar_background">&nbsp;</span></span>
+      </div>
+  </td>
+  </tr>
+
+<tr class="series-pager-attr">
+
+<td colspan="2">
+      <div class="series-meta series-group-single">
+  <input class="pager-item-checkbox pager-check-series-gtm" type="checkbox" name="sids[12]" value="SBCSS11B2V3FRB">
+  <span class="attributes" style="width:350px;">Percent, Annual, Not Seasonally Adjusted</span><span class="series-meta-dates">2016 to 2025 (Jul 30)</span>
+  <br class="clear">
+  </div>
+    
+        <a id="unitLinkSBCSS11B2V3FRB" aria-describedby="aria-target-SBCSS11B2V3FRB" class="pager-series-attributes-gtm" href="/series/SBCSS11B2V3FRB">
+    
+  
+  
+  </a>
+      
+</td>
+</tr>
+<tr><td colspan="2" style="font-size:9px">&nbsp;</td></tr>
+
+                                
+                <tr class="series-pager-title">
+
+  <td valign="top" colspan="2">
+      <div class="display-results-title col-xs-12 col-sm-10">
+          <h3><a id="titleLink" href="/series/SBCSS3B11V0FRB" style="font-size:1.2em; padding-bottom: 2px" class="series-title pager-series-title-gtm">Small Business Credit Survey: Approved for New Financing: Employer Firms Not Majority-Owned by Veteran(s)</a></h3>
+      </div>
+      <div class="display-results-popularity-bar d-none d-sm-block col-sm-2">
+        <span class="popularity-bar-span-parent" data-target="popularity-bar-span-SBCSS3B11V0FRB" tabindex="0" aria-label="popularity 1% popular" title="1% popular">
+       <span aria-hidden="true" style="padding-top: 3px; padding-left:1px;" class="popularity_bar">&nbsp;</span>       <span id="popularity-bar-span-SBCSS3B11V0FRB" aria-hidden="true" class="popularity_bar_background">&nbsp;</span></span>
+      </div>
+  </td>
+  </tr>
+
+<tr class="series-pager-attr">
+
+<td colspan="2">
+      <div class="series-meta series-group-single">
+  <input class="pager-item-checkbox pager-check-series-gtm" type="checkbox" name="sids[13]" value="SBCSS3B11V0FRB">
+  <span class="attributes" style="width:350px;">Percent, Annual, Not Seasonally Adjusted</span><span class="series-meta-dates">2016 to 2025 (Jul 30)</span>
+  <br class="clear">
+  </div>
+    
+        <a id="unitLinkSBCSS3B11V0FRB" aria-describedby="aria-target-SBCSS3B11V0FRB" class="pager-series-attributes-gtm" href="/series/SBCSS3B11V0FRB">
+    
+  
+  
+  </a>
+      
+</td>
+</tr>
+<tr><td colspan="2" style="font-size:9px">&nbsp;</td></tr>
+
+                                
+                <tr class="series-pager-title">
+
+  <td valign="top" colspan="2">
+      <div class="display-results-title col-xs-12 col-sm-10">
+          <h3><a id="titleLink" href="/series/SBCSS10B3V1FRB" style="font-size:1.2em; padding-bottom: 2px" class="series-title pager-series-title-gtm">Small Business Credit Survey: Experienced at Least One Financial Challenge: Employer Firms With Less Than $1M in Annual Revenues</a></h3>
+      </div>
+      <div class="display-results-popularity-bar d-none d-sm-block col-sm-2">
+        <span class="popularity-bar-span-parent" data-target="popularity-bar-span-SBCSS10B3V1FRB" tabindex="0" aria-label="popularity 1% popular" title="1% popular">
+       <span aria-hidden="true" style="padding-top: 3px; padding-left:1px;" class="popularity_bar">&nbsp;</span>       <span id="popularity-bar-span-SBCSS10B3V1FRB" aria-hidden="true" class="popularity_bar_background">&nbsp;</span></span>
+      </div>
+  </td>
+  </tr>
+
+<tr class="series-pager-attr">
+
+<td colspan="2">
+      <div class="series-meta series-group-single">
+  <input class="pager-item-checkbox pager-check-series-gtm" type="checkbox" name="sids[14]" value="SBCSS10B3V1FRB">
+  <span class="attributes" style="width:350px;">Percent, Annual, Not Seasonally Adjusted</span><span class="series-meta-dates">2017 to 2025 (Jul 30)</span>
+  <br class="clear">
+  </div>
+    
+        <a id="unitLinkSBCSS10B3V1FRB" aria-describedby="aria-target-SBCSS10B3V1FRB" class="pager-series-attributes-gtm" href="/series/SBCSS10B3V1FRB">
+    
+  
+  
+  </a>
+      
+</td>
+</tr>
+<tr><td colspan="2" style="font-size:9px">&nbsp;</td></tr>
+
+                                
+                <tr class="series-pager-title">
+
+  <td valign="top" colspan="2">
+      <div class="display-results-title col-xs-12 col-sm-10">
+          <h3><a id="titleLink" href="/series/SBCSS3B8V3FRB" style="font-size:1.2em; padding-bottom: 2px" class="series-title pager-series-title-gtm">Small Business Credit Survey: Approved for New Financing: High Credit Risk Employer Firms</a></h3>
+      </div>
+      <div class="display-results-popularity-bar d-none d-sm-block col-sm-2">
+        <span class="popularity-bar-span-parent" data-target="popularity-bar-span-SBCSS3B8V3FRB" tabindex="0" aria-label="popularity 1% popular" title="1% popular">
+       <span aria-hidden="true" style="padding-top: 3px; padding-left:1px;" class="popularity_bar">&nbsp;</span>       <span id="popularity-bar-span-SBCSS3B8V3FRB" aria-hidden="true" class="popularity_bar_background">&nbsp;</span></span>
+      </div>
+  </td>
+  </tr>
+
+<tr class="series-pager-attr">
+
+<td colspan="2">
+      <div class="series-meta series-group-single">
+  <input class="pager-item-checkbox pager-check-series-gtm" type="checkbox" name="sids[15]" value="SBCSS3B8V3FRB">
+  <span class="attributes" style="width:350px;">Percent, Annual, Not Seasonally Adjusted</span><span class="series-meta-dates">2016 to 2025 (Jul 30)</span>
+  <br class="clear">
+  </div>
+    
+        <a id="unitLinkSBCSS3B8V3FRB" aria-describedby="aria-target-SBCSS3B8V3FRB" class="pager-series-attributes-gtm" href="/series/SBCSS3B8V3FRB">
+    
+  
+  
+  </a>
+      
+</td>
+</tr>
+<tr><td colspan="2" style="font-size:9px">&nbsp;</td></tr>
+
+                                
+                <tr class="series-pager-title">
+
+  <td valign="top" colspan="2">
+      <div class="display-results-title col-xs-12 col-sm-10">
+          <h3><a id="titleLink" href="/series/SBCSS7B4V1FRB" style="font-size:1.2em; padding-bottom: 2px" class="series-title pager-series-title-gtm">Small Business Credit Survey: Operated at a Profit: Men-Owned Employer Firms</a></h3>
+      </div>
+      <div class="display-results-popularity-bar d-none d-sm-block col-sm-2">
+        <span class="popularity-bar-span-parent" data-target="popularity-bar-span-SBCSS7B4V1FRB" tabindex="0" aria-label="popularity 1% popular" title="1% popular">
+       <span aria-hidden="true" style="padding-top: 3px; padding-left:1px;" class="popularity_bar">&nbsp;</span>       <span id="popularity-bar-span-SBCSS7B4V1FRB" aria-hidden="true" class="popularity_bar_background">&nbsp;</span></span>
+      </div>
+  </td>
+  </tr>
+
+<tr class="series-pager-attr">
+
+<td colspan="2">
+      <div class="series-meta series-group-single">
+  <input class="pager-item-checkbox pager-check-series-gtm" type="checkbox" name="sids[16]" value="SBCSS7B4V1FRB">
+  <span class="attributes" style="width:350px;">Percent, Annual, Not Seasonally Adjusted</span><span class="series-meta-dates">2016 to 2025 (Jul 30)</span>
+  <br class="clear">
+  </div>
+    
+        <a id="unitLinkSBCSS7B4V1FRB" aria-describedby="aria-target-SBCSS7B4V1FRB" class="pager-series-attributes-gtm" href="/series/SBCSS7B4V1FRB">
+    
+  
+  
+  </a>
+      
+</td>
+</tr>
+<tr><td colspan="2" style="font-size:9px">&nbsp;</td></tr>
+
+                                
+                <tr class="series-pager-title">
+
+  <td valign="top" colspan="2">
+      <div class="display-results-title col-xs-12 col-sm-10">
+          <h3><a id="titleLink" href="/series/SBCSS3B8V2FRB" style="font-size:1.2em; padding-bottom: 2px" class="series-title pager-series-title-gtm">Small Business Credit Survey: Approved for New Financing: Medium Credit Risk Employer Firms</a></h3>
+      </div>
+      <div class="display-results-popularity-bar d-none d-sm-block col-sm-2">
+        <span class="popularity-bar-span-parent" data-target="popularity-bar-span-SBCSS3B8V2FRB" tabindex="0" aria-label="popularity 1% popular" title="1% popular">
+       <span aria-hidden="true" style="padding-top: 3px; padding-left:1px;" class="popularity_bar">&nbsp;</span>       <span id="popularity-bar-span-SBCSS3B8V2FRB" aria-hidden="true" class="popularity_bar_background">&nbsp;</span></span>
+      </div>
+  </td>
+  </tr>
+
+<tr class="series-pager-attr">
+
+<td colspan="2">
+      <div class="series-meta series-group-single">
+  <input class="pager-item-checkbox pager-check-series-gtm" type="checkbox" name="sids[17]" value="SBCSS3B8V2FRB">
+  <span class="attributes" style="width:350px;">Percent, Annual, Not Seasonally Adjusted</span><span class="series-meta-dates">2016 to 2025 (Jul 30)</span>
+  <br class="clear">
+  </div>
+    
+        <a id="unitLinkSBCSS3B8V2FRB" aria-describedby="aria-target-SBCSS3B8V2FRB" class="pager-series-attributes-gtm" href="/series/SBCSS3B8V2FRB">
+    
+  
+  
+  </a>
+      
+</td>
+</tr>
+<tr><td colspan="2" style="font-size:9px">&nbsp;</td></tr>
+
+                                
+                <tr class="series-pager-title">
+
+  <td valign="top" colspan="2">
+      <div class="display-results-title col-xs-12 col-sm-10">
+          <h3><a id="titleLink" href="/series/SBCSS11B11V1FRB" style="font-size:1.2em; padding-bottom: 2px" class="series-title pager-series-title-gtm">Small Business Credit Survey: Had Outstanding Debt: Employer Firms Majority-Owned by Veteran(s)</a></h3>
+      </div>
+      <div class="display-results-popularity-bar d-none d-sm-block col-sm-2">
+        <span class="popularity-bar-span-parent" data-target="popularity-bar-span-SBCSS11B11V1FRB" tabindex="0" aria-label="popularity 1% popular" title="1% popular">
+       <span aria-hidden="true" style="padding-top: 3px; padding-left:1px;" class="popularity_bar">&nbsp;</span>       <span id="popularity-bar-span-SBCSS11B11V1FRB" aria-hidden="true" class="popularity_bar_background">&nbsp;</span></span>
+      </div>
+  </td>
+  </tr>
+
+<tr class="series-pager-attr">
+
+<td colspan="2">
+      <div class="series-meta series-group-single">
+  <input class="pager-item-checkbox pager-check-series-gtm" type="checkbox" name="sids[18]" value="SBCSS11B11V1FRB">
+  <span class="attributes" style="width:350px;">Percent, Annual, Not Seasonally Adjusted</span><span class="series-meta-dates">2016 to 2025 (Jul 30)</span>
+  <br class="clear">
+  </div>
+    
+        <a id="unitLinkSBCSS11B11V1FRB" aria-describedby="aria-target-SBCSS11B11V1FRB" class="pager-series-attributes-gtm" href="/series/SBCSS11B11V1FRB">
+    
+  
+  
+  </a>
+      
+</td>
+</tr>
+<tr><td colspan="2" style="font-size:9px">&nbsp;</td></tr>
+
+                                
+                <tr class="series-pager-title">
+
+  <td valign="top" colspan="2">
+      <div class="display-results-title col-xs-12 col-sm-10">
+          <h3><a id="titleLink" href="/series/SBCSS1B0V0FRB" style="font-size:1.2em; padding-bottom: 2px" class="series-title pager-series-title-gtm">Small Business Credit Survey: Used Owner&#039;s Personal Funds in Response to Financial Challenge: Employer Firms</a></h3>
+      </div>
+      <div class="display-results-popularity-bar d-none d-sm-block col-sm-2">
+        <span class="popularity-bar-span-parent" data-target="popularity-bar-span-SBCSS1B0V0FRB" tabindex="0" aria-label="popularity 1% popular" title="1% popular">
+       <span aria-hidden="true" style="padding-top: 3px; padding-left:1px;" class="popularity_bar">&nbsp;</span>       <span id="popularity-bar-span-SBCSS1B0V0FRB" aria-hidden="true" class="popularity_bar_background">&nbsp;</span></span>
+      </div>
+  </td>
+  </tr>
+
+<tr class="series-pager-attr">
+
+<td colspan="2">
+      <div class="series-meta series-group-single">
+  <input class="pager-item-checkbox pager-check-series-gtm" type="checkbox" name="sids[19]" value="SBCSS1B0V0FRB">
+  <span class="attributes" style="width:350px;">Percent, Annual, Not Seasonally Adjusted</span><span class="series-meta-dates">2017 to 2025 (Jul 30)</span>
+  <br class="clear">
+  </div>
+    
+        <a id="unitLinkSBCSS1B0V0FRB" aria-describedby="aria-target-SBCSS1B0V0FRB" class="pager-series-attributes-gtm" href="/series/SBCSS1B0V0FRB">
+    
+  
+  
+  </a>
+      
+</td>
+</tr>
+<tr><td colspan="2" style="font-size:9px">&nbsp;</td></tr>
+
+                                
+                <tr class="series-pager-title">
+
+  <td valign="top" colspan="2">
+      <div class="display-results-title col-xs-12 col-sm-10">
+          <h3><a id="titleLink" href="/series/SBCSS6B5V1FRB" style="font-size:1.2em; padding-bottom: 2px" class="series-title pager-series-title-gtm">Small Business Credit Survey: Expected Increase in Employment: Non-Manufacturing Goods Production and Associated Services Employer Firms</a></h3>
+      </div>
+      <div class="display-results-popularity-bar d-none d-sm-block col-sm-2">
+        <span class="popularity-bar-span-parent" data-target="popularity-bar-span-SBCSS6B5V1FRB" tabindex="0" aria-label="popularity 1% popular" title="1% popular">
+       <span aria-hidden="true" style="padding-top: 3px; padding-left:1px;" class="popularity_bar">&nbsp;</span>       <span id="popularity-bar-span-SBCSS6B5V1FRB" aria-hidden="true" class="popularity_bar_background">&nbsp;</span></span>
+      </div>
+  </td>
+  </tr>
+
+<tr class="series-pager-attr">
+
+<td colspan="2">
+      <div class="series-meta series-group-single">
+  <input class="pager-item-checkbox pager-check-series-gtm" type="checkbox" name="sids[20]" value="SBCSS6B5V1FRB">
+  <span class="attributes" style="width:350px;">Percent, Annual, Not Seasonally Adjusted</span><span class="series-meta-dates">2016 to 2025 (Jul 30)</span>
+  <br class="clear">
+  </div>
+    
+        <a id="unitLinkSBCSS6B5V1FRB" aria-describedby="aria-target-SBCSS6B5V1FRB" class="pager-series-attributes-gtm" href="/series/SBCSS6B5V1FRB">
+    
+  
+  
+  </a>
+      
+</td>
+</tr>
+<tr><td colspan="2" style="font-size:9px">&nbsp;</td></tr>
+
+                                
+                <tr class="series-pager-title">
+
+  <td valign="top" colspan="2">
+      <div class="display-results-title col-xs-12 col-sm-10">
+          <h3><a id="titleLink" href="/series/SBCSS9B5V6FRB" style="font-size:1.2em; padding-bottom: 2px" class="series-title pager-series-title-gtm">Small Business Credit Survey: Expected Increase in Revenue: Healthcare and Education Employer Firms</a></h3>
+      </div>
+      <div class="display-results-popularity-bar d-none d-sm-block col-sm-2">
+        <span class="popularity-bar-span-parent" data-target="popularity-bar-span-SBCSS9B5V6FRB" tabindex="0" aria-label="popularity 1% popular" title="1% popular">
+       <span aria-hidden="true" style="padding-top: 3px; padding-left:1px;" class="popularity_bar">&nbsp;</span>       <span id="popularity-bar-span-SBCSS9B5V6FRB" aria-hidden="true" class="popularity_bar_background">&nbsp;</span></span>
+      </div>
+  </td>
+  </tr>
+
+<tr class="series-pager-attr">
+
+<td colspan="2">
+      <div class="series-meta series-group-single">
+  <input class="pager-item-checkbox pager-check-series-gtm" type="checkbox" name="sids[21]" value="SBCSS9B5V6FRB">
+  <span class="attributes" style="width:350px;">Percent, Annual, Not Seasonally Adjusted</span><span class="series-meta-dates">2016 to 2025 (Jul 30)</span>
+  <br class="clear">
+  </div>
+    
+        <a id="unitLinkSBCSS9B5V6FRB" aria-describedby="aria-target-SBCSS9B5V6FRB" class="pager-series-attributes-gtm" href="/series/SBCSS9B5V6FRB">
+    
+  
+  
+  </a>
+      
+</td>
+</tr>
+<tr><td colspan="2" style="font-size:9px">&nbsp;</td></tr>
+
+                                
+                <tr class="series-pager-title">
+
+  <td valign="top" colspan="2">
+      <div class="display-results-title col-xs-12 col-sm-10">
+          <h3><a id="titleLink" href="/series/SBCSS6B10V0FRB" style="font-size:1.2em; padding-bottom: 2px" class="series-title pager-series-title-gtm">Small Business Credit Survey: Expected Increase in Employment: Employer Firms Not Majority Owned by Immigrant(s)</a></h3>
+      </div>
+      <div class="display-results-popularity-bar d-none d-sm-block col-sm-2">
+        <span class="popularity-bar-span-parent" data-target="popularity-bar-span-SBCSS6B10V0FRB" tabindex="0" aria-label="popularity 1% popular" title="1% popular">
+       <span aria-hidden="true" style="padding-top: 3px; padding-left:1px;" class="popularity_bar">&nbsp;</span>       <span id="popularity-bar-span-SBCSS6B10V0FRB" aria-hidden="true" class="popularity_bar_background">&nbsp;</span></span>
+      </div>
+  </td>
+  </tr>
+
+<tr class="series-pager-attr">
+
+<td colspan="2">
+      <div class="series-meta series-group-single">
+  <input class="pager-item-checkbox pager-check-series-gtm" type="checkbox" name="sids[22]" value="SBCSS6B10V0FRB">
+  <span class="attributes" style="width:350px;">Percent, Annual, Not Seasonally Adjusted</span><span class="series-meta-dates">2017 to 2025 (Jul 30)</span>
+  <br class="clear">
+  </div>
+    
+        <a id="unitLinkSBCSS6B10V0FRB" aria-describedby="aria-target-SBCSS6B10V0FRB" class="pager-series-attributes-gtm" href="/series/SBCSS6B10V0FRB">
+    
+  
+  
+  </a>
+      
+</td>
+</tr>
+<tr><td colspan="2" style="font-size:9px">&nbsp;</td></tr>
+
+                                
+                <tr class="series-pager-title">
+
+  <td valign="top" colspan="2">
+      <div class="display-results-title col-xs-12 col-sm-10">
+          <h3><a id="titleLink" href="/series/SBCSS3B5V1FRB" style="font-size:1.2em; padding-bottom: 2px" class="series-title pager-series-title-gtm">Small Business Credit Survey: Approved for New Financing: Non-Manufacturing Goods Production and Associated Services Employer Firms</a></h3>
+      </div>
+      <div class="display-results-popularity-bar d-none d-sm-block col-sm-2">
+        <span class="popularity-bar-span-parent" data-target="popularity-bar-span-SBCSS3B5V1FRB" tabindex="0" aria-label="popularity 1% popular" title="1% popular">
+       <span aria-hidden="true" style="padding-top: 3px; padding-left:1px;" class="popularity_bar">&nbsp;</span>       <span id="popularity-bar-span-SBCSS3B5V1FRB" aria-hidden="true" class="popularity_bar_background">&nbsp;</span></span>
+      </div>
+  </td>
+  </tr>
+
+<tr class="series-pager-attr">
+
+<td colspan="2">
+      <div class="series-meta series-group-single">
+  <input class="pager-item-checkbox pager-check-series-gtm" type="checkbox" name="sids[23]" value="SBCSS3B5V1FRB">
+  <span class="attributes" style="width:350px;">Percent, Annual, Not Seasonally Adjusted</span><span class="series-meta-dates">2016 to 2025 (Jul 30)</span>
+  <br class="clear">
+  </div>
+    
+        <a id="unitLinkSBCSS3B5V1FRB" aria-describedby="aria-target-SBCSS3B5V1FRB" class="pager-series-attributes-gtm" href="/series/SBCSS3B5V1FRB">
+    
+  
+  
+  </a>
+      
+</td>
+</tr>
+<tr><td colspan="2" style="font-size:9px">&nbsp;</td></tr>
+
+                                
+                <tr class="series-pager-title">
+
+  <td valign="top" colspan="2">
+      <div class="display-results-title col-xs-12 col-sm-10">
+          <h3><a id="titleLink" href="/series/SBCSS2B8V2FRB" style="font-size:1.2em; padding-bottom: 2px" class="series-title pager-series-title-gtm">Small Business Credit Survey: Applied for New Financing: Medium Credit Risk Employer Firms</a></h3>
+      </div>
+      <div class="display-results-popularity-bar d-none d-sm-block col-sm-2">
+        <span class="popularity-bar-span-parent" data-target="popularity-bar-span-SBCSS2B8V2FRB" tabindex="0" aria-label="popularity 1% popular" title="1% popular">
+       <span aria-hidden="true" style="padding-top: 3px; padding-left:1px;" class="popularity_bar">&nbsp;</span>       <span id="popularity-bar-span-SBCSS2B8V2FRB" aria-hidden="true" class="popularity_bar_background">&nbsp;</span></span>
+      </div>
+  </td>
+  </tr>
+
+<tr class="series-pager-attr">
+
+<td colspan="2">
+      <div class="series-meta series-group-single">
+  <input class="pager-item-checkbox pager-check-series-gtm" type="checkbox" name="sids[24]" value="SBCSS2B8V2FRB">
+  <span class="attributes" style="width:350px;">Percent, Annual, Not Seasonally Adjusted</span><span class="series-meta-dates">2016 to 2025 (Jul 30)</span>
+  <br class="clear">
+  </div>
+    
+        <a id="unitLinkSBCSS2B8V2FRB" aria-describedby="aria-target-SBCSS2B8V2FRB" class="pager-series-attributes-gtm" href="/series/SBCSS2B8V2FRB">
+    
+  
+  
+  </a>
+      
+</td>
+</tr>
+<tr><td colspan="2" style="font-size:9px">&nbsp;</td></tr>
+
+                                
+                <tr class="series-pager-title">
+
+  <td valign="top" colspan="2">
+      <div class="display-results-title col-xs-12 col-sm-10">
+          <h3><a id="titleLink" href="/series/SBCSS8B5V1FRB" style="font-size:1.2em; padding-bottom: 2px" class="series-title pager-series-title-gtm">Small Business Credit Survey: Increased Revenue: Non-Manufacturing Goods Production and Associated Services Employer Firms</a></h3>
+      </div>
+      <div class="display-results-popularity-bar d-none d-sm-block col-sm-2">
+        <span class="popularity-bar-span-parent" data-target="popularity-bar-span-SBCSS8B5V1FRB" tabindex="0" aria-label="popularity 1% popular" title="1% popular">
+       <span aria-hidden="true" style="padding-top: 3px; padding-left:1px;" class="popularity_bar">&nbsp;</span>       <span id="popularity-bar-span-SBCSS8B5V1FRB" aria-hidden="true" class="popularity_bar_background">&nbsp;</span></span>
+      </div>
+  </td>
+  </tr>
+
+<tr class="series-pager-attr">
+
+<td colspan="2">
+      <div class="series-meta series-group-single">
+  <input class="pager-item-checkbox pager-check-series-gtm" type="checkbox" name="sids[25]" value="SBCSS8B5V1FRB">
+  <span class="attributes" style="width:350px;">Percent, Annual, Not Seasonally Adjusted</span><span class="series-meta-dates">2016 to 2025 (Jul 30)</span>
+  <br class="clear">
+  </div>
+    
+        <a id="unitLinkSBCSS8B5V1FRB" aria-describedby="aria-target-SBCSS8B5V1FRB" class="pager-series-attributes-gtm" href="/series/SBCSS8B5V1FRB">
+    
+  
+  
+  </a>
+      
+</td>
+</tr>
+<tr><td colspan="2" style="font-size:9px">&nbsp;</td></tr>
+
+                                
+                <tr class="series-pager-title">
+
+  <td valign="top" colspan="2">
+      <div class="display-results-title col-xs-12 col-sm-10">
+          <h3><a id="titleLink" href="/series/SBCSS5B5V2FRB" style="font-size:1.2em; padding-bottom: 2px" class="series-title pager-series-title-gtm">Small Business Credit Survey: Increased Employment: Manufacturing Employer Firms</a></h3>
+      </div>
+      <div class="display-results-popularity-bar d-none d-sm-block col-sm-2">
+        <span class="popularity-bar-span-parent" data-target="popularity-bar-span-SBCSS5B5V2FRB" tabindex="0" aria-label="popularity 1% popular" title="1% popular">
+       <span aria-hidden="true" style="padding-top: 3px; padding-left:1px;" class="popularity_bar">&nbsp;</span>       <span id="popularity-bar-span-SBCSS5B5V2FRB" aria-hidden="true" class="popularity_bar_background">&nbsp;</span></span>
+      </div>
+  </td>
+  </tr>
+
+<tr class="series-pager-attr">
+
+<td colspan="2">
+      <div class="series-meta series-group-single">
+  <input class="pager-item-checkbox pager-check-series-gtm" type="checkbox" name="sids[26]" value="SBCSS5B5V2FRB">
+  <span class="attributes" style="width:350px;">Percent, Annual, Not Seasonally Adjusted</span><span class="series-meta-dates">2016 to 2025 (Jul 30)</span>
+  <br class="clear">
+  </div>
+    
+        <a id="unitLinkSBCSS5B5V2FRB" aria-describedby="aria-target-SBCSS5B5V2FRB" class="pager-series-attributes-gtm" href="/series/SBCSS5B5V2FRB">
+    
+  
+  
+  </a>
+      
+</td>
+</tr>
+<tr><td colspan="2" style="font-size:9px">&nbsp;</td></tr>
+
+                                
+                <tr class="series-pager-title">
+
+  <td valign="top" colspan="2">
+      <div class="display-results-title col-xs-12 col-sm-10">
+          <h3><a id="titleLink" href="/series/SBCSS4B5V3FRB" style="font-size:1.2em; padding-bottom: 2px" class="series-title pager-series-title-gtm">Small Business Credit Survey: Financial Condition, Poor or Fair: Retail Employer Firms</a></h3>
+      </div>
+      <div class="display-results-popularity-bar d-none d-sm-block col-sm-2">
+        <span class="popularity-bar-span-parent" data-target="popularity-bar-span-SBCSS4B5V3FRB" tabindex="0" aria-label="popularity 1% popular" title="1% popular">
+       <span aria-hidden="true" style="padding-top: 3px; padding-left:1px;" class="popularity_bar">&nbsp;</span>       <span id="popularity-bar-span-SBCSS4B5V3FRB" aria-hidden="true" class="popularity_bar_background">&nbsp;</span></span>
+      </div>
+  </td>
+  </tr>
+
+<tr class="series-pager-attr">
+
+<td colspan="2">
+      <div class="series-meta series-group-single">
+  <input class="pager-item-checkbox pager-check-series-gtm" type="checkbox" name="sids[27]" value="SBCSS4B5V3FRB">
+  <span class="attributes" style="width:350px;">Percent, Annual, Not Seasonally Adjusted</span><span class="series-meta-dates">2020 to 2025 (Jul 30)</span>
+  <br class="clear">
+  </div>
+    
+        <a id="unitLinkSBCSS4B5V3FRB" aria-describedby="aria-target-SBCSS4B5V3FRB" class="pager-series-attributes-gtm" href="/series/SBCSS4B5V3FRB">
+    
+  
+  
+  </a>
+      
+</td>
+</tr>
+<tr><td colspan="2" style="font-size:9px">&nbsp;</td></tr>
+
+                                
+                <tr class="series-pager-title">
+
+  <td valign="top" colspan="2">
+      <div class="display-results-title col-xs-12 col-sm-10">
+          <h3><a id="titleLink" href="/series/SBCSS9B6V1FRB" style="font-size:1.2em; padding-bottom: 2px" class="series-title pager-series-title-gtm">Small Business Credit Survey: Expected Increase in Revenue: Rural Employer Firms</a></h3>
+      </div>
+      <div class="display-results-popularity-bar d-none d-sm-block col-sm-2">
+        <span class="popularity-bar-span-parent" data-target="popularity-bar-span-SBCSS9B6V1FRB" tabindex="0" aria-label="popularity 1% popular" title="1% popular">
+       <span aria-hidden="true" style="padding-top: 3px; padding-left:1px;" class="popularity_bar">&nbsp;</span>       <span id="popularity-bar-span-SBCSS9B6V1FRB" aria-hidden="true" class="popularity_bar_background">&nbsp;</span></span>
+      </div>
+  </td>
+  </tr>
+
+<tr class="series-pager-attr">
+
+<td colspan="2">
+      <div class="series-meta series-group-single">
+  <input class="pager-item-checkbox pager-check-series-gtm" type="checkbox" name="sids[28]" value="SBCSS9B6V1FRB">
+  <span class="attributes" style="width:350px;">Percent, Annual, Not Seasonally Adjusted</span><span class="series-meta-dates">2016 to 2025 (Jul 30)</span>
+  <br class="clear">
+  </div>
+    
+        <a id="unitLinkSBCSS9B6V1FRB" aria-describedby="aria-target-SBCSS9B6V1FRB" class="pager-series-attributes-gtm" href="/series/SBCSS9B6V1FRB">
+    
+  
+  
+  </a>
+      
+</td>
+</tr>
+<tr><td colspan="2" style="font-size:9px">&nbsp;</td></tr>
+
+                                
+                <tr class="series-pager-title">
+
+  <td valign="top" colspan="2">
+      <div class="display-results-title col-xs-12 col-sm-10">
+          <h3><a id="titleLink" href="/series/SBCSS1B8V2FRB" style="font-size:1.2em; padding-bottom: 2px" class="series-title pager-series-title-gtm">Small Business Credit Survey: Used Owner&#039;s Personal Funds in Response to Financial Challenge: Medium Credit Risk Employer Firms</a></h3>
+      </div>
+      <div class="display-results-popularity-bar d-none d-sm-block col-sm-2">
+        <span class="popularity-bar-span-parent" data-target="popularity-bar-span-SBCSS1B8V2FRB" tabindex="0" aria-label="popularity 1% popular" title="1% popular">
+       <span aria-hidden="true" style="padding-top: 3px; padding-left:1px;" class="popularity_bar">&nbsp;</span>       <span id="popularity-bar-span-SBCSS1B8V2FRB" aria-hidden="true" class="popularity_bar_background">&nbsp;</span></span>
+      </div>
+  </td>
+  </tr>
+
+<tr class="series-pager-attr">
+
+<td colspan="2">
+      <div class="series-meta series-group-single">
+  <input class="pager-item-checkbox pager-check-series-gtm" type="checkbox" name="sids[29]" value="SBCSS1B8V2FRB">
+  <span class="attributes" style="width:350px;">Percent, Annual, Not Seasonally Adjusted</span><span class="series-meta-dates">2017 to 2025 (Jul 30)</span>
+  <br class="clear">
+  </div>
+    
+        <a id="unitLinkSBCSS1B8V2FRB" aria-describedby="aria-target-SBCSS1B8V2FRB" class="pager-series-attributes-gtm" href="/series/SBCSS1B8V2FRB">
+    
+  
+  
+  </a>
+      
+</td>
+</tr>
+<tr><td colspan="2" style="font-size:9px">&nbsp;</td></tr>
+
+                                
+                <tr class="series-pager-title">
+
+  <td valign="top" colspan="2">
+      <div class="display-results-title col-xs-12 col-sm-10">
+          <h3><a id="titleLink" href="/series/SBCSS3B1V5FRB" style="font-size:1.2em; padding-bottom: 2px" class="series-title pager-series-title-gtm">Small Business Credit Survey: Approved for New Financing: Hispanic-Owned Employer Firms</a></h3>
+      </div>
+      <div class="display-results-popularity-bar d-none d-sm-block col-sm-2">
+        <span class="popularity-bar-span-parent" data-target="popularity-bar-span-SBCSS3B1V5FRB" tabindex="0" aria-label="popularity 1% popular" title="1% popular">
+       <span aria-hidden="true" style="padding-top: 3px; padding-left:1px;" class="popularity_bar">&nbsp;</span>       <span id="popularity-bar-span-SBCSS3B1V5FRB" aria-hidden="true" class="popularity_bar_background">&nbsp;</span></span>
+      </div>
+  </td>
+  </tr>
+
+<tr class="series-pager-attr">
+
+<td colspan="2">
+      <div class="series-meta series-group-single">
+  <input class="pager-item-checkbox pager-check-series-gtm" type="checkbox" name="sids[30]" value="SBCSS3B1V5FRB">
+  <span class="attributes" style="width:350px;">Percent, Annual, Not Seasonally Adjusted</span><span class="series-meta-dates">2016 to 2025 (Jul 30)</span>
+  <br class="clear">
+  </div>
+    
+        <a id="unitLinkSBCSS3B1V5FRB" aria-describedby="aria-target-SBCSS3B1V5FRB" class="pager-series-attributes-gtm" href="/series/SBCSS3B1V5FRB">
+    
+  
+  
+  </a>
+      
+</td>
+</tr>
+<tr><td colspan="2" style="font-size:9px">&nbsp;</td></tr>
+
+                                
+                <tr class="series-pager-title">
+
+  <td valign="top" colspan="2">
+      <div class="display-results-title col-xs-12 col-sm-10">
+          <h3><a id="titleLink" href="/series/SBCSS4B0V0FRB" style="font-size:1.2em; padding-bottom: 2px" class="series-title pager-series-title-gtm">Small Business Credit Survey: Financial Condition, Poor or Fair: Employer Firms</a></h3>
+      </div>
+      <div class="display-results-popularity-bar d-none d-sm-block col-sm-2">
+        <span class="popularity-bar-span-parent" data-target="popularity-bar-span-SBCSS4B0V0FRB" tabindex="0" aria-label="popularity 1% popular" title="1% popular">
+       <span aria-hidden="true" style="padding-top: 3px; padding-left:1px;" class="popularity_bar">&nbsp;</span>       <span id="popularity-bar-span-SBCSS4B0V0FRB" aria-hidden="true" class="popularity_bar_background">&nbsp;</span></span>
+      </div>
+  </td>
+  </tr>
+
+<tr class="series-pager-attr">
+
+<td colspan="2">
+      <div class="series-meta series-group-single">
+  <input class="pager-item-checkbox pager-check-series-gtm" type="checkbox" name="sids[31]" value="SBCSS4B0V0FRB">
+  <span class="attributes" style="width:350px;">Percent, Annual, Not Seasonally Adjusted</span><span class="series-meta-dates">2020 to 2025 (Jul 30)</span>
+  <br class="clear">
+  </div>
+    
+        <a id="unitLinkSBCSS4B0V0FRB" aria-describedby="aria-target-SBCSS4B0V0FRB" class="pager-series-attributes-gtm" href="/series/SBCSS4B0V0FRB">
+    
+  
+  
+  </a>
+      
+</td>
+</tr>
+<tr><td colspan="2" style="font-size:9px">&nbsp;</td></tr>
+
+                                
+                <tr class="series-pager-title">
+
+  <td valign="top" colspan="2">
+      <div class="display-results-title col-xs-12 col-sm-10">
+          <h3><a id="titleLink" href="/series/SBCSS7B5V8FRB" style="font-size:1.2em; padding-bottom: 2px" class="series-title pager-series-title-gtm">Small Business Credit Survey: Operated at a Profit: Business Support and Consumer Services Employer Firms</a></h3>
+      </div>
+      <div class="display-results-popularity-bar d-none d-sm-block col-sm-2">
+        <span class="popularity-bar-span-parent" data-target="popularity-bar-span-SBCSS7B5V8FRB" tabindex="0" aria-label="popularity 1% popular" title="1% popular">
+       <span aria-hidden="true" style="padding-top: 3px; padding-left:1px;" class="popularity_bar">&nbsp;</span>       <span id="popularity-bar-span-SBCSS7B5V8FRB" aria-hidden="true" class="popularity_bar_background">&nbsp;</span></span>
+      </div>
+  </td>
+  </tr>
+
+<tr class="series-pager-attr">
+
+<td colspan="2">
+      <div class="series-meta series-group-single">
+  <input class="pager-item-checkbox pager-check-series-gtm" type="checkbox" name="sids[32]" value="SBCSS7B5V8FRB">
+  <span class="attributes" style="width:350px;">Percent, Annual, Not Seasonally Adjusted</span><span class="series-meta-dates">2016 to 2025 (Jul 30)</span>
+  <br class="clear">
+  </div>
+    
+        <a id="unitLinkSBCSS7B5V8FRB" aria-describedby="aria-target-SBCSS7B5V8FRB" class="pager-series-attributes-gtm" href="/series/SBCSS7B5V8FRB">
+    
+  
+  
+  </a>
+      
+</td>
+</tr>
+<tr><td colspan="2" style="font-size:9px">&nbsp;</td></tr>
+
+                                
+                <tr class="series-pager-title">
+
+  <td valign="top" colspan="2">
+      <div class="display-results-title col-xs-12 col-sm-10">
+          <h3><a id="titleLink" href="/series/SBCSS1B1V4FRB" style="font-size:1.2em; padding-bottom: 2px" class="series-title pager-series-title-gtm">Small Business Credit Survey: Used Owner&#039;s Personal Funds in Response to Financial Challenge: American Indian or Alaska Native-Owned Employer Firms</a></h3>
+      </div>
+      <div class="display-results-popularity-bar d-none d-sm-block col-sm-2">
+        <span class="popularity-bar-span-parent" data-target="popularity-bar-span-SBCSS1B1V4FRB" tabindex="0" aria-label="popularity 1% popular" title="1% popular">
+       <span aria-hidden="true" style="padding-top: 3px; padding-left:1px;" class="popularity_bar">&nbsp;</span>       <span id="popularity-bar-span-SBCSS1B1V4FRB" aria-hidden="true" class="popularity_bar_background">&nbsp;</span></span>
+      </div>
+  </td>
+  </tr>
+
+<tr class="series-pager-attr">
+
+<td colspan="2">
+      <div class="series-meta series-group-single">
+  <input class="pager-item-checkbox pager-check-series-gtm" type="checkbox" name="sids[33]" value="SBCSS1B1V4FRB">
+  <span class="attributes" style="width:350px;">Percent, Annual, Not Seasonally Adjusted</span><span class="series-meta-dates">2017 to 2025 (Jul 30)</span>
+  <br class="clear">
+  </div>
+    
+        <a id="unitLinkSBCSS1B1V4FRB" aria-describedby="aria-target-SBCSS1B1V4FRB" class="pager-series-attributes-gtm" href="/series/SBCSS1B1V4FRB">
+    
+  
+  
+  </a>
+      
+</td>
+</tr>
+<tr><td colspan="2" style="font-size:9px">&nbsp;</td></tr>
+
+                                
+                <tr class="series-pager-title">
+
+  <td valign="top" colspan="2">
+      <div class="display-results-title col-xs-12 col-sm-10">
+          <h3><a id="titleLink" href="/series/SBCSS9B5V8FRB" style="font-size:1.2em; padding-bottom: 2px" class="series-title pager-series-title-gtm">Small Business Credit Survey: Expected Increase in Revenue: Business Support and Consumer Services Employer Firms</a></h3>
+      </div>
+      <div class="display-results-popularity-bar d-none d-sm-block col-sm-2">
+        <span class="popularity-bar-span-parent" data-target="popularity-bar-span-SBCSS9B5V8FRB" tabindex="0" aria-label="popularity 1% popular" title="1% popular">
+       <span aria-hidden="true" style="padding-top: 3px; padding-left:1px;" class="popularity_bar">&nbsp;</span>       <span id="popularity-bar-span-SBCSS9B5V8FRB" aria-hidden="true" class="popularity_bar_background">&nbsp;</span></span>
+      </div>
+  </td>
+  </tr>
+
+<tr class="series-pager-attr">
+
+<td colspan="2">
+      <div class="series-meta series-group-single">
+  <input class="pager-item-checkbox pager-check-series-gtm" type="checkbox" name="sids[34]" value="SBCSS9B5V8FRB">
+  <span class="attributes" style="width:350px;">Percent, Annual, Not Seasonally Adjusted</span><span class="series-meta-dates">2016 to 2025 (Jul 30)</span>
+  <br class="clear">
+  </div>
+    
+        <a id="unitLinkSBCSS9B5V8FRB" aria-describedby="aria-target-SBCSS9B5V8FRB" class="pager-series-attributes-gtm" href="/series/SBCSS9B5V8FRB">
+    
+  
+  
+  </a>
+      
+</td>
+</tr>
+<tr><td colspan="2" style="font-size:9px">&nbsp;</td></tr>
+
+                                
+                <tr class="series-pager-title">
+
+  <td valign="top" colspan="2">
+      <div class="display-results-title col-xs-12 col-sm-10">
+          <h3><a id="titleLink" href="/series/SBCSS5B5V3FRB" style="font-size:1.2em; padding-bottom: 2px" class="series-title pager-series-title-gtm">Small Business Credit Survey: Increased Employment: Retail Employer Firms</a></h3>
+      </div>
+      <div class="display-results-popularity-bar d-none d-sm-block col-sm-2">
+        <span class="popularity-bar-span-parent" data-target="popularity-bar-span-SBCSS5B5V3FRB" tabindex="0" aria-label="popularity 1% popular" title="1% popular">
+       <span aria-hidden="true" style="padding-top: 3px; padding-left:1px;" class="popularity_bar">&nbsp;</span>       <span id="popularity-bar-span-SBCSS5B5V3FRB" aria-hidden="true" class="popularity_bar_background">&nbsp;</span></span>
+      </div>
+  </td>
+  </tr>
+
+<tr class="series-pager-attr">
+
+<td colspan="2">
+      <div class="series-meta series-group-single">
+  <input class="pager-item-checkbox pager-check-series-gtm" type="checkbox" name="sids[35]" value="SBCSS5B5V3FRB">
+  <span class="attributes" style="width:350px;">Percent, Annual, Not Seasonally Adjusted</span><span class="series-meta-dates">2016 to 2025 (Jul 30)</span>
+  <br class="clear">
+  </div>
+    
+        <a id="unitLinkSBCSS5B5V3FRB" aria-describedby="aria-target-SBCSS5B5V3FRB" class="pager-series-attributes-gtm" href="/series/SBCSS5B5V3FRB">
+    
+  
+  
+  </a>
+      
+</td>
+</tr>
+<tr><td colspan="2" style="font-size:9px">&nbsp;</td></tr>
+
+                                
+                <tr class="series-pager-title">
+
+  <td valign="top" colspan="2">
+      <div class="display-results-title col-xs-12 col-sm-10">
+          <h3><a id="titleLink" href="/series/SBCSS11B6V0FRB" style="font-size:1.2em; padding-bottom: 2px" class="series-title pager-series-title-gtm">Small Business Credit Survey: Had Outstanding Debt: Urban Employer Firms</a></h3>
+      </div>
+      <div class="display-results-popularity-bar d-none d-sm-block col-sm-2">
+        <span class="popularity-bar-span-parent" data-target="popularity-bar-span-SBCSS11B6V0FRB" tabindex="0" aria-label="popularity 1% popular" title="1% popular">
+       <span aria-hidden="true" style="padding-top: 3px; padding-left:1px;" class="popularity_bar">&nbsp;</span>       <span id="popularity-bar-span-SBCSS11B6V0FRB" aria-hidden="true" class="popularity_bar_background">&nbsp;</span></span>
+      </div>
+  </td>
+  </tr>
+
+<tr class="series-pager-attr">
+
+<td colspan="2">
+      <div class="series-meta series-group-single">
+  <input class="pager-item-checkbox pager-check-series-gtm" type="checkbox" name="sids[36]" value="SBCSS11B6V0FRB">
+  <span class="attributes" style="width:350px;">Percent, Annual, Not Seasonally Adjusted</span><span class="series-meta-dates">2016 to 2025 (Jul 30)</span>
+  <br class="clear">
+  </div>
+    
+        <a id="unitLinkSBCSS11B6V0FRB" aria-describedby="aria-target-SBCSS11B6V0FRB" class="pager-series-attributes-gtm" href="/series/SBCSS11B6V0FRB">
+    
+  
+  
+  </a>
+      
+</td>
+</tr>
+<tr><td colspan="2" style="font-size:9px">&nbsp;</td></tr>
+
+                                
+                <tr class="series-pager-title">
+
+  <td valign="top" colspan="2">
+      <div class="display-results-title col-xs-12 col-sm-10">
+          <h3><a id="titleLink" href="/series/SBCSS7B0V0FRB" style="font-size:1.2em; padding-bottom: 2px" class="series-title pager-series-title-gtm">Small Business Credit Survey: Operated at a Profit: Employer Firms</a></h3>
+      </div>
+      <div class="display-results-popularity-bar d-none d-sm-block col-sm-2">
+        <span class="popularity-bar-span-parent" data-target="popularity-bar-span-SBCSS7B0V0FRB" tabindex="0" aria-label="popularity 1% popular" title="1% popular">
+       <span aria-hidden="true" style="padding-top: 3px; padding-left:1px;" class="popularity_bar">&nbsp;</span>       <span id="popularity-bar-span-SBCSS7B0V0FRB" aria-hidden="true" class="popularity_bar_background">&nbsp;</span></span>
+      </div>
+  </td>
+  </tr>
+
+<tr class="series-pager-attr">
+
+<td colspan="2">
+      <div class="series-meta series-group-single">
+  <input class="pager-item-checkbox pager-check-series-gtm" type="checkbox" name="sids[37]" value="SBCSS7B0V0FRB">
+  <span class="attributes" style="width:350px;">Percent, Annual, Not Seasonally Adjusted</span><span class="series-meta-dates">2016 to 2025 (Jul 30)</span>
+  <br class="clear">
+  </div>
+    
+        <a id="unitLinkSBCSS7B0V0FRB" aria-describedby="aria-target-SBCSS7B0V0FRB" class="pager-series-attributes-gtm" href="/series/SBCSS7B0V0FRB">
+    
+  
+  
+  </a>
+      
+</td>
+</tr>
+<tr><td colspan="2" style="font-size:9px">&nbsp;</td></tr>
+
+                                
+                <tr class="series-pager-title">
+
+  <td valign="top" colspan="2">
+      <div class="display-results-title col-xs-12 col-sm-10">
+          <h3><a id="titleLink" href="/series/SBCSS11B0V0FRB" style="font-size:1.2em; padding-bottom: 2px" class="series-title pager-series-title-gtm">Small Business Credit Survey: Had Outstanding Debt: Employer Firms</a></h3>
+      </div>
+      <div class="display-results-popularity-bar d-none d-sm-block col-sm-2">
+        <span class="popularity-bar-span-parent" data-target="popularity-bar-span-SBCSS11B0V0FRB" tabindex="0" aria-label="popularity 1% popular" title="1% popular">
+       <span aria-hidden="true" style="padding-top: 3px; padding-left:1px;" class="popularity_bar">&nbsp;</span>       <span id="popularity-bar-span-SBCSS11B0V0FRB" aria-hidden="true" class="popularity_bar_background">&nbsp;</span></span>
+      </div>
+  </td>
+  </tr>
+
+<tr class="series-pager-attr">
+
+<td colspan="2">
+      <div class="series-meta series-group-single">
+  <input class="pager-item-checkbox pager-check-series-gtm" type="checkbox" name="sids[38]" value="SBCSS11B0V0FRB">
+  <span class="attributes" style="width:350px;">Percent, Annual, Not Seasonally Adjusted</span><span class="series-meta-dates">2016 to 2025 (Jul 30)</span>
+  <br class="clear">
+  </div>
+    
+        <a id="unitLinkSBCSS11B0V0FRB" aria-describedby="aria-target-SBCSS11B0V0FRB" class="pager-series-attributes-gtm" href="/series/SBCSS11B0V0FRB">
+    
+  
+  
+  </a>
+      
+</td>
+</tr>
+<tr><td colspan="2" style="font-size:9px">&nbsp;</td></tr>
+
+                                
+                <tr class="series-pager-title">
+
+  <td valign="top" colspan="2">
+      <div class="display-results-title col-xs-12 col-sm-10">
+          <h3><a id="titleLink" href="/series/SBCSS6B5V7FRB" style="font-size:1.2em; padding-bottom: 2px" class="series-title pager-series-title-gtm">Small Business Credit Survey: Expected Increase in Employment: Professional Services and Real Estate Employer Firms</a></h3>
+      </div>
+      <div class="display-results-popularity-bar d-none d-sm-block col-sm-2">
+        <span class="popularity-bar-span-parent" data-target="popularity-bar-span-SBCSS6B5V7FRB" tabindex="0" aria-label="popularity 1% popular" title="1% popular">
+       <span aria-hidden="true" style="padding-top: 3px; padding-left:1px;" class="popularity_bar">&nbsp;</span>       <span id="popularity-bar-span-SBCSS6B5V7FRB" aria-hidden="true" class="popularity_bar_background">&nbsp;</span></span>
+      </div>
+  </td>
+  </tr>
+
+<tr class="series-pager-attr">
+
+<td colspan="2">
+      <div class="series-meta series-group-single">
+  <input class="pager-item-checkbox pager-check-series-gtm" type="checkbox" name="sids[39]" value="SBCSS6B5V7FRB">
+  <span class="attributes" style="width:350px;">Percent, Annual, Not Seasonally Adjusted</span><span class="series-meta-dates">2016 to 2025 (Jul 30)</span>
+  <br class="clear">
+  </div>
+    
+        <a id="unitLinkSBCSS6B5V7FRB" aria-describedby="aria-target-SBCSS6B5V7FRB" class="pager-series-attributes-gtm" href="/series/SBCSS6B5V7FRB">
+    
+  
+  
+  </a>
+      
+</td>
+</tr>
+<tr><td colspan="2" style="font-size:9px">&nbsp;</td></tr>
+
+                                
+                <tr class="series-pager-title">
+
+  <td valign="top" colspan="2">
+      <div class="display-results-title col-xs-12 col-sm-10">
+          <h3><a id="titleLink" href="/series/SBCSS8B6V0FRB" style="font-size:1.2em; padding-bottom: 2px" class="series-title pager-series-title-gtm">Small Business Credit Survey: Increased Revenue: Urban Employer Firms</a></h3>
+      </div>
+      <div class="display-results-popularity-bar d-none d-sm-block col-sm-2">
+        <span class="popularity-bar-span-parent" data-target="popularity-bar-span-SBCSS8B6V0FRB" tabindex="0" aria-label="popularity 1% popular" title="1% popular">
+       <span aria-hidden="true" style="padding-top: 3px; padding-left:1px;" class="popularity_bar">&nbsp;</span>       <span id="popularity-bar-span-SBCSS8B6V0FRB" aria-hidden="true" class="popularity_bar_background">&nbsp;</span></span>
+      </div>
+  </td>
+  </tr>
+
+<tr class="series-pager-attr">
+
+<td colspan="2">
+      <div class="series-meta series-group-single">
+  <input class="pager-item-checkbox pager-check-series-gtm" type="checkbox" name="sids[40]" value="SBCSS8B6V0FRB">
+  <span class="attributes" style="width:350px;">Percent, Annual, Not Seasonally Adjusted</span><span class="series-meta-dates">2016 to 2025 (Jul 30)</span>
+  <br class="clear">
+  </div>
+    
+        <a id="unitLinkSBCSS8B6V0FRB" aria-describedby="aria-target-SBCSS8B6V0FRB" class="pager-series-attributes-gtm" href="/series/SBCSS8B6V0FRB">
+    
+  
+  
+  </a>
+      
+</td>
+</tr>
+<tr><td colspan="2" style="font-size:9px">&nbsp;</td></tr>
+
+                                
+                <tr class="series-pager-title">
+
+  <td valign="top" colspan="2">
+      <div class="display-results-title col-xs-12 col-sm-10">
+          <h3><a id="titleLink" href="/series/SBCSS8B5V2FRB" style="font-size:1.2em; padding-bottom: 2px" class="series-title pager-series-title-gtm">Small Business Credit Survey: Increased Revenue: Manufacturing Employer Firms</a></h3>
+      </div>
+      <div class="display-results-popularity-bar d-none d-sm-block col-sm-2">
+        <span class="popularity-bar-span-parent" data-target="popularity-bar-span-SBCSS8B5V2FRB" tabindex="0" aria-label="popularity 1% popular" title="1% popular">
+       <span aria-hidden="true" style="padding-top: 3px; padding-left:1px;" class="popularity_bar">&nbsp;</span>       <span id="popularity-bar-span-SBCSS8B5V2FRB" aria-hidden="true" class="popularity_bar_background">&nbsp;</span></span>
+      </div>
+  </td>
+  </tr>
+
+<tr class="series-pager-attr">
+
+<td colspan="2">
+      <div class="series-meta series-group-single">
+  <input class="pager-item-checkbox pager-check-series-gtm" type="checkbox" name="sids[41]" value="SBCSS8B5V2FRB">
+  <span class="attributes" style="width:350px;">Percent, Annual, Not Seasonally Adjusted</span><span class="series-meta-dates">2016 to 2025 (Jul 30)</span>
+  <br class="clear">
+  </div>
+    
+        <a id="unitLinkSBCSS8B5V2FRB" aria-describedby="aria-target-SBCSS8B5V2FRB" class="pager-series-attributes-gtm" href="/series/SBCSS8B5V2FRB">
+    
+  
+  
+  </a>
+      
+</td>
+</tr>
+<tr><td colspan="2" style="font-size:9px">&nbsp;</td></tr>
+
+                                
+                <tr class="series-pager-title">
+
+  <td valign="top" colspan="2">
+      <div class="display-results-title col-xs-12 col-sm-10">
+          <h3><a id="titleLink" href="/series/SBCSS8B1V2FRB" style="font-size:1.2em; padding-bottom: 2px" class="series-title pager-series-title-gtm">Small Business Credit Survey: Increased Revenue: Black or African American-Owned Employer Firms</a></h3>
+      </div>
+      <div class="display-results-popularity-bar d-none d-sm-block col-sm-2">
+        <span class="popularity-bar-span-parent" data-target="popularity-bar-span-SBCSS8B1V2FRB" tabindex="0" aria-label="popularity 1% popular" title="1% popular">
+       <span aria-hidden="true" style="padding-top: 3px; padding-left:1px;" class="popularity_bar">&nbsp;</span>       <span id="popularity-bar-span-SBCSS8B1V2FRB" aria-hidden="true" class="popularity_bar_background">&nbsp;</span></span>
+      </div>
+  </td>
+  </tr>
+
+<tr class="series-pager-attr">
+
+<td colspan="2">
+      <div class="series-meta series-group-single">
+  <input class="pager-item-checkbox pager-check-series-gtm" type="checkbox" name="sids[42]" value="SBCSS8B1V2FRB">
+  <span class="attributes" style="width:350px;">Percent, Annual, Not Seasonally Adjusted</span><span class="series-meta-dates">2016 to 2025 (Jul 30)</span>
+  <br class="clear">
+  </div>
+    
+        <a id="unitLinkSBCSS8B1V2FRB" aria-describedby="aria-target-SBCSS8B1V2FRB" class="pager-series-attributes-gtm" href="/series/SBCSS8B1V2FRB">
+    
+  
+  
+  </a>
+      
+</td>
+</tr>
+<tr><td colspan="2" style="font-size:9px">&nbsp;</td></tr>
+
+                                
+                <tr class="series-pager-title">
+
+  <td valign="top" colspan="2">
+      <div class="display-results-title col-xs-12 col-sm-10">
+          <h3><a id="titleLink" href="/series/SBCSS10B9V1FRB" style="font-size:1.2em; padding-bottom: 2px" class="series-title pager-series-title-gtm">Small Business Credit Survey: Experienced at Least One Financial Challenge: Employer Firms Majority-Owned by LGBTQ Owner(s)</a></h3>
+      </div>
+      <div class="display-results-popularity-bar d-none d-sm-block col-sm-2">
+        <span class="popularity-bar-span-parent" data-target="popularity-bar-span-SBCSS10B9V1FRB" tabindex="0" aria-label="popularity 1% popular" title="1% popular">
+       <span aria-hidden="true" style="padding-top: 3px; padding-left:1px;" class="popularity_bar">&nbsp;</span>       <span id="popularity-bar-span-SBCSS10B9V1FRB" aria-hidden="true" class="popularity_bar_background">&nbsp;</span></span>
+      </div>
+  </td>
+  </tr>
+
+<tr class="series-pager-attr">
+
+<td colspan="2">
+      <div class="series-meta series-group-single">
+  <input class="pager-item-checkbox pager-check-series-gtm" type="checkbox" name="sids[43]" value="SBCSS10B9V1FRB">
+  <span class="attributes" style="width:350px;">Percent, Annual, Not Seasonally Adjusted</span><span class="series-meta-dates">2020 to 2025 (Jul 30)</span>
+  <br class="clear">
+  </div>
+    
+        <a id="unitLinkSBCSS10B9V1FRB" aria-describedby="aria-target-SBCSS10B9V1FRB" class="pager-series-attributes-gtm" href="/series/SBCSS10B9V1FRB">
+    
+  
+  
+  </a>
+      
+</td>
+</tr>
+<tr><td colspan="2" style="font-size:9px">&nbsp;</td></tr>
+
+                                
+                <tr class="series-pager-title">
+
+  <td valign="top" colspan="2">
+      <div class="display-results-title col-xs-12 col-sm-10">
+          <h3><a id="titleLink" href="/series/SBCSS9B10V1FRB" style="font-size:1.2em; padding-bottom: 2px" class="series-title pager-series-title-gtm">Small Business Credit Survey: Expected Increase in Revenue: Employer Firms Majority-Owned by Immigrant(s)</a></h3>
+      </div>
+      <div class="display-results-popularity-bar d-none d-sm-block col-sm-2">
+        <span class="popularity-bar-span-parent" data-target="popularity-bar-span-SBCSS9B10V1FRB" tabindex="0" aria-label="popularity 1% popular" title="1% popular">
+       <span aria-hidden="true" style="padding-top: 3px; padding-left:1px;" class="popularity_bar">&nbsp;</span>       <span id="popularity-bar-span-SBCSS9B10V1FRB" aria-hidden="true" class="popularity_bar_background">&nbsp;</span></span>
+      </div>
+  </td>
+  </tr>
+
+<tr class="series-pager-attr">
+
+<td colspan="2">
+      <div class="series-meta series-group-single">
+  <input class="pager-item-checkbox pager-check-series-gtm" type="checkbox" name="sids[44]" value="SBCSS9B10V1FRB">
+  <span class="attributes" style="width:350px;">Percent, Annual, Not Seasonally Adjusted</span><span class="series-meta-dates">2017 to 2025 (Jul 30)</span>
+  <br class="clear">
+  </div>
+    
+        <a id="unitLinkSBCSS9B10V1FRB" aria-describedby="aria-target-SBCSS9B10V1FRB" class="pager-series-attributes-gtm" href="/series/SBCSS9B10V1FRB">
+    
+  
+  
+  </a>
+      
+</td>
+</tr>
+<tr><td colspan="2" style="font-size:9px">&nbsp;</td></tr>
+
+                                
+                <tr class="series-pager-title">
+
+  <td valign="top" colspan="2">
+      <div class="display-results-title col-xs-12 col-sm-10">
+          <h3><a id="titleLink" href="/series/SBCSS2B5V5FRB" style="font-size:1.2em; padding-bottom: 2px" class="series-title pager-series-title-gtm">Small Business Credit Survey: Applied for New Financing: Finance and Insurance Employer Firms</a></h3>
+      </div>
+      <div class="display-results-popularity-bar d-none d-sm-block col-sm-2">
+        <span class="popularity-bar-span-parent" data-target="popularity-bar-span-SBCSS2B5V5FRB" tabindex="0" aria-label="popularity 1% popular" title="1% popular">
+       <span aria-hidden="true" style="padding-top: 3px; padding-left:1px;" class="popularity_bar">&nbsp;</span>       <span id="popularity-bar-span-SBCSS2B5V5FRB" aria-hidden="true" class="popularity_bar_background">&nbsp;</span></span>
+      </div>
+  </td>
+  </tr>
+
+<tr class="series-pager-attr">
+
+<td colspan="2">
+      <div class="series-meta series-group-single">
+  <input class="pager-item-checkbox pager-check-series-gtm" type="checkbox" name="sids[45]" value="SBCSS2B5V5FRB">
+  <span class="attributes" style="width:350px;">Percent, Annual, Not Seasonally Adjusted</span><span class="series-meta-dates">2016 to 2025 (Jul 30)</span>
+  <br class="clear">
+  </div>
+    
+        <a id="unitLinkSBCSS2B5V5FRB" aria-describedby="aria-target-SBCSS2B5V5FRB" class="pager-series-attributes-gtm" href="/series/SBCSS2B5V5FRB">
+    
+  
+  
+  </a>
+      
+</td>
+</tr>
+<tr><td colspan="2" style="font-size:9px">&nbsp;</td></tr>
+
+                                
+                <tr class="series-pager-title">
+
+  <td valign="top" colspan="2">
+      <div class="display-results-title col-xs-12 col-sm-10">
+          <h3><a id="titleLink" href="/series/SBCSS7B2V3FRB" style="font-size:1.2em; padding-bottom: 2px" class="series-title pager-series-title-gtm">Small Business Credit Survey: Operated at a Profit: Employer Firms With 10 to 19 Employees</a></h3>
+      </div>
+      <div class="display-results-popularity-bar d-none d-sm-block col-sm-2">
+        <span class="popularity-bar-span-parent" data-target="popularity-bar-span-SBCSS7B2V3FRB" tabindex="0" aria-label="popularity 1% popular" title="1% popular">
+       <span aria-hidden="true" style="padding-top: 3px; padding-left:1px;" class="popularity_bar">&nbsp;</span>       <span id="popularity-bar-span-SBCSS7B2V3FRB" aria-hidden="true" class="popularity_bar_background">&nbsp;</span></span>
+      </div>
+  </td>
+  </tr>
+
+<tr class="series-pager-attr">
+
+<td colspan="2">
+      <div class="series-meta series-group-single">
+  <input class="pager-item-checkbox pager-check-series-gtm" type="checkbox" name="sids[46]" value="SBCSS7B2V3FRB">
+  <span class="attributes" style="width:350px;">Percent, Annual, Not Seasonally Adjusted</span><span class="series-meta-dates">2016 to 2025 (Jul 30)</span>
+  <br class="clear">
+  </div>
+    
+        <a id="unitLinkSBCSS7B2V3FRB" aria-describedby="aria-target-SBCSS7B2V3FRB" class="pager-series-attributes-gtm" href="/series/SBCSS7B2V3FRB">
+    
+  
+  
+  </a>
+      
+</td>
+</tr>
+<tr><td colspan="2" style="font-size:9px">&nbsp;</td></tr>
+
+                                
+                <tr class="series-pager-title">
+
+  <td valign="top" colspan="2">
+      <div class="display-results-title col-xs-12 col-sm-10">
+          <h3><a id="titleLink" href="/series/SBCSS7B6V0FRB" style="font-size:1.2em; padding-bottom: 2px" class="series-title pager-series-title-gtm">Small Business Credit Survey: Operated at a Profit: Urban Employer Firms</a></h3>
+      </div>
+      <div class="display-results-popularity-bar d-none d-sm-block col-sm-2">
+        <span class="popularity-bar-span-parent" data-target="popularity-bar-span-SBCSS7B6V0FRB" tabindex="0" aria-label="popularity 1% popular" title="1% popular">
+       <span aria-hidden="true" style="padding-top: 3px; padding-left:1px;" class="popularity_bar">&nbsp;</span>       <span id="popularity-bar-span-SBCSS7B6V0FRB" aria-hidden="true" class="popularity_bar_background">&nbsp;</span></span>
+      </div>
+  </td>
+  </tr>
+
+<tr class="series-pager-attr">
+
+<td colspan="2">
+      <div class="series-meta series-group-single">
+  <input class="pager-item-checkbox pager-check-series-gtm" type="checkbox" name="sids[47]" value="SBCSS7B6V0FRB">
+  <span class="attributes" style="width:350px;">Percent, Annual, Not Seasonally Adjusted</span><span class="series-meta-dates">2016 to 2025 (Jul 30)</span>
+  <br class="clear">
+  </div>
+    
+        <a id="unitLinkSBCSS7B6V0FRB" aria-describedby="aria-target-SBCSS7B6V0FRB" class="pager-series-attributes-gtm" href="/series/SBCSS7B6V0FRB">
+    
+  
+  
+  </a>
+      
+</td>
+</tr>
+<tr><td colspan="2" style="font-size:9px">&nbsp;</td></tr>
+
+                                
+                <tr class="series-pager-title">
+
+  <td valign="top" colspan="2">
+      <div class="display-results-title col-xs-12 col-sm-10">
+          <h3><a id="titleLink" href="/series/SBCSS6B2V4FRB" style="font-size:1.2em; padding-bottom: 2px" class="series-title pager-series-title-gtm">Small Business Credit Survey: Expected Increase in Employment: Employer Firms With 20 to 49 Employees</a></h3>
+      </div>
+      <div class="display-results-popularity-bar d-none d-sm-block col-sm-2">
+        <span class="popularity-bar-span-parent" data-target="popularity-bar-span-SBCSS6B2V4FRB" tabindex="0" aria-label="popularity 1% popular" title="1% popular">
+       <span aria-hidden="true" style="padding-top: 3px; padding-left:1px;" class="popularity_bar">&nbsp;</span>       <span id="popularity-bar-span-SBCSS6B2V4FRB" aria-hidden="true" class="popularity_bar_background">&nbsp;</span></span>
+      </div>
+  </td>
+  </tr>
+
+<tr class="series-pager-attr">
+
+<td colspan="2">
+      <div class="series-meta series-group-single">
+  <input class="pager-item-checkbox pager-check-series-gtm" type="checkbox" name="sids[48]" value="SBCSS6B2V4FRB">
+  <span class="attributes" style="width:350px;">Percent, Annual, Not Seasonally Adjusted</span><span class="series-meta-dates">2016 to 2025 (Jul 30)</span>
+  <br class="clear">
+  </div>
+    
+        <a id="unitLinkSBCSS6B2V4FRB" aria-describedby="aria-target-SBCSS6B2V4FRB" class="pager-series-attributes-gtm" href="/series/SBCSS6B2V4FRB">
+    
+  
+  
+  </a>
+      
+</td>
+</tr>
+<tr><td colspan="2" style="font-size:9px">&nbsp;</td></tr>
+
+                                
+                <tr class="series-pager-title">
+
+  <td valign="top" colspan="2">
+      <div class="display-results-title col-xs-12 col-sm-10">
+          <h3><a id="titleLink" href="/series/SBCSS10B11V1FRB" style="font-size:1.2em; padding-bottom: 2px" class="series-title pager-series-title-gtm">Small Business Credit Survey: Experienced at Least One Financial Challenge: Employer Firms Majority-Owned by Veteran(s)</a></h3>
+      </div>
+      <div class="display-results-popularity-bar d-none d-sm-block col-sm-2">
+        <span class="popularity-bar-span-parent" data-target="popularity-bar-span-SBCSS10B11V1FRB" tabindex="0" aria-label="popularity 1% popular" title="1% popular">
+       <span aria-hidden="true" style="padding-top: 3px; padding-left:1px;" class="popularity_bar">&nbsp;</span>       <span id="popularity-bar-span-SBCSS10B11V1FRB" aria-hidden="true" class="popularity_bar_background">&nbsp;</span></span>
+      </div>
+  </td>
+  </tr>
+
+<tr class="series-pager-attr">
+
+<td colspan="2">
+      <div class="series-meta series-group-single">
+  <input class="pager-item-checkbox pager-check-series-gtm" type="checkbox" name="sids[49]" value="SBCSS10B11V1FRB">
+  <span class="attributes" style="width:350px;">Percent, Annual, Not Seasonally Adjusted</span><span class="series-meta-dates">2017 to 2025 (Jul 30)</span>
+  <br class="clear">
+  </div>
+    
+        <a id="unitLinkSBCSS10B11V1FRB" aria-describedby="aria-target-SBCSS10B11V1FRB" class="pager-series-attributes-gtm" href="/series/SBCSS10B11V1FRB">
+    
+  
+  
+  </a>
+      
+</td>
+</tr>
+<tr><td colspan="2" style="font-size:9px">&nbsp;</td></tr>
+
+                            </table>
+
+            <div class="series-pager-header" style="margin-top:.5em">
+                <input type="checkbox" class="select-all-checkboxes" aria-label="Select All Releases">
+                <button name="addseries2" class="series-btn-508 series-fred-pager-btn btn btn-sm add-to-data-list-gtm">Add to Data List</button>
+                <button name="addgraph2" class="series-btn-508 series-fred-pager-btn btn btn-sm add-to-graph-gtm">Add to Graph</button>
+                <span class="add-multiple-graphs-to-dashboard-btn-container"></span>
+                <div id="add-multiple-graphs-to-dashboard-modal-container"></div>
+            </div><!-- /series-pager-header  -->
+
+            <br>
+            <p style="text-align:right">&nbsp;<b>1</b>&nbsp;<a class="pager-link-gtm" href="/release?rid=1&amp;t=&amp;et=&amp;pageID=2" title="page 2" aria-label="page 2">2</a>&nbsp;<a class="pager-link-gtm" href="/release?rid=1&amp;t=&amp;et=&amp;pageID=3" title="page 3" aria-label="page 3">3</a>&nbsp;<a class="pager-link-gtm" href="/release?rid=1&amp;t=&amp;et=&amp;pageID=4" title="page 4" aria-label="page 4">4</a>&nbsp;<a class="pager-link-gtm" href="/release?rid=1&amp;t=&amp;et=&amp;pageID=5" title="page 5" aria-label="page 5">5</a>&nbsp;<a class="pager-link-gtm" href="/release?rid=1&amp;t=&amp;et=&amp;pageID=6" title="page 6" aria-label="page 6">6</a>&nbsp;<a class="pager-link-gtm" href="/release?rid=1&amp;t=&amp;et=&amp;pageID=2" title="next page" aria-label="next page">Next &raquo;</a>&nbsp;<a class="pager-link-gtm" href="/release?rid=1&amp;t=&amp;et=&amp;pageID=9" title="last page" aria-label="last page">[9]</a></p>
+                        
+                    </div><!-- /panel-body -->
+    </form>
+</div><!-- /container -->
+
+  </div>
+
+        <!--        -->
+<!--        <button disabled id="filter-button" class="hidden drawer-dropdown-trigger filter-tags-btn btn sticky-bottom btn-block btn-default dropdown-is-active">-->
+<!--            <div class="filter-button-inner">-->
+<!--                <i class="fa fa-filter" style="padding-right:5px;"></i>Filter-->
+<!--                <span class="badge badge-primary subpage-badge-primary">0</span>-->
+<!--            </div>-->
+<!--        </button>-->
+<!--        -->
+            </div>
+    </div>
+
+<link href=/css/1786729781.footer.min.css rel="stylesheet" media="all">
+<script></script>
+<br class="clear">
+</div>
+
+<div class="hidden-print d-lg-none icon-container sticky-bottom btt-ct col-12">
+    <a id="back-to-top" class="back-to-top" href="#top">
+        <i aria-hidden="true" class="fas fa-solid fa-chevron-up" title="Back to Top"></i>
+    <span class="fa-sr-only">Back to Top</span></a>
+</div>
+<button disabled id="filter-button" class="hidden drawer-dropdown-trigger filter-tags-btn btn sticky-bottom btn-block btn-default dropdown-is-active">
+    <div class="filter-button-inner">
+        <i class="fa fa-filter" style="padding-right:5px;"></i>Filter
+        <span class="badge badge-primary subpage-badge-primary">0</span>
+    </div>
+</button>
+
+<div class="footer2 hidden-print row EL-footer2">
+    <div class="container d-md-flex">
+        <div class="col-md-6 col-lg-5 col-12">
+            <div class="col-12">
+                <h3 class="col-12">Subscribe to the FRED newsletter</h3>
+                <form id="subscribe-div" class="form-horizontal form-control newsletter-form">
+                    <div class="col-12">
+                        <div class="input-group">
+                            <input id="subscribe-email-input" type="text" name="email" placeholder="Email"
+                            class="form-control email" aria-label="email">
+                            <button id="subscribe-email-btn" type="button"
+                            class="btn subscribe-newsletter-btn-gtm">
+                            Subscribe</button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+            <div class="col-12">
+                <h3 class="col-12">Follow us</h3>
+                <div id="follow-icons" class="col-12">
+                    <span id="li-container" class="icon-container">
+                        <a href="http://bit.ly/d056zL">
+                            <i aria-hidden="true" class="fab fa-brands fa-linkedin-in" title="Linked In"></i>
+                            <span class="fa-sr-only">Saint Louis Fed linkedin page</span></a></span>
+                    <span id="fb-container" class="icon-container">
+                        <a href="https://www.facebook.com/stlfed">
+                            <i aria-hidden="true" class="fab fa-brands fa-facebook-f" title="Facebook"></i>
+                            <span class="fa-sr-only">Saint Louis Fed facebook page</span></a></span>
+                    <span id="x-container" class="icon-container">
+                        <a href="http://bit.ly/9ngC3L">
+                            <i aria-hidden="true" class="fab fa-brands fa-x-twitter" title="X (formerly Twitter)"></i>
+                            <span class="fa-sr-only">Saint Louis Fed X page</span></a></span>
+                    <span id="yt-container" class="icon-container">
+                        <a href="http://bit.ly/aY9TVF">
+                            <i aria-hidden="true" class="fab fa-brands fa-youtube" title="YouTube"></i>
+                            <span class="fa-sr-only">Saint Louis Fed YouTube page</span></a></span> 
+                </div>
+            </div>
+        </div>
+        <div class="col-md-1 col-lg-2 d-none d-md-block">&nbsp;</div>
+        <div class="col-md-4 col-lg-3 col-7 need-help">
+            <h3 class="col-12">Need Help?</h3>
+            <div class="col-12">
+                <div class="footer-link">
+                    <a class="footer-questions-gtm q-and-a-link-gtm" href="//fred.stlouisfed.org/contactus/">
+                        Questions or Comments</a></div>
+                <div class="footer-link">
+                    <a class="footer-fredhelp-gtm" href="//fredhelp.stlouisfed.org/">FRED Help</a></div>
+            </div>
+            <hr class="col-12">
+            <div class="col-12">
+                <div class="footer-link">
+                    <a href="//fred.stlouisfed.org/legal/">Legal</a></div>
+                <div class="footer-link">
+                    <a href="https://www.stlouisfed.org/about-us/privacy-policy/online-notice">Privacy Notice & Policy</a></div>
+            </div>
+        </div>
+        <div class="col-md-1 col-lg-2 d-none d-md-block">&nbsp;</div>
+    </div>
+</div>
+
+<script>
+    // function to parse cookies, and return the value
+    function getCookie(name) {
+        var cookies = document.cookie.split(';');
+        for (var i in cookies) {
+            var cookie = cookies[i].trim().split('=');
+            if (cookie[0] == name) {
+                return cookie[1];
+            }
+        }
+        return null;
+    }
+    // certain pages in FRED set a custom tag variable
+    // this gets sent to Google Analytics so we can see what tags people are using
+    if (window.tags) {
+        dataLayer.push({ 'tags': tags });
+
+    }
+
+    // if the user is logged in, send the value of the liruid cookie to Google Analytics
+    var researchLiruid = getCookie('research-liruid');
+    dataLayer.push({ 'userId': researchLiruid });
+
+</script>
+<script src="//fred.stlouisfed.org/assets/jquery/dist/1786729776.jquery.min.js" type="text/javascript"></script>
+<script src="//fred.stlouisfed.org/assets/popperjs/dist/umd/1786729777.popper.min.js"></script>
+<script src="//fred.stlouisfed.org/assets/bootstrap/dist/js/1786729777.bootstrap.min.js"></script>
+<script src="//fred.stlouisfed.org/assets/select2/dist/js/1786729774.select2.full.min.js"></script>
+<script>
+    // force expire the .fred.stlouisfed.org _ga cookie
+    document.cookie = document.cookie + '_ga=;domain=.fred.stlouisfed.org;expires=Sat, 01-Jan-2000 00:00:00 GMT';
+</script>
+
+<script defer src="//fred.stlouisfed.org/assets/jquery-menu-aim/1786729780.jquery.menu-aim.min.js"></script>
+
+<script src="//fred.stlouisfed.org/js/1786729780.common.min.js"></script>
+
+<script src="//fred.stlouisfed.org/js/1786729780.508.min.js"></script>
+
+<script>
+    var appConfig = {
+        uapi_host: 'https://fred.stlouisfed.org/uapi',
+        research_host: 'https://www.stlouisfed.org/research',
+        fred_host: 'https://fred.stlouisfed.org',
+        alfred_host: 'https://alfred.stlouisfed.org',
+        gsi_client_id: '115290014367-vpb89b600koe9kn0njeeq38c1unfr3gk.apps.googleusercontent.com',
+        fred_account_host: 'https://fredaccount.stlouisfed.org',
+    };
+
+    var domain_suffix = (window.location.hostname.split(".")[0].split("-")[1] || '');
+    appConfig.logged_in = getCookie('research-lirua' + (domain_suffix ? '-' + domain_suffix : '')) !== null && getCookie('research-lirua' + (domain_suffix ? '-' + domain_suffix : '')) !== undefined;
+    var getAuth = function (callback) {
+        if (typeof callback === 'function') {
+            callback();
+        }
+        return;
+    };
+    window.getAuth = getAuth;
+
+</script>
+
+<script>
+    <!--suppress back to top before scroll-->
+    window.onscroll = function(){
+        backTop = $("#back-to-top");
+        window.pageYOffset >= 205 ? backTop.css('display', 'block') : backTop.css('display', 'none');
+    }
+
+</script>
+<script src="//fred.stlouisfed.org/assets/dompurify/dist/1786729776.purify.min.js"></script>
+<script defer src="//fred.stlouisfed.org/js/1786729699.banner.js"></script>
+<script src="//accounts.google.com/gsi/client" async defer></script>
+<script src="//fred.stlouisfed.org/assets/stlrch-fred/fred-account-react/dist/1786729775.main.dist.js"></script>
+<script src="//fred.stlouisfed.org/assets/stlrch-fred/fred-account-react/dist/1786729775.vendor.dist.js"></script>
+
+<script type="text/javascript">
+    // update mobile footer filter bar active filter count to content.tagsDrawers tags-number
+    $('.filter-button-inner .badge').text($('.tags-number').text());
+</script>
+
+<link href=/css/1786729781.contact.min.css rel="stylesheet" media="(min-width: 767px)">
+<script></script>
+<script type="text/javascript">
+            $('.notes-read-more').on('click', function() {$('.notes-hidden').show(); $('.notes-read-more').hide()});
+            $('.notes-read-more').on('keypress', function() {$('.notes-hidden').show(); $('.notes-read-more').hide()});
+            $('.notes-hide').on('click', function() {$('.notes-hidden').hide(); $('.notes-read-more').show()});
+            $('.notes-hide').on('keypress', function() {$('.notes-hidden').hide(); $('.notes-read-more').show()});
+            
+/**
+* START HERE WORKING ON SKIP-TO FUNCTIONALITY
+* */
+          $(".skip-to").eq(0).attr("href", "#skipToMainContentLink").attr("id", "skipToSec").html("Skip to secondary navigation");
+        
+          let setSkipToMain = () =>{
+            $("#skipToMainContentLink").addClass("active").attr("tabindex", 0).on("click focusout", function() {
+              $(this).removeClass("active").attr("tabindex", -1);
+            });
+          }
+        
+          let skipToSec = document.getElementById("skipToSec");
+          console.log(skipToSec)
+        
+          skipToSec.addEventListener("keydown", function(event){
+            if(event.key == "Enter"){
+              window.setTimeout(function() {
+                $("#sidebar-div").get(0).scrollIntoView(); //slide down
+              }, 1);
+              console.log(event.key + "User wants secondary, offer main just in case");    
+              setSkipToMain();
+             
+            }else if(event.key == "Tab"){
+                event.preventDefault();
+                console.log(event.key + "User declines secondary, offer main instead");
+                setSkipToMain()
+                      let skipToMain = document.getElementById("skipToMainContentLink");
+                      skipToMain.focus(); //focus skip to main
+                      skipToMain.addEventListener("keydown", function(event){
+                        if(event.key == "Tab"){
+                          event.preventDefault();
+                          $(".bank-logo-gtm").focus();
+                        }
+                      })
+
+            }
+          })
+/**
+ * END SKIP-TO FUNCTIONALITY
+ * */
+            </script><script type="text/javascript">
+ var request_order = 0;
+ var tmp = 0;
+ var max_related_tags = 10;
+ $('#tags-related-search-form').on('keyup change', function(event) {
+     display_related_tags(event);
+ });
+
+ $('#tag-search-view-all').on('keypress', function(event) {
+     if (event.keyCode == 13) {
+         event.preventDefault();
+     }
+ });
+
+ $(function() {
+    if ($('body').hasClass('series-pager')){
+        display_related_tags();
+    }
+    $('.exclude-tag-check').on('change', function() {
+        $('.modal-message').addClass('hidden');
+        $('#exclude-button').prop('disabled', false);
+        if ( $("#excludeModal input[type='checkbox']").length ==  $("#excludeModal input[type='checkbox']:checked").length)
+        {
+            $('.modal-message').html('<p>You cannot exclude all these filters. Please remove one.</p>');
+            $('.modal-message').removeClass('hidden');
+            $('#exclude-button').prop('disabled', true);
+        }
+    });
+
+
+    /***** Sort dropdown *****/
+    $('#order_by_options-dropdown li a').on('click', function(e) {
+      e.preventDefault();
+      if (!$(this).parent().hasClass('go-back')){
+        var order_by_form = $('#tags-related-search-form');
+        order_by_form.find("input[name='ob']").val($(this).data('order-by'));
+        order_by_form.find("input[name='od']").val(null);
+        order_by_form.find("input[name='pageID']").val(1);
+        order_by_form.submit();
+      }
+    });
+
+    var current_sort = $("input[name='ob']").val();
+    $('.sort-checked').html('');
+    if (!current_sort)
+            current_sort = "pv";
+    $(".sort-checked-"+current_sort).html('<i class="fa fa-check" aria-hidden="true"></i>');
+    var orderByText = $('#order-by-btn').text();
+    $('#sort-by-text').text(orderByText.replace("Sort by",''));
+
+    
+    /***** VIEW ALL MODAL *****/
+    $('#viewallModal').on('hide.bs.modal', function () {
+        $('.alpha .alphabet button').removeClass('active');
+        $('.alpha .alphabet button').removeClass('disabled');
+        $(this).removeData('bs.modal');
+    });
+    $('body').on('hidden.bs.modal', '.viewallModal', function () {
+        $(this).removeData('bs.modal');
+    });
+   
+    $('#viewallModal').on('show.bs.modal', function(e) {
+        $('#tags-related-search-form').find("input[name='tt']").val('');
+        $('#viewallModal .modal-header .modal-title').html('Loading Filters ....');
+        $('#viewallModal #tag-search-view-all').val('');
+        $('.modal-tag-list').html('');
+        $('.alpha .alphabet button').removeClass('active');
+        $('.alpha .alphabet button').removeClass('disabled');
+        $('.form-control-clear').addClass('hidden');
+
+        var group = $(e.relatedTarget).data('group');
+        $('#tags-related-search-form').find("input[name='tg']").val(group);
+        var ajaxurl = document.location.toString().replace(/\?.*/, "");
+        ajaxurl += '?'+$('#tags-related-search-form').serialize()+'&to=tag&viewall=1&request_order='+request_order+'&rts=1&ts='+Math.random().toString(36).substr(2, 5);
+        var jqxhr = $.getJSON(ajaxurl, function(json) {
+            parseTags(json,true);
+        });
+    });
+
+    $('#tag-search-view-all').on('keyup', function(event) {
+        $('.modal-tag-list').html('');
+        var tag_search = $('#tag-search-view-all').val();
+        var group = $('#viewallModal .modal-header .modal-title').attr('id');
+        var ajaxurl = document.location.toString().replace(/\?.*/, "");
+        $('#tags-related-search-form').find("input[name='tg']").val(group);
+        $('#tags-related-search-form').find("input[name='tt']").val(tag_search);
+        ajaxurl += '?'+$('#tags-related-search-form').serialize()+'&to=tag&request_order='+request_order+'&rts=1';
+           var jqxhr = $.getJSON(ajaxurl, function(json) {
+           if (json.some_related_tags != 'false') {
+               parseTags(json,true, true);
+           }
+         });
+
+    });
+    $('.has-clear input[type="text"]').on('input propertychange', function() {
+    var $this = $(this);
+    var visible = Boolean($this.val());
+    $this.siblings('.form-control-clear').toggleClass('hidden', !visible);
+    }).trigger('propertychange');
+
+    $('.form-control-clear').on('click', function() {
+        $(this).siblings('input[type="text"]').val('')
+            .trigger('propertychange').focus();
+            var group = $('#viewallModal .modal-header .modal-title').attr('id');
+            $('#tags-related-search-form').find("input[name='tg']").val(group);
+            $('#tags-related-search-form').find("input[name='tt']").val('');
+                
+            var ajaxurl = document.location.toString().replace(/\?.*/, "");
+            ajaxurl += '?'+$('#tags-related-search-form').serialize()+'&request_order='+request_order+'&rts=1&ts='+Math.random().toString(36).substr(2, 5);
+            var jqxhr = $.getJSON(ajaxurl, function(json) {
+                $('.form-control-clear').addClass('hidden');
+                parseTags(json,true,false);
+            });
+     });
+
+    /***** Helper function to get results *****/
+
+    function getResults(isSearch)
+    {
+       var ajaxurl = document.location.toString().replace(/\?.*/, "");
+           ajaxurl += '?'+$('#tags-related-search-form').serialize()+'&request_order='+request_order+'&rts=1';
+        var jqxhr = $.getJSON(ajaxurl, function(json) {
+              parseTags(json,true,isSearch);
+            });
+     }
+    
+    /***** Clicked a alpha letter filter in view all modal *****/
+  function filterResults(letter){
+        $('.tag-block').hide();
+        $('.modal-tag-list .tag-name').filter(function() {
+        var firstChar = $(this).text().charAt(0).toUpperCase();
+        if (firstChar >= '0' && firstChar <= '9')
+            firstChar = "#";
+            return firstChar === letter;
+        }).closest('.tag-block').show();
+    }
+
+    $('.btn-toolbar button').on('click',function(){
+        var letter = $(this).text();
+        $('.btn-default').removeClass('active');
+        $(this).addClass('active');
+        filterResults(letter);
+    });
+
+    /***** Clicked a Exclude button in exclude modal *****/
+     $('#exclude-button').on('click', function() {
+        $(this).addClass("loading");
+        $(this).removeClass("btn-primary");
+
+         var included = [], excluded = [];
+         $(".exclude-tag-check").each(function () {
+             if ($(this).is(':checked')) {
+                 excluded.push($(this).val());
+             } else {
+                 included.push($(this).val());
+             }
+    });
+
+     var queryParameters = {}, queryString = location.search.substring(1), re = /([^&=]+)=([^&]*)/g, m;
+     while (m = re.exec(queryString)) {
+         queryParameters[decodeURIComponent(m[1])] = decodeURIComponent(m[2]);
+     }
+
+     queryParameters['t'] = included.join(';');
+     queryParameters['et'] = excluded.join(';');
+     $('#tags-related-search-form').find("input[name='t']").val(included.join(';'));
+     $('#tags-related-search-form').find("input[name='et']").val(excluded.join(';'));
+
+     get_tags('clicked');
+});
+
+ function get_tags(isClicked) {
+
+     var getUrlParameter = function getUrlParameter(sParam) {
+     var sPageURL = decodeURIComponent(window.location.search.substring(1)),
+         sURLVariables = sPageURL.split('&'),
+         sParameterName,
+         i;
+
+         for (i = 0; i < sURLVariables.length; i++) {
+             sParameterName = sURLVariables[i].split('=');
+
+             if (sParameterName[0] === sParam) {
+                 return sParameterName[1] === undefined ? true : sParameterName[1];
+             }
+            }
+        };
+     $.ajax({
+         url: document.location.toString().replace(/\?.*/, ""),
+         datatype: 'json',
+         data: $('#tags-related-search-form').serialize()+'&request_order='+request_order+'&rts=1',
+         success: function(data) {
+            var data = JSON.parse(data);
+            if ((data) && request_order != data.request_order) {
+                return false;
+            }
+            if (isClicked)
+            {
+                $('#exclude-button').addClass("hide-loading");
+                $(".done").addClass("finish");
+            }
+            var queryParameters = {}, queryString = location.search.substring(1), re = /([^&=]+)=([^&]*)/g, m;
+            while (m = re.exec(queryString)) {
+              queryParameters[decodeURIComponent(m[1])] = decodeURIComponent(m[2]);
+            }
+             if ((isClicked == 'clicked') &&
+                (data.some_related_tags == 'false') &&
+                ($('#tags-related-search-form').find("input[name='et']").val())) {
+                queryParameters['t'] = $('#tags-related-search-form').find("input[name='t']").val()+';'+$('#tags-related-search-form').find("input[name='et']").val();
+                queryParameters['no_result'] = 'true';
+                location.search = $.param(queryParameters);
+            }
+            else {
+                if(getUrlParameter('no_result') == 'true') {
+                    $('.message-container').html('<p class="red alert alert-danger">Filtering returned no results, filters have been reset</p>');
+                }
+                if (isClicked == 'clicked') {
+                    queryParameters['t'] = $('#tags-related-search-form').find("input[name='t']").val();
+                    queryParameters['et'] = $('#tags-related-search-form').find("input[name='et']").val();
+                    queryParameters['st'] = $('#tags-related-search-form').find("input[name='st']").val();
+                    location.search = $.param(queryParameters);
+                }
+                parseTags(data);
+            }
+          }
+     });
+
+ }
+
+
+ function display_related_tags(event) {
+
+     if (!$('#tags-related-search-form').length) {
+
+     }
+
+     if ((event === undefined) ||
+         (event.type != 'keyup')) {
+         request_order = 0;
+     } else {
+         request_order++;
+     }
+
+     if (tmp > 0) {
+         clearTimeout(tmp);
+     }
+
+     get_tags();
+
+     return false;
+ }
+
+/****** function that parses the json returned from ajax call into markup for views ****/
+ function parseTags(jsonData, viewall, isSearch)
+ {
+    if ((typeof viewall) == 'undefined') {
+        viewall = false;
+    }
+    if ((typeof isSearch) == 'undefined') {
+        isSearch = false;
+    }
+    if ((jsonData.related_tags === null) || ((typeof jsonData.related_tags) == 'undefined')) {
+        $(".content-2columns-left").append("<p style='margin-top: -20px'>No additional filters available</p>");
+        return false;
+    }
+    Object.keys(jsonData.related_tags).forEach(function(key) {
+        var tagGroupArray = (jsonData.related_tags[key]);
+        var tags=[];
+        var groupName=key;
+        var alpha ={};
+        var onetag='';
+        var capTag='';
+        for (i=0;i < tagGroupArray.length; i++)
+        {
+            capTag = (tagGroupArray[i].notes) ? tagGroupArray[i].notes : tagGroupArray[i].capitalized_tag;
+            var addtl_info = 'data-bs-toggle="popover" title="Popover Header" data-content="Some content inside the popover"';
+            onetag = '<a href="'+tagGroupArray[i].url+'" class="list-group-item clear add-tag-gtm" id="'+capTag+'" aria-label="'+capTag+' filter '+tagGroupArray[i].series_count+' records">'+
+                '<span style="width: 65%; overflow: hidden" class="float-start tag-name mt-2 col-9-xs add-tag-gtm">'+capTag +'</span>'+
+                '<b style="width: 35%; padding-top: 3px" class="float-end subpage-tag-count-b col-3-xs add-tag-gtm">'+
+                ((tagGroupArray[i].series_count != 0) ?
+                  '<span class="tag-count add-tag-gtm"> ('+tagGroupArray[i].series_count+')</span>' :
+                   '') +
+                '</b></a>';
+            tags.push(onetag);
+            groupName = tagGroupArray[i].group_name;
+        }
+        if (viewall)
+        {
+            createViewAllModal(tags,groupName, key, isSearch);
+        }
+        else
+        {
+            createSidePanelGroup(tags,groupName,key);
+            createDrawerGroup(tags,groupName,key);
+        }
+    });
+ }
+
+ /**** functions to display the appropriate content(drawer, sidepanel, view all modal)  ****/
+ function createDrawerGroup(tags,group,groupAbbr)
+ {
+    var drawerBlock = $('.tag-drawer-group-item').clone();
+    drawerBlock.removeClass('hidden');
+    drawerBlock.removeClass('tag-drawer-group-item');
+    drawerBlock.find('.group-tag-name').text(group);
+    drawerBlock.find('.group-tag-name-all').text("View All "+group);
+    drawerBlock.find('.group-tag-name-all').attr("data-group",groupAbbr);
+    var onetag = '<li class="has-children-no">'+tags.join('</li><li class="has-children-no">')+'</li>';
+    $(drawerBlock).insertAfter(".browse-filters-seperator");
+    $(onetag).insertAfter(drawerBlock.find('.see-all'));
+    $('.drawer-dropdown-trigger').prop("disabled", false);
+    $('.drawer-dropdown-trigger span.badge').removeClass('visually-hidden');
+    $('.drawer-dropdown-trigger span.badge').text($('.selected-count').text());
+     var reverseOrder = $('.drawer-dropdown-content .has-children .group-tag-name').parent();
+     reverseOrder.first().insertAfter(reverseOrder.last());
+     if (tags.length <= 5)
+        drawerBlock.find('.see-all').addClass('hidden');
+ }
+function createSidePanelGroup(tags,group,groupAbbr)
+{
+    var panel = $('.panel-group-default').clone();
+    $('.panel-filter-header').removeClass('hidden');
+    panel.removeClass('hidden');
+    panel.find('.group-tag-name').text(group);
+    panel.find('.group-tag-name').attr('aria-label',group);
+    panel.find('.view-all-tags').data("group",groupAbbr);
+    panel.find('.view-all-tags').attr('data-group',groupAbbr);
+    panel.find('.group-tag-list').html(tags.join("\n"));
+    if (tags.length > 5)
+        panel.find('.view-all-tags').removeClass('hidden');
+    $('#related-tags').html($('#related-tags').html()+panel.html());
+}
+function createViewAllModal(tags,groupName, groupAbbr, isSearch)
+{
+$('.modal-tag-list').html('');
+    $('#viewallModal .modal-header .modal-title').html('View All '+groupName);
+    $('#viewallModal .modal-header .modal-title').attr('id', groupAbbr);
+    $('.modal-tag-list').html('<div class="col-4 tag-block">'+tags.join('</div><div class="col-4 tag-block">')+'</div>');
+    if (isSearch !== true){
+        var $p = $('.modal-tag-list .tag-name');
+        $('.btn-toolbar button').addClass(function(){
+            var a = this.textContent;
+            return $p.filter(function(){
+            var firstChar = this.textContent.charAt(0);
+            if (firstChar >= '0' && firstChar <= '9')
+            {
+                firstChar = "#";
+            }
+                return firstChar === a;
+            }).length ? '' : 'disabled';
+        });
+
+    }
+    $('.alpha .alphabet button').removeClass('active');    
+    if (tags.length >= 30)
+    {
+        var firstCharacterWithResults = $('.alpha .alphabet button:not(".disabled"):first');
+        firstCharacterWithResults.addClass('active');
+        filterResults(firstCharacterWithResults.text());
+    }    
+}
+});
+ function show_more_related_tags() {
+     $('.related-tags-group').each(function() {
+         if ($(this).find('li').length > max_related_tags) {
+             $(this).find('li:gt(' + (max_related_tags - 1) + ')').hide();
+             $(this).append('<p align="right"><a href="#" class="related-tags-group-show-more">Show More</a><p>');
+             $('.related-tags-group-show-more').on('click', function() {
+                 $(this).closest('.related-tags-group').find('li:gt(' + (max_related_tags - 1) + ')').show('slide',{'direction':'up'});
+                 $(this).remove();
+                 return false;
+             });
+         }
+     });
+ }
+
+ $(document).ready(function (){
+     $("div.series-group-single").parent().find("a.pager-series-attributes-gtm").attr("tabindex", "-1");
+     $('[data-order-by="sa"]').attr('aria-label', 'seasonally adjusted');
+ })
+
+</script>
+
+<script type="text/javascript"  src="/HEFsg/Bcc/loug/l-/_YdiG-/LuO5cppJkVGJNpuc/WxdmbgE/Zno/KMhIfQWoB"></script></body>
+</html>
+
+

@@ -1,0 +1,2197 @@
+<!DOCTYPE html>
+<html lang="zh-cmn-Hans">
+<head>
+    <meta charset="utf-8">
+<!--   <title>深交所主页</title>   -->
+<script>
+    var title = '<a href="./" class="CurrChnlCls">时政要闻</a> ';
+    title = title.substring(title.indexOf('>')+1,title.indexOf('</'));
+    document.write('<title>深圳证券交易所-'+ title +'</title>')
+</script>
+<script>
+  if(location.protocol == 'https:'){
+    document.write('<link href="https://res.szse.cn/common/images/favicon.ico" rel="shortcut icon" type="image/x-icon" />');
+  }else{
+    document.write('<link href="http://res.static.szse.cn/common/images/favicon.ico" rel="shortcut icon" type="image/x-icon" />');
+  }
+</script>
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1, user-scalable=0" />
+<meta http-equiv="cache-control" content="max-age=0">
+<meta http-equiv="cache-control" content="no-cache, no-store, must-revalidate">
+<meta http-equiv="expires" content="0">
+<meta http-equiv="expires" content="Web, 26 Feb 1997 08:21:57 GMT">
+<meta http-equiv="pragma" content="no-cache">
+<meta name="author" content="www.szse.cn">
+<meta name="description" content="深交所官网">
+<meta name="keywords" content="深交所,深交所官网,深圳证券交易所,交易所,交易所官网,深圳证券交易所官网">
+<meta name="renderer" content=webkit>
+<meta name="X-UA-Compatible" content="IE=edge">
+<meta name="google" value="notranslate"> 
+<meta name="format-detection" content="telephone=no">
+<meta name="format-detection" content="email=no">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black">
+<meta name="screen-orientation" content="portrait">
+<meta name="full-screen" content="yes">
+<meta name="browermode" content="application">
+<meta name="x5-orientation" content="portrait">
+<meta name="HandheldFriendly" content="true">
+<script type="text/javascript">
+	var u = navigator.userAgent;
+	var isAndroid = u.indexOf('Android') > -1 || u.indexOf('Adr') > -1;//android终端
+
+	function addElementMeta(name,  content) {
+		var head = document.getElementsByTagName('head')[0];
+		var meta = document.createElement('meta');
+
+		meta.setAttribute('name', name);
+		meta.setAttribute('content', content);
+		head.appendChild(meta);
+	}
+	if(isAndroid) {
+		addElementMeta('x5-fullscreen', 'true');
+		addElementMeta('x5-page-mode', 'app');
+	}
+</script> 
+    <script>
+  (function () {
+    var _versionDate = new Date().getTime();
+    if (location.protocol == 'https:') {
+      var _path = 'https://res.szse.cn';
+    } else {
+      var _path = 'http://res.static.szse.cn';
+    }
+    // _path = _path.replace(".static.", ".");
+    //var _path = 'http://res.szse.cn';
+    //document.write( " <script src='" + _path + "/common/js/first.js?random=" + _versionDate + "'> <\/script> ");
+    var _host = 'http://www.szse.cn';
+    if (location.protocol == 'https:') {
+      _host = 'https://www.szse.cn';
+    }
+
+
+    var backDomain = 'http://www.sse.org.cn'
+    var reg = /([a-zA-Z0-9][-a-zA-Z0-9]{0,62})((\.[a-zA-Z0-9][-a-zA-Z0-9]{0,62})+)\.?(:\d+)?/;
+    if (backDomain && window.location.host.match(reg)[2] === backDomain.match(reg)[2]) {
+      _host = 'http://www.sse.org.cn';
+      _path = 'http://res.static.sse.org.cn';
+      if (location.protocol == 'https:') {
+        _host = 'https://www.sse.org.cn';
+        _path = 'https://res.static.sse.org.cn';
+      }
+
+    }
+
+    _path = _path.replace(".static.", ".");
+
+    document.write(" <script src='" + _host + "/szsePath.js?random=" + _versionDate + "'> <\/script> "
+      + " <script src='" + _path + "/common/js/concatversion.js?random=" + _versionDate + "'> <\/script> ");
+  }());
+</script>
+
+<script>
+
+  function backDomainLinkSwitch(value, type) {
+    var _port = location.port ? (":" + location.port) : "";
+    var reg = /([a-zA-Z0-9][-a-zA-Z0-9]{0,62})((\.[a-zA-Z0-9][-a-zA-Z0-9]{0,62})+)\.?(:\d+)?/;
+    var urlRegx = /(.*)(http:|https:)(\/\/)(([a-zA-Z0-9][-a-zA-Z0-9]{0,62})((\.[a-zA-Z0-9][-a-zA-Z0-9]{0,62})+))\.?(:\d+)?(.*)/;
+
+    // html字符串替换
+    if (type == 'str') {
+      var strArr = value.split("=");
+      strArr = strArr.map(function (v) {
+        var host = reg.test(v) ? v.match(reg)[0] : null;
+        if (pathObj.szseHosts.indexOf(host) > -1) {
+          if (window.location.protocol == 'https:' && urlRegx.test(v)) {
+            v = v.replace(urlRegx, '$1https:$3$4' + _port + '$9');
+          };
+          if (pathObj.current_host === pathObj.back_host) {
+            v = v.replace(pathObj.main_host, pathObj.back_host);
+          }
+        }
+        return v
+      });
+      value = strArr.join("=");
+      return value;
+    }
+
+    // a标签地址替换
+    if (type === 'A') {
+      var eleA = document.querySelectorAll(value);
+      for (var i = 0; i < eleA.length; i++) {
+        var href = eleA[i].getAttribute("href");
+        var host = reg.test(href) ? href.match(reg)[0] : null;
+        if (href && pathObj.szseHosts.indexOf(host) > -1) {
+          if (window.location.protocol == 'https:') {
+            href = href.replace(urlRegx, '$1https:$3$4' + _port + '$9');
+          };
+          if (pathObj.current_host === pathObj.back_host) {
+            href = href.replace(pathObj.main_host, pathObj.back_host);
+          }
+          eleA[i].setAttribute('href', href);
+        }
+      }
+    }
+
+    // 单链接替换
+    if (type === "link") {
+      if (window.location.protocol == 'https:' && !!value) {
+        value = value.replace(urlRegx, '$1https:$3$4' + _port + '$9');
+      };
+      if (pathObj.current_host === pathObj.back_host) {
+        var host = reg.test(value) ? value.match(reg)[0] : null;
+        if (value && pathObj.szseHosts.indexOf(host) > -1) {
+          value = value.replace(pathObj.main_host, pathObj.back_host);
+        }
+      }
+      return value;
+    }
+
+    // 背景图地址更换
+    if (type === "background") {
+      var eleBg = document.querySelectorAll(value);
+      for (var i = 0; i < eleBg.length; i++) {
+        var href = eleBg[i].style.backgroundImage;
+        if (window.location.protocol == 'https:' && !!href) {
+          href = href.replace(urlRegx, '$1https:$3$4' + _port + '$9');
+        };
+        var host = reg.test(href) ? href.match(reg)[0] : null;
+        if (href && pathObj.szseHosts.indexOf(host) > -1) {
+          if (pathObj.current_host === pathObj.back_host) {
+            href = href.replace(pathObj.main_host, pathObj.back_host);
+          }
+          eleBg[i].style.backgroundImage = href;
+        }
+      }
+    }
+
+  }
+
+</script>
+
+<script>
+   if(document.cookie.indexOf('ft_language=1')>-1){
+    var style = document.createElement('style');
+    style.textContent='body{visibility:hidden;}';
+    document.head.appendChild(style);
+  }
+</script>
+<script>
+    addComCssFile()
+</script> 
+    <style>
+      .g-content{
+        width: 100%;
+      }
+    </style>
+</head>
+<body>
+    <script>
+      navMenuAJAX('/application/publicindex/header/index.html', '/application/publicindex/header/index.html', 'header', 'www');
+      changeVertion('/common/js/toggleBig5.js','js');
+    </script>
+    <div class="g-locationnav">
+      <div class="banner-wrap">
+        <img src="http://res.static.szse.cn/common/images/legalrules-banner.jpg" />
+      </div>
+      <div class="g-container">
+        <div class="g-banner-txt">
+              <h2 class="hidden-xs">时政要闻</h2>
+            </div>
+      </div>
+    </div>
+    <script>
+        var articleCount=0
+        
+                 articleCount=1
+            
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+    </script>
+    <div class="g-container-wrap">
+        <div class="g-container">
+            
+            <div class="g-content">
+                <div class="g-conbox">
+                    
+                    <div class="report-query  mainquery-container">                
+                      <div class="form-group form-condition">
+                        <label class="sr-only" for="code">输入关键字</label>
+                          <input maxlength="100" type="text" class="form-control report-query-item input-typeahead" id="article-text" placeholder="输入关键字" value="" />
+                      </div>
+                      <div class="form-group form-condition">
+                        <label class="sr-only" for="aticle-datepicker">发布日期</label>
+                          <input type="text" class="form-control report-query-item" id="aticle-datepicker" value="" placeholder="发布日期" />
+                      </div>
+                      <div class="form-group form-condition">
+                        <button type="button" class= "confirm-query btn-query-primary">查询</button>  
+                      </div>              
+                    </div>  
+                    <div class="article-list">
+                        <div class="g-content-list">
+                           <ul class="newslist date-right visitsNum">
+                                
+                                    <li>  
+                                          <div class="title">
+                                          
+                                           <script>
+  
+    var curHref = 'https://www.gov.cn/yaowen/liebiao/202608/content_7078026.htm';
+    //var curTitle = '习近平生态文明思想引领美丽中国建设谱新篇——写在全国生态日暨生态环境法典施行之际';
+//var subTitle = '';
+ var curTitle ='习近平生态文明思想引领美丽中国建设谱新篇——写在全国生态日暨生态环境法典施行之际';
+    var curCmsDocType = '30'
+    var curTarget = '';
+    var pointIndex = curHref.lastIndexOf('.');
+    var docType = curHref.substring(pointIndex+1).toLocaleLowerCase();
+    if (!(docType == 'html' || docType == 'pdf' || docType == 'xml' || docType == 'txt' || docType == 'jpg' || docType == 'png' || docType == 'jpeg' || docType == 'bmp') && curCmsDocType != 30) {
+        curTarget = '_self';
+    } else {
+        curTarget = '_blank';
+    }
+    var channelName = 'currentAffairs';
+    var doingFlagHtml='';
+    //进行中标识
+    if(channelName == 'questionnaire_news' && subTitle =='进行中'){
+    	doingFlagHtml = '<span class="surveyIsDoing">进行中</span>';
+    	document.write('<a class="ellipsis art-list-link" href="' + curHref + '" title="' + curTitle + '" target="' + curTarget + '">'+ doingFlagHtml + curTitle + '</a>');  
+    } else if((channelName  == 'introduce_hidden' || channelName  == 'serveGuide_hidden' || channelName  == 'dataInterface_hidden' || channelName  == 'technicalGuide_hidden')&& '1'==1){
+    //技术服务页面，判断是否第一条是置顶
+       doingFlagHtml = '<span class="surveyIsDoing">置顶</span>';
+       document.write('<a class="ellipsis art-list-link" href="' + curHref + '" title="' + curTitle + '" target="' + curTarget + '">'+ doingFlagHtml + curTitle + '</a>'); 
+    }else{
+    	document.write('<a class="ellipsis art-list-link" href="' + curHref + '" title="' + curTitle + '" target="' + curTarget + '">' + curTitle + '</a>');  
+    }
+
+    
+    
+</script>
+
+                                            <span class="time">
+                                             2026-08-14
+                                            </span>
+                                        </div>
+                                    </li>
+                                
+                                    <li>  
+                                          <div class="title">
+                                          
+                                           <script>
+  
+    var curHref = 'https://www.gov.cn/lianbo/202608/content_7077956.htm';
+    //var curTitle = '《国家综合气象观测系统建设“十五五”规划》印发';
+//var subTitle = '';
+ var curTitle ='《国家综合气象观测系统建设“十五五”规划》印发';
+    var curCmsDocType = '30'
+    var curTarget = '';
+    var pointIndex = curHref.lastIndexOf('.');
+    var docType = curHref.substring(pointIndex+1).toLocaleLowerCase();
+    if (!(docType == 'html' || docType == 'pdf' || docType == 'xml' || docType == 'txt' || docType == 'jpg' || docType == 'png' || docType == 'jpeg' || docType == 'bmp') && curCmsDocType != 30) {
+        curTarget = '_self';
+    } else {
+        curTarget = '_blank';
+    }
+    var channelName = 'currentAffairs';
+    var doingFlagHtml='';
+    //进行中标识
+    if(channelName == 'questionnaire_news' && subTitle =='进行中'){
+    	doingFlagHtml = '<span class="surveyIsDoing">进行中</span>';
+    	document.write('<a class="ellipsis art-list-link" href="' + curHref + '" title="' + curTitle + '" target="' + curTarget + '">'+ doingFlagHtml + curTitle + '</a>');  
+    } else if((channelName  == 'introduce_hidden' || channelName  == 'serveGuide_hidden' || channelName  == 'dataInterface_hidden' || channelName  == 'technicalGuide_hidden')&& '2'==1){
+    //技术服务页面，判断是否第一条是置顶
+       doingFlagHtml = '<span class="surveyIsDoing">置顶</span>';
+       document.write('<a class="ellipsis art-list-link" href="' + curHref + '" title="' + curTitle + '" target="' + curTarget + '">'+ doingFlagHtml + curTitle + '</a>'); 
+    }else{
+    	document.write('<a class="ellipsis art-list-link" href="' + curHref + '" title="' + curTitle + '" target="' + curTarget + '">' + curTitle + '</a>');  
+    }
+
+    
+    
+</script>
+
+                                            <span class="time">
+                                             2026-08-13
+                                            </span>
+                                        </div>
+                                    </li>
+                                
+                                    <li>  
+                                          <div class="title">
+                                          
+                                           <script>
+  
+    var curHref = 'https://www.gov.cn/lianbo/202608/content_7077915.htm';
+    //var curTitle = '上半年互联网业务收入同比增10.1%';
+//var subTitle = '';
+ var curTitle ='上半年互联网业务收入同比增10.1%';
+    var curCmsDocType = '30'
+    var curTarget = '';
+    var pointIndex = curHref.lastIndexOf('.');
+    var docType = curHref.substring(pointIndex+1).toLocaleLowerCase();
+    if (!(docType == 'html' || docType == 'pdf' || docType == 'xml' || docType == 'txt' || docType == 'jpg' || docType == 'png' || docType == 'jpeg' || docType == 'bmp') && curCmsDocType != 30) {
+        curTarget = '_self';
+    } else {
+        curTarget = '_blank';
+    }
+    var channelName = 'currentAffairs';
+    var doingFlagHtml='';
+    //进行中标识
+    if(channelName == 'questionnaire_news' && subTitle =='进行中'){
+    	doingFlagHtml = '<span class="surveyIsDoing">进行中</span>';
+    	document.write('<a class="ellipsis art-list-link" href="' + curHref + '" title="' + curTitle + '" target="' + curTarget + '">'+ doingFlagHtml + curTitle + '</a>');  
+    } else if((channelName  == 'introduce_hidden' || channelName  == 'serveGuide_hidden' || channelName  == 'dataInterface_hidden' || channelName  == 'technicalGuide_hidden')&& '3'==1){
+    //技术服务页面，判断是否第一条是置顶
+       doingFlagHtml = '<span class="surveyIsDoing">置顶</span>';
+       document.write('<a class="ellipsis art-list-link" href="' + curHref + '" title="' + curTitle + '" target="' + curTarget + '">'+ doingFlagHtml + curTitle + '</a>'); 
+    }else{
+    	document.write('<a class="ellipsis art-list-link" href="' + curHref + '" title="' + curTitle + '" target="' + curTarget + '">' + curTitle + '</a>');  
+    }
+
+    
+    
+</script>
+
+                                            <span class="time">
+                                             2026-08-12
+                                            </span>
+                                        </div>
+                                    </li>
+                                
+                                    <li>  
+                                          <div class="title">
+                                          
+                                           <script>
+  
+    var curHref = 'https://www.gov.cn/yaowen/liebiao/202608/content_7077895.htm';
+    //var curTitle = '习近平就哥伦比亚发生强烈地震向哥伦比亚总统德拉埃斯普列亚致慰问电';
+//var subTitle = '';
+ var curTitle ='习近平就哥伦比亚发生强烈地震向哥伦比亚总统德拉埃斯普列亚致慰问电';
+    var curCmsDocType = '30'
+    var curTarget = '';
+    var pointIndex = curHref.lastIndexOf('.');
+    var docType = curHref.substring(pointIndex+1).toLocaleLowerCase();
+    if (!(docType == 'html' || docType == 'pdf' || docType == 'xml' || docType == 'txt' || docType == 'jpg' || docType == 'png' || docType == 'jpeg' || docType == 'bmp') && curCmsDocType != 30) {
+        curTarget = '_self';
+    } else {
+        curTarget = '_blank';
+    }
+    var channelName = 'currentAffairs';
+    var doingFlagHtml='';
+    //进行中标识
+    if(channelName == 'questionnaire_news' && subTitle =='进行中'){
+    	doingFlagHtml = '<span class="surveyIsDoing">进行中</span>';
+    	document.write('<a class="ellipsis art-list-link" href="' + curHref + '" title="' + curTitle + '" target="' + curTarget + '">'+ doingFlagHtml + curTitle + '</a>');  
+    } else if((channelName  == 'introduce_hidden' || channelName  == 'serveGuide_hidden' || channelName  == 'dataInterface_hidden' || channelName  == 'technicalGuide_hidden')&& '4'==1){
+    //技术服务页面，判断是否第一条是置顶
+       doingFlagHtml = '<span class="surveyIsDoing">置顶</span>';
+       document.write('<a class="ellipsis art-list-link" href="' + curHref + '" title="' + curTitle + '" target="' + curTarget + '">'+ doingFlagHtml + curTitle + '</a>'); 
+    }else{
+    	document.write('<a class="ellipsis art-list-link" href="' + curHref + '" title="' + curTitle + '" target="' + curTarget + '">' + curTitle + '</a>');  
+    }
+
+    
+    
+</script>
+
+                                            <span class="time">
+                                             2026-08-11
+                                            </span>
+                                        </div>
+                                    </li>
+                                
+                                    <li>  
+                                          <div class="title">
+                                          
+                                           <script>
+  
+    var curHref = 'https://www.gov.cn/yaowen/liebiao/202608/content_7077793.htm';
+    //var curTitle = '以科学的思想方法推进管党治党——习近平党建思想理论品格系列述评之六';
+//var subTitle = '';
+ var curTitle ='以科学的思想方法推进管党治党——习近平党建思想理论品格系列述评之六';
+    var curCmsDocType = '30'
+    var curTarget = '';
+    var pointIndex = curHref.lastIndexOf('.');
+    var docType = curHref.substring(pointIndex+1).toLocaleLowerCase();
+    if (!(docType == 'html' || docType == 'pdf' || docType == 'xml' || docType == 'txt' || docType == 'jpg' || docType == 'png' || docType == 'jpeg' || docType == 'bmp') && curCmsDocType != 30) {
+        curTarget = '_self';
+    } else {
+        curTarget = '_blank';
+    }
+    var channelName = 'currentAffairs';
+    var doingFlagHtml='';
+    //进行中标识
+    if(channelName == 'questionnaire_news' && subTitle =='进行中'){
+    	doingFlagHtml = '<span class="surveyIsDoing">进行中</span>';
+    	document.write('<a class="ellipsis art-list-link" href="' + curHref + '" title="' + curTitle + '" target="' + curTarget + '">'+ doingFlagHtml + curTitle + '</a>');  
+    } else if((channelName  == 'introduce_hidden' || channelName  == 'serveGuide_hidden' || channelName  == 'dataInterface_hidden' || channelName  == 'technicalGuide_hidden')&& '5'==1){
+    //技术服务页面，判断是否第一条是置顶
+       doingFlagHtml = '<span class="surveyIsDoing">置顶</span>';
+       document.write('<a class="ellipsis art-list-link" href="' + curHref + '" title="' + curTitle + '" target="' + curTarget + '">'+ doingFlagHtml + curTitle + '</a>'); 
+    }else{
+    	document.write('<a class="ellipsis art-list-link" href="' + curHref + '" title="' + curTitle + '" target="' + curTarget + '">' + curTitle + '</a>');  
+    }
+
+    
+    
+</script>
+
+                                            <span class="time">
+                                             2026-08-10
+                                            </span>
+                                        </div>
+                                    </li>
+                                
+                                    <li>  
+                                          <div class="title">
+                                          
+                                           <script>
+  
+    var curHref = 'https://www.gov.cn/yaowen/liebiao/202608/content_7077758.htm';
+    //var curTitle = '以深厚的为民情怀增进人民福祉——习近平党建思想理论品格系列述评之五';
+//var subTitle = '';
+ var curTitle ='以深厚的为民情怀增进人民福祉——习近平党建思想理论品格系列述评之五';
+    var curCmsDocType = '30'
+    var curTarget = '';
+    var pointIndex = curHref.lastIndexOf('.');
+    var docType = curHref.substring(pointIndex+1).toLocaleLowerCase();
+    if (!(docType == 'html' || docType == 'pdf' || docType == 'xml' || docType == 'txt' || docType == 'jpg' || docType == 'png' || docType == 'jpeg' || docType == 'bmp') && curCmsDocType != 30) {
+        curTarget = '_self';
+    } else {
+        curTarget = '_blank';
+    }
+    var channelName = 'currentAffairs';
+    var doingFlagHtml='';
+    //进行中标识
+    if(channelName == 'questionnaire_news' && subTitle =='进行中'){
+    	doingFlagHtml = '<span class="surveyIsDoing">进行中</span>';
+    	document.write('<a class="ellipsis art-list-link" href="' + curHref + '" title="' + curTitle + '" target="' + curTarget + '">'+ doingFlagHtml + curTitle + '</a>');  
+    } else if((channelName  == 'introduce_hidden' || channelName  == 'serveGuide_hidden' || channelName  == 'dataInterface_hidden' || channelName  == 'technicalGuide_hidden')&& '6'==1){
+    //技术服务页面，判断是否第一条是置顶
+       doingFlagHtml = '<span class="surveyIsDoing">置顶</span>';
+       document.write('<a class="ellipsis art-list-link" href="' + curHref + '" title="' + curTitle + '" target="' + curTarget + '">'+ doingFlagHtml + curTitle + '</a>'); 
+    }else{
+    	document.write('<a class="ellipsis art-list-link" href="' + curHref + '" title="' + curTitle + '" target="' + curTarget + '">' + curTitle + '</a>');  
+    }
+
+    
+    
+</script>
+
+                                            <span class="time">
+                                             2026-08-09
+                                            </span>
+                                        </div>
+                                    </li>
+                                
+                                    <li>  
+                                          <div class="title">
+                                          
+                                           <script>
+  
+    var curHref = 'https://www.gov.cn/yaowen/liebiao/202608/content_7077748.htm';
+    //var curTitle = '以强烈的使命担当勇担复兴重任——习近平党建思想理论品格系列述评之四';
+//var subTitle = '';
+ var curTitle ='以强烈的使命担当勇担复兴重任——习近平党建思想理论品格系列述评之四';
+    var curCmsDocType = '30'
+    var curTarget = '';
+    var pointIndex = curHref.lastIndexOf('.');
+    var docType = curHref.substring(pointIndex+1).toLocaleLowerCase();
+    if (!(docType == 'html' || docType == 'pdf' || docType == 'xml' || docType == 'txt' || docType == 'jpg' || docType == 'png' || docType == 'jpeg' || docType == 'bmp') && curCmsDocType != 30) {
+        curTarget = '_self';
+    } else {
+        curTarget = '_blank';
+    }
+    var channelName = 'currentAffairs';
+    var doingFlagHtml='';
+    //进行中标识
+    if(channelName == 'questionnaire_news' && subTitle =='进行中'){
+    	doingFlagHtml = '<span class="surveyIsDoing">进行中</span>';
+    	document.write('<a class="ellipsis art-list-link" href="' + curHref + '" title="' + curTitle + '" target="' + curTarget + '">'+ doingFlagHtml + curTitle + '</a>');  
+    } else if((channelName  == 'introduce_hidden' || channelName  == 'serveGuide_hidden' || channelName  == 'dataInterface_hidden' || channelName  == 'technicalGuide_hidden')&& '7'==1){
+    //技术服务页面，判断是否第一条是置顶
+       doingFlagHtml = '<span class="surveyIsDoing">置顶</span>';
+       document.write('<a class="ellipsis art-list-link" href="' + curHref + '" title="' + curTitle + '" target="' + curTarget + '">'+ doingFlagHtml + curTitle + '</a>'); 
+    }else{
+    	document.write('<a class="ellipsis art-list-link" href="' + curHref + '" title="' + curTitle + '" target="' + curTarget + '">' + curTitle + '</a>');  
+    }
+
+    
+    
+</script>
+
+                                            <span class="time">
+                                             2026-08-09
+                                            </span>
+                                        </div>
+                                    </li>
+                                
+                                    <li>  
+                                          <div class="title">
+                                          
+                                           <script>
+  
+    var curHref = 'https://www.gov.cn/yaowen/liebiao/202608/content_7077718.htm';
+    //var curTitle = '总书记的人民情怀 | “努力提升粮食能源资源安全保障能力”';
+//var subTitle = '';
+ var curTitle ='总书记的人民情怀 | “努力提升粮食能源资源安全保障能力”';
+    var curCmsDocType = '30'
+    var curTarget = '';
+    var pointIndex = curHref.lastIndexOf('.');
+    var docType = curHref.substring(pointIndex+1).toLocaleLowerCase();
+    if (!(docType == 'html' || docType == 'pdf' || docType == 'xml' || docType == 'txt' || docType == 'jpg' || docType == 'png' || docType == 'jpeg' || docType == 'bmp') && curCmsDocType != 30) {
+        curTarget = '_self';
+    } else {
+        curTarget = '_blank';
+    }
+    var channelName = 'currentAffairs';
+    var doingFlagHtml='';
+    //进行中标识
+    if(channelName == 'questionnaire_news' && subTitle =='进行中'){
+    	doingFlagHtml = '<span class="surveyIsDoing">进行中</span>';
+    	document.write('<a class="ellipsis art-list-link" href="' + curHref + '" title="' + curTitle + '" target="' + curTarget + '">'+ doingFlagHtml + curTitle + '</a>');  
+    } else if((channelName  == 'introduce_hidden' || channelName  == 'serveGuide_hidden' || channelName  == 'dataInterface_hidden' || channelName  == 'technicalGuide_hidden')&& '8'==1){
+    //技术服务页面，判断是否第一条是置顶
+       doingFlagHtml = '<span class="surveyIsDoing">置顶</span>';
+       document.write('<a class="ellipsis art-list-link" href="' + curHref + '" title="' + curTitle + '" target="' + curTarget + '">'+ doingFlagHtml + curTitle + '</a>'); 
+    }else{
+    	document.write('<a class="ellipsis art-list-link" href="' + curHref + '" title="' + curTitle + '" target="' + curTarget + '">' + curTitle + '</a>');  
+    }
+
+    
+    
+</script>
+
+                                            <span class="time">
+                                             2026-08-08
+                                            </span>
+                                        </div>
+                                    </li>
+                                
+                                    <li>  
+                                          <div class="title">
+                                          
+                                           <script>
+  
+    var curHref = 'https://www.gov.cn/yaowen/liebiao/202608/content_7077626.htm';
+    //var curTitle = '总书记的人民情怀 | “让内需成为经济发展的主动力”';
+//var subTitle = '';
+ var curTitle ='总书记的人民情怀 | “让内需成为经济发展的主动力”';
+    var curCmsDocType = '30'
+    var curTarget = '';
+    var pointIndex = curHref.lastIndexOf('.');
+    var docType = curHref.substring(pointIndex+1).toLocaleLowerCase();
+    if (!(docType == 'html' || docType == 'pdf' || docType == 'xml' || docType == 'txt' || docType == 'jpg' || docType == 'png' || docType == 'jpeg' || docType == 'bmp') && curCmsDocType != 30) {
+        curTarget = '_self';
+    } else {
+        curTarget = '_blank';
+    }
+    var channelName = 'currentAffairs';
+    var doingFlagHtml='';
+    //进行中标识
+    if(channelName == 'questionnaire_news' && subTitle =='进行中'){
+    	doingFlagHtml = '<span class="surveyIsDoing">进行中</span>';
+    	document.write('<a class="ellipsis art-list-link" href="' + curHref + '" title="' + curTitle + '" target="' + curTarget + '">'+ doingFlagHtml + curTitle + '</a>');  
+    } else if((channelName  == 'introduce_hidden' || channelName  == 'serveGuide_hidden' || channelName  == 'dataInterface_hidden' || channelName  == 'technicalGuide_hidden')&& '9'==1){
+    //技术服务页面，判断是否第一条是置顶
+       doingFlagHtml = '<span class="surveyIsDoing">置顶</span>';
+       document.write('<a class="ellipsis art-list-link" href="' + curHref + '" title="' + curTitle + '" target="' + curTarget + '">'+ doingFlagHtml + curTitle + '</a>'); 
+    }else{
+    	document.write('<a class="ellipsis art-list-link" href="' + curHref + '" title="' + curTitle + '" target="' + curTarget + '">' + curTitle + '</a>');  
+    }
+
+    
+    
+</script>
+
+                                            <span class="time">
+                                             2026-08-07
+                                            </span>
+                                        </div>
+                                    </li>
+                                
+                                    <li>  
+                                          <div class="title">
+                                          
+                                           <script>
+  
+    var curHref = 'https://www.gov.cn/yaowen/liebiao/202608/content_7077572.htm';
+    //var curTitle = '东方之约，相约未来——中国元首外交的世界情怀与大国气派';
+//var subTitle = '';
+ var curTitle ='东方之约，相约未来——中国元首外交的世界情怀与大国气派';
+    var curCmsDocType = '30'
+    var curTarget = '';
+    var pointIndex = curHref.lastIndexOf('.');
+    var docType = curHref.substring(pointIndex+1).toLocaleLowerCase();
+    if (!(docType == 'html' || docType == 'pdf' || docType == 'xml' || docType == 'txt' || docType == 'jpg' || docType == 'png' || docType == 'jpeg' || docType == 'bmp') && curCmsDocType != 30) {
+        curTarget = '_self';
+    } else {
+        curTarget = '_blank';
+    }
+    var channelName = 'currentAffairs';
+    var doingFlagHtml='';
+    //进行中标识
+    if(channelName == 'questionnaire_news' && subTitle =='进行中'){
+    	doingFlagHtml = '<span class="surveyIsDoing">进行中</span>';
+    	document.write('<a class="ellipsis art-list-link" href="' + curHref + '" title="' + curTitle + '" target="' + curTarget + '">'+ doingFlagHtml + curTitle + '</a>');  
+    } else if((channelName  == 'introduce_hidden' || channelName  == 'serveGuide_hidden' || channelName  == 'dataInterface_hidden' || channelName  == 'technicalGuide_hidden')&& '10'==1){
+    //技术服务页面，判断是否第一条是置顶
+       doingFlagHtml = '<span class="surveyIsDoing">置顶</span>';
+       document.write('<a class="ellipsis art-list-link" href="' + curHref + '" title="' + curTitle + '" target="' + curTarget + '">'+ doingFlagHtml + curTitle + '</a>'); 
+    }else{
+    	document.write('<a class="ellipsis art-list-link" href="' + curHref + '" title="' + curTitle + '" target="' + curTarget + '">' + curTitle + '</a>');  
+    }
+
+    
+    
+</script>
+
+                                            <span class="time">
+                                             2026-08-06
+                                            </span>
+                                        </div>
+                                    </li>
+                                
+                                    <li>  
+                                          <div class="title">
+                                          
+                                           <script>
+  
+    var curHref = 'https://www.gov.cn/yaowen/liebiao/202608/content_7077550.htm';
+    //var curTitle = '“以天下之利为利”——中国元首外交的世界情怀与大国气派';
+//var subTitle = '';
+ var curTitle ='“以天下之利为利”——中国元首外交的世界情怀与大国气派';
+    var curCmsDocType = '30'
+    var curTarget = '';
+    var pointIndex = curHref.lastIndexOf('.');
+    var docType = curHref.substring(pointIndex+1).toLocaleLowerCase();
+    if (!(docType == 'html' || docType == 'pdf' || docType == 'xml' || docType == 'txt' || docType == 'jpg' || docType == 'png' || docType == 'jpeg' || docType == 'bmp') && curCmsDocType != 30) {
+        curTarget = '_self';
+    } else {
+        curTarget = '_blank';
+    }
+    var channelName = 'currentAffairs';
+    var doingFlagHtml='';
+    //进行中标识
+    if(channelName == 'questionnaire_news' && subTitle =='进行中'){
+    	doingFlagHtml = '<span class="surveyIsDoing">进行中</span>';
+    	document.write('<a class="ellipsis art-list-link" href="' + curHref + '" title="' + curTitle + '" target="' + curTarget + '">'+ doingFlagHtml + curTitle + '</a>');  
+    } else if((channelName  == 'introduce_hidden' || channelName  == 'serveGuide_hidden' || channelName  == 'dataInterface_hidden' || channelName  == 'technicalGuide_hidden')&& '11'==1){
+    //技术服务页面，判断是否第一条是置顶
+       doingFlagHtml = '<span class="surveyIsDoing">置顶</span>';
+       document.write('<a class="ellipsis art-list-link" href="' + curHref + '" title="' + curTitle + '" target="' + curTarget + '">'+ doingFlagHtml + curTitle + '</a>'); 
+    }else{
+    	document.write('<a class="ellipsis art-list-link" href="' + curHref + '" title="' + curTitle + '" target="' + curTarget + '">' + curTitle + '</a>');  
+    }
+
+    
+    
+</script>
+
+                                            <span class="time">
+                                             2026-08-05
+                                            </span>
+                                        </div>
+                                    </li>
+                                
+                                    <li>  
+                                          <div class="title">
+                                          
+                                           <script>
+  
+    var curHref = 'https://www.gov.cn/yaowen/liebiao/202608/content_7077451.htm';
+    //var curTitle = '谋复兴——深刻认识“最本质的特征”和“最大优势”';
+//var subTitle = '';
+ var curTitle ='谋复兴——深刻认识“最本质的特征”和“最大优势”';
+    var curCmsDocType = '30'
+    var curTarget = '';
+    var pointIndex = curHref.lastIndexOf('.');
+    var docType = curHref.substring(pointIndex+1).toLocaleLowerCase();
+    if (!(docType == 'html' || docType == 'pdf' || docType == 'xml' || docType == 'txt' || docType == 'jpg' || docType == 'png' || docType == 'jpeg' || docType == 'bmp') && curCmsDocType != 30) {
+        curTarget = '_self';
+    } else {
+        curTarget = '_blank';
+    }
+    var channelName = 'currentAffairs';
+    var doingFlagHtml='';
+    //进行中标识
+    if(channelName == 'questionnaire_news' && subTitle =='进行中'){
+    	doingFlagHtml = '<span class="surveyIsDoing">进行中</span>';
+    	document.write('<a class="ellipsis art-list-link" href="' + curHref + '" title="' + curTitle + '" target="' + curTarget + '">'+ doingFlagHtml + curTitle + '</a>');  
+    } else if((channelName  == 'introduce_hidden' || channelName  == 'serveGuide_hidden' || channelName  == 'dataInterface_hidden' || channelName  == 'technicalGuide_hidden')&& '12'==1){
+    //技术服务页面，判断是否第一条是置顶
+       doingFlagHtml = '<span class="surveyIsDoing">置顶</span>';
+       document.write('<a class="ellipsis art-list-link" href="' + curHref + '" title="' + curTitle + '" target="' + curTarget + '">'+ doingFlagHtml + curTitle + '</a>'); 
+    }else{
+    	document.write('<a class="ellipsis art-list-link" href="' + curHref + '" title="' + curTitle + '" target="' + curTarget + '">' + curTitle + '</a>');  
+    }
+
+    
+    
+</script>
+
+                                            <span class="time">
+                                             2026-08-04
+                                            </span>
+                                        </div>
+                                    </li>
+                                
+                                    <li>  
+                                          <div class="title">
+                                          
+                                           <script>
+  
+    var curHref = 'https://www.gov.cn/yaowen/liebiao/202608/content_7077356.htm';
+    //var curTitle = '习近平总书记引领“十五五”开局之年中国经济破浪前行';
+//var subTitle = '';
+ var curTitle ='习近平总书记引领“十五五”开局之年中国经济破浪前行';
+    var curCmsDocType = '30'
+    var curTarget = '';
+    var pointIndex = curHref.lastIndexOf('.');
+    var docType = curHref.substring(pointIndex+1).toLocaleLowerCase();
+    if (!(docType == 'html' || docType == 'pdf' || docType == 'xml' || docType == 'txt' || docType == 'jpg' || docType == 'png' || docType == 'jpeg' || docType == 'bmp') && curCmsDocType != 30) {
+        curTarget = '_self';
+    } else {
+        curTarget = '_blank';
+    }
+    var channelName = 'currentAffairs';
+    var doingFlagHtml='';
+    //进行中标识
+    if(channelName == 'questionnaire_news' && subTitle =='进行中'){
+    	doingFlagHtml = '<span class="surveyIsDoing">进行中</span>';
+    	document.write('<a class="ellipsis art-list-link" href="' + curHref + '" title="' + curTitle + '" target="' + curTarget + '">'+ doingFlagHtml + curTitle + '</a>');  
+    } else if((channelName  == 'introduce_hidden' || channelName  == 'serveGuide_hidden' || channelName  == 'dataInterface_hidden' || channelName  == 'technicalGuide_hidden')&& '13'==1){
+    //技术服务页面，判断是否第一条是置顶
+       doingFlagHtml = '<span class="surveyIsDoing">置顶</span>';
+       document.write('<a class="ellipsis art-list-link" href="' + curHref + '" title="' + curTitle + '" target="' + curTarget + '">'+ doingFlagHtml + curTitle + '</a>'); 
+    }else{
+    	document.write('<a class="ellipsis art-list-link" href="' + curHref + '" title="' + curTitle + '" target="' + curTarget + '">' + curTitle + '</a>');  
+    }
+
+    
+    
+</script>
+
+                                            <span class="time">
+                                             2026-08-03
+                                            </span>
+                                        </div>
+                                    </li>
+                                
+                                    <li>  
+                                          <div class="title">
+                                          
+                                           <script>
+  
+    var curHref = 'https://www.gov.cn/yaowen/liebiao/202608/content_7077420.htm';
+    //var curTitle = '东风浩荡开新局——习近平经济思想指引中国经济高质量发展行稳致远';
+//var subTitle = '';
+ var curTitle ='东风浩荡开新局——习近平经济思想指引中国经济高质量发展行稳致远';
+    var curCmsDocType = '30'
+    var curTarget = '';
+    var pointIndex = curHref.lastIndexOf('.');
+    var docType = curHref.substring(pointIndex+1).toLocaleLowerCase();
+    if (!(docType == 'html' || docType == 'pdf' || docType == 'xml' || docType == 'txt' || docType == 'jpg' || docType == 'png' || docType == 'jpeg' || docType == 'bmp') && curCmsDocType != 30) {
+        curTarget = '_self';
+    } else {
+        curTarget = '_blank';
+    }
+    var channelName = 'currentAffairs';
+    var doingFlagHtml='';
+    //进行中标识
+    if(channelName == 'questionnaire_news' && subTitle =='进行中'){
+    	doingFlagHtml = '<span class="surveyIsDoing">进行中</span>';
+    	document.write('<a class="ellipsis art-list-link" href="' + curHref + '" title="' + curTitle + '" target="' + curTarget + '">'+ doingFlagHtml + curTitle + '</a>');  
+    } else if((channelName  == 'introduce_hidden' || channelName  == 'serveGuide_hidden' || channelName  == 'dataInterface_hidden' || channelName  == 'technicalGuide_hidden')&& '14'==1){
+    //技术服务页面，判断是否第一条是置顶
+       doingFlagHtml = '<span class="surveyIsDoing">置顶</span>';
+       document.write('<a class="ellipsis art-list-link" href="' + curHref + '" title="' + curTitle + '" target="' + curTarget + '">'+ doingFlagHtml + curTitle + '</a>'); 
+    }else{
+    	document.write('<a class="ellipsis art-list-link" href="' + curHref + '" title="' + curTitle + '" target="' + curTarget + '">' + curTitle + '</a>');  
+    }
+
+    
+    
+</script>
+
+                                            <span class="time">
+                                             2026-08-03
+                                            </span>
+                                        </div>
+                                    </li>
+                                
+                                    <li>  
+                                          <div class="title">
+                                          
+                                           <script>
+  
+    var curHref = 'https://www.gov.cn/yaowen/liebiao/202608/content_7077336.htm';
+    //var curTitle = '总书记的人民情怀 | “坚持高质量发展要成为领导干部政绩观的重要内容”';
+//var subTitle = '';
+ var curTitle ='总书记的人民情怀 | “坚持高质量发展要成为领导干部政绩观的重要内容”';
+    var curCmsDocType = '30'
+    var curTarget = '';
+    var pointIndex = curHref.lastIndexOf('.');
+    var docType = curHref.substring(pointIndex+1).toLocaleLowerCase();
+    if (!(docType == 'html' || docType == 'pdf' || docType == 'xml' || docType == 'txt' || docType == 'jpg' || docType == 'png' || docType == 'jpeg' || docType == 'bmp') && curCmsDocType != 30) {
+        curTarget = '_self';
+    } else {
+        curTarget = '_blank';
+    }
+    var channelName = 'currentAffairs';
+    var doingFlagHtml='';
+    //进行中标识
+    if(channelName == 'questionnaire_news' && subTitle =='进行中'){
+    	doingFlagHtml = '<span class="surveyIsDoing">进行中</span>';
+    	document.write('<a class="ellipsis art-list-link" href="' + curHref + '" title="' + curTitle + '" target="' + curTarget + '">'+ doingFlagHtml + curTitle + '</a>');  
+    } else if((channelName  == 'introduce_hidden' || channelName  == 'serveGuide_hidden' || channelName  == 'dataInterface_hidden' || channelName  == 'technicalGuide_hidden')&& '15'==1){
+    //技术服务页面，判断是否第一条是置顶
+       doingFlagHtml = '<span class="surveyIsDoing">置顶</span>';
+       document.write('<a class="ellipsis art-list-link" href="' + curHref + '" title="' + curTitle + '" target="' + curTarget + '">'+ doingFlagHtml + curTitle + '</a>'); 
+    }else{
+    	document.write('<a class="ellipsis art-list-link" href="' + curHref + '" title="' + curTitle + '" target="' + curTarget + '">' + curTitle + '</a>');  
+    }
+
+    
+    
+</script>
+
+                                            <span class="time">
+                                             2026-08-02
+                                            </span>
+                                        </div>
+                                    </li>
+                                
+                                    <li>  
+                                          <div class="title">
+                                          
+                                           <script>
+  
+    var curHref = 'https://tv.cctv.com/2026/08/01/VIDEPoge6lPjxTGFiJUv2Zco260801.shtml';
+    //var curTitle = '[视频]《求是》杂志发表习近平总书记重要文章《加快建设健康中国》';
+//var subTitle = '';
+ var curTitle ='[视频]《求是》杂志发表习近平总书记重要文章《加快建设健康中国》';
+    var curCmsDocType = '30'
+    var curTarget = '';
+    var pointIndex = curHref.lastIndexOf('.');
+    var docType = curHref.substring(pointIndex+1).toLocaleLowerCase();
+    if (!(docType == 'html' || docType == 'pdf' || docType == 'xml' || docType == 'txt' || docType == 'jpg' || docType == 'png' || docType == 'jpeg' || docType == 'bmp') && curCmsDocType != 30) {
+        curTarget = '_self';
+    } else {
+        curTarget = '_blank';
+    }
+    var channelName = 'currentAffairs';
+    var doingFlagHtml='';
+    //进行中标识
+    if(channelName == 'questionnaire_news' && subTitle =='进行中'){
+    	doingFlagHtml = '<span class="surveyIsDoing">进行中</span>';
+    	document.write('<a class="ellipsis art-list-link" href="' + curHref + '" title="' + curTitle + '" target="' + curTarget + '">'+ doingFlagHtml + curTitle + '</a>');  
+    } else if((channelName  == 'introduce_hidden' || channelName  == 'serveGuide_hidden' || channelName  == 'dataInterface_hidden' || channelName  == 'technicalGuide_hidden')&& '16'==1){
+    //技术服务页面，判断是否第一条是置顶
+       doingFlagHtml = '<span class="surveyIsDoing">置顶</span>';
+       document.write('<a class="ellipsis art-list-link" href="' + curHref + '" title="' + curTitle + '" target="' + curTarget + '">'+ doingFlagHtml + curTitle + '</a>'); 
+    }else{
+    	document.write('<a class="ellipsis art-list-link" href="' + curHref + '" title="' + curTitle + '" target="' + curTarget + '">' + curTitle + '</a>');  
+    }
+
+    
+    
+</script>
+
+                                            <span class="time">
+                                             2026-08-01
+                                            </span>
+                                        </div>
+                                    </li>
+                                
+                                    <li>  
+                                          <div class="title">
+                                          
+                                           <script>
+  
+    var curHref = 'https://www.gov.cn/yaowen/liebiao/202607/content_7077129.htm';
+    //var curTitle = '习近平在中共中央政治局第二十七次集体学习时强调 强化政治引领 深化创新发展 高质量推进国防和军队现代化';
+//var subTitle = '';
+ var curTitle ='习近平在中共中央政治局第二十七次集体学习时强调 强化政治引领 深化创新发展 高质量推进国防和军队现代化';
+    var curCmsDocType = '30'
+    var curTarget = '';
+    var pointIndex = curHref.lastIndexOf('.');
+    var docType = curHref.substring(pointIndex+1).toLocaleLowerCase();
+    if (!(docType == 'html' || docType == 'pdf' || docType == 'xml' || docType == 'txt' || docType == 'jpg' || docType == 'png' || docType == 'jpeg' || docType == 'bmp') && curCmsDocType != 30) {
+        curTarget = '_self';
+    } else {
+        curTarget = '_blank';
+    }
+    var channelName = 'currentAffairs';
+    var doingFlagHtml='';
+    //进行中标识
+    if(channelName == 'questionnaire_news' && subTitle =='进行中'){
+    	doingFlagHtml = '<span class="surveyIsDoing">进行中</span>';
+    	document.write('<a class="ellipsis art-list-link" href="' + curHref + '" title="' + curTitle + '" target="' + curTarget + '">'+ doingFlagHtml + curTitle + '</a>');  
+    } else if((channelName  == 'introduce_hidden' || channelName  == 'serveGuide_hidden' || channelName  == 'dataInterface_hidden' || channelName  == 'technicalGuide_hidden')&& '17'==1){
+    //技术服务页面，判断是否第一条是置顶
+       doingFlagHtml = '<span class="surveyIsDoing">置顶</span>';
+       document.write('<a class="ellipsis art-list-link" href="' + curHref + '" title="' + curTitle + '" target="' + curTarget + '">'+ doingFlagHtml + curTitle + '</a>'); 
+    }else{
+    	document.write('<a class="ellipsis art-list-link" href="' + curHref + '" title="' + curTitle + '" target="' + curTarget + '">' + curTitle + '</a>');  
+    }
+
+    
+    
+</script>
+
+                                            <span class="time">
+                                             2026-07-31
+                                            </span>
+                                        </div>
+                                    </li>
+                                
+                                    <li>  
+                                          <div class="title">
+                                          
+                                           <script>
+  
+    var curHref = 'https://www.gov.cn/yaowen/liebiao/202607/content_7077020.htm';
+    //var curTitle = '总书记的人民情怀 | “始终同人民同呼吸、共命运、心连心”';
+//var subTitle = '';
+ var curTitle ='总书记的人民情怀 | “始终同人民同呼吸、共命运、心连心”';
+    var curCmsDocType = '30'
+    var curTarget = '';
+    var pointIndex = curHref.lastIndexOf('.');
+    var docType = curHref.substring(pointIndex+1).toLocaleLowerCase();
+    if (!(docType == 'html' || docType == 'pdf' || docType == 'xml' || docType == 'txt' || docType == 'jpg' || docType == 'png' || docType == 'jpeg' || docType == 'bmp') && curCmsDocType != 30) {
+        curTarget = '_self';
+    } else {
+        curTarget = '_blank';
+    }
+    var channelName = 'currentAffairs';
+    var doingFlagHtml='';
+    //进行中标识
+    if(channelName == 'questionnaire_news' && subTitle =='进行中'){
+    	doingFlagHtml = '<span class="surveyIsDoing">进行中</span>';
+    	document.write('<a class="ellipsis art-list-link" href="' + curHref + '" title="' + curTitle + '" target="' + curTarget + '">'+ doingFlagHtml + curTitle + '</a>');  
+    } else if((channelName  == 'introduce_hidden' || channelName  == 'serveGuide_hidden' || channelName  == 'dataInterface_hidden' || channelName  == 'technicalGuide_hidden')&& '18'==1){
+    //技术服务页面，判断是否第一条是置顶
+       doingFlagHtml = '<span class="surveyIsDoing">置顶</span>';
+       document.write('<a class="ellipsis art-list-link" href="' + curHref + '" title="' + curTitle + '" target="' + curTarget + '">'+ doingFlagHtml + curTitle + '</a>'); 
+    }else{
+    	document.write('<a class="ellipsis art-list-link" href="' + curHref + '" title="' + curTitle + '" target="' + curTarget + '">' + curTitle + '</a>');  
+    }
+
+    
+    
+</script>
+
+                                            <span class="time">
+                                             2026-07-30
+                                            </span>
+                                        </div>
+                                    </li>
+                                
+                                    <li>  
+                                          <div class="title">
+                                          
+                                           <script>
+  
+    var curHref = 'https://www.gov.cn/yaowen/liebiao/202607/content_7076886.htm';
+    //var curTitle = '厚植家国情怀 携手筑梦前行——习近平总书记对侨务工作重要指示激励海内外中华儿女为强国建设、民族复兴伟业团结奋斗';
+//var subTitle = '';
+ var curTitle ='厚植家国情怀 携手筑梦前行——习近平总书记对侨务工作重要指示激励海内外中华儿女为强国建设、民族复兴伟业团结奋斗';
+    var curCmsDocType = '30'
+    var curTarget = '';
+    var pointIndex = curHref.lastIndexOf('.');
+    var docType = curHref.substring(pointIndex+1).toLocaleLowerCase();
+    if (!(docType == 'html' || docType == 'pdf' || docType == 'xml' || docType == 'txt' || docType == 'jpg' || docType == 'png' || docType == 'jpeg' || docType == 'bmp') && curCmsDocType != 30) {
+        curTarget = '_self';
+    } else {
+        curTarget = '_blank';
+    }
+    var channelName = 'currentAffairs';
+    var doingFlagHtml='';
+    //进行中标识
+    if(channelName == 'questionnaire_news' && subTitle =='进行中'){
+    	doingFlagHtml = '<span class="surveyIsDoing">进行中</span>';
+    	document.write('<a class="ellipsis art-list-link" href="' + curHref + '" title="' + curTitle + '" target="' + curTarget + '">'+ doingFlagHtml + curTitle + '</a>');  
+    } else if((channelName  == 'introduce_hidden' || channelName  == 'serveGuide_hidden' || channelName  == 'dataInterface_hidden' || channelName  == 'technicalGuide_hidden')&& '19'==1){
+    //技术服务页面，判断是否第一条是置顶
+       doingFlagHtml = '<span class="surveyIsDoing">置顶</span>';
+       document.write('<a class="ellipsis art-list-link" href="' + curHref + '" title="' + curTitle + '" target="' + curTarget + '">'+ doingFlagHtml + curTitle + '</a>'); 
+    }else{
+    	document.write('<a class="ellipsis art-list-link" href="' + curHref + '" title="' + curTitle + '" target="' + curTarget + '">' + curTitle + '</a>');  
+    }
+
+    
+    
+</script>
+
+                                            <span class="time">
+                                             2026-07-29
+                                            </span>
+                                        </div>
+                                    </li>
+                                
+                                    <li>  
+                                          <div class="title">
+                                          
+                                           <script>
+  
+    var curHref = 'https://www.gov.cn/yaowen/liebiao/202607/content_7076795.htm';
+    //var curTitle = '习近平同斯洛伐克总统佩列格里尼会谈';
+//var subTitle = '';
+ var curTitle ='习近平同斯洛伐克总统佩列格里尼会谈';
+    var curCmsDocType = '30'
+    var curTarget = '';
+    var pointIndex = curHref.lastIndexOf('.');
+    var docType = curHref.substring(pointIndex+1).toLocaleLowerCase();
+    if (!(docType == 'html' || docType == 'pdf' || docType == 'xml' || docType == 'txt' || docType == 'jpg' || docType == 'png' || docType == 'jpeg' || docType == 'bmp') && curCmsDocType != 30) {
+        curTarget = '_self';
+    } else {
+        curTarget = '_blank';
+    }
+    var channelName = 'currentAffairs';
+    var doingFlagHtml='';
+    //进行中标识
+    if(channelName == 'questionnaire_news' && subTitle =='进行中'){
+    	doingFlagHtml = '<span class="surveyIsDoing">进行中</span>';
+    	document.write('<a class="ellipsis art-list-link" href="' + curHref + '" title="' + curTitle + '" target="' + curTarget + '">'+ doingFlagHtml + curTitle + '</a>');  
+    } else if((channelName  == 'introduce_hidden' || channelName  == 'serveGuide_hidden' || channelName  == 'dataInterface_hidden' || channelName  == 'technicalGuide_hidden')&& '20'==1){
+    //技术服务页面，判断是否第一条是置顶
+       doingFlagHtml = '<span class="surveyIsDoing">置顶</span>';
+       document.write('<a class="ellipsis art-list-link" href="' + curHref + '" title="' + curTitle + '" target="' + curTarget + '">'+ doingFlagHtml + curTitle + '</a>'); 
+    }else{
+    	document.write('<a class="ellipsis art-list-link" href="' + curHref + '" title="' + curTitle + '" target="' + curTarget + '">' + curTitle + '</a>');  
+    }
+
+    
+    
+</script>
+
+                                            <span class="time">
+                                             2026-07-28
+                                            </span>
+                                        </div>
+                                    </li>
+                                         
+                            </ul>
+                             <script>
+                                if(articleCount == 0){
+                                   var nodataHtml = ' <div class="report-nodata">'
+                                                 +       '<span class="nodata-text">没有找到符合条件的数据！</span>'
+                                                 +     '</div>';
+                                   document.write(nodataHtml);
+                                }
+                             </script>
+                        </div>
+                        <div class="article-list-paginator">
+                            <div class="paginator">
+                                <ul class="paginator-ul pagination paginator-article-cms"></ul>
+                                 <ul class="paginator-ul pagination paginator-article-list"></ul>                                                          
+                            </div>
+                            <script>
+                               var pageHtml = '';
+                               if(articleCount == 0){
+                                  pageHtml = ' <div class="current-page" style="display:none">'
+                                            +       '当前第<span class="num-cur"></span>页&nbsp;&nbsp;共<span class="num-all"></span>页'
+                                            +     '</div>';
+                                  document.write(pageHtml);
+                               }else{
+                                  pageHtml = ' <div class="current-page">'
+                                          +       '当前第<span class="num-cur"></span>页&nbsp;&nbsp;共<span class="num-all"></span>页'
+                                          +     '</div>';
+                                  document.write(pageHtml);
+                               }
+                            </script>
+                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script>
+  changeVertion('/common/js/toggleBig5.js', 'js');
+  navMenuAJAX('/application/publicindex/footer/index.html','/application/publicindex/footer/index.html', 'footer','www');
+  addComJsFile();
+</script>
+    <script id="article-template" type="text/html">
+    <ul class="newslist date-right">
+                <% _.each(data,function(item){ %>           
+                  <li>         
+                    <div class="title">
+                      <%if(!(item.doctype== 'html' || item.doctype== 'pdf' || item.doctype== 'xml' || item.doctype== 'txt' || item.doctype== 'jpg' || item.doctype== 'png' || item.doctype== 'jpeg' || item.doctype== 'bmp')&& curCmsDocType != 30 && item.doctype !== 'link'){%>
+                                    <a class="ellipsis art-list-link" href="<%=item.docpuburl%>" title="<%=replaceTitle(item.doctitle)%>" target="_self">
+                      <%}else{%>
+                      <a class="ellipsis art-list-link" href="<%=item.docpuburl%>" title="<%=replaceTitle(item.doctitle)%>" target="_blank">
+                      <%}%>
+        <!-- <a class="ellipsis art-list-link" href="<%=item.docpuburl%>" title="<%=replaceTitle(item.doctitle)%>" target="_blank"> -->
+                          <%=item.doctitle%>
+                        </a>
+                        <span class="time"><%- formateDate(item.docpubtime) %></span>
+                    </div>
+                  </li>
+                <% }) %>                                      
+    </ul>
+        <% if (data.length<=0) {%> 
+              <div class="report-nodata">
+                    <span class="nodata-text"><%= enlangflag ? 'No data was found that fit the condition!' : '没有找到符合条件的数据！' %></span>
+              </div>
+        <% }%>   
+</script>
+<script>
+    changeVertion('/common/js/articleList.js','js');        
+</script>
+
+<script type="text/javascript">
+      
+    var cmsParam = {
+        pageCount:120,
+        pageIndex:0,
+        currentMenuId:'currentAffairs'
+    }
+    if(IEVersion() <= 10 && IEVersion() > 0){
+             window.onload = function(){
+                createPageHTML(120, 0, "index", "html");
+                $('#article-text').val('');
+                artInitHtml(cmsParam);
+             }
+           }else{
+             window.onpageshow = function(){
+                createPageHTML(120, 0, "index", "html");
+                $('#article-text').val('');
+                artInitHtml(cmsParam);
+             }
+           }
+       $('.current-page .num-cur').html( cmsParam.pageIndex + 1 );
+      $('.current-page .num-all').html( cmsParam.pageCount );
+</script>
+    <script>
+  (function () {
+    if (!window.location.origin) {
+      window.location.origin = window.location.protocol + "//" + window.location.hostname + (window.location.port ? ':' + window.location.port : '');
+    }
+
+    var reg = /^http(s)?:\/\/([a-zA-Z0-9][-a-zA-Z0-9]{0,62}(\.[a-zA-Z0-9][-a-zA-Z0-9]{0,62})+\.?)/;
+    var channelCode = 'currentAffairs';
+    var domainArr = [];
+    $.each(pathObj, function (i, v) {
+      domainArr.push(v);
+    });
+    domainArr.push.apply(domainArr, ["http://lefu.szse.cn", "https://lefu.szse.cn", "http://res.szse.cn"]);
+    $('.visitsNum a').each(function (index) {
+      var domain = $(this).attr('href').match(reg) ? $(this).attr('href').match(reg)[0] : '';
+      if (domain && $.inArray(domain, domainArr) < 0) {
+        $(this).click(function () {
+          $.when(ajaxRequest({
+            url: window.location.origin + '/index/visits/index.html?url=' + $(this).attr('href') + '&channel=' + channelCode
+          })).done(function (data) {
+          });
+        })
+      }
+
+    });
+
+
+
+  })();
+
+</script>
+
+</body>
+</html>
