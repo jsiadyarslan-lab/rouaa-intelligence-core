@@ -1,0 +1,2715 @@
+{
+  "population": "V37.1_EVIDENCE_SELECTION_GAP",
+  "version": "1.0",
+  "denominator": 158,
+  "source_derivation": {
+    "v32_high_tmf": 79,
+    "v31_only_added": 79,
+    "total_high_confidence_fn_reference": 175,
+    "gap_taxonomy_filtered": 17
+  },
+  "gap_taxonomy_distribution": {
+    "EVIDENCE_SELECTION_GAP": 158
+  },
+  "forensic_subclass_distribution": {
+    "VALUE_AND_CONTEXT_PRESENT": 20,
+    "VALUE_PRESENT_CONTEXT_NEARBY": 138
+  },
+  "invariants": {
+    "total_records": 158,
+    "expected": 158,
+    "match": true,
+    "all_have_gt_fact_id": true,
+    "all_have_gap_taxonomy": true,
+    "all_have_forensic_subclass": true,
+    "unique_gt_fact_ids": true
+  },
+  "records": [
+    {
+      "gt_fact_id": "gtf-0008",
+      "document_id": "doc-7c5cd3967c2f9f10",
+      "source_id": "imp-bea",
+      "metric": "percentage_statistic",
+      "value": "0.3",
+      "language": "en",
+      "v31_disposition": "AMBIGUOUS",
+      "v32_disposition": "TRUE_MATERIAL_FACT",
+      "confidence": "HIGH",
+      "lineage": [
+        "V32"
+      ],
+      "evidence_excerpt": "t at a monthly rate) in June, according to estimates released today by the U.S. Bureau of Economic Analysis (BEA). Disposable personal income (DPI)\u2014personal income less personal current taxes\u2014increase",
+      "gap_taxonomy": "EVIDENCE_SELECTION_GAP",
+      "forensic_subclass": "VALUE_AND_CONTEXT_PRESENT"
+    },
+    {
+      "gt_fact_id": "gtf-0020",
+      "document_id": "doc-7c5cd3967c2f9f10",
+      "source_id": "imp-bea",
+      "metric": "usd_amount",
+      "value": "65.2",
+      "language": "en",
+      "v31_disposition": "AMBIGUOUS",
+      "v32_disposition": "TRUE_MATERIAL_FACT",
+      "confidence": "HIGH",
+      "lineage": [
+        "V32"
+      ],
+      "evidence_excerpt": "on (0.2 percent at a monthly rate) in June, according to estimates released today by the U.S. Bureau of Economic Analysis (BEA). Disposable personal income (DPI)\u2014personal income less personal current ",
+      "gap_taxonomy": "EVIDENCE_SELECTION_GAP",
+      "forensic_subclass": "VALUE_AND_CONTEXT_PRESENT"
+    },
+    {
+      "gt_fact_id": "gtf-0038",
+      "document_id": "doc-7c5cd3967c2f9f10",
+      "source_id": "imp-bea",
+      "metric": "usd_amount",
+      "value": "3.9",
+      "language": "en",
+      "v31_disposition": "AMBIGUOUS",
+      "v32_disposition": "TRUE_MATERIAL_FACT",
+      "confidence": "HIGH",
+      "lineage": [
+        "V32"
+      ],
+      "evidence_excerpt": "6 B The U.S. goods and services trade deficit decreased in June 2026 according to the U.S. Bureau of Economic Analysis and the U.S. Census Bureau. The deficit decreased from $77.6 billion in May (revi",
+      "gap_taxonomy": "EVIDENCE_SELECTION_GAP",
+      "forensic_subclass": "VALUE_PRESENT_CONTEXT_NEARBY"
+    },
+    {
+      "gt_fact_id": "gtf-0235",
+      "document_id": "doc-a72c0918e27dd12b",
+      "source_id": "src-stat-austria",
+      "metric": "percentage_statistic",
+      "value": "5",
+      "language": "en",
+      "v31_disposition": "AMBIGUOUS",
+      "v32_disposition": "TRUE_MATERIAL_FACT",
+      "confidence": "HIGH",
+      "lineage": [
+        "V32"
+      ],
+      "evidence_excerpt": "r\u00e4ndert 07.08.2026 \u00d6sterreichs Au\u00dfenhandel im Mai 2026: Importe und Exporte gestiegen 07.08.2026 Weniger Firmenpleiten im 2. Quartal 2026 in \u00d6sterreich 06.08.2026 Gro\u00dfhandelspreise in \u00d6sterreich im Ju",
+      "gap_taxonomy": "EVIDENCE_SELECTION_GAP",
+      "forensic_subclass": "VALUE_PRESENT_CONTEXT_NEARBY"
+    },
+    {
+      "gt_fact_id": "gtf-0260",
+      "document_id": "doc-a72c0918e27dd12b",
+      "source_id": "src-stat-austria",
+      "metric": "percentage_statistic",
+      "value": "5",
+      "language": "en",
+      "v31_disposition": "AMBIGUOUS",
+      "v32_disposition": "TRUE_MATERIAL_FACT",
+      "confidence": "HIGH",
+      "lineage": [
+        "V32"
+      ],
+      "evidence_excerpt": "r\u00e4ndert 07.08.2026 \u00d6sterreichs Au\u00dfenhandel im Mai 2026: Importe und Exporte gestiegen 07.08.2026 Weniger Firmenpleiten im 2. Quartal 2026 in \u00d6sterreich 06.08.2026 Gro\u00dfhandelspreise in \u00d6sterreich im Ju",
+      "gap_taxonomy": "EVIDENCE_SELECTION_GAP",
+      "forensic_subclass": "VALUE_PRESENT_CONTEXT_NEARBY"
+    },
+    {
+      "gt_fact_id": "gtf-0312",
+      "document_id": "doc-a72c0918e27dd12b",
+      "source_id": "src-stat-austria",
+      "metric": "percentage_statistic",
+      "value": "5",
+      "language": "en",
+      "v31_disposition": "AMBIGUOUS",
+      "v32_disposition": "TRUE_MATERIAL_FACT",
+      "confidence": "HIGH",
+      "lineage": [
+        "V32"
+      ],
+      "evidence_excerpt": "r\u00e4ndert 07.08.2026 \u00d6sterreichs Au\u00dfenhandel im Mai 2026: Importe und Exporte gestiegen 07.08.2026 Weniger Firmenpleiten im 2. Quartal 2026 in \u00d6sterreich 06.08.2026 Gro\u00dfhandelspreise in \u00d6sterreich im Ju",
+      "gap_taxonomy": "EVIDENCE_SELECTION_GAP",
+      "forensic_subclass": "VALUE_PRESENT_CONTEXT_NEARBY"
+    },
+    {
+      "gt_fact_id": "gtf-0341",
+      "document_id": "doc-a72c0918e27dd12b",
+      "source_id": "src-stat-austria",
+      "metric": "percentage_statistic",
+      "value": "5",
+      "language": "en",
+      "v31_disposition": "AMBIGUOUS",
+      "v32_disposition": "TRUE_MATERIAL_FACT",
+      "confidence": "HIGH",
+      "lineage": [
+        "V32"
+      ],
+      "evidence_excerpt": "r\u00e4ndert 07.08.2026 \u00d6sterreichs Au\u00dfenhandel im Mai 2026: Importe und Exporte gestiegen 07.08.2026 Weniger Firmenpleiten im 2. Quartal 2026 in \u00d6sterreich 06.08.2026 Gro\u00dfhandelspreise in \u00d6sterreich im Ju",
+      "gap_taxonomy": "EVIDENCE_SELECTION_GAP",
+      "forensic_subclass": "VALUE_PRESENT_CONTEXT_NEARBY"
+    },
+    {
+      "gt_fact_id": "gtf-0356",
+      "document_id": "doc-a72c0918e27dd12b",
+      "source_id": "src-stat-austria",
+      "metric": "percentage_statistic",
+      "value": "5",
+      "language": "en",
+      "v31_disposition": "AMBIGUOUS",
+      "v32_disposition": "TRUE_MATERIAL_FACT",
+      "confidence": "HIGH",
+      "lineage": [
+        "V32"
+      ],
+      "evidence_excerpt": "r\u00e4ndert 07.08.2026 \u00d6sterreichs Au\u00dfenhandel im Mai 2026: Importe und Exporte gestiegen 07.08.2026 Weniger Firmenpleiten im 2. Quartal 2026 in \u00d6sterreich 06.08.2026 Gro\u00dfhandelspreise in \u00d6sterreich im Ju",
+      "gap_taxonomy": "EVIDENCE_SELECTION_GAP",
+      "forensic_subclass": "VALUE_PRESENT_CONTEXT_NEARBY"
+    },
+    {
+      "gt_fact_id": "gtf-0362",
+      "document_id": "doc-a72c0918e27dd12b",
+      "source_id": "src-stat-austria",
+      "metric": "percentage_statistic",
+      "value": "5",
+      "language": "en",
+      "v31_disposition": "AMBIGUOUS",
+      "v32_disposition": "TRUE_MATERIAL_FACT",
+      "confidence": "HIGH",
+      "lineage": [
+        "V32"
+      ],
+      "evidence_excerpt": "r\u00e4ndert 07.08.2026 \u00d6sterreichs Au\u00dfenhandel im Mai 2026: Importe und Exporte gestiegen 07.08.2026 Weniger Firmenpleiten im 2. Quartal 2026 in \u00d6sterreich 06.08.2026 Gro\u00dfhandelspreise in \u00d6sterreich im Ju",
+      "gap_taxonomy": "EVIDENCE_SELECTION_GAP",
+      "forensic_subclass": "VALUE_PRESENT_CONTEXT_NEARBY"
+    },
+    {
+      "gt_fact_id": "gtf-0379",
+      "document_id": "doc-a72c0918e27dd12b",
+      "source_id": "src-stat-austria",
+      "metric": "percentage_statistic",
+      "value": "5",
+      "language": "en",
+      "v31_disposition": "AMBIGUOUS",
+      "v32_disposition": "TRUE_MATERIAL_FACT",
+      "confidence": "HIGH",
+      "lineage": [
+        "V32"
+      ],
+      "evidence_excerpt": "r\u00e4ndert 07.08.2026 \u00d6sterreichs Au\u00dfenhandel im Mai 2026: Importe und Exporte gestiegen 07.08.2026 Weniger Firmenpleiten im 2. Quartal 2026 in \u00d6sterreich 06.08.2026 Gro\u00dfhandelspreise in \u00d6sterreich im Ju",
+      "gap_taxonomy": "EVIDENCE_SELECTION_GAP",
+      "forensic_subclass": "VALUE_PRESENT_CONTEXT_NEARBY"
+    },
+    {
+      "gt_fact_id": "gtf-0383",
+      "document_id": "doc-a72c0918e27dd12b",
+      "source_id": "src-stat-austria",
+      "metric": "percentage_statistic",
+      "value": "5",
+      "language": "en",
+      "v31_disposition": "AMBIGUOUS",
+      "v32_disposition": "TRUE_MATERIAL_FACT",
+      "confidence": "HIGH",
+      "lineage": [
+        "V32"
+      ],
+      "evidence_excerpt": "r\u00e4ndert 07.08.2026 \u00d6sterreichs Au\u00dfenhandel im Mai 2026: Importe und Exporte gestiegen 07.08.2026 Weniger Firmenpleiten im 2. Quartal 2026 in \u00d6sterreich 06.08.2026 Gro\u00dfhandelspreise in \u00d6sterreich im Ju",
+      "gap_taxonomy": "EVIDENCE_SELECTION_GAP",
+      "forensic_subclass": "VALUE_PRESENT_CONTEXT_NEARBY"
+    },
+    {
+      "gt_fact_id": "gtf-0393",
+      "document_id": "doc-a72c0918e27dd12b",
+      "source_id": "src-stat-austria",
+      "metric": "percentage_statistic",
+      "value": "5",
+      "language": "en",
+      "v31_disposition": "AMBIGUOUS",
+      "v32_disposition": "TRUE_MATERIAL_FACT",
+      "confidence": "HIGH",
+      "lineage": [
+        "V32"
+      ],
+      "evidence_excerpt": "r\u00e4ndert 07.08.2026 \u00d6sterreichs Au\u00dfenhandel im Mai 2026: Importe und Exporte gestiegen 07.08.2026 Weniger Firmenpleiten im 2. Quartal 2026 in \u00d6sterreich 06.08.2026 Gro\u00dfhandelspreise in \u00d6sterreich im Ju",
+      "gap_taxonomy": "EVIDENCE_SELECTION_GAP",
+      "forensic_subclass": "VALUE_PRESENT_CONTEXT_NEARBY"
+    },
+    {
+      "gt_fact_id": "gtf-0428",
+      "document_id": "doc-a72c0918e27dd12b",
+      "source_id": "src-stat-austria",
+      "metric": "percentage_statistic",
+      "value": "5",
+      "language": "en",
+      "v31_disposition": "AMBIGUOUS",
+      "v32_disposition": "TRUE_MATERIAL_FACT",
+      "confidence": "HIGH",
+      "lineage": [
+        "V32"
+      ],
+      "evidence_excerpt": "r\u00e4ndert 07.08.2026 \u00d6sterreichs Au\u00dfenhandel im Mai 2026: Importe und Exporte gestiegen 07.08.2026 Weniger Firmenpleiten im 2. Quartal 2026 in \u00d6sterreich 06.08.2026 Gro\u00dfhandelspreise in \u00d6sterreich im Ju",
+      "gap_taxonomy": "EVIDENCE_SELECTION_GAP",
+      "forensic_subclass": "VALUE_PRESENT_CONTEXT_NEARBY"
+    },
+    {
+      "gt_fact_id": "gtf-0434",
+      "document_id": "doc-a72c0918e27dd12b",
+      "source_id": "src-stat-austria",
+      "metric": "percentage_statistic",
+      "value": "5",
+      "language": "en",
+      "v31_disposition": "AMBIGUOUS",
+      "v32_disposition": "TRUE_MATERIAL_FACT",
+      "confidence": "HIGH",
+      "lineage": [
+        "V32"
+      ],
+      "evidence_excerpt": "r\u00e4ndert 07.08.2026 \u00d6sterreichs Au\u00dfenhandel im Mai 2026: Importe und Exporte gestiegen 07.08.2026 Weniger Firmenpleiten im 2. Quartal 2026 in \u00d6sterreich 06.08.2026 Gro\u00dfhandelspreise in \u00d6sterreich im Ju",
+      "gap_taxonomy": "EVIDENCE_SELECTION_GAP",
+      "forensic_subclass": "VALUE_PRESENT_CONTEXT_NEARBY"
+    },
+    {
+      "gt_fact_id": "gtf-0435",
+      "document_id": "doc-a72c0918e27dd12b",
+      "source_id": "src-stat-austria",
+      "metric": "percentage_statistic",
+      "value": "5",
+      "language": "en",
+      "v31_disposition": "AMBIGUOUS",
+      "v32_disposition": "TRUE_MATERIAL_FACT",
+      "confidence": "HIGH",
+      "lineage": [
+        "V32"
+      ],
+      "evidence_excerpt": "r\u00e4ndert 07.08.2026 \u00d6sterreichs Au\u00dfenhandel im Mai 2026: Importe und Exporte gestiegen 07.08.2026 Weniger Firmenpleiten im 2. Quartal 2026 in \u00d6sterreich 06.08.2026 Gro\u00dfhandelspreise in \u00d6sterreich im Ju",
+      "gap_taxonomy": "EVIDENCE_SELECTION_GAP",
+      "forensic_subclass": "VALUE_PRESENT_CONTEXT_NEARBY"
+    },
+    {
+      "gt_fact_id": "gtf-0451",
+      "document_id": "doc-a72c0918e27dd12b",
+      "source_id": "src-stat-austria",
+      "metric": "percentage_statistic",
+      "value": "5",
+      "language": "en",
+      "v31_disposition": "AMBIGUOUS",
+      "v32_disposition": "TRUE_MATERIAL_FACT",
+      "confidence": "HIGH",
+      "lineage": [
+        "V32"
+      ],
+      "evidence_excerpt": "r\u00e4ndert 07.08.2026 \u00d6sterreichs Au\u00dfenhandel im Mai 2026: Importe und Exporte gestiegen 07.08.2026 Weniger Firmenpleiten im 2. Quartal 2026 in \u00d6sterreich 06.08.2026 Gro\u00dfhandelspreise in \u00d6sterreich im Ju",
+      "gap_taxonomy": "EVIDENCE_SELECTION_GAP",
+      "forensic_subclass": "VALUE_PRESENT_CONTEXT_NEARBY"
+    },
+    {
+      "gt_fact_id": "gtf-0457",
+      "document_id": "doc-a72c0918e27dd12b",
+      "source_id": "src-stat-austria",
+      "metric": "percentage_statistic",
+      "value": "5",
+      "language": "en",
+      "v31_disposition": "AMBIGUOUS",
+      "v32_disposition": "TRUE_MATERIAL_FACT",
+      "confidence": "HIGH",
+      "lineage": [
+        "V32"
+      ],
+      "evidence_excerpt": "r\u00e4ndert 07.08.2026 \u00d6sterreichs Au\u00dfenhandel im Mai 2026: Importe und Exporte gestiegen 07.08.2026 Weniger Firmenpleiten im 2. Quartal 2026 in \u00d6sterreich 06.08.2026 Gro\u00dfhandelspreise in \u00d6sterreich im Ju",
+      "gap_taxonomy": "EVIDENCE_SELECTION_GAP",
+      "forensic_subclass": "VALUE_PRESENT_CONTEXT_NEARBY"
+    },
+    {
+      "gt_fact_id": "gtf-0459",
+      "document_id": "doc-a72c0918e27dd12b",
+      "source_id": "src-stat-austria",
+      "metric": "percentage_statistic",
+      "value": "5",
+      "language": "en",
+      "v31_disposition": "AMBIGUOUS",
+      "v32_disposition": "TRUE_MATERIAL_FACT",
+      "confidence": "HIGH",
+      "lineage": [
+        "V32"
+      ],
+      "evidence_excerpt": "r\u00e4ndert 07.08.2026 \u00d6sterreichs Au\u00dfenhandel im Mai 2026: Importe und Exporte gestiegen 07.08.2026 Weniger Firmenpleiten im 2. Quartal 2026 in \u00d6sterreich 06.08.2026 Gro\u00dfhandelspreise in \u00d6sterreich im Ju",
+      "gap_taxonomy": "EVIDENCE_SELECTION_GAP",
+      "forensic_subclass": "VALUE_PRESENT_CONTEXT_NEARBY"
+    },
+    {
+      "gt_fact_id": "gtf-0464",
+      "document_id": "doc-a72c0918e27dd12b",
+      "source_id": "src-stat-austria",
+      "metric": "percentage_statistic",
+      "value": "5",
+      "language": "en",
+      "v31_disposition": "AMBIGUOUS",
+      "v32_disposition": "TRUE_MATERIAL_FACT",
+      "confidence": "HIGH",
+      "lineage": [
+        "V32"
+      ],
+      "evidence_excerpt": "r\u00e4ndert 07.08.2026 \u00d6sterreichs Au\u00dfenhandel im Mai 2026: Importe und Exporte gestiegen 07.08.2026 Weniger Firmenpleiten im 2. Quartal 2026 in \u00d6sterreich 06.08.2026 Gro\u00dfhandelspreise in \u00d6sterreich im Ju",
+      "gap_taxonomy": "EVIDENCE_SELECTION_GAP",
+      "forensic_subclass": "VALUE_PRESENT_CONTEXT_NEARBY"
+    },
+    {
+      "gt_fact_id": "gtf-0468",
+      "document_id": "doc-a72c0918e27dd12b",
+      "source_id": "src-stat-austria",
+      "metric": "percentage_statistic",
+      "value": "5",
+      "language": "en",
+      "v31_disposition": "AMBIGUOUS",
+      "v32_disposition": "TRUE_MATERIAL_FACT",
+      "confidence": "HIGH",
+      "lineage": [
+        "V32"
+      ],
+      "evidence_excerpt": "r\u00e4ndert 07.08.2026 \u00d6sterreichs Au\u00dfenhandel im Mai 2026: Importe und Exporte gestiegen 07.08.2026 Weniger Firmenpleiten im 2. Quartal 2026 in \u00d6sterreich 06.08.2026 Gro\u00dfhandelspreise in \u00d6sterreich im Ju",
+      "gap_taxonomy": "EVIDENCE_SELECTION_GAP",
+      "forensic_subclass": "VALUE_PRESENT_CONTEXT_NEARBY"
+    },
+    {
+      "gt_fact_id": "gtf-0474",
+      "document_id": "doc-a72c0918e27dd12b",
+      "source_id": "src-stat-austria",
+      "metric": "percentage_statistic",
+      "value": "5",
+      "language": "en",
+      "v31_disposition": "AMBIGUOUS",
+      "v32_disposition": "TRUE_MATERIAL_FACT",
+      "confidence": "HIGH",
+      "lineage": [
+        "V32"
+      ],
+      "evidence_excerpt": "r\u00e4ndert 07.08.2026 \u00d6sterreichs Au\u00dfenhandel im Mai 2026: Importe und Exporte gestiegen 07.08.2026 Weniger Firmenpleiten im 2. Quartal 2026 in \u00d6sterreich 06.08.2026 Gro\u00dfhandelspreise in \u00d6sterreich im Ju",
+      "gap_taxonomy": "EVIDENCE_SELECTION_GAP",
+      "forensic_subclass": "VALUE_PRESENT_CONTEXT_NEARBY"
+    },
+    {
+      "gt_fact_id": "gtf-0475",
+      "document_id": "doc-a72c0918e27dd12b",
+      "source_id": "src-stat-austria",
+      "metric": "percentage_statistic",
+      "value": "5",
+      "language": "en",
+      "v31_disposition": "AMBIGUOUS",
+      "v32_disposition": "TRUE_MATERIAL_FACT",
+      "confidence": "HIGH",
+      "lineage": [
+        "V32"
+      ],
+      "evidence_excerpt": "r\u00e4ndert 07.08.2026 \u00d6sterreichs Au\u00dfenhandel im Mai 2026: Importe und Exporte gestiegen 07.08.2026 Weniger Firmenpleiten im 2. Quartal 2026 in \u00d6sterreich 06.08.2026 Gro\u00dfhandelspreise in \u00d6sterreich im Ju",
+      "gap_taxonomy": "EVIDENCE_SELECTION_GAP",
+      "forensic_subclass": "VALUE_PRESENT_CONTEXT_NEARBY"
+    },
+    {
+      "gt_fact_id": "gtf-0477",
+      "document_id": "doc-a72c0918e27dd12b",
+      "source_id": "src-stat-austria",
+      "metric": "percentage_statistic",
+      "value": "52",
+      "language": "en",
+      "v31_disposition": "AMBIGUOUS",
+      "v32_disposition": "TRUE_MATERIAL_FACT",
+      "confidence": "HIGH",
+      "lineage": [
+        "V32"
+      ],
+      "evidence_excerpt": "ter unter Vorkrisenniveau 18.06.2024 Inflation im Mai 2024 bei 3,4 % 17.06.2024 \u00d6sterreich macht Fortschritte bei nachhaltiger Entwicklung 14.06.2024 Baukosten im Mai 2024 h\u00f6her als vor einem Jahr 14.",
+      "gap_taxonomy": "EVIDENCE_SELECTION_GAP",
+      "forensic_subclass": "VALUE_AND_CONTEXT_PRESENT"
+    },
+    {
+      "gt_fact_id": "gtf-0491",
+      "document_id": "doc-a72c0918e27dd12b",
+      "source_id": "src-stat-austria",
+      "metric": "percentage_statistic",
+      "value": "5",
+      "language": "en",
+      "v31_disposition": "AMBIGUOUS",
+      "v32_disposition": "TRUE_MATERIAL_FACT",
+      "confidence": "HIGH",
+      "lineage": [
+        "V32"
+      ],
+      "evidence_excerpt": "r\u00e4ndert 07.08.2026 \u00d6sterreichs Au\u00dfenhandel im Mai 2026: Importe und Exporte gestiegen 07.08.2026 Weniger Firmenpleiten im 2. Quartal 2026 in \u00d6sterreich 06.08.2026 Gro\u00dfhandelspreise in \u00d6sterreich im Ju",
+      "gap_taxonomy": "EVIDENCE_SELECTION_GAP",
+      "forensic_subclass": "VALUE_PRESENT_CONTEXT_NEARBY"
+    },
+    {
+      "gt_fact_id": "gtf-0497",
+      "document_id": "doc-a72c0918e27dd12b",
+      "source_id": "src-stat-austria",
+      "metric": "percentage_statistic",
+      "value": "5",
+      "language": "en",
+      "v31_disposition": "AMBIGUOUS",
+      "v32_disposition": "TRUE_MATERIAL_FACT",
+      "confidence": "HIGH",
+      "lineage": [
+        "V32"
+      ],
+      "evidence_excerpt": "r\u00e4ndert 07.08.2026 \u00d6sterreichs Au\u00dfenhandel im Mai 2026: Importe und Exporte gestiegen 07.08.2026 Weniger Firmenpleiten im 2. Quartal 2026 in \u00d6sterreich 06.08.2026 Gro\u00dfhandelspreise in \u00d6sterreich im Ju",
+      "gap_taxonomy": "EVIDENCE_SELECTION_GAP",
+      "forensic_subclass": "VALUE_PRESENT_CONTEXT_NEARBY"
+    },
+    {
+      "gt_fact_id": "gtf-0499",
+      "document_id": "doc-a72c0918e27dd12b",
+      "source_id": "src-stat-austria",
+      "metric": "percentage_statistic",
+      "value": "5",
+      "language": "en",
+      "v31_disposition": "AMBIGUOUS",
+      "v32_disposition": "TRUE_MATERIAL_FACT",
+      "confidence": "HIGH",
+      "lineage": [
+        "V32"
+      ],
+      "evidence_excerpt": "r\u00e4ndert 07.08.2026 \u00d6sterreichs Au\u00dfenhandel im Mai 2026: Importe und Exporte gestiegen 07.08.2026 Weniger Firmenpleiten im 2. Quartal 2026 in \u00d6sterreich 06.08.2026 Gro\u00dfhandelspreise in \u00d6sterreich im Ju",
+      "gap_taxonomy": "EVIDENCE_SELECTION_GAP",
+      "forensic_subclass": "VALUE_PRESENT_CONTEXT_NEARBY"
+    },
+    {
+      "gt_fact_id": "gtf-0521",
+      "document_id": "doc-a72c0918e27dd12b",
+      "source_id": "src-stat-austria",
+      "metric": "percentage_statistic",
+      "value": "5",
+      "language": "en",
+      "v31_disposition": "AMBIGUOUS",
+      "v32_disposition": "TRUE_MATERIAL_FACT",
+      "confidence": "HIGH",
+      "lineage": [
+        "V32"
+      ],
+      "evidence_excerpt": "r\u00e4ndert 07.08.2026 \u00d6sterreichs Au\u00dfenhandel im Mai 2026: Importe und Exporte gestiegen 07.08.2026 Weniger Firmenpleiten im 2. Quartal 2026 in \u00d6sterreich 06.08.2026 Gro\u00dfhandelspreise in \u00d6sterreich im Ju",
+      "gap_taxonomy": "EVIDENCE_SELECTION_GAP",
+      "forensic_subclass": "VALUE_PRESENT_CONTEXT_NEARBY"
+    },
+    {
+      "gt_fact_id": "gtf-0523",
+      "document_id": "doc-a72c0918e27dd12b",
+      "source_id": "src-stat-austria",
+      "metric": "percentage_statistic",
+      "value": "5",
+      "language": "en",
+      "v31_disposition": "AMBIGUOUS",
+      "v32_disposition": "TRUE_MATERIAL_FACT",
+      "confidence": "HIGH",
+      "lineage": [
+        "V32"
+      ],
+      "evidence_excerpt": "r\u00e4ndert 07.08.2026 \u00d6sterreichs Au\u00dfenhandel im Mai 2026: Importe und Exporte gestiegen 07.08.2026 Weniger Firmenpleiten im 2. Quartal 2026 in \u00d6sterreich 06.08.2026 Gro\u00dfhandelspreise in \u00d6sterreich im Ju",
+      "gap_taxonomy": "EVIDENCE_SELECTION_GAP",
+      "forensic_subclass": "VALUE_PRESENT_CONTEXT_NEARBY"
+    },
+    {
+      "gt_fact_id": "gtf-0524",
+      "document_id": "doc-a72c0918e27dd12b",
+      "source_id": "src-stat-austria",
+      "metric": "percentage_statistic",
+      "value": "5",
+      "language": "en",
+      "v31_disposition": "AMBIGUOUS",
+      "v32_disposition": "TRUE_MATERIAL_FACT",
+      "confidence": "HIGH",
+      "lineage": [
+        "V32"
+      ],
+      "evidence_excerpt": "r\u00e4ndert 07.08.2026 \u00d6sterreichs Au\u00dfenhandel im Mai 2026: Importe und Exporte gestiegen 07.08.2026 Weniger Firmenpleiten im 2. Quartal 2026 in \u00d6sterreich 06.08.2026 Gro\u00dfhandelspreise in \u00d6sterreich im Ju",
+      "gap_taxonomy": "EVIDENCE_SELECTION_GAP",
+      "forensic_subclass": "VALUE_PRESENT_CONTEXT_NEARBY"
+    },
+    {
+      "gt_fact_id": "gtf-0527",
+      "document_id": "doc-a72c0918e27dd12b",
+      "source_id": "src-stat-austria",
+      "metric": "percentage_statistic",
+      "value": "5",
+      "language": "en",
+      "v31_disposition": "AMBIGUOUS",
+      "v32_disposition": "TRUE_MATERIAL_FACT",
+      "confidence": "HIGH",
+      "lineage": [
+        "V32"
+      ],
+      "evidence_excerpt": "r\u00e4ndert 07.08.2026 \u00d6sterreichs Au\u00dfenhandel im Mai 2026: Importe und Exporte gestiegen 07.08.2026 Weniger Firmenpleiten im 2. Quartal 2026 in \u00d6sterreich 06.08.2026 Gro\u00dfhandelspreise in \u00d6sterreich im Ju",
+      "gap_taxonomy": "EVIDENCE_SELECTION_GAP",
+      "forensic_subclass": "VALUE_PRESENT_CONTEXT_NEARBY"
+    },
+    {
+      "gt_fact_id": "gtf-0531",
+      "document_id": "doc-a72c0918e27dd12b",
+      "source_id": "src-stat-austria",
+      "metric": "percentage_statistic",
+      "value": "5",
+      "language": "en",
+      "v31_disposition": "AMBIGUOUS",
+      "v32_disposition": "TRUE_MATERIAL_FACT",
+      "confidence": "HIGH",
+      "lineage": [
+        "V32"
+      ],
+      "evidence_excerpt": "r\u00e4ndert 07.08.2026 \u00d6sterreichs Au\u00dfenhandel im Mai 2026: Importe und Exporte gestiegen 07.08.2026 Weniger Firmenpleiten im 2. Quartal 2026 in \u00d6sterreich 06.08.2026 Gro\u00dfhandelspreise in \u00d6sterreich im Ju",
+      "gap_taxonomy": "EVIDENCE_SELECTION_GAP",
+      "forensic_subclass": "VALUE_PRESENT_CONTEXT_NEARBY"
+    },
+    {
+      "gt_fact_id": "gtf-0533",
+      "document_id": "doc-a72c0918e27dd12b",
+      "source_id": "src-stat-austria",
+      "metric": "percentage_statistic",
+      "value": "5",
+      "language": "en",
+      "v31_disposition": "AMBIGUOUS",
+      "v32_disposition": "TRUE_MATERIAL_FACT",
+      "confidence": "HIGH",
+      "lineage": [
+        "V32"
+      ],
+      "evidence_excerpt": "r\u00e4ndert 07.08.2026 \u00d6sterreichs Au\u00dfenhandel im Mai 2026: Importe und Exporte gestiegen 07.08.2026 Weniger Firmenpleiten im 2. Quartal 2026 in \u00d6sterreich 06.08.2026 Gro\u00dfhandelspreise in \u00d6sterreich im Ju",
+      "gap_taxonomy": "EVIDENCE_SELECTION_GAP",
+      "forensic_subclass": "VALUE_PRESENT_CONTEXT_NEARBY"
+    },
+    {
+      "gt_fact_id": "gtf-0542",
+      "document_id": "doc-a72c0918e27dd12b",
+      "source_id": "src-stat-austria",
+      "metric": "percentage_statistic",
+      "value": "5",
+      "language": "en",
+      "v31_disposition": "AMBIGUOUS",
+      "v32_disposition": "TRUE_MATERIAL_FACT",
+      "confidence": "HIGH",
+      "lineage": [
+        "V32"
+      ],
+      "evidence_excerpt": "r\u00e4ndert 07.08.2026 \u00d6sterreichs Au\u00dfenhandel im Mai 2026: Importe und Exporte gestiegen 07.08.2026 Weniger Firmenpleiten im 2. Quartal 2026 in \u00d6sterreich 06.08.2026 Gro\u00dfhandelspreise in \u00d6sterreich im Ju",
+      "gap_taxonomy": "EVIDENCE_SELECTION_GAP",
+      "forensic_subclass": "VALUE_PRESENT_CONTEXT_NEARBY"
+    },
+    {
+      "gt_fact_id": "gtf-0544",
+      "document_id": "doc-a72c0918e27dd12b",
+      "source_id": "src-stat-austria",
+      "metric": "percentage_statistic",
+      "value": "5",
+      "language": "en",
+      "v31_disposition": "AMBIGUOUS",
+      "v32_disposition": "TRUE_MATERIAL_FACT",
+      "confidence": "HIGH",
+      "lineage": [
+        "V32"
+      ],
+      "evidence_excerpt": "r\u00e4ndert 07.08.2026 \u00d6sterreichs Au\u00dfenhandel im Mai 2026: Importe und Exporte gestiegen 07.08.2026 Weniger Firmenpleiten im 2. Quartal 2026 in \u00d6sterreich 06.08.2026 Gro\u00dfhandelspreise in \u00d6sterreich im Ju",
+      "gap_taxonomy": "EVIDENCE_SELECTION_GAP",
+      "forensic_subclass": "VALUE_PRESENT_CONTEXT_NEARBY"
+    },
+    {
+      "gt_fact_id": "gtf-0592",
+      "document_id": "doc-8700a0859c829c44",
+      "source_id": "imp-bea",
+      "metric": "percentage_statistic",
+      "value": "11.7",
+      "language": "en",
+      "v31_disposition": "AMBIGUOUS",
+      "v32_disposition": "TRUE_MATERIAL_FACT",
+      "confidence": "HIGH",
+      "lineage": [
+        "V32"
+      ],
+      "evidence_excerpt": "ected a decrease in the goods deficit of $3.9 billion to $102.1 billion and an increase in the services surplus of $0.5 billion to $28.8 billion. Year-to-date, the goods and services deficit decreased",
+      "gap_taxonomy": "EVIDENCE_SELECTION_GAP",
+      "forensic_subclass": "VALUE_PRESENT_CONTEXT_NEARBY"
+    },
+    {
+      "gt_fact_id": "gtf-0593",
+      "document_id": "doc-8700a0859c829c44",
+      "source_id": "imp-bea",
+      "metric": "percentage_statistic",
+      "value": "0.4",
+      "language": "en",
+      "v31_disposition": "AMBIGUOUS",
+      "v32_disposition": "TRUE_MATERIAL_FACT",
+      "confidence": "HIGH",
+      "lineage": [
+        "V32"
+      ],
+      "evidence_excerpt": "llion to $102.1 billion and an increase in the services surplus of $0.5 billion to $28.8 billion. Year-to-date, the goods and services deficit decreased $189.3 billion, or 33.8 percent, from the same ",
+      "gap_taxonomy": "EVIDENCE_SELECTION_GAP",
+      "forensic_subclass": "VALUE_AND_CONTEXT_PRESENT"
+    },
+    {
+      "gt_fact_id": "gtf-0601",
+      "document_id": "doc-8700a0859c829c44",
+      "source_id": "imp-bea",
+      "metric": "percentage_statistic",
+      "value": "0.1",
+      "language": "en",
+      "v31_disposition": "AMBIGUOUS",
+      "v32_disposition": "TRUE_MATERIAL_FACT",
+      "confidence": "HIGH",
+      "lineage": [
+        "V32"
+      ],
+      "evidence_excerpt": " preparations decreased $1.9 billion. Net balance of payments adjustments decreased $0.2 billion. Imports of services increased $0.6 billion to $79.0 billion in June. Charges for the use of intellectu",
+      "gap_taxonomy": "EVIDENCE_SELECTION_GAP",
+      "forensic_subclass": "VALUE_PRESENT_CONTEXT_NEARBY"
+    },
+    {
+      "gt_fact_id": "gtf-0602",
+      "document_id": "doc-8700a0859c829c44",
+      "source_id": "imp-bea",
+      "metric": "percentage_statistic",
+      "value": "0.1",
+      "language": "en",
+      "v31_disposition": "AMBIGUOUS",
+      "v32_disposition": "TRUE_MATERIAL_FACT",
+      "confidence": "HIGH",
+      "lineage": [
+        "V32"
+      ],
+      "evidence_excerpt": " preparations decreased $1.9 billion. Net balance of payments adjustments decreased $0.2 billion. Imports of services increased $0.6 billion to $79.0 billion in June. Charges for the use of intellectu",
+      "gap_taxonomy": "EVIDENCE_SELECTION_GAP",
+      "forensic_subclass": "VALUE_PRESENT_CONTEXT_NEARBY"
+    },
+    {
+      "gt_fact_id": "gtf-0603",
+      "document_id": "doc-8700a0859c829c44",
+      "source_id": "imp-bea",
+      "metric": "percentage_statistic",
+      "value": "0.1",
+      "language": "en",
+      "v31_disposition": "AMBIGUOUS",
+      "v32_disposition": "TRUE_MATERIAL_FACT",
+      "confidence": "HIGH",
+      "lineage": [
+        "V32"
+      ],
+      "evidence_excerpt": " preparations decreased $1.9 billion. Net balance of payments adjustments decreased $0.2 billion. Imports of services increased $0.6 billion to $79.0 billion in June. Charges for the use of intellectu",
+      "gap_taxonomy": "EVIDENCE_SELECTION_GAP",
+      "forensic_subclass": "VALUE_PRESENT_CONTEXT_NEARBY"
+    },
+    {
+      "gt_fact_id": "gtf-0620",
+      "document_id": "doc-8700a0859c829c44",
+      "source_id": "imp-bea",
+      "metric": "usd_amount",
+      "value": "198.3",
+      "language": "en",
+      "v31_disposition": "AMBIGUOUS",
+      "v32_disposition": "TRUE_MATERIAL_FACT",
+      "confidence": "HIGH",
+      "lineage": [
+        "V32"
+      ],
+      "evidence_excerpt": "ices deficit reflected a decrease in the goods deficit of $3.9 billion to $102.1 billion and an increase in the services surplus of $0.5 billion to $28.8 billion. Year-to-date, the goods and services ",
+      "gap_taxonomy": "EVIDENCE_SELECTION_GAP",
+      "forensic_subclass": "VALUE_PRESENT_CONTEXT_NEARBY"
+    },
+    {
+      "gt_fact_id": "gtf-0621",
+      "document_id": "doc-8700a0859c829c44",
+      "source_id": "imp-bea",
+      "metric": "usd_amount",
+      "value": "9.0",
+      "language": "en",
+      "v31_disposition": "AMBIGUOUS",
+      "v32_disposition": "TRUE_MATERIAL_FACT",
+      "confidence": "HIGH",
+      "lineage": [
+        "V32"
+      ],
+      "evidence_excerpt": "icit of $3.9 billion to $102.1 billion and an increase in the services surplus of $0.5 billion to $28.8 billion. Year-to-date, the goods and services deficit decreased $189.3 billion, or 33.8 percent,",
+      "gap_taxonomy": "EVIDENCE_SELECTION_GAP",
+      "forensic_subclass": "VALUE_AND_CONTEXT_PRESENT"
+    },
+    {
+      "gt_fact_id": "gtf-0645",
+      "document_id": "doc-8700a0859c829c44",
+      "source_id": "imp-bea",
+      "metric": "usd_amount",
+      "value": "0.4",
+      "language": "en",
+      "v31_disposition": "AMBIGUOUS",
+      "v32_disposition": "TRUE_MATERIAL_FACT",
+      "confidence": "HIGH",
+      "lineage": [
+        "V32"
+      ],
+      "evidence_excerpt": "llion to $102.1 billion and an increase in the services surplus of $0.5 billion to $28.8 billion. Year-to-date, the goods and services deficit decreased $189.3 billion, or 33.8 percent, from the same ",
+      "gap_taxonomy": "EVIDENCE_SELECTION_GAP",
+      "forensic_subclass": "VALUE_AND_CONTEXT_PRESENT"
+    },
+    {
+      "gt_fact_id": "gtf-0659",
+      "document_id": "doc-8700a0859c829c44",
+      "source_id": "imp-bea",
+      "metric": "usd_amount",
+      "value": "0.1",
+      "language": "en",
+      "v31_disposition": "AMBIGUOUS",
+      "v32_disposition": "TRUE_MATERIAL_FACT",
+      "confidence": "HIGH",
+      "lineage": [
+        "V32"
+      ],
+      "evidence_excerpt": " preparations decreased $1.9 billion. Net balance of payments adjustments decreased $0.2 billion. Imports of services increased $0.6 billion to $79.0 billion in June. Charges for the use of intellectu",
+      "gap_taxonomy": "EVIDENCE_SELECTION_GAP",
+      "forensic_subclass": "VALUE_PRESENT_CONTEXT_NEARBY"
+    },
+    {
+      "gt_fact_id": "gtf-0660",
+      "document_id": "doc-8700a0859c829c44",
+      "source_id": "imp-bea",
+      "metric": "usd_amount",
+      "value": "0.4",
+      "language": "en",
+      "v31_disposition": "AMBIGUOUS",
+      "v32_disposition": "TRUE_MATERIAL_FACT",
+      "confidence": "HIGH",
+      "lineage": [
+        "V32"
+      ],
+      "evidence_excerpt": "llion to $102.1 billion and an increase in the services surplus of $0.5 billion to $28.8 billion. Year-to-date, the goods and services deficit decreased $189.3 billion, or 33.8 percent, from the same ",
+      "gap_taxonomy": "EVIDENCE_SELECTION_GAP",
+      "forensic_subclass": "VALUE_AND_CONTEXT_PRESENT"
+    },
+    {
+      "gt_fact_id": "gtf-0668",
+      "document_id": "doc-8700a0859c829c44",
+      "source_id": "imp-bea",
+      "metric": "usd_amount",
+      "value": "0.4",
+      "language": "en",
+      "v31_disposition": "AMBIGUOUS",
+      "v32_disposition": "TRUE_MATERIAL_FACT",
+      "confidence": "HIGH",
+      "lineage": [
+        "V32"
+      ],
+      "evidence_excerpt": "llion to $102.1 billion and an increase in the services surplus of $0.5 billion to $28.8 billion. Year-to-date, the goods and services deficit decreased $189.3 billion, or 33.8 percent, from the same ",
+      "gap_taxonomy": "EVIDENCE_SELECTION_GAP",
+      "forensic_subclass": "VALUE_AND_CONTEXT_PRESENT"
+    },
+    {
+      "gt_fact_id": "gtf-0678",
+      "document_id": "doc-8700a0859c829c44",
+      "source_id": "imp-bea",
+      "metric": "usd_amount",
+      "value": "1.7",
+      "language": "en",
+      "v31_disposition": "AMBIGUOUS",
+      "v32_disposition": "TRUE_MATERIAL_FACT",
+      "confidence": "HIGH",
+      "lineage": [
+        "V32"
+      ],
+      "evidence_excerpt": "cted a decrease in the goods deficit of $3.9 billion to $102.1 billion and an increase in the services surplus of $0.5 billion to $28.8 billion. Year-to-date, the goods and services deficit decreased ",
+      "gap_taxonomy": "EVIDENCE_SELECTION_GAP",
+      "forensic_subclass": "VALUE_PRESENT_CONTEXT_NEARBY"
+    },
+    {
+      "gt_fact_id": "gtf-0704",
+      "document_id": "doc-8700a0859c829c44",
+      "source_id": "imp-bea",
+      "metric": "usd_amount",
+      "value": "0.1",
+      "language": "en",
+      "v31_disposition": "AMBIGUOUS",
+      "v32_disposition": "TRUE_MATERIAL_FACT",
+      "confidence": "HIGH",
+      "lineage": [
+        "V32"
+      ],
+      "evidence_excerpt": " preparations decreased $1.9 billion. Net balance of payments adjustments decreased $0.2 billion. Imports of services increased $0.6 billion to $79.0 billion in June. Charges for the use of intellectu",
+      "gap_taxonomy": "EVIDENCE_SELECTION_GAP",
+      "forensic_subclass": "VALUE_PRESENT_CONTEXT_NEARBY"
+    },
+    {
+      "gt_fact_id": "gtf-0715",
+      "document_id": "doc-8700a0859c829c44",
+      "source_id": "imp-bea",
+      "metric": "usd_amount",
+      "value": "0.1",
+      "language": "en",
+      "v31_disposition": "AMBIGUOUS",
+      "v32_disposition": "TRUE_MATERIAL_FACT",
+      "confidence": "HIGH",
+      "lineage": [
+        "V32"
+      ],
+      "evidence_excerpt": " preparations decreased $1.9 billion. Net balance of payments adjustments decreased $0.2 billion. Imports of services increased $0.6 billion to $79.0 billion in June. Charges for the use of intellectu",
+      "gap_taxonomy": "EVIDENCE_SELECTION_GAP",
+      "forensic_subclass": "VALUE_PRESENT_CONTEXT_NEARBY"
+    },
+    {
+      "gt_fact_id": "gtf-0716",
+      "document_id": "doc-8700a0859c829c44",
+      "source_id": "imp-bea",
+      "metric": "usd_amount",
+      "value": "0.4",
+      "language": "en",
+      "v31_disposition": "AMBIGUOUS",
+      "v32_disposition": "TRUE_MATERIAL_FACT",
+      "confidence": "HIGH",
+      "lineage": [
+        "V32"
+      ],
+      "evidence_excerpt": "llion to $102.1 billion and an increase in the services surplus of $0.5 billion to $28.8 billion. Year-to-date, the goods and services deficit decreased $189.3 billion, or 33.8 percent, from the same ",
+      "gap_taxonomy": "EVIDENCE_SELECTION_GAP",
+      "forensic_subclass": "VALUE_AND_CONTEXT_PRESENT"
+    },
+    {
+      "gt_fact_id": "gtf-0719",
+      "document_id": "doc-8700a0859c829c44",
+      "source_id": "imp-bea",
+      "metric": "usd_amount",
+      "value": "0.1",
+      "language": "en",
+      "v31_disposition": "AMBIGUOUS",
+      "v32_disposition": "TRUE_MATERIAL_FACT",
+      "confidence": "HIGH",
+      "lineage": [
+        "V32"
+      ],
+      "evidence_excerpt": " preparations decreased $1.9 billion. Net balance of payments adjustments decreased $0.2 billion. Imports of services increased $0.6 billion to $79.0 billion in June. Charges for the use of intellectu",
+      "gap_taxonomy": "EVIDENCE_SELECTION_GAP",
+      "forensic_subclass": "VALUE_PRESENT_CONTEXT_NEARBY"
+    },
+    {
+      "gt_fact_id": "gtf-0742",
+      "document_id": "doc-5a0547ffcaa7a57e",
+      "source_id": "imp-bea",
+      "metric": "percentage_statistic",
+      "value": "0.3",
+      "language": "en",
+      "v31_disposition": "AMBIGUOUS",
+      "v32_disposition": "TRUE_MATERIAL_FACT",
+      "confidence": "HIGH",
+      "lineage": [
+        "V32"
+      ],
+      "evidence_excerpt": " at a monthly rate) in June, according to estimates released today by the U.S. Bureau of Economic Analysis (BEA). Disposable personal income (DPI) \u2014personal income less personal current taxes\u2014increase",
+      "gap_taxonomy": "EVIDENCE_SELECTION_GAP",
+      "forensic_subclass": "VALUE_AND_CONTEXT_PRESENT"
+    },
+    {
+      "gt_fact_id": "gtf-0751",
+      "document_id": "doc-5a0547ffcaa7a57e",
+      "source_id": "imp-bea",
+      "metric": "usd_amount",
+      "value": "65.2",
+      "language": "en",
+      "v31_disposition": "AMBIGUOUS",
+      "v32_disposition": "TRUE_MATERIAL_FACT",
+      "confidence": "HIGH",
+      "lineage": [
+        "V32"
+      ],
+      "evidence_excerpt": "n (0.2 percent at a monthly rate) in June, according to estimates released today by the U.S. Bureau of Economic Analysis (BEA). Disposable personal income (DPI) \u2014personal income less personal current ",
+      "gap_taxonomy": "EVIDENCE_SELECTION_GAP",
+      "forensic_subclass": "VALUE_AND_CONTEXT_PRESENT"
+    },
+    {
+      "gt_fact_id": "gtf-0754",
+      "document_id": "doc-5a0547ffcaa7a57e",
+      "source_id": "imp-bea",
+      "metric": "usd_amount",
+      "value": "65.2",
+      "language": "en",
+      "v31_disposition": "AMBIGUOUS",
+      "v32_disposition": "TRUE_MATERIAL_FACT",
+      "confidence": "HIGH",
+      "lineage": [
+        "V32"
+      ],
+      "evidence_excerpt": "n (0.2 percent at a monthly rate) in June, according to estimates released today by the U.S. Bureau of Economic Analysis (BEA). Disposable personal income (DPI) \u2014personal income less personal current ",
+      "gap_taxonomy": "EVIDENCE_SELECTION_GAP",
+      "forensic_subclass": "VALUE_AND_CONTEXT_PRESENT"
+    },
+    {
+      "gt_fact_id": "gtf-0765",
+      "document_id": "doc-e96dc7902ddcfa54",
+      "source_id": "imp-bea",
+      "metric": "percentage_statistic",
+      "value": "42.8",
+      "language": "en",
+      "v31_disposition": "AMBIGUOUS",
+      "v32_disposition": "TRUE_MATERIAL_FACT",
+      "confidence": "HIGH",
+      "lineage": [
+        "V32"
+      ],
+      "evidence_excerpt": "n by the country of foreign parent, indicating that much of the investment from foreign parents in these countries was ultimately owned by investors in other countries. By industry, foreign direct inv",
+      "gap_taxonomy": "EVIDENCE_SELECTION_GAP",
+      "forensic_subclass": "VALUE_PRESENT_CONTEXT_NEARBY"
+    },
+    {
+      "gt_fact_id": "gtf-0790",
+      "document_id": "doc-e96dc7902ddcfa54",
+      "source_id": "imp-bea",
+      "metric": "usd_amount",
+      "value": "2.51",
+      "language": "en",
+      "v31_disposition": "AMBIGUOUS",
+      "v32_disposition": "TRUE_MATERIAL_FACT",
+      "confidence": "HIGH",
+      "lineage": [
+        "V32"
+      ],
+      "evidence_excerpt": "ng that much of the investment from foreign parents in these countries was ultimately owned by investors in other countries. By industry, foreign direct investment in the United States was concentrate",
+      "gap_taxonomy": "EVIDENCE_SELECTION_GAP",
+      "forensic_subclass": "VALUE_AND_CONTEXT_PRESENT"
+    },
+    {
+      "gt_fact_id": "gtf-0799",
+      "document_id": "doc-93c89f0c3311c178",
+      "source_id": "imp-bea",
+      "metric": "percentage_statistic",
+      "value": "6.7",
+      "language": "en",
+      "v31_disposition": "AMBIGUOUS",
+      "v32_disposition": "TRUE_MATERIAL_FACT",
+      "confidence": "HIGH",
+      "lineage": [
+        "V32"
+      ],
+      "evidence_excerpt": "owners (UBOs) in the United Kingdom, Japan, and Germany were the largest contributors to employment. Current-dollar value added of U.S. affiliates , a measure of their direct contribution to U.S. gros",
+      "gap_taxonomy": "EVIDENCE_SELECTION_GAP",
+      "forensic_subclass": "VALUE_PRESENT_CONTEXT_NEARBY"
+    },
+    {
+      "gt_fact_id": "gtf-0800",
+      "document_id": "doc-93c89f0c3311c178",
+      "source_id": "imp-bea",
+      "metric": "percentage_statistic",
+      "value": "6.8",
+      "language": "en",
+      "v31_disposition": "AMBIGUOUS",
+      "v32_disposition": "TRUE_MATERIAL_FACT",
+      "confidence": "HIGH",
+      "lineage": [
+        "V32"
+      ],
+      "evidence_excerpt": "largest contributors to employment. Current-dollar value added of U.S. affiliates , a measure of their direct contribution to U.S. gross domestic product, increased 4.3 percent to $1.52 trillion in 20",
+      "gap_taxonomy": "EVIDENCE_SELECTION_GAP",
+      "forensic_subclass": "VALUE_AND_CONTEXT_PRESENT"
+    },
+    {
+      "gt_fact_id": "gtf-0801",
+      "document_id": "doc-93c89f0c3311c178",
+      "source_id": "imp-bea",
+      "metric": "percentage_statistic",
+      "value": "3.3",
+      "language": "en",
+      "v31_disposition": "AMBIGUOUS",
+      "v32_disposition": "TRUE_MATERIAL_FACT",
+      "confidence": "HIGH",
+      "lineage": [
+        "V32"
+      ],
+      "evidence_excerpt": "heir direct contribution to U.S. gross domestic product, increased 4.3 percent to $1.52 trillion in 2024. These affiliates accounted for 6.7 percent of total U.S. business-sector value added, down fro",
+      "gap_taxonomy": "EVIDENCE_SELECTION_GAP",
+      "forensic_subclass": "VALUE_AND_CONTEXT_PRESENT"
+    },
+    {
+      "gt_fact_id": "gtf-0805",
+      "document_id": "doc-93c89f0c3311c178",
+      "source_id": "imp-bea",
+      "metric": "usd_amount",
+      "value": "328.0",
+      "language": "en",
+      "v31_disposition": "AMBIGUOUS",
+      "v32_disposition": "TRUE_MATERIAL_FACT",
+      "confidence": "HIGH",
+      "lineage": [
+        "V32"
+      ],
+      "evidence_excerpt": "ribution to U.S. gross domestic product, increased 4.3 percent to $1.52 trillion in 2024. These affiliates accounted for 6.7 percent of total U.S. business-sector value added, down from 6.8 percent in",
+      "gap_taxonomy": "EVIDENCE_SELECTION_GAP",
+      "forensic_subclass": "VALUE_AND_CONTEXT_PRESENT"
+    },
+    {
+      "gt_fact_id": "gtf-0886",
+      "document_id": "doc-49401aaf4cb8f90c",
+      "source_id": "src-naic-us",
+      "metric": "percentage_statistic",
+      "value": "96",
+      "language": "en",
+      "v31_disposition": "AMBIGUOUS",
+      "v32_disposition": "TRUE_MATERIAL_FACT",
+      "confidence": "HIGH",
+      "lineage": [
+        "V32"
+      ],
+      "evidence_excerpt": "raphic regions. Average premium per policy increased across every NAIC region since 2018, with inflation-adjusted increases ranging from 18.3% to 43.3%, to the effect of average premium increases of 2",
+      "gap_taxonomy": "EVIDENCE_SELECTION_GAP",
+      "forensic_subclass": "VALUE_AND_CONTEXT_PRESENT"
+    },
+    {
+      "gt_fact_id": "gtf-0887",
+      "document_id": "doc-49401aaf4cb8f90c",
+      "source_id": "src-naic-us",
+      "metric": "percentage_statistic",
+      "value": "216",
+      "language": "en",
+      "v31_disposition": "AMBIGUOUS",
+      "v32_disposition": "TRUE_MATERIAL_FACT",
+      "confidence": "HIGH",
+      "lineage": [
+        "V32"
+      ],
+      "evidence_excerpt": "egions. Average premium per policy increased across every NAIC region since 2018, with inflation-adjusted increases ranging from 18.3% to 43.3%, to the effect of average premium increases of 2.4% to 5",
+      "gap_taxonomy": "EVIDENCE_SELECTION_GAP",
+      "forensic_subclass": "VALUE_AND_CONTEXT_PRESENT"
+    },
+    {
+      "gt_fact_id": "gtf-0983",
+      "document_id": "doc-3977e22b6168c0e8",
+      "source_id": "imp-swiss-national-bank",
+      "metric": "percentage_statistic",
+      "value": "110",
+      "language": "en",
+      "v31_disposition": "AMBIGUOUS",
+      "v32_disposition": "TRUE_MATERIAL_FACT",
+      "confidence": "HIGH",
+      "lineage": [
+        "V32"
+      ],
+      "evidence_excerpt": "payment transactions. The funds received must be repaid by the end of the same bank working day at the latest. To bridge unexpected liquidity bottlenecks, the SNB offers a liquidity-shortage financing",
+      "gap_taxonomy": "EVIDENCE_SELECTION_GAP",
+      "forensic_subclass": "VALUE_PRESENT_CONTEXT_NEARBY"
+    },
+    {
+      "gt_fact_id": "gtf-1015",
+      "document_id": "doc-7d5803d21c44a224",
+      "source_id": "imp-ecb",
+      "metric": "percentage_statistic",
+      "value": "2.9",
+      "language": "en",
+      "v31_disposition": "AMBIGUOUS",
+      "v32_disposition": "TRUE_MATERIAL_FACT",
+      "confidence": "HIGH",
+      "lineage": [
+        "V32"
+      ],
+      "evidence_excerpt": "alf of 2026 in the headline indicator. The headline wage tracker stands at 2.7% in the first quarter of 2027, indicating broadly stable negotiated wage pressures at the turn of the year and a currentl",
+      "gap_taxonomy": "EVIDENCE_SELECTION_GAP",
+      "forensic_subclass": "VALUE_AND_CONTEXT_PRESENT"
+    },
+    {
+      "gt_fact_id": "gtf-1268",
+      "document_id": "doc-da802c5165a71f32",
+      "source_id": "src-ecb-stat",
+      "metric": "percentage_statistic",
+      "value": "50",
+      "language": "en",
+      "v31_disposition": "AMBIGUOUS",
+      "v32_disposition": "TRUE_MATERIAL_FACT",
+      "confidence": "HIGH",
+      "lineage": [
+        "V32"
+      ],
+      "evidence_excerpt": "Denominations Design elements Security features Anti-counterfeiting Banknote production and stocks Damaged and inked-stained banknotes Environment, health and safety Product environmental footprint Re",
+      "gap_taxonomy": "EVIDENCE_SELECTION_GAP",
+      "forensic_subclass": "VALUE_PRESENT_CONTEXT_NEARBY"
+    },
+    {
+      "gt_fact_id": "gtf-1272",
+      "document_id": "doc-da802c5165a71f32",
+      "source_id": "src-ecb-stat",
+      "metric": "percentage_statistic",
+      "value": "57",
+      "language": "en",
+      "v31_disposition": "AMBIGUOUS",
+      "v32_disposition": "TRUE_MATERIAL_FACT",
+      "confidence": "HIGH",
+      "lineage": [
+        "V32"
+      ],
+      "evidence_excerpt": "lloni Margherita Giuzio Simon K\u00f6rdel Petya Radulova Dilyara Salakhova Florian Wicknig Financial Stability Review Issue 2, 2020 English Details Abstract Green financial markets are growing rapidly. Fun",
+      "gap_taxonomy": "EVIDENCE_SELECTION_GAP",
+      "forensic_subclass": "VALUE_PRESENT_CONTEXT_NEARBY"
+    },
+    {
+      "gt_fact_id": "gtf-1287",
+      "document_id": "doc-da802c5165a71f32",
+      "source_id": "src-ecb-stat",
+      "metric": "percentage_statistic",
+      "value": "50",
+      "language": "en",
+      "v31_disposition": "AMBIGUOUS",
+      "v32_disposition": "TRUE_MATERIAL_FACT",
+      "confidence": "HIGH",
+      "lineage": [
+        "V32"
+      ],
+      "evidence_excerpt": "Denominations Design elements Security features Anti-counterfeiting Banknote production and stocks Damaged and inked-stained banknotes Environment, health and safety Product environmental footprint Re",
+      "gap_taxonomy": "EVIDENCE_SELECTION_GAP",
+      "forensic_subclass": "VALUE_PRESENT_CONTEXT_NEARBY"
+    },
+    {
+      "gt_fact_id": "gtf-1290",
+      "document_id": "doc-da802c5165a71f32",
+      "source_id": "src-ecb-stat",
+      "metric": "percentage_statistic",
+      "value": "17.6",
+      "language": "en",
+      "v31_disposition": "AMBIGUOUS",
+      "v32_disposition": "TRUE_MATERIAL_FACT",
+      "confidence": "HIGH",
+      "lineage": [
+        "V32"
+      ],
+      "evidence_excerpt": "ding hedge funds). This sample excludes hedge funds and covers roughly half of the euro area investment fund population. Within the aggregated assets under management (AuM) of the analysed sample, equ",
+      "gap_taxonomy": "EVIDENCE_SELECTION_GAP",
+      "forensic_subclass": "VALUE_PRESENT_CONTEXT_NEARBY"
+    },
+    {
+      "gt_fact_id": "gtf-1291",
+      "document_id": "doc-da802c5165a71f32",
+      "source_id": "src-ecb-stat",
+      "metric": "percentage_statistic",
+      "value": "14.7",
+      "language": "en",
+      "v31_disposition": "AMBIGUOUS",
+      "v32_disposition": "TRUE_MATERIAL_FACT",
+      "confidence": "HIGH",
+      "lineage": [
+        "V32"
+      ],
+      "evidence_excerpt": " This sample excludes hedge funds and covers roughly half of the euro area investment fund population. Within the aggregated assets under management (AuM) of the analysed sample, equity funds represen",
+      "gap_taxonomy": "EVIDENCE_SELECTION_GAP",
+      "forensic_subclass": "VALUE_PRESENT_CONTEXT_NEARBY"
+    },
+    {
+      "gt_fact_id": "gtf-1293",
+      "document_id": "doc-da802c5165a71f32",
+      "source_id": "src-ecb-stat",
+      "metric": "percentage_statistic",
+      "value": "2.5",
+      "language": "en",
+      "v31_disposition": "AMBIGUOUS",
+      "v32_disposition": "TRUE_MATERIAL_FACT",
+      "confidence": "HIGH",
+      "lineage": [
+        "V32"
+      ],
+      "evidence_excerpt": "tential for growth in the use of hybrid debt instruments. The quantitative risk-weighted capital requirements for the Tier 1 (T1) and total capital ratios are significant \u2013 implying a 1.5 percentage p",
+      "gap_taxonomy": "EVIDENCE_SELECTION_GAP",
+      "forensic_subclass": "VALUE_AND_CONTEXT_PRESENT"
+    },
+    {
+      "gt_fact_id": "gtf-1295",
+      "document_id": "doc-da802c5165a71f32",
+      "source_id": "src-ecb-stat",
+      "metric": "percentage_statistic",
+      "value": "50",
+      "language": "en",
+      "v31_disposition": "AMBIGUOUS",
+      "v32_disposition": "TRUE_MATERIAL_FACT",
+      "confidence": "HIGH",
+      "lineage": [
+        "V32"
+      ],
+      "evidence_excerpt": "Denominations Design elements Security features Anti-counterfeiting Banknote production and stocks Damaged and inked-stained banknotes Environment, health and safety Product environmental footprint Re",
+      "gap_taxonomy": "EVIDENCE_SELECTION_GAP",
+      "forensic_subclass": "VALUE_PRESENT_CONTEXT_NEARBY"
+    },
+    {
+      "gt_fact_id": "gtf-1296",
+      "document_id": "doc-da802c5165a71f32",
+      "source_id": "src-ecb-stat",
+      "metric": "percentage_statistic",
+      "value": "10",
+      "language": "en",
+      "v31_disposition": "AMBIGUOUS",
+      "v32_disposition": "TRUE_MATERIAL_FACT",
+      "confidence": "HIGH",
+      "lineage": [
+        "V32"
+      ],
+      "evidence_excerpt": "sign elements Security features Anti-counterfeiting Banknote production and stocks Damaged and inked-stained banknotes Environment, health and safety Product environmental footprint Research and devel",
+      "gap_taxonomy": "EVIDENCE_SELECTION_GAP",
+      "forensic_subclass": "VALUE_PRESENT_CONTEXT_NEARBY"
+    },
+    {
+      "gt_fact_id": "gtf-1302",
+      "document_id": "doc-da802c5165a71f32",
+      "source_id": "src-ecb-stat",
+      "metric": "percentage_statistic",
+      "value": "10",
+      "language": "en",
+      "v31_disposition": "AMBIGUOUS",
+      "v32_disposition": "TRUE_MATERIAL_FACT",
+      "confidence": "HIGH",
+      "lineage": [
+        "V32"
+      ],
+      "evidence_excerpt": "sign elements Security features Anti-counterfeiting Banknote production and stocks Damaged and inked-stained banknotes Environment, health and safety Product environmental footprint Research and devel",
+      "gap_taxonomy": "EVIDENCE_SELECTION_GAP",
+      "forensic_subclass": "VALUE_PRESENT_CONTEXT_NEARBY"
+    },
+    {
+      "gt_fact_id": "gtf-1305",
+      "document_id": "doc-da802c5165a71f32",
+      "source_id": "src-ecb-stat",
+      "metric": "percentage_statistic",
+      "value": "10",
+      "language": "en",
+      "v31_disposition": "AMBIGUOUS",
+      "v32_disposition": "TRUE_MATERIAL_FACT",
+      "confidence": "HIGH",
+      "lineage": [
+        "V32"
+      ],
+      "evidence_excerpt": "sign elements Security features Anti-counterfeiting Banknote production and stocks Damaged and inked-stained banknotes Environment, health and safety Product environmental footprint Research and devel",
+      "gap_taxonomy": "EVIDENCE_SELECTION_GAP",
+      "forensic_subclass": "VALUE_PRESENT_CONTEXT_NEARBY"
+    },
+    {
+      "gt_fact_id": "gtf-1309",
+      "document_id": "doc-da802c5165a71f32",
+      "source_id": "src-ecb-stat",
+      "metric": "percentage_statistic",
+      "value": "10",
+      "language": "en",
+      "v31_disposition": "AMBIGUOUS",
+      "v32_disposition": "TRUE_MATERIAL_FACT",
+      "confidence": "HIGH",
+      "lineage": [
+        "V32"
+      ],
+      "evidence_excerpt": "sign elements Security features Anti-counterfeiting Banknote production and stocks Damaged and inked-stained banknotes Environment, health and safety Product environmental footprint Research and devel",
+      "gap_taxonomy": "EVIDENCE_SELECTION_GAP",
+      "forensic_subclass": "VALUE_PRESENT_CONTEXT_NEARBY"
+    },
+    {
+      "gt_fact_id": "gtf-1312",
+      "document_id": "doc-da802c5165a71f32",
+      "source_id": "src-ecb-stat",
+      "metric": "percentage_statistic",
+      "value": "50",
+      "language": "en",
+      "v31_disposition": "AMBIGUOUS",
+      "v32_disposition": "TRUE_MATERIAL_FACT",
+      "confidence": "HIGH",
+      "lineage": [
+        "V32"
+      ],
+      "evidence_excerpt": "Denominations Design elements Security features Anti-counterfeiting Banknote production and stocks Damaged and inked-stained banknotes Environment, health and safety Product environmental footprint Re",
+      "gap_taxonomy": "EVIDENCE_SELECTION_GAP",
+      "forensic_subclass": "VALUE_PRESENT_CONTEXT_NEARBY"
+    },
+    {
+      "gt_fact_id": "gtf-1314",
+      "document_id": "doc-da802c5165a71f32",
+      "source_id": "src-ecb-stat",
+      "metric": "percentage_statistic",
+      "value": "10",
+      "language": "en",
+      "v31_disposition": "AMBIGUOUS",
+      "v32_disposition": "TRUE_MATERIAL_FACT",
+      "confidence": "HIGH",
+      "lineage": [
+        "V32"
+      ],
+      "evidence_excerpt": "sign elements Security features Anti-counterfeiting Banknote production and stocks Damaged and inked-stained banknotes Environment, health and safety Product environmental footprint Research and devel",
+      "gap_taxonomy": "EVIDENCE_SELECTION_GAP",
+      "forensic_subclass": "VALUE_PRESENT_CONTEXT_NEARBY"
+    },
+    {
+      "gt_fact_id": "gtf-1318",
+      "document_id": "doc-da802c5165a71f32",
+      "source_id": "src-ecb-stat",
+      "metric": "percentage_statistic",
+      "value": "10",
+      "language": "en",
+      "v31_disposition": "AMBIGUOUS",
+      "v32_disposition": "TRUE_MATERIAL_FACT",
+      "confidence": "HIGH",
+      "lineage": [
+        "V32"
+      ],
+      "evidence_excerpt": "sign elements Security features Anti-counterfeiting Banknote production and stocks Damaged and inked-stained banknotes Environment, health and safety Product environmental footprint Research and devel",
+      "gap_taxonomy": "EVIDENCE_SELECTION_GAP",
+      "forensic_subclass": "VALUE_PRESENT_CONTEXT_NEARBY"
+    },
+    {
+      "gt_fact_id": "gtf-1319",
+      "document_id": "doc-da802c5165a71f32",
+      "source_id": "src-ecb-stat",
+      "metric": "percentage_statistic",
+      "value": "50",
+      "language": "en",
+      "v31_disposition": "AMBIGUOUS",
+      "v32_disposition": "TRUE_MATERIAL_FACT",
+      "confidence": "HIGH",
+      "lineage": [
+        "V32"
+      ],
+      "evidence_excerpt": "Denominations Design elements Security features Anti-counterfeiting Banknote production and stocks Damaged and inked-stained banknotes Environment, health and safety Product environmental footprint Re",
+      "gap_taxonomy": "EVIDENCE_SELECTION_GAP",
+      "forensic_subclass": "VALUE_PRESENT_CONTEXT_NEARBY"
+    },
+    {
+      "gt_fact_id": "gtf-1586",
+      "document_id": "doc-bda337df91614348",
+      "source_id": "src-beis-uk",
+      "metric": "percentage_statistic",
+      "value": "5",
+      "language": "en",
+      "v31_disposition": "AMBIGUOUS",
+      "v32_disposition": "TRUE_MATERIAL_FACT",
+      "confidence": "HIGH",
+      "lineage": [
+        "V32"
+      ],
+      "evidence_excerpt": "hange. I said I wanted to give people breathing space, and that\u2019s what I\u2019m announcing on my second day as Prime Minister. We\u2019re taking immediate action to cut taxes on energy bills, put more money in ",
+      "gap_taxonomy": "EVIDENCE_SELECTION_GAP",
+      "forensic_subclass": "VALUE_PRESENT_CONTEXT_NEARBY"
+    },
+    {
+      "gt_fact_id": "gtf-0000",
+      "document_id": "doc-7c5cd3967c2f9f10",
+      "source_id": "imp-bea",
+      "metric": "percentage_statistic",
+      "value": "1.5",
+      "language": "en",
+      "v31_disposition": "TRUE_MATERIAL_FACT",
+      "v32_disposition": null,
+      "confidence": "HIGH",
+      "lineage": [
+        "V31"
+      ],
+      "evidence_excerpt": "",
+      "gap_taxonomy": "EVIDENCE_SELECTION_GAP",
+      "forensic_subclass": "VALUE_PRESENT_CONTEXT_NEARBY"
+    },
+    {
+      "gt_fact_id": "gtf-0001",
+      "document_id": "doc-7c5cd3967c2f9f10",
+      "source_id": "imp-bea",
+      "metric": "percentage_statistic",
+      "value": "2.1",
+      "language": "en",
+      "v31_disposition": "TRUE_MATERIAL_FACT",
+      "v32_disposition": null,
+      "confidence": "HIGH",
+      "lineage": [
+        "V31"
+      ],
+      "evidence_excerpt": "",
+      "gap_taxonomy": "EVIDENCE_SELECTION_GAP",
+      "forensic_subclass": "VALUE_PRESENT_CONTEXT_NEARBY"
+    },
+    {
+      "gt_fact_id": "gtf-0002",
+      "document_id": "doc-7c5cd3967c2f9f10",
+      "source_id": "imp-bea",
+      "metric": "percentage_statistic",
+      "value": "1.5",
+      "language": "en",
+      "v31_disposition": "TRUE_MATERIAL_FACT",
+      "v32_disposition": null,
+      "confidence": "HIGH",
+      "lineage": [
+        "V31"
+      ],
+      "evidence_excerpt": "",
+      "gap_taxonomy": "EVIDENCE_SELECTION_GAP",
+      "forensic_subclass": "VALUE_PRESENT_CONTEXT_NEARBY"
+    },
+    {
+      "gt_fact_id": "gtf-0003",
+      "document_id": "doc-7c5cd3967c2f9f10",
+      "source_id": "imp-bea",
+      "metric": "percentage_statistic",
+      "value": "2.1",
+      "language": "en",
+      "v31_disposition": "TRUE_MATERIAL_FACT",
+      "v32_disposition": null,
+      "confidence": "HIGH",
+      "lineage": [
+        "V31"
+      ],
+      "evidence_excerpt": "",
+      "gap_taxonomy": "EVIDENCE_SELECTION_GAP",
+      "forensic_subclass": "VALUE_PRESENT_CONTEXT_NEARBY"
+    },
+    {
+      "gt_fact_id": "gtf-0004",
+      "document_id": "doc-7c5cd3967c2f9f10",
+      "source_id": "imp-bea",
+      "metric": "percentage_statistic",
+      "value": "0.2",
+      "language": "en",
+      "v31_disposition": "TRUE_MATERIAL_FACT",
+      "v32_disposition": null,
+      "confidence": "HIGH",
+      "lineage": [
+        "V31"
+      ],
+      "evidence_excerpt": "",
+      "gap_taxonomy": "EVIDENCE_SELECTION_GAP",
+      "forensic_subclass": "VALUE_PRESENT_CONTEXT_NEARBY"
+    },
+    {
+      "gt_fact_id": "gtf-0005",
+      "document_id": "doc-7c5cd3967c2f9f10",
+      "source_id": "imp-bea",
+      "metric": "percentage_statistic",
+      "value": "0.7",
+      "language": "en",
+      "v31_disposition": "TRUE_MATERIAL_FACT",
+      "v32_disposition": null,
+      "confidence": "HIGH",
+      "lineage": [
+        "V31"
+      ],
+      "evidence_excerpt": "",
+      "gap_taxonomy": "EVIDENCE_SELECTION_GAP",
+      "forensic_subclass": "VALUE_PRESENT_CONTEXT_NEARBY"
+    },
+    {
+      "gt_fact_id": "gtf-0006",
+      "document_id": "doc-7c5cd3967c2f9f10",
+      "source_id": "imp-bea",
+      "metric": "percentage_statistic",
+      "value": "0.2",
+      "language": "en",
+      "v31_disposition": "TRUE_MATERIAL_FACT",
+      "v32_disposition": null,
+      "confidence": "HIGH",
+      "lineage": [
+        "V31"
+      ],
+      "evidence_excerpt": "",
+      "gap_taxonomy": "EVIDENCE_SELECTION_GAP",
+      "forensic_subclass": "VALUE_PRESENT_CONTEXT_NEARBY"
+    },
+    {
+      "gt_fact_id": "gtf-0007",
+      "document_id": "doc-7c5cd3967c2f9f10",
+      "source_id": "imp-bea",
+      "metric": "percentage_statistic",
+      "value": "0.2",
+      "language": "en",
+      "v31_disposition": "TRUE_MATERIAL_FACT",
+      "v32_disposition": null,
+      "confidence": "HIGH",
+      "lineage": [
+        "V31"
+      ],
+      "evidence_excerpt": "",
+      "gap_taxonomy": "EVIDENCE_SELECTION_GAP",
+      "forensic_subclass": "VALUE_PRESENT_CONTEXT_NEARBY"
+    },
+    {
+      "gt_fact_id": "gtf-0009",
+      "document_id": "doc-7c5cd3967c2f9f10",
+      "source_id": "imp-bea",
+      "metric": "percentage_statistic",
+      "value": "2.7",
+      "language": "en",
+      "v31_disposition": "TRUE_MATERIAL_FACT",
+      "v32_disposition": null,
+      "confidence": "HIGH",
+      "lineage": [
+        "V31"
+      ],
+      "evidence_excerpt": "",
+      "gap_taxonomy": "EVIDENCE_SELECTION_GAP",
+      "forensic_subclass": "VALUE_PRESENT_CONTEXT_NEARBY"
+    },
+    {
+      "gt_fact_id": "gtf-0014",
+      "document_id": "doc-7c5cd3967c2f9f10",
+      "source_id": "imp-bea",
+      "metric": "percentage_statistic",
+      "value": "76.6",
+      "language": "en",
+      "v31_disposition": "TRUE_MATERIAL_FACT",
+      "v32_disposition": null,
+      "confidence": "HIGH",
+      "lineage": [
+        "V31"
+      ],
+      "evidence_excerpt": "",
+      "gap_taxonomy": "EVIDENCE_SELECTION_GAP",
+      "forensic_subclass": "VALUE_PRESENT_CONTEXT_NEARBY"
+    },
+    {
+      "gt_fact_id": "gtf-0015",
+      "document_id": "doc-7c5cd3967c2f9f10",
+      "source_id": "imp-bea",
+      "metric": "percentage_statistic",
+      "value": "46.3",
+      "language": "en",
+      "v31_disposition": "TRUE_MATERIAL_FACT",
+      "v32_disposition": null,
+      "confidence": "HIGH",
+      "lineage": [
+        "V31"
+      ],
+      "evidence_excerpt": "",
+      "gap_taxonomy": "EVIDENCE_SELECTION_GAP",
+      "forensic_subclass": "VALUE_PRESENT_CONTEXT_NEARBY"
+    },
+    {
+      "gt_fact_id": "gtf-0016",
+      "document_id": "doc-7c5cd3967c2f9f10",
+      "source_id": "imp-bea",
+      "metric": "percentage_statistic",
+      "value": "22.6",
+      "language": "en",
+      "v31_disposition": "TRUE_MATERIAL_FACT",
+      "v32_disposition": null,
+      "confidence": "HIGH",
+      "lineage": [
+        "V31"
+      ],
+      "evidence_excerpt": "",
+      "gap_taxonomy": "EVIDENCE_SELECTION_GAP",
+      "forensic_subclass": "VALUE_PRESENT_CONTEXT_NEARBY"
+    },
+    {
+      "gt_fact_id": "gtf-0017",
+      "document_id": "doc-7c5cd3967c2f9f10",
+      "source_id": "imp-bea",
+      "metric": "percentage_statistic",
+      "value": "23.3",
+      "language": "en",
+      "v31_disposition": "TRUE_MATERIAL_FACT",
+      "v32_disposition": null,
+      "confidence": "HIGH",
+      "lineage": [
+        "V31"
+      ],
+      "evidence_excerpt": "",
+      "gap_taxonomy": "EVIDENCE_SELECTION_GAP",
+      "forensic_subclass": "VALUE_PRESENT_CONTEXT_NEARBY"
+    },
+    {
+      "gt_fact_id": "gtf-0018",
+      "document_id": "doc-7c5cd3967c2f9f10",
+      "source_id": "imp-bea",
+      "metric": "usd_amount",
+      "value": "54.9",
+      "language": "en",
+      "v31_disposition": "TRUE_MATERIAL_FACT",
+      "v32_disposition": null,
+      "confidence": "HIGH",
+      "lineage": [
+        "V31"
+      ],
+      "evidence_excerpt": "",
+      "gap_taxonomy": "EVIDENCE_SELECTION_GAP",
+      "forensic_subclass": "VALUE_PRESENT_CONTEXT_NEARBY"
+    },
+    {
+      "gt_fact_id": "gtf-0019",
+      "document_id": "doc-7c5cd3967c2f9f10",
+      "source_id": "imp-bea",
+      "metric": "usd_amount",
+      "value": "48.3",
+      "language": "en",
+      "v31_disposition": "TRUE_MATERIAL_FACT",
+      "v32_disposition": null,
+      "confidence": "HIGH",
+      "lineage": [
+        "V31"
+      ],
+      "evidence_excerpt": "",
+      "gap_taxonomy": "EVIDENCE_SELECTION_GAP",
+      "forensic_subclass": "VALUE_PRESENT_CONTEXT_NEARBY"
+    },
+    {
+      "gt_fact_id": "gtf-0021",
+      "document_id": "doc-7c5cd3967c2f9f10",
+      "source_id": "imp-bea",
+      "metric": "usd_amount",
+      "value": "70.0",
+      "language": "en",
+      "v31_disposition": "TRUE_MATERIAL_FACT",
+      "v32_disposition": null,
+      "confidence": "HIGH",
+      "lineage": [
+        "V31"
+      ],
+      "evidence_excerpt": "",
+      "gap_taxonomy": "EVIDENCE_SELECTION_GAP",
+      "forensic_subclass": "VALUE_PRESENT_CONTEXT_NEARBY"
+    },
+    {
+      "gt_fact_id": "gtf-0022",
+      "document_id": "doc-7c5cd3967c2f9f10",
+      "source_id": "imp-bea",
+      "metric": "usd_amount",
+      "value": "646.1",
+      "language": "en",
+      "v31_disposition": "TRUE_MATERIAL_FACT",
+      "v32_disposition": null,
+      "confidence": "HIGH",
+      "lineage": [
+        "V31"
+      ],
+      "evidence_excerpt": "",
+      "gap_taxonomy": "EVIDENCE_SELECTION_GAP",
+      "forensic_subclass": "VALUE_PRESENT_CONTEXT_NEARBY"
+    },
+    {
+      "gt_fact_id": "gtf-0034",
+      "document_id": "doc-7c5cd3967c2f9f10",
+      "source_id": "imp-bea",
+      "metric": "usd_amount",
+      "value": "73.3",
+      "language": "en",
+      "v31_disposition": "TRUE_MATERIAL_FACT",
+      "v32_disposition": null,
+      "confidence": "HIGH",
+      "lineage": [
+        "V31"
+      ],
+      "evidence_excerpt": "",
+      "gap_taxonomy": "EVIDENCE_SELECTION_GAP",
+      "forensic_subclass": "VALUE_PRESENT_CONTEXT_NEARBY"
+    },
+    {
+      "gt_fact_id": "gtf-0035",
+      "document_id": "doc-7c5cd3967c2f9f10",
+      "source_id": "imp-bea",
+      "metric": "usd_amount",
+      "value": "77.6",
+      "language": "en",
+      "v31_disposition": "TRUE_MATERIAL_FACT",
+      "v32_disposition": null,
+      "confidence": "HIGH",
+      "lineage": [
+        "V31"
+      ],
+      "evidence_excerpt": "",
+      "gap_taxonomy": "EVIDENCE_SELECTION_GAP",
+      "forensic_subclass": "VALUE_PRESENT_CONTEXT_NEARBY"
+    },
+    {
+      "gt_fact_id": "gtf-0036",
+      "document_id": "doc-7c5cd3967c2f9f10",
+      "source_id": "imp-bea",
+      "metric": "usd_amount",
+      "value": "77.6",
+      "language": "en",
+      "v31_disposition": "TRUE_MATERIAL_FACT",
+      "v32_disposition": null,
+      "confidence": "HIGH",
+      "lineage": [
+        "V31"
+      ],
+      "evidence_excerpt": "",
+      "gap_taxonomy": "EVIDENCE_SELECTION_GAP",
+      "forensic_subclass": "VALUE_PRESENT_CONTEXT_NEARBY"
+    },
+    {
+      "gt_fact_id": "gtf-0037",
+      "document_id": "doc-7c5cd3967c2f9f10",
+      "source_id": "imp-bea",
+      "metric": "usd_amount",
+      "value": "73.3",
+      "language": "en",
+      "v31_disposition": "TRUE_MATERIAL_FACT",
+      "v32_disposition": null,
+      "confidence": "HIGH",
+      "lineage": [
+        "V31"
+      ],
+      "evidence_excerpt": "",
+      "gap_taxonomy": "EVIDENCE_SELECTION_GAP",
+      "forensic_subclass": "VALUE_PRESENT_CONTEXT_NEARBY"
+    },
+    {
+      "gt_fact_id": "gtf-0039",
+      "document_id": "doc-7c5cd3967c2f9f10",
+      "source_id": "imp-bea",
+      "metric": "usd_amount",
+      "value": "102.1",
+      "language": "en",
+      "v31_disposition": "TRUE_MATERIAL_FACT",
+      "v32_disposition": null,
+      "confidence": "HIGH",
+      "lineage": [
+        "V31"
+      ],
+      "evidence_excerpt": "",
+      "gap_taxonomy": "EVIDENCE_SELECTION_GAP",
+      "forensic_subclass": "VALUE_PRESENT_CONTEXT_NEARBY"
+    },
+    {
+      "gt_fact_id": "gtf-0040",
+      "document_id": "doc-7c5cd3967c2f9f10",
+      "source_id": "imp-bea",
+      "metric": "usd_amount",
+      "value": "0.5",
+      "language": "en",
+      "v31_disposition": "TRUE_MATERIAL_FACT",
+      "v32_disposition": null,
+      "confidence": "HIGH",
+      "lineage": [
+        "V31"
+      ],
+      "evidence_excerpt": "",
+      "gap_taxonomy": "EVIDENCE_SELECTION_GAP",
+      "forensic_subclass": "VALUE_PRESENT_CONTEXT_NEARBY"
+    },
+    {
+      "gt_fact_id": "gtf-0041",
+      "document_id": "doc-7c5cd3967c2f9f10",
+      "source_id": "imp-bea",
+      "metric": "usd_amount",
+      "value": "28.8",
+      "language": "en",
+      "v31_disposition": "TRUE_MATERIAL_FACT",
+      "v32_disposition": null,
+      "confidence": "HIGH",
+      "lineage": [
+        "V31"
+      ],
+      "evidence_excerpt": "",
+      "gap_taxonomy": "EVIDENCE_SELECTION_GAP",
+      "forensic_subclass": "VALUE_PRESENT_CONTEXT_NEARBY"
+    },
+    {
+      "gt_fact_id": "gtf-0048",
+      "document_id": "doc-ab8dbef146c79b7d",
+      "source_id": "imp-eurostat",
+      "metric": "percentage_statistic",
+      "value": "0.0",
+      "language": "en",
+      "v31_disposition": "TRUE_MATERIAL_FACT",
+      "v32_disposition": null,
+      "confidence": "HIGH",
+      "lineage": [
+        "V31"
+      ],
+      "evidence_excerpt": "",
+      "gap_taxonomy": "EVIDENCE_SELECTION_GAP",
+      "forensic_subclass": "VALUE_PRESENT_CONTEXT_NEARBY"
+    },
+    {
+      "gt_fact_id": "gtf-0049",
+      "document_id": "doc-ab8dbef146c79b7d",
+      "source_id": "imp-eurostat",
+      "metric": "percentage_statistic",
+      "value": "0.0",
+      "language": "en",
+      "v31_disposition": "TRUE_MATERIAL_FACT",
+      "v32_disposition": null,
+      "confidence": "HIGH",
+      "lineage": [
+        "V31"
+      ],
+      "evidence_excerpt": "",
+      "gap_taxonomy": "EVIDENCE_SELECTION_GAP",
+      "forensic_subclass": "VALUE_PRESENT_CONTEXT_NEARBY"
+    },
+    {
+      "gt_fact_id": "gtf-0050",
+      "document_id": "doc-ab8dbef146c79b7d",
+      "source_id": "imp-eurostat",
+      "metric": "percentage_statistic",
+      "value": "0.0",
+      "language": "en",
+      "v31_disposition": "TRUE_MATERIAL_FACT",
+      "v32_disposition": null,
+      "confidence": "HIGH",
+      "lineage": [
+        "V31"
+      ],
+      "evidence_excerpt": "",
+      "gap_taxonomy": "EVIDENCE_SELECTION_GAP",
+      "forensic_subclass": "VALUE_PRESENT_CONTEXT_NEARBY"
+    },
+    {
+      "gt_fact_id": "gtf-0051",
+      "document_id": "doc-ab8dbef146c79b7d",
+      "source_id": "imp-eurostat",
+      "metric": "percentage_statistic",
+      "value": "0.0",
+      "language": "en",
+      "v31_disposition": "TRUE_MATERIAL_FACT",
+      "v32_disposition": null,
+      "confidence": "HIGH",
+      "lineage": [
+        "V31"
+      ],
+      "evidence_excerpt": "",
+      "gap_taxonomy": "EVIDENCE_SELECTION_GAP",
+      "forensic_subclass": "VALUE_PRESENT_CONTEXT_NEARBY"
+    },
+    {
+      "gt_fact_id": "gtf-0052",
+      "document_id": "doc-ab8dbef146c79b7d",
+      "source_id": "imp-eurostat",
+      "metric": "percentage_statistic",
+      "value": "0.0",
+      "language": "en",
+      "v31_disposition": "TRUE_MATERIAL_FACT",
+      "v32_disposition": null,
+      "confidence": "HIGH",
+      "lineage": [
+        "V31"
+      ],
+      "evidence_excerpt": "",
+      "gap_taxonomy": "EVIDENCE_SELECTION_GAP",
+      "forensic_subclass": "VALUE_PRESENT_CONTEXT_NEARBY"
+    },
+    {
+      "gt_fact_id": "gtf-0053",
+      "document_id": "doc-ab8dbef146c79b7d",
+      "source_id": "imp-eurostat",
+      "metric": "percentage_statistic",
+      "value": "0.0",
+      "language": "en",
+      "v31_disposition": "TRUE_MATERIAL_FACT",
+      "v32_disposition": null,
+      "confidence": "HIGH",
+      "lineage": [
+        "V31"
+      ],
+      "evidence_excerpt": "",
+      "gap_taxonomy": "EVIDENCE_SELECTION_GAP",
+      "forensic_subclass": "VALUE_PRESENT_CONTEXT_NEARBY"
+    },
+    {
+      "gt_fact_id": "gtf-0057",
+      "document_id": "doc-7eafb0e5382d524a",
+      "source_id": "imp-eurostat",
+      "metric": "percentage_statistic",
+      "value": "0.5",
+      "language": "en",
+      "v31_disposition": "TRUE_MATERIAL_FACT",
+      "v32_disposition": null,
+      "confidence": "HIGH",
+      "lineage": [
+        "V31"
+      ],
+      "evidence_excerpt": "",
+      "gap_taxonomy": "EVIDENCE_SELECTION_GAP",
+      "forensic_subclass": "VALUE_PRESENT_CONTEXT_NEARBY"
+    },
+    {
+      "gt_fact_id": "gtf-0061",
+      "document_id": "doc-7eafb0e5382d524a",
+      "source_id": "imp-eurostat",
+      "metric": "percentage_statistic",
+      "value": "0.3",
+      "language": "en",
+      "v31_disposition": "TRUE_MATERIAL_FACT",
+      "v32_disposition": null,
+      "confidence": "HIGH",
+      "lineage": [
+        "V31"
+      ],
+      "evidence_excerpt": "",
+      "gap_taxonomy": "EVIDENCE_SELECTION_GAP",
+      "forensic_subclass": "VALUE_PRESENT_CONTEXT_NEARBY"
+    },
+    {
+      "gt_fact_id": "gtf-0062",
+      "document_id": "doc-7eafb0e5382d524a",
+      "source_id": "imp-eurostat",
+      "metric": "percentage_statistic",
+      "value": "0.3",
+      "language": "en",
+      "v31_disposition": "TRUE_MATERIAL_FACT",
+      "v32_disposition": null,
+      "confidence": "HIGH",
+      "lineage": [
+        "V31"
+      ],
+      "evidence_excerpt": "",
+      "gap_taxonomy": "EVIDENCE_SELECTION_GAP",
+      "forensic_subclass": "VALUE_PRESENT_CONTEXT_NEARBY"
+    },
+    {
+      "gt_fact_id": "gtf-0067",
+      "document_id": "doc-7eafb0e5382d524a",
+      "source_id": "imp-eurostat",
+      "metric": "percentage_statistic",
+      "value": "0.18",
+      "language": "en",
+      "v31_disposition": "TRUE_MATERIAL_FACT",
+      "v32_disposition": null,
+      "confidence": "HIGH",
+      "lineage": [
+        "V31"
+      ],
+      "evidence_excerpt": "",
+      "gap_taxonomy": "EVIDENCE_SELECTION_GAP",
+      "forensic_subclass": "VALUE_PRESENT_CONTEXT_NEARBY"
+    },
+    {
+      "gt_fact_id": "gtf-0068",
+      "document_id": "doc-7eafb0e5382d524a",
+      "source_id": "imp-eurostat",
+      "metric": "percentage_statistic",
+      "value": "74.7",
+      "language": "en",
+      "v31_disposition": "TRUE_MATERIAL_FACT",
+      "v32_disposition": null,
+      "confidence": "HIGH",
+      "lineage": [
+        "V31"
+      ],
+      "evidence_excerpt": "",
+      "gap_taxonomy": "EVIDENCE_SELECTION_GAP",
+      "forensic_subclass": "VALUE_PRESENT_CONTEXT_NEARBY"
+    },
+    {
+      "gt_fact_id": "gtf-0069",
+      "document_id": "doc-7eafb0e5382d524a",
+      "source_id": "imp-eurostat",
+      "metric": "percentage_statistic",
+      "value": "64.4",
+      "language": "en",
+      "v31_disposition": "TRUE_MATERIAL_FACT",
+      "v32_disposition": null,
+      "confidence": "HIGH",
+      "lineage": [
+        "V31"
+      ],
+      "evidence_excerpt": "",
+      "gap_taxonomy": "EVIDENCE_SELECTION_GAP",
+      "forensic_subclass": "VALUE_PRESENT_CONTEXT_NEARBY"
+    },
+    {
+      "gt_fact_id": "gtf-0070",
+      "document_id": "doc-7eafb0e5382d524a",
+      "source_id": "imp-eurostat",
+      "metric": "percentage_statistic",
+      "value": "61",
+      "language": "en",
+      "v31_disposition": "TRUE_MATERIAL_FACT",
+      "v32_disposition": null,
+      "confidence": "HIGH",
+      "lineage": [
+        "V31"
+      ],
+      "evidence_excerpt": "",
+      "gap_taxonomy": "EVIDENCE_SELECTION_GAP",
+      "forensic_subclass": "VALUE_PRESENT_CONTEXT_NEARBY"
+    },
+    {
+      "gt_fact_id": "gtf-0071",
+      "document_id": "doc-7eafb0e5382d524a",
+      "source_id": "imp-eurostat",
+      "metric": "percentage_statistic",
+      "value": "0.69",
+      "language": "en",
+      "v31_disposition": "TRUE_MATERIAL_FACT",
+      "v32_disposition": null,
+      "confidence": "HIGH",
+      "lineage": [
+        "V31"
+      ],
+      "evidence_excerpt": "",
+      "gap_taxonomy": "EVIDENCE_SELECTION_GAP",
+      "forensic_subclass": "VALUE_PRESENT_CONTEXT_NEARBY"
+    },
+    {
+      "gt_fact_id": "gtf-0072",
+      "document_id": "doc-7eafb0e5382d524a",
+      "source_id": "imp-eurostat",
+      "metric": "percentage_statistic",
+      "value": "2.4",
+      "language": "en",
+      "v31_disposition": "TRUE_MATERIAL_FACT",
+      "v32_disposition": null,
+      "confidence": "HIGH",
+      "lineage": [
+        "V31"
+      ],
+      "evidence_excerpt": "",
+      "gap_taxonomy": "EVIDENCE_SELECTION_GAP",
+      "forensic_subclass": "VALUE_PRESENT_CONTEXT_NEARBY"
+    },
+    {
+      "gt_fact_id": "gtf-0073",
+      "document_id": "doc-7eafb0e5382d524a",
+      "source_id": "imp-eurostat",
+      "metric": "percentage_statistic",
+      "value": "60.5",
+      "language": "en",
+      "v31_disposition": "TRUE_MATERIAL_FACT",
+      "v32_disposition": null,
+      "confidence": "HIGH",
+      "lineage": [
+        "V31"
+      ],
+      "evidence_excerpt": "",
+      "gap_taxonomy": "EVIDENCE_SELECTION_GAP",
+      "forensic_subclass": "VALUE_PRESENT_CONTEXT_NEARBY"
+    },
+    {
+      "gt_fact_id": "gtf-0077",
+      "document_id": "doc-7eafb0e5382d524a",
+      "source_id": "imp-eurostat",
+      "metric": "percentage_statistic",
+      "value": "23.8",
+      "language": "en",
+      "v31_disposition": "TRUE_MATERIAL_FACT",
+      "v32_disposition": null,
+      "confidence": "HIGH",
+      "lineage": [
+        "V31"
+      ],
+      "evidence_excerpt": "",
+      "gap_taxonomy": "EVIDENCE_SELECTION_GAP",
+      "forensic_subclass": "VALUE_PRESENT_CONTEXT_NEARBY"
+    },
+    {
+      "gt_fact_id": "gtf-0078",
+      "document_id": "doc-7eafb0e5382d524a",
+      "source_id": "imp-eurostat",
+      "metric": "percentage_statistic",
+      "value": "15.8",
+      "language": "en",
+      "v31_disposition": "TRUE_MATERIAL_FACT",
+      "v32_disposition": null,
+      "confidence": "HIGH",
+      "lineage": [
+        "V31"
+      ],
+      "evidence_excerpt": "",
+      "gap_taxonomy": "EVIDENCE_SELECTION_GAP",
+      "forensic_subclass": "VALUE_PRESENT_CONTEXT_NEARBY"
+    },
+    {
+      "gt_fact_id": "gtf-0079",
+      "document_id": "doc-7eafb0e5382d524a",
+      "source_id": "imp-eurostat",
+      "metric": "percentage_statistic",
+      "value": "12.0",
+      "language": "en",
+      "v31_disposition": "TRUE_MATERIAL_FACT",
+      "v32_disposition": null,
+      "confidence": "HIGH",
+      "lineage": [
+        "V31"
+      ],
+      "evidence_excerpt": "",
+      "gap_taxonomy": "EVIDENCE_SELECTION_GAP",
+      "forensic_subclass": "VALUE_PRESENT_CONTEXT_NEARBY"
+    },
+    {
+      "gt_fact_id": "gtf-0080",
+      "document_id": "doc-7eafb0e5382d524a",
+      "source_id": "imp-eurostat",
+      "metric": "percentage_statistic",
+      "value": "0.1",
+      "language": "en",
+      "v31_disposition": "TRUE_MATERIAL_FACT",
+      "v32_disposition": null,
+      "confidence": "HIGH",
+      "lineage": [
+        "V31"
+      ],
+      "evidence_excerpt": "",
+      "gap_taxonomy": "EVIDENCE_SELECTION_GAP",
+      "forensic_subclass": "VALUE_PRESENT_CONTEXT_NEARBY"
+    },
+    {
+      "gt_fact_id": "gtf-0081",
+      "document_id": "doc-7eafb0e5382d524a",
+      "source_id": "imp-eurostat",
+      "metric": "percentage_statistic",
+      "value": "16.5",
+      "language": "en",
+      "v31_disposition": "TRUE_MATERIAL_FACT",
+      "v32_disposition": null,
+      "confidence": "HIGH",
+      "lineage": [
+        "V31"
+      ],
+      "evidence_excerpt": "",
+      "gap_taxonomy": "EVIDENCE_SELECTION_GAP",
+      "forensic_subclass": "VALUE_PRESENT_CONTEXT_NEARBY"
+    },
+    {
+      "gt_fact_id": "gtf-0175",
+      "document_id": "doc-9009073715abef71",
+      "source_id": "src-eurostat-emp",
+      "metric": "percentage_statistic",
+      "value": "3.4",
+      "language": "en",
+      "v31_disposition": "TRUE_MATERIAL_FACT",
+      "v32_disposition": null,
+      "confidence": "HIGH",
+      "lineage": [
+        "V31"
+      ],
+      "evidence_excerpt": "",
+      "gap_taxonomy": "EVIDENCE_SELECTION_GAP",
+      "forensic_subclass": "VALUE_PRESENT_CONTEXT_NEARBY"
+    },
+    {
+      "gt_fact_id": "gtf-0176",
+      "document_id": "doc-9009073715abef71",
+      "source_id": "src-eurostat-emp",
+      "metric": "percentage_statistic",
+      "value": "3.2",
+      "language": "en",
+      "v31_disposition": "TRUE_MATERIAL_FACT",
+      "v32_disposition": null,
+      "confidence": "HIGH",
+      "lineage": [
+        "V31"
+      ],
+      "evidence_excerpt": "",
+      "gap_taxonomy": "EVIDENCE_SELECTION_GAP",
+      "forensic_subclass": "VALUE_PRESENT_CONTEXT_NEARBY"
+    },
+    {
+      "gt_fact_id": "gtf-0177",
+      "document_id": "doc-9009073715abef71",
+      "source_id": "src-eurostat-emp",
+      "metric": "percentage_statistic",
+      "value": "8.8",
+      "language": "en",
+      "v31_disposition": "TRUE_MATERIAL_FACT",
+      "v32_disposition": null,
+      "confidence": "HIGH",
+      "lineage": [
+        "V31"
+      ],
+      "evidence_excerpt": "",
+      "gap_taxonomy": "EVIDENCE_SELECTION_GAP",
+      "forensic_subclass": "VALUE_PRESENT_CONTEXT_NEARBY"
+    },
+    {
+      "gt_fact_id": "gtf-0178",
+      "document_id": "doc-9009073715abef71",
+      "source_id": "src-eurostat-emp",
+      "metric": "percentage_statistic",
+      "value": "1.0",
+      "language": "en",
+      "v31_disposition": "TRUE_MATERIAL_FACT",
+      "v32_disposition": null,
+      "confidence": "HIGH",
+      "lineage": [
+        "V31"
+      ],
+      "evidence_excerpt": "",
+      "gap_taxonomy": "EVIDENCE_SELECTION_GAP",
+      "forensic_subclass": "VALUE_PRESENT_CONTEXT_NEARBY"
+    },
+    {
+      "gt_fact_id": "gtf-0179",
+      "document_id": "doc-9009073715abef71",
+      "source_id": "src-eurostat-emp",
+      "metric": "percentage_statistic",
+      "value": "0.0",
+      "language": "en",
+      "v31_disposition": "TRUE_MATERIAL_FACT",
+      "v32_disposition": null,
+      "confidence": "HIGH",
+      "lineage": [
+        "V31"
+      ],
+      "evidence_excerpt": "",
+      "gap_taxonomy": "EVIDENCE_SELECTION_GAP",
+      "forensic_subclass": "VALUE_PRESENT_CONTEXT_NEARBY"
+    },
+    {
+      "gt_fact_id": "gtf-0180",
+      "document_id": "doc-9009073715abef71",
+      "source_id": "src-eurostat-emp",
+      "metric": "percentage_statistic",
+      "value": "21.1",
+      "language": "en",
+      "v31_disposition": "TRUE_MATERIAL_FACT",
+      "v32_disposition": null,
+      "confidence": "HIGH",
+      "lineage": [
+        "V31"
+      ],
+      "evidence_excerpt": "",
+      "gap_taxonomy": "EVIDENCE_SELECTION_GAP",
+      "forensic_subclass": "VALUE_PRESENT_CONTEXT_NEARBY"
+    },
+    {
+      "gt_fact_id": "gtf-0181",
+      "document_id": "doc-9009073715abef71",
+      "source_id": "src-eurostat-emp",
+      "metric": "percentage_statistic",
+      "value": "21.1",
+      "language": "en",
+      "v31_disposition": "TRUE_MATERIAL_FACT",
+      "v32_disposition": null,
+      "confidence": "HIGH",
+      "lineage": [
+        "V31"
+      ],
+      "evidence_excerpt": "",
+      "gap_taxonomy": "EVIDENCE_SELECTION_GAP",
+      "forensic_subclass": "VALUE_PRESENT_CONTEXT_NEARBY"
+    },
+    {
+      "gt_fact_id": "gtf-0182",
+      "document_id": "doc-9009073715abef71",
+      "source_id": "src-eurostat-emp",
+      "metric": "percentage_statistic",
+      "value": "11.4",
+      "language": "en",
+      "v31_disposition": "TRUE_MATERIAL_FACT",
+      "v32_disposition": null,
+      "confidence": "HIGH",
+      "lineage": [
+        "V31"
+      ],
+      "evidence_excerpt": "",
+      "gap_taxonomy": "EVIDENCE_SELECTION_GAP",
+      "forensic_subclass": "VALUE_PRESENT_CONTEXT_NEARBY"
+    },
+    {
+      "gt_fact_id": "gtf-0183",
+      "document_id": "doc-9009073715abef71",
+      "source_id": "src-eurostat-emp",
+      "metric": "percentage_statistic",
+      "value": "6.8",
+      "language": "en",
+      "v31_disposition": "TRUE_MATERIAL_FACT",
+      "v32_disposition": null,
+      "confidence": "HIGH",
+      "lineage": [
+        "V31"
+      ],
+      "evidence_excerpt": "",
+      "gap_taxonomy": "EVIDENCE_SELECTION_GAP",
+      "forensic_subclass": "VALUE_PRESENT_CONTEXT_NEARBY"
+    },
+    {
+      "gt_fact_id": "gtf-0184",
+      "document_id": "doc-9009073715abef71",
+      "source_id": "src-eurostat-emp",
+      "metric": "percentage_statistic",
+      "value": "2.6",
+      "language": "en",
+      "v31_disposition": "TRUE_MATERIAL_FACT",
+      "v32_disposition": null,
+      "confidence": "HIGH",
+      "lineage": [
+        "V31"
+      ],
+      "evidence_excerpt": "",
+      "gap_taxonomy": "EVIDENCE_SELECTION_GAP",
+      "forensic_subclass": "VALUE_PRESENT_CONTEXT_NEARBY"
+    },
+    {
+      "gt_fact_id": "gtf-0185",
+      "document_id": "doc-9009073715abef71",
+      "source_id": "src-eurostat-emp",
+      "metric": "percentage_statistic",
+      "value": "1.7",
+      "language": "en",
+      "v31_disposition": "TRUE_MATERIAL_FACT",
+      "v32_disposition": null,
+      "confidence": "HIGH",
+      "lineage": [
+        "V31"
+      ],
+      "evidence_excerpt": "",
+      "gap_taxonomy": "EVIDENCE_SELECTION_GAP",
+      "forensic_subclass": "VALUE_PRESENT_CONTEXT_NEARBY"
+    },
+    {
+      "gt_fact_id": "gtf-0186",
+      "document_id": "doc-9009073715abef71",
+      "source_id": "src-eurostat-emp",
+      "metric": "percentage_statistic",
+      "value": "1.2",
+      "language": "en",
+      "v31_disposition": "TRUE_MATERIAL_FACT",
+      "v32_disposition": null,
+      "confidence": "HIGH",
+      "lineage": [
+        "V31"
+      ],
+      "evidence_excerpt": "",
+      "gap_taxonomy": "EVIDENCE_SELECTION_GAP",
+      "forensic_subclass": "VALUE_PRESENT_CONTEXT_NEARBY"
+    },
+    {
+      "gt_fact_id": "gtf-0199",
+      "document_id": "doc-3c78c920fe89e689",
+      "source_id": "src-eurostat-agri",
+      "metric": "percentage_statistic",
+      "value": "22",
+      "language": "en",
+      "v31_disposition": "TRUE_MATERIAL_FACT",
+      "v32_disposition": null,
+      "confidence": "HIGH",
+      "lineage": [
+        "V31"
+      ],
+      "evidence_excerpt": "",
+      "gap_taxonomy": "EVIDENCE_SELECTION_GAP",
+      "forensic_subclass": "VALUE_PRESENT_CONTEXT_NEARBY"
+    },
+    {
+      "gt_fact_id": "gtf-0201",
+      "document_id": "doc-3c78c920fe89e689",
+      "source_id": "src-eurostat-agri",
+      "metric": "percentage_statistic",
+      "value": "12",
+      "language": "en",
+      "v31_disposition": "TRUE_MATERIAL_FACT",
+      "v32_disposition": null,
+      "confidence": "HIGH",
+      "lineage": [
+        "V31"
+      ],
+      "evidence_excerpt": "",
+      "gap_taxonomy": "EVIDENCE_SELECTION_GAP",
+      "forensic_subclass": "VALUE_PRESENT_CONTEXT_NEARBY"
+    },
+    {
+      "gt_fact_id": "gtf-0202",
+      "document_id": "doc-3c78c920fe89e689",
+      "source_id": "src-eurostat-agri",
+      "metric": "percentage_statistic",
+      "value": "75",
+      "language": "en",
+      "v31_disposition": "TRUE_MATERIAL_FACT",
+      "v32_disposition": null,
+      "confidence": "HIGH",
+      "lineage": [
+        "V31"
+      ],
+      "evidence_excerpt": "",
+      "gap_taxonomy": "EVIDENCE_SELECTION_GAP",
+      "forensic_subclass": "VALUE_PRESENT_CONTEXT_NEARBY"
+    },
+    {
+      "gt_fact_id": "gtf-0203",
+      "document_id": "doc-cc10a6c194e5435b",
+      "source_id": "src-eurostat-agri",
+      "metric": "percentage_statistic",
+      "value": "0.5",
+      "language": "en",
+      "v31_disposition": "TRUE_MATERIAL_FACT",
+      "v32_disposition": null,
+      "confidence": "HIGH",
+      "lineage": [
+        "V31"
+      ],
+      "evidence_excerpt": "",
+      "gap_taxonomy": "EVIDENCE_SELECTION_GAP",
+      "forensic_subclass": "VALUE_PRESENT_CONTEXT_NEARBY"
+    },
+    {
+      "gt_fact_id": "gtf-0207",
+      "document_id": "doc-cc10a6c194e5435b",
+      "source_id": "src-eurostat-agri",
+      "metric": "percentage_statistic",
+      "value": "0.3",
+      "language": "en",
+      "v31_disposition": "TRUE_MATERIAL_FACT",
+      "v32_disposition": null,
+      "confidence": "HIGH",
+      "lineage": [
+        "V31"
+      ],
+      "evidence_excerpt": "",
+      "gap_taxonomy": "EVIDENCE_SELECTION_GAP",
+      "forensic_subclass": "VALUE_PRESENT_CONTEXT_NEARBY"
+    },
+    {
+      "gt_fact_id": "gtf-0208",
+      "document_id": "doc-cc10a6c194e5435b",
+      "source_id": "src-eurostat-agri",
+      "metric": "percentage_statistic",
+      "value": "0.3",
+      "language": "en",
+      "v31_disposition": "TRUE_MATERIAL_FACT",
+      "v32_disposition": null,
+      "confidence": "HIGH",
+      "lineage": [
+        "V31"
+      ],
+      "evidence_excerpt": "",
+      "gap_taxonomy": "EVIDENCE_SELECTION_GAP",
+      "forensic_subclass": "VALUE_PRESENT_CONTEXT_NEARBY"
+    },
+    {
+      "gt_fact_id": "gtf-0213",
+      "document_id": "doc-cc10a6c194e5435b",
+      "source_id": "src-eurostat-agri",
+      "metric": "percentage_statistic",
+      "value": "0.18",
+      "language": "en",
+      "v31_disposition": "TRUE_MATERIAL_FACT",
+      "v32_disposition": null,
+      "confidence": "HIGH",
+      "lineage": [
+        "V31"
+      ],
+      "evidence_excerpt": "",
+      "gap_taxonomy": "EVIDENCE_SELECTION_GAP",
+      "forensic_subclass": "VALUE_PRESENT_CONTEXT_NEARBY"
+    },
+    {
+      "gt_fact_id": "gtf-0214",
+      "document_id": "doc-cc10a6c194e5435b",
+      "source_id": "src-eurostat-agri",
+      "metric": "percentage_statistic",
+      "value": "74.7",
+      "language": "en",
+      "v31_disposition": "TRUE_MATERIAL_FACT",
+      "v32_disposition": null,
+      "confidence": "HIGH",
+      "lineage": [
+        "V31"
+      ],
+      "evidence_excerpt": "",
+      "gap_taxonomy": "EVIDENCE_SELECTION_GAP",
+      "forensic_subclass": "VALUE_PRESENT_CONTEXT_NEARBY"
+    },
+    {
+      "gt_fact_id": "gtf-0215",
+      "document_id": "doc-cc10a6c194e5435b",
+      "source_id": "src-eurostat-agri",
+      "metric": "percentage_statistic",
+      "value": "64.4",
+      "language": "en",
+      "v31_disposition": "TRUE_MATERIAL_FACT",
+      "v32_disposition": null,
+      "confidence": "HIGH",
+      "lineage": [
+        "V31"
+      ],
+      "evidence_excerpt": "",
+      "gap_taxonomy": "EVIDENCE_SELECTION_GAP",
+      "forensic_subclass": "VALUE_PRESENT_CONTEXT_NEARBY"
+    },
+    {
+      "gt_fact_id": "gtf-0216",
+      "document_id": "doc-cc10a6c194e5435b",
+      "source_id": "src-eurostat-agri",
+      "metric": "percentage_statistic",
+      "value": "61",
+      "language": "en",
+      "v31_disposition": "TRUE_MATERIAL_FACT",
+      "v32_disposition": null,
+      "confidence": "HIGH",
+      "lineage": [
+        "V31"
+      ],
+      "evidence_excerpt": "",
+      "gap_taxonomy": "EVIDENCE_SELECTION_GAP",
+      "forensic_subclass": "VALUE_PRESENT_CONTEXT_NEARBY"
+    },
+    {
+      "gt_fact_id": "gtf-0217",
+      "document_id": "doc-cc10a6c194e5435b",
+      "source_id": "src-eurostat-agri",
+      "metric": "percentage_statistic",
+      "value": "0.69",
+      "language": "en",
+      "v31_disposition": "TRUE_MATERIAL_FACT",
+      "v32_disposition": null,
+      "confidence": "HIGH",
+      "lineage": [
+        "V31"
+      ],
+      "evidence_excerpt": "",
+      "gap_taxonomy": "EVIDENCE_SELECTION_GAP",
+      "forensic_subclass": "VALUE_PRESENT_CONTEXT_NEARBY"
+    },
+    {
+      "gt_fact_id": "gtf-0218",
+      "document_id": "doc-cc10a6c194e5435b",
+      "source_id": "src-eurostat-agri",
+      "metric": "percentage_statistic",
+      "value": "2.4",
+      "language": "en",
+      "v31_disposition": "TRUE_MATERIAL_FACT",
+      "v32_disposition": null,
+      "confidence": "HIGH",
+      "lineage": [
+        "V31"
+      ],
+      "evidence_excerpt": "",
+      "gap_taxonomy": "EVIDENCE_SELECTION_GAP",
+      "forensic_subclass": "VALUE_PRESENT_CONTEXT_NEARBY"
+    },
+    {
+      "gt_fact_id": "gtf-0219",
+      "document_id": "doc-cc10a6c194e5435b",
+      "source_id": "src-eurostat-agri",
+      "metric": "percentage_statistic",
+      "value": "60.5",
+      "language": "en",
+      "v31_disposition": "TRUE_MATERIAL_FACT",
+      "v32_disposition": null,
+      "confidence": "HIGH",
+      "lineage": [
+        "V31"
+      ],
+      "evidence_excerpt": "",
+      "gap_taxonomy": "EVIDENCE_SELECTION_GAP",
+      "forensic_subclass": "VALUE_PRESENT_CONTEXT_NEARBY"
+    },
+    {
+      "gt_fact_id": "gtf-0223",
+      "document_id": "doc-cc10a6c194e5435b",
+      "source_id": "src-eurostat-agri",
+      "metric": "percentage_statistic",
+      "value": "23.8",
+      "language": "en",
+      "v31_disposition": "TRUE_MATERIAL_FACT",
+      "v32_disposition": null,
+      "confidence": "HIGH",
+      "lineage": [
+        "V31"
+      ],
+      "evidence_excerpt": "",
+      "gap_taxonomy": "EVIDENCE_SELECTION_GAP",
+      "forensic_subclass": "VALUE_PRESENT_CONTEXT_NEARBY"
+    },
+    {
+      "gt_fact_id": "gtf-0224",
+      "document_id": "doc-cc10a6c194e5435b",
+      "source_id": "src-eurostat-agri",
+      "metric": "percentage_statistic",
+      "value": "15.8",
+      "language": "en",
+      "v31_disposition": "TRUE_MATERIAL_FACT",
+      "v32_disposition": null,
+      "confidence": "HIGH",
+      "lineage": [
+        "V31"
+      ],
+      "evidence_excerpt": "",
+      "gap_taxonomy": "EVIDENCE_SELECTION_GAP",
+      "forensic_subclass": "VALUE_PRESENT_CONTEXT_NEARBY"
+    },
+    {
+      "gt_fact_id": "gtf-0225",
+      "document_id": "doc-cc10a6c194e5435b",
+      "source_id": "src-eurostat-agri",
+      "metric": "percentage_statistic",
+      "value": "12.0",
+      "language": "en",
+      "v31_disposition": "TRUE_MATERIAL_FACT",
+      "v32_disposition": null,
+      "confidence": "HIGH",
+      "lineage": [
+        "V31"
+      ],
+      "evidence_excerpt": "",
+      "gap_taxonomy": "EVIDENCE_SELECTION_GAP",
+      "forensic_subclass": "VALUE_PRESENT_CONTEXT_NEARBY"
+    },
+    {
+      "gt_fact_id": "gtf-0226",
+      "document_id": "doc-cc10a6c194e5435b",
+      "source_id": "src-eurostat-agri",
+      "metric": "percentage_statistic",
+      "value": "0.1",
+      "language": "en",
+      "v31_disposition": "TRUE_MATERIAL_FACT",
+      "v32_disposition": null,
+      "confidence": "HIGH",
+      "lineage": [
+        "V31"
+      ],
+      "evidence_excerpt": "",
+      "gap_taxonomy": "EVIDENCE_SELECTION_GAP",
+      "forensic_subclass": "VALUE_PRESENT_CONTEXT_NEARBY"
+    },
+    {
+      "gt_fact_id": "gtf-0227",
+      "document_id": "doc-cc10a6c194e5435b",
+      "source_id": "src-eurostat-agri",
+      "metric": "percentage_statistic",
+      "value": "16.5",
+      "language": "en",
+      "v31_disposition": "TRUE_MATERIAL_FACT",
+      "v32_disposition": null,
+      "confidence": "HIGH",
+      "lineage": [
+        "V31"
+      ],
+      "evidence_excerpt": "",
+      "gap_taxonomy": "EVIDENCE_SELECTION_GAP",
+      "forensic_subclass": "VALUE_PRESENT_CONTEXT_NEARBY"
+    },
+    {
+      "gt_fact_id": "gtf-0238",
+      "document_id": "doc-a72c0918e27dd12b",
+      "source_id": "src-stat-austria",
+      "metric": "percentage_statistic",
+      "value": "15",
+      "language": "en",
+      "v31_disposition": "TRUE_MATERIAL_FACT",
+      "v32_disposition": null,
+      "confidence": "HIGH",
+      "lineage": [
+        "V31"
+      ],
+      "evidence_excerpt": "",
+      "gap_taxonomy": "EVIDENCE_SELECTION_GAP",
+      "forensic_subclass": "VALUE_PRESENT_CONTEXT_NEARBY"
+    },
+    {
+      "gt_fact_id": "gtf-0262",
+      "document_id": "doc-a72c0918e27dd12b",
+      "source_id": "src-stat-austria",
+      "metric": "percentage_statistic",
+      "value": "34",
+      "language": "en",
+      "v31_disposition": "TRUE_MATERIAL_FACT",
+      "v32_disposition": null,
+      "confidence": "HIGH",
+      "lineage": [
+        "V31"
+      ],
+      "evidence_excerpt": "",
+      "gap_taxonomy": "EVIDENCE_SELECTION_GAP",
+      "forensic_subclass": "VALUE_PRESENT_CONTEXT_NEARBY"
+    },
+    {
+      "gt_fact_id": "gtf-0270",
+      "document_id": "doc-a72c0918e27dd12b",
+      "source_id": "src-stat-austria",
+      "metric": "percentage_statistic",
+      "value": "72",
+      "language": "en",
+      "v31_disposition": "TRUE_MATERIAL_FACT",
+      "v32_disposition": null,
+      "confidence": "HIGH",
+      "lineage": [
+        "V31"
+      ],
+      "evidence_excerpt": "",
+      "gap_taxonomy": "EVIDENCE_SELECTION_GAP",
+      "forensic_subclass": "VALUE_PRESENT_CONTEXT_NEARBY"
+    },
+    {
+      "gt_fact_id": "gtf-0307",
+      "document_id": "doc-a72c0918e27dd12b",
+      "source_id": "src-stat-austria",
+      "metric": "percentage_statistic",
+      "value": "48",
+      "language": "en",
+      "v31_disposition": "TRUE_MATERIAL_FACT",
+      "v32_disposition": null,
+      "confidence": "HIGH",
+      "lineage": [
+        "V31"
+      ],
+      "evidence_excerpt": "",
+      "gap_taxonomy": "EVIDENCE_SELECTION_GAP",
+      "forensic_subclass": "VALUE_PRESENT_CONTEXT_NEARBY"
+    }
+  ]
+}
