@@ -240,3 +240,38 @@ Task: Reconcile 1,612 vs 681 GT facts. Human-adjudicate benchmark. Build pattern
 Task ID: GROUND-TRUTH-ACCOUNTING-V16
 Agent: main
 Task: Reconcile all V14/V15 numbers into one mathematically consistent ground-truth universe. Prove what TRUE Fact Recall is. No extraction changes.
+
+---
+Task ID: CORE-HISTORY-RECOVERY-V28R
+Agent: main
+Task: Recover and verify the actual V23-V27 Core history and artifacts before any further Core engineering. Recovery and provenance gate only. No V28 extraction changes, no benchmark modification, no silent rebuild.
+
+Work Log:
+- Cloned github.com/jsiadyarslan-lab/rouaa-intelligence-core to /home/z/my-project/v28r_recovery/rouaa-intelligence-core/. Remote HEAD is at 71e7805 (V22 "feat(governance-v22): immutable GT + corrected Recall delta").
+- Verified remote state: only 1 branch (main), 0 tags, 0 other refs. git fsck --full --unreachable --dangling returned empty — no dangling commits, no unreachable objects, no stash, no ORIG_HEAD. Remote contains exactly V22 and nothing else.
+- Searched for V23-V27 SHAs claimed in previous session: 1e5d9d9 (V25), e98847f (V26), 2a0c651 (V27). NONE of these SHAs exist on remote, in any local clone, in any reflog, or as dangling objects.
+- Searched entire filesystem (/home, /tmp, /var/tmp, /root) for V23-V27 artifacts: 0 governance MDs found, 0 result JSONs found, 0 test files (golden cases, evidence packs) found, 0 source code changes found.
+- Discovered that /home/z/my-project/rouaa-intelligence-core/ (the previous session's working directory) DOES NOT EXIST. The previous session committed locally to that directory's .git/, but the directory was deleted when the session environment was reset. The commits existed only in that now-deleted .git/ folder.
+- Found 15 surviving Python generation scripts in /tmp/my-project/scripts/: v23_*.py (4 files), v24_*.py (3 files), v25_*.py (2 files), v26_*.py (4 files), v27_*.py (2 files). These are the "recipes" — generation logic — but NOT the actual code changes, results, or governance artifacts.
+- Verified V22 fresh clone contains the immutable GT: fact_gt_v1.json (1,612 facts), event_gt_v1.json (208 events), v3_corpus_store/ (1,034 docs). Benchmark continuity is INTACT — the same GT and corpus can be used for future work.
+- Verified V22 worklog ends at V16 (GROUND-TRUTH-ACCOUNTING-V16). No V17-V27 worklog entries exist anywhere.
+- Content-searched V22 source for V27 distinctive changes: 0 matches for PERCENT_EQUIV, 0 matches for "percentage points"/"pct" in evidence classifier, 0 matches for SKIP_TAGS/skip_depth in v15_recall_recovery.py, 0 matches for "Always include regulatory action_type" in v21_frozen_benchmark.py, 0 matches for SemanticTableParser. V22 source is in pre-V23 state.
+- Copied 15 surviving scripts to durable location: /home/z/my-project/v28r_recovery/v23_v27_surviving_scripts/.
+- Created recovery report: docs/evidence/ROUAA_CORE_HISTORY_RECOVERY_V28R.md (sections A-I).
+
+Stage Summary:
+- VERDICT: CORE HISTORY RECOVERY BLOCKED — V22 IS LAST VERIFIED CHECKPOINT.
+- V22 (71e7805) is fully verified on remote: source, tests, GT, corpus, governance, worklog (up to V16).
+- V23-V27 are NOT recoverable: 0 of 5 claimed commits exist anywhere. Claimed SHAs (1e5d9d9, e98847f, 2a0c651) are phantoms — they existed only in the now-deleted local working directory's .git/.
+- Only 15 Python generation scripts survive in /tmp/my-project/scripts/ — these are descriptions of work, not durable artifacts.
+- Benchmark continuity INTACT: 1,612 GT facts, 208 GT events, 300-doc benchmark all preserved in V22.
+- Project must choose: Path A (recover from another durable workspace — check developer laptops, CI, backups) or Path B (intentionally restart from V22, re-implementing V23-V27 from the 15 surviving scripts, with push-verification added to workflow).
+- Did NOT: implement V28, modify benchmark, rebuild V23-V27 silently, create synthetic commits, push anything to remote.
+- DID: clone remote, search all refs/reflog/fsck/dangling, search filesystem, find and catalog surviving scripts, verify GT/corpus intact, create recovery report.
+- STOP per §10. V28 BLOCKED until project chooses Path A or Path B.
+- Governance lesson: workflow committed locally but did not verify push. Future V-phases MUST include: git commit → git push → git ls-remote verification before declaring complete.
+
+Artifacts produced:
+- docs/evidence/ROUAA_CORE_HISTORY_RECOVERY_V28R.md
+- /home/z/my-project/v28r_recovery/rouaa-intelligence-core/ (fresh V22 clone, verified)
+- /home/z/my-project/v28r_recovery/v23_v27_surviving_scripts/ (15 scripts, copied from /tmp)
