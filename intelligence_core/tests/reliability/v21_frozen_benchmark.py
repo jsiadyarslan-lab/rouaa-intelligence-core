@@ -58,6 +58,15 @@ def get_patterns(language, event_type):
     pk = {"monetary_policy_decision": "monetary", "statistical_release": "statistical",
           "regulatory_enforcement": "regulatory"}.get(event_type, "statistical")
     patterns = list(REFINED_PATTERNS.get(pk, []))
+
+    # V26R Pattern Family 2: Always include regulatory action_type pattern
+    # regardless of event_type — enforcement language can appear in any document
+    if pk != "regulatory":
+        regulatory_patterns = REFINED_PATTERNS.get("regulatory", [])
+        for regex, pt in regulatory_patterns:
+            if pt in ("action_type",):
+                patterns.append((regex, pt))
+
     for regex, pt in NEW_RECALL_PATTERNS:
         m = normalize_metric_v19(pt)
         if m in EVENT_TYPE_RULES.get(event_type, {}).get("trigger_metrics", set()):

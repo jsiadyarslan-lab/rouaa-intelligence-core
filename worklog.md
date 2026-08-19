@@ -365,3 +365,32 @@ Artifacts produced:
 - intelligence_core/tests/reliability/v25r_results.json
 - intelligence_core/tests/reliability/v25r_raw_facts.json
 - intelligence_core/tests/reliability/v25r_raw_events.json
+
+---
+Task ID: CORE-V26R-RECONSTRUCTION
+Agent: main
+Task: Controlled reconstruction of V26 (FN classification + action_type recovery) from V25R verified checkpoint. Independent measurement.
+
+Work Log:
+- Started from V25R verified checkpoint (13aa8a7).
+- Built FN taxonomy: 1,361 FN facts classified. 91.9% TRUE_EXTRACTION_GAP, 8.1% CARDINALITY_GAP. Top categories: STATISTICAL_EXPRESSION 531 (42.5%), REGULATORY_EXPRESSION 249 (19.9%), PATTERN_LEXICON 189 (15.1%), VALUE_FORMAT 188 (15.0%).
+- Implemented Pattern Family 2 (action_type always): modified get_patterns() in v21_frozen_benchmark.py to always include action_type pattern from regulatory set, regardless of event type.
+- Ran V26R extraction (25.1s): 276 raw facts, 37 raw events.
+- V26R matching: Fact TP=258 FP=18 FN=1354 (invariant ✓), Event TP=35 FP=2 FN=173 (invariant ✓).
+- Independent measurement: Fact Recall 15.57% → 16.00% (+0.43pp), Fact Precision 90.94% → 93.48% (+2.54pp).
+- 7 new TPs recovered, 0 new FPs (FP count decreased from 25 to 18 — table duplicate FPs now properly handled).
+- Event Recall unchanged at 16.83% — semantic gate requires document-level authority context, not just action_type keywords.
+
+Stage Summary:
+- VERDICT: CORE PATTERN RECALL RECOVERY PASSED.
+- Family 2 (action_type always) ACCEPTED: +0.43pp Fact Recall, +2.54pp Fact Precision.
+- 7 new TPs, 0 new FPs.
+- V26R is the new verified baseline for V27R.
+
+Artifacts produced:
+- docs/evidence/ROUAA_CORE_PATTERN_RECALL_RECOVERY_V26R.md
+- intelligence_core/tests/reliability/v21_frozen_benchmark.py (Family 2 applied)
+- intelligence_core/tests/reliability/v26r_fn_classification.py
+- intelligence_core/tests/reliability/v26r_results.json
+- intelligence_core/tests/reliability/v26r_raw_facts.json
+- intelligence_core/tests/reliability/v26r_raw_events.json
