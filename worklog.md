@@ -622,3 +622,37 @@ Artifacts produced:
 - intelligence_core/tests/reliability/v30_bare_number_taxonomy.py
 - intelligence_core/tests/reliability/v30_bare_number_taxonomy.json
 - intelligence_core/tests/reliability/v10_evidence_closure.py (copyright pattern fix)
+
+---
+Task ID: CORE-V31-GROUND-TRUTH-AUDIT
+Agent: main
+Task: Independently and systematically determine which of 1,612 GT facts are material financial/economic facts and which are navigation/listing over-captures. Build GT_V2 and recalculate Core Recall.
+
+Work Log:
+- Built fact disposition ledger for ALL 1,612 GT facts. Each fact independently adjudicated against its original document text using 12 navigation patterns + listing signals + CSS/JS detection. Hard invariant: 1,612 = sum(dispositions) ✓.
+- Selected stratified 250-fact sample: 33 sources, proportional allocation, random seed 42 (deterministic). Each fact independently adjudicated.
+- Sample results (250 facts): TRUE_MATERIAL_FACT 56 (22.4%), AMBIGUOUS 125 (50.0%), OUT_OF_SCOPE 37 (14.8%), NAVIGATION_OVER_CAPTURE 21 (8.4%), LISTING_OVER_CAPTURE 11 (4.4%). Contamination rate: 12.8%.
+- Full adjudication (1,612 facts): TRUE_MATERIAL_FACT 399 (24.8%), AMBIGUOUS 788 (48.9%), OUT_OF_SCOPE 189 (11.7%), NAVIGATION_OVER_CAPTURE 147 (9.1%), LISTING_OVER_CAPTURE 89 (5.5%).
+- V30 hypothesis NOT confirmed: V30 hypothesized 654 FN as BENCHMARK_AMBIGUITY. V31 found only 236 confirmed NAV/LISTING over-capture + 189 OUT_OF_SCOPE = 425 contamination (not 654). The 788 AMBIGUOUS facts are undetermined.
+- Built GT_V2: 1,187 facts (TRUE_MATERIAL 399 + AMBIGUOUS 788). Removed 425 confirmed contamination (147 NAV + 89 LISTING + 189 OUT_OF_SCOPE). Every removed fact retains full provenance (original_gt_fact_id, disposition, reason, document_id).
+- Conservative approach: AMBIGUOUS facts kept in GT_V2. Removing them without certainty would understate contamination; keeping them may overstate GT_V2 size.
+- Recalculated Core Recall against GT_V2: TP=321 (was 338 — 17 TPs matched contaminated GT identities), FP=75 (was 58 — 17 former TPs now FPs), FN=866 (was 1,274 — 408 contaminated FNs removed). Recall=27.04% (was 20.97%). Precision=81.06%.
+- V30's 35.3% estimate was OVERSTATED — true audited Recall is 27.04%, not 35.3%. The 35.3% assumed all 654 were contamination, but audit found only 425.
+- Event GT not separately audited (208 events, 2 known GT_ARTIFACT, 1 known BENCHMARK_AMBIGUITY). Event Recall remains 20.67%.
+- This is INDEPENDENT_ADJUDICATION (machine), NOT HUMAN_GROUND_TRUTH. The 788 AMBIGUOUS facts (48.9%) require human review to resolve.
+- Regression: 103 tests ALL PASS. V19 normalization 11+6 still pass.
+
+Stage Summary:
+- VERDICT: CORE GROUND TRUTH AUDIT PASSED WITH BOUNDED GAPS.
+- GT contamination: 425 facts (26.4%) confirmed removed.
+- GT ambiguity: 788 facts (48.9%) remain undetermined (kept in GT_V2).
+- Audited Recall: 27.04% (GT_V2, 1,187 facts) vs original 20.97% (GT, 1,612 facts).
+- V30's 35.3% estimate was OVERSTATED — true audited Recall is 27.04%.
+- 788 AMBIGUOUS facts are the largest remaining uncertainty — need human review.
+- STOP per directive §16.
+
+Artifacts produced:
+- docs/evidence/ROUAA_CORE_GROUND_TRUTH_AUDIT_V31.md
+- intelligence_core/tests/reliability/v31_gt_audit.py
+- intelligence_core/tests/reliability/v31_gt_audit_results.json
+- intelligence_core/tests/reliability/fact_gt_v2.json (GT_V2, 1,187 facts)
