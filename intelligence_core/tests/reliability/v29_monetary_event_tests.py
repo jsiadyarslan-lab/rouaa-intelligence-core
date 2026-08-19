@@ -35,27 +35,25 @@ class TestMonetaryEventNegativeFixtures(unittest.TestCase):
         self.assertFalse(valid, f"CIMPA/CDS securities notice should be rejected, but got: {reason}")
 
     def test_government_securities_transactions_rejected(self):
-        """Government of Canada securities transactions must NOT pass monetary gate."""
+        """CIMPA/CDS fail-fee framework notices must NOT pass monetary gate (V29.1 narrow)."""
         text = """
-        Market notice: Government of Canada securities settlement framework.
-        The clearing corporation announces new settlement cycle for bond transactions.
-        Securities custody and auction rules updated.
+        Market notice: CIMPA and CDS announce the start of the trial period
+        for the fail fee framework for Government of Canada securities transactions.
         """
         valid, reason = validate_event_context_v13("monetary_policy_decision", text, "en")
-        self.assertFalse(valid, f"Government securities notice should be rejected: {reason}")
+        self.assertFalse(valid, f"CIMPA/CDS fail-fee notice should be rejected: {reason}")
 
-    def test_bond_auction_notice_rejected(self):
-        """Bond auction notices must NOT pass monetary_policy_decision gate."""
+    def test_bond_auction_notice_accepted(self):
+        """V29.1: Bond auction notices that DON'T contain CIMPA/CDS must PASS (no broad exclusion)."""
         text = """
-        Treasury bond auction issuance schedule announced.
-        Settlement system for government securities.
-        Market operation notice for clearing agency.
+        The central bank announced its policy rate decision.
+        Bond auction schedule updated. Interest rate maintained at 4.5%.
         """
         valid, reason = validate_event_context_v13("monetary_policy_decision", text, "en")
-        self.assertFalse(valid, f"Bond auction notice should be rejected: {reason}")
+        self.assertTrue(valid, f"Monetary doc mentioning bond auction should pass (V29.1 narrow): {reason}")
 
     def test_fail_fee_framework_rejected(self):
-        """Fail fee framework notices must NOT pass monetary gate."""
+        """Fail fee framework notices must NOT pass monetary gate (V29.1 narrow)."""
         text = """
         CIMPA announces fail fee framework trial period.
         CDS to implement settlement framework for Government of Canada securities.

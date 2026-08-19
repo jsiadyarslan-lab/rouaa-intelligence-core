@@ -519,3 +519,32 @@ Artifacts produced:
 - docs/evidence/ROUAA_CORE_MONETARY_EVENT_SEMANTIC_CLOSURE_V29.md
 - intelligence_core/tests/reliability/v13_recall_patterns.py (securities exclusion added)
 - intelligence_core/tests/reliability/v29_monetary_event_tests.py (12 tests)
+
+---
+Task ID: CORE-V29_1-MONETARY-EVENT-GATE
+Agent: main
+Task: Fix V29's recall regression by narrowing securities-market exclusion to only CIMPA/CDS/fail-fee pattern. Preserve 0 TRUE_EVENT_FP while recovering the 6 lost TPs.
+
+Work Log:
+- Replaced V29's broad securities/bond/clearing exclusion patterns with narrow CIMPA/CDS/fail-fee-only pattern: r"\b(CIMPA|CDS\s+announce\s+the\s+start\s+of\s+the\s+trial\s+period|fail\s+fee\s+framework)\b". This targets ONLY the specific Canadian market-notice pattern that caused the 3 V28 TRUE_EVENT_FPs.
+- Updated 12 V29 monetary event tests: changed test_bond_auction_notice_rejected to test_bond_auction_notice_accepted (V29.1: bond auction mentions without CIMPA must PASS). All 12 tests PASS.
+- Ran V29.1 extraction: Fact TP=338 (unchanged ✓), Fact Recall=20.97% (unchanged ✓). Event TP=43 (-1 from V28's 44), Event FP=2 (both GT_ARTIFACT), Event Recall=20.67% (-0.48pp from V28's 21.15%).
+- 0 TRUE_EVENT_FP ✓ — all 3 Canadian FPs eliminated. Adjusted Event Precision=100% ✓.
+- Investigated the -1 TP: doc-c84807e39583b5c5 (Bank of Canada Publications page) is a genuinely ambiguous document containing BOTH monetary policy navigation AND CIMPA/CDS market notice content. GT classified it as monetary_policy_decision; V29.1 gate rejects it due to CIMPA. This is a bounded gap: 1 out of 71 monetary GT docs (1.4%).
+- The 2 remaining mechanical Event FPs are both GT_ARTIFACT (BEA statistical releases GT missed — doc-e96dc7902ddcfa54 and doc-93c89f0c3311c178).
+- Regression: 120 tests ALL PASS (83 unit + 8 CSS + 11 norm + 6 unit-confusion + 12 V29 monetary).
+- All invariants hold: V29.1 Fact 338+1274=1612, V29.1 Event 43+165=208.
+
+Stage Summary:
+- VERDICT: CORE MONETARY EVENT GATE PASSED WITH BOUNDED GAPS.
+- 3 TRUE_EVENT_FPs eliminated ✓, 0 TRUE_EVENT_FP ✓, Adjusted Event Precision 100% ✓.
+- 1 bounded gap: doc-c84807e39583b5c5 (ambiguous Bank of Canada publications page with CIMPA).
+- Event Recall 20.67% (-0.48pp from V28's 21.15%).
+- Mechanical Event Precision 95.56% (2 GT_ARTIFACT FPs remain, not extraction errors).
+- Fact layer unchanged: TP=338, Recall=20.97%.
+- STOP per directive §14. Ready for Entity-Aware Extraction (V30).
+
+Artifacts produced:
+- docs/evidence/ROUAA_CORE_MONETARY_EVENT_GATE_V29_1.md
+- intelligence_core/tests/reliability/v13_recall_patterns.py (narrowed CIMPA/CDS exclusion)
+- intelligence_core/tests/reliability/v29_monetary_event_tests.py (updated for V29.1)
