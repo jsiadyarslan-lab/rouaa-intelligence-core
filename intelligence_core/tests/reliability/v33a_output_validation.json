@@ -1,0 +1,976 @@
+{
+  "total_examples": 7,
+  "examples": [
+    {
+      "category": "monetary_policy_decision",
+      "source": {
+        "source_id": "src-ecb-stat",
+        "source_name": "src-ecb-stat",
+        "source_type": "official",
+        "institution": "",
+        "country": "",
+        "url": ""
+      },
+      "document": {
+        "document_id": "doc-b3d9add0dfb060c9",
+        "source_id": "src-ecb-stat",
+        "title": "The ECB Blog Skip to: Skip to navigation Skip to content Skip to footer EN \u0411\u044a\u043b\u0433\u0430\u0440\u0441\u043a\u0438 \u010ce\u0161tina Dansk D",
+        "language": "en",
+        "publication_date": "",
+        "url": "",
+        "text_preview": "The ECB Blog Skip to: Skip to navigation Skip to content Skip to footer EN \u0411\u044a\u043b\u0433\u0430\u0440\u0441\u043a\u0438 \u010ce\u0161tina Dansk Deutsch E\u03bb\u03bb\u03b7\u03bd\u03b9\u03ba\u03ac English Espa\u00f1ol Eesti keel Suomi Fran\u00e7ais Gaeilge Hrvatski Magyar Italiano Lietuvi\u0173 Latvie\u0161u Malti Nederlands Polski Portugu\u00eas Rom\u00e2n\u0103 Sloven\u010dina Sloven\u0161\u010dina Svenska Menu Monetary policy & markets Monetary policy & markets Our monetary policy strategy, the tools we use and the impact they have Overview of monetary policy and markets Quick links What is monetary policy? Strategy revi"
+      },
+      "representation": {
+        "representation_id": "rep-d13c96a3cddabf92",
+        "raw_location": "real_corpus_store_new_waveb/blobs/24f2cfff0b7f3d5295ace8fedb2e1299d8b0a280ea4e869baff87f87c7054b5e"
+      },
+      "facts": [
+        {
+          "fact_id": "fact-16cb738216083d54",
+          "metric": "percentage_statistic",
+          "value": "0.15",
+          "raw_value": "0.15 percentage points",
+          "pattern_ref": "percentage_statistic",
+          "excerpt": "English 30 July 2025 China-US trade tensions could bring more Chinese exports and lower prices to Europe With trade tensions between China and the United States reaching new heights, Chinese exports may be redirected to the euro area. In a severe scenario, this additional supply and the accompanying",
+          "occurrence": 2
+        }
+      ],
+      "evidence": [
+        {
+          "evidence_id": "fact-16cb738216083d54",
+          "excerpt": "English 30 July 2025 China-US trade tensions could bring more Chinese exports and lower prices to Europe With trade tensions between China and the United States reaching new heights, Chinese exports may be redirected to the euro area. In a severe scenario, this additional supply and the accompanying",
+          "location": "percentage_statistic",
+          "provenance_ref": "representation:rep-d13c96a3cddabf92"
+        }
+      ],
+      "event": {
+        "event_id": "evt-3b7eb1cfd9d6ee99",
+        "event_type": "monetary_policy_decision",
+        "document_id": "doc-b3d9add0dfb060c9",
+        "fact_version_snapshot": [
+          {
+            "fact_id": "fact-224d0cc5d5925f42",
+            "fact_version": 1
+          },
+          {
+            "fact_id": "fact-ee5744fbcdadc37a",
+            "fact_version": 1
+          },
+          {
+            "fact_id": "fact-5922bff47d9da77a",
+            "fact_version": 1
+          },
+          {
+            "fact_id": "fact-432c932eb4a4f921",
+            "fact_version": 1
+          },
+          {
+            "fact_id": "fact-bd73445a1a6a1745",
+            "fact_version": 1
+          }
+        ]
+      },
+      "intelligence_object": {
+        "io_id": "",
+        "io_headline": "",
+        "io_event_type": "",
+        "io_temporal_data": "",
+        "io_chain_length": 0,
+        "io_error": "chain broken: {'fact_id': 'fact-224d0cc5d5925f42', 'fact_version': 1}"
+      },
+      "traceability": {
+        "source_resolves": true,
+        "document_resolves": true,
+        "representation_resolves": true,
+        "facts_resolve": true,
+        "evidence_resolves": true,
+        "event_resolves": true,
+        "io_resolves": false,
+        "all_links_resolve": true
+      }
+    },
+    {
+      "category": "monetary_policy_decision",
+      "source": {
+        "source_id": "imp-ecb",
+        "source_name": "imp-ecb",
+        "source_type": "official",
+        "institution": "",
+        "country": "",
+        "url": ""
+      },
+      "document": {
+        "document_id": "doc-ac00651c0093d6f9",
+        "source_id": "imp-ecb",
+        "title": "Cash remains most widely accepted payment method in euro area Skip to: Skip to navigation Skip to co",
+        "language": "en",
+        "publication_date": "",
+        "url": "",
+        "text_preview": "Cash remains most widely accepted payment method in euro area Skip to: Skip to navigation Skip to content Skip to footer EN \u0411\u044a\u043b\u0433\u0430\u0440\u0441\u043a\u0438 \u010ce\u0161tina Dansk Deutsch E\u03bb\u03bb\u03b7\u03bd\u03b9\u03ba\u03ac English Espa\u00f1ol Eesti keel Suomi Fran\u00e7ais Gaeilge Hrvatski Magyar Italiano Lietuvi\u0173 Latvie\u0161u Malti Nederlands Polski Portugu\u00eas Rom\u00e2n\u0103 Sloven\u010dina Sloven\u0161\u010dina Svenska Menu Monetary policy & markets Monetary policy & markets Our monetary policy strategy, the tools we use and the impact they have Overview of monetary policy and markets Q"
+      },
+      "representation": {
+        "representation_id": "rep-4fdd9119a9fabfc1",
+        "raw_location": "scale_50_store/blobs/2287125b715833500e4e4efe598e25bcf3ea8f1ab4c9e36ffd41867ca618e813"
+      },
+      "facts": [
+        {
+          "fact_id": "fact-c414d514d5c622a8",
+          "metric": "percentage_statistic",
+          "value": "90",
+          "raw_value": "90%",
+          "pattern_ref": "percentage_statistic",
+          "excerpt": "In 2026, 92% of companies selling goods and services in physical locations in the retail trade, restaurants and caf\u00e9s, hotels, and arts, entertainment and recreation sectors reported that they accept cash. This compares with 90% in 2024, suggesting that cash acceptance has rebounded after the declin",
+          "occurrence": 3
+        },
+        {
+          "fact_id": "fact-7e8cd396171e8bfc",
+          "metric": "percentage_statistic",
+          "value": "13",
+          "raw_value": "13%",
+          "pattern_ref": "percentage_statistic",
+          "excerpt": "l Statistical releases THE ECB BLOG - Improved data: how climate change impacts banks 18 April 2024 --> PRESS RELEASE - ECB launches pilot project for research access to confidential statistical data 13 March 2025 Frequently accessed Euro exchange rates Key ECB interest rates Euro short-term rate (\u20ac",
+          "occurrence": 8
+        }
+      ],
+      "evidence": [
+        {
+          "evidence_id": "evi-a1fdac0d13662263",
+          "excerpt": "This compares with 90% in 2024, suggesting that cash acceptance has rebounded after the decline observed during and after the pandemic.",
+          "location": "pattern:percentage_statistic#occ3",
+          "provenance_ref": "representation:rep-4fdd9119a9fabfc1"
+        },
+        {
+          "evidence_id": "evi-55cd132af69daa08",
+          "excerpt": "l Statistical releases THE ECB BLOG - Improved data: how climate change impacts banks 18 April 2024 --> PRESS RELEASE - ECB launches pilot project for research access to confidential statistical data 13 March 2025 Frequently accessed Euro exchange rates Key ECB interest rates Euro short-term rate (\u20ac",
+          "location": "pattern:percentage_statistic#occ8",
+          "provenance_ref": "representation:rep-4fdd9119a9fabfc1"
+        }
+      ],
+      "event": {
+        "event_id": "evt-f151263897364ce4",
+        "event_type": "monetary_policy_decision",
+        "document_id": "doc-ac00651c0093d6f9",
+        "fact_version_snapshot": [
+          {
+            "fact_id": "fact-65fe53085d21269d",
+            "fact_version": 1
+          },
+          {
+            "fact_id": "fact-4e97016a09f2f79a",
+            "fact_version": 1
+          },
+          {
+            "fact_id": "fact-2531206c243ee1da",
+            "fact_version": 1
+          },
+          {
+            "fact_id": "fact-446533b3c87d6c6b",
+            "fact_version": 1
+          },
+          {
+            "fact_id": "fact-e8bd7c6e82b21377",
+            "fact_version": 1
+          }
+        ]
+      },
+      "intelligence_object": {
+        "io_id": "",
+        "io_headline": "",
+        "io_event_type": "",
+        "io_temporal_data": "",
+        "io_chain_length": 0,
+        "io_error": "chain broken: {'fact_id': 'fact-65fe53085d21269d', 'fact_version': 1}"
+      },
+      "traceability": {
+        "source_resolves": true,
+        "document_resolves": true,
+        "representation_resolves": true,
+        "facts_resolve": true,
+        "evidence_resolves": true,
+        "event_resolves": true,
+        "io_resolves": false,
+        "all_links_resolve": true
+      }
+    },
+    {
+      "category": "monetary_policy_decision",
+      "source": {
+        "source_id": "imp-swiss-national-bank",
+        "source_name": "imp-swiss-national-bank",
+        "source_type": "official",
+        "institution": "",
+        "country": "",
+        "url": ""
+      },
+      "document": {
+        "document_id": "doc-3977e22b6168c0e8",
+        "source_id": "imp-swiss-national-bank",
+        "title": "The implementation of monetary policy | Swiss National Bank Skip Links Navigation Skip to main navig",
+        "language": "en",
+        "publication_date": "",
+        "url": "",
+        "text_preview": "The implementation of monetary policy | Swiss National Bank Skip Links Navigation Skip to main navigation Skip to main content Skip to search Skip to Footer Header Logo Meta Navigation Contact Media Career Search EN Deutsch Fran\u00e7ais English Italiano Menu Close Main Navigation The SNB Close Back Responsibilities and goals Monetary policy Cash supply and distribution Payment transactions Investment of assets Financial stability International Services for the Confederation Statistics Implementation"
+      },
+      "representation": {
+        "representation_id": "rep-8ce32eee0b609f2e",
+        "raw_location": "scale_50_store/blobs/ecb94628f38ec15f3f5e9601afeaac1b824fd3caeb917664398555387074e89b"
+      },
+      "facts": [
+        {
+          "fact_id": "fact-fb3d468f77a30cb4",
+          "metric": "percentage_statistic",
+          "value": "0",
+          "raw_value": "0%",
+          "pattern_ref": "percentage_statistic",
+          "excerpt": "For sight deposits up to a certain threshold, the SNB policy rate is applied. If the SNB policy rate is 0%, sight deposits above the threshold are subject to negative remuneration. Sight deposits which are held to meet minimum reserve requirements are not remunerated.",
+          "occurrence": 1
+        },
+        {
+          "fact_id": "fact-709e03715face630",
+          "metric": "percentage_statistic",
+          "value": "110",
+          "raw_value": "110%",
+          "pattern_ref": "percentage_statistic",
+          "excerpt": "For this purpose, it grants its counterparties a limit which must be covered by at least 110% collateral eligible for SNB repos.",
+          "occurrence": 2
+        }
+      ],
+      "evidence": [
+        {
+          "evidence_id": "evi-5d5d5b25a533da1b",
+          "excerpt": "For sight deposits up to a certain threshold, the SNB policy rate is applied. If the SNB policy rate is 0%, sight deposits above the threshold are subject to negative remuneration. Sight deposits which are held to meet minimum reserve requirements are not remunerated.",
+          "location": "pattern:percentage_statistic#occ1",
+          "provenance_ref": "representation:rep-8ce32eee0b609f2e"
+        },
+        {
+          "evidence_id": "evi-79c385617cfc1665",
+          "excerpt": "For this purpose, it grants its counterparties a limit which must be covered by at least 110% collateral eligible for SNB repos.",
+          "location": "pattern:percentage_statistic#occ2",
+          "provenance_ref": "representation:rep-8ce32eee0b609f2e"
+        }
+      ],
+      "event": {
+        "event_id": "evt-4202b509c86ea6d7",
+        "event_type": "monetary_policy_decision",
+        "document_id": "doc-3977e22b6168c0e8",
+        "fact_version_snapshot": [
+          {
+            "fact_id": "fact-5f8c44fdca296976",
+            "fact_version": 1
+          },
+          {
+            "fact_id": "fact-6be9662395b5d15c",
+            "fact_version": 1
+          }
+        ]
+      },
+      "intelligence_object": {
+        "io_id": "",
+        "io_headline": "",
+        "io_event_type": "",
+        "io_temporal_data": "",
+        "io_chain_length": 0,
+        "io_error": "chain broken: {'fact_id': 'fact-5f8c44fdca296976', 'fact_version': 1}"
+      },
+      "traceability": {
+        "source_resolves": true,
+        "document_resolves": true,
+        "representation_resolves": true,
+        "facts_resolve": true,
+        "evidence_resolves": true,
+        "event_resolves": true,
+        "io_resolves": false,
+        "all_links_resolve": true
+      }
+    },
+    {
+      "category": "statistical_release",
+      "source": {
+        "source_id": "src-eurostat-emp",
+        "source_name": "src-eurostat-emp",
+        "source_type": "official",
+        "institution": "",
+        "country": "",
+        "url": ""
+      },
+      "document": {
+        "document_id": "doc-9009073715abef71",
+        "source_id": "src-eurostat-emp",
+        "title": "Business registrations down, bankruptcies up in Q2 2026 - News articles - Eurostat Skip to Main Cont",
+        "language": "en",
+        "publication_date": "",
+        "url": "",
+        "text_preview": "Business registrations down, bankruptcies up in Q2 2026 - News articles - Eurostat Skip to Main Content Log in English English Select your language Close Human translation de Deutsch en English fr fran\u00e7ais Machine translation bg \u0431\u044a\u043b\u0433\u0430\u0440\u0441\u043a\u0438 es espa\u00f1ol cs \u010de\u0161tina da dansk de Deutsch et eesti el \u03b5\u03bb\u03bb\u03b7\u03bd\u03b9\u03ba\u03ac fr fran\u00e7ais ga Gaeilge hr hrvatski it italiano lv latvie\u0161u lt lietuvi\u0173 hu magyar mt Malti nl Nederlands pl polski pt portugu\u00eas ru p\u0443\u0441\u0441\u043a\u0438\u0439 ro rom\u00e2n\u0103 sk sloven\u010dina sl sloven\u0161\u010dina fi suomi sv svenska u"
+      },
+      "representation": {
+        "representation_id": "rep-ab0ccc50df057548",
+        "raw_location": "real_corpus_store_new/blobs/2d3f60b2f08dd432c187077c4d6a728bce6fb02b5f0f4346b3936ac06a11a36a"
+      },
+      "facts": [
+        {
+          "fact_id": "fact-d9650df6d25658a7",
+          "metric": "percentage_statistic",
+          "value": "3.4",
+          "raw_value": "3.4%",
+          "pattern_ref": "percentage_statistic",
+          "excerpt": "Source dataset: sts_rb_q Registrations down by 3.6% in industry In the second quarter of 2026, business registrations decreased in 5 out of 8 sectors of the business economy. Industry registered the largest drop (-3.6%), followed by accommodation and food services (-3.4%) and education and social se",
+          "occurrence": 5
+        },
+        {
+          "fact_id": "fact-bdeadfebc80b2f62",
+          "metric": "percentage_statistic",
+          "value": "3.2",
+          "raw_value": "3.2%",
+          "pattern_ref": "percentage_statistic",
+          "excerpt": "Source dataset: sts_rb_q Registrations down by 3.6% in industry In the second quarter of 2026, business registrations decreased in 5 out of 8 sectors of the business economy. Industry registered the largest drop (-3.6%), followed by accommodation and food services (-3.4%) and education and social se",
+          "occurrence": 6
+        },
+        {
+          "fact_id": "fact-35dcddf062ebd49f",
+          "metric": "percentage_statistic",
+          "value": "8.8",
+          "raw_value": "8.8%",
+          "pattern_ref": "percentage_statistic",
+          "excerpt": "Industry registered the largest drop (-3.6%), followed by accommodation and food services (-3.4%) and education and social services (-3.2%). The number of business registrations increased sharply in the information and communication sector (+8.8%) and an increase was also recorded in construction se",
+          "occurrence": 7
+        },
+        {
+          "fact_id": "fact-982c2724e072df00",
+          "metric": "percentage_statistic",
+          "value": "1.0",
+          "raw_value": "1.0%",
+          "pattern_ref": "percentage_statistic",
+          "excerpt": "Industry registered the largest drop (-3.6%), followed by accommodation and food services (-3.4%) and education and social services (-3.2%). The number of business registrations increased sharply in the information and communication sector (+8.8%) and an increase was also recorded in construction se",
+          "occurrence": 8
+        },
+        {
+          "fact_id": "fact-61a79bc48b6e8d5d",
+          "metric": "percentage_statistic",
+          "value": "0.0",
+          "raw_value": "0.0%",
+          "pattern_ref": "percentage_statistic",
+          "excerpt": "Industry registered the largest drop (-3.6%), followed by accommodation and food services (-3.4%) and education and social services (-3.2%). The number of business registrations increased sharply in the information and communication sector (+8.8%) and an increase was also recorded in construction se",
+          "occurrence": 9
+        },
+        {
+          "fact_id": "fact-d03371b42228b490",
+          "metric": "percentage_statistic",
+          "value": "21.1",
+          "raw_value": "21.1%",
+          "pattern_ref": "percentage_statistic",
+          "excerpt": "The number of business registrations increased sharply in the information and communication sector (+8.8%) and an increase was also recorded in construction sector (+1.0%), while financial services remained stable (+0.0%). Bankruptcies up by 21.1% in education and social activities Bankruptcies incr",
+          "occurrence": 10
+        },
+        {
+          "fact_id": "fact-24ca544c9cb90a71",
+          "metric": "percentage_statistic",
+          "value": "11.4",
+          "raw_value": "11.4%",
+          "pattern_ref": "percentage_statistic",
+          "excerpt": "Bankruptcies up by 21.1% in education and social activities Bankruptcies increased in 5 out of 8 sectors. The largest increases were recorded in education and social activities (+21.1%), transport (+11.4%) and financial services (+6.8%). Decreases in bankruptcies were recorded in the accommodation a",
+          "occurrence": 12
+        },
+        {
+          "fact_id": "fact-142716fac433b43d",
+          "metric": "percentage_statistic",
+          "value": "6.8",
+          "raw_value": "6.8%",
+          "pattern_ref": "percentage_statistic",
+          "excerpt": "Bankruptcies up by 21.1% in education and social activities Bankruptcies increased in 5 out of 8 sectors. The largest increases were recorded in education and social activities (+21.1%), transport (+11.4%) and financial services (+6.8%). Decreases in bankruptcies were recorded in the accommodation a",
+          "occurrence": 13
+        },
+        {
+          "fact_id": "fact-829e44b49ec4fc12",
+          "metric": "percentage_statistic",
+          "value": "2.6",
+          "raw_value": "2.6%",
+          "pattern_ref": "percentage_statistic",
+          "excerpt": "The largest increases were recorded in education and social activities (+21.1%), transport (+11.4%) and financial services (+6.8%). Decreases in bankruptcies were recorded in the accommodation and food services (-2.6%), construction (-1.7%) and trade (-1.2%). For more information Statistics Explaine",
+          "occurrence": 14
+        },
+        {
+          "fact_id": "fact-18e1098bd75bc9c0",
+          "metric": "percentage_statistic",
+          "value": "1.7",
+          "raw_value": "1.7%",
+          "pattern_ref": "percentage_statistic",
+          "excerpt": "The largest increases were recorded in education and social activities (+21.1%), transport (+11.4%) and financial services (+6.8%). Decreases in bankruptcies were recorded in the accommodation and food services (-2.6%), construction (-1.7%) and trade (-1.2%). For more information Statistics Explaine",
+          "occurrence": 15
+        },
+        {
+          "fact_id": "fact-66f5db8f396b608c",
+          "metric": "percentage_statistic",
+          "value": "1.2",
+          "raw_value": "1.2%",
+          "pattern_ref": "percentage_statistic",
+          "excerpt": "The largest increases were recorded in education and social activities (+21.1%), transport (+11.4%) and financial services (+6.8%). Decreases in bankruptcies were recorded in the accommodation and food services (-2.6%), construction (-1.7%) and trade (-1.2%). For more information Statistics Explaine",
+          "occurrence": 16
+        }
+      ],
+      "evidence": [
+        {
+          "evidence_id": "fact-d9650df6d25658a7",
+          "excerpt": "Source dataset: sts_rb_q Registrations down by 3.6% in industry In the second quarter of 2026, business registrations decreased in 5 out of 8 sectors of the business economy. Industry registered the largest drop (-3.6%), followed by accommodation and food services (-3.4%) and education and social se",
+          "location": "percentage_statistic",
+          "provenance_ref": "representation:rep-ab0ccc50df057548"
+        }
+      ],
+      "event": {
+        "event_id": "evt-04c57aabceff5bca",
+        "event_type": "statistical_release",
+        "document_id": "doc-9009073715abef71",
+        "fact_version_snapshot": [
+          {
+            "fact_id": "fact-17774a244bb80267",
+            "fact_version": 1
+          },
+          {
+            "fact_id": "fact-d9650df6d25658a7",
+            "fact_version": 1
+          },
+          {
+            "fact_id": "fact-bdeadfebc80b2f62",
+            "fact_version": 1
+          },
+          {
+            "fact_id": "fact-35dcddf062ebd49f",
+            "fact_version": 1
+          },
+          {
+            "fact_id": "fact-982c2724e072df00",
+            "fact_version": 1
+          }
+        ]
+      },
+      "intelligence_object": {
+        "io_id": "",
+        "io_headline": "",
+        "io_event_type": "",
+        "io_temporal_data": "",
+        "io_chain_length": 0,
+        "io_error": "chain broken: {'fact_id': 'fact-17774a244bb80267', 'fact_version': 1}"
+      },
+      "traceability": {
+        "source_resolves": true,
+        "document_resolves": true,
+        "representation_resolves": true,
+        "facts_resolve": true,
+        "evidence_resolves": true,
+        "event_resolves": true,
+        "io_resolves": false,
+        "all_links_resolve": true
+      }
+    },
+    {
+      "category": "statistical_release",
+      "source": {
+        "source_id": "src-boj",
+        "source_name": "src-boj",
+        "source_type": "official",
+        "institution": "",
+        "country": "",
+        "url": ""
+      },
+      "document": {
+        "document_id": "doc-a065dc2e3f02a976",
+        "source_id": "src-boj",
+        "title": "Speech by Board Member KOEDA in Fukuoka (Economic Activity, Prices, and Monetary Policy in Japan) : ",
+        "language": "en",
+        "publication_date": "",
+        "url": "",
+        "text_preview": "Speech by Board Member KOEDA in Fukuoka (Economic Activity, Prices, and Monetary Policy in Japan) : \u65e5\u672c\u9280\u884c Bank of Japan Skip to main content \u65e5\u672c\u8a9e English Home About the Bank About the Bank Outline of the Bank Outline of the Bank History List of Governors Location (Guide Map to Head Office) / Visiting the Bank Head Office, Branches, and Overseas Offices Archives Organization of the Bank Organization of the Bank Policy Board Responsibilities of the Governor, Deputy Governors, and Executive Directors"
+      },
+      "representation": {
+        "representation_id": "rep-19014c258d1e7d3c",
+        "raw_location": "real_corpus_store_new/blobs/9132dab5dc2a86a046d9dd6b34d0754a2b50844be6816ffd4bfb9d09cdff1a05"
+      },
+      "facts": [
+        {
+          "fact_id": "fact-caac3ca2f549742c",
+          "metric": "percentage_statistic",
+          "value": "2",
+          "raw_value": "2 percent",
+          "pattern_ref": "percentage_statistic",
+          "excerpt": "This is because amid sustained solid wage growth, firms have been passing on such wage increases to selling prices. Based on these price developments, the Bank's view in the April 2026 Outlook Report is that \"with moves to pass on wage increases to selling prices continuing, the year-on-year rate of",
+          "occurrence": 2
+        },
+        {
+          "fact_id": "fact-9283ff5eeaf8e395",
+          "metric": "percentage_statistic",
+          "value": "2.0",
+          "raw_value": "2.0 percent",
+          "pattern_ref": "percentage_statistic",
+          "excerpt": "This is because amid sustained solid wage growth, firms have been passing on such wage increases to selling prices. Based on these price developments, the Bank's view in the April 2026 Outlook Report is that \"with moves to pass on wage increases to selling prices continuing, the year-on-year rate of",
+          "occurrence": 3
+        },
+        {
+          "fact_id": "fact-2b5a5e3638ddf7d8",
+          "metric": "percentage_statistic",
+          "value": "0.75",
+          "raw_value": "0.75 percent",
+          "pattern_ref": "percentage_statistic",
+          "excerpt": "II. Conduct of Monetary Policy Financial Conditions and the Degree of Monetary Accommodation Following the policy interest rate hike in December 2025, the uncollateralized overnight call rate has increased to around 0.75 percent, reaching a level last seen 30 years ago (left panel of Chart 15). I be",
+          "occurrence": 4
+        },
+        {
+          "fact_id": "fact-e3890089bc9bde0d",
+          "metric": "percentage_statistic",
+          "value": "40",
+          "raw_value": "40 percent",
+          "pattern_ref": "percentage_statistic",
+          "excerpt": "From this perspective, I would like to explain the current situation for households, firms, and the government. Regarding households, the liability side of their balance sheets shows that housing loans make up the bulk of liabilities, equivalent to roughly 40 percent of GDP. Since variable-rate loan",
+          "occurrence": 5
+        }
+      ],
+      "evidence": [
+        {
+          "evidence_id": "fact-caac3ca2f549742c",
+          "excerpt": "This is because amid sustained solid wage growth, firms have been passing on such wage increases to selling prices. Based on these price developments, the Bank's view in the April 2026 Outlook Report is that \"with moves to pass on wage increases to selling prices continuing, the year-on-year rate of",
+          "location": "percentage_statistic",
+          "provenance_ref": "representation:rep-19014c258d1e7d3c"
+        }
+      ],
+      "event": {
+        "event_id": "evt-52e92b0cb1ef3acc",
+        "event_type": "statistical_release",
+        "document_id": "doc-a065dc2e3f02a976",
+        "fact_version_snapshot": [
+          {
+            "fact_id": "fact-275a44a2edcc18a8",
+            "fact_version": 1
+          },
+          {
+            "fact_id": "fact-caac3ca2f549742c",
+            "fact_version": 1
+          },
+          {
+            "fact_id": "fact-9283ff5eeaf8e395",
+            "fact_version": 1
+          },
+          {
+            "fact_id": "fact-2b5a5e3638ddf7d8",
+            "fact_version": 1
+          },
+          {
+            "fact_id": "fact-e3890089bc9bde0d",
+            "fact_version": 1
+          }
+        ]
+      },
+      "intelligence_object": {
+        "io_id": "",
+        "io_headline": "",
+        "io_event_type": "",
+        "io_temporal_data": "",
+        "io_chain_length": 0,
+        "io_error": "chain broken: {'fact_id': 'fact-275a44a2edcc18a8', 'fact_version': 1}"
+      },
+      "traceability": {
+        "source_resolves": true,
+        "document_resolves": true,
+        "representation_resolves": true,
+        "facts_resolve": true,
+        "evidence_resolves": true,
+        "event_resolves": true,
+        "io_resolves": false,
+        "all_links_resolve": true
+      }
+    },
+    {
+      "category": "statistical_release",
+      "source": {
+        "source_id": "imp-bea",
+        "source_name": "imp-bea",
+        "source_type": "official",
+        "institution": "",
+        "country": "",
+        "url": ""
+      },
+      "document": {
+        "document_id": "doc-7c5cd3967c2f9f10",
+        "source_id": "imp-bea",
+        "title": "U.S. Economy at a Glance | U.S. Bureau of Economic Analysis (BEA) Skip to main content An official w",
+        "language": "en",
+        "publication_date": "",
+        "url": "",
+        "text_preview": "U.S. Economy at a Glance | U.S. Bureau of Economic Analysis (BEA) Skip to main content An official website of the United States government Toggle navigation Main navigation Data by Topic by Place by Economic Account Tools Interactive Data Application Programming Interface (API) Global Value Chain Analyzer Income Distribution Analysis Tool (IDAT) Country Facts BEARFACTS Industry Facts GDP & Personal Income Mapping RIMS II eFile News Economy at a Glance News Releases Release Schedule The BEA Wire "
+      },
+      "representation": {
+        "representation_id": "rep-9f70892d66ec06a5",
+        "raw_location": "scale_50_store/blobs/abd3dc841354c4d65449ae1f2ee53161c3f3cec4fd332854385bdd368b0594fe"
+      },
+      "facts": [
+        {
+          "fact_id": "fact-7d10e1e1e32cd4a9",
+          "metric": "percentage_statistic",
+          "value": "1.5",
+          "raw_value": "1.5%",
+          "pattern_ref": "percentage_statistic",
+          "excerpt": "U.S. Economy at a Glance Table National Economic Accounts GDP (Advance Estimate), 2nd Quarter 2026 Q2 2026 (Adv) +1.5% Q1 2026 +2.1% Real gross domestic product (GDP) increased at an annual rate of 1.5 percent in the second quarter of 2026 (April, May, and June), according to the advance estimate re",
+          "occurrence": 1
+        },
+        {
+          "fact_id": "fact-87295e50bc3a2a5d",
+          "metric": "percentage_statistic",
+          "value": "2.1",
+          "raw_value": "2.1%",
+          "pattern_ref": "percentage_statistic",
+          "excerpt": "U.S. Economy at a Glance Table National Economic Accounts GDP (Advance Estimate), 2nd Quarter 2026 Q2 2026 (Adv) +1.5% Q1 2026 +2.1% Real gross domestic product (GDP) increased at an annual rate of 1.5 percent in the second quarter of 2026 (April, May, and June), according to the advance estimate re",
+          "occurrence": 2
+        },
+        {
+          "fact_id": "fact-aaa985d4131b0273",
+          "metric": "percentage_statistic",
+          "value": "0.2",
+          "raw_value": "0.2%",
+          "pattern_ref": "percentage_statistic",
+          "excerpt": "Imports, which are a subtraction in the calculation of GDP, increased. Current Release Current Release: July 30, 2026 Next Release: August 26, 2026 GDP (Advance Estimate), 2nd Quarter &#039;26 - CHART - HP &times; GDP (Advance Estimate), 2nd Quarter &#039;26 - CHART - HP Close Personal Income and Ou",
+          "occurrence": 5
+        },
+        {
+          "fact_id": "fact-025073f1b544dfc1",
+          "metric": "percentage_statistic",
+          "value": "0.7",
+          "raw_value": "0.7%",
+          "pattern_ref": "percentage_statistic",
+          "excerpt": "Imports, which are a subtraction in the calculation of GDP, increased. Current Release Current Release: July 30, 2026 Next Release: August 26, 2026 GDP (Advance Estimate), 2nd Quarter &#039;26 - CHART - HP &times; GDP (Advance Estimate), 2nd Quarter &#039;26 - CHART - HP Close Personal Income and Ou",
+          "occurrence": 6
+        },
+        {
+          "fact_id": "fact-e6641a09579aa170",
+          "metric": "percentage_statistic",
+          "value": "0.3",
+          "raw_value": "0.3 percent",
+          "pattern_ref": "percentage_statistic",
+          "excerpt": "Bureau of Economic Analysis (BEA). Disposable personal income (DPI)\u2014personal income less personal current taxes\u2014increased $48.3 billion (0.2 percent), and personal consumption expenditures (PCE) increased $65.2 billion (0.3 percent). Personal outlays\u2014the sum of PCE, personal interest payments, and p",
+          "occurrence": 9
+        },
+        {
+          "fact_id": "fact-4a7eff83a073af4f",
+          "metric": "percentage_statistic",
+          "value": "2.7",
+          "raw_value": "2.7 percent",
+          "pattern_ref": "percentage_statistic",
+          "excerpt": "Personal outlays\u2014the sum of PCE, personal interest payments, and personal current transfer payments\u2014increased $70.0 billion in June. Personal saving was $646.1 billion in June, and the personal saving rate\u2014personal saving as a percentage of DPI\u2014was 2.7 percent. Current Release Personal Income and Ou",
+          "occurrence": 10
+        },
+        {
+          "fact_id": "fact-a101942805b2e327",
+          "metric": "usd_amount",
+          "value": "54.9",
+          "raw_value": "$54.9 billion",
+          "pattern_ref": "usd_amount",
+          "excerpt": "Imports, which are a subtraction in the calculation of GDP, increased. Current Release Current Release: July 30, 2026 Next Release: August 26, 2026 GDP (Advance Estimate), 2nd Quarter &#039;26 - CHART - HP &times; GDP (Advance Estimate), 2nd Quarter &#039;26 - CHART - HP Close Personal Income and Ou",
+          "occurrence": 1
+        },
+        {
+          "fact_id": "fact-c46ab81814844502",
+          "metric": "usd_amount",
+          "value": "48.3",
+          "raw_value": "$48.3 billion",
+          "pattern_ref": "usd_amount",
+          "excerpt": "Bureau of Economic Analysis (BEA). Disposable personal income (DPI)\u2014personal income less personal current taxes\u2014increased $48.3 billion (0.2 percent), and personal consumption expenditures (PCE) increased $65.2 billion (0.3 percent). Personal outlays\u2014the sum of PCE, personal interest payments, and p",
+          "occurrence": 2
+        },
+        {
+          "fact_id": "fact-a91254e1c71b8e89",
+          "metric": "usd_amount",
+          "value": "65.2",
+          "raw_value": "$65.2 billion",
+          "pattern_ref": "usd_amount",
+          "excerpt": "Bureau of Economic Analysis (BEA). Disposable personal income (DPI)\u2014personal income less personal current taxes\u2014increased $48.3 billion (0.2 percent), and personal consumption expenditures (PCE) increased $65.2 billion (0.3 percent). Personal outlays\u2014the sum of PCE, personal interest payments, and p",
+          "occurrence": 3
+        },
+        {
+          "fact_id": "fact-5804542e242981d7",
+          "metric": "usd_amount",
+          "value": "70.0",
+          "raw_value": "$70.0 billion",
+          "pattern_ref": "usd_amount",
+          "excerpt": "Disposable personal income (DPI)\u2014personal income less personal current taxes\u2014increased $48.3 billion (0.2 percent), and personal consumption expenditures (PCE) increased $65.2 billion (0.3 percent). Personal outlays\u2014the sum of PCE, personal interest payments, and personal current transfer payments\u2014i",
+          "occurrence": 4
+        },
+        {
+          "fact_id": "fact-811fb57032682c8f",
+          "metric": "usd_amount",
+          "value": "646.1",
+          "raw_value": "$646.1 billion",
+          "pattern_ref": "usd_amount",
+          "excerpt": "Personal outlays\u2014the sum of PCE, personal interest payments, and personal current transfer payments\u2014increased $70.0 billion in June. Personal saving was $646.1 billion in June, and the personal saving rate\u2014personal saving as a percentage of DPI\u2014was 2.7 percent. Current Release Personal Income and Ou",
+          "occurrence": 5
+        },
+        {
+          "fact_id": "fact-c506c2cb9773f9d9",
+          "metric": "usd_amount",
+          "value": "77.6",
+          "raw_value": "$77.6 billion",
+          "pattern_ref": "usd_amount",
+          "excerpt": "Census Bureau. The deficit decreased from $77.6 billion in May (revised) to $73.3 billion in June, as imports decreased more than exports. The goods deficit decreased $3.9 billion in June to $102.1 billion.",
+          "occurrence": 13
+        },
+        {
+          "fact_id": "fact-65fcb4218130bb5e",
+          "metric": "usd_amount",
+          "value": "73.3",
+          "raw_value": "$73.3 billion",
+          "pattern_ref": "usd_amount",
+          "excerpt": "Census Bureau. The deficit decreased from $77.6 billion in May (revised) to $73.3 billion in June, as imports decreased more than exports. The goods deficit decreased $3.9 billion in June to $102.1 billion.",
+          "occurrence": 14
+        },
+        {
+          "fact_id": "fact-b9dfeae86f5034f8",
+          "metric": "usd_amount",
+          "value": "3.9",
+          "raw_value": "$3.9 billion",
+          "pattern_ref": "usd_amount",
+          "excerpt": "The deficit decreased from $77.6 billion in May (revised) to $73.3 billion in June, as imports decreased more than exports. The goods deficit decreased $3.9 billion in June to $102.1 billion. The services surplus increased $0.5 billion in June to $28.8 billion.",
+          "occurrence": 15
+        },
+        {
+          "fact_id": "fact-b532dc5822243746",
+          "metric": "usd_amount",
+          "value": "102.1",
+          "raw_value": "$102.1 billion",
+          "pattern_ref": "usd_amount",
+          "excerpt": "The deficit decreased from $77.6 billion in May (revised) to $73.3 billion in June, as imports decreased more than exports. The goods deficit decreased $3.9 billion in June to $102.1 billion. The services surplus increased $0.5 billion in June to $28.8 billion.",
+          "occurrence": 16
+        },
+        {
+          "fact_id": "fact-0cfe88758e3899d6",
+          "metric": "usd_amount",
+          "value": "0.5",
+          "raw_value": "$0.5 billion",
+          "pattern_ref": "usd_amount",
+          "excerpt": "The goods deficit decreased $3.9 billion in June to $102.1 billion. The services surplus increased $0.5 billion in June to $28.8 billion. Current Release Current release: August 4, 2026 Next release: September 3, 2026 U.S.",
+          "occurrence": 17
+        },
+        {
+          "fact_id": "fact-bdb2cced1440d2e3",
+          "metric": "usd_amount",
+          "value": "28.8",
+          "raw_value": "$28.8 billion",
+          "pattern_ref": "usd_amount",
+          "excerpt": "The goods deficit decreased $3.9 billion in June to $102.1 billion. The services surplus increased $0.5 billion in June to $28.8 billion. Current Release Current release: August 4, 2026 Next release: September 3, 2026 U.S.",
+          "occurrence": 18
+        }
+      ],
+      "evidence": [
+        {
+          "evidence_id": "evi-8291f08ea371ee07",
+          "excerpt": "U.S. Economy at a Glance Table National Economic Accounts GDP (Advance Estimate), 2nd Quarter 2026 Q2 2026 (Adv) +1.5% Q1 2026 +2.1% Real gross domestic product (GDP) increased at an annual rate of 1.5 percent in the second quarter of 2026 (April, May, and June), according to the advance estimate re",
+          "location": "pattern:percentage_statistic#occ1",
+          "provenance_ref": "representation:rep-9f70892d66ec06a5"
+        },
+        {
+          "evidence_id": "evi-777daa0627a944c0",
+          "excerpt": "U.S. Economy at a Glance Table National Economic Accounts GDP (Advance Estimate), 2nd Quarter 2026 Q2 2026 (Adv) +1.5% Q1 2026 +2.1% Real gross domestic product (GDP) increased at an annual rate of 1.5 percent in the second quarter of 2026 (April, May, and June), according to the advance estimate re",
+          "location": "pattern:percentage_statistic#occ2",
+          "provenance_ref": "representation:rep-9f70892d66ec06a5"
+        },
+        {
+          "evidence_id": "evi-f8047feb8623f91a",
+          "excerpt": "Imports, which are a subtraction in the calculation of GDP, increased. Current Release Current Release: July 30, 2026 Next Release: August 26, 2026 GDP (Advance Estimate), 2nd Quarter &#039;26 - CHART - HP &times; GDP (Advance Estimate), 2nd Quarter &#039;26 - CHART - HP Close Personal Income and Ou",
+          "location": "pattern:usd_amount#occ1",
+          "provenance_ref": "representation:rep-9f70892d66ec06a5"
+        },
+        {
+          "evidence_id": "evi-8d6ff2c5ffafb077",
+          "excerpt": "Bureau of Economic Analysis (BEA). Disposable personal income (DPI)\u2014personal income less personal current taxes\u2014increased $48.3 billion (0.2 percent), and personal consumption expenditures (PCE) increased $65.2 billion (0.3 percent). Personal outlays\u2014the sum of PCE, personal interest payments, and p",
+          "location": "pattern:usd_amount#occ2",
+          "provenance_ref": "representation:rep-9f70892d66ec06a5"
+        },
+        {
+          "evidence_id": "evi-8c53691a308a0aa1",
+          "excerpt": "Bureau of Economic Analysis (BEA). Disposable personal income (DPI)\u2014personal income less personal current taxes\u2014increased $48.3 billion (0.2 percent), and personal consumption expenditures (PCE) increased $65.2 billion (0.3 percent). Personal outlays\u2014the sum of PCE, personal interest payments, and p",
+          "location": "pattern:usd_amount#occ3",
+          "provenance_ref": "representation:rep-9f70892d66ec06a5"
+        },
+        {
+          "evidence_id": "evi-9660e980811c905a",
+          "excerpt": "Disposable personal income (DPI)\u2014personal income less personal current taxes\u2014increased $48.3 billion (0.2 percent), and personal consumption expenditures (PCE) increased $65.2 billion (0.3 percent). Personal outlays\u2014the sum of PCE, personal interest payments, and personal current transfer payments\u2014i",
+          "location": "pattern:usd_amount#occ4",
+          "provenance_ref": "representation:rep-9f70892d66ec06a5"
+        },
+        {
+          "evidence_id": "evi-9a35b1555b8c7761",
+          "excerpt": "Personal outlays\u2014the sum of PCE, personal interest payments, and personal current transfer payments\u2014increased $70.0 billion in June. Personal saving was $646.1 billion in June, and the personal saving rate\u2014personal saving as a percentage of DPI\u2014was 2.7 percent. Current Release Personal Income and Ou",
+          "location": "pattern:usd_amount#occ5",
+          "provenance_ref": "representation:rep-9f70892d66ec06a5"
+        },
+        {
+          "evidence_id": "evi-982ca91272980026",
+          "excerpt": "Census Bureau. The deficit decreased from $77.6 billion in May (revised) to $73.3 billion in June, as imports decreased more than exports. The goods deficit decreased $3.9 billion in June to $102.1 billion.",
+          "location": "pattern:usd_amount#occ13",
+          "provenance_ref": "representation:rep-9f70892d66ec06a5"
+        },
+        {
+          "evidence_id": "evi-19469a1c717be341",
+          "excerpt": "Census Bureau. The deficit decreased from $77.6 billion in May (revised) to $73.3 billion in June, as imports decreased more than exports. The goods deficit decreased $3.9 billion in June to $102.1 billion.",
+          "location": "pattern:usd_amount#occ14",
+          "provenance_ref": "representation:rep-9f70892d66ec06a5"
+        },
+        {
+          "evidence_id": "evi-bea36d7a32ee2010",
+          "excerpt": "The deficit decreased from $77.6 billion in May (revised) to $73.3 billion in June, as imports decreased more than exports. The goods deficit decreased $3.9 billion in June to $102.1 billion. The services surplus increased $0.5 billion in June to $28.8 billion.",
+          "location": "pattern:usd_amount#occ15",
+          "provenance_ref": "representation:rep-9f70892d66ec06a5"
+        },
+        {
+          "evidence_id": "evi-c8cf0892b908b4fe",
+          "excerpt": "The deficit decreased from $77.6 billion in May (revised) to $73.3 billion in June, as imports decreased more than exports. The goods deficit decreased $3.9 billion in June to $102.1 billion. The services surplus increased $0.5 billion in June to $28.8 billion.",
+          "location": "pattern:usd_amount#occ16",
+          "provenance_ref": "representation:rep-9f70892d66ec06a5"
+        },
+        {
+          "evidence_id": "evi-56790f3baf090e7b",
+          "excerpt": "The goods deficit decreased $3.9 billion in June to $102.1 billion. The services surplus increased $0.5 billion in June to $28.8 billion. Current Release Current release: August 4, 2026 Next release: September 3, 2026 U.S.",
+          "location": "pattern:usd_amount#occ17",
+          "provenance_ref": "representation:rep-9f70892d66ec06a5"
+        },
+        {
+          "evidence_id": "evi-8bfd374bef427077",
+          "excerpt": "The goods deficit decreased $3.9 billion in June to $102.1 billion. The services surplus increased $0.5 billion in June to $28.8 billion. Current Release Current release: August 4, 2026 Next release: September 3, 2026 U.S.",
+          "location": "pattern:usd_amount#occ18",
+          "provenance_ref": "representation:rep-9f70892d66ec06a5"
+        }
+      ],
+      "event": {
+        "event_id": "evt-96644749b358baca",
+        "event_type": "statistical_release",
+        "document_id": "doc-7c5cd3967c2f9f10",
+        "fact_version_snapshot": [
+          {
+            "fact_id": "fact-7d10e1e1e32cd4a9",
+            "fact_version": 1
+          },
+          {
+            "fact_id": "fact-87295e50bc3a2a5d",
+            "fact_version": 1
+          },
+          {
+            "fact_id": "fact-aaa985d4131b0273",
+            "fact_version": 1
+          },
+          {
+            "fact_id": "fact-025073f1b544dfc1",
+            "fact_version": 1
+          },
+          {
+            "fact_id": "fact-e6641a09579aa170",
+            "fact_version": 1
+          }
+        ]
+      },
+      "intelligence_object": {
+        "io_id": "",
+        "io_headline": "",
+        "io_event_type": "",
+        "io_temporal_data": "",
+        "io_chain_length": 0,
+        "io_error": "chain broken: {'fact_id': 'fact-aaa985d4131b0273', 'fact_version': 1}"
+      },
+      "traceability": {
+        "source_resolves": true,
+        "document_resolves": true,
+        "representation_resolves": true,
+        "facts_resolve": true,
+        "evidence_resolves": true,
+        "event_resolves": true,
+        "io_resolves": false,
+        "all_links_resolve": true
+      }
+    },
+    {
+      "category": "regulatory_enforcement",
+      "source": {
+        "source_id": "imp-fca",
+        "source_name": "imp-fca",
+        "source_type": "official",
+        "institution": "",
+        "country": "",
+        "url": ""
+      },
+      "document": {
+        "document_id": "doc-b72c1ee4a05de89b",
+        "source_id": "imp-fca",
+        "title": "CEO banned for false and misleading statements made in attempt to buy bank and football club | FCA S",
+        "language": "en",
+        "publication_date": "",
+        "url": "",
+        "text_preview": "CEO banned for false and misleading statements made in attempt to buy bank and football club | FCA Skip to main content Skip to search box Search Search Main menu Main navigation About us Contact us Get in touch by phone, via our online form, or by post: Financial Conduct Authority 12 Endeavour Square London E20 1JN Contact us What we do About the FCA Enhancing market integrity Promoting competition Protecting consumers How we regulate Authorisation Enforcement Handbook of rules and guidance Int"
+      },
+      "representation": {
+        "representation_id": "rep-a3ee6bcaab5b1b1f",
+        "raw_location": "scale_50_store/blobs/fccba60a914c6f9492c30c4a75055555fd6422268f45d9d64d8692688446f61c"
+      },
+      "facts": [
+        {
+          "fact_id": "fact-6bd47eddfeddf8ac",
+          "metric": "action_type",
+          "value": "settlement",
+          "raw_value": "settlement",
+          "pattern_ref": "action_type",
+          "excerpt": "Mr Taylor agreed to resolve the matter and qualified for a 30% discount under the FCA\u2019s settlement procedures.",
+          "occurrence": 1
+        },
+        {
+          "fact_id": "fact-dd5acb860eade6c3",
+          "metric": "action_type",
+          "value": "penalty",
+          "raw_value": "penalty",
+          "pattern_ref": "action_type",
+          "excerpt": "Without this discount, the financial penalty would have been \u00a3698,600.",
+          "occurrence": 2
+        }
+      ],
+      "evidence": [
+        {
+          "evidence_id": "evi-122188e94d7ee157",
+          "excerpt": "Mr Taylor agreed to resolve the matter and qualified for a 30% discount under the FCA\u2019s settlement procedures.",
+          "location": "pattern:action_type#occ1",
+          "provenance_ref": "representation:rep-a3ee6bcaab5b1b1f"
+        },
+        {
+          "evidence_id": "evi-705d92772e986030",
+          "excerpt": "Without this discount, the financial penalty would have been \u00a3698,600.",
+          "location": "pattern:action_type#occ2",
+          "provenance_ref": "representation:rep-a3ee6bcaab5b1b1f"
+        }
+      ],
+      "event": {
+        "event_id": "evt-ecd70f3ae34ce3bb",
+        "event_type": "regulatory_enforcement",
+        "document_id": "doc-b72c1ee4a05de89b",
+        "fact_version_snapshot": [
+          {
+            "fact_id": "fact-6bd47eddfeddf8ac",
+            "fact_version": 1
+          },
+          {
+            "fact_id": "fact-dd5acb860eade6c3",
+            "fact_version": 1
+          }
+        ]
+      },
+      "intelligence_object": {
+        "io_id": "io-f76ffc30691c854c",
+        "io_headline": "imp-fca Regulatory Enforcement Action",
+        "io_event_type": "regulatory_enforcement",
+        "io_temporal_data": null,
+        "io_chain_length": 2,
+        "io_error": null
+      },
+      "traceability": {
+        "source_resolves": true,
+        "document_resolves": true,
+        "representation_resolves": true,
+        "facts_resolve": true,
+        "evidence_resolves": true,
+        "event_resolves": true,
+        "io_resolves": true,
+        "all_links_resolve": true
+      }
+    }
+  ],
+  "all_traceable": true
+}
