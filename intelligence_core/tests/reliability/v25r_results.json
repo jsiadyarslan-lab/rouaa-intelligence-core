@@ -1,0 +1,34 @@
+{
+  "v25r_measurement": {
+    "fact_tp": 251,
+    "fact_fp": 25,
+    "fact_fn": 1361,
+    "fact_precision": 90.94,
+    "fact_recall": 15.57,
+    "fact_invariant_holds": true,
+    "event_tp": 35,
+    "event_fp": 2,
+    "event_fn": 173,
+    "event_precision": 94.59,
+    "event_recall": 16.83,
+    "event_invariant_holds": true
+  },
+  "table_statistics": {
+    "tables_parsed": 99,
+    "filter_total": 111,
+    "filter_nav": 3,
+    "filter_ad": 0,
+    "filter_layout": 9,
+    "filter_kept": 99,
+    "table_facts_emitted": 342,
+    "table_rows": 3360,
+    "table_cells": 6090,
+    "PARAGRAPH": 574,
+    "TABLE": 244
+  },
+  "deltas_vs_v24r": {
+    "fact_recall_delta_pp": 0.0,
+    "event_recall_delta_pp": -0.0,
+    "new_tps_from_tables": 0
+  }
+}
