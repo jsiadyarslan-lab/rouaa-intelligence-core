@@ -624,16 +624,23 @@ def resolve_subject(
     publishers = [c for c in categorized if c["relationship"] == REL_PUBLISHER]
     mentioned = [c for c in categorized if c["relationship"] == REL_MENTIONED_ENTITY]
 
-    # V48R §7 — ONTOLOGY SEPARATION:
-    # Only ENTITY-registry candidates can become subject_entity CONFIRMED.
-    # CONCEPT/INDICATOR/INSTRUMENT/REGULATION/MARKET candidates are NOT
-    # entities — they go into separate fields on SubjectEntityV1.
+    # V48R §7 + V48T-R §2/§4 — ONTOLOGY SEPARATION:
+    # Only ENTITY-registry candidates with EVENT_SUBJECT relationship can
+    # become subject_entity CONFIRMED.
+    #
+    # V48T-R FIX: CONCEPT/INDICATOR/INSTRUMENT/REGULATION/MARKET candidates
+    # are captured from ALL categorized candidates — NOT just event_subjects.
+    # A candidate's subject role (concept/indicator/instrument) is
+    # independent of its relationship classification. "GDP increased" has
+    # no action verb → relationship=MENTIONED_ENTITY, but GDP is STILL the
+    # subject indicator. The old code only filled separate fields from
+    # event_subjects, which caused 3/5 mandatory cases to fail.
     entity_event_subjects = [c for c in event_subjects if c.get("registry_type") == "ENTITY"]
-    concept_candidates = [c for c in event_subjects if c.get("registry_type") == "CONCEPT"]
-    indicator_candidates = [c for c in event_subjects if c.get("registry_type") == "INDICATOR"]
-    instrument_candidates = [c for c in event_subjects if c.get("registry_type") == "INSTRUMENT"]
-    regulation_candidates = [c for c in event_subjects if c.get("registry_type") == "REGULATION"]
-    market_candidates = [c for c in event_subjects if c.get("registry_type") == "MARKET"]
+    concept_candidates = [c for c in categorized if c.get("registry_type") == "CONCEPT"]
+    indicator_candidates = [c for c in categorized if c.get("registry_type") == "INDICATOR"]
+    instrument_candidates = [c for c in categorized if c.get("registry_type") == "INSTRUMENT"]
+    regulation_candidates = [c for c in categorized if c.get("registry_type") == "REGULATION"]
+    market_candidates = [c for c in categorized if c.get("registry_type") == "MARKET"]
 
     # Helper to build separate-field dicts
     def _sep_field(cands):
@@ -642,6 +649,17 @@ def resolve_subject(
         chosen = cands[0]
         return (chosen["canonical_name"], "CONFIRMED")
 
+    # V48T-R §4 — FORMAL MAPPING (documented, not implicit):
+    #   CONCEPT → subject_concept (policy concepts: Monetary Policy, Fiscal Policy)
+    #   REGULATION → subject_concept (regulatory concepts: Enforcement Action, Penalty)
+    #     [REGULATION is captured in subject_concept because regulatory concepts ARE
+    #      policy concepts — enforcement actions and penalties are types of policy
+    #      actions. This mapping is EXPLICIT and DOCUMENTED.]
+    #   INDICATOR → subject_indicator (macro indicators: GDP, CPI, Inflation)
+    #   INSTRUMENT → subject_instrument (financial instruments: Policy Rate, Bonds)
+    #   MARKET → subject_instrument (market segments: Foreign Exchange)
+    #     [MARKET is captured in subject_instrument because markets are financial
+    #      instruments/instruments of policy. This mapping is EXPLICIT and DOCUMENTED.]
     subject_concept, subject_concept_status = _sep_field(concept_candidates + regulation_candidates)
     subject_indicator, subject_indicator_status = _sep_field(indicator_candidates)
     subject_instrument, subject_instrument_status = _sep_field(instrument_candidates + market_candidates)

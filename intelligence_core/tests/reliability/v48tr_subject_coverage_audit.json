@@ -1,0 +1,3029 @@
+{
+  "phase": "V48T-R SUBJECT COVERAGE AUDIT",
+  "executed_at_utc": "2026-08-20T22:04:36Z",
+  "blocked_classification": {
+    "NO_LOCAL_SUBJECT_SIGNAL": 248,
+    "INSUFFICIENT_STRUCTURAL_CONTEXT": 7,
+    "NO_REGISTERED_MATCH": 14,
+    "NOT_BLOCKED": 102
+  },
+  "blocked_per_io": [
+    {
+      "io_id": "io-0a2164dff20884fa",
+      "classification": "NO_LOCAL_SUBJECT_SIGNAL"
+    },
+    {
+      "io_id": "io-74b51eefd13974d9",
+      "classification": "NO_LOCAL_SUBJECT_SIGNAL"
+    },
+    {
+      "io_id": "io-bd378fea8d59bb17",
+      "classification": "NO_LOCAL_SUBJECT_SIGNAL"
+    },
+    {
+      "io_id": "io-cb08d31a4e009be2",
+      "classification": "INSUFFICIENT_STRUCTURAL_CONTEXT"
+    },
+    {
+      "io_id": "io-b37f6c9f4f5b4a8a",
+      "classification": "NO_REGISTERED_MATCH"
+    },
+    {
+      "io_id": "io-ee8a8257ce0e86ba",
+      "classification": "NO_LOCAL_SUBJECT_SIGNAL"
+    },
+    {
+      "io_id": "io-b6abac1393987508",
+      "classification": "NO_LOCAL_SUBJECT_SIGNAL"
+    },
+    {
+      "io_id": "io-5150003cff76e0ab",
+      "classification": "NO_LOCAL_SUBJECT_SIGNAL"
+    },
+    {
+      "io_id": "io-eb4ea7a98e0e81d3",
+      "classification": "NO_LOCAL_SUBJECT_SIGNAL"
+    },
+    {
+      "io_id": "io-e1c8fef2c0eb8d6e",
+      "classification": "NO_LOCAL_SUBJECT_SIGNAL"
+    },
+    {
+      "io_id": "io-cba6421b7b401b5d",
+      "classification": "NO_LOCAL_SUBJECT_SIGNAL"
+    },
+    {
+      "io_id": "io-81354940d43ef28d",
+      "classification": "NO_LOCAL_SUBJECT_SIGNAL"
+    },
+    {
+      "io_id": "io-005045dcc6e7f54f",
+      "classification": "NO_LOCAL_SUBJECT_SIGNAL"
+    },
+    {
+      "io_id": "io-fe0ecf5fbcc92531",
+      "classification": "NO_LOCAL_SUBJECT_SIGNAL"
+    },
+    {
+      "io_id": "io-c6c8ac878a439394",
+      "classification": "NO_REGISTERED_MATCH"
+    },
+    {
+      "io_id": "io-0da4c931b2a04e1a",
+      "classification": "NO_LOCAL_SUBJECT_SIGNAL"
+    },
+    {
+      "io_id": "io-3397bcfeb16c1522",
+      "classification": "NO_LOCAL_SUBJECT_SIGNAL"
+    },
+    {
+      "io_id": "io-7a2ef7f9417df7ab",
+      "classification": "NO_LOCAL_SUBJECT_SIGNAL"
+    },
+    {
+      "io_id": "io-275f353119648d3f",
+      "classification": "NO_LOCAL_SUBJECT_SIGNAL"
+    },
+    {
+      "io_id": "io-e65a9b3a70a171e4",
+      "classification": "NO_LOCAL_SUBJECT_SIGNAL"
+    },
+    {
+      "io_id": "io-55da9e9be0359c67",
+      "classification": "NO_LOCAL_SUBJECT_SIGNAL"
+    },
+    {
+      "io_id": "io-510e7472d7e96491",
+      "classification": "NO_LOCAL_SUBJECT_SIGNAL"
+    },
+    {
+      "io_id": "io-73d389d84d737535",
+      "classification": "NO_LOCAL_SUBJECT_SIGNAL"
+    },
+    {
+      "io_id": "io-e634047f1888f551",
+      "classification": "NO_LOCAL_SUBJECT_SIGNAL"
+    },
+    {
+      "io_id": "io-617804e0b8d7b49a",
+      "classification": "NO_LOCAL_SUBJECT_SIGNAL"
+    },
+    {
+      "io_id": "io-db1df3ae20d1206f",
+      "classification": "NO_LOCAL_SUBJECT_SIGNAL"
+    },
+    {
+      "io_id": "io-9085ed58996e2289",
+      "classification": "NO_LOCAL_SUBJECT_SIGNAL"
+    },
+    {
+      "io_id": "io-cb958bd7f073a0e5",
+      "classification": "NO_LOCAL_SUBJECT_SIGNAL"
+    },
+    {
+      "io_id": "io-7f38d631fa2bac6c",
+      "classification": "NO_REGISTERED_MATCH"
+    },
+    {
+      "io_id": "io-26e1d815a8b085ef",
+      "classification": "NO_LOCAL_SUBJECT_SIGNAL"
+    },
+    {
+      "io_id": "io-f063cf718f1f80c9",
+      "classification": "NO_LOCAL_SUBJECT_SIGNAL"
+    },
+    {
+      "io_id": "io-79363a3ecdfd380d",
+      "classification": "NO_LOCAL_SUBJECT_SIGNAL"
+    },
+    {
+      "io_id": "io-fed5152098fc89e0",
+      "classification": "NO_LOCAL_SUBJECT_SIGNAL"
+    },
+    {
+      "io_id": "io-49023e5505d7f6b7",
+      "classification": "NO_REGISTERED_MATCH"
+    },
+    {
+      "io_id": "io-09189d018d2081b4",
+      "classification": "NO_LOCAL_SUBJECT_SIGNAL"
+    },
+    {
+      "io_id": "io-ef612fb643faa8e7",
+      "classification": "NO_LOCAL_SUBJECT_SIGNAL"
+    },
+    {
+      "io_id": "io-9304252516f5b4a0",
+      "classification": "NO_LOCAL_SUBJECT_SIGNAL"
+    },
+    {
+      "io_id": "io-1f4d5c586252da53",
+      "classification": "NO_LOCAL_SUBJECT_SIGNAL"
+    },
+    {
+      "io_id": "io-0873c447e9b9733c",
+      "classification": "NO_LOCAL_SUBJECT_SIGNAL"
+    },
+    {
+      "io_id": "io-ca43d858fe433433",
+      "classification": "NO_LOCAL_SUBJECT_SIGNAL"
+    },
+    {
+      "io_id": "io-46af572e483b8e1e",
+      "classification": "NO_REGISTERED_MATCH"
+    },
+    {
+      "io_id": "io-39cfc3b482bba190",
+      "classification": "NO_LOCAL_SUBJECT_SIGNAL"
+    },
+    {
+      "io_id": "io-7e619d8c238339cc",
+      "classification": "NO_LOCAL_SUBJECT_SIGNAL"
+    },
+    {
+      "io_id": "io-d4c7af5cba135595",
+      "classification": "NO_LOCAL_SUBJECT_SIGNAL"
+    },
+    {
+      "io_id": "io-a91d6a0346aee839",
+      "classification": "NO_LOCAL_SUBJECT_SIGNAL"
+    },
+    {
+      "io_id": "io-85d554717dd412d4",
+      "classification": "NO_LOCAL_SUBJECT_SIGNAL"
+    },
+    {
+      "io_id": "io-f98cf957f003e03c",
+      "classification": "NO_LOCAL_SUBJECT_SIGNAL"
+    },
+    {
+      "io_id": "io-454f87f528df1d85",
+      "classification": "NO_LOCAL_SUBJECT_SIGNAL"
+    },
+    {
+      "io_id": "io-4534afa35d995d2a",
+      "classification": "NO_REGISTERED_MATCH"
+    },
+    {
+      "io_id": "io-81e9f63edfc4dfc8",
+      "classification": "NO_LOCAL_SUBJECT_SIGNAL"
+    },
+    {
+      "io_id": "io-caa59d527e57d75a",
+      "classification": "NO_LOCAL_SUBJECT_SIGNAL"
+    },
+    {
+      "io_id": "io-35ce3669e1ba2204",
+      "classification": "NO_LOCAL_SUBJECT_SIGNAL"
+    },
+    {
+      "io_id": "io-6f3c2fefc3cb4539",
+      "classification": "NO_LOCAL_SUBJECT_SIGNAL"
+    },
+    {
+      "io_id": "io-27fa098c05119c6a",
+      "classification": "NO_LOCAL_SUBJECT_SIGNAL"
+    },
+    {
+      "io_id": "io-a2116b35e27f37d7",
+      "classification": "NO_LOCAL_SUBJECT_SIGNAL"
+    },
+    {
+      "io_id": "io-08f1d21d05752c7c",
+      "classification": "NO_LOCAL_SUBJECT_SIGNAL"
+    },
+    {
+      "io_id": "io-2cfc6ee7be93a15c",
+      "classification": "NO_LOCAL_SUBJECT_SIGNAL"
+    },
+    {
+      "io_id": "io-cb962de2e620b830",
+      "classification": "NO_LOCAL_SUBJECT_SIGNAL"
+    },
+    {
+      "io_id": "io-cdee3122804c8504",
+      "classification": "NO_LOCAL_SUBJECT_SIGNAL"
+    },
+    {
+      "io_id": "io-8cbab75ca28530b1",
+      "classification": "NO_LOCAL_SUBJECT_SIGNAL"
+    },
+    {
+      "io_id": "io-86d76b3772c06bf3",
+      "classification": "NO_REGISTERED_MATCH"
+    },
+    {
+      "io_id": "io-ac6683eb8aeed7a0",
+      "classification": "NO_LOCAL_SUBJECT_SIGNAL"
+    },
+    {
+      "io_id": "io-43d4e65609c4843a",
+      "classification": "NO_LOCAL_SUBJECT_SIGNAL"
+    },
+    {
+      "io_id": "io-3f559e4bb635f765",
+      "classification": "NO_REGISTERED_MATCH"
+    },
+    {
+      "io_id": "io-8df8d9c3d28dabb5",
+      "classification": "NO_LOCAL_SUBJECT_SIGNAL"
+    },
+    {
+      "io_id": "io-99ae26de15fc4f2d",
+      "classification": "NO_LOCAL_SUBJECT_SIGNAL"
+    },
+    {
+      "io_id": "io-f504d6ea1185c997",
+      "classification": "NO_LOCAL_SUBJECT_SIGNAL"
+    },
+    {
+      "io_id": "io-e44a4cf1a4722ef1",
+      "classification": "NO_LOCAL_SUBJECT_SIGNAL"
+    },
+    {
+      "io_id": "io-524f97f1beb08db3",
+      "classification": "NO_LOCAL_SUBJECT_SIGNAL"
+    },
+    {
+      "io_id": "io-417510bd2789c65c",
+      "classification": "NO_LOCAL_SUBJECT_SIGNAL"
+    },
+    {
+      "io_id": "io-f19e78b84a1f08f5",
+      "classification": "NO_LOCAL_SUBJECT_SIGNAL"
+    },
+    {
+      "io_id": "io-a713e503e7f1fb43",
+      "classification": "NO_LOCAL_SUBJECT_SIGNAL"
+    },
+    {
+      "io_id": "io-861c967d632a9aae",
+      "classification": "NO_LOCAL_SUBJECT_SIGNAL"
+    },
+    {
+      "io_id": "io-2ac147ccabf9997d",
+      "classification": "NO_LOCAL_SUBJECT_SIGNAL"
+    },
+    {
+      "io_id": "io-4be0da3597bc2805",
+      "classification": "NO_LOCAL_SUBJECT_SIGNAL"
+    },
+    {
+      "io_id": "io-15d5becf382ab173",
+      "classification": "NO_LOCAL_SUBJECT_SIGNAL"
+    },
+    {
+      "io_id": "io-1bb1829e6def6ac2",
+      "classification": "NO_LOCAL_SUBJECT_SIGNAL"
+    },
+    {
+      "io_id": "io-ba0ad37c35390b92",
+      "classification": "NO_LOCAL_SUBJECT_SIGNAL"
+    },
+    {
+      "io_id": "io-05e4a13e43cc5f9b",
+      "classification": "NO_REGISTERED_MATCH"
+    },
+    {
+      "io_id": "io-2e6037c97b7468b6",
+      "classification": "NO_LOCAL_SUBJECT_SIGNAL"
+    },
+    {
+      "io_id": "io-9a1e066481b6713f",
+      "classification": "NO_LOCAL_SUBJECT_SIGNAL"
+    },
+    {
+      "io_id": "io-92dd0695d5ea51c7",
+      "classification": "NO_LOCAL_SUBJECT_SIGNAL"
+    },
+    {
+      "io_id": "io-63062e8919d5d8c8",
+      "classification": "NO_LOCAL_SUBJECT_SIGNAL"
+    },
+    {
+      "io_id": "io-a9735ba80b92fe2d",
+      "classification": "NO_LOCAL_SUBJECT_SIGNAL"
+    },
+    {
+      "io_id": "io-b5f51e369fe415cf",
+      "classification": "NO_LOCAL_SUBJECT_SIGNAL"
+    },
+    {
+      "io_id": "io-9b397eb6711226ea",
+      "classification": "NO_LOCAL_SUBJECT_SIGNAL"
+    },
+    {
+      "io_id": "io-4391f5c9ebe39f8c",
+      "classification": "NO_LOCAL_SUBJECT_SIGNAL"
+    },
+    {
+      "io_id": "io-653c6c3d2a7dffc7",
+      "classification": "NO_LOCAL_SUBJECT_SIGNAL"
+    },
+    {
+      "io_id": "io-fc41fee011bbc275",
+      "classification": "NO_LOCAL_SUBJECT_SIGNAL"
+    },
+    {
+      "io_id": "io-1b77e1a373c09f78",
+      "classification": "NO_LOCAL_SUBJECT_SIGNAL"
+    },
+    {
+      "io_id": "io-7481f4b244740e55",
+      "classification": "NO_LOCAL_SUBJECT_SIGNAL"
+    },
+    {
+      "io_id": "io-7670b0527fb0e4ef",
+      "classification": "NO_LOCAL_SUBJECT_SIGNAL"
+    },
+    {
+      "io_id": "io-de2e22ebb2b08a01",
+      "classification": "NO_LOCAL_SUBJECT_SIGNAL"
+    },
+    {
+      "io_id": "io-59fc104d47989f9c",
+      "classification": "NO_LOCAL_SUBJECT_SIGNAL"
+    },
+    {
+      "io_id": "io-fdf80516388889d8",
+      "classification": "NO_LOCAL_SUBJECT_SIGNAL"
+    },
+    {
+      "io_id": "io-fd6d571e3af90e4b",
+      "classification": "NO_LOCAL_SUBJECT_SIGNAL"
+    },
+    {
+      "io_id": "io-f768bd4432b62de4",
+      "classification": "NO_LOCAL_SUBJECT_SIGNAL"
+    },
+    {
+      "io_id": "io-3ea6c9c36d684763",
+      "classification": "NO_LOCAL_SUBJECT_SIGNAL"
+    },
+    {
+      "io_id": "io-5ab5fc3f4205337e",
+      "classification": "NO_LOCAL_SUBJECT_SIGNAL"
+    },
+    {
+      "io_id": "io-16b8bfb37f07f167",
+      "classification": "NO_LOCAL_SUBJECT_SIGNAL"
+    },
+    {
+      "io_id": "io-8c9e5444fe4d1d08",
+      "classification": "NO_LOCAL_SUBJECT_SIGNAL"
+    },
+    {
+      "io_id": "io-671c2a5acb09c992",
+      "classification": "NO_LOCAL_SUBJECT_SIGNAL"
+    },
+    {
+      "io_id": "io-30a9bae66b376892",
+      "classification": "NO_LOCAL_SUBJECT_SIGNAL"
+    },
+    {
+      "io_id": "io-d0448c29ee3df4ed",
+      "classification": "NO_LOCAL_SUBJECT_SIGNAL"
+    },
+    {
+      "io_id": "io-5057399dde4672f3",
+      "classification": "NO_LOCAL_SUBJECT_SIGNAL"
+    },
+    {
+      "io_id": "io-fe25b8587fe95ac1",
+      "classification": "NO_LOCAL_SUBJECT_SIGNAL"
+    },
+    {
+      "io_id": "io-a428c87c59e4a3d3",
+      "classification": "NO_LOCAL_SUBJECT_SIGNAL"
+    },
+    {
+      "io_id": "io-da7acd81418c8798",
+      "classification": "NO_LOCAL_SUBJECT_SIGNAL"
+    },
+    {
+      "io_id": "io-dde88ab55ac15e15",
+      "classification": "NO_LOCAL_SUBJECT_SIGNAL"
+    },
+    {
+      "io_id": "io-7a61f64d0068a445",
+      "classification": "NO_LOCAL_SUBJECT_SIGNAL"
+    },
+    {
+      "io_id": "io-99461a1d9eed54a8",
+      "classification": "NO_LOCAL_SUBJECT_SIGNAL"
+    },
+    {
+      "io_id": "io-b3e12fc705d151a8",
+      "classification": "NO_REGISTERED_MATCH"
+    },
+    {
+      "io_id": "io-9a6c0883fbee9b21",
+      "classification": "NO_LOCAL_SUBJECT_SIGNAL"
+    },
+    {
+      "io_id": "io-0b65814973cedc11",
+      "classification": "NO_LOCAL_SUBJECT_SIGNAL"
+    },
+    {
+      "io_id": "io-cc3ef58f601ca0c3",
+      "classification": "NO_REGISTERED_MATCH"
+    },
+    {
+      "io_id": "io-555af1294224ba20",
+      "classification": "NO_LOCAL_SUBJECT_SIGNAL"
+    },
+    {
+      "io_id": "io-3b6970ad6bfdfc58",
+      "classification": "NO_LOCAL_SUBJECT_SIGNAL"
+    },
+    {
+      "io_id": "io-1bc7db10df408382",
+      "classification": "NO_LOCAL_SUBJECT_SIGNAL"
+    },
+    {
+      "io_id": "io-2b51004d18164346",
+      "classification": "NO_LOCAL_SUBJECT_SIGNAL"
+    },
+    {
+      "io_id": "io-a2874bde1c01cc90",
+      "classification": "NO_LOCAL_SUBJECT_SIGNAL"
+    },
+    {
+      "io_id": "io-5c5a29752e21aa6f",
+      "classification": "NO_LOCAL_SUBJECT_SIGNAL"
+    },
+    {
+      "io_id": "io-98a5a38916143c2c",
+      "classification": "NO_LOCAL_SUBJECT_SIGNAL"
+    },
+    {
+      "io_id": "io-3f0a697651d8b7fe",
+      "classification": "INSUFFICIENT_STRUCTURAL_CONTEXT"
+    },
+    {
+      "io_id": "io-76b48a4344bb83ff",
+      "classification": "NO_LOCAL_SUBJECT_SIGNAL"
+    },
+    {
+      "io_id": "io-4626a82303e01abf",
+      "classification": "NO_LOCAL_SUBJECT_SIGNAL"
+    },
+    {
+      "io_id": "io-9044bb2e5be8f073",
+      "classification": "NO_LOCAL_SUBJECT_SIGNAL"
+    },
+    {
+      "io_id": "io-e140af0c15b78b9b",
+      "classification": "NO_REGISTERED_MATCH"
+    },
+    {
+      "io_id": "io-a946ce3ebc87602c",
+      "classification": "NO_LOCAL_SUBJECT_SIGNAL"
+    },
+    {
+      "io_id": "io-def78e5307ee021b",
+      "classification": "NO_LOCAL_SUBJECT_SIGNAL"
+    },
+    {
+      "io_id": "io-0b64dc21dddad051",
+      "classification": "NO_LOCAL_SUBJECT_SIGNAL"
+    },
+    {
+      "io_id": "io-45e5137f5092ee27",
+      "classification": "NO_LOCAL_SUBJECT_SIGNAL"
+    },
+    {
+      "io_id": "io-c31d4080d990450c",
+      "classification": "NO_LOCAL_SUBJECT_SIGNAL"
+    },
+    {
+      "io_id": "io-58e1af7d801f3c7a",
+      "classification": "NO_LOCAL_SUBJECT_SIGNAL"
+    },
+    {
+      "io_id": "io-7a53548120782c8a",
+      "classification": "NO_LOCAL_SUBJECT_SIGNAL"
+    },
+    {
+      "io_id": "io-b92431f268835136",
+      "classification": "NO_LOCAL_SUBJECT_SIGNAL"
+    },
+    {
+      "io_id": "io-b6b03627478eebb8",
+      "classification": "NO_LOCAL_SUBJECT_SIGNAL"
+    },
+    {
+      "io_id": "io-bbc6a14be6f1cc19",
+      "classification": "NO_LOCAL_SUBJECT_SIGNAL"
+    },
+    {
+      "io_id": "io-cbfb4d46a4e72978",
+      "classification": "NO_LOCAL_SUBJECT_SIGNAL"
+    },
+    {
+      "io_id": "io-e773686365fda65d",
+      "classification": "NO_LOCAL_SUBJECT_SIGNAL"
+    },
+    {
+      "io_id": "io-72de7dd31088e46c",
+      "classification": "NO_LOCAL_SUBJECT_SIGNAL"
+    },
+    {
+      "io_id": "io-46683a6ec01fbd32",
+      "classification": "NO_LOCAL_SUBJECT_SIGNAL"
+    },
+    {
+      "io_id": "io-a3d860cec698df95",
+      "classification": "NO_LOCAL_SUBJECT_SIGNAL"
+    },
+    {
+      "io_id": "io-021e167fcc1081fc",
+      "classification": "NO_LOCAL_SUBJECT_SIGNAL"
+    },
+    {
+      "io_id": "io-bfb216d306c2daeb",
+      "classification": "NO_LOCAL_SUBJECT_SIGNAL"
+    },
+    {
+      "io_id": "io-15939a91371e59d8",
+      "classification": "NO_LOCAL_SUBJECT_SIGNAL"
+    },
+    {
+      "io_id": "io-b4e154d9a1504355",
+      "classification": "NO_LOCAL_SUBJECT_SIGNAL"
+    },
+    {
+      "io_id": "io-d06c7cf2f00b4891",
+      "classification": "NO_LOCAL_SUBJECT_SIGNAL"
+    },
+    {
+      "io_id": "io-927904de3bff20d4",
+      "classification": "NO_LOCAL_SUBJECT_SIGNAL"
+    },
+    {
+      "io_id": "io-f1122e27a4f043bc",
+      "classification": "NO_LOCAL_SUBJECT_SIGNAL"
+    },
+    {
+      "io_id": "io-f8e53bce7030002a",
+      "classification": "NO_LOCAL_SUBJECT_SIGNAL"
+    },
+    {
+      "io_id": "io-db0bb2d7772b711e",
+      "classification": "NO_LOCAL_SUBJECT_SIGNAL"
+    },
+    {
+      "io_id": "io-7c31cce0df394715",
+      "classification": "NO_LOCAL_SUBJECT_SIGNAL"
+    },
+    {
+      "io_id": "io-57919cfed613badb",
+      "classification": "NO_LOCAL_SUBJECT_SIGNAL"
+    },
+    {
+      "io_id": "io-a1868489de0e9e2e",
+      "classification": "NO_LOCAL_SUBJECT_SIGNAL"
+    },
+    {
+      "io_id": "io-457089f6dbc79cf4",
+      "classification": "NO_LOCAL_SUBJECT_SIGNAL"
+    },
+    {
+      "io_id": "io-8c331107df0ba566",
+      "classification": "NO_LOCAL_SUBJECT_SIGNAL"
+    },
+    {
+      "io_id": "io-00e1948be404604d",
+      "classification": "NO_LOCAL_SUBJECT_SIGNAL"
+    },
+    {
+      "io_id": "io-5293d3510a6f92a5",
+      "classification": "NO_LOCAL_SUBJECT_SIGNAL"
+    },
+    {
+      "io_id": "io-4d78210bf97ce3af",
+      "classification": "NO_LOCAL_SUBJECT_SIGNAL"
+    },
+    {
+      "io_id": "io-6e999c72612a78fe",
+      "classification": "NO_LOCAL_SUBJECT_SIGNAL"
+    },
+    {
+      "io_id": "io-efe71a347ba17b2d",
+      "classification": "NO_LOCAL_SUBJECT_SIGNAL"
+    },
+    {
+      "io_id": "io-0e624f21740e46bc",
+      "classification": "NO_LOCAL_SUBJECT_SIGNAL"
+    },
+    {
+      "io_id": "io-9b5545aa437e492a",
+      "classification": "NO_LOCAL_SUBJECT_SIGNAL"
+    },
+    {
+      "io_id": "io-75a6a4768abae7f0",
+      "classification": "NO_LOCAL_SUBJECT_SIGNAL"
+    },
+    {
+      "io_id": "io-cd47d192f57af9d2",
+      "classification": "NO_LOCAL_SUBJECT_SIGNAL"
+    },
+    {
+      "io_id": "io-135e23aacb4d8f27",
+      "classification": "NO_LOCAL_SUBJECT_SIGNAL"
+    },
+    {
+      "io_id": "io-d0219327748df225",
+      "classification": "NO_LOCAL_SUBJECT_SIGNAL"
+    },
+    {
+      "io_id": "io-db721534aec94158",
+      "classification": "NO_LOCAL_SUBJECT_SIGNAL"
+    },
+    {
+      "io_id": "io-e877c136c72dab35",
+      "classification": "NO_LOCAL_SUBJECT_SIGNAL"
+    },
+    {
+      "io_id": "io-39452e4efdbfbec7",
+      "classification": "NO_LOCAL_SUBJECT_SIGNAL"
+    },
+    {
+      "io_id": "io-98a15d57c635d575",
+      "classification": "NO_LOCAL_SUBJECT_SIGNAL"
+    },
+    {
+      "io_id": "io-132229560f32751d",
+      "classification": "NO_LOCAL_SUBJECT_SIGNAL"
+    },
+    {
+      "io_id": "io-f0acc77e09482637",
+      "classification": "NO_LOCAL_SUBJECT_SIGNAL"
+    },
+    {
+      "io_id": "io-06894db435c559e6",
+      "classification": "NO_REGISTERED_MATCH"
+    },
+    {
+      "io_id": "io-a33f6d553ec0da7d",
+      "classification": "NO_LOCAL_SUBJECT_SIGNAL"
+    },
+    {
+      "io_id": "io-92fd94f33b931e4d",
+      "classification": "NO_LOCAL_SUBJECT_SIGNAL"
+    },
+    {
+      "io_id": "io-54f777178764850a",
+      "classification": "NO_LOCAL_SUBJECT_SIGNAL"
+    },
+    {
+      "io_id": "io-b87034f347d0f465",
+      "classification": "NO_LOCAL_SUBJECT_SIGNAL"
+    },
+    {
+      "io_id": "io-360568b8f62eefa7",
+      "classification": "NO_LOCAL_SUBJECT_SIGNAL"
+    },
+    {
+      "io_id": "io-47a7fd9412fa23f4",
+      "classification": "NO_LOCAL_SUBJECT_SIGNAL"
+    },
+    {
+      "io_id": "io-e047ba233f7788ae",
+      "classification": "NO_LOCAL_SUBJECT_SIGNAL"
+    },
+    {
+      "io_id": "io-a90b00ee53843111",
+      "classification": "NO_LOCAL_SUBJECT_SIGNAL"
+    },
+    {
+      "io_id": "io-f51a8e8064d8706c",
+      "classification": "NO_LOCAL_SUBJECT_SIGNAL"
+    },
+    {
+      "io_id": "io-32735355757ea69f",
+      "classification": "NO_LOCAL_SUBJECT_SIGNAL"
+    },
+    {
+      "io_id": "io-f36fcfcc2e78b2a0",
+      "classification": "NO_LOCAL_SUBJECT_SIGNAL"
+    },
+    {
+      "io_id": "io-ece768e38f17c94a",
+      "classification": "NO_LOCAL_SUBJECT_SIGNAL"
+    },
+    {
+      "io_id": "io-d78ee8cb3abba366",
+      "classification": "NO_LOCAL_SUBJECT_SIGNAL"
+    },
+    {
+      "io_id": "io-46bb88116dbc1614",
+      "classification": "NO_LOCAL_SUBJECT_SIGNAL"
+    },
+    {
+      "io_id": "io-903a40e82d517be4",
+      "classification": "INSUFFICIENT_STRUCTURAL_CONTEXT"
+    },
+    {
+      "io_id": "io-b47c76d1d3436c96",
+      "classification": "NO_LOCAL_SUBJECT_SIGNAL"
+    },
+    {
+      "io_id": "io-be483e5fc9afc86f",
+      "classification": "NO_LOCAL_SUBJECT_SIGNAL"
+    },
+    {
+      "io_id": "io-15bfd4ac8c7d4dc5",
+      "classification": "NO_LOCAL_SUBJECT_SIGNAL"
+    },
+    {
+      "io_id": "io-661cf20dcbdcdf2f",
+      "classification": "NO_LOCAL_SUBJECT_SIGNAL"
+    },
+    {
+      "io_id": "io-7fec144154cf8603",
+      "classification": "NO_LOCAL_SUBJECT_SIGNAL"
+    },
+    {
+      "io_id": "io-9f0e0e3ee4a30e15",
+      "classification": "NO_LOCAL_SUBJECT_SIGNAL"
+    },
+    {
+      "io_id": "io-2556493a756d647e",
+      "classification": "NO_LOCAL_SUBJECT_SIGNAL"
+    },
+    {
+      "io_id": "io-84e2943cab8b3d46",
+      "classification": "NO_LOCAL_SUBJECT_SIGNAL"
+    },
+    {
+      "io_id": "io-97a0bcc3a706f56b",
+      "classification": "NO_REGISTERED_MATCH"
+    },
+    {
+      "io_id": "io-ac8a09da3536500b",
+      "classification": "NO_LOCAL_SUBJECT_SIGNAL"
+    },
+    {
+      "io_id": "io-82638c925d7b1e49",
+      "classification": "NO_LOCAL_SUBJECT_SIGNAL"
+    },
+    {
+      "io_id": "io-ff548d49f24e51c7",
+      "classification": "NO_LOCAL_SUBJECT_SIGNAL"
+    },
+    {
+      "io_id": "io-a271f790737c5d11",
+      "classification": "NO_LOCAL_SUBJECT_SIGNAL"
+    },
+    {
+      "io_id": "io-1ec26d7f076d188f",
+      "classification": "NO_LOCAL_SUBJECT_SIGNAL"
+    },
+    {
+      "io_id": "io-9dc27286de2cc8d8",
+      "classification": "NO_LOCAL_SUBJECT_SIGNAL"
+    },
+    {
+      "io_id": "io-6230872fd54cde1e",
+      "classification": "NO_LOCAL_SUBJECT_SIGNAL"
+    },
+    {
+      "io_id": "io-2d0e8a209406f3ae",
+      "classification": "NO_LOCAL_SUBJECT_SIGNAL"
+    },
+    {
+      "io_id": "io-2a785ff5df504b7f",
+      "classification": "NO_LOCAL_SUBJECT_SIGNAL"
+    },
+    {
+      "io_id": "io-0c92fe718a263c48",
+      "classification": "NO_LOCAL_SUBJECT_SIGNAL"
+    },
+    {
+      "io_id": "io-1767bb5feae22c33",
+      "classification": "NO_LOCAL_SUBJECT_SIGNAL"
+    },
+    {
+      "io_id": "io-655c974c29eeb347",
+      "classification": "NO_LOCAL_SUBJECT_SIGNAL"
+    },
+    {
+      "io_id": "io-083f7b45b940701e",
+      "classification": "NO_LOCAL_SUBJECT_SIGNAL"
+    },
+    {
+      "io_id": "io-e2ad6d286ed7b4b2",
+      "classification": "NO_LOCAL_SUBJECT_SIGNAL"
+    },
+    {
+      "io_id": "io-25daa26f895a5e27",
+      "classification": "NO_LOCAL_SUBJECT_SIGNAL"
+    },
+    {
+      "io_id": "io-1ac47bbc74796a1a",
+      "classification": "NO_LOCAL_SUBJECT_SIGNAL"
+    },
+    {
+      "io_id": "io-7f0aad49d7b36377",
+      "classification": "NO_LOCAL_SUBJECT_SIGNAL"
+    },
+    {
+      "io_id": "io-dbd56e6fcdaffe1f",
+      "classification": "NO_LOCAL_SUBJECT_SIGNAL"
+    },
+    {
+      "io_id": "io-ba846fc82c4e5ce7",
+      "classification": "NO_LOCAL_SUBJECT_SIGNAL"
+    },
+    {
+      "io_id": "io-67aa519f71e47b32",
+      "classification": "NO_LOCAL_SUBJECT_SIGNAL"
+    },
+    {
+      "io_id": "io-0e573c8d5edd4b15",
+      "classification": "NO_LOCAL_SUBJECT_SIGNAL"
+    },
+    {
+      "io_id": "io-d4de556ba4a246b7",
+      "classification": "NO_LOCAL_SUBJECT_SIGNAL"
+    },
+    {
+      "io_id": "io-a78ef35ca710e8b0",
+      "classification": "NO_LOCAL_SUBJECT_SIGNAL"
+    },
+    {
+      "io_id": "io-2f3378b05a432690",
+      "classification": "NO_LOCAL_SUBJECT_SIGNAL"
+    },
+    {
+      "io_id": "io-9b029fe2cb4faffe",
+      "classification": "NO_LOCAL_SUBJECT_SIGNAL"
+    },
+    {
+      "io_id": "io-241521b1a09aea06",
+      "classification": "INSUFFICIENT_STRUCTURAL_CONTEXT"
+    },
+    {
+      "io_id": "io-fe99598a5a696549",
+      "classification": "NO_LOCAL_SUBJECT_SIGNAL"
+    },
+    {
+      "io_id": "io-aedbd44792d51594",
+      "classification": "NO_LOCAL_SUBJECT_SIGNAL"
+    },
+    {
+      "io_id": "io-4713d71a342dfbf7",
+      "classification": "NO_LOCAL_SUBJECT_SIGNAL"
+    },
+    {
+      "io_id": "io-2cee1e58d7219283",
+      "classification": "NO_LOCAL_SUBJECT_SIGNAL"
+    },
+    {
+      "io_id": "io-8c6101b4915eeef0",
+      "classification": "NO_LOCAL_SUBJECT_SIGNAL"
+    },
+    {
+      "io_id": "io-e57b4ea3fc543ff4",
+      "classification": "NO_LOCAL_SUBJECT_SIGNAL"
+    },
+    {
+      "io_id": "io-c4b1fd77e05f45fc",
+      "classification": "NO_LOCAL_SUBJECT_SIGNAL"
+    },
+    {
+      "io_id": "io-0e7f7abc44bb4ad5",
+      "classification": "NO_LOCAL_SUBJECT_SIGNAL"
+    },
+    {
+      "io_id": "io-7391d09075020cac",
+      "classification": "NO_LOCAL_SUBJECT_SIGNAL"
+    },
+    {
+      "io_id": "io-c5e7cc1796ffaadb",
+      "classification": "NO_LOCAL_SUBJECT_SIGNAL"
+    },
+    {
+      "io_id": "io-ee07f260c54778dc",
+      "classification": "NO_LOCAL_SUBJECT_SIGNAL"
+    },
+    {
+      "io_id": "io-a3249dbf952d7156",
+      "classification": "NO_LOCAL_SUBJECT_SIGNAL"
+    },
+    {
+      "io_id": "io-f8d3be493c951897",
+      "classification": "NO_LOCAL_SUBJECT_SIGNAL"
+    },
+    {
+      "io_id": "io-77839ae0a133764f",
+      "classification": "NO_LOCAL_SUBJECT_SIGNAL"
+    },
+    {
+      "io_id": "io-07186a9387225398",
+      "classification": "NO_LOCAL_SUBJECT_SIGNAL"
+    },
+    {
+      "io_id": "io-a3e3b65ea05c6565",
+      "classification": "NO_LOCAL_SUBJECT_SIGNAL"
+    },
+    {
+      "io_id": "io-7d6a20d2527523b8",
+      "classification": "NO_LOCAL_SUBJECT_SIGNAL"
+    },
+    {
+      "io_id": "io-dbe8474a5533c802",
+      "classification": "NO_LOCAL_SUBJECT_SIGNAL"
+    },
+    {
+      "io_id": "io-e34527b7d5278530",
+      "classification": "NO_LOCAL_SUBJECT_SIGNAL"
+    },
+    {
+      "io_id": "io-265f9d4c6d3fdf17",
+      "classification": "NO_LOCAL_SUBJECT_SIGNAL"
+    },
+    {
+      "io_id": "io-7fe7cf7d3830fafa",
+      "classification": "NO_LOCAL_SUBJECT_SIGNAL"
+    },
+    {
+      "io_id": "io-ff1f2e782ef0c6ec",
+      "classification": "NO_LOCAL_SUBJECT_SIGNAL"
+    },
+    {
+      "io_id": "io-19f918ccdbda037b",
+      "classification": "NO_LOCAL_SUBJECT_SIGNAL"
+    },
+    {
+      "io_id": "io-b7cc3c947f1e76be",
+      "classification": "NO_LOCAL_SUBJECT_SIGNAL"
+    },
+    {
+      "io_id": "io-2495ff6fb68b57ca",
+      "classification": "INSUFFICIENT_STRUCTURAL_CONTEXT"
+    },
+    {
+      "io_id": "io-f8b1478d50ec3efd",
+      "classification": "NO_LOCAL_SUBJECT_SIGNAL"
+    },
+    {
+      "io_id": "io-00a7593f4c006b82",
+      "classification": "NO_LOCAL_SUBJECT_SIGNAL"
+    },
+    {
+      "io_id": "io-54678670013a9f44",
+      "classification": "NO_LOCAL_SUBJECT_SIGNAL"
+    },
+    {
+      "io_id": "io-426194a4d6165139",
+      "classification": "NO_LOCAL_SUBJECT_SIGNAL"
+    },
+    {
+      "io_id": "io-de9433a949874f8c",
+      "classification": "NO_LOCAL_SUBJECT_SIGNAL"
+    },
+    {
+      "io_id": "io-11018b8d61761dbc",
+      "classification": "NO_LOCAL_SUBJECT_SIGNAL"
+    },
+    {
+      "io_id": "io-0227f7d7297c27fb",
+      "classification": "NO_LOCAL_SUBJECT_SIGNAL"
+    },
+    {
+      "io_id": "io-7d28d8ec3f2c6f50",
+      "classification": "NO_LOCAL_SUBJECT_SIGNAL"
+    },
+    {
+      "io_id": "io-3a2da7a2bf1e0cfd",
+      "classification": "NO_LOCAL_SUBJECT_SIGNAL"
+    },
+    {
+      "io_id": "io-a000c24406e6dccb",
+      "classification": "NO_LOCAL_SUBJECT_SIGNAL"
+    },
+    {
+      "io_id": "io-5df7f70897e21779",
+      "classification": "NO_LOCAL_SUBJECT_SIGNAL"
+    },
+    {
+      "io_id": "io-2b26ac1883affff3",
+      "classification": "INSUFFICIENT_STRUCTURAL_CONTEXT"
+    },
+    {
+      "io_id": "io-8b4a3542d2817de6",
+      "classification": "NO_LOCAL_SUBJECT_SIGNAL"
+    },
+    {
+      "io_id": "io-f1b96bbc529e9548",
+      "classification": "INSUFFICIENT_STRUCTURAL_CONTEXT"
+    },
+    {
+      "io_id": "io-1502b63c90c22dda",
+      "classification": "NO_LOCAL_SUBJECT_SIGNAL"
+    },
+    {
+      "io_id": "io-5d2569306639ddb1",
+      "classification": "NO_LOCAL_SUBJECT_SIGNAL"
+    },
+    {
+      "io_id": "io-215fc0efd26c468e",
+      "classification": "NO_LOCAL_SUBJECT_SIGNAL"
+    },
+    {
+      "io_id": "io-8f4d2d75690eaf1d",
+      "classification": "NO_LOCAL_SUBJECT_SIGNAL"
+    },
+    {
+      "io_id": "io-237be28c52d0b5bb",
+      "classification": "NO_LOCAL_SUBJECT_SIGNAL"
+    },
+    {
+      "io_id": "io-db53d2e98d802697",
+      "classification": "NO_LOCAL_SUBJECT_SIGNAL"
+    }
+  ],
+  "semantically_identified_count": 102,
+  "per_io_audit": [
+    {
+      "io_id": "io-936e16f976e71fe5",
+      "event_type": "regulatory_enforcement",
+      "source_name": "fca",
+      "subject_entity": "UNKNOWN",
+      "subject_entity_status": "NOT_FOUND",
+      "subject_concept": "Settlement",
+      "subject_concept_status": "CONFIRMED",
+      "subject_indicator": null,
+      "subject_indicator_status": "NOT_FOUND",
+      "subject_instrument": null,
+      "subject_instrument_status": "NOT_FOUND",
+      "subject_type": "CONCEPT",
+      "subject_status": "CONFIRMED",
+      "readiness": "SEMANTICALLY_PARTIAL",
+      "supporting_segment_ids": [],
+      "resolution_method": null,
+      "relationship": "UNKNOWN"
+    },
+    {
+      "io_id": "io-68aeb1a370c256a6",
+      "event_type": "monetary_policy_decision",
+      "source_name": "federal-reserve",
+      "subject_entity": "UNKNOWN",
+      "subject_entity_status": "NOT_FOUND",
+      "subject_concept": "Monetary Policy",
+      "subject_concept_status": "CONFIRMED",
+      "subject_indicator": "Unemployment",
+      "subject_indicator_status": "CONFIRMED",
+      "subject_instrument": null,
+      "subject_instrument_status": "NOT_FOUND",
+      "subject_type": "CONCEPT",
+      "subject_status": "CONFIRMED",
+      "readiness": "SEMANTICALLY_PARTIAL",
+      "supporting_segment_ids": [],
+      "resolution_method": null,
+      "relationship": "UNKNOWN"
+    },
+    {
+      "io_id": "io-43450fbfbd3f5f48",
+      "event_type": "statistical_release",
+      "source_name": "ecb",
+      "subject_entity": "UNKNOWN",
+      "subject_entity_status": "NOT_FOUND",
+      "subject_concept": null,
+      "subject_concept_status": "NOT_FOUND",
+      "subject_indicator": null,
+      "subject_indicator_status": "NOT_FOUND",
+      "subject_instrument": "Bonds",
+      "subject_instrument_status": "CONFIRMED",
+      "subject_type": "INSTRUMENT",
+      "subject_status": "CONFIRMED",
+      "readiness": "SEMANTICALLY_PARTIAL",
+      "supporting_segment_ids": [],
+      "resolution_method": null,
+      "relationship": "UNKNOWN"
+    },
+    {
+      "io_id": "io-a27ee61aa6026a13",
+      "event_type": "statistical_release",
+      "source_name": "ecb",
+      "subject_entity": "UNKNOWN",
+      "subject_entity_status": "NOT_FOUND",
+      "subject_concept": null,
+      "subject_concept_status": "NOT_FOUND",
+      "subject_indicator": null,
+      "subject_indicator_status": "NOT_FOUND",
+      "subject_instrument": "Bonds",
+      "subject_instrument_status": "CONFIRMED",
+      "subject_type": "INSTRUMENT",
+      "subject_status": "CONFIRMED",
+      "readiness": "SEMANTICALLY_PARTIAL",
+      "supporting_segment_ids": [],
+      "resolution_method": null,
+      "relationship": "UNKNOWN"
+    },
+    {
+      "io_id": "io-f803af6f431d9f8a",
+      "event_type": "statistical_release",
+      "source_name": "bank-of-england",
+      "subject_entity": "UNKNOWN",
+      "subject_entity_status": "NOT_FOUND",
+      "subject_concept": "Monetary Policy",
+      "subject_concept_status": "CONFIRMED",
+      "subject_indicator": "Inflation",
+      "subject_indicator_status": "CONFIRMED",
+      "subject_instrument": null,
+      "subject_instrument_status": "NOT_FOUND",
+      "subject_type": "CONCEPT",
+      "subject_status": "CONFIRMED",
+      "readiness": "SEMANTICALLY_PARTIAL",
+      "supporting_segment_ids": [],
+      "resolution_method": null,
+      "relationship": "UNKNOWN"
+    },
+    {
+      "io_id": "io-877cfaba4b9dc235",
+      "event_type": "statistical_release",
+      "source_name": "bank-of-england",
+      "subject_entity": "UNKNOWN",
+      "subject_entity_status": "NOT_FOUND",
+      "subject_concept": "Settlement",
+      "subject_concept_status": "CONFIRMED",
+      "subject_indicator": null,
+      "subject_indicator_status": "NOT_FOUND",
+      "subject_instrument": null,
+      "subject_instrument_status": "NOT_FOUND",
+      "subject_type": "CONCEPT",
+      "subject_status": "CONFIRMED",
+      "readiness": "SEMANTICALLY_PARTIAL",
+      "supporting_segment_ids": [],
+      "resolution_method": null,
+      "relationship": "UNKNOWN"
+    },
+    {
+      "io_id": "io-cb86ecb4e874af16",
+      "event_type": "monetary_policy_decision",
+      "source_name": "eurostat",
+      "subject_entity": "UNKNOWN",
+      "subject_entity_status": "NOT_FOUND",
+      "subject_concept": null,
+      "subject_concept_status": "NOT_FOUND",
+      "subject_indicator": "Gross Domestic Product",
+      "subject_indicator_status": "CONFIRMED",
+      "subject_instrument": null,
+      "subject_instrument_status": "NOT_FOUND",
+      "subject_type": "INDICATOR",
+      "subject_status": "CONFIRMED",
+      "readiness": "SEMANTICALLY_PARTIAL",
+      "supporting_segment_ids": [],
+      "resolution_method": null,
+      "relationship": "UNKNOWN"
+    },
+    {
+      "io_id": "io-3ba6bc20160d3cd7",
+      "event_type": "regulatory_enforcement",
+      "source_name": "esma",
+      "subject_entity": "UNKNOWN",
+      "subject_entity_status": "NOT_FOUND",
+      "subject_concept": "Settlement",
+      "subject_concept_status": "CONFIRMED",
+      "subject_indicator": null,
+      "subject_indicator_status": "NOT_FOUND",
+      "subject_instrument": null,
+      "subject_instrument_status": "NOT_FOUND",
+      "subject_type": "CONCEPT",
+      "subject_status": "CONFIRMED",
+      "readiness": "SEMANTICALLY_PARTIAL",
+      "supporting_segment_ids": [],
+      "resolution_method": null,
+      "relationship": "UNKNOWN"
+    },
+    {
+      "io_id": "io-4323d212da946519",
+      "event_type": "regulatory_enforcement",
+      "source_name": "esma",
+      "subject_entity": "UNKNOWN",
+      "subject_entity_status": "NOT_FOUND",
+      "subject_concept": null,
+      "subject_concept_status": "NOT_FOUND",
+      "subject_indicator": null,
+      "subject_indicator_status": "NOT_FOUND",
+      "subject_instrument": "Equities",
+      "subject_instrument_status": "CONFIRMED",
+      "subject_type": "INSTRUMENT",
+      "subject_status": "CONFIRMED",
+      "readiness": "SEMANTICALLY_PARTIAL",
+      "supporting_segment_ids": [],
+      "resolution_method": null,
+      "relationship": "UNKNOWN"
+    },
+    {
+      "io_id": "io-bbb8485464e13316",
+      "event_type": "regulatory_enforcement",
+      "source_name": "esma",
+      "subject_entity": "UNKNOWN",
+      "subject_entity_status": "NOT_FOUND",
+      "subject_concept": "Settlement",
+      "subject_concept_status": "CONFIRMED",
+      "subject_indicator": null,
+      "subject_indicator_status": "NOT_FOUND",
+      "subject_instrument": null,
+      "subject_instrument_status": "NOT_FOUND",
+      "subject_type": "CONCEPT",
+      "subject_status": "CONFIRMED",
+      "readiness": "SEMANTICALLY_PARTIAL",
+      "supporting_segment_ids": [],
+      "resolution_method": null,
+      "relationship": "UNKNOWN"
+    },
+    {
+      "io_id": "io-30022112e390cb2f",
+      "event_type": "regulatory_enforcement",
+      "source_name": "fca",
+      "subject_entity": "UNKNOWN",
+      "subject_entity_status": "NOT_FOUND",
+      "subject_concept": "Penalty",
+      "subject_concept_status": "CONFIRMED",
+      "subject_indicator": null,
+      "subject_indicator_status": "NOT_FOUND",
+      "subject_instrument": null,
+      "subject_instrument_status": "NOT_FOUND",
+      "subject_type": "CONCEPT",
+      "subject_status": "CONFIRMED",
+      "readiness": "SEMANTICALLY_PARTIAL",
+      "supporting_segment_ids": [],
+      "resolution_method": null,
+      "relationship": "UNKNOWN"
+    },
+    {
+      "io_id": "io-bea0b6a376d6f629",
+      "event_type": "monetary_policy_decision",
+      "source_name": "deutsche-boerse",
+      "subject_entity": "UNKNOWN",
+      "subject_entity_status": "NOT_FOUND",
+      "subject_concept": null,
+      "subject_concept_status": "NOT_FOUND",
+      "subject_indicator": null,
+      "subject_indicator_status": "NOT_FOUND",
+      "subject_instrument": "Policy Rate",
+      "subject_instrument_status": "CONFIRMED",
+      "subject_type": "INSTRUMENT",
+      "subject_status": "CONFIRMED",
+      "readiness": "SEMANTICALLY_READY",
+      "supporting_segment_ids": [],
+      "resolution_method": null,
+      "relationship": "UNKNOWN"
+    },
+    {
+      "io_id": "io-ab038136b03c8bf8",
+      "event_type": "regulatory_enforcement",
+      "source_name": "euronext",
+      "subject_entity": "UNKNOWN",
+      "subject_entity_status": "NOT_FOUND",
+      "subject_concept": "Settlement",
+      "subject_concept_status": "CONFIRMED",
+      "subject_indicator": null,
+      "subject_indicator_status": "NOT_FOUND",
+      "subject_instrument": null,
+      "subject_instrument_status": "NOT_FOUND",
+      "subject_type": "CONCEPT",
+      "subject_status": "CONFIRMED",
+      "readiness": "SEMANTICALLY_PARTIAL",
+      "supporting_segment_ids": [],
+      "resolution_method": null,
+      "relationship": "UNKNOWN"
+    },
+    {
+      "io_id": "io-4d94300b4070757f",
+      "event_type": "monetary_policy_decision",
+      "source_name": "fsb",
+      "subject_entity": "UNKNOWN",
+      "subject_entity_status": "NOT_FOUND",
+      "subject_concept": "Settlement",
+      "subject_concept_status": "CONFIRMED",
+      "subject_indicator": null,
+      "subject_indicator_status": "NOT_FOUND",
+      "subject_instrument": null,
+      "subject_instrument_status": "NOT_FOUND",
+      "subject_type": "CONCEPT",
+      "subject_status": "CONFIRMED",
+      "readiness": "SEMANTICALLY_PARTIAL",
+      "supporting_segment_ids": [],
+      "resolution_method": null,
+      "relationship": "UNKNOWN"
+    },
+    {
+      "io_id": "io-6e897d602140277f",
+      "event_type": "statistical_release",
+      "source_name": "bank-of-england",
+      "subject_entity": "UNKNOWN",
+      "subject_entity_status": "NOT_FOUND",
+      "subject_concept": null,
+      "subject_concept_status": "NOT_FOUND",
+      "subject_indicator": null,
+      "subject_indicator_status": "NOT_FOUND",
+      "subject_instrument": "Foreign Exchange",
+      "subject_instrument_status": "CONFIRMED",
+      "subject_type": "INSTRUMENT",
+      "subject_status": "CONFIRMED",
+      "readiness": "SEMANTICALLY_READY",
+      "supporting_segment_ids": [],
+      "resolution_method": null,
+      "relationship": "UNKNOWN"
+    },
+    {
+      "io_id": "io-8fa184904578eae6",
+      "event_type": "statistical_release",
+      "source_name": "bea",
+      "subject_entity": "UNKNOWN",
+      "subject_entity_status": "NOT_FOUND",
+      "subject_concept": null,
+      "subject_concept_status": "NOT_FOUND",
+      "subject_indicator": "Gross Domestic Product",
+      "subject_indicator_status": "CONFIRMED",
+      "subject_instrument": null,
+      "subject_instrument_status": "NOT_FOUND",
+      "subject_type": "INDICATOR",
+      "subject_status": "CONFIRMED",
+      "readiness": "SEMANTICALLY_READY",
+      "supporting_segment_ids": [],
+      "resolution_method": null,
+      "relationship": "UNKNOWN"
+    },
+    {
+      "io_id": "io-82bd93037aae3793",
+      "event_type": "statistical_release",
+      "source_name": "bea",
+      "subject_entity": "UNKNOWN",
+      "subject_entity_status": "NOT_FOUND",
+      "subject_concept": null,
+      "subject_concept_status": "NOT_FOUND",
+      "subject_indicator": "Gross Domestic Product",
+      "subject_indicator_status": "CONFIRMED",
+      "subject_instrument": null,
+      "subject_instrument_status": "NOT_FOUND",
+      "subject_type": "INDICATOR",
+      "subject_status": "CONFIRMED",
+      "readiness": "SEMANTICALLY_READY",
+      "supporting_segment_ids": [],
+      "resolution_method": null,
+      "relationship": "UNKNOWN"
+    },
+    {
+      "io_id": "io-dd7f1db542d212a3",
+      "event_type": "statistical_release",
+      "source_name": "bank-of-england",
+      "subject_entity": "UNKNOWN",
+      "subject_entity_status": "NOT_FOUND",
+      "subject_concept": "Monetary Policy",
+      "subject_concept_status": "CONFIRMED",
+      "subject_indicator": "Inflation",
+      "subject_indicator_status": "CONFIRMED",
+      "subject_instrument": null,
+      "subject_instrument_status": "NOT_FOUND",
+      "subject_type": "CONCEPT",
+      "subject_status": "CONFIRMED",
+      "readiness": "SEMANTICALLY_READY",
+      "supporting_segment_ids": [],
+      "resolution_method": null,
+      "relationship": "UNKNOWN"
+    },
+    {
+      "io_id": "io-34e78b9a8798dc7a",
+      "event_type": "statistical_release",
+      "source_name": "ecb",
+      "subject_entity": "UNKNOWN",
+      "subject_entity_status": "NOT_FOUND",
+      "subject_concept": null,
+      "subject_concept_status": "NOT_FOUND",
+      "subject_indicator": "Harmonised Index of Consumer Prices",
+      "subject_indicator_status": "CONFIRMED",
+      "subject_instrument": null,
+      "subject_instrument_status": "NOT_FOUND",
+      "subject_type": "INDICATOR",
+      "subject_status": "CONFIRMED",
+      "readiness": "SEMANTICALLY_READY",
+      "supporting_segment_ids": [],
+      "resolution_method": null,
+      "relationship": "UNKNOWN"
+    },
+    {
+      "io_id": "io-d699eb90722fdf91",
+      "event_type": "statistical_release",
+      "source_name": "bea",
+      "subject_entity": "UNKNOWN",
+      "subject_entity_status": "NOT_FOUND",
+      "subject_concept": null,
+      "subject_concept_status": "NOT_FOUND",
+      "subject_indicator": "Gross Domestic Product",
+      "subject_indicator_status": "CONFIRMED",
+      "subject_instrument": null,
+      "subject_instrument_status": "NOT_FOUND",
+      "subject_type": "INDICATOR",
+      "subject_status": "CONFIRMED",
+      "readiness": "SEMANTICALLY_READY",
+      "supporting_segment_ids": [],
+      "resolution_method": null,
+      "relationship": "UNKNOWN"
+    },
+    {
+      "io_id": "io-9701ebc40db3ea9b",
+      "event_type": "statistical_release",
+      "source_name": "bank-of-england",
+      "subject_entity": "UNKNOWN",
+      "subject_entity_status": "NOT_FOUND",
+      "subject_concept": "Penalty",
+      "subject_concept_status": "CONFIRMED",
+      "subject_indicator": null,
+      "subject_indicator_status": "NOT_FOUND",
+      "subject_instrument": null,
+      "subject_instrument_status": "NOT_FOUND",
+      "subject_type": "CONCEPT",
+      "subject_status": "CONFIRMED",
+      "readiness": "SEMANTICALLY_PARTIAL",
+      "supporting_segment_ids": [],
+      "resolution_method": null,
+      "relationship": "UNKNOWN"
+    },
+    {
+      "io_id": "io-e360d9bc9e0d2c0c",
+      "event_type": "statistical_release",
+      "source_name": "ecb",
+      "subject_entity": "UNKNOWN",
+      "subject_entity_status": "NOT_FOUND",
+      "subject_concept": null,
+      "subject_concept_status": "NOT_FOUND",
+      "subject_indicator": "Inflation",
+      "subject_indicator_status": "CONFIRMED",
+      "subject_instrument": null,
+      "subject_instrument_status": "NOT_FOUND",
+      "subject_type": "INDICATOR",
+      "subject_status": "CONFIRMED",
+      "readiness": "SEMANTICALLY_PARTIAL",
+      "supporting_segment_ids": [],
+      "resolution_method": null,
+      "relationship": "UNKNOWN"
+    },
+    {
+      "io_id": "io-986440761d453dab",
+      "event_type": "statistical_release",
+      "source_name": "bea",
+      "subject_entity": "UNKNOWN",
+      "subject_entity_status": "NOT_FOUND",
+      "subject_concept": null,
+      "subject_concept_status": "NOT_FOUND",
+      "subject_indicator": "Gross Domestic Product",
+      "subject_indicator_status": "CONFIRMED",
+      "subject_instrument": null,
+      "subject_instrument_status": "NOT_FOUND",
+      "subject_type": "INDICATOR",
+      "subject_status": "CONFIRMED",
+      "readiness": "SEMANTICALLY_READY",
+      "supporting_segment_ids": [],
+      "resolution_method": null,
+      "relationship": "UNKNOWN"
+    },
+    {
+      "io_id": "io-9513f96cb044270e",
+      "event_type": "statistical_release",
+      "source_name": "ecb",
+      "subject_entity": "UNKNOWN",
+      "subject_entity_status": "NOT_FOUND",
+      "subject_concept": null,
+      "subject_concept_status": "NOT_FOUND",
+      "subject_indicator": "Unemployment",
+      "subject_indicator_status": "CONFIRMED",
+      "subject_instrument": null,
+      "subject_instrument_status": "NOT_FOUND",
+      "subject_type": "INDICATOR",
+      "subject_status": "CONFIRMED",
+      "readiness": "SEMANTICALLY_PARTIAL",
+      "supporting_segment_ids": [],
+      "resolution_method": null,
+      "relationship": "UNKNOWN"
+    },
+    {
+      "io_id": "io-0eb15c9170ee2b98",
+      "event_type": "statistical_release",
+      "source_name": "bea",
+      "subject_entity": "UNKNOWN",
+      "subject_entity_status": "NOT_FOUND",
+      "subject_concept": null,
+      "subject_concept_status": "NOT_FOUND",
+      "subject_indicator": "Gross Domestic Product",
+      "subject_indicator_status": "CONFIRMED",
+      "subject_instrument": null,
+      "subject_instrument_status": "NOT_FOUND",
+      "subject_type": "INDICATOR",
+      "subject_status": "CONFIRMED",
+      "readiness": "SEMANTICALLY_READY",
+      "supporting_segment_ids": [],
+      "resolution_method": null,
+      "relationship": "UNKNOWN"
+    },
+    {
+      "io_id": "io-e8de8736c33c9961",
+      "event_type": "statistical_release",
+      "source_name": "bea",
+      "subject_entity": "UNKNOWN",
+      "subject_entity_status": "NOT_FOUND",
+      "subject_concept": null,
+      "subject_concept_status": "NOT_FOUND",
+      "subject_indicator": "Gross Domestic Product",
+      "subject_indicator_status": "CONFIRMED",
+      "subject_instrument": null,
+      "subject_instrument_status": "NOT_FOUND",
+      "subject_type": "INDICATOR",
+      "subject_status": "CONFIRMED",
+      "readiness": "SEMANTICALLY_READY",
+      "supporting_segment_ids": [],
+      "resolution_method": null,
+      "relationship": "UNKNOWN"
+    },
+    {
+      "io_id": "io-4d0ae13598a4e04d",
+      "event_type": "statistical_release",
+      "source_name": "bea",
+      "subject_entity": "UNKNOWN",
+      "subject_entity_status": "NOT_FOUND",
+      "subject_concept": null,
+      "subject_concept_status": "NOT_FOUND",
+      "subject_indicator": "Gross Domestic Product",
+      "subject_indicator_status": "CONFIRMED",
+      "subject_instrument": null,
+      "subject_instrument_status": "NOT_FOUND",
+      "subject_type": "INDICATOR",
+      "subject_status": "CONFIRMED",
+      "readiness": "SEMANTICALLY_READY",
+      "supporting_segment_ids": [],
+      "resolution_method": null,
+      "relationship": "UNKNOWN"
+    },
+    {
+      "io_id": "io-25d63db0b736fc25",
+      "event_type": "statistical_release",
+      "source_name": "bea",
+      "subject_entity": "UNKNOWN",
+      "subject_entity_status": "NOT_FOUND",
+      "subject_concept": null,
+      "subject_concept_status": "NOT_FOUND",
+      "subject_indicator": "Gross Domestic Product",
+      "subject_indicator_status": "CONFIRMED",
+      "subject_instrument": null,
+      "subject_instrument_status": "NOT_FOUND",
+      "subject_type": "INDICATOR",
+      "subject_status": "CONFIRMED",
+      "readiness": "SEMANTICALLY_READY",
+      "supporting_segment_ids": [],
+      "resolution_method": null,
+      "relationship": "UNKNOWN"
+    },
+    {
+      "io_id": "io-58806f18833ff199",
+      "event_type": "monetary_policy_decision",
+      "source_name": "euronext",
+      "subject_entity": "UNKNOWN",
+      "subject_entity_status": "NOT_FOUND",
+      "subject_concept": null,
+      "subject_concept_status": "NOT_FOUND",
+      "subject_indicator": null,
+      "subject_indicator_status": "NOT_FOUND",
+      "subject_instrument": "Equities",
+      "subject_instrument_status": "CONFIRMED",
+      "subject_type": "INSTRUMENT",
+      "subject_status": "CONFIRMED",
+      "readiness": "SEMANTICALLY_PARTIAL",
+      "supporting_segment_ids": [],
+      "resolution_method": null,
+      "relationship": "UNKNOWN"
+    },
+    {
+      "io_id": "io-3be9de8dd3168da7",
+      "event_type": "statistical_release",
+      "source_name": "bea",
+      "subject_entity": "UNKNOWN",
+      "subject_entity_status": "NOT_FOUND",
+      "subject_concept": "Penalty",
+      "subject_concept_status": "CONFIRMED",
+      "subject_indicator": "Gross Domestic Product",
+      "subject_indicator_status": "CONFIRMED",
+      "subject_instrument": null,
+      "subject_instrument_status": "NOT_FOUND",
+      "subject_type": "CONCEPT",
+      "subject_status": "CONFIRMED",
+      "readiness": "SEMANTICALLY_READY",
+      "supporting_segment_ids": [],
+      "resolution_method": null,
+      "relationship": "UNKNOWN"
+    },
+    {
+      "io_id": "io-4b70f6c621cb7a94",
+      "event_type": "monetary_policy_decision",
+      "source_name": "euronext",
+      "subject_entity": "UNKNOWN",
+      "subject_entity_status": "NOT_FOUND",
+      "subject_concept": null,
+      "subject_concept_status": "NOT_FOUND",
+      "subject_indicator": null,
+      "subject_indicator_status": "NOT_FOUND",
+      "subject_instrument": "Equities",
+      "subject_instrument_status": "CONFIRMED",
+      "subject_type": "INSTRUMENT",
+      "subject_status": "CONFIRMED",
+      "readiness": "SEMANTICALLY_PARTIAL",
+      "supporting_segment_ids": [],
+      "resolution_method": null,
+      "relationship": "UNKNOWN"
+    },
+    {
+      "io_id": "io-6d1470fdb40c3286",
+      "event_type": "statistical_release",
+      "source_name": "bea",
+      "subject_entity": "UNKNOWN",
+      "subject_entity_status": "NOT_FOUND",
+      "subject_concept": null,
+      "subject_concept_status": "NOT_FOUND",
+      "subject_indicator": "Gross Domestic Product",
+      "subject_indicator_status": "CONFIRMED",
+      "subject_instrument": null,
+      "subject_instrument_status": "NOT_FOUND",
+      "subject_type": "INDICATOR",
+      "subject_status": "CONFIRMED",
+      "readiness": "SEMANTICALLY_READY",
+      "supporting_segment_ids": [],
+      "resolution_method": null,
+      "relationship": "UNKNOWN"
+    },
+    {
+      "io_id": "io-49573fc106debe90",
+      "event_type": "monetary_policy_decision",
+      "source_name": "euronext",
+      "subject_entity": "UNKNOWN",
+      "subject_entity_status": "NOT_FOUND",
+      "subject_concept": null,
+      "subject_concept_status": "NOT_FOUND",
+      "subject_indicator": null,
+      "subject_indicator_status": "NOT_FOUND",
+      "subject_instrument": "Equities",
+      "subject_instrument_status": "CONFIRMED",
+      "subject_type": "INSTRUMENT",
+      "subject_status": "CONFIRMED",
+      "readiness": "SEMANTICALLY_PARTIAL",
+      "supporting_segment_ids": [],
+      "resolution_method": null,
+      "relationship": "UNKNOWN"
+    },
+    {
+      "io_id": "io-0556ef49eb5d7404",
+      "event_type": "statistical_release",
+      "source_name": "bea",
+      "subject_entity": "UNKNOWN",
+      "subject_entity_status": "NOT_FOUND",
+      "subject_concept": null,
+      "subject_concept_status": "NOT_FOUND",
+      "subject_indicator": "Gross Domestic Product",
+      "subject_indicator_status": "CONFIRMED",
+      "subject_instrument": null,
+      "subject_instrument_status": "NOT_FOUND",
+      "subject_type": "INDICATOR",
+      "subject_status": "CONFIRMED",
+      "readiness": "SEMANTICALLY_READY",
+      "supporting_segment_ids": [],
+      "resolution_method": null,
+      "relationship": "UNKNOWN"
+    },
+    {
+      "io_id": "io-534abe93a5d52fcf",
+      "event_type": "statistical_release",
+      "source_name": "bank-of-england",
+      "subject_entity": "UNKNOWN",
+      "subject_entity_status": "NOT_FOUND",
+      "subject_concept": null,
+      "subject_concept_status": "NOT_FOUND",
+      "subject_indicator": null,
+      "subject_indicator_status": "NOT_FOUND",
+      "subject_instrument": "Foreign Exchange",
+      "subject_instrument_status": "CONFIRMED",
+      "subject_type": "INSTRUMENT",
+      "subject_status": "CONFIRMED",
+      "readiness": "SEMANTICALLY_PARTIAL",
+      "supporting_segment_ids": [],
+      "resolution_method": null,
+      "relationship": "UNKNOWN"
+    },
+    {
+      "io_id": "io-800941fa5aa8ae0f",
+      "event_type": "statistical_release",
+      "source_name": "bea",
+      "subject_entity": "UNKNOWN",
+      "subject_entity_status": "NOT_FOUND",
+      "subject_concept": null,
+      "subject_concept_status": "NOT_FOUND",
+      "subject_indicator": "Gross Domestic Product",
+      "subject_indicator_status": "CONFIRMED",
+      "subject_instrument": null,
+      "subject_instrument_status": "NOT_FOUND",
+      "subject_type": "INDICATOR",
+      "subject_status": "CONFIRMED",
+      "readiness": "SEMANTICALLY_READY",
+      "supporting_segment_ids": [],
+      "resolution_method": null,
+      "relationship": "UNKNOWN"
+    },
+    {
+      "io_id": "io-11a06cb504c4153f",
+      "event_type": "monetary_policy_decision",
+      "source_name": "euronext",
+      "subject_entity": "UNKNOWN",
+      "subject_entity_status": "NOT_FOUND",
+      "subject_concept": "Settlement",
+      "subject_concept_status": "CONFIRMED",
+      "subject_indicator": null,
+      "subject_indicator_status": "NOT_FOUND",
+      "subject_instrument": "Equities",
+      "subject_instrument_status": "CONFIRMED",
+      "subject_type": "CONCEPT",
+      "subject_status": "CONFIRMED",
+      "readiness": "SEMANTICALLY_READY",
+      "supporting_segment_ids": [],
+      "resolution_method": null,
+      "relationship": "UNKNOWN"
+    },
+    {
+      "io_id": "io-ad22428c42848079",
+      "event_type": "monetary_policy_decision",
+      "source_name": "euronext",
+      "subject_entity": "UNKNOWN",
+      "subject_entity_status": "NOT_FOUND",
+      "subject_concept": null,
+      "subject_concept_status": "NOT_FOUND",
+      "subject_indicator": null,
+      "subject_indicator_status": "NOT_FOUND",
+      "subject_instrument": "Equities",
+      "subject_instrument_status": "CONFIRMED",
+      "subject_type": "INSTRUMENT",
+      "subject_status": "CONFIRMED",
+      "readiness": "SEMANTICALLY_PARTIAL",
+      "supporting_segment_ids": [],
+      "resolution_method": null,
+      "relationship": "UNKNOWN"
+    },
+    {
+      "io_id": "io-1c89837982b29495",
+      "event_type": "regulatory_enforcement",
+      "source_name": "fca",
+      "subject_entity": "UNKNOWN",
+      "subject_entity_status": "NOT_FOUND",
+      "subject_concept": "Penalty",
+      "subject_concept_status": "CONFIRMED",
+      "subject_indicator": null,
+      "subject_indicator_status": "NOT_FOUND",
+      "subject_instrument": null,
+      "subject_instrument_status": "NOT_FOUND",
+      "subject_type": "CONCEPT",
+      "subject_status": "CONFIRMED",
+      "readiness": "SEMANTICALLY_PARTIAL",
+      "supporting_segment_ids": [],
+      "resolution_method": null,
+      "relationship": "UNKNOWN"
+    },
+    {
+      "io_id": "io-907eb1c59a2dd17d",
+      "event_type": "statistical_release",
+      "source_name": "bea",
+      "subject_entity": "UNKNOWN",
+      "subject_entity_status": "NOT_FOUND",
+      "subject_concept": null,
+      "subject_concept_status": "NOT_FOUND",
+      "subject_indicator": "Gross Domestic Product",
+      "subject_indicator_status": "CONFIRMED",
+      "subject_instrument": null,
+      "subject_instrument_status": "NOT_FOUND",
+      "subject_type": "INDICATOR",
+      "subject_status": "CONFIRMED",
+      "readiness": "SEMANTICALLY_READY",
+      "supporting_segment_ids": [],
+      "resolution_method": null,
+      "relationship": "UNKNOWN"
+    },
+    {
+      "io_id": "io-cd1755c140271312",
+      "event_type": "statistical_release",
+      "source_name": "bea",
+      "subject_entity": "UNKNOWN",
+      "subject_entity_status": "NOT_FOUND",
+      "subject_concept": null,
+      "subject_concept_status": "NOT_FOUND",
+      "subject_indicator": "Gross Domestic Product",
+      "subject_indicator_status": "CONFIRMED",
+      "subject_instrument": null,
+      "subject_instrument_status": "NOT_FOUND",
+      "subject_type": "INDICATOR",
+      "subject_status": "CONFIRMED",
+      "readiness": "SEMANTICALLY_READY",
+      "supporting_segment_ids": [],
+      "resolution_method": null,
+      "relationship": "UNKNOWN"
+    },
+    {
+      "io_id": "io-9ee4310c599e91ac",
+      "event_type": "monetary_policy_decision",
+      "source_name": "euronext",
+      "subject_entity": "UNKNOWN",
+      "subject_entity_status": "NOT_FOUND",
+      "subject_concept": null,
+      "subject_concept_status": "NOT_FOUND",
+      "subject_indicator": null,
+      "subject_indicator_status": "NOT_FOUND",
+      "subject_instrument": "Equities",
+      "subject_instrument_status": "CONFIRMED",
+      "subject_type": "INSTRUMENT",
+      "subject_status": "CONFIRMED",
+      "readiness": "SEMANTICALLY_PARTIAL",
+      "supporting_segment_ids": [],
+      "resolution_method": null,
+      "relationship": "UNKNOWN"
+    },
+    {
+      "io_id": "io-094f8ef157d2cf57",
+      "event_type": "monetary_policy_decision",
+      "source_name": "euronext",
+      "subject_entity": "UNKNOWN",
+      "subject_entity_status": "NOT_FOUND",
+      "subject_concept": null,
+      "subject_concept_status": "NOT_FOUND",
+      "subject_indicator": null,
+      "subject_indicator_status": "NOT_FOUND",
+      "subject_instrument": "Equities",
+      "subject_instrument_status": "CONFIRMED",
+      "subject_type": "INSTRUMENT",
+      "subject_status": "CONFIRMED",
+      "readiness": "SEMANTICALLY_PARTIAL",
+      "supporting_segment_ids": [],
+      "resolution_method": null,
+      "relationship": "UNKNOWN"
+    },
+    {
+      "io_id": "io-a4d53f5d83e24705",
+      "event_type": "monetary_policy_decision",
+      "source_name": "euronext",
+      "subject_entity": "UNKNOWN",
+      "subject_entity_status": "NOT_FOUND",
+      "subject_concept": null,
+      "subject_concept_status": "NOT_FOUND",
+      "subject_indicator": null,
+      "subject_indicator_status": "NOT_FOUND",
+      "subject_instrument": "Equities",
+      "subject_instrument_status": "CONFIRMED",
+      "subject_type": "INSTRUMENT",
+      "subject_status": "CONFIRMED",
+      "readiness": "SEMANTICALLY_PARTIAL",
+      "supporting_segment_ids": [],
+      "resolution_method": null,
+      "relationship": "UNKNOWN"
+    },
+    {
+      "io_id": "io-72265caf968befaa",
+      "event_type": "monetary_policy_decision",
+      "source_name": "euronext",
+      "subject_entity": "UNKNOWN",
+      "subject_entity_status": "NOT_FOUND",
+      "subject_concept": null,
+      "subject_concept_status": "NOT_FOUND",
+      "subject_indicator": null,
+      "subject_indicator_status": "NOT_FOUND",
+      "subject_instrument": "Equities",
+      "subject_instrument_status": "CONFIRMED",
+      "subject_type": "INSTRUMENT",
+      "subject_status": "CONFIRMED",
+      "readiness": "SEMANTICALLY_PARTIAL",
+      "supporting_segment_ids": [],
+      "resolution_method": null,
+      "relationship": "UNKNOWN"
+    },
+    {
+      "io_id": "io-c2d0e423f35c0990",
+      "event_type": "monetary_policy_decision",
+      "source_name": "euronext",
+      "subject_entity": "UNKNOWN",
+      "subject_entity_status": "NOT_FOUND",
+      "subject_concept": null,
+      "subject_concept_status": "NOT_FOUND",
+      "subject_indicator": null,
+      "subject_indicator_status": "NOT_FOUND",
+      "subject_instrument": "Equities",
+      "subject_instrument_status": "CONFIRMED",
+      "subject_type": "INSTRUMENT",
+      "subject_status": "CONFIRMED",
+      "readiness": "SEMANTICALLY_PARTIAL",
+      "supporting_segment_ids": [],
+      "resolution_method": null,
+      "relationship": "UNKNOWN"
+    },
+    {
+      "io_id": "io-e1006f232af90069",
+      "event_type": "statistical_release",
+      "source_name": "bank-of-england",
+      "subject_entity": "UNKNOWN",
+      "subject_entity_status": "NOT_FOUND",
+      "subject_concept": null,
+      "subject_concept_status": "NOT_FOUND",
+      "subject_indicator": "Inflation",
+      "subject_indicator_status": "CONFIRMED",
+      "subject_instrument": "Policy Rate",
+      "subject_instrument_status": "CONFIRMED",
+      "subject_type": "INDICATOR",
+      "subject_status": "CONFIRMED",
+      "readiness": "SEMANTICALLY_PARTIAL",
+      "supporting_segment_ids": [],
+      "resolution_method": null,
+      "relationship": "UNKNOWN"
+    },
+    {
+      "io_id": "io-32b4630ad46ee074",
+      "event_type": "monetary_policy_decision",
+      "source_name": "euronext",
+      "subject_entity": "UNKNOWN",
+      "subject_entity_status": "NOT_FOUND",
+      "subject_concept": null,
+      "subject_concept_status": "NOT_FOUND",
+      "subject_indicator": null,
+      "subject_indicator_status": "NOT_FOUND",
+      "subject_instrument": "Equities",
+      "subject_instrument_status": "CONFIRMED",
+      "subject_type": "INSTRUMENT",
+      "subject_status": "CONFIRMED",
+      "readiness": "SEMANTICALLY_PARTIAL",
+      "supporting_segment_ids": [],
+      "resolution_method": null,
+      "relationship": "UNKNOWN"
+    },
+    {
+      "io_id": "io-1d843980c07050f9",
+      "event_type": "statistical_release",
+      "source_name": "bank-of-england",
+      "subject_entity": "UNKNOWN",
+      "subject_entity_status": "NOT_FOUND",
+      "subject_concept": "Monetary Policy",
+      "subject_concept_status": "CONFIRMED",
+      "subject_indicator": "Inflation",
+      "subject_indicator_status": "CONFIRMED",
+      "subject_instrument": "Policy Rate",
+      "subject_instrument_status": "CONFIRMED",
+      "subject_type": "CONCEPT",
+      "subject_status": "CONFIRMED",
+      "readiness": "SEMANTICALLY_READY",
+      "supporting_segment_ids": [],
+      "resolution_method": null,
+      "relationship": "UNKNOWN"
+    },
+    {
+      "io_id": "io-a1a9e092b7768ec6",
+      "event_type": "monetary_policy_decision",
+      "source_name": "euronext",
+      "subject_entity": "UNKNOWN",
+      "subject_entity_status": "NOT_FOUND",
+      "subject_concept": null,
+      "subject_concept_status": "NOT_FOUND",
+      "subject_indicator": null,
+      "subject_indicator_status": "NOT_FOUND",
+      "subject_instrument": "Equities",
+      "subject_instrument_status": "CONFIRMED",
+      "subject_type": "INSTRUMENT",
+      "subject_status": "CONFIRMED",
+      "readiness": "SEMANTICALLY_PARTIAL",
+      "supporting_segment_ids": [],
+      "resolution_method": null,
+      "relationship": "UNKNOWN"
+    },
+    {
+      "io_id": "io-ee438cb6716e34b7",
+      "event_type": "monetary_policy_decision",
+      "source_name": "euronext",
+      "subject_entity": "UNKNOWN",
+      "subject_entity_status": "NOT_FOUND",
+      "subject_concept": null,
+      "subject_concept_status": "NOT_FOUND",
+      "subject_indicator": null,
+      "subject_indicator_status": "NOT_FOUND",
+      "subject_instrument": "Equities",
+      "subject_instrument_status": "CONFIRMED",
+      "subject_type": "INSTRUMENT",
+      "subject_status": "CONFIRMED",
+      "readiness": "SEMANTICALLY_PARTIAL",
+      "supporting_segment_ids": [],
+      "resolution_method": null,
+      "relationship": "UNKNOWN"
+    },
+    {
+      "io_id": "io-f865359f182ac3b9",
+      "event_type": "monetary_policy_decision",
+      "source_name": "euronext",
+      "subject_entity": "UNKNOWN",
+      "subject_entity_status": "NOT_FOUND",
+      "subject_concept": null,
+      "subject_concept_status": "NOT_FOUND",
+      "subject_indicator": null,
+      "subject_indicator_status": "NOT_FOUND",
+      "subject_instrument": "Equities",
+      "subject_instrument_status": "CONFIRMED",
+      "subject_type": "INSTRUMENT",
+      "subject_status": "CONFIRMED",
+      "readiness": "SEMANTICALLY_PARTIAL",
+      "supporting_segment_ids": [],
+      "resolution_method": null,
+      "relationship": "UNKNOWN"
+    },
+    {
+      "io_id": "io-f5ea3707a14000e8",
+      "event_type": "monetary_policy_decision",
+      "source_name": "euronext",
+      "subject_entity": "UNKNOWN",
+      "subject_entity_status": "NOT_FOUND",
+      "subject_concept": null,
+      "subject_concept_status": "NOT_FOUND",
+      "subject_indicator": null,
+      "subject_indicator_status": "NOT_FOUND",
+      "subject_instrument": "Equities",
+      "subject_instrument_status": "CONFIRMED",
+      "subject_type": "INSTRUMENT",
+      "subject_status": "CONFIRMED",
+      "readiness": "SEMANTICALLY_PARTIAL",
+      "supporting_segment_ids": [],
+      "resolution_method": null,
+      "relationship": "UNKNOWN"
+    },
+    {
+      "io_id": "io-850bbc38d59efe49",
+      "event_type": "monetary_policy_decision",
+      "source_name": "euronext",
+      "subject_entity": "UNKNOWN",
+      "subject_entity_status": "NOT_FOUND",
+      "subject_concept": null,
+      "subject_concept_status": "NOT_FOUND",
+      "subject_indicator": null,
+      "subject_indicator_status": "NOT_FOUND",
+      "subject_instrument": "Equities",
+      "subject_instrument_status": "CONFIRMED",
+      "subject_type": "INSTRUMENT",
+      "subject_status": "CONFIRMED",
+      "readiness": "SEMANTICALLY_PARTIAL",
+      "supporting_segment_ids": [],
+      "resolution_method": null,
+      "relationship": "UNKNOWN"
+    },
+    {
+      "io_id": "io-af82d235d80d7b5c",
+      "event_type": "monetary_policy_decision",
+      "source_name": "euronext",
+      "subject_entity": "UNKNOWN",
+      "subject_entity_status": "NOT_FOUND",
+      "subject_concept": null,
+      "subject_concept_status": "NOT_FOUND",
+      "subject_indicator": null,
+      "subject_indicator_status": "NOT_FOUND",
+      "subject_instrument": "Equities",
+      "subject_instrument_status": "CONFIRMED",
+      "subject_type": "INSTRUMENT",
+      "subject_status": "CONFIRMED",
+      "readiness": "SEMANTICALLY_PARTIAL",
+      "supporting_segment_ids": [],
+      "resolution_method": null,
+      "relationship": "UNKNOWN"
+    },
+    {
+      "io_id": "io-942a7b03a6d9f528",
+      "event_type": "monetary_policy_decision",
+      "source_name": "euronext",
+      "subject_entity": "UNKNOWN",
+      "subject_entity_status": "NOT_FOUND",
+      "subject_concept": null,
+      "subject_concept_status": "NOT_FOUND",
+      "subject_indicator": null,
+      "subject_indicator_status": "NOT_FOUND",
+      "subject_instrument": "Equities",
+      "subject_instrument_status": "CONFIRMED",
+      "subject_type": "INSTRUMENT",
+      "subject_status": "CONFIRMED",
+      "readiness": "SEMANTICALLY_PARTIAL",
+      "supporting_segment_ids": [],
+      "resolution_method": null,
+      "relationship": "UNKNOWN"
+    },
+    {
+      "io_id": "io-ebbec3bafc81efcb",
+      "event_type": "monetary_policy_decision",
+      "source_name": "euronext",
+      "subject_entity": "UNKNOWN",
+      "subject_entity_status": "NOT_FOUND",
+      "subject_concept": null,
+      "subject_concept_status": "NOT_FOUND",
+      "subject_indicator": null,
+      "subject_indicator_status": "NOT_FOUND",
+      "subject_instrument": "Equities",
+      "subject_instrument_status": "CONFIRMED",
+      "subject_type": "INSTRUMENT",
+      "subject_status": "CONFIRMED",
+      "readiness": "SEMANTICALLY_PARTIAL",
+      "supporting_segment_ids": [],
+      "resolution_method": null,
+      "relationship": "UNKNOWN"
+    },
+    {
+      "io_id": "io-ca986537c905e0ce",
+      "event_type": "monetary_policy_decision",
+      "source_name": "euronext",
+      "subject_entity": "UNKNOWN",
+      "subject_entity_status": "NOT_FOUND",
+      "subject_concept": null,
+      "subject_concept_status": "NOT_FOUND",
+      "subject_indicator": null,
+      "subject_indicator_status": "NOT_FOUND",
+      "subject_instrument": "Equities",
+      "subject_instrument_status": "CONFIRMED",
+      "subject_type": "INSTRUMENT",
+      "subject_status": "CONFIRMED",
+      "readiness": "SEMANTICALLY_PARTIAL",
+      "supporting_segment_ids": [],
+      "resolution_method": null,
+      "relationship": "UNKNOWN"
+    },
+    {
+      "io_id": "io-09da29468dc8b429",
+      "event_type": "statistical_release",
+      "source_name": "bea",
+      "subject_entity": "UNKNOWN",
+      "subject_entity_status": "NOT_FOUND",
+      "subject_concept": null,
+      "subject_concept_status": "NOT_FOUND",
+      "subject_indicator": "Gross Domestic Product",
+      "subject_indicator_status": "CONFIRMED",
+      "subject_instrument": null,
+      "subject_instrument_status": "NOT_FOUND",
+      "subject_type": "INDICATOR",
+      "subject_status": "CONFIRMED",
+      "readiness": "SEMANTICALLY_READY",
+      "supporting_segment_ids": [],
+      "resolution_method": null,
+      "relationship": "UNKNOWN"
+    },
+    {
+      "io_id": "io-c2366600f4d715c4",
+      "event_type": "statistical_release",
+      "source_name": "bea",
+      "subject_entity": "UNKNOWN",
+      "subject_entity_status": "NOT_FOUND",
+      "subject_concept": null,
+      "subject_concept_status": "NOT_FOUND",
+      "subject_indicator": "Gross Domestic Product",
+      "subject_indicator_status": "CONFIRMED",
+      "subject_instrument": null,
+      "subject_instrument_status": "NOT_FOUND",
+      "subject_type": "INDICATOR",
+      "subject_status": "CONFIRMED",
+      "readiness": "SEMANTICALLY_READY",
+      "supporting_segment_ids": [],
+      "resolution_method": null,
+      "relationship": "UNKNOWN"
+    },
+    {
+      "io_id": "io-1e56cf5f0357cb4d",
+      "event_type": "statistical_release",
+      "source_name": "bea",
+      "subject_entity": "UNKNOWN",
+      "subject_entity_status": "NOT_FOUND",
+      "subject_concept": null,
+      "subject_concept_status": "NOT_FOUND",
+      "subject_indicator": "Gross Domestic Product",
+      "subject_indicator_status": "CONFIRMED",
+      "subject_instrument": null,
+      "subject_instrument_status": "NOT_FOUND",
+      "subject_type": "INDICATOR",
+      "subject_status": "CONFIRMED",
+      "readiness": "SEMANTICALLY_READY",
+      "supporting_segment_ids": [],
+      "resolution_method": null,
+      "relationship": "UNKNOWN"
+    },
+    {
+      "io_id": "io-5269e77c2b0f3ffd",
+      "event_type": "statistical_release",
+      "source_name": "bea",
+      "subject_entity": "UNKNOWN",
+      "subject_entity_status": "NOT_FOUND",
+      "subject_concept": null,
+      "subject_concept_status": "NOT_FOUND",
+      "subject_indicator": "Gross Domestic Product",
+      "subject_indicator_status": "CONFIRMED",
+      "subject_instrument": null,
+      "subject_instrument_status": "NOT_FOUND",
+      "subject_type": "INDICATOR",
+      "subject_status": "CONFIRMED",
+      "readiness": "SEMANTICALLY_READY",
+      "supporting_segment_ids": [],
+      "resolution_method": null,
+      "relationship": "UNKNOWN"
+    },
+    {
+      "io_id": "io-2dff78ee576bc9cf",
+      "event_type": "statistical_release",
+      "source_name": "bea",
+      "subject_entity": "UNKNOWN",
+      "subject_entity_status": "NOT_FOUND",
+      "subject_concept": null,
+      "subject_concept_status": "NOT_FOUND",
+      "subject_indicator": "Gross Domestic Product",
+      "subject_indicator_status": "CONFIRMED",
+      "subject_instrument": null,
+      "subject_instrument_status": "NOT_FOUND",
+      "subject_type": "INDICATOR",
+      "subject_status": "CONFIRMED",
+      "readiness": "SEMANTICALLY_READY",
+      "supporting_segment_ids": [],
+      "resolution_method": null,
+      "relationship": "UNKNOWN"
+    },
+    {
+      "io_id": "io-645312b1a398063a",
+      "event_type": "statistical_release",
+      "source_name": "bea",
+      "subject_entity": "UNKNOWN",
+      "subject_entity_status": "NOT_FOUND",
+      "subject_concept": null,
+      "subject_concept_status": "NOT_FOUND",
+      "subject_indicator": "Gross Domestic Product",
+      "subject_indicator_status": "CONFIRMED",
+      "subject_instrument": null,
+      "subject_instrument_status": "NOT_FOUND",
+      "subject_type": "INDICATOR",
+      "subject_status": "CONFIRMED",
+      "readiness": "SEMANTICALLY_READY",
+      "supporting_segment_ids": [],
+      "resolution_method": null,
+      "relationship": "UNKNOWN"
+    },
+    {
+      "io_id": "io-a4528f6cfe29cfe1",
+      "event_type": "statistical_release",
+      "source_name": "bea",
+      "subject_entity": "UNKNOWN",
+      "subject_entity_status": "NOT_FOUND",
+      "subject_concept": null,
+      "subject_concept_status": "NOT_FOUND",
+      "subject_indicator": "Gross Domestic Product",
+      "subject_indicator_status": "CONFIRMED",
+      "subject_instrument": null,
+      "subject_instrument_status": "NOT_FOUND",
+      "subject_type": "INDICATOR",
+      "subject_status": "CONFIRMED",
+      "readiness": "SEMANTICALLY_READY",
+      "supporting_segment_ids": [],
+      "resolution_method": null,
+      "relationship": "UNKNOWN"
+    },
+    {
+      "io_id": "io-8dd0b49dbd84784f",
+      "event_type": "statistical_release",
+      "source_name": "bea",
+      "subject_entity": "UNKNOWN",
+      "subject_entity_status": "NOT_FOUND",
+      "subject_concept": null,
+      "subject_concept_status": "NOT_FOUND",
+      "subject_indicator": "Gross Domestic Product",
+      "subject_indicator_status": "CONFIRMED",
+      "subject_instrument": null,
+      "subject_instrument_status": "NOT_FOUND",
+      "subject_type": "INDICATOR",
+      "subject_status": "CONFIRMED",
+      "readiness": "SEMANTICALLY_READY",
+      "supporting_segment_ids": [],
+      "resolution_method": null,
+      "relationship": "UNKNOWN"
+    },
+    {
+      "io_id": "io-b5e6e01f2a705af8",
+      "event_type": "statistical_release",
+      "source_name": "bea",
+      "subject_entity": "UNKNOWN",
+      "subject_entity_status": "NOT_FOUND",
+      "subject_concept": null,
+      "subject_concept_status": "NOT_FOUND",
+      "subject_indicator": null,
+      "subject_indicator_status": "NOT_FOUND",
+      "subject_instrument": "Foreign Exchange",
+      "subject_instrument_status": "CONFIRMED",
+      "subject_type": "INSTRUMENT",
+      "subject_status": "CONFIRMED",
+      "readiness": "SEMANTICALLY_READY",
+      "supporting_segment_ids": [],
+      "resolution_method": null,
+      "relationship": "UNKNOWN"
+    },
+    {
+      "io_id": "io-cc38d9340dd09ee6",
+      "event_type": "statistical_release",
+      "source_name": "bea",
+      "subject_entity": "UNKNOWN",
+      "subject_entity_status": "NOT_FOUND",
+      "subject_concept": null,
+      "subject_concept_status": "NOT_FOUND",
+      "subject_indicator": "Gross Domestic Product",
+      "subject_indicator_status": "CONFIRMED",
+      "subject_instrument": null,
+      "subject_instrument_status": "NOT_FOUND",
+      "subject_type": "INDICATOR",
+      "subject_status": "CONFIRMED",
+      "readiness": "SEMANTICALLY_READY",
+      "supporting_segment_ids": [],
+      "resolution_method": null,
+      "relationship": "UNKNOWN"
+    },
+    {
+      "io_id": "io-bd555b2d90276e2d",
+      "event_type": "statistical_release",
+      "source_name": "bea",
+      "subject_entity": "UNKNOWN",
+      "subject_entity_status": "NOT_FOUND",
+      "subject_concept": null,
+      "subject_concept_status": "NOT_FOUND",
+      "subject_indicator": "Gross Domestic Product",
+      "subject_indicator_status": "CONFIRMED",
+      "subject_instrument": null,
+      "subject_instrument_status": "NOT_FOUND",
+      "subject_type": "INDICATOR",
+      "subject_status": "CONFIRMED",
+      "readiness": "SEMANTICALLY_READY",
+      "supporting_segment_ids": [],
+      "resolution_method": null,
+      "relationship": "UNKNOWN"
+    },
+    {
+      "io_id": "io-1fdd7f96a6e1d7cc",
+      "event_type": "statistical_release",
+      "source_name": "bea",
+      "subject_entity": "UNKNOWN",
+      "subject_entity_status": "NOT_FOUND",
+      "subject_concept": null,
+      "subject_concept_status": "NOT_FOUND",
+      "subject_indicator": "Gross Domestic Product",
+      "subject_indicator_status": "CONFIRMED",
+      "subject_instrument": null,
+      "subject_instrument_status": "NOT_FOUND",
+      "subject_type": "INDICATOR",
+      "subject_status": "CONFIRMED",
+      "readiness": "SEMANTICALLY_READY",
+      "supporting_segment_ids": [],
+      "resolution_method": null,
+      "relationship": "UNKNOWN"
+    },
+    {
+      "io_id": "io-ed6b55305996badc",
+      "event_type": "statistical_release",
+      "source_name": "bea",
+      "subject_entity": "UNKNOWN",
+      "subject_entity_status": "NOT_FOUND",
+      "subject_concept": null,
+      "subject_concept_status": "NOT_FOUND",
+      "subject_indicator": "Gross Domestic Product",
+      "subject_indicator_status": "CONFIRMED",
+      "subject_instrument": null,
+      "subject_instrument_status": "NOT_FOUND",
+      "subject_type": "INDICATOR",
+      "subject_status": "CONFIRMED",
+      "readiness": "SEMANTICALLY_READY",
+      "supporting_segment_ids": [],
+      "resolution_method": null,
+      "relationship": "UNKNOWN"
+    },
+    {
+      "io_id": "io-0c9a256a6d9a008e",
+      "event_type": "statistical_release",
+      "source_name": "bank-of-england",
+      "subject_entity": "UNKNOWN",
+      "subject_entity_status": "NOT_FOUND",
+      "subject_concept": null,
+      "subject_concept_status": "NOT_FOUND",
+      "subject_indicator": "Consumer Price Index",
+      "subject_indicator_status": "CONFIRMED",
+      "subject_instrument": null,
+      "subject_instrument_status": "NOT_FOUND",
+      "subject_type": "INDICATOR",
+      "subject_status": "CONFIRMED",
+      "readiness": "SEMANTICALLY_PARTIAL",
+      "supporting_segment_ids": [],
+      "resolution_method": null,
+      "relationship": "UNKNOWN"
+    },
+    {
+      "io_id": "io-e8b25085610e45a2",
+      "event_type": "statistical_release",
+      "source_name": "bank-of-england",
+      "subject_entity": "UNKNOWN",
+      "subject_entity_status": "NOT_FOUND",
+      "subject_concept": null,
+      "subject_concept_status": "NOT_FOUND",
+      "subject_indicator": "Inflation",
+      "subject_indicator_status": "CONFIRMED",
+      "subject_instrument": null,
+      "subject_instrument_status": "NOT_FOUND",
+      "subject_type": "INDICATOR",
+      "subject_status": "CONFIRMED",
+      "readiness": "SEMANTICALLY_PARTIAL",
+      "supporting_segment_ids": [],
+      "resolution_method": null,
+      "relationship": "UNKNOWN"
+    },
+    {
+      "io_id": "io-83882f5770e16ee7",
+      "event_type": "statistical_release",
+      "source_name": "boc",
+      "subject_entity": "UNKNOWN",
+      "subject_entity_status": "NOT_FOUND",
+      "subject_concept": null,
+      "subject_concept_status": "NOT_FOUND",
+      "subject_indicator": null,
+      "subject_indicator_status": "NOT_FOUND",
+      "subject_instrument": "Policy Rate",
+      "subject_instrument_status": "CONFIRMED",
+      "subject_type": "INSTRUMENT",
+      "subject_status": "CONFIRMED",
+      "readiness": "SEMANTICALLY_PARTIAL",
+      "supporting_segment_ids": [],
+      "resolution_method": null,
+      "relationship": "UNKNOWN"
+    },
+    {
+      "io_id": "io-cd4b8ce2c7ff3dda",
+      "event_type": "statistical_release",
+      "source_name": "boc",
+      "subject_entity": "UNKNOWN",
+      "subject_entity_status": "NOT_FOUND",
+      "subject_concept": null,
+      "subject_concept_status": "NOT_FOUND",
+      "subject_indicator": null,
+      "subject_indicator_status": "NOT_FOUND",
+      "subject_instrument": "Foreign Exchange",
+      "subject_instrument_status": "CONFIRMED",
+      "subject_type": "INSTRUMENT",
+      "subject_status": "CONFIRMED",
+      "readiness": "SEMANTICALLY_PARTIAL",
+      "supporting_segment_ids": [],
+      "resolution_method": null,
+      "relationship": "UNKNOWN"
+    },
+    {
+      "io_id": "io-f94642af76351dec",
+      "event_type": "statistical_release",
+      "source_name": "boc",
+      "subject_entity": "UNKNOWN",
+      "subject_entity_status": "NOT_FOUND",
+      "subject_concept": "Monetary Policy",
+      "subject_concept_status": "CONFIRMED",
+      "subject_indicator": "Inflation",
+      "subject_indicator_status": "CONFIRMED",
+      "subject_instrument": "Policy Rate",
+      "subject_instrument_status": "CONFIRMED",
+      "subject_type": "CONCEPT",
+      "subject_status": "CONFIRMED",
+      "readiness": "SEMANTICALLY_PARTIAL",
+      "supporting_segment_ids": [],
+      "resolution_method": null,
+      "relationship": "UNKNOWN"
+    },
+    {
+      "io_id": "io-60073bc6edae9ac2",
+      "event_type": "regulatory_enforcement",
+      "source_name": "sfc-hk",
+      "subject_entity": "UNKNOWN",
+      "subject_entity_status": "NOT_FOUND",
+      "subject_concept": null,
+      "subject_concept_status": "NOT_FOUND",
+      "subject_indicator": null,
+      "subject_indicator_status": "NOT_FOUND",
+      "subject_instrument": "Equities",
+      "subject_instrument_status": "CONFIRMED",
+      "subject_type": "INSTRUMENT",
+      "subject_status": "CONFIRMED",
+      "readiness": "SEMANTICALLY_PARTIAL",
+      "supporting_segment_ids": [],
+      "resolution_method": null,
+      "relationship": "UNKNOWN"
+    },
+    {
+      "io_id": "io-6fef2e40160506bb",
+      "event_type": "statistical_release",
+      "source_name": "eurostat-emp",
+      "subject_entity": "UNKNOWN",
+      "subject_entity_status": "NOT_FOUND",
+      "subject_concept": null,
+      "subject_concept_status": "NOT_FOUND",
+      "subject_indicator": null,
+      "subject_indicator_status": "NOT_FOUND",
+      "subject_instrument": "Equities",
+      "subject_instrument_status": "CONFIRMED",
+      "subject_type": "INSTRUMENT",
+      "subject_status": "CONFIRMED",
+      "readiness": "SEMANTICALLY_READY",
+      "supporting_segment_ids": [],
+      "resolution_method": null,
+      "relationship": "UNKNOWN"
+    },
+    {
+      "io_id": "io-864e619bbdeccac0",
+      "event_type": "statistical_release",
+      "source_name": "eurostat-emp",
+      "subject_entity": "UNKNOWN",
+      "subject_entity_status": "NOT_FOUND",
+      "subject_concept": null,
+      "subject_concept_status": "NOT_FOUND",
+      "subject_indicator": "Gross Domestic Product",
+      "subject_indicator_status": "CONFIRMED",
+      "subject_instrument": null,
+      "subject_instrument_status": "NOT_FOUND",
+      "subject_type": "INDICATOR",
+      "subject_status": "CONFIRMED",
+      "readiness": "SEMANTICALLY_PARTIAL",
+      "supporting_segment_ids": [],
+      "resolution_method": null,
+      "relationship": "UNKNOWN"
+    },
+    {
+      "io_id": "io-87c8ae655f995fdf",
+      "event_type": "regulatory_enforcement",
+      "source_name": "boj",
+      "subject_entity": "UNKNOWN",
+      "subject_entity_status": "NOT_FOUND",
+      "subject_concept": "Settlement",
+      "subject_concept_status": "CONFIRMED",
+      "subject_indicator": null,
+      "subject_indicator_status": "NOT_FOUND",
+      "subject_instrument": null,
+      "subject_instrument_status": "NOT_FOUND",
+      "subject_type": "CONCEPT",
+      "subject_status": "CONFIRMED",
+      "readiness": "SEMANTICALLY_PARTIAL",
+      "supporting_segment_ids": [],
+      "resolution_method": null,
+      "relationship": "UNKNOWN"
+    },
+    {
+      "io_id": "io-aa2fa43b0be7f718",
+      "event_type": "regulatory_enforcement",
+      "source_name": "boj",
+      "subject_entity": "UNKNOWN",
+      "subject_entity_status": "NOT_FOUND",
+      "subject_concept": "Settlement",
+      "subject_concept_status": "CONFIRMED",
+      "subject_indicator": null,
+      "subject_indicator_status": "NOT_FOUND",
+      "subject_instrument": null,
+      "subject_instrument_status": "NOT_FOUND",
+      "subject_type": "CONCEPT",
+      "subject_status": "CONFIRMED",
+      "readiness": "SEMANTICALLY_PARTIAL",
+      "supporting_segment_ids": [],
+      "resolution_method": null,
+      "relationship": "UNKNOWN"
+    },
+    {
+      "io_id": "io-c7e628b08293fd42",
+      "event_type": "statistical_release",
+      "source_name": "boj",
+      "subject_entity": "UNKNOWN",
+      "subject_entity_status": "NOT_FOUND",
+      "subject_concept": "Monetary Policy",
+      "subject_concept_status": "CONFIRMED",
+      "subject_indicator": "Gross Domestic Product",
+      "subject_indicator_status": "CONFIRMED",
+      "subject_instrument": "Bonds",
+      "subject_instrument_status": "CONFIRMED",
+      "subject_type": "CONCEPT",
+      "subject_status": "CONFIRMED",
+      "readiness": "SEMANTICALLY_PARTIAL",
+      "supporting_segment_ids": [],
+      "resolution_method": null,
+      "relationship": "UNKNOWN"
+    },
+    {
+      "io_id": "io-5ac02f9975df71f4",
+      "event_type": "statistical_release",
+      "source_name": "boj",
+      "subject_entity": "UNKNOWN",
+      "subject_entity_status": "NOT_FOUND",
+      "subject_concept": "Monetary Policy",
+      "subject_concept_status": "CONFIRMED",
+      "subject_indicator": "GDP Growth",
+      "subject_indicator_status": "CONFIRMED",
+      "subject_instrument": "Bonds",
+      "subject_instrument_status": "CONFIRMED",
+      "subject_type": "CONCEPT",
+      "subject_status": "CONFIRMED",
+      "readiness": "SEMANTICALLY_READY",
+      "supporting_segment_ids": [],
+      "resolution_method": null,
+      "relationship": "UNKNOWN"
+    },
+    {
+      "io_id": "io-d5b1cfa115a3954b",
+      "event_type": "statistical_release",
+      "source_name": "boj",
+      "subject_entity": "UNKNOWN",
+      "subject_entity_status": "NOT_FOUND",
+      "subject_concept": "Monetary Policy",
+      "subject_concept_status": "CONFIRMED",
+      "subject_indicator": "Inflation",
+      "subject_indicator_status": "CONFIRMED",
+      "subject_instrument": null,
+      "subject_instrument_status": "NOT_FOUND",
+      "subject_type": "CONCEPT",
+      "subject_status": "CONFIRMED",
+      "readiness": "SEMANTICALLY_PARTIAL",
+      "supporting_segment_ids": [],
+      "resolution_method": null,
+      "relationship": "UNKNOWN"
+    },
+    {
+      "io_id": "io-0ab4413fb520a9c0",
+      "event_type": "statistical_release",
+      "source_name": "boc",
+      "subject_entity": "UNKNOWN",
+      "subject_entity_status": "NOT_FOUND",
+      "subject_concept": "Monetary Policy",
+      "subject_concept_status": "CONFIRMED",
+      "subject_indicator": null,
+      "subject_indicator_status": "NOT_FOUND",
+      "subject_instrument": null,
+      "subject_instrument_status": "NOT_FOUND",
+      "subject_type": "CONCEPT",
+      "subject_status": "CONFIRMED",
+      "readiness": "SEMANTICALLY_PARTIAL",
+      "supporting_segment_ids": [],
+      "resolution_method": null,
+      "relationship": "UNKNOWN"
+    },
+    {
+      "io_id": "io-c60cc20f95cda57b",
+      "event_type": "statistical_release",
+      "source_name": "boc",
+      "subject_entity": "UNKNOWN",
+      "subject_entity_status": "NOT_FOUND",
+      "subject_concept": null,
+      "subject_concept_status": "NOT_FOUND",
+      "subject_indicator": "Unemployment",
+      "subject_indicator_status": "CONFIRMED",
+      "subject_instrument": "Policy Rate",
+      "subject_instrument_status": "CONFIRMED",
+      "subject_type": "INDICATOR",
+      "subject_status": "CONFIRMED",
+      "readiness": "SEMANTICALLY_PARTIAL",
+      "supporting_segment_ids": [],
+      "resolution_method": null,
+      "relationship": "UNKNOWN"
+    },
+    {
+      "io_id": "io-5d9fd4f912a17225",
+      "event_type": "monetary_policy_decision",
+      "source_name": "bank-tanzania",
+      "subject_entity": "UNKNOWN",
+      "subject_entity_status": "NOT_FOUND",
+      "subject_concept": null,
+      "subject_concept_status": "NOT_FOUND",
+      "subject_indicator": null,
+      "subject_indicator_status": "NOT_FOUND",
+      "subject_instrument": "Foreign Exchange",
+      "subject_instrument_status": "CONFIRMED",
+      "subject_type": "INSTRUMENT",
+      "subject_status": "CONFIRMED",
+      "readiness": "SEMANTICALLY_PARTIAL",
+      "supporting_segment_ids": [],
+      "resolution_method": null,
+      "relationship": "UNKNOWN"
+    },
+    {
+      "io_id": "io-eb3f3a9442eb7c28",
+      "event_type": "regulatory_enforcement",
+      "source_name": "cbsl-srilanka",
+      "subject_entity": "UNKNOWN",
+      "subject_entity_status": "NOT_FOUND",
+      "subject_concept": "Settlement",
+      "subject_concept_status": "CONFIRMED",
+      "subject_indicator": null,
+      "subject_indicator_status": "NOT_FOUND",
+      "subject_instrument": null,
+      "subject_instrument_status": "NOT_FOUND",
+      "subject_type": "CONCEPT",
+      "subject_status": "CONFIRMED",
+      "readiness": "SEMANTICALLY_PARTIAL",
+      "supporting_segment_ids": [],
+      "resolution_method": null,
+      "relationship": "UNKNOWN"
+    },
+    {
+      "io_id": "io-09fc0c899f715fdb",
+      "event_type": "monetary_policy_decision",
+      "source_name": "idda-ireland",
+      "subject_entity": "UNKNOWN",
+      "subject_entity_status": "NOT_FOUND",
+      "subject_concept": null,
+      "subject_concept_status": "NOT_FOUND",
+      "subject_indicator": "GDP Growth",
+      "subject_indicator_status": "CONFIRMED",
+      "subject_instrument": null,
+      "subject_instrument_status": "NOT_FOUND",
+      "subject_type": "INDICATOR",
+      "subject_status": "CONFIRMED",
+      "readiness": "SEMANTICALLY_READY",
+      "supporting_segment_ids": [],
+      "resolution_method": null,
+      "relationship": "UNKNOWN"
+    },
+    {
+      "io_id": "io-7436f69447ea5a7f",
+      "event_type": "regulatory_enforcement",
+      "source_name": "nrcan",
+      "subject_entity": "UNKNOWN",
+      "subject_entity_status": "NOT_FOUND",
+      "subject_concept": "Settlement",
+      "subject_concept_status": "CONFIRMED",
+      "subject_indicator": null,
+      "subject_indicator_status": "NOT_FOUND",
+      "subject_instrument": null,
+      "subject_instrument_status": "NOT_FOUND",
+      "subject_type": "CONCEPT",
+      "subject_status": "CONFIRMED",
+      "readiness": "SEMANTICALLY_PARTIAL",
+      "supporting_segment_ids": [],
+      "resolution_method": null,
+      "relationship": "UNKNOWN"
+    },
+    {
+      "io_id": "io-7534fcd5081601e3",
+      "event_type": "monetary_policy_decision",
+      "source_name": "dfsa-uae",
+      "subject_entity": "UNKNOWN",
+      "subject_entity_status": "NOT_FOUND",
+      "subject_concept": "Penalty",
+      "subject_concept_status": "CONFIRMED",
+      "subject_indicator": null,
+      "subject_indicator_status": "NOT_FOUND",
+      "subject_instrument": null,
+      "subject_instrument_status": "NOT_FOUND",
+      "subject_type": "CONCEPT",
+      "subject_status": "CONFIRMED",
+      "readiness": "SEMANTICALLY_PARTIAL",
+      "supporting_segment_ids": [],
+      "resolution_method": null,
+      "relationship": "UNKNOWN"
+    },
+    {
+      "io_id": "io-ffd2ed89173318af",
+      "event_type": "regulatory_enforcement",
+      "source_name": "ecb-stat",
+      "subject_entity": "UNKNOWN",
+      "subject_entity_status": "NOT_FOUND",
+      "subject_concept": "Monetary Policy",
+      "subject_concept_status": "CONFIRMED",
+      "subject_indicator": null,
+      "subject_indicator_status": "NOT_FOUND",
+      "subject_instrument": null,
+      "subject_instrument_status": "NOT_FOUND",
+      "subject_type": "CONCEPT",
+      "subject_status": "CONFIRMED",
+      "readiness": "SEMANTICALLY_PARTIAL",
+      "supporting_segment_ids": [],
+      "resolution_method": null,
+      "relationship": "UNKNOWN"
+    },
+    {
+      "io_id": "io-ca2e327e2aa6cd44",
+      "event_type": "statistical_release",
+      "source_name": "ecb-stat",
+      "subject_entity": "UNKNOWN",
+      "subject_entity_status": "NOT_FOUND",
+      "subject_concept": null,
+      "subject_concept_status": "NOT_FOUND",
+      "subject_indicator": "Harmonised Index of Consumer Prices",
+      "subject_indicator_status": "CONFIRMED",
+      "subject_instrument": null,
+      "subject_instrument_status": "NOT_FOUND",
+      "subject_type": "INDICATOR",
+      "subject_status": "CONFIRMED",
+      "readiness": "SEMANTICALLY_PARTIAL",
+      "supporting_segment_ids": [],
+      "resolution_method": null,
+      "relationship": "UNKNOWN"
+    },
+    {
+      "io_id": "io-9d37f405aa6e7523",
+      "event_type": "regulatory_enforcement",
+      "source_name": "defra-carbon-uk",
+      "subject_entity": "UNKNOWN",
+      "subject_entity_status": "NOT_FOUND",
+      "subject_concept": "Penalty",
+      "subject_concept_status": "CONFIRMED",
+      "subject_indicator": null,
+      "subject_indicator_status": "NOT_FOUND",
+      "subject_instrument": null,
+      "subject_instrument_status": "NOT_FOUND",
+      "subject_type": "CONCEPT",
+      "subject_status": "CONFIRMED",
+      "readiness": "SEMANTICALLY_PARTIAL",
+      "supporting_segment_ids": [],
+      "resolution_method": null,
+      "relationship": "UNKNOWN"
+    },
+    {
+      "io_id": "io-df095b1b0959d904",
+      "event_type": "monetary_policy_decision",
+      "source_name": "treasurydirect-us",
+      "subject_entity": "UNKNOWN",
+      "subject_entity_status": "NOT_FOUND",
+      "subject_concept": null,
+      "subject_concept_status": "NOT_FOUND",
+      "subject_indicator": null,
+      "subject_indicator_status": "NOT_FOUND",
+      "subject_instrument": "Bonds",
+      "subject_instrument_status": "CONFIRMED",
+      "subject_type": "INSTRUMENT",
+      "subject_status": "CONFIRMED",
+      "readiness": "SEMANTICALLY_PARTIAL",
+      "supporting_segment_ids": [],
+      "resolution_method": null,
+      "relationship": "UNKNOWN"
+    },
+    {
+      "io_id": "io-5db9a02598750bc3",
+      "event_type": "monetary_policy_decision",
+      "source_name": "stat-austria",
+      "subject_entity": "UNKNOWN",
+      "subject_entity_status": "NOT_FOUND",
+      "subject_concept": null,
+      "subject_concept_status": "NOT_FOUND",
+      "subject_indicator": "Inflation",
+      "subject_indicator_status": "CONFIRMED",
+      "subject_instrument": null,
+      "subject_instrument_status": "NOT_FOUND",
+      "subject_type": "INDICATOR",
+      "subject_status": "CONFIRMED",
+      "readiness": "SEMANTICALLY_PARTIAL",
+      "supporting_segment_ids": [],
+      "resolution_method": null,
+      "relationship": "UNKNOWN"
+    },
+    {
+      "io_id": "io-8e1bbee497570547",
+      "event_type": "monetary_policy_decision",
+      "source_name": "treasurydirect-us",
+      "subject_entity": "UNKNOWN",
+      "subject_entity_status": "NOT_FOUND",
+      "subject_concept": "Penalty",
+      "subject_concept_status": "CONFIRMED",
+      "subject_indicator": "Consumer Price Index",
+      "subject_indicator_status": "CONFIRMED",
+      "subject_instrument": "Bonds",
+      "subject_instrument_status": "CONFIRMED",
+      "subject_type": "CONCEPT",
+      "subject_status": "CONFIRMED",
+      "readiness": "SEMANTICALLY_PARTIAL",
+      "supporting_segment_ids": [],
+      "resolution_method": null,
+      "relationship": "UNKNOWN"
+    },
+    {
+      "io_id": "io-6a53bc1180ea6b96",
+      "event_type": "monetary_policy_decision",
+      "source_name": "cso-ireland",
+      "subject_entity": "UNKNOWN",
+      "subject_entity_status": "NOT_FOUND",
+      "subject_concept": null,
+      "subject_concept_status": "NOT_FOUND",
+      "subject_indicator": "Unemployment",
+      "subject_indicator_status": "CONFIRMED",
+      "subject_instrument": null,
+      "subject_instrument_status": "NOT_FOUND",
+      "subject_type": "INDICATOR",
+      "subject_status": "CONFIRMED",
+      "readiness": "SEMANTICALLY_READY",
+      "supporting_segment_ids": [],
+      "resolution_method": null,
+      "relationship": "UNKNOWN"
+    },
+    {
+      "io_id": "io-bc4a82004166e0d6",
+      "event_type": "monetary_policy_decision",
+      "source_name": "cso-ireland",
+      "subject_entity": "UNKNOWN",
+      "subject_entity_status": "NOT_FOUND",
+      "subject_concept": null,
+      "subject_concept_status": "NOT_FOUND",
+      "subject_indicator": "Consumer Price Index",
+      "subject_indicator_status": "CONFIRMED",
+      "subject_instrument": null,
+      "subject_instrument_status": "NOT_FOUND",
+      "subject_type": "INDICATOR",
+      "subject_status": "CONFIRMED",
+      "readiness": "SEMANTICALLY_READY",
+      "supporting_segment_ids": [],
+      "resolution_method": null,
+      "relationship": "UNKNOWN"
+    },
+    {
+      "io_id": "io-9055358b3afdea8e",
+      "event_type": "monetary_policy_decision",
+      "source_name": "cbbh-bosnia",
+      "subject_entity": "UNKNOWN",
+      "subject_entity_status": "NOT_FOUND",
+      "subject_concept": null,
+      "subject_concept_status": "NOT_FOUND",
+      "subject_indicator": "Gross Domestic Product",
+      "subject_indicator_status": "CONFIRMED",
+      "subject_instrument": null,
+      "subject_instrument_status": "NOT_FOUND",
+      "subject_type": "INDICATOR",
+      "subject_status": "CONFIRMED",
+      "readiness": "SEMANTICALLY_PARTIAL",
+      "supporting_segment_ids": [],
+      "resolution_method": null,
+      "relationship": "UNKNOWN"
+    },
+    {
+      "io_id": "io-ebebeb8f459fc493",
+      "event_type": "monetary_policy_decision",
+      "source_name": "cbbh-bosnia",
+      "subject_entity": "UNKNOWN",
+      "subject_entity_status": "NOT_FOUND",
+      "subject_concept": null,
+      "subject_concept_status": "NOT_FOUND",
+      "subject_indicator": "Inflation",
+      "subject_indicator_status": "CONFIRMED",
+      "subject_instrument": null,
+      "subject_instrument_status": "NOT_FOUND",
+      "subject_type": "INDICATOR",
+      "subject_status": "CONFIRMED",
+      "readiness": "SEMANTICALLY_READY",
+      "supporting_segment_ids": [],
+      "resolution_method": null,
+      "relationship": "UNKNOWN"
+    },
+    {
+      "io_id": "io-3d564cb820f793a1",
+      "event_type": "regulatory_enforcement",
+      "source_name": "ecb-stat2",
+      "subject_entity": "UNKNOWN",
+      "subject_entity_status": "NOT_FOUND",
+      "subject_concept": "Settlement",
+      "subject_concept_status": "CONFIRMED",
+      "subject_indicator": null,
+      "subject_indicator_status": "NOT_FOUND",
+      "subject_instrument": null,
+      "subject_instrument_status": "NOT_FOUND",
+      "subject_type": "CONCEPT",
+      "subject_status": "CONFIRMED",
+      "readiness": "SEMANTICALLY_PARTIAL",
+      "supporting_segment_ids": [],
+      "resolution_method": null,
+      "relationship": "UNKNOWN"
+    }
+  ]
+}
