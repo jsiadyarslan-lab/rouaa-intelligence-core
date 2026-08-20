@@ -478,6 +478,13 @@ class SubjectEntityV1:
 
     Per V48 §11: Publisher Firewall is MANDATORY. publisher CONFIRMED
     does NOT promote subject_entity.
+
+    V48R — ONTOLOGY SEPARATION (per V48R §2 + §7):
+    The previous V48 conflated ENTITY with CONCEPT/INDICATOR/INSTRUMENT.
+    V48R separates them: subject_entity CONFIRMED requires a REAL entity
+    (institution, company, jurisdiction). Concepts/Indicators/Instruments
+    are captured in separate fields (subject_concept, subject_indicator,
+    subject_instrument) and DO NOT promote subject_entity.
     """
     subject_entity_id: str
     canonical_name: str
@@ -494,5 +501,18 @@ class SubjectEntityV1:
     aliases: list = field(default_factory=list)
     # Per §12: affected_entity is a SEPARATE field when evidence supports it
     affected_entities: list = field(default_factory=list)  # list of dicts: {canonical_name, supporting_segment_ids, ...}
+    # V48R §2 + §7 — ONTOLOGY SEPARATION:
+    # Concepts, Indicators, Instruments are NOT entities. They are
+    # captured in SEPARATE fields. They DO NOT promote subject_entity.
+    # A subject_entity requires a REAL entity (institution, company,
+    # jurisdiction). GDP/CPI/Inflation/Policy Rate are indicators/
+    # instruments/concepts — they go into subject_indicator /
+    # subject_instrument / subject_concept, NOT subject_entity.
+    subject_concept: Optional[str] = None  # e.g., "Monetary Policy", "Fiscal Policy", "Enforcement Action"
+    subject_concept_status: str = "NOT_FOUND"  # CONFIRMED | NOT_FOUND
+    subject_indicator: Optional[str] = None  # e.g., "GDP", "CPI", "Inflation", "Unemployment"
+    subject_indicator_status: str = "NOT_FOUND"  # CONFIRMED | NOT_FOUND
+    subject_instrument: Optional[str] = None  # e.g., "Policy Rate", "Bonds", "Equities"
+    subject_instrument_status: str = "NOT_FOUND"  # CONFIRMED | NOT_FOUND
 
     def to_dict(self) -> dict: return asdict(self)

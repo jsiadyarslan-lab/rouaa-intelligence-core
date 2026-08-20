@@ -122,14 +122,57 @@ PRIORITY_ORDER = (
 
 
 # ═══════════════════════════════════════════════════════════════════════
-# Subject Entity Registry (§10) — generic, deterministic
+# V48R §2 + §7 — ONTOLOGY SEPARATION
 # ═══════════════════════════════════════════════════════════════════════
+# The previous V48 _SUBJECT_REGISTRY conflated:
+#   - REAL ENTITIES (institutions, companies, jurisdictions)
+#   - CONCEPTS (monetary policy, fiscal policy, enforcement action)
+#   - INDICATORS (GDP, CPI, inflation, unemployment)
+#   - INSTRUMENTS (policy rate, bonds, equities)
+#   - MARKETS (foreign exchange)
+#   - REGULATIONS (penalty, settlement)
+#
+# V48R separates them into 4 distinct registries. The subject_entity
+# resolver matches ONLY against _ENTITY_REGISTRY for subject_entity
+# CONFIRMED. Concepts/Indicators/Instruments are captured in separate
+# fields on SubjectEntityV1 (subject_concept, subject_indicator,
+# subject_instrument) and DO NOT promote subject_entity.
+#
+# Per V48R §2: the ontology is:
+#   ENTITY       = institution, company, jurisdiction (e.g., ECB, Apple, U.S.)
+#   CONCEPT      = policy concept (e.g., Monetary Policy, Fiscal Policy)
+#   INDICATOR    = macroeconomic indicator (e.g., GDP, CPI, Inflation)
+#   INSTRUMENT   = financial instrument (e.g., Policy Rate, Bonds, Equities)
+#   MARKET       = market segment (e.g., Foreign Exchange)
+#   REGULATION   = regulatory concept (e.g., Penalty, Settlement, Enforcement Action)
+#   ACTOR        = the agent performing the action (often the publisher)
+#   AFFECTED     = entity acted upon
+#   PUBLISHER    = institution that published the document
+#   MENTIONED    = entity merely appearing in text
 
-# Maps canonical subject concepts to aliases (lowercase) + entity_type.
-# Built from generic economic/financial domain terms — NO document-specific
-# shortcuts, NO GT mappings, NO fact-value mappings.
-_SUBJECT_REGISTRY: dict[str, tuple[str, str, list[str]]] = {
-    # Macro indicators
+# ENTITY_REGISTRY — real entities (institutions, companies, jurisdictions)
+# Currently EMPTY — no real entities in the V48 registry. This is the
+# HONEST answer: V48 had ZERO real subject entities.
+_ENTITY_REGISTRY: dict[str, tuple[str, str, list[str]]] = {
+    # Empty by design. V48's 14 "CONFIRMED" were ALL indicators/concepts/
+    # instruments, NOT real entities. V48R does NOT add new entity patterns
+    # (per stop condition "No new subject patterns yet"). When the user
+    # decides to populate ENTITY_REGISTRY, it must contain ONLY real
+    # institutions/companies/jurisdictions — NOT macro indicators.
+}
+
+# CONCEPT_REGISTRY — policy concepts
+_CONCEPT_REGISTRY: dict[str, tuple[str, str, list[str]]] = {
+    "monetary_policy": ("Monetary Policy", TYPE_POLICY,
+                        ["monetary policy", "policy stance", "monetary policy stance"]),
+    "fiscal_policy": ("Fiscal Policy", TYPE_POLICY,
+                      ["fiscal policy", "budget policy"]),
+    "enforcement_action": ("Enforcement Action", TYPE_REGULATION,
+                           ["enforcement action", "enforcement"]),
+}
+
+# INDICATOR_REGISTRY — macroeconomic indicators
+_INDICATOR_REGISTRY: dict[str, tuple[str, str, list[str]]] = {
     "gdp": ("Gross Domestic Product", TYPE_INDICATOR,
             ["gdp", "gross domestic product", "gdp growth"]),
     "cpi": ("Consumer Price Index", TYPE_INDICATOR,
@@ -140,34 +183,57 @@ _SUBJECT_REGISTRY: dict[str, tuple[str, str, list[str]]] = {
                   ["inflation", "inflation rate", "cpi inflation"]),
     "unemployment": ("Unemployment", TYPE_INDICATOR,
                      ["unemployment", "unemployment rate"]),
+    "gdp_growth": ("GDP Growth", TYPE_INDICATOR,
+                   ["gdp growth", "economic growth"]),
+}
+
+# INSTRUMENT_REGISTRY — financial instruments
+_INSTRUMENT_REGISTRY: dict[str, tuple[str, str, list[str]]] = {
     "policy_rate": ("Policy Rate", TYPE_INSTRUMENT,
                     ["policy rate", "interest rate", "base rate",
                      "refinancing rate", "main refinancing operations rate"]),
-    "gdp_growth": ("GDP Growth", TYPE_INDICATOR,
-                   ["gdp growth", "economic growth"]),
-    # Markets
-    "equities": ("Equities", TYPE_MARKET, ["equities", "stock market", "shares"]),
     "bonds": ("Bonds", TYPE_INSTRUMENT, ["bonds", "government bonds", "sovereign bonds"]),
-    "fx": ("Foreign Exchange", TYPE_MARKET, ["fx", "foreign exchange", "currency"]),
-    # Policy concepts
-    "monetary_policy": ("Monetary Policy", TYPE_POLICY,
-                        ["monetary policy", "policy stance", "monetary policy stance"]),
-    "fiscal_policy": ("Fiscal Policy", TYPE_POLICY,
-                      ["fiscal policy", "budget policy"]),
-    # Regulation
-    "enforcement_action": ("Enforcement Action", TYPE_REGULATION,
-                           ["enforcement action", "enforcement"]),
-    "settlement": ("Settlement", TYPE_REGULATION,
-                   ["settlement", "penalty settlement"]),
-    "penalty": ("Penalty", TYPE_REGULATION,
-                ["penalty", "fine", "civil monetary penalty"]),
+    "equities": ("Equities", TYPE_INSTRUMENT, ["equities", "stock market", "shares"]),
 }
 
-# Reverse map: alias (lowercase) → canonical_id
+# REGULATION_REGISTRY — regulatory concepts (separate from CONCEPT)
+_REGULATION_REGISTRY: dict[str, tuple[str, str, list[str]]] = {
+    "penalty": ("Penalty", TYPE_REGULATION,
+                ["penalty", "fine", "civil monetary penalty"]),
+    "settlement": ("Settlement", TYPE_REGULATION,
+                   ["settlement", "penalty settlement"]),
+}
+
+# MARKET_REGISTRY — market segments
+_MARKET_REGISTRY: dict[str, tuple[str, str, list[str]]] = {
+    "fx": ("Foreign Exchange", TYPE_MARKET, ["fx", "foreign exchange", "currency"]),
+}
+
+# Combined registry for backward-compat matching (V48R's audit re-runs
+# the candidate extraction against ALL registries, but only ENTITY matches
+# can become subject_entity CONFIRMED)
+_ALL_REGISTRIES = {
+    "ENTITY": _ENTITY_REGISTRY,
+    "CONCEPT": _CONCEPT_REGISTRY,
+    "INDICATOR": _INDICATOR_REGISTRY,
+    "INSTRUMENT": _INSTRUMENT_REGISTRY,
+    "REGULATION": _REGULATION_REGISTRY,
+    "MARKET": _MARKET_REGISTRY,
+}
+
+# Reverse maps for each registry
+_ALIAS_TO_CANONICAL_BY_TYPE: dict[str, dict[str, str]] = {}
+for reg_type, reg in _ALL_REGISTRIES.items():
+    _ALIAS_TO_CANONICAL_BY_TYPE[reg_type] = {}
+    for canonical_id, (_name, _etype, aliases) in reg.items():
+        for alias in aliases:
+            _ALIAS_TO_CANONICAL_BY_TYPE[reg_type][alias.lower()] = canonical_id
+
+# Combined reverse map (for backward compat with V48 functions)
 _ALIAS_TO_CANONICAL: dict[str, str] = {}
-for canonical_id, (_name, _type, aliases) in _SUBJECT_REGISTRY.items():
-    for alias in aliases:
-        _ALIAS_TO_CANONICAL[alias.lower()] = canonical_id
+for reg_type, alias_map in _ALIAS_TO_CANONICAL_BY_TYPE.items():
+    for alias, canonical_id in alias_map.items():
+        _ALIAS_TO_CANONICAL[alias] = canonical_id
 
 
 def _match_subject_alias(text: str) -> Optional[str]:
@@ -181,6 +247,33 @@ def _match_subject_alias(text: str) -> Optional[str]:
         # Word-boundary match to avoid spurious substring matches
         if re.search(r"\b" + re.escape(alias) + r"\b", text_lower):
             return _ALIAS_TO_CANONICAL[alias]
+    return None
+
+
+def _match_alias_by_registry_type(text: str, reg_type: str) -> Optional[tuple[str, str]]:
+    """Match text against a SPECIFIC registry type.
+    Returns (canonical_id, canonical_name) or None.
+    """
+    if not text or reg_type not in _ALIAS_TO_CANONICAL_BY_TYPE:
+        return None
+    text_lower = text.lower()
+    alias_map = _ALIAS_TO_CANONICAL_BY_TYPE[reg_type]
+    # Sort by length descending for longest match
+    sorted_aliases = sorted(alias_map.keys(), key=lambda x: -len(x))
+    for alias in sorted_aliases:
+        if re.search(r"\b" + re.escape(alias) + r"\b", text_lower):
+            canonical_id = alias_map[alias]
+            reg = _ALL_REGISTRIES[reg_type]
+            canonical_name = reg[canonical_id][0]
+            return (canonical_id, canonical_name)
+    return None
+
+
+def _registry_type_for_canonical_id(canonical_id: str) -> Optional[str]:
+    """Return the registry type for a given canonical_id."""
+    for reg_type, reg in _ALL_REGISTRIES.items():
+        if canonical_id in reg:
+            return reg_type
     return None
 
 
@@ -269,25 +362,33 @@ def extract_candidates_from_primary_segment(
     """Extract subject candidates from the primary evidence segment.
 
     Per §4 priority 1: PRIMARY_EVIDENCE.
+    Per V48R §7: candidates are tagged with their registry_type
+    (ENTITY/CONCEPT/INDICATOR/INSTRUMENT/REGULATION/MARKET).
+    Only ENTITY-registry candidates can become subject_entity CONFIRMED.
     """
     candidates = []
     if not primary_segment or not primary_segment.text:
         return candidates
     primary_text = primary_segment.text
-    # Match against subject registry aliases
     text_lower = primary_text.lower()
-    for alias, canonical_id in _ALIAS_TO_CANONICAL.items():
-        if re.search(r"\b" + re.escape(alias) + r"\b", text_lower):
-            canonical_name, etype, aliases = _SUBJECT_REGISTRY[canonical_id]
-            candidates.append({
-                "canonical_id": canonical_id,
-                "canonical_name": canonical_name,
-                "entity_type": etype,
-                "aliases": aliases,
-                "match_text": alias,
-                "supporting_segment_id": primary_segment.segment_id,
-                "resolution_method": METHOD_PRIMARY_EVIDENCE,
-            })
+    # Match against ALL registries, tagging each candidate with its type.
+    # Sort aliases by length DESCENDING so longest (most specific) matches first.
+    for reg_type, reg in _ALL_REGISTRIES.items():
+        alias_map = _ALIAS_TO_CANONICAL_BY_TYPE.get(reg_type, {})
+        sorted_aliases = sorted(alias_map.items(), key=lambda x: -len(x[0]))
+        for alias, canonical_id in sorted_aliases:
+            if re.search(r"\b" + re.escape(alias) + r"\b", text_lower):
+                canonical_name, etype, aliases = reg[canonical_id]
+                candidates.append({
+                    "canonical_id": canonical_id,
+                    "canonical_name": canonical_name,
+                    "entity_type": etype,
+                    "registry_type": reg_type,  # V48R §7 — ontology tag
+                    "aliases": aliases,
+                    "match_text": alias,
+                    "supporting_segment_id": primary_segment.segment_id,
+                    "resolution_method": METHOD_PRIMARY_EVIDENCE,
+                })
     return candidates
 
 
@@ -299,6 +400,7 @@ def extract_candidates_from_table_context(
     Per §4 priority 3: TABLE_CONTEXT.
     Per §8: prefer row_label → subject candidate. Do NOT treat dates,
     column headers, units, or navigation labels as subjects.
+    Per V48R §7: candidates are tagged with registry_type.
     """
     candidates = []
     if not primary_segment:
@@ -306,32 +408,20 @@ def extract_candidates_from_table_context(
     if primary_segment.segment_type != "TABLE_ROW":
         return candidates
     row_label = primary_segment.row_label or ""
-    column_label = primary_segment.column_label or ""
-    # Try row_label as a subject candidate
     if row_label and len(row_label) > 2:
-        # Check if row_label matches a subject registry alias
-        canonical_id = _match_subject_alias(row_label)
-        if canonical_id:
-            canonical_name, etype, aliases = _SUBJECT_REGISTRY[canonical_id]
-            candidates.append({
-                "canonical_id": canonical_id,
-                "canonical_name": canonical_name,
-                "entity_type": etype,
-                "aliases": aliases,
-                "match_text": row_label,
-                "supporting_segment_id": primary_segment.segment_id,
-                "resolution_method": METHOD_TABLE_CONTEXT,
-            })
-        else:
-            # Row label might be a general subject description (e.g., "GDP growth")
-            # Try matching against the full alias list with word boundaries
-            for alias, canonical_id in _ALIAS_TO_CANONICAL.items():
+        # Match row_label against ALL registries, tagging with registry_type.
+        # Sort aliases by length DESCENDING so longest (most specific) matches first.
+        for reg_type, reg in _ALL_REGISTRIES.items():
+            alias_map = _ALIAS_TO_CANONICAL_BY_TYPE.get(reg_type, {})
+            sorted_aliases = sorted(alias_map.items(), key=lambda x: -len(x[0]))
+            for alias, canonical_id in sorted_aliases:
                 if re.search(r"\b" + re.escape(alias) + r"\b", row_label.lower()):
-                    canonical_name, etype, aliases = _SUBJECT_REGISTRY[canonical_id]
+                    canonical_name, etype, aliases = reg[canonical_id]
                     candidates.append({
                         "canonical_id": canonical_id,
                         "canonical_name": canonical_name,
                         "entity_type": etype,
+                        "registry_type": reg_type,
                         "aliases": aliases,
                         "match_text": row_label,
                         "supporting_segment_id": primary_segment.segment_id,
@@ -349,25 +439,31 @@ def extract_candidates_from_event_local_heading(
 
     Per §4 priority 4: EVENT_LOCAL_HEADING. The heading_context of the
     primary segment provides the topic it falls under.
+    Per V48R §7: candidates are tagged with registry_type.
     """
     candidates = []
     if not primary_segment or not primary_segment.heading_context:
         return candidates
     heading_text = primary_segment.heading_context
-    # Match against subject registry
-    for alias, canonical_id in _ALIAS_TO_CANONICAL.items():
-        if re.search(r"\b" + re.escape(alias) + r"\b", heading_text.lower()):
-            canonical_name, etype, aliases = _SUBJECT_REGISTRY[canonical_id]
-            candidates.append({
-                "canonical_id": canonical_id,
-                "canonical_name": canonical_name,
-                "entity_type": etype,
-                "aliases": aliases,
-                "match_text": heading_text[:80],
-                "supporting_segment_id": primary_segment.segment_id,
-                "resolution_method": METHOD_EVENT_LOCAL_HEADING,
-            })
-            break  # Take the first match
+    # Match against ALL registries, tagging with registry_type.
+    # Sort aliases by length DESCENDING so longest (most specific) matches first.
+    for reg_type, reg in _ALL_REGISTRIES.items():
+        alias_map = _ALIAS_TO_CANONICAL_BY_TYPE.get(reg_type, {})
+        sorted_aliases = sorted(alias_map.items(), key=lambda x: -len(x[0]))
+        for alias, canonical_id in sorted_aliases:
+            if re.search(r"\b" + re.escape(alias) + r"\b", heading_text.lower()):
+                canonical_name, etype, aliases = reg[canonical_id]
+                candidates.append({
+                    "canonical_id": canonical_id,
+                    "canonical_name": canonical_name,
+                    "entity_type": etype,
+                    "registry_type": reg_type,
+                    "aliases": aliases,
+                    "match_text": heading_text[:80],
+                    "supporting_segment_id": primary_segment.segment_id,
+                    "resolution_method": METHOD_EVENT_LOCAL_HEADING,
+                })
+                break  # Take the first match per registry
     return candidates
 
 
@@ -395,21 +491,26 @@ def extract_candidates_from_document_title(
     if not title_segment or not title_segment.text:
         return candidates
     title_text = title_segment.text
-    # Match against subject registry — but ONLY if the title contains
-    # a subject registry alias (not just any institution name)
-    for alias, canonical_id in _ALIAS_TO_CANONICAL.items():
-        if re.search(r"\b" + re.escape(alias) + r"\b", title_text.lower()):
-            canonical_name, etype, aliases = _SUBJECT_REGISTRY[canonical_id]
-            candidates.append({
-                "canonical_id": canonical_id,
-                "canonical_name": canonical_name,
-                "entity_type": etype,
-                "aliases": aliases,
-                "match_text": title_text[:120],
-                "supporting_segment_id": title_segment.segment_id,
-                "resolution_method": METHOD_DOCUMENT_TITLE,
-            })
-            break  # Take the first match
+    # Match against ALL registries — but ONLY if the title contains
+    # a registry alias (not just any institution name). Tag with registry_type.
+    # Sort aliases by length DESCENDING so longest (most specific) matches first.
+    for reg_type, reg in _ALL_REGISTRIES.items():
+        alias_map = _ALIAS_TO_CANONICAL_BY_TYPE.get(reg_type, {})
+        sorted_aliases = sorted(alias_map.items(), key=lambda x: -len(x[0]))
+        for alias, canonical_id in sorted_aliases:
+            if re.search(r"\b" + re.escape(alias) + r"\b", title_text.lower()):
+                canonical_name, etype, aliases = reg[canonical_id]
+                candidates.append({
+                    "canonical_id": canonical_id,
+                    "canonical_name": canonical_name,
+                    "entity_type": etype,
+                    "registry_type": reg_type,
+                    "aliases": aliases,
+                    "match_text": title_text[:120],
+                    "supporting_segment_id": title_segment.segment_id,
+                    "resolution_method": METHOD_DOCUMENT_TITLE,
+                })
+                break  # Take the first match per registry
     return candidates
 
 
@@ -523,30 +624,58 @@ def resolve_subject(
     publishers = [c for c in categorized if c["relationship"] == REL_PUBLISHER]
     mentioned = [c for c in categorized if c["relationship"] == REL_MENTIONED_ENTITY]
 
-    # If we have EVENT_SUBJECT candidates, pick the highest-priority one
-    if event_subjects:
+    # V48R §7 — ONTOLOGY SEPARATION:
+    # Only ENTITY-registry candidates can become subject_entity CONFIRMED.
+    # CONCEPT/INDICATOR/INSTRUMENT/REGULATION/MARKET candidates are NOT
+    # entities — they go into separate fields on SubjectEntityV1.
+    entity_event_subjects = [c for c in event_subjects if c.get("registry_type") == "ENTITY"]
+    concept_candidates = [c for c in event_subjects if c.get("registry_type") == "CONCEPT"]
+    indicator_candidates = [c for c in event_subjects if c.get("registry_type") == "INDICATOR"]
+    instrument_candidates = [c for c in event_subjects if c.get("registry_type") == "INSTRUMENT"]
+    regulation_candidates = [c for c in event_subjects if c.get("registry_type") == "REGULATION"]
+    market_candidates = [c for c in event_subjects if c.get("registry_type") == "MARKET"]
+
+    # Helper to build separate-field dicts
+    def _sep_field(cands):
+        if not cands:
+            return (None, "NOT_FOUND")
+        chosen = cands[0]
+        return (chosen["canonical_name"], "CONFIRMED")
+
+    subject_concept, subject_concept_status = _sep_field(concept_candidates + regulation_candidates)
+    subject_indicator, subject_indicator_status = _sep_field(indicator_candidates)
+    subject_instrument, subject_instrument_status = _sep_field(instrument_candidates + market_candidates)
+
+    # If we have ENTITY-registry EVENT_SUBJECT candidates, pick the highest-priority one
+    if entity_event_subjects:
         # Sort by priority order
-        event_subjects.sort(key=lambda c: PRIORITY_ORDER.index(c["resolution_method"]))
-        chosen = event_subjects[0]
-        # If multiple distinct event subjects → AMBIGUOUS
-        if len(set(c["canonical_id"] for c in event_subjects)) > 1:
+        entity_event_subjects.sort(key=lambda c: PRIORITY_ORDER.index(c["resolution_method"]))
+        chosen = entity_event_subjects[0]
+        # If multiple distinct entity event subjects → AMBIGUOUS
+        if len(set(c["canonical_id"] for c in entity_event_subjects)) > 1:
             return SubjectEntityV1(
                 subject_entity_id=f"SUBJ-AMBIGUOUS",
-                canonical_name="; ".join(c["canonical_name"] for c in event_subjects[:3]),
-                entity_type=event_subjects[0]["entity_type"],
+                canonical_name="; ".join(c["canonical_name"] for c in entity_event_subjects[:3]),
+                entity_type=entity_event_subjects[0]["entity_type"],
                 status=SUBJECT_AMBIGUOUS,
                 confidence=CONFIDENCE_MEDIUM,
-                supporting_segment_ids=[c["supporting_segment_id"] for c in event_subjects],
+                supporting_segment_ids=[c["supporting_segment_id"] for c in entity_event_subjects],
                 supporting_fact_ids=fact_ids,
                 supporting_evidence_ids=evidence_ids,
-                resolution_method=event_subjects[0]["resolution_method"],
+                resolution_method=entity_event_subjects[0]["resolution_method"],
                 relationship=REL_EVENT_SUBJECT,
-                aliases=event_subjects[0]["aliases"],
+                aliases=entity_event_subjects[0]["aliases"],
                 affected_entities=[{"canonical_name": c["canonical_name"],
                                      "supporting_segment_ids": [c["supporting_segment_id"]]}
                                     for c in affected],
+                subject_concept=subject_concept,
+                subject_concept_status=subject_concept_status,
+                subject_indicator=subject_indicator,
+                subject_indicator_status=subject_indicator_status,
+                subject_instrument=subject_instrument,
+                subject_instrument_status=subject_instrument_status,
             )
-        # Single event subject → CONFIRMED
+        # Single entity event subject → CONFIRMED
         return SubjectEntityV1(
             subject_entity_id=f"SUBJ-{chosen['canonical_id'].upper().replace('-', '_')}",
             canonical_name=chosen["canonical_name"],
@@ -563,6 +692,39 @@ def resolve_subject(
             affected_entities=[{"canonical_name": c["canonical_name"],
                                  "supporting_segment_ids": [c["supporting_segment_id"]]}
                                 for c in affected],
+            subject_concept=subject_concept,
+            subject_concept_status=subject_concept_status,
+            subject_indicator=subject_indicator,
+            subject_indicator_status=subject_indicator_status,
+            subject_instrument=subject_instrument,
+            subject_instrument_status=subject_instrument_status,
+        )
+
+    # No ENTITY-registry EVENT_SUBJECT found — but we may have concept/
+    # indicator/instrument candidates. Subject_entity remains NOT_FOUND,
+    # but the separate fields capture the conceptual subject.
+    if affected or concept_candidates or indicator_candidates or instrument_candidates or regulation_candidates or market_candidates:
+        return SubjectEntityV1(
+            subject_entity_id="SUBJ-UNKNOWN",
+            canonical_name="UNKNOWN",
+            entity_type=TYPE_OTHER,
+            status=SUBJECT_NOT_FOUND,
+            confidence=CONFIDENCE_LOW,
+            supporting_segment_ids=[],
+            supporting_fact_ids=fact_ids,
+            supporting_evidence_ids=evidence_ids,
+            resolution_method=None,
+            relationship=REL_UNKNOWN,
+            aliases=[],
+            affected_entities=[{"canonical_name": c["canonical_name"],
+                                 "supporting_segment_ids": [c["supporting_segment_id"]]}
+                                for c in affected],
+            subject_concept=subject_concept,
+            subject_concept_status=subject_concept_status,
+            subject_indicator=subject_indicator,
+            subject_indicator_status=subject_indicator_status,
+            subject_instrument=subject_instrument,
+            subject_instrument_status=subject_instrument_status,
         )
 
     # No EVENT_SUBJECT found, but we have candidates with other relationships
