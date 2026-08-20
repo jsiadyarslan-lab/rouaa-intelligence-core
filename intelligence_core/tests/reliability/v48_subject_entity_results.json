@@ -1,0 +1,225 @@
+{
+  "phase": "V48 SUBJECT ENTITY RESOLUTION LAYER",
+  "baseline_commit": "82263950263f74c4b970a902975b72539d39703f",
+  "recovery_branch_head_before": "deb9fbc97c708356eda8de04a237b2589a605d87",
+  "executed_at_utc": "2026-08-20T21:10:34Z",
+  "new_io_count": 371,
+  "v47b_baseline_subject": {
+    "ENTITY_NOT_FOUND": 322,
+    "ENTITY_CONFIRMED": 49
+  },
+  "v48_after_subject": {
+    "NOT_FOUND": 347,
+    "CONFIRMED": 14,
+    "AMBIGUOUS": 10
+  },
+  "publisher_distribution": {
+    "CONFIRMED": 272,
+    "AMBIGUOUS": 99
+  },
+  "affected_entity_stats": {
+    "ios_with_affected_entities": 2,
+    "total_affected_entities": 3
+  },
+  "forensic_reason_counts": {
+    "UNCHANGED": 312,
+    "RECLASSIFIED_AS_NOT_FOUND": 40,
+    "IMPROVED_BY_EVENT_LOCAL_RESOLUTION": 15,
+    "RECLASSIFIED_AS_AMBIGUOUS": 4
+  },
+  "publisher_firewall": {
+    "firewall_violations": 0,
+    "checks_sample": [
+      {
+        "io_id": "io-0a2164dff20884fa",
+        "publisher_status": "CONFIRMED",
+        "subject_status": "NOT_FOUND",
+        "subject_relationship": "UNKNOWN",
+        "firewall_intact": true,
+        "violation": ""
+      },
+      {
+        "io_id": "io-74b51eefd13974d9",
+        "publisher_status": "AMBIGUOUS",
+        "subject_status": "NOT_FOUND",
+        "subject_relationship": "UNKNOWN",
+        "firewall_intact": true,
+        "violation": ""
+      },
+      {
+        "io_id": "io-bd378fea8d59bb17",
+        "publisher_status": "AMBIGUOUS",
+        "subject_status": "NOT_FOUND",
+        "subject_relationship": "UNKNOWN",
+        "firewall_intact": true,
+        "violation": ""
+      },
+      {
+        "io_id": "io-cb08d31a4e009be2",
+        "publisher_status": "CONFIRMED",
+        "subject_status": "NOT_FOUND",
+        "subject_relationship": "UNKNOWN",
+        "firewall_intact": true,
+        "violation": ""
+      },
+      {
+        "io_id": "io-b37f6c9f4f5b4a8a",
+        "publisher_status": "CONFIRMED",
+        "subject_status": "NOT_FOUND",
+        "subject_relationship": "UNKNOWN",
+        "firewall_intact": true,
+        "violation": ""
+      },
+      {
+        "io_id": "io-ee8a8257ce0e86ba",
+        "publisher_status": "CONFIRMED",
+        "subject_status": "NOT_FOUND",
+        "subject_relationship": "UNKNOWN",
+        "firewall_intact": true,
+        "violation": ""
+      },
+      {
+        "io_id": "io-b6abac1393987508",
+        "publisher_status": "CONFIRMED",
+        "subject_status": "NOT_FOUND",
+        "subject_relationship": "UNKNOWN",
+        "firewall_intact": true,
+        "violation": ""
+      },
+      {
+        "io_id": "io-5150003cff76e0ab",
+        "publisher_status": "CONFIRMED",
+        "subject_status": "NOT_FOUND",
+        "subject_relationship": "UNKNOWN",
+        "firewall_intact": true,
+        "violation": ""
+      },
+      {
+        "io_id": "io-eb4ea7a98e0e81d3",
+        "publisher_status": "CONFIRMED",
+        "subject_status": "NOT_FOUND",
+        "subject_relationship": "UNKNOWN",
+        "firewall_intact": true,
+        "violation": ""
+      },
+      {
+        "io_id": "io-936e16f976e71fe5",
+        "publisher_status": "CONFIRMED",
+        "subject_status": "NOT_FOUND",
+        "subject_relationship": "UNKNOWN",
+        "firewall_intact": true,
+        "violation": ""
+      }
+    ]
+  },
+  "readiness_counts": {
+    "SEMANTICALLY_BLOCKED": 347,
+    "SEMANTICALLY_PARTIAL": 19,
+    "SEMANTICALLY_READY": 5
+  },
+  "sample_40_subject_classification": {
+    "SUBJECT_CORRECT": 1,
+    "SUBJECT_AMBIGUOUS": 39,
+    "SUBJECT_INCORRECT": 0
+  },
+  "sample_40_product_value_before_after": {
+    "before": {
+      "MEDIUM_VALUE": 32,
+      "LOW_VALUE": 8
+    },
+    "after": {
+      "MEDIUM_VALUE": 31,
+      "LOW_VALUE": 9
+    }
+  },
+  "sample_regressed_count": 1,
+  "safety": {
+    "unsupported_subject_claims": 0,
+    "navigation_leakage": 0,
+    "malformed_evidence": 0,
+    "unresolved_collisions": 0,
+    "broken_provenance": 0,
+    "publisher_subject_conflicts": 0,
+    "subject_entity_role_conflicts": 0,
+    "new_facts": 0,
+    "new_events": 0,
+    "evidence_rewritten": 0,
+    "firewall_violations": 0,
+    "original_facts_preserved": true,
+    "original_evidence_preserved": true,
+    "publisher_subject_separated": true
+  },
+  "test_results": {
+    "modules": {
+      "48 baseline": {
+        "module": "intelligence_core.tests.run_all",
+        "passed": true
+      },
+      "37 V37.2": {
+        "module": "intelligence_core.tests.reliability.v37_2_structural_evidence_test",
+        "passed": true
+      },
+      "30 collision": {
+        "module": "intelligence_core.tests.reliability.v37_2_collision_fix_tests",
+        "passed": true
+      },
+      "9 sub-collision": {
+        "module": "intelligence_core.tests.reliability.v37_2_sub_collision_tests",
+        "passed": true
+      },
+      "22 purpose": {
+        "module": "intelligence_core.tests.reliability.recovery_segment_purpose_tests",
+        "passed": true
+      },
+      "29 V46": {
+        "module": "intelligence_core.tests.reliability.v46_evidence_context_tests",
+        "passed": true
+      },
+      "6 V46.1": {
+        "module": "intelligence_core.tests.reliability.v46_1_semantic_claim_forensics_tests",
+        "passed": true
+      },
+      "6 V47A": {
+        "module": "intelligence_core.tests.reliability.v47_semantic_claim_binding_tests",
+        "passed": true
+      },
+      "35 V47C": {
+        "module": "intelligence_core.tests.reliability.v47c_publisher_institution_tests",
+        "passed": true
+      },
+      "26 V48": {
+        "module": "intelligence_core.tests.reliability.v48_subject_entity_tests",
+        "passed": true
+      }
+    },
+    "passed_modules": 10,
+    "total_modules": 10,
+    "test_count": 248,
+    "all_tests_pass": true
+  },
+  "acceptance_gates": {
+    "g1_SubjectEntityV1_implemented": true,
+    "g2_publisher_subject_affected_roles_separate": true,
+    "g3_publisher_firewall_passes": true,
+    "g4_unsupported_subject_claims_zero": true,
+    "g5_subject_incorrect_in_40_sample_zero": true,
+    "g6_original_facts_preserved": true,
+    "g7_original_evidence_preserved": true,
+    "g8_new_facts_zero": true,
+    "g9_new_events_zero": true,
+    "g10_evidence_rewritten_zero": true,
+    "g11_unresolved_collisions_zero": true,
+    "g12_broken_provenance_zero": true,
+    "g13_semantic_readiness_improves_or_safe": false,
+    "g14_product_value_no_regression": false,
+    "g15_222_existing_tests_pass": true,
+    "g16_all_v48_tests_pass": true,
+    "g17_no_source_expansion": true,
+    "g18_no_llm": true,
+    "g19_no_product_integration": true,
+    "g20_v48_committed_and_pushed": false,
+    "g21_pr2_updated_unmerged": false,
+    "all_pass": false
+  },
+  "verdict": "V48 SUBJECT ENTITY RESOLUTION BLOCKED"
+}

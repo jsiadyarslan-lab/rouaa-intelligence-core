@@ -443,3 +443,56 @@ class PublisherInstitutionV1:
     canonical_url: Optional[str] = None  # source domain / canonical URL
 
     def to_dict(self) -> dict: return asdict(self)
+
+
+# ═══════════════════════════════════════════════════════════════════════
+# V48 — Subject Entity Resolution Layer (additive, optional, non-breaking)
+# ═══════════════════════════════════════════════════════════════════════
+# Per V48 directive §3: a deterministic Subject Entity Resolution layer
+# that answers "What is the event actually about?" — distinct from
+# publisher_institution. Subject candidates come ONLY from structurally
+# relevant context (priority order per §4).
+#
+# Per V48 §5: relationship categorization (EVENT_SUBJECT | AFFECTED_ENTITY
+# | PUBLISHER | MENTIONED_ENTITY | UNKNOWN). Only EVENT_SUBJECT can
+# become subject_entity.
+#
+# Per V48 §11: Publisher Firewall — publisher CONFIRMED does NOT
+# increase subject confidence. publisher_institution and subject_entity
+# are independent fields.
+#
+# Per V48 §12: affected_entity is stored SEPARATELY from subject_entity
+# where evidence supports the distinction.
+
+@dataclass
+class SubjectEntityV1:
+    """V48 — Canonical Subject Entity of an event.
+
+    Per V48 §3: identifies what the event is ACTUALLY ABOUT — distinct
+    from publisher_institution. The two fields are independent.
+
+    Per V48 §5: relationship categorization determines whether a candidate
+    is the EVENT_SUBJECT (which becomes subject_entity), AFFECTED_ENTITY
+    (separate field), PUBLISHER (never subject_entity), MENTIONED_ENTITY
+    (cannot become subject), or UNKNOWN.
+
+    Per V48 §11: Publisher Firewall is MANDATORY. publisher CONFIRMED
+    does NOT promote subject_entity.
+    """
+    subject_entity_id: str
+    canonical_name: str
+    entity_type: str = "OTHER"  # ECONOMY | INDUSTRY | MARKET | INSTRUMENT | INSTITUTION | POLICY | INDICATOR | REGULATION | ENTITY | OTHER
+    status: str = "NOT_FOUND"   # CONFIRMED | AMBIGUOUS | NOT_FOUND
+    confidence: str = "LOW"     # HIGH | MEDIUM | LOW
+    supporting_segment_ids: list = field(default_factory=list)
+    supporting_fact_ids: list = field(default_factory=list)
+    supporting_evidence_ids: list = field(default_factory=list)
+    resolution_method: Optional[str] = None
+    # Per §5: relationship category
+    relationship: str = "UNKNOWN"  # EVENT_SUBJECT | AFFECTED_ENTITY | PUBLISHER | MENTIONED_ENTITY | UNKNOWN
+    # Per §9: aliases (deterministic, repository-metadata-supported only)
+    aliases: list = field(default_factory=list)
+    # Per §12: affected_entity is a SEPARATE field when evidence supports it
+    affected_entities: list = field(default_factory=list)  # list of dicts: {canonical_name, supporting_segment_ids, ...}
+
+    def to_dict(self) -> dict: return asdict(self)
