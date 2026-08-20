@@ -836,3 +836,40 @@ Artifacts produced:
 - docs/architecture/ROUAA_CORE_CANONICAL_INTELLIGENCE_CONTRACT_V1.md
 - intelligence_core/tests/reliability/v36_output_audit.py
 - intelligence_core/tests/reliability/v36_output_audit_results.json
+
+---
+Task ID: V48AC
+Agent: main
+Task: V48AC Subject Evidence Adjudication — forensic failure analysis ONLY. Per user directive §1-§10. No production changes, no resolve_subject modifications, no rule changes, no blacklists, no heuristics, no thresholds. Classify every V48X (32) + V48AB (150) failure into one of: DATA_GAP / EXTRACTION_GAP / RULE_GAP / CONTEXT_GAP / GENUINE_SEMANTIC_LIMITATION.
+
+Work Log:
+- §1 HARD FREEZE verified: LOCAL == REMOTE == 9881a58, working tree CLEAN before any V48AC work.
+- Loaded 3 existing artifacts (no re-execution of shadow evaluator): v48x_32_subject_audit.json (32 cases), v48ab_shadow_results.json (32 shadow vectors + 150-case summary), v48ab_independent_sample.json (150 cases with vectors).
+- Ran 338/338 baseline tests BEFORE any V48AC work — all PASS.
+- Built /home/z/my-project/scripts/v48ac_forensic_adjudication.py — pure diagnostic, calls no production resolver, modifies no production file.
+- READ-ONLY access to production _ALL_REGISTRIES in subject_entity.py — only to verify whether a phrase IS a registered alias (so we can distinguish DATA_GAP from EXTRACTION_GAP). No write, no mutation.
+- §A Built 32-case V48X forensic table: identified 9 discrepancies (7 TRUE_SUBJECT lost, 1 AMBIGUOUS over-promoted, 1 AMBIGUOUS over-rejected).
+- §B Built 150-case V48AB failure taxonomy: identified 16 failures (11 positive, 4 ambiguous, 1 negative).
+- §C-Forensic Per-case adjudication: each failure classified with a textual reason explaining WHY it failed (per §8: no "coverage gap" without evidence).
+- §G Final decision computed from the failure distribution.
+
+Stage Summary:
+- VERDICT: V48AC FORENSIC ADJUDICATION PASSED.
+- Decision: EVIDENCE_MODEL_SUFFICIENT (0 GENUINE_SEMANTIC_LIMITATION).
+- Failures analyzed: 25 (V48X 9 + V48AB 16).
+- Distribution:
+  - DATA_GAP: 2 (8.0%) — "Bank Rate" alias missing from Policy Rate registry
+  - EXTRACTION_GAP: 6 (24.0%) — shadow evaluator's evidence-context builder picked wrong primary segment (V48X-specific — NOT a defect in the evidence model itself)
+  - RULE_GAP: 11 (44.0%) — verb lexicon too narrow (climbed/levied/stabilized/lowered/assessed/reached/stood/finalized/advanced/improved); measurement regex too narrow (basis points, $-amounts without 'million'); fact=CONTRADICTED → FALSE_BINDING hard rule too aggressive
+  - CONTEXT_GAP: 6 (24.0%) — candidate mentioned as NOUN MODIFIER within larger noun phrase (FX turnover data, Penalty guidelines, Unemployment registrations, Policy Rate corridor); candidate mentioned but competing topic dominates (Construction Report → FX)
+  - GENUINE_SEMANTIC_LIMITATION: 0 (0.0%)
+- 338/338 tests PASS — production unchanged.
+- Top 5 failure reasons: 4× EXTRACTION_GAP/TRUE_SUBJECT_LOST (V48X shadow picked wrong segment); 1× CONTEXT_GAP/AMBIGUOUS_OVER_PROMOTED; 1× DATA_GAP/Bank Rate alias; 1× RULE_GAP/AMBIGUOUS_OVER_REJECTED (fact=CONTRADICTED hard rule); 1× EXTRACTION_GAP/FX V48X.
+- Path forward (NOT V48AD — diagnostic only): the rule lexicon (verbs, measurement patterns) and context modeling (competing topics, noun-modifier detection) are the next-step bottlenecks, NOT the semantic framework itself.
+- STOP per directive §10.
+
+Artifacts produced:
+- /home/z/my-project/scripts/v48ac_forensic_adjudication.py (diagnostic runner)
+- intelligence_core/tests/reliability/v48ac_forensic_report.json (machine-readable forensic record)
+- docs/evidence/ROUAA_CORE_V48AC_FORENSIC_ADJUDICATION.md (human-readable report with full per-case details)
+- docs/evidence/ROUAA_CORE_V48AC_FORENSIC_TABLE.html (HTML forensic table)
