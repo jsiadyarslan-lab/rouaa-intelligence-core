@@ -1,0 +1,506 @@
+{
+  "phase": "V48AA BLOCKED SAMPLE",
+  "blocked_audit": [
+    {
+      "io_id": "io-7d28d8ec3f2c6f50",
+      "event_type": "regulatory_enforcement",
+      "source_name": "cbbh-bosnia",
+      "role": "NO_SUBJECT",
+      "has_registry_alias": false,
+      "has_event_verb": false,
+      "doc_title": "Newsletter CBBiH",
+      "heading_context": ""
+    },
+    {
+      "io_id": "io-f98cf957f003e03c",
+      "event_type": "statistical_release",
+      "source_name": "bea",
+      "role": "NO_SUBJECT",
+      "has_registry_alias": false,
+      "has_event_verb": false,
+      "doc_title": "News Release",
+      "heading_context": "News Release"
+    },
+    {
+      "io_id": "io-fe0ecf5fbcc92531",
+      "event_type": "regulatory_enforcement",
+      "source_name": "ecb",
+      "role": "NO_SUBJECT",
+      "has_registry_alias": false,
+      "has_event_verb": false,
+      "doc_title": "Digital euro app to incorporate highest accessibility standards",
+      "heading_context": ""
+    },
+    {
+      "io_id": "io-59fc104d47989f9c",
+      "event_type": "statistical_release",
+      "source_name": "bank-of-england",
+      "role": "NO_SUBJECT",
+      "has_registry_alias": false,
+      "has_event_verb": false,
+      "doc_title": "Our use of cookies",
+      "heading_context": ""
+    },
+    {
+      "io_id": "io-b5f51e369fe415cf",
+      "event_type": "statistical_release",
+      "source_name": "bank-of-england",
+      "role": "NO_SUBJECT",
+      "has_registry_alias": false,
+      "has_event_verb": false,
+      "doc_title": "Our use of cookies",
+      "heading_context": ""
+    },
+    {
+      "io_id": "io-ebbec3bafc81efcb",
+      "event_type": "monetary_policy_decision",
+      "source_name": "euronext",
+      "role": "AMBIGUOUS",
+      "has_registry_alias": true,
+      "has_event_verb": false,
+      "doc_title": "Gold Road International lists on Euronext Growth",
+      "heading_context": "16th international admission on Euronext in 2026"
+    },
+    {
+      "io_id": "io-cb962de2e620b830",
+      "event_type": "statistical_release",
+      "source_name": "bea",
+      "role": "NO_SUBJECT",
+      "has_registry_alias": false,
+      "has_event_verb": false,
+      "doc_title": "News Release",
+      "heading_context": "News Release"
+    },
+    {
+      "io_id": "io-39cfc3b482bba190",
+      "event_type": "regulatory_enforcement",
+      "source_name": "cftc",
+      "role": "NO_SUBJECT",
+      "has_registry_alias": false,
+      "has_event_verb": false,
+      "doc_title": "Public Statements & Remarks",
+      "heading_context": "Public Statements & Remarks"
+    },
+    {
+      "io_id": "io-ba846fc82c4e5ce7",
+      "event_type": "regulatory_enforcement",
+      "source_name": "ecb-stat",
+      "role": "NO_SUBJECT",
+      "has_registry_alias": false,
+      "has_event_verb": false,
+      "doc_title": "Financial stability publications",
+      "heading_context": ""
+    },
+    {
+      "io_id": "io-09189d018d2081b4",
+      "event_type": "statistical_release",
+      "source_name": "bea",
+      "role": "NO_SUBJECT",
+      "has_registry_alias": false,
+      "has_event_verb": false,
+      "doc_title": "News Release",
+      "heading_context": "News Release"
+    },
+    {
+      "io_id": "io-ee07f260c54778dc",
+      "event_type": "monetary_policy_decision",
+      "source_name": "cbj-jordan",
+      "role": "NO_SUBJECT",
+      "has_registry_alias": false,
+      "has_event_verb": false,
+      "doc_title": "بحاجة الى مساعدة؟",
+      "heading_context": "البنك المركزي الأردني يطلق ورشة العمل الخاصة بالمراجعة النصفية للاستراتيجية الوطنية للاشتمال المالي "
+    },
+    {
+      "io_id": "io-0e624f21740e46bc",
+      "event_type": "regulatory_enforcement",
+      "source_name": "ecb-stat",
+      "role": "NO_SUBJECT",
+      "has_registry_alias": false,
+      "has_event_verb": false,
+      "doc_title": "All news & publications",
+      "heading_context": ""
+    },
+    {
+      "io_id": "io-f803af6f431d9f8a",
+      "event_type": "statistical_release",
+      "source_name": "bank-of-england",
+      "role": "AMBIGUOUS",
+      "has_registry_alias": true,
+      "has_event_verb": false,
+      "doc_title": "Our use of cookies",
+      "heading_context": "Our use of cookies"
+    },
+    {
+      "io_id": "io-a27ee61aa6026a13",
+      "event_type": "statistical_release",
+      "source_name": "ecb",
+      "role": "AMBIGUOUS",
+      "has_registry_alias": true,
+      "has_event_verb": false,
+      "doc_title": "Results of the June 2026 survey on credit terms and conditions in euro-denominated securities financ",
+      "heading_context": "Results of the June 2026 survey on credit terms and conditions in euro-denominated securities financ"
+    },
+    {
+      "io_id": "io-9304252516f5b4a0",
+      "event_type": "statistical_release",
+      "source_name": "bea",
+      "role": "NO_SUBJECT",
+      "has_registry_alias": false,
+      "has_event_verb": false,
+      "doc_title": "News Release",
+      "heading_context": "News Release"
+    },
+    {
+      "io_id": "io-850bbc38d59efe49",
+      "event_type": "monetary_policy_decision",
+      "source_name": "euronext",
+      "role": "AMBIGUOUS",
+      "has_registry_alias": true,
+      "has_event_verb": false,
+      "doc_title": "Attica Department Stores lists on Euronext",
+      "heading_context": "Market capitalisation at IPO is €192.5 million"
+    },
+    {
+      "io_id": "io-2e6037c97b7468b6",
+      "event_type": "statistical_release",
+      "source_name": "bea",
+      "role": "NO_SUBJECT",
+      "has_registry_alias": false,
+      "has_event_verb": false,
+      "doc_title": "News Release",
+      "heading_context": "News Release"
+    },
+    {
+      "io_id": "io-84e2943cab8b3d46",
+      "event_type": "statistical_release",
+      "source_name": "eurostat-emp",
+      "role": "NO_SUBJECT",
+      "has_registry_alias": false,
+      "has_event_verb": false,
+      "doc_title": "Search by keyword",
+      "heading_context": ""
+    },
+    {
+      "io_id": "io-07186a9387225398",
+      "event_type": "monetary_policy_decision",
+      "source_name": "cbj-jordan",
+      "role": "NO_SUBJECT",
+      "has_registry_alias": false,
+      "has_event_verb": false,
+      "doc_title": "بحاجة الى مساعدة؟",
+      "heading_context": "إعلان عن بعثات دراسية للحصول على درجة البكالوريوس لعام 2026 لتخصصات (الاقتصاد، الإحصاء، المحاسبة، ال"
+    },
+    {
+      "io_id": "io-c6c8ac878a439394",
+      "event_type": "statistical_release",
+      "source_name": "ecb",
+      "role": "NO_SUBJECT",
+      "has_registry_alias": false,
+      "has_event_verb": false,
+      "doc_title": "Decisions taken by the Governing Council of the ECB (in addition to decisions setting interest rates",
+      "heading_context": "Decisions taken by the Governing Council of the ECB (in addition to decisions setting interest rates"
+    },
+    {
+      "io_id": "io-9b029fe2cb4faffe",
+      "event_type": "regulatory_enforcement",
+      "source_name": "ecb-stat",
+      "role": "NO_SUBJECT",
+      "has_registry_alias": false,
+      "has_event_verb": false,
+      "doc_title": "Annual consolidated balance sheet of the Eurosystem",
+      "heading_context": ""
+    },
+    {
+      "io_id": "io-15d5becf382ab173",
+      "event_type": "statistical_release",
+      "source_name": "bank-of-england",
+      "role": "NO_SUBJECT",
+      "has_registry_alias": false,
+      "has_event_verb": false,
+      "doc_title": "Our use of cookies",
+      "heading_context": ""
+    },
+    {
+      "io_id": "io-8b4a3542d2817de6",
+      "event_type": "monetary_policy_decision",
+      "source_name": "cb-armenia",
+      "role": "NO_SUBJECT",
+      "has_registry_alias": false,
+      "has_event_verb": false,
+      "doc_title": "Կենտրոնական բանկ",
+      "heading_context": ""
+    },
+    {
+      "io_id": "io-6e999c72612a78fe",
+      "event_type": "regulatory_enforcement",
+      "source_name": "dfsa-uae",
+      "role": "NO_SUBJECT",
+      "has_registry_alias": false,
+      "has_event_verb": false,
+      "doc_title": "Publications & Reports",
+      "heading_context": ""
+    },
+    {
+      "io_id": "io-af82d235d80d7b5c",
+      "event_type": "monetary_policy_decision",
+      "source_name": "euronext",
+      "role": "AMBIGUOUS",
+      "has_registry_alias": true,
+      "has_event_verb": false,
+      "doc_title": "Pelican Aqua Holding lists on Euronext Growth",
+      "heading_context": "42nd listing on Euronext in 2026"
+    },
+    {
+      "io_id": "io-98a15d57c635d575",
+      "event_type": "statistical_release",
+      "source_name": "boc",
+      "role": "NO_SUBJECT",
+      "has_registry_alias": false,
+      "has_event_verb": false,
+      "doc_title": "Search",
+      "heading_context": ""
+    },
+    {
+      "io_id": "io-c5e7cc1796ffaadb",
+      "event_type": "monetary_policy_decision",
+      "source_name": "cso-ireland",
+      "role": "NO_SUBJECT",
+      "has_registry_alias": false,
+      "has_event_verb": false,
+      "doc_title": "Environment Taxes 2025",
+      "heading_context": "Environment Taxes 2025"
+    },
+    {
+      "io_id": "io-fd6d571e3af90e4b",
+      "event_type": "statistical_release",
+      "source_name": "bank-of-england",
+      "role": "NO_SUBJECT",
+      "has_registry_alias": false,
+      "has_event_verb": false,
+      "doc_title": "Our use of cookies",
+      "heading_context": ""
+    },
+    {
+      "io_id": "io-ee8a8257ce0e86ba",
+      "event_type": "regulatory_enforcement",
+      "source_name": "cftc",
+      "role": "NO_SUBJECT",
+      "has_registry_alias": false,
+      "has_event_verb": false,
+      "doc_title": "Press Releases",
+      "heading_context": "Press Releases"
+    },
+    {
+      "io_id": "io-43d4e65609c4843a",
+      "event_type": "regulatory_enforcement",
+      "source_name": "fca",
+      "role": "NO_SUBJECT",
+      "has_registry_alias": false,
+      "has_event_verb": false,
+      "doc_title": "Trial date set for individual charged with illegal promotions",
+      "heading_context": ""
+    },
+    {
+      "io_id": "io-a2874bde1c01cc90",
+      "event_type": "monetary_policy_decision",
+      "source_name": "nbu-ukraine",
+      "role": "NO_SUBJECT",
+      "has_registry_alias": false,
+      "has_event_verb": false,
+      "doc_title": "Національний банк в 2026 році випустить пам’ятну монету на честь Святого Папи Римського Іоанна Павла",
+      "heading_context": ""
+    },
+    {
+      "io_id": "io-11a06cb504c4153f",
+      "event_type": "monetary_policy_decision",
+      "source_name": "euronext",
+      "role": "NO_SUBJECT",
+      "has_registry_alias": false,
+      "has_event_verb": false,
+      "doc_title": "Euronext publishes Q2 2026 results",
+      "heading_context": "Euronext publishes Q2 2026 results"
+    },
+    {
+      "io_id": "io-f5ea3707a14000e8",
+      "event_type": "monetary_policy_decision",
+      "source_name": "euronext",
+      "role": "AMBIGUOUS",
+      "has_registry_alias": true,
+      "has_event_verb": false,
+      "doc_title": "Euronext announces volumes for June 2026",
+      "heading_context": "Euronext announces volumes for June 2026"
+    },
+    {
+      "io_id": "io-1bc7db10df408382",
+      "event_type": "monetary_policy_decision",
+      "source_name": "nbu-ukraine",
+      "role": "NO_SUBJECT",
+      "has_registry_alias": false,
+      "has_event_verb": false,
+      "doc_title": "Відеохаб",
+      "heading_context": ""
+    },
+    {
+      "io_id": "io-72de7dd31088e46c",
+      "event_type": "monetary_policy_decision",
+      "source_name": "nsi-bulgaria",
+      "role": "NO_SUBJECT",
+      "has_registry_alias": false,
+      "has_event_verb": false,
+      "doc_title": "За НСИ",
+      "heading_context": "Население и демографски процеси - 2025 година - окончателни данни"
+    },
+    {
+      "io_id": "io-0873c447e9b9733c",
+      "event_type": "statistical_release",
+      "source_name": "bea",
+      "role": "NO_SUBJECT",
+      "has_registry_alias": false,
+      "has_event_verb": false,
+      "doc_title": "News Release",
+      "heading_context": "News Release"
+    },
+    {
+      "io_id": "io-def78e5307ee021b",
+      "event_type": "monetary_policy_decision",
+      "source_name": "cbk-kenya",
+      "role": "NO_SUBJECT",
+      "has_registry_alias": false,
+      "has_event_verb": false,
+      "doc_title": "Speeches",
+      "heading_context": ""
+    },
+    {
+      "io_id": "io-98a5a38916143c2c",
+      "event_type": "monetary_policy_decision",
+      "source_name": "nbu-ukraine",
+      "role": "NO_SUBJECT",
+      "has_registry_alias": false,
+      "has_event_verb": false,
+      "doc_title": "Банки забезпечили фінансування проєктів в енергетиці на понад 60 млрд грн",
+      "heading_context": "Банки забезпечили фінансування проєктів в енергетиці на понад 60 млрд грн"
+    },
+    {
+      "io_id": "io-a3e3b65ea05c6565",
+      "event_type": "monetary_policy_decision",
+      "source_name": "cbj-jordan",
+      "role": "NO_SUBJECT",
+      "has_registry_alias": false,
+      "has_event_verb": false,
+      "doc_title": "بحاجة الى مساعدة؟",
+      "heading_context": "لجنة عمليات السوق المفتوحة تقرر  تثبيت \"سعر الفائدة الرئيسي للبنك المركزي\""
+    },
+    {
+      "io_id": "io-bd555b2d90276e2d",
+      "event_type": "statistical_release",
+      "source_name": "bea",
+      "role": "AMBIGUOUS",
+      "has_registry_alias": true,
+      "has_event_verb": false,
+      "doc_title": "",
+      "heading_context": ""
+    },
+    {
+      "io_id": "io-cb86ecb4e874af16",
+      "event_type": "monetary_policy_decision",
+      "source_name": "eurostat",
+      "role": "AMBIGUOUS",
+      "has_registry_alias": true,
+      "has_event_verb": false,
+      "doc_title": "Search by keyword",
+      "heading_context": "Euro indicators"
+    },
+    {
+      "io_id": "io-0ab4413fb520a9c0",
+      "event_type": "statistical_release",
+      "source_name": "boc",
+      "role": "NO_SUBJECT",
+      "has_registry_alias": false,
+      "has_event_verb": false,
+      "doc_title": "Monetary Policy Report",
+      "heading_context": ""
+    },
+    {
+      "io_id": "io-e2ad6d286ed7b4b2",
+      "event_type": "monetary_policy_decision",
+      "source_name": "nsi-bulgaria",
+      "role": "NO_SUBJECT",
+      "has_registry_alias": false,
+      "has_event_verb": false,
+      "doc_title": "За НСИ",
+      "heading_context": "Наети лица и средна работна заплата - II тримесечие 2026 година"
+    },
+    {
+      "io_id": "io-6f3c2fefc3cb4539",
+      "event_type": "statistical_release",
+      "source_name": "bank-of-england",
+      "role": "NO_SUBJECT",
+      "has_registry_alias": false,
+      "has_event_verb": false,
+      "doc_title": "Our use of cookies",
+      "heading_context": ""
+    },
+    {
+      "io_id": "io-e773686365fda65d",
+      "event_type": "monetary_policy_decision",
+      "source_name": "cbk-kenya",
+      "role": "NO_SUBJECT",
+      "has_registry_alias": false,
+      "has_event_verb": false,
+      "doc_title": "Presentations",
+      "heading_context": ""
+    },
+    {
+      "io_id": "io-79363a3ecdfd380d",
+      "event_type": "regulatory_enforcement",
+      "source_name": "euronext",
+      "role": "NO_SUBJECT",
+      "has_registry_alias": false,
+      "has_event_verb": false,
+      "doc_title": "News & Initiatives",
+      "heading_context": ""
+    },
+    {
+      "io_id": "io-ca2e327e2aa6cd44",
+      "event_type": "statistical_release",
+      "source_name": "ecb-stat",
+      "role": "AMBIGUOUS",
+      "has_registry_alias": true,
+      "has_event_verb": false,
+      "doc_title": "Measuring inflation and consumer prices",
+      "heading_context": "ON THIS PAGE"
+    },
+    {
+      "io_id": "io-671c2a5acb09c992",
+      "event_type": "regulatory_enforcement",
+      "source_name": "hm-feed",
+      "role": "NO_SUBJECT",
+      "has_registry_alias": false,
+      "has_event_verb": false,
+      "doc_title": "Cookies on GOV.UK",
+      "heading_context": "Cookies on GOV.UK"
+    },
+    {
+      "io_id": "io-54678670013a9f44",
+      "event_type": "regulatory_enforcement",
+      "source_name": "cbbh-bosnia",
+      "role": "NO_SUBJECT",
+      "has_registry_alias": false,
+      "has_event_verb": false,
+      "doc_title": "Public Announcements",
+      "heading_context": ""
+    },
+    {
+      "io_id": "io-19f918ccdbda037b",
+      "event_type": "monetary_policy_decision",
+      "source_name": "cbbh-bosnia",
+      "role": "NO_SUBJECT",
+      "has_registry_alias": false,
+      "has_event_verb": false,
+      "doc_title": "Newsletter CBBiH",
+      "heading_context": ""
+    }
+  ],
+  "hidden_true_subjects": 0
+}
