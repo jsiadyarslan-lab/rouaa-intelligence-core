@@ -1,0 +1,526 @@
+{
+  "phase": "ROUAA CORE RECOVERY — OUTPUT WORKBENCH",
+  "baseline_commit": "82263950263f74c4b970a902975b72539d39703f",
+  "executed_at_utc": "2026-08-20T18:59:22Z",
+  "io_population": 371,
+  "sample_size": 40,
+  "sample_by_type": {
+    "monetary_policy_decision": 10,
+    "statistical_release": 10,
+    "regulatory_enforcement": 11,
+    "market_statistic_release": 8,
+    "earnings_release": 1
+  },
+  "reuse_test": {
+    "ios_tested": 371,
+    "outputs_per_io": 4,
+    "total_outputs": 1484,
+    "reuse_without_extraction": 371,
+    "re_extraction_required": 0,
+    "reuse_success_rate": 1.0
+  },
+  "output_quality": {
+    "unsupported_claims": 0,
+    "provenance_complete": 371,
+    "provenance_rate": 1.0,
+    "differentiation": 371,
+    "differentiation_rate": 1.0
+  },
+  "output_diversity": {
+    "unique_headlines": 193,
+    "unique_news": 235,
+    "unique_research": 201,
+    "unique_risk": 197,
+    "unique_executive": 193
+  },
+  "test_results": {
+    "modules": {
+      "48 baseline": {
+        "module": "intelligence_core.tests.run_all",
+        "passed": true
+      },
+      "37 V37.2": {
+        "module": "intelligence_core.tests.reliability.v37_2_structural_evidence_test",
+        "passed": true
+      },
+      "30 collision": {
+        "module": "intelligence_core.tests.reliability.v37_2_collision_fix_tests",
+        "passed": true
+      },
+      "9 sub-collision": {
+        "module": "intelligence_core.tests.reliability.v37_2_sub_collision_tests",
+        "passed": true
+      },
+      "22 purpose": {
+        "module": "intelligence_core.tests.reliability.recovery_segment_purpose_tests",
+        "passed": true
+      }
+    },
+    "passed_modules": 5,
+    "total_modules": 5,
+    "test_count": 146,
+    "all_tests_pass": true
+  },
+  "acceptance_gates": {
+    "population_verified": true,
+    "four_outputs": true,
+    "reuse_100": true,
+    "re_extraction_zero": true,
+    "unsupported_zero": true,
+    "provenance_100": true,
+    "differentiation": true,
+    "nav_leakage_zero": true,
+    "collisions_zero": true,
+    "broken_provenance_zero": true,
+    "tests_146": true,
+    "html_real": true,
+    "all_pass": true
+  },
+  "sample_results": [
+    {
+      "io_id": "io-cb08d31a4e009be2",
+      "event_type": "monetary_policy_decision",
+      "source": "eurostat",
+      "headline": "eurostat sets policy rate at 0.3 — Q1 2026",
+      "fact_count": 4,
+      "reuse_ok": true,
+      "unsupported_claims": 0,
+      "provenance_complete": true,
+      "differentiated": true
+    },
+    {
+      "io_id": "io-b37f6c9f4f5b4a8a",
+      "event_type": "monetary_policy_decision",
+      "source": "eurostat",
+      "headline": "eurostat sets policy rate at 0.0 — Q1 2026",
+      "fact_count": 9,
+      "reuse_ok": true,
+      "unsupported_claims": 0,
+      "provenance_complete": true,
+      "differentiated": true
+    },
+    {
+      "io_id": "io-cba6421b7b401b5d",
+      "event_type": "monetary_policy_decision",
+      "source": "euronext",
+      "headline": "euronext sets policy rate at 232",
+      "fact_count": 15,
+      "reuse_ok": true,
+      "unsupported_claims": 0,
+      "provenance_complete": true,
+      "differentiated": true
+    },
+    {
+      "io_id": "io-68aeb1a370c256a6",
+      "event_type": "monetary_policy_decision",
+      "source": "federal-reserve",
+      "headline": "federal-reserve sets policy rate at 4",
+      "fact_count": 5,
+      "reuse_ok": true,
+      "unsupported_claims": 0,
+      "provenance_complete": true,
+      "differentiated": true
+    },
+    {
+      "io_id": "io-275f353119648d3f",
+      "event_type": "monetary_policy_decision",
+      "source": "eurostat",
+      "headline": "eurostat sets policy rate at 0.5 — Q2 2026",
+      "fact_count": 27,
+      "reuse_ok": true,
+      "unsupported_claims": 0,
+      "provenance_complete": true,
+      "differentiated": true
+    },
+    {
+      "io_id": "io-cb86ecb4e874af16",
+      "event_type": "monetary_policy_decision",
+      "source": "eurostat",
+      "headline": "eurostat sets policy rate at 0.4 — second 2026",
+      "fact_count": 36,
+      "reuse_ok": true,
+      "unsupported_claims": 0,
+      "provenance_complete": true,
+      "differentiated": true
+    },
+    {
+      "io_id": "io-55da9e9be0359c67",
+      "event_type": "monetary_policy_decision",
+      "source": "stats-china",
+      "headline": "stats-china sets policy rate at 7",
+      "fact_count": 4,
+      "reuse_ok": true,
+      "unsupported_claims": 0,
+      "provenance_complete": true,
+      "differentiated": true
+    },
+    {
+      "io_id": "io-bea0b6a376d6f629",
+      "event_type": "monetary_policy_decision",
+      "source": "deutsche-boerse",
+      "headline": "deutsche-boerse sets policy rate at 16",
+      "fact_count": 35,
+      "reuse_ok": true,
+      "unsupported_claims": 0,
+      "provenance_complete": true,
+      "differentiated": true
+    },
+    {
+      "io_id": "io-4d94300b4070757f",
+      "event_type": "monetary_policy_decision",
+      "source": "fsb",
+      "headline": "fsb sets policy rate at 77 — 2026-07",
+      "fact_count": 2,
+      "reuse_ok": true,
+      "unsupported_claims": 0,
+      "provenance_complete": true,
+      "differentiated": true
+    },
+    {
+      "io_id": "io-4534afa35d995d2a",
+      "event_type": "monetary_policy_decision",
+      "source": "cftc",
+      "headline": "cftc sets policy rate at 0.2",
+      "fact_count": 1,
+      "reuse_ok": true,
+      "unsupported_claims": 0,
+      "provenance_complete": true,
+      "differentiated": true
+    },
+    {
+      "io_id": "io-74b51eefd13974d9",
+      "event_type": "statistical_release",
+      "source": "bank-of-england",
+      "headline": "bank-of-england reports percentage statistic of 2",
+      "fact_count": 2,
+      "reuse_ok": true,
+      "unsupported_claims": 0,
+      "provenance_complete": true,
+      "differentiated": true
+    },
+    {
+      "io_id": "io-bd378fea8d59bb17",
+      "event_type": "statistical_release",
+      "source": "bank-of-england",
+      "headline": "bank-of-england reports percentage statistic of 2",
+      "fact_count": 2,
+      "reuse_ok": true,
+      "unsupported_claims": 0,
+      "provenance_complete": true,
+      "differentiated": true
+    },
+    {
+      "io_id": "io-c6c8ac878a439394",
+      "event_type": "statistical_release",
+      "source": "ecb",
+      "headline": "ecb reports percentage statistic of 72",
+      "fact_count": 2,
+      "reuse_ok": true,
+      "unsupported_claims": 0,
+      "provenance_complete": true,
+      "differentiated": true
+    },
+    {
+      "io_id": "io-43450fbfbd3f5f48",
+      "event_type": "statistical_release",
+      "source": "ecb",
+      "headline": "ecb reports percentage statistic of 5 — 2026",
+      "fact_count": 2,
+      "reuse_ok": true,
+      "unsupported_claims": 0,
+      "provenance_complete": true,
+      "differentiated": true
+    },
+    {
+      "io_id": "io-a27ee61aa6026a13",
+      "event_type": "statistical_release",
+      "source": "ecb",
+      "headline": "ecb reports percentage statistic of 31 — 2026",
+      "fact_count": 6,
+      "reuse_ok": true,
+      "unsupported_claims": 0,
+      "provenance_complete": true,
+      "differentiated": true
+    },
+    {
+      "io_id": "io-f803af6f431d9f8a",
+      "event_type": "statistical_release",
+      "source": "bank-of-england",
+      "headline": "bank-of-england reports percentage statistic of 2",
+      "fact_count": 36,
+      "reuse_ok": true,
+      "unsupported_claims": 0,
+      "provenance_complete": true,
+      "differentiated": true
+    },
+    {
+      "io_id": "io-0da4c931b2a04e1a",
+      "event_type": "statistical_release",
+      "source": "bank-of-england",
+      "headline": "bank-of-england reports percentage statistic of 2",
+      "fact_count": 2,
+      "reuse_ok": true,
+      "unsupported_claims": 0,
+      "provenance_complete": true,
+      "differentiated": true
+    },
+    {
+      "io_id": "io-3397bcfeb16c1522",
+      "event_type": "statistical_release",
+      "source": "bank-of-england",
+      "headline": "bank-of-england reports percentage statistic of 2",
+      "fact_count": 2,
+      "reuse_ok": true,
+      "unsupported_claims": 0,
+      "provenance_complete": true,
+      "differentiated": true
+    },
+    {
+      "io_id": "io-877cfaba4b9dc235",
+      "event_type": "statistical_release",
+      "source": "bank-of-england",
+      "headline": "bank-of-england reports percentage statistic of 2",
+      "fact_count": 4,
+      "reuse_ok": true,
+      "unsupported_claims": 0,
+      "provenance_complete": true,
+      "differentiated": true
+    },
+    {
+      "io_id": "io-7a2ef7f9417df7ab",
+      "event_type": "statistical_release",
+      "source": "bank-of-england",
+      "headline": "bank-of-england reports percentage statistic of 2",
+      "fact_count": 2,
+      "reuse_ok": true,
+      "unsupported_claims": 0,
+      "provenance_complete": true,
+      "differentiated": true
+    },
+    {
+      "io_id": "io-0a2164dff20884fa",
+      "event_type": "regulatory_enforcement",
+      "source": "ecb",
+      "headline": "ecb enforcement: action type settlement — 2026",
+      "fact_count": 1,
+      "reuse_ok": true,
+      "unsupported_claims": 0,
+      "provenance_complete": true,
+      "differentiated": true
+    },
+    {
+      "io_id": "io-ee8a8257ce0e86ba",
+      "event_type": "regulatory_enforcement",
+      "source": "cftc",
+      "headline": "cftc enforcement: penalty amount 400",
+      "fact_count": 4,
+      "reuse_ok": true,
+      "unsupported_claims": 0,
+      "provenance_complete": true,
+      "differentiated": true
+    },
+    {
+      "io_id": "io-b6abac1393987508",
+      "event_type": "regulatory_enforcement",
+      "source": "esma",
+      "headline": "esma enforcement: action type settlement",
+      "fact_count": 1,
+      "reuse_ok": true,
+      "unsupported_claims": 0,
+      "provenance_complete": true,
+      "differentiated": true
+    },
+    {
+      "io_id": "io-5150003cff76e0ab",
+      "event_type": "regulatory_enforcement",
+      "source": "esma",
+      "headline": "esma enforcement: action type settlement",
+      "fact_count": 1,
+      "reuse_ok": true,
+      "unsupported_claims": 0,
+      "provenance_complete": true,
+      "differentiated": true
+    },
+    {
+      "io_id": "io-eb4ea7a98e0e81d3",
+      "event_type": "regulatory_enforcement",
+      "source": "esma",
+      "headline": "esma enforcement: action type settlement",
+      "fact_count": 1,
+      "reuse_ok": true,
+      "unsupported_claims": 0,
+      "provenance_complete": true,
+      "differentiated": true
+    },
+    {
+      "io_id": "io-936e16f976e71fe5",
+      "event_type": "regulatory_enforcement",
+      "source": "fca",
+      "headline": "fca enforcement: action type settlement — 2027",
+      "fact_count": 26,
+      "reuse_ok": true,
+      "unsupported_claims": 0,
+      "provenance_complete": true,
+      "differentiated": true
+    },
+    {
+      "io_id": "io-e1c8fef2c0eb8d6e",
+      "event_type": "regulatory_enforcement",
+      "source": "euronext",
+      "headline": "euronext enforcement: action type settlement",
+      "fact_count": 6,
+      "reuse_ok": true,
+      "unsupported_claims": 0,
+      "provenance_complete": true,
+      "differentiated": true
+    },
+    {
+      "io_id": "io-81354940d43ef28d",
+      "event_type": "regulatory_enforcement",
+      "source": "euronext",
+      "headline": "euronext enforcement: action type settlement",
+      "fact_count": 6,
+      "reuse_ok": true,
+      "unsupported_claims": 0,
+      "provenance_complete": true,
+      "differentiated": true
+    },
+    {
+      "io_id": "io-fe0ecf5fbcc92531",
+      "event_type": "regulatory_enforcement",
+      "source": "ecb",
+      "headline": "ecb enforcement: action type settlement — 2026",
+      "fact_count": 1,
+      "reuse_ok": true,
+      "unsupported_claims": 0,
+      "provenance_complete": true,
+      "differentiated": true
+    },
+    {
+      "io_id": "io-e65a9b3a70a171e4",
+      "event_type": "regulatory_enforcement",
+      "source": "eurostat",
+      "headline": "eurostat enforcement: action type fine",
+      "fact_count": 2,
+      "reuse_ok": true,
+      "unsupported_claims": 0,
+      "provenance_complete": true,
+      "differentiated": true
+    },
+    {
+      "io_id": "io-005045dcc6e7f54f",
+      "event_type": "market_statistic_release",
+      "source": "federal-reserve",
+      "headline": "federal-reserve market usd amount 3",
+      "fact_count": 1,
+      "reuse_ok": true,
+      "unsupported_claims": 0,
+      "provenance_complete": true,
+      "differentiated": true
+    },
+    {
+      "io_id": "io-73d389d84d737535",
+      "event_type": "market_statistic_release",
+      "source": "cftc",
+      "headline": "cftc market usd amount 36",
+      "fact_count": 1,
+      "reuse_ok": true,
+      "unsupported_claims": 0,
+      "provenance_complete": true,
+      "differentiated": true
+    },
+    {
+      "io_id": "io-e634047f1888f551",
+      "event_type": "market_statistic_release",
+      "source": "cftc",
+      "headline": "cftc market usd amount 397",
+      "fact_count": 1,
+      "reuse_ok": true,
+      "unsupported_claims": 0,
+      "provenance_complete": true,
+      "differentiated": true
+    },
+    {
+      "io_id": "io-d06c7cf2f00b4891",
+      "event_type": "market_statistic_release",
+      "source": "frb-ny",
+      "headline": "frb-ny market usd amount 1.3",
+      "fact_count": 3,
+      "reuse_ok": true,
+      "unsupported_claims": 0,
+      "provenance_complete": true,
+      "differentiated": true
+    },
+    {
+      "io_id": "io-a1868489de0e9e2e",
+      "event_type": "market_statistic_release",
+      "source": "frb-ny",
+      "headline": "frb-ny market usd amount 232 — Q2 2023",
+      "fact_count": 5,
+      "reuse_ok": true,
+      "unsupported_claims": 0,
+      "provenance_complete": true,
+      "differentiated": true
+    },
+    {
+      "io_id": "io-655c974c29eeb347",
+      "event_type": "market_statistic_release",
+      "source": "nrcan",
+      "headline": "nrcan market usd amount 32",
+      "fact_count": 3,
+      "reuse_ok": true,
+      "unsupported_claims": 0,
+      "provenance_complete": true,
+      "differentiated": true
+    },
+    {
+      "io_id": "io-1ac47bbc74796a1a",
+      "event_type": "market_statistic_release",
+      "source": "nrcan",
+      "headline": "nrcan market usd amount 10",
+      "fact_count": 3,
+      "reuse_ok": true,
+      "unsupported_claims": 0,
+      "provenance_complete": true,
+      "differentiated": true
+    },
+    {
+      "io_id": "io-de9433a949874f8c",
+      "event_type": "market_statistic_release",
+      "source": "cbbh-bosnia",
+      "headline": "cbbh-bosnia market usd amount 10.6",
+      "fact_count": 1,
+      "reuse_ok": true,
+      "unsupported_claims": 0,
+      "provenance_complete": true,
+      "differentiated": true
+    },
+    {
+      "io_id": "io-b4e154d9a1504355",
+      "event_type": "earnings_release",
+      "source": "mof-philippines",
+      "headline": "mof-philippines earnings revenue 205",
+      "fact_count": 2,
+      "reuse_ok": true,
+      "unsupported_claims": 0,
+      "provenance_complete": true,
+      "differentiated": true
+    },
+    {
+      "io_id": "io-510e7472d7e96491",
+      "event_type": "regulatory_enforcement",
+      "source": "sec",
+      "headline": "sec enforcement: action type charged",
+      "fact_count": 1,
+      "reuse_ok": true,
+      "unsupported_claims": 0,
+      "provenance_complete": true,
+      "differentiated": true
+    }
+  ],
+  "artifacts_produced": [
+    "docs/evidence/ROUAA_CORE_INTELLIGENCE_OUTPUT_WORKBENCH_RECOVERED.html",
+    "docs/evidence/ROUAA_CORE_RECOVERED_INTELLIGENCE_OUTPUT_WORKBENCH.md",
+    "intelligence_core/tests/reliability/recovered_output_workbench.json"
+  ]
+}
