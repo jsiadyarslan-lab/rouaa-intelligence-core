@@ -3,8 +3,17 @@
 **Executed (UTC):** 2026-08-20T19:01:16Z
 **Baseline commit:** `82263950263f74c4b970a902975b72539d39703f`
 **Recovery branch:** `recovery/post-v37-intelligence-stack`
-**HEAD SHA:** `76da16e52dd76d4a341e6af7575c04110b46772d`
-**Remote SHA:** `76da16e52dd76d4a341e6af7575c04110b46772d`
+**HEAD SHA:** `47ccbc191e3aa9808e0e4b50e5d0583fe7962c58`
+**Remote SHA:** `47ccbc191e3aa9808e0e4b50e5d0583fe7962c58`
+
+> **V45 §3 Metadata Reconciliation Note (2026-08-21):** The original
+> report was generated when HEAD was at Checkpoint #4 (`76da16e`). The
+> report itself was then committed as `47ccbc1` (Checkpoint #5), but
+> the metadata inside the report was not regenerated. This V45 patch
+> corrects the stale `HEAD SHA` / `Remote SHA` / `Checkpoint #5` values
+> to reflect the actual final HEAD `47ccbc1`. No measured data was
+> altered. Before/after diff recorded in `/tmp/v45_report_before.md`
+> (preserved at commit time as a V45 diagnostic).
 **Local==Remote:** True
 **PR:** #2 (https://github.com/jsiadyarslan-lab/rouaa-intelligence-core/pull/2)
 **Verdict:** `ROUAA POST-V37 RECOVERY DURABLY REBUILT`
@@ -14,7 +23,7 @@ Post-V37.2 development was previously lost because intermediate phases (V38–V4
 **All gates pass:** True
 ## Recovery Checkpoints
 | # | Commit | Layer |
-|---|---|---|| 1 | `8e20622` | Segment-purpose filtering (`intelligence_core/segment_purpose.py` + 22 tests) || 2 | `366bae6` | Full existing-corpus measurement (1,034 docs, terminal accounting) || 3 | `30d2793` | Canonical semantic enrichment (371 NEW IOs enriched) || 4 | `76da16e` | Output Workbench HTML (371 IOs × 4 views) || 5 | `76da16e` | Final report (this document) |Every checkpoint is durable: committed + pushed + verified `LOCAL == REMOTE` + working tree CLEAN before advancing.
+|---|---|---|| 1 | `8e20622` | Segment-purpose filtering (`intelligence_core/segment_purpose.py` + 22 tests) || 2 | `366bae6` | Full existing-corpus measurement (1,034 docs, terminal accounting) || 3 | `30d2793` | Canonical semantic enrichment (371 NEW IOs enriched) || 4 | `76da16e` | Output Workbench HTML (371 IOs × 4 views) || 5 | `47ccbc1` | Final report (this document) |Every checkpoint is durable: committed + pushed + verified `LOCAL == REMOTE` + working tree CLEAN before advancing.
 ## §15 — Current Canonical Population
 | Field | Value |
 |---|---|| Total documents in store | 1034 || Pre-existing facts | 396 || Pre-existing events | 45 || Total IOs emitted (current run) | 406 || Pre-existing IOs | 35 || **NEW IOs (authoritative)** | **371** || Unique NEW io_ids | 371 || Duplicate io_ids | 0 || Orphan IOs | 0 || Terminal accounting sum | 1034 || Terminal sum matches total | True |### Terminal Accounting
@@ -44,8 +53,8 @@ By event type:
 1. Entity coverage is 100% because source_name is used as a deterministic proxy for primary_entity. This is honest (source is always known) but doesn't capture the semantic ambiguity of WHICH entity is the primary subject.2. Temporal coverage is partial (22.4%) because most fact excerpts are too short to contain parseable reference periods. Phase B terminal accounting shows 622/1034 documents produce no facts at all (SUCCESS_NO_FACTS) — these are mostly non-HTML or non-substantive documents.3. Event state is 95.7% UNKNOWN — only 11 NEW + 5 REVISED could be detected from headline/URL signals. Most events do not carry revision signals in their deterministic text. This is reported honestly, not invented.4. Sample of 40 IOs is biased toward the top-N by event_type. Quality may differ for the long tail of less-represented event types.## Unresolved Gaps
 1. No source expansion performed (existing 1,034-document corpus only).2. No LLM used for semantic enrichment (deterministic only).3. No News/Trading/Corporate integration (workbench is Core-only).4. No benchmark against historical V38–V44 numbers (those artifacts were lost).## §24 — Final PR State
 - Branch: `recovery/post-v37-intelligence-stack`
-- HEAD SHA: `76da16e52dd76d4a341e6af7575c04110b46772d`
-- Remote SHA: `76da16e52dd76d4a341e6af7575c04110b46772d`
+- HEAD SHA: `47ccbc191e3aa9808e0e4b50e5d0583fe7962c58`
+- Remote SHA: `47ccbc191e3aa9808e0e4b50e5d0583fe7962c58`
 - Local == Remote: True
 - PR: #2 (https://github.com/jsiadyarslan-lab/rouaa-intelligence-core/pull/2)
 - PR NOT merged (per directive §24)
@@ -64,5 +73,5 @@ ROUAA POST-V37 RECOVERY DURABLY REBUILT
 - **Test results:** 5/5 modules = 146/146 tests (PASS)
 - **PR number:** #2
 - **Recovery branch:** `recovery/post-v37-intelligence-stack`
-- **HEAD SHA:** `76da16e52dd76d4a341e6af7575c04110b46772d`
-- **REMOTE SHA:** `76da16e52dd76d4a341e6af7575c04110b46772d`
+- **HEAD SHA:** `47ccbc191e3aa9808e0e4b50e5d0583fe7962c58`
+- **REMOTE SHA:** `47ccbc191e3aa9808e0e4b50e5d0583fe7962c58`

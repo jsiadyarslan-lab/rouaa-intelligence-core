@@ -1,0 +1,361 @@
+{
+  "phase": "V45 EVENT → IO RECONCILIATION",
+  "baseline_commit": "82263950263f74c4b970a902975b72539d39703f",
+  "executed_at_utc": "2026-08-20T19:35:54Z",
+  "pre_existing_events_count": 45,
+  "io_emitting_events_count": 35,
+  "non_emitting_events_count": 10,
+  "invariant_35_plus_10_equals_45": true,
+  "io_emitting_events": [
+    {
+      "event_id": "evt-96644749b358baca",
+      "event_type": "statistical_release",
+      "document_id": "doc-7c5cd3967c2f9f10",
+      "source_id": "",
+      "io_id": "io-abed2ad81fcd4f55"
+    },
+    {
+      "event_id": "evt-04c57aabceff5bca",
+      "event_type": "statistical_release",
+      "document_id": "doc-9009073715abef71",
+      "source_id": "",
+      "io_id": "io-d5b1ab4c5b2d361c"
+    },
+    {
+      "event_id": "evt-524faef265c83747",
+      "event_type": "statistical_release",
+      "document_id": "doc-3c78c920fe89e689",
+      "source_id": "",
+      "io_id": "io-894fdf022a9fee51"
+    },
+    {
+      "event_id": "evt-76a4c67228da9ccb",
+      "event_type": "statistical_release",
+      "document_id": "doc-8700a0859c829c44",
+      "source_id": "",
+      "io_id": "io-0db41fde8c803040"
+    },
+    {
+      "event_id": "evt-37132e01690f84a2",
+      "event_type": "statistical_release",
+      "document_id": "doc-9d7146f970cd6602",
+      "source_id": "",
+      "io_id": "io-1d703f02989d78b2"
+    },
+    {
+      "event_id": "evt-5f95d093b7d9a38b",
+      "event_type": "statistical_release",
+      "document_id": "doc-5a0547ffcaa7a57e",
+      "source_id": "",
+      "io_id": "io-8203734e329b78da"
+    },
+    {
+      "event_id": "evt-a72c6db8c23e7f3f",
+      "event_type": "statistical_release",
+      "document_id": "doc-e96dc7902ddcfa54",
+      "source_id": "",
+      "io_id": "io-4b3549f2bfeabd43"
+    },
+    {
+      "event_id": "evt-834819ce943fc7e8",
+      "event_type": "statistical_release",
+      "document_id": "doc-93c89f0c3311c178",
+      "source_id": "",
+      "io_id": "io-0c647330a91d640c"
+    },
+    {
+      "event_id": "evt-31a17f8e8c7f6ff4",
+      "event_type": "regulatory_enforcement",
+      "document_id": "doc-9a2c3554bf239005",
+      "source_id": "",
+      "io_id": "io-1ca8a75ee22968f7"
+    },
+    {
+      "event_id": "evt-6726f19bf8a5555d",
+      "event_type": "regulatory_enforcement",
+      "document_id": "doc-fa4e9cecec3e8d7d",
+      "source_id": "",
+      "io_id": "io-86eb51402109b465"
+    },
+    {
+      "event_id": "evt-35110dcbe6af1e8b",
+      "event_type": "regulatory_enforcement",
+      "document_id": "doc-607891ddb7eae21c",
+      "source_id": "",
+      "io_id": "io-7fb679b134aeabb3"
+    },
+    {
+      "event_id": "evt-ecd70f3ae34ce3bb",
+      "event_type": "regulatory_enforcement",
+      "document_id": "doc-b72c1ee4a05de89b",
+      "source_id": "",
+      "io_id": "io-f76ffc30691c854c"
+    },
+    {
+      "event_id": "evt-8dae79a832761567",
+      "event_type": "statistical_release",
+      "document_id": "doc-49401aaf4cb8f90c",
+      "source_id": "",
+      "io_id": "io-451bdc21b43c1e7e"
+    },
+    {
+      "event_id": "evt-7db264a28332dbaf",
+      "event_type": "statistical_release",
+      "document_id": "doc-3802c7674b23f4c6",
+      "source_id": "",
+      "io_id": "io-f4570852167df1eb"
+    },
+    {
+      "event_id": "evt-8e5bddb6a753bfe4",
+      "event_type": "regulatory_enforcement",
+      "document_id": "doc-76db58a41348002b",
+      "source_id": "",
+      "io_id": "io-e7f1ab14fa41db16"
+    },
+    {
+      "event_id": "evt-de90a317a69593eb",
+      "event_type": "statistical_release",
+      "document_id": "doc-ac00651c0093d6f9",
+      "source_id": "",
+      "io_id": "io-be817f73577ff8e1"
+    },
+    {
+      "event_id": "evt-955c53ab013e63b1",
+      "event_type": "statistical_release",
+      "document_id": "doc-60379f7197c52080",
+      "source_id": "",
+      "io_id": "io-dcf76f5a97a74c3e"
+    },
+    {
+      "event_id": "evt-60ba1430c6e2a5b6",
+      "event_type": "statistical_release",
+      "document_id": "doc-3977e22b6168c0e8",
+      "source_id": "",
+      "io_id": "io-a5963d0fb0a8b10d"
+    },
+    {
+      "event_id": "evt-44acde85cbae40e8",
+      "event_type": "statistical_release",
+      "document_id": "doc-19a6ebb8b8b9eadd",
+      "source_id": "",
+      "io_id": "io-42a1a68e297feffb"
+    },
+    {
+      "event_id": "evt-d5b417a3a28689d0",
+      "event_type": "statistical_release",
+      "document_id": "doc-7d5803d21c44a224",
+      "source_id": "",
+      "io_id": "io-f92aa209b5d5c885"
+    },
+    {
+      "event_id": "evt-3b2aff26534a32ec",
+      "event_type": "statistical_release",
+      "document_id": "doc-6a8a4047814c4caf",
+      "source_id": "",
+      "io_id": "io-0f57ee23f994dd09"
+    },
+    {
+      "event_id": "evt-79ac120640d6ff0f",
+      "event_type": "statistical_release",
+      "document_id": "doc-fb1d49f16ce70f30",
+      "source_id": "",
+      "io_id": "io-5374d45575bb9c06"
+    },
+    {
+      "event_id": "evt-e09b21d11929de3e",
+      "event_type": "statistical_release",
+      "document_id": "doc-9478d7a1e1d9a260",
+      "source_id": "",
+      "io_id": "io-03f54ef461c06001"
+    },
+    {
+      "event_id": "evt-c964744ebee4255e",
+      "event_type": "statistical_release",
+      "document_id": "doc-3d16cf2bca67cc15",
+      "source_id": "",
+      "io_id": "io-724c8945ab5830f2"
+    },
+    {
+      "event_id": "evt-5c0adf589b1b3503",
+      "event_type": "statistical_release",
+      "document_id": "doc-c84807e39583b5c5",
+      "source_id": "",
+      "io_id": "io-00c155a6e63a1aa8"
+    },
+    {
+      "event_id": "evt-e44626e56d1fb4fc",
+      "event_type": "statistical_release",
+      "document_id": "doc-024943207bc4b772",
+      "source_id": "",
+      "io_id": "io-74ef71afed5de73c"
+    },
+    {
+      "event_id": "evt-8be4ed722805032c",
+      "event_type": "statistical_release",
+      "document_id": "doc-a04cb4fb1ce1e79a",
+      "source_id": "",
+      "io_id": "io-6881d90972a19a0b"
+    },
+    {
+      "event_id": "evt-52e92b0cb1ef3acc",
+      "event_type": "statistical_release",
+      "document_id": "doc-a065dc2e3f02a976",
+      "source_id": "",
+      "io_id": "io-325dd7efed5d3c36"
+    },
+    {
+      "event_id": "evt-eda86b8aa863900b",
+      "event_type": "statistical_release",
+      "document_id": "doc-de2aa23ae32bf15b",
+      "source_id": "",
+      "io_id": "io-87fb57de28e6dd5a"
+    },
+    {
+      "event_id": "evt-d75724623fda4832",
+      "event_type": "statistical_release",
+      "document_id": "doc-013e31b4eca68303",
+      "source_id": "",
+      "io_id": "io-03a32d05aa7885e0"
+    },
+    {
+      "event_id": "evt-d4e094cee119ba3d",
+      "event_type": "statistical_release",
+      "document_id": "doc-b3d9add0dfb060c9",
+      "source_id": "",
+      "io_id": "io-1692b6b72193f250"
+    },
+    {
+      "event_id": "evt-3c3e2499cbb5fb33",
+      "event_type": "statistical_release",
+      "document_id": "doc-da802c5165a71f32",
+      "source_id": "",
+      "io_id": "io-8917445a26729eee"
+    },
+    {
+      "event_id": "evt-3769e038c2668cd4",
+      "event_type": "statistical_release",
+      "document_id": "doc-bda337df91614348",
+      "source_id": "",
+      "io_id": "io-5f0065caca456cb3"
+    },
+    {
+      "event_id": "evt-752ea19bd9a08078",
+      "event_type": "statistical_release",
+      "document_id": "doc-55351346ad8936fe",
+      "source_id": "",
+      "io_id": "io-56c7f63d1cab09fd"
+    },
+    {
+      "event_id": "evt-57fde274b7cbf3ce",
+      "event_type": "monetary_policy_decision",
+      "document_id": "doc-bc3ccf0a2c2ef2e7",
+      "source_id": "",
+      "io_id": "io-2700fe5da75c2818"
+    }
+  ],
+  "non_emitting_events": [
+    {
+      "event_id": "evt-2ebcc45622487737",
+      "event_type": "statistical_release",
+      "document_id": "doc-4948ce14a03b3c19",
+      "source_id": "",
+      "fact_version_snapshot_count": 1,
+      "reason": "DUPLICATE_SUPPRESSED",
+      "why": "detect_event for 'statistical_release' succeeded now but the recovery run broke before reaching it (different iteration order or the event_type wasn't in configured for that document)",
+      "could_safely_emit_io": true
+    },
+    {
+      "event_id": "evt-ae00859c3f255f9c",
+      "event_type": "statistical_release",
+      "document_id": "doc-60e8e4990db38b6b",
+      "source_id": "",
+      "fact_version_snapshot_count": 3,
+      "reason": "DUPLICATE_SUPPRESSED",
+      "why": "detect_event for 'statistical_release' succeeded now but the recovery run broke before reaching it (different iteration order or the event_type wasn't in configured for that document)",
+      "could_safely_emit_io": true
+    },
+    {
+      "event_id": "evt-f151263897364ce4",
+      "event_type": "monetary_policy_decision",
+      "document_id": "doc-ac00651c0093d6f9",
+      "source_id": "",
+      "fact_version_snapshot_count": 6,
+      "reason": "DUPLICATE_SUPPRESSED",
+      "why": "detect_event preferred 'statistical_release' over 'monetary_policy_decision' — break-on-first-match dropped the pre-existing event",
+      "could_safely_emit_io": false
+    },
+    {
+      "event_id": "evt-a5ff702530367617",
+      "event_type": "monetary_policy_decision",
+      "document_id": "doc-60379f7197c52080",
+      "source_id": "",
+      "fact_version_snapshot_count": 3,
+      "reason": "DUPLICATE_SUPPRESSED",
+      "why": "detect_event preferred 'statistical_release' over 'monetary_policy_decision' — break-on-first-match dropped the pre-existing event",
+      "could_safely_emit_io": false
+    },
+    {
+      "event_id": "evt-4202b509c86ea6d7",
+      "event_type": "monetary_policy_decision",
+      "document_id": "doc-3977e22b6168c0e8",
+      "source_id": "",
+      "fact_version_snapshot_count": 2,
+      "reason": "DUPLICATE_SUPPRESSED",
+      "why": "detect_event preferred 'statistical_release' over 'monetary_policy_decision' — break-on-first-match dropped the pre-existing event",
+      "could_safely_emit_io": false
+    },
+    {
+      "event_id": "evt-cfc0cf38c96cf188",
+      "event_type": "monetary_policy_decision",
+      "document_id": "doc-19a6ebb8b8b9eadd",
+      "source_id": "",
+      "fact_version_snapshot_count": 1,
+      "reason": "DUPLICATE_SUPPRESSED",
+      "why": "detect_event preferred 'statistical_release' over 'monetary_policy_decision' — break-on-first-match dropped the pre-existing event",
+      "could_safely_emit_io": false
+    },
+    {
+      "event_id": "evt-2b0acb5817144571",
+      "event_type": "monetary_policy_decision",
+      "document_id": "doc-7d5803d21c44a224",
+      "source_id": "",
+      "fact_version_snapshot_count": 10,
+      "reason": "DUPLICATE_SUPPRESSED",
+      "why": "detect_event preferred 'statistical_release' over 'monetary_policy_decision' — break-on-first-match dropped the pre-existing event",
+      "could_safely_emit_io": false
+    },
+    {
+      "event_id": "evt-b07b6a385761eb76",
+      "event_type": "monetary_policy_decision",
+      "document_id": "doc-6a8a4047814c4caf",
+      "source_id": "",
+      "fact_version_snapshot_count": 5,
+      "reason": "DUPLICATE_SUPPRESSED",
+      "why": "detect_event preferred 'statistical_release' over 'monetary_policy_decision' — break-on-first-match dropped the pre-existing event",
+      "could_safely_emit_io": false
+    },
+    {
+      "event_id": "evt-3bfbb51410ad5df6",
+      "event_type": "monetary_policy_decision",
+      "document_id": "doc-fb1d49f16ce70f30",
+      "source_id": "",
+      "fact_version_snapshot_count": 5,
+      "reason": "DUPLICATE_SUPPRESSED",
+      "why": "detect_event preferred 'statistical_release' over 'monetary_policy_decision' — break-on-first-match dropped the pre-existing event",
+      "could_safely_emit_io": false
+    },
+    {
+      "event_id": "evt-3b7eb1cfd9d6ee99",
+      "event_type": "monetary_policy_decision",
+      "document_id": "doc-b3d9add0dfb060c9",
+      "source_id": "",
+      "fact_version_snapshot_count": 5,
+      "reason": "DUPLICATE_SUPPRESSED",
+      "why": "detect_event preferred 'statistical_release' over 'monetary_policy_decision' — break-on-first-match dropped the pre-existing event",
+      "could_safely_emit_io": false
+    }
+  ],
+  "non_emitting_reason_counts": {
+    "DUPLICATE_SUPPRESSED": 10
+  }
+}
