@@ -51,8 +51,8 @@ Rules (all KEYS-LEVEL, no document-specific or source-specific shortcuts):
 4. HEADING segments are always SUBSTANTIVE (they describe the content
    that follows).
 
-5. ANY segment with text matching r"\b\d+(\.\d+)+\b" (numeric table-like
-   pattern) inside a TABLE_ROW is SUBSTANTIVE.
+5. ANY segment with numeric table-like cell content (e.g. "1.5", "2.0",
+   "+0.5") inside a TABLE_ROW is SUBSTANTIVE.
 
 INVARIANT: This filter NEVER skips an entire document. It operates
 per-segment only. Mixed-content pages keep their substantive segments
