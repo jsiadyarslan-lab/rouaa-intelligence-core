@@ -527,41 +527,51 @@ def extract_candidates_from_document_title(
 # "Inflation rose" → Inflation + rose → BOUND ✓
 
 # Subordinate clause markers — text after these is NOT the main clause
+# V48V §5 FIX: we must determine WHICH clause the candidate is in,
+# not just whether a conjunction appeared before it.
+# "Because unemployment increased, GDP rose." → GDP is in MAIN clause
+# (after the comma that ends the subordinate clause).
 _SUBORDINATE_CONJUNCTIONS = re.compile(
     r"\b(?:because|since|as|while|although|whereas|given|noting|after|before|"
     r"due to|owing to|in light of|in view of)\b",
     re.I,
 )
 
-# Event verbs by subject type
+# Sentence/clause boundary markers
+_CLAUSE_BOUNDARY = re.compile(r"[,;.]")
+
+# V48V §6 — Separate STATE/COPULA from EVENT_VERB
+# Copula (was/is/are/were) alone is NOT sufficient for semantic binding.
+# Only true EVENT verbs (increased, rose, fell, raised, etc.) trigger binding.
+_STATE_VERBS = re.compile(r"\b(?:was|were|is|are|been|being|remains?|remained?)\b", re.I)
+
+# Event verbs by subject type — V48V: NO COPULA (was/is/are/were removed)
 _EVENT_VERBS = {
     "INDICATOR": re.compile(
         r"\b(?:increase[ds]?|rose|fell|decrease[ds]?|grew|decline[ds]?|eased|"
         r"accelerate[ds]?|slowed|dropped|climbed|surge[ds]?|dipped?|rebound(?:ed)?|"
-        r"recovered|contract(?:ed)?|expand(?:ed)?|stand[ds]? at|"
-        r"was|were|is|are|reached?)\b",
+        r"recovered|contract(?:ed)?|expand(?:ed)?|stand[ds]? at)\b",
         re.I,
     ),
     "CONCEPT": re.compile(
         r"\b(?:tighten(?:ed)?|eased|expand(?:ed)?|contract(?:ed)?|shift(?:ed)?|change[ds]?|"
-        r"adjust(?:ed)?|decide[ds]?|announce[ds]?|publish(?:ed)?|release[ds]?|issues?|"
-        r"was|were|is|are|remains?|remained?)\b",
+        r"adjust(?:ed)?|decide[ds]?|announce[ds]?|publish(?:ed)?|release[ds]?|issues?)\b",
         re.I,
     ),
     "INSTRUMENT": re.compile(
         r"\b(?:raise[ds]?|lower[eds]?|cut|maintain(?:ed)?|set|kept|held|unchanged?|"
-        r"increase[ds]?|reduce[ds]?|adjust(?:ed)?|was|were|is|are|stood at|"
+        r"increase[ds]?|reduce[ds]?|adjust(?:ed)?|stood at|"
         r"remain(?:ed)?|stay(?:ed)?)\b",
         re.I,
     ),
     "REGULATION": re.compile(
         r"\b(?:impose[ds]?|issued?|reached?|settled?|fined?|penalized?|"
-        r"charged?|was|were|is|are|announced?|published?)\b",
+        r"charged?|announced?|published?)\b",
         re.I,
     ),
     "MARKET": re.compile(
         r"\b(?:increase[ds]?|rose|fell|decrease[ds]?|surge[ds]?|volatility|"
-        r"turnover|was|were|is|are|reached?)\b",
+        r"turnover|reached?)\b",
         re.I,
     ),
 }
@@ -572,18 +582,18 @@ def _check_semantic_binding(
     primary_segments_by_fact: dict,
     reg_type: str,
 ) -> bool:
-    """V48U §2 — Check whether a candidate is the semantic object of the event.
+    """V48U §2 + V48V §5 — Check whether a candidate is the semantic object of the event.
 
-    A registry match alone is NOT sufficient. The candidate must:
-    1. Appear in the primary segment text
-    2. Be near an event verb appropriate to its type
-    3. NOT be in a subordinate clause (after "because", "since", etc.)
-
-    Returns True if the candidate is semantically bound as the subject.
+    V48V FIXES:
+    1. Clause boundary logic: determine WHICH clause the candidate is in,
+       not just whether a subordinate conjunction appeared before it.
+       "Because unemployment increased, GDP rose." → GDP is in MAIN clause
+       (after the comma that ends the subordinate clause).
+    2. Copula removed: was/is/are/were alone no longer triggers binding.
+       Only true event verbs (increased, rose, fell, raised, etc.) bind.
     """
     fact_id = candidate.get("supporting_fact_id", "")
     primary_text_obj = primary_segments_by_fact.get(fact_id, "")
-    # primary_segments_by_fact may store EvidenceSegmentV1 objects OR strings
     if isinstance(primary_text_obj, str):
         primary_text = primary_text_obj
     elif hasattr(primary_text_obj, 'text'):
@@ -601,28 +611,41 @@ def _check_semantic_binding(
     # Find the position of the candidate in the text
     idx = text_lower.find(match_text_lower)
     if idx < 0:
-        # Try the canonical name
         idx = text_lower.find(candidate.get("canonical_name", "").lower())
     if idx < 0:
         return False
 
-    # Check if the candidate appears AFTER a subordinate conjunction
-    # (in a subordinate clause — NOT the main clause)
+    # V48V §5 — CLAUSE BOUNDARY LOGIC:
+    # Determine which clause the candidate is in.
+    # If a subordinate conjunction appears BEFORE the candidate, check if
+    # there's a clause boundary (comma/semicolon/period) BETWEEN the
+    # conjunction and the candidate. If yes, the candidate is in the MAIN
+    # clause (the subordinate clause ended). If no, the candidate is in
+    # the SUBORDINATE clause.
     text_before_candidate = text_lower[:idx]
-    if _SUBORDINATE_CONJUNCTIONS.search(text_before_candidate):
-        # The candidate is in a subordinate clause — NOT the semantic subject
-        return False
+    sub_matches = list(_SUBORDINATE_CONJUNCTIONS.finditer(text_before_candidate))
+    if sub_matches:
+        # Check if there's a clause boundary between the last subordinate
+        # conjunction and the candidate
+        last_sub = sub_matches[-1]
+        text_between = text_before_candidate[last_sub.end():]
+        if _CLAUSE_BOUNDARY.search(text_between):
+            # Clause boundary found → candidate is in MAIN clause ✓
+            pass  # Continue to event verb check
+        else:
+            # No clause boundary → candidate is in SUBORDINATE clause → NOT BOUND
+            return False
 
-    # Check if an event verb appears within 100 chars of the candidate
+    # V48V §6 — EVENT VERB CHECK (copula removed):
+    # Check if a true event verb appears within 100 chars of the candidate.
+    # Copula (was/is/are/were) alone is NOT sufficient.
     event_verbs = _EVENT_VERBS.get(reg_type, _EVENT_VERBS["INDICATOR"])
     window = text_lower[max(0, idx - 50): idx + len(match_text_lower) + 100]
     if event_verbs.search(window):
         return True
 
     # Also check: is the candidate the FIRST noun phrase in the text?
-    # (Often the subject of the sentence)
-    text_start = text_lower[:idx + len(match_text_lower) + 20]
-    # If the candidate is in the first 80 chars AND there's a verb after it
+    # (Often the subject of the sentence) — but still requires an event verb
     if idx < 80:
         after_candidate = text_lower[idx + len(match_text_lower):idx + len(match_text_lower) + 100]
         if event_verbs.search(after_candidate):
