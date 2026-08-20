@@ -377,3 +377,22 @@ class EvidenceContextV1:
     state_signal_provenance: list = field(default_factory=list)
 
     def to_dict(self) -> dict: return asdict(self)
+
+
+@dataclass
+class SemanticClaimV1:
+    """A semantic assertion with a fact-local structural proof.
+
+    `publisher_institution` and `subject_entity` are intentionally separate.
+    Neither source identity nor a neighbouring segment can confirm the subject
+    of a fact.  Consumers must use only CONFIRMED claims for event semantics.
+    """
+    claim_type: str
+    value: str
+    status: str
+    fact_id: str
+    evidence_id: str
+    segment_id: Optional[str] = None
+    provenance: str = ""
+
+    def to_dict(self) -> dict: return asdict(self)
