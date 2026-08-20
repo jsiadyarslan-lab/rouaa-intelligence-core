@@ -514,5 +514,10 @@ class SubjectEntityV1:
     subject_indicator_status: str = "NOT_FOUND"  # CONFIRMED | NOT_FOUND
     subject_instrument: Optional[str] = None  # e.g., "Policy Rate", "Bonds", "Equities"
     subject_instrument_status: str = "NOT_FOUND"  # CONFIRMED | NOT_FOUND
+    # V48U §4-5 — MARKET and REGULATION are FIRST-CLASS types (NOT mapped to instrument/concept):
+    subject_market: Optional[str] = None  # e.g., "Foreign Exchange"
+    subject_market_status: str = "NOT_FOUND"  # CONFIRMED | NOT_FOUND
+    subject_regulation: Optional[str] = None  # e.g., "Penalty", "Settlement"
+    subject_regulation_status: str = "NOT_FOUND"  # CONFIRMED | NOT_FOUND
 
     def to_dict(self) -> dict: return asdict(self)

@@ -515,6 +515,123 @@ def extract_candidates_from_document_title(
 
 
 # ═══════════════════════════════════════════════════════════════════════
+# V48U §2 — Semantic Binding Check
+# ═══════════════════════════════════════════════════════════════════════
+# A registry match is NOT sufficient. The candidate must be the SEMANTIC
+# OBJECT of the event — i.e., it must appear as the subject/object of
+# an event verb in the MAIN CLAUSE (not a subordinate clause).
+#
+# "GDP increased" → GDP + increased → BOUND ✓
+# "Monetary policy was tightened because unemployment increased"
+#   → unemployment is in subordinate clause (after "because") → NOT BOUND
+# "Inflation rose" → Inflation + rose → BOUND ✓
+
+# Subordinate clause markers — text after these is NOT the main clause
+_SUBORDINATE_CONJUNCTIONS = re.compile(
+    r"\b(?:because|since|as|while|although|whereas|given|noting|after|before|"
+    r"due to|owing to|in light of|in view of)\b",
+    re.I,
+)
+
+# Event verbs by subject type
+_EVENT_VERBS = {
+    "INDICATOR": re.compile(
+        r"\b(?:increase[ds]?|rose|fell|decrease[ds]?|grew|decline[ds]?|eased|"
+        r"accelerate[ds]?|slowed|dropped|climbed|surge[ds]?|dipped?|rebound(?:ed)?|"
+        r"recovered|contract(?:ed)?|expand(?:ed)?|stand[ds]? at|"
+        r"was|were|is|are|reached?)\b",
+        re.I,
+    ),
+    "CONCEPT": re.compile(
+        r"\b(?:tighten(?:ed)?|eased|expand(?:ed)?|contract(?:ed)?|shift(?:ed)?|change[ds]?|"
+        r"adjust(?:ed)?|decide[ds]?|announce[ds]?|publish(?:ed)?|release[ds]?|issues?|"
+        r"was|were|is|are|remains?|remained?)\b",
+        re.I,
+    ),
+    "INSTRUMENT": re.compile(
+        r"\b(?:raise[ds]?|lower[eds]?|cut|maintain(?:ed)?|set|kept|held|unchanged?|"
+        r"increase[ds]?|reduce[ds]?|adjust(?:ed)?|was|were|is|are|stood at|"
+        r"remain(?:ed)?|stay(?:ed)?)\b",
+        re.I,
+    ),
+    "REGULATION": re.compile(
+        r"\b(?:impose[ds]?|issued?|reached?|settled?|fined?|penalized?|"
+        r"charged?|was|were|is|are|announced?|published?)\b",
+        re.I,
+    ),
+    "MARKET": re.compile(
+        r"\b(?:increase[ds]?|rose|fell|decrease[ds]?|surge[ds]?|volatility|"
+        r"turnover|was|were|is|are|reached?)\b",
+        re.I,
+    ),
+}
+
+
+def _check_semantic_binding(
+    candidate: dict,
+    primary_segments_by_fact: dict,
+    reg_type: str,
+) -> bool:
+    """V48U §2 — Check whether a candidate is the semantic object of the event.
+
+    A registry match alone is NOT sufficient. The candidate must:
+    1. Appear in the primary segment text
+    2. Be near an event verb appropriate to its type
+    3. NOT be in a subordinate clause (after "because", "since", etc.)
+
+    Returns True if the candidate is semantically bound as the subject.
+    """
+    fact_id = candidate.get("supporting_fact_id", "")
+    primary_text_obj = primary_segments_by_fact.get(fact_id, "")
+    # primary_segments_by_fact may store EvidenceSegmentV1 objects OR strings
+    if isinstance(primary_text_obj, str):
+        primary_text = primary_text_obj
+    elif hasattr(primary_text_obj, 'text'):
+        primary_text = primary_text_obj.text or ""
+    else:
+        primary_text = str(primary_text_obj)
+    if not primary_text:
+        primary_text = candidate.get("match_text", "")
+    if not primary_text:
+        return False
+
+    text_lower = primary_text.lower()
+    match_text_lower = (candidate.get("match_text") or "").lower()
+
+    # Find the position of the candidate in the text
+    idx = text_lower.find(match_text_lower)
+    if idx < 0:
+        # Try the canonical name
+        idx = text_lower.find(candidate.get("canonical_name", "").lower())
+    if idx < 0:
+        return False
+
+    # Check if the candidate appears AFTER a subordinate conjunction
+    # (in a subordinate clause — NOT the main clause)
+    text_before_candidate = text_lower[:idx]
+    if _SUBORDINATE_CONJUNCTIONS.search(text_before_candidate):
+        # The candidate is in a subordinate clause — NOT the semantic subject
+        return False
+
+    # Check if an event verb appears within 100 chars of the candidate
+    event_verbs = _EVENT_VERBS.get(reg_type, _EVENT_VERBS["INDICATOR"])
+    window = text_lower[max(0, idx - 50): idx + len(match_text_lower) + 100]
+    if event_verbs.search(window):
+        return True
+
+    # Also check: is the candidate the FIRST noun phrase in the text?
+    # (Often the subject of the sentence)
+    text_start = text_lower[:idx + len(match_text_lower) + 20]
+    # If the candidate is in the first 80 chars AND there's a verb after it
+    if idx < 80:
+        after_candidate = text_lower[idx + len(match_text_lower):idx + len(match_text_lower) + 100]
+        if event_verbs.search(after_candidate):
+            return True
+
+    return False
+
+
+# ═══════════════════════════════════════════════════════════════════════
 # Subject Entity Resolution (§5)
 # ═══════════════════════════════════════════════════════════════════════
 
@@ -624,17 +741,22 @@ def resolve_subject(
     publishers = [c for c in categorized if c["relationship"] == REL_PUBLISHER]
     mentioned = [c for c in categorized if c["relationship"] == REL_MENTIONED_ENTITY]
 
-    # V48R §7 + V48T-R §2/§4 — ONTOLOGY SEPARATION:
+    # V48T-R §2/§4 + V48U §2/§4-5 — ONTOLOGY SEPARATION + SEMANTIC BINDING:
     # Only ENTITY-registry candidates with EVENT_SUBJECT relationship can
     # become subject_entity CONFIRMED.
     #
     # V48T-R FIX: CONCEPT/INDICATOR/INSTRUMENT/REGULATION/MARKET candidates
-    # are captured from ALL categorized candidates — NOT just event_subjects.
-    # A candidate's subject role (concept/indicator/instrument) is
-    # independent of its relationship classification. "GDP increased" has
-    # no action verb → relationship=MENTIONED_ENTITY, but GDP is STILL the
-    # subject indicator. The old code only filled separate fields from
-    # event_subjects, which caused 3/5 mandatory cases to fail.
+    # are captured from ALL categorized candidates.
+    #
+    # V48U FIX: candidates must pass SEMANTIC BINDING check — the candidate
+    # must be the semantic object of the event (near an event verb in the
+    # main clause), NOT merely present. "Monetary policy was tightened
+    # because unemployment increased" → unemployment is NOT the subject
+    # (it's in a subordinate clause).
+    #
+    # V48U §4-5: MARKET and REGULATION are FIRST-CLASS fields:
+    #   MARKET → subject_market (NOT subject_instrument)
+    #   REGULATION → subject_regulation (NOT subject_concept)
     entity_event_subjects = [c for c in event_subjects if c.get("registry_type") == "ENTITY"]
     concept_candidates = [c for c in categorized if c.get("registry_type") == "CONCEPT"]
     indicator_candidates = [c for c in categorized if c.get("registry_type") == "INDICATOR"]
@@ -642,27 +764,27 @@ def resolve_subject(
     regulation_candidates = [c for c in categorized if c.get("registry_type") == "REGULATION"]
     market_candidates = [c for c in categorized if c.get("registry_type") == "MARKET"]
 
-    # Helper to build separate-field dicts
+    # V48U §2 — SEMANTIC BINDING: filter candidates by whether they are
+    # actually the semantic object of the event, not merely present.
+    bound_concept = [c for c in concept_candidates if _check_semantic_binding(c, primary_segments_by_fact, "CONCEPT")]
+    bound_indicator = [c for c in indicator_candidates if _check_semantic_binding(c, primary_segments_by_fact, "INDICATOR")]
+    bound_instrument = [c for c in instrument_candidates if _check_semantic_binding(c, primary_segments_by_fact, "INSTRUMENT")]
+    bound_regulation = [c for c in regulation_candidates if _check_semantic_binding(c, primary_segments_by_fact, "REGULATION")]
+    bound_market = [c for c in market_candidates if _check_semantic_binding(c, primary_segments_by_fact, "MARKET")]
+
+    # Helper to build separate-field dicts (V48U: separate MARKET and REGULATION)
     def _sep_field(cands):
         if not cands:
             return (None, "NOT_FOUND")
         chosen = cands[0]
         return (chosen["canonical_name"], "CONFIRMED")
 
-    # V48T-R §4 — FORMAL MAPPING (documented, not implicit):
-    #   CONCEPT → subject_concept (policy concepts: Monetary Policy, Fiscal Policy)
-    #   REGULATION → subject_concept (regulatory concepts: Enforcement Action, Penalty)
-    #     [REGULATION is captured in subject_concept because regulatory concepts ARE
-    #      policy concepts — enforcement actions and penalties are types of policy
-    #      actions. This mapping is EXPLICIT and DOCUMENTED.]
-    #   INDICATOR → subject_indicator (macro indicators: GDP, CPI, Inflation)
-    #   INSTRUMENT → subject_instrument (financial instruments: Policy Rate, Bonds)
-    #   MARKET → subject_instrument (market segments: Foreign Exchange)
-    #     [MARKET is captured in subject_instrument because markets are financial
-    #      instruments/instruments of policy. This mapping is EXPLICIT and DOCUMENTED.]
-    subject_concept, subject_concept_status = _sep_field(concept_candidates + regulation_candidates)
-    subject_indicator, subject_indicator_status = _sep_field(indicator_candidates)
-    subject_instrument, subject_instrument_status = _sep_field(instrument_candidates + market_candidates)
+    # V48U §4-5 — FIRST-CLASS fields (NOT mapped/collapsed):
+    subject_concept, subject_concept_status = _sep_field(bound_concept)
+    subject_indicator, subject_indicator_status = _sep_field(bound_indicator)
+    subject_instrument, subject_instrument_status = _sep_field(bound_instrument)
+    subject_market, subject_market_status = _sep_field(bound_market)
+    subject_regulation, subject_regulation_status = _sep_field(bound_regulation)
 
     # If we have ENTITY-registry EVENT_SUBJECT candidates, pick the highest-priority one
     if entity_event_subjects:
@@ -692,6 +814,10 @@ def resolve_subject(
                 subject_indicator_status=subject_indicator_status,
                 subject_instrument=subject_instrument,
                 subject_instrument_status=subject_instrument_status,
+                subject_market=subject_market,
+                subject_market_status=subject_market_status,
+                subject_regulation=subject_regulation,
+                subject_regulation_status=subject_regulation_status,
             )
         # Single entity event subject → CONFIRMED
         return SubjectEntityV1(
@@ -716,6 +842,10 @@ def resolve_subject(
             subject_indicator_status=subject_indicator_status,
             subject_instrument=subject_instrument,
             subject_instrument_status=subject_instrument_status,
+            subject_market=subject_market,
+            subject_market_status=subject_market_status,
+            subject_regulation=subject_regulation,
+            subject_regulation_status=subject_regulation_status,
         )
 
     # No ENTITY-registry EVENT_SUBJECT found — but we may have concept/
@@ -743,6 +873,10 @@ def resolve_subject(
             subject_indicator_status=subject_indicator_status,
             subject_instrument=subject_instrument,
             subject_instrument_status=subject_instrument_status,
+            subject_market=subject_market,
+            subject_market_status=subject_market_status,
+            subject_regulation=subject_regulation,
+            subject_regulation_status=subject_regulation_status,
         )
 
     # No EVENT_SUBJECT found, but we have candidates with other relationships
@@ -763,6 +897,16 @@ def resolve_subject(
             affected_entities=[{"canonical_name": c["canonical_name"],
                                  "supporting_segment_ids": [c["supporting_segment_id"]]}
                                 for c in affected],
+            subject_concept=subject_concept,
+            subject_concept_status=subject_concept_status,
+            subject_indicator=subject_indicator,
+            subject_indicator_status=subject_indicator_status,
+            subject_instrument=subject_instrument,
+            subject_instrument_status=subject_instrument_status,
+            subject_market=subject_market,
+            subject_market_status=subject_market_status,
+            subject_regulation=subject_regulation,
+            subject_regulation_status=subject_regulation_status,
         )
 
     # Only MENTIONED or PUBLISHER candidates — no subject
