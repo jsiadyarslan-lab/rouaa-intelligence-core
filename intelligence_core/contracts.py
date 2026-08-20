@@ -396,3 +396,50 @@ class SemanticClaimV1:
     provenance: str = ""
 
     def to_dict(self) -> dict: return asdict(self)
+
+
+# ═══════════════════════════════════════════════════════════════════════
+# V47C — Publisher Institution Context Layer (additive, optional, non-breaking)
+# ═══════════════════════════════════════════════════════════════════════
+# Per V47C directive §4: a deterministic canonical Publisher Institution
+# layer that identifies the institution responsible for the source/document
+# WITHOUT ever promoting publisher identity into subject_entity.
+#
+# The SUBJECT ENTITY FIREWALL (§9) is mandatory: publisher_institution
+# CONFIRMED does NOT promote subject_entity. publisher_institution and
+# subject_entity are independent fields.
+
+@dataclass
+class PublisherInstitutionV1:
+    """V47C — Canonical Publisher Institution for a source/document.
+
+    Per V47C §4: identifies the institution RESPONSIBLE FOR PUBLISHING
+    the source/document. This is NOT the subject entity of any event.
+
+    Per V47C §9 (Subject Entity Firewall):
+      publisher_institution.status == CONFIRMED does NOT promote
+      subject_entity status. The two fields are independent.
+
+    Confidence (§4): HIGH / MEDIUM / LOW — explicitly documented
+    deterministic scale, NOT a hallucinated probability.
+    """
+    publisher_institution_id: str
+    canonical_name: str
+    institution_type: str = "OTHER"   # CENTRAL_BANK | STATISTICAL_AGENCY | REGULATOR | GOVERNMENT_MINISTRY | MARKET_OPERATOR | EXCHANGE | SECURITIES_REGULATOR | CORPORATE | INTERNATIONAL_ORGANIZATION | OTHER
+    jurisdiction: Optional[str] = None
+    source_ids: list = field(default_factory=list)
+    confidence: str = "MEDIUM"  # HIGH | MEDIUM | LOW
+    status: str = "NOT_FOUND"   # CONFIRMED | AMBIGUOUS | NOT_FOUND
+    # Per §10: publisher support provenance
+    publisher_support_source_id: Optional[str] = None
+    publisher_support_document_id: Optional[str] = None
+    publisher_support_segment_id: Optional[str] = None
+    publisher_support_method: Optional[str] = None
+    # Allowed methods (§10): SOURCE_REGISTRY | SOURCE_DOMAIN |
+    # DOCUMENT_PUBLISHER_METADATA | DOCUMENT_EXPLICIT_PUBLISHER |
+    # DETERMINISTIC_ALIAS
+    # Forbidden methods: HEADLINE_TEMPLATE | EVENT_TYPE | FACT_VALUE | GT_METADATA
+    aliases: list = field(default_factory=list)
+    canonical_url: Optional[str] = None  # source domain / canonical URL
+
+    def to_dict(self) -> dict: return asdict(self)
