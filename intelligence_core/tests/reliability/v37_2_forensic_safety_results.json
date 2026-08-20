@@ -1,0 +1,254 @@
+{
+  "malformed_fragments": [],
+  "decimal_splitting": [],
+  "abbreviation_splitting": [],
+  "navigation_leakage": [],
+  "css_js_leakage": [],
+  "wrong_table_mapping": [],
+  "ambiguous_selected": [
+    {
+      "gt_fact_id": "gtf-0079",
+      "fact_value": "12.0",
+      "selected_score": 0.0,
+      "segment_type": "LIST_ITEM"
+    },
+    {
+      "gt_fact_id": "gtf-0225",
+      "fact_value": "12.0",
+      "selected_score": 0.0,
+      "segment_type": "LIST_ITEM"
+    }
+  ],
+  "many_to_one_collisions": [],
+  "safe_shared_evidence": [
+    {
+      "segment_id": "seg-45fe119678d54ebf",
+      "fact_ids": [
+        "gtf-0008",
+        "gtf-0020",
+        "gtf-0009",
+        "gtf-0018",
+        "gtf-0019",
+        "gtf-0021",
+        "gtf-0022"
+      ],
+      "values": [
+        "0.3",
+        "2.7",
+        "48.3",
+        "54.9",
+        "646.1",
+        "65.2",
+        "70.0"
+      ],
+      "metrics": [
+        "percentage_statistic",
+        "usd_amount"
+      ],
+      "fact_count": 7,
+      "classification": "SAFE_SHARED_EVIDENCE"
+    },
+    {
+      "segment_id": "seg-b17fdfbf567c38ca",
+      "fact_ids": [
+        "gtf-0038",
+        "gtf-0039",
+        "gtf-0040",
+        "gtf-0041"
+      ],
+      "values": [
+        "0.5",
+        "102.1",
+        "28.8",
+        "3.9"
+      ],
+      "metrics": [
+        "usd_amount"
+      ],
+      "fact_count": 4,
+      "classification": "SAFE_SHARED_EVIDENCE"
+    },
+    {
+      "segment_id": "seg-7d083b6257cfbbce",
+      "fact_ids": [
+        "gtf-0014",
+        "gtf-0015",
+        "gtf-0016",
+        "gtf-0017"
+      ],
+      "values": [
+        "22.6",
+        "23.3",
+        "46.3",
+        "76.6"
+      ],
+      "metrics": [
+        "percentage_statistic"
+      ],
+      "fact_count": 4,
+      "classification": "SAFE_SHARED_EVIDENCE"
+    },
+    {
+      "segment_id": "seg-fa4d113ec4be5e4f",
+      "fact_ids": [
+        "gtf-0592",
+        "gtf-0593",
+        "gtf-0620",
+        "gtf-0621"
+      ],
+      "values": [
+        "0.4",
+        "11.7",
+        "198.3",
+        "9.0"
+      ],
+      "metrics": [
+        "percentage_statistic",
+        "usd_amount"
+      ],
+      "fact_count": 4,
+      "classification": "SAFE_SHARED_EVIDENCE"
+    },
+    {
+      "segment_id": "seg-1b6be59e94c61b3b",
+      "fact_ids": [
+        "gtf-0765",
+        "gtf-0790"
+      ],
+      "values": [
+        "2.51",
+        "42.8"
+      ],
+      "metrics": [
+        "percentage_statistic",
+        "usd_amount"
+      ],
+      "fact_count": 2,
+      "classification": "SAFE_SHARED_EVIDENCE"
+    },
+    {
+      "segment_id": "seg-0d9df8ac86e9b28a",
+      "fact_ids": [
+        "gtf-0799",
+        "gtf-0800"
+      ],
+      "values": [
+        "6.7",
+        "6.8"
+      ],
+      "metrics": [
+        "percentage_statistic"
+      ],
+      "fact_count": 2,
+      "classification": "SAFE_SHARED_EVIDENCE"
+    },
+    {
+      "segment_id": "seg-bbaf9f99ffff1253",
+      "fact_ids": [
+        "gtf-0801",
+        "gtf-0805"
+      ],
+      "values": [
+        "3.3",
+        "328.0"
+      ],
+      "metrics": [
+        "percentage_statistic",
+        "usd_amount"
+      ],
+      "fact_count": 2,
+      "classification": "SAFE_SHARED_EVIDENCE"
+    },
+    {
+      "segment_id": "seg-6b618da698d65fb5",
+      "fact_ids": [
+        "gtf-0886",
+        "gtf-0887"
+      ],
+      "values": [
+        "216",
+        "96"
+      ],
+      "metrics": [
+        "percentage_statistic"
+      ],
+      "fact_count": 2,
+      "classification": "SAFE_SHARED_EVIDENCE"
+    },
+    {
+      "segment_id": "seg-0a0af9ecdcb1c594",
+      "fact_ids": [
+        "gtf-0175",
+        "gtf-0176",
+        "gtf-0177",
+        "gtf-0178",
+        "gtf-0179"
+      ],
+      "values": [
+        "0.0",
+        "1.0",
+        "3.2",
+        "3.4",
+        "8.8"
+      ],
+      "metrics": [
+        "percentage_statistic"
+      ],
+      "fact_count": 5,
+      "classification": "SAFE_SHARED_EVIDENCE"
+    },
+    {
+      "segment_id": "seg-253b409ade5492d5",
+      "fact_ids": [
+        "gtf-0182",
+        "gtf-0183",
+        "gtf-0184",
+        "gtf-0185",
+        "gtf-0186"
+      ],
+      "values": [
+        "1.2",
+        "1.7",
+        "11.4",
+        "2.6",
+        "6.8"
+      ],
+      "metrics": [
+        "percentage_statistic"
+      ],
+      "fact_count": 5,
+      "classification": "SAFE_SHARED_EVIDENCE"
+    },
+    {
+      "segment_id": "seg-7b09f25f4ae73f03",
+      "fact_ids": [
+        "gtf-0201",
+        "gtf-0202"
+      ],
+      "values": [
+        "12",
+        "75"
+      ],
+      "metrics": [
+        "percentage_statistic"
+      ],
+      "fact_count": 2,
+      "classification": "SAFE_SHARED_EVIDENCE"
+    }
+  ],
+  "malformed_fragments_count": 0,
+  "navigation_leakage_count": 0,
+  "decimal_splitting_count": 0,
+  "abbreviation_splitting_count": 0,
+  "css_js_leakage_count": 0,
+  "wrong_table_mapping_count": 0,
+  "ambiguous_selected_count": 2,
+  "safe_shared_evidence_facts": 40,
+  "resolved_insufficient_facts": 62,
+  "unresolved_collision_facts": 0,
+  "safe_shared_evidence_groups": 40,
+  "resolved_insufficient_groups": 12,
+  "unresolved_collision_groups": 0,
+  "total_collision_facts": 102,
+  "invariant_holds": true
+}

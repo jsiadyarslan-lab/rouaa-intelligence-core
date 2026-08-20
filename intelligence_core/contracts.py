@@ -198,6 +198,13 @@ class Evidence:  # binds to the EXACT representation (D1 rule 5)
     excerpt: str = ""
     provenance_ref: str = ""                   # temporal tuple / source publication ref
     created_at: str = ""
+    # V37.2 — Hybrid Structural Evidence (Option B). Both fields nullable
+    # for backward compatibility with V37.1 evidence records. New evidence
+    # records produced via evidence_selection.select_evidence_segment()
+    # populate these; old evidence records (Phase 0) carry None — both
+    # remain valid. See docs/architecture/ROUAA_CORE_EVIDENCE_SEGMENT_ARCHITECTURE_V1.md §8.
+    segment_id: Optional[str] = None           # links to EvidenceSegmentV1.segment_id
+    segment_type: Optional[str] = None         # for audit without segment lookup
 
     def to_dict(self) -> dict: return asdict(self)
 
