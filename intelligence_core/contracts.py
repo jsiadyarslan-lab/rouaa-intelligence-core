@@ -335,3 +335,45 @@ class Delivery:  # D5 output act / D8 Contract C
     created_at: str = ""
 
     def to_dict(self) -> dict: return asdict(self)
+
+
+# ═══════════════════════════════════════════════════════════════════════
+# V46 — Evidence Context Recovery (additive, optional, non-breaking)
+# ═══════════════════════════════════════════════════════════════════════
+# Per V46 directive §9: a deterministic context package around existing
+# evidence. Does NOT replace Evidence; creates a contextual layer that
+# downstream semantic enrichment can read. All fields nullable so older
+# evidence without context packages remain valid.
+
+@dataclass
+class EvidenceContextV1:
+    """V46 — Context package around an existing Evidence record.
+
+    Per V46 §9: minimum fields are fact_id, document_id,
+    primary_segment_id, context_segment_ids, context_before,
+    evidence_excerpt, context_after, heading_context, table_context,
+    entity_signals, temporal_signals, state_signals, context_quality.
+    """
+    fact_id: str
+    document_id: str
+    evidence_id: str = ""                       # links to existing Evidence.evidence_id (preserved)
+    primary_segment_id: Optional[str] = None   # the segment containing the excerpt
+    context_segment_ids: list = field(default_factory=list)  # structural segment IDs in context window
+    context_before: str = ""                    # text from preceding structural segments
+    evidence_excerpt: str = ""                  # the original excerpt (UNCHANGED from Evidence.excerpt)
+    context_after: str = ""                     # text from following structural segments
+    heading_context: Optional[str] = None       # nearest ancestor heading text
+    table_context: Optional[str] = None         # table_id if excerpt is in a table, else None
+    row_label: Optional[str] = None             # table row label if applicable
+    column_label: Optional[str] = None          # table column label if applicable
+    list_context: Optional[int] = None          # list depth if excerpt is in a list, else None
+    entity_signals: list = field(default_factory=list)     # institution names found in context
+    temporal_signals: list = field(default_factory=list)   # date/period patterns found in context
+    state_signals: list = field(default_factory=list)      # event-state signal words found in context
+    context_quality: str = "CONTEXT_INSUFFICIENT"  # SUFFICIENT | PARTIAL | INSUFFICIENT
+    # Provenance — which segments contributed to each signal
+    entity_signal_provenance: list = field(default_factory=list)
+    temporal_signal_provenance: list = field(default_factory=list)
+    state_signal_provenance: list = field(default_factory=list)
+
+    def to_dict(self) -> dict: return asdict(self)

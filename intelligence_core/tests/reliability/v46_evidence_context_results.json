@@ -1,0 +1,1419 @@
+{
+  "phase": "V46 SEMANTIC EVIDENCE CONTEXT RECOVERY",
+  "baseline_commit": "82263950263f74c4b970a902975b72539d39703f",
+  "recovery_branch_head_before": "a2079c7c691367e86ab8ac89bba48f7d54672eb1",
+  "executed_at_utc": "2026-08-20T20:02:55Z",
+  "new_io_count": 371,
+  "context_packages_built": 5023,
+  "context_quality_distribution": {
+    "CONTEXT_INSUFFICIENT": 1957,
+    "CONTEXT_SUFFICIENT": 2082,
+    "CONTEXT_PARTIAL": 984
+  },
+  "safety_invariants": {
+    "original_facts_preserved": true,
+    "original_evidence_preserved": true,
+    "unsupported_entity_claims": 0,
+    "unsupported_temporal_claims": 0,
+    "unsupported_state_claims": 0,
+    "navigation_leakage": 0,
+    "malformed_evidence": 0,
+    "unresolved_collisions": 0,
+    "broken_provenance": 0
+  },
+  "test_results": {
+    "modules": {
+      "48 baseline": {
+        "module": "intelligence_core.tests.run_all",
+        "passed": true
+      },
+      "37 V37.2": {
+        "module": "intelligence_core.tests.reliability.v37_2_structural_evidence_test",
+        "passed": true
+      },
+      "30 collision": {
+        "module": "intelligence_core.tests.reliability.v37_2_collision_fix_tests",
+        "passed": true
+      },
+      "9 sub-collision": {
+        "module": "intelligence_core.tests.reliability.v37_2_sub_collision_tests",
+        "passed": true
+      },
+      "22 purpose": {
+        "module": "intelligence_core.tests.reliability.recovery_segment_purpose_tests",
+        "passed": true
+      },
+      "29 V46": {
+        "module": "intelligence_core.tests.reliability.v46_evidence_context_tests",
+        "passed": true
+      }
+    },
+    "passed_modules": 6,
+    "total_modules": 6,
+    "test_count": 175,
+    "all_tests_pass": true
+  },
+  "sample_40_verdicts": {
+    "UNCHANGED": 25,
+    "IMPROVED": 15
+  },
+  "sample_40_audit": [
+    {
+      "io_id": "io-cb08d31a4e009be2",
+      "event_type": "monetary_policy_decision",
+      "source_name": "eurostat",
+      "headline": "eurostat sets policy rate at 0.3 — Q1 2026",
+      "fact_count": 4,
+      "BEFORE": {
+        "entity_status": "ENTITY_NOT_FOUND",
+        "primary_entity": "UNKNOWN",
+        "entity_candidates": [],
+        "reference_period": "in May 2026",
+        "publication_date": "UNKNOWN",
+        "event_date": "UNKNOWN",
+        "event_state": "INCREASED",
+        "readiness": "SEMANTICALLY_BLOCKED",
+        "evidence_excerpt": "m applications in May 2026 14 August 2026 &copy; maykal/stock.adobe.com EU economy greenhouse gas emissions: +0.3% in Q1 2026 14 August 2026 &copy; Mark A"
+      },
+      "AFTER": {
+        "entity_status": "ENTITY_NOT_FOUND",
+        "primary_entity": "UNKNOWN",
+        "entity_candidates": [],
+        "reference_period": "in May 2026",
+        "publication_date": "UNKNOWN",
+        "event_date": "UNKNOWN",
+        "event_state": "INCREASED",
+        "readiness": "SEMANTICALLY_BLOCKED",
+        "context_before": "",
+        "evidence_excerpt": "m applications in May 2026 14 August 2026 &copy; maykal/stock.adobe.com EU economy greenhouse gas emissions: +0.3% in Q1 2026 14 August 2026 &copy; Mark A",
+        "context_after": "",
+        "context_quality": "CONTEXT_INSUFFICIENT"
+      },
+      "verdict": "UNCHANGED"
+    },
+    {
+      "io_id": "io-b37f6c9f4f5b4a8a",
+      "event_type": "monetary_policy_decision",
+      "source_name": "eurostat",
+      "headline": "eurostat sets policy rate at 0.0 — Q1 2026",
+      "fact_count": 9,
+      "BEFORE": {
+        "entity_status": "ENTITY_NOT_FOUND",
+        "primary_entity": "UNKNOWN",
+        "entity_candidates": [],
+        "reference_period": "in May 2026",
+        "publication_date": "UNKNOWN",
+        "event_date": "UNKNOWN",
+        "event_state": "INCREASED",
+        "readiness": "SEMANTICALLY_BLOCKED",
+        "evidence_excerpt": "Learn more about us EU key indicators Skip the carousel Loading Previous indicator \"> Next indicator 2022-11 0.0 % Inflation rate 2022-Q3 0.0 % GDP growth"
+      },
+      "AFTER": {
+        "entity_status": "ENTITY_NOT_FOUND",
+        "primary_entity": "UNKNOWN",
+        "entity_candidates": [],
+        "reference_period": "in May 2026",
+        "publication_date": "UNKNOWN",
+        "event_date": "UNKNOWN",
+        "event_state": "INCREASED",
+        "readiness": "SEMANTICALLY_BLOCKED",
+        "context_before": "",
+        "evidence_excerpt": "Learn more about us EU key indicators Skip the carousel Loading Previous indicator \"> Next indicator 2022-11 0.0 % Inflation rate 2022-Q3 0.0 % GDP growth",
+        "context_after": "",
+        "context_quality": "CONTEXT_INSUFFICIENT"
+      },
+      "verdict": "UNCHANGED"
+    },
+    {
+      "io_id": "io-cba6421b7b401b5d",
+      "event_type": "monetary_policy_decision",
+      "source_name": "euronext",
+      "headline": "euronext sets policy rate at 232",
+      "fact_count": 15,
+      "BEFORE": {
+        "entity_status": "ENTITY_NOT_FOUND",
+        "primary_entity": "UNKNOWN",
+        "entity_candidates": [],
+        "reference_period": "UNKNOWN",
+        "publication_date": "UNKNOWN",
+        "event_date": "UNKNOWN",
+        "event_state": "UNKNOWN",
+        "readiness": "SEMANTICALLY_BLOCKED",
+        "evidence_excerpt": "DF Financial Statement as of 31 December 2021 English Version English 27/07/2022 /sites/default/files/2022-07/232%20-%20Cassa%20di%20Compensazione%20e%20G"
+      },
+      "AFTER": {
+        "entity_status": "ENTITY_NOT_FOUND",
+        "primary_entity": "UNKNOWN",
+        "entity_candidates": [],
+        "reference_period": "UNKNOWN",
+        "publication_date": "UNKNOWN",
+        "event_date": "UNKNOWN",
+        "event_state": "UNKNOWN",
+        "readiness": "SEMANTICALLY_BLOCKED",
+        "context_before": "",
+        "evidence_excerpt": "DF Financial Statement as of 31 December 2021 English Version English 27/07/2022 /sites/default/files/2022-07/232%20-%20Cassa%20di%20Compensazione%20e%20G",
+        "context_after": "",
+        "context_quality": "CONTEXT_INSUFFICIENT"
+      },
+      "verdict": "UNCHANGED"
+    },
+    {
+      "io_id": "io-68aeb1a370c256a6",
+      "event_type": "monetary_policy_decision",
+      "source_name": "federal-reserve",
+      "headline": "federal-reserve sets policy rate at 4",
+      "fact_count": 5,
+      "BEFORE": {
+        "entity_status": "ENTITY_CONFIRMED",
+        "primary_entity": "FED",
+        "entity_candidates": [
+          "FED"
+        ],
+        "reference_period": "UNKNOWN",
+        "publication_date": "UNKNOWN",
+        "event_date": "UNKNOWN",
+        "event_state": "INCREASED",
+        "readiness": "SEMANTICALLY_PARTIAL",
+        "evidence_excerpt": "y a 9 – 3 vote: The Committee decided to maintain the target range for the federal funds rate at 3-1/2 to 3-3/4 percent, in support of the Federal Reserve's du"
+      },
+      "AFTER": {
+        "entity_status": "ENTITY_CONFIRMED",
+        "primary_entity": "FED",
+        "entity_candidates": [
+          "FED"
+        ],
+        "reference_period": "UNKNOWN",
+        "publication_date": "UNKNOWN",
+        "event_date": "UNKNOWN",
+        "event_state": "INCREASED",
+        "readiness": "SEMANTICALLY_PARTIAL",
+        "context_before": "",
+        "evidence_excerpt": "y a 9 – 3 vote: The Committee decided to maintain the target range for the federal funds rate at 3-1/2 to 3-3/4 percent, in support of the Federal Reserve's du",
+        "context_after": "",
+        "context_quality": "CONTEXT_INSUFFICIENT"
+      },
+      "verdict": "UNCHANGED"
+    },
+    {
+      "io_id": "io-275f353119648d3f",
+      "event_type": "monetary_policy_decision",
+      "source_name": "eurostat",
+      "headline": "eurostat sets policy rate at 0.5 — Q2 2026",
+      "fact_count": 27,
+      "BEFORE": {
+        "entity_status": "ENTITY_NOT_FOUND",
+        "primary_entity": "UNKNOWN",
+        "entity_candidates": [],
+        "reference_period": "of May 2026",
+        "publication_date": "UNKNOWN",
+        "event_date": "UNKNOWN",
+        "event_state": "INCREASED",
+        "readiness": "SEMANTICALLY_BLOCKED",
+        "evidence_excerpt": "bankruptcies up in Q2 2026 In the second quarter of 2026, registrations of businesses in the EU decreased by 0.5% compared with the first quarter of 2026"
+      },
+      "AFTER": {
+        "entity_status": "ENTITY_NOT_FOUND",
+        "primary_entity": "UNKNOWN",
+        "entity_candidates": [],
+        "reference_period": "of May 2026",
+        "publication_date": "UNKNOWN",
+        "event_date": "UNKNOWN",
+        "event_state": "INCREASED",
+        "readiness": "SEMANTICALLY_BLOCKED",
+        "context_before": "",
+        "evidence_excerpt": "bankruptcies up in Q2 2026 In the second quarter of 2026, registrations of businesses in the EU decreased by 0.5% compared with the first quarter of 2026",
+        "context_after": "",
+        "context_quality": "CONTEXT_INSUFFICIENT"
+      },
+      "verdict": "UNCHANGED"
+    },
+    {
+      "io_id": "io-cb86ecb4e874af16",
+      "event_type": "monetary_policy_decision",
+      "source_name": "eurostat",
+      "headline": "eurostat sets policy rate at 0.4 — second 2026",
+      "fact_count": 36,
+      "BEFORE": {
+        "entity_status": "ENTITY_NOT_FOUND",
+        "primary_entity": "UNKNOWN",
+        "entity_candidates": [],
+        "reference_period": "in June 2025",
+        "publication_date": "UNKNOWN",
+        "event_date": "UNKNOWN",
+        "event_state": "INCREASED",
+        "readiness": "SEMANTICALLY_BLOCKED",
+        "evidence_excerpt": "h + €4.8 bn in June 2025. Browse page Euro indicators Economy and finance PUBLISHED: 14 August 2026 GDP up by 0.4% and employment up by 0.1% in the euro a"
+      },
+      "AFTER": {
+        "entity_status": "ENTITY_NOT_FOUND",
+        "primary_entity": "UNKNOWN",
+        "entity_candidates": [],
+        "reference_period": "in June 2025",
+        "publication_date": "UNKNOWN",
+        "event_date": "UNKNOWN",
+        "event_state": "INCREASED",
+        "readiness": "SEMANTICALLY_BLOCKED",
+        "context_before": "",
+        "evidence_excerpt": "h + €4.8 bn in June 2025. Browse page Euro indicators Economy and finance PUBLISHED: 14 August 2026 GDP up by 0.4% and employment up by 0.1% in the euro a",
+        "context_after": "",
+        "context_quality": "CONTEXT_INSUFFICIENT"
+      },
+      "verdict": "UNCHANGED"
+    },
+    {
+      "io_id": "io-55da9e9be0359c67",
+      "event_type": "monetary_policy_decision",
+      "source_name": "stats-china",
+      "headline": "stats-china sets policy rate at 7",
+      "fact_count": 4,
+      "BEFORE": {
+        "entity_status": "ENTITY_NOT_FOUND",
+        "primary_entity": "UNKNOWN",
+        "entity_candidates": [],
+        "reference_period": "UNKNOWN",
+        "publication_date": "UNKNOWN",
+        "event_date": "UNKNOWN",
+        "event_state": "UNKNOWN",
+        "readiness": "SEMANTICALLY_BLOCKED",
+        "evidence_excerpt": "污染防治攻坚战。 &emsp;&emsp;紧盯大气污染治理，过去5年，黑龙江完成钢铁、水泥、焦化超低排放改造项目262项，实施散煤削减达687万吨；聚焦土壤风险防控，2025年，山东关闭搬迁企业地块土壤污染管控率达99.7%，实现受污染耕地安全利用率100%；围绕河海综合整治，福建建成7个国家美丽河湖、"
+      },
+      "AFTER": {
+        "entity_status": "ENTITY_NOT_FOUND",
+        "primary_entity": "UNKNOWN",
+        "entity_candidates": [],
+        "reference_period": "UNKNOWN",
+        "publication_date": "UNKNOWN",
+        "event_date": "UNKNOWN",
+        "event_state": "UNKNOWN",
+        "readiness": "SEMANTICALLY_BLOCKED",
+        "context_before": "",
+        "evidence_excerpt": "污染防治攻坚战。 &emsp;&emsp;紧盯大气污染治理，过去5年，黑龙江完成钢铁、水泥、焦化超低排放改造项目262项，实施散煤削减达687万吨；聚焦土壤风险防控，2025年，山东关闭搬迁企业地块土壤污染管控率达99.7%，实现受污染耕地安全利用率100%；围绕河海综合整治，福建建成7个国家美丽河湖、",
+        "context_after": "",
+        "context_quality": "CONTEXT_INSUFFICIENT"
+      },
+      "verdict": "UNCHANGED"
+    },
+    {
+      "io_id": "io-bea0b6a376d6f629",
+      "event_type": "monetary_policy_decision",
+      "source_name": "deutsche-boerse",
+      "headline": "deutsche-boerse sets policy rate at 16",
+      "fact_count": 35,
+      "BEFORE": {
+        "entity_status": "ENTITY_NOT_FOUND",
+        "primary_entity": "UNKNOWN",
+        "entity_candidates": [],
+        "reference_period": "in July 2026",
+        "publication_date": "UNKNOWN",
+        "event_date": "UNKNOWN",
+        "event_state": "INCREASED",
+        "readiness": "SEMANTICALLY_BLOCKED",
+        "evidence_excerpt": "Figures at Eurex Teilen Drucken Erschienen am: 06.08.2026 | Eurex Overall volumes in listed derivatives saw a 16 percent growth in July 2026. OTC Clearing recor"
+      },
+      "AFTER": {
+        "entity_status": "ENTITY_NOT_FOUND",
+        "primary_entity": "UNKNOWN",
+        "entity_candidates": [],
+        "reference_period": "in July 2026",
+        "publication_date": "UNKNOWN",
+        "event_date": "UNKNOWN",
+        "event_state": "INCREASED",
+        "readiness": "SEMANTICALLY_BLOCKED",
+        "context_before": "",
+        "evidence_excerpt": "Figures at Eurex Teilen Drucken Erschienen am: 06.08.2026 | Eurex Overall volumes in listed derivatives saw a 16 percent growth in July 2026. OTC Clearing recor",
+        "context_after": "",
+        "context_quality": "CONTEXT_INSUFFICIENT"
+      },
+      "verdict": "UNCHANGED"
+    },
+    {
+      "io_id": "io-4d94300b4070757f",
+      "event_type": "monetary_policy_decision",
+      "source_name": "fsb",
+      "headline": "fsb sets policy rate at 77 — 2026-07",
+      "fact_count": 2,
+      "BEFORE": {
+        "entity_status": "ENTITY_NOT_FOUND",
+        "primary_entity": "UNKNOWN",
+        "entity_candidates": [],
+        "reference_period": "UNKNOWN",
+        "publication_date": "/2026/07/",
+        "event_date": "UNKNOWN",
+        "event_state": "UNKNOWN",
+        "readiness": "SEMANTICALLY_BLOCKED",
+        "evidence_excerpt": "g ISO-harmonised message formats. Twenty plus years after the original version of the ISO standard, we are at 77% of fast payments systems and 53% of rea"
+      },
+      "AFTER": {
+        "entity_status": "ENTITY_NOT_FOUND",
+        "primary_entity": "UNKNOWN",
+        "entity_candidates": [],
+        "reference_period": "in 2024",
+        "publication_date": "/2026/07/",
+        "event_date": "UNKNOWN",
+        "event_state": "DECREASED",
+        "readiness": "SEMANTICALLY_BLOCKED",
+        "context_before": "Turning to technology innovators first, a much talked about option is whether stablecoins could be the silver bullet. Let’s just remember the numbers. There are varying measures of the volume of cross",
+        "evidence_excerpt": "g ISO-harmonised message formats. Twenty plus years after the original version of the ISO standard, we are at 77% of fast payments systems and 53% of rea",
+        "context_after": "This is good. But it has taken very long time and it’s not complete. Without the extensive work of CPMI, I suspect what has been achieved, would not have been achieved. We also know that implementatio",
+        "context_quality": "CONTEXT_SUFFICIENT"
+      },
+      "verdict": "IMPROVED"
+    },
+    {
+      "io_id": "io-4534afa35d995d2a",
+      "event_type": "monetary_policy_decision",
+      "source_name": "cftc",
+      "headline": "cftc sets policy rate at 0.2",
+      "fact_count": 1,
+      "BEFORE": {
+        "entity_status": "ENTITY_NOT_FOUND",
+        "primary_entity": "UNKNOWN",
+        "entity_candidates": [],
+        "reference_period": "UNKNOWN",
+        "publication_date": "UNKNOWN",
+        "event_date": "UNKNOWN",
+        "event_state": "UNKNOWN",
+        "readiness": "SEMANTICALLY_BLOCKED",
+        "evidence_excerpt": "technology. Under the law, a broad swath of crypto asset transfers by Illinois residents will be subject to a 0.2% tax based on the value of the crypto as"
+      },
+      "AFTER": {
+        "entity_status": "ENTITY_NOT_FOUND",
+        "primary_entity": "UNKNOWN",
+        "entity_candidates": [],
+        "reference_period": "UNKNOWN",
+        "publication_date": "UNKNOWN",
+        "event_date": "UNKNOWN",
+        "event_state": "UNKNOWN",
+        "readiness": "SEMANTICALLY_BLOCKED",
+        "context_before": "Chairman Michael S. Selig Washington, DC | July 01, 2026 For generations, Illinois has stood at the center of American financial innovation. A quick reflection reminds us that it was the storied Chica",
+        "evidence_excerpt": "technology. Under the law, a broad swath of crypto asset transfers by Illinois residents will be subject to a 0.2% tax based on the value of the crypto as",
+        "context_after": "One could only imagine where the state’s economy would be today had it applied a similar tax to transactions conducted over the internet as the technology was gaining momentum in the early nineties. I",
+        "context_quality": "CONTEXT_SUFFICIENT"
+      },
+      "verdict": "UNCHANGED"
+    },
+    {
+      "io_id": "io-74b51eefd13974d9",
+      "event_type": "statistical_release",
+      "source_name": "bank-of-england",
+      "headline": "bank-of-england reports percentage statistic of 2",
+      "fact_count": 2,
+      "BEFORE": {
+        "entity_status": "ENTITY_NOT_FOUND",
+        "primary_entity": "UNKNOWN",
+        "entity_candidates": [],
+        "reference_period": "UNKNOWN",
+        "publication_date": "UNKNOWN",
+        "event_date": "UNKNOWN",
+        "event_state": "UNKNOWN",
+        "readiness": "SEMANTICALLY_BLOCKED",
+        "evidence_excerpt": "om LIBOR to risk-free rates Monetary policy Open Monetary policy sub menu Back to main menu Inflation and the 2% target Quantitative easing Interest rat"
+      },
+      "AFTER": {
+        "entity_status": "ENTITY_NOT_FOUND",
+        "primary_entity": "UNKNOWN",
+        "entity_candidates": [],
+        "reference_period": "UNKNOWN",
+        "publication_date": "UNKNOWN",
+        "event_date": "UNKNOWN",
+        "event_state": "UNKNOWN",
+        "readiness": "SEMANTICALLY_BLOCKED",
+        "context_before": "",
+        "evidence_excerpt": "om LIBOR to risk-free rates Monetary policy Open Monetary policy sub menu Back to main menu Inflation and the 2% target Quantitative easing Interest rat",
+        "context_after": "",
+        "context_quality": "CONTEXT_INSUFFICIENT"
+      },
+      "verdict": "UNCHANGED"
+    },
+    {
+      "io_id": "io-bd378fea8d59bb17",
+      "event_type": "statistical_release",
+      "source_name": "bank-of-england",
+      "headline": "bank-of-england reports percentage statistic of 2",
+      "fact_count": 2,
+      "BEFORE": {
+        "entity_status": "ENTITY_NOT_FOUND",
+        "primary_entity": "UNKNOWN",
+        "entity_candidates": [],
+        "reference_period": "UNKNOWN",
+        "publication_date": "UNKNOWN",
+        "event_date": "UNKNOWN",
+        "event_state": "UNKNOWN",
+        "readiness": "SEMANTICALLY_BLOCKED",
+        "evidence_excerpt": "om LIBOR to risk-free rates Monetary policy Open Monetary policy sub menu Back to main menu Inflation and the 2% target Quantitative easing Interest rat"
+      },
+      "AFTER": {
+        "entity_status": "ENTITY_NOT_FOUND",
+        "primary_entity": "UNKNOWN",
+        "entity_candidates": [],
+        "reference_period": "UNKNOWN",
+        "publication_date": "UNKNOWN",
+        "event_date": "UNKNOWN",
+        "event_state": "UNKNOWN",
+        "readiness": "SEMANTICALLY_BLOCKED",
+        "context_before": "",
+        "evidence_excerpt": "om LIBOR to risk-free rates Monetary policy Open Monetary policy sub menu Back to main menu Inflation and the 2% target Quantitative easing Interest rat",
+        "context_after": "",
+        "context_quality": "CONTEXT_INSUFFICIENT"
+      },
+      "verdict": "UNCHANGED"
+    },
+    {
+      "io_id": "io-c6c8ac878a439394",
+      "event_type": "statistical_release",
+      "source_name": "ecb",
+      "headline": "ecb reports percentage statistic of 72",
+      "fact_count": 2,
+      "BEFORE": {
+        "entity_status": "ENTITY_NOT_FOUND",
+        "primary_entity": "UNKNOWN",
+        "entity_candidates": [],
+        "reference_period": "UNKNOWN",
+        "publication_date": "UNKNOWN",
+        "event_date": "UNKNOWN",
+        "event_state": "UNKNOWN",
+        "readiness": "SEMANTICALLY_BLOCKED",
+        "evidence_excerpt": "nducted between 14 and 29 October 2025 with responses from 184 banks, accounting altogether for approximately 72% of total banking assets and central ban"
+      },
+      "AFTER": {
+        "entity_status": "ENTITY_CONFIRMED",
+        "primary_entity": "ECB",
+        "entity_candidates": [
+          "ECB"
+        ],
+        "reference_period": "in November 2024",
+        "publication_date": "UNKNOWN",
+        "event_date": "On 24 June 2026",
+        "event_state": "ANNOUNCED",
+        "readiness": "SEMANTICALLY_READY",
+        "context_before": "External communication Publication of the 2026 ECB Convergence Report On 24 June 2026 the ECB published its Convergence Report assessing the progress made towards euro adoption in the Czech Republic, ",
+        "evidence_excerpt": "nducted between 14 and 29 October 2025 with responses from 184 banks, accounting altogether for approximately 72% of total banking assets and central ban",
+        "context_after": "Integration of portfolios of non-financial corporate loans in the Eurosystem general collateral framework On 24 June 2026 the Governing Council decided on the eligibility criteria and risk control fra",
+        "context_quality": "CONTEXT_SUFFICIENT"
+      },
+      "verdict": "IMPROVED"
+    },
+    {
+      "io_id": "io-43450fbfbd3f5f48",
+      "event_type": "statistical_release",
+      "source_name": "ecb",
+      "headline": "ecb reports percentage statistic of 5 — 2026",
+      "fact_count": 2,
+      "BEFORE": {
+        "entity_status": "ENTITY_NOT_FOUND",
+        "primary_entity": "UNKNOWN",
+        "entity_candidates": [],
+        "reference_period": "UNKNOWN",
+        "publication_date": "/date/2026/",
+        "event_date": "UNKNOWN",
+        "event_state": "UNKNOWN",
+        "readiness": "SEMANTICALLY_BLOCKED",
+        "evidence_excerpt": "e maximum additional reduction in the final collateral value, including both bonds and credit claims, will be 5%. Climate factors for individual credit"
+      },
+      "AFTER": {
+        "entity_status": "ENTITY_CONFIRMED",
+        "primary_entity": "ECB",
+        "entity_candidates": [
+          "ECB"
+        ],
+        "reference_period": "in July 2025",
+        "publication_date": "/date/2026/",
+        "event_date": "on 15 June 2026",
+        "event_state": "EFFECTIVE",
+        "readiness": "SEMANTICALLY_READY",
+        "context_before": "The Governing Council of the European Central Bank (ECB) has decided to extend the use of climate factors in the Eurosystem collateral framework to certain eligible credit claims whose debtor is a non",
+        "evidence_excerpt": "e maximum additional reduction in the final collateral value, including both bonds and credit claims, will be 5%. Climate factors for individual credit",
+        "context_after": "This measure is expected to be implemented at the earliest by the end of 2027. Climate factor values will be updated annually, following the same process as for non-financial corporate bonds, to incor",
+        "context_quality": "CONTEXT_SUFFICIENT"
+      },
+      "verdict": "IMPROVED"
+    },
+    {
+      "io_id": "io-a27ee61aa6026a13",
+      "event_type": "statistical_release",
+      "source_name": "ecb",
+      "headline": "ecb reports percentage statistic of 31 — 2026",
+      "fact_count": 6,
+      "BEFORE": {
+        "entity_status": "ENTITY_NOT_FOUND",
+        "primary_entity": "UNKNOWN",
+        "entity_candidates": [],
+        "reference_period": "UNKNOWN",
+        "publication_date": "/date/2026/",
+        "event_date": "UNKNOWN",
+        "event_state": "INCREASED",
+        "readiness": "SEMANTICALLY_BLOCKED",
+        "evidence_excerpt": "eads rose across all collateral types, with significant increases reported for asset-backed securities (a net 31% of respondents), high-yield corporate b"
+      },
+      "AFTER": {
+        "entity_status": "ENTITY_CONFIRMED",
+        "primary_entity": "ECB",
+        "entity_candidates": [
+          "ECB"
+        ],
+        "reference_period": "Q2 2026",
+        "publication_date": "/date/2026/",
+        "event_date": "UNKNOWN",
+        "event_state": "INCREASED",
+        "readiness": "SEMANTICALLY_READY",
+        "context_before": "Chart 1 Expected and realised quarterly changes in overall credit terms and price/non-price terms offered to counterparties across all transaction types (net percentages of survey respondents) Source:",
+        "evidence_excerpt": "eads rose across all collateral types, with significant increases reported for asset-backed securities (a net 31% of respondents), high-yield corporate b",
+        "context_after": "Chart 2 Changes in financing rates and demand for funding by collateral type (Q2 2026) (net percentages of survey respondents) Source: ECB. Note: Net percentages are calculated as the difference betwe",
+        "context_quality": "CONTEXT_SUFFICIENT"
+      },
+      "verdict": "IMPROVED"
+    },
+    {
+      "io_id": "io-f803af6f431d9f8a",
+      "event_type": "statistical_release",
+      "source_name": "bank-of-england",
+      "headline": "bank-of-england reports percentage statistic of 2",
+      "fact_count": 36,
+      "BEFORE": {
+        "entity_status": "ENTITY_NOT_FOUND",
+        "primary_entity": "UNKNOWN",
+        "entity_candidates": [],
+        "reference_period": "UNKNOWN",
+        "publication_date": "UNKNOWN",
+        "event_date": "UNKNOWN",
+        "event_state": "INCREASED",
+        "readiness": "SEMANTICALLY_BLOCKED",
+        "evidence_excerpt": "om LIBOR to risk-free rates Monetary policy Open Monetary policy sub menu Back to main menu Inflation and the 2% target Quantitative easing Interest rat"
+      },
+      "AFTER": {
+        "entity_status": "ENTITY_NOT_FOUND",
+        "primary_entity": "UNKNOWN",
+        "entity_candidates": [],
+        "reference_period": "UNKNOWN",
+        "publication_date": "UNKNOWN",
+        "event_date": "on 30 July 2026",
+        "event_state": "INCREASED",
+        "readiness": "SEMANTICALLY_BLOCKED",
+        "context_before": "",
+        "evidence_excerpt": "om LIBOR to risk-free rates Monetary policy Open Monetary policy sub menu Back to main menu Inflation and the 2% target Quantitative easing Interest rat",
+        "context_after": "",
+        "context_quality": "CONTEXT_INSUFFICIENT"
+      },
+      "verdict": "IMPROVED"
+    },
+    {
+      "io_id": "io-0da4c931b2a04e1a",
+      "event_type": "statistical_release",
+      "source_name": "bank-of-england",
+      "headline": "bank-of-england reports percentage statistic of 2",
+      "fact_count": 2,
+      "BEFORE": {
+        "entity_status": "ENTITY_NOT_FOUND",
+        "primary_entity": "UNKNOWN",
+        "entity_candidates": [],
+        "reference_period": "UNKNOWN",
+        "publication_date": "UNKNOWN",
+        "event_date": "UNKNOWN",
+        "event_state": "UNKNOWN",
+        "readiness": "SEMANTICALLY_BLOCKED",
+        "evidence_excerpt": "om LIBOR to risk-free rates Monetary policy Open Monetary policy sub menu Back to main menu Inflation and the 2% target Quantitative easing Interest rat"
+      },
+      "AFTER": {
+        "entity_status": "ENTITY_NOT_FOUND",
+        "primary_entity": "UNKNOWN",
+        "entity_candidates": [],
+        "reference_period": "UNKNOWN",
+        "publication_date": "UNKNOWN",
+        "event_date": "UNKNOWN",
+        "event_state": "UNKNOWN",
+        "readiness": "SEMANTICALLY_BLOCKED",
+        "context_before": "",
+        "evidence_excerpt": "om LIBOR to risk-free rates Monetary policy Open Monetary policy sub menu Back to main menu Inflation and the 2% target Quantitative easing Interest rat",
+        "context_after": "",
+        "context_quality": "CONTEXT_INSUFFICIENT"
+      },
+      "verdict": "UNCHANGED"
+    },
+    {
+      "io_id": "io-3397bcfeb16c1522",
+      "event_type": "statistical_release",
+      "source_name": "bank-of-england",
+      "headline": "bank-of-england reports percentage statistic of 2",
+      "fact_count": 2,
+      "BEFORE": {
+        "entity_status": "ENTITY_NOT_FOUND",
+        "primary_entity": "UNKNOWN",
+        "entity_candidates": [],
+        "reference_period": "UNKNOWN",
+        "publication_date": "UNKNOWN",
+        "event_date": "UNKNOWN",
+        "event_state": "UNKNOWN",
+        "readiness": "SEMANTICALLY_BLOCKED",
+        "evidence_excerpt": "om LIBOR to risk-free rates Monetary policy Open Monetary policy sub menu Back to main menu Inflation and the 2% target Quantitative easing Interest rat"
+      },
+      "AFTER": {
+        "entity_status": "ENTITY_NOT_FOUND",
+        "primary_entity": "UNKNOWN",
+        "entity_candidates": [],
+        "reference_period": "UNKNOWN",
+        "publication_date": "UNKNOWN",
+        "event_date": "UNKNOWN",
+        "event_state": "UNKNOWN",
+        "readiness": "SEMANTICALLY_BLOCKED",
+        "context_before": "",
+        "evidence_excerpt": "om LIBOR to risk-free rates Monetary policy Open Monetary policy sub menu Back to main menu Inflation and the 2% target Quantitative easing Interest rat",
+        "context_after": "",
+        "context_quality": "CONTEXT_INSUFFICIENT"
+      },
+      "verdict": "UNCHANGED"
+    },
+    {
+      "io_id": "io-877cfaba4b9dc235",
+      "event_type": "statistical_release",
+      "source_name": "bank-of-england",
+      "headline": "bank-of-england reports percentage statistic of 2",
+      "fact_count": 4,
+      "BEFORE": {
+        "entity_status": "ENTITY_NOT_FOUND",
+        "primary_entity": "UNKNOWN",
+        "entity_candidates": [],
+        "reference_period": "UNKNOWN",
+        "publication_date": "UNKNOWN",
+        "event_date": "UNKNOWN",
+        "event_state": "ENFORCED",
+        "readiness": "SEMANTICALLY_BLOCKED",
+        "evidence_excerpt": "om LIBOR to risk-free rates Monetary policy Open Monetary policy sub menu Back to main menu Inflation and the 2% target Quantitative easing Interest rat"
+      },
+      "AFTER": {
+        "entity_status": "ENTITY_NOT_FOUND",
+        "primary_entity": "UNKNOWN",
+        "entity_candidates": [],
+        "reference_period": "In January 2024",
+        "publication_date": "UNKNOWN",
+        "event_date": "on 30 January 2024",
+        "event_state": "ENFORCED",
+        "readiness": "SEMANTICALLY_BLOCKED",
+        "context_before": "",
+        "evidence_excerpt": "om LIBOR to risk-free rates Monetary policy Open Monetary policy sub menu Back to main menu Inflation and the 2% target Quantitative easing Interest rat",
+        "context_after": "",
+        "context_quality": "CONTEXT_INSUFFICIENT"
+      },
+      "verdict": "IMPROVED"
+    },
+    {
+      "io_id": "io-7a2ef7f9417df7ab",
+      "event_type": "statistical_release",
+      "source_name": "bank-of-england",
+      "headline": "bank-of-england reports percentage statistic of 2",
+      "fact_count": 2,
+      "BEFORE": {
+        "entity_status": "ENTITY_NOT_FOUND",
+        "primary_entity": "UNKNOWN",
+        "entity_candidates": [],
+        "reference_period": "UNKNOWN",
+        "publication_date": "UNKNOWN",
+        "event_date": "UNKNOWN",
+        "event_state": "UNKNOWN",
+        "readiness": "SEMANTICALLY_BLOCKED",
+        "evidence_excerpt": "om LIBOR to risk-free rates Monetary policy Open Monetary policy sub menu Back to main menu Inflation and the 2% target Quantitative easing Interest rat"
+      },
+      "AFTER": {
+        "entity_status": "ENTITY_NOT_FOUND",
+        "primary_entity": "UNKNOWN",
+        "entity_candidates": [],
+        "reference_period": "UNKNOWN",
+        "publication_date": "UNKNOWN",
+        "event_date": "UNKNOWN",
+        "event_state": "UNKNOWN",
+        "readiness": "SEMANTICALLY_BLOCKED",
+        "context_before": "",
+        "evidence_excerpt": "om LIBOR to risk-free rates Monetary policy Open Monetary policy sub menu Back to main menu Inflation and the 2% target Quantitative easing Interest rat",
+        "context_after": "",
+        "context_quality": "CONTEXT_INSUFFICIENT"
+      },
+      "verdict": "UNCHANGED"
+    },
+    {
+      "io_id": "io-0a2164dff20884fa",
+      "event_type": "regulatory_enforcement",
+      "source_name": "ecb",
+      "headline": "ecb enforcement: action type settlement — 2026",
+      "fact_count": 1,
+      "BEFORE": {
+        "entity_status": "ENTITY_NOT_FOUND",
+        "primary_entity": "UNKNOWN",
+        "entity_candidates": [],
+        "reference_period": "UNKNOWN",
+        "publication_date": "/date/2026/",
+        "event_date": "UNKNOWN",
+        "event_state": "ENFORCED",
+        "readiness": "SEMANTICALLY_BLOCKED",
+        "evidence_excerpt": "ER-EU Euro Cyber Resilience Board Oversight Payment systems TARGET2-Securities Electronic payments Securities settlement systems and central counterparties Crit"
+      },
+      "AFTER": {
+        "entity_status": "ENTITY_NOT_FOUND",
+        "primary_entity": "UNKNOWN",
+        "entity_candidates": [],
+        "reference_period": "UNKNOWN",
+        "publication_date": "/date/2026/",
+        "event_date": "UNKNOWN",
+        "event_state": "ENFORCED",
+        "readiness": "SEMANTICALLY_BLOCKED",
+        "context_before": "",
+        "evidence_excerpt": "ER-EU Euro Cyber Resilience Board Oversight Payment systems TARGET2-Securities Electronic payments Securities settlement systems and central counterparties Crit",
+        "context_after": "",
+        "context_quality": "CONTEXT_INSUFFICIENT"
+      },
+      "verdict": "UNCHANGED"
+    },
+    {
+      "io_id": "io-ee8a8257ce0e86ba",
+      "event_type": "regulatory_enforcement",
+      "source_name": "cftc",
+      "headline": "cftc enforcement: penalty amount 400",
+      "fact_count": 4,
+      "BEFORE": {
+        "entity_status": "ENTITY_CONFIRMED",
+        "primary_entity": "CFTC",
+        "entity_candidates": [
+          "CFTC"
+        ],
+        "reference_period": "UNKNOWN",
+        "publication_date": "UNKNOWN",
+        "event_date": "UNKNOWN",
+        "event_state": "ENFORCED",
+        "readiness": "SEMANTICALLY_PARTIAL",
+        "evidence_excerpt": "ncy Authority to Ensure Market Stability , 9281-26 08/11/2026 CFTC Charges Goliath Ventures Inc. and CEO with $400 Million Fraud Scheme , 9280-26 08/10/202"
+      },
+      "AFTER": {
+        "entity_status": "ENTITY_CONFIRMED",
+        "primary_entity": "CFTC",
+        "entity_candidates": [
+          "CFTC",
+          "SEC"
+        ],
+        "reference_period": "of 2026",
+        "publication_date": "UNKNOWN",
+        "event_date": "UNKNOWN",
+        "event_state": "ENFORCED",
+        "readiness": "SEMANTICALLY_READY",
+        "context_before": "Press Releases | CFTC Press Releases 08/13/2026 | Press Releases | Chairman Selig Announces Agenda for August 20 Innovation Advisory Committee Meeting in Washington , 9283-26 | (08) 08/12/2026 | Press",
+        "evidence_excerpt": "ncy Authority to Ensure Market Stability , 9281-26 08/11/2026 CFTC Charges Goliath Ventures Inc. and CEO with $400 Million Fraud Scheme , 9280-26 08/10/202",
+        "context_after": "08/11/2026 | Press Releases | CFTC Charges Goliath Ventures Inc. and CEO with $400 Million Fraud Scheme , 9280-26 08/10/2026 | Press Releases | Chairman Selig Announces Inaugural CFTC Innovation Advis",
+        "context_quality": "CONTEXT_SUFFICIENT"
+      },
+      "verdict": "IMPROVED"
+    },
+    {
+      "io_id": "io-b6abac1393987508",
+      "event_type": "regulatory_enforcement",
+      "source_name": "esma",
+      "headline": "esma enforcement: action type settlement",
+      "fact_count": 1,
+      "BEFORE": {
+        "entity_status": "ENTITY_NOT_FOUND",
+        "primary_entity": "UNKNOWN",
+        "entity_candidates": [],
+        "reference_period": "UNKNOWN",
+        "publication_date": "UNKNOWN",
+        "event_date": "UNKNOWN",
+        "event_state": "ENFORCED",
+        "readiness": "SEMANTICALLY_BLOCKED",
+        "evidence_excerpt": "nterparties Data Reporting Services Providers Trading Consolidated Tape Providers Post-trading Shortening the settlement cycle to T+1 in the EU Market Integrity"
+      },
+      "AFTER": {
+        "entity_status": "ENTITY_NOT_FOUND",
+        "primary_entity": "UNKNOWN",
+        "entity_candidates": [],
+        "reference_period": "UNKNOWN",
+        "publication_date": "UNKNOWN",
+        "event_date": "UNKNOWN",
+        "event_state": "ENFORCED",
+        "readiness": "SEMANTICALLY_BLOCKED",
+        "context_before": "",
+        "evidence_excerpt": "nterparties Data Reporting Services Providers Trading Consolidated Tape Providers Post-trading Shortening the settlement cycle to T+1 in the EU Market Integrity",
+        "context_after": "",
+        "context_quality": "CONTEXT_INSUFFICIENT"
+      },
+      "verdict": "UNCHANGED"
+    },
+    {
+      "io_id": "io-5150003cff76e0ab",
+      "event_type": "regulatory_enforcement",
+      "source_name": "esma",
+      "headline": "esma enforcement: action type settlement",
+      "fact_count": 1,
+      "BEFORE": {
+        "entity_status": "ENTITY_NOT_FOUND",
+        "primary_entity": "UNKNOWN",
+        "entity_candidates": [],
+        "reference_period": "UNKNOWN",
+        "publication_date": "UNKNOWN",
+        "event_date": "UNKNOWN",
+        "event_state": "ENFORCED",
+        "readiness": "SEMANTICALLY_BLOCKED",
+        "evidence_excerpt": "nterparties Data Reporting Services Providers Trading Consolidated Tape Providers Post-trading Shortening the settlement cycle to T+1 in the EU Market Integrity"
+      },
+      "AFTER": {
+        "entity_status": "ENTITY_NOT_FOUND",
+        "primary_entity": "UNKNOWN",
+        "entity_candidates": [],
+        "reference_period": "UNKNOWN",
+        "publication_date": "UNKNOWN",
+        "event_date": "UNKNOWN",
+        "event_state": "ENFORCED",
+        "readiness": "SEMANTICALLY_BLOCKED",
+        "context_before": "",
+        "evidence_excerpt": "nterparties Data Reporting Services Providers Trading Consolidated Tape Providers Post-trading Shortening the settlement cycle to T+1 in the EU Market Integrity",
+        "context_after": "",
+        "context_quality": "CONTEXT_INSUFFICIENT"
+      },
+      "verdict": "UNCHANGED"
+    },
+    {
+      "io_id": "io-eb4ea7a98e0e81d3",
+      "event_type": "regulatory_enforcement",
+      "source_name": "esma",
+      "headline": "esma enforcement: action type settlement",
+      "fact_count": 1,
+      "BEFORE": {
+        "entity_status": "ENTITY_NOT_FOUND",
+        "primary_entity": "UNKNOWN",
+        "entity_candidates": [],
+        "reference_period": "UNKNOWN",
+        "publication_date": "UNKNOWN",
+        "event_date": "UNKNOWN",
+        "event_state": "ENFORCED",
+        "readiness": "SEMANTICALLY_BLOCKED",
+        "evidence_excerpt": "nterparties Data Reporting Services Providers Trading Consolidated Tape Providers Post-trading Shortening the settlement cycle to T+1 in the EU Market Integrity"
+      },
+      "AFTER": {
+        "entity_status": "ENTITY_NOT_FOUND",
+        "primary_entity": "UNKNOWN",
+        "entity_candidates": [],
+        "reference_period": "UNKNOWN",
+        "publication_date": "UNKNOWN",
+        "event_date": "UNKNOWN",
+        "event_state": "ENFORCED",
+        "readiness": "SEMANTICALLY_BLOCKED",
+        "context_before": "",
+        "evidence_excerpt": "nterparties Data Reporting Services Providers Trading Consolidated Tape Providers Post-trading Shortening the settlement cycle to T+1 in the EU Market Integrity",
+        "context_after": "",
+        "context_quality": "CONTEXT_INSUFFICIENT"
+      },
+      "verdict": "UNCHANGED"
+    },
+    {
+      "io_id": "io-936e16f976e71fe5",
+      "event_type": "regulatory_enforcement",
+      "source_name": "fca",
+      "headline": "fca enforcement: action type settlement — 2027",
+      "fact_count": 26,
+      "BEFORE": {
+        "entity_status": "ENTITY_NOT_FOUND",
+        "primary_entity": "UNKNOWN",
+        "entity_candidates": [],
+        "reference_period": "for 2027",
+        "publication_date": "UNKNOWN",
+        "event_date": "on 11 October 2027",
+        "event_state": "INCREASED",
+        "readiness": "SEMANTICALLY_BLOCKED",
+        "evidence_excerpt": "y for 2027? Jamie Bell Infrastructure and exchanges – capital markets Halfway through the countdown to faster settlement for securities trades, Jamie Bell refle"
+      },
+      "AFTER": {
+        "entity_status": "ENTITY_NOT_FOUND",
+        "primary_entity": "UNKNOWN",
+        "entity_candidates": [],
+        "reference_period": "for 2027",
+        "publication_date": "UNKNOWN",
+        "event_date": "on 11 October 2027",
+        "event_state": "INCREASED",
+        "readiness": "SEMANTICALLY_BLOCKED",
+        "context_before": "",
+        "evidence_excerpt": "y for 2027? Jamie Bell Infrastructure and exchanges – capital markets Halfway through the countdown to faster settlement for securities trades, Jamie Bell refle",
+        "context_after": "",
+        "context_quality": "CONTEXT_INSUFFICIENT"
+      },
+      "verdict": "UNCHANGED"
+    },
+    {
+      "io_id": "io-e1c8fef2c0eb8d6e",
+      "event_type": "regulatory_enforcement",
+      "source_name": "euronext",
+      "headline": "euronext enforcement: action type settlement",
+      "fact_count": 6,
+      "BEFORE": {
+        "entity_status": "ENTITY_NOT_FOUND",
+        "primary_entity": "UNKNOWN",
+        "entity_candidates": [],
+        "reference_period": "UNKNOWN",
+        "publication_date": "UNKNOWN",
+        "event_date": "UNKNOWN",
+        "event_state": "ENFORCED",
+        "readiness": "SEMANTICALLY_BLOCKED",
+        "evidence_excerpt": "rope&#039;s Fixed Income Markets One connected fixed income ecosystem Seamless listing, trading, clearing and settlement for fixed income Read more Trading clos"
+      },
+      "AFTER": {
+        "entity_status": "ENTITY_NOT_FOUND",
+        "primary_entity": "UNKNOWN",
+        "entity_candidates": [],
+        "reference_period": "UNKNOWN",
+        "publication_date": "UNKNOWN",
+        "event_date": "UNKNOWN",
+        "event_state": "ENFORCED",
+        "readiness": "SEMANTICALLY_BLOCKED",
+        "context_before": "",
+        "evidence_excerpt": "rope&#039;s Fixed Income Markets One connected fixed income ecosystem Seamless listing, trading, clearing and settlement for fixed income Read more Trading clos",
+        "context_after": "",
+        "context_quality": "CONTEXT_INSUFFICIENT"
+      },
+      "verdict": "UNCHANGED"
+    },
+    {
+      "io_id": "io-81354940d43ef28d",
+      "event_type": "regulatory_enforcement",
+      "source_name": "euronext",
+      "headline": "euronext enforcement: action type settlement",
+      "fact_count": 6,
+      "BEFORE": {
+        "entity_status": "ENTITY_NOT_FOUND",
+        "primary_entity": "UNKNOWN",
+        "entity_candidates": [],
+        "reference_period": "UNKNOWN",
+        "publication_date": "UNKNOWN",
+        "event_date": "UNKNOWN",
+        "event_state": "ENFORCED",
+        "readiness": "SEMANTICALLY_BLOCKED",
+        "evidence_excerpt": "rope&#039;s Fixed Income Markets One connected fixed income ecosystem Seamless listing, trading, clearing and settlement for fixed income Read more Trading clos"
+      },
+      "AFTER": {
+        "entity_status": "ENTITY_NOT_FOUND",
+        "primary_entity": "UNKNOWN",
+        "entity_candidates": [],
+        "reference_period": "UNKNOWN",
+        "publication_date": "UNKNOWN",
+        "event_date": "UNKNOWN",
+        "event_state": "ENFORCED",
+        "readiness": "SEMANTICALLY_BLOCKED",
+        "context_before": "",
+        "evidence_excerpt": "rope&#039;s Fixed Income Markets One connected fixed income ecosystem Seamless listing, trading, clearing and settlement for fixed income Read more Trading clos",
+        "context_after": "",
+        "context_quality": "CONTEXT_INSUFFICIENT"
+      },
+      "verdict": "UNCHANGED"
+    },
+    {
+      "io_id": "io-fe0ecf5fbcc92531",
+      "event_type": "regulatory_enforcement",
+      "source_name": "ecb",
+      "headline": "ecb enforcement: action type settlement — 2026",
+      "fact_count": 1,
+      "BEFORE": {
+        "entity_status": "ENTITY_NOT_FOUND",
+        "primary_entity": "UNKNOWN",
+        "entity_candidates": [],
+        "reference_period": "UNKNOWN",
+        "publication_date": "/date/2026/",
+        "event_date": "UNKNOWN",
+        "event_state": "ENFORCED",
+        "readiness": "SEMANTICALLY_BLOCKED",
+        "evidence_excerpt": "ER-EU Euro Cyber Resilience Board Oversight Payment systems TARGET2-Securities Electronic payments Securities settlement systems and central counterparties Crit"
+      },
+      "AFTER": {
+        "entity_status": "ENTITY_NOT_FOUND",
+        "primary_entity": "UNKNOWN",
+        "entity_candidates": [],
+        "reference_period": "UNKNOWN",
+        "publication_date": "/date/2026/",
+        "event_date": "UNKNOWN",
+        "event_state": "ENFORCED",
+        "readiness": "SEMANTICALLY_BLOCKED",
+        "context_before": "",
+        "evidence_excerpt": "ER-EU Euro Cyber Resilience Board Oversight Payment systems TARGET2-Securities Electronic payments Securities settlement systems and central counterparties Crit",
+        "context_after": "",
+        "context_quality": "CONTEXT_INSUFFICIENT"
+      },
+      "verdict": "UNCHANGED"
+    },
+    {
+      "io_id": "io-e65a9b3a70a171e4",
+      "event_type": "regulatory_enforcement",
+      "source_name": "eurostat",
+      "headline": "eurostat enforcement: action type fine",
+      "fact_count": 2,
+      "BEFORE": {
+        "entity_status": "ENTITY_NOT_FOUND",
+        "primary_entity": "UNKNOWN",
+        "entity_candidates": [],
+        "reference_period": "UNKNOWN",
+        "publication_date": "UNKNOWN",
+        "event_date": "UNKNOWN",
+        "event_state": "ENFORCED",
+        "readiness": "SEMANTICALLY_BLOCKED",
+        "evidence_excerpt": "ection on health statistics Database on health statistics Eurostat on Facebook , X , LinkedIn and Youtube The fine art of measuring the EU’s hazardous che"
+      },
+      "AFTER": {
+        "entity_status": "ENTITY_NOT_FOUND",
+        "primary_entity": "UNKNOWN",
+        "entity_candidates": [],
+        "reference_period": "UNKNOWN",
+        "publication_date": "UNKNOWN",
+        "event_date": "on\n\t4 June 2026",
+        "event_state": "ENFORCED",
+        "readiness": "SEMANTICALLY_BLOCKED",
+        "context_before": "",
+        "evidence_excerpt": "ection on health statistics Database on health statistics Eurostat on Facebook , X , LinkedIn and Youtube The fine art of measuring the EU’s hazardous che",
+        "context_after": "",
+        "context_quality": "CONTEXT_INSUFFICIENT"
+      },
+      "verdict": "IMPROVED"
+    },
+    {
+      "io_id": "io-005045dcc6e7f54f",
+      "event_type": "market_statistic_release",
+      "source_name": "federal-reserve",
+      "headline": "federal-reserve market usd amount 3",
+      "fact_count": 1,
+      "BEFORE": {
+        "entity_status": "ENTITY_NOT_FOUND",
+        "primary_entity": "UNKNOWN",
+        "entity_candidates": [],
+        "reference_period": "UNKNOWN",
+        "publication_date": "UNKNOWN",
+        "event_date": "UNKNOWN",
+        "event_state": "UNKNOWN",
+        "readiness": "SEMANTICALLY_BLOCKED",
+        "evidence_excerpt": "These institutions are owned by depositors rather than shareholders, and more than 90 percent have less than $3 billion in total assets. The Board assumed regu"
+      },
+      "AFTER": {
+        "entity_status": "ENTITY_CONFIRMED",
+        "primary_entity": "FED",
+        "entity_candidates": [
+          "FED"
+        ],
+        "reference_period": "in 2011",
+        "publication_date": "UNKNOWN",
+        "event_date": "UNKNOWN",
+        "event_state": "INCREASED",
+        "readiness": "SEMANTICALLY_READY",
+        "context_before": "Board of Governors of the Federal Reserve System The Federal Reserve, the central bank of the United States, provides\r\n          the nation with a safe, flexible, and stable monetary and financial\r\n  ",
+        "evidence_excerpt": "These institutions are owned by depositors rather than shareholders, and more than 90 percent have less than $3 billion in total assets. The Board assumed regu",
+        "context_after": "The Board assumed regulatory and supervisory authority over mutual banks from the Office of Thrift Supervision in 2011. The rules governing these banks were first established in 1993. They have not be",
+        "context_quality": "CONTEXT_SUFFICIENT"
+      },
+      "verdict": "IMPROVED"
+    },
+    {
+      "io_id": "io-73d389d84d737535",
+      "event_type": "market_statistic_release",
+      "source_name": "cftc",
+      "headline": "cftc market usd amount 36",
+      "fact_count": 1,
+      "BEFORE": {
+        "entity_status": "ENTITY_NOT_FOUND",
+        "primary_entity": "UNKNOWN",
+        "entity_candidates": [],
+        "reference_period": "UNKNOWN",
+        "publication_date": "UNKNOWN",
+        "event_date": "UNKNOWN",
+        "event_state": "UNKNOWN",
+        "readiness": "SEMANTICALLY_BLOCKED",
+        "evidence_excerpt": "porary restraining order prohibiting KalshiEX, LLC from offering all event contracts nationwide and more than $36 billion in damages. The CEA requires the Commis"
+      },
+      "AFTER": {
+        "entity_status": "ENTITY_CONFIRMED",
+        "primary_entity": "CFTC",
+        "entity_candidates": [
+          "CFTC"
+        ],
+        "reference_period": "UNKNOWN",
+        "publication_date": "UNKNOWN",
+        "event_date": "UNKNOWN",
+        "event_state": "NEW",
+        "readiness": "SEMANTICALLY_PARTIAL",
+        "context_before": "August 11, 2026 WASHINGTON — The Commodity Futures Trading Commission today exercised its emergency authority in response to KalshiEX, LLC’s notification of a market emergency and ordered the exchange",
+        "evidence_excerpt": "porary restraining order prohibiting KalshiEX, LLC from offering all event contracts nationwide and more than $36 billion in damages. The CEA requires the Commis",
+        "context_after": "The CEA requires the Commission to provide a uniform national market in derivatives transactions. As part of this obligation, the CFTC ensures public confidence in its markets by safeguarding market r",
+        "context_quality": "CONTEXT_SUFFICIENT"
+      },
+      "verdict": "IMPROVED"
+    },
+    {
+      "io_id": "io-e634047f1888f551",
+      "event_type": "market_statistic_release",
+      "source_name": "cftc",
+      "headline": "cftc market usd amount 397",
+      "fact_count": 1,
+      "BEFORE": {
+        "entity_status": "ENTITY_NOT_FOUND",
+        "primary_entity": "UNKNOWN",
+        "entity_candidates": [],
+        "reference_period": "UNKNOWN",
+        "publication_date": "UNKNOWN",
+        "event_date": "UNKNOWN",
+        "event_state": "UNKNOWN",
+        "readiness": "SEMANTICALLY_BLOCKED",
+        "evidence_excerpt": "count statements reflecting nonexistent profits. In total, approximately 1,600 customers contributed at least $397 million to the defendants’ fraud. “We will cont"
+      },
+      "AFTER": {
+        "entity_status": "ENTITY_AMBIGUOUS",
+        "primary_entity": "CFTC; SEC",
+        "entity_candidates": [
+          "CFTC",
+          "SEC"
+        ],
+        "reference_period": "In June 2026",
+        "publication_date": "UNKNOWN",
+        "event_date": "UNKNOWN",
+        "event_state": "ENFORCED",
+        "readiness": "SEMANTICALLY_PARTIAL",
+        "context_before": "August 11, 2026 WASHINGTON — The Commodity Futures Trading Commission today announced it filed a complaint in the U.S. District Court for the Middle District of Florida against Goliath Ventures. Inc. ",
+        "evidence_excerpt": "count statements reflecting nonexistent profits. In total, approximately 1,600 customers contributed at least $397 million to the defendants’ fraud. “We will cont",
+        "context_after": "“We will continue to aggressively police fraud, abuse, and manipulation in the crypto asset markets to ensure that bad actors are punished, while developing clear rules of the road so that good actors",
+        "context_quality": "CONTEXT_SUFFICIENT"
+      },
+      "verdict": "IMPROVED"
+    },
+    {
+      "io_id": "io-d06c7cf2f00b4891",
+      "event_type": "market_statistic_release",
+      "source_name": "frb-ny",
+      "headline": "frb-ny market usd amount 1.3",
+      "fact_count": 3,
+      "BEFORE": {
+        "entity_status": "ENTITY_NOT_FOUND",
+        "primary_entity": "UNKNOWN",
+        "entity_candidates": [],
+        "reference_period": "UNKNOWN",
+        "publication_date": "UNKNOWN",
+        "event_date": "UNKNOWN",
+        "event_state": "UNKNOWN",
+        "readiness": "SEMANTICALLY_BLOCKED",
+        "evidence_excerpt": "ding market. After rapid growth in recent years , the U.S. direct lending market is estimated to be more than $1.3 trillion USD, comparable in size to both the hig"
+      },
+      "AFTER": {
+        "entity_status": "ENTITY_AMBIGUOUS",
+        "primary_entity": "FED",
+        "entity_candidates": [
+          "FED"
+        ],
+        "reference_period": "Q3 2026",
+        "publication_date": "UNKNOWN",
+        "event_date": "UNKNOWN",
+        "event_state": "ANNOUNCED",
+        "readiness": "SEMANTICALLY_PARTIAL",
+        "context_before": "",
+        "evidence_excerpt": "ding market. After rapid growth in recent years , the U.S. direct lending market is estimated to be more than $1.3 trillion USD, comparable in size to both the hig",
+        "context_after": "",
+        "context_quality": "CONTEXT_INSUFFICIENT"
+      },
+      "verdict": "IMPROVED"
+    },
+    {
+      "io_id": "io-a1868489de0e9e2e",
+      "event_type": "market_statistic_release",
+      "source_name": "frb-ny",
+      "headline": "frb-ny market usd amount 232 — Q2 2023",
+      "fact_count": 5,
+      "BEFORE": {
+        "entity_status": "ENTITY_NOT_FOUND",
+        "primary_entity": "UNKNOWN",
+        "entity_candidates": [],
+        "reference_period": "Q2 2023",
+        "publication_date": "UNKNOWN",
+        "event_date": "UNKNOWN",
+        "event_state": "INCREASED",
+        "readiness": "SEMANTICALLY_BLOCKED",
+        "evidence_excerpt": "iosity and Learning Nov 21, 2023 New York Fed Community Development Team Releases Brief Finding Americans Had $232 billion in Unsecured Personal Loans in Q2 2023"
+      },
+      "AFTER": {
+        "entity_status": "ENTITY_AMBIGUOUS",
+        "primary_entity": "FED",
+        "entity_candidates": [
+          "FED"
+        ],
+        "reference_period": "Q2 2023",
+        "publication_date": "UNKNOWN",
+        "event_date": "UNKNOWN",
+        "event_state": "INCREASED",
+        "readiness": "SEMANTICALLY_PARTIAL",
+        "context_before": "",
+        "evidence_excerpt": "iosity and Learning Nov 21, 2023 New York Fed Community Development Team Releases Brief Finding Americans Had $232 billion in Unsecured Personal Loans in Q2 2023",
+        "context_after": "",
+        "context_quality": "CONTEXT_INSUFFICIENT"
+      },
+      "verdict": "UNCHANGED"
+    },
+    {
+      "io_id": "io-655c974c29eeb347",
+      "event_type": "market_statistic_release",
+      "source_name": "nrcan",
+      "headline": "nrcan market usd amount 32",
+      "fact_count": 3,
+      "BEFORE": {
+        "entity_status": "ENTITY_NOT_FOUND",
+        "primary_entity": "UNKNOWN",
+        "entity_candidates": [],
+        "reference_period": "UNKNOWN",
+        "publication_date": "UNKNOWN",
+        "event_date": "UNKNOWN",
+        "event_state": "INCREASED",
+        "readiness": "SEMANTICALLY_BLOCKED",
+        "evidence_excerpt": "the Iowa State Fair and meet with government officials and agriculture leaders. Government of Canada invests $32 million in Eastern Canada ferry infrastructure"
+      },
+      "AFTER": {
+        "entity_status": "ENTITY_NOT_FOUND",
+        "primary_entity": "UNKNOWN",
+        "entity_candidates": [],
+        "reference_period": "UNKNOWN",
+        "publication_date": "UNKNOWN",
+        "event_date": "2026-08-17",
+        "event_state": "INCREASED",
+        "readiness": "SEMANTICALLY_BLOCKED",
+        "context_before": "Federal government strengthens support for municipalities in Ontario to tackle unsheltered homelessness and encampments 2026-08-17 \r\n   \r\n       | Housing, Infrastructure and Communities Canada \r\n   \r",
+        "evidence_excerpt": "the Iowa State Fair and meet with government officials and agriculture leaders. Government of Canada invests $32 million in Eastern Canada ferry infrastructure",
+        "context_after": "Government of Canada invests $32 million in Eastern Canada ferry infrastructure to support connectivity 2026-08-17 \r\n   \r\n       | Transport Canada \r\n   \r\n \r\n   \r\n       | news releases Today, the Hon",
+        "context_quality": "CONTEXT_SUFFICIENT"
+      },
+      "verdict": "IMPROVED"
+    },
+    {
+      "io_id": "io-1ac47bbc74796a1a",
+      "event_type": "market_statistic_release",
+      "source_name": "nrcan",
+      "headline": "nrcan market usd amount 10",
+      "fact_count": 3,
+      "BEFORE": {
+        "entity_status": "ENTITY_NOT_FOUND",
+        "primary_entity": "UNKNOWN",
+        "entity_candidates": [],
+        "reference_period": "UNKNOWN",
+        "publication_date": "UNKNOWN",
+        "event_date": "UNKNOWN",
+        "event_state": "ANNOUNCED",
+        "readiness": "SEMANTICALLY_BLOCKED",
+        "evidence_excerpt": "akeham, and the CEOs of Hydro-Québec and Newfoundland and Labrador Hydro, announced a package including up to $10 billion in federal financial support and invest"
+      },
+      "AFTER": {
+        "entity_status": "ENTITY_NOT_FOUND",
+        "primary_entity": "UNKNOWN",
+        "entity_candidates": [],
+        "reference_period": "UNKNOWN",
+        "publication_date": "UNKNOWN",
+        "event_date": "2026-08-17",
+        "event_state": "ANNOUNCED",
+        "readiness": "SEMANTICALLY_BLOCKED",
+        "context_before": "News results Search archived articles Showing 1 - 10 of 2371 results Prime Minister Carney announces the largest clean energy investment in North American history 2026-08-17 \r\n   \r\n       | Natural Re",
+        "evidence_excerpt": "akeham, and the CEOs of Hydro-Québec and Newfoundland and Labrador Hydro, announced a package including up to $10 billion in federal financial support and invest",
+        "context_after": "Government of Canada officials to hold a media technical briefing on clean energy projects in Newfoundland and Labrador and Quebec 2026-08-16 \r\n   \r\n       | Natural Resources Canada \r\n   \r\n \r\n   \r\n  ",
+        "context_quality": "CONTEXT_SUFFICIENT"
+      },
+      "verdict": "IMPROVED"
+    },
+    {
+      "io_id": "io-de9433a949874f8c",
+      "event_type": "market_statistic_release",
+      "source_name": "cbbh-bosnia",
+      "headline": "cbbh-bosnia market usd amount 10.6",
+      "fact_count": 1,
+      "BEFORE": {
+        "entity_status": "ENTITY_CONFIRMED",
+        "primary_entity": "CB",
+        "entity_candidates": [
+          "CB"
+        ],
+        "reference_period": "UNKNOWN",
+        "publication_date": "UNKNOWN",
+        "event_date": "UNKNOWN",
+        "event_state": "UNKNOWN",
+        "readiness": "SEMANTICALLY_PARTIAL",
+        "evidence_excerpt": "they are sufficiently large? At the end of May, CBBH’s FX reserves were at a level of around 18.3 billion KM ($10.6 billion). While the absolute level of FX reserv"
+      },
+      "AFTER": {
+        "entity_status": "ENTITY_CONFIRMED",
+        "primary_entity": "CB",
+        "entity_candidates": [
+          "CB"
+        ],
+        "reference_period": "UNKNOWN",
+        "publication_date": "UNKNOWN",
+        "event_date": "UNKNOWN",
+        "event_state": "UNKNOWN",
+        "readiness": "SEMANTICALLY_PARTIAL",
+        "context_before": "",
+        "evidence_excerpt": "they are sufficiently large? At the end of May, CBBH’s FX reserves were at a level of around 18.3 billion KM ($10.6 billion). While the absolute level of FX reserv",
+        "context_after": "",
+        "context_quality": "CONTEXT_INSUFFICIENT"
+      },
+      "verdict": "UNCHANGED"
+    },
+    {
+      "io_id": "io-b4e154d9a1504355",
+      "event_type": "earnings_release",
+      "source_name": "mof-philippines",
+      "headline": "mof-philippines earnings revenue 205",
+      "fact_count": 2,
+      "BEFORE": {
+        "entity_status": "ENTITY_NOT_FOUND",
+        "primary_entity": "UNKNOWN",
+        "entity_candidates": [],
+        "reference_period": "UNKNOWN",
+        "publication_date": "UNKNOWN",
+        "event_date": "UNKNOWN",
+        "event_state": "UNKNOWN",
+        "readiness": "SEMANTICALLY_BLOCKED",
+        "evidence_excerpt": "nts Off on DOF welcomes EO that will boost local EV manufacturing July 31, 2026 News DOF leads turnover of PhP205 million in revenues from successful sale of forfeited luxu"
+      },
+      "AFTER": {
+        "entity_status": "ENTITY_AMBIGUOUS",
+        "primary_entity": "BOC",
+        "entity_candidates": [
+          "BOC"
+        ],
+        "reference_period": "UNKNOWN",
+        "publication_date": "UNKNOWN",
+        "event_date": "UNKNOWN",
+        "event_state": "UNKNOWN",
+        "readiness": "SEMANTICALLY_PARTIAL",
+        "context_before": "The Department of Finance (DOF) facilitated up to US$600 million (approximately PHP 36.95 billion) grant from the United States under the Strategic Objective Agreement (SOAG) for Integrated and Sustai",
+        "evidence_excerpt": "nts Off on DOF welcomes EO that will boost local EV manufacturing July 31, 2026 News DOF leads turnover of PhP205 million in revenues from successful sale of forfeited luxu",
+        "context_after": "Finance Secretary Frederick D. Go led the turnover of over PHP205 million in proceeds from the Bureau of Customs (BOC) following the successful negotiated sale of two forfeited Bugatti Chiron… Sec. Fr",
+        "context_quality": "CONTEXT_SUFFICIENT"
+      },
+      "verdict": "UNCHANGED"
+    },
+    {
+      "io_id": "io-510e7472d7e96491",
+      "event_type": "regulatory_enforcement",
+      "source_name": "sec",
+      "headline": "sec enforcement: action type charged",
+      "fact_count": 1,
+      "BEFORE": {
+        "entity_status": "ENTITY_CONFIRMED",
+        "primary_entity": "SEC",
+        "entity_candidates": [
+          "SEC"
+        ],
+        "reference_period": "UNKNOWN",
+        "publication_date": "UNKNOWN",
+        "event_date": "UNKNOWN",
+        "event_state": "ENFORCED",
+        "readiness": "SEMANTICALLY_PARTIAL",
+        "evidence_excerpt": "Cap Companies and the Public Markets The SEC’s Office of the Advocate for Small Business Capital Formation is charged by Congress with hosting the SEC’s annu"
+      },
+      "AFTER": {
+        "entity_status": "ENTITY_CONFIRMED",
+        "primary_entity": "SEC",
+        "entity_candidates": [
+          "SEC"
+        ],
+        "reference_period": "UNKNOWN",
+        "publication_date": "UNKNOWN",
+        "event_date": "on March 9, 2026",
+        "event_state": "INCREASED",
+        "readiness": "SEMANTICALLY_READY",
+        "context_before": "The Securities and Exchange Commission released a report to Congress today highlighting policy recommendations from the SEC’s 45th Annual Government-Business Forum on Small Business Capital Formation.",
+        "evidence_excerpt": "Cap Companies and the Public Markets The SEC’s Office of the Advocate for Small Business Capital Formation is charged by Congress with hosting the SEC’s annu",
+        "context_after": "The SEC’s Office of the Advocate for Small Business Capital Formation is charged by Congress with hosting the SEC’s annual Small Business Forum, where members of the public and private sectors gather ",
+        "context_quality": "CONTEXT_SUFFICIENT"
+      },
+      "verdict": "IMPROVED"
+    }
+  ],
+  "verdict_pending_push": "V46 SEMANTIC EVIDENCE CONTEXT RECOVERY PASSED (pending push)"
+}
