@@ -1,0 +1,101 @@
+{
+  "false_binding_forensics": [
+    {
+      "io_id": "io-82bd93037aae3793",
+      "candidate": "Inflation",
+      "registry_type": "INDICATOR",
+      "actual_subject": "Outdoor Recreation Economy",
+      "why_candidate_passed": "Inflation alias appeared near a state verb in the primary segment text",
+      "why_actual_subject_wins": "Document title explicitly names 'outdoor recreation economy' — inflation is a contextual comparison, not the event's semantic object",
+      "structural_signal": "document_title names a different topic",
+      "classification": "DOCUMENT_TOPIC_MISMATCH",
+      "prevention_signal": "Document title heading should have been checked against candidate's topic"
+    },
+    {
+      "io_id": "io-4d0ae13598a4e04d",
+      "candidate": "Gross Domestic Product",
+      "registry_type": "INDICATOR",
+      "actual_subject": "US Multinational Enterprises Activities",
+      "why_candidate_passed": "GDP alias matched in a different segment or heading context",
+      "why_actual_subject_wins": "Primary segment is 'Activities of U.S. Multinational Enterprises' — GDP does not appear in the primary segment at all",
+      "structural_signal": "document_title names a different topic; candidate not in primary segment",
+      "classification": "DOCUMENT_TOPIC_MISMATCH",
+      "prevention_signal": "Document title heading should have been checked; candidate absent from primary segment"
+    },
+    {
+      "io_id": "io-3be9de8dd3168da7",
+      "candidate": "Penalty",
+      "registry_type": "REGULATION",
+      "actual_subject": "Arts and Cultural Production",
+      "why_candidate_passed": "Penalty alias appeared in the text near a state verb",
+      "why_actual_subject_wins": "Document title explicitly names 'Arts and Cultural Production Satellite Account' — penalty is contextual",
+      "structural_signal": "document_title names a different topic",
+      "classification": "DOCUMENT_TOPIC_MISMATCH",
+      "prevention_signal": "Document title heading should have been checked against candidate's topic"
+    },
+    {
+      "io_id": "io-800941fa5aa8ae0f",
+      "candidate": "Inflation",
+      "registry_type": "INDICATOR",
+      "actual_subject": "Outdoor Recreation Economy",
+      "why_candidate_passed": "Same as case 1 — inflation alias appeared near a state verb",
+      "why_actual_subject_wins": "Same as case 1 — document title names 'outdoor recreation economy'",
+      "structural_signal": "document_title names a different topic",
+      "classification": "DOCUMENT_TOPIC_MISMATCH",
+      "prevention_signal": "Document title heading should have been checked"
+    },
+    {
+      "io_id": "io-bd378fea8d59bb17",
+      "candidate": "Policy Rate",
+      "registry_type": "INSTRUMENT",
+      "actual_subject": "Savings Bonds Rates",
+      "why_candidate_passed": "Alias 'interest rate' or 'rate' matched in text near a state verb",
+      "why_actual_subject_wins": "Document title says 'Fiscal Service Announces New Savings Bonds Rates' — the rates are savings bond rates, not policy rates",
+      "structural_signal": "document_title names savings bonds; alias 'rate' is too generic",
+      "classification": "LEXICAL_MENTION",
+      "prevention_signal": "Document title + fact metric should have been checked — 'rate' alias is too generic without topic context"
+    }
+  ],
+  "reaudit": [
+    {
+      "io_id": "io-82bd93037aae3793",
+      "candidate": "Inflation",
+      "status": "ELIMINATED",
+      "subject_indicator": "NOT_FOUND",
+      "subject_instrument": "NOT_FOUND",
+      "subject_concept": "NOT_FOUND"
+    },
+    {
+      "io_id": "io-4d0ae13598a4e04d",
+      "candidate": "Gross Domestic Product",
+      "status": "ELIMINATED",
+      "subject_indicator": "NOT_FOUND",
+      "subject_instrument": "NOT_FOUND",
+      "subject_concept": "NOT_FOUND"
+    },
+    {
+      "io_id": "io-3be9de8dd3168da7",
+      "candidate": "Penalty",
+      "status": "ELIMINATED",
+      "subject_indicator": "NOT_FOUND",
+      "subject_instrument": "NOT_FOUND",
+      "subject_concept": "NOT_FOUND"
+    },
+    {
+      "io_id": "io-800941fa5aa8ae0f",
+      "candidate": "Inflation",
+      "status": "ELIMINATED",
+      "subject_indicator": "NOT_FOUND",
+      "subject_instrument": "NOT_FOUND",
+      "subject_concept": "NOT_FOUND"
+    },
+    {
+      "io_id": "io-bd378fea8d59bb17",
+      "candidate": "Policy Rate",
+      "status": "ELIMINATED",
+      "subject_indicator": "NOT_FOUND",
+      "subject_instrument": "NOT_FOUND",
+      "subject_concept": "NOT_FOUND"
+    }
+  ]
+}

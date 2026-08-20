@@ -1,0 +1,165 @@
+{
+  "blocked_sample": [
+    {
+      "io_id": "io-7d28d8ec3f2c6f50",
+      "event_type": "regulatory_enforcement",
+      "source_name": "cbbh-bosnia",
+      "has_hidden_subject": false,
+      "subject_indicator": "NOT_FOUND",
+      "subject_instrument": "NOT_FOUND"
+    },
+    {
+      "io_id": "io-f98cf957f003e03c",
+      "event_type": "statistical_release",
+      "source_name": "bea",
+      "has_hidden_subject": false,
+      "subject_indicator": "NOT_FOUND",
+      "subject_instrument": "NOT_FOUND"
+    },
+    {
+      "io_id": "io-fe0ecf5fbcc92531",
+      "event_type": "regulatory_enforcement",
+      "source_name": "ecb",
+      "has_hidden_subject": false,
+      "subject_indicator": "NOT_FOUND",
+      "subject_instrument": "NOT_FOUND"
+    },
+    {
+      "io_id": "io-59fc104d47989f9c",
+      "event_type": "statistical_release",
+      "source_name": "bank-of-england",
+      "has_hidden_subject": false,
+      "subject_indicator": "NOT_FOUND",
+      "subject_instrument": "NOT_FOUND"
+    },
+    {
+      "io_id": "io-b5f51e369fe415cf",
+      "event_type": "statistical_release",
+      "source_name": "bank-of-england",
+      "has_hidden_subject": false,
+      "subject_indicator": "NOT_FOUND",
+      "subject_instrument": "NOT_FOUND"
+    },
+    {
+      "io_id": "io-ebbec3bafc81efcb",
+      "event_type": "monetary_policy_decision",
+      "source_name": "euronext",
+      "has_hidden_subject": false,
+      "subject_indicator": "NOT_FOUND",
+      "subject_instrument": "NOT_FOUND"
+    },
+    {
+      "io_id": "io-cb962de2e620b830",
+      "event_type": "statistical_release",
+      "source_name": "bea",
+      "has_hidden_subject": false,
+      "subject_indicator": "NOT_FOUND",
+      "subject_instrument": "NOT_FOUND"
+    },
+    {
+      "io_id": "io-39cfc3b482bba190",
+      "event_type": "regulatory_enforcement",
+      "source_name": "cftc",
+      "has_hidden_subject": false,
+      "subject_indicator": "NOT_FOUND",
+      "subject_instrument": "NOT_FOUND"
+    },
+    {
+      "io_id": "io-ba846fc82c4e5ce7",
+      "event_type": "regulatory_enforcement",
+      "source_name": "ecb-stat",
+      "has_hidden_subject": false,
+      "subject_indicator": "NOT_FOUND",
+      "subject_instrument": "NOT_FOUND"
+    },
+    {
+      "io_id": "io-09189d018d2081b4",
+      "event_type": "statistical_release",
+      "source_name": "bea",
+      "has_hidden_subject": false,
+      "subject_indicator": "NOT_FOUND",
+      "subject_instrument": "NOT_FOUND"
+    },
+    {
+      "io_id": "io-ee07f260c54778dc",
+      "event_type": "monetary_policy_decision",
+      "source_name": "cbj-jordan",
+      "has_hidden_subject": false,
+      "subject_indicator": "NOT_FOUND",
+      "subject_instrument": "NOT_FOUND"
+    },
+    {
+      "io_id": "io-0e624f21740e46bc",
+      "event_type": "regulatory_enforcement",
+      "source_name": "ecb-stat",
+      "has_hidden_subject": false,
+      "subject_indicator": "NOT_FOUND",
+      "subject_instrument": "NOT_FOUND"
+    },
+    {
+      "io_id": "io-f803af6f431d9f8a",
+      "event_type": "statistical_release",
+      "source_name": "bank-of-england",
+      "has_hidden_subject": false,
+      "subject_indicator": "NOT_FOUND",
+      "subject_instrument": "NOT_FOUND"
+    },
+    {
+      "io_id": "io-a27ee61aa6026a13",
+      "event_type": "statistical_release",
+      "source_name": "ecb",
+      "has_hidden_subject": false,
+      "subject_indicator": "NOT_FOUND",
+      "subject_instrument": "NOT_FOUND"
+    },
+    {
+      "io_id": "io-9304252516f5b4a0",
+      "event_type": "statistical_release",
+      "source_name": "bea",
+      "has_hidden_subject": false,
+      "subject_indicator": "NOT_FOUND",
+      "subject_instrument": "NOT_FOUND"
+    },
+    {
+      "io_id": "io-850bbc38d59efe49",
+      "event_type": "monetary_policy_decision",
+      "source_name": "euronext",
+      "has_hidden_subject": false,
+      "subject_indicator": "NOT_FOUND",
+      "subject_instrument": "NOT_FOUND"
+    },
+    {
+      "io_id": "io-2e6037c97b7468b6",
+      "event_type": "statistical_release",
+      "source_name": "bea",
+      "has_hidden_subject": false,
+      "subject_indicator": "NOT_FOUND",
+      "subject_instrument": "NOT_FOUND"
+    },
+    {
+      "io_id": "io-84e2943cab8b3d46",
+      "event_type": "statistical_release",
+      "source_name": "eurostat-emp",
+      "has_hidden_subject": false,
+      "subject_indicator": "NOT_FOUND",
+      "subject_instrument": "NOT_FOUND"
+    },
+    {
+      "io_id": "io-07186a9387225398",
+      "event_type": "monetary_policy_decision",
+      "source_name": "cbj-jordan",
+      "has_hidden_subject": false,
+      "subject_indicator": "NOT_FOUND",
+      "subject_instrument": "NOT_FOUND"
+    },
+    {
+      "io_id": "io-c6c8ac878a439394",
+      "event_type": "statistical_release",
+      "source_name": "ecb",
+      "has_hidden_subject": false,
+      "subject_indicator": "NOT_FOUND",
+      "subject_instrument": "NOT_FOUND"
+    }
+  ],
+  "hidden_true_subjects": 0
+}
