@@ -1,0 +1,590 @@
+{
+  "phase": "V48AB MULTI-SIGNAL SUBJECT EVIDENCE VALIDATION",
+  "executed_at_utc": "2026-08-20T23:45:48Z",
+  "v48x_shadow": [
+    {
+      "io_id": "io-6e897d602140277f",
+      "v48x_role": "TRUE_SUBJECT",
+      "shadow_judgment": "TRUE_SUBJECT",
+      "vector": {
+        "event": "STRONG",
+        "measurement": "STRONG",
+        "fact": "MODERATE",
+        "event_type": "COMPATIBLE",
+        "heading": "CONTRADICTION",
+        "topic": "CONTRADICTION",
+        "position": "EARLY",
+        "matched_verb": "turnover",
+        "judgment": "TRUE_SUBJECT",
+        "strong_count": 2
+      }
+    },
+    {
+      "io_id": "io-82bd93037aae3793",
+      "v48x_role": "FALSE_BINDING",
+      "shadow_judgment": "AMBIGUOUS",
+      "vector": {
+        "event": "INSUFFICIENT",
+        "measurement": "INSUFFICIENT",
+        "fact": "MODERATE",
+        "event_type": "COMPATIBLE",
+        "heading": "NEUTRAL",
+        "topic": "NEUTRAL",
+        "position": "NOT_FOUND",
+        "matched_verb": "",
+        "judgment": "AMBIGUOUS",
+        "strong_count": 0
+      }
+    },
+    {
+      "io_id": "io-34e78b9a8798dc7a",
+      "v48x_role": "AMBIGUOUS",
+      "shadow_judgment": "AMBIGUOUS",
+      "vector": {
+        "event": "INSUFFICIENT",
+        "measurement": "INSUFFICIENT",
+        "fact": "MODERATE",
+        "event_type": "COMPATIBLE",
+        "heading": "CONTRADICTION",
+        "topic": "CONTRADICTION",
+        "position": "NOT_FOUND",
+        "matched_verb": "",
+        "judgment": "AMBIGUOUS",
+        "strong_count": 0
+      }
+    },
+    {
+      "io_id": "io-d699eb90722fdf91",
+      "v48x_role": "TRUE_SUBJECT",
+      "shadow_judgment": "TRUE_SUBJECT",
+      "vector": {
+        "event": "STRONG",
+        "measurement": "INSUFFICIENT",
+        "fact": "MODERATE",
+        "event_type": "COMPATIBLE",
+        "heading": "NEUTRAL",
+        "topic": "NEUTRAL",
+        "position": "EARLY",
+        "matched_verb": "increased",
+        "judgment": "TRUE_SUBJECT",
+        "strong_count": 1
+      }
+    },
+    {
+      "io_id": "io-9701ebc40db3ea9b",
+      "v48x_role": "TRUE_SUBJECT",
+      "shadow_judgment": "TRUE_SUBJECT",
+      "vector": {
+        "event": "STRONG",
+        "measurement": "INSUFFICIENT",
+        "fact": "MODERATE",
+        "event_type": "COMPATIBLE",
+        "heading": "CONTRADICTION",
+        "topic": "CONTRADICTION",
+        "position": "EARLY",
+        "matched_verb": "imposed",
+        "judgment": "TRUE_SUBJECT",
+        "strong_count": 1
+      }
+    },
+    {
+      "io_id": "io-e360d9bc9e0d2c0c",
+      "v48x_role": "TRUE_SUBJECT",
+      "shadow_judgment": "TRUE_SUBJECT",
+      "vector": {
+        "event": "STRONG",
+        "measurement": "STRONG",
+        "fact": "MODERATE",
+        "event_type": "COMPATIBLE",
+        "heading": "CONTRADICTION",
+        "topic": "CONTRADICTION",
+        "position": "EARLY",
+        "matched_verb": "decreased",
+        "judgment": "TRUE_SUBJECT",
+        "strong_count": 2
+      }
+    },
+    {
+      "io_id": "io-986440761d453dab",
+      "v48x_role": "TRUE_SUBJECT",
+      "shadow_judgment": "TRUE_SUBJECT",
+      "vector": {
+        "event": "STRONG",
+        "measurement": "INSUFFICIENT",
+        "fact": "MODERATE",
+        "event_type": "COMPATIBLE",
+        "heading": "NEUTRAL",
+        "topic": "NEUTRAL",
+        "position": "EARLY",
+        "matched_verb": "increased",
+        "judgment": "TRUE_SUBJECT",
+        "strong_count": 1
+      }
+    },
+    {
+      "io_id": "io-e8de8736c33c9961",
+      "v48x_role": "TRUE_SUBJECT",
+      "shadow_judgment": "TRUE_SUBJECT",
+      "vector": {
+        "event": "STRONG",
+        "measurement": "INSUFFICIENT",
+        "fact": "MODERATE",
+        "event_type": "COMPATIBLE",
+        "heading": "NEUTRAL",
+        "topic": "NEUTRAL",
+        "position": "EARLY",
+        "matched_verb": "increase",
+        "judgment": "TRUE_SUBJECT",
+        "strong_count": 1
+      }
+    },
+    {
+      "io_id": "io-4d0ae13598a4e04d",
+      "v48x_role": "FALSE_BINDING",
+      "shadow_judgment": "AMBIGUOUS",
+      "vector": {
+        "event": "INSUFFICIENT",
+        "measurement": "INSUFFICIENT",
+        "fact": "MODERATE",
+        "event_type": "COMPATIBLE",
+        "heading": "NEUTRAL",
+        "topic": "NEUTRAL",
+        "position": "NOT_FOUND",
+        "matched_verb": "",
+        "judgment": "AMBIGUOUS",
+        "strong_count": 0
+      }
+    },
+    {
+      "io_id": "io-25d63db0b736fc25",
+      "v48x_role": "AMBIGUOUS",
+      "shadow_judgment": "TRUE_SUBJECT",
+      "vector": {
+        "event": "STRONG",
+        "measurement": "STRONG",
+        "fact": "MODERATE",
+        "event_type": "COMPATIBLE",
+        "heading": "NEUTRAL",
+        "topic": "NEUTRAL",
+        "position": "MIDDLE",
+        "matched_verb": "increase",
+        "judgment": "TRUE_SUBJECT",
+        "strong_count": 2
+      }
+    },
+    {
+      "io_id": "io-3be9de8dd3168da7",
+      "v48x_role": "FALSE_BINDING",
+      "shadow_judgment": "AMBIGUOUS",
+      "vector": {
+        "event": "INSUFFICIENT",
+        "measurement": "INSUFFICIENT",
+        "fact": "MODERATE",
+        "event_type": "COMPATIBLE",
+        "heading": "NEUTRAL",
+        "topic": "NEUTRAL",
+        "position": "NOT_FOUND",
+        "matched_verb": "",
+        "judgment": "AMBIGUOUS",
+        "strong_count": 0
+      }
+    },
+    {
+      "io_id": "io-8dd0b49dbd84784f",
+      "v48x_role": "TRUE_SUBJECT",
+      "shadow_judgment": "TRUE_SUBJECT",
+      "vector": {
+        "event": "STRONG",
+        "measurement": "STRONG",
+        "fact": "MODERATE",
+        "event_type": "COMPATIBLE",
+        "heading": "NEUTRAL",
+        "topic": "NEUTRAL",
+        "position": "EARLY",
+        "matched_verb": "decreased",
+        "judgment": "TRUE_SUBJECT",
+        "strong_count": 2
+      }
+    },
+    {
+      "io_id": "io-c7e628b08293fd42",
+      "v48x_role": "TRUE_SUBJECT",
+      "shadow_judgment": "TRUE_SUBJECT",
+      "vector": {
+        "event": "STRONG",
+        "measurement": "INSUFFICIENT",
+        "fact": "MODERATE",
+        "event_type": "COMPATIBLE",
+        "heading": "NEUTRAL",
+        "topic": "NEUTRAL",
+        "position": "LATE",
+        "matched_verb": "increase",
+        "judgment": "TRUE_SUBJECT",
+        "strong_count": 1
+      }
+    },
+    {
+      "io_id": "io-534abe93a5d52fcf",
+      "v48x_role": "TRUE_SUBJECT",
+      "shadow_judgment": "TRUE_SUBJECT",
+      "vector": {
+        "event": "STRONG",
+        "measurement": "STRONG",
+        "fact": "MODERATE",
+        "event_type": "COMPATIBLE",
+        "heading": "CONTRADICTION",
+        "topic": "CONTRADICTION",
+        "position": "EARLY",
+        "matched_verb": "turnover",
+        "judgment": "TRUE_SUBJECT",
+        "strong_count": 2
+      }
+    },
+    {
+      "io_id": "io-800941fa5aa8ae0f",
+      "v48x_role": "FALSE_BINDING",
+      "shadow_judgment": "AMBIGUOUS",
+      "vector": {
+        "event": "INSUFFICIENT",
+        "measurement": "INSUFFICIENT",
+        "fact": "MODERATE",
+        "event_type": "COMPATIBLE",
+        "heading": "NEUTRAL",
+        "topic": "NEUTRAL",
+        "position": "NOT_FOUND",
+        "matched_verb": "",
+        "judgment": "AMBIGUOUS",
+        "strong_count": 0
+      }
+    },
+    {
+      "io_id": "io-1c89837982b29495",
+      "v48x_role": "AMBIGUOUS",
+      "shadow_judgment": "AMBIGUOUS",
+      "vector": {
+        "event": "INSUFFICIENT",
+        "measurement": "INSUFFICIENT",
+        "fact": "MODERATE",
+        "event_type": "COMPATIBLE",
+        "heading": "CONTRADICTION",
+        "topic": "CONTRADICTION",
+        "position": "NOT_FOUND",
+        "matched_verb": "",
+        "judgment": "AMBIGUOUS",
+        "strong_count": 0
+      }
+    },
+    {
+      "io_id": "io-e1006f232af90069",
+      "v48x_role": "TRUE_SUBJECT",
+      "shadow_judgment": "TRUE_SUBJECT",
+      "vector": {
+        "event": "STRONG",
+        "measurement": "INSUFFICIENT",
+        "fact": "MODERATE",
+        "event_type": "NOT_PRIOR",
+        "heading": "CONTRADICTION",
+        "topic": "CONTRADICTION",
+        "position": "EARLY",
+        "matched_verb": "held",
+        "judgment": "TRUE_SUBJECT",
+        "strong_count": 1
+      }
+    },
+    {
+      "io_id": "io-1d843980c07050f9",
+      "v48x_role": "TRUE_SUBJECT",
+      "shadow_judgment": "AMBIGUOUS",
+      "vector": {
+        "event": "INSUFFICIENT",
+        "measurement": "INSUFFICIENT",
+        "fact": "MODERATE",
+        "event_type": "NOT_PRIOR",
+        "heading": "NEUTRAL",
+        "topic": "CONTRADICTION",
+        "position": "NOT_FOUND",
+        "matched_verb": "",
+        "judgment": "AMBIGUOUS",
+        "strong_count": 0
+      }
+    },
+    {
+      "io_id": "io-cb08d31a4e009be2",
+      "v48x_role": "TRUE_SUBJECT",
+      "shadow_judgment": "FALSE_BINDING",
+      "vector": {
+        "event": "INSUFFICIENT",
+        "measurement": "INSUFFICIENT",
+        "fact": "CONTRADICTED",
+        "event_type": "NOT_PRIOR",
+        "heading": "NEUTRAL",
+        "topic": "CONTRADICTION",
+        "position": "NOT_FOUND",
+        "matched_verb": "",
+        "judgment": "FALSE_BINDING",
+        "strong_count": 0
+      }
+    },
+    {
+      "io_id": "io-cba6421b7b401b5d",
+      "v48x_role": "TRUE_SUBJECT",
+      "shadow_judgment": "FALSE_BINDING",
+      "vector": {
+        "event": "INSUFFICIENT",
+        "measurement": "INSUFFICIENT",
+        "fact": "CONTRADICTED",
+        "event_type": "NOT_PRIOR",
+        "heading": "CONTRADICTION",
+        "topic": "NEUTRAL",
+        "position": "NOT_FOUND",
+        "matched_verb": "",
+        "judgment": "FALSE_BINDING",
+        "strong_count": 0
+      }
+    },
+    {
+      "io_id": "io-2dff78ee576bc9cf",
+      "v48x_role": "TRUE_SUBJECT",
+      "shadow_judgment": "TRUE_SUBJECT",
+      "vector": {
+        "event": "STRONG",
+        "measurement": "STRONG",
+        "fact": "MODERATE",
+        "event_type": "COMPATIBLE",
+        "heading": "NEUTRAL",
+        "topic": "NEUTRAL",
+        "position": "EARLY",
+        "matched_verb": "decreased",
+        "judgment": "TRUE_SUBJECT",
+        "strong_count": 2
+      }
+    },
+    {
+      "io_id": "io-7534fcd5081601e3",
+      "v48x_role": "TRUE_SUBJECT",
+      "shadow_judgment": "FALSE_BINDING",
+      "vector": {
+        "event": "INSUFFICIENT",
+        "measurement": "INSUFFICIENT",
+        "fact": "CONTRADICTED",
+        "event_type": "NOT_PRIOR",
+        "heading": "NEUTRAL",
+        "topic": "NEUTRAL",
+        "position": "NOT_FOUND",
+        "matched_verb": "",
+        "judgment": "FALSE_BINDING",
+        "strong_count": 0
+      }
+    },
+    {
+      "io_id": "io-a4528f6cfe29cfe1",
+      "v48x_role": "TRUE_SUBJECT",
+      "shadow_judgment": "TRUE_SUBJECT",
+      "vector": {
+        "event": "STRONG",
+        "measurement": "STRONG",
+        "fact": "MODERATE",
+        "event_type": "COMPATIBLE",
+        "heading": "NEUTRAL",
+        "topic": "NEUTRAL",
+        "position": "EARLY",
+        "matched_verb": "decreased",
+        "judgment": "TRUE_SUBJECT",
+        "strong_count": 2
+      }
+    },
+    {
+      "io_id": "io-8e1bbee497570547",
+      "v48x_role": "TRUE_SUBJECT",
+      "shadow_judgment": "FALSE_BINDING",
+      "vector": {
+        "event": "INSUFFICIENT",
+        "measurement": "INSUFFICIENT",
+        "fact": "CONTRADICTED",
+        "event_type": "NOT_PRIOR",
+        "heading": "NEUTRAL",
+        "topic": "NEUTRAL",
+        "position": "NOT_FOUND",
+        "matched_verb": "",
+        "judgment": "FALSE_BINDING",
+        "strong_count": 0
+      }
+    },
+    {
+      "io_id": "io-9055358b3afdea8e",
+      "v48x_role": "AMBIGUOUS",
+      "shadow_judgment": "FALSE_BINDING",
+      "vector": {
+        "event": "STRONG",
+        "measurement": "STRONG",
+        "fact": "CONTRADICTED",
+        "event_type": "NOT_PRIOR",
+        "heading": "NEUTRAL",
+        "topic": "CONTRADICTION",
+        "position": "MIDDLE",
+        "matched_verb": "increase",
+        "judgment": "FALSE_BINDING",
+        "strong_count": 2
+      }
+    },
+    {
+      "io_id": "io-c60cc20f95cda57b",
+      "v48x_role": "TRUE_SUBJECT",
+      "shadow_judgment": "AMBIGUOUS",
+      "vector": {
+        "event": "INSUFFICIENT",
+        "measurement": "INSUFFICIENT",
+        "fact": "MODERATE",
+        "event_type": "COMPATIBLE",
+        "heading": "CONTRADICTION",
+        "topic": "CONTRADICTION",
+        "position": "NOT_FOUND",
+        "matched_verb": "",
+        "judgment": "AMBIGUOUS",
+        "strong_count": 0
+      }
+    },
+    {
+      "io_id": "io-cb08d31a4e009be2",
+      "v48x_role": "CONTEXT",
+      "shadow_judgment": "AMBIGUOUS",
+      "vector": {
+        "event": "INSUFFICIENT",
+        "measurement": "INSUFFICIENT",
+        "fact": "STRONG",
+        "event_type": "COMPATIBLE",
+        "heading": "NEUTRAL",
+        "topic": "CONTRADICTION",
+        "position": "NOT_FOUND",
+        "matched_verb": "",
+        "judgment": "AMBIGUOUS",
+        "strong_count": 1
+      }
+    },
+    {
+      "io_id": "io-1d843980c07050f9",
+      "v48x_role": "CONTEXT",
+      "shadow_judgment": "AMBIGUOUS",
+      "vector": {
+        "event": "INSUFFICIENT",
+        "measurement": "INSUFFICIENT",
+        "fact": "MODERATE",
+        "event_type": "NOT_PRIOR",
+        "heading": "NEUTRAL",
+        "topic": "CONTRADICTION",
+        "position": "NOT_FOUND",
+        "matched_verb": "",
+        "judgment": "AMBIGUOUS",
+        "strong_count": 0
+      }
+    },
+    {
+      "io_id": "io-9dc27286de2cc8d8",
+      "v48x_role": "AMBIGUOUS",
+      "shadow_judgment": "AMBIGUOUS",
+      "vector": {
+        "event": "INSUFFICIENT",
+        "measurement": "INSUFFICIENT",
+        "fact": "MODERATE",
+        "event_type": "COMPATIBLE",
+        "heading": "NEUTRAL",
+        "topic": "CONTRADICTION",
+        "position": "NOT_FOUND",
+        "matched_verb": "",
+        "judgment": "AMBIGUOUS",
+        "strong_count": 0
+      }
+    },
+    {
+      "io_id": "io-bd378fea8d59bb17",
+      "v48x_role": "FALSE_BINDING",
+      "shadow_judgment": "AMBIGUOUS",
+      "vector": {
+        "event": "INSUFFICIENT",
+        "measurement": "INSUFFICIENT",
+        "fact": "MODERATE",
+        "event_type": "NOT_PRIOR",
+        "heading": "NEUTRAL",
+        "topic": "CONTRADICTION",
+        "position": "NOT_FOUND",
+        "matched_verb": "",
+        "judgment": "AMBIGUOUS",
+        "strong_count": 0
+      }
+    },
+    {
+      "io_id": "io-dd7f1db542d212a3",
+      "v48x_role": "TRUE_SUBJECT",
+      "shadow_judgment": "AMBIGUOUS",
+      "vector": {
+        "event": "INSUFFICIENT",
+        "measurement": "INSUFFICIENT",
+        "fact": "MODERATE",
+        "event_type": "COMPATIBLE",
+        "heading": "NEUTRAL",
+        "topic": "CONTRADICTION",
+        "position": "NOT_FOUND",
+        "matched_verb": "",
+        "judgment": "AMBIGUOUS",
+        "strong_count": 0
+      }
+    },
+    {
+      "io_id": "io-bea0b6a376d6f629",
+      "v48x_role": "CONTEXT",
+      "shadow_judgment": "FALSE_BINDING",
+      "vector": {
+        "event": "INSUFFICIENT",
+        "measurement": "INSUFFICIENT",
+        "fact": "CONTRADICTED",
+        "event_type": "NOT_PRIOR",
+        "heading": "NEUTRAL",
+        "topic": "CONTRADICTION",
+        "position": "NOT_FOUND",
+        "matched_verb": "",
+        "judgment": "FALSE_BINDING",
+        "strong_count": 0
+      }
+    }
+  ],
+  "true_retained": 12,
+  "false_rejected": 5,
+  "independent_sample": {
+    "positive_pass": 39,
+    "negative_pass": 49,
+    "ambiguous_pass": 46,
+    "total": 134,
+    "total_cases": 150
+  },
+  "test_results": {
+    "passed_modules": 13,
+    "total_modules": 13,
+    "all_tests_pass": true
+  },
+  "acceptance_gates": {
+    "g1_shadow_evaluator_built": true,
+    "g2_no_production_changes": true,
+    "g3_6_lost_true_tested": true,
+    "g4_5_false_tested": true,
+    "g5_50_positive_tested": true,
+    "g6_50_negative_tested": true,
+    "g7_50_ambiguous_tested": true,
+    "g8_evidence_vector_not_score": true,
+    "g9_ambiguous_preserved": true,
+    "g10_no_topic_as_gate": true,
+    "g11_no_embeddings": true,
+    "g12_no_llm": true,
+    "g13_no_entity_registry": true,
+    "g14_no_source_expansion": true,
+    "g15_no_extraction_changes": true,
+    "g16_no_event_detection_changes": true,
+    "g17_no_evidence_changes": true,
+    "g18_all_existing_tests_pass": true,
+    "g19_no_precision_claim": true,
+    "g20_sample_finding_not_recall_proof": true,
+    "all_pass": true
+  },
+  "verdict": "V48AB MULTI-SIGNAL SUBJECT EVIDENCE VALIDATION PASSED",
+  "no_precision_claim": true,
+  "sample_finding_not_recall_proof": true
+}

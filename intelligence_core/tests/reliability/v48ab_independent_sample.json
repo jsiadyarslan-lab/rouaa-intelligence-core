@@ -1,0 +1,3543 @@
+{
+  "sample": [
+    {
+      "text": "GDP increased at an annual rate of 3.2 percent.",
+      "judgment": "TRUE_SUBJECT",
+      "candidates": [
+        {
+          "candidate": "Gross Domestic Product",
+          "vector": {
+            "event": "STRONG",
+            "measurement": "STRONG",
+            "fact": "MODERATE",
+            "event_type": "COMPATIBLE",
+            "heading": "SUPPORT",
+            "topic": "SUPPORT",
+            "position": "EARLY",
+            "matched_verb": "increased",
+            "judgment": "TRUE_SUBJECT",
+            "strong_count": 2
+          }
+        }
+      ],
+      "expected": "TRUE_SUBJECT",
+      "category": "positive"
+    },
+    {
+      "text": "Inflation accelerated to 4.1 percent year-over-year.",
+      "judgment": "TRUE_SUBJECT",
+      "candidates": [
+        {
+          "candidate": "Inflation",
+          "vector": {
+            "event": "STRONG",
+            "measurement": "STRONG",
+            "fact": "MODERATE",
+            "event_type": "COMPATIBLE",
+            "heading": "SUPPORT",
+            "topic": "SUPPORT",
+            "position": "EARLY",
+            "matched_verb": "accelerated",
+            "judgment": "TRUE_SUBJECT",
+            "strong_count": 2
+          }
+        }
+      ],
+      "expected": "TRUE_SUBJECT",
+      "category": "positive"
+    },
+    {
+      "text": "Consumer Price Index rose by 2.8 percent.",
+      "judgment": "TRUE_SUBJECT",
+      "candidates": [
+        {
+          "candidate": "Consumer Price Index",
+          "vector": {
+            "event": "STRONG",
+            "measurement": "STRONG",
+            "fact": "MODERATE",
+            "event_type": "COMPATIBLE",
+            "heading": "SUPPORT",
+            "topic": "SUPPORT",
+            "position": "EARLY",
+            "matched_verb": "rose",
+            "judgment": "TRUE_SUBJECT",
+            "strong_count": 2
+          }
+        }
+      ],
+      "expected": "TRUE_SUBJECT",
+      "category": "positive"
+    },
+    {
+      "text": "Unemployment declined to 3.5 percent in Q3.",
+      "judgment": "TRUE_SUBJECT",
+      "candidates": [
+        {
+          "candidate": "Unemployment",
+          "vector": {
+            "event": "STRONG",
+            "measurement": "STRONG",
+            "fact": "MODERATE",
+            "event_type": "COMPATIBLE",
+            "heading": "SUPPORT",
+            "topic": "SUPPORT",
+            "position": "EARLY",
+            "matched_verb": "declined",
+            "judgment": "TRUE_SUBJECT",
+            "strong_count": 2
+          }
+        }
+      ],
+      "expected": "TRUE_SUBJECT",
+      "category": "positive"
+    },
+    {
+      "text": "GDP growth slowed to 1.4 percent annually.",
+      "judgment": "TRUE_SUBJECT",
+      "candidates": [
+        {
+          "candidate": "Gross Domestic Product",
+          "vector": {
+            "event": "STRONG",
+            "measurement": "STRONG",
+            "fact": "MODERATE",
+            "event_type": "COMPATIBLE",
+            "heading": "SUPPORT",
+            "topic": "SUPPORT",
+            "position": "EARLY",
+            "matched_verb": "slowed",
+            "judgment": "TRUE_SUBJECT",
+            "strong_count": 2
+          }
+        },
+        {
+          "candidate": "GDP Growth",
+          "vector": {
+            "event": "STRONG",
+            "measurement": "STRONG",
+            "fact": "MODERATE",
+            "event_type": "COMPATIBLE",
+            "heading": "SUPPORT",
+            "topic": "SUPPORT",
+            "position": "EARLY",
+            "matched_verb": "slowed",
+            "judgment": "TRUE_SUBJECT",
+            "strong_count": 2
+          }
+        }
+      ],
+      "expected": "TRUE_SUBJECT",
+      "category": "positive"
+    },
+    {
+      "text": "Inflation eased to 1.9 percent in the latest reading.",
+      "judgment": "TRUE_SUBJECT",
+      "candidates": [
+        {
+          "candidate": "Inflation",
+          "vector": {
+            "event": "STRONG",
+            "measurement": "STRONG",
+            "fact": "MODERATE",
+            "event_type": "COMPATIBLE",
+            "heading": "SUPPORT",
+            "topic": "SUPPORT",
+            "position": "EARLY",
+            "matched_verb": "eased",
+            "judgment": "TRUE_SUBJECT",
+            "strong_count": 2
+          }
+        }
+      ],
+      "expected": "TRUE_SUBJECT",
+      "category": "positive"
+    },
+    {
+      "text": "Policy Rate maintained at 5.0 percent.",
+      "judgment": "TRUE_SUBJECT",
+      "candidates": [
+        {
+          "candidate": "Policy Rate",
+          "vector": {
+            "event": "STRONG",
+            "measurement": "STRONG",
+            "fact": "MODERATE",
+            "event_type": "NOT_PRIOR",
+            "heading": "SUPPORT",
+            "topic": "SUPPORT",
+            "position": "EARLY",
+            "matched_verb": "maintained",
+            "judgment": "TRUE_SUBJECT",
+            "strong_count": 2
+          }
+        }
+      ],
+      "expected": "TRUE_SUBJECT",
+      "category": "positive"
+    },
+    {
+      "text": "Policy Rate raised to 4.75 percent by the committee.",
+      "judgment": "TRUE_SUBJECT",
+      "candidates": [
+        {
+          "candidate": "Policy Rate",
+          "vector": {
+            "event": "STRONG",
+            "measurement": "STRONG",
+            "fact": "MODERATE",
+            "event_type": "NOT_PRIOR",
+            "heading": "SUPPORT",
+            "topic": "SUPPORT",
+            "position": "EARLY",
+            "matched_verb": "raised",
+            "judgment": "TRUE_SUBJECT",
+            "strong_count": 2
+          }
+        }
+      ],
+      "expected": "TRUE_SUBJECT",
+      "category": "positive"
+    },
+    {
+      "text": "Policy Rate cut by 50 basis points to 3.25 percent.",
+      "judgment": "TRUE_SUBJECT",
+      "candidates": [
+        {
+          "candidate": "Policy Rate",
+          "vector": {
+            "event": "STRONG",
+            "measurement": "STRONG",
+            "fact": "MODERATE",
+            "event_type": "NOT_PRIOR",
+            "heading": "SUPPORT",
+            "topic": "SUPPORT",
+            "position": "EARLY",
+            "matched_verb": "cut",
+            "judgment": "TRUE_SUBJECT",
+            "strong_count": 2
+          }
+        }
+      ],
+      "expected": "TRUE_SUBJECT",
+      "category": "positive"
+    },
+    {
+      "text": "Bank Rate held at 4.25 percent in August.",
+      "judgment": "NO_CANDIDATE",
+      "candidates": [],
+      "expected": "TRUE_SUBJECT",
+      "category": "positive"
+    },
+    {
+      "text": "Foreign exchange turnover surged to record levels.",
+      "judgment": "TRUE_SUBJECT",
+      "candidates": [
+        {
+          "candidate": "Foreign Exchange",
+          "vector": {
+            "event": "STRONG",
+            "measurement": "INSUFFICIENT",
+            "fact": "MODERATE",
+            "event_type": "COMPATIBLE",
+            "heading": "SUPPORT",
+            "topic": "SUPPORT",
+            "position": "EARLY",
+            "matched_verb": "turnover",
+            "judgment": "TRUE_SUBJECT",
+            "strong_count": 1
+          }
+        }
+      ],
+      "expected": "TRUE_SUBJECT",
+      "category": "positive"
+    },
+    {
+      "text": "FX turnover reached $5.2 trillion in April.",
+      "judgment": "TRUE_SUBJECT",
+      "candidates": [
+        {
+          "candidate": "Foreign Exchange",
+          "vector": {
+            "event": "STRONG",
+            "measurement": "STRONG",
+            "fact": "MODERATE",
+            "event_type": "COMPATIBLE",
+            "heading": "SUPPORT",
+            "topic": "SUPPORT",
+            "position": "EARLY",
+            "matched_verb": "turnover",
+            "judgment": "TRUE_SUBJECT",
+            "strong_count": 2
+          }
+        }
+      ],
+      "expected": "TRUE_SUBJECT",
+      "category": "positive"
+    },
+    {
+      "text": "Foreign exchange volumes climbed 15 percent.",
+      "judgment": "AMBIGUOUS",
+      "candidates": [
+        {
+          "candidate": "Foreign Exchange",
+          "vector": {
+            "event": "WEAK",
+            "measurement": "STRONG",
+            "fact": "MODERATE",
+            "event_type": "COMPATIBLE",
+            "heading": "SUPPORT",
+            "topic": "SUPPORT",
+            "position": "EARLY",
+            "matched_verb": "",
+            "judgment": "AMBIGUOUS",
+            "strong_count": 1
+          }
+        }
+      ],
+      "expected": "TRUE_SUBJECT",
+      "category": "positive"
+    },
+    {
+      "text": "Penalty imposed on firm for data reporting failures.",
+      "judgment": "TRUE_SUBJECT",
+      "candidates": [
+        {
+          "candidate": "Penalty",
+          "vector": {
+            "event": "STRONG",
+            "measurement": "INSUFFICIENT",
+            "fact": "MODERATE",
+            "event_type": "COMPATIBLE",
+            "heading": "SUPPORT",
+            "topic": "SUPPORT",
+            "position": "EARLY",
+            "matched_verb": "imposed",
+            "judgment": "TRUE_SUBJECT",
+            "strong_count": 1
+          }
+        }
+      ],
+      "expected": "TRUE_SUBJECT",
+      "category": "positive"
+    },
+    {
+      "text": "Financial penalty of £2.5 million levied.",
+      "judgment": "AMBIGUOUS",
+      "candidates": [
+        {
+          "candidate": "Penalty",
+          "vector": {
+            "event": "WEAK",
+            "measurement": "STRONG",
+            "fact": "MODERATE",
+            "event_type": "COMPATIBLE",
+            "heading": "SUPPORT",
+            "topic": "SUPPORT",
+            "position": "EARLY",
+            "matched_verb": "",
+            "judgment": "AMBIGUOUS",
+            "strong_count": 1
+          }
+        }
+      ],
+      "expected": "TRUE_SUBJECT",
+      "category": "positive"
+    },
+    {
+      "text": "Penalty reached £500,000 for compliance breach.",
+      "judgment": "TRUE_SUBJECT",
+      "candidates": [
+        {
+          "candidate": "Penalty",
+          "vector": {
+            "event": "STRONG",
+            "measurement": "INSUFFICIENT",
+            "fact": "MODERATE",
+            "event_type": "COMPATIBLE",
+            "heading": "SUPPORT",
+            "topic": "SUPPORT",
+            "position": "EARLY",
+            "matched_verb": "reached",
+            "judgment": "TRUE_SUBJECT",
+            "strong_count": 1
+          }
+        }
+      ],
+      "expected": "TRUE_SUBJECT",
+      "category": "positive"
+    },
+    {
+      "text": "Settlement reached with regulator for $3 million.",
+      "judgment": "TRUE_SUBJECT",
+      "candidates": [
+        {
+          "candidate": "Settlement",
+          "vector": {
+            "event": "STRONG",
+            "measurement": "STRONG",
+            "fact": "MODERATE",
+            "event_type": "COMPATIBLE",
+            "heading": "SUPPORT",
+            "topic": "SUPPORT",
+            "position": "EARLY",
+            "matched_verb": "reached",
+            "judgment": "TRUE_SUBJECT",
+            "strong_count": 2
+          }
+        }
+      ],
+      "expected": "TRUE_SUBJECT",
+      "category": "positive"
+    },
+    {
+      "text": "GDP expanded by 2.7 percent in the fourth quarter.",
+      "judgment": "TRUE_SUBJECT",
+      "candidates": [
+        {
+          "candidate": "Gross Domestic Product",
+          "vector": {
+            "event": "STRONG",
+            "measurement": "STRONG",
+            "fact": "MODERATE",
+            "event_type": "COMPATIBLE",
+            "heading": "SUPPORT",
+            "topic": "SUPPORT",
+            "position": "EARLY",
+            "matched_verb": "expanded",
+            "judgment": "TRUE_SUBJECT",
+            "strong_count": 2
+          }
+        }
+      ],
+      "expected": "TRUE_SUBJECT",
+      "category": "positive"
+    },
+    {
+      "text": "GDP contracted by 0.3 percent in Q1.",
+      "judgment": "TRUE_SUBJECT",
+      "candidates": [
+        {
+          "candidate": "Gross Domestic Product",
+          "vector": {
+            "event": "STRONG",
+            "measurement": "STRONG",
+            "fact": "MODERATE",
+            "event_type": "COMPATIBLE",
+            "heading": "SUPPORT",
+            "topic": "SUPPORT",
+            "position": "EARLY",
+            "matched_verb": "contracted",
+            "judgment": "TRUE_SUBJECT",
+            "strong_count": 2
+          }
+        }
+      ],
+      "expected": "TRUE_SUBJECT",
+      "category": "positive"
+    },
+    {
+      "text": "Inflation rebounded to 3.5 percent from 3.1.",
+      "judgment": "TRUE_SUBJECT",
+      "candidates": [
+        {
+          "candidate": "Inflation",
+          "vector": {
+            "event": "STRONG",
+            "measurement": "STRONG",
+            "fact": "MODERATE",
+            "event_type": "COMPATIBLE",
+            "heading": "SUPPORT",
+            "topic": "SUPPORT",
+            "position": "EARLY",
+            "matched_verb": "rebounded",
+            "judgment": "TRUE_SUBJECT",
+            "strong_count": 2
+          }
+        }
+      ],
+      "expected": "TRUE_SUBJECT",
+      "category": "positive"
+    },
+    {
+      "text": "CPI increased 2.0 percent from the prior year.",
+      "judgment": "TRUE_SUBJECT",
+      "candidates": [
+        {
+          "candidate": "Consumer Price Index",
+          "vector": {
+            "event": "STRONG",
+            "measurement": "STRONG",
+            "fact": "MODERATE",
+            "event_type": "COMPATIBLE",
+            "heading": "SUPPORT",
+            "topic": "SUPPORT",
+            "position": "EARLY",
+            "matched_verb": "increased",
+            "judgment": "TRUE_SUBJECT",
+            "strong_count": 2
+          }
+        }
+      ],
+      "expected": "TRUE_SUBJECT",
+      "category": "positive"
+    },
+    {
+      "text": "Unemployment fell to a record low of 3.2 percent.",
+      "judgment": "TRUE_SUBJECT",
+      "candidates": [
+        {
+          "candidate": "Unemployment",
+          "vector": {
+            "event": "STRONG",
+            "measurement": "STRONG",
+            "fact": "MODERATE",
+            "event_type": "COMPATIBLE",
+            "heading": "SUPPORT",
+            "topic": "SUPPORT",
+            "position": "EARLY",
+            "matched_verb": "fell",
+            "judgment": "TRUE_SUBJECT",
+            "strong_count": 2
+          }
+        }
+      ],
+      "expected": "TRUE_SUBJECT",
+      "category": "positive"
+    },
+    {
+      "text": "Policy Rate increased to 5.5 percent effective immediately.",
+      "judgment": "TRUE_SUBJECT",
+      "candidates": [
+        {
+          "candidate": "Policy Rate",
+          "vector": {
+            "event": "STRONG",
+            "measurement": "STRONG",
+            "fact": "MODERATE",
+            "event_type": "NOT_PRIOR",
+            "heading": "SUPPORT",
+            "topic": "SUPPORT",
+            "position": "EARLY",
+            "matched_verb": "increased",
+            "judgment": "TRUE_SUBJECT",
+            "strong_count": 2
+          }
+        }
+      ],
+      "expected": "TRUE_SUBJECT",
+      "category": "positive"
+    },
+    {
+      "text": "Policy Rate reduced to 2.75 percent amid slowdown.",
+      "judgment": "TRUE_SUBJECT",
+      "candidates": [
+        {
+          "candidate": "Policy Rate",
+          "vector": {
+            "event": "STRONG",
+            "measurement": "STRONG",
+            "fact": "MODERATE",
+            "event_type": "NOT_PRIOR",
+            "heading": "SUPPORT",
+            "topic": "SUPPORT",
+            "position": "EARLY",
+            "matched_verb": "reduced",
+            "judgment": "TRUE_SUBJECT",
+            "strong_count": 2
+          }
+        }
+      ],
+      "expected": "TRUE_SUBJECT",
+      "category": "positive"
+    },
+    {
+      "text": "Foreign exchange market turnover stood at $4.8 trillion.",
+      "judgment": "TRUE_SUBJECT",
+      "candidates": [
+        {
+          "candidate": "Foreign Exchange",
+          "vector": {
+            "event": "STRONG",
+            "measurement": "STRONG",
+            "fact": "MODERATE",
+            "event_type": "COMPATIBLE",
+            "heading": "SUPPORT",
+            "topic": "SUPPORT",
+            "position": "EARLY",
+            "matched_verb": "turnover",
+            "judgment": "TRUE_SUBJECT",
+            "strong_count": 2
+          }
+        }
+      ],
+      "expected": "TRUE_SUBJECT",
+      "category": "positive"
+    },
+    {
+      "text": "FX daily turnover dropped 8 percent from October.",
+      "judgment": "TRUE_SUBJECT",
+      "candidates": [
+        {
+          "candidate": "Foreign Exchange",
+          "vector": {
+            "event": "STRONG",
+            "measurement": "STRONG",
+            "fact": "MODERATE",
+            "event_type": "COMPATIBLE",
+            "heading": "SUPPORT",
+            "topic": "SUPPORT",
+            "position": "EARLY",
+            "matched_verb": "turnover",
+            "judgment": "TRUE_SUBJECT",
+            "strong_count": 2
+          }
+        }
+      ],
+      "expected": "TRUE_SUBJECT",
+      "category": "positive"
+    },
+    {
+      "text": "Penalty of $1.2 billion imposed for violations.",
+      "judgment": "TRUE_SUBJECT",
+      "candidates": [
+        {
+          "candidate": "Penalty",
+          "vector": {
+            "event": "STRONG",
+            "measurement": "STRONG",
+            "fact": "MODERATE",
+            "event_type": "COMPATIBLE",
+            "heading": "SUPPORT",
+            "topic": "SUPPORT",
+            "position": "EARLY",
+            "matched_verb": "imposed",
+            "judgment": "TRUE_SUBJECT",
+            "strong_count": 2
+          }
+        }
+      ],
+      "expected": "TRUE_SUBJECT",
+      "category": "positive"
+    },
+    {
+      "text": "Settlement amount reached €50 million.",
+      "judgment": "TRUE_SUBJECT",
+      "candidates": [
+        {
+          "candidate": "Settlement",
+          "vector": {
+            "event": "STRONG",
+            "measurement": "STRONG",
+            "fact": "MODERATE",
+            "event_type": "COMPATIBLE",
+            "heading": "SUPPORT",
+            "topic": "SUPPORT",
+            "position": "EARLY",
+            "matched_verb": "reached",
+            "judgment": "TRUE_SUBJECT",
+            "strong_count": 2
+          }
+        }
+      ],
+      "expected": "TRUE_SUBJECT",
+      "category": "positive"
+    },
+    {
+      "text": "GDP grew 3.8 percent in the second quarter.",
+      "judgment": "TRUE_SUBJECT",
+      "candidates": [
+        {
+          "candidate": "Gross Domestic Product",
+          "vector": {
+            "event": "STRONG",
+            "measurement": "STRONG",
+            "fact": "MODERATE",
+            "event_type": "COMPATIBLE",
+            "heading": "SUPPORT",
+            "topic": "SUPPORT",
+            "position": "EARLY",
+            "matched_verb": "grew",
+            "judgment": "TRUE_SUBJECT",
+            "strong_count": 2
+          }
+        }
+      ],
+      "expected": "TRUE_SUBJECT",
+      "category": "positive"
+    },
+    {
+      "text": "Inflation stabilized at 2.0 percent.",
+      "judgment": "AMBIGUOUS",
+      "candidates": [
+        {
+          "candidate": "Inflation",
+          "vector": {
+            "event": "WEAK",
+            "measurement": "STRONG",
+            "fact": "MODERATE",
+            "event_type": "COMPATIBLE",
+            "heading": "SUPPORT",
+            "topic": "SUPPORT",
+            "position": "EARLY",
+            "matched_verb": "",
+            "judgment": "AMBIGUOUS",
+            "strong_count": 1
+          }
+        }
+      ],
+      "expected": "TRUE_SUBJECT",
+      "category": "positive"
+    },
+    {
+      "text": "CPI accelerated to 4.2 percent.",
+      "judgment": "TRUE_SUBJECT",
+      "candidates": [
+        {
+          "candidate": "Consumer Price Index",
+          "vector": {
+            "event": "STRONG",
+            "measurement": "STRONG",
+            "fact": "MODERATE",
+            "event_type": "COMPATIBLE",
+            "heading": "SUPPORT",
+            "topic": "SUPPORT",
+            "position": "EARLY",
+            "matched_verb": "accelerated",
+            "judgment": "TRUE_SUBJECT",
+            "strong_count": 2
+          }
+        }
+      ],
+      "expected": "TRUE_SUBJECT",
+      "category": "positive"
+    },
+    {
+      "text": "Unemployment increased to 5.1 percent.",
+      "judgment": "TRUE_SUBJECT",
+      "candidates": [
+        {
+          "candidate": "Unemployment",
+          "vector": {
+            "event": "STRONG",
+            "measurement": "STRONG",
+            "fact": "MODERATE",
+            "event_type": "COMPATIBLE",
+            "heading": "SUPPORT",
+            "topic": "SUPPORT",
+            "position": "EARLY",
+            "matched_verb": "increased",
+            "judgment": "TRUE_SUBJECT",
+            "strong_count": 2
+          }
+        }
+      ],
+      "expected": "TRUE_SUBJECT",
+      "category": "positive"
+    },
+    {
+      "text": "Policy Rate unchanged at 4.0 percent.",
+      "judgment": "TRUE_SUBJECT",
+      "candidates": [
+        {
+          "candidate": "Policy Rate",
+          "vector": {
+            "event": "STRONG",
+            "measurement": "STRONG",
+            "fact": "MODERATE",
+            "event_type": "NOT_PRIOR",
+            "heading": "SUPPORT",
+            "topic": "SUPPORT",
+            "position": "EARLY",
+            "matched_verb": "unchanged",
+            "judgment": "TRUE_SUBJECT",
+            "strong_count": 2
+          }
+        }
+      ],
+      "expected": "TRUE_SUBJECT",
+      "category": "positive"
+    },
+    {
+      "text": "Policy Rate lowered by 25 basis points.",
+      "judgment": "AMBIGUOUS",
+      "candidates": [
+        {
+          "candidate": "Policy Rate",
+          "vector": {
+            "event": "WEAK",
+            "measurement": "INSUFFICIENT",
+            "fact": "MODERATE",
+            "event_type": "NOT_PRIOR",
+            "heading": "SUPPORT",
+            "topic": "SUPPORT",
+            "position": "EARLY",
+            "matched_verb": "",
+            "judgment": "AMBIGUOUS",
+            "strong_count": 0
+          }
+        }
+      ],
+      "expected": "TRUE_SUBJECT",
+      "category": "positive"
+    },
+    {
+      "text": "Foreign exchange turnover declined 3 percent.",
+      "judgment": "TRUE_SUBJECT",
+      "candidates": [
+        {
+          "candidate": "Foreign Exchange",
+          "vector": {
+            "event": "STRONG",
+            "measurement": "STRONG",
+            "fact": "MODERATE",
+            "event_type": "COMPATIBLE",
+            "heading": "SUPPORT",
+            "topic": "SUPPORT",
+            "position": "EARLY",
+            "matched_verb": "turnover",
+            "judgment": "TRUE_SUBJECT",
+            "strong_count": 2
+          }
+        }
+      ],
+      "expected": "TRUE_SUBJECT",
+      "category": "positive"
+    },
+    {
+      "text": "Penalty assessed at $750,000 for late filing.",
+      "judgment": "AMBIGUOUS",
+      "candidates": [
+        {
+          "candidate": "Penalty",
+          "vector": {
+            "event": "WEAK",
+            "measurement": "INSUFFICIENT",
+            "fact": "MODERATE",
+            "event_type": "COMPATIBLE",
+            "heading": "SUPPORT",
+            "topic": "SUPPORT",
+            "position": "EARLY",
+            "matched_verb": "",
+            "judgment": "AMBIGUOUS",
+            "strong_count": 0
+          }
+        }
+      ],
+      "expected": "TRUE_SUBJECT",
+      "category": "positive"
+    },
+    {
+      "text": "GDP decreased 1.2 percent in the third quarter.",
+      "judgment": "TRUE_SUBJECT",
+      "candidates": [
+        {
+          "candidate": "Gross Domestic Product",
+          "vector": {
+            "event": "STRONG",
+            "measurement": "STRONG",
+            "fact": "MODERATE",
+            "event_type": "COMPATIBLE",
+            "heading": "SUPPORT",
+            "topic": "SUPPORT",
+            "position": "EARLY",
+            "matched_verb": "decreased",
+            "judgment": "TRUE_SUBJECT",
+            "strong_count": 2
+          }
+        }
+      ],
+      "expected": "TRUE_SUBJECT",
+      "category": "positive"
+    },
+    {
+      "text": "Inflation reached 5.0 percent, the highest in a decade.",
+      "judgment": "AMBIGUOUS",
+      "candidates": [
+        {
+          "candidate": "Inflation",
+          "vector": {
+            "event": "WEAK",
+            "measurement": "STRONG",
+            "fact": "MODERATE",
+            "event_type": "COMPATIBLE",
+            "heading": "SUPPORT",
+            "topic": "SUPPORT",
+            "position": "EARLY",
+            "matched_verb": "",
+            "judgment": "AMBIGUOUS",
+            "strong_count": 1
+          }
+        }
+      ],
+      "expected": "TRUE_SUBJECT",
+      "category": "positive"
+    },
+    {
+      "text": "CPI fell to 1.5 percent from 2.0.",
+      "judgment": "TRUE_SUBJECT",
+      "candidates": [
+        {
+          "candidate": "Consumer Price Index",
+          "vector": {
+            "event": "STRONG",
+            "measurement": "STRONG",
+            "fact": "MODERATE",
+            "event_type": "COMPATIBLE",
+            "heading": "SUPPORT",
+            "topic": "SUPPORT",
+            "position": "EARLY",
+            "matched_verb": "fell",
+            "judgment": "TRUE_SUBJECT",
+            "strong_count": 2
+          }
+        }
+      ],
+      "expected": "TRUE_SUBJECT",
+      "category": "positive"
+    },
+    {
+      "text": "Unemployment stood at 4.8 percent in May.",
+      "judgment": "AMBIGUOUS",
+      "candidates": [
+        {
+          "candidate": "Unemployment",
+          "vector": {
+            "event": "WEAK",
+            "measurement": "STRONG",
+            "fact": "MODERATE",
+            "event_type": "COMPATIBLE",
+            "heading": "SUPPORT",
+            "topic": "SUPPORT",
+            "position": "EARLY",
+            "matched_verb": "",
+            "judgment": "AMBIGUOUS",
+            "strong_count": 1
+          }
+        }
+      ],
+      "expected": "TRUE_SUBJECT",
+      "category": "positive"
+    },
+    {
+      "text": "Policy Rate set at 3.5 percent by unanimous vote.",
+      "judgment": "TRUE_SUBJECT",
+      "candidates": [
+        {
+          "candidate": "Policy Rate",
+          "vector": {
+            "event": "STRONG",
+            "measurement": "STRONG",
+            "fact": "MODERATE",
+            "event_type": "NOT_PRIOR",
+            "heading": "SUPPORT",
+            "topic": "SUPPORT",
+            "position": "EARLY",
+            "matched_verb": "set",
+            "judgment": "TRUE_SUBJECT",
+            "strong_count": 2
+          }
+        }
+      ],
+      "expected": "TRUE_SUBJECT",
+      "category": "positive"
+    },
+    {
+      "text": "FX turnover totaled $4.1 trillion in October survey.",
+      "judgment": "TRUE_SUBJECT",
+      "candidates": [
+        {
+          "candidate": "Foreign Exchange",
+          "vector": {
+            "event": "STRONG",
+            "measurement": "STRONG",
+            "fact": "MODERATE",
+            "event_type": "COMPATIBLE",
+            "heading": "SUPPORT",
+            "topic": "SUPPORT",
+            "position": "EARLY",
+            "matched_verb": "turnover",
+            "judgment": "TRUE_SUBJECT",
+            "strong_count": 2
+          }
+        }
+      ],
+      "expected": "TRUE_SUBJECT",
+      "category": "positive"
+    },
+    {
+      "text": "Penalty finalized at £1.8 million for misconduct.",
+      "judgment": "AMBIGUOUS",
+      "candidates": [
+        {
+          "candidate": "Penalty",
+          "vector": {
+            "event": "WEAK",
+            "measurement": "STRONG",
+            "fact": "MODERATE",
+            "event_type": "COMPATIBLE",
+            "heading": "SUPPORT",
+            "topic": "SUPPORT",
+            "position": "EARLY",
+            "matched_verb": "",
+            "judgment": "AMBIGUOUS",
+            "strong_count": 1
+          }
+        }
+      ],
+      "expected": "TRUE_SUBJECT",
+      "category": "positive"
+    },
+    {
+      "text": "GDP advanced 2.9 percent for the full year.",
+      "judgment": "AMBIGUOUS",
+      "candidates": [
+        {
+          "candidate": "Gross Domestic Product",
+          "vector": {
+            "event": "WEAK",
+            "measurement": "STRONG",
+            "fact": "MODERATE",
+            "event_type": "COMPATIBLE",
+            "heading": "SUPPORT",
+            "topic": "SUPPORT",
+            "position": "EARLY",
+            "matched_verb": "",
+            "judgment": "AMBIGUOUS",
+            "strong_count": 1
+          }
+        }
+      ],
+      "expected": "TRUE_SUBJECT",
+      "category": "positive"
+    },
+    {
+      "text": "Inflation dropped to 1.7 percent, below target.",
+      "judgment": "TRUE_SUBJECT",
+      "candidates": [
+        {
+          "candidate": "Inflation",
+          "vector": {
+            "event": "STRONG",
+            "measurement": "STRONG",
+            "fact": "MODERATE",
+            "event_type": "COMPATIBLE",
+            "heading": "SUPPORT",
+            "topic": "SUPPORT",
+            "position": "EARLY",
+            "matched_verb": "dropped",
+            "judgment": "TRUE_SUBJECT",
+            "strong_count": 2
+          }
+        }
+      ],
+      "expected": "TRUE_SUBJECT",
+      "category": "positive"
+    },
+    {
+      "text": "CPI rose 3.8 percent annually.",
+      "judgment": "TRUE_SUBJECT",
+      "candidates": [
+        {
+          "candidate": "Consumer Price Index",
+          "vector": {
+            "event": "STRONG",
+            "measurement": "STRONG",
+            "fact": "MODERATE",
+            "event_type": "COMPATIBLE",
+            "heading": "SUPPORT",
+            "topic": "SUPPORT",
+            "position": "EARLY",
+            "matched_verb": "rose",
+            "judgment": "TRUE_SUBJECT",
+            "strong_count": 2
+          }
+        }
+      ],
+      "expected": "TRUE_SUBJECT",
+      "category": "positive"
+    },
+    {
+      "text": "Unemployment improved to 3.9 percent.",
+      "judgment": "AMBIGUOUS",
+      "candidates": [
+        {
+          "candidate": "Unemployment",
+          "vector": {
+            "event": "WEAK",
+            "measurement": "STRONG",
+            "fact": "MODERATE",
+            "event_type": "COMPATIBLE",
+            "heading": "SUPPORT",
+            "topic": "SUPPORT",
+            "position": "EARLY",
+            "matched_verb": "",
+            "judgment": "AMBIGUOUS",
+            "strong_count": 1
+          }
+        }
+      ],
+      "expected": "TRUE_SUBJECT",
+      "category": "positive"
+    },
+    {
+      "text": "Policy Rate adjusted to 4.5 percent.",
+      "judgment": "TRUE_SUBJECT",
+      "candidates": [
+        {
+          "candidate": "Policy Rate",
+          "vector": {
+            "event": "STRONG",
+            "measurement": "STRONG",
+            "fact": "MODERATE",
+            "event_type": "NOT_PRIOR",
+            "heading": "SUPPORT",
+            "topic": "SUPPORT",
+            "position": "EARLY",
+            "matched_verb": "adjusted",
+            "judgment": "TRUE_SUBJECT",
+            "strong_count": 2
+          }
+        }
+      ],
+      "expected": "TRUE_SUBJECT",
+      "category": "positive"
+    },
+    {
+      "text": "Foreign exchange turnover peaked at $6.1 trillion.",
+      "judgment": "TRUE_SUBJECT",
+      "candidates": [
+        {
+          "candidate": "Foreign Exchange",
+          "vector": {
+            "event": "STRONG",
+            "measurement": "STRONG",
+            "fact": "MODERATE",
+            "event_type": "COMPATIBLE",
+            "heading": "SUPPORT",
+            "topic": "SUPPORT",
+            "position": "EARLY",
+            "matched_verb": "turnover",
+            "judgment": "TRUE_SUBJECT",
+            "strong_count": 2
+          }
+        }
+      ],
+      "expected": "TRUE_SUBJECT",
+      "category": "positive"
+    },
+    {
+      "text": "Penalty issued for $2.3 million settlement.",
+      "judgment": "TRUE_SUBJECT",
+      "candidates": [
+        {
+          "candidate": "Penalty",
+          "vector": {
+            "event": "STRONG",
+            "measurement": "STRONG",
+            "fact": "MODERATE",
+            "event_type": "COMPATIBLE",
+            "heading": "SUPPORT",
+            "topic": "SUPPORT",
+            "position": "EARLY",
+            "matched_verb": "issued",
+            "judgment": "TRUE_SUBJECT",
+            "strong_count": 2
+          }
+        },
+        {
+          "candidate": "Settlement",
+          "vector": {
+            "event": "STRONG",
+            "measurement": "STRONG",
+            "fact": "MODERATE",
+            "event_type": "COMPATIBLE",
+            "heading": "SUPPORT",
+            "topic": "SUPPORT",
+            "position": "EARLY",
+            "matched_verb": "issued",
+            "judgment": "TRUE_SUBJECT",
+            "strong_count": 2
+          }
+        }
+      ],
+      "expected": "TRUE_SUBJECT",
+      "category": "positive"
+    },
+    {
+      "text": "Housing Starts Report. CPI is mentioned as background.",
+      "judgment": "AMBIGUOUS",
+      "candidates": [
+        {
+          "candidate": "Consumer Price Index",
+          "vector": {
+            "event": "WEAK",
+            "measurement": "INSUFFICIENT",
+            "fact": "MODERATE",
+            "event_type": "COMPATIBLE",
+            "heading": "SUPPORT",
+            "topic": "SUPPORT",
+            "position": "EARLY",
+            "matched_verb": "",
+            "judgment": "AMBIGUOUS",
+            "strong_count": 0
+          }
+        }
+      ],
+      "expected": "UNKNOWN",
+      "category": "negative"
+    },
+    {
+      "text": "Manufacturing Index. Unemployment cited as economic factor.",
+      "judgment": "AMBIGUOUS",
+      "candidates": [
+        {
+          "candidate": "Unemployment",
+          "vector": {
+            "event": "WEAK",
+            "measurement": "INSUFFICIENT",
+            "fact": "MODERATE",
+            "event_type": "COMPATIBLE",
+            "heading": "SUPPORT",
+            "topic": "SUPPORT",
+            "position": "EARLY",
+            "matched_verb": "",
+            "judgment": "AMBIGUOUS",
+            "strong_count": 0
+          }
+        }
+      ],
+      "expected": "UNKNOWN",
+      "category": "negative"
+    },
+    {
+      "text": "Tourism Statistics. GDP appeared in economic comparison.",
+      "judgment": "AMBIGUOUS",
+      "candidates": [
+        {
+          "candidate": "Gross Domestic Product",
+          "vector": {
+            "event": "WEAK",
+            "measurement": "INSUFFICIENT",
+            "fact": "MODERATE",
+            "event_type": "COMPATIBLE",
+            "heading": "SUPPORT",
+            "topic": "SUPPORT",
+            "position": "EARLY",
+            "matched_verb": "",
+            "judgment": "AMBIGUOUS",
+            "strong_count": 0
+          }
+        }
+      ],
+      "expected": "UNKNOWN",
+      "category": "negative"
+    },
+    {
+      "text": "Retail Sales Report. Inflation noted as backdrop.",
+      "judgment": "AMBIGUOUS",
+      "candidates": [
+        {
+          "candidate": "Inflation",
+          "vector": {
+            "event": "WEAK",
+            "measurement": "INSUFFICIENT",
+            "fact": "MODERATE",
+            "event_type": "COMPATIBLE",
+            "heading": "SUPPORT",
+            "topic": "SUPPORT",
+            "position": "EARLY",
+            "matched_verb": "",
+            "judgment": "AMBIGUOUS",
+            "strong_count": 0
+          }
+        }
+      ],
+      "expected": "UNKNOWN",
+      "category": "negative"
+    },
+    {
+      "text": "Trade Balance Data. Policy Rate referenced in analysis.",
+      "judgment": "AMBIGUOUS",
+      "candidates": [
+        {
+          "candidate": "Policy Rate",
+          "vector": {
+            "event": "WEAK",
+            "measurement": "INSUFFICIENT",
+            "fact": "MODERATE",
+            "event_type": "NOT_PRIOR",
+            "heading": "SUPPORT",
+            "topic": "SUPPORT",
+            "position": "EARLY",
+            "matched_verb": "",
+            "judgment": "AMBIGUOUS",
+            "strong_count": 0
+          }
+        }
+      ],
+      "expected": "UNKNOWN",
+      "category": "negative"
+    },
+    {
+      "text": "Agricultural Output. CPI compared to food prices.",
+      "judgment": "AMBIGUOUS",
+      "candidates": [
+        {
+          "candidate": "Consumer Price Index",
+          "vector": {
+            "event": "WEAK",
+            "measurement": "INSUFFICIENT",
+            "fact": "MODERATE",
+            "event_type": "COMPATIBLE",
+            "heading": "SUPPORT",
+            "topic": "SUPPORT",
+            "position": "EARLY",
+            "matched_verb": "",
+            "judgment": "AMBIGUOUS",
+            "strong_count": 0
+          }
+        }
+      ],
+      "expected": "UNKNOWN",
+      "category": "negative"
+    },
+    {
+      "text": "Energy Production Report. GDP growth mentioned in overview.",
+      "judgment": "AMBIGUOUS",
+      "candidates": [
+        {
+          "candidate": "Gross Domestic Product",
+          "vector": {
+            "event": "WEAK",
+            "measurement": "INSUFFICIENT",
+            "fact": "MODERATE",
+            "event_type": "COMPATIBLE",
+            "heading": "SUPPORT",
+            "topic": "SUPPORT",
+            "position": "EARLY",
+            "matched_verb": "",
+            "judgment": "AMBIGUOUS",
+            "strong_count": 0
+          }
+        },
+        {
+          "candidate": "GDP Growth",
+          "vector": {
+            "event": "WEAK",
+            "measurement": "INSUFFICIENT",
+            "fact": "MODERATE",
+            "event_type": "COMPATIBLE",
+            "heading": "SUPPORT",
+            "topic": "SUPPORT",
+            "position": "EARLY",
+            "matched_verb": "",
+            "judgment": "AMBIGUOUS",
+            "strong_count": 0
+          }
+        }
+      ],
+      "expected": "UNKNOWN",
+      "category": "negative"
+    },
+    {
+      "text": "Construction Spending. Inflation referenced in context.",
+      "judgment": "AMBIGUOUS",
+      "candidates": [
+        {
+          "candidate": "Inflation",
+          "vector": {
+            "event": "WEAK",
+            "measurement": "INSUFFICIENT",
+            "fact": "MODERATE",
+            "event_type": "COMPATIBLE",
+            "heading": "SUPPORT",
+            "topic": "SUPPORT",
+            "position": "EARLY",
+            "matched_verb": "",
+            "judgment": "AMBIGUOUS",
+            "strong_count": 0
+          }
+        }
+      ],
+      "expected": "UNKNOWN",
+      "category": "negative"
+    },
+    {
+      "text": "Transportation Statistics. Unemployment noted in summary.",
+      "judgment": "AMBIGUOUS",
+      "candidates": [
+        {
+          "candidate": "Unemployment",
+          "vector": {
+            "event": "WEAK",
+            "measurement": "INSUFFICIENT",
+            "fact": "MODERATE",
+            "event_type": "COMPATIBLE",
+            "heading": "SUPPORT",
+            "topic": "SUPPORT",
+            "position": "EARLY",
+            "matched_verb": "",
+            "judgment": "AMBIGUOUS",
+            "strong_count": 0
+          }
+        }
+      ],
+      "expected": "UNKNOWN",
+      "category": "negative"
+    },
+    {
+      "text": "Health Expenditure Report. GDP compared to health spending.",
+      "judgment": "AMBIGUOUS",
+      "candidates": [
+        {
+          "candidate": "Gross Domestic Product",
+          "vector": {
+            "event": "WEAK",
+            "measurement": "INSUFFICIENT",
+            "fact": "MODERATE",
+            "event_type": "COMPATIBLE",
+            "heading": "SUPPORT",
+            "topic": "SUPPORT",
+            "position": "EARLY",
+            "matched_verb": "",
+            "judgment": "AMBIGUOUS",
+            "strong_count": 0
+          }
+        }
+      ],
+      "expected": "UNKNOWN",
+      "category": "negative"
+    },
+    {
+      "text": "Education Statistics. Policy Rate mentioned in outlook.",
+      "judgment": "AMBIGUOUS",
+      "candidates": [
+        {
+          "candidate": "Policy Rate",
+          "vector": {
+            "event": "WEAK",
+            "measurement": "INSUFFICIENT",
+            "fact": "MODERATE",
+            "event_type": "NOT_PRIOR",
+            "heading": "SUPPORT",
+            "topic": "SUPPORT",
+            "position": "EARLY",
+            "matched_verb": "",
+            "judgment": "AMBIGUOUS",
+            "strong_count": 0
+          }
+        }
+      ],
+      "expected": "UNKNOWN",
+      "category": "negative"
+    },
+    {
+      "text": "Mining Sector Report. CPI cited as industry factor.",
+      "judgment": "AMBIGUOUS",
+      "candidates": [
+        {
+          "candidate": "Consumer Price Index",
+          "vector": {
+            "event": "WEAK",
+            "measurement": "INSUFFICIENT",
+            "fact": "MODERATE",
+            "event_type": "COMPATIBLE",
+            "heading": "SUPPORT",
+            "topic": "SUPPORT",
+            "position": "EARLY",
+            "matched_verb": "",
+            "judgment": "AMBIGUOUS",
+            "strong_count": 0
+          }
+        }
+      ],
+      "expected": "UNKNOWN",
+      "category": "negative"
+    },
+    {
+      "text": "Patent Statistics. GDP noted in economic overview.",
+      "judgment": "AMBIGUOUS",
+      "candidates": [
+        {
+          "candidate": "Gross Domestic Product",
+          "vector": {
+            "event": "WEAK",
+            "measurement": "INSUFFICIENT",
+            "fact": "MODERATE",
+            "event_type": "COMPATIBLE",
+            "heading": "SUPPORT",
+            "topic": "SUPPORT",
+            "position": "EARLY",
+            "matched_verb": "",
+            "judgment": "AMBIGUOUS",
+            "strong_count": 0
+          }
+        }
+      ],
+      "expected": "UNKNOWN",
+      "category": "negative"
+    },
+    {
+      "text": "Population Census. Inflation referenced as indicator.",
+      "judgment": "AMBIGUOUS",
+      "candidates": [
+        {
+          "candidate": "Inflation",
+          "vector": {
+            "event": "WEAK",
+            "measurement": "INSUFFICIENT",
+            "fact": "MODERATE",
+            "event_type": "COMPATIBLE",
+            "heading": "SUPPORT",
+            "topic": "SUPPORT",
+            "position": "EARLY",
+            "matched_verb": "",
+            "judgment": "AMBIGUOUS",
+            "strong_count": 0
+          }
+        }
+      ],
+      "expected": "UNKNOWN",
+      "category": "negative"
+    },
+    {
+      "text": "Crime Statistics. Unemployment cited as social factor.",
+      "judgment": "AMBIGUOUS",
+      "candidates": [
+        {
+          "candidate": "Unemployment",
+          "vector": {
+            "event": "WEAK",
+            "measurement": "INSUFFICIENT",
+            "fact": "MODERATE",
+            "event_type": "COMPATIBLE",
+            "heading": "SUPPORT",
+            "topic": "SUPPORT",
+            "position": "EARLY",
+            "matched_verb": "",
+            "judgment": "AMBIGUOUS",
+            "strong_count": 0
+          }
+        }
+      ],
+      "expected": "UNKNOWN",
+      "category": "negative"
+    },
+    {
+      "text": "Immigration Data. GDP mentioned in economic context.",
+      "judgment": "AMBIGUOUS",
+      "candidates": [
+        {
+          "candidate": "Gross Domestic Product",
+          "vector": {
+            "event": "WEAK",
+            "measurement": "INSUFFICIENT",
+            "fact": "MODERATE",
+            "event_type": "COMPATIBLE",
+            "heading": "SUPPORT",
+            "topic": "SUPPORT",
+            "position": "EARLY",
+            "matched_verb": "",
+            "judgment": "AMBIGUOUS",
+            "strong_count": 0
+          }
+        }
+      ],
+      "expected": "UNKNOWN",
+      "category": "negative"
+    },
+    {
+      "text": "Infrastructure Report. Policy Rate noted in funding analysis.",
+      "judgment": "AMBIGUOUS",
+      "candidates": [
+        {
+          "candidate": "Policy Rate",
+          "vector": {
+            "event": "WEAK",
+            "measurement": "INSUFFICIENT",
+            "fact": "MODERATE",
+            "event_type": "NOT_PRIOR",
+            "heading": "SUPPORT",
+            "topic": "SUPPORT",
+            "position": "EARLY",
+            "matched_verb": "",
+            "judgment": "AMBIGUOUS",
+            "strong_count": 0
+          }
+        }
+      ],
+      "expected": "UNKNOWN",
+      "category": "negative"
+    },
+    {
+      "text": "Telecom Industry Survey. Inflation compared to pricing.",
+      "judgment": "AMBIGUOUS",
+      "candidates": [
+        {
+          "candidate": "Inflation",
+          "vector": {
+            "event": "WEAK",
+            "measurement": "INSUFFICIENT",
+            "fact": "MODERATE",
+            "event_type": "COMPATIBLE",
+            "heading": "SUPPORT",
+            "topic": "SUPPORT",
+            "position": "EARLY",
+            "matched_verb": "",
+            "judgment": "AMBIGUOUS",
+            "strong_count": 0
+          }
+        }
+      ],
+      "expected": "UNKNOWN",
+      "category": "negative"
+    },
+    {
+      "text": "Environmental Report. GDP growth noted in sustainability context.",
+      "judgment": "AMBIGUOUS",
+      "candidates": [
+        {
+          "candidate": "Gross Domestic Product",
+          "vector": {
+            "event": "WEAK",
+            "measurement": "INSUFFICIENT",
+            "fact": "MODERATE",
+            "event_type": "COMPATIBLE",
+            "heading": "SUPPORT",
+            "topic": "SUPPORT",
+            "position": "EARLY",
+            "matched_verb": "",
+            "judgment": "AMBIGUOUS",
+            "strong_count": 0
+          }
+        },
+        {
+          "candidate": "GDP Growth",
+          "vector": {
+            "event": "WEAK",
+            "measurement": "INSUFFICIENT",
+            "fact": "MODERATE",
+            "event_type": "COMPATIBLE",
+            "heading": "SUPPORT",
+            "topic": "SUPPORT",
+            "position": "EARLY",
+            "matched_verb": "",
+            "judgment": "AMBIGUOUS",
+            "strong_count": 0
+          }
+        }
+      ],
+      "expected": "UNKNOWN",
+      "category": "negative"
+    },
+    {
+      "text": "Social Security Data. Unemployment referenced in projections.",
+      "judgment": "AMBIGUOUS",
+      "candidates": [
+        {
+          "candidate": "Unemployment",
+          "vector": {
+            "event": "WEAK",
+            "measurement": "INSUFFICIENT",
+            "fact": "MODERATE",
+            "event_type": "COMPATIBLE",
+            "heading": "SUPPORT",
+            "topic": "SUPPORT",
+            "position": "EARLY",
+            "matched_verb": "",
+            "judgment": "AMBIGUOUS",
+            "strong_count": 0
+          }
+        }
+      ],
+      "expected": "UNKNOWN",
+      "category": "negative"
+    },
+    {
+      "text": "R&D Spending Report. Policy Rate noted in investment context.",
+      "judgment": "AMBIGUOUS",
+      "candidates": [
+        {
+          "candidate": "Policy Rate",
+          "vector": {
+            "event": "WEAK",
+            "measurement": "INSUFFICIENT",
+            "fact": "MODERATE",
+            "event_type": "NOT_PRIOR",
+            "heading": "SUPPORT",
+            "topic": "SUPPORT",
+            "position": "EARLY",
+            "matched_verb": "",
+            "judgment": "AMBIGUOUS",
+            "strong_count": 0
+          }
+        }
+      ],
+      "expected": "UNKNOWN",
+      "category": "negative"
+    },
+    {
+      "text": "Wage Growth Report. Inflation noted as comparison.",
+      "judgment": "AMBIGUOUS",
+      "candidates": [
+        {
+          "candidate": "Inflation",
+          "vector": {
+            "event": "WEAK",
+            "measurement": "INSUFFICIENT",
+            "fact": "MODERATE",
+            "event_type": "COMPATIBLE",
+            "heading": "SUPPORT",
+            "topic": "SUPPORT",
+            "position": "EARLY",
+            "matched_verb": "",
+            "judgment": "AMBIGUOUS",
+            "strong_count": 0
+          }
+        }
+      ],
+      "expected": "UNKNOWN",
+      "category": "negative"
+    },
+    {
+      "text": "Pension Statistics. Policy Rate referenced in annuity analysis.",
+      "judgment": "AMBIGUOUS",
+      "candidates": [
+        {
+          "candidate": "Policy Rate",
+          "vector": {
+            "event": "WEAK",
+            "measurement": "INSUFFICIENT",
+            "fact": "MODERATE",
+            "event_type": "NOT_PRIOR",
+            "heading": "SUPPORT",
+            "topic": "SUPPORT",
+            "position": "EARLY",
+            "matched_verb": "",
+            "judgment": "AMBIGUOUS",
+            "strong_count": 0
+          }
+        }
+      ],
+      "expected": "UNKNOWN",
+      "category": "negative"
+    },
+    {
+      "text": "Aviation Statistics. Foreign exchange mentioned in revenue context.",
+      "judgment": "AMBIGUOUS",
+      "candidates": [
+        {
+          "candidate": "Foreign Exchange",
+          "vector": {
+            "event": "WEAK",
+            "measurement": "INSUFFICIENT",
+            "fact": "MODERATE",
+            "event_type": "COMPATIBLE",
+            "heading": "SUPPORT",
+            "topic": "SUPPORT",
+            "position": "EARLY",
+            "matched_verb": "",
+            "judgment": "AMBIGUOUS",
+            "strong_count": 0
+          }
+        }
+      ],
+      "expected": "UNKNOWN",
+      "category": "negative"
+    },
+    {
+      "text": "Marine Economy Report. Inflation as economic comparison.",
+      "judgment": "AMBIGUOUS",
+      "candidates": [
+        {
+          "candidate": "Inflation",
+          "vector": {
+            "event": "WEAK",
+            "measurement": "INSUFFICIENT",
+            "fact": "MODERATE",
+            "event_type": "COMPATIBLE",
+            "heading": "SUPPORT",
+            "topic": "SUPPORT",
+            "position": "EARLY",
+            "matched_verb": "",
+            "judgment": "AMBIGUOUS",
+            "strong_count": 0
+          }
+        }
+      ],
+      "expected": "UNKNOWN",
+      "category": "negative"
+    },
+    {
+      "text": "Arts Production Account. Penalty discussed in legal context.",
+      "judgment": "AMBIGUOUS",
+      "candidates": [
+        {
+          "candidate": "Penalty",
+          "vector": {
+            "event": "WEAK",
+            "measurement": "INSUFFICIENT",
+            "fact": "MODERATE",
+            "event_type": "COMPATIBLE",
+            "heading": "SUPPORT",
+            "topic": "SUPPORT",
+            "position": "EARLY",
+            "matched_verb": "",
+            "judgment": "AMBIGUOUS",
+            "strong_count": 0
+          }
+        }
+      ],
+      "expected": "UNKNOWN",
+      "category": "negative"
+    },
+    {
+      "text": "Outdoor Recreation. GDP growth in economic overview.",
+      "judgment": "AMBIGUOUS",
+      "candidates": [
+        {
+          "candidate": "Gross Domestic Product",
+          "vector": {
+            "event": "WEAK",
+            "measurement": "INSUFFICIENT",
+            "fact": "MODERATE",
+            "event_type": "COMPATIBLE",
+            "heading": "SUPPORT",
+            "topic": "SUPPORT",
+            "position": "EARLY",
+            "matched_verb": "",
+            "judgment": "AMBIGUOUS",
+            "strong_count": 0
+          }
+        },
+        {
+          "candidate": "GDP Growth",
+          "vector": {
+            "event": "WEAK",
+            "measurement": "INSUFFICIENT",
+            "fact": "MODERATE",
+            "event_type": "COMPATIBLE",
+            "heading": "SUPPORT",
+            "topic": "SUPPORT",
+            "position": "EARLY",
+            "matched_verb": "",
+            "judgment": "AMBIGUOUS",
+            "strong_count": 0
+          }
+        }
+      ],
+      "expected": "UNKNOWN",
+      "category": "negative"
+    },
+    {
+      "text": "Savings Bond Rates. Interest rate cited in product description.",
+      "judgment": "AMBIGUOUS",
+      "candidates": [
+        {
+          "candidate": "Policy Rate",
+          "vector": {
+            "event": "WEAK",
+            "measurement": "INSUFFICIENT",
+            "fact": "MODERATE",
+            "event_type": "NOT_PRIOR",
+            "heading": "SUPPORT",
+            "topic": "SUPPORT",
+            "position": "EARLY",
+            "matched_verb": "",
+            "judgment": "AMBIGUOUS",
+            "strong_count": 0
+          }
+        }
+      ],
+      "expected": "UNKNOWN",
+      "category": "negative"
+    },
+    {
+      "text": "Census Demographics. CPI as economic indicator.",
+      "judgment": "AMBIGUOUS",
+      "candidates": [
+        {
+          "candidate": "Consumer Price Index",
+          "vector": {
+            "event": "WEAK",
+            "measurement": "INSUFFICIENT",
+            "fact": "MODERATE",
+            "event_type": "COMPATIBLE",
+            "heading": "SUPPORT",
+            "topic": "SUPPORT",
+            "position": "EARLY",
+            "matched_verb": "",
+            "judgment": "AMBIGUOUS",
+            "strong_count": 0
+          }
+        }
+      ],
+      "expected": "UNKNOWN",
+      "category": "negative"
+    },
+    {
+      "text": "Patent Applications. GDP in innovation context.",
+      "judgment": "AMBIGUOUS",
+      "candidates": [
+        {
+          "candidate": "Gross Domestic Product",
+          "vector": {
+            "event": "WEAK",
+            "measurement": "INSUFFICIENT",
+            "fact": "MODERATE",
+            "event_type": "COMPATIBLE",
+            "heading": "SUPPORT",
+            "topic": "SUPPORT",
+            "position": "EARLY",
+            "matched_verb": "",
+            "judgment": "AMBIGUOUS",
+            "strong_count": 0
+          }
+        }
+      ],
+      "expected": "UNKNOWN",
+      "category": "negative"
+    },
+    {
+      "text": "Housing Market Report. Unemployment as mortgage factor.",
+      "judgment": "AMBIGUOUS",
+      "candidates": [
+        {
+          "candidate": "Unemployment",
+          "vector": {
+            "event": "WEAK",
+            "measurement": "INSUFFICIENT",
+            "fact": "MODERATE",
+            "event_type": "COMPATIBLE",
+            "heading": "SUPPORT",
+            "topic": "SUPPORT",
+            "position": "EARLY",
+            "matched_verb": "",
+            "judgment": "AMBIGUOUS",
+            "strong_count": 0
+          }
+        }
+      ],
+      "expected": "UNKNOWN",
+      "category": "negative"
+    },
+    {
+      "text": "Travel Tourism Report. CPI mentioned in pricing analysis.",
+      "judgment": "AMBIGUOUS",
+      "candidates": [
+        {
+          "candidate": "Consumer Price Index",
+          "vector": {
+            "event": "WEAK",
+            "measurement": "INSUFFICIENT",
+            "fact": "MODERATE",
+            "event_type": "COMPATIBLE",
+            "heading": "SUPPORT",
+            "topic": "SUPPORT",
+            "position": "EARLY",
+            "matched_verb": "",
+            "judgment": "AMBIGUOUS",
+            "strong_count": 0
+          }
+        }
+      ],
+      "expected": "UNKNOWN",
+      "category": "negative"
+    },
+    {
+      "text": "Education Spending. Inflation in budget context.",
+      "judgment": "AMBIGUOUS",
+      "candidates": [
+        {
+          "candidate": "Inflation",
+          "vector": {
+            "event": "WEAK",
+            "measurement": "INSUFFICIENT",
+            "fact": "MODERATE",
+            "event_type": "COMPATIBLE",
+            "heading": "SUPPORT",
+            "topic": "SUPPORT",
+            "position": "EARLY",
+            "matched_verb": "",
+            "judgment": "AMBIGUOUS",
+            "strong_count": 0
+          }
+        }
+      ],
+      "expected": "UNKNOWN",
+      "category": "negative"
+    },
+    {
+      "text": "Healthcare Statistics. Policy Rate in insurance analysis.",
+      "judgment": "AMBIGUOUS",
+      "candidates": [
+        {
+          "candidate": "Policy Rate",
+          "vector": {
+            "event": "WEAK",
+            "measurement": "INSUFFICIENT",
+            "fact": "MODERATE",
+            "event_type": "NOT_PRIOR",
+            "heading": "SUPPORT",
+            "topic": "SUPPORT",
+            "position": "EARLY",
+            "matched_verb": "",
+            "judgment": "AMBIGUOUS",
+            "strong_count": 0
+          }
+        }
+      ],
+      "expected": "UNKNOWN",
+      "category": "negative"
+    },
+    {
+      "text": "Construction Report. FX turnover in international projects.",
+      "judgment": "TRUE_SUBJECT",
+      "candidates": [
+        {
+          "candidate": "Foreign Exchange",
+          "vector": {
+            "event": "STRONG",
+            "measurement": "INSUFFICIENT",
+            "fact": "MODERATE",
+            "event_type": "COMPATIBLE",
+            "heading": "SUPPORT",
+            "topic": "SUPPORT",
+            "position": "EARLY",
+            "matched_verb": "turnover",
+            "judgment": "TRUE_SUBJECT",
+            "strong_count": 1
+          }
+        }
+      ],
+      "expected": "UNKNOWN",
+      "category": "negative"
+    },
+    {
+      "text": "Technology Sector. Inflation in pricing strategy.",
+      "judgment": "AMBIGUOUS",
+      "candidates": [
+        {
+          "candidate": "Inflation",
+          "vector": {
+            "event": "WEAK",
+            "measurement": "INSUFFICIENT",
+            "fact": "MODERATE",
+            "event_type": "COMPATIBLE",
+            "heading": "SUPPORT",
+            "topic": "SUPPORT",
+            "position": "EARLY",
+            "matched_verb": "",
+            "judgment": "AMBIGUOUS",
+            "strong_count": 0
+          }
+        }
+      ],
+      "expected": "UNKNOWN",
+      "category": "negative"
+    },
+    {
+      "text": "Energy Statistics. GDP in consumption analysis.",
+      "judgment": "AMBIGUOUS",
+      "candidates": [
+        {
+          "candidate": "Gross Domestic Product",
+          "vector": {
+            "event": "WEAK",
+            "measurement": "INSUFFICIENT",
+            "fact": "MODERATE",
+            "event_type": "COMPATIBLE",
+            "heading": "SUPPORT",
+            "topic": "SUPPORT",
+            "position": "EARLY",
+            "matched_verb": "",
+            "judgment": "AMBIGUOUS",
+            "strong_count": 0
+          }
+        }
+      ],
+      "expected": "UNKNOWN",
+      "category": "negative"
+    },
+    {
+      "text": "Agriculture Report. Unemployment in labor analysis.",
+      "judgment": "AMBIGUOUS",
+      "candidates": [
+        {
+          "candidate": "Unemployment",
+          "vector": {
+            "event": "WEAK",
+            "measurement": "INSUFFICIENT",
+            "fact": "MODERATE",
+            "event_type": "COMPATIBLE",
+            "heading": "SUPPORT",
+            "topic": "SUPPORT",
+            "position": "EARLY",
+            "matched_verb": "",
+            "judgment": "AMBIGUOUS",
+            "strong_count": 0
+          }
+        }
+      ],
+      "expected": "UNKNOWN",
+      "category": "negative"
+    },
+    {
+      "text": "Trade Report. Policy Rate in exchange analysis.",
+      "judgment": "AMBIGUOUS",
+      "candidates": [
+        {
+          "candidate": "Policy Rate",
+          "vector": {
+            "event": "WEAK",
+            "measurement": "INSUFFICIENT",
+            "fact": "MODERATE",
+            "event_type": "NOT_PRIOR",
+            "heading": "SUPPORT",
+            "topic": "SUPPORT",
+            "position": "EARLY",
+            "matched_verb": "",
+            "judgment": "AMBIGUOUS",
+            "strong_count": 0
+          }
+        }
+      ],
+      "expected": "UNKNOWN",
+      "category": "negative"
+    },
+    {
+      "text": "Manufacturing Output. CPI in cost analysis.",
+      "judgment": "AMBIGUOUS",
+      "candidates": [
+        {
+          "candidate": "Consumer Price Index",
+          "vector": {
+            "event": "WEAK",
+            "measurement": "INSUFFICIENT",
+            "fact": "MODERATE",
+            "event_type": "COMPATIBLE",
+            "heading": "SUPPORT",
+            "topic": "SUPPORT",
+            "position": "EARLY",
+            "matched_verb": "",
+            "judgment": "AMBIGUOUS",
+            "strong_count": 0
+          }
+        }
+      ],
+      "expected": "UNKNOWN",
+      "category": "negative"
+    },
+    {
+      "text": "Retail Report. GDP in consumer context.",
+      "judgment": "AMBIGUOUS",
+      "candidates": [
+        {
+          "candidate": "Gross Domestic Product",
+          "vector": {
+            "event": "WEAK",
+            "measurement": "INSUFFICIENT",
+            "fact": "MODERATE",
+            "event_type": "COMPATIBLE",
+            "heading": "SUPPORT",
+            "topic": "SUPPORT",
+            "position": "EARLY",
+            "matched_verb": "",
+            "judgment": "AMBIGUOUS",
+            "strong_count": 0
+          }
+        }
+      ],
+      "expected": "UNKNOWN",
+      "category": "negative"
+    },
+    {
+      "text": "Mining Data. Inflation in commodity pricing.",
+      "judgment": "AMBIGUOUS",
+      "candidates": [
+        {
+          "candidate": "Inflation",
+          "vector": {
+            "event": "WEAK",
+            "measurement": "INSUFFICIENT",
+            "fact": "MODERATE",
+            "event_type": "COMPATIBLE",
+            "heading": "SUPPORT",
+            "topic": "SUPPORT",
+            "position": "EARLY",
+            "matched_verb": "",
+            "judgment": "AMBIGUOUS",
+            "strong_count": 0
+          }
+        }
+      ],
+      "expected": "UNKNOWN",
+      "category": "negative"
+    },
+    {
+      "text": "Tourism Data. Unemployment in labor mobility.",
+      "judgment": "AMBIGUOUS",
+      "candidates": [
+        {
+          "candidate": "Unemployment",
+          "vector": {
+            "event": "WEAK",
+            "measurement": "INSUFFICIENT",
+            "fact": "MODERATE",
+            "event_type": "COMPATIBLE",
+            "heading": "SUPPORT",
+            "topic": "SUPPORT",
+            "position": "EARLY",
+            "matched_verb": "",
+            "judgment": "AMBIGUOUS",
+            "strong_count": 0
+          }
+        }
+      ],
+      "expected": "UNKNOWN",
+      "category": "negative"
+    },
+    {
+      "text": "Housing Starts. Policy Rate in mortgage context.",
+      "judgment": "AMBIGUOUS",
+      "candidates": [
+        {
+          "candidate": "Policy Rate",
+          "vector": {
+            "event": "WEAK",
+            "measurement": "INSUFFICIENT",
+            "fact": "MODERATE",
+            "event_type": "NOT_PRIOR",
+            "heading": "SUPPORT",
+            "topic": "SUPPORT",
+            "position": "EARLY",
+            "matched_verb": "",
+            "judgment": "AMBIGUOUS",
+            "strong_count": 0
+          }
+        }
+      ],
+      "expected": "UNKNOWN",
+      "category": "negative"
+    },
+    {
+      "text": "Aviation Report. GDP in economic impact.",
+      "judgment": "AMBIGUOUS",
+      "candidates": [
+        {
+          "candidate": "Gross Domestic Product",
+          "vector": {
+            "event": "WEAK",
+            "measurement": "INSUFFICIENT",
+            "fact": "MODERATE",
+            "event_type": "COMPATIBLE",
+            "heading": "SUPPORT",
+            "topic": "SUPPORT",
+            "position": "EARLY",
+            "matched_verb": "",
+            "judgment": "AMBIGUOUS",
+            "strong_count": 0
+          }
+        }
+      ],
+      "expected": "UNKNOWN",
+      "category": "negative"
+    },
+    {
+      "text": "Telecom Statistics. CPI in pricing trends.",
+      "judgment": "AMBIGUOUS",
+      "candidates": [
+        {
+          "candidate": "Consumer Price Index",
+          "vector": {
+            "event": "WEAK",
+            "measurement": "INSUFFICIENT",
+            "fact": "MODERATE",
+            "event_type": "COMPATIBLE",
+            "heading": "SUPPORT",
+            "topic": "SUPPORT",
+            "position": "EARLY",
+            "matched_verb": "",
+            "judgment": "AMBIGUOUS",
+            "strong_count": 0
+          }
+        }
+      ],
+      "expected": "UNKNOWN",
+      "category": "negative"
+    },
+    {
+      "text": "Energy Market. FX in currency exposure.",
+      "judgment": "AMBIGUOUS",
+      "candidates": [
+        {
+          "candidate": "Foreign Exchange",
+          "vector": {
+            "event": "WEAK",
+            "measurement": "INSUFFICIENT",
+            "fact": "MODERATE",
+            "event_type": "COMPATIBLE",
+            "heading": "SUPPORT",
+            "topic": "SUPPORT",
+            "position": "EARLY",
+            "matched_verb": "",
+            "judgment": "AMBIGUOUS",
+            "strong_count": 0
+          }
+        }
+      ],
+      "expected": "UNKNOWN",
+      "category": "negative"
+    },
+    {
+      "text": "Health Report. GDP in expenditure analysis.",
+      "judgment": "AMBIGUOUS",
+      "candidates": [
+        {
+          "candidate": "Gross Domestic Product",
+          "vector": {
+            "event": "WEAK",
+            "measurement": "INSUFFICIENT",
+            "fact": "MODERATE",
+            "event_type": "COMPATIBLE",
+            "heading": "SUPPORT",
+            "topic": "SUPPORT",
+            "position": "EARLY",
+            "matched_verb": "",
+            "judgment": "AMBIGUOUS",
+            "strong_count": 0
+          }
+        }
+      ],
+      "expected": "UNKNOWN",
+      "category": "negative"
+    },
+    {
+      "text": "Education Census. Inflation in cost context.",
+      "judgment": "AMBIGUOUS",
+      "candidates": [
+        {
+          "candidate": "Inflation",
+          "vector": {
+            "event": "WEAK",
+            "measurement": "INSUFFICIENT",
+            "fact": "MODERATE",
+            "event_type": "COMPATIBLE",
+            "heading": "SUPPORT",
+            "topic": "SUPPORT",
+            "position": "EARLY",
+            "matched_verb": "",
+            "judgment": "AMBIGUOUS",
+            "strong_count": 0
+          }
+        }
+      ],
+      "expected": "UNKNOWN",
+      "category": "negative"
+    },
+    {
+      "text": "Crime Report. Policy Rate in economic stress.",
+      "judgment": "AMBIGUOUS",
+      "candidates": [
+        {
+          "candidate": "Policy Rate",
+          "vector": {
+            "event": "WEAK",
+            "measurement": "INSUFFICIENT",
+            "fact": "MODERATE",
+            "event_type": "NOT_PRIOR",
+            "heading": "SUPPORT",
+            "topic": "SUPPORT",
+            "position": "EARLY",
+            "matched_verb": "",
+            "judgment": "AMBIGUOUS",
+            "strong_count": 0
+          }
+        }
+      ],
+      "expected": "UNKNOWN",
+      "category": "negative"
+    },
+    {
+      "text": "The bank noted that inflation expectations remain elevated.",
+      "judgment": "AMBIGUOUS",
+      "candidates": [
+        {
+          "candidate": "Inflation",
+          "vector": {
+            "event": "WEAK",
+            "measurement": "INSUFFICIENT",
+            "fact": "MODERATE",
+            "event_type": "COMPATIBLE",
+            "heading": "SUPPORT",
+            "topic": "SUPPORT",
+            "position": "EARLY",
+            "matched_verb": "",
+            "judgment": "AMBIGUOUS",
+            "strong_count": 0
+          }
+        }
+      ],
+      "expected": "AMBIGUOUS",
+      "category": "ambiguous"
+    },
+    {
+      "text": "GDP figures were mentioned in the broader economic review.",
+      "judgment": "AMBIGUOUS",
+      "candidates": [
+        {
+          "candidate": "Gross Domestic Product",
+          "vector": {
+            "event": "WEAK",
+            "measurement": "INSUFFICIENT",
+            "fact": "MODERATE",
+            "event_type": "COMPATIBLE",
+            "heading": "SUPPORT",
+            "topic": "SUPPORT",
+            "position": "EARLY",
+            "matched_verb": "",
+            "judgment": "AMBIGUOUS",
+            "strong_count": 0
+          }
+        }
+      ],
+      "expected": "AMBIGUOUS",
+      "category": "ambiguous"
+    },
+    {
+      "text": "Policy Rate decisions depend on incoming data.",
+      "judgment": "AMBIGUOUS",
+      "candidates": [
+        {
+          "candidate": "Policy Rate",
+          "vector": {
+            "event": "WEAK",
+            "measurement": "INSUFFICIENT",
+            "fact": "MODERATE",
+            "event_type": "NOT_PRIOR",
+            "heading": "SUPPORT",
+            "topic": "SUPPORT",
+            "position": "EARLY",
+            "matched_verb": "",
+            "judgment": "AMBIGUOUS",
+            "strong_count": 0
+          }
+        }
+      ],
+      "expected": "AMBIGUOUS",
+      "category": "ambiguous"
+    },
+    {
+      "text": "Unemployment trends were cited as a monitoring factor.",
+      "judgment": "AMBIGUOUS",
+      "candidates": [
+        {
+          "candidate": "Unemployment",
+          "vector": {
+            "event": "WEAK",
+            "measurement": "INSUFFICIENT",
+            "fact": "MODERATE",
+            "event_type": "COMPATIBLE",
+            "heading": "SUPPORT",
+            "topic": "SUPPORT",
+            "position": "EARLY",
+            "matched_verb": "",
+            "judgment": "AMBIGUOUS",
+            "strong_count": 0
+          }
+        }
+      ],
+      "expected": "AMBIGUOUS",
+      "category": "ambiguous"
+    },
+    {
+      "text": "CPI data will be released next month according to schedule.",
+      "judgment": "AMBIGUOUS",
+      "candidates": [
+        {
+          "candidate": "Consumer Price Index",
+          "vector": {
+            "event": "MODERATE",
+            "measurement": "INSUFFICIENT",
+            "fact": "MODERATE",
+            "event_type": "COMPATIBLE",
+            "heading": "SUPPORT",
+            "topic": "SUPPORT",
+            "position": "EARLY",
+            "matched_verb": "first-noun",
+            "judgment": "AMBIGUOUS",
+            "strong_count": 0
+          }
+        }
+      ],
+      "expected": "AMBIGUOUS",
+      "category": "ambiguous"
+    },
+    {
+      "text": "FX markets showed stability during the reporting period.",
+      "judgment": "AMBIGUOUS",
+      "candidates": [
+        {
+          "candidate": "Foreign Exchange",
+          "vector": {
+            "event": "WEAK",
+            "measurement": "INSUFFICIENT",
+            "fact": "MODERATE",
+            "event_type": "COMPATIBLE",
+            "heading": "SUPPORT",
+            "topic": "SUPPORT",
+            "position": "EARLY",
+            "matched_verb": "",
+            "judgment": "AMBIGUOUS",
+            "strong_count": 0
+          }
+        }
+      ],
+      "expected": "AMBIGUOUS",
+      "category": "ambiguous"
+    },
+    {
+      "text": "Penalty provisions exist under the regulatory framework.",
+      "judgment": "AMBIGUOUS",
+      "candidates": [
+        {
+          "candidate": "Penalty",
+          "vector": {
+            "event": "WEAK",
+            "measurement": "INSUFFICIENT",
+            "fact": "MODERATE",
+            "event_type": "COMPATIBLE",
+            "heading": "SUPPORT",
+            "topic": "SUPPORT",
+            "position": "EARLY",
+            "matched_verb": "",
+            "judgment": "AMBIGUOUS",
+            "strong_count": 0
+          }
+        }
+      ],
+      "expected": "AMBIGUOUS",
+      "category": "ambiguous"
+    },
+    {
+      "text": "GDP methodology was updated in the latest revision.",
+      "judgment": "AMBIGUOUS",
+      "candidates": [
+        {
+          "candidate": "Gross Domestic Product",
+          "vector": {
+            "event": "WEAK",
+            "measurement": "INSUFFICIENT",
+            "fact": "MODERATE",
+            "event_type": "COMPATIBLE",
+            "heading": "SUPPORT",
+            "topic": "SUPPORT",
+            "position": "EARLY",
+            "matched_verb": "",
+            "judgment": "AMBIGUOUS",
+            "strong_count": 0
+          }
+        }
+      ],
+      "expected": "AMBIGUOUS",
+      "category": "ambiguous"
+    },
+    {
+      "text": "Inflation targeting remains the primary policy objective.",
+      "judgment": "AMBIGUOUS",
+      "candidates": [
+        {
+          "candidate": "Inflation",
+          "vector": {
+            "event": "WEAK",
+            "measurement": "INSUFFICIENT",
+            "fact": "MODERATE",
+            "event_type": "COMPATIBLE",
+            "heading": "SUPPORT",
+            "topic": "SUPPORT",
+            "position": "EARLY",
+            "matched_verb": "",
+            "judgment": "AMBIGUOUS",
+            "strong_count": 0
+          }
+        }
+      ],
+      "expected": "AMBIGUOUS",
+      "category": "ambiguous"
+    },
+    {
+      "text": "Settlement procedures were outlined in the guidance.",
+      "judgment": "AMBIGUOUS",
+      "candidates": [
+        {
+          "candidate": "Settlement",
+          "vector": {
+            "event": "WEAK",
+            "measurement": "INSUFFICIENT",
+            "fact": "MODERATE",
+            "event_type": "COMPATIBLE",
+            "heading": "SUPPORT",
+            "topic": "SUPPORT",
+            "position": "EARLY",
+            "matched_verb": "",
+            "judgment": "AMBIGUOUS",
+            "strong_count": 0
+          }
+        }
+      ],
+      "expected": "AMBIGUOUS",
+      "category": "ambiguous"
+    },
+    {
+      "text": "The committee discussed GDP growth prospects.",
+      "judgment": "AMBIGUOUS",
+      "candidates": [
+        {
+          "candidate": "Gross Domestic Product",
+          "vector": {
+            "event": "WEAK",
+            "measurement": "INSUFFICIENT",
+            "fact": "MODERATE",
+            "event_type": "COMPATIBLE",
+            "heading": "SUPPORT",
+            "topic": "SUPPORT",
+            "position": "EARLY",
+            "matched_verb": "",
+            "judgment": "AMBIGUOUS",
+            "strong_count": 0
+          }
+        },
+        {
+          "candidate": "GDP Growth",
+          "vector": {
+            "event": "WEAK",
+            "measurement": "INSUFFICIENT",
+            "fact": "MODERATE",
+            "event_type": "COMPATIBLE",
+            "heading": "SUPPORT",
+            "topic": "SUPPORT",
+            "position": "EARLY",
+            "matched_verb": "",
+            "judgment": "AMBIGUOUS",
+            "strong_count": 0
+          }
+        }
+      ],
+      "expected": "AMBIGUOUS",
+      "category": "ambiguous"
+    },
+    {
+      "text": "Inflation data is expected to moderate next quarter.",
+      "judgment": "AMBIGUOUS",
+      "candidates": [
+        {
+          "candidate": "Inflation",
+          "vector": {
+            "event": "WEAK",
+            "measurement": "INSUFFICIENT",
+            "fact": "MODERATE",
+            "event_type": "COMPATIBLE",
+            "heading": "SUPPORT",
+            "topic": "SUPPORT",
+            "position": "EARLY",
+            "matched_verb": "",
+            "judgment": "AMBIGUOUS",
+            "strong_count": 0
+          }
+        }
+      ],
+      "expected": "AMBIGUOUS",
+      "category": "ambiguous"
+    },
+    {
+      "text": "Policy Rate path will depend on economic conditions.",
+      "judgment": "AMBIGUOUS",
+      "candidates": [
+        {
+          "candidate": "Policy Rate",
+          "vector": {
+            "event": "WEAK",
+            "measurement": "INSUFFICIENT",
+            "fact": "MODERATE",
+            "event_type": "NOT_PRIOR",
+            "heading": "SUPPORT",
+            "topic": "SUPPORT",
+            "position": "EARLY",
+            "matched_verb": "",
+            "judgment": "AMBIGUOUS",
+            "strong_count": 0
+          }
+        }
+      ],
+      "expected": "AMBIGUOUS",
+      "category": "ambiguous"
+    },
+    {
+      "text": "Unemployment figures were referenced in the staff briefing.",
+      "judgment": "AMBIGUOUS",
+      "candidates": [
+        {
+          "candidate": "Unemployment",
+          "vector": {
+            "event": "WEAK",
+            "measurement": "INSUFFICIENT",
+            "fact": "MODERATE",
+            "event_type": "COMPATIBLE",
+            "heading": "SUPPORT",
+            "topic": "SUPPORT",
+            "position": "EARLY",
+            "matched_verb": "",
+            "judgment": "AMBIGUOUS",
+            "strong_count": 0
+          }
+        }
+      ],
+      "expected": "AMBIGUOUS",
+      "category": "ambiguous"
+    },
+    {
+      "text": "CPI trends were stable according to preliminary estimates.",
+      "judgment": "AMBIGUOUS",
+      "candidates": [
+        {
+          "candidate": "Consumer Price Index",
+          "vector": {
+            "event": "WEAK",
+            "measurement": "INSUFFICIENT",
+            "fact": "MODERATE",
+            "event_type": "COMPATIBLE",
+            "heading": "SUPPORT",
+            "topic": "SUPPORT",
+            "position": "EARLY",
+            "matched_verb": "",
+            "judgment": "AMBIGUOUS",
+            "strong_count": 0
+          }
+        }
+      ],
+      "expected": "AMBIGUOUS",
+      "category": "ambiguous"
+    },
+    {
+      "text": "FX turnover data is collected semi-annually.",
+      "judgment": "TRUE_SUBJECT",
+      "candidates": [
+        {
+          "candidate": "Foreign Exchange",
+          "vector": {
+            "event": "STRONG",
+            "measurement": "INSUFFICIENT",
+            "fact": "MODERATE",
+            "event_type": "COMPATIBLE",
+            "heading": "SUPPORT",
+            "topic": "SUPPORT",
+            "position": "EARLY",
+            "matched_verb": "turnover",
+            "judgment": "TRUE_SUBJECT",
+            "strong_count": 1
+          }
+        }
+      ],
+      "expected": "AMBIGUOUS",
+      "category": "ambiguous"
+    },
+    {
+      "text": "Penalty framework was reviewed by the committee.",
+      "judgment": "AMBIGUOUS",
+      "candidates": [
+        {
+          "candidate": "Penalty",
+          "vector": {
+            "event": "WEAK",
+            "measurement": "INSUFFICIENT",
+            "fact": "MODERATE",
+            "event_type": "COMPATIBLE",
+            "heading": "SUPPORT",
+            "topic": "SUPPORT",
+            "position": "EARLY",
+            "matched_verb": "",
+            "judgment": "AMBIGUOUS",
+            "strong_count": 0
+          }
+        }
+      ],
+      "expected": "AMBIGUOUS",
+      "category": "ambiguous"
+    },
+    {
+      "text": "GDP estimates are subject to annual revision.",
+      "judgment": "AMBIGUOUS",
+      "candidates": [
+        {
+          "candidate": "Gross Domestic Product",
+          "vector": {
+            "event": "WEAK",
+            "measurement": "INSUFFICIENT",
+            "fact": "MODERATE",
+            "event_type": "COMPATIBLE",
+            "heading": "SUPPORT",
+            "topic": "SUPPORT",
+            "position": "EARLY",
+            "matched_verb": "",
+            "judgment": "AMBIGUOUS",
+            "strong_count": 0
+          }
+        }
+      ],
+      "expected": "AMBIGUOUS",
+      "category": "ambiguous"
+    },
+    {
+      "text": "Inflation outlook remains uncertain amid global pressures.",
+      "judgment": "AMBIGUOUS",
+      "candidates": [
+        {
+          "candidate": "Inflation",
+          "vector": {
+            "event": "WEAK",
+            "measurement": "INSUFFICIENT",
+            "fact": "MODERATE",
+            "event_type": "COMPATIBLE",
+            "heading": "SUPPORT",
+            "topic": "SUPPORT",
+            "position": "EARLY",
+            "matched_verb": "",
+            "judgment": "AMBIGUOUS",
+            "strong_count": 0
+          }
+        }
+      ],
+      "expected": "AMBIGUOUS",
+      "category": "ambiguous"
+    },
+    {
+      "text": "Policy Rate guidance was reaffirmed in the statement.",
+      "judgment": "AMBIGUOUS",
+      "candidates": [
+        {
+          "candidate": "Policy Rate",
+          "vector": {
+            "event": "WEAK",
+            "measurement": "INSUFFICIENT",
+            "fact": "MODERATE",
+            "event_type": "NOT_PRIOR",
+            "heading": "SUPPORT",
+            "topic": "SUPPORT",
+            "position": "EARLY",
+            "matched_verb": "",
+            "judgment": "AMBIGUOUS",
+            "strong_count": 0
+          }
+        }
+      ],
+      "expected": "AMBIGUOUS",
+      "category": "ambiguous"
+    },
+    {
+      "text": "The report cited unemployment as a concern.",
+      "judgment": "AMBIGUOUS",
+      "candidates": [
+        {
+          "candidate": "Unemployment",
+          "vector": {
+            "event": "WEAK",
+            "measurement": "INSUFFICIENT",
+            "fact": "MODERATE",
+            "event_type": "COMPATIBLE",
+            "heading": "SUPPORT",
+            "topic": "SUPPORT",
+            "position": "EARLY",
+            "matched_verb": "",
+            "judgment": "AMBIGUOUS",
+            "strong_count": 0
+          }
+        }
+      ],
+      "expected": "AMBIGUOUS",
+      "category": "ambiguous"
+    },
+    {
+      "text": "CPI readings were below the central bank target.",
+      "judgment": "AMBIGUOUS",
+      "candidates": [
+        {
+          "candidate": "Consumer Price Index",
+          "vector": {
+            "event": "WEAK",
+            "measurement": "INSUFFICIENT",
+            "fact": "MODERATE",
+            "event_type": "COMPATIBLE",
+            "heading": "SUPPORT",
+            "topic": "SUPPORT",
+            "position": "EARLY",
+            "matched_verb": "",
+            "judgment": "AMBIGUOUS",
+            "strong_count": 0
+          }
+        }
+      ],
+      "expected": "AMBIGUOUS",
+      "category": "ambiguous"
+    },
+    {
+      "text": "Foreign exchange activity was described as orderly.",
+      "judgment": "AMBIGUOUS",
+      "candidates": [
+        {
+          "candidate": "Foreign Exchange",
+          "vector": {
+            "event": "WEAK",
+            "measurement": "INSUFFICIENT",
+            "fact": "MODERATE",
+            "event_type": "COMPATIBLE",
+            "heading": "SUPPORT",
+            "topic": "SUPPORT",
+            "position": "EARLY",
+            "matched_verb": "",
+            "judgment": "AMBIGUOUS",
+            "strong_count": 0
+          }
+        }
+      ],
+      "expected": "AMBIGUOUS",
+      "category": "ambiguous"
+    },
+    {
+      "text": "Settlement discussions are ongoing with the firm.",
+      "judgment": "AMBIGUOUS",
+      "candidates": [
+        {
+          "candidate": "Settlement",
+          "vector": {
+            "event": "WEAK",
+            "measurement": "INSUFFICIENT",
+            "fact": "MODERATE",
+            "event_type": "COMPATIBLE",
+            "heading": "SUPPORT",
+            "topic": "SUPPORT",
+            "position": "EARLY",
+            "matched_verb": "",
+            "judgment": "AMBIGUOUS",
+            "strong_count": 0
+          }
+        }
+      ],
+      "expected": "AMBIGUOUS",
+      "category": "ambiguous"
+    },
+    {
+      "text": "GDP performance was highlighted in the annual report.",
+      "judgment": "AMBIGUOUS",
+      "candidates": [
+        {
+          "candidate": "Gross Domestic Product",
+          "vector": {
+            "event": "WEAK",
+            "measurement": "INSUFFICIENT",
+            "fact": "MODERATE",
+            "event_type": "COMPATIBLE",
+            "heading": "SUPPORT",
+            "topic": "SUPPORT",
+            "position": "EARLY",
+            "matched_verb": "",
+            "judgment": "AMBIGUOUS",
+            "strong_count": 0
+          }
+        }
+      ],
+      "expected": "AMBIGUOUS",
+      "category": "ambiguous"
+    },
+    {
+      "text": "Inflation pressures are being monitored closely.",
+      "judgment": "AMBIGUOUS",
+      "candidates": [
+        {
+          "candidate": "Inflation",
+          "vector": {
+            "event": "WEAK",
+            "measurement": "INSUFFICIENT",
+            "fact": "MODERATE",
+            "event_type": "COMPATIBLE",
+            "heading": "SUPPORT",
+            "topic": "SUPPORT",
+            "position": "EARLY",
+            "matched_verb": "",
+            "judgment": "AMBIGUOUS",
+            "strong_count": 0
+          }
+        }
+      ],
+      "expected": "AMBIGUOUS",
+      "category": "ambiguous"
+    },
+    {
+      "text": "Policy Rate decisions will be data-dependent.",
+      "judgment": "AMBIGUOUS",
+      "candidates": [
+        {
+          "candidate": "Policy Rate",
+          "vector": {
+            "event": "WEAK",
+            "measurement": "INSUFFICIENT",
+            "fact": "MODERATE",
+            "event_type": "NOT_PRIOR",
+            "heading": "SUPPORT",
+            "topic": "SUPPORT",
+            "position": "EARLY",
+            "matched_verb": "",
+            "judgment": "AMBIGUOUS",
+            "strong_count": 0
+          }
+        }
+      ],
+      "expected": "AMBIGUOUS",
+      "category": "ambiguous"
+    },
+    {
+      "text": "Unemployment benefits were extended in the budget.",
+      "judgment": "AMBIGUOUS",
+      "candidates": [
+        {
+          "candidate": "Unemployment",
+          "vector": {
+            "event": "WEAK",
+            "measurement": "INSUFFICIENT",
+            "fact": "MODERATE",
+            "event_type": "COMPATIBLE",
+            "heading": "SUPPORT",
+            "topic": "SUPPORT",
+            "position": "EARLY",
+            "matched_verb": "",
+            "judgment": "AMBIGUOUS",
+            "strong_count": 0
+          }
+        }
+      ],
+      "expected": "AMBIGUOUS",
+      "category": "ambiguous"
+    },
+    {
+      "text": "CPI weights were updated in the methodology revision.",
+      "judgment": "AMBIGUOUS",
+      "candidates": [
+        {
+          "candidate": "Consumer Price Index",
+          "vector": {
+            "event": "WEAK",
+            "measurement": "INSUFFICIENT",
+            "fact": "MODERATE",
+            "event_type": "COMPATIBLE",
+            "heading": "SUPPORT",
+            "topic": "SUPPORT",
+            "position": "EARLY",
+            "matched_verb": "",
+            "judgment": "AMBIGUOUS",
+            "strong_count": 0
+          }
+        }
+      ],
+      "expected": "AMBIGUOUS",
+      "category": "ambiguous"
+    },
+    {
+      "text": "FX reserves were maintained at adequate levels.",
+      "judgment": "AMBIGUOUS",
+      "candidates": [
+        {
+          "candidate": "Foreign Exchange",
+          "vector": {
+            "event": "WEAK",
+            "measurement": "INSUFFICIENT",
+            "fact": "MODERATE",
+            "event_type": "COMPATIBLE",
+            "heading": "SUPPORT",
+            "topic": "SUPPORT",
+            "position": "EARLY",
+            "matched_verb": "",
+            "judgment": "AMBIGUOUS",
+            "strong_count": 0
+          }
+        }
+      ],
+      "expected": "AMBIGUOUS",
+      "category": "ambiguous"
+    },
+    {
+      "text": "Penalty guidelines were published for consultation.",
+      "judgment": "TRUE_SUBJECT",
+      "candidates": [
+        {
+          "candidate": "Penalty",
+          "vector": {
+            "event": "STRONG",
+            "measurement": "INSUFFICIENT",
+            "fact": "MODERATE",
+            "event_type": "COMPATIBLE",
+            "heading": "SUPPORT",
+            "topic": "SUPPORT",
+            "position": "EARLY",
+            "matched_verb": "published",
+            "judgment": "TRUE_SUBJECT",
+            "strong_count": 1
+          }
+        }
+      ],
+      "expected": "AMBIGUOUS",
+      "category": "ambiguous"
+    },
+    {
+      "text": "GDP projections were revised downward slightly.",
+      "judgment": "AMBIGUOUS",
+      "candidates": [
+        {
+          "candidate": "Gross Domestic Product",
+          "vector": {
+            "event": "WEAK",
+            "measurement": "INSUFFICIENT",
+            "fact": "MODERATE",
+            "event_type": "COMPATIBLE",
+            "heading": "SUPPORT",
+            "topic": "SUPPORT",
+            "position": "EARLY",
+            "matched_verb": "",
+            "judgment": "AMBIGUOUS",
+            "strong_count": 0
+          }
+        }
+      ],
+      "expected": "AMBIGUOUS",
+      "category": "ambiguous"
+    },
+    {
+      "text": "Inflation expectations are anchored near the target.",
+      "judgment": "AMBIGUOUS",
+      "candidates": [
+        {
+          "candidate": "Inflation",
+          "vector": {
+            "event": "WEAK",
+            "measurement": "INSUFFICIENT",
+            "fact": "MODERATE",
+            "event_type": "COMPATIBLE",
+            "heading": "SUPPORT",
+            "topic": "SUPPORT",
+            "position": "EARLY",
+            "matched_verb": "",
+            "judgment": "AMBIGUOUS",
+            "strong_count": 0
+          }
+        }
+      ],
+      "expected": "AMBIGUOUS",
+      "category": "ambiguous"
+    },
+    {
+      "text": "Policy Rate stance remains accommodative.",
+      "judgment": "AMBIGUOUS",
+      "candidates": [
+        {
+          "candidate": "Policy Rate",
+          "vector": {
+            "event": "WEAK",
+            "measurement": "INSUFFICIENT",
+            "fact": "MODERATE",
+            "event_type": "NOT_PRIOR",
+            "heading": "SUPPORT",
+            "topic": "SUPPORT",
+            "position": "EARLY",
+            "matched_verb": "",
+            "judgment": "AMBIGUOUS",
+            "strong_count": 0
+          }
+        }
+      ],
+      "expected": "AMBIGUOUS",
+      "category": "ambiguous"
+    },
+    {
+      "text": "Unemployment registrations increased marginally.",
+      "judgment": "TRUE_SUBJECT",
+      "candidates": [
+        {
+          "candidate": "Unemployment",
+          "vector": {
+            "event": "STRONG",
+            "measurement": "INSUFFICIENT",
+            "fact": "MODERATE",
+            "event_type": "COMPATIBLE",
+            "heading": "SUPPORT",
+            "topic": "SUPPORT",
+            "position": "EARLY",
+            "matched_verb": "increased",
+            "judgment": "TRUE_SUBJECT",
+            "strong_count": 1
+          }
+        }
+      ],
+      "expected": "AMBIGUOUS",
+      "category": "ambiguous"
+    },
+    {
+      "text": "CPI sub-indices showed mixed results.",
+      "judgment": "AMBIGUOUS",
+      "candidates": [
+        {
+          "candidate": "Consumer Price Index",
+          "vector": {
+            "event": "WEAK",
+            "measurement": "INSUFFICIENT",
+            "fact": "MODERATE",
+            "event_type": "COMPATIBLE",
+            "heading": "SUPPORT",
+            "topic": "SUPPORT",
+            "position": "EARLY",
+            "matched_verb": "",
+            "judgment": "AMBIGUOUS",
+            "strong_count": 0
+          }
+        }
+      ],
+      "expected": "AMBIGUOUS",
+      "category": "ambiguous"
+    },
+    {
+      "text": "Foreign exchange interventions were not conducted.",
+      "judgment": "AMBIGUOUS",
+      "candidates": [
+        {
+          "candidate": "Foreign Exchange",
+          "vector": {
+            "event": "WEAK",
+            "measurement": "INSUFFICIENT",
+            "fact": "MODERATE",
+            "event_type": "COMPATIBLE",
+            "heading": "SUPPORT",
+            "topic": "SUPPORT",
+            "position": "EARLY",
+            "matched_verb": "",
+            "judgment": "AMBIGUOUS",
+            "strong_count": 0
+          }
+        }
+      ],
+      "expected": "AMBIGUOUS",
+      "category": "ambiguous"
+    },
+    {
+      "text": "Settlement terms were not disclosed publicly.",
+      "judgment": "AMBIGUOUS",
+      "candidates": [
+        {
+          "candidate": "Settlement",
+          "vector": {
+            "event": "WEAK",
+            "measurement": "INSUFFICIENT",
+            "fact": "MODERATE",
+            "event_type": "COMPATIBLE",
+            "heading": "SUPPORT",
+            "topic": "SUPPORT",
+            "position": "EARLY",
+            "matched_verb": "",
+            "judgment": "AMBIGUOUS",
+            "strong_count": 0
+          }
+        }
+      ],
+      "expected": "AMBIGUOUS",
+      "category": "ambiguous"
+    },
+    {
+      "text": "GDP composition shifted toward services.",
+      "judgment": "AMBIGUOUS",
+      "candidates": [
+        {
+          "candidate": "Gross Domestic Product",
+          "vector": {
+            "event": "WEAK",
+            "measurement": "INSUFFICIENT",
+            "fact": "MODERATE",
+            "event_type": "COMPATIBLE",
+            "heading": "SUPPORT",
+            "topic": "SUPPORT",
+            "position": "EARLY",
+            "matched_verb": "",
+            "judgment": "AMBIGUOUS",
+            "strong_count": 0
+          }
+        }
+      ],
+      "expected": "AMBIGUOUS",
+      "category": "ambiguous"
+    },
+    {
+      "text": "Inflation risk assessment was included in the review.",
+      "judgment": "AMBIGUOUS",
+      "candidates": [
+        {
+          "candidate": "Inflation",
+          "vector": {
+            "event": "WEAK",
+            "measurement": "INSUFFICIENT",
+            "fact": "MODERATE",
+            "event_type": "COMPATIBLE",
+            "heading": "SUPPORT",
+            "topic": "SUPPORT",
+            "position": "EARLY",
+            "matched_verb": "",
+            "judgment": "AMBIGUOUS",
+            "strong_count": 0
+          }
+        }
+      ],
+      "expected": "AMBIGUOUS",
+      "category": "ambiguous"
+    },
+    {
+      "text": "Policy Rate corridor was maintained as before.",
+      "judgment": "TRUE_SUBJECT",
+      "candidates": [
+        {
+          "candidate": "Policy Rate",
+          "vector": {
+            "event": "STRONG",
+            "measurement": "INSUFFICIENT",
+            "fact": "MODERATE",
+            "event_type": "NOT_PRIOR",
+            "heading": "SUPPORT",
+            "topic": "SUPPORT",
+            "position": "EARLY",
+            "matched_verb": "maintained",
+            "judgment": "TRUE_SUBJECT",
+            "strong_count": 1
+          }
+        }
+      ],
+      "expected": "AMBIGUOUS",
+      "category": "ambiguous"
+    },
+    {
+      "text": "Unemployment survey methodology was revised.",
+      "judgment": "AMBIGUOUS",
+      "candidates": [
+        {
+          "candidate": "Unemployment",
+          "vector": {
+            "event": "WEAK",
+            "measurement": "INSUFFICIENT",
+            "fact": "MODERATE",
+            "event_type": "COMPATIBLE",
+            "heading": "SUPPORT",
+            "topic": "SUPPORT",
+            "position": "EARLY",
+            "matched_verb": "",
+            "judgment": "AMBIGUOUS",
+            "strong_count": 0
+          }
+        }
+      ],
+      "expected": "AMBIGUOUS",
+      "category": "ambiguous"
+    },
+    {
+      "text": "CPI rebasing was completed for the new series.",
+      "judgment": "AMBIGUOUS",
+      "candidates": [
+        {
+          "candidate": "Consumer Price Index",
+          "vector": {
+            "event": "WEAK",
+            "measurement": "INSUFFICIENT",
+            "fact": "MODERATE",
+            "event_type": "COMPATIBLE",
+            "heading": "SUPPORT",
+            "topic": "SUPPORT",
+            "position": "EARLY",
+            "matched_verb": "",
+            "judgment": "AMBIGUOUS",
+            "strong_count": 0
+          }
+        }
+      ],
+      "expected": "AMBIGUOUS",
+      "category": "ambiguous"
+    },
+    {
+      "text": "FX settlement systems were upgraded.",
+      "judgment": "AMBIGUOUS",
+      "candidates": [
+        {
+          "candidate": "Settlement",
+          "vector": {
+            "event": "WEAK",
+            "measurement": "INSUFFICIENT",
+            "fact": "MODERATE",
+            "event_type": "COMPATIBLE",
+            "heading": "SUPPORT",
+            "topic": "SUPPORT",
+            "position": "EARLY",
+            "matched_verb": "",
+            "judgment": "AMBIGUOUS",
+            "strong_count": 0
+          }
+        },
+        {
+          "candidate": "Foreign Exchange",
+          "vector": {
+            "event": "WEAK",
+            "measurement": "INSUFFICIENT",
+            "fact": "MODERATE",
+            "event_type": "COMPATIBLE",
+            "heading": "SUPPORT",
+            "topic": "SUPPORT",
+            "position": "EARLY",
+            "matched_verb": "",
+            "judgment": "AMBIGUOUS",
+            "strong_count": 0
+          }
+        }
+      ],
+      "expected": "AMBIGUOUS",
+      "category": "ambiguous"
+    },
+    {
+      "text": "Penalty appeal was filed by the respondent.",
+      "judgment": "AMBIGUOUS",
+      "candidates": [
+        {
+          "candidate": "Penalty",
+          "vector": {
+            "event": "WEAK",
+            "measurement": "INSUFFICIENT",
+            "fact": "MODERATE",
+            "event_type": "COMPATIBLE",
+            "heading": "SUPPORT",
+            "topic": "SUPPORT",
+            "position": "EARLY",
+            "matched_verb": "",
+            "judgment": "AMBIGUOUS",
+            "strong_count": 0
+          }
+        }
+      ],
+      "expected": "AMBIGUOUS",
+      "category": "ambiguous"
+    },
+    {
+      "text": "GDP deflator was used for real calculations.",
+      "judgment": "AMBIGUOUS",
+      "candidates": [
+        {
+          "candidate": "Gross Domestic Product",
+          "vector": {
+            "event": "WEAK",
+            "measurement": "INSUFFICIENT",
+            "fact": "MODERATE",
+            "event_type": "COMPATIBLE",
+            "heading": "SUPPORT",
+            "topic": "SUPPORT",
+            "position": "EARLY",
+            "matched_verb": "",
+            "judgment": "AMBIGUOUS",
+            "strong_count": 0
+          }
+        }
+      ],
+      "expected": "AMBIGUOUS",
+      "category": "ambiguous"
+    },
+    {
+      "text": "Inflation forecast was presented in the projection.",
+      "judgment": "AMBIGUOUS",
+      "candidates": [
+        {
+          "candidate": "Inflation",
+          "vector": {
+            "event": "WEAK",
+            "measurement": "INSUFFICIENT",
+            "fact": "MODERATE",
+            "event_type": "COMPATIBLE",
+            "heading": "SUPPORT",
+            "topic": "SUPPORT",
+            "position": "EARLY",
+            "matched_verb": "",
+            "judgment": "AMBIGUOUS",
+            "strong_count": 0
+          }
+        }
+      ],
+      "expected": "AMBIGUOUS",
+      "category": "ambiguous"
+    },
+    {
+      "text": "Policy Rate communication strategy was discussed.",
+      "judgment": "AMBIGUOUS",
+      "candidates": [
+        {
+          "candidate": "Policy Rate",
+          "vector": {
+            "event": "WEAK",
+            "measurement": "INSUFFICIENT",
+            "fact": "MODERATE",
+            "event_type": "NOT_PRIOR",
+            "heading": "SUPPORT",
+            "topic": "SUPPORT",
+            "position": "EARLY",
+            "matched_verb": "",
+            "judgment": "AMBIGUOUS",
+            "strong_count": 0
+          }
+        }
+      ],
+      "expected": "AMBIGUOUS",
+      "category": "ambiguous"
+    },
+    {
+      "text": "Unemployment rate definition was clarified.",
+      "judgment": "AMBIGUOUS",
+      "candidates": [
+        {
+          "candidate": "Unemployment",
+          "vector": {
+            "event": "WEAK",
+            "measurement": "INSUFFICIENT",
+            "fact": "MODERATE",
+            "event_type": "COMPATIBLE",
+            "heading": "SUPPORT",
+            "topic": "SUPPORT",
+            "position": "EARLY",
+            "matched_verb": "",
+            "judgment": "AMBIGUOUS",
+            "strong_count": 0
+          }
+        }
+      ],
+      "expected": "AMBIGUOUS",
+      "category": "ambiguous"
+    },
+    {
+      "text": "CPI basket was reviewed for representativeness.",
+      "judgment": "AMBIGUOUS",
+      "candidates": [
+        {
+          "candidate": "Consumer Price Index",
+          "vector": {
+            "event": "WEAK",
+            "measurement": "INSUFFICIENT",
+            "fact": "MODERATE",
+            "event_type": "COMPATIBLE",
+            "heading": "SUPPORT",
+            "topic": "SUPPORT",
+            "position": "EARLY",
+            "matched_verb": "",
+            "judgment": "AMBIGUOUS",
+            "strong_count": 0
+          }
+        }
+      ],
+      "expected": "AMBIGUOUS",
+      "category": "ambiguous"
+    }
+  ]
+}
