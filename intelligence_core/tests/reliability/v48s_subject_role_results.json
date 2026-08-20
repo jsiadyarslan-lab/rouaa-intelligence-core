@@ -1,0 +1,252 @@
+{
+  "phase": "V48S SUBJECT ROLE & SEMANTIC OBJECT MODEL RECONCILIATION",
+  "baseline_commit": "82263950263f74c4b970a902975b72539d39703f",
+  "recovery_branch_head_before": "bbae37c46463a5cf73240a6933911e038803e03a",
+  "executed_at_utc": "2026-08-20T21:43:07Z",
+  "subject_definition": "subject = the semantic object the event asserts a state, change, action, measurement, or decision about.",
+  "subject_representation_rule": "The subject object can be represented as: ENTITY | CONCEPT | INDICATOR | INSTRUMENT | MARKET | REGULATION. It is NOT required to be an ENTITY.",
+  "v48r_rejected_axiom": "subject = REAL ENTITY",
+  "role_ontology": {
+    "PUBLISHER": {
+      "definition": "The institution responsible for publishing the source/document. Identified from source metadata (source_id, source_path, institution_id). NEVER inferred from event content.",
+      "can_be_null": false,
+      "can_equal_another_role": [
+        "ACTOR"
+      ],
+      "evidence_requirements": "source_id + source_path + (optional) institution_id",
+      "promotable_to_canonical_io": true
+    },
+    "ACTOR": {
+      "definition": "The agent that PERFORMS the action described in the event. Often the publisher, but can differ (e.g., a news outlet reporting on ECB's decision). CAN equal SUBJECT_ENTITY when the event is about the actor's own action (e.g., 'Apple reports revenue' — Apple is both actor AND subject).",
+      "can_be_null": true,
+      "can_equal_another_role": [
+        "PUBLISHER",
+        "SUBJECT_ENTITY"
+      ],
+      "evidence_requirements": "event-local action verb (announces, publishes, releases, issues, decides, raises, lowers, cuts, approves, settles, fines, imposes) + the actor name in the primary segment",
+      "promotable_to_canonical_io": true
+    },
+    "SUBJECT_ENTITY": {
+      "definition": "The REAL ENTITY (institution, company, jurisdiction) that the event is ABOUT — when the event's semantic object is an entity. Can be NULL when the event is about an indicator/concept/instrument (e.g., 'GDP increased' — subject is GDP the INDICATOR, not an entity). CAN equal ACTOR (Apple reports revenue: subject=Apple, actor=Apple). CAN equal AFFECTED_ENTITY (FCA fines Broker X: subject=Broker X, affected=Broker X).",
+      "can_be_null": true,
+      "can_equal_another_role": [
+        "ACTOR",
+        "AFFECTED_ENTITY"
+      ],
+      "evidence_requirements": "entity name in primary segment OR event-local context that structurally binds the entity to the event",
+      "promotable_to_canonical_io": true
+    },
+    "SUBJECT_CONCEPT": {
+      "definition": "The POLICY CONCEPT the event is about (e.g., Monetary Policy, Fiscal Policy, Enforcement Action). Can coexist with SUBJECT_ENTITY (Apple + Revenue). Can be the ONLY subject when no entity is involved (ECB raises rate: subject_concept=Monetary Policy, subject_entity=NOT_FOUND).",
+      "can_be_null": true,
+      "can_equal_another_role": [],
+      "evidence_requirements": "concept alias match in primary segment or event-local heading",
+      "promotable_to_canonical_io": true
+    },
+    "SUBJECT_INDICATOR": {
+      "definition": "The MACROECONOMIC INDICATOR the event is about (e.g., GDP, CPI, Inflation, Unemployment). Can be the ONLY subject (GDP increased in Germany: subject_indicator=GDP, subject_entity=NOT_FOUND). Can coexist with SUBJECT_ENTITY (Apple + Revenue — if Revenue is classified as indicator).",
+      "can_be_null": true,
+      "can_equal_another_role": [],
+      "evidence_requirements": "indicator alias match in primary segment",
+      "promotable_to_canonical_io": true
+    },
+    "SUBJECT_INSTRUMENT": {
+      "definition": "The FINANCIAL INSTRUMENT the event is about (e.g., Policy Rate, Bonds, Equities). Can coexist with SUBJECT_CONCEPT (ECB raises policy rate: subject_concept=Monetary Policy + subject_instrument=Policy Rate).",
+      "can_be_null": true,
+      "can_equal_another_role": [],
+      "evidence_requirements": "instrument alias match in primary segment",
+      "promotable_to_canonical_io": true
+    },
+    "JURISDICTION": {
+      "definition": "The geographic or political scope of the event (e.g., Germany, France, Euro Area, United States, United Kingdom). Can coexist with any subject role. Is NOT the subject itself — it's the scope.",
+      "can_be_null": true,
+      "can_equal_another_role": [],
+      "evidence_requirements": "jurisdiction name in primary segment or event-local context",
+      "promotable_to_canonical_io": true
+    },
+    "AFFECTED_ENTITY": {
+      "definition": "The entity ACTED UPON by the event. CAN equal SUBJECT_ENTITY (FCA fines Broker X: affected=Broker X, subject=Broker X — the event is about Broker X being fined). Is NOT automatically the subject — requires event-type analysis to determine if affected=subject.",
+      "can_be_null": true,
+      "can_equal_another_role": [
+        "SUBJECT_ENTITY"
+      ],
+      "evidence_requirements": "passive verb context (was fined, was penalized, was charged) + entity name",
+      "promotable_to_canonical_io": true
+    },
+    "MENTIONED_ENTITY": {
+      "definition": "An entity that merely APPEARS in the event text but is neither the actor, subject, affected, nor publisher. CANNOT be promoted to subject_entity merely by appearing.",
+      "can_be_null": true,
+      "can_equal_another_role": [],
+      "evidence_requirements": "entity name in text without event-local binding",
+      "promotable_to_canonical_io": false
+    }
+  },
+  "coexistence_rules": {
+    "subject_entity + subject_concept CAN coexist": true,
+    "subject_entity + subject_indicator CAN coexist": true,
+    "subject_entity + subject_instrument CAN coexist": true,
+    "subject_concept + subject_indicator CAN coexist": true,
+    "subject_concept + subject_instrument CAN coexist": true,
+    "actor + subject_entity CAN be same": true,
+    "actor + subject_entity CAN differ": true,
+    "affected_entity + subject_entity CAN be same": true,
+    "affected_entity + subject_entity CAN differ": true,
+    "publisher + actor CAN be same": true,
+    "publisher + actor CAN differ": true,
+    "mentioned_entity + subject_entity CANNOT auto-promote": true
+  },
+  "mandatory_cases": [
+    {
+      "text": "ECB raises policy rate",
+      "publisher": "European Central Bank",
+      "actor": "European Central Bank",
+      "subject_entity": null,
+      "subject_concept": "Monetary Policy",
+      "subject_indicator": null,
+      "subject_instrument": "Policy Rate",
+      "jurisdiction": "Euro Area",
+      "affected_entity": null,
+      "rationale": "The event is about ECB's decision to raise the policy rate. ECB is the ACTOR (it performs the 'raise' action). The SUBJECT is the policy rate — which is an INSTRUMENT, not an entity. subject_concept=Monetary Policy captures the broader policy area. subject_entity=NOT_FOUND because the event is not about an entity (e.g., a company or institution being acted upon); it's about a financial instrument. Actor ≠ Subject here because ECB is the actor, not the semantic object of the event."
+    },
+    {
+      "text": "Apple reports revenue",
+      "publisher": null,
+      "actor": "Apple",
+      "subject_entity": "Apple",
+      "subject_concept": "Revenue",
+      "subject_indicator": null,
+      "subject_instrument": null,
+      "jurisdiction": null,
+      "affected_entity": null,
+      "rationale": "The event is about Apple's revenue report. Apple is BOTH the ACTOR (it reports) AND the SUBJECT_ENTITY (the event is about Apple). subject_concept=Revenue captures what kind of report. Actor = Subject here — this is a legal coexistence per §5. subject_entity is NOT_FOUND only if we refuse to treat Apple as an entity — but Apple IS a real company entity. The ENTITY_REGISTRY is empty (per §7), so in practice this IO would have subject_entity=NOT_FOUND until the registry is populated. But the SEMANTIC MODEL says: if Apple were in the registry, subject_entity=Apple would be correct."
+    },
+    {
+      "text": "FCA fines Broker X",
+      "publisher": "Financial Conduct Authority",
+      "actor": "Financial Conduct Authority",
+      "subject_entity": "Broker X",
+      "subject_concept": "Enforcement Action",
+      "subject_indicator": null,
+      "subject_instrument": null,
+      "jurisdiction": "United Kingdom",
+      "affected_entity": "Broker X",
+      "rationale": "The event is about Broker X being fined by FCA. Broker X is BOTH the AFFECTED_ENTITY (it is acted upon) AND the SUBJECT_ENTITY (the event is about Broker X). FCA is the ACTOR and PUBLISHER. subject_concept=Enforcement Action captures the event type. Affected = Subject here — this is a legal coexistence per §5. V48R incorrectly said 'affected → never subject' — V48S corrects this: affected CAN equal subject when the event is about the affected entity."
+    },
+    {
+      "text": "GDP increased in Germany",
+      "publisher": null,
+      "actor": null,
+      "subject_entity": null,
+      "subject_concept": null,
+      "subject_indicator": "GDP",
+      "subject_instrument": null,
+      "jurisdiction": "Germany",
+      "affected_entity": null,
+      "rationale": "The event is about GDP increasing. GDP is an INDICATOR, not an entity. subject_indicator=GDP. jurisdiction=Germany. There is NO actor (no one 'performed' the increase — it's a statistical observation). subject_entity=NOT_FOUND is CORRECT and EXPECTED — the event doesn't need an entity subject. The IO is institutionally useful even without subject_entity. This is the key V48S insight: subject can be an INDICATOR without any entity."
+    },
+    {
+      "text": "Inflation rose in France",
+      "publisher": null,
+      "actor": null,
+      "subject_entity": null,
+      "subject_concept": null,
+      "subject_indicator": "Inflation",
+      "subject_instrument": null,
+      "jurisdiction": "France",
+      "affected_entity": null,
+      "rationale": "The event is about inflation rising. Inflation is an INDICATOR. subject_indicator=Inflation. jurisdiction=France. No actor, no entity subject. The IO is institutionally useful (inflation is a key macro indicator for monetary policy decisions). subject_entity=NOT_FOUND is correct."
+    }
+  ],
+  "readiness_coupling_analysis": {
+    "current_rule": "entity_ok = entity_status == ENTITY_CONFIRMED",
+    "problem": "The current readiness model makes entity confirmation a HARD requirement for READY. This means IOs about macro indicators (GDP, CPI, Inflation) can NEVER be READY — even though they are institutionally useful. This is a P0 semantic governance issue.",
+    "impact": {
+      "central_bank_policy_decision": "READY requires entity_ok. ECB policy decision has subject_concept=Monetary Policy + subject_instrument=Policy Rate but subject_entity=NOT_FOUND. Under current rule: BLOCKED. Under V48S model: should be READY (has 2 confirmed subject roles).",
+      "gdp_release": "GDP release has subject_indicator=GDP + jurisdiction=Germany but subject_entity=NOT_FOUND. Under current rule: BLOCKED. Under V48S model: should be READY (has confirmed indicator + jurisdiction).",
+      "inflation_release": "Inflation release has subject_indicator=Inflation + jurisdiction=France. Under current rule: BLOCKED. Under V48S model: should be READY.",
+      "regulatory_enforcement": "FCA fines Broker X has subject_entity=Broker X + affected_entity=Broker X + subject_concept=Enforcement Action. Under current rule: READY (if Broker X in registry). Under V48S model: READY.",
+      "market_level_event": "Market events (e.g., FX moves) may have subject_instrument=Foreign Exchange but no entity. Under current rule: BLOCKED. Under V48S model: should be PARTIAL or READY.",
+      "company_earnings": "Apple reports revenue has subject_entity=Apple + subject_concept=Revenue. Under current rule: READY (if Apple in registry). Under V48S model: READY."
+    },
+    "proposed_fix": "READY should require: at least ONE of {subject_entity, subject_concept, subject_indicator, subject_instrument} is CONFIRMED — NOT specifically subject_entity. This decouples readiness from entity-only confirmation.",
+    "v48s_decision": "V48S does NOT change the readiness implementation (per §6 'Do not change the readiness implementation yet'). V48S only produces the semantic decision and impact analysis. The fix belongs to a later phase."
+  },
+  "test_results": {
+    "modules": {
+      "48 baseline": {
+        "module": "intelligence_core.tests.run_all",
+        "passed": true
+      },
+      "37 V37.2": {
+        "module": "intelligence_core.tests.reliability.v37_2_structural_evidence_test",
+        "passed": true
+      },
+      "30 collision": {
+        "module": "intelligence_core.tests.reliability.v37_2_collision_fix_tests",
+        "passed": true
+      },
+      "9 sub-collision": {
+        "module": "intelligence_core.tests.reliability.v37_2_sub_collision_tests",
+        "passed": true
+      },
+      "22 purpose": {
+        "module": "intelligence_core.tests.reliability.recovery_segment_purpose_tests",
+        "passed": true
+      },
+      "29 V46": {
+        "module": "intelligence_core.tests.reliability.v46_evidence_context_tests",
+        "passed": true
+      },
+      "6 V46.1": {
+        "module": "intelligence_core.tests.reliability.v46_1_semantic_claim_forensics_tests",
+        "passed": true
+      },
+      "6 V47A": {
+        "module": "intelligence_core.tests.reliability.v47_semantic_claim_binding_tests",
+        "passed": true
+      },
+      "35 V47C": {
+        "module": "intelligence_core.tests.reliability.v47c_publisher_institution_tests",
+        "passed": true
+      },
+      "26 V48": {
+        "module": "intelligence_core.tests.reliability.v48_subject_entity_tests",
+        "passed": true
+      },
+      "50 V48S": {
+        "module": "intelligence_core.tests.reliability.v48s_subject_role_tests",
+        "passed": true
+      }
+    },
+    "passed_modules": 11,
+    "total_modules": 11,
+    "test_count": 298,
+    "all_tests_pass": true
+  },
+  "acceptance_gates": {
+    "g1_subject_formally_defined": true,
+    "g2_actor_formally_separated": true,
+    "g3_publisher_formally_separated": true,
+    "g4_affected_formally_separated": true,
+    "g5_entity_concept_indicator_instrument_separated": true,
+    "g6_subject_without_forcing_entity": true,
+    "g7_role_coexistence_explicit": true,
+    "g8_five_mandatory_cases_resolved": true,
+    "g9_no_publisher_to_subject_promotion": true,
+    "g10_no_actor_to_subject_automatic_promotion": true,
+    "g11_no_indicator_to_entity_promotion": true,
+    "g12_no_affected_to_subject_automatic_prohibition": true,
+    "g13_facts_unchanged": true,
+    "g14_events_unchanged": true,
+    "g15_evidence_unchanged": true,
+    "g16_no_extraction_changes": true,
+    "g17_no_source_expansion": true,
+    "g18_no_llm": true,
+    "g19_existing_tests_pass": true,
+    "g20_v48s_tests_pass": true,
+    "g21_readiness_coupling_documented": true,
+    "g22_no_product_integration": true,
+    "all_pass": true
+  },
+  "verdict": "V48S SUBJECT ROLE SEMANTIC MODEL PASSED"
+}
