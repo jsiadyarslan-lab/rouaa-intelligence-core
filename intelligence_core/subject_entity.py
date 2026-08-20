@@ -690,29 +690,62 @@ def _check_topic_coherence(
     all_segments: list,
     io: dict,
     primary_heading_context: str = "",
+    primary_text: str = "",
 ) -> bool:
-    """V48Y §2-7 — Check if candidate is consistent with the document topic.
+    """V48Z §2-3 — Topic coherence with three-way result + position check.
 
-    Uses BOTH the document title (first HEADING) AND the primary segment's
-    heading_context as topic signals.
+    V48Z FIXES V48Y:
+    1. Fact metric alignment is executed BEFORE heading check (was dead code)
+    2. Three-way result: COHERENT / INCONCLUSIVE / MISMATCH
+    3. §3: heading absence → INCONCLUSIVE (not MISMATCH)
+    4. Position check: if candidate is in first 150 chars of primary text → COHERENT
+       (the primary text itself IS about the candidate, regardless of heading)
+    5. Only MISMATCH when: fact metric contradicts candidate
+       OR candidate appears LATE in primary text AND heading names a
+       specific topic that contains NO registry alias (unrelated topic)
 
-    Strategy:
-    1. Check primary segment's heading_context — if it names a different
-       topic (doesn't contain the candidate's alias, and is specific)
-       → DOCUMENT_TOPIC_MISMATCH
-    2. Check document title — same logic
-    3. Check fact metric alignment
-    4. If no topic signal → proceed (True)
+    The key distinction between TRUE_SUBJECTs and FALSE_BINDINGs:
+    - TRUE_SUBJECT: candidate appears EARLY in primary text (it IS the topic)
+    - FALSE_BINDING: candidate appears LATE in primary text (it's context)
     """
     # Build the combined topic text from heading_context + document title
     doc_title = _extract_document_title(all_segments)
     topic_text = " ".join(filter(None, [primary_heading_context, doc_title]))
     if not topic_text or len(topic_text) < 10:
-        return True  # no topic signal — can't determine
+        return True  # INCONCLUSIVE — no topic signal
 
     topic_lower = topic_text.lower()
     candidate_name = candidate.get("canonical_name", "").lower()
     candidate_aliases = [a.lower() for a in candidate.get("aliases", [])]
+    candidate_id = candidate.get("canonical_id", "")
+
+    # §7 — FACT METRIC ALIGNMENT (V48Z: executed FIRST, not dead code)
+    facts = io.get("facts", [])
+    fact_metrics = {f.get("metric", "") for f in facts}
+    metric_to_canonical = {
+        "policy_rate": "policy_rate",
+        "gdp_growth": "gdp_growth",
+        "inflation_rate": "inflation",
+        "unemployment_rate": "unemployment",
+        "penalty_amount": "penalty",
+        "usd_amount": "penalty",
+        "percentage_statistic": None,  # generic
+    }
+    expected_canonical = None
+    for fm in fact_metrics:
+        if fm in metric_to_canonical:
+            expected_canonical = metric_to_canonical[fm]
+            break
+
+    # If fact metric explicitly aligns with candidate → COHERENT
+    if expected_canonical and expected_canonical == candidate_id:
+        return True  # COHERENT — fact IS about the candidate
+
+    # If fact metric explicitly points to a DIFFERENT candidate → MISMATCH
+    if expected_canonical and expected_canonical != candidate_id:
+        return False  # MISMATCH — fact is about a different subject
+
+    # Fact metric is generic — proceed to heading check
 
     # Check if the candidate's own alias appears in the topic text
     candidate_in_topic = False
@@ -724,10 +757,22 @@ def _check_topic_coherence(
         candidate_in_topic = True
 
     if candidate_in_topic:
-        return True  # candidate IS in the topic → topic-coherent
+        return True  # COHERENT — candidate IS in the topic
 
-    # Candidate NOT in topic text → check if topic is specific
-    # (not just an institution name or generic title)
+    # V48Z §3+§7 — POSITION CHECK:
+    # If candidate appears in the first 150 chars of primary text → COHERENT
+    # This is the key signal: TRUE_SUBJECTs appear EARLY (they ARE the topic).
+    # FALSE_BINDINGs appear LATE (they're context/comparison).
+    if primary_text:
+        first_150 = primary_text[:150].lower()
+        for alias in candidate_aliases:
+            if re.search(r"\b" + re.escape(alias) + r"\b", first_150):
+                return True  # COHERENT — candidate is in first 150 chars
+        if candidate_name and re.search(r"\b" + re.escape(candidate_name) + r"\b", first_150):
+            return True  # COHERENT
+
+    # Candidate NOT in topic text AND NOT in first 150 chars of primary text
+    # → check if topic is specific
     generic_indicators = [
         "press release", "statement", "announcement", "notice",
         "board of governors", "european central bank", "ecb",
@@ -735,36 +780,36 @@ def _check_topic_coherence(
         "federal reserve", "bank of japan", "boj", "bank of england",
         "monetary policy summary", "minutes",
         "related topics", "notes", "skip to",
+        "embargo", "embargoed", "release at",
     ]
     topic_is_generic = any(g in topic_lower for g in generic_indicators)
     if topic_is_generic:
-        return True  # topic is generic — can't determine mismatch
+        return True  # INCONCLUSIVE — topic is generic
 
-    # Topic is specific and doesn't contain the candidate → topic mismatch
-    return False
+    # Topic is specific, candidate NOT in topic, NOT in first 150 chars
+    # V48Z §3: heading absence is INCONCLUSIVE, not MISMATCH
+    # Check if heading contains ANY registry alias
+    # If YES → INCONCLUSIVE (heading is about a related economic topic)
+    # If NO → MISMATCH (heading names an unrelated, unregistered topic
+    #         AND candidate is late in text → strong signal it's context)
+    any_registry_alias_in_topic = False
+    for reg_type, reg in _ALL_REGISTRIES.items():
+        for cid, (cname, etype, aliases) in reg.items():
+            for alias in aliases:
+                if re.search(r"\b" + re.escape(alias) + r"\b", topic_lower):
+                    any_registry_alias_in_topic = True
+                    break
+            if any_registry_alias_in_topic:
+                break
+        if any_registry_alias_in_topic:
+            break
 
-    # §7 — Fact metric alignment
-    # Check if the fact metric aligns with the candidate
-    facts = io.get("facts", [])
-    fact_metrics = {f.get("metric", "") for f in facts}
-    candidate_id = candidate.get("canonical_id", "")
+    if any_registry_alias_in_topic:
+        return True  # INCONCLUSIVE — heading contains a related registry topic
 
-    # Map fact metrics to registry canonical_ids
-    metric_to_canonical = {
-        "policy_rate": "policy_rate",
-        "gdp_growth": "gdp_growth",
-        "inflation_rate": "inflation",
-        "unemployment_rate": "unemployment",
-        "penalty_amount": "penalty",
-        "usd_amount": "penalty",
-        "percentage_statistic": None,  # generic — can't determine
-    }
-
-    expected_canonical = metric_to_canonical.get(list(fact_metrics)[0] if fact_metrics else "", None)
-    if expected_canonical and candidate_id != expected_canonical:
-        # The fact metric points to a DIFFERENT candidate
-        # → this candidate is likely context, not subject
-        return False
+    # No registry alias in heading AND candidate is late in primary text
+    # → the document is about an unrelated topic AND candidate is context
+    return False  # MISMATCH
 
     return True  # no topic mismatch detected — proceed with binding
 
@@ -914,7 +959,7 @@ def resolve_subject(
     # align with the document's actual topic. This prevents the 5
     # V48X FALSE_BINDINGs: candidates that passed semantic binding
     # but the document is about a DIFFERENT topic.
-    # Pass the primary segment's heading_context as topic signal.
+    # Pass the primary segment's heading_context AND text as topic signals.
     def _get_heading_context(cand):
         """Get heading_context for a candidate's primary segment."""
         fid = cand.get("supporting_fact_id", "")
@@ -922,11 +967,18 @@ def resolve_subject(
         if seg and hasattr(seg, "heading_context"):
             return seg.heading_context or ""
         return ""
-    bound_concept = [c for c in bound_concept if _check_topic_coherence(c, all_segments, io, _get_heading_context(c))]
-    bound_indicator = [c for c in bound_indicator if _check_topic_coherence(c, all_segments, io, _get_heading_context(c))]
-    bound_instrument = [c for c in bound_instrument if _check_topic_coherence(c, all_segments, io, _get_heading_context(c))]
-    bound_regulation = [c for c in bound_regulation if _check_topic_coherence(c, all_segments, io, _get_heading_context(c))]
-    bound_market = [c for c in bound_market if _check_topic_coherence(c, all_segments, io, _get_heading_context(c))]
+    def _get_primary_text(cand):
+        """Get primary text for a candidate's primary segment."""
+        fid = cand.get("supporting_fact_id", "")
+        seg = primary_segments_by_fact.get(fid)
+        if seg:
+            return seg.text or ""
+        return ""
+    bound_concept = [c for c in bound_concept if _check_topic_coherence(c, all_segments, io, _get_heading_context(c), _get_primary_text(c))]
+    bound_indicator = [c for c in bound_indicator if _check_topic_coherence(c, all_segments, io, _get_heading_context(c), _get_primary_text(c))]
+    bound_instrument = [c for c in bound_instrument if _check_topic_coherence(c, all_segments, io, _get_heading_context(c), _get_primary_text(c))]
+    bound_regulation = [c for c in bound_regulation if _check_topic_coherence(c, all_segments, io, _get_heading_context(c), _get_primary_text(c))]
+    bound_market = [c for c in bound_market if _check_topic_coherence(c, all_segments, io, _get_heading_context(c), _get_primary_text(c))]
 
     # Helper to build separate-field dicts (V48U: separate MARKET and REGULATION)
     def _sep_field(cands):

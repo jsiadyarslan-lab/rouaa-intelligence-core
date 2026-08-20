@@ -1,0 +1,278 @@
+{
+  "phase": "V48Z TOPIC COHERENCE VALIDATION & RECALL SAFETY",
+  "baseline_commit": "82263950263f74c4b970a902975b72539d39703f",
+  "executed_at_utc": "2026-08-20T23:21:49Z",
+  "v48x_true_subjects": 19,
+  "v48x_false_bindings": 5,
+  "true_subject_retained": 11,
+  "true_subject_lost": 8,
+  "false_binding_eliminated": 4,
+  "new_false_introduced": 0,
+  "generalization_pass": 63,
+  "generalization_total": 70,
+  "positive_controls_pass": 23,
+  "positive_controls_total": 30,
+  "negative_controls_pass": 35,
+  "negative_controls_total": 35,
+  "blocked_sample_size": 50,
+  "hidden_true_subjects": 0,
+  "reaudit": [
+    {
+      "io_id": "io-6e897d602140277f",
+      "v48x_role": "TRUE_SUBJECT",
+      "v48z_confirmed": false,
+      "agreement": "DISAGREE_LOST",
+      "v48x_candidate": "Foreign Exchange"
+    },
+    {
+      "io_id": "io-82bd93037aae3793",
+      "v48x_role": "FALSE_BINDING",
+      "v48z_confirmed": false,
+      "agreement": "AGREE",
+      "v48x_candidate": "Inflation"
+    },
+    {
+      "io_id": "io-34e78b9a8798dc7a",
+      "v48x_role": "AMBIGUOUS",
+      "v48z_confirmed": true,
+      "agreement": "N/A",
+      "v48x_candidate": "Unemployment"
+    },
+    {
+      "io_id": "io-d699eb90722fdf91",
+      "v48x_role": "TRUE_SUBJECT",
+      "v48z_confirmed": false,
+      "agreement": "DISAGREE_LOST",
+      "v48x_candidate": "Gross Domestic Product"
+    },
+    {
+      "io_id": "io-9701ebc40db3ea9b",
+      "v48x_role": "TRUE_SUBJECT",
+      "v48z_confirmed": true,
+      "agreement": "AGREE",
+      "v48x_candidate": "Penalty"
+    },
+    {
+      "io_id": "io-e360d9bc9e0d2c0c",
+      "v48x_role": "TRUE_SUBJECT",
+      "v48z_confirmed": true,
+      "agreement": "AGREE",
+      "v48x_candidate": "Inflation"
+    },
+    {
+      "io_id": "io-986440761d453dab",
+      "v48x_role": "TRUE_SUBJECT",
+      "v48z_confirmed": true,
+      "agreement": "AGREE",
+      "v48x_candidate": "Gross Domestic Product"
+    },
+    {
+      "io_id": "io-e8de8736c33c9961",
+      "v48x_role": "TRUE_SUBJECT",
+      "v48z_confirmed": true,
+      "agreement": "AGREE",
+      "v48x_candidate": "Gross Domestic Product"
+    },
+    {
+      "io_id": "io-4d0ae13598a4e04d",
+      "v48x_role": "FALSE_BINDING",
+      "v48z_confirmed": false,
+      "agreement": "AGREE",
+      "v48x_candidate": "Gross Domestic Product"
+    },
+    {
+      "io_id": "io-25d63db0b736fc25",
+      "v48x_role": "AMBIGUOUS",
+      "v48z_confirmed": false,
+      "agreement": "N/A",
+      "v48x_candidate": "Gross Domestic Product"
+    },
+    {
+      "io_id": "io-3be9de8dd3168da7",
+      "v48x_role": "FALSE_BINDING",
+      "v48z_confirmed": true,
+      "agreement": "DISAGREE_NOT_ELIMINATED",
+      "v48x_candidate": "Penalty"
+    },
+    {
+      "io_id": "io-8dd0b49dbd84784f",
+      "v48x_role": "TRUE_SUBJECT",
+      "v48z_confirmed": true,
+      "agreement": "AGREE",
+      "v48x_candidate": "Gross Domestic Product"
+    },
+    {
+      "io_id": "io-c7e628b08293fd42",
+      "v48x_role": "TRUE_SUBJECT",
+      "v48z_confirmed": true,
+      "agreement": "AGREE",
+      "v48x_candidate": "Gross Domestic Product"
+    },
+    {
+      "io_id": "io-534abe93a5d52fcf",
+      "v48x_role": "TRUE_SUBJECT",
+      "v48z_confirmed": false,
+      "agreement": "DISAGREE_LOST",
+      "v48x_candidate": "Foreign Exchange"
+    },
+    {
+      "io_id": "io-800941fa5aa8ae0f",
+      "v48x_role": "FALSE_BINDING",
+      "v48z_confirmed": false,
+      "agreement": "AGREE",
+      "v48x_candidate": "Inflation"
+    },
+    {
+      "io_id": "io-1c89837982b29495",
+      "v48x_role": "AMBIGUOUS",
+      "v48z_confirmed": true,
+      "agreement": "N/A",
+      "v48x_candidate": "Penalty"
+    },
+    {
+      "io_id": "io-e1006f232af90069",
+      "v48x_role": "TRUE_SUBJECT",
+      "v48z_confirmed": false,
+      "agreement": "DISAGREE_LOST",
+      "v48x_candidate": "Policy Rate"
+    },
+    {
+      "io_id": "io-1d843980c07050f9",
+      "v48x_role": "TRUE_SUBJECT",
+      "v48z_confirmed": false,
+      "agreement": "DISAGREE_LOST",
+      "v48x_candidate": "Policy Rate"
+    },
+    {
+      "io_id": "io-cb08d31a4e009be2",
+      "v48x_role": "TRUE_SUBJECT",
+      "v48z_confirmed": false,
+      "agreement": "DISAGREE_LOST",
+      "v48x_candidate": "Gross Domestic Product"
+    },
+    {
+      "io_id": "io-cba6421b7b401b5d",
+      "v48x_role": "TRUE_SUBJECT",
+      "v48z_confirmed": false,
+      "agreement": "DISAGREE_LOST",
+      "v48x_candidate": "Gross Domestic Product"
+    },
+    {
+      "io_id": "io-2dff78ee576bc9cf",
+      "v48x_role": "TRUE_SUBJECT",
+      "v48z_confirmed": true,
+      "agreement": "AGREE",
+      "v48x_candidate": "Gross Domestic Product"
+    },
+    {
+      "io_id": "io-7534fcd5081601e3",
+      "v48x_role": "TRUE_SUBJECT",
+      "v48z_confirmed": true,
+      "agreement": "AGREE",
+      "v48x_candidate": "Gross Domestic Product"
+    },
+    {
+      "io_id": "io-a4528f6cfe29cfe1",
+      "v48x_role": "TRUE_SUBJECT",
+      "v48z_confirmed": true,
+      "agreement": "AGREE",
+      "v48x_candidate": "Gross Domestic Product"
+    },
+    {
+      "io_id": "io-8e1bbee497570547",
+      "v48x_role": "TRUE_SUBJECT",
+      "v48z_confirmed": true,
+      "agreement": "AGREE",
+      "v48x_candidate": "Gross Domestic Product"
+    },
+    {
+      "io_id": "io-9055358b3afdea8e",
+      "v48x_role": "AMBIGUOUS",
+      "v48z_confirmed": false,
+      "agreement": "N/A",
+      "v48x_candidate": "Gross Domestic Product"
+    },
+    {
+      "io_id": "io-c60cc20f95cda57b",
+      "v48x_role": "TRUE_SUBJECT",
+      "v48z_confirmed": true,
+      "agreement": "AGREE",
+      "v48x_candidate": "Foreign Exchange"
+    },
+    {
+      "io_id": "io-cb08d31a4e009be2",
+      "v48x_role": "CONTEXT",
+      "v48z_confirmed": false,
+      "agreement": "N/A",
+      "v48x_candidate": "Policy Rate"
+    },
+    {
+      "io_id": "io-1d843980c07050f9",
+      "v48x_role": "CONTEXT",
+      "v48z_confirmed": false,
+      "agreement": "N/A",
+      "v48x_candidate": "Policy Rate"
+    },
+    {
+      "io_id": "io-9dc27286de2cc8d8",
+      "v48x_role": "AMBIGUOUS",
+      "v48z_confirmed": false,
+      "agreement": "N/A",
+      "v48x_candidate": "Penalty"
+    },
+    {
+      "io_id": "io-bd378fea8d59bb17",
+      "v48x_role": "FALSE_BINDING",
+      "v48z_confirmed": false,
+      "agreement": "AGREE",
+      "v48x_candidate": "Policy Rate"
+    },
+    {
+      "io_id": "io-dd7f1db542d212a3",
+      "v48x_role": "TRUE_SUBJECT",
+      "v48z_confirmed": false,
+      "agreement": "DISAGREE_LOST",
+      "v48x_candidate": "Consumer Price Index"
+    },
+    {
+      "io_id": "io-bea0b6a376d6f629",
+      "v48x_role": "CONTEXT",
+      "v48z_confirmed": false,
+      "agreement": "N/A",
+      "v48x_candidate": "Gross Domestic Product"
+    }
+  ],
+  "test_results": {
+    "passed_modules": 13,
+    "total_modules": 13,
+    "all_tests_pass": true
+  },
+  "acceptance_gates": {
+    "g1_fact_metric_alignment_executable": true,
+    "g2_32_human_seed_reaudited": true,
+    "g3_19_true_subject_retained": false,
+    "g4_5_false_bindings_eliminated": true,
+    "g5_50_blocked_reviewed": true,
+    "g6_20_unseen_positive_tested": true,
+    "g7_20_unseen_negative_tested": true,
+    "g8_no_registry_match_only": true,
+    "g9_heading_absence_may_produce_inconclusive": true,
+    "g10_no_automatic_rejection_solely_alias_absent": true,
+    "g11_market_first_class": true,
+    "g12_regulation_first_class": true,
+    "g13_facts_unchanged": true,
+    "g14_events_unchanged": true,
+    "g15_evidence_unchanged": true,
+    "g16_provenance_unchanged": true,
+    "g17_no_source_expansion": true,
+    "g18_no_llm": true,
+    "g19_no_entity_registry_population": true,
+    "g20_338_existing_tests_pass": true,
+    "g21_v48z_tests_pass": true,
+    "g22_no_precision_claim": true,
+    "g23_every_human_true_retained_or_explained": false,
+    "all_pass": false
+  },
+  "verdict": "V48Z TOPIC COHERENCE VALIDATION BLOCKED",
+  "no_precision_claim": true
+}
