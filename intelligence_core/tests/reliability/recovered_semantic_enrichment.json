@@ -1,0 +1,81 @@
+{
+  "phase": "ROUAA CORE RECOVERY — CANONICAL SEMANTIC ENRICHMENT",
+  "baseline_commit": "82263950263f74c4b970a902975b72539d39703f",
+  "executed_at_utc": "2026-08-20T18:57:04Z",
+  "enrichment_seconds": 0.1,
+  "new_io_count_enriched": 371,
+  "coverage": {
+    "entity_found": 371,
+    "entity_ambiguous": 0,
+    "entity_missing": 0,
+    "entity_found_rate": 1.0,
+    "publication_date_found": 20,
+    "reference_period_found": 67,
+    "temporal_complete": 2,
+    "temporal_partial": 83,
+    "temporal_none": 286,
+    "temporal_complete_rate": 0.005390835579514825,
+    "event_state_counts": {
+      "UNKNOWN": 355,
+      "NEW": 11,
+      "REVISED": 5
+    },
+    "headline_specific_supported": 371,
+    "headline_unknown": 0,
+    "headline_supported_rate": 1.0
+  },
+  "safety": {
+    "unsupported_semantic_claims": 0,
+    "broken_provenance": 0,
+    "entity_ambiguity_reported": true,
+    "temporal_absence_reported": true,
+    "event_state_uncertainty_reported": true
+  },
+  "test_results": {
+    "modules": {
+      "48 baseline": {
+        "module": "intelligence_core.tests.run_all",
+        "passed": true,
+        "returncode": 0
+      },
+      "37 V37.2": {
+        "module": "intelligence_core.tests.reliability.v37_2_structural_evidence_test",
+        "passed": true,
+        "returncode": 0
+      },
+      "30 collision": {
+        "module": "intelligence_core.tests.reliability.v37_2_collision_fix_tests",
+        "passed": true,
+        "returncode": 0
+      },
+      "9 sub-collision": {
+        "module": "intelligence_core.tests.reliability.v37_2_sub_collision_tests",
+        "passed": true,
+        "returncode": 0
+      },
+      "22 purpose": {
+        "module": "intelligence_core.tests.reliability.recovery_segment_purpose_tests",
+        "passed": true,
+        "returncode": 0
+      }
+    },
+    "passed_modules": 5,
+    "total_modules": 5,
+    "test_count": 146,
+    "all_tests_pass": true
+  },
+  "safety_gates": {
+    "unsupported_semantic_claims_zero": true,
+    "broken_provenance_zero": true,
+    "entity_ambiguity_reported_not_hidden": true,
+    "temporal_absence_reported_not_invented": true,
+    "event_state_uncertainty_reported_not_invented": true,
+    "all_tests_pass": true,
+    "all_pass": true
+  },
+  "artifacts_produced": [
+    "docs/evidence/ROUAA_CORE_RECOVERED_SEMANTIC_ENRICHMENT.md",
+    "intelligence_core/tests/reliability/recovered_semantic_enrichment.json",
+    "intelligence_core/tests/reliability/recovered_enriched_ios.jsonl"
+  ]
+}
