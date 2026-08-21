@@ -10,1269 +10,156 @@
     "CONTEXT": "The candidate appears as a noun modifier or context-only reference (e.g., 'FX turnover data is collected' — FX is a modifier of 'data', not the subject of an action)."
   },
   "cases": [
-    {
-      "case_id": 1,
-      "category": "positive",
-      "text": "Quarterly GDP growth accelerated to 3.1% in the second quarter from 1.8% in the first, the BEA reported in its second estimate.",
-      "human_label": "TRUE_SUBJECT",
-      "candidate": "Gross Domestic Product",
-      "reasoning": "GDP growth 'accelerated to 3.1%' — GDP is the subject of the acceleration event."
-    },
-    {
-      "case_id": 2,
-      "category": "positive",
-      "text": "The annual inflation rate reached 4.7% in November, surpassing the central bank's projections.",
-      "human_label": "TRUE_SUBJECT",
-      "candidate": "Inflation",
-      "reasoning": "Inflation 'reached 4.7%' — inflation is the subject of the measurement event."
-    },
-    {
-      "case_id": 3,
-      "category": "positive",
-      "text": "Bank Rate was held at 5.25% by the Monetary Policy Committee in a split 5-4 vote.",
-      "human_label": "TRUE_SUBJECT",
-      "candidate": "Policy Rate",
-      "reasoning": "Bank Rate 'was held at 5.25%' — Bank Rate is the policy rate; it is the subject. NOTE: 'Bank Rate' alias may not be in registry — if V2.1 returns NO_CANDIDATE, this is a DATA_GAP finding."
-    },
-    {
-      "case_id": 4,
-      "category": "positive",
-      "text": "Consumer price inflation eased to 2.9% year-over-year in September, the ONS reported.",
-      "human_label": "TRUE_SUBJECT",
-      "candidate": "Inflation",
-      "reasoning": "Inflation 'eased to 2.9%' — inflation is the subject."
-    },
-    {
-      "case_id": 5,
-      "category": "positive",
-      "text": "The unemployment rate dropped to 3.5% in October, the BLS announced, the lowest since 1969.",
-      "human_label": "TRUE_SUBJECT",
-      "candidate": "Unemployment",
-      "reasoning": "Unemployment 'dropped to 3.5%' — unemployment is the subject of the decline event."
-    },
-    {
-      "case_id": 6,
-      "category": "positive",
-      "text": "Average daily foreign exchange turnover stood at $4.8 trillion in the latest central bank survey.",
-      "human_label": "TRUE_SUBJECT",
-      "candidate": "Foreign Exchange",
-      "reasoning": "FX turnover 'stood at $4.8 trillion' — FX is the measured object."
-    },
-    {
-      "case_id": 7,
-      "category": "positive",
-      "text": "The SEC imposed a $15 million penalty on the firm for accounting fraud violations.",
-      "human_label": "TRUE_SUBJECT",
-      "candidate": "Penalty",
-      "reasoning": "Penalty 'was imposed at $15 million' — penalty is the subject of the imposition event."
-    },
-    {
-      "case_id": 8,
-      "category": "positive",
-      "text": "Real gross domestic product expanded at a 2.6% annual rate in the third quarter, according to the advance estimate.",
-      "human_label": "TRUE_SUBJECT",
-      "candidate": "Gross Domestic Product",
-      "reasoning": "GDP 'expanded at 2.6%' — GDP is the subject."
-    },
-    {
-      "case_id": 9,
-      "category": "positive",
-      "text": "The ECB lowered its main refinancing operations rate by 25 basis points to 4.0%, effective November 1.",
-      "human_label": "TRUE_SUBJECT",
-      "candidate": "Policy Rate",
-      "reasoning": "The 'main refinancing operations rate' is the ECB's policy rate; it was lowered. 'refinancing rate' IS in the registry aliases."
-    },
-    {
-      "case_id": 10,
-      "category": "positive",
-      "text": "Headline consumer price index rose 0.4% in October on a seasonally adjusted basis, the BLS reported.",
-      "human_label": "TRUE_SUBJECT",
-      "candidate": "Consumer Price Index",
-      "reasoning": "CPI 'rose 0.4%' — CPI is the subject."
-    },
-    {
-      "case_id": 11,
-      "category": "positive",
-      "text": "The Bank of Japan maintained its policy rate at -0.1% by unanimous vote, the central bank announced.",
-      "human_label": "TRUE_SUBJECT",
-      "candidate": "Policy Rate",
-      "reasoning": "Policy rate 'was maintained at -0.1%' — policy rate is the subject."
-    },
-    {
-      "case_id": 12,
-      "category": "positive",
-      "text": "The CFTC fined the firm $8.5 million for reporting failures under the Commodity Exchange Act.",
-      "human_label": "TRUE_SUBJECT",
-      "candidate": "Penalty",
-      "reasoning": "The CFTC 'fined the firm $8.5 million' — the fine/penalty is the subject of the action."
-    },
-    {
-      "case_id": 13,
-      "category": "positive",
-      "text": "Currency turnover averaged $5.2 trillion per day in April 2026, the central bank's semiannual survey showed.",
-      "human_label": "TRUE_SUBJECT",
-      "candidate": "Foreign Exchange",
-      "reasoning": "'Currency turnover averaged $5.2 trillion' — 'currency' is a registered alias for FX; FX is the measured object."
-    },
-    {
-      "case_id": 14,
-      "category": "positive",
-      "text": "Real GDP advanced at a 2.4% annual rate in the first quarter, primarily reflecting strong consumer spending.",
-      "human_label": "TRUE_SUBJECT",
-      "candidate": "Gross Domestic Product",
-      "reasoning": "GDP 'advanced at 2.4%' — GDP is the subject."
-    },
-    {
-      "case_id": 15,
-      "category": "positive",
-      "text": "Annual inflation eased to 2.1% in the latest reading, finally reaching the central bank's 2% target.",
-      "human_label": "TRUE_SUBJECT",
-      "candidate": "Inflation",
-      "reasoning": "Inflation 'eased to 2.1%' — inflation is the subject."
-    },
-    {
-      "case_id": 16,
-      "category": "positive",
-      "text": "The SEC announced a $25 million settlement with the firm for disclosure violations.",
-      "human_label": "TRUE_SUBJECT",
-      "candidate": "Settlement",
-      "reasoning": "Settlement of $25 million was announced — settlement is the subject."
-    },
-    {
-      "case_id": 17,
-      "category": "positive",
-      "text": "Unemployment fell to a seasonally adjusted 3.7% in November, the lowest level in over five decades.",
-      "human_label": "TRUE_SUBJECT",
-      "candidate": "Unemployment",
-      "reasoning": "Unemployment 'fell to 3.7%' — unemployment is the subject."
-    },
-    {
-      "case_id": 18,
-      "category": "positive",
-      "text": "Foreign exchange market turnover climbed 9% from the previous survey, the central bank reported.",
-      "human_label": "TRUE_SUBJECT",
-      "candidate": "Foreign Exchange",
-      "reasoning": "FX market turnover 'climbed 9%' — FX is the measured object."
-    },
-    {
-      "case_id": 19,
-      "category": "positive",
-      "text": "The policy rate was maintained at 4.5% by unanimous vote of the Federal Open Market Committee.",
-      "human_label": "TRUE_SUBJECT",
-      "candidate": "Policy Rate",
-      "reasoning": "Policy rate 'was maintained at 4.5%' — policy rate is the subject."
-    },
-    {
-      "case_id": 20,
-      "category": "positive",
-      "text": "The Consumer Price Index for All Urban Consumers increased 3.2% over the last 12 months, the BLS reported.",
-      "human_label": "TRUE_SUBJECT",
-      "candidate": "Consumer Price Index",
-      "reasoning": "CPI 'increased 3.2%' — CPI is the subject."
-    },
-    {
-      "case_id": 21,
-      "category": "positive",
-      "text": "The Federal Reserve cut the federal funds rate by 50 basis points to a target range of 4.75%-5.00%.",
-      "human_label": "TRUE_SUBJECT",
-      "candidate": "Policy Rate",
-      "reasoning": "'Federal funds rate' is the Fed's policy rate; it was cut. NOTE: 'federal funds rate' may not be in registry — DATA_GAP risk."
-    },
-    {
-      "case_id": 22,
-      "category": "positive",
-      "text": "Initial unemployment claims declined to 215,000 in the week ending November 11, the DOL reported.",
-      "human_label": "TRUE_SUBJECT",
-      "candidate": "Unemployment",
-      "reasoning": "Unemployment claims 'declined to 215,000' — unemployment is the subject (claims is a noun modifier but the event is about unemployment)."
-    },
-    {
-      "case_id": 23,
-      "category": "positive",
-      "text": "The financial penalty was finalized at $4.5 million following the regulator's investigation.",
-      "human_label": "TRUE_SUBJECT",
-      "candidate": "Penalty",
-      "reasoning": "Penalty 'was finalized at $4.5 million' — penalty is the subject."
-    },
-    {
-      "case_id": 24,
-      "category": "positive",
-      "text": "Foreign exchange turnover peaked at $6.1 trillion in April 2026, a new record high.",
-      "human_label": "TRUE_SUBJECT",
-      "candidate": "Foreign Exchange",
-      "reasoning": "FX turnover 'peaked at $6.1 trillion' — FX is the measured object."
-    },
-    {
-      "case_id": 25,
-      "category": "positive",
-      "text": "Real gross domestic product increased 2.9 percent in the third quarter, according to the third estimate released by the BEA.",
-      "human_label": "TRUE_SUBJECT",
-      "candidate": "Gross Domestic Product",
-      "reasoning": "GDP 'increased 2.9%' — GDP is the subject."
-    },
-    {
-      "case_id": 26,
-      "category": "positive",
-      "text": "The annual rate of CPI inflation reached 5.3% in October, the highest reading since 1990.",
-      "human_label": "TRUE_SUBJECT",
-      "candidate": "Consumer Price Index",
-      "reasoning": "CPI inflation 'reached 5.3%' — CPI is the subject."
-    },
-    {
-      "case_id": 27,
-      "category": "positive",
-      "text": "The Prudential Regulation Authority imposed a financial penalty of £6.4 million on the bank.",
-      "human_label": "TRUE_SUBJECT",
-      "candidate": "Penalty",
-      "reasoning": "PRA 'imposed a financial penalty of £6.4 million' — penalty is the subject."
-    },
-    {
-      "case_id": 28,
-      "category": "positive",
-      "text": "The Consumer Price Index for the Washington-Arlington-Alexandria area advanced 4.1% over the year.",
-      "human_label": "TRUE_SUBJECT",
-      "candidate": "Consumer Price Index",
-      "reasoning": "CPI 'advanced 4.1%' — CPI is the subject."
-    },
-    {
-      "case_id": 29,
-      "category": "positive",
-      "text": "Foreign exchange turnover stabilized at $4.9 trillion in October 2026, unchanged from April.",
-      "human_label": "TRUE_SUBJECT",
-      "candidate": "Foreign Exchange",
-      "reasoning": "FX turnover 'stabilized at $4.9 trillion' — FX is the measured object."
-    },
-    {
-      "case_id": 30,
-      "category": "positive",
-      "text": "Real gross domestic product for Puerto Rico expanded 3.4 percent in 2025, the BEA reported.",
-      "human_label": "TRUE_SUBJECT",
-      "candidate": "Gross Domestic Product",
-      "reasoning": "GDP 'expanded 3.4%' — GDP is the subject."
-    },
-    {
-      "case_id": 31,
-      "category": "positive",
-      "text": "The Bank of England's Monetary Policy Committee voted 7-2 to reduce Bank Rate by 25 basis points to 4.50%.",
-      "human_label": "TRUE_SUBJECT",
-      "candidate": "Policy Rate",
-      "reasoning": "Bank Rate 'was reduced by 25 basis points' — Bank Rate is the policy rate; subject. DATA_GAP risk if 'bank rate' alias missing."
-    },
-    {
-      "case_id": 32,
-      "category": "positive",
-      "text": "Annual consumer price inflation slowed to 2.0% in October, finally reaching the central bank's target.",
-      "human_label": "TRUE_SUBJECT",
-      "candidate": "Inflation",
-      "reasoning": "Inflation 'slowed to 2.0%' — inflation is the subject."
-    },
-    {
-      "case_id": 33,
-      "category": "positive",
-      "text": "According to the Bureau of Economic Analysis, GDP rose at a 2.7% annual rate in Q4, driven by exports.",
-      "human_label": "TRUE_SUBJECT",
-      "candidate": "Gross Domestic Product",
-      "reasoning": "GDP 'rose at 2.7%' — GDP is the subject."
-    },
-    {
-      "case_id": 34,
-      "category": "positive",
-      "text": "The FCA fined the firm £3.5 million for failures in its anti-money laundering controls.",
-      "human_label": "TRUE_SUBJECT",
-      "candidate": "Penalty",
-      "reasoning": "FCA 'fined the firm £3.5 million' — the fine/penalty is the subject of the action."
-    },
-    {
-      "case_id": 35,
-      "category": "positive",
-      "text": "FX market turnover climbed 14 percent in October from April, the latest BIS survey showed.",
-      "human_label": "TRUE_SUBJECT",
-      "candidate": "Foreign Exchange",
-      "reasoning": "FX market turnover 'climbed 14%' — FX is the measured object."
-    },
-    {
-      "case_id": 36,
-      "category": "positive",
-      "text": "The ECB's Governing Council maintained the policy rate at 4.0% by majority vote, with two dissents.",
-      "human_label": "TRUE_SUBJECT",
-      "candidate": "Policy Rate",
-      "reasoning": "Policy rate 'was maintained at 4.0%' — policy rate is the subject."
-    },
-    {
-      "case_id": 37,
-      "category": "positive",
-      "text": "The Consumer Price Index for the Los Angeles-Long Beach-Anaheim area rose 4.3% over the year.",
-      "human_label": "TRUE_SUBJECT",
-      "candidate": "Consumer Price Index",
-      "reasoning": "CPI 'rose 4.3%' — CPI is the subject."
-    },
-    {
-      "case_id": 38,
-      "category": "positive",
-      "text": "The Federal Reserve reduced the federal funds rate by 25 basis points to a target range of 4.50%-4.75%.",
-      "human_label": "TRUE_SUBJECT",
-      "candidate": "Policy Rate",
-      "reasoning": "Federal funds rate 'was reduced' — it is the Fed's policy rate. DATA_GAP risk if 'federal funds rate' alias missing."
-    },
-    {
-      "case_id": 39,
-      "category": "positive",
-      "text": "Unemployment dropped to 3.8 percent in October, the BLS reported, indicating continued labor market strength.",
-      "human_label": "TRUE_SUBJECT",
-      "candidate": "Unemployment",
-      "reasoning": "Unemployment 'dropped to 3.8%' — unemployment is the subject."
-    },
-    {
-      "case_id": 40,
-      "category": "positive",
-      "text": "A financial penalty of $7.2 million was finalized with the firm for compliance breaches.",
-      "human_label": "TRUE_SUBJECT",
-      "candidate": "Penalty",
-      "reasoning": "Penalty 'was finalized at $7.2 million' — penalty is the subject."
-    },
-    {
-      "case_id": 41,
-      "category": "negative",
-      "text": "Manufacturing Production Index. CPI was noted as a commodity pricing reference in the overview.",
-      "human_label": "FALSE_BINDING",
-      "candidate": "Consumer Price Index",
-      "reasoning": "Heading names 'Manufacturing Production' — different topic. CPI is only noted as reference."
-    },
-    {
-      "case_id": 42,
-      "category": "negative",
-      "text": "Telecom Industry Survey. Foreign exchange was referenced in international revenue context.",
-      "human_label": "FALSE_BINDING",
-      "candidate": "Foreign Exchange",
-      "reasoning": "Heading names 'Telecom Industry' — different topic. FX is only referenced."
-    },
-    {
-      "case_id": 43,
-      "category": "negative",
-      "text": "Defense Expenditure Report. GDP was noted in the broader fiscal context.",
-      "human_label": "FALSE_BINDING",
-      "candidate": "Gross Domestic Product",
-      "reasoning": "Heading names 'Defense Expenditure' — different topic. GDP is only noted."
-    },
-    {
-      "case_id": 44,
-      "category": "negative",
-      "text": "Chemical Industry Output. Inflation was cited as input cost factor in the sector review.",
-      "human_label": "FALSE_BINDING",
-      "candidate": "Inflation",
-      "reasoning": "Heading names 'Chemical Industry Output' — different topic. Inflation is only cited as factor."
-    },
-    {
-      "case_id": 45,
-      "category": "negative",
-      "text": "Steel Production Statistics. Policy rate was referenced in capital investment analysis.",
-      "human_label": "FALSE_BINDING",
-      "candidate": "Policy Rate",
-      "reasoning": "Heading names 'Steel Production' — different topic. Policy rate is only referenced."
-    },
-    {
-      "case_id": 46,
-      "category": "negative",
-      "text": "Maritime Shipping Report. Consumer price index was noted as freight pricing reference.",
-      "human_label": "FALSE_BINDING",
-      "candidate": "Consumer Price Index",
-      "reasoning": "Heading names 'Maritime Shipping' — different topic. CPI is only a reference."
-    },
-    {
-      "case_id": 47,
-      "category": "negative",
-      "text": "Pharmaceutical Sector Review. Unemployment was cited as labor market indicator.",
-      "human_label": "FALSE_BINDING",
-      "candidate": "Unemployment",
-      "reasoning": "Heading names 'Pharmaceutical Sector' — different topic. Unemployment is only cited."
-    },
-    {
-      "case_id": 48,
-      "category": "negative",
-      "text": "Aerospace Industry Outlook. Foreign exchange was noted as currency exposure factor.",
-      "human_label": "FALSE_BINDING",
-      "candidate": "Foreign Exchange",
-      "reasoning": "Heading names 'Aerospace Industry' — different topic. FX is only noted."
-    },
-    {
-      "case_id": 49,
-      "category": "negative",
-      "text": "Automotive Production Report. Inflation was referenced as materials pricing backdrop.",
-      "human_label": "FALSE_BINDING",
-      "candidate": "Inflation",
-      "reasoning": "Heading names 'Automotive Production' — different topic. Inflation is only referenced."
-    },
-    {
-      "case_id": 50,
-      "category": "negative",
-      "text": "Semiconductor Industry Survey. Policy rate was noted as capital cost factor.",
-      "human_label": "FALSE_BINDING",
-      "candidate": "Policy Rate",
-      "reasoning": "Heading names 'Semiconductor Industry' — different topic. Policy rate is only noted."
-    },
-    {
-      "case_id": 51,
-      "category": "negative",
-      "text": "Real Estate Market Report. GDP was referenced in macroeconomic context.",
-      "human_label": "FALSE_BINDING",
-      "candidate": "Gross Domestic Product",
-      "reasoning": "Heading names 'Real Estate Market' — different topic. GDP is only referenced."
-    },
-    {
-      "case_id": 52,
-      "category": "negative",
-      "text": "Logistics Sector Statistics. Unemployment was cited as consumer spending indicator.",
-      "human_label": "FALSE_BINDING",
-      "candidate": "Unemployment",
-      "reasoning": "Heading names 'Logistics Sector' — different topic. Unemployment is only cited."
-    },
-    {
-      "case_id": 53,
-      "category": "negative",
-      "text": "Agricultural Output Survey. CPI was noted as food pricing benchmark in the review.",
-      "human_label": "FALSE_BINDING",
-      "candidate": "Consumer Price Index",
-      "reasoning": "Heading names 'Agricultural Output' — different topic. CPI is only noted."
-    },
-    {
-      "case_id": 54,
-      "category": "negative",
-      "text": "Hospitality Sector Report. Foreign exchange was referenced in international bookings context.",
-      "human_label": "FALSE_BINDING",
-      "candidate": "Foreign Exchange",
-      "reasoning": "Heading names 'Hospitality Sector' — different topic. FX is only referenced."
-    },
-    {
-      "case_id": 55,
-      "category": "negative",
-      "text": "Insurance Industry Outlook. Inflation was noted as claims cost factor.",
-      "human_label": "FALSE_BINDING",
-      "candidate": "Inflation",
-      "reasoning": "Heading names 'Insurance Industry' — different topic. Inflation is only noted."
-    },
-    {
-      "case_id": 56,
-      "category": "negative",
-      "text": "Banking Sector Statistics. GDP was cited in credit growth analysis.",
-      "human_label": "FALSE_BINDING",
-      "candidate": "Gross Domestic Product",
-      "reasoning": "Heading names 'Banking Sector' — different topic. GDP is only cited."
-    },
-    {
-      "case_id": 57,
-      "category": "negative",
-      "text": "Fashion Retail Report. Policy rate was noted as financing cost indicator.",
-      "human_label": "FALSE_BINDING",
-      "candidate": "Policy Rate",
-      "reasoning": "Heading names 'Fashion Retail' — different topic. Policy rate is only noted."
-    },
-    {
-      "case_id": 58,
-      "category": "negative",
-      "text": "Energy Storage Industry. Unemployment was cited as consumer demand factor.",
-      "human_label": "FALSE_BINDING",
-      "candidate": "Unemployment",
-      "reasoning": "Heading names 'Energy Storage Industry' — different topic. Unemployment is only cited."
-    },
-    {
-      "case_id": 59,
-      "category": "negative",
-      "text": "Commercial Real Estate Outlook. CPI was noted as rent pricing reference.",
-      "human_label": "FALSE_BINDING",
-      "candidate": "Consumer Price Index",
-      "reasoning": "Heading names 'Commercial Real Estate' — different topic. CPI is only noted."
-    },
-    {
-      "case_id": 60,
-      "category": "negative",
-      "text": "Mining Capital Expenditure. Foreign exchange was referenced in international project costs.",
-      "human_label": "FALSE_BINDING",
-      "candidate": "Foreign Exchange",
-      "reasoning": "Heading names 'Mining Capital Expenditure' — different topic. FX is only referenced."
-    },
-    {
-      "case_id": 61,
-      "category": "negative",
-      "text": "Healthcare Cost Report. Inflation was cited as medical cost trend factor.",
-      "human_label": "FALSE_BINDING",
-      "candidate": "Inflation",
-      "reasoning": "Heading names 'Healthcare Cost' — different topic. Inflation is only cited."
-    },
-    {
-      "case_id": 62,
-      "category": "negative",
-      "text": "Construction Industry Survey. GDP was referenced in infrastructure investment context.",
-      "human_label": "FALSE_BINDING",
-      "candidate": "Gross Domestic Product",
-      "reasoning": "Heading names 'Construction Industry' — different topic. GDP is only referenced."
-    },
-    {
-      "case_id": 63,
-      "category": "negative",
-      "text": "Publishing Sector Statistics. Policy rate was noted in working capital analysis.",
-      "human_label": "FALSE_BINDING",
-      "candidate": "Policy Rate",
-      "reasoning": "Heading names 'Publishing Sector' — different topic. Policy rate is only noted."
-    },
-    {
-      "case_id": 64,
-      "category": "negative",
-      "text": "Film Industry Report. Unemployment was cited as labor market backdrop.",
-      "human_label": "FALSE_BINDING",
-      "candidate": "Unemployment",
-      "reasoning": "Heading names 'Film Industry' — different topic. Unemployment is only cited."
-    },
-    {
-      "case_id": 65,
-      "category": "negative",
-      "text": "Cement Production Statistics. CPI was noted as construction materials pricing reference.",
-      "human_label": "FALSE_BINDING",
-      "candidate": "Consumer Price Index",
-      "reasoning": "Heading names 'Cement Production' — different topic. CPI is only noted."
-    },
-    {
-      "case_id": 66,
-      "category": "negative",
-      "text": "Aviation Leasing Report. Foreign exchange was referenced in cross-border lease costs.",
-      "human_label": "FALSE_BINDING",
-      "candidate": "Foreign Exchange",
-      "reasoning": "Heading names 'Aviation Leasing' — different topic. FX is only referenced."
-    },
-    {
-      "case_id": 67,
-      "category": "negative",
-      "text": "Utilities Sector Outlook. Inflation was cited as operating cost factor in the review.",
-      "human_label": "FALSE_BINDING",
-      "candidate": "Inflation",
-      "reasoning": "Heading names 'Utilities Sector' — different topic. Inflation is only cited."
-    },
-    {
-      "case_id": 68,
-      "category": "negative",
-      "text": "Retail Inventory Report. GDP was noted in consumer spending context.",
-      "human_label": "FALSE_BINDING",
-      "candidate": "Gross Domestic Product",
-      "reasoning": "Heading names 'Retail Inventory' — different topic. GDP is only noted."
-    },
-    {
-      "case_id": 69,
-      "category": "negative",
-      "text": "Shipping Container Statistics. Policy rate was referenced in trade finance analysis.",
-      "human_label": "FALSE_BINDING",
-      "candidate": "Policy Rate",
-      "reasoning": "Heading names 'Shipping Container' — different topic. Policy rate is only referenced."
-    },
-    {
-      "case_id": 70,
-      "category": "negative",
-      "text": "Gaming Industry Survey. Unemployment was cited as discretionary spending factor.",
-      "human_label": "FALSE_BINDING",
-      "candidate": "Unemployment",
-      "reasoning": "Heading names 'Gaming Industry' — different topic. Unemployment is only cited."
-    },
-    {
-      "case_id": 71,
-      "category": "negative",
-      "text": "Pulp and Paper Output. CPI was noted as input materials pricing reference.",
-      "human_label": "FALSE_BINDING",
-      "candidate": "Consumer Price Index",
-      "reasoning": "Heading names 'Pulp and Paper Output' — different topic. CPI is only noted."
-    },
-    {
-      "case_id": 72,
-      "category": "negative",
-      "text": "Marine Transport Report. Foreign exchange was referenced in bunker fuel costs.",
-      "human_label": "FALSE_BINDING",
-      "candidate": "Foreign Exchange",
-      "reasoning": "Heading names 'Marine Transport' — different topic. FX is only referenced."
-    },
-    {
-      "case_id": 73,
-      "category": "negative",
-      "text": "Cable Television Statistics. Inflation was cited as subscription pricing factor.",
-      "human_label": "FALSE_BINDING",
-      "candidate": "Inflation",
-      "reasoning": "Heading names 'Cable Television' — different topic. Inflation is only cited."
-    },
-    {
-      "case_id": 74,
-      "category": "negative",
-      "text": "Forestry Sector Output. GDP was noted in economic contribution analysis.",
-      "human_label": "FALSE_BINDING",
-      "candidate": "Gross Domestic Product",
-      "reasoning": "Heading names 'Forestry Sector' — different topic. GDP is only noted."
-    },
-    {
-      "case_id": 75,
-      "category": "negative",
-      "text": "Fertilizer Industry Report. Policy rate was referenced in inventory carry cost analysis.",
-      "human_label": "FALSE_BINDING",
-      "candidate": "Policy Rate",
-      "reasoning": "Heading names 'Fertilizer Industry' — different topic. Policy rate is only referenced."
-    },
-    {
-      "case_id": 76,
-      "category": "ambiguous",
-      "text": "The committee noted that inflation dynamics remain under close monitoring amid global uncertainty.",
-      "human_label": "AMBIGUOUS",
-      "candidate": "Inflation",
-      "reasoning": "'inflation dynamics remain under close monitoring' — 'dynamics' is the subject, inflation is a modifier. But 'monitoring' suggests the bank is watching inflation. Genuinely ambiguous."
-    },
-    {
-      "case_id": 77,
-      "category": "ambiguous",
-      "text": "GDP figures were referenced in the staff economic assessment appendix.",
-      "human_label": "AMBIGUOUS",
-      "candidate": "Gross Domestic Product",
-      "reasoning": "'GDP figures were referenced' — 'figures' is the subject, GDP is a modifier. But 'referenced' is vague. Ambiguous."
-    },
-    {
-      "case_id": 78,
-      "category": "ambiguous",
-      "text": "Policy rate expectations were cited in the market commentary section.",
-      "human_label": "AMBIGUOUS",
-      "candidate": "Policy Rate",
-      "reasoning": "'Policy rate expectations were cited' — 'expectations' is the subject, policy rate is a modifier. 'Cited' is vague. Ambiguous."
-    },
-    {
-      "case_id": 79,
-      "category": "ambiguous",
-      "text": "Unemployment indicators were highlighted in the labor market review.",
-      "human_label": "AMBIGUOUS",
-      "candidate": "Unemployment",
-      "reasoning": "'Unemployment indicators were highlighted' — 'indicators' is the subject, unemployment is a modifier. 'Highlighted' is administrative. Ambiguous."
-    },
-    {
-      "case_id": 80,
-      "category": "ambiguous",
-      "text": "CPI readings are projected to moderate in coming quarters per staff analysis.",
-      "human_label": "AMBIGUOUS",
-      "candidate": "Consumer Price Index",
-      "reasoning": "'CPI readings are projected to moderate' — 'readings' is the subject, CPI is a modifier. 'Projected' is future. Ambiguous."
-    },
-    {
-      "case_id": 81,
-      "category": "ambiguous",
-      "text": "FX markets were described as orderly during the central bank intervention period.",
-      "human_label": "AMBIGUOUS",
-      "candidate": "Foreign Exchange",
-      "reasoning": "'FX markets were described as orderly' — 'markets' is the subject, FX is a modifier. 'Orderly' is a state description. Ambiguous."
-    },
-    {
-      "case_id": 82,
-      "category": "ambiguous",
-      "text": "Penalty decisions were the subject of regulatory committee review last quarter.",
-      "human_label": "AMBIGUOUS",
-      "candidate": "Penalty",
-      "reasoning": "'Penalty decisions were the subject of review' — 'decisions' is the subject, penalty is a modifier. Ambiguous — penalty is the topic but not the action's subject."
-    },
-    {
-      "case_id": 83,
-      "category": "ambiguous",
-      "text": "GDP statistics are compiled in accordance with international methodology standards.",
-      "human_label": "CONTEXT_ONLY",
-      "candidate": "Gross Domestic Product",
-      "reasoning": "'GDP statistics are compiled' — 'statistics' is the subject, GDP is a modifier. Administrative. Ambiguous.",
-      "annotation_repair": {
-        "old_label": "AMBIGUOUS",
-        "new_label": "CONTEXT_ONLY",
-        "adjudication_source": "V48AL blind adjudication (commit b60d351)",
-        "reason": "Blind adjudication determined the event verb clearly applies to the head noun with no secondary target or meta-referential construction. Original AMBIGUOUS label was inconsistent with identical-structure counterparts labeled CONTEXT.",
-        "evidence_span": "GDP statistics are compiled in accordance with international methodology standards."
-      }
-    },
-    {
-      "case_id": 84,
-      "category": "ambiguous",
-      "text": "Inflation forecasts were included in the central bank's quarterly projection publication.",
-      "human_label": "AMBIGUOUS",
-      "candidate": "Inflation",
-      "reasoning": "'Inflation forecasts were included' — 'forecasts' is the subject, inflation is a modifier. Ambiguous."
-    },
-    {
-      "case_id": 85,
-      "category": "ambiguous",
-      "text": "Policy rate communication was the focus of the central bank's transparency review.",
-      "human_label": "AMBIGUOUS",
-      "candidate": "Policy Rate",
-      "reasoning": "'Policy rate communication was the focus' — 'communication' is the subject, policy rate is a modifier. Ambiguous."
-    },
-    {
-      "case_id": 86,
-      "category": "ambiguous",
-      "text": "The bank's report cited unemployment as a continuing area of policy attention.",
-      "human_label": "AMBIGUOUS",
-      "candidate": "Unemployment",
-      "reasoning": "Unemployment was 'cited as a policy attention area' — administrative, not a measurement event. Ambiguous."
-    },
-    {
-      "case_id": 87,
-      "category": "ambiguous",
-      "text": "CPI methodology was revised in line with the new international statistical standard.",
-      "human_label": "CONTEXT_ONLY",
-      "candidate": "Consumer Price Index",
-      "reasoning": "'CPI methodology was revised' — 'methodology' is the subject, CPI is a modifier. Administrative. Ambiguous.",
-      "annotation_repair": {
-        "old_label": "AMBIGUOUS",
-        "new_label": "CONTEXT_ONLY",
-        "adjudication_source": "V48AL blind adjudication (commit b60d351)",
-        "reason": "Blind adjudication determined the event verb clearly applies to the head noun with no secondary target or meta-referential construction. Original AMBIGUOUS label was inconsistent with identical-structure counterparts labeled CONTEXT.",
-        "evidence_span": "CPI methodology was revised in line with the new international statistical standard."
-      }
-    },
-    {
-      "case_id": 88,
-      "category": "ambiguous",
-      "text": "Foreign exchange infrastructure was upgraded in the latest market modernization initiative.",
-      "human_label": "AMBIGUOUS",
-      "candidate": "Foreign Exchange",
-      "reasoning": "'FX infrastructure was upgraded' — 'infrastructure' is the subject, FX is a modifier. Administrative. Ambiguous."
-    },
-    {
-      "case_id": 89,
-      "category": "ambiguous",
-      "text": "Penalty procedures were outlined in the updated enforcement guidance document.",
-      "human_label": "CONTEXT_ONLY",
-      "candidate": "Penalty",
-      "reasoning": "'Penalty procedures were outlined' — 'procedures' is the subject, penalty is a modifier. Administrative. Ambiguous.",
-      "annotation_repair": {
-        "old_label": "AMBIGUOUS",
-        "new_label": "CONTEXT_ONLY",
-        "adjudication_source": "V48AL blind adjudication (commit b60d351)",
-        "reason": "Blind adjudication determined the event verb clearly applies to the head noun with no secondary target or meta-referential construction. Original AMBIGUOUS label was inconsistent with identical-structure counterparts labeled CONTEXT.",
-        "evidence_span": "Penalty procedures were outlined in the updated enforcement guidance document."
-      }
-    },
-    {
-      "case_id": 90,
-      "category": "ambiguous",
-      "text": "GDP indicators were featured prominently in the annual statistical bulletin.",
-      "human_label": "AMBIGUOUS",
-      "candidate": "Gross Domestic Product",
-      "reasoning": "'GDP indicators were featured' — 'indicators' is the subject, GDP is a modifier. Ambiguous."
-    },
-    {
-      "case_id": 91,
-      "category": "ambiguous",
-      "text": "Inflation survey data will be collected monthly starting next quarter per the new schedule.",
-      "human_label": "AMBIGUOUS",
-      "candidate": "Inflation",
-      "reasoning": "'Inflation survey data will be collected' — 'data' is the subject, inflation is a modifier. Future tense. Ambiguous."
-    },
-    {
-      "case_id": 92,
-      "category": "ambiguous",
-      "text": "Policy rate decisions are scheduled for the next FOMC meeting per the published calendar.",
-      "human_label": "CONTEXT_ONLY",
-      "candidate": "Policy Rate",
-      "reasoning": "'Policy rate decisions are scheduled' — 'decisions' is the subject, policy rate is a modifier. Future. Ambiguous.",
-      "annotation_repair": {
-        "old_label": "AMBIGUOUS",
-        "new_label": "CONTEXT_ONLY",
-        "adjudication_source": "V48AL blind adjudication (commit b60d351)",
-        "reason": "Blind adjudication determined the event verb clearly applies to the head noun with no secondary target or meta-referential construction. Original AMBIGUOUS label was inconsistent with identical-structure counterparts labeled CONTEXT.",
-        "evidence_span": "Policy rate decisions are scheduled for the next FOMC meeting per the published calendar."
-      }
-    },
-    {
-      "case_id": 93,
-      "category": "ambiguous",
-      "text": "Unemployment statistics are released on the first Friday of each month by the BLS.",
-      "human_label": "CONTEXT_ONLY",
-      "candidate": "Unemployment",
-      "reasoning": "'Unemployment statistics are released' — 'statistics' is the subject, unemployment is a modifier. Administrative. Ambiguous.",
-      "annotation_repair": {
-        "old_label": "AMBIGUOUS",
-        "new_label": "CONTEXT_ONLY",
-        "adjudication_source": "V48AL blind adjudication (commit b60d351)",
-        "reason": "Blind adjudication determined the event verb clearly applies to the head noun with no secondary target or meta-referential construction. Original AMBIGUOUS label was inconsistent with identical-structure counterparts labeled CONTEXT.",
-        "evidence_span": "Unemployment statistics are released on the first Friday of each month by the BLS."
-      }
-    },
-    {
-      "case_id": 94,
-      "category": "ambiguous",
-      "text": "CPI sub-indices were analyzed in the detailed statistical appendix.",
-      "human_label": "CONTEXT_ONLY",
-      "candidate": "Consumer Price Index",
-      "reasoning": "'CPI sub-indices were analyzed' — 'sub-indices' is the subject, CPI is a modifier. Administrative. Ambiguous.",
-      "annotation_repair": {
-        "old_label": "AMBIGUOUS",
-        "new_label": "CONTEXT_ONLY",
-        "adjudication_source": "V48AL blind adjudication (commit b60d351)",
-        "reason": "Blind adjudication determined the event verb clearly applies to the head noun with no secondary target or meta-referential construction. Original AMBIGUOUS label was inconsistent with identical-structure counterparts labeled CONTEXT.",
-        "evidence_span": "CPI sub-indices were analyzed in the detailed statistical appendix."
-      }
-    },
-    {
-      "case_id": 95,
-      "category": "ambiguous",
-      "text": "FX settlement cycles were discussed in the payments infrastructure white paper.",
-      "human_label": "AMBIGUOUS",
-      "candidate": "Foreign Exchange",
-      "reasoning": "'FX settlement cycles were discussed' — 'cycles' is the subject, FX is a modifier. Administrative. Ambiguous."
-    },
-    {
-      "case_id": 96,
-      "category": "ambiguous",
-      "text": "Penalty framework revisions were proposed in the latest regulatory consultation paper.",
-      "human_label": "CONTEXT_ONLY",
-      "candidate": "Penalty",
-      "reasoning": "'Penalty framework revisions were proposed' — 'revisions' is the subject, penalty is a modifier. Ambiguous.",
-      "annotation_repair": {
-        "old_label": "AMBIGUOUS",
-        "new_label": "CONTEXT_ONLY",
-        "adjudication_source": "V48AL blind adjudication (commit b60d351)",
-        "reason": "Blind adjudication determined the event verb clearly applies to the head noun with no secondary target or meta-referential construction. Original AMBIGUOUS label was inconsistent with identical-structure counterparts labeled CONTEXT.",
-        "evidence_span": "Penalty framework revisions were proposed in the latest regulatory consultation paper."
-      }
-    },
-    {
-      "case_id": 97,
-      "category": "ambiguous",
-      "text": "GDP revision practices were outlined in the methodology section of the release.",
-      "human_label": "AMBIGUOUS",
-      "candidate": "Gross Domestic Product",
-      "reasoning": "'GDP revision practices were outlined' — 'practices' is the subject, GDP is a modifier. Administrative. Ambiguous."
-    },
-    {
-      "case_id": 98,
-      "category": "ambiguous",
-      "text": "Inflation targeting framework was reaffirmed in the central bank's strategic review.",
-      "human_label": "CONTEXT_ONLY",
-      "candidate": "Inflation",
-      "reasoning": "'Inflation targeting framework was reaffirmed' — 'framework' is the subject, inflation is a modifier. Ambiguous.",
-      "annotation_repair": {
-        "old_label": "AMBIGUOUS",
-        "new_label": "CONTEXT_ONLY",
-        "adjudication_source": "V48AL blind adjudication (commit b60d351)",
-        "reason": "Blind adjudication determined the event verb clearly applies to the head noun with no secondary target or meta-referential construction. Original AMBIGUOUS label was inconsistent with identical-structure counterparts labeled CONTEXT.",
-        "evidence_span": "Inflation targeting framework was reaffirmed in the central bank's strategic review."
-      }
-    },
-    {
-      "case_id": 99,
-      "category": "ambiguous",
-      "text": "Policy rate stance remains accommodative, the central bank governor said in testimony.",
-      "human_label": "AMBIGUOUS",
-      "candidate": "Policy Rate",
-      "reasoning": "'Policy rate stance remains accommodative' — 'stance' is the subject, policy rate is a modifier. 'Accommodative' is a state. Ambiguous."
-    },
-    {
-      "case_id": 100,
-      "category": "ambiguous",
-      "text": "The report identified unemployment projections as a key input to the fiscal outlook.",
-      "human_label": "AMBIGUOUS",
-      "candidate": "Unemployment",
-      "reasoning": "'unemployment projections were identified as input' — 'projections' is the subject, unemployment is a modifier. Ambiguous."
-    },
-    {
-      "case_id": 101,
-      "category": "ambiguous",
-      "text": "CPI weights were updated in the latest index revision per the statistical standard.",
-      "human_label": "CONTEXT_ONLY",
-      "candidate": "Consumer Price Index",
-      "reasoning": "'CPI weights were updated' — 'weights' is the subject, CPI is a modifier. Administrative. Ambiguous.",
-      "annotation_repair": {
-        "old_label": "AMBIGUOUS",
-        "new_label": "CONTEXT_ONLY",
-        "adjudication_source": "V48AL blind adjudication (commit b60d351)",
-        "reason": "Blind adjudication determined the event verb clearly applies to the head noun with no secondary target or meta-referential construction. Original AMBIGUOUS label was inconsistent with identical-structure counterparts labeled CONTEXT.",
-        "evidence_span": "CPI weights were updated in the latest index revision per the statistical standard."
-      }
-    },
-    {
-      "case_id": 102,
-      "category": "ambiguous",
-      "text": "Foreign exchange reserves remained adequate, the central bank confirmed in its quarterly report.",
-      "human_label": "AMBIGUOUS",
-      "candidate": "Foreign Exchange",
-      "reasoning": "'FX reserves remained adequate' — 'reserves' is the subject, FX is a modifier. Ambiguous."
-    },
-    {
-      "case_id": 103,
-      "category": "ambiguous",
-      "text": "Penalty guidelines were the subject of industry consultation per the regulator's statement.",
-      "human_label": "AMBIGUOUS",
-      "candidate": "Penalty",
-      "reasoning": "'Penalty guidelines were the subject of consultation' — 'guidelines' is the subject, penalty is a modifier. Ambiguous."
-    },
-    {
-      "case_id": 104,
-      "category": "ambiguous",
-      "text": "GDP compilation follows the System of National Accounts methodology, the BEA confirmed.",
-      "human_label": "AMBIGUOUS",
-      "candidate": "Gross Domestic Product",
-      "reasoning": "'GDP compilation follows methodology' — 'compilation' is the subject, GDP is a modifier. Administrative. Ambiguous."
-    },
-    {
-      "case_id": 105,
-      "category": "ambiguous",
-      "text": "Inflation measures were below the central bank target band in the latest reading.",
-      "human_label": "AMBIGUOUS",
-      "candidate": "Inflation",
-      "reasoning": "'Inflation measures were below target' — 'measures' is the subject, inflation is a modifier. 'Below target' is a state. Ambiguous."
-    },
-    {
-      "case_id": 106,
-      "category": "ambiguous",
-      "text": "Foreign exchange turnover statistics will be released in the next quarterly bulletin.",
-      "human_label": "AMBIGUOUS",
-      "candidate": "Foreign Exchange",
-      "reasoning": "'FX turnover statistics will be released' — 'statistics' is the subject, FX is a modifier. Future. Ambiguous."
-    },
-    {
-      "case_id": 107,
-      "category": "ambiguous",
-      "text": "Settlement procedures were described in the published enforcement manual.",
-      "human_label": "AMBIGUOUS",
-      "candidate": "Settlement",
-      "reasoning": "'Settlement procedures were described' — 'procedures' is the subject, settlement is a modifier. Administrative. Ambiguous."
-    },
-    {
-      "case_id": 108,
-      "category": "ambiguous",
-      "text": "GDP performance was highlighted in the regional economic review.",
-      "human_label": "AMBIGUOUS",
-      "candidate": "Gross Domestic Product",
-      "reasoning": "'GDP performance was highlighted' — 'performance' is the subject, GDP is a modifier. Administrative. Ambiguous."
-    },
-    {
-      "case_id": 109,
-      "category": "ambiguous",
-      "text": "Inflation developments were noted as a continuing area of central bank attention.",
-      "human_label": "AMBIGUOUS",
-      "candidate": "Inflation",
-      "reasoning": "'Inflation developments were noted as attention area' — 'developments' is the subject, inflation is a modifier. Ambiguous."
-    },
-    {
-      "case_id": 110,
-      "category": "ambiguous",
-      "text": "Policy rate communication strategy was discussed in the transparency review.",
-      "human_label": "AMBIGUOUS",
-      "candidate": "Policy Rate",
-      "reasoning": "'Policy rate communication strategy was discussed' — 'strategy' is the subject, policy rate is a modifier. Administrative. Ambiguous."
-    },
-    {
-      "case_id": 111,
-      "category": "ambiguous",
-      "text": "The committee discussed unemployment trend analysis at length during the briefing.",
-      "human_label": "AMBIGUOUS",
-      "candidate": "Unemployment",
-      "reasoning": "'unemployment trend analysis was discussed' — 'analysis' is the subject, unemployment is a modifier. Administrative. Ambiguous."
-    },
-    {
-      "case_id": 112,
-      "category": "ambiguous",
-      "text": "CPI release schedule was published in the advance statistical calendar.",
-      "human_label": "AMBIGUOUS",
-      "candidate": "Consumer Price Index",
-      "reasoning": "'CPI release schedule was published' — 'schedule' is the subject, CPI is a modifier. Administrative. Ambiguous."
-    },
-    {
-      "case_id": 113,
-      "category": "ambiguous",
-      "text": "Foreign exchange market structure was reviewed in the BIS quarterly review.",
-      "human_label": "AMBIGUOUS",
-      "candidate": "Foreign Exchange",
-      "reasoning": "'FX market structure was reviewed' — 'structure' is the subject, FX is a modifier. Administrative. Ambiguous."
-    },
-    {
-      "case_id": 114,
-      "category": "ambiguous",
-      "text": "The central bank governor cited unemployment as a labor market indicator to monitor.",
-      "human_label": "AMBIGUOUS",
-      "candidate": "Unemployment",
-      "reasoning": "Unemployment was 'cited as indicator to monitor' — administrative reference, not a measurement. Ambiguous."
-    },
-    {
-      "case_id": 115,
-      "category": "ambiguous",
-      "text": "The bank's quarterly statement noted that inflation trends remain a focus of attention.",
-      "human_label": "AMBIGUOUS",
-      "candidate": "Inflation",
-      "reasoning": "'inflation trends remain a focus of attention' — 'trends' is the subject, inflation is a modifier. Administrative. Ambiguous."
-    },
-    {
-      "case_id": 116,
-      "category": "negative",
-      "text": "FX turnover data is collected semi-annually by the central bank per its survey schedule.",
-      "human_label": "CONTEXT",
-      "candidate": "Foreign Exchange",
-      "reasoning": "'FX turnover data is collected' — 'data' is the subject (collected), FX is a modifier. Administrative event."
-    },
-    {
-      "case_id": 117,
-      "category": "negative",
-      "text": "Penalty guidelines were issued for industry consultation by the regulator.",
-      "human_label": "CONTEXT",
-      "candidate": "Penalty",
-      "reasoning": "'Penalty guidelines were issued' — 'guidelines' is the subject, penalty is a modifier."
-    },
-    {
-      "case_id": 118,
-      "category": "negative",
-      "text": "Unemployment benefit claims were processed at elevated volumes last quarter.",
-      "human_label": "CONTEXT",
-      "candidate": "Unemployment",
-      "reasoning": "'Unemployment benefit claims were processed' — 'claims' is the subject, unemployment is a modifier."
-    },
-    {
-      "case_id": 119,
-      "category": "negative",
-      "text": "Policy rate corridor was maintained at its existing operational width.",
-      "human_label": "CONTEXT",
-      "candidate": "Policy Rate",
-      "reasoning": "'Policy rate corridor was maintained' — 'corridor' is the subject, policy rate is a modifier."
-    },
-    {
-      "case_id": 120,
-      "category": "negative",
-      "text": "Inflation expectation surveys were updated in the central bank's methodological revision.",
-      "human_label": "CONTEXT",
-      "candidate": "Inflation",
-      "reasoning": "'Inflation expectation surveys were updated' — 'surveys' is the subject, inflation is a modifier."
-    },
-    {
-      "case_id": 121,
-      "category": "negative",
-      "text": "GDP deflator series was revised in the latest national accounts release.",
-      "human_label": "CONTEXT",
-      "candidate": "Gross Domestic Product",
-      "reasoning": "'GDP deflator series was revised' — 'series' is the subject, GDP is a modifier."
-    },
-    {
-      "case_id": 122,
-      "category": "negative",
-      "text": "CPI basket composition was updated for the new index series.",
-      "human_label": "CONTEXT",
-      "candidate": "Consumer Price Index",
-      "reasoning": "'CPI basket composition was updated' — 'composition' is the subject, CPI is a modifier."
-    },
-    {
-      "case_id": 123,
-      "category": "negative",
-      "text": "Foreign exchange settlement infrastructure was modernized in the latest system upgrade.",
-      "human_label": "CONTEXT",
-      "candidate": "Foreign Exchange",
-      "reasoning": "'FX settlement infrastructure was modernized' — 'infrastructure' is the subject, FX is a modifier."
-    },
-    {
-      "case_id": 124,
-      "category": "negative",
-      "text": "Penalty calculation methodology was published in the regulatory handbook.",
-      "human_label": "CONTEXT",
-      "candidate": "Penalty",
-      "reasoning": "'Penalty calculation methodology was published' — 'methodology' is the subject, penalty is a modifier."
-    },
-    {
-      "case_id": 125,
-      "category": "negative",
-      "text": "GDP release calendar was published by the statistical office for the upcoming year.",
-      "human_label": "CONTEXT",
-      "candidate": "Gross Domestic Product",
-      "reasoning": "'GDP release calendar was published' — 'calendar' is the subject, GDP is a modifier."
-    },
-    {
-      "case_id": 126,
-      "category": "negative",
-      "text": "Inflation targeting framework was reaffirmed in the central bank's policy statement.",
-      "human_label": "CONTEXT",
-      "candidate": "Inflation",
-      "reasoning": "'Inflation targeting framework was reaffirmed' — 'framework' is the subject, inflation is a modifier."
-    },
-    {
-      "case_id": 127,
-      "category": "negative",
-      "text": "Policy rate forward guidance was reiterated in the central bank's official statement.",
-      "human_label": "CONTEXT",
-      "candidate": "Policy Rate",
-      "reasoning": "'Policy rate forward guidance was reiterated' — 'guidance' is the subject, policy rate is a modifier."
-    },
-    {
-      "case_id": 128,
-      "category": "negative",
-      "text": "Unemployment survey methodology was revised in line with international standards.",
-      "human_label": "CONTEXT",
-      "candidate": "Unemployment",
-      "reasoning": "'Unemployment survey methodology was revised' — 'methodology' is the subject, unemployment is a modifier."
-    },
-    {
-      "case_id": 129,
-      "category": "negative",
-      "text": "CPI weight update was completed in the latest index rebasing exercise.",
-      "human_label": "CONTEXT",
-      "candidate": "Consumer Price Index",
-      "reasoning": "'CPI weight update was completed' — 'update' is the subject, CPI is a modifier."
-    },
-    {
-      "case_id": 130,
-      "category": "negative",
-      "text": "Foreign exchange reserves position was described as adequate by the central bank.",
-      "human_label": "CONTEXT",
-      "candidate": "Foreign Exchange",
-      "reasoning": "'FX reserves position was described as adequate' — 'position' is the subject, FX is a modifier."
-    },
-    {
-      "case_id": 131,
-      "category": "negative",
-      "text": "Penalty framework review was the subject of committee deliberation last quarter.",
-      "human_label": "CONTEXT",
-      "candidate": "Penalty",
-      "reasoning": "'Penalty framework review was the subject' — 'review' is the subject, penalty is a modifier."
-    },
-    {
-      "case_id": 132,
-      "category": "negative",
-      "text": "GDP accounting methodology was updated to reflect new international standards.",
-      "human_label": "CONTEXT",
-      "candidate": "Gross Domestic Product",
-      "reasoning": "'GDP accounting methodology was updated' — 'methodology' is the subject, GDP is a modifier."
-    },
-    {
-      "case_id": 133,
-      "category": "negative",
-      "text": "Inflation projection models were enhanced in the central bank's research upgrade.",
-      "human_label": "CONTEXT",
-      "candidate": "Inflation",
-      "reasoning": "'Inflation projection models were enhanced' — 'models' is the subject, inflation is a modifier."
-    },
-    {
-      "case_id": 134,
-      "category": "negative",
-      "text": "Policy rate announcement schedule was published in the advance calendar.",
-      "human_label": "CONTEXT",
-      "candidate": "Policy Rate",
-      "reasoning": "'Policy rate announcement schedule was published' — 'schedule' is the subject, policy rate is a modifier."
-    },
-    {
-      "case_id": 135,
-      "category": "negative",
-      "text": "Unemployment insurance trust fund was reviewed in the fiscal sustainability report.",
-      "human_label": "CONTEXT",
-      "candidate": "Unemployment",
-      "reasoning": "'Unemployment insurance trust fund was reviewed' — 'fund' is the subject, unemployment is a modifier."
-    },
-    {
-      "case_id": 136,
-      "category": "negative",
-      "text": "CPI publication practices were harmonized with international statistical standards.",
-      "human_label": "CONTEXT",
-      "candidate": "Consumer Price Index",
-      "reasoning": "'CPI publication practices were harmonized' — 'practices' is the subject, CPI is a modifier."
-    },
-    {
-      "case_id": 137,
-      "category": "negative",
-      "text": "Foreign exchange market structure was reviewed in the central bank's market study.",
-      "human_label": "CONTEXT",
-      "candidate": "Foreign Exchange",
-      "reasoning": "'FX market structure was reviewed' — 'structure' is the subject, FX is a modifier."
-    },
-    {
-      "case_id": 138,
-      "category": "negative",
-      "text": "Penalty appeal process was detailed in the regulatory enforcement manual.",
-      "human_label": "CONTEXT",
-      "candidate": "Penalty",
-      "reasoning": "'Penalty appeal process was detailed' — 'process' is the subject, penalty is a modifier."
-    },
-    {
-      "case_id": 139,
-      "category": "negative",
-      "text": "GDP base year was updated in the comprehensive benchmark revision.",
-      "human_label": "CONTEXT",
-      "candidate": "Gross Domestic Product",
-      "reasoning": "'GDP base year was updated' — 'year' is the subject, GDP is a modifier."
-    },
-    {
-      "case_id": 140,
-      "category": "negative",
-      "text": "Inflation data collection was refined per the new statistical methodology.",
-      "human_label": "CONTEXT",
-      "candidate": "Inflation",
-      "reasoning": "'Inflation data collection was refined' — 'collection' is the subject, inflation is a modifier."
-    },
-    {
-      "case_id": 141,
-      "category": "negative",
-      "text": "Policy rate calibration was discussed in the monetary policy implementation review.",
-      "human_label": "CONTEXT",
-      "candidate": "Policy Rate",
-      "reasoning": "'Policy rate calibration was discussed' — 'calibration' is the subject, policy rate is a modifier."
-    },
-    {
-      "case_id": 142,
-      "category": "negative",
-      "text": "Unemployment claims processing system was upgraded in the labor department modernization.",
-      "human_label": "CONTEXT",
-      "candidate": "Unemployment",
-      "reasoning": "'Unemployment claims processing system was upgraded' — 'system' is the subject, unemployment is a modifier."
-    },
-    {
-      "case_id": 143,
-      "category": "negative",
-      "text": "CPI regional breakdown was detailed in the geographic appendix of the release.",
-      "human_label": "CONTEXT",
-      "candidate": "Consumer Price Index",
-      "reasoning": "'CPI regional breakdown was detailed' — 'breakdown' is the subject, CPI is a modifier."
-    },
-    {
-      "case_id": 144,
-      "category": "negative",
-      "text": "Foreign exchange turnover statistics publication moved to a semi-annual schedule.",
-      "human_label": "CONTEXT",
-      "candidate": "Foreign Exchange",
-      "reasoning": "'FX turnover statistics publication moved to schedule' — 'publication' is the subject, FX is a modifier."
-    },
-    {
-      "case_id": 145,
-      "category": "negative",
-      "text": "Penalty enforcement guidelines were revised in the latest regulatory framework update.",
-      "human_label": "CONTEXT",
-      "candidate": "Penalty",
-      "reasoning": "'Penalty enforcement guidelines were revised' — 'guidelines' is the subject, penalty is a modifier."
-    },
-    {
-      "case_id": 146,
-      "category": "negative",
-      "text": "GDP source data was updated in the comprehensive annual revision release.",
-      "human_label": "CONTEXT",
-      "candidate": "Gross Domestic Product",
-      "reasoning": "'GDP source data was updated' — 'data' is the subject, GDP is a modifier."
-    },
-    {
-      "case_id": 147,
-      "category": "negative",
-      "text": "Inflation expectations indicator was added to the central bank's monitoring dashboard.",
-      "human_label": "CONTEXT",
-      "candidate": "Inflation",
-      "reasoning": "'Inflation expectations indicator was added' — 'indicator' is the subject, inflation is a modifier."
-    },
-    {
-      "case_id": 148,
-      "category": "negative",
-      "text": "Policy rate operating framework was reviewed in the central bank's implementation assessment.",
-      "human_label": "CONTEXT",
-      "candidate": "Policy Rate",
-      "reasoning": "'Policy rate operating framework was reviewed' — 'framework' is the subject, policy rate is a modifier."
-    },
-    {
-      "case_id": 149,
-      "category": "negative",
-      "text": "Unemployment statistics methodology was aligned with the ILO international standard.",
-      "human_label": "CONTEXT",
-      "candidate": "Unemployment",
-      "reasoning": "'Unemployment statistics methodology was aligned' — 'methodology' is the subject, unemployment is a modifier."
-    },
-    {
-      "case_id": 150,
-      "category": "negative",
-      "text": "CPI index reference base was updated to 2020=100 in the latest rebasing publication.",
-      "human_label": "CONTEXT",
-      "candidate": "Consumer Price Index",
-      "reasoning": "'CPI index reference base was updated' — 'base' is the subject, CPI is a modifier."
-    }
+    {"case_id": 1, "category": "positive", "text": "Quarterly GDP growth accelerated to 3.1% in the second quarter from 1.8% in the first, the BEA reported in its second estimate.", "human_label": "TRUE_SUBJECT", "candidate": "Gross Domestic Product", "reasoning": "GDP growth 'accelerated to 3.1%' — GDP is the subject of the acceleration event."},
+    {"case_id": 2, "category": "positive", "text": "The annual inflation rate reached 4.7% in November, surpassing the central bank's projections.", "human_label": "TRUE_SUBJECT", "candidate": "Inflation", "reasoning": "Inflation 'reached 4.7%' — inflation is the subject of the measurement event."},
+    {"case_id": 3, "category": "positive", "text": "Bank Rate was held at 5.25% by the Monetary Policy Committee in a split 5-4 vote.", "human_label": "TRUE_SUBJECT", "candidate": "Policy Rate", "reasoning": "Bank Rate 'was held at 5.25%' — Bank Rate is the policy rate; it is the subject. NOTE: 'Bank Rate' alias may not be in registry — if V2.1 returns NO_CANDIDATE, this is a DATA_GAP finding."},
+    {"case_id": 4, "category": "positive", "text": "Consumer price inflation eased to 2.9% year-over-year in September, the ONS reported.", "human_label": "TRUE_SUBJECT", "candidate": "Inflation", "reasoning": "Inflation 'eased to 2.9%' — inflation is the subject."},
+    {"case_id": 5, "category": "positive", "text": "The unemployment rate dropped to 3.5% in October, the BLS announced, the lowest since 1969.", "human_label": "TRUE_SUBJECT", "candidate": "Unemployment", "reasoning": "Unemployment 'dropped to 3.5%' — unemployment is the subject of the decline event."},
+    {"case_id": 6, "category": "positive", "text": "Average daily foreign exchange turnover stood at $4.8 trillion in the latest central bank survey.", "human_label": "TRUE_SUBJECT", "candidate": "Foreign Exchange", "reasoning": "FX turnover 'stood at $4.8 trillion' — FX is the measured object."},
+    {"case_id": 7, "category": "positive", "text": "The SEC imposed a $15 million penalty on the firm for accounting fraud violations.", "human_label": "TRUE_SUBJECT", "candidate": "Penalty", "reasoning": "Penalty 'was imposed at $15 million' — penalty is the subject of the imposition event."},
+    {"case_id": 8, "category": "positive", "text": "Real gross domestic product expanded at a 2.6% annual rate in the third quarter, according to the advance estimate.", "human_label": "TRUE_SUBJECT", "candidate": "Gross Domestic Product", "reasoning": "GDP 'expanded at 2.6%' — GDP is the subject."},
+    {"case_id": 9, "category": "positive", "text": "The ECB lowered its main refinancing operations rate by 25 basis points to 4.0%, effective November 1.", "human_label": "TRUE_SUBJECT", "candidate": "Policy Rate", "reasoning": "The 'main refinancing operations rate' is the ECB's policy rate; it was lowered. 'refinancing rate' IS in the registry aliases."},
+    {"case_id": 10, "category": "positive", "text": "Headline consumer price index rose 0.4% in October on a seasonally adjusted basis, the BLS reported.", "human_label": "TRUE_SUBJECT", "candidate": "Consumer Price Index", "reasoning": "CPI 'rose 0.4%' — CPI is the subject."},
+    {"case_id": 11, "category": "positive", "text": "The Bank of Japan maintained its policy rate at -0.1% by unanimous vote, the central bank announced.", "human_label": "TRUE_SUBJECT", "candidate": "Policy Rate", "reasoning": "Policy rate 'was maintained at -0.1%' — policy rate is the subject."},
+    {"case_id": 12, "category": "positive", "text": "The CFTC fined the firm $8.5 million for reporting failures under the Commodity Exchange Act.", "human_label": "TRUE_SUBJECT", "candidate": "Penalty", "reasoning": "The CFTC 'fined the firm $8.5 million' — the fine/penalty is the subject of the action."},
+    {"case_id": 13, "category": "positive", "text": "Currency turnover averaged $5.2 trillion per day in April 2026, the central bank's semiannual survey showed.", "human_label": "TRUE_SUBJECT", "candidate": "Foreign Exchange", "reasoning": "'Currency turnover averaged $5.2 trillion' — 'currency' is a registered alias for FX; FX is the measured object."},
+    {"case_id": 14, "category": "positive", "text": "Real GDP advanced at a 2.4% annual rate in the first quarter, primarily reflecting strong consumer spending.", "human_label": "TRUE_SUBJECT", "candidate": "Gross Domestic Product", "reasoning": "GDP 'advanced at 2.4%' — GDP is the subject."},
+    {"case_id": 15, "category": "positive", "text": "Annual inflation eased to 2.1% in the latest reading, finally reaching the central bank's 2% target.", "human_label": "TRUE_SUBJECT", "candidate": "Inflation", "reasoning": "Inflation 'eased to 2.1%' — inflation is the subject."},
+    {"case_id": 16, "category": "positive", "text": "The SEC announced a $25 million settlement with the firm for disclosure violations.", "human_label": "TRUE_SUBJECT", "candidate": "Settlement", "reasoning": "Settlement of $25 million was announced — settlement is the subject."},
+    {"case_id": 17, "category": "positive", "text": "Unemployment fell to a seasonally adjusted 3.7% in November, the lowest level in over five decades.", "human_label": "TRUE_SUBJECT", "candidate": "Unemployment", "reasoning": "Unemployment 'fell to 3.7%' — unemployment is the subject."},
+    {"case_id": 18, "category": "positive", "text": "Foreign exchange market turnover climbed 9% from the previous survey, the central bank reported.", "human_label": "TRUE_SUBJECT", "candidate": "Foreign Exchange", "reasoning": "FX market turnover 'climbed 9%' — FX is the measured object."},
+    {"case_id": 19, "category": "positive", "text": "The policy rate was maintained at 4.5% by unanimous vote of the Federal Open Market Committee.", "human_label": "TRUE_SUBJECT", "candidate": "Policy Rate", "reasoning": "Policy rate 'was maintained at 4.5%' — policy rate is the subject."},
+    {"case_id": 20, "category": "positive", "text": "The Consumer Price Index for All Urban Consumers increased 3.2% over the last 12 months, the BLS reported.", "human_label": "TRUE_SUBJECT", "candidate": "Consumer Price Index", "reasoning": "CPI 'increased 3.2%' — CPI is the subject."},
+    {"case_id": 21, "category": "positive", "text": "The Federal Reserve cut the federal funds rate by 50 basis points to a target range of 4.75%-5.00%.", "human_label": "TRUE_SUBJECT", "candidate": "Policy Rate", "reasoning": "'Federal funds rate' is the Fed's policy rate; it was cut. NOTE: 'federal funds rate' may not be in registry — DATA_GAP risk."},
+    {"case_id": 22, "category": "positive", "text": "Initial unemployment claims declined to 215,000 in the week ending November 11, the DOL reported.", "human_label": "TRUE_SUBJECT", "candidate": "Unemployment", "reasoning": "Unemployment claims 'declined to 215,000' — unemployment is the subject (claims is a noun modifier but the event is about unemployment)."},
+    {"case_id": 23, "category": "positive", "text": "The financial penalty was finalized at $4.5 million following the regulator's investigation.", "human_label": "TRUE_SUBJECT", "candidate": "Penalty", "reasoning": "Penalty 'was finalized at $4.5 million' — penalty is the subject."},
+    {"case_id": 24, "category": "positive", "text": "Foreign exchange turnover peaked at $6.1 trillion in April 2026, a new record high.", "human_label": "TRUE_SUBJECT", "candidate": "Foreign Exchange", "reasoning": "FX turnover 'peaked at $6.1 trillion' — FX is the measured object."},
+    {"case_id": 25, "category": "positive", "text": "Real gross domestic product increased 2.9 percent in the third quarter, according to the third estimate released by the BEA.", "human_label": "TRUE_SUBJECT", "candidate": "Gross Domestic Product", "reasoning": "GDP 'increased 2.9%' — GDP is the subject."},
+    {"case_id": 26, "category": "positive", "text": "The annual rate of CPI inflation reached 5.3% in October, the highest reading since 1990.", "human_label": "TRUE_SUBJECT", "candidate": "Consumer Price Index", "reasoning": "CPI inflation 'reached 5.3%' — CPI is the subject."},
+    {"case_id": 27, "category": "positive", "text": "The Prudential Regulation Authority imposed a financial penalty of £6.4 million on the bank.", "human_label": "TRUE_SUBJECT", "candidate": "Penalty", "reasoning": "PRA 'imposed a financial penalty of £6.4 million' — penalty is the subject."},
+    {"case_id": 28, "category": "positive", "text": "The Consumer Price Index for the Washington-Arlington-Alexandria area advanced 4.1% over the year.", "human_label": "TRUE_SUBJECT", "candidate": "Consumer Price Index", "reasoning": "CPI 'advanced 4.1%' — CPI is the subject."},
+    {"case_id": 29, "category": "positive", "text": "Foreign exchange turnover stabilized at $4.9 trillion in October 2026, unchanged from April.", "human_label": "TRUE_SUBJECT", "candidate": "Foreign Exchange", "reasoning": "FX turnover 'stabilized at $4.9 trillion' — FX is the measured object."},
+    {"case_id": 30, "category": "positive", "text": "Real gross domestic product for Puerto Rico expanded 3.4 percent in 2025, the BEA reported.", "human_label": "TRUE_SUBJECT", "candidate": "Gross Domestic Product", "reasoning": "GDP 'expanded 3.4%' — GDP is the subject."},
+    {"case_id": 31, "category": "positive", "text": "The Bank of England's Monetary Policy Committee voted 7-2 to reduce Bank Rate by 25 basis points to 4.50%.", "human_label": "TRUE_SUBJECT", "candidate": "Policy Rate", "reasoning": "Bank Rate 'was reduced by 25 basis points' — Bank Rate is the policy rate; subject. DATA_GAP risk if 'bank rate' alias missing."},
+    {"case_id": 32, "category": "positive", "text": "Annual consumer price inflation slowed to 2.0% in October, finally reaching the central bank's target.", "human_label": "TRUE_SUBJECT", "candidate": "Inflation", "reasoning": "Inflation 'slowed to 2.0%' — inflation is the subject."},
+    {"case_id": 33, "category": "positive", "text": "According to the Bureau of Economic Analysis, GDP rose at a 2.7% annual rate in Q4, driven by exports.", "human_label": "TRUE_SUBJECT", "candidate": "Gross Domestic Product", "reasoning": "GDP 'rose at 2.7%' — GDP is the subject."},
+    {"case_id": 34, "category": "positive", "text": "The FCA fined the firm £3.5 million for failures in its anti-money laundering controls.", "human_label": "TRUE_SUBJECT", "candidate": "Penalty", "reasoning": "FCA 'fined the firm £3.5 million' — the fine/penalty is the subject of the action."},
+    {"case_id": 35, "category": "positive", "text": "FX market turnover climbed 14 percent in October from April, the latest BIS survey showed.", "human_label": "TRUE_SUBJECT", "candidate": "Foreign Exchange", "reasoning": "FX market turnover 'climbed 14%' — FX is the measured object."},
+    {"case_id": 36, "category": "positive", "text": "The ECB's Governing Council maintained the policy rate at 4.0% by majority vote, with two dissents.", "human_label": "TRUE_SUBJECT", "candidate": "Policy Rate", "reasoning": "Policy rate 'was maintained at 4.0%' — policy rate is the subject."},
+    {"case_id": 37, "category": "positive", "text": "The Consumer Price Index for the Los Angeles-Long Beach-Anaheim area rose 4.3% over the year.", "human_label": "TRUE_SUBJECT", "candidate": "Consumer Price Index", "reasoning": "CPI 'rose 4.3%' — CPI is the subject."},
+    {"case_id": 38, "category": "positive", "text": "The Federal Reserve reduced the federal funds rate by 25 basis points to a target range of 4.50%-4.75%.", "human_label": "TRUE_SUBJECT", "candidate": "Policy Rate", "reasoning": "Federal funds rate 'was reduced' — it is the Fed's policy rate. DATA_GAP risk if 'federal funds rate' alias missing."},
+    {"case_id": 39, "category": "positive", "text": "Unemployment dropped to 3.8 percent in October, the BLS reported, indicating continued labor market strength.", "human_label": "TRUE_SUBJECT", "candidate": "Unemployment", "reasoning": "Unemployment 'dropped to 3.8%' — unemployment is the subject."},
+    {"case_id": 40, "category": "positive", "text": "A financial penalty of $7.2 million was finalized with the firm for compliance breaches.", "human_label": "TRUE_SUBJECT", "candidate": "Penalty", "reasoning": "Penalty 'was finalized at $7.2 million' — penalty is the subject."},
+    {"case_id": 41, "category": "negative", "text": "Manufacturing Production Index. CPI was noted as a commodity pricing reference in the overview.", "human_label": "FALSE_BINDING", "candidate": "Consumer Price Index", "reasoning": "Heading names 'Manufacturing Production' — different topic. CPI is only noted as reference."},
+    {"case_id": 42, "category": "negative", "text": "Telecom Industry Survey. Foreign exchange was referenced in international revenue context.", "human_label": "FALSE_BINDING", "candidate": "Foreign Exchange", "reasoning": "Heading names 'Telecom Industry' — different topic. FX is only referenced."},
+    {"case_id": 43, "category": "negative", "text": "Defense Expenditure Report. GDP was noted in the broader fiscal context.", "human_label": "FALSE_BINDING", "candidate": "Gross Domestic Product", "reasoning": "Heading names 'Defense Expenditure' — different topic. GDP is only noted."},
+    {"case_id": 44, "category": "negative", "text": "Chemical Industry Output. Inflation was cited as input cost factor in the sector review.", "human_label": "FALSE_BINDING", "candidate": "Inflation", "reasoning": "Heading names 'Chemical Industry Output' — different topic. Inflation is only cited as factor."},
+    {"case_id": 45, "category": "negative", "text": "Steel Production Statistics. Policy rate was referenced in capital investment analysis.", "human_label": "FALSE_BINDING", "candidate": "Policy Rate", "reasoning": "Heading names 'Steel Production' — different topic. Policy rate is only referenced."},
+    {"case_id": 46, "category": "negative", "text": "Maritime Shipping Report. Consumer price index was noted as freight pricing reference.", "human_label": "FALSE_BINDING", "candidate": "Consumer Price Index", "reasoning": "Heading names 'Maritime Shipping' — different topic. CPI is only a reference."},
+    {"case_id": 47, "category": "negative", "text": "Pharmaceutical Sector Review. Unemployment was cited as labor market indicator.", "human_label": "FALSE_BINDING", "candidate": "Unemployment", "reasoning": "Heading names 'Pharmaceutical Sector' — different topic. Unemployment is only cited."},
+    {"case_id": 48, "category": "negative", "text": "Aerospace Industry Outlook. Foreign exchange was noted as currency exposure factor.", "human_label": "FALSE_BINDING", "candidate": "Foreign Exchange", "reasoning": "Heading names 'Aerospace Industry' — different topic. FX is only noted."},
+    {"case_id": 49, "category": "negative", "text": "Automotive Production Report. Inflation was referenced as materials pricing backdrop.", "human_label": "FALSE_BINDING", "candidate": "Inflation", "reasoning": "Heading names 'Automotive Production' — different topic. Inflation is only referenced."},
+    {"case_id": 50, "category": "negative", "text": "Semiconductor Industry Survey. Policy rate was noted as capital cost factor.", "human_label": "FALSE_BINDING", "candidate": "Policy Rate", "reasoning": "Heading names 'Semiconductor Industry' — different topic. Policy rate is only noted."},
+    {"case_id": 51, "category": "negative", "text": "Real Estate Market Report. GDP was referenced in macroeconomic context.", "human_label": "FALSE_BINDING", "candidate": "Gross Domestic Product", "reasoning": "Heading names 'Real Estate Market' — different topic. GDP is only referenced."},
+    {"case_id": 52, "category": "negative", "text": "Logistics Sector Statistics. Unemployment was cited as consumer spending indicator.", "human_label": "FALSE_BINDING", "candidate": "Unemployment", "reasoning": "Heading names 'Logistics Sector' — different topic. Unemployment is only cited."},
+    {"case_id": 53, "category": "negative", "text": "Agricultural Output Survey. CPI was noted as food pricing benchmark in the review.", "human_label": "FALSE_BINDING", "candidate": "Consumer Price Index", "reasoning": "Heading names 'Agricultural Output' — different topic. CPI is only noted."},
+    {"case_id": 54, "category": "negative", "text": "Hospitality Sector Report. Foreign exchange was referenced in international bookings context.", "human_label": "FALSE_BINDING", "candidate": "Foreign Exchange", "reasoning": "Heading names 'Hospitality Sector' — different topic. FX is only referenced."},
+    {"case_id": 55, "category": "negative", "text": "Insurance Industry Outlook. Inflation was noted as claims cost factor.", "human_label": "FALSE_BINDING", "candidate": "Inflation", "reasoning": "Heading names 'Insurance Industry' — different topic. Inflation is only noted."},
+    {"case_id": 56, "category": "negative", "text": "Banking Sector Statistics. GDP was cited in credit growth analysis.", "human_label": "FALSE_BINDING", "candidate": "Gross Domestic Product", "reasoning": "Heading names 'Banking Sector' — different topic. GDP is only cited."},
+    {"case_id": 57, "category": "negative", "text": "Fashion Retail Report. Policy rate was noted as financing cost indicator.", "human_label": "FALSE_BINDING", "candidate": "Policy Rate", "reasoning": "Heading names 'Fashion Retail' — different topic. Policy rate is only noted."},
+    {"case_id": 58, "category": "negative", "text": "Energy Storage Industry. Unemployment was cited as consumer demand factor.", "human_label": "FALSE_BINDING", "candidate": "Unemployment", "reasoning": "Heading names 'Energy Storage Industry' — different topic. Unemployment is only cited."},
+    {"case_id": 59, "category": "negative", "text": "Commercial Real Estate Outlook. CPI was noted as rent pricing reference.", "human_label": "FALSE_BINDING", "candidate": "Consumer Price Index", "reasoning": "Heading names 'Commercial Real Estate' — different topic. CPI is only noted."},
+    {"case_id": 60, "category": "negative", "text": "Mining Capital Expenditure. Foreign exchange was referenced in international project costs.", "human_label": "FALSE_BINDING", "candidate": "Foreign Exchange", "reasoning": "Heading names 'Mining Capital Expenditure' — different topic. FX is only referenced."},
+    {"case_id": 61, "category": "negative", "text": "Healthcare Cost Report. Inflation was cited as medical cost trend factor.", "human_label": "FALSE_BINDING", "candidate": "Inflation", "reasoning": "Heading names 'Healthcare Cost' — different topic. Inflation is only cited."},
+    {"case_id": 62, "category": "negative", "text": "Construction Industry Survey. GDP was referenced in infrastructure investment context.", "human_label": "FALSE_BINDING", "candidate": "Gross Domestic Product", "reasoning": "Heading names 'Construction Industry' — different topic. GDP is only referenced."},
+    {"case_id": 63, "category": "negative", "text": "Publishing Sector Statistics. Policy rate was noted in working capital analysis.", "human_label": "FALSE_BINDING", "candidate": "Policy Rate", "reasoning": "Heading names 'Publishing Sector' — different topic. Policy rate is only noted."},
+    {"case_id": 64, "category": "negative", "text": "Film Industry Report. Unemployment was cited as labor market backdrop.", "human_label": "FALSE_BINDING", "candidate": "Unemployment", "reasoning": "Heading names 'Film Industry' — different topic. Unemployment is only cited."},
+    {"case_id": 65, "category": "negative", "text": "Cement Production Statistics. CPI was noted as construction materials pricing reference.", "human_label": "FALSE_BINDING", "candidate": "Consumer Price Index", "reasoning": "Heading names 'Cement Production' — different topic. CPI is only noted."},
+    {"case_id": 66, "category": "negative", "text": "Aviation Leasing Report. Foreign exchange was referenced in cross-border lease costs.", "human_label": "FALSE_BINDING", "candidate": "Foreign Exchange", "reasoning": "Heading names 'Aviation Leasing' — different topic. FX is only referenced."},
+    {"case_id": 67, "category": "negative", "text": "Utilities Sector Outlook. Inflation was cited as operating cost factor in the review.", "human_label": "FALSE_BINDING", "candidate": "Inflation", "reasoning": "Heading names 'Utilities Sector' — different topic. Inflation is only cited."},
+    {"case_id": 68, "category": "negative", "text": "Retail Inventory Report. GDP was noted in consumer spending context.", "human_label": "FALSE_BINDING", "candidate": "Gross Domestic Product", "reasoning": "Heading names 'Retail Inventory' — different topic. GDP is only noted."},
+    {"case_id": 69, "category": "negative", "text": "Shipping Container Statistics. Policy rate was referenced in trade finance analysis.", "human_label": "FALSE_BINDING", "candidate": "Policy Rate", "reasoning": "Heading names 'Shipping Container' — different topic. Policy rate is only referenced."},
+    {"case_id": 70, "category": "negative", "text": "Gaming Industry Survey. Unemployment was cited as discretionary spending factor.", "human_label": "FALSE_BINDING", "candidate": "Unemployment", "reasoning": "Heading names 'Gaming Industry' — different topic. Unemployment is only cited."},
+    {"case_id": 71, "category": "negative", "text": "Pulp and Paper Output. CPI was noted as input materials pricing reference.", "human_label": "FALSE_BINDING", "candidate": "Consumer Price Index", "reasoning": "Heading names 'Pulp and Paper Output' — different topic. CPI is only noted."},
+    {"case_id": 72, "category": "negative", "text": "Marine Transport Report. Foreign exchange was referenced in bunker fuel costs.", "human_label": "FALSE_BINDING", "candidate": "Foreign Exchange", "reasoning": "Heading names 'Marine Transport' — different topic. FX is only referenced."},
+    {"case_id": 73, "category": "negative", "text": "Cable Television Statistics. Inflation was cited as subscription pricing factor.", "human_label": "FALSE_BINDING", "candidate": "Inflation", "reasoning": "Heading names 'Cable Television' — different topic. Inflation is only cited."},
+    {"case_id": 74, "category": "negative", "text": "Forestry Sector Output. GDP was noted in economic contribution analysis.", "human_label": "FALSE_BINDING", "candidate": "Gross Domestic Product", "reasoning": "Heading names 'Forestry Sector' — different topic. GDP is only noted."},
+    {"case_id": 75, "category": "negative", "text": "Fertilizer Industry Report. Policy rate was referenced in inventory carry cost analysis.", "human_label": "FALSE_BINDING", "candidate": "Policy Rate", "reasoning": "Heading names 'Fertilizer Industry' — different topic. Policy rate is only referenced."},
+    {"case_id": 76, "category": "ambiguous", "text": "The committee noted that inflation dynamics remain under close monitoring amid global uncertainty.", "human_label": "AMBIGUOUS", "candidate": "Inflation", "reasoning": "'inflation dynamics remain under close monitoring' — 'dynamics' is the subject, inflation is a modifier. But 'monitoring' suggests the bank is watching inflation. Genuinely ambiguous."},
+    {"case_id": 77, "category": "ambiguous", "text": "GDP figures were referenced in the staff economic assessment appendix.", "human_label": "AMBIGUOUS", "candidate": "Gross Domestic Product", "reasoning": "'GDP figures were referenced' — 'figures' is the subject, GDP is a modifier. But 'referenced' is vague. Ambiguous."},
+    {"case_id": 78, "category": "ambiguous", "text": "Policy rate expectations were cited in the market commentary section.", "human_label": "AMBIGUOUS", "candidate": "Policy Rate", "reasoning": "'Policy rate expectations were cited' — 'expectations' is the subject, policy rate is a modifier. 'Cited' is vague. Ambiguous."},
+    {"case_id": 79, "category": "ambiguous", "text": "Unemployment indicators were highlighted in the labor market review.", "human_label": "AMBIGUOUS", "candidate": "Unemployment", "reasoning": "'Unemployment indicators were highlighted' — 'indicators' is the subject, unemployment is a modifier. 'Highlighted' is administrative. Ambiguous."},
+    {"case_id": 80, "category": "ambiguous", "text": "CPI readings are projected to moderate in coming quarters per staff analysis.", "human_label": "AMBIGUOUS", "candidate": "Consumer Price Index", "reasoning": "'CPI readings are projected to moderate' — 'readings' is the subject, CPI is a modifier. 'Projected' is future. Ambiguous."},
+    {"case_id": 81, "category": "ambiguous", "text": "FX markets were described as orderly during the central bank intervention period.", "human_label": "AMBIGUOUS", "candidate": "Foreign Exchange", "reasoning": "'FX markets were described as orderly' — 'markets' is the subject, FX is a modifier. 'Orderly' is a state description. Ambiguous."},
+    {"case_id": 82, "category": "ambiguous", "text": "Penalty decisions were the subject of regulatory committee review last quarter.", "human_label": "AMBIGUOUS", "candidate": "Penalty", "reasoning": "'Penalty decisions were the subject of review' — 'decisions' is the subject, penalty is a modifier. Ambiguous — penalty is the topic but not the action's subject."},
+    {"case_id": 83, "category": "ambiguous", "text": "GDP statistics are compiled in accordance with international methodology standards.", "human_label": "AMBIGUOUS", "candidate": "Gross Domestic Product", "reasoning": "'GDP statistics are compiled' — 'statistics' is the subject, GDP is a modifier. Administrative. Ambiguous."},
+    {"case_id": 84, "category": "ambiguous", "text": "Inflation forecasts were included in the central bank's quarterly projection publication.", "human_label": "AMBIGUOUS", "candidate": "Inflation", "reasoning": "'Inflation forecasts were included' — 'forecasts' is the subject, inflation is a modifier. Ambiguous."},
+    {"case_id": 85, "category": "ambiguous", "text": "Policy rate communication was the focus of the central bank's transparency review.", "human_label": "AMBIGUOUS", "candidate": "Policy Rate", "reasoning": "'Policy rate communication was the focus' — 'communication' is the subject, policy rate is a modifier. Ambiguous."},
+    {"case_id": 86, "category": "ambiguous", "text": "The bank's report cited unemployment as a continuing area of policy attention.", "human_label": "AMBIGUOUS", "candidate": "Unemployment", "reasoning": "Unemployment was 'cited as a policy attention area' — administrative, not a measurement event. Ambiguous."},
+    {"case_id": 87, "category": "ambiguous", "text": "CPI methodology was revised in line with the new international statistical standard.", "human_label": "AMBIGUOUS", "candidate": "Consumer Price Index", "reasoning": "'CPI methodology was revised' — 'methodology' is the subject, CPI is a modifier. Administrative. Ambiguous."},
+    {"case_id": 88, "category": "ambiguous", "text": "Foreign exchange infrastructure was upgraded in the latest market modernization initiative.", "human_label": "AMBIGUOUS", "candidate": "Foreign Exchange", "reasoning": "'FX infrastructure was upgraded' — 'infrastructure' is the subject, FX is a modifier. Administrative. Ambiguous."},
+    {"case_id": 89, "category": "ambiguous", "text": "Penalty procedures were outlined in the updated enforcement guidance document.", "human_label": "AMBIGUOUS", "candidate": "Penalty", "reasoning": "'Penalty procedures were outlined' — 'procedures' is the subject, penalty is a modifier. Administrative. Ambiguous."},
+    {"case_id": 90, "category": "ambiguous", "text": "GDP indicators were featured prominently in the annual statistical bulletin.", "human_label": "AMBIGUOUS", "candidate": "Gross Domestic Product", "reasoning": "'GDP indicators were featured' — 'indicators' is the subject, GDP is a modifier. Ambiguous."},
+    {"case_id": 91, "category": "ambiguous", "text": "Inflation survey data will be collected monthly starting next quarter per the new schedule.", "human_label": "AMBIGUOUS", "candidate": "Inflation", "reasoning": "'Inflation survey data will be collected' — 'data' is the subject, inflation is a modifier. Future tense. Ambiguous."},
+    {"case_id": 92, "category": "ambiguous", "text": "Policy rate decisions are scheduled for the next FOMC meeting per the published calendar.", "human_label": "AMBIGUOUS", "candidate": "Policy Rate", "reasoning": "'Policy rate decisions are scheduled' — 'decisions' is the subject, policy rate is a modifier. Future. Ambiguous."},
+    {"case_id": 93, "category": "ambiguous", "text": "Unemployment statistics are released on the first Friday of each month by the BLS.", "human_label": "AMBIGUOUS", "candidate": "Unemployment", "reasoning": "'Unemployment statistics are released' — 'statistics' is the subject, unemployment is a modifier. Administrative. Ambiguous."},
+    {"case_id": 94, "category": "ambiguous", "text": "CPI sub-indices were analyzed in the detailed statistical appendix.", "human_label": "AMBIGUOUS", "candidate": "Consumer Price Index", "reasoning": "'CPI sub-indices were analyzed' — 'sub-indices' is the subject, CPI is a modifier. Administrative. Ambiguous."},
+    {"case_id": 95, "category": "ambiguous", "text": "FX settlement cycles were discussed in the payments infrastructure white paper.", "human_label": "AMBIGUOUS", "candidate": "Foreign Exchange", "reasoning": "'FX settlement cycles were discussed' — 'cycles' is the subject, FX is a modifier. Administrative. Ambiguous."},
+    {"case_id": 96, "category": "ambiguous", "text": "Penalty framework revisions were proposed in the latest regulatory consultation paper.", "human_label": "AMBIGUOUS", "candidate": "Penalty", "reasoning": "'Penalty framework revisions were proposed' — 'revisions' is the subject, penalty is a modifier. Ambiguous."},
+    {"case_id": 97, "category": "ambiguous", "text": "GDP revision practices were outlined in the methodology section of the release.", "human_label": "AMBIGUOUS", "candidate": "Gross Domestic Product", "reasoning": "'GDP revision practices were outlined' — 'practices' is the subject, GDP is a modifier. Administrative. Ambiguous."},
+    {"case_id": 98, "category": "ambiguous", "text": "Inflation targeting framework was reaffirmed in the central bank's strategic review.", "human_label": "AMBIGUOUS", "candidate": "Inflation", "reasoning": "'Inflation targeting framework was reaffirmed' — 'framework' is the subject, inflation is a modifier. Ambiguous."},
+    {"case_id": 99, "category": "ambiguous", "text": "Policy rate stance remains accommodative, the central bank governor said in testimony.", "human_label": "AMBIGUOUS", "candidate": "Policy Rate", "reasoning": "'Policy rate stance remains accommodative' — 'stance' is the subject, policy rate is a modifier. 'Accommodative' is a state. Ambiguous."},
+    {"case_id": 100, "category": "ambiguous", "text": "The report identified unemployment projections as a key input to the fiscal outlook.", "human_label": "AMBIGUOUS", "candidate": "Unemployment", "reasoning": "'unemployment projections were identified as input' — 'projections' is the subject, unemployment is a modifier. Ambiguous."},
+    {"case_id": 101, "category": "ambiguous", "text": "CPI weights were updated in the latest index revision per the statistical standard.", "human_label": "AMBIGUOUS", "candidate": "Consumer Price Index", "reasoning": "'CPI weights were updated' — 'weights' is the subject, CPI is a modifier. Administrative. Ambiguous."},
+    {"case_id": 102, "category": "ambiguous", "text": "Foreign exchange reserves remained adequate, the central bank confirmed in its quarterly report.", "human_label": "AMBIGUOUS", "candidate": "Foreign Exchange", "reasoning": "'FX reserves remained adequate' — 'reserves' is the subject, FX is a modifier. Ambiguous."},
+    {"case_id": 103, "category": "ambiguous", "text": "Penalty guidelines were the subject of industry consultation per the regulator's statement.", "human_label": "AMBIGUOUS", "candidate": "Penalty", "reasoning": "'Penalty guidelines were the subject of consultation' — 'guidelines' is the subject, penalty is a modifier. Ambiguous."},
+    {"case_id": 104, "category": "ambiguous", "text": "GDP compilation follows the System of National Accounts methodology, the BEA confirmed.", "human_label": "AMBIGUOUS", "candidate": "Gross Domestic Product", "reasoning": "'GDP compilation follows methodology' — 'compilation' is the subject, GDP is a modifier. Administrative. Ambiguous."},
+    {"case_id": 105, "category": "ambiguous", "text": "Inflation measures were below the central bank target band in the latest reading.", "human_label": "AMBIGUOUS", "candidate": "Inflation", "reasoning": "'Inflation measures were below target' — 'measures' is the subject, inflation is a modifier. 'Below target' is a state. Ambiguous."},
+    {"case_id": 106, "category": "ambiguous", "text": "Foreign exchange turnover statistics will be released in the next quarterly bulletin.", "human_label": "AMBIGUOUS", "candidate": "Foreign Exchange", "reasoning": "'FX turnover statistics will be released' — 'statistics' is the subject, FX is a modifier. Future. Ambiguous."},
+    {"case_id": 107, "category": "ambiguous", "text": "Settlement procedures were described in the published enforcement manual.", "human_label": "AMBIGUOUS", "candidate": "Settlement", "reasoning": "'Settlement procedures were described' — 'procedures' is the subject, settlement is a modifier. Administrative. Ambiguous."},
+    {"case_id": 108, "category": "ambiguous", "text": "GDP performance was highlighted in the regional economic review.", "human_label": "AMBIGUOUS", "candidate": "Gross Domestic Product", "reasoning": "'GDP performance was highlighted' — 'performance' is the subject, GDP is a modifier. Administrative. Ambiguous."},
+    {"case_id": 109, "category": "ambiguous", "text": "Inflation developments were noted as a continuing area of central bank attention.", "human_label": "AMBIGUOUS", "candidate": "Inflation", "reasoning": "'Inflation developments were noted as attention area' — 'developments' is the subject, inflation is a modifier. Ambiguous."},
+    {"case_id": 110, "category": "ambiguous", "text": "Policy rate communication strategy was discussed in the transparency review.", "human_label": "AMBIGUOUS", "candidate": "Policy Rate", "reasoning": "'Policy rate communication strategy was discussed' — 'strategy' is the subject, policy rate is a modifier. Administrative. Ambiguous."},
+    {"case_id": 111, "category": "ambiguous", "text": "The committee discussed unemployment trend analysis at length during the briefing.", "human_label": "AMBIGUOUS", "candidate": "Unemployment", "reasoning": "'unemployment trend analysis was discussed' — 'analysis' is the subject, unemployment is a modifier. Administrative. Ambiguous."},
+    {"case_id": 112, "category": "ambiguous", "text": "CPI release schedule was published in the advance statistical calendar.", "human_label": "AMBIGUOUS", "candidate": "Consumer Price Index", "reasoning": "'CPI release schedule was published' — 'schedule' is the subject, CPI is a modifier. Administrative. Ambiguous."},
+    {"case_id": 113, "category": "ambiguous", "text": "Foreign exchange market structure was reviewed in the BIS quarterly review.", "human_label": "AMBIGUOUS", "candidate": "Foreign Exchange", "reasoning": "'FX market structure was reviewed' — 'structure' is the subject, FX is a modifier. Administrative. Ambiguous."},
+    {"case_id": 114, "category": "ambiguous", "text": "The central bank governor cited unemployment as a labor market indicator to monitor.", "human_label": "AMBIGUOUS", "candidate": "Unemployment", "reasoning": "Unemployment was 'cited as indicator to monitor' — administrative reference, not a measurement. Ambiguous."},
+    {"case_id": 115, "category": "ambiguous", "text": "The bank's quarterly statement noted that inflation trends remain a focus of attention.", "human_label": "AMBIGUOUS", "candidate": "Inflation", "reasoning": "'inflation trends remain a focus of attention' — 'trends' is the subject, inflation is a modifier. Administrative. Ambiguous."},
+    {"case_id": 116, "category": "negative", "text": "FX turnover data is collected semi-annually by the central bank per its survey schedule.", "human_label": "CONTEXT", "candidate": "Foreign Exchange", "reasoning": "'FX turnover data is collected' — 'data' is the subject (collected), FX is a modifier. Administrative event."},
+    {"case_id": 117, "category": "negative", "text": "Penalty guidelines were issued for industry consultation by the regulator.", "human_label": "CONTEXT", "candidate": "Penalty", "reasoning": "'Penalty guidelines were issued' — 'guidelines' is the subject, penalty is a modifier."},
+    {"case_id": 118, "category": "negative", "text": "Unemployment benefit claims were processed at elevated volumes last quarter.", "human_label": "CONTEXT", "candidate": "Unemployment", "reasoning": "'Unemployment benefit claims were processed' — 'claims' is the subject, unemployment is a modifier."},
+    {"case_id": 119, "category": "negative", "text": "Policy rate corridor was maintained at its existing operational width.", "human_label": "CONTEXT", "candidate": "Policy Rate", "reasoning": "'Policy rate corridor was maintained' — 'corridor' is the subject, policy rate is a modifier."},
+    {"case_id": 120, "category": "negative", "text": "Inflation expectation surveys were updated in the central bank's methodological revision.", "human_label": "CONTEXT", "candidate": "Inflation", "reasoning": "'Inflation expectation surveys were updated' — 'surveys' is the subject, inflation is a modifier."},
+    {"case_id": 121, "category": "negative", "text": "GDP deflator series was revised in the latest national accounts release.", "human_label": "CONTEXT", "candidate": "Gross Domestic Product", "reasoning": "'GDP deflator series was revised' — 'series' is the subject, GDP is a modifier."},
+    {"case_id": 122, "category": "negative", "text": "CPI basket composition was updated for the new index series.", "human_label": "CONTEXT", "candidate": "Consumer Price Index", "reasoning": "'CPI basket composition was updated' — 'composition' is the subject, CPI is a modifier."},
+    {"case_id": 123, "category": "negative", "text": "Foreign exchange settlement infrastructure was modernized in the latest system upgrade.", "human_label": "CONTEXT", "candidate": "Foreign Exchange", "reasoning": "'FX settlement infrastructure was modernized' — 'infrastructure' is the subject, FX is a modifier."},
+    {"case_id": 124, "category": "negative", "text": "Penalty calculation methodology was published in the regulatory handbook.", "human_label": "CONTEXT", "candidate": "Penalty", "reasoning": "'Penalty calculation methodology was published' — 'methodology' is the subject, penalty is a modifier."},
+    {"case_id": 125, "category": "negative", "text": "GDP release calendar was published by the statistical office for the upcoming year.", "human_label": "CONTEXT", "candidate": "Gross Domestic Product", "reasoning": "'GDP release calendar was published' — 'calendar' is the subject, GDP is a modifier."},
+    {"case_id": 126, "category": "negative", "text": "Inflation targeting framework was reaffirmed in the central bank's policy statement.", "human_label": "CONTEXT", "candidate": "Inflation", "reasoning": "'Inflation targeting framework was reaffirmed' — 'framework' is the subject, inflation is a modifier."},
+    {"case_id": 127, "category": "negative", "text": "Policy rate forward guidance was reiterated in the central bank's official statement.", "human_label": "CONTEXT", "candidate": "Policy Rate", "reasoning": "'Policy rate forward guidance was reiterated' — 'guidance' is the subject, policy rate is a modifier."},
+    {"case_id": 128, "category": "negative", "text": "Unemployment survey methodology was revised in line with international standards.", "human_label": "CONTEXT", "candidate": "Unemployment", "reasoning": "'Unemployment survey methodology was revised' — 'methodology' is the subject, unemployment is a modifier."},
+    {"case_id": 129, "category": "negative", "text": "CPI weight update was completed in the latest index rebasing exercise.", "human_label": "CONTEXT", "candidate": "Consumer Price Index", "reasoning": "'CPI weight update was completed' — 'update' is the subject, CPI is a modifier."},
+    {"case_id": 130, "category": "negative", "text": "Foreign exchange reserves position was described as adequate by the central bank.", "human_label": "CONTEXT", "candidate": "Foreign Exchange", "reasoning": "'FX reserves position was described as adequate' — 'position' is the subject, FX is a modifier."},
+    {"case_id": 131, "category": "negative", "text": "Penalty framework review was the subject of committee deliberation last quarter.", "human_label": "CONTEXT", "candidate": "Penalty", "reasoning": "'Penalty framework review was the subject' — 'review' is the subject, penalty is a modifier."},
+    {"case_id": 132, "category": "negative", "text": "GDP accounting methodology was updated to reflect new international standards.", "human_label": "CONTEXT", "candidate": "Gross Domestic Product", "reasoning": "'GDP accounting methodology was updated' — 'methodology' is the subject, GDP is a modifier."},
+    {"case_id": 133, "category": "negative", "text": "Inflation projection models were enhanced in the central bank's research upgrade.", "human_label": "CONTEXT", "candidate": "Inflation", "reasoning": "'Inflation projection models were enhanced' — 'models' is the subject, inflation is a modifier."},
+    {"case_id": 134, "category": "negative", "text": "Policy rate announcement schedule was published in the advance calendar.", "human_label": "CONTEXT", "candidate": "Policy Rate", "reasoning": "'Policy rate announcement schedule was published' — 'schedule' is the subject, policy rate is a modifier."},
+    {"case_id": 135, "category": "negative", "text": "Unemployment insurance trust fund was reviewed in the fiscal sustainability report.", "human_label": "CONTEXT", "candidate": "Unemployment", "reasoning": "'Unemployment insurance trust fund was reviewed' — 'fund' is the subject, unemployment is a modifier."},
+    {"case_id": 136, "category": "negative", "text": "CPI publication practices were harmonized with international statistical standards.", "human_label": "CONTEXT", "candidate": "Consumer Price Index", "reasoning": "'CPI publication practices were harmonized' — 'practices' is the subject, CPI is a modifier."},
+    {"case_id": 137, "category": "negative", "text": "Foreign exchange market structure was reviewed in the central bank's market study.", "human_label": "CONTEXT", "candidate": "Foreign Exchange", "reasoning": "'FX market structure was reviewed' — 'structure' is the subject, FX is a modifier."},
+    {"case_id": 138, "category": "negative", "text": "Penalty appeal process was detailed in the regulatory enforcement manual.", "human_label": "CONTEXT", "candidate": "Penalty", "reasoning": "'Penalty appeal process was detailed' — 'process' is the subject, penalty is a modifier."},
+    {"case_id": 139, "category": "negative", "text": "GDP base year was updated in the comprehensive benchmark revision.", "human_label": "CONTEXT", "candidate": "Gross Domestic Product", "reasoning": "'GDP base year was updated' — 'year' is the subject, GDP is a modifier."},
+    {"case_id": 140, "category": "negative", "text": "Inflation data collection was refined per the new statistical methodology.", "human_label": "CONTEXT", "candidate": "Inflation", "reasoning": "'Inflation data collection was refined' — 'collection' is the subject, inflation is a modifier."},
+    {"case_id": 141, "category": "negative", "text": "Policy rate calibration was discussed in the monetary policy implementation review.", "human_label": "CONTEXT", "candidate": "Policy Rate", "reasoning": "'Policy rate calibration was discussed' — 'calibration' is the subject, policy rate is a modifier."},
+    {"case_id": 142, "category": "negative", "text": "Unemployment claims processing system was upgraded in the labor department modernization.", "human_label": "CONTEXT", "candidate": "Unemployment", "reasoning": "'Unemployment claims processing system was upgraded' — 'system' is the subject, unemployment is a modifier."},
+    {"case_id": 143, "category": "negative", "text": "CPI regional breakdown was detailed in the geographic appendix of the release.", "human_label": "CONTEXT", "candidate": "Consumer Price Index", "reasoning": "'CPI regional breakdown was detailed' — 'breakdown' is the subject, CPI is a modifier."},
+    {"case_id": 144, "category": "negative", "text": "Foreign exchange turnover statistics publication moved to a semi-annual schedule.", "human_label": "CONTEXT", "candidate": "Foreign Exchange", "reasoning": "'FX turnover statistics publication moved to schedule' — 'publication' is the subject, FX is a modifier."},
+    {"case_id": 145, "category": "negative", "text": "Penalty enforcement guidelines were revised in the latest regulatory framework update.", "human_label": "CONTEXT", "candidate": "Penalty", "reasoning": "'Penalty enforcement guidelines were revised' — 'guidelines' is the subject, penalty is a modifier."},
+    {"case_id": 146, "category": "negative", "text": "GDP source data was updated in the comprehensive annual revision release.", "human_label": "CONTEXT", "candidate": "Gross Domestic Product", "reasoning": "'GDP source data was updated' — 'data' is the subject, GDP is a modifier."},
+    {"case_id": 147, "category": "negative", "text": "Inflation expectations indicator was added to the central bank's monitoring dashboard.", "human_label": "CONTEXT", "candidate": "Inflation", "reasoning": "'Inflation expectations indicator was added' — 'indicator' is the subject, inflation is a modifier."},
+    {"case_id": 148, "category": "negative", "text": "Policy rate operating framework was reviewed in the central bank's implementation assessment.", "human_label": "CONTEXT", "candidate": "Policy Rate", "reasoning": "'Policy rate operating framework was reviewed' — 'framework' is the subject, policy rate is a modifier."},
+    {"case_id": 149, "category": "negative", "text": "Unemployment statistics methodology was aligned with the ILO international standard.", "human_label": "CONTEXT", "candidate": "Unemployment", "reasoning": "'Unemployment statistics methodology was aligned' — 'methodology' is the subject, unemployment is a modifier."},
+    {"case_id": 150, "category": "negative", "text": "CPI index reference base was updated to 2020=100 in the latest rebasing publication.", "human_label": "CONTEXT", "candidate": "Consumer Price Index", "reasoning": "'CPI index reference base was updated' — 'base' is the subject, CPI is a modifier."}
   ],
   "label_distribution": {
     "positive_TRUE_SUBJECT": 40,
@@ -1292,95 +179,9 @@
     "human_label_breakdown": {
       "TRUE_SUBJECT": 40,
       "FALSE_BINDING": 35,
-      "AMBIGUOUS": 31,
-      "CONTEXT_ONLY": 9,
+      "AMBIGUOUS": 40,
       "CONTEXT": 35
-    },
-    "annotation_repair_applied": true,
-    "repair_count": 9,
-    "repair_details": [
-      {
-        "case_id": 83,
-        "candidate": "Gross Domestic Product",
-        "old_label": "AMBIGUOUS",
-        "new_label": "CONTEXT_ONLY",
-        "decision_reason": "Blind adjudication determined the event verb clearly applies to the head noun with no secondary target or meta-referential construction. Original AMBIGUOUS label was inconsistent with identical-structure counterparts labeled CONTEXT.",
-        "evidence_span": "GDP statistics are compiled in accordance with international methodology standards.",
-        "adjudication_commit": "b60d351"
-      },
-      {
-        "case_id": 87,
-        "candidate": "Consumer Price Index",
-        "old_label": "AMBIGUOUS",
-        "new_label": "CONTEXT_ONLY",
-        "decision_reason": "Blind adjudication determined the event verb clearly applies to the head noun with no secondary target or meta-referential construction. Original AMBIGUOUS label was inconsistent with identical-structure counterparts labeled CONTEXT.",
-        "evidence_span": "CPI methodology was revised in line with the new international statistical standard.",
-        "adjudication_commit": "b60d351"
-      },
-      {
-        "case_id": 89,
-        "candidate": "Penalty",
-        "old_label": "AMBIGUOUS",
-        "new_label": "CONTEXT_ONLY",
-        "decision_reason": "Blind adjudication determined the event verb clearly applies to the head noun with no secondary target or meta-referential construction. Original AMBIGUOUS label was inconsistent with identical-structure counterparts labeled CONTEXT.",
-        "evidence_span": "Penalty procedures were outlined in the updated enforcement guidance document.",
-        "adjudication_commit": "b60d351"
-      },
-      {
-        "case_id": 92,
-        "candidate": "Policy Rate",
-        "old_label": "AMBIGUOUS",
-        "new_label": "CONTEXT_ONLY",
-        "decision_reason": "Blind adjudication determined the event verb clearly applies to the head noun with no secondary target or meta-referential construction. Original AMBIGUOUS label was inconsistent with identical-structure counterparts labeled CONTEXT.",
-        "evidence_span": "Policy rate decisions are scheduled for the next FOMC meeting per the published calendar.",
-        "adjudication_commit": "b60d351"
-      },
-      {
-        "case_id": 93,
-        "candidate": "Unemployment",
-        "old_label": "AMBIGUOUS",
-        "new_label": "CONTEXT_ONLY",
-        "decision_reason": "Blind adjudication determined the event verb clearly applies to the head noun with no secondary target or meta-referential construction. Original AMBIGUOUS label was inconsistent with identical-structure counterparts labeled CONTEXT.",
-        "evidence_span": "Unemployment statistics are released on the first Friday of each month by the BLS.",
-        "adjudication_commit": "b60d351"
-      },
-      {
-        "case_id": 94,
-        "candidate": "Consumer Price Index",
-        "old_label": "AMBIGUOUS",
-        "new_label": "CONTEXT_ONLY",
-        "decision_reason": "Blind adjudication determined the event verb clearly applies to the head noun with no secondary target or meta-referential construction. Original AMBIGUOUS label was inconsistent with identical-structure counterparts labeled CONTEXT.",
-        "evidence_span": "CPI sub-indices were analyzed in the detailed statistical appendix.",
-        "adjudication_commit": "b60d351"
-      },
-      {
-        "case_id": 96,
-        "candidate": "Penalty",
-        "old_label": "AMBIGUOUS",
-        "new_label": "CONTEXT_ONLY",
-        "decision_reason": "Blind adjudication determined the event verb clearly applies to the head noun with no secondary target or meta-referential construction. Original AMBIGUOUS label was inconsistent with identical-structure counterparts labeled CONTEXT.",
-        "evidence_span": "Penalty framework revisions were proposed in the latest regulatory consultation paper.",
-        "adjudication_commit": "b60d351"
-      },
-      {
-        "case_id": 98,
-        "candidate": "Inflation",
-        "old_label": "AMBIGUOUS",
-        "new_label": "CONTEXT_ONLY",
-        "decision_reason": "Blind adjudication determined the event verb clearly applies to the head noun with no secondary target or meta-referential construction. Original AMBIGUOUS label was inconsistent with identical-structure counterparts labeled CONTEXT.",
-        "evidence_span": "Inflation targeting framework was reaffirmed in the central bank's strategic review.",
-        "adjudication_commit": "b60d351"
-      },
-      {
-        "case_id": 101,
-        "candidate": "Consumer Price Index",
-        "old_label": "AMBIGUOUS",
-        "new_label": "CONTEXT_ONLY",
-        "decision_reason": "Blind adjudication determined the event verb clearly applies to the head noun with no secondary target or meta-referential construction. Original AMBIGUOUS label was inconsistent with identical-structure counterparts labeled CONTEXT.",
-        "evidence_span": "CPI weights were updated in the latest index revision per the statistical standard.",
-        "adjudication_commit": "b60d351"
-      }
-    ]
+    }
   },
   "pre_registration_timestamp_utc": "PRE-REGISTRATION — labels committed BEFORE V2.1 runs. SHA256 will be computed and recorded BEFORE V2.1 execution, then verified UNCHANGED after."
 }

@@ -1394,3 +1394,26 @@ Stage Summary:
 - V48AL_POPULATION = 22
 - BENCHMARK_STATUS = NOT_USED
 - STOP.
+
+---
+Task ID: V48AL-CLEAN-CLOSURE
+Agent: main
+Task: V48AL Clean Closure Rebuild — restore frozen holdout SHA256, isolate annotation repairs to dedicated audit file.
+
+Work Log:
+- STEP 1: Hard freeze verified: LOCAL == REMOTE == 20c0da2, CLEAN.
+- STEP 2: Restored v48ag_independent_preregistered_sample.json from commit ef5325d. SHA256 verified = bbc1ac6c... (matches original frozen state).
+- STEP 3: Created intelligence_core/tests/reliability/v48al_annotation_repairs.json — dedicated append-only audit file with 9 annotation corrections. This file is the SOLE authoritative record of corrections. The holdout sample is FROZEN and UNCHANGED.
+- STEP 4: Verified only permitted files changed: holdout (restored) + audit file (new). Production/V2/V2.1: 0 files changed.
+- STEP 5: 338/338 tests PASS.
+- STEP 6: Committing clean closure.
+- STEP 7: Post-commit SHA256 verification pending.
+
+Stage Summary:
+- Pre-registered holdout RESTORED to frozen state (SHA256 = bbc1ac6c...).
+- 9 annotation corrections ISOLATED in dedicated audit file (v48al_annotation_repairs.json).
+- The holdout sample is NO LONGER MUTATED — it is byte-for-byte identical to its original frozen state.
+- Production/V2/V2.1: 0 files changed.
+- Ontology: FROZEN.
+- ONTOLOGY_CANDIDATES: [130, 131, 147] — OPEN, preserved for Part B investigation.
+- BENCHMARK_STATUS: NOT_USED.
