@@ -1204,3 +1204,39 @@ Artifacts produced:
 - intelligence_core/tests/reliability/v48ah_falsification_experiment.py (V48AH falsification runner with H1, H2, H1+H2 shadow variants)
 - intelligence_core/tests/reliability/v48ah_falsification_results.json (machine-readable results)
 - docs/evidence/ROUAA_CORE_V48AH_FALSIFICATION_EXPERIMENT.md (human-readable report)
+
+---
+Task ID: V48AI
+Agent: main
+Task: V48AI Relational Evidence Forensic Adjudication — investigation ONLY, NOT implementation. Analyze the 11 H1 counterexamples and 18 H1-explained cases. Find smallest observable distinction between populations. Classify into A-H. Do NOT propose or implement a fix. STOP after forensic report.
+
+Work Log:
+- §1 HARD FREEZE verified: LOCAL == REMOTE == 8473ad9. All files unchanged.
+- §3 Extracted 22 forensic fields per case for 11 counterexamples + 18 explained.
+- §5 Counterexample-first analysis: "Why should this remain CONTEXT_ONLY despite ADMINISTRATIVE_HEAD_NOUN?"
+  - 9/11 counterexamples classified as E_EVENT_ATTRIBUTION_FAILURE (event verb clearly applies to head noun, not candidate)
+  - 2/11 classified as G_TRUE_SEMANTIC_LIMITATION (meta-referential verb, but human is confident CONTEXT)
+- §6 Distinguishing signals analysis — tested 6 signals:
+  - verb_type (meta vs admin): NON-discriminative (both populations have both types)
+  - head_noun abstractness: NON-discriminative (both populations have abstract nouns; counterexamples have 1 concrete, explained have 0)
+  - 'by <institution>': NON-discriminative (both have it)
+  - future tense: NON-discriminative (neither has it)
+  - 'subject of' phrase: NON-discriminative (both have it)
+  - head noun overlap: NON-discriminative (both share: expectations, framework, targeting, reserves, guidelines, statistics)
+- §7 Decision: RELATIONAL_PROPERTY_WEAKLY_SUPPORTED
+  - No local signal discriminates between the two populations.
+  - Counterexample classifications: 9 E + 2 G
+  - Explained classifications: 9 E + 9 B
+  - Both populations are majority EVENT_ATTRIBUTION_FAILURE or DOCUMENT_CONTEXT_REQUIRED.
+  - The distinction cannot be made from local text alone, but the exact mechanism (document context vs event attribution) is not yet determined.
+- §8 H2 investigation:
+  - False promotion #107: V2.1 issue (TRUE_SUBJECT for "Settlement procedures were described"), NOT H2.
+  - False rejections #12, #34: DATA_GAP cases ("fined" doesn't match "fine" alias), H2 doesn't address them.
+  - All 3 H2 false cases are UNRELATED failures — H2 didn't introduce them.
+
+Stage Summary:
+- VERDICT: V48AI = FORENSIC ADJUDICATION COMPLETE.
+- Decision: RELATIONAL_PROPERTY_WEAKLY_SUPPORTED.
+- No local signal discriminates between counterexamples and explained cases.
+- The next experiment should investigate whether document context or event attribution is the discriminating factor.
+- Per directive: STOP after forensic report. DO NOT propose fix.
