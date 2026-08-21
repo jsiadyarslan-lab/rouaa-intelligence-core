@@ -191,7 +191,8 @@ _INDICATOR_REGISTRY: dict[str, tuple[str, str, list[str]]] = {
 _INSTRUMENT_REGISTRY: dict[str, tuple[str, str, list[str]]] = {
     "policy_rate": ("Policy Rate", TYPE_INSTRUMENT,
                     ["policy rate", "interest rate", "base rate",
-                     "refinancing rate", "main refinancing operations rate"]),
+                     "refinancing rate", "main refinancing operations rate",
+                     "bank rate"]),  # V48AD: added 'bank rate' (proven missing by V48AC)
     "bonds": ("Bonds", TYPE_INSTRUMENT, ["bonds", "government bonds", "sovereign bonds"]),
     "equities": ("Equities", TYPE_INSTRUMENT, ["equities", "stock market", "shares"]),
 }
@@ -550,7 +551,8 @@ _EVENT_VERBS = {
     "INDICATOR": re.compile(
         r"\b(?:increase[ds]?|rose|fell|decrease[ds]?|grew|decline[ds]?|eased|"
         r"accelerate[ds]?|slowed|dropped|climbed|surge[ds]?|dipped?|rebound(?:ed)?|"
-        r"recovered|contract(?:ed)?|expand(?:ed)?|stand[ds]? at)\b",
+        r"recovered|contract(?:ed)?|expand(?:ed)?|stand[ds]? at|"
+        r"stabilized?|reached?|advanced|improved)\b",  # V48AD: added stabilized, reached, advanced, improved
         re.I,
     ),
     "CONCEPT": re.compile(
@@ -559,14 +561,15 @@ _EVENT_VERBS = {
         re.I,
     ),
     "INSTRUMENT": re.compile(
-        r"\b(?:raise[ds]?|lower[eds]?|cut|maintain(?:ed)?|set|kept|held|unchanged?|"
+        r"\b(?:raise[ds]?|lower(?:ed|s|d)?|cut|maintain(?:ed)?|set|kept|held|unchanged?|"
         r"increase[ds]?|reduce[ds]?|adjust(?:ed)?|stood at|"
-        r"remain(?:ed)?|stay(?:ed)?)\b",
+        r"remain(?:ed)?|stay(?:ed)?)\b",  # V48AD: fixed lower regex bug (lower[eds]? → lower(?:ed|s|d)?)
         re.I,
     ),
     "REGULATION": re.compile(
         r"\b(?:impose[ds]?|issued?|reached?|settled?|fined?|penalized?|"
-        r"charged?|announced?|published?)\b",
+        r"charged?|announced?|published?|"
+        r"levied|assessed|finalized)\b",  # V48AD: added levied, assessed, finalized
         re.I,
     ),
     "MARKET": re.compile(
@@ -641,14 +644,80 @@ def _check_semantic_binding(
     # Copula (was/is/are/were) alone is NOT sufficient.
     event_verbs = _EVENT_VERBS.get(reg_type, _EVENT_VERBS["INDICATOR"])
     window = text_lower[max(0, idx - 50): idx + len(match_text_lower) + 100]
-    if event_verbs.search(window):
+    m = event_verbs.search(window)
+    if m:
+        # V48AD §3 — SUBJECT ATTRIBUTION CHECK:
+        # Distinguish "strong signal ABOUT candidate" from
+        # "strong signal PRESENT NEAR candidate."
+        #
+        # A signal is attributable to the candidate only if the candidate
+        # is NOT a noun modifier of an intervening head noun.
+        # Check: does a common head noun appear between the candidate
+        # and the matched verb? If so, the verb likely applies to the
+        # head noun, not the candidate.
+        verb_pos_in_text = max(0, idx - 50) + m.start() if idx >= 50 else m.start()
+        
+        # Extract text between candidate end and verb
+        cand_end = idx + len(match_text_lower)
+        if verb_pos_in_text > cand_end:
+            between = text_lower[cand_end:verb_pos_in_text]
+        else:
+            between = ""
+        
+        # Check for intervening head nouns that would indicate
+        # the candidate is a MODIFIER, not the subject
+        head_nouns = [
+            "data", "guidelines", "registrations", "corridor",
+            "framework", "methodology", "statistics", "procedures",
+            "decisions", "expectations", "projections", "outlook",
+            "stance", "sub-indices", "subindices", "survey", "schedule",
+            "reserves", "buffer", "appeal", "performance", "trends",
+            "basket", "deflator", "weights", "targeting", "indicator",
+            "position", "review", "revisions", "process", "collection",
+            "systems", "communications", "guidance", "path",
+            "calendar", "fund", "practices", "structure", "base",
+            "breakdown", "publication", "assistance", "turnover",
+        ]
+        has_intervening_head = any(
+            re.search(r"\b" + re.escape(hn) + r"\b", between)
+            for hn in head_nouns
+        )
+        
+        if has_intervening_head:
+            # Candidate is a noun modifier — the event verb applies
+            # to the head noun, not the candidate. NOT BOUND.
+            return False
+        
+        # V48AD §3b — Check text AFTER the matched verb for head nouns.
+        # If a head noun appears immediately after the verb, the verb
+        # likely applies to that head noun (with candidate as modifier).
+        after_verb = text_lower[verb_pos_in_text + len(m.group(0)):verb_pos_in_text + len(m.group(0)) + 30]
+        has_following_head = any(
+            re.search(r"\b" + re.escape(hn) + r"\b", after_verb)
+            for hn in head_nouns
+        )
+        if has_following_head:
+            # The verb is followed by a head noun — candidate modifies it.
+            return False
+        
         return True
 
     # Also check: is the candidate the FIRST noun phrase in the text?
     # (Often the subject of the sentence) — but still requires an event verb
     if idx < 80:
         after_candidate = text_lower[idx + len(match_text_lower):idx + len(match_text_lower) + 100]
-        if event_verbs.search(after_candidate):
+        m2 = event_verbs.search(after_candidate)
+        if m2:
+            # V48AD §3 — Subject attribution check for first-noun position
+            # Check if there's an intervening head noun between candidate and verb
+            verb_pos = idx + len(match_text_lower) + m2.start()
+            between = text_lower[idx + len(match_text_lower):verb_pos]
+            has_intervening_head = any(
+                re.search(r"\b" + re.escape(hn) + r"\b", between)
+                for hn in head_nouns
+            )
+            if has_intervening_head:
+                return False
             return True
 
     return False
