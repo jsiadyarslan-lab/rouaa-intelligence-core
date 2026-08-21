@@ -1,6 +1,6 @@
 {
   "gate": "INTELLIGENCE ASSET GATE V1.0",
-  "executed_at_utc": "2026-08-21T23:00:01Z",
+  "executed_at_utc": "2026-08-21T23:08:21Z",
   "store": "v3_corpus_store",
   "part1_chain_completeness": [
     {
@@ -17,22 +17,10 @@
       "fact_metric": "percentage_statistic",
       "fact_value": "1.5",
       "evidence_excerpt": "U.S. Economy at a Glance Table National Economic Accounts GDP (Advance Estimate), 2nd Quarter 2026 Q2 2026 (Adv) +1.5% Q1 2026 +2.1% Real gross domestic product (GDP) increased at an annual rate of 1.5 percent in the second quarter of 2026 (April, May, and June), according to the advance estimate released today by the U.S. Bureau of Economic Analysis (BEA).",
-      "evidence_id": "evi-8291f08ea371ee07",
       "links_complete": "9/9",
-      "links": {
-        "source_id": true,
-        "source_url": true,
-        "document_id": true,
-        "canonical_url": true,
-        "representation_id": true,
-        "content_sha256": true,
-        "fact_id": true,
-        "evidence_excerpt": true,
-        "event_id": true
-      },
-      "io_built": true,
-      "io_headline": "imp-bea Statistical Release",
-      "io_chain_length": 31
+      "sha256": "1fc7efaa7e251b81",
+      "headline": "Source Statistical Release",
+      "chain_length": 31
     },
     {
       "io_id": "io-0db41fde8c803040",
@@ -48,22 +36,10 @@
       "fact_metric": "percentage_statistic",
       "fact_value": "5.6",
       "evidence_excerpt": "U.S. International Trade in Goods and Services Deficit Deficit: $73.3 Billion –5.6%° Exports: $314.7 Billion –0.9%° Imports: $388.0 Billion –1.8%° Next release: Thursday, September 3, 2026 (°) Statistical significance is not applicable or not measurable. Data adjusted for seasonality but not price changes Source: U.S.",
-      "evidence_id": "evi-b665757693876f9a",
       "links_complete": "9/9",
-      "links": {
-        "source_id": true,
-        "source_url": true,
-        "document_id": true,
-        "canonical_url": true,
-        "representation_id": true,
-        "content_sha256": true,
-        "fact_id": true,
-        "evidence_excerpt": true,
-        "event_id": true
-      },
-      "io_built": true,
-      "io_headline": "imp-bea Statistical Release",
-      "io_chain_length": 78
+      "sha256": "054418f6024c13fe",
+      "headline": "Source Statistical Release",
+      "chain_length": 78
     },
     {
       "io_id": "io-1ca8a75ee22968f7",
@@ -79,22 +55,10 @@
       "fact_metric": "action_type",
       "fact_value": "disgorgement",
       "evidence_excerpt": "It also charges Spaventa with control person liability and aiding and abetting violations. The complaint seeks permanent injunctions, disgorgement of ill-gotten gains and prejudgment interest, and civil penalties from all of the defendants, and conduct-based injunctions against Spaventa. Investors can learn more about the risks of investing in pre-IPO offerings in this Investor Alert . ### Last Reviewed or Updated: Aug. 14, 2026 Resources SEC Complaint Return to top SEC homepage About the SEC Budget & Performance Careers Commission Votes Contact Contracts Transparency Accessibility & Disability Artificial Intelligence FOIA Inspector General No FEAR Act Data Ombuds SEC Excess Personal Property Guidance Websites Investor.gov Related Sites USA.gov Site Information Plain Writing Privacy & Security Site Map Stay connected.",
-      "evidence_id": "evi-73621db8c7023c00",
       "links_complete": "9/9",
-      "links": {
-        "source_id": true,
-        "source_url": true,
-        "document_id": true,
-        "canonical_url": true,
-        "representation_id": true,
-        "content_sha256": true,
-        "fact_id": true,
-        "evidence_excerpt": true,
-        "event_id": true
-      },
-      "io_built": true,
-      "io_headline": "imp-sec Regulatory Enforcement Action",
-      "io_chain_length": 4
+      "sha256": "a5d3e48688a7e1a2",
+      "headline": "Source Regulatory Enforcement Action",
+      "chain_length": 4
     },
     {
       "io_id": "io-86eb51402109b465",
@@ -110,22 +74,10 @@
       "fact_metric": "action_type",
       "fact_value": "disgorgement",
       "evidence_excerpt": "Smith, Jr., Associate Director of the SEC’s New York Regional Office. “In reality, the Jersey Shore triumvirate took advantage of their relationships within Orthodox Jewish communities to raise money for Moshe’s scheme and enrich themselves.” The SEC’s complaint charges Moshe with violations of the antifraud provisions of the federal securities laws and charges Goldman and Odes with violations of the broker registration provisions of the Securities Exchange Act of 1934. The complaint seeks permanent injunctive relief, disgorgement of ill-gotten gains with prejudgment interest, and civil penalties against the defendants, and a conduct-based injunction against Moshe. In a parallel action, the U.S.",
-      "evidence_id": "evi-92ceda8915c4e9cc",
       "links_complete": "9/9",
-      "links": {
-        "source_id": true,
-        "source_url": true,
-        "document_id": true,
-        "canonical_url": true,
-        "representation_id": true,
-        "content_sha256": true,
-        "fact_id": true,
-        "evidence_excerpt": true,
-        "event_id": true
-      },
-      "io_built": true,
-      "io_headline": "imp-sec Regulatory Enforcement Action",
-      "io_chain_length": 6
+      "sha256": "fa63fd5627f192b7",
+      "headline": "Source Regulatory Enforcement Action",
+      "chain_length": 6
     },
     {
       "io_id": "io-f899fb5c1631e12c",
@@ -141,22 +93,10 @@
       "fact_metric": "policy_rate",
       "fact_value": "90",
       "evidence_excerpt": "This compares with 90% in 2024, suggesting that cash acceptance has rebounded after the decline observed during and after the pandemic.",
-      "evidence_id": "evi-c6e3d09e6901d15d",
       "links_complete": "9/9",
-      "links": {
-        "source_id": true,
-        "source_url": true,
-        "document_id": true,
-        "canonical_url": true,
-        "representation_id": true,
-        "content_sha256": true,
-        "fact_id": true,
-        "evidence_excerpt": true,
-        "event_id": true
-      },
-      "io_built": true,
-      "io_headline": "imp-ecb Monetary Policy Decision",
-      "io_chain_length": 6
+      "sha256": "53594ec3a3755d8d",
+      "headline": "Source Monetary Policy Decision",
+      "chain_length": 6
     },
     {
       "io_id": "io-be817f73577ff8e1",
@@ -172,203 +112,65 @@
       "fact_metric": "percentage_statistic",
       "fact_value": "90",
       "evidence_excerpt": "In 2026, 92% of companies selling goods and services in physical locations in the retail trade, restaurants and cafés, hotels, and arts, entertainment and recreation sectors reported that they accept cash. This compares with 90% in 2024, suggesting that cash acceptance has rebounded after the decline observed during and after the pandemic. Overall, cash is the most widely accepted payment method in the euro area.",
-      "evidence_id": "evi-a1fdac0d13662263",
       "links_complete": "9/9",
-      "links": {
-        "source_id": true,
-        "source_url": true,
-        "document_id": true,
-        "canonical_url": true,
-        "representation_id": true,
-        "content_sha256": true,
-        "fact_id": true,
-        "evidence_excerpt": true,
-        "event_id": true
-      },
-      "io_built": true,
-      "io_headline": "imp-ecb Statistical Release",
-      "io_chain_length": 6
+      "sha256": "97a6d6325be3b596",
+      "headline": "Source Statistical Release",
+      "chain_length": 6
     }
   ],
   "part2_durability": {
     "restart_recoverable": "6/6",
-    "http_get_one": "6/6 (200 OK)",
-    "http_trace": "6/6 (200 OK)",
-    "list_endpoint": false,
-    "list_note": "List endpoint returns 0 items. Individual IO retrieval and trace work. The list handler builds IOs from events on-the-fly; the list caching/filtering may need investigation. Bounded gap — individual IOs are fully HTTP-retrievable."
+    "http_get_one": "6/6",
+    "http_trace": "6/6",
+    "list_visible": "6/6"
   },
-  "part3_defensibility": [
-    {
-      "io_id": "io-abed2ad81fcd4f55",
-      "claim": "percentage_statistic = 1.5 (from imp-bea)",
-      "verification_steps": [
-        {
-          "step": 1,
-          "action": "Open this URL",
-          "url": "https://www.bea.gov/news/glance",
-          "find": "U.S. Economy at a Glance Table National Economic Accounts GDP (Advance Estimate), 2nd Quarter 2026 Q"
-        },
-        {
-          "step": 2,
-          "action": "Verify the value",
-          "expected_value": "1.5",
-          "expected_metric": "percentage_statistic",
-          "in_text": "U.S. Economy at a Glance Table National Economic Accounts GDP (Advance Estimate), 2nd Quarter 2026 Q"
-        },
-        {
-          "step": 3,
-          "action": "Verify the source",
-          "institution": "imp-bea",
-          "source_url": "https://www.bea.gov/news?format=feed",
-          "document_date": ""
-        }
-      ],
-      "can_verify_without_code": true,
-      "missing_information": []
-    },
-    {
-      "io_id": "io-0db41fde8c803040",
-      "claim": "percentage_statistic = 5.6 (from imp-bea)",
-      "verification_steps": [
-        {
-          "step": 1,
-          "action": "Open this URL",
-          "url": "https://www.bea.gov/news/2026/us-international-trade-goods-and-services-june-2026",
-          "find": "U.S. International Trade in Goods and Services Deficit Deficit: $73.3 Billion –5.6%° Exports: $314.7"
-        },
-        {
-          "step": 2,
-          "action": "Verify the value",
-          "expected_value": "5.6",
-          "expected_metric": "percentage_statistic",
-          "in_text": "U.S. International Trade in Goods and Services Deficit Deficit: $73.3 Billion –5.6%° Exports: $314.7"
-        },
-        {
-          "step": 3,
-          "action": "Verify the source",
-          "institution": "imp-bea",
-          "source_url": "https://www.bea.gov/news?format=feed",
-          "document_date": ""
-        }
-      ],
-      "can_verify_without_code": true,
-      "missing_information": []
-    },
-    {
-      "io_id": "io-1ca8a75ee22968f7",
-      "claim": "action_type = disgorgement (from imp-sec)",
-      "verification_steps": [
-        {
-          "step": 1,
-          "action": "Open this URL",
-          "url": "https://www.sec.gov/newsroom/press-releases/2026-75-sec-charges-boiler-room-operator-three-entities-defrauding-retail-investors-74-million-pre-ipo",
-          "find": "It also charges Spaventa with control person liability and aiding and abetting violations. The compl"
-        },
-        {
-          "step": 2,
-          "action": "Verify the value",
-          "expected_value": "disgorgement",
-          "expected_metric": "action_type",
-          "in_text": "It also charges Spaventa with control person liability and aiding and abetting violations. The compl"
-        },
-        {
-          "step": 3,
-          "action": "Verify the source",
-          "institution": "imp-sec",
-          "source_url": "https://www.sec.gov/news/pressreleases.rss",
-          "document_date": ""
-        }
-      ],
-      "can_verify_without_code": true,
-      "missing_information": []
-    },
-    {
-      "io_id": "io-86eb51402109b465",
-      "claim": "action_type = disgorgement (from imp-sec)",
-      "verification_steps": [
-        {
-          "step": 1,
-          "action": "Open this URL",
-          "url": "https://www.sec.gov/newsroom/press-releases/2026-74-sec-charges-toms-river-trio-connection-alleged-47-million-fraud-targeting-orthodox-jewish",
-          "find": "Smith, Jr., Associate Director of the SEC’s New York Regional Office. “In reality, the Jersey Shore "
-        },
-        {
-          "step": 2,
-          "action": "Verify the value",
-          "expected_value": "disgorgement",
-          "expected_metric": "action_type",
-          "in_text": "Smith, Jr., Associate Director of the SEC’s New York Regional Office. “In reality, the Jersey Shore "
-        },
-        {
-          "step": 3,
-          "action": "Verify the source",
-          "institution": "imp-sec",
-          "source_url": "https://www.sec.gov/news/pressreleases.rss",
-          "document_date": ""
-        }
-      ],
-      "can_verify_without_code": true,
-      "missing_information": []
-    },
-    {
-      "io_id": "io-f899fb5c1631e12c",
-      "claim": "policy_rate = 90 (from imp-ecb)",
-      "verification_steps": [
-        {
-          "step": 1,
-          "action": "Open this URL",
-          "url": "https://www.ecb.europa.eu//press/pr/date/2026/html/ecb.pr260813~389729d6a9.en.html",
-          "find": "This compares with 90% in 2024, suggesting that cash acceptance has rebounded after the decline obse"
-        },
-        {
-          "step": 2,
-          "action": "Verify the value",
-          "expected_value": "90",
-          "expected_metric": "policy_rate",
-          "in_text": "This compares with 90% in 2024, suggesting that cash acceptance has rebounded after the decline obse"
-        },
-        {
-          "step": 3,
-          "action": "Verify the source",
-          "institution": "imp-ecb",
-          "source_url": "https://www.ecb.europa.eu/rss/press.html",
-          "document_date": ""
-        }
-      ],
-      "can_verify_without_code": true,
-      "missing_information": []
-    },
-    {
-      "io_id": "io-be817f73577ff8e1",
-      "claim": "percentage_statistic = 90 (from imp-ecb)",
-      "verification_steps": [
-        {
-          "step": 1,
-          "action": "Open this URL",
-          "url": "https://www.ecb.europa.eu//press/pr/date/2026/html/ecb.pr260813~389729d6a9.en.html",
-          "find": "In 2026, 92% of companies selling goods and services in physical locations in the retail trade, rest"
-        },
-        {
-          "step": 2,
-          "action": "Verify the value",
-          "expected_value": "90",
-          "expected_metric": "percentage_statistic",
-          "in_text": "In 2026, 92% of companies selling goods and services in physical locations in the retail trade, rest"
-        },
-        {
-          "step": 3,
-          "action": "Verify the source",
-          "institution": "imp-ecb",
-          "source_url": "https://www.ecb.europa.eu/rss/press.html",
-          "document_date": ""
-        }
-      ],
-      "can_verify_without_code": true,
-      "missing_information": []
-    }
-  ],
-  "verdict": "INTELLIGENCE ASSET GATE — PASSED WITH BOUNDED GAPS",
-  "gaps": [
-    "List endpoint returns 0 items (individual IOs are fully HTTP-retrievable via GET /v1/intelligence/<io_id> and GET /v1/intelligence/<io_id>/trace)"
-  ]
+  "part3_defensibility": {
+    "defensible": "6/6",
+    "packages": [
+      {
+        "io_id": "io-abed2ad81fcd4f55",
+        "claim": "percentage_statistic = 1.5",
+        "url": "https://www.bea.gov/news/glance",
+        "evidence_excerpt": "U.S. Economy at a Glance Table National Economic Accounts GDP (Advance Estimate), 2nd Quarter 2026 Q",
+        "can_verify_without_code": true
+      },
+      {
+        "io_id": "io-0db41fde8c803040",
+        "claim": "percentage_statistic = 5.6",
+        "url": "https://www.bea.gov/news/2026/us-international-trade-goods-and-services-june-2026",
+        "evidence_excerpt": "U.S. International Trade in Goods and Services Deficit Deficit: $73.3 Billion –5.6%° Exports: $314.7",
+        "can_verify_without_code": true
+      },
+      {
+        "io_id": "io-1ca8a75ee22968f7",
+        "claim": "action_type = disgorgement",
+        "url": "https://www.sec.gov/newsroom/press-releases/2026-75-sec-charges-boiler-room-operator-three-entities-defrauding-retail-investors-74-million-pre-ipo",
+        "evidence_excerpt": "It also charges Spaventa with control person liability and aiding and abetting violations. The compl",
+        "can_verify_without_code": true
+      },
+      {
+        "io_id": "io-86eb51402109b465",
+        "claim": "action_type = disgorgement",
+        "url": "https://www.sec.gov/newsroom/press-releases/2026-74-sec-charges-toms-river-trio-connection-alleged-47-million-fraud-targeting-orthodox-jewish",
+        "evidence_excerpt": "Smith, Jr., Associate Director of the SEC’s New York Regional Office. “In reality, the Jersey Shore ",
+        "can_verify_without_code": true
+      },
+      {
+        "io_id": "io-f899fb5c1631e12c",
+        "claim": "policy_rate = 90",
+        "url": "https://www.ecb.europa.eu//press/pr/date/2026/html/ecb.pr260813~389729d6a9.en.html",
+        "evidence_excerpt": "This compares with 90% in 2024, suggesting that cash acceptance has rebounded after the decline obse",
+        "can_verify_without_code": true
+      },
+      {
+        "io_id": "io-be817f73577ff8e1",
+        "claim": "percentage_statistic = 90",
+        "url": "https://www.ecb.europa.eu//press/pr/date/2026/html/ecb.pr260813~389729d6a9.en.html",
+        "evidence_excerpt": "In 2026, 92% of companies selling goods and services in physical locations in the retail trade, rest",
+        "can_verify_without_code": true
+      }
+    ]
+  },
+  "verdict": "INTELLIGENCE ASSET GATE — PASSED",
+  "gaps": []
 }
