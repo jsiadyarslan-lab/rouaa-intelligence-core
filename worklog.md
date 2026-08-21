@@ -1417,3 +1417,25 @@ Stage Summary:
 - Ontology: FROZEN.
 - ONTOLOGY_CANDIDATES: [130, 131, 147] — OPEN, preserved for Part B investigation.
 - BENCHMARK_STATUS: NOT_USED.
+
+---
+Task ID: V48AL-ONTOLOGY-INVESTIGATION
+Agent: main
+Task: V48AL Part B — Real Official Document Investigation. Investigate 3 ontology candidates (#130, #131, #147) using real authoritative financial documents. NOT model improvement. NOT benchmark.
+
+Work Log:
+- Investigigated #130 (FX reserves "described as adequate") against real IMF Article IV reports and central bank financial stability reports. Finding: real documents show "described as" clearly targets "position," not FX. Classification: B (REPRESENTABLE_BY_EXISTING_ONTOLOGY).
+- Investigated #131 (Penalty framework "subject of" committee deliberation) against real FCA/PRA enforcement reports and SEC/ESMA publications. Finding: "subject of" is a linguistic style, not semantic ambiguity. Classification: B.
+- Investigated #147 (Inflation expectations indicator "added to monitoring dashboard") against real ECB Economic Bulletin and BoE/Fed publications. Finding: "monitoring dashboard" is a destination of the action, not a secondary target. Classification: B.
+- All 3 candidates classified as B — the existing 5 dimensions are sufficient when tested against real documents.
+- The apparent ontology information loss was an artifact of synthetic text construction — the blind adjudicator was overly cautious due to lack of real document context.
+- Production/V2/V2.1/V48AG-holdout/audit-file: 0 files changed.
+- Per directive: STOP after classifying all three candidates.
+
+Stage Summary:
+- #130: B (REPRESENTABLE_BY_EXISTING_ONTOLOGY)
+- #131: B (REPRESENTABLE_BY_EXISTING_ONTOLOGY)
+- #147: B (REPRESENTABLE_BY_EXISTING_ONTOLOGY)
+- V48AL ONTOLOGY INVESTIGATION COMPLETE
+- The frozen ontology is SUFFICIENT. No ontology redesign is warranted.
+- Per directive: STOP. Wait for explicit architectural directive.
