@@ -1,0 +1,755 @@
+{
+  "phase": "V48AJ CAUSAL SEPARATION EXPERIMENT",
+  "executed_at_utc": "2026-08-21T13:45:02Z",
+  "base_commit": "054d591",
+  "v21_sha256": "80d857159c6ab4167e20a28a27fae67e60a2f6de7d2677d398c556716891110b",
+  "production_hashes": {
+    "intelligence_core/subject_entity.py": "3d19dbad167a360b",
+    "intelligence_core/tests/reliability/v48ad_hardened_evaluator.py": "90050b1771e72a3a",
+    "intelligence_core/tests/reliability/v48af_v21_evaluator.py": "80d857159c6ab416",
+    "intelligence_core/tests/reliability/v48ag_independent_preregistered_sample.json": "bbc1ac6ccea1c3e7"
+  },
+  "phase1_h2_reconciliation": [
+    {
+      "case_id": 107,
+      "text": "Settlement procedures were described in the published enforcement manual.",
+      "human_label": "AMBIGUOUS",
+      "v21_judgment": "TRUE_SUBJECT",
+      "h2_judgment": "TRUE_SUBJECT",
+      "h2_changed_output": false,
+      "error_existed_before_h2": true,
+      "h2_caused_error": false,
+      "status": "PRE_EXISTING_V21_ERROR"
+    },
+    {
+      "case_id": 12,
+      "text": "The CFTC fined the firm $8.5 million for reporting failures under the Commodity Exchange Act.",
+      "human_label": "TRUE_SUBJECT",
+      "v21_judgment": "NO_CANDIDATE",
+      "h2_judgment": "NO_CANDIDATE",
+      "h2_changed_output": false,
+      "error_existed_before_h2": true,
+      "h2_caused_error": false,
+      "status": "PRE_EXISTING_V21_ERROR"
+    },
+    {
+      "case_id": 34,
+      "text": "The FCA fined the firm £3.5 million for failures in its anti-money laundering controls.",
+      "human_label": "TRUE_SUBJECT",
+      "v21_judgment": "NO_CANDIDATE",
+      "h2_judgment": "NO_CANDIDATE",
+      "h2_changed_output": false,
+      "error_existed_before_h2": true,
+      "h2_caused_error": false,
+      "status": "PRE_EXISTING_V21_ERROR"
+    }
+  ],
+  "phase2_event_attribution": {
+    "per_case": [
+      {
+        "case_id": 117,
+        "population": "counterexample",
+        "candidate": "Penalty",
+        "head_noun": "guidelines",
+        "matched_alias": "penalty",
+        "text": "Penalty guidelines were issued for industry consultation by the regulator.",
+        "a_state": "A2",
+        "a_reason": "Concrete action verb ({'issued'}) — the event clearly applies to the head noun 'guidelines', not to the candidate. The verb describes a concrete action on the head noun.",
+        "human_label": "CONTEXT",
+        "v21_judgment": "CONTEXT_ONLY",
+        "h1_judgment": "AMBIGUOUS"
+      },
+      {
+        "case_id": 119,
+        "population": "counterexample",
+        "candidate": "Policy Rate",
+        "head_noun": "corridor",
+        "matched_alias": "policy rate",
+        "text": "Policy rate corridor was maintained at its existing operational width.",
+        "a_state": "A2",
+        "a_reason": "Concrete action verb ({'maintained'}) — the event clearly applies to the head noun 'corridor', not to the candidate. The verb describes a concrete action on the head noun.",
+        "human_label": "CONTEXT",
+        "v21_judgment": "CONTEXT_ONLY",
+        "h1_judgment": "AMBIGUOUS"
+      },
+      {
+        "case_id": 121,
+        "population": "counterexample",
+        "candidate": "Gross Domestic Product",
+        "head_noun": "deflator",
+        "matched_alias": "gdp",
+        "text": "GDP deflator series was revised in the latest national accounts release.",
+        "a_state": "A2",
+        "a_reason": "Concrete action verb ({'revised'}) — the event clearly applies to the head noun 'deflator', not to the candidate. The verb describes a concrete action on the head noun.",
+        "human_label": "CONTEXT",
+        "v21_judgment": "CONTEXT_ONLY",
+        "h1_judgment": "AMBIGUOUS"
+      },
+      {
+        "case_id": 122,
+        "population": "counterexample",
+        "candidate": "Consumer Price Index",
+        "head_noun": "basket",
+        "matched_alias": "cpi",
+        "text": "CPI basket composition was updated for the new index series.",
+        "a_state": "A2",
+        "a_reason": "Concrete action verb ({'updated'}) — the event clearly applies to the head noun 'basket', not to the candidate. The verb describes a concrete action on the head noun.",
+        "human_label": "CONTEXT",
+        "v21_judgment": "CONTEXT_ONLY",
+        "h1_judgment": "AMBIGUOUS"
+      },
+      {
+        "case_id": 126,
+        "population": "counterexample",
+        "candidate": "Inflation",
+        "head_noun": "targeting",
+        "matched_alias": "inflation",
+        "text": "Inflation targeting framework was reaffirmed in the central bank's policy statement.",
+        "a_state": "A2",
+        "a_reason": "Concrete action verb ({'reaffirmed'}) — the event clearly applies to the head noun 'targeting', not to the candidate. The verb describes a concrete action on the head noun.",
+        "human_label": "CONTEXT",
+        "v21_judgment": "CONTEXT_ONLY",
+        "h1_judgment": "AMBIGUOUS"
+      },
+      {
+        "case_id": 130,
+        "population": "counterexample",
+        "candidate": "Foreign Exchange",
+        "head_noun": "reserves",
+        "matched_alias": "foreign exchange",
+        "text": "Foreign exchange reserves position was described as adequate by the central bank.",
+        "a_state": "A2",
+        "a_reason": "Concrete action verb ({'described'}) — the event clearly applies to the head noun 'reserves', not to the candidate. The verb describes a concrete action on the head noun.",
+        "human_label": "CONTEXT",
+        "v21_judgment": "CONTEXT_ONLY",
+        "h1_judgment": "AMBIGUOUS"
+      },
+      {
+        "case_id": 131,
+        "population": "counterexample",
+        "candidate": "Penalty",
+        "head_noun": "framework",
+        "matched_alias": "penalty",
+        "text": "Penalty framework review was the subject of committee deliberation last quarter.",
+        "a_state": "A3",
+        "a_reason": "'subject of' construction — the event is meta-referential. The event could plausibly apply to either the candidate or the head noun.",
+        "human_label": "CONTEXT",
+        "v21_judgment": "CONTEXT_ONLY",
+        "h1_judgment": "AMBIGUOUS"
+      },
+      {
+        "case_id": 138,
+        "population": "counterexample",
+        "candidate": "Penalty",
+        "head_noun": "appeal",
+        "matched_alias": "penalty",
+        "text": "Penalty appeal process was detailed in the regulatory enforcement manual.",
+        "a_state": "A2",
+        "a_reason": "Concrete action verb ({'detailed'}) — the event clearly applies to the head noun 'appeal', not to the candidate. The verb describes a concrete action on the head noun.",
+        "human_label": "CONTEXT",
+        "v21_judgment": "CONTEXT_ONLY",
+        "h1_judgment": "AMBIGUOUS"
+      },
+      {
+        "case_id": 140,
+        "population": "counterexample",
+        "candidate": "Inflation",
+        "head_noun": "data",
+        "matched_alias": "inflation",
+        "text": "Inflation data collection was refined per the new statistical methodology.",
+        "a_state": "A2",
+        "a_reason": "Concrete action verb ({'refined'}) — the event clearly applies to the head noun 'data', not to the candidate. The verb describes a concrete action on the head noun.",
+        "human_label": "CONTEXT",
+        "v21_judgment": "CONTEXT_ONLY",
+        "h1_judgment": "AMBIGUOUS"
+      },
+      {
+        "case_id": 147,
+        "population": "counterexample",
+        "candidate": "Inflation",
+        "head_noun": "expectations",
+        "matched_alias": "inflation",
+        "text": "Inflation expectations indicator was added to the central bank's monitoring dashboard.",
+        "a_state": "A2",
+        "a_reason": "Concrete action verb ({'added'}) — the event clearly applies to the head noun 'expectations', not to the candidate. The verb describes a concrete action on the head noun.",
+        "human_label": "CONTEXT",
+        "v21_judgment": "CONTEXT_ONLY",
+        "h1_judgment": "AMBIGUOUS"
+      },
+      {
+        "case_id": 149,
+        "population": "counterexample",
+        "candidate": "Unemployment",
+        "head_noun": "statistics",
+        "matched_alias": "unemployment",
+        "text": "Unemployment statistics methodology was aligned with the ILO international standard.",
+        "a_state": "A2",
+        "a_reason": "Concrete action verb ({'aligned'}) — the event clearly applies to the head noun 'statistics', not to the candidate. The verb describes a concrete action on the head noun.",
+        "human_label": "CONTEXT",
+        "v21_judgment": "CONTEXT_ONLY",
+        "h1_judgment": "AMBIGUOUS"
+      },
+      {
+        "case_id": 76,
+        "population": "explained",
+        "candidate": "Inflation",
+        "head_noun": "dynamics",
+        "matched_alias": "inflation",
+        "text": "The committee noted that inflation dynamics remain under close monitoring amid global uncertainty.",
+        "a_state": "A3",
+        "a_reason": "Secondary target pattern detected — a secondary phrase (e.g., 'under close monitoring', 'as a continuing area') could apply to the candidate.",
+        "human_label": "AMBIGUOUS",
+        "v21_judgment": "CONTEXT_ONLY",
+        "h1_judgment": "AMBIGUOUS"
+      },
+      {
+        "case_id": 78,
+        "population": "explained",
+        "candidate": "Policy Rate",
+        "head_noun": "expectations",
+        "matched_alias": "policy rate",
+        "text": "Policy rate expectations were cited in the market commentary section.",
+        "a_state": "A3",
+        "a_reason": "Meta-reference verb ({'cited'}) — the event is a meta-reference (citing, noting, describing). It could plausibly apply to either the candidate or the head noun.",
+        "human_label": "AMBIGUOUS",
+        "v21_judgment": "CONTEXT_ONLY",
+        "h1_judgment": "AMBIGUOUS"
+      },
+      {
+        "case_id": 82,
+        "population": "explained",
+        "candidate": "Penalty",
+        "head_noun": "decisions",
+        "matched_alias": "penalty",
+        "text": "Penalty decisions were the subject of regulatory committee review last quarter.",
+        "a_state": "A3",
+        "a_reason": "'subject of' construction — the event is meta-referential. The event could plausibly apply to either the candidate or the head noun.",
+        "human_label": "AMBIGUOUS",
+        "v21_judgment": "CONTEXT_ONLY",
+        "h1_judgment": "AMBIGUOUS"
+      },
+      {
+        "case_id": 83,
+        "population": "explained",
+        "candidate": "Gross Domestic Product",
+        "head_noun": "statistics",
+        "matched_alias": "gdp",
+        "text": "GDP statistics are compiled in accordance with international methodology standards.",
+        "a_state": "A2",
+        "a_reason": "Concrete action verb ({'compiled'}) — the event clearly applies to the head noun 'statistics', not to the candidate. The verb describes a concrete action on the head noun.",
+        "human_label": "AMBIGUOUS",
+        "v21_judgment": "CONTEXT_ONLY",
+        "h1_judgment": "AMBIGUOUS"
+      },
+      {
+        "case_id": 87,
+        "population": "explained",
+        "candidate": "Consumer Price Index",
+        "head_noun": "methodology",
+        "matched_alias": "cpi",
+        "text": "CPI methodology was revised in line with the new international statistical standard.",
+        "a_state": "A2",
+        "a_reason": "Concrete action verb ({'revised'}) — the event clearly applies to the head noun 'methodology', not to the candidate. The verb describes a concrete action on the head noun.",
+        "human_label": "AMBIGUOUS",
+        "v21_judgment": "CONTEXT_ONLY",
+        "h1_judgment": "AMBIGUOUS"
+      },
+      {
+        "case_id": 89,
+        "population": "explained",
+        "candidate": "Penalty",
+        "head_noun": "procedures",
+        "matched_alias": "penalty",
+        "text": "Penalty procedures were outlined in the updated enforcement guidance document.",
+        "a_state": "A2",
+        "a_reason": "Concrete action verb ({'outlined', 'updated'}) — the event clearly applies to the head noun 'procedures', not to the candidate. The verb describes a concrete action on the head noun.",
+        "human_label": "AMBIGUOUS",
+        "v21_judgment": "CONTEXT_ONLY",
+        "h1_judgment": "AMBIGUOUS"
+      },
+      {
+        "case_id": 92,
+        "population": "explained",
+        "candidate": "Policy Rate",
+        "head_noun": "decisions",
+        "matched_alias": "policy rate",
+        "text": "Policy rate decisions are scheduled for the next FOMC meeting per the published calendar.",
+        "a_state": "A2",
+        "a_reason": "Concrete action verb ({'scheduled', 'published'}) — the event clearly applies to the head noun 'decisions', not to the candidate. The verb describes a concrete action on the head noun.",
+        "human_label": "AMBIGUOUS",
+        "v21_judgment": "CONTEXT_ONLY",
+        "h1_judgment": "AMBIGUOUS"
+      },
+      {
+        "case_id": 93,
+        "population": "explained",
+        "candidate": "Unemployment",
+        "head_noun": "statistics",
+        "matched_alias": "unemployment",
+        "text": "Unemployment statistics are released on the first Friday of each month by the BLS.",
+        "a_state": "A2",
+        "a_reason": "Concrete action verb ({'released'}) — the event clearly applies to the head noun 'statistics', not to the candidate. The verb describes a concrete action on the head noun.",
+        "human_label": "AMBIGUOUS",
+        "v21_judgment": "CONTEXT_ONLY",
+        "h1_judgment": "AMBIGUOUS"
+      },
+      {
+        "case_id": 94,
+        "population": "explained",
+        "candidate": "Consumer Price Index",
+        "head_noun": "sub-indices",
+        "matched_alias": "cpi",
+        "text": "CPI sub-indices were analyzed in the detailed statistical appendix.",
+        "a_state": "A2",
+        "a_reason": "Concrete action verb ({'detailed', 'analyzed'}) — the event clearly applies to the head noun 'sub-indices', not to the candidate. The verb describes a concrete action on the head noun.",
+        "human_label": "AMBIGUOUS",
+        "v21_judgment": "CONTEXT_ONLY",
+        "h1_judgment": "AMBIGUOUS"
+      },
+      {
+        "case_id": 96,
+        "population": "explained",
+        "candidate": "Penalty",
+        "head_noun": "framework",
+        "matched_alias": "penalty",
+        "text": "Penalty framework revisions were proposed in the latest regulatory consultation paper.",
+        "a_state": "A2",
+        "a_reason": "Concrete action verb ({'proposed'}) — the event clearly applies to the head noun 'framework', not to the candidate. The verb describes a concrete action on the head noun.",
+        "human_label": "AMBIGUOUS",
+        "v21_judgment": "CONTEXT_ONLY",
+        "h1_judgment": "AMBIGUOUS"
+      },
+      {
+        "case_id": 98,
+        "population": "explained",
+        "candidate": "Inflation",
+        "head_noun": "targeting",
+        "matched_alias": "inflation",
+        "text": "Inflation targeting framework was reaffirmed in the central bank's strategic review.",
+        "a_state": "A2",
+        "a_reason": "Concrete action verb ({'reaffirmed'}) — the event clearly applies to the head noun 'targeting', not to the candidate. The verb describes a concrete action on the head noun.",
+        "human_label": "AMBIGUOUS",
+        "v21_judgment": "CONTEXT_ONLY",
+        "h1_judgment": "AMBIGUOUS"
+      },
+      {
+        "case_id": 99,
+        "population": "explained",
+        "candidate": "Policy Rate",
+        "head_noun": "stance",
+        "matched_alias": "policy rate",
+        "text": "Policy rate stance remains accommodative, the central bank governor said in testimony.",
+        "a_state": "A3",
+        "a_reason": "State description verb ({'remains'}) — the verb describes a state, not a concrete action. It could apply to either the candidate or the head noun.",
+        "human_label": "AMBIGUOUS",
+        "v21_judgment": "CONTEXT_ONLY",
+        "h1_judgment": "AMBIGUOUS"
+      },
+      {
+        "case_id": 100,
+        "population": "explained",
+        "candidate": "Unemployment",
+        "head_noun": "projections",
+        "matched_alias": "unemployment",
+        "text": "The report identified unemployment projections as a key input to the fiscal outlook.",
+        "a_state": "A3",
+        "a_reason": "Secondary target pattern detected — a secondary phrase (e.g., 'under close monitoring', 'as a continuing area') could apply to the candidate.",
+        "human_label": "AMBIGUOUS",
+        "v21_judgment": "CONTEXT_ONLY",
+        "h1_judgment": "AMBIGUOUS"
+      },
+      {
+        "case_id": 101,
+        "population": "explained",
+        "candidate": "Consumer Price Index",
+        "head_noun": "weights",
+        "matched_alias": "cpi",
+        "text": "CPI weights were updated in the latest index revision per the statistical standard.",
+        "a_state": "A2",
+        "a_reason": "Concrete action verb ({'updated'}) — the event clearly applies to the head noun 'weights', not to the candidate. The verb describes a concrete action on the head noun.",
+        "human_label": "AMBIGUOUS",
+        "v21_judgment": "CONTEXT_ONLY",
+        "h1_judgment": "AMBIGUOUS"
+      },
+      {
+        "case_id": 102,
+        "population": "explained",
+        "candidate": "Foreign Exchange",
+        "head_noun": "reserves",
+        "matched_alias": "foreign exchange",
+        "text": "Foreign exchange reserves remained adequate, the central bank confirmed in its quarterly report.",
+        "a_state": "A3",
+        "a_reason": "State description verb ({'remained'}) — the verb describes a state, not a concrete action. It could apply to either the candidate or the head noun.",
+        "human_label": "AMBIGUOUS",
+        "v21_judgment": "CONTEXT_ONLY",
+        "h1_judgment": "AMBIGUOUS"
+      },
+      {
+        "case_id": 103,
+        "population": "explained",
+        "candidate": "Penalty",
+        "head_noun": "guidelines",
+        "matched_alias": "penalty",
+        "text": "Penalty guidelines were the subject of industry consultation per the regulator's statement.",
+        "a_state": "A3",
+        "a_reason": "'subject of' construction — the event is meta-referential. The event could plausibly apply to either the candidate or the head noun.",
+        "human_label": "AMBIGUOUS",
+        "v21_judgment": "CONTEXT_ONLY",
+        "h1_judgment": "AMBIGUOUS"
+      },
+      {
+        "case_id": 108,
+        "population": "explained",
+        "candidate": "Gross Domestic Product",
+        "head_noun": "performance",
+        "matched_alias": "gdp",
+        "text": "GDP performance was highlighted in the regional economic review.",
+        "a_state": "A3",
+        "a_reason": "Meta-reference verb ({'highlighted'}) — the event is a meta-reference (citing, noting, describing). It could plausibly apply to either the candidate or the head noun.",
+        "human_label": "AMBIGUOUS",
+        "v21_judgment": "CONTEXT_ONLY",
+        "h1_judgment": "AMBIGUOUS"
+      },
+      {
+        "case_id": 115,
+        "population": "explained",
+        "candidate": "Inflation",
+        "head_noun": "trends",
+        "matched_alias": "inflation",
+        "text": "The bank's quarterly statement noted that inflation trends remain a focus of attention.",
+        "a_state": "A3",
+        "a_reason": "State description verb ({'remain'}) — the verb describes a state, not a concrete action. It could apply to either the candidate or the head noun.",
+        "human_label": "AMBIGUOUS",
+        "v21_judgment": "CONTEXT_ONLY",
+        "h1_judgment": "AMBIGUOUS"
+      }
+    ],
+    "matrix": {
+      "A2_counterexample": 10,
+      "A3_counterexample": 1,
+      "A3_explained": 9,
+      "A2_explained": 9
+    }
+  },
+  "phase3_document_context": {
+    "per_case": [
+      {
+        "case_id": 117,
+        "population": "counterexample",
+        "candidate": "Penalty",
+        "text": "Penalty guidelines were issued for industry consultation by the regulator.",
+        "d_state": "D3",
+        "d_reason": "Heading 'Penalty guidelines were issued for industry consultation by the regulator' contains both candidate and competing markers — context remains ambiguous.",
+        "human_label": "CONTEXT"
+      },
+      {
+        "case_id": 119,
+        "population": "counterexample",
+        "candidate": "Policy Rate",
+        "text": "Policy rate corridor was maintained at its existing operational width.",
+        "d_state": "D1",
+        "d_reason": "Heading 'Policy rate corridor was maintained at its existing operational width' names the candidate. Document context resolves to the candidate.",
+        "human_label": "CONTEXT"
+      },
+      {
+        "case_id": 121,
+        "population": "counterexample",
+        "candidate": "Gross Domestic Product",
+        "text": "GDP deflator series was revised in the latest national accounts release.",
+        "d_state": "D1",
+        "d_reason": "Heading 'GDP deflator series was revised in the latest national accounts release' names the candidate. Document context resolves to the candidate.",
+        "human_label": "CONTEXT"
+      },
+      {
+        "case_id": 122,
+        "population": "counterexample",
+        "candidate": "Consumer Price Index",
+        "text": "CPI basket composition was updated for the new index series.",
+        "d_state": "D3",
+        "d_reason": "Heading 'CPI basket composition was updated for the new index series' contains both candidate and competing markers — context remains ambiguous.",
+        "human_label": "CONTEXT"
+      },
+      {
+        "case_id": 126,
+        "population": "counterexample",
+        "candidate": "Inflation",
+        "text": "Inflation targeting framework was reaffirmed in the central bank's policy statement.",
+        "d_state": "D4",
+        "d_reason": "No heading-like phrase detected. Document context is unavailable (synthetic HTML with generic title 'T').",
+        "human_label": "CONTEXT"
+      },
+      {
+        "case_id": 130,
+        "population": "counterexample",
+        "candidate": "Foreign Exchange",
+        "text": "Foreign exchange reserves position was described as adequate by the central bank.",
+        "d_state": "D4",
+        "d_reason": "No heading-like phrase detected. Document context is unavailable (synthetic HTML with generic title 'T').",
+        "human_label": "CONTEXT"
+      },
+      {
+        "case_id": 131,
+        "population": "counterexample",
+        "candidate": "Penalty",
+        "text": "Penalty framework review was the subject of committee deliberation last quarter.",
+        "d_state": "D3",
+        "d_reason": "Heading 'Penalty framework review was the subject of committee deliberation last quarter' contains both candidate and competing markers — context remains ambiguous.",
+        "human_label": "CONTEXT"
+      },
+      {
+        "case_id": 138,
+        "population": "counterexample",
+        "candidate": "Penalty",
+        "text": "Penalty appeal process was detailed in the regulatory enforcement manual.",
+        "d_state": "D1",
+        "d_reason": "Heading 'Penalty appeal process was detailed in the regulatory enforcement manual' names the candidate. Document context resolves to the candidate.",
+        "human_label": "CONTEXT"
+      },
+      {
+        "case_id": 140,
+        "population": "counterexample",
+        "candidate": "Inflation",
+        "text": "Inflation data collection was refined per the new statistical methodology.",
+        "d_state": "D3",
+        "d_reason": "Heading 'Inflation data collection was refined per the new statistical methodology' contains both candidate and competing markers — context remains ambiguous.",
+        "human_label": "CONTEXT"
+      },
+      {
+        "case_id": 147,
+        "population": "counterexample",
+        "candidate": "Inflation",
+        "text": "Inflation expectations indicator was added to the central bank's monitoring dashboard.",
+        "d_state": "D4",
+        "d_reason": "No heading-like phrase detected. Document context is unavailable (synthetic HTML with generic title 'T').",
+        "human_label": "CONTEXT"
+      },
+      {
+        "case_id": 149,
+        "population": "counterexample",
+        "candidate": "Unemployment",
+        "text": "Unemployment statistics methodology was aligned with the ILO international standard.",
+        "d_state": "D4",
+        "d_reason": "No heading-like phrase detected. Document context is unavailable (synthetic HTML with generic title 'T').",
+        "human_label": "CONTEXT"
+      },
+      {
+        "case_id": 76,
+        "population": "explained",
+        "candidate": "Inflation",
+        "text": "The committee noted that inflation dynamics remain under close monitoring amid global uncertainty.",
+        "d_state": "D4",
+        "d_reason": "No heading-like phrase detected. Document context is unavailable (synthetic HTML with generic title 'T').",
+        "human_label": "AMBIGUOUS"
+      },
+      {
+        "case_id": 78,
+        "population": "explained",
+        "candidate": "Policy Rate",
+        "text": "Policy rate expectations were cited in the market commentary section.",
+        "d_state": "D3",
+        "d_reason": "Heading 'Policy rate expectations were cited in the market commentary section' contains both candidate and competing markers — context remains ambiguous.",
+        "human_label": "AMBIGUOUS"
+      },
+      {
+        "case_id": 82,
+        "population": "explained",
+        "candidate": "Penalty",
+        "text": "Penalty decisions were the subject of regulatory committee review last quarter.",
+        "d_state": "D3",
+        "d_reason": "Heading 'Penalty decisions were the subject of regulatory committee review last quarter' contains both candidate and competing markers — context remains ambiguous.",
+        "human_label": "AMBIGUOUS"
+      },
+      {
+        "case_id": 83,
+        "population": "explained",
+        "candidate": "Gross Domestic Product",
+        "text": "GDP statistics are compiled in accordance with international methodology standards.",
+        "d_state": "D4",
+        "d_reason": "No heading-like phrase detected. Document context is unavailable (synthetic HTML with generic title 'T').",
+        "human_label": "AMBIGUOUS"
+      },
+      {
+        "case_id": 87,
+        "population": "explained",
+        "candidate": "Consumer Price Index",
+        "text": "CPI methodology was revised in line with the new international statistical standard.",
+        "d_state": "D4",
+        "d_reason": "No heading-like phrase detected. Document context is unavailable (synthetic HTML with generic title 'T').",
+        "human_label": "AMBIGUOUS"
+      },
+      {
+        "case_id": 89,
+        "population": "explained",
+        "candidate": "Penalty",
+        "text": "Penalty procedures were outlined in the updated enforcement guidance document.",
+        "d_state": "D1",
+        "d_reason": "Heading 'Penalty procedures were outlined in the updated enforcement guidance document' names the candidate. Document context resolves to the candidate.",
+        "human_label": "AMBIGUOUS"
+      },
+      {
+        "case_id": 92,
+        "population": "explained",
+        "candidate": "Policy Rate",
+        "text": "Policy rate decisions are scheduled for the next FOMC meeting per the published calendar.",
+        "d_state": "D4",
+        "d_reason": "No heading-like phrase detected. Document context is unavailable (synthetic HTML with generic title 'T').",
+        "human_label": "AMBIGUOUS"
+      },
+      {
+        "case_id": 93,
+        "population": "explained",
+        "candidate": "Unemployment",
+        "text": "Unemployment statistics are released on the first Friday of each month by the BLS.",
+        "d_state": "D4",
+        "d_reason": "No heading-like phrase detected. Document context is unavailable (synthetic HTML with generic title 'T').",
+        "human_label": "AMBIGUOUS"
+      },
+      {
+        "case_id": 94,
+        "population": "explained",
+        "candidate": "Consumer Price Index",
+        "text": "CPI sub-indices were analyzed in the detailed statistical appendix.",
+        "d_state": "D1",
+        "d_reason": "Heading 'CPI sub-indices were analyzed in the detailed statistical appendix' names the candidate. Document context resolves to the candidate.",
+        "human_label": "AMBIGUOUS"
+      },
+      {
+        "case_id": 96,
+        "population": "explained",
+        "candidate": "Penalty",
+        "text": "Penalty framework revisions were proposed in the latest regulatory consultation paper.",
+        "d_state": "D4",
+        "d_reason": "No heading-like phrase detected. Document context is unavailable (synthetic HTML with generic title 'T').",
+        "human_label": "AMBIGUOUS"
+      },
+      {
+        "case_id": 98,
+        "population": "explained",
+        "candidate": "Inflation",
+        "text": "Inflation targeting framework was reaffirmed in the central bank's strategic review.",
+        "d_state": "D4",
+        "d_reason": "No heading-like phrase detected. Document context is unavailable (synthetic HTML with generic title 'T').",
+        "human_label": "AMBIGUOUS"
+      },
+      {
+        "case_id": 99,
+        "population": "explained",
+        "candidate": "Policy Rate",
+        "text": "Policy rate stance remains accommodative, the central bank governor said in testimony.",
+        "d_state": "D4",
+        "d_reason": "No heading-like phrase detected. Document context is unavailable (synthetic HTML with generic title 'T').",
+        "human_label": "AMBIGUOUS"
+      },
+      {
+        "case_id": 100,
+        "population": "explained",
+        "candidate": "Unemployment",
+        "text": "The report identified unemployment projections as a key input to the fiscal outlook.",
+        "d_state": "D4",
+        "d_reason": "No heading-like phrase detected. Document context is unavailable (synthetic HTML with generic title 'T').",
+        "human_label": "AMBIGUOUS"
+      },
+      {
+        "case_id": 101,
+        "population": "explained",
+        "candidate": "Consumer Price Index",
+        "text": "CPI weights were updated in the latest index revision per the statistical standard.",
+        "d_state": "D4",
+        "d_reason": "No heading-like phrase detected. Document context is unavailable (synthetic HTML with generic title 'T').",
+        "human_label": "AMBIGUOUS"
+      },
+      {
+        "case_id": 102,
+        "population": "explained",
+        "candidate": "Foreign Exchange",
+        "text": "Foreign exchange reserves remained adequate, the central bank confirmed in its quarterly report.",
+        "d_state": "D4",
+        "d_reason": "No heading-like phrase detected. Document context is unavailable (synthetic HTML with generic title 'T').",
+        "human_label": "AMBIGUOUS"
+      },
+      {
+        "case_id": 103,
+        "population": "explained",
+        "candidate": "Penalty",
+        "text": "Penalty guidelines were the subject of industry consultation per the regulator's statement.",
+        "d_state": "D4",
+        "d_reason": "No heading-like phrase detected. Document context is unavailable (synthetic HTML with generic title 'T').",
+        "human_label": "AMBIGUOUS"
+      },
+      {
+        "case_id": 108,
+        "population": "explained",
+        "candidate": "Gross Domestic Product",
+        "text": "GDP performance was highlighted in the regional economic review.",
+        "d_state": "D3",
+        "d_reason": "Heading 'GDP performance was highlighted in the regional economic review' contains both candidate and competing markers — context remains ambiguous.",
+        "human_label": "AMBIGUOUS"
+      },
+      {
+        "case_id": 115,
+        "population": "explained",
+        "candidate": "Inflation",
+        "text": "The bank's quarterly statement noted that inflation trends remain a focus of attention.",
+        "d_state": "D4",
+        "d_reason": "No heading-like phrase detected. Document context is unavailable (synthetic HTML with generic title 'T').",
+        "human_label": "AMBIGUOUS"
+      }
+    ],
+    "matrix": {
+      "D3_counterexample": 4,
+      "D1_counterexample": 3,
+      "D4_counterexample": 4,
+      "D4_explained": 13,
+      "D3_explained": 3,
+      "D1_explained": 2
+    }
+  },
+  "phase4_joint_matrix": {
+    "A2_D3_counterexample": 3,
+    "A2_D1_counterexample": 3,
+    "A2_D4_counterexample": 4,
+    "A3_D3_counterexample": 1,
+    "A3_D4_explained": 6,
+    "A3_D3_explained": 3,
+    "A2_D4_explained": 7,
+    "A2_D1_explained": 2
+  },
+  "phase5_causal_interpretation": {
+    "H_EVENT_ATTRIBUTION": {
+      "supported": false,
+      "evidence": "",
+      "counterexample_a_states": {
+        "A2": 10,
+        "A3": 1
+      },
+      "explained_a_states": {
+        "A3": 9,
+        "A2": 9
+      }
+    },
+    "H_DOCUMENT_CONTEXT": {
+      "supported": false,
+      "evidence": "",
+      "counterexample_d_states": {
+        "D3": 4,
+        "D1": 3,
+        "D4": 4
+      },
+      "explained_d_states": {
+        "D4": 13,
+        "D3": 3,
+        "D1": 2
+      }
+    },
+    "H_BOTH": {
+      "supported": false
+    },
+    "H_NEITHER": {
+      "supported": true
+    }
+  },
+  "final_verdict": "UNRESOLVED",
+  "STOP": true,
+  "DO_NOT_create_V48AK": true,
+  "DO_NOT_modify_production": true
+}

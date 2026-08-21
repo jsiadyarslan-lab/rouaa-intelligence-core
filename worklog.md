@@ -1240,3 +1240,31 @@ Stage Summary:
 - No local signal discriminates between counterexamples and explained cases.
 - The next experiment should investigate whether document context or event attribution is the discriminating factor.
 - Per directive: STOP after forensic report. DO NOT propose fix.
+
+---
+Task ID: V48AJ
+Agent: main
+Task: V48AJ Causal Separation Experiment — separate EVENT_ATTRIBUTION_FAILURE vs DOCUMENT_CONTEXT_REQUIRED. NOT implementation. 6 phases: H2 reconciliation, event attribution test, document context test, cross matrix, causal interpretation, final verdict.
+
+Work Log:
+- Phase 1: H2 reconciliation — #107, #12, #34 all PRE_EXISTING_V21_ERROR. H2 didn't change any of them. H2 is innocent.
+- Phase 2: Event attribution matrix:
+  Counterexamples: 10 A2, 1 A3 (event clearly applies to head noun)
+  Explained: 9 A2, 9 A3 (evenly split)
+  → A2 appears in BOTH populations → NOT discriminative
+- Phase 3: Document context matrix:
+  Counterexamples: 3 D1, 4 D3, 4 D4
+  Explained: 2 D1, 3 D3, 13 D4
+  → D4 more common in explained but also in counterexamples → NOT discriminative
+- Phase 4: Joint matrix found partial signals:
+  A2×D3: counterexample=3, explained=0 (partial separator for counterexamples)
+  A3×D4: counterexample=0, explained=6 (partial separator for explained)
+  But these don't cover all cases.
+- Phase 5: H_EVENT_ATTRIBUTION=NOT_SUPPORTED, H_DOCUMENT_CONTEXT=NOT_SUPPORTED, H_NEITHER=SUPPORTED
+- FINAL VERDICT: UNRESOLVED
+
+Stage Summary:
+- Neither event attribution NOR document context cleanly separates the two populations.
+- The problem is more complex than any single mechanism.
+- Partial signals exist (A2×D3 for counterexamples, A3×D4 for explained) but don't cover all cases.
+- Per directive: STOP. No V48AK. No production changes. No fixes.
