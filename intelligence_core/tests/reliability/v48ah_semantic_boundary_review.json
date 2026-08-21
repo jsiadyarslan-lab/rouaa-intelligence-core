@@ -1,0 +1,748 @@
+{
+  "phase": "V48AH SEMANTIC BOUNDARY REVIEW",
+  "executed_at_utc": "2026-08-21T03:05:51Z",
+  "freeze": {
+    "branch": "recovery/post-v37-intelligence-stack",
+    "base_commit": "83a7c0d",
+    "production_files_sha256_prefix": {
+      "intelligence_core/subject_entity.py": "3d19dbad167a360b",
+      "intelligence_core/contracts.py": "cbc48c0efae58753",
+      "intelligence_core/evidence_context.py": "e0c477ef1ff4d162",
+      "intelligence_core/publisher_institution.py": "b7e2010870d7420d",
+      "intelligence_core/structural_parser.py": "ff92d8090a516413",
+      "intelligence_core/segment_purpose.py": "2618475e306f91e7",
+      "intelligence_core/tests/reliability/v48ad_hardened_evaluator.py": "90050b1771e72a3a",
+      "intelligence_core/tests/reliability/v48af_v21_evaluator.py": "80d857159c6ab416",
+      "intelligence_core/tests/reliability/v48ag_independent_preregistered_sample.json": "bbc1ac6ccea1c3e7"
+    },
+    "v48ag_prereg_sha256": "bbc1ac6ccea1c3e769642511329124b3b43833f02000ad98e4e49088cc697c8b",
+    "v48ag_prereg_locked": true
+  },
+  "methodology": {
+    "approach": "Forensic analysis of 24 GENUINE_SEMANTIC_LIMITATION cases from V48AG independent holdout. NO tuning, NO production changes, NO new holdout. Output is a TAXONOMY, not a percentage.",
+    "v48ag_holdout_status": "LOCKED — not used for rule/threshold/lexicon extraction",
+    "classification_categories": {
+      "A_DETERMINISTIC_SOLVABLE": "Information IS in local text, rule misses it. Add rule/lexicon entry to fix.",
+      "B_CONTEXT_REQUIRED": "Judgment cannot be resolved from sentence alone. Needs heading, document title, previous paragraphs, table context, source metadata.",
+      "C_WRONG_SEMANTIC_ABSTRACTION": "The SUBJECT/CONTEXT/MODIFIER model itself is wrong. Redesigning the model would fix it.",
+      "D_GENUINE_IRREDUCIBLE_AMBIGUITY": "Even with document context + right model, the case is ambiguous. Model should confidently return AMBIGUOUS."
+    }
+  },
+  "forensic_results": [
+    {
+      "case_id": 3,
+      "candidate": "Policy Rate",
+      "text": "Bank Rate was held at 5.25% by the Monetary Policy Committee in a split 5-4 vote.",
+      "human_label": "TRUE_SUBJECT",
+      "v21_label": "AMBIGUOUS",
+      "category": "positive",
+      "evidence_spans": [
+        {
+          "type": "candidate_match",
+          "alias": "monetary policy",
+          "position": 35,
+          "context": "eld at 5.25% by the Monetary Policy Committee in a split 5-4 vote."
+        }
+      ],
+      "event_signal": "WEAK",
+      "measurement_signal": "STRONG",
+      "semantic_role": "SUBJECT",
+      "context_signal": "SUPPORT / SUPPORT",
+      "modifier_signal": "",
+      "matched_alias": "monetary policy",
+      "matched_verb": "",
+      "effective_event": "",
+      "why_v21_decided": "V2.1 could NOT find candidate 'Policy Rate' — the expected alias is not in the registry. V2.1 found a DIFFERENT candidate (matched_alias='monetary policy') and returned AMBIGUOUS for it. The human label was for 'Policy Rate', not for the candidate V2.1 actually evaluated.",
+      "why_human_decided": "The human labeled this TRUE_SUBJECT because 'Policy Rate' IS clearly the subject of the event verb. But V2.1 couldn't find 'Policy Rate' — it found a different candidate instead.",
+      "required_information": "Add 'Policy Rate' alias to the registry (e.g., 'bank rate' for Policy Rate, 'federal funds rate' for Policy Rate). This is a clear DATA_GAP — NOT a semantic model failure.",
+      "classification": "A_DETERMINISTIC_SOLVABLE",
+      "human_reasoning": "Bank Rate 'was held at 5.25%' — Bank Rate is the policy rate; it is the subject. NOTE: 'Bank Rate' alias may not be in registry — if V2.1 returns NO_CANDIDATE, this is a DATA_GAP finding."
+    },
+    {
+      "case_id": 31,
+      "candidate": "Policy Rate",
+      "text": "The Bank of England's Monetary Policy Committee voted 7-2 to reduce Bank Rate by 25 basis points to 4.50%.",
+      "human_label": "TRUE_SUBJECT",
+      "v21_label": "AMBIGUOUS",
+      "category": "positive",
+      "evidence_spans": [
+        {
+          "type": "candidate_match",
+          "alias": "monetary policy",
+          "position": 22,
+          "context": "e Bank of England's Monetary Policy Committee voted 7-2 to reduce Bank Rate"
+        }
+      ],
+      "event_signal": "WEAK",
+      "measurement_signal": "STRONG",
+      "semantic_role": "SUBJECT",
+      "context_signal": "SUPPORT / SUPPORT",
+      "modifier_signal": "",
+      "matched_alias": "monetary policy",
+      "matched_verb": "",
+      "effective_event": "",
+      "why_v21_decided": "V2.1 could NOT find candidate 'Policy Rate' — the expected alias is not in the registry. V2.1 found a DIFFERENT candidate (matched_alias='monetary policy') and returned AMBIGUOUS for it. The human label was for 'Policy Rate', not for the candidate V2.1 actually evaluated.",
+      "why_human_decided": "The human labeled this TRUE_SUBJECT because 'Policy Rate' IS clearly the subject of the event verb. But V2.1 couldn't find 'Policy Rate' — it found a different candidate instead.",
+      "required_information": "Add 'Policy Rate' alias to the registry (e.g., 'bank rate' for Policy Rate, 'federal funds rate' for Policy Rate). This is a clear DATA_GAP — NOT a semantic model failure.",
+      "classification": "A_DETERMINISTIC_SOLVABLE",
+      "human_reasoning": "Bank Rate 'was reduced by 25 basis points' — Bank Rate is the policy rate; subject. DATA_GAP risk if 'bank rate' alias missing."
+    },
+    {
+      "case_id": 76,
+      "candidate": "Inflation",
+      "text": "The committee noted that inflation dynamics remain under close monitoring amid global uncertainty.",
+      "human_label": "AMBIGUOUS",
+      "v21_label": "CONTEXT_ONLY",
+      "category": "ambiguous",
+      "evidence_spans": [
+        {
+          "type": "candidate_match",
+          "alias": "inflation",
+          "position": 25,
+          "context": "ommittee noted that inflation dynamics remain under close monitoring "
+        }
+      ],
+      "event_signal": "STRONG",
+      "measurement_signal": "INSUFFICIENT",
+      "semantic_role": "MODIFIER",
+      "context_signal": "SUPPORT / SUPPORT",
+      "modifier_signal": "dynamics",
+      "matched_alias": "inflation",
+      "matched_verb": "remain",
+      "effective_event": "WEAK",
+      "why_v21_decided": "V2.1 detected role=MODIFIER (head noun: 'dynamics') and returned CONTEXT_ONLY. The verb 'remain' is a state-description or meta-reference — V2.1's rule treated this as insufficient event evidence and downgraded to CONTEXT_ONLY.",
+      "why_human_decided": "The human labeled this AMBIGUOUS because the verb ('remain') is a state-description or meta-reference — it doesn't deterministically tell us if 'Inflation' is the subject. The candidate IS the topic (the document is about it), but the verb applies to the head noun ('dynamics'), not directly to the candidate. Even with document context, this case is genuinely ambiguous.",
+      "required_information": "No amount of document context can resolve this — the verb 'remain' is semantically ambiguous. The model should confidently return AMBIGUOUS here, not force a decision. This is a D (genuine irreducible ambiguity).",
+      "classification": "D_GENUINE_IRREDUCIBLE_AMBIGUITY",
+      "human_reasoning": "'inflation dynamics remain under close monitoring' — 'dynamics' is the subject, inflation is a modifier. But 'monitoring' suggests the bank is watching inflation. Genuinely ambiguous."
+    },
+    {
+      "case_id": 78,
+      "candidate": "Policy Rate",
+      "text": "Policy rate expectations were cited in the market commentary section.",
+      "human_label": "AMBIGUOUS",
+      "v21_label": "CONTEXT_ONLY",
+      "category": "ambiguous",
+      "evidence_spans": [
+        {
+          "type": "candidate_match",
+          "alias": "policy rate",
+          "position": 0,
+          "context": "Policy rate expectations were cited in the market c"
+        }
+      ],
+      "event_signal": "WEAK",
+      "measurement_signal": "INSUFFICIENT",
+      "semantic_role": "MODIFIER",
+      "context_signal": "SUPPORT / SUPPORT",
+      "modifier_signal": "expectations",
+      "matched_alias": "policy rate",
+      "matched_verb": "",
+      "effective_event": "WEAK",
+      "why_v21_decided": "V2.1 detected role=MODIFIER (head noun: 'expectations') and returned CONTEXT_ONLY. The verb '(none)' is a state-description or meta-reference — V2.1's rule treated this as insufficient event evidence and downgraded to CONTEXT_ONLY.",
+      "why_human_decided": "The human labeled this AMBIGUOUS because the verb ('(none)') is a state-description or meta-reference — it doesn't deterministically tell us if 'Policy Rate' is the subject. The candidate IS the topic (the document is about it), but the verb applies to the head noun ('expectations'), not directly to the candidate. Even with document context, this case is genuinely ambiguous.",
+      "required_information": "No amount of document context can resolve this — the verb '(none)' is semantically ambiguous. The model should confidently return AMBIGUOUS here, not force a decision. This is a D (genuine irreducible ambiguity).",
+      "classification": "D_GENUINE_IRREDUCIBLE_AMBIGUITY",
+      "human_reasoning": "'Policy rate expectations were cited' — 'expectations' is the subject, policy rate is a modifier. 'Cited' is vague. Ambiguous."
+    },
+    {
+      "case_id": 82,
+      "candidate": "Penalty",
+      "text": "Penalty decisions were the subject of regulatory committee review last quarter.",
+      "human_label": "AMBIGUOUS",
+      "v21_label": "CONTEXT_ONLY",
+      "category": "ambiguous",
+      "evidence_spans": [
+        {
+          "type": "candidate_match",
+          "alias": "penalty",
+          "position": 0,
+          "context": "Penalty decisions were the subject of regulator"
+        }
+      ],
+      "event_signal": "WEAK",
+      "measurement_signal": "INSUFFICIENT",
+      "semantic_role": "MODIFIER",
+      "context_signal": "SUPPORT / SUPPORT",
+      "modifier_signal": "decisions",
+      "matched_alias": "penalty",
+      "matched_verb": "",
+      "effective_event": "WEAK",
+      "why_v21_decided": "V2.1 detected role=MODIFIER (head noun: 'decisions') and returned CONTEXT_ONLY. The verb '(none)' is administrative — it applies to the head noun 'decisions', not to the candidate 'Penalty'. V2.1's rule says: if the candidate is a modifier, it's not the subject → CONTEXT_ONLY.",
+      "why_human_decided": "The human labeled this AMBIGUOUS because the candidate 'Penalty' IS the topic (the document is about it), but the verb applies to the head noun 'decisions', not to the candidate. The human cannot determine from the local text alone whether the EVENT is about the candidate or about the head noun. This requires knowing what the document is about (document title, heading, previous paragraphs).",
+      "required_information": "Document context (title, heading, previous paragraphs) is REQUIRED to resolve this case. If the document is a 'Penalty release', the candidate is the semantic subject. If the document is a methodology/administrative notice, the head noun is the subject. The current model lacks a TOPIC dimension — it only checks grammatical subject, not semantic subject. This is B (context-required) AND reveals C (wrong abstraction — the model conflates grammatical/semantic subject).",
+      "classification": "B_CONTEXT_REQUIRED",
+      "human_reasoning": "'Penalty decisions were the subject of review' — 'decisions' is the subject, penalty is a modifier. Ambiguous — penalty is the topic but not the action's subject."
+    },
+    {
+      "case_id": 83,
+      "candidate": "Gross Domestic Product",
+      "text": "GDP statistics are compiled in accordance with international methodology standards.",
+      "human_label": "AMBIGUOUS",
+      "v21_label": "CONTEXT_ONLY",
+      "category": "ambiguous",
+      "evidence_spans": [
+        {
+          "type": "candidate_match",
+          "alias": "gdp",
+          "position": 0,
+          "context": "GDP statistics are compiled in accordance w"
+        }
+      ],
+      "event_signal": "WEAK",
+      "measurement_signal": "INSUFFICIENT",
+      "semantic_role": "MODIFIER",
+      "context_signal": "SUPPORT / SUPPORT",
+      "modifier_signal": "statistics",
+      "matched_alias": "gdp",
+      "matched_verb": "",
+      "effective_event": "WEAK",
+      "why_v21_decided": "V2.1 detected role=MODIFIER (head noun: 'statistics') and returned CONTEXT_ONLY. The verb '(none)' is administrative — it applies to the head noun 'statistics', not to the candidate 'Gross Domestic Product'. V2.1's rule says: if the candidate is a modifier, it's not the subject → CONTEXT_ONLY.",
+      "why_human_decided": "The human labeled this AMBIGUOUS because the candidate 'Gross Domestic Product' IS the topic (the document is about it), but the verb applies to the head noun 'statistics', not to the candidate. The human cannot determine from the local text alone whether the EVENT is about the candidate or about the head noun. This requires knowing what the document is about (document title, heading, previous paragraphs).",
+      "required_information": "Document context (title, heading, previous paragraphs) is REQUIRED to resolve this case. If the document is a 'Gross Domestic Product release', the candidate is the semantic subject. If the document is a methodology/administrative notice, the head noun is the subject. The current model lacks a TOPIC dimension — it only checks grammatical subject, not semantic subject. This is B (context-required) AND reveals C (wrong abstraction — the model conflates grammatical/semantic subject).",
+      "classification": "B_CONTEXT_REQUIRED",
+      "human_reasoning": "'GDP statistics are compiled' — 'statistics' is the subject, GDP is a modifier. Administrative. Ambiguous."
+    },
+    {
+      "case_id": 86,
+      "candidate": "Unemployment",
+      "text": "The bank's report cited unemployment as a continuing area of policy attention.",
+      "human_label": "AMBIGUOUS",
+      "v21_label": "FALSE_BINDING",
+      "category": "ambiguous",
+      "evidence_spans": [
+        {
+          "type": "candidate_match",
+          "alias": "unemployment",
+          "position": 24,
+          "context": "bank's report cited unemployment as a continuing area of policy attentio"
+        }
+      ],
+      "event_signal": "WEAK",
+      "measurement_signal": "INSUFFICIENT",
+      "semantic_role": "CONTEXT",
+      "context_signal": "SUPPORT / SUPPORT",
+      "modifier_signal": "",
+      "matched_alias": "unemployment",
+      "matched_verb": "",
+      "effective_event": "",
+      "why_v21_decided": "V2.1 detected role=CONTEXT (head noun: 'as') and returned FALSE_BINDING. The verb '(none)' is a state-description or meta-reference — V2.1's rule treated this as insufficient event evidence and downgraded to FALSE_BINDING.",
+      "why_human_decided": "The human labeled this AMBIGUOUS because the verb ('(none)') is a state-description or meta-reference — it doesn't deterministically tell us if 'Unemployment' is the subject. The candidate IS the topic (the document is about it), but the verb applies to the head noun ('as'), not directly to the candidate. Even with document context, this case is genuinely ambiguous.",
+      "required_information": "No amount of document context can resolve this — the verb '(none)' is semantically ambiguous. The model should confidently return AMBIGUOUS here, not force a decision. This is a D (genuine irreducible ambiguity).",
+      "classification": "D_GENUINE_IRREDUCIBLE_AMBIGUITY",
+      "human_reasoning": "Unemployment was 'cited as a policy attention area' — administrative, not a measurement event. Ambiguous."
+    },
+    {
+      "case_id": 87,
+      "candidate": "Consumer Price Index",
+      "text": "CPI methodology was revised in line with the new international statistical standard.",
+      "human_label": "AMBIGUOUS",
+      "v21_label": "CONTEXT_ONLY",
+      "category": "ambiguous",
+      "evidence_spans": [
+        {
+          "type": "candidate_match",
+          "alias": "cpi",
+          "position": 0,
+          "context": "CPI methodology was revised in line with th"
+        }
+      ],
+      "event_signal": "WEAK",
+      "measurement_signal": "INSUFFICIENT",
+      "semantic_role": "MODIFIER",
+      "context_signal": "SUPPORT / SUPPORT",
+      "modifier_signal": "methodology",
+      "matched_alias": "cpi",
+      "matched_verb": "",
+      "effective_event": "WEAK",
+      "why_v21_decided": "V2.1 detected role=MODIFIER (head noun: 'methodology') and returned CONTEXT_ONLY. The verb '(none)' is administrative — it applies to the head noun 'methodology', not to the candidate 'Consumer Price Index'. V2.1's rule says: if the candidate is a modifier, it's not the subject → CONTEXT_ONLY.",
+      "why_human_decided": "The human labeled this AMBIGUOUS because the candidate 'Consumer Price Index' IS the topic (the document is about it), but the verb applies to the head noun 'methodology', not to the candidate. The human cannot determine from the local text alone whether the EVENT is about the candidate or about the head noun. This requires knowing what the document is about (document title, heading, previous paragraphs).",
+      "required_information": "Document context (title, heading, previous paragraphs) is REQUIRED to resolve this case. If the document is a 'Consumer Price Index release', the candidate is the semantic subject. If the document is a methodology/administrative notice, the head noun is the subject. The current model lacks a TOPIC dimension — it only checks grammatical subject, not semantic subject. This is B (context-required) AND reveals C (wrong abstraction — the model conflates grammatical/semantic subject).",
+      "classification": "B_CONTEXT_REQUIRED",
+      "human_reasoning": "'CPI methodology was revised' — 'methodology' is the subject, CPI is a modifier. Administrative. Ambiguous."
+    },
+    {
+      "case_id": 89,
+      "candidate": "Penalty",
+      "text": "Penalty procedures were outlined in the updated enforcement guidance document.",
+      "human_label": "AMBIGUOUS",
+      "v21_label": "CONTEXT_ONLY",
+      "category": "ambiguous",
+      "evidence_spans": [
+        {
+          "type": "candidate_match",
+          "alias": "penalty",
+          "position": 0,
+          "context": "Penalty procedures were outlined in the updated"
+        }
+      ],
+      "event_signal": "WEAK",
+      "measurement_signal": "INSUFFICIENT",
+      "semantic_role": "MODIFIER",
+      "context_signal": "SUPPORT / SUPPORT",
+      "modifier_signal": "procedures",
+      "matched_alias": "penalty",
+      "matched_verb": "",
+      "effective_event": "WEAK",
+      "why_v21_decided": "V2.1 detected role=MODIFIER (head noun: 'procedures') and returned CONTEXT_ONLY. The verb '(none)' is administrative — it applies to the head noun 'procedures', not to the candidate 'Penalty'. V2.1's rule says: if the candidate is a modifier, it's not the subject → CONTEXT_ONLY.",
+      "why_human_decided": "The human labeled this AMBIGUOUS because the candidate 'Penalty' IS the topic (the document is about it), but the verb applies to the head noun 'procedures', not to the candidate. The human cannot determine from the local text alone whether the EVENT is about the candidate or about the head noun. This requires knowing what the document is about (document title, heading, previous paragraphs).",
+      "required_information": "Document context (title, heading, previous paragraphs) is REQUIRED to resolve this case. If the document is a 'Penalty release', the candidate is the semantic subject. If the document is a methodology/administrative notice, the head noun is the subject. The current model lacks a TOPIC dimension — it only checks grammatical subject, not semantic subject. This is B (context-required) AND reveals C (wrong abstraction — the model conflates grammatical/semantic subject).",
+      "classification": "B_CONTEXT_REQUIRED",
+      "human_reasoning": "'Penalty procedures were outlined' — 'procedures' is the subject, penalty is a modifier. Administrative. Ambiguous."
+    },
+    {
+      "case_id": 91,
+      "candidate": "Inflation",
+      "text": "Inflation survey data will be collected monthly starting next quarter per the new schedule.",
+      "human_label": "AMBIGUOUS",
+      "v21_label": "CONTEXT_ONLY",
+      "category": "ambiguous",
+      "evidence_spans": [
+        {
+          "type": "candidate_match",
+          "alias": "inflation",
+          "position": 0,
+          "context": "Inflation survey data will be collected monthly s"
+        }
+      ],
+      "event_signal": "WEAK",
+      "measurement_signal": "INSUFFICIENT",
+      "semantic_role": "MODIFIER",
+      "context_signal": "SUPPORT / SUPPORT",
+      "modifier_signal": "survey",
+      "matched_alias": "inflation",
+      "matched_verb": "",
+      "effective_event": "WEAK",
+      "why_v21_decided": "V2.1 detected role=MODIFIER (head noun: 'survey') and returned CONTEXT_ONLY. The verb '(none)' is administrative — it applies to the head noun 'survey', not to the candidate 'Inflation'. V2.1's rule says: if the candidate is a modifier, it's not the subject → CONTEXT_ONLY.",
+      "why_human_decided": "The human labeled this AMBIGUOUS because the candidate 'Inflation' IS the topic (the document is about it), but the verb applies to the head noun 'survey', not to the candidate. The human cannot determine from the local text alone whether the EVENT is about the candidate or about the head noun. This requires knowing what the document is about (document title, heading, previous paragraphs).",
+      "required_information": "Document context (title, heading, previous paragraphs) is REQUIRED to resolve this case. If the document is a 'Inflation release', the candidate is the semantic subject. If the document is a methodology/administrative notice, the head noun is the subject. The current model lacks a TOPIC dimension — it only checks grammatical subject, not semantic subject. This is B (context-required) AND reveals C (wrong abstraction — the model conflates grammatical/semantic subject).",
+      "classification": "B_CONTEXT_REQUIRED",
+      "human_reasoning": "'Inflation survey data will be collected' — 'data' is the subject, inflation is a modifier. Future tense. Ambiguous."
+    },
+    {
+      "case_id": 92,
+      "candidate": "Policy Rate",
+      "text": "Policy rate decisions are scheduled for the next FOMC meeting per the published calendar.",
+      "human_label": "AMBIGUOUS",
+      "v21_label": "CONTEXT_ONLY",
+      "category": "ambiguous",
+      "evidence_spans": [
+        {
+          "type": "candidate_match",
+          "alias": "policy rate",
+          "position": 0,
+          "context": "Policy rate decisions are scheduled for the next FO"
+        }
+      ],
+      "event_signal": "STRONG",
+      "measurement_signal": "INSUFFICIENT",
+      "semantic_role": "MODIFIER",
+      "context_signal": "SUPPORT / SUPPORT",
+      "modifier_signal": "decisions",
+      "matched_alias": "policy rate",
+      "matched_verb": "published",
+      "effective_event": "WEAK",
+      "why_v21_decided": "V2.1 detected role=MODIFIER (head noun: 'decisions') and returned CONTEXT_ONLY. The verb 'published' is administrative — it applies to the head noun 'decisions', not to the candidate 'Policy Rate'. V2.1's rule says: if the candidate is a modifier, it's not the subject → CONTEXT_ONLY.",
+      "why_human_decided": "The human labeled this AMBIGUOUS because the candidate 'Policy Rate' IS the topic (the document is about it), but the verb applies to the head noun 'decisions', not to the candidate. The human cannot determine from the local text alone whether the EVENT is about the candidate or about the head noun. This requires knowing what the document is about (document title, heading, previous paragraphs).",
+      "required_information": "Document context (title, heading, previous paragraphs) is REQUIRED to resolve this case. If the document is a 'Policy Rate release', the candidate is the semantic subject. If the document is a methodology/administrative notice, the head noun is the subject. The current model lacks a TOPIC dimension — it only checks grammatical subject, not semantic subject. This is B (context-required) AND reveals C (wrong abstraction — the model conflates grammatical/semantic subject).",
+      "classification": "B_CONTEXT_REQUIRED",
+      "human_reasoning": "'Policy rate decisions are scheduled' — 'decisions' is the subject, policy rate is a modifier. Future. Ambiguous."
+    },
+    {
+      "case_id": 93,
+      "candidate": "Unemployment",
+      "text": "Unemployment statistics are released on the first Friday of each month by the BLS.",
+      "human_label": "AMBIGUOUS",
+      "v21_label": "CONTEXT_ONLY",
+      "category": "ambiguous",
+      "evidence_spans": [
+        {
+          "type": "candidate_match",
+          "alias": "unemployment",
+          "position": 0,
+          "context": "Unemployment statistics are released on the first Fr"
+        }
+      ],
+      "event_signal": "WEAK",
+      "measurement_signal": "INSUFFICIENT",
+      "semantic_role": "MODIFIER",
+      "context_signal": "SUPPORT / SUPPORT",
+      "modifier_signal": "statistics",
+      "matched_alias": "unemployment",
+      "matched_verb": "",
+      "effective_event": "WEAK",
+      "why_v21_decided": "V2.1 detected role=MODIFIER (head noun: 'statistics') and returned CONTEXT_ONLY. The verb '(none)' is administrative — it applies to the head noun 'statistics', not to the candidate 'Unemployment'. V2.1's rule says: if the candidate is a modifier, it's not the subject → CONTEXT_ONLY.",
+      "why_human_decided": "The human labeled this AMBIGUOUS because the candidate 'Unemployment' IS the topic (the document is about it), but the verb applies to the head noun 'statistics', not to the candidate. The human cannot determine from the local text alone whether the EVENT is about the candidate or about the head noun. This requires knowing what the document is about (document title, heading, previous paragraphs).",
+      "required_information": "Document context (title, heading, previous paragraphs) is REQUIRED to resolve this case. If the document is a 'Unemployment release', the candidate is the semantic subject. If the document is a methodology/administrative notice, the head noun is the subject. The current model lacks a TOPIC dimension — it only checks grammatical subject, not semantic subject. This is B (context-required) AND reveals C (wrong abstraction — the model conflates grammatical/semantic subject).",
+      "classification": "B_CONTEXT_REQUIRED",
+      "human_reasoning": "'Unemployment statistics are released' — 'statistics' is the subject, unemployment is a modifier. Administrative. Ambiguous."
+    },
+    {
+      "case_id": 94,
+      "candidate": "Consumer Price Index",
+      "text": "CPI sub-indices were analyzed in the detailed statistical appendix.",
+      "human_label": "AMBIGUOUS",
+      "v21_label": "CONTEXT_ONLY",
+      "category": "ambiguous",
+      "evidence_spans": [
+        {
+          "type": "candidate_match",
+          "alias": "cpi",
+          "position": 0,
+          "context": "CPI sub-indices were analyzed in the detail"
+        }
+      ],
+      "event_signal": "WEAK",
+      "measurement_signal": "INSUFFICIENT",
+      "semantic_role": "MODIFIER",
+      "context_signal": "SUPPORT / SUPPORT",
+      "modifier_signal": "sub-indices",
+      "matched_alias": "cpi",
+      "matched_verb": "",
+      "effective_event": "WEAK",
+      "why_v21_decided": "V2.1 detected role=MODIFIER (head noun: 'sub-indices') and returned CONTEXT_ONLY. The verb '(none)' is administrative — it applies to the head noun 'sub-indices', not to the candidate 'Consumer Price Index'. V2.1's rule says: if the candidate is a modifier, it's not the subject → CONTEXT_ONLY.",
+      "why_human_decided": "The human labeled this AMBIGUOUS because the candidate 'Consumer Price Index' IS the topic (the document is about it), but the verb applies to the head noun 'sub-indices', not to the candidate. The human cannot determine from the local text alone whether the EVENT is about the candidate or about the head noun. This requires knowing what the document is about (document title, heading, previous paragraphs).",
+      "required_information": "Document context (title, heading, previous paragraphs) is REQUIRED to resolve this case. If the document is a 'Consumer Price Index release', the candidate is the semantic subject. If the document is a methodology/administrative notice, the head noun is the subject. The current model lacks a TOPIC dimension — it only checks grammatical subject, not semantic subject. This is B (context-required) AND reveals C (wrong abstraction — the model conflates grammatical/semantic subject).",
+      "classification": "B_CONTEXT_REQUIRED",
+      "human_reasoning": "'CPI sub-indices were analyzed' — 'sub-indices' is the subject, CPI is a modifier. Administrative. Ambiguous."
+    },
+    {
+      "case_id": 96,
+      "candidate": "Penalty",
+      "text": "Penalty framework revisions were proposed in the latest regulatory consultation paper.",
+      "human_label": "AMBIGUOUS",
+      "v21_label": "CONTEXT_ONLY",
+      "category": "ambiguous",
+      "evidence_spans": [
+        {
+          "type": "candidate_match",
+          "alias": "penalty",
+          "position": 0,
+          "context": "Penalty framework revisions were proposed in th"
+        }
+      ],
+      "event_signal": "WEAK",
+      "measurement_signal": "INSUFFICIENT",
+      "semantic_role": "MODIFIER",
+      "context_signal": "SUPPORT / SUPPORT",
+      "modifier_signal": "framework",
+      "matched_alias": "penalty",
+      "matched_verb": "",
+      "effective_event": "WEAK",
+      "why_v21_decided": "V2.1 detected role=MODIFIER (head noun: 'framework') and returned CONTEXT_ONLY. The verb '(none)' is administrative — it applies to the head noun 'framework', not to the candidate 'Penalty'. V2.1's rule says: if the candidate is a modifier, it's not the subject → CONTEXT_ONLY.",
+      "why_human_decided": "The human labeled this AMBIGUOUS because the candidate 'Penalty' IS the topic (the document is about it), but the verb applies to the head noun 'framework', not to the candidate. The human cannot determine from the local text alone whether the EVENT is about the candidate or about the head noun. This requires knowing what the document is about (document title, heading, previous paragraphs).",
+      "required_information": "Document context (title, heading, previous paragraphs) is REQUIRED to resolve this case. If the document is a 'Penalty release', the candidate is the semantic subject. If the document is a methodology/administrative notice, the head noun is the subject. The current model lacks a TOPIC dimension — it only checks grammatical subject, not semantic subject. This is B (context-required) AND reveals C (wrong abstraction — the model conflates grammatical/semantic subject).",
+      "classification": "B_CONTEXT_REQUIRED",
+      "human_reasoning": "'Penalty framework revisions were proposed' — 'revisions' is the subject, penalty is a modifier. Ambiguous."
+    },
+    {
+      "case_id": 98,
+      "candidate": "Inflation",
+      "text": "Inflation targeting framework was reaffirmed in the central bank's strategic review.",
+      "human_label": "AMBIGUOUS",
+      "v21_label": "CONTEXT_ONLY",
+      "category": "ambiguous",
+      "evidence_spans": [
+        {
+          "type": "candidate_match",
+          "alias": "inflation",
+          "position": 0,
+          "context": "Inflation targeting framework was reaffirmed in t"
+        }
+      ],
+      "event_signal": "WEAK",
+      "measurement_signal": "INSUFFICIENT",
+      "semantic_role": "MODIFIER",
+      "context_signal": "SUPPORT / SUPPORT",
+      "modifier_signal": "targeting",
+      "matched_alias": "inflation",
+      "matched_verb": "",
+      "effective_event": "WEAK",
+      "why_v21_decided": "V2.1 detected role=MODIFIER (head noun: 'targeting') and returned CONTEXT_ONLY. The verb '(none)' is administrative — it applies to the head noun 'targeting', not to the candidate 'Inflation'. V2.1's rule says: if the candidate is a modifier, it's not the subject → CONTEXT_ONLY.",
+      "why_human_decided": "The human labeled this AMBIGUOUS because the candidate 'Inflation' IS the topic (the document is about it), but the verb applies to the head noun 'targeting', not to the candidate. The human cannot determine from the local text alone whether the EVENT is about the candidate or about the head noun. This requires knowing what the document is about (document title, heading, previous paragraphs).",
+      "required_information": "Document context (title, heading, previous paragraphs) is REQUIRED to resolve this case. If the document is a 'Inflation release', the candidate is the semantic subject. If the document is a methodology/administrative notice, the head noun is the subject. The current model lacks a TOPIC dimension — it only checks grammatical subject, not semantic subject. This is B (context-required) AND reveals C (wrong abstraction — the model conflates grammatical/semantic subject).",
+      "classification": "B_CONTEXT_REQUIRED",
+      "human_reasoning": "'Inflation targeting framework was reaffirmed' — 'framework' is the subject, inflation is a modifier. Ambiguous."
+    },
+    {
+      "case_id": 99,
+      "candidate": "Policy Rate",
+      "text": "Policy rate stance remains accommodative, the central bank governor said in testimony.",
+      "human_label": "AMBIGUOUS",
+      "v21_label": "CONTEXT_ONLY",
+      "category": "ambiguous",
+      "evidence_spans": [
+        {
+          "type": "candidate_match",
+          "alias": "policy rate",
+          "position": 0,
+          "context": "Policy rate stance remains accommodative, the centr"
+        }
+      ],
+      "event_signal": "WEAK",
+      "measurement_signal": "INSUFFICIENT",
+      "semantic_role": "MODIFIER",
+      "context_signal": "SUPPORT / SUPPORT",
+      "modifier_signal": "stance",
+      "matched_alias": "policy rate",
+      "matched_verb": "",
+      "effective_event": "WEAK",
+      "why_v21_decided": "V2.1 detected role=MODIFIER (head noun: 'stance') and returned CONTEXT_ONLY. The verb '(none)' is a state-description or meta-reference — V2.1's rule treated this as insufficient event evidence and downgraded to CONTEXT_ONLY.",
+      "why_human_decided": "The human labeled this AMBIGUOUS because the verb ('(none)') is a state-description or meta-reference — it doesn't deterministically tell us if 'Policy Rate' is the subject. The candidate IS the topic (the document is about it), but the verb applies to the head noun ('stance'), not directly to the candidate. Even with document context, this case is genuinely ambiguous.",
+      "required_information": "No amount of document context can resolve this — the verb '(none)' is semantically ambiguous. The model should confidently return AMBIGUOUS here, not force a decision. This is a D (genuine irreducible ambiguity).",
+      "classification": "D_GENUINE_IRREDUCIBLE_AMBIGUITY",
+      "human_reasoning": "'Policy rate stance remains accommodative' — 'stance' is the subject, policy rate is a modifier. 'Accommodative' is a state. Ambiguous."
+    },
+    {
+      "case_id": 100,
+      "candidate": "Unemployment",
+      "text": "The report identified unemployment projections as a key input to the fiscal outlook.",
+      "human_label": "AMBIGUOUS",
+      "v21_label": "CONTEXT_ONLY",
+      "category": "ambiguous",
+      "evidence_spans": [
+        {
+          "type": "candidate_match",
+          "alias": "unemployment",
+          "position": 22,
+          "context": "e report identified unemployment projections as a key input to the fisca"
+        }
+      ],
+      "event_signal": "WEAK",
+      "measurement_signal": "INSUFFICIENT",
+      "semantic_role": "MODIFIER",
+      "context_signal": "SUPPORT / SUPPORT",
+      "modifier_signal": "projections",
+      "matched_alias": "unemployment",
+      "matched_verb": "",
+      "effective_event": "WEAK",
+      "why_v21_decided": "V2.1 detected role=MODIFIER (head noun: 'projections') and returned CONTEXT_ONLY. The verb '(none)' is a state-description or meta-reference — V2.1's rule treated this as insufficient event evidence and downgraded to CONTEXT_ONLY.",
+      "why_human_decided": "The human labeled this AMBIGUOUS because the verb ('(none)') is a state-description or meta-reference — it doesn't deterministically tell us if 'Unemployment' is the subject. The candidate IS the topic (the document is about it), but the verb applies to the head noun ('projections'), not directly to the candidate. Even with document context, this case is genuinely ambiguous.",
+      "required_information": "No amount of document context can resolve this — the verb '(none)' is semantically ambiguous. The model should confidently return AMBIGUOUS here, not force a decision. This is a D (genuine irreducible ambiguity).",
+      "classification": "D_GENUINE_IRREDUCIBLE_AMBIGUITY",
+      "human_reasoning": "'unemployment projections were identified as input' — 'projections' is the subject, unemployment is a modifier. Ambiguous."
+    },
+    {
+      "case_id": 101,
+      "candidate": "Consumer Price Index",
+      "text": "CPI weights were updated in the latest index revision per the statistical standard.",
+      "human_label": "AMBIGUOUS",
+      "v21_label": "CONTEXT_ONLY",
+      "category": "ambiguous",
+      "evidence_spans": [
+        {
+          "type": "candidate_match",
+          "alias": "cpi",
+          "position": 0,
+          "context": "CPI weights were updated in the latest inde"
+        }
+      ],
+      "event_signal": "WEAK",
+      "measurement_signal": "INSUFFICIENT",
+      "semantic_role": "MODIFIER",
+      "context_signal": "SUPPORT / SUPPORT",
+      "modifier_signal": "weights",
+      "matched_alias": "cpi",
+      "matched_verb": "",
+      "effective_event": "WEAK",
+      "why_v21_decided": "V2.1 detected role=MODIFIER (head noun: 'weights') and returned CONTEXT_ONLY. The verb '(none)' is administrative — it applies to the head noun 'weights', not to the candidate 'Consumer Price Index'. V2.1's rule says: if the candidate is a modifier, it's not the subject → CONTEXT_ONLY.",
+      "why_human_decided": "The human labeled this AMBIGUOUS because the candidate 'Consumer Price Index' IS the topic (the document is about it), but the verb applies to the head noun 'weights', not to the candidate. The human cannot determine from the local text alone whether the EVENT is about the candidate or about the head noun. This requires knowing what the document is about (document title, heading, previous paragraphs).",
+      "required_information": "Document context (title, heading, previous paragraphs) is REQUIRED to resolve this case. If the document is a 'Consumer Price Index release', the candidate is the semantic subject. If the document is a methodology/administrative notice, the head noun is the subject. The current model lacks a TOPIC dimension — it only checks grammatical subject, not semantic subject. This is B (context-required) AND reveals C (wrong abstraction — the model conflates grammatical/semantic subject).",
+      "classification": "B_CONTEXT_REQUIRED",
+      "human_reasoning": "'CPI weights were updated' — 'weights' is the subject, CPI is a modifier. Administrative. Ambiguous."
+    },
+    {
+      "case_id": 102,
+      "candidate": "Foreign Exchange",
+      "text": "Foreign exchange reserves remained adequate, the central bank confirmed in its quarterly report.",
+      "human_label": "AMBIGUOUS",
+      "v21_label": "CONTEXT_ONLY",
+      "category": "ambiguous",
+      "evidence_spans": [
+        {
+          "type": "candidate_match",
+          "alias": "foreign exchange",
+          "position": 0,
+          "context": "Foreign exchange reserves remained adequate, the central"
+        }
+      ],
+      "event_signal": "WEAK",
+      "measurement_signal": "INSUFFICIENT",
+      "semantic_role": "MODIFIER",
+      "context_signal": "SUPPORT / SUPPORT",
+      "modifier_signal": "reserves",
+      "matched_alias": "foreign exchange",
+      "matched_verb": "",
+      "effective_event": "WEAK",
+      "why_v21_decided": "V2.1 detected role=MODIFIER (head noun: 'reserves') and returned CONTEXT_ONLY. The verb '(none)' is a state-description or meta-reference — V2.1's rule treated this as insufficient event evidence and downgraded to CONTEXT_ONLY.",
+      "why_human_decided": "The human labeled this AMBIGUOUS because the verb ('(none)') is a state-description or meta-reference — it doesn't deterministically tell us if 'Foreign Exchange' is the subject. The candidate IS the topic (the document is about it), but the verb applies to the head noun ('reserves'), not directly to the candidate. Even with document context, this case is genuinely ambiguous.",
+      "required_information": "No amount of document context can resolve this — the verb '(none)' is semantically ambiguous. The model should confidently return AMBIGUOUS here, not force a decision. This is a D (genuine irreducible ambiguity).",
+      "classification": "D_GENUINE_IRREDUCIBLE_AMBIGUITY",
+      "human_reasoning": "'FX reserves remained adequate' — 'reserves' is the subject, FX is a modifier. Ambiguous."
+    },
+    {
+      "case_id": 103,
+      "candidate": "Penalty",
+      "text": "Penalty guidelines were the subject of industry consultation per the regulator's statement.",
+      "human_label": "AMBIGUOUS",
+      "v21_label": "CONTEXT_ONLY",
+      "category": "ambiguous",
+      "evidence_spans": [
+        {
+          "type": "candidate_match",
+          "alias": "penalty",
+          "position": 0,
+          "context": "Penalty guidelines were the subject of industry"
+        }
+      ],
+      "event_signal": "WEAK",
+      "measurement_signal": "INSUFFICIENT",
+      "semantic_role": "MODIFIER",
+      "context_signal": "SUPPORT / SUPPORT",
+      "modifier_signal": "guidelines",
+      "matched_alias": "penalty",
+      "matched_verb": "",
+      "effective_event": "WEAK",
+      "why_v21_decided": "V2.1 detected role=MODIFIER (head noun: 'guidelines') and returned CONTEXT_ONLY. The verb '(none)' is administrative — it applies to the head noun 'guidelines', not to the candidate 'Penalty'. V2.1's rule says: if the candidate is a modifier, it's not the subject → CONTEXT_ONLY.",
+      "why_human_decided": "The human labeled this AMBIGUOUS because the candidate 'Penalty' IS the topic (the document is about it), but the verb applies to the head noun 'guidelines', not to the candidate. The human cannot determine from the local text alone whether the EVENT is about the candidate or about the head noun. This requires knowing what the document is about (document title, heading, previous paragraphs).",
+      "required_information": "Document context (title, heading, previous paragraphs) is REQUIRED to resolve this case. If the document is a 'Penalty release', the candidate is the semantic subject. If the document is a methodology/administrative notice, the head noun is the subject. The current model lacks a TOPIC dimension — it only checks grammatical subject, not semantic subject. This is B (context-required) AND reveals C (wrong abstraction — the model conflates grammatical/semantic subject).",
+      "classification": "B_CONTEXT_REQUIRED",
+      "human_reasoning": "'Penalty guidelines were the subject of consultation' — 'guidelines' is the subject, penalty is a modifier. Ambiguous."
+    },
+    {
+      "case_id": 106,
+      "candidate": "Foreign Exchange",
+      "text": "Foreign exchange turnover statistics will be released in the next quarterly bulletin.",
+      "human_label": "AMBIGUOUS",
+      "v21_label": "CONTEXT_ONLY",
+      "category": "ambiguous",
+      "evidence_spans": [
+        {
+          "type": "candidate_match",
+          "alias": "foreign exchange",
+          "position": 0,
+          "context": "Foreign exchange turnover statistics will be released in"
+        }
+      ],
+      "event_signal": "STRONG",
+      "measurement_signal": "INSUFFICIENT",
+      "semantic_role": "MODIFIER",
+      "context_signal": "SUPPORT / SUPPORT",
+      "modifier_signal": "turnover",
+      "matched_alias": "foreign exchange",
+      "matched_verb": "turnover",
+      "effective_event": "WEAK",
+      "why_v21_decided": "V2.1 detected role=MODIFIER (head noun: 'turnover') and returned CONTEXT_ONLY. The verb 'turnover' is administrative — it applies to the head noun 'turnover', not to the candidate 'Foreign Exchange'. V2.1's rule says: if the candidate is a modifier, it's not the subject → CONTEXT_ONLY.",
+      "why_human_decided": "The human labeled this AMBIGUOUS because the candidate 'Foreign Exchange' IS the topic (the document is about it), but the verb applies to the head noun 'turnover', not to the candidate. The human cannot determine from the local text alone whether the EVENT is about the candidate or about the head noun. This requires knowing what the document is about (document title, heading, previous paragraphs).",
+      "required_information": "Document context (title, heading, previous paragraphs) is REQUIRED to resolve this case. If the document is a 'Foreign Exchange release', the candidate is the semantic subject. If the document is a methodology/administrative notice, the head noun is the subject. The current model lacks a TOPIC dimension — it only checks grammatical subject, not semantic subject. This is B (context-required) AND reveals C (wrong abstraction — the model conflates grammatical/semantic subject).",
+      "classification": "B_CONTEXT_REQUIRED",
+      "human_reasoning": "'FX turnover statistics will be released' — 'statistics' is the subject, FX is a modifier. Future. Ambiguous."
+    },
+    {
+      "case_id": 108,
+      "candidate": "Gross Domestic Product",
+      "text": "GDP performance was highlighted in the regional economic review.",
+      "human_label": "AMBIGUOUS",
+      "v21_label": "CONTEXT_ONLY",
+      "category": "ambiguous",
+      "evidence_spans": [
+        {
+          "type": "candidate_match",
+          "alias": "gdp",
+          "position": 0,
+          "context": "GDP performance was highlighted in the regi"
+        }
+      ],
+      "event_signal": "WEAK",
+      "measurement_signal": "INSUFFICIENT",
+      "semantic_role": "MODIFIER",
+      "context_signal": "SUPPORT / SUPPORT",
+      "modifier_signal": "performance",
+      "matched_alias": "gdp",
+      "matched_verb": "",
+      "effective_event": "WEAK",
+      "why_v21_decided": "V2.1 detected role=MODIFIER (head noun: 'performance') and returned CONTEXT_ONLY. The verb '(none)' is administrative — it applies to the head noun 'performance', not to the candidate 'Gross Domestic Product'. V2.1's rule says: if the candidate is a modifier, it's not the subject → CONTEXT_ONLY.",
+      "why_human_decided": "The human labeled this AMBIGUOUS because the candidate 'Gross Domestic Product' IS the topic (the document is about it), but the verb applies to the head noun 'performance', not to the candidate. The human cannot determine from the local text alone whether the EVENT is about the candidate or about the head noun. This requires knowing what the document is about (document title, heading, previous paragraphs).",
+      "required_information": "Document context (title, heading, previous paragraphs) is REQUIRED to resolve this case. If the document is a 'Gross Domestic Product release', the candidate is the semantic subject. If the document is a methodology/administrative notice, the head noun is the subject. The current model lacks a TOPIC dimension — it only checks grammatical subject, not semantic subject. This is B (context-required) AND reveals C (wrong abstraction — the model conflates grammatical/semantic subject).",
+      "classification": "B_CONTEXT_REQUIRED",
+      "human_reasoning": "'GDP performance was highlighted' — 'performance' is the subject, GDP is a modifier. Administrative. Ambiguous."
+    },
+    {
+      "case_id": 112,
+      "candidate": "Consumer Price Index",
+      "text": "CPI release schedule was published in the advance statistical calendar.",
+      "human_label": "AMBIGUOUS",
+      "v21_label": "CONTEXT_ONLY",
+      "category": "ambiguous",
+      "evidence_spans": [
+        {
+          "type": "candidate_match",
+          "alias": "cpi",
+          "position": 0,
+          "context": "CPI release schedule was published in the a"
+        }
+      ],
+      "event_signal": "WEAK",
+      "measurement_signal": "INSUFFICIENT",
+      "semantic_role": "MODIFIER",
+      "context_signal": "SUPPORT / SUPPORT",
+      "modifier_signal": "release",
+      "matched_alias": "cpi",
+      "matched_verb": "",
+      "effective_event": "WEAK",
+      "why_v21_decided": "V2.1 detected role=MODIFIER (head noun: 'release') and returned CONTEXT_ONLY. The verb '(none)' is administrative — it applies to the head noun 'release', not to the candidate 'Consumer Price Index'. V2.1's rule says: if the candidate is a modifier, it's not the subject → CONTEXT_ONLY.",
+      "why_human_decided": "The human labeled this AMBIGUOUS because the candidate 'Consumer Price Index' IS the topic (the document is about it), but the verb applies to the head noun 'release', not to the candidate. The human cannot determine from the local text alone whether the EVENT is about the candidate or about the head noun. This requires knowing what the document is about (document title, heading, previous paragraphs).",
+      "required_information": "Document context (title, heading, previous paragraphs) is REQUIRED to resolve this case. If the document is a 'Consumer Price Index release', the candidate is the semantic subject. If the document is a methodology/administrative notice, the head noun is the subject. The current model lacks a TOPIC dimension — it only checks grammatical subject, not semantic subject. This is B (context-required) AND reveals C (wrong abstraction — the model conflates grammatical/semantic subject).",
+      "classification": "B_CONTEXT_REQUIRED",
+      "human_reasoning": "'CPI release schedule was published' — 'schedule' is the subject, CPI is a modifier. Administrative. Ambiguous."
+    },
+    {
+      "case_id": 115,
+      "candidate": "Inflation",
+      "text": "The bank's quarterly statement noted that inflation trends remain a focus of attention.",
+      "human_label": "AMBIGUOUS",
+      "v21_label": "CONTEXT_ONLY",
+      "category": "ambiguous",
+      "evidence_spans": [
+        {
+          "type": "candidate_match",
+          "alias": "inflation",
+          "position": 42,
+          "context": "tatement noted that inflation trends remain a focus of attention."
+        }
+      ],
+      "event_signal": "STRONG",
+      "measurement_signal": "INSUFFICIENT",
+      "semantic_role": "MODIFIER",
+      "context_signal": "SUPPORT / SUPPORT",
+      "modifier_signal": "trends",
+      "matched_alias": "inflation",
+      "matched_verb": "remain",
+      "effective_event": "WEAK",
+      "why_v21_decided": "V2.1 detected role=MODIFIER (head noun: 'trends') and returned CONTEXT_ONLY. The verb 'remain' is a state-description or meta-reference — V2.1's rule treated this as insufficient event evidence and downgraded to CONTEXT_ONLY.",
+      "why_human_decided": "The human labeled this AMBIGUOUS because the verb ('remain') is a state-description or meta-reference — it doesn't deterministically tell us if 'Inflation' is the subject. The candidate IS the topic (the document is about it), but the verb applies to the head noun ('trends'), not directly to the candidate. Even with document context, this case is genuinely ambiguous.",
+      "required_information": "No amount of document context can resolve this — the verb 'remain' is semantically ambiguous. The model should confidently return AMBIGUOUS here, not force a decision. This is a D (genuine irreducible ambiguity).",
+      "classification": "D_GENUINE_IRREDUCIBLE_AMBIGUITY",
+      "human_reasoning": "'inflation trends remain a focus of attention' — 'trends' is the subject, inflation is a modifier. Administrative. Ambiguous."
+    }
+  ],
+  "taxonomy_aggregate": {
+    "A_DETERMINISTIC_SOLVABLE": 2,
+    "D_GENUINE_IRREDUCIBLE_AMBIGUITY": 7,
+    "B_CONTEXT_REQUIRED": 15
+  },
+  "architectural_answer": {
+    "question": "Is SUBJECT/CONTEXT/MODIFIER a lexical property (local text) or a relational property (candidate + event + document context)?",
+    "answer": "RELATIONAL_PROPERTY",
+    "reason": "The majority of cases (22/24) require either document context (B=15), model redesign (C=0), or are genuinely irreducible (D=7). Only 2 case(s) are solvable by deterministic local evidence (A). This indicates that SUBJECT/CONTEXT/MODIFIER is NOT a lexical property that can be inferred from local text alone. It is a RELATIONAL property — a relationship between candidate + event + document context. The current detect_role() → SUBJECT/MODIFIER/CONTEXT abstraction is INSUFFICIENT because it only checks grammatical subject (syntactic), not semantic subject (what the event is about). The model needs a multi-relational approach.",
+    "category_distribution": {
+      "A_DETERMINISTIC_SOLVABLE": 2,
+      "D_GENUINE_IRREDUCIBLE_AMBIGUITY": 7,
+      "B_CONTEXT_REQUIRED": 15
+    },
+    "recommended_model": "Multi-relational Subject Adjudication Model:\n  Candidate\n    ├── Event relation (is the candidate the grammatical subject of the event verb?)\n    ├── Measurement relation (is there a measurement that describes the candidate?)\n    ├── Syntactic relation (is the candidate a noun modifier?)\n    ├── Document context (is the document about this candidate? — TOPIC dimension)\n    ├── Competing candidate (is there another candidate with stronger evidence?)\n    └── Evidence strength (how strong is the combined evidence?)\n          ↓\n    Subject adjudication\n          ↓\n    TRUE_SUBJECT / FALSE_BINDING / AMBIGUOUS / CONTEXT_ONLY",
+    "strategic_decision": "Fix the correct structure (add a TOPIC dimension + document context model), NOT the holdout. Then return to independent validation with a NEW holdout later. The current abstraction needs EXTENSION, not replacement."
+  },
+  "verdict": "V48AH = SEMANTIC BOUNDARY REVIEW COMPLETE (NOT PASS/FAIL — diagnostic only)",
+  "DO_NOT_create_V48AI_automatically": true
+}

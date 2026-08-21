@@ -1122,3 +1122,40 @@ Artifacts produced:
 - intelligence_core/tests/reliability/v48ag_independent_results.json (machine-readable results)
 - docs/evidence/ROUAA_CORE_V48AG_INDEPENDENT_VALIDATION.md (human-readable report)
 - docs/evidence/ROUAA_CORE_V48AG_DISAGREEMENT_TABLE.html (HTML disagreement table)
+
+---
+Task ID: V48AH
+Agent: main
+Task: V48AH Semantic Boundary Review — NOT tuning, NOT production, NOT benchmark optimization. Forensic analysis of 24 GENUINE_SEMANTIC_LIMITATION cases from V48AG independent holdout. Classify each into A (deterministic-solvable), B (context-required), C (wrong semantic abstraction), D (genuine irreducible ambiguity). Answer the architectural question: is SUBJECT/CONTEXT/MODIFIER a lexical property or relational property? V48AG holdout LOCKED — not used for tuning.
+
+Work Log:
+- §1 HARD FREEZE verified: LOCAL == REMOTE == 83a7c0d (V48AG commit). Working tree CLEAN. Production/V2/V2.1/V48AG-pre-reg all unchanged.
+- §2 V48AG 150-case holdout LOCKED — SHA256 verified, not used for rule/threshold/lexicon extraction.
+- §3 Forensic analysis of 24 GENUINE_SEMANTIC_LIMITATION cases:
+  - For each case: extracted evidence spans, V2.1 signals (event/measurement/semantic_role/context/modifier), analyzed why V2.1 decided, why human decided, classified into A/B/C/D, identified required information.
+  - Pattern 1 (Bank Rate): 2 cases (#3, #31) where V2.1 found a DIFFERENT candidate (Monetary Policy via "Monetary Policy Committee") because "Bank Rate" alias is missing from Policy Rate registry. Classified A (clear DATA_GAP, not semantic failure).
+  - Pattern 2 (genuine irreducible): 7 cases where text has state-description/meta-reference verb (remain/cited/identified/noted/described/characterized) + role=MODIFIER/CONTEXT. Even with document context, the verb is semantically ambiguous. Classified D.
+  - Pattern 3 (context-required): 15 cases where role=MODIFIER + head noun exists. The candidate is a modifier, but the SEMANTIC subject depends on what the document is about (needs document title/heading/previous paragraphs). Classified B.
+- §4 Taxonomy aggregate:
+  - A_DETERMINISTIC_SOLVABLE: 2 (Bank Rate DATA_GAP — clear, not semantic failure)
+  - B_CONTEXT_REQUIRED: 15 (need document context to resolve)
+  - C_WRONG_SEMANTIC_ABSTRACTION: 0 (no individual cases — but architectural finding applies)
+  - D_GENUINE_IRREDUCIBLE_AMBIGUITY: 7 (genuinely ambiguous even with context)
+- §5 Architectural answer:
+  - Question: Is SUBJECT/CONTEXT/MODIFIER a lexical property or relational property?
+  - Answer: RELATIONAL_PROPERTY
+  - Reason: 22/24 cases require either document context (B=15), model redesign (C=0), or are genuinely irreducible (D=7). Only 2 cases are solvable by deterministic local evidence (A). SUBJECT/CONTEXT/MODIFIER is NOT a lexical property — it is a RELATIONAL property (relationship between candidate + event + document context).
+  - Strategic decision: Fix the correct structure (add a TOPIC dimension + document context model), NOT the holdout. The current abstraction needs EXTENSION, not replacement. B=15 > 12 (half of 24), so the strategic path is to add a TOPIC dimension + document context model, then return to independent validation with a NEW holdout later.
+- §7 Forbidden: NO production/V2/V2.1 changes, NO lexicon additions, NO threshold tuning, NO new holdout, NO embeddings/LLM, NO Entity Registry, NO source expansion, NO benchmark optimization. Bank Rate / federal funds rate NOT addressed (clear DATA_GAP, not the cause of semantic failure).
+- §6 NO accuracy goal — output is a TAXONOMY, not a percentage.
+
+Stage Summary:
+- VERDICT: V48AH = SEMANTIC BOUNDARY REVIEW COMPLETE (NOT PASS/FAIL — diagnostic only).
+- Key finding: SUBJECT/CONTEXT/MODIFIER is a RELATIONAL property, not lexical. The current model conflates grammatical subject (syntactic) with semantic subject (what the event is about). The model needs a TOPIC dimension separate from SUBJECT.
+- Strategic path: Add a TOPIC dimension + document context model to the current abstraction (EXTENSION, not replacement). Then return to independent validation with a NEW holdout later.
+- Per directive: DO NOT create V48AI automatically. STOP — user directive required for next phase.
+
+Artifacts produced:
+- intelligence_core/tests/reliability/v48ah_semantic_boundary_review.py (V48AH review runner)
+- intelligence_core/tests/reliability/v48ah_semantic_boundary_review.json (machine-readable forensic results)
+- docs/evidence/ROUAA_CORE_V48AH_SEMANTIC_BOUNDARY_REVIEW.md (human-readable report)
