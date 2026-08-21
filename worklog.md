@@ -1293,3 +1293,30 @@ Stage Summary:
 - For 28% of cases (8/29), multiple labels are semantically valid — the ontology overlaps.
 - The overlap is caused by the conflation of independent dimensions, NOT by missing labels.
 - Per directive: STOP. No V48AL. No implementation. No production changes. No new ontology designed.
+
+---
+Task ID: V48AL
+Agent: main
+Task: V48AL Overlap Decomposition & Label Consistency Experiment — forensic experiment only. Investigate the 8 V48AK overlapping cases. Determine whether they become non-overlapping when described by 5 independent dimensions (subjecthood, event attribution, contextual relevance, certainty, scope). Phase 7 critical negative test: look for evidence AGAINST the ontology hypothesis.
+
+Work Log:
+- Phase 1: Identified 8 overlapping cases: [76, 78, 82, 100, 103, 115, 130, 131].
+- Phase 2: Blind dimension extraction. 3 unique dimension vectors out of 8 cases (NOT all unique).
+- Phase 3: Pairwise comparison with 21 clean cases. Found closest matches with same dimensions but different labels.
+- Phase 4: Label consistency — 4 L3 (ontology ambiguity), 1 L2 (unresolved), 3 L1 (classifier ambiguity).
+- Phase 5: Blind re-adjudication — 6/8 matched human label, 2/8 didn't (#130, #131 where blind=AMBIGUOUS but human=CONTEXT).
+- Phase 6: Only 3 unique dimension vectors for 8 cases. 1 conflict found: vector (modifier, head_noun, strongly_implied, contextual_reference, head_noun) has both AMBIGUOUS and CONTEXT labels.
+- Phase 7: CRITICAL NEGATIVE TEST — FOUND 1 cross-conflict across ALL 29 cases:
+  22 cases share identical 5 dimensions (modifier, head_noun, strongly_implied, contextual_reference, head_noun).
+  11 are labeled CONTEXT, 11 are labeled AMBIGUOUS.
+  Notable: #126 vs #98 have nearly identical text ("Inflation targeting framework was reaffirmed") but different labels.
+  #121 (CONTEXT, "GDP deflator series was revised") vs #87 (AMBIGUOUS, "CPI methodology was revised") — same dimensions, same verb "revised", different labels.
+- Phase 8: VERDICT = ANNOTATION_INCONSISTENCY_SUSPECTED.
+
+Stage Summary:
+- VERDICT: ANNOTATION_INCONSISTENCY_SUSPECTED.
+- The 5 dimensions do NOT cleanly separate the 8 overlapping cases (only 3 unique vectors for 8 cases).
+- More importantly: 22 cases across ALL 29 share identical 5 dimensions but have different human labels (11 CONTEXT vs 11 AMBIGUOUS).
+- This suggests the problem is NOT in the ontology or the classifier — it's in the HUMAN ANNOTATION itself.
+- Before redesigning the ontology, the annotation inconsistency must be resolved.
+- Per directive: STOP. No V48AM. No implementation. No production changes.
