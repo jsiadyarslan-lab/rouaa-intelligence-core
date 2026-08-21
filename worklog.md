@@ -1060,3 +1060,65 @@ Artifacts produced:
 - intelligence_core/tests/reliability/v48af_blind_results.json (machine-readable V2 vs V2.1 results)
 - docs/evidence/ROUAA_CORE_V48AF_HARDENING.md (human-readable report)
 - docs/evidence/ROUAA_CORE_V48AF_V2_V21_COMPARISON.html (HTML V2 vs V2.1 comparison)
+
+---
+Task ID: V48AG
+Agent: main
+Task: V48AG Independent Holdout Validation of V2.1. Per user directive: V48AF (93.3%) was ACCEPTED as development-set improvement only. V48AE has become a DEVELOPMENT/TUNING SET (lexicon additions were informed by V48AE failure patterns). Create NEW 150-case independent holdout (NOT derived from V48AE/V48AF failures). Pre-register labels BEFORE V2.1 runs (SHA256 verified). Run V2.1 EXACTLY as committed in V48AF (no rule changes). Independent disagreement adjudication (NOT inferred from V2.1 reason code).
+
+Work Log:
+- §1 HARD FREEZE verified: LOCAL == REMOTE == 72525d9 (V48AF commit), working tree CLEAN. V2.1 file hash verified matches V48AF commit (80d857...).
+- §2 Created NEW 150-case independent holdout sample:
+  - 40 TRUE_SUBJECT + 35 FALSE_BINDING + 40 AMBIGUOUS + 35 CONTEXT
+  - Cases designed WITHOUT reference to V48AE/V48AF failure patterns
+  - Realistic financial text from central bank press releases, regulatory enforcement, statistical releases, industry/sector reports
+  - Includes difficulty dimensions: noun modifiers, measurement instruments, competing topics, document titles, heading context, strong event verbs, weak/no event evidence, contradictory facts, repeated aliases, long/short aliases, multiple aliases, financial measurements, administrative terminology, actor vs subject, measure vs subject, context vs subject
+  - 3 cases (3, 21, 31, 38) use 'Bank Rate' or 'federal funds rate' — represent realistic text and may expose DATA_GAP (alias missing from registry)
+- §3 PRE-REGISTRATION: labels committed to v48ag_independent_preregistered_sample.json BEFORE V2.1 runs. SHA256 recorded before (bbc1ac6c...) and verified unchanged after V2.1 run. V2.1 evaluator (run_shadow_case_v21) takes only text as input — does NOT read pre-reg file during evaluation.
+- §4 NO RULE CHANGES: V2.1 (v48af_v21_evaluator.py) used EXACTLY as committed in V48AF. File hash verified (80d857...). No lexicon additions, no threshold changes, no role/event mapping changes.
+- §5 Ran V2.1 on three datasets:
+  - §5-A NEW independent holdout (150 cases)
+  - §5-B V48X 32 cases (regression)
+  - §5-C V48AB 150 cases (regression — FIRST time V2.1 ran on V48AB; V48AF did not run V2.1 on V48AB)
+- §6 INDEPENDENT DISAGREEMENT ADJUDICATION: classified each disagreement by inspecting actual text/evidence (NOT inferring from V2.1 reason code). Specific patterns examined per §6:
+  - Human AMBIGUOUS vs V2.1 TRUE_SUBJECT: examined for genuine semantic ambiguity
+  - Human FALSE_BINDING vs V2.1 TRUE_SUBJECT: examined for false promotion
+  - Human TRUE_SUBJECT vs V2.1 CONTEXT_ONLY/FALSE_BINDING: examined for missed subject evidence
+- §7 Acceptance criteria verification.
+- §8 METRIC SEPARATION: reported DEVELOPMENT (V48AE/V48AF = 93.3%) and VALIDATION (NEW holdout) SEPARATELY.
+- 338/338 tests PASS — production unchanged.
+
+Stage Summary:
+- VERDICT: V48AG = VALIDATION FAILED.
+- §8 METRIC SEPARATION:
+  - DEVELOPMENT (V48AE/V48AF): 70/75 = 93.3% (NOT independent — used for lexicon tuning)
+  - VALIDATION (NEW holdout): 104/150 = 69.3% (INDEPENDENT)
+- NEW holdout disagreement distribution:
+  - DATA_GAP: 4 (Bank Rate / federal funds rate alias missing)
+  - EXTRACTION_GAP: 0
+  - RULE_GAP: 1
+  - CONTEXT_GAP: 17
+  - GENUINE_SEMANTIC_LIMITATION: 24 (BLOCKING — V2.1 too confident in classifying modifier cases as CONTEXT_ONLY where human considers AMBIGUOUS)
+  - AGREEMENT: 104
+- V48X regression check: TRUE retained 12/19, FALSE rejected 5/5 (no regression)
+- V48AB regression check: 113/150 (was 148/150 for V2 in V48AD — this is the FIRST V2.1 run on V48AB; V2.1's aggressive CONTEXT_ONLY classification doesn't match V48AB's expected AMBIGUOUS labels for modifier cases)
+- Acceptance criteria:
+  - c1 ≥85% minimum: FAIL (69.3%)
+  - c1 ≥90% desirable: FAIL
+  - c2 no GENUINE_SEMANTIC_LIMITATION: FAIL (24 cases — blocking)
+  - c3 no false-promotion: PASS (0)
+  - c4 no TRUE_SUBJECT rejection: PASS (0)
+  - c5 no category collapse: FAIL
+  - c6 V48X no regression: PASS
+  - c7 V48AB no material regression: FAIL (113/150)
+  - c8 pre-reg unchanged: PASS
+- KEY FINDING: V2.1's V48AF tuning (lexicon additions + judgment tuning + event-level downgrade) was OVER-FIT to V48AE's patterns. On independent data, V2.1 drops to 69.3% and produces 24 GENUINE_SEMANTIC_LIMITATION cases where V2.1 is too confident in classifying modifier cases as CONTEXT_ONLY (the human considers them AMBIGUOUS). This is exactly the over-fitting risk the user identified.
+- V2.1 is NOT a production candidate based on independent validation.
+- Per §13: DO NOT create V48AH automatically. STOP — user directive required for next phase.
+
+Artifacts produced:
+- intelligence_core/tests/reliability/v48ag_independent_preregistered_sample.json (150-case pre-registered holdout, READ-ONLY)
+- intelligence_core/tests/reliability/v48ag_independent_validation.py (V48AG validation runner)
+- intelligence_core/tests/reliability/v48ag_independent_results.json (machine-readable results)
+- docs/evidence/ROUAA_CORE_V48AG_INDEPENDENT_VALIDATION.md (human-readable report)
+- docs/evidence/ROUAA_CORE_V48AG_DISAGREEMENT_TABLE.html (HTML disagreement table)
