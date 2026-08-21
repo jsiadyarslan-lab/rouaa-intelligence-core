@@ -1268,3 +1268,28 @@ Stage Summary:
 - The problem is more complex than any single mechanism.
 - Partial signals exist (A2×D3 for counterexamples, A3×D4 for explained) but don't cover all cases.
 - Per directive: STOP. No V48AK. No production changes. No fixes.
+
+---
+Task ID: V48AK
+Agent: main
+Task: V48AK Label Ontology / Semantic Target Audit — forensic ontology audit, NOT implementation. Audit whether TRUE_SUBJECT / CONTEXT_ONLY / AMBIGUOUS are cleanly separable or structurally conflating multiple semantic relations. 7 phases.
+
+Work Log:
+- Phase 1: Recovered label semantics. Found 3 major discrepancies:
+  1. TRUE_SUBJECT conflates syntactic subjecthood (verb proximity) with semantic event attribution (verb applies to candidate). V2.1 checks PROXIMITY, not ATTRIBUTION.
+  2. CONTEXT_ONLY conflates noun-modifier role (syntactic) with contextual relevance (semantic). V2.1 detects head-noun presence, not semantic context-only.
+  3. AMBIGUOUS is used as catch-all for 4 epistemically different situations: conflicting evidence, insufficient evidence, role conflict, default fallback.
+- Phase 2: Relational decomposition of 29 cases. Extracted CANDIDATE, HEAD_NOUN, MODIFIER_RELATION, EVENT, EVENT_TARGET, SEMANTIC_SUBJECT, etc. WITHOUT collapsing into 3 labels.
+- Phase 3: Label compatibility test. 21/29 single label (cleanly separable), 8/29 multiple labels valid (overlapping), 0/29 none adequate.
+- Phase 4: Counterexample-first audit. Found similar pairs with same candidate + same head noun + same syntactic structure but DIFFERENT human labels. Notably #126 and #98 have nearly identical text ("Inflation targeting framework was reaffirmed") but different labels (CONTEXT vs AMBIGUOUS). The distinguishing dimension is NOT captured by the three labels.
+- Phase 5: Three-label assumption test. Labels conflate at least 5 independent dimensions: subjecthood, event attribution, contextual relevance, attribution certainty, semantic scope.
+- Phase 6: Decision — ONTOLOGY_PARTIALLY_OVERLAPPING. The ontology works for 72% of cases but overlaps for 28% because the labels conflate independent dimensions.
+- Phase 7: Integrity verified. All production/V2/V2.1/V48AG files unchanged.
+
+Stage Summary:
+- VERDICT: ONTOLOGY_PARTIALLY_OVERLAPPING.
+- The three labels (TRUE_SUBJECT / CONTEXT_ONLY / AMBIGUOUS) are NOT cleanly separable — they conflate subjecthood, event attribution, contextual relevance, and attribution certainty.
+- For 72% of cases (21/29), a single label is clearly correct — the ontology is sufficient.
+- For 28% of cases (8/29), multiple labels are semantically valid — the ontology overlaps.
+- The overlap is caused by the conflation of independent dimensions, NOT by missing labels.
+- Per directive: STOP. No V48AL. No implementation. No production changes. No new ontology designed.

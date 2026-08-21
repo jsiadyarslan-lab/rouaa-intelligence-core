@@ -1,0 +1,1255 @@
+{
+  "phase": "V48AK LABEL ONTOLOGY / SEMANTIC TARGET AUDIT",
+  "executed_at_utc": "2026-08-21T13:57:01Z",
+  "base_commit": "6a3c386",
+  "v21_sha256": "80d857159c6ab4167e20a28a27fae67e60a2f6de7d2677d398c556716891110b",
+  "production_hashes": {
+    "intelligence_core/subject_entity.py": "3d19dbad167a360b",
+    "intelligence_core/tests/reliability/v48ad_hardened_evaluator.py": "90050b1771e72a3a",
+    "intelligence_core/tests/reliability/v48af_v21_evaluator.py": "80d857159c6ab416",
+    "intelligence_core/tests/reliability/v48ag_independent_preregistered_sample.json": "bbc1ac6ccea1c3e7"
+  },
+  "phase1_label_semantics": {
+    "TRUE_SUBJECT": {
+      "documented_definition": "The candidate IS the semantic subject of the event — the event verb applies to the candidate, and the measurement (if any) describes the candidate.",
+      "actual_implementation": "V2.1 code: judgment='TRUE_SUBJECT' when:\n  1. role=SUBJECT + strong_count>=2 (event+measurement+fact STRONG)\n  2. role=SUBJECT + strong_count==1 + event in (STRONG, MODERATE)\n  3. role=SUBJECT + event=STRONG + not topic_contradiction\n  4. role=CONTEXT + event=STRONG + measurement=STRONG (OVERRIDE)\n  5. H2 pattern match (held at / reduce by basis points) → event=STRONG + role=SUBJECT\nImplementation uses PROXY: event verb NEAR candidate (not event verb APPLIES TO candidate).",
+      "test_fixture_definition": "V48AE pre-reg: 'The candidate IS the semantic subject of the event — the event verb applies to the candidate, and the measurement (if any) describes the candidate.'\nV48AG pre-reg: same definition.",
+      "discrepancies": "1. IMPLEMENTATION vs DOCUMENTATION: V2.1 checks whether an event verb appears in a WINDOW near the candidate, NOT whether the event verb APPLIES TO the candidate. 'GDP increased' and 'GDP statistics are compiled' both match event=STRONG (via verb proximity), but the event only applies to GDP in the first case.\n2. OVERRIDE: V2.1 returns TRUE_SUBJECT even when role=CONTEXT (heading names competing topic) if event+measurement are both STRONG. This contradicts the documented definition which requires the candidate to BE the semantic subject.\n3. NO EVENT-ATTRIBUTION CHECK: V2.1 never verifies that the event verb's syntactic subject IS the candidate. It only checks verb proximity."
+    },
+    "CONTEXT_ONLY": {
+      "documented_definition": "The candidate appears as a noun modifier or context-only reference (e.g., 'FX turnover data is collected' — FX is a modifier of 'data', not the subject of an action).",
+      "actual_implementation": "V2.1 code: judgment='CONTEXT_ONLY' when:\n  1. role=MODIFIER + effective_event not STRONG\n  2. role=MEASURE + effective_event not STRONG\nImplementation uses PROXY: head noun follows candidate (not semantic determination that candidate is context-only).",
+      "test_fixture_definition": "V48AE pre-reg: 'The candidate appears as a noun modifier or context-only reference (e.g., FX turnover data is collected — FX is a modifier of data, not the subject of an action).'\nV48AG pre-reg: same definition.",
+      "discrepancies": "1. IMPLEMENTATION vs DOCUMENTATION: V2.1 detects MODIFIER via head-noun presence (syntactic proxy), NOT via semantic determination that the candidate is context-only. A candidate followed by a head noun is automatically MODIFIER, regardless of whether the event is about the candidate or the head noun.\n2. NO EVENT-ATTRIBUTION CHECK: V2.1 doesn't verify that the event verb applies to the HEAD NOUN (not the candidate). It only checks that the candidate has a head noun (syntactic) and that the event is weak (insufficient).\n3. MEASURE conflation: V2.1 returns CONTEXT_ONLY for role=MEASURE (GDP deflator, CPI basket) — but the documented definition doesn't explicitly cover this case."
+    },
+    "AMBIGUOUS": {
+      "documented_definition": "The case has conflicting signals or is genuinely unclear to a human reader — the candidate is mentioned but its role as subject cannot be determined with confidence.",
+      "actual_implementation": "V2.1 code: judgment='AMBIGUOUS' when:\n  1. role=CONTEXT + event=STRONG (conflict, no measurement)\n  2. role=MODIFIER + event=STRONG + measurement=STRONG (conflict)\n  3. role=MODIFIER + event=STRONG (conflict, no measurement)\n  4. role=ACTOR (always — genuine)\n  5. fact=CONTRADICTED + event=STRONG (conflicting evidence)\n  6. event=WEAK + topic_contradiction\n  7. event=WEAK (insufficient evidence)\n  8. DEFAULT FALLBACK (no other label applies)\nAMBIGUOUS is used as catch-all for: conflicting evidence, insufficient evidence, genuine ambiguity, and default fallback.",
+      "test_fixture_definition": "V48AE pre-reg: 'The case has conflicting signals or is genuinely unclear to a human reader — the candidate is mentioned but its role as subject cannot be determined with confidence.'\nV48AG pre-reg: same definition.",
+      "discrepancies": "1. CONFLATION: AMBIGUOUS is used for at least 4 SEMANTICALLY DIFFERENT situations: (a) conflicting evidence (event=STRONG + fact=CONTRADICTED), (b) insufficient evidence (event=WEAK), (c) role conflict (MODIFIER + event=STRONG), (d) default fallback. These are epistemically different but the label doesn't distinguish them.\n2. NO CERTAINTY DIMENSION: The documented definition says 'genuinely unclear,' but V2.1 returns AMBIGUOUS even when the case is NOT genuinely unclear — it's just insufficient evidence (event=WEAK).\n3. NO ATTRIBUTION DISTINCTION: V2.1 doesn't distinguish 'I can't tell if the event applies to the candidate or the head noun' from 'I found no event evidence at all.' Both return AMBIGUOUS."
+    }
+  },
+  "phase2_relational_decomposition": [
+    {
+      "case_id": 117,
+      "population": "counterexample",
+      "CANDIDATE": "Penalty",
+      "HEAD_NOUN": "guidelines",
+      "MODIFIER_RELATION": "Penalty is a topic modifier of 'guidelines'",
+      "EVENT": [
+        "issued"
+      ],
+      "EVENT_CATEGORY": [
+        "impose"
+      ],
+      "EVENT_TARGET": "guidelines",
+      "SEMANTIC_SUBJECT": "guidelines",
+      "DOCUMENT_TOPIC": "unknown (synthetic)",
+      "LOCAL_CONTEXT": "y guidelines were issued for industry consultation by the re",
+      "DOCUMENT_CONTEXT": "unavailable (synthetic HTML)",
+      "EVIDENCE_SCOPE": "local text only",
+      "has_secondary_target": false,
+      "human_label": "CONTEXT",
+      "text": "Penalty guidelines were issued for industry consultation by the regulator."
+    },
+    {
+      "case_id": 119,
+      "population": "counterexample",
+      "CANDIDATE": "Policy Rate",
+      "HEAD_NOUN": "corridor",
+      "MODIFIER_RELATION": "Policy Rate is a topic modifier of 'corridor'",
+      "EVENT": [
+        "maintained"
+      ],
+      "EVENT_CATEGORY": [
+        "maintain"
+      ],
+      "EVENT_TARGET": "corridor",
+      "SEMANTIC_SUBJECT": "corridor",
+      "DOCUMENT_TOPIC": "unknown (synthetic)",
+      "LOCAL_CONTEXT": "e corridor was maintained at its existing operational width.",
+      "DOCUMENT_CONTEXT": "unavailable (synthetic HTML)",
+      "EVIDENCE_SCOPE": "local text only",
+      "has_secondary_target": false,
+      "human_label": "CONTEXT",
+      "text": "Policy rate corridor was maintained at its existing operational width."
+    },
+    {
+      "case_id": 121,
+      "population": "counterexample",
+      "CANDIDATE": "Gross Domestic Product",
+      "HEAD_NOUN": "deflator",
+      "MODIFIER_RELATION": "Gross Domestic Product is a topic modifier of 'deflator'",
+      "EVENT": [
+        "revised"
+      ],
+      "EVENT_CATEGORY": [
+        "admin"
+      ],
+      "EVENT_TARGET": "deflator",
+      "SEMANTIC_SUBJECT": "deflator",
+      "DOCUMENT_TOPIC": "unknown (synthetic)",
+      "LOCAL_CONTEXT": "P deflator series was revised in the latest national account",
+      "DOCUMENT_CONTEXT": "unavailable (synthetic HTML)",
+      "EVIDENCE_SCOPE": "local text only",
+      "has_secondary_target": false,
+      "human_label": "CONTEXT",
+      "text": "GDP deflator series was revised in the latest national accounts release."
+    },
+    {
+      "case_id": 122,
+      "population": "counterexample",
+      "CANDIDATE": "Consumer Price Index",
+      "HEAD_NOUN": "basket",
+      "MODIFIER_RELATION": "Consumer Price Index is a topic modifier of 'basket'",
+      "EVENT": [
+        "updated"
+      ],
+      "EVENT_CATEGORY": [
+        "admin"
+      ],
+      "EVENT_TARGET": "basket",
+      "SEMANTIC_SUBJECT": "basket",
+      "DOCUMENT_TOPIC": "unknown (synthetic)",
+      "LOCAL_CONTEXT": "I basket composition was updated for the new index series.",
+      "DOCUMENT_CONTEXT": "unavailable (synthetic HTML)",
+      "EVIDENCE_SCOPE": "local text only",
+      "has_secondary_target": false,
+      "human_label": "CONTEXT",
+      "text": "CPI basket composition was updated for the new index series."
+    },
+    {
+      "case_id": 126,
+      "population": "counterexample",
+      "CANDIDATE": "Inflation",
+      "HEAD_NOUN": "targeting",
+      "MODIFIER_RELATION": "Inflation is a topic modifier of 'targeting'",
+      "EVENT": [
+        "reaffirmed"
+      ],
+      "EVENT_CATEGORY": [
+        "decide"
+      ],
+      "EVENT_TARGET": "targeting",
+      "SEMANTIC_SUBJECT": "targeting",
+      "DOCUMENT_TOPIC": "unknown (synthetic)",
+      "LOCAL_CONTEXT": "n targeting framework was reaffirmed in the central bank's p",
+      "DOCUMENT_CONTEXT": "unavailable (synthetic HTML)",
+      "EVIDENCE_SCOPE": "local text only",
+      "has_secondary_target": false,
+      "human_label": "CONTEXT",
+      "text": "Inflation targeting framework was reaffirmed in the central bank's policy statement."
+    },
+    {
+      "case_id": 130,
+      "population": "counterexample",
+      "CANDIDATE": "Foreign Exchange",
+      "HEAD_NOUN": "reserves",
+      "MODIFIER_RELATION": "Foreign Exchange is a topic modifier of 'reserves'",
+      "EVENT": [
+        "described",
+        "described"
+      ],
+      "EVENT_CATEGORY": [
+        "admin",
+        "meta"
+      ],
+      "EVENT_TARGET": "reserves",
+      "SEMANTIC_SUBJECT": "reserves",
+      "DOCUMENT_TOPIC": "unknown (synthetic)",
+      "LOCAL_CONTEXT": "e reserves position was described as adequate by the central",
+      "DOCUMENT_CONTEXT": "unavailable (synthetic HTML)",
+      "EVIDENCE_SCOPE": "local text only",
+      "has_secondary_target": false,
+      "human_label": "CONTEXT",
+      "text": "Foreign exchange reserves position was described as adequate by the central bank."
+    },
+    {
+      "case_id": 131,
+      "population": "counterexample",
+      "CANDIDATE": "Penalty",
+      "HEAD_NOUN": "framework",
+      "MODIFIER_RELATION": "Penalty is a topic modifier of 'framework'",
+      "EVENT": "none",
+      "EVENT_CATEGORY": "none",
+      "EVENT_TARGET": "unavailable",
+      "SEMANTIC_SUBJECT": "framework",
+      "DOCUMENT_TOPIC": "unknown (synthetic)",
+      "LOCAL_CONTEXT": "y framework review was the subject of committee deliberation",
+      "DOCUMENT_CONTEXT": "unavailable (synthetic HTML)",
+      "EVIDENCE_SCOPE": "local text only",
+      "has_secondary_target": false,
+      "human_label": "CONTEXT",
+      "text": "Penalty framework review was the subject of committee deliberation last quarter."
+    },
+    {
+      "case_id": 138,
+      "population": "counterexample",
+      "CANDIDATE": "Penalty",
+      "HEAD_NOUN": "appeal",
+      "MODIFIER_RELATION": "Penalty is a topic modifier of 'appeal'",
+      "EVENT": [
+        "detailed"
+      ],
+      "EVENT_CATEGORY": [
+        "admin"
+      ],
+      "EVENT_TARGET": "appeal",
+      "SEMANTIC_SUBJECT": "appeal",
+      "DOCUMENT_TOPIC": "unknown (synthetic)",
+      "LOCAL_CONTEXT": "y appeal process was detailed in the regulatory enforcement ",
+      "DOCUMENT_CONTEXT": "unavailable (synthetic HTML)",
+      "EVIDENCE_SCOPE": "local text only",
+      "has_secondary_target": false,
+      "human_label": "CONTEXT",
+      "text": "Penalty appeal process was detailed in the regulatory enforcement manual."
+    },
+    {
+      "case_id": 140,
+      "population": "counterexample",
+      "CANDIDATE": "Inflation",
+      "HEAD_NOUN": "data",
+      "MODIFIER_RELATION": "Inflation is a topic modifier of 'data'",
+      "EVENT": [
+        "refined"
+      ],
+      "EVENT_CATEGORY": [
+        "admin"
+      ],
+      "EVENT_TARGET": "data",
+      "SEMANTIC_SUBJECT": "data",
+      "DOCUMENT_TOPIC": "unknown (synthetic)",
+      "LOCAL_CONTEXT": "n data collection was refined per the new statistical method",
+      "DOCUMENT_CONTEXT": "unavailable (synthetic HTML)",
+      "EVIDENCE_SCOPE": "local text only",
+      "has_secondary_target": false,
+      "human_label": "CONTEXT",
+      "text": "Inflation data collection was refined per the new statistical methodology."
+    },
+    {
+      "case_id": 147,
+      "population": "counterexample",
+      "CANDIDATE": "Inflation",
+      "HEAD_NOUN": "expectations",
+      "MODIFIER_RELATION": "Inflation is a topic modifier of 'expectations'",
+      "EVENT": [
+        "added"
+      ],
+      "EVENT_CATEGORY": [
+        "admin"
+      ],
+      "EVENT_TARGET": "expectations",
+      "SEMANTIC_SUBJECT": "expectations",
+      "DOCUMENT_TOPIC": "unknown (synthetic)",
+      "LOCAL_CONTEXT": "n expectations indicator was added to the central bank's mon",
+      "DOCUMENT_CONTEXT": "unavailable (synthetic HTML)",
+      "EVIDENCE_SCOPE": "local text only",
+      "has_secondary_target": false,
+      "human_label": "CONTEXT",
+      "text": "Inflation expectations indicator was added to the central bank's monitoring dashboard."
+    },
+    {
+      "case_id": 149,
+      "population": "counterexample",
+      "CANDIDATE": "Unemployment",
+      "HEAD_NOUN": "statistics",
+      "MODIFIER_RELATION": "Unemployment is a topic modifier of 'statistics'",
+      "EVENT": [
+        "aligned"
+      ],
+      "EVENT_CATEGORY": [
+        "admin"
+      ],
+      "EVENT_TARGET": "statistics",
+      "SEMANTIC_SUBJECT": "statistics",
+      "DOCUMENT_TOPIC": "unknown (synthetic)",
+      "LOCAL_CONTEXT": "t statistics methodology was aligned with the ILO internatio",
+      "DOCUMENT_CONTEXT": "unavailable (synthetic HTML)",
+      "EVIDENCE_SCOPE": "local text only",
+      "has_secondary_target": false,
+      "human_label": "CONTEXT",
+      "text": "Unemployment statistics methodology was aligned with the ILO international standard."
+    },
+    {
+      "case_id": 76,
+      "population": "explained",
+      "CANDIDATE": "Inflation",
+      "HEAD_NOUN": "dynamics",
+      "MODIFIER_RELATION": "Inflation is a topic modifier of 'dynamics'",
+      "EVENT": [
+        "remain",
+        "noted"
+      ],
+      "EVENT_CATEGORY": [
+        "maintain",
+        "meta"
+      ],
+      "EVENT_TARGET": "dynamics",
+      "SEMANTIC_SUBJECT": "dynamics",
+      "DOCUMENT_TOPIC": "unknown (synthetic)",
+      "LOCAL_CONTEXT": " dynamics remain under close monitoring amid global uncertai",
+      "DOCUMENT_CONTEXT": "unavailable (synthetic HTML)",
+      "EVIDENCE_SCOPE": "local text only",
+      "has_secondary_target": true,
+      "human_label": "AMBIGUOUS",
+      "text": "The committee noted that inflation dynamics remain under close monitoring amid global uncertainty."
+    },
+    {
+      "case_id": 78,
+      "population": "explained",
+      "CANDIDATE": "Policy Rate",
+      "HEAD_NOUN": "expectations",
+      "MODIFIER_RELATION": "Policy Rate is a topic modifier of 'expectations'",
+      "EVENT": [
+        "cited"
+      ],
+      "EVENT_CATEGORY": [
+        "meta"
+      ],
+      "EVENT_TARGET": "expectations",
+      "SEMANTIC_SUBJECT": "expectations",
+      "DOCUMENT_TOPIC": "unknown (synthetic)",
+      "LOCAL_CONTEXT": "e expectations were cited in the market commentary section.",
+      "DOCUMENT_CONTEXT": "unavailable (synthetic HTML)",
+      "EVIDENCE_SCOPE": "local text only",
+      "has_secondary_target": false,
+      "human_label": "AMBIGUOUS",
+      "text": "Policy rate expectations were cited in the market commentary section."
+    },
+    {
+      "case_id": 82,
+      "population": "explained",
+      "CANDIDATE": "Penalty",
+      "HEAD_NOUN": "decisions",
+      "MODIFIER_RELATION": "Penalty is a topic modifier of 'decisions'",
+      "EVENT": "none",
+      "EVENT_CATEGORY": "none",
+      "EVENT_TARGET": "unavailable",
+      "SEMANTIC_SUBJECT": "decisions",
+      "DOCUMENT_TOPIC": "unknown (synthetic)",
+      "LOCAL_CONTEXT": "y decisions were the subject of regulatory committee review ",
+      "DOCUMENT_CONTEXT": "unavailable (synthetic HTML)",
+      "EVIDENCE_SCOPE": "local text only",
+      "has_secondary_target": false,
+      "human_label": "AMBIGUOUS",
+      "text": "Penalty decisions were the subject of regulatory committee review last quarter."
+    },
+    {
+      "case_id": 83,
+      "population": "explained",
+      "CANDIDATE": "Gross Domestic Product",
+      "HEAD_NOUN": "statistics",
+      "MODIFIER_RELATION": "Gross Domestic Product is a topic modifier of 'statistics'",
+      "EVENT": [
+        "compiled"
+      ],
+      "EVENT_CATEGORY": [
+        "admin"
+      ],
+      "EVENT_TARGET": "statistics",
+      "SEMANTIC_SUBJECT": "statistics",
+      "DOCUMENT_TOPIC": "unknown (synthetic)",
+      "LOCAL_CONTEXT": "P statistics are compiled in accordance with international m",
+      "DOCUMENT_CONTEXT": "unavailable (synthetic HTML)",
+      "EVIDENCE_SCOPE": "local text only",
+      "has_secondary_target": false,
+      "human_label": "AMBIGUOUS",
+      "text": "GDP statistics are compiled in accordance with international methodology standards."
+    },
+    {
+      "case_id": 87,
+      "population": "explained",
+      "CANDIDATE": "Consumer Price Index",
+      "HEAD_NOUN": "methodology",
+      "MODIFIER_RELATION": "Consumer Price Index is a topic modifier of 'methodology'",
+      "EVENT": [
+        "revised"
+      ],
+      "EVENT_CATEGORY": [
+        "admin"
+      ],
+      "EVENT_TARGET": "methodology",
+      "SEMANTIC_SUBJECT": "methodology",
+      "DOCUMENT_TOPIC": "unknown (synthetic)",
+      "LOCAL_CONTEXT": "I methodology was revised in line with the new international",
+      "DOCUMENT_CONTEXT": "unavailable (synthetic HTML)",
+      "EVIDENCE_SCOPE": "local text only",
+      "has_secondary_target": false,
+      "human_label": "AMBIGUOUS",
+      "text": "CPI methodology was revised in line with the new international statistical standard."
+    },
+    {
+      "case_id": 89,
+      "population": "explained",
+      "CANDIDATE": "Penalty",
+      "HEAD_NOUN": "procedures",
+      "MODIFIER_RELATION": "Penalty is a topic modifier of 'procedures'",
+      "EVENT": [
+        "outlined",
+        "updated"
+      ],
+      "EVENT_CATEGORY": [
+        "admin",
+        "admin"
+      ],
+      "EVENT_TARGET": "procedures",
+      "SEMANTIC_SUBJECT": "procedures",
+      "DOCUMENT_TOPIC": "unknown (synthetic)",
+      "LOCAL_CONTEXT": "y procedures were outlined in the updated enforcement guidan",
+      "DOCUMENT_CONTEXT": "unavailable (synthetic HTML)",
+      "EVIDENCE_SCOPE": "local text only",
+      "has_secondary_target": false,
+      "human_label": "AMBIGUOUS",
+      "text": "Penalty procedures were outlined in the updated enforcement guidance document."
+    },
+    {
+      "case_id": 92,
+      "population": "explained",
+      "CANDIDATE": "Policy Rate",
+      "HEAD_NOUN": "decisions",
+      "MODIFIER_RELATION": "Policy Rate is a topic modifier of 'decisions'",
+      "EVENT": [
+        "published",
+        "scheduled"
+      ],
+      "EVENT_CATEGORY": [
+        "decide",
+        "admin"
+      ],
+      "EVENT_TARGET": "decisions",
+      "SEMANTIC_SUBJECT": "decisions",
+      "DOCUMENT_TOPIC": "unknown (synthetic)",
+      "LOCAL_CONTEXT": "e decisions are scheduled for the next FOMC meeting per the ",
+      "DOCUMENT_CONTEXT": "unavailable (synthetic HTML)",
+      "EVIDENCE_SCOPE": "local text only",
+      "has_secondary_target": false,
+      "human_label": "AMBIGUOUS",
+      "text": "Policy rate decisions are scheduled for the next FOMC meeting per the published calendar."
+    },
+    {
+      "case_id": 93,
+      "population": "explained",
+      "CANDIDATE": "Unemployment",
+      "HEAD_NOUN": "statistics",
+      "MODIFIER_RELATION": "Unemployment is a topic modifier of 'statistics'",
+      "EVENT": [
+        "released",
+        "released"
+      ],
+      "EVENT_CATEGORY": [
+        "decide",
+        "admin"
+      ],
+      "EVENT_TARGET": "statistics",
+      "SEMANTIC_SUBJECT": "statistics",
+      "DOCUMENT_TOPIC": "unknown (synthetic)",
+      "LOCAL_CONTEXT": "t statistics are released on the first Friday of each month ",
+      "DOCUMENT_CONTEXT": "unavailable (synthetic HTML)",
+      "EVIDENCE_SCOPE": "local text only",
+      "has_secondary_target": false,
+      "human_label": "AMBIGUOUS",
+      "text": "Unemployment statistics are released on the first Friday of each month by the BLS."
+    },
+    {
+      "case_id": 94,
+      "population": "explained",
+      "CANDIDATE": "Consumer Price Index",
+      "HEAD_NOUN": "sub-indices",
+      "MODIFIER_RELATION": "Consumer Price Index is a topic modifier of 'sub-indices'",
+      "EVENT": [
+        "analyzed",
+        "detailed"
+      ],
+      "EVENT_CATEGORY": [
+        "admin",
+        "admin"
+      ],
+      "EVENT_TARGET": "sub-indices",
+      "SEMANTIC_SUBJECT": "sub-indices",
+      "DOCUMENT_TOPIC": "unknown (synthetic)",
+      "LOCAL_CONTEXT": "I sub-indices were analyzed in the detailed statistical appe",
+      "DOCUMENT_CONTEXT": "unavailable (synthetic HTML)",
+      "EVIDENCE_SCOPE": "local text only",
+      "has_secondary_target": false,
+      "human_label": "AMBIGUOUS",
+      "text": "CPI sub-indices were analyzed in the detailed statistical appendix."
+    },
+    {
+      "case_id": 96,
+      "population": "explained",
+      "CANDIDATE": "Penalty",
+      "HEAD_NOUN": "framework",
+      "MODIFIER_RELATION": "Penalty is a topic modifier of 'framework'",
+      "EVENT": [
+        "proposed"
+      ],
+      "EVENT_CATEGORY": [
+        "decide"
+      ],
+      "EVENT_TARGET": "framework",
+      "SEMANTIC_SUBJECT": "framework",
+      "DOCUMENT_TOPIC": "unknown (synthetic)",
+      "LOCAL_CONTEXT": "y framework revisions were proposed in the latest regulatory",
+      "DOCUMENT_CONTEXT": "unavailable (synthetic HTML)",
+      "EVIDENCE_SCOPE": "local text only",
+      "has_secondary_target": false,
+      "human_label": "AMBIGUOUS",
+      "text": "Penalty framework revisions were proposed in the latest regulatory consultation paper."
+    },
+    {
+      "case_id": 98,
+      "population": "explained",
+      "CANDIDATE": "Inflation",
+      "HEAD_NOUN": "targeting",
+      "MODIFIER_RELATION": "Inflation is a topic modifier of 'targeting'",
+      "EVENT": [
+        "reaffirmed"
+      ],
+      "EVENT_CATEGORY": [
+        "decide"
+      ],
+      "EVENT_TARGET": "targeting",
+      "SEMANTIC_SUBJECT": "targeting",
+      "DOCUMENT_TOPIC": "unknown (synthetic)",
+      "LOCAL_CONTEXT": "n targeting framework was reaffirmed in the central bank's s",
+      "DOCUMENT_CONTEXT": "unavailable (synthetic HTML)",
+      "EVIDENCE_SCOPE": "local text only",
+      "has_secondary_target": false,
+      "human_label": "AMBIGUOUS",
+      "text": "Inflation targeting framework was reaffirmed in the central bank's strategic review."
+    },
+    {
+      "case_id": 99,
+      "population": "explained",
+      "CANDIDATE": "Policy Rate",
+      "HEAD_NOUN": "stance",
+      "MODIFIER_RELATION": "Policy Rate is a topic modifier of 'stance'",
+      "EVENT": [
+        "remains"
+      ],
+      "EVENT_CATEGORY": [
+        "maintain"
+      ],
+      "EVENT_TARGET": "stance",
+      "SEMANTIC_SUBJECT": "stance",
+      "DOCUMENT_TOPIC": "unknown (synthetic)",
+      "LOCAL_CONTEXT": "e stance remains accommodative, the central bank governor sa",
+      "DOCUMENT_CONTEXT": "unavailable (synthetic HTML)",
+      "EVIDENCE_SCOPE": "local text only",
+      "has_secondary_target": false,
+      "human_label": "AMBIGUOUS",
+      "text": "Policy rate stance remains accommodative, the central bank governor said in testimony."
+    },
+    {
+      "case_id": 100,
+      "population": "explained",
+      "CANDIDATE": "Unemployment",
+      "HEAD_NOUN": "projections",
+      "MODIFIER_RELATION": "Unemployment is a topic modifier of 'projections'",
+      "EVENT": [
+        "identified"
+      ],
+      "EVENT_CATEGORY": [
+        "meta"
+      ],
+      "EVENT_TARGET": "projections",
+      "SEMANTIC_SUBJECT": "projections",
+      "DOCUMENT_TOPIC": "unknown (synthetic)",
+      "LOCAL_CONTEXT": " projections as a key input to the fiscal outlook.",
+      "DOCUMENT_CONTEXT": "unavailable (synthetic HTML)",
+      "EVIDENCE_SCOPE": "local text only",
+      "has_secondary_target": true,
+      "human_label": "AMBIGUOUS",
+      "text": "The report identified unemployment projections as a key input to the fiscal outlook."
+    },
+    {
+      "case_id": 101,
+      "population": "explained",
+      "CANDIDATE": "Consumer Price Index",
+      "HEAD_NOUN": "weights",
+      "MODIFIER_RELATION": "Consumer Price Index is a topic modifier of 'weights'",
+      "EVENT": [
+        "updated"
+      ],
+      "EVENT_CATEGORY": [
+        "admin"
+      ],
+      "EVENT_TARGET": "weights",
+      "SEMANTIC_SUBJECT": "weights",
+      "DOCUMENT_TOPIC": "unknown (synthetic)",
+      "LOCAL_CONTEXT": "I weights were updated in the latest index revision per the ",
+      "DOCUMENT_CONTEXT": "unavailable (synthetic HTML)",
+      "EVIDENCE_SCOPE": "local text only",
+      "has_secondary_target": false,
+      "human_label": "AMBIGUOUS",
+      "text": "CPI weights were updated in the latest index revision per the statistical standard."
+    },
+    {
+      "case_id": 102,
+      "population": "explained",
+      "CANDIDATE": "Foreign Exchange",
+      "HEAD_NOUN": "reserves",
+      "MODIFIER_RELATION": "Foreign Exchange is a topic modifier of 'reserves'",
+      "EVENT": [
+        "remained"
+      ],
+      "EVENT_CATEGORY": [
+        "maintain"
+      ],
+      "EVENT_TARGET": "reserves",
+      "SEMANTIC_SUBJECT": "reserves",
+      "DOCUMENT_TOPIC": "unknown (synthetic)",
+      "LOCAL_CONTEXT": "e reserves remained adequate, the central bank confirmed in ",
+      "DOCUMENT_CONTEXT": "unavailable (synthetic HTML)",
+      "EVIDENCE_SCOPE": "local text only",
+      "has_secondary_target": false,
+      "human_label": "AMBIGUOUS",
+      "text": "Foreign exchange reserves remained adequate, the central bank confirmed in its quarterly report."
+    },
+    {
+      "case_id": 103,
+      "population": "explained",
+      "CANDIDATE": "Penalty",
+      "HEAD_NOUN": "guidelines",
+      "MODIFIER_RELATION": "Penalty is a topic modifier of 'guidelines'",
+      "EVENT": "none",
+      "EVENT_CATEGORY": "none",
+      "EVENT_TARGET": "unavailable",
+      "SEMANTIC_SUBJECT": "guidelines",
+      "DOCUMENT_TOPIC": "unknown (synthetic)",
+      "LOCAL_CONTEXT": "y guidelines were the subject of industry consultation per t",
+      "DOCUMENT_CONTEXT": "unavailable (synthetic HTML)",
+      "EVIDENCE_SCOPE": "local text only",
+      "has_secondary_target": false,
+      "human_label": "AMBIGUOUS",
+      "text": "Penalty guidelines were the subject of industry consultation per the regulator's statement."
+    },
+    {
+      "case_id": 108,
+      "population": "explained",
+      "CANDIDATE": "Gross Domestic Product",
+      "HEAD_NOUN": "performance",
+      "MODIFIER_RELATION": "Gross Domestic Product is a topic modifier of 'performance'",
+      "EVENT": [
+        "highlighted"
+      ],
+      "EVENT_CATEGORY": [
+        "admin"
+      ],
+      "EVENT_TARGET": "performance",
+      "SEMANTIC_SUBJECT": "performance",
+      "DOCUMENT_TOPIC": "unknown (synthetic)",
+      "LOCAL_CONTEXT": "P performance was highlighted in the regional economic revie",
+      "DOCUMENT_CONTEXT": "unavailable (synthetic HTML)",
+      "EVIDENCE_SCOPE": "local text only",
+      "has_secondary_target": false,
+      "human_label": "AMBIGUOUS",
+      "text": "GDP performance was highlighted in the regional economic review."
+    },
+    {
+      "case_id": 115,
+      "population": "explained",
+      "CANDIDATE": "Inflation",
+      "HEAD_NOUN": "trends",
+      "MODIFIER_RELATION": "Inflation is a topic modifier of 'trends'",
+      "EVENT": [
+        "remain",
+        "noted"
+      ],
+      "EVENT_CATEGORY": [
+        "maintain",
+        "meta"
+      ],
+      "EVENT_TARGET": "trends",
+      "SEMANTIC_SUBJECT": "trends",
+      "DOCUMENT_TOPIC": "unknown (synthetic)",
+      "LOCAL_CONTEXT": " trends remain a focus of attention.",
+      "DOCUMENT_CONTEXT": "unavailable (synthetic HTML)",
+      "EVIDENCE_SCOPE": "local text only",
+      "has_secondary_target": false,
+      "human_label": "AMBIGUOUS",
+      "text": "The bank's quarterly statement noted that inflation trends remain a focus of attention."
+    }
+  ],
+  "phase3_label_compatibility": [
+    {
+      "case_id": 117,
+      "population": "counterexample",
+      "TRUE_SUBJECT_possible": false,
+      "TRUE_SUBJECT_reason": "",
+      "CONTEXT_ONLY_possible": true,
+      "CONTEXT_ONLY_reason": "Candidate is a modifier of 'guidelines' — clearly context-only (no secondary target — event clearly on head noun)",
+      "AMBIGUOUS_possible": false,
+      "AMBIGUOUS_reason": "",
+      "labels_possible": [
+        "CONTEXT_ONLY"
+      ],
+      "best_description": "CONTEXT_ONLY",
+      "human_label": "CONTEXT",
+      "text": "Penalty guidelines were issued for industry consultation by the regulator."
+    },
+    {
+      "case_id": 119,
+      "population": "counterexample",
+      "TRUE_SUBJECT_possible": false,
+      "TRUE_SUBJECT_reason": "",
+      "CONTEXT_ONLY_possible": true,
+      "CONTEXT_ONLY_reason": "Candidate is a modifier of 'corridor' — clearly context-only (no secondary target — event clearly on head noun)",
+      "AMBIGUOUS_possible": false,
+      "AMBIGUOUS_reason": "",
+      "labels_possible": [
+        "CONTEXT_ONLY"
+      ],
+      "best_description": "CONTEXT_ONLY",
+      "human_label": "CONTEXT",
+      "text": "Policy rate corridor was maintained at its existing operational width."
+    },
+    {
+      "case_id": 121,
+      "population": "counterexample",
+      "TRUE_SUBJECT_possible": false,
+      "TRUE_SUBJECT_reason": "",
+      "CONTEXT_ONLY_possible": true,
+      "CONTEXT_ONLY_reason": "Candidate is a modifier of 'deflator' — clearly context-only (no secondary target — event clearly on head noun)",
+      "AMBIGUOUS_possible": false,
+      "AMBIGUOUS_reason": "",
+      "labels_possible": [
+        "CONTEXT_ONLY"
+      ],
+      "best_description": "CONTEXT_ONLY",
+      "human_label": "CONTEXT",
+      "text": "GDP deflator series was revised in the latest national accounts release."
+    },
+    {
+      "case_id": 122,
+      "population": "counterexample",
+      "TRUE_SUBJECT_possible": false,
+      "TRUE_SUBJECT_reason": "",
+      "CONTEXT_ONLY_possible": true,
+      "CONTEXT_ONLY_reason": "Candidate is a modifier of 'basket' — clearly context-only (no secondary target — event clearly on head noun)",
+      "AMBIGUOUS_possible": false,
+      "AMBIGUOUS_reason": "",
+      "labels_possible": [
+        "CONTEXT_ONLY"
+      ],
+      "best_description": "CONTEXT_ONLY",
+      "human_label": "CONTEXT",
+      "text": "CPI basket composition was updated for the new index series."
+    },
+    {
+      "case_id": 126,
+      "population": "counterexample",
+      "TRUE_SUBJECT_possible": false,
+      "TRUE_SUBJECT_reason": "",
+      "CONTEXT_ONLY_possible": true,
+      "CONTEXT_ONLY_reason": "Candidate is a modifier of 'targeting' — clearly context-only (no secondary target — event clearly on head noun)",
+      "AMBIGUOUS_possible": false,
+      "AMBIGUOUS_reason": "",
+      "labels_possible": [
+        "CONTEXT_ONLY"
+      ],
+      "best_description": "CONTEXT_ONLY",
+      "human_label": "CONTEXT",
+      "text": "Inflation targeting framework was reaffirmed in the central bank's policy statem"
+    },
+    {
+      "case_id": 130,
+      "population": "counterexample",
+      "TRUE_SUBJECT_possible": false,
+      "TRUE_SUBJECT_reason": "",
+      "CONTEXT_ONLY_possible": true,
+      "CONTEXT_ONLY_reason": "Candidate is a modifier of 'reserves' — clearly context-only (no secondary target — event clearly on head noun)",
+      "AMBIGUOUS_possible": true,
+      "AMBIGUOUS_reason": "Meta-reference verb — could apply to either",
+      "labels_possible": [
+        "CONTEXT_ONLY",
+        "AMBIGUOUS"
+      ],
+      "best_description": "MULTIPLE_VALID: CONTEXT_ONLY+AMBIGUOUS",
+      "human_label": "CONTEXT",
+      "text": "Foreign exchange reserves position was described as adequate by the central bank"
+    },
+    {
+      "case_id": 131,
+      "population": "counterexample",
+      "TRUE_SUBJECT_possible": true,
+      "TRUE_SUBJECT_reason": "'subject of' construction — meta-referential, could be about candidate",
+      "CONTEXT_ONLY_possible": true,
+      "CONTEXT_ONLY_reason": "Candidate is a modifier of 'framework' — clearly context-only (no secondary target — event clearly on head noun)",
+      "AMBIGUOUS_possible": true,
+      "AMBIGUOUS_reason": "'subject of' — meta-referential",
+      "labels_possible": [
+        "TRUE_SUBJECT",
+        "CONTEXT_ONLY",
+        "AMBIGUOUS"
+      ],
+      "best_description": "MULTIPLE_VALID: TRUE_SUBJECT+CONTEXT_ONLY+AMBIGUOUS",
+      "human_label": "CONTEXT",
+      "text": "Penalty framework review was the subject of committee deliberation last quarter."
+    },
+    {
+      "case_id": 138,
+      "population": "counterexample",
+      "TRUE_SUBJECT_possible": false,
+      "TRUE_SUBJECT_reason": "",
+      "CONTEXT_ONLY_possible": true,
+      "CONTEXT_ONLY_reason": "Candidate is a modifier of 'appeal' — clearly context-only (no secondary target — event clearly on head noun)",
+      "AMBIGUOUS_possible": false,
+      "AMBIGUOUS_reason": "",
+      "labels_possible": [
+        "CONTEXT_ONLY"
+      ],
+      "best_description": "CONTEXT_ONLY",
+      "human_label": "CONTEXT",
+      "text": "Penalty appeal process was detailed in the regulatory enforcement manual."
+    },
+    {
+      "case_id": 140,
+      "population": "counterexample",
+      "TRUE_SUBJECT_possible": false,
+      "TRUE_SUBJECT_reason": "",
+      "CONTEXT_ONLY_possible": true,
+      "CONTEXT_ONLY_reason": "Candidate is a modifier of 'data' — clearly context-only (no secondary target — event clearly on head noun)",
+      "AMBIGUOUS_possible": false,
+      "AMBIGUOUS_reason": "",
+      "labels_possible": [
+        "CONTEXT_ONLY"
+      ],
+      "best_description": "CONTEXT_ONLY",
+      "human_label": "CONTEXT",
+      "text": "Inflation data collection was refined per the new statistical methodology."
+    },
+    {
+      "case_id": 147,
+      "population": "counterexample",
+      "TRUE_SUBJECT_possible": false,
+      "TRUE_SUBJECT_reason": "",
+      "CONTEXT_ONLY_possible": true,
+      "CONTEXT_ONLY_reason": "Candidate is a modifier of 'expectations' — clearly context-only (no secondary target — event clearly on head noun)",
+      "AMBIGUOUS_possible": false,
+      "AMBIGUOUS_reason": "",
+      "labels_possible": [
+        "CONTEXT_ONLY"
+      ],
+      "best_description": "CONTEXT_ONLY",
+      "human_label": "CONTEXT",
+      "text": "Inflation expectations indicator was added to the central bank's monitoring dash"
+    },
+    {
+      "case_id": 149,
+      "population": "counterexample",
+      "TRUE_SUBJECT_possible": false,
+      "TRUE_SUBJECT_reason": "",
+      "CONTEXT_ONLY_possible": true,
+      "CONTEXT_ONLY_reason": "Candidate is a modifier of 'statistics' — clearly context-only (no secondary target — event clearly on head noun)",
+      "AMBIGUOUS_possible": false,
+      "AMBIGUOUS_reason": "",
+      "labels_possible": [
+        "CONTEXT_ONLY"
+      ],
+      "best_description": "CONTEXT_ONLY",
+      "human_label": "CONTEXT",
+      "text": "Unemployment statistics methodology was aligned with the ILO international stand"
+    },
+    {
+      "case_id": 76,
+      "population": "explained",
+      "TRUE_SUBJECT_possible": true,
+      "TRUE_SUBJECT_reason": "Secondary target pattern suggests event could apply to candidate",
+      "CONTEXT_ONLY_possible": true,
+      "CONTEXT_ONLY_reason": "Candidate is a modifier of 'dynamics' — clearly context-only",
+      "AMBIGUOUS_possible": true,
+      "AMBIGUOUS_reason": "Meta-reference verb — could apply to either",
+      "labels_possible": [
+        "TRUE_SUBJECT",
+        "CONTEXT_ONLY",
+        "AMBIGUOUS"
+      ],
+      "best_description": "MULTIPLE_VALID: TRUE_SUBJECT+CONTEXT_ONLY+AMBIGUOUS",
+      "human_label": "AMBIGUOUS",
+      "text": "The committee noted that inflation dynamics remain under close monitoring amid g"
+    },
+    {
+      "case_id": 78,
+      "population": "explained",
+      "TRUE_SUBJECT_possible": false,
+      "TRUE_SUBJECT_reason": "",
+      "CONTEXT_ONLY_possible": true,
+      "CONTEXT_ONLY_reason": "Candidate is a modifier of 'expectations' — clearly context-only (no secondary target — event clearly on head noun)",
+      "AMBIGUOUS_possible": true,
+      "AMBIGUOUS_reason": "Meta-reference verb — could apply to either",
+      "labels_possible": [
+        "CONTEXT_ONLY",
+        "AMBIGUOUS"
+      ],
+      "best_description": "MULTIPLE_VALID: CONTEXT_ONLY+AMBIGUOUS",
+      "human_label": "AMBIGUOUS",
+      "text": "Policy rate expectations were cited in the market commentary section."
+    },
+    {
+      "case_id": 82,
+      "population": "explained",
+      "TRUE_SUBJECT_possible": true,
+      "TRUE_SUBJECT_reason": "'subject of' construction — meta-referential, could be about candidate",
+      "CONTEXT_ONLY_possible": true,
+      "CONTEXT_ONLY_reason": "Candidate is a modifier of 'decisions' — clearly context-only (no secondary target — event clearly on head noun)",
+      "AMBIGUOUS_possible": true,
+      "AMBIGUOUS_reason": "'subject of' — meta-referential",
+      "labels_possible": [
+        "TRUE_SUBJECT",
+        "CONTEXT_ONLY",
+        "AMBIGUOUS"
+      ],
+      "best_description": "MULTIPLE_VALID: TRUE_SUBJECT+CONTEXT_ONLY+AMBIGUOUS",
+      "human_label": "AMBIGUOUS",
+      "text": "Penalty decisions were the subject of regulatory committee review last quarter."
+    },
+    {
+      "case_id": 83,
+      "population": "explained",
+      "TRUE_SUBJECT_possible": false,
+      "TRUE_SUBJECT_reason": "",
+      "CONTEXT_ONLY_possible": true,
+      "CONTEXT_ONLY_reason": "Candidate is a modifier of 'statistics' — clearly context-only (no secondary target — event clearly on head noun)",
+      "AMBIGUOUS_possible": false,
+      "AMBIGUOUS_reason": "",
+      "labels_possible": [
+        "CONTEXT_ONLY"
+      ],
+      "best_description": "CONTEXT_ONLY",
+      "human_label": "AMBIGUOUS",
+      "text": "GDP statistics are compiled in accordance with international methodology standar"
+    },
+    {
+      "case_id": 87,
+      "population": "explained",
+      "TRUE_SUBJECT_possible": false,
+      "TRUE_SUBJECT_reason": "",
+      "CONTEXT_ONLY_possible": true,
+      "CONTEXT_ONLY_reason": "Candidate is a modifier of 'methodology' — clearly context-only (no secondary target — event clearly on head noun)",
+      "AMBIGUOUS_possible": false,
+      "AMBIGUOUS_reason": "",
+      "labels_possible": [
+        "CONTEXT_ONLY"
+      ],
+      "best_description": "CONTEXT_ONLY",
+      "human_label": "AMBIGUOUS",
+      "text": "CPI methodology was revised in line with the new international statistical stand"
+    },
+    {
+      "case_id": 89,
+      "population": "explained",
+      "TRUE_SUBJECT_possible": false,
+      "TRUE_SUBJECT_reason": "",
+      "CONTEXT_ONLY_possible": true,
+      "CONTEXT_ONLY_reason": "Candidate is a modifier of 'procedures' — clearly context-only (no secondary target — event clearly on head noun)",
+      "AMBIGUOUS_possible": false,
+      "AMBIGUOUS_reason": "",
+      "labels_possible": [
+        "CONTEXT_ONLY"
+      ],
+      "best_description": "CONTEXT_ONLY",
+      "human_label": "AMBIGUOUS",
+      "text": "Penalty procedures were outlined in the updated enforcement guidance document."
+    },
+    {
+      "case_id": 92,
+      "population": "explained",
+      "TRUE_SUBJECT_possible": false,
+      "TRUE_SUBJECT_reason": "",
+      "CONTEXT_ONLY_possible": true,
+      "CONTEXT_ONLY_reason": "Candidate is a modifier of 'decisions' — clearly context-only (no secondary target — event clearly on head noun)",
+      "AMBIGUOUS_possible": false,
+      "AMBIGUOUS_reason": "",
+      "labels_possible": [
+        "CONTEXT_ONLY"
+      ],
+      "best_description": "CONTEXT_ONLY",
+      "human_label": "AMBIGUOUS",
+      "text": "Policy rate decisions are scheduled for the next FOMC meeting per the published "
+    },
+    {
+      "case_id": 93,
+      "population": "explained",
+      "TRUE_SUBJECT_possible": false,
+      "TRUE_SUBJECT_reason": "",
+      "CONTEXT_ONLY_possible": true,
+      "CONTEXT_ONLY_reason": "Candidate is a modifier of 'statistics' — clearly context-only (no secondary target — event clearly on head noun)",
+      "AMBIGUOUS_possible": false,
+      "AMBIGUOUS_reason": "",
+      "labels_possible": [
+        "CONTEXT_ONLY"
+      ],
+      "best_description": "CONTEXT_ONLY",
+      "human_label": "AMBIGUOUS",
+      "text": "Unemployment statistics are released on the first Friday of each month by the BL"
+    },
+    {
+      "case_id": 94,
+      "population": "explained",
+      "TRUE_SUBJECT_possible": false,
+      "TRUE_SUBJECT_reason": "",
+      "CONTEXT_ONLY_possible": true,
+      "CONTEXT_ONLY_reason": "Candidate is a modifier of 'sub-indices' — clearly context-only (no secondary target — event clearly on head noun)",
+      "AMBIGUOUS_possible": false,
+      "AMBIGUOUS_reason": "",
+      "labels_possible": [
+        "CONTEXT_ONLY"
+      ],
+      "best_description": "CONTEXT_ONLY",
+      "human_label": "AMBIGUOUS",
+      "text": "CPI sub-indices were analyzed in the detailed statistical appendix."
+    },
+    {
+      "case_id": 96,
+      "population": "explained",
+      "TRUE_SUBJECT_possible": false,
+      "TRUE_SUBJECT_reason": "",
+      "CONTEXT_ONLY_possible": true,
+      "CONTEXT_ONLY_reason": "Candidate is a modifier of 'framework' — clearly context-only (no secondary target — event clearly on head noun)",
+      "AMBIGUOUS_possible": false,
+      "AMBIGUOUS_reason": "",
+      "labels_possible": [
+        "CONTEXT_ONLY"
+      ],
+      "best_description": "CONTEXT_ONLY",
+      "human_label": "AMBIGUOUS",
+      "text": "Penalty framework revisions were proposed in the latest regulatory consultation "
+    },
+    {
+      "case_id": 98,
+      "population": "explained",
+      "TRUE_SUBJECT_possible": false,
+      "TRUE_SUBJECT_reason": "",
+      "CONTEXT_ONLY_possible": true,
+      "CONTEXT_ONLY_reason": "Candidate is a modifier of 'targeting' — clearly context-only (no secondary target — event clearly on head noun)",
+      "AMBIGUOUS_possible": false,
+      "AMBIGUOUS_reason": "",
+      "labels_possible": [
+        "CONTEXT_ONLY"
+      ],
+      "best_description": "CONTEXT_ONLY",
+      "human_label": "AMBIGUOUS",
+      "text": "Inflation targeting framework was reaffirmed in the central bank's strategic rev"
+    },
+    {
+      "case_id": 99,
+      "population": "explained",
+      "TRUE_SUBJECT_possible": false,
+      "TRUE_SUBJECT_reason": "",
+      "CONTEXT_ONLY_possible": true,
+      "CONTEXT_ONLY_reason": "Candidate is a modifier of 'stance' — clearly context-only (no secondary target — event clearly on head noun)",
+      "AMBIGUOUS_possible": false,
+      "AMBIGUOUS_reason": "",
+      "labels_possible": [
+        "CONTEXT_ONLY"
+      ],
+      "best_description": "CONTEXT_ONLY",
+      "human_label": "AMBIGUOUS",
+      "text": "Policy rate stance remains accommodative, the central bank governor said in test"
+    },
+    {
+      "case_id": 100,
+      "population": "explained",
+      "TRUE_SUBJECT_possible": false,
+      "TRUE_SUBJECT_reason": "",
+      "CONTEXT_ONLY_possible": true,
+      "CONTEXT_ONLY_reason": "Candidate is a modifier of 'projections' — clearly context-only",
+      "AMBIGUOUS_possible": true,
+      "AMBIGUOUS_reason": "Meta-reference verb — could apply to either",
+      "labels_possible": [
+        "CONTEXT_ONLY",
+        "AMBIGUOUS"
+      ],
+      "best_description": "MULTIPLE_VALID: CONTEXT_ONLY+AMBIGUOUS",
+      "human_label": "AMBIGUOUS",
+      "text": "The report identified unemployment projections as a key input to the fiscal outl"
+    },
+    {
+      "case_id": 101,
+      "population": "explained",
+      "TRUE_SUBJECT_possible": false,
+      "TRUE_SUBJECT_reason": "",
+      "CONTEXT_ONLY_possible": true,
+      "CONTEXT_ONLY_reason": "Candidate is a modifier of 'weights' — clearly context-only (no secondary target — event clearly on head noun)",
+      "AMBIGUOUS_possible": false,
+      "AMBIGUOUS_reason": "",
+      "labels_possible": [
+        "CONTEXT_ONLY"
+      ],
+      "best_description": "CONTEXT_ONLY",
+      "human_label": "AMBIGUOUS",
+      "text": "CPI weights were updated in the latest index revision per the statistical standa"
+    },
+    {
+      "case_id": 102,
+      "population": "explained",
+      "TRUE_SUBJECT_possible": false,
+      "TRUE_SUBJECT_reason": "",
+      "CONTEXT_ONLY_possible": true,
+      "CONTEXT_ONLY_reason": "Candidate is a modifier of 'reserves' — clearly context-only (no secondary target — event clearly on head noun)",
+      "AMBIGUOUS_possible": false,
+      "AMBIGUOUS_reason": "",
+      "labels_possible": [
+        "CONTEXT_ONLY"
+      ],
+      "best_description": "CONTEXT_ONLY",
+      "human_label": "AMBIGUOUS",
+      "text": "Foreign exchange reserves remained adequate, the central bank confirmed in its q"
+    },
+    {
+      "case_id": 103,
+      "population": "explained",
+      "TRUE_SUBJECT_possible": true,
+      "TRUE_SUBJECT_reason": "'subject of' construction — meta-referential, could be about candidate",
+      "CONTEXT_ONLY_possible": true,
+      "CONTEXT_ONLY_reason": "Candidate is a modifier of 'guidelines' — clearly context-only (no secondary target — event clearly on head noun)",
+      "AMBIGUOUS_possible": true,
+      "AMBIGUOUS_reason": "'subject of' — meta-referential",
+      "labels_possible": [
+        "TRUE_SUBJECT",
+        "CONTEXT_ONLY",
+        "AMBIGUOUS"
+      ],
+      "best_description": "MULTIPLE_VALID: TRUE_SUBJECT+CONTEXT_ONLY+AMBIGUOUS",
+      "human_label": "AMBIGUOUS",
+      "text": "Penalty guidelines were the subject of industry consultation per the regulator's"
+    },
+    {
+      "case_id": 108,
+      "population": "explained",
+      "TRUE_SUBJECT_possible": false,
+      "TRUE_SUBJECT_reason": "",
+      "CONTEXT_ONLY_possible": true,
+      "CONTEXT_ONLY_reason": "Candidate is a modifier of 'performance' — clearly context-only (no secondary target — event clearly on head noun)",
+      "AMBIGUOUS_possible": false,
+      "AMBIGUOUS_reason": "",
+      "labels_possible": [
+        "CONTEXT_ONLY"
+      ],
+      "best_description": "CONTEXT_ONLY",
+      "human_label": "AMBIGUOUS",
+      "text": "GDP performance was highlighted in the regional economic review."
+    },
+    {
+      "case_id": 115,
+      "population": "explained",
+      "TRUE_SUBJECT_possible": false,
+      "TRUE_SUBJECT_reason": "",
+      "CONTEXT_ONLY_possible": true,
+      "CONTEXT_ONLY_reason": "Candidate is a modifier of 'trends' — clearly context-only (no secondary target — event clearly on head noun)",
+      "AMBIGUOUS_possible": true,
+      "AMBIGUOUS_reason": "Meta-reference verb — could apply to either",
+      "labels_possible": [
+        "CONTEXT_ONLY",
+        "AMBIGUOUS"
+      ],
+      "best_description": "MULTIPLE_VALID: CONTEXT_ONLY+AMBIGUOUS",
+      "human_label": "AMBIGUOUS",
+      "text": "The bank's quarterly statement noted that inflation trends remain a focus of att"
+    }
+  ],
+  "phase3_best_distribution": {
+    "CONTEXT_ONLY": 21,
+    "MULTIPLE_VALID": 8
+  },
+  "phase4_counterexample_audit": [
+    {
+      "case_id": 117,
+      "problem": "CLASSIFIER",
+      "reason": "The label CONTEXT_ONLY is semantically correct. The problem is the classifier (H1) changed it to AMBIGUOUS incorrectly.",
+      "human_label": "CONTEXT",
+      "best_description": "CONTEXT_ONLY"
+    },
+    {
+      "case_id": 119,
+      "problem": "CLASSIFIER",
+      "reason": "The label CONTEXT_ONLY is semantically correct. The problem is the classifier (H1) changed it to AMBIGUOUS incorrectly.",
+      "human_label": "CONTEXT",
+      "best_description": "CONTEXT_ONLY"
+    },
+    {
+      "case_id": 121,
+      "problem": "CLASSIFIER",
+      "reason": "The label CONTEXT_ONLY is semantically correct. The problem is the classifier (H1) changed it to AMBIGUOUS incorrectly.",
+      "human_label": "CONTEXT",
+      "best_description": "CONTEXT_ONLY"
+    },
+    {
+      "case_id": 122,
+      "problem": "CLASSIFIER",
+      "reason": "The label CONTEXT_ONLY is semantically correct. The problem is the classifier (H1) changed it to AMBIGUOUS incorrectly.",
+      "human_label": "CONTEXT",
+      "best_description": "CONTEXT_ONLY"
+    },
+    {
+      "case_id": 126,
+      "problem": "CLASSIFIER",
+      "reason": "The label CONTEXT_ONLY is semantically correct. The problem is the classifier (H1) changed it to AMBIGUOUS incorrectly.",
+      "human_label": "CONTEXT",
+      "best_description": "CONTEXT_ONLY"
+    },
+    {
+      "case_id": 130,
+      "problem": "LABEL_INSUFFICIENT",
+      "reason": "Multiple labels are semantically valid — the three-label ontology is insufficient to express the actual relationship.",
+      "human_label": "CONTEXT",
+      "best_description": "MULTIPLE_VALID: CONTEXT_ONLY+AMBIGUOUS"
+    },
+    {
+      "case_id": 131,
+      "problem": "LABEL_INSUFFICIENT",
+      "reason": "Multiple labels are semantically valid — the three-label ontology is insufficient to express the actual relationship.",
+      "human_label": "CONTEXT",
+      "best_description": "MULTIPLE_VALID: TRUE_SUBJECT+CONTEXT_ONLY+AMBIGUOUS"
+    },
+    {
+      "case_id": 138,
+      "problem": "CLASSIFIER",
+      "reason": "The label CONTEXT_ONLY is semantically correct. The problem is the classifier (H1) changed it to AMBIGUOUS incorrectly.",
+      "human_label": "CONTEXT",
+      "best_description": "CONTEXT_ONLY"
+    },
+    {
+      "case_id": 140,
+      "problem": "CLASSIFIER",
+      "reason": "The label CONTEXT_ONLY is semantically correct. The problem is the classifier (H1) changed it to AMBIGUOUS incorrectly.",
+      "human_label": "CONTEXT",
+      "best_description": "CONTEXT_ONLY"
+    },
+    {
+      "case_id": 147,
+      "problem": "CLASSIFIER",
+      "reason": "The label CONTEXT_ONLY is semantically correct. The problem is the classifier (H1) changed it to AMBIGUOUS incorrectly.",
+      "human_label": "CONTEXT",
+      "best_description": "CONTEXT_ONLY"
+    },
+    {
+      "case_id": 149,
+      "problem": "CLASSIFIER",
+      "reason": "The label CONTEXT_ONLY is semantically correct. The problem is the classifier (H1) changed it to AMBIGUOUS incorrectly.",
+      "human_label": "CONTEXT",
+      "best_description": "CONTEXT_ONLY"
+    }
+  ],
+  "phase5_conflation_evidence": "Phase 1 found that:\n1. TRUE_SUBJECT conflates syntactic subjecthood (verb proximity) with semantic event attribution (verb applies to candidate). V2.1 checks proximity, not attribution.\n2. CONTEXT_ONLY conflates noun-modifier role (syntactic) with contextual relevance (semantic). V2.1 detects head-noun presence, not whether the candidate is context-only.\n3. AMBIGUOUS is used as a catch-all for at least 4 epistemically different situations: (a) conflicting evidence, (b) insufficient evidence, (c) role conflict, (d) default fallback. These are NOT semantically equivalent.\nPhase 3 found that 8/29 cases have MULTIPLE labels that are semantically valid — the labels overlap.\nPhase 4 found similar pairs (same candidate, same head noun, same syntactic structure) with DIFFERENT human labels — the distinguishing dimension (event attribution certainty, secondary target, document topic) is NOT represented by the three labels.",
+  "phase6_verdict": "ONTOLOGY_PARTIALLY_OVERLAPPING",
+  "phase6_evidence_for": "Phase 1 found that:\n1. TRUE_SUBJECT conflates syntactic subjecthood (verb proximity) with semantic event attribution (verb applies to candidate). V2.1 checks proximity, not attribution.\n2. CONTEXT_ONLY conflates noun-modifier role (syntactic) with contextual relevance (semantic). V2.1 detects head-noun presence, not whether the candidate is context-only.\n3. AMBIGUOUS is used as a catch-all for at least 4 epistemically different situations: (a) conflicting evidence, (b) insufficient evidence, (c) role conflict, (d) default fallback. These are NOT semantically equivalent.\nPhase 3 found that 8/29 cases have MULTIPLE labels that are semantically valid — the labels overlap.\nPhase 4 found similar pairs (same candidate, same head noun, same syntactic structure) with DIFFERENT human labels — the distinguishing dimension (event attribution certainty, secondary target, document topic) is NOT represented by the three labels.",
+  "phase6_evidence_against": "Counter-evidence: 21/29 cases DO have a single clearly correct label — the ontology IS sufficient for those cases. The conflation only manifests when the case has conflicting signals (secondary target, meta-reference verb, or ambiguous event attribution).",
+  "phase6_unresolved_cases": [
+    130,
+    131,
+    76,
+    78,
+    82,
+    100,
+    103,
+    115
+  ],
+  "phase6_missing_info": "To decide confidently whether the ontology needs replacement vs extension, we need to: (1) test on REAL documents (not synthetic) to determine if document context resolves the ambiguous cases; (2) determine if a multi-dimensional label (separate subjecthood/event-attribution/certainty) would cleanly separate the populations that V48AJ couldn't separate.",
+  "DO_NOT_design_new_ontology": true,
+  "DO_NOT_rename_labels": true,
+  "DO_NOT_modify_classifier": true,
+  "DO_NOT_create_V48AL": true,
+  "STOP": true
+}
