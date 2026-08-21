@@ -1,0 +1,24 @@
+{
+  "gate": "REUSE GATE",
+  "starting_commit": "339c8ef8387970ddb400a15cd495fb9b1d5a2e5f",
+  "executed_at_utc": "2026-08-21T23:17:19Z",
+  "io_ids": [
+    "io-abed2ad81fcd4f55",
+    "io-0db41fde8c803040",
+    "io-1ca8a75ee22968f7",
+    "io-86eb51402109b465",
+    "io-f899fb5c1631e12c",
+    "io-be817f73577ff8e1"
+  ],
+  "test_matrix": {
+    "discovery": "6/6",
+    "retrieval": "6/6",
+    "trace": "6/6",
+    "canonical_identity": "6/6",
+    "provenance_reconstruction": "6/6",
+    "standalone_reuse": "6/6",
+    "restart_stability": "6/6"
+  },
+  "production_files_changed": 0,
+  "verdict": "PASS"
+}
