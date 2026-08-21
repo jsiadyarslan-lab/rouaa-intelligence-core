@@ -28,7 +28,9 @@
 
 ## 3. Consistent Cases (10) — UNCHANGED
 
-Cases: #82, #103, #115, #117, #119, #121, #122, #126, #138, #140, #149 — all verified unchanged.
+Cases: #82, #103, #117, #119, #121, #122, #126, #138, #140, #149 — all verified unchanged.
+
+**Note:** Case #115 was incorrectly listed in a prior version of this report. #115 is NOT part of the V48AL-22 identical-dimension population (its dimensions are `modifier, both, weakly_implied, contextual_reference, mixed` — different from the ALL_22 shared dimensions `modifier, head_noun, strongly_implied, contextual_reference, head_noun`). #115 was never repaired and remains unchanged at its original label (AMBIGUOUS). See V48AL Population Reconciliation Gate for details.
 
 ## 4. Reconciliation
 
