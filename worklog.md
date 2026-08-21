@@ -1159,3 +1159,48 @@ Artifacts produced:
 - intelligence_core/tests/reliability/v48ah_semantic_boundary_review.py (V48AH review runner)
 - intelligence_core/tests/reliability/v48ah_semantic_boundary_review.json (machine-readable forensic results)
 - docs/evidence/ROUAA_CORE_V48AH_SEMANTIC_BOUNDARY_REVIEW.md (human-readable report)
+
+---
+Task ID: V48AH-FALSIFICATION
+Agent: main
+Task: V48AH Targeted Root-Cause Falsification Experiment — NOT tuning, NOT production. Build disposable shadow variants implementing H1 (MODIFIER + weak event + admin head noun → AMBIGUOUS) and H2 (pattern-based Policy Rate candidate injection for held at / reduce by basis points to) separately and together. Test each hypothesis for explanatory coverage of 24 GENUINE_SEMANTIC_LIMITATION cases, counterexamples within V48AG, regression on V48AE/V48AB, false promotion/rejection. V48AG holdout LOCKED — diagnostic only, NOT for tuning.
+
+Work Log:
+- §1 HARD FREEZE verified: LOCAL == REMOTE == 0c80e8c (V48AH commit). Production/V2/V2.1/V48AG-pre-reg all unchanged.
+- Built 3 disposable shadow variants: V2.1-H1, V2.1-H2, V2.1-H1H2. V2.1 was NOT modified.
+- H1 implementation: MODIFIER + effective_event=WEAK + head_noun ∈ ADMINISTRATIVE_HEAD_NOUNS → AMBIGUOUS (instead of CONTEXT_ONLY).
+- H2 implementation: Pattern-based candidate injection for `held at <number>%` and `reduce ... by ... basis points to <number>%` (including Fed-style "to a target range of"). NO registry aliases added.
+- Fixed H2 override bug: V2.1 sets matched_alias=cand_name_lower as fallback even when not found. Fixed to check position=NOT_FOUND instead.
+- Fixed H2 pattern: added "to a target range of" to handle Fed-style rate cut announcements.
+- Ran all 3 variants on V48AG 150 (diagnostic), V48AE 75 (regression), V48AB 150 (regression).
+
+Stage Summary:
+- H1 verdict: FALSIFIED.
+  - Explained: 18/24 GENUINE_SEMANTIC_LIMITATION cases.
+  - Counterexamples: 11 (cases where V2.1 was CORRECT but H1 broke them).
+  - False promotion: 1, False rejection: 6.
+  - Discriminative: FALSE — H1 changed ALL 35 V48AG CONTEXT cases (where V2.1=CONTEXT_ONLY was correct). The ADMINISTRATIVE_HEAD_NOUN is NOT discriminative — it's correlated with the 22 failures but NOT causal. There's another dimension needed to distinguish "should be AMBIGUOUS" from "should be CONTEXT_ONLY".
+  - V48AE regression: 54/75 (delta: -16) — H1 broke 16 V48AE cases.
+  - V48AB regression: 144/150 (delta: +31) — H1 fixed 31 V48AB cases (V48AB's AMBIGUOUS cases now match expected AMBIGUOUS instead of CONTEXT_ONLY).
+  - Key finding: H1 is a TRADE-OFF, not a fix. It helps some cases but breaks others. The head noun alone is insufficient.
+- H2 verdict: PARTIALLY_EXPLANATORY.
+  - Explained: 2/24 (the 2 Bank Rate cases — #3 and #31).
+  - Counterexamples: 0 (no regressions introduced).
+  - False promotion: 1, False rejection: 2 (reduced from 6 — H2 fixed 4 of the 6 false rejections).
+  - V48AE regression: 70/75 (delta: +0) — no change (good — no regression).
+  - V48AB regression: 113/150 (delta: +0) — no change (good — no regression).
+  - Key finding: H2 is a CLEAN, TARGETED fix for the Bank Rate cases. It confirms that the Bank Rate problem is an EVENT RECOGNITION gap (pattern-based recognition), NOT an alias coverage gap. The event recognition and alias coverage problems are properly separated.
+- H1+H2 verdict: FALSIFIED.
+  - Explained: 20/24 (H1's 18 + H2's 2).
+  - Counterexamples: 11 (same as H1 — H2 doesn't add counterexamples).
+  - H1's counterexamples dominate even with H2's clean fix.
+- Strategic implications:
+  - H2 is viable as a standalone targeted fix for Bank Rate-style cases (pattern-based event recognition). No regression, no counterexamples.
+  - H1 is NOT viable — the ADMINISTRATIVE_HEAD_NOUN is correlated but NOT discriminative. The V48AH architectural diagnosis (RELATIONAL_PROPERTY) is CONFIRMED: the SUBJECT/CONTEXT/MODIFIER distinction cannot be made from local text alone. There's another dimension (document context / TOPIC) needed to distinguish "should be AMBIGUOUS" from "should be CONTEXT_ONLY".
+  - The head noun being administrative is a NECESSARY but NOT SUFFICIENT condition for ambiguity. Additional signals (document title, heading, previous paragraphs) are required.
+- Per directive: DO NOT create V48AI. DO NOT modify production. STOP — user directive required for next phase.
+
+Artifacts produced:
+- intelligence_core/tests/reliability/v48ah_falsification_experiment.py (V48AH falsification runner with H1, H2, H1+H2 shadow variants)
+- intelligence_core/tests/reliability/v48ah_falsification_results.json (machine-readable results)
+- docs/evidence/ROUAA_CORE_V48AH_FALSIFICATION_EXPERIMENT.md (human-readable report)
