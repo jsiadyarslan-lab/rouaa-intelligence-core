@@ -1345,3 +1345,31 @@ Stage Summary:
 - The three-label ontology is SUFFICIENT for these cases — the problem is in the ANNOTATION, not in the ontology.
 - Before any ontology redesign: (1) re-annotate the 9 inconsistent cases as CONTEXT_ONLY; (2) investigate the 3 ontology-loss cases on real documents; (3) determine if the 5 dimensions are truly independent.
 - Per directive: STOP. No production changes. No new ontology.
+
+---
+Task ID: V48AL-REPAIR
+Agent: main
+Task: V48AL Annotation Repair Gate — apply 9 annotation repairs (AMBIGUOUS → CONTEXT_ONLY) to V48AG pre-reg sample. 3 ontology candidates left OPEN. 10 consistent + 128 non-22 unchanged. No production/V2/V2.1 changes. No accuracy measurement.
+
+Work Log:
+- Identified 9 repair cases from V48AL adjudication: [83, 87, 89, 92, 93, 94, 96, 98, 101]
+- Applied label repair: AMBIGUOUS → CONTEXT_ONLY for each
+- Added annotation_repair audit trail (old_label, new_label, reason, evidence_span, adjudication_commit) to each case
+- Verified 3 ontology candidates [130, 131, 147] UNCHANGED
+- Verified 10 consistent cases UNCHANGED
+- Verified 128 non-22 cases UNCHANGED
+- Old SHA256: bbc1ac6c... / New SHA256: 7fe06164...
+- 338/338 tests PASS
+- Production/V2/V2.1: 0 files modified (verified empty git diff)
+- No accuracy measurement (per directive — this is data repair, not model optimization)
+- Per directive: STOP. No V48AM. No architecture changes.
+
+Stage Summary:
+- 9 annotation repairs applied.
+- 3 ontology candidates OPEN (untouched).
+- 10 consistent cases unchanged.
+- 128 non-22 cases unchanged.
+- Production unchanged.
+- Ontology dimensions unchanged.
+- V2.1 unchanged.
+- Per directive: STOP immediately. No next phase without explicit directive.
