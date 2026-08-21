@@ -1320,3 +1320,28 @@ Stage Summary:
 - This suggests the problem is NOT in the ontology or the classifier — it's in the HUMAN ANNOTATION itself.
 - Before redesigning the ontology, the annotation inconsistency must be resolved.
 - Per directive: STOP. No V48AM. No implementation. No production changes.
+
+---
+Task ID: V48AL-ADJUDICATION
+Agent: main
+Task: V48AL Human Annotation Adjudication — blind adjudication of 22 identical-dimension cases. Analyze each case's text+candidate WITHOUT seeing original label. Compare blind vs original. Classify into 4-outcome matrix.
+
+Work Log:
+- Blind adjudication of 22 cases: all share identical 5 dimensions (modifier, head_noun, strongly_implied, contextual_reference, head_noun) but 11 were labeled CONTEXT and 11 AMBIGUOUS.
+- Adjudication protocol: for each case, analyzed text+candidate only. Determined CONTEXT_ONLY if event clearly applies to head noun with no secondary target. Determined AMBIGUOUS if meta-referential construction or secondary target detected.
+- Results:
+  - 10/22 (45.5%): annotation consistency confirmed (blind matches original)
+  - 9/22 (40.9%): annotation inconsistency suspected (blind=CONTEXT_ONLY, original=AMBIGUOUS)
+  - 3/22 (13.6%): ontology information loss suspected (blind=AMBIGUOUS, original=CONTEXT)
+- Decision: ANNOTATION_INCONSISTENCY_CONFIRMED
+- Key evidence: identical-structure pairs (#126 vs #98, #121 vs #87, #149 vs #93) where blind adjudicator said CONTEXT_ONLY for both, but original labels differ (one CONTEXT, one AMBIGUOUS). Same text structure, same dimensions, different labels.
+- The 9 inconsistent cases all have concrete administrative verbs (revised, compiled, outlined, scheduled, released, analyzed, proposed, reaffirmed, updated) that clearly apply to the head noun. The original AMBIGUOUS label appears to be inconsistently applied.
+- The 3 ontology-loss cases have secondary targets or meta-referential constructions that the blind adjudicator detected but the original adjudicator may have missed.
+
+Stage Summary:
+- VERDICT: ANNOTATION_INCONSISTENCY_CONFIRMED.
+- The dominant pattern (9/22 = 41%) is annotation inconsistency: the original adjudicator labeled clear CONTEXT_ONLY cases as AMBIGUOUS.
+- A smaller set (3/22 = 14%) may have genuine semantic distinctions not captured in the 5 dimensions (secondary targets, meta-referential constructions).
+- The three-label ontology is SUFFICIENT for these cases — the problem is in the ANNOTATION, not in the ontology.
+- Before any ontology redesign: (1) re-annotate the 9 inconsistent cases as CONTEXT_ONLY; (2) investigate the 3 ontology-loss cases on real documents; (3) determine if the 5 dimensions are truly independent.
+- Per directive: STOP. No production changes. No new ontology.
