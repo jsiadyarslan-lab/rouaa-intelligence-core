@@ -4,7 +4,7 @@
 
 ### ISSUE-001: gold-fed-2024-07-25bp — Fact Value Contradicts Evidence
 
-**Status**: OPEN
+**Status**: RESOLVED — Remediation applied (fact_value corrected to 0)
 **Severity**: CRITICAL
 **Type**: DATA_DEFECT
 
@@ -45,7 +45,7 @@ the wrong fact.
 
 ### ISSUE-002: gold-bea-2024-09-pce — Measured Entity Semantic Defect
 
-**Status**: OPEN
+**Status**: RESOLVED — Remediation applied (measured_entity corrected to "PCE spending")
 **Severity**: HIGH (non-blocking to fact value, blocking to canonical semantics)
 **Type**: SEMANTIC_DEFECT
 

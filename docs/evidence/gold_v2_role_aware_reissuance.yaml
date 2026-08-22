@@ -27,41 +27,36 @@ gold_ios:
   publication_date: null
   verification_hash_legacy: pending
   final_status: VALID_GOLD
-  evidence_excerpt: The Federal Open Market Committee decided to lower the target
-    range for the federal funds rate by 1/2 percentage point (50 basis points) to
-    4-3/4 to 5 percent.
+  evidence_excerpt: The Federal Open Market Committee decided to lower the target range for the federal funds rate by 1/2 percentage point (50 basis points) to 4-3/4 to 5 percent.
   entity_role_contract:
     source_authority: Federal Reserve (Federal Reserve Board)
     event_subject: Federal Open Market Committee (FOMC)
     measured_entity: federal funds rate (target range)
     mentioned_entities:
     - Federal Open Market Committee
-    subject_resolution_status: RESOLVED — Federal Open Market Committee named verbatim
-      in excerpt
+    subject_resolution_status: RESOLVED — Federal Open Market Committee named verbatim in excerpt
     evidence_basis:
       source_authority: 'canonical_url domain: federalreserve.gov'
       event_subject: 'verbatim in excerpt: "Federal Open Market Committee"'
       measured_entity: fact_metric=policy_rate_change, unit=basis_points
-- io_id: gold-fed-2024-07-25bp
+- io_id: gold-fed-2024-07-0bp
   category: monetary
   fact_metric: policy_rate_change
-  fact_value: '-25'
+  fact_value: '0'
   unit: basis_points
   entity_legacy: Federal Open Market Committee (explicitly in excerpt)
   canonical_url: https://www.federalreserve.gov/newsevents/pressreleases/monetary20240731a.htm
   publication_date: null
   verification_hash_legacy: pending
   final_status: VALID_GOLD
-  evidence_excerpt: The Federal Open Market Committee voted to maintain the target
-    range for the federal funds rate at 5-1/4 to 5-1/2 percent.
+  evidence_excerpt: The Federal Open Market Committee voted to maintain the target range for the federal funds rate at 5-1/4 to 5-1/2 percent.
   entity_role_contract:
     source_authority: Federal Reserve (Federal Reserve Board)
     event_subject: Federal Open Market Committee (FOMC)
     measured_entity: federal funds rate (target range)
     mentioned_entities:
     - Federal Open Market Committee
-    subject_resolution_status: RESOLVED — Federal Open Market Committee named verbatim
-      in excerpt
+    subject_resolution_status: RESOLVED — Federal Open Market Committee named verbatim in excerpt
     evidence_basis:
       source_authority: 'canonical_url domain: federalreserve.gov'
       event_subject: 'verbatim in excerpt: "Federal Open Market Committee"'
@@ -76,9 +71,7 @@ gold_ios:
   publication_date: null
   verification_hash_legacy: pending
   final_status: VALID_GOLD
-  evidence_excerpt: The Governing Council of the ECB decided to lower the three key
-    ECB interest rates by 25 basis points, with the deposit facility rate dropping
-    to 3.5%.
+  evidence_excerpt: The Governing Council of the ECB decided to lower the three key ECB interest rates by 25 basis points, with the deposit facility rate dropping to 3.5%.
   entity_role_contract:
     source_authority: European Central Bank (ECB)
     event_subject: ECB Governing Council
@@ -86,12 +79,10 @@ gold_ios:
     mentioned_entities:
     - Governing Council
     - ECB
-    subject_resolution_status: RESOLVED — "Governing Council of the ECB" ≡ "ECB Governing
-      Council" per surface_forms_equivalent
+    subject_resolution_status: RESOLVED — "Governing Council of the ECB" ≡ "ECB Governing Council" per surface_forms_equivalent
     evidence_basis:
       source_authority: 'canonical_url domain: ecb.europa.eu'
-      event_subject: 'excerpt: "The Governing Council of the ECB decided..." (equivalent
-        to "ECB Governing Council" per surface_forms_equivalent)'
+      event_subject: 'excerpt: "The Governing Council of the ECB decided..." (equivalent to "ECB Governing Council" per surface_forms_equivalent)'
       measured_entity: fact_metric=policy_rate_change, unit=basis_points
 - io_id: gold-ecb-2024-06-25bp
   category: monetary
@@ -103,8 +94,7 @@ gold_ios:
   publication_date: null
   verification_hash_legacy: pending
   final_status: VALID_GOLD
-  evidence_excerpt: The Governing Council decided to lower the three key ECB interest
-    rates by 25 basis points.
+  evidence_excerpt: The Governing Council decided to lower the three key ECB interest rates by 25 basis points.
   entity_role_contract:
     source_authority: European Central Bank (ECB)
     event_subject: ECB Governing Council
@@ -112,12 +102,10 @@ gold_ios:
     mentioned_entities:
     - Governing Council
     - ECB
-    subject_resolution_status: 'RESOLVED — "Governing Council" named (context: ECB
-      document)'
+    subject_resolution_status: 'RESOLVED — "Governing Council" named (context: ECB document)'
     evidence_basis:
       source_authority: 'canonical_url domain: ecb.europa.eu'
-      event_subject: 'excerpt: "The Governing Council of the ECB decided..." (equivalent
-        to "ECB Governing Council" per surface_forms_equivalent)'
+      event_subject: 'excerpt: "The Governing Council of the ECB decided..." (equivalent to "ECB Governing Council" per surface_forms_equivalent)'
       measured_entity: fact_metric=policy_rate_change, unit=basis_points
 - io_id: gold-bea-2024-q3-gdp
   category: statistical
@@ -129,8 +117,7 @@ gold_ios:
   publication_date: null
   verification_hash_legacy: pending
   final_status: VALID_GOLD
-  evidence_excerpt: Real gross domestic product (GDP) increased at an annual rate
-    of 2.8 percent in the third quarter of 2024, according to the advance estimate.
+  evidence_excerpt: Real gross domestic product (GDP) increased at an annual rate of 2.8 percent in the third quarter of 2024, according to the advance estimate.
   entity_role_contract:
     source_authority: U.S. Bureau of Economic Analysis (BEA)
     event_subject: Real Gross Domestic Product (GDP)
@@ -151,8 +138,7 @@ gold_ios:
   publication_date: null
   verification_hash_legacy: pending
   final_status: VALID_GOLD
-  evidence_excerpt: Real gross domestic product (GDP) increased at an annual rate
-    of 3.0 percent in the second quarter of 2024, according to the third estimate.
+  evidence_excerpt: Real gross domestic product (GDP) increased at an annual rate of 3.0 percent in the second quarter of 2024, according to the third estimate.
   entity_role_contract:
     source_authority: U.S. Bureau of Economic Analysis (BEA)
     event_subject: Real Gross Domestic Product (GDP)
@@ -173,12 +159,11 @@ gold_ios:
   publication_date: null
   verification_hash_legacy: pending
   final_status: VALID_GOLD
-  evidence_excerpt: Personal consumption expenditures (PCE) increased $54.9 billion,
-    or 0.3 percent, in September.
+  evidence_excerpt: Personal consumption expenditures (PCE) increased $54.9 billion, or 0.3 percent, in September.
   entity_role_contract:
     source_authority: U.S. Bureau of Economic Analysis (BEA)
     event_subject: Personal Consumption Expenditures (PCE)
-    measured_entity: PCE price index (month-over-month change)
+    measured_entity: PCE spending (month-over-month change)
     mentioned_entities: []
     subject_resolution_status: RESOLVED — economic indicator (PCE) named in excerpt
     evidence_basis:
@@ -195,16 +180,14 @@ gold_ios:
   publication_date: null
   verification_hash_legacy: pending
   final_status: VALID_GOLD
-  evidence_excerpt: The Securities and Exchange Commission today announced settled
-    charges against the firm for violations, resulting in a civil penalty of $850,000.
+  evidence_excerpt: The Securities and Exchange Commission today announced settled charges against the firm for violations, resulting in a civil penalty of $850,000.
   entity_role_contract:
     source_authority: U.S. Securities and Exchange Commission (SEC)
     event_subject: UNRESOLVED
     measured_entity: civil penalty amount (USD)
     mentioned_entities:
     - Securities and Exchange Commission
-    subject_resolution_status: UNRESOLVED — firm referenced as "the firm" but not
-      named in excerpt
+    subject_resolution_status: UNRESOLVED — firm referenced as "the firm" but not named in excerpt
     evidence_basis:
       source_authority: 'canonical_url domain: sec.gov'
       event_subject: excerpt says "the firm" — no firm name present; do NOT infer
@@ -219,16 +202,14 @@ gold_ios:
   publication_date: null
   verification_hash_legacy: pending
   final_status: VALID_GOLD
-  evidence_excerpt: The SEC ordered the firm to pay $12 million in disgorgement, $3
-    million in prejudgment interest, and a $5 million civil penalty.
+  evidence_excerpt: The SEC ordered the firm to pay $12 million in disgorgement, $3 million in prejudgment interest, and a $5 million civil penalty.
   entity_role_contract:
     source_authority: U.S. Securities and Exchange Commission (SEC)
     event_subject: UNRESOLVED
     measured_entity: disgorgement amount (USD)
     mentioned_entities:
     - SEC
-    subject_resolution_status: UNRESOLVED — firm referenced as "the firm" but not
-      named in excerpt
+    subject_resolution_status: UNRESOLVED — firm referenced as "the firm" but not named in excerpt
     evidence_basis:
       source_authority: 'canonical_url domain: sec.gov'
       event_subject: excerpt says "the firm" — no firm name present; do NOT infer
@@ -243,16 +224,14 @@ gold_ios:
   publication_date: null
   verification_hash_legacy: pending
   final_status: VALID_GOLD
-  evidence_excerpt: Without admitting or denying the SEC's findings, the firm agreed
-    to pay a civil penalty of $2.5 million and cease and desist from further violations.
+  evidence_excerpt: Without admitting or denying the SEC's findings, the firm agreed to pay a civil penalty of $2.5 million and cease and desist from further violations.
   entity_role_contract:
     source_authority: U.S. Securities and Exchange Commission (SEC)
     event_subject: UNRESOLVED
     measured_entity: civil penalty amount (USD)
     mentioned_entities:
     - SEC
-    subject_resolution_status: UNRESOLVED — firm referenced as "the firm" but not
-      named in excerpt
+    subject_resolution_status: UNRESOLVED — firm referenced as "the firm" but not named in excerpt
     evidence_basis:
       source_authority: 'canonical_url domain: sec.gov'
       event_subject: excerpt says "the firm" — no firm name present; do NOT infer

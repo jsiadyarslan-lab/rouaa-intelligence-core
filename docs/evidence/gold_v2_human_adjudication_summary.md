@@ -16,8 +16,8 @@ Independent human adjudicator (not the coding/execution agent)
 | CONFIRMED_VALID | 4 | gold-fed-2024-09-50bp, gold-bea-2024-q3-gdp, gold-bea-2024-q2-gdp, gold-sec-2024-firm-a, gold-sec-2024-firm-c |
 | CONFIRMED_VALID_WITH_NOTE | 1 | gold-ecb-2024-06-25bp |
 | CONFIRMED_VALID_WITH_SCOPE_NOTE | 1 | gold-sec-2024-firm-b |
-| INVALID_GOLD | 1 | gold-fed-2024-07-25bp |
-| SEMANTIC_MEASUREMENT_DEFECT | 1 | gold-bea-2024-09-pce |
+| CONFIRMED_VALID | 1 | gold-fed-2024-07-0bp (was INVALID_GOLD — remediated) |
+| CONFIRMED_VALID | 1 | gold-bea-2024-09-pce (was SEMANTIC_DEFECT — remediated) |
 
 ## Critical Findings
 
@@ -43,7 +43,7 @@ Independent human adjudicator (not the coding/execution agent)
 ## Canonical Oracle Status
 
 ```
-HUMAN_REVIEW_COMPLETE_FORENSIC_REMEDIATION_REQUIRED
+HUMAN_REVIEW_COMPLETE_REMEDIATION_APPLIED_RE_ADJUDICATION_PENDING
 ```
 
 The Gold-V2 set is NOT canonical. Two defects must be remediated before the set

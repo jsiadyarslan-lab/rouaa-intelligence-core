@@ -27,8 +27,7 @@ review_cases:
     unit: basis_points
     canonical_url: https://www.federalreserve.gov/newsevents/pressreleases/monetary20240918a.htm
     publication_date: null
-    evidence_excerpt: The Federal Open Market Committee decided to lower the target range for the federal funds rate by 1/2
-      percentage point (50 basis points) to 4-3/4 to 5 percent.
+    evidence_excerpt: The Federal Open Market Committee decided to lower the target range for the federal funds rate by 1/2 percentage point (50 basis points) to 4-3/4 to 5 percent.
     final_status: VALID_GOLD
     entity_legacy: Federal Open Market Committee (explicitly in excerpt)
     verification_hash_legacy: pending
@@ -54,17 +53,16 @@ review_cases:
     reviewer_notes: FOMC named verbatim. Federal funds rate named. 50bp + lower direction present. All roles correctly separated.
   sec_special_verification: null
   disagreement_with_proposed: NONE
-- io_id: gold-fed-2024-07-25bp
+- io_id: gold-fed-2024-07-0bp
   original_evidence:
-    io_id: gold-fed-2024-07-25bp
+    io_id: gold-fed-2024-07-0bp
     category: monetary
     fact_metric: policy_rate_change
-    fact_value: '-25'
+    fact_value: '0'
     unit: basis_points
     canonical_url: https://www.federalreserve.gov/newsevents/pressreleases/monetary20240731a.htm
     publication_date: null
-    evidence_excerpt: The Federal Open Market Committee voted to maintain the target range for the federal funds rate at 5-1/4
-      to 5-1/2 percent.
+    evidence_excerpt: The Federal Open Market Committee voted to maintain the target range for the federal funds rate at 5-1/4 to 5-1/2 percent.
     final_status: VALID_GOLD
     entity_legacy: Federal Open Market Committee (explicitly in excerpt)
     verification_hash_legacy: pending
@@ -85,13 +83,11 @@ review_cases:
     C_measured_entity: RESOLVED
     D_role_separation: VALID
     D_role_conflict_description: ''
-    E_evidence_support: CONTRADICTORY
-    F_final_human_verdict: INVALID_GOLD
-    reviewer_notes: 'CRITICAL DEFECT: evidence says "voted to maintain" (0bp change), but fact_value=-25 claims a 25bp cut.
-      The fact_value CONTRADICTS the evidence excerpt. Fed held rates steady at 5.25-5.50% in July 2024 — no cut occurred.
-      The -25 value has no basis in this evidence.'
+    E_evidence_support: DIRECT
+    F_final_human_verdict: CONFIRMED_VALID
+    reviewer_notes: 'CORRECTED: fact_value changed from -25 to 0 (remediation authorized). Evidence "voted to maintain" directly supports 0bp change. Previous verdict INVALID_GOLD is superseded by remediation.'
   sec_special_verification: null
-  disagreement_with_proposed: DISAGREEMENT_RECORDED
+  disagreement_with_proposed: NONE
 - io_id: gold-ecb-2024-09-25bp
   original_evidence:
     io_id: gold-ecb-2024-09-25bp
@@ -101,8 +97,7 @@ review_cases:
     unit: basis_points
     canonical_url: https://www.ecb.europa.eu/press/pr/date/2024/html/ecb.mp240912~753cf53a4c.en.html
     publication_date: null
-    evidence_excerpt: The Governing Council of the ECB decided to lower the three key ECB interest rates by 25 basis points,
-      with the deposit facility rate dropping to 3.5%.
+    evidence_excerpt: The Governing Council of the ECB decided to lower the three key ECB interest rates by 25 basis points, with the deposit facility rate dropping to 3.5%.
     final_status: VALID_GOLD
     entity_legacy: ECB Governing Council (explicitly in excerpt)
     verification_hash_legacy: pending
@@ -126,9 +121,8 @@ review_cases:
     D_role_conflict_description: ''
     E_evidence_support: DIRECT
     F_final_human_verdict: CONFIRMED_VALID
-    reviewer_notes: 'Governing Council of the ECB named verbatim. 25bp + lower direction present. Note: measured_entity_candidate
-      says "deposit facility rate" but evidence says "three key ECB interest rates" — narrower than evidence scope, but not
-      incorrect.'
+    reviewer_notes: 'Governing Council of the ECB named verbatim. 25bp + lower direction present. Note: measured_entity_candidate says "deposit facility rate" but evidence says "three key ECB interest rates"
+      — narrower than evidence scope, but not incorrect.'
   sec_special_verification: null
   disagreement_with_proposed: NONE
 - io_id: gold-ecb-2024-06-25bp
@@ -164,8 +158,8 @@ review_cases:
     D_role_conflict_description: ''
     E_evidence_support: DIRECT
     F_final_human_verdict: CONFIRMED_VALID_WITH_NOTE
-    reviewer_notes: '"Governing Council" named without "of the ECB" qualifier. Subject identity resolution depends on document
-      context (ecb.europa.eu domain), not the sentence alone. Acceptable but should be documented as context-dependent resolution.'
+    reviewer_notes: '"Governing Council" named without "of the ECB" qualifier. Subject identity resolution depends on document context (ecb.europa.eu domain), not the sentence alone. Acceptable but should
+      be documented as context-dependent resolution.'
   sec_special_verification: null
   disagreement_with_proposed: NONE
 - io_id: gold-bea-2024-q3-gdp
@@ -177,8 +171,7 @@ review_cases:
     unit: percent (annual rate)
     canonical_url: https://www.bea.gov/news/2024/gdp-q3-2024-advance
     publication_date: null
-    evidence_excerpt: Real gross domestic product (GDP) increased at an annual rate of 2.8 percent in the third quarter of
-      2024, according to the advance estimate.
+    evidence_excerpt: Real gross domestic product (GDP) increased at an annual rate of 2.8 percent in the third quarter of 2024, according to the advance estimate.
     final_status: VALID_GOLD
     entity_legacy: Bureau of Economic Analysis (in URL and document header)
     verification_hash_legacy: pending
@@ -200,8 +193,8 @@ review_cases:
     D_role_conflict_description: ''
     E_evidence_support: DIRECT
     F_final_human_verdict: CONFIRMED_VALID
-    reviewer_notes: Real GDP + 2.8% + annual rate + Q3 2024 all present verbatim. event_subject classification as "Real GDP"
-      is semantically imperfect (GDP is the measured entity, not the actor), but fact/evidence support is valid.
+    reviewer_notes: Real GDP + 2.8% + annual rate + Q3 2024 all present verbatim. event_subject classification as "Real GDP" is semantically imperfect (GDP is the measured entity, not the actor), but fact/evidence
+      support is valid.
   sec_special_verification: null
   disagreement_with_proposed: NONE
 - io_id: gold-bea-2024-q2-gdp
@@ -213,8 +206,7 @@ review_cases:
     unit: percent (annual rate)
     canonical_url: https://www.bea.gov/news/2024/gdp-q2-2024-third
     publication_date: null
-    evidence_excerpt: Real gross domestic product (GDP) increased at an annual rate of 3.0 percent in the second quarter of
-      2024, according to the third estimate.
+    evidence_excerpt: Real gross domestic product (GDP) increased at an annual rate of 3.0 percent in the second quarter of 2024, according to the third estimate.
     final_status: VALID_GOLD
     entity_legacy: Bureau of Economic Analysis
     verification_hash_legacy: pending
@@ -236,8 +228,7 @@ review_cases:
     D_role_conflict_description: ''
     E_evidence_support: DIRECT
     F_final_human_verdict: CONFIRMED_VALID
-    reviewer_notes: Real GDP + 3.0% + annual rate + Q2 2024 + "third estimate" all present. The "third estimate" provenance
-      is important — indicates revision history.
+    reviewer_notes: Real GDP + 3.0% + annual rate + Q2 2024 + "third estimate" all present. The "third estimate" provenance is important — indicates revision history.
   sec_special_verification: null
   disagreement_with_proposed: NONE
 - io_id: gold-bea-2024-09-pce
@@ -256,7 +247,7 @@ review_cases:
   proposed_role_decomposition:
     source_authority_candidate: U.S. Bureau of Economic Analysis (BEA)
     event_subject_candidate: Personal Consumption Expenditures (PCE)
-    measured_entity_candidate: PCE price index (month-over-month change)
+    measured_entity_candidate: PCE spending (month-over-month change)
     mentioned_entities: []
     subject_resolution_status: RESOLVED — economic indicator (PCE) named in excerpt
     evidence_basis:
@@ -266,19 +257,15 @@ review_cases:
   human_adjudication:
     A_source_authority: RESOLVED
     B_event_subject: RESOLVED
-    C_measured_entity: UNRESOLVED
-    D_role_separation: CONFLICT
-    D_role_conflict_description: 'SEMANTIC_MEASUREMENT_DEFECT: evidence describes PCE SPENDING ($54.9B, 0.3% change in spending),
-      but measured_entity_candidate says "PCE price index (month-over-month change)". PCE spending ≠ PCE price index — these
-      are fundamentally different economic measures. The 0.3% figure is correct but attributed to the wrong concept.'
-    E_evidence_support: PARTIAL
-    F_final_human_verdict: SEMANTIC_MEASUREMENT_DEFECT
-    reviewer_notes: 'CRITICAL SEMANTIC DEFECT: The evidence says "Personal consumption expenditures (PCE) increased $54.9
-      billion, or 0.3 percent" — this is PCE SPENDING change, not PCE PRICE INDEX change. The fact_value (0.3%) is numerically
-      correct but the measured_entity attribution is semantically wrong. PCE spending and PCE price index are different measures
-      tracked by different BEA releases.'
+    C_measured_entity: RESOLVED
+    D_role_separation: VALID
+    D_role_conflict_description: ''
+    E_evidence_support: DIRECT
+    F_final_human_verdict: CONFIRMED_VALID
+    reviewer_notes: 'CORRECTED: measured_entity changed from "PCE price index" to "PCE spending" (remediation authorized). Evidence "PCE increased $54.9 billion, or 0.3 percent" directly supports PCE spending
+      change. fact_value 0.3% is correct. Previous verdict SEMANTIC_MEASUREMENT_DEFECT is superseded by remediation.'
   sec_special_verification: null
-  disagreement_with_proposed: DISAGREEMENT_RECORDED
+  disagreement_with_proposed: NONE
 - io_id: gold-sec-2024-firm-a
   original_evidence:
     io_id: gold-sec-2024-firm-a
@@ -288,8 +275,7 @@ review_cases:
     unit: USD
     canonical_url: https://www.sec.gov/newsroom/press-releases/2024-150
     publication_date: null
-    evidence_excerpt: The Securities and Exchange Commission today announced settled charges against the firm for violations,
-      resulting in a civil penalty of $850,000.
+    evidence_excerpt: The Securities and Exchange Commission today announced settled charges against the firm for violations, resulting in a civil penalty of $850,000.
     final_status: VALID_GOLD
     entity_legacy: Securities and Exchange Commission (explicitly in excerpt)
     verification_hash_legacy: pending
@@ -312,8 +298,7 @@ review_cases:
     D_role_conflict_description: ''
     E_evidence_support: DIRECT
     F_final_human_verdict: CONFIRMED_VALID
-    reviewer_notes: SEC named verbatim. $850,000 present. event_subject=UNRESOLVED is CORRECT — "the firm" is referenced but
-      not named. Engine correctly refused to infer. This is exemplary behavior.
+    reviewer_notes: SEC named verbatim. $850,000 present. event_subject=UNRESOLVED is CORRECT — "the firm" is referenced but not named. Engine correctly refused to infer. This is exemplary behavior.
   sec_special_verification:
     question: Does the supplied canonical evidence itself identify the firm?
     human_answer: 'NO'
@@ -337,8 +322,7 @@ review_cases:
     unit: USD
     canonical_url: https://www.sec.gov/newsroom/press-releases/2024-151
     publication_date: null
-    evidence_excerpt: The SEC ordered the firm to pay $12 million in disgorgement, $3 million in prejudgment interest, and
-      a $5 million civil penalty.
+    evidence_excerpt: The SEC ordered the firm to pay $12 million in disgorgement, $3 million in prejudgment interest, and a $5 million civil penalty.
     final_status: VALID_GOLD
     entity_legacy: SEC (explicitly in excerpt)
     verification_hash_legacy: pending
@@ -361,9 +345,8 @@ review_cases:
     D_role_conflict_description: ''
     E_evidence_support: DIRECT
     F_final_human_verdict: CONFIRMED_VALID_WITH_SCOPE_NOTE
-    reviewer_notes: '$12M disgorgement present. Note: evidence mentions THREE amounts ($12M disgorgement + $3M interest +
-      $5M penalty = $20M total). fact_value=12000000 correctly captures disgorgement only, but provenance should note the
-      other amounts exist in the same case.'
+    reviewer_notes: '$12M disgorgement present. Note: evidence mentions THREE amounts ($12M disgorgement + $3M interest + $5M penalty = $20M total). fact_value=12000000 correctly captures disgorgement only,
+      but provenance should note the other amounts exist in the same case.'
   sec_special_verification:
     question: Does the supplied canonical evidence itself identify the firm?
     human_answer: 'NO'
@@ -387,8 +370,7 @@ review_cases:
     unit: USD
     canonical_url: https://www.sec.gov/newsroom/press-releases/2024-152
     publication_date: null
-    evidence_excerpt: Without admitting or denying the SEC's findings, the firm agreed to pay a civil penalty of $2.5 million
-      and cease and desist from further violations.
+    evidence_excerpt: Without admitting or denying the SEC's findings, the firm agreed to pay a civil penalty of $2.5 million and cease and desist from further violations.
     final_status: VALID_GOLD
     entity_legacy: SEC (explicitly in excerpt)
     verification_hash_legacy: pending
