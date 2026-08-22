@@ -8,7 +8,7 @@ metadata:
   timestamp: '2026-08-22T03:01:49.538479+00:00'
   agent_role: PREPARATION_ONLY — does NOT generate human labels
   critical_invariant: machine_proposal != human_adjudication
-  canonical_oracle_status: HUMAN_REVIEW_COMPLETE_FORENSIC_REMEDIATION_REQUIRED
+  canonical_oracle_status: ACCEPTED_WITH_EXCEPTIONS
   human_adjudication_completed: true
   human_adjudication_timestamp: '2026-08-22T03:48:43.451314+00:00'
   human_adjudication_verdicts:
@@ -17,6 +17,9 @@ metadata:
     confirmed_valid_with_scope_note: 1
     invalid_gold: 1
     semantic_measurement_defect: 1
+  oracle_acceptance_timestamp: '2026-08-22T10:09:39.772882+00:00'
+  oracle_acceptance_basis: 10/10 CONFIRMED_VALID (8 CONFIRMED_VALID, 1 CONFIRMED_VALID_WITH_NOTE, 1 CONFIRMED_VALID_WITH_SCOPE_NOTE). ISSUE-001 RESOLVED (fact_value corrected to 0). ISSUE-002 RESOLVED (measured_entity
+    corrected to PCE spending). Re-adjudication complete. No production code changes.
 review_cases:
 - io_id: gold-fed-2024-09-50bp
   original_evidence:

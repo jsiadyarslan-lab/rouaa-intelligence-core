@@ -43,7 +43,7 @@ Independent human adjudicator (not the coding/execution agent)
 ## Canonical Oracle Status
 
 ```
-HUMAN_REVIEW_COMPLETE_REMEDIATION_APPLIED_RE_ADJUDICATION_PENDING
+ACCEPTED_WITH_EXCEPTIONS
 ```
 
 The Gold-V2 set is NOT canonical. Two defects must be remediated before the set
