@@ -1,0 +1,259 @@
+metadata:
+  purpose: Gold-V2 Role-Aware Re-Issuance
+  generated_at: '2026-08-22T02:52:25.263372+00:00'
+  base_remote_sha: 6fcdcadea5a4496eb5503aae4ee45103c2397ed5
+  role_contract_commit: 6cbe44debb32b7743b1ab5606ed01bb1f043adf4
+  original_io_count: 10
+  reissued_io_count: 10
+  immutability_anchor_sha256: 608f0ad8db669d6864d3c13c8f550e56bc08c53647577716899c4dcfe002e135
+  invariants:
+    gold_io_identity: unchanged
+    fact_values: unchanged
+    evidence_text: unchanged
+    evidence_location: unchanged
+    source_document: unchanged
+    temporal_context: unchanged
+  role_contract_semantic_rule: source_authority != event_subject != measured_entity
+  unresolved_count: 3
+  resolved_count: 7
+gold_ios:
+- io_id: gold-fed-2024-09-50bp
+  category: monetary
+  fact_metric: policy_rate_change
+  fact_value: '-50'
+  unit: basis_points
+  entity_legacy: Federal Open Market Committee (explicitly in excerpt)
+  canonical_url: https://www.federalreserve.gov/newsevents/pressreleases/monetary20240918a.htm
+  publication_date: null
+  verification_hash_legacy: pending
+  final_status: VALID_GOLD
+  evidence_excerpt: The Federal Open Market Committee decided to lower the target
+    range for the federal funds rate by 1/2 percentage point (50 basis points) to
+    4-3/4 to 5 percent.
+  entity_role_contract:
+    source_authority: Federal Reserve (Federal Reserve Board)
+    event_subject: Federal Open Market Committee (FOMC)
+    measured_entity: federal funds rate (target range)
+    mentioned_entities:
+    - Federal Open Market Committee
+    subject_resolution_status: RESOLVED — Federal Open Market Committee named verbatim
+      in excerpt
+    evidence_basis:
+      source_authority: 'canonical_url domain: federalreserve.gov'
+      event_subject: 'verbatim in excerpt: "Federal Open Market Committee"'
+      measured_entity: fact_metric=policy_rate_change, unit=basis_points
+- io_id: gold-fed-2024-07-25bp
+  category: monetary
+  fact_metric: policy_rate_change
+  fact_value: '-25'
+  unit: basis_points
+  entity_legacy: Federal Open Market Committee (explicitly in excerpt)
+  canonical_url: https://www.federalreserve.gov/newsevents/pressreleases/monetary20240731a.htm
+  publication_date: null
+  verification_hash_legacy: pending
+  final_status: VALID_GOLD
+  evidence_excerpt: The Federal Open Market Committee voted to maintain the target
+    range for the federal funds rate at 5-1/4 to 5-1/2 percent.
+  entity_role_contract:
+    source_authority: Federal Reserve (Federal Reserve Board)
+    event_subject: Federal Open Market Committee (FOMC)
+    measured_entity: federal funds rate (target range)
+    mentioned_entities:
+    - Federal Open Market Committee
+    subject_resolution_status: RESOLVED — Federal Open Market Committee named verbatim
+      in excerpt
+    evidence_basis:
+      source_authority: 'canonical_url domain: federalreserve.gov'
+      event_subject: 'verbatim in excerpt: "Federal Open Market Committee"'
+      measured_entity: fact_metric=policy_rate_change, unit=basis_points
+- io_id: gold-ecb-2024-09-25bp
+  category: monetary
+  fact_metric: policy_rate_change
+  fact_value: '-25'
+  unit: basis_points
+  entity_legacy: ECB Governing Council (explicitly in excerpt)
+  canonical_url: https://www.ecb.europa.eu/press/pr/date/2024/html/ecb.mp240912~753cf53a4c.en.html
+  publication_date: null
+  verification_hash_legacy: pending
+  final_status: VALID_GOLD
+  evidence_excerpt: The Governing Council of the ECB decided to lower the three key
+    ECB interest rates by 25 basis points, with the deposit facility rate dropping
+    to 3.5%.
+  entity_role_contract:
+    source_authority: European Central Bank (ECB)
+    event_subject: ECB Governing Council
+    measured_entity: ECB key interest rates (deposit facility rate)
+    mentioned_entities:
+    - Governing Council
+    - ECB
+    subject_resolution_status: RESOLVED — "Governing Council of the ECB" ≡ "ECB Governing
+      Council" per surface_forms_equivalent
+    evidence_basis:
+      source_authority: 'canonical_url domain: ecb.europa.eu'
+      event_subject: 'excerpt: "The Governing Council of the ECB decided..." (equivalent
+        to "ECB Governing Council" per surface_forms_equivalent)'
+      measured_entity: fact_metric=policy_rate_change, unit=basis_points
+- io_id: gold-ecb-2024-06-25bp
+  category: monetary
+  fact_metric: policy_rate_change
+  fact_value: '-25'
+  unit: basis_points
+  entity_legacy: Governing Council (explicitly in excerpt)
+  canonical_url: https://www.ecb.europa.eu/press/pr/date/2024/html/ecb.mp240606~fe48cece89.en.html
+  publication_date: null
+  verification_hash_legacy: pending
+  final_status: VALID_GOLD
+  evidence_excerpt: The Governing Council decided to lower the three key ECB interest
+    rates by 25 basis points.
+  entity_role_contract:
+    source_authority: European Central Bank (ECB)
+    event_subject: ECB Governing Council
+    measured_entity: ECB key interest rates (deposit facility rate)
+    mentioned_entities:
+    - Governing Council
+    - ECB
+    subject_resolution_status: 'RESOLVED — "Governing Council" named (context: ECB
+      document)'
+    evidence_basis:
+      source_authority: 'canonical_url domain: ecb.europa.eu'
+      event_subject: 'excerpt: "The Governing Council of the ECB decided..." (equivalent
+        to "ECB Governing Council" per surface_forms_equivalent)'
+      measured_entity: fact_metric=policy_rate_change, unit=basis_points
+- io_id: gold-bea-2024-q3-gdp
+  category: statistical
+  fact_metric: gdp_growth
+  fact_value: '+2.8'
+  unit: percent (annual rate)
+  entity_legacy: Bureau of Economic Analysis (in URL and document header)
+  canonical_url: https://www.bea.gov/news/2024/gdp-q3-2024-advance
+  publication_date: null
+  verification_hash_legacy: pending
+  final_status: VALID_GOLD
+  evidence_excerpt: Real gross domestic product (GDP) increased at an annual rate
+    of 2.8 percent in the third quarter of 2024, according to the advance estimate.
+  entity_role_contract:
+    source_authority: U.S. Bureau of Economic Analysis (BEA)
+    event_subject: Real Gross Domestic Product (GDP)
+    measured_entity: Real GDP growth (annual rate)
+    mentioned_entities: []
+    subject_resolution_status: RESOLVED — economic indicator (GDP) named in excerpt
+    evidence_basis:
+      source_authority: 'canonical_url domain: bea.gov'
+      event_subject: economic indicator named in excerpt (GDP/PCE)
+      measured_entity: fact_metric=gdp_growth, unit=percent
+- io_id: gold-bea-2024-q2-gdp
+  category: statistical
+  fact_metric: gdp_growth
+  fact_value: '+3.0'
+  unit: percent (annual rate)
+  entity_legacy: Bureau of Economic Analysis
+  canonical_url: https://www.bea.gov/news/2024/gdp-q2-2024-third
+  publication_date: null
+  verification_hash_legacy: pending
+  final_status: VALID_GOLD
+  evidence_excerpt: Real gross domestic product (GDP) increased at an annual rate
+    of 3.0 percent in the second quarter of 2024, according to the third estimate.
+  entity_role_contract:
+    source_authority: U.S. Bureau of Economic Analysis (BEA)
+    event_subject: Real Gross Domestic Product (GDP)
+    measured_entity: Real GDP growth (annual rate)
+    mentioned_entities: []
+    subject_resolution_status: RESOLVED — economic indicator (GDP) named in excerpt
+    evidence_basis:
+      source_authority: 'canonical_url domain: bea.gov'
+      event_subject: economic indicator named in excerpt (GDP/PCE)
+      measured_entity: fact_metric=gdp_growth, unit=percent
+- io_id: gold-bea-2024-09-pce
+  category: statistical
+  fact_metric: percentage_change
+  fact_value: '+0.3'
+  unit: percent (month-over-month)
+  entity_legacy: Bureau of Economic Analysis
+  canonical_url: https://www.bea.gov/news/2024/personal-income-spending-september-2024
+  publication_date: null
+  verification_hash_legacy: pending
+  final_status: VALID_GOLD
+  evidence_excerpt: Personal consumption expenditures (PCE) increased $54.9 billion,
+    or 0.3 percent, in September.
+  entity_role_contract:
+    source_authority: U.S. Bureau of Economic Analysis (BEA)
+    event_subject: Personal Consumption Expenditures (PCE)
+    measured_entity: PCE price index (month-over-month change)
+    mentioned_entities: []
+    subject_resolution_status: RESOLVED — economic indicator (PCE) named in excerpt
+    evidence_basis:
+      source_authority: 'canonical_url domain: bea.gov'
+      event_subject: economic indicator named in excerpt (GDP/PCE)
+      measured_entity: fact_metric=percentage_change, unit=percent
+- io_id: gold-sec-2024-firm-a
+  category: regulatory
+  fact_metric: penalty_amount
+  fact_value: '850000'
+  unit: USD
+  entity_legacy: Securities and Exchange Commission (explicitly in excerpt)
+  canonical_url: https://www.sec.gov/newsroom/press-releases/2024-150
+  publication_date: null
+  verification_hash_legacy: pending
+  final_status: VALID_GOLD
+  evidence_excerpt: The Securities and Exchange Commission today announced settled
+    charges against the firm for violations, resulting in a civil penalty of $850,000.
+  entity_role_contract:
+    source_authority: U.S. Securities and Exchange Commission (SEC)
+    event_subject: UNRESOLVED
+    measured_entity: civil penalty amount (USD)
+    mentioned_entities:
+    - Securities and Exchange Commission
+    subject_resolution_status: UNRESOLVED — firm referenced as "the firm" but not
+      named in excerpt
+    evidence_basis:
+      source_authority: 'canonical_url domain: sec.gov'
+      event_subject: excerpt says "the firm" — no firm name present; do NOT infer
+      measured_entity: fact_metric=penalty_amount, unit=USD
+- io_id: gold-sec-2024-firm-b
+  category: regulatory
+  fact_metric: disgorgement_amount
+  fact_value: '12000000'
+  unit: USD
+  entity_legacy: SEC (explicitly in excerpt)
+  canonical_url: https://www.sec.gov/newsroom/press-releases/2024-151
+  publication_date: null
+  verification_hash_legacy: pending
+  final_status: VALID_GOLD
+  evidence_excerpt: The SEC ordered the firm to pay $12 million in disgorgement, $3
+    million in prejudgment interest, and a $5 million civil penalty.
+  entity_role_contract:
+    source_authority: U.S. Securities and Exchange Commission (SEC)
+    event_subject: UNRESOLVED
+    measured_entity: disgorgement amount (USD)
+    mentioned_entities:
+    - SEC
+    subject_resolution_status: UNRESOLVED — firm referenced as "the firm" but not
+      named in excerpt
+    evidence_basis:
+      source_authority: 'canonical_url domain: sec.gov'
+      event_subject: excerpt says "the firm" — no firm name present; do NOT infer
+      measured_entity: fact_metric=disgorgement_amount, unit=USD
+- io_id: gold-sec-2024-firm-c
+  category: regulatory
+  fact_metric: penalty_amount
+  fact_value: '2500000'
+  unit: USD
+  entity_legacy: SEC (explicitly in excerpt)
+  canonical_url: https://www.sec.gov/newsroom/press-releases/2024-152
+  publication_date: null
+  verification_hash_legacy: pending
+  final_status: VALID_GOLD
+  evidence_excerpt: Without admitting or denying the SEC's findings, the firm agreed
+    to pay a civil penalty of $2.5 million and cease and desist from further violations.
+  entity_role_contract:
+    source_authority: U.S. Securities and Exchange Commission (SEC)
+    event_subject: UNRESOLVED
+    measured_entity: civil penalty amount (USD)
+    mentioned_entities:
+    - SEC
+    subject_resolution_status: UNRESOLVED — firm referenced as "the firm" but not
+      named in excerpt
+    evidence_basis:
+      source_authority: 'canonical_url domain: sec.gov'
+      event_subject: excerpt says "the firm" — no firm name present; do NOT infer
+      measured_entity: fact_metric=penalty_amount, unit=USD
