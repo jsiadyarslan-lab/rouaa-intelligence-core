@@ -1,0 +1,22 @@
+{
+  "status": "INVALIDATED",
+  "invalidation_date": "2026-08-21",
+  "invalidation_record": "docs/evidence/GOLD_SET_INVALIDATION_RECORD.md",
+  "original_commit": "e362aaa",
+  "reasons": [
+    "IO1: WEAK_SOURCE_ANCHOR — canonical_url is a permanent changing page",
+    "IO2: SIGN_INFORMATION_LOSS — –5.6% stored as 5.6",
+    "IO3: EVIDENCE_DOES_NOT_CONTAIN_CLAIM — excerpt missing 'disgorgement'",
+    "IO4: EVIDENCE_COMPLETELY_UNRELATED_TO_CLAIM — excerpt is a random narrative fragment",
+    "IO5: SEMANTIC_METRIC_MISMATCH — cash acceptance % labeled as policy_rate",
+    "IO6: VALUE_EXCERPT_MISMATCH — value 90 vs excerpt 92%"
+  ],
+  "io_ids": [
+    "io-abed2ad81fcd4f55",
+    "io-0db41fde8c803040",
+    "io-1ca8a75ee22968f7",
+    "io-86eb51402109b465",
+    "io-f899fb5c1631e12c",
+    "io-be817f73577ff8e1"
+  ]
+}
