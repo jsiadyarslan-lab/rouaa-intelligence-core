@@ -8,7 +8,15 @@ metadata:
   timestamp: '2026-08-22T03:01:49.538479+00:00'
   agent_role: PREPARATION_ONLY — does NOT generate human labels
   critical_invariant: machine_proposal != human_adjudication
-  canonical_oracle_status: PENDING_HUMAN_REVIEW
+  canonical_oracle_status: HUMAN_REVIEW_COMPLETE_FORENSIC_REMEDIATION_REQUIRED
+  human_adjudication_completed: true
+  human_adjudication_timestamp: '2026-08-22T03:48:43.451314+00:00'
+  human_adjudication_verdicts:
+    confirmed_valid: 6
+    confirmed_valid_with_note: 1
+    confirmed_valid_with_scope_note: 1
+    invalid_gold: 1
+    semantic_measurement_defect: 1
 review_cases:
 - io_id: gold-fed-2024-09-50bp
   original_evidence:
@@ -36,16 +44,16 @@ review_cases:
       event_subject: 'verbatim in excerpt: "Federal Open Market Committee"'
       measured_entity: fact_metric=policy_rate_change, unit=basis_points
   human_adjudication:
-    A_source_authority: PENDING
-    B_event_subject: PENDING
-    C_measured_entity: PENDING
-    D_role_separation: PENDING
-    D_role_conflict_description: PENDING
-    E_evidence_support: PENDING
-    F_final_human_verdict: PENDING
-    reviewer_notes: PENDING
+    A_source_authority: RESOLVED
+    B_event_subject: RESOLVED
+    C_measured_entity: RESOLVED
+    D_role_separation: VALID
+    D_role_conflict_description: ''
+    E_evidence_support: DIRECT
+    F_final_human_verdict: CONFIRMED_VALID
+    reviewer_notes: FOMC named verbatim. Federal funds rate named. 50bp + lower direction present. All roles correctly separated.
   sec_special_verification: null
-  disagreement_with_proposed: PENDING
+  disagreement_with_proposed: NONE
 - io_id: gold-fed-2024-07-25bp
   original_evidence:
     io_id: gold-fed-2024-07-25bp
@@ -72,16 +80,18 @@ review_cases:
       event_subject: 'verbatim in excerpt: "Federal Open Market Committee"'
       measured_entity: fact_metric=policy_rate_change, unit=basis_points
   human_adjudication:
-    A_source_authority: PENDING
-    B_event_subject: PENDING
-    C_measured_entity: PENDING
-    D_role_separation: PENDING
-    D_role_conflict_description: PENDING
-    E_evidence_support: PENDING
-    F_final_human_verdict: PENDING
-    reviewer_notes: PENDING
+    A_source_authority: RESOLVED
+    B_event_subject: RESOLVED
+    C_measured_entity: RESOLVED
+    D_role_separation: VALID
+    D_role_conflict_description: ''
+    E_evidence_support: CONTRADICTORY
+    F_final_human_verdict: INVALID_GOLD
+    reviewer_notes: 'CRITICAL DEFECT: evidence says "voted to maintain" (0bp change), but fact_value=-25 claims a 25bp cut.
+      The fact_value CONTRADICTS the evidence excerpt. Fed held rates steady at 5.25-5.50% in July 2024 — no cut occurred.
+      The -25 value has no basis in this evidence.'
   sec_special_verification: null
-  disagreement_with_proposed: PENDING
+  disagreement_with_proposed: DISAGREEMENT_RECORDED
 - io_id: gold-ecb-2024-09-25bp
   original_evidence:
     io_id: gold-ecb-2024-09-25bp
@@ -109,16 +119,18 @@ review_cases:
       event_subject: 'excerpt: "The Governing Council of the ECB decided..." (equivalent to "ECB Governing Council" per surface_forms_equivalent)'
       measured_entity: fact_metric=policy_rate_change, unit=basis_points
   human_adjudication:
-    A_source_authority: PENDING
-    B_event_subject: PENDING
-    C_measured_entity: PENDING
-    D_role_separation: PENDING
-    D_role_conflict_description: PENDING
-    E_evidence_support: PENDING
-    F_final_human_verdict: PENDING
-    reviewer_notes: PENDING
+    A_source_authority: RESOLVED
+    B_event_subject: RESOLVED
+    C_measured_entity: RESOLVED
+    D_role_separation: VALID
+    D_role_conflict_description: ''
+    E_evidence_support: DIRECT
+    F_final_human_verdict: CONFIRMED_VALID
+    reviewer_notes: 'Governing Council of the ECB named verbatim. 25bp + lower direction present. Note: measured_entity_candidate
+      says "deposit facility rate" but evidence says "three key ECB interest rates" — narrower than evidence scope, but not
+      incorrect.'
   sec_special_verification: null
-  disagreement_with_proposed: PENDING
+  disagreement_with_proposed: NONE
 - io_id: gold-ecb-2024-06-25bp
   original_evidence:
     io_id: gold-ecb-2024-06-25bp
@@ -145,16 +157,17 @@ review_cases:
       event_subject: 'excerpt: "The Governing Council of the ECB decided..." (equivalent to "ECB Governing Council" per surface_forms_equivalent)'
       measured_entity: fact_metric=policy_rate_change, unit=basis_points
   human_adjudication:
-    A_source_authority: PENDING
-    B_event_subject: PENDING
-    C_measured_entity: PENDING
-    D_role_separation: PENDING
-    D_role_conflict_description: PENDING
-    E_evidence_support: PENDING
-    F_final_human_verdict: PENDING
-    reviewer_notes: PENDING
+    A_source_authority: RESOLVED
+    B_event_subject: RESOLVED
+    C_measured_entity: RESOLVED
+    D_role_separation: VALID
+    D_role_conflict_description: ''
+    E_evidence_support: DIRECT
+    F_final_human_verdict: CONFIRMED_VALID_WITH_NOTE
+    reviewer_notes: '"Governing Council" named without "of the ECB" qualifier. Subject identity resolution depends on document
+      context (ecb.europa.eu domain), not the sentence alone. Acceptable but should be documented as context-dependent resolution.'
   sec_special_verification: null
-  disagreement_with_proposed: PENDING
+  disagreement_with_proposed: NONE
 - io_id: gold-bea-2024-q3-gdp
   original_evidence:
     io_id: gold-bea-2024-q3-gdp
@@ -180,16 +193,17 @@ review_cases:
       event_subject: economic indicator named in excerpt (GDP/PCE)
       measured_entity: fact_metric=gdp_growth, unit=percent
   human_adjudication:
-    A_source_authority: PENDING
-    B_event_subject: PENDING
-    C_measured_entity: PENDING
-    D_role_separation: PENDING
-    D_role_conflict_description: PENDING
-    E_evidence_support: PENDING
-    F_final_human_verdict: PENDING
-    reviewer_notes: PENDING
+    A_source_authority: RESOLVED
+    B_event_subject: RESOLVED
+    C_measured_entity: RESOLVED
+    D_role_separation: VALID
+    D_role_conflict_description: ''
+    E_evidence_support: DIRECT
+    F_final_human_verdict: CONFIRMED_VALID
+    reviewer_notes: Real GDP + 2.8% + annual rate + Q3 2024 all present verbatim. event_subject classification as "Real GDP"
+      is semantically imperfect (GDP is the measured entity, not the actor), but fact/evidence support is valid.
   sec_special_verification: null
-  disagreement_with_proposed: PENDING
+  disagreement_with_proposed: NONE
 - io_id: gold-bea-2024-q2-gdp
   original_evidence:
     io_id: gold-bea-2024-q2-gdp
@@ -215,16 +229,17 @@ review_cases:
       event_subject: economic indicator named in excerpt (GDP/PCE)
       measured_entity: fact_metric=gdp_growth, unit=percent
   human_adjudication:
-    A_source_authority: PENDING
-    B_event_subject: PENDING
-    C_measured_entity: PENDING
-    D_role_separation: PENDING
-    D_role_conflict_description: PENDING
-    E_evidence_support: PENDING
-    F_final_human_verdict: PENDING
-    reviewer_notes: PENDING
+    A_source_authority: RESOLVED
+    B_event_subject: RESOLVED
+    C_measured_entity: RESOLVED
+    D_role_separation: VALID
+    D_role_conflict_description: ''
+    E_evidence_support: DIRECT
+    F_final_human_verdict: CONFIRMED_VALID
+    reviewer_notes: Real GDP + 3.0% + annual rate + Q2 2024 + "third estimate" all present. The "third estimate" provenance
+      is important — indicates revision history.
   sec_special_verification: null
-  disagreement_with_proposed: PENDING
+  disagreement_with_proposed: NONE
 - io_id: gold-bea-2024-09-pce
   original_evidence:
     io_id: gold-bea-2024-09-pce
@@ -249,16 +264,21 @@ review_cases:
       event_subject: economic indicator named in excerpt (GDP/PCE)
       measured_entity: fact_metric=percentage_change, unit=percent
   human_adjudication:
-    A_source_authority: PENDING
-    B_event_subject: PENDING
-    C_measured_entity: PENDING
-    D_role_separation: PENDING
-    D_role_conflict_description: PENDING
-    E_evidence_support: PENDING
-    F_final_human_verdict: PENDING
-    reviewer_notes: PENDING
+    A_source_authority: RESOLVED
+    B_event_subject: RESOLVED
+    C_measured_entity: UNRESOLVED
+    D_role_separation: CONFLICT
+    D_role_conflict_description: 'SEMANTIC_MEASUREMENT_DEFECT: evidence describes PCE SPENDING ($54.9B, 0.3% change in spending),
+      but measured_entity_candidate says "PCE price index (month-over-month change)". PCE spending ≠ PCE price index — these
+      are fundamentally different economic measures. The 0.3% figure is correct but attributed to the wrong concept.'
+    E_evidence_support: PARTIAL
+    F_final_human_verdict: SEMANTIC_MEASUREMENT_DEFECT
+    reviewer_notes: 'CRITICAL SEMANTIC DEFECT: The evidence says "Personal consumption expenditures (PCE) increased $54.9
+      billion, or 0.3 percent" — this is PCE SPENDING change, not PCE PRICE INDEX change. The fact_value (0.3%) is numerically
+      correct but the measured_entity attribution is semantically wrong. PCE spending and PCE price index are different measures
+      tracked by different BEA releases.'
   sec_special_verification: null
-  disagreement_with_proposed: PENDING
+  disagreement_with_proposed: DISAGREEMENT_RECORDED
 - io_id: gold-sec-2024-firm-a
   original_evidence:
     io_id: gold-sec-2024-firm-a
@@ -285,18 +305,19 @@ review_cases:
       event_subject: excerpt says "the firm" — no firm name present; do NOT infer
       measured_entity: fact_metric=penalty_amount, unit=USD
   human_adjudication:
-    A_source_authority: PENDING
-    B_event_subject: PENDING
-    C_measured_entity: PENDING
-    D_role_separation: PENDING
-    D_role_conflict_description: PENDING
-    E_evidence_support: PENDING
-    F_final_human_verdict: PENDING
-    reviewer_notes: PENDING
+    A_source_authority: RESOLVED
+    B_event_subject: UNRESOLVED
+    C_measured_entity: RESOLVED
+    D_role_separation: VALID
+    D_role_conflict_description: ''
+    E_evidence_support: DIRECT
+    F_final_human_verdict: CONFIRMED_VALID
+    reviewer_notes: SEC named verbatim. $850,000 present. event_subject=UNRESOLVED is CORRECT — "the firm" is referenced but
+      not named. Engine correctly refused to infer. This is exemplary behavior.
   sec_special_verification:
     question: Does the supplied canonical evidence itself identify the firm?
-    human_answer: PENDING
-    if_no_then_event_subject_must_remain_UNRESOLVED: PENDING
+    human_answer: 'NO'
+    if_no_then_event_subject_must_remain_UNRESOLVED: ACKNOWLEDGED
     reviewer_must_NOT_recover_firm_from:
     - URL metadata
     - filename
@@ -306,7 +327,7 @@ review_cases:
     - other documents
     - entity registry
     authorized_evidence_basis_only: true
-  disagreement_with_proposed: PENDING
+  disagreement_with_proposed: NONE
 - io_id: gold-sec-2024-firm-b
   original_evidence:
     io_id: gold-sec-2024-firm-b
@@ -333,18 +354,20 @@ review_cases:
       event_subject: excerpt says "the firm" — no firm name present; do NOT infer
       measured_entity: fact_metric=disgorgement_amount, unit=USD
   human_adjudication:
-    A_source_authority: PENDING
-    B_event_subject: PENDING
-    C_measured_entity: PENDING
-    D_role_separation: PENDING
-    D_role_conflict_description: PENDING
-    E_evidence_support: PENDING
-    F_final_human_verdict: PENDING
-    reviewer_notes: PENDING
+    A_source_authority: RESOLVED
+    B_event_subject: UNRESOLVED
+    C_measured_entity: RESOLVED
+    D_role_separation: VALID
+    D_role_conflict_description: ''
+    E_evidence_support: DIRECT
+    F_final_human_verdict: CONFIRMED_VALID_WITH_SCOPE_NOTE
+    reviewer_notes: '$12M disgorgement present. Note: evidence mentions THREE amounts ($12M disgorgement + $3M interest +
+      $5M penalty = $20M total). fact_value=12000000 correctly captures disgorgement only, but provenance should note the
+      other amounts exist in the same case.'
   sec_special_verification:
     question: Does the supplied canonical evidence itself identify the firm?
-    human_answer: PENDING
-    if_no_then_event_subject_must_remain_UNRESOLVED: PENDING
+    human_answer: 'NO'
+    if_no_then_event_subject_must_remain_UNRESOLVED: ACKNOWLEDGED
     reviewer_must_NOT_recover_firm_from:
     - URL metadata
     - filename
@@ -354,7 +377,7 @@ review_cases:
     - other documents
     - entity registry
     authorized_evidence_basis_only: true
-  disagreement_with_proposed: PENDING
+  disagreement_with_proposed: DISAGREEMENT_RECORDED
 - io_id: gold-sec-2024-firm-c
   original_evidence:
     io_id: gold-sec-2024-firm-c
@@ -381,18 +404,18 @@ review_cases:
       event_subject: excerpt says "the firm" — no firm name present; do NOT infer
       measured_entity: fact_metric=penalty_amount, unit=USD
   human_adjudication:
-    A_source_authority: PENDING
-    B_event_subject: PENDING
-    C_measured_entity: PENDING
-    D_role_separation: PENDING
-    D_role_conflict_description: PENDING
-    E_evidence_support: PENDING
-    F_final_human_verdict: PENDING
-    reviewer_notes: PENDING
+    A_source_authority: RESOLVED
+    B_event_subject: UNRESOLVED
+    C_measured_entity: RESOLVED
+    D_role_separation: VALID
+    D_role_conflict_description: ''
+    E_evidence_support: DIRECT
+    F_final_human_verdict: CONFIRMED_VALID
+    reviewer_notes: $2.5M civil penalty present. event_subject=UNRESOLVED correct. "cease and desist" language present.
   sec_special_verification:
     question: Does the supplied canonical evidence itself identify the firm?
-    human_answer: PENDING
-    if_no_then_event_subject_must_remain_UNRESOLVED: PENDING
+    human_answer: 'NO'
+    if_no_then_event_subject_must_remain_UNRESOLVED: ACKNOWLEDGED
     reviewer_must_NOT_recover_firm_from:
     - URL metadata
     - filename
@@ -402,4 +425,4 @@ review_cases:
     - other documents
     - entity registry
     authorized_evidence_basis_only: true
-  disagreement_with_proposed: PENDING
+  disagreement_with_proposed: NONE
