@@ -1,0 +1,136 @@
+{
+  "file_purpose": "SOLE authoritative record of 9 annotation corrections from V48AL blind adjudication. The pre-registered holdout sample (v48ag_independent_preregistered_sample.json) is FROZEN and UNCHANGED at SHA256 bbc1ac6c... This file is append-only and must NEVER be used as training data or benchmark.",
+  "frozen_holdout_sha256": "bbc1ac6ccea1c3e769642511329124b3b43833f02000ad98e4e49088cc697c8b",
+  "adjudication_commit": "b60d3516c8b7da4d67c8f5b2229a108d0dfc899c",
+  "repair_count": 9,
+  "repaired_case_ids": [
+    83,
+    87,
+    89,
+    92,
+    93,
+    94,
+    96,
+    98,
+    101
+  ],
+  "ontology_candidates_unchanged": [
+    130,
+    131,
+    147
+  ],
+  "consistent_cases_unchanged": [
+    82,
+    103,
+    117,
+    119,
+    121,
+    122,
+    126,
+    138,
+    140,
+    149
+  ],
+  "benchmark_status": "NOT_USED",
+  "repairs": [
+    {
+      "case_id": 83,
+      "original_label": "AMBIGUOUS",
+      "corrected_label": "CONTEXT_ONLY",
+      "correction_basis": "blind_adjudication_v48al",
+      "adjudication_commit": "b60d3516c8b7da4d67c8f5b2229a108d0dfc899c",
+      "repair_commit": "<filled after commit>",
+      "audit_note": "label corrected via blind human adjudication; pre-registered holdout sample is unchanged and frozen at SHA256 bbc1ac6ccea1c3e769642511329124b3b43833f02000ad98e4e49088cc697c8b; this file is the sole authoritative record of the correction",
+      "text": "GDP statistics are compiled in accordance with international methodology standards.",
+      "candidate": "Gross Domestic Product"
+    },
+    {
+      "case_id": 87,
+      "original_label": "AMBIGUOUS",
+      "corrected_label": "CONTEXT_ONLY",
+      "correction_basis": "blind_adjudication_v48al",
+      "adjudication_commit": "b60d3516c8b7da4d67c8f5b2229a108d0dfc899c",
+      "repair_commit": "<filled after commit>",
+      "audit_note": "label corrected via blind human adjudication; pre-registered holdout sample is unchanged and frozen at SHA256 bbc1ac6ccea1c3e769642511329124b3b43833f02000ad98e4e49088cc697c8b; this file is the sole authoritative record of the correction",
+      "text": "CPI methodology was revised in line with the new international statistical standard.",
+      "candidate": "Consumer Price Index"
+    },
+    {
+      "case_id": 89,
+      "original_label": "AMBIGUOUS",
+      "corrected_label": "CONTEXT_ONLY",
+      "correction_basis": "blind_adjudication_v48al",
+      "adjudication_commit": "b60d3516c8b7da4d67c8f5b2229a108d0dfc899c",
+      "repair_commit": "<filled after commit>",
+      "audit_note": "label corrected via blind human adjudication; pre-registered holdout sample is unchanged and frozen at SHA256 bbc1ac6ccea1c3e769642511329124b3b43833f02000ad98e4e49088cc697c8b; this file is the sole authoritative record of the correction",
+      "text": "Penalty procedures were outlined in the updated enforcement guidance document.",
+      "candidate": "Penalty"
+    },
+    {
+      "case_id": 92,
+      "original_label": "AMBIGUOUS",
+      "corrected_label": "CONTEXT_ONLY",
+      "correction_basis": "blind_adjudication_v48al",
+      "adjudication_commit": "b60d3516c8b7da4d67c8f5b2229a108d0dfc899c",
+      "repair_commit": "<filled after commit>",
+      "audit_note": "label corrected via blind human adjudication; pre-registered holdout sample is unchanged and frozen at SHA256 bbc1ac6ccea1c3e769642511329124b3b43833f02000ad98e4e49088cc697c8b; this file is the sole authoritative record of the correction",
+      "text": "Policy rate decisions are scheduled for the next FOMC meeting per the published calendar.",
+      "candidate": "Policy Rate"
+    },
+    {
+      "case_id": 93,
+      "original_label": "AMBIGUOUS",
+      "corrected_label": "CONTEXT_ONLY",
+      "correction_basis": "blind_adjudication_v48al",
+      "adjudication_commit": "b60d3516c8b7da4d67c8f5b2229a108d0dfc899c",
+      "repair_commit": "<filled after commit>",
+      "audit_note": "label corrected via blind human adjudication; pre-registered holdout sample is unchanged and frozen at SHA256 bbc1ac6ccea1c3e769642511329124b3b43833f02000ad98e4e49088cc697c8b; this file is the sole authoritative record of the correction",
+      "text": "Unemployment statistics are released on the first Friday of each month by the BLS.",
+      "candidate": "Unemployment"
+    },
+    {
+      "case_id": 94,
+      "original_label": "AMBIGUOUS",
+      "corrected_label": "CONTEXT_ONLY",
+      "correction_basis": "blind_adjudication_v48al",
+      "adjudication_commit": "b60d3516c8b7da4d67c8f5b2229a108d0dfc899c",
+      "repair_commit": "<filled after commit>",
+      "audit_note": "label corrected via blind human adjudication; pre-registered holdout sample is unchanged and frozen at SHA256 bbc1ac6ccea1c3e769642511329124b3b43833f02000ad98e4e49088cc697c8b; this file is the sole authoritative record of the correction",
+      "text": "CPI sub-indices were analyzed in the detailed statistical appendix.",
+      "candidate": "Consumer Price Index"
+    },
+    {
+      "case_id": 96,
+      "original_label": "AMBIGUOUS",
+      "corrected_label": "CONTEXT_ONLY",
+      "correction_basis": "blind_adjudication_v48al",
+      "adjudication_commit": "b60d3516c8b7da4d67c8f5b2229a108d0dfc899c",
+      "repair_commit": "<filled after commit>",
+      "audit_note": "label corrected via blind human adjudication; pre-registered holdout sample is unchanged and frozen at SHA256 bbc1ac6ccea1c3e769642511329124b3b43833f02000ad98e4e49088cc697c8b; this file is the sole authoritative record of the correction",
+      "text": "Penalty framework revisions were proposed in the latest regulatory consultation paper.",
+      "candidate": "Penalty"
+    },
+    {
+      "case_id": 98,
+      "original_label": "AMBIGUOUS",
+      "corrected_label": "CONTEXT_ONLY",
+      "correction_basis": "blind_adjudication_v48al",
+      "adjudication_commit": "b60d3516c8b7da4d67c8f5b2229a108d0dfc899c",
+      "repair_commit": "<filled after commit>",
+      "audit_note": "label corrected via blind human adjudication; pre-registered holdout sample is unchanged and frozen at SHA256 bbc1ac6ccea1c3e769642511329124b3b43833f02000ad98e4e49088cc697c8b; this file is the sole authoritative record of the correction",
+      "text": "Inflation targeting framework was reaffirmed in the central bank's strategic review.",
+      "candidate": "Inflation"
+    },
+    {
+      "case_id": 101,
+      "original_label": "AMBIGUOUS",
+      "corrected_label": "CONTEXT_ONLY",
+      "correction_basis": "blind_adjudication_v48al",
+      "adjudication_commit": "b60d3516c8b7da4d67c8f5b2229a108d0dfc899c",
+      "repair_commit": "<filled after commit>",
+      "audit_note": "label corrected via blind human adjudication; pre-registered holdout sample is unchanged and frozen at SHA256 bbc1ac6ccea1c3e769642511329124b3b43833f02000ad98e4e49088cc697c8b; this file is the sole authoritative record of the correction",
+      "text": "CPI weights were updated in the latest index revision per the statistical standard.",
+      "candidate": "Consumer Price Index"
+    }
+  ]
+}

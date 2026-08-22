@@ -1,0 +1,1654 @@
+{
+  "phase": "V47C SEMANTIC RESULTS (publisher + subject separated)",
+  "executed_at_utc": "2026-08-20T20:56:35Z",
+  "new_io_count": 371,
+  "publisher_distribution": {
+    "CONFIRMED": 272,
+    "AMBIGUOUS": 99
+  },
+  "subject_distribution": {
+    "ENTITY_NOT_FOUND": 322,
+    "ENTITY_CONFIRMED": 49
+  },
+  "temporal_confirmed_counts": {
+    "reference_period": 33,
+    "event_date": 55,
+    "effective_date": 0,
+    "publication_date": 0,
+    "revision_date": 0
+  },
+  "event_state_counts": {
+    "UNKNOWN": 295,
+    "ANNOUNCED": 6,
+    "INCREASED": 31,
+    "REVISED": 32,
+    "UNCHANGED": 1,
+    "DECREASED": 3,
+    "NEW": 2,
+    "ENFORCED": 1
+  },
+  "readiness_counts": {
+    "SEMANTICALLY_BLOCKED": 322,
+    "SEMANTICALLY_PARTIAL": 19,
+    "SEMANTICALLY_READY": 30
+  },
+  "sample_40_audit": [
+    {
+      "io_id": "io-cb08d31a4e009be2",
+      "event_type": "monetary_policy_decision",
+      "source_id": "imp-eurostat",
+      "source_name": "eurostat",
+      "headline": "eurostat sets policy rate at 0.3 — Q1 2026",
+      "fact_count": 4,
+      "publisher": {
+        "publisher_institution_id": "PUB-EUROSTAT",
+        "canonical_name": "Eurostat",
+        "institution_type": "STATISTICAL_AGENCY",
+        "jurisdiction": "European Union",
+        "status": "CONFIRMED",
+        "confidence": "HIGH",
+        "support_method": "SOURCE_REGISTRY",
+        "canonical_url": "https://ec.europa.eu/eurostat/web/main/news"
+      },
+      "subject": {
+        "primary_entity": "UNKNOWN",
+        "entity_status": "ENTITY_NOT_FOUND",
+        "candidates": [],
+        "why": "No entity signals found anywhere in context"
+      },
+      "event": {
+        "event_type": "monetary_policy_decision",
+        "event_state": "UNKNOWN",
+        "reference_period": "UNKNOWN",
+        "event_date": "UNKNOWN"
+      },
+      "readiness": "SEMANTICALLY_BLOCKED",
+      "product_value": "MEDIUM_VALUE",
+      "publisher_class": "PUBLISHER_CORRECT",
+      "firewall_check": {
+        "publisher_status": "CONFIRMED",
+        "subject_status": "ENTITY_NOT_FOUND",
+        "firewall_intact": true,
+        "violation": ""
+      }
+    },
+    {
+      "io_id": "io-b37f6c9f4f5b4a8a",
+      "event_type": "monetary_policy_decision",
+      "source_id": "imp-eurostat",
+      "source_name": "eurostat",
+      "headline": "eurostat sets policy rate at 0.0 — Q1 2026",
+      "fact_count": 9,
+      "publisher": {
+        "publisher_institution_id": "PUB-EUROSTAT",
+        "canonical_name": "Eurostat",
+        "institution_type": "STATISTICAL_AGENCY",
+        "jurisdiction": "European Union",
+        "status": "CONFIRMED",
+        "confidence": "HIGH",
+        "support_method": "SOURCE_REGISTRY",
+        "canonical_url": "https://ec.europa.eu/eurostat/web/main/news"
+      },
+      "subject": {
+        "primary_entity": "UNKNOWN",
+        "entity_status": "ENTITY_NOT_FOUND",
+        "candidates": [],
+        "why": "No entity signals found anywhere in context"
+      },
+      "event": {
+        "event_type": "monetary_policy_decision",
+        "event_state": "UNKNOWN",
+        "reference_period": "UNKNOWN",
+        "event_date": "UNKNOWN"
+      },
+      "readiness": "SEMANTICALLY_BLOCKED",
+      "product_value": "MEDIUM_VALUE",
+      "publisher_class": "PUBLISHER_CORRECT",
+      "firewall_check": {
+        "publisher_status": "CONFIRMED",
+        "subject_status": "ENTITY_NOT_FOUND",
+        "firewall_intact": true,
+        "violation": ""
+      }
+    },
+    {
+      "io_id": "io-cba6421b7b401b5d",
+      "event_type": "monetary_policy_decision",
+      "source_id": "imp-euronext",
+      "source_name": "euronext",
+      "headline": "euronext sets policy rate at 232",
+      "fact_count": 15,
+      "publisher": {
+        "publisher_institution_id": "PUB-EURONEXT",
+        "canonical_name": "Euronext",
+        "institution_type": "EXCHANGE",
+        "jurisdiction": "European Union",
+        "status": "CONFIRMED",
+        "confidence": "HIGH",
+        "support_method": "SOURCE_REGISTRY",
+        "canonical_url": "https://www.euronext.com"
+      },
+      "subject": {
+        "primary_entity": "UNKNOWN",
+        "entity_status": "ENTITY_NOT_FOUND",
+        "candidates": [],
+        "why": "No entity signals found anywhere in context"
+      },
+      "event": {
+        "event_type": "monetary_policy_decision",
+        "event_state": "UNKNOWN",
+        "reference_period": "UNKNOWN",
+        "event_date": "UNKNOWN"
+      },
+      "readiness": "SEMANTICALLY_BLOCKED",
+      "product_value": "MEDIUM_VALUE",
+      "publisher_class": "PUBLISHER_CORRECT",
+      "firewall_check": {
+        "publisher_status": "CONFIRMED",
+        "subject_status": "ENTITY_NOT_FOUND",
+        "firewall_intact": true,
+        "violation": ""
+      }
+    },
+    {
+      "io_id": "io-68aeb1a370c256a6",
+      "event_type": "monetary_policy_decision",
+      "source_id": "imp-federal-reserve",
+      "source_name": "federal-reserve",
+      "headline": "federal-reserve sets policy rate at 4",
+      "fact_count": 5,
+      "publisher": {
+        "publisher_institution_id": "PUB-FEDERAL_RESERVE",
+        "canonical_name": "Federal Reserve",
+        "institution_type": "CENTRAL_BANK",
+        "jurisdiction": "United States",
+        "status": "CONFIRMED",
+        "confidence": "MEDIUM",
+        "support_method": "SOURCE_DOMAIN",
+        "canonical_url": "https://www.federalreserve.gov/feeds/press_all.xml"
+      },
+      "subject": {
+        "primary_entity": "UNKNOWN",
+        "entity_status": "ENTITY_NOT_FOUND",
+        "candidates": [],
+        "why": "Entity signals found in non-primary segments only — not event-local"
+      },
+      "event": {
+        "event_type": "monetary_policy_decision",
+        "event_state": "UNKNOWN",
+        "reference_period": "UNKNOWN",
+        "event_date": "UNKNOWN"
+      },
+      "readiness": "SEMANTICALLY_BLOCKED",
+      "product_value": "MEDIUM_VALUE",
+      "publisher_class": "PUBLISHER_CORRECT",
+      "firewall_check": {
+        "publisher_status": "CONFIRMED",
+        "subject_status": "ENTITY_NOT_FOUND",
+        "firewall_intact": true,
+        "violation": ""
+      }
+    },
+    {
+      "io_id": "io-275f353119648d3f",
+      "event_type": "monetary_policy_decision",
+      "source_id": "imp-eurostat",
+      "source_name": "eurostat",
+      "headline": "eurostat sets policy rate at 0.5 — Q2 2026",
+      "fact_count": 27,
+      "publisher": {
+        "publisher_institution_id": "PUB-EUROSTAT",
+        "canonical_name": "Eurostat",
+        "institution_type": "STATISTICAL_AGENCY",
+        "jurisdiction": "European Union",
+        "status": "CONFIRMED",
+        "confidence": "HIGH",
+        "support_method": "SOURCE_REGISTRY",
+        "canonical_url": "https://ec.europa.eu/eurostat/web/main/news"
+      },
+      "subject": {
+        "primary_entity": "UNKNOWN",
+        "entity_status": "ENTITY_NOT_FOUND",
+        "candidates": [],
+        "why": "No entity signals found anywhere in context"
+      },
+      "event": {
+        "event_type": "monetary_policy_decision",
+        "event_state": "UNKNOWN",
+        "reference_period": "UNKNOWN",
+        "event_date": "in 2025"
+      },
+      "readiness": "SEMANTICALLY_BLOCKED",
+      "product_value": "MEDIUM_VALUE",
+      "publisher_class": "PUBLISHER_CORRECT",
+      "firewall_check": {
+        "publisher_status": "CONFIRMED",
+        "subject_status": "ENTITY_NOT_FOUND",
+        "firewall_intact": true,
+        "violation": ""
+      }
+    },
+    {
+      "io_id": "io-cb86ecb4e874af16",
+      "event_type": "monetary_policy_decision",
+      "source_id": "imp-eurostat",
+      "source_name": "eurostat",
+      "headline": "eurostat sets policy rate at 0.4 — second 2026",
+      "fact_count": 36,
+      "publisher": {
+        "publisher_institution_id": "PUB-EUROSTAT",
+        "canonical_name": "Eurostat",
+        "institution_type": "STATISTICAL_AGENCY",
+        "jurisdiction": "European Union",
+        "status": "CONFIRMED",
+        "confidence": "HIGH",
+        "support_method": "SOURCE_REGISTRY",
+        "canonical_url": "https://ec.europa.eu/eurostat/web/main/news"
+      },
+      "subject": {
+        "primary_entity": "UNKNOWN",
+        "entity_status": "ENTITY_NOT_FOUND",
+        "candidates": [],
+        "why": "Entity signals found in non-primary segments only — not event-local"
+      },
+      "event": {
+        "event_type": "monetary_policy_decision",
+        "event_state": "UNKNOWN",
+        "reference_period": "UNKNOWN",
+        "event_date": "UNKNOWN"
+      },
+      "readiness": "SEMANTICALLY_BLOCKED",
+      "product_value": "MEDIUM_VALUE",
+      "publisher_class": "PUBLISHER_CORRECT",
+      "firewall_check": {
+        "publisher_status": "CONFIRMED",
+        "subject_status": "ENTITY_NOT_FOUND",
+        "firewall_intact": true,
+        "violation": ""
+      }
+    },
+    {
+      "io_id": "io-55da9e9be0359c67",
+      "event_type": "monetary_policy_decision",
+      "source_id": "imp-stats-china",
+      "source_name": "stats-china",
+      "headline": "stats-china sets policy rate at 7",
+      "fact_count": 4,
+      "publisher": {
+        "publisher_institution_id": "PUB-STATS_CHINA",
+        "canonical_name": "National Bureau of Statistics of China",
+        "institution_type": "STATISTICAL_AGENCY",
+        "jurisdiction": "China",
+        "status": "CONFIRMED",
+        "confidence": "HIGH",
+        "support_method": "SOURCE_REGISTRY",
+        "canonical_url": "http://www.stats.gov.cn"
+      },
+      "subject": {
+        "primary_entity": "UNKNOWN",
+        "entity_status": "ENTITY_NOT_FOUND",
+        "candidates": [],
+        "why": "No entity signals found anywhere in context"
+      },
+      "event": {
+        "event_type": "monetary_policy_decision",
+        "event_state": "UNKNOWN",
+        "reference_period": "UNKNOWN",
+        "event_date": "UNKNOWN"
+      },
+      "readiness": "SEMANTICALLY_BLOCKED",
+      "product_value": "MEDIUM_VALUE",
+      "publisher_class": "PUBLISHER_CORRECT",
+      "firewall_check": {
+        "publisher_status": "CONFIRMED",
+        "subject_status": "ENTITY_NOT_FOUND",
+        "firewall_intact": true,
+        "violation": ""
+      }
+    },
+    {
+      "io_id": "io-bea0b6a376d6f629",
+      "event_type": "monetary_policy_decision",
+      "source_id": "imp-deutsche-boerse",
+      "source_name": "deutsche-boerse",
+      "headline": "deutsche-boerse sets policy rate at 16",
+      "fact_count": 35,
+      "publisher": {
+        "publisher_institution_id": "PUB-DEUTSCHE_BOERSE",
+        "canonical_name": "Deutsche Börse",
+        "institution_type": "EXCHANGE",
+        "jurisdiction": "Germany",
+        "status": "CONFIRMED",
+        "confidence": "HIGH",
+        "support_method": "SOURCE_REGISTRY",
+        "canonical_url": "https://www.deutsche-boerse.com"
+      },
+      "subject": {
+        "primary_entity": "UNKNOWN",
+        "entity_status": "ENTITY_NOT_FOUND",
+        "candidates": [],
+        "why": "No entity signals found anywhere in context"
+      },
+      "event": {
+        "event_type": "monetary_policy_decision",
+        "event_state": "INCREASED",
+        "reference_period": "in July 2026",
+        "event_date": "UNKNOWN"
+      },
+      "readiness": "SEMANTICALLY_BLOCKED",
+      "product_value": "MEDIUM_VALUE",
+      "publisher_class": "PUBLISHER_CORRECT",
+      "firewall_check": {
+        "publisher_status": "CONFIRMED",
+        "subject_status": "ENTITY_NOT_FOUND",
+        "firewall_intact": true,
+        "violation": ""
+      }
+    },
+    {
+      "io_id": "io-4d94300b4070757f",
+      "event_type": "monetary_policy_decision",
+      "source_id": "imp-fsb",
+      "source_name": "fsb",
+      "headline": "fsb sets policy rate at 77 — 2026-07",
+      "fact_count": 2,
+      "publisher": {
+        "publisher_institution_id": "PUB-FSB",
+        "canonical_name": "Financial Stability Board",
+        "institution_type": "INTERNATIONAL_ORGANIZATION",
+        "jurisdiction": "International",
+        "status": "CONFIRMED",
+        "confidence": "HIGH",
+        "support_method": "SOURCE_REGISTRY",
+        "canonical_url": "https://www.fsb.org/feed/"
+      },
+      "subject": {
+        "primary_entity": "UNKNOWN",
+        "entity_status": "ENTITY_NOT_FOUND",
+        "candidates": [],
+        "why": "No entity signals found anywhere in context"
+      },
+      "event": {
+        "event_type": "monetary_policy_decision",
+        "event_state": "UNKNOWN",
+        "reference_period": "UNKNOWN",
+        "event_date": "UNKNOWN"
+      },
+      "readiness": "SEMANTICALLY_BLOCKED",
+      "product_value": "MEDIUM_VALUE",
+      "publisher_class": "PUBLISHER_CORRECT",
+      "firewall_check": {
+        "publisher_status": "CONFIRMED",
+        "subject_status": "ENTITY_NOT_FOUND",
+        "firewall_intact": true,
+        "violation": ""
+      }
+    },
+    {
+      "io_id": "io-4534afa35d995d2a",
+      "event_type": "monetary_policy_decision",
+      "source_id": "imp-cftc",
+      "source_name": "cftc",
+      "headline": "cftc sets policy rate at 0.2",
+      "fact_count": 1,
+      "publisher": {
+        "publisher_institution_id": "PUB-CFTC",
+        "canonical_name": "Commodity Futures Trading Commission",
+        "institution_type": "SECURITIES_REGULATOR",
+        "jurisdiction": "United States",
+        "status": "CONFIRMED",
+        "confidence": "HIGH",
+        "support_method": "SOURCE_REGISTRY",
+        "canonical_url": "https://www.cftc.gov/PressRoom/PressReleases"
+      },
+      "subject": {
+        "primary_entity": "UNKNOWN",
+        "entity_status": "ENTITY_NOT_FOUND",
+        "candidates": [],
+        "why": "No entity signals found anywhere in context"
+      },
+      "event": {
+        "event_type": "monetary_policy_decision",
+        "event_state": "UNKNOWN",
+        "reference_period": "UNKNOWN",
+        "event_date": "UNKNOWN"
+      },
+      "readiness": "SEMANTICALLY_BLOCKED",
+      "product_value": "MEDIUM_VALUE",
+      "publisher_class": "PUBLISHER_CORRECT",
+      "firewall_check": {
+        "publisher_status": "CONFIRMED",
+        "subject_status": "ENTITY_NOT_FOUND",
+        "firewall_intact": true,
+        "violation": ""
+      }
+    },
+    {
+      "io_id": "io-74b51eefd13974d9",
+      "event_type": "statistical_release",
+      "source_id": "imp-bank-of-england",
+      "source_name": "bank-of-england",
+      "headline": "bank-of-england reports percentage statistic of 2",
+      "fact_count": 2,
+      "publisher": {
+        "publisher_institution_id": "PUB-BANK_OF_ENGLAND",
+        "canonical_name": "Bank Of England",
+        "institution_type": "OTHER",
+        "jurisdiction": null,
+        "status": "AMBIGUOUS",
+        "confidence": "LOW",
+        "support_method": "SOURCE_REGISTRY",
+        "canonical_url": "https://www.bankofengland.co.uk/news"
+      },
+      "subject": {
+        "primary_entity": "UNKNOWN",
+        "entity_status": "ENTITY_NOT_FOUND",
+        "candidates": [],
+        "why": "No entity signals found anywhere in context"
+      },
+      "event": {
+        "event_type": "statistical_release",
+        "event_state": "UNKNOWN",
+        "reference_period": "UNKNOWN",
+        "event_date": "UNKNOWN"
+      },
+      "readiness": "SEMANTICALLY_BLOCKED",
+      "product_value": "MEDIUM_VALUE",
+      "publisher_class": "PUBLISHER_AMBIGUOUS",
+      "firewall_check": {
+        "publisher_status": "AMBIGUOUS",
+        "subject_status": "ENTITY_NOT_FOUND",
+        "firewall_intact": true,
+        "violation": ""
+      }
+    },
+    {
+      "io_id": "io-bd378fea8d59bb17",
+      "event_type": "statistical_release",
+      "source_id": "imp-bank-of-england",
+      "source_name": "bank-of-england",
+      "headline": "bank-of-england reports percentage statistic of 2",
+      "fact_count": 2,
+      "publisher": {
+        "publisher_institution_id": "PUB-BANK_OF_ENGLAND",
+        "canonical_name": "Bank Of England",
+        "institution_type": "OTHER",
+        "jurisdiction": null,
+        "status": "AMBIGUOUS",
+        "confidence": "LOW",
+        "support_method": "SOURCE_REGISTRY",
+        "canonical_url": "https://www.bankofengland.co.uk/news"
+      },
+      "subject": {
+        "primary_entity": "UNKNOWN",
+        "entity_status": "ENTITY_NOT_FOUND",
+        "candidates": [],
+        "why": "No entity signals found anywhere in context"
+      },
+      "event": {
+        "event_type": "statistical_release",
+        "event_state": "UNKNOWN",
+        "reference_period": "UNKNOWN",
+        "event_date": "UNKNOWN"
+      },
+      "readiness": "SEMANTICALLY_BLOCKED",
+      "product_value": "MEDIUM_VALUE",
+      "publisher_class": "PUBLISHER_AMBIGUOUS",
+      "firewall_check": {
+        "publisher_status": "AMBIGUOUS",
+        "subject_status": "ENTITY_NOT_FOUND",
+        "firewall_intact": true,
+        "violation": ""
+      }
+    },
+    {
+      "io_id": "io-c6c8ac878a439394",
+      "event_type": "statistical_release",
+      "source_id": "imp-ecb",
+      "source_name": "ecb",
+      "headline": "ecb reports percentage statistic of 72",
+      "fact_count": 2,
+      "publisher": {
+        "publisher_institution_id": "PUB-ECB",
+        "canonical_name": "European Central Bank",
+        "institution_type": "CENTRAL_BANK",
+        "jurisdiction": "European Union",
+        "status": "CONFIRMED",
+        "confidence": "HIGH",
+        "support_method": "SOURCE_REGISTRY",
+        "canonical_url": "https://www.ecb.europa.eu/rss/press.html"
+      },
+      "subject": {
+        "primary_entity": "ECB",
+        "entity_status": "ENTITY_CONFIRMED",
+        "candidates": [
+          "ECB"
+        ],
+        "why": "Subject entity 'ECB' confirmed by event-local segment binding"
+      },
+      "event": {
+        "event_type": "statistical_release",
+        "event_state": "UNKNOWN",
+        "reference_period": "29 October 2025",
+        "event_date": "UNKNOWN"
+      },
+      "readiness": "SEMANTICALLY_PARTIAL",
+      "product_value": "MEDIUM_VALUE",
+      "publisher_class": "PUBLISHER_CORRECT",
+      "firewall_check": {
+        "publisher_status": "CONFIRMED",
+        "subject_status": "ENTITY_CONFIRMED",
+        "firewall_intact": true,
+        "violation": ""
+      }
+    },
+    {
+      "io_id": "io-43450fbfbd3f5f48",
+      "event_type": "statistical_release",
+      "source_id": "imp-ecb",
+      "source_name": "ecb",
+      "headline": "ecb reports percentage statistic of 5 — 2026",
+      "fact_count": 2,
+      "publisher": {
+        "publisher_institution_id": "PUB-ECB",
+        "canonical_name": "European Central Bank",
+        "institution_type": "CENTRAL_BANK",
+        "jurisdiction": "European Union",
+        "status": "CONFIRMED",
+        "confidence": "HIGH",
+        "support_method": "SOURCE_REGISTRY",
+        "canonical_url": "https://www.ecb.europa.eu/rss/press.html"
+      },
+      "subject": {
+        "primary_entity": "UNKNOWN",
+        "entity_status": "ENTITY_NOT_FOUND",
+        "candidates": [],
+        "why": "Entity signals found in non-primary segments only — not event-local"
+      },
+      "event": {
+        "event_type": "statistical_release",
+        "event_state": "UNKNOWN",
+        "reference_period": "UNKNOWN",
+        "event_date": "UNKNOWN"
+      },
+      "readiness": "SEMANTICALLY_BLOCKED",
+      "product_value": "MEDIUM_VALUE",
+      "publisher_class": "PUBLISHER_CORRECT",
+      "firewall_check": {
+        "publisher_status": "CONFIRMED",
+        "subject_status": "ENTITY_NOT_FOUND",
+        "firewall_intact": true,
+        "violation": ""
+      }
+    },
+    {
+      "io_id": "io-a27ee61aa6026a13",
+      "event_type": "statistical_release",
+      "source_id": "imp-ecb",
+      "source_name": "ecb",
+      "headline": "ecb reports percentage statistic of 31 — 2026",
+      "fact_count": 6,
+      "publisher": {
+        "publisher_institution_id": "PUB-ECB",
+        "canonical_name": "European Central Bank",
+        "institution_type": "CENTRAL_BANK",
+        "jurisdiction": "European Union",
+        "status": "CONFIRMED",
+        "confidence": "HIGH",
+        "support_method": "SOURCE_REGISTRY",
+        "canonical_url": "https://www.ecb.europa.eu/rss/press.html"
+      },
+      "subject": {
+        "primary_entity": "UNKNOWN",
+        "entity_status": "ENTITY_NOT_FOUND",
+        "candidates": [],
+        "why": "Entity signals found in non-primary segments only — not event-local"
+      },
+      "event": {
+        "event_type": "statistical_release",
+        "event_state": "UNKNOWN",
+        "reference_period": "UNKNOWN",
+        "event_date": "UNKNOWN"
+      },
+      "readiness": "SEMANTICALLY_BLOCKED",
+      "product_value": "MEDIUM_VALUE",
+      "publisher_class": "PUBLISHER_CORRECT",
+      "firewall_check": {
+        "publisher_status": "CONFIRMED",
+        "subject_status": "ENTITY_NOT_FOUND",
+        "firewall_intact": true,
+        "violation": ""
+      }
+    },
+    {
+      "io_id": "io-f803af6f431d9f8a",
+      "event_type": "statistical_release",
+      "source_id": "imp-bank-of-england",
+      "source_name": "bank-of-england",
+      "headline": "bank-of-england reports percentage statistic of 2",
+      "fact_count": 36,
+      "publisher": {
+        "publisher_institution_id": "PUB-BANK_OF_ENGLAND",
+        "canonical_name": "Bank Of England",
+        "institution_type": "OTHER",
+        "jurisdiction": null,
+        "status": "AMBIGUOUS",
+        "confidence": "LOW",
+        "support_method": "SOURCE_REGISTRY",
+        "canonical_url": "https://www.bankofengland.co.uk/news"
+      },
+      "subject": {
+        "primary_entity": "UNKNOWN",
+        "entity_status": "ENTITY_NOT_FOUND",
+        "candidates": [],
+        "why": "No entity signals found anywhere in context"
+      },
+      "event": {
+        "event_type": "statistical_release",
+        "event_state": "UNKNOWN",
+        "reference_period": "UNKNOWN",
+        "event_date": "UNKNOWN"
+      },
+      "readiness": "SEMANTICALLY_BLOCKED",
+      "product_value": "MEDIUM_VALUE",
+      "publisher_class": "PUBLISHER_AMBIGUOUS",
+      "firewall_check": {
+        "publisher_status": "AMBIGUOUS",
+        "subject_status": "ENTITY_NOT_FOUND",
+        "firewall_intact": true,
+        "violation": ""
+      }
+    },
+    {
+      "io_id": "io-0da4c931b2a04e1a",
+      "event_type": "statistical_release",
+      "source_id": "imp-bank-of-england",
+      "source_name": "bank-of-england",
+      "headline": "bank-of-england reports percentage statistic of 2",
+      "fact_count": 2,
+      "publisher": {
+        "publisher_institution_id": "PUB-BANK_OF_ENGLAND",
+        "canonical_name": "Bank Of England",
+        "institution_type": "OTHER",
+        "jurisdiction": null,
+        "status": "AMBIGUOUS",
+        "confidence": "LOW",
+        "support_method": "SOURCE_REGISTRY",
+        "canonical_url": "https://www.bankofengland.co.uk/news"
+      },
+      "subject": {
+        "primary_entity": "UNKNOWN",
+        "entity_status": "ENTITY_NOT_FOUND",
+        "candidates": [],
+        "why": "No entity signals found anywhere in context"
+      },
+      "event": {
+        "event_type": "statistical_release",
+        "event_state": "UNKNOWN",
+        "reference_period": "UNKNOWN",
+        "event_date": "UNKNOWN"
+      },
+      "readiness": "SEMANTICALLY_BLOCKED",
+      "product_value": "MEDIUM_VALUE",
+      "publisher_class": "PUBLISHER_AMBIGUOUS",
+      "firewall_check": {
+        "publisher_status": "AMBIGUOUS",
+        "subject_status": "ENTITY_NOT_FOUND",
+        "firewall_intact": true,
+        "violation": ""
+      }
+    },
+    {
+      "io_id": "io-3397bcfeb16c1522",
+      "event_type": "statistical_release",
+      "source_id": "imp-bank-of-england",
+      "source_name": "bank-of-england",
+      "headline": "bank-of-england reports percentage statistic of 2",
+      "fact_count": 2,
+      "publisher": {
+        "publisher_institution_id": "PUB-BANK_OF_ENGLAND",
+        "canonical_name": "Bank Of England",
+        "institution_type": "OTHER",
+        "jurisdiction": null,
+        "status": "AMBIGUOUS",
+        "confidence": "LOW",
+        "support_method": "SOURCE_REGISTRY",
+        "canonical_url": "https://www.bankofengland.co.uk/news"
+      },
+      "subject": {
+        "primary_entity": "UNKNOWN",
+        "entity_status": "ENTITY_NOT_FOUND",
+        "candidates": [],
+        "why": "No entity signals found anywhere in context"
+      },
+      "event": {
+        "event_type": "statistical_release",
+        "event_state": "UNKNOWN",
+        "reference_period": "UNKNOWN",
+        "event_date": "UNKNOWN"
+      },
+      "readiness": "SEMANTICALLY_BLOCKED",
+      "product_value": "MEDIUM_VALUE",
+      "publisher_class": "PUBLISHER_AMBIGUOUS",
+      "firewall_check": {
+        "publisher_status": "AMBIGUOUS",
+        "subject_status": "ENTITY_NOT_FOUND",
+        "firewall_intact": true,
+        "violation": ""
+      }
+    },
+    {
+      "io_id": "io-877cfaba4b9dc235",
+      "event_type": "statistical_release",
+      "source_id": "imp-bank-of-england",
+      "source_name": "bank-of-england",
+      "headline": "bank-of-england reports percentage statistic of 2",
+      "fact_count": 4,
+      "publisher": {
+        "publisher_institution_id": "PUB-BANK_OF_ENGLAND",
+        "canonical_name": "Bank Of England",
+        "institution_type": "OTHER",
+        "jurisdiction": null,
+        "status": "AMBIGUOUS",
+        "confidence": "LOW",
+        "support_method": "SOURCE_REGISTRY",
+        "canonical_url": "https://www.bankofengland.co.uk/news"
+      },
+      "subject": {
+        "primary_entity": "UNKNOWN",
+        "entity_status": "ENTITY_NOT_FOUND",
+        "candidates": [],
+        "why": "No entity signals found anywhere in context"
+      },
+      "event": {
+        "event_type": "statistical_release",
+        "event_state": "UNKNOWN",
+        "reference_period": "UNKNOWN",
+        "event_date": "UNKNOWN"
+      },
+      "readiness": "SEMANTICALLY_BLOCKED",
+      "product_value": "MEDIUM_VALUE",
+      "publisher_class": "PUBLISHER_AMBIGUOUS",
+      "firewall_check": {
+        "publisher_status": "AMBIGUOUS",
+        "subject_status": "ENTITY_NOT_FOUND",
+        "firewall_intact": true,
+        "violation": ""
+      }
+    },
+    {
+      "io_id": "io-7a2ef7f9417df7ab",
+      "event_type": "statistical_release",
+      "source_id": "imp-bank-of-england",
+      "source_name": "bank-of-england",
+      "headline": "bank-of-england reports percentage statistic of 2",
+      "fact_count": 2,
+      "publisher": {
+        "publisher_institution_id": "PUB-BANK_OF_ENGLAND",
+        "canonical_name": "Bank Of England",
+        "institution_type": "OTHER",
+        "jurisdiction": null,
+        "status": "AMBIGUOUS",
+        "confidence": "LOW",
+        "support_method": "SOURCE_REGISTRY",
+        "canonical_url": "https://www.bankofengland.co.uk/news"
+      },
+      "subject": {
+        "primary_entity": "UNKNOWN",
+        "entity_status": "ENTITY_NOT_FOUND",
+        "candidates": [],
+        "why": "No entity signals found anywhere in context"
+      },
+      "event": {
+        "event_type": "statistical_release",
+        "event_state": "UNKNOWN",
+        "reference_period": "UNKNOWN",
+        "event_date": "UNKNOWN"
+      },
+      "readiness": "SEMANTICALLY_BLOCKED",
+      "product_value": "MEDIUM_VALUE",
+      "publisher_class": "PUBLISHER_AMBIGUOUS",
+      "firewall_check": {
+        "publisher_status": "AMBIGUOUS",
+        "subject_status": "ENTITY_NOT_FOUND",
+        "firewall_intact": true,
+        "violation": ""
+      }
+    },
+    {
+      "io_id": "io-0a2164dff20884fa",
+      "event_type": "regulatory_enforcement",
+      "source_id": "imp-ecb",
+      "source_name": "ecb",
+      "headline": "ecb enforcement: action type settlement — 2026",
+      "fact_count": 1,
+      "publisher": {
+        "publisher_institution_id": "PUB-ECB",
+        "canonical_name": "European Central Bank",
+        "institution_type": "CENTRAL_BANK",
+        "jurisdiction": "European Union",
+        "status": "CONFIRMED",
+        "confidence": "HIGH",
+        "support_method": "SOURCE_REGISTRY",
+        "canonical_url": "https://www.ecb.europa.eu/rss/press.html"
+      },
+      "subject": {
+        "primary_entity": "UNKNOWN",
+        "entity_status": "ENTITY_NOT_FOUND",
+        "candidates": [],
+        "why": "No entity signals found anywhere in context"
+      },
+      "event": {
+        "event_type": "regulatory_enforcement",
+        "event_state": "UNKNOWN",
+        "reference_period": "UNKNOWN",
+        "event_date": "UNKNOWN"
+      },
+      "readiness": "SEMANTICALLY_BLOCKED",
+      "product_value": "LOW_VALUE",
+      "publisher_class": "PUBLISHER_CORRECT",
+      "firewall_check": {
+        "publisher_status": "CONFIRMED",
+        "subject_status": "ENTITY_NOT_FOUND",
+        "firewall_intact": true,
+        "violation": ""
+      }
+    },
+    {
+      "io_id": "io-ee8a8257ce0e86ba",
+      "event_type": "regulatory_enforcement",
+      "source_id": "imp-cftc",
+      "source_name": "cftc",
+      "headline": "cftc enforcement: penalty amount 400",
+      "fact_count": 4,
+      "publisher": {
+        "publisher_institution_id": "PUB-CFTC",
+        "canonical_name": "Commodity Futures Trading Commission",
+        "institution_type": "SECURITIES_REGULATOR",
+        "jurisdiction": "United States",
+        "status": "CONFIRMED",
+        "confidence": "HIGH",
+        "support_method": "SOURCE_REGISTRY",
+        "canonical_url": "https://www.cftc.gov/PressRoom/PressReleases"
+      },
+      "subject": {
+        "primary_entity": "CFTC",
+        "entity_status": "ENTITY_CONFIRMED",
+        "candidates": [
+          "CFTC"
+        ],
+        "why": "Subject entity 'CFTC' confirmed by event-local segment binding"
+      },
+      "event": {
+        "event_type": "regulatory_enforcement",
+        "event_state": "UNKNOWN",
+        "reference_period": "UNKNOWN",
+        "event_date": "UNKNOWN"
+      },
+      "readiness": "SEMANTICALLY_PARTIAL",
+      "product_value": "MEDIUM_VALUE",
+      "publisher_class": "PUBLISHER_CORRECT",
+      "firewall_check": {
+        "publisher_status": "CONFIRMED",
+        "subject_status": "ENTITY_CONFIRMED",
+        "firewall_intact": true,
+        "violation": ""
+      }
+    },
+    {
+      "io_id": "io-b6abac1393987508",
+      "event_type": "regulatory_enforcement",
+      "source_id": "imp-esma",
+      "source_name": "esma",
+      "headline": "esma enforcement: action type settlement",
+      "fact_count": 1,
+      "publisher": {
+        "publisher_institution_id": "PUB-ESMA",
+        "canonical_name": "European Securities and Markets Authority",
+        "institution_type": "SECURITIES_REGULATOR",
+        "jurisdiction": "European Union",
+        "status": "CONFIRMED",
+        "confidence": "HIGH",
+        "support_method": "SOURCE_REGISTRY",
+        "canonical_url": "https://www.esma.europa.eu/rss.xml"
+      },
+      "subject": {
+        "primary_entity": "UNKNOWN",
+        "entity_status": "ENTITY_NOT_FOUND",
+        "candidates": [],
+        "why": "No entity signals found anywhere in context"
+      },
+      "event": {
+        "event_type": "regulatory_enforcement",
+        "event_state": "UNKNOWN",
+        "reference_period": "UNKNOWN",
+        "event_date": "UNKNOWN"
+      },
+      "readiness": "SEMANTICALLY_BLOCKED",
+      "product_value": "LOW_VALUE",
+      "publisher_class": "PUBLISHER_CORRECT",
+      "firewall_check": {
+        "publisher_status": "CONFIRMED",
+        "subject_status": "ENTITY_NOT_FOUND",
+        "firewall_intact": true,
+        "violation": ""
+      }
+    },
+    {
+      "io_id": "io-5150003cff76e0ab",
+      "event_type": "regulatory_enforcement",
+      "source_id": "imp-esma",
+      "source_name": "esma",
+      "headline": "esma enforcement: action type settlement",
+      "fact_count": 1,
+      "publisher": {
+        "publisher_institution_id": "PUB-ESMA",
+        "canonical_name": "European Securities and Markets Authority",
+        "institution_type": "SECURITIES_REGULATOR",
+        "jurisdiction": "European Union",
+        "status": "CONFIRMED",
+        "confidence": "HIGH",
+        "support_method": "SOURCE_REGISTRY",
+        "canonical_url": "https://www.esma.europa.eu/rss.xml"
+      },
+      "subject": {
+        "primary_entity": "UNKNOWN",
+        "entity_status": "ENTITY_NOT_FOUND",
+        "candidates": [],
+        "why": "No entity signals found anywhere in context"
+      },
+      "event": {
+        "event_type": "regulatory_enforcement",
+        "event_state": "UNKNOWN",
+        "reference_period": "UNKNOWN",
+        "event_date": "UNKNOWN"
+      },
+      "readiness": "SEMANTICALLY_BLOCKED",
+      "product_value": "LOW_VALUE",
+      "publisher_class": "PUBLISHER_CORRECT",
+      "firewall_check": {
+        "publisher_status": "CONFIRMED",
+        "subject_status": "ENTITY_NOT_FOUND",
+        "firewall_intact": true,
+        "violation": ""
+      }
+    },
+    {
+      "io_id": "io-eb4ea7a98e0e81d3",
+      "event_type": "regulatory_enforcement",
+      "source_id": "imp-esma",
+      "source_name": "esma",
+      "headline": "esma enforcement: action type settlement",
+      "fact_count": 1,
+      "publisher": {
+        "publisher_institution_id": "PUB-ESMA",
+        "canonical_name": "European Securities and Markets Authority",
+        "institution_type": "SECURITIES_REGULATOR",
+        "jurisdiction": "European Union",
+        "status": "CONFIRMED",
+        "confidence": "HIGH",
+        "support_method": "SOURCE_REGISTRY",
+        "canonical_url": "https://www.esma.europa.eu/rss.xml"
+      },
+      "subject": {
+        "primary_entity": "UNKNOWN",
+        "entity_status": "ENTITY_NOT_FOUND",
+        "candidates": [],
+        "why": "No entity signals found anywhere in context"
+      },
+      "event": {
+        "event_type": "regulatory_enforcement",
+        "event_state": "UNKNOWN",
+        "reference_period": "UNKNOWN",
+        "event_date": "UNKNOWN"
+      },
+      "readiness": "SEMANTICALLY_BLOCKED",
+      "product_value": "LOW_VALUE",
+      "publisher_class": "PUBLISHER_CORRECT",
+      "firewall_check": {
+        "publisher_status": "CONFIRMED",
+        "subject_status": "ENTITY_NOT_FOUND",
+        "firewall_intact": true,
+        "violation": ""
+      }
+    },
+    {
+      "io_id": "io-936e16f976e71fe5",
+      "event_type": "regulatory_enforcement",
+      "source_id": "imp-fca",
+      "source_name": "fca",
+      "headline": "fca enforcement: action type settlement — 2027",
+      "fact_count": 26,
+      "publisher": {
+        "publisher_institution_id": "PUB-FCA",
+        "canonical_name": "Financial Conduct Authority",
+        "institution_type": "REGULATOR",
+        "jurisdiction": "United Kingdom",
+        "status": "CONFIRMED",
+        "confidence": "HIGH",
+        "support_method": "SOURCE_REGISTRY",
+        "canonical_url": "https://www.fca.org.uk/news/rss.xml"
+      },
+      "subject": {
+        "primary_entity": "UNKNOWN",
+        "entity_status": "ENTITY_NOT_FOUND",
+        "candidates": [],
+        "why": "No entity signals found anywhere in context"
+      },
+      "event": {
+        "event_type": "regulatory_enforcement",
+        "event_state": "UNKNOWN",
+        "reference_period": "11 October 2027",
+        "event_date": "UNKNOWN"
+      },
+      "readiness": "SEMANTICALLY_BLOCKED",
+      "product_value": "MEDIUM_VALUE",
+      "publisher_class": "PUBLISHER_CORRECT",
+      "firewall_check": {
+        "publisher_status": "CONFIRMED",
+        "subject_status": "ENTITY_NOT_FOUND",
+        "firewall_intact": true,
+        "violation": ""
+      }
+    },
+    {
+      "io_id": "io-e1c8fef2c0eb8d6e",
+      "event_type": "regulatory_enforcement",
+      "source_id": "imp-euronext",
+      "source_name": "euronext",
+      "headline": "euronext enforcement: action type settlement",
+      "fact_count": 6,
+      "publisher": {
+        "publisher_institution_id": "PUB-EURONEXT",
+        "canonical_name": "Euronext",
+        "institution_type": "EXCHANGE",
+        "jurisdiction": "European Union",
+        "status": "CONFIRMED",
+        "confidence": "HIGH",
+        "support_method": "SOURCE_REGISTRY",
+        "canonical_url": "https://www.euronext.com"
+      },
+      "subject": {
+        "primary_entity": "UNKNOWN",
+        "entity_status": "ENTITY_NOT_FOUND",
+        "candidates": [],
+        "why": "No entity signals found anywhere in context"
+      },
+      "event": {
+        "event_type": "regulatory_enforcement",
+        "event_state": "UNKNOWN",
+        "reference_period": "UNKNOWN",
+        "event_date": "UNKNOWN"
+      },
+      "readiness": "SEMANTICALLY_BLOCKED",
+      "product_value": "LOW_VALUE",
+      "publisher_class": "PUBLISHER_CORRECT",
+      "firewall_check": {
+        "publisher_status": "CONFIRMED",
+        "subject_status": "ENTITY_NOT_FOUND",
+        "firewall_intact": true,
+        "violation": ""
+      }
+    },
+    {
+      "io_id": "io-81354940d43ef28d",
+      "event_type": "regulatory_enforcement",
+      "source_id": "imp-euronext",
+      "source_name": "euronext",
+      "headline": "euronext enforcement: action type settlement",
+      "fact_count": 6,
+      "publisher": {
+        "publisher_institution_id": "PUB-EURONEXT",
+        "canonical_name": "Euronext",
+        "institution_type": "EXCHANGE",
+        "jurisdiction": "European Union",
+        "status": "CONFIRMED",
+        "confidence": "HIGH",
+        "support_method": "SOURCE_REGISTRY",
+        "canonical_url": "https://www.euronext.com"
+      },
+      "subject": {
+        "primary_entity": "UNKNOWN",
+        "entity_status": "ENTITY_NOT_FOUND",
+        "candidates": [],
+        "why": "No entity signals found anywhere in context"
+      },
+      "event": {
+        "event_type": "regulatory_enforcement",
+        "event_state": "UNKNOWN",
+        "reference_period": "UNKNOWN",
+        "event_date": "UNKNOWN"
+      },
+      "readiness": "SEMANTICALLY_BLOCKED",
+      "product_value": "LOW_VALUE",
+      "publisher_class": "PUBLISHER_CORRECT",
+      "firewall_check": {
+        "publisher_status": "CONFIRMED",
+        "subject_status": "ENTITY_NOT_FOUND",
+        "firewall_intact": true,
+        "violation": ""
+      }
+    },
+    {
+      "io_id": "io-fe0ecf5fbcc92531",
+      "event_type": "regulatory_enforcement",
+      "source_id": "imp-ecb",
+      "source_name": "ecb",
+      "headline": "ecb enforcement: action type settlement — 2026",
+      "fact_count": 1,
+      "publisher": {
+        "publisher_institution_id": "PUB-ECB",
+        "canonical_name": "European Central Bank",
+        "institution_type": "CENTRAL_BANK",
+        "jurisdiction": "European Union",
+        "status": "CONFIRMED",
+        "confidence": "HIGH",
+        "support_method": "SOURCE_REGISTRY",
+        "canonical_url": "https://www.ecb.europa.eu/rss/press.html"
+      },
+      "subject": {
+        "primary_entity": "UNKNOWN",
+        "entity_status": "ENTITY_NOT_FOUND",
+        "candidates": [],
+        "why": "No entity signals found anywhere in context"
+      },
+      "event": {
+        "event_type": "regulatory_enforcement",
+        "event_state": "UNKNOWN",
+        "reference_period": "UNKNOWN",
+        "event_date": "UNKNOWN"
+      },
+      "readiness": "SEMANTICALLY_BLOCKED",
+      "product_value": "LOW_VALUE",
+      "publisher_class": "PUBLISHER_CORRECT",
+      "firewall_check": {
+        "publisher_status": "CONFIRMED",
+        "subject_status": "ENTITY_NOT_FOUND",
+        "firewall_intact": true,
+        "violation": ""
+      }
+    },
+    {
+      "io_id": "io-e65a9b3a70a171e4",
+      "event_type": "regulatory_enforcement",
+      "source_id": "imp-eurostat",
+      "source_name": "eurostat",
+      "headline": "eurostat enforcement: action type fine",
+      "fact_count": 2,
+      "publisher": {
+        "publisher_institution_id": "PUB-EUROSTAT",
+        "canonical_name": "Eurostat",
+        "institution_type": "STATISTICAL_AGENCY",
+        "jurisdiction": "European Union",
+        "status": "CONFIRMED",
+        "confidence": "HIGH",
+        "support_method": "SOURCE_REGISTRY",
+        "canonical_url": "https://ec.europa.eu/eurostat/web/main/news"
+      },
+      "subject": {
+        "primary_entity": "EUROSTAT",
+        "entity_status": "ENTITY_CONFIRMED",
+        "candidates": [
+          "EUROSTAT"
+        ],
+        "why": "Subject entity 'EUROSTAT' confirmed by event-local segment binding"
+      },
+      "event": {
+        "event_type": "regulatory_enforcement",
+        "event_state": "UNKNOWN",
+        "reference_period": "UNKNOWN",
+        "event_date": "UNKNOWN"
+      },
+      "readiness": "SEMANTICALLY_PARTIAL",
+      "product_value": "MEDIUM_VALUE",
+      "publisher_class": "PUBLISHER_CORRECT",
+      "firewall_check": {
+        "publisher_status": "CONFIRMED",
+        "subject_status": "ENTITY_CONFIRMED",
+        "firewall_intact": true,
+        "violation": ""
+      }
+    },
+    {
+      "io_id": "io-005045dcc6e7f54f",
+      "event_type": "market_statistic_release",
+      "source_id": "imp-federal-reserve",
+      "source_name": "federal-reserve",
+      "headline": "federal-reserve market usd amount 3",
+      "fact_count": 1,
+      "publisher": {
+        "publisher_institution_id": "PUB-FEDERAL_RESERVE",
+        "canonical_name": "Federal Reserve",
+        "institution_type": "CENTRAL_BANK",
+        "jurisdiction": "United States",
+        "status": "CONFIRMED",
+        "confidence": "MEDIUM",
+        "support_method": "SOURCE_DOMAIN",
+        "canonical_url": "https://www.federalreserve.gov/feeds/press_all.xml"
+      },
+      "subject": {
+        "primary_entity": "FED",
+        "entity_status": "ENTITY_CONFIRMED",
+        "candidates": [
+          "FED"
+        ],
+        "why": "Subject entity 'FED' confirmed by event-local segment binding"
+      },
+      "event": {
+        "event_type": "market_statistic_release",
+        "event_state": "UNKNOWN",
+        "reference_period": "UNKNOWN",
+        "event_date": "UNKNOWN"
+      },
+      "readiness": "SEMANTICALLY_PARTIAL",
+      "product_value": "MEDIUM_VALUE",
+      "publisher_class": "PUBLISHER_CORRECT",
+      "firewall_check": {
+        "publisher_status": "CONFIRMED",
+        "subject_status": "ENTITY_CONFIRMED",
+        "firewall_intact": true,
+        "violation": ""
+      }
+    },
+    {
+      "io_id": "io-73d389d84d737535",
+      "event_type": "market_statistic_release",
+      "source_id": "imp-cftc",
+      "source_name": "cftc",
+      "headline": "cftc market usd amount 36",
+      "fact_count": 1,
+      "publisher": {
+        "publisher_institution_id": "PUB-CFTC",
+        "canonical_name": "Commodity Futures Trading Commission",
+        "institution_type": "SECURITIES_REGULATOR",
+        "jurisdiction": "United States",
+        "status": "CONFIRMED",
+        "confidence": "HIGH",
+        "support_method": "SOURCE_REGISTRY",
+        "canonical_url": "https://www.cftc.gov/PressRoom/PressReleases"
+      },
+      "subject": {
+        "primary_entity": "UNKNOWN",
+        "entity_status": "ENTITY_NOT_FOUND",
+        "candidates": [],
+        "why": "Entity signals found in non-primary segments only — not event-local"
+      },
+      "event": {
+        "event_type": "market_statistic_release",
+        "event_state": "UNKNOWN",
+        "reference_period": "UNKNOWN",
+        "event_date": "UNKNOWN"
+      },
+      "readiness": "SEMANTICALLY_BLOCKED",
+      "product_value": "MEDIUM_VALUE",
+      "publisher_class": "PUBLISHER_CORRECT",
+      "firewall_check": {
+        "publisher_status": "CONFIRMED",
+        "subject_status": "ENTITY_NOT_FOUND",
+        "firewall_intact": true,
+        "violation": ""
+      }
+    },
+    {
+      "io_id": "io-e634047f1888f551",
+      "event_type": "market_statistic_release",
+      "source_id": "imp-cftc",
+      "source_name": "cftc",
+      "headline": "cftc market usd amount 397",
+      "fact_count": 1,
+      "publisher": {
+        "publisher_institution_id": "PUB-CFTC",
+        "canonical_name": "Commodity Futures Trading Commission",
+        "institution_type": "SECURITIES_REGULATOR",
+        "jurisdiction": "United States",
+        "status": "CONFIRMED",
+        "confidence": "HIGH",
+        "support_method": "SOURCE_REGISTRY",
+        "canonical_url": "https://www.cftc.gov/PressRoom/PressReleases"
+      },
+      "subject": {
+        "primary_entity": "UNKNOWN",
+        "entity_status": "ENTITY_NOT_FOUND",
+        "candidates": [],
+        "why": "Entity signals found in non-primary segments only — not event-local"
+      },
+      "event": {
+        "event_type": "market_statistic_release",
+        "event_state": "UNKNOWN",
+        "reference_period": "UNKNOWN",
+        "event_date": "UNKNOWN"
+      },
+      "readiness": "SEMANTICALLY_BLOCKED",
+      "product_value": "MEDIUM_VALUE",
+      "publisher_class": "PUBLISHER_CORRECT",
+      "firewall_check": {
+        "publisher_status": "CONFIRMED",
+        "subject_status": "ENTITY_NOT_FOUND",
+        "firewall_intact": true,
+        "violation": ""
+      }
+    },
+    {
+      "io_id": "io-d06c7cf2f00b4891",
+      "event_type": "market_statistic_release",
+      "source_id": "src-frb-ny",
+      "source_name": "frb-ny",
+      "headline": "frb-ny market usd amount 1.3",
+      "fact_count": 3,
+      "publisher": {
+        "publisher_institution_id": "PUB-FRB_NY",
+        "canonical_name": "Frb Ny",
+        "institution_type": "OTHER",
+        "jurisdiction": null,
+        "status": "AMBIGUOUS",
+        "confidence": "LOW",
+        "support_method": "SOURCE_REGISTRY",
+        "canonical_url": "https://www.newyorkfed.org"
+      },
+      "subject": {
+        "primary_entity": "UNKNOWN",
+        "entity_status": "ENTITY_NOT_FOUND",
+        "candidates": [],
+        "why": "Entity signals found in non-primary segments only — not event-local"
+      },
+      "event": {
+        "event_type": "market_statistic_release",
+        "event_state": "UNKNOWN",
+        "reference_period": "UNKNOWN",
+        "event_date": "UNKNOWN"
+      },
+      "readiness": "SEMANTICALLY_BLOCKED",
+      "product_value": "MEDIUM_VALUE",
+      "publisher_class": "PUBLISHER_AMBIGUOUS",
+      "firewall_check": {
+        "publisher_status": "AMBIGUOUS",
+        "subject_status": "ENTITY_NOT_FOUND",
+        "firewall_intact": true,
+        "violation": ""
+      }
+    },
+    {
+      "io_id": "io-a1868489de0e9e2e",
+      "event_type": "market_statistic_release",
+      "source_id": "src-frb-ny",
+      "source_name": "frb-ny",
+      "headline": "frb-ny market usd amount 232 — Q2 2023",
+      "fact_count": 5,
+      "publisher": {
+        "publisher_institution_id": "PUB-FRB_NY",
+        "canonical_name": "Frb Ny",
+        "institution_type": "OTHER",
+        "jurisdiction": null,
+        "status": "AMBIGUOUS",
+        "confidence": "LOW",
+        "support_method": "SOURCE_REGISTRY",
+        "canonical_url": "https://www.newyorkfed.org"
+      },
+      "subject": {
+        "primary_entity": "UNKNOWN",
+        "entity_status": "ENTITY_NOT_FOUND",
+        "candidates": [],
+        "why": "Entity signals found in non-primary segments only — not event-local"
+      },
+      "event": {
+        "event_type": "market_statistic_release",
+        "event_state": "INCREASED",
+        "reference_period": "May 16, 2024",
+        "event_date": "UNKNOWN"
+      },
+      "readiness": "SEMANTICALLY_BLOCKED",
+      "product_value": "MEDIUM_VALUE",
+      "publisher_class": "PUBLISHER_AMBIGUOUS",
+      "firewall_check": {
+        "publisher_status": "AMBIGUOUS",
+        "subject_status": "ENTITY_NOT_FOUND",
+        "firewall_intact": true,
+        "violation": ""
+      }
+    },
+    {
+      "io_id": "io-655c974c29eeb347",
+      "event_type": "market_statistic_release",
+      "source_id": "src-nrcan",
+      "source_name": "nrcan",
+      "headline": "nrcan market usd amount 32",
+      "fact_count": 3,
+      "publisher": {
+        "publisher_institution_id": "PUB-NRCAN",
+        "canonical_name": "Nrcan",
+        "institution_type": "OTHER",
+        "jurisdiction": null,
+        "status": "AMBIGUOUS",
+        "confidence": "LOW",
+        "support_method": "SOURCE_REGISTRY",
+        "canonical_url": "https://www.nrcan.gc.ca"
+      },
+      "subject": {
+        "primary_entity": "UNKNOWN",
+        "entity_status": "ENTITY_NOT_FOUND",
+        "candidates": [],
+        "why": "No entity signals found anywhere in context"
+      },
+      "event": {
+        "event_type": "market_statistic_release",
+        "event_state": "UNKNOWN",
+        "reference_period": "UNKNOWN",
+        "event_date": "UNKNOWN"
+      },
+      "readiness": "SEMANTICALLY_BLOCKED",
+      "product_value": "MEDIUM_VALUE",
+      "publisher_class": "PUBLISHER_AMBIGUOUS",
+      "firewall_check": {
+        "publisher_status": "AMBIGUOUS",
+        "subject_status": "ENTITY_NOT_FOUND",
+        "firewall_intact": true,
+        "violation": ""
+      }
+    },
+    {
+      "io_id": "io-1ac47bbc74796a1a",
+      "event_type": "market_statistic_release",
+      "source_id": "src-nrcan",
+      "source_name": "nrcan",
+      "headline": "nrcan market usd amount 10",
+      "fact_count": 3,
+      "publisher": {
+        "publisher_institution_id": "PUB-NRCAN",
+        "canonical_name": "Nrcan",
+        "institution_type": "OTHER",
+        "jurisdiction": null,
+        "status": "AMBIGUOUS",
+        "confidence": "LOW",
+        "support_method": "SOURCE_REGISTRY",
+        "canonical_url": "https://www.nrcan.gc.ca"
+      },
+      "subject": {
+        "primary_entity": "UNKNOWN",
+        "entity_status": "ENTITY_NOT_FOUND",
+        "candidates": [],
+        "why": "No entity signals found anywhere in context"
+      },
+      "event": {
+        "event_type": "market_statistic_release",
+        "event_state": "ANNOUNCED",
+        "reference_period": "UNKNOWN",
+        "event_date": "UNKNOWN"
+      },
+      "readiness": "SEMANTICALLY_BLOCKED",
+      "product_value": "MEDIUM_VALUE",
+      "publisher_class": "PUBLISHER_AMBIGUOUS",
+      "firewall_check": {
+        "publisher_status": "AMBIGUOUS",
+        "subject_status": "ENTITY_NOT_FOUND",
+        "firewall_intact": true,
+        "violation": ""
+      }
+    },
+    {
+      "io_id": "io-de9433a949874f8c",
+      "event_type": "market_statistic_release",
+      "source_id": "src-cbbh-bosnia",
+      "source_name": "cbbh-bosnia",
+      "headline": "cbbh-bosnia market usd amount 10.6",
+      "fact_count": 1,
+      "publisher": {
+        "publisher_institution_id": "PUB-CBBH_BOSNIA",
+        "canonical_name": "Central Bank of Bosnia and Herzegovina",
+        "institution_type": "CENTRAL_BANK",
+        "jurisdiction": "Bosnia and Herzegovina",
+        "status": "CONFIRMED",
+        "confidence": "HIGH",
+        "support_method": "SOURCE_REGISTRY",
+        "canonical_url": "https://www.cbbh.ba"
+      },
+      "subject": {
+        "primary_entity": "UNKNOWN",
+        "entity_status": "ENTITY_NOT_FOUND",
+        "candidates": [],
+        "why": "No entity signals found anywhere in context"
+      },
+      "event": {
+        "event_type": "market_statistic_release",
+        "event_state": "UNKNOWN",
+        "reference_period": "UNKNOWN",
+        "event_date": "UNKNOWN"
+      },
+      "readiness": "SEMANTICALLY_BLOCKED",
+      "product_value": "MEDIUM_VALUE",
+      "publisher_class": "PUBLISHER_CORRECT",
+      "firewall_check": {
+        "publisher_status": "CONFIRMED",
+        "subject_status": "ENTITY_NOT_FOUND",
+        "firewall_intact": true,
+        "violation": ""
+      }
+    },
+    {
+      "io_id": "io-b4e154d9a1504355",
+      "event_type": "earnings_release",
+      "source_id": "src-mof-philippines",
+      "source_name": "mof-philippines",
+      "headline": "mof-philippines earnings revenue 205",
+      "fact_count": 2,
+      "publisher": {
+        "publisher_institution_id": "PUB-MOF_PHILIPPINES",
+        "canonical_name": "Mof Philippines",
+        "institution_type": "OTHER",
+        "jurisdiction": null,
+        "status": "AMBIGUOUS",
+        "confidence": "LOW",
+        "support_method": "SOURCE_REGISTRY",
+        "canonical_url": "https://www.dof.gov.ph"
+      },
+      "subject": {
+        "primary_entity": "UNKNOWN",
+        "entity_status": "ENTITY_NOT_FOUND",
+        "candidates": [],
+        "why": "Entity signals found in non-primary segments only — not event-local"
+      },
+      "event": {
+        "event_type": "earnings_release",
+        "event_state": "UNKNOWN",
+        "reference_period": "July 31, 2026",
+        "event_date": "UNKNOWN"
+      },
+      "readiness": "SEMANTICALLY_BLOCKED",
+      "product_value": "MEDIUM_VALUE",
+      "publisher_class": "PUBLISHER_AMBIGUOUS",
+      "firewall_check": {
+        "publisher_status": "AMBIGUOUS",
+        "subject_status": "ENTITY_NOT_FOUND",
+        "firewall_intact": true,
+        "violation": ""
+      }
+    },
+    {
+      "io_id": "io-510e7472d7e96491",
+      "event_type": "regulatory_enforcement",
+      "source_id": "imp-sec",
+      "source_name": "sec",
+      "headline": "sec enforcement: action type charged",
+      "fact_count": 1,
+      "publisher": {
+        "publisher_institution_id": "PUB-SEC",
+        "canonical_name": "Securities and Exchange Commission",
+        "institution_type": "SECURITIES_REGULATOR",
+        "jurisdiction": "United States",
+        "status": "CONFIRMED",
+        "confidence": "HIGH",
+        "support_method": "SOURCE_REGISTRY",
+        "canonical_url": "https://www.sec.gov/news/pressreleases.rss"
+      },
+      "subject": {
+        "primary_entity": "UNKNOWN",
+        "entity_status": "ENTITY_NOT_FOUND",
+        "candidates": [],
+        "why": "Entity signals found in non-primary segments only — not event-local"
+      },
+      "event": {
+        "event_type": "regulatory_enforcement",
+        "event_state": "UNKNOWN",
+        "reference_period": "UNKNOWN",
+        "event_date": "UNKNOWN"
+      },
+      "readiness": "SEMANTICALLY_BLOCKED",
+      "product_value": "LOW_VALUE",
+      "publisher_class": "PUBLISHER_CORRECT",
+      "firewall_check": {
+        "publisher_status": "CONFIRMED",
+        "subject_status": "ENTITY_NOT_FOUND",
+        "firewall_intact": true,
+        "violation": ""
+      }
+    }
+  ],
+  "sample_40_publisher_classification": {
+    "PUBLISHER_CORRECT": 28,
+    "PUBLISHER_AMBIGUOUS": 12,
+    "PUBLISHER_INCORRECT": 0
+  },
+  "test_results": {
+    "modules": {
+      "48 baseline": {
+        "module": "intelligence_core.tests.run_all",
+        "passed": true
+      },
+      "37 V37.2": {
+        "module": "intelligence_core.tests.reliability.v37_2_structural_evidence_test",
+        "passed": true
+      },
+      "30 collision": {
+        "module": "intelligence_core.tests.reliability.v37_2_collision_fix_tests",
+        "passed": true
+      },
+      "9 sub-collision": {
+        "module": "intelligence_core.tests.reliability.v37_2_sub_collision_tests",
+        "passed": true
+      },
+      "22 purpose": {
+        "module": "intelligence_core.tests.reliability.recovery_segment_purpose_tests",
+        "passed": true
+      },
+      "29 V46": {
+        "module": "intelligence_core.tests.reliability.v46_evidence_context_tests",
+        "passed": true
+      },
+      "6 V46.1": {
+        "module": "intelligence_core.tests.reliability.v46_1_semantic_claim_forensics_tests",
+        "passed": true
+      },
+      "6 V47A": {
+        "module": "intelligence_core.tests.reliability.v47_semantic_claim_binding_tests",
+        "passed": true
+      },
+      "35 V47C": {
+        "module": "intelligence_core.tests.reliability.v47c_publisher_institution_tests",
+        "passed": true
+      }
+    },
+    "passed_modules": 9,
+    "total_modules": 9,
+    "test_count": 222,
+    "all_tests_pass": true
+  }
+}

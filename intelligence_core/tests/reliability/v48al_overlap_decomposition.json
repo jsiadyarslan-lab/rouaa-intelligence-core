@@ -1,0 +1,792 @@
+{
+  "phase": "V48AL OVERLAP DECOMPOSITION & LABEL CONSISTENCY",
+  "executed_at_utc": "2026-08-21T14:07:20Z",
+  "base_commit": "373c879",
+  "v21_sha256": "80d857159c6ab4167e20a28a27fae67e60a2f6de7d2677d398c556716891110b",
+  "production_hashes": {
+    "intelligence_core/subject_entity.py": "3d19dbad167a360b",
+    "intelligence_core/tests/reliability/v48ad_hardened_evaluator.py": "90050b1771e72a3a",
+    "intelligence_core/tests/reliability/v48af_v21_evaluator.py": "80d857159c6ab416",
+    "intelligence_core/tests/reliability/v48ag_independent_preregistered_sample.json": "bbc1ac6ccea1c3e7"
+  },
+  "phase1_overlap_cases": [
+    {
+      "case_id": 76,
+      "candidate": "Inflation",
+      "head_noun": "dynamics",
+      "text": "The committee noted that inflation dynamics remain under close monitoring amid global uncertainty.",
+      "human_label": "AMBIGUOUS",
+      "v21_judgment": "CONTEXT_ONLY",
+      "labels_possible": [
+        "TRUE_SUBJECT",
+        "CONTEXT_ONLY",
+        "AMBIGUOUS"
+      ]
+    },
+    {
+      "case_id": 78,
+      "candidate": "Policy Rate",
+      "head_noun": "expectations",
+      "text": "Policy rate expectations were cited in the market commentary section.",
+      "human_label": "AMBIGUOUS",
+      "v21_judgment": "CONTEXT_ONLY",
+      "labels_possible": [
+        "CONTEXT_ONLY",
+        "AMBIGUOUS"
+      ]
+    },
+    {
+      "case_id": 82,
+      "candidate": "Penalty",
+      "head_noun": "decisions",
+      "text": "Penalty decisions were the subject of regulatory committee review last quarter.",
+      "human_label": "AMBIGUOUS",
+      "v21_judgment": "CONTEXT_ONLY",
+      "labels_possible": [
+        "TRUE_SUBJECT",
+        "CONTEXT_ONLY",
+        "AMBIGUOUS"
+      ]
+    },
+    {
+      "case_id": 100,
+      "candidate": "Unemployment",
+      "head_noun": "projections",
+      "text": "The report identified unemployment projections as a key input to the fiscal outlook.",
+      "human_label": "AMBIGUOUS",
+      "v21_judgment": "CONTEXT_ONLY",
+      "labels_possible": [
+        "CONTEXT_ONLY",
+        "AMBIGUOUS"
+      ]
+    },
+    {
+      "case_id": 103,
+      "candidate": "Penalty",
+      "head_noun": "guidelines",
+      "text": "Penalty guidelines were the subject of industry consultation per the regulator's statement.",
+      "human_label": "AMBIGUOUS",
+      "v21_judgment": "CONTEXT_ONLY",
+      "labels_possible": [
+        "TRUE_SUBJECT",
+        "CONTEXT_ONLY",
+        "AMBIGUOUS"
+      ]
+    },
+    {
+      "case_id": 115,
+      "candidate": "Inflation",
+      "head_noun": "trends",
+      "text": "The bank's quarterly statement noted that inflation trends remain a focus of attention.",
+      "human_label": "AMBIGUOUS",
+      "v21_judgment": "CONTEXT_ONLY",
+      "labels_possible": [
+        "CONTEXT_ONLY",
+        "AMBIGUOUS"
+      ]
+    },
+    {
+      "case_id": 130,
+      "candidate": "Foreign Exchange",
+      "head_noun": "reserves",
+      "text": "Foreign exchange reserves position was described as adequate by the central bank.",
+      "human_label": "CONTEXT",
+      "v21_judgment": "CONTEXT_ONLY",
+      "labels_possible": [
+        "CONTEXT_ONLY",
+        "AMBIGUOUS"
+      ]
+    },
+    {
+      "case_id": 131,
+      "candidate": "Penalty",
+      "head_noun": "framework",
+      "text": "Penalty framework review was the subject of committee deliberation last quarter.",
+      "human_label": "CONTEXT",
+      "v21_judgment": "CONTEXT_ONLY",
+      "labels_possible": [
+        "TRUE_SUBJECT",
+        "CONTEXT_ONLY",
+        "AMBIGUOUS"
+      ]
+    }
+  ],
+  "phase2_dimensions": [
+    {
+      "case_id": 76,
+      "candidate": "Inflation",
+      "head_noun": "dynamics",
+      "text": "The committee noted that inflation dynamics remain under close monitoring amid global uncertainty.",
+      "human_label": "AMBIGUOUS",
+      "v21_judgment": "CONTEXT_ONLY",
+      "labels_possible": [
+        "TRUE_SUBJECT",
+        "CONTEXT_ONLY",
+        "AMBIGUOUS"
+      ],
+      "D1_SYNTACTIC_ROLE": "modifier",
+      "D2_EVENT_TARGET": "both",
+      "D3_EVENT_CERTAINTY": "weakly_implied",
+      "D4_CONTEXTUAL_STATUS": "contextual_reference",
+      "D5_SEMANTIC_SCOPE": "mixed"
+    },
+    {
+      "case_id": 78,
+      "candidate": "Policy Rate",
+      "head_noun": "expectations",
+      "text": "Policy rate expectations were cited in the market commentary section.",
+      "human_label": "AMBIGUOUS",
+      "v21_judgment": "CONTEXT_ONLY",
+      "labels_possible": [
+        "CONTEXT_ONLY",
+        "AMBIGUOUS"
+      ],
+      "D1_SYNTACTIC_ROLE": "modifier",
+      "D2_EVENT_TARGET": "both",
+      "D3_EVENT_CERTAINTY": "weakly_implied",
+      "D4_CONTEXTUAL_STATUS": "contextual_reference",
+      "D5_SEMANTIC_SCOPE": "mixed"
+    },
+    {
+      "case_id": 82,
+      "candidate": "Penalty",
+      "head_noun": "decisions",
+      "text": "Penalty decisions were the subject of regulatory committee review last quarter.",
+      "human_label": "AMBIGUOUS",
+      "v21_judgment": "CONTEXT_ONLY",
+      "labels_possible": [
+        "TRUE_SUBJECT",
+        "CONTEXT_ONLY",
+        "AMBIGUOUS"
+      ],
+      "D1_SYNTACTIC_ROLE": "modifier",
+      "D2_EVENT_TARGET": "head_noun",
+      "D3_EVENT_CERTAINTY": "strongly_implied",
+      "D4_CONTEXTUAL_STATUS": "contextual_reference",
+      "D5_SEMANTIC_SCOPE": "head_noun"
+    },
+    {
+      "case_id": 100,
+      "candidate": "Unemployment",
+      "head_noun": "projections",
+      "text": "The report identified unemployment projections as a key input to the fiscal outlook.",
+      "human_label": "AMBIGUOUS",
+      "v21_judgment": "CONTEXT_ONLY",
+      "labels_possible": [
+        "CONTEXT_ONLY",
+        "AMBIGUOUS"
+      ],
+      "D1_SYNTACTIC_ROLE": "modifier",
+      "D2_EVENT_TARGET": "both",
+      "D3_EVENT_CERTAINTY": "weakly_implied",
+      "D4_CONTEXTUAL_STATUS": "contextual_reference",
+      "D5_SEMANTIC_SCOPE": "mixed"
+    },
+    {
+      "case_id": 103,
+      "candidate": "Penalty",
+      "head_noun": "guidelines",
+      "text": "Penalty guidelines were the subject of industry consultation per the regulator's statement.",
+      "human_label": "AMBIGUOUS",
+      "v21_judgment": "CONTEXT_ONLY",
+      "labels_possible": [
+        "TRUE_SUBJECT",
+        "CONTEXT_ONLY",
+        "AMBIGUOUS"
+      ],
+      "D1_SYNTACTIC_ROLE": "modifier",
+      "D2_EVENT_TARGET": "head_noun",
+      "D3_EVENT_CERTAINTY": "strongly_implied",
+      "D4_CONTEXTUAL_STATUS": "contextual_reference",
+      "D5_SEMANTIC_SCOPE": "head_noun"
+    },
+    {
+      "case_id": 115,
+      "candidate": "Inflation",
+      "head_noun": "trends",
+      "text": "The bank's quarterly statement noted that inflation trends remain a focus of attention.",
+      "human_label": "AMBIGUOUS",
+      "v21_judgment": "CONTEXT_ONLY",
+      "labels_possible": [
+        "CONTEXT_ONLY",
+        "AMBIGUOUS"
+      ],
+      "D1_SYNTACTIC_ROLE": "modifier",
+      "D2_EVENT_TARGET": "both",
+      "D3_EVENT_CERTAINTY": "weakly_implied",
+      "D4_CONTEXTUAL_STATUS": "contextual_reference",
+      "D5_SEMANTIC_SCOPE": "mixed"
+    },
+    {
+      "case_id": 130,
+      "candidate": "Foreign Exchange",
+      "head_noun": "reserves",
+      "text": "Foreign exchange reserves position was described as adequate by the central bank.",
+      "human_label": "CONTEXT",
+      "v21_judgment": "CONTEXT_ONLY",
+      "labels_possible": [
+        "CONTEXT_ONLY",
+        "AMBIGUOUS"
+      ],
+      "D1_SYNTACTIC_ROLE": "modifier",
+      "D2_EVENT_TARGET": "head_noun",
+      "D3_EVENT_CERTAINTY": "weakly_implied",
+      "D4_CONTEXTUAL_STATUS": "contextual_reference",
+      "D5_SEMANTIC_SCOPE": "head_noun"
+    },
+    {
+      "case_id": 131,
+      "candidate": "Penalty",
+      "head_noun": "framework",
+      "text": "Penalty framework review was the subject of committee deliberation last quarter.",
+      "human_label": "CONTEXT",
+      "v21_judgment": "CONTEXT_ONLY",
+      "labels_possible": [
+        "TRUE_SUBJECT",
+        "CONTEXT_ONLY",
+        "AMBIGUOUS"
+      ],
+      "D1_SYNTACTIC_ROLE": "modifier",
+      "D2_EVENT_TARGET": "head_noun",
+      "D3_EVENT_CERTAINTY": "strongly_implied",
+      "D4_CONTEXTUAL_STATUS": "contextual_reference",
+      "D5_SEMANTIC_SCOPE": "head_noun"
+    }
+  ],
+  "phase3_pairwise": [
+    {
+      "overlap_case": 76,
+      "overlap_human": "AMBIGUOUS",
+      "clean_case": 126,
+      "clean_human": "CONTEXT",
+      "match_score": 3,
+      "overlap_text": "The committee noted that inflation dynamics remain under clo",
+      "clean_text": "Inflation targeting framework was reaffirmed in the central ",
+      "overlap_D2": "both",
+      "clean_D2": "head_noun",
+      "overlap_D3": "weakly_implied",
+      "clean_D3": "strongly_implied",
+      "dimension_diff": "different"
+    },
+    {
+      "overlap_case": 78,
+      "overlap_human": "AMBIGUOUS",
+      "clean_case": 99,
+      "clean_human": "AMBIGUOUS",
+      "match_score": 5,
+      "overlap_text": "Policy rate expectations were cited in the market commentary",
+      "clean_text": "Policy rate stance remains accommodative, the central bank g",
+      "overlap_D2": "both",
+      "clean_D2": "both",
+      "overlap_D3": "weakly_implied",
+      "clean_D3": "weakly_implied",
+      "dimension_diff": "same"
+    },
+    {
+      "overlap_case": 82,
+      "overlap_human": "AMBIGUOUS",
+      "clean_case": 117,
+      "clean_human": "CONTEXT",
+      "match_score": 5,
+      "overlap_text": "Penalty decisions were the subject of regulatory committee r",
+      "clean_text": "Penalty guidelines were issued for industry consultation by ",
+      "overlap_D2": "head_noun",
+      "clean_D2": "head_noun",
+      "overlap_D3": "strongly_implied",
+      "clean_D3": "strongly_implied",
+      "dimension_diff": "same"
+    },
+    {
+      "overlap_case": 100,
+      "overlap_human": "AMBIGUOUS",
+      "clean_case": 149,
+      "clean_human": "CONTEXT",
+      "match_score": 3,
+      "overlap_text": "The report identified unemployment projections as a key inpu",
+      "clean_text": "Unemployment statistics methodology was aligned with the ILO",
+      "overlap_D2": "both",
+      "clean_D2": "head_noun",
+      "overlap_D3": "weakly_implied",
+      "clean_D3": "strongly_implied",
+      "dimension_diff": "different"
+    },
+    {
+      "overlap_case": 103,
+      "overlap_human": "AMBIGUOUS",
+      "clean_case": 117,
+      "clean_human": "CONTEXT",
+      "match_score": 7,
+      "overlap_text": "Penalty guidelines were the subject of industry consultation",
+      "clean_text": "Penalty guidelines were issued for industry consultation by ",
+      "overlap_D2": "head_noun",
+      "clean_D2": "head_noun",
+      "overlap_D3": "strongly_implied",
+      "clean_D3": "strongly_implied",
+      "dimension_diff": "same"
+    },
+    {
+      "overlap_case": 115,
+      "overlap_human": "AMBIGUOUS",
+      "clean_case": 126,
+      "clean_human": "CONTEXT",
+      "match_score": 3,
+      "overlap_text": "The bank's quarterly statement noted that inflation trends r",
+      "clean_text": "Inflation targeting framework was reaffirmed in the central ",
+      "overlap_D2": "both",
+      "clean_D2": "head_noun",
+      "overlap_D3": "weakly_implied",
+      "clean_D3": "strongly_implied",
+      "dimension_diff": "different"
+    },
+    {
+      "overlap_case": 130,
+      "overlap_human": "CONTEXT",
+      "clean_case": 102,
+      "clean_human": "AMBIGUOUS",
+      "match_score": 6,
+      "overlap_text": "Foreign exchange reserves position was described as adequate",
+      "clean_text": "Foreign exchange reserves remained adequate, the central ban",
+      "overlap_D2": "head_noun",
+      "clean_D2": "both",
+      "overlap_D3": "weakly_implied",
+      "clean_D3": "weakly_implied",
+      "dimension_diff": "different"
+    },
+    {
+      "overlap_case": 131,
+      "overlap_human": "CONTEXT",
+      "clean_case": 96,
+      "clean_human": "AMBIGUOUS",
+      "match_score": 7,
+      "overlap_text": "Penalty framework review was the subject of committee delibe",
+      "clean_text": "Penalty framework revisions were proposed in the latest regu",
+      "overlap_D2": "head_noun",
+      "clean_D2": "head_noun",
+      "overlap_D3": "strongly_implied",
+      "clean_D3": "strongly_implied",
+      "dimension_diff": "same"
+    }
+  ],
+  "phase4_label_consistency": [
+    {
+      "case_id": 76,
+      "human_label": "AMBIGUOUS",
+      "consistency": "L3",
+      "ambiguity_type": "B_ontology_ambiguity",
+      "reason": "Event target is 'both' — the event could apply to the candidate or the head noun. The label depends on which dimension (subjecthood vs event attribution) is prioritized."
+    },
+    {
+      "case_id": 78,
+      "human_label": "AMBIGUOUS",
+      "consistency": "L3",
+      "ambiguity_type": "B_ontology_ambiguity",
+      "reason": "Event target is 'both' — the event could apply to the candidate or the head noun. The label depends on which dimension (subjecthood vs event attribution) is prioritized."
+    },
+    {
+      "case_id": 82,
+      "human_label": "AMBIGUOUS",
+      "consistency": "L1",
+      "ambiguity_type": "A_classifier_ambiguity",
+      "reason": "One label is clearly superior based on the dimension analysis."
+    },
+    {
+      "case_id": 100,
+      "human_label": "AMBIGUOUS",
+      "consistency": "L3",
+      "ambiguity_type": "B_ontology_ambiguity",
+      "reason": "Event target is 'both' — the event could apply to the candidate or the head noun. The label depends on which dimension (subjecthood vs event attribution) is prioritized."
+    },
+    {
+      "case_id": 103,
+      "human_label": "AMBIGUOUS",
+      "consistency": "L1",
+      "ambiguity_type": "A_classifier_ambiguity",
+      "reason": "One label is clearly superior based on the dimension analysis."
+    },
+    {
+      "case_id": 115,
+      "human_label": "AMBIGUOUS",
+      "consistency": "L3",
+      "ambiguity_type": "B_ontology_ambiguity",
+      "reason": "Event target is 'both' — the event could apply to the candidate or the head noun. The label depends on which dimension (subjecthood vs event attribution) is prioritized."
+    },
+    {
+      "case_id": 130,
+      "human_label": "CONTEXT",
+      "consistency": "L2",
+      "ambiguity_type": "D_unresolved_semantic_ambiguity",
+      "reason": "Event certainty is weakly implied — the evidence is insufficient to determine the relationship with confidence."
+    },
+    {
+      "case_id": 131,
+      "human_label": "CONTEXT",
+      "consistency": "L1",
+      "ambiguity_type": "A_classifier_ambiguity",
+      "reason": "One label is clearly superior based on the dimension analysis."
+    }
+  ],
+  "phase5_blind_readjudication": [
+    {
+      "case_id": 76,
+      "relationship": "'Inflation' is a modifier of 'dynamics'. The event applies to 'dynamics'.",
+      "certainty": "low — the event is vague or has secondary target",
+      "blind_label": "AMBIGUOUS",
+      "human_label": "AMBIGUOUS",
+      "v21_label": "CONTEXT_ONLY",
+      "blind_matches_human": true,
+      "blind_matches_v21": false
+    },
+    {
+      "case_id": 78,
+      "relationship": "'Policy Rate' is a modifier of 'expectations'. The event applies to 'expectations'.",
+      "certainty": "low — the event is vague or has secondary target",
+      "blind_label": "AMBIGUOUS",
+      "human_label": "AMBIGUOUS",
+      "v21_label": "CONTEXT_ONLY",
+      "blind_matches_human": true,
+      "blind_matches_v21": false
+    },
+    {
+      "case_id": 82,
+      "relationship": "'Penalty' is a modifier of 'decisions'. The event applies to 'decisions'.",
+      "certainty": "high — the event clearly applies to the head noun",
+      "blind_label": "AMBIGUOUS",
+      "human_label": "AMBIGUOUS",
+      "v21_label": "CONTEXT_ONLY",
+      "blind_matches_human": true,
+      "blind_matches_v21": false
+    },
+    {
+      "case_id": 100,
+      "relationship": "'Unemployment' is a modifier of 'projections'. The event applies to 'projections'.",
+      "certainty": "low — the event is vague or has secondary target",
+      "blind_label": "AMBIGUOUS",
+      "human_label": "AMBIGUOUS",
+      "v21_label": "CONTEXT_ONLY",
+      "blind_matches_human": true,
+      "blind_matches_v21": false
+    },
+    {
+      "case_id": 103,
+      "relationship": "'Penalty' is a modifier of 'guidelines'. The event applies to 'guidelines'.",
+      "certainty": "high — the event clearly applies to the head noun",
+      "blind_label": "AMBIGUOUS",
+      "human_label": "AMBIGUOUS",
+      "v21_label": "CONTEXT_ONLY",
+      "blind_matches_human": true,
+      "blind_matches_v21": false
+    },
+    {
+      "case_id": 115,
+      "relationship": "'Inflation' is a modifier of 'trends'. The event applies to 'trends'.",
+      "certainty": "low — the event is vague or has secondary target",
+      "blind_label": "AMBIGUOUS",
+      "human_label": "AMBIGUOUS",
+      "v21_label": "CONTEXT_ONLY",
+      "blind_matches_human": true,
+      "blind_matches_v21": false
+    },
+    {
+      "case_id": 130,
+      "relationship": "'Foreign Exchange' is a modifier of 'reserves'. The event applies to 'reserves'.",
+      "certainty": "low — the event is vague or has secondary target",
+      "blind_label": "AMBIGUOUS",
+      "human_label": "CONTEXT",
+      "v21_label": "CONTEXT_ONLY",
+      "blind_matches_human": false,
+      "blind_matches_v21": false
+    },
+    {
+      "case_id": 131,
+      "relationship": "'Penalty' is a modifier of 'framework'. The event applies to 'framework'.",
+      "certainty": "high — the event clearly applies to the head noun",
+      "blind_label": "AMBIGUOUS",
+      "human_label": "CONTEXT",
+      "v21_label": "CONTEXT_ONLY",
+      "blind_matches_human": false,
+      "blind_matches_v21": false
+    }
+  ],
+  "phase6_dimension_analysis": {
+    "D1_subjecthood": {
+      "values": {
+        "modifier": 8
+      },
+      "unique_count": 1,
+      "independently_observable": false,
+      "independently_variable": false
+    },
+    "D2_event_attribution": {
+      "values": {
+        "both": 4,
+        "head_noun": 4
+      },
+      "unique_count": 2,
+      "independently_observable": true,
+      "independently_variable": true
+    },
+    "D3_contextual_relevance": {
+      "values": {
+        "contextual_reference": 8
+      },
+      "unique_count": 1,
+      "independently_observable": false,
+      "independently_variable": false
+    },
+    "D4_attribution_certainty": {
+      "values": {
+        "weakly_implied": 5,
+        "strongly_implied": 3
+      },
+      "unique_count": 2,
+      "independently_observable": true,
+      "independently_variable": true
+    },
+    "D5_semantic_scope": {
+      "values": {
+        "mixed": 4,
+        "head_noun": 4
+      },
+      "unique_count": 2,
+      "independently_observable": true,
+      "independently_variable": true
+    }
+  },
+  "phase6_unique_vectors": 3,
+  "phase6_label_conflicts": [
+    {
+      "vector": [
+        "modifier",
+        "head_noun",
+        "strongly_implied",
+        "contextual_reference",
+        "head_noun"
+      ],
+      "cases": [
+        [
+          82,
+          "AMBIGUOUS"
+        ],
+        [
+          103,
+          "AMBIGUOUS"
+        ],
+        [
+          131,
+          "CONTEXT"
+        ]
+      ],
+      "labels": "{'AMBIGUOUS', 'CONTEXT'}"
+    }
+  ],
+  "phase7_negative_test": {
+    "within_overlap_conflicts": [
+      {
+        "case1": 82,
+        "label1": "AMBIGUOUS",
+        "case2": 131,
+        "label2": "CONTEXT",
+        "dimensions": [
+          "modifier",
+          "head_noun",
+          "strongly_implied",
+          "contextual_reference",
+          "head_noun"
+        ],
+        "finding": "ANNOTATION_INCONSISTENCY — identical dimensions, different labels"
+      },
+      {
+        "case1": 103,
+        "label1": "AMBIGUOUS",
+        "case2": 131,
+        "label2": "CONTEXT",
+        "dimensions": [
+          "modifier",
+          "head_noun",
+          "strongly_implied",
+          "contextual_reference",
+          "head_noun"
+        ],
+        "finding": "ANNOTATION_INCONSISTENCY — identical dimensions, different labels"
+      }
+    ],
+    "cross_conflicts": [
+      {
+        "vector": [
+          "modifier",
+          "head_noun",
+          "strongly_implied",
+          "contextual_reference",
+          "head_noun"
+        ],
+        "cases": [
+          [
+            117,
+            "CONTEXT",
+            "Penalty",
+            "guidelines",
+            "Penalty guidelines were issued for industry consultation by "
+          ],
+          [
+            119,
+            "CONTEXT",
+            "Policy Rate",
+            "corridor",
+            "Policy rate corridor was maintained at its existing operatio"
+          ],
+          [
+            121,
+            "CONTEXT",
+            "Gross Domestic Product",
+            "deflator",
+            "GDP deflator series was revised in the latest national accou"
+          ],
+          [
+            122,
+            "CONTEXT",
+            "Consumer Price Index",
+            "basket",
+            "CPI basket composition was updated for the new index series."
+          ],
+          [
+            126,
+            "CONTEXT",
+            "Inflation",
+            "targeting",
+            "Inflation targeting framework was reaffirmed in the central "
+          ],
+          [
+            130,
+            "CONTEXT",
+            "Foreign Exchange",
+            "reserves",
+            "Foreign exchange reserves position was described as adequate"
+          ],
+          [
+            131,
+            "CONTEXT",
+            "Penalty",
+            "framework",
+            "Penalty framework review was the subject of committee delibe"
+          ],
+          [
+            138,
+            "CONTEXT",
+            "Penalty",
+            "appeal",
+            "Penalty appeal process was detailed in the regulatory enforc"
+          ],
+          [
+            140,
+            "CONTEXT",
+            "Inflation",
+            "data",
+            "Inflation data collection was refined per the new statistica"
+          ],
+          [
+            147,
+            "CONTEXT",
+            "Inflation",
+            "expectations",
+            "Inflation expectations indicator was added to the central ba"
+          ],
+          [
+            149,
+            "CONTEXT",
+            "Unemployment",
+            "statistics",
+            "Unemployment statistics methodology was aligned with the ILO"
+          ],
+          [
+            82,
+            "AMBIGUOUS",
+            "Penalty",
+            "decisions",
+            "Penalty decisions were the subject of regulatory committee r"
+          ],
+          [
+            83,
+            "AMBIGUOUS",
+            "Gross Domestic Product",
+            "statistics",
+            "GDP statistics are compiled in accordance with international"
+          ],
+          [
+            87,
+            "AMBIGUOUS",
+            "Consumer Price Index",
+            "methodology",
+            "CPI methodology was revised in line with the new internation"
+          ],
+          [
+            89,
+            "AMBIGUOUS",
+            "Penalty",
+            "procedures",
+            "Penalty procedures were outlined in the updated enforcement "
+          ],
+          [
+            92,
+            "AMBIGUOUS",
+            "Policy Rate",
+            "decisions",
+            "Policy rate decisions are scheduled for the next FOMC meetin"
+          ],
+          [
+            93,
+            "AMBIGUOUS",
+            "Unemployment",
+            "statistics",
+            "Unemployment statistics are released on the first Friday of "
+          ],
+          [
+            94,
+            "AMBIGUOUS",
+            "Consumer Price Index",
+            "sub-indices",
+            "CPI sub-indices were analyzed in the detailed statistical ap"
+          ],
+          [
+            96,
+            "AMBIGUOUS",
+            "Penalty",
+            "framework",
+            "Penalty framework revisions were proposed in the latest regu"
+          ],
+          [
+            98,
+            "AMBIGUOUS",
+            "Inflation",
+            "targeting",
+            "Inflation targeting framework was reaffirmed in the central "
+          ],
+          [
+            101,
+            "AMBIGUOUS",
+            "Consumer Price Index",
+            "weights",
+            "CPI weights were updated in the latest index revision per th"
+          ],
+          [
+            103,
+            "AMBIGUOUS",
+            "Penalty",
+            "guidelines",
+            "Penalty guidelines were the subject of industry consultation"
+          ]
+        ],
+        "labels": "{'AMBIGUOUS', 'CONTEXT'}"
+      }
+    ],
+    "result": "ANNOTATION_INCONSISTENCY_SUSPECTED"
+  },
+  "phase8_verdict": "ANNOTATION_INCONSISTENCY_SUSPECTED",
+  "phase8_reason": "Found 1 cases where all 5 dimensions are identical but human labels differ. This suggests the human adjudication is inconsistent, not that the ontology is wrong.",
+  "phase8_what_v48ak_proved": "V48AK proved that the three labels (TRUE_SUBJECT / CONTEXT_ONLY / AMBIGUOUS) are PARTIALLY_OVERLAPPING — they conflate multiple independent dimensions (subjecthood, event attribution, contextual relevance, certainty, scope). 72% of cases have a single clearly correct label; 28% have multiple valid labels.",
+  "phase8_what_v48al_proved": "V48AL proved that: (1) the 8 overlapping cases have 3 unique dimension vectors out of 8 cases; (2) CROSS-CONFLICTS WERE FOUND — suggesting annotation inconsistency; (3) the multi-dimension hypothesis is ANNOTATION_INCONSISTENCY_SUSPECTED.",
+  "phase8_what_remains_unknown": "Whether a multi-dimensional label would actually improve classifier performance in production. Whether the annotation inconsistency (if found) is systematic or random. Whether real documents (not synthetic) would resolve the ambiguous cases via document context.",
+  "phase8_evidence_required": "Before redesigning the ontology: (1) resolve any annotation inconsistencies found in Phase 7; (2) test the multi-dimensional representation on REAL documents (not synthetic); (3) determine if the 5 dimensions are truly independent or correlated in practice.",
+  "DO_NOT_create_V48AM": true,
+  "DO_NOT_modify_production": true,
+  "STOP": true
+}

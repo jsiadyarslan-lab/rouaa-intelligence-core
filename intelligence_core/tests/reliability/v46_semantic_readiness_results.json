@@ -1,0 +1,119 @@
+{
+  "phase": "V46 SEMANTIC READINESS (BEFORE/AFTER)",
+  "baseline_commit": "82263950263f74c4b970a902975b72539d39703f",
+  "executed_at_utc": "2026-08-20T20:02:55Z",
+  "v45_baseline": {
+    "entity_counts": {
+      "ENTITY_NOT_FOUND": 311,
+      "ENTITY_CONFIRMED": 57,
+      "ENTITY_AMBIGUOUS": 3
+    },
+    "readiness_counts": {
+      "SEMANTICALLY_BLOCKED": 311,
+      "SEMANTICALLY_PARTIAL": 33,
+      "SEMANTICALLY_READY": 27
+    },
+    "event_state_counts": {
+      "ENFORCED": 90,
+      "UNKNOWN": 182,
+      "INCREASED": 66,
+      "REVISED": 10,
+      "NEW": 7,
+      "ANNOUNCED": 9,
+      "DECREASED": 6,
+      "UNCHANGED": 1
+    },
+    "temporal_field_counts": {
+      "event_date": {
+        "NOT_FOUND": 358,
+        "CONFIRMED": 13
+      },
+      "reference_period": {
+        "NOT_FOUND": 283,
+        "CONFIRMED": 88
+      },
+      "effective_date": {
+        "NOT_FOUND": 371
+      },
+      "publication_date": {
+        "CONFIRMED": 22,
+        "NOT_FOUND": 349
+      },
+      "revision_date": {
+        "NOT_FOUND": 371
+      }
+    }
+  },
+  "v46_after": {
+    "entity_counts": {
+      "ENTITY_NOT_FOUND": 271,
+      "ENTITY_CONFIRMED": 86,
+      "ENTITY_AMBIGUOUS": 14
+    },
+    "readiness_counts": {
+      "SEMANTICALLY_BLOCKED": 271,
+      "SEMANTICALLY_READY": 58,
+      "SEMANTICALLY_PARTIAL": 42
+    },
+    "event_state_counts": {
+      "ENFORCED": 86,
+      "UNKNOWN": 159,
+      "INCREASED": 60,
+      "ANNOUNCED": 17,
+      "EFFECTIVE": 4,
+      "NEW": 6,
+      "DECREASED": 10,
+      "REVISED": 28,
+      "UNCHANGED": 1
+    },
+    "temporal_field_counts": {
+      "event_date": {
+        "NOT_FOUND": 327,
+        "CONFIRMED": 44
+      },
+      "reference_period": {
+        "NOT_FOUND": 251,
+        "CONFIRMED": 120
+      },
+      "effective_date": {
+        "NOT_FOUND": 370,
+        "CONFIRMED": 1
+      },
+      "publication_date": {
+        "CONFIRMED": 22,
+        "NOT_FOUND": 349
+      },
+      "revision_date": {
+        "NOT_FOUND": 371
+      }
+    }
+  },
+  "deltas": {
+    "entity_confirmed_delta": 29,
+    "entity_not_found_delta": -40,
+    "readiness_ready_delta": 31,
+    "readiness_blocked_delta": -40,
+    "temporal_confirmed_deltas": {
+      "event_date": 31,
+      "reference_period": 32,
+      "effective_date": 1,
+      "publication_date": 0,
+      "revision_date": 0
+    }
+  },
+  "product_value": {
+    "v45_sample": {
+      "MEDIUM_VALUE": 33,
+      "LOW_VALUE": 7
+    },
+    "v46_sample": {
+      "MEDIUM_VALUE": 30,
+      "HIGH_VALUE": 4,
+      "LOW_VALUE": 6
+    }
+  },
+  "sample_verdicts": {
+    "UNCHANGED": 25,
+    "IMPROVED": 15
+  }
+}

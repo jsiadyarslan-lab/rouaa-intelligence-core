@@ -1,0 +1,177 @@
+{
+  "phase": "V47B EVENT-LOCAL SEMANTIC BINDING INTEGRATION",
+  "baseline_commit": "82263950263f74c4b970a902975b72539d39703f",
+  "recovery_branch_head_before": "5c8771c9c778f351a52e54a9997efce6158dd4be",
+  "executed_at_utc": "2026-08-20T20:43:23Z",
+  "new_io_count": 371,
+  "v45_baseline": {
+    "entity_counts": {
+      "ENTITY_NOT_FOUND": 311,
+      "ENTITY_CONFIRMED": 57,
+      "ENTITY_AMBIGUOUS": 3
+    },
+    "readiness_counts": {
+      "SEMANTICALLY_BLOCKED": 311,
+      "SEMANTICALLY_PARTIAL": 33,
+      "SEMANTICALLY_READY": 27
+    },
+    "event_state_counts": {
+      "ENFORCED": 90,
+      "UNKNOWN": 182,
+      "INCREASED": 66,
+      "REVISED": 10,
+      "NEW": 7,
+      "ANNOUNCED": 9,
+      "DECREASED": 6,
+      "UNCHANGED": 1
+    },
+    "temporal_field_counts": {
+      "event_date": {
+        "NOT_FOUND": 358,
+        "CONFIRMED": 13
+      },
+      "reference_period": {
+        "NOT_FOUND": 283,
+        "CONFIRMED": 88
+      },
+      "effective_date": {
+        "NOT_FOUND": 371
+      },
+      "publication_date": {
+        "CONFIRMED": 22,
+        "NOT_FOUND": 349
+      },
+      "revision_date": {
+        "NOT_FOUND": 371
+      }
+    }
+  },
+  "v47b_after": {
+    "entity_counts": {
+      "ENTITY_NOT_FOUND": 322,
+      "ENTITY_CONFIRMED": 49
+    },
+    "readiness_counts": {
+      "SEMANTICALLY_BLOCKED": 322,
+      "SEMANTICALLY_PARTIAL": 19,
+      "SEMANTICALLY_READY": 30
+    },
+    "event_state_counts": {
+      "UNKNOWN": 295,
+      "ANNOUNCED": 6,
+      "INCREASED": 31,
+      "REVISED": 32,
+      "UNCHANGED": 1,
+      "DECREASED": 3,
+      "NEW": 2,
+      "ENFORCED": 1
+    },
+    "temporal_field_counts": {
+      "event_date": {
+        "NOT_FOUND": 316,
+        "CONFIRMED": 55
+      },
+      "reference_period": {
+        "NOT_FOUND": 338,
+        "CONFIRMED": 33
+      },
+      "effective_date": {
+        "NOT_FOUND": 371
+      },
+      "publication_date": {
+        "NOT_FOUND": 371
+      },
+      "revision_date": {
+        "NOT_FOUND": 371
+      }
+    }
+  },
+  "forensic_reason_counts": {
+    "UNCHANGED": 334,
+    "IMPROVED_BY_LOCAL_BINDING": 14,
+    "RECLASSIFIED_AS_NOT_FOUND": 23
+  },
+  "safety": {
+    "unsupported_entity_claims": 0,
+    "unsupported_temporal_claims": 0,
+    "unsupported_event_state_claims": 0,
+    "navigation_leakage": 0,
+    "malformed_evidence": 0,
+    "unresolved_collisions": 0,
+    "broken_provenance": 0,
+    "original_facts_preserved": true,
+    "original_evidence_preserved": true,
+    "publisher_subject_separated": true
+  },
+  "sample_40_verdicts": {
+    "UNCHANGED": 38,
+    "IMPROVED": 2
+  },
+  "sample_40_value_before": {
+    "MEDIUM_VALUE": 33,
+    "LOW_VALUE": 7
+  },
+  "sample_40_value_after": {
+    "MEDIUM_VALUE": 32,
+    "LOW_VALUE": 8
+  },
+  "test_results": {
+    "modules": {
+      "48 baseline": {
+        "module": "intelligence_core.tests.run_all",
+        "passed": true
+      },
+      "37 V37.2": {
+        "module": "intelligence_core.tests.reliability.v37_2_structural_evidence_test",
+        "passed": true
+      },
+      "30 collision": {
+        "module": "intelligence_core.tests.reliability.v37_2_collision_fix_tests",
+        "passed": true
+      },
+      "9 sub-collision": {
+        "module": "intelligence_core.tests.reliability.v37_2_sub_collision_tests",
+        "passed": true
+      },
+      "22 purpose": {
+        "module": "intelligence_core.tests.reliability.recovery_segment_purpose_tests",
+        "passed": true
+      },
+      "29 V46": {
+        "module": "intelligence_core.tests.reliability.v46_evidence_context_tests",
+        "passed": true
+      },
+      "6 V46.1": {
+        "module": "intelligence_core.tests.reliability.v46_1_semantic_claim_forensics_tests",
+        "passed": true
+      },
+      "6 V47A": {
+        "module": "intelligence_core.tests.reliability.v47_semantic_claim_binding_tests",
+        "passed": true
+      }
+    },
+    "passed_modules": 8,
+    "total_modules": 8,
+    "test_count": 187,
+    "all_tests_pass": true
+  },
+  "acceptance_gates": {
+    "g1_371_new_ios_reprocessed": true,
+    "g2_publisher_subject_separated": true,
+    "g3_unsupported_entity_claims_zero": true,
+    "g4_unsupported_temporal_claims_zero": true,
+    "g5_unsupported_state_claims_zero": true,
+    "g6_event_local_provenance_for_confirmed": true,
+    "g7_unresolved_collisions_zero": true,
+    "g8_broken_provenance_zero": true,
+    "g9_no_semantic_regression_in_40_io_sample": true,
+    "g10_187_v47a_tests_pass": true,
+    "g11_146_recovery_tests_pass": true,
+    "g12_124_v37_2_tests_pass": true,
+    "g13_no_source_expansion": true,
+    "g14_no_llm": true,
+    "g15_no_product_integration": true,
+    "all_pass": true
+  },
+  "verdict": "V47B EVENT-LOCAL SEMANTIC BINDING PASSED"
+}

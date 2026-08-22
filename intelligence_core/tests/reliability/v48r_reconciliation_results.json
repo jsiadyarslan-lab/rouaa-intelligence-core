@@ -1,0 +1,1847 @@
+{
+  "phase": "V48R SUBJECT SEMANTIC MODEL RECONCILIATION",
+  "baseline_commit": "82263950263f74c4b970a902975b72539d39703f",
+  "recovery_branch_head_before": "3af2d9ed70a3868b446896f8293dba1b77fa289e",
+  "executed_at_utc": "2026-08-20T21:25:30Z",
+  "new_io_count": 371,
+  "v47b_baseline_subject_counts": {
+    "ENTITY_NOT_FOUND": 322,
+    "ENTITY_CONFIRMED": 49
+  },
+  "v48r_after_subject_counts": {
+    "NOT_FOUND": 371
+  },
+  "separate_field_coverage": {
+    "subject_concept_confirmed": 9,
+    "subject_indicator_confirmed": 13,
+    "subject_instrument_confirmed": 8
+  },
+  "v48_confirmed_audit": [
+    {
+      "io_id": "io-68aeb1a370c256a6",
+      "v48_canonical_name": "Monetary Policy",
+      "v48_registry_type": "CONCEPT",
+      "v48r_classification": "SUBJECT_CONCEPT",
+      "v48r_subject_status": "NOT_FOUND",
+      "v48r_subject_concept": "Monetary Policy",
+      "v48r_subject_indicator": null,
+      "v48r_subject_instrument": null
+    },
+    {
+      "io_id": "io-30022112e390cb2f",
+      "v48_canonical_name": "Penalty",
+      "v48_registry_type": "REGULATION",
+      "v48r_classification": "REGULATION",
+      "v48r_subject_status": "NOT_FOUND",
+      "v48r_subject_concept": "Penalty",
+      "v48r_subject_indicator": null,
+      "v48r_subject_instrument": null
+    },
+    {
+      "io_id": "io-dd7f1db542d212a3",
+      "v48_canonical_name": "Consumer Price Index",
+      "v48_registry_type": "INDICATOR",
+      "v48r_classification": "INDICATOR",
+      "v48r_subject_status": "NOT_FOUND",
+      "v48r_subject_concept": null,
+      "v48r_subject_indicator": "Consumer Price Index",
+      "v48r_subject_instrument": null
+    },
+    {
+      "io_id": "io-9701ebc40db3ea9b",
+      "v48_canonical_name": "Penalty",
+      "v48_registry_type": "REGULATION",
+      "v48r_classification": "REGULATION",
+      "v48r_subject_status": "NOT_FOUND",
+      "v48r_subject_concept": "Penalty",
+      "v48r_subject_indicator": null,
+      "v48r_subject_instrument": null
+    },
+    {
+      "io_id": "io-9513f96cb044270e",
+      "v48_canonical_name": "Inflation",
+      "v48_registry_type": "INDICATOR",
+      "v48r_classification": "INDICATOR",
+      "v48r_subject_status": "NOT_FOUND",
+      "v48r_subject_concept": null,
+      "v48r_subject_indicator": "Inflation",
+      "v48r_subject_instrument": null
+    },
+    {
+      "io_id": "io-3be9de8dd3168da7",
+      "v48_canonical_name": "Penalty",
+      "v48_registry_type": "REGULATION",
+      "v48r_classification": "REGULATION",
+      "v48r_subject_status": "NOT_FOUND",
+      "v48r_subject_concept": "Penalty",
+      "v48r_subject_indicator": null,
+      "v48r_subject_instrument": null
+    },
+    {
+      "io_id": "io-534abe93a5d52fcf",
+      "v48_canonical_name": "Foreign Exchange",
+      "v48_registry_type": "MARKET",
+      "v48r_classification": "MARKET",
+      "v48r_subject_status": "NOT_FOUND",
+      "v48r_subject_concept": null,
+      "v48r_subject_indicator": null,
+      "v48r_subject_instrument": "Foreign Exchange"
+    },
+    {
+      "io_id": "io-1c89837982b29495",
+      "v48_canonical_name": "Penalty",
+      "v48_registry_type": "REGULATION",
+      "v48r_classification": "REGULATION",
+      "v48r_subject_status": "NOT_FOUND",
+      "v48r_subject_concept": "Penalty",
+      "v48r_subject_indicator": null,
+      "v48r_subject_instrument": null
+    },
+    {
+      "io_id": "io-1d843980c07050f9",
+      "v48_canonical_name": "Unemployment",
+      "v48_registry_type": "INDICATOR",
+      "v48r_classification": "INDICATOR",
+      "v48r_subject_status": "NOT_FOUND",
+      "v48r_subject_concept": null,
+      "v48r_subject_indicator": "Unemployment",
+      "v48r_subject_instrument": null
+    },
+    {
+      "io_id": "io-b5e6e01f2a705af8",
+      "v48_canonical_name": "Foreign Exchange",
+      "v48_registry_type": "MARKET",
+      "v48r_classification": "MARKET",
+      "v48r_subject_status": "NOT_FOUND",
+      "v48r_subject_concept": null,
+      "v48r_subject_indicator": null,
+      "v48r_subject_instrument": "Foreign Exchange"
+    },
+    {
+      "io_id": "io-cc38d9340dd09ee6",
+      "v48_canonical_name": "Gross Domestic Product",
+      "v48_registry_type": "INDICATOR",
+      "v48r_classification": "INDICATOR",
+      "v48r_subject_status": "NOT_FOUND",
+      "v48r_subject_concept": null,
+      "v48r_subject_indicator": "Gross Domestic Product",
+      "v48r_subject_instrument": null
+    },
+    {
+      "io_id": "io-c60cc20f95cda57b",
+      "v48_canonical_name": "Policy Rate",
+      "v48_registry_type": "INSTRUMENT",
+      "v48r_classification": "INSTRUMENT",
+      "v48r_subject_status": "NOT_FOUND",
+      "v48r_subject_concept": null,
+      "v48r_subject_indicator": null,
+      "v48r_subject_instrument": "Policy Rate"
+    },
+    {
+      "io_id": "io-7534fcd5081601e3",
+      "v48_canonical_name": "Penalty",
+      "v48_registry_type": "REGULATION",
+      "v48r_classification": "REGULATION",
+      "v48r_subject_status": "NOT_FOUND",
+      "v48r_subject_concept": "Penalty",
+      "v48r_subject_indicator": null,
+      "v48r_subject_instrument": null
+    },
+    {
+      "io_id": "io-df095b1b0959d904",
+      "v48_canonical_name": "Bonds",
+      "v48_registry_type": "INSTRUMENT",
+      "v48r_classification": "INSTRUMENT",
+      "v48r_subject_status": "NOT_FOUND",
+      "v48r_subject_concept": null,
+      "v48r_subject_indicator": null,
+      "v48r_subject_instrument": "Bonds"
+    }
+  ],
+  "v48_confirmed_class_counts": {
+    "SUBJECT_CONCEPT": 1,
+    "REGULATION": 5,
+    "INDICATOR": 4,
+    "MARKET": 2,
+    "INSTRUMENT": 2
+  },
+  "lost_reconciliation": [
+    {
+      "io_id": "io-ee8a8257ce0e86ba",
+      "v47b_status": "ENTITY_CONFIRMED",
+      "v47b_primary_entity": "CFTC",
+      "v47b_why": "Subject entity 'CFTC' confirmed by event-local segment binding",
+      "v47b_used_publisher_identity": false,
+      "v48r_status": "NOT_FOUND",
+      "v48r_canonical_name": "UNKNOWN",
+      "v48r_classification": "ONTOLOGY_ERROR"
+    },
+    {
+      "io_id": "io-005045dcc6e7f54f",
+      "v47b_status": "ENTITY_CONFIRMED",
+      "v47b_primary_entity": "FED",
+      "v47b_why": "Subject entity 'FED' confirmed by event-local segment binding",
+      "v47b_used_publisher_identity": false,
+      "v48r_status": "NOT_FOUND",
+      "v48r_canonical_name": "UNKNOWN",
+      "v48r_classification": "ONTOLOGY_ERROR"
+    },
+    {
+      "io_id": "io-c6c8ac878a439394",
+      "v47b_status": "ENTITY_CONFIRMED",
+      "v47b_primary_entity": "ECB",
+      "v47b_why": "Subject entity 'ECB' confirmed by event-local segment binding",
+      "v47b_used_publisher_identity": false,
+      "v48r_status": "NOT_FOUND",
+      "v48r_canonical_name": "UNKNOWN",
+      "v48r_classification": "ONTOLOGY_ERROR"
+    },
+    {
+      "io_id": "io-e65a9b3a70a171e4",
+      "v47b_status": "ENTITY_CONFIRMED",
+      "v47b_primary_entity": "EUROSTAT",
+      "v47b_why": "Subject entity 'EUROSTAT' confirmed by event-local segment binding",
+      "v47b_used_publisher_identity": false,
+      "v48r_status": "NOT_FOUND",
+      "v48r_canonical_name": "UNKNOWN",
+      "v48r_classification": "ONTOLOGY_ERROR"
+    },
+    {
+      "io_id": "io-bbb8485464e13316",
+      "v47b_status": "ENTITY_CONFIRMED",
+      "v47b_primary_entity": "ESMA",
+      "v47b_why": "Subject entity 'ESMA' confirmed by event-local segment binding",
+      "v47b_used_publisher_identity": false,
+      "v48r_status": "NOT_FOUND",
+      "v48r_canonical_name": "UNKNOWN",
+      "v48r_classification": "ONTOLOGY_ERROR"
+    },
+    {
+      "io_id": "io-30022112e390cb2f",
+      "v47b_status": "ENTITY_CONFIRMED",
+      "v47b_primary_entity": "FCA",
+      "v47b_why": "Subject entity 'FCA' confirmed by event-local segment binding",
+      "v47b_used_publisher_identity": false,
+      "v48r_status": "NOT_FOUND",
+      "v48r_canonical_name": "UNKNOWN",
+      "v48r_classification": "ONTOLOGY_ERROR"
+    },
+    {
+      "io_id": "io-09189d018d2081b4",
+      "v47b_status": "ENTITY_CONFIRMED",
+      "v47b_primary_entity": "BEA",
+      "v47b_why": "Subject entity 'BEA' confirmed by event-local segment binding",
+      "v47b_used_publisher_identity": false,
+      "v48r_status": "NOT_FOUND",
+      "v48r_canonical_name": "UNKNOWN",
+      "v48r_classification": "ONTOLOGY_ERROR"
+    },
+    {
+      "io_id": "io-8fa184904578eae6",
+      "v47b_status": "ENTITY_CONFIRMED",
+      "v47b_primary_entity": "BEA",
+      "v47b_why": "Subject entity 'BEA' confirmed by event-local segment binding",
+      "v47b_used_publisher_identity": false,
+      "v48r_status": "NOT_FOUND",
+      "v48r_canonical_name": "UNKNOWN",
+      "v48r_classification": "ONTOLOGY_ERROR"
+    },
+    {
+      "io_id": "io-9304252516f5b4a0",
+      "v47b_status": "ENTITY_CONFIRMED",
+      "v47b_primary_entity": "BEA",
+      "v47b_why": "Subject entity 'BEA' confirmed by event-local segment binding",
+      "v47b_used_publisher_identity": false,
+      "v48r_status": "NOT_FOUND",
+      "v48r_canonical_name": "UNKNOWN",
+      "v48r_classification": "ONTOLOGY_ERROR"
+    },
+    {
+      "io_id": "io-0873c447e9b9733c",
+      "v47b_status": "ENTITY_CONFIRMED",
+      "v47b_primary_entity": "BEA",
+      "v47b_why": "Subject entity 'BEA' confirmed by event-local segment binding",
+      "v47b_used_publisher_identity": false,
+      "v48r_status": "NOT_FOUND",
+      "v48r_canonical_name": "UNKNOWN",
+      "v48r_classification": "ONTOLOGY_ERROR"
+    },
+    {
+      "io_id": "io-ca43d858fe433433",
+      "v47b_status": "ENTITY_CONFIRMED",
+      "v47b_primary_entity": "BEA",
+      "v47b_why": "Subject entity 'BEA' confirmed by event-local segment binding",
+      "v47b_used_publisher_identity": false,
+      "v48r_status": "NOT_FOUND",
+      "v48r_canonical_name": "UNKNOWN",
+      "v48r_classification": "ONTOLOGY_ERROR"
+    },
+    {
+      "io_id": "io-82bd93037aae3793",
+      "v47b_status": "ENTITY_CONFIRMED",
+      "v47b_primary_entity": "BEA",
+      "v47b_why": "Subject entity 'BEA' confirmed by event-local segment binding",
+      "v47b_used_publisher_identity": false,
+      "v48r_status": "NOT_FOUND",
+      "v48r_canonical_name": "UNKNOWN",
+      "v48r_classification": "ONTOLOGY_ERROR"
+    },
+    {
+      "io_id": "io-39cfc3b482bba190",
+      "v47b_status": "ENTITY_CONFIRMED",
+      "v47b_primary_entity": "CFTC",
+      "v47b_why": "Subject entity 'CFTC' confirmed by event-local segment binding",
+      "v47b_used_publisher_identity": false,
+      "v48r_status": "NOT_FOUND",
+      "v48r_canonical_name": "UNKNOWN",
+      "v48r_classification": "ONTOLOGY_ERROR"
+    },
+    {
+      "io_id": "io-7e619d8c238339cc",
+      "v47b_status": "ENTITY_CONFIRMED",
+      "v47b_primary_entity": "BOE",
+      "v47b_why": "Subject entity 'BOE' confirmed by event-local segment binding",
+      "v47b_used_publisher_identity": false,
+      "v48r_status": "NOT_FOUND",
+      "v48r_canonical_name": "UNKNOWN",
+      "v48r_classification": "ONTOLOGY_ERROR"
+    },
+    {
+      "io_id": "io-d4c7af5cba135595",
+      "v47b_status": "ENTITY_CONFIRMED",
+      "v47b_primary_entity": "BEA",
+      "v47b_why": "Subject entity 'BEA' confirmed by event-local segment binding",
+      "v47b_used_publisher_identity": false,
+      "v48r_status": "NOT_FOUND",
+      "v48r_canonical_name": "UNKNOWN",
+      "v48r_classification": "ONTOLOGY_ERROR"
+    },
+    {
+      "io_id": "io-d699eb90722fdf91",
+      "v47b_status": "ENTITY_CONFIRMED",
+      "v47b_primary_entity": "BEA",
+      "v47b_why": "Subject entity 'BEA' confirmed by event-local segment binding",
+      "v47b_used_publisher_identity": false,
+      "v48r_status": "NOT_FOUND",
+      "v48r_canonical_name": "UNKNOWN",
+      "v48r_classification": "ONTOLOGY_ERROR"
+    },
+    {
+      "io_id": "io-35ce3669e1ba2204",
+      "v47b_status": "ENTITY_CONFIRMED",
+      "v47b_primary_entity": "BEA",
+      "v47b_why": "Subject entity 'BEA' confirmed by event-local segment binding",
+      "v47b_used_publisher_identity": false,
+      "v48r_status": "NOT_FOUND",
+      "v48r_canonical_name": "UNKNOWN",
+      "v48r_classification": "ONTOLOGY_ERROR"
+    },
+    {
+      "io_id": "io-0eb15c9170ee2b98",
+      "v47b_status": "ENTITY_CONFIRMED",
+      "v47b_primary_entity": "BEA",
+      "v47b_why": "Subject entity 'BEA' confirmed by event-local segment binding",
+      "v47b_used_publisher_identity": false,
+      "v48r_status": "NOT_FOUND",
+      "v48r_canonical_name": "UNKNOWN",
+      "v48r_classification": "ONTOLOGY_ERROR"
+    },
+    {
+      "io_id": "io-4d0ae13598a4e04d",
+      "v47b_status": "ENTITY_CONFIRMED",
+      "v47b_primary_entity": "BEA",
+      "v47b_why": "Subject entity 'BEA' confirmed by event-local segment binding",
+      "v47b_used_publisher_identity": false,
+      "v48r_status": "NOT_FOUND",
+      "v48r_canonical_name": "UNKNOWN",
+      "v48r_classification": "ONTOLOGY_ERROR"
+    },
+    {
+      "io_id": "io-25d63db0b736fc25",
+      "v47b_status": "ENTITY_CONFIRMED",
+      "v47b_primary_entity": "BEA",
+      "v47b_why": "Subject entity 'BEA' confirmed by event-local segment binding",
+      "v47b_used_publisher_identity": false,
+      "v48r_status": "NOT_FOUND",
+      "v48r_canonical_name": "UNKNOWN",
+      "v48r_classification": "ONTOLOGY_ERROR"
+    },
+    {
+      "io_id": "io-3be9de8dd3168da7",
+      "v47b_status": "ENTITY_CONFIRMED",
+      "v47b_primary_entity": "BEA",
+      "v47b_why": "Subject entity 'BEA' confirmed by event-local segment binding",
+      "v47b_used_publisher_identity": false,
+      "v48r_status": "NOT_FOUND",
+      "v48r_canonical_name": "UNKNOWN",
+      "v48r_classification": "ONTOLOGY_ERROR"
+    },
+    {
+      "io_id": "io-cb962de2e620b830",
+      "v47b_status": "ENTITY_CONFIRMED",
+      "v47b_primary_entity": "BEA",
+      "v47b_why": "Subject entity 'BEA' confirmed by event-local segment binding",
+      "v47b_used_publisher_identity": false,
+      "v48r_status": "NOT_FOUND",
+      "v48r_canonical_name": "UNKNOWN",
+      "v48r_classification": "ONTOLOGY_ERROR"
+    },
+    {
+      "io_id": "io-6d1470fdb40c3286",
+      "v47b_status": "ENTITY_CONFIRMED",
+      "v47b_primary_entity": "BEA",
+      "v47b_why": "Subject entity 'BEA' confirmed by event-local segment binding",
+      "v47b_used_publisher_identity": false,
+      "v48r_status": "NOT_FOUND",
+      "v48r_canonical_name": "UNKNOWN",
+      "v48r_classification": "ONTOLOGY_ERROR"
+    },
+    {
+      "io_id": "io-0556ef49eb5d7404",
+      "v47b_status": "ENTITY_CONFIRMED",
+      "v47b_primary_entity": "BEA",
+      "v47b_why": "Subject entity 'BEA' confirmed by event-local segment binding",
+      "v47b_used_publisher_identity": false,
+      "v48r_status": "NOT_FOUND",
+      "v48r_canonical_name": "UNKNOWN",
+      "v48r_classification": "ONTOLOGY_ERROR"
+    },
+    {
+      "io_id": "io-800941fa5aa8ae0f",
+      "v47b_status": "ENTITY_CONFIRMED",
+      "v47b_primary_entity": "BEA",
+      "v47b_why": "Subject entity 'BEA' confirmed by event-local segment binding",
+      "v47b_used_publisher_identity": false,
+      "v48r_status": "NOT_FOUND",
+      "v48r_canonical_name": "UNKNOWN",
+      "v48r_classification": "ONTOLOGY_ERROR"
+    },
+    {
+      "io_id": "io-ac6683eb8aeed7a0",
+      "v47b_status": "ENTITY_CONFIRMED",
+      "v47b_primary_entity": "BEA",
+      "v47b_why": "Subject entity 'BEA' confirmed by event-local segment binding",
+      "v47b_used_publisher_identity": false,
+      "v48r_status": "NOT_FOUND",
+      "v48r_canonical_name": "UNKNOWN",
+      "v48r_classification": "ONTOLOGY_ERROR"
+    },
+    {
+      "io_id": "io-43d4e65609c4843a",
+      "v47b_status": "ENTITY_CONFIRMED",
+      "v47b_primary_entity": "FCA",
+      "v47b_why": "Subject entity 'FCA' confirmed by event-local segment binding",
+      "v47b_used_publisher_identity": false,
+      "v48r_status": "NOT_FOUND",
+      "v48r_canonical_name": "UNKNOWN",
+      "v48r_classification": "ONTOLOGY_ERROR"
+    },
+    {
+      "io_id": "io-99ae26de15fc4f2d",
+      "v47b_status": "ENTITY_CONFIRMED",
+      "v47b_primary_entity": "BEA",
+      "v47b_why": "Subject entity 'BEA' confirmed by event-local segment binding",
+      "v47b_used_publisher_identity": false,
+      "v48r_status": "NOT_FOUND",
+      "v48r_canonical_name": "UNKNOWN",
+      "v48r_classification": "ONTOLOGY_ERROR"
+    },
+    {
+      "io_id": "io-1c89837982b29495",
+      "v47b_status": "ENTITY_CONFIRMED",
+      "v47b_primary_entity": "FCA",
+      "v47b_why": "Subject entity 'FCA' confirmed by event-local segment binding",
+      "v47b_used_publisher_identity": false,
+      "v48r_status": "NOT_FOUND",
+      "v48r_canonical_name": "UNKNOWN",
+      "v48r_classification": "ONTOLOGY_ERROR"
+    },
+    {
+      "io_id": "io-907eb1c59a2dd17d",
+      "v47b_status": "ENTITY_CONFIRMED",
+      "v47b_primary_entity": "BEA",
+      "v47b_why": "Subject entity 'BEA' confirmed by event-local segment binding",
+      "v47b_used_publisher_identity": false,
+      "v48r_status": "NOT_FOUND",
+      "v48r_canonical_name": "UNKNOWN",
+      "v48r_classification": "ONTOLOGY_ERROR"
+    },
+    {
+      "io_id": "io-2ac147ccabf9997d",
+      "v47b_status": "ENTITY_CONFIRMED",
+      "v47b_primary_entity": "FCA",
+      "v47b_why": "Subject entity 'FCA' confirmed by event-local segment binding",
+      "v47b_used_publisher_identity": false,
+      "v48r_status": "NOT_FOUND",
+      "v48r_canonical_name": "UNKNOWN",
+      "v48r_classification": "ONTOLOGY_ERROR"
+    },
+    {
+      "io_id": "io-09da29468dc8b429",
+      "v47b_status": "ENTITY_CONFIRMED",
+      "v47b_primary_entity": "BEA",
+      "v47b_why": "Subject entity 'BEA' confirmed by event-local segment binding",
+      "v47b_used_publisher_identity": false,
+      "v48r_status": "NOT_FOUND",
+      "v48r_canonical_name": "UNKNOWN",
+      "v48r_classification": "ONTOLOGY_ERROR"
+    },
+    {
+      "io_id": "io-2e6037c97b7468b6",
+      "v47b_status": "ENTITY_CONFIRMED",
+      "v47b_primary_entity": "BEA",
+      "v47b_why": "Subject entity 'BEA' confirmed by event-local segment binding",
+      "v47b_used_publisher_identity": false,
+      "v48r_status": "NOT_FOUND",
+      "v48r_canonical_name": "UNKNOWN",
+      "v48r_classification": "ONTOLOGY_ERROR"
+    },
+    {
+      "io_id": "io-5269e77c2b0f3ffd",
+      "v47b_status": "ENTITY_CONFIRMED",
+      "v47b_primary_entity": "BEA",
+      "v47b_why": "Subject entity 'BEA' confirmed by event-local segment binding",
+      "v47b_used_publisher_identity": false,
+      "v48r_status": "NOT_FOUND",
+      "v48r_canonical_name": "UNKNOWN",
+      "v48r_classification": "ONTOLOGY_ERROR"
+    },
+    {
+      "io_id": "io-9a1e066481b6713f",
+      "v47b_status": "ENTITY_CONFIRMED",
+      "v47b_primary_entity": "BEA",
+      "v47b_why": "Subject entity 'BEA' confirmed by event-local segment binding",
+      "v47b_used_publisher_identity": false,
+      "v48r_status": "NOT_FOUND",
+      "v48r_canonical_name": "UNKNOWN",
+      "v48r_classification": "ONTOLOGY_ERROR"
+    },
+    {
+      "io_id": "io-92dd0695d5ea51c7",
+      "v47b_status": "ENTITY_CONFIRMED",
+      "v47b_primary_entity": "BEA",
+      "v47b_why": "Subject entity 'BEA' confirmed by event-local segment binding",
+      "v47b_used_publisher_identity": false,
+      "v48r_status": "NOT_FOUND",
+      "v48r_canonical_name": "UNKNOWN",
+      "v48r_classification": "ONTOLOGY_ERROR"
+    },
+    {
+      "io_id": "io-a9735ba80b92fe2d",
+      "v47b_status": "ENTITY_CONFIRMED",
+      "v47b_primary_entity": "BEA",
+      "v47b_why": "Subject entity 'BEA' confirmed by event-local segment binding",
+      "v47b_used_publisher_identity": false,
+      "v48r_status": "NOT_FOUND",
+      "v48r_canonical_name": "UNKNOWN",
+      "v48r_classification": "ONTOLOGY_ERROR"
+    },
+    {
+      "io_id": "io-645312b1a398063a",
+      "v47b_status": "ENTITY_CONFIRMED",
+      "v47b_primary_entity": "BEA",
+      "v47b_why": "Subject entity 'BEA' confirmed by event-local segment binding",
+      "v47b_used_publisher_identity": false,
+      "v48r_status": "NOT_FOUND",
+      "v48r_canonical_name": "UNKNOWN",
+      "v48r_classification": "ONTOLOGY_ERROR"
+    },
+    {
+      "io_id": "io-b5e6e01f2a705af8",
+      "v47b_status": "ENTITY_CONFIRMED",
+      "v47b_primary_entity": "BEA",
+      "v47b_why": "Subject entity 'BEA' confirmed by event-local segment binding",
+      "v47b_used_publisher_identity": false,
+      "v48r_status": "NOT_FOUND",
+      "v48r_canonical_name": "UNKNOWN",
+      "v48r_classification": "ONTOLOGY_ERROR"
+    },
+    {
+      "io_id": "io-cc38d9340dd09ee6",
+      "v47b_status": "ENTITY_CONFIRMED",
+      "v47b_primary_entity": "BEA",
+      "v47b_why": "Subject entity 'BEA' confirmed by event-local segment binding",
+      "v47b_used_publisher_identity": false,
+      "v48r_status": "NOT_FOUND",
+      "v48r_canonical_name": "UNKNOWN",
+      "v48r_classification": "ONTOLOGY_ERROR"
+    },
+    {
+      "io_id": "io-bd555b2d90276e2d",
+      "v47b_status": "ENTITY_CONFIRMED",
+      "v47b_primary_entity": "BEA",
+      "v47b_why": "Subject entity 'BEA' confirmed by event-local segment binding",
+      "v47b_used_publisher_identity": false,
+      "v48r_status": "NOT_FOUND",
+      "v48r_canonical_name": "UNKNOWN",
+      "v48r_classification": "ONTOLOGY_ERROR"
+    },
+    {
+      "io_id": "io-1fdd7f96a6e1d7cc",
+      "v47b_status": "ENTITY_CONFIRMED",
+      "v47b_primary_entity": "BEA",
+      "v47b_why": "Subject entity 'BEA' confirmed by event-local segment binding",
+      "v47b_used_publisher_identity": false,
+      "v48r_status": "NOT_FOUND",
+      "v48r_canonical_name": "UNKNOWN",
+      "v48r_classification": "ONTOLOGY_ERROR"
+    },
+    {
+      "io_id": "io-ed6b55305996badc",
+      "v47b_status": "ENTITY_CONFIRMED",
+      "v47b_primary_entity": "BEA",
+      "v47b_why": "Subject entity 'BEA' confirmed by event-local segment binding",
+      "v47b_used_publisher_identity": false,
+      "v48r_status": "NOT_FOUND",
+      "v48r_canonical_name": "UNKNOWN",
+      "v48r_classification": "ONTOLOGY_ERROR"
+    },
+    {
+      "io_id": "io-f94642af76351dec",
+      "v47b_status": "ENTITY_CONFIRMED",
+      "v47b_primary_entity": "BOC",
+      "v47b_why": "Subject entity 'BOC' confirmed by event-local segment binding",
+      "v47b_used_publisher_identity": false,
+      "v48r_status": "NOT_FOUND",
+      "v48r_canonical_name": "UNKNOWN",
+      "v48r_classification": "ONTOLOGY_ERROR"
+    },
+    {
+      "io_id": "io-864e619bbdeccac0",
+      "v47b_status": "ENTITY_CONFIRMED",
+      "v47b_primary_entity": "EUROSTAT",
+      "v47b_why": "Subject entity 'EUROSTAT' confirmed by event-local segment binding",
+      "v47b_used_publisher_identity": false,
+      "v48r_status": "NOT_FOUND",
+      "v48r_canonical_name": "UNKNOWN",
+      "v48r_classification": "ONTOLOGY_ERROR"
+    },
+    {
+      "io_id": "io-87c8ae655f995fdf",
+      "v47b_status": "ENTITY_CONFIRMED",
+      "v47b_primary_entity": "BOJ",
+      "v47b_why": "Subject entity 'BOJ' confirmed by event-local segment binding",
+      "v47b_used_publisher_identity": false,
+      "v48r_status": "NOT_FOUND",
+      "v48r_canonical_name": "UNKNOWN",
+      "v48r_classification": "ONTOLOGY_ERROR"
+    },
+    {
+      "io_id": "io-aa2fa43b0be7f718",
+      "v47b_status": "ENTITY_CONFIRMED",
+      "v47b_primary_entity": "BOJ",
+      "v47b_why": "Subject entity 'BOJ' confirmed by event-local segment binding",
+      "v47b_used_publisher_identity": false,
+      "v48r_status": "NOT_FOUND",
+      "v48r_canonical_name": "UNKNOWN",
+      "v48r_classification": "ONTOLOGY_ERROR"
+    },
+    {
+      "io_id": "io-b47c76d1d3436c96",
+      "v47b_status": "ENTITY_CONFIRMED",
+      "v47b_primary_entity": "EUROSTAT",
+      "v47b_why": "Subject entity 'EUROSTAT' confirmed by event-local segment binding",
+      "v47b_used_publisher_identity": false,
+      "v48r_status": "NOT_FOUND",
+      "v48r_canonical_name": "UNKNOWN",
+      "v48r_classification": "ONTOLOGY_ERROR"
+    },
+    {
+      "io_id": "io-5db9a02598750bc3",
+      "v47b_status": "ENTITY_CONFIRMED",
+      "v47b_primary_entity": "OECD",
+      "v47b_why": "Subject entity 'OECD' confirmed by event-local segment binding",
+      "v47b_used_publisher_identity": false,
+      "v48r_status": "NOT_FOUND",
+      "v48r_canonical_name": "UNKNOWN",
+      "v48r_classification": "ONTOLOGY_ERROR"
+    }
+  ],
+  "lost_class_counts": {
+    "ONTOLOGY_ERROR": 49
+  },
+  "notfound_reconciliation_summary": {
+    "total_not_found": 322,
+    "v47b_used_publisher_identity": 0,
+    "v47b_did_not_use_publisher_identity": 322
+  },
+  "relationship_logic_test_cases": [
+    {
+      "text": "ECB announces rate increase",
+      "candidate": "European Central Bank",
+      "v48_relationship": "PUBLISHER",
+      "expected_role": "PUBLISHER",
+      "v48r_comment": "European Central Bank is publisher/actor; subject_concept=Monetary Policy (not entity)"
+    },
+    {
+      "text": "Apple reports revenue",
+      "candidate": "Apple",
+      "v48_relationship": "MENTIONED_ENTITY",
+      "expected_role": "EVENT_SUBJECT",
+      "v48r_comment": "Apple is the actor — but Apple is not in ENTITY_REGISTRY, so subject_entity=NOT_FOUND"
+    },
+    {
+      "text": "FCA fines Broker X",
+      "candidate": "Broker X",
+      "v48_relationship": "EVENT_SUBJECT",
+      "expected_role": "AFFECTED_ENTITY",
+      "v48r_comment": "Broker X is the affected entity; publisher=FCA"
+    },
+    {
+      "text": "GDP increased in Germany",
+      "candidate": "GDP",
+      "v48_relationship": "MENTIONED_ENTITY",
+      "expected_role": "EVENT_SUBJECT",
+      "v48r_comment": "GDP is an INDICATOR, not entity; subject_indicator=GDP, subject_entity=NOT_FOUND"
+    },
+    {
+      "text": "Inflation rose in France",
+      "candidate": "Inflation",
+      "v48_relationship": "MENTIONED_ENTITY",
+      "expected_role": "EVENT_SUBJECT",
+      "v48r_comment": "Inflation is an INDICATOR, not entity; subject_indicator=Inflation, subject_entity=NOT_FOUND"
+    }
+  ],
+  "readiness_model_audit": {
+    "ready_total": 0,
+    "ready_with_entity": 0,
+    "ready_without_entity": 0,
+    "partial": 0,
+    "blocked": 371
+  },
+  "sample_40_audit": [
+    {
+      "io_id": "io-cb08d31a4e009be2",
+      "event_type": "monetary_policy_decision",
+      "source_name": "eurostat",
+      "headline": "eurostat sets policy rate at 0.3 — Q1 2026",
+      "fact_count": 4,
+      "publisher": {
+        "canonical_name": "Eurostat",
+        "institution_type": "STATISTICAL_AGENCY",
+        "status": "CONFIRMED"
+      },
+      "v47b_subject": {
+        "entity_status": "ENTITY_NOT_FOUND",
+        "primary_entity": "UNKNOWN",
+        "why": "No entity signals found anywhere in context"
+      },
+      "v48r_subject_entity": {
+        "status": "NOT_FOUND",
+        "canonical_name": "UNKNOWN",
+        "relationship": "UNKNOWN"
+      },
+      "v48r_subject_concept": null,
+      "v48r_subject_indicator": null,
+      "v48r_subject_instrument": null,
+      "v48r_affected_entities": []
+    },
+    {
+      "io_id": "io-b37f6c9f4f5b4a8a",
+      "event_type": "monetary_policy_decision",
+      "source_name": "eurostat",
+      "headline": "eurostat sets policy rate at 0.0 — Q1 2026",
+      "fact_count": 9,
+      "publisher": {
+        "canonical_name": "Eurostat",
+        "institution_type": "STATISTICAL_AGENCY",
+        "status": "CONFIRMED"
+      },
+      "v47b_subject": {
+        "entity_status": "ENTITY_NOT_FOUND",
+        "primary_entity": "UNKNOWN",
+        "why": "No entity signals found anywhere in context"
+      },
+      "v48r_subject_entity": {
+        "status": "NOT_FOUND",
+        "canonical_name": "UNKNOWN",
+        "relationship": "UNKNOWN"
+      },
+      "v48r_subject_concept": null,
+      "v48r_subject_indicator": null,
+      "v48r_subject_instrument": null,
+      "v48r_affected_entities": []
+    },
+    {
+      "io_id": "io-cba6421b7b401b5d",
+      "event_type": "monetary_policy_decision",
+      "source_name": "euronext",
+      "headline": "euronext sets policy rate at 232",
+      "fact_count": 15,
+      "publisher": {
+        "canonical_name": "Euronext",
+        "institution_type": "EXCHANGE",
+        "status": "CONFIRMED"
+      },
+      "v47b_subject": {
+        "entity_status": "ENTITY_NOT_FOUND",
+        "primary_entity": "UNKNOWN",
+        "why": "No entity signals found anywhere in context"
+      },
+      "v48r_subject_entity": {
+        "status": "NOT_FOUND",
+        "canonical_name": "UNKNOWN",
+        "relationship": "UNKNOWN"
+      },
+      "v48r_subject_concept": null,
+      "v48r_subject_indicator": null,
+      "v48r_subject_instrument": null,
+      "v48r_affected_entities": []
+    },
+    {
+      "io_id": "io-68aeb1a370c256a6",
+      "event_type": "monetary_policy_decision",
+      "source_name": "federal-reserve",
+      "headline": "federal-reserve sets policy rate at 4",
+      "fact_count": 5,
+      "publisher": {
+        "canonical_name": "Federal Reserve",
+        "institution_type": "CENTRAL_BANK",
+        "status": "CONFIRMED"
+      },
+      "v47b_subject": {
+        "entity_status": "ENTITY_NOT_FOUND",
+        "primary_entity": "UNKNOWN",
+        "why": "Entity signals found in non-primary segments only — not event-local"
+      },
+      "v48r_subject_entity": {
+        "status": "NOT_FOUND",
+        "canonical_name": "UNKNOWN",
+        "relationship": "UNKNOWN"
+      },
+      "v48r_subject_concept": "Monetary Policy",
+      "v48r_subject_indicator": null,
+      "v48r_subject_instrument": null,
+      "v48r_affected_entities": []
+    },
+    {
+      "io_id": "io-275f353119648d3f",
+      "event_type": "monetary_policy_decision",
+      "source_name": "eurostat",
+      "headline": "eurostat sets policy rate at 0.5 — Q2 2026",
+      "fact_count": 27,
+      "publisher": {
+        "canonical_name": "Eurostat",
+        "institution_type": "STATISTICAL_AGENCY",
+        "status": "CONFIRMED"
+      },
+      "v47b_subject": {
+        "entity_status": "ENTITY_NOT_FOUND",
+        "primary_entity": "UNKNOWN",
+        "why": "No entity signals found anywhere in context"
+      },
+      "v48r_subject_entity": {
+        "status": "NOT_FOUND",
+        "canonical_name": "UNKNOWN",
+        "relationship": "UNKNOWN"
+      },
+      "v48r_subject_concept": null,
+      "v48r_subject_indicator": null,
+      "v48r_subject_instrument": null,
+      "v48r_affected_entities": []
+    },
+    {
+      "io_id": "io-cb86ecb4e874af16",
+      "event_type": "monetary_policy_decision",
+      "source_name": "eurostat",
+      "headline": "eurostat sets policy rate at 0.4 — second 2026",
+      "fact_count": 36,
+      "publisher": {
+        "canonical_name": "Eurostat",
+        "institution_type": "STATISTICAL_AGENCY",
+        "status": "CONFIRMED"
+      },
+      "v47b_subject": {
+        "entity_status": "ENTITY_NOT_FOUND",
+        "primary_entity": "UNKNOWN",
+        "why": "Entity signals found in non-primary segments only — not event-local"
+      },
+      "v48r_subject_entity": {
+        "status": "NOT_FOUND",
+        "canonical_name": "UNKNOWN",
+        "relationship": "UNKNOWN"
+      },
+      "v48r_subject_concept": null,
+      "v48r_subject_indicator": null,
+      "v48r_subject_instrument": null,
+      "v48r_affected_entities": []
+    },
+    {
+      "io_id": "io-55da9e9be0359c67",
+      "event_type": "monetary_policy_decision",
+      "source_name": "stats-china",
+      "headline": "stats-china sets policy rate at 7",
+      "fact_count": 4,
+      "publisher": {
+        "canonical_name": "National Bureau of Statistics of China",
+        "institution_type": "STATISTICAL_AGENCY",
+        "status": "CONFIRMED"
+      },
+      "v47b_subject": {
+        "entity_status": "ENTITY_NOT_FOUND",
+        "primary_entity": "UNKNOWN",
+        "why": "No entity signals found anywhere in context"
+      },
+      "v48r_subject_entity": {
+        "status": "NOT_FOUND",
+        "canonical_name": "UNKNOWN",
+        "relationship": "UNKNOWN"
+      },
+      "v48r_subject_concept": null,
+      "v48r_subject_indicator": null,
+      "v48r_subject_instrument": null,
+      "v48r_affected_entities": []
+    },
+    {
+      "io_id": "io-bea0b6a376d6f629",
+      "event_type": "monetary_policy_decision",
+      "source_name": "deutsche-boerse",
+      "headline": "deutsche-boerse sets policy rate at 16",
+      "fact_count": 35,
+      "publisher": {
+        "canonical_name": "Deutsche Börse",
+        "institution_type": "EXCHANGE",
+        "status": "CONFIRMED"
+      },
+      "v47b_subject": {
+        "entity_status": "ENTITY_NOT_FOUND",
+        "primary_entity": "UNKNOWN",
+        "why": "No entity signals found anywhere in context"
+      },
+      "v48r_subject_entity": {
+        "status": "NOT_FOUND",
+        "canonical_name": "UNKNOWN",
+        "relationship": "UNKNOWN"
+      },
+      "v48r_subject_concept": null,
+      "v48r_subject_indicator": null,
+      "v48r_subject_instrument": null,
+      "v48r_affected_entities": []
+    },
+    {
+      "io_id": "io-4d94300b4070757f",
+      "event_type": "monetary_policy_decision",
+      "source_name": "fsb",
+      "headline": "fsb sets policy rate at 77 — 2026-07",
+      "fact_count": 2,
+      "publisher": {
+        "canonical_name": "Financial Stability Board",
+        "institution_type": "INTERNATIONAL_ORGANIZATION",
+        "status": "CONFIRMED"
+      },
+      "v47b_subject": {
+        "entity_status": "ENTITY_NOT_FOUND",
+        "primary_entity": "UNKNOWN",
+        "why": "No entity signals found anywhere in context"
+      },
+      "v48r_subject_entity": {
+        "status": "NOT_FOUND",
+        "canonical_name": "UNKNOWN",
+        "relationship": "UNKNOWN"
+      },
+      "v48r_subject_concept": null,
+      "v48r_subject_indicator": null,
+      "v48r_subject_instrument": null,
+      "v48r_affected_entities": []
+    },
+    {
+      "io_id": "io-4534afa35d995d2a",
+      "event_type": "monetary_policy_decision",
+      "source_name": "cftc",
+      "headline": "cftc sets policy rate at 0.2",
+      "fact_count": 1,
+      "publisher": {
+        "canonical_name": "Commodity Futures Trading Commission",
+        "institution_type": "SECURITIES_REGULATOR",
+        "status": "CONFIRMED"
+      },
+      "v47b_subject": {
+        "entity_status": "ENTITY_NOT_FOUND",
+        "primary_entity": "UNKNOWN",
+        "why": "No entity signals found anywhere in context"
+      },
+      "v48r_subject_entity": {
+        "status": "NOT_FOUND",
+        "canonical_name": "UNKNOWN",
+        "relationship": "UNKNOWN"
+      },
+      "v48r_subject_concept": null,
+      "v48r_subject_indicator": null,
+      "v48r_subject_instrument": null,
+      "v48r_affected_entities": []
+    },
+    {
+      "io_id": "io-74b51eefd13974d9",
+      "event_type": "statistical_release",
+      "source_name": "bank-of-england",
+      "headline": "bank-of-england reports percentage statistic of 2",
+      "fact_count": 2,
+      "publisher": {
+        "canonical_name": "Bank Of England",
+        "institution_type": "OTHER",
+        "status": "AMBIGUOUS"
+      },
+      "v47b_subject": {
+        "entity_status": "ENTITY_NOT_FOUND",
+        "primary_entity": "UNKNOWN",
+        "why": "No entity signals found anywhere in context"
+      },
+      "v48r_subject_entity": {
+        "status": "NOT_FOUND",
+        "canonical_name": "UNKNOWN",
+        "relationship": "UNKNOWN"
+      },
+      "v48r_subject_concept": null,
+      "v48r_subject_indicator": null,
+      "v48r_subject_instrument": null,
+      "v48r_affected_entities": []
+    },
+    {
+      "io_id": "io-bd378fea8d59bb17",
+      "event_type": "statistical_release",
+      "source_name": "bank-of-england",
+      "headline": "bank-of-england reports percentage statistic of 2",
+      "fact_count": 2,
+      "publisher": {
+        "canonical_name": "Bank Of England",
+        "institution_type": "OTHER",
+        "status": "AMBIGUOUS"
+      },
+      "v47b_subject": {
+        "entity_status": "ENTITY_NOT_FOUND",
+        "primary_entity": "UNKNOWN",
+        "why": "No entity signals found anywhere in context"
+      },
+      "v48r_subject_entity": {
+        "status": "NOT_FOUND",
+        "canonical_name": "UNKNOWN",
+        "relationship": "UNKNOWN"
+      },
+      "v48r_subject_concept": null,
+      "v48r_subject_indicator": null,
+      "v48r_subject_instrument": null,
+      "v48r_affected_entities": []
+    },
+    {
+      "io_id": "io-c6c8ac878a439394",
+      "event_type": "statistical_release",
+      "source_name": "ecb",
+      "headline": "ecb reports percentage statistic of 72",
+      "fact_count": 2,
+      "publisher": {
+        "canonical_name": "European Central Bank",
+        "institution_type": "CENTRAL_BANK",
+        "status": "CONFIRMED"
+      },
+      "v47b_subject": {
+        "entity_status": "ENTITY_CONFIRMED",
+        "primary_entity": "ECB",
+        "why": "Subject entity 'ECB' confirmed by event-local segment binding"
+      },
+      "v48r_subject_entity": {
+        "status": "NOT_FOUND",
+        "canonical_name": "UNKNOWN",
+        "relationship": "UNKNOWN"
+      },
+      "v48r_subject_concept": null,
+      "v48r_subject_indicator": null,
+      "v48r_subject_instrument": null,
+      "v48r_affected_entities": []
+    },
+    {
+      "io_id": "io-43450fbfbd3f5f48",
+      "event_type": "statistical_release",
+      "source_name": "ecb",
+      "headline": "ecb reports percentage statistic of 5 — 2026",
+      "fact_count": 2,
+      "publisher": {
+        "canonical_name": "European Central Bank",
+        "institution_type": "CENTRAL_BANK",
+        "status": "CONFIRMED"
+      },
+      "v47b_subject": {
+        "entity_status": "ENTITY_NOT_FOUND",
+        "primary_entity": "UNKNOWN",
+        "why": "Entity signals found in non-primary segments only — not event-local"
+      },
+      "v48r_subject_entity": {
+        "status": "NOT_FOUND",
+        "canonical_name": "UNKNOWN",
+        "relationship": "UNKNOWN"
+      },
+      "v48r_subject_concept": null,
+      "v48r_subject_indicator": null,
+      "v48r_subject_instrument": null,
+      "v48r_affected_entities": []
+    },
+    {
+      "io_id": "io-a27ee61aa6026a13",
+      "event_type": "statistical_release",
+      "source_name": "ecb",
+      "headline": "ecb reports percentage statistic of 31 — 2026",
+      "fact_count": 6,
+      "publisher": {
+        "canonical_name": "European Central Bank",
+        "institution_type": "CENTRAL_BANK",
+        "status": "CONFIRMED"
+      },
+      "v47b_subject": {
+        "entity_status": "ENTITY_NOT_FOUND",
+        "primary_entity": "UNKNOWN",
+        "why": "Entity signals found in non-primary segments only — not event-local"
+      },
+      "v48r_subject_entity": {
+        "status": "NOT_FOUND",
+        "canonical_name": "UNKNOWN",
+        "relationship": "UNKNOWN"
+      },
+      "v48r_subject_concept": null,
+      "v48r_subject_indicator": null,
+      "v48r_subject_instrument": null,
+      "v48r_affected_entities": [
+        {
+          "canonical_name": "Bonds",
+          "supporting_segment_ids": [
+            "seg-433d840d0f172285"
+          ]
+        },
+        {
+          "canonical_name": "Equities",
+          "supporting_segment_ids": [
+            "seg-433d840d0f172285"
+          ]
+        }
+      ]
+    },
+    {
+      "io_id": "io-f803af6f431d9f8a",
+      "event_type": "statistical_release",
+      "source_name": "bank-of-england",
+      "headline": "bank-of-england reports percentage statistic of 2",
+      "fact_count": 36,
+      "publisher": {
+        "canonical_name": "Bank Of England",
+        "institution_type": "OTHER",
+        "status": "AMBIGUOUS"
+      },
+      "v47b_subject": {
+        "entity_status": "ENTITY_NOT_FOUND",
+        "primary_entity": "UNKNOWN",
+        "why": "No entity signals found anywhere in context"
+      },
+      "v48r_subject_entity": {
+        "status": "NOT_FOUND",
+        "canonical_name": "UNKNOWN",
+        "relationship": "UNKNOWN"
+      },
+      "v48r_subject_concept": "Monetary Policy",
+      "v48r_subject_indicator": "Inflation",
+      "v48r_subject_instrument": null,
+      "v48r_affected_entities": []
+    },
+    {
+      "io_id": "io-0da4c931b2a04e1a",
+      "event_type": "statistical_release",
+      "source_name": "bank-of-england",
+      "headline": "bank-of-england reports percentage statistic of 2",
+      "fact_count": 2,
+      "publisher": {
+        "canonical_name": "Bank Of England",
+        "institution_type": "OTHER",
+        "status": "AMBIGUOUS"
+      },
+      "v47b_subject": {
+        "entity_status": "ENTITY_NOT_FOUND",
+        "primary_entity": "UNKNOWN",
+        "why": "No entity signals found anywhere in context"
+      },
+      "v48r_subject_entity": {
+        "status": "NOT_FOUND",
+        "canonical_name": "UNKNOWN",
+        "relationship": "UNKNOWN"
+      },
+      "v48r_subject_concept": null,
+      "v48r_subject_indicator": null,
+      "v48r_subject_instrument": null,
+      "v48r_affected_entities": []
+    },
+    {
+      "io_id": "io-3397bcfeb16c1522",
+      "event_type": "statistical_release",
+      "source_name": "bank-of-england",
+      "headline": "bank-of-england reports percentage statistic of 2",
+      "fact_count": 2,
+      "publisher": {
+        "canonical_name": "Bank Of England",
+        "institution_type": "OTHER",
+        "status": "AMBIGUOUS"
+      },
+      "v47b_subject": {
+        "entity_status": "ENTITY_NOT_FOUND",
+        "primary_entity": "UNKNOWN",
+        "why": "No entity signals found anywhere in context"
+      },
+      "v48r_subject_entity": {
+        "status": "NOT_FOUND",
+        "canonical_name": "UNKNOWN",
+        "relationship": "UNKNOWN"
+      },
+      "v48r_subject_concept": null,
+      "v48r_subject_indicator": null,
+      "v48r_subject_instrument": null,
+      "v48r_affected_entities": []
+    },
+    {
+      "io_id": "io-877cfaba4b9dc235",
+      "event_type": "statistical_release",
+      "source_name": "bank-of-england",
+      "headline": "bank-of-england reports percentage statistic of 2",
+      "fact_count": 4,
+      "publisher": {
+        "canonical_name": "Bank Of England",
+        "institution_type": "OTHER",
+        "status": "AMBIGUOUS"
+      },
+      "v47b_subject": {
+        "entity_status": "ENTITY_NOT_FOUND",
+        "primary_entity": "UNKNOWN",
+        "why": "No entity signals found anywhere in context"
+      },
+      "v48r_subject_entity": {
+        "status": "NOT_FOUND",
+        "canonical_name": "UNKNOWN",
+        "relationship": "UNKNOWN"
+      },
+      "v48r_subject_concept": null,
+      "v48r_subject_indicator": null,
+      "v48r_subject_instrument": null,
+      "v48r_affected_entities": []
+    },
+    {
+      "io_id": "io-7a2ef7f9417df7ab",
+      "event_type": "statistical_release",
+      "source_name": "bank-of-england",
+      "headline": "bank-of-england reports percentage statistic of 2",
+      "fact_count": 2,
+      "publisher": {
+        "canonical_name": "Bank Of England",
+        "institution_type": "OTHER",
+        "status": "AMBIGUOUS"
+      },
+      "v47b_subject": {
+        "entity_status": "ENTITY_NOT_FOUND",
+        "primary_entity": "UNKNOWN",
+        "why": "No entity signals found anywhere in context"
+      },
+      "v48r_subject_entity": {
+        "status": "NOT_FOUND",
+        "canonical_name": "UNKNOWN",
+        "relationship": "UNKNOWN"
+      },
+      "v48r_subject_concept": null,
+      "v48r_subject_indicator": null,
+      "v48r_subject_instrument": null,
+      "v48r_affected_entities": []
+    },
+    {
+      "io_id": "io-0a2164dff20884fa",
+      "event_type": "regulatory_enforcement",
+      "source_name": "ecb",
+      "headline": "ecb enforcement: action type settlement — 2026",
+      "fact_count": 1,
+      "publisher": {
+        "canonical_name": "European Central Bank",
+        "institution_type": "CENTRAL_BANK",
+        "status": "CONFIRMED"
+      },
+      "v47b_subject": {
+        "entity_status": "ENTITY_NOT_FOUND",
+        "primary_entity": "UNKNOWN",
+        "why": "No entity signals found anywhere in context"
+      },
+      "v48r_subject_entity": {
+        "status": "NOT_FOUND",
+        "canonical_name": "UNKNOWN",
+        "relationship": "UNKNOWN"
+      },
+      "v48r_subject_concept": null,
+      "v48r_subject_indicator": null,
+      "v48r_subject_instrument": null,
+      "v48r_affected_entities": []
+    },
+    {
+      "io_id": "io-ee8a8257ce0e86ba",
+      "event_type": "regulatory_enforcement",
+      "source_name": "cftc",
+      "headline": "cftc enforcement: penalty amount 400",
+      "fact_count": 4,
+      "publisher": {
+        "canonical_name": "Commodity Futures Trading Commission",
+        "institution_type": "SECURITIES_REGULATOR",
+        "status": "CONFIRMED"
+      },
+      "v47b_subject": {
+        "entity_status": "ENTITY_CONFIRMED",
+        "primary_entity": "CFTC",
+        "why": "Subject entity 'CFTC' confirmed by event-local segment binding"
+      },
+      "v48r_subject_entity": {
+        "status": "NOT_FOUND",
+        "canonical_name": "UNKNOWN",
+        "relationship": "UNKNOWN"
+      },
+      "v48r_subject_concept": null,
+      "v48r_subject_indicator": null,
+      "v48r_subject_instrument": null,
+      "v48r_affected_entities": []
+    },
+    {
+      "io_id": "io-b6abac1393987508",
+      "event_type": "regulatory_enforcement",
+      "source_name": "esma",
+      "headline": "esma enforcement: action type settlement",
+      "fact_count": 1,
+      "publisher": {
+        "canonical_name": "European Securities and Markets Authority",
+        "institution_type": "SECURITIES_REGULATOR",
+        "status": "CONFIRMED"
+      },
+      "v47b_subject": {
+        "entity_status": "ENTITY_NOT_FOUND",
+        "primary_entity": "UNKNOWN",
+        "why": "No entity signals found anywhere in context"
+      },
+      "v48r_subject_entity": {
+        "status": "NOT_FOUND",
+        "canonical_name": "UNKNOWN",
+        "relationship": "UNKNOWN"
+      },
+      "v48r_subject_concept": null,
+      "v48r_subject_indicator": null,
+      "v48r_subject_instrument": null,
+      "v48r_affected_entities": []
+    },
+    {
+      "io_id": "io-5150003cff76e0ab",
+      "event_type": "regulatory_enforcement",
+      "source_name": "esma",
+      "headline": "esma enforcement: action type settlement",
+      "fact_count": 1,
+      "publisher": {
+        "canonical_name": "European Securities and Markets Authority",
+        "institution_type": "SECURITIES_REGULATOR",
+        "status": "CONFIRMED"
+      },
+      "v47b_subject": {
+        "entity_status": "ENTITY_NOT_FOUND",
+        "primary_entity": "UNKNOWN",
+        "why": "No entity signals found anywhere in context"
+      },
+      "v48r_subject_entity": {
+        "status": "NOT_FOUND",
+        "canonical_name": "UNKNOWN",
+        "relationship": "UNKNOWN"
+      },
+      "v48r_subject_concept": null,
+      "v48r_subject_indicator": null,
+      "v48r_subject_instrument": null,
+      "v48r_affected_entities": []
+    },
+    {
+      "io_id": "io-eb4ea7a98e0e81d3",
+      "event_type": "regulatory_enforcement",
+      "source_name": "esma",
+      "headline": "esma enforcement: action type settlement",
+      "fact_count": 1,
+      "publisher": {
+        "canonical_name": "European Securities and Markets Authority",
+        "institution_type": "SECURITIES_REGULATOR",
+        "status": "CONFIRMED"
+      },
+      "v47b_subject": {
+        "entity_status": "ENTITY_NOT_FOUND",
+        "primary_entity": "UNKNOWN",
+        "why": "No entity signals found anywhere in context"
+      },
+      "v48r_subject_entity": {
+        "status": "NOT_FOUND",
+        "canonical_name": "UNKNOWN",
+        "relationship": "UNKNOWN"
+      },
+      "v48r_subject_concept": null,
+      "v48r_subject_indicator": null,
+      "v48r_subject_instrument": null,
+      "v48r_affected_entities": []
+    },
+    {
+      "io_id": "io-936e16f976e71fe5",
+      "event_type": "regulatory_enforcement",
+      "source_name": "fca",
+      "headline": "fca enforcement: action type settlement — 2027",
+      "fact_count": 26,
+      "publisher": {
+        "canonical_name": "Financial Conduct Authority",
+        "institution_type": "REGULATOR",
+        "status": "CONFIRMED"
+      },
+      "v47b_subject": {
+        "entity_status": "ENTITY_NOT_FOUND",
+        "primary_entity": "UNKNOWN",
+        "why": "No entity signals found anywhere in context"
+      },
+      "v48r_subject_entity": {
+        "status": "NOT_FOUND",
+        "canonical_name": "UNKNOWN",
+        "relationship": "UNKNOWN"
+      },
+      "v48r_subject_concept": null,
+      "v48r_subject_indicator": null,
+      "v48r_subject_instrument": null,
+      "v48r_affected_entities": []
+    },
+    {
+      "io_id": "io-e1c8fef2c0eb8d6e",
+      "event_type": "regulatory_enforcement",
+      "source_name": "euronext",
+      "headline": "euronext enforcement: action type settlement",
+      "fact_count": 6,
+      "publisher": {
+        "canonical_name": "Euronext",
+        "institution_type": "EXCHANGE",
+        "status": "CONFIRMED"
+      },
+      "v47b_subject": {
+        "entity_status": "ENTITY_NOT_FOUND",
+        "primary_entity": "UNKNOWN",
+        "why": "No entity signals found anywhere in context"
+      },
+      "v48r_subject_entity": {
+        "status": "NOT_FOUND",
+        "canonical_name": "UNKNOWN",
+        "relationship": "UNKNOWN"
+      },
+      "v48r_subject_concept": null,
+      "v48r_subject_indicator": null,
+      "v48r_subject_instrument": null,
+      "v48r_affected_entities": []
+    },
+    {
+      "io_id": "io-81354940d43ef28d",
+      "event_type": "regulatory_enforcement",
+      "source_name": "euronext",
+      "headline": "euronext enforcement: action type settlement",
+      "fact_count": 6,
+      "publisher": {
+        "canonical_name": "Euronext",
+        "institution_type": "EXCHANGE",
+        "status": "CONFIRMED"
+      },
+      "v47b_subject": {
+        "entity_status": "ENTITY_NOT_FOUND",
+        "primary_entity": "UNKNOWN",
+        "why": "No entity signals found anywhere in context"
+      },
+      "v48r_subject_entity": {
+        "status": "NOT_FOUND",
+        "canonical_name": "UNKNOWN",
+        "relationship": "UNKNOWN"
+      },
+      "v48r_subject_concept": null,
+      "v48r_subject_indicator": null,
+      "v48r_subject_instrument": null,
+      "v48r_affected_entities": []
+    },
+    {
+      "io_id": "io-fe0ecf5fbcc92531",
+      "event_type": "regulatory_enforcement",
+      "source_name": "ecb",
+      "headline": "ecb enforcement: action type settlement — 2026",
+      "fact_count": 1,
+      "publisher": {
+        "canonical_name": "European Central Bank",
+        "institution_type": "CENTRAL_BANK",
+        "status": "CONFIRMED"
+      },
+      "v47b_subject": {
+        "entity_status": "ENTITY_NOT_FOUND",
+        "primary_entity": "UNKNOWN",
+        "why": "No entity signals found anywhere in context"
+      },
+      "v48r_subject_entity": {
+        "status": "NOT_FOUND",
+        "canonical_name": "UNKNOWN",
+        "relationship": "UNKNOWN"
+      },
+      "v48r_subject_concept": null,
+      "v48r_subject_indicator": null,
+      "v48r_subject_instrument": null,
+      "v48r_affected_entities": []
+    },
+    {
+      "io_id": "io-e65a9b3a70a171e4",
+      "event_type": "regulatory_enforcement",
+      "source_name": "eurostat",
+      "headline": "eurostat enforcement: action type fine",
+      "fact_count": 2,
+      "publisher": {
+        "canonical_name": "Eurostat",
+        "institution_type": "STATISTICAL_AGENCY",
+        "status": "CONFIRMED"
+      },
+      "v47b_subject": {
+        "entity_status": "ENTITY_CONFIRMED",
+        "primary_entity": "EUROSTAT",
+        "why": "Subject entity 'EUROSTAT' confirmed by event-local segment binding"
+      },
+      "v48r_subject_entity": {
+        "status": "NOT_FOUND",
+        "canonical_name": "UNKNOWN",
+        "relationship": "UNKNOWN"
+      },
+      "v48r_subject_concept": null,
+      "v48r_subject_indicator": null,
+      "v48r_subject_instrument": null,
+      "v48r_affected_entities": []
+    },
+    {
+      "io_id": "io-005045dcc6e7f54f",
+      "event_type": "market_statistic_release",
+      "source_name": "federal-reserve",
+      "headline": "federal-reserve market usd amount 3",
+      "fact_count": 1,
+      "publisher": {
+        "canonical_name": "Federal Reserve",
+        "institution_type": "CENTRAL_BANK",
+        "status": "CONFIRMED"
+      },
+      "v47b_subject": {
+        "entity_status": "ENTITY_CONFIRMED",
+        "primary_entity": "FED",
+        "why": "Subject entity 'FED' confirmed by event-local segment binding"
+      },
+      "v48r_subject_entity": {
+        "status": "NOT_FOUND",
+        "canonical_name": "UNKNOWN",
+        "relationship": "UNKNOWN"
+      },
+      "v48r_subject_concept": null,
+      "v48r_subject_indicator": null,
+      "v48r_subject_instrument": null,
+      "v48r_affected_entities": []
+    },
+    {
+      "io_id": "io-73d389d84d737535",
+      "event_type": "market_statistic_release",
+      "source_name": "cftc",
+      "headline": "cftc market usd amount 36",
+      "fact_count": 1,
+      "publisher": {
+        "canonical_name": "Commodity Futures Trading Commission",
+        "institution_type": "SECURITIES_REGULATOR",
+        "status": "CONFIRMED"
+      },
+      "v47b_subject": {
+        "entity_status": "ENTITY_NOT_FOUND",
+        "primary_entity": "UNKNOWN",
+        "why": "Entity signals found in non-primary segments only — not event-local"
+      },
+      "v48r_subject_entity": {
+        "status": "NOT_FOUND",
+        "canonical_name": "UNKNOWN",
+        "relationship": "UNKNOWN"
+      },
+      "v48r_subject_concept": null,
+      "v48r_subject_indicator": null,
+      "v48r_subject_instrument": null,
+      "v48r_affected_entities": []
+    },
+    {
+      "io_id": "io-e634047f1888f551",
+      "event_type": "market_statistic_release",
+      "source_name": "cftc",
+      "headline": "cftc market usd amount 397",
+      "fact_count": 1,
+      "publisher": {
+        "canonical_name": "Commodity Futures Trading Commission",
+        "institution_type": "SECURITIES_REGULATOR",
+        "status": "CONFIRMED"
+      },
+      "v47b_subject": {
+        "entity_status": "ENTITY_NOT_FOUND",
+        "primary_entity": "UNKNOWN",
+        "why": "Entity signals found in non-primary segments only — not event-local"
+      },
+      "v48r_subject_entity": {
+        "status": "NOT_FOUND",
+        "canonical_name": "UNKNOWN",
+        "relationship": "UNKNOWN"
+      },
+      "v48r_subject_concept": null,
+      "v48r_subject_indicator": null,
+      "v48r_subject_instrument": null,
+      "v48r_affected_entities": []
+    },
+    {
+      "io_id": "io-d06c7cf2f00b4891",
+      "event_type": "market_statistic_release",
+      "source_name": "frb-ny",
+      "headline": "frb-ny market usd amount 1.3",
+      "fact_count": 3,
+      "publisher": {
+        "canonical_name": "Frb Ny",
+        "institution_type": "OTHER",
+        "status": "AMBIGUOUS"
+      },
+      "v47b_subject": {
+        "entity_status": "ENTITY_NOT_FOUND",
+        "primary_entity": "UNKNOWN",
+        "why": "Entity signals found in non-primary segments only — not event-local"
+      },
+      "v48r_subject_entity": {
+        "status": "NOT_FOUND",
+        "canonical_name": "UNKNOWN",
+        "relationship": "UNKNOWN"
+      },
+      "v48r_subject_concept": null,
+      "v48r_subject_indicator": null,
+      "v48r_subject_instrument": null,
+      "v48r_affected_entities": []
+    },
+    {
+      "io_id": "io-a1868489de0e9e2e",
+      "event_type": "market_statistic_release",
+      "source_name": "frb-ny",
+      "headline": "frb-ny market usd amount 232 — Q2 2023",
+      "fact_count": 5,
+      "publisher": {
+        "canonical_name": "Frb Ny",
+        "institution_type": "OTHER",
+        "status": "AMBIGUOUS"
+      },
+      "v47b_subject": {
+        "entity_status": "ENTITY_NOT_FOUND",
+        "primary_entity": "UNKNOWN",
+        "why": "Entity signals found in non-primary segments only — not event-local"
+      },
+      "v48r_subject_entity": {
+        "status": "NOT_FOUND",
+        "canonical_name": "UNKNOWN",
+        "relationship": "UNKNOWN"
+      },
+      "v48r_subject_concept": null,
+      "v48r_subject_indicator": null,
+      "v48r_subject_instrument": null,
+      "v48r_affected_entities": []
+    },
+    {
+      "io_id": "io-655c974c29eeb347",
+      "event_type": "market_statistic_release",
+      "source_name": "nrcan",
+      "headline": "nrcan market usd amount 32",
+      "fact_count": 3,
+      "publisher": {
+        "canonical_name": "Nrcan",
+        "institution_type": "OTHER",
+        "status": "AMBIGUOUS"
+      },
+      "v47b_subject": {
+        "entity_status": "ENTITY_NOT_FOUND",
+        "primary_entity": "UNKNOWN",
+        "why": "No entity signals found anywhere in context"
+      },
+      "v48r_subject_entity": {
+        "status": "NOT_FOUND",
+        "canonical_name": "UNKNOWN",
+        "relationship": "UNKNOWN"
+      },
+      "v48r_subject_concept": null,
+      "v48r_subject_indicator": null,
+      "v48r_subject_instrument": null,
+      "v48r_affected_entities": []
+    },
+    {
+      "io_id": "io-1ac47bbc74796a1a",
+      "event_type": "market_statistic_release",
+      "source_name": "nrcan",
+      "headline": "nrcan market usd amount 10",
+      "fact_count": 3,
+      "publisher": {
+        "canonical_name": "Nrcan",
+        "institution_type": "OTHER",
+        "status": "AMBIGUOUS"
+      },
+      "v47b_subject": {
+        "entity_status": "ENTITY_NOT_FOUND",
+        "primary_entity": "UNKNOWN",
+        "why": "No entity signals found anywhere in context"
+      },
+      "v48r_subject_entity": {
+        "status": "NOT_FOUND",
+        "canonical_name": "UNKNOWN",
+        "relationship": "UNKNOWN"
+      },
+      "v48r_subject_concept": null,
+      "v48r_subject_indicator": null,
+      "v48r_subject_instrument": null,
+      "v48r_affected_entities": []
+    },
+    {
+      "io_id": "io-de9433a949874f8c",
+      "event_type": "market_statistic_release",
+      "source_name": "cbbh-bosnia",
+      "headline": "cbbh-bosnia market usd amount 10.6",
+      "fact_count": 1,
+      "publisher": {
+        "canonical_name": "Central Bank of Bosnia and Herzegovina",
+        "institution_type": "CENTRAL_BANK",
+        "status": "CONFIRMED"
+      },
+      "v47b_subject": {
+        "entity_status": "ENTITY_NOT_FOUND",
+        "primary_entity": "UNKNOWN",
+        "why": "No entity signals found anywhere in context"
+      },
+      "v48r_subject_entity": {
+        "status": "NOT_FOUND",
+        "canonical_name": "UNKNOWN",
+        "relationship": "UNKNOWN"
+      },
+      "v48r_subject_concept": null,
+      "v48r_subject_indicator": null,
+      "v48r_subject_instrument": null,
+      "v48r_affected_entities": []
+    },
+    {
+      "io_id": "io-b4e154d9a1504355",
+      "event_type": "earnings_release",
+      "source_name": "mof-philippines",
+      "headline": "mof-philippines earnings revenue 205",
+      "fact_count": 2,
+      "publisher": {
+        "canonical_name": "Mof Philippines",
+        "institution_type": "OTHER",
+        "status": "AMBIGUOUS"
+      },
+      "v47b_subject": {
+        "entity_status": "ENTITY_NOT_FOUND",
+        "primary_entity": "UNKNOWN",
+        "why": "Entity signals found in non-primary segments only — not event-local"
+      },
+      "v48r_subject_entity": {
+        "status": "NOT_FOUND",
+        "canonical_name": "UNKNOWN",
+        "relationship": "UNKNOWN"
+      },
+      "v48r_subject_concept": null,
+      "v48r_subject_indicator": null,
+      "v48r_subject_instrument": null,
+      "v48r_affected_entities": []
+    },
+    {
+      "io_id": "io-510e7472d7e96491",
+      "event_type": "regulatory_enforcement",
+      "source_name": "sec",
+      "headline": "sec enforcement: action type charged",
+      "fact_count": 1,
+      "publisher": {
+        "canonical_name": "Securities and Exchange Commission",
+        "institution_type": "SECURITIES_REGULATOR",
+        "status": "CONFIRMED"
+      },
+      "v47b_subject": {
+        "entity_status": "ENTITY_NOT_FOUND",
+        "primary_entity": "UNKNOWN",
+        "why": "Entity signals found in non-primary segments only — not event-local"
+      },
+      "v48r_subject_entity": {
+        "status": "NOT_FOUND",
+        "canonical_name": "UNKNOWN",
+        "relationship": "UNKNOWN"
+      },
+      "v48r_subject_concept": null,
+      "v48r_subject_indicator": null,
+      "v48r_subject_instrument": null,
+      "v48r_affected_entities": []
+    }
+  ],
+  "safety": {
+    "original_facts_preserved": true,
+    "original_evidence_preserved": true,
+    "new_facts": 0,
+    "new_events": 0,
+    "evidence_rewritten": 0,
+    "no_source_expansion": true,
+    "no_llm": true,
+    "no_product_integration": true
+  },
+  "test_results": {
+    "modules": {
+      "48 baseline": {
+        "module": "intelligence_core.tests.run_all",
+        "passed": true
+      },
+      "37 V37.2": {
+        "module": "intelligence_core.tests.reliability.v37_2_structural_evidence_test",
+        "passed": true
+      },
+      "30 collision": {
+        "module": "intelligence_core.tests.reliability.v37_2_collision_fix_tests",
+        "passed": true
+      },
+      "9 sub-collision": {
+        "module": "intelligence_core.tests.reliability.v37_2_sub_collision_tests",
+        "passed": true
+      },
+      "22 purpose": {
+        "module": "intelligence_core.tests.reliability.recovery_segment_purpose_tests",
+        "passed": true
+      },
+      "29 V46": {
+        "module": "intelligence_core.tests.reliability.v46_evidence_context_tests",
+        "passed": true
+      },
+      "6 V46.1": {
+        "module": "intelligence_core.tests.reliability.v46_1_semantic_claim_forensics_tests",
+        "passed": true
+      },
+      "6 V47A": {
+        "module": "intelligence_core.tests.reliability.v47_semantic_claim_binding_tests",
+        "passed": true
+      },
+      "35 V47C": {
+        "module": "intelligence_core.tests.reliability.v47c_publisher_institution_tests",
+        "passed": true
+      },
+      "26 V48": {
+        "module": "intelligence_core.tests.reliability.v48_subject_entity_tests",
+        "passed": true
+      }
+    },
+    "passed_modules": 10,
+    "total_modules": 10,
+    "test_count": 248,
+    "all_tests_pass": true
+  },
+  "acceptance_gates": {
+    "g1_entity_concept_ontology_separated": true,
+    "g2_all_14_v48_confirmed_classified": true,
+    "g3_all_lost_confirmations_reconciled": true,
+    "g4_all_40_not_found_individually_proven": true,
+    "g5_no_publisher_to_subject_promotion": true,
+    "g6_no_metric_to_entity_promotion": true,
+    "g7_no_instrument_to_entity_promotion": true,
+    "g8_no_actor_to_subject_promotion": true,
+    "g9_affected_entity_remains_separate": true,
+    "g10_original_facts_preserved": true,
+    "g11_original_events_preserved": true,
+    "g12_original_evidence_preserved": true,
+    "g13_no_source_expansion": true,
+    "g14_no_llm": true,
+    "g15_no_product_integration": true,
+    "g16_existing_tests_pass": true,
+    "g17_v48r_tests_pass": true,
+    "g18_readiness_model_audited": true,
+    "all_pass": true
+  },
+  "verdict": "V48R SUBJECT SEMANTIC MODEL RECONCILIATION PASSED"
+}

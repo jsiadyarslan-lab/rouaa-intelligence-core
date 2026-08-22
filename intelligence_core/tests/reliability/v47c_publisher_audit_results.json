@@ -1,0 +1,272 @@
+{
+  "phase": "V47C PUBLISHER INSTITUTION CONTEXT LAYER",
+  "baseline_commit": "82263950263f74c4b970a902975b72539d39703f",
+  "recovery_branch_head_before": "61ceeffa6cb17ea90d5987f6d803fe4b173e1e0e",
+  "executed_at_utc": "2026-08-20T20:56:35Z",
+  "new_io_count": 371,
+  "publisher_status_counts": {
+    "CONFIRMED": 272,
+    "AMBIGUOUS": 99
+  },
+  "publisher_confidence_counts": {
+    "HIGH": 209,
+    "LOW": 99,
+    "MEDIUM": 63
+  },
+  "publisher_type_counts": {
+    "CENTRAL_BANK": 103,
+    "OTHER": 99,
+    "STATISTICAL_AGENCY": 98,
+    "SECURITIES_REGULATOR": 19,
+    "REGULATOR": 8,
+    "EXCHANGE": 31,
+    "INTERNATIONAL_ORGANIZATION": 1,
+    "GOVERNMENT_MINISTRY": 12
+  },
+  "publisher_method_counts": {
+    "SOURCE_REGISTRY": 308,
+    "SOURCE_DOMAIN": 63
+  },
+  "publisher_subject_firewall": {
+    "firewall_violations": 0,
+    "checks_sample": [
+      {
+        "io_id": "io-0a2164dff20884fa",
+        "publisher_status": "CONFIRMED",
+        "subject_status": "ENTITY_NOT_FOUND",
+        "firewall_intact": true,
+        "violation": ""
+      },
+      {
+        "io_id": "io-74b51eefd13974d9",
+        "publisher_status": "AMBIGUOUS",
+        "subject_status": "ENTITY_NOT_FOUND",
+        "firewall_intact": true,
+        "violation": ""
+      },
+      {
+        "io_id": "io-bd378fea8d59bb17",
+        "publisher_status": "AMBIGUOUS",
+        "subject_status": "ENTITY_NOT_FOUND",
+        "firewall_intact": true,
+        "violation": ""
+      },
+      {
+        "io_id": "io-cb08d31a4e009be2",
+        "publisher_status": "CONFIRMED",
+        "subject_status": "ENTITY_NOT_FOUND",
+        "firewall_intact": true,
+        "violation": ""
+      },
+      {
+        "io_id": "io-b37f6c9f4f5b4a8a",
+        "publisher_status": "CONFIRMED",
+        "subject_status": "ENTITY_NOT_FOUND",
+        "firewall_intact": true,
+        "violation": ""
+      },
+      {
+        "io_id": "io-ee8a8257ce0e86ba",
+        "publisher_status": "CONFIRMED",
+        "subject_status": "ENTITY_CONFIRMED",
+        "firewall_intact": true,
+        "violation": ""
+      },
+      {
+        "io_id": "io-b6abac1393987508",
+        "publisher_status": "CONFIRMED",
+        "subject_status": "ENTITY_NOT_FOUND",
+        "firewall_intact": true,
+        "violation": ""
+      },
+      {
+        "io_id": "io-5150003cff76e0ab",
+        "publisher_status": "CONFIRMED",
+        "subject_status": "ENTITY_NOT_FOUND",
+        "firewall_intact": true,
+        "violation": ""
+      },
+      {
+        "io_id": "io-eb4ea7a98e0e81d3",
+        "publisher_status": "CONFIRMED",
+        "subject_status": "ENTITY_NOT_FOUND",
+        "firewall_intact": true,
+        "violation": ""
+      },
+      {
+        "io_id": "io-936e16f976e71fe5",
+        "publisher_status": "CONFIRMED",
+        "subject_status": "ENTITY_NOT_FOUND",
+        "firewall_intact": true,
+        "violation": ""
+      }
+    ]
+  },
+  "institution_productivity_top_15": [
+    {
+      "publisher": "Bank Of England",
+      "new_ios": 57,
+      "event_types": [
+        "statistical_release"
+      ],
+      "source_count": 1
+    },
+    {
+      "publisher": "Bureau of Economic Analysis",
+      "new_ios": 41,
+      "event_types": [
+        "statistical_release"
+      ],
+      "source_count": 1
+    },
+    {
+      "publisher": "Euronext",
+      "new_ios": 30,
+      "event_types": [
+        "monetary_policy_decision",
+        "regulatory_enforcement"
+      ],
+      "source_count": 1
+    },
+    {
+      "publisher": "National Bank of Ukraine",
+      "new_ios": 25,
+      "event_types": [
+        "monetary_policy_decision"
+      ],
+      "source_count": 1
+    },
+    {
+      "publisher": "European Central Bank Statistics",
+      "new_ios": 24,
+      "event_types": [
+        "regulatory_enforcement",
+        "statistical_release"
+      ],
+      "source_count": 1
+    },
+    {
+      "publisher": "Bank of Canada",
+      "new_ios": 20,
+      "event_types": [
+        "statistical_release"
+      ],
+      "source_count": 1
+    },
+    {
+      "publisher": "Central Bank of Bosnia and Herzegovina",
+      "new_ios": 19,
+      "event_types": [
+        "market_statistic_release",
+        "monetary_policy_decision",
+        "regulatory_enforcement"
+      ],
+      "source_count": 1
+    },
+    {
+      "publisher": "National Statistical Institute of Bulgaria",
+      "new_ios": 15,
+      "event_types": [
+        "monetary_policy_decision"
+      ],
+      "source_count": 1
+    },
+    {
+      "publisher": "European Central Bank",
+      "new_ios": 13,
+      "event_types": [
+        "regulatory_enforcement",
+        "statistical_release"
+      ],
+      "source_count": 2
+    },
+    {
+      "publisher": "European Securities and Markets Authority",
+      "new_ios": 10,
+      "event_types": [
+        "regulatory_enforcement"
+      ],
+      "source_count": 1
+    },
+    {
+      "publisher": "Central Bank of Kenya",
+      "new_ios": 10,
+      "event_types": [
+        "monetary_policy_decision"
+      ],
+      "source_count": 1
+    },
+    {
+      "publisher": "Financial Conduct Authority",
+      "new_ios": 8,
+      "event_types": [
+        "monetary_policy_decision",
+        "regulatory_enforcement"
+      ],
+      "source_count": 1
+    },
+    {
+      "publisher": "Central Statistics Office of Ireland",
+      "new_ios": 8,
+      "event_types": [
+        "monetary_policy_decision"
+      ],
+      "source_count": 1
+    },
+    {
+      "publisher": "U.S. Department of the Treasury",
+      "new_ios": 6,
+      "event_types": [
+        "monetary_policy_decision",
+        "regulatory_enforcement"
+      ],
+      "source_count": 1
+    },
+    {
+      "publisher": "Central Bank of Jordan",
+      "new_ios": 6,
+      "event_types": [
+        "monetary_policy_decision"
+      ],
+      "source_count": 1
+    }
+  ],
+  "safety": {
+    "unsupported_subject_claims": 0,
+    "unsupported_temporal_claims": 0,
+    "unsupported_event_state_claims": 0,
+    "navigation_leakage": 0,
+    "malformed_evidence": 0,
+    "unresolved_collisions": 0,
+    "broken_provenance": 0,
+    "new_facts": 0,
+    "new_events": 0,
+    "evidence_rewritten": 0,
+    "firewall_violations": 0,
+    "original_facts_preserved": true,
+    "original_evidence_preserved": true,
+    "publisher_subject_separated": true
+  },
+  "acceptance_gates": {
+    "g1_PublisherInstitutionV1_implemented": true,
+    "g2_publisher_registry_deterministic": true,
+    "g3_publisher_coverage_measurable": true,
+    "g4_publisher_neq_subject_firewall_passes": true,
+    "g5_unsupported_subject_claims_zero": true,
+    "g6_unsupported_temporal_claims_zero": true,
+    "g7_unsupported_event_state_claims_zero": true,
+    "g8_original_facts_preserved": true,
+    "g9_original_evidence_preserved": true,
+    "g10_new_facts_zero": true,
+    "g11_new_events_zero": true,
+    "g12_evidence_rewritten_zero": true,
+    "g13_publisher_incorrect_in_40_sample_zero": true,
+    "g14_187_existing_tests_pass": true,
+    "g15_all_v47c_tests_pass": true,
+    "g16_no_source_expansion": true,
+    "g17_no_llm": true,
+    "g18_no_product_integration": true,
+    "all_pass": true
+  },
+  "verdict": "V47C PUBLISHER INSTITUTION LAYER PASSED"
+}

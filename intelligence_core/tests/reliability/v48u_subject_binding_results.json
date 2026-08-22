@@ -1,0 +1,88 @@
+{
+  "phase": "V48U SUBJECT BINDING & ONTOLOGY FIDELITY",
+  "executed_at_utc": "2026-08-20T22:23:44Z",
+  "mandatory_cases": [
+    {
+      "text": "ECB raises policy rate",
+      "subject_type": "INSTRUMENT",
+      "subject_entity": "NOT_FOUND",
+      "subject_concept": "NOT_FOUND",
+      "subject_indicator": "NOT_FOUND",
+      "subject_instrument": "Policy Rate",
+      "subject_market": "NOT_FOUND",
+      "subject_regulation": "NOT_FOUND"
+    },
+    {
+      "text": "Apple reports revenue",
+      "subject_type": "UNKNOWN",
+      "subject_entity": "NOT_FOUND",
+      "subject_concept": "NOT_FOUND",
+      "subject_indicator": "NOT_FOUND",
+      "subject_instrument": "NOT_FOUND",
+      "subject_market": "NOT_FOUND",
+      "subject_regulation": "NOT_FOUND"
+    },
+    {
+      "text": "FCA fines Broker X",
+      "subject_type": "UNKNOWN",
+      "subject_entity": "NOT_FOUND",
+      "subject_concept": "NOT_FOUND",
+      "subject_indicator": "NOT_FOUND",
+      "subject_instrument": "NOT_FOUND",
+      "subject_market": "NOT_FOUND",
+      "subject_regulation": "NOT_FOUND"
+    },
+    {
+      "text": "GDP increased in Germany",
+      "subject_type": "INDICATOR",
+      "subject_entity": "NOT_FOUND",
+      "subject_concept": "NOT_FOUND",
+      "subject_indicator": "Gross Domestic Product",
+      "subject_instrument": "NOT_FOUND",
+      "subject_market": "NOT_FOUND",
+      "subject_regulation": "NOT_FOUND"
+    },
+    {
+      "text": "Inflation rose in France",
+      "subject_type": "INDICATOR",
+      "subject_entity": "NOT_FOUND",
+      "subject_concept": "NOT_FOUND",
+      "subject_indicator": "Inflation",
+      "subject_instrument": "NOT_FOUND",
+      "subject_market": "NOT_FOUND",
+      "subject_regulation": "NOT_FOUND"
+    }
+  ],
+  "adversarial_case": {
+    "text": "ECB raised rates as unemployment increased",
+    "subject_type": "UNKNOWN",
+    "subject_entity": "NOT_FOUND",
+    "subject_concept": "NOT_FOUND",
+    "subject_indicator": "NOT_FOUND",
+    "subject_instrument": "NOT_FOUND",
+    "subject_market": "NOT_FOUND",
+    "subject_regulation": "NOT_FOUND"
+  },
+  "subject_type_distribution": {
+    "UNKNOWN": 328,
+    "REGULATION": 4,
+    "CONCEPT": 4,
+    "MARKET": 4,
+    "INDICATOR": 30,
+    "INSTRUMENT": 1
+  },
+  "subject_status_distribution": {
+    "NOT_FOUND": 328,
+    "CONFIRMED": 43
+  },
+  "per_field_confirmed": {
+    "entity": 0,
+    "concept": 4,
+    "indicator": 33,
+    "instrument": 4,
+    "market": 4,
+    "regulation": 6
+  },
+  "v48tr_had_102": true,
+  "v48u_has": 43
+}

@@ -1,0 +1,1314 @@
+{
+  "phase": "V48T READINESS DECOUPLING",
+  "executed_at_utc": "2026-08-20T21:53:41Z",
+  "v47b_readiness": {
+    "READY": 0,
+    "PARTIAL": 0,
+    "BLOCKED": 371
+  },
+  "v48t_readiness": {
+    "SEMANTICALLY_BLOCKED": 347,
+    "SEMANTICALLY_PARTIAL": 15,
+    "SEMANTICALLY_READY": 9
+  },
+  "readiness_reform": {
+    "old_rule": "entity_ok = entity_status == ENTITY_CONFIRMED",
+    "new_rule": "subject_semantically_identified = subject_entity OR subject_concept OR subject_indicator OR subject_instrument CONFIRMED",
+    "other_gates_preserved": true
+  },
+  "product_value": {
+    "v47b_before": {
+      "MEDIUM_VALUE": 32,
+      "LOW_VALUE": 8
+    },
+    "v48t_after": {
+      "MEDIUM_VALUE": 31,
+      "LOW_VALUE": 9
+    },
+    "false_regressions": 1,
+    "true_regressions": 0,
+    "reclassifications": 0
+  },
+  "sample_40_audit": [
+    {
+      "io_id": "io-cb08d31a4e009be2",
+      "event_type": "monetary_policy_decision",
+      "source_name": "eurostat",
+      "headline": "eurostat sets policy rate at 0.3 — Q1 2026",
+      "fact_count": 4,
+      "publisher": {
+        "canonical_name": "Eurostat",
+        "status": "CONFIRMED"
+      },
+      "v47b_subject": {
+        "entity_status": "ENTITY_NOT_FOUND",
+        "primary_entity": "UNKNOWN"
+      },
+      "v48t_subject": {
+        "status": "NOT_FOUND",
+        "canonical_name": "UNKNOWN",
+        "subject_concept": null,
+        "subject_indicator": null,
+        "subject_instrument": null,
+        "subject_type": "UNKNOWN",
+        "subject_status": "NOT_FOUND"
+      },
+      "event": {
+        "event_state": "UNKNOWN",
+        "reference_period": "UNKNOWN"
+      },
+      "v47b_readiness": "SEMANTICALLY_BLOCKED",
+      "v48t_readiness": "SEMANTICALLY_BLOCKED",
+      "v47b_product_value": "MEDIUM_VALUE",
+      "v48t_product_value": "MEDIUM_VALUE"
+    },
+    {
+      "io_id": "io-b37f6c9f4f5b4a8a",
+      "event_type": "monetary_policy_decision",
+      "source_name": "eurostat",
+      "headline": "eurostat sets policy rate at 0.0 — Q1 2026",
+      "fact_count": 9,
+      "publisher": {
+        "canonical_name": "Eurostat",
+        "status": "CONFIRMED"
+      },
+      "v47b_subject": {
+        "entity_status": "ENTITY_NOT_FOUND",
+        "primary_entity": "UNKNOWN"
+      },
+      "v48t_subject": {
+        "status": "NOT_FOUND",
+        "canonical_name": "UNKNOWN",
+        "subject_concept": null,
+        "subject_indicator": null,
+        "subject_instrument": null,
+        "subject_type": "UNKNOWN",
+        "subject_status": "NOT_FOUND"
+      },
+      "event": {
+        "event_state": "UNKNOWN",
+        "reference_period": "UNKNOWN"
+      },
+      "v47b_readiness": "SEMANTICALLY_BLOCKED",
+      "v48t_readiness": "SEMANTICALLY_BLOCKED",
+      "v47b_product_value": "MEDIUM_VALUE",
+      "v48t_product_value": "MEDIUM_VALUE"
+    },
+    {
+      "io_id": "io-cba6421b7b401b5d",
+      "event_type": "monetary_policy_decision",
+      "source_name": "euronext",
+      "headline": "euronext sets policy rate at 232",
+      "fact_count": 15,
+      "publisher": {
+        "canonical_name": "Euronext",
+        "status": "CONFIRMED"
+      },
+      "v47b_subject": {
+        "entity_status": "ENTITY_NOT_FOUND",
+        "primary_entity": "UNKNOWN"
+      },
+      "v48t_subject": {
+        "status": "NOT_FOUND",
+        "canonical_name": "UNKNOWN",
+        "subject_concept": null,
+        "subject_indicator": null,
+        "subject_instrument": null,
+        "subject_type": "UNKNOWN",
+        "subject_status": "NOT_FOUND"
+      },
+      "event": {
+        "event_state": "UNKNOWN",
+        "reference_period": "UNKNOWN"
+      },
+      "v47b_readiness": "SEMANTICALLY_BLOCKED",
+      "v48t_readiness": "SEMANTICALLY_BLOCKED",
+      "v47b_product_value": "MEDIUM_VALUE",
+      "v48t_product_value": "MEDIUM_VALUE"
+    },
+    {
+      "io_id": "io-68aeb1a370c256a6",
+      "event_type": "monetary_policy_decision",
+      "source_name": "federal-reserve",
+      "headline": "federal-reserve sets policy rate at 4",
+      "fact_count": 5,
+      "publisher": {
+        "canonical_name": "Federal Reserve",
+        "status": "CONFIRMED"
+      },
+      "v47b_subject": {
+        "entity_status": "ENTITY_NOT_FOUND",
+        "primary_entity": "UNKNOWN"
+      },
+      "v48t_subject": {
+        "status": "NOT_FOUND",
+        "canonical_name": "UNKNOWN",
+        "subject_concept": "Monetary Policy",
+        "subject_indicator": null,
+        "subject_instrument": null,
+        "subject_type": "CONCEPT",
+        "subject_status": "CONFIRMED"
+      },
+      "event": {
+        "event_state": "UNKNOWN",
+        "reference_period": "UNKNOWN"
+      },
+      "v47b_readiness": "SEMANTICALLY_BLOCKED",
+      "v48t_readiness": "SEMANTICALLY_PARTIAL",
+      "v47b_product_value": "MEDIUM_VALUE",
+      "v48t_product_value": "MEDIUM_VALUE"
+    },
+    {
+      "io_id": "io-275f353119648d3f",
+      "event_type": "monetary_policy_decision",
+      "source_name": "eurostat",
+      "headline": "eurostat sets policy rate at 0.5 — Q2 2026",
+      "fact_count": 27,
+      "publisher": {
+        "canonical_name": "Eurostat",
+        "status": "CONFIRMED"
+      },
+      "v47b_subject": {
+        "entity_status": "ENTITY_NOT_FOUND",
+        "primary_entity": "UNKNOWN"
+      },
+      "v48t_subject": {
+        "status": "NOT_FOUND",
+        "canonical_name": "UNKNOWN",
+        "subject_concept": null,
+        "subject_indicator": null,
+        "subject_instrument": null,
+        "subject_type": "UNKNOWN",
+        "subject_status": "NOT_FOUND"
+      },
+      "event": {
+        "event_state": "UNKNOWN",
+        "reference_period": "UNKNOWN"
+      },
+      "v47b_readiness": "SEMANTICALLY_BLOCKED",
+      "v48t_readiness": "SEMANTICALLY_BLOCKED",
+      "v47b_product_value": "MEDIUM_VALUE",
+      "v48t_product_value": "MEDIUM_VALUE"
+    },
+    {
+      "io_id": "io-cb86ecb4e874af16",
+      "event_type": "monetary_policy_decision",
+      "source_name": "eurostat",
+      "headline": "eurostat sets policy rate at 0.4 — second 2026",
+      "fact_count": 36,
+      "publisher": {
+        "canonical_name": "Eurostat",
+        "status": "CONFIRMED"
+      },
+      "v47b_subject": {
+        "entity_status": "ENTITY_NOT_FOUND",
+        "primary_entity": "UNKNOWN"
+      },
+      "v48t_subject": {
+        "status": "NOT_FOUND",
+        "canonical_name": "UNKNOWN",
+        "subject_concept": null,
+        "subject_indicator": null,
+        "subject_instrument": null,
+        "subject_type": "UNKNOWN",
+        "subject_status": "NOT_FOUND"
+      },
+      "event": {
+        "event_state": "UNKNOWN",
+        "reference_period": "UNKNOWN"
+      },
+      "v47b_readiness": "SEMANTICALLY_BLOCKED",
+      "v48t_readiness": "SEMANTICALLY_BLOCKED",
+      "v47b_product_value": "MEDIUM_VALUE",
+      "v48t_product_value": "MEDIUM_VALUE"
+    },
+    {
+      "io_id": "io-55da9e9be0359c67",
+      "event_type": "monetary_policy_decision",
+      "source_name": "stats-china",
+      "headline": "stats-china sets policy rate at 7",
+      "fact_count": 4,
+      "publisher": {
+        "canonical_name": "National Bureau of Statistics of China",
+        "status": "CONFIRMED"
+      },
+      "v47b_subject": {
+        "entity_status": "ENTITY_NOT_FOUND",
+        "primary_entity": "UNKNOWN"
+      },
+      "v48t_subject": {
+        "status": "NOT_FOUND",
+        "canonical_name": "UNKNOWN",
+        "subject_concept": null,
+        "subject_indicator": null,
+        "subject_instrument": null,
+        "subject_type": "UNKNOWN",
+        "subject_status": "NOT_FOUND"
+      },
+      "event": {
+        "event_state": "UNKNOWN",
+        "reference_period": "UNKNOWN"
+      },
+      "v47b_readiness": "SEMANTICALLY_BLOCKED",
+      "v48t_readiness": "SEMANTICALLY_BLOCKED",
+      "v47b_product_value": "MEDIUM_VALUE",
+      "v48t_product_value": "MEDIUM_VALUE"
+    },
+    {
+      "io_id": "io-bea0b6a376d6f629",
+      "event_type": "monetary_policy_decision",
+      "source_name": "deutsche-boerse",
+      "headline": "deutsche-boerse sets policy rate at 16",
+      "fact_count": 35,
+      "publisher": {
+        "canonical_name": "Deutsche Börse",
+        "status": "CONFIRMED"
+      },
+      "v47b_subject": {
+        "entity_status": "ENTITY_NOT_FOUND",
+        "primary_entity": "UNKNOWN"
+      },
+      "v48t_subject": {
+        "status": "NOT_FOUND",
+        "canonical_name": "UNKNOWN",
+        "subject_concept": null,
+        "subject_indicator": null,
+        "subject_instrument": null,
+        "subject_type": "UNKNOWN",
+        "subject_status": "NOT_FOUND"
+      },
+      "event": {
+        "event_state": "INCREASED",
+        "reference_period": "in July 2026"
+      },
+      "v47b_readiness": "SEMANTICALLY_BLOCKED",
+      "v48t_readiness": "SEMANTICALLY_BLOCKED",
+      "v47b_product_value": "MEDIUM_VALUE",
+      "v48t_product_value": "MEDIUM_VALUE"
+    },
+    {
+      "io_id": "io-4d94300b4070757f",
+      "event_type": "monetary_policy_decision",
+      "source_name": "fsb",
+      "headline": "fsb sets policy rate at 77 — 2026-07",
+      "fact_count": 2,
+      "publisher": {
+        "canonical_name": "Financial Stability Board",
+        "status": "CONFIRMED"
+      },
+      "v47b_subject": {
+        "entity_status": "ENTITY_NOT_FOUND",
+        "primary_entity": "UNKNOWN"
+      },
+      "v48t_subject": {
+        "status": "NOT_FOUND",
+        "canonical_name": "UNKNOWN",
+        "subject_concept": null,
+        "subject_indicator": null,
+        "subject_instrument": null,
+        "subject_type": "UNKNOWN",
+        "subject_status": "NOT_FOUND"
+      },
+      "event": {
+        "event_state": "UNKNOWN",
+        "reference_period": "UNKNOWN"
+      },
+      "v47b_readiness": "SEMANTICALLY_BLOCKED",
+      "v48t_readiness": "SEMANTICALLY_BLOCKED",
+      "v47b_product_value": "MEDIUM_VALUE",
+      "v48t_product_value": "MEDIUM_VALUE"
+    },
+    {
+      "io_id": "io-4534afa35d995d2a",
+      "event_type": "monetary_policy_decision",
+      "source_name": "cftc",
+      "headline": "cftc sets policy rate at 0.2",
+      "fact_count": 1,
+      "publisher": {
+        "canonical_name": "Commodity Futures Trading Commission",
+        "status": "CONFIRMED"
+      },
+      "v47b_subject": {
+        "entity_status": "ENTITY_NOT_FOUND",
+        "primary_entity": "UNKNOWN"
+      },
+      "v48t_subject": {
+        "status": "NOT_FOUND",
+        "canonical_name": "UNKNOWN",
+        "subject_concept": null,
+        "subject_indicator": null,
+        "subject_instrument": null,
+        "subject_type": "UNKNOWN",
+        "subject_status": "NOT_FOUND"
+      },
+      "event": {
+        "event_state": "UNKNOWN",
+        "reference_period": "UNKNOWN"
+      },
+      "v47b_readiness": "SEMANTICALLY_BLOCKED",
+      "v48t_readiness": "SEMANTICALLY_BLOCKED",
+      "v47b_product_value": "MEDIUM_VALUE",
+      "v48t_product_value": "MEDIUM_VALUE"
+    },
+    {
+      "io_id": "io-74b51eefd13974d9",
+      "event_type": "statistical_release",
+      "source_name": "bank-of-england",
+      "headline": "bank-of-england reports percentage statistic of 2",
+      "fact_count": 2,
+      "publisher": {
+        "canonical_name": "Bank Of England",
+        "status": "AMBIGUOUS"
+      },
+      "v47b_subject": {
+        "entity_status": "ENTITY_NOT_FOUND",
+        "primary_entity": "UNKNOWN"
+      },
+      "v48t_subject": {
+        "status": "NOT_FOUND",
+        "canonical_name": "UNKNOWN",
+        "subject_concept": null,
+        "subject_indicator": null,
+        "subject_instrument": null,
+        "subject_type": "UNKNOWN",
+        "subject_status": "NOT_FOUND"
+      },
+      "event": {
+        "event_state": "UNKNOWN",
+        "reference_period": "UNKNOWN"
+      },
+      "v47b_readiness": "SEMANTICALLY_BLOCKED",
+      "v48t_readiness": "SEMANTICALLY_BLOCKED",
+      "v47b_product_value": "MEDIUM_VALUE",
+      "v48t_product_value": "MEDIUM_VALUE"
+    },
+    {
+      "io_id": "io-bd378fea8d59bb17",
+      "event_type": "statistical_release",
+      "source_name": "bank-of-england",
+      "headline": "bank-of-england reports percentage statistic of 2",
+      "fact_count": 2,
+      "publisher": {
+        "canonical_name": "Bank Of England",
+        "status": "AMBIGUOUS"
+      },
+      "v47b_subject": {
+        "entity_status": "ENTITY_NOT_FOUND",
+        "primary_entity": "UNKNOWN"
+      },
+      "v48t_subject": {
+        "status": "NOT_FOUND",
+        "canonical_name": "UNKNOWN",
+        "subject_concept": null,
+        "subject_indicator": null,
+        "subject_instrument": null,
+        "subject_type": "UNKNOWN",
+        "subject_status": "NOT_FOUND"
+      },
+      "event": {
+        "event_state": "UNKNOWN",
+        "reference_period": "UNKNOWN"
+      },
+      "v47b_readiness": "SEMANTICALLY_BLOCKED",
+      "v48t_readiness": "SEMANTICALLY_BLOCKED",
+      "v47b_product_value": "MEDIUM_VALUE",
+      "v48t_product_value": "MEDIUM_VALUE"
+    },
+    {
+      "io_id": "io-c6c8ac878a439394",
+      "event_type": "statistical_release",
+      "source_name": "ecb",
+      "headline": "ecb reports percentage statistic of 72",
+      "fact_count": 2,
+      "publisher": {
+        "canonical_name": "European Central Bank",
+        "status": "CONFIRMED"
+      },
+      "v47b_subject": {
+        "entity_status": "ENTITY_CONFIRMED",
+        "primary_entity": "ECB"
+      },
+      "v48t_subject": {
+        "status": "NOT_FOUND",
+        "canonical_name": "UNKNOWN",
+        "subject_concept": null,
+        "subject_indicator": null,
+        "subject_instrument": null,
+        "subject_type": "UNKNOWN",
+        "subject_status": "NOT_FOUND"
+      },
+      "event": {
+        "event_state": "UNKNOWN",
+        "reference_period": "29 October 2025"
+      },
+      "v47b_readiness": "SEMANTICALLY_PARTIAL",
+      "v48t_readiness": "SEMANTICALLY_BLOCKED",
+      "v47b_product_value": "MEDIUM_VALUE",
+      "v48t_product_value": "MEDIUM_VALUE"
+    },
+    {
+      "io_id": "io-43450fbfbd3f5f48",
+      "event_type": "statistical_release",
+      "source_name": "ecb",
+      "headline": "ecb reports percentage statistic of 5 — 2026",
+      "fact_count": 2,
+      "publisher": {
+        "canonical_name": "European Central Bank",
+        "status": "CONFIRMED"
+      },
+      "v47b_subject": {
+        "entity_status": "ENTITY_NOT_FOUND",
+        "primary_entity": "UNKNOWN"
+      },
+      "v48t_subject": {
+        "status": "NOT_FOUND",
+        "canonical_name": "UNKNOWN",
+        "subject_concept": null,
+        "subject_indicator": null,
+        "subject_instrument": null,
+        "subject_type": "UNKNOWN",
+        "subject_status": "NOT_FOUND"
+      },
+      "event": {
+        "event_state": "UNKNOWN",
+        "reference_period": "UNKNOWN"
+      },
+      "v47b_readiness": "SEMANTICALLY_BLOCKED",
+      "v48t_readiness": "SEMANTICALLY_BLOCKED",
+      "v47b_product_value": "MEDIUM_VALUE",
+      "v48t_product_value": "MEDIUM_VALUE"
+    },
+    {
+      "io_id": "io-a27ee61aa6026a13",
+      "event_type": "statistical_release",
+      "source_name": "ecb",
+      "headline": "ecb reports percentage statistic of 31 — 2026",
+      "fact_count": 6,
+      "publisher": {
+        "canonical_name": "European Central Bank",
+        "status": "CONFIRMED"
+      },
+      "v47b_subject": {
+        "entity_status": "ENTITY_NOT_FOUND",
+        "primary_entity": "UNKNOWN"
+      },
+      "v48t_subject": {
+        "status": "NOT_FOUND",
+        "canonical_name": "UNKNOWN",
+        "subject_concept": null,
+        "subject_indicator": null,
+        "subject_instrument": null,
+        "subject_type": "UNKNOWN",
+        "subject_status": "NOT_FOUND"
+      },
+      "event": {
+        "event_state": "UNKNOWN",
+        "reference_period": "UNKNOWN"
+      },
+      "v47b_readiness": "SEMANTICALLY_BLOCKED",
+      "v48t_readiness": "SEMANTICALLY_BLOCKED",
+      "v47b_product_value": "MEDIUM_VALUE",
+      "v48t_product_value": "MEDIUM_VALUE"
+    },
+    {
+      "io_id": "io-f803af6f431d9f8a",
+      "event_type": "statistical_release",
+      "source_name": "bank-of-england",
+      "headline": "bank-of-england reports percentage statistic of 2",
+      "fact_count": 36,
+      "publisher": {
+        "canonical_name": "Bank Of England",
+        "status": "AMBIGUOUS"
+      },
+      "v47b_subject": {
+        "entity_status": "ENTITY_NOT_FOUND",
+        "primary_entity": "UNKNOWN"
+      },
+      "v48t_subject": {
+        "status": "NOT_FOUND",
+        "canonical_name": "UNKNOWN",
+        "subject_concept": "Monetary Policy",
+        "subject_indicator": "Inflation",
+        "subject_instrument": null,
+        "subject_type": "CONCEPT",
+        "subject_status": "CONFIRMED"
+      },
+      "event": {
+        "event_state": "UNKNOWN",
+        "reference_period": "UNKNOWN"
+      },
+      "v47b_readiness": "SEMANTICALLY_BLOCKED",
+      "v48t_readiness": "SEMANTICALLY_PARTIAL",
+      "v47b_product_value": "MEDIUM_VALUE",
+      "v48t_product_value": "MEDIUM_VALUE"
+    },
+    {
+      "io_id": "io-0da4c931b2a04e1a",
+      "event_type": "statistical_release",
+      "source_name": "bank-of-england",
+      "headline": "bank-of-england reports percentage statistic of 2",
+      "fact_count": 2,
+      "publisher": {
+        "canonical_name": "Bank Of England",
+        "status": "AMBIGUOUS"
+      },
+      "v47b_subject": {
+        "entity_status": "ENTITY_NOT_FOUND",
+        "primary_entity": "UNKNOWN"
+      },
+      "v48t_subject": {
+        "status": "NOT_FOUND",
+        "canonical_name": "UNKNOWN",
+        "subject_concept": null,
+        "subject_indicator": null,
+        "subject_instrument": null,
+        "subject_type": "UNKNOWN",
+        "subject_status": "NOT_FOUND"
+      },
+      "event": {
+        "event_state": "UNKNOWN",
+        "reference_period": "UNKNOWN"
+      },
+      "v47b_readiness": "SEMANTICALLY_BLOCKED",
+      "v48t_readiness": "SEMANTICALLY_BLOCKED",
+      "v47b_product_value": "MEDIUM_VALUE",
+      "v48t_product_value": "MEDIUM_VALUE"
+    },
+    {
+      "io_id": "io-3397bcfeb16c1522",
+      "event_type": "statistical_release",
+      "source_name": "bank-of-england",
+      "headline": "bank-of-england reports percentage statistic of 2",
+      "fact_count": 2,
+      "publisher": {
+        "canonical_name": "Bank Of England",
+        "status": "AMBIGUOUS"
+      },
+      "v47b_subject": {
+        "entity_status": "ENTITY_NOT_FOUND",
+        "primary_entity": "UNKNOWN"
+      },
+      "v48t_subject": {
+        "status": "NOT_FOUND",
+        "canonical_name": "UNKNOWN",
+        "subject_concept": null,
+        "subject_indicator": null,
+        "subject_instrument": null,
+        "subject_type": "UNKNOWN",
+        "subject_status": "NOT_FOUND"
+      },
+      "event": {
+        "event_state": "UNKNOWN",
+        "reference_period": "UNKNOWN"
+      },
+      "v47b_readiness": "SEMANTICALLY_BLOCKED",
+      "v48t_readiness": "SEMANTICALLY_BLOCKED",
+      "v47b_product_value": "MEDIUM_VALUE",
+      "v48t_product_value": "MEDIUM_VALUE"
+    },
+    {
+      "io_id": "io-877cfaba4b9dc235",
+      "event_type": "statistical_release",
+      "source_name": "bank-of-england",
+      "headline": "bank-of-england reports percentage statistic of 2",
+      "fact_count": 4,
+      "publisher": {
+        "canonical_name": "Bank Of England",
+        "status": "AMBIGUOUS"
+      },
+      "v47b_subject": {
+        "entity_status": "ENTITY_NOT_FOUND",
+        "primary_entity": "UNKNOWN"
+      },
+      "v48t_subject": {
+        "status": "NOT_FOUND",
+        "canonical_name": "UNKNOWN",
+        "subject_concept": null,
+        "subject_indicator": null,
+        "subject_instrument": null,
+        "subject_type": "UNKNOWN",
+        "subject_status": "NOT_FOUND"
+      },
+      "event": {
+        "event_state": "UNKNOWN",
+        "reference_period": "UNKNOWN"
+      },
+      "v47b_readiness": "SEMANTICALLY_BLOCKED",
+      "v48t_readiness": "SEMANTICALLY_BLOCKED",
+      "v47b_product_value": "MEDIUM_VALUE",
+      "v48t_product_value": "MEDIUM_VALUE"
+    },
+    {
+      "io_id": "io-7a2ef7f9417df7ab",
+      "event_type": "statistical_release",
+      "source_name": "bank-of-england",
+      "headline": "bank-of-england reports percentage statistic of 2",
+      "fact_count": 2,
+      "publisher": {
+        "canonical_name": "Bank Of England",
+        "status": "AMBIGUOUS"
+      },
+      "v47b_subject": {
+        "entity_status": "ENTITY_NOT_FOUND",
+        "primary_entity": "UNKNOWN"
+      },
+      "v48t_subject": {
+        "status": "NOT_FOUND",
+        "canonical_name": "UNKNOWN",
+        "subject_concept": null,
+        "subject_indicator": null,
+        "subject_instrument": null,
+        "subject_type": "UNKNOWN",
+        "subject_status": "NOT_FOUND"
+      },
+      "event": {
+        "event_state": "UNKNOWN",
+        "reference_period": "UNKNOWN"
+      },
+      "v47b_readiness": "SEMANTICALLY_BLOCKED",
+      "v48t_readiness": "SEMANTICALLY_BLOCKED",
+      "v47b_product_value": "MEDIUM_VALUE",
+      "v48t_product_value": "MEDIUM_VALUE"
+    },
+    {
+      "io_id": "io-0a2164dff20884fa",
+      "event_type": "regulatory_enforcement",
+      "source_name": "ecb",
+      "headline": "ecb enforcement: action type settlement — 2026",
+      "fact_count": 1,
+      "publisher": {
+        "canonical_name": "European Central Bank",
+        "status": "CONFIRMED"
+      },
+      "v47b_subject": {
+        "entity_status": "ENTITY_NOT_FOUND",
+        "primary_entity": "UNKNOWN"
+      },
+      "v48t_subject": {
+        "status": "NOT_FOUND",
+        "canonical_name": "UNKNOWN",
+        "subject_concept": null,
+        "subject_indicator": null,
+        "subject_instrument": null,
+        "subject_type": "UNKNOWN",
+        "subject_status": "NOT_FOUND"
+      },
+      "event": {
+        "event_state": "UNKNOWN",
+        "reference_period": "UNKNOWN"
+      },
+      "v47b_readiness": "SEMANTICALLY_BLOCKED",
+      "v48t_readiness": "SEMANTICALLY_BLOCKED",
+      "v47b_product_value": "LOW_VALUE",
+      "v48t_product_value": "LOW_VALUE"
+    },
+    {
+      "io_id": "io-ee8a8257ce0e86ba",
+      "event_type": "regulatory_enforcement",
+      "source_name": "cftc",
+      "headline": "cftc enforcement: penalty amount 400",
+      "fact_count": 4,
+      "publisher": {
+        "canonical_name": "Commodity Futures Trading Commission",
+        "status": "CONFIRMED"
+      },
+      "v47b_subject": {
+        "entity_status": "ENTITY_CONFIRMED",
+        "primary_entity": "CFTC"
+      },
+      "v48t_subject": {
+        "status": "NOT_FOUND",
+        "canonical_name": "UNKNOWN",
+        "subject_concept": null,
+        "subject_indicator": null,
+        "subject_instrument": null,
+        "subject_type": "UNKNOWN",
+        "subject_status": "NOT_FOUND"
+      },
+      "event": {
+        "event_state": "UNKNOWN",
+        "reference_period": "UNKNOWN"
+      },
+      "v47b_readiness": "SEMANTICALLY_PARTIAL",
+      "v48t_readiness": "SEMANTICALLY_BLOCKED",
+      "v47b_product_value": "MEDIUM_VALUE",
+      "v48t_product_value": "MEDIUM_VALUE"
+    },
+    {
+      "io_id": "io-b6abac1393987508",
+      "event_type": "regulatory_enforcement",
+      "source_name": "esma",
+      "headline": "esma enforcement: action type settlement",
+      "fact_count": 1,
+      "publisher": {
+        "canonical_name": "European Securities and Markets Authority",
+        "status": "CONFIRMED"
+      },
+      "v47b_subject": {
+        "entity_status": "ENTITY_NOT_FOUND",
+        "primary_entity": "UNKNOWN"
+      },
+      "v48t_subject": {
+        "status": "NOT_FOUND",
+        "canonical_name": "UNKNOWN",
+        "subject_concept": null,
+        "subject_indicator": null,
+        "subject_instrument": null,
+        "subject_type": "UNKNOWN",
+        "subject_status": "NOT_FOUND"
+      },
+      "event": {
+        "event_state": "UNKNOWN",
+        "reference_period": "UNKNOWN"
+      },
+      "v47b_readiness": "SEMANTICALLY_BLOCKED",
+      "v48t_readiness": "SEMANTICALLY_BLOCKED",
+      "v47b_product_value": "LOW_VALUE",
+      "v48t_product_value": "LOW_VALUE"
+    },
+    {
+      "io_id": "io-5150003cff76e0ab",
+      "event_type": "regulatory_enforcement",
+      "source_name": "esma",
+      "headline": "esma enforcement: action type settlement",
+      "fact_count": 1,
+      "publisher": {
+        "canonical_name": "European Securities and Markets Authority",
+        "status": "CONFIRMED"
+      },
+      "v47b_subject": {
+        "entity_status": "ENTITY_NOT_FOUND",
+        "primary_entity": "UNKNOWN"
+      },
+      "v48t_subject": {
+        "status": "NOT_FOUND",
+        "canonical_name": "UNKNOWN",
+        "subject_concept": null,
+        "subject_indicator": null,
+        "subject_instrument": null,
+        "subject_type": "UNKNOWN",
+        "subject_status": "NOT_FOUND"
+      },
+      "event": {
+        "event_state": "UNKNOWN",
+        "reference_period": "UNKNOWN"
+      },
+      "v47b_readiness": "SEMANTICALLY_BLOCKED",
+      "v48t_readiness": "SEMANTICALLY_BLOCKED",
+      "v47b_product_value": "LOW_VALUE",
+      "v48t_product_value": "LOW_VALUE"
+    },
+    {
+      "io_id": "io-eb4ea7a98e0e81d3",
+      "event_type": "regulatory_enforcement",
+      "source_name": "esma",
+      "headline": "esma enforcement: action type settlement",
+      "fact_count": 1,
+      "publisher": {
+        "canonical_name": "European Securities and Markets Authority",
+        "status": "CONFIRMED"
+      },
+      "v47b_subject": {
+        "entity_status": "ENTITY_NOT_FOUND",
+        "primary_entity": "UNKNOWN"
+      },
+      "v48t_subject": {
+        "status": "NOT_FOUND",
+        "canonical_name": "UNKNOWN",
+        "subject_concept": null,
+        "subject_indicator": null,
+        "subject_instrument": null,
+        "subject_type": "UNKNOWN",
+        "subject_status": "NOT_FOUND"
+      },
+      "event": {
+        "event_state": "UNKNOWN",
+        "reference_period": "UNKNOWN"
+      },
+      "v47b_readiness": "SEMANTICALLY_BLOCKED",
+      "v48t_readiness": "SEMANTICALLY_BLOCKED",
+      "v47b_product_value": "LOW_VALUE",
+      "v48t_product_value": "LOW_VALUE"
+    },
+    {
+      "io_id": "io-936e16f976e71fe5",
+      "event_type": "regulatory_enforcement",
+      "source_name": "fca",
+      "headline": "fca enforcement: action type settlement — 2027",
+      "fact_count": 26,
+      "publisher": {
+        "canonical_name": "Financial Conduct Authority",
+        "status": "CONFIRMED"
+      },
+      "v47b_subject": {
+        "entity_status": "ENTITY_NOT_FOUND",
+        "primary_entity": "UNKNOWN"
+      },
+      "v48t_subject": {
+        "status": "NOT_FOUND",
+        "canonical_name": "UNKNOWN",
+        "subject_concept": null,
+        "subject_indicator": null,
+        "subject_instrument": null,
+        "subject_type": "UNKNOWN",
+        "subject_status": "NOT_FOUND"
+      },
+      "event": {
+        "event_state": "UNKNOWN",
+        "reference_period": "11 October 2027"
+      },
+      "v47b_readiness": "SEMANTICALLY_BLOCKED",
+      "v48t_readiness": "SEMANTICALLY_BLOCKED",
+      "v47b_product_value": "MEDIUM_VALUE",
+      "v48t_product_value": "MEDIUM_VALUE"
+    },
+    {
+      "io_id": "io-e1c8fef2c0eb8d6e",
+      "event_type": "regulatory_enforcement",
+      "source_name": "euronext",
+      "headline": "euronext enforcement: action type settlement",
+      "fact_count": 6,
+      "publisher": {
+        "canonical_name": "Euronext",
+        "status": "CONFIRMED"
+      },
+      "v47b_subject": {
+        "entity_status": "ENTITY_NOT_FOUND",
+        "primary_entity": "UNKNOWN"
+      },
+      "v48t_subject": {
+        "status": "NOT_FOUND",
+        "canonical_name": "UNKNOWN",
+        "subject_concept": null,
+        "subject_indicator": null,
+        "subject_instrument": null,
+        "subject_type": "UNKNOWN",
+        "subject_status": "NOT_FOUND"
+      },
+      "event": {
+        "event_state": "UNKNOWN",
+        "reference_period": "UNKNOWN"
+      },
+      "v47b_readiness": "SEMANTICALLY_BLOCKED",
+      "v48t_readiness": "SEMANTICALLY_BLOCKED",
+      "v47b_product_value": "LOW_VALUE",
+      "v48t_product_value": "LOW_VALUE"
+    },
+    {
+      "io_id": "io-81354940d43ef28d",
+      "event_type": "regulatory_enforcement",
+      "source_name": "euronext",
+      "headline": "euronext enforcement: action type settlement",
+      "fact_count": 6,
+      "publisher": {
+        "canonical_name": "Euronext",
+        "status": "CONFIRMED"
+      },
+      "v47b_subject": {
+        "entity_status": "ENTITY_NOT_FOUND",
+        "primary_entity": "UNKNOWN"
+      },
+      "v48t_subject": {
+        "status": "NOT_FOUND",
+        "canonical_name": "UNKNOWN",
+        "subject_concept": null,
+        "subject_indicator": null,
+        "subject_instrument": null,
+        "subject_type": "UNKNOWN",
+        "subject_status": "NOT_FOUND"
+      },
+      "event": {
+        "event_state": "UNKNOWN",
+        "reference_period": "UNKNOWN"
+      },
+      "v47b_readiness": "SEMANTICALLY_BLOCKED",
+      "v48t_readiness": "SEMANTICALLY_BLOCKED",
+      "v47b_product_value": "LOW_VALUE",
+      "v48t_product_value": "LOW_VALUE"
+    },
+    {
+      "io_id": "io-fe0ecf5fbcc92531",
+      "event_type": "regulatory_enforcement",
+      "source_name": "ecb",
+      "headline": "ecb enforcement: action type settlement — 2026",
+      "fact_count": 1,
+      "publisher": {
+        "canonical_name": "European Central Bank",
+        "status": "CONFIRMED"
+      },
+      "v47b_subject": {
+        "entity_status": "ENTITY_NOT_FOUND",
+        "primary_entity": "UNKNOWN"
+      },
+      "v48t_subject": {
+        "status": "NOT_FOUND",
+        "canonical_name": "UNKNOWN",
+        "subject_concept": null,
+        "subject_indicator": null,
+        "subject_instrument": null,
+        "subject_type": "UNKNOWN",
+        "subject_status": "NOT_FOUND"
+      },
+      "event": {
+        "event_state": "UNKNOWN",
+        "reference_period": "UNKNOWN"
+      },
+      "v47b_readiness": "SEMANTICALLY_BLOCKED",
+      "v48t_readiness": "SEMANTICALLY_BLOCKED",
+      "v47b_product_value": "LOW_VALUE",
+      "v48t_product_value": "LOW_VALUE"
+    },
+    {
+      "io_id": "io-e65a9b3a70a171e4",
+      "event_type": "regulatory_enforcement",
+      "source_name": "eurostat",
+      "headline": "eurostat enforcement: action type fine",
+      "fact_count": 2,
+      "publisher": {
+        "canonical_name": "Eurostat",
+        "status": "CONFIRMED"
+      },
+      "v47b_subject": {
+        "entity_status": "ENTITY_CONFIRMED",
+        "primary_entity": "EUROSTAT"
+      },
+      "v48t_subject": {
+        "status": "NOT_FOUND",
+        "canonical_name": "UNKNOWN",
+        "subject_concept": null,
+        "subject_indicator": null,
+        "subject_instrument": null,
+        "subject_type": "UNKNOWN",
+        "subject_status": "NOT_FOUND"
+      },
+      "event": {
+        "event_state": "UNKNOWN",
+        "reference_period": "UNKNOWN"
+      },
+      "v47b_readiness": "SEMANTICALLY_PARTIAL",
+      "v48t_readiness": "SEMANTICALLY_BLOCKED",
+      "v47b_product_value": "MEDIUM_VALUE",
+      "v48t_product_value": "LOW_VALUE"
+    },
+    {
+      "io_id": "io-005045dcc6e7f54f",
+      "event_type": "market_statistic_release",
+      "source_name": "federal-reserve",
+      "headline": "federal-reserve market usd amount 3",
+      "fact_count": 1,
+      "publisher": {
+        "canonical_name": "Federal Reserve",
+        "status": "CONFIRMED"
+      },
+      "v47b_subject": {
+        "entity_status": "ENTITY_CONFIRMED",
+        "primary_entity": "FED"
+      },
+      "v48t_subject": {
+        "status": "NOT_FOUND",
+        "canonical_name": "UNKNOWN",
+        "subject_concept": null,
+        "subject_indicator": null,
+        "subject_instrument": null,
+        "subject_type": "UNKNOWN",
+        "subject_status": "NOT_FOUND"
+      },
+      "event": {
+        "event_state": "UNKNOWN",
+        "reference_period": "UNKNOWN"
+      },
+      "v47b_readiness": "SEMANTICALLY_PARTIAL",
+      "v48t_readiness": "SEMANTICALLY_BLOCKED",
+      "v47b_product_value": "MEDIUM_VALUE",
+      "v48t_product_value": "MEDIUM_VALUE"
+    },
+    {
+      "io_id": "io-73d389d84d737535",
+      "event_type": "market_statistic_release",
+      "source_name": "cftc",
+      "headline": "cftc market usd amount 36",
+      "fact_count": 1,
+      "publisher": {
+        "canonical_name": "Commodity Futures Trading Commission",
+        "status": "CONFIRMED"
+      },
+      "v47b_subject": {
+        "entity_status": "ENTITY_NOT_FOUND",
+        "primary_entity": "UNKNOWN"
+      },
+      "v48t_subject": {
+        "status": "NOT_FOUND",
+        "canonical_name": "UNKNOWN",
+        "subject_concept": null,
+        "subject_indicator": null,
+        "subject_instrument": null,
+        "subject_type": "UNKNOWN",
+        "subject_status": "NOT_FOUND"
+      },
+      "event": {
+        "event_state": "UNKNOWN",
+        "reference_period": "UNKNOWN"
+      },
+      "v47b_readiness": "SEMANTICALLY_BLOCKED",
+      "v48t_readiness": "SEMANTICALLY_BLOCKED",
+      "v47b_product_value": "MEDIUM_VALUE",
+      "v48t_product_value": "MEDIUM_VALUE"
+    },
+    {
+      "io_id": "io-e634047f1888f551",
+      "event_type": "market_statistic_release",
+      "source_name": "cftc",
+      "headline": "cftc market usd amount 397",
+      "fact_count": 1,
+      "publisher": {
+        "canonical_name": "Commodity Futures Trading Commission",
+        "status": "CONFIRMED"
+      },
+      "v47b_subject": {
+        "entity_status": "ENTITY_NOT_FOUND",
+        "primary_entity": "UNKNOWN"
+      },
+      "v48t_subject": {
+        "status": "NOT_FOUND",
+        "canonical_name": "UNKNOWN",
+        "subject_concept": null,
+        "subject_indicator": null,
+        "subject_instrument": null,
+        "subject_type": "UNKNOWN",
+        "subject_status": "NOT_FOUND"
+      },
+      "event": {
+        "event_state": "UNKNOWN",
+        "reference_period": "UNKNOWN"
+      },
+      "v47b_readiness": "SEMANTICALLY_BLOCKED",
+      "v48t_readiness": "SEMANTICALLY_BLOCKED",
+      "v47b_product_value": "MEDIUM_VALUE",
+      "v48t_product_value": "MEDIUM_VALUE"
+    },
+    {
+      "io_id": "io-d06c7cf2f00b4891",
+      "event_type": "market_statistic_release",
+      "source_name": "frb-ny",
+      "headline": "frb-ny market usd amount 1.3",
+      "fact_count": 3,
+      "publisher": {
+        "canonical_name": "Frb Ny",
+        "status": "AMBIGUOUS"
+      },
+      "v47b_subject": {
+        "entity_status": "ENTITY_NOT_FOUND",
+        "primary_entity": "UNKNOWN"
+      },
+      "v48t_subject": {
+        "status": "NOT_FOUND",
+        "canonical_name": "UNKNOWN",
+        "subject_concept": null,
+        "subject_indicator": null,
+        "subject_instrument": null,
+        "subject_type": "UNKNOWN",
+        "subject_status": "NOT_FOUND"
+      },
+      "event": {
+        "event_state": "UNKNOWN",
+        "reference_period": "UNKNOWN"
+      },
+      "v47b_readiness": "SEMANTICALLY_BLOCKED",
+      "v48t_readiness": "SEMANTICALLY_BLOCKED",
+      "v47b_product_value": "MEDIUM_VALUE",
+      "v48t_product_value": "MEDIUM_VALUE"
+    },
+    {
+      "io_id": "io-a1868489de0e9e2e",
+      "event_type": "market_statistic_release",
+      "source_name": "frb-ny",
+      "headline": "frb-ny market usd amount 232 — Q2 2023",
+      "fact_count": 5,
+      "publisher": {
+        "canonical_name": "Frb Ny",
+        "status": "AMBIGUOUS"
+      },
+      "v47b_subject": {
+        "entity_status": "ENTITY_NOT_FOUND",
+        "primary_entity": "UNKNOWN"
+      },
+      "v48t_subject": {
+        "status": "NOT_FOUND",
+        "canonical_name": "UNKNOWN",
+        "subject_concept": null,
+        "subject_indicator": null,
+        "subject_instrument": null,
+        "subject_type": "UNKNOWN",
+        "subject_status": "NOT_FOUND"
+      },
+      "event": {
+        "event_state": "INCREASED",
+        "reference_period": "May 16, 2024"
+      },
+      "v47b_readiness": "SEMANTICALLY_BLOCKED",
+      "v48t_readiness": "SEMANTICALLY_BLOCKED",
+      "v47b_product_value": "MEDIUM_VALUE",
+      "v48t_product_value": "MEDIUM_VALUE"
+    },
+    {
+      "io_id": "io-655c974c29eeb347",
+      "event_type": "market_statistic_release",
+      "source_name": "nrcan",
+      "headline": "nrcan market usd amount 32",
+      "fact_count": 3,
+      "publisher": {
+        "canonical_name": "Nrcan",
+        "status": "AMBIGUOUS"
+      },
+      "v47b_subject": {
+        "entity_status": "ENTITY_NOT_FOUND",
+        "primary_entity": "UNKNOWN"
+      },
+      "v48t_subject": {
+        "status": "NOT_FOUND",
+        "canonical_name": "UNKNOWN",
+        "subject_concept": null,
+        "subject_indicator": null,
+        "subject_instrument": null,
+        "subject_type": "UNKNOWN",
+        "subject_status": "NOT_FOUND"
+      },
+      "event": {
+        "event_state": "UNKNOWN",
+        "reference_period": "UNKNOWN"
+      },
+      "v47b_readiness": "SEMANTICALLY_BLOCKED",
+      "v48t_readiness": "SEMANTICALLY_BLOCKED",
+      "v47b_product_value": "MEDIUM_VALUE",
+      "v48t_product_value": "MEDIUM_VALUE"
+    },
+    {
+      "io_id": "io-1ac47bbc74796a1a",
+      "event_type": "market_statistic_release",
+      "source_name": "nrcan",
+      "headline": "nrcan market usd amount 10",
+      "fact_count": 3,
+      "publisher": {
+        "canonical_name": "Nrcan",
+        "status": "AMBIGUOUS"
+      },
+      "v47b_subject": {
+        "entity_status": "ENTITY_NOT_FOUND",
+        "primary_entity": "UNKNOWN"
+      },
+      "v48t_subject": {
+        "status": "NOT_FOUND",
+        "canonical_name": "UNKNOWN",
+        "subject_concept": null,
+        "subject_indicator": null,
+        "subject_instrument": null,
+        "subject_type": "UNKNOWN",
+        "subject_status": "NOT_FOUND"
+      },
+      "event": {
+        "event_state": "ANNOUNCED",
+        "reference_period": "UNKNOWN"
+      },
+      "v47b_readiness": "SEMANTICALLY_BLOCKED",
+      "v48t_readiness": "SEMANTICALLY_BLOCKED",
+      "v47b_product_value": "MEDIUM_VALUE",
+      "v48t_product_value": "MEDIUM_VALUE"
+    },
+    {
+      "io_id": "io-de9433a949874f8c",
+      "event_type": "market_statistic_release",
+      "source_name": "cbbh-bosnia",
+      "headline": "cbbh-bosnia market usd amount 10.6",
+      "fact_count": 1,
+      "publisher": {
+        "canonical_name": "Central Bank of Bosnia and Herzegovina",
+        "status": "CONFIRMED"
+      },
+      "v47b_subject": {
+        "entity_status": "ENTITY_NOT_FOUND",
+        "primary_entity": "UNKNOWN"
+      },
+      "v48t_subject": {
+        "status": "NOT_FOUND",
+        "canonical_name": "UNKNOWN",
+        "subject_concept": null,
+        "subject_indicator": null,
+        "subject_instrument": null,
+        "subject_type": "UNKNOWN",
+        "subject_status": "NOT_FOUND"
+      },
+      "event": {
+        "event_state": "UNKNOWN",
+        "reference_period": "UNKNOWN"
+      },
+      "v47b_readiness": "SEMANTICALLY_BLOCKED",
+      "v48t_readiness": "SEMANTICALLY_BLOCKED",
+      "v47b_product_value": "MEDIUM_VALUE",
+      "v48t_product_value": "MEDIUM_VALUE"
+    },
+    {
+      "io_id": "io-b4e154d9a1504355",
+      "event_type": "earnings_release",
+      "source_name": "mof-philippines",
+      "headline": "mof-philippines earnings revenue 205",
+      "fact_count": 2,
+      "publisher": {
+        "canonical_name": "Mof Philippines",
+        "status": "AMBIGUOUS"
+      },
+      "v47b_subject": {
+        "entity_status": "ENTITY_NOT_FOUND",
+        "primary_entity": "UNKNOWN"
+      },
+      "v48t_subject": {
+        "status": "NOT_FOUND",
+        "canonical_name": "UNKNOWN",
+        "subject_concept": null,
+        "subject_indicator": null,
+        "subject_instrument": null,
+        "subject_type": "UNKNOWN",
+        "subject_status": "NOT_FOUND"
+      },
+      "event": {
+        "event_state": "UNKNOWN",
+        "reference_period": "July 31, 2026"
+      },
+      "v47b_readiness": "SEMANTICALLY_BLOCKED",
+      "v48t_readiness": "SEMANTICALLY_BLOCKED",
+      "v47b_product_value": "MEDIUM_VALUE",
+      "v48t_product_value": "MEDIUM_VALUE"
+    },
+    {
+      "io_id": "io-510e7472d7e96491",
+      "event_type": "regulatory_enforcement",
+      "source_name": "sec",
+      "headline": "sec enforcement: action type charged",
+      "fact_count": 1,
+      "publisher": {
+        "canonical_name": "Securities and Exchange Commission",
+        "status": "CONFIRMED"
+      },
+      "v47b_subject": {
+        "entity_status": "ENTITY_NOT_FOUND",
+        "primary_entity": "UNKNOWN"
+      },
+      "v48t_subject": {
+        "status": "NOT_FOUND",
+        "canonical_name": "UNKNOWN",
+        "subject_concept": null,
+        "subject_indicator": null,
+        "subject_instrument": null,
+        "subject_type": "UNKNOWN",
+        "subject_status": "NOT_FOUND"
+      },
+      "event": {
+        "event_state": "UNKNOWN",
+        "reference_period": "UNKNOWN"
+      },
+      "v47b_readiness": "SEMANTICALLY_BLOCKED",
+      "v48t_readiness": "SEMANTICALLY_BLOCKED",
+      "v47b_product_value": "LOW_VALUE",
+      "v48t_product_value": "LOW_VALUE"
+    }
+  ]
+}

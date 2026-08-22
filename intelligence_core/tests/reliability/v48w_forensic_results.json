@@ -1,0 +1,109 @@
+{
+  "phase": "V48W 43-SUBJECT FORENSIC VALIDATION",
+  "baseline_commit": "82263950263f74c4b970a902975b72539d39703f",
+  "executed_at_utc": "2026-08-20T22:40:13Z",
+  "total_confirmed": 32,
+  "subject_type_distribution": {
+    "MARKET": 3,
+    "INDICATOR": 20,
+    "REGULATION": 4,
+    "INSTRUMENT": 5
+  },
+  "per_field_distribution": {
+    "MARKET": 3,
+    "INDICATOR": 20,
+    "REGULATION": 4,
+    "INSTRUMENT": 5
+  },
+  "forensic_role_distribution": {
+    "AMBIGUOUS": 18,
+    "TRUE_SUBJECT": 13,
+    "CO_SUBJECT": 1
+  },
+  "false_binding_count": 0,
+  "no_precision_claim": true,
+  "test_results": {
+    "modules": {
+      "48 baseline": {
+        "module": "intelligence_core.tests.run_all",
+        "passed": true
+      },
+      "37 V37.2": {
+        "module": "intelligence_core.tests.reliability.v37_2_structural_evidence_test",
+        "passed": true
+      },
+      "30 collision": {
+        "module": "intelligence_core.tests.reliability.v37_2_collision_fix_tests",
+        "passed": true
+      },
+      "9 sub-collision": {
+        "module": "intelligence_core.tests.reliability.v37_2_sub_collision_tests",
+        "passed": true
+      },
+      "22 purpose": {
+        "module": "intelligence_core.tests.reliability.recovery_segment_purpose_tests",
+        "passed": true
+      },
+      "29 V46": {
+        "module": "intelligence_core.tests.reliability.v46_evidence_context_tests",
+        "passed": true
+      },
+      "6 V46.1": {
+        "module": "intelligence_core.tests.reliability.v46_1_semantic_claim_forensics_tests",
+        "passed": true
+      },
+      "6 V47A": {
+        "module": "intelligence_core.tests.reliability.v47_semantic_claim_binding_tests",
+        "passed": true
+      },
+      "35 V47C": {
+        "module": "intelligence_core.tests.reliability.v47c_publisher_institution_tests",
+        "passed": true
+      },
+      "26 V48": {
+        "module": "intelligence_core.tests.reliability.v48_subject_entity_tests",
+        "passed": true
+      },
+      "50 V48S": {
+        "module": "intelligence_core.tests.reliability.v48s_subject_role_tests",
+        "passed": true
+      },
+      "10 V48U": {
+        "module": "intelligence_core.tests.reliability.v48u_subject_binding_tests",
+        "passed": true
+      },
+      "30 V48V": {
+        "module": "intelligence_core.tests.reliability.v48v_binding_robustness_tests",
+        "passed": true
+      }
+    },
+    "passed_modules": 13,
+    "total_modules": 13,
+    "test_count": 338,
+    "all_tests_pass": true
+  },
+  "acceptance_gates": {
+    "g1_all_confirmed_reviewed": true,
+    "g2_every_confirmed_has_rationale": true,
+    "g3_false_bindings_exposed": true,
+    "g4_no_registry_match_only": true,
+    "g5_no_publisher_promotion": true,
+    "g6_no_actor_automatic_promotion": true,
+    "g7_no_affected_automatic_promotion": true,
+    "g8_market_first_class": true,
+    "g9_regulation_first_class": true,
+    "g10_facts_unchanged": true,
+    "g11_events_unchanged": true,
+    "g12_evidence_unchanged": true,
+    "g13_provenance_unchanged": true,
+    "g14_338_existing_tests_pass": true,
+    "g15_v48w_tests_pass": true,
+    "g16_no_entity_registry_population": true,
+    "g17_no_source_expansion": true,
+    "g18_no_new_patterns": true,
+    "g19_no_llm": true,
+    "g20_no_product_integration": true,
+    "all_pass": true
+  },
+  "verdict": "V48W SUBJECT FORENSIC VALIDATION PASSED"
+}

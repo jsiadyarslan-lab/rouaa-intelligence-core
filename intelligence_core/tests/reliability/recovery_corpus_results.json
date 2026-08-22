@@ -1,0 +1,104 @@
+{
+  "phase": "ROUAA CORE RECOVERY — FULL EXISTING-CORPUS MEASUREMENT",
+  "baseline_commit": "82263950263f74c4b970a902975b72539d39703f",
+  "executed_at_utc": "2026-08-20T18:54:29Z",
+  "extraction_seconds": 27.31,
+  "invariants": {
+    "total_documents_in_store": 1034,
+    "terminal_accounting": {
+      "SUCCESS_NO_FACTS": 622,
+      "SUCCESS_WITH_FACTS": 406,
+      "UNSUPPORTED": 6
+    },
+    "terminal_sum": 1034,
+    "invariant_sum_matches_total": true,
+    "purpose_stats": {
+      "SUBSTANTIVE": 103832,
+      "NAVIGATION": 30,
+      "AMBIGUOUS": 16185
+    },
+    "total_ios_emitted": 406,
+    "pre_existing_io_count": 35,
+    "new_io_count": 371,
+    "new_io_unique_id_count": 371,
+    "new_io_duplicate_id_count": 0,
+    "new_io_duplicate_ids": [],
+    "new_io_orphan_count": 0,
+    "new_io_orphan_ids_sample": [],
+    "new_ios_have_all_fields": true,
+    "new_by_event_type": {
+      "regulatory_enforcement": 92,
+      "statistical_release": 134,
+      "monetary_policy_decision": 136,
+      "market_statistic_release": 8,
+      "earnings_release": 1
+    },
+    "new_by_source_top_15": {
+      "bank-of-england": 57,
+      "bea": 41,
+      "euronext": 30,
+      "nbu-ukraine": 25,
+      "ecb-stat": 24,
+      "boc": 20,
+      "cbbh-bosnia": 19,
+      "nsi-bulgaria": 15,
+      "ecb": 10,
+      "esma": 10,
+      "cbk-kenya": 10,
+      "fca": 8,
+      "cso-ireland": 8,
+      "treasurydirect-us": 6,
+      "cbj-jordan": 6
+    }
+  },
+  "test_results": {
+    "modules": {
+      "48 baseline": {
+        "module": "intelligence_core.tests.run_all",
+        "passed": true,
+        "returncode": 0
+      },
+      "37 V37.2": {
+        "module": "intelligence_core.tests.reliability.v37_2_structural_evidence_test",
+        "passed": true,
+        "returncode": 0
+      },
+      "30 collision": {
+        "module": "intelligence_core.tests.reliability.v37_2_collision_fix_tests",
+        "passed": true,
+        "returncode": 0
+      },
+      "9 sub-collision": {
+        "module": "intelligence_core.tests.reliability.v37_2_sub_collision_tests",
+        "passed": true,
+        "returncode": 0
+      },
+      "22 purpose": {
+        "module": "intelligence_core.tests.reliability.recovery_segment_purpose_tests",
+        "passed": true,
+        "returncode": 0
+      }
+    },
+    "passed_modules": 5,
+    "total_modules": 5,
+    "test_count": 146,
+    "all_tests_pass": true
+  },
+  "quality_gates": {
+    "invariant_terminal_sum_matches_total": true,
+    "new_ios_have_all_fields": true,
+    "no_orphan_ioss": true,
+    "no_duplicate_io_ids": true,
+    "all_tests_pass": true,
+    "navigation_leakage_zero": true,
+    "unresolved_collisions_zero": true,
+    "broken_provenance_zero": true,
+    "all_pass": true
+  },
+  "failure_samples": {},
+  "artifacts_produced": [
+    "docs/evidence/ROUAA_CORE_RECOVERY_CORPUS_RESULTS.md",
+    "intelligence_core/tests/reliability/recovery_corpus_results.json",
+    "intelligence_core/tests/reliability/recovery_corpus_ios.jsonl"
+  ]
+}

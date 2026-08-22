@@ -335,3 +335,189 @@ class Delivery:  # D5 output act / D8 Contract C
     created_at: str = ""
 
     def to_dict(self) -> dict: return asdict(self)
+
+
+# ═══════════════════════════════════════════════════════════════════════
+# V46 — Evidence Context Recovery (additive, optional, non-breaking)
+# ═══════════════════════════════════════════════════════════════════════
+# Per V46 directive §9: a deterministic context package around existing
+# evidence. Does NOT replace Evidence; creates a contextual layer that
+# downstream semantic enrichment can read. All fields nullable so older
+# evidence without context packages remain valid.
+
+@dataclass
+class EvidenceContextV1:
+    """V46 — Context package around an existing Evidence record.
+
+    Per V46 §9: minimum fields are fact_id, document_id,
+    primary_segment_id, context_segment_ids, context_before,
+    evidence_excerpt, context_after, heading_context, table_context,
+    entity_signals, temporal_signals, state_signals, context_quality.
+    """
+    fact_id: str
+    document_id: str
+    evidence_id: str = ""                       # links to existing Evidence.evidence_id (preserved)
+    primary_segment_id: Optional[str] = None   # the segment containing the excerpt
+    context_segment_ids: list = field(default_factory=list)  # structural segment IDs in context window
+    context_before: str = ""                    # text from preceding structural segments
+    evidence_excerpt: str = ""                  # the original excerpt (UNCHANGED from Evidence.excerpt)
+    context_after: str = ""                     # text from following structural segments
+    heading_context: Optional[str] = None       # nearest ancestor heading text
+    table_context: Optional[str] = None         # table_id if excerpt is in a table, else None
+    row_label: Optional[str] = None             # table row label if applicable
+    column_label: Optional[str] = None          # table column label if applicable
+    list_context: Optional[int] = None          # list depth if excerpt is in a list, else None
+    entity_signals: list = field(default_factory=list)     # institution names found in context
+    temporal_signals: list = field(default_factory=list)   # date/period patterns found in context
+    state_signals: list = field(default_factory=list)      # event-state signal words found in context
+    context_quality: str = "CONTEXT_INSUFFICIENT"  # SUFFICIENT | PARTIAL | INSUFFICIENT
+    # Provenance — which segments contributed to each signal
+    entity_signal_provenance: list = field(default_factory=list)
+    temporal_signal_provenance: list = field(default_factory=list)
+    state_signal_provenance: list = field(default_factory=list)
+
+    def to_dict(self) -> dict: return asdict(self)
+
+
+@dataclass
+class SemanticClaimV1:
+    """A semantic assertion with a fact-local structural proof.
+
+    `publisher_institution` and `subject_entity` are intentionally separate.
+    Neither source identity nor a neighbouring segment can confirm the subject
+    of a fact.  Consumers must use only CONFIRMED claims for event semantics.
+    """
+    claim_type: str
+    value: str
+    status: str
+    fact_id: str
+    evidence_id: str
+    segment_id: Optional[str] = None
+    provenance: str = ""
+
+    def to_dict(self) -> dict: return asdict(self)
+
+
+# ═══════════════════════════════════════════════════════════════════════
+# V47C — Publisher Institution Context Layer (additive, optional, non-breaking)
+# ═══════════════════════════════════════════════════════════════════════
+# Per V47C directive §4: a deterministic canonical Publisher Institution
+# layer that identifies the institution responsible for the source/document
+# WITHOUT ever promoting publisher identity into subject_entity.
+#
+# The SUBJECT ENTITY FIREWALL (§9) is mandatory: publisher_institution
+# CONFIRMED does NOT promote subject_entity. publisher_institution and
+# subject_entity are independent fields.
+
+@dataclass
+class PublisherInstitutionV1:
+    """V47C — Canonical Publisher Institution for a source/document.
+
+    Per V47C §4: identifies the institution RESPONSIBLE FOR PUBLISHING
+    the source/document. This is NOT the subject entity of any event.
+
+    Per V47C §9 (Subject Entity Firewall):
+      publisher_institution.status == CONFIRMED does NOT promote
+      subject_entity status. The two fields are independent.
+
+    Confidence (§4): HIGH / MEDIUM / LOW — explicitly documented
+    deterministic scale, NOT a hallucinated probability.
+    """
+    publisher_institution_id: str
+    canonical_name: str
+    institution_type: str = "OTHER"   # CENTRAL_BANK | STATISTICAL_AGENCY | REGULATOR | GOVERNMENT_MINISTRY | MARKET_OPERATOR | EXCHANGE | SECURITIES_REGULATOR | CORPORATE | INTERNATIONAL_ORGANIZATION | OTHER
+    jurisdiction: Optional[str] = None
+    source_ids: list = field(default_factory=list)
+    confidence: str = "MEDIUM"  # HIGH | MEDIUM | LOW
+    status: str = "NOT_FOUND"   # CONFIRMED | AMBIGUOUS | NOT_FOUND
+    # Per §10: publisher support provenance
+    publisher_support_source_id: Optional[str] = None
+    publisher_support_document_id: Optional[str] = None
+    publisher_support_segment_id: Optional[str] = None
+    publisher_support_method: Optional[str] = None
+    # Allowed methods (§10): SOURCE_REGISTRY | SOURCE_DOMAIN |
+    # DOCUMENT_PUBLISHER_METADATA | DOCUMENT_EXPLICIT_PUBLISHER |
+    # DETERMINISTIC_ALIAS
+    # Forbidden methods: HEADLINE_TEMPLATE | EVENT_TYPE | FACT_VALUE | GT_METADATA
+    aliases: list = field(default_factory=list)
+    canonical_url: Optional[str] = None  # source domain / canonical URL
+
+    def to_dict(self) -> dict: return asdict(self)
+
+
+# ═══════════════════════════════════════════════════════════════════════
+# V48 — Subject Entity Resolution Layer (additive, optional, non-breaking)
+# ═══════════════════════════════════════════════════════════════════════
+# Per V48 directive §3: a deterministic Subject Entity Resolution layer
+# that answers "What is the event actually about?" — distinct from
+# publisher_institution. Subject candidates come ONLY from structurally
+# relevant context (priority order per §4).
+#
+# Per V48 §5: relationship categorization (EVENT_SUBJECT | AFFECTED_ENTITY
+# | PUBLISHER | MENTIONED_ENTITY | UNKNOWN). Only EVENT_SUBJECT can
+# become subject_entity.
+#
+# Per V48 §11: Publisher Firewall — publisher CONFIRMED does NOT
+# increase subject confidence. publisher_institution and subject_entity
+# are independent fields.
+#
+# Per V48 §12: affected_entity is stored SEPARATELY from subject_entity
+# where evidence supports the distinction.
+
+@dataclass
+class SubjectEntityV1:
+    """V48 — Canonical Subject Entity of an event.
+
+    Per V48 §3: identifies what the event is ACTUALLY ABOUT — distinct
+    from publisher_institution. The two fields are independent.
+
+    Per V48 §5: relationship categorization determines whether a candidate
+    is the EVENT_SUBJECT (which becomes subject_entity), AFFECTED_ENTITY
+    (separate field), PUBLISHER (never subject_entity), MENTIONED_ENTITY
+    (cannot become subject), or UNKNOWN.
+
+    Per V48 §11: Publisher Firewall is MANDATORY. publisher CONFIRMED
+    does NOT promote subject_entity.
+
+    V48R — ONTOLOGY SEPARATION (per V48R §2 + §7):
+    The previous V48 conflated ENTITY with CONCEPT/INDICATOR/INSTRUMENT.
+    V48R separates them: subject_entity CONFIRMED requires a REAL entity
+    (institution, company, jurisdiction). Concepts/Indicators/Instruments
+    are captured in separate fields (subject_concept, subject_indicator,
+    subject_instrument) and DO NOT promote subject_entity.
+    """
+    subject_entity_id: str
+    canonical_name: str
+    entity_type: str = "OTHER"  # ECONOMY | INDUSTRY | MARKET | INSTRUMENT | INSTITUTION | POLICY | INDICATOR | REGULATION | ENTITY | OTHER
+    status: str = "NOT_FOUND"   # CONFIRMED | AMBIGUOUS | NOT_FOUND
+    confidence: str = "LOW"     # HIGH | MEDIUM | LOW
+    supporting_segment_ids: list = field(default_factory=list)
+    supporting_fact_ids: list = field(default_factory=list)
+    supporting_evidence_ids: list = field(default_factory=list)
+    resolution_method: Optional[str] = None
+    # Per §5: relationship category
+    relationship: str = "UNKNOWN"  # EVENT_SUBJECT | AFFECTED_ENTITY | PUBLISHER | MENTIONED_ENTITY | UNKNOWN
+    # Per §9: aliases (deterministic, repository-metadata-supported only)
+    aliases: list = field(default_factory=list)
+    # Per §12: affected_entity is a SEPARATE field when evidence supports it
+    affected_entities: list = field(default_factory=list)  # list of dicts: {canonical_name, supporting_segment_ids, ...}
+    # V48R §2 + §7 — ONTOLOGY SEPARATION:
+    # Concepts, Indicators, Instruments are NOT entities. They are
+    # captured in SEPARATE fields. They DO NOT promote subject_entity.
+    # A subject_entity requires a REAL entity (institution, company,
+    # jurisdiction). GDP/CPI/Inflation/Policy Rate are indicators/
+    # instruments/concepts — they go into subject_indicator /
+    # subject_instrument / subject_concept, NOT subject_entity.
+    subject_concept: Optional[str] = None  # e.g., "Monetary Policy", "Fiscal Policy", "Enforcement Action"
+    subject_concept_status: str = "NOT_FOUND"  # CONFIRMED | NOT_FOUND
+    subject_indicator: Optional[str] = None  # e.g., "GDP", "CPI", "Inflation", "Unemployment"
+    subject_indicator_status: str = "NOT_FOUND"  # CONFIRMED | NOT_FOUND
+    subject_instrument: Optional[str] = None  # e.g., "Policy Rate", "Bonds", "Equities"
+    subject_instrument_status: str = "NOT_FOUND"  # CONFIRMED | NOT_FOUND
+    # V48U §4-5 — MARKET and REGULATION are FIRST-CLASS types (NOT mapped to instrument/concept):
+    subject_market: Optional[str] = None  # e.g., "Foreign Exchange"
+    subject_market_status: str = "NOT_FOUND"  # CONFIRMED | NOT_FOUND
+    subject_regulation: Optional[str] = None  # e.g., "Penalty", "Settlement"
+    subject_regulation_status: str = "NOT_FOUND"  # CONFIRMED | NOT_FOUND
+
+    def to_dict(self) -> dict: return asdict(self)

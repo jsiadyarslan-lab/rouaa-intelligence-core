@@ -1,0 +1,2927 @@
+{
+  "phase": "V45 INTELLIGENCE YIELD",
+  "baseline_commit": "82263950263f74c4b970a902975b72539d39703f",
+  "recovery_branch_head": "47ccbc191e3aa9808e0e4b50e5d0583fe7962c58",
+  "executed_at_utc": "2026-08-20T19:35:54Z",
+  "yield": {
+    "documents_total": 1034,
+    "productive_documents": 406,
+    "facts_in_store": 396,
+    "events_total_pre_existing_plus_new": 416,
+    "new_ios": 371,
+    "facts_per_document": 0.383,
+    "events_per_document": 0.4023,
+    "new_ios_per_document": 0.3588,
+    "new_ios_per_productive_document": 0.9138,
+    "new_ios_per_event": 0.8918
+  },
+  "top_20_sources_by_new_io_yield": [
+    {
+      "source_id": "imp-bank-of-england",
+      "new_ios": 57,
+      "documents": 60,
+      "events": 63,
+      "facts": 26
+    },
+    {
+      "source_id": "imp-bea",
+      "new_ios": 41,
+      "documents": 56,
+      "events": 47,
+      "facts": 177
+    },
+    {
+      "source_id": "imp-euronext",
+      "new_ios": 30,
+      "documents": 30,
+      "events": 30,
+      "facts": 0
+    },
+    {
+      "source_id": "src-nbu-ukraine",
+      "new_ios": 25,
+      "documents": 25,
+      "events": 25,
+      "facts": 0
+    },
+    {
+      "source_id": "src-ecb-stat",
+      "new_ios": 24,
+      "documents": 26,
+      "events": 27,
+      "facts": 60
+    },
+    {
+      "source_id": "src-boc",
+      "new_ios": 20,
+      "documents": 25,
+      "events": 24,
+      "facts": 4
+    },
+    {
+      "source_id": "src-cbbh-bosnia",
+      "new_ios": 19,
+      "documents": 19,
+      "events": 19,
+      "facts": 0
+    },
+    {
+      "source_id": "src-nsi-bulgaria",
+      "new_ios": 15,
+      "documents": 18,
+      "events": 15,
+      "facts": 0
+    },
+    {
+      "source_id": "imp-ecb",
+      "new_ios": 10,
+      "documents": 13,
+      "events": 16,
+      "facts": 34
+    },
+    {
+      "source_id": "imp-esma",
+      "new_ios": 10,
+      "documents": 10,
+      "events": 10,
+      "facts": 0
+    },
+    {
+      "source_id": "src-cbk-kenya",
+      "new_ios": 10,
+      "documents": 10,
+      "events": 10,
+      "facts": 0
+    },
+    {
+      "source_id": "imp-fca",
+      "new_ios": 8,
+      "documents": 20,
+      "events": 12,
+      "facts": 8
+    },
+    {
+      "source_id": "src-cso-ireland",
+      "new_ios": 8,
+      "documents": 15,
+      "events": 8,
+      "facts": 0
+    },
+    {
+      "source_id": "src-treasurydirect-us",
+      "new_ios": 6,
+      "documents": 9,
+      "events": 6,
+      "facts": 0
+    },
+    {
+      "source_id": "src-cbj-jordan",
+      "new_ios": 6,
+      "documents": 9,
+      "events": 6,
+      "facts": 0
+    },
+    {
+      "source_id": "imp-eurostat",
+      "new_ios": 5,
+      "documents": 9,
+      "events": 5,
+      "facts": 0
+    },
+    {
+      "source_id": "imp-cftc",
+      "new_ios": 5,
+      "documents": 20,
+      "events": 5,
+      "facts": 0
+    },
+    {
+      "source_id": "src-boj",
+      "new_ios": 5,
+      "documents": 13,
+      "events": 8,
+      "facts": 30
+    },
+    {
+      "source_id": "src-istat",
+      "new_ios": 4,
+      "documents": 10,
+      "events": 4,
+      "facts": 0
+    },
+    {
+      "source_id": "src-ustr",
+      "new_ios": 4,
+      "documents": 12,
+      "events": 4,
+      "facts": 0
+    }
+  ],
+  "bottom_productive_sources": [
+    {
+      "source_id": "imp-stats-china",
+      "new_ios": 1
+    },
+    {
+      "source_id": "imp-deutsche-boerse",
+      "new_ios": 1
+    },
+    {
+      "source_id": "imp-fsb",
+      "new_ios": 1
+    },
+    {
+      "source_id": "imp-hm-feed",
+      "new_ios": 1
+    },
+    {
+      "source_id": "src-sfc-hk",
+      "new_ios": 1
+    },
+    {
+      "source_id": "src-beis-uk",
+      "new_ios": 1
+    },
+    {
+      "source_id": "src-mitijapan",
+      "new_ios": 1
+    },
+    {
+      "source_id": "src-bb-bangladesh",
+      "new_ios": 1
+    },
+    {
+      "source_id": "src-bnb-bulgaria",
+      "new_ios": 1
+    },
+    {
+      "source_id": "src-bnetza-germany",
+      "new_ios": 1
+    }
+  ],
+  "zero_yield_sources": [
+    {
+      "source_id": "imp-bank-of-japan",
+      "documents": 10
+    },
+    {
+      "source_id": "imp-swiss-national-bank",
+      "documents": 10
+    },
+    {
+      "source_id": "imp-ons",
+      "documents": 6
+    },
+    {
+      "source_id": "imp-stat-japan",
+      "documents": 2
+    },
+    {
+      "source_id": "imp-fsa-japan",
+      "documents": 7
+    },
+    {
+      "source_id": "imp-consob",
+      "documents": 3
+    },
+    {
+      "source_id": "imp-jpx",
+      "documents": 6
+    },
+    {
+      "source_id": "imp-szse",
+      "documents": 1
+    },
+    {
+      "source_id": "imp-hm-treasury",
+      "documents": 10
+    },
+    {
+      "source_id": "imp-mof-japan",
+      "documents": 10
+    },
+    {
+      "source_id": "imp-wto",
+      "documents": 1
+    },
+    {
+      "source_id": "src-cvm-brazil",
+      "documents": 13
+    },
+    {
+      "source_id": "src-bmf-brazil",
+      "documents": 7
+    },
+    {
+      "source_id": "src-fsa-japan",
+      "documents": 5
+    },
+    {
+      "source_id": "src-mof-japan",
+      "documents": 3
+    },
+    {
+      "source_id": "src-bankitaly",
+      "documents": 2
+    },
+    {
+      "source_id": "src-bmfca-canada",
+      "documents": 6
+    },
+    {
+      "source_id": "src-cbi-iraq",
+      "documents": 21
+    },
+    {
+      "source_id": "src-mnb-hungary",
+      "documents": 1
+    },
+    {
+      "source_id": "src-nrb-nepal",
+      "documents": 6
+    },
+    {
+      "source_id": "src-bnm-malaysia",
+      "documents": 4
+    },
+    {
+      "source_id": "src-naic-us",
+      "documents": 4
+    },
+    {
+      "source_id": "src-ba-finland",
+      "documents": 1
+    },
+    {
+      "source_id": "src-ksh-hungary",
+      "documents": 1
+    },
+    {
+      "source_id": "src-ine-chile",
+      "documents": 2
+    },
+    {
+      "source_id": "src-fred-stl",
+      "documents": 3
+    },
+    {
+      "source_id": "src-fss-korea",
+      "documents": 1
+    },
+    {
+      "source_id": "src-cma-ksa",
+      "documents": 9
+    },
+    {
+      "source_id": "src-sbp-pakistan",
+      "documents": 11
+    },
+    {
+      "source_id": "src-entsog-eu",
+      "documents": 3
+    },
+    {
+      "source_id": "src-migme",
+      "documents": 1
+    },
+    {
+      "source_id": "src-imo-intl",
+      "documents": 12
+    },
+    {
+      "source_id": "src-icao-intl",
+      "documents": 8
+    },
+    {
+      "source_id": "src-adc-france",
+      "documents": 3
+    },
+    {
+      "source_id": "src-bundeskartellamt",
+      "documents": 5
+    },
+    {
+      "source_id": "src-bceddo",
+      "documents": 1
+    },
+    {
+      "source_id": "src-adia-uae",
+      "documents": 1
+    },
+    {
+      "source_id": "src-stat-denmark",
+      "documents": 1
+    },
+    {
+      "source_id": "src-stat-turkey",
+      "documents": 1
+    },
+    {
+      "source_id": "src-stat-latvia",
+      "documents": 3
+    },
+    {
+      "source_id": "src-bank-tanzania2",
+      "documents": 6
+    },
+    {
+      "source_id": "src-beac2",
+      "documents": 19
+    }
+  ],
+  "quality_by_source": [
+    {
+      "source_id": "imp-ecb",
+      "new_io_count": 10,
+      "specific_headline_rate": 1.0,
+      "entity_confirmed_rate": 0.0,
+      "entity_ambiguous_rate": 0.0,
+      "temporal_confirmed_rate": 0.8,
+      "event_state_known_rate": 0.7,
+      "unsupported_claims": 0,
+      "broken_provenance": 0
+    },
+    {
+      "source_id": "imp-bank-of-england",
+      "new_io_count": 57,
+      "specific_headline_rate": 1.0,
+      "entity_confirmed_rate": 0.0,
+      "entity_ambiguous_rate": 0.017543859649122806,
+      "temporal_confirmed_rate": 0.15789473684210525,
+      "event_state_known_rate": 0.2807017543859649,
+      "unsupported_claims": 0,
+      "broken_provenance": 0
+    },
+    {
+      "source_id": "imp-eurostat",
+      "new_io_count": 5,
+      "specific_headline_rate": 1.0,
+      "entity_confirmed_rate": 0.0,
+      "entity_ambiguous_rate": 0.0,
+      "temporal_confirmed_rate": 0.8,
+      "event_state_known_rate": 1.0,
+      "unsupported_claims": 0,
+      "broken_provenance": 0
+    },
+    {
+      "source_id": "imp-cftc",
+      "new_io_count": 5,
+      "specific_headline_rate": 1.0,
+      "entity_confirmed_rate": 0.2,
+      "entity_ambiguous_rate": 0.0,
+      "temporal_confirmed_rate": 0.0,
+      "event_state_known_rate": 0.4,
+      "unsupported_claims": 0,
+      "broken_provenance": 0
+    },
+    {
+      "source_id": "imp-esma",
+      "new_io_count": 10,
+      "specific_headline_rate": 1.0,
+      "entity_confirmed_rate": 0.2,
+      "entity_ambiguous_rate": 0.0,
+      "temporal_confirmed_rate": 0.1,
+      "event_state_known_rate": 1.0,
+      "unsupported_claims": 0,
+      "broken_provenance": 0
+    },
+    {
+      "source_id": "imp-fca",
+      "new_io_count": 8,
+      "specific_headline_rate": 1.0,
+      "entity_confirmed_rate": 0.625,
+      "entity_ambiguous_rate": 0.0,
+      "temporal_confirmed_rate": 0.25,
+      "event_state_known_rate": 0.5,
+      "unsupported_claims": 0,
+      "broken_provenance": 0
+    },
+    {
+      "source_id": "imp-euronext",
+      "new_io_count": 30,
+      "specific_headline_rate": 1.0,
+      "entity_confirmed_rate": 0.0,
+      "entity_ambiguous_rate": 0.0,
+      "temporal_confirmed_rate": 0.1,
+      "event_state_known_rate": 0.4666666666666667,
+      "unsupported_claims": 0,
+      "broken_provenance": 0
+    },
+    {
+      "source_id": "imp-federal-reserve",
+      "new_io_count": 2,
+      "specific_headline_rate": 1.0,
+      "entity_confirmed_rate": 0.5,
+      "entity_ambiguous_rate": 0.0,
+      "temporal_confirmed_rate": 0.0,
+      "event_state_known_rate": 0.5,
+      "unsupported_claims": 0,
+      "broken_provenance": 0
+    },
+    {
+      "source_id": "imp-stats-china",
+      "new_io_count": 1,
+      "specific_headline_rate": 1.0,
+      "entity_confirmed_rate": 0.0,
+      "entity_ambiguous_rate": 0.0,
+      "temporal_confirmed_rate": 0.0,
+      "event_state_known_rate": 0.0,
+      "unsupported_claims": 0,
+      "broken_provenance": 0
+    },
+    {
+      "source_id": "imp-sec",
+      "new_io_count": 3,
+      "specific_headline_rate": 1.0,
+      "entity_confirmed_rate": 0.3333333333333333,
+      "entity_ambiguous_rate": 0.0,
+      "temporal_confirmed_rate": 0.6666666666666666,
+      "event_state_known_rate": 1.0,
+      "unsupported_claims": 0,
+      "broken_provenance": 0
+    },
+    {
+      "source_id": "imp-deutsche-boerse",
+      "new_io_count": 1,
+      "specific_headline_rate": 1.0,
+      "entity_confirmed_rate": 0.0,
+      "entity_ambiguous_rate": 0.0,
+      "temporal_confirmed_rate": 1.0,
+      "event_state_known_rate": 1.0,
+      "unsupported_claims": 0,
+      "broken_provenance": 0
+    },
+    {
+      "source_id": "imp-fsb",
+      "new_io_count": 1,
+      "specific_headline_rate": 1.0,
+      "entity_confirmed_rate": 0.0,
+      "entity_ambiguous_rate": 0.0,
+      "temporal_confirmed_rate": 1.0,
+      "event_state_known_rate": 0.0,
+      "unsupported_claims": 0,
+      "broken_provenance": 0
+    },
+    {
+      "source_id": "imp-bea",
+      "new_io_count": 41,
+      "specific_headline_rate": 1.0,
+      "entity_confirmed_rate": 0.6585365853658537,
+      "entity_ambiguous_rate": 0.0,
+      "temporal_confirmed_rate": 0.9512195121951219,
+      "event_state_known_rate": 0.975609756097561,
+      "unsupported_claims": 0,
+      "broken_provenance": 0
+    },
+    {
+      "source_id": "imp-hm-feed",
+      "new_io_count": 1,
+      "specific_headline_rate": 1.0,
+      "entity_confirmed_rate": 0.0,
+      "entity_ambiguous_rate": 0.0,
+      "temporal_confirmed_rate": 0.0,
+      "event_state_known_rate": 1.0,
+      "unsupported_claims": 0,
+      "broken_provenance": 0
+    },
+    {
+      "source_id": "src-istat",
+      "new_io_count": 4,
+      "specific_headline_rate": 1.0,
+      "entity_confirmed_rate": 0.0,
+      "entity_ambiguous_rate": 0.0,
+      "temporal_confirmed_rate": 0.0,
+      "event_state_known_rate": 0.0,
+      "unsupported_claims": 0,
+      "broken_provenance": 0
+    },
+    {
+      "source_id": "src-boc",
+      "new_io_count": 20,
+      "specific_headline_rate": 1.0,
+      "entity_confirmed_rate": 0.2,
+      "entity_ambiguous_rate": 0.0,
+      "temporal_confirmed_rate": 0.3,
+      "event_state_known_rate": 0.1,
+      "unsupported_claims": 0,
+      "broken_provenance": 0
+    },
+    {
+      "source_id": "src-sfc-hk",
+      "new_io_count": 1,
+      "specific_headline_rate": 1.0,
+      "entity_confirmed_rate": 0.0,
+      "entity_ambiguous_rate": 0.0,
+      "temporal_confirmed_rate": 0.0,
+      "event_state_known_rate": 1.0,
+      "unsupported_claims": 0,
+      "broken_provenance": 0
+    },
+    {
+      "source_id": "src-beis-uk",
+      "new_io_count": 1,
+      "specific_headline_rate": 1.0,
+      "entity_confirmed_rate": 0.0,
+      "entity_ambiguous_rate": 0.0,
+      "temporal_confirmed_rate": 1.0,
+      "event_state_known_rate": 1.0,
+      "unsupported_claims": 0,
+      "broken_provenance": 0
+    },
+    {
+      "source_id": "src-mitijapan",
+      "new_io_count": 1,
+      "specific_headline_rate": 1.0,
+      "entity_confirmed_rate": 0.0,
+      "entity_ambiguous_rate": 0.0,
+      "temporal_confirmed_rate": 1.0,
+      "event_state_known_rate": 0.0,
+      "unsupported_claims": 0,
+      "broken_provenance": 0
+    },
+    {
+      "source_id": "src-cma-energy",
+      "new_io_count": 2,
+      "specific_headline_rate": 1.0,
+      "entity_confirmed_rate": 0.0,
+      "entity_ambiguous_rate": 0.0,
+      "temporal_confirmed_rate": 0.0,
+      "event_state_known_rate": 0.5,
+      "unsupported_claims": 0,
+      "broken_provenance": 0
+    },
+    {
+      "source_id": "src-ustr",
+      "new_io_count": 4,
+      "specific_headline_rate": 1.0,
+      "entity_confirmed_rate": 0.0,
+      "entity_ambiguous_rate": 0.0,
+      "temporal_confirmed_rate": 0.0,
+      "event_state_known_rate": 1.0,
+      "unsupported_claims": 0,
+      "broken_provenance": 0
+    },
+    {
+      "source_id": "src-sama-saudi",
+      "new_io_count": 2,
+      "specific_headline_rate": 1.0,
+      "entity_confirmed_rate": 0.0,
+      "entity_ambiguous_rate": 0.0,
+      "temporal_confirmed_rate": 0.0,
+      "event_state_known_rate": 0.0,
+      "unsupported_claims": 0,
+      "broken_provenance": 0
+    },
+    {
+      "source_id": "src-eurostat-emp",
+      "new_io_count": 4,
+      "specific_headline_rate": 1.0,
+      "entity_confirmed_rate": 0.0,
+      "entity_ambiguous_rate": 0.0,
+      "temporal_confirmed_rate": 0.75,
+      "event_state_known_rate": 0.75,
+      "unsupported_claims": 0,
+      "broken_provenance": 0
+    },
+    {
+      "source_id": "src-nbu-ukraine",
+      "new_io_count": 25,
+      "specific_headline_rate": 1.0,
+      "entity_confirmed_rate": 0.0,
+      "entity_ambiguous_rate": 0.0,
+      "temporal_confirmed_rate": 0.0,
+      "event_state_known_rate": 0.0,
+      "unsupported_claims": 0,
+      "broken_provenance": 0
+    },
+    {
+      "source_id": "src-bb-bangladesh",
+      "new_io_count": 1,
+      "specific_headline_rate": 1.0,
+      "entity_confirmed_rate": 0.0,
+      "entity_ambiguous_rate": 0.0,
+      "temporal_confirmed_rate": 0.0,
+      "event_state_known_rate": 0.0,
+      "unsupported_claims": 0,
+      "broken_provenance": 0
+    },
+    {
+      "source_id": "src-cbk-kenya",
+      "new_io_count": 10,
+      "specific_headline_rate": 1.0,
+      "entity_confirmed_rate": 1.0,
+      "entity_ambiguous_rate": 0.0,
+      "temporal_confirmed_rate": 1.0,
+      "event_state_known_rate": 0.0,
+      "unsupported_claims": 0,
+      "broken_provenance": 0
+    },
+    {
+      "source_id": "src-bnb-bulgaria",
+      "new_io_count": 1,
+      "specific_headline_rate": 1.0,
+      "entity_confirmed_rate": 0.0,
+      "entity_ambiguous_rate": 0.0,
+      "temporal_confirmed_rate": 0.0,
+      "event_state_known_rate": 0.0,
+      "unsupported_claims": 0,
+      "broken_provenance": 0
+    },
+    {
+      "source_id": "src-nsi-bulgaria",
+      "new_io_count": 15,
+      "specific_headline_rate": 1.0,
+      "entity_confirmed_rate": 0.0,
+      "entity_ambiguous_rate": 0.0,
+      "temporal_confirmed_rate": 0.06666666666666667,
+      "event_state_known_rate": 0.0,
+      "unsupported_claims": 0,
+      "broken_provenance": 0
+    },
+    {
+      "source_id": "src-bi-indonesia",
+      "new_io_count": 3,
+      "specific_headline_rate": 1.0,
+      "entity_confirmed_rate": 0.0,
+      "entity_ambiguous_rate": 0.0,
+      "temporal_confirmed_rate": 0.0,
+      "event_state_known_rate": 0.0,
+      "unsupported_claims": 0,
+      "broken_provenance": 0
+    },
+    {
+      "source_id": "src-bnetza-germany",
+      "new_io_count": 1,
+      "specific_headline_rate": 1.0,
+      "entity_confirmed_rate": 0.0,
+      "entity_ambiguous_rate": 0.0,
+      "temporal_confirmed_rate": 0.0,
+      "event_state_known_rate": 0.0,
+      "unsupported_claims": 0,
+      "broken_provenance": 0
+    },
+    {
+      "source_id": "src-mof-philippines",
+      "new_io_count": 1,
+      "specific_headline_rate": 1.0,
+      "entity_confirmed_rate": 0.0,
+      "entity_ambiguous_rate": 0.0,
+      "temporal_confirmed_rate": 0.0,
+      "event_state_known_rate": 0.0,
+      "unsupported_claims": 0,
+      "broken_provenance": 0
+    },
+    {
+      "source_id": "src-frb-ny",
+      "new_io_count": 2,
+      "specific_headline_rate": 1.0,
+      "entity_confirmed_rate": 0.0,
+      "entity_ambiguous_rate": 0.0,
+      "temporal_confirmed_rate": 0.5,
+      "event_state_known_rate": 0.5,
+      "unsupported_claims": 0,
+      "broken_provenance": 0
+    },
+    {
+      "source_id": "src-nis-nigeria",
+      "new_io_count": 1,
+      "specific_headline_rate": 1.0,
+      "entity_confirmed_rate": 0.0,
+      "entity_ambiguous_rate": 1.0,
+      "temporal_confirmed_rate": 0.0,
+      "event_state_known_rate": 0.0,
+      "unsupported_claims": 0,
+      "broken_provenance": 0
+    },
+    {
+      "source_id": "src-ecb-stat",
+      "new_io_count": 24,
+      "specific_headline_rate": 1.0,
+      "entity_confirmed_rate": 0.0,
+      "entity_ambiguous_rate": 0.0,
+      "temporal_confirmed_rate": 0.041666666666666664,
+      "event_state_known_rate": 0.9583333333333334,
+      "unsupported_claims": 0,
+      "broken_provenance": 0
+    },
+    {
+      "source_id": "src-dfsa-uae",
+      "new_io_count": 3,
+      "specific_headline_rate": 1.0,
+      "entity_confirmed_rate": 0.0,
+      "entity_ambiguous_rate": 0.0,
+      "temporal_confirmed_rate": 0.0,
+      "event_state_known_rate": 0.6666666666666666,
+      "unsupported_claims": 0,
+      "broken_provenance": 0
+    },
+    {
+      "source_id": "src-boj",
+      "new_io_count": 5,
+      "specific_headline_rate": 1.0,
+      "entity_confirmed_rate": 0.4,
+      "entity_ambiguous_rate": 0.0,
+      "temporal_confirmed_rate": 0.2,
+      "event_state_known_rate": 0.8,
+      "unsupported_claims": 0,
+      "broken_provenance": 0
+    },
+    {
+      "source_id": "src-bank-tanzania",
+      "new_io_count": 1,
+      "specific_headline_rate": 1.0,
+      "entity_confirmed_rate": 0.0,
+      "entity_ambiguous_rate": 0.0,
+      "temporal_confirmed_rate": 0.0,
+      "event_state_known_rate": 0.0,
+      "unsupported_claims": 0,
+      "broken_provenance": 0
+    },
+    {
+      "source_id": "src-cbsl-srilanka",
+      "new_io_count": 3,
+      "specific_headline_rate": 1.0,
+      "entity_confirmed_rate": 0.0,
+      "entity_ambiguous_rate": 0.0,
+      "temporal_confirmed_rate": 0.0,
+      "event_state_known_rate": 1.0,
+      "unsupported_claims": 0,
+      "broken_provenance": 0
+    },
+    {
+      "source_id": "src-idda-ireland",
+      "new_io_count": 1,
+      "specific_headline_rate": 1.0,
+      "entity_confirmed_rate": 0.0,
+      "entity_ambiguous_rate": 0.0,
+      "temporal_confirmed_rate": 1.0,
+      "event_state_known_rate": 1.0,
+      "unsupported_claims": 0,
+      "broken_provenance": 0
+    },
+    {
+      "source_id": "src-eurostat-agri",
+      "new_io_count": 2,
+      "specific_headline_rate": 1.0,
+      "entity_confirmed_rate": 0.0,
+      "entity_ambiguous_rate": 0.0,
+      "temporal_confirmed_rate": 1.0,
+      "event_state_known_rate": 1.0,
+      "unsupported_claims": 0,
+      "broken_provenance": 0
+    },
+    {
+      "source_id": "src-nrcan",
+      "new_io_count": 3,
+      "specific_headline_rate": 1.0,
+      "entity_confirmed_rate": 0.0,
+      "entity_ambiguous_rate": 0.0,
+      "temporal_confirmed_rate": 0.0,
+      "event_state_known_rate": 1.0,
+      "unsupported_claims": 0,
+      "broken_provenance": 0
+    },
+    {
+      "source_id": "src-cre-france",
+      "new_io_count": 1,
+      "specific_headline_rate": 1.0,
+      "entity_confirmed_rate": 0.0,
+      "entity_ambiguous_rate": 0.0,
+      "temporal_confirmed_rate": 0.0,
+      "event_state_known_rate": 0.0,
+      "unsupported_claims": 0,
+      "broken_provenance": 0
+    },
+    {
+      "source_id": "src-defra-carbon-uk",
+      "new_io_count": 2,
+      "specific_headline_rate": 1.0,
+      "entity_confirmed_rate": 0.0,
+      "entity_ambiguous_rate": 0.0,
+      "temporal_confirmed_rate": 0.0,
+      "event_state_known_rate": 1.0,
+      "unsupported_claims": 0,
+      "broken_provenance": 0
+    },
+    {
+      "source_id": "src-treasurydirect-us",
+      "new_io_count": 6,
+      "specific_headline_rate": 1.0,
+      "entity_confirmed_rate": 0.0,
+      "entity_ambiguous_rate": 0.0,
+      "temporal_confirmed_rate": 0.3333333333333333,
+      "event_state_known_rate": 1.0,
+      "unsupported_claims": 0,
+      "broken_provenance": 0
+    },
+    {
+      "source_id": "src-cso-ireland",
+      "new_io_count": 8,
+      "specific_headline_rate": 1.0,
+      "entity_confirmed_rate": 0.0,
+      "entity_ambiguous_rate": 0.0,
+      "temporal_confirmed_rate": 0.75,
+      "event_state_known_rate": 0.625,
+      "unsupported_claims": 0,
+      "broken_provenance": 0
+    },
+    {
+      "source_id": "src-stat-austria",
+      "new_io_count": 1,
+      "specific_headline_rate": 1.0,
+      "entity_confirmed_rate": 0.0,
+      "entity_ambiguous_rate": 1.0,
+      "temporal_confirmed_rate": 0.0,
+      "event_state_known_rate": 0.0,
+      "unsupported_claims": 0,
+      "broken_provenance": 0
+    },
+    {
+      "source_id": "src-cbj-jordan",
+      "new_io_count": 6,
+      "specific_headline_rate": 1.0,
+      "entity_confirmed_rate": 0.0,
+      "entity_ambiguous_rate": 0.0,
+      "temporal_confirmed_rate": 0.0,
+      "event_state_known_rate": 0.0,
+      "unsupported_claims": 0,
+      "broken_provenance": 0
+    },
+    {
+      "source_id": "src-cbbh-bosnia",
+      "new_io_count": 19,
+      "specific_headline_rate": 1.0,
+      "entity_confirmed_rate": 0.10526315789473684,
+      "entity_ambiguous_rate": 0.0,
+      "temporal_confirmed_rate": 0.10526315789473684,
+      "event_state_known_rate": 0.8947368421052632,
+      "unsupported_claims": 0,
+      "broken_provenance": 0
+    },
+    {
+      "source_id": "src-cb-georgia",
+      "new_io_count": 2,
+      "specific_headline_rate": 1.0,
+      "entity_confirmed_rate": 0.0,
+      "entity_ambiguous_rate": 0.0,
+      "temporal_confirmed_rate": 0.0,
+      "event_state_known_rate": 0.0,
+      "unsupported_claims": 0,
+      "broken_provenance": 0
+    },
+    {
+      "source_id": "src-cb-armenia",
+      "new_io_count": 3,
+      "specific_headline_rate": 1.0,
+      "entity_confirmed_rate": 0.3333333333333333,
+      "entity_ambiguous_rate": 0.0,
+      "temporal_confirmed_rate": 0.0,
+      "event_state_known_rate": 0.3333333333333333,
+      "unsupported_claims": 0,
+      "broken_provenance": 0
+    },
+    {
+      "source_id": "src-ecb-stat2",
+      "new_io_count": 3,
+      "specific_headline_rate": 1.0,
+      "entity_confirmed_rate": 0.3333333333333333,
+      "entity_ambiguous_rate": 0.0,
+      "temporal_confirmed_rate": 0.0,
+      "event_state_known_rate": 1.0,
+      "unsupported_claims": 0,
+      "broken_provenance": 0
+    },
+    {
+      "source_id": "src-cb-kazakhstan",
+      "new_io_count": 4,
+      "specific_headline_rate": 1.0,
+      "entity_confirmed_rate": 0.0,
+      "entity_ambiguous_rate": 0.0,
+      "temporal_confirmed_rate": 0.0,
+      "event_state_known_rate": 0.0,
+      "unsupported_claims": 0,
+      "broken_provenance": 0
+    },
+    {
+      "source_id": "imp-bank-of-japan",
+      "new_io_count": 0,
+      "specific_headline_rate": 0,
+      "entity_confirmed_rate": 0,
+      "entity_ambiguous_rate": 0,
+      "temporal_confirmed_rate": 0,
+      "event_state_known_rate": 0,
+      "unsupported_claims": 0,
+      "broken_provenance": 0
+    },
+    {
+      "source_id": "imp-swiss-national-bank",
+      "new_io_count": 0,
+      "specific_headline_rate": 0,
+      "entity_confirmed_rate": 0,
+      "entity_ambiguous_rate": 0,
+      "temporal_confirmed_rate": 0,
+      "event_state_known_rate": 0,
+      "unsupported_claims": 0,
+      "broken_provenance": 0
+    },
+    {
+      "source_id": "imp-ons",
+      "new_io_count": 0,
+      "specific_headline_rate": 0,
+      "entity_confirmed_rate": 0,
+      "entity_ambiguous_rate": 0,
+      "temporal_confirmed_rate": 0,
+      "event_state_known_rate": 0,
+      "unsupported_claims": 0,
+      "broken_provenance": 0
+    },
+    {
+      "source_id": "imp-stat-japan",
+      "new_io_count": 0,
+      "specific_headline_rate": 0,
+      "entity_confirmed_rate": 0,
+      "entity_ambiguous_rate": 0,
+      "temporal_confirmed_rate": 0,
+      "event_state_known_rate": 0,
+      "unsupported_claims": 0,
+      "broken_provenance": 0
+    },
+    {
+      "source_id": "imp-fsa-japan",
+      "new_io_count": 0,
+      "specific_headline_rate": 0,
+      "entity_confirmed_rate": 0,
+      "entity_ambiguous_rate": 0,
+      "temporal_confirmed_rate": 0,
+      "event_state_known_rate": 0,
+      "unsupported_claims": 0,
+      "broken_provenance": 0
+    },
+    {
+      "source_id": "imp-consob",
+      "new_io_count": 0,
+      "specific_headline_rate": 0,
+      "entity_confirmed_rate": 0,
+      "entity_ambiguous_rate": 0,
+      "temporal_confirmed_rate": 0,
+      "event_state_known_rate": 0,
+      "unsupported_claims": 0,
+      "broken_provenance": 0
+    },
+    {
+      "source_id": "imp-jpx",
+      "new_io_count": 0,
+      "specific_headline_rate": 0,
+      "entity_confirmed_rate": 0,
+      "entity_ambiguous_rate": 0,
+      "temporal_confirmed_rate": 0,
+      "event_state_known_rate": 0,
+      "unsupported_claims": 0,
+      "broken_provenance": 0
+    },
+    {
+      "source_id": "imp-szse",
+      "new_io_count": 0,
+      "specific_headline_rate": 0,
+      "entity_confirmed_rate": 0,
+      "entity_ambiguous_rate": 0,
+      "temporal_confirmed_rate": 0,
+      "event_state_known_rate": 0,
+      "unsupported_claims": 0,
+      "broken_provenance": 0
+    },
+    {
+      "source_id": "imp-hm-treasury",
+      "new_io_count": 0,
+      "specific_headline_rate": 0,
+      "entity_confirmed_rate": 0,
+      "entity_ambiguous_rate": 0,
+      "temporal_confirmed_rate": 0,
+      "event_state_known_rate": 0,
+      "unsupported_claims": 0,
+      "broken_provenance": 0
+    },
+    {
+      "source_id": "imp-mof-japan",
+      "new_io_count": 0,
+      "specific_headline_rate": 0,
+      "entity_confirmed_rate": 0,
+      "entity_ambiguous_rate": 0,
+      "temporal_confirmed_rate": 0,
+      "event_state_known_rate": 0,
+      "unsupported_claims": 0,
+      "broken_provenance": 0
+    },
+    {
+      "source_id": "imp-wto",
+      "new_io_count": 0,
+      "specific_headline_rate": 0,
+      "entity_confirmed_rate": 0,
+      "entity_ambiguous_rate": 0,
+      "temporal_confirmed_rate": 0,
+      "event_state_known_rate": 0,
+      "unsupported_claims": 0,
+      "broken_provenance": 0
+    },
+    {
+      "source_id": "src-cvm-brazil",
+      "new_io_count": 0,
+      "specific_headline_rate": 0,
+      "entity_confirmed_rate": 0,
+      "entity_ambiguous_rate": 0,
+      "temporal_confirmed_rate": 0,
+      "event_state_known_rate": 0,
+      "unsupported_claims": 0,
+      "broken_provenance": 0
+    },
+    {
+      "source_id": "src-bmf-brazil",
+      "new_io_count": 0,
+      "specific_headline_rate": 0,
+      "entity_confirmed_rate": 0,
+      "entity_ambiguous_rate": 0,
+      "temporal_confirmed_rate": 0,
+      "event_state_known_rate": 0,
+      "unsupported_claims": 0,
+      "broken_provenance": 0
+    },
+    {
+      "source_id": "src-fsa-japan",
+      "new_io_count": 0,
+      "specific_headline_rate": 0,
+      "entity_confirmed_rate": 0,
+      "entity_ambiguous_rate": 0,
+      "temporal_confirmed_rate": 0,
+      "event_state_known_rate": 0,
+      "unsupported_claims": 0,
+      "broken_provenance": 0
+    },
+    {
+      "source_id": "src-mof-japan",
+      "new_io_count": 0,
+      "specific_headline_rate": 0,
+      "entity_confirmed_rate": 0,
+      "entity_ambiguous_rate": 0,
+      "temporal_confirmed_rate": 0,
+      "event_state_known_rate": 0,
+      "unsupported_claims": 0,
+      "broken_provenance": 0
+    },
+    {
+      "source_id": "src-bankitaly",
+      "new_io_count": 0,
+      "specific_headline_rate": 0,
+      "entity_confirmed_rate": 0,
+      "entity_ambiguous_rate": 0,
+      "temporal_confirmed_rate": 0,
+      "event_state_known_rate": 0,
+      "unsupported_claims": 0,
+      "broken_provenance": 0
+    },
+    {
+      "source_id": "src-bmfca-canada",
+      "new_io_count": 0,
+      "specific_headline_rate": 0,
+      "entity_confirmed_rate": 0,
+      "entity_ambiguous_rate": 0,
+      "temporal_confirmed_rate": 0,
+      "event_state_known_rate": 0,
+      "unsupported_claims": 0,
+      "broken_provenance": 0
+    },
+    {
+      "source_id": "src-cbi-iraq",
+      "new_io_count": 0,
+      "specific_headline_rate": 0,
+      "entity_confirmed_rate": 0,
+      "entity_ambiguous_rate": 0,
+      "temporal_confirmed_rate": 0,
+      "event_state_known_rate": 0,
+      "unsupported_claims": 0,
+      "broken_provenance": 0
+    },
+    {
+      "source_id": "src-mnb-hungary",
+      "new_io_count": 0,
+      "specific_headline_rate": 0,
+      "entity_confirmed_rate": 0,
+      "entity_ambiguous_rate": 0,
+      "temporal_confirmed_rate": 0,
+      "event_state_known_rate": 0,
+      "unsupported_claims": 0,
+      "broken_provenance": 0
+    },
+    {
+      "source_id": "src-nrb-nepal",
+      "new_io_count": 0,
+      "specific_headline_rate": 0,
+      "entity_confirmed_rate": 0,
+      "entity_ambiguous_rate": 0,
+      "temporal_confirmed_rate": 0,
+      "event_state_known_rate": 0,
+      "unsupported_claims": 0,
+      "broken_provenance": 0
+    },
+    {
+      "source_id": "src-bnm-malaysia",
+      "new_io_count": 0,
+      "specific_headline_rate": 0,
+      "entity_confirmed_rate": 0,
+      "entity_ambiguous_rate": 0,
+      "temporal_confirmed_rate": 0,
+      "event_state_known_rate": 0,
+      "unsupported_claims": 0,
+      "broken_provenance": 0
+    },
+    {
+      "source_id": "src-naic-us",
+      "new_io_count": 0,
+      "specific_headline_rate": 0,
+      "entity_confirmed_rate": 0,
+      "entity_ambiguous_rate": 0,
+      "temporal_confirmed_rate": 0,
+      "event_state_known_rate": 0,
+      "unsupported_claims": 0,
+      "broken_provenance": 0
+    },
+    {
+      "source_id": "src-ba-finland",
+      "new_io_count": 0,
+      "specific_headline_rate": 0,
+      "entity_confirmed_rate": 0,
+      "entity_ambiguous_rate": 0,
+      "temporal_confirmed_rate": 0,
+      "event_state_known_rate": 0,
+      "unsupported_claims": 0,
+      "broken_provenance": 0
+    },
+    {
+      "source_id": "src-ksh-hungary",
+      "new_io_count": 0,
+      "specific_headline_rate": 0,
+      "entity_confirmed_rate": 0,
+      "entity_ambiguous_rate": 0,
+      "temporal_confirmed_rate": 0,
+      "event_state_known_rate": 0,
+      "unsupported_claims": 0,
+      "broken_provenance": 0
+    },
+    {
+      "source_id": "src-ine-chile",
+      "new_io_count": 0,
+      "specific_headline_rate": 0,
+      "entity_confirmed_rate": 0,
+      "entity_ambiguous_rate": 0,
+      "temporal_confirmed_rate": 0,
+      "event_state_known_rate": 0,
+      "unsupported_claims": 0,
+      "broken_provenance": 0
+    },
+    {
+      "source_id": "src-fred-stl",
+      "new_io_count": 0,
+      "specific_headline_rate": 0,
+      "entity_confirmed_rate": 0,
+      "entity_ambiguous_rate": 0,
+      "temporal_confirmed_rate": 0,
+      "event_state_known_rate": 0,
+      "unsupported_claims": 0,
+      "broken_provenance": 0
+    },
+    {
+      "source_id": "src-fss-korea",
+      "new_io_count": 0,
+      "specific_headline_rate": 0,
+      "entity_confirmed_rate": 0,
+      "entity_ambiguous_rate": 0,
+      "temporal_confirmed_rate": 0,
+      "event_state_known_rate": 0,
+      "unsupported_claims": 0,
+      "broken_provenance": 0
+    },
+    {
+      "source_id": "src-cma-ksa",
+      "new_io_count": 0,
+      "specific_headline_rate": 0,
+      "entity_confirmed_rate": 0,
+      "entity_ambiguous_rate": 0,
+      "temporal_confirmed_rate": 0,
+      "event_state_known_rate": 0,
+      "unsupported_claims": 0,
+      "broken_provenance": 0
+    },
+    {
+      "source_id": "src-sbp-pakistan",
+      "new_io_count": 0,
+      "specific_headline_rate": 0,
+      "entity_confirmed_rate": 0,
+      "entity_ambiguous_rate": 0,
+      "temporal_confirmed_rate": 0,
+      "event_state_known_rate": 0,
+      "unsupported_claims": 0,
+      "broken_provenance": 0
+    },
+    {
+      "source_id": "src-entsog-eu",
+      "new_io_count": 0,
+      "specific_headline_rate": 0,
+      "entity_confirmed_rate": 0,
+      "entity_ambiguous_rate": 0,
+      "temporal_confirmed_rate": 0,
+      "event_state_known_rate": 0,
+      "unsupported_claims": 0,
+      "broken_provenance": 0
+    },
+    {
+      "source_id": "src-migme",
+      "new_io_count": 0,
+      "specific_headline_rate": 0,
+      "entity_confirmed_rate": 0,
+      "entity_ambiguous_rate": 0,
+      "temporal_confirmed_rate": 0,
+      "event_state_known_rate": 0,
+      "unsupported_claims": 0,
+      "broken_provenance": 0
+    },
+    {
+      "source_id": "src-imo-intl",
+      "new_io_count": 0,
+      "specific_headline_rate": 0,
+      "entity_confirmed_rate": 0,
+      "entity_ambiguous_rate": 0,
+      "temporal_confirmed_rate": 0,
+      "event_state_known_rate": 0,
+      "unsupported_claims": 0,
+      "broken_provenance": 0
+    },
+    {
+      "source_id": "src-icao-intl",
+      "new_io_count": 0,
+      "specific_headline_rate": 0,
+      "entity_confirmed_rate": 0,
+      "entity_ambiguous_rate": 0,
+      "temporal_confirmed_rate": 0,
+      "event_state_known_rate": 0,
+      "unsupported_claims": 0,
+      "broken_provenance": 0
+    },
+    {
+      "source_id": "src-adc-france",
+      "new_io_count": 0,
+      "specific_headline_rate": 0,
+      "entity_confirmed_rate": 0,
+      "entity_ambiguous_rate": 0,
+      "temporal_confirmed_rate": 0,
+      "event_state_known_rate": 0,
+      "unsupported_claims": 0,
+      "broken_provenance": 0
+    },
+    {
+      "source_id": "src-bundeskartellamt",
+      "new_io_count": 0,
+      "specific_headline_rate": 0,
+      "entity_confirmed_rate": 0,
+      "entity_ambiguous_rate": 0,
+      "temporal_confirmed_rate": 0,
+      "event_state_known_rate": 0,
+      "unsupported_claims": 0,
+      "broken_provenance": 0
+    },
+    {
+      "source_id": "src-bceddo",
+      "new_io_count": 0,
+      "specific_headline_rate": 0,
+      "entity_confirmed_rate": 0,
+      "entity_ambiguous_rate": 0,
+      "temporal_confirmed_rate": 0,
+      "event_state_known_rate": 0,
+      "unsupported_claims": 0,
+      "broken_provenance": 0
+    },
+    {
+      "source_id": "src-adia-uae",
+      "new_io_count": 0,
+      "specific_headline_rate": 0,
+      "entity_confirmed_rate": 0,
+      "entity_ambiguous_rate": 0,
+      "temporal_confirmed_rate": 0,
+      "event_state_known_rate": 0,
+      "unsupported_claims": 0,
+      "broken_provenance": 0
+    },
+    {
+      "source_id": "src-stat-denmark",
+      "new_io_count": 0,
+      "specific_headline_rate": 0,
+      "entity_confirmed_rate": 0,
+      "entity_ambiguous_rate": 0,
+      "temporal_confirmed_rate": 0,
+      "event_state_known_rate": 0,
+      "unsupported_claims": 0,
+      "broken_provenance": 0
+    },
+    {
+      "source_id": "src-stat-turkey",
+      "new_io_count": 0,
+      "specific_headline_rate": 0,
+      "entity_confirmed_rate": 0,
+      "entity_ambiguous_rate": 0,
+      "temporal_confirmed_rate": 0,
+      "event_state_known_rate": 0,
+      "unsupported_claims": 0,
+      "broken_provenance": 0
+    },
+    {
+      "source_id": "src-stat-latvia",
+      "new_io_count": 0,
+      "specific_headline_rate": 0,
+      "entity_confirmed_rate": 0,
+      "entity_ambiguous_rate": 0,
+      "temporal_confirmed_rate": 0,
+      "event_state_known_rate": 0,
+      "unsupported_claims": 0,
+      "broken_provenance": 0
+    },
+    {
+      "source_id": "src-bank-tanzania2",
+      "new_io_count": 0,
+      "specific_headline_rate": 0,
+      "entity_confirmed_rate": 0,
+      "entity_ambiguous_rate": 0,
+      "temporal_confirmed_rate": 0,
+      "event_state_known_rate": 0,
+      "unsupported_claims": 0,
+      "broken_provenance": 0
+    },
+    {
+      "source_id": "src-beac2",
+      "new_io_count": 0,
+      "specific_headline_rate": 0,
+      "entity_confirmed_rate": 0,
+      "entity_ambiguous_rate": 0,
+      "temporal_confirmed_rate": 0,
+      "event_state_known_rate": 0,
+      "unsupported_claims": 0,
+      "broken_provenance": 0
+    }
+  ],
+  "sample_40_results": {
+    "sample_size": 40,
+    "by_type": {
+      "monetary_policy_decision": 10,
+      "statistical_release": 10,
+      "regulatory_enforcement": 11,
+      "market_statistic_release": 8,
+      "earnings_release": 1
+    },
+    "unique_sources": 24,
+    "product_value_distribution": {
+      "MEDIUM_VALUE": 34,
+      "HIGH_VALUE": 1,
+      "LOW_VALUE": 5
+    },
+    "sample": [
+      {
+        "io_id": "io-cb08d31a4e009be2",
+        "event_type": "monetary_policy_decision",
+        "source_id": "imp-eurostat",
+        "source_name": "eurostat",
+        "document_id": "doc-632f5af27cb8e177",
+        "event_id": "evt-b78f568a86518363",
+        "headline": "eurostat sets policy rate at 0.3 — Q1 2026",
+        "primary_entity": "UNKNOWN",
+        "entity_status": "ENTITY_NOT_FOUND",
+        "entity_candidates": [],
+        "event_state": "INCREASED",
+        "event_date": "UNKNOWN",
+        "reference_period": "in May 2026",
+        "publication_date": "UNKNOWN",
+        "effective_date": "UNKNOWN",
+        "revision_date": "UNKNOWN",
+        "fact_count": 4,
+        "evidence_count": 4,
+        "readiness": "SEMANTICALLY_BLOCKED",
+        "product_value": "MEDIUM_VALUE",
+        "facts": [
+          {
+            "metric": "policy_rate",
+            "value": "0.3"
+          },
+          {
+            "metric": "policy_rate",
+            "value": "0.4"
+          },
+          {
+            "metric": "policy_rate",
+            "value": "0.1"
+          },
+          {
+            "metric": "policy_rate",
+            "value": "0.8"
+          }
+        ],
+        "evidence_excerpt": "m applications in May 2026 14 August 2026 &copy; maykal/stock.adobe.com EU economy greenhouse gas emissions: +0.3% in Q1 2026 14 August 2026 &copy; Mark A"
+      },
+      {
+        "io_id": "io-b37f6c9f4f5b4a8a",
+        "event_type": "monetary_policy_decision",
+        "source_id": "imp-eurostat",
+        "source_name": "eurostat",
+        "document_id": "doc-ab8dbef146c79b7d",
+        "event_id": "evt-128113b3673dae84",
+        "headline": "eurostat sets policy rate at 0.0 — Q1 2026",
+        "primary_entity": "UNKNOWN",
+        "entity_status": "ENTITY_NOT_FOUND",
+        "entity_candidates": [],
+        "event_state": "INCREASED",
+        "event_date": "UNKNOWN",
+        "reference_period": "in May 2026",
+        "publication_date": "UNKNOWN",
+        "effective_date": "UNKNOWN",
+        "revision_date": "UNKNOWN",
+        "fact_count": 9,
+        "evidence_count": 9,
+        "readiness": "SEMANTICALLY_BLOCKED",
+        "product_value": "MEDIUM_VALUE",
+        "facts": [
+          {
+            "metric": "policy_rate",
+            "value": "0.0"
+          },
+          {
+            "metric": "policy_rate",
+            "value": "0.0"
+          },
+          {
+            "metric": "policy_rate",
+            "value": "0.0"
+          },
+          {
+            "metric": "policy_rate",
+            "value": "0.0"
+          },
+          {
+            "metric": "policy_rate",
+            "value": "0.0"
+          }
+        ],
+        "evidence_excerpt": "Learn more about us EU key indicators Skip the carousel Loading Previous indicator \"> Next indicator 2022-11 0.0 % Inflation rate 2022-Q3 0.0 % GDP growth"
+      },
+      {
+        "io_id": "io-cba6421b7b401b5d",
+        "event_type": "monetary_policy_decision",
+        "source_id": "imp-euronext",
+        "source_name": "euronext",
+        "document_id": "doc-ce3737ae73faa68e",
+        "event_id": "evt-d6e70779dfea1a72",
+        "headline": "euronext sets policy rate at 232",
+        "primary_entity": "UNKNOWN",
+        "entity_status": "ENTITY_NOT_FOUND",
+        "entity_candidates": [],
+        "event_state": "UNKNOWN",
+        "event_date": "UNKNOWN",
+        "reference_period": "UNKNOWN",
+        "publication_date": "UNKNOWN",
+        "effective_date": "UNKNOWN",
+        "revision_date": "UNKNOWN",
+        "fact_count": 15,
+        "evidence_count": 15,
+        "readiness": "SEMANTICALLY_BLOCKED",
+        "product_value": "MEDIUM_VALUE",
+        "facts": [
+          {
+            "metric": "policy_rate",
+            "value": "232"
+          },
+          {
+            "metric": "policy_rate",
+            "value": "12.2021"
+          },
+          {
+            "metric": "policy_rate",
+            "value": "20"
+          },
+          {
+            "metric": "policy_rate",
+            "value": "29"
+          },
+          {
+            "metric": "policy_rate",
+            "value": "20"
+          }
+        ],
+        "evidence_excerpt": "DF Financial Statement as of 31 December 2021 English Version English 27/07/2022 /sites/default/files/2022-07/232%20-%20Cassa%20di%20Compensazione%20e%20G"
+      },
+      {
+        "io_id": "io-68aeb1a370c256a6",
+        "event_type": "monetary_policy_decision",
+        "source_id": "imp-federal-reserve",
+        "source_name": "federal-reserve",
+        "document_id": "doc-e290aabba3caad80",
+        "event_id": "evt-e2752a4f85fed5f7",
+        "headline": "federal-reserve sets policy rate at 4",
+        "primary_entity": "FED",
+        "entity_status": "ENTITY_CONFIRMED",
+        "entity_candidates": [
+          "FED"
+        ],
+        "event_state": "INCREASED",
+        "event_date": "UNKNOWN",
+        "reference_period": "UNKNOWN",
+        "publication_date": "UNKNOWN",
+        "effective_date": "UNKNOWN",
+        "revision_date": "UNKNOWN",
+        "fact_count": 5,
+        "evidence_count": 5,
+        "readiness": "SEMANTICALLY_PARTIAL",
+        "product_value": "MEDIUM_VALUE",
+        "facts": [
+          {
+            "metric": "policy_rate",
+            "value": "4"
+          },
+          {
+            "metric": "policy_rate",
+            "value": "2"
+          },
+          {
+            "metric": "policy_rate",
+            "value": "4"
+          },
+          {
+            "metric": "policy_rate",
+            "value": "4"
+          },
+          {
+            "metric": "policy_rate",
+            "value": "2"
+          }
+        ],
+        "evidence_excerpt": "y a 9 – 3 vote: The Committee decided to maintain the target range for the federal funds rate at 3-1/2 to 3-3/4 percent, in support of the Federal Reserve's du"
+      },
+      {
+        "io_id": "io-55da9e9be0359c67",
+        "event_type": "monetary_policy_decision",
+        "source_id": "imp-stats-china",
+        "source_name": "stats-china",
+        "document_id": "doc-6a5080876f147da8",
+        "event_id": "evt-3b3c170a98715e21",
+        "headline": "stats-china sets policy rate at 7",
+        "primary_entity": "UNKNOWN",
+        "entity_status": "ENTITY_NOT_FOUND",
+        "entity_candidates": [],
+        "event_state": "UNKNOWN",
+        "event_date": "UNKNOWN",
+        "reference_period": "UNKNOWN",
+        "publication_date": "UNKNOWN",
+        "effective_date": "UNKNOWN",
+        "revision_date": "UNKNOWN",
+        "fact_count": 4,
+        "evidence_count": 4,
+        "readiness": "SEMANTICALLY_BLOCKED",
+        "product_value": "MEDIUM_VALUE",
+        "facts": [
+          {
+            "metric": "policy_rate",
+            "value": "7"
+          },
+          {
+            "metric": "policy_rate",
+            "value": "5"
+          },
+          {
+            "metric": "policy_rate",
+            "value": "7"
+          },
+          {
+            "metric": "policy_rate",
+            "value": "52"
+          }
+        ],
+        "evidence_excerpt": "污染防治攻坚战。 &emsp;&emsp;紧盯大气污染治理，过去5年，黑龙江完成钢铁、水泥、焦化超低排放改造项目262项，实施散煤削减达687万吨；聚焦土壤风险防控，2025年，山东关闭搬迁企业地块土壤污染管控率达99.7%，实现受污染耕地安全利用率100%；围绕河海综合整治，福建建成7个国家美丽河湖、"
+      },
+      {
+        "io_id": "io-bea0b6a376d6f629",
+        "event_type": "monetary_policy_decision",
+        "source_id": "imp-deutsche-boerse",
+        "source_name": "deutsche-boerse",
+        "document_id": "doc-bd24a49fcae6e681",
+        "event_id": "evt-49c0d5e1423161f6",
+        "headline": "deutsche-boerse sets policy rate at 16",
+        "primary_entity": "UNKNOWN",
+        "entity_status": "ENTITY_NOT_FOUND",
+        "entity_candidates": [],
+        "event_state": "INCREASED",
+        "event_date": "UNKNOWN",
+        "reference_period": "in July 2026",
+        "publication_date": "UNKNOWN",
+        "effective_date": "UNKNOWN",
+        "revision_date": "UNKNOWN",
+        "fact_count": 35,
+        "evidence_count": 35,
+        "readiness": "SEMANTICALLY_BLOCKED",
+        "product_value": "MEDIUM_VALUE",
+        "facts": [
+          {
+            "metric": "policy_rate",
+            "value": "16"
+          },
+          {
+            "metric": "policy_rate",
+            "value": "20"
+          },
+          {
+            "metric": "policy_rate",
+            "value": "58"
+          },
+          {
+            "metric": "policy_rate",
+            "value": "63"
+          },
+          {
+            "metric": "policy_rate",
+            "value": "16"
+          }
+        ],
+        "evidence_excerpt": "Figures at Eurex Teilen Drucken Erschienen am: 06.08.2026 | Eurex Overall volumes in listed derivatives saw a 16 percent growth in July 2026. OTC Clearing recor"
+      },
+      {
+        "io_id": "io-4d94300b4070757f",
+        "event_type": "monetary_policy_decision",
+        "source_id": "imp-fsb",
+        "source_name": "fsb",
+        "document_id": "doc-109eefd982264392",
+        "event_id": "evt-b2bc31fe8f2fa355",
+        "headline": "fsb sets policy rate at 77 — 2026-07",
+        "primary_entity": "UNKNOWN",
+        "entity_status": "ENTITY_NOT_FOUND",
+        "entity_candidates": [],
+        "event_state": "UNKNOWN",
+        "event_date": "UNKNOWN",
+        "reference_period": "UNKNOWN",
+        "publication_date": "/2026/07/",
+        "effective_date": "UNKNOWN",
+        "revision_date": "UNKNOWN",
+        "fact_count": 2,
+        "evidence_count": 2,
+        "readiness": "SEMANTICALLY_BLOCKED",
+        "product_value": "MEDIUM_VALUE",
+        "facts": [
+          {
+            "metric": "policy_rate",
+            "value": "77"
+          },
+          {
+            "metric": "policy_rate",
+            "value": "53"
+          }
+        ],
+        "evidence_excerpt": "g ISO-harmonised message formats. Twenty plus years after the original version of the ISO standard, we are at 77% of fast payments systems and 53% of rea"
+      },
+      {
+        "io_id": "io-4534afa35d995d2a",
+        "event_type": "monetary_policy_decision",
+        "source_id": "imp-cftc",
+        "source_name": "cftc",
+        "document_id": "doc-09cefa8413a24efc",
+        "event_id": "evt-dba20a4d3e5cd5ce",
+        "headline": "cftc sets policy rate at 0.2",
+        "primary_entity": "UNKNOWN",
+        "entity_status": "ENTITY_NOT_FOUND",
+        "entity_candidates": [],
+        "event_state": "UNKNOWN",
+        "event_date": "UNKNOWN",
+        "reference_period": "UNKNOWN",
+        "publication_date": "UNKNOWN",
+        "effective_date": "UNKNOWN",
+        "revision_date": "UNKNOWN",
+        "fact_count": 1,
+        "evidence_count": 1,
+        "readiness": "SEMANTICALLY_BLOCKED",
+        "product_value": "MEDIUM_VALUE",
+        "facts": [
+          {
+            "metric": "policy_rate",
+            "value": "0.2"
+          }
+        ],
+        "evidence_excerpt": "technology. Under the law, a broad swath of crypto asset transfers by Illinois residents will be subject to a 0.2% tax based on the value of the crypto as"
+      },
+      {
+        "io_id": "io-58806f18833ff199",
+        "event_type": "monetary_policy_decision",
+        "source_id": "imp-euronext",
+        "source_name": "euronext",
+        "document_id": "doc-a88ba476727ac355",
+        "event_id": "evt-ec329369527f12a9",
+        "headline": "euronext sets policy rate at 29",
+        "primary_entity": "UNKNOWN",
+        "entity_status": "ENTITY_NOT_FOUND",
+        "entity_candidates": [],
+        "event_state": "ANNOUNCED",
+        "event_date": "UNKNOWN",
+        "reference_period": "UNKNOWN",
+        "publication_date": "UNKNOWN",
+        "effective_date": "UNKNOWN",
+        "revision_date": "UNKNOWN",
+        "fact_count": 1,
+        "evidence_count": 1,
+        "readiness": "SEMANTICALLY_BLOCKED",
+        "product_value": "MEDIUM_VALUE",
+        "facts": [
+          {
+            "metric": "policy_rate",
+            "value": "29"
+          }
+        ],
+        "evidence_excerpt": "al centre for debt and fund listings. With a diverse domestic and international client base, Euronext handles 29% of European lit equity trading. Its pro"
+      },
+      {
+        "io_id": "io-8df8d9c3d28dabb5",
+        "event_type": "monetary_policy_decision",
+        "source_id": "imp-fca",
+        "source_name": "fca",
+        "document_id": "doc-4948ce14a03b3c19",
+        "event_id": "evt-0e0949c4d8959238",
+        "headline": "fca sets policy rate at 36",
+        "primary_entity": "UNKNOWN",
+        "entity_status": "ENTITY_NOT_FOUND",
+        "entity_candidates": [],
+        "event_state": "UNKNOWN",
+        "event_date": "UNKNOWN",
+        "reference_period": "UNKNOWN",
+        "publication_date": "UNKNOWN",
+        "effective_date": "UNKNOWN",
+        "revision_date": "UNKNOWN",
+        "fact_count": 1,
+        "evidence_count": 1,
+        "readiness": "SEMANTICALLY_BLOCKED",
+        "product_value": "MEDIUM_VALUE",
+        "facts": [
+          {
+            "metric": "policy_rate",
+            "value": "36"
+          }
+        ],
+        "evidence_excerpt": "the motor finance compensation scheme; you can complain for free yourself. A CMC or law firm may charge up to 36% in fees, including VAT, out of any comp"
+      },
+      {
+        "io_id": "io-74b51eefd13974d9",
+        "event_type": "statistical_release",
+        "source_id": "imp-bank-of-england",
+        "source_name": "bank-of-england",
+        "document_id": "doc-5ecb669f6f2ea51a",
+        "event_id": "evt-87861d99c381f871",
+        "headline": "bank-of-england reports percentage statistic of 2",
+        "primary_entity": "UNKNOWN",
+        "entity_status": "ENTITY_NOT_FOUND",
+        "entity_candidates": [],
+        "event_state": "UNKNOWN",
+        "event_date": "UNKNOWN",
+        "reference_period": "UNKNOWN",
+        "publication_date": "UNKNOWN",
+        "effective_date": "UNKNOWN",
+        "revision_date": "UNKNOWN",
+        "fact_count": 2,
+        "evidence_count": 2,
+        "readiness": "SEMANTICALLY_BLOCKED",
+        "product_value": "MEDIUM_VALUE",
+        "facts": [
+          {
+            "metric": "percentage_statistic",
+            "value": "2"
+          },
+          {
+            "metric": "percentage_statistic",
+            "value": "2"
+          }
+        ],
+        "evidence_excerpt": "om LIBOR to risk-free rates Monetary policy Open Monetary policy sub menu Back to main menu Inflation and the 2% target Quantitative easing Interest rat"
+      },
+      {
+        "io_id": "io-bd378fea8d59bb17",
+        "event_type": "statistical_release",
+        "source_id": "imp-bank-of-england",
+        "source_name": "bank-of-england",
+        "document_id": "doc-b1ffbaa20d211ae5",
+        "event_id": "evt-34c636fc1e82ba18",
+        "headline": "bank-of-england reports percentage statistic of 2",
+        "primary_entity": "UNKNOWN",
+        "entity_status": "ENTITY_NOT_FOUND",
+        "entity_candidates": [],
+        "event_state": "UNKNOWN",
+        "event_date": "UNKNOWN",
+        "reference_period": "UNKNOWN",
+        "publication_date": "UNKNOWN",
+        "effective_date": "UNKNOWN",
+        "revision_date": "UNKNOWN",
+        "fact_count": 2,
+        "evidence_count": 2,
+        "readiness": "SEMANTICALLY_BLOCKED",
+        "product_value": "MEDIUM_VALUE",
+        "facts": [
+          {
+            "metric": "percentage_statistic",
+            "value": "2"
+          },
+          {
+            "metric": "percentage_statistic",
+            "value": "2"
+          }
+        ],
+        "evidence_excerpt": "om LIBOR to risk-free rates Monetary policy Open Monetary policy sub menu Back to main menu Inflation and the 2% target Quantitative easing Interest rat"
+      },
+      {
+        "io_id": "io-c6c8ac878a439394",
+        "event_type": "statistical_release",
+        "source_id": "imp-ecb",
+        "source_name": "ecb",
+        "document_id": "doc-4af635458992ee5b",
+        "event_id": "evt-869bfead15b94ad9",
+        "headline": "ecb reports percentage statistic of 72",
+        "primary_entity": "UNKNOWN",
+        "entity_status": "ENTITY_NOT_FOUND",
+        "entity_candidates": [],
+        "event_state": "UNKNOWN",
+        "event_date": "UNKNOWN",
+        "reference_period": "UNKNOWN",
+        "publication_date": "UNKNOWN",
+        "effective_date": "UNKNOWN",
+        "revision_date": "UNKNOWN",
+        "fact_count": 2,
+        "evidence_count": 2,
+        "readiness": "SEMANTICALLY_BLOCKED",
+        "product_value": "MEDIUM_VALUE",
+        "facts": [
+          {
+            "metric": "percentage_statistic",
+            "value": "72"
+          },
+          {
+            "metric": "percentage_statistic",
+            "value": "72"
+          }
+        ],
+        "evidence_excerpt": "nducted between 14 and 29 October 2025 with responses from 184 banks, accounting altogether for approximately 72% of total banking assets and central ban"
+      },
+      {
+        "io_id": "io-43450fbfbd3f5f48",
+        "event_type": "statistical_release",
+        "source_id": "imp-ecb",
+        "source_name": "ecb",
+        "document_id": "doc-44ed79d6f03cb173",
+        "event_id": "evt-bf9b7a39c384f6cc",
+        "headline": "ecb reports percentage statistic of 5 — 2026",
+        "primary_entity": "UNKNOWN",
+        "entity_status": "ENTITY_NOT_FOUND",
+        "entity_candidates": [],
+        "event_state": "UNKNOWN",
+        "event_date": "UNKNOWN",
+        "reference_period": "UNKNOWN",
+        "publication_date": "/date/2026/",
+        "effective_date": "UNKNOWN",
+        "revision_date": "UNKNOWN",
+        "fact_count": 2,
+        "evidence_count": 2,
+        "readiness": "SEMANTICALLY_BLOCKED",
+        "product_value": "MEDIUM_VALUE",
+        "facts": [
+          {
+            "metric": "percentage_statistic",
+            "value": "5"
+          },
+          {
+            "metric": "percentage_statistic",
+            "value": "5"
+          }
+        ],
+        "evidence_excerpt": "e maximum additional reduction in the final collateral value, including both bonds and credit claims, will be 5%. Climate factors for individual credit"
+      },
+      {
+        "io_id": "io-09189d018d2081b4",
+        "event_type": "statistical_release",
+        "source_id": "imp-bea",
+        "source_name": "bea",
+        "document_id": "doc-82692a9e064369f7",
+        "event_id": "evt-8de41c76fc6788d7",
+        "headline": "bea reports percentage statistic of 0.7",
+        "primary_entity": "BEA",
+        "entity_status": "ENTITY_CONFIRMED",
+        "entity_candidates": [
+          "BEA"
+        ],
+        "event_state": "INCREASED",
+        "event_date": "UNKNOWN",
+        "reference_period": "UNKNOWN",
+        "publication_date": "UNKNOWN",
+        "effective_date": "UNKNOWN",
+        "revision_date": "UNKNOWN",
+        "fact_count": 28,
+        "evidence_count": 28,
+        "readiness": "SEMANTICALLY_PARTIAL",
+        "product_value": "MEDIUM_VALUE",
+        "facts": [
+          {
+            "metric": "percentage_statistic",
+            "value": "0.7"
+          },
+          {
+            "metric": "percentage_statistic",
+            "value": "0.7"
+          },
+          {
+            "metric": "percentage_statistic",
+            "value": "0.7"
+          },
+          {
+            "metric": "percentage_statistic",
+            "value": "3.0"
+          },
+          {
+            "metric": "percentage_statistic",
+            "value": "0.3"
+          }
+        ],
+        "evidence_excerpt": "sday, June 25, 2026 BEA 26—31 Personal Income and Outlays, May 2026 Personal income increased $181.6 billion (0.7 percent at a monthly rate) in May, according to"
+      },
+      {
+        "io_id": "io-8fa184904578eae6",
+        "event_type": "statistical_release",
+        "source_id": "imp-bea",
+        "source_name": "bea",
+        "document_id": "doc-92887d820fbe2c03",
+        "event_id": "evt-197421062ebdb0c7",
+        "headline": "bea reports percentage statistic of 2.6 — first 2026",
+        "primary_entity": "BEA",
+        "entity_status": "ENTITY_CONFIRMED",
+        "entity_candidates": [
+          "BEA"
+        ],
+        "event_state": "REVISED",
+        "event_date": "on June 30, 2026",
+        "reference_period": "first quarter of 2026",
+        "publication_date": "UNKNOWN",
+        "effective_date": "UNKNOWN",
+        "revision_date": "UNKNOWN",
+        "fact_count": 32,
+        "evidence_count": 32,
+        "readiness": "SEMANTICALLY_READY",
+        "product_value": "HIGH_VALUE",
+        "facts": [
+          {
+            "metric": "percentage_statistic",
+            "value": "2.6"
+          },
+          {
+            "metric": "percentage_statistic",
+            "value": "2.9"
+          },
+          {
+            "metric": "percentage_statistic",
+            "value": "2.8"
+          },
+          {
+            "metric": "usd_amount",
+            "value": "209.0"
+          },
+          {
+            "metric": "usd_amount",
+            "value": "5.8"
+          }
+        ],
+        "evidence_excerpt": "e U.S. current-account deficit resulting from international economic transactions widened by $5.8 billion, or 2.6 percent, to $226.8 billion in the first quarter"
+      },
+      {
+        "io_id": "io-83882f5770e16ee7",
+        "event_type": "statistical_release",
+        "source_id": "src-boc",
+        "source_name": "boc",
+        "document_id": "doc-665661ff2ef19418",
+        "event_id": "evt-5de1c298a0dce958",
+        "headline": "boc reports percentage statistic of 2 — 2026-09",
+        "primary_entity": "UNKNOWN",
+        "entity_status": "ENTITY_NOT_FOUND",
+        "entity_candidates": [],
+        "event_state": "UNKNOWN",
+        "event_date": "UNKNOWN",
+        "reference_period": "UNKNOWN",
+        "publication_date": "/2026/09/",
+        "effective_date": "UNKNOWN",
+        "revision_date": "UNKNOWN",
+        "fact_count": 2,
+        "evidence_count": 2,
+        "readiness": "SEMANTICALLY_BLOCKED",
+        "product_value": "MEDIUM_VALUE",
+        "facts": [
+          {
+            "metric": "percentage_statistic",
+            "value": "2"
+          },
+          {
+            "metric": "percentage_statistic",
+            "value": "2"
+          }
+        ],
+        "evidence_excerpt": "is showing signs of improvement. Growth is expected to pick up, and inflation is projected to ease to around 2%. Uncertainty remains elevated. Financia"
+      },
+      {
+        "io_id": "io-a428c87c59e4a3d3",
+        "event_type": "statistical_release",
+        "source_id": "src-boc",
+        "source_name": "boc",
+        "document_id": "doc-facd5855e96959fd",
+        "event_id": "evt-35867a19e104f26a",
+        "headline": "boc reports percentage statistic of 2",
+        "primary_entity": "UNKNOWN",
+        "entity_status": "ENTITY_NOT_FOUND",
+        "entity_candidates": [],
+        "event_state": "UNKNOWN",
+        "event_date": "UNKNOWN",
+        "reference_period": "UNKNOWN",
+        "publication_date": "UNKNOWN",
+        "effective_date": "UNKNOWN",
+        "revision_date": "UNKNOWN",
+        "fact_count": 2,
+        "evidence_count": 2,
+        "readiness": "SEMANTICALLY_BLOCKED",
+        "product_value": "MEDIUM_VALUE",
+        "facts": [
+          {
+            "metric": "percentage_statistic",
+            "value": "2"
+          },
+          {
+            "metric": "percentage_statistic",
+            "value": "2"
+          }
+        ],
+        "evidence_excerpt": "is showing signs of improvement. Growth is expected to pick up, and inflation is projected to ease to around 2%. Uncertainty remains elevated. Financia"
+      },
+      {
+        "io_id": "io-dde88ab55ac15e15",
+        "event_type": "statistical_release",
+        "source_id": "src-beis-uk",
+        "source_name": "beis-uk",
+        "document_id": "doc-3c0d92388853463a",
+        "event_id": "evt-e19bc1b841c0c16c",
+        "headline": "beis-uk reports percentage statistic of 60 — 2025",
+        "primary_entity": "UNKNOWN",
+        "entity_status": "ENTITY_NOT_FOUND",
+        "entity_candidates": [],
+        "event_state": "NEW",
+        "event_date": "UNKNOWN",
+        "reference_period": "in 2025",
+        "publication_date": "UNKNOWN",
+        "effective_date": "UNKNOWN",
+        "revision_date": "UNKNOWN",
+        "fact_count": 3,
+        "evidence_count": 3,
+        "readiness": "SEMANTICALLY_BLOCKED",
+        "product_value": "MEDIUM_VALUE",
+        "facts": [
+          {
+            "metric": "percentage_statistic",
+            "value": "60"
+          },
+          {
+            "metric": "employment_level",
+            "value": "55,000"
+          },
+          {
+            "metric": "percentage_statistic",
+            "value": "60"
+          }
+        ],
+        "evidence_excerpt": "s grown by 1,100 employees over the last two years from 1,800 employees to 2,900 employees – a growth of over 60%. SP Energy Networks created more than 4"
+      },
+      {
+        "io_id": "io-6fef2e40160506bb",
+        "event_type": "statistical_release",
+        "source_id": "src-eurostat-emp",
+        "source_name": "eurostat-emp",
+        "document_id": "doc-e47c99946bb874e8",
+        "event_id": "evt-e25a78c0c0baae76",
+        "headline": "eurostat-emp reports percentage statistic of 48 — 2024",
+        "primary_entity": "UNKNOWN",
+        "entity_status": "ENTITY_NOT_FOUND",
+        "entity_candidates": [],
+        "event_state": "INCREASED",
+        "event_date": "UNKNOWN",
+        "reference_period": "in 2024",
+        "publication_date": "UNKNOWN",
+        "effective_date": "UNKNOWN",
+        "revision_date": "UNKNOWN",
+        "fact_count": 416,
+        "evidence_count": 416,
+        "readiness": "SEMANTICALLY_BLOCKED",
+        "product_value": "MEDIUM_VALUE",
+        "facts": [
+          {
+            "metric": "percentage_statistic",
+            "value": "48"
+          },
+          {
+            "metric": "percentage_statistic",
+            "value": "43"
+          },
+          {
+            "metric": "percentage_statistic",
+            "value": "57"
+          },
+          {
+            "metric": "percentage_statistic",
+            "value": "38"
+          },
+          {
+            "metric": "percentage_statistic",
+            "value": "21"
+          }
+        ],
+        "evidence_excerpt": "ergy imported. energy-2026-ch-energy-sources &copy; Kampan/stock.adobe.com Largest share in energy production 48% of energy produced in the EU in 2024 ca"
+      },
+      {
+        "io_id": "io-ee8a8257ce0e86ba",
+        "event_type": "regulatory_enforcement",
+        "source_id": "imp-cftc",
+        "source_name": "cftc",
+        "document_id": "doc-c35a0a455e177d33",
+        "event_id": "evt-f2cbaa6efe808ee6",
+        "headline": "cftc enforcement: penalty amount 400",
+        "primary_entity": "CFTC",
+        "entity_status": "ENTITY_CONFIRMED",
+        "entity_candidates": [
+          "CFTC"
+        ],
+        "event_state": "ENFORCED",
+        "event_date": "UNKNOWN",
+        "reference_period": "UNKNOWN",
+        "publication_date": "UNKNOWN",
+        "effective_date": "UNKNOWN",
+        "revision_date": "UNKNOWN",
+        "fact_count": 4,
+        "evidence_count": 4,
+        "readiness": "SEMANTICALLY_PARTIAL",
+        "product_value": "MEDIUM_VALUE",
+        "facts": [
+          {
+            "metric": "penalty_amount",
+            "value": "400"
+          },
+          {
+            "metric": "penalty_amount",
+            "value": "8"
+          },
+          {
+            "metric": "penalty_amount",
+            "value": "35,000"
+          },
+          {
+            "metric": "penalty_amount",
+            "value": "2.5"
+          }
+        ],
+        "evidence_excerpt": "ncy Authority to Ensure Market Stability , 9281-26 08/11/2026 CFTC Charges Goliath Ventures Inc. and CEO with $400 Million Fraud Scheme , 9280-26 08/10/202"
+      },
+      {
+        "io_id": "io-b6abac1393987508",
+        "event_type": "regulatory_enforcement",
+        "source_id": "imp-esma",
+        "source_name": "esma",
+        "document_id": "doc-4af3271a80d211ac",
+        "event_id": "evt-5f0ccd4de71d7be7",
+        "headline": "esma enforcement: action type settlement",
+        "primary_entity": "UNKNOWN",
+        "entity_status": "ENTITY_NOT_FOUND",
+        "entity_candidates": [],
+        "event_state": "ENFORCED",
+        "event_date": "UNKNOWN",
+        "reference_period": "UNKNOWN",
+        "publication_date": "UNKNOWN",
+        "effective_date": "UNKNOWN",
+        "revision_date": "UNKNOWN",
+        "fact_count": 1,
+        "evidence_count": 1,
+        "readiness": "SEMANTICALLY_BLOCKED",
+        "product_value": "LOW_VALUE",
+        "facts": [
+          {
+            "metric": "action_type",
+            "value": "settlement"
+          }
+        ],
+        "evidence_excerpt": "nterparties Data Reporting Services Providers Trading Consolidated Tape Providers Post-trading Shortening the settlement cycle to T+1 in the EU Market Integrity"
+      },
+      {
+        "io_id": "io-5150003cff76e0ab",
+        "event_type": "regulatory_enforcement",
+        "source_id": "imp-esma",
+        "source_name": "esma",
+        "document_id": "doc-5a0d604dbdfb38d7",
+        "event_id": "evt-19751269acf83bc6",
+        "headline": "esma enforcement: action type settlement",
+        "primary_entity": "UNKNOWN",
+        "entity_status": "ENTITY_NOT_FOUND",
+        "entity_candidates": [],
+        "event_state": "ENFORCED",
+        "event_date": "UNKNOWN",
+        "reference_period": "UNKNOWN",
+        "publication_date": "UNKNOWN",
+        "effective_date": "UNKNOWN",
+        "revision_date": "UNKNOWN",
+        "fact_count": 1,
+        "evidence_count": 1,
+        "readiness": "SEMANTICALLY_BLOCKED",
+        "product_value": "LOW_VALUE",
+        "facts": [
+          {
+            "metric": "action_type",
+            "value": "settlement"
+          }
+        ],
+        "evidence_excerpt": "nterparties Data Reporting Services Providers Trading Consolidated Tape Providers Post-trading Shortening the settlement cycle to T+1 in the EU Market Integrity"
+      },
+      {
+        "io_id": "io-936e16f976e71fe5",
+        "event_type": "regulatory_enforcement",
+        "source_id": "imp-fca",
+        "source_name": "fca",
+        "document_id": "doc-ef790d13880c21e9",
+        "event_id": "evt-9de3f74dcb65cdd9",
+        "headline": "fca enforcement: action type settlement — 2027",
+        "primary_entity": "UNKNOWN",
+        "entity_status": "ENTITY_NOT_FOUND",
+        "entity_candidates": [],
+        "event_state": "INCREASED",
+        "event_date": "on 11 October 2027",
+        "reference_period": "for 2027",
+        "publication_date": "UNKNOWN",
+        "effective_date": "UNKNOWN",
+        "revision_date": "UNKNOWN",
+        "fact_count": 26,
+        "evidence_count": 26,
+        "readiness": "SEMANTICALLY_BLOCKED",
+        "product_value": "MEDIUM_VALUE",
+        "facts": [
+          {
+            "metric": "action_type",
+            "value": "settlement"
+          },
+          {
+            "metric": "action_type",
+            "value": "settlement"
+          },
+          {
+            "metric": "action_type",
+            "value": "settlement"
+          },
+          {
+            "metric": "action_type",
+            "value": "settlement"
+          },
+          {
+            "metric": "action_type",
+            "value": "settlement"
+          }
+        ],
+        "evidence_excerpt": "y for 2027? Jamie Bell Infrastructure and exchanges – capital markets Halfway through the countdown to faster settlement for securities trades, Jamie Bell refle"
+      },
+      {
+        "io_id": "io-510e7472d7e96491",
+        "event_type": "regulatory_enforcement",
+        "source_id": "imp-sec",
+        "source_name": "sec",
+        "document_id": "doc-31270f0e83371c52",
+        "event_id": "evt-8cf01070fc070477",
+        "headline": "sec enforcement: action type charged",
+        "primary_entity": "SEC",
+        "entity_status": "ENTITY_CONFIRMED",
+        "entity_candidates": [
+          "SEC"
+        ],
+        "event_state": "ENFORCED",
+        "event_date": "UNKNOWN",
+        "reference_period": "UNKNOWN",
+        "publication_date": "UNKNOWN",
+        "effective_date": "UNKNOWN",
+        "revision_date": "UNKNOWN",
+        "fact_count": 1,
+        "evidence_count": 1,
+        "readiness": "SEMANTICALLY_PARTIAL",
+        "product_value": "MEDIUM_VALUE",
+        "facts": [
+          {
+            "metric": "action_type",
+            "value": "charged"
+          }
+        ],
+        "evidence_excerpt": "Cap Companies and the Public Markets The SEC’s Office of the Advocate for Small Business Capital Formation is charged by Congress with hosting the SEC’s annu"
+      },
+      {
+        "io_id": "io-ba0ad37c35390b92",
+        "event_type": "regulatory_enforcement",
+        "source_id": "imp-sec",
+        "source_name": "sec",
+        "document_id": "doc-3b44691a77e503af",
+        "event_id": "evt-66636d93edc78456",
+        "headline": "sec enforcement: penalty amount 22 — Q1 2026",
+        "primary_entity": "UNKNOWN",
+        "entity_status": "ENTITY_NOT_FOUND",
+        "entity_candidates": [],
+        "event_state": "INCREASED",
+        "event_date": "UNKNOWN",
+        "reference_period": "Q1 2026",
+        "publication_date": "UNKNOWN",
+        "effective_date": "UNKNOWN",
+        "revision_date": "UNKNOWN",
+        "fact_count": 4,
+        "evidence_count": 4,
+        "readiness": "SEMANTICALLY_BLOCKED",
+        "product_value": "MEDIUM_VALUE",
+        "facts": [
+          {
+            "metric": "penalty_amount",
+            "value": "22"
+          },
+          {
+            "metric": "penalty_amount",
+            "value": "11.8"
+          },
+          {
+            "metric": "penalty_amount",
+            "value": "44.2"
+          },
+          {
+            "metric": "penalty_amount",
+            "value": "40.4"
+          }
+        ],
+        "evidence_excerpt": "er of 2026, IPO and follow-on offering activity showed year-over-year growth: There were 99 IPOs raising over $22 billion in Q1 2026, compared to 84 IPOs raising"
+      },
+      {
+        "io_id": "io-671c2a5acb09c992",
+        "event_type": "regulatory_enforcement",
+        "source_id": "imp-hm-feed",
+        "source_name": "hm-feed",
+        "document_id": "doc-2fe9f160745fc016",
+        "event_id": "evt-7fc391d28f6ffe18",
+        "headline": "hm-feed enforcement: action type injunction",
+        "primary_entity": "UNKNOWN",
+        "entity_status": "ENTITY_NOT_FOUND",
+        "entity_candidates": [],
+        "event_state": "ENFORCED",
+        "event_date": "UNKNOWN",
+        "reference_period": "UNKNOWN",
+        "publication_date": "UNKNOWN",
+        "effective_date": "UNKNOWN",
+        "revision_date": "UNKNOWN",
+        "fact_count": 1,
+        "evidence_count": 1,
+        "readiness": "SEMANTICALLY_BLOCKED",
+        "product_value": "LOW_VALUE",
+        "facts": [
+          {
+            "metric": "action_type",
+            "value": "injunction"
+          }
+        ],
+        "evidence_excerpt": "omptroller and Auditor General (C&AG) as part of the process for determining whether to seek or renew a super-injunction. Both the PAC and the C&AG expect the C"
+      },
+      {
+        "io_id": "io-60073bc6edae9ac2",
+        "event_type": "regulatory_enforcement",
+        "source_id": "src-sfc-hk",
+        "source_name": "sfc-hk",
+        "document_id": "doc-6fb08653ad6bb749",
+        "event_id": "evt-d6e15c78e61f183b",
+        "headline": "sfc-hk enforcement: penalty amount 0.55",
+        "primary_entity": "UNKNOWN",
+        "entity_status": "ENTITY_NOT_FOUND",
+        "entity_candidates": [],
+        "event_state": "ENFORCED",
+        "event_date": "UNKNOWN",
+        "reference_period": "UNKNOWN",
+        "publication_date": "UNKNOWN",
+        "effective_date": "UNKNOWN",
+        "revision_date": "UNKNOWN",
+        "fact_count": 18,
+        "evidence_count": 18,
+        "readiness": "SEMANTICALLY_BLOCKED",
+        "product_value": "MEDIUM_VALUE",
+        "facts": [
+          {
+            "metric": "action_type",
+            "value": "settlement"
+          },
+          {
+            "metric": "penalty_amount",
+            "value": "0.55"
+          },
+          {
+            "metric": "penalty_amount",
+            "value": "0.55"
+          },
+          {
+            "metric": "penalty_amount",
+            "value": "0.55"
+          },
+          {
+            "metric": "penalty_amount",
+            "value": "0.05"
+          }
+        ],
+        "evidence_excerpt": "Update on the Buy-out offer 6 Aug 2025 Shandong Fengxiang Co., Ltd Announcement &ndash; Update on progress in settlement with domestic shareholders 1 Aug 2025 S"
+      },
+      {
+        "io_id": "io-99461a1d9eed54a8",
+        "event_type": "regulatory_enforcement",
+        "source_id": "src-cma-energy",
+        "source_name": "cma-energy",
+        "document_id": "doc-133d169acb7ba864",
+        "event_id": "evt-9577ce5428357f15",
+        "headline": "cma-energy enforcement: action type charged",
+        "primary_entity": "UNKNOWN",
+        "entity_status": "ENTITY_NOT_FOUND",
+        "entity_candidates": [],
+        "event_state": "ENFORCED",
+        "event_date": "UNKNOWN",
+        "reference_period": "UNKNOWN",
+        "publication_date": "UNKNOWN",
+        "effective_date": "UNKNOWN",
+        "revision_date": "UNKNOWN",
+        "fact_count": 3,
+        "evidence_count": 3,
+        "readiness": "SEMANTICALLY_BLOCKED",
+        "product_value": "LOW_VALUE",
+        "facts": [
+          {
+            "metric": "action_type",
+            "value": "charged"
+          },
+          {
+            "metric": "action_type",
+            "value": "fine"
+          },
+          {
+            "metric": "action_type",
+            "value": "fine"
+          }
+        ],
+        "evidence_excerpt": "5 subscription options and paid more as a result. Updated: 29 July 2026 Court upholds CMA findings that firms charged excessive and unfair prices for lifesav"
+      },
+      {
+        "io_id": "io-b3e12fc705d151a8",
+        "event_type": "regulatory_enforcement",
+        "source_id": "src-ustr",
+        "source_name": "ustr",
+        "document_id": "doc-31bb507a086c9bc3",
+        "event_id": "evt-738fc38b1838ffce",
+        "headline": "ustr enforcement: penalty amount 26.7",
+        "primary_entity": "UNKNOWN",
+        "entity_status": "ENTITY_NOT_FOUND",
+        "entity_candidates": [],
+        "event_state": "ENFORCED",
+        "event_date": "2024-09-30",
+        "reference_period": "UNKNOWN",
+        "publication_date": "UNKNOWN",
+        "effective_date": "UNKNOWN",
+        "revision_date": "UNKNOWN",
+        "fact_count": 1,
+        "evidence_count": 1,
+        "readiness": "SEMANTICALLY_BLOCKED",
+        "product_value": "MEDIUM_VALUE",
+        "facts": [
+          {
+            "metric": "penalty_amount",
+            "value": "26.7"
+          }
+        ],
+        "evidence_excerpt": "Tai on a Biden-Harris Trade Policy That Empowers Workers 2024-09-30 Biden-Harris Administration Delivers Over $26.7 Billion In Market Access for U.S. Agricu"
+      },
+      {
+        "io_id": "io-005045dcc6e7f54f",
+        "event_type": "market_statistic_release",
+        "source_id": "imp-federal-reserve",
+        "source_name": "federal-reserve",
+        "document_id": "doc-c86a43cb997c9911",
+        "event_id": "evt-887e0a15b8bad785",
+        "headline": "federal-reserve market usd amount 3",
+        "primary_entity": "UNKNOWN",
+        "entity_status": "ENTITY_NOT_FOUND",
+        "entity_candidates": [],
+        "event_state": "UNKNOWN",
+        "event_date": "UNKNOWN",
+        "reference_period": "UNKNOWN",
+        "publication_date": "UNKNOWN",
+        "effective_date": "UNKNOWN",
+        "revision_date": "UNKNOWN",
+        "fact_count": 1,
+        "evidence_count": 1,
+        "readiness": "SEMANTICALLY_BLOCKED",
+        "product_value": "MEDIUM_VALUE",
+        "facts": [
+          {
+            "metric": "usd_amount",
+            "value": "3"
+          }
+        ],
+        "evidence_excerpt": "These institutions are owned by depositors rather than shareholders, and more than 90 percent have less than $3 billion in total assets. The Board assumed regu"
+      },
+      {
+        "io_id": "io-73d389d84d737535",
+        "event_type": "market_statistic_release",
+        "source_id": "imp-cftc",
+        "source_name": "cftc",
+        "document_id": "doc-a6331135eddf955b",
+        "event_id": "evt-7bc9db139957dd97",
+        "headline": "cftc market usd amount 36",
+        "primary_entity": "UNKNOWN",
+        "entity_status": "ENTITY_NOT_FOUND",
+        "entity_candidates": [],
+        "event_state": "UNKNOWN",
+        "event_date": "UNKNOWN",
+        "reference_period": "UNKNOWN",
+        "publication_date": "UNKNOWN",
+        "effective_date": "UNKNOWN",
+        "revision_date": "UNKNOWN",
+        "fact_count": 1,
+        "evidence_count": 1,
+        "readiness": "SEMANTICALLY_BLOCKED",
+        "product_value": "MEDIUM_VALUE",
+        "facts": [
+          {
+            "metric": "usd_amount",
+            "value": "36"
+          }
+        ],
+        "evidence_excerpt": "porary restraining order prohibiting KalshiEX, LLC from offering all event contracts nationwide and more than $36 billion in damages. The CEA requires the Commis"
+      },
+      {
+        "io_id": "io-e634047f1888f551",
+        "event_type": "market_statistic_release",
+        "source_id": "imp-cftc",
+        "source_name": "cftc",
+        "document_id": "doc-00c1c3e3f6e4d5ec",
+        "event_id": "evt-476c6919fc066fe2",
+        "headline": "cftc market usd amount 397",
+        "primary_entity": "UNKNOWN",
+        "entity_status": "ENTITY_NOT_FOUND",
+        "entity_candidates": [],
+        "event_state": "UNKNOWN",
+        "event_date": "UNKNOWN",
+        "reference_period": "UNKNOWN",
+        "publication_date": "UNKNOWN",
+        "effective_date": "UNKNOWN",
+        "revision_date": "UNKNOWN",
+        "fact_count": 1,
+        "evidence_count": 1,
+        "readiness": "SEMANTICALLY_BLOCKED",
+        "product_value": "MEDIUM_VALUE",
+        "facts": [
+          {
+            "metric": "usd_amount",
+            "value": "397"
+          }
+        ],
+        "evidence_excerpt": "count statements reflecting nonexistent profits. In total, approximately 1,600 customers contributed at least $397 million to the defendants’ fraud. “We will cont"
+      },
+      {
+        "io_id": "io-d06c7cf2f00b4891",
+        "event_type": "market_statistic_release",
+        "source_id": "src-frb-ny",
+        "source_name": "frb-ny",
+        "document_id": "doc-70202e3d29043898",
+        "event_id": "evt-6f37bf0ac9deb283",
+        "headline": "frb-ny market usd amount 1.3",
+        "primary_entity": "UNKNOWN",
+        "entity_status": "ENTITY_NOT_FOUND",
+        "entity_candidates": [],
+        "event_state": "UNKNOWN",
+        "event_date": "UNKNOWN",
+        "reference_period": "UNKNOWN",
+        "publication_date": "UNKNOWN",
+        "effective_date": "UNKNOWN",
+        "revision_date": "UNKNOWN",
+        "fact_count": 3,
+        "evidence_count": 3,
+        "readiness": "SEMANTICALLY_BLOCKED",
+        "product_value": "MEDIUM_VALUE",
+        "facts": [
+          {
+            "metric": "usd_amount",
+            "value": "1.3"
+          },
+          {
+            "metric": "usd_amount",
+            "value": "100"
+          },
+          {
+            "metric": "usd_amount",
+            "value": "100"
+          }
+        ],
+        "evidence_excerpt": "ding market. After rapid growth in recent years , the U.S. direct lending market is estimated to be more than $1.3 trillion USD, comparable in size to both the hig"
+      },
+      {
+        "io_id": "io-a1868489de0e9e2e",
+        "event_type": "market_statistic_release",
+        "source_id": "src-frb-ny",
+        "source_name": "frb-ny",
+        "document_id": "doc-506b4d61a12136d0",
+        "event_id": "evt-06132f42df5e37e7",
+        "headline": "frb-ny market usd amount 232 — Q2 2023",
+        "primary_entity": "UNKNOWN",
+        "entity_status": "ENTITY_NOT_FOUND",
+        "entity_candidates": [],
+        "event_state": "INCREASED",
+        "event_date": "UNKNOWN",
+        "reference_period": "Q2 2023",
+        "publication_date": "UNKNOWN",
+        "effective_date": "UNKNOWN",
+        "revision_date": "UNKNOWN",
+        "fact_count": 5,
+        "evidence_count": 5,
+        "readiness": "SEMANTICALLY_BLOCKED",
+        "product_value": "MEDIUM_VALUE",
+        "facts": [
+          {
+            "metric": "usd_amount",
+            "value": "232"
+          },
+          {
+            "metric": "usd_amount",
+            "value": "17.05"
+          },
+          {
+            "metric": "usd_amount",
+            "value": "16.90"
+          },
+          {
+            "metric": "usd_amount",
+            "value": "16.51"
+          },
+          {
+            "metric": "usd_amount",
+            "value": "16"
+          }
+        ],
+        "evidence_excerpt": "iosity and Learning Nov 21, 2023 New York Fed Community Development Team Releases Brief Finding Americans Had $232 billion in Unsecured Personal Loans in Q2 2023"
+      },
+      {
+        "io_id": "io-655c974c29eeb347",
+        "event_type": "market_statistic_release",
+        "source_id": "src-nrcan",
+        "source_name": "nrcan",
+        "document_id": "doc-650ddeb707b46fd6",
+        "event_id": "evt-b64dae55b406c527",
+        "headline": "nrcan market usd amount 32",
+        "primary_entity": "UNKNOWN",
+        "entity_status": "ENTITY_NOT_FOUND",
+        "entity_candidates": [],
+        "event_state": "INCREASED",
+        "event_date": "UNKNOWN",
+        "reference_period": "UNKNOWN",
+        "publication_date": "UNKNOWN",
+        "effective_date": "UNKNOWN",
+        "revision_date": "UNKNOWN",
+        "fact_count": 3,
+        "evidence_count": 3,
+        "readiness": "SEMANTICALLY_BLOCKED",
+        "product_value": "MEDIUM_VALUE",
+        "facts": [
+          {
+            "metric": "usd_amount",
+            "value": "32"
+          },
+          {
+            "metric": "usd_amount",
+            "value": "7"
+          },
+          {
+            "metric": "usd_amount",
+            "value": "2.5"
+          }
+        ],
+        "evidence_excerpt": "the Iowa State Fair and meet with government officials and agriculture leaders. Government of Canada invests $32 million in Eastern Canada ferry infrastructure"
+      },
+      {
+        "io_id": "io-1ac47bbc74796a1a",
+        "event_type": "market_statistic_release",
+        "source_id": "src-nrcan",
+        "source_name": "nrcan",
+        "document_id": "doc-f73606abfe8df3aa",
+        "event_id": "evt-a2fd2377b7c772dd",
+        "headline": "nrcan market usd amount 10",
+        "primary_entity": "UNKNOWN",
+        "entity_status": "ENTITY_NOT_FOUND",
+        "entity_candidates": [],
+        "event_state": "ANNOUNCED",
+        "event_date": "UNKNOWN",
+        "reference_period": "UNKNOWN",
+        "publication_date": "UNKNOWN",
+        "effective_date": "UNKNOWN",
+        "revision_date": "UNKNOWN",
+        "fact_count": 3,
+        "evidence_count": 3,
+        "readiness": "SEMANTICALLY_BLOCKED",
+        "product_value": "MEDIUM_VALUE",
+        "facts": [
+          {
+            "metric": "usd_amount",
+            "value": "10"
+          },
+          {
+            "metric": "usd_amount",
+            "value": "1.2"
+          },
+          {
+            "metric": "usd_amount",
+            "value": "7"
+          }
+        ],
+        "evidence_excerpt": "akeham, and the CEOs of Hydro-Québec and Newfoundland and Labrador Hydro, announced a package including up to $10 billion in federal financial support and invest"
+      },
+      {
+        "io_id": "io-de9433a949874f8c",
+        "event_type": "market_statistic_release",
+        "source_id": "src-cbbh-bosnia",
+        "source_name": "cbbh-bosnia",
+        "document_id": "doc-2c2530ed112844db",
+        "event_id": "evt-e7d6e91d7cd04ed1",
+        "headline": "cbbh-bosnia market usd amount 10.6",
+        "primary_entity": "CB",
+        "entity_status": "ENTITY_CONFIRMED",
+        "entity_candidates": [
+          "CB"
+        ],
+        "event_state": "UNKNOWN",
+        "event_date": "UNKNOWN",
+        "reference_period": "UNKNOWN",
+        "publication_date": "UNKNOWN",
+        "effective_date": "UNKNOWN",
+        "revision_date": "UNKNOWN",
+        "fact_count": 1,
+        "evidence_count": 1,
+        "readiness": "SEMANTICALLY_PARTIAL",
+        "product_value": "MEDIUM_VALUE",
+        "facts": [
+          {
+            "metric": "usd_amount",
+            "value": "10.6"
+          }
+        ],
+        "evidence_excerpt": "they are sufficiently large? At the end of May, CBBH’s FX reserves were at a level of around 18.3 billion KM ($10.6 billion). While the absolute level of FX reserv"
+      },
+      {
+        "io_id": "io-b4e154d9a1504355",
+        "event_type": "earnings_release",
+        "source_id": "src-mof-philippines",
+        "source_name": "mof-philippines",
+        "document_id": "doc-5687e9f619db1850",
+        "event_id": "evt-b5c2c0aa20a18ff8",
+        "headline": "mof-philippines earnings revenue 205",
+        "primary_entity": "UNKNOWN",
+        "entity_status": "ENTITY_NOT_FOUND",
+        "entity_candidates": [],
+        "event_state": "UNKNOWN",
+        "event_date": "UNKNOWN",
+        "reference_period": "UNKNOWN",
+        "publication_date": "UNKNOWN",
+        "effective_date": "UNKNOWN",
+        "revision_date": "UNKNOWN",
+        "fact_count": 2,
+        "evidence_count": 2,
+        "readiness": "SEMANTICALLY_BLOCKED",
+        "product_value": "LOW_VALUE",
+        "facts": [
+          {
+            "metric": "revenue",
+            "value": "205"
+          },
+          {
+            "metric": "revenue",
+            "value": "205"
+          }
+        ],
+        "evidence_excerpt": "nts Off on DOF welcomes EO that will boost local EV manufacturing July 31, 2026 News DOF leads turnover of PhP205 million in revenues from successful sale of forfeited luxu"
+      },
+      {
+        "io_id": "io-0a2164dff20884fa",
+        "event_type": "regulatory_enforcement",
+        "source_id": "imp-ecb",
+        "source_name": "ecb",
+        "document_id": "doc-737e4fff6a05c09d",
+        "event_id": "evt-5c8786e99b5f6d7c",
+        "headline": "ecb enforcement: action type settlement — 2026",
+        "primary_entity": "UNKNOWN",
+        "entity_status": "ENTITY_NOT_FOUND",
+        "entity_candidates": [],
+        "event_state": "ENFORCED",
+        "event_date": "UNKNOWN",
+        "reference_period": "UNKNOWN",
+        "publication_date": "/date/2026/",
+        "effective_date": "UNKNOWN",
+        "revision_date": "UNKNOWN",
+        "fact_count": 1,
+        "evidence_count": 1,
+        "readiness": "SEMANTICALLY_BLOCKED",
+        "product_value": "MEDIUM_VALUE",
+        "facts": [
+          {
+            "metric": "action_type",
+            "value": "settlement"
+          }
+        ],
+        "evidence_excerpt": "ER-EU Euro Cyber Resilience Board Oversight Payment systems TARGET2-Securities Electronic payments Securities settlement systems and central counterparties Crit"
+      }
+    ]
+  },
+  "test_results": {
+    "modules": {
+      "48 baseline": {
+        "module": "intelligence_core.tests.run_all",
+        "passed": true
+      },
+      "37 V37.2": {
+        "module": "intelligence_core.tests.reliability.v37_2_structural_evidence_test",
+        "passed": true
+      },
+      "30 collision": {
+        "module": "intelligence_core.tests.reliability.v37_2_collision_fix_tests",
+        "passed": true
+      },
+      "9 sub-collision": {
+        "module": "intelligence_core.tests.reliability.v37_2_sub_collision_tests",
+        "passed": true
+      },
+      "22 purpose": {
+        "module": "intelligence_core.tests.reliability.recovery_segment_purpose_tests",
+        "passed": true
+      }
+    },
+    "passed_modules": 5,
+    "total_modules": 5,
+    "test_count": 146,
+    "all_tests_pass": true
+  },
+  "acceptance_gates": {
+    "g1_event_reconciliation_45": true,
+    "g2_every_non_emitting_has_reason": true,
+    "g3_unsupported_entity_claims_zero": true,
+    "g4_unsupported_temporal_claims_zero": true,
+    "g5_unsupported_event_state_claims_zero": true,
+    "g6_provenance_100": true,
+    "g7_navigation_leakage_zero": true,
+    "g8_malformed_evidence_zero": true,
+    "g9_unresolved_collisions_zero": true,
+    "g10_146_recovery_tests_pass": true,
+    "g11_124_v37_2_tests_pass": true,
+    "g12_yield_measured_per_doc_and_source": true,
+    "g13_source_productivity_distribution": true,
+    "g14_40_io_sample_completed": true,
+    "g15_no_source_expansion": true,
+    "g16_no_product_integration": true,
+    "g17_no_llm": true,
+    "all_pass": true
+  },
+  "verdict": "V45 INTELLIGENCE YIELD & SEMANTIC READINESS PASSED"
+}

@@ -1,0 +1,3817 @@
+{
+  "phase": "V48AH TARGETED ROOT-CAUSE FALSIFICATION EXPERIMENT",
+  "executed_at_utc": "2026-08-21T03:46:32Z",
+  "freeze": {
+    "base_commit": "0c80e8c",
+    "v21_file_sha256": "80d857159c6ab4167e20a28a27fae67e60a2f6de7d2677d398c556716891110b",
+    "production_files_sha256_prefix": {
+      "intelligence_core/subject_entity.py": "3d19dbad167a360b",
+      "intelligence_core/contracts.py": "cbc48c0efae58753",
+      "intelligence_core/evidence_context.py": "e0c477ef1ff4d162",
+      "intelligence_core/publisher_institution.py": "b7e2010870d7420d",
+      "intelligence_core/structural_parser.py": "ff92d8090a516413",
+      "intelligence_core/segment_purpose.py": "2618475e306f91e7",
+      "intelligence_core/tests/reliability/v48ad_hardened_evaluator.py": "90050b1771e72a3a",
+      "intelligence_core/tests/reliability/v48af_v21_evaluator.py": "80d857159c6ab416",
+      "intelligence_core/tests/reliability/v48ag_independent_preregistered_sample.json": "bbc1ac6ccea1c3e7"
+    },
+    "v48ag_prereg_sha256": "bbc1ac6ccea1c3e769642511329124b3b43833f02000ad98e4e49088cc697c8b",
+    "v48ag_prereg_locked": true
+  },
+  "hypotheses": {
+    "H1": {
+      "description": "role=MODIFIER + effective_event=WEAK + head_noun ∈ ADMINISTRATIVE_HEAD_NOUNS → AMBIGUOUS (instead of CONTEXT_ONLY)",
+      "verdict": "FALSIFIED",
+      "explained_case_ids": [
+        76,
+        78,
+        82,
+        83,
+        87,
+        89,
+        92,
+        93,
+        94,
+        96,
+        98,
+        99,
+        100,
+        101,
+        102,
+        103,
+        108,
+        115
+      ],
+      "not_explained_case_ids": [
+        3,
+        31,
+        86,
+        91,
+        106,
+        112
+      ],
+      "counterexamples": [
+        {
+          "case_id": 117,
+          "category": "negative",
+          "candidate": "Penalty",
+          "text": "Penalty guidelines were issued for industry consultation by the regulator.",
+          "human_label": "CONTEXT",
+          "v21_judgment": "",
+          "h1_judgment": "AMBIGUOUS"
+        },
+        {
+          "case_id": 119,
+          "category": "negative",
+          "candidate": "Policy Rate",
+          "text": "Policy rate corridor was maintained at its existing operational width.",
+          "human_label": "CONTEXT",
+          "v21_judgment": "",
+          "h1_judgment": "AMBIGUOUS"
+        },
+        {
+          "case_id": 121,
+          "category": "negative",
+          "candidate": "Gross Domestic Product",
+          "text": "GDP deflator series was revised in the latest national accounts release.",
+          "human_label": "CONTEXT",
+          "v21_judgment": "",
+          "h1_judgment": "AMBIGUOUS"
+        },
+        {
+          "case_id": 122,
+          "category": "negative",
+          "candidate": "Consumer Price Index",
+          "text": "CPI basket composition was updated for the new index series.",
+          "human_label": "CONTEXT",
+          "v21_judgment": "",
+          "h1_judgment": "AMBIGUOUS"
+        },
+        {
+          "case_id": 126,
+          "category": "negative",
+          "candidate": "Inflation",
+          "text": "Inflation targeting framework was reaffirmed in the central bank's policy statem",
+          "human_label": "CONTEXT",
+          "v21_judgment": "",
+          "h1_judgment": "AMBIGUOUS"
+        },
+        {
+          "case_id": 130,
+          "category": "negative",
+          "candidate": "Foreign Exchange",
+          "text": "Foreign exchange reserves position was described as adequate by the central bank",
+          "human_label": "CONTEXT",
+          "v21_judgment": "",
+          "h1_judgment": "AMBIGUOUS"
+        },
+        {
+          "case_id": 131,
+          "category": "negative",
+          "candidate": "Penalty",
+          "text": "Penalty framework review was the subject of committee deliberation last quarter.",
+          "human_label": "CONTEXT",
+          "v21_judgment": "",
+          "h1_judgment": "AMBIGUOUS"
+        },
+        {
+          "case_id": 138,
+          "category": "negative",
+          "candidate": "Penalty",
+          "text": "Penalty appeal process was detailed in the regulatory enforcement manual.",
+          "human_label": "CONTEXT",
+          "v21_judgment": "",
+          "h1_judgment": "AMBIGUOUS"
+        },
+        {
+          "case_id": 140,
+          "category": "negative",
+          "candidate": "Inflation",
+          "text": "Inflation data collection was refined per the new statistical methodology.",
+          "human_label": "CONTEXT",
+          "v21_judgment": "",
+          "h1_judgment": "AMBIGUOUS"
+        },
+        {
+          "case_id": 147,
+          "category": "negative",
+          "candidate": "Inflation",
+          "text": "Inflation expectations indicator was added to the central bank's monitoring dash",
+          "human_label": "CONTEXT",
+          "v21_judgment": "",
+          "h1_judgment": "AMBIGUOUS"
+        },
+        {
+          "case_id": 149,
+          "category": "negative",
+          "candidate": "Unemployment",
+          "text": "Unemployment statistics methodology was aligned with the ILO international stand",
+          "human_label": "CONTEXT",
+          "v21_judgment": "",
+          "h1_judgment": "AMBIGUOUS"
+        }
+      ],
+      "false_promotions": [
+        107
+      ],
+      "false_rejections": [
+        3,
+        12,
+        21,
+        31,
+        34,
+        38
+      ],
+      "discriminative": false,
+      "v48ae_agreement": "54/75 (delta: -16)",
+      "v48ab_agreement": "144/150 (delta: +31)"
+    },
+    "H2": {
+      "description": "Pattern-based Policy Rate candidate injection (held at / reduce by basis points to) — NO registry aliases",
+      "verdict": "PARTIALLY_EXPLANATORY",
+      "explained_case_ids": [
+        3,
+        31
+      ],
+      "not_explained_case_ids": [
+        76,
+        78,
+        82,
+        83,
+        86,
+        87,
+        89,
+        91,
+        92,
+        93,
+        94,
+        96,
+        98,
+        99,
+        100,
+        101,
+        102,
+        103,
+        106,
+        108,
+        112,
+        115
+      ],
+      "counterexamples": [],
+      "false_promotions": [
+        107
+      ],
+      "false_rejections": [
+        12,
+        34
+      ],
+      "v48ae_agreement": "70/75 (delta: +0)",
+      "v48ab_agreement": "113/150 (delta: +0)"
+    },
+    "H1+H2": {
+      "description": "Both hypotheses together",
+      "verdict": "FALSIFIED",
+      "explained_case_ids": [
+        3,
+        31,
+        76,
+        78,
+        82,
+        83,
+        87,
+        89,
+        92,
+        93,
+        94,
+        96,
+        98,
+        99,
+        100,
+        101,
+        102,
+        103,
+        108,
+        115
+      ],
+      "not_explained_case_ids": [
+        86,
+        91,
+        106,
+        112
+      ],
+      "counterexamples": [
+        {
+          "case_id": 117,
+          "category": "negative",
+          "candidate": "Penalty",
+          "text": "Penalty guidelines were issued for industry consultation by the regulator.",
+          "human_label": "CONTEXT",
+          "v21_judgment": "",
+          "h1h2_judgment": "AMBIGUOUS"
+        },
+        {
+          "case_id": 119,
+          "category": "negative",
+          "candidate": "Policy Rate",
+          "text": "Policy rate corridor was maintained at its existing operational width.",
+          "human_label": "CONTEXT",
+          "v21_judgment": "",
+          "h1h2_judgment": "AMBIGUOUS"
+        },
+        {
+          "case_id": 121,
+          "category": "negative",
+          "candidate": "Gross Domestic Product",
+          "text": "GDP deflator series was revised in the latest national accounts release.",
+          "human_label": "CONTEXT",
+          "v21_judgment": "",
+          "h1h2_judgment": "AMBIGUOUS"
+        },
+        {
+          "case_id": 122,
+          "category": "negative",
+          "candidate": "Consumer Price Index",
+          "text": "CPI basket composition was updated for the new index series.",
+          "human_label": "CONTEXT",
+          "v21_judgment": "",
+          "h1h2_judgment": "AMBIGUOUS"
+        },
+        {
+          "case_id": 126,
+          "category": "negative",
+          "candidate": "Inflation",
+          "text": "Inflation targeting framework was reaffirmed in the central bank's policy statem",
+          "human_label": "CONTEXT",
+          "v21_judgment": "",
+          "h1h2_judgment": "AMBIGUOUS"
+        },
+        {
+          "case_id": 130,
+          "category": "negative",
+          "candidate": "Foreign Exchange",
+          "text": "Foreign exchange reserves position was described as adequate by the central bank",
+          "human_label": "CONTEXT",
+          "v21_judgment": "",
+          "h1h2_judgment": "AMBIGUOUS"
+        },
+        {
+          "case_id": 131,
+          "category": "negative",
+          "candidate": "Penalty",
+          "text": "Penalty framework review was the subject of committee deliberation last quarter.",
+          "human_label": "CONTEXT",
+          "v21_judgment": "",
+          "h1h2_judgment": "AMBIGUOUS"
+        },
+        {
+          "case_id": 138,
+          "category": "negative",
+          "candidate": "Penalty",
+          "text": "Penalty appeal process was detailed in the regulatory enforcement manual.",
+          "human_label": "CONTEXT",
+          "v21_judgment": "",
+          "h1h2_judgment": "AMBIGUOUS"
+        },
+        {
+          "case_id": 140,
+          "category": "negative",
+          "candidate": "Inflation",
+          "text": "Inflation data collection was refined per the new statistical methodology.",
+          "human_label": "CONTEXT",
+          "v21_judgment": "",
+          "h1h2_judgment": "AMBIGUOUS"
+        },
+        {
+          "case_id": 147,
+          "category": "negative",
+          "candidate": "Inflation",
+          "text": "Inflation expectations indicator was added to the central bank's monitoring dash",
+          "human_label": "CONTEXT",
+          "v21_judgment": "",
+          "h1h2_judgment": "AMBIGUOUS"
+        },
+        {
+          "case_id": 149,
+          "category": "negative",
+          "candidate": "Unemployment",
+          "text": "Unemployment statistics methodology was aligned with the ILO international stand",
+          "human_label": "CONTEXT",
+          "v21_judgment": "",
+          "h1h2_judgment": "AMBIGUOUS"
+        }
+      ],
+      "false_promotions": [
+        107
+      ],
+      "false_rejections": [
+        12,
+        34
+      ],
+      "v48ae_agreement": "54/75 (delta: -16)",
+      "v48ab_agreement": "144/150 (delta: +31)"
+    }
+  },
+  "v48ag_diagnostic": {
+    "h1_per_case": [
+      {
+        "case_id": 1,
+        "human": "TRUE_SUBJECT",
+        "v21": "",
+        "h1": "TRUE_SUBJECT",
+        "matches": true,
+        "h1_override": ""
+      },
+      {
+        "case_id": 2,
+        "human": "TRUE_SUBJECT",
+        "v21": "",
+        "h1": "TRUE_SUBJECT",
+        "matches": true,
+        "h1_override": ""
+      },
+      {
+        "case_id": 3,
+        "human": "TRUE_SUBJECT",
+        "v21": "",
+        "h1": "AMBIGUOUS",
+        "matches": false,
+        "h1_override": ""
+      },
+      {
+        "case_id": 4,
+        "human": "TRUE_SUBJECT",
+        "v21": "",
+        "h1": "TRUE_SUBJECT",
+        "matches": true,
+        "h1_override": ""
+      },
+      {
+        "case_id": 5,
+        "human": "TRUE_SUBJECT",
+        "v21": "",
+        "h1": "TRUE_SUBJECT",
+        "matches": true,
+        "h1_override": ""
+      },
+      {
+        "case_id": 6,
+        "human": "TRUE_SUBJECT",
+        "v21": "",
+        "h1": "TRUE_SUBJECT",
+        "matches": true,
+        "h1_override": ""
+      },
+      {
+        "case_id": 7,
+        "human": "TRUE_SUBJECT",
+        "v21": "",
+        "h1": "TRUE_SUBJECT",
+        "matches": true,
+        "h1_override": ""
+      },
+      {
+        "case_id": 8,
+        "human": "TRUE_SUBJECT",
+        "v21": "",
+        "h1": "TRUE_SUBJECT",
+        "matches": true,
+        "h1_override": ""
+      },
+      {
+        "case_id": 9,
+        "human": "TRUE_SUBJECT",
+        "v21": "",
+        "h1": "TRUE_SUBJECT",
+        "matches": true,
+        "h1_override": ""
+      },
+      {
+        "case_id": 10,
+        "human": "TRUE_SUBJECT",
+        "v21": "",
+        "h1": "TRUE_SUBJECT",
+        "matches": true,
+        "h1_override": ""
+      },
+      {
+        "case_id": 11,
+        "human": "TRUE_SUBJECT",
+        "v21": "",
+        "h1": "TRUE_SUBJECT",
+        "matches": true,
+        "h1_override": ""
+      },
+      {
+        "case_id": 12,
+        "human": "TRUE_SUBJECT",
+        "v21": "",
+        "h1": "NO_CANDIDATE",
+        "matches": false,
+        "h1_override": ""
+      },
+      {
+        "case_id": 13,
+        "human": "TRUE_SUBJECT",
+        "v21": "",
+        "h1": "TRUE_SUBJECT",
+        "matches": true,
+        "h1_override": ""
+      },
+      {
+        "case_id": 14,
+        "human": "TRUE_SUBJECT",
+        "v21": "",
+        "h1": "TRUE_SUBJECT",
+        "matches": true,
+        "h1_override": ""
+      },
+      {
+        "case_id": 15,
+        "human": "TRUE_SUBJECT",
+        "v21": "",
+        "h1": "TRUE_SUBJECT",
+        "matches": true,
+        "h1_override": ""
+      },
+      {
+        "case_id": 16,
+        "human": "TRUE_SUBJECT",
+        "v21": "",
+        "h1": "TRUE_SUBJECT",
+        "matches": true,
+        "h1_override": ""
+      },
+      {
+        "case_id": 17,
+        "human": "TRUE_SUBJECT",
+        "v21": "",
+        "h1": "TRUE_SUBJECT",
+        "matches": true,
+        "h1_override": ""
+      },
+      {
+        "case_id": 18,
+        "human": "TRUE_SUBJECT",
+        "v21": "",
+        "h1": "TRUE_SUBJECT",
+        "matches": true,
+        "h1_override": ""
+      },
+      {
+        "case_id": 19,
+        "human": "TRUE_SUBJECT",
+        "v21": "",
+        "h1": "TRUE_SUBJECT",
+        "matches": true,
+        "h1_override": ""
+      },
+      {
+        "case_id": 20,
+        "human": "TRUE_SUBJECT",
+        "v21": "",
+        "h1": "TRUE_SUBJECT",
+        "matches": true,
+        "h1_override": ""
+      },
+      {
+        "case_id": 21,
+        "human": "TRUE_SUBJECT",
+        "v21": "",
+        "h1": "NO_CANDIDATE",
+        "matches": false,
+        "h1_override": ""
+      },
+      {
+        "case_id": 22,
+        "human": "TRUE_SUBJECT",
+        "v21": "",
+        "h1": "TRUE_SUBJECT",
+        "matches": true,
+        "h1_override": ""
+      },
+      {
+        "case_id": 23,
+        "human": "TRUE_SUBJECT",
+        "v21": "",
+        "h1": "TRUE_SUBJECT",
+        "matches": true,
+        "h1_override": ""
+      },
+      {
+        "case_id": 24,
+        "human": "TRUE_SUBJECT",
+        "v21": "",
+        "h1": "TRUE_SUBJECT",
+        "matches": true,
+        "h1_override": ""
+      },
+      {
+        "case_id": 25,
+        "human": "TRUE_SUBJECT",
+        "v21": "",
+        "h1": "TRUE_SUBJECT",
+        "matches": true,
+        "h1_override": ""
+      },
+      {
+        "case_id": 26,
+        "human": "TRUE_SUBJECT",
+        "v21": "",
+        "h1": "TRUE_SUBJECT",
+        "matches": true,
+        "h1_override": ""
+      },
+      {
+        "case_id": 27,
+        "human": "TRUE_SUBJECT",
+        "v21": "",
+        "h1": "TRUE_SUBJECT",
+        "matches": true,
+        "h1_override": ""
+      },
+      {
+        "case_id": 28,
+        "human": "TRUE_SUBJECT",
+        "v21": "",
+        "h1": "TRUE_SUBJECT",
+        "matches": true,
+        "h1_override": ""
+      },
+      {
+        "case_id": 29,
+        "human": "TRUE_SUBJECT",
+        "v21": "",
+        "h1": "TRUE_SUBJECT",
+        "matches": true,
+        "h1_override": ""
+      },
+      {
+        "case_id": 30,
+        "human": "TRUE_SUBJECT",
+        "v21": "",
+        "h1": "TRUE_SUBJECT",
+        "matches": true,
+        "h1_override": ""
+      },
+      {
+        "case_id": 31,
+        "human": "TRUE_SUBJECT",
+        "v21": "",
+        "h1": "AMBIGUOUS",
+        "matches": false,
+        "h1_override": ""
+      },
+      {
+        "case_id": 32,
+        "human": "TRUE_SUBJECT",
+        "v21": "",
+        "h1": "TRUE_SUBJECT",
+        "matches": true,
+        "h1_override": ""
+      },
+      {
+        "case_id": 33,
+        "human": "TRUE_SUBJECT",
+        "v21": "",
+        "h1": "TRUE_SUBJECT",
+        "matches": true,
+        "h1_override": ""
+      },
+      {
+        "case_id": 34,
+        "human": "TRUE_SUBJECT",
+        "v21": "",
+        "h1": "NO_CANDIDATE",
+        "matches": false,
+        "h1_override": ""
+      },
+      {
+        "case_id": 35,
+        "human": "TRUE_SUBJECT",
+        "v21": "",
+        "h1": "TRUE_SUBJECT",
+        "matches": true,
+        "h1_override": ""
+      },
+      {
+        "case_id": 36,
+        "human": "TRUE_SUBJECT",
+        "v21": "",
+        "h1": "TRUE_SUBJECT",
+        "matches": true,
+        "h1_override": ""
+      },
+      {
+        "case_id": 37,
+        "human": "TRUE_SUBJECT",
+        "v21": "",
+        "h1": "TRUE_SUBJECT",
+        "matches": true,
+        "h1_override": ""
+      },
+      {
+        "case_id": 38,
+        "human": "TRUE_SUBJECT",
+        "v21": "",
+        "h1": "NO_CANDIDATE",
+        "matches": false,
+        "h1_override": ""
+      },
+      {
+        "case_id": 39,
+        "human": "TRUE_SUBJECT",
+        "v21": "",
+        "h1": "TRUE_SUBJECT",
+        "matches": true,
+        "h1_override": ""
+      },
+      {
+        "case_id": 40,
+        "human": "TRUE_SUBJECT",
+        "v21": "",
+        "h1": "TRUE_SUBJECT",
+        "matches": true,
+        "h1_override": ""
+      },
+      {
+        "case_id": 41,
+        "human": "FALSE_BINDING",
+        "v21": "",
+        "h1": "FALSE_BINDING",
+        "matches": true,
+        "h1_override": ""
+      },
+      {
+        "case_id": 42,
+        "human": "FALSE_BINDING",
+        "v21": "",
+        "h1": "FALSE_BINDING",
+        "matches": true,
+        "h1_override": ""
+      },
+      {
+        "case_id": 43,
+        "human": "FALSE_BINDING",
+        "v21": "",
+        "h1": "FALSE_BINDING",
+        "matches": true,
+        "h1_override": ""
+      },
+      {
+        "case_id": 44,
+        "human": "FALSE_BINDING",
+        "v21": "",
+        "h1": "AMBIGUOUS",
+        "matches": false,
+        "h1_override": ""
+      },
+      {
+        "case_id": 45,
+        "human": "FALSE_BINDING",
+        "v21": "",
+        "h1": "FALSE_BINDING",
+        "matches": true,
+        "h1_override": ""
+      },
+      {
+        "case_id": 46,
+        "human": "FALSE_BINDING",
+        "v21": "",
+        "h1": "FALSE_BINDING",
+        "matches": true,
+        "h1_override": ""
+      },
+      {
+        "case_id": 47,
+        "human": "FALSE_BINDING",
+        "v21": "",
+        "h1": "FALSE_BINDING",
+        "matches": true,
+        "h1_override": ""
+      },
+      {
+        "case_id": 48,
+        "human": "FALSE_BINDING",
+        "v21": "",
+        "h1": "FALSE_BINDING",
+        "matches": true,
+        "h1_override": ""
+      },
+      {
+        "case_id": 49,
+        "human": "FALSE_BINDING",
+        "v21": "",
+        "h1": "FALSE_BINDING",
+        "matches": true,
+        "h1_override": ""
+      },
+      {
+        "case_id": 50,
+        "human": "FALSE_BINDING",
+        "v21": "",
+        "h1": "FALSE_BINDING",
+        "matches": true,
+        "h1_override": ""
+      },
+      {
+        "case_id": 51,
+        "human": "FALSE_BINDING",
+        "v21": "",
+        "h1": "FALSE_BINDING",
+        "matches": true,
+        "h1_override": ""
+      },
+      {
+        "case_id": 52,
+        "human": "FALSE_BINDING",
+        "v21": "",
+        "h1": "FALSE_BINDING",
+        "matches": true,
+        "h1_override": ""
+      },
+      {
+        "case_id": 53,
+        "human": "FALSE_BINDING",
+        "v21": "",
+        "h1": "FALSE_BINDING",
+        "matches": true,
+        "h1_override": ""
+      },
+      {
+        "case_id": 54,
+        "human": "FALSE_BINDING",
+        "v21": "",
+        "h1": "FALSE_BINDING",
+        "matches": true,
+        "h1_override": ""
+      },
+      {
+        "case_id": 55,
+        "human": "FALSE_BINDING",
+        "v21": "",
+        "h1": "FALSE_BINDING",
+        "matches": true,
+        "h1_override": ""
+      },
+      {
+        "case_id": 56,
+        "human": "FALSE_BINDING",
+        "v21": "",
+        "h1": "FALSE_BINDING",
+        "matches": true,
+        "h1_override": ""
+      },
+      {
+        "case_id": 57,
+        "human": "FALSE_BINDING",
+        "v21": "",
+        "h1": "FALSE_BINDING",
+        "matches": true,
+        "h1_override": ""
+      },
+      {
+        "case_id": 58,
+        "human": "FALSE_BINDING",
+        "v21": "",
+        "h1": "AMBIGUOUS",
+        "matches": false,
+        "h1_override": ""
+      },
+      {
+        "case_id": 59,
+        "human": "FALSE_BINDING",
+        "v21": "",
+        "h1": "FALSE_BINDING",
+        "matches": true,
+        "h1_override": ""
+      },
+      {
+        "case_id": 60,
+        "human": "FALSE_BINDING",
+        "v21": "",
+        "h1": "AMBIGUOUS",
+        "matches": false,
+        "h1_override": ""
+      },
+      {
+        "case_id": 61,
+        "human": "FALSE_BINDING",
+        "v21": "",
+        "h1": "FALSE_BINDING",
+        "matches": true,
+        "h1_override": ""
+      },
+      {
+        "case_id": 62,
+        "human": "FALSE_BINDING",
+        "v21": "",
+        "h1": "FALSE_BINDING",
+        "matches": true,
+        "h1_override": ""
+      },
+      {
+        "case_id": 63,
+        "human": "FALSE_BINDING",
+        "v21": "",
+        "h1": "FALSE_BINDING",
+        "matches": true,
+        "h1_override": ""
+      },
+      {
+        "case_id": 64,
+        "human": "FALSE_BINDING",
+        "v21": "",
+        "h1": "FALSE_BINDING",
+        "matches": true,
+        "h1_override": ""
+      },
+      {
+        "case_id": 65,
+        "human": "FALSE_BINDING",
+        "v21": "",
+        "h1": "FALSE_BINDING",
+        "matches": true,
+        "h1_override": ""
+      },
+      {
+        "case_id": 66,
+        "human": "FALSE_BINDING",
+        "v21": "",
+        "h1": "FALSE_BINDING",
+        "matches": true,
+        "h1_override": ""
+      },
+      {
+        "case_id": 67,
+        "human": "FALSE_BINDING",
+        "v21": "",
+        "h1": "FALSE_BINDING",
+        "matches": true,
+        "h1_override": ""
+      },
+      {
+        "case_id": 68,
+        "human": "FALSE_BINDING",
+        "v21": "",
+        "h1": "FALSE_BINDING",
+        "matches": true,
+        "h1_override": ""
+      },
+      {
+        "case_id": 69,
+        "human": "FALSE_BINDING",
+        "v21": "",
+        "h1": "FALSE_BINDING",
+        "matches": true,
+        "h1_override": ""
+      },
+      {
+        "case_id": 70,
+        "human": "FALSE_BINDING",
+        "v21": "",
+        "h1": "FALSE_BINDING",
+        "matches": true,
+        "h1_override": ""
+      },
+      {
+        "case_id": 71,
+        "human": "FALSE_BINDING",
+        "v21": "",
+        "h1": "FALSE_BINDING",
+        "matches": true,
+        "h1_override": ""
+      },
+      {
+        "case_id": 72,
+        "human": "FALSE_BINDING",
+        "v21": "",
+        "h1": "FALSE_BINDING",
+        "matches": true,
+        "h1_override": ""
+      },
+      {
+        "case_id": 73,
+        "human": "FALSE_BINDING",
+        "v21": "",
+        "h1": "FALSE_BINDING",
+        "matches": true,
+        "h1_override": ""
+      },
+      {
+        "case_id": 74,
+        "human": "FALSE_BINDING",
+        "v21": "",
+        "h1": "FALSE_BINDING",
+        "matches": true,
+        "h1_override": ""
+      },
+      {
+        "case_id": 75,
+        "human": "FALSE_BINDING",
+        "v21": "",
+        "h1": "FALSE_BINDING",
+        "matches": true,
+        "h1_override": ""
+      },
+      {
+        "case_id": 76,
+        "human": "AMBIGUOUS",
+        "v21": "",
+        "h1": "AMBIGUOUS",
+        "matches": true,
+        "h1_override": "H1 override: role=MODIFIER + effective_event=WEAK + head_noun='dynamics' (administrative) → AMBIGUOUS (was CONTEXT_ONLY)"
+      },
+      {
+        "case_id": 77,
+        "human": "AMBIGUOUS",
+        "v21": "",
+        "h1": "AMBIGUOUS",
+        "matches": true,
+        "h1_override": ""
+      },
+      {
+        "case_id": 78,
+        "human": "AMBIGUOUS",
+        "v21": "",
+        "h1": "AMBIGUOUS",
+        "matches": true,
+        "h1_override": "H1 override: role=MODIFIER + effective_event=WEAK + head_noun='expectations' (administrative) → AMBIGUOUS (was CONTEXT_ONLY)"
+      },
+      {
+        "case_id": 79,
+        "human": "AMBIGUOUS",
+        "v21": "",
+        "h1": "AMBIGUOUS",
+        "matches": true,
+        "h1_override": ""
+      },
+      {
+        "case_id": 80,
+        "human": "AMBIGUOUS",
+        "v21": "",
+        "h1": "AMBIGUOUS",
+        "matches": true,
+        "h1_override": ""
+      },
+      {
+        "case_id": 81,
+        "human": "AMBIGUOUS",
+        "v21": "",
+        "h1": "AMBIGUOUS",
+        "matches": true,
+        "h1_override": ""
+      },
+      {
+        "case_id": 82,
+        "human": "AMBIGUOUS",
+        "v21": "",
+        "h1": "AMBIGUOUS",
+        "matches": true,
+        "h1_override": "H1 override: role=MODIFIER + effective_event=WEAK + head_noun='decisions' (administrative) → AMBIGUOUS (was CONTEXT_ONLY)"
+      },
+      {
+        "case_id": 83,
+        "human": "AMBIGUOUS",
+        "v21": "",
+        "h1": "AMBIGUOUS",
+        "matches": true,
+        "h1_override": "H1 override: role=MODIFIER + effective_event=WEAK + head_noun='statistics' (administrative) → AMBIGUOUS (was CONTEXT_ONLY)"
+      },
+      {
+        "case_id": 84,
+        "human": "AMBIGUOUS",
+        "v21": "",
+        "h1": "AMBIGUOUS",
+        "matches": true,
+        "h1_override": ""
+      },
+      {
+        "case_id": 85,
+        "human": "AMBIGUOUS",
+        "v21": "",
+        "h1": "AMBIGUOUS",
+        "matches": true,
+        "h1_override": ""
+      },
+      {
+        "case_id": 86,
+        "human": "AMBIGUOUS",
+        "v21": "",
+        "h1": "FALSE_BINDING",
+        "matches": false,
+        "h1_override": ""
+      },
+      {
+        "case_id": 87,
+        "human": "AMBIGUOUS",
+        "v21": "",
+        "h1": "AMBIGUOUS",
+        "matches": true,
+        "h1_override": "H1 override: role=MODIFIER + effective_event=WEAK + head_noun='methodology' (administrative) → AMBIGUOUS (was CONTEXT_ONLY)"
+      },
+      {
+        "case_id": 88,
+        "human": "AMBIGUOUS",
+        "v21": "",
+        "h1": "AMBIGUOUS",
+        "matches": true,
+        "h1_override": ""
+      },
+      {
+        "case_id": 89,
+        "human": "AMBIGUOUS",
+        "v21": "",
+        "h1": "AMBIGUOUS",
+        "matches": true,
+        "h1_override": "H1 override: role=MODIFIER + effective_event=WEAK + head_noun='procedures' (administrative) → AMBIGUOUS (was CONTEXT_ONLY)"
+      },
+      {
+        "case_id": 90,
+        "human": "AMBIGUOUS",
+        "v21": "",
+        "h1": "AMBIGUOUS",
+        "matches": true,
+        "h1_override": ""
+      },
+      {
+        "case_id": 91,
+        "human": "AMBIGUOUS",
+        "v21": "",
+        "h1": "CONTEXT_ONLY",
+        "matches": false,
+        "h1_override": ""
+      },
+      {
+        "case_id": 92,
+        "human": "AMBIGUOUS",
+        "v21": "",
+        "h1": "AMBIGUOUS",
+        "matches": true,
+        "h1_override": "H1 override: role=MODIFIER + effective_event=WEAK + head_noun='decisions' (administrative) → AMBIGUOUS (was CONTEXT_ONLY)"
+      },
+      {
+        "case_id": 93,
+        "human": "AMBIGUOUS",
+        "v21": "",
+        "h1": "AMBIGUOUS",
+        "matches": true,
+        "h1_override": "H1 override: role=MODIFIER + effective_event=WEAK + head_noun='statistics' (administrative) → AMBIGUOUS (was CONTEXT_ONLY)"
+      },
+      {
+        "case_id": 94,
+        "human": "AMBIGUOUS",
+        "v21": "",
+        "h1": "AMBIGUOUS",
+        "matches": true,
+        "h1_override": "H1 override: role=MODIFIER + effective_event=WEAK + head_noun='sub-indices' (administrative) → AMBIGUOUS (was CONTEXT_ONLY)"
+      },
+      {
+        "case_id": 95,
+        "human": "AMBIGUOUS",
+        "v21": "",
+        "h1": "AMBIGUOUS",
+        "matches": true,
+        "h1_override": ""
+      },
+      {
+        "case_id": 96,
+        "human": "AMBIGUOUS",
+        "v21": "",
+        "h1": "AMBIGUOUS",
+        "matches": true,
+        "h1_override": "H1 override: role=MODIFIER + effective_event=WEAK + head_noun='framework' (administrative) → AMBIGUOUS (was CONTEXT_ONLY)"
+      },
+      {
+        "case_id": 97,
+        "human": "AMBIGUOUS",
+        "v21": "",
+        "h1": "AMBIGUOUS",
+        "matches": true,
+        "h1_override": ""
+      },
+      {
+        "case_id": 98,
+        "human": "AMBIGUOUS",
+        "v21": "",
+        "h1": "AMBIGUOUS",
+        "matches": true,
+        "h1_override": "H1 override: role=MODIFIER + effective_event=WEAK + head_noun='targeting' (administrative) → AMBIGUOUS (was CONTEXT_ONLY)"
+      },
+      {
+        "case_id": 99,
+        "human": "AMBIGUOUS",
+        "v21": "",
+        "h1": "AMBIGUOUS",
+        "matches": true,
+        "h1_override": "H1 override: role=MODIFIER + effective_event=WEAK + head_noun='stance' (administrative) → AMBIGUOUS (was CONTEXT_ONLY)"
+      },
+      {
+        "case_id": 100,
+        "human": "AMBIGUOUS",
+        "v21": "",
+        "h1": "AMBIGUOUS",
+        "matches": true,
+        "h1_override": "H1 override: role=MODIFIER + effective_event=WEAK + head_noun='projections' (administrative) → AMBIGUOUS (was CONTEXT_ONLY)"
+      },
+      {
+        "case_id": 101,
+        "human": "AMBIGUOUS",
+        "v21": "",
+        "h1": "AMBIGUOUS",
+        "matches": true,
+        "h1_override": "H1 override: role=MODIFIER + effective_event=WEAK + head_noun='weights' (administrative) → AMBIGUOUS (was CONTEXT_ONLY)"
+      },
+      {
+        "case_id": 102,
+        "human": "AMBIGUOUS",
+        "v21": "",
+        "h1": "AMBIGUOUS",
+        "matches": true,
+        "h1_override": "H1 override: role=MODIFIER + effective_event=WEAK + head_noun='reserves' (administrative) → AMBIGUOUS (was CONTEXT_ONLY)"
+      },
+      {
+        "case_id": 103,
+        "human": "AMBIGUOUS",
+        "v21": "",
+        "h1": "AMBIGUOUS",
+        "matches": true,
+        "h1_override": "H1 override: role=MODIFIER + effective_event=WEAK + head_noun='guidelines' (administrative) → AMBIGUOUS (was CONTEXT_ONLY)"
+      },
+      {
+        "case_id": 104,
+        "human": "AMBIGUOUS",
+        "v21": "",
+        "h1": "AMBIGUOUS",
+        "matches": true,
+        "h1_override": ""
+      },
+      {
+        "case_id": 105,
+        "human": "AMBIGUOUS",
+        "v21": "",
+        "h1": "AMBIGUOUS",
+        "matches": true,
+        "h1_override": ""
+      },
+      {
+        "case_id": 106,
+        "human": "AMBIGUOUS",
+        "v21": "",
+        "h1": "CONTEXT_ONLY",
+        "matches": false,
+        "h1_override": ""
+      },
+      {
+        "case_id": 107,
+        "human": "AMBIGUOUS",
+        "v21": "",
+        "h1": "TRUE_SUBJECT",
+        "matches": false,
+        "h1_override": "H1 override: role=MODIFIER + effective_event=WEAK + head_noun='procedures' (administrative) → AMBIGUOUS (was CONTEXT_ONLY)"
+      },
+      {
+        "case_id": 108,
+        "human": "AMBIGUOUS",
+        "v21": "",
+        "h1": "AMBIGUOUS",
+        "matches": true,
+        "h1_override": "H1 override: role=MODIFIER + effective_event=WEAK + head_noun='performance' (administrative) → AMBIGUOUS (was CONTEXT_ONLY)"
+      },
+      {
+        "case_id": 109,
+        "human": "AMBIGUOUS",
+        "v21": "",
+        "h1": "AMBIGUOUS",
+        "matches": true,
+        "h1_override": ""
+      },
+      {
+        "case_id": 110,
+        "human": "AMBIGUOUS",
+        "v21": "",
+        "h1": "AMBIGUOUS",
+        "matches": true,
+        "h1_override": ""
+      },
+      {
+        "case_id": 111,
+        "human": "AMBIGUOUS",
+        "v21": "",
+        "h1": "AMBIGUOUS",
+        "matches": true,
+        "h1_override": ""
+      },
+      {
+        "case_id": 112,
+        "human": "AMBIGUOUS",
+        "v21": "",
+        "h1": "CONTEXT_ONLY",
+        "matches": false,
+        "h1_override": ""
+      },
+      {
+        "case_id": 113,
+        "human": "AMBIGUOUS",
+        "v21": "",
+        "h1": "AMBIGUOUS",
+        "matches": true,
+        "h1_override": ""
+      },
+      {
+        "case_id": 114,
+        "human": "AMBIGUOUS",
+        "v21": "",
+        "h1": "AMBIGUOUS",
+        "matches": true,
+        "h1_override": ""
+      },
+      {
+        "case_id": 115,
+        "human": "AMBIGUOUS",
+        "v21": "",
+        "h1": "AMBIGUOUS",
+        "matches": true,
+        "h1_override": "H1 override: role=MODIFIER + effective_event=WEAK + head_noun='trends' (administrative) → AMBIGUOUS (was CONTEXT_ONLY)"
+      },
+      {
+        "case_id": 116,
+        "human": "CONTEXT",
+        "v21": "",
+        "h1": "CONTEXT_ONLY",
+        "matches": true,
+        "h1_override": ""
+      },
+      {
+        "case_id": 117,
+        "human": "CONTEXT",
+        "v21": "",
+        "h1": "AMBIGUOUS",
+        "matches": false,
+        "h1_override": "H1 override: role=MODIFIER + effective_event=WEAK + head_noun='guidelines' (administrative) → AMBIGUOUS (was CONTEXT_ONLY)"
+      },
+      {
+        "case_id": 118,
+        "human": "CONTEXT",
+        "v21": "",
+        "h1": "AMBIGUOUS",
+        "matches": false,
+        "h1_override": ""
+      },
+      {
+        "case_id": 119,
+        "human": "CONTEXT",
+        "v21": "",
+        "h1": "AMBIGUOUS",
+        "matches": false,
+        "h1_override": "H1 override: role=MODIFIER + effective_event=WEAK + head_noun='corridor' (administrative) → AMBIGUOUS (was CONTEXT_ONLY)"
+      },
+      {
+        "case_id": 120,
+        "human": "CONTEXT",
+        "v21": "",
+        "h1": "AMBIGUOUS",
+        "matches": false,
+        "h1_override": ""
+      },
+      {
+        "case_id": 121,
+        "human": "CONTEXT",
+        "v21": "",
+        "h1": "AMBIGUOUS",
+        "matches": false,
+        "h1_override": "H1 override: role=MODIFIER + effective_event=WEAK + head_noun='deflator' (administrative) → AMBIGUOUS (was CONTEXT_ONLY)"
+      },
+      {
+        "case_id": 122,
+        "human": "CONTEXT",
+        "v21": "",
+        "h1": "AMBIGUOUS",
+        "matches": false,
+        "h1_override": "H1 override: role=MODIFIER + effective_event=WEAK + head_noun='basket' (administrative) → AMBIGUOUS (was CONTEXT_ONLY)"
+      },
+      {
+        "case_id": 123,
+        "human": "CONTEXT",
+        "v21": "",
+        "h1": "AMBIGUOUS",
+        "matches": false,
+        "h1_override": ""
+      },
+      {
+        "case_id": 124,
+        "human": "CONTEXT",
+        "v21": "",
+        "h1": "CONTEXT_ONLY",
+        "matches": true,
+        "h1_override": ""
+      },
+      {
+        "case_id": 125,
+        "human": "CONTEXT",
+        "v21": "",
+        "h1": "AMBIGUOUS",
+        "matches": false,
+        "h1_override": ""
+      },
+      {
+        "case_id": 126,
+        "human": "CONTEXT",
+        "v21": "",
+        "h1": "AMBIGUOUS",
+        "matches": false,
+        "h1_override": "H1 override: role=MODIFIER + effective_event=WEAK + head_noun='targeting' (administrative) → AMBIGUOUS (was CONTEXT_ONLY)"
+      },
+      {
+        "case_id": 127,
+        "human": "CONTEXT",
+        "v21": "",
+        "h1": "CONTEXT_ONLY",
+        "matches": true,
+        "h1_override": ""
+      },
+      {
+        "case_id": 128,
+        "human": "CONTEXT",
+        "v21": "",
+        "h1": "CONTEXT_ONLY",
+        "matches": true,
+        "h1_override": ""
+      },
+      {
+        "case_id": 129,
+        "human": "CONTEXT",
+        "v21": "",
+        "h1": "AMBIGUOUS",
+        "matches": false,
+        "h1_override": ""
+      },
+      {
+        "case_id": 130,
+        "human": "CONTEXT",
+        "v21": "",
+        "h1": "AMBIGUOUS",
+        "matches": false,
+        "h1_override": "H1 override: role=MODIFIER + effective_event=WEAK + head_noun='reserves' (administrative) → AMBIGUOUS (was CONTEXT_ONLY)"
+      },
+      {
+        "case_id": 131,
+        "human": "CONTEXT",
+        "v21": "",
+        "h1": "AMBIGUOUS",
+        "matches": false,
+        "h1_override": "H1 override: role=MODIFIER + effective_event=WEAK + head_noun='framework' (administrative) → AMBIGUOUS (was CONTEXT_ONLY)"
+      },
+      {
+        "case_id": 132,
+        "human": "CONTEXT",
+        "v21": "",
+        "h1": "CONTEXT_ONLY",
+        "matches": true,
+        "h1_override": ""
+      },
+      {
+        "case_id": 133,
+        "human": "CONTEXT",
+        "v21": "",
+        "h1": "AMBIGUOUS",
+        "matches": false,
+        "h1_override": ""
+      },
+      {
+        "case_id": 134,
+        "human": "CONTEXT",
+        "v21": "",
+        "h1": "CONTEXT_ONLY",
+        "matches": true,
+        "h1_override": ""
+      },
+      {
+        "case_id": 135,
+        "human": "CONTEXT",
+        "v21": "",
+        "h1": "AMBIGUOUS",
+        "matches": false,
+        "h1_override": ""
+      },
+      {
+        "case_id": 136,
+        "human": "CONTEXT",
+        "v21": "",
+        "h1": "AMBIGUOUS",
+        "matches": false,
+        "h1_override": ""
+      },
+      {
+        "case_id": 137,
+        "human": "CONTEXT",
+        "v21": "",
+        "h1": "AMBIGUOUS",
+        "matches": false,
+        "h1_override": ""
+      },
+      {
+        "case_id": 138,
+        "human": "CONTEXT",
+        "v21": "",
+        "h1": "AMBIGUOUS",
+        "matches": false,
+        "h1_override": "H1 override: role=MODIFIER + effective_event=WEAK + head_noun='appeal' (administrative) → AMBIGUOUS (was CONTEXT_ONLY)"
+      },
+      {
+        "case_id": 139,
+        "human": "CONTEXT",
+        "v21": "",
+        "h1": "AMBIGUOUS",
+        "matches": false,
+        "h1_override": ""
+      },
+      {
+        "case_id": 140,
+        "human": "CONTEXT",
+        "v21": "",
+        "h1": "AMBIGUOUS",
+        "matches": false,
+        "h1_override": "H1 override: role=MODIFIER + effective_event=WEAK + head_noun='data' (administrative) → AMBIGUOUS (was CONTEXT_ONLY)"
+      },
+      {
+        "case_id": 141,
+        "human": "CONTEXT",
+        "v21": "",
+        "h1": "AMBIGUOUS",
+        "matches": false,
+        "h1_override": ""
+      },
+      {
+        "case_id": 142,
+        "human": "CONTEXT",
+        "v21": "",
+        "h1": "AMBIGUOUS",
+        "matches": false,
+        "h1_override": ""
+      },
+      {
+        "case_id": 143,
+        "human": "CONTEXT",
+        "v21": "",
+        "h1": "AMBIGUOUS",
+        "matches": false,
+        "h1_override": ""
+      },
+      {
+        "case_id": 144,
+        "human": "CONTEXT",
+        "v21": "",
+        "h1": "CONTEXT_ONLY",
+        "matches": true,
+        "h1_override": ""
+      },
+      {
+        "case_id": 145,
+        "human": "CONTEXT",
+        "v21": "",
+        "h1": "CONTEXT_ONLY",
+        "matches": true,
+        "h1_override": ""
+      },
+      {
+        "case_id": 146,
+        "human": "CONTEXT",
+        "v21": "",
+        "h1": "CONTEXT_ONLY",
+        "matches": true,
+        "h1_override": ""
+      },
+      {
+        "case_id": 147,
+        "human": "CONTEXT",
+        "v21": "",
+        "h1": "AMBIGUOUS",
+        "matches": false,
+        "h1_override": "H1 override: role=MODIFIER + effective_event=WEAK + head_noun='expectations' (administrative) → AMBIGUOUS (was CONTEXT_ONLY)"
+      },
+      {
+        "case_id": 148,
+        "human": "CONTEXT",
+        "v21": "",
+        "h1": "CONTEXT_ONLY",
+        "matches": true,
+        "h1_override": ""
+      },
+      {
+        "case_id": 149,
+        "human": "CONTEXT",
+        "v21": "",
+        "h1": "AMBIGUOUS",
+        "matches": false,
+        "h1_override": "H1 override: role=MODIFIER + effective_event=WEAK + head_noun='statistics' (administrative) → AMBIGUOUS (was CONTEXT_ONLY)"
+      },
+      {
+        "case_id": 150,
+        "human": "CONTEXT",
+        "v21": "",
+        "h1": "AMBIGUOUS",
+        "matches": false,
+        "h1_override": ""
+      }
+    ],
+    "h2_per_case": [
+      {
+        "case_id": 1,
+        "human": "TRUE_SUBJECT",
+        "v21": "",
+        "h2": "TRUE_SUBJECT",
+        "matches": true,
+        "h2_override": ""
+      },
+      {
+        "case_id": 2,
+        "human": "TRUE_SUBJECT",
+        "v21": "",
+        "h2": "TRUE_SUBJECT",
+        "matches": true,
+        "h2_override": ""
+      },
+      {
+        "case_id": 3,
+        "human": "TRUE_SUBJECT",
+        "v21": "",
+        "h2": "TRUE_SUBJECT",
+        "matches": true,
+        "h2_override": "H2 override: text matches Policy Rate event pattern (held at / reduce by basis points to). Injected event=STRONG + role=SUBJECT → TRUE_SUBJECT."
+      },
+      {
+        "case_id": 4,
+        "human": "TRUE_SUBJECT",
+        "v21": "",
+        "h2": "TRUE_SUBJECT",
+        "matches": true,
+        "h2_override": ""
+      },
+      {
+        "case_id": 5,
+        "human": "TRUE_SUBJECT",
+        "v21": "",
+        "h2": "TRUE_SUBJECT",
+        "matches": true,
+        "h2_override": ""
+      },
+      {
+        "case_id": 6,
+        "human": "TRUE_SUBJECT",
+        "v21": "",
+        "h2": "TRUE_SUBJECT",
+        "matches": true,
+        "h2_override": ""
+      },
+      {
+        "case_id": 7,
+        "human": "TRUE_SUBJECT",
+        "v21": "",
+        "h2": "TRUE_SUBJECT",
+        "matches": true,
+        "h2_override": ""
+      },
+      {
+        "case_id": 8,
+        "human": "TRUE_SUBJECT",
+        "v21": "",
+        "h2": "TRUE_SUBJECT",
+        "matches": true,
+        "h2_override": ""
+      },
+      {
+        "case_id": 9,
+        "human": "TRUE_SUBJECT",
+        "v21": "",
+        "h2": "TRUE_SUBJECT",
+        "matches": true,
+        "h2_override": ""
+      },
+      {
+        "case_id": 10,
+        "human": "TRUE_SUBJECT",
+        "v21": "",
+        "h2": "TRUE_SUBJECT",
+        "matches": true,
+        "h2_override": ""
+      },
+      {
+        "case_id": 11,
+        "human": "TRUE_SUBJECT",
+        "v21": "",
+        "h2": "TRUE_SUBJECT",
+        "matches": true,
+        "h2_override": ""
+      },
+      {
+        "case_id": 12,
+        "human": "TRUE_SUBJECT",
+        "v21": "",
+        "h2": "NO_CANDIDATE",
+        "matches": false,
+        "h2_override": ""
+      },
+      {
+        "case_id": 13,
+        "human": "TRUE_SUBJECT",
+        "v21": "",
+        "h2": "TRUE_SUBJECT",
+        "matches": true,
+        "h2_override": ""
+      },
+      {
+        "case_id": 14,
+        "human": "TRUE_SUBJECT",
+        "v21": "",
+        "h2": "TRUE_SUBJECT",
+        "matches": true,
+        "h2_override": ""
+      },
+      {
+        "case_id": 15,
+        "human": "TRUE_SUBJECT",
+        "v21": "",
+        "h2": "TRUE_SUBJECT",
+        "matches": true,
+        "h2_override": ""
+      },
+      {
+        "case_id": 16,
+        "human": "TRUE_SUBJECT",
+        "v21": "",
+        "h2": "TRUE_SUBJECT",
+        "matches": true,
+        "h2_override": ""
+      },
+      {
+        "case_id": 17,
+        "human": "TRUE_SUBJECT",
+        "v21": "",
+        "h2": "TRUE_SUBJECT",
+        "matches": true,
+        "h2_override": ""
+      },
+      {
+        "case_id": 18,
+        "human": "TRUE_SUBJECT",
+        "v21": "",
+        "h2": "TRUE_SUBJECT",
+        "matches": true,
+        "h2_override": ""
+      },
+      {
+        "case_id": 19,
+        "human": "TRUE_SUBJECT",
+        "v21": "",
+        "h2": "TRUE_SUBJECT",
+        "matches": true,
+        "h2_override": ""
+      },
+      {
+        "case_id": 20,
+        "human": "TRUE_SUBJECT",
+        "v21": "",
+        "h2": "TRUE_SUBJECT",
+        "matches": true,
+        "h2_override": ""
+      },
+      {
+        "case_id": 21,
+        "human": "TRUE_SUBJECT",
+        "v21": "",
+        "h2": "TRUE_SUBJECT",
+        "matches": true,
+        "h2_override": "H2 override: text matches Policy Rate event pattern (held at / reduce by basis points to). Injected event=STRONG + role=SUBJECT → TRUE_SUBJECT."
+      },
+      {
+        "case_id": 22,
+        "human": "TRUE_SUBJECT",
+        "v21": "",
+        "h2": "TRUE_SUBJECT",
+        "matches": true,
+        "h2_override": ""
+      },
+      {
+        "case_id": 23,
+        "human": "TRUE_SUBJECT",
+        "v21": "",
+        "h2": "TRUE_SUBJECT",
+        "matches": true,
+        "h2_override": ""
+      },
+      {
+        "case_id": 24,
+        "human": "TRUE_SUBJECT",
+        "v21": "",
+        "h2": "TRUE_SUBJECT",
+        "matches": true,
+        "h2_override": ""
+      },
+      {
+        "case_id": 25,
+        "human": "TRUE_SUBJECT",
+        "v21": "",
+        "h2": "TRUE_SUBJECT",
+        "matches": true,
+        "h2_override": ""
+      },
+      {
+        "case_id": 26,
+        "human": "TRUE_SUBJECT",
+        "v21": "",
+        "h2": "TRUE_SUBJECT",
+        "matches": true,
+        "h2_override": ""
+      },
+      {
+        "case_id": 27,
+        "human": "TRUE_SUBJECT",
+        "v21": "",
+        "h2": "TRUE_SUBJECT",
+        "matches": true,
+        "h2_override": ""
+      },
+      {
+        "case_id": 28,
+        "human": "TRUE_SUBJECT",
+        "v21": "",
+        "h2": "TRUE_SUBJECT",
+        "matches": true,
+        "h2_override": ""
+      },
+      {
+        "case_id": 29,
+        "human": "TRUE_SUBJECT",
+        "v21": "",
+        "h2": "TRUE_SUBJECT",
+        "matches": true,
+        "h2_override": ""
+      },
+      {
+        "case_id": 30,
+        "human": "TRUE_SUBJECT",
+        "v21": "",
+        "h2": "TRUE_SUBJECT",
+        "matches": true,
+        "h2_override": ""
+      },
+      {
+        "case_id": 31,
+        "human": "TRUE_SUBJECT",
+        "v21": "",
+        "h2": "TRUE_SUBJECT",
+        "matches": true,
+        "h2_override": "H2 override: text matches Policy Rate event pattern (held at / reduce by basis points to). Injected event=STRONG + role=SUBJECT → TRUE_SUBJECT."
+      },
+      {
+        "case_id": 32,
+        "human": "TRUE_SUBJECT",
+        "v21": "",
+        "h2": "TRUE_SUBJECT",
+        "matches": true,
+        "h2_override": ""
+      },
+      {
+        "case_id": 33,
+        "human": "TRUE_SUBJECT",
+        "v21": "",
+        "h2": "TRUE_SUBJECT",
+        "matches": true,
+        "h2_override": ""
+      },
+      {
+        "case_id": 34,
+        "human": "TRUE_SUBJECT",
+        "v21": "",
+        "h2": "NO_CANDIDATE",
+        "matches": false,
+        "h2_override": ""
+      },
+      {
+        "case_id": 35,
+        "human": "TRUE_SUBJECT",
+        "v21": "",
+        "h2": "TRUE_SUBJECT",
+        "matches": true,
+        "h2_override": ""
+      },
+      {
+        "case_id": 36,
+        "human": "TRUE_SUBJECT",
+        "v21": "",
+        "h2": "TRUE_SUBJECT",
+        "matches": true,
+        "h2_override": ""
+      },
+      {
+        "case_id": 37,
+        "human": "TRUE_SUBJECT",
+        "v21": "",
+        "h2": "TRUE_SUBJECT",
+        "matches": true,
+        "h2_override": ""
+      },
+      {
+        "case_id": 38,
+        "human": "TRUE_SUBJECT",
+        "v21": "",
+        "h2": "TRUE_SUBJECT",
+        "matches": true,
+        "h2_override": "H2 override: text matches Policy Rate event pattern (held at / reduce by basis points to). Injected event=STRONG + role=SUBJECT → TRUE_SUBJECT."
+      },
+      {
+        "case_id": 39,
+        "human": "TRUE_SUBJECT",
+        "v21": "",
+        "h2": "TRUE_SUBJECT",
+        "matches": true,
+        "h2_override": ""
+      },
+      {
+        "case_id": 40,
+        "human": "TRUE_SUBJECT",
+        "v21": "",
+        "h2": "TRUE_SUBJECT",
+        "matches": true,
+        "h2_override": ""
+      },
+      {
+        "case_id": 41,
+        "human": "FALSE_BINDING",
+        "v21": "",
+        "h2": "FALSE_BINDING",
+        "matches": true,
+        "h2_override": ""
+      },
+      {
+        "case_id": 42,
+        "human": "FALSE_BINDING",
+        "v21": "",
+        "h2": "FALSE_BINDING",
+        "matches": true,
+        "h2_override": ""
+      },
+      {
+        "case_id": 43,
+        "human": "FALSE_BINDING",
+        "v21": "",
+        "h2": "FALSE_BINDING",
+        "matches": true,
+        "h2_override": ""
+      },
+      {
+        "case_id": 44,
+        "human": "FALSE_BINDING",
+        "v21": "",
+        "h2": "AMBIGUOUS",
+        "matches": false,
+        "h2_override": ""
+      },
+      {
+        "case_id": 45,
+        "human": "FALSE_BINDING",
+        "v21": "",
+        "h2": "FALSE_BINDING",
+        "matches": true,
+        "h2_override": ""
+      },
+      {
+        "case_id": 46,
+        "human": "FALSE_BINDING",
+        "v21": "",
+        "h2": "FALSE_BINDING",
+        "matches": true,
+        "h2_override": ""
+      },
+      {
+        "case_id": 47,
+        "human": "FALSE_BINDING",
+        "v21": "",
+        "h2": "FALSE_BINDING",
+        "matches": true,
+        "h2_override": ""
+      },
+      {
+        "case_id": 48,
+        "human": "FALSE_BINDING",
+        "v21": "",
+        "h2": "FALSE_BINDING",
+        "matches": true,
+        "h2_override": ""
+      },
+      {
+        "case_id": 49,
+        "human": "FALSE_BINDING",
+        "v21": "",
+        "h2": "FALSE_BINDING",
+        "matches": true,
+        "h2_override": ""
+      },
+      {
+        "case_id": 50,
+        "human": "FALSE_BINDING",
+        "v21": "",
+        "h2": "FALSE_BINDING",
+        "matches": true,
+        "h2_override": ""
+      },
+      {
+        "case_id": 51,
+        "human": "FALSE_BINDING",
+        "v21": "",
+        "h2": "FALSE_BINDING",
+        "matches": true,
+        "h2_override": ""
+      },
+      {
+        "case_id": 52,
+        "human": "FALSE_BINDING",
+        "v21": "",
+        "h2": "FALSE_BINDING",
+        "matches": true,
+        "h2_override": ""
+      },
+      {
+        "case_id": 53,
+        "human": "FALSE_BINDING",
+        "v21": "",
+        "h2": "FALSE_BINDING",
+        "matches": true,
+        "h2_override": ""
+      },
+      {
+        "case_id": 54,
+        "human": "FALSE_BINDING",
+        "v21": "",
+        "h2": "FALSE_BINDING",
+        "matches": true,
+        "h2_override": ""
+      },
+      {
+        "case_id": 55,
+        "human": "FALSE_BINDING",
+        "v21": "",
+        "h2": "FALSE_BINDING",
+        "matches": true,
+        "h2_override": ""
+      },
+      {
+        "case_id": 56,
+        "human": "FALSE_BINDING",
+        "v21": "",
+        "h2": "FALSE_BINDING",
+        "matches": true,
+        "h2_override": ""
+      },
+      {
+        "case_id": 57,
+        "human": "FALSE_BINDING",
+        "v21": "",
+        "h2": "FALSE_BINDING",
+        "matches": true,
+        "h2_override": ""
+      },
+      {
+        "case_id": 58,
+        "human": "FALSE_BINDING",
+        "v21": "",
+        "h2": "AMBIGUOUS",
+        "matches": false,
+        "h2_override": ""
+      },
+      {
+        "case_id": 59,
+        "human": "FALSE_BINDING",
+        "v21": "",
+        "h2": "FALSE_BINDING",
+        "matches": true,
+        "h2_override": ""
+      },
+      {
+        "case_id": 60,
+        "human": "FALSE_BINDING",
+        "v21": "",
+        "h2": "AMBIGUOUS",
+        "matches": false,
+        "h2_override": ""
+      },
+      {
+        "case_id": 61,
+        "human": "FALSE_BINDING",
+        "v21": "",
+        "h2": "FALSE_BINDING",
+        "matches": true,
+        "h2_override": ""
+      },
+      {
+        "case_id": 62,
+        "human": "FALSE_BINDING",
+        "v21": "",
+        "h2": "FALSE_BINDING",
+        "matches": true,
+        "h2_override": ""
+      },
+      {
+        "case_id": 63,
+        "human": "FALSE_BINDING",
+        "v21": "",
+        "h2": "FALSE_BINDING",
+        "matches": true,
+        "h2_override": ""
+      },
+      {
+        "case_id": 64,
+        "human": "FALSE_BINDING",
+        "v21": "",
+        "h2": "FALSE_BINDING",
+        "matches": true,
+        "h2_override": ""
+      },
+      {
+        "case_id": 65,
+        "human": "FALSE_BINDING",
+        "v21": "",
+        "h2": "FALSE_BINDING",
+        "matches": true,
+        "h2_override": ""
+      },
+      {
+        "case_id": 66,
+        "human": "FALSE_BINDING",
+        "v21": "",
+        "h2": "FALSE_BINDING",
+        "matches": true,
+        "h2_override": ""
+      },
+      {
+        "case_id": 67,
+        "human": "FALSE_BINDING",
+        "v21": "",
+        "h2": "FALSE_BINDING",
+        "matches": true,
+        "h2_override": ""
+      },
+      {
+        "case_id": 68,
+        "human": "FALSE_BINDING",
+        "v21": "",
+        "h2": "FALSE_BINDING",
+        "matches": true,
+        "h2_override": ""
+      },
+      {
+        "case_id": 69,
+        "human": "FALSE_BINDING",
+        "v21": "",
+        "h2": "FALSE_BINDING",
+        "matches": true,
+        "h2_override": ""
+      },
+      {
+        "case_id": 70,
+        "human": "FALSE_BINDING",
+        "v21": "",
+        "h2": "FALSE_BINDING",
+        "matches": true,
+        "h2_override": ""
+      },
+      {
+        "case_id": 71,
+        "human": "FALSE_BINDING",
+        "v21": "",
+        "h2": "FALSE_BINDING",
+        "matches": true,
+        "h2_override": ""
+      },
+      {
+        "case_id": 72,
+        "human": "FALSE_BINDING",
+        "v21": "",
+        "h2": "FALSE_BINDING",
+        "matches": true,
+        "h2_override": ""
+      },
+      {
+        "case_id": 73,
+        "human": "FALSE_BINDING",
+        "v21": "",
+        "h2": "FALSE_BINDING",
+        "matches": true,
+        "h2_override": ""
+      },
+      {
+        "case_id": 74,
+        "human": "FALSE_BINDING",
+        "v21": "",
+        "h2": "FALSE_BINDING",
+        "matches": true,
+        "h2_override": ""
+      },
+      {
+        "case_id": 75,
+        "human": "FALSE_BINDING",
+        "v21": "",
+        "h2": "FALSE_BINDING",
+        "matches": true,
+        "h2_override": ""
+      },
+      {
+        "case_id": 76,
+        "human": "AMBIGUOUS",
+        "v21": "",
+        "h2": "CONTEXT_ONLY",
+        "matches": false,
+        "h2_override": ""
+      },
+      {
+        "case_id": 77,
+        "human": "AMBIGUOUS",
+        "v21": "",
+        "h2": "AMBIGUOUS",
+        "matches": true,
+        "h2_override": ""
+      },
+      {
+        "case_id": 78,
+        "human": "AMBIGUOUS",
+        "v21": "",
+        "h2": "CONTEXT_ONLY",
+        "matches": false,
+        "h2_override": ""
+      },
+      {
+        "case_id": 79,
+        "human": "AMBIGUOUS",
+        "v21": "",
+        "h2": "AMBIGUOUS",
+        "matches": true,
+        "h2_override": ""
+      },
+      {
+        "case_id": 80,
+        "human": "AMBIGUOUS",
+        "v21": "",
+        "h2": "AMBIGUOUS",
+        "matches": true,
+        "h2_override": ""
+      },
+      {
+        "case_id": 81,
+        "human": "AMBIGUOUS",
+        "v21": "",
+        "h2": "AMBIGUOUS",
+        "matches": true,
+        "h2_override": ""
+      },
+      {
+        "case_id": 82,
+        "human": "AMBIGUOUS",
+        "v21": "",
+        "h2": "CONTEXT_ONLY",
+        "matches": false,
+        "h2_override": ""
+      },
+      {
+        "case_id": 83,
+        "human": "AMBIGUOUS",
+        "v21": "",
+        "h2": "CONTEXT_ONLY",
+        "matches": false,
+        "h2_override": ""
+      },
+      {
+        "case_id": 84,
+        "human": "AMBIGUOUS",
+        "v21": "",
+        "h2": "AMBIGUOUS",
+        "matches": true,
+        "h2_override": ""
+      },
+      {
+        "case_id": 85,
+        "human": "AMBIGUOUS",
+        "v21": "",
+        "h2": "AMBIGUOUS",
+        "matches": true,
+        "h2_override": ""
+      },
+      {
+        "case_id": 86,
+        "human": "AMBIGUOUS",
+        "v21": "",
+        "h2": "FALSE_BINDING",
+        "matches": false,
+        "h2_override": ""
+      },
+      {
+        "case_id": 87,
+        "human": "AMBIGUOUS",
+        "v21": "",
+        "h2": "CONTEXT_ONLY",
+        "matches": false,
+        "h2_override": ""
+      },
+      {
+        "case_id": 88,
+        "human": "AMBIGUOUS",
+        "v21": "",
+        "h2": "AMBIGUOUS",
+        "matches": true,
+        "h2_override": ""
+      },
+      {
+        "case_id": 89,
+        "human": "AMBIGUOUS",
+        "v21": "",
+        "h2": "CONTEXT_ONLY",
+        "matches": false,
+        "h2_override": ""
+      },
+      {
+        "case_id": 90,
+        "human": "AMBIGUOUS",
+        "v21": "",
+        "h2": "AMBIGUOUS",
+        "matches": true,
+        "h2_override": ""
+      },
+      {
+        "case_id": 91,
+        "human": "AMBIGUOUS",
+        "v21": "",
+        "h2": "CONTEXT_ONLY",
+        "matches": false,
+        "h2_override": ""
+      },
+      {
+        "case_id": 92,
+        "human": "AMBIGUOUS",
+        "v21": "",
+        "h2": "CONTEXT_ONLY",
+        "matches": false,
+        "h2_override": ""
+      },
+      {
+        "case_id": 93,
+        "human": "AMBIGUOUS",
+        "v21": "",
+        "h2": "CONTEXT_ONLY",
+        "matches": false,
+        "h2_override": ""
+      },
+      {
+        "case_id": 94,
+        "human": "AMBIGUOUS",
+        "v21": "",
+        "h2": "CONTEXT_ONLY",
+        "matches": false,
+        "h2_override": ""
+      },
+      {
+        "case_id": 95,
+        "human": "AMBIGUOUS",
+        "v21": "",
+        "h2": "AMBIGUOUS",
+        "matches": true,
+        "h2_override": ""
+      },
+      {
+        "case_id": 96,
+        "human": "AMBIGUOUS",
+        "v21": "",
+        "h2": "CONTEXT_ONLY",
+        "matches": false,
+        "h2_override": ""
+      },
+      {
+        "case_id": 97,
+        "human": "AMBIGUOUS",
+        "v21": "",
+        "h2": "AMBIGUOUS",
+        "matches": true,
+        "h2_override": ""
+      },
+      {
+        "case_id": 98,
+        "human": "AMBIGUOUS",
+        "v21": "",
+        "h2": "CONTEXT_ONLY",
+        "matches": false,
+        "h2_override": ""
+      },
+      {
+        "case_id": 99,
+        "human": "AMBIGUOUS",
+        "v21": "",
+        "h2": "CONTEXT_ONLY",
+        "matches": false,
+        "h2_override": ""
+      },
+      {
+        "case_id": 100,
+        "human": "AMBIGUOUS",
+        "v21": "",
+        "h2": "CONTEXT_ONLY",
+        "matches": false,
+        "h2_override": ""
+      },
+      {
+        "case_id": 101,
+        "human": "AMBIGUOUS",
+        "v21": "",
+        "h2": "CONTEXT_ONLY",
+        "matches": false,
+        "h2_override": ""
+      },
+      {
+        "case_id": 102,
+        "human": "AMBIGUOUS",
+        "v21": "",
+        "h2": "CONTEXT_ONLY",
+        "matches": false,
+        "h2_override": ""
+      },
+      {
+        "case_id": 103,
+        "human": "AMBIGUOUS",
+        "v21": "",
+        "h2": "CONTEXT_ONLY",
+        "matches": false,
+        "h2_override": ""
+      },
+      {
+        "case_id": 104,
+        "human": "AMBIGUOUS",
+        "v21": "",
+        "h2": "AMBIGUOUS",
+        "matches": true,
+        "h2_override": ""
+      },
+      {
+        "case_id": 105,
+        "human": "AMBIGUOUS",
+        "v21": "",
+        "h2": "AMBIGUOUS",
+        "matches": true,
+        "h2_override": ""
+      },
+      {
+        "case_id": 106,
+        "human": "AMBIGUOUS",
+        "v21": "",
+        "h2": "CONTEXT_ONLY",
+        "matches": false,
+        "h2_override": ""
+      },
+      {
+        "case_id": 107,
+        "human": "AMBIGUOUS",
+        "v21": "",
+        "h2": "TRUE_SUBJECT",
+        "matches": false,
+        "h2_override": ""
+      },
+      {
+        "case_id": 108,
+        "human": "AMBIGUOUS",
+        "v21": "",
+        "h2": "CONTEXT_ONLY",
+        "matches": false,
+        "h2_override": ""
+      },
+      {
+        "case_id": 109,
+        "human": "AMBIGUOUS",
+        "v21": "",
+        "h2": "AMBIGUOUS",
+        "matches": true,
+        "h2_override": ""
+      },
+      {
+        "case_id": 110,
+        "human": "AMBIGUOUS",
+        "v21": "",
+        "h2": "AMBIGUOUS",
+        "matches": true,
+        "h2_override": ""
+      },
+      {
+        "case_id": 111,
+        "human": "AMBIGUOUS",
+        "v21": "",
+        "h2": "AMBIGUOUS",
+        "matches": true,
+        "h2_override": ""
+      },
+      {
+        "case_id": 112,
+        "human": "AMBIGUOUS",
+        "v21": "",
+        "h2": "CONTEXT_ONLY",
+        "matches": false,
+        "h2_override": ""
+      },
+      {
+        "case_id": 113,
+        "human": "AMBIGUOUS",
+        "v21": "",
+        "h2": "AMBIGUOUS",
+        "matches": true,
+        "h2_override": ""
+      },
+      {
+        "case_id": 114,
+        "human": "AMBIGUOUS",
+        "v21": "",
+        "h2": "AMBIGUOUS",
+        "matches": true,
+        "h2_override": ""
+      },
+      {
+        "case_id": 115,
+        "human": "AMBIGUOUS",
+        "v21": "",
+        "h2": "CONTEXT_ONLY",
+        "matches": false,
+        "h2_override": ""
+      },
+      {
+        "case_id": 116,
+        "human": "CONTEXT",
+        "v21": "",
+        "h2": "CONTEXT_ONLY",
+        "matches": true,
+        "h2_override": ""
+      },
+      {
+        "case_id": 117,
+        "human": "CONTEXT",
+        "v21": "",
+        "h2": "CONTEXT_ONLY",
+        "matches": true,
+        "h2_override": ""
+      },
+      {
+        "case_id": 118,
+        "human": "CONTEXT",
+        "v21": "",
+        "h2": "AMBIGUOUS",
+        "matches": false,
+        "h2_override": ""
+      },
+      {
+        "case_id": 119,
+        "human": "CONTEXT",
+        "v21": "",
+        "h2": "CONTEXT_ONLY",
+        "matches": true,
+        "h2_override": ""
+      },
+      {
+        "case_id": 120,
+        "human": "CONTEXT",
+        "v21": "",
+        "h2": "AMBIGUOUS",
+        "matches": false,
+        "h2_override": ""
+      },
+      {
+        "case_id": 121,
+        "human": "CONTEXT",
+        "v21": "",
+        "h2": "CONTEXT_ONLY",
+        "matches": true,
+        "h2_override": ""
+      },
+      {
+        "case_id": 122,
+        "human": "CONTEXT",
+        "v21": "",
+        "h2": "CONTEXT_ONLY",
+        "matches": true,
+        "h2_override": ""
+      },
+      {
+        "case_id": 123,
+        "human": "CONTEXT",
+        "v21": "",
+        "h2": "AMBIGUOUS",
+        "matches": false,
+        "h2_override": ""
+      },
+      {
+        "case_id": 124,
+        "human": "CONTEXT",
+        "v21": "",
+        "h2": "CONTEXT_ONLY",
+        "matches": true,
+        "h2_override": ""
+      },
+      {
+        "case_id": 125,
+        "human": "CONTEXT",
+        "v21": "",
+        "h2": "AMBIGUOUS",
+        "matches": false,
+        "h2_override": ""
+      },
+      {
+        "case_id": 126,
+        "human": "CONTEXT",
+        "v21": "",
+        "h2": "CONTEXT_ONLY",
+        "matches": true,
+        "h2_override": ""
+      },
+      {
+        "case_id": 127,
+        "human": "CONTEXT",
+        "v21": "",
+        "h2": "CONTEXT_ONLY",
+        "matches": true,
+        "h2_override": ""
+      },
+      {
+        "case_id": 128,
+        "human": "CONTEXT",
+        "v21": "",
+        "h2": "CONTEXT_ONLY",
+        "matches": true,
+        "h2_override": ""
+      },
+      {
+        "case_id": 129,
+        "human": "CONTEXT",
+        "v21": "",
+        "h2": "AMBIGUOUS",
+        "matches": false,
+        "h2_override": ""
+      },
+      {
+        "case_id": 130,
+        "human": "CONTEXT",
+        "v21": "",
+        "h2": "CONTEXT_ONLY",
+        "matches": true,
+        "h2_override": ""
+      },
+      {
+        "case_id": 131,
+        "human": "CONTEXT",
+        "v21": "",
+        "h2": "CONTEXT_ONLY",
+        "matches": true,
+        "h2_override": ""
+      },
+      {
+        "case_id": 132,
+        "human": "CONTEXT",
+        "v21": "",
+        "h2": "CONTEXT_ONLY",
+        "matches": true,
+        "h2_override": ""
+      },
+      {
+        "case_id": 133,
+        "human": "CONTEXT",
+        "v21": "",
+        "h2": "AMBIGUOUS",
+        "matches": false,
+        "h2_override": ""
+      },
+      {
+        "case_id": 134,
+        "human": "CONTEXT",
+        "v21": "",
+        "h2": "CONTEXT_ONLY",
+        "matches": true,
+        "h2_override": ""
+      },
+      {
+        "case_id": 135,
+        "human": "CONTEXT",
+        "v21": "",
+        "h2": "AMBIGUOUS",
+        "matches": false,
+        "h2_override": ""
+      },
+      {
+        "case_id": 136,
+        "human": "CONTEXT",
+        "v21": "",
+        "h2": "AMBIGUOUS",
+        "matches": false,
+        "h2_override": ""
+      },
+      {
+        "case_id": 137,
+        "human": "CONTEXT",
+        "v21": "",
+        "h2": "AMBIGUOUS",
+        "matches": false,
+        "h2_override": ""
+      },
+      {
+        "case_id": 138,
+        "human": "CONTEXT",
+        "v21": "",
+        "h2": "CONTEXT_ONLY",
+        "matches": true,
+        "h2_override": ""
+      },
+      {
+        "case_id": 139,
+        "human": "CONTEXT",
+        "v21": "",
+        "h2": "AMBIGUOUS",
+        "matches": false,
+        "h2_override": ""
+      },
+      {
+        "case_id": 140,
+        "human": "CONTEXT",
+        "v21": "",
+        "h2": "CONTEXT_ONLY",
+        "matches": true,
+        "h2_override": ""
+      },
+      {
+        "case_id": 141,
+        "human": "CONTEXT",
+        "v21": "",
+        "h2": "AMBIGUOUS",
+        "matches": false,
+        "h2_override": ""
+      },
+      {
+        "case_id": 142,
+        "human": "CONTEXT",
+        "v21": "",
+        "h2": "AMBIGUOUS",
+        "matches": false,
+        "h2_override": ""
+      },
+      {
+        "case_id": 143,
+        "human": "CONTEXT",
+        "v21": "",
+        "h2": "AMBIGUOUS",
+        "matches": false,
+        "h2_override": ""
+      },
+      {
+        "case_id": 144,
+        "human": "CONTEXT",
+        "v21": "",
+        "h2": "CONTEXT_ONLY",
+        "matches": true,
+        "h2_override": ""
+      },
+      {
+        "case_id": 145,
+        "human": "CONTEXT",
+        "v21": "",
+        "h2": "CONTEXT_ONLY",
+        "matches": true,
+        "h2_override": ""
+      },
+      {
+        "case_id": 146,
+        "human": "CONTEXT",
+        "v21": "",
+        "h2": "CONTEXT_ONLY",
+        "matches": true,
+        "h2_override": ""
+      },
+      {
+        "case_id": 147,
+        "human": "CONTEXT",
+        "v21": "",
+        "h2": "CONTEXT_ONLY",
+        "matches": true,
+        "h2_override": ""
+      },
+      {
+        "case_id": 148,
+        "human": "CONTEXT",
+        "v21": "",
+        "h2": "CONTEXT_ONLY",
+        "matches": true,
+        "h2_override": ""
+      },
+      {
+        "case_id": 149,
+        "human": "CONTEXT",
+        "v21": "",
+        "h2": "CONTEXT_ONLY",
+        "matches": true,
+        "h2_override": ""
+      },
+      {
+        "case_id": 150,
+        "human": "CONTEXT",
+        "v21": "",
+        "h2": "AMBIGUOUS",
+        "matches": false,
+        "h2_override": ""
+      }
+    ],
+    "h1h2_per_case": [
+      {
+        "case_id": 1,
+        "human": "TRUE_SUBJECT",
+        "v21": "",
+        "h1h2": "TRUE_SUBJECT",
+        "matches": true
+      },
+      {
+        "case_id": 2,
+        "human": "TRUE_SUBJECT",
+        "v21": "",
+        "h1h2": "TRUE_SUBJECT",
+        "matches": true
+      },
+      {
+        "case_id": 3,
+        "human": "TRUE_SUBJECT",
+        "v21": "",
+        "h1h2": "TRUE_SUBJECT",
+        "matches": true
+      },
+      {
+        "case_id": 4,
+        "human": "TRUE_SUBJECT",
+        "v21": "",
+        "h1h2": "TRUE_SUBJECT",
+        "matches": true
+      },
+      {
+        "case_id": 5,
+        "human": "TRUE_SUBJECT",
+        "v21": "",
+        "h1h2": "TRUE_SUBJECT",
+        "matches": true
+      },
+      {
+        "case_id": 6,
+        "human": "TRUE_SUBJECT",
+        "v21": "",
+        "h1h2": "TRUE_SUBJECT",
+        "matches": true
+      },
+      {
+        "case_id": 7,
+        "human": "TRUE_SUBJECT",
+        "v21": "",
+        "h1h2": "TRUE_SUBJECT",
+        "matches": true
+      },
+      {
+        "case_id": 8,
+        "human": "TRUE_SUBJECT",
+        "v21": "",
+        "h1h2": "TRUE_SUBJECT",
+        "matches": true
+      },
+      {
+        "case_id": 9,
+        "human": "TRUE_SUBJECT",
+        "v21": "",
+        "h1h2": "TRUE_SUBJECT",
+        "matches": true
+      },
+      {
+        "case_id": 10,
+        "human": "TRUE_SUBJECT",
+        "v21": "",
+        "h1h2": "TRUE_SUBJECT",
+        "matches": true
+      },
+      {
+        "case_id": 11,
+        "human": "TRUE_SUBJECT",
+        "v21": "",
+        "h1h2": "TRUE_SUBJECT",
+        "matches": true
+      },
+      {
+        "case_id": 12,
+        "human": "TRUE_SUBJECT",
+        "v21": "",
+        "h1h2": "NO_CANDIDATE",
+        "matches": false
+      },
+      {
+        "case_id": 13,
+        "human": "TRUE_SUBJECT",
+        "v21": "",
+        "h1h2": "TRUE_SUBJECT",
+        "matches": true
+      },
+      {
+        "case_id": 14,
+        "human": "TRUE_SUBJECT",
+        "v21": "",
+        "h1h2": "TRUE_SUBJECT",
+        "matches": true
+      },
+      {
+        "case_id": 15,
+        "human": "TRUE_SUBJECT",
+        "v21": "",
+        "h1h2": "TRUE_SUBJECT",
+        "matches": true
+      },
+      {
+        "case_id": 16,
+        "human": "TRUE_SUBJECT",
+        "v21": "",
+        "h1h2": "TRUE_SUBJECT",
+        "matches": true
+      },
+      {
+        "case_id": 17,
+        "human": "TRUE_SUBJECT",
+        "v21": "",
+        "h1h2": "TRUE_SUBJECT",
+        "matches": true
+      },
+      {
+        "case_id": 18,
+        "human": "TRUE_SUBJECT",
+        "v21": "",
+        "h1h2": "TRUE_SUBJECT",
+        "matches": true
+      },
+      {
+        "case_id": 19,
+        "human": "TRUE_SUBJECT",
+        "v21": "",
+        "h1h2": "TRUE_SUBJECT",
+        "matches": true
+      },
+      {
+        "case_id": 20,
+        "human": "TRUE_SUBJECT",
+        "v21": "",
+        "h1h2": "TRUE_SUBJECT",
+        "matches": true
+      },
+      {
+        "case_id": 21,
+        "human": "TRUE_SUBJECT",
+        "v21": "",
+        "h1h2": "TRUE_SUBJECT",
+        "matches": true
+      },
+      {
+        "case_id": 22,
+        "human": "TRUE_SUBJECT",
+        "v21": "",
+        "h1h2": "TRUE_SUBJECT",
+        "matches": true
+      },
+      {
+        "case_id": 23,
+        "human": "TRUE_SUBJECT",
+        "v21": "",
+        "h1h2": "TRUE_SUBJECT",
+        "matches": true
+      },
+      {
+        "case_id": 24,
+        "human": "TRUE_SUBJECT",
+        "v21": "",
+        "h1h2": "TRUE_SUBJECT",
+        "matches": true
+      },
+      {
+        "case_id": 25,
+        "human": "TRUE_SUBJECT",
+        "v21": "",
+        "h1h2": "TRUE_SUBJECT",
+        "matches": true
+      },
+      {
+        "case_id": 26,
+        "human": "TRUE_SUBJECT",
+        "v21": "",
+        "h1h2": "TRUE_SUBJECT",
+        "matches": true
+      },
+      {
+        "case_id": 27,
+        "human": "TRUE_SUBJECT",
+        "v21": "",
+        "h1h2": "TRUE_SUBJECT",
+        "matches": true
+      },
+      {
+        "case_id": 28,
+        "human": "TRUE_SUBJECT",
+        "v21": "",
+        "h1h2": "TRUE_SUBJECT",
+        "matches": true
+      },
+      {
+        "case_id": 29,
+        "human": "TRUE_SUBJECT",
+        "v21": "",
+        "h1h2": "TRUE_SUBJECT",
+        "matches": true
+      },
+      {
+        "case_id": 30,
+        "human": "TRUE_SUBJECT",
+        "v21": "",
+        "h1h2": "TRUE_SUBJECT",
+        "matches": true
+      },
+      {
+        "case_id": 31,
+        "human": "TRUE_SUBJECT",
+        "v21": "",
+        "h1h2": "TRUE_SUBJECT",
+        "matches": true
+      },
+      {
+        "case_id": 32,
+        "human": "TRUE_SUBJECT",
+        "v21": "",
+        "h1h2": "TRUE_SUBJECT",
+        "matches": true
+      },
+      {
+        "case_id": 33,
+        "human": "TRUE_SUBJECT",
+        "v21": "",
+        "h1h2": "TRUE_SUBJECT",
+        "matches": true
+      },
+      {
+        "case_id": 34,
+        "human": "TRUE_SUBJECT",
+        "v21": "",
+        "h1h2": "NO_CANDIDATE",
+        "matches": false
+      },
+      {
+        "case_id": 35,
+        "human": "TRUE_SUBJECT",
+        "v21": "",
+        "h1h2": "TRUE_SUBJECT",
+        "matches": true
+      },
+      {
+        "case_id": 36,
+        "human": "TRUE_SUBJECT",
+        "v21": "",
+        "h1h2": "TRUE_SUBJECT",
+        "matches": true
+      },
+      {
+        "case_id": 37,
+        "human": "TRUE_SUBJECT",
+        "v21": "",
+        "h1h2": "TRUE_SUBJECT",
+        "matches": true
+      },
+      {
+        "case_id": 38,
+        "human": "TRUE_SUBJECT",
+        "v21": "",
+        "h1h2": "TRUE_SUBJECT",
+        "matches": true
+      },
+      {
+        "case_id": 39,
+        "human": "TRUE_SUBJECT",
+        "v21": "",
+        "h1h2": "TRUE_SUBJECT",
+        "matches": true
+      },
+      {
+        "case_id": 40,
+        "human": "TRUE_SUBJECT",
+        "v21": "",
+        "h1h2": "TRUE_SUBJECT",
+        "matches": true
+      },
+      {
+        "case_id": 41,
+        "human": "FALSE_BINDING",
+        "v21": "",
+        "h1h2": "FALSE_BINDING",
+        "matches": true
+      },
+      {
+        "case_id": 42,
+        "human": "FALSE_BINDING",
+        "v21": "",
+        "h1h2": "FALSE_BINDING",
+        "matches": true
+      },
+      {
+        "case_id": 43,
+        "human": "FALSE_BINDING",
+        "v21": "",
+        "h1h2": "FALSE_BINDING",
+        "matches": true
+      },
+      {
+        "case_id": 44,
+        "human": "FALSE_BINDING",
+        "v21": "",
+        "h1h2": "AMBIGUOUS",
+        "matches": false
+      },
+      {
+        "case_id": 45,
+        "human": "FALSE_BINDING",
+        "v21": "",
+        "h1h2": "FALSE_BINDING",
+        "matches": true
+      },
+      {
+        "case_id": 46,
+        "human": "FALSE_BINDING",
+        "v21": "",
+        "h1h2": "FALSE_BINDING",
+        "matches": true
+      },
+      {
+        "case_id": 47,
+        "human": "FALSE_BINDING",
+        "v21": "",
+        "h1h2": "FALSE_BINDING",
+        "matches": true
+      },
+      {
+        "case_id": 48,
+        "human": "FALSE_BINDING",
+        "v21": "",
+        "h1h2": "FALSE_BINDING",
+        "matches": true
+      },
+      {
+        "case_id": 49,
+        "human": "FALSE_BINDING",
+        "v21": "",
+        "h1h2": "FALSE_BINDING",
+        "matches": true
+      },
+      {
+        "case_id": 50,
+        "human": "FALSE_BINDING",
+        "v21": "",
+        "h1h2": "FALSE_BINDING",
+        "matches": true
+      },
+      {
+        "case_id": 51,
+        "human": "FALSE_BINDING",
+        "v21": "",
+        "h1h2": "FALSE_BINDING",
+        "matches": true
+      },
+      {
+        "case_id": 52,
+        "human": "FALSE_BINDING",
+        "v21": "",
+        "h1h2": "FALSE_BINDING",
+        "matches": true
+      },
+      {
+        "case_id": 53,
+        "human": "FALSE_BINDING",
+        "v21": "",
+        "h1h2": "FALSE_BINDING",
+        "matches": true
+      },
+      {
+        "case_id": 54,
+        "human": "FALSE_BINDING",
+        "v21": "",
+        "h1h2": "FALSE_BINDING",
+        "matches": true
+      },
+      {
+        "case_id": 55,
+        "human": "FALSE_BINDING",
+        "v21": "",
+        "h1h2": "FALSE_BINDING",
+        "matches": true
+      },
+      {
+        "case_id": 56,
+        "human": "FALSE_BINDING",
+        "v21": "",
+        "h1h2": "FALSE_BINDING",
+        "matches": true
+      },
+      {
+        "case_id": 57,
+        "human": "FALSE_BINDING",
+        "v21": "",
+        "h1h2": "FALSE_BINDING",
+        "matches": true
+      },
+      {
+        "case_id": 58,
+        "human": "FALSE_BINDING",
+        "v21": "",
+        "h1h2": "AMBIGUOUS",
+        "matches": false
+      },
+      {
+        "case_id": 59,
+        "human": "FALSE_BINDING",
+        "v21": "",
+        "h1h2": "FALSE_BINDING",
+        "matches": true
+      },
+      {
+        "case_id": 60,
+        "human": "FALSE_BINDING",
+        "v21": "",
+        "h1h2": "AMBIGUOUS",
+        "matches": false
+      },
+      {
+        "case_id": 61,
+        "human": "FALSE_BINDING",
+        "v21": "",
+        "h1h2": "FALSE_BINDING",
+        "matches": true
+      },
+      {
+        "case_id": 62,
+        "human": "FALSE_BINDING",
+        "v21": "",
+        "h1h2": "FALSE_BINDING",
+        "matches": true
+      },
+      {
+        "case_id": 63,
+        "human": "FALSE_BINDING",
+        "v21": "",
+        "h1h2": "FALSE_BINDING",
+        "matches": true
+      },
+      {
+        "case_id": 64,
+        "human": "FALSE_BINDING",
+        "v21": "",
+        "h1h2": "FALSE_BINDING",
+        "matches": true
+      },
+      {
+        "case_id": 65,
+        "human": "FALSE_BINDING",
+        "v21": "",
+        "h1h2": "FALSE_BINDING",
+        "matches": true
+      },
+      {
+        "case_id": 66,
+        "human": "FALSE_BINDING",
+        "v21": "",
+        "h1h2": "FALSE_BINDING",
+        "matches": true
+      },
+      {
+        "case_id": 67,
+        "human": "FALSE_BINDING",
+        "v21": "",
+        "h1h2": "FALSE_BINDING",
+        "matches": true
+      },
+      {
+        "case_id": 68,
+        "human": "FALSE_BINDING",
+        "v21": "",
+        "h1h2": "FALSE_BINDING",
+        "matches": true
+      },
+      {
+        "case_id": 69,
+        "human": "FALSE_BINDING",
+        "v21": "",
+        "h1h2": "FALSE_BINDING",
+        "matches": true
+      },
+      {
+        "case_id": 70,
+        "human": "FALSE_BINDING",
+        "v21": "",
+        "h1h2": "FALSE_BINDING",
+        "matches": true
+      },
+      {
+        "case_id": 71,
+        "human": "FALSE_BINDING",
+        "v21": "",
+        "h1h2": "FALSE_BINDING",
+        "matches": true
+      },
+      {
+        "case_id": 72,
+        "human": "FALSE_BINDING",
+        "v21": "",
+        "h1h2": "FALSE_BINDING",
+        "matches": true
+      },
+      {
+        "case_id": 73,
+        "human": "FALSE_BINDING",
+        "v21": "",
+        "h1h2": "FALSE_BINDING",
+        "matches": true
+      },
+      {
+        "case_id": 74,
+        "human": "FALSE_BINDING",
+        "v21": "",
+        "h1h2": "FALSE_BINDING",
+        "matches": true
+      },
+      {
+        "case_id": 75,
+        "human": "FALSE_BINDING",
+        "v21": "",
+        "h1h2": "FALSE_BINDING",
+        "matches": true
+      },
+      {
+        "case_id": 76,
+        "human": "AMBIGUOUS",
+        "v21": "",
+        "h1h2": "AMBIGUOUS",
+        "matches": true
+      },
+      {
+        "case_id": 77,
+        "human": "AMBIGUOUS",
+        "v21": "",
+        "h1h2": "AMBIGUOUS",
+        "matches": true
+      },
+      {
+        "case_id": 78,
+        "human": "AMBIGUOUS",
+        "v21": "",
+        "h1h2": "AMBIGUOUS",
+        "matches": true
+      },
+      {
+        "case_id": 79,
+        "human": "AMBIGUOUS",
+        "v21": "",
+        "h1h2": "AMBIGUOUS",
+        "matches": true
+      },
+      {
+        "case_id": 80,
+        "human": "AMBIGUOUS",
+        "v21": "",
+        "h1h2": "AMBIGUOUS",
+        "matches": true
+      },
+      {
+        "case_id": 81,
+        "human": "AMBIGUOUS",
+        "v21": "",
+        "h1h2": "AMBIGUOUS",
+        "matches": true
+      },
+      {
+        "case_id": 82,
+        "human": "AMBIGUOUS",
+        "v21": "",
+        "h1h2": "AMBIGUOUS",
+        "matches": true
+      },
+      {
+        "case_id": 83,
+        "human": "AMBIGUOUS",
+        "v21": "",
+        "h1h2": "AMBIGUOUS",
+        "matches": true
+      },
+      {
+        "case_id": 84,
+        "human": "AMBIGUOUS",
+        "v21": "",
+        "h1h2": "AMBIGUOUS",
+        "matches": true
+      },
+      {
+        "case_id": 85,
+        "human": "AMBIGUOUS",
+        "v21": "",
+        "h1h2": "AMBIGUOUS",
+        "matches": true
+      },
+      {
+        "case_id": 86,
+        "human": "AMBIGUOUS",
+        "v21": "",
+        "h1h2": "FALSE_BINDING",
+        "matches": false
+      },
+      {
+        "case_id": 87,
+        "human": "AMBIGUOUS",
+        "v21": "",
+        "h1h2": "AMBIGUOUS",
+        "matches": true
+      },
+      {
+        "case_id": 88,
+        "human": "AMBIGUOUS",
+        "v21": "",
+        "h1h2": "AMBIGUOUS",
+        "matches": true
+      },
+      {
+        "case_id": 89,
+        "human": "AMBIGUOUS",
+        "v21": "",
+        "h1h2": "AMBIGUOUS",
+        "matches": true
+      },
+      {
+        "case_id": 90,
+        "human": "AMBIGUOUS",
+        "v21": "",
+        "h1h2": "AMBIGUOUS",
+        "matches": true
+      },
+      {
+        "case_id": 91,
+        "human": "AMBIGUOUS",
+        "v21": "",
+        "h1h2": "CONTEXT_ONLY",
+        "matches": false
+      },
+      {
+        "case_id": 92,
+        "human": "AMBIGUOUS",
+        "v21": "",
+        "h1h2": "AMBIGUOUS",
+        "matches": true
+      },
+      {
+        "case_id": 93,
+        "human": "AMBIGUOUS",
+        "v21": "",
+        "h1h2": "AMBIGUOUS",
+        "matches": true
+      },
+      {
+        "case_id": 94,
+        "human": "AMBIGUOUS",
+        "v21": "",
+        "h1h2": "AMBIGUOUS",
+        "matches": true
+      },
+      {
+        "case_id": 95,
+        "human": "AMBIGUOUS",
+        "v21": "",
+        "h1h2": "AMBIGUOUS",
+        "matches": true
+      },
+      {
+        "case_id": 96,
+        "human": "AMBIGUOUS",
+        "v21": "",
+        "h1h2": "AMBIGUOUS",
+        "matches": true
+      },
+      {
+        "case_id": 97,
+        "human": "AMBIGUOUS",
+        "v21": "",
+        "h1h2": "AMBIGUOUS",
+        "matches": true
+      },
+      {
+        "case_id": 98,
+        "human": "AMBIGUOUS",
+        "v21": "",
+        "h1h2": "AMBIGUOUS",
+        "matches": true
+      },
+      {
+        "case_id": 99,
+        "human": "AMBIGUOUS",
+        "v21": "",
+        "h1h2": "AMBIGUOUS",
+        "matches": true
+      },
+      {
+        "case_id": 100,
+        "human": "AMBIGUOUS",
+        "v21": "",
+        "h1h2": "AMBIGUOUS",
+        "matches": true
+      },
+      {
+        "case_id": 101,
+        "human": "AMBIGUOUS",
+        "v21": "",
+        "h1h2": "AMBIGUOUS",
+        "matches": true
+      },
+      {
+        "case_id": 102,
+        "human": "AMBIGUOUS",
+        "v21": "",
+        "h1h2": "AMBIGUOUS",
+        "matches": true
+      },
+      {
+        "case_id": 103,
+        "human": "AMBIGUOUS",
+        "v21": "",
+        "h1h2": "AMBIGUOUS",
+        "matches": true
+      },
+      {
+        "case_id": 104,
+        "human": "AMBIGUOUS",
+        "v21": "",
+        "h1h2": "AMBIGUOUS",
+        "matches": true
+      },
+      {
+        "case_id": 105,
+        "human": "AMBIGUOUS",
+        "v21": "",
+        "h1h2": "AMBIGUOUS",
+        "matches": true
+      },
+      {
+        "case_id": 106,
+        "human": "AMBIGUOUS",
+        "v21": "",
+        "h1h2": "CONTEXT_ONLY",
+        "matches": false
+      },
+      {
+        "case_id": 107,
+        "human": "AMBIGUOUS",
+        "v21": "",
+        "h1h2": "TRUE_SUBJECT",
+        "matches": false
+      },
+      {
+        "case_id": 108,
+        "human": "AMBIGUOUS",
+        "v21": "",
+        "h1h2": "AMBIGUOUS",
+        "matches": true
+      },
+      {
+        "case_id": 109,
+        "human": "AMBIGUOUS",
+        "v21": "",
+        "h1h2": "AMBIGUOUS",
+        "matches": true
+      },
+      {
+        "case_id": 110,
+        "human": "AMBIGUOUS",
+        "v21": "",
+        "h1h2": "AMBIGUOUS",
+        "matches": true
+      },
+      {
+        "case_id": 111,
+        "human": "AMBIGUOUS",
+        "v21": "",
+        "h1h2": "AMBIGUOUS",
+        "matches": true
+      },
+      {
+        "case_id": 112,
+        "human": "AMBIGUOUS",
+        "v21": "",
+        "h1h2": "CONTEXT_ONLY",
+        "matches": false
+      },
+      {
+        "case_id": 113,
+        "human": "AMBIGUOUS",
+        "v21": "",
+        "h1h2": "AMBIGUOUS",
+        "matches": true
+      },
+      {
+        "case_id": 114,
+        "human": "AMBIGUOUS",
+        "v21": "",
+        "h1h2": "AMBIGUOUS",
+        "matches": true
+      },
+      {
+        "case_id": 115,
+        "human": "AMBIGUOUS",
+        "v21": "",
+        "h1h2": "AMBIGUOUS",
+        "matches": true
+      },
+      {
+        "case_id": 116,
+        "human": "CONTEXT",
+        "v21": "",
+        "h1h2": "CONTEXT_ONLY",
+        "matches": true
+      },
+      {
+        "case_id": 117,
+        "human": "CONTEXT",
+        "v21": "",
+        "h1h2": "AMBIGUOUS",
+        "matches": false
+      },
+      {
+        "case_id": 118,
+        "human": "CONTEXT",
+        "v21": "",
+        "h1h2": "AMBIGUOUS",
+        "matches": false
+      },
+      {
+        "case_id": 119,
+        "human": "CONTEXT",
+        "v21": "",
+        "h1h2": "AMBIGUOUS",
+        "matches": false
+      },
+      {
+        "case_id": 120,
+        "human": "CONTEXT",
+        "v21": "",
+        "h1h2": "AMBIGUOUS",
+        "matches": false
+      },
+      {
+        "case_id": 121,
+        "human": "CONTEXT",
+        "v21": "",
+        "h1h2": "AMBIGUOUS",
+        "matches": false
+      },
+      {
+        "case_id": 122,
+        "human": "CONTEXT",
+        "v21": "",
+        "h1h2": "AMBIGUOUS",
+        "matches": false
+      },
+      {
+        "case_id": 123,
+        "human": "CONTEXT",
+        "v21": "",
+        "h1h2": "AMBIGUOUS",
+        "matches": false
+      },
+      {
+        "case_id": 124,
+        "human": "CONTEXT",
+        "v21": "",
+        "h1h2": "CONTEXT_ONLY",
+        "matches": true
+      },
+      {
+        "case_id": 125,
+        "human": "CONTEXT",
+        "v21": "",
+        "h1h2": "AMBIGUOUS",
+        "matches": false
+      },
+      {
+        "case_id": 126,
+        "human": "CONTEXT",
+        "v21": "",
+        "h1h2": "AMBIGUOUS",
+        "matches": false
+      },
+      {
+        "case_id": 127,
+        "human": "CONTEXT",
+        "v21": "",
+        "h1h2": "CONTEXT_ONLY",
+        "matches": true
+      },
+      {
+        "case_id": 128,
+        "human": "CONTEXT",
+        "v21": "",
+        "h1h2": "CONTEXT_ONLY",
+        "matches": true
+      },
+      {
+        "case_id": 129,
+        "human": "CONTEXT",
+        "v21": "",
+        "h1h2": "AMBIGUOUS",
+        "matches": false
+      },
+      {
+        "case_id": 130,
+        "human": "CONTEXT",
+        "v21": "",
+        "h1h2": "AMBIGUOUS",
+        "matches": false
+      },
+      {
+        "case_id": 131,
+        "human": "CONTEXT",
+        "v21": "",
+        "h1h2": "AMBIGUOUS",
+        "matches": false
+      },
+      {
+        "case_id": 132,
+        "human": "CONTEXT",
+        "v21": "",
+        "h1h2": "CONTEXT_ONLY",
+        "matches": true
+      },
+      {
+        "case_id": 133,
+        "human": "CONTEXT",
+        "v21": "",
+        "h1h2": "AMBIGUOUS",
+        "matches": false
+      },
+      {
+        "case_id": 134,
+        "human": "CONTEXT",
+        "v21": "",
+        "h1h2": "CONTEXT_ONLY",
+        "matches": true
+      },
+      {
+        "case_id": 135,
+        "human": "CONTEXT",
+        "v21": "",
+        "h1h2": "AMBIGUOUS",
+        "matches": false
+      },
+      {
+        "case_id": 136,
+        "human": "CONTEXT",
+        "v21": "",
+        "h1h2": "AMBIGUOUS",
+        "matches": false
+      },
+      {
+        "case_id": 137,
+        "human": "CONTEXT",
+        "v21": "",
+        "h1h2": "AMBIGUOUS",
+        "matches": false
+      },
+      {
+        "case_id": 138,
+        "human": "CONTEXT",
+        "v21": "",
+        "h1h2": "AMBIGUOUS",
+        "matches": false
+      },
+      {
+        "case_id": 139,
+        "human": "CONTEXT",
+        "v21": "",
+        "h1h2": "AMBIGUOUS",
+        "matches": false
+      },
+      {
+        "case_id": 140,
+        "human": "CONTEXT",
+        "v21": "",
+        "h1h2": "AMBIGUOUS",
+        "matches": false
+      },
+      {
+        "case_id": 141,
+        "human": "CONTEXT",
+        "v21": "",
+        "h1h2": "AMBIGUOUS",
+        "matches": false
+      },
+      {
+        "case_id": 142,
+        "human": "CONTEXT",
+        "v21": "",
+        "h1h2": "AMBIGUOUS",
+        "matches": false
+      },
+      {
+        "case_id": 143,
+        "human": "CONTEXT",
+        "v21": "",
+        "h1h2": "AMBIGUOUS",
+        "matches": false
+      },
+      {
+        "case_id": 144,
+        "human": "CONTEXT",
+        "v21": "",
+        "h1h2": "CONTEXT_ONLY",
+        "matches": true
+      },
+      {
+        "case_id": 145,
+        "human": "CONTEXT",
+        "v21": "",
+        "h1h2": "CONTEXT_ONLY",
+        "matches": true
+      },
+      {
+        "case_id": 146,
+        "human": "CONTEXT",
+        "v21": "",
+        "h1h2": "CONTEXT_ONLY",
+        "matches": true
+      },
+      {
+        "case_id": 147,
+        "human": "CONTEXT",
+        "v21": "",
+        "h1h2": "AMBIGUOUS",
+        "matches": false
+      },
+      {
+        "case_id": 148,
+        "human": "CONTEXT",
+        "v21": "",
+        "h1h2": "CONTEXT_ONLY",
+        "matches": true
+      },
+      {
+        "case_id": 149,
+        "human": "CONTEXT",
+        "v21": "",
+        "h1h2": "AMBIGUOUS",
+        "matches": false
+      },
+      {
+        "case_id": 150,
+        "human": "CONTEXT",
+        "v21": "",
+        "h1h2": "AMBIGUOUS",
+        "matches": false
+      }
+    ]
+  },
+  "v48ag_prereg_locked": true,
+  "v48ag_not_used_for_tuning": true,
+  "DO_NOT_create_V48AI": true,
+  "production_unchanged": true,
+  "v21_unchanged": true
+}
